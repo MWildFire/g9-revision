@@ -24,6 +24,11 @@ export function MathHomePage() {
     <div>
       <TopicHero title={t('home.title')} intro={t('home.intro')} icon={<Hash size={28} />} />
 
+      <div className="mt-6 bg-bg-secondary border border-border rounded-md p-5" style={{ borderLeftColor: 'var(--color-accent-sky-deep)', borderLeftWidth: '4px' }}>
+        <h3 className="font-serif text-lg font-medium mb-2">{t('home.examStructure')}</h3>
+        <p className="text-sm text-text-secondary">{t('home.examStructureBody')}</p>
+      </div>
+
       <h2 className="font-serif text-xl font-medium mt-12 mb-4">{t('home.topics')}</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {TOPICS.map(({ to, key, icon: Icon, accent }) => (

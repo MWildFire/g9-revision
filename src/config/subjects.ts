@@ -52,7 +52,7 @@ export const SUBJECTS: Subject[] = [
     iconName: 'FlaskConical',
     accent: 'clay',
     route: '/chemistry',
-    topicsCount: 6,
+    topicsCount: 8,
     enabled: true,
     detail: 'full',
   },

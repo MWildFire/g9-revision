@@ -17,7 +17,167 @@
     "tenses": "Времена",
     "grammar": "Грамматика",
     "phrases": "Полезные фразы",
+    "units": "Темы экзамена (Capable/Proficient)",
+    "textTypes": "Типы текстов (письмо)",
     "extras": "Дополнительно (за G9)"
+  },
+  "unitsPage": {
+    "title": "Темы экзамена — Capable и Proficient",
+    "intro": "Четыре темы, экзаменуемые для фаз Capable и Proficient. У каждой темы своя лексика. Освой её для своей темы и для устной презентации.",
+    "notice": "Это точные темы из revision-листа учителя по французскому."
+  },
+  "unitsContent": {
+    "unite1": {
+      "title": "Unité 1 — Quels sont les facteurs de la bonne santé ?",
+      "vocab": [
+        "Une alimentation saine — здоровое питание",
+        "La malbouffe — нездоровая еда",
+        "L'obésité et la sous-alimentation — ожирение и недоедание",
+        "Avoir un style de vie sain — вести здоровый образ жизни",
+        "Chez le médecin — у врача (Proficient)",
+        "La santé et mon environnement — здоровье и моя среда (Proficient)"
+      ]
+    },
+    "unite2": {
+      "title": "Unité 2 — Qu'est-ce que la solidarité humaine et le service à la communauté ?",
+      "vocab": [
+        "La solidarité — солидарность. Comment être solidaire — как проявлять солидарность",
+        "Les 4 types de solidarité — 4 типа солидарности",
+        "Les 10 profils de l'apprenant — 10 профилей IB Learner",
+        "Les types de communauté — типы сообщества",
+        "Mon projet de service à la communauté — мой проект общественной работы",
+        "Les associations solidaires mondiales — мировые благотворительные ассоциации"
+      ]
+    },
+    "unite3": {
+      "title": "Unité 3 — Es-tu curieux ? (отпуск и туризм)",
+      "vocab": [
+        "Les vacances — каникулы",
+        "Les moyens de transport — средства транспорта",
+        "Le tourisme de masse — массовый туризм",
+        "Le tourisme durable — устойчивый туризм (Proficient)",
+        "Les activités de vacances — отпускные занятия",
+        "Les différents types de vacances — разные типы отпуска",
+        "La francophonie — франкофонный мир (Proficient)",
+        "La migration — миграция (Proficient)"
+      ]
+    },
+    "unite4": {
+      "title": "Unité 4 — L'éducation pour tous, l'éducation pour la paix",
+      "vocab": [
+        "Une journée traditionnelle à l'école — типичный школьный день",
+        "L'école du futur — школа будущего",
+        "Le système éducatif français — французская образовательная система",
+        "Le droit à l'éducation — право на образование",
+        "Les élèves dans le monde francophone — ученики во франкофонном мире",
+        "«Sur le chemin de l'école» (film) — документальный фильм «По дороге в школу»",
+        "Malala — активистка за право на образование",
+        "Ça sert à quoi l'école? Projets d'avenir — зачем нужна школа? Планы на будущее"
+      ]
+    },
+    "grammar": {
+      "title": "Грамматический чек-лист (обе фазы)",
+      "items": [
+        "Логические коннекторы — donc, parce que, cependant, en effet, ainsi",
+        "Comparatif et superlatif — plus…que / moins…que / le plus / le moins",
+        "Глаголы (правильные и неправильные) в настоящем",
+        "Мнения и обоснования — je pense que, à mon avis, selon moi",
+        "Passé composé + L'imparfait",
+        "Conditionnel + Hypothèses (si + imparfait, conditionnel)",
+        "Futur proche / futur simple",
+        "Дополнительно для Proficient: gérondif (en + -ant); avant de + infinitif; après avoir / être + participe passé; impersonal verbs (il faut que); subjonctif"
+      ]
+    },
+    "emergent": {
+      "title": "Emergent фаза — твои 4 темы",
+      "items": [
+        "Unité 1 — Mon identité, mes préférences, ma culture (семья, хобби, питание, праздники)",
+        "Unité 2 — Suis-je responsable de mon environnement ? (типы загрязнения, причины, последствия, действия)",
+        "Unité 3 — Es-tu curieux ? (страны, города, транспорт, отпуск, сезоны)",
+        "Unité 4 — À quoi sert l'école ? (предметы, расписание, профессии, форма, планы учёбы)"
+      ]
+    }
+  },
+  "textTypesPage": {
+    "title": "Типы текстов для письменного производства",
+    "intro": "Буклет учителя выделяет эти типы текстов для Criterion D. У каждого свои конвенции.",
+    "discours": {
+      "title": "Le discours (речь / выступление)",
+      "body": "Информативный, объяснительный, аргументативный текст, обращённый к целевой аудитории (район, ассоциация, одноклассники).",
+      "conventions": [
+        "Formule d'appel и закрывающая формула",
+        "Первое лицо (Je)",
+        "Стандартный/формальный регистр (vouvoiement)",
+        "Восклицательные / повелительные предложения",
+        "Введение: представься, обозначь тему, зацепи аудиторию (юмор, статистика, шокирующий факт)",
+        "Лексика по теме",
+        "Риторические вопросы",
+        "Фигуры речи / повторы / сравнения",
+        "Развитие: факты, советы, примеры, статистика",
+        "Заключение: подытожь, смотри в будущее, поблагодари аудиторию"
+      ],
+      "phrases": [
+        "Mesdames et messieurs, chers professeurs, chers camarades…",
+        "Merci d'être venus ce soir assister à…",
+        "C'est un honneur pour moi d'être ici aujourd'hui.",
+        "Nous sommes rassemblés / réunis ici aujourd'hui pour…",
+        "Avant de commencer, je vous prie d'éteindre vos portables.",
+        "M'entendez-vous tous bien au fond de la salle ?",
+        "J'aimerais vous parler aujourd'hui d'un sujet qui nous concerne tous.",
+        "Je peux maintenant répondre à vos questions.",
+        "Merci de votre attention / Je vous remercie."
+      ]
+    },
+    "article": {
+      "title": "L'article (статья)",
+      "body": "Текст в газете или журнале, бумажный или онлайн. Non-fiction: сообщает о событии, представляет факты или излагает точку зрения.",
+      "conventions": [
+        "Заголовок статьи",
+        "Название газеты/журнала",
+        "Chapeau (краткое описание статьи)",
+        "Различная типографика (курсив, жирный, подчёркнутый)",
+        "Свидетельства и цитаты",
+        "Условные предложения для непроверенного (il se pourrait que…)",
+        "Дата публикации и имя журналиста",
+        "Подзаголовки",
+        "Подписанное изображение",
+        "Статистика (d'après une étude…, un sondage récent…)",
+        "Вопросительные и восклицательные предложения"
+      ],
+      "phrases": [
+        "Notre journaliste a mené l'enquête.",
+        "D'après une étude réalisée par l'Institut de la statistique du Québec, … %…",
+        "Un sondage récent a montré que…",
+        "Après avoir interrogé de nombreuses personnes à ce sujet, on peut affirmer que…",
+        "Le / la ministre a insisté sur le fait que… / a martelé que… / a déclaré que…",
+        "Une enquête a été menée en caméra cachée.",
+        "La nouvelle a ému / choqué / surpris la population.",
+        "C'est maintenant officiel…",
+        "Selon des sources sûres, le Président fera une intervention télévisée à ce sujet ce soir."
+      ]
+    },
+    "lettre": {
+      "title": "La lettre officielle (официальное письмо)",
+      "body": "Коммуникация с тем, кого не знаешь лично, или с организацией. Конкретная цель: поблагодарить, запросить, информировать, описать, убедить, протестовать.",
+      "conventions": [
+        "Место и дата — справа сверху",
+        "Контакты получателя — слева сверху",
+        "Контакты отправителя — справа сверху",
+        "Тема письма — под контактами получателя",
+        "Formule d'appel (Madame, Monsieur,)",
+        "Тело по абзацам",
+        "Formule de politesse (Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées)",
+        "Подпись"
+      ]
+    },
+    "blog": {
+      "title": "Le blog (блог)",
+      "body": "Личный, нарративный стиль. Менее формально, первое лицо, часто риторические вопросы для вовлечения. Менее формально, чем статья."
+    },
+    "courriel": {
+      "title": "Le courriel / l'email",
+      "body": "Менее формально, чем письмо. Тема, приветствие, краткое тело, подпись. Используется как для формального, так и для неформального общения в зависимости от контекста."
+    }
   },
   "extras": {
     "title": "Французский — дополнительно",

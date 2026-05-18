@@ -2,42 +2,185 @@
   "subjectName": "Chemistry",
   "home": {
     "title": "Chemistry — Revision",
-    "intro": "Detailed content will be added once the revision booklet is available. Below: planned topic structure and an overview of the IB MYP G9 Chemistry essentials.",
-    "draftNotice": "Planned topics:",
-    "essentialsHeading": "Essentials to know"
+    "intro": "Six core topics for G9 IB MYP Chemistry: atomic structure, bonding, reactions, stoichiometry, acids & bases, energy changes.",
+    "topicsHeading": "Topics"
   },
-  "topics": {
-    "atomsPeriodic": "Atomic structure & periodic table",
-    "bonding": "Bonding — ionic, covalent, metallic",
-    "reactions": "Chemical reactions & equations",
-    "stoichiometry": "Stoichiometry — moles, mass calculations",
-    "acidsBases": "Acids, bases and salts",
-    "energy": "Energy in chemistry — exothermic / endothermic"
+  "nav": {
+    "home": "Overview",
+    "atomsPeriodic": "Atoms & Periodic Table",
+    "bonding": "Bonding",
+    "reactions": "Reactions & Equations",
+    "stoichiometry": "Stoichiometry",
+    "acidsBases": "Acids, Bases, Salts",
+    "energy": "Energy Changes"
   },
-  "essentials": {
-    "protonsNeutrons": {
-      "title": "Atomic structure",
-      "body": "Atomic number Z = number of protons. Mass number A = protons + neutrons. Isotopes share Z but differ in A."
-    },
-    "ionicVsCovalent": {
-      "title": "Ionic vs covalent",
-      "body": "Ionic: metal + non-metal, electrons transferred. Covalent: non-metal + non-metal, electrons shared."
-    },
-    "moles": {
-      "title": "Mole concept",
-      "body": "n = m / M. Avogadro: 1 mol = 6.022 × 10²³ particles. At STP, 1 mol of any gas occupies 22.4 dm³."
-    },
-    "balancing": {
-      "title": "Balancing equations",
-      "body": "Atoms must be conserved. Adjust coefficients (not subscripts). Check H and O last."
-    },
-    "pH": {
-      "title": "pH scale",
-      "body": "pH 0–7 acidic, 7 neutral, 7–14 alkaline. Each whole number = 10× change in H⁺ concentration."
-    },
-    "reactionTypes": {
-      "title": "Reaction types",
-      "body": "Combination, decomposition, single displacement, double displacement (incl. neutralisation), combustion."
+  "atomsPeriodic": {
+    "title": "Atomic Structure & Periodic Table",
+    "intro": "Atoms, isotopes, electronic configuration, and how the periodic table organises elements.",
+    "sections": {
+      "atomicStructure": {
+        "title": "Atomic structure",
+        "body": "Atoms have a tiny nucleus (protons + neutrons) and orbiting electrons. Protons are positive (+), neutrons neutral (0), electrons negative (−). Atomic number Z = number of protons (defines element). Mass number A = protons + neutrons."
+      },
+      "isotopes": {
+        "title": "Isotopes",
+        "body": "Same element, different number of neutrons. Same Z, different A. Identical chemical behaviour, slightly different physical (mass-dependent). Example: ¹²C and ¹⁴C."
+      },
+      "electronConfig": {
+        "title": "Electronic configuration",
+        "body": "Electron shells fill in order: 2, 8, 8, 18… Inner shells first. Example: sodium (Z=11) → 2,8,1. The outer shell (valence) determines reactivity."
+      },
+      "periodicTable": {
+        "title": "Reading the periodic table",
+        "body": "Groups (columns) share outer electrons and chemistry. Periods (rows) = number of shells. Group 1 = alkali metals (reactive). Group 7 = halogens. Group 0/8 = noble gases (inert, full outer shell)."
+      },
+      "trends": {
+        "title": "Periodic trends",
+        "body": "Down Group 1: more reactive (outer electron further from nucleus, easier to lose). Down Group 7: less reactive. Across a period: metallic → non-metallic character."
+      }
+    }
+  },
+  "bonding": {
+    "title": "Bonding",
+    "intro": "How atoms join: ionic, covalent, metallic. Each gives different properties.",
+    "sections": {
+      "ionic": {
+        "title": "Ionic bonding",
+        "body": "Metal + non-metal. Metal LOSES electrons (forms cation, +). Non-metal GAINS electrons (anion, −). Opposite charges attract. Example: Na⁺ + Cl⁻ → NaCl. High melting point, conducts when molten or dissolved, crystalline."
+      },
+      "covalent": {
+        "title": "Covalent bonding",
+        "body": "Non-metal + non-metal. Atoms SHARE electrons to fill outer shell. Single bond = 1 pair shared, double = 2 pairs (O=O), triple = 3 (N≡N). Simple molecules: low melting point, don't conduct. Giant covalent (diamond, graphite): very high melting."
+      },
+      "metallic": {
+        "title": "Metallic bonding",
+        "body": "Sea of delocalised electrons surrounding positive metal ions. Explains: conducts (mobile electrons), malleable (layers slide), high melting point (strong attraction), shiny (free electrons reflect light)."
+      },
+      "comparison": {
+        "title": "Comparing structures",
+        "items": {
+          "ionic": "Ionic: high mp, brittle, conducts when molten/aq",
+          "simpleCovalent": "Simple covalent (H₂O, CO₂): low mp, non-conductor",
+          "giantCovalent": "Giant covalent (diamond, SiO₂): very high mp, hard, non-conductor",
+          "metallic": "Metallic: high mp, malleable, conductor, lustrous"
+        }
+      }
+    }
+  },
+  "reactions": {
+    "title": "Reactions & Equations",
+    "intro": "Types of chemical reactions and how to balance equations correctly.",
+    "sections": {
+      "types": {
+        "title": "Reaction types",
+        "items": {
+          "combination": "Combination (synthesis): A + B → AB. e.g., 2H₂ + O₂ → 2H₂O",
+          "decomposition": "Decomposition: AB → A + B. e.g., 2H₂O₂ → 2H₂O + O₂",
+          "displacement": "Single displacement: more reactive metal displaces less reactive. e.g., Zn + CuSO₄ → ZnSO₄ + Cu",
+          "doubleDisplacement": "Double displacement: AB + CD → AD + CB. e.g., AgNO₃ + NaCl → AgCl + NaNO₃",
+          "combustion": "Combustion: fuel + O₂ → CO₂ + H₂O (+ heat)",
+          "neutralisation": "Neutralisation: acid + base → salt + water. e.g., HCl + NaOH → NaCl + H₂O"
+        }
+      },
+      "balancing": {
+        "title": "Balancing equations — step by step",
+        "body": "1) Write word equation. 2) Convert to formulae. 3) Count atoms on each side. 4) Add coefficients (NOT subscripts) to balance. 5) Check H and O last. Example: __ Fe + __ O₂ → __ Fe₂O₃ → 4Fe + 3O₂ → 2Fe₂O₃."
+      },
+      "stateSymbols": {
+        "title": "State symbols",
+        "body": "(s) solid, (l) liquid, (g) gas, (aq) aqueous (dissolved in water). Always include in answers."
+      },
+      "ionic": {
+        "title": "Ionic equations",
+        "body": "Write only the ions that actually react. Spectator ions are omitted. Example: H⁺(aq) + OH⁻(aq) → H₂O(l) for any strong acid + strong alkali."
+      }
+    }
+  },
+  "stoichiometry": {
+    "title": "Stoichiometry",
+    "intro": "Quantitative chemistry — how much of each substance reacts.",
+    "sections": {
+      "moles": {
+        "title": "The mole",
+        "body": "1 mole = 6.022 × 10²³ particles (Avogadro). n = m / M, where m is mass (g) and M is molar mass (g/mol). At STP (0 °C, 100 kPa), 1 mol gas = 22.7 dm³."
+      },
+      "molarMass": {
+        "title": "Molar mass",
+        "body": "Sum of atomic masses from the periodic table. Example: H₂O = 2(1) + 16 = 18 g/mol. CaCO₃ = 40 + 12 + 3(16) = 100 g/mol."
+      },
+      "calculations": {
+        "title": "Reaction calculations",
+        "body": "1) Balanced equation. 2) Find moles of given. 3) Use mole ratio from equation. 4) Convert moles to mass/volume. Example: 4g of Mg burns in O₂ — how much MgO? n(Mg) = 4/24 = 0.167 mol → 0.167 mol MgO → mass = 0.167 × 40 = 6.67 g."
+      },
+      "limiting": {
+        "title": "Limiting reactant",
+        "body": "The reactant fully used up first. Determines product amount. Calculate moles of each, divide by coefficient — smallest result is the limiting one."
+      },
+      "percentYield": {
+        "title": "Percent yield",
+        "body": "% yield = (actual mass ÷ theoretical mass) × 100. Theoretical is from stoichiometry assuming complete reaction."
+      }
+    }
+  },
+  "acidsBases": {
+    "title": "Acids, Bases & Salts",
+    "intro": "pH scale, indicators, and key reactions of acids.",
+    "sections": {
+      "definitions": {
+        "title": "Definitions",
+        "items": {
+          "acid": "Acid — releases H⁺ in water (e.g., HCl, H₂SO₄, HNO₃)",
+          "base": "Base — accepts H⁺ (metal oxides, hydroxides, carbonates)",
+          "alkali": "Alkali — soluble base, releases OH⁻ in water (e.g., NaOH)",
+          "salt": "Salt — ionic compound from acid + base reaction"
+        }
+      },
+      "pH": {
+        "title": "pH scale",
+        "body": "0–7 acidic, 7 neutral, 7–14 alkaline. Each pH unit = 10× change in [H⁺]. Strong acid pH ≈ 0–2. Weak acid pH ≈ 3–6. Pure water pH = 7."
+      },
+      "indicators": {
+        "title": "Indicators",
+        "items": {
+          "litmus": "Litmus — red (acid) / blue (alkali)",
+          "phenolphthalein": "Phenolphthalein — colourless (acid) / pink (alkali)",
+          "universal": "Universal indicator — full colour spectrum gives approx. pH"
+        }
+      },
+      "reactions": {
+        "title": "Acid reactions",
+        "items": {
+          "metal": "Acid + reactive metal → salt + hydrogen. e.g., Zn + 2HCl → ZnCl₂ + H₂",
+          "base": "Acid + base → salt + water (neutralisation). e.g., 2HCl + CuO → CuCl₂ + H₂O",
+          "carbonate": "Acid + carbonate → salt + water + CO₂. e.g., 2HCl + CaCO₃ → CaCl₂ + H₂O + CO₂",
+          "alkali": "Acid + alkali → salt + water. e.g., HCl + NaOH → NaCl + H₂O"
+        }
+      }
+    }
+  },
+  "energy": {
+    "title": "Energy Changes",
+    "intro": "Exothermic and endothermic reactions, energy diagrams, calculations.",
+    "sections": {
+      "types": {
+        "title": "Exothermic vs endothermic",
+        "items": {
+          "exothermic": "Exothermic — releases heat (surroundings warm up). ΔH negative. e.g., combustion, neutralisation, most reactions.",
+          "endothermic": "Endothermic — absorbs heat (surroundings cool). ΔH positive. e.g., thermal decomposition, dissolving NH₄NO₃."
+        }
+      },
+      "profiles": {
+        "title": "Energy profile diagrams",
+        "body": "x-axis: reaction progress. y-axis: energy. Reactants → activation energy peak → products. Exothermic: products lower than reactants. Endothermic: products higher. Catalyst lowers activation energy without changing ΔH."
+      },
+      "bondEnergies": {
+        "title": "Bond energies",
+        "body": "Breaking bonds requires energy (endothermic). Making bonds releases energy (exothermic). ΔH = (energy in to break bonds) − (energy out from new bonds). If +ve: endothermic; if −ve: exothermic."
+      },
+      "calorimetry": {
+        "title": "Calorimetry",
+        "body": "q = m × c × ΔT (heat in joules = mass × specific heat capacity × temperature change). For water c = 4.18 J/g·°C. Then ΔH (in kJ/mol) = q / (1000 × n)."
+      }
     }
   }
 }

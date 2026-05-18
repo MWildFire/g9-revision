@@ -1,0 +1,51 @@
+import { ReactNode } from 'react';
+import { useTranslation } from 'react-i18next';
+import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
+
+interface Props {
+  topicKey: string;
+  icon: ReactNode;
+  children: ReactNode;
+}
+
+export function ChemistryTopicLayout({ topicKey, icon, children }: Props) {
+  const { t } = useTranslation('chemistry');
+  return (
+    <div>
+      <TopicHero title={t(`${topicKey}.title`)} intro={t(`${topicKey}.intro`)} icon={icon} />
+      {children}
+    </div>
+  );
+}
+
+interface SectionProps {
+  title: string;
+  body?: string;
+  items?: { key: string; text: string }[];
+  borderColor?: string;
+}
+
+export function ChemSection({ title, body, items, borderColor }: SectionProps) {
+  return (
+    <>
+      <SectionHeading>{title}</SectionHeading>
+      {body ? (
+        <p
+          className="bg-bg-secondary border border-border rounded-md p-4 text-sm"
+          style={borderColor ? { borderLeftColor: borderColor, borderLeftWidth: '3px' } : undefined}
+        >
+          {body}
+        </p>
+      ) : null}
+      {items && items.length > 0 ? (
+        <ul className="space-y-2">
+          {items.map((item) => (
+            <li key={item.key} className="bg-bg-secondary border border-border rounded-md px-4 py-2.5 text-sm">
+              {item.text}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </>
+  );
+}

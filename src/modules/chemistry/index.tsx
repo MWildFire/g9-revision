@@ -1,52 +1,39 @@
 import { Routes, Route } from 'react-router-dom';
-import { FlaskConical, Hourglass } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
-import { TopicHero, SectionHeading } from '../../components/content/TopicHero';
+import { Home as HomeIcon, Atom, Link as LinkIcon, FlaskRound, Calculator, Droplet, Flame } from 'lucide-react';
+import { SubjectSidebar, TopicNavItem } from '../../components/layout/SubjectSidebar';
+import { ChemistryHomePage } from './pages/ChemistryHomePage';
+import { AtomsPeriodicPage } from './pages/AtomsPeriodicPage';
+import { BondingPage } from './pages/BondingPage';
+import { ReactionsPage } from './pages/ReactionsPage';
+import { StoichiometryPage } from './pages/StoichiometryPage';
+import { AcidsBasesPage } from './pages/AcidsBasesPage';
+import { EnergyPage } from './pages/EnergyPage';
 
-const TOPICS = ['atomsPeriodic', 'bonding', 'reactions', 'stoichiometry', 'acidsBases', 'energy'];
-const ESSENTIALS = ['protonsNeutrons', 'ionicVsCovalent', 'moles', 'balancing', 'pH', 'reactionTypes'];
-
-function ChemistryHome() {
-  const { t } = useTranslation('chemistry');
-  return (
-    <div>
-      <TopicHero title={t('home.title')} intro={t('home.intro')} icon={<FlaskConical size={28} />} />
-
-      <SectionHeading>{t('home.draftNotice')}</SectionHeading>
-      <div className="bg-bg-secondary border border-border rounded-md p-4">
-        <ul className="space-y-2">
-          {TOPICS.map((id) => (
-            <li key={id} className="flex items-center gap-2 text-sm">
-              <Hourglass size={14} className="text-text-muted" />
-              {t(`topics.${id}`)}
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <SectionHeading>{t('home.essentialsHeading')}</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        {ESSENTIALS.map((id) => (
-          <article
-            key={id}
-            className="bg-bg-secondary border border-border rounded-md p-4"
-            style={{ borderLeftColor: 'var(--color-accent-clay)', borderLeftWidth: '3px' }}
-          >
-            <h3 className="font-serif text-lg font-medium mb-1">{t(`essentials.${id}.title`)}</h3>
-            <p className="text-sm text-text-secondary">{t(`essentials.${id}.body`)}</p>
-          </article>
-        ))}
-      </div>
-    </div>
-  );
-}
+const TOPICS: TopicNavItem[] = [
+  { to: '/chemistry', key: 'home', icon: HomeIcon },
+  { to: '/chemistry/atoms-periodic', key: 'atomsPeriodic', icon: Atom },
+  { to: '/chemistry/bonding', key: 'bonding', icon: LinkIcon },
+  { to: '/chemistry/reactions', key: 'reactions', icon: FlaskRound },
+  { to: '/chemistry/stoichiometry', key: 'stoichiometry', icon: Calculator },
+  { to: '/chemistry/acids-bases', key: 'acidsBases', icon: Droplet },
+  { to: '/chemistry/energy', key: 'energy', icon: Flame },
+];
 
 export function ChemistryModule() {
   return (
-    <div className="max-w-7xl w-full mx-auto px-4 md:px-6 py-8">
-      <Routes>
-        <Route index element={<ChemistryHome />} />
-      </Routes>
+    <div className="max-w-7xl w-full mx-auto px-4 md:px-6 py-8 flex gap-8">
+      <SubjectSidebar subject="chemistry" topics={TOPICS} />
+      <main className="flex-1 min-w-0">
+        <Routes>
+          <Route index element={<ChemistryHomePage />} />
+          <Route path="atoms-periodic" element={<AtomsPeriodicPage />} />
+          <Route path="bonding" element={<BondingPage />} />
+          <Route path="reactions" element={<ReactionsPage />} />
+          <Route path="stoichiometry" element={<StoichiometryPage />} />
+          <Route path="acids-bases" element={<AcidsBasesPage />} />
+          <Route path="energy" element={<EnergyPage />} />
+        </Routes>
+      </main>
     </div>
   );
 }

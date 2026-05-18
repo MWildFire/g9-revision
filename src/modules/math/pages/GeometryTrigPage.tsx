@@ -1,6 +1,7 @@
 import { Triangle } from 'lucide-react';
 import { MathTopicLayout } from '../components/MathTopicLayout';
 import { SectorSegmentCalc } from '../../../components/simulations/math/SectorSegmentCalc';
+import { RightTriangleTrainer } from '../../../components/simulations/math/RightTriangleTrainer';
 
 const SUB_TOPICS = [
   'pythagoras', 'trig', 'bearings', 'sineCosine', 'triangleArea',
@@ -15,6 +16,7 @@ export function GeometryTrigPage() {
       subTopicIds={SUB_TOPICS}
       icon={<Triangle size={28} />}
     >
+      <RightTriangleTrainer />
       <SectorSegmentCalc />
     </MathTopicLayout>
   );

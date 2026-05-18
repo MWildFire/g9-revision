@@ -1,16 +1,20 @@
 import { FlaskRound } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
+import { DetailedItem } from '../../../components/content/DetailedCard';
 
 const TYPE_KEYS = ['combination', 'decomposition', 'displacement', 'doubleDisplacement', 'combustion', 'neutralisation'];
 
 export function ReactionsPage() {
   const { t } = useTranslation('chemistry');
+  const types = TYPE_KEYS.map((k) => t(`reactions.sections.types.detailed.${k}`, { returnObjects: true }) as DetailedItem);
+
   return (
     <ChemistryTopicLayout topicKey="reactions" icon={<FlaskRound size={28} />}>
       <ChemSection
         title={t('reactions.sections.types.title')}
-        items={TYPE_KEYS.map((k) => ({ key: k, text: t(`reactions.sections.types.items.${k}`) }))}
+        detailedItems={types}
+        borderColor="var(--color-accent-clay)"
       />
       <ChemSection
         title={t('reactions.sections.balancing.title')}

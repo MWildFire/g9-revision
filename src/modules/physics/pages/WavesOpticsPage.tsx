@@ -12,6 +12,7 @@ import { EMSpectrum } from '../../../components/simulations/physics/EMSpectrum';
 import { LensSim } from '../../../components/simulations/physics/LensSim';
 import { SoundWave } from '../../../components/simulations/physics/SoundWave';
 import { ColorFilters } from '../../../components/simulations/physics/ColorFilters';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
 const TERMS = [
   'amplitude',
@@ -27,16 +28,31 @@ const TERMS = [
   'filter',
 ];
 
+const CONCEPTS = ['waveTypes', 'waveEquation', 'emSpectrum', 'reflection', 'refraction', 'sound'];
 const FORMULAS = ['waveSpeed', 'period', 'snell', 'lens'];
 
 export function WavesOpticsPage() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
+  const conceptsHeading = lang === 'ru' ? 'Глубокий разбор' : 'Deeper concepts';
+
   return (
     <div>
       <TopicHero title={t('wavesOptics.title')} intro={t('wavesOptics.intro')} icon={<Waves size={28} />} />
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="wavesOptics" termIds={TERMS} />
+
+      <SectionHeading>{conceptsHeading}</SectionHeading>
+      <div className="space-y-3">
+        {CONCEPTS.map((id) => {
+          const item = t(`wavesOptics.concepts.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-clay)" labels={labels} />;
+        })}
+      </div>
 
       <SectionHeading>{t('common.simulations')}</SectionHeading>
       <div className="space-y-6">

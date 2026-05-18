@@ -11,6 +11,7 @@ import { DensityFloater } from '../../../components/simulations/physics/DensityF
 import { FluidPressure } from '../../../components/simulations/physics/FluidPressure';
 import { EnergyTransformations } from '../../../components/simulations/physics/EnergyTransformations';
 import { WorkPower } from '../../../components/simulations/physics/WorkPower';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
 const TERMS = [
   'contactForce',
@@ -25,10 +26,17 @@ const TERMS = [
   'fluidPressure',
 ];
 
+const CONCEPTS = ['hookesLaw', 'work', 'energyStores', 'pressure', 'density', 'fluidPressure'];
 const FORMULAS = ['hooke', 'work', 'pressure', 'density', 'fluidPressure'];
 
 export function ForcesEnergyPage() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
+  const conceptsHeading = lang === 'ru' ? 'Глубокий разбор' : 'Deeper concepts';
+
   return (
     <div>
       <TopicHero
@@ -39,6 +47,14 @@ export function ForcesEnergyPage() {
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="forcesEnergy" termIds={TERMS} />
+
+      <SectionHeading>{conceptsHeading}</SectionHeading>
+      <div className="space-y-3">
+        {CONCEPTS.map((id) => {
+          const item = t(`forcesEnergy.concepts.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-sage)" labels={labels} />;
+        })}
+      </div>
 
       <SectionHeading>{t('common.simulations')}</SectionHeading>
       <div className="space-y-6">

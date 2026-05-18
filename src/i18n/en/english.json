@@ -468,25 +468,73 @@
   "reading": {
     "strategies": {
       "title": "Strategies",
-      "items": {
-        "skim": "Skim — get the gist quickly (60 seconds)",
-        "scan": "Scan — find specific information (names, dates, keywords)",
-        "annotate": "Annotate — underline key phrases, note tone, mark devices",
-        "infer": "Infer — read between the lines for meaning not directly stated"
+      "detailed": {
+        "skim": {
+          "name": "Skim",
+          "use": "Get the gist of an unseen text in 60 seconds — before any analysis.",
+          "rule": "Read the title, first paragraph, last paragraph, and the first sentence of every other paragraph. Note: what's the text about? Who wrote it? What tone?",
+          "tip": "Don't read every word. Your goal is to know WHAT and ROUGHLY HOW, not the detail."
+        },
+        "scan": {
+          "name": "Scan",
+          "use": "Find a specific piece of information (a name, date, key word, quote).",
+          "rule": "Move your eyes quickly down the page looking only for the keyword. Stop when you find it; then read the sentence around it.",
+          "examples": ["Q: 'When was Macbeth crowned?' → scan for years or king-related words.", "Q: 'Find a metaphor in paragraph 2.' → scan paragraph 2 for figurative language."]
+        },
+        "annotate": {
+          "name": "Annotate",
+          "use": "Mark up the text as you read so you can find evidence quickly when answering.",
+          "rule": "Underline key phrases. Circle techniques (metaphor, alliteration). In the margin, write tone words (foreboding, jubilant). Note the SHIFT — where does the tone change?",
+          "tip": "Use a system: device = circle, theme = underline, mood word = box. Stay consistent."
+        },
+        "infer": {
+          "name": "Infer",
+          "use": "Read between the lines — what is the author IMPLYING but not directly saying?",
+          "rule": "Combine clues in the text + your own world knowledge. Ask: 'What does this detail TELL me about the character / situation / writer's view?'",
+          "examples": ["'She slammed the door' → not just describing an action; implies anger.", "'The sky was the colour of bruises' → not just weather; implies pain or sadness."]
+        }
       }
     },
     "questionTypes": {
       "title": "Common question types",
-      "items": {
-        "literal": "Literal — 'What does the text say?' Find direct evidence.",
-        "inferential": "Inferential — 'What does this suggest?' Combine clues + knowledge.",
-        "language": "Language — analyse word choice, devices, structure. Quote + explain effect.",
-        "evaluation": "Evaluation — 'How effective is X?' Take a position, support with evidence."
+      "detailed": {
+        "literal": {
+          "name": "Literal questions",
+          "use": "Test direct understanding: 'What does the text say?' Lowest level.",
+          "rule": "Find the evidence directly in the text. Don't interpret. Quote or paraphrase exactly. Usually 1–2 marks.",
+          "examples": ["'State one reason Macbeth feels afraid.' → quote directly.", "'Name two effects of climate change mentioned.' → list directly from text."]
+        },
+        "inferential": {
+          "name": "Inferential questions",
+          "use": "Test reading between the lines: 'What does this suggest?'",
+          "rule": "Combine textual clues with your own reasoning. Use phrases like 'this suggests…', 'implies…', 'hints at…'. Always link back to a specific word or detail.",
+          "examples": ["'What does the writer's choice of \"cold\" suggest about the relationship?' → suggests emotional distance, not physical temperature."]
+        },
+        "language": {
+          "name": "Language analysis",
+          "use": "Test how the writer creates meaning: 'How does the writer use language?'",
+          "rule": "QUOTE the language → NAME the technique (metaphor, sibilance, asyndeton) → EXPLAIN the effect on the reader. The 'effect' part is what earns marks.",
+          "examples": ["The metaphor 'a sea of doubt' likens hesitation to water — suggesting Macbeth is drowning in his choices, overwhelmed and unable to act."],
+          "tip": "Never say 'the writer uses a metaphor to make it more interesting.' Always say WHAT specific feeling, image, or idea the technique creates."
+        },
+        "evaluation": {
+          "name": "Evaluation questions",
+          "use": "Test critical judgement: 'How effective is X?' / 'To what extent…?'",
+          "rule": "Take a clear position (very effective / partly effective / ineffective) and DEFEND it with multiple pieces of evidence. Consider counter-arguments.",
+          "examples": ["'How effective is the writer's use of imagery?' → Argue: highly effective because it creates X, Y, Z; though one might say Z is overused, this is offset by W."]
+        }
       }
     },
     "PEEL": {
       "title": "PEEL paragraph structure",
-      "body": "Point — your claim. Evidence — quote from text. Explain — what does the quote show? Link — back to the question. Use PEEL for every analytical paragraph."
+      "body": "PEEL is the gold standard for analytical paragraphs. It guarantees you cover every step the examiner is looking for. Use it for EVERY body paragraph in your literature or non-fiction analysis.",
+      "steps": {
+        "p": "POINT — open with your topic sentence. State the specific claim this paragraph proves. e.g., 'Shakespeare presents Lady Macbeth as more ruthless than her husband in Act 1.'",
+        "e1": "EVIDENCE — quote DIRECTLY from the text. Use quotation marks. Keep quotes short — 1 line or less. e.g., 'She demands the spirits to \"unsex me here.\"'",
+        "e2": "EXPLAIN — analyse what the quote shows. Name the technique. Explain the EFFECT on the reader. e.g., 'The imperative \"unsex\" is a violent rejection of femininity, suggesting she sees compassion as a weakness preventing the murder.'",
+        "l": "LINK — connect back to the question and forward to the next paragraph. e.g., 'This ruthless ambition contrasts sharply with Macbeth's hesitation in Scene 7, setting up the central tension of the play.'"
+      },
+      "tip": "Hit ALL four every time. Examiners look for them as a checklist. Don't write three or four PEEL paragraphs and skip the conclusion — even 30 seconds of conclusion adds marks."
     }
   },
   "essaysPage": {

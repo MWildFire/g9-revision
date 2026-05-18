@@ -132,20 +132,60 @@
       },
       "erosion": {
         "title": "Erosion types",
-        "items": {
-          "abrasion": "Abrasion — material in transit scrapes the bed and banks",
-          "attrition": "Attrition — sediment particles collide and break apart",
-          "hydraulicAction": "Hydraulic action — force of water cracks the bedrock",
-          "solution": "Solution — chemical dissolution of soluble rocks"
+        "detailed": {
+          "abrasion": {
+            "name": "Abrasion (corrasion)",
+            "rule": "Sediment carried by the river acts like sandpaper — it scrapes the bed and banks, wearing them away.",
+            "examples": ["Pebbles rolling along the bed smooth the channel.", "High velocity in flood = more abrasion (larger load).", "Creates potholes in upper-course bedrock — circular hollows ground out by pebbles spun by eddies."],
+            "tip": "Most active in the upper course where flow is turbulent and the load is angular."
+          },
+          "attrition": {
+            "name": "Attrition",
+            "rule": "Sediment particles collide with each other (not the bed) and break into smaller, rounder pieces over time.",
+            "examples": ["Angular boulders in the upper course → smooth pebbles by the middle course → fine sand at the mouth.", "This is why river beaches near the mouth feel sandy, not stony."],
+            "tip": "Attrition doesn't erode the bed — it erodes the LOAD itself. Don't confuse with abrasion."
+          },
+          "hydraulicAction": {
+            "name": "Hydraulic action",
+            "rule": "The sheer force of water hits the bank/bed. Trapped air is compressed in cracks → weakens rock over repeated cycles.",
+            "examples": ["Most powerful at waterfalls where plunging water hits a plunge pool.", "Undermines the outside of meander bends where flow is fastest."],
+            "tip": "No load needed — purely mechanical force. Strongest in floods."
+          },
+          "solution": {
+            "name": "Solution (corrosion)",
+            "rule": "Chemical dissolving of soluble rocks (limestone, chalk) by mildly acidic river water. Slow but constant.",
+            "examples": ["Limestone in the Yorkshire Dales — caves, sinkholes.", "Carbonic acid from dissolved CO₂ in rainwater dissolves CaCO₃.", "Acid rain accelerates this in industrial regions."],
+            "tip": "Easy to forget — it's the only chemical process. Doesn't visibly remove material; it dissolves it."
+          }
         }
       },
       "transportation": {
         "title": "Transportation",
-        "items": {
-          "traction": "Traction — large material rolled along the bed",
-          "saltation": "Saltation — pebbles bounce along the bed",
-          "suspension": "Suspension — fine sediment carried in the flow",
-          "solution": "Solution — dissolved material carried in solution"
+        "detailed": {
+          "traction": {
+            "name": "Traction",
+            "rule": "Large material (boulders, cobbles) is rolled or dragged along the bed by the river's flow. Requires high energy.",
+            "examples": ["A boulder rolling downstream in a flooded upland river.", "Only happens in the upper course or during floods elsewhere."],
+            "tip": "Largest load = slowest movement. Often only moves during flood peak."
+          },
+          "saltation": {
+            "name": "Saltation",
+            "rule": "Pebbles and small stones bounce or hop along the bed in a leap-and-skip motion as the flow lifts and drops them.",
+            "examples": ["Common in moderate-energy reaches — middle course of an upland river.", "Creates a smoothed, polished bed surface over time."],
+            "tip": "From Latin saltare — 'to leap'. Same root as somersault."
+          },
+          "suspension": {
+            "name": "Suspension",
+            "rule": "Fine sediment (silt, clay, fine sand) is held within the body of the water and carried in the flow without touching the bed.",
+            "examples": ["The brown colour of a river in flood = sediment in suspension.", "The Yangtze and Ganges carry huge suspended loads to their deltas."],
+            "tip": "Dominant transport mode in the lower course where energy is moderate but velocity is sustained."
+          },
+          "solution": {
+            "name": "Solution",
+            "rule": "Dissolved minerals are carried invisibly within the water. Mostly from limestone, chalk, and rock salt regions.",
+            "examples": ["Calcium carbonate dissolved from limestone uplands.", "Mineral content of tap water depends on river source."],
+            "tip": "Always present, even in clear water. Doesn't depend on velocity — chemicals stay dissolved."
+          }
         }
       },
       "waterfall": {
@@ -172,12 +212,106 @@
       "flooding": {
         "title": "Causes of flooding",
         "physical": "Physical: prolonged rainfall, saturated ground, snowmelt, steep relief, impermeable rock",
-        "human": "Human: deforestation, urbanisation, poor drainage, climate change"
+        "human": "Human: deforestation, urbanisation, poor drainage, climate change",
+        "detailed": {
+          "prolongedRain": {
+            "name": "Prolonged or intense rainfall",
+            "rule": "When rainfall exceeds the soil's infiltration rate, the excess becomes surface runoff that reaches the river quickly.",
+            "examples": ["Boscastle 2004 — 200+ mm in 5 hours.", "UK winter floods 2015-16 — Storms Desmond/Eva/Frank brought months of rain in weeks."],
+            "tip": "Intensity matters more than total. A 50 mm storm in 1 hour floods; the same in a week soaks in."
+          },
+          "saturatedGround": {
+            "name": "Antecedent rainfall (saturated ground)",
+            "rule": "If soil is already saturated from previous rain, any new rain becomes runoff immediately. Pre-conditions matter as much as the storm itself.",
+            "examples": ["Cumbria 2009 — soil already saturated when Storm Caroline hit.", "Bangladesh monsoon flooding — months of rain saturate the entire delta."],
+            "tip": "Examiners love this — explains why some storms flood and identical-sized storms don't."
+          },
+          "snowmelt": {
+            "name": "Snowmelt",
+            "rule": "Rapid spring temperature rise melts upland snow; combined with frozen ground (impermeable), nearly all becomes runoff.",
+            "examples": ["Mississippi spring floods.", "Alpine rivers — Rhine, Danube — peak flow in May-June."],
+            "tip": "Climate change is making snowmelt earlier and faster — bigger flood peaks."
+          },
+          "reliefRock": {
+            "name": "Steep relief & impermeable rock",
+            "rule": "Steep slopes speed runoff to the channel; impermeable rocks (granite, clay) stop infiltration entirely.",
+            "examples": ["Cornwall — steep, granite-floored valleys flood quickly (Boscastle).", "Yorkshire Dales — limestone is permeable but clay layers cause flash floods."],
+            "tip": "A 'flashy' hydrograph happens here — short lag time, high peak."
+          },
+          "deforestation": {
+            "name": "Deforestation",
+            "rule": "Trees intercept rainfall (canopy holds ~30%) and use it (transpiration). Removing them sends water straight to the ground and into rivers.",
+            "examples": ["Amazon basin — deforestation links to increased flooding downstream.", "Nepal Himalayas — slope deforestation linked to Bangladesh floods (debated)."],
+            "tip": "Afforestation is a soft engineering response — restore the natural interception."
+          },
+          "urbanisation": {
+            "name": "Urbanisation & impermeable surfaces",
+            "rule": "Concrete and tarmac stop infiltration. Drains channel rainwater to rivers in minutes instead of hours.",
+            "examples": ["Sheffield 2007 floods — rapid runoff from urban areas.", "Dubai 2024 — record rain on concrete city caused 24-hour flooding."],
+            "tip": "SuDS (Sustainable Drainage Systems) — green roofs, permeable paving — reverse this."
+          },
+          "climate": {
+            "name": "Climate change",
+            "rule": "Warmer air holds 7% more moisture per +1°C. Storms get more intense; sea-level rise compounds river floods at coasts.",
+            "examples": ["UK winter rainfall up ~10% since 1980.", "Pakistan 2022 floods — supercharged monsoon, 1/3 of country underwater."],
+            "tip": "Always link to greenhouse gases (CO₂, methane) and human activity (fossil fuels, agriculture)."
+          }
+        }
       },
       "management": {
         "title": "Management strategies",
         "hard": "Hard engineering: dams, embankments, channel straightening, flood walls",
-        "soft": "Soft engineering: floodplain zoning, afforestation, river restoration, warnings"
+        "soft": "Soft engineering: floodplain zoning, afforestation, river restoration, warnings",
+        "detailed": {
+          "dams": {
+            "name": "Dams & reservoirs (hard)",
+            "rule": "Trap water upstream, release it slowly. Reduce flood peak downstream and provide hydropower/water supply.",
+            "examples": ["Three Gorges Dam (China) — also generates 22.5 GW power.", "Hoover Dam (USA) — controls Colorado River flooding."],
+            "tip": "Pros: very effective; multi-use. Cons: expensive (£billions); displaces communities; traps sediment (downstream erosion); ecological disruption."
+          },
+          "embankments": {
+            "name": "Embankments / levées (hard)",
+            "rule": "Raised banks made of earth or concrete contain the river within its channel even at high flows.",
+            "examples": ["Mississippi — thousands of km of artificial levées.", "Thames Barrier (London) — combined storm surge + tidal defence."],
+            "tip": "Cons: if they fail, flooding is catastrophic (Mississippi 2011); raise water level → flood somewhere else."
+          },
+          "channelStraightening": {
+            "name": "Channel straightening (hard)",
+            "rule": "Cut off meanders so the river flows faster — water moves through the area quickly. Pushes flood risk downstream.",
+            "examples": ["Many UK lowland rivers in 1960s-70s straightened for agriculture.", "Often now being REVERSED (re-meandering) as policy shifts soft."],
+            "tip": "Cheap but moves the problem downstream and damages habitat. Often unpopular today."
+          },
+          "floodWalls": {
+            "name": "Flood walls (hard)",
+            "rule": "Concrete walls along the channel through towns — vertical defences that keep water in the river.",
+            "examples": ["Boscastle — £4.5M flood defence (2008) includes wider channel and reinforced walls.", "York city centre flood walls."],
+            "tip": "Effective but visually intrusive; expensive to maintain; can be overtopped."
+          },
+          "floodplainZoning": {
+            "name": "Floodplain zoning (soft)",
+            "rule": "Planners restrict what can be built where. Highest-risk land = parks/playing fields; lower-risk = housing; safest = industry/centres.",
+            "examples": ["UK Environment Agency flood maps inform planning permission.", "Many countries ban new construction within 100-year flood zones."],
+            "tip": "Very cheap; sustainable; but politically hard if existing properties are downzoned."
+          },
+          "afforestation": {
+            "name": "Afforestation (soft)",
+            "rule": "Plant trees in the upper catchment — interception, transpiration and root systems all slow runoff.",
+            "examples": ["UK Slowing the Flow at Pickering — woodland planting reduced peak flow.", "Belford Burn (Northumberland) — Natural Flood Management with leaky dams + planting."],
+            "tip": "Slow to take effect (decades) but cheap and brings biodiversity, carbon storage benefits."
+          },
+          "restoration": {
+            "name": "River restoration (soft)",
+            "rule": "Reverse hard engineering — reintroduce meanders, woody debris, floodplains. Lets the river flood safely on natural floodplains.",
+            "examples": ["River Quaggy (London) — concrete channel removed, park created.", "European 'Room for the River' (Netherlands) — relocates dykes."],
+            "tip": "Increasingly favoured: cheaper than hard defences, restores ecosystem services."
+          },
+          "warnings": {
+            "name": "Flood warnings & forecasts (soft)",
+            "rule": "Real-time monitoring and prediction systems alert residents and emergency services to evacuate or sandbag.",
+            "examples": ["UK Environment Agency Floodline.", "Smartphone apps and SMS alerts.", "Three-tier system: Flood Alert / Flood Warning / Severe Flood Warning."],
+            "tip": "Doesn't prevent floods but saves lives. Boscastle had no fatalities partly thanks to fast response."
+          }
+        }
       },
       "boscastle": {
         "title": "Case study — Boscastle floods 2004",
@@ -203,14 +337,49 @@
     "sections": {
       "types": {
         "title": "Types of tourism",
-        "items": {
-          "mass": "Mass tourism — large numbers to popular destinations",
-          "thanatourism": "Thanatourism — visiting sites associated with death (battlefields, Chernobyl)",
-          "ecotourism": "Ecotourism — low-impact, supports conservation (Costa Rica)",
-          "medical": "Medical tourism — travel for treatment (Thailand, India)",
-          "extreme": "Extreme — adventure or hostile environments (Antarctica)",
-          "voluntourism": "Voluntourism — volunteering abroad",
-          "nature": "Nature — wildlife and natural landscapes"
+        "detailed": {
+          "mass": {
+            "name": "Mass tourism",
+            "rule": "Large numbers of tourists travel to a single popular destination. Driven by package holidays, cheap flights, large hotels.",
+            "examples": ["Spanish costas (Costa del Sol, Benidorm).", "Jamaica (1.9M visitors/year — see case study).", "Greek islands (Mykonos, Santorini)."],
+            "tip": "Pros: economic boost, jobs, infrastructure. Cons: profit leakage to TNCs, environmental damage, cultural dilution. SEEP analysis is essential."
+          },
+          "thanatourism": {
+            "name": "Thanatourism (dark tourism)",
+            "rule": "Visiting sites associated with death, suffering, or tragedy. Visitors come to remember, learn, or pay respects — though some go for shock value.",
+            "examples": ["Auschwitz concentration camp (Poland).", "Chernobyl exclusion zone (Ukraine).", "Ground Zero / 9/11 Memorial (New York).", "Rome Colosseum (gladiator deaths).", "Killing Fields (Cambodia)."],
+            "watchOut": "Ethical concerns: respect for victims, potential exploitation, 'disaster tourism' criticised when sites are commercialised."
+          },
+          "ecotourism": {
+            "name": "Ecotourism",
+            "rule": "Low-impact tourism that actively supports conservation and local communities. Small groups, strict rules, fees fund preservation.",
+            "examples": ["Costa Rica — pioneer in eco-lodges, rainforest tours.", "Galápagos Islands — strict visitor limits, certified guides.", "The Amazon — community-run lodges (e.g., Posada Amazonas).", "Kenya — Maasai-run safari camps."],
+            "tip": "Genuine ecotourism reinvests profits in conservation. 'Greenwashing' — companies claiming to be eco when they aren't — is a real risk."
+          },
+          "medical": {
+            "name": "Medical tourism",
+            "rule": "Travel abroad for healthcare — usually because it's cheaper, faster, or available where it isn't at home.",
+            "examples": ["Turkey — hair transplants, dental work (cheap, high quality).", "Thailand — cosmetic surgery, sex reassignment.", "India — heart surgery (a fraction of Western prices).", "Hungary — dentistry for German/UK patients."],
+            "tip": "Risks: less regulation, recovery without family support, travel-related complications after surgery."
+          },
+          "extreme": {
+            "name": "Extreme / adventure tourism",
+            "rule": "Travel to remote, dangerous, or extreme-environment destinations. Requires fitness, money, and risk tolerance.",
+            "examples": ["Antarctica — 73,000 visitors/year (case study).", "Everest base camp / summit.", "Deep-sea submersible tours.", "Skydiving in Dubai or New Zealand.", "Volcano boarding in Nicaragua."],
+            "watchOut": "Safety failures (e.g., 2007 sinking of cruise ship Explorer in Antarctica) and environmental damage from disturbing pristine areas."
+          },
+          "voluntourism": {
+            "name": "Voluntourism",
+            "rule": "Combining tourism with volunteer work. Tourists pay to help on community projects.",
+            "examples": ["Orphanage volunteering (Cambodia, Africa) — heavily criticised for harming children.", "Biogas plant building (India, East Africa).", "Community water pumps and wells.", "Conservation projects — tagging turtles, monitoring elephants."],
+            "watchOut": "Often ineffective without skills. Best when long-term, skilled, locally led. 'Orphanage tourism' is widely condemned."
+          },
+          "nature": {
+            "name": "Nature / wildlife tourism",
+            "rule": "Visiting natural landscapes or wildlife. Overlaps with ecotourism but doesn't always have the same conservation discipline.",
+            "examples": ["Safari in Kenya, Tanzania, Botswana.", "Whale watching in Iceland, Mexico, Canada.", "National parks: Yellowstone, Yosemite, Banff."],
+            "tip": "Done well (limits, guides, no disturbance) it's powerful. Done badly (feeding wildlife, off-trail driving) it harms what tourists came to see."
+          }
         }
       },
       "butler": {

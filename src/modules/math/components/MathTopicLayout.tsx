@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 import { DrFrostLink } from '../../../components/content/DrFrostLink';
 import { MathPracticeList } from '../../../components/content/MathPracticeList';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 import type { MathTopicId } from '../data/drFrostTasks';
 import { getDrFrostTasksForTopic } from '../data/drFrostTasks';
 import { getTextbookRef } from '../data/textbookRefs';
@@ -18,11 +19,15 @@ interface Props {
 }
 
 export function MathTopicLayout({ topicId, topicKey, subTopicIds, icon, children }: Props) {
-  const { t } = useTranslation('math');
+  const { t, i18n } = useTranslation('math');
   const tCommon = useTranslation('common').t;
   const drFrostGroups = getDrFrostTasksForTopic(topicId);
   const textbook = getTextbookRef(topicId);
   const problems = getProblemsForTopic(topicId);
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
 
   return (
     <div>
@@ -33,15 +38,22 @@ export function MathTopicLayout({ topicId, topicKey, subTopicIds, icon, children
       />
 
       <SectionHeading>{tCommon('sections.subTopics')}</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-        {subTopicIds.map((id) => (
-          <div
-            key={id}
-            className="text-sm text-text-secondary bg-bg-secondary border border-border rounded-md px-3 py-2"
-          >
-            {t(`${topicKey}.subTopics.${id}`)}
-          </div>
-        ))}
+      <div className="space-y-3">
+        {subTopicIds.map((id) => {
+          const detailed = t(`${topicKey}.subTopicsDetailed.${id}`, { returnObjects: true });
+          const isDetailed = detailed && typeof detailed === 'object' && !Array.isArray(detailed) && ('rule' in (detailed as object) || 'name' in (detailed as object));
+          if (isDetailed) {
+            return <DetailedCard key={id} item={detailed as DetailedItem} borderColor="var(--color-accent-sky-deep)" labels={labels} />;
+          }
+          return (
+            <div
+              key={id}
+              className="text-sm text-text-secondary bg-bg-secondary border border-border rounded-md px-3 py-2"
+            >
+              {t(`${topicKey}.subTopics.${id}`)}
+            </div>
+          );
+        })}
       </div>
 
       {children ? (

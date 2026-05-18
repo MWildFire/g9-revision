@@ -72,15 +72,47 @@
     "sections": {
       "structure": {
         "title": "Cell structure",
-        "items": {
-          "nucleus": "Nucleus — contains DNA, controls cell activities",
-          "cytoplasm": "Cytoplasm — jelly-like fluid where reactions occur",
-          "membrane": "Cell membrane — controls what enters/exits",
-          "mitochondria": "Mitochondria — site of aerobic respiration (energy release)",
-          "ribosome": "Ribosomes — protein synthesis",
-          "wall": "Cell wall (plants) — rigid, made of cellulose; gives shape",
-          "chloroplast": "Chloroplast (plants) — site of photosynthesis",
-          "vacuole": "Permanent vacuole (plants) — stores cell sap"
+        "detailed": {
+          "nucleus": {
+            "name": "Nucleus",
+            "rule": "Contains the DNA — the cell's genetic blueprint. Controls all cell activities by deciding which proteins are made. Surrounded by a double membrane (nuclear envelope) with pores for RNA to leave.",
+            "tip": "Most cells have ONE nucleus. Exceptions: red blood cells (none, to make room for haemoglobin) and skeletal muscle cells (many, to coordinate large fibres)."
+          },
+          "cytoplasm": {
+            "name": "Cytoplasm",
+            "rule": "Jelly-like fluid (mostly water + dissolved salts and proteins) filling the cell. Site of most chemical reactions in the cell, including glycolysis (first stage of respiration).",
+            "tip": "Don't confuse cytoplasm (the fluid) with cytosol (the fluid PART without organelles). At G9, cytoplasm is fine."
+          },
+          "membrane": {
+            "name": "Cell membrane (plasma membrane)",
+            "rule": "Phospholipid bilayer with proteins. Partially permeable — small/non-polar molecules pass freely, large/polar molecules need transport proteins. Controls what enters and leaves.",
+            "examples": ["O₂ and CO₂ pass freely (small, non-polar).", "Glucose needs a transporter protein.", "Ions (Na⁺, K⁺) need protein channels."]
+          },
+          "mitochondria": {
+            "name": "Mitochondria",
+            "rule": "Site of aerobic respiration. Glucose + O₂ → CO₂ + H₂O + ATP (energy). The inner membrane is folded (cristae) to maximise surface area for ATP-making enzymes.",
+            "tip": "Cells that need LOTS of energy have MANY mitochondria: muscle cells, liver cells, sperm tails."
+          },
+          "ribosome": {
+            "name": "Ribosomes",
+            "rule": "Tiny dots (not membrane-bound). Site of PROTEIN SYNTHESIS — they read mRNA and link amino acids together into a protein chain.",
+            "tip": "Found free in cytoplasm OR attached to rough endoplasmic reticulum. The MORE proteins a cell needs to make, the MORE ribosomes it has."
+          },
+          "wall": {
+            "name": "Cell wall (plants, fungi, bacteria)",
+            "rule": "Rigid outer layer OUTSIDE the cell membrane. In plants made of CELLULOSE; in fungi chitin; in bacteria peptidoglycan. Gives the cell SHAPE and supports the plant.",
+            "watchOut": "Animal cells do NOT have a cell wall — that's why they have flexible, irregular shapes."
+          },
+          "chloroplast": {
+            "name": "Chloroplast (plants only)",
+            "rule": "Contains green pigment chlorophyll. Site of PHOTOSYNTHESIS: CO₂ + H₂O + light → glucose + O₂. Has internal stacks (thylakoids) where light is absorbed.",
+            "tip": "Found mostly in leaf cells, especially palisade mesophyll — packed near the upper surface to catch light."
+          },
+          "vacuole": {
+            "name": "Permanent vacuole (plants only)",
+            "rule": "Large fluid-filled sac in the centre of plant cells. Stores 'cell sap' (water, salts, sugars). When full, it presses outwards giving the plant TURGOR — what keeps stems upright.",
+            "tip": "When a plant wilts, vacuoles have lost water → cells become flaccid. Animal cells have only tiny temporary vacuoles."
+          }
         }
       },
       "animalVsPlant": {
@@ -90,13 +122,43 @@
       },
       "specialised": {
         "title": "Specialised cells",
-        "items": {
-          "redBlood": "Red blood cell — biconcave shape; no nucleus; carries oxygen via haemoglobin",
-          "neurone": "Neurone — long axon; carries electrical impulses",
-          "sperm": "Sperm — tail (flagellum), many mitochondria, acrosome (enzymes)",
-          "egg": "Egg — large, food store, jelly coat after fertilisation",
-          "root": "Root hair cell — large surface area; absorbs water and minerals",
-          "palisade": "Palisade mesophyll — packed with chloroplasts; site of photosynthesis"
+        "detailed": {
+          "redBlood": {
+            "name": "Red blood cell (erythrocyte)",
+            "rule": "Carries oxygen from lungs to body tissues via haemoglobin (Hb + O₂ ⇌ HbO₂).",
+            "examples": ["BICONCAVE shape: increases surface area for O₂ absorption.", "NO NUCLEUS: more room for haemoglobin (~270 million per cell).", "FLEXIBLE: can squeeze through narrow capillaries."],
+            "tip": "Lifespan ~120 days. Broken down in spleen and liver, recycled."
+          },
+          "neurone": {
+            "name": "Neurone (nerve cell)",
+            "rule": "Carries electrical impulses around the nervous system.",
+            "examples": ["LONG AXON: can be over 1 metre (from spinal cord to foot).", "DENDRITES: branched ends receive signals from many other neurones.", "MYELIN SHEATH: insulates the axon → impulses travel up to 100 m/s."],
+            "tip": "Three types: sensory (in → CNS), motor (CNS → muscle), relay (within CNS)."
+          },
+          "sperm": {
+            "name": "Sperm cell (male gamete)",
+            "rule": "Carries the father's DNA to the egg.",
+            "examples": ["TAIL (flagellum): whips for swimming.", "MANY MITOCHONDRIA in mid-piece: ATP energy for the swim.", "ACROSOME at the head: enzymes to digest through the egg's outer layer.", "HAPLOID nucleus: 23 chromosomes."],
+            "tip": "Released in millions; only one fertilises the egg."
+          },
+          "egg": {
+            "name": "Egg cell (ovum, female gamete)",
+            "rule": "Contains the mother's DNA + food and protection for the embryo.",
+            "examples": ["LARGE size: stores food (yolk).", "JELLY COAT (zona pellucida): hardens after fertilisation to block other sperm.", "HAPLOID nucleus: 23 chromosomes."],
+            "tip": "Released ~once a month at ovulation. Survives ~24 hours in the fallopian tube."
+          },
+          "root": {
+            "name": "Root hair cell (plant)",
+            "rule": "Absorbs water (by osmosis) and minerals (by active transport) from soil.",
+            "examples": ["LONG, THIN extension: massive surface area for absorption.", "NO chloroplasts: roots don't photosynthesise.", "MANY mitochondria: power active transport of minerals against the concentration gradient."],
+            "tip": "Found in the 'zone of root hairs' just behind the growing root tip."
+          },
+          "palisade": {
+            "name": "Palisade mesophyll cell (plant)",
+            "rule": "Site of MOST photosynthesis in a leaf.",
+            "examples": ["PACKED with CHLOROPLASTS: maximises light absorption.", "COLUMN shape: stacked tightly together to catch parallel light rays.", "Located JUST BELOW the upper leaf surface: closest to incoming sunlight."],
+            "tip": "Below palisade is the SPONGY MESOPHYLL — looser, with air spaces for gas exchange."
+          }
         }
       },
       "transport": {

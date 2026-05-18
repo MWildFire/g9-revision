@@ -86,11 +86,31 @@
       },
       "factors": {
         "title": "Factors affecting rate",
-        "items": {
-          "temperature": "Temperature — particles move faster → more frequent collisions AND more particles have energy ≥ E_a. A 10°C rise roughly doubles the rate.",
-          "concentration": "Concentration / Pressure — more particles in the same volume → more frequent collisions → faster rate.",
-          "surfaceArea": "Surface area — more exposed area on a solid → more collision sites → faster rate. Powder reacts faster than a lump.",
-          "catalyst": "Catalyst — lowers activation energy by providing an alternative pathway. Not used up. Specific to each reaction (e.g., MnO₂ catalyses H₂O₂ decomposition)."
+        "detailed": {
+          "temperature": {
+            "name": "Temperature",
+            "rule": "Higher T → particles move FASTER and have MORE energy → more frequent AND more energetic collisions. A 10 °C rise roughly DOUBLES the rate.",
+            "examples": ["Food in the fridge lasts longer (low T slows bacterial growth).", "Cooking pasta in boiling water (100 °C) is faster than in warm water (50 °C)."],
+            "tip": "Activation-energy effect dominates over speed effect. Drawing a Maxwell–Boltzmann curve: more particles cross E_a at higher T."
+          },
+          "concentration": {
+            "name": "Concentration (and pressure for gases)",
+            "rule": "More particles in the same volume → particles meet more often → more frequent collisions → faster rate. Doubling concentration usually doubles the rate (for simple reactions).",
+            "examples": ["Dilute HCl reacts slowly with Mg; concentrated HCl reacts quickly.", "Increasing pressure on gases (e.g., Haber process) acts like concentration."],
+            "watchOut": "Once reactants are dilute, the rate drops sharply — that's why curves flatten."
+          },
+          "surfaceArea": {
+            "name": "Surface area (of solids)",
+            "rule": "More exposed surface → more places where collisions can happen → faster rate. Powder reacts much faster than a single lump of the same mass.",
+            "examples": ["Powdered marble + HCl fizzes vigorously; a marble lump reacts slowly.", "Flour explosions in mills — fine powder gives huge surface area and combusts rapidly."],
+            "tip": "Total mass is the same, but surface area can be 100×+ greater for fine powder."
+          },
+          "catalyst": {
+            "name": "Catalyst",
+            "rule": "Provides an ALTERNATIVE reaction pathway with a LOWER activation energy. The catalyst itself is NOT used up. Specific to a particular reaction.",
+            "examples": ["MnO₂ catalyses 2H₂O₂ → 2H₂O + O₂ (rapid bubbling).", "Iron in the Haber process (N₂ + 3H₂ → 2NH₃).", "Enzymes in your body — biological catalysts (amylase, pepsin)."],
+            "tip": "Catalysts do NOT change ΔH or the products — only the speed."
+          }
         }
       },
       "graphs": {
@@ -192,13 +212,43 @@
     "sections": {
       "types": {
         "title": "Reaction types",
-        "items": {
-          "combination": "Combination (synthesis): A + B → AB. e.g., 2H₂ + O₂ → 2H₂O",
-          "decomposition": "Decomposition: AB → A + B. e.g., 2H₂O₂ → 2H₂O + O₂",
-          "displacement": "Single displacement: more reactive metal displaces less reactive. e.g., Zn + CuSO₄ → ZnSO₄ + Cu",
-          "doubleDisplacement": "Double displacement: AB + CD → AD + CB. e.g., AgNO₃ + NaCl → AgCl + NaNO₃",
-          "combustion": "Combustion: fuel + O₂ → CO₂ + H₂O (+ heat)",
-          "neutralisation": "Neutralisation: acid + base → salt + water. e.g., HCl + NaOH → NaCl + H₂O"
+        "detailed": {
+          "combination": {
+            "name": "Combination (synthesis)",
+            "rule": "Two or more substances combine to form ONE product. General form: A + B → AB.",
+            "examples": ["2H₂(g) + O₂(g) → 2H₂O(l) — hydrogen burns in oxygen", "CaO(s) + H₂O(l) → Ca(OH)₂(aq) — quicklime + water", "N₂(g) + 3H₂(g) → 2NH₃(g) — Haber process"],
+            "tip": "Almost always exothermic — bond formation releases energy."
+          },
+          "decomposition": {
+            "name": "Decomposition",
+            "rule": "ONE compound breaks down into two or more simpler substances. Often needs heat, light, or electricity. General: AB → A + B.",
+            "examples": ["2H₂O₂(aq) → 2H₂O(l) + O₂(g) — peroxide with MnO₂ catalyst", "CaCO₃(s) → CaO(s) + CO₂(g) — limestone heated", "2H₂O(l) → 2H₂(g) + O₂(g) — electrolysis of water"],
+            "tip": "Thermal decomposition of carbonates is a classic G9 example."
+          },
+          "displacement": {
+            "name": "Single displacement",
+            "rule": "A more reactive metal displaces a less reactive metal from its compound. Driven by the reactivity series (K > Na > Ca > Mg > Al > Zn > Fe > Cu > Ag).",
+            "examples": ["Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s) — blue colour fades, brown copper deposits", "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g) — magnesium 'fizzes'"],
+            "watchOut": "If the metal you're adding is LESS reactive than the one in the compound, NO reaction happens (Cu added to ZnSO₄ → nothing)."
+          },
+          "doubleDisplacement": {
+            "name": "Double displacement (precipitation)",
+            "rule": "Two soluble compounds swap partners. If one product is INSOLUBLE, you see a precipitate. AB + CD → AD + CB.",
+            "examples": ["AgNO₃(aq) + NaCl(aq) → AgCl(s)↓ + NaNO₃(aq) — white precipitate of silver chloride", "Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s)↓ + 2KNO₃(aq) — bright yellow precipitate"],
+            "tip": "Memorise common insoluble compounds: AgCl, BaSO₄, CaCO₃, PbI₂. They appear as the precipitate."
+          },
+          "combustion": {
+            "name": "Combustion",
+            "rule": "Substance reacts rapidly with oxygen, releasing heat and light. Hydrocarbon + O₂ → CO₂ + H₂O. Complete combustion → CO₂; incomplete (not enough O₂) → toxic CO and soot.",
+            "examples": ["CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g) — methane gas", "2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(g) — petrol (octane)"],
+            "watchOut": "Incomplete combustion (yellow flame, soot) is a hazard — CO is odourless and toxic. Always ventilate."
+          },
+          "neutralisation": {
+            "name": "Neutralisation",
+            "rule": "Acid + base → salt + water. The H⁺ from the acid combines with OH⁻ from the alkali. Always slightly exothermic.",
+            "examples": ["HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)", "H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)", "2HNO₃(aq) + Mg(OH)₂(s) → Mg(NO₃)₂(aq) + 2H₂O(l)"],
+            "tip": "The ionic equation is always the same: H⁺ + OH⁻ → H₂O. Useful shortcut."
+          }
         }
       },
       "balancing": {
@@ -247,32 +297,89 @@
     "sections": {
       "definitions": {
         "title": "Definitions",
-        "items": {
-          "acid": "Acid — releases H⁺ in water (e.g., HCl, H₂SO₄, HNO₃)",
-          "base": "Base — accepts H⁺ (metal oxides, hydroxides, carbonates)",
-          "alkali": "Alkali — soluble base, releases OH⁻ in water (e.g., NaOH)",
-          "salt": "Salt — ionic compound from acid + base reaction"
+        "detailed": {
+          "acid": {
+            "name": "Acid",
+            "rule": "A substance that releases H⁺ (hydrogen) ions in water. Sour taste, turns litmus red, pH < 7.",
+            "examples": ["HCl (hydrochloric acid) — stomach acid", "H₂SO₄ (sulfuric acid) — car batteries", "HNO₃ (nitric acid) — fertilisers", "CH₃COOH (ethanoic / acetic acid) — vinegar (weak)"],
+            "tip": "Strong acids fully ionise in water (HCl → H⁺ + Cl⁻). Weak acids only partly ionise (CH₃COOH ⇌ CH₃COO⁻ + H⁺)."
+          },
+          "base": {
+            "name": "Base",
+            "rule": "A substance that accepts H⁺ ions. Reacts with acids to form salt + water. Often metal oxides, hydroxides or carbonates.",
+            "examples": ["CuO (copper oxide) — black solid that reacts with acid to give blue solution", "MgO (magnesium oxide) — white powder", "CaCO₃ (calcium carbonate) — chalk, limestone"],
+            "tip": "Not all bases dissolve in water. Bases that DO dissolve are called alkalis."
+          },
+          "alkali": {
+            "name": "Alkali",
+            "rule": "A soluble base — it dissolves in water and releases OH⁻ (hydroxide) ions. Bitter taste, slippery feel, turns litmus blue, pH > 7.",
+            "examples": ["NaOH (sodium hydroxide) — drain cleaner", "KOH (potassium hydroxide) — soaps", "Ca(OH)₂ (calcium hydroxide, limewater) — used to test for CO₂"],
+            "watchOut": "Strong alkalis (NaOH, KOH) are extremely corrosive — wear goggles."
+          },
+          "salt": {
+            "name": "Salt",
+            "rule": "An ionic compound formed when an acid is neutralised. The H⁺ of the acid is replaced by a metal ion (or NH₄⁺).",
+            "examples": ["HCl + NaOH → NaCl (table salt) + H₂O", "H₂SO₄ + Cu(OH)₂ → CuSO₄ (blue) + 2H₂O", "HNO₃ + KOH → KNO₃ + H₂O"],
+            "tip": "Name a salt: first word from the metal/base, second from the acid. HCl → chloride; H₂SO₄ → sulfate; HNO₃ → nitrate."
+          }
         }
       },
       "pH": {
         "title": "pH scale",
-        "body": "0–7 acidic, 7 neutral, 7–14 alkaline. Each pH unit = 10× change in [H⁺]. Strong acid pH ≈ 0–2. Weak acid pH ≈ 3–6. Pure water pH = 7."
+        "body": "0–7 acidic, 7 neutral, 7–14 alkaline. Each pH unit = 10× change in [H⁺]. Strong acid pH ≈ 0–2 (e.g., battery acid, stomach acid). Weak acid pH ≈ 3–6 (vinegar, lemon juice). Pure water pH = 7 (neutral). Weak alkali pH ≈ 8–10 (sea water, baking soda). Strong alkali pH ≈ 11–14 (ammonia, drain cleaner)."
       },
       "indicators": {
         "title": "Indicators",
-        "items": {
-          "litmus": "Litmus — red (acid) / blue (alkali)",
-          "phenolphthalein": "Phenolphthalein — colourless (acid) / pink (alkali)",
-          "universal": "Universal indicator — full colour spectrum gives approx. pH"
+        "detailed": {
+          "litmus": {
+            "name": "Litmus",
+            "rule": "A natural dye from lichen. RED in acid, BLUE in alkali. Simple — only tells you 'acid or alkali', not the exact pH.",
+            "tip": "Mnemonic: 'Litmus turns blue when it's basic'. Used as litmus paper (cheaper) or solution."
+          },
+          "phenolphthalein": {
+            "name": "Phenolphthalein",
+            "rule": "Colourless in acid AND neutral. Pink in alkali (pH > 8.2). Most common indicator for acid–alkali titrations.",
+            "tip": "End point: change from colourless to first faint pink. Stop adding acid as soon as you see the pink fade."
+          },
+          "universal": {
+            "name": "Universal indicator",
+            "rule": "A MIX of several indicators. Gives a full spectrum: red (pH 0) → orange → yellow → green (pH 7) → blue → purple (pH 14).",
+            "tip": "Useful for ESTIMATING pH to ±1 unit. For precise readings, use a pH meter or probe."
+          },
+          "methylOrange": {
+            "name": "Methyl orange (bonus)",
+            "rule": "RED in acid (pH < 3.1), YELLOW in alkali (pH > 4.4). Used for strong acid + weak alkali titrations.",
+            "tip": "Pairs with phenolphthalein for strong alkali + weak acid titrations."
+          }
         }
       },
       "reactions": {
-        "title": "Acid reactions",
-        "items": {
-          "metal": "Acid + reactive metal → salt + hydrogen. e.g., Zn + 2HCl → ZnCl₂ + H₂",
-          "base": "Acid + base → salt + water (neutralisation). e.g., 2HCl + CuO → CuCl₂ + H₂O",
-          "carbonate": "Acid + carbonate → salt + water + CO₂. e.g., 2HCl + CaCO₃ → CaCl₂ + H₂O + CO₂",
-          "alkali": "Acid + alkali → salt + water. e.g., HCl + NaOH → NaCl + H₂O"
+        "title": "Acid reactions — the FOUR you must memorise",
+        "detailed": {
+          "metal": {
+            "name": "Acid + reactive metal → salt + hydrogen",
+            "rule": "Only metals ABOVE hydrogen in the reactivity series react (Mg, Al, Zn, Fe — yes; Cu, Ag, Au — no). Bubbles of H₂ form; test with a lit splint → 'squeaky pop'.",
+            "examples": ["Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g)", "Mg(s) + H₂SO₄(aq) → MgSO₄(aq) + H₂(g)", "2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g)"],
+            "watchOut": "Reactive group 1 metals (Na, K) react EXPLOSIVELY with acid — never test these in school."
+          },
+          "base": {
+            "name": "Acid + base → salt + water (no gas)",
+            "rule": "Metal oxides and hydroxides neutralise acids. No gas given off (unlike with carbonates). Often used to make pure salts.",
+            "examples": ["2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l) — black solid turns blue solution", "H₂SO₄(aq) + ZnO(s) → ZnSO₄(aq) + H₂O(l)", "2HNO₃(aq) + Mg(OH)₂(s) → Mg(NO₃)₂(aq) + 2H₂O(l)"],
+            "tip": "Heat acid in beaker → add base until no more dissolves → filter → evaporate → crystallise. Classic 'making a salt' lab."
+          },
+          "carbonate": {
+            "name": "Acid + carbonate → salt + water + CO₂",
+            "rule": "Carbonates (CaCO₃, Na₂CO₃, CuCO₃) fizz when acid is added. Test the gas with limewater — turns CLOUDY → confirms CO₂.",
+            "examples": ["2HCl(aq) + CaCO₃(s) → CaCl₂(aq) + H₂O(l) + CO₂(g) — marble chips classic", "H₂SO₄(aq) + Na₂CO₃(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g)"],
+            "tip": "Acid rain attacks limestone buildings via this reaction — over decades, statues are eroded."
+          },
+          "alkali": {
+            "name": "Acid + alkali → salt + water (neutralisation)",
+            "rule": "The 'pure' neutralisation reaction. Ionic equation always: H⁺(aq) + OH⁻(aq) → H₂O(l). Used in titrations.",
+            "examples": ["HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)", "H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l)", "HNO₃(aq) + KOH(aq) → KNO₃(aq) + H₂O(l)"],
+            "tip": "Slight temperature rise — neutralisation is exothermic (~57 kJ/mol of water formed)."
+          }
         }
       }
     }

@@ -11,6 +11,7 @@ import { MomentumCollision } from '../../../components/simulations/physics/Momen
 import { ReactionBraking } from '../../../components/simulations/physics/ReactionBraking';
 import { VectorAddition } from '../../../components/simulations/physics/VectorAddition';
 import { MotionGraphs } from '../../../components/simulations/physics/MotionGraphs';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
 const TERMS = [
   'scalar',
@@ -29,10 +30,17 @@ const TERMS = [
   'brakingDistance',
 ];
 
+const CONCEPTS = ['scalarsVectors', 'newtonLaws', 'momentumImpulse', 'motionGraphs', 'terminalVelocity', 'stoppingDistance'];
 const FORMULAS = ['speed', 'acceleration', 'newton2', 'momentum', 'impulse'];
 
 export function ForceMotionPage() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
+  const conceptsHeading = lang === 'ru' ? 'Глубокий разбор' : 'Deeper concepts';
+
   return (
     <div>
       <TopicHero
@@ -43,6 +51,14 @@ export function ForceMotionPage() {
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="forceMotion" termIds={TERMS} />
+
+      <SectionHeading>{conceptsHeading}</SectionHeading>
+      <div className="space-y-3">
+        {CONCEPTS.map((id) => {
+          const item = t(`forceMotion.concepts.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-warm)" labels={labels} />;
+        })}
+      </div>
 
       <SectionHeading>{t('common.simulations')}</SectionHeading>
       <div className="space-y-6">

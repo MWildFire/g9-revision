@@ -3,25 +3,29 @@ import { Plane } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 import { ButlerModel } from '../../../components/simulations/geography/ButlerModel';
 import { ActiveRecallBlock } from '../../../components/content/ActiveRecallBlock';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
 const TYPES = ['mass', 'thanatourism', 'ecotourism', 'medical', 'extreme', 'voluntourism', 'nature'];
 const OTHER_TYPES = ['thana', 'medical', 'eco', 'volun', 'extreme'];
 
 export function TourismPage() {
-  const { t } = useTranslation('geography');
+  const { t, i18n } = useTranslation('geography');
   const TOPIC = 'tourism';
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
 
   return (
     <div>
       <TopicHero title={t('tourism.title')} intro={t('tourism.intro')} icon={<Plane size={28} />} />
 
       <SectionHeading>{t('tourism.sections.types.title')}</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        {TYPES.map((id) => (
-          <div key={id} className="bg-bg-secondary border border-border rounded-md px-4 py-3 text-sm">
-            {t(`tourism.sections.types.items.${id}`)}
-          </div>
-        ))}
+      <div className="space-y-3">
+        {TYPES.map((id) => {
+          const item = t(`tourism.sections.types.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-warm)" labels={labels} />;
+        })}
       </div>
 
       <SectionHeading>{t('tourism.sections.butler.title')}</SectionHeading>

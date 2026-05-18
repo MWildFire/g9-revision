@@ -147,6 +147,44 @@
   "forceMotion": {
     "title": "Force and Motion",
     "intro": "We study how and why objects move, what makes them speed up or stop, and what happens when they collide.",
+    "concepts": {
+      "scalarsVectors": {
+        "name": "Scalars vs Vectors",
+        "rule": "Scalars have magnitude only (size). Vectors have BOTH magnitude AND direction. When combining, scalars add arithmetically (5+3=8), but vectors must be added geometrically — sometimes 5+3 = 4 if they oppose.",
+        "examples": ["Distance (scalar) = total path = 7 m. Displacement (vector) = straight-line from start to end = 5 m, direction NE.", "Speed: 60 km/h. Velocity: 60 km/h heading NORTH.", "Walking 3 m E then 4 m N: total distance = 7 m, but displacement = 5 m NE (Pythagoras).", "Resultant of 10 N right + 4 N left = 6 N right (opposite directions subtract)."],
+        "tip": "If you see 'how far' or 'how fast' without direction — scalar. If you see direction (N, up, +x) — vector. ALWAYS use vectors in F=ma."
+      },
+      "newtonLaws": {
+        "name": "Newton's Three Laws",
+        "rule": "1st (Inertia): An object stays at rest or moves at constant velocity UNLESS a resultant force acts on it. 2nd: F = ma — resultant force = mass × acceleration. 3rd: For every action force, there is an EQUAL and OPPOSITE reaction force on a DIFFERENT object.",
+        "examples": ["1st: A puck on frictionless ice keeps moving at constant velocity forever. Seatbelts use 1st law — your body keeps moving when the car stops.", "2nd: 10 kg pushed with 30 N → a = 3 m/s². Same 30 N on 5 kg → a = 6 m/s² (lighter = bigger acceleration).", "3rd: Rocket pushes gas DOWN → gas pushes rocket UP. Walking: foot pushes ground BACKWARDS, ground pushes foot FORWARDS."],
+        "watchOut": "Action/reaction pairs are on DIFFERENT objects — they don't cancel out. Don't confuse with equal-and-opposite forces in equilibrium (same object, two forces)."
+      },
+      "momentumImpulse": {
+        "name": "Momentum & Impulse",
+        "rule": "Momentum: p = m·v (vector, kg·m/s). Impulse: J = F·Δt = Δp = m·Δv (force × time = change in momentum). Conservation: total momentum before = total momentum after a collision (closed system, no external force).",
+        "examples": ["Truck 5000 kg at 10 m/s: p = 50 000 kg·m/s. Bullet 0.01 kg at 500 m/s: p = 5 kg·m/s. Truck has 10 000× more.", "Crash: car 1000 kg at 20 m/s hits wall, stops in 0.1 s. F = (1000·20)/0.1 = 200 000 N. With airbag (0.5 s): F = 40 000 N. 5× less.", "Conservation: 10 kg ball at 5 m/s hits stationary 5 kg ball, sticks. v_after = 50/15 = 3.33 m/s.", "Recoil: rifle pushes 0.01 kg bullet at 400 m/s. Rifle 4 kg recoils at v = 0.01·400/4 = 1 m/s."],
+        "tip": "Increasing TIME of impact reduces force for same Δp — that's why airbags, crumple zones, bent knees when landing all SAVE LIVES."
+      },
+      "motionGraphs": {
+        "name": "Motion graphs (interpretation)",
+        "rule": "Distance-time graph: gradient = speed; horizontal line = at rest; steeper = faster. Velocity-time graph: gradient = acceleration; horizontal = constant velocity; AREA UNDER CURVE = distance travelled.",
+        "examples": ["d-t graph: straight line gradient 5 m/s = constant speed. Curve gets steeper = accelerating. Curve gets shallower = decelerating.", "v-t graph: line from (0,0) to (4, 20) means a = 5 m/s². Area = ½·4·20 = 40 m distance.", "v-t flat at 15 m/s for 10 s = 150 m distance. Then line down to 0 over 6 s = ½·6·15 = 45 m. Total = 195 m, deceleration = 2.5 m/s².", "Negative gradient on v-t = deceleration (slowing). Negative velocity = moving backwards."],
+        "tip": "Always check axes! distance-time ≠ velocity-time. Gradient of v-t = a. Area under v-t = s. Memorise this."
+      },
+      "terminalVelocity": {
+        "name": "Terminal velocity",
+        "rule": "When falling through a fluid (air, water), air resistance INCREASES with speed. Terminal velocity = constant speed when air resistance EQUALS weight (resultant force = 0, so a = 0).",
+        "examples": ["Skydiver in spread position: terminal velocity ~53 m/s (~190 km/h).", "Skydiver in 'streamlined' dive: ~80 m/s.", "Open parachute: drag suddenly LARGER than weight → DECELERATES until new (slower) terminal velocity ~5-7 m/s.", "Raindrop falls at 8-10 m/s terminal velocity (else it would hit at 200 m/s and kill you!).", "On the Moon (no atmosphere): NO terminal velocity. Falls accelerate forever."],
+        "tip": "Stages: (1) Initial — weight > drag, accelerates. (2) Drag grows. (3) Drag = weight, terminal velocity reached. (4) Parachute: drag >> weight, decelerates. (5) New terminal velocity (slower)."
+      },
+      "stoppingDistance": {
+        "name": "Stopping distance — thinking + braking",
+        "rule": "Total stopping distance = thinking distance + braking distance. Thinking distance ∝ speed. Braking distance ∝ speed². So doubling speed DOUBLES thinking distance but QUADRUPLES braking distance.",
+        "examples": ["At 30 mph (~13 m/s): thinking 9 m + braking 14 m = 23 m total (Highway Code).", "At 60 mph (~27 m/s): thinking 18 m + braking 55 m = 73 m total. 3× as far (not 2×!).", "At 70 mph: thinking 21 m + braking 75 m = 96 m total — that's 24 car lengths.", "Wet road: braking distance DOUBLES (from reduced friction). Icy: 10× longer.", "Alcohol/drugs/phone: thinking distance dramatically up (reaction 0.7 s → 1.5 s)."],
+        "watchOut": "Don't confuse thinking distance (driver responding, before brakes touched) with braking distance (after brakes applied). KE ∝ v², so braking distance ∝ v² (energy to dissipate)."
+      }
+    },
     "terms": {
       "scalar": {
         "name": "Scalar",
@@ -315,6 +353,44 @@
   "forcesEnergy": {
     "title": "Forces and Energy",
     "intro": "How forces stretch, push, lift and do work — and how pressure and density shape what floats, sinks, or holds together.",
+    "concepts": {
+      "hookesLaw": {
+        "name": "Hooke's Law — springs & elasticity",
+        "rule": "For a spring (or elastic material) within its elastic limit: F = k·x, where F = force applied, k = spring constant (N/m), x = extension. Doubling force doubles extension — IF below elastic limit. Beyond limit: permanently deformed.",
+        "examples": ["Spring k = 50 N/m. F = 10 N: x = F/k = 0.2 m.", "Extension 4 cm with 8 N: k = 8/0.04 = 200 N/m.", "Graph F vs x: straight line through origin = obeys Hooke's Law.", "Beyond limit: graph curves, plastic deformation, spring won't return to original.", "Stiff spring (high k): hard to stretch. Weak spring (low k): stretches easily."],
+        "watchOut": "EXTENSION x, not total length. If spring is 30 cm naturally and 35 cm under load, x = 5 cm = 0.05 m, not 0.35 m."
+      },
+      "work": {
+        "name": "Work, energy & power",
+        "rule": "Work = force × distance (in direction of force): W = F·d (joules, J). Energy = ability to do work, same units. Power = work per second: P = W/t (watts, W). 1 W = 1 J/s.",
+        "examples": ["Lifting 10 kg through 2 m against gravity (g = 10): W = mg·h = 10·10·2 = 200 J.", "Pulling 5 N over 8 m: W = 40 J.", "Same lift in 4 s: P = 200/4 = 50 W. In 1 s: P = 200 W (more powerful).", "Athlete climbing stairs: weight × height ÷ time = power output. 700 N up 3 m in 5 s → 420 W."],
+        "tip": "Force must be in DIRECTION of motion. Carrying a bag horizontally — no work done (force vertical, motion horizontal!)"
+      },
+      "energyStores": {
+        "name": "Energy stores & transfers",
+        "rule": "Energy can be STORED (kinetic, gravitational PE, elastic PE, chemical, thermal, nuclear) and TRANSFERRED (mechanically, electrically, by heating, by radiation). Total energy is CONSERVED.",
+        "examples": ["Falling ball: gravitational PE → kinetic energy (transferred mechanically).", "Burning fuel: chemical store → thermal store + light (transfer by radiation & heating).", "Pendulum: PE ↔ KE swap each swing. Total constant (ignoring friction).", "Useful KE formula: KE = ½mv². 1 kg at 4 m/s: KE = ½·1·16 = 8 J.", "Useful gravitational PE: PE = mgh. 1 kg lifted 5 m (g=10): PE = 50 J."],
+        "tip": "Always specify the STORE (where energy is) and the PATH (how it moved). 'Heat' is a transfer, not a store — proper name is 'thermal energy store'."
+      },
+      "pressure": {
+        "name": "Pressure",
+        "rule": "Pressure = force per unit area: P = F/A (pascals, Pa). 1 Pa = 1 N/m². Same force, smaller area = greater pressure. Acts in ALL directions in a fluid.",
+        "examples": ["Person 600 N standing on one foot, area 200 cm² = 0.02 m²: P = 600/0.02 = 30 000 Pa.", "Stilettos concentrate weight on tiny area → high pressure → dent floors.", "Sharp knife: tiny edge area → high pressure → cuts.", "Snow shoes spread weight over big area → low pressure → don't sink.", "Tractor tyres are wide for the same reason: don't compact soil."],
+        "tip": "Pressure ≠ force. Same force can give wildly different pressures. ALWAYS check units: cm² → m² (×10⁻⁴), and force in N."
+      },
+      "density": {
+        "name": "Density & floating",
+        "rule": "Density = mass per unit volume: ρ = m/V (kg/m³ or g/cm³). Water = 1000 kg/m³ = 1 g/cm³. An object FLOATS in a fluid if its density < fluid's density; SINKS if greater.",
+        "examples": ["Ice ρ = 920 kg/m³ < 1000 = floats in water.", "Iron 7900 kg/m³ > 1000 = sinks. But iron ships float — because hollow shape makes AVERAGE density < water.", "Helium 0.18 kg/m³ < air's 1.2 = balloons rise.", "1 cm³ gold (ρ=19.3) weighs 19.3 g. 1 cm³ aluminium (ρ=2.7) weighs 2.7 g.", "Density of water depends on temperature: max density at 4°C."],
+        "watchOut": "Same mass, different volume = different density. A kg of feathers vs a kg of lead — same mass, but lead has TINY volume → high density."
+      },
+      "fluidPressure": {
+        "name": "Fluid pressure & atmospheric",
+        "rule": "Pressure in a fluid at depth h: P = ρ·g·h. Increases LINEARLY with depth. Atmospheric pressure at sea level ≈ 101 325 Pa (1 atm) — caused by ~100 km of air above. Decreases with altitude.",
+        "examples": ["10 m underwater: ρgh = 1000·10·10 = 100 000 Pa = ~1 atm extra. Total = 2 atm.", "Mariana Trench (11 000 m): ~110 MPa (1100×atm).", "Mount Everest (8848 m): atmospheric drops to ~30 kPa = ~30% of sea-level.", "Aeroplanes at 10 000 m: cabin pressurised to ~75 kPa (about Denver, Colorado).", "Submarines crushed by pressure if their hull fails at depth."],
+        "tip": "Hydraulic systems use Pascal's principle: pressure transmits equally in all directions. Press one piston small, lift heavy car with large piston (mechanical advantage)."
+      }
+    },
     "terms": {
       "contactForce": {
         "name": "Contact force",
@@ -445,6 +521,44 @@
   "electricity": {
     "title": "Electricity and Magnetism",
     "intro": "Charge, current, resistance and circuits — plus the sensors and safety devices that put them to use.",
+    "concepts": {
+      "currentVoltageResistance": {
+        "name": "Current, voltage & resistance — the trinity",
+        "rule": "Current (I, amps) is the flow rate of charge: I = Q/t. Voltage (V, volts) is the energy given per coulomb of charge: V = E/Q. Resistance (R, ohms) is how much a component opposes current. Ohm's Law links them: V = IR.",
+        "examples": ["1 A current = 1 coulomb of charge per second passing a point.", "Battery 12 V means each coulomb gains 12 J energy as it flows.", "A 4 Ω resistor with 2 A through it: V = 2·4 = 8 V across it.", "Same resistor with 12 V across: I = V/R = 12/4 = 3 A.", "Current is measured by ammeter IN SERIES; voltage by voltmeter IN PARALLEL with the component."],
+        "tip": "Think water analogy: voltage = pump pressure (energy per drop), current = flow rate, resistance = pipe narrowness. Same intuition works."
+      },
+      "ohmsLaw": {
+        "name": "Ohm's Law (V = IR)",
+        "rule": "For ohmic conductors (fixed temperature): current is DIRECTLY proportional to voltage. V/I = R is constant. Graph V vs I is a straight line through origin. Filament lamps, diodes are NON-ohmic.",
+        "examples": ["A 5 Ω resistor at 10 V: I = V/R = 10/5 = 2 A.", "Doubling voltage doubles current (same R).", "Filament lamp: as I rises, filament heats up, R rises → V vs I curves (not straight line).", "Diode: only conducts above ~0.7 V (forward), basically infinite R reverse."],
+        "watchOut": "Ohm's Law ONLY holds at constant temperature. For a lamp/wire that gets hot, R changes — V vs I curves."
+      },
+      "seriesParallel": {
+        "name": "Series vs Parallel circuits",
+        "rule": "Series: components in ONE loop. Current SAME through each. Voltages ADD: V_total = V₁ + V₂. Resistances ADD: R = R₁ + R₂. Parallel: components in SEPARATE branches. Voltage SAME across each. Currents ADD: I_total = I₁ + I₂. 1/R = 1/R₁ + 1/R₂.",
+        "examples": ["3 Ω + 6 Ω in series: R = 9 Ω. At 9 V: I = 1 A throughout.", "3 Ω || 6 Ω parallel: 1/R = 1/3 + 1/6 = 1/2, so R = 2 Ω. At 9 V total: 9/3 = 3 A in 3Ω branch, 9/6 = 1.5 A in 6Ω, total 4.5 A.", "Two identical resistors in parallel: R = R/2 (halved).", "Christmas lights: traditional were series (one fails, all out). Modern parallel: one fails, rest stay on."],
+        "tip": "Series adds resistance (current path lengthened). Parallel reduces resistance (more paths for current). House wiring is parallel — voltage on every socket is 230 V."
+      },
+      "power": {
+        "name": "Electrical power",
+        "rule": "Power = energy per second. P = V·I = I²·R = V²/R (W, watts). Energy used: E = P·t (J or kWh). Domestic bill is in kWh: 1 kWh = 1000 W × 3600 s = 3.6 MJ.",
+        "examples": ["100 W bulb at 230 V: I = 100/230 ≈ 0.43 A.", "3 kW kettle for 2 minutes: E = 3000 × 120 = 360 000 J = 0.1 kWh.", "Heater 2 kW for 5 h: 10 kWh. At 30p/kWh = £3.", "Same current through 4 Ω vs 8 Ω resistor: P = I²R, so 8 Ω dissipates DOUBLE the power.", "Same VOLTAGE across them: P = V²/R, so 4 Ω dissipates DOUBLE (more current draws)."],
+        "tip": "Choose your formula: known V & I → VI. Known I & R → I²R. Known V & R → V²/R. All equivalent via Ohm's Law."
+      },
+      "safety": {
+        "name": "Mains electricity & safety",
+        "rule": "Mains in UK: 230 V AC, 50 Hz. Three wires: live (brown, 230 V), neutral (blue, 0 V), earth (green/yellow, safety). Safety devices: fuse (breaks if current > rating), circuit breaker, RCD (residual current device — detects imbalance, trips in ms), earth wire.",
+        "examples": ["A toaster's metal case is earthed — if live touches case, large current flows to earth, fuse blows.", "3 A fuse for lamps & TVs; 13 A for kettle, iron, heater.", "RCD trips in 30 ms — fast enough to prevent fatal shock.", "Double-insulated appliances (radio, hairdryer) have plastic casing — no earth needed (square symbol)."],
+        "watchOut": "Wet hands + electricity = fatal. AC 100 mA through heart = death within seconds. ALWAYS turn off at the wall before working on a circuit."
+      },
+      "magnetism": {
+        "name": "Magnetism & electromagnetism",
+        "rule": "A current in a wire creates a magnetic field. Right-hand grip rule: thumb in direction of current, fingers curl in direction of field. Coiling the wire (solenoid) amplifies field. Iron core inside coil makes an ELECTROMAGNET — strong & switchable.",
+        "examples": ["Compass deflects near a current-carrying wire (Oersted's discovery, 1820).", "Solenoid acts like a bar magnet — N pole where field lines exit.", "Electromagnet in a junk-yard crane lifts cars — turn off current to drop.", "Maglev trains: levitate on repelling electromagnets, no friction with rails.", "Motor: current in coil between magnets → force → rotation. Generator: rotation → induced EMF (Faraday's law)."],
+        "tip": "Motors and generators are the same machine running in opposite directions. Both rely on the interaction of current and magnetic field."
+      }
+    },
     "terms": {
       "current": {
         "name": "Current",
@@ -611,6 +725,44 @@
   "wavesOptics": {
     "title": "Waves and Optics",
     "intro": "From ripples on a pond to gamma rays — all waves share a few simple properties.",
+    "concepts": {
+      "waveTypes": {
+        "name": "Transverse vs Longitudinal waves",
+        "rule": "Transverse: oscillations PERPENDICULAR to direction of travel. Longitudinal: oscillations PARALLEL to direction of travel (compressions and rarefactions). Both transfer energy WITHOUT transferring matter.",
+        "examples": ["Transverse: light, water waves, waves on a string, ALL EM waves.", "Longitudinal: sound waves (compressions of air), ultrasound, P-waves in earthquakes.", "Slinky shaken side-to-side = transverse. Pushed forward-and-back = longitudinal.", "Earthquake P-waves (longitudinal) arrive first, then S-waves (transverse, can't go through liquid core)."],
+        "tip": "Visualise an oscillating particle. Direction of oscillation vs direction of wave travel — perpendicular (T) or parallel (L)?"
+      },
+      "waveEquation": {
+        "name": "Wave equation: v = f·λ",
+        "rule": "Speed (v, m/s) = frequency (f, Hz) × wavelength (λ, m). Period T = 1/f. The 'time to make one full oscillation' is the period; 'how many oscillations per second' is the frequency.",
+        "examples": ["Sound 340 m/s at frequency 1000 Hz: λ = 0.34 m.", "Red light 4.3 × 10¹⁴ Hz, in vacuum v = 3 × 10⁸ m/s: λ = 700 nm.", "FM radio at 100 MHz: λ = c/f = 3 m wavelength.", "Period of mains AC (50 Hz): T = 1/50 = 0.02 s = 20 ms."],
+        "tip": "When wave passes from one medium to another, FREQUENCY stays the same (source unchanged) but SPEED & WAVELENGTH change."
+      },
+      "emSpectrum": {
+        "name": "Electromagnetic spectrum",
+        "rule": "All EM waves travel at c = 3 × 10⁸ m/s in vacuum. Order from longest wavelength to shortest: Radio → Microwave → Infrared → Visible (Red-Orange-Yellow-Green-Blue-Indigo-Violet) → Ultraviolet → X-ray → Gamma. Higher frequency = more energy.",
+        "examples": ["Radio: communication, TV, FM/AM. λ ~ m to km.", "Microwaves: cooking (water absorbs 2.4 GHz), wifi, GPS.", "Infrared: thermal cameras, remote controls. Felt as heat.", "Visible: 400-700 nm. Our eyes detect this narrow band only.", "UV: tans skin, vitamin D, sterilises water. Causes sunburn, cancer.", "X-ray: medical imaging, security scans. Ionises atoms.", "Gamma: radioactive decay, nuclear medicine. Most dangerous: penetrates and ionises."],
+        "watchOut": "Higher frequency = MORE energy = more biologically damaging. UV and above are IONISING (knock electrons out of atoms)."
+      },
+      "reflection": {
+        "name": "Reflection",
+        "rule": "Angle of incidence = angle of reflection. Both measured from the NORMAL (perpendicular line to surface), not from the surface itself. Smooth surface = specular (mirror-like). Rough = diffuse (scattered).",
+        "examples": ["Mirror reflection: ray strikes at 30° from normal → reflects at 30° from normal.", "Image in plane mirror: virtual (behind mirror), same size as object, same distance behind as object is in front, LATERALLY INVERTED.", "Periscope: two parallel mirrors at 45°.", "Why white paper looks white in all directions: diffuse reflection of white light.", "Calm lake = mirror-like reflection. Rough sea = diffuse."],
+        "tip": "ALWAYS draw the normal first (dashed line). Measure angles FROM the normal, not from the surface."
+      },
+      "refraction": {
+        "name": "Refraction",
+        "rule": "When a wave enters a different medium, its SPEED changes — and if it strikes at an angle, it BENDS. Going from less dense to more dense (air → glass): bends TOWARDS normal. Glass → air: bends AWAY from normal.",
+        "examples": ["Pencil in water looks bent at surface — light refracted.", "Lenses focus light by refraction: converging lens — parallel rays meet at focal point.", "Prism splits white light: different colours refract by different amounts (dispersion).", "Total internal reflection (TIR): light from glass to air at large angle (>critical angle) reflects ENTIRELY. Used in optical fibres (data travels 1000s km this way).", "Mirages: hot air near road bends light, creating 'water'."],
+        "tip": "Speed changes drive bending. Frequency stays constant; wavelength shortens in slower medium."
+      },
+      "sound": {
+        "name": "Sound waves & hearing",
+        "rule": "Sound = longitudinal wave; needs a medium (no sound in vacuum). Speed in air ~340 m/s, water ~1500 m/s, steel ~5000 m/s (denser/more rigid = faster). Human hearing: ~20 Hz to ~20 kHz. Below = infrasound (elephants, whales); above = ultrasound (bats, medical imaging).",
+        "examples": ["Pitch = frequency. Higher freq = higher pitch.", "Volume = amplitude. Larger amp = louder. Measured in decibels (dB) — logarithmic scale.", "Thunder/lightning gap: 3 s = ~1 km away (sound travels 340 m/s vs light essentially instantly).", "Ultrasound: 2-18 MHz, used for foetal imaging, kidney stones, NDT.", "Doppler effect: pitch rises as source approaches (compressed waves), falls as it recedes (stretched waves)."],
+        "tip": "Sound is mechanical and requires a medium. EM waves don't (light travels through space)."
+      }
+    },
     "terms": {
       "amplitude": {
         "name": "Amplitude",

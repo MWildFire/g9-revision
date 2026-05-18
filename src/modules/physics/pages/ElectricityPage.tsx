@@ -11,6 +11,7 @@ import { ThermistorLDR } from '../../../components/simulations/physics/Thermisto
 import { PowerConsumption } from '../../../components/simulations/physics/PowerConsumption';
 import { IVCharacteristics } from '../../../components/simulations/physics/IVCharacteristics';
 import { MagneticField } from '../../../components/simulations/physics/MagneticField';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
 const TERMS = [
   'current',
@@ -29,10 +30,17 @@ const TERMS = [
   'kwh',
 ];
 
+const CONCEPTS = ['currentVoltageResistance', 'ohmsLaw', 'seriesParallel', 'power', 'safety', 'magnetism'];
 const FORMULAS = ['ohm', 'power', 'energy', 'efficiency'];
 
 export function ElectricityPage() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
+  const conceptsHeading = lang === 'ru' ? 'Глубокий разбор' : 'Deeper concepts';
+
   return (
     <div>
       <TopicHero
@@ -43,6 +51,14 @@ export function ElectricityPage() {
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="electricity" termIds={TERMS} />
+
+      <SectionHeading>{conceptsHeading}</SectionHeading>
+      <div className="space-y-3">
+        {CONCEPTS.map((id) => {
+          const item = t(`electricity.concepts.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-sky-deep)" labels={labels} />;
+        })}
+      </div>
 
       <SectionHeading>{t('common.simulations')}</SectionHeading>
       <div className="space-y-6">

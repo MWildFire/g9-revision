@@ -1,0 +1,155 @@
+{
+  "subjectName": "Математика",
+  "home": {
+    "title": "Математика — Ревижн",
+    "intro": "Пять тем revision list для G9 EOY с практикой Dr Frost и интерактивными моделями.",
+    "topics": "Темы",
+    "practice": "Практика",
+    "tools": "Инструменты"
+  },
+  "nav": {
+    "home": "Обзор",
+    "numberSystems": "Числовые системы",
+    "functionsAlgebra": "Функции и алгебра",
+    "sequences": "Последовательности",
+    "geometryTrig": "Геометрия и тригонометрия",
+    "statsProb": "Статистика и вероятность",
+    "eoyPractice": "EOY Practice",
+    "criteriaTrainer": "Тренажёр критериев"
+  },
+  "numberSystems": {
+    "title": "Числовые системы и арифметика",
+    "intro": "Классификация чисел, теория множеств, округление, корни, степени, стандартная форма и абсолютные значения.",
+    "subTopics": {
+      "structureSets": "Структура и множества — классификация, set notation",
+      "rounding": "Округление и точность",
+      "bounds": "Upper and lower bounds (Extended)",
+      "exponents": "Свойства степеней",
+      "fractionalIndices": "Дробные степени (Extended)",
+      "standardForm": "Стандартная форма",
+      "unitConversion": "Перевод единиц измерения",
+      "surdsSimplify": "Корни — упрощение",
+      "surdsOperate": "Корни — операции",
+      "absolute": "Абсолютные значения"
+    }
+  },
+  "functionsAlgebra": {
+    "title": "Функции и алгебра",
+    "intro": "Mappings, domain/range, квадратные в трёх формах, преобразования функций, алгебраические дроби, пропорциональность.",
+    "subTopics": {
+      "mappings": "Mappings, domain & range",
+      "verticalLine": "Vertical line test",
+      "quadraticsFactor": "Квадратные — раскрытие и факторизация",
+      "quadraticsGraph": "Квадратные — графическое представление",
+      "vertexForm": "Vertex form",
+      "transformations": "Преобразования функций",
+      "solveGeneral": "Решение квадратных — общий случай",
+      "solveFactor": "Решение — факторизацией",
+      "solveCompleteSquare": "Решение — completing the square",
+      "solveFormula": "Решение — формула",
+      "solveGraphical": "Решение — графически",
+      "rearrange": "Changing the subject of a formula",
+      "algebraicFractions": "Алгебраические дроби (Extended)",
+      "proportions": "Прямая и обратная пропорциональность",
+      "asymptotes": "Рациональные функции — асимптоты",
+      "exponential": "Экспоненциальные функции"
+    }
+  },
+  "sequences": {
+    "title": "Последовательности и ряды",
+    "intro": "Линейные, квадратные и геометрические последовательности. Общая формула n-го члена; сумма бесконечного ряда (Extended).",
+    "subTopics": {
+      "linearGeneral": "Линейные — общая формула",
+      "linearProblems": "Линейные — задачи",
+      "geometric": "Геометрические — общая формула",
+      "sumInfinity": "Сумма к бесконечности (Extended)"
+    }
+  },
+  "geometryTrig": {
+    "title": "Геометрия и тригонометрия",
+    "intro": "Пифагор, тригонометрические соотношения, теоремы синусов и косинусов, теоремы об окружностях, сектора и дуги.",
+    "subTopics": {
+      "pythagoras": "Пифагор (вкл. обратную — Extended)",
+      "trig": "Тригонометрия",
+      "bearings": "Bearings",
+      "sineCosine": "Теоремы синусов и косинусов (Extended)",
+      "triangleArea": "Площадь через ½ab·sin(C)",
+      "circleTheorems": "Теоремы об окружностях",
+      "sectors": "Сектора и дуги",
+      "segments": "Площадь сегмента",
+      "intersectingChords": "Пересекающиеся хорды"
+    }
+  },
+  "statsProb": {
+    "title": "Статистика и вероятность",
+    "intro": "Гистограммы, ящики с усами, диаграммы стебель-лист, сгруппированные данные, кумулятивная частота, стандартное отклонение (Extended).",
+    "subTopics": {
+      "representation": "Представление данных",
+      "stemLeaf": "Stem and leaf",
+      "grouped": "Сгруппированные данные",
+      "boxPlots": "Box plots",
+      "histograms": "Гистограммы",
+      "cumulativeFreq": "Кумулятивная частота (вкл. процентили)",
+      "stdDev": "Стандартное отклонение (Extended)",
+      "pieCharts": "Круговые диаграммы"
+    }
+  },
+  "eoyPractice": {
+    "title": "EOY Practice",
+    "intro": "Коды AssessPrep e-assessment: GD29PC и Y9636Y. Задачи Review-in-Context из учебников ниже — эффективная замена в том же формате IB MYP.",
+    "assessPrepLink": "Перейти на AssessPrep",
+    "openByChapter": "По главам"
+  },
+  "criteriaTrainer": {
+    "title": "Тренажёр критериев",
+    "intro": "Тренировка в формате MYP-критериев A, B, C и D.",
+    "criterionA": {
+      "title": "Criterion A — Knowing & Understanding",
+      "description": "Короткие вычислительные задачи по всем пяти темам."
+    },
+    "criterionB": {
+      "title": "Criterion B — Investigating Patterns",
+      "description": "Найди закономерность → общая формула → проверка → обоснование."
+    },
+    "criterionC": {
+      "title": "Criterion C — Communication",
+      "description": "Чек-лист для качественной математической записи."
+    },
+    "criterionD": {
+      "title": "Criterion D — Applying to Real Life",
+      "description": "Задачи из жизни — выявить факторы, рассчитать, обосновать, оценить."
+    }
+  },
+  "sources": {
+    "standard": "Standard book 4-5",
+    "extended": "Extended book 4-5",
+    "standardAnswers": "Standard Answers",
+    "extendedAnswers": "Extended Answers",
+    "chapter": "Глава",
+    "mixedPractice": "Mixed practice",
+    "reviewInContext": "Review in context"
+  },
+  "simulations": {
+    "standardForm": {
+      "title": "Стандартная форма",
+      "description": "Переводи между стандартной формой a × 10ⁿ и обычной записью."
+    },
+    "quadraticExplorer": {
+      "title": "Quadratic Explorer",
+      "description": "Двигай слайдеры a, b, c — парабола, vertex, ось симметрии и корни обновляются вживую."
+    },
+    "sequenceGenerator": {
+      "title": "Генератор последовательностей",
+      "description": "Линейные и геометрические — члены и формула n-го члена."
+    },
+    "sectorSegment": {
+      "title": "Сектор и сегмент",
+      "description": "Меняй радиус и угол — площадь сектора / сегмента."
+    },
+    "boxPlot": {
+      "title": "Box Plot Builder",
+      "description": "Вставь данные — получи ящик с усами с квартилями и выбросами."
+    },
+    "comingSoon": "Больше моделей скоро добавим"
+  }
+}

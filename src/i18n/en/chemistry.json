@@ -1,0 +1,43 @@
+{
+  "subjectName": "Chemistry",
+  "home": {
+    "title": "Chemistry — Revision",
+    "intro": "Detailed content will be added once the revision booklet is available. Below: planned topic structure and an overview of the IB MYP G9 Chemistry essentials.",
+    "draftNotice": "Planned topics:",
+    "essentialsHeading": "Essentials to know"
+  },
+  "topics": {
+    "atomsPeriodic": "Atomic structure & periodic table",
+    "bonding": "Bonding — ionic, covalent, metallic",
+    "reactions": "Chemical reactions & equations",
+    "stoichiometry": "Stoichiometry — moles, mass calculations",
+    "acidsBases": "Acids, bases and salts",
+    "energy": "Energy in chemistry — exothermic / endothermic"
+  },
+  "essentials": {
+    "protonsNeutrons": {
+      "title": "Atomic structure",
+      "body": "Atomic number Z = number of protons. Mass number A = protons + neutrons. Isotopes share Z but differ in A."
+    },
+    "ionicVsCovalent": {
+      "title": "Ionic vs covalent",
+      "body": "Ionic: metal + non-metal, electrons transferred. Covalent: non-metal + non-metal, electrons shared."
+    },
+    "moles": {
+      "title": "Mole concept",
+      "body": "n = m / M. Avogadro: 1 mol = 6.022 × 10²³ particles. At STP, 1 mol of any gas occupies 22.4 dm³."
+    },
+    "balancing": {
+      "title": "Balancing equations",
+      "body": "Atoms must be conserved. Adjust coefficients (not subscripts). Check H and O last."
+    },
+    "pH": {
+      "title": "pH scale",
+      "body": "pH 0–7 acidic, 7 neutral, 7–14 alkaline. Each whole number = 10× change in H⁺ concentration."
+    },
+    "reactionTypes": {
+      "title": "Reaction types",
+      "body": "Combination, decomposition, single displacement, double displacement (incl. neutralisation), combustion."
+    }
+  }
+}

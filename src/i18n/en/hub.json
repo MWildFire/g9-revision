@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "Revision Hub for G9 EOY 2026",
+    "subtitle": "Interactive resources across seven subjects — built for Luka",
+    "openTimetable": "Open revision timetable"
+  },
+  "subjectsHeading": "Subjects",
+  "timetablePreview": {
+    "title": "Revision Timetable",
+    "description": "Plan your week — drag topics into days and track completion.",
+    "cta": "Open planner →"
+  },
+  "subjects": {
+    "math": {
+      "name": "Mathematics",
+      "description": "5 topics · 16 simulations · Dr Frost practice"
+    },
+    "physics": {
+      "name": "Physics",
+      "description": "4 topics · 25 simulations · IB MYP practice"
+    },
+    "chemistry": {
+      "name": "Chemistry",
+      "description": "6 topics · in development"
+    },
+    "biology": {
+      "name": "Biology",
+      "description": "External resources + RU/EN glossary"
+    },
+    "english": {
+      "name": "English",
+      "description": "Text types, devices, essay practice · in development"
+    },
+    "french": {
+      "name": "French",
+      "description": "Emergent/Capable/Proficient · in development"
+    },
+    "arabic": {
+      "name": "Arabic",
+      "description": "Phases 1–6 · vocabulary, grammar, reading · in development"
+    },
+    "geography": {
+      "name": "Geography",
+      "description": "4 revision sheets with interactive content"
+    }
+  },
+  "detail": {
+    "full": "Detailed content",
+    "partial": "Partial content",
+    "scaffold": "In development"
+  }
+}

@@ -1,0 +1,848 @@
+{
+  "subjectName": "Physics",
+  "brand": "Physics 9",
+  "nav": {
+    "home": "Home",
+    "commandTerms": "Command Terms",
+    "forceMotion": "Force & Motion",
+    "forcesEnergy": "Forces & Energy",
+    "electricity": "Electricity & Magnetism",
+    "wavesOptics": "Waves & Optics",
+    "criteria": "MYP Criteria",
+    "resources": "Resources"
+  },
+  "common": {
+    "theory": "Theory",
+    "keyTerms": "Key Terms",
+    "simulations": "Interactive Simulations",
+    "formulas": "Formulas",
+    "practice": "Practice Questions",
+    "controls": "Controls",
+    "result": "Result",
+    "reset": "Reset",
+    "start": "Start",
+    "stop": "Stop",
+    "play": "Play",
+    "pause": "Pause",
+    "deployParachute": "Deploy parachute",
+    "applyForce": "Apply force",
+    "collide": "Collide",
+    "collisionType": "Collision type",
+    "elastic": "Elastic",
+    "inelastic": "Inelastic",
+    "series": "Series",
+    "parallel": "Parallel",
+    "transverse": "Transverse",
+    "longitudinal": "Longitudinal",
+    "openLink": "Open",
+    "before": "Before",
+    "after": "After",
+    "sinks": "sinks",
+    "floats": "floats",
+    "neutralBuoyancy": "neutral buoyancy",
+    "totalCost": "Total cost",
+    "perMonth": "per month",
+    "perDay": "per day"
+  },
+  "home": {
+    "title": "Physics Revision",
+    "subtitle": "Grade 9 — Interactive Course",
+    "intro": "Study topics, explore key terms, and experiment with interactive simulations. Everything you need for the MYP Physics 9 exam — in one calm, focused place.",
+    "exploreTopics": "Explore Topics",
+    "beforeYouStart": "Before you start",
+    "topics": {
+      "forceMotion": {
+        "title": "Force & Motion",
+        "desc": "Vectors, Newton's laws, momentum and braking."
+      },
+      "forcesEnergy": {
+        "title": "Forces & Energy",
+        "desc": "Hooke's law, pressure, density and energy transfer."
+      },
+      "electricity": {
+        "title": "Electricity & Magnetism",
+        "desc": "Ohm's law, circuits, sensors, power consumption."
+      },
+      "wavesOptics": {
+        "title": "Waves & Optics",
+        "desc": "Waves, reflection, refraction, the EM spectrum."
+      }
+    }
+  },
+  "commandTerms": {
+    "title": "Command Terms",
+    "intro": "Command terms tell you exactly what an exam question is asking for. Read them carefully and answer accordingly.",
+    "headerCommand": "Command",
+    "headerMeaning": "What it means",
+    "headerHow": "How to answer",
+    "items": {
+      "state": {
+        "term": "State / Name",
+        "meaning": "Give a specific fact or piece of information.",
+        "how": "Just give the fact. No explanation needed.",
+        "example": "State the SI unit of force. → newton (N)."
+      },
+      "describe": {
+        "term": "Describe",
+        "meaning": "Give a detailed account of what happens.",
+        "how": "Outline the events or features in order.",
+        "example": "Describe the motion of a parachutist before reaching terminal velocity."
+      },
+      "explain": {
+        "term": "Explain",
+        "meaning": "Give reasons for why or how something happens.",
+        "how": "Use 'because' and link cause to effect.",
+        "example": "Explain why a thicker wire has lower resistance."
+      },
+      "compare": {
+        "term": "Compare",
+        "meaning": "Identify similarities and differences.",
+        "how": "Use linking words: similarly, however, whereas.",
+        "example": "Compare series and parallel circuits."
+      },
+      "evaluate": {
+        "term": "Evaluate",
+        "meaning": "Weigh up strengths and weaknesses, then reach a judgement.",
+        "how": "Mention pros, cons, then conclude.",
+        "example": "Evaluate the use of nuclear power."
+      },
+      "calculate": {
+        "term": "Calculate",
+        "meaning": "Work out a numerical answer using a formula.",
+        "how": "Write the formula, substitute, calculate, give units.",
+        "example": "Calculate the force on a 5 kg mass accelerating at 2 m/s²."
+      }
+    }
+  },
+  "forceMotion": {
+    "title": "Force and Motion",
+    "intro": "We study how and why objects move, what makes them speed up or stop, and what happens when they collide.",
+    "terms": {
+      "scalar": {
+        "name": "Scalar",
+        "alt": "Скаляр",
+        "definition": "A quantity with magnitude only and no direction.",
+        "example": "Distance and speed are scalars."
+      },
+      "vector": {
+        "name": "Vector",
+        "alt": "Вектор",
+        "definition": "A quantity with both magnitude and direction.",
+        "example": "Velocity, force and displacement are vectors."
+      },
+      "displacement": {
+        "name": "Displacement",
+        "alt": "Перемещение",
+        "definition": "The shortest distance between the start and end point in a specific direction.",
+        "example": "Walking 3 m east then 4 m north gives a displacement of 5 m NE."
+      },
+      "velocity": {
+        "name": "Velocity",
+        "alt": "Скорость",
+        "definition": "Speed in a given direction.",
+        "example": "20 m/s east is a velocity."
+      },
+      "acceleration": {
+        "name": "Acceleration",
+        "alt": "Ускорение",
+        "definition": "The rate of change of velocity over time.",
+        "example": "A car going from 0 to 20 m/s in 4 s accelerates at 5 m/s²."
+      },
+      "resultantForce": {
+        "name": "Resultant force",
+        "alt": "Равнодействующая сила",
+        "definition": "The overall force acting on an object after all forces are combined.",
+        "example": "10 N right − 4 N left = 6 N right."
+      },
+      "newton1": {
+        "name": "Newton's First Law",
+        "alt": "Первый закон Ньютона",
+        "definition": "Objects stay at rest or move uniformly unless acted on by a resultant force.",
+        "example": "A book on a table stays still until pushed."
+      },
+      "newton2": {
+        "name": "Newton's Second Law",
+        "alt": "Второй закон Ньютона",
+        "definition": "Acceleration depends on force and mass (F = m × a).",
+        "example": "Doubling the force doubles the acceleration."
+      },
+      "newton3": {
+        "name": "Newton's Third Law",
+        "alt": "Третий закон Ньютона",
+        "definition": "Every action force has an equal and opposite reaction force.",
+        "example": "When you jump, you push down on Earth, Earth pushes you up."
+      },
+      "momentum": {
+        "name": "Momentum",
+        "alt": "Импульс",
+        "definition": "The quantity of motion of an object (p = mv).",
+        "example": "A heavy truck at low speed can have the same momentum as a light car at high speed."
+      },
+      "impulse": {
+        "name": "Impulse",
+        "alt": "Импульс силы",
+        "definition": "The change in momentum caused by a force over time (J = FΔt).",
+        "example": "A longer contact time gives a larger impulse for the same force."
+      },
+      "terminalVelocity": {
+        "name": "Terminal velocity",
+        "alt": "Установившаяся скорость",
+        "definition": "Constant speed reached when air resistance equals weight.",
+        "example": "A skydiver reaches about 53 m/s in free fall."
+      },
+      "reactionTime": {
+        "name": "Reaction time",
+        "alt": "Время реакции",
+        "definition": "Time taken to respond to a stimulus.",
+        "example": "A typical reaction time is 0.2–0.9 s."
+      },
+      "brakingDistance": {
+        "name": "Braking distance",
+        "alt": "Тормозной путь",
+        "definition": "Distance travelled after brakes are applied.",
+        "example": "Increases with speed squared, longer on wet roads."
+      }
+    },
+    "formulas": {
+      "speed": "v = s / t",
+      "speedCaption": "Average speed: distance over time",
+      "acceleration": "a = (v − u) / t",
+      "accelerationCaption": "Acceleration: change in velocity over time",
+      "newton2": "F = m × a",
+      "newton2Caption": "Newton's Second Law",
+      "momentum": "p = m × v",
+      "momentumCaption": "Momentum",
+      "impulse": "J = F × Δt = Δp",
+      "impulseCaption": "Impulse equals change in momentum"
+    },
+    "sim1": {
+      "title": "Newton's Second Law (F = ma)",
+      "desc": "Adjust mass and applied force to see how acceleration changes.",
+      "mass": "Mass",
+      "force": "Applied force",
+      "acceleration": "Acceleration",
+      "velocity": "Current velocity",
+      "chartTitle": "Velocity vs Time"
+    },
+    "sim2": {
+      "title": "Terminal Velocity",
+      "desc": "Drop a skydiver and watch weight and air resistance balance out.",
+      "skydiverMass": "Skydiver mass",
+      "dragCoefficient": "Drag coefficient",
+      "deployParachute": "Deploy parachute",
+      "reset": "Reset",
+      "currentSpeed": "Speed",
+      "weight": "Weight",
+      "drag": "Air resistance",
+      "chartTitle": "Speed vs Time"
+    },
+    "sim3": {
+      "title": "Momentum Collision",
+      "desc": "Set two masses moving toward each other, then choose elastic or inelastic.",
+      "m1": "Mass 1",
+      "m2": "Mass 2",
+      "v1": "Velocity 1",
+      "v2": "Velocity 2",
+      "totalBefore": "Total momentum before",
+      "totalAfter": "Total momentum after"
+    },
+    "sim4": {
+      "title": "Reaction & Braking Distance",
+      "desc": "Explore how speed, reaction time and road conditions change stopping distance.",
+      "speed": "Car speed",
+      "reactionTime": "Reaction time",
+      "road": "Road condition",
+      "roadDry": "Dry",
+      "roadWet": "Wet",
+      "roadIce": "Ice",
+      "reactionDistance": "Reaction distance",
+      "brakingDistance": "Braking distance",
+      "stoppingDistance": "Total stopping distance"
+    },
+    "simVectors": {
+      "title": "Vector Addition",
+      "desc": "Combine two forces tip-to-tail and read the resultant — magnitude and direction.",
+      "f1": "Force 1",
+      "f2": "Force 2",
+      "magnitude": "Magnitude",
+      "angle": "Angle"
+    },
+    "simGraphs": {
+      "title": "Motion Graphs (s-t, v-t, a-t)",
+      "desc": "Switch between scenarios and watch all three motion graphs update together.",
+      "scenario": "Scenario",
+      "constantV": "Constant v",
+      "constantA": "Uniform accel.",
+      "decel": "Uniform decel.",
+      "initialV": "Initial velocity",
+      "acceleration": "Acceleration magnitude",
+      "explainConstantV": "Constant velocity: flat v-t line, zero a-t.",
+      "explainConstantA": "Uniform acceleration: straight line v-t, flat a-t.",
+      "explainDecel": "Uniform deceleration: v-t decreases linearly until rest, then stays zero.",
+      "distanceNote": "Distance = area under the v-t graph."
+    }
+  },
+  "forcesEnergy": {
+    "title": "Forces and Energy",
+    "intro": "How forces stretch, push, lift and do work — and how pressure and density shape what floats, sinks, or holds together.",
+    "terms": {
+      "contactForce": {
+        "name": "Contact force",
+        "alt": "Контактная сила",
+        "definition": "A force acting when objects touch.",
+        "example": "Friction, push, tension."
+      },
+      "nonContactForce": {
+        "name": "Non-contact force",
+        "alt": "Бесконтактная сила",
+        "definition": "A force acting without touching.",
+        "example": "Gravity, magnetism, electrostatic force."
+      },
+      "elasticity": {
+        "name": "Elasticity",
+        "alt": "Упругость",
+        "definition": "Ability to return to original shape after stretching.",
+        "example": "A spring that springs back."
+      },
+      "hookesLaw": {
+        "name": "Hooke's Law",
+        "alt": "Закон Гука",
+        "definition": "Extension is proportional to force applied (F = k × x).",
+        "example": "Doubling the force doubles the extension — until the limit."
+      },
+      "workDone": {
+        "name": "Work done",
+        "alt": "Работа",
+        "definition": "Energy transferred when a force moves an object (W = F × d).",
+        "example": "Lifting a 10 N bag by 2 m does 20 J of work."
+      },
+      "energyTransfer": {
+        "name": "Energy transfer",
+        "alt": "Передача энергии",
+        "definition": "Movement of energy between objects or systems.",
+        "example": "Chemical energy in fuel → thermal energy in the engine."
+      },
+      "pressure": {
+        "name": "Pressure",
+        "alt": "Давление",
+        "definition": "Force acting per unit area (P = F / A).",
+        "example": "A sharp knife focuses force on a small area, increasing pressure."
+      },
+      "atmosphericPressure": {
+        "name": "Atmospheric pressure",
+        "alt": "Атмосферное давление",
+        "definition": "Pressure caused by air particles.",
+        "example": "About 101 kPa at sea level."
+      },
+      "density": {
+        "name": "Density",
+        "alt": "Плотность",
+        "definition": "Mass per unit volume (ρ = m / V).",
+        "example": "Water is 1000 kg/m³; iron is 7870 kg/m³."
+      },
+      "fluidPressure": {
+        "name": "Fluid pressure",
+        "alt": "Давление жидкости",
+        "definition": "Pressure exerted by liquids or gases.",
+        "example": "Increases with depth: P = ρgh."
+      }
+    },
+    "formulas": {
+      "hooke": "F = k × x",
+      "hookeCaption": "Hooke's Law",
+      "work": "W = F × d",
+      "workCaption": "Work done",
+      "pressure": "P = F / A",
+      "pressureCaption": "Pressure",
+      "density": "ρ = m / V",
+      "densityCaption": "Density",
+      "fluidPressure": "P = ρgh",
+      "fluidPressureCaption": "Hydrostatic pressure"
+    },
+    "sim1": {
+      "title": "Hooke's Law",
+      "desc": "Stretch a spring and watch the linear F-x relationship until the elastic limit.",
+      "k": "Spring constant",
+      "force": "Applied force",
+      "extension": "Extension",
+      "warning": "Elastic limit exceeded — spring is permanently deformed.",
+      "chartTitle": "Force vs Extension"
+    },
+    "sim2": {
+      "title": "Pressure (P = F / A)",
+      "desc": "See how spreading the same force across different areas changes pressure.",
+      "force": "Force",
+      "area": "Contact area",
+      "pressure": "Pressure",
+      "scenarios": "Scenarios",
+      "knife": "Knife edge",
+      "shoe": "Shoe",
+      "elephant": "Elephant foot"
+    },
+    "sim3": {
+      "title": "Density & Floating",
+      "desc": "Compare object density with fluid density to predict floating or sinking.",
+      "objectDensity": "Object density",
+      "fluidDensity": "Fluid density",
+      "fluidPreset": "Fluid",
+      "water": "Water",
+      "oil": "Oil",
+      "mercury": "Mercury",
+      "verdict": "Verdict"
+    },
+    "sim4": {
+      "title": "Fluid Pressure with Depth",
+      "desc": "Sink a probe into a fluid and watch hydrostatic pressure grow.",
+      "depth": "Depth",
+      "fluidDensity": "Fluid density",
+      "pressure": "Pressure at depth"
+    },
+    "simEnergy": {
+      "title": "Energy Transformations (Pendulum)",
+      "desc": "Watch potential and kinetic energy trade places as the pendulum swings.",
+      "mass": "Bob mass",
+      "length": "String length",
+      "initialAngle": "Initial angle"
+    },
+    "simWorkPower": {
+      "title": "Work and Power",
+      "desc": "Lift a mass to a height in a chosen time — see the work done and power required.",
+      "mass": "Mass lifted",
+      "height": "Height lifted",
+      "time": "Time taken"
+    }
+  },
+  "electricity": {
+    "title": "Electricity and Magnetism",
+    "intro": "Charge, current, resistance and circuits — plus the sensors and safety devices that put them to use.",
+    "terms": {
+      "current": {
+        "name": "Current",
+        "alt": "Сила тока",
+        "definition": "Flow of electric charge (I, in amperes).",
+        "example": "Measured with an ammeter in series."
+      },
+      "voltage": {
+        "name": "Voltage",
+        "alt": "Напряжение",
+        "definition": "Energy transferred per unit charge (V, in volts).",
+        "example": "Measured with a voltmeter in parallel."
+      },
+      "resistance": {
+        "name": "Resistance",
+        "alt": "Сопротивление",
+        "definition": "Opposition to current flow (R, in ohms).",
+        "example": "Long thin wires have higher resistance."
+      },
+      "charge": {
+        "name": "Charge",
+        "alt": "Заряд",
+        "definition": "Property causing electrical attraction or repulsion.",
+        "example": "Like charges repel, opposite charges attract."
+      },
+      "seriesCircuit": {
+        "name": "Series circuit",
+        "alt": "Последовательная цепь",
+        "definition": "Components connected in one loop.",
+        "example": "Same current everywhere; voltage shares."
+      },
+      "parallelCircuit": {
+        "name": "Parallel circuit",
+        "alt": "Параллельная цепь",
+        "definition": "Components connected in separate branches.",
+        "example": "Same voltage on each branch; current splits."
+      },
+      "ohmicConductor": {
+        "name": "Ohmic conductor",
+        "alt": "Омический проводник",
+        "definition": "Conductor with constant resistance.",
+        "example": "Straight V–I graph through the origin."
+      },
+      "thermistor": {
+        "name": "Thermistor",
+        "alt": "Термистор",
+        "definition": "Resistor affected by temperature.",
+        "example": "Resistance falls as temperature rises (NTC)."
+      },
+      "ldr": {
+        "name": "LDR",
+        "alt": "Фоторезистор",
+        "definition": "Resistor affected by light intensity.",
+        "example": "Resistance falls as light increases — used in streetlights."
+      },
+      "staticElectricity": {
+        "name": "Static electricity",
+        "alt": "Статическое электричество",
+        "definition": "Build-up of electric charge.",
+        "example": "Hair sticking to a balloon after rubbing."
+      },
+      "fuse": {
+        "name": "Fuse",
+        "alt": "Предохранитель",
+        "definition": "Device that melts if current is too high.",
+        "example": "Common ratings: 3 A, 5 A, 13 A."
+      },
+      "circuitBreaker": {
+        "name": "Circuit breaker",
+        "alt": "Автоматический выключатель",
+        "definition": "Safety switch that cuts off current automatically.",
+        "example": "Can be reset, unlike a fuse."
+      },
+      "efficiency": {
+        "name": "Efficiency",
+        "alt": "КПД",
+        "definition": "Ratio of useful output to total input.",
+        "example": "An LED bulb is ~90% efficient."
+      },
+      "kwh": {
+        "name": "Kilowatt-hour (kWh)",
+        "alt": "Киловатт-час",
+        "definition": "Unit used to measure electricity usage.",
+        "example": "1 kWh = a 1000 W appliance running for 1 hour."
+      }
+    },
+    "formulas": {
+      "ohm": "V = I × R",
+      "ohmCaption": "Ohm's Law",
+      "power": "P = V × I = I²R = V²/R",
+      "powerCaption": "Electrical power",
+      "energy": "E = P × t",
+      "energyCaption": "Energy used over time",
+      "efficiency": "Efficiency = (useful out / total in) × 100%",
+      "efficiencyCaption": "Energy efficiency"
+    },
+    "sim1": {
+      "title": "Ohm's Law (V = IR)",
+      "desc": "Set voltage and resistance; current and power update live.",
+      "voltage": "Voltage",
+      "resistance": "Resistance",
+      "current": "Current",
+      "power": "Power"
+    },
+    "sim2": {
+      "title": "Circuit Builder — Series vs Parallel",
+      "desc": "Compare bulbs in series and parallel. Toggle each bulb on or off.",
+      "mode": "Mode",
+      "supplyVoltage": "Supply voltage",
+      "bulb": "Bulb",
+      "resistance": "Resistance",
+      "totalResistance": "Total resistance",
+      "totalCurrent": "Total current",
+      "burnOut": "Burn out",
+      "restore": "Restore"
+    },
+    "sim3": {
+      "title": "Thermistor & LDR",
+      "desc": "See how a thermistor responds to temperature and an LDR responds to light.",
+      "temperature": "Temperature",
+      "lightLevel": "Light level",
+      "thermistorR": "Thermistor R",
+      "ldrR": "LDR R",
+      "low": "low",
+      "high": "high"
+    },
+    "sim4": {
+      "title": "Power Consumption Calculator",
+      "desc": "Estimate monthly energy and cost for everyday devices.",
+      "device": "Device",
+      "powerW": "Power (W)",
+      "hoursPerDay": "Hours / day",
+      "kwhPerMonth": "kWh / month",
+      "costPerKwh": "Cost per kWh",
+      "monthlyCost": "Estimated monthly cost",
+      "devices": {
+        "lamp": "LED lamp",
+        "kettle": "Electric kettle",
+        "laptop": "Laptop",
+        "ac": "Air conditioner",
+        "fridge": "Refrigerator"
+      }
+    },
+    "simIV": {
+      "title": "I-V Characteristics — Ohmic vs Non-ohmic",
+      "desc": "Compare how current depends on voltage for a resistor, a filament lamp and a diode.",
+      "component": "Component",
+      "voltage": "Voltage",
+      "ohmic": "Resistor",
+      "filament": "Filament",
+      "diode": "Diode"
+    },
+    "simMagnetic": {
+      "title": "Magnetic Fields",
+      "desc": "Visualise field lines and compass directions for a bar magnet, a current-carrying wire or a solenoid.",
+      "source": "Source",
+      "barMagnet": "Bar magnet",
+      "wire": "Current wire",
+      "solenoid": "Solenoid",
+      "current": "Current",
+      "showCompass": "Show compasses"
+    }
+  },
+  "wavesOptics": {
+    "title": "Waves and Optics",
+    "intro": "From ripples on a pond to gamma rays — all waves share a few simple properties.",
+    "terms": {
+      "amplitude": {
+        "name": "Amplitude",
+        "alt": "Амплитуда",
+        "definition": "Maximum displacement from rest position.",
+        "example": "Higher amplitude = louder sound, brighter light."
+      },
+      "wavelength": {
+        "name": "Wavelength",
+        "alt": "Длина волны",
+        "definition": "Distance between two matching points on waves (λ).",
+        "example": "Crest to next crest."
+      },
+      "frequency": {
+        "name": "Frequency",
+        "alt": "Частота",
+        "definition": "Number of waves passing per second (f, in Hz).",
+        "example": "Audible sound is about 20 Hz–20 kHz."
+      },
+      "longitudinal": {
+        "name": "Longitudinal wave",
+        "alt": "Продольная волна",
+        "definition": "Vibrations parallel to wave direction.",
+        "example": "Sound waves in air."
+      },
+      "transverse": {
+        "name": "Transverse wave",
+        "alt": "Поперечная волна",
+        "definition": "Vibrations perpendicular to wave direction.",
+        "example": "Light, water surface waves."
+      },
+      "emSpectrum": {
+        "name": "Electromagnetic spectrum",
+        "alt": "Электромагнитный спектр",
+        "definition": "Full range of electromagnetic waves.",
+        "example": "Radio, micro, IR, visible, UV, X-ray, gamma."
+      },
+      "reflection": {
+        "name": "Reflection",
+        "alt": "Отражение",
+        "definition": "Bouncing of waves from a surface.",
+        "example": "Angle of incidence = angle of reflection."
+      },
+      "refraction": {
+        "name": "Refraction",
+        "alt": "Преломление",
+        "definition": "Bending of waves entering another medium.",
+        "example": "A straw looks bent in a glass of water."
+      },
+      "diffraction": {
+        "name": "Diffraction",
+        "alt": "Дифракция",
+        "definition": "Spreading of waves through gaps or around obstacles.",
+        "example": "Sound bending around a doorway."
+      },
+      "lens": {
+        "name": "Lens",
+        "alt": "Линза",
+        "definition": "Transparent object that refracts light.",
+        "example": "Magnifying glass — a converging lens."
+      },
+      "filter": {
+        "name": "Filter",
+        "alt": "Светофильтр",
+        "definition": "Material allowing certain colours through.",
+        "example": "A red filter blocks all except red light."
+      }
+    },
+    "formulas": {
+      "waveSpeed": "v = f × λ",
+      "waveSpeedCaption": "Wave speed",
+      "period": "T = 1 / f",
+      "periodCaption": "Period of a wave",
+      "snell": "n₁ sin θ₁ = n₂ sin θ₂",
+      "snellCaption": "Snell's law",
+      "lens": "1/f = 1/u + 1/v",
+      "lensCaption": "Thin lens formula"
+    },
+    "sim1": {
+      "title": "Wave Explorer",
+      "desc": "Tune amplitude, wavelength and frequency. Switch transverse or longitudinal.",
+      "amplitude": "Amplitude",
+      "wavelength": "Wavelength",
+      "frequency": "Frequency",
+      "speed": "Wave speed"
+    },
+    "sim2": {
+      "title": "Reflection & Refraction",
+      "desc": "Shine a ray at a boundary and watch Snell's law in action.",
+      "angle": "Angle of incidence",
+      "n1": "n₁ (top)",
+      "n2": "n₂ (bottom)",
+      "preset": "Bottom medium",
+      "air": "Air",
+      "water": "Water",
+      "glass": "Glass",
+      "diamond": "Diamond",
+      "reflected": "Angle of reflection",
+      "refracted": "Angle of refraction",
+      "tir": "Total internal reflection"
+    },
+    "sim3": {
+      "title": "Diffraction",
+      "desc": "Pass a plane wave through a gap and watch it spread.",
+      "slitWidth": "Slit width",
+      "wavelength": "Wavelength"
+    },
+    "sim4": {
+      "title": "Electromagnetic Spectrum",
+      "desc": "Slide along the spectrum to explore each region.",
+      "frequency": "Frequency",
+      "wavelength": "Wavelength",
+      "use": "Typical use",
+      "regions": {
+        "radio": "Radio",
+        "micro": "Microwave",
+        "ir": "Infrared",
+        "visible": "Visible light",
+        "uv": "Ultraviolet",
+        "xray": "X-ray",
+        "gamma": "Gamma"
+      },
+      "uses": {
+        "radio": "Broadcast, communications",
+        "micro": "Cooking, satellite, Wi-Fi",
+        "ir": "Heat, remote controls, night vision",
+        "visible": "Sight, photography",
+        "uv": "Sterilisation, tanning",
+        "xray": "Medical imaging",
+        "gamma": "Cancer therapy, sterilisation"
+      }
+    },
+    "sim5": {
+      "title": "Converging Lens",
+      "desc": "Move the object and watch the image form through three principal rays.",
+      "objectDistance": "Object distance (u)",
+      "focalLength": "Focal length (f)",
+      "imageDistance": "Image distance (v)",
+      "magnification": "Magnification",
+      "imageType": "Image",
+      "real": "Real",
+      "virtual": "Virtual",
+      "inverted": "Inverted",
+      "upright": "Upright",
+      "magnified": "Magnified",
+      "diminished": "Diminished"
+    },
+    "simSound": {
+      "title": "Sound Wave — Pitch & Loudness",
+      "desc": "Tune frequency (pitch) and amplitude (loudness) and see the wave + air-particle compressions.",
+      "frequency": "Frequency",
+      "amplitude": "Amplitude"
+    },
+    "simFilters": {
+      "title": "Colour & Filters",
+      "desc": "Shine a coloured light through a filter onto an object and predict what you see.",
+      "lightSource": "Light source",
+      "filter": "Filter",
+      "object": "Object colour"
+    }
+  },
+  "criteria": {
+    "title": "MYP Criteria",
+    "intro": "Four criteria are assessed in MYP Physics. Use the checklists to make sure your response covers everything.",
+    "A": {
+      "title": "Criterion A — Knowing & Understanding",
+      "subtitle": "Recall and apply scientific knowledge (the written exam)",
+      "items": [
+        "Recall scientific facts, terms and definitions accurately — vocabulary like 'momentum', 'resultant force', 'refraction' must be used precisely.",
+        "Apply scientific knowledge to solve problems in familiar situations (e.g. calculate F = ma when force and mass are given).",
+        "Apply scientific knowledge to solve problems in unfamiliar situations (transfer the same idea to a new context, e.g. why an airbag works).",
+        "Analyse and evaluate scientific information to make scientifically supported judgements.",
+        "Show your working in calculations: formula → substitution → answer → units.",
+        "Use the correct command term (state, describe, explain, compare, evaluate, calculate) when answering."
+      ]
+    },
+    "B": {
+      "title": "Criterion B — Inquiring & Designing",
+      "subtitle": "Planning a lab",
+      "items": [
+        "Clear research question with independent, dependent and controlled variables.",
+        "Hypothesis with scientific reasoning ('If… then… because…').",
+        "Materials and apparatus list with sizes / quantities.",
+        "Numbered method that another student could repeat exactly.",
+        "Safety considerations identified.",
+        "Plan for collecting enough data (≥ 5 values, ≥ 3 repeats)."
+      ]
+    },
+    "C": {
+      "title": "Criterion C — Processing & Evaluating",
+      "subtitle": "Analyzing a lab",
+      "items": [
+        "Data table with units in headers and consistent decimal places.",
+        "Averages, ranges and uncertainties calculated.",
+        "Graph: title, labelled axes, suitable scale, line of best fit.",
+        "Trend described in words and linked to the science.",
+        "Conclusion answers the research question with evidence.",
+        "Evaluation: strengths, weaknesses and realistic improvements."
+      ]
+    },
+    "D": {
+      "title": "Criterion D — Reflecting on the Impacts of Science",
+      "subtitle": "The essay",
+      "items": [
+        "Clear scientific explanation of the issue.",
+        "Discussion of social, economic and environmental impacts.",
+        "Multiple perspectives considered (for / against / neutral).",
+        "Evidence from at least two reliable sources.",
+        "Personal opinion with justification.",
+        "References listed in a consistent format."
+      ]
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "intro": "External revision sites and references — keep them open while you study.",
+    "items": {
+      "bbc": {
+        "title": "BBC Bitesize — KS3 / GCSE Physics",
+        "desc": "Short topic notes and quick quizzes.",
+        "url": "https://www.bbc.co.uk/bitesize/subjects/zng4d2p"
+      },
+      "pmt": {
+        "title": "Physics & Maths Tutor (PMT)",
+        "desc": "Past paper questions sorted by topic.",
+        "url": "https://www.physicsandmathstutor.com/"
+      },
+      "seneca": {
+        "title": "Seneca Learning",
+        "desc": "Free interactive courses with progress tracking.",
+        "url": "https://senecalearning.com/"
+      },
+      "isaac": {
+        "title": "Isaac Physics",
+        "desc": "Problem sets curated by physicists at the University of Cambridge.",
+        "url": "https://isaacphysics.org/"
+      },
+      "khan": {
+        "title": "Khan Academy — Physics",
+        "desc": "Video explanations and practice problems.",
+        "url": "https://www.khanacademy.org/science/physics"
+      }
+    }
+  },
+  "practice": {
+    "intro": "MYP exam-style questions on this topic. Try answering first using the command term, then reveal the model answer.",
+    "showAnswer": "Show model answer",
+    "hideAnswer": "Hide answer",
+    "modelAnswer": "Model answer",
+    "marks_one": "mark",
+    "marks_other": "marks",
+    "commandTerms": {
+      "state": "State",
+      "describe": "Describe",
+      "explain": "Explain",
+      "compare": "Compare",
+      "evaluate": "Evaluate",
+      "calculate": "Calculate"
+    }
+  },
+  "footer": {
+    "made": "Made for revising Physics 9.",
+    "noTracking": "No accounts, no tracking — your progress lives only in this browser."
+  }
+}

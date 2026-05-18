@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "Хаб для подготовки к G9 EOY 2026",
+    "subtitle": "Интерактивные материалы по семи предметам — для Луки",
+    "openTimetable": "Открыть планировщик"
+  },
+  "subjectsHeading": "Предметы",
+  "timetablePreview": {
+    "title": "Расписание ревижна",
+    "description": "Планируй неделю — перетаскивай темы в дни и отмечай выполненное.",
+    "cta": "Открыть планировщик →"
+  },
+  "subjects": {
+    "math": {
+      "name": "Математика",
+      "description": "5 тем · 16 симуляций · практика Dr Frost"
+    },
+    "physics": {
+      "name": "Физика",
+      "description": "4 темы · 25 симуляций · вопросы IB MYP"
+    },
+    "chemistry": {
+      "name": "Химия",
+      "description": "6 тем · в разработке"
+    },
+    "biology": {
+      "name": "Биология",
+      "description": "Внешние ресурсы + русско-английский глоссарий"
+    },
+    "english": {
+      "name": "Английский",
+      "description": "Типы текстов, приёмы, эссе · в разработке"
+    },
+    "french": {
+      "name": "Французский",
+      "description": "Emergent/Capable/Proficient · в разработке"
+    },
+    "arabic": {
+      "name": "Арабский",
+      "description": "Phases 1–6 · лексика, грамматика, чтение · в разработке"
+    },
+    "geography": {
+      "name": "География",
+      "description": "4 интерактивных revision sheets"
+    }
+  },
+  "detail": {
+    "full": "Детальный контент",
+    "partial": "Частичный контент",
+    "scaffold": "В разработке"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "subjectName": "Mathematics",
+  "home": {
+    "title": "Mathematics — Revision",
+    "intro": "Five topics covering the G9 EOY revision list, with Dr Frost practice and interactive simulations.",
+    "topics": "Topics",
+    "practice": "Practice",
+    "tools": "Tools"
+  },
+  "nav": {
+    "home": "Overview",
+    "numberSystems": "Number Systems",
+    "functionsAlgebra": "Functions & Algebra",
+    "sequences": "Sequences",
+    "geometryTrig": "Geometry & Trig",
+    "statsProb": "Stats & Probability",
+    "eoyPractice": "EOY Practice",
+    "criteriaTrainer": "Criteria Trainer"
+  },
+  "numberSystems": {
+    "title": "Number Systems & Arithmetic",
+    "intro": "Classification of numbers, set notation, rounding, surds, exponents, standard form and absolute values.",
+    "subTopics": {
+      "structureSets": "Structure & Sets — classification, set notation",
+      "rounding": "Rounding & accuracy",
+      "bounds": "Upper and lower bounds (Extended)",
+      "exponents": "Laws of exponents",
+      "fractionalIndices": "Fractional indices (Extended)",
+      "standardForm": "Standard form",
+      "unitConversion": "Conversion of units",
+      "surdsSimplify": "Surds — simplifying",
+      "surdsOperate": "Surds — operations",
+      "absolute": "Absolute values"
+    }
+  },
+  "functionsAlgebra": {
+    "title": "Functions & Algebra",
+    "intro": "Mappings, domain/range, quadratics in three forms, function transformations, algebraic fractions, variation.",
+    "subTopics": {
+      "mappings": "Mappings, domain & range",
+      "verticalLine": "Vertical line test",
+      "quadraticsFactor": "Quadratics — expand & factorize",
+      "quadraticsGraph": "Quadratics — graphical representation",
+      "vertexForm": "Vertex form",
+      "transformations": "Function transformations",
+      "solveGeneral": "Solving quadratics — general",
+      "solveFactor": "Solving — factorize",
+      "solveCompleteSquare": "Solving — complete the square",
+      "solveFormula": "Solving — quadratic formula",
+      "solveGraphical": "Solving — graphically",
+      "rearrange": "Changing the subject of a formula",
+      "algebraicFractions": "Algebraic fractions (Extended)",
+      "proportions": "Direct & inverse proportions",
+      "asymptotes": "Rational functions — asymptotes",
+      "exponential": "Exponential functions"
+    }
+  },
+  "sequences": {
+    "title": "Sequences & Series",
+    "intro": "Linear, quadratic and geometric sequences. General rule for the nth term; sum to infinity (Extended).",
+    "subTopics": {
+      "linearGeneral": "Linear sequences — general rule",
+      "linearProblems": "Linear — problem solving",
+      "geometric": "Geometric sequences — general rule",
+      "sumInfinity": "Sum to infinity (Extended)"
+    }
+  },
+  "geometryTrig": {
+    "title": "Geometry & Trigonometry",
+    "intro": "Pythagoras, trig ratios, sine and cosine rules, circle theorems, sectors and arcs.",
+    "subTopics": {
+      "pythagoras": "Pythagoras (incl. converse — Extended)",
+      "trig": "Trigonometry",
+      "bearings": "Bearings",
+      "sineCosine": "Sine & Cosine rules (Extended)",
+      "triangleArea": "Area using ½ab·sin(C)",
+      "circleTheorems": "Circle theorems",
+      "sectors": "Sectors and arcs",
+      "segments": "Area of a segment",
+      "intersectingChords": "Intersecting chords"
+    }
+  },
+  "statsProb": {
+    "title": "Statistics & Probability",
+    "intro": "Histograms, box plots, stem-and-leaf plots, grouped data, cumulative frequency, standard deviation (Extended).",
+    "subTopics": {
+      "representation": "Data representation",
+      "stemLeaf": "Stem and leaf",
+      "grouped": "Grouped data",
+      "boxPlots": "Box plots",
+      "histograms": "Histograms",
+      "cumulativeFreq": "Cumulative frequency (incl. percentiles)",
+      "stdDev": "Standard deviation (Extended)",
+      "pieCharts": "Pie charts"
+    }
+  },
+  "eoyPractice": {
+    "title": "EOY Practice",
+    "intro": "AssessPrep e-assessment codes: GD29PC and Y9636Y. Review-in-Context questions from the textbooks below are an effective rehearsal in the same IB MYP style.",
+    "assessPrepLink": "Go to AssessPrep",
+    "openByChapter": "Browse by chapter"
+  },
+  "criteriaTrainer": {
+    "title": "Criteria Trainer",
+    "intro": "Practice in the format of MYP Criteria A, B, C and D.",
+    "criterionA": {
+      "title": "Criterion A — Knowing & Understanding",
+      "description": "Short calculation tasks across all five topics."
+    },
+    "criterionB": {
+      "title": "Criterion B — Investigating Patterns",
+      "description": "Spot the pattern → general rule → verify → justify."
+    },
+    "criterionC": {
+      "title": "Criterion C — Communication",
+      "description": "Checklist for high-quality mathematical communication."
+    },
+    "criterionD": {
+      "title": "Criterion D — Applying to Real Life",
+      "description": "Real-world problem solving — identify factors, calculate, justify, evaluate."
+    }
+  },
+  "sources": {
+    "standard": "Standard book 4-5",
+    "extended": "Extended book 4-5",
+    "standardAnswers": "Standard Answers",
+    "extendedAnswers": "Extended Answers",
+    "chapter": "Chapter",
+    "mixedPractice": "Mixed practice",
+    "reviewInContext": "Review in context"
+  },
+  "simulations": {
+    "standardForm": {
+      "title": "Standard Form Converter",
+      "description": "Convert between standard form a × 10ⁿ and ordinary notation."
+    },
+    "quadraticExplorer": {
+      "title": "Quadratic Explorer",
+      "description": "Slide a, b, c to see the parabola, vertex, axis of symmetry and roots update live."
+    },
+    "sequenceGenerator": {
+      "title": "Sequence Generator",
+      "description": "Generate linear or geometric sequences, view terms and the n-th term formula."
+    },
+    "sectorSegment": {
+      "title": "Sector & Segment Calculator",
+      "description": "Vary radius and angle to compute sector / segment area."
+    },
+    "boxPlot": {
+      "title": "Box Plot Builder",
+      "description": "Paste a dataset and see the box plot with quartiles and outliers."
+    },
+    "comingSoon": "More interactive models coming soon"
+  }
+}

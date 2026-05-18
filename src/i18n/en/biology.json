@@ -1,0 +1,70 @@
+{
+  "subjectName": "Biology",
+  "home": {
+    "title": "Biology — Revision",
+    "intro": "This module wraps NLCS Dubai's MYP Biology Google Sites and adds a focused RU/EN glossary of essential G9 terms.",
+    "externalNotice": "External pages will open in a new tab if iframe is blocked."
+  },
+  "criteria": {
+    "a": "Criterion A — Knowing & Understanding",
+    "b": "Criterion B — Inquiring & Designing",
+    "c": "Criterion C — Processing & Evaluating",
+    "d": "Criterion D — Reflecting on Impacts"
+  },
+  "glossary": {
+    "title": "Glossary",
+    "intro": "Key G9 Biology terms, EN with Russian equivalent.",
+    "terms": {
+      "immuneSystem": {
+        "en": "Immune system",
+        "ru": "Иммунная система",
+        "def": "Body's defence network of cells, tissues and organs that protects against pathogens."
+      },
+      "cellularRespiration": {
+        "en": "Cellular respiration",
+        "ru": "Клеточное дыхание",
+        "def": "Process by which cells break down glucose with oxygen to release energy (ATP)."
+      },
+      "photosynthesis": {
+        "en": "Photosynthesis",
+        "ru": "Фотосинтез",
+        "def": "Process by which plants convert sunlight, water and CO₂ into glucose and oxygen."
+      },
+      "ecosystem": {
+        "en": "Ecosystem",
+        "ru": "Экосистема",
+        "def": "A community of living organisms together with the non-living components of their environment."
+      },
+      "dna": {
+        "en": "DNA",
+        "ru": "ДНК",
+        "def": "Deoxyribonucleic acid — molecule carrying genetic information in cells."
+      },
+      "evolution": {
+        "en": "Evolution",
+        "ru": "Эволюция",
+        "def": "Change in heritable characteristics of populations over generations through natural selection."
+      },
+      "mitosis": {
+        "en": "Mitosis",
+        "ru": "Митоз",
+        "def": "Cell division producing two genetically identical daughter cells. Used for growth and repair."
+      },
+      "meiosis": {
+        "en": "Meiosis",
+        "ru": "Мейоз",
+        "def": "Cell division producing four gametes with half the chromosome number."
+      },
+      "foodWeb": {
+        "en": "Food web",
+        "ru": "Пищевая сеть",
+        "def": "Interlinked food chains showing energy flow through an ecosystem."
+      },
+      "biodiversity": {
+        "en": "Biodiversity",
+        "ru": "Биоразнообразие",
+        "def": "Variety of living organisms in a habitat — species, genetic and ecosystem diversity."
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "brand": "G9 Revision",
+  "tagline": "Подготовка к EOY 2026",
+  "nav": {
+    "hub": "Главная",
+    "timetable": "Расписание",
+    "about": "О сайте"
+  },
+  "actions": {
+    "next": "Далее",
+    "prev": "Назад",
+    "open": "Открыть",
+    "save": "Сохранить",
+    "close": "Закрыть",
+    "show": "Показать",
+    "hide": "Скрыть",
+    "add": "Добавить",
+    "remove": "Удалить",
+    "reset": "Сбросить",
+    "complete": "Готово",
+    "openInNewTab": "Открыть в новой вкладке"
+  },
+  "status": {
+    "notStarted": "Не начато",
+    "inProgress": "В процессе",
+    "completed": "Готово",
+    "draft": "В разработке",
+    "partial": "Частичный контент"
+  },
+  "countdown": {
+    "untilExam": "До экзаменов",
+    "days_one": "{{count}} день",
+    "days_few": "{{count}} дня",
+    "days_many": "{{count}} дней",
+    "days_other": "{{count}} дней",
+    "days": "{{count}} дней",
+    "weeks_one": "{{count}} неделя",
+    "weeks_few": "{{count}} недели",
+    "weeks_many": "{{count}} недель",
+    "weeks_other": "{{count}} недель",
+    "weeks": "{{count}} недель",
+    "daysShort": "дней"
+  },
+  "practice": {
+    "intro": "Тренировочные вопросы в формате IB MYP. Нажми, чтобы увидеть эталонный ответ.",
+    "showAnswer": "Показать ответ",
+    "hideAnswer": "Скрыть ответ",
+    "modelAnswer": "Эталонный ответ",
+    "marks_one": "балл",
+    "marks_few": "балла",
+    "marks_many": "баллов",
+    "marks_other": "баллов",
+    "marks": "баллов",
+    "commandTerms": {
+      "state": "State",
+      "describe": "Describe",
+      "explain": "Explain",
+      "compare": "Compare",
+      "evaluate": "Evaluate",
+      "calculate": "Calculate"
+    }
+  },
+  "sections": {
+    "keyTerms": "Ключевые термины",
+    "formulas": "Формулы",
+    "simulations": "Интерактивные модели",
+    "drFrost": "Практика на Dr Frost",
+    "textbookRefs": "Учебник",
+    "practice": "Практика",
+    "subTopics": "Подтемы",
+    "workedSolutions": "Разборы",
+    "caseStudy": "Кейс-стади"
+  },
+  "subjects": {
+    "math": "Математика",
+    "physics": "Физика",
+    "chemistry": "Химия",
+    "biology": "Биология",
+    "english": "Английский",
+    "french": "Французский",
+    "arabic": "Арабский",
+    "geography": "География"
+  }
+}

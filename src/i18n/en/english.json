@@ -1,0 +1,106 @@
+{
+  "subjectName": "English",
+  "home": {
+    "title": "English — Revision",
+    "intro": "Module will be filled once the revision booklets are available. Meanwhile: text types for Criterion C, a quick literary devices cheat sheet, and a writing checklist.",
+    "draftNotice": "Planned topics:",
+    "textTypesHeading": "Text types (Criterion C)",
+    "devicesHeading": "Literary devices",
+    "checklistHeading": "Writing checklist"
+  },
+  "topics": {
+    "textTypes": "Text types (Criterion C)",
+    "literaryDevices": "Literary devices",
+    "grammar": "Grammar",
+    "readingSkills": "Reading & analysis",
+    "essayPractice": "Essay practice"
+  },
+  "textTypes": {
+    "essay": {
+      "name": "Essay",
+      "description": "Formal, structured argument. Introduction → thesis → body → conclusion."
+    },
+    "letter": {
+      "name": "Letter",
+      "description": "Address, salutation, body, closing. Formality matches the recipient."
+    },
+    "email": {
+      "name": "Email",
+      "description": "Subject line, greeting, concise body, sign-off. More direct than a letter."
+    },
+    "speech": {
+      "name": "Speech",
+      "description": "Greet the audience, hook, structured argument, call-to-action. Spoken cadence."
+    },
+    "newspaper": {
+      "name": "Newspaper Article",
+      "description": "Headline, byline, lead paragraph (5W), inverted pyramid for details."
+    },
+    "online": {
+      "name": "Online Article",
+      "description": "Engaging title, short paragraphs, subheadings. Optional links/quotes."
+    },
+    "blog": {
+      "name": "Blog Article",
+      "description": "Conversational tone, personal voice, first-person. Open-ended ending invites comments."
+    },
+    "guide": {
+      "name": "Revision Guide",
+      "description": "Clear headings, bullet points, definitions, examples — built for retention."
+    },
+    "script": {
+      "name": "Script",
+      "description": "Scene heading, character names, dialogue, stage directions in italics or brackets."
+    }
+  },
+  "devices": {
+    "metaphor": {
+      "name": "Metaphor",
+      "definition": "Direct comparison without 'like'/'as'.",
+      "example": "Time is a thief."
+    },
+    "simile": {
+      "name": "Simile",
+      "definition": "Comparison using 'like' or 'as'.",
+      "example": "She fought like a tiger."
+    },
+    "anaphora": {
+      "name": "Anaphora",
+      "definition": "Repetition of word(s) at the start of successive clauses.",
+      "example": "We shall fight on the beaches, we shall fight on the landing grounds…"
+    },
+    "alliteration": {
+      "name": "Alliteration",
+      "definition": "Repetition of initial consonant sounds.",
+      "example": "Wild and windy weather."
+    },
+    "personification": {
+      "name": "Personification",
+      "definition": "Giving human traits to non-human things.",
+      "example": "The wind whispered through the trees."
+    },
+    "hyperbole": {
+      "name": "Hyperbole",
+      "definition": "Deliberate exaggeration for effect.",
+      "example": "I've told you a million times."
+    },
+    "rhetoricalQuestion": {
+      "name": "Rhetorical question",
+      "definition": "A question asked for effect rather than for an answer.",
+      "example": "Who could resist such a deal?"
+    },
+    "imagery": {
+      "name": "Imagery",
+      "definition": "Vivid sensory description.",
+      "example": "Crisp autumn leaves crunched underfoot."
+    }
+  },
+  "checklist": [
+    "Match the text type and audience: formal letter ≠ blog post",
+    "Use a clear structure with paragraphs",
+    "Vary sentence length and openings",
+    "Include 2–3 literary devices where appropriate",
+    "Show, don't tell — use specific details",
+    "Proofread for spelling, punctuation, and tense consistency"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "subjectName": "Geography",
+  "home": {
+    "title": "Geography — Revision",
+    "intro": "Four revision sheets brought to life: Rivers, Tourism, Resource Reliance, and Atmospheric Hazards. Each topic includes an Active Recall mode that hides model answers so you can practice retrieval.",
+    "activeRecallToggle": "Active recall mode"
+  },
+  "nav": {
+    "home": "Overview",
+    "rivers": "Rivers",
+    "tourism": "Tourism",
+    "resourceReliance": "Resource Reliance",
+    "atmosphericHazards": "Atmospheric Hazards"
+  },
+  "rivers": {
+    "title": "Distinctive Landscapes — Rivers",
+    "intro": "How rivers shape the land: from source to mouth, processes of erosion and transportation, landform formation, flooding and management.",
+    "sections": {
+      "bradshaw": {
+        "title": "Bradshaw Model",
+        "description": "How river characteristics change from upper to lower course. Slide downstream position to see how discharge, channel width, velocity, sediment size and gradient evolve."
+      },
+      "course": {
+        "title": "River Course",
+        "description": "Upper / middle / lower course — each has its own valley shape and dominant processes."
+      },
+      "erosion": {
+        "title": "Erosion types",
+        "items": {
+          "abrasion": "Abrasion — material in transit scrapes the bed and banks",
+          "attrition": "Attrition — sediment particles collide and break apart",
+          "hydraulicAction": "Hydraulic action — force of water cracks the bedrock",
+          "solution": "Solution — chemical dissolution of soluble rocks"
+        }
+      },
+      "transportation": {
+        "title": "Transportation",
+        "items": {
+          "traction": "Traction — large material rolled along the bed",
+          "saltation": "Saltation — pebbles bounce along the bed",
+          "suspension": "Suspension — fine sediment carried in the flow",
+          "solution": "Solution — dissolved material carried in solution"
+        }
+      },
+      "waterfall": {
+        "title": "Waterfall formation",
+        "stages": {
+          "1": "Hard rock overlies soft rock; soft rock is eroded faster",
+          "2": "A plunge pool forms at the base of the drop",
+          "3": "An overhang develops as soft rock is eroded back",
+          "4": "Overhang collapses; waterfall retreats upstream, leaving a gorge"
+        }
+      },
+      "meander": {
+        "title": "Meander & oxbow lake",
+        "description": "Erosion on the outside of bends, deposition on the inside, until the meander is cut off as an oxbow lake."
+      },
+      "drainageBasin": {
+        "title": "Drainage basin",
+        "description": "Precipitation → interception, infiltration, throughflow, surface runoff and groundwater flow."
+      },
+      "hydrograph": {
+        "title": "Storm hydrograph",
+        "description": "How rainfall intensity, soil saturation and urbanisation change the shape of the hydrograph (flashy ↔ subdued)."
+      },
+      "flooding": {
+        "title": "Causes of flooding",
+        "physical": "Physical: prolonged rainfall, saturated ground, snowmelt, steep relief, impermeable rock",
+        "human": "Human: deforestation, urbanisation, poor drainage, climate change"
+      },
+      "management": {
+        "title": "Management strategies",
+        "hard": "Hard engineering: dams, embankments, channel straightening, flood walls",
+        "soft": "Soft engineering: floodplain zoning, afforestation, river restoration, warnings"
+      },
+      "boscastle": {
+        "title": "Case study — Boscastle floods 2004",
+        "summary": "Cornwall, UK. Over 200 mm of rain in 5 hours. Funnel-shaped valley channelled flow into the village; cars and buildings swept to sea. No fatalities thanks to helicopter rescue.",
+        "seep": {
+          "social": "Social: 100+ rescued; community displaced",
+          "economic": "Economic: ~£15M damage; tourism season lost",
+          "environmental": "Environmental: river channel reshaped; pollution from sewage",
+          "political": "Political: triggered review of UK flood defences"
+        },
+        "responses": {
+          "local": "Local: rescue and emergency shelter",
+          "government": "Government: Environment Agency review",
+          "shortTerm": "Short-term: clean-up, debris removal",
+          "longTerm": "Long-term: £4.5M flood defence scheme completed 2008"
+        }
+      }
+    }
+  },
+  "tourism": {
+    "title": "Tourism",
+    "intro": "Types of tourism, the Butler model life-cycle, and case studies of mass and niche tourism.",
+    "sections": {
+      "types": {
+        "title": "Types of tourism",
+        "items": {
+          "mass": "Mass tourism — large numbers to popular destinations",
+          "thanatourism": "Thanatourism — visiting sites associated with death (battlefields, Chernobyl)",
+          "ecotourism": "Ecotourism — low-impact, supports conservation (Costa Rica)",
+          "medical": "Medical tourism — travel for treatment (Thailand, India)",
+          "extreme": "Extreme — adventure or hostile environments (Antarctica)",
+          "voluntourism": "Voluntourism — volunteering abroad",
+          "nature": "Nature — wildlife and natural landscapes"
+        }
+      },
+      "butler": {
+        "title": "Butler Model",
+        "stages": {
+          "1": "Exploration — few visitors, limited facilities",
+          "2": "Involvement — locals provide services",
+          "3": "Development — large-scale tourism, external investment",
+          "4": "Consolidation — tourism dominates local economy",
+          "5": "Stagnation — capacity reached, resort dated",
+          "6": "Decline or Rejuvenation — depends on management"
+        },
+        "examples": "Examples: Blackpool (decline), Benidorm (rejuvenated), Barcelona (consolidation)"
+      },
+      "jamaica": {
+        "title": "Case study — Jamaica (mass tourism)",
+        "positives": "Foreign currency, employment, infrastructure investment",
+        "negatives": "Cultural dilution, environmental damage, profit leakage to foreign companies",
+        "management": "All-inclusive resorts, community tourism initiatives"
+      }
+    }
+  },
+  "resourceReliance": {
+    "title": "Resource Reliance",
+    "intro": "How societies depend on resources — energy, water, food. Sustainability concepts, Malthus vs Boserup, and key players.",
+    "sections": {
+      "definitions": {
+        "title": "Definitions",
+        "items": {
+          "resource": "Resource — material or service used to meet human needs",
+          "consumption": "Consumption — rate at which resources are used",
+          "carrying": "Carrying capacity — population the environment can support sustainably"
+        }
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "brundtland": "Brundtland (1987): meeting present needs without compromising future generations.",
+        "sdgs": "UN Sustainable Development Goals — 17 targets for 2030"
+      },
+      "energy": {
+        "title": "Energy sources",
+        "renewable": "Renewable: solar, wind, hydro, geothermal, biofuels",
+        "nonRenewable": "Non-renewable: oil, gas, coal"
+      },
+      "malthusBoserup": {
+        "title": "Malthus vs Boserup",
+        "malthus": "Pessimistic: population grows geometrically, food arithmetically — crisis is inevitable.",
+        "boserup": "Optimistic: pressure drives innovation — 'necessity is the mother of invention'."
+      },
+      "waterStress": {
+        "title": "Water stress",
+        "description": "Per-capita water availability by region. WRI categories from low to extremely high stress."
+      },
+      "foodSecurity": {
+        "title": "Food security",
+        "factors": "Population growth, water access, climate change, soil degradation, conflict, trade"
+      },
+      "players": {
+        "title": "Key players",
+        "items": "UN, Greenpeace, Zero Waste, supermarkets (Tesco, Sainsbury's), national governments"
+      }
+    }
+  },
+  "atmosphericHazards": {
+    "title": "Atmospheric Hazards",
+    "intro": "Climate zones, atmospheric circulation, tropical storms and droughts. Case studies: Typhoon Haiyan and The Big Dry.",
+    "sections": {
+      "climateZones": {
+        "title": "Climate zones",
+        "items": "Polar, Temperate, Arid, Tropical, Mediterranean, Mountainous"
+      },
+      "latitudeSun": {
+        "title": "Latitude & sun's rays",
+        "description": "At higher latitudes, sun rays strike at a lower angle, spreading energy over a larger area — cooler climate."
+      },
+      "circulation": {
+        "title": "Atmospheric circulation cells",
+        "items": "Hadley (0–30°), Ferrel (30–60°), Polar (60–90°)"
+      },
+      "pressure": {
+        "title": "High & low pressure",
+        "high": "High pressure — descending air, calm and dry (deserts at 30°)",
+        "low": "Low pressure — rising air, cloudy and wet (equator and 60°)"
+      },
+      "tropicalStorms": {
+        "title": "Tropical storms",
+        "description": "Form over warm oceans (≥27°C) between 5° and 30° latitude. Tracks: Atlantic (hurricanes), Pacific (typhoons), Indian (cyclones)."
+      },
+      "enso": {
+        "title": "El Niño / La Niña / Normal",
+        "normal": "Normal: trade winds push warm water west; upwelling off Peru",
+        "elNino": "El Niño: weakened winds; warm water in eastern Pacific; flooding in Peru, drought in Australia",
+        "laNina": "La Niña: strengthened winds; cooler eastern Pacific; drought in Peru, floods in Australia"
+      },
+      "haiyan": {
+        "title": "Case study — Typhoon Haiyan (Nov 2013)",
+        "location": "Philippines (Leyte, Tacloban)",
+        "scale": "Category 5; 195 mph winds; 6m storm surge",
+        "seep": {
+          "social": "6,300+ deaths; 1.9M homeless",
+          "economic": "$2.86B damage; rice harvests lost",
+          "environmental": "Coconut plantations destroyed; reefs damaged",
+          "political": "Aid coordination challenged; calls for climate action"
+        },
+        "responses": {
+          "local": "Bayanihan — community self-help; evacuation centres",
+          "government": "Mandatory evacuation orders; martial law in Tacloban",
+          "shortTerm": "UN, USAID, Red Cross emergency relief",
+          "longTerm": "Build Back Better program; storm-resistant housing"
+        }
+      },
+      "bigDry": {
+        "title": "Case study — The Big Dry, Australia 1996–2012",
+        "summary": "Worst drought in living memory across Murray-Darling basin.",
+        "seep": {
+          "social": "Rural depopulation; mental health crisis",
+          "economic": "AU$5B/year losses; bushfire damage",
+          "environmental": "Water table fell; salinity rose; ecosystems degraded",
+          "political": "Murray-Darling Basin Plan 2012; water buybacks"
+        }
+      },
+      "climateChange": {
+        "title": "Climate change over time",
+        "evidence": "Ice cores, tree rings, sun observations, atmospheric records",
+        "mitigation": "Mitigation: renewables, carbon capture, reforestation",
+        "adaptation": "Adaptation: sea walls, drought-resistant crops, early warning"
+      }
+    }
+  },
+  "activeRecall": {
+    "prompt": "Write your answer first, then compare with the model below.",
+    "yourAnswer": "Your answer",
+    "compare": "Compare with model",
+    "modelAnswer": "Model answer",
+    "savedNote": "Your notes are saved locally."
+  }
+}

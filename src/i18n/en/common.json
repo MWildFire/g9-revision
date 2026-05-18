@@ -1,0 +1,78 @@
+{
+  "brand": "G9 Revision",
+  "tagline": "Preparation for EOY 2026",
+  "nav": {
+    "hub": "Hub",
+    "timetable": "Timetable",
+    "about": "About"
+  },
+  "actions": {
+    "next": "Next",
+    "prev": "Previous",
+    "open": "Open",
+    "save": "Save",
+    "close": "Close",
+    "show": "Show",
+    "hide": "Hide",
+    "add": "Add",
+    "remove": "Remove",
+    "reset": "Reset",
+    "complete": "Complete",
+    "openInNewTab": "Open in new tab"
+  },
+  "status": {
+    "notStarted": "Not started",
+    "inProgress": "In progress",
+    "completed": "Completed",
+    "draft": "In development",
+    "partial": "Partial content"
+  },
+  "countdown": {
+    "untilExam": "Until EOY exams",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "days": "{{count}} days",
+    "weeks_one": "{{count}} week",
+    "weeks_other": "{{count}} weeks",
+    "weeks": "{{count}} weeks",
+    "daysShort": "days left"
+  },
+  "practice": {
+    "intro": "Practice questions formatted in IB MYP exam style. Tap to reveal a model answer.",
+    "showAnswer": "Show answer",
+    "hideAnswer": "Hide answer",
+    "modelAnswer": "Model answer",
+    "marks_one": "mark",
+    "marks_other": "marks",
+    "marks": "marks",
+    "commandTerms": {
+      "state": "State",
+      "describe": "Describe",
+      "explain": "Explain",
+      "compare": "Compare",
+      "evaluate": "Evaluate",
+      "calculate": "Calculate"
+    }
+  },
+  "sections": {
+    "keyTerms": "Key terms",
+    "formulas": "Formulas",
+    "simulations": "Interactive simulations",
+    "drFrost": "Dr Frost practice",
+    "textbookRefs": "Textbook references",
+    "practice": "Practice questions",
+    "subTopics": "Sub-topics",
+    "workedSolutions": "Worked solutions",
+    "caseStudy": "Case study"
+  },
+  "subjects": {
+    "math": "Mathematics",
+    "physics": "Physics",
+    "chemistry": "Chemistry",
+    "biology": "Biology",
+    "english": "English",
+    "french": "French",
+    "arabic": "Arabic",
+    "geography": "Geography"
+  }
+}

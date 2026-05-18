@@ -6,6 +6,20 @@
     "externalNotice": "External pages will open in a new tab if iframe is blocked.",
     "topicsHeading": "Topics"
   },
+  "simulations": {
+    "punnett": {
+      "title": "Punnett Square",
+      "description": "Enter two parent genotypes (e.g., Bb × Bb) — see all 4 offspring combinations with genotype + phenotype ratios."
+    },
+    "cellDiagram": {
+      "title": "Cell Diagram — animal vs plant",
+      "description": "Hover any organelle to see its function. Toggle between animal and plant cells to compare."
+    },
+    "heartDiagram": {
+      "title": "Heart Diagram",
+      "description": "Hover chambers and vessels — see how deoxygenated and oxygenated blood flow through the double circulation."
+    }
+  },
   "nav": {
     "home": "Overview",
     "cells": "Cell Biology",

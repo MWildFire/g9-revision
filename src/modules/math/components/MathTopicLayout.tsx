@@ -54,6 +54,9 @@ export function MathTopicLayout({ topicId, topicKey, subTopicIds, icon, children
       {drFrostGroups.length > 0 ? (
         <>
           <SectionHeading>{tCommon('sections.drFrost')}</SectionHeading>
+          <div className="bg-bg-secondary border border-border rounded-md p-3 mb-3 text-xs text-text-secondary" style={{ borderLeftColor: 'var(--color-accent-sky)', borderLeftWidth: '3px' }}>
+            {tCommon('sections.drFrostHint')}
+          </div>
           <div className="space-y-3">
             {drFrostGroups.map((group) => (
               <div key={group.subTopicKey} className="bg-bg-secondary border border-border rounded-md p-3">

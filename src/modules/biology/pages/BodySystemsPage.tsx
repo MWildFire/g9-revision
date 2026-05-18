@@ -1,6 +1,8 @@
 import { Heart } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { BiologyTopicLayout, InfoSection } from '../components/BiologyTopicLayout';
+import { HeartDiagram } from '../../../components/simulations/biology/HeartDiagram';
+import { SectionHeading } from '../../../components/content/TopicHero';
 
 const SYSTEMS = ['circulatory', 'respiratory', 'digestive', 'nervous', 'endocrine'];
 
@@ -16,6 +18,8 @@ export function BodySystemsPage() {
           borderColor="var(--color-accent-clay)"
         />
       ))}
+      <SectionHeading>Interactive — Heart Diagram</SectionHeading>
+      <HeartDiagram />
     </BiologyTopicLayout>
   );
 }

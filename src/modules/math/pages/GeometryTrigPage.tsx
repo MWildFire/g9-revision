@@ -2,6 +2,8 @@ import { Triangle } from 'lucide-react';
 import { MathTopicLayout } from '../components/MathTopicLayout';
 import { SectorSegmentCalc } from '../../../components/simulations/math/SectorSegmentCalc';
 import { RightTriangleTrainer } from '../../../components/simulations/math/RightTriangleTrainer';
+import { CircleTheorems } from '../../../components/simulations/math/CircleTheorems';
+import { BearingsCompass } from '../../../components/simulations/math/BearingsCompass';
 
 const SUB_TOPICS = [
   'pythagoras', 'trig', 'bearings', 'sineCosine', 'triangleArea',
@@ -17,6 +19,8 @@ export function GeometryTrigPage() {
       icon={<Triangle size={28} />}
     >
       <RightTriangleTrainer />
+      <BearingsCompass />
+      <CircleTheorems />
       <SectorSegmentCalc />
     </MathTopicLayout>
   );

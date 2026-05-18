@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Waves } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 import { BradshawModel } from '../../../components/simulations/geography/BradshawModel';
+import { StormHydrograph } from '../../../components/simulations/geography/StormHydrograph';
 import { ActiveRecallBlock } from '../../../components/content/ActiveRecallBlock';
 
 const EROSION_TYPES = ['abrasion', 'attrition', 'hydraulicAction', 'solution'];
@@ -57,9 +58,10 @@ export function RiversPage() {
       </p>
 
       <SectionHeading>{t('rivers.sections.hydrograph.title')}</SectionHeading>
-      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
+      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm mb-4">
         {t('rivers.sections.hydrograph.description')}
       </p>
+      <StormHydrograph />
 
       <SectionHeading>{t('rivers.sections.flooding.title')}</SectionHeading>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

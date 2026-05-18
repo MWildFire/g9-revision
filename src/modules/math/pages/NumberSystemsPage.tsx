@@ -2,6 +2,7 @@ import { Hash } from 'lucide-react';
 import { MathTopicLayout } from '../components/MathTopicLayout';
 import { StandardFormConverter } from '../../../components/simulations/math/StandardFormConverter';
 import { SurdSimplifier } from '../../../components/simulations/math/SurdSimplifier';
+import { NumberSetsVenn } from '../../../components/simulations/math/NumberSetsVenn';
 
 const SUB_TOPICS = [
   'structureSets', 'rounding', 'bounds', 'exponents', 'fractionalIndices',
@@ -16,6 +17,7 @@ export function NumberSystemsPage() {
       subTopicIds={SUB_TOPICS}
       icon={<Hash size={28} />}
     >
+      <NumberSetsVenn />
       <StandardFormConverter />
       <SurdSimplifier />
     </MathTopicLayout>

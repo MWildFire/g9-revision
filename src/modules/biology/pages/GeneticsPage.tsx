@@ -1,6 +1,8 @@
 import { Dna } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { BiologyTopicLayout, InfoSection } from '../components/BiologyTopicLayout';
+import { PunnettSquare } from '../../../components/simulations/biology/PunnettSquare';
+import { SectionHeading } from '../../../components/content/TopicHero';
 
 const SECTIONS = ['dna', 'mitosis', 'meiosis', 'inheritance', 'variation', 'evolution'];
 
@@ -16,6 +18,8 @@ export function GeneticsPage() {
           borderColor="var(--color-accent-warm)"
         />
       ))}
+      <SectionHeading>Interactive — Punnett Square</SectionHeading>
+      <PunnettSquare />
     </BiologyTopicLayout>
   );
 }

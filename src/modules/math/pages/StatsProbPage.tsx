@@ -1,6 +1,7 @@
 import { BarChart3 } from 'lucide-react';
 import { MathTopicLayout } from '../components/MathTopicLayout';
 import { BoxPlotBuilder } from '../../../components/simulations/math/BoxPlotBuilder';
+import { CumulativeFrequency } from '../../../components/simulations/math/CumulativeFrequency';
 
 const SUB_TOPICS = [
   'representation', 'stemLeaf', 'grouped', 'boxPlots',
@@ -15,6 +16,7 @@ export function StatsProbPage() {
       subTopicIds={SUB_TOPICS}
       icon={<BarChart3 size={28} />}
     >
+      <CumulativeFrequency />
       <BoxPlotBuilder />
     </MathTopicLayout>
   );

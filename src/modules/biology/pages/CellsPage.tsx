@@ -1,6 +1,8 @@
 import { Microscope } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { BiologyTopicLayout, InfoSection, KeyValueSection } from '../components/BiologyTopicLayout';
+import { CellDiagram } from '../../../components/simulations/biology/CellDiagram';
+import { SectionHeading } from '../../../components/content/TopicHero';
 
 const STRUCTURE_PARTS = ['nucleus', 'cytoplasm', 'membrane', 'mitochondria', 'ribosome', 'wall', 'chloroplast', 'vacuole'];
 const SPECIALISED = ['redBlood', 'neurone', 'sperm', 'egg', 'root', 'palisade'];
@@ -32,6 +34,8 @@ export function CellsPage() {
           { label: 'Active transport', body: t('cells.sections.transport.activeTransport') },
         ]}
       />
+      <SectionHeading>Interactive — Cell Diagram</SectionHeading>
+      <CellDiagram />
     </BiologyTopicLayout>
   );
 }

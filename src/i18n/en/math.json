@@ -198,6 +198,22 @@
       "title": "Right-Angled Triangle Trainer",
       "description": "Drag the legs; see hypotenuse and angles computed from Pythagoras and trig."
     },
+    "numberSetsVenn": {
+      "title": "Number Sets — Venn",
+      "description": "Type any number (5, -3, 1/2, √2, π) — see which sets ℕ, ℤ, ℚ, ℝ it belongs to."
+    },
+    "bearingsCompass": {
+      "title": "Bearings Compass",
+      "description": "Vary bearing and distance — see the path on a compass and the N/E offsets."
+    },
+    "cumulativeFreq": {
+      "title": "Cumulative Frequency Curve",
+      "description": "Edit class frequencies. Move the percentile slider to read the value at Q1, median, Q3 or any %."
+    },
+    "circleTheorems": {
+      "title": "Circle Theorems Playground",
+      "description": "Four key theorems with draggable points: centre = 2× circumference, semicircle 90°, cyclic quadrilateral, intersecting chords."
+    },
     "comingSoon": "More interactive models coming soon"
   }
 }

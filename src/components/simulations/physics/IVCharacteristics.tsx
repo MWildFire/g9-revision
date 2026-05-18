@@ -11,7 +11,7 @@ const V_MAX = 6;
 const STEPS = 80;
 
 export function IVCharacteristics() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [component, setComponent] = useState<Component>('ohmic');
   const [voltage, setVoltage] = useState(3);
 

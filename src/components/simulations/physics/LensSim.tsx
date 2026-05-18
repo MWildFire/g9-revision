@@ -12,7 +12,7 @@ const LENS_X = W / 2;
 const OBJECT_HEIGHT = 60;
 
 export function LensSim() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [u, setU] = useState(140);
   const [f, setF] = useState(80);
 

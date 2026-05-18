@@ -54,7 +54,7 @@ function describe(rgb: [number, number, number]): string {
 }
 
 export function ColorFilters() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [source, setSource] = useState<LightSource>('white');
   const [filter, setFilter] = useState<Filter>('red');
   const [object, setObject] = useState<ObjectColor>('white');

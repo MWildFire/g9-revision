@@ -17,7 +17,7 @@ interface Sample {
 }
 
 export function TerminalVelocity() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [mass, setMass] = useState(80);
   const [drag, setDrag] = useState(0.4);
   const [parachuteOpen, setParachuteOpen] = useState(false);

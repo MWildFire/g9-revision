@@ -6,7 +6,7 @@ import { SimulationPanel } from '../../ui/Tabs';
 import { thermistorResistance, ldrResistance, formatResistance } from '../../../lib/physics';
 
 export function ThermistorLDR() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [temp, setTemp] = useState(25);
   const [light, setLight] = useState(50);
 

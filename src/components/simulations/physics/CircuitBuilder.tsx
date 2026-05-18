@@ -67,7 +67,7 @@ function pointAt(path: PathData, t: number): { x: number; y: number } {
 }
 
 export function CircuitBuilder() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [mode, setMode] = useState<'series' | 'parallel'>('series');
   const [voltage, setVoltage] = useState(12);
   const [bulbs, setBulbs] = useState<Bulb[]>([

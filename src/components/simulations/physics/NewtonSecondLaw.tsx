@@ -23,7 +23,7 @@ interface Sample {
 }
 
 export function NewtonSecondLaw() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [mass, setMass] = useState(2);
   const [force, setForce] = useState(10);
   const [running, setRunning] = useState(true);

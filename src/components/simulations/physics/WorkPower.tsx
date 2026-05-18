@@ -6,7 +6,7 @@ import { Formula } from '../../ui/Formula';
 import { G, format } from '../../../lib/physics';
 
 export function WorkPower() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [mass, setMass] = useState(20);
   const [height, setHeight] = useState(2);
   const [time, setTime] = useState(4);

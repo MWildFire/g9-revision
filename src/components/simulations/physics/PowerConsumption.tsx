@@ -19,7 +19,7 @@ const DEVICES: DeviceRow[] = [
 ];
 
 export function PowerConsumption() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [rate, setRate] = useState(0.38);
   const [rows, setRows] = useState(
     DEVICES.map((d) => ({ key: d.key, power: d.defaultPower, hours: d.defaultHours })),

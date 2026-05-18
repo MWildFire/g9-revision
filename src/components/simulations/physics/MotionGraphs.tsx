@@ -10,7 +10,7 @@ const T_MAX = 10;
 const STEPS = 50;
 
 export function MotionGraphs() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [mode, setMode] = useState<Mode>('constantA');
   const [u, setU] = useState(2);
   const [a, setA] = useState(2);

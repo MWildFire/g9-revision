@@ -31,7 +31,7 @@ function pathPoint(t: number) {
 }
 
 export function OhmsLaw() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [voltage, setVoltage] = useState(12);
   const [resistance, setResistance] = useState(6);
 

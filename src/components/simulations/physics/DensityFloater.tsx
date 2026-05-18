@@ -22,7 +22,7 @@ const FLUID_DEPTH = FLUID_BOTTOM_Y - FLUID_LEVEL_Y;
 const OBJECT_SIZE = 50;
 
 export function DensityFloater() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [objectRho, setObjectRho] = useState(0.7);
   const [fluidRho, setFluidRho] = useState(1.0);
 

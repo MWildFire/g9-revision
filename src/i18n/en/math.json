@@ -150,6 +150,22 @@
       "title": "Box Plot Builder",
       "description": "Paste a dataset and see the box plot with quartiles and outliers."
     },
+    "surdSimplifier": {
+      "title": "Surd Simplifier",
+      "description": "Extract perfect square factors to simplify any √n."
+    },
+    "transformations": {
+      "title": "Function Transformations",
+      "description": "See how a·f(x − h) + k transforms a base function."
+    },
+    "quadraticSolver": {
+      "title": "Quadratic Equation Solver",
+      "description": "See all three methods (formula, completing the square, factorisation) side by side."
+    },
+    "rightTriangle": {
+      "title": "Right-Angled Triangle Trainer",
+      "description": "Drag the legs; see hypotenuse and angles computed from Pythagoras and trig."
+    },
     "comingSoon": "More interactive models coming soon"
   }
 }

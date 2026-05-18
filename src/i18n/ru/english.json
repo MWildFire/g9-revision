@@ -2,99 +2,151 @@
   "subjectName": "Английский",
   "home": {
     "title": "Английский — Ревижн",
-    "intro": "Модуль будет заполнен после получения revision booklets. Сейчас здесь: типы текстов для Criterion C, шпаргалка по литературным приёмам и чек-лист для письменной работы.",
-    "draftNotice": "Планируемые темы:",
-    "textTypesHeading": "Типы текстов (Criterion C)",
-    "devicesHeading": "Литературные приёмы",
-    "checklistHeading": "Чек-лист письменной работы"
+    "intro": "Справочные материалы по G9 IB MYP English: типы текстов для Criterion C, литературные приёмы, основы грамматики, навыки чтения и практика эссе.",
+    "topicsHeading": "Темы"
   },
-  "topics": {
-    "textTypes": "Типы текстов (Criterion C)",
-    "literaryDevices": "Литературные приёмы",
+  "nav": {
+    "home": "Обзор",
+    "textTypes": "Типы текстов",
+    "devices": "Литературные приёмы",
     "grammar": "Грамматика",
-    "readingSkills": "Чтение и анализ",
-    "essayPractice": "Практика эссе"
+    "reading": "Навыки чтения",
+    "essays": "Практика эссе"
+  },
+  "textTypesPage": {
+    "title": "Типы текстов (Criterion C)",
+    "intro": "Девять типов текстов, которые могут попросить написать. Формат и аудитория важны."
   },
   "textTypes": {
-    "essay": {
-      "name": "Essay",
-      "description": "Формальный, структурированный аргумент. Введение → тезис → основная часть → заключение."
-    },
-    "letter": {
-      "name": "Letter",
-      "description": "Адрес, приветствие, тело, прощание. Формальность под получателя."
-    },
-    "email": {
-      "name": "Email",
-      "description": "Subject, приветствие, краткое тело, подпись. Прямее, чем письмо."
-    },
-    "speech": {
-      "name": "Speech",
-      "description": "Приветствие аудитории, hook, структурированный аргумент, призыв к действию. Звучит вживую."
-    },
-    "newspaper": {
-      "name": "Newspaper Article",
-      "description": "Заголовок, имя автора, lead-параграф (5W), перевёрнутая пирамида деталей."
-    },
-    "online": {
-      "name": "Online Article",
-      "description": "Цепляющий заголовок, короткие абзацы, подзаголовки. Опционально ссылки/цитаты."
-    },
-    "blog": {
-      "name": "Blog Article",
-      "description": "Разговорный тон, личный голос, первое лицо. Открытый финал приглашает к комментариям."
-    },
-    "guide": {
-      "name": "Revision Guide",
-      "description": "Чёткие заголовки, буллеты, определения, примеры — для запоминания."
-    },
-    "script": {
-      "name": "Script",
-      "description": "Заголовок сцены, имена персонажей, диалог, ремарки в курсиве или скобках."
-    }
+    "essay": { "name": "Essay", "description": "Формальный, структурированный аргумент. Введение → тезис → тело → заключение." },
+    "letter": { "name": "Letter", "description": "Адрес, приветствие, тело, прощание. Формальность под получателя." },
+    "email": { "name": "Email", "description": "Subject, приветствие, краткое тело, подпись. Прямее, чем письмо." },
+    "speech": { "name": "Speech", "description": "Приветствие аудитории, hook, структурированный аргумент, призыв к действию." },
+    "newspaper": { "name": "Newspaper Article", "description": "Заголовок, автор, lead-параграф (5W), перевёрнутая пирамида." },
+    "online": { "name": "Online Article", "description": "Цепляющий заголовок, короткие абзацы, подзаголовки. Опц. ссылки/цитаты." },
+    "blog": { "name": "Blog Article", "description": "Разговорный тон, личный голос, первое лицо. Открытый финал — приглашение к комментариям." },
+    "guide": { "name": "Revision Guide", "description": "Чёткие заголовки, буллеты, определения, примеры — для запоминания." },
+    "script": { "name": "Script", "description": "Заголовок сцены, имена персонажей, диалог, ремарки в курсиве/скобках." }
+  },
+  "devicesPage": {
+    "title": "Литературные приёмы",
+    "intro": "Замечай приёмы при чтении; используй осознанно при письме."
   },
   "devices": {
-    "metaphor": {
-      "name": "Metaphor",
-      "definition": "Прямое сравнение без 'like'/'as'.",
-      "example": "Time is a thief."
+    "metaphor": { "name": "Metaphor", "definition": "Прямое сравнение без 'like'/'as'.", "example": "Time is a thief." },
+    "simile": { "name": "Simile", "definition": "Сравнение с 'like' или 'as'.", "example": "She fought like a tiger." },
+    "anaphora": { "name": "Anaphora", "definition": "Повтор слов в начале последовательных фраз.", "example": "We shall fight on the beaches, we shall fight on the landing grounds…" },
+    "alliteration": { "name": "Alliteration", "definition": "Повтор начальных согласных звуков.", "example": "Wild and windy weather." },
+    "personification": { "name": "Personification", "definition": "Очеловечивание неживых объектов.", "example": "The wind whispered through the trees." },
+    "hyperbole": { "name": "Hyperbole", "definition": "Намеренное преувеличение.", "example": "I've told you a million times." },
+    "rhetoricalQuestion": { "name": "Rhetorical question", "definition": "Вопрос для эффекта, а не для ответа.", "example": "Who could resist such a deal?" },
+    "imagery": { "name": "Imagery", "definition": "Яркое сенсорное описание.", "example": "Crisp autumn leaves crunched underfoot." },
+    "onomatopoeia": { "name": "Onomatopoeia", "definition": "Слово, имитирующее звук.", "example": "The bees buzzed; the door creaked." },
+    "irony": { "name": "Irony", "definition": "Говорить одно, иметь в виду другое; ситуация, обратная ожиданию.", "example": "A traffic warden's car gets a parking ticket." },
+    "symbolism": { "name": "Symbolism", "definition": "Объект представляет абстрактную идею.", "example": "A dove symbolises peace." },
+    "foreshadowing": { "name": "Foreshadowing", "definition": "Намёк на то, что будет.", "example": "Dark clouds gathered as the heroes set off." }
+  },
+  "grammarPage": {
+    "title": "Основы грамматики",
+    "intro": "Частые ошибки в грамматике и правила, которые их исправляют."
+  },
+  "grammar": {
+    "tenses": {
+      "title": "Обзор времён",
+      "items": {
+        "present": "Present simple — привычки, факты: 'She writes essays.'",
+        "presentCont": "Present continuous — сейчас: 'She is writing.'",
+        "past": "Past simple — законченное действие: 'She wrote.'",
+        "pastCont": "Past continuous — продолжающееся в прошлом: 'She was writing.'",
+        "presentPerfect": "Present perfect — прошлое с актуальностью: 'She has written three.'",
+        "future": "Future — 'will' (решение) vs 'going to' (план): 'I'll help' / 'I'm going to study.'"
+      }
     },
-    "simile": {
-      "name": "Simile",
-      "definition": "Сравнение с 'like' или 'as'.",
-      "example": "She fought like a tiger."
+    "punctuation": {
+      "title": "Пунктуация",
+      "items": {
+        "comma": "Запятая — паузы, перечисления, после вводных фраз.",
+        "semicolon": "Точка с запятой (;) — соединяет два связанных независимых предложения.",
+        "colon": "Двоеточие (:) — вводит список, пример или объяснение.",
+        "apostrophe": "Апостроф — притяжательность ('Luka's book') и сокращение ('don't').",
+        "dash": "Тире (—) — резкий разрыв или акцент."
+      }
     },
-    "anaphora": {
-      "name": "Anaphora",
-      "definition": "Повтор слов в начале последовательных фраз.",
-      "example": "We shall fight on the beaches, we shall fight on the landing grounds…"
+    "agreement": {
+      "title": "Согласование подлежащего и сказуемого",
+      "body": "Единственное подлежащее → ед. число глагола. 'The list of items is on the table' (list is). Множественное → мн. число. Следи за словами между подлежащим и глаголом."
     },
-    "alliteration": {
-      "name": "Alliteration",
-      "definition": "Повтор начальных согласных звуков.",
-      "example": "Wild and windy weather."
-    },
-    "personification": {
-      "name": "Personification",
-      "definition": "Очеловечивание неживых объектов.",
-      "example": "The wind whispered through the trees."
-    },
-    "hyperbole": {
-      "name": "Hyperbole",
-      "definition": "Намеренное преувеличение для эффекта.",
-      "example": "I've told you a million times."
-    },
-    "rhetoricalQuestion": {
-      "name": "Rhetorical question",
-      "definition": "Вопрос для эффекта, а не для ответа.",
-      "example": "Who could resist such a deal?"
-    },
-    "imagery": {
-      "name": "Imagery",
-      "definition": "Яркое сенсорное описание.",
-      "example": "Crisp autumn leaves crunched underfoot."
+    "commonErrors": {
+      "title": "Частые ошибки",
+      "items": {
+        "yourYoure": "your (притяж.) vs you're (you are)",
+        "itsIts": "its (притяж.) vs it's (it is)",
+        "thereTheirTheyre": "there (там) / their (их) / they're (они есть)",
+        "lessFewer": "less (неисчисл.: less time) vs fewer (исчисл.: fewer cars)",
+        "affectEffect": "affect (гл.: влиять) vs effect (сущ.: результат)"
+      }
     }
   },
+  "readingPage": {
+    "title": "Навыки чтения",
+    "intro": "Как разбирать незнакомые тексты на экзамене."
+  },
+  "reading": {
+    "strategies": {
+      "title": "Стратегии",
+      "items": {
+        "skim": "Skim — быстро уловить суть (60 секунд)",
+        "scan": "Scan — найти конкретную информацию (имена, даты, ключевые слова)",
+        "annotate": "Annotate — подчёркивай фразы, помечай тон и приёмы",
+        "infer": "Infer — читай между строк для смысла, не сказанного прямо"
+      }
+    },
+    "questionTypes": {
+      "title": "Типы вопросов",
+      "items": {
+        "literal": "Literal — 'Что сказано в тексте?' Найди прямое свидетельство.",
+        "inferential": "Inferential — 'На что это намекает?' Объедини подсказки + знания.",
+        "language": "Language — анализ выбора слов, приёмов, структуры. Цитата + эффект.",
+        "evaluation": "Evaluation — 'Насколько эффективно X?' Займи позицию и подкрепи."
+      }
+    },
+    "PEEL": {
+      "title": "Структура абзаца PEEL",
+      "body": "Point — твоё утверждение. Evidence — цитата из текста. Explain — что показывает цитата? Link — обратно к вопросу. Применяй PEEL к каждому аналитическому абзацу."
+    }
+  },
+  "essaysPage": {
+    "title": "Практика эссе",
+    "intro": "Примеры тем в стиле IB MYP. Планируй: тезис, три аргумента, заключение."
+  },
+  "essayPrompts": [
+    {
+      "type": "Discursive",
+      "prompt": "'Social media does more harm than good.' Discuss.",
+      "tips": "Балансируй обе стороны. Чётко обозначь позицию. Используй реальные примеры (Instagram, TikTok). Завершай решительно."
+    },
+    {
+      "type": "Argumentative",
+      "prompt": "'School uniforms should be abolished.' Argue for or against.",
+      "tips": "Возьми одну сторону твёрдо. Три причины с доказательствами. Опровергни противоположный аргумент."
+    },
+    {
+      "type": "Narrative",
+      "prompt": "Write a story beginning with: 'The lights flickered, and then…'",
+      "tips": "Установи сеттинг. Разнообразь предложения. Включи сенсорные детали. Финал с поворотом или эмоцией."
+    },
+    {
+      "type": "Descriptive",
+      "prompt": "Describe a place that is special to you. Bring it to life through the five senses.",
+      "tips": "Зрение, звук, запах, осязание, вкус. Избегай клише. Используй фигуры речи умеренно."
+    },
+    {
+      "type": "Speech",
+      "prompt": "Write a speech persuading your school to take action on climate change.",
+      "tips": "Прямое обращение ('We must…'). Риторический вопрос. Тройной список. Призыв к действию в конце."
+    }
+  ],
+  "checklistHeading": "Чек-лист письменной работы",
   "checklist": [
     "Соответствует ли формат типу текста и аудитории",
     "Чёткая структура с абзацами",

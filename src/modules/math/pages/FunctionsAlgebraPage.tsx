@@ -1,6 +1,8 @@
 import { Variable } from 'lucide-react';
 import { MathTopicLayout } from '../components/MathTopicLayout';
 import { QuadraticExplorer } from '../../../components/simulations/math/QuadraticExplorer';
+import { FunctionTransformations } from '../../../components/simulations/math/FunctionTransformations';
+import { QuadraticSolver } from '../../../components/simulations/math/QuadraticSolver';
 
 const SUB_TOPICS = [
   'mappings', 'verticalLine',
@@ -18,6 +20,8 @@ export function FunctionsAlgebraPage() {
       icon={<Variable size={28} />}
     >
       <QuadraticExplorer />
+      <QuadraticSolver />
+      <FunctionTransformations />
     </MathTopicLayout>
   );
 }

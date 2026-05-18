@@ -2,99 +2,151 @@
   "subjectName": "English",
   "home": {
     "title": "English — Revision",
-    "intro": "Module will be filled once the revision booklets are available. Meanwhile: text types for Criterion C, a quick literary devices cheat sheet, and a writing checklist.",
-    "draftNotice": "Planned topics:",
-    "textTypesHeading": "Text types (Criterion C)",
-    "devicesHeading": "Literary devices",
-    "checklistHeading": "Writing checklist"
+    "intro": "Reference materials for G9 IB MYP English: text types for Criterion C, literary devices, grammar essentials, reading skills, and essay practice.",
+    "topicsHeading": "Topics"
   },
-  "topics": {
-    "textTypes": "Text types (Criterion C)",
-    "literaryDevices": "Literary devices",
+  "nav": {
+    "home": "Overview",
+    "textTypes": "Text Types",
+    "devices": "Literary Devices",
     "grammar": "Grammar",
-    "readingSkills": "Reading & analysis",
-    "essayPractice": "Essay practice"
+    "reading": "Reading Skills",
+    "essays": "Essay Practice"
+  },
+  "textTypesPage": {
+    "title": "Text Types (Criterion C)",
+    "intro": "Nine text types you may be asked to write. Match the format and audience carefully."
   },
   "textTypes": {
-    "essay": {
-      "name": "Essay",
-      "description": "Formal, structured argument. Introduction → thesis → body → conclusion."
-    },
-    "letter": {
-      "name": "Letter",
-      "description": "Address, salutation, body, closing. Formality matches the recipient."
-    },
-    "email": {
-      "name": "Email",
-      "description": "Subject line, greeting, concise body, sign-off. More direct than a letter."
-    },
-    "speech": {
-      "name": "Speech",
-      "description": "Greet the audience, hook, structured argument, call-to-action. Spoken cadence."
-    },
-    "newspaper": {
-      "name": "Newspaper Article",
-      "description": "Headline, byline, lead paragraph (5W), inverted pyramid for details."
-    },
-    "online": {
-      "name": "Online Article",
-      "description": "Engaging title, short paragraphs, subheadings. Optional links/quotes."
-    },
-    "blog": {
-      "name": "Blog Article",
-      "description": "Conversational tone, personal voice, first-person. Open-ended ending invites comments."
-    },
-    "guide": {
-      "name": "Revision Guide",
-      "description": "Clear headings, bullet points, definitions, examples — built for retention."
-    },
-    "script": {
-      "name": "Script",
-      "description": "Scene heading, character names, dialogue, stage directions in italics or brackets."
-    }
+    "essay": { "name": "Essay", "description": "Formal, structured argument. Introduction → thesis → body → conclusion." },
+    "letter": { "name": "Letter", "description": "Address, salutation, body, closing. Formality matches the recipient." },
+    "email": { "name": "Email", "description": "Subject line, greeting, concise body, sign-off. More direct than a letter." },
+    "speech": { "name": "Speech", "description": "Greet the audience, hook, structured argument, call-to-action. Spoken cadence." },
+    "newspaper": { "name": "Newspaper Article", "description": "Headline, byline, lead paragraph (5W), inverted pyramid for details." },
+    "online": { "name": "Online Article", "description": "Engaging title, short paragraphs, subheadings. Optional links/quotes." },
+    "blog": { "name": "Blog Article", "description": "Conversational tone, personal voice, first-person. Open ending invites comments." },
+    "guide": { "name": "Revision Guide", "description": "Clear headings, bullet points, definitions, examples — built for retention." },
+    "script": { "name": "Script", "description": "Scene heading, character names, dialogue, stage directions in italics or brackets." }
+  },
+  "devicesPage": {
+    "title": "Literary Devices",
+    "intro": "Identify devices when reading; use them deliberately when writing."
   },
   "devices": {
-    "metaphor": {
-      "name": "Metaphor",
-      "definition": "Direct comparison without 'like'/'as'.",
-      "example": "Time is a thief."
+    "metaphor": { "name": "Metaphor", "definition": "Direct comparison without 'like'/'as'.", "example": "Time is a thief." },
+    "simile": { "name": "Simile", "definition": "Comparison using 'like' or 'as'.", "example": "She fought like a tiger." },
+    "anaphora": { "name": "Anaphora", "definition": "Repetition of word(s) at the start of successive clauses.", "example": "We shall fight on the beaches, we shall fight on the landing grounds…" },
+    "alliteration": { "name": "Alliteration", "definition": "Repetition of initial consonant sounds.", "example": "Wild and windy weather." },
+    "personification": { "name": "Personification", "definition": "Giving human traits to non-human things.", "example": "The wind whispered through the trees." },
+    "hyperbole": { "name": "Hyperbole", "definition": "Deliberate exaggeration for effect.", "example": "I've told you a million times." },
+    "rhetoricalQuestion": { "name": "Rhetorical question", "definition": "A question asked for effect rather than for an answer.", "example": "Who could resist such a deal?" },
+    "imagery": { "name": "Imagery", "definition": "Vivid sensory description.", "example": "Crisp autumn leaves crunched underfoot." },
+    "onomatopoeia": { "name": "Onomatopoeia", "definition": "Word imitating a sound.", "example": "The bees buzzed; the door creaked." },
+    "irony": { "name": "Irony", "definition": "Saying one thing while meaning the opposite, or a situation that subverts expectation.", "example": "A traffic warden's car gets a parking ticket." },
+    "symbolism": { "name": "Symbolism", "definition": "An object represents an abstract idea.", "example": "A dove symbolises peace." },
+    "foreshadowing": { "name": "Foreshadowing", "definition": "Hint of what will happen later.", "example": "Dark clouds gathered as the heroes set off." }
+  },
+  "grammarPage": {
+    "title": "Grammar Essentials",
+    "intro": "Frequent grammar pitfalls and the rules that fix them."
+  },
+  "grammar": {
+    "tenses": {
+      "title": "Tenses overview",
+      "items": {
+        "present": "Present simple — habits, facts: 'She writes essays.'",
+        "presentCont": "Present continuous — now: 'She is writing.'",
+        "past": "Past simple — finished action: 'She wrote.'",
+        "pastCont": "Past continuous — ongoing past: 'She was writing.'",
+        "presentPerfect": "Present perfect — past with present relevance: 'She has written three.'",
+        "future": "Future — 'will' (decision) vs 'going to' (plan): 'I'll help' / 'I'm going to study.'"
+      }
     },
-    "simile": {
-      "name": "Simile",
-      "definition": "Comparison using 'like' or 'as'.",
-      "example": "She fought like a tiger."
+    "punctuation": {
+      "title": "Punctuation",
+      "items": {
+        "comma": "Comma — pauses, lists, after introductory phrases.",
+        "semicolon": "Semicolon (;) — joins two related independent clauses.",
+        "colon": "Colon (:) — introduces a list, example, or explanation.",
+        "apostrophe": "Apostrophe — possession ('Luka's book') and contraction ('don't').",
+        "dash": "Dash (—) — sudden break or emphasis. Em dash is longer than hyphen."
+      }
     },
-    "anaphora": {
-      "name": "Anaphora",
-      "definition": "Repetition of word(s) at the start of successive clauses.",
-      "example": "We shall fight on the beaches, we shall fight on the landing grounds…"
+    "agreement": {
+      "title": "Subject–verb agreement",
+      "body": "Singular subject → singular verb. 'The list of items is on the table' (list is). Plural subject → plural verb. Watch for words between subject and verb."
     },
-    "alliteration": {
-      "name": "Alliteration",
-      "definition": "Repetition of initial consonant sounds.",
-      "example": "Wild and windy weather."
-    },
-    "personification": {
-      "name": "Personification",
-      "definition": "Giving human traits to non-human things.",
-      "example": "The wind whispered through the trees."
-    },
-    "hyperbole": {
-      "name": "Hyperbole",
-      "definition": "Deliberate exaggeration for effect.",
-      "example": "I've told you a million times."
-    },
-    "rhetoricalQuestion": {
-      "name": "Rhetorical question",
-      "definition": "A question asked for effect rather than for an answer.",
-      "example": "Who could resist such a deal?"
-    },
-    "imagery": {
-      "name": "Imagery",
-      "definition": "Vivid sensory description.",
-      "example": "Crisp autumn leaves crunched underfoot."
+    "commonErrors": {
+      "title": "Common errors",
+      "items": {
+        "yourYoure": "your (possessive) vs you're (you are)",
+        "itsIts": "its (possessive) vs it's (it is)",
+        "thereTheirTheyre": "there (place) / their (possessive) / they're (they are)",
+        "lessFewer": "less (uncountable: less time) vs fewer (countable: fewer cars)",
+        "affectEffect": "affect (verb: to influence) vs effect (noun: the result)"
+      }
     }
   },
+  "readingPage": {
+    "title": "Reading Skills",
+    "intro": "How to break down unseen texts in exam conditions."
+  },
+  "reading": {
+    "strategies": {
+      "title": "Strategies",
+      "items": {
+        "skim": "Skim — get the gist quickly (60 seconds)",
+        "scan": "Scan — find specific information (names, dates, keywords)",
+        "annotate": "Annotate — underline key phrases, note tone, mark devices",
+        "infer": "Infer — read between the lines for meaning not directly stated"
+      }
+    },
+    "questionTypes": {
+      "title": "Common question types",
+      "items": {
+        "literal": "Literal — 'What does the text say?' Find direct evidence.",
+        "inferential": "Inferential — 'What does this suggest?' Combine clues + knowledge.",
+        "language": "Language — analyse word choice, devices, structure. Quote + explain effect.",
+        "evaluation": "Evaluation — 'How effective is X?' Take a position, support with evidence."
+      }
+    },
+    "PEEL": {
+      "title": "PEEL paragraph structure",
+      "body": "Point — your claim. Evidence — quote from text. Explain — what does the quote show? Link — back to the question. Use PEEL for every analytical paragraph."
+    }
+  },
+  "essaysPage": {
+    "title": "Essay Practice",
+    "intro": "Sample essay prompts in the IB MYP style. Plan with a thesis, three points, and a conclusion."
+  },
+  "essayPrompts": [
+    {
+      "type": "Discursive",
+      "prompt": "'Social media does more harm than good.' Discuss.",
+      "tips": "Balance both sides. State your position clearly. Use real examples (Instagram, TikTok). Conclude decisively."
+    },
+    {
+      "type": "Argumentative",
+      "prompt": "'School uniforms should be abolished.' Argue for or against.",
+      "tips": "Take one side firmly. Three reasons with evidence. Address counterargument and refute it."
+    },
+    {
+      "type": "Narrative",
+      "prompt": "Write a story beginning with: 'The lights flickered, and then…'",
+      "tips": "Establish setting. Use varied sentence structure. Include sensory detail. End with a twist or resonance."
+    },
+    {
+      "type": "Descriptive",
+      "prompt": "Describe a place that is special to you. Bring it to life through the five senses.",
+      "tips": "Sight, sound, smell, touch, taste. Avoid clichés. Use figurative language sparingly."
+    },
+    {
+      "type": "Speech",
+      "prompt": "Write a speech persuading your school to take action on climate change.",
+      "tips": "Direct address ('We must…'). Rhetorical question. Tripartite list. Call to action at the end."
+    }
+  ],
+  "checklistHeading": "Writing checklist",
   "checklist": [
     "Match the text type and audience: formal letter ≠ blog post",
     "Use a clear structure with paragraphs",

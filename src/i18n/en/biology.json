@@ -2,14 +2,197 @@
   "subjectName": "Biology",
   "home": {
     "title": "Biology — Revision",
-    "intro": "This module wraps NLCS Dubai's MYP Biology Google Sites and adds a focused RU/EN glossary of essential G9 terms.",
-    "externalNotice": "External pages will open in a new tab if iframe is blocked."
+    "intro": "Six core topics for G9 IB MYP Biology, with RU/EN glossary and links to the school's external resources.",
+    "externalNotice": "External pages will open in a new tab if iframe is blocked.",
+    "topicsHeading": "Topics"
   },
-  "criteria": {
-    "a": "Criterion A — Knowing & Understanding",
-    "b": "Criterion B — Inquiring & Designing",
-    "c": "Criterion C — Processing & Evaluating",
-    "d": "Criterion D — Reflecting on Impacts"
+  "nav": {
+    "home": "Overview",
+    "cells": "Cell Biology",
+    "bodySystems": "Body Systems",
+    "ecology": "Ecology",
+    "genetics": "Genetics & Evolution",
+    "immune": "Immune System & Health",
+    "experiment": "Experimental Design"
+  },
+  "cells": {
+    "title": "Cell Biology",
+    "intro": "Cells are the basic unit of life. Compare animal vs plant cells, understand specialized structures, and link cell function to organisms.",
+    "sections": {
+      "structure": {
+        "title": "Cell structure",
+        "items": {
+          "nucleus": "Nucleus — contains DNA, controls cell activities",
+          "cytoplasm": "Cytoplasm — jelly-like fluid where reactions occur",
+          "membrane": "Cell membrane — controls what enters/exits",
+          "mitochondria": "Mitochondria — site of aerobic respiration (energy release)",
+          "ribosome": "Ribosomes — protein synthesis",
+          "wall": "Cell wall (plants) — rigid, made of cellulose; gives shape",
+          "chloroplast": "Chloroplast (plants) — site of photosynthesis",
+          "vacuole": "Permanent vacuole (plants) — stores cell sap"
+        }
+      },
+      "animalVsPlant": {
+        "title": "Animal vs plant cells",
+        "shared": "Both have: nucleus, cytoplasm, cell membrane, mitochondria, ribosomes",
+        "plantOnly": "Plant only: cell wall, chloroplasts, permanent vacuole, often regular shape"
+      },
+      "specialised": {
+        "title": "Specialised cells",
+        "items": {
+          "redBlood": "Red blood cell — biconcave shape; no nucleus; carries oxygen via haemoglobin",
+          "neurone": "Neurone — long axon; carries electrical impulses",
+          "sperm": "Sperm — tail (flagellum), many mitochondria, acrosome (enzymes)",
+          "egg": "Egg — large, food store, jelly coat after fertilisation",
+          "root": "Root hair cell — large surface area; absorbs water and minerals",
+          "palisade": "Palisade mesophyll — packed with chloroplasts; site of photosynthesis"
+        }
+      },
+      "transport": {
+        "title": "Transport across membranes",
+        "diffusion": "Diffusion — movement from high to low concentration. Passive (no energy).",
+        "osmosis": "Osmosis — diffusion of WATER across a partially permeable membrane.",
+        "activeTransport": "Active transport — low to high concentration. Requires energy (ATP)."
+      }
+    }
+  },
+  "bodySystems": {
+    "title": "Body Systems",
+    "intro": "How systems coordinate: circulation, respiration, digestion, nervous, hormonal.",
+    "sections": {
+      "circulatory": {
+        "title": "Circulatory system",
+        "body": "Double circulation: heart pumps blood through two loops (to lungs, to body). Heart has 4 chambers — left atrium, left ventricle, right atrium, right ventricle. Arteries carry blood from heart (thick walls, high pressure). Veins return blood to heart (thin walls, valves). Capillaries — site of exchange (one cell thick)."
+      },
+      "respiratory": {
+        "title": "Respiratory system",
+        "body": "Air path: nose → trachea → bronchi → bronchioles → alveoli. Alveoli features for gas exchange: large surface area, thin walls (1 cell), rich blood supply, moist lining."
+      },
+      "digestive": {
+        "title": "Digestive system",
+        "body": "Mouth (mechanical + amylase) → oesophagus → stomach (HCl + pepsin) → small intestine (bile, pancreatic enzymes, absorption via villi) → large intestine (water absorption) → rectum → anus."
+      },
+      "nervous": {
+        "title": "Nervous system",
+        "body": "CNS = brain + spinal cord. PNS = sensory and motor neurones. Reflex arc: receptor → sensory neurone → relay neurone (spinal cord) → motor neurone → effector. Fast and involuntary."
+      },
+      "endocrine": {
+        "title": "Endocrine (hormonal) system",
+        "body": "Hormones travel in blood, act on target organs. Slower but longer-lasting than nerves. Key hormones: insulin (pancreas, lowers blood sugar), adrenaline (adrenal glands, fight-or-flight), oestrogen/testosterone (puberty)."
+      }
+    }
+  },
+  "ecology": {
+    "title": "Ecology",
+    "intro": "How organisms interact with each other and the environment. Energy flow, nutrient cycles, human impacts.",
+    "sections": {
+      "levels": {
+        "title": "Levels of organisation",
+        "body": "Individual → population → community → ecosystem → biosphere."
+      },
+      "foodChains": {
+        "title": "Food chains and webs",
+        "body": "Producer (plant) → primary consumer (herbivore) → secondary consumer (carnivore) → tertiary consumer. Energy is lost at each step (~90%): only ~10% transferred. Pyramids of numbers, biomass, energy."
+      },
+      "carbonCycle": {
+        "title": "Carbon cycle",
+        "body": "Photosynthesis fixes CO₂. Respiration releases it. Decomposers break down dead matter. Combustion of fossil fuels adds extra CO₂ (climate change link)."
+      },
+      "waterCycle": {
+        "title": "Water cycle",
+        "body": "Evaporation → condensation (clouds) → precipitation → runoff/infiltration → back to oceans. Transpiration in plants is a key part."
+      },
+      "humanImpact": {
+        "title": "Human impacts",
+        "body": "Deforestation, pollution, habitat loss, climate change. Conservation: protected areas, sustainable farming, captive breeding."
+      }
+    }
+  },
+  "genetics": {
+    "title": "Genetics & Evolution",
+    "intro": "Inheritance, DNA, variation, natural selection.",
+    "sections": {
+      "dna": {
+        "title": "DNA",
+        "body": "Double helix. Bases A–T, C–G. A gene = section of DNA coding for a protein. Chromosomes contain DNA. Humans have 46 chromosomes (23 pairs)."
+      },
+      "mitosis": {
+        "title": "Mitosis",
+        "body": "Produces 2 identical diploid cells (2n). Used for growth and repair. Stages: prophase, metaphase, anaphase, telophase."
+      },
+      "meiosis": {
+        "title": "Meiosis",
+        "body": "Produces 4 genetically different haploid gametes (n). Used for sexual reproduction. Halves the chromosome number."
+      },
+      "inheritance": {
+        "title": "Inheritance",
+        "body": "Dominant allele (capital) expressed if present. Recessive (lowercase) only when homozygous. Punnett square predicts offspring ratios."
+      },
+      "variation": {
+        "title": "Variation",
+        "body": "Genetic (inherited) + environmental. Continuous (height, weight — many genes) vs discontinuous (blood type, eye colour — few genes)."
+      },
+      "evolution": {
+        "title": "Evolution by natural selection",
+        "body": "1) Variation exists in population. 2) Competition for resources. 3) Best-adapted survive and reproduce. 4) Advantageous alleles increase in frequency over generations."
+      }
+    }
+  },
+  "immune": {
+    "title": "Immune System & Health",
+    "intro": "How the body defends itself. Pathogens, immune response, vaccination, antibiotics.",
+    "sections": {
+      "pathogens": {
+        "title": "Pathogens",
+        "body": "Disease-causing organisms: bacteria, viruses, fungi, protists. Spread by air, water, food, vectors (e.g., mosquitoes), direct contact."
+      },
+      "barriers": {
+        "title": "Non-specific defences",
+        "body": "Skin (physical barrier), mucus + cilia in airways, stomach acid, lysozyme in tears."
+      },
+      "immuneResponse": {
+        "title": "Immune response (specific)",
+        "body": "White blood cells (lymphocytes) produce antibodies that bind to antigens on pathogens. Antibodies mark pathogens for destruction. Memory cells provide long-term immunity."
+      },
+      "vaccination": {
+        "title": "Vaccination",
+        "body": "Inject weakened/dead pathogen → immune system makes antibodies + memory cells without illness. Next exposure → fast secondary response. Herd immunity protects vulnerable."
+      },
+      "antibiotics": {
+        "title": "Antibiotics",
+        "body": "Kill bacteria (not viruses). Overuse leads to resistance — must finish course. MRSA is an example of resistant bacteria."
+      }
+    }
+  },
+  "experiment": {
+    "title": "Experimental Design (Criterion B)",
+    "intro": "Designing a fair test: variables, hypothesis, method, controls.",
+    "sections": {
+      "variables": {
+        "title": "Variables",
+        "items": {
+          "independent": "Independent — what YOU change (one only)",
+          "dependent": "Dependent — what you measure",
+          "controlled": "Controlled — kept the same to ensure fair test"
+        }
+      },
+      "hypothesis": {
+        "title": "Hypothesis",
+        "body": "Predicted relationship between IV and DV with reasoning. Format: 'If X increases, Y will decrease BECAUSE…'"
+      },
+      "method": {
+        "title": "Method",
+        "body": "Step-by-step instructions someone else could follow. Include amounts, times, controlled variables, safety."
+      },
+      "data": {
+        "title": "Data collection and analysis",
+        "body": "Repeat for reliability. Calculate means. Plot suitable graphs (line for continuous, bar for discrete). Look for trends. Discuss anomalies."
+      },
+      "evaluation": {
+        "title": "Evaluation",
+        "body": "Strengths and weaknesses of method. Sources of error (random vs systematic). Improvements. Extensions."
+      }
+    }
   },
   "glossary": {
     "title": "Glossary",

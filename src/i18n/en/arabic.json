@@ -2,29 +2,17 @@
   "subjectName": "Arabic",
   "home": {
     "title": "Arabic — Revision",
-    "intro": "Module structure for Arabic G9 — vocabulary, grammar, reading and writing practice. The Phase/level toggle (1–6 in IB MYP Language Acquisition) saves your selection locally.",
-    "draftNotice": "In development — planned topics:",
+    "intro": "Reference for G9 IB MYP Arabic Language Acquisition: alphabet, themed vocabulary, basic grammar, and useful phrases. Arabic is written right-to-left.",
+    "topicsHeading": "Topics",
     "selectPhase": "Select your Phase",
-    "phases": {
-      "1": "Phase 1",
-      "2": "Phase 2",
-      "3": "Phase 3",
-      "4": "Phase 4",
-      "5": "Phase 5",
-      "6": "Phase 6"
-    },
+    "phases": { "1": "Phase 1", "2": "Phase 2", "3": "Phase 3", "4": "Phase 4", "5": "Phase 5", "6": "Phase 6" },
     "rtlNote": "Arabic script is read right-to-left (RTL)."
   },
-  "topics": {
-    "vocabulary": "Vocabulary (المفردات)",
-    "grammar": "Grammar (القواعد) — verb conjugation, gender, plurals",
-    "reading": "Reading comprehension (القراءة)",
-    "writing": "Writing prompts (الكتابة)",
-    "speaking": "Speaking / Listening (المحادثة)"
-  },
-  "alphabet": {
-    "title": "Alphabet refresher",
-    "intro": "28 letters — connecting forms (initial, medial, final, isolated).",
-    "letters": "ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي"
+  "nav": {
+    "home": "Overview",
+    "alphabet": "Alphabet",
+    "vocab": "Vocabulary",
+    "grammar": "Grammar",
+    "phrases": "Useful Phrases"
   }
 }

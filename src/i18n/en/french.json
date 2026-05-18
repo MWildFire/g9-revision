@@ -2,22 +2,20 @@
   "subjectName": "French",
   "home": {
     "title": "French — Revision",
-    "intro": "Module will be filled once Luka's level (Emergent / Capable / Proficient) is confirmed and revision lists are available. Below: level toggle, a verb conjugation reference and core vocab.",
-    "draftNotice": "Planned topics:",
+    "intro": "Reference for G9 IB MYP French Language Acquisition: themed vocabulary, verb tenses, key grammar, and useful phrases.",
+    "topicsHeading": "Topics",
     "selectLevel": "Select your level",
     "levels": {
       "emergent": "Emergent",
       "capable": "Capable",
       "proficient": "Proficient"
-    },
-    "vocabHeading": "Core vocabulary (50 words)",
-    "conjugationHeading": "Verb conjugation — present tense"
+    }
   },
-  "topics": {
-    "vocabulary": "Vocabulary",
+  "nav": {
+    "home": "Overview",
+    "vocab": "Vocabulary",
+    "tenses": "Tenses",
     "grammar": "Grammar",
-    "conjugation": "Verb conjugation",
-    "reading": "Reading",
-    "writing": "Writing prompts"
+    "phrases": "Useful Phrases"
   }
 }

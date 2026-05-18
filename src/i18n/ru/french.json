@@ -2,22 +2,20 @@
   "subjectName": "Французский",
   "home": {
     "title": "Французский — Ревижн",
-    "intro": "Модуль будет заполнен после подтверждения уровня Луки (Emergent / Capable / Proficient) и получения revision lists. Сейчас: переключатель уровня, справка по спряжению и базовая лексика.",
-    "draftNotice": "Планируемые темы:",
+    "intro": "Справочник по G9 IB MYP French Language Acquisition: тематическая лексика, времена глаголов, ключевая грамматика, полезные фразы.",
+    "topicsHeading": "Темы",
     "selectLevel": "Выбери уровень",
     "levels": {
       "emergent": "Emergent",
       "capable": "Capable",
       "proficient": "Proficient"
-    },
-    "vocabHeading": "Базовая лексика (50 слов)",
-    "conjugationHeading": "Спряжение глаголов — настоящее время"
+    }
   },
-  "topics": {
-    "vocabulary": "Лексика",
+  "nav": {
+    "home": "Обзор",
+    "vocab": "Лексика",
+    "tenses": "Времена",
     "grammar": "Грамматика",
-    "conjugation": "Спряжение глаголов",
-    "reading": "Чтение",
-    "writing": "Темы для письменных работ"
+    "phrases": "Полезные фразы"
   }
 }

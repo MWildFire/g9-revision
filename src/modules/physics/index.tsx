@@ -7,9 +7,11 @@ import {
   Scale,
   ClipboardCheck,
   Link as LinkIcon,
+  Sparkles,
 } from 'lucide-react';
 import { SubjectSidebar, TopicNavItem } from '../../components/layout/SubjectSidebar';
 import { HomePage } from './pages/HomePage';
+import { PhysicsExtrasPage } from './pages/PhysicsExtrasPage';
 import { CommandTermsPage } from './pages/CommandTermsPage';
 import { ForceMotionPage } from './pages/ForceMotionPage';
 import { ForcesEnergyPage } from './pages/ForcesEnergyPage';
@@ -27,6 +29,7 @@ const TOPICS: TopicNavItem[] = [
   { to: '/physics/waves-optics', key: 'wavesOptics', icon: Waves },
   { to: '/physics/criteria', key: 'criteria', icon: ClipboardCheck },
   { to: '/physics/resources', key: 'resources', icon: LinkIcon },
+  { to: '/physics/extras', key: 'extras', icon: Sparkles },
 ];
 
 export function PhysicsModule() {
@@ -43,6 +46,7 @@ export function PhysicsModule() {
           <Route path="waves-optics" element={<WavesOpticsPage />} />
           <Route path="criteria" element={<CriteriaPage />} />
           <Route path="resources" element={<ResourcesPage />} />
+          <Route path="extras" element={<PhysicsExtrasPage />} />
         </Routes>
       </main>
     </div>

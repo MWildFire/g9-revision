@@ -1,11 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home as HomeIcon, Type, BookA, ScrollText, MessageCircle } from 'lucide-react';
+import { Home as HomeIcon, Type, BookA, ScrollText, MessageCircle, Sparkles } from 'lucide-react';
 import { SubjectSidebar, TopicNavItem } from '../../components/layout/SubjectSidebar';
 import { ArabicHomePage } from './pages/ArabicHomePage';
 import { AlphabetPage } from './pages/AlphabetPage';
 import { VocabPage } from './pages/VocabPage';
 import { GrammarPage } from './pages/GrammarPage';
 import { PhrasesPage } from './pages/PhrasesPage';
+import { ArabicExtrasPage } from './pages/ArabicExtrasPage';
 
 const TOPICS: TopicNavItem[] = [
   { to: '/arabic', key: 'home', icon: HomeIcon },
@@ -13,6 +14,7 @@ const TOPICS: TopicNavItem[] = [
   { to: '/arabic/vocab', key: 'vocab', icon: BookA },
   { to: '/arabic/grammar', key: 'grammar', icon: ScrollText },
   { to: '/arabic/phrases', key: 'phrases', icon: MessageCircle },
+  { to: '/arabic/extras', key: 'extras', icon: Sparkles },
 ];
 
 export function ArabicModule() {
@@ -26,6 +28,7 @@ export function ArabicModule() {
           <Route path="vocab" element={<VocabPage />} />
           <Route path="grammar" element={<GrammarPage />} />
           <Route path="phrases" element={<PhrasesPage />} />
+          <Route path="extras" element={<ArabicExtrasPage />} />
         </Routes>
       </main>
     </div>

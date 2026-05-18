@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home as HomeIcon, FileText, Sparkles, PenTool, Search, Pencil } from 'lucide-react';
+import { Home as HomeIcon, FileText, Sparkles, PenTool, Search, Pencil, Star } from 'lucide-react';
 import { SubjectSidebar, TopicNavItem } from '../../components/layout/SubjectSidebar';
 import { EnglishHomePage } from './pages/EnglishHomePage';
 import { TextTypesPage } from './pages/TextTypesPage';
@@ -7,6 +7,7 @@ import { DevicesPage } from './pages/DevicesPage';
 import { GrammarPage } from './pages/GrammarPage';
 import { ReadingPage } from './pages/ReadingPage';
 import { EssaysPage } from './pages/EssaysPage';
+import { EnglishExtrasPage } from './pages/EnglishExtrasPage';
 
 const TOPICS: TopicNavItem[] = [
   { to: '/english', key: 'home', icon: HomeIcon },
@@ -15,6 +16,7 @@ const TOPICS: TopicNavItem[] = [
   { to: '/english/grammar', key: 'grammar', icon: PenTool },
   { to: '/english/reading', key: 'reading', icon: Search },
   { to: '/english/essays', key: 'essays', icon: Pencil },
+  { to: '/english/extras', key: 'extras', icon: Star },
 ];
 
 export function EnglishModule() {
@@ -29,6 +31,7 @@ export function EnglishModule() {
           <Route path="grammar" element={<GrammarPage />} />
           <Route path="reading" element={<ReadingPage />} />
           <Route path="essays" element={<EssaysPage />} />
+          <Route path="extras" element={<EnglishExtrasPage />} />
         </Routes>
       </main>
     </div>

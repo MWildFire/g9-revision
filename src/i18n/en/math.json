@@ -15,7 +15,37 @@
     "geometryTrig": "Geometry & Trig",
     "statsProb": "Stats & Probability",
     "eoyPractice": "EOY Practice",
-    "criteriaTrainer": "Criteria Trainer"
+    "criteriaTrainer": "Criteria Trainer",
+    "extras": "Extras (beyond G9)"
+  },
+  "extras": {
+    "title": "Mathematics — Extras",
+    "intro": "Topics that extend beyond the G9 revision list — useful for IB DP preparation or for curious students.",
+    "calculus": {
+      "title": "Calculus — derivatives intro",
+      "body": "A derivative measures the rate of change of a function. For y = xⁿ, the derivative is dy/dx = n·xⁿ⁻¹. The derivative of a constant is zero. Geometric meaning: slope of the tangent at a point. Used in physics (velocity = derivative of position) and optimisation (maximum/minimum problems)."
+    },
+    "proofs": {
+      "title": "Mathematical proof",
+      "items": [
+        "Direct proof — assume premise, derive conclusion step by step.",
+        "Proof by contradiction — assume opposite, show it leads to absurdity.",
+        "Proof by induction — base case + inductive step (n → n+1). Used for sums and divisibility.",
+        "Counterexample — one example disproves a 'for all' claim."
+      ]
+    },
+    "numberTheory": {
+      "title": "Number theory basics",
+      "body": "Prime numbers: divisible only by 1 and themselves. There are infinitely many primes (Euclid). Fundamental theorem of arithmetic: every integer >1 has a unique prime factorisation. Modular arithmetic: 17 mod 5 = 2. Useful for divisibility tests and cryptography."
+    },
+    "complex": {
+      "title": "Complex numbers — preview",
+      "body": "i² = −1. Complex number z = a + bi has real part a and imaginary part b. Solves quadratics with negative discriminant: x² + 1 = 0 → x = ±i. Used in electricity, signal processing, quantum physics. You'll meet these in IB DP."
+    },
+    "statsExt": {
+      "title": "Statistics extension",
+      "body": "Variance σ² is the average squared deviation from the mean. Standard deviation σ = √variance. Sample vs population: divide by n−1 for sample (Bessel's correction). Correlation coefficient r measures linear relationship (−1 to +1). Scatter plots show variable relationships."
+    }
   },
   "numberSystems": {
     "title": "Number Systems & Arithmetic",

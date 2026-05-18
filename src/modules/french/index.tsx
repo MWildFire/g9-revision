@@ -1,11 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home as HomeIcon, BookA, Clock, Type, MessageCircle } from 'lucide-react';
+import { Home as HomeIcon, BookA, Clock, Type, MessageCircle, Sparkles } from 'lucide-react';
 import { SubjectSidebar, TopicNavItem } from '../../components/layout/SubjectSidebar';
 import { FrenchHomePage } from './pages/FrenchHomePage';
 import { VocabPage } from './pages/VocabPage';
 import { TensesPage } from './pages/TensesPage';
 import { GrammarPage } from './pages/GrammarPage';
 import { PhrasesPage } from './pages/PhrasesPage';
+import { FrenchExtrasPage } from './pages/FrenchExtrasPage';
 
 const TOPICS: TopicNavItem[] = [
   { to: '/french', key: 'home', icon: HomeIcon },
@@ -13,6 +14,7 @@ const TOPICS: TopicNavItem[] = [
   { to: '/french/tenses', key: 'tenses', icon: Clock },
   { to: '/french/grammar', key: 'grammar', icon: Type },
   { to: '/french/phrases', key: 'phrases', icon: MessageCircle },
+  { to: '/french/extras', key: 'extras', icon: Sparkles },
 ];
 
 export function FrenchModule() {
@@ -26,6 +28,7 @@ export function FrenchModule() {
           <Route path="tenses" element={<TensesPage />} />
           <Route path="grammar" element={<GrammarPage />} />
           <Route path="phrases" element={<PhrasesPage />} />
+          <Route path="extras" element={<FrenchExtrasPage />} />
         </Routes>
       </main>
     </div>

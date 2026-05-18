@@ -12,7 +12,38 @@
     "reactions": "Reactions & Equations",
     "stoichiometry": "Stoichiometry",
     "acidsBases": "Acids, Bases, Salts",
-    "energy": "Energy Changes"
+    "energy": "Energy Changes",
+    "extras": "Extras (beyond G9)"
+  },
+  "extras": {
+    "title": "Chemistry — Extras",
+    "intro": "Topics that extend beyond the G9 syllabus — useful preview for IGCSE Extended and IB DP.",
+    "organic": {
+      "title": "Organic chemistry — intro",
+      "body": "Carbon forms 4 covalent bonds, allowing huge variety. Hydrocarbons = C + H only. Alkanes (CₙH₂ₙ₊₂) — single bonds, saturated, less reactive. Alkenes (CₙH₂ₙ) — at least one C=C double bond, more reactive (decolourise bromine water). Alcohols (R-OH) — react with sodium giving H₂. Carboxylic acids (R-COOH) — weak acids."
+    },
+    "redox": {
+      "title": "Redox reactions",
+      "body": "OIL RIG: Oxidation Is Loss (of electrons), Reduction Is Gain. Oxidation number: charge an atom would have if all bonds were ionic. Half-equations show electron transfer: Zn → Zn²⁺ + 2e⁻ (oxidation). Reducing agents donate electrons. Common redox: rusting, combustion, batteries."
+    },
+    "electrochem": {
+      "title": "Electrochemistry",
+      "body": "Electrolysis splits compounds using electricity. Cathode (−) attracts cations (metals, hydrogen). Anode (+) attracts anions (non-metals). Example: molten NaCl → Na at cathode, Cl₂ at anode. Used to extract reactive metals (Al, Na), electroplate, purify copper. Galvanic cells generate electricity from spontaneous redox."
+    },
+    "rates": {
+      "title": "Rates of reaction",
+      "items": [
+        "Concentration — more particles → more collisions → faster",
+        "Temperature — particles move faster, more energetic collisions",
+        "Surface area — more exposed reactant → faster (powder vs lump)",
+        "Catalyst — provides lower-energy pathway, not consumed",
+        "Light/pressure — for specific reactions (e.g., photosynthesis, gas phase)"
+      ]
+    },
+    "equilibrium": {
+      "title": "Dynamic equilibrium — intro",
+      "body": "Reversible reactions reach a state where forward and reverse rates are equal, but reactions continue. Le Chatelier's principle: if disturbed (T, p, conc.), the equilibrium shifts to oppose the change. Example: Haber process N₂ + 3H₂ ⇌ 2NH₃ — high pressure + moderate T + catalyst (iron) maximises ammonia yield."
+    }
   },
   "atomsPeriodic": {
     "title": "Atomic Structure & Periodic Table",

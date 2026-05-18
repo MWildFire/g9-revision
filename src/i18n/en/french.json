@@ -16,6 +16,45 @@
     "vocab": "Vocabulary",
     "tenses": "Tenses",
     "grammar": "Grammar",
-    "phrases": "Useful Phrases"
+    "phrases": "Useful Phrases",
+    "extras": "Extras (beyond G9)"
+  },
+  "extras": {
+    "title": "French — Extras",
+    "intro": "Topics beyond the G9 syllabus — subjunctive, idioms, francophone culture.",
+    "subjunctive": {
+      "title": "Subjunctive mood — quick intro",
+      "body": "Used to express doubt, emotion, necessity, or opinion. Triggered by phrases like 'il faut que', 'je veux que', 'bien que', 'avant que'. For -er verbs, take the 'ils' form, drop -ent, add: -e, -es, -e, -ions, -iez, -ent. Example: 'Il faut que tu finisses' (you must finish). You'll meet it in IB DP."
+    },
+    "idioms": {
+      "title": "Idioms & expressions",
+      "items": [
+        "Avoir le cafard — to feel blue (lit. 'to have the cockroach')",
+        "Coûter les yeux de la tête — to cost an arm and a leg (lit. 'cost the eyes of the head')",
+        "Tomber dans les pommes — to faint (lit. 'fall into the apples')",
+        "Poser un lapin — to stand someone up (lit. 'place a rabbit')",
+        "Avoir un chat dans la gorge — to have a frog in your throat (lit. 'have a cat in your throat')",
+        "Ce n'est pas la mer à boire — it's not that hard (lit. 'it's not the sea to drink')",
+        "Mettre son grain de sel — to add one's two cents (lit. 'add one's grain of salt')"
+      ]
+    },
+    "culture": {
+      "title": "Francophone culture",
+      "body": "French is spoken in 29 countries by 300+ million people: France, Belgium, Switzerland, Quebec (Canada), Senegal, Côte d'Ivoire, Tunisia, Morocco, Algeria, Vietnam (historically), and many more. La Francophonie is the international organisation of French-speaking nations. Major contributions: cinema (Truffaut, Godard), philosophy (Descartes, Sartre, Camus), food (haute cuisine), fashion (Chanel, Dior), and the Tour de France."
+    },
+    "literature": {
+      "title": "Classic French literature",
+      "items": [
+        "Le Petit Prince (Antoine de Saint-Exupéry, 1943) — short, profound, the most translated French book",
+        "Les Misérables (Victor Hugo, 1862) — epic novel of redemption and rebellion",
+        "Madame Bovary (Gustave Flaubert, 1856) — pioneering realist novel",
+        "L'Étranger (Albert Camus, 1942) — existentialist classic",
+        "Le Rouge et le Noir (Stendhal, 1830) — ambition and society"
+      ]
+    },
+    "filmMusic": {
+      "title": "Modern film & music",
+      "body": "Films to explore: Amélie (2001), The Intouchables (2011), La Haine (1995). Singers: Stromae (Belgian), Aya Nakamura, Indila, Christine and the Queens. Watching/listening with French subtitles is a great way to train your ear."
+    }
   }
 }

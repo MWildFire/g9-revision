@@ -13,7 +13,44 @@
     "ecology": "Ecology",
     "genetics": "Genetics & Evolution",
     "immune": "Immune System & Health",
-    "experiment": "Experimental Design"
+    "experiment": "Experimental Design",
+    "extras": "Extras (beyond G9)"
+  },
+  "extras": {
+    "title": "Biology — Extras",
+    "intro": "Topics that extend beyond the G9 syllabus — depth on photosynthesis, hormones, mutations, biotech.",
+    "photoDepth": {
+      "title": "Photosynthesis — deeper",
+      "body": "Two stages: light-dependent (in thylakoid membranes) — chlorophyll absorbs photons, water is split (H₂O → 2H⁺ + ½O₂ + 2e⁻), ATP and NADPH are made. Light-independent / Calvin cycle (in stroma) — CO₂ is fixed using ATP + NADPH to form glucose. Limiting factors: light intensity, CO₂ concentration, temperature."
+    },
+    "hormones": {
+      "title": "Hormones in depth",
+      "items": [
+        "Insulin (pancreas, β-cells) — lowers blood glucose by promoting uptake into cells. Diabetes type 1: no insulin; type 2: cells resist insulin.",
+        "Glucagon (pancreas, α-cells) — raises blood glucose by releasing it from liver glycogen.",
+        "Adrenaline (adrenal medulla) — fight-or-flight: heart rate up, pupils dilate, glucose released.",
+        "Oestrogen / testosterone — secondary sexual characteristics during puberty.",
+        "Thyroxine (thyroid) — controls metabolic rate."
+      ]
+    },
+    "genetics": {
+      "title": "Genetics — mutations and codons",
+      "body": "DNA is read in triplets called codons; each codes for an amino acid (e.g., AUG = methionine = start). 64 possible codons but only 20 amino acids — code is redundant. Mutations: substitution (one base), insertion (gain), deletion (loss). Insertion/deletion shift the reading frame → potentially catastrophic. Sickle cell anaemia is caused by a single substitution in haemoglobin."
+    },
+    "biotech": {
+      "title": "Biotechnology",
+      "items": [
+        "Selective breeding — choose parents with desired traits over many generations (modern crops, livestock).",
+        "Genetic engineering — transfer genes between species using restriction enzymes + plasmids (e.g., insulin from bacteria).",
+        "Cloning — Dolly the sheep (1996) via nuclear transfer; plant tissue culture is routine.",
+        "CRISPR — precise gene editing tool (2012); revolutionary for medicine and agriculture.",
+        "Ethics — consent, biodiversity, unforeseen consequences are key MYP Criterion D considerations."
+      ]
+    },
+    "homeostasis": {
+      "title": "Homeostasis",
+      "body": "Maintaining a constant internal environment despite external changes. Body temperature ~37 °C (vasodilation, sweating to cool; vasoconstriction, shivering to warm). Blood glucose ~5 mmol/L (insulin/glucagon balance). Water balance (kidneys, ADH). Negative feedback loops are the core mechanism."
+    }
   },
   "cells": {
     "title": "Cell Biology",

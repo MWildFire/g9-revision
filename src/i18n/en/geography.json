@@ -10,7 +10,46 @@
     "rivers": "Rivers",
     "tourism": "Tourism",
     "resourceReliance": "Resource Reliance",
-    "atmosphericHazards": "Atmospheric Hazards"
+    "atmosphericHazards": "Atmospheric Hazards",
+    "extras": "Extras (beyond G9)"
+  },
+  "extrasContent": {
+    "title": "Geography — Extras",
+    "intro": "Topics beyond the four revision sheets — plate tectonics, urbanisation, globalisation, sustainable development.",
+    "tectonics": {
+      "title": "Plate tectonics",
+      "body": "The Earth's lithosphere is broken into ~15 major plates floating on the mantle. Convection currents in the mantle drive their movement (~few cm/year). Three boundary types: divergent (plates apart — mid-ocean ridges, rift valleys), convergent (plates collide — mountains, volcanoes, trenches), transform (sliding past — San Andreas Fault). Most earthquakes and volcanoes happen along these boundaries."
+    },
+    "urbanisation": {
+      "title": "Urbanisation",
+      "body": "Movement of people from rural to urban areas. By 2050, ~68% of the world will live in cities. Causes: economic opportunity, education, healthcare (pull factors); poverty, lack of land, conflict (push factors). Megacities (10M+): Tokyo, Delhi, Shanghai, São Paulo, Mexico City. Challenges: housing (slums — Mumbai's Dharavi, Rio's favelas), transport, pollution, inequality. Solutions: planned cities, public transport, green spaces, affordable housing."
+    },
+    "globalisation": {
+      "title": "Globalisation",
+      "items": [
+        "Trade — WTO, free-trade agreements; goods flow across borders rapidly.",
+        "Technology — internet, smartphones, instant communication.",
+        "Migration — labour migration, refugee movements, brain drain.",
+        "Culture — McDonaldisation, Hollywood, K-pop — shared global culture.",
+        "Winners: TNCs (transnational corporations), developed economies, skilled workers.",
+        "Losers: unskilled workers in high-cost countries, indigenous cultures, environment."
+      ]
+    },
+    "sustainable": {
+      "title": "Sustainable Development Goals (SDGs)",
+      "body": "Adopted by UN in 2015, target for 2030. 17 goals: No poverty, Zero hunger, Good health, Quality education, Gender equality, Clean water, Affordable energy, Decent work, Industry/innovation, Reduced inequalities, Sustainable cities, Responsible consumption, Climate action, Life below water, Life on land, Peace & justice, Partnerships. Progress is mixed — climate change and poverty remain major challenges."
+    },
+    "biomes": {
+      "title": "World biomes",
+      "items": [
+        "Tropical rainforest — equator, high biodiversity, fast nutrient cycling, deforestation threat.",
+        "Savanna — between rainforest and desert, dry season, large mammals (Serengeti).",
+        "Desert — <250mm rain/year, extreme temperatures, specialised plants and animals.",
+        "Temperate forest — mid-latitudes, deciduous trees, four seasons.",
+        "Taiga (boreal forest) — northern, coniferous, cold winters.",
+        "Tundra — frozen subsoil (permafrost), short growing season, low biodiversity."
+      ]
+    }
   },
   "rivers": {
     "title": "Distinctive Landscapes — Rivers",

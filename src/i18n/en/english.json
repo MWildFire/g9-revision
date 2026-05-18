@@ -11,7 +11,56 @@
     "devices": "Literary Devices",
     "grammar": "Grammar",
     "reading": "Reading Skills",
-    "essays": "Essay Practice"
+    "essays": "Essay Practice",
+    "extras": "Extras (beyond G9)"
+  },
+  "extras": {
+    "title": "English — Extras",
+    "intro": "Topics that go deeper than the G9 revision list — critical thinking, classic literature, advanced vocabulary, exam-ready quotes.",
+    "criticalThinking": {
+      "title": "Critical thinking",
+      "items": [
+        "Identify the claim — what is the author arguing?",
+        "Look for evidence — facts, statistics, expert opinion, anecdotes.",
+        "Spot fallacies — straw man, false dichotomy, ad hominem, appeal to authority.",
+        "Detect bias — emotional language, selective evidence, loaded questions.",
+        "Evaluate sources — peer-reviewed > newspaper > blog > social media."
+      ]
+    },
+    "shakespeare": {
+      "title": "Shakespeare — quick intro",
+      "body": "William Shakespeare (1564–1616) wrote 39 plays and 154 sonnets. Key plays: Romeo and Juliet (tragedy), Macbeth (ambition), Hamlet (revenge, doubt), A Midsummer Night's Dream (comedy). Iambic pentameter — 10 syllables per line, alternating unstressed/stressed. Famous quote: 'To be, or not to be: that is the question.' Themes resonate today: love, power, identity, mortality."
+    },
+    "vocab": {
+      "title": "Advanced vocabulary for essays",
+      "items": [
+        "Ubiquitous — present everywhere (use instead of 'common').",
+        "Profound — having deep insight or impact.",
+        "Articulate (v) — express clearly; (adj) — well-spoken.",
+        "Paradox — apparent contradiction that reveals truth.",
+        "Catalyst — agent that causes change.",
+        "Pivotal — critically important.",
+        "Inevitable — certain to happen.",
+        "Furthermore / Moreover — and on top of that.",
+        "Notwithstanding — despite this.",
+        "Consequently / Therefore — as a result."
+      ]
+    },
+    "essayQuotes": {
+      "title": "Quotes to use in essays",
+      "items": [
+        "On change: 'The only constant is change.' — Heraclitus",
+        "On knowledge: 'I think, therefore I am.' — Descartes",
+        "On society: 'It takes a village to raise a child.' — African proverb",
+        "On nature: 'In every walk with nature one receives far more than he seeks.' — John Muir",
+        "On power: 'With great power comes great responsibility.' — Voltaire (and Spider-Man)",
+        "On time: 'Tomorrow is the most important thing in life.' — John Wayne"
+      ]
+    },
+    "poetry": {
+      "title": "Analysing poetry",
+      "body": "1) Read aloud at least twice. 2) Form: lines, stanzas, rhyme scheme (ABAB? AABB?). 3) Meter: count stressed syllables (iambic? trochaic?). 4) Imagery: sensory details, symbols. 5) Tone: melancholic, jubilant, ironic? 6) Theme: what big idea is explored? 7) Speaker: who is saying this and to whom? Pull short quotes when analysing — and always link back to the question."
+    }
   },
   "textTypesPage": {
     "title": "Text Types (Criterion C)",

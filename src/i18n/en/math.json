@@ -63,6 +63,68 @@
       "surdsSimplify": "Surds — simplifying",
       "surdsOperate": "Surds — operations",
       "absolute": "Absolute values"
+    },
+    "subTopicsDetailed": {
+      "structureSets": {
+        "name": "Structure & Sets — classification, set notation",
+        "rule": "ℕ (naturals: 1,2,3…) ⊂ ℤ (integers: …−2,−1,0,1,2…) ⊂ ℚ (rationals: a/b, b≠0) ⊂ ℝ (reals, including irrationals). Set notation: ∈ (element of), ∪ (union), ∩ (intersection), ⊂ (subset), Ø (empty set).",
+        "examples": ["√2 ∈ ℝ but √2 ∉ ℚ (it's irrational).", "0.333… = 1/3 ∈ ℚ (recurring decimals are rational).", "A = {1,2,3}, B = {3,4}. A∪B = {1,2,3,4}. A∩B = {3}.", "{x ∈ ℤ : x² < 10} = {−3, −2, −1, 0, 1, 2, 3}."],
+        "tip": "π and e are real but not rational. Surds (√2, √3) are also irrational. Recurring decimals ARE rational."
+      },
+      "rounding": {
+        "name": "Rounding & accuracy",
+        "rule": "Round to n decimal places (d.p.) or n significant figures (s.f.). Look at the next digit: ≥5 round up, <5 round down. Significant figures: count from the first non-zero digit.",
+        "examples": ["3.4567 → 3.46 (2 d.p.); 3.457 (3 d.p.); 3.5 (2 s.f.).", "0.004532 → 0.005 (1 s.f.) — leading zeros aren't significant.", "1250 → 1300 (2 s.f.); 1250 (3 s.f. — could be either depending on rule)."],
+        "tip": "S.F. is harder. The first non-zero digit is sig fig #1. 0.00408 has 3 s.f. (4, 0, 8 — the middle 0 counts because it's between non-zeros)."
+      },
+      "bounds": {
+        "name": "Upper and lower bounds (Extended)",
+        "rule": "A value rounded to nearest unit has bounds ±½ unit. Lower bound = stated − ½ × precision; Upper bound = stated + ½ × precision.",
+        "examples": ["Length = 27 cm (nearest cm). LB = 26.5; UB = 27.5.", "Time = 8.4 s (1 d.p.). LB = 8.35; UB = 8.45.", "For maximum velocity = max(distance) / min(time). For min velocity = min(distance) / max(time).", "Mass = 2.50 kg (3 s.f.). LB = 2.495; UB = 2.505."],
+        "watchOut": "UB is NEVER reached — it's a strict supremum. Use it inclusively in calculations, but it's still 27.5 not 27.499…"
+      },
+      "exponents": {
+        "name": "Laws of exponents",
+        "rule": "aᵐ · aⁿ = aᵐ⁺ⁿ ; aᵐ / aⁿ = aᵐ⁻ⁿ ; (aᵐ)ⁿ = aᵐⁿ ; (ab)ⁿ = aⁿbⁿ ; a⁰ = 1 ; a⁻ⁿ = 1/aⁿ.",
+        "examples": ["3² · 3⁴ = 3⁶ = 729.", "(2³)² = 2⁶ = 64.", "5⁻² = 1/25.", "(2x³)² = 4x⁶."],
+        "watchOut": "These laws only work for the SAME base. 2³ · 3² is NOT 6⁵. Negative exponents flip to fraction, don't make negative number."
+      },
+      "fractionalIndices": {
+        "name": "Fractional indices (Extended)",
+        "rule": "a^(1/n) = ⁿ√a (the nth root). a^(m/n) = (ⁿ√a)ᵐ = ⁿ√(aᵐ).",
+        "examples": ["8^(1/3) = ∛8 = 2.", "16^(3/4) = (⁴√16)³ = 2³ = 8.", "27^(−2/3) = 1 / 27^(2/3) = 1 / (∛27)² = 1/9.", "x^(1/2) = √x."],
+        "tip": "Denominator is the ROOT (n in ⁿ√), numerator is the POWER (m in xᵐ). Easier to take root first, then power."
+      },
+      "standardForm": {
+        "name": "Standard form (scientific notation)",
+        "rule": "Write as a × 10ⁿ where 1 ≤ a < 10 and n is an integer. Used for very large or very small numbers.",
+        "examples": ["540,000 = 5.4 × 10⁵.", "0.000072 = 7.2 × 10⁻⁵.", "Speed of light: 3 × 10⁸ m/s.", "Multiply: (3×10⁴) × (2×10⁻²) = 6×10² = 600."],
+        "watchOut": "5.4 × 10⁵ ≠ 54 × 10⁴ in standard form — `a` must be between 1 and 10. Add/subtract: convert to same power first."
+      },
+      "unitConversion": {
+        "name": "Conversion of units",
+        "rule": "Length: 1 km = 1000 m = 10⁵ cm = 10⁶ mm. Mass: 1 t = 1000 kg = 10⁶ g. Volume: 1 m³ = 1000 L; 1 L = 1000 cm³ = 1000 mL. For compound units, convert each: km/h → m/s requires ÷3.6.",
+        "examples": ["72 km/h → 72/3.6 = 20 m/s.", "5 m² = 5 × 100 × 100 = 50,000 cm² (because 1 m² has 100×100 cm²).", "2.5 hours = 2.5 × 60 × 60 = 9000 s.", "0.5 L = 500 cm³."],
+        "tip": "For area, the conversion is squared (m²→cm² ×10⁴). For volume, cubed (m³→cm³ ×10⁶). Common mistake."
+      },
+      "surdsSimplify": {
+        "name": "Surds — simplifying",
+        "rule": "A surd is √n where n is not a perfect square. Simplify by extracting the largest perfect-square factor: √(a²b) = a√b.",
+        "examples": ["√50 = √(25·2) = 5√2.", "√72 = √(36·2) = 6√2.", "√(8x²) = 2x√2.", "√300 = √(100·3) = 10√3."],
+        "tip": "Always find the LARGEST perfect square factor. List of perfect squares: 4, 9, 16, 25, 36, 49, 64, 81, 100…"
+      },
+      "surdsOperate": {
+        "name": "Surds — operations & rationalising",
+        "rule": "Add/subtract: only LIKE surds combine (3√2 + 5√2 = 8√2). Multiply: √a · √b = √(ab). Divide & rationalise: multiply top & bottom by surd in denominator.",
+        "examples": ["√3 · √12 = √36 = 6.", "(2+√5)(2−√5) = 4 − 5 = −1 (difference of squares).", "5/√2 × √2/√2 = 5√2/2.", "1/(3+√2) × (3−√2)/(3−√2) = (3−√2)/7."],
+        "watchOut": "Cannot combine √a + √b into √(a+b). √2 + √3 ≠ √5."
+      },
+      "absolute": {
+        "name": "Absolute values",
+        "rule": "|x| = distance from 0. Always ≥ 0. |x| = x if x≥0, |x| = −x if x<0. |a − b| = distance between a and b.",
+        "examples": ["|−7| = 7.", "|3 − 10| = 7.", "|x − 5| = 3 means x = 8 or x = 2.", "|2x + 1| < 5 means −5 < 2x+1 < 5, so −3 < x < 2."],
+        "tip": "For inequalities: |x| < k → −k < x < k. |x| > k → x > k or x < −k."
+      }
     }
   },
   "functionsAlgebra": {
@@ -85,6 +147,104 @@
       "proportions": "Direct & inverse proportions",
       "asymptotes": "Rational functions — asymptotes",
       "exponential": "Exponential functions"
+    },
+    "subTopicsDetailed": {
+      "mappings": {
+        "name": "Mappings, domain & range",
+        "rule": "A function maps each input (domain) to exactly one output (range/codomain). Notation: f: x → 2x+1 or f(x) = 2x+1.",
+        "examples": ["f(x) = x², domain ℝ, range [0, ∞).", "g(x) = 1/x, domain ℝ \\ {0}, range ℝ \\ {0}.", "h(x) = √x, domain [0, ∞), range [0, ∞).", "If f(x) = 3x − 2, then f(4) = 10 and f(−1) = −5."],
+        "tip": "Domain = allowed inputs. Range = actual outputs. Find restrictions: division by 0, even roots of negatives."
+      },
+      "verticalLine": {
+        "name": "Vertical line test",
+        "rule": "A graph represents a function if and only if every vertical line crosses it AT MOST ONCE. If a vertical line crosses twice, one x gives two y's — not a function.",
+        "examples": ["y = x² PASSES — function.", "x = y² (sideways parabola) FAILS — vertical line at x=1 hits y=1 and y=−1.", "Circle x² + y² = 4 FAILS — not a function."],
+        "tip": "Quick test for graphs. For algebra, ensure each x has unique y."
+      },
+      "quadraticsFactor": {
+        "name": "Quadratics — expand & factorize",
+        "rule": "Expand: (x+a)(x+b) = x² + (a+b)x + ab. Factorize: find p, q such that p·q = c and p+q = b in x² + bx + c.",
+        "examples": ["Expand: (x+3)(x−5) = x² − 2x − 15.", "Factor: x² + 7x + 12 = (x+3)(x+4) (since 3·4=12, 3+4=7).", "Factor: x² − 5x − 14 = (x−7)(x+2).", "Difference of squares: x² − 9 = (x−3)(x+3).", "With leading coefficient: 2x² + 7x + 3 = (2x+1)(x+3)."],
+        "tip": "Check by expanding back. Difference of squares: a² − b² = (a−b)(a+b) — memorise."
+      },
+      "quadraticsGraph": {
+        "name": "Quadratics — graphical representation",
+        "rule": "y = ax² + bx + c is a parabola. If a > 0, opens up (min); if a < 0, opens down (max). y-intercept = c. x-intercepts where y = 0.",
+        "examples": ["y = x² − 4x + 3 opens up; y-int = 3; x-ints at x=1, x=3.", "y = −x² + 4 opens down; y-int = 4; x-ints at x = ±2.", "Vertex (turning point) at x = −b/(2a)."],
+        "tip": "Use the Quadratic Explorer simulation to see how a, b, c change the graph."
+      },
+      "vertexForm": {
+        "name": "Vertex form (completing the square)",
+        "rule": "y = a(x − h)² + k. Vertex at (h, k). Axis of symmetry: x = h. Convert from standard form by completing the square.",
+        "examples": ["y = x² − 6x + 5 → y = (x − 3)² − 4. Vertex (3, −4).", "y = 2x² + 8x − 3 → factor 2 from quadratic terms: 2(x² + 4x) − 3 → 2(x+2)² − 8 − 3 = 2(x+2)² − 11."],
+        "tip": "Half the coefficient of x, square it, add and subtract. Vertex form makes maxima/minima trivial to read."
+      },
+      "transformations": {
+        "name": "Function transformations",
+        "rule": "y = f(x) + a — shift UP by a. y = f(x + a) — shift LEFT by a. y = af(x) — vertical stretch by a. y = f(ax) — horizontal compression by a. y = −f(x) — reflect in x-axis. y = f(−x) — reflect in y-axis.",
+        "examples": ["y = (x − 3)² + 2 is y = x² shifted right 3, up 2.", "y = 2x² is y = x² stretched vertically by 2.", "y = (2x)² = 4x² is y = x² compressed horizontally by 2 — same as vertical stretch by 4.", "y = −sin(x) is y = sin(x) reflected in x-axis."],
+        "watchOut": "Horizontal shift sign is OPPOSITE to what you write: f(x − 3) shifts RIGHT 3 (not left). Counter-intuitive."
+      },
+      "solveGeneral": {
+        "name": "Solving quadratics — general",
+        "rule": "ax² + bx + c = 0. Four methods: 1) factorize, 2) complete the square, 3) quadratic formula, 4) graphically. Always check: discriminant Δ = b² − 4ac. Δ > 0: 2 real roots; Δ = 0: 1 root (repeated); Δ < 0: no real roots.",
+        "examples": ["x² + 5x + 6 = 0 → Δ = 1 > 0 → factor: (x+2)(x+3) = 0 → x=−2 or x=−3.", "x² − 4x + 4 = 0 → Δ = 0 → repeated root x = 2.", "x² + x + 1 = 0 → Δ = −3 < 0 → no real solutions."],
+        "tip": "If factorizing fails quickly, use the formula. Discriminant tells you what to expect BEFORE solving."
+      },
+      "solveFactor": {
+        "name": "Solving — factorize",
+        "rule": "If product of factors = 0, then at least one factor = 0. (x − a)(x − b) = 0 ⇒ x = a or x = b. Fastest method when factors are integers.",
+        "examples": ["x² − 7x + 12 = 0 → (x − 3)(x − 4) = 0 → x = 3 or x = 4.", "x² + 2x = 0 → x(x + 2) = 0 → x = 0 or x = −2.", "x² = 16 → x² − 16 = 0 → (x−4)(x+4)=0 → x = ±4."],
+        "watchOut": "Don't divide by x — you lose the x = 0 solution. Move all terms to one side first."
+      },
+      "solveCompleteSquare": {
+        "name": "Solving — complete the square",
+        "rule": "Convert to vertex form, then isolate the square. (x + p)² = q ⇒ x = −p ± √q. Useful when factoring fails and you want exact (surd) answers.",
+        "examples": ["x² + 6x − 7 = 0 → (x+3)² − 9 − 7 = 0 → (x+3)² = 16 → x+3 = ±4 → x = 1 or −7.", "x² − 4x + 1 = 0 → (x−2)² − 3 = 0 → x = 2 ± √3."],
+        "tip": "Always works for x² coefficient = 1. For a ≠ 1, factor a out first."
+      },
+      "solveFormula": {
+        "name": "Solving — quadratic formula",
+        "rule": "For ax² + bx + c = 0, x = [−b ± √(b² − 4ac)] / 2a. Works for ALL quadratics, gives exact answers in surd form.",
+        "examples": ["2x² − 5x + 1 = 0: a=2, b=−5, c=1. x = (5 ± √(25−8))/4 = (5 ± √17)/4.", "x² + 3x + 1 = 0: x = (−3 ± √5)/2."],
+        "tip": "Memorise: 'x equals minus b plus or minus square root of b squared minus four a c, all over two a'. Always works."
+      },
+      "solveGraphical": {
+        "name": "Solving — graphically",
+        "rule": "x-intercepts of y = f(x) are the solutions of f(x) = 0. Intersection of y = f(x) and y = g(x) gives solutions of f(x) = g(x).",
+        "examples": ["x² − 4 = 0 → graph y = x² − 4, read x = ±2 where graph crosses x-axis.", "Solve x² = x + 2 by plotting y = x² and y = x + 2 — intersect at x = −1, x = 2."],
+        "tip": "Use GDC/Desmos. Useful when algebra is hard, or you only need an approximate answer."
+      },
+      "rearrange": {
+        "name": "Changing the subject of a formula",
+        "rule": "Treat variables like numbers. Undo operations in reverse order. Whatever you do to one side, do to the other.",
+        "examples": ["Make r the subject of A = πr². → r² = A/π → r = √(A/π).", "Make t the subject of v = u + at. → t = (v − u)/a.", "Make h the subject of V = πr²h/3 → h = 3V/(πr²).", "Make x the subject of y = (x+1)/(x−2). → y(x−2) = x+1 → yx − 2y = x + 1 → x(y−1) = 1 + 2y → x = (1+2y)/(y−1)."],
+        "tip": "When the variable appears twice, collect terms with it on one side and factorize it out."
+      },
+      "algebraicFractions": {
+        "name": "Algebraic fractions (Extended)",
+        "rule": "Same rules as numeric fractions: common denominator to add/subtract; multiply numerators × numerators, denominators × denominators; divide by multiplying by the reciprocal. Always factorize first.",
+        "examples": ["1/x + 1/y = (y + x)/(xy).", "(x² − 4)/(x − 2) = (x−2)(x+2)/(x−2) = x + 2 (x ≠ 2).", "(x/3) ÷ (2x/9) = (x/3) × (9/2x) = 9x/6x = 3/2.", "Solve: 3/(x−1) + 2/(x+1) = 1 → multiply both sides by (x−1)(x+1): 3(x+1) + 2(x−1) = (x−1)(x+1) → 5x + 1 = x² − 1 → x² − 5x − 2 = 0."],
+        "watchOut": "Note excluded values where denominator = 0. Cancel only FACTORS, not terms."
+      },
+      "proportions": {
+        "name": "Direct & inverse proportions",
+        "rule": "Direct: y = kx (y ∝ x); doubling x doubles y. Inverse: y = k/x (y ∝ 1/x); doubling x halves y. Can have squares/cubes too: y ∝ x² or y ∝ 1/x³.",
+        "examples": ["Cost ∝ weight. 3 kg cost £6 → k = 2, so 5 kg cost £10.", "Time ∝ 1/speed. At 60 km/h trip takes 4h → k=240, so at 80 km/h takes 240/80 = 3h.", "Energy ∝ velocity² (kinetic). Double speed → 4× energy.", "Light intensity ∝ 1/(distance)² (inverse square law)."],
+        "tip": "Step 1: write the proportion as y = kx (or y = k/x). Step 2: use given pair to find k. Step 3: apply to new value."
+      },
+      "asymptotes": {
+        "name": "Rational functions — asymptotes",
+        "rule": "y = 1/x has vertical asymptote x = 0 and horizontal asymptote y = 0. Vertical: where denominator = 0 (and numerator ≠ 0). Horizontal: limit as x → ±∞.",
+        "examples": ["y = 1/(x − 3) → vertical asymptote x = 3, horizontal y = 0.", "y = (x+1)/(x−2) → vertical x = 2, horizontal y = 1 (ratio of leading coefficients).", "y = 1/x²: VA x = 0, HA y = 0, always positive — different from 1/x."],
+        "tip": "Hyperbola y = k/x has two branches in opposite quadrants. Graph never touches the asymptotes."
+      },
+      "exponential": {
+        "name": "Exponential functions",
+        "rule": "y = aᵇˣ where a > 0, b > 0, b ≠ 1. b > 1: growth (rapidly increasing). 0 < b < 1: decay (rapidly decreasing to 0). Passes through (0, a).",
+        "examples": ["y = 2ˣ: doubles every unit. y(0)=1, y(3)=8.", "y = 100 × 0.9ˣ models decay (e.g., depreciation).", "Compound interest: A = P(1 + r)ⁿ.", "Bacterial growth: N = N₀ · 2^(t/T) where T is doubling time."],
+        "tip": "Exponential ≠ polynomial. Compare 2ˣ vs x² — exponential WINS for large x. Always positive, never zero."
+      }
     }
   },
   "sequences": {
@@ -95,6 +255,32 @@
       "linearProblems": "Linear — problem solving",
       "geometric": "Geometric sequences — general rule",
       "sumInfinity": "Sum to infinity (Extended)"
+    },
+    "subTopicsDetailed": {
+      "linearGeneral": {
+        "name": "Linear (arithmetic) sequences — general rule",
+        "rule": "nth term: uₙ = a + (n − 1)d, where a = first term, d = common difference. The common difference is constant — each term increases (or decreases) by the same amount.",
+        "examples": ["5, 8, 11, 14, … → a=5, d=3, uₙ = 5 + 3(n−1) = 3n + 2.", "20, 17, 14, … → a=20, d=−3, uₙ = 23 − 3n.", "u₁₀ for above: 23 − 30 = −7.", "What's the 100th term of 7, 12, 17, …? a=7, d=5, u₁₀₀ = 7 + 99·5 = 502."],
+        "tip": "Always check: first term (sub n=1) gives a. Sum of first n terms: Sₙ = n/2 · (2a + (n−1)d) = n/2 · (a + uₙ)."
+      },
+      "linearProblems": {
+        "name": "Linear sequences — problem solving",
+        "rule": "Use uₙ formula to: find a missing term; find which term has a given value (solve for n); find d given two non-consecutive terms.",
+        "examples": ["The 5th term is 22, the 10th term is 47. Find a and d. → u₁₀ − u₅ = 5d → 47 − 22 = 25 → d = 5. Then a = 22 − 4·5 = 2.", "Which term equals 200 in 3, 7, 11, …? d=4, a=3. 200 = 3 + 4(n−1) → 197 = 4(n−1) → n = 50.25 → not a term (must be integer).", "Sum first 20 terms of 2, 5, 8, …: a=2, d=3, S₂₀ = 20/2 · (4 + 57) = 610."],
+        "tip": "If n isn't an integer, the value isn't in the sequence. Watch for 'how many terms are less than X' type questions."
+      },
+      "geometric": {
+        "name": "Geometric sequences — general rule",
+        "rule": "nth term: uₙ = a · r^(n−1), where a = first term, r = common RATIO. Each term is multiplied by r to get the next.",
+        "examples": ["3, 6, 12, 24, … → a=3, r=2. uₙ = 3·2^(n−1). u₁₀ = 3·512 = 1536.", "100, 50, 25, … → r=0.5. u₅ = 100 · 0.5⁴ = 6.25.", "Compound interest: £500 at 4% pa: 500, 520, 540.8, … → r = 1.04. After n years: 500·1.04ⁿ."],
+        "tip": "r is the RATIO (divide successive terms): uₙ₊₁/uₙ = r. If r > 1: grows. 0 < r < 1: decays. r < 0: alternates sign."
+      },
+      "sumInfinity": {
+        "name": "Sum to infinity (Extended)",
+        "rule": "For a geometric series with |r| < 1, the sum to infinity converges: S∞ = a / (1 − r). If |r| ≥ 1, sum diverges (no finite value).",
+        "examples": ["1 + 1/2 + 1/4 + 1/8 + … = 1/(1−1/2) = 2.", "9 + 3 + 1 + 1/3 + … : a=9, r=1/3. S∞ = 9/(2/3) = 13.5.", "Recurring decimal 0.111… = 0.1 + 0.01 + 0.001 + … = 0.1/(1−0.1) = 1/9.", "If S∞ = 12 and r = 1/4, find a: a = 12·(3/4) = 9."],
+        "watchOut": "Only converges if |r| < 1. For r = 1, sum = na (linear, infinite). For r ≥ 1, infinite."
+      }
     }
   },
   "geometryTrig": {
@@ -110,6 +296,62 @@
       "sectors": "Sectors and arcs",
       "segments": "Area of a segment",
       "intersectingChords": "Intersecting chords"
+    },
+    "subTopicsDetailed": {
+      "pythagoras": {
+        "name": "Pythagoras (incl. converse — Extended)",
+        "rule": "In a right-angled triangle: a² + b² = c², where c is the hypotenuse (longest side, opposite right angle). Converse: if a² + b² = c², the triangle is right-angled.",
+        "examples": ["Sides 3, 4: hypotenuse = √(9+16) = 5.", "Sides 5, 12: hypotenuse = √(25+144) = 13.", "Is a triangle with sides 7, 24, 25 right-angled? 7² + 24² = 625 = 25² → YES.", "3D Pythagoras: diagonal of a box a×b×c = √(a² + b² + c²)."],
+        "tip": "Common Pythagorean triples: (3,4,5), (5,12,13), (8,15,17), (7,24,25). Always identify the hypotenuse first."
+      },
+      "trig": {
+        "name": "Trigonometry (SOHCAHTOA)",
+        "rule": "In right-angled triangles: sin θ = Opp/Hyp; cos θ = Adj/Hyp; tan θ = Opp/Adj. Use inverse (sin⁻¹, cos⁻¹, tan⁻¹) to find an angle from a ratio.",
+        "examples": ["Find x: hyp = 10, adj = 6, θ = ? → cos θ = 6/10 → θ = cos⁻¹(0.6) ≈ 53.1°.", "Find side: opp = ?, hyp = 8, θ = 30° → opp = 8·sin 30° = 4.", "Tower 50 m. Angle of elevation from 80 m away: tan θ = 50/80 → θ ≈ 32°.", "Angle of depression = angle of elevation (alternate angles)."],
+        "tip": "Label sides relative to the angle you know/need. Hypotenuse is always opposite the right angle."
+      },
+      "bearings": {
+        "name": "Bearings",
+        "rule": "Three-figure clockwise from North. Always 000° to 360°. Written 045°, 120°, 270° etc. North = 000°. East = 090°. South = 180°. West = 270°.",
+        "examples": ["Bearing of B from A is 060°. Bearing of A from B: 060° + 180° = 240°.", "From P, Q is at bearing 110° at 5 km. Find Q's coordinates if P at origin: Δx = 5 sin 110°, Δy = 5 cos 110°.", "Back bearings: if forward is θ, back is θ + 180° (or − 180° if θ > 180°)."],
+        "tip": "Always draw a diagram. Three figures: 6° not 'six degrees' but '006°'. Direction is from observer."
+      },
+      "sineCosine": {
+        "name": "Sine & Cosine rules (Extended)",
+        "rule": "Sine rule: a/sin A = b/sin B = c/sin C (for non-right triangles). Cosine rule: a² = b² + c² − 2bc·cos A. Use sine for AAS, ASA; cosine for SAS, SSS.",
+        "examples": ["Sine rule (AAS): angles 40°, 60°, side opp 60° = 8. Side opp 40°: 8 sin 40° / sin 60° ≈ 5.94.", "Cosine rule (SAS): sides 7 and 9, included angle 50°. Third side: √(49 + 81 − 2·7·9·cos 50°) ≈ 6.93.", "Cosine rule (SSS): sides 5, 6, 7. Angle opp 5: cos A = (36 + 49 − 25)/(2·6·7) = 60/84 ≈ 0.714, A ≈ 44.4°."],
+        "tip": "Ambiguous case (SSA) with sine rule: sin θ may give two valid angles (θ or 180°−θ). Check with triangle context."
+      },
+      "triangleArea": {
+        "name": "Area using ½ab·sin(C)",
+        "rule": "For any triangle with sides a, b and included angle C: Area = ½ · a · b · sin C. Useful when base/height aren't given.",
+        "examples": ["Sides 6 cm and 8 cm, angle between them 30°: Area = ½·6·8·sin 30° = 12 cm².", "Equilateral side 10: Area = ½·10·10·sin 60° = 25√3 ≈ 43.3.", "Compare with traditional Area = ½ base · height — same answer but ½ab sin C doesn't need height."],
+        "tip": "C must be the angle BETWEEN sides a and b. Works for all triangles, not just right-angled."
+      },
+      "circleTheorems": {
+        "name": "Circle theorems",
+        "rule": "Key: (1) Angle at centre = 2× angle at circumference (same arc). (2) Angle in semicircle = 90°. (3) Angles in same segment = equal. (4) Cyclic quad opposite angles sum to 180°. (5) Tangent ⊥ radius at point of contact. (6) Tangents from same external point are equal length. (7) Alternate segment theorem.",
+        "examples": ["Angle at centre 80° → angle at circumference (same arc) = 40°.", "Triangle inscribed in semicircle with diameter as one side: opposite angle = 90°.", "ABCD cyclic, ∠A = 70° → ∠C = 110°."],
+        "tip": "Always label diagram. Look for 'same arc' or 'same chord' as a trigger to apply a theorem."
+      },
+      "sectors": {
+        "name": "Sectors and arcs",
+        "rule": "Arc length L = (θ/360°) · 2πr. Sector area A = (θ/360°) · πr². (θ in degrees; in radians multiply by r and r²/2 respectively.)",
+        "examples": ["Sector r = 5, θ = 60°. L = (60/360) · 2π·5 = 5π/3 ≈ 5.24. A = (60/360) · π·25 = 25π/6 ≈ 13.1.", "If arc length = 10 and r = 4, then θ = (10/(2π·4)) · 360° ≈ 143.2°."],
+        "tip": "Don't confuse sector (slice) with segment (between chord & arc). Always check θ is in DEGREES if formula uses /360."
+      },
+      "segments": {
+        "name": "Area of a segment",
+        "rule": "Segment area = Sector area − Triangle area = (θ/360°)·πr² − ½r²·sin θ. The 'pizza crust' between chord and arc.",
+        "examples": ["r = 6, θ = 90°: sector = π·36/4 = 9π. Triangle = ½·6·6·sin 90° = 18. Segment = 9π − 18 ≈ 10.27.", "r = 10, θ = 60°: sector = π·100/6 ≈ 52.36. Triangle = ½·100·sin 60° ≈ 43.3. Segment ≈ 9.06."],
+        "tip": "For small θ, segment is thin. For θ = 180° (semicircle), 'segment' = semicircle (triangle area = 0)."
+      },
+      "intersectingChords": {
+        "name": "Intersecting chords",
+        "rule": "If two chords intersect inside a circle at point P: AP · PB = CP · PD (product of segments on each chord is equal). Power of a point theorem.",
+        "examples": ["Chord AB and chord CD cross at P. AP = 6, PB = 4, CP = 3. Find PD: 6·4 = 3·PD → PD = 8.", "If P is OUTSIDE circle with two secants: PA·PB = PC·PD (still products of full distances from P to far intersection times near)."],
+        "tip": "Always identify which segments. Inside circle vs outside: both have product-equals-product, but distances differ."
+      }
     }
   },
   "statsProb": {
@@ -124,6 +366,56 @@
       "cumulativeFreq": "Cumulative frequency (incl. percentiles)",
       "stdDev": "Standard deviation (Extended)",
       "pieCharts": "Pie charts"
+    },
+    "subTopicsDetailed": {
+      "representation": {
+        "name": "Data representation — choosing the right chart",
+        "rule": "Match the chart to the data type. Categorical: bar chart, pie chart. Numerical: histogram (continuous), bar chart (discrete). Comparing groups: box plots side-by-side. Showing change over time: line graph. Relationships: scatter graph.",
+        "examples": ["Favourite ice cream flavour → bar chart (categorical).", "Heights of students → histogram (continuous data, grouped).", "Goals scored per match → bar chart (discrete count).", "Temperature vs ice cream sales → scatter graph."],
+        "tip": "Histograms are NOT bar charts: bars touch (continuous), and area = frequency (not height in unequal classes)."
+      },
+      "stemLeaf": {
+        "name": "Stem and leaf diagram",
+        "rule": "Split each number into 'stem' (tens) and 'leaf' (units). Keeps all data values visible while showing distribution. Always include a KEY.",
+        "examples": ["Data: 23, 25, 28, 34, 37, 41, 42, 42, 50. Stem-leaf: 2|3 5 8 / 3|4 7 / 4|1 2 2 / 5|0. Key: 2|3 = 23.", "Back-to-back stem-leaf compares two groups: e.g., boys vs girls heights with shared stems in the middle."],
+        "tip": "Leaves must be in ASCENDING order. Always include key — examiners deduct marks for missing it."
+      },
+      "grouped": {
+        "name": "Grouped data — mean, median, mode",
+        "rule": "From a frequency table: mean ≈ Σ(midpoint × frequency) / Σ frequency. Mode = class with highest frequency. Median = middle value, found in the cumulative frequency class.",
+        "examples": ["Class 0–10 (mid 5, freq 4), 10–20 (mid 15, freq 10), 20–30 (mid 25, freq 6). Mean = (5·4 + 15·10 + 25·6)/20 = 320/20 = 16.", "Modal class: 10–20 (highest frequency).", "Median position = 20/2 = 10th value → falls in 10–20 class."],
+        "tip": "Use class midpoints, not class boundaries, for mean. State 'modal class', not 'mode' for grouped data."
+      },
+      "boxPlots": {
+        "name": "Box plots (box-and-whisker)",
+        "rule": "Five-number summary: min, Q1 (25%), median (50%), Q3 (75%), max. Box spans Q1 to Q3 (IQR = Q3 − Q1). Whiskers reach min/max. Outliers if outside 1.5·IQR.",
+        "examples": ["Data 2, 5, 7, 8, 10, 12, 15, 18, 22 (n=9). Median = 10 (5th). Q1 = 6 (avg of 5,7). Q3 = 16.5. Min=2, Max=22. IQR = 10.5.", "Comparing: 'Group A has higher median and larger IQR — more variable than Group B'."],
+        "tip": "IQR = Q3 − Q1 is a measure of spread that ignores outliers. Length of box = IQR; shorter = more consistent."
+      },
+      "histograms": {
+        "name": "Histograms (incl. unequal class widths)",
+        "rule": "Continuous data, bars TOUCH. For unequal classes: y-axis = frequency density = frequency / class width. Then AREA = frequency.",
+        "examples": ["Classes: 0–10 (freq 20, width 10, density 2). 10–30 (freq 60, width 20, density 3). 30–60 (freq 30, width 30, density 1).", "Total frequency = sum of (density × width). Check: 2·10 + 3·20 + 1·30 = 110."],
+        "watchOut": "For equal class widths, y-axis can simply be frequency. For UNEQUAL widths it MUST be frequency density. Common mistake."
+      },
+      "cumulativeFreq": {
+        "name": "Cumulative frequency (incl. percentiles)",
+        "rule": "Running total of frequencies. Plot CF against UPPER bound of each class. Curve is S-shaped. Read off: median (50%), Q1 (25%), Q3 (75%), or any percentile.",
+        "examples": ["Class 0–10 (f=4, CF=4), 10–20 (f=10, CF=14), 20–30 (f=6, CF=20). Plot (10,4), (20,14), (30,20).", "Median at CF = 10 → x ≈ 16. Q1 at CF = 5 → x ≈ 11. Q3 at CF = 15 → x ≈ 21.", "90th percentile at CF = 18 → x ≈ 26."],
+        "tip": "Always plot CF against UPPER class boundary. Curve passes through (lower bound, 0)."
+      },
+      "stdDev": {
+        "name": "Standard deviation (Extended)",
+        "rule": "σ measures the spread of data around the mean. Formula: σ = √[Σ(x − x̄)² / n]. Larger σ = more spread. ≈ 68% of data within 1σ of mean (Normal distribution).",
+        "examples": ["Data 2, 4, 4, 4, 5, 5, 7, 9. Mean x̄ = 5. Deviations: −3, −1, −1, −1, 0, 0, 2, 4. Squared: 9, 1, 1, 1, 0, 0, 4, 16 = 32. σ = √(32/8) = 2.", "Compare: data 4.5, 5, 5, 5, 5, 5.5 has same mean 5, but σ ≈ 0.32. Much more consistent."],
+        "tip": "σ is in the same UNITS as the data. σ² (variance) is in units². Standard deviation gives a sense of typical distance from mean."
+      },
+      "pieCharts": {
+        "name": "Pie charts",
+        "rule": "Angle for each category = (frequency / total) × 360°. Must sum to 360°. Best for showing proportions of a whole, ≤6 categories.",
+        "examples": ["Survey of 60 people: 20 walk, 10 cycle, 30 drive. Angles: walk 120°, cycle 60°, drive 180°. Total 360° ✓.", "If sector for 'cycle' = 30° in pie of 240 students, count = (30/360)·240 = 20 cyclists."],
+        "tip": "Avoid for: >6 categories (cluttered), comparing exact values (use bar chart). Always label or include a key."
+      }
     }
   },
   "eoyPractice": {

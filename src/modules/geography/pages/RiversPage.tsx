@@ -4,13 +4,20 @@ import { TopicHero, SectionHeading } from '../../../components/content/TopicHero
 import { BradshawModel } from '../../../components/simulations/geography/BradshawModel';
 import { StormHydrograph } from '../../../components/simulations/geography/StormHydrograph';
 import { ActiveRecallBlock } from '../../../components/content/ActiveRecallBlock';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
 const EROSION_TYPES = ['abrasion', 'attrition', 'hydraulicAction', 'solution'];
 const TRANSPORT_TYPES = ['traction', 'saltation', 'suspension', 'solution'];
+const FLOODING_CAUSES = ['prolongedRain', 'saturatedGround', 'snowmelt', 'reliefRock', 'deforestation', 'urbanisation', 'climate'];
+const MANAGEMENT = ['dams', 'embankments', 'channelStraightening', 'floodWalls', 'floodplainZoning', 'afforestation', 'restoration', 'warnings'];
 
 export function RiversPage() {
-  const { t } = useTranslation('geography');
+  const { t, i18n } = useTranslation('geography');
   const TOPIC = 'rivers';
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
 
   return (
     <div>
@@ -20,21 +27,19 @@ export function RiversPage() {
       <BradshawModel />
 
       <SectionHeading>{t('rivers.sections.erosion.title')}</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        {EROSION_TYPES.map((id) => (
-          <div key={id} className="bg-bg-secondary border border-border rounded-md px-4 py-3 text-sm">
-            {t(`rivers.sections.erosion.items.${id}`)}
-          </div>
-        ))}
+      <div className="space-y-3">
+        {EROSION_TYPES.map((id) => {
+          const item = t(`rivers.sections.erosion.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-sky-deep)" labels={labels} />;
+        })}
       </div>
 
       <SectionHeading>{t('rivers.sections.transportation.title')}</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        {TRANSPORT_TYPES.map((id) => (
-          <div key={id} className="bg-bg-secondary border border-border rounded-md px-4 py-3 text-sm">
-            {t(`rivers.sections.transportation.items.${id}`)}
-          </div>
-        ))}
+      <div className="space-y-3">
+        {TRANSPORT_TYPES.map((id) => {
+          const item = t(`rivers.sections.transportation.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={`t-${id}`} item={item} borderColor="var(--color-accent-sky)" labels={labels} />;
+        })}
       </div>
 
       <SectionHeading>{t('rivers.sections.waterfall.title')}</SectionHeading>
@@ -64,27 +69,19 @@ export function RiversPage() {
       <StormHydrograph />
 
       <SectionHeading>{t('rivers.sections.flooding.title')}</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        <div className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-          <strong className="block mb-1">Physical</strong>
-          {t('rivers.sections.flooding.physical')}
-        </div>
-        <div className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-          <strong className="block mb-1">Human</strong>
-          {t('rivers.sections.flooding.human')}
-        </div>
+      <div className="space-y-3">
+        {FLOODING_CAUSES.map((id) => {
+          const item = t(`rivers.sections.flooding.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-warm)" labels={labels} />;
+        })}
       </div>
 
       <SectionHeading>{t('rivers.sections.management.title')}</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        <div className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-          <strong className="block mb-1">Hard engineering</strong>
-          {t('rivers.sections.management.hard')}
-        </div>
-        <div className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-          <strong className="block mb-1">Soft engineering</strong>
-          {t('rivers.sections.management.soft')}
-        </div>
+      <div className="space-y-3">
+        {MANAGEMENT.map((id) => {
+          const item = t(`rivers.sections.management.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-sage)" labels={labels} />;
+        })}
       </div>
 
       <SectionHeading>{t('rivers.sections.boscastle.title')}</SectionHeading>

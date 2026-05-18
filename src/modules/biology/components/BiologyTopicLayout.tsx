@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
 interface Props {
   topicKey: string;
@@ -23,10 +24,11 @@ interface SectionProps {
   title: string;
   body?: string;
   items?: { key: string; text: string }[];
+  detailedItems?: DetailedItem[];
   borderColor?: string;
 }
 
-export function InfoSection({ title, body, items, borderColor }: SectionProps) {
+export function InfoSection({ title, body, items, detailedItems, borderColor }: SectionProps) {
   return (
     <>
       <SectionHeading>{title}</SectionHeading>
@@ -37,6 +39,13 @@ export function InfoSection({ title, body, items, borderColor }: SectionProps) {
         >
           {body}
         </p>
+      ) : null}
+      {detailedItems && detailedItems.length > 0 ? (
+        <div className="space-y-3">
+          {detailedItems.map((item, i) => (
+            <DetailedCard key={i} item={item} borderColor={borderColor} />
+          ))}
+        </div>
       ) : null}
       {items && items.length > 0 ? (
         <ul className="space-y-2">

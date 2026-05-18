@@ -304,38 +304,160 @@
   },
   "grammar": {
     "tenses": {
-      "title": "Обзор времён",
-      "items": {
-        "present": "Present simple — привычки, факты: 'She writes essays.'",
-        "presentCont": "Present continuous — сейчас: 'She is writing.'",
-        "past": "Past simple — законченное действие: 'She wrote.'",
-        "pastCont": "Past continuous — продолжающееся в прошлом: 'She was writing.'",
-        "presentPerfect": "Present perfect — прошлое с актуальностью: 'She has written three.'",
-        "future": "Future — 'will' (решение) vs 'going to' (план): 'I'll help' / 'I'm going to study.'"
+      "title": "Времена",
+      "detailed": {
+        "present": {
+          "name": "Present simple",
+          "use": "Привычки, повторяющиеся действия, общие факты, расписания, инструкции.",
+          "form": "I / you / we / they + verb. He / she / it + verb + s. Отрицание: do/does + not + verb. Вопрос: Do/Does + subject + verb?",
+          "examples": ["She writes essays every weekend.", "Water boils at 100 °C.", "The train leaves at 7 a.m.", "He doesn't eat meat."],
+          "tip": "Не забудь окончание −s в третьем лице ед. ч.: 'He goes' (а не 'He go'). Для глаголов на −y после согласной: study → studies."
+        },
+        "presentCont": {
+          "name": "Present continuous (длительное настоящее)",
+          "use": "Действия СЕЙЧАС, временные действия, или запланированные на ближайшее будущее.",
+          "form": "Subject + am/is/are + verb-ing. Отрицание: am/is/are + not + verb-ing. Вопрос: Am/Is/Are + subject + verb-ing?",
+          "examples": ["She is writing an essay (прямо сейчас).", "I'm staying with my aunt this week (временно).", "We're meeting Tom at 6 (запланированная встреча)."],
+          "watchOut": "Глаголы состояния (know, believe, love, want, see) обычно стоят в present simple: 'I know him' — НЕ 'I am knowing him'."
+        },
+        "past": {
+          "name": "Past simple",
+          "use": "Завершённые действия в конкретный момент прошлого. Последовательность событий. Состояния в прошлом.",
+          "form": "Правильные: verb + ed. Неправильные: своя форма (went, saw, wrote). Отрицание: did + not + base verb. Вопрос: Did + subject + base verb?",
+          "examples": ["She wrote three essays yesterday.", "We went to Paris last summer.", "He didn't see the film.", "Did you eat lunch?"],
+          "tip": "Маркеры времени: yesterday, last (week/year), ago, in 2020, when I was younger."
+        },
+        "pastCont": {
+          "name": "Past continuous",
+          "use": "Действие в процессе в прошлом, часто прерванное другим. Описание фона.",
+          "form": "Subject + was/were + verb-ing.",
+          "examples": ["She was writing when the lights went out.", "While we were having dinner, the phone rang.", "It was raining all morning."],
+          "tip": "Сочетай past continuous (длительный фон) с past simple (короткое прерывающее действие): 'I was reading when he called.'"
+        },
+        "presentPerfect": {
+          "name": "Present perfect",
+          "use": "Прошлое действие с актуальностью сейчас. Жизненный опыт (без точного времени). Действие, начавшееся в прошлом и продолжающееся. Недавно законченное действие.",
+          "form": "Subject + have/has + past participle. Отрицание: have/has + not + pp. Вопрос: Have/Has + subject + pp?",
+          "examples": ["She has written three essays (в этом году — ещё продолжается).", "I've never been to Japan (жизненный опыт).", "We've lived here since 2010 (началось и продолжается).", "He's just finished his homework (только что)."],
+          "watchOut": "Используется с 'just', 'already', 'yet', 'ever', 'never', 'since', 'for'. НЕ используется с конкретным завершённым временем ('yesterday' требует past simple, не present perfect)."
+        },
+        "future": {
+          "name": "Future — 'will' vs 'going to' vs present continuous",
+          "use": "'will' — решение В МОМЕНТ речи; предсказания; обещания. 'going to' — планы и намерения, сделанные ДО речи; предсказания на основе доказательств. Present continuous — конкретная договорённость с кем-то.",
+          "form": "Will: subject + will + base verb. Going to: subject + am/is/are + going to + base verb.",
+          "examples": ["'I'll help you with that.' (только что решил).", "'It will rain tomorrow.' (предсказание).", "'I'm going to study medicine.' (план).", "'Look at those clouds — it's going to rain.' (доказательства).", "'I'm meeting Sarah at 4.' (договорённость)."],
+          "tip": "В экзаменационной письменной работе чередуй формы. Не используй 'will' для всего — для планов going to, для договорённостей present continuous."
+        }
       }
     },
     "punctuation": {
       "title": "Пунктуация",
-      "items": {
-        "comma": "Запятая — паузы, перечисления, после вводных фраз.",
-        "semicolon": "Точка с запятой (;) — соединяет два связанных независимых предложения.",
-        "colon": "Двоеточие (:) — вводит список, пример или объяснение.",
-        "apostrophe": "Апостроф — притяжательность ('Luka's book') и сокращение ('don't').",
-        "dash": "Тире (—) — резкий разрыв или акцент."
+      "detailed": {
+        "comma": {
+          "name": "Запятая (,)",
+          "use": "Разделяет элементы списка; обозначает паузу; разделяет придаточные; ставится после вводных фраз.",
+          "examples": [
+            "I bought bread, cheese, and milk. (список)",
+            "After the storm, the village was flooded. (вводная фраза)",
+            "Macbeth, who was once loyal, becomes a tyrant. (неопределяющая часть)",
+            "The film was long, but I enjoyed it. (перед союзом)"
+          ],
+          "watchOut": "Не соединяй два самостоятельных предложения запятой ('comma splice'): НЕВЕРНО — 'I went out, it was cold.' Используй точку, точку с запятой или союз."
+        },
+        "semicolon": {
+          "name": "Точка с запятой (;)",
+          "use": "Соединяет два тесно связанных самостоятельных предложения (каждое могло бы стоять отдельно). Также разделяет элементы в сложном списке, где есть запятые внутри.",
+          "examples": [
+            "Macbeth kills Duncan; immediately he is haunted by guilt.",
+            "She didn't speak; she just walked away.",
+            "We visited Cairo, Egypt; Rome, Italy; and Athens, Greece."
+          ],
+          "tip": "Если можешь заменить точку с запятой на точку без потери смысла — стоит верно."
+        },
+        "colon": {
+          "name": "Двоеточие (:)",
+          "use": "Вводит список, пример, объяснение или цитату.",
+          "examples": [
+            "She had three goals: ambition, power, and survival.",
+            "Macbeth makes one fatal mistake: he listens to the witches.",
+            "Lady Macbeth declares: 'Unsex me here.'"
+          ],
+          "watchOut": "До двоеточия должно стоять полное предложение. Не ставь двоеточие после 'such as' или 'for example'."
+        },
+        "apostrophe": {
+          "name": "Апостроф (')",
+          "use": "Обозначает притяжательность ИЛИ пропуск букв (сокращение).",
+          "examples": [
+            "Luka's book — книга принадлежит Луке (один владелец).",
+            "The students' essays — эссе учеников (несколько владельцев).",
+            "Don't = do not. It's = it is. They're = they are.",
+            "James's coat / James' coat — оба варианта допустимы; выбери один и будь последователен."
+          ],
+          "watchOut": "Местоимения (its, yours, hers, ours, theirs) НИКОГДА не пишутся с апострофом. 'Its' = принадлежность; 'it's' = it is."
+        },
+        "dash": {
+          "name": "Тире (—)",
+          "use": "Отмечает резкий разрыв, отступление, акцент; драматичнее скобок.",
+          "examples": [
+            "Macbeth — once loyal, now a tyrant — falls in the final battle.",
+            "She wanted only one thing — power.",
+            "He paused — then drew the dagger."
+          ],
+          "tip": "Em-тире (—) длиннее дефиса (-). Не злоупотребляй — слишком много тире делает текст рваным."
+        }
       }
     },
     "agreement": {
       "title": "Согласование подлежащего и сказуемого",
-      "body": "Единственное подлежащее → ед. число глагола. 'The list of items is on the table' (list is). Множественное → мн. число. Следи за словами между подлежащим и глаголом."
+      "body": "Единственное подлежащее → ед. число глагола; множественное → мн. ч. На первый взгляд просто — но сложные случаи ловят большинство.",
+      "rules": [
+        "Ед.: 'The boy runs.' Мн.: 'The boys run.'",
+        "Слова МЕЖДУ подлежащим и глаголом не меняют согласования: 'The list of items IS on the table' (list is, не items are).",
+        "Either / or, neither / nor — глагол согласуется с БЛИЖАЙШИМ субъектом: 'Neither the captain nor the sailors ARE on board.' 'Neither the sailors nor the captain IS on board.'",
+        "Собирательные (team, family, government) могут быть ед. или мн. в зависимости от фокуса: 'The team is winning' vs 'The team are arguing among themselves.'",
+        "Неопр. местоимения 'each', 'every', 'everyone', 'nobody', 'somebody' — ЕДИНСТВЕННОЕ число: 'Everybody HAS arrived.'",
+        "'A number of' — мн., 'the number of' — ед.: 'A number of students are absent.' 'The number of students is rising.'"
+      ]
     },
     "commonErrors": {
       "title": "Частые ошибки",
-      "items": {
-        "yourYoure": "your (притяж.) vs you're (you are)",
-        "itsIts": "its (притяж.) vs it's (it is)",
-        "thereTheirTheyre": "there (там) / their (их) / they're (они есть)",
-        "lessFewer": "less (неисчисл.: less time) vs fewer (исчисл.: fewer cars)",
-        "affectEffect": "affect (гл.: влиять) vs effect (сущ.: результат)"
+      "detailed": {
+        "yourYoure": {
+          "name": "your vs you're",
+          "rule": "'your' = принадлежащий тебе (притяжательное). 'you're' = you are (сокращение).",
+          "examples": ["Is this your book? (притяж.)", "You're late again. (you are)"],
+          "tip": "Если можно заменить на 'you are' — пиши 'you're'. Иначе 'your'."
+        },
+        "itsIts": {
+          "name": "its vs it's",
+          "rule": "'its' = принадлежит этому (притяж. — БЕЗ апострофа). 'it's' = it is или it has (сокращение).",
+          "examples": ["The dog wagged its tail. (притяж.)", "It's raining. (it is)", "It's been a long day. (it has)"],
+          "tip": "Если можно заменить на 'it is' или 'it has' — пиши 'it's'. Притяжательное 'its' никогда не с апострофом — у местоимений их нет."
+        },
+        "thereTheirTheyre": {
+          "name": "there / their / they're",
+          "rule": "'there' = место или 'there is/are'. 'their' = принадлежит им. 'they're' = they are.",
+          "examples": ["Put it over there. (место)", "There are five students. (there are)", "Their essays were excellent. (их)", "They're studying for the exam. (they are)"],
+          "tip": "Hear (место) → 'there' содержит 'here'. 'Their' начинается на 'thei' как 'theirs'. 'They're' = they are."
+        },
+        "lessFewer": {
+          "name": "less vs fewer",
+          "rule": "'fewer' для исчисляемого (cars, people, mistakes). 'less' для неисчисляемого (time, money, water).",
+          "examples": ["Fewer cars on the road this morning.", "We have less time than we thought.", "I made fewer mistakes than last week."],
+          "tip": "Тест: можно поставить число впереди? 'Five mistakes' → fewer. Если нет — less."
+        },
+        "affectEffect": {
+          "name": "affect vs effect",
+          "rule": "'affect' = ГЛАГОЛ — влиять. 'effect' = СУЩЕСТВИТЕЛЬНОЕ — результат, эффект.",
+          "examples": ["The decision will affect everyone. (гл.)", "The effect of the decision was huge. (сущ.)", "Climate change affects ecosystems. (гл.)", "One effect of climate change is sea level rise. (сущ.)"],
+          "tip": "Предупреждение: 'effect' МОЖЕТ быть глаголом ('to effect change' — осуществить), но на G9 держись правила гл./сущ."
+        },
+        "thanThen": {
+          "name": "than vs then",
+          "rule": "'than' = СРАВНЕНИЕ. 'then' = ВРЕМЯ или последовательность ('next, after that').",
+          "examples": ["She is taller than her brother. (сравнение)", "First we ate, then we walked home. (последовательность)", "If it rains, then we'll stay in. (следствие)"],
+          "tip": "Сравнение → 'compare', обе с буквой A. Время → then с 'en' как 'when'."
+        }
       }
     }
   },
@@ -346,25 +468,73 @@
   "reading": {
     "strategies": {
       "title": "Стратегии",
-      "items": {
-        "skim": "Skim — быстро уловить суть (60 секунд)",
-        "scan": "Scan — найти конкретную информацию (имена, даты, ключевые слова)",
-        "annotate": "Annotate — подчёркивай фразы, помечай тон и приёмы",
-        "infer": "Infer — читай между строк для смысла, не сказанного прямо"
+      "detailed": {
+        "skim": {
+          "name": "Skim — пробежать по тексту",
+          "use": "Уловить суть незнакомого текста за 60 секунд — ДО анализа.",
+          "rule": "Прочти заголовок, первый абзац, последний абзац и первое предложение каждого второго абзаца. Спроси: о чём текст? Кто автор? Какой тон?",
+          "tip": "Не читай каждое слово. Цель — знать О ЧЁМ и ПРИБЛИЗИТЕЛЬНО КАК, не детали."
+        },
+        "scan": {
+          "name": "Scan — поиск конкретного",
+          "use": "Найти конкретный кусок информации (имя, дату, ключевое слово, цитату).",
+          "rule": "Бегло двигай глазами по странице, ища ТОЛЬКО ключевое слово. Найди → прочти предложение вокруг.",
+          "examples": ["В: 'Когда Макбет был коронован?' → ищи годы или слова о короле.", "В: 'Найди метафору в абзаце 2.' → сканируй абзац 2 на фигуры речи."]
+        },
+        "annotate": {
+          "name": "Annotate — пометки",
+          "use": "Делай разметку прямо в тексте — потом быстро найдёшь доказательства.",
+          "rule": "Подчёркивай ключевые фразы. Обводи приёмы (метафора, аллитерация). На полях пиши слова тона (foreboding, jubilant). Замечай SHIFT — где меняется тон.",
+          "tip": "Заведи систему: приём = кружок, тема = подчёркивание, слово тона = квадрат. Будь последователен."
+        },
+        "infer": {
+          "name": "Infer — между строк",
+          "use": "Что автор ПОДРАЗУМЕВАЕТ, но не говорит прямо?",
+          "rule": "Объедини подсказки в тексте + свои знания о мире. Спроси: 'Что эта деталь ГОВОРИТ мне о персонаже / ситуации / позиции автора?'",
+          "examples": ["'She slammed the door' — не просто действие; намекает на злость.", "'The sky was the colour of bruises' — не просто погода; намекает на боль или печаль."]
+        }
       }
     },
     "questionTypes": {
       "title": "Типы вопросов",
-      "items": {
-        "literal": "Literal — 'Что сказано в тексте?' Найди прямое свидетельство.",
-        "inferential": "Inferential — 'На что это намекает?' Объедини подсказки + знания.",
-        "language": "Language — анализ выбора слов, приёмов, структуры. Цитата + эффект.",
-        "evaluation": "Evaluation — 'Насколько эффективно X?' Займи позицию и подкрепи."
+      "detailed": {
+        "literal": {
+          "name": "Literal — буквальные вопросы",
+          "use": "Проверяют прямое понимание: 'Что сказано в тексте?' Нижний уровень.",
+          "rule": "Найди доказательство прямо в тексте. Не интерпретируй. Цитируй или перефразируй точно. Обычно 1–2 балла.",
+          "examples": ["'Назови одну причину страха Макбета.' → процитируй прямо.", "'Назови два эффекта изменения климата.' → перечисли из текста."]
+        },
+        "inferential": {
+          "name": "Inferential — на вывод",
+          "use": "Проверяют чтение между строк: 'На что это намекает?'",
+          "rule": "Объедини текстовые подсказки со своими рассуждениями. Используй 'this suggests…', 'implies…', 'hints at…'. Всегда привязывайся к конкретному слову/детали.",
+          "examples": ["'Что слово \"cold\" подсказывает об отношениях?' → подразумевает эмоциональную дистанцию, не физический холод."]
+        },
+        "language": {
+          "name": "Language — анализ языка",
+          "use": "Проверяет, КАК автор создаёт смысл: 'Как писатель использует язык?'",
+          "rule": "ЦИТАТА → НАЗВАНИЕ приёма (метафора, sibilance, asyndeton) → ОБЪЯСНЕНИЕ эффекта на читателя. Именно за «effect» начисляют баллы.",
+          "examples": ["Метафора 'a sea of doubt' сравнивает колебания с водой — Макбет «тонет» в своих решениях, перегружен и неспособен действовать."],
+          "tip": "Никогда не пиши 'the writer uses a metaphor to make it more interesting.' Всегда говори КАКОЕ конкретное чувство, образ или идею создаёт приём."
+        },
+        "evaluation": {
+          "name": "Evaluation — оценка",
+          "use": "Проверяет критическое суждение: 'Насколько эффективен X?' / 'To what extent…?'",
+          "rule": "Займи чёткую позицию (очень эффективно / частично / неэффективно) и ЗАЩИЩАЙ её несколькими доказательствами. Учти контраргумент.",
+          "examples": ["'Насколько эффективны образы у автора?' → Аргумент: очень эффективны, потому что создают X, Y, Z; хотя можно возразить, что Z злоупотреблён, это компенсируется W."]
+        }
       }
     },
     "PEEL": {
       "title": "Структура абзаца PEEL",
-      "body": "Point — твоё утверждение. Evidence — цитата из текста. Explain — что показывает цитата? Link — обратно к вопросу. Применяй PEEL к каждому аналитическому абзацу."
+      "body": "PEEL — золотой стандарт аналитического абзаца. Гарантирует, что ты покроешь все шаги, которые ищет экзаменатор. Применяй к КАЖДОМУ абзацу литературного / non-fiction анализа.",
+      "steps": {
+        "p": "POINT — топик-предложение. Конкретное утверждение, которое докажешь. Напр., 'Shakespeare presents Lady Macbeth as more ruthless than her husband in Act 1.'",
+        "e1": "EVIDENCE — цитата ПРЯМО из текста. В кавычках. Короткая — 1 строка максимум. Напр., 'She demands the spirits to \"unsex me here.\"'",
+        "e2": "EXPLAIN — анализ. Назови приём. Объясни ЭФФЕКТ на читателя. Напр., 'Imperative \"unsex\" — насильственный отказ от женственности; она видит сострадание как помеху убийству.'",
+        "l": "LINK — назад к вопросу и вперёд к следующему абзацу. Напр., 'Эта безжалостность контрастирует с колебаниями Макбета в Sc. 7, задавая центральное напряжение пьесы.'"
+      },
+      "tip": "Все 4 шага каждый раз. Экзаменаторы смотрят на них как на чек-лист. Не пиши 3–4 PEEL и не пропускай заключение — даже 30 секунд заключения дают баллы."
     }
   },
   "essaysPage": {

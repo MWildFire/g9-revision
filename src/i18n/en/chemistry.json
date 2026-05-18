@@ -12,8 +12,78 @@
     "reactions": "Reactions & Equations",
     "stoichiometry": "Stoichiometry",
     "acidsBases": "Acids, Bases, Salts",
+    "atmosphere": "The Atmosphere",
+    "rates": "Rates of Reaction",
     "energy": "Energy Changes",
     "extras": "Extras (beyond G9)"
+  },
+  "atmosphere": {
+    "title": "The Atmosphere",
+    "intro": "From the early atmosphere through to climate change. Topic 4 in the teacher's revision booklet.",
+    "sections": {
+      "history": {
+        "title": "History of the atmosphere",
+        "body": "4.6 bya — Earth formed. Early atmosphere: water vapour, CO₂, methane, ammonia (mainly from volcanoes). 3.5 bya — first photosynthetic bacteria release O₂. 2.4 bya — Great Oxygenation Event. Today: 78% N₂, 21% O₂, 0.9% argon, 0.04% CO₂, traces of others."
+      },
+      "carbonRocks": {
+        "title": "Carbon locked in rocks",
+        "body": "Marine organisms used CO₂ to build shells (CaCO₃). When they died, shells settled and formed sedimentary rocks (limestone, chalk). This 'locked away' carbon for millions of years. Fossil fuels (coal, oil, gas) similarly trap carbon from ancient plants and plankton."
+      },
+      "greenhouse": {
+        "title": "Greenhouse effect",
+        "body": "Sun's short-wave radiation passes through atmosphere → warms Earth's surface → Earth re-radiates as long-wave (infrared) → greenhouse gases (CO₂, CH₄, H₂O, N₂O) absorb and re-emit it back → planet stays warm. Natural greenhouse keeps Earth at ~15°C. Without it: −18°C, no life."
+      },
+      "climateChange": {
+        "title": "Climate change",
+        "items": {
+          "cause": "Human-enhanced greenhouse effect — burning fossil fuels and deforestation raise CO₂ from 280 ppm (pre-industrial) to 420+ ppm today.",
+          "evidence": "Evidence: rising global temperatures, melting ice caps, sea level rise, ocean acidification, shifted seasons, more extreme weather.",
+          "consequences": "Consequences: flooding of low-lying nations, droughts, biodiversity loss, food insecurity, climate refugees.",
+          "mitigation": "Mitigation: renewables (solar, wind), carbon capture, reforestation, less meat, electric transport, energy efficiency."
+        }
+      },
+      "pollutants": {
+        "title": "Atmospheric pollutants",
+        "items": {
+          "co2": "CO₂ — combustion of fossil fuels; greenhouse gas",
+          "co": "CO (carbon monoxide) — incomplete combustion; toxic (binds to haemoglobin instead of O₂)",
+          "soot": "Soot / particulates — incomplete combustion; respiratory disease, dirty buildings",
+          "sox": "SO₂ (sulfur dioxide) — burning sulfur-containing fuels; acid rain (SO₂ + H₂O → H₂SO₃)",
+          "nox": "NOx — high-temperature combustion (car engines); acid rain + photochemical smog"
+        }
+      }
+    }
+  },
+  "rates": {
+    "title": "Rates of Reaction",
+    "intro": "How fast a reaction goes — and the four factors that control it. Topic 6 in the teacher's revision booklet.",
+    "sections": {
+      "definition": {
+        "title": "What is rate?",
+        "body": "Rate = amount of product formed (or reactant used up) per unit time. Units: g/s, cm³/s, mol/dm³/s. Measured experimentally by tracking mass loss, gas volume produced, colour change, or precipitate cloudiness."
+      },
+      "collision": {
+        "title": "Collision theory",
+        "body": "For a reaction to occur, particles must (1) collide and (2) collide with enough energy (≥ activation energy E_a) and (3) in the correct orientation. Anything that increases the frequency or energy of collisions speeds up the reaction."
+      },
+      "factors": {
+        "title": "Factors affecting rate",
+        "items": {
+          "temperature": "Temperature — particles move faster → more frequent collisions AND more particles have energy ≥ E_a. A 10°C rise roughly doubles the rate.",
+          "concentration": "Concentration / Pressure — more particles in the same volume → more frequent collisions → faster rate.",
+          "surfaceArea": "Surface area — more exposed area on a solid → more collision sites → faster rate. Powder reacts faster than a lump.",
+          "catalyst": "Catalyst — lowers activation energy by providing an alternative pathway. Not used up. Specific to each reaction (e.g., MnO₂ catalyses H₂O₂ decomposition)."
+        }
+      },
+      "graphs": {
+        "title": "Drawing rate graphs",
+        "body": "Plot product (or reactant) vs time. Initial steep gradient = fast initial rate. Curve flattens as reactants run out. Steeper line = faster reaction. The gradient at any point = rate at that moment. Compare two reactions by comparing gradients of their tangents."
+      },
+      "experiments": {
+        "title": "Carrying out a rate experiment",
+        "body": "Classic example: marble chips + HCl. Measure mass loss (CO₂ escapes) over time with a balance. Independent variable: chip size / acid concentration / temperature. Dependent: mass at fixed time intervals. Control: same total marble mass, same acid volume, same temperature (unless studying T). Repeat 3 times, average."
+      }
+    }
   },
   "extras": {
     "title": "Chemistry — Extras",

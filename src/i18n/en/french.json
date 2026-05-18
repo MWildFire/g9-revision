@@ -17,7 +17,167 @@
     "tenses": "Tenses",
     "grammar": "Grammar",
     "phrases": "Useful Phrases",
+    "units": "Exam Units (Capable/Proficient)",
+    "textTypes": "Text Types (writing)",
     "extras": "Extras (beyond G9)"
+  },
+  "unitsPage": {
+    "title": "Exam Units — Capable & Proficient",
+    "intro": "The four units examined for Capable and Proficient phases. Each unit has its own vocabulary themes. Master vocab for the unit you're tested on and your speaking topic.",
+    "notice": "These are the actual units from your G9 French revision list."
+  },
+  "unitsContent": {
+    "unite1": {
+      "title": "Unité 1 — Quels sont les facteurs de la bonne santé ?",
+      "vocab": [
+        "Une alimentation saine — healthy eating",
+        "La malbouffe — junk food",
+        "L'obésité et la sous-alimentation — obesity and undernutrition",
+        "Avoir un style de vie sain — to have a healthy lifestyle",
+        "Chez le médecin — at the doctor's (Proficient)",
+        "La santé et mon environnement — health and my environment (Proficient)"
+      ]
+    },
+    "unite2": {
+      "title": "Unité 2 — Qu'est-ce que la solidarité humaine et le service à la communauté ?",
+      "vocab": [
+        "La solidarité — solidarity. Comment être solidaire — how to show solidarity",
+        "Les 4 types de solidarité — the 4 types of solidarity",
+        "Les 10 profils de l'apprenant — the 10 IB Learner Profiles",
+        "Les types de communauté — types of community",
+        "Mon projet de service à la communauté — my community service project",
+        "Les associations solidaires mondiales — global solidarity associations"
+      ]
+    },
+    "unite3": {
+      "title": "Unité 3 — Es-tu curieux ? (vacances & tourisme)",
+      "vocab": [
+        "Les vacances — holidays",
+        "Les moyens de transport — means of transport",
+        "Le tourisme de masse — mass tourism",
+        "Le tourisme durable — sustainable tourism (Proficient)",
+        "Les activités de vacances — holiday activities",
+        "Les différents types de vacances — different types of holiday",
+        "La francophonie — the Francophone world (Proficient)",
+        "La migration — migration (Proficient)"
+      ]
+    },
+    "unite4": {
+      "title": "Unité 4 — L'éducation pour tous, l'éducation pour la paix",
+      "vocab": [
+        "Une journée traditionnelle à l'école — a typical school day",
+        "L'école du futur — the school of the future",
+        "Le système éducatif français — the French education system",
+        "Le droit à l'éducation — the right to education",
+        "Les élèves dans le monde francophone — students in the Francophone world",
+        "'Sur le chemin de l'école' (film) — On the Way to School (documentary)",
+        "Malala — referenced education-rights activist",
+        "Ça sert à quoi l'école? Projets d'avenir — what is school for? Future plans"
+      ]
+    },
+    "grammar": {
+      "title": "Grammar checklist (both phases)",
+      "items": [
+        "Les connecteurs logiques — donc, parce que, cependant, en effet, ainsi",
+        "Le comparatif et le superlatif — plus…que / moins…que / le plus / le moins",
+        "Verbes (régulier et irrégulier) au présent",
+        "Opinions et justifications — je pense que, à mon avis, selon moi",
+        "Le passé composé + L'imparfait",
+        "Le conditionnel + Les hypothèses (si + imparfait, conditionnel)",
+        "Le futur proche / le futur simple",
+        "Proficient extras: le gérondif (en + -ant); avant de + infinitif; après avoir / être + participe passé; les verbes impersonnels (il faut que, il est nécessaire que); le subjonctif"
+      ]
+    },
+    "emergent": {
+      "title": "Emergent phase — your 4 units",
+      "items": [
+        "Unité 1 — Mon identité, mes préférences, ma culture (famille, loisirs, alimentation, célébrations)",
+        "Unité 2 — Suis-je responsable de mon environnement ? (types de pollution, causes, conséquences, actions)",
+        "Unité 3 — Es-tu curieux ? (pays, villes, transport, vacances, saisons)",
+        "Unité 4 — À quoi sert l'école ? (matières, routine, professions, uniforme, plans d'études)"
+      ]
+    }
+  },
+  "textTypesPage": {
+    "title": "Text Types for Written Production",
+    "intro": "Your teacher's booklet flags these text types for Criterion D writing. Each has specific conventions.",
+    "discours": {
+      "title": "Le discours (Speech)",
+      "body": "An informative, explanatory, argumentative text addressed to a targeted public (neighbourhood, association, classmates).",
+      "conventions": [
+        "Formule d'appel and closing formula",
+        "First person (Je)",
+        "Standard / formal register (vouvoiement)",
+        "Exclamatory / imperative sentences",
+        "Introduction: introduce yourself, the subject, hook the audience (humour, statistic, shocking fact)",
+        "Vocabulary related to the topic",
+        "Rhetorical questions",
+        "Figures of speech / repetition / comparisons",
+        "Development: facts, advice, examples, statistics",
+        "Conclusion: summarise, look to the future, thank the audience"
+      ],
+      "phrases": [
+        "Mesdames et messieurs, chers professeurs, chers camarades…",
+        "Merci d'être venus ce soir assister à…",
+        "C'est un honneur pour moi d'être ici aujourd'hui.",
+        "Nous sommes rassemblés / réunis ici aujourd'hui pour…",
+        "Avant de commencer, je vous prie d'éteindre vos portables.",
+        "M'entendez-vous tous bien au fond de la salle ?",
+        "J'aimerais vous parler aujourd'hui d'un sujet qui nous concerne tous.",
+        "Je peux maintenant répondre à vos questions.",
+        "Merci de votre attention / Je vous remercie."
+      ]
+    },
+    "article": {
+      "title": "L'article (Article)",
+      "body": "A text published in a newspaper or magazine, on paper or online. Non-fiction reporting an event, presenting facts, or putting forward a viewpoint.",
+      "conventions": [
+        "Article title",
+        "Newspaper / magazine name",
+        "Chapeau (a brief description of the article)",
+        "Varied typography (italic, bold, underline)",
+        "Testimonies and quotes",
+        "Conditional sentences for unverified info (il se pourrait que…)",
+        "Date of publication and journalist's name",
+        "Subheadings",
+        "Captioned image",
+        "Statistics (d'après une étude…, un sondage récent a montré que … % des français…)",
+        "Interrogative and exclamatory sentences"
+      ],
+      "phrases": [
+        "Notre journaliste a mené l'enquête.",
+        "D'après une étude réalisée par l'Institut de la statistique du Québec, … %…",
+        "Un sondage récent a montré que…",
+        "Après avoir interrogé de nombreuses personnes à ce sujet, on peut affirmer que…",
+        "Le / la ministre a insisté sur le fait que… / a martelé que… / a déclaré que… / a annoncé que…",
+        "Une enquête a été menée en caméra cachée.",
+        "La nouvelle a ému / choqué / surpris la population.",
+        "C'est maintenant officiel…",
+        "Selon des sources sûres, le Président fera une intervention télévisée à ce sujet ce soir."
+      ]
+    },
+    "lettre": {
+      "title": "La lettre officielle (Formal letter)",
+      "body": "Communication with someone you don't know personally, or with an organisation. Specific purpose: thank, request, inform, describe, persuade, protest.",
+      "conventions": [
+        "Place and date — top right",
+        "Recipient's contact info — top left",
+        "Sender's contact info — top right",
+        "Object of letter — below recipient info",
+        "Formule d'appel (Madame, Monsieur,)",
+        "Body in paragraphs",
+        "Formule de politesse (Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées)",
+        "Signature"
+      ]
+    },
+    "blog": {
+      "title": "Le blog (Blog post)",
+      "body": "Personal narrative-style writing. Less formal, first person, often with rhetorical questions inviting engagement. Less formal than an article."
+    },
+    "courriel": {
+      "title": "Le courriel / l'email",
+      "body": "Less formal than a letter. Subject line, greeting, concise body, sign-off. Used for both formal and informal communication depending on context."
+    }
   },
   "extras": {
     "title": "French — Extras",

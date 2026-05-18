@@ -12,7 +12,210 @@
     "grammar": "Grammar",
     "reading": "Reading Skills",
     "essays": "Essay Practice",
+    "macbeth": "Macbeth",
+    "examFormat": "Exam Format (Q1a-1e)",
+    "progressTest": "Progress Test Vocabulary",
     "extras": "Extras (beyond G9)"
+  },
+  "macbethPage": {
+    "title": "Macbeth — Scene-by-Scene Analysis",
+    "intro": "Your EOY exam will include an extract from Macbeth. The teacher's revision booklet asks you to think about these guiding questions for each scene — they unlock the highest analysis marks.",
+    "notice": "These questions and themes come directly from your G9 English revision booklet.",
+    "themes": {
+      "title": "Major themes to track",
+      "items": [
+        "Ambition — Macbeth's tragic flaw. 'Vaulting ambition which o'erleaps itself.'",
+        "Fate vs free will — are the witches showing the future or causing it?",
+        "Appearance vs reality — 'Fair is foul, foul is fair'; 'Look like the innocent flower, but be the serpent under't.'",
+        "Guilt — blood as motif; Lady Macbeth's sleepwalking ('Out, damned spot').",
+        "Power — corrupting, isolating; tyranny vs rightful kingship.",
+        "Gender — Lady Macbeth's 'unsex me here'; performative masculinity.",
+        "Supernatural — witches, ghosts, hallucinations as both real and psychological.",
+        "Order vs chaos — regicide breaks the Great Chain of Being; nature reflects political disorder."
+      ]
+    },
+    "act1": {
+      "title": "Act I — Temptation and decision",
+      "scenes": [
+        "Scene 1 (Witches' opening): How does the chant set the tone? How does 'fair is foul' introduce themes? What does this short scene suggest about supernatural influence?",
+        "Scene 2 (Battle report): What qualities of Macbeth come through in the Captain's description? How does violent imagery shape early impressions? What might his celebrated violence foreshadow?",
+        "Scene 3 (Witches meet Macbeth): How does Macbeth react to the prophecy? Contrast Banquo's caution with Macbeth's curiosity. How does this scene introduce temptation?",
+        "Scene 4 (Duncan names Malcolm heir): Why is Macbeth's aside about 'black and deep desires' significant? How does it contrast appearance and reality?",
+        "Scene 5 (Lady Macbeth's soliloquy): What does she reveal about her ambitions and values? How does Shakespeare challenge traditional gender roles? Is she more ruthless than Macbeth here?",
+        "Scene 6 (Duncan arrives): Why is Duncan's description of the castle ironic? How does this scene explore deception?",
+        "Scene 7 (Macbeth's soliloquy and Lady Macbeth's persuasion): What reasons does Macbeth give for not killing Duncan? How does Lady Macbeth manipulate him? How responsible is Macbeth for his own choice?"
+      ]
+    },
+    "act2": {
+      "title": "Act II — The murder",
+      "scenes": [
+        "Scene 1 (Dagger soliloquy): What does the vision suggest about Macbeth's mental state? How does hallucination imagery create tension?",
+        "Scene 2 (After the murder): How do Macbeth's and Lady Macbeth's reactions differ? What is revealed through the blood and guilt motif?",
+        "Scene 3 (Porter scene + discovery): How does the Porter's comedy ironically heighten horror? How does Shakespeare suggest chaos now governs Scotland?",
+        "Scene 4 (Unnatural events): What do strange events in nature reflect about human affairs? How is divine order vs human ambition developed?"
+      ]
+    },
+    "act3": {
+      "title": "Act III — Corruption of power",
+      "scenes": [
+        "Scene 1 (Banquo's suspicion; murder planned): What suspicions does Banquo voice? How does power corrupt Macbeth here?",
+        "Scene 2 (Macbeths grow apart): How has their dynamic shifted? Could Macbeth now be more ruthless than Lady Macbeth?",
+        "Scene 3 (Murder of Banquo): Why is Fleance's escape symbolically important?",
+        "Scene 4 (Banquet and Banquo's ghost): What does Macbeth's reaction reveal about his guilt? How does the banquet mirror political disintegration?",
+        "Scene 5 (Hecate's plan): How does this scene develop ideas of fate, free will, and illusion?",
+        "Scene 6 (Lennox discusses unrest): How is tyranny contrasted with rightful kingship?"
+      ]
+    },
+    "act4": {
+      "title": "Act IV — False security",
+      "scenes": [
+        "Scene 1 (Apparitions): How does Shakespeare use equivocation? How is false security central to Macbeth's tragedy?",
+        "Scene 2 (Murder of Lady Macduff): How does focusing on innocence and family affect the audience?",
+        "Scene 3 (Malcolm and Macduff plan rebellion): Why does Malcolm test Macduff? How is rightful leadership constructed?"
+      ]
+    },
+    "act5": {
+      "title": "Act V — Downfall",
+      "scenes": [
+        "Scene 1 (Lady Macbeth sleepwalking): What does her unconscious speech reveal? How is the blood/washing motif used? Madness as justice or tragedy?",
+        "Scene 2 (Scottish forces gather): How is Macbeth's isolation suggested before battle?",
+        "Scene 3 (Macbeth clings to prophecies): How does denial and bravado show in his language?",
+        "Scene 4 (Birnam Wood marches): How is dramatic irony used? Is fate working with or against human agency?",
+        "Scene 5 ('Tomorrow' soliloquy): How does this reflect existential despair? Could Macbeth be sympathetic in his final moments?",
+        "Scene 6–8 (Final battle and death): How does Macbeth face death? Could his final fight partially redeem him?"
+      ]
+    },
+    "keyQuotes": {
+      "title": "Key quotes (memorise these)",
+      "items": [
+        "'Fair is foul, and foul is fair' (1.1, Witches) — establishes theme of appearance vs reality.",
+        "'I dare do all that may become a man; / Who dares do more is none' (1.7, Macbeth) — conscience speaking before he's overruled.",
+        "'Look like the innocent flower, / But be the serpent under't' (1.5, Lady Macbeth) — deception advice.",
+        "'Is this a dagger which I see before me' (2.1, Macbeth) — hallucination before murder.",
+        "'Will all great Neptune's ocean wash this blood / Clean from my hand?' (2.2, Macbeth) — overwhelming guilt.",
+        "'We have scorched the snake, not killed it' (3.2, Macbeth) — fear that threats remain.",
+        "'Out, damned spot! Out, I say!' (5.1, Lady Macbeth) — guilt manifesting in sleepwalking.",
+        "'Tomorrow, and tomorrow, and tomorrow, / Creeps in this petty pace from day to day' (5.5, Macbeth) — nihilistic despair."
+      ]
+    }
+  },
+  "examFormatPage": {
+    "title": "Exam Format — Q1a to Q1e",
+    "intro": "The teacher's booklet breaks down exactly how the questions work. You'll get TWO texts: usually a written Macbeth extract + a video clip from the Coen Brothers' Macbeth (Denzel Washington).",
+    "structure": {
+      "title": "Question structure",
+      "items": [
+        "Q1a — describe or identify something simple (2 marks). Just give the fact.",
+        "Q1b — explain meaning of a phrase / device (3 marks). Use 'because' + technique name.",
+        "Q1c — comment on how a technique is created (2 marks). One technique + one effect.",
+        "Q1d — analyse the effect of a specific phrase (3 marks). Quote + technique + connotation + effect.",
+        "Q1e — compare and contrast both texts (20 marks). Full essay. Criterion A (Analysis) /10 + Criterion B (Organising) /10."
+      ]
+    },
+    "q1eStructure": {
+      "title": "How to structure Q1e — the comparison essay",
+      "body": "Introduction: name both texts, briefly state the shared theme/question. Body para 1 — a similarity (both texts show…); analyse technique in text 1 (quote + device + effect); then comparable technique in text 2. Body para 2 — a difference (while text 1 does X, text 2 does Y); analyse both. Body para 3 (optional) — deeper layer of comparison. Conclusion — what does the comparison reveal? Word count target: clear, organised, ~400–500 words. Critical: COMPARE in every paragraph, don't write about one text then the other separately."
+    },
+    "markScheme": {
+      "title": "Q1e mark scheme — what the bands look like",
+      "items": [
+        "9–10 (A): Deep insight, precise terminology, subtle/complex comparisons.",
+        "6–8 (A): Clear understanding, some terminology, clear comparison.",
+        "3–5 (A): General explanations, similarities/differences too general, examples not fully explained.",
+        "1–2 (A): Obvious points ('both show power'), little analysis.",
+        "9–10 (B): Comparison threads through every paragraph; logical flow.",
+        "6–8 (B): Compare in each paragraph; structure clear.",
+        "3–5 (B): Attempts comparison but may treat texts separately.",
+        "1–2 (B): Writes about texts one after the other, or uses bullet points."
+      ]
+    },
+    "selfCheck": {
+      "title": "Self-check prompts",
+      "items": [
+        "Did I quote from BOTH texts?",
+        "Did I name techniques (metaphor, lighting, sound, structure) accurately?",
+        "Did I explain the EFFECT of each technique, not just spot it?",
+        "Did I compare in every paragraph (not text-by-text)?",
+        "Did I write under timed conditions to build exam stamina?"
+      ]
+    }
+  },
+  "progressTestPage": {
+    "title": "Progress Test — Vocabulary & SPaG",
+    "intro": "From the Progress Test Revision Booklet. Vocabulary banks for analytical writing, SPaG rules, British vs American spelling.",
+    "survivalVocab": {
+      "title": "Survival / cold setting vocabulary",
+      "body": "Glacial, Inhospitable, Barren, Crystalline, Desolate, Relentless, Fragile, Endure, Eerie, Bleak, Solitude, Resilient, Ritual, Burden, Adapt, Thrive."
+    },
+    "moodWords": {
+      "title": "Mood words",
+      "items": {
+        "positive": "POSITIVE: Jubilant, Tranquil, Uplifting, Serene, Hopeful, Joyful, Whimsical, Light-hearted, Celebratory, Enchanting, Comforting.",
+        "neutral": "NEUTRAL: Reflective, Meditative, Ambiguous, Mysterious, Solemn, Thoughtful, Nostalgic, Clinical, Detached, Philosophical, Measured, Serious.",
+        "negative": "NEGATIVE: Oppressive, Melancholic, Foreboding, Bleak, Dismal, Hostile, Anxious, Isolated, Harrowing, Desolate."
+      }
+    },
+    "viewpointWords": {
+      "title": "Viewpoint words",
+      "items": {
+        "supportive": "SUPPORTIVE: Admiring, Affirming, Endorsing, Celebratory, Sympathetic, Encouraging, Empathetic, Respectful, Optimistic.",
+        "critical": "CRITICAL: Condemning, Dismissive, Disparaging, Disapproving, Concerned, Sceptical, Alarmed, Cautionary, Cynical, Mocking, Critical.",
+        "balanced": "BALANCED: Neutral, Objective, Measured, Analytical, Tentative, Contemplative, Evaluative, Inquisitive, Informative, Reserved, Considered."
+      }
+    },
+    "synthesis": {
+      "title": "Synthesis sentence starters",
+      "items": [
+        "Both texts show that…",
+        "While one writer believes…, the other…",
+        "A shared idea in both extracts is…",
+        "Text A highlights ____, whereas Text B emphasises ____.",
+        "Together, the texts suggest that…"
+      ]
+    },
+    "shadesOfMeaning": {
+      "title": "Shades of meaning — choose your word carefully",
+      "items": [
+        "Barren vs Desolate — barren is lifeless physical; desolate is emotional emptiness.",
+        "Endure vs Tolerate — endure implies strength through real hardship; tolerate is mild annoyance.",
+        "Relentless vs Determined — relentless is negative/aggressive; determined is positive willpower."
+      ]
+    },
+    "spag": {
+      "title": "SPaG essentials",
+      "items": [
+        "It's = it is. Its = possession. Pronouns (yours, its, theirs) NEVER take an apostrophe.",
+        "Run-on sentences — fix with full stop, semicolon, or conjunction.",
+        "their / there / they're — possession / place / they are.",
+        "your / you're — possession / you are.",
+        "'Should of' is NEVER correct. Always 'should have' (could have, might have).",
+        "Apostrophes for possession: Luka's book (one Luka); the students' books (multiple students)."
+      ]
+    },
+    "spelling": {
+      "title": "British vs American spelling",
+      "items": [
+        "−our / −or: colour/color, honour/honor, behaviour/behavior, favour/favor, neighbour/neighbor.",
+        "−re / −er: centre/center, theatre/theater, metre/meter, litre/liter, calibre/caliber.",
+        "−ise / −ize: organise/organize, realise/realize, recognise/recognize, analyse/analyze.",
+        "Double consonants: travelling/traveling, labelled/labeled, cancelled/canceled, marvellous/marvelous.",
+        "Misc: aeroplane/airplane, maths/math, programme/program, grey/gray, cheque/check.",
+        "Use BRITISH spelling in IB MYP exams."
+      ]
+    },
+    "devicesExamples": {
+      "title": "Literary devices with worked examples",
+      "items": [
+        "Personification — 'The wind whispered through the trees.'",
+        "Zoomorphism — describing humans as animals: 'She fought like a tiger.'",
+        "Repetition — emphasises emotion: 'I will not, I will not, I will not give up.'",
+        "Metaphor — 'Time is a thief.'",
+        "Alliteration — 'wild and windy weather.'",
+        "Hyperbole — deliberate exaggeration: 'I've told you a million times.'",
+        "Sensory imagery — appeals to five senses.",
+        "Simile — comparison with like/as: 'as cold as ice.'"
+      ]
+    }
   },
   "extras": {
     "title": "English — Extras",

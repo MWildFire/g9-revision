@@ -49,17 +49,58 @@ export function BiologyHomePage() {
         ))}
       </div>
 
-      <SectionHeading>External resources</SectionHeading>
+      <SectionHeading>School resources by criterion</SectionHeading>
       <p className="text-sm text-text-secondary mb-3">{t('home.externalNotice')}</p>
-      <a
-        href="https://sites.google.com/nlcsdubai.ae/mypbiology/revision/g9-revision"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-between bg-bg-secondary border border-border rounded-md p-4 hover:shadow-soft transition-shadow"
-      >
-        <span className="text-sm font-medium">NLCS Dubai MYP Biology — G9 Revision</span>
-        <ExternalLink size={14} className="text-text-muted" />
-      </a>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <a
+          href="https://sites.google.com/nlcsdubai.ae/mypbiology/revision/g9-revision"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-between bg-bg-secondary border border-border rounded-md p-4 hover:shadow-soft transition-shadow"
+          style={{ borderLeftColor: 'var(--color-accent-sky)', borderLeftWidth: '3px' }}
+        >
+          <span className="text-sm">
+            <strong>Criterion A</strong> — Question banks
+          </span>
+          <ExternalLink size={14} className="text-text-muted" />
+        </a>
+        <a
+          href="https://sites.google.com/nlcsdubai.ae/mypbiology/revision/criterion-b-chooser"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-between bg-bg-secondary border border-border rounded-md p-4 hover:shadow-soft transition-shadow"
+          style={{ borderLeftColor: 'var(--color-accent-sage)', borderLeftWidth: '3px' }}
+        >
+          <span className="text-sm">
+            <strong>Criterion B</strong> — Inquiring & designing tasks
+          </span>
+          <ExternalLink size={14} className="text-text-muted" />
+        </a>
+        <a
+          href="https://sites.google.com/nlcsdubai.ae/mypbiology/revision/criterion-c-practice"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-between bg-bg-secondary border border-border rounded-md p-4 hover:shadow-soft transition-shadow"
+          style={{ borderLeftColor: 'var(--color-accent-warm)', borderLeftWidth: '3px' }}
+        >
+          <span className="text-sm">
+            <strong>Criterion C</strong> — Processing & evaluating practice
+          </span>
+          <ExternalLink size={14} className="text-text-muted" />
+        </a>
+        <a
+          href="https://sites.google.com/nlcsdubai.ae/mypbiology/revision/criterion-d-courtroom"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-between bg-bg-secondary border border-border rounded-md p-4 hover:shadow-soft transition-shadow"
+          style={{ borderLeftColor: 'var(--color-accent-clay)', borderLeftWidth: '3px' }}
+        >
+          <span className="text-sm">
+            <strong>Criterion D</strong> — Courtroom reflection task
+          </span>
+          <ExternalLink size={14} className="text-text-muted" />
+        </a>
+      </div>
 
       <SectionHeading>{t('glossary.title')}</SectionHeading>
       <p className="text-sm text-text-secondary mb-4">{t('glossary.intro')}</p>

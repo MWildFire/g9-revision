@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home as HomeIcon, FileText, Sparkles, PenTool, Search, Pencil, Star } from 'lucide-react';
+import { Home as HomeIcon, FileText, Sparkles, PenTool, Search, Pencil, ScrollText, ClipboardCheck, Brain, Star } from 'lucide-react';
 import { SubjectSidebar, TopicNavItem } from '../../components/layout/SubjectSidebar';
 import { EnglishHomePage } from './pages/EnglishHomePage';
 import { TextTypesPage } from './pages/TextTypesPage';
@@ -7,10 +7,16 @@ import { DevicesPage } from './pages/DevicesPage';
 import { GrammarPage } from './pages/GrammarPage';
 import { ReadingPage } from './pages/ReadingPage';
 import { EssaysPage } from './pages/EssaysPage';
+import { MacbethPage } from './pages/MacbethPage';
+import { ExamFormatPage } from './pages/ExamFormatPage';
+import { ProgressTestPage } from './pages/ProgressTestPage';
 import { EnglishExtrasPage } from './pages/EnglishExtrasPage';
 
 const TOPICS: TopicNavItem[] = [
   { to: '/english', key: 'home', icon: HomeIcon },
+  { to: '/english/macbeth', key: 'macbeth', icon: ScrollText },
+  { to: '/english/exam-format', key: 'examFormat', icon: ClipboardCheck },
+  { to: '/english/progress-test', key: 'progressTest', icon: Brain },
   { to: '/english/text-types', key: 'textTypes', icon: FileText },
   { to: '/english/devices', key: 'devices', icon: Sparkles },
   { to: '/english/grammar', key: 'grammar', icon: PenTool },
@@ -31,6 +37,9 @@ export function EnglishModule() {
           <Route path="grammar" element={<GrammarPage />} />
           <Route path="reading" element={<ReadingPage />} />
           <Route path="essays" element={<EssaysPage />} />
+          <Route path="macbeth" element={<MacbethPage />} />
+          <Route path="exam-format" element={<ExamFormatPage />} />
+          <Route path="progress-test" element={<ProgressTestPage />} />
           <Route path="extras" element={<EnglishExtrasPage />} />
         </Routes>
       </main>

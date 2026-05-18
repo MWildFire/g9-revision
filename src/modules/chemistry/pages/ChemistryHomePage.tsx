@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { FlaskConical, Atom, Link as LinkIcon, FlaskRound, Calculator, Droplet, Flame, ArrowRight } from 'lucide-react';
+import { FlaskConical, Atom, Link as LinkIcon, FlaskRound, Calculator, Droplet, Flame, Wind, Gauge, ArrowRight } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 
 const TOPICS = [
@@ -9,6 +9,8 @@ const TOPICS = [
   { to: '/chemistry/reactions', key: 'reactions', icon: FlaskRound, accent: 'var(--color-accent-sage)' },
   { to: '/chemistry/stoichiometry', key: 'stoichiometry', icon: Calculator, accent: 'var(--color-accent-sky)' },
   { to: '/chemistry/acids-bases', key: 'acidsBases', icon: Droplet, accent: 'var(--color-accent-sky-deep)' },
+  { to: '/chemistry/atmosphere', key: 'atmosphere', icon: Wind, accent: 'var(--color-accent-sage)' },
+  { to: '/chemistry/rates', key: 'rates', icon: Gauge, accent: 'var(--color-accent-warm)' },
   { to: '/chemistry/energy', key: 'energy', icon: Flame, accent: 'var(--color-accent-clay)' },
 ];
 

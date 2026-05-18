@@ -14,7 +14,119 @@
     "vocab": "Vocabulary",
     "grammar": "Grammar",
     "phrases": "Useful Phrases",
+    "mrsHala": "Mrs Hala — 5 topics",
     "extras": "Extras (beyond G9)"
+  },
+  "mrsHalaPage": {
+    "title": "Mrs Hala's revision — 5 topics",
+    "intro": "The five topics from your G9 Arabic revision booklet. Master the vocabulary in each, then practise the exercises (rearrange sentences, match meanings, fill in the blanks).",
+    "notice": "Content directly from your teacher's revision booklet."
+  },
+  "topicsContent": {
+    "introduce": {
+      "title": "1. Introduce yourself (تقديم نفسك)",
+      "phrases": [
+        "اسْمي… (ismī…) — my name is…",
+        "أنا في الصف العاشر (anā fī aṣ-ṣaff al-ʿāshir) — I'm in grade 10",
+        "أنا من… (anā min…) — I am from…",
+        "أعيش في… (aʿīsh fī…) — I live in…",
+        "أبلغ من العمر… سنة (ʾablugh min al-ʿumr… sana) — I am … years old",
+        "لي… إخوة وأخوات (lī… ʾikhwa wa ʾakhawāt) — I have… siblings",
+        "أحب… (ʾuḥibb…) — I love…"
+      ]
+    },
+    "clothes": {
+      "title": "2. Clothes (الملابس)",
+      "vocab": [
+        "تنورة (tanūra) — skirt",
+        "بلوزة (blūza) — blouse",
+        "حذاء (ḥidhāʾ) — shoes",
+        "فستان (fustān) — dress",
+        "بنطال (binṭāl) — trousers",
+        "معطف (miʿṭaf) — coat",
+        "قميص (qamīṣ) — shirt",
+        "Examples: تنورة صفراء قصيرة — short yellow skirt; بلوزة بيضاء خفيفة — light white blouse; حذاء أسود طويل — long black shoes; فستان أحمر — red dress; معطف بني ثقيل — heavy brown coat; قميص أزرق جديد — new blue shirt."
+      ]
+    },
+    "colours": {
+      "title": "3. Colours & adjectives (الألوان والصفات)",
+      "vocab": [
+        "أحمر (ʾaḥmar) — red",
+        "أزرق (ʾazraq) — blue",
+        "أخضر (ʾakhḍar) — green",
+        "أصفر (ʾaṣfar) — yellow",
+        "أبيض (ʾabyaḍ) — white",
+        "أسود (ʾaswad) — black",
+        "بني (bunnī) — brown",
+        "رمادي (ramādī) — grey",
+        "Adjectives: طويل (long), قصير (short), كبير (big), صغير (small), جديد (new), قديم (old), ثقيل (heavy), خفيف (light), جميل (beautiful).",
+        "Note: adjectives agree in gender — feminine usually adds ة (e.g., أحمر / حمراء)."
+      ]
+    },
+    "routine": {
+      "title": "4. Daily routine (الروتين اليومي)",
+      "verbs": [
+        "أستيقظ (ʾastayqiẓ) — I wake up",
+        "أستحم (ʾastaḥimm) — I shower",
+        "ألبس (ʾalbas) — I get dressed",
+        "أتناول (ʾatanāwal) — I eat / consume",
+        "أركب (ʾarkab) — I ride / get into",
+        "أذهب (ʾadhhab) — I go",
+        "أتعلم (ʾataʿallam) — I learn",
+        "أمارس (ʾumāris) — I practise",
+        "أرجع (ʾarjiʿ) — I return",
+        "أدرس (ʾadrus) — I study",
+        "أشاهد (ʾushāhid) — I watch",
+        "أقرأ (ʾaqraʾ) — I read",
+        "أنام (ʾanām) — I sleep"
+      ],
+      "times": [
+        "الساعة الخامسة (5 o'clock), السادسة (6), السابعة (7), الثامنة (8)",
+        "صباحاً (ṣabāḥan) — AM",
+        "مساءً (masāʾan) — PM",
+        "Connectors: أولاً (first), ثم (then), حتى (until), بعد ذلك (after that), أخيراً (finally)"
+      ]
+    },
+    "seasons": {
+      "title": "5. Seasons & weather (الفصول والطقس)",
+      "vocab": [
+        "الربيع (ar-rabīʿ) — spring",
+        "الصيف (aṣ-ṣayf) — summer",
+        "الخريف (al-kharīf) — autumn",
+        "الشتاء (ash-shitāʾ) — winter",
+        "الطقس (aṭ-ṭaqs) — weather",
+        "حار (ḥārr) — hot",
+        "بارد (bārid) — cold",
+        "ممطر (mumṭir) — rainy",
+        "مشمس (mushmis) — sunny",
+        "عاصف (ʿāṣif) — windy",
+        "غائم (ghāʾim) — cloudy"
+      ]
+    },
+    "extra": {
+      "title": "Question words & connectors",
+      "items": [
+        "ماذا / ما (mādhā / mā) — what",
+        "متى (matā) — when",
+        "أين (ʾayna) — where",
+        "كيف (kayfa) — how",
+        "لماذا (limādhā) — why",
+        "كم (kam) — how many / how much",
+        "Prepositions: مع (with), إلى (to), في (in / at)"
+      ]
+    },
+    "exercises": {
+      "title": "Exercise types in the booklet",
+      "items": [
+        "Rearrange sentences in correct order",
+        "Match meanings to words (e.g., match Arabic word to English/Russian)",
+        "Create sentences from given keywords",
+        "Fill-in-the-blank self-introduction",
+        "Translate Arabic → English (or Russian)",
+        "Read short text and answer comprehension questions",
+        "Match daily routine sentences to time order"
+      ]
+    }
   },
   "extras": {
     "title": "Arabic — Extras",

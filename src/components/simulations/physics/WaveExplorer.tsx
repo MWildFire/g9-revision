@@ -10,7 +10,7 @@ const W = 560;
 const H = 200;
 
 export function WaveExplorer() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [amplitude, setAmplitude] = useState(40);
   const [wavelength, setWavelength] = useState(120);
   const [frequency, setFrequency] = useState(1.5);

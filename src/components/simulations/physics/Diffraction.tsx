@@ -10,7 +10,7 @@ const WALL_X = Math.round(W * 0.35);
 const SLIT_CENTER_Y = H / 2;
 
 export function Diffraction() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [slit, setSlit] = useState(80);
   const [wavelength, setWavelength] = useState(40);
   const canvasRef = useRef<HTMLCanvasElement>(null);

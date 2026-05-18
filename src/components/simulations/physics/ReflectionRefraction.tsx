@@ -12,7 +12,7 @@ const CX = W / 2;
 const CY = H / 2;
 
 export function ReflectionRefraction() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [angle, setAngle] = useState(35);
   const [n1, setN1] = useState(1.0);
   const [n2, setN2] = useState(1.5);

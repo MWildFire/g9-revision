@@ -12,7 +12,7 @@ const CY = H / 2;
 const SCALE = 6; // px per N
 
 export function VectorAddition() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [f1, setF1] = useState(20);
   const [a1, setA1] = useState(30);
   const [f2, setF2] = useState(15);

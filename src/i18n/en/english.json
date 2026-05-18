@@ -305,37 +305,159 @@
   "grammar": {
     "tenses": {
       "title": "Tenses overview",
-      "items": {
-        "present": "Present simple — habits, facts: 'She writes essays.'",
-        "presentCont": "Present continuous — now: 'She is writing.'",
-        "past": "Past simple — finished action: 'She wrote.'",
-        "pastCont": "Past continuous — ongoing past: 'She was writing.'",
-        "presentPerfect": "Present perfect — past with present relevance: 'She has written three.'",
-        "future": "Future — 'will' (decision) vs 'going to' (plan): 'I'll help' / 'I'm going to study.'"
+      "detailed": {
+        "present": {
+          "name": "Present simple",
+          "use": "Habits, repeated actions, general facts, timetables, instructions.",
+          "form": "I / you / we / they + verb. He / she / it + verb + s. Negative: do / does + not + verb. Question: Do / Does + subject + verb?",
+          "examples": ["She writes essays every weekend.", "Water boils at 100 °C.", "The train leaves at 7 a.m.", "He doesn't eat meat."],
+          "tip": "Don't forget the −s on third person singular: 'He goes' (not 'He go'). For verbs ending in −y after consonant: study → studies."
+        },
+        "presentCont": {
+          "name": "Present continuous (progressive)",
+          "use": "Actions happening RIGHT NOW, or temporary actions, or future arrangements.",
+          "form": "Subject + am/is/are + verb-ing. Negative: am/is/are + not + verb-ing. Question: Am/Is/Are + subject + verb-ing?",
+          "examples": ["She is writing an essay (right now).", "I'm staying with my aunt this week (temporary).", "We're meeting Tom at 6 (future arrangement)."],
+          "watchOut": "Stative verbs (know, believe, love, want, see) usually stay in present simple: 'I know him' — NOT 'I am knowing him'."
+        },
+        "past": {
+          "name": "Past simple",
+          "use": "Completed actions at a specific time in the past. Sequence of past events. Past states.",
+          "form": "Regular: verb + ed (worked, played). Irregular: separate forms (went, saw, wrote). Negative: did + not + base verb. Question: Did + subject + base verb?",
+          "examples": ["She wrote three essays yesterday.", "We went to Paris last summer.", "He didn't see the film.", "Did you eat lunch?"],
+          "tip": "Time markers: yesterday, last (week / year), ago, in 2020, when I was younger."
+        },
+        "pastCont": {
+          "name": "Past continuous",
+          "use": "Action in progress at a past moment, often interrupted by another action. Background scene-setting.",
+          "form": "Subject + was/were + verb-ing.",
+          "examples": ["She was writing when the lights went out.", "While we were having dinner, the phone rang.", "It was raining all morning."],
+          "tip": "Pair past continuous (long, background action) with past simple (short, interrupting action): 'I was reading when he called.'"
+        },
+        "presentPerfect": {
+          "name": "Present perfect",
+          "use": "Past action with present relevance. Life experience (no specific time). Action that started in the past and continues now. Recent finished action.",
+          "form": "Subject + have/has + past participle. Negative: have/has + not + pp. Question: Have/Has + subject + pp?",
+          "examples": ["She has written three essays (this year — still ongoing).", "I've never been to Japan (life experience).", "We've lived here since 2010 (started past, continues).", "He's just finished his homework (recent)."],
+          "watchOut": "Use present perfect with 'just', 'already', 'yet', 'ever', 'never', 'since', 'for'. Don't use it with a specific finished time ('yesterday' takes past simple, not present perfect)."
+        },
+        "future": {
+          "name": "Future — 'will' vs 'going to' vs present continuous",
+          "use": "'will' — decision made AT the moment of speaking; predictions; promises. 'going to' — plans and intentions made BEFORE speaking; predictions based on evidence. Present continuous — fixed arrangements with another person.",
+          "form": "Will: subject + will + base verb. Going to: subject + am/is/are + going to + base verb.",
+          "examples": ["'I'll help you with that.' (just decided).", "'It will rain tomorrow.' (prediction).", "'I'm going to study medicine.' (plan).", "'Look at those clouds — it's going to rain.' (evidence-based).", "'I'm meeting Sarah at 4.' (arrangement)."],
+          "tip": "For exam writing, mix tenses naturally. Don't overuse 'will' for everything — use 'going to' for plans, present continuous for arrangements."
+        }
       }
     },
     "punctuation": {
       "title": "Punctuation",
-      "items": {
-        "comma": "Comma — pauses, lists, after introductory phrases.",
-        "semicolon": "Semicolon (;) — joins two related independent clauses.",
-        "colon": "Colon (:) — introduces a list, example, or explanation.",
-        "apostrophe": "Apostrophe — possession ('Luka's book') and contraction ('don't').",
-        "dash": "Dash (—) — sudden break or emphasis. Em dash is longer than hyphen."
+      "detailed": {
+        "comma": {
+          "name": "Comma (,)",
+          "use": "Separates items in a list; marks pauses; separates clauses; goes after introductory phrases.",
+          "examples": [
+            "I bought bread, cheese, and milk. (list)",
+            "After the storm, the village was flooded. (introductory phrase)",
+            "Macbeth, who was once loyal, becomes a tyrant. (non-defining clause)",
+            "The film was long, but I enjoyed it. (before coordinating conjunction)"
+          ],
+          "watchOut": "Don't use a comma to join two complete sentences (this is a 'comma splice'): WRONG — 'I went out, it was cold.' Use a full stop, semicolon, or conjunction."
+        },
+        "semicolon": {
+          "name": "Semicolon (;)",
+          "use": "Joins two closely related independent clauses (each could stand alone). Also separates items in a complex list where items contain commas.",
+          "examples": [
+            "Macbeth kills Duncan; immediately he is haunted by guilt.",
+            "She didn't speak; she just walked away.",
+            "We visited Cairo, Egypt; Rome, Italy; and Athens, Greece."
+          ],
+          "tip": "If you could replace the semicolon with a full stop without losing meaning, you've used it correctly."
+        },
+        "colon": {
+          "name": "Colon (:)",
+          "use": "Introduces a list, an example, an explanation, or a quotation.",
+          "examples": [
+            "She had three goals: ambition, power, and survival.",
+            "Macbeth makes one fatal mistake: he listens to the witches.",
+            "Lady Macbeth declares: 'Unsex me here.'"
+          ],
+          "watchOut": "What comes BEFORE the colon should be a complete sentence. Don't use a colon after 'such as' or 'for example'."
+        },
+        "apostrophe": {
+          "name": "Apostrophe (')",
+          "use": "Shows possession OR shows that letters are missing (contraction).",
+          "examples": [
+            "Luka's book — book belongs to Luka (singular owner).",
+            "The students' essays — essays of the students (plural owners).",
+            "Don't = do not. It's = it is. They're = they are.",
+            "James's coat / James' coat — both accepted; pick one and be consistent."
+          ],
+          "watchOut": "Pronouns (its, yours, hers, ours, theirs) NEVER take an apostrophe. 'Its' = possession; 'it's' = it is."
+        },
+        "dash": {
+          "name": "Dash (—)",
+          "use": "Marks a sudden break, an aside, an emphasis, or replaces parentheses for a more dramatic feel.",
+          "examples": [
+            "Macbeth — once loyal, now a tyrant — falls in the final battle.",
+            "She wanted only one thing — power.",
+            "He paused — then drew the dagger."
+          ],
+          "tip": "Em dash (—) is longer than a hyphen (-). Use it sparingly; overuse makes prose feel breathless."
+        }
       }
     },
     "agreement": {
       "title": "Subject–verb agreement",
-      "body": "Singular subject → singular verb. 'The list of items is on the table' (list is). Plural subject → plural verb. Watch for words between subject and verb."
+      "body": "Singular subject takes a singular verb; plural subject takes a plural verb. Sounds simple — but tricky cases trip up most students.",
+      "rules": [
+        "Singular: 'The boy runs.' Plural: 'The boys run.'",
+        "Words BETWEEN subject and verb don't change agreement: 'The list of items IS on the table' (list is, not items are).",
+        "Either / or, neither / nor — verb agrees with the closer subject: 'Neither the captain nor the sailors ARE on board.' 'Neither the sailors nor the captain IS on board.'",
+        "Collective nouns (team, family, government) can be singular or plural depending on emphasis on the group as one unit or individuals: 'The team is winning' vs 'The team are arguing among themselves.'",
+        "Indefinite pronouns 'each', 'every', 'everyone', 'nobody', 'somebody' are SINGULAR: 'Everybody HAS arrived.'",
+        "'A number of' is plural, 'the number of' is singular: 'A number of students are absent.' 'The number of students is rising.'"
+      ]
     },
     "commonErrors": {
       "title": "Common errors",
-      "items": {
-        "yourYoure": "your (possessive) vs you're (you are)",
-        "itsIts": "its (possessive) vs it's (it is)",
-        "thereTheirTheyre": "there (place) / their (possessive) / they're (they are)",
-        "lessFewer": "less (uncountable: less time) vs fewer (countable: fewer cars)",
-        "affectEffect": "affect (verb: to influence) vs effect (noun: the result)"
+      "detailed": {
+        "yourYoure": {
+          "name": "your vs you're",
+          "rule": "'your' = belonging to you (possessive). 'you're' = you are (contraction).",
+          "examples": ["Is this your book? (possessive)", "You're late again. (you are)"],
+          "tip": "If you can replace it with 'you are', use 'you're'. Otherwise it's 'your'."
+        },
+        "itsIts": {
+          "name": "its vs it's",
+          "rule": "'its' = belonging to it (possessive — NO apostrophe). 'it's' = it is or it has (contraction).",
+          "examples": ["The dog wagged its tail. (possessive)", "It's raining. (it is)", "It's been a long day. (it has)"],
+          "tip": "If you can replace it with 'it is' or 'it has', use 'it's'. Possessive 'its' never has an apostrophe — pronouns don't."
+        },
+        "thereTheirTheyre": {
+          "name": "there / their / they're",
+          "rule": "'there' = a place or 'there is/are'. 'their' = belonging to them. 'they're' = they are.",
+          "examples": ["Put it over there. (place)", "There are five students. (there are)", "Their essays were excellent. (belonging to them)", "They're studying for the exam. (they are)"],
+          "tip": "Hear (a place) → 'there' has 'here' in it. 'Their' starts with 'thei' like 'theirs'. 'They're' = they are."
+        },
+        "lessFewer": {
+          "name": "less vs fewer",
+          "rule": "'fewer' for things you can COUNT (cars, people, mistakes). 'less' for things you CAN'T count (time, money, water).",
+          "examples": ["Fewer cars on the road this morning.", "We have less time than we thought.", "I made fewer mistakes than last week."],
+          "tip": "Test: can you put a number in front? 'Five mistakes' → fewer. 'Five times' → less (because time is uncountable, even though 'times' is countable in this phrase)."
+        },
+        "affectEffect": {
+          "name": "affect vs effect",
+          "rule": "'affect' = VERB, meaning to influence. 'effect' = NOUN, meaning the result.",
+          "examples": ["The decision will affect everyone. (verb)", "The effect of the decision was huge. (noun)", "Climate change affects ecosystems. (verb)", "One effect of climate change is sea level rise. (noun)"],
+          "tip": "Stormwarning: 'effect' CAN be a verb meaning 'to bring about' ('to effect change'), but at G9 stick to the verb/noun rule."
+        },
+        "thanThen": {
+          "name": "than vs then",
+          "rule": "'than' = COMPARISON. 'then' = TIME or sequence ('next, after that').",
+          "examples": ["She is taller than her brother. (comparison)", "First we ate, then we walked home. (sequence)", "If it rains, then we'll stay in. (consequence)"],
+          "tip": "Comparison → think 'compare', both have an A. Time → then has 'en' like 'when'."
+        }
       }
     }
   },

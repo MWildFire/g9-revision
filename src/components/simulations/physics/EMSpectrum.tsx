@@ -24,7 +24,7 @@ const F_MIN = 5;
 const F_MAX = 22;
 
 export function EMSpectrum() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [pos, setPos] = useState(14.5);
 
   // find closest region

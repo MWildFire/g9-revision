@@ -16,7 +16,7 @@ const VB_H = 240;
 const GROUND_Y = 200;
 
 export function PressureSim() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [force, setForce] = useState(100);
   const [area, setArea] = useState(0.01);
 

@@ -8,7 +8,7 @@ const W = 560;
 const H = 220;
 
 export function SoundWave() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [frequency, setFrequency] = useState(440);
   const [amplitude, setAmplitude] = useState(50);
   const canvasRef = useRef<HTMLCanvasElement>(null);

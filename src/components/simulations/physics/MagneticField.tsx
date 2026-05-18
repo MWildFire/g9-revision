@@ -17,7 +17,7 @@ const SOL_HALF_W = 110;
 const SOL_HALF_H = 38;
 
 export function MagneticField() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [source, setSource] = useState<Source>('bar');
   const [current, setCurrent] = useState(2);
   const [showCompass, setShowCompass] = useState(true);

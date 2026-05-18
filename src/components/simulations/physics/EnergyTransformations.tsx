@@ -13,7 +13,7 @@ const PIVOT_X = W / 2;
 const PIVOT_Y = 30;
 
 export function EnergyTransformations() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [mass, setMass] = useState(1.0);
   const [length, setLength] = useState(1.5);
   const [initialAngle, setInitialAngle] = useState(40);

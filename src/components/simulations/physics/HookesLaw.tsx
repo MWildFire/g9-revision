@@ -10,7 +10,7 @@ import { AlertTriangle } from 'lucide-react';
 const ELASTIC_LIMIT_EXTENSION = 0.4;
 
 export function HookesLaw() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [k, setK] = useState(50);
   const [force, setForce] = useState(15);
 

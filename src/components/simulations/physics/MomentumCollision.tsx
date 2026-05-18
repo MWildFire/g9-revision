@@ -12,7 +12,7 @@ const W = 560;
 const H = 180;
 
 export function MomentumCollision() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [m1, setM1] = useState(2);
   const [m2, setM2] = useState(3);
   const [v1Init, setV1Init] = useState(4);

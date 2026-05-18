@@ -6,7 +6,7 @@ import { Formula } from '../../ui/Formula';
 import { hydrostaticPressure, formatPressure } from '../../../lib/physics';
 
 export function FluidPressure() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [depth, setDepth] = useState(20);
   const [rho, setRho] = useState(1000);
 

@@ -16,7 +16,7 @@ const ROAD_RIGHT = 400;
 const ROAD_WIDTH = ROAD_RIGHT - ROAD_LEFT;
 
 export function ReactionBraking() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('physics');
   const [speedKmh, setSpeedKmh] = useState(60);
   const [reactionTime, setReactionTime] = useState(1.0);
   const [road, setRoad] = useState<keyof typeof FRICTION>('dry');

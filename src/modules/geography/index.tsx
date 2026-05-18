@@ -1,11 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home as HomeIcon, Waves, Plane, Battery, Cloud } from 'lucide-react';
+import { Home as HomeIcon, Waves, Plane, Battery, Cloud, Sparkles } from 'lucide-react';
 import { SubjectSidebar, TopicNavItem } from '../../components/layout/SubjectSidebar';
 import { GeographyHomePage } from './pages/GeographyHomePage';
 import { RiversPage } from './pages/RiversPage';
 import { TourismPage } from './pages/TourismPage';
 import { ResourceReliancePage } from './pages/ResourceReliancePage';
 import { AtmosphericHazardsPage } from './pages/AtmosphericHazardsPage';
+import { GeographyExtrasPage } from './pages/GeographyExtrasPage';
 
 const TOPICS: TopicNavItem[] = [
   { to: '/geography', key: 'home', icon: HomeIcon },
@@ -13,6 +14,7 @@ const TOPICS: TopicNavItem[] = [
   { to: '/geography/tourism', key: 'tourism', icon: Plane },
   { to: '/geography/resource-reliance', key: 'resourceReliance', icon: Battery },
   { to: '/geography/atmospheric-hazards', key: 'atmosphericHazards', icon: Cloud },
+  { to: '/geography/extras', key: 'extras', icon: Sparkles },
 ];
 
 export function GeographyModule() {
@@ -26,6 +28,7 @@ export function GeographyModule() {
           <Route path="tourism" element={<TourismPage />} />
           <Route path="resource-reliance" element={<ResourceReliancePage />} />
           <Route path="atmospheric-hazards" element={<AtmosphericHazardsPage />} />
+          <Route path="extras" element={<GeographyExtrasPage />} />
         </Routes>
       </main>
     </div>

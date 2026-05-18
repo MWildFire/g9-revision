@@ -13,6 +13,43 @@
     "alphabet": "Alphabet",
     "vocab": "Vocabulary",
     "grammar": "Grammar",
-    "phrases": "Useful Phrases"
+    "phrases": "Useful Phrases",
+    "extras": "Extras (beyond G9)"
+  },
+  "extras": {
+    "title": "Arabic — Extras",
+    "intro": "Topics beyond the G9 syllabus — numerals, verb patterns, dialects, culture.",
+    "numerals": {
+      "title": "Arabic numerals (Eastern)",
+      "body": "Modern Arabic uses two numeral systems. Western Arabic numerals (0–9) — what English uses, derived from Arabic. Eastern Arabic numerals (٠١٢٣٤٥٦٧٨٩) — used in MSA and many Arab countries. Read left-to-right despite the right-to-left script. 2026 in Eastern: ٢٠٢٦."
+    },
+    "verbForms": {
+      "title": "Ten verb forms (awzān)",
+      "body": "Arabic verbs derive from 3-letter roots. Ten patterns (forms I–X) modify the root for different meanings. Form I — basic action (كَتَبَ kataba — he wrote). Form II — intensive/causative (كَتَّبَ kattaba — he made write). Form III — reciprocal (كَاتَبَ kātaba — he corresponded). Form V — reflexive of II. Form VII — passive. Form VIII — reflexive. Form X — request/seek. Learning to recognise the pattern unlocks vocabulary growth."
+    },
+    "dialects": {
+      "title": "Dialects vs MSA",
+      "items": [
+        "Modern Standard Arabic (MSA) — used in news, books, formal contexts. What you study in school.",
+        "Egyptian — most widely understood dialect due to film and TV.",
+        "Levantine — Syria, Lebanon, Jordan, Palestine — soft, often called 'gentle Arabic'.",
+        "Gulf — Saudi Arabia, UAE, Qatar — preserves more classical features.",
+        "Maghrebi — Morocco, Algeria, Tunisia — heavy Berber and French influence, hardest for others to understand."
+      ]
+    },
+    "culture": {
+      "title": "Cultural insights",
+      "body": "Arabic is the liturgical language of Islam — over 1.8 billion people connect with it through the Qur'an. The Arab world has 22 countries. Major contributions: algebra (al-jabr), the numeral system (via India), astronomy, medicine, philosophy (Avicenna, Averroes). The Arabic script has inspired calligraphy as a major art form. Common greetings: السلام عليكم (peace be upon you)."
+    },
+    "literature": {
+      "title": "Classics & poetry",
+      "items": [
+        "One Thousand and One Nights (ألف ليلة وليلة) — frame story including Aladdin, Sinbad, Ali Baba.",
+        "Mahmoud Darwish — Palestinian poet, voice of exile.",
+        "Naguib Mahfouz — first Arab to win Nobel in Literature (1988). The Cairo Trilogy.",
+        "Nizar Qabbani — Syrian poet of love and politics.",
+        "Khalil Gibran — Lebanese-American author of 'The Prophet'."
+      ]
+    }
   }
 }

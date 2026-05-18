@@ -9,7 +9,37 @@
     "electricity": "Electricity & Magnetism",
     "wavesOptics": "Waves & Optics",
     "criteria": "MYP Criteria",
-    "resources": "Resources"
+    "resources": "Resources",
+    "extras": "Extras (beyond G9)"
+  },
+  "extras": {
+    "title": "Physics — Extras",
+    "intro": "Topics beyond the G9 revision list. For curious minds and IB DP preview.",
+    "relativity": {
+      "title": "Special relativity — intro",
+      "body": "Two postulates (Einstein, 1905): the laws of physics are the same in all inertial frames; the speed of light is constant for all observers (c ≈ 3 × 10⁸ m/s). Consequences: moving clocks run slow (time dilation), moving objects shorten (length contraction), and E = mc² (mass-energy equivalence)."
+    },
+    "quantum": {
+      "title": "Quantum mechanics — intro",
+      "body": "Energy and matter come in discrete packets (quanta). Photon energy E = hf, where h ≈ 6.63 × 10⁻³⁴ J·s. Wave–particle duality: electrons and photons behave as both. The uncertainty principle: you cannot know position and momentum simultaneously with perfect accuracy."
+    },
+    "thermo": {
+      "title": "Thermodynamics — laws",
+      "items": [
+        "0th law — if A is in thermal equilibrium with B, and B with C, then A with C. Defines temperature.",
+        "1st law — energy is conserved: ΔU = Q − W (heat added minus work done).",
+        "2nd law — entropy of an isolated system never decreases. Why heat flows from hot to cold.",
+        "3rd law — entropy approaches a constant as temperature → 0 K."
+      ]
+    },
+    "astro": {
+      "title": "Astrophysics — basics",
+      "body": "Stars form from collapsing gas clouds. Fusion of hydrogen → helium in the core releases energy. Stars die as white dwarfs, neutron stars, or black holes depending on mass. The universe began ~13.8 billion years ago (Big Bang) — evidence from cosmic microwave background and expansion (Hubble)."
+    },
+    "renewable": {
+      "title": "Renewable energy — engineering",
+      "body": "Solar PV — photons knock electrons free in silicon, generating current. Wind — turbines convert kinetic energy of moving air to electrical (P ∝ v³). Hydro — gravitational PE of water drives turbines. Tidal — predictable, twice daily. Geothermal — heat from Earth's core."
+    }
   },
   "common": {
     "theory": "Theory",

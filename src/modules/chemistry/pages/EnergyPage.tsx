@@ -1,6 +1,8 @@
 import { Flame } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
+import { EnergyProfile } from '../../../components/simulations/chemistry/EnergyProfile';
+import { SectionHeading } from '../../../components/content/TopicHero';
 
 const TYPES = ['exothermic', 'endothermic'];
 
@@ -26,6 +28,8 @@ export function EnergyPage() {
         body={t('energy.sections.calorimetry.body')}
         borderColor="var(--color-accent-warm)"
       />
+      <SectionHeading>Interactive — Energy Profile</SectionHeading>
+      <EnergyProfile />
     </ChemistryTopicLayout>
   );
 }

@@ -5,6 +5,16 @@
     "intro": "Four revision sheets brought to life: Rivers, Tourism, Resource Reliance, and Atmospheric Hazards. Each topic includes an Active Recall mode that hides model answers so you can practice retrieval.",
     "activeRecallToggle": "Active recall mode"
   },
+  "simulations": {
+    "hydrograph": {
+      "title": "Storm Hydrograph",
+      "description": "Drag rainfall intensity, soil saturation, urbanisation — see the hydrograph change from subdued to flashy."
+    },
+    "circulation": {
+      "title": "Atmospheric Circulation",
+      "description": "Hover each cell (Hadley, Ferrel, Polar) to see how air moves. Pressure markers show where rainforests, deserts, storm zones form."
+    }
+  },
   "nav": {
     "home": "Overview",
     "rivers": "Rivers",

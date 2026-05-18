@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Cloud } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 import { EnsoToggle } from '../../../components/simulations/geography/EnsoToggle';
+import { AtmosphericCirculation } from '../../../components/simulations/geography/AtmosphericCirculation';
 import { ActiveRecallBlock } from '../../../components/content/ActiveRecallBlock';
 
 export function AtmosphericHazardsPage() {
@@ -23,9 +24,10 @@ export function AtmosphericHazardsPage() {
       </p>
 
       <SectionHeading>{t('atmosphericHazards.sections.circulation.title')}</SectionHeading>
-      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
+      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm mb-4">
         {t('atmosphericHazards.sections.circulation.items')}
       </p>
+      <AtmosphericCirculation />
 
       <SectionHeading>{t('atmosphericHazards.sections.pressure.title')}</SectionHeading>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

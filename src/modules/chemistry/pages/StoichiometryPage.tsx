@@ -1,6 +1,8 @@
 import { Calculator } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
+import { MoleCalculator } from '../../../components/simulations/chemistry/MoleCalculator';
+import { SectionHeading } from '../../../components/content/TopicHero';
 
 const SECTIONS = ['moles', 'molarMass', 'calculations', 'limiting', 'percentYield'];
 
@@ -16,6 +18,8 @@ export function StoichiometryPage() {
           borderColor="var(--color-accent-sky)"
         />
       ))}
+      <SectionHeading>Interactive — Mole Calculator</SectionHeading>
+      <MoleCalculator />
     </ChemistryTopicLayout>
   );
 }

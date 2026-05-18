@@ -2,8 +2,26 @@
   "subjectName": "Chemistry",
   "home": {
     "title": "Chemistry — Revision",
-    "intro": "Six core topics for G9 IB MYP Chemistry: atomic structure, bonding, reactions, stoichiometry, acids & bases, energy changes.",
+    "intro": "Eight core topics for G9 IB MYP Chemistry, matching the teacher's revision booklet. Each topic page has explanations and interactive simulations.",
     "topicsHeading": "Topics"
+  },
+  "simulations": {
+    "phIndicator": {
+      "title": "pH Indicator",
+      "description": "Drag the pH slider; see colour change for universal, litmus and phenolphthalein. Real-world examples for each level."
+    },
+    "atomBuilder": {
+      "title": "Atom Builder",
+      "description": "Pick element 1-20; see protons, neutrons, electrons and shell configuration on a Bohr model."
+    },
+    "moleCalc": {
+      "title": "Mole Calculator",
+      "description": "Convert between mass, moles, and gas volume at STP. With buttons for common molar masses (H₂O, NaCl, CaCO₃...)."
+    },
+    "energyProfile": {
+      "title": "Energy Profile Diagram",
+      "description": "Toggle exo/endo, adjust activation energy and ΔH — see the reaction-progress curve update."
+    }
   },
   "nav": {
     "home": "Overview",

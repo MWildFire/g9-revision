@@ -34,7 +34,33 @@
         "Proof by contradiction — assume opposite, show it leads to absurdity.",
         "Proof by induction — base case + inductive step (n → n+1). Used for sums and divisibility.",
         "Counterexample — one example disproves a 'for all' claim."
-      ]
+      ],
+      "detailed": {
+        "direct": {
+          "name": "Direct proof",
+          "rule": "Start from the GIVEN premises and use logical steps (definitions, axioms, theorems) to derive the conclusion. Most common type. Best when there's a clear path.",
+          "examples": ["PROVE: sum of two even numbers is even. Let a = 2m, b = 2n (definition of even). a + b = 2m + 2n = 2(m+n). 2(m+n) is even (definition). QED.", "PROVE: angles in a triangle sum to 180°. Draw a line through one vertex parallel to the opposite side. Use alternate angles. Done.", "PROVE: a² − b² = (a−b)(a+b). Expand right side: (a−b)(a+b) = a² + ab − ab − b² = a² − b². QED."],
+          "tip": "Always state what you're TRYING to prove at the top. End with QED (or ∎) to signal the proof is complete."
+        },
+        "contradiction": {
+          "name": "Proof by contradiction",
+          "rule": "Assume the OPPOSITE of what you want to prove. Derive a logical contradiction (something obviously false). Conclude original statement must be true. Powerful when direct proof is awkward.",
+          "examples": ["PROVE: √2 is irrational. Assume √2 IS rational, so √2 = a/b in lowest terms. Square: 2 = a²/b². So a² = 2b². a² is even → a is even → a = 2k. Then 4k² = 2b² → b² = 2k² → b also even. But a/b was in lowest terms — CONTRADICTION. So √2 is irrational.", "PROVE: there are infinitely many primes. Assume finitely many: p₁, p₂, …, pₙ. Consider N = p₁·p₂·…·pₙ + 1. N is not divisible by any pᵢ (remainder 1). So either N is prime (contradicts list being complete) or has a new prime factor."],
+          "watchOut": "When deriving contradiction, BE EXPLICIT about what contradicts what. Don't just say 'this is wrong' — show why."
+        },
+        "induction": {
+          "name": "Proof by induction",
+          "rule": "Two steps: (1) BASE CASE — show statement true for n=1. (2) INDUCTIVE STEP — assume true for n=k, show true for n=k+1. Conclusion: true for all positive integers. Like dominoes.",
+          "examples": ["PROVE: 1 + 2 + … + n = n(n+1)/2. Base: n=1, LHS=1, RHS=1·2/2=1. ✓ Inductive: assume true for k. Add (k+1): k(k+1)/2 + (k+1) = (k+1)(k+2)/2. ✓", "PROVE: 2ⁿ > n for all positive integers. Base: 2¹=2>1. ✓ Inductive: 2^(k+1) = 2·2ᵏ > 2k ≥ k+1 (since k ≥ 1). ✓", "Divisibility example: PROVE 7ⁿ − 1 is divisible by 6. Base: 7¹−1 = 6. ✓ Inductive: 7^(k+1) − 1 = 7·7ᵏ − 1 = 7(7ᵏ − 1) + 6 = 7·6m + 6 = 6(7m+1). ✓"],
+          "tip": "Always do BOTH steps explicitly. Skipping the base case is a common error — the inductive step alone proves nothing."
+        },
+        "counterexample": {
+          "name": "Counterexample",
+          "rule": "To DISPROVE a 'for all' statement, find a SINGLE example where it fails. To prove a 'for all' statement, you need a proof; to disprove, ONE counter is enough.",
+          "examples": ["CLAIM: 'all primes are odd'. Counterexample: 2 is prime AND even. Disproved.", "CLAIM: 'n² > n for all positive integers'. Counterexample: n=1 gives 1²=1, NOT > 1. Disproved.", "CLAIM: 'every quadratic has real roots'. Counterexample: x² + 1 = 0 has no real roots. Disproved.", "CLAIM: 'if a²=b² then a=b'. Counterexample: a=−3, b=3. Both square to 9 but aren't equal."],
+          "tip": "Look at extreme cases (n=0, n=1, n very large, negative numbers, zero). Most counterexamples come from edge cases."
+        }
+      }
     },
     "numberTheory": {
       "title": "Number theory basics",

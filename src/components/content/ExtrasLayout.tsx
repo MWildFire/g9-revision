@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Sparkles, AlertCircle } from 'lucide-react';
 import { TopicHero, SectionHeading } from './TopicHero';
+import { DetailedCard, DetailedItem } from './DetailedCard';
 
 interface Props {
   title: string;
@@ -39,10 +40,16 @@ interface SectionProps {
   body?: string;
   items?: string[];
   bullets?: string[];
+  detailedItems?: DetailedItem[];
   borderColor?: string;
 }
 
-export function ExtraSection({ title, body, items, bullets, borderColor }: SectionProps) {
+export function ExtraSection({ title, body, items, bullets, detailedItems, borderColor }: SectionProps) {
+  const { i18n } = useTranslation();
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
   return (
     <>
       <SectionHeading>{title}</SectionHeading>
@@ -53,6 +60,13 @@ export function ExtraSection({ title, body, items, bullets, borderColor }: Secti
         >
           {body}
         </p>
+      ) : null}
+      {detailedItems && detailedItems.length > 0 ? (
+        <div className="space-y-3">
+          {detailedItems.map((item, i) => (
+            <DetailedCard key={i} item={item} borderColor={borderColor} labels={labels} />
+          ))}
+        </div>
       ) : null}
       {items && items.length > 0 ? (
         <ul className="space-y-2">

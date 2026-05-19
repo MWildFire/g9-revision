@@ -1,5 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { ExtrasLayout, ExtraSection } from '../../../components/content/ExtrasLayout';
+import { DetailedItem } from '../../../components/content/DetailedCard';
+
+const PROOF_TYPES = ['direct', 'contradiction', 'induction', 'counterexample'];
 
 export function MathExtrasPage() {
   const { t } = useTranslation('math');
@@ -13,7 +16,8 @@ export function MathExtrasPage() {
       />
       <ExtraSection
         title={t('extras.proofs.title')}
-        items={(t('extras.proofs.items', { returnObjects: true }) as string[]) ?? []}
+        detailedItems={PROOF_TYPES.map((k) => t(`extras.proofs.detailed.${k}`, { returnObjects: true }) as DetailedItem)}
+        borderColor="var(--color-accent-clay)"
       />
       <ExtraSection
         title={t('extras.numberTheory.title')}

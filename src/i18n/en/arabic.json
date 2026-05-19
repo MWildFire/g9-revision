@@ -147,7 +147,39 @@
         "Levantine — Syria, Lebanon, Jordan, Palestine — soft, often called 'gentle Arabic'.",
         "Gulf — Saudi Arabia, UAE, Qatar — preserves more classical features.",
         "Maghrebi — Morocco, Algeria, Tunisia — heavy Berber and French influence, hardest for others to understand."
-      ]
+      ],
+      "detailed": {
+        "msa": {
+          "name": "Modern Standard Arabic (MSA / الفصحى)",
+          "rule": "The PRESTIGE form used across all 22 Arab countries. Standardised. Direct descendant of Classical Arabic (the Qur'anic language). Mutual intelligibility ensured: news, government, formal speeches, schoolbooks.",
+          "examples": ["Used by Al Jazeera, BBC Arabic, Al Arabiya in news broadcasts.", "All school textbooks, official documents, religious texts (Qur'an).", "Most public signs in airports, government buildings.", "Nobody speaks MSA at home — it's a written/formal language."],
+          "tip": "If you can only learn ONE form, MSA opens doors across the entire Arab world. School pretty much always teaches MSA."
+        },
+        "egyptian": {
+          "name": "Egyptian Arabic (مصري)",
+          "rule": "Most WIDELY UNDERSTOOD dialect — thanks to Egypt's massive film and TV industry. Egyptian films and Ramadan dramas reach all 22 Arab countries. Some unique sounds (j → g: 'gameel' instead of 'jameel' for 'beautiful').",
+          "examples": ["~104 million speakers (Egypt's population).", "Stars: Omar Sharif (cinema), Umm Kulthum (singer, called 'Star of the East').", "Cairo dialect (CAIRENE Arabic) most prestigious within Egypt.", "Egyptian word for 'how are you?': إزَّيَّك (izzayyak m / izzayyik f) — VERY different from MSA كَيْفَ حالُك."],
+          "tip": "If you watch any Arabic media for fun, you'll absorb Egyptian without trying. Easiest dialect to find content in."
+        },
+        "levantine": {
+          "name": "Levantine Arabic (شامي)",
+          "rule": "Spoken in SYRIA, LEBANON, JORDAN, PALESTINE. Often called 'gentle Arabic' for its softer pronunciation. Heavily influenced by older Aramaic and Turkish. Considered melodious; popular in music (Fairouz, etc.).",
+          "examples": ["Lebanese pop culture (Fairouz, Nancy Ajram) brings this dialect global.", "'Kifak' for 'how are you?' (m) — Lebanese.", "Distinctive: drops 'q' sound — qalb (heart, MSA) → 'alb (Levantine).", "Damascus Arabic considered the most refined within Levantine."],
+          "watchOut": "Has many sub-dialects: Beirut Lebanese, Damascus Syrian, Jerusalem Palestinian — small differences."
+        },
+        "gulf": {
+          "name": "Gulf Arabic (خليجي)",
+          "rule": "Spoken in SAUDI ARABIA, UAE, QATAR, KUWAIT, BAHRAIN, OMAN. PRESERVES MORE CLASSICAL FEATURES than other dialects — closer to MSA. Slower pace. Bedouin influences in older generations.",
+          "examples": ["Dubai's diversity means many Gulf Arabs speak English alongside their dialect.", "'Shloonak' = 'how are you?' (m, Gulf) — sounds different again.", "Gulf food and music has spread regionally (Khaleeji music).", "Use this dialect if living in UAE."],
+          "tip": "Closer to MSA than other dialects — if your MSA is solid, you can understand Gulf better than Egyptian or Maghrebi."
+        },
+        "maghrebi": {
+          "name": "Maghrebi Arabic (مغربي / دارجة)",
+          "rule": "Spoken in MOROCCO, ALGERIA, TUNISIA, LIBYA. Heavy BERBER, FRENCH, SPANISH influences. Compressed vowels. Often INTELLIGIBLE only to other Maghrebis — even other Arabs struggle to follow.",
+          "examples": ["'Kifash dayer?' = 'how are you doing?' (Moroccan).", "French loanwords everywhere: 'plage' for beach (Morocco), 'tlephone' for phone.", "Code-switching between Arabic, Berber and French is normal.", "Famous Maghrebi music genres: Rai (Algeria), Chaabi (Morocco)."],
+          "watchOut": "If you visit Morocco/Algeria, plan to use MSA, French or English to communicate — Maghrebi is the most distinct dialect."
+        }
+      }
     },
     "culture": {
       "title": "Cultural insights",
@@ -161,7 +193,39 @@
         "Naguib Mahfouz — first Arab to win Nobel in Literature (1988). The Cairo Trilogy.",
         "Nizar Qabbani — Syrian poet of love and politics.",
         "Khalil Gibran — Lebanese-American author of 'The Prophet'."
-      ]
+      ],
+      "detailed": {
+        "nights": {
+          "name": "One Thousand and One Nights (ألف ليلة وليلة)",
+          "rule": "Collection of Middle Eastern folktales compiled across centuries, framed by the story of Scheherazade — a queen telling stories nightly to delay her execution. Most famous Arabic literary work in the West.",
+          "examples": ["Frame story: King Shahryar marries a new bride daily and executes her at dawn. Scheherazade tells him a cliffhanger story each night → he spares her to hear the end.", "Famous tales: Aladdin, Sinbad the Sailor, Ali Baba and the 40 Thieves.", "Note: Aladdin and Ali Baba were ADDED to the collection by French translator Antoine Galland (1700s); not in original Arabic versions.", "Best modern English translation: Husain Haddawy (1990)."],
+          "tip": "Translated into ALL major world languages. Has inspired Disney films, ballets, operas — defining 'Orientalist' fantasy for the West."
+        },
+        "darwish": {
+          "name": "Mahmoud Darwish (1941-2008)",
+          "rule": "Palestinian poet considered the voice of Palestinian exile and resistance. Born in Galilee, displaced in 1948. Wrote about HOMELAND, MEMORY, LOSS. National poet of Palestine.",
+          "examples": ["Famous poem: 'Identity Card' (1964) — proud declaration of being Palestinian.", "'In Praise of the High Shadow' on the 1982 siege of Beirut.", "Won Lannan Cultural Freedom Prize (2001).", "His funeral in Ramallah was state-attended (2008).", "Read 'I Belong There' for accessible English translations."],
+          "tip": "More humanist than 'just political' — wrote about love, identity, the universal experience of being uprooted."
+        },
+        "mahfouz": {
+          "name": "Naguib Mahfouz (1911-2006)",
+          "rule": "First Arab to win the NOBEL PRIZE IN LITERATURE (1988). Egyptian novelist. Modernised Arabic prose. Often called the 'Dickens of Cairo' for his social realism.",
+          "examples": ["Most famous: The CAIRO TRILOGY (1956-57) — Palace Walk, Palace of Desire, Sugar Street. Multi-generational saga.", "Children of the Alley (1959) — symbolic religious allegory; banned in much of Arab world.", "Wrote 30+ novels and 100s of short stories.", "Survived assassination attempt 1994 (linked to his banned book)."],
+          "watchOut": "His 1950s Cairo writings depict a city that no longer exists — fascinating historical document of pre-revolutionary Egypt."
+        },
+        "qabbani": {
+          "name": "Nizar Qabbani (1923-1998)",
+          "rule": "Syrian poet who DEMOCRATISED ARABIC POETRY by writing in accessible language about LOVE, SENSUALITY, and POLITICS. Most popular Arab poet of 20th century. Controversial for breaking taboos.",
+          "examples": ["Famous love poems include 'The Diary of an Indifferent Woman' from a woman's perspective — revolutionary for its time.", "Wife killed in 1981 bombing of Iraqi embassy in Beirut — turned his poetry darker.", "Wrote 'Marginal Notes on the Book of Defeat' after Arab loss in 1967 war — bold political critique.", "His poetry is sung by major Arab singers (Umm Kulthum, Fairouz)."],
+          "tip": "If learning Arabic for poetry, start with Qabbani — his accessible language makes him a perfect entry point."
+        },
+        "gibran": {
+          "name": "Khalil Gibran (1883-1931)",
+          "rule": "Lebanese-American author and philosopher. Wrote mainly in ENGLISH (and Arabic). The Prophet (1923) — most translated book in 20th century after the Bible.",
+          "examples": ["The Prophet: 26 prose-poetry essays on love, work, freedom, marriage etc.", "'On Children': 'Your children are not your children. They are the sons and daughters of Life's longing for itself.' — widely quoted at weddings/funerals.", "Immigrant to USA in 1895 (age 12). Wrote from Boston/NYC.", "Translated into 100+ languages; never out of print."],
+          "tip": "Bridge between Arab and Western culture. The Prophet was huge in 1960s American counterculture — Bob Dylan, John Lennon read it."
+        }
+      }
     }
   }
 }

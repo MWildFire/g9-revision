@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { format, startOfWeek, eachDayOfInterval, addDays, addWeeks } from 'date-fns';
+import { format, startOfWeek, eachDayOfInterval, addDays, addWeeks, subWeeks } from 'date-fns';
 import { ru, enUS } from 'date-fns/locale';
 import { Calendar, Plus, X, Check } from 'lucide-react';
 import { useLocalProgress } from '../hooks/useLocalProgress';
@@ -321,12 +321,16 @@ function TopicLabel({ ns, labelKey }: { ns: string; labelKey: string }) {
   return <>{t(labelKey)}</>;
 }
 
+const WEEKS_BEFORE_TODAY = 2;
+const MAX_WEEKS = 16;
+
 function buildWeeks(examDate: Date): Date[][] {
   const today = new Date();
-  const start = startOfWeek(today, { weekStartsOn: 1 });
+  const currentWeekStart = startOfWeek(today, { weekStartsOn: 1 });
+  const start = subWeeks(currentWeekStart, WEEKS_BEFORE_TODAY);
   const result: Date[][] = [];
   let weekStart = start;
-  for (let i = 0; i < 12; i++) {
+  for (let i = 0; i < MAX_WEEKS; i++) {
     if (weekStart > examDate) break;
     const days = eachDayOfInterval({ start: weekStart, end: addDays(weekStart, 6) });
     result.push(days);

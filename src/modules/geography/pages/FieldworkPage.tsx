@@ -1,24 +1,25 @@
 import { useTranslation } from 'react-i18next';
 import { ClipboardList } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
-interface Section {
-  body?: string;
-  items?: Record<string, string>;
-}
-
-const SECTIONS: { key: string; type: 'items' | 'body' }[] = [
-  { key: 'aimHypothesis', type: 'items' },
-  { key: 'dataTypes', type: 'items' },
-  { key: 'sampling', type: 'items' },
+const SECTIONS: { key: string; type: 'detailed' | 'body' }[] = [
+  { key: 'aimHypothesis', type: 'detailed' },
+  { key: 'dataTypes', type: 'detailed' },
+  { key: 'sampling', type: 'detailed' },
   { key: 'methodology', type: 'body' },
-  { key: 'presentation', type: 'items' },
+  { key: 'presentation', type: 'detailed' },
   { key: 'analysis', type: 'body' },
-  { key: 'conclusionsEvaluation', type: 'items' },
+  { key: 'conclusionsEvaluation', type: 'detailed' },
 ];
 
 export function FieldworkPage() {
-  const { t } = useTranslation('geography');
+  const { t, i18n } = useTranslation('geography');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
+
   return (
     <div>
       <TopicHero title={t('fieldwork.title')} intro={t('fieldwork.intro')} icon={<ClipboardList size={28} />} />
@@ -34,15 +35,15 @@ export function FieldworkPage() {
             </div>
           );
         }
-        const items = t(`fieldwork.sections.${key}.items`, { returnObjects: true }) as Record<string, string>;
+        const detailedMap = t(`fieldwork.sections.${key}.detailed`, { returnObjects: true }) as Record<string, DetailedItem>;
         return (
           <div key={key}>
             <SectionHeading>{sectionTitle}</SectionHeading>
-            <ul className="space-y-2">
-              {Object.entries(items).map(([k, v]) => (
-                <li key={k} className="bg-bg-secondary border border-border rounded-md px-4 py-2.5 text-sm">{v}</li>
+            <div className="space-y-3">
+              {Object.entries(detailedMap).map(([k, item]) => (
+                <DetailedCard key={k} item={item} borderColor="var(--color-accent-sky-deep)" labels={labels} />
               ))}
-            </ul>
+            </div>
           </div>
         );
       })}

@@ -84,13 +84,12 @@ export function TourismPage() {
       </div>
 
       <SectionHeading>{t('tourism.sections.otherTypes.title')}</SectionHeading>
-      <ul className="space-y-2">
-        {OTHER_TYPES.map((id) => (
-          <li key={id} className="bg-bg-secondary border border-border rounded-md px-4 py-2.5 text-sm">
-            {t(`tourism.sections.otherTypes.items.${id}`)}
-          </li>
-        ))}
-      </ul>
+      <div className="space-y-3">
+        {OTHER_TYPES.map((id) => {
+          const item = t(`tourism.sections.otherTypes.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          return <DetailedCard key={`o-${id}`} item={item} borderColor="var(--color-accent-sky)" labels={labels} />;
+        })}
+      </div>
 
       <SectionHeading>Active recall</SectionHeading>
       <div className="space-y-3">

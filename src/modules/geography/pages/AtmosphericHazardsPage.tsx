@@ -4,50 +4,55 @@ import { TopicHero, SectionHeading } from '../../../components/content/TopicHero
 import { EnsoToggle } from '../../../components/simulations/geography/EnsoToggle';
 import { AtmosphericCirculation } from '../../../components/simulations/geography/AtmosphericCirculation';
 import { ActiveRecallBlock } from '../../../components/content/ActiveRecallBlock';
+import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
+
+const ZONES = ['polar', 'temperate', 'arid', 'tropical', 'mediterranean', 'mountainous'];
+const CELLS = ['hadley', 'ferrel', 'polar'];
 
 export function AtmosphericHazardsPage() {
-  const { t } = useTranslation('geography');
+  const { t, i18n } = useTranslation('geography');
   const TOPIC = 'atmosphericHazards';
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
+
+  const renderDetailed = (path: string, keys: string[], borderColor: string) => (
+    <div className="space-y-3">
+      {keys.map((id) => {
+        const item = t(`${path}.${id}`, { returnObjects: true }) as DetailedItem;
+        return <DetailedCard key={id} item={item} borderColor={borderColor} labels={labels} />;
+      })}
+    </div>
+  );
 
   return (
     <div>
       <TopicHero title={t('atmosphericHazards.title')} intro={t('atmosphericHazards.intro')} icon={<Cloud size={28} />} />
 
       <SectionHeading>{t('atmosphericHazards.sections.climateZones.title')}</SectionHeading>
-      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-        {t('atmosphericHazards.sections.climateZones.items')}
-      </p>
+      {renderDetailed('atmosphericHazards.sections.climateZones.detailed', ZONES, 'var(--color-accent-sky-deep)')}
 
       <SectionHeading>{t('atmosphericHazards.sections.latitudeSun.title')}</SectionHeading>
-      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-        {t('atmosphericHazards.sections.latitudeSun.description')}
-      </p>
+      {renderDetailed('atmosphericHazards.sections.latitudeSun.detailed', ['physics', 'tilt'], 'var(--color-accent-warm)')}
 
       <SectionHeading>{t('atmosphericHazards.sections.circulation.title')}</SectionHeading>
-      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm mb-4">
-        {t('atmosphericHazards.sections.circulation.items')}
-      </p>
-      <AtmosphericCirculation />
-
-      <SectionHeading>{t('atmosphericHazards.sections.pressure.title')}</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        <div className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-          <strong className="block mb-1">High pressure</strong>
-          {t('atmosphericHazards.sections.pressure.high')}
-        </div>
-        <div className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-          <strong className="block mb-1">Low pressure</strong>
-          {t('atmosphericHazards.sections.pressure.low')}
-        </div>
+      {renderDetailed('atmosphericHazards.sections.circulation.detailed', CELLS, 'var(--color-accent-sage)')}
+      <div className="mt-4">
+        <AtmosphericCirculation />
       </div>
 
+      <SectionHeading>{t('atmosphericHazards.sections.pressure.title')}</SectionHeading>
+      {renderDetailed('atmosphericHazards.sections.pressure.detailed', ['high', 'low'], 'var(--color-accent-clay)')}
+
       <SectionHeading>{t('atmosphericHazards.sections.tropicalStorms.title')}</SectionHeading>
-      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
-        {t('atmosphericHazards.sections.tropicalStorms.description')}
-      </p>
+      {renderDetailed('atmosphericHazards.sections.tropicalStorms.detailed', ['formation', 'naming', 'impacts'], 'var(--color-accent-rose-muted)')}
 
       <SectionHeading>{t('atmosphericHazards.sections.enso.title')}</SectionHeading>
-      <EnsoToggle />
+      {renderDetailed('atmosphericHazards.sections.enso.detailed', ['normal', 'elNino', 'laNina'], 'var(--color-accent-sky)')}
+      <div className="mt-4">
+        <EnsoToggle />
+      </div>
 
       <SectionHeading>{t('atmosphericHazards.sections.haiyan.title')}</SectionHeading>
       <div className="bg-bg-secondary border border-border rounded-md p-4">

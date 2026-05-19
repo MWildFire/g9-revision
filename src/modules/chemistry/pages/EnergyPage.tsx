@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
 import { EnergyProfile } from '../../../components/simulations/chemistry/EnergyProfile';
 import { SectionHeading } from '../../../components/content/TopicHero';
+import { DetailedItem } from '../../../components/content/DetailedCard';
 
 const TYPES = ['exothermic', 'endothermic'];
 
@@ -12,7 +13,8 @@ export function EnergyPage() {
     <ChemistryTopicLayout topicKey="energy" icon={<Flame size={28} />}>
       <ChemSection
         title={t('energy.sections.types.title')}
-        items={TYPES.map((k) => ({ key: k, text: t(`energy.sections.types.items.${k}`) }))}
+        detailedItems={TYPES.map((k) => t(`energy.sections.types.detailed.${k}`, { returnObjects: true }) as DetailedItem)}
+        borderColor="var(--color-accent-warm)"
       />
       <ChemSection
         title={t('energy.sections.profiles.title')}

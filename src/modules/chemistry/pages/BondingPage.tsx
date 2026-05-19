@@ -1,6 +1,7 @@
 import { Link as LinkIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
+import { DetailedItem } from '../../../components/content/DetailedCard';
 
 const COMPARISON_KEYS = ['ionic', 'simpleCovalent', 'giantCovalent', 'metallic'];
 
@@ -25,7 +26,8 @@ export function BondingPage() {
       />
       <ChemSection
         title={t('bonding.sections.comparison.title')}
-        items={COMPARISON_KEYS.map((k) => ({ key: k, text: t(`bonding.sections.comparison.items.${k}`) }))}
+        detailedItems={COMPARISON_KEYS.map((k) => t(`bonding.sections.comparison.detailed.${k}`, { returnObjects: true }) as DetailedItem)}
+        borderColor="var(--color-accent-clay)"
       />
     </ChemistryTopicLayout>
   );

@@ -58,6 +58,38 @@
           "evidence": "Evidence: rising global temperatures, melting ice caps, sea level rise, ocean acidification, shifted seasons, more extreme weather.",
           "consequences": "Consequences: flooding of low-lying nations, droughts, biodiversity loss, food insecurity, climate refugees.",
           "mitigation": "Mitigation: renewables (solar, wind), carbon capture, reforestation, less meat, electric transport, energy efficiency."
+        },
+        "detailed": {
+          "cause": {
+            "name": "Causes of human-driven climate change",
+            "rule": "Burning fossil fuels (coal, oil, gas) releases CO₂. Deforestation removes trees that would absorb CO₂. Agriculture (cattle, rice) releases methane (CH₄, 25× stronger than CO₂). Industrial processes release N₂O, fluorinated gases.",
+            "examples": ["Pre-industrial CO₂: 280 ppm. Today (2025): 425 ppm — 50% increase.", "Top emitters: China (28%), USA (15%), EU (8%), India (7%), Russia (5%).", "Per-capita: USA ~15 t/year, EU ~7, India ~2. Massive inequality.", "Worst single contributor: coal-fired power plants. Cement production = 8% of emissions.", "1.5°C target (Paris Agreement) — already +1.2°C above pre-industrial."],
+            "tip": "Greenhouse Gas Potential (GWP) measures relative warming power. CO₂ = 1 (baseline); methane = 28; N₂O = 273. Methane lasts ~12 years; CO₂ thousands."
+          },
+          "evidence": {
+            "name": "Evidence climate is changing",
+            "rule": "Multiple independent lines of evidence all point the same direction: temperature records, ice cores, sea level, glacier retreat, biodiversity shifts, extreme weather frequency.",
+            "examples": ["Direct temperature records since 1850: 1.2°C warmer, last 10 years all in top-10 hottest ever.", "Ice cores (Vostok, EPICA): show CO₂ tracks temperature over 800,000 years.", "Sea level: rising 3.4 mm/year now (was 1.5 mm/year in 1900s).", "Arctic sea ice down 13% per decade.", "Bird migration patterns shifted by weeks. Tropical diseases moving toward poles."],
+            "tip": "Climate VARIABILITY (year-to-year) ≠ climate CHANGE (long-term trend). One cold winter doesn't disprove decades of warming."
+          },
+          "consequences": {
+            "name": "Consequences",
+            "rule": "Sea-level rise floods coastal cities. Crop failures from droughts and floods. Heatwaves cause excess deaths. Ocean acidification destroys coral reefs. Species migrations and extinctions. Climate refugees displace millions.",
+            "examples": ["Maldives, Tuvalu — entire countries at risk of being uninhabitable.", "Australian bushfires 2019-20 killed 1 billion+ animals.", "European heatwave 2003: 70,000 excess deaths.", "Coral reefs: 50% lost since 1950 from warming + acidification.", "By 2050, expected 200 million-1 billion climate refugees."],
+            "watchOut": "Effects DISPROPORTIONATELY hurt poor countries that contributed LEAST to emissions. Climate justice is a moral issue, not just scientific."
+          },
+          "mitigation": {
+            "name": "Mitigation — reducing emissions",
+            "rule": "Switching to renewable energy (solar, wind, hydro, nuclear). Energy efficiency (insulation, LED). Electrified transport. Reforestation. Carbon capture & storage. Carbon pricing (taxes, ETS). Plant-based diets.",
+            "examples": ["Costa Rica: 99% renewable electricity since 2015.", "EU Emissions Trading Scheme: carbon trading, prices rose to €90+/ton.", "Tesla and Chinese EVs: electric car sales now 18% of global new cars.", "Methane cuts from cattle and rice can give near-instant temperature relief.", "Direct Air Capture: Iceland Climeworks plant captures 4,000 t CO₂/year (still expensive)."],
+            "tip": "Mitigation is about PREVENTING further damage. Adaptation is about COPING with damage already happening. Both needed."
+          },
+          "adaptation": {
+            "name": "Adaptation — living with changing climate",
+            "rule": "Building sea walls and flood defences. Drought-resistant crops. Better forecasting and warning systems. Heatwave action plans. Air conditioning. Relocating communities. Insurance reform.",
+            "examples": ["Netherlands 'Room for the River' programme — controlled flooding zones.", "Bangladesh: cyclone shelters reduced deaths from 500,000 (1970) to under 200 (recent storms).", "Singapore: 2°C cooler street design, white roofs, urban trees.", "Drought-resistant maize varieties in Sub-Saharan Africa.", "London flood barrier (Thames Barrier) raised to handle higher sea levels."],
+            "tip": "Adaptation is expensive but unavoidable — even with full mitigation, the planet will warm further from existing CO₂. Some change is locked in."
+          }
         }
       },
       "pollutants": {
@@ -68,6 +100,38 @@
           "soot": "Soot / particulates — incomplete combustion; respiratory disease, dirty buildings",
           "sox": "SO₂ (sulfur dioxide) — burning sulfur-containing fuels; acid rain (SO₂ + H₂O → H₂SO₃)",
           "nox": "NOx — high-temperature combustion (car engines); acid rain + photochemical smog"
+        },
+        "detailed": {
+          "co2": {
+            "name": "Carbon dioxide (CO₂)",
+            "rule": "Produced by COMPLETE combustion of any carbon fuel: C + O₂ → CO₂. Also from respiration. Main long-lived greenhouse gas. Concentration rising 2-3 ppm/year.",
+            "examples": ["Burning octane (petrol): 2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O.", "Average UK home emits 2-3 tonnes CO₂/year from heating.", "Driving 1 mile in petrol car ≈ 400 g CO₂. EV = ~100 g (depending on grid).", "Cement production releases CO₂ via decomposition: CaCO₃ → CaO + CO₂ (chemical not combustion)."],
+            "tip": "Not toxic at normal levels but dangerous at high concentrations (>5%) — can cause headaches, drowsiness, suffocation."
+          },
+          "co": {
+            "name": "Carbon monoxide (CO)",
+            "rule": "Produced by INCOMPLETE combustion (when O₂ supply is limited). 2C + O₂ → 2CO. Colourless, odourless — the 'silent killer'. Binds to haemoglobin 200× more tightly than O₂, preventing O₂ transport.",
+            "examples": ["Faulty boilers, blocked chimneys — UK kills ~50 people/year from CO poisoning.", "Car exhaust in garage with door closed = lethal in minutes.", "CO detectors (alarms) should be in every home with gas/oil heating.", "Treatment: 100% O₂ for hours; severe cases hyperbaric chamber."],
+            "watchOut": "Symptoms (headache, nausea, confusion) mimic flu — often unrecognised. Pets often collapse first; if so EVACUATE."
+          },
+          "soot": {
+            "name": "Particulates (soot, PM2.5, PM10)",
+            "rule": "Tiny solid particles from incomplete combustion. PM10 (≤10 μm), PM2.5 (≤2.5 μm — finer, penetrates deep into lungs). Diesel engines, coal burning, wildfires.",
+            "examples": ["Beijing, Delhi: PM2.5 often 5-10× WHO limit. Population wears masks.", "Diesel cars emit ~10× more particulates than petrol; banned in many cities.", "Soot deposits dirty buildings — Big Ben blackened (cleaned 2017).", "Wood-burning stoves: surprisingly polluting — UK now restricts in cities."],
+            "tip": "Linked to ~7 million premature deaths/year globally (WHO). Heart disease, stroke, lung cancer, asthma."
+          },
+          "sox": {
+            "name": "Sulfur dioxide (SO₂)",
+            "rule": "Burning fuels containing sulfur impurities (coal especially): S + O₂ → SO₂. Reacts with water in atmosphere: SO₂ + H₂O → H₂SO₃ (sulfurous acid). Further oxidation → H₂SO₄ (sulfuric acid) = ACID RAIN.",
+            "examples": ["1952 Great Smog of London — 12,000 deaths from coal SO₂ + fog.", "Scandinavian forests damaged by acid rain from European coal in 1980s.", "Modern coal plants use 'flue gas desulfurisation' — limestone scrubbers remove ~95% of SO₂.", "Heavy fuel oil ships emit huge SO₂ at sea — new IMO limits 2020 cut levels 80%."],
+            "tip": "Acid rain effects: dissolves limestone buildings, leaches nutrients from soil, acidifies lakes, kills fish. Causes mainly historical now in West (regulations worked)."
+          },
+          "nox": {
+            "name": "Nitrogen oxides (NOx)",
+            "rule": "Formed at HIGH temperatures (car engines, power stations) by reaction of N₂ + O₂ in air: N₂ + O₂ → 2NO; further: 2NO + O₂ → 2NO₂. Causes acid rain AND photochemical smog.",
+            "examples": ["Diesel engines: highest NOx emitters. VW 'Dieselgate' 2015 — cheated on NOx tests; €30bn fines.", "Photochemical smog (Los Angeles, Mexico City) — NOx + sunlight + VOCs → ozone (O₃) + irritants.", "London: NO₂ above legal limit on many streets, especially near schools.", "Catalytic converters convert NOx → N₂ + O₂ (but only when hot)."],
+            "watchOut": "Ozone at GROUND level is harmful — irritates lungs, damages plants. Same molecule that protects us from UV in the stratosphere."
+          }
         }
       }
     }
@@ -202,6 +266,32 @@
           "simpleCovalent": "Simple covalent (H₂O, CO₂): low mp, non-conductor",
           "giantCovalent": "Giant covalent (diamond, SiO₂): very high mp, hard, non-conductor",
           "metallic": "Metallic: high mp, malleable, conductor, lustrous"
+        },
+        "detailed": {
+          "ionic": {
+            "name": "Ionic structures",
+            "rule": "Giant lattice of alternating + and − ions held by strong electrostatic forces. HIGH melting point (lots of energy to break). BRITTLE (force shifts ions, like-like meet, repel and shatter). Conducts ONLY when molten or dissolved (ions free to move).",
+            "examples": ["NaCl (table salt): mp 801 °C. Dissolves in water → conducts.", "MgO: mp 2852 °C (Mg²⁺ stronger than Na⁺).", "CaF₂ (fluorite): used in optical lenses.", "Solid NaCl does NOT conduct (ions locked in place). Molten NaCl DOES."],
+            "tip": "Higher charge = stronger bonds = higher mp. Mg²⁺O²⁻ has DOUBLE charge each → much higher mp than Na⁺Cl⁻."
+          },
+          "simpleCovalent": {
+            "name": "Simple molecular (covalent)",
+            "rule": "Small molecules with strong covalent bonds INSIDE but weak intermolecular forces BETWEEN. LOW mp/bp (only need to break weak forces). Do NOT conduct (no charged particles).",
+            "examples": ["H₂O: mp 0 °C, bp 100 °C. Liquid at room temp.", "CO₂: bp −78 °C (sublimes to gas).", "I₂: solid at room temp but melts at 114 °C — bigger molecules = stronger intermolecular forces.", "O₂, N₂: gases at room temp."],
+            "tip": "Bigger molecules = stronger London forces = higher mp/bp. Compare F₂ (gas) < Cl₂ (gas) < Br₂ (liquid) < I₂ (solid)."
+          },
+          "giantCovalent": {
+            "name": "Giant covalent (macromolecular)",
+            "rule": "Network of atoms held by STRONG covalent bonds throughout. EXTREMELY HIGH mp (must break MANY strong bonds). Very HARD. Usually do NOT conduct (exception: graphite).",
+            "examples": ["Diamond: mp ~4000 °C. Every C bonded to 4 others tetrahedrally. Hardest natural substance.", "Graphite: also pure C but arranged in layers. Layers slide → soft + lubricant. Free electrons → CONDUCTS.", "SiO₂ (quartz): mp 1713 °C. Sand, glass-making.", "Silicon: foundation of microchips. Used as semiconductor."],
+            "watchOut": "Diamond and graphite are ALLOTROPES of carbon — same element, different structures, very different properties."
+          },
+          "metallic": {
+            "name": "Metallic bonding",
+            "rule": "Cations arranged in lattice, surrounded by 'sea' of delocalised electrons. Strong attraction → high mp. Free electrons → CONDUCTS heat and electricity. Layers slide easily → MALLEABLE and DUCTILE. Lustrous.",
+            "examples": ["Iron: mp 1538 °C. Strong but rusts (oxidises).", "Copper: best conductor of electricity (after silver). Used in wiring.", "Gold: doesn't oxidise → jewellery, electronics contacts.", "Aluminium: low density + corrosion-resistant → aeroplanes, drinks cans.", "Alloys (brass, steel) — different sizes disrupt sliding → harder."],
+            "tip": "All four properties (conducts, malleable, high mp, lustrous) come from the SAME thing: the sea of delocalised electrons. Mention this in answers."
+          }
         }
       }
     }
@@ -393,6 +483,20 @@
         "items": {
           "exothermic": "Exothermic — releases heat (surroundings warm up). ΔH negative. e.g., combustion, neutralisation, most reactions.",
           "endothermic": "Endothermic — absorbs heat (surroundings cool). ΔH positive. e.g., thermal decomposition, dissolving NH₄NO₃."
+        },
+        "detailed": {
+          "exothermic": {
+            "name": "Exothermic reactions",
+            "rule": "Energy is RELEASED to the surroundings (which get warmer). The products have LESS energy than reactants. ΔH is NEGATIVE. Energy difference comes from forming new bonds (releases more energy than breaking old bonds).",
+            "examples": ["Combustion: CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH = −890 kJ/mol.", "Neutralisation: HCl + NaOH → NaCl + H₂O, ΔH = −57 kJ/mol.", "Respiration in your body: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ENERGY (powers life).", "Hand warmers — iron oxidation: 4Fe + 3O₂ → 2Fe₂O₃ + heat. Activated by air.", "Self-heating cans of coffee."],
+            "tip": "On an energy profile diagram: products LOWER than reactants. ΔH = E(products) − E(reactants) < 0."
+          },
+          "endothermic": {
+            "name": "Endothermic reactions",
+            "rule": "Energy is ABSORBED from the surroundings (which get colder). Products have MORE energy than reactants. ΔH is POSITIVE. Breaking bonds takes more energy than is released forming new ones.",
+            "examples": ["Thermal decomposition: CaCO₃ → CaO + CO₂, ΔH = +178 kJ/mol (needs strong heating).", "Photosynthesis: 6CO₂ + 6H₂O + LIGHT → C₆H₁₂O₆ + 6O₂ (sun provides energy).", "Dissolving ammonium nitrate: NH₄NO₃(s) + H₂O → NH₄⁺(aq) + NO₃⁻(aq) — solution gets COLD.", "Cold packs in first aid kits — break sachet, NH₄NO₃ dissolves, ice-cold instantly.", "Sherbet sweets: sodium bicarbonate + citric acid = cold tingle on tongue."],
+            "watchOut": "Endothermic ≠ unusual. Many natural processes (cooking, photosynthesis) are endothermic. Don't assume reactions release energy."
+          }
         }
       },
       "profiles": {

@@ -75,5 +75,15 @@
     "french": "French",
     "arabic": "Arabic",
     "geography": "Geography"
+  },
+  "timetable": {
+    "topicsLibrary": "Topics library",
+    "clickHint": "Click a topic, then click any day to add it.",
+    "selected": "Selected",
+    "week": "Week",
+    "examDateLabel": "EOY date:",
+    "addAria": "Add",
+    "removeAria": "Remove",
+    "toggleAria": "Toggle completed"
   }
 }

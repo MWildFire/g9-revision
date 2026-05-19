@@ -5,35 +5,65 @@ import { ru, enUS } from 'date-fns/locale';
 import { Calendar, Plus, X, Check } from 'lucide-react';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { useExamCountdown } from '../hooks/useExamCountdown';
-import { SUBJECTS, ACCENT_VAR, SubjectId, getSubject } from '../config/subjects';
+import { ACCENT_VAR, SubjectId, getSubject } from '../config/subjects';
 import { setExamDate, getExamDate } from '../config/examDate';
 import type { TimetableEntry } from '../lib/storage';
 
 const TOPIC_LIBRARY: { subjectId: SubjectId; topicId: string; labelKey: string; ns: string }[] = [
-  // Math
+  // Math (5 main topics)
   { subjectId: 'math', topicId: 'number-systems', labelKey: 'nav.numberSystems', ns: 'math' },
   { subjectId: 'math', topicId: 'functions-algebra', labelKey: 'nav.functionsAlgebra', ns: 'math' },
   { subjectId: 'math', topicId: 'sequences', labelKey: 'nav.sequences', ns: 'math' },
   { subjectId: 'math', topicId: 'geometry-trig', labelKey: 'nav.geometryTrig', ns: 'math' },
   { subjectId: 'math', topicId: 'stats-prob', labelKey: 'nav.statsProb', ns: 'math' },
-  // Physics
+  // Physics (4 main topics)
   { subjectId: 'physics', topicId: 'force-motion', labelKey: 'nav.forceMotion', ns: 'physics' },
   { subjectId: 'physics', topicId: 'forces-energy', labelKey: 'nav.forcesEnergy', ns: 'physics' },
   { subjectId: 'physics', topicId: 'electricity', labelKey: 'nav.electricity', ns: 'physics' },
   { subjectId: 'physics', topicId: 'waves-optics', labelKey: 'nav.wavesOptics', ns: 'physics' },
-  // Geography
+  // Chemistry (8 main topics)
+  { subjectId: 'chemistry', topicId: 'atoms-periodic', labelKey: 'nav.atomsPeriodic', ns: 'chemistry' },
+  { subjectId: 'chemistry', topicId: 'bonding', labelKey: 'nav.bonding', ns: 'chemistry' },
+  { subjectId: 'chemistry', topicId: 'reactions', labelKey: 'nav.reactions', ns: 'chemistry' },
+  { subjectId: 'chemistry', topicId: 'stoichiometry', labelKey: 'nav.stoichiometry', ns: 'chemistry' },
+  { subjectId: 'chemistry', topicId: 'acids-bases', labelKey: 'nav.acidsBases', ns: 'chemistry' },
+  { subjectId: 'chemistry', topicId: 'atmosphere', labelKey: 'nav.atmosphere', ns: 'chemistry' },
+  { subjectId: 'chemistry', topicId: 'rates', labelKey: 'nav.rates', ns: 'chemistry' },
+  { subjectId: 'chemistry', topicId: 'energy', labelKey: 'nav.energy', ns: 'chemistry' },
+  // Biology (6 main topics)
+  { subjectId: 'biology', topicId: 'cells', labelKey: 'nav.cells', ns: 'biology' },
+  { subjectId: 'biology', topicId: 'body-systems', labelKey: 'nav.bodySystems', ns: 'biology' },
+  { subjectId: 'biology', topicId: 'ecology', labelKey: 'nav.ecology', ns: 'biology' },
+  { subjectId: 'biology', topicId: 'genetics', labelKey: 'nav.genetics', ns: 'biology' },
+  { subjectId: 'biology', topicId: 'immune', labelKey: 'nav.immune', ns: 'biology' },
+  { subjectId: 'biology', topicId: 'experiment', labelKey: 'nav.experiment', ns: 'biology' },
+  // English (8 main topics)
+  { subjectId: 'english', topicId: 'macbeth', labelKey: 'nav.macbeth', ns: 'english' },
+  { subjectId: 'english', topicId: 'exam-format', labelKey: 'nav.examFormat', ns: 'english' },
+  { subjectId: 'english', topicId: 'progress-test', labelKey: 'nav.progressTest', ns: 'english' },
+  { subjectId: 'english', topicId: 'text-types', labelKey: 'nav.textTypes', ns: 'english' },
+  { subjectId: 'english', topicId: 'devices', labelKey: 'nav.devices', ns: 'english' },
+  { subjectId: 'english', topicId: 'grammar', labelKey: 'nav.grammar', ns: 'english' },
+  { subjectId: 'english', topicId: 'reading', labelKey: 'nav.reading', ns: 'english' },
+  { subjectId: 'english', topicId: 'essays', labelKey: 'nav.essays', ns: 'english' },
+  // French (6 main topics)
+  { subjectId: 'french', topicId: 'units', labelKey: 'nav.units', ns: 'french' },
+  { subjectId: 'french', topicId: 'vocab', labelKey: 'nav.vocab', ns: 'french' },
+  { subjectId: 'french', topicId: 'tenses', labelKey: 'nav.tenses', ns: 'french' },
+  { subjectId: 'french', topicId: 'grammar', labelKey: 'nav.grammar', ns: 'french' },
+  { subjectId: 'french', topicId: 'phrases', labelKey: 'nav.phrases', ns: 'french' },
+  { subjectId: 'french', topicId: 'text-types', labelKey: 'nav.textTypes', ns: 'french' },
+  // Arabic (5 main topics)
+  { subjectId: 'arabic', topicId: 'mrs-hala', labelKey: 'nav.mrsHala', ns: 'arabic' },
+  { subjectId: 'arabic', topicId: 'alphabet', labelKey: 'nav.alphabet', ns: 'arabic' },
+  { subjectId: 'arabic', topicId: 'vocab', labelKey: 'nav.vocab', ns: 'arabic' },
+  { subjectId: 'arabic', topicId: 'grammar', labelKey: 'nav.grammar', ns: 'arabic' },
+  { subjectId: 'arabic', topicId: 'phrases', labelKey: 'nav.phrases', ns: 'arabic' },
+  // Geography (4 main topics)
   { subjectId: 'geography', topicId: 'rivers', labelKey: 'nav.rivers', ns: 'geography' },
   { subjectId: 'geography', topicId: 'tourism', labelKey: 'nav.tourism', ns: 'geography' },
   { subjectId: 'geography', topicId: 'resource-reliance', labelKey: 'nav.resourceReliance', ns: 'geography' },
   { subjectId: 'geography', topicId: 'atmospheric-hazards', labelKey: 'nav.atmosphericHazards', ns: 'geography' },
-  // Biology
-  { subjectId: 'biology', topicId: 'overview', labelKey: 'home.title', ns: 'biology' },
-  // Languages
-  { subjectId: 'english', topicId: 'overview', labelKey: 'home.title', ns: 'english' },
-  { subjectId: 'french', topicId: 'overview', labelKey: 'home.title', ns: 'french' },
-  { subjectId: 'arabic', topicId: 'overview', labelKey: 'home.title', ns: 'arabic' },
-  // Chemistry
-  { subjectId: 'chemistry', topicId: 'overview', labelKey: 'home.title', ns: 'chemistry' },
 ];
 
 export function TimetablePage() {
@@ -73,21 +103,55 @@ export function TimetablePage() {
   };
 
   const toggleEntry = (id: string) => {
-    update((s) => ({
-      ...s,
-      timetable: {
-        entries: s.timetable.entries.map((e) => (e.id === id ? { ...e, completed: !e.completed } : e)),
-      },
-    }));
+    update((s) => {
+      const entry = s.timetable.entries.find((e) => e.id === id);
+      if (!entry) return s;
+      const newCompleted = !entry.completed;
+      const updatedEntries = s.timetable.entries.map((e) =>
+        e.id === id ? { ...e, completed: newCompleted } : e
+      );
+      // Sync to global progress: a topic is "completed" on the home page
+      // if ANY timetable entry for that topic is completed.
+      const subjectProgress = { ...(s.progress[entry.subjectId] ?? {}) };
+      const anyCompleted = updatedEntries.some(
+        (e) => e.subjectId === entry.subjectId && e.topicId === entry.topicId && e.completed
+      );
+      subjectProgress[entry.topicId] = {
+        ...(subjectProgress[entry.topicId] ?? { viewed: false, completed: false }),
+        viewed: true,
+        completed: anyCompleted,
+        lastVisited: new Date().toISOString(),
+      };
+      return {
+        ...s,
+        timetable: { entries: updatedEntries },
+        progress: { ...s.progress, [entry.subjectId]: subjectProgress },
+      };
+    });
   };
 
   const removeEntry = (id: string) => {
-    update((s) => ({
-      ...s,
-      timetable: {
-        entries: s.timetable.entries.filter((e) => e.id !== id),
-      },
-    }));
+    update((s) => {
+      const entry = s.timetable.entries.find((e) => e.id === id);
+      const updatedEntries = s.timetable.entries.filter((e) => e.id !== id);
+      if (!entry) return { ...s, timetable: { entries: updatedEntries } };
+      // Recompute completion for this topic
+      const stillCompleted = updatedEntries.some(
+        (e) => e.subjectId === entry.subjectId && e.topicId === entry.topicId && e.completed
+      );
+      const subjectProgress = { ...(s.progress[entry.subjectId] ?? {}) };
+      if (subjectProgress[entry.topicId]) {
+        subjectProgress[entry.topicId] = {
+          ...subjectProgress[entry.topicId],
+          completed: stillCompleted,
+        };
+      }
+      return {
+        ...s,
+        timetable: { entries: updatedEntries },
+        progress: { ...s.progress, [entry.subjectId]: subjectProgress },
+      };
+    });
   };
 
   const handleExamDateChange = (value: string) => {
@@ -108,7 +172,7 @@ export function TimetablePage() {
           </p>
         </div>
         <div className="flex items-center gap-2 text-sm">
-          <label htmlFor="exam-date" className="text-text-secondary">EOY date:</label>
+          <label htmlFor="exam-date" className="text-text-secondary">{t('timetable.examDateLabel')}</label>
           <input
             id="exam-date"
             type="date"
@@ -123,10 +187,10 @@ export function TimetablePage() {
         <aside>
           <div className="bg-bg-secondary border border-border rounded-lg p-4 sticky top-24">
             <h3 className="text-sm font-medium uppercase tracking-wider text-text-secondary mb-3">
-              Topics library
+              {t('timetable.topicsLibrary')}
             </h3>
             <p className="text-xs text-text-muted mb-3">
-              Click a topic, then click any day to add it.
+              {t('timetable.clickHint')}
             </p>
             <div className="space-y-1 max-h-[60vh] overflow-y-auto pr-1">
               {TOPIC_LIBRARY.map((item) => {
@@ -159,7 +223,7 @@ export function TimetablePage() {
             </div>
             {selectedTopic ? (
               <div className="mt-4 pt-3 border-t border-border text-xs text-text-secondary">
-                Selected: <strong className="text-text-primary">
+                {t('timetable.selected')}: <strong className="text-text-primary">
                   <TopicLabel ns={selectedTopic.ns} labelKey={selectedTopic.labelKey} />
                 </strong>
                 <button
@@ -177,7 +241,7 @@ export function TimetablePage() {
           {weeks.map((week, weekIdx) => (
             <section key={weekIdx} className="bg-bg-secondary border border-border rounded-lg p-4">
               <h3 className="font-serif text-lg font-medium mb-3">
-                Week {weekIdx + 1} — {format(week[0], 'd MMM', { locale })} – {format(week[6], 'd MMM', { locale })}
+                {t('timetable.week')} {weekIdx + 1} — {format(week[0], 'd MMM', { locale })} – {format(week[6], 'd MMM', { locale })}
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-7 gap-2">
                 {week.map((day) => {
@@ -196,7 +260,7 @@ export function TimetablePage() {
                           <button
                             onClick={() => addEntry(dateKey)}
                             className="text-text-muted hover:text-text-primary"
-                            aria-label="Add"
+                            aria-label={t('timetable.addAria')}
                           >
                             <Plus size={12} />
                           </button>
@@ -220,7 +284,7 @@ export function TimetablePage() {
                                 onClick={() => toggleEntry(e.id)}
                                 className="mt-0.5 w-3 h-3 border border-current rounded-sm flex items-center justify-center shrink-0"
                                 style={{ background: e.completed ? accent : 'transparent', color: accent }}
-                                aria-label="Toggle"
+                                aria-label={t('timetable.toggleAria')}
                               >
                                 {e.completed ? <Check size={8} className="text-bg-secondary" /> : null}
                               </button>
@@ -232,7 +296,7 @@ export function TimetablePage() {
                               <button
                                 onClick={() => removeEntry(e.id)}
                                 className="ml-auto opacity-0 group-hover:opacity-100 text-text-muted hover:text-text-primary"
-                                aria-label="Remove"
+                                aria-label={t('timetable.removeAria')}
                               >
                                 <X size={10} />
                               </button>
@@ -262,7 +326,6 @@ function buildWeeks(examDate: Date): Date[][] {
   const start = startOfWeek(today, { weekStartsOn: 1 });
   const result: Date[][] = [];
   let weekStart = start;
-  // Build up to 12 weeks (cap)
   for (let i = 0; i < 12; i++) {
     if (weekStart > examDate) break;
     const days = eachDayOfInterval({ start: weekStart, end: addDays(weekStart, 6) });

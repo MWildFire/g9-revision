@@ -270,33 +270,138 @@
     "intro": "Nine text types you may be asked to write. Match the format and audience carefully."
   },
   "textTypes": {
-    "essay": { "name": "Essay", "description": "Formal, structured argument. Introduction → thesis → body → conclusion." },
-    "letter": { "name": "Letter", "description": "Address, salutation, body, closing. Formality matches the recipient." },
-    "email": { "name": "Email", "description": "Subject line, greeting, concise body, sign-off. More direct than a letter." },
-    "speech": { "name": "Speech", "description": "Greet the audience, hook, structured argument, call-to-action. Spoken cadence." },
-    "newspaper": { "name": "Newspaper Article", "description": "Headline, byline, lead paragraph (5W), inverted pyramid for details." },
-    "online": { "name": "Online Article", "description": "Engaging title, short paragraphs, subheadings. Optional links/quotes." },
-    "blog": { "name": "Blog Article", "description": "Conversational tone, personal voice, first-person. Open ending invites comments." },
-    "guide": { "name": "Revision Guide", "description": "Clear headings, bullet points, definitions, examples — built for retention." },
-    "script": { "name": "Script", "description": "Scene heading, character names, dialogue, stage directions in italics or brackets." }
+    "essay": {
+      "name": "Essay",
+      "rule": "Formal, structured argument with introduction → thesis → body paragraphs → conclusion. Each body paragraph follows PEEL (Point, Evidence, Explain, Link). Written in third person, formal register. ~800-1200 words at G9.",
+      "examples": ["Introduction: 'Climate change is the defining challenge of our era. This essay argues that immediate action on emissions is essential, drawing on scientific consensus and economic analysis.'", "Body opening: 'First, the scientific evidence is unambiguous.'", "Conclusion opener: 'In conclusion, while challenges remain, the case for urgent action is overwhelming.'", "Avoid: contractions (don't → do not), 'I think' (use 'this essay argues'), slang."],
+      "tip": "Always answer the question in the introduction (state your thesis), then prove it. Don't list — argue."
+    },
+    "letter": {
+      "name": "Letter",
+      "rule": "Has sender's address (top right), date, recipient's address (left, formal letters), salutation, body, closing, signature. Format depends on formality: formal (Dear Sir/Madam, Yours faithfully) vs informal (Dear John, Best wishes).",
+      "examples": ["Formal opening: 'Dear Mr Smith,' / closing: 'Yours sincerely, [name]' (when you know the name) or 'Yours faithfully' (when you don't).", "Informal opening: 'Dear Granny,' / closing: 'Love, Luka' or 'Best wishes,'.", "Letter of complaint: state the issue, evidence, action requested, deadline.", "Letter to editor: short, punchy, opinion-driven."],
+      "watchOut": "DON'T mix formal and informal: never write 'Dear Sir/Madam' then 'Take care!' — register must match throughout."
+    },
+    "email": {
+      "name": "Email",
+      "rule": "Subject line (concise but informative), greeting (Hi/Dear/Hello), body in short paragraphs, sign-off (Kind regards/Best wishes/Cheers). More direct than a letter. Common in school and work contexts.",
+      "examples": ["Subject: 'Request: extension on history essay deadline'", "Body: 'Hi Mrs Williams, I'm writing to ask for a two-day extension on the history essay due Friday. I've been unwell since Monday. Thank you for considering this. Best wishes, Luka.'", "Reply: 'Hi Luka, Thanks for letting me know. The new deadline is Monday at 9am. Best, Mrs W.'"],
+      "tip": "First sentence states your purpose — readers scan, they don't read line by line. Subject lines decide if your email gets opened."
+    },
+    "speech": {
+      "name": "Speech",
+      "rule": "Written to be SPOKEN. Greet audience, open with a hook (story, question, statistic), structure as 'tell them what you'll say → say it → tell them what you said', call to action at the end. Use rhetorical devices: tricolons, repetition, direct address.",
+      "examples": ["Hook: 'Imagine waking up tomorrow with no internet. How long before you'd cope?'", "Tricolon: 'We need education, opportunity, and hope.'", "Direct address: 'Friends, fellow students, you have the power to change this.'", "Famous example: MLK 'I Have a Dream' — uses anaphora ('I have a dream that...').", "Call to action: 'So sign the petition. Speak to your MP. Be the change.'"],
+      "tip": "Read it aloud as you write. Use shorter sentences than essays — listeners can't re-read. Pause cues: ellipses, dashes."
+    },
+    "newspaper": {
+      "name": "Newspaper Article",
+      "rule": "Headline (catchy, 5-10 words), byline (writer's name + date), lead paragraph answering 5 W's (Who, What, Where, When, Why) + How, then inverted pyramid: most important info first, details lower down. Third person, past tense, formal but accessible.",
+      "examples": ["Headline: 'Local school wins national robotics prize'", "Lead: 'NLCS Dubai students Sarah Khan and Omar Patel claimed the £5,000 top prize at the UK Robotics Challenge in London on Saturday, beating 200 other schools.'", "Quote from interviewee: 'It was incredible,' said Khan, 15. 'We worked on the code for six months.'", "Avoid: opinions in news articles (those go in editorials/columns)."],
+      "tip": "Inverted pyramid — if your editor cuts the last paragraph, the story should still make sense. Crucial info goes UP TOP."
+    },
+    "online": {
+      "name": "Online Article",
+      "rule": "Title with SEO-friendly keywords, short paragraphs (2-3 sentences max), subheadings every 200-300 words, hyperlinks, optional images. Written for skimming. Conversational but informative tone.",
+      "examples": ["Title: '5 reasons your school WiFi is so slow (and how to fix it)'", "Subheading: '1. Outdated routers'", "Paragraph: 'Most school routers are over 5 years old. They simply weren't built for 500 students streaming simultaneously.'", "Sites: BBC News, The Guardian, BuzzFeed (vastly different registers but all 'online')."],
+      "tip": "First 3 sentences must HOOK and PROMISE value, or readers leave. Most online readers don't finish the article."
+    },
+    "blog": {
+      "name": "Blog Article",
+      "rule": "Conversational, personal voice in FIRST PERSON. Title invites curiosity. Open with a personal anecdote or question. Use 'I', 'you', contractions. Often ends with an open question to spark comments.",
+      "examples": ["Title: 'Why I quit Netflix for a month (and what I learned)'", "Opening: 'So three weeks ago, I deleted Netflix from my phone. I know — radical, right?'", "Body: 'Here's the thing nobody told me about screen-time addiction...'", "Closing: 'What's the one app you couldn't live without? Drop a comment below.'", "Top blogs: Wait But Why, Mark Manson, The Pudding."],
+      "tip": "Authenticity > polish. Readers want a real voice, not a textbook. Mistakes can be charming if intentional."
+    },
+    "guide": {
+      "name": "Revision Guide",
+      "rule": "Clear headings + subheadings, bulleted lists, definitions in bold or boxes, worked examples. Designed for SCANNING and RECALL. No personal voice. Educational tone.",
+      "examples": ["Heading: 'Quadratic equations'", "Definition box: 'A quadratic equation is one in the form ax² + bx + c = 0, where a ≠ 0.'", "Worked example: 'Solve x² - 5x + 6 = 0. Factorise: (x-2)(x-3) = 0. So x = 2 or x = 3.'", "Tip box: '💡 Always check by substituting back into the original equation.'", "This very page is a revision guide."],
+      "tip": "Layout matters as much as content — a well-formatted guide with whitespace and clear hierarchy is more useful than a wall of text."
+    },
+    "script": {
+      "name": "Script",
+      "rule": "Scene heading (INT./EXT., LOCATION, TIME), character names in CAPITALS before their lines, dialogue, stage directions in italics or brackets. Action and emotion shown, not told.",
+      "examples": ["Scene heading: 'INT. SCHOOL CAFETERIA — DAY'", "Action: 'LUKA sits alone, picking at his food. SARA enters, sees him.'", "Dialogue: 'SARA: Mind if I sit?'", "Parenthetical: '(quietly) Yeah... whatever.'", "Plays use slightly different format (e.g., character names centered) vs screenplays (Hollywood format)."],
+      "tip": "Show, don't tell. Don't write 'Luka is sad' — write 'Luka stares at his lunch without eating.' Dialogue should sound like real people speaking, not perfect sentences."
+    }
   },
   "devicesPage": {
     "title": "Literary Devices",
     "intro": "Identify devices when reading; use them deliberately when writing."
   },
   "devices": {
-    "metaphor": { "name": "Metaphor", "definition": "Direct comparison without 'like'/'as'.", "example": "Time is a thief." },
-    "simile": { "name": "Simile", "definition": "Comparison using 'like' or 'as'.", "example": "She fought like a tiger." },
-    "anaphora": { "name": "Anaphora", "definition": "Repetition of word(s) at the start of successive clauses.", "example": "We shall fight on the beaches, we shall fight on the landing grounds…" },
-    "alliteration": { "name": "Alliteration", "definition": "Repetition of initial consonant sounds.", "example": "Wild and windy weather." },
-    "personification": { "name": "Personification", "definition": "Giving human traits to non-human things.", "example": "The wind whispered through the trees." },
-    "hyperbole": { "name": "Hyperbole", "definition": "Deliberate exaggeration for effect.", "example": "I've told you a million times." },
-    "rhetoricalQuestion": { "name": "Rhetorical question", "definition": "A question asked for effect rather than for an answer.", "example": "Who could resist such a deal?" },
-    "imagery": { "name": "Imagery", "definition": "Vivid sensory description.", "example": "Crisp autumn leaves crunched underfoot." },
-    "onomatopoeia": { "name": "Onomatopoeia", "definition": "Word imitating a sound.", "example": "The bees buzzed; the door creaked." },
-    "irony": { "name": "Irony", "definition": "Saying one thing while meaning the opposite, or a situation that subverts expectation.", "example": "A traffic warden's car gets a parking ticket." },
-    "symbolism": { "name": "Symbolism", "definition": "An object represents an abstract idea.", "example": "A dove symbolises peace." },
-    "foreshadowing": { "name": "Foreshadowing", "definition": "Hint of what will happen later.", "example": "Dark clouds gathered as the heroes set off." }
+    "metaphor": {
+      "name": "Metaphor",
+      "rule": "Direct comparison stating that one thing IS another, without 'like'/'as'. Powerful because it implies identity, not just similarity. Often extends across sentences or paragraphs (extended metaphor).",
+      "examples": ["'Time is a thief' — time steals our hours like a thief steals possessions.", "'The classroom was a zoo' — chaos and noise compared without comparing.", "Shakespeare in Macbeth: 'Life's but a walking shadow' — extended metaphor of life as a fleeting actor.", "Sport: 'He's a beast on the field' — animal qualities applied to a player."],
+      "tip": "When analysing: identify the comparison + explain the CONNOTATIONS (what feelings or ideas does the metaphor carry?)."
+    },
+    "simile": {
+      "name": "Simile",
+      "rule": "Explicit comparison using 'like' or 'as'. Less forceful than metaphor (acknowledges difference), but vivid and accessible. Common in everyday speech.",
+      "examples": ["'She fought like a tiger' — ferocity compared explicitly.", "'As cold as ice' — temperature/emotion comparison.", "Robert Burns: 'O my Luve's like a red, red rose' — beauty + fragility.", "'His voice was as smooth as silk' — sensory comparison.", "'Like trying to nail jelly to a wall' — futility."],
+      "tip": "Cliché alert: 'as cold as ice', 'as old as the hills' — examiners want FRESH similes. Create your own to score higher."
+    },
+    "anaphora": {
+      "name": "Anaphora",
+      "rule": "Repetition of word(s) at the START of successive clauses/sentences. Creates rhythm, emphasis, and emotional build-up. Classic rhetorical device in speeches.",
+      "examples": ["Churchill: 'We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields...'", "MLK: 'I have a dream that one day... I have a dream that one day... I have a dream today.'", "Shakespeare: 'Tomorrow, and tomorrow, and tomorrow / Creeps in this petty pace...'", "Children's chant: 'I want it now. I want it here. I want it free.'"],
+      "tip": "Anaphora is everywhere in political speeches. When analysing: count the repetitions and discuss what they emphasise."
+    },
+    "alliteration": {
+      "name": "Alliteration",
+      "rule": "Repetition of the same INITIAL CONSONANT sound across nearby words. Audible pattern that catches the ear; can sound musical, harsh, or comedic depending on the sound.",
+      "examples": ["'Wild and windy weather' — light, energetic feel from /w/ sounds.", "'Slimy, slithering snake' — sibilance creates menace.", "Headlines: 'Pelosi promises Putin pushback' — memorable through alliteration.", "Tongue twister: 'Peter Piper picked a peck of pickled peppers'.", "Brand names: Coca-Cola, Dunkin' Donuts, Mickey Mouse — alliterative for memorability."],
+      "tip": "Different consonants give different effects: /s/ = sibilance (snake-like, calm or sinister), /b/ /p/ = plosives (force, aggression), /l/ = liquid (smooth, gentle), /m/ = soft, comforting."
+    },
+    "personification": {
+      "name": "Personification",
+      "rule": "Giving HUMAN traits, emotions, or actions to non-human things (objects, animals, nature, abstract concepts). Makes descriptions vivid and creates emotional resonance.",
+      "examples": ["'The wind whispered through the trees' — wind given the human action of whispering.", "'Opportunity knocks' — chance acting like a visitor at a door.", "'The flowers danced in the breeze' — plants given human movement.", "'The shadows crept across the floor' — eerie effect.", "'Justice is blind' — abstract concept given a physical quality."],
+      "tip": "Look for unusual verbs paired with non-human subjects. 'Smiled', 'wept', 'screamed' applied to weather, buildings, or feelings → personification."
+    },
+    "hyperbole": {
+      "name": "Hyperbole",
+      "rule": "DELIBERATE exaggeration for emphasis or comic effect. Not meant to be taken literally. Common in spoken English and advertising. Greek for 'overshooting'.",
+      "examples": ["'I've told you a million times' — frustration, not maths.", "'I could eat a horse' — extreme hunger.", "'This bag weighs a ton' — heavy, but obviously not 1000 kg.", "'It's been forever' — emotional emphasis on waiting.", "Macbeth: 'Will all great Neptune's ocean wash this blood clean?' — hyperbole highlighting guilt."],
+      "tip": "Hyperbole reveals EMOTIONAL TRUTH even though factually false. Analyse: what feeling is being exaggerated?"
+    },
+    "rhetoricalQuestion": {
+      "name": "Rhetorical question",
+      "rule": "A question asked for EFFECT, not for an answer. Engages the listener/reader, prompts thought, or makes a statement persuasively. Often answer is obvious or implied.",
+      "examples": ["'Who could resist such a deal?' — the answer 'nobody' is implied.", "'Is this the kind of country we want to live in?' — political speeches.", "Shakespeare: 'What's in a name? That which we call a rose / By any other name would smell as sweet' (Romeo & Juliet).", "Advertising: 'Why pay more?' — pushes you toward the cheap option.", "MLK: 'When will you be satisfied?' — challenges audience."],
+      "tip": "When writing argument essays, use 1-2 rhetorical questions for impact. Too many = annoying."
+    },
+    "imagery": {
+      "name": "Imagery",
+      "rule": "Vivid SENSORY description appealing to sight, sound, taste, touch, or smell. Helps the reader experience the scene. Often combined with other devices.",
+      "examples": ["'Crisp autumn leaves crunched underfoot' — sound + touch + visual.", "'The room smelled of lavender and old books' — smell.", "'A bitter, metallic taste filled her mouth' — taste + texture.", "'Slanting golden light spilled across the floor' — visual + movement.", "Shakespeare: 'It is the east, and Juliet is the sun' — visual + metaphor."],
+      "tip": "Five senses: identify which sense(s) the imagery appeals to. Multi-sensory imagery is most powerful."
+    },
+    "onomatopoeia": {
+      "name": "Onomatopoeia",
+      "rule": "Word IMITATES a sound — the spelling/pronunciation matches what it describes. Adds aural quality to writing. Common in poetry, comics, children's books.",
+      "examples": ["'The bees buzzed; the door creaked' — audio mimicry.", "'Splash, fizz, pop, crackle' — varied sound effects.", "Children's books: 'Moo, Quack, Baa' (animal sounds).", "Comics: 'POW! BANG! THWACK!' (action sounds).", "Poetry: 'The murmuring of innumerable bees' — Tennyson, using soft sounds to mimic the buzzing."],
+      "tip": "Different languages have different onomatopoeia (English: bark = 'woof'; Russian: 'gav'; Japanese: 'wan'). Cultural!"
+    },
+    "irony": {
+      "name": "Irony",
+      "rule": "Three types: (1) VERBAL — saying one thing, meaning opposite (sarcasm); (2) SITUATIONAL — outcome opposite to expectation; (3) DRAMATIC — audience knows something characters don't.",
+      "examples": ["Verbal: 'Oh, lovely weather' said during a downpour.", "Situational: A traffic warden's car gets a parking ticket. A fire station burning down.", "Dramatic: In Romeo and Juliet, the audience knows Juliet is alive when Romeo finds her — but Romeo doesn't.", "Macbeth dramatic irony: Duncan calls Macbeth's castle 'pleasant' — the audience knows he's about to be murdered there.", "Literary irony: Oedipus searches for the murderer, not knowing it's himself."],
+      "tip": "Don't confuse irony with coincidence. True irony has POETIC JUSTICE or pointed contrast — not just any unexpected thing."
+    },
+    "symbolism": {
+      "name": "Symbolism",
+      "rule": "An object, character, colour, or action that REPRESENTS something abstract beyond its literal meaning. Universal vs cultural symbols (a dove for peace is widely understood; a chrysanthemum varies by country).",
+      "examples": ["'A dove symbolises peace' — universal.", "Macbeth: blood symbolises guilt ('a little water clears us of this deed').", "The colour red — love, danger, revolution, anger (context-dependent).", "Storm in literature = chaos, conflict, emotional upheaval.", "The Great Gatsby — green light = unreachable dreams, hope.", "Crown = power, kingship, responsibility."],
+      "tip": "Look for objects mentioned MULTIPLE TIMES in a text — they're often symbolic. Ask 'what abstract idea is this connected to?'"
+    },
+    "foreshadowing": {
+      "name": "Foreshadowing",
+      "rule": "Hint or clue about what will happen LATER in the text. Creates suspense, builds tension, and can make endings feel inevitable. Often subtle on first read.",
+      "examples": ["'Dark clouds gathered as the heroes set off' — bad weather hints at trouble ahead.", "Romeo: 'I fear, too early; for my mind misgives / Some consequence yet hanging in the stars / Shall bitterly begin his fearful date...' — Romeo himself foreshadows their doom.", "Witches' prophecies in Macbeth — foreshadow his rise AND fall.", "A character mentions they 'can't swim' early in a story — likely water danger later.", "Title is often foreshadowing: '1984', 'The Catcher in the Rye'."],
+      "tip": "Reread the opening AFTER finishing — you'll spot foreshadowing you missed. Great writers plant clues invisibly."
+    }
   },
   "grammarPage": {
     "title": "Grammar Essentials",

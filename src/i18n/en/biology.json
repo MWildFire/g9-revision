@@ -175,23 +175,123 @@
     "sections": {
       "circulatory": {
         "title": "Circulatory system",
-        "body": "Double circulation: heart pumps blood through two loops (to lungs, to body). Heart has 4 chambers — left atrium, left ventricle, right atrium, right ventricle. Arteries carry blood from heart (thick walls, high pressure). Veins return blood to heart (thin walls, valves). Capillaries — site of exchange (one cell thick)."
+        "body": "Double circulation: heart pumps blood through two loops (to lungs, to body). Heart has 4 chambers — left atrium, left ventricle, right atrium, right ventricle. Arteries carry blood from heart (thick walls, high pressure). Veins return blood to heart (thin walls, valves). Capillaries — site of exchange (one cell thick).",
+        "detailed": {
+          "heart": {
+            "name": "The heart — pump for life",
+            "rule": "Four-chambered muscular pump. Right side handles deoxygenated blood (body → lungs). Left side handles oxygenated blood (lungs → body). Valves (atrioventricular, semilunar) prevent backflow. ~70 bpm at rest = 100,000 beats/day.",
+            "examples": ["RA receives deoxygenated blood from vena cava → RV → pulmonary artery → lungs.", "LA receives oxygenated blood from pulmonary veins → LV → aorta → body.", "Left ventricle wall is THICKEST — pumps blood around the entire body, needs more force.", "Heart attack = blood supply to heart muscle blocked (coronary artery)."],
+            "tip": "Remember: 'right has less might' — the right ventricle only pumps to the nearby lungs, so its wall is thinner."
+          },
+          "vessels": {
+            "name": "Blood vessels — arteries, veins, capillaries",
+            "rule": "ARTERIES: away from heart, thick muscular walls, high pressure, no valves (except aortic). VEINS: back to heart, thin walls, low pressure, valves prevent backflow. CAPILLARIES: site of exchange, one-cell-thick walls, slow flow.",
+            "examples": ["Aorta (largest artery) = ~2.5 cm diameter, withstands 120 mmHg pressure.", "Veins in legs need valves AND skeletal muscle pump (calves) to push blood up against gravity.", "Capillaries: total combined length in human body = ~100,000 km (could wrap Earth 2.5×).", "Varicose veins — when leg vein valves fail, blood pools, vessels bulge."],
+            "watchOut": "Don't confuse with arteries/veins of pulmonary circulation: PULMONARY artery carries DEOXYGENATED blood (to lungs); PULMONARY vein carries OXYGENATED blood (back from lungs)."
+          },
+          "blood": {
+            "name": "Blood components",
+            "rule": "PLASMA (~55%): liquid carrying nutrients, hormones, waste. RED BLOOD CELLS (~45%): carry O₂ via haemoglobin. No nucleus → more space for haemoglobin. WHITE BLOOD CELLS: immune defence. PLATELETS: clotting at wounds.",
+            "examples": ["RBCs live ~120 days, made in bone marrow. Each carries 270M haemoglobin molecules.", "Haemoglobin + O₂ = oxyhaemoglobin (red). Without O₂ = darker red (purple).", "WBC types: lymphocytes (antibodies), phagocytes (engulf pathogens).", "Clotting: platelets stick to wound + fibrinogen → fibrin mesh → traps RBCs → scab."],
+            "tip": "RBC has biconcave shape (donut without hole) — maximises surface area for O₂ absorption."
+          }
+        }
       },
       "respiratory": {
         "title": "Respiratory system",
-        "body": "Air path: nose → trachea → bronchi → bronchioles → alveoli. Alveoli features for gas exchange: large surface area, thin walls (1 cell), rich blood supply, moist lining."
+        "body": "Air path: nose → trachea → bronchi → bronchioles → alveoli. Alveoli features for gas exchange: large surface area, thin walls (1 cell), rich blood supply, moist lining.",
+        "detailed": {
+          "pathway": {
+            "name": "Air pathway",
+            "rule": "Nose/mouth → pharynx → larynx (voicebox) → trachea (windpipe, kept open by C-shaped cartilage rings) → 2 bronchi → bronchioles → alveoli. Nose filters/warms/moistens air better than mouth.",
+            "examples": ["Trachea is ~10-12 cm long. C-shaped cartilage rings allow food to pass behind in oesophagus.", "Cilia (tiny hairs) + mucus trap dust & bacteria → swept up to throat → swallowed.", "Smoking destroys cilia → 'smoker's cough' as gunk can't be cleared.", "Bronchitis = inflamed bronchi. Asthma = bronchioles constrict."],
+            "tip": "Remember the SIZE order: trachea > bronchus > bronchiole > alveolus. Like a tree branching downward."
+          },
+          "alveoli": {
+            "name": "Alveoli — gas exchange surfaces",
+            "rule": "Tiny air sacs (~300 million per lung). 4 features for efficient gas exchange: (1) LARGE SURFACE AREA, (2) THIN walls (one cell thick), (3) RICH blood supply (capillary network), (4) MOIST lining for gases to dissolve.",
+            "examples": ["Total alveolar surface area ~70 m² — like a tennis court folded into your chest.", "O₂ diffuses INTO blood (high to low concentration). CO₂ diffuses OUT of blood.", "Emphysema (smoking damage): walls break down, surface area lost — short of breath.", "COVID can scar alveoli, reducing lifelong lung capacity."],
+            "watchOut": "Diffusion only works because of concentration GRADIENT. Carbon monoxide binds haemoglobin permanently — blocks O₂ — fatal."
+          },
+          "breathing": {
+            "name": "Breathing mechanism",
+            "rule": "INHALATION: diaphragm contracts (flattens), ribcage moves UP and OUT → chest volume INCREASES → pressure DROPS → air flows IN. EXHALATION: opposite — diaphragm relaxes, ribcage drops, pressure rises, air OUT.",
+            "examples": ["Diaphragm is a dome-shaped sheet of muscle below lungs.", "Intercostal muscles between ribs help expand chest.", "Hiccup = involuntary diaphragm spasm.", "Resting breath rate: 12-20/min. Exercise: up to 60+."],
+            "tip": "Pressure-volume law: bigger space = lower pressure = air rushes in. This is BOYLE'S LAW applied to your chest."
+          }
+        }
       },
       "digestive": {
         "title": "Digestive system",
-        "body": "Mouth (mechanical + amylase) → oesophagus → stomach (HCl + pepsin) → small intestine (bile, pancreatic enzymes, absorption via villi) → large intestine (water absorption) → rectum → anus."
+        "body": "Mouth (mechanical + amylase) → oesophagus → stomach (HCl + pepsin) → small intestine (bile, pancreatic enzymes, absorption via villi) → large intestine (water absorption) → rectum → anus.",
+        "detailed": {
+          "pathway": {
+            "name": "Digestive tract — the journey",
+            "rule": "9-metre tube from mouth to anus. Each section does specific tasks. Total transit time: 24-72 hours. Food moves by PERISTALSIS — wave-like muscle contractions.",
+            "examples": ["Mouth: teeth chew + saliva (amylase) starts breaking starch → maltose.", "Stomach: HCl + pepsin (enzyme) break proteins. Volume up to 4 L. pH ~1-3 (very acidic).", "Small intestine: 6-7 m long. Most digestion + ALL absorption happens here.", "Large intestine: water reabsorption. Home to gut microbiome (~100 trillion bacteria).", "Rectum stores faeces. Anus = exit."],
+            "tip": "Mechanical digestion = physical (chewing, churning). Chemical digestion = enzymes break bonds. Both happen throughout."
+          },
+          "enzymes": {
+            "name": "Digestive enzymes",
+            "rule": "Biological catalysts that speed up breakdown of food molecules into absorbable units. Specific — each enzyme works on one substrate. Optimum temperature ~37°C, optimum pH varies by location.",
+            "examples": ["Amylase: starch → maltose. In saliva (pH 7) and pancreatic juice (pH 8).", "Pepsin: proteins → smaller peptides. In stomach. Works at low pH (1-3).", "Lipase: fats → fatty acids + glycerol. From pancreas.", "Bile (NOT an enzyme but helps): emulsifies fats — breaks into smaller droplets so lipase works faster.", "Lactase: deficient in lactose-intolerant people → can't digest milk sugar."],
+            "watchOut": "Don't say 'enzymes are destroyed' below their optimum pH/temperature. They're DENATURED — shape changes, can't bind substrate."
+          },
+          "absorption": {
+            "name": "Absorption in the small intestine",
+            "rule": "Small intestine lined with VILLI (finger-like projections) — each villus has MICROVILLI. Combined surface area ~250 m². Each villus has a capillary network + a lacteal (lymph vessel for fats).",
+            "examples": ["Glucose, amino acids, water-soluble vitamins → into BLOOD capillaries → liver via hepatic portal vein.", "Fats → into LACTEALS → lymph system → eventually joins blood near heart.", "Iron absorbed in upper small intestine. Vitamin B12 needs intrinsic factor from stomach.", "Coeliac disease damages villi → poor absorption → malnutrition despite eating."],
+            "tip": "Why huge surface area? Diffusion is faster across larger area. Villi + microvilli + 7m length = massive absorption capacity."
+          }
+        }
       },
       "nervous": {
         "title": "Nervous system",
-        "body": "CNS = brain + spinal cord. PNS = sensory and motor neurones. Reflex arc: receptor → sensory neurone → relay neurone (spinal cord) → motor neurone → effector. Fast and involuntary."
+        "body": "CNS = brain + spinal cord. PNS = sensory and motor neurones. Reflex arc: receptor → sensory neurone → relay neurone (spinal cord) → motor neurone → effector. Fast and involuntary.",
+        "detailed": {
+          "structure": {
+            "name": "CNS vs PNS",
+            "rule": "CENTRAL nervous system (CNS) = brain + spinal cord — processing & control. PERIPHERAL nervous system (PNS) = all other nerves — connects CNS to body. PNS divides into somatic (voluntary) and autonomic (involuntary).",
+            "examples": ["Brain: 86 billion neurones. Spinal cord: 1m long, connects brain to nerves.", "Sensory nerves carry info FROM receptors TO CNS.", "Motor nerves carry signals FROM CNS TO effectors (muscles, glands).", "Autonomic: heart rate, digestion, breathing rhythm. Sympathetic (fight-or-flight) vs parasympathetic (rest-and-digest)."],
+            "tip": "Mnemonic: PNS Peripheral = body Parts. CNS Central = brain + Cord."
+          },
+          "neurone": {
+            "name": "Neurone structure",
+            "rule": "Cell body with NUCLEUS, DENDRITES (receive signals), and an AXON (sends signal). Axon insulated by MYELIN sheath (made by Schwann cells in PNS, oligodendrocytes in CNS). Signal travels as electrical impulse + chemical at synapses.",
+            "examples": ["Longest neurone in human body: from base of spinal cord to big toe (~1 m).", "Myelin = white matter (axons). Cell bodies = grey matter.", "Multiple sclerosis = autoimmune attack on myelin → signals slow/fail.", "Speed: myelinated axons conduct at up to 120 m/s. Unmyelinated: ~1 m/s."],
+            "tip": "Myelin is like insulation on a wire — both speed up signals and prevent crossover with neighbouring fibres."
+          },
+          "reflex": {
+            "name": "Reflex arc — fast involuntary response",
+            "rule": "Pathway: STIMULUS → receptor → sensory neurone → relay neurone (in spinal cord) → motor neurone → effector → RESPONSE. Bypasses brain → faster (~50 ms) than conscious thought (~500 ms).",
+            "examples": ["Hand on hot stove: sensory neurone (pain) → spinal cord → motor neurone → biceps → pull away. Brain learns about it AFTERWARDS.", "Knee-jerk reflex: tap below kneecap → leg kicks.", "Pupil reflex: bright light → iris constricts.", "Reflexes are inborn — you don't learn them. They protect the body from damage."],
+            "watchOut": "Brain still involved indirectly — receives info via spinal cord. But the REFLEX response happens before the brain decides anything."
+          }
+        }
       },
       "endocrine": {
         "title": "Endocrine (hormonal) system",
-        "body": "Hormones travel in blood, act on target organs. Slower but longer-lasting than nerves. Key hormones: insulin (pancreas, lowers blood sugar), adrenaline (adrenal glands, fight-or-flight), oestrogen/testosterone (puberty)."
+        "body": "Hormones travel in blood, act on target organs. Slower but longer-lasting than nerves. Key hormones: insulin (pancreas, lowers blood sugar), adrenaline (adrenal glands, fight-or-flight), oestrogen/testosterone (puberty).",
+        "detailed": {
+          "comparison": {
+            "name": "Endocrine vs Nervous — different speeds",
+            "rule": "NERVOUS: fast (ms), localised, brief, electrical/chemical signals via neurones. ENDOCRINE: slow (seconds to days), widespread, long-lasting, chemical signals via blood.",
+            "examples": ["Reflex (nervous): pain → response in 50 ms.", "Adrenaline (endocrine): scary event → rush throughout body in seconds, lasts minutes.", "Insulin (endocrine): blood sugar regulation lasts hours.", "Growth hormone (endocrine): operates over months and years."],
+            "tip": "Often work TOGETHER. Stress: brain (nervous) signals adrenal glands (endocrine) → adrenaline releases → effects everywhere."
+          },
+          "hormones": {
+            "name": "Key hormones",
+            "rule": "Hormones are chemical messengers made by GLANDS, travel in BLOOD, act on TARGET CELLS with matching receptors. Different hormones have different targets and effects.",
+            "examples": ["INSULIN (pancreas, β cells): lowers blood sugar — promotes glucose uptake into cells, conversion to glycogen.", "GLUCAGON (pancreas, α cells): raises blood sugar — releases glycogen → glucose.", "ADRENALINE (adrenal glands): fight-or-flight — raises heart rate, releases sugar, dilates pupils.", "OESTROGEN (ovaries): female puberty, menstrual cycle. TESTOSTERONE (testes): male puberty, sex drive.", "THYROXINE (thyroid): metabolic rate. INSULIN and THYROXINE are exam favourites."],
+            "tip": "Negative feedback regulates most hormones. Blood sugar too high → insulin out → lowers it → less insulin needed. Self-correcting."
+          },
+          "diabetes": {
+            "name": "Diabetes — when blood sugar control fails",
+            "rule": "TYPE 1: autoimmune destruction of β cells → no insulin → blood sugar uncontrolled. Usually childhood onset. Requires insulin injections for life. TYPE 2: cells become RESISTANT to insulin. Linked to obesity. Mid-life onset.",
+            "examples": ["Type 1: ~10% of diabetes. Insulin since 1922 (saved millions of lives).", "Type 2: ~90%, rising sharply globally (linked to obesity epidemic).", "Symptoms: thirst, frequent urination, tiredness, weight loss (Type 1).", "Untreated → blindness, kidney failure, amputations, heart disease, coma.", "Management: monitoring, diet, exercise, medication, insulin (T1)."],
+            "watchOut": "T2 used to be 'adult-onset' but now appears in teens too — childhood obesity → earlier onset."
+          }
+        }
       }
     }
   },

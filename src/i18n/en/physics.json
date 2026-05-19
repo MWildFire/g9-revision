@@ -30,7 +30,33 @@
         "1st law — energy is conserved: ΔU = Q − W (heat added minus work done).",
         "2nd law — entropy of an isolated system never decreases. Why heat flows from hot to cold.",
         "3rd law — entropy approaches a constant as temperature → 0 K."
-      ]
+      ],
+      "detailed": {
+        "zeroth": {
+          "name": "Zeroth law of thermodynamics",
+          "rule": "If A is in thermal equilibrium with B, and B is in thermal equilibrium with C, then A and C are in thermal equilibrium. This DEFINES temperature: two objects in thermal equilibrium have the same temperature.",
+          "examples": ["A thermometer (A) reads body temperature (C) via a third object (B = the thermometer itself).", "Two pots of water at 80°C don't exchange net heat when joined — same temperature.", "If you put cold milk in hot coffee, after a while they reach equilibrium — defines a common temperature."],
+          "tip": "Called 'zeroth' because it was discovered AFTER the others, but is logically more fundamental — without it, you can't even define temperature."
+        },
+        "first": {
+          "name": "First law (conservation of energy)",
+          "rule": "Energy can be neither created nor destroyed, only TRANSFORMED. ΔU = Q − W. ΔU = change in internal energy. Q = heat added TO system. W = work done BY system. Heat in adds energy; work out removes it.",
+          "examples": ["Heat 1 L of water (Q = 4180 J): temperature rises 1°C (ΔU = +4180 J, no work done so W = 0).", "Push piston into compressed gas: work done ON gas (W < 0 in this sign convention), gas heats up.", "Burning petrol in a car: chemical energy → kinetic + heat. Total energy conserved.", "Perpetual motion machines IMPOSSIBLE — they'd violate this law."],
+          "tip": "Conservation of energy is one of the most-tested principles in physics. Mention 'energy is conserved' in any answer about transformations."
+        },
+        "second": {
+          "name": "Second law — entropy increases",
+          "rule": "Entropy (disorder) of an ISOLATED system never DECREASES. Heat flows naturally from HOT to COLD, not the other way. Some energy in any process is 'wasted' as low-grade heat.",
+          "examples": ["Drop ice in hot tea — ice melts, tea cools. Never the reverse.", "Eggs scramble, never unscramble.", "Engines can never be 100% efficient — some heat must be lost (Carnot's theorem).", "Universe is gradually cooling and becoming more disordered — 'heat death' in trillions of years."],
+          "watchOut": "Doesn't mean local entropy never decreases — fridges and life DO decrease local entropy by INCREASING entropy elsewhere (waste heat, atmospheric heating)."
+        },
+        "third": {
+          "name": "Third law — absolute zero",
+          "rule": "The entropy of a perfect crystal approaches ZERO as temperature approaches absolute zero (0 K = −273.15°C). You cannot REACH 0 K — only approach it.",
+          "examples": ["Coldest temperature ever achieved in a lab: 38 picokelvin (NIST, 2021).", "Below ~4 K, helium becomes a superfluid — flows without friction.", "Superconductivity (zero electrical resistance) typically appears below ~100 K.", "Absolute zero would mean ZERO molecular motion — quantum mechanics forbids this exactly (zero-point energy)."],
+          "tip": "0°C = 273.15 K. 25°C = 298.15 K. Always add 273 (approximately) to convert Celsius to Kelvin. Kelvin scale starts at absolute zero."
+        }
+      }
     },
     "astro": {
       "title": "Astrophysics — basics",

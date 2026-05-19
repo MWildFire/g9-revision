@@ -81,5 +81,15 @@
     "french": "Французский",
     "arabic": "Арабский",
     "geography": "География"
+  },
+  "timetable": {
+    "topicsLibrary": "Библиотека тем",
+    "clickHint": "Выбери тему, потом нажми на любой день, чтобы добавить.",
+    "selected": "Выбрано",
+    "week": "Неделя",
+    "examDateLabel": "Дата EOY:",
+    "addAria": "Добавить",
+    "removeAria": "Удалить",
+    "toggleAria": "Отметить выполненным"
   }
 }

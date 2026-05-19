@@ -30,27 +30,83 @@
     "sections": {
       "aimHypothesis": {
         "title": "Aim & Hypothesis",
-        "items": {
-          "aim": "Aim — the broad purpose of the investigation. 'To investigate how channel width changes downstream.'",
-          "hypothesis": "Hypothesis — a specific, testable prediction with reasoning. 'Channel width will increase downstream because the Bradshaw model predicts that discharge grows as more tributaries join.'"
+        "detailed": {
+          "aim": {
+            "name": "Aim",
+            "rule": "The broad purpose of the investigation. Stated as ONE sentence, beginning with 'To investigate...' or 'To explore...'. Not testable directly — the hypothesis is.",
+            "examples": ["'To investigate how channel width changes downstream in the River Tees.'", "'To explore the relationship between tourist numbers and environmental damage in Boscastle.'", "'To investigate the variation in microclimate across school grounds.'"],
+            "tip": "Aim ≠ hypothesis. Aim sets the broad question, hypothesis predicts an answer with reasoning."
+          },
+          "hypothesis": {
+            "name": "Hypothesis",
+            "rule": "A specific, testable prediction WITH REASONING. Always state WHY you predict it (link to a model or theory). Use 'will' for what happens, 'because' for the reasoning.",
+            "examples": ["'Channel width will INCREASE downstream because the Bradshaw model predicts discharge grows as tributaries join.'", "'Pedestrian footfall will be HIGHEST near the entrance to the visitor centre because that's where most tourists arrive.'", "'Temperature will be HIGHER in the school playground than the field because tarmac has lower albedo than grass.'"],
+            "watchOut": "Without the 'because', it's just a guess. Examiners look for the link to theory — this is what scores marks under Criterion B."
+          },
+          "nullHypothesis": {
+            "name": "Null hypothesis (H₀)",
+            "rule": "The hypothesis of NO relationship — a statistical baseline. Used in inferential tests (e.g., Spearman's rank). Reject H₀ if your data shows significant correlation.",
+            "examples": ["H₀: There is NO relationship between distance downstream and channel width.", "H₁ (alternative): There IS a positive relationship between distance downstream and channel width.", "If Spearman rₛ exceeds the critical value at the 0.05 level, reject H₀."],
+            "tip": "Statistical convention: you can only ever REJECT or FAIL TO REJECT H₀ — you never 'prove' the alternative."
+          }
         }
       },
       "dataTypes": {
         "title": "Types of data",
-        "items": {
-          "primary": "Primary data — collected first-hand (your own measurements, surveys, photos).",
-          "secondary": "Secondary data — collected by someone else (Met Office records, census data, journal articles).",
-          "quantitative": "Quantitative — numerical (channel width in cm, river velocity in m/s).",
-          "qualitative": "Qualitative — descriptive (people's opinions, photos, sketches, interview quotes)."
+        "detailed": {
+          "primary": {
+            "name": "Primary data",
+            "rule": "Data you collect first-hand, designed specifically for YOUR investigation. Always fresh, but limited by time and your skills/equipment.",
+            "examples": ["Measuring river velocity with a flowmeter at 10 sites.", "Conducting a survey of 50 shoppers in a high street.", "Taking your own photographs of slum housing.", "Counting passers-by in different zones (pedestrian survey)."],
+            "tip": "Strengths: specific to your aim, you control quality. Weaknesses: small samples, your bias may affect results."
+          },
+          "secondary": {
+            "name": "Secondary data",
+            "rule": "Data collected by SOMEONE ELSE, then re-used by you. Larger samples and longer timeframes possible — but not designed for your specific question.",
+            "examples": ["Met Office rainfall records back to 1900.", "UK Census 2021 population data.", "Environment Agency river-flow gauge readings.", "Academic journal articles on tourism impacts.", "Google Earth satellite imagery for land-use change."],
+            "tip": "Strengths: scale & history you can't replicate. Weaknesses: methodological choices not yours; data may be out of date or in a different format."
+          },
+          "quantitative": {
+            "name": "Quantitative data",
+            "rule": "Numerical data that can be measured, counted, and statistically analysed. Allows direct comparison and correlation testing.",
+            "examples": ["Channel width = 4.2 m, depth = 0.6 m, velocity = 0.8 m/s.", "Tourist counts: 230 at site A, 145 at site B.", "Temperature readings every 2 m across the playground.", "Number of vehicles per minute on a road."],
+            "tip": "Always specify UNITS. Present in tables and graphs. Apply statistical tests (mean, median, range, Spearman's)."
+          },
+          "qualitative": {
+            "name": "Qualitative data",
+            "rule": "Descriptive data — words, opinions, images, sketches. Captures meaning and context that numbers miss. Cannot be statistically analysed but adds richness.",
+            "examples": ["Interview quotes: 'I feel unsafe walking here after dark.'", "Photographs of erosion damage on a footpath.", "Field sketches of valley shape.", "Open-ended questionnaire responses about local change."],
+            "tip": "Combine qual + quant for best results (mixed methods). Quote-mining in interviews adds emotional impact to a report."
+          }
         }
       },
       "sampling": {
         "title": "Sampling methods",
-        "items": {
-          "sampleSize": "Sample size — how many measurements/people. Bigger = more reliable, but takes time.",
-          "systematic": "Systematic — fixed interval (every 10 m, every 5th person). Avoids bias but may miss patterns.",
-          "stratified": "Stratified — divide population into groups (age, region), sample each proportionally.",
-          "random": "Random — generated by a random number table or app. Avoids bias but can miss variation by chance."
+        "detailed": {
+          "sampleSize": {
+            "name": "Sample size",
+            "rule": "How many measurements / people you collect. Bigger = more reliable (smaller margin of error), but takes more time. There's always a trade-off.",
+            "examples": ["River study: minimum 10 sites along course; 30+ ideal for Spearman's.", "Pedestrian count: at least 10 minutes per site, repeated 3× at different times of day.", "Questionnaire: minimum 30 respondents to support statistical analysis."],
+            "tip": "Justify your sample size in the methodology. Examiners look for explicit reasoning, not just a number."
+          },
+          "systematic": {
+            "name": "Systematic sampling",
+            "rule": "Take measurements at FIXED INTERVALS — every 10 m, every 5th person, every 30 seconds. Easy to plan and execute; minimal bias from sampler.",
+            "examples": ["Measure river channel every 50 m downstream.", "Interview every 10th customer leaving the shop.", "Photograph land-use at every 100 m grid intersection."],
+            "watchOut": "Can MISS patterns that coincide with your interval. E.g., if sampling every 100 m you'd miss a localised feature that's only 50 m across."
+          },
+          "stratified": {
+            "name": "Stratified sampling",
+            "rule": "Divide population into GROUPS (strata) first — by age, gender, region, etc. — then sample each proportionally. Ensures every group is represented.",
+            "examples": ["Survey 30 people: split by age (10 under 30, 10 aged 30-60, 10 over 60).", "River study: 5 sites in upper course, 5 in middle, 5 in lower — proportional to length.", "School survey: equal numbers of Year 7, 8, 9 students."],
+            "tip": "Best when you EXPECT differences between groups. Reduces sampling bias if combined with random selection within strata."
+          },
+          "random": {
+            "name": "Random sampling",
+            "rule": "Use a random-number table, dice, or app to pick samples. Every member of population has EQUAL chance of selection. Most statistically pure but most logistically annoying.",
+            "examples": ["Number houses 1-100, use random generator to pick 20 to survey.", "Random grid coordinates for land-use sampling.", "Roll dice to pick next sample direction (orienteering-style)."],
+            "watchOut": "By chance, you can miss whole regions/groups. Often combined with stratified (stratified random sampling) for best results."
+          }
         }
       },
       "methodology": {
@@ -59,12 +115,37 @@
       },
       "presentation": {
         "title": "Data presentation",
-        "items": {
-          "bar": "Bar chart — compare categories (tourism types).",
-          "line": "Line graph — change over time (rainfall by month).",
-          "scatter": "Scatter graph — relationship between two variables (distance downstream vs channel depth).",
-          "pie": "Pie chart — proportions of a whole (energy mix by source).",
-          "gis": "GIS (Geographic Information Systems) — layered maps; e.g., ArcGIS, Google Earth, QGIS."
+        "detailed": {
+          "bar": {
+            "name": "Bar chart",
+            "rule": "Compare DISCRETE categories. Bars separated by gaps. Heights show frequency or value. Use vertical for time, horizontal for ranking.",
+            "examples": ["Tourism types in Caribbean: mass (60%), eco (15%), cultural (25%).", "Number of visitors per attraction in Boscastle.", "Energy consumption by country (UK, Germany, France)."],
+            "tip": "Stacked bar chart shows composition of each category. Multiple bars (clustered) compare two variables side-by-side."
+          },
+          "line": {
+            "name": "Line graph",
+            "rule": "Show CHANGE OVER TIME. Continuous data along x-axis. Connect points with a line. Best for trends.",
+            "examples": ["Monthly rainfall throughout the year.", "Population growth 1900-2024.", "River discharge through a storm event (storm hydrograph)."],
+            "tip": "Use multiple lines (different colours) to compare datasets. Always label the axes with units."
+          },
+          "scatter": {
+            "name": "Scatter graph",
+            "rule": "Show RELATIONSHIP between TWO variables. Each dot = one data point with two values (x, y). Best fit line shows trend strength.",
+            "examples": ["Distance downstream (x) vs channel depth (y).", "GDP per capita (x) vs life expectancy (y).", "Temperature (x) vs ice-cream sales (y)."],
+            "tip": "Apply Spearman's rank correlation to test if the relationship is statistically significant. Identify outliers and explain them."
+          },
+          "pie": {
+            "name": "Pie chart",
+            "rule": "Show PROPORTIONS of a whole. Angles = (value/total) × 360°. Best for ≤6 categories. Always sum to 100%.",
+            "examples": ["Energy mix by source: gas 30%, coal 20%, renewable 40%, nuclear 10%.", "Tourist origin: UK 50%, USA 20%, Germany 15%, other 15%.", "Land use in a study area: built 40%, farmland 35%, woodland 15%, water 10%."],
+            "watchOut": "Bad for showing precise values or many categories — use a bar chart instead. Never use 3D pie charts (visually misleading)."
+          },
+          "gis": {
+            "name": "GIS (Geographic Information Systems)",
+            "rule": "Layered digital maps combining multiple data types — elevation, land use, population, transport. Allows queries and spatial analysis impossible on paper.",
+            "examples": ["ArcGIS Online — industry standard, used by Environment Agency.", "QGIS — free open-source alternative.", "Google Earth — free, intuitive, good for school projects.", "Layer flood-risk zones over population density to identify vulnerable communities."],
+            "tip": "GIS skills boost any geography fieldwork submission. Even simple Google Earth annotations are valued."
+          }
         }
       },
       "analysis": {
@@ -73,9 +154,19 @@
       },
       "conclusionsEvaluation": {
         "title": "Conclusions & Evaluation",
-        "items": {
-          "conclusion": "Conclusion — answer your original question using the data. Refer back to the hypothesis (supported / partly / not supported).",
-          "evaluation": "Evaluation — strengths and weaknesses of your method. Sources of error (instrument, human, sampling). Improvements. Extensions for future research."
+        "detailed": {
+          "conclusion": {
+            "name": "Conclusion",
+            "rule": "Answer your ORIGINAL question using the data. Refer back to the hypothesis explicitly (supported / partly supported / not supported). State the strength of evidence.",
+            "examples": ["'The hypothesis is SUPPORTED — channel width increased from 1.2 m at site 1 to 6.8 m at site 10, consistent with the Bradshaw model.'", "'The hypothesis is PARTLY supported — temperature was higher on tarmac as predicted, but only by 1.5°C, less than expected from albedo theory.'", "'The hypothesis is NOT supported — Spearman rₛ = 0.12, below the critical value, so we fail to reject H₀.'"],
+            "tip": "Always link back to theory you mentioned in the hypothesis. Specific numbers prove you actually used your data."
+          },
+          "evaluation": {
+            "name": "Evaluation",
+            "rule": "Discuss STRENGTHS and WEAKNESSES of your methodology. Identify SOURCES OF ERROR. Suggest IMPROVEMENTS. Outline EXTENSIONS for future research. This is where Criterion B marks live.",
+            "examples": ["Strength: large sample (15 sites) gave statistical power.", "Weakness: all data collected in one day — weather could affect comparisons.", "Source of error: ruler measured to nearest cm; channel width values to ±0.5 cm.", "Improvement: repeat measurements 3× per site and average to reduce random error.", "Extension: repeat in winter to compare seasonal variation in river characteristics."],
+            "tip": "Group errors into INSTRUMENT (equipment limits), HUMAN (your mistakes), SAMPLING (which sites/people you chose). Each needs a different improvement."
+          }
         }
       }
     }
@@ -412,12 +503,37 @@
       },
       "otherTypes": {
         "title": "Other tourism case-study examples",
-        "items": {
-          "thana": "Thanatourism — Rome Colosseum; Auschwitz; Chernobyl exclusion zone.",
-          "medical": "Medical tourism — Turkey (hair transplants, dental); India (heart surgery); Thailand (cosmetic).",
-          "eco": "Ecotourism — Galápagos (strict visitor limits); the Amazon (community-run lodges); Costa Rica.",
-          "volun": "Voluntourism — orphanages (criticised for ethics); biogas projects; community water pumps.",
-          "extreme": "Extreme tourism — Antarctica; Everest base camp; deep-sea cruises."
+        "detailed": {
+          "thana": {
+            "name": "Thanatourism — case studies",
+            "rule": "Sites associated with death and tragedy attract millions per year. The motivation ranges from historical learning to morbid curiosity. Hosts walk a tightrope between commemoration and exploitation.",
+            "examples": ["Rome Colosseum (Italy) — gladiator deaths, 1.5M Christians killed. 7.6M visitors/year. Income funds restoration.", "Auschwitz-Birkenau (Poland) — 1.1M murdered 1940-45. 2.3M visitors/year. Strict 'no photography in gas chambers' rule. Free entry.", "Chernobyl exclusion zone (Ukraine) — 1986 nuclear disaster. ~30,000 visitors/year pre-war (now closed). Guided tours required; radiation badges issued.", "9/11 Memorial & Museum (New York) — 3M visitors/year. Family-led design. $26 entry — controversial.", "Killing Fields (Cambodia) — 1975-79 Khmer Rouge genocide. Audio tours narrated by survivors.", "Hiroshima Peace Memorial (Japan) — 1945 atomic bomb. 1.5M visitors/year."],
+            "tip": "Linked to SDG 4 (Quality Education) — these sites carry educational weight that justifies tourism. SEEP analysis: social (memory), economic (jobs in poor areas), environmental (low impact), political (international diplomacy)."
+          },
+          "medical": {
+            "name": "Medical tourism — case studies",
+            "rule": "Travel for healthcare driven by cost gap, waiting lists at home, or treatments unavailable domestically. Growth ~15-25% per year. Major risks if recovery happens abroad.",
+            "examples": ["Turkey — 1.5M medical tourists/year. Hair transplants £1,500 (vs £10,000 UK). Dental crowns £150 (vs £1,000 UK). Istanbul has 50+ accredited hospitals.", "Thailand — Bumrungrad Hospital in Bangkok treats 1M international patients/year. Sex-reassignment surgery, cosmetic surgery. JCI-accredited.", "India — heart bypass surgery ~£5,000 (vs £40,000 UK/USA). Specialised hospitals: Apollo, Fortis. Hindi & English speaking staff.", "Hungary — dentistry hub for Europe. Budapest dental clinics treat ~100,000 foreign patients/year, mostly German and British.", "Mexico — 'dental tourism' from USA along border (Los Algodones nicknamed 'Molar City'). 50% cheaper than US."],
+            "tip": "Pull factors: price gap (often 60-80%), short waits, specialist treatments. Push factors: long NHS waits, high US insurance costs. Risks: language barriers, no follow-up, blood-clot risk in flight, complications harder to litigate abroad."
+          },
+          "eco": {
+            "name": "Ecotourism — case studies",
+            "rule": "Low-impact, conservation-funded travel with strict visitor limits. Profits reinvested in habitat & community. Hard to scale — too many tourists destroys the very thing they came to see.",
+            "examples": ["Galápagos Islands (Ecuador) — 275,000 visitors/year max (cap). $100 entry tax funds conservation. Mandatory naturalist guide. Charles Darwin Foundation runs research.", "Costa Rica — 25% of land protected; tourism = 8% of GDP. Pioneer of certified eco-lodges (CST programme). Pure Life campaign.", "Amazon community lodges — Posada Amazonas (Peru, partnered with Ese'Eja community); Sani Lodge (Ecuador, Kichwa-owned). Profits stay local.", "Kenya — Masai Mara group ranches. Conservancies pay Masai families directly; numbers controlled (≤6 vehicles per sighting).", "Bhutan — 'High Value, Low Impact' policy. ~$200/day mandatory tariff funds free healthcare/education for citizens. Tourist numbers tightly limited."],
+            "tip": "Greenwashing risk — many 'eco' operators just slap the label on. Look for: 3rd-party certification (CST, Rainforest Alliance), community ownership, profit re-investment %, transparent visitor caps."
+          },
+          "volun": {
+            "name": "Voluntourism — case studies",
+            "rule": "Combining travel with development work. Lucrative ($2B+ industry). Heavily criticised when poorly designed — short-term, unskilled volunteers can harm communities they intend to help.",
+            "examples": ["Orphanage tourism (Cambodia, Africa) — 80% of children in Cambodian orphanages have living parents. Attachment disorders proven. Major NGOs (UNICEF, Save the Children) now condemn.", "Biogas plant building (India, East Africa) — Engineers Without Borders volunteers install community digesters that turn manure into cooking gas.", "Habitat for Humanity — global house-building. Best-practice model: long-term, locally led, skill matched.", "Sea Turtle Conservancy (Costa Rica) — beach-patrol volunteering, hatchling release. Visitors pay $1,500+/2 weeks. Funds patrol staff.", "Teaching English abroad — popular but often ineffective when volunteers lack TEFL training & cycle every 2 weeks."],
+            "watchOut": "Red flags: very short stays (under 2 weeks), no skills required, working with vulnerable children, projects that locals could do paid. Always research the host charity's overhead %."
+          },
+          "extreme": {
+            "name": "Extreme & adventure tourism — case studies",
+            "rule": "Travel to remote, harsh or genuinely dangerous places. Tiny visitor numbers, very high prices (£10,000+). Major safety and environmental questions.",
+            "examples": ["Antarctica — 73,000 visitors in 2019/20 (up from 5,000 in 1990s). Antarctic Treaty caps ships at 500 passengers; permits required. Cruise prices £8,000-£40,000.", "Everest base camp / summit — 600+ summit Everest each year (May window). 11 deaths in 2019. Permit alone is $11,000.", "OceanGate Titanic submersible — extreme example: deep-sea tourism. 2023 implosion killed 5 — visibility of regulation failures.", "Volcano boarding (Cerro Negro, Nicaragua) — surf down active volcano on plywood. ~10,000 tourists/year.", "Skydiving (Dubai, Switzerland Interlaken) — tandem jumps £300-£500. Major economic boost for local towns.", "Wing-suit BASE jumping — death rate ~1 in 60 (Eiger). Some destinations now banned (Yosemite)."],
+            "tip": "Triple-bottom-line analysis applies even more to extreme tourism: huge $$ per visitor (economic), few visitors (low cumulative environmental), but high accidents → search-and-rescue costs (social)."
+          }
         }
       }
     }
@@ -428,38 +544,197 @@
     "sections": {
       "definitions": {
         "title": "Definitions",
-        "items": {
-          "resource": "Resource — material or service used to meet human needs",
-          "consumption": "Consumption — rate at which resources are used",
-          "carrying": "Carrying capacity — population the environment can support sustainably"
+        "detailed": {
+          "resource": {
+            "name": "Resource",
+            "rule": "Any material or service used to meet human needs. Includes natural (water, oil, soil) and human-made (energy infrastructure, food systems). Categorised as renewable / non-renewable / flow.",
+            "examples": ["Renewable: solar energy, wind, fresh water (if managed).", "Non-renewable: oil, coal, natural gas — finite stocks.", "Flow resources: continuously regenerating, e.g., sunlight.", "Stock resources: finite, e.g., minerals."],
+            "tip": "Don't confuse renewable with infinite. Water is renewable but can be over-extracted faster than it regenerates."
+          },
+          "consumption": {
+            "name": "Consumption",
+            "rule": "The rate at which a resource is used. Measured per capita and per country. Driven by wealth, lifestyle, technology, and population.",
+            "examples": ["USA: ~17,000 kWh electricity per capita per year. India: ~1,200 kWh.", "Average American eats 100 kg meat/year. Average Indian: 4 kg.", "Globally, consumption has quadrupled since 1970 while population only doubled.", "Ecological footprint — area needed to support one person's consumption."],
+            "tip": "Per-capita consumption is a fairer comparison than total. UK is small but consumes massive amounts per person."
+          },
+          "carrying": {
+            "name": "Carrying capacity",
+            "rule": "The maximum population that an environment can sustain INDEFINITELY without degrading. Depends on technology, resources, and consumption per person.",
+            "examples": ["A small island fishery: maybe 200 people; if 500 settle, fish stocks collapse.", "Global carrying capacity estimated at 9-10 billion humans (current consumption patterns).", "Technology raises it: 'green revolution' agriculture pushed up food carrying capacity in 1960-70s.", "Climate change LOWERS it as droughts/floods reduce arable land."],
+            "watchOut": "Different from 'overshoot' — when populations temporarily exceed carrying capacity. Always followed by population crash if not addressed."
+          }
         }
       },
       "sustainability": {
         "title": "Sustainability",
         "brundtland": "Brundtland (1987): meeting present needs without compromising future generations.",
-        "sdgs": "UN Sustainable Development Goals — 17 targets for 2030"
+        "sdgs": "UN Sustainable Development Goals — 17 targets for 2030",
+        "detailed": {
+          "brundtland": {
+            "name": "Brundtland definition (1987)",
+            "rule": "'Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.' — Our Common Future report, UN.",
+            "examples": ["Sustainable: a solar farm that supplies electricity for 30 years and is recyclable.", "Unsustainable: cutting an old-growth forest faster than it regrows.", "The 'three pillars' principle: economic, social, environmental — must balance ALL three.", "Sweden's recycling rate of 99% (only 1% landfill) is a real-world implementation."],
+            "tip": "Memorise this exact phrase — it appears in EVERY sustainability question. Brundtland was Norwegian PM Gro Harlem Brundtland, hence the name."
+          },
+          "sdgs": {
+            "name": "UN Sustainable Development Goals (SDGs)",
+            "rule": "17 goals adopted in 2015 with a target deadline of 2030. Replace the earlier Millennium Development Goals (MDGs). Every UN member state has signed up.",
+            "examples": ["SDG 1: No Poverty. SDG 2: Zero Hunger. SDG 6: Clean Water. SDG 7: Affordable Energy. SDG 13: Climate Action.", "SDG 14 (Life Below Water): protect marine ecosystems — links directly to tourism case studies.", "Progress mixed: extreme poverty halved 2000-2020, but climate goals far behind.", "Each goal has 8-12 specific targets and quantitative indicators."],
+            "tip": "Reference SDGs in essays to show you connect topics. Tourism = SDG 8 (decent work); rivers = SDG 6 (clean water); atmospheric hazards = SDG 13 (climate)."
+          }
+        }
       },
       "energy": {
         "title": "Energy sources",
         "renewable": "Renewable: solar, wind, hydro, geothermal, biofuels",
-        "nonRenewable": "Non-renewable: oil, gas, coal"
+        "nonRenewable": "Non-renewable: oil, gas, coal",
+        "detailed": {
+          "solar": {
+            "name": "Solar power",
+            "rule": "Photovoltaic (PV) cells convert sunlight directly to electricity. Solar-thermal plants concentrate sun rays to heat water → steam → turbine. Zero emissions in operation. Most rapidly scaling source globally.",
+            "examples": ["Bhadla Solar Park (India): 2.25 GW, largest single solar farm.", "UAE Mohammed bin Rashid Solar Park aims for 5 GW by 2030.", "Domestic rooftop PV: £4,000 system can pay back in 7-10 years.", "Limitations: variable (no sun at night/cloudy), needs storage (batteries)."],
+            "tip": "Cost has fallen 90% since 2010. Now CHEAPER than coal per kWh in most countries."
+          },
+          "wind": {
+            "name": "Wind power",
+            "rule": "Wind turbines convert wind kinetic energy to electricity via rotor blades and a generator. Offshore wind is biggest growth area — stronger, steadier winds at sea.",
+            "examples": ["Hornsea (UK): world's largest offshore wind farm, 1.4 GW.", "Denmark: 50% of electricity from wind.", "Onshore turbines often opposed (NIMBYism) — noise, view impact, bird strike.", "Capacity factor ~30-50% — unlike fossil fuels at 80-95%."],
+            "watchOut": "Bird and bat strikes are real environmental cost. Modern turbines and siting reduce but don't eliminate."
+          },
+          "hydro": {
+            "name": "Hydropower",
+            "rule": "Falling water spins a turbine. Includes dams (large reservoirs) and run-of-river (no big reservoir). Currently the largest renewable source globally.",
+            "examples": ["Three Gorges Dam (China): 22.5 GW, world's largest power plant of any type.", "Itaipu (Brazil/Paraguay): 14 GW, supplies 75% of Paraguay's electricity.", "Norway: 96% of electricity from hydro.", "Pumped storage (e.g., Dinorwig in Wales): pump water up at night, release through turbines at peak demand."],
+            "watchOut": "Reservoirs flood land and displace communities (Three Gorges displaced 1.3M people). Methane emissions from drowned vegetation are a hidden carbon cost."
+          },
+          "geothermal": {
+            "name": "Geothermal",
+            "rule": "Heat from below Earth's crust drives turbines or heats buildings directly. Best in volcanic regions where heat is shallow. Tiny carbon footprint.",
+            "examples": ["Iceland: 25% of electricity, 87% of heating from geothermal.", "Kenya: largest in Africa at 950 MW (East African Rift).", "Japan: extensive use for heating despite tsunami risk.", "Ground-source heat pumps (residential): efficient even in non-volcanic areas."],
+            "tip": "Hard to scale to non-volcanic regions. Drilling costs are huge upfront."
+          },
+          "biofuels": {
+            "name": "Biofuels",
+            "rule": "Liquid fuels from crops — ethanol from corn/sugarcane, biodiesel from rapeseed/palm oil. Renewable in theory but controversial in practice.",
+            "examples": ["Brazil: 25% of vehicle fuel is bioethanol from sugar cane.", "USA mandates 10-15% ethanol blend in petrol.", "EU biofuel rules pushed palm-oil expansion → deforestation in Indonesia.", "Algae biofuel — research stage, doesn't compete with food crops."],
+            "watchOut": "'Food vs fuel' debate. Growing fuel crops takes land away from food, raising prices for poor. Carbon savings often overstated."
+          },
+          "fossilFuels": {
+            "name": "Fossil fuels (non-renewable)",
+            "rule": "Oil, gas, coal: formed over millions of years from buried organic matter. Burn releases CO₂ — primary cause of climate change. Currently ~80% of global energy.",
+            "examples": ["Coal: dirtiest. Largest user: China (50% of global coal). Phasing out in UK (last coal plant 2024).", "Oil: transport fuel + petrochemicals. Saudi Arabia, USA, Russia top producers.", "Natural gas: cleanest of three, used for heating and power. Russia/Qatar/Norway pipelines.", "Fracking: extracts shale gas using high-pressure water. Major in USA; banned in many European countries."],
+            "watchOut": "Stranded assets risk: if climate policy tightens, fossil reserves become unburnable. Trillions of dollars in assets could become worthless."
+          },
+          "nuclear": {
+            "name": "Nuclear power",
+            "rule": "Splitting uranium atoms (fission) releases heat → steam → turbine. Massive energy density (1 kg uranium = 2,700 tons coal). No CO₂ in operation but radioactive waste.",
+            "examples": ["France: 70% of electricity from nuclear (highest %).", "South Korea, Japan, USA major users.", "UK: building Hinkley Point C (3.2 GW) - first new reactor in decades.", "Accidents: Chernobyl 1986, Fukushima 2011 — shaped public opinion.", "Small Modular Reactors (SMRs) — emerging tech, factory-built, safer."],
+            "watchOut": "Waste storage problem: high-level waste remains dangerous for ~100,000 years. No permanent storage site operating yet."
+          }
+        }
       },
       "malthusBoserup": {
         "title": "Malthus vs Boserup",
         "malthus": "Pessimistic: population grows geometrically, food arithmetically — crisis is inevitable.",
-        "boserup": "Optimistic: pressure drives innovation — 'necessity is the mother of invention'."
+        "boserup": "Optimistic: pressure drives innovation — 'necessity is the mother of invention'.",
+        "detailed": {
+          "malthus": {
+            "name": "Thomas Malthus (1798) — Pessimist",
+            "rule": "An Essay on the Principle of Population: population grows GEOMETRICALLY (1, 2, 4, 8…), food production ARITHMETICALLY (1, 2, 3, 4…). Eventually demand outstrips supply — crisis is inevitable. Population checked by 'positive checks' (famine, disease, war) and 'preventive checks' (delayed marriage, abstinence).",
+            "examples": ["His predicted famine never quite materialised at his scale — Industrial Revolution + Green Revolution outpaced his arithmetic.", "Modern Malthusians (Paul Ehrlich 1968 The Population Bomb) said similar — also wrong on timing.", "BUT today's climate change, water stress, soil degradation suggest Malthus might still be right, just delayed.", "Sub-Saharan Africa population projected to triple to 4B by 2100 — Malthusian concerns return."],
+            "watchOut": "Don't write Malthus off — his framework still applies in regional crises (Yemen famine, Somali drought)."
+          },
+          "boserup": {
+            "name": "Ester Boserup (1965) — Optimist",
+            "rule": "The Conditions of Agricultural Growth: 'Necessity is the mother of invention'. Population pressure DRIVES technological innovation. As land per person shrinks, farming intensifies (irrigation, fertiliser, multiple crops) and yields rise. Carrying capacity is not fixed.",
+            "examples": ["The Green Revolution (1940s-70s): Norman Borlaug's wheat varieties tripled Indian/Pakistani yields, averting famine for hundreds of millions.", "Vertical farming, hydroponics, lab-grown meat — current innovation responses.", "Solar/wind tech: arose partly because of climate-driven need.", "Counter-example: Easter Island society collapsed; innovation didn't save them.", "Holland produces 2nd-most food per area despite tiny land — Boserupian intensification."],
+            "tip": "Boserup's framing fits 20th-century history well. But it depends on innovation HAPPENING — not guaranteed in every context."
+          }
+        }
       },
       "waterStress": {
         "title": "Water stress",
-        "description": "Per-capita water availability by region. WRI categories from low to extremely high stress."
+        "description": "Per-capita water availability by region. WRI categories from low to extremely high stress.",
+        "detailed": {
+          "definition": {
+            "name": "Defining water stress",
+            "rule": "Water stress occurs when water demand exceeds available supply, or when poor quality restricts use. Measured by WRI (World Resources Institute) in 5 categories: low (<10%), low-medium (10-20%), medium-high (20-40%), high (40-80%), extremely high (>80% of available withdrawn each year).",
+            "examples": ["Extremely high stress: Middle East (Bahrain, Kuwait, Qatar, UAE, Israel), Cyprus, Yemen, Iran.", "High stress: India, China, Mexico, Spain.", "Medium-high: parts of USA (California, Texas), Australia, southern Europe.", "Low stress: northern Europe, Canada, Russia, much of South America."],
+            "tip": "Different from 'water scarcity' (physical lack). Stress includes economic and infrastructure problems too — Lagos has rain but no piped supply."
+          },
+          "causes": {
+            "name": "Causes of water stress",
+            "rule": "Physical: arid climate, low rainfall, falling groundwater levels. Economic: lack of infrastructure to deliver supply. Population: rapid growth outpacing supply expansion. Climate change: longer droughts, shifting rainfall patterns.",
+            "examples": ["Saudi Arabia: physical (desert) + economic (no rivers) — solved by desalination ($billions).", "Cape Town 'Day Zero' 2018: 3-year drought + growing population + poor planning.", "Mexico City: aquifer drying, city sinking 50 cm/year.", "Lake Chad shrunk 90% since 1960 from over-abstraction and climate change."],
+            "watchOut": "Climate change is amplifying ALL of these factors. Stress is projected to intensify across 40% of countries by 2040."
+          },
+          "solutions": {
+            "name": "Solutions to water stress",
+            "rule": "Supply-side: build dams, desalination, recycle wastewater. Demand-side: efficient irrigation (drip vs flood), water-saving technology, behavioural change. Governance: water rights, pricing, integrated basin management.",
+            "examples": ["Israel: drip irrigation invented here; recycles 90% of wastewater (highest in world).", "UAE: 50% of water from desalination — energy-intensive but unavoidable.", "Singapore: NEWater — recycles wastewater to potable; collects 100% of rainfall.", "Australia: water trading market lets users buy/sell allocations.", "Catchment-scale agreements (e.g., Murray-Darling Basin Plan)."],
+            "tip": "Combine supply + demand + governance for best results. Pure supply-side (just build dams) often fails — political and behavioural change essential."
+          }
+        }
       },
       "foodSecurity": {
         "title": "Food security",
-        "factors": "Population growth, water access, climate change, soil degradation, conflict, trade"
+        "factors": "Population growth, water access, climate change, soil degradation, conflict, trade",
+        "detailed": {
+          "definition": {
+            "name": "What is food security?",
+            "rule": "FAO definition: 'when all people, at all times, have physical, social and economic access to sufficient, safe and nutritious food'. Four pillars: AVAILABILITY (enough produced), ACCESS (people can get/afford it), UTILISATION (nutritious and safe), STABILITY (over time).",
+            "examples": ["UK: ~50% food self-sufficient. Imports much from EU and beyond.", "Yemen: world's worst food crisis — 17M food insecure (war-driven).", "Singapore: imports 90% of food but high access → secure.", "Famines now mostly conflict-driven, not pure scarcity."],
+            "tip": "Food INSECURITY ≠ famine. Insecurity is a spectrum — many people are mildly food insecure (skipping meals) without famine."
+          },
+          "drivers": {
+            "name": "Drivers of insecurity",
+            "rule": "Population growth (~80M added/year), climate change (droughts, floods), soil degradation (33% global soils degraded), water scarcity, conflict, trade barriers, food waste (1/3 of all food wasted).",
+            "examples": ["Climate impacts: heatwaves cut grain yields 4-10% per °C global warming.", "Land grabs: countries (China, Saudi Arabia) buying farmland in Africa.", "Locust swarms in East Africa 2020 destroyed crops affecting 25M people.", "Russia-Ukraine war disrupted global wheat/sunflower supply → price spike 2022."],
+            "watchOut": "Single failures can cascade: 2008 grain price spike caused riots in 30 countries."
+          },
+          "solutions": {
+            "name": "Improving food security",
+            "rule": "Increase production sustainably (GM crops, vertical farming), reduce waste (cold chain, consumer awareness), improve access (cash transfers, school meals), build resilience (drought-resistant crops, insurance).",
+            "examples": ["Vertical farming (Singapore, UAE, USA): year-round crops, 95% less water.", "Golden Rice: GM vitamin A enrichment to combat deficiency.", "World Food Programme: $8B/year humanitarian food aid.", "UK 'too good to waste' campaign: cut household food waste 15% since 2007."],
+            "tip": "Solutions must combine SUPPLY + ACCESS + WASTE REDUCTION. One alone doesn't solve insecurity."
+          }
+        }
       },
       "players": {
         "title": "Key players",
-        "items": "UN, Greenpeace, Zero Waste, supermarkets (Tesco, Sainsbury's), national governments"
+        "items": "UN, Greenpeace, Zero Waste, supermarkets (Tesco, Sainsbury's), national governments",
+        "detailed": {
+          "un": {
+            "name": "United Nations & agencies",
+            "rule": "UN coordinates global responses through specialised agencies: FAO (food), UNEP (environment), WHO (health), UNFCCC (climate). Sets goals (SDGs), brokers treaties (Paris Agreement), provides emergency aid (WFP).",
+            "examples": ["FAO 'State of Food Security' annual reports inform policy globally.", "WFP feeds 100M+ people/year in 80 countries.", "COP climate summits annually — Paris 2015, Glasgow 2021, Dubai 2023, Belém 2025.", "UNEP coordinates ozone layer recovery (Montreal Protocol 1987 — actual success story)."],
+            "tip": "UN has no enforcement power — it depends on member states cooperating. Real action depends on national governments."
+          },
+          "ngos": {
+            "name": "NGOs (Greenpeace, WWF, Oxfam etc.)",
+            "rule": "Non-governmental organisations campaign, lobby, run direct programmes. Independent of governments. Fund themselves through donations. Bring expertise and pressure.",
+            "examples": ["Greenpeace: direct action campaigns (rainbow warrior); famous for confronting whalers/oil rigs.", "WWF: largest conservation NGO; protects pandas, tigers; runs 1,300+ projects in 100 countries.", "Oxfam: anti-poverty; emergency food aid in conflict zones.", "Friends of the Earth: legal challenges to fossil-fuel projects.", "Local NGOs often more effective than international (cultural context)."],
+            "tip": "NGOs amplify problems and prototype solutions, but ultimate change needs government/corporate buy-in."
+          },
+          "businesses": {
+            "name": "Businesses & TNCs",
+            "rule": "Multinational companies have massive resource footprints and can change practices rapidly. Supermarkets, food companies, energy firms — both problem and potential solution.",
+            "examples": ["Tesco/Sainsbury's: commit to halve food waste by 2030; eliminate plastic packaging.", "Unilever 'Sustainable Living Plan': halved environmental impact by 2020 (mixed success).", "Shell, BP: net-zero by 2050 pledges (criticised for inadequacy by activists).", "Patagonia: B-corp; donates all profits to environment ($100M+).", "Microsoft: aims to be carbon-NEGATIVE by 2030 (removes more than it emits)."],
+            "watchOut": "Greenwashing risk — many corporate pledges sound great but lack measurable targets or accountability."
+          },
+          "governments": {
+            "name": "National governments",
+            "rule": "Set policies (taxes, subsidies, regulations), build infrastructure (water, energy), sign international treaties. Their priorities often determine what NGOs, businesses, citizens can do.",
+            "examples": ["Germany Energiewende: phased out nuclear post-Fukushima, scaled up wind/solar.", "USA: Inflation Reduction Act 2022 — $369B for clean energy.", "Costa Rica: 99% electricity renewable; carbon-neutral target 2050.", "UK Climate Change Act 2008: legally binding net-zero by 2050.", "Norway: $1.4T sovereign wealth fund divested from coal."],
+            "tip": "Domestic politics drives outcomes. Look at elections, lobbying, and political will — not just stated policy."
+          },
+          "citizens": {
+            "name": "Citizens & consumers",
+            "rule": "Individual choices add up — but limited compared to systemic action. Vote, consume, donate, protest, lifestyle changes. Public pressure shapes politics and markets.",
+            "examples": ["Veganuary 2024: 1.8M signed up to try plant-based eating for a month.", "Greta Thunberg's school strike sparked global youth climate movement (Fridays for Future).", "Extinction Rebellion direct action 2019-onwards.", "Cycling-to-work tax breaks; secondhand shopping (Vinted, eBay) reduces waste.", "Reusable cup discounts in Costa, Starbucks."],
+            "tip": "Individual action is necessary but not sufficient. Systemic change requires collective and political action."
+          }
+        }
       }
     }
   },
@@ -469,30 +744,156 @@
     "sections": {
       "climateZones": {
         "title": "Climate zones",
-        "items": "Polar, Temperate, Arid, Tropical, Mediterranean, Mountainous"
+        "items": "Polar, Temperate, Arid, Tropical, Mediterranean, Mountainous",
+        "detailed": {
+          "polar": {
+            "name": "Polar (high latitudes)",
+            "rule": "Beyond 66.5° N/S (Arctic and Antarctic Circles). Year-round freezing. Long polar night and midnight sun. Permafrost in soil. Sparse vegetation: tundra, ice sheets.",
+            "examples": ["Locations: Greenland, northern Canada, Siberia, Antarctica.", "Average temperature: −20°C to −60°C in winter.", "Precipitation low (~250 mm/year) — technically a polar desert.", "Wildlife: polar bears, Arctic foxes, penguins (Antarctic only).", "Indigenous peoples: Inuit, Sami, Nenets — adapted lifestyles."],
+            "tip": "Climate change is warming polar regions 2-4× faster than global average (Arctic amplification)."
+          },
+          "temperate": {
+            "name": "Temperate (mid-latitudes)",
+            "rule": "Roughly 40-60° N/S. Four distinct seasons, moderate rainfall year-round. Where most of human population lives. Deciduous forests, grasslands.",
+            "examples": ["Locations: UK, most of Europe, eastern USA, Japan, New Zealand.", "Summer: 15-25°C; winter: 0-10°C; precipitation 600-1500 mm.", "Subdivisions: oceanic (UK, mild & wet), continental (Russia, hot summers cold winters).", "Soils typically fertile — major agricultural breadbaskets."],
+            "tip": "'Maritime' = near ocean (mild). 'Continental' = inland (extreme). UK is maritime; Moscow continental."
+          },
+          "arid": {
+            "name": "Arid (deserts)",
+            "rule": "Less than 250 mm rainfall per year. Located mainly at 20-30° latitude (descending air of Hadley cells). Extreme temperature ranges. Sparse vegetation adapted to drought.",
+            "examples": ["Hot deserts: Sahara (largest), Arabian, Kalahari, Australian Outback.", "Cold deserts: Gobi (Mongolia), Atacama (Chile, driest of all).", "Temperature range: 40°C day to below freezing night.", "Adaptations: camels store fat in humps; cacti store water in stems.", "Major water-stressed regions for humans."],
+            "watchOut": "Don't confuse 'arid' with 'hot' — Antarctica is the largest desert (precipitation under 250 mm)."
+          },
+          "tropical": {
+            "name": "Tropical",
+            "rule": "Between Tropic of Cancer (23.5°N) and Tropic of Capricorn (23.5°S). Hot all year (average above 18°C). Two types: tropical RAINFOREST (constantly wet) and tropical SAVANNA (wet/dry seasons).",
+            "examples": ["Rainforest: Amazon, Congo, SE Asia. Rainfall 2000-4000 mm/year, evenly spread.", "Savanna: Serengeti, Sahel, Brazilian cerrado. Distinct wet/dry seasons.", "Biodiversity hotspot: rainforests hold 50% of all species on 6% of Earth.", "Subject to deforestation pressure (Amazon, Indonesia)."],
+            "tip": "Trees in tropical rainforests are evergreen because there's no cold or dry season triggering leaf drop."
+          },
+          "mediterranean": {
+            "name": "Mediterranean",
+            "rule": "30-45° latitude, west coasts of continents. HOT DRY SUMMERS, MILD WET WINTERS. Vegetation: drought-resistant scrub (maquis, chaparral). Wildfires common.",
+            "examples": ["Locations: Mediterranean Basin (Spain, Italy, Greece), California, Cape Town, central Chile, SW Australia.", "Summer: 25-30°C, almost no rain. Winter: 5-15°C, most of annual rainfall.", "Famous crops: olives, grapes, citrus.", "Forest fires: California 2018-23, Greece 2023 — climate change worsening."],
+            "watchOut": "Climate change is increasing fire seasons and droughts in ALL Mediterranean climates worldwide."
+          },
+          "mountainous": {
+            "name": "Mountainous / highland",
+            "rule": "Climate varies WITH ALTITUDE — colder, more snow, less oxygen as you climb. Lapse rate ~6.5°C drop per 1000 m. Distinct vegetation belts up a mountain.",
+            "examples": ["Himalayas: lowland tropical → temperate → alpine → glacial as you ascend.", "Alps, Andes, Rockies, Atlas — same pattern.", "Mountain snow critical water source — feeds rivers downstream.", "Climate change shrinking glaciers globally; water supply at risk for 2 billion people."],
+            "tip": "The same mountain range can have multiple climates from base to peak. Geography exam often asks 'how does climate vary with altitude?'"
+          }
+        }
       },
       "latitudeSun": {
         "title": "Latitude & sun's rays",
-        "description": "At higher latitudes, sun rays strike at a lower angle, spreading energy over a larger area — cooler climate."
+        "description": "At higher latitudes, sun rays strike at a lower angle, spreading energy over a larger area — cooler climate.",
+        "detailed": {
+          "physics": {
+            "name": "Why higher latitudes are colder",
+            "rule": "At the equator, sun's rays strike VERTICALLY — energy concentrated on small area, intense heating. At poles, rays strike at SHALLOW ANGLE — same energy spread over much larger area + travels through more atmosphere → cooler.",
+            "examples": ["At equator (0°): 1 m² of land receives ~1000 W of solar energy at noon.", "At 60° latitude: same 1 m² receives only ~500 W — energy spread over twice the area.", "Polar regions in winter: angle so shallow that sun doesn't rise (polar night).", "Polar regions in summer: sun never sets, but still cold — angle remains shallow."],
+            "tip": "This is purely GEOMETRY of a sphere lit from one direction. Earth doesn't 'tilt away' more in winter — the tilt + orbit pattern determines seasons."
+          },
+          "tilt": {
+            "name": "Earth's tilt (23.5°) — why we have seasons",
+            "rule": "Earth's axis is tilted 23.5° relative to its orbital plane. This means at any given time, one hemisphere is tilted TOWARDS the sun (summer) and the other AWAY (winter). The tilt — not distance from sun — drives seasons.",
+            "examples": ["June 21 — Northern hemisphere summer solstice: N hemisphere tilted maximum toward sun.", "December 21 — N winter solstice: tilted maximum away.", "March/September equinoxes: tilt is sideways → equal day/night everywhere.", "If Earth had no tilt: no seasons; everyone would have 12h day/night year-round."],
+            "watchOut": "Earth is actually CLOSER to the sun in N hemisphere winter (Jan) — only 3% closer though, much less than tilt effect."
+          }
+        }
       },
       "circulation": {
         "title": "Atmospheric circulation cells",
-        "items": "Hadley (0–30°), Ferrel (30–60°), Polar (60–90°)"
+        "items": "Hadley (0–30°), Ferrel (30–60°), Polar (60–90°)",
+        "detailed": {
+          "hadley": {
+            "name": "Hadley cells (0°–30°)",
+            "rule": "Air heated at the equator RISES, releases moisture as rain (creating rainforests), then flows poleward at high altitude. Descends around 30°N and 30°S — dry, descending air creates DESERTS.",
+            "examples": ["Equator: rainforests (Amazon, Congo, SE Asia) — daily convectional rainfall.", "30°N descent: Sahara, Arabian, Mexican deserts — all on this latitude.", "30°S descent: Kalahari, Australian outback, Atacama (combined with Andes).", "ITCZ (Intertropical Convergence Zone) where N and S Hadley cells meet — migrates with sun's position seasonally."],
+            "tip": "George Hadley (1735) named after the British meteorologist. The pattern explains WHY deserts cluster at 30° latitude — not random."
+          },
+          "ferrel": {
+            "name": "Ferrel cells (30°–60°)",
+            "rule": "Indirect cell driven by Hadley and Polar cells. Air rises around 60° (low pressure, wet weather — UK climate!) and descends around 30° (high pressure, dry). Westerlies dominate at surface.",
+            "examples": ["UK lies in the Ferrel cell — explains why we get frequent rain and prevailing westerlies.", "Same cell brings weather systems eastward across N Atlantic to Europe.", "Storm tracks follow polar front (~60° N) — depressions form here.", "Jet stream meanders along this boundary."],
+            "tip": "Ferrel cell named after William Ferrel (1856). Unlike Hadley/Polar (direct), Ferrel circulation is driven mechanically by the other two."
+          },
+          "polar": {
+            "name": "Polar cells (60°–90°)",
+            "rule": "Cold dense air SINKS at the pole (high pressure), flows along surface toward 60°, where it RISES on meeting Ferrel cell air. Cold, dry, weak system but big climatic effect.",
+            "examples": ["Arctic high pressure brings cold dry weather to the Far North.", "Polar front (60° N) — boundary with Ferrel cell where most northern hemisphere depressions form.", "Polar vortex — winter wind pattern; can collapse and bring polar air to mid-latitudes ('beast from the east' UK 2018)."],
+            "tip": "Polar cells are WEAKER than Hadley because temperature gradient is smaller and air column thinner."
+          }
+        }
       },
       "pressure": {
         "title": "High & low pressure",
         "high": "High pressure — descending air, calm and dry (deserts at 30°)",
-        "low": "Low pressure — rising air, cloudy and wet (equator and 60°)"
+        "low": "Low pressure — rising air, cloudy and wet (equator and 60°)",
+        "detailed": {
+          "high": {
+            "name": "High pressure (anticyclones)",
+            "rule": "Air DESCENDS, gets compressed and warmer, holds more moisture (so clouds evaporate). Calm, dry, clear skies. Cold in winter (no cloud cover at night), hot in summer.",
+            "examples": ["UK summer heatwave 2022: high pressure anticyclone parked over the country.", "Winter frost: high pressure means no clouds at night → radiation cooling → temperature plummets.", "Desert at 30° latitude: permanent high pressure → no rain.", "Isobars on weather chart: WIDELY SPACED around high. Winds light, clockwise (N hemisphere)."],
+            "tip": "'High pressure = high temperature' is a common mistake — it can be high pressure AND cold (winter)."
+          },
+          "low": {
+            "name": "Low pressure (cyclones / depressions)",
+            "rule": "Air RISES, cools, condenses → clouds and rain. Stormy, cloudy, wet. Storms typically form along fronts where air masses meet.",
+            "examples": ["UK weather: most depressions arrive from Atlantic — Storms Eunice, Ciara, etc.", "Tropical cyclones (hurricanes/typhoons): most intense low pressure, with eye walls and rotation.", "Polar lows: smaller intense systems forming in Arctic air masses.", "Isobars tightly packed around low. Winds strong, anti-clockwise (N hemisphere) due to Coriolis effect."],
+            "watchOut": "All hurricanes/cyclones are low pressure. Pressure < 980 mb = major depression. Hurricane Wilma 2005 hit 882 mb — lowest ever measured in Atlantic."
+          }
+        }
       },
       "tropicalStorms": {
         "title": "Tropical storms",
-        "description": "Form over warm oceans (≥27°C) between 5° and 30° latitude. Tracks: Atlantic (hurricanes), Pacific (typhoons), Indian (cyclones)."
+        "description": "Form over warm oceans (≥27°C) between 5° and 30° latitude. Tracks: Atlantic (hurricanes), Pacific (typhoons), Indian (cyclones).",
+        "detailed": {
+          "formation": {
+            "name": "How tropical storms form",
+            "rule": "Form ONLY where: ocean temp ≥ 27°C (provides energy), latitude 5-30° (need Coriolis effect to spin, but not too close to equator), low wind shear (vertical winds don't disrupt structure), pre-existing low pressure or wave disturbance.",
+            "examples": ["Warm ocean evaporates water → rises → condenses → releases latent heat → drives MORE rising air → positive feedback intensifies storm.", "Eye in the centre: calm, descending air. Eye wall: most intense winds and rain.", "Average lifespan: 10 days. Decay when hitting land (no warm water).", "Coriolis effect spins them anticlockwise in N hemisphere, clockwise in S."],
+            "tip": "Climate change is making warm seas warmer and more widespread — more intense storms, longer seasons, hitting higher latitudes."
+          },
+          "naming": {
+            "name": "Hurricanes, typhoons, cyclones — same storm, different name",
+            "rule": "Same meteorological phenomenon. Named by region: HURRICANE (Atlantic, eastern Pacific), TYPHOON (NW Pacific — Japan, Philippines), CYCLONE (Indian Ocean, S Pacific). Scaled by Saffir-Simpson 1-5 by wind speed.",
+            "examples": ["Hurricane Katrina 2005 (Atlantic) — Cat 5, devastated New Orleans, 1800 deaths.", "Typhoon Haiyan 2013 (Pacific) — Cat 5, 6,300+ deaths in Philippines.", "Cyclone Idai 2019 (Indian Ocean) — Cat 3, killed 1300+ in Mozambique.", "Saffir-Simpson scale: Cat 1 (118-153 km/h) to Cat 5 (≥252 km/h)."],
+            "tip": "Names recycle every 6 years unless retired (death toll/damage). Names alphabetical within season."
+          },
+          "impacts": {
+            "name": "Tropical storm impacts",
+            "rule": "PRIMARY: winds, storm surge, rainfall. SECONDARY: flooding, landslides, infrastructure collapse, disease outbreaks. Severity depends on poverty, preparedness, building codes.",
+            "examples": ["Storm surge: most lethal — wall of seawater pushed inland. Bangladesh 1970 cyclone surge killed 500,000.", "Bangladesh more vulnerable than e.g., Florida because: low elevation, dense population, poor warnings, fewer shelters.", "Haiti 2010 earthquake + Hurricane Tomas: cholera outbreak killed 10,000+.", "LEDCs suffer disproportionately — most deaths in poor countries even though MEDC storms can cause more $ damage."],
+            "watchOut": "Wind speed isn't the only metric — Hurricane Harvey 2017 was 'only' Cat 4 but stalled, dumping 1.5 m rain on Houston."
+          }
+        }
       },
       "enso": {
         "title": "El Niño / La Niña / Normal",
         "normal": "Normal: trade winds push warm water west; upwelling off Peru",
         "elNino": "El Niño: weakened winds; warm water in eastern Pacific; flooding in Peru, drought in Australia",
-        "laNina": "La Niña: strengthened winds; cooler eastern Pacific; drought in Peru, floods in Australia"
+        "laNina": "La Niña: strengthened winds; cooler eastern Pacific; drought in Peru, floods in Australia",
+        "detailed": {
+          "normal": {
+            "name": "Normal Pacific (neutral) conditions",
+            "rule": "Trade winds blow east-to-west across the equatorial Pacific, pushing warm surface water toward Asia/Australia. Cold deep water UPWELLS off Peru, bringing nutrients → world's richest fishery.",
+            "examples": ["Indonesia/Australia: warm sea → rising air → rainfall.", "Peru: cool sea, upwelling → dry conditions but rich fishing.", "Pattern lasts most years — ENSO neutral.", "Anchovy fishery off Peru: 7 million tons/year in normal years."],
+            "tip": "ENSO = El Niño Southern Oscillation. Two phases (El Niño, La Niña) bracket the normal middle state."
+          },
+          "elNino": {
+            "name": "El Niño (the warm phase)",
+            "rule": "Trade winds WEAKEN or REVERSE. Warm water sloshes back EAST. Upwelling off Peru stops. Sea surface in central/eastern Pacific WARMER. Global weather patterns scramble. Occurs every 3-7 years.",
+            "examples": ["Peru: heavy rain, floods (1997-98 El Niño caused $50B damage globally).", "Australia/SE Asia: drought, wildfires (Black Christmas 2019-20 bushfires linked).", "California: more winter rain.", "Anchovy collapse off Peru — fishery loses billions, seabirds starve.", "Atlantic hurricanes SUPPRESSED (more wind shear)."],
+            "watchOut": "Strong El Niño years (1982-83, 1997-98, 2015-16) cause global temperature spikes — often hottest years on record."
+          },
+          "laNina": {
+            "name": "La Niña (the cool phase)",
+            "rule": "Trade winds INTENSIFY. Warm water pushed even further west. Upwelling off Peru INTENSIFIES. Eastern Pacific even COOLER than normal. Opposite of El Niño impacts in many places.",
+            "examples": ["Australia: heavy rain, floods (2010-11 Queensland floods linked).", "Peru: severe drought.", "Atlantic hurricanes more frequent (less wind shear) — 2020 Atlantic season had record 30 storms.", "California: drier winter.", "Africa: floods in Mozambique/Madagascar."],
+            "tip": "La Niña often follows El Niño but pattern unpredictable. Each event lasts 1-3 years."
+          }
+        }
       },
       "haiyan": {
         "title": "Case study — Typhoon Haiyan (Nov 2013)",

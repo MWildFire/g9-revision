@@ -2,7 +2,7 @@
   "subjectName": "Biology",
   "home": {
     "title": "Biology — Revision",
-    "intro": "Six core topics for G9 IB MYP Biology, with RU/EN glossary and links to the school's external resources.",
+    "intro": "Seven core topics for G9 IB MYP Biology, with RU/EN glossary and links to the school's external resources.",
     "externalNotice": "External pages will open in a new tab if iframe is blocked.",
     "topicsHeading": "Topics"
   },
@@ -24,9 +24,10 @@
     "home": "Overview",
     "cells": "Cell Biology",
     "bodySystems": "Body Systems",
+    "photosynthesis": "Photosynthesis & Biotechnology",
     "ecology": "Ecology",
     "genetics": "Genetics & Evolution",
-    "immune": "Immune System & Health",
+    "immune": "Health & Disease",
     "experiment": "Experimental Design",
     "extras": "Extras (beyond G9)"
   },
@@ -70,6 +71,58 @@
     "title": "Cell Biology",
     "intro": "Cells are the basic unit of life. Compare animal vs plant cells, understand specialized structures, and link cell function to organisms.",
     "sections": {
+      "microscopes": {
+        "title": "Use of microscopes",
+        "detailed": {
+          "light": {
+            "name": "Light microscope",
+            "rule": "Uses VISIBLE LIGHT and glass lenses. Magnifies up to ~×1500. Can show living cells, tissues, and basic organelles (nucleus, chloroplasts, cell walls). Magnification = eyepiece × objective.",
+            "examples": ["Eyepiece ×10 + objective ×40 = total ×400 magnification.", "You can see: animal/plant cells, nuclei, chloroplasts, vacuoles, even cell movement in living samples.", "You CAN'T see: ribosomes (too small), mitochondria detail, membranes.", "Light microscopes have RESOLUTION limit ~0.2 μm — closer objects blur together."],
+            "tip": "Magnification ≠ resolution. Bigger image, but blurry above the resolution limit. School microscopes are light microscopes."
+          },
+          "electron": {
+            "name": "Electron microscope",
+            "rule": "Uses BEAMS OF ELECTRONS instead of light. Magnifies up to ~×500,000. Sees tiny detail: ribosomes, internal mitochondrial structure, viruses. ONLY dead, preserved specimens (vacuum needed).",
+            "examples": ["Transmission EM (TEM): beam passes through thin slice; 2D image with internal detail.", "Scanning EM (SEM): beam scans surface; 3D-like image.", "Used to discover: structure of DNA, ribosomes, viruses, cell membranes.", "Resolution: ~0.1 nm — 2000× better than light microscope."],
+            "watchOut": "Can't see LIVING tissue. Hugely expensive, complex sample prep. Light microscope is the school tool; electron is research-grade."
+          },
+          "preparation": {
+            "name": "Preparing a slide (light microscope)",
+            "rule": "Method: (1) place SPECIMEN on clean slide; (2) add a drop of WATER or STAIN; (3) lower a COVERSLIP at 45° to avoid air bubbles; (4) place on stage, focus low power first, then switch up.",
+            "examples": ["Onion epidermis: peel a thin layer of skin from a layer, mount in water + iodine stain → nuclei dark.", "Cheek cells: rub clean toothpick on inner cheek, smear on slide, add methylene blue stain.", "Stains: iodine (starch black), methylene blue (nuclei/blue), Sudan III (fats red), Benedict's (sugar)."],
+            "tip": "Always start with LOW power objective to find the specimen. Increasing power without finding focus first = lost specimen."
+          },
+          "drawing": {
+            "name": "Biological drawings",
+            "rule": "Use a SHARP PENCIL. Clean continuous lines (no sketching). Label structures with horizontal lines, ending on the structure, with the name on the right. State magnification.",
+            "examples": ["Drawing of an onion epidermal cell: cell wall, cytoplasm, nucleus, vacuole labelled.", "Always include scale or magnification (e.g., ×400).", "Calculate ACTUAL SIZE = image size ÷ magnification."],
+            "watchOut": "Don't shade or use coloured pencils on biological drawings — examiners deduct marks. Sharp pencil only."
+          }
+        }
+      },
+      "eukaryoticProkaryotic": {
+        "title": "Eukaryotic vs Prokaryotic cells",
+        "detailed": {
+          "eukaryotic": {
+            "name": "Eukaryotic cells",
+            "rule": "Have a TRUE NUCLEUS (DNA inside a membrane). Have membrane-bound organelles (mitochondria, ER, Golgi, chloroplasts). Larger (5-100 μm). All animals, plants, fungi, protists are eukaryotic.",
+            "examples": ["Animal cells: human skin, muscle, blood, neurones.", "Plant cells: leaves, roots, palisade mesophyll.", "Fungal cells: yeast, mushrooms.", "Protists: amoeba, paramecium.", "Eukaryotic DNA is LINEAR and stored in chromosomes."],
+            "tip": "'Eu' = true, 'karyon' = nucleus → 'true nucleus'. Think 'true' = complex = bigger."
+          },
+          "prokaryotic": {
+            "name": "Prokaryotic cells (bacteria)",
+            "rule": "NO membrane-bound nucleus — DNA floats freely in cytoplasm. NO membrane-bound organelles. Smaller (1-10 μm). Have a cell wall (peptidoglycan, NOT cellulose). May have plasmids — small DNA loops.",
+            "examples": ["Bacteria: E. coli, Salmonella, Streptococcus, Lactobacillus.", "Archaea: extremophiles in hot springs, deep ocean vents.", "Bacteria reproduce by binary fission (split in two) — can do every 20 min.", "Prokaryotic DNA is CIRCULAR and free in the cytoplasm (no chromosomes)."],
+            "watchOut": "Bacteria have ribosomes (smaller than eukaryotic ones) and a cell wall — but NO mitochondria, NO chloroplasts, NO nucleus."
+          },
+          "comparison": {
+            "name": "Side-by-side comparison",
+            "rule": "Key differences for exam: nucleus (true vs none), organelles (membrane-bound vs none), DNA shape (linear chromosomes vs circular + plasmids), size (5-100 μm vs 1-10 μm), examples (humans, plants vs bacteria).",
+            "examples": ["Both have: cytoplasm, cell membrane, ribosomes, DNA.", "Only eukaryotic: nucleus, mitochondria, ER, Golgi, lysosomes; plant eukaryotic also has chloroplasts and large vacuole.", "Only prokaryotic: plasmids, peptidoglycan cell wall.", "Plant cells (eukaryotic) AND bacteria (prokaryotic) both have cell walls — but different materials!"],
+            "tip": "Common exam trap: 'do bacteria have cell walls?' YES. 'Do animal cells have cell walls?' NO. Don't assume cell wall = plant."
+          }
+        }
+      },
       "structure": {
         "title": "Cell structure",
         "detailed": {
@@ -162,10 +215,36 @@
         }
       },
       "transport": {
-        "title": "Transport across membranes",
+        "title": "Movement across membranes",
         "diffusion": "Diffusion — movement from high to low concentration. Passive (no energy).",
         "osmosis": "Osmosis — diffusion of WATER across a partially permeable membrane.",
-        "activeTransport": "Active transport — low to high concentration. Requires energy (ATP)."
+        "activeTransport": "Active transport — low to high concentration. Requires energy (ATP).",
+        "detailed": {
+          "diffusion": {
+            "name": "Diffusion",
+            "rule": "Net movement of particles from a region of HIGH concentration to LOW concentration, down a concentration gradient. PASSIVE — no energy needed. Speed depends on temperature, surface area, distance, concentration difference.",
+            "examples": ["O₂ moves from alveoli (high) into blood (low) by diffusion.", "CO₂ moves from blood into alveoli (high → low) by diffusion.", "Smell of perfume reaches your nose — gas particles diffuse through air.", "Glucose absorbed from gut into blood (partly by diffusion + active transport)."],
+            "tip": "Fick's law: rate ∝ (surface area × concentration difference) / distance. Why villi/alveoli have huge SA and thin walls."
+          },
+          "osmosis": {
+            "name": "Osmosis",
+            "rule": "Diffusion of WATER molecules from a region of HIGH water concentration (dilute solution) to LOW water concentration (concentrated solution), across a partially permeable membrane. Solutes can't cross — only water does.",
+            "examples": ["Root hair cells absorb water from soil (dilute) into the cell (more concentrated cell sap).", "Red blood cell in pure water → swells and bursts (water rushes in). In strong salt → shrinks and shrivels.", "Plant cells in water: become TURGID (firm). In salt water: become FLACCID then PLASMOLYSED (cell membrane pulls away from cell wall).", "Why salt preserves food — high solute concentration sucks water out of bacteria, killing them."],
+            "tip": "Water moves to where the SOLUTES are (lower water concentration). Easy way to remember: water moves to dilute the more concentrated solution."
+          },
+          "activeTransport": {
+            "name": "Active transport",
+            "rule": "Movement of particles AGAINST the concentration gradient (low → HIGH). Requires ENERGY from ATP. Uses specific transporter proteins in the membrane.",
+            "examples": ["Root hair cells absorb mineral ions (e.g., NO₃⁻) from very dilute soil into the cell where they're more concentrated.", "Glucose absorbed from gut into intestinal cells when blood glucose is already higher.", "Sodium-potassium pump in neurones: pumps Na⁺ out and K⁺ in (both against gradient).", "Why cells doing active transport have LOTS of mitochondria — they need ATP."],
+            "watchOut": "If you stop a cell respiring (no ATP), active transport stops — but diffusion and osmosis keep going."
+          },
+          "significance": {
+            "name": "Significance of diffusion in biology",
+            "rule": "Diffusion underlies many essential processes — but it's slow over long distances. Cells, tissues, and organs are ADAPTED to maximise diffusion efficiency.",
+            "examples": ["Gas exchange in lungs: alveoli have huge surface area + thin walls + moist + good blood supply = fast diffusion.", "Gut absorption: villi + microvilli give enormous surface area for diffusion of nutrients.", "Plant gas exchange: stomata + spongy mesophyll air spaces allow CO₂ and O₂ to diffuse.", "Small organisms (single cells, insects) rely entirely on diffusion — that's why they're SMALL. Big animals need lungs/blood to bring oxygen close to every cell."],
+            "tip": "Adaptations for fast diffusion: LARGE surface area, SHORT distance, BIG concentration gradient, MOIST surface, GOOD ventilation/circulation. Mention these in any gas-exchange answer."
+          }
+        }
       }
     }
   },
@@ -269,6 +348,60 @@
           }
         }
       },
+      "nutrition": {
+        "title": "Nutrition & balanced diet",
+        "body": "A balanced diet provides carbohydrates, proteins, fats, vitamins, minerals, fibre, and water in the right amounts. Energy needs vary by age, sex, and activity.",
+        "detailed": {
+          "groups": {
+            "name": "The 7 food groups",
+            "rule": "CARBOHYDRATES: main energy source (bread, rice, pasta). PROTEINS: growth and repair (meat, fish, beans, eggs). FATS: energy store + insulation + hormones (butter, oils, nuts). VITAMINS: chemical reactions (e.g., C for skin, D for bones). MINERALS: ions (iron for blood, calcium for bones). FIBRE: bulk for gut movement (wholegrain, vegetables). WATER: every reaction in body needs it.",
+            "examples": ["Vitamin C deficiency = scurvy (sailors of 1500s before citrus was understood).", "Iron deficiency = anaemia (tiredness, pale skin).", "Calcium deficiency = brittle bones (rickets in children).", "Recommended balanced plate: 1/3 starches, 1/3 fruit/veg, then protein, dairy, small fats."],
+            "tip": "Different food groups cannot replace each other. Even if you eat enough calories, missing one group → deficiency disease."
+          },
+          "energy": {
+            "name": "Energy requirements",
+            "rule": "Energy needed depends on AGE, SEX, ACTIVITY LEVEL, BODY SIZE, CLIMATE. Measured in kJ or kcal. Resting (basal) metabolic rate is the minimum just to stay alive.",
+            "examples": ["Average teenage boy: ~10,500 kJ/day (2500 kcal).", "Average teenage girl: ~8,800 kJ/day (2100 kcal).", "Endurance athlete: 16,000+ kJ/day.", "Pregnant woman: extra ~1,500 kJ/day in third trimester.", "Cold climate: more energy for warming body. Manual job: more energy than office job."],
+            "tip": "1 g carbohydrate = 17 kJ. 1 g protein = 17 kJ. 1 g fat = 37 kJ. Fat is the most energy-dense (good for storage, bad for weight gain)."
+          },
+          "deficiency": {
+            "name": "Malnutrition — overnutrition and undernutrition",
+            "rule": "MALNUTRITION = unbalanced diet (too much OR too little). Includes both undernutrition (kwashiorkor, marasmus) and overnutrition (obesity, type 2 diabetes, heart disease).",
+            "examples": ["KWASHIORKOR: protein deficiency in children → swollen belly (fluid in tissues), stunted growth. Sub-Saharan Africa.", "MARASMUS: total calorie deficiency → wasting, severe weight loss.", "OBESITY: BMI >30. Linked to type 2 diabetes, stroke, joint problems. Now a global epidemic, including in developing countries.", "Anorexia/bulimia: psychological eating disorders → severe malnutrition."],
+            "watchOut": "Malnutrition isn't only being underfed. Eating LOTS of cheap calories but no nutrients = malnourished too. Common in lower-income countries today."
+          }
+        }
+      },
+      "respiration": {
+        "title": "Respiration — aerobic, anaerobic, exercise",
+        "body": "Respiration releases energy from glucose. Happens in EVERY living cell (mostly in mitochondria for aerobic). Two types: aerobic (with O₂) and anaerobic (without O₂).",
+        "detailed": {
+          "aerobic": {
+            "name": "Aerobic respiration",
+            "rule": "Glucose + Oxygen → Carbon dioxide + Water + ENERGY (ATP). Word: glucose + O₂ → CO₂ + H₂O + energy. Balanced: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~38 ATP.",
+            "examples": ["Happens in MITOCHONDRIA (most of it). Glycolysis (cytoplasm) starts the process.", "Walking, normal activity = mostly aerobic.", "Releases ~2880 kJ per mole of glucose — MOST energy per glucose molecule.", "Why deep slow breathing during exercise — to maximise O₂ supply for aerobic respiration."],
+            "tip": "Word equation MUST be memorised in both directions. CO₂ and H₂O are waste products; energy (ATP) is what cells actually use."
+          },
+          "anaerobic": {
+            "name": "Anaerobic respiration",
+            "rule": "Without oxygen. Different products in different organisms. ANIMAL muscles: glucose → LACTIC ACID + small energy. YEAST/PLANTS: glucose → ETHANOL + CO₂ + small energy (fermentation). Both release MUCH less energy than aerobic.",
+            "examples": ["Hard sprinting: muscles can't get O₂ fast enough → lactic acid builds up → muscle burn and fatigue.", "Yeast in bread: anaerobic fermentation produces CO₂ → makes bread rise.", "Yeast in beer/wine: produces ethanol (alcohol).", "100m sprint = mostly anaerobic. Marathon = mostly aerobic.", "Energy: aerobic = ~38 ATP. Anaerobic = ~2 ATP. Way less efficient."],
+            "watchOut": "Lactic acid is the byproduct, NOT 'lactose' or 'lactate' (these are different chemicals). Builds up when O₂ supply lags behind demand."
+          },
+          "exercise": {
+            "name": "Body's response to exercise",
+            "rule": "Exercise increases muscle energy demand → cells respire faster. Multiple body systems adapt: heart rate UP, breathing rate UP, depth of breathing UP, vasodilation in muscles, sweating.",
+            "examples": ["Resting heart rate ~70 bpm. Vigorous exercise: 150-200 bpm (max ≈ 220 − age).", "Resting breathing: 12-20/min. Exercise: 40-60/min, deeper breaths.", "Blood diverted from gut/skin to muscles (vasodilation in muscles, vasoconstriction elsewhere).", "Sweating to cool body — evaporation removes heat (~2.4 kJ per gram of water).", "Trained athletes: lower resting HR (stronger heart pumps more per beat), higher VO₂ max, slower lactate buildup."],
+            "tip": "After exercise, EPOC ('excess post-exercise oxygen consumption') — you keep breathing hard to repay the 'oxygen debt' and break down lactic acid."
+          },
+          "oxygenDebt": {
+            "name": "Oxygen debt and recovery",
+            "rule": "If anaerobic respiration occurred (e.g., during a sprint), lactic acid built up. After exercise, you breathe heavily to take in EXTRA oxygen to oxidise the lactic acid back to CO₂ + H₂O. This is the OXYGEN DEBT.",
+            "examples": ["Sprint 100m → muscles burn → lactic acid → keep panting 2-3 minutes afterwards.", "Athletes train to clear lactate faster — improves recovery between intervals.", "Lactate is carried to liver in blood and reconverted to glucose (Cori cycle).", "Symptoms of anaerobic state: muscle burn, cramping, gasping breath."],
+            "tip": "Oxygen 'debt' isn't a debt of oxygen alone — it's the extra oxygen needed AFTER to clean up the lactate that built up. Same idea as a credit card bill."
+          }
+        }
+      },
       "endocrine": {
         "title": "Endocrine (hormonal) system",
         "body": "Hormones travel in blood, act on target organs. Slower but longer-lasting than nerves. Key hormones: insulin (pancreas, lowers blood sugar), adrenaline (adrenal glands, fight-or-flight), oestrogen/testosterone (puberty).",
@@ -290,6 +423,76 @@
             "rule": "TYPE 1: autoimmune destruction of β cells → no insulin → blood sugar uncontrolled. Usually childhood onset. Requires insulin injections for life. TYPE 2: cells become RESISTANT to insulin. Linked to obesity. Mid-life onset.",
             "examples": ["Type 1: ~10% of diabetes. Insulin since 1922 (saved millions of lives).", "Type 2: ~90%, rising sharply globally (linked to obesity epidemic).", "Symptoms: thirst, frequent urination, tiredness, weight loss (Type 1).", "Untreated → blindness, kidney failure, amputations, heart disease, coma.", "Management: monitoring, diet, exercise, medication, insulin (T1)."],
             "watchOut": "T2 used to be 'adult-onset' but now appears in teens too — childhood obesity → earlier onset."
+          }
+        }
+      }
+    }
+  },
+  "photosynthesis": {
+    "title": "Photosynthesis & Biotechnology",
+    "intro": "How plants make food from light, and how humans use biology to engineer organisms. The exam will assess the process of photosynthesis and the applications of genetic engineering.",
+    "sections": {
+      "process": {
+        "title": "The process of photosynthesis",
+        "detailed": {
+          "equation": {
+            "name": "The word and balanced equation",
+            "rule": "Plants convert light energy into chemical energy stored in glucose. Inputs: carbon dioxide + water. Energy source: light (absorbed by chlorophyll). Outputs: glucose + oxygen.",
+            "examples": ["Word equation: carbon dioxide + water → (light + chlorophyll) → glucose + oxygen.", "Balanced equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.", "Photosynthesis happens in CHLOROPLASTS, which contain CHLOROPHYLL (green pigment).", "The opposite of respiration: plants do both, but photosynthesis exceeds respiration in daylight."],
+            "tip": "Memorise the equation in BOTH word and balanced form. Note: water and CO₂ are the inputs — light is energy, not a reactant."
+          },
+          "location": {
+            "name": "Where photosynthesis happens",
+            "rule": "PHOTOSYNTHESIS HAPPENS IN CHLOROPLASTS, mostly in PALISADE mesophyll cells in the leaf. Chlorophyll absorbs RED and BLUE light, reflects GREEN (which is why leaves look green).",
+            "examples": ["Palisade mesophyll cells: tightly packed with chloroplasts, just below upper leaf surface.", "Spongy mesophyll: looser arrangement, air spaces for CO₂ diffusion.", "Stomata (in lower epidermis): tiny pores where CO₂ enters and O₂/water exits. Open in day, close at night.", "Veins (xylem + phloem): bring water in, take glucose out.", "Chloroplast structure: outer membrane + inner thylakoid stacks (grana) + stroma (fluid)."],
+            "tip": "Leaf shape is an ADAPTATION: thin and flat = short diffusion distance + large surface area for light absorption."
+          },
+          "factors": {
+            "name": "Limiting factors",
+            "rule": "Photosynthesis rate depends on THREE main factors: LIGHT INTENSITY, CO₂ CONCENTRATION, TEMPERATURE. Whichever is in shortest supply LIMITS the rate, even if others are abundant.",
+            "examples": ["Light intensity: rate increases until other factor takes over (typically saturates around 10,000 lux).", "CO₂ concentration: atmosphere is only 0.04% CO₂ — usually the main limit indoors. Greenhouse growers pump in extra CO₂.", "Temperature: enzymes work best ~25-35°C. Above 45°C, enzymes denature → rate crashes.", "Water: rarely limiting in most environments (plants close stomata if water is scarce).", "Greenhouse growers manipulate light, CO₂, and temperature to maximise yields."],
+            "watchOut": "Graph shape: linear rise → plateau (light) or linear rise → plateau → fall (temperature). Always identify what's limiting at each part of the curve."
+          },
+          "uses": {
+            "name": "What plants do with glucose",
+            "rule": "Glucose has 4 main fates: (1) IMMEDIATE RESPIRATION for energy. (2) Converted to STARCH for storage (insoluble — won't affect osmosis). (3) Built into CELLULOSE for cell walls. (4) Combined with nitrate to make AMINO ACIDS for proteins.",
+            "examples": ["Potatoes/grain — starch stores.", "Cellulose in walls makes wood, cotton, paper.", "Plant proteins (e.g., soya) made from amino acids derived from glucose + N.", "Glucose can also be converted to fats (in seeds — high-energy storage for the embryo)."],
+            "tip": "Glucose is ALWAYS the FIRST product. Everything else is built from it. This is why glucose is at the centre of all plant biochemistry."
+          },
+          "experiments": {
+            "name": "Classic photosynthesis experiments",
+            "rule": "School experiments test individual variables and prove photosynthesis is occurring.",
+            "examples": ["Test for STARCH after photosynthesis: leaf decolourised with hot ethanol, then iodine → black if starch present.", "Variegated leaf: only GREEN parts go black with iodine → proves chlorophyll is needed.", "Pondweed (Elodea) bubble counting: O₂ bubbles per minute vs distance from lamp → inverse square law for light intensity.", "Cover a leaf with foil: no light → no starch (black/iodine test).", "Place plant in NaOH (absorbs CO₂): no CO₂ → no photosynthesis."],
+            "tip": "All these test ONE variable while controlling others — exactly what Criterion B is about."
+          }
+        }
+      },
+      "biotech": {
+        "title": "Biotechnology & genetic engineering",
+        "detailed": {
+          "definition": {
+            "name": "What is genetic engineering?",
+            "rule": "Genetic engineering = directly MODIFYING an organism's DNA. Usually means transferring a gene from one organism into another to give it a useful trait. Different from selective breeding (which works with existing genes over generations).",
+            "examples": ["Insulin: human insulin gene inserted into bacteria → bacteria make human insulin → harvested for diabetics. Used since 1982.", "Golden rice: genes from daffodils and bacteria added → produces beta-carotene (vitamin A precursor) → reduces blindness in deficient populations.", "Bt cotton: Bacillus thuringiensis toxin gene → kills bollworm pests, less pesticide needed.", "Glow-in-dark mice: jellyfish GFP gene inserted as research tool."],
+            "tip": "Genetic engineering vs selective breeding: GE is fast (one generation), precise (one gene), can cross species. Selective breeding is slow (many generations), broad (whole genome), same species."
+          },
+          "techniques": {
+            "name": "Key techniques",
+            "rule": "(1) Identify the desired GENE. (2) Use ENZYMES (restriction enzymes cut, ligase joins) to remove it. (3) Insert into a VECTOR (often a plasmid or virus). (4) Vector carries gene into target organism. (5) Target organism now expresses the new trait. CRISPR-Cas9 (2012) is the modern precision tool — like 'find and replace' for DNA.",
+            "examples": ["Restriction enzymes: act like molecular scissors, cut DNA at specific sequences.", "Ligase: glues DNA fragments together.", "Plasmid: circular DNA in bacteria, accepts new genes easily, replicates inside the host.", "CRISPR: guide RNA + Cas9 enzyme finds and cuts a specific DNA sequence. Can knock out genes, insert new ones, fix mutations.", "Gene therapy: insert correct gene into a patient's cells to fix a genetic disease (e.g., SCID-X1 'bubble boy disease')."],
+            "watchOut": "CRISPR is incredibly powerful but raises ethical concerns — especially editing HUMAN EMBRYOS (germline edits). Banned for clinical use in most countries."
+          },
+          "applications": {
+            "name": "Applications — medicine, agriculture, industry",
+            "rule": "MEDICINE: producing insulin, growth hormone, vaccines, antibodies, gene therapy. AGRICULTURE: pest-resistant crops, drought-tolerant varieties, higher yields, nutrient-enhanced (golden rice). INDUSTRY: enzymes for detergents, biofuels from engineered yeast, biodegradable plastics.",
+            "examples": ["mRNA COVID vaccines (Pfizer, Moderna) — engineered mRNA instructs cells to make spike protein, training immune system. Saved millions of lives.", "Cattle producing human-protein-rich milk.", "Herbicide-tolerant soybeans (Roundup Ready) — let farmers spray to kill weeds without harming crop.", "Engineered E. coli making spider silk for ultra-strong fabrics.", "Bacteria engineered to clean up oil spills (bioremediation)."],
+            "tip": "When asked about benefits/risks: split into ENVIRONMENTAL (good: less pesticide; bad: gene flow to wild plants), SOCIAL (good: cheaper food; bad: dependence on big agri companies), ECONOMIC, ETHICAL."
+          },
+          "ethics": {
+            "name": "Ethical and biological concerns",
+            "rule": "Genetic engineering is controversial. Key debates: (1) Safety — could GM crops have unforeseen consequences? (2) Environment — does gene flow to wild relatives reduce biodiversity? (3) Equity — do GM seeds (patented) trap poor farmers in debt? (4) Naturalness — should we 'play God'? (5) Welfare — animal suffering in GM research.",
+            "examples": ["GM crops: some studies show neutral effects, but large-scale ecosystem effects are still debated.", "Monsanto/Bayer patent enforcement on seeds — farmers can't replant saved seeds; legal battles in India.", "He Jiankui (2018): edited human embryos in China to be HIV-resistant. Massive backlash; he was jailed.", "EU labels GM food strictly; USA mostly doesn't require labelling. Major political difference.", "GM vs organic farming — different sustainability philosophies."],
+            "watchOut": "Criterion D essay question: 'Discuss the ethics of GE'. Always present MULTIPLE PERSPECTIVES (for, against, neutral) — score higher than one-sided answers."
           }
         }
       }
@@ -343,21 +546,116 @@
       },
       "variation": {
         "title": "Variation",
-        "body": "Genetic (inherited) + environmental. Continuous (height, weight — many genes) vs discontinuous (blood type, eye colour — few genes)."
+        "body": "Genetic (inherited) + environmental. Continuous (height, weight — many genes) vs discontinuous (blood type, eye colour — few genes).",
+        "detailed": {
+          "sources": {
+            "name": "Sources of variation",
+            "rule": "Two sources: (1) GENETIC — from random mixing of alleles during sexual reproduction (meiosis + fertilisation) and from MUTATIONS. (2) ENVIRONMENTAL — diet, exercise, climate, scars, language. Most variation is a mix of both.",
+            "examples": ["Identical twins have same DNA but small environmental differences (one might be taller from nutrition).", "Height: 80% genetic, 20% environmental (nutrition matters).", "Skin colour: genetic baseline + tanning from UV exposure.", "Scars and tattoos: purely environmental.", "Language spoken: purely environmental.", "Mutations: random DNA changes, source of NEW alleles."],
+            "tip": "Mutation is the ONLY way genuinely NEW genetic variation arises. Meiosis and fertilisation just REMIX existing alleles."
+          },
+          "continuous": {
+            "name": "Continuous vs discontinuous variation",
+            "rule": "CONTINUOUS: range of values, controlled by MANY genes + environment (polygenic). Show as histogram, normal distribution. DISCONTINUOUS: distinct categories, controlled by FEW genes. Show as bar chart.",
+            "examples": ["Continuous: height, weight, foot size, leaf length, blood pressure.", "Discontinuous: blood group (A/B/AB/O), eye colour (broadly), tongue rolling (yes/no), attached vs free earlobes.", "Bell-curve graph = continuous. Bar chart = discontinuous.", "Some traits look discontinuous but are actually continuous in reality (e.g., eye colour: 'blue' has many shades)."],
+            "tip": "Always check the data type before choosing a graph: continuous = histogram or line, discontinuous = bar chart."
+          }
+        }
       },
       "evolution": {
         "title": "Evolution by natural selection",
-        "body": "1) Variation exists in population. 2) Competition for resources. 3) Best-adapted survive and reproduce. 4) Advantageous alleles increase in frequency over generations."
+        "body": "1) Variation exists in population. 2) Competition for resources. 3) Best-adapted survive and reproduce. 4) Advantageous alleles increase in frequency over generations.",
+        "detailed": {
+          "naturalSelection": {
+            "name": "Natural selection — 4 steps",
+            "rule": "(1) VARIATION exists in a population — individuals differ in their alleles. (2) ENVIRONMENTAL PRESSURE creates competition (predators, food, mates, climate). (3) Individuals with FAVOURABLE traits SURVIVE and REPRODUCE more. (4) Their alleles become MORE COMMON in the next generation. Over many generations: evolution.",
+            "examples": ["Peppered moths (Industrial Revolution): pre-1850 mostly pale; soot blackened trees; dark moths better camouflaged → became 95% of population by 1900. After Clean Air Act 1956, reversed.", "Antibiotic-resistant bacteria: random mutations make some bacteria resistant; antibiotics kill the rest; resistant bacteria reproduce → MRSA epidemic.", "Galápagos finches (Darwin): different beak shapes evolved on different islands depending on food source (seeds, insects, cactus).", "Darwin's voyage on HMS Beagle 1831-36 → On the Origin of Species 1859. Independently developed by Wallace.", "Modern evidence: DNA comparisons confirm species relationships."],
+            "tip": "Memorise these 4 steps in order: VARIATION → SELECTION → REPRODUCTION → INHERITANCE. Universal pattern in all evolution."
+          },
+          "speciation": {
+            "name": "Speciation — how new species form",
+            "rule": "A SPECIES is defined as a group that can interbreed to produce fertile offspring. SPECIATION = formation of a NEW SPECIES. Happens when populations become REPRODUCTIVELY ISOLATED long enough for genetic differences to accumulate.",
+            "examples": ["GEOGRAPHICAL ISOLATION: river, mountain, sea splits a population. Each evolves separately. After many generations they can't interbreed.", "Darwin's finches on Galápagos: ancestral mainland finch reached islands, populations on different islands diverged into 13+ species.", "Polar bears (Ursus maritimus) split from brown bears ~150,000 years ago when ice age separated populations.", "Cichlid fish in African lakes: hundreds of species in Lakes Victoria/Tanganyika — extraordinarily fast speciation.", "Reproductive isolation can also come from BEHAVIOUR (e.g., different mating songs), or temporal (different breeding seasons)."],
+            "watchOut": "A horse and a donkey can mate → produce a mule. But mules are STERILE → so horses and donkeys are still SEPARATE species."
+          },
+          "evidence": {
+            "name": "Evidence for evolution",
+            "rule": "Multiple INDEPENDENT lines: (1) FOSSILS show change over time. (2) DNA/protein similarity shows shared ancestry. (3) HOMOLOGOUS structures (same bones, different uses). (4) DIRECT observation (antibiotic resistance, Darwin's finches in real time). (5) Embryology (similar early embryos across vertebrates).",
+            "examples": ["Tiktaalik fossil (375M years old): transition between fish and tetrapods — has fins WITH bones like limbs.", "Whale evolution: fossils show land mammals → semi-aquatic → fully aquatic over 50M years.", "Pentadactyl limb: same 5-bone pattern in human arm, whale flipper, bat wing, horse leg — homologous structures.", "Human and chimp DNA: ~98.8% identical, confirming common ancestor ~6 million years ago.", "Lenski's E. coli long-term evolution experiment: 30+ years of bacteria, observed new ability evolve."],
+            "tip": "Creationist objections often quote 'no transitional fossils' — but there are MANY (Tiktaalik, Archaeopteryx, Australopithecus). Cite them."
+          },
+          "humanEvolution": {
+            "name": "Human evolution",
+            "rule": "Modern humans (Homo sapiens) evolved ~300,000 years ago in Africa, from earlier hominid species. Path: Australopithecus → Homo habilis → Homo erectus → Homo sapiens. Coexisted with Neanderthals and Denisovans until ~30,000 years ago.",
+            "examples": ["Lucy (Australopithecus afarensis): 3.2M years old fossil from Ethiopia. Walked upright.", "Homo erectus: first to leave Africa ~1.8M years ago, spread to Asia.", "Neanderthals: lived in Europe, large brains, used tools, buried dead. Went extinct ~40,000 years ago.", "Modern humans contain 1-4% Neanderthal DNA from interbreeding.", "Out of Africa migration ~60-70,000 years ago populated rest of world."],
+            "tip": "Don't say humans 'evolved from apes' — humans and apes share a COMMON ANCESTOR. Humans ARE apes (great apes, biologically)."
+          }
+        }
       }
     }
   },
   "immune": {
-    "title": "Immune System & Health",
-    "intro": "How the body defends itself. Pathogens, immune response, vaccination, antibiotics.",
+    "title": "Health & Disease",
+    "intro": "How the body stays healthy and defends itself. Communicable vs non-communicable diseases, pathogens, immune response, vaccination, antibiotics.",
     "sections": {
+      "diseaseTypes": {
+        "title": "Communicable vs non-communicable diseases",
+        "detailed": {
+          "communicable": {
+            "name": "Communicable (infectious) diseases",
+            "rule": "Caused by PATHOGENS (bacteria, viruses, fungi, protists) that can SPREAD from one organism to another. Transmitted via air, water, food, body fluids, vectors (insects), or direct contact.",
+            "examples": ["TB (tuberculosis): bacterial, lung infection, spread by coughing.", "Influenza: viral, airborne droplets.", "Malaria: protist (Plasmodium) carried by Anopheles mosquito.", "Athlete's foot: fungal, spread by contact in damp areas.", "COVID-19: viral, mainly airborne droplets.", "Cholera: bacterial, contaminated water."],
+            "tip": "Always identify: PATHOGEN TYPE + TRANSMISSION ROUTE. These two facts unlock most exam questions on infections."
+          },
+          "nonCommunicable": {
+            "name": "Non-communicable diseases",
+            "rule": "CANNOT be passed from person to person. Develop gradually due to GENETIC factors, LIFESTYLE choices, or ENVIRONMENT. The biggest cause of death globally today.",
+            "examples": ["Cardiovascular disease (CVD): high blood pressure, atherosclerosis, heart attacks. Linked to diet, smoking, inactivity.", "Cancer: uncontrolled cell division. Risk factors: smoking (lung), UV (skin), alcohol (liver), HPV (cervical), diet (bowel).", "Type 2 diabetes: insulin resistance, linked to obesity.", "Asthma: chronic airway inflammation; partly genetic, partly environmental.", "Cystic fibrosis, sickle cell anaemia: purely genetic (inherited).", "Lung disease (COPD): mainly from smoking or air pollution."],
+            "watchOut": "Some diseases are MIXED — e.g., cervical cancer (HPV virus → cancer). Pathogen plays a role but the cancer itself isn't contagious."
+          },
+          "lifestyle": {
+            "name": "Lifestyle risk factors",
+            "rule": "Many non-communicable diseases are PREVENTABLE by lifestyle: not smoking, balanced diet, regular exercise, moderate alcohol, healthy weight. Genetics loads the gun; lifestyle pulls the trigger.",
+            "examples": ["Smoking: causes 80% of lung cancer, also CVD, stroke, COPD.", "Diet: high salt → high blood pressure → CVD. High sugar → obesity → type 2 diabetes.", "Exercise: ≥150 min/week of moderate activity halves CVD risk.", "Alcohol: linked to liver disease, several cancers, stroke. Risk rises with quantity.", "Obesity: BMI > 30 → 2-3× risk of type 2 diabetes, hypertension, joint disease."],
+            "tip": "Public health campaigns target lifestyle: 'Stoptober' (smoking), '5-a-day' (fruit/veg), '10,000 steps'. Behaviour change is the cheapest medicine."
+          },
+          "global": {
+            "name": "Global patterns",
+            "rule": "Developed countries: NCDs (heart disease, cancer, diabetes) are the main killers. Developing countries: still face large burden of communicable diseases (TB, malaria, HIV) PLUS rising NCDs as lifestyles change.",
+            "examples": ["UK leading causes of death: heart disease, dementia, cancers, COVID. All NCDs.", "Sub-Saharan Africa: HIV/AIDS, TB, malaria still major. But obesity and diabetes rising rapidly.", "WHO statistics: ~74% of global deaths now from NCDs.", "Childhood vaccines have dramatically cut communicable disease deaths globally since 1980."],
+            "tip": "Geographical exam questions: link environment (climate, poverty, sanitation) to disease patterns. E.g., malaria zones = where mosquitoes thrive."
+          }
+        }
+      },
       "pathogens": {
-        "title": "Pathogens",
-        "body": "Disease-causing organisms: bacteria, viruses, fungi, protists. Spread by air, water, food, vectors (e.g., mosquitoes), direct contact."
+        "title": "Pathogens — the four types",
+        "body": "Disease-causing organisms: bacteria, viruses, fungi, protists. Spread by air, water, food, vectors (e.g., mosquitoes), direct contact.",
+        "detailed": {
+          "bacteria": {
+            "name": "Bacterial pathogens",
+            "rule": "Single-celled prokaryotes. Reproduce by binary fission — can divide every 20 min. Cause disease by releasing TOXINS or by destroying tissue directly. Treated with ANTIBIOTICS.",
+            "examples": ["Salmonella (food poisoning) — toxins cause vomiting, diarrhoea.", "Gonorrhoea — STI, can cause infertility if untreated.", "Tuberculosis (TB) — lung infection, slow-growing.", "Cholera — releases toxin in gut → severe water loss.", "MRSA — antibiotic-resistant 'superbug'."],
+            "tip": "Bacteria are LIVING organisms. Antibiotics work by disrupting their cell walls or protein synthesis."
+          },
+          "viruses": {
+            "name": "Viral pathogens",
+            "rule": "NOT living — DNA/RNA in a protein coat. Need a HOST CELL to reproduce. Inject genetic material into your cell → hijack cellular machinery → make more viruses → cell bursts. ANTIBIOTICS DON'T WORK on viruses.",
+            "examples": ["Influenza (flu) — mutates rapidly, hence annual flu jab.", "HIV — attacks immune system itself (T-helper cells) → AIDS.", "Measles, mumps, rubella — childhood diseases, prevented by MMR vaccine.", "COVID-19 — SARS-CoV-2 virus, novel coronavirus, pandemic 2020+.", "Tobacco mosaic virus (in plants) — damages leaves, reduces photosynthesis."],
+            "watchOut": "Many people demand antibiotics for viral infections — but antibiotics DO NOTHING against viruses. This contributes to antibiotic resistance."
+          },
+          "fungi": {
+            "name": "Fungal pathogens",
+            "rule": "Multicellular (mostly). Often grow in hyphae (thread-like). Cause superficial infections (skin, nails) or rarer deep infections in immune-compromised. Treated with ANTIFUNGALS.",
+            "examples": ["Athlete's foot (Trichophyton) — between toes, itchy.", "Ringworm — circular rash on skin (despite name, it's a fungus).", "Thrush (Candida) — yeast overgrowth, common after antibiotics.", "Aspergillus — lung infection in immunocompromised patients.", "Powdery mildew on roses — major plant disease."],
+            "tip": "Fungal diseases thrive in WARM, MOIST conditions — keeping skin dry helps prevention."
+          },
+          "protists": {
+            "name": "Protist pathogens",
+            "rule": "Single-celled eukaryotes (more complex than bacteria). Often carried by VECTORS — animals (especially insects) that transmit them. Treated with ANTI-PROTOZOAL drugs.",
+            "examples": ["Malaria (Plasmodium) — carried by female Anopheles mosquito; kills ~600,000/year, mostly African children.", "Amoebic dysentery — Entamoeba, contaminated water.", "Sleeping sickness (Trypanosoma) — tsetse fly, central Africa.", "Leishmaniasis — sandflies, tropical regions."],
+            "watchOut": "Malaria is the most lethal pathogen overall in human history. Bed nets, antimalarial drugs, mosquito control are key prevention strategies."
+          }
+        }
       },
       "barriers": {
         "title": "Non-specific defences",

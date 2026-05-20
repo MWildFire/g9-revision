@@ -61,7 +61,7 @@ export const SUBJECTS: Subject[] = [
     iconName: 'Leaf',
     accent: 'sage',
     route: '/biology',
-    topicsCount: 6,
+    topicsCount: 7,
     enabled: true,
     detail: 'full',
   },

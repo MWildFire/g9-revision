@@ -9,6 +9,8 @@ const SYSTEMS: { key: string; subKeys: string[] }[] = [
   { key: 'circulatory', subKeys: ['heart', 'vessels', 'blood'] },
   { key: 'respiratory', subKeys: ['pathway', 'alveoli', 'breathing'] },
   { key: 'digestive', subKeys: ['pathway', 'enzymes', 'absorption'] },
+  { key: 'nutrition', subKeys: ['groups', 'energy', 'deficiency'] },
+  { key: 'respiration', subKeys: ['aerobic', 'anaerobic', 'exercise', 'oxygenDebt'] },
   { key: 'nervous', subKeys: ['structure', 'neurone', 'reflex'] },
   { key: 'endocrine', subKeys: ['comparison', 'hormones', 'diabetes'] },
 ];

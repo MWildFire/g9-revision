@@ -1,9 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home as HomeIcon, Microscope, Heart, TreePine, Dna, Shield, FlaskRound, Sparkles } from 'lucide-react';
+import { Home as HomeIcon, Microscope, Heart, Sun, TreePine, Dna, Shield, FlaskRound, Sparkles } from 'lucide-react';
 import { SubjectSidebar, TopicNavItem } from '../../components/layout/SubjectSidebar';
 import { BiologyHomePage } from './pages/BiologyHomePage';
 import { CellsPage } from './pages/CellsPage';
 import { BodySystemsPage } from './pages/BodySystemsPage';
+import { PhotosynthesisPage } from './pages/PhotosynthesisPage';
 import { EcologyPage } from './pages/EcologyPage';
 import { GeneticsPage } from './pages/GeneticsPage';
 import { ImmunePage } from './pages/ImmunePage';
@@ -14,6 +15,7 @@ const TOPICS: TopicNavItem[] = [
   { to: '/biology', key: 'home', icon: HomeIcon },
   { to: '/biology/cells', key: 'cells', icon: Microscope },
   { to: '/biology/body-systems', key: 'bodySystems', icon: Heart },
+  { to: '/biology/photosynthesis', key: 'photosynthesis', icon: Sun },
   { to: '/biology/ecology', key: 'ecology', icon: TreePine },
   { to: '/biology/genetics', key: 'genetics', icon: Dna },
   { to: '/biology/immune', key: 'immune', icon: Shield },
@@ -30,6 +32,7 @@ export function BiologyModule() {
           <Route index element={<BiologyHomePage />} />
           <Route path="cells" element={<CellsPage />} />
           <Route path="body-systems" element={<BodySystemsPage />} />
+          <Route path="photosynthesis" element={<PhotosynthesisPage />} />
           <Route path="ecology" element={<EcologyPage />} />
           <Route path="genetics" element={<GeneticsPage />} />
           <Route path="immune" element={<ImmunePage />} />

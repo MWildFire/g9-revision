@@ -30,9 +30,10 @@ const TOPIC_LIBRARY: { subjectId: SubjectId; topicId: string; labelKey: string; 
   { subjectId: 'chemistry', topicId: 'atmosphere', labelKey: 'nav.atmosphere', ns: 'chemistry' },
   { subjectId: 'chemistry', topicId: 'rates', labelKey: 'nav.rates', ns: 'chemistry' },
   { subjectId: 'chemistry', topicId: 'energy', labelKey: 'nav.energy', ns: 'chemistry' },
-  // Biology (6 main topics)
+  // Biology (7 main topics)
   { subjectId: 'biology', topicId: 'cells', labelKey: 'nav.cells', ns: 'biology' },
   { subjectId: 'biology', topicId: 'body-systems', labelKey: 'nav.bodySystems', ns: 'biology' },
+  { subjectId: 'biology', topicId: 'photosynthesis', labelKey: 'nav.photosynthesis', ns: 'biology' },
   { subjectId: 'biology', topicId: 'ecology', labelKey: 'nav.ecology', ns: 'biology' },
   { subjectId: 'biology', topicId: 'genetics', labelKey: 'nav.genetics', ns: 'biology' },
   { subjectId: 'biology', topicId: 'immune', labelKey: 'nav.immune', ns: 'biology' },

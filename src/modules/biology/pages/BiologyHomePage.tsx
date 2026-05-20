@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
-  Leaf, ArrowRight, Microscope, Heart, TreePine, Dna, Shield, FlaskRound, ExternalLink,
+  Leaf, ArrowRight, Microscope, Heart, Sun, TreePine, Dna, Shield, FlaskRound, ExternalLink,
 } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 
 const TOPICS = [
   { to: '/biology/cells', key: 'cells', icon: Microscope, accent: 'var(--color-accent-sage)' },
   { to: '/biology/body-systems', key: 'bodySystems', icon: Heart, accent: 'var(--color-accent-clay)' },
+  { to: '/biology/photosynthesis', key: 'photosynthesis', icon: Sun, accent: 'var(--color-accent-warm)' },
   { to: '/biology/ecology', key: 'ecology', icon: TreePine, accent: 'var(--color-accent-sage)' },
   { to: '/biology/genetics', key: 'genetics', icon: Dna, accent: 'var(--color-accent-warm)' },
   { to: '/biology/immune', key: 'immune', icon: Shield, accent: 'var(--color-accent-clay)' },

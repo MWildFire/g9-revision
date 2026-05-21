@@ -490,7 +490,15 @@
     },
     "sequenceGenerator": {
       "title": "Sequence Generator",
-      "description": "Generate linear or geometric sequences, view terms and the n-th term formula."
+      "description": "Generate linear or geometric sequences, view terms and the n-th term formula.",
+      "linearTab": "Linear",
+      "geometricTab": "Geometric",
+      "firstTermLabel": "First term u₁",
+      "differenceLabel": "Common difference d",
+      "ratioLabel": "Common ratio r",
+      "countLabel": "Number of terms",
+      "formulaLabel": "Formula:",
+      "termsLabel": "Terms:"
     },
     "sectorSegment": {
       "title": "Sector & Segment Calculator",
@@ -518,19 +526,54 @@
     },
     "numberSetsVenn": {
       "title": "Number Sets — Venn",
-      "description": "Type any number (5, -3, 1/2, √2, π) — see which sets ℕ, ℤ, ℚ, ℝ it belongs to."
+      "description": "Type any number (5, -3, 1/2, √2, π) — see which sets ℕ, ℤ, ℚ, ℝ it belongs to.",
+      "inputLabel": "Enter a number (try: 5, -3, 1/2, 3.14, √2, π)",
+      "irrational": "Irrational — belongs only to ℝ.",
+      "divisionByZero": "Division by zero is undefined.",
+      "simplifiesToInteger": "{{frac}} simplifies to an integer ({{value}}).",
+      "properFraction": "Proper fraction — rational (ℚ) but not an integer.",
+      "cannotParse": "Cannot parse this value.",
+      "positiveWhole": "A positive whole number — belongs to all four sets.",
+      "integer": "An integer (including 0 or negative) — ℤ, ℚ, ℝ.",
+      "finiteDecimal": "A finite decimal — rational (ℚ) and real (ℝ).",
+      "labelN": "ℕ Natural",
+      "labelZ": "ℤ Integer",
+      "labelQ": "ℚ Rational",
+      "labelR": "ℝ Real"
     },
     "bearingsCompass": {
       "title": "Bearings Compass",
-      "description": "Vary bearing and distance — see the path on a compass and the N/E offsets."
+      "description": "Vary bearing and distance — see the path on a compass and the N/E offsets.",
+      "bearingLabel": "Bearing (°)",
+      "distanceLabel": "Distance",
+      "northOffset": "North offset",
+      "eastOffset": "East offset",
+      "compassN": "N",
+      "compassE": "E",
+      "compassS": "S",
+      "compassW": "W"
     },
     "cumulativeFreq": {
       "title": "Cumulative Frequency Curve",
-      "description": "Edit class frequencies. Move the percentile slider to read the value at Q1, median, Q3 or any %."
+      "description": "Edit class frequencies. Move the percentile slider to read the value at Q1, median, Q3 or any %.",
+      "frequencyLabel": "Frequency",
+      "classLabel": "Class",
+      "percentileLabel": "Percentile (%)",
+      "valueAtLabel": "Value at percentile"
     },
     "circleTheorems": {
       "title": "Circle Theorems Playground",
-      "description": "Four key theorems with draggable points: centre = 2× circumference, semicircle 90°, cyclic quadrilateral, intersecting chords."
+      "description": "Four key theorems with adjustable angles: centre = 2× circumference, semicircle 90°, cyclic quadrilateral, intersecting chords.",
+      "centreTab": "Centre = 2× circumference",
+      "semicircleTab": "Semicircle = 90°",
+      "cyclicTab": "Cyclic quadrilateral",
+      "chordsTab": "Intersecting chords",
+      "centreAngle": "Centre angle",
+      "circumferenceAngle": "Circumference angle",
+      "ruleCentre": "Angle at centre = 2 × angle at circumference (same arc).",
+      "ruleSemicircle": "Angle in a semicircle is always 90°.",
+      "ruleCyclic": "Opposite angles in a cyclic quadrilateral sum to 180°.",
+      "ruleChords": "When two chords intersect, the products of their segments are equal: AP × PB = CP × PD."
     },
     "comingSoon": "More interactive models coming soon"
   }

@@ -14,10 +14,10 @@ export function CircleTheorems() {
     <SimulationPanel title={t('simulations.circleTheorems.title')} description={t('simulations.circleTheorems.description')}>
       <Tabs
         tabs={[
-          { id: 'centre-circumference', label: 'Centre = 2× circumference' },
-          { id: 'semicircle', label: 'Angle in semicircle' },
-          { id: 'cyclic-quad', label: 'Cyclic quadrilateral' },
-          { id: 'intersecting-chords', label: 'Intersecting chords' },
+          { id: 'centre-circumference', label: t('simulations.circleTheorems.centreTab') },
+          { id: 'semicircle', label: t('simulations.circleTheorems.semicircleTab') },
+          { id: 'cyclic-quad', label: t('simulations.circleTheorems.cyclicTab') },
+          { id: 'intersecting-chords', label: t('simulations.circleTheorems.chordsTab') },
         ]}
         activeId={theorem}
         onChange={(id) => setTheorem(id as Theorem)}
@@ -33,6 +33,7 @@ export function CircleTheorems() {
 }
 
 function CentreCircTheorem() {
+  const { t } = useTranslation('math');
   const [centreAngle, setCentreAngle] = useState(100);
   const r = 90;
   const cx = 160;
@@ -50,12 +51,12 @@ function CentreCircTheorem() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-6 items-center">
       <div className="space-y-3">
-        <Slider label="Angle at centre (AOB)" min={20} max={170} step={5} value={centreAngle} onChange={setCentreAngle} unit="°" />
+        <Slider label={t('simulations.circleTheorems.centreAngle') + ' (AOB)'} min={20} max={170} step={5} value={centreAngle} onChange={setCentreAngle} unit="°" />
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-1">
-          <p>Angle at centre: <span className="font-mono">{fmt(centreAngle)}°</span></p>
-          <p>Angle at circumference: <span className="font-mono">{fmt(centreAngle / 2)}°</span></p>
+          <p>{t('simulations.circleTheorems.centreAngle')}: <span className="font-mono">{fmt(centreAngle)}°</span></p>
+          <p>{t('simulations.circleTheorems.circumferenceAngle')}: <span className="font-mono">{fmt(centreAngle / 2)}°</span></p>
           <p className="text-xs text-text-muted pt-2 border-t border-border">
-            The angle subtended by an arc at the centre is TWICE the angle at the circumference (on the same side).
+            {t('simulations.circleTheorems.ruleCentre')}
           </p>
         </div>
       </div>
@@ -79,6 +80,7 @@ function CentreCircTheorem() {
 }
 
 function SemicircleTheorem() {
+  const { t } = useTranslation('math');
   const [pos, setPos] = useState(0.4);
   const r = 90;
   const cx = 160;
@@ -95,11 +97,11 @@ function SemicircleTheorem() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-6 items-center">
       <div className="space-y-3">
-        <Slider label="C position on arc" min={0.05} max={0.95} step={0.05} value={pos} onChange={setPos} format={(v) => `${(v * 100).toFixed(0)}%`} />
+        <Slider label="C — position on arc" min={0.05} max={0.95} step={0.05} value={pos} onChange={setPos} format={(v) => `${(v * 100).toFixed(0)}%`} />
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-1">
-          <p>Angle at C: <span className="font-mono">90°</span></p>
+          <p>∠ACB: <span className="font-mono">90°</span></p>
           <p className="text-xs text-text-muted pt-2 border-t border-border">
-            The angle in a semicircle is always 90° — regardless of where C sits on the arc, as long as AB is a diameter.
+            {t('simulations.circleTheorems.ruleSemicircle')}
           </p>
         </div>
       </div>
@@ -121,6 +123,7 @@ function SemicircleTheorem() {
 }
 
 function CyclicQuadTheorem() {
+  const { t } = useTranslation('math');
   const [angleA, setAngleA] = useState(75);
   const r = 90;
   const cx = 160;
@@ -134,13 +137,13 @@ function CyclicQuadTheorem() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-6 items-center">
       <div className="space-y-3">
-        <Slider label="Angle A" min={30} max={150} step={5} value={angleA} onChange={setAngleA} unit="°" />
+        <Slider label="∠A" min={30} max={150} step={5} value={angleA} onChange={setAngleA} unit="°" />
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-1">
-          <p>Angle A: <span className="font-mono">{angleA}°</span></p>
-          <p>Opposite angle C: <span className="font-mono">{180 - angleA}°</span></p>
-          <p>Sum: <span className="font-mono">180°</span></p>
+          <p>∠A: <span className="font-mono">{angleA}°</span></p>
+          <p>∠C: <span className="font-mono">{180 - angleA}°</span></p>
+          <p>∠A + ∠C: <span className="font-mono">180°</span></p>
           <p className="text-xs text-text-muted pt-2 border-t border-border">
-            In a cyclic quadrilateral, opposite angles sum to 180°.
+            {t('simulations.circleTheorems.ruleCyclic')}
           </p>
         </div>
       </div>
@@ -163,6 +166,7 @@ function CyclicQuadTheorem() {
 }
 
 function ChordsTheorem() {
+  const { t } = useTranslation('math');
   const [ap, setAp] = useState(6);
   const [pb, setPb] = useState(4);
   const [cp, setCp] = useState(8);
@@ -178,7 +182,7 @@ function ChordsTheorem() {
           <p>AP · PB = <span className="font-mono">{fmt(ap * pb)}</span></p>
           <p>CP · PD = <span className="font-mono">{fmt(cp * pd, 2)}</span> (PD = <span className="font-mono">{fmt(pd, 3)}</span> cm)</p>
           <p className="text-xs text-text-muted pt-2 border-t border-border">
-            For intersecting chords AB and CD meeting at P inside a circle: AP × PB = CP × PD.
+            {t('simulations.circleTheorems.ruleChords')}
           </p>
         </div>
       </div>

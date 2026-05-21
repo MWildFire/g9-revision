@@ -5,6 +5,26 @@ import { fmt } from '../../../lib/math';
 
 type Direction = 'm-to-n' | 'n-to-m' | 'n-to-V' | 'V-to-n';
 
+const DIRECTION_KEYS: Record<Direction, string> = {
+  'm-to-n': 'directionMassToMoles',
+  'n-to-m': 'directionMolesToMass',
+  'n-to-V': 'directionMolesToVolume',
+  'V-to-n': 'directionVolumeToMoles',
+};
+
+const PRESETS: { label: string; mass: number }[] = [
+  { label: 'H: 1', mass: 1 },
+  { label: 'C: 12', mass: 12 },
+  { label: 'O: 16', mass: 16 },
+  { label: 'H₂O: 18', mass: 18 },
+  { label: 'CO₂: 44', mass: 44 },
+  { label: 'NaCl: 58.5', mass: 58.5 },
+  { label: 'CaCO₃: 100', mass: 100 },
+  { label: 'NaOH: 40', mass: 40 },
+  { label: 'H₂SO₄: 98', mass: 98 },
+  { label: 'HCl: 36.5', mass: 36.5 },
+];
+
 export function MoleCalculator() {
   const { t } = useTranslation('chemistry');
   const [direction, setDirection] = useState<Direction>('m-to-n');
@@ -16,31 +36,32 @@ export function MoleCalculator() {
   let formula = '';
   if (direction === 'm-to-n') { result = input / molarMass; unit = 'mol'; formula = `n = m / M = ${input} / ${molarMass}`; }
   else if (direction === 'n-to-m') { result = input * molarMass; unit = 'g'; formula = `m = n × M = ${input} × ${molarMass}`; }
-  else if (direction === 'n-to-V') { result = input * 22.7; unit = 'dm³'; formula = `V = n × 22.7 (at STP) = ${input} × 22.7`; }
-  else if (direction === 'V-to-n') { result = input / 22.7; unit = 'mol'; formula = `n = V / 22.7 (at STP) = ${input} / 22.7`; }
+  else if (direction === 'n-to-V') { result = input * 22.7; unit = 'dm³'; formula = `V = n × 22.7 (STP) = ${input} × 22.7`; }
+  else if (direction === 'V-to-n') { result = input / 22.7; unit = 'mol'; formula = `n = V / 22.7 (STP) = ${input} / 22.7`; }
 
   const showMolarMass = direction === 'm-to-n' || direction === 'n-to-m';
+
+  const inputLabel = (() => {
+    if (direction === 'm-to-n') return t('simulations.moleCalc.inputMass');
+    if (direction === 'V-to-n') return t('simulations.moleCalc.inputVolume');
+    return t('simulations.moleCalc.inputMoles');
+  })();
 
   return (
     <SimulationPanel title={t('simulations.moleCalc.title')} description={t('simulations.moleCalc.description')}>
       <div className="space-y-4">
         <div>
-          <p className="text-sm font-medium text-text-secondary mb-2">Convert from / to:</p>
+          <p className="text-sm font-medium text-text-secondary mb-2">{t('simulations.moleCalc.convertPrompt')}</p>
           <div className="flex flex-wrap gap-2">
-            {[
-              { id: 'm-to-n', label: 'Mass (g) → moles' },
-              { id: 'n-to-m', label: 'Moles → mass (g)' },
-              { id: 'n-to-V', label: 'Moles → gas volume (dm³)' },
-              { id: 'V-to-n', label: 'Gas volume (dm³) → moles' },
-            ].map((b) => (
+            {(Object.keys(DIRECTION_KEYS) as Direction[]).map((id) => (
               <button
-                key={b.id}
-                onClick={() => setDirection(b.id as Direction)}
+                key={id}
+                onClick={() => setDirection(id)}
                 className={`text-xs px-3 py-1.5 rounded-md border transition-colors ${
-                  direction === b.id ? 'bg-bg-secondary shadow-soft border-accent-clay' : 'border-border hover:bg-bg-secondary/50'
+                  direction === id ? 'bg-bg-secondary shadow-soft border-accent-clay' : 'border-border hover:bg-bg-secondary/50'
                 }`}
               >
-                {b.label}
+                {t(`simulations.moleCalc.${DIRECTION_KEYS[id]}`)}
               </button>
             ))}
           </div>
@@ -48,9 +69,7 @@ export function MoleCalculator() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <label className="block">
-            <span className="text-sm font-medium text-text-secondary mb-1.5 block">
-              {direction === 'm-to-n' ? 'Mass (g)' : direction === 'n-to-m' ? 'Moles (n)' : direction === 'n-to-V' ? 'Moles (n)' : 'Volume (dm³)'}
-            </span>
+            <span className="text-sm font-medium text-text-secondary mb-1.5 block">{inputLabel}</span>
             <input
               type="number"
               value={input}
@@ -60,7 +79,7 @@ export function MoleCalculator() {
           </label>
           {showMolarMass ? (
             <label className="block">
-              <span className="text-sm font-medium text-text-secondary mb-1.5 block">Molar mass M (g/mol)</span>
+              <span className="text-sm font-medium text-text-secondary mb-1.5 block">{t('simulations.moleCalc.molarMassInputLabel')}</span>
               <input
                 type="number"
                 value={molarMass}
@@ -75,23 +94,16 @@ export function MoleCalculator() {
           <p className="font-mono text-xs text-text-muted">{formula}</p>
           <p className="text-lg font-medium font-mono">= {fmt(result, 4)} {unit}</p>
           <p className="text-xs text-text-muted pt-2 border-t border-border">
-            STP = 0 °C, 100 kPa (IUPAC, 2019). 1 mole of any gas = 22.7 dm³. Particle count: 1 mol = 6.022 × 10²³ particles (Avogadro).
+            {t('simulations.moleCalc.stpNote')}
           </p>
         </div>
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm">
-          <p className="text-xs uppercase tracking-wider text-text-muted mb-2">Common molar masses</p>
+          <p className="text-xs uppercase tracking-wider text-text-muted mb-2">{t('simulations.moleCalc.presetLabel')}</p>
           <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 font-mono text-xs">
-            <button onClick={() => setMolarMass(1)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">H: 1</button>
-            <button onClick={() => setMolarMass(12)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">C: 12</button>
-            <button onClick={() => setMolarMass(16)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">O: 16</button>
-            <button onClick={() => setMolarMass(18)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">H₂O: 18</button>
-            <button onClick={() => setMolarMass(44)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">CO₂: 44</button>
-            <button onClick={() => setMolarMass(58.5)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">NaCl: 58.5</button>
-            <button onClick={() => setMolarMass(100)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">CaCO₃: 100</button>
-            <button onClick={() => setMolarMass(40)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">NaOH: 40</button>
-            <button onClick={() => setMolarMass(98)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">H₂SO₄: 98</button>
-            <button onClick={() => setMolarMass(36.5)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">HCl: 36.5</button>
+            {PRESETS.map((p) => (
+              <button key={p.label} onClick={() => setMolarMass(p.mass)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">{p.label}</button>
+            ))}
           </div>
         </div>
       </div>

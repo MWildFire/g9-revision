@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Languages, BookA, Clock, Type, MessageCircle, ArrowRight } from 'lucide-react';
+import { Languages, BookA, Clock, Type, MessageCircle, ListChecks, FileText, ArrowRight } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 import { useLocalProgress } from '../../../hooks/useLocalProgress';
 
 const TOPICS = [
+  { to: '/french/units', key: 'units', icon: ListChecks, accent: 'var(--color-accent-clay)' },
   { to: '/french/vocab', key: 'vocab', icon: BookA, accent: 'var(--color-accent-rose-muted)' },
   { to: '/french/tenses', key: 'tenses', icon: Clock, accent: 'var(--color-accent-warm)' },
   { to: '/french/grammar', key: 'grammar', icon: Type, accent: 'var(--color-accent-sage)' },
   { to: '/french/phrases', key: 'phrases', icon: MessageCircle, accent: 'var(--color-accent-sky)' },
+  { to: '/french/text-types', key: 'textTypes', icon: FileText, accent: 'var(--color-accent-sky-deep)' },
 ];
 
 const LEVELS = ['emergent', 'capable', 'proficient'] as const;

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Type, BookA, ScrollText, MessageCircle, ArrowRight, Info } from 'lucide-react';
+import { Type, BookA, ScrollText, MessageCircle, GraduationCap, ArrowRight, Info } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 
 const PHASES = ['1', '2', '3', '4', '5', '6'] as const;
@@ -9,6 +9,7 @@ type Phase = (typeof PHASES)[number];
 const PHASE_KEY = 'g9-arabic-phase';
 
 const TOPICS = [
+  { to: '/arabic/mrs-hala', key: 'mrsHala', icon: GraduationCap, accent: 'var(--color-accent-clay)' },
   { to: '/arabic/alphabet', key: 'alphabet', icon: Type, accent: 'var(--color-accent-olive)' },
   { to: '/arabic/vocab', key: 'vocab', icon: BookA, accent: 'var(--color-accent-sage)' },
   { to: '/arabic/grammar', key: 'grammar', icon: ScrollText, accent: 'var(--color-accent-warm)' },

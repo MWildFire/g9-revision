@@ -157,7 +157,6 @@ export function TimetablePage() {
 
   const handleExamDateChange = (value: string) => {
     setExamDate(value);
-    window.dispatchEvent(new StorageEvent('storage', { key: 'g9-exam-date' }));
   };
 
   return (

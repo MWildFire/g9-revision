@@ -28,6 +28,11 @@ interface SectionProps {
 }
 
 export function ChemSection({ title, body, items, detailedItems, borderColor }: SectionProps) {
+  const { i18n } = useTranslation();
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const labels = lang === 'ru'
+    ? { rule: 'Правило', use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    : undefined;
   return (
     <>
       <SectionHeading>{title}</SectionHeading>
@@ -42,7 +47,7 @@ export function ChemSection({ title, body, items, detailedItems, borderColor }: 
       {detailedItems && detailedItems.length > 0 ? (
         <div className="space-y-3">
           {detailedItems.map((item, i) => (
-            <DetailedCard key={i} item={item} borderColor={borderColor} />
+            <DetailedCard key={i} item={item} borderColor={borderColor} labels={labels} />
           ))}
         </div>
       ) : null}

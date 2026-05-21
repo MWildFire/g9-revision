@@ -18,7 +18,7 @@ export function EssaysPage() {
               <h3 className="font-serif text-lg font-medium">{p.prompt}</h3>
               <span className="text-xs uppercase tracking-wider text-text-muted">{p.type}</span>
             </div>
-            <p className="text-sm text-text-secondary"><strong>Tips:</strong> {p.tips}</p>
+            <p className="text-sm text-text-secondary"><strong>{t('essayPromptsLabel')}:</strong> {p.tips}</p>
           </article>
         ))}
       </div>

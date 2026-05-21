@@ -1,14 +1,17 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { BookOpen, FileText, Sparkles, PenTool, Search, Pencil, ArrowRight, Check } from 'lucide-react';
+import { BookOpen, FileText, Sparkles, PenTool, Search, Pencil, ArrowRight, Check, ScrollText, ClipboardCheck, Brain } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 
 const TOPICS = [
+  { to: '/english/macbeth', key: 'macbeth', icon: ScrollText, accent: 'var(--color-accent-clay)' },
+  { to: '/english/exam-format', key: 'examFormat', icon: ClipboardCheck, accent: 'var(--color-accent-sky-deep)' },
+  { to: '/english/progress-test', key: 'progressTest', icon: Brain, accent: 'var(--color-accent-sage)' },
   { to: '/english/text-types', key: 'textTypes', icon: FileText, accent: 'var(--color-accent-sand)' },
   { to: '/english/devices', key: 'devices', icon: Sparkles, accent: 'var(--color-accent-warm)' },
-  { to: '/english/grammar', key: 'grammar', icon: PenTool, accent: 'var(--color-accent-sage)' },
+  { to: '/english/grammar', key: 'grammar', icon: PenTool, accent: 'var(--color-accent-olive)' },
   { to: '/english/reading', key: 'reading', icon: Search, accent: 'var(--color-accent-sky)' },
-  { to: '/english/essays', key: 'essays', icon: Pencil, accent: 'var(--color-accent-clay)' },
+  { to: '/english/essays', key: 'essays', icon: Pencil, accent: 'var(--color-accent-rose-muted)' },
 ];
 
 export function EnglishHomePage() {

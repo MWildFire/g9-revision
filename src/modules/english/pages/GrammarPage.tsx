@@ -11,7 +11,7 @@ export function GrammarPage() {
   const { t, i18n } = useTranslation('english');
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
-    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    ? { rule: 'Правило', use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
     : undefined;
 
   const agreementRules = (t('grammar.agreement.rules', { returnObjects: true }) as string[]) ?? [];

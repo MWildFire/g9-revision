@@ -26,7 +26,7 @@ export function MathTopicLayout({ topicId, topicKey, subTopicIds, icon, children
   const problems = getProblemsForTopic(topicId);
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
-    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    ? { rule: 'Правило', use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
     : undefined;
 
   return (

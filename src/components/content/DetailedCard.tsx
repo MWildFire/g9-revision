@@ -16,11 +16,12 @@ interface Props {
   item: DetailedItem;
   borderColor?: string;
   /** Map English labels to the current language */
-  labels?: { use?: string; form?: string; examples?: string; tip?: string; watchOut?: string; note?: string };
+  labels?: { rule?: string; use?: string; form?: string; examples?: string; tip?: string; watchOut?: string; note?: string };
 }
 
 export function DetailedCard({ item, borderColor, labels }: Props) {
   const L = {
+    rule: 'Rule',
     use: 'Use',
     form: 'Form',
     examples: 'Examples',
@@ -40,7 +41,7 @@ export function DetailedCard({ item, borderColor, labels }: Props) {
       {item.body ? <p className="text-sm text-text-secondary whitespace-pre-line mb-2">{item.body}</p> : null}
       {item.rule ? (
         <p className="text-sm mb-2">
-          <span className="text-xs uppercase tracking-wider text-text-muted mr-2">Rule</span>
+          <span className="text-xs uppercase tracking-wider text-text-muted mr-2">{L.rule}</span>
           {item.rule}
         </p>
       ) : null}

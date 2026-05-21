@@ -37,7 +37,7 @@ export function ElectricityPage() {
   const { t, i18n } = useTranslation('physics');
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
-    ? { use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
+    ? { rule: 'Правило', use: 'Когда', form: 'Форма', examples: 'Примеры', tip: 'Подсказка', watchOut: 'Внимание' }
     : undefined;
   const conceptsHeading = lang === 'ru' ? 'Глубокий разбор' : 'Deeper concepts';
 

@@ -17,7 +17,10 @@ export type TimetableEntry = {
   notes?: string;
 };
 
+export const STORAGE_SCHEMA_VERSION = 1;
+
 export type GlobalState = {
+  version: number;
   progress: { [subjectId: string]: { [topicId: string]: TopicProgress } };
   timetable: { entries: TimetableEntry[] };
   french: { level?: 'emergent' | 'capable' | 'proficient' };
@@ -25,11 +28,16 @@ export type GlobalState = {
 };
 
 const DEFAULT_STATE: GlobalState = {
+  version: STORAGE_SCHEMA_VERSION,
   progress: {},
   timetable: { entries: [] },
   french: {},
   activeRecall: {},
 };
+
+function isPlainObject(v: unknown): v is Record<string, unknown> {
+  return typeof v === 'object' && v !== null && !Array.isArray(v);
+}
 
 export function loadState(): GlobalState {
   if (typeof window === 'undefined') return DEFAULT_STATE;
@@ -37,7 +45,8 @@ export function loadState(): GlobalState {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return DEFAULT_STATE;
     const parsed = JSON.parse(raw);
-    return { ...DEFAULT_STATE, ...parsed };
+    if (!isPlainObject(parsed)) return DEFAULT_STATE;
+    return { ...DEFAULT_STATE, ...parsed, version: STORAGE_SCHEMA_VERSION };
   } catch {
     return DEFAULT_STATE;
   }

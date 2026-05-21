@@ -28,20 +28,23 @@ export function PunnettSquare() {
     offspring.push(row);
   }
 
-  // Phenotype: if at least one uppercase letter → dominant trait
-  const phenotypeOf = (g: string) => /[A-Z]/.test(g) ? 'Dominant' : 'Recessive';
+  const isDominant = (g: string) => /[A-Z]/.test(g);
   const counts: Record<string, number> = {};
   offspring.flat().forEach((g) => { counts[g] = (counts[g] || 0) + 1; });
 
-  const phenoCounts: Record<string, number> = { Dominant: 0, Recessive: 0 };
-  offspring.flat().forEach((g) => { phenoCounts[phenotypeOf(g)] += 1; });
+  let dominantCount = 0;
+  let recessiveCount = 0;
+  offspring.flat().forEach((g) => {
+    if (isDominant(g)) dominantCount += 1;
+    else recessiveCount += 1;
+  });
 
   return (
     <SimulationPanel title={t('simulations.punnett.title')} description={t('simulations.punnett.description')}>
       <div className="space-y-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <label className="block">
-            <span className="text-sm font-medium text-text-secondary mb-1.5 block">Parent 1 genotype</span>
+            <span className="text-sm font-medium text-text-secondary mb-1.5 block">{t('simulations.punnett.parent1Label')}</span>
             <input
               type="text"
               value={p1}
@@ -52,7 +55,7 @@ export function PunnettSquare() {
             />
           </label>
           <label className="block">
-            <span className="text-sm font-medium text-text-secondary mb-1.5 block">Parent 2 genotype</span>
+            <span className="text-sm font-medium text-text-secondary mb-1.5 block">{t('simulations.punnett.parent2Label')}</span>
             <input
               type="text"
               value={p2}
@@ -64,7 +67,7 @@ export function PunnettSquare() {
           </label>
         </div>
 
-        <p className="text-xs text-text-muted">Use a capital letter for the dominant allele (e.g., B) and lowercase for recessive (b). Try BB × bb, Bb × Bb, AA × aa, etc.</p>
+        <p className="text-xs text-text-muted">{t('simulations.punnett.alleleHint')}</p>
 
         {v1 && v2 ? (
           <div className="grid grid-cols-1 md:grid-cols-[1fr_280px] gap-4 items-start">
@@ -94,21 +97,21 @@ export function PunnettSquare() {
             </div>
 
             <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-2">
-              <p className="text-xs uppercase tracking-wider text-text-muted">Genotype ratio</p>
+              <p className="text-xs uppercase tracking-wider text-text-muted">{t('simulations.punnett.genotypeRatio')}</p>
               <div className="font-mono space-y-1">
                 {Object.entries(counts).map(([g, c]) => (
                   <p key={g}><span style={{ color: /[A-Z]/.test(g) ? 'var(--color-accent-sage)' : 'var(--color-accent-clay)' }}>{g}</span>: {c}/4</p>
                 ))}
               </div>
-              <p className="text-xs uppercase tracking-wider text-text-muted pt-2 border-t border-border">Phenotype ratio</p>
+              <p className="text-xs uppercase tracking-wider text-text-muted pt-2 border-t border-border">{t('simulations.punnett.phenotypeRatio')}</p>
               <div className="font-mono space-y-1 text-sm">
-                <p>Dominant: {phenoCounts.Dominant}/4</p>
-                <p>Recessive: {phenoCounts.Recessive}/4</p>
+                <p>{t('simulations.punnett.dominant')}: {dominantCount}/4</p>
+                <p>{t('simulations.punnett.recessive')}: {recessiveCount}/4</p>
               </div>
             </div>
           </div>
         ) : (
-          <p className="text-sm text-text-muted">Enter exactly 2 letters per parent (e.g., Bb).</p>
+          <p className="text-sm text-text-muted">{t('simulations.punnett.invalidHint')}</p>
         )}
       </div>
     </SimulationPanel>

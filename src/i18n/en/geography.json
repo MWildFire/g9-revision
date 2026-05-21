@@ -8,11 +8,32 @@
   "simulations": {
     "hydrograph": {
       "title": "Storm Hydrograph",
-      "description": "Drag rainfall intensity, soil saturation, urbanisation — see the hydrograph change from subdued to flashy."
+      "description": "Drag rainfall intensity, soil saturation, urbanisation — see the hydrograph change from subdued to flashy.",
+      "rainfallLabel": "Rainfall intensity",
+      "saturationLabel": "Soil saturation",
+      "urbanisationLabel": "Urbanisation",
+      "lagTime": "Lag time",
+      "peakDischarge": "Peak discharge",
+      "xAxis": "Time (hours)",
+      "yAxis": "Discharge (m³/s)",
+      "subduedNote": "Subdued hydrograph: gentle rise, long lag time — typical of vegetated or rural catchments.",
+      "flashyNote": "Flashy hydrograph: steep rise, short lag time, high peak — typical of urbanised or saturated catchments."
     },
     "circulation": {
       "title": "Atmospheric Circulation",
-      "description": "Hover each cell (Hadley, Ferrel, Polar) to see how air moves. Pressure markers show where rainforests, deserts, storm zones form."
+      "description": "Hover each cell (Hadley, Ferrel, Polar) to see how air moves. Pressure markers show where rainforests, deserts, storm zones form.",
+      "hoverHint": "Hover a cell to see its description.",
+      "legendLow": "L = low pressure (rising air, rain)",
+      "legendHigh": "H = high pressure (descending air, dry)",
+      "summary": "Equator: L → rainforest. 30°: H → desert. 60°: L → temperate storms. 90°: H → polar deserts.",
+      "cells": {
+        "hadleyN": { "name": "Hadley (N)", "desc": "Warm air rises at equator (0°), travels north, descends at ~30°N. Trade winds at the surface flow back to equator." },
+        "ferrelN": { "name": "Ferrel (N)", "desc": "Air rises at ~60°N, descends at ~30°N. Westerlies at the surface. Driven by neighbouring cells." },
+        "polarN": { "name": "Polar (N)", "desc": "Cold air descends at the pole, flows south at the surface, rises at ~60°N." },
+        "polarS": { "name": "Polar (S)", "desc": "Mirror image of Polar (N). Cold descending air at South Pole." },
+        "ferrelS": { "name": "Ferrel (S)", "desc": "Mirror image of Ferrel (N). Westerlies in southern hemisphere." },
+        "hadleyS": { "name": "Hadley (S)", "desc": "Mirror image of Hadley (N). Air rises at equator, descends at 30°S." }
+      }
     }
   },
   "nav": {

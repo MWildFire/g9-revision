@@ -44,9 +44,9 @@ export function StormHydrograph() {
     <SimulationPanel title={t('simulations.hydrograph.title')} description={t('simulations.hydrograph.description')}>
       <div className="space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-          <Slider label="Rainfall intensity" min={0} max={100} step={5} value={intensity} onChange={setIntensity} unit="%" />
-          <Slider label="Soil saturation" min={0} max={100} step={5} value={saturation} onChange={setSaturation} unit="%" />
-          <Slider label="Urbanisation" min={0} max={100} step={5} value={urbanization} onChange={setUrbanization} unit="%" />
+          <Slider label={t('simulations.hydrograph.rainfallLabel')} min={0} max={100} step={5} value={intensity} onChange={setIntensity} unit="%" />
+          <Slider label={t('simulations.hydrograph.saturationLabel')} min={0} max={100} step={5} value={saturation} onChange={setSaturation} unit="%" />
+          <Slider label={t('simulations.hydrograph.urbanisationLabel')} min={0} max={100} step={5} value={urbanization} onChange={setUrbanization} unit="%" />
         </div>
 
         <svg viewBox={`0 0 ${W} ${H + 20}`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">
@@ -69,9 +69,8 @@ export function StormHydrograph() {
             </g>
           ))}
 
-          {/* Axis titles */}
-          <text x={20} y={H / 2} textAnchor="middle" fontSize={10} fill="var(--color-text-muted)" transform={`rotate(-90 20 ${H / 2})`}>Discharge</text>
-          <text x={W / 2} y={H + 10} textAnchor="middle" fontSize={10} fill="var(--color-text-muted)">Time (hours)</text>
+          <text x={20} y={H / 2} textAnchor="middle" fontSize={10} fill="var(--color-text-muted)" transform={`rotate(-90 20 ${H / 2})`}>{t('simulations.hydrograph.yAxis')}</text>
+          <text x={W / 2} y={H + 10} textAnchor="middle" fontSize={10} fill="var(--color-text-muted)">{t('simulations.hydrograph.xAxis')}</text>
 
           {/* Rainfall bar */}
           <rect x={padX + 4 * xScale} y={padY} width={2 * xScale} height={intensity * 0.4} fill="var(--color-accent-sky)" fillOpacity={0.5} />
@@ -83,11 +82,8 @@ export function StormHydrograph() {
         </svg>
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-1">
-          <p>Hydrograph shape: <strong>{flashy ? 'flashy (sharp peak — high flood risk)' : 'subdued (slow rise — low flood risk)'}</strong></p>
-          <p className="text-xs text-text-muted">Peak discharge ≈ {peakDischarge.toFixed(0)} cumecs · Lag time ≈ {lagTime.toFixed(1)}h</p>
-          <p className="text-xs text-text-muted pt-2 border-t border-border">
-            Higher intensity, more saturation, and more urbanisation → shorter lag time, higher peak. Urban surfaces are impermeable → water runs straight to rivers.
-          </p>
+          <p>{flashy ? t('simulations.hydrograph.flashyNote') : t('simulations.hydrograph.subduedNote')}</p>
+          <p className="text-xs text-text-muted">{t('simulations.hydrograph.peakDischarge')} ≈ {peakDischarge.toFixed(0)} m³/s · {t('simulations.hydrograph.lagTime')} ≈ {lagTime.toFixed(1)} h</p>
         </div>
       </div>
     </SimulationPanel>

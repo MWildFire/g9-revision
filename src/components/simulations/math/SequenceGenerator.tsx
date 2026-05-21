@@ -29,32 +29,32 @@ export function SequenceGenerator() {
       <div className="space-y-4">
         <Tabs
           tabs={[
-            { id: 'linear', label: 'Linear' },
-            { id: 'geometric', label: 'Geometric' },
+            { id: 'linear', label: t('simulations.sequenceGenerator.linearTab') },
+            { id: 'geometric', label: t('simulations.sequenceGenerator.geometricTab') },
           ]}
           activeId={mode}
           onChange={(id) => setMode(id as 'linear' | 'geometric')}
         />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <Slider label="First term u₁" min={-10} max={10} step={0.5} value={first} onChange={setFirst} />
+          <Slider label={t('simulations.sequenceGenerator.firstTermLabel')} min={-10} max={10} step={0.5} value={first} onChange={setFirst} />
           <Slider
-            label={mode === 'linear' ? 'Common difference d' : 'Common ratio r'}
+            label={mode === 'linear' ? t('simulations.sequenceGenerator.differenceLabel') : t('simulations.sequenceGenerator.ratioLabel')}
             min={mode === 'linear' ? -10 : -3}
             max={mode === 'linear' ? 10 : 3}
             step={mode === 'linear' ? 0.5 : 0.1}
             value={param}
             onChange={setParam}
           />
-          <Slider label="Number of terms" min={3} max={20} step={1} value={count} onChange={(v) => setCount(Math.round(v))} />
+          <Slider label={t('simulations.sequenceGenerator.countLabel')} min={3} max={20} step={1} value={count} onChange={(v) => setCount(Math.round(v))} />
         </div>
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-3">
-          <p className="text-xs text-text-muted mb-1">Formula:</p>
+          <p className="text-xs text-text-muted mb-1">{t('simulations.sequenceGenerator.formulaLabel')}</p>
           <p className="font-mono">{formula}</p>
         </div>
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-3">
-          <p className="text-xs text-text-muted mb-1">Terms:</p>
+          <p className="text-xs text-text-muted mb-1">{t('simulations.sequenceGenerator.termsLabel')}</p>
           <p className="font-mono text-sm flex flex-wrap gap-x-2">
             {terms.map((v, i) => (
               <span key={i}>{fmt(v, 3)}{i < terms.length - 1 ? ',' : ''}</span>

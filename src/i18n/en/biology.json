@@ -9,15 +9,56 @@
   "simulations": {
     "punnett": {
       "title": "Punnett Square",
-      "description": "Enter two parent genotypes (e.g., Bb × Bb) — see all 4 offspring combinations with genotype + phenotype ratios."
+      "description": "Enter two parent genotypes (e.g., Bb × Bb) — see all 4 offspring combinations with genotype + phenotype ratios.",
+      "parent1Label": "Parent 1 genotype",
+      "parent2Label": "Parent 2 genotype",
+      "alleleHint": "Use a capital letter for the dominant allele (e.g., B) and lowercase for recessive (b). Try BB × bb, Bb × Bb, AA × aa, etc.",
+      "invalidHint": "Enter exactly 2 letters per parent (e.g., Bb).",
+      "genotypeRatio": "Genotype ratio",
+      "phenotypeRatio": "Phenotype ratio",
+      "dominant": "Dominant",
+      "recessive": "Recessive"
     },
     "cellDiagram": {
       "title": "Cell Diagram — animal vs plant",
-      "description": "Hover any organelle to see its function. Toggle between animal and plant cells to compare."
+      "description": "Hover any organelle to see its function. Toggle between animal and plant cells to compare.",
+      "animalTab": "Animal cell",
+      "plantTab": "Plant cell",
+      "plantOnlyLabel": "Plant only",
+      "animalLacksLabel": "Animal cells lack",
+      "plantExtras": "Cell wall, chloroplasts, large permanent vacuole.",
+      "hoverHint": "Hover an organelle to see its function.",
+      "parts": {
+        "nucleus": { "label": "Nucleus", "desc": "Contains DNA; controls cell activities." },
+        "nucleolus": { "label": "Nucleolus", "desc": "Inside nucleus; makes ribosomes." },
+        "mitochondria": { "label": "Mitochondria", "desc": "Site of aerobic respiration; releases ATP energy." },
+        "ribosome": { "label": "Ribosomes", "desc": "Tiny dots; make proteins." },
+        "membrane": { "label": "Cell membrane", "desc": "Selectively permeable barrier; controls entry/exit." },
+        "cytoplasm": { "label": "Cytoplasm", "desc": "Jelly-like fluid where reactions occur." },
+        "wall": { "label": "Cell wall", "desc": "Rigid cellulose layer outside membrane; gives shape." },
+        "chloroplast": { "label": "Chloroplast", "desc": "Contains chlorophyll; site of photosynthesis." },
+        "vacuole": { "label": "Vacuole", "desc": "Large permanent vacuole stores cell sap." }
+      }
     },
     "heartDiagram": {
       "title": "Heart Diagram",
-      "description": "Hover chambers and vessels — see how deoxygenated and oxygenated blood flow through the double circulation."
+      "description": "Hover chambers and vessels — see how deoxygenated and oxygenated blood flow through the double circulation.",
+      "deoxygenated": "Deoxygenated",
+      "oxygenated": "Oxygenated",
+      "hoverHint": "Hover a chamber or vessel to see its function.",
+      "doubleCirc": "Double circulation: blood passes the heart TWICE per circuit — once for the body, once for the lungs.",
+      "chambers": {
+        "ra": { "label": "Right atrium", "desc": "Receives deoxygenated blood from the body via the vena cava." },
+        "rv": { "label": "Right ventricle", "desc": "Pumps deoxygenated blood to the lungs via the pulmonary artery." },
+        "la": { "label": "Left atrium", "desc": "Receives oxygenated blood from the lungs via pulmonary veins." },
+        "lv": { "label": "Left ventricle", "desc": "Pumps oxygenated blood to the entire body via the aorta. Thickest wall (high pressure)." }
+      },
+      "vessels": {
+        "vc": { "label": "Vena cava", "desc": "Largest vein. Carries deoxygenated blood from body → right atrium." },
+        "pa": { "label": "Pulmonary artery", "desc": "Only artery carrying deoxygenated blood. Right ventricle → lungs." },
+        "pv": { "label": "Pulmonary vein", "desc": "Only vein carrying oxygenated blood. Lungs → left atrium." },
+        "ao": { "label": "Aorta", "desc": "Largest artery. Carries oxygenated blood from left ventricle → body." }
+      }
     }
   },
   "nav": {

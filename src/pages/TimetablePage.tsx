@@ -54,12 +54,11 @@ const TOPIC_LIBRARY: { subjectId: SubjectId; topicId: string; labelKey: string; 
   { subjectId: 'french', topicId: 'grammar', labelKey: 'nav.grammar', ns: 'french' },
   { subjectId: 'french', topicId: 'phrases', labelKey: 'nav.phrases', ns: 'french' },
   { subjectId: 'french', topicId: 'text-types', labelKey: 'nav.textTypes', ns: 'french' },
-  // Arabic (5 main topics)
-  { subjectId: 'arabic', topicId: 'mrs-hala', labelKey: 'nav.mrsHala', ns: 'arabic' },
-  { subjectId: 'arabic', topicId: 'alphabet', labelKey: 'nav.alphabet', ns: 'arabic' },
-  { subjectId: 'arabic', topicId: 'vocab', labelKey: 'nav.vocab', ns: 'arabic' },
-  { subjectId: 'arabic', topicId: 'grammar', labelKey: 'nav.grammar', ns: 'arabic' },
-  { subjectId: 'arabic', topicId: 'phrases', labelKey: 'nav.phrases', ns: 'arabic' },
+  // Arabic (4 main practice sections)
+  { subjectId: 'arabic', topicId: 'learn', labelKey: 'nav.learn', ns: 'arabic' },
+  { subjectId: 'arabic', topicId: 'flashcards', labelKey: 'nav.flashcards', ns: 'arabic' },
+  { subjectId: 'arabic', topicId: 'exercises', labelKey: 'nav.exercises', ns: 'arabic' },
+  { subjectId: 'arabic', topicId: 'quiz', labelKey: 'nav.quiz', ns: 'arabic' },
   // Geography (4 main topics)
   { subjectId: 'geography', topicId: 'rivers', labelKey: 'nav.rivers', ns: 'geography' },
   { subjectId: 'geography', topicId: 'tourism', labelKey: 'nav.tourism', ns: 'geography' },

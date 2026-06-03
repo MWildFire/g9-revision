@@ -88,7 +88,7 @@ export const SUBJECTS: Subject[] = [
     iconName: 'Type',
     accent: 'olive',
     route: '/arabic',
-    topicsCount: 5,
+    topicsCount: 4,
     enabled: true,
     detail: 'full',
   },

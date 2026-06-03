@@ -35,6 +35,7 @@
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-serif: 'Lora', Georgia, serif;
   --font-mono: 'JetBrains Mono', monospace;
+  --font-arabic: 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Amiri', serif;
 }
 
 * {
@@ -184,4 +185,13 @@ input[type='range']::-moz-range-thumb {
   border-color: var(--color-accent-sky-deep);
   transform: translateY(-1px);
   box-shadow: var(--shadow-soft);
+}
+
+/* Arabic script — RTL with a font that renders harakat (diacritics) cleanly.
+   The extra line-height keeps the vowel marks from clipping. */
+.arabic {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  line-height: 1.9;
+  font-feature-settings: 'liga' 1, 'calt' 1;
 }

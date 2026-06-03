@@ -33,6 +33,7 @@ const config: Config = {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         serif: ['Lora', 'Georgia', 'serif'],
         mono: ['JetBrains Mono', 'monospace'],
+        arabic: ['Noto Naskh Arabic', 'Noto Sans Arabic', 'Amiri', 'serif'],
       },
       borderRadius: {
         md: 'var(--radius-md)',

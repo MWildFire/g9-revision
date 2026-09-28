@@ -24,6 +24,7 @@ export function Header() {
           <div className="hidden sm:block">
             <ExamCountdown variant="compact" />
           </div>
+          <Link to="/mocks" className="text-sm hover:underline">{t('nav.mocks')}</Link>
           <LanguageToggle />
         </div>
       </div>

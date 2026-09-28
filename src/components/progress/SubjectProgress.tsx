@@ -10,7 +10,7 @@ interface Props {
 export function SubjectProgress({ subject, showLabel = true }: Props) {
   const [state] = useLocalProgress();
   const topicsState = state.progress[subject.id] ?? {};
-  const completed = Object.values(topicsState).filter((t) => t.completed).length;
+  const completed = Math.min(subject.topicsCount, Object.values(topicsState).filter((t) => t.completed).length);
   const total = subject.topicsCount;
   const pct = total === 0 ? 0 : Math.round((completed / total) * 100);
   const accentColor = ACCENT_VAR[subject.accent];

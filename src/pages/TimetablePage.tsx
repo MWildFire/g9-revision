@@ -6,7 +6,7 @@ import { Calendar, Plus, X, Check } from 'lucide-react';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { useExamCountdown } from '../hooks/useExamCountdown';
 import { ACCENT_VAR, SubjectId, getSubject } from '../config/subjects';
-import { setExamDate, getExamDate } from '../config/examDate';
+import { setExamDate } from '../config/examDate';
 import type { TimetableEntry } from '../lib/storage';
 
 const TOPIC_LIBRARY: { subjectId: SubjectId; topicId: string; labelKey: string; ns: string }[] = [
@@ -167,7 +167,7 @@ export function TimetablePage() {
           </h1>
           <p className="text-text-secondary text-sm flex items-center gap-2">
             <Calendar size={14} />
-            <span>{days} {t('countdown.daysShort')} · EOY {format(examDate, 'PP', { locale })}</span>
+            <span>{examDate ? `${days} ${t('countdown.daysShort')} · ${format(examDate, 'PP', { locale })}` : t('countdown.unconfirmed')}</span>
           </p>
         </div>
         <div className="flex items-center gap-2 text-sm">
@@ -175,7 +175,8 @@ export function TimetablePage() {
           <input
             id="exam-date"
             type="date"
-            defaultValue={format(getExamDate(), 'yyyy-MM-dd')}
+            value={examDate ? format(examDate, 'yyyy-MM-dd') : ''}
+            min="2026-01-01" max="2100-12-31"
             onChange={(e) => handleExamDateChange(e.target.value)}
             className="bg-bg-secondary border border-border rounded-md px-2 py-1 text-text-primary"
           />
@@ -323,14 +324,15 @@ function TopicLabel({ ns, labelKey }: { ns: string; labelKey: string }) {
 const WEEKS_BEFORE_TODAY = 2;
 const MAX_WEEKS = 16;
 
-function buildWeeks(examDate: Date): Date[][] {
+function buildWeeks(examDate: Date | null): Date[][] {
   const today = new Date();
   const currentWeekStart = startOfWeek(today, { weekStartsOn: 1 });
   const start = subWeeks(currentWeekStart, WEEKS_BEFORE_TODAY);
+  const end = examDate && examDate >= currentWeekStart ? examDate : addWeeks(currentWeekStart, 6);
   const result: Date[][] = [];
   let weekStart = start;
   for (let i = 0; i < MAX_WEEKS; i++) {
-    if (weekStart > examDate) break;
+    if (weekStart > end) break;
     const days = eachDayOfInterval({ start: weekStart, end: addDays(weekStart, 6) });
     result.push(days);
     weekStart = addWeeks(weekStart, 1);

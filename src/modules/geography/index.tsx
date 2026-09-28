@@ -21,7 +21,7 @@ const TOPICS: TopicNavItem[] = [
 
 export function GeographyModule() {
   return (
-    <div className="max-w-7xl w-full mx-auto px-4 md:px-6 py-8 flex gap-8">
+    <div className="max-w-7xl w-full mx-auto px-4 md:px-6 py-8 flex flex-col lg:flex-row gap-8">
       <SubjectSidebar subject="geography" topics={TOPICS} />
       <main className="flex-1 min-w-0">
         <Routes>

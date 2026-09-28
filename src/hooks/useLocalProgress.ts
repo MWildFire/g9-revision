@@ -1,14 +1,13 @@
 import { useCallback, useEffect, useState } from 'react';
-import { loadState, saveState, GlobalState } from '../lib/storage';
+import { loadState, saveState, GlobalState, STORAGE_KEY, UPDATE_EVENT } from '../lib/storage';
 
-const UPDATE_EVENT = 'g9-revision-state-update';
 
 export function useLocalProgress(): [GlobalState, (updater: (s: GlobalState) => GlobalState) => void] {
   const [state, setState] = useState<GlobalState>(() => loadState());
 
   useEffect(() => {
     const onStorage = (e: StorageEvent) => {
-      if (e.key === 'g9-revision-state') setState(loadState());
+      if (e.key === STORAGE_KEY || e.key === null) setState(loadState());
     };
     const onLocalUpdate = () => setState(loadState());
     window.addEventListener('storage', onStorage);
@@ -20,13 +19,9 @@ export function useLocalProgress(): [GlobalState, (updater: (s: GlobalState) => 
   }, []);
 
   const update = useCallback((updater: (s: GlobalState) => GlobalState) => {
-    setState((prev) => {
-      const next = updater(prev);
-      saveState(next);
-      // Notify other hook instances in the same tab
-      window.dispatchEvent(new Event(UPDATE_EVENT));
-      return next;
-    });
+    const next = updater(loadState());
+    saveState(next);
+    setState(next);
   }, []);
 
   return [state, update];

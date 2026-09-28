@@ -1,10 +1,11 @@
 {
-  "brand": "G9 Revision",
-  "tagline": "Подготовка к EOY 2026",
+  "brand": "MYP Revision",
+  "tagline": "Подготовка к mocks • октябрь 2026",
   "nav": {
     "hub": "Главная",
     "timetable": "Расписание",
-    "about": "О сайте"
+    "about": "О сайте",
+    "mocks": "Карта подготовки"
   },
   "actions": {
     "next": "Далее",
@@ -28,7 +29,7 @@
     "partial": "Частичный контент"
   },
   "countdown": {
-    "untilExam": "До экзаменов",
+    "untilExam": "До выбранной даты",
     "days_one": "{{count}} день",
     "days_few": "{{count}} дня",
     "days_many": "{{count}} дней",
@@ -39,7 +40,9 @@
     "weeks_many": "{{count}} недель",
     "weeks_other": "{{count}} недель",
     "weeks": "{{count}} недель",
-    "daysShort": "дней"
+    "daysShort": "дней",
+    "window": "Mocks • октябрь 2026",
+    "unconfirmed": "Точная дата ещё не подтверждена школой. Укажите её в расписании, когда она станет известна."
   },
   "practice": {
     "intro": "Тренировочные вопросы в формате IB MYP. Нажми, чтобы увидеть эталонный ответ.",
@@ -87,9 +90,10 @@
     "clickHint": "Выбери тему, потом нажми на любой день, чтобы добавить.",
     "selected": "Выбрано",
     "week": "Неделя",
-    "examDateLabel": "Дата EOY:",
+    "examDateLabel": "Дата экзамена:",
     "addAria": "Добавить",
     "removeAria": "Удалить",
     "toggleAria": "Отметить выполненным"
-  }
+  },
+  "loading": "Загрузка…"
 }

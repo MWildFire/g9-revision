@@ -1,24 +1,13 @@
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
 export function AboutPage() {
-  const { t } = useTranslation('common');
-  return (
-    <main className="max-w-3xl mx-auto px-4 md:px-6 py-12">
-      <h1 className="font-serif text-3xl font-medium mb-6">{t('nav.about')}</h1>
-      <div className="prose prose-stone max-w-none text-text-secondary space-y-4">
-        <p>
-          G9 Revision — open, ad-free study companion built for Luka's preparation for the
-          End-of-Year 2026 exams at NLCS Dubai. All progress is stored locally in your browser.
-        </p>
-        <p>
-          Source content is drawn from the school's revision lists, the IGCSE Standard and Extended
-          textbooks (Cambridge), and curated descriptions of the revision sheets shared by teachers.
-        </p>
-        <p>
-          You can change the exam date in the Timetable, switch language any time, and pick up
-          where you left off — everything is saved on your device.
-        </p>
-      </div>
-    </main>
-  );
+  const { t, i18n } = useTranslation('common');
+  const ru = i18n.language.startsWith('ru');
+  return <main className="max-w-3xl mx-auto p-6 py-12 space-y-5">
+    <h1 className="font-serif text-3xl">{t('nav.about')}</h1>
+    <p>{ru ? 'MYP Revision помогает повторить Grade 9 перед mocks в Grade 10. Основа — школьные материалы 2025–26 и публичные документы IB, проверенные 28 сентября 2026.' : 'MYP Revision revisits Grade 9 for Grade 10 mocks. It combines school materials from 2025–26 with public IB documents checked on 28 September 2026.'}</p>
+    <p>{ru ? 'Это самостоятельный учебный сайт, не официальный ресурс IB. Новые задания составлены для практики; они не являются реальными экзаменационными вопросами. Списки Grade 9 не подтверждают состав октябрьских mocks. Материалы Extras — дополнительное чтение.' : 'This independent study site is not an official IB resource. New exercises are original practice, not real examination questions. Grade 9 lists do not confirm the October mock scope. Extras are enrichment.'}</p>
+    <p>{ru ? 'Прогресс хранится в браузере. Он не синхронизируется между устройствами. Очистка данных браузера удаляет сохранения.' : 'Progress stays in this browser, does not sync between devices and is removed when browser data is cleared.'}</p>
+    <Link to="/mocks" className="underline">{t('nav.mocks')} →</Link>
+  </main>;
 }

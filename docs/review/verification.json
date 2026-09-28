@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-28",
+  "baseline": "5edb35b",
+  "scope": "Local production build; not deployed",
+  "tests": {
+    "nodeRegressionTests": 6,
+    "passed": 6,
+    "browserRoutes": 95,
+    "pageErrors": [],
+    "browserChecks": [
+      "filter and search",
+      "answer disclosure",
+      "malformed storage recovery",
+      "unknown date and June-date isolation",
+      "planner add/complete",
+      "same-tab progress",
+      "Russian direct-route loading",
+      "mobile topic navigation",
+      "mobile overflow"
+    ]
+  },
+  "dependencies": {
+    "before": {
+      "total": 11,
+      "high": 4,
+      "moderate": 5,
+      "low": 2
+    },
+    "after": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    }
+  },
+  "initialEntryKB": {
+    "before": 2668.57,
+    "after": 394.92
+  },
+  "initialEntryGzipKB": {
+    "before": 800.1,
+    "after": 129.31
+  },
+  "publicSiteReadOnly": {
+    "status": 200,
+    "title": "G9 Revision — EOY 2026",
+    "heading": "Revision Hub for G9 EOY 2026"
+  },
+  "coverageRows": 79,
+  "newBilingualLessons": 18,
+  "registeredSources": 17,
+  "unverified": [
+    "October teacher scope/date",
+    "current Mathematics and French levels",
+    "all legacy educational facts/simulation outputs",
+    "complete timed papers and markschemes",
+    "real listening audio",
+    "session-specific IDL materials"
+  ]
+}

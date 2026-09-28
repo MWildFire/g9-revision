@@ -1,13 +1,13 @@
 {
   "hero": {
-    "title": "Revision Hub for G9 EOY 2026",
-    "subtitle": "Interactive resources across seven subjects — built for Luka",
+    "title": "MYP mock preparation • Grade 10",
+    "subtitle": "Grade 9 revision, school topic lists and MYP skills. October 2026.",
     "openTimetable": "Open revision timetable"
   },
   "subjectsHeading": "Subjects",
   "timetablePreview": {
     "title": "Revision Timetable",
-    "description": "Plan your week — drag topics into days and track completion.",
+    "description": "Select a topic and a day to plan revision and track sessions.",
     "cta": "Open planner →"
   },
   "subjects": {
@@ -21,19 +21,19 @@
     },
     "chemistry": {
       "name": "Chemistry",
-      "description": "6 topics · atoms, bonding, reactions, stoichiometry, acids, energy"
+      "description": "8 topics · atoms, bonding, reactions, stoichiometry, acids, energy"
     },
     "biology": {
       "name": "Biology",
-      "description": "6 topics · cells, body systems, ecology, genetics, immunity, lab design"
+      "description": "7 topics · cells, body systems, ecology, genetics, immunity, lab design"
     },
     "english": {
       "name": "English",
-      "description": "5 topics · text types, devices, grammar, reading, essays"
+      "description": "8 topics · text types, devices, grammar, reading, essays"
     },
     "french": {
       "name": "French",
-      "description": "4 topics · vocabulary, tenses, grammar, phrases"
+      "description": "6 topics · vocabulary, tenses, grammar, phrases"
     },
     "arabic": {
       "name": "Arabic",

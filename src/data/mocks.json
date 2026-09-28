@@ -1,0 +1,2021 @@
+{
+  "sources": [
+    {
+      "id": "school-math",
+      "title": "Maths Revision list and reference to resources G9.pdf",
+      "kind": "school",
+      "context": "Grade 9 EOY • June 2026",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "school-math-910",
+      "title": "MYPRevisionListG10 (1).pdf",
+      "kind": "school",
+      "context": "Grade 9+10 • undated; October scope unconfirmed",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "school-physics",
+      "title": "Grade 9 Physics: Topic List for End of Year Exam",
+      "kind": "school",
+      "context": "Grade 9 EOY • historical",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "school-chemistry",
+      "title": "Chemistry Revision Booklet G9.docx",
+      "kind": "school",
+      "context": "Grade 9 • historical",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "school-biology",
+      "title": "Grade 9 Biology Topic List.docx",
+      "kind": "school",
+      "context": "Grade 9 • explicitly excludes Unit 5 from that EOY",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "school-biology-practice",
+      "title": "Grade 9 EOY Biology Revision.docx",
+      "kind": "school",
+      "context": "Grade 9 • criteria A–D resource links",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "school-geography",
+      "title": "G9 Geography End of Year Revision Checklist 2026",
+      "kind": "school",
+      "context": "Grade 9 EOY • 2026",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "school-english",
+      "title": "English G9 - Revision Booklet.docx",
+      "kind": "school",
+      "context": "Grade 9 • unseen-text and writing practice",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "school-french",
+      "title": "French G9 - Revision List - Capable.docx",
+      "kind": "school",
+      "context": "Grade 9 • Capable list, not proof of current registered level",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "ib-assessment",
+      "title": "IB: Assessment and exams",
+      "kind": "official",
+      "url": "https://ibo.org/programmes/middle-years-programme/assessment-and-exams/",
+      "context": "Public framework; not an October topic guarantee",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "ib-math",
+      "title": "IB: Mathematics",
+      "kind": "official",
+      "url": "https://ibo.org/programmes/middle-years-programme/curriculum/mathematics/",
+      "context": "Public framework; not an October topic guarantee",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "ib-science",
+      "title": "IB: Sciences subject brief",
+      "kind": "official",
+      "url": "https://ibo.org/globalassets/new-structure/brochures-and-infographics/pdfs/myp-brief-sciences-en.pdf",
+      "context": "Public framework; not an October topic guarantee",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "ib-english",
+      "title": "IB: Language and literature",
+      "kind": "official",
+      "url": "https://ibo.org/programmes/middle-years-programme/curriculum/language-and-literature/",
+      "context": "Public framework; not an October topic guarantee",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "ib-language",
+      "title": "IB: Language acquisition subject brief (2020)",
+      "kind": "official",
+      "url": "https://ibo.org/globalassets/new-structure/brochures-and-infographics/pdfs/myp-brief-language-acquisition-2020-en.pdf",
+      "context": "Public framework; not an October topic guarantee",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "ib-idl",
+      "title": "IB: Interdisciplinary learning subject brief (2021)",
+      "kind": "official",
+      "url": "https://ibo.org/globalassets/new-structure/brochures-and-infographics/pdfs/myp-brief-interdisciplinary-learning_en.pdf",
+      "context": "Public framework; not an October topic guarantee",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "ib-humanities",
+      "title": "IB: Individuals and societies",
+      "kind": "official",
+      "url": "https://ibo.org/programmes/middle-years-programme/curriculum/individuals-and-societies/",
+      "context": "Public framework; not an October topic guarantee",
+      "checked": "2026-09-28"
+    },
+    {
+      "id": "nlcs",
+      "title": "NLCS Dubai: Upper School",
+      "kind": "official",
+      "url": "https://nlcsdubai.ae/ib-upper-school-grades-school-dubai/",
+      "context": "Public framework; not an October topic guarantee",
+      "checked": "2026-09-28"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "coordinate-geometry",
+      "subject": "math",
+      "title": {
+        "en": "Coordinate geometry",
+        "ru": "Координатная геометрия"
+      },
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "paragraphs": [
+        {
+          "en": "For A(x₁,y₁), B(x₂,y₂): gradient m=(y₂−y₁)/(x₂−x₁), midpoint M=((x₁+x₂)/2,(y₁+y₂)/2), distance AB=√((x₂−x₁)²+(y₂−y₁)²). A vertical line has undefined gradient.",
+          "ru": "Для A(x₁,y₁), B(x₂,y₂): угловой коэффициент m=(y₂−y₁)/(x₂−x₁), середина M=((x₁+x₂)/2,(y₁+y₂)/2), расстояние AB=√((x₂−x₁)²+(y₂−y₁)²). У вертикальной прямой коэффициент не определён."
+        },
+        {
+          "en": "Through a fixed point (x₀,y₀), use y−y₀=m(x−x₀). Distinct parallel lines share a gradient. For perpendicular non-vertical lines, m₁m₂=−1. Horizontal and vertical lines are perpendicular.",
+          "ru": "Через фиксированную точку (x₀,y₀): y−y₀=m(x−x₀). У параллельных прямых одинаковый коэффициент. Для перпендикулярных невертикальных прямых m₁m₂=−1. Горизонтальная и вертикальная прямые перпендикулярны."
+        },
+        {
+          "en": "Expand brackets carefully: −2(x−2)=−2x+4. Substitute the known point into the final equation to check it.",
+          "ru": "Раскрывайте скобки внимательно: −2(x−2)=−2x+4. Проверьте итоговое уравнение подстановкой известной точки."
+        }
+      ],
+      "question": {
+        "en": "A=(2,3), B=(6,5). Find AB and the perpendicular bisector of AB.",
+        "ru": "A=(2,3), B=(6,5). Найдите длину AB и серединный перпендикуляр."
+      },
+      "answer": {
+        "en": "m=2/4=1/2; M=(4,4); AB=√20=2√5. Perpendicular gradient=−2. y−4=−2(x−4), so y=−2x+12. Substituting M gives 4=4.",
+        "ru": "m=2/4=1/2; M=(4,4); AB=√20=2√5. Перпендикулярный коэффициент −2. y−4=−2(x−4), поэтому y=−2x+12. Подстановка M даёт 4=4."
+      },
+      "checks": [
+        {
+          "en": "I distinguish fixed point coordinates from variable x and y.",
+          "ru": "Я различаю координаты фиксированной точки и переменные x, y."
+        },
+        {
+          "en": "I check the negative reciprocal and substitute back.",
+          "ru": "Я проверяю обратный коэффициент с противоположным знаком и делаю подстановку."
+        }
+      ]
+    },
+    {
+      "id": "linear-equations",
+      "subject": "math",
+      "title": {
+        "en": "Linear equations, inequalities and systems",
+        "ru": "Линейные уравнения, неравенства и системы"
+      },
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "paragraphs": [
+        {
+          "en": "Apply the same operation to both sides. Expand brackets before collecting terms. A solution of simultaneous equations must satisfy both original equations; use substitution or elimination.",
+          "ru": "Выполняйте одинаковую операцию с обеими частями. Раскройте скобки до приведения подобных. Решение системы должно удовлетворять обоим исходным уравнениям; используйте подстановку или сложение."
+        },
+        {
+          "en": "Reverse an inequality when multiplying or dividing both sides by a negative number. A strict inequality uses an open endpoint on a number line; ≤ or ≥ includes the endpoint.",
+          "ru": "Меняйте знак неравенства при умножении или делении на отрицательное число. Строгое неравенство обозначается пустой точкой; ≤ и ≥ включают границу."
+        },
+        {
+          "en": "For a rational equation, state excluded denominator values first. Multiplication by a denominator can introduce an invalid candidate; check every solution in the original equation.",
+          "ru": "В дробном уравнении сначала исключите значения, обнуляющие знаменатель. После умножения на знаменатель проверьте все найденные корни в исходной записи."
+        }
+      ],
+      "question": {
+        "en": "Solve 2x+y=11 and x−y=1. Then solve −3x+6>12.",
+        "ru": "Решите 2x+y=11 и x−y=1. Затем решите −3x+6>12."
+      },
+      "answer": {
+        "en": "Adding equations gives 3x=12, x=4, y=3. Checks: 8+3=11; 4−3=1. For the inequality, −3x>6, hence x<−2; the sign reverses.",
+        "ru": "Сложение даёт 3x=12, x=4, y=3. Проверка: 8+3=11; 4−3=1. В неравенстве −3x>6, поэтому x<−2; знак меняется."
+      },
+      "checks": [
+        {
+          "en": "I verify both equations and show excluded values.",
+          "ru": "Я проверяю оба уравнения и указываю ограничения."
+        },
+        {
+          "en": "I reverse the sign only for multiplication/division by a negative.",
+          "ru": "Я меняю знак при умножении/делении на отрицательное число."
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "subject": "math",
+      "title": {
+        "en": "Probability: trees, Venn diagrams and tables",
+        "ru": "Вероятность: деревья, диаграммы Венна и таблицы"
+      },
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910",
+        "ib-math"
+      ],
+      "paragraphs": [
+        {
+          "en": "For equally likely outcomes, P(A)=favourable outcomes/total outcomes. P(not A)=1−P(A). List a sample space systematically; two dice produce 36 ordered, equally likely pairs, not 11 equally likely totals.",
+          "ru": "Для равновозможных исходов P(A)=число благоприятных исходов/общее число. P(не A)=1−P(A). У двух кубиков 36 равновозможных упорядоченных пар, а не 11 равновозможных сумм."
+        },
+        {
+          "en": "P(A or B)=P(A)+P(B)−P(A and B). Mutually exclusive events have zero overlap. Independence means that knowing A does not change P(B); it is different from mutual exclusivity.",
+          "ru": "P(A или B)=P(A)+P(B)−P(A и B). У несовместных событий нет пересечения. Независимость означает, что знание A не меняет P(B); это не то же самое, что несовместность."
+        },
+        {
+          "en": "On a tree, multiply along a path and add disjoint paths. Without replacement, update both numerator and denominator. In a two-way table, a conditional probability uses the row/column specified by the condition as its denominator.",
+          "ru": "В дереве умножайте вероятности вдоль ветви и складывайте несовместные ветви. Без возвращения меняются числитель и знаменатель. В таблице условная вероятность использует в знаменателе выбранную условием группу."
+        }
+      ],
+      "question": {
+        "en": "A bag contains 3 red and 2 blue counters. Draw two without replacement. Find P(two red) and P(one of each colour).",
+        "ru": "В мешке 3 красных и 2 синих жетона. Достают два без возвращения. Найдите вероятность двух красных и одного каждого цвета."
+      },
+      "answer": {
+        "en": "P(RR)=(3/5)(2/4)=3/10. P(RB or BR)=(3/5)(2/4)+(2/5)(3/4)=3/5. Check: RR+BB+mixed=3/10+1/10+6/10=1.",
+        "ru": "P(КК)=(3/5)(2/4)=3/10. P(КС или СК)=(3/5)(2/4)+(2/5)(3/4)=3/5. Проверка: 3/10+1/10+6/10=1."
+      },
+      "checks": [
+        {
+          "en": "My tree branches from each node sum to 1.",
+          "ru": "Сумма вероятностей ветвей из каждого узла равна 1."
+        },
+        {
+          "en": "I do not confuse independent and mutually exclusive events.",
+          "ru": "Я не путаю независимость и несовместность."
+        }
+      ]
+    },
+    {
+      "id": "solids",
+      "subject": "math",
+      "title": {
+        "en": "Surface area, volume and composite solids",
+        "ru": "Площадь поверхности, объём и составные тела"
+      },
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "paragraphs": [
+        {
+          "en": "Prism: V=area of cross-section × length. Cylinder: V=πr²h, total area=2πr²+2πrh. Cone: V=πr²h/3, total area=πr²+πrl, where l is slant height.",
+          "ru": "Призма: V=площадь сечения × длина. Цилиндр: V=πr²h, полная площадь=2πr²+2πrh. Конус: V=πr²h/3, полная площадь=πr²+πrl, где l — образующая."
+        },
+        {
+          "en": "Sphere: V=4πr³/3 and area=4πr². Pyramid: V=base area × perpendicular height/3; sum the base and triangular face areas for total surface area.",
+          "ru": "Шар: V=4πr³/3 и площадь=4πr². Пирамида: V=площадь основания × перпендикулярная высота/3; для полной площади сложите основание и боковые треугольники."
+        },
+        {
+          "en": "For joined solids, add volumes but exclude internal joined faces from exposed area. Convert lengths before calculating: 1 cm³=1000 mm³. Similar lengths scale by k, areas by k² and volumes by k³.",
+          "ru": "Для соединённых тел сложите объёмы, но исключите внутренние грани из внешней площади. Переводите единицы до расчёта: 1 см³=1000 мм³. У подобных тел длины меняются в k раз, площади — в k², объёмы — в k³."
+        }
+      ],
+      "question": {
+        "en": "A cylinder has radius 3 cm and height 10 cm. Find its volume and total surface area.",
+        "ru": "Радиус цилиндра 3 см, высота 10 см. Найдите объём и полную площадь поверхности."
+      },
+      "answer": {
+        "en": "V=π×9×10=90π cm³. A=2π×9+2π×3×10=78π cm². An open-top container would instead have area 69π cm².",
+        "ru": "V=π×9×10=90π см³. S=2π×9+2π×3×10=78π см². Для открытого сверху сосуда площадь была бы 69π см²."
+      },
+      "checks": [
+        {
+          "en": "I distinguish radius, diameter, perpendicular and slant height.",
+          "ru": "Я различаю радиус, диаметр, высоту и образующую."
+        },
+        {
+          "en": "I check squared/cubed units and hidden faces.",
+          "ru": "Я проверяю квадратные/кубические единицы и внутренние грани."
+        }
+      ]
+    },
+    {
+      "id": "transformations",
+      "subject": "math",
+      "title": {
+        "en": "Transformations, similarity and congruence",
+        "ru": "Преобразования, подобие и равенство фигур"
+      },
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "paragraphs": [
+        {
+          "en": "A translation needs a vector; a reflection needs its mirror line; a rotation needs centre, angle and direction. For a 90° anticlockwise rotation about the origin, (x,y)→(−y,x).",
+          "ru": "Перенос задаётся вектором, отражение — осью, поворот — центром, углом и направлением. Поворот на 90° против часовой стрелки вокруг начала: (x,y)→(−y,x)."
+        },
+        {
+          "en": "Congruent figures have equal corresponding sides and angles. Triangle tests include SSS, SAS, ASA/AAS and right-angle–hypotenuse–side. AAA establishes similarity, not congruence.",
+          "ru": "У равных фигур соответствующие стороны и углы равны. Признаки равенства треугольников: SSS, SAS, ASA/AAS и гипотенуза с катетом. AAA даёт подобие, а не равенство."
+        },
+        {
+          "en": "Enlargement with centre C maps P to C+k(P−C). Similarity scales all lengths by the same factor; preserve correspondence when forming ratios. Order matters in combined transformations. A tessellation fills the plane with no gaps or overlaps.",
+          "ru": "Гомотетия с центром C переводит P в C+k(P−C). При подобии все длины меняются в одно число раз; соблюдайте соответствие сторон. Порядок преобразований важен. Мозаика заполняет плоскость без пробелов и наложений."
+        }
+      ],
+      "question": {
+        "en": "Rotate (2,1) 90° anticlockwise about the origin, then translate by (3,−2). What changes if the order is reversed?",
+        "ru": "Поверните (2,1) на 90° против часовой стрелки вокруг начала, затем перенесите на (3,−2). Что будет при обратном порядке?"
+      },
+      "answer": {
+        "en": "Rotation first: (−1,2)→(2,0). Translation first: (5,−1)→(1,5). Different results show that order matters.",
+        "ru": "Сначала поворот: (−1,2)→(2,0). Сначала перенос: (5,−1)→(1,5). Разные ответы показывают важность порядка."
+      },
+      "checks": [
+        {
+          "en": "I specify every parameter of a transformation.",
+          "ru": "Я указываю все параметры преобразования."
+        },
+        {
+          "en": "I use corresponding sides and an appropriate triangle test.",
+          "ru": "Я использую соответствующие стороны и подходящий признак."
+        }
+      ]
+    },
+    {
+      "id": "sampling-correlation",
+      "subject": "math",
+      "title": {
+        "en": "Sampling, scatter graphs and correlation",
+        "ru": "Выборки, диаграммы рассеяния и корреляция"
+      },
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "paragraphs": [
+        {
+          "en": "Simple random sampling gives each member an equal selection chance. Systematic sampling takes every kth member after a random start. Stratified sampling represents subgroups proportionally: subgroup sample = subgroup size/population size × total sample.",
+          "ru": "Простая случайная выборка даёт каждому равный шанс. Систематическая берёт каждого k-го после случайного старта. Стратифицированная учитывает доли групп: объём группы/объём популяции × размер выборки."
+        },
+        {
+          "en": "A larger sample reduces random variation but does not remove selection or non-response bias. Record who was eligible, who responded and what the sampling frame excludes.",
+          "ru": "Большая выборка уменьшает случайную изменчивость, но не устраняет смещение отбора или неответов. Укажите, кого могли выбрать, кто ответил и кто не вошёл в основу выборки."
+        },
+        {
+          "en": "Describe direction, strength and outliers on a scatter graph. Correlation does not prove causation. A least-squares regression line with an intercept passes through (mean x, mean y). Interpolation is generally less risky than extrapolation beyond observed data.",
+          "ru": "Опишите направление, силу связи и выбросы. Корреляция не доказывает причинность. Линия МНК со свободным членом проходит через (среднее x, среднее y). Интерполяция обычно надёжнее экстраполяции за пределы наблюдений."
+        }
+      ],
+      "question": {
+        "en": "A school has 120 Grade 9 and 180 Grade 10 students. Allocate a stratified sample of 50. Why might a voluntary online survey still be biased?",
+        "ru": "В школе 120 учеников Grade 9 и 180 Grade 10. Распределите стратифицированную выборку из 50. Почему добровольный онлайн-опрос может быть смещённым?"
+      },
+      "answer": {
+        "en": "Grade 9: 120/300×50=20. Grade 10: 30. Volunteers may differ from non-respondents in interest or internet access; increasing responses alone does not guarantee representativeness.",
+        "ru": "Grade 9: 120/300×50=20. Grade 10: 30. Добровольцы могут отличаться заинтересованностью или доступом к интернету; больше ответов само по себе не гарантирует представительность."
+      },
+      "checks": [
+        {
+          "en": "I separate sample size from representativeness.",
+          "ru": "Я различаю размер и представительность выборки."
+        },
+        {
+          "en": "I explain the limits of a prediction.",
+          "ru": "Я объясняю ограничения прогноза."
+        }
+      ]
+    },
+    {
+      "id": "quadratic-patterns",
+      "subject": "math",
+      "title": {
+        "en": "Quadratic patterns and justification",
+        "ru": "Квадратичные последовательности и обоснование"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-math",
+        "school-math-910"
+      ],
+      "paragraphs": [
+        {
+          "en": "For uₙ=an²+bn+c, constant second difference=2a. Find a first, subtract an² from the sequence, then find the linear remainder bn+c.",
+          "ru": "Для uₙ=an²+bn+c постоянная вторая разность равна 2a. Найдите a, вычтите an², затем определите линейный остаток bn+c."
+        },
+        {
+          "en": "Testing a rule on several terms provides evidence, not a proof for all n. Explain the pattern construction or verify algebraically why the rule must hold. Distinguish explicit nth-term formulas from recursive definitions that also need an initial term.",
+          "ru": "Проверка нескольких членов даёт свидетельство, а не доказательство для всех n. Объясните построение или докажите правило алгебраически. Рекуррентная запись требует начального члена."
+        }
+      ],
+      "question": {
+        "en": "Find and justify a rule for 3, 8, 15, 24, 35, …, starting with n=1.",
+        "ru": "Найдите и обоснуйте правило для 3, 8, 15, 24, 35, … при n=1 для первого члена."
+      },
+      "answer": {
+        "en": "First differences: 5,7,9,11; second differences: 2,2,2, so a=1. Subtracting n² leaves 2,4,6,8,10=2n. Thus uₙ=n²+2n=n(n+2). If the pattern is an n-by-(n+2) rectangle of dots, counting rows and columns justifies the rule for every positive integer n.",
+        "ru": "Первые разности 5,7,9,11; вторые 2,2,2, значит a=1. После вычитания n² остаётся 2n. Поэтому uₙ=n²+2n=n(n+2). Для прямоугольника точек n на n+2 подсчёт строк и столбцов обосновывает правило для каждого натурального n."
+      },
+      "checks": [
+        {
+          "en": "I test a new term and explain why the rule works.",
+          "ru": "Я проверяю новый член и объясняю, почему правило работает."
+        }
+      ]
+    },
+    {
+      "id": "trig-graphs",
+      "subject": "math",
+      "title": {
+        "en": "Trigonometric graphs",
+        "ru": "Тригонометрические графики"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "paragraphs": [
+        {
+          "en": "In degrees, sin x and cos x have period 360° and range [−1,1]. sin x=0 at 0°,180°,360°; cos x=1 at 0°, 0 at 90°, −1 at 180°. tan x has period 180° and vertical asymptotes at 90°+180°k.",
+          "ru": "В градусах sin x и cos x имеют период 360° и значения [−1,1]. sin x=0 при 0°,180°,360°; cos x равен 1 при 0°, 0 при 90°, −1 при 180°. Период tan x — 180°, асимптоты 90°+180°k."
+        },
+        {
+          "en": "For y=a sin(bx)+d, amplitude is |a|, period is 360°/|b|, and midline is y=d. Solve within the stated domain and check calculator degree/radian mode.",
+          "ru": "Для y=a sin(bx)+d амплитуда |a|, период 360°/|b|, средняя линия y=d. Решайте на указанном промежутке и проверяйте режим градусов/радиан."
+        }
+      ],
+      "question": {
+        "en": "Solve sin x=1/2 for 0°≤x≤360°. Give the amplitude and period of y=2sin(3x).",
+        "ru": "Решите sin x=1/2 при 0°≤x≤360°. Найдите амплитуду и период y=2sin(3x)."
+      },
+      "answer": {
+        "en": "x=30° or 150°. The graph has amplitude 2 and period 120°. There are two roots of the first equation because sine is positive in quadrants I and II.",
+        "ru": "x=30° или 150°. Амплитуда 2, период 120°. У первого уравнения два корня: синус положителен в I и II четвертях."
+      },
+      "checks": [
+        {
+          "en": "I find all solutions in the required interval.",
+          "ru": "Я нахожу все решения на заданном промежутке."
+        }
+      ]
+    },
+    {
+      "id": "chemical-quantities",
+      "subject": "chemistry",
+      "title": {
+        "en": "Moles, empirical formula, yield and titration",
+        "ru": "Моли, эмпирическая формула, выход и титрование"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "paragraphs": [
+        {
+          "en": "n=m/M; c=n/V with V in dm³ for mol dm⁻³. For a gas use n=V/Vₘ with the molar volume supplied for the stated conditions; do not assume 24 dm³ mol⁻¹ under all conditions. Convert cm³ to dm³ by dividing by 1000.",
+          "ru": "n=m/M; c=n/V, где V в дм³ для моль/дм³. Для газа n=V/Vₘ; используйте молярный объём при заданных условиях, не считайте 24 дм³/моль универсальной константой. См³ переводят в дм³ делением на 1000."
+        },
+        {
+          "en": "To find an empirical formula, convert each elemental mass or percentage to moles, divide by the smallest amount, then scale to the smallest whole-number ratio. Molecular formula requires the compound molar mass as well.",
+          "ru": "Для эмпирической формулы переведите массы или проценты элементов в моли, разделите на наименьшее и приведите к минимальному целочисленному отношению. Для молекулярной формулы нужна ещё молярная масса вещества."
+        },
+        {
+          "en": "Percentage yield=actual/theoretical yield×100. Atom economy=stoichiometric mass of desired product/stoichiometric mass of all products×100. Use balanced coefficients; yield describes the practical result, atom economy the reaction design.",
+          "ru": "Выход %=фактический/теоретический выход×100. Атомная экономичность=стехиометрическая масса целевого продукта/масса всех продуктов×100. Учитывайте коэффициенты; выход описывает практический результат, экономичность — саму реакцию."
+        },
+        {
+          "en": "Titration reasoning: obtain concordant titres, calculate moles of the known solution, use the balanced reaction ratio, then divide the unknown moles by its volume. c₁V₁=c₂V₂ only applies directly to a 1:1 reaction. Practical procedures require teacher supervision.",
+          "ru": "Расчёт титрования: используйте согласованные объёмы, найдите моли известного раствора, примените соотношение из уравнения, затем разделите неизвестные моли на объём. c₁V₁=c₂V₂ напрямую применимо только к реакции 1:1. Практику выполняют с учителем."
+        }
+      ],
+      "question": {
+        "en": "25.0 cm³ of NaOH is neutralised by 20.0 cm³ of 0.100 mol dm⁻³ HCl. Find c(NaOH). A compound is 40.0% C, 6.7% H, 53.3% O by mass; find its empirical formula using Ar: C=12,H=1,O=16.",
+        "ru": "25,0 см³ NaOH нейтрализованы 20,0 см³ HCl с концентрацией 0,100 моль/дм³. Найдите c(NaOH). Вещество: 40,0% C, 6,7% H, 53,3% O; найдите эмпирическую формулу при Ar: C=12,H=1,O=16."
+      },
+      "answer": {
+        "en": "HCl+NaOH→NaCl+H₂O. n(HCl)=0.100×0.0200=0.00200 mol. Ratio 1:1; c(NaOH)=0.00200/0.0250=0.0800 mol dm⁻³. Empirical formula: 40/12:6.7/1:53.3/16≈3.33:6.7:3.33≈1:2:1, so CH₂O.",
+        "ru": "HCl+NaOH→NaCl+H₂O. n(HCl)=0,100×0,0200=0,00200 моль. Отношение 1:1; c(NaOH)=0,00200/0,0250=0,0800 моль/дм³. 40/12:6,7/1:53,3/16≈1:2:1, поэтому CH₂O."
+      },
+      "checks": [
+        {
+          "en": "I use the balanced ratio and convert volume units.",
+          "ru": "Я использую коэффициенты и перевожу единицы объёма."
+        },
+        {
+          "en": "I distinguish yield from atom economy.",
+          "ru": "Я различаю выход и атомную экономичность."
+        }
+      ]
+    },
+    {
+      "id": "nanoparticles",
+      "subject": "chemistry",
+      "title": {
+        "en": "Nanoparticles and structure–property reasoning",
+        "ru": "Наночастицы и связь строения со свойствами"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "paragraphs": [
+        {
+          "en": "Nanoparticles typically have dimensions of about 1–100 nm. As a particle gets smaller, its surface-area-to-volume ratio increases. For a cube of side a, SA:V=6/a, so halving a doubles the ratio.",
+          "ru": "Размер наночастиц обычно около 1–100 нм. Чем меньше частица, тем выше отношение площади поверхности к объёму. Для куба со стороной a: S/V=6/a; уменьшение a вдвое удваивает отношение."
+        },
+        {
+          "en": "A greater exposed surface can improve catalytic activity per mass. Use the specific material and application to discuss benefits and risks; being small does not mean every nanoparticle is either safe or harmful. Distinguish measured evidence from an unsupported health claim.",
+          "ru": "Большая доступная поверхность может повысить каталитическую активность на единицу массы. Пользу и риски обсуждают для конкретного вещества и применения; малый размер не означает автоматически безопасность или вред. Отличайте измеренные данные от неподтверждённого заявления."
+        },
+        {
+          "en": "An ionic bond is electrostatic attraction between oppositely charged ions. Electron transfer explains how ions can form; it is not itself the bond. Connect structure, mobile charge carriers and energy needed to separate particles to explain material properties.",
+          "ru": "Ионная связь — электростатическое притяжение противоположно заряженных ионов. Перенос электронов объясняет образование ионов, но сам не является связью. Объясняйте свойства через структуру, подвижные носители заряда и энергию разделения частиц."
+        }
+      ],
+      "question": {
+        "en": "Compare SA:V for cubes with side lengths 20 nm and 10 nm. Why may the smaller particles be useful in a catalyst?",
+        "ru": "Сравните S/V кубов со стороной 20 и 10 нм. Почему меньшие частицы могут быть полезны в катализаторе?"
+      },
+      "answer": {
+        "en": "6/20=0.30 nm⁻¹ and 6/10=0.60 nm⁻¹. The smaller cubes expose twice the area per unit volume, potentially providing more accessible catalytic sites per mass of the same material.",
+        "ru": "6/20=0,30 нм⁻¹ и 6/10=0,60 нм⁻¹. У меньших кубов вдвое больше поверхности на единицу объёма; для того же вещества это может дать больше доступных каталитических центров на единицу массы."
+      },
+      "checks": [
+        {
+          "en": "I link size to SA:V and a specific application.",
+          "ru": "Я связываю размер, S/V и конкретное применение."
+        }
+      ]
+    },
+    {
+      "id": "food-enzymes",
+      "subject": "biology",
+      "title": {
+        "en": "Food tests, enzymes and energy in food",
+        "ru": "Пищевые тесты, ферменты и энергия пищи"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "paragraphs": [
+        {
+          "en": "Revision of teacher-supervised tests: iodine turns blue-black with starch; Benedict’s test with warming gives a green-to-brick-red precipitate for reducing sugars; Biuret turns lilac/purple with protein; an ethanol-emulsion test gives a cloudy white emulsion with lipids. Use controls and interpret negative results carefully.",
+          "ru": "Повторение лабораторных тестов с учителем: йод с крахмалом даёт сине-чёрный цвет; Benedict’s при нагревании — осадок от зелёного до кирпично-красного для восстанавливающих сахаров; Biuret — фиолетовый цвет с белком; эмульсионный тест с этанолом — белую мутную эмульсию с липидами. Нужны контрольные образцы."
+        },
+        {
+          "en": "An enzyme’s active site binds a suitable substrate and lowers activation energy. Cold usually slows collisions reversibly; excessive heat or unsuitable pH can alter the active site. Substrate concentration increases rate only until the enzyme becomes saturated.",
+          "ru": "Активный центр фермента связывает подходящий субстрат и снижает энергию активации. Холод обычно обратимо замедляет столкновения; перегрев или неподходящий pH могут изменить активный центр. Увеличение субстрата повышает скорость только до насыщения фермента."
+        },
+        {
+          "en": "In a food-energy experiment, energy transferred to water Q=mcΔT. Divide by food mass burned for energy per gram. Heat lost to the surroundings and incomplete combustion make this an underestimate of the food’s energy content.",
+          "ru": "В опыте с энергией пищи: Q=mcΔT для нагреваемой воды. Разделите на массу сгоревшей пищи, чтобы получить энергию на грамм. Потери тепла и неполное сгорание занижают оценку."
+        }
+      ],
+      "question": {
+        "en": "100 g of water warms by 12°C when 0.50 g of food burns. Use c=4.2 J g⁻¹ °C⁻¹. Calculate measured energy per gram and identify one improvement.",
+        "ru": "100 г воды нагрелись на 12°C при сгорании 0,50 г пищи. c=4,2 Дж/(г·°C). Найдите измеренную энергию на грамм и предложите улучшение."
+      },
+      "answer": {
+        "en": "Q=100×4.2×12=5040 J. Per gram=5040/0.50=10080 J g⁻¹=10.08 kJ g⁻¹. Insulation and a draught shield can reduce heat loss; repeat measurements to assess variation.",
+        "ru": "Q=100×4,2×12=5040 Дж. На грамм: 5040/0,50=10080 Дж/г=10,08 кДж/г. Изоляция и защита от сквозняка уменьшают потери; повторы помогают оценить разброс."
+      },
+      "checks": [
+        {
+          "en": "I distinguish cold inhibition from denaturation.",
+          "ru": "Я различаю замедление на холоде и денатурацию."
+        },
+        {
+          "en": "I state test result, inference and limitation.",
+          "ru": "Я указываю результат теста, вывод и ограничение."
+        }
+      ]
+    },
+    {
+      "id": "osmosis-drugs",
+      "subject": "biology",
+      "title": {
+        "en": "Osmosis data and evaluating treatments",
+        "ru": "Данные осмоса и оценка лечения"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-biology",
+        "school-biology-practice"
+      ],
+      "paragraphs": [
+        {
+          "en": "Osmosis is net movement of water through a partially permeable membrane from higher to lower water potential. Percentage mass change=(final−initial)/initial×100. Use equal starting dimensions and control time and temperature in a tissue experiment.",
+          "ru": "Осмос — суммарное движение воды через частично проницаемую мембрану из области более высокого водного потенциала в область более низкого. Изменение массы %=(конечная−начальная)/начальная×100. В опыте контролируют размеры, время и температуру."
+        },
+        {
+          "en": "Plot percentage mass change against solution concentration. The zero crossing estimates the concentration producing no net mass change under those conditions. It is an estimate, not proof that no water molecules move.",
+          "ru": "Постройте зависимость изменения массы в процентах от концентрации. Пересечение с нулём оценивает концентрацию без суммарного изменения массы в этих условиях. Это не означает отсутствия движения молекул воды."
+        },
+        {
+          "en": "Drug development evaluates safety and effectiveness through preclinical work and successive clinical stages. Random allocation reduces group differences; blinding reduces expectation bias; an appropriate comparator helps interpret the treatment effect. Ethical constraints can prevent placebo use. Antibiotics target bacteria, not viruses.",
+          "ru": "Разработка лекарств включает доклиническую работу и последовательные клинические этапы проверки безопасности и эффективности. Случайное распределение уменьшает различия групп, ослепление — влияние ожиданий, корректное сравнение помогает оценить эффект. Плацебо не всегда этически допустимо. Антибиотики действуют на бактерии, не на вирусы."
+        }
+      ],
+      "question": {
+        "en": "A tissue sample increases from 2.00 g to 2.16 g. Calculate the percentage change. Does this alone prove a new drug is effective?",
+        "ru": "Масса ткани выросла с 2,00 до 2,16 г. Рассчитайте процентное изменение. Доказывает ли одно такое измерение эффективность нового лекарства?"
+      },
+      "answer": {
+        "en": "Change=(0.16/2.00)×100=+8%. It indicates net mass gain under the experiment conditions. It gives no basis for a drug-effect claim without relevant controls, repeats, an appropriate outcome and a justified causal design.",
+        "ru": "Изменение=(0,16/2,00)×100=+8%. Это прирост массы в условиях опыта. Для вывода о лекарстве нужны релевантные контроли, повторы, подходящий показатель и обоснованный дизайн исследования."
+      },
+      "checks": [
+        {
+          "en": "I calculate percentage change relative to initial mass.",
+          "ru": "Я считаю процент от начальной массы."
+        },
+        {
+          "en": "I explain what the evidence can and cannot support.",
+          "ru": "Я объясняю, какие выводы поддерживаются данными."
+        }
+      ]
+    },
+    {
+      "id": "landscapes-fieldwork",
+      "subject": "geography",
+      "title": {
+        "en": "Weathering, river efficiency and ranked data",
+        "ru": "Выветривание, эффективность русла и ранговые данные"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "paragraphs": [
+        {
+          "en": "Weathering breaks down rock in place: physical processes such as freeze–thaw, chemical reactions such as carbonation, and biological action such as root growth. Erosion removes material; transportation moves it; deposition occurs when transport capacity falls.",
+          "ru": "Выветривание разрушает породу на месте: физическое — например замерзание воды в трещинах; химическое — например карбонизация; биологическое — рост корней. Эрозия удаляет материал, транспорт переносит, аккумуляция откладывает при снижении переносной способности."
+        },
+        {
+          "en": "River discharge Q=cross-sectional area×mean velocity. Hydraulic radius=cross-sectional area/wetted perimeter. With other conditions comparable, a higher hydraulic radius implies less boundary friction per unit flow area. Do not equate hydraulic action with hydraulic radius.",
+          "ru": "Расход реки Q=площадь поперечного сечения×средняя скорость. Гидравлический радиус=площадь сечения/смоченный периметр. При прочих равных больший радиус означает меньшее граничное трение на единицу площади потока. Не путайте его с hydraulic action."
+        },
+        {
+          "en": "For untied ranks, Spearman rₛ=1−6Σd²/[n(n²−1)]. Rank both variables consistently and compute rank differences. Ties need average ranks and an appropriate method; the simplified formula needs care. A coefficient alone does not establish statistical significance: use sample size, test direction and a matching critical-values table.",
+          "ru": "Для рангов без совпадений: rₛ=1−6Σd²/[n(n²−1)]. Ранжируйте обе переменные одинаково и найдите разности. При совпадениях нужны средние ранги и подходящий метод. Один коэффициент не доказывает значимость: учитывайте объём выборки, направление теста и подходящую таблицу."
+        }
+      ],
+      "question": {
+        "en": "For 5 sites, ranks are x=[1,2,3,4,5], y=[1,3,2,5,4]. Find rₛ and interpret cautiously.",
+        "ru": "Для 5 участков ранги x=[1,2,3,4,5], y=[1,3,2,5,4]. Найдите rₛ и осторожно интерпретируйте."
+      },
+      "answer": {
+        "en": "d=[0,−1,1,−1,1], Σd²=4. rₛ=1−24/(5×24)=0.8: a positive ranked association in these observations. Do not claim significance or causation without further evidence.",
+        "ru": "d=[0,−1,1,−1,1], Σd²=4. rₛ=1−24/(5×24)=0,8: положительная ранговая связь в этих наблюдениях. Без дополнительной проверки нельзя утверждать значимость или причинность."
+      },
+      "checks": [
+        {
+          "en": "I distinguish weathering, erosion and deposition.",
+          "ru": "Я различаю выветривание, эрозию и аккумуляцию."
+        },
+        {
+          "en": "I separate association, significance and causation.",
+          "ru": "Я различаю связь, статистическую значимость и причинность."
+        }
+      ]
+    },
+    {
+      "id": "science-investigation",
+      "subject": "skills",
+      "title": {
+        "en": "Science: designing, analysing and evaluating",
+        "ru": "Естественные науки: план, анализ и оценка опыта"
+      },
+      "scope": "myp",
+      "sources": [
+        "ib-science",
+        "school-chemistry",
+        "school-biology-practice"
+      ],
+      "paragraphs": [
+        {
+          "en": "Build a focused research question with a measurable independent and dependent variable. Predict a relationship and explain the science. State how each control is maintained, the measurement range and intervals, repeats and relevant safety measures.",
+          "ru": "Сформулируйте узкий вопрос с измеряемыми независимой и зависимой переменными. Предскажите связь и объясните её научно. Укажите способ контроля, диапазон, интервалы, повторы и меры безопасности."
+        },
+        {
+          "en": "Keep raw measurements separate from processed results. Label axes and units, choose sensible scales and show variation. Use data to support the conclusion; report anomalies rather than silently deleting them.",
+          "ru": "Разделяйте исходные измерения и обработанные результаты. Подписывайте оси и единицы, выбирайте масштаб, показывайте разброс. Обосновывайте вывод данными; не удаляйте неудобные измерения молча."
+        },
+        {
+          "en": "Random error causes scatter; systematic error shifts results consistently. Repeats improve precision of an average but do not remove a systematic offset. An improvement should target the identified mechanism and explain its effect.",
+          "ru": "Случайная ошибка вызывает разброс, систематическая — устойчивое смещение. Повторы уточняют среднее, но не устраняют постоянное смещение. Улучшение должно воздействовать на конкретную причину ошибки."
+        },
+        {
+          "en": "For an application argument, explain the scientific mechanism, weigh benefits and limitations for named stakeholders, use evidence, and give a conditional conclusion. This is a practice framework, not an automatic grade or official markscheme.",
+          "ru": "В ответе о применении объясните научный механизм, пользу и ограничения для конкретных участников, приведите данные и обоснованный вывод с условиями. Это схема тренировки, не автоматическая оценка и не официальный markscheme."
+        }
+      ],
+      "question": {
+        "en": "An experiment collects 20, 21 and 19 cm³ of gas in 10 s. Calculate the mean rate. A gas syringe leaks; would repeating more times fix that problem?",
+        "ru": "В опыте за 10 с собрано 20, 21 и 19 см³ газа. Найдите среднюю скорость. Газовый шприц протекает; устранят ли проблему дополнительные повторы?"
+      },
+      "answer": {
+        "en": "Mean volume=20 cm³; mean rate=2.0 cm³ s⁻¹ over the interval. A leak systematically underestimates collected gas; repeated leaking trials do not remove that bias. Check and seal the apparatus, then repeat.",
+        "ru": "Средний объём 20 см³; средняя скорость за интервал 2,0 см³/с. Утечка систематически занижает результат; повторение негерметичного опыта не устраняет смещение. Проверьте герметичность и повторите."
+      },
+      "checks": [
+        {
+          "en": "I justify controls and enough relevant data.",
+          "ru": "Я обосновываю контроль и достаточность данных."
+        },
+        {
+          "en": "Every improvement addresses a specific limitation.",
+          "ru": "Каждое улучшение исправляет конкретное ограничение."
+        }
+      ]
+    },
+    {
+      "id": "english-unseen",
+      "subject": "english",
+      "title": {
+        "en": "Unseen texts, comparison and purposeful writing",
+        "ru": "Незнакомые тексты, сравнение и целевое письмо"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-english",
+        "ib-english"
+      ],
+      "paragraphs": [
+        {
+          "en": "Start with audience, purpose, voice and context. Select a precise detail, name a relevant choice, explain how it shapes meaning and connect it to your interpretation. A technique label without explanation is not analysis.",
+          "ru": "Начните с аудитории, цели, голоса и контекста. Выберите точную деталь, назовите приём, объясните его влияние на смысл и свяжите с интерпретацией. Название приёма без объяснения не является анализом."
+        },
+        {
+          "en": "Compare texts by shared ideas and differences in method. In each paragraph, use evidence from both, then explain why the contrast matters. For film or visual material, consider framing, light, sound, gesture and editing rather than treating everything as written language.",
+          "ru": "Сравнивайте общие идеи и различия в способах их выражения. В абзаце используйте оба текста и объясняйте значимость сравнения. Для видео учитывайте кадр, свет, звук, жесты и монтаж."
+        },
+        {
+          "en": "For literary writing, plan a controlled perspective, a purposeful change and selected sensory details. For non-literary writing, choose conventions and register for the requested audience and form. Revise structure, sentence boundaries and precise vocabulary. Follow the task’s actual word/time instructions.",
+          "ru": "Для художественного текста спланируйте точку зрения, значимое изменение и конкретные детали. Для нехудожественного — форму и регистр под аудиторию и задание. Проверьте структуру, границы предложений и лексику. Следуйте реальным ограничениям задания."
+        }
+      ],
+      "question": {
+        "en": "Original practice text A: “The corridor swallowed her footsteps.” Text B: “Fluorescent lights illuminated the empty corridor.” Compare how the corridor is presented.",
+        "ru": "Авторская практика. A: “The corridor swallowed her footsteps.” B: “Fluorescent lights illuminated the empty corridor.” Сравните изображение коридора."
+      },
+      "answer": {
+        "en": "A personifies the corridor through “swallowed”, giving the setting apparent agency and potentially suggesting threat or isolation. B uses a concrete light source and a more detached description. Both present a sparse setting, but the first foregrounds a person’s experience while the second foregrounds the visible environment. Other interpretations need textual support.",
+        "ru": "В A “swallowed” олицетворяет коридор и может создавать ощущение угрозы или одиночества. B называет конкретный источник света и описывает обстановку отстранённее. Оба текста передают пустоту; A выделяет переживание человека, B — видимую среду. Иные трактовки нужно обосновать текстом."
+      },
+      "checks": [
+        {
+          "en": "I explain the effect rather than only naming devices.",
+          "ru": "Я объясняю эффект, а не только называю приёмы."
+        },
+        {
+          "en": "I do not treat Macbeth as a confirmed October text.",
+          "ru": "Я не считаю Macbeth подтверждённым текстом октября."
+        }
+      ]
+    },
+    {
+      "id": "french-skills",
+      "subject": "french",
+      "title": {
+        "en": "French: listening, reading, speaking and writing",
+        "ru": "Французский: аудирование, чтение, речь и письмо"
+      },
+      "scope": "g9",
+      "sources": [
+        "school-french",
+        "ib-language"
+      ],
+      "paragraphs": [
+        {
+          "en": "The Grade 9 Capable list covers health, solidarity/community service, holidays/tourism and education. It revisits present, past and future forms, comparisons, opinions and si + imparfait → conditionnel. Confirm the current level with the teacher; Grade 10 alone does not identify a language phase.",
+          "ru": "Список Grade 9 Capable включает здоровье, солидарность, каникулы/туризм и образование; настоящее, прошедшие и будущие времена, сравнения, мнения и si + imparfait → conditionnel. Текущий уровень подтвердите у учителя: Grade 10 не определяет языковую фазу."
+        },
+        {
+          "en": "Listening: first capture topic and speakers, then evidence for detail, attitude and purpose. Reading: distinguish explicit meaning, supported inference and text conventions. Use genuine audio for listening; reading a transcript is not an equivalent listening test.",
+          "ru": "Аудирование: сначала тема и говорящие, затем детали, отношение и цель. Чтение: разделяйте явный смысл, обоснованный вывод и условности текста. Для аудирования нужна настоящая запись; чтение расшифровки не заменяет тест."
+        },
+        {
+          "en": "Speaking: describe what is observable, develop an interpretation and sustain a follow-up exchange with reasons and examples. Writing: answer every bullet, match form and register, develop ideas and check tense consistency and agreements. A saved level preference does not change the site’s legacy lesson difficulty.",
+          "ru": "Речь: опишите наблюдаемое, развейте интерпретацию, поддержите диалог причинами и примерами. Письмо: ответьте на все пункты, соблюдайте форму и регистр, проверьте времена и согласование. Сохранённый выбор уровня не меняет сложность старых уроков сайта."
+        }
+      ],
+      "question": {
+        "en": "Original reading: “L’année dernière, je voyageais souvent en voiture. Cet été, j’ai pris le train parce que je voulais réduire mon impact sur l’environnement.” Identify the change and the reason. Add one conditional sentence about a future choice.",
+        "ru": "Авторское чтение: “L’année dernière, je voyageais souvent en voiture. Cet été, j’ai pris le train parce que je voulais réduire mon impact sur l’environnement.” Укажите изменение и причину. Добавьте условную фразу о будущем выборе."
+      },
+      "answer": {
+        "en": "The speaker changed from frequent car travel to taking a train to reduce environmental impact. Possible sentence: “Si j’avais plus de temps, je voyagerais en train plus souvent.” “Si j’aurais” is incorrect here. This is reading and grammar practice; no listening audio is provided.",
+        "ru": "Говорящий сменил частые поездки на машине на поездку поездом ради меньшего воздействия на среду. Возможная фраза: “Si j’avais plus de temps, je voyagerais en train plus souvent.” Здесь нельзя “Si j’aurais”. Это чтение и грамматика; аудиозаписи нет."
+      },
+      "checks": [
+        {
+          "en": "I practise all four skills and check my registered level.",
+          "ru": "Я тренирую все четыре навыка и уточняю свой уровень."
+        }
+      ]
+    },
+    {
+      "id": "interdisciplinary",
+      "subject": "skills",
+      "title": {
+        "en": "Interdisciplinary learning",
+        "ru": "Междисциплинарная подготовка"
+      },
+      "scope": "myp",
+      "sources": [
+        "ib-idl",
+        "nlcs"
+      ],
+      "paragraphs": [
+        {
+          "en": "Interdisciplinary work combines the methods or ideas of at least two disciplines to build an understanding that one alone would not provide. Naming two subjects is insufficient: explain what each contributes and how their interaction changes the conclusion.",
+          "ru": "Междисциплинарная работа соединяет методы или идеи минимум двух дисциплин для понимания, которого одна дисциплина не даёт. Недостаточно назвать предметы: объясните вклад каждого и то, как их связь меняет вывод."
+        },
+        {
+          "en": "Use the current criteria: A Evaluating, B Synthesizing, C Reflecting. Consider strengths and limits of each disciplinary perspective, integrate them into a response, and explain how your understanding changed.",
+          "ru": "Актуальные критерии: A Evaluating, B Synthesizing, C Reflecting. Оцените сильные стороны и ограничения дисциплинарных подходов, объедините их в ответ и объясните изменение своего понимания."
+        },
+        {
+          "en": "The school confirms interdisciplinary study for the end of MYP. An October IDL mock and the session’s disciplines/pre-release material are not confirmed in the sources found. Use this general practice without guessing the official session theme.",
+          "ru": "Школа подтверждает междисциплинарный экзамен в конце MYP. Наличие IDL mock в октябре, дисциплины и предварительные материалы сессии найденными источниками не подтверждены. Тренируйте общий навык без угадывания темы."
+        }
+      ],
+      "question": {
+        "en": "A city considers flood defences. How can geography and mathematics together improve the decision beyond either subject alone?",
+        "ru": "Город выбирает защиту от наводнений. Как сочетание географии и математики улучшает решение по сравнению с одним предметом?"
+      },
+      "answer": {
+        "en": "Geography explains drainage, land use and unequal exposure. Mathematics estimates runoff, cost and uncertainty. Combining them can compare interventions by expected benefit in specific neighbourhoods, while identifying data gaps and ethical limits of reducing losses to money. Reflect on how local vulnerability changes a purely cheapest-option decision.",
+        "ru": "География объясняет сток, землепользование и неравную уязвимость. Математика оценивает объёмы, стоимость и неопределённость. Вместе они позволяют сравнить меры по пользе для конкретных районов и выявить пробелы данных. Объясните, как учёт уязвимости меняет выбор самого дешёвого решения."
+      },
+      "checks": [
+        {
+          "en": "My synthesis produces an insight from the connection.",
+          "ru": "Мой синтез даёт вывод из связи дисциплин."
+        },
+        {
+          "en": "I distinguish general training from session pre-release material.",
+          "ru": "Я различаю общую тренировку и материалы конкретной сессии."
+        }
+      ]
+    },
+    {
+      "id": "states-thermal",
+      "subject": "physics",
+      "title": {
+        "en": "States of matter and thermal transfer",
+        "ru": "Состояния вещества и передача тепла"
+      },
+      "scope": "myp",
+      "sources": [
+        "ib-science"
+      ],
+      "paragraphs": [
+        {
+          "en": "In solids, particles vibrate around fixed positions; in liquids they remain close but rearrange; in gases they are widely separated and move freely. During a change of state of a pure substance at constant pressure, energy changes particle arrangement while temperature can remain constant.",
+          "ru": "В твёрдых телах частицы колеблются около устойчивых положений; в жидкостях близки, но перестраиваются; в газах далеко друг от друга и движутся свободно. При фазовом переходе чистого вещества при постоянном давлении энергия меняет расположение частиц, а температура может оставаться постоянной."
+        },
+        {
+          "en": "Conduction transfers energy through interactions within matter; convection transfers it through bulk motion of a fluid; thermal radiation is electromagnetic and can travel through a vacuum. Temperature is not the same as the total internal energy of a system.",
+          "ru": "Теплопроводность передаёт энергию через взаимодействия в веществе, конвекция — через движение жидкости или газа, излучение — электромагнитными волнами, в том числе через вакуум. Температура не равна полной внутренней энергии системы."
+        },
+        {
+          "en": "Where required by the school course, use Q=mcΔT for temperature change and Q=mL for a state change. This is an MYP framework supplement, not a verified addition to the Grade 9 physics EOY list or October scope.",
+          "ru": "Если это требуется школьным курсом, используйте Q=mcΔT для изменения температуры и Q=mL для фазового перехода. Это дополнение к рамке MYP, не подтверждённая тема списка EOY Grade 9 или октября."
+        }
+      ],
+      "question": {
+        "en": "Why can ice keep melting while a thermometer stays near 0°C at normal pressure?",
+        "ru": "Почему лёд продолжает таять, хотя термометр остаётся около 0°C при нормальном давлении?"
+      },
+      "answer": {
+        "en": "Energy supplied during melting changes the particle arrangement rather than raising the temperature of the ice–water mixture. Once melting is complete, further energy can raise the water temperature.",
+        "ru": "Во время плавления подведённая энергия меняет расположение частиц, а не температуру смеси льда и воды. После завершения плавления энергия может повышать температуру воды."
+      },
+      "checks": [
+        {
+          "en": "I identify the mechanism and assumptions.",
+          "ru": "Я называю механизм и условия применимости."
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "math-1",
+      "subject": "math",
+      "title": {
+        "en": "Number sets, notation and absolute values",
+        "ru": "Множества чисел, обозначения и модуль"
+      },
+      "route": "/math/number-systems",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-2",
+      "subject": "math",
+      "title": {
+        "en": "Rounding, bounds, powers, standard form and surds",
+        "ru": "Округление, границы, степени, стандартный вид и корни"
+      },
+      "route": "/math/number-systems",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-3",
+      "subject": "math",
+      "title": {
+        "en": "Mappings, domain/range and the vertical line test",
+        "ru": "Отображения, область определения/значений и вертикальная прямая"
+      },
+      "route": "/math/functions-algebra",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-4",
+      "subject": "math",
+      "title": {
+        "en": "Quadratic forms, roots, graphs and transformations",
+        "ru": "Формы квадратного трёхчлена, корни, графики и преобразования"
+      },
+      "route": "/math/functions-algebra",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-5",
+      "subject": "math",
+      "title": {
+        "en": "Algebraic fractions, rational equations and formula rearrangement",
+        "ru": "Дробные выражения, рациональные уравнения и выражение переменной"
+      },
+      "route": "/math/functions-algebra",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-6",
+      "subject": "math",
+      "title": {
+        "en": "Direct/inverse proportion and graphs",
+        "ru": "Прямая/обратная пропорциональность и графики"
+      },
+      "route": "/math/functions-algebra",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-7",
+      "subject": "math",
+      "title": {
+        "en": "Arithmetic and geometric sequences; explicit and recursive rules",
+        "ru": "Арифметические и геометрические последовательности; явные и рекуррентные правила"
+      },
+      "route": "/math/sequences",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-8",
+      "subject": "math",
+      "title": {
+        "en": "Pythagoras, right-angle trig, bearings, sine/cosine rules",
+        "ru": "Пифагор, тригонометрия прямоугольного треугольника, азимуты, теоремы синусов/косинусов"
+      },
+      "route": "/math/geometry-trig",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-9",
+      "subject": "math",
+      "title": {
+        "en": "Circle theorems, chords, sectors, arcs and segments",
+        "ru": "Свойства окружности, хорды, секторы, дуги и сегменты"
+      },
+      "route": "/math/geometry-trig",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-10",
+      "subject": "math",
+      "title": {
+        "en": "Grouped data, histograms, stem-and-leaf and box plots",
+        "ru": "Группированные данные, гистограммы, стебель-листья и ящики с усами"
+      },
+      "route": "/math/stats-prob",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-11",
+      "subject": "math",
+      "title": {
+        "en": "Cumulative frequency, percentiles and standard deviation",
+        "ru": "Накопленная частота, процентили и стандартное отклонение"
+      },
+      "route": "/math/stats-prob",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-12",
+      "subject": "math",
+      "title": {
+        "en": "Investigating patterns, mathematical communication and modelling",
+        "ru": "Исследование закономерностей, запись решения и моделирование"
+      },
+      "route": "/math/criteria-trainer",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-13",
+      "subject": "physics",
+      "title": {
+        "en": "Scalars/vectors, displacement, velocity, acceleration and graphs",
+        "ru": "Скаляры/векторы, перемещение, скорость, ускорение и графики"
+      },
+      "route": "/physics/force-motion",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-14",
+      "subject": "physics",
+      "title": {
+        "en": "Newton’s laws, resultant force and terminal velocity",
+        "ru": "Законы Ньютона, равнодействующая и предельная скорость"
+      },
+      "route": "/physics/force-motion",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-15",
+      "subject": "physics",
+      "title": {
+        "en": "Momentum, impulse and stopping distance",
+        "ru": "Импульс, изменение импульса и остановочный путь"
+      },
+      "route": "/physics/force-motion",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-16",
+      "subject": "physics",
+      "title": {
+        "en": "Hooke’s law, contact forces, work, energy and power",
+        "ru": "Закон Гука, контактные силы, работа, энергия и мощность"
+      },
+      "route": "/physics/forces-energy",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-17",
+      "subject": "physics",
+      "title": {
+        "en": "Density, fluid pressure and atmospheric pressure",
+        "ru": "Плотность, давление жидкости и атмосферное давление"
+      },
+      "route": "/physics/forces-energy",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-18",
+      "subject": "physics",
+      "title": {
+        "en": "Circuit symbols, charge, current, voltage and resistance",
+        "ru": "Условные обозначения, заряд, ток, напряжение и сопротивление"
+      },
+      "route": "/physics/electricity",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-19",
+      "subject": "physics",
+      "title": {
+        "en": "Series/parallel circuits, I–V graphs, LDRs and thermistors",
+        "ru": "Последовательные/параллельные цепи, I–V, фоторезисторы и термисторы"
+      },
+      "route": "/physics/electricity",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-20",
+      "subject": "physics",
+      "title": {
+        "en": "Static electricity, mains safety, kWh and efficiency",
+        "ru": "Статическое электричество, электробезопасность, кВт·ч и КПД"
+      },
+      "route": "/physics/electricity",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-21",
+      "subject": "physics",
+      "title": {
+        "en": "Wave properties, sound, electromagnetic spectrum and uses",
+        "ru": "Характеристики волн, звук, электромагнитный спектр и применение"
+      },
+      "route": "/physics/waves-optics",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "physics-22",
+      "subject": "physics",
+      "title": {
+        "en": "Reflection, refraction, diffraction, lenses and filters",
+        "ru": "Отражение, преломление, дифракция, линзы и фильтры"
+      },
+      "route": "/physics/waves-optics",
+      "scope": "g9",
+      "sources": [
+        "school-physics"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "chemistry-23",
+      "subject": "chemistry",
+      "title": {
+        "en": "Elements, compounds, mixtures, atomic structure and periodic trends",
+        "ru": "Элементы, соединения, смеси, атом и периодические закономерности"
+      },
+      "route": "/chemistry/atoms-periodic",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "chemistry-24",
+      "subject": "chemistry",
+      "title": {
+        "en": "Periodic table development; groups 1, 7 and 0",
+        "ru": "Развитие периодической таблицы; группы 1, 7 и 0"
+      },
+      "route": "/chemistry/atoms-periodic",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "chemistry-25",
+      "subject": "chemistry",
+      "title": {
+        "en": "Ionic, covalent and metallic bonding; structure and properties",
+        "ru": "Ионная, ковалентная и металлическая связь; строение и свойства"
+      },
+      "route": "/chemistry/bonding",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "chemistry-26",
+      "subject": "chemistry",
+      "title": {
+        "en": "Balanced equations, metal oxides, reactivity and displacement",
+        "ru": "Уравнения, оксиды металлов, активность и замещение"
+      },
+      "route": "/chemistry/reactions",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "chemistry-27",
+      "subject": "chemistry",
+      "title": {
+        "en": "Moles and reacting masses",
+        "ru": "Моль и массы реагентов"
+      },
+      "route": "/chemistry/stoichiometry",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "chemistry-28",
+      "subject": "chemistry",
+      "title": {
+        "en": "Atmosphere history, carbon stores, greenhouse effect and pollutants",
+        "ru": "История атмосферы, углерод, парниковый эффект и загрязнители"
+      },
+      "route": "/chemistry/atmosphere",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "chemistry-29",
+      "subject": "chemistry",
+      "title": {
+        "en": "Collision theory, rate factors, rate graphs and experiments",
+        "ru": "Теория столкновений, факторы скорости, графики и опыты"
+      },
+      "route": "/chemistry/rates",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "chemistry-30",
+      "subject": "chemistry",
+      "title": {
+        "en": "Exothermic/endothermic changes and energy profiles",
+        "ru": "Экзо-/эндотермические изменения и энергетические профили"
+      },
+      "route": "/chemistry/energy",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-31",
+      "subject": "biology",
+      "title": {
+        "en": "Microscopy, cell types, specialised cells and magnification",
+        "ru": "Микроскопия, типы и специализация клеток, увеличение"
+      },
+      "route": "/biology/cells",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-32",
+      "subject": "biology",
+      "title": {
+        "en": "Diffusion, surface-area-to-volume ratio, osmosis and active transport",
+        "ru": "Диффузия, S/V, осмос и активный транспорт"
+      },
+      "route": "/biology/cells",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-33",
+      "subject": "biology",
+      "title": {
+        "en": "Balanced diet, deficiencies, digestion, ileum and enzymes",
+        "ru": "Питание, дефициты, пищеварение, подвздошная кишка и ферменты"
+      },
+      "route": "/biology/body-systems",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-34",
+      "subject": "biology",
+      "title": {
+        "en": "Gas exchange, smoking, circulation, heart, blood and vessels",
+        "ru": "Газообмен, курение, кровообращение, сердце, кровь и сосуды"
+      },
+      "route": "/biology/body-systems",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-35",
+      "subject": "biology",
+      "title": {
+        "en": "Aerobic/anaerobic respiration, exercise and recovery",
+        "ru": "Аэробное/анаэробное дыхание, нагрузка и восстановление"
+      },
+      "route": "/biology/body-systems",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-36",
+      "subject": "biology",
+      "title": {
+        "en": "Biotechnology, DNA, enzymes and microorganisms",
+        "ru": "Биотехнология, ДНК, ферменты и микроорганизмы"
+      },
+      "route": "/biology/photosynthesis",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-37",
+      "subject": "biology",
+      "title": {
+        "en": "Pathogens, barriers, immune response, vaccination and antibiotics",
+        "ru": "Патогены, барьеры, иммунитет, вакцинация и антибиотики"
+      },
+      "route": "/biology/immune",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-38",
+      "subject": "biology",
+      "title": {
+        "en": "Grade 8 recap: DNA, mitosis/meiosis, inheritance and genetic disease",
+        "ru": "Повторение Grade 8: ДНК, митоз/мейоз, наследование и генетические болезни"
+      },
+      "route": "/biology/genetics",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-39",
+      "subject": "biology",
+      "title": {
+        "en": "Evolution and variation: excluded from the historical EOY list; review status for October",
+        "ru": "Эволюция и изменчивость: исключены из старого EOY; статус октября уточняется"
+      },
+      "route": "/biology/genetics",
+      "scope": "check",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "biology-40",
+      "subject": "biology",
+      "title": {
+        "en": "Photosynthesis and ecology: site coverage; exact current school scope still needed",
+        "ru": "Фотосинтез и экология: материалы сайта; нужна текущая школьная спецификация"
+      },
+      "route": "/biology/photosynthesis",
+      "scope": "myp",
+      "sources": [
+        "ib-science"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-41",
+      "subject": "geography",
+      "title": {
+        "en": "Resources, demand, carrying capacity, Malthus and Boserup",
+        "ru": "Ресурсы, спрос, ёмкость среды, Мальтус и Бозеруп"
+      },
+      "route": "/geography/resource-reliance",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-42",
+      "subject": "geography",
+      "title": {
+        "en": "Development indicators, energy/food/water security and management",
+        "ru": "Показатели развития, энергетическая/продовольственная/водная безопасность"
+      },
+      "route": "/geography/resource-reliance",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-43",
+      "subject": "geography",
+      "title": {
+        "en": "Circulation, pressure, hurricanes, drought, El Niño and La Niña",
+        "ru": "Циркуляция, давление, ураганы, засуха, Эль-Ниньо и Ла-Нинья"
+      },
+      "route": "/geography/atmospheric-hazards",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-44",
+      "subject": "geography",
+      "title": {
+        "en": "Climate evidence and natural/human drivers",
+        "ru": "Климатические свидетельства и природные/антропогенные причины"
+      },
+      "route": "/geography/atmospheric-hazards",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-45",
+      "subject": "geography",
+      "title": {
+        "en": "Erosion, transportation, deposition, profiles and Bradshaw model",
+        "ru": "Эрозия, транспорт, аккумуляция, профили и модель Брэдшоу"
+      },
+      "route": "/geography/rivers",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-46",
+      "subject": "geography",
+      "title": {
+        "en": "River landforms, hydrographs and flood management",
+        "ru": "Речные формы, гидрографы и защита от наводнений"
+      },
+      "route": "/geography/rivers",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-47",
+      "subject": "geography",
+      "title": {
+        "en": "Tourism types, change, ethics, SEEP impacts and sustainable management",
+        "ru": "Виды туризма, изменения, этика, последствия SEEP и устойчивое управление"
+      },
+      "route": "/geography/tourism",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-48",
+      "subject": "geography",
+      "title": {
+        "en": "Named cases: Jamaica, Antarctica, Galápagos, medical and volunteer tourism",
+        "ru": "Кейсы: Ямайка, Антарктида, Галапагосы, медицинский и волонтёрский туризм"
+      },
+      "route": "/geography/tourism",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "geography-49",
+      "subject": "geography",
+      "title": {
+        "en": "Research questions, hypotheses, sampling, presentation and evaluation",
+        "ru": "Исследовательские вопросы, гипотезы, выборки, представление и оценка данных"
+      },
+      "route": "/geography/fieldwork",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "english-50",
+      "subject": "english",
+      "title": {
+        "en": "Unseen reading, evidence and inference",
+        "ru": "Незнакомые тексты, доказательства и выводы"
+      },
+      "route": "/english/reading",
+      "scope": "g9",
+      "sources": [
+        "school-english"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "english-51",
+      "subject": "english",
+      "title": {
+        "en": "Language/visual choices and effects on an audience",
+        "ru": "Языковые/визуальные приёмы и воздействие на аудиторию"
+      },
+      "route": "/english/devices",
+      "scope": "g9",
+      "sources": [
+        "school-english"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "english-52",
+      "subject": "english",
+      "title": {
+        "en": "Historical Grade 9 written/visual comparison practice",
+        "ru": "Историческая практика Grade 9: сравнение текста и видео"
+      },
+      "route": "/english/exam-format",
+      "scope": "g9",
+      "sources": [
+        "school-english"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "english-53",
+      "subject": "english",
+      "title": {
+        "en": "Literary and non-literary writing for purpose and audience",
+        "ru": "Художественное и нехудожественное письмо под цель и аудиторию"
+      },
+      "route": "/english/text-types",
+      "scope": "g9",
+      "sources": [
+        "school-english"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "english-54",
+      "subject": "english",
+      "title": {
+        "en": "Accuracy, paragraphing, punctuation and vocabulary",
+        "ru": "Грамотность, абзацы, пунктуация и словарь"
+      },
+      "route": "/english/grammar",
+      "scope": "g9",
+      "sources": [
+        "school-english"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "english-55",
+      "subject": "english",
+      "title": {
+        "en": "Macbeth: previous school study, not a promised October text",
+        "ru": "Macbeth: прошлый школьный материал, не обещанный текст октября"
+      },
+      "route": "/english/macbeth",
+      "scope": "g9",
+      "sources": [
+        "school-english"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "french-56",
+      "subject": "french",
+      "title": {
+        "en": "Capable: health, solidarity, travel and education",
+        "ru": "Capable: здоровье, солидарность, путешествия и образование"
+      },
+      "route": "/french/units",
+      "scope": "g9",
+      "sources": [
+        "school-french"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "french-57",
+      "subject": "french",
+      "title": {
+        "en": "Present/past/future, conditional and si clauses",
+        "ru": "Настоящее/прошедшие/будущие времена, условное наклонение и si"
+      },
+      "route": "/french/tenses",
+      "scope": "g9",
+      "sources": [
+        "school-french"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "french-58",
+      "subject": "french",
+      "title": {
+        "en": "Comparisons, connectors, agreements, opinions and reasons",
+        "ru": "Сравнения, связки, согласование, мнения и аргументы"
+      },
+      "route": "/french/grammar",
+      "scope": "g9",
+      "sources": [
+        "school-french"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "french-59",
+      "subject": "french",
+      "title": {
+        "en": "Speech, article, formal letter, blog and email conventions",
+        "ru": "Условности речи, статьи, официального письма, блога и email"
+      },
+      "route": "/french/text-types",
+      "scope": "g9",
+      "sources": [
+        "school-french"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "arabic-60",
+      "subject": "arabic",
+      "title": {
+        "en": "Existing school booklet, vocabulary and quiz; current mock status unconfirmed",
+        "ru": "Старый школьный буклет, словарь и тест; статус текущего mock не подтверждён"
+      },
+      "route": "/arabic",
+      "scope": "check",
+      "sources": [
+        "ib-assessment"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "skills-61",
+      "subject": "skills",
+      "title": {
+        "en": "Arts / Design portfolio, Personal Project and service: separate completion track",
+        "ru": "Портфолио Arts / Design, Personal Project и service: отдельный учёт завершения"
+      },
+      "route": "/mocks",
+      "scope": "check",
+      "sources": [
+        "nlcs"
+      ],
+      "detail": "existing"
+    },
+    {
+      "id": "math-62",
+      "subject": "math",
+      "title": {
+        "en": "Coordinate geometry",
+        "ru": "Координатная геометрия"
+      },
+      "route": "/mocks/coordinate-geometry",
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "math-63",
+      "subject": "math",
+      "title": {
+        "en": "Linear equations, inequalities and systems",
+        "ru": "Линейные уравнения, неравенства и системы"
+      },
+      "route": "/mocks/linear-equations",
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "math-64",
+      "subject": "math",
+      "title": {
+        "en": "Probability: trees, Venn diagrams and tables",
+        "ru": "Вероятность: деревья, диаграммы Венна и таблицы"
+      },
+      "route": "/mocks/probability",
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "math-65",
+      "subject": "math",
+      "title": {
+        "en": "Surface area, volume and composite solids",
+        "ru": "Площадь поверхности, объём и составные тела"
+      },
+      "route": "/mocks/solids",
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "math-66",
+      "subject": "math",
+      "title": {
+        "en": "Transformations, similarity and congruence",
+        "ru": "Преобразования, подобие и равенство фигур"
+      },
+      "route": "/mocks/transformations",
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "math-67",
+      "subject": "math",
+      "title": {
+        "en": "Sampling, scatter graphs and correlation",
+        "ru": "Выборки, диаграммы рассеяния и корреляция"
+      },
+      "route": "/mocks/sampling-correlation",
+      "scope": "g9-10",
+      "sources": [
+        "school-math-910"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "math-68",
+      "subject": "math",
+      "title": {
+        "en": "Quadratic patterns and justification",
+        "ru": "Квадратичные последовательности и обоснование"
+      },
+      "route": "/mocks/quadratic-patterns",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "math-69",
+      "subject": "math",
+      "title": {
+        "en": "Trigonometric graphs",
+        "ru": "Тригонометрические графики"
+      },
+      "route": "/mocks/trig-graphs",
+      "scope": "g9",
+      "sources": [
+        "school-math"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "chemistry-70",
+      "subject": "chemistry",
+      "title": {
+        "en": "Moles, empirical formula, yield and titration",
+        "ru": "Моли, эмпирическая формула, выход и титрование"
+      },
+      "route": "/mocks/chemical-quantities",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "chemistry-71",
+      "subject": "chemistry",
+      "title": {
+        "en": "Nanoparticles and structure–property reasoning",
+        "ru": "Наночастицы и связь строения со свойствами"
+      },
+      "route": "/mocks/nanoparticles",
+      "scope": "g9",
+      "sources": [
+        "school-chemistry"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "biology-72",
+      "subject": "biology",
+      "title": {
+        "en": "Food tests, enzymes and energy in food",
+        "ru": "Пищевые тесты, ферменты и энергия пищи"
+      },
+      "route": "/mocks/food-enzymes",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "biology-73",
+      "subject": "biology",
+      "title": {
+        "en": "Osmosis data and evaluating treatments",
+        "ru": "Данные осмоса и оценка лечения"
+      },
+      "route": "/mocks/osmosis-drugs",
+      "scope": "g9",
+      "sources": [
+        "school-biology"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "geography-74",
+      "subject": "geography",
+      "title": {
+        "en": "Weathering, river efficiency and ranked data",
+        "ru": "Выветривание, эффективность русла и ранговые данные"
+      },
+      "route": "/mocks/landscapes-fieldwork",
+      "scope": "g9",
+      "sources": [
+        "school-geography"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "skills-75",
+      "subject": "skills",
+      "title": {
+        "en": "Science: designing, analysing and evaluating",
+        "ru": "Естественные науки: план, анализ и оценка опыта"
+      },
+      "route": "/mocks/science-investigation",
+      "scope": "myp",
+      "sources": [
+        "ib-science"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "english-76",
+      "subject": "english",
+      "title": {
+        "en": "Unseen texts, comparison and purposeful writing",
+        "ru": "Незнакомые тексты, сравнение и целевое письмо"
+      },
+      "route": "/mocks/english-unseen",
+      "scope": "g9",
+      "sources": [
+        "school-english"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "french-77",
+      "subject": "french",
+      "title": {
+        "en": "French: listening, reading, speaking and writing",
+        "ru": "Французский: аудирование, чтение, речь и письмо"
+      },
+      "route": "/mocks/french-skills",
+      "scope": "g9",
+      "sources": [
+        "school-french"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "skills-78",
+      "subject": "skills",
+      "title": {
+        "en": "Interdisciplinary learning",
+        "ru": "Междисциплинарная подготовка"
+      },
+      "route": "/mocks/interdisciplinary",
+      "scope": "myp",
+      "sources": [
+        "ib-idl"
+      ],
+      "detail": "added"
+    },
+    {
+      "id": "physics-79",
+      "subject": "physics",
+      "title": {
+        "en": "States of matter and thermal transfer",
+        "ru": "Состояния вещества и передача тепла"
+      },
+      "route": "/mocks/states-thermal",
+      "scope": "myp",
+      "sources": [
+        "ib-science"
+      ],
+      "detail": "added"
+    }
+  ]
+}

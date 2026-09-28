@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Home as HomeIcon, type LucideIcon } from 'lucide-react';
 import { SubjectId, ACCENT_VAR, getSubject } from '../../config/subjects';
@@ -15,12 +15,23 @@ interface Props {
 }
 
 export function SubjectSidebar({ subject, topics }: Props) {
-  const { t } = useTranslation(subject);
+  const { t, i18n } = useTranslation(subject);
+  const navigate = useNavigate();
+  const location = useLocation();
   const subjectMeta = getSubject(subject);
   const accentColor = ACCENT_VAR[subjectMeta.accent];
 
   return (
-    <aside className="hidden lg:block w-60 shrink-0">
+    <>
+      <nav className="lg:hidden w-full mb-2" aria-label={t('subjectName', subjectMeta.id)}>
+        <label className="text-sm block mb-2" htmlFor={`topic-${subject}`}>{t('subjectName', subjectMeta.id)}</label>
+        <select id={`topic-${subject}`} value={topics.some(t => t.to === location.pathname) ? location.pathname : `/${subject}`}
+          onChange={e => navigate(e.target.value)} className="w-full border border-border rounded-md bg-bg-secondary p-3 text-sm">
+          {topics.map(topic => <option key={topic.to} value={topic.to}>{t(`nav.${topic.key}`)}</option>)}
+        </select>
+        <NavLink to={`/mocks?subject=${subject}`} className="block mt-2 text-sm underline">{i18n.language.startsWith('ru') ? 'Новые блоки и карта MYP' : 'New lessons and MYP map'} →</NavLink>
+      </nav>
+      <aside className="hidden lg:block w-60 shrink-0">
       <nav className="sticky top-24 flex flex-col gap-1">
         <NavLink
           to="/"
@@ -35,6 +46,7 @@ export function SubjectSidebar({ subject, topics }: Props) {
         >
           {t('subjectName', subjectMeta.id)}
         </div>
+        <NavLink to={`/mocks?subject=${subject}`} className="px-3 py-2 text-sm underline">{i18n.language.startsWith('ru') ? 'Новые блоки и карта MYP' : 'New lessons and MYP map'} →</NavLink>
         {topics.map(({ to, key, icon: Icon }) => (
           <NavLink
             key={to}
@@ -54,5 +66,6 @@ export function SubjectSidebar({ subject, topics }: Props) {
         ))}
       </nav>
     </aside>
+    </>
   );
 }

@@ -20,6 +20,7 @@ export function HubPage() {
         </p>
         <div className="flex flex-col items-center gap-4">
           <ExamCountdown variant="hero" />
+          <Link to="/mocks" className="rounded-md bg-text-primary text-bg-primary px-6 py-3 font-medium">{t('common:nav.mocks')} →</Link>
           <Link
             to={ROUTES.TIMETABLE}
             className="inline-flex items-center gap-2 px-5 py-2 mt-2 bg-bg-secondary border border-border rounded-md hover:shadow-soft transition-shadow text-sm font-medium"

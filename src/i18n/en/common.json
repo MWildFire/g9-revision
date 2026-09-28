@@ -1,10 +1,11 @@
 {
-  "brand": "G9 Revision",
-  "tagline": "Preparation for EOY 2026",
+  "brand": "MYP Revision",
+  "tagline": "October 2026 mock preparation",
   "nav": {
     "hub": "Hub",
     "timetable": "Timetable",
-    "about": "About"
+    "about": "About",
+    "mocks": "Revision map"
   },
   "actions": {
     "next": "Next",
@@ -28,14 +29,16 @@
     "partial": "Partial content"
   },
   "countdown": {
-    "untilExam": "Until EOY exams",
+    "untilExam": "Until your selected date",
     "days_one": "{{count}} day",
     "days_other": "{{count}} days",
     "days": "{{count}} days",
     "weeks_one": "{{count}} week",
     "weeks_other": "{{count}} weeks",
     "weeks": "{{count}} weeks",
-    "daysShort": "days left"
+    "daysShort": "days left",
+    "window": "Mocks • October 2026",
+    "unconfirmed": "The exact school date is not confirmed. Add it in the planner when known."
   },
   "practice": {
     "intro": "Practice questions formatted in IB MYP exam style. Tap to reveal a model answer.",
@@ -81,9 +84,10 @@
     "clickHint": "Click a topic, then click any day to add it.",
     "selected": "Selected",
     "week": "Week",
-    "examDateLabel": "EOY date:",
+    "examDateLabel": "Exam date:",
     "addAria": "Add",
     "removeAria": "Remove",
     "toggleAria": "Toggle completed"
-  }
+  },
+  "loading": "Loading…"
 }

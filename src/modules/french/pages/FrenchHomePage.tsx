@@ -17,7 +17,7 @@ const LEVELS = ['emergent', 'capable', 'proficient'] as const;
 type Level = (typeof LEVELS)[number];
 
 export function FrenchHomePage() {
-  const { t } = useTranslation('french');
+  const { t, i18n } = useTranslation('french');
   const [state, update] = useLocalProgress();
   const currentLevel = state.french.level;
 
@@ -47,6 +47,7 @@ export function FrenchHomePage() {
         })}
       </div>
 
+      <p className="text-sm text-text-muted mt-3">{i18n.language.startsWith('ru') ? 'Выбор сохраняет предпочтение; содержание этих уроков общее и не адаптируется автоматически к уровню. Текущий экзаменационный уровень подтвердите у учителя.' : 'This saves a preference; these shared lessons do not automatically adapt to the level. Confirm your examination level with the teacher.'}</p>
       <SectionHeading>{t('home.topicsHeading')}</SectionHeading>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {TOPICS.map(({ to, key, icon: Icon, accent }) => (

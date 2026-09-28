@@ -1,9 +1,7 @@
+import { useTranslation } from 'react-i18next';
 export function Footer() {
-  return (
-    <footer className="mt-16 border-t border-border bg-bg-secondary/30">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-6 text-sm text-text-muted text-center">
-        <p>G9 Revision — built for Luka, for EOY 2026 · No tracking</p>
-      </div>
-    </footer>
-  );
+  const { i18n } = useTranslation();
+  return <footer className="mt-16 border-t border-border p-6 text-sm text-text-muted text-center">
+    MYP Revision · {i18n.language.startsWith('ru') ? 'Повторение Grade 9 • октябрь 2026 · Без аналитики' : 'Grade 9 revision • October 2026 · No analytics'}
+  </footer>;
 }

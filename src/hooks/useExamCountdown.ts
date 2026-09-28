@@ -9,8 +9,8 @@ function msUntilNextMidnight(): number {
   return next.getTime() - now.getTime();
 }
 
-export function useExamCountdown(): { days: number; weeks: number; examDate: Date } {
-  const [examDate, setExamDateState] = useState<Date>(() => getExamDate());
+export function useExamCountdown(): { days: number | null; weeks: number | null; examDate: Date | null } {
+  const [examDate, setExamDateState] = useState<Date | null>(() => getExamDate());
   const [now, setNow] = useState<Date>(() => new Date());
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export function useExamCountdown(): { days: number; weeks: number; examDate: Dat
 
     const refreshExamDate = () => setExamDateState(getExamDate());
     const onStorage = (e: StorageEvent) => {
-      if (e.key === EXAM_DATE_STORAGE_KEY) refreshExamDate();
+      if (e.key === EXAM_DATE_STORAGE_KEY || e.key === null) refreshExamDate();
     };
 
     window.addEventListener(EXAM_DATE_EVENT, refreshExamDate);
@@ -38,7 +38,7 @@ export function useExamCountdown(): { days: number; weeks: number; examDate: Dat
     };
   }, []);
 
-  const days = Math.max(0, differenceInCalendarDays(examDate, now));
-  const weeks = Math.max(0, differenceInWeeks(examDate, now));
+  const days = examDate ? Math.max(0, differenceInCalendarDays(examDate, now)) : null;
+  const weeks = examDate ? Math.max(0, differenceInWeeks(examDate, now)) : null;
   return { days, weeks, examDate };
 }

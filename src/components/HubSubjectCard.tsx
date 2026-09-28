@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import * as Icons from 'lucide-react';
+import { Calculator, Atom, FlaskConical, Leaf, BookOpen, Languages, Type, Globe, type LucideIcon } from 'lucide-react';
+const icons: Record<string, LucideIcon> = { Calculator, Atom, FlaskConical, Leaf, BookOpen, Languages, Type, Globe };
 import { Subject, ACCENT_VAR } from '../config/subjects';
 import { SubjectProgress } from './progress/SubjectProgress';
 
@@ -10,8 +11,7 @@ interface Props {
 
 export function HubSubjectCard({ subject }: Props) {
   const { t } = useTranslation('hub');
-  // @ts-expect-error — dynamic icon lookup
-  const Icon = (Icons[subject.iconName] ?? Icons.BookOpen) as Icons.LucideIcon;
+  const Icon = icons[subject.iconName] ?? BookOpen;
   const accentColor = ACCENT_VAR[subject.accent];
 
   const detailBadge = (
@@ -35,7 +35,7 @@ export function HubSubjectCard({ subject }: Props) {
       <div className="flex items-start justify-between mb-4">
         <div
           className="w-12 h-12 rounded-lg flex items-center justify-center shrink-0"
-          style={{ background: accentColor + '22', color: accentColor }}
+          style={{ background: `color-mix(in srgb, ${accentColor} 14%, transparent)`, color: accentColor }}
         >
           <Icon size={24} strokeWidth={1.75} />
         </div>

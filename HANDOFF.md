@@ -1,3 +1,5 @@
+> Historical handoff for June 2026. Updated location: `/Users/mvstrike/Projects/g9-revision`. For the September 2026 review, current mock preparation and unresolved school scope, read [the current review](docs/review/2026-09-28.md) and README. The former description of Dmitry as Luka's parent was incorrect: he is Luka's tutor.
+
 # G9 Revision Hub — Project Handoff
 
 A multi-subject revision site for Luka's **Grade 9 IB MYP End-of-Year (EOY) exams in June 2026** at NLCS Dubai. Bilingual (English + Russian), hosted on GitHub Pages. Replaces a worse "physics-revision" v1 prototype that lives in the parent directory.

@@ -1,21 +1,30 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { loadSubjectTranslations } from './i18n';
+import { lazy, Suspense, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { Routes, Route, useLocation, Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { HubPage } from './pages/HubPage';
-import { TimetablePage } from './pages/TimetablePage';
+const TimetablePage = lazy(async () => { const [, m] = await Promise.all([Promise.all(['math','physics','chemistry','biology','geography','english','french','arabic'].map(loadSubjectTranslations)), import('./pages/TimetablePage')]); return { default: m.TimetablePage }; });
 import { AboutPage } from './pages/AboutPage';
-import { PhysicsModule } from './modules/physics';
-import { MathModule } from './modules/math';
-import { GeographyModule } from './modules/geography';
-import { BiologyModule } from './modules/biology';
-import { ChemistryModule } from './modules/chemistry';
-import { EnglishModule } from './modules/english';
-import { FrenchModule } from './modules/french';
-import { ArabicModule } from './modules/arabic';
+const MocksPage = lazy(() => import('./pages/MocksPage').then(m => ({ default: m.MocksPage })));
+const MockLessonPage = lazy(() => import('./pages/MockLessonPage').then(m => ({ default: m.MockLessonPage })));
+
+const PhysicsModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('physics'), import('./modules/physics')]); return { default: m.PhysicsModule }; });
+const MathModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('math'), import('./modules/math')]); return { default: m.MathModule }; });
+const GeographyModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('geography'), import('./modules/geography')]); return { default: m.GeographyModule }; });
+const BiologyModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('biology'), import('./modules/biology')]); return { default: m.BiologyModule }; });
+const ChemistryModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('chemistry'), import('./modules/chemistry')]); return { default: m.ChemistryModule }; });
+const EnglishModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('english'), import('./modules/english')]); return { default: m.EnglishModule }; });
+const FrenchModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('french'), import('./modules/french')]); return { default: m.FrenchModule }; });
+const ArabicModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('arabic'), import('./modules/arabic')]); return { default: m.ArabicModule }; });
 
 export default function App() {
   const location = useLocation();
+  const { t, i18n } = useTranslation('common');
+  const subject = location.pathname.split('/')[1];
+  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' }); }, [location.pathname]);
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -28,9 +37,16 @@ export default function App() {
           transition={{ duration: 0.18, ease: 'easeOut' }}
           className="flex-1"
         >
+          {['math','physics','chemistry','biology','geography','english','french','arabic'].includes(subject) && <div className="max-w-7xl w-full mx-auto px-4 md:px-6 pt-5 text-sm text-text-secondary">
+            {i18n.language.startsWith('ru') ? 'Материалы Grade 9. Состав октябрьских mocks уточняется. ' : 'Grade 9 materials. October mock scope is awaiting confirmation. '}
+            <Link to={`/mocks?subject=${subject}`} className="underline">{t('nav.mocks')} →</Link>
+          </div>}
+          <Suspense fallback={<p className="p-8" role="status">{t('loading')}</p>}>
           <Routes location={location}>
             <Route path="/" element={<HubPage />} />
             <Route path="/timetable" element={<TimetablePage />} />
+            <Route path="/mocks" element={<MocksPage />} />
+            <Route path="/mocks/:lessonId" element={<MockLessonPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/physics/*" element={<PhysicsModule />} />
             <Route path="/math/*" element={<MathModule />} />
@@ -41,6 +57,7 @@ export default function App() {
             <Route path="/french/*" element={<FrenchModule />} />
             <Route path="/arabic/*" element={<ArabicModule />} />
           </Routes>
+          </Suspense>
         </motion.div>
       </AnimatePresence>
       <Footer />

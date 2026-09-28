@@ -10,6 +10,12 @@ export function ExamCountdown({ variant = 'compact' }: Props) {
   const { days, weeks } = useExamCountdown();
   const { t } = useTranslation('common');
 
+  if (days === null) return (
+    <div className="rounded-lg border border-border bg-bg-secondary px-5 py-3 text-center">
+      <p className="font-medium">{t('countdown.window')}</p>
+      {variant === 'hero' && <p className="text-sm text-text-muted mt-1">{t('countdown.unconfirmed')}</p>}
+    </div>
+  );
   if (variant === 'hero') {
     return (
       <div className="inline-flex flex-col items-center bg-bg-secondary border border-border rounded-lg shadow-card px-8 py-6">
@@ -21,7 +27,7 @@ export function ExamCountdown({ variant = 'compact' }: Props) {
           {days}
         </div>
         <div className="text-sm text-text-muted">
-          {t('countdown.days', { count: days })} · {t('countdown.weeks', { count: weeks })}
+          {t('countdown.days', { count: days })} · {t('countdown.weeks', { count: weeks ?? 0 })}
         </div>
       </div>
     );

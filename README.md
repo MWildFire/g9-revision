@@ -2,10 +2,11 @@
 
 Bilingual EN/RU revision for Grade 10 mocks in October 2026, built on Luka's Grade 9 materials. Independent study resource; not an official IB publication.
 
-- Existing public site: https://mwildfire.github.io/g9-revision/
+- Public site: https://mwildfire.github.io/g9-revision/
+- October preparation map: https://mwildfire.github.io/g9-revision/#/mocks
 - Repository: https://github.com/MWildFire/g9-revision
 - Local checkout: `/Users/mvstrike/Projects/g9-revision`
-- Current work: `codex/october-myp-review` (local; not published)
+- Release branch: `main`; GitHub Pages serves the site without a local server.
 - Review and remaining gaps: [September review](docs/review/2026-09-28.md)
 - Source-by-source coverage: [Curriculum map](docs/review/curriculum-map.md)
 
@@ -35,7 +36,7 @@ Vite base is `/g9-revision/`. HashRouter keeps GitHub Pages deep links working. 
 
 ## Publication
 
-Every push to `main` triggers `.github/workflows/deploy.yml`: clean install, regression tests, production build and GitHub Pages deployment. The September work has not been pushed or deployed. Inspect the changes and confirm the intended release before updating the public branch.
+Every push to `main` triggers `.github/workflows/deploy.yml`: clean install, regression tests, production build and GitHub Pages deployment. Verify the workflow and rendered public site after publishing. Local development and preview servers are optional and can be stopped after verification.
 
 ## Data and provenance
 

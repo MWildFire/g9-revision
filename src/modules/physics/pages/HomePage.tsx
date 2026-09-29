@@ -10,9 +10,10 @@ const TOPICS = [
 ] as const;
 
 export function HomePage() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   return (
     <div>
+      <Link to="/physics-september-2026" className="block rounded-lg border border-border bg-bg-secondary p-5 mb-5">{i18n.language.startsWith('ru') ? 'Физика · сентябрь 2026: атомы, радиоактивность, деление и синтез. Подготовка по критерию A →' : 'Physics · September 2026: atoms, radioactivity, fission and fusion. Criterion A preparation →'}</Link>
       <section className="text-center py-8 md:py-12">
         <p className="text-sm uppercase tracking-widest text-text-muted mb-3">
           {t('home.subtitle')}

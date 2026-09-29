@@ -4,10 +4,9 @@ import { Calendar } from 'lucide-react';
 import { SUBJECTS } from '../config/subjects';
 import { ROUTES } from '../config/routes';
 import { HubSubjectCard } from '../components/HubSubjectCard';
-import { ExamCountdown } from '../components/progress/ExamCountdown';
 
 export function HubPage() {
-  const { t } = useTranslation('hub');
+  const { t, i18n } = useTranslation('hub');
 
   return (
     <main className="max-w-7xl mx-auto px-4 md:px-6 py-12">
@@ -19,7 +18,7 @@ export function HubPage() {
           {t('hero.subtitle')}
         </p>
         <div className="flex flex-col items-center gap-4">
-          <ExamCountdown variant="hero" />
+          <Link to="/physics-september-2026" className="rounded-md bg-[#184f46] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Физика · сентябрь 2026 →' : 'Physics · September 2026 →'}</Link>
           <Link to="/mocks" className="rounded-md bg-text-primary text-bg-primary px-6 py-3 font-medium">{t('common:nav.mocks')} →</Link>
           <Link
             to={ROUTES.TIMETABLE}
@@ -29,6 +28,13 @@ export function HubPage() {
             {t('hero.openTimetable')}
           </Link>
         </div>
+      </section>
+
+      <section className="mb-12 rounded-lg border border-border bg-bg-secondary p-6 md:p-8">
+        <p className="text-sm uppercase tracking-wider text-text-secondary mb-2">Grade 10 · Criterion A</p>
+        <h2 className="text-2xl mb-3">{i18n.language.startsWith('ru') ? 'Атомная и ядерная физика' : 'Atomic and nuclear physics'}</h2>
+        <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? '12 тем по списку контрольной: теория, 24 примера, 48 задач, интерактивные модели и два тренировочных варианта.' : '12 assessment topics: theory, 24 examples, 48 questions, interactive models and two practice papers.'}</p>
+        <Link to="/physics-september-2026" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку →' : 'Open preparation pack →'}</Link>
       </section>
 
       <section>

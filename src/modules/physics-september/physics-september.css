@@ -1,0 +1,824 @@
+.nuclear-course {
+  --ink: #184f46;
+  --soft: #edf2eb;
+  max-width: 1400px;
+  margin: auto;
+  padding: 24px 28px 64px;
+  color: var(--color-text-primary);
+}
+.nuclear-course-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 0.82rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 18px;
+}
+.nuclear-course :is(a, button, input, select, textarea, summary):focus-visible {
+  outline: 3px solid #357c9b;
+  outline-offset: 4px;
+}
+.nuclear-topnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 16px;
+  margin-bottom: 30px;
+}
+.nuclear-topnav a {
+  padding: 9px 16px;
+  border-radius: 100px;
+  font-size: 0.9rem;
+  border: 1px solid var(--color-border);
+}
+.nuclear-topnav a.active {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+.nuclear-layout {
+  display: grid;
+  grid-template-columns: 225px minmax(0, 1fr);
+  gap: 40px;
+}
+.nuclear-sidebar {
+  align-self: start;
+  position: sticky;
+  top: 95px;
+  max-height: calc(100vh - 115px);
+  overflow: auto;
+  padding-right: 5px;
+}
+.nuclear-sidebar > a {
+  display: flex;
+  align-items: start;
+  gap: 9px;
+  padding: 9px 8px;
+  border-radius: 7px;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  margin-top: 3px;
+}
+.nuclear-sidebar > a > span {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  line-height: 1.8;
+  color: #776d5b;
+}
+.nuclear-sidebar > a.active {
+  background: var(--soft);
+  color: var(--ink);
+  font-weight: 600;
+}
+.nuclear-sidebar > a:hover {
+  background: #ebe6da;
+}
+.nuclear-main {
+  min-width: 0;
+}
+.nuclear-main h1 {
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  margin: 12px 0 20px;
+}
+.nuclear-main h2 {
+  font-size: 1.65rem;
+  margin: 0 0 18px;
+}
+.nuclear-main h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+.nuclear-main h4 {
+  font-size: 1.05rem;
+  margin: 22px 0 10px;
+}
+.nuclear-main p {
+  margin-bottom: 14px;
+}
+.nuclear-main ul {
+  list-style: disc;
+  padding-left: 22px;
+}
+.nuclear-main ol {
+  list-style: decimal;
+  padding-left: 25px;
+}
+.nuclear-main li {
+  margin: 10px 0;
+}
+.nuclear-prose {
+  white-space: pre-line;
+  line-height: 1.85;
+}
+.nuclear-main .nuclear-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1.7;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+.nuclear-caption {
+  font-size: 0.8rem;
+  color: #625846;
+  line-height: 1.65;
+}
+.nuclear-lead {
+  font-size: 1.1rem;
+  max-width: 750px;
+  color: var(--color-text-secondary);
+}
+.nuclear-hero {
+  background: #e9eddf;
+  border: 1px solid #cdd6c5;
+  border-radius: 20px;
+  padding: 38px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 160px;
+  gap: 22px;
+}
+.nuclear-hero h1 {
+  font-size: clamp(2.2rem, 3.5vw, 3.5rem);
+}
+.nuclear-hero-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--ink);
+  gap: 16px;
+}
+.nuclear-hero-art span {
+  font-family: var(--font-mono);
+  letter-spacing: 0.2em;
+}
+.nuclear-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 16px 0 4px;
+}
+.nuclear-course button,
+.nuclear-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  line-height: 1.5;
+  font-size: 0.88rem;
+  padding: 10px 15px;
+  background: var(--color-bg-secondary);
+  border: 1px solid #b8c4b8;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.nuclear-course button:hover,
+.nuclear-actions a:hover {
+  background: #e4ecdf;
+  color: var(--ink);
+}
+.nuclear-course button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.nuclear-course button[aria-pressed="true"],
+.nuclear-course .nuclear-primary {
+  background: var(--ink);
+  color: white;
+  border-color: var(--ink);
+}
+.nuclear-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 28px 0 36px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 25px;
+  gap: 16px;
+}
+.nuclear-metrics span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+.nuclear-metrics strong {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: var(--ink);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.nuclear-note {
+  background: var(--color-bg-secondary);
+  border-left: 4px solid #9aa98c;
+  padding: 22px 25px;
+  border-radius: 0 12px 12px 0;
+  margin: 24px 0 34px;
+}
+.nuclear-note p:last-child {
+  margin-bottom: 0;
+}
+.nuclear-note h2 {
+  font-size: 1.3rem;
+}
+.nuclear-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 15px;
+  margin: 35px 0 5px;
+}
+.nuclear-section-title > span {
+  font-size: 0.75rem;
+  color: #665b49;
+}
+.nuclear-lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.nuclear-lesson-card {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 22px;
+  background: var(--color-bg-secondary);
+  display: flex;
+  flex-direction: column;
+  transition: background 0.15s;
+}
+.nuclear-lesson-card:hover {
+  background: #f0f0e6;
+  color: var(--color-text-primary);
+}
+.nuclear-card-number {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+.nuclear-lesson-card h3 {
+  font-size: 1.25rem;
+}
+.nuclear-lesson-card p {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--color-text-secondary);
+}
+.nuclear-lesson-card > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  margin-top: auto;
+  color: var(--ink);
+  padding-top: 10px;
+}
+.nuclear-plan {
+  margin: 40px 0;
+}
+.nuclear-paper-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.nuclear-paper-cards a {
+  border: 1px solid #b8c4b8;
+  background: var(--soft);
+  padding: 26px;
+  border-radius: 12px;
+}
+.nuclear-paper-cards svg {
+  color: var(--ink);
+  margin-bottom: 12px;
+}
+.nuclear-paper-cards p {
+  font-size: 0.85rem;
+}
+.nuclear-paper-cards span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.nuclear-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 26px 0;
+}
+.nuclear-contents strong {
+  margin-bottom: 6px;
+}
+.nuclear-contents a {
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.nuclear-theory {
+  margin: 34px 0;
+  scroll-margin-top: 100px;
+}
+.nuclear-theory p {
+  max-width: 78ch;
+}
+.nuclear-formula-box {
+  border: 1px solid #b7c7b9;
+  background: var(--soft);
+  padding: 22px;
+  border-radius: 12px;
+  margin: 24px 0;
+}
+.nuclear-formula {
+  font-family: var(--font-mono);
+  font-size: 0.94rem;
+  overflow-wrap: anywhere;
+  line-height: 1.8;
+}
+.nuclear-example {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  margin: 18px 0;
+  padding: 24px;
+}
+.nuclear-example ol {
+  border-top: 1px solid var(--color-border);
+  padding-top: 10px;
+  margin-top: 16px;
+}
+.nuclear-pitfalls {
+  border-left: 4px solid #b27c5b;
+  background: #f1e5d5;
+  padding: 24px;
+  margin: 32px 0;
+  border-radius: 0 12px 12px 0;
+}
+.nuclear-pitfalls h2 {
+  font-size: 1.3rem;
+}
+.nuclear-lesson-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 35px;
+}
+.nuclear-lesson-end > a {
+  padding: 10px 18px;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.nuclear-visual {
+  background: #f7faf4;
+  border: 1px solid #bccbbc;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 35px 0;
+}
+.nuclear-visual svg {
+  display: block;
+  width: 100%;
+  max-width: 660px;
+  margin: 15px auto;
+  height: auto;
+}
+.nuclear-visual > p {
+  font-size: 0.88rem;
+}
+.nuclear-visual .nuclear-caption {
+  font-size: 0.76rem;
+}
+.nuclear-visual > label,
+.nuclear-controls label {
+  display: block;
+  font-size: 0.85rem;
+  margin: 12px 0;
+}
+.nuclear-controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.nuclear-controls input[type="range"] {
+  display: block;
+  margin-top: 16px;
+}
+.nuclear-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  margin: 14px 0;
+}
+.nuclear-stats span {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #e4ede2;
+}
+.nuclear-equation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 120px;
+  font-size: 1.6rem;
+}
+.nuclide {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+.nuclide > span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.nuclide sup,
+.nuclide sub {
+  position: static;
+  font-size: 0.65em;
+  line-height: 1.2;
+}
+.nuclear-feedback {
+  margin-top: 16px;
+  background: #e5eee1;
+  padding: 16px;
+  border-radius: 8px;
+}
+.nuclear-feedback p {
+  margin-bottom: 5px;
+}
+.nuclear-dots {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: 4px;
+  font-size: 1rem;
+  margin: 18px 0;
+}
+.nuclear-dots span {
+  text-align: center;
+  line-height: 1.4;
+}
+.nuclear-dots .alive {
+  color: #184f46;
+}
+.nuclear-dots .decayed {
+  color: #adb9a7;
+}
+.nuclear-course select,
+.nuclear-course input[type="search"],
+.nuclear-course textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #b9b7a7;
+  border-radius: 7px;
+  padding: 10px 12px;
+  background: #fffdf8;
+  color: #3d2f1f;
+  font: inherit;
+  font-size: 0.9rem;
+  margin-top: 7px;
+  min-width: 0;
+}
+.nuclear-course textarea {
+  resize: vertical;
+  line-height: 1.7;
+}
+.nuclear-course select {
+  min-height: 44px;
+}
+.nuclear-filters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 20px;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  margin: 25px 0;
+}
+.nuclear-filters label {
+  font-size: 0.8rem;
+}
+.nuclear-question {
+  padding: 24px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-secondary);
+  border-radius: 12px;
+  margin: 22px 0;
+  break-inside: avoid;
+}
+.nuclear-question-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink);
+  margin-bottom: 15px;
+}
+.nuclear-question .nuclear-prose {
+  font-weight: 500;
+}
+.nuclear-answer-label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--color-text-secondary);
+  margin: 18px 0 0;
+}
+.nuclear-question details {
+  margin-top: 12px;
+}
+.nuclear-question summary {
+  cursor: pointer;
+  font-size: 0.86rem;
+  padding: 10px 0;
+  font-weight: 500;
+  color: var(--ink);
+}
+.nuclear-question details > p {
+  font-size: 0.88rem;
+  font-weight: 400;
+}
+.nuclear-solution {
+  background: #edf1e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 12px;
+}
+.nuclear-solution li {
+  font-size: 0.92rem;
+}
+.nuclear-mark {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+}
+.nuclear-mark input {
+  margin-top: 6px;
+  flex-shrink: 0;
+  accent-color: var(--ink);
+  width: 17px;
+  height: 17px;
+}
+.nuclear-mark span {
+  flex: 1;
+}
+.nuclear-timer {
+  border: 1px solid #b9c6b7;
+  background: var(--soft);
+  padding: 20px;
+  border-radius: 12px;
+}
+.nuclear-timer > span {
+  font-size: 2rem;
+  font-family: var(--font-mono);
+  color: var(--ink);
+}
+.nuclear-score {
+  margin: 20px 0;
+  font-weight: 600;
+  color: var(--ink);
+}
+.nuclear-table-wrap {
+  max-width: 100%;
+  overflow: auto;
+  margin: 20px 0;
+}
+.nuclear-course table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.85rem;
+}
+.nuclear-course th,
+.nuclear-course td {
+  padding: 12px;
+  border-bottom: 1px solid #cad5c8;
+  text-align: left;
+  vertical-align: top;
+}
+.nuclear-course th {
+  background: #e7eee3;
+}
+.nuclear-course caption {
+  text-align: left;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.nuclear-reference-section {
+  margin: 40px 0;
+}
+.nuclear-reference-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+.nuclear-reference-grid .nuclear-formula-box {
+  margin: 0;
+}
+.nuclear-reference-grid h3 {
+  font-size: 1.05rem;
+}
+.nuclear-term {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.nuclear-term strong {
+  color: var(--ink);
+}
+.nuclear-glossary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.nuclear-glossary > div {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  padding: 18px;
+  border-radius: 9px;
+}
+.nuclear-glossary p {
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+.nuclear-reference-section a {
+  text-decoration: underline;
+  color: var(--ink);
+}
+.nuclear-reference-section li > p {
+  font-size: 0.86rem;
+}
+.nuclear-mobile-select,
+.nuclear-print-answer {
+  display: none;
+}
+@media (max-width: 1100px) {
+  .nuclear-layout {
+    grid-template-columns: 185px minmax(0, 1fr);
+    gap: 24px;
+  }
+  .nuclear-hero {
+    padding: 25px;
+    grid-template-columns: minmax(0, 1fr) 100px;
+  }
+  .nuclear-hero-art svg {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 850px) {
+  .nuclear-course {
+    padding: 18px 16px 45px;
+  }
+  .nuclear-sidebar {
+    display: none;
+  }
+  .nuclear-layout {
+    display: block;
+  }
+  .nuclear-mobile-select {
+    display: block;
+    margin: 0 0 24px;
+    font-size: 0.8rem;
+  }
+  .nuclear-course-top > span {
+    display: none;
+  }
+  .nuclear-topnav {
+    gap: 6px;
+    margin-bottom: 18px;
+  }
+  .nuclear-topnav a {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 550px) {
+  .nuclear-hero {
+    display: block;
+    padding: 25px 21px;
+  }
+  .nuclear-hero-art {
+    display: none;
+  }
+  .nuclear-metrics {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .nuclear-lesson-grid,
+  .nuclear-paper-cards,
+  .nuclear-reference-grid,
+  .nuclear-glossary {
+    grid-template-columns: 1fr;
+  }
+  .nuclear-section-title {
+    display: block;
+  }
+  .nuclear-section-title h2 {
+    margin-bottom: 8px;
+  }
+  .nuclear-section-title > span {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .nuclear-main h2 {
+    font-size: 1.4rem;
+  }
+  .nuclear-question,
+  .nuclear-example,
+  .nuclear-visual {
+    padding: 18px;
+  }
+  .nuclear-filters,
+  .nuclear-controls {
+    grid-template-columns: 1fr;
+  }
+  .nuclear-dots {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .nuclear-equation {
+    font-size: 1.2rem;
+    gap: 10px;
+  }
+  .nuclear-solution {
+    padding: 16px;
+  }
+  .nuclear-course th,
+  .nuclear-course td {
+    padding: 9px;
+  }
+  .nuclear-note {
+    padding: 20px;
+  }
+  .nuclear-question-meta {
+    font-size: 0.7rem;
+  }
+}
+@media print {
+  header,
+  footer,
+  .nuclear-course-top,
+  .nuclear-topnav,
+  .nuclear-sidebar,
+  .nuclear-mobile-select,
+  .nuclear-timer,
+  .nuclear-course button,
+  .nuclear-question textarea,
+  .nuclear-answer-label,
+  .nuclear-actions {
+    display: none !important;
+  }
+  .nuclear-course {
+    padding: 0;
+    max-width: none;
+  }
+  .nuclear-layout {
+    display: block;
+  }
+  .nuclear-main h1 {
+    font-size: 24pt;
+  }
+  .nuclear-main h2 {
+    font-size: 16pt;
+  }
+  .nuclear-question {
+    padding: 14px;
+    border: 1px solid #aaa;
+    margin: 16px 0;
+  }
+  .nuclear-print-answer {
+    display: block;
+    white-space: pre-wrap;
+    min-height: 75px;
+  }
+  .nuclear-paper .nuclear-note {
+    font-size: 9pt;
+    padding: 8px;
+    margin: 8px 0;
+  }
+  .nuclear-solution {
+    background: white;
+    border: 1px solid #ccc;
+  }
+  .nuclear-main {
+    font-size: 10pt;
+  }
+  .nuclear-course a {
+    color: inherit;
+  }
+  body {
+    background: #fff !important;
+  }
+}

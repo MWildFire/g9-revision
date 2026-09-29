@@ -1,6 +1,6 @@
 # MYP Revision Hub
 
-Bilingual EN/RU revision for Grade 10 mocks in October 2026, built on Luka's Grade 9 materials. Independent study resource; not an official IB publication.
+Luka's bilingual EN/RU study hub: subject archives, dated assessment packs and Grade 10 October mocks preparation. Independent study resource; not an official IB publication.
 
 - Public site: https://mwildfire.github.io/g9-revision/
 - October preparation map: https://mwildfire.github.io/g9-revision/#/mocks
@@ -19,6 +19,13 @@ The new `/#/mocks` page contains 79 coverage entries, with filters, source label
 School Grade 9 documents, an undated Grade 9+10 Mathematics list and public IB/NLCS sources are distinguished. **None of these establishes the exact October mock scope.** The exact date, subject coverage, Mathematics level, French level and any IDL mock still require school confirmation. No exam date is invented. Older EOY and Macbeth pages are labelled historical.
 
 A topic link is not a claim of complete textbook coverage. Genuine listening audio, complete timed papers with validated marking, and session-specific material remain outstanding. Student progress is not a measure of curriculum completeness or an IB grade.
+
+
+## Physics · September 2026
+
+[Open the dedicated pack](https://mwildfire.github.io/g9-revision/#/physics-september-2026). It covers all 12 bullets in the supplied Atomic structure overview: 12 detailed bilingual lessons, 24 worked examples, 48 practice questions, eight interactive model types, two original 40-mark practice papers, a formula guide and glossary. This is separate from October mocks. Practice marks do not convert automatically to an IB criterion level.
+
+Sources and scope are visible in the pack's reference page. Content is newly authored; the supplied photograph and third-party papers are not republished. Answers and completion ticks remain in the browser. Dedicated hosting/custom domain is deferred in [the backlog](docs/BACKLOG.md); GitHub Pages remains the active target.
 
 ## Development
 

@@ -8,6 +8,7 @@ import { Footer } from './components/layout/Footer';
 import { HubPage } from './pages/HubPage';
 const TimetablePage = lazy(async () => { const [, m] = await Promise.all([Promise.all(['math','physics','chemistry','biology','geography','english','french','arabic'].map(loadSubjectTranslations)), import('./pages/TimetablePage')]); return { default: m.TimetablePage }; });
 import { AboutPage } from './pages/AboutPage';
+const PhysicsSeptemberModule = lazy(() => import('./modules/physics-september/PhysicsSeptemberModule').then(m => ({ default: m.PhysicsSeptemberModule })));
 const MocksPage = lazy(() => import('./pages/MocksPage').then(m => ({ default: m.MocksPage })));
 const MockLessonPage = lazy(() => import('./pages/MockLessonPage').then(m => ({ default: m.MockLessonPage })));
 
@@ -48,6 +49,7 @@ export default function App() {
             <Route path="/mocks" element={<MocksPage />} />
             <Route path="/mocks/:lessonId" element={<MockLessonPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/physics-september-2026/*" element={<PhysicsSeptemberModule />} />
             <Route path="/physics/*" element={<PhysicsModule />} />
             <Route path="/math/*" element={<MathModule />} />
             <Route path="/geography/*" element={<GeographyModule />} />

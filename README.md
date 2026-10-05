@@ -27,6 +27,10 @@ A topic link is not a claim of complete textbook coverage. Genuine listening aud
 
 Sources and scope are visible in the pack's reference page. Content is newly authored; the supplied photograph and third-party papers are not republished. Answers and completion ticks remain in the browser. Dedicated hosting/custom domain is deferred in [the backlog](docs/BACKLOG.md); GitHub Pages remains the active target.
 
+## Geography tectonic hazards
+
+[Open the dedicated pack](https://mwildfire.github.io/g9-revision/#/geography-tectonic-hazards). All ten unique objectives in the supplied Tectonic Hazards checklist are covered by 13 detailed bilingual lessons, 13 worked examples, 39 practice questions, annotated diagrams, a 40-term glossary and a complete printable guide. The three cases are Chile 2010, Nepal 2015 and Eyjafjallajökull 2010, with causes, impacts and management. Sources and case-year interpretation are explicit. See [coverage and verification](docs/geography-tectonic-hazards/README.md).
+
 ## Development
 
 Use Node 22.18+ (CI uses Node 24).
@@ -50,6 +54,7 @@ Every push to `main` triggers `.github/workflows/deploy.yml`: clean install, reg
 - Progress, planner entries and French preference: `g9-revision-state` in localStorage.
 - October date: `myp-mocks-2026-exam-date`; the old June key is retained but not used for this cycle.
 - Arabic practice retains its existing `arabic:` keys.
+- Tectonic hazards uses its own `geography-tectonic-hazards-v1` key for answers and review ticks.
 - Nothing synchronizes across devices. Clearing browser data removes saved progress.
 - No analytics or backend. Existing Google Fonts and external resource links make third-party requests.
 - Private source documents, student work and assessment access codes are not included in the public source dataset.

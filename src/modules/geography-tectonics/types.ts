@@ -1,0 +1,20 @@
+export type Bilingual = { en: string; ru: string };
+export const b = (en: string, ru: string): Bilingual => ({ en, ru });
+export type Section = { title: Bilingual; text: Bilingual };
+export const s = (en: string, ru: string, textEn: string, textRu: string): Section => ({ title: b(en, ru), text: b(textEn, textRu) });
+export type Worked = { question: Bilingual; steps: Bilingual[] };
+export type Question = { id: string; topic: string; prompt: Bilingual; hint: Bilingual; marking: Bilingual[] };
+export type Lesson = {
+  id: string;
+  title: Bilingual;
+  checklist: number[];
+  intro: Bilingual;
+  sections: Section[];
+  keyFacts: Bilingual[];
+  example: Worked;
+  pitfalls: Bilingual[];
+  questions: Question[];
+  sourceIds: string[];
+  visual?: 'earth' | 'constructive' | 'subduction' | 'collision' | 'conservative' | 'earthquake' | 'volcano' | 'risk';
+};
+export type Source = { id: string; title: string; url: string; purpose: Bilingual };

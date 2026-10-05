@@ -12,11 +12,16 @@ const TOPICS = [
 ];
 
 export function GeographyHomePage() {
-  const { t } = useTranslation('geography');
+  const { t, i18n } = useTranslation('geography');
 
   return (
     <div>
       <TopicHero title={t('home.title')} intro={t('home.intro')} icon={<Globe size={28} />} />
+
+      <Link to="/geography-tectonic-hazards" className="block rounded-lg border border-[#d8bfa6] bg-[#f4e8da] p-5 mt-8">
+        <strong className="block mb-2 text-[#a74d2b]">{i18n.language.startsWith('ru') ? 'Тектонические опасности · отдельная подготовка →' : 'Tectonic hazards · dedicated revision pack →'}</strong>
+        <span className="text-sm text-text-secondary">{i18n.language.startsWith('ru') ? 'Строение Земли, границы плит, землетрясения и вулканы, последствия, конкретные примеры и снижение риска. Полный материал EN / RU с практикой и печатью.' : 'Earth structure, plate boundaries, earthquakes and volcanoes, impacts, case studies and risk reduction. Complete EN / RU material with practice and printing.'}</span>
+      </Link>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12">
         {TOPICS.map(({ to, key, icon: Icon, accent }) => (

@@ -18,6 +18,7 @@ export function HubPage() {
           {t('hero.subtitle')}
         </p>
         <div className="flex flex-col items-center gap-4">
+          <Link to="/geography-tectonic-hazards" className="rounded-md bg-[#a74d2b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'География · тектонические опасности →' : 'Geography · Tectonic hazards →'}</Link>
           <Link to="/physics-september-2026" className="rounded-md bg-[#184f46] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Физика · сентябрь 2026 →' : 'Physics · September 2026 →'}</Link>
           <Link to="/mocks" className="rounded-md bg-text-primary text-bg-primary px-6 py-3 font-medium">{t('common:nav.mocks')} →</Link>
           <Link
@@ -28,6 +29,13 @@ export function HubPage() {
             {t('hero.openTimetable')}
           </Link>
         </div>
+      </section>
+
+      <section className="mb-7 rounded-lg border border-[#d8bfa6] bg-[#f4e8da] p-6 md:p-8">
+        <p className="text-sm uppercase tracking-wider text-[#a74d2b] mb-2">{i18n.language.startsWith('ru') ? 'География · отдельная подготовка' : 'Geography · dedicated revision pack'}</p>
+        <h2 className="text-2xl mb-3">{i18n.language.startsWith('ru') ? 'Тектонические опасности' : 'Tectonic hazards'}</h2>
+        <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? 'Подробная теория по учебному списку, схемы границ плит, конкретные примеры, вопросы с объяснениями и полный материал для печати. На русском и английском.' : 'Detailed checklist-based lessons, plate-boundary diagrams, case studies, practice with explanations and a complete printable guide. In English and Russian.'}</p>
+        <Link to="/geography-tectonic-hazards" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку по географии →' : 'Open geography preparation →'}</Link>
       </section>
 
       <section className="mb-12 rounded-lg border border-border bg-bg-secondary p-6 md:p-8">

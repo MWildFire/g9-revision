@@ -1,0 +1,207 @@
+import type { Lesson } from './types';
+
+export const recapLessons: Lesson[] = [
+  {
+    id: 'functions', title: 'Functions, domain & range', tier: 'recap',
+    intro: 'A function assigns exactly one output to each permitted input. Read mappings, formulas and graphs as different representations of the same relationship.',
+    goals: ['Identify a function using mappings or the vertical line test.', 'Find domain and range from a rule and stated restrictions.'],
+    terms: [
+      { term: 'Function', meaning: 'A rule assigning exactly one output to each input in its domain.', example: 'f(x) = x² assigns 4 to both 2 and −2; this is still a function.' },
+      { term: 'Domain', meaning: 'The set of permitted inputs.', example: 'For f(x) = 1/x, the real domain excludes 0.' },
+      { term: 'Range', meaning: 'The set of outputs actually produced by the function on its domain.', example: 'For f(x) = x² over all real inputs, the range is y ≥ 0.' },
+      { term: 'Mapping', meaning: 'An assignment linking inputs to outputs.', example: 'x ↦ 2x + 1' },
+      { term: 'Vertical line test', meaning: 'A graph represents y as a function of x if no vertical line meets it more than once.', example: 'A full circle fails the test.' },
+      { term: 'One-to-one / many-to-one', meaning: 'One-to-one means different inputs have different outputs; many-to-one allows different inputs to share an output.', example: 'x³ is one-to-one over the reals; x² is many-to-one.' },
+    ],
+    sections: [
+      { title: 'Function notation', text: 'f(3) means the output when the input is 3; it does not mean f multiplied by 3. Substitute the entire input into every occurrence of x, using brackets for negative values. One input cannot lead to two different outputs in a function; several inputs may share one output.' },
+      { title: 'Find the restrictions first', text: 'A real square root needs a non-negative radicand. A denominator cannot be zero. A context may impose further restrictions, such as non-negative time or whole-number quantities. Determine the range after applying the domain: a restricted domain can remove outputs.', formula: 'f(x) = √(x − 2): domain x ≥ 2, range y ≥ 0.' },
+    ],
+    example: { prompt: 'Find the domain, range and f(5) for f(x) = (x − 2)² + 1 over real inputs.', steps: ['Every real x is allowed, so the domain is ℝ.', '(x − 2)² ≥ 0, with equality at x = 2. Thus the range is y ≥ 1.', 'f(5) = (5 − 2)² + 1 = 10.'] },
+    pitfalls: ['Domain concerns inputs; range concerns outputs.', 'A many-to-one mapping can still be a function.', 'The range depends on the specified domain.'],
+    questions: [
+      { prompt: 'Find the real domain of g(x) = 1/(x − 4).', hint: 'Which input makes the denominator zero?', steps: ['x − 4 cannot equal 0.', 'The domain is all real numbers except 4: ℝ \\ {4}.'] },
+      { prompt: 'For h(x) = x² with domain −2 ≤ x ≤ 1, find the range.', hint: 'Check the vertex and both domain endpoints.', steps: ['The minimum is 0 at x = 0.', 'The maximum is 4 at x = −2, so the range is 0 ≤ y ≤ 4.'] },
+    ],
+  },
+  {
+    id: 'quadratic-graphs', title: 'Quadratic forms & transformations', tier: 'recap',
+    intro: 'Different forms of the same quadratic reveal different features. Choose expanded form for coefficients, factored form for roots and vertex form for the turning point.',
+    goals: ['Connect expanded, factored and vertex forms.', 'Find roots, axis of symmetry, vertex and transformed domain/range.'],
+    terms: [
+      { term: 'Quadratic', meaning: 'A polynomial of degree 2.', example: 'ax² + bx + c, where a ≠ 0' },
+      { term: 'Parabola', meaning: 'The shape of the graph of a quadratic function.', example: 'y = x² opens upwards.' },
+      { term: 'Root / zero', meaning: 'An input for which the function equals zero.', example: '2 and 3 are roots of (x − 2)(x − 3).' },
+      { term: 'Vertex / turning point', meaning: 'The maximum or minimum point of a parabola.', example: '(2, −3) for y = (x − 2)² − 3' },
+      { term: 'Axis of symmetry', meaning: 'The line dividing a parabola into mirror images.', example: 'x = −b/(2a)' },
+      { term: 'Translation / reflection / stretch', meaning: 'Moving a graph, mirroring it, or scaling distances in a specified direction.', example: 'y = −2(x − 3)² + 1 shifts right 3, stretches vertically by 2, reflects in the x-axis and shifts up 1.' },
+    ],
+    sections: [
+      { title: 'Read the form', text: 'Expanded form gives the y-intercept c. Factored form gives roots when real factors are available. Vertex form gives vertex (h, k) and axis x = h. A positive a opens upwards; a negative a opens downwards.', formula: 'Expanded: ax² + bx + c.  Factored: a(x − r₁)(x − r₂).  Vertex: a(x − h)² + k.' },
+      { title: 'Transform with care', text: 'For y = a f(x − h) + k, a horizontal shift right by h happens inside the input and a vertical shift up by k happens outside. For a quadratic over all real inputs, the domain remains ℝ. Its range starts at the minimum k when a > 0, or ends at the maximum k when a < 0. For y = f(bx), horizontal distances scale by 1/|b|; b < 0 also reflects in the y-axis.' },
+    ],
+    example: { prompt: 'Describe y = x² − 6x + 5 in three forms and find its key features.', steps: ['Factor: y = (x − 1)(x − 5), so the roots are 1 and 5.', 'Complete the square: y = (x − 3)² − 4.', 'Vertex (3, −4); axis x = 3; y-intercept (0, 5).', 'It opens upwards, has domain ℝ and range y ≥ −4.'] },
+    pitfalls: ['In (x − h)², the vertex x-coordinate is h, not −h.', 'An x-intercept is a point such as (1, 0); a root is its x-value.', 'A downward-opening parabola has a maximum, not a minimum.'],
+    questions: [
+      { prompt: 'Find the vertex, axis and range of y = −2(x + 1)² + 8.', hint: 'Read x + 1 as x − (−1).', steps: ['Vertex (−1, 8), axis x = −1.', 'It opens downwards, so over real inputs the range is y ≤ 8.'] },
+      { prompt: 'Expand y = (x − 2)(x + 4) and state its roots.', hint: 'Set each factor equal to zero.', steps: ['y = x² + 2x − 8.', 'The roots are x = 2 and x = −4.'] },
+    ],
+  },
+  {
+    id: 'quadratic-equations', title: 'Solve quadratic equations', tier: 'recap',
+    intro: 'Factorisation, completing the square, the quadratic formula and graphs solve the same problem: find all inputs that make the quadratic expression zero.',
+    goals: ['Use all four methods appropriately.', 'Interpret the discriminant and retain both square-root branches.'],
+    terms: [
+      { term: 'Factorise', meaning: 'Rewrite an expression as a product.', example: 'x² − 5x + 6 = (x − 2)(x − 3)' },
+      { term: 'Zero-product property', meaning: 'If a product of real factors is zero, at least one factor is zero.', example: '(x − 2)(x − 3) = 0 implies x = 2 or x = 3.' },
+      { term: 'Complete the square', meaning: 'Rewrite a quadratic using a squared linear expression plus a constant.', example: 'x² + 6x + 5 = (x + 3)² − 4' },
+      { term: 'Discriminant', meaning: 'b² − 4ac; it determines the number of real roots of a quadratic.', example: 'Positive: two; zero: one repeated; negative: no real roots.' },
+    ],
+    sections: [
+      { title: 'Start with zero on one side', text: 'For factorisation or the quadratic formula, rearrange into ax² + bx + c = 0, a ≠ 0. Read signed coefficients carefully. Factoring is efficient when factors are clear. Completing the square also reveals the vertex. The formula handles every real-coefficient quadratic, although roots may not be real.', formula: 'x = (−b ± √(b² − 4ac))/(2a)' },
+      { title: 'Use graphs and checks', text: 'Solutions of f(x) = 0 are the x-coordinates of x-axis intersections. Graphical readings are normally estimates unless exact coordinates are established. To solve f(x) = g(x), find the x-coordinates of intersections of the two graphs, or solve f(x) − g(x) = 0 algebraically.' },
+    ],
+    example: { prompt: 'Solve x² + 6x + 5 = 0 by completing the square.', steps: ['x² + 6x + 9 − 4 = 0, so (x + 3)² = 4.', 'x + 3 = ±2, giving x = −1 or x = −5.', 'Check: 1 − 6 + 5 = 0 and 25 − 30 + 5 = 0.', 'The same roots follow from (x + 1)(x + 5) = 0.'] },
+    pitfalls: ['The entire numerator in the quadratic formula is divided by 2a.', 'Do not lose the negative square-root branch.', 'You can set factors to zero only when their product equals zero.'],
+    questions: [
+      { prompt: 'Solve 2x² − 3x − 2 = 0.', hint: 'Factor into (2x + 1)(x − 2).', steps: ['(2x + 1)(x − 2) = 0.', 'x = −1/2 or x = 2; both satisfy the original equation.'] },
+      { prompt: 'How many real solutions does x² + 2x + 5 = 0 have?', hint: 'Calculate b² − 4ac, or complete the square.', steps: ['The discriminant is 4 − 20 = −16 < 0.', 'There are no real solutions. Equivalently, (x + 1)² + 4 cannot equal zero for real x.'] },
+    ],
+  },
+  {
+    id: 'sequences', title: 'Sequences & Criterion B reasoning', tier: 'recap',
+    intro: 'Describe how a sequence grows, write a rule with a defined starting index and explain why it matches the pattern. Test both familiar and new cases.',
+    goals: ['Find explicit and recursive rules for arithmetic and geometric sequences.', 'Calculate finite sums and a convergent geometric sum to infinity.', 'Describe, test and justify a general rule.'],
+    terms: [
+      { term: 'Term / nth term', meaning: 'An entry of a sequence / the entry at position n.', example: 'For 3, 7, 11, …, uₙ = 4n − 1 when n starts at 1.' },
+      { term: 'Arithmetic / linear sequence', meaning: 'A sequence with constant difference between consecutive terms.', example: '3, 7, 11, … has common difference 4.' },
+      { term: 'Geometric sequence', meaning: 'A sequence in which each term is obtained by multiplying the preceding term by a constant ratio.', example: '3, 6, 12, … has common ratio 2.' },
+      { term: 'Explicit formula', meaning: 'A rule finding a term directly from its position.', example: 'uₙ = 3 × 2ⁿ⁻¹' },
+      { term: 'Recursive formula', meaning: 'A rule defining terms from earlier terms, with starting values.', example: 'u₁ = 3; uₙ₊₁ = 2uₙ' },
+      { term: 'Convergence', meaning: 'Approaching a finite limit.', example: '1 + 1/2 + 1/4 + … approaches 2.' },
+    ],
+    sections: [
+      { title: 'Difference or ratio?', text: 'For an arithmetic sequence, subtract consecutive terms. For a geometric sequence with non-zero terms, divide consecutive terms. State the first term a and start indexing at n = 1 unless told otherwise. A recursive rule is incomplete without an initial term.', formula: 'Arithmetic: uₙ = a + (n − 1)d.  Geometric: uₙ = arⁿ⁻¹.' },
+      { title: 'Sum is not the nth term', text: 'A term formula gives one entry; Sₙ adds the first n entries. A non-trivial infinite geometric series has a finite sum only when |r| < 1. Alternating signs are allowed if the magnitude shrinks.', formula: 'Arithmetic: Sₙ = n[2a + (n − 1)d]/2.  Geometric: Sₙ = a(1 − rⁿ)/(1 − r) for r ≠ 1; Sₙ = na for r = 1.  S∞ = a/(1 − r) for |r| < 1.' },
+      { title: 'Explain two patterns and justify', text: 'For 3, 6, 12, 24, … one description is “each term doubles”; another is “the increases are 3, 6, 12, … and also double”. Propose uₙ = 3 × 2ⁿ⁻¹, verify given cases and test a new case. Justify the exponent: reaching term n from term 1 takes n − 1 multiplications by 2. A finite list alone can fit many formulas, so state the intended construction.' },
+    ],
+    example: { prompt: 'Find an explicit and recursive rule for 5, 8, 11, … and calculate the 20th term.', steps: ['The common difference is 3, so uₙ = 5 + 3(n − 1) = 3n + 2.', 'Recursive form: u₁ = 5 and uₙ₊₁ = uₙ + 3.', 'u₂₀ = 3(20) + 2 = 62.', 'The rule starts at 5 and adds 3 for each of the n − 1 steps, explaining why it works.'] },
+    pitfalls: ['Use n − 1 when starting from the first term.', 'An infinite geometric sum needs |r| < 1; a growing sequence does not qualify.', 'Checking values supports a rule but does not replace a structural justification.'],
+    questions: [
+      { prompt: 'For 4, 12, 36, … find u₅ and write a recursive rule.', hint: 'The common ratio is 3.', steps: ['uₙ = 4 × 3ⁿ⁻¹, so u₅ = 4 × 81 = 324.', 'u₁ = 4 and uₙ₊₁ = 3uₙ.'] },
+      { prompt: 'Find 12 + 6 + 3 + … to infinity and explain why it exists.', hint: 'Identify a and r, and check |r|.', steps: ['a = 12 and r = 1/2, so |r| < 1.', 'S∞ = 12/(1 − 1/2) = 24. The finite partial sums approach 24.'] },
+    ],
+  },
+  {
+    id: 'right-triangles', title: 'Right triangles & bearings', tier: 'recap',
+    intro: 'Start by drawing and labelling a right triangle. Choose Pythagoras for side lengths or a trigonometric ratio connecting the known and unknown quantities.',
+    goals: ['Use Pythagoras and SOH–CAH–TOA.', 'Calculate a side or angle and interpret three-figure bearings.'],
+    terms: [
+      { term: 'Hypotenuse', meaning: 'The side opposite the right angle; the longest side of a right triangle.', example: 'c in a² + b² = c²' },
+      { term: 'Opposite / adjacent', meaning: 'Relative to a chosen acute angle, the opposite side is across from it; the adjacent side touches it and is not the hypotenuse.', example: 'Changing the reference angle swaps these two roles.' },
+      { term: 'Bearing', meaning: 'A direction measured clockwise from north, usually written with three digits.', example: 'East is 090°; south is 180°.' },
+      { term: 'Inverse trigonometric function', meaning: 'A function used to recover an angle from a trigonometric ratio within a chosen range.', example: 'θ = sin⁻¹(0.5) = 30° for an acute angle.' },
+    ],
+    sections: [
+      { title: 'Choose from the labels', text: 'Pythagoras applies to right triangles only. For a trigonometric ratio, label the sides relative to the chosen angle, then choose the ratio containing the known and unknown sides. Use degree mode for degree questions and retain unrounded values until the final answer.', formula: 'a² + b² = c².  sin θ = opposite/hypotenuse; cos θ = adjacent/hypotenuse; tan θ = opposite/adjacent.' },
+      { title: 'Bearings need a north line', text: 'Draw north at the departure point and measure clockwise. For plane-bearing problems with parallel north lines, the reverse bearing differs by 180°, reduced to the interval 000° to below 360°. The internal triangle angle may be different from the bearing itself.' },
+    ],
+    example: { prompt: 'A point lies 6 km east and 8 km north of the start. Find its distance and bearing from the start.', steps: ['Distance = √(6² + 8²) = 10 km.', 'The angle clockwise from north satisfies tan θ = east/north = 6/8.', 'θ = tan⁻¹(0.75) ≈ 36.87°. To the nearest degree the bearing is 037°.'] },
+    pitfalls: ['Use the longest side as c in Pythagoras.', 'sin⁻¹ means inverse sine here, not 1/sin.', 'A bearing is measured from north, not automatically from the horizontal.'],
+    questions: [
+      { prompt: 'A right triangle has hypotenuse 13 cm and one shorter side 5 cm. Find the other side.', hint: 'Subtract the known shorter-side square from 13².', steps: ['b² = 169 − 25 = 144.', 'b = 12 cm; take the positive root for a length.'] },
+      { prompt: 'The bearing of B from A is 125°. Find the bearing of A from B.', hint: 'Add 180° and keep the result below 360°.', steps: ['125° + 180° = 305°.', 'The reverse bearing is 305°.'] },
+    ],
+  },
+  {
+    id: 'trigonometry', title: 'Trig graphs & non-right triangles', tier: 'recap',
+    intro: 'Use the sine and cosine rules when a triangle is not right-angled. Recognise the repeating shapes of trigonometric graphs and keep angle units consistent.',
+    goals: ['Apply the sine rule, cosine rule and triangle area formula.', 'Read amplitude, period and key points of trigonometric graphs.'],
+    terms: [
+      { term: 'Sine rule', meaning: 'A relationship pairing each side with the sine of its opposite angle.', example: 'a/sin A = b/sin B = c/sin C' },
+      { term: 'Cosine rule', meaning: 'A side–angle relationship valid in any triangle.', example: 'c² = a² + b² − 2ab cos C' },
+      { term: 'Included angle', meaning: 'The angle between two given sides.', example: 'C lies between sides a and b in area = ½ab sin C.' },
+      { term: 'Amplitude', meaning: 'The distance from the midline to a maximum for a sine or cosine wave.', example: 'y = 3 sin x has amplitude 3.' },
+      { term: 'Period', meaning: 'The input interval after which a repeating function repeats.', example: 'sin x and cos x have period 360°; tan x has period 180°.' },
+    ],
+    sections: [
+      { title: 'Match the available information', text: 'Use the sine rule when an opposite side–angle pair is known. Use the cosine rule for two sides and the included angle, or for three sides. In sine-rule angle problems, sin θ = sin(180° − θ), so a second triangle may be possible; check the side lengths and angle sum.', formula: 'Area = ½ab sin C.  cos C = (a² + b² − c²)/(2ab).' },
+      { title: 'Know the graph landmarks', text: 'In degrees, sin x takes values 0, 1, 0, −1, 0 at x = 0°, 90°, 180°, 270°, 360°. Cosine takes 1, 0, −1, 0, 1 there. Both have domain ℝ and range [−1, 1]. Tangent has zeros at multiples of 180° and is undefined at 90° + 180°k, where k is an integer; its range is ℝ.', formula: 'y = A sin(Bx) + D: amplitude |A|, midline y = D, period 360°/|B| (B ≠ 0, degrees).' },
+    ],
+    example: { prompt: 'Two sides are 5 cm and 7 cm with included angle 60°. Find the third side and area.', steps: ['c² = 5² + 7² − 2(5)(7)cos 60° = 25 + 49 − 35 = 39.', 'c = √39 cm ≈ 6.245 cm.', 'Area = ½(5)(7)sin 60° = 35√3/4 cm² ≈ 15.16 cm².'] },
+    pitfalls: ['Pair each side with its opposite angle in the sine rule.', 'The area formula uses the included angle.', 'A sine-rule angle can have a supplementary alternative; test whether it fits.'],
+    questions: [
+      { prompt: 'If A = 30°, a = 5 and B = 45°, find b exactly.', hint: 'Use b = a sin B / sin A.', steps: ['b = 5(√2/2)/(1/2) = 5√2.', 'The side opposite 45° is longer than the side opposite 30°, as expected.'] },
+      { prompt: 'Find the amplitude, period and range of y = 2 sin(3x) − 1, using degrees.', hint: 'Read A = 2, B = 3 and D = −1.', steps: ['Amplitude 2; period 360°/3 = 120°.', 'Midline −1, so the range is −3 ≤ y ≤ 1.'] },
+    ],
+  },
+  {
+    id: 'circles', title: 'Circles, arcs & theorems', tier: 'recap',
+    intro: 'Identify the centre, chord, tangent and intercepted arc before choosing a circle theorem. Give the theorem as the reason for each angle step.',
+    goals: ['Apply circle angle, tangent and chord theorems.', 'Calculate arc length, sector area and segment area.'],
+    terms: [
+      { term: 'Chord / diameter', meaning: 'A chord joins two points on a circle; a diameter is a chord through the centre.', example: 'A diameter has length 2r.' },
+      { term: 'Tangent', meaning: 'A line touching a circle at exactly one point.', example: 'The radius to the point of contact is perpendicular to the tangent.' },
+      { term: 'Arc', meaning: 'A portion of the circumference.', example: 'A 90° minor arc is one quarter of the circumference.' },
+      { term: 'Sector', meaning: 'A region bounded by two radii and their connecting arc.', example: 'A wedge of a circle.' },
+      { term: 'Segment', meaning: 'A region bounded by a chord and one of its arcs.', example: 'A minor segment is its minor sector minus the triangle.' },
+      { term: 'Cyclic quadrilateral', meaning: 'A quadrilateral whose four vertices lie on one circle.', example: 'Its opposite angles add to 180°.' },
+    ],
+    sections: [
+      { title: 'Angle theorems', text: 'The angle at the centre is twice the angle at the circumference standing on the same arc. Angles in the same segment are equal. An angle in a semicircle is 90°. Opposite angles of a cyclic quadrilateral sum to 180°. A tangent–chord angle equals the angle in the alternate segment; identify the matching chord and arc before applying it.' },
+      { title: 'Tangents and chords', text: 'A radius meets a tangent at 90°. The two tangent segments from the same external point have equal length. A perpendicular from the centre to a chord bisects it. Equal chords subtend equal central angles in the same circle. If chords AB and CD intersect internally at P, then PA × PB = PC × PD.' },
+      { title: 'Parts of a circle', text: 'For degrees, use the fraction θ/360 of the full circumference or area. For a minor segment with 0° ≤ θ ≤ 180°, subtract the isosceles triangle from the sector. Do not confuse arc length with area. In radians, arc length = rθ and sector area = ½r²θ; use one angle convention consistently.', formula: 'Arc = (θ/360)2πr.  Sector area = (θ/360)πr².  Minor segment area = (θ/360)πr² − ½r² sin θ (degrees).' },
+    ],
+    example: { prompt: 'A circle has radius 6 cm and a minor sector angle of 60°. Find the arc, sector area and minor segment area.', steps: ['Arc length = (60/360) × 2π × 6 = 2π cm.', 'Sector area = (60/360) × π × 36 = 6π cm².', 'Triangle area = ½ × 36 × sin 60° = 9√3 cm².', 'Minor segment area = 6π − 9√3 cm² ≈ 3.261 cm².'] },
+    pitfalls: ['A circumference angle must stand on the specified arc for the centre-angle theorem.', 'Sector and segment are different regions.', 'Intersecting-chord products use the two parts of each individual chord.'],
+    questions: [
+      { prompt: 'One angle of a cyclic quadrilateral is 112°. Find the opposite angle.', hint: 'Opposite angles are supplementary.', steps: ['The opposite angle is 180° − 112° = 68°.', 'Reason: opposite angles of a cyclic quadrilateral sum to 180°.'] },
+      { prompt: 'Two chords intersect inside a circle. Their segment lengths are 3 and 8 on one chord, and 4 and x on the other. Find x.', hint: 'Use the intersecting-chords theorem.', steps: ['3 × 8 = 4x.', 'x = 6, in the same length units.'] },
+    ],
+  },
+  {
+    id: 'formulae-and-fractions', title: 'Rearrange formulae & fractions', tier: 'recap',
+    intro: 'Changing the subject means isolating a chosen variable. With algebraic fractions, keep track of excluded values and simplify factors rather than cancelling terms.',
+    goals: ['Change the subject, including when it appears twice.', 'Simplify algebraic fractions and solve rational equations.'],
+    terms: [
+      { term: 'Subject of a formula', meaning: 'The variable isolated on one side of the equation.', example: 'v is the subject of v = u + at.' },
+      { term: 'Algebraic fraction', meaning: 'A fraction with algebraic expressions in its numerator or denominator.', example: '(x + 1)/(x − 2), with x ≠ 2' },
+      { term: 'Rational equation', meaning: 'An equation containing ratios of polynomials.', example: '1/(x − 1) = 2, with x ≠ 1' },
+      { term: 'Excluded value', meaning: 'An input not allowed by the original expression, often because it makes a denominator zero.', example: 'x = 2 remains excluded after (x² − 4)/(x − 2) simplifies to x + 2.' },
+    ],
+    sections: [
+      { title: 'Undo, collect, factor', text: 'Undo operations in reverse order. If the required variable appears in several terms, collect those terms and factor out the variable. Before dividing, state the non-zero condition. Squaring or taking square roots may require sign restrictions; a length is usually the positive root.' },
+      { title: 'Cancel factors only', text: 'Factor the numerator and denominator before cancelling common non-zero factors. You cannot cancel an x from a sum such as (x + 2)/x. To add fractions, use a common denominator. When solving a rational equation, record exclusions, clear denominators and check all candidates in the original.', formula: '(x² − 4)/(x − 2) = x + 2 for x ≠ 2.' },
+    ],
+    example: { prompt: 'Make x the subject of y = (3x + 2)/(x − 1).', steps: ['The original formula requires x ≠ 1.', 'Multiply: yx − y = 3x + 2.', 'Collect x: yx − 3x = y + 2, so x(y − 3) = y + 2.', 'x = (y + 2)/(y − 3), with y ≠ 3. The original function cannot output 3.'] },
+    pitfalls: ['Cancel factors, not terms joined by + or −.', 'A cancelled denominator factor can leave a restriction behind.', 'Clearing denominators does not make excluded values valid.'],
+    questions: [
+      { prompt: 'Simplify (x² − 9)/(x + 3) and state the restriction.', hint: 'Factor a difference of squares.', steps: ['(x − 3)(x + 3)/(x + 3) = x − 3.', 'The original expression requires x ≠ −3; keep that restriction.'] },
+      { prompt: 'Solve 1/(x − 1) = 2.', hint: 'State the excluded value before multiplying.', steps: ['x ≠ 1. Multiply by x − 1: 1 = 2(x − 1).', '2x = 3, so x = 3/2. Check: 1/(1/2) = 2.'] },
+    ],
+  },
+  {
+    id: 'proportion-and-graphs', title: 'Proportion, rational & exponential graphs', tier: 'recap',
+    intro: 'Use a constant of proportionality to model a relationship. Compare straight-line, reciprocal and exponential graphs by their rules, restrictions and long-term behaviour.',
+    goals: ['Model direct and inverse proportion, including powers.', 'Find asymptotes, domain, range and transformations of basic rational and exponential functions.'],
+    terms: [
+      { term: 'Direct proportion', meaning: 'One quantity is a constant multiple of another specified quantity.', example: 'y ∝ x means y = kx; y ∝ x² means y = kx².' },
+      { term: 'Inverse proportion', meaning: 'One quantity is a constant divided by another specified quantity.', example: 'y ∝ 1/x means y = k/x, with x ≠ 0.' },
+      { term: 'Constant of proportionality', meaning: 'The fixed multiplier k in a proportional relationship.', example: 'If y = 3x, then k = 3.' },
+      { term: 'Asymptote', meaning: 'A line that a graph approaches in a limiting direction; a graph may cross a horizontal asymptote elsewhere.', example: 'y = 1/(x − 2) + 3 has asymptotes x = 2 and y = 3.' },
+      { term: 'Exponential function', meaning: 'A function whose variable appears in the exponent, with a positive base other than 1 in the basic model.', example: 'y = 2ˣ grows; y = (1/2)ˣ decays.' },
+      { term: 'Rational function', meaning: 'A ratio of polynomials, defined where the denominator is non-zero.', example: 'y = (x + 1)/(x − 2)' },
+    ],
+    sections: [
+      { title: 'Determine k before predicting', text: 'Translate “directly proportional to x²” into y = kx², not y = kx. Substitute one known pair to find k, then use the completed model. Direct proportion to x has a straight graph through the origin. For y = k/x, xy is constant and the graph is a hyperbola when k ≠ 0.' },
+      { title: 'Transform the parent graphs', text: 'For y = a/(x − h) + k with a ≠ 0, the vertical asymptote is x = h, the horizontal asymptote is y = k, domain x ≠ h and range y ≠ k. For y = a b^(x − h) + k with a ≠ 0, b > 0 and b ≠ 1, domain is ℝ; range is y > k if a > 0 and y < k if a < 0. Its horizontal asymptote is y = k.' },
+      { title: 'Restrictions survive simplification', text: 'A rational function can have a removable hole when a denominator factor cancels. For example, (x² − 1)/(x − 1) equals x + 1 only for x ≠ 1, leaving a hole at (1, 2), not a vertical asymptote there. Determine restrictions from the original expression.' },
+    ],
+    example: { prompt: 'y is inversely proportional to x. If y = 6 when x = 4, find y when x = 10.', steps: ['Write y = k/x.', '6 = k/4 gives k = 24.', 'At x = 10, y = 24/10 = 2.4.', 'The product xy stays 24; the larger input gives a smaller positive output.'] },
+    pitfalls: ['Inverse proportion is not just any decreasing relationship.', 'A vertical shift changes the horizontal asymptote.', 'A cancelled denominator zero may be a hole rather than an asymptote.'],
+    questions: [
+      { prompt: 'y is directly proportional to x². If y = 12 when x = 2, find y when x = 5.', hint: 'Find k in y = kx².', steps: ['12 = 4k, so k = 3.', 'At x = 5, y = 3 × 25 = 75.'] },
+      { prompt: 'State the domain, range and horizontal asymptote of y = 2ˣ + 3.', hint: '2ˣ is positive for every real x.', steps: ['Domain: all real x. Range: y > 3.', 'The horizontal asymptote is y = 3, approached as x tends to negative infinity.'] },
+    ],
+  },
+];

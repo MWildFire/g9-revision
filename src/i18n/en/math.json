@@ -7,7 +7,7 @@
     "practice": "Practice",
     "tools": "Tools",
     "examStructure": "Exam structure",
-    "examStructureBody": "Full e-assessment on AssessPrep. Four criteria, 25 marks each (100 total). Criterion A — Knowing & Understanding (short calculations). Criteria B & D — one extended task each, with several sub-parts (B = investigating patterns, D = real-life context). Criterion C — Communication runs across all sections (show working, units, conclusion). Past EOY 1 (Y9636Y) tested orientation in space and time (Mars data, factory); EOY 2 (GD29PC) tested personal/cultural expression (Rangoli, Mandala). Long Criterion B/D tasks always include: identify factors → calculate → labelled sketch → justify."
+    "examStructureBody": "Revision covers mathematical knowledge, pattern investigation, communication and real-life applications. Show reasoning, define variables, label diagrams, give units and evaluate assumptions. Check your current assessment instructions for its format and scope."
   },
   "nav": {
     "home": "Overview",
@@ -25,54 +25,212 @@
     "intro": "Topics that extend beyond the G9 revision list — useful for IB DP preparation or for curious students.",
     "calculus": {
       "title": "Calculus — derivatives intro",
-      "body": "A derivative measures the rate of change of a function. For y = xⁿ, the derivative is dy/dx = n·xⁿ⁻¹. The derivative of a constant is zero. Geometric meaning: slope of the tangent at a point. Used in physics (velocity = derivative of position) and optimisation (maximum/minimum problems)."
+      "body": "The derivative f′(a) is the limit of [f(a+h)−f(a)]/h as h→0, when that finite limit exists. It is the instantaneous rate of change and the tangent slope. For y=xⁿ with positive integer n, y′=nxⁿ⁻¹; a constant has derivative zero. A stationary point has derivative zero, but need not be a maximum or minimum.",
+      "review": {
+        "englishTerm": "Derivative",
+        "russianTerm": "Производная",
+        "contrast": {
+          "en": "A difference quotient is an average rate over an interval; the derivative is a limit at a point. At a corner such as |x| at 0 it does not exist.",
+          "ru": "Разностное отношение — средняя скорость на промежутке; производная — предел в точке. В угловой точке, например у |x| при 0, производной нет."
+        },
+        "sources": [
+          {
+            "title": "3.1 Defining the Derivative",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative",
+            "language": "en",
+            "section": "3.1 Defining the Derivative"
+          }
+        ]
+      }
     },
     "proofs": {
       "title": "Mathematical proof",
       "items": [
-        "Direct proof — assume premise, derive conclusion step by step.",
-        "Proof by contradiction — assume opposite, show it leads to absurdity.",
-        "Proof by induction — base case + inductive step (n → n+1). Used for sums and divisibility.",
-        "Counterexample — one example disproves a 'for all' claim."
+        "Direct proof — A direct proof derives a statement from its hypotheses using definitions and valid logical steps. For a claim “if P, then Q”, assume P and deduce Q for an arbitrary object satisfying the hypotheses.",
+        "Proof by contradiction — A proof by contradiction assumes the negation of the desired statement together with the hypotheses, then derives incompatible conclusions. Since the hypotheses and logical rules are retained, the added negation must be false.",
+        "Proof by induction — Mathematical induction proves a claim P(n) for every integer n≥n₀. First prove P(n₀). Then, for an arbitrary k≥n₀, assume P(k) and prove P(k+1). These two steps establish all successive cases.",
+        "Counterexample — A counterexample is an allowed instance for which a universal claim fails. One such instance disproves “for every x, P(x)”. To refute “if P then Q”, the example must satisfy P while failing Q."
       ],
       "detailed": {
         "direct": {
           "name": "Direct proof",
-          "rule": "Start from the GIVEN premises and use logical steps (definitions, axioms, theorems) to derive the conclusion. Most common type. Best when there's a clear path.",
-          "examples": ["PROVE: sum of two even numbers is even. Let a = 2m, b = 2n (definition of even). a + b = 2m + 2n = 2(m+n). 2(m+n) is even (definition). QED.", "PROVE: angles in a triangle sum to 180°. Draw a line through one vertex parallel to the opposite side. Use alternate angles. Done.", "PROVE: a² − b² = (a−b)(a+b). Expand right side: (a−b)(a+b) = a² + ab − ab − b² = a² − b². QED."],
-          "tip": "Always state what you're TRYING to prove at the top. End with QED (or ∎) to signal the proof is complete."
+          "rule": "A direct proof derives a statement from its hypotheses using definitions and valid logical steps. For a claim “if P, then Q”, assume P and deduce Q for an arbitrary object satisfying the hypotheses.",
+          "examples": [
+            "Let a=2m and b=2n for integers m,n. Then a+b=2(m+n), and m+n is an integer, so the sum is even.",
+            "For a Euclidean triangle, draw a line through the top vertex parallel to the opposite side. Alternate angles reproduce the two base angles at that vertex; together with its angle they form a straight angle of 180°.",
+            "PROVE: a² − b² = (a−b)(a+b). Expand right side: (a−b)(a+b) = a² + ab − ab − b² = a² − b². QED."
+          ],
+          "review": {
+            "englishTerm": "Direct proof",
+            "russianTerm": "Прямое доказательство",
+            "contrast": {
+              "en": "Several successful examples do not prove a universal claim. State which assumptions and theorem justify each step.",
+              "ru": "Несколько удачных примеров не доказывают всеобщее утверждение. Укажите условия и теоремы, обосновывающие шаги."
+            },
+            "sources": [
+              {
+                "title": "Oscar Levin — Discrete Mathematics: An Open Introduction",
+                "url": "https://discrete.openmathbooks.org/dmoi4/sec_logic-proofs.html",
+                "language": "en",
+                "section": "1.4 Proofs: direct proof and contradiction"
+              }
+            ]
+          }
         },
         "contradiction": {
           "name": "Proof by contradiction",
-          "rule": "Assume the OPPOSITE of what you want to prove. Derive a logical contradiction (something obviously false). Conclude original statement must be true. Powerful when direct proof is awkward.",
-          "examples": ["PROVE: √2 is irrational. Assume √2 IS rational, so √2 = a/b in lowest terms. Square: 2 = a²/b². So a² = 2b². a² is even → a is even → a = 2k. Then 4k² = 2b² → b² = 2k² → b also even. But a/b was in lowest terms — CONTRADICTION. So √2 is irrational.", "PROVE: there are infinitely many primes. Assume finitely many: p₁, p₂, …, pₙ. Consider N = p₁·p₂·…·pₙ + 1. N is not divisible by any pᵢ (remainder 1). So either N is prime (contradicts list being complete) or has a new prime factor."],
-          "watchOut": "When deriving contradiction, BE EXPLICIT about what contradicts what. Don't just say 'this is wrong' — show why."
+          "rule": "A proof by contradiction assumes the negation of the desired statement together with the hypotheses, then derives incompatible conclusions. Since the hypotheses and logical rules are retained, the added negation must be false.",
+          "examples": [
+            "PROVE: √2 is irrational. Assume √2 IS rational, so √2 = a/b in lowest terms. Square: 2 = a²/b². So a² = 2b². a² is even → a is even → a = 2k. Then 4k² = 2b² → b² = 2k² → b also even. But a/b was in lowest terms — CONTRADICTION. So √2 is irrational.",
+            "PROVE: there are infinitely many primes. Assume finitely many: p₁, p₂, …, pₙ. Consider N = p₁·p₂·…·pₙ + 1. N is not divisible by any pᵢ (remainder 1). So either N is prime (contradicts list being complete) or has a new prime factor."
+          ],
+          "review": {
+            "englishTerm": "Proof by contradiction",
+            "russianTerm": "Доказательство от противного",
+            "contrast": {
+              "en": "Negation must be precise: the negation of “all” is “there exists a counterexample”, not “none”.",
+              "ru": "Отрицание должно быть точным: отрицание «для всех» — «существует контрпример», а не «ни для одного»."
+            },
+            "sources": [
+              {
+                "title": "Oscar Levin — Discrete Mathematics: An Open Introduction",
+                "url": "https://discrete.openmathbooks.org/dmoi4/sec_logic-proofs.html",
+                "language": "en",
+                "section": "1.4 Proofs: direct proof and contradiction"
+              }
+            ]
+          }
         },
         "induction": {
           "name": "Proof by induction",
-          "rule": "Two steps: (1) BASE CASE — show statement true for n=1. (2) INDUCTIVE STEP — assume true for n=k, show true for n=k+1. Conclusion: true for all positive integers. Like dominoes.",
-          "examples": ["PROVE: 1 + 2 + … + n = n(n+1)/2. Base: n=1, LHS=1, RHS=1·2/2=1. ✓ Inductive: assume true for k. Add (k+1): k(k+1)/2 + (k+1) = (k+1)(k+2)/2. ✓", "PROVE: 2ⁿ > n for all positive integers. Base: 2¹=2>1. ✓ Inductive: 2^(k+1) = 2·2ᵏ > 2k ≥ k+1 (since k ≥ 1). ✓", "Divisibility example: PROVE 7ⁿ − 1 is divisible by 6. Base: 7¹−1 = 6. ✓ Inductive: 7^(k+1) − 1 = 7·7ᵏ − 1 = 7(7ᵏ − 1) + 6 = 7·6m + 6 = 6(7m+1). ✓"],
-          "tip": "Always do BOTH steps explicitly. Skipping the base case is a common error — the inductive step alone proves nothing."
+          "rule": "Mathematical induction proves a claim P(n) for every integer n≥n₀. First prove P(n₀). Then, for an arbitrary k≥n₀, assume P(k) and prove P(k+1). These two steps establish all successive cases.",
+          "examples": [
+            "PROVE: 1 + 2 + … + n = n(n+1)/2. Base: n=1, LHS=1, RHS=1·2/2=1. ✓ Inductive: assume true for k. Add (k+1): k(k+1)/2 + (k+1) = (k+1)(k+2)/2. ✓",
+            "PROVE: 2ⁿ > n for all positive integers. Base: 2¹=2>1. ✓ Inductive: 2^(k+1) = 2·2ᵏ > 2k ≥ k+1 (since k ≥ 1). ✓",
+            "Divisibility example: PROVE 7ⁿ − 1 is divisible by 6. Base: 7¹−1 = 6. ✓ Inductive: 7^(k+1) − 1 = 7·7ᵏ − 1 = 7(7ᵏ − 1) + 6 = 7·6m + 6 = 6(7m+1). ✓"
+          ],
+          "review": {
+            "englishTerm": "Proof by induction",
+            "russianTerm": "Математическая индукция",
+            "contrast": {
+              "en": "The inductive assumption concerns an arbitrary k, not the conclusion for every n. The starting value need not be 1.",
+              "ru": "Предположение индукции относится к произвольному k, а не к уже доказанному результату для всех n. Начальный номер не обязан быть 1."
+            },
+            "sources": [
+              {
+                "title": "Oscar Levin — Proof by Induction",
+                "url": "https://discrete.openmathbooks.org/dmoi4/sec_seq-induction.html",
+                "language": "en",
+                "section": "Proof by Induction: base case and inductive step"
+              }
+            ]
+          }
         },
         "counterexample": {
           "name": "Counterexample",
-          "rule": "To DISPROVE a 'for all' statement, find a SINGLE example where it fails. To prove a 'for all' statement, you need a proof; to disprove, ONE counter is enough.",
-          "examples": ["CLAIM: 'all primes are odd'. Counterexample: 2 is prime AND even. Disproved.", "CLAIM: 'n² > n for all positive integers'. Counterexample: n=1 gives 1²=1, NOT > 1. Disproved.", "CLAIM: 'every quadratic has real roots'. Counterexample: x² + 1 = 0 has no real roots. Disproved.", "CLAIM: 'if a²=b² then a=b'. Counterexample: a=−3, b=3. Both square to 9 but aren't equal."],
-          "tip": "Look at extreme cases (n=0, n=1, n very large, negative numbers, zero). Most counterexamples come from edge cases."
+          "rule": "A counterexample is an allowed instance for which a universal claim fails. One such instance disproves “for every x, P(x)”. To refute “if P then Q”, the example must satisfy P while failing Q.",
+          "examples": [
+            "CLAIM: 'all primes are odd'. Counterexample: 2 is prime AND even. Disproved.",
+            "CLAIM: 'n² > n for all positive integers'. Counterexample: n=1 gives 1²=1, NOT > 1. Disproved.",
+            "CLAIM: 'every quadratic has real roots'. Counterexample: x² + 1 = 0 has no real roots. Disproved.",
+            "CLAIM: 'if a²=b² then a=b'. Counterexample: a=−3, b=3. Both square to 9 but aren't equal."
+          ],
+          "review": {
+            "englishTerm": "Counterexample",
+            "russianTerm": "Контрпример",
+            "contrast": {
+              "en": "A value outside the stated domain is not a counterexample. Passing many checks can support a conjecture but does not prove it for all cases.",
+              "ru": "Значение вне указанной области не является контрпримером. Много удачных проверок поддерживает гипотезу, но не доказывает её для всех случаев."
+            },
+            "sources": [
+              {
+                "title": "Oscar Levin — Discrete Mathematics: An Open Introduction",
+                "url": "https://discrete.openmathbooks.org/dmoi4/sec_logic-proofs.html",
+                "language": "en",
+                "section": "1.4 Proofs: direct proof and contradiction"
+              }
+            ]
+          }
         }
       }
     },
     "numberTheory": {
       "title": "Number theory basics",
-      "body": "Prime numbers: divisible only by 1 and themselves. There are infinitely many primes (Euclid). Fundamental theorem of arithmetic: every integer >1 has a unique prime factorisation. Modular arithmetic: 17 mod 5 = 2. Useful for divisibility tests and cryptography."
+      "body": "A prime is an integer greater than 1 with exactly two positive divisors: 1 and itself. Every integer greater than 1 is a product of primes, unique apart from their order. Congruence a≡b (mod m), for positive integer m, means m divides a−b; for example 17≡2 (mod 5).",
+      "review": {
+        "englishTerm": "Prime number; prime factorisation; congruence",
+        "russianTerm": "Простое число; разложение на простые множители; сравнение по модулю",
+        "contrast": {
+          "en": "1 is neither prime nor composite. Congruence means equal remainders, not equal numbers.",
+          "ru": "1 не является ни простым, ни составным. Сравнение по модулю означает одинаковые остатки, а не равенство чисел."
+        },
+        "sources": [
+          {
+            "title": "Фоксфорд Учебник — Простые и составные числа",
+            "url": "https://foxford.ru/wiki/matematika/prostye-i-sostavnye-chisla",
+            "language": "ru",
+            "section": "Определение простого числа; число 1"
+          },
+          {
+            "title": "Фоксфорд Учебник — Разложение на простые множители",
+            "url": "https://foxford.ru/wiki/matematika/razlozhenie-na-prostye-mnozhiteli",
+            "language": "ru",
+            "section": "Основная теорема арифметики"
+          },
+          {
+            "title": "Oscar Levin — 6.2 Introduction to Number Theory — Remainder Classes",
+            "url": "https://discrete.openmathbooks.org/dmoi4/sec_addtops-numbth.html",
+            "language": "en",
+            "section": "6.2 Introduction to Number Theory — Remainder Classes"
+          }
+        ]
+      }
     },
     "complex": {
       "title": "Complex numbers — preview",
-      "body": "i² = −1. Complex number z = a + bi has real part a and imaginary part b. Solves quadratics with negative discriminant: x² + 1 = 0 → x = ±i. Used in electricity, signal processing, quantum physics. You'll meet these in IB DP."
+      "body": "A complex number has form z=a+bi, where a,b are real and i²=−1. Its real part is a and imaginary part is b. The real numbers form the case b=0. In the complex numbers, x²+1=0 has solutions ±i; real square-root product rules must not be applied blindly to negative radicands.",
+      "review": {
+        "englishTerm": "Complex number",
+        "russianTerm": "Комплексное число",
+        "contrast": {
+          "en": "The imaginary part of 2+3i is 3, not 3i. “Imaginary” is a mathematical name and does not mean invalid.",
+          "ru": "Мнимая часть 2+3i равна 3, а не 3i. «Мнимая» — математическое название, а не указание на недопустимость числа."
+        },
+        "sources": [
+          {
+            "title": "2.4 Complex Numbers",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-4-complex-numbers",
+            "language": "en",
+            "section": "2.4 Complex Numbers"
+          }
+        ]
+      }
     },
     "statsExt": {
       "title": "Statistics extension",
-      "body": "Variance σ² is the average squared deviation from the mean. Standard deviation σ = √variance. Sample vs population: divide by n−1 for sample (Bessel's correction). Correlation coefficient r measures linear relationship (−1 to +1). Scatter plots show variable relationships."
+      "body": "Population variance is the mean squared deviation from the population mean; standard deviation is its square root. The usual sample variance estimator divides the sum of squared deviations from the sample mean by n−1. Pearson correlation r describes the direction and strength of linear association between paired numerical variables and lies from −1 to 1 when both have nonzero variance.",
+      "review": {
+        "englishTerm": "Variance, standard deviation and correlation",
+        "russianTerm": "Дисперсия, стандартное отклонение и корреляция",
+        "contrast": {
+          "en": "Zero correlation does not rule out a nonlinear relationship. Correlation alone does not establish causation.",
+          "ru": "Нулевая корреляция не исключает нелинейную связь. Одна корреляция не устанавливает причинность."
+        },
+        "sources": [
+          {
+            "title": "2.7 Measures of Spread",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+            "language": "en",
+            "section": "2.7 Measures of Spread"
+          },
+          {
+            "title": "OpenStax — 12.3 The Regression Equation — Correlation Coefficient",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+            "language": "en",
+            "section": "12.3 The Regression Equation — Correlation Coefficient"
+          }
+        ]
+      }
     }
   },
   "numberSystems": {
@@ -93,63 +251,371 @@
     "subTopicsDetailed": {
       "structureSets": {
         "name": "Structure & Sets — classification, set notation",
-        "rule": "ℕ (naturals: 1,2,3…) ⊂ ℤ (integers: …−2,−1,0,1,2…) ⊂ ℚ (rationals: a/b, b≠0) ⊂ ℝ (reals, including irrationals). Set notation: ∈ (element of), ∪ (union), ∩ (intersection), ⊂ (subset), Ø (empty set).",
-        "examples": ["√2 ∈ ℝ but √2 ∉ ℚ (it's irrational).", "0.333… = 1/3 ∈ ℚ (recurring decimals are rational).", "A = {1,2,3}, B = {3,4}. A∪B = {1,2,3,4}. A∩B = {3}.", "{x ∈ ℤ : x² < 10} = {−3, −2, −1, 0, 1, 2, 3}."],
-        "tip": "π and e are real but not rational. Surds (√2, √3) are also irrational. Recurring decimals ARE rational."
+        "rule": "Natural numbers count: ℕ={1,2,3,…} here. Integers ℤ also include zero and negative whole numbers. Rational numbers ℚ are a/b with integers a,b and b≠0. Real numbers ℝ comprise rational and irrational numbers. Thus ℕ⊂ℤ⊂ℚ⊂ℝ. A∪B contains elements in either set; A∩B contains elements in both; ∅ is empty; x∈A means membership; A⊆B means every element of A is in B.",
+        "examples": [
+          "√2 ∈ ℝ but √2 ∉ ℚ (it's irrational).",
+          "0.333… = 1/3 ∈ ℚ (recurring decimals are rational).",
+          "A = {1,2,3}, B = {3,4}. A∪B = {1,2,3,4}. A∩B = {3}.",
+          "{x ∈ ℤ : x² < 10} = {−3, −2, −1, 0, 1, 2, 3}."
+        ],
+        "review": {
+          "englishTerm": "Structure & Sets — classification, set notation",
+          "russianTerm": "Структура и множества — классификация, обозначения",
+          "contrast": {
+            "en": "An element and a subset are different: 2∈ℕ but {2}⊆ℕ. Some books include 0 in ℕ; state the convention.",
+            "ru": "Элемент и подмножество различаются: 2∈ℕ, но {2}⊆ℕ. В некоторых учебниках 0 включают в ℕ; соглашение нужно указывать."
+          },
+          "sources": [
+            {
+              "title": "1.1 Real Numbers: Algebra Essentials",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+              "language": "en",
+              "section": "1.1 Real Numbers: Algebra Essentials"
+            },
+            {
+              "title": "Oscar Levin — 5.1 Sets — Operations on Sets",
+              "url": "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+              "language": "en",
+              "section": "5.1 Sets — Operations on Sets"
+            }
+          ]
+        }
       },
       "rounding": {
         "name": "Rounding & accuracy",
-        "rule": "Round to n decimal places (d.p.) or n significant figures (s.f.). Look at the next digit: ≥5 round up, <5 round down. Significant figures: count from the first non-zero digit.",
-        "examples": ["3.4567 → 3.46 (2 d.p.); 3.457 (3 d.p.); 3.5 (2 s.f.).", "0.004532 → 0.005 (1 s.f.) — leading zeros aren't significant.", "1250 → 1300 (2 s.f.); 1250 (3 s.f. — could be either depending on rule)."],
-        "tip": "S.F. is harder. The first non-zero digit is sig fig #1. 0.00408 has 3 s.f. (4, 0, 8 — the middle 0 counts because it's between non-zeros)."
+        "rule": "Rounding replaces a number by a nearby multiple of a chosen place value. Decimal places count digits after the decimal point; significant figures count from the first nonzero digit. For positive values here, a next digit 5–9 increases the retained digit; 0–4 leaves it unchanged.",
+        "examples": [
+          "3.4567 ≈ 3.46 (2 d.p.), 3.457 (3 d.p.), 3.5 (2 s.f.).",
+          "0.004532 ≈ 0.005 (1 s.f.); the first significant digit is 4 and the next is 5.",
+          "1250 ≈ 1.3×10³ (2 s.f.); 1250 = 1.25×10³ (3 s.f.)."
+        ],
+        "review": {
+          "englishTerm": "Rounding & accuracy",
+          "russianTerm": "Округление и точность",
+          "contrast": {
+            "en": "Precision of the written result differs from accuracy relative to a true value. 1.25×10³ explicitly has three significant figures.",
+            "ru": "Точность записи отличается от близости к истинному значению. Запись 1.25×10³ явно содержит три значащие цифры."
+          },
+          "sources": [
+            {
+              "title": "5.1 Decimals — Round Decimals",
+              "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+              "language": "en",
+              "section": "5.1 Decimals — Round Decimals"
+            },
+            {
+              "title": "1.5 Measurement Uncertainty — Significant Figures",
+              "url": "https://openstax.org/books/chemistry-2e/pages/1-5-measurement-uncertainty-accuracy-and-precision",
+              "language": "en",
+              "section": "1.5 Measurement Uncertainty — Significant Figures"
+            }
+          ],
+          "model": {
+            "en": "Exact halfway cases depend on the rounding convention. These examples round positive ties upward.",
+            "ru": "Ровно половинные случаи зависят от соглашения. В этих примерах положительные половинные значения округляются вверх."
+          }
+        }
       },
       "bounds": {
         "name": "Upper and lower bounds (Extended)",
-        "rule": "A value rounded to nearest unit has bounds ±½ unit. Lower bound = stated − ½ × precision; Upper bound = stated + ½ × precision.",
-        "examples": ["Length = 27 cm (nearest cm). LB = 26.5; UB = 27.5.", "Time = 8.4 s (1 d.p.). LB = 8.35; UB = 8.45.", "For maximum velocity = max(distance) / min(time). For min velocity = min(distance) / max(time).", "Mass = 2.50 kg (3 s.f.). LB = 2.495; UB = 2.505."],
-        "watchOut": "UB is NEVER reached — it's a strict supremum. Use it inclusively in calculations, but it's still 27.5 not 27.499…"
+        "rule": "If a positive value is rounded to x to the nearest unit d using half-up rounding, its original value v satisfies x−d/2≤v<x+d/2. These endpoints are the lower and upper bounds; the interval describes rounding uncertainty.",
+        "examples": [
+          "Length = 27 cm (nearest cm). LB = 26.5; UB = 27.5.",
+          "Time = 8.4 s (1 d.p.). LB = 8.35; UB = 8.45.",
+          "For positive distance d and time t, average speed v = d/t has lower bound d_L/t_U and upper bound d_U/t_L. A strict endpoint gives a limiting bound, not an attained minimum or maximum.",
+          "Mass = 2.50 kg (3 s.f.). LB = 2.495; UB = 2.505."
+        ],
+        "review": {
+          "englishTerm": "Upper and lower bounds (Extended)",
+          "russianTerm": "Верхние и нижние границы (Extended)",
+          "contrast": {
+            "en": "An upper bound need not be an attainable maximum. Endpoint inclusion changes with the tie rule; bounds do not account for every measurement error.",
+            "ru": "Верхняя граница не обязательно достигается. Включение концов зависит от правила округления; границы не учитывают все погрешности измерения."
+          },
+          "sources": [
+            {
+              "title": "5.1 Decimals — Round Decimals",
+              "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+              "language": "en",
+              "section": "5.1 Decimals — Round Decimals"
+            },
+            {
+              "title": "1.5 Measurement Uncertainty — Significant Figures",
+              "url": "https://openstax.org/books/chemistry-2e/pages/1-5-measurement-uncertainty-accuracy-and-precision",
+              "language": "en",
+              "section": "1.5 Measurement Uncertainty — Significant Figures"
+            }
+          ],
+          "model": {
+            "en": "For positive distance s and time t, bounds for s/t use s_low/t_high and s_high/t_low, with t_low>0.",
+            "ru": "Для положительных пути s и времени t границы s/t находят как s_low/t_high и s_high/t_low при t_low>0."
+          }
+        }
       },
       "exponents": {
         "name": "Laws of exponents",
-        "rule": "aᵐ · aⁿ = aᵐ⁺ⁿ ; aᵐ / aⁿ = aᵐ⁻ⁿ ; (aᵐ)ⁿ = aᵐⁿ ; (ab)ⁿ = aⁿbⁿ ; a⁰ = 1 ; a⁻ⁿ = 1/aⁿ.",
-        "examples": ["3² · 3⁴ = 3⁶ = 729.", "(2³)² = 2⁶ = 64.", "5⁻² = 1/25.", "(2x³)² = 4x⁶."],
-        "watchOut": "These laws only work for the SAME base. 2³ · 3² is NOT 6⁵. Negative exponents flip to fraction, don't make negative number."
+        "rule": "For positive integer n, aⁿ is a product of n factors equal to a. Integer exponent laws: aᵐaⁿ=aᵐ⁺ⁿ, aᵐ/aⁿ=aᵐ⁻ⁿ, (aᵐ)ⁿ=aᵐⁿ and (ab)ⁿ=aⁿbⁿ. For a≠0, a⁰=1 and a⁻ⁿ=1/aⁿ. Every denominator must be nonzero.",
+        "examples": [
+          "3² · 3⁴ = 3⁶ = 729.",
+          "(2³)² = 2⁶ = 64.",
+          "5⁻² = 1/25.",
+          "(2x³)² = 4x⁶."
+        ],
+        "review": {
+          "englishTerm": "Laws of exponents",
+          "russianTerm": "Свойства степеней",
+          "contrast": {
+            "en": "Adding exponents requires the same base; distributing a power over a product requires the same exponent. A negative exponent means a reciprocal.",
+            "ru": "Сложение показателей требует одинакового основания; степень произведения распределяют с одним показателем. Отрицательный показатель означает обратную величину."
+          },
+          "sources": [
+            {
+              "title": "1.2 Exponents and Scientific Notation",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-2-exponents-and-scientific-notation",
+              "language": "en",
+              "section": "1.2 Exponents and Scientific Notation"
+            }
+          ]
+        }
       },
       "fractionalIndices": {
         "name": "Fractional indices (Extended)",
-        "rule": "a^(1/n) = ⁿ√a (the nth root). a^(m/n) = (ⁿ√a)ᵐ = ⁿ√(aᵐ).",
-        "examples": ["8^(1/3) = ∛8 = 2.", "16^(3/4) = (⁴√16)³ = 2³ = 8.", "27^(−2/3) = 1 / 27^(2/3) = 1 / (∛27)² = 1/9.", "x^(1/2) = √x."],
-        "tip": "Denominator is the ROOT (n in ⁿ√), numerator is the POWER (m in xᵐ). Easier to take root first, then power."
+        "rule": "For a>0 and integers m,n with n>0, a^(m/n)=(ⁿ√a)ᵐ. The positive nth root is the number whose nth power is a. A negative exponent additionally takes the reciprocal.",
+        "examples": [
+          "8^(1/3) = ∛8 = 2.",
+          "16^(3/4) = (⁴√16)³ = 2³ = 8.",
+          "27^(−2/3) = 1 / 27^(2/3) = 1 / (∛27)² = 1/9.",
+          "x^(1/2) = √x."
+        ],
+        "review": {
+          "englishTerm": "Fractional indices (Extended)",
+          "russianTerm": "Дробные степени (Extended)",
+          "contrast": {
+            "en": "√a denotes the nonnegative square root, whereas solving x²=a may give two solutions. For negative a, real roots and exponent laws require separate domain checks.",
+            "ru": "√a обозначает неотрицательный квадратный корень, а уравнение x²=a может иметь два корня. Для a<0 действительные корни и свойства степеней требуют отдельной проверки области определения."
+          },
+          "sources": [
+            {
+              "title": "1.3 Radicals and Rational Exponents",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+              "language": "en",
+              "section": "1.3 Radicals and Rational Exponents"
+            },
+            {
+              "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+              "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+              "language": "ru",
+              "section": "Корни чётной и нечётной степени; арифметический корень"
+            }
+          ],
+          "model": {
+            "en": "The main exponent rule here uses a>0. Even real roots require nonnegative radicands; odd roots such as ∛(−8)=−2 exist.",
+            "ru": "Основное правило здесь дано при a>0. Для действительного корня чётной степени подкоренное выражение неотрицательно; нечётные корни, например ∛(−8)=−2, существуют."
+          }
+        }
       },
       "standardForm": {
         "name": "Standard form (scientific notation)",
-        "rule": "Write as a × 10ⁿ where 1 ≤ a < 10 and n is an integer. Used for very large or very small numbers.",
-        "examples": ["540,000 = 5.4 × 10⁵.", "0.000072 = 7.2 × 10⁻⁵.", "Speed of light: 3 × 10⁸ m/s.", "Multiply: (3×10⁴) × (2×10⁻²) = 6×10² = 600."],
-        "watchOut": "5.4 × 10⁵ ≠ 54 × 10⁴ in standard form — `a` must be between 1 and 10. Add/subtract: convert to same power first."
+        "rule": "Scientific notation writes a nonzero real number as a×10ⁿ, where n is an integer and 1≤|a|<10. For positive numbers this is 1≤a<10. The coefficient holds the significant digits; n gives the power of ten. Zero is written separately as 0.",
+        "examples": [
+          "540,000 = 5.4 × 10⁵.",
+          "0.000072 = 7.2 × 10⁻⁵.",
+          "Speed of light: 3 × 10⁸ m/s.",
+          "Multiply: (3×10⁴) × (2×10⁻²) = 6×10² = 600."
+        ],
+        "review": {
+          "englishTerm": "Standard form (scientific notation)",
+          "russianTerm": "Стандартная (научная) форма",
+          "contrast": {
+            "en": "5.4×10⁵=54×10⁴ numerically, but only the first is normalised scientific notation. Standard form has other meanings for polynomials.",
+            "ru": "Численно 5.4×10⁵=54×10⁴, но только первая запись нормализована. Английское standard form имеет и другие значения для многочленов."
+          },
+          "sources": [
+            {
+              "title": "1.2 Exponents and Scientific Notation",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-2-exponents-and-scientific-notation",
+              "language": "en",
+              "section": "1.2 Exponents and Scientific Notation"
+            }
+          ]
+        }
       },
       "unitConversion": {
         "name": "Conversion of units",
-        "rule": "Length: 1 km = 1000 m = 10⁵ cm = 10⁶ mm. Mass: 1 t = 1000 kg = 10⁶ g. Volume: 1 m³ = 1000 L; 1 L = 1000 cm³ = 1000 mL. For compound units, convert each: km/h → m/s requires ÷3.6.",
-        "examples": ["72 km/h → 72/3.6 = 20 m/s.", "5 m² = 5 × 100 × 100 = 50,000 cm² (because 1 m² has 100×100 cm²).", "2.5 hours = 2.5 × 60 × 60 = 9000 s.", "0.5 L = 500 cm³."],
-        "tip": "For area, the conversion is squared (m²→cm² ×10⁴). For volume, cubed (m³→cm³ ×10⁶). Common mistake."
+        "rule": "Unit conversion expresses the same quantity with another unit. Multiply by a ratio equal to one: 1 km=1000 m, 1 t=1000 kg, 1 L=1000 cm³ and 1 m³=1000 L. Square length conversion factors for area, cube them for volume, and convert numerator and denominator for compound units.",
+        "examples": [
+          "72 km/h → 72/3.6 = 20 m/s.",
+          "5 m² = 5 × 100 × 100 = 50,000 cm² (because 1 m² has 100×100 cm²).",
+          "2.5 hours = 2.5 × 60 × 60 = 9000 s.",
+          "0.5 L = 500 cm³."
+        ],
+        "review": {
+          "englishTerm": "Conversion of units",
+          "russianTerm": "Перевод единиц измерения",
+          "contrast": {
+            "en": "A numerical value changes when the unit changes; the physical quantity stays the same. 1 m²=10,000 cm², not 100 cm².",
+            "ru": "При смене единицы меняется числовое значение, но сама величина сохраняется. 1 м²=10 000 см², а не 100 см²."
+          },
+          "sources": [
+            {
+              "title": "7.5 Systems of Measurement",
+              "url": "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+              "language": "en",
+              "section": "7.5 Systems of Measurement"
+            }
+          ]
+        }
       },
       "surdsSimplify": {
         "name": "Surds — simplifying",
-        "rule": "A surd is √n where n is not a perfect square. Simplify by extracting the largest perfect-square factor: √(a²b) = a√b.",
-        "examples": ["√50 = √(25·2) = 5√2.", "√72 = √(36·2) = 6√2.", "√(8x²) = 2x√2.", "√300 = √(100·3) = 10√3."],
-        "tip": "Always find the LARGEST perfect square factor. List of perfect squares: 4, 9, 16, 25, 36, 49, 64, 81, 100…"
+        "rule": "A surd is an irrational root of a rational number, kept in exact root form. Here we mainly use √n for positive integers n that are not perfect squares. Simplify by taking square factors out: √(a²b)=|a|√b for real a and b≥0.",
+        "examples": [
+          "√50=√(25·2)=5√2.",
+          "√72=√(36·2)=6√2.",
+          "√(8x²)=2|x|√2 for real x; when x=−1, the result is 2√2.",
+          "√300=10√3."
+        ],
+        "review": {
+          "englishTerm": "Surds — simplifying",
+          "russianTerm": "Корни — упрощение",
+          "contrast": {
+            "en": "A radical is the root notation; a surd has an irrational value. √9=3 is a radical expression but not a surd. π is irrational but is not a surd.",
+            "ru": "Радикал — знак корня; surd имеет иррациональное значение. √9=3 записано с радикалом, но это не surd. Число π иррационально, но не является surd."
+          },
+          "sources": [
+            {
+              "title": "1.3 Radicals and Rational Exponents",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+              "language": "en",
+              "section": "1.3 Radicals and Rational Exponents"
+            },
+            {
+              "title": "1.1 Real Numbers: Algebra Essentials",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+              "language": "en",
+              "section": "1.1 Real Numbers: Algebra Essentials"
+            },
+            {
+              "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+              "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+              "language": "ru",
+              "section": "Корни чётной и нечётной степени; арифметический корень"
+            }
+          ],
+          "visual": {
+            "kind": "comparison",
+            "title": {
+              "en": "Root expression or surd?",
+              "ru": "Корень или иррациональный корень?"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "√9=3",
+                  "ru": "√9=3"
+                },
+                "detail": {
+                  "en": "Rational; not a surd",
+                  "ru": "Рациональное число; не surd"
+                }
+              },
+              {
+                "label": {
+                  "en": "√12=2√3",
+                  "ru": "√12=2√3"
+                },
+                "detail": {
+                  "en": "Irrational; a surd",
+                  "ru": "Иррациональный корень; surd"
+                }
+              },
+              {
+                "label": {
+                  "en": "√(x²)=|x|",
+                  "ru": "√(x²)=|x|"
+                },
+                "detail": {
+                  "en": "Principal square root is nonnegative",
+                  "ru": "Арифметический квадратный корень неотрицателен"
+                }
+              }
+            ],
+            "caption": {
+              "en": "Classify the value, not just the presence of a radical sign.",
+              "ru": "Классифицируйте значение, а не само наличие знака корня."
+            }
+          }
+        }
       },
       "surdsOperate": {
         "name": "Surds — operations & rationalising",
-        "rule": "Add/subtract: only LIKE surds combine (3√2 + 5√2 = 8√2). Multiply: √a · √b = √(ab). Divide & rationalise: multiply top & bottom by surd in denominator.",
-        "examples": ["√3 · √12 = √36 = 6.", "(2+√5)(2−√5) = 4 − 5 = −1 (difference of squares).", "5/√2 × √2/√2 = 5√2/2.", "1/(3+√2) × (3−√2)/(3−√2) = (3−√2)/7."],
-        "watchOut": "Cannot combine √a + √b into √(a+b). √2 + √3 ≠ √5."
+        "rule": "Simplify radicals before combining like terms: p√d+q√d=(p+q)√d. For a,b≥0, √a√b=√(ab); for b>0, √a/√b=√(a/b). Rationalising rewrites a fraction with a rational denominator by multiplying numerator and denominator by the same nonzero factor, often a conjugate.",
+        "examples": [
+          "√3 · √12 = √36 = 6.",
+          "(2+√5)(2−√5) = 4 − 5 = −1 (difference of squares).",
+          "5/√2 × √2/√2 = 5√2/2.",
+          "1/(3+√2) × (3−√2)/(3−√2) = (3−√2)/7."
+        ],
+        "review": {
+          "englishTerm": "Surds — operations & rationalising",
+          "russianTerm": "Корни — операции и рационализация",
+          "contrast": {
+            "en": "A conjugate changes the middle sign: 3+√2 and 3−√2. Roots do not distribute over addition: √(a+b) is generally not √a+√b.",
+            "ru": "Сопряжённые выражения отличаются знаком между слагаемыми: 3+√2 и 3−√2. Корень в общем случае не распределяется по сумме: √(a+b)≠√a+√b."
+          },
+          "sources": [
+            {
+              "title": "1.3 Radicals and Rational Exponents",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+              "language": "en",
+              "section": "1.3 Radicals and Rational Exponents"
+            },
+            {
+              "title": "1.6 Rational Expressions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-6-rational-expressions",
+              "language": "en",
+              "section": "1.6 Rational Expressions"
+            },
+            {
+              "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+              "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+              "language": "ru",
+              "section": "Корни чётной и нечётной степени; арифметический корень"
+            }
+          ]
+        }
       },
       "absolute": {
         "name": "Absolute values",
-        "rule": "|x| = distance from 0. Always ≥ 0. |x| = x if x≥0, |x| = −x if x<0. |a − b| = distance between a and b.",
-        "examples": ["|−7| = 7.", "|3 − 10| = 7.", "|x − 5| = 3 means x = 8 or x = 2.", "|2x + 1| < 5 means −5 < 2x+1 < 5, so −3 < x < 2."],
-        "tip": "For inequalities: |x| < k → −k < x < k. |x| > k → x > k or x < −k."
+        "rule": "For a real number x, |x| is its distance from zero on the number line: |x|=x for x≥0 and |x|=−x for x<0. Thus |x|≥0 and |a−b| is the distance between a and b.",
+        "examples": [
+          "|−7| = 7.",
+          "|3 − 10| = 7.",
+          "|x − 5| = 3 means x = 8 or x = 2.",
+          "|2x + 1| < 5 means −5 < 2x+1 < 5, so −3 < x < 2."
+        ],
+        "review": {
+          "englishTerm": "Absolute values",
+          "russianTerm": "Модули чисел",
+          "contrast": {
+            "en": "An absolute value is a nonnegative magnitude, not a rule that always changes the sign. For k>0, |x|<k means −k<x<k; |x|>k means x<−k or x>k.",
+            "ru": "Модуль — неотрицательная величина, а не правило обязательной смены знака. При k>0 условие |x|<k равносильно −k<x<k; |x|>k — условию x<−k или x>k."
+          },
+          "sources": [
+            {
+              "title": "1.1 Real Numbers: Algebra Essentials",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+              "language": "en",
+              "section": "1.1 Real Numbers: Algebra Essentials"
+            },
+            {
+              "title": "OpenStax — 2.7 Linear Inequalities",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+              "language": "en",
+              "section": "2.7 Linear Inequalities"
+            }
+          ]
+        }
       }
     }
   },
@@ -159,14 +625,14 @@
     "subTopics": {
       "mappings": "Mappings, domain & range",
       "verticalLine": "Vertical line test",
-      "quadraticsFactor": "Quadratics — expand & factorize",
-      "quadraticsGraph": "Quadratics — graphical representation",
+      "quadraticsFactor": "Quadratic expressions — expanding and factorising",
+      "quadraticsGraph": "Quadratic functions and their graphs",
       "vertexForm": "Vertex form",
       "transformations": "Function transformations",
-      "solveGeneral": "Solving quadratics — general",
-      "solveFactor": "Solving — factorize",
+      "solveGeneral": "Quadratic equations and real roots",
+      "solveFactor": "Solving by factorisation",
       "solveCompleteSquare": "Solving — complete the square",
-      "solveFormula": "Solving — quadratic formula",
+      "solveFormula": "Quadratic formula",
       "solveGraphical": "Solving — graphically",
       "rearrange": "Changing the subject of a formula",
       "algebraicFractions": "Algebraic fractions (Extended)",
@@ -177,99 +643,651 @@
     "subTopicsDetailed": {
       "mappings": {
         "name": "Mappings, domain & range",
-        "rule": "A function maps each input (domain) to exactly one output (range/codomain). Notation: f: x → 2x+1 or f(x) = 2x+1.",
-        "examples": ["f(x) = x², domain ℝ, range [0, ∞).", "g(x) = 1/x, domain ℝ \\ {0}, range ℝ \\ {0}.", "h(x) = √x, domain [0, ∞), range [0, ∞).", "If f(x) = 3x − 2, then f(4) = 10 and f(−1) = −5."],
-        "tip": "Domain = allowed inputs. Range = actual outputs. Find restrictions: division by 0, even roots of negatives."
+        "rule": "A function assigns exactly one output to each input in its domain. The codomain is the declared set of possible output values; the range is the subset actually attained. For f:ℝ→ℝ with f(x)=x², the domain and codomain are ℝ, but the range is [0,∞).",
+        "examples": [
+          "f(x) = x², domain ℝ, range [0, ∞).",
+          "g(x) = 1/x, domain ℝ \\ {0}, range ℝ \\ {0}.",
+          "h(x) = √x, domain [0, ∞), range [0, ∞).",
+          "If f(x) = 3x − 2, then f(4) = 10 and f(−1) = −5."
+        ],
+        "review": {
+          "englishTerm": "Mappings, domain & range",
+          "russianTerm": "Отображения, область определения и значений",
+          "contrast": {
+            "en": "Different inputs may share an output. Domain, codomain and range have different roles; a formula alone does not always specify the intended domain.",
+            "ru": "Разным аргументам может соответствовать одно значение. Область определения, кодомен и область значений — разные понятия; формула не всегда полностью задаёт область определения."
+          },
+          "sources": [
+            {
+              "title": "3.1 Functions and Function Notation",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+              "language": "en",
+              "section": "3.1 Functions and Function Notation"
+            },
+            {
+              "title": "3.2 Domain and Range",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range",
+              "language": "en",
+              "section": "3.2 Domain and Range"
+            },
+            {
+              "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+              "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+              "language": "ru",
+              "section": "Аргумент, значение функции; единственность соответствия"
+            },
+            {
+              "title": "Oscar Levin — 5.2 Functions — Domain, Codomain and Range",
+              "url": "https://discrete.openmathbooks.org/dmoi4/sec_structures-functions.html",
+              "language": "en",
+              "section": "5.2 Functions — Domain, Codomain and Range"
+            }
+          ],
+          "visual": {
+            "kind": "flow",
+            "title": {
+              "en": "Domain → rule → range",
+              "ru": "Область определения → правило → область значений"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "{−2, 0, 2}",
+                  "ru": "{−2, 0, 2}"
+                },
+                "detail": {
+                  "en": "Three allowed inputs",
+                  "ru": "Три допустимых аргумента"
+                }
+              },
+              {
+                "label": {
+                  "en": "f(x)=x²",
+                  "ru": "f(x)=x²"
+                },
+                "detail": {
+                  "en": "−2→4; 0→0; 2→4",
+                  "ru": "−2→4; 0→0; 2→4"
+                }
+              },
+              {
+                "label": {
+                  "en": "{0, 4}",
+                  "ru": "{0, 4}"
+                },
+                "detail": {
+                  "en": "The attained range; codomain may be ℝ",
+                  "ru": "Достигнутые значения; кодомен может быть ℝ"
+                }
+              }
+            ],
+            "caption": {
+              "en": "Each input has one output. Two inputs can have the same output.",
+              "ru": "У каждого аргумента одно значение. У разных аргументов значения могут совпадать."
+            }
+          }
+        }
       },
       "verticalLine": {
         "name": "Vertical line test",
-        "rule": "A graph represents a function if and only if every vertical line crosses it AT MOST ONCE. If a vertical line crosses twice, one x gives two y's — not a function.",
-        "examples": ["y = x² PASSES — function.", "x = y² (sideways parabola) FAILS — vertical line at x=1 hits y=1 and y=−1.", "Circle x² + y² = 4 FAILS — not a function."],
-        "tip": "Quick test for graphs. For algebra, ensure each x has unique y."
+        "rule": "A set of points in the xy-plane is the graph of y as a function of x exactly when no vertical line meets it at more than one point. Each x in the domain must have exactly one y.",
+        "examples": [
+          "y = x² PASSES — function.",
+          "x = y² (sideways parabola) FAILS — vertical line at x=1 hits y=1 and y=−1.",
+          "Circle x² + y² = 4 FAILS — not a function."
+        ],
+        "review": {
+          "englishTerm": "Vertical line test",
+          "russianTerm": "Проверка вертикальной прямой",
+          "contrast": {
+            "en": "This checks whether y depends uniquely on x. A horizontal-line test checks a different property: whether a function is one-to-one.",
+            "ru": "Проверка устанавливает единственность y при данном x. Горизонтальная прямая проверяет другое свойство: принимает ли функция каждое значение не более одного раза."
+          },
+          "sources": [
+            {
+              "title": "3.1 Functions and Function Notation",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+              "language": "en",
+              "section": "3.1 Functions and Function Notation"
+            },
+            {
+              "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+              "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+              "language": "ru",
+              "section": "Аргумент, значение функции; единственность соответствия"
+            }
+          ]
+        }
       },
       "quadraticsFactor": {
-        "name": "Quadratics — expand & factorize",
-        "rule": "Expand: (x+a)(x+b) = x² + (a+b)x + ab. Factorize: find p, q such that p·q = c and p+q = b in x² + bx + c.",
-        "examples": ["Expand: (x+3)(x−5) = x² − 2x − 15.", "Factor: x² + 7x + 12 = (x+3)(x+4) (since 3·4=12, 3+4=7).", "Factor: x² − 5x − 14 = (x−7)(x+2).", "Difference of squares: x² − 9 = (x−3)(x+3).", "With leading coefficient: 2x² + 7x + 3 = (2x+1)(x+3)."],
-        "tip": "Check by expanding back. Difference of squares: a² − b² = (a−b)(a+b) — memorise."
+        "name": "Quadratic expressions — expanding and factorising",
+        "rule": "An algebraic expression combines numbers, variables and operations, for example x²+7x+12. Terms are the added parts (x², 7x, 12); factors are multiplied parts. Expanding removes brackets by distributivity; factorising rewrites a sum as a product: x²+7x+12=(x+3)(x+4). A quadratic expression has form ax²+bx+c with a≠0.",
+        "examples": [
+          "Expand: (x+3)(x−5) = x² − 2x − 15.",
+          "Factor: x² + 7x + 12 = (x+3)(x+4) (since 3·4=12, 3+4=7).",
+          "Factor: x² − 5x − 14 = (x−7)(x+2).",
+          "Difference of squares: x² − 9 = (x−3)(x+3).",
+          "With leading coefficient: 2x² + 7x + 3 = (2x+1)(x+3)."
+        ],
+        "review": {
+          "englishTerm": "Quadratic expressions — expanding and factorising",
+          "russianTerm": "Квадратные выражения: раскрытие скобок и разложение на множители",
+          "contrast": {
+            "en": "Factorising an expression does not solve an equation. In x²+bx+c=(x+p)(x+q), p+q=b and pq=c; integer factors need not exist.",
+            "ru": "Разложение выражения на множители само по себе не решает уравнение. В x²+bx+c=(x+p)(x+q) нужны p+q=b и pq=c; целые множители могут не существовать."
+          },
+          "sources": [
+            {
+              "title": "1.2 Use the Language of Algebra",
+              "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+              "language": "en",
+              "section": "1.2 Use the Language of Algebra"
+            },
+            {
+              "title": "1.5 Factoring Polynomials",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials",
+              "language": "en",
+              "section": "1.5 Factoring Polynomials"
+            },
+            {
+              "title": "Фоксфорд Учебник — Алгебраические выражения",
+              "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+              "language": "ru",
+              "section": "Определение выражения; переменные и допустимые значения"
+            }
+          ],
+          "visual": {
+            "kind": "parts",
+            "title": {
+              "en": "Read the algebraic structure",
+              "ru": "Как устроено выражение"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "x² + 7x + 12",
+                  "ru": "x² + 7x + 12"
+                },
+                "detail": {
+                  "en": "Three terms joined by addition",
+                  "ru": "Три слагаемых, соединённые сложением"
+                }
+              },
+              {
+                "label": {
+                  "en": "(x+3)(x+4)",
+                  "ru": "(x+3)(x+4)"
+                },
+                "detail": {
+                  "en": "Two factors joined by multiplication",
+                  "ru": "Два множителя, соединённые умножением"
+                }
+              },
+              {
+                "label": {
+                  "en": "(x+3)(x+4)=0",
+                  "ru": "(x+3)(x+4)=0"
+                },
+                "detail": {
+                  "en": "An equation, solved by x=−3 or x=−4",
+                  "ru": "Уравнение с корнями x=−3 и x=−4"
+                }
+              }
+            ],
+            "caption": {
+              "en": "The first two expressions have the same value for every x. Adding =0 creates an equation with particular solutions.",
+              "ru": "Первые два выражения равны при любом x. Условие =0 задаёт уравнение с конкретными корнями."
+            }
+          }
+        }
       },
       "quadraticsGraph": {
-        "name": "Quadratics — graphical representation",
-        "rule": "y = ax² + bx + c is a parabola. If a > 0, opens up (min); if a < 0, opens down (max). y-intercept = c. x-intercepts where y = 0.",
-        "examples": ["y = x² − 4x + 3 opens up; y-int = 3; x-ints at x=1, x=3.", "y = −x² + 4 opens down; y-int = 4; x-ints at x = ±2.", "Vertex (turning point) at x = −b/(2a)."],
-        "tip": "Use the Quadratic Explorer simulation to see how a, b, c change the graph."
+        "name": "Quadratic functions and their graphs",
+        "rule": "A quadratic function f(x)=ax²+bx+c has a≠0 and, on domain ℝ, a parabola as its graph. Its y-intercept is (0,c); x-intercepts are (r,0) where f(r)=0. The vertex is a minimum for a>0 and a maximum for a<0. Its x-coordinate is −b/(2a).",
+        "examples": [
+          "y = x² − 4x + 3 opens up; y-int = 3; x-ints at x=1, x=3.",
+          "y = −x² + 4 opens down; y-int = 4; x-ints at x = ±2.",
+          "Vertex (turning point) at x = −b/(2a)."
+        ],
+        "review": {
+          "englishTerm": "Quadratic functions and their graphs",
+          "russianTerm": "Квадратичные функции и их графики",
+          "contrast": {
+            "en": "A root is an input value; an intercept is a point. At a repeated root the parabola touches the x-axis without crossing it.",
+            "ru": "Корень — значение аргумента, а точка пересечения имеет две координаты. При двукратном корне парабола касается оси x, не пересекая её."
+          },
+          "sources": [
+            {
+              "title": "5.1 Quadratic Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+              "language": "en",
+              "section": "5.1 Quadratic Functions"
+            }
+          ]
+        }
       },
       "vertexForm": {
-        "name": "Vertex form (completing the square)",
-        "rule": "y = a(x − h)² + k. Vertex at (h, k). Axis of symmetry: x = h. Convert from standard form by completing the square.",
-        "examples": ["y = x² − 6x + 5 → y = (x − 3)² − 4. Vertex (3, −4).", "y = 2x² + 8x − 3 → factor 2 from quadratic terms: 2(x² + 4x) − 3 → 2(x+2)² − 8 − 3 = 2(x+2)² − 11."],
-        "tip": "Half the coefficient of x, square it, add and subtract. Vertex form makes maxima/minima trivial to read."
+        "name": "Vertex form",
+        "rule": "Vertex form is y=a(x−h)²+k with a≠0. Its vertex is (h,k), axis of symmetry x=h, and extreme value k. Completing the square rewrites ax²+bx+c in this form without changing its value.",
+        "examples": [
+          "y = x² − 6x + 5 → y = (x − 3)² − 4. Vertex (3, −4).",
+          "y = 2x² + 8x − 3 → factor 2 from quadratic terms: 2(x² + 4x) − 3 → 2(x+2)² − 8 − 3 = 2(x+2)² − 11."
+        ],
+        "review": {
+          "englishTerm": "Vertex form",
+          "russianTerm": "Канонический вид квадратичной функции",
+          "contrast": {
+            "en": "The sign inside the bracket is opposite to h: (x+2)² has h=−2. For a≠1, first factor a from the quadratic and linear terms.",
+            "ru": "Знак в скобках противоположен h: у (x+2)² значение h=−2. При a≠1 сначала вынесите a из квадратного и линейного слагаемых."
+          },
+          "sources": [
+            {
+              "title": "5.1 Quadratic Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+              "language": "en",
+              "section": "5.1 Quadratic Functions"
+            },
+            {
+              "title": "2.5 Quadratic Equations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+              "language": "en",
+              "section": "2.5 Quadratic Equations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Квадратные уравнения",
+              "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+              "language": "ru",
+              "section": "Определение; старший коэффициент; приведённое уравнение"
+            }
+          ]
+        }
       },
       "transformations": {
         "name": "Function transformations",
-        "rule": "y = f(x) + a — shift UP by a. y = f(x + a) — shift LEFT by a. y = af(x) — vertical stretch by a. y = f(ax) — horizontal compression by a. y = −f(x) — reflect in x-axis. y = f(−x) — reflect in y-axis.",
-        "examples": ["y = (x − 3)² + 2 is y = x² shifted right 3, up 2.", "y = 2x² is y = x² stretched vertically by 2.", "y = (2x)² = 4x² is y = x² compressed horizontally by 2 — same as vertical stretch by 4.", "y = −sin(x) is y = sin(x) reflected in x-axis."],
-        "watchOut": "Horizontal shift sign is OPPOSITE to what you write: f(x − 3) shifts RIGHT 3 (not left). Counter-intuitive."
+        "rule": "For g(x)=a f(b(x−h))+k with a,b≠0, a point (u,v) on y=f(x) maps to (h+u/b, k+av). Thus h,k translate the graph; |a| scales vertical distances and 1/|b| scales horizontal distances. Negative a or b also reflects in the relevant direction.",
+        "examples": [
+          "y = (x − 3)² + 2 is y = x² shifted right 3, up 2.",
+          "y = 2x² is y = x² stretched vertically by 2.",
+          "y=(2x)²=4x² has horizontal scale factor 1/2 relative to y=x²; for this particular base function it also equals a vertical stretch by 4.",
+          "y = −sin(x) is y = sin(x) reflected in x-axis."
+        ],
+        "review": {
+          "englishTerm": "Function transformations",
+          "russianTerm": "Преобразования функций",
+          "contrast": {
+            "en": "f(2x) halves horizontal distances: its horizontal scale factor is 1/2. Scaling and translation generally depend on their order.",
+            "ru": "f(2x) уменьшает горизонтальные расстояния вдвое: коэффициент по горизонтали равен 1/2. Результат масштабирования и переноса обычно зависит от их порядка."
+          },
+          "sources": [
+            {
+              "title": "3.5 Transformation of Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+              "language": "en",
+              "section": "3.5 Transformation of Functions"
+            }
+          ]
+        }
       },
       "solveGeneral": {
-        "name": "Solving quadratics — general",
-        "rule": "ax² + bx + c = 0. Four methods: 1) factorize, 2) complete the square, 3) quadratic formula, 4) graphically. Always check: discriminant Δ = b² − 4ac. Δ > 0: 2 real roots; Δ = 0: 1 root (repeated); Δ < 0: no real roots.",
-        "examples": ["x² + 5x + 6 = 0 → Δ = 1 > 0 → factor: (x+2)(x+3) = 0 → x=−2 or x=−3.", "x² − 4x + 4 = 0 → Δ = 0 → repeated root x = 2.", "x² + x + 1 = 0 → Δ = −3 < 0 → no real solutions."],
-        "tip": "If factorizing fails quickly, use the formula. Discriminant tells you what to expect BEFORE solving."
+        "name": "Quadratic equations and real roots",
+        "rule": "An equation states that two expressions are equal. A solution is a permitted value making the equality true. A quadratic equation can be written ax²+bx+c=0 with a≠0. For real coefficients, Δ=b²−4ac gives two distinct real roots if Δ>0, one repeated root if Δ=0 and no real roots if Δ<0.",
+        "examples": [
+          "x² + 5x + 6 = 0 → Δ = 1 > 0 → factor: (x+2)(x+3) = 0 → x=−2 or x=−3.",
+          "x² − 4x + 4 = 0 → Δ = 0 → repeated root x = 2.",
+          "x² + x + 1 = 0 → Δ = −3 < 0 → no real solutions."
+        ],
+        "review": {
+          "englishTerm": "Quadratic equations and real roots",
+          "russianTerm": "Квадратные уравнения и действительные корни",
+          "contrast": {
+            "en": "An expression is evaluated or transformed; an equation is solved. No real roots does not mean no complex roots.",
+            "ru": "Выражение вычисляют или преобразуют; уравнение решают. Отсутствие действительных корней не означает отсутствия комплексных."
+          },
+          "sources": [
+            {
+              "title": "1.2 Use the Language of Algebra",
+              "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+              "language": "en",
+              "section": "1.2 Use the Language of Algebra"
+            },
+            {
+              "title": "2.5 Quadratic Equations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+              "language": "en",
+              "section": "2.5 Quadratic Equations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Алгебраические выражения",
+              "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+              "language": "ru",
+              "section": "Определение выражения; переменные и допустимые значения"
+            },
+            {
+              "title": "Фоксфорд Учебник — Квадратные уравнения",
+              "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+              "language": "ru",
+              "section": "Определение; старший коэффициент; приведённое уравнение"
+            }
+          ]
+        }
       },
       "solveFactor": {
-        "name": "Solving — factorize",
-        "rule": "If product of factors = 0, then at least one factor = 0. (x − a)(x − b) = 0 ⇒ x = a or x = b. Fastest method when factors are integers.",
-        "examples": ["x² − 7x + 12 = 0 → (x − 3)(x − 4) = 0 → x = 3 or x = 4.", "x² + 2x = 0 → x(x + 2) = 0 → x = 0 or x = −2.", "x² = 16 → x² − 16 = 0 → (x−4)(x+4)=0 → x = ±4."],
-        "watchOut": "Don't divide by x — you lose the x = 0 solution. Move all terms to one side first."
+        "name": "Solving by factorisation",
+        "rule": "The zero-product property says that a product of real numbers is zero exactly when at least one factor is zero. Write the equation as a product equal to zero, then solve each factor equation: (x−p)(x−q)=0 gives x=p or x=q.",
+        "examples": [
+          "x² − 7x + 12 = 0 → (x − 3)(x − 4) = 0 → x = 3 or x = 4.",
+          "x² + 2x = 0 → x(x + 2) = 0 → x = 0 or x = −2.",
+          "x² = 16 → x² − 16 = 0 → (x−4)(x+4)=0 → x = ±4."
+        ],
+        "review": {
+          "englishTerm": "Solving by factorisation",
+          "russianTerm": "Решение уравнений разложением на множители",
+          "contrast": {
+            "en": "This property applies to a product equal to zero, not a sum or a product equal to 5. Dividing by an unknown factor can lose zero solutions.",
+            "ru": "Правило относится к произведению, равному нулю, а не к сумме или произведению, равному 5. Деление на неизвестный множитель может потерять нулевые корни."
+          },
+          "sources": [
+            {
+              "title": "2.5 Quadratic Equations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+              "language": "en",
+              "section": "2.5 Quadratic Equations"
+            },
+            {
+              "title": "1.5 Factoring Polynomials",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials",
+              "language": "en",
+              "section": "1.5 Factoring Polynomials"
+            },
+            {
+              "title": "Фоксфорд Учебник — Квадратные уравнения",
+              "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+              "language": "ru",
+              "section": "Определение; старший коэффициент; приведённое уравнение"
+            }
+          ]
+        }
       },
       "solveCompleteSquare": {
         "name": "Solving — complete the square",
-        "rule": "Convert to vertex form, then isolate the square. (x + p)² = q ⇒ x = −p ± √q. Useful when factoring fails and you want exact (surd) answers.",
-        "examples": ["x² + 6x − 7 = 0 → (x+3)² − 9 − 7 = 0 → (x+3)² = 16 → x+3 = ±4 → x = 1 or −7.", "x² − 4x + 1 = 0 → (x−2)² − 3 = 0 → x = 2 ± √3."],
-        "tip": "Always works for x² coefficient = 1. For a ≠ 1, factor a out first."
+        "rule": "Completing the square uses x²+2px=(x+p)²−p². After isolating (x+p)²=q, real solutions are x=−p±√q when q≥0; for q<0 there are no real solutions. Divide by a≠0 first when solving ax²+bx+c=0.",
+        "examples": [
+          "x² + 6x − 7 = 0 → (x+3)² − 9 − 7 = 0 → (x+3)² = 16 → x+3 = ±4 → x = 1 or −7.",
+          "x² − 4x + 1 = 0 → (x−2)² − 3 = 0 → x = 2 ± √3."
+        ],
+        "review": {
+          "englishTerm": "Solving — complete the square",
+          "russianTerm": "Решение выделением полного квадрата",
+          "contrast": {
+            "en": "The symbol √q gives one nonnegative root; ± is needed because both opposite numbers have the same square.",
+            "ru": "Символ √q означает один неотрицательный корень; знак ± нужен потому, что противоположные числа имеют одинаковый квадрат."
+          },
+          "sources": [
+            {
+              "title": "2.5 Quadratic Equations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+              "language": "en",
+              "section": "2.5 Quadratic Equations"
+            },
+            {
+              "title": "1.3 Radicals and Rational Exponents",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+              "language": "en",
+              "section": "1.3 Radicals and Rational Exponents"
+            },
+            {
+              "title": "Фоксфорд Учебник — Квадратные уравнения",
+              "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+              "language": "ru",
+              "section": "Определение; старший коэффициент; приведённое уравнение"
+            },
+            {
+              "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+              "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+              "language": "ru",
+              "section": "Корни чётной и нечётной степени; арифметический корень"
+            }
+          ]
+        }
       },
       "solveFormula": {
-        "name": "Solving — quadratic formula",
-        "rule": "For ax² + bx + c = 0, x = [−b ± √(b² − 4ac)] / 2a. Works for ALL quadratics, gives exact answers in surd form.",
-        "examples": ["2x² − 5x + 1 = 0: a=2, b=−5, c=1. x = (5 ± √(25−8))/4 = (5 ± √17)/4.", "x² + 3x + 1 = 0: x = (−3 ± √5)/2."],
-        "tip": "Memorise: 'x equals minus b plus or minus square root of b squared minus four a c, all over two a'. Always works."
+        "name": "Quadratic formula",
+        "rule": "For real a,b,c with a≠0, the quadratic formula is x=(−b±√(b²−4ac))/(2a). It gives real roots when Δ=b²−4ac≥0. Retain the full numerator over 2a and include coefficient signs. If Δ<0, real-root calculations stop here.",
+        "examples": [
+          "2x² − 5x + 1 = 0: a=2, b=−5, c=1. x = (5 ± √(25−8))/4 = (5 ± √17)/4.",
+          "x² + 3x + 1 = 0: x = (−3 ± √5)/2."
+        ],
+        "review": {
+          "englishTerm": "Quadratic formula",
+          "russianTerm": "Формула корней квадратного уравнения",
+          "contrast": {
+            "en": "An exact answer may be rational or involve a surd. A decimal approximation should be marked ≈ and rounded only at the end.",
+            "ru": "Точный ответ может быть рациональным или содержать иррациональный корень. Приближение отмечают знаком ≈ и округляют в конце."
+          },
+          "sources": [
+            {
+              "title": "2.5 Quadratic Equations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+              "language": "en",
+              "section": "2.5 Quadratic Equations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Квадратные уравнения",
+              "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+              "language": "ru",
+              "section": "Определение; старший коэффициент; приведённое уравнение"
+            }
+          ]
+        }
       },
       "solveGraphical": {
         "name": "Solving — graphically",
-        "rule": "x-intercepts of y = f(x) are the solutions of f(x) = 0. Intersection of y = f(x) and y = g(x) gives solutions of f(x) = g(x).",
-        "examples": ["x² − 4 = 0 → graph y = x² − 4, read x = ±2 where graph crosses x-axis.", "Solve x² = x + 2 by plotting y = x² and y = x + 2 — intersect at x = −1, x = 2."],
-        "tip": "Use GDC/Desmos. Useful when algebra is hard, or you only need an approximate answer."
+        "rule": "The real solutions of f(x)=0 are the x-coordinates where y=f(x) meets the x-axis. Solutions of f(x)=g(x) are the x-coordinates of intersections of their graphs, within both domains. A tangent contact counts as an intersection.",
+        "examples": [
+          "x² − 4 = 0 → graph y = x² − 4, read x = ±2 where graph crosses x-axis.",
+          "Solve x² = x + 2 by plotting y = x² and y = x + 2 — intersect at x = −1, x = 2."
+        ],
+        "review": {
+          "englishTerm": "Solving — graphically",
+          "russianTerm": "Решение графически",
+          "contrast": {
+            "en": "A graph usually gives estimates. A limited viewing window can miss roots, and a plotted joining line can hide a discontinuity.",
+            "ru": "По графику обычно получают приближения. Ограниченное окно может скрыть корни, а соединённые точки — разрыв функции."
+          },
+          "sources": [
+            {
+              "title": "2.5 Quadratic Equations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+              "language": "en",
+              "section": "2.5 Quadratic Equations"
+            },
+            {
+              "title": "3.1 Functions and Function Notation",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+              "language": "en",
+              "section": "3.1 Functions and Function Notation"
+            },
+            {
+              "title": "Фоксфорд Учебник — Квадратные уравнения",
+              "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+              "language": "ru",
+              "section": "Определение; старший коэффициент; приведённое уравнение"
+            },
+            {
+              "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+              "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+              "language": "ru",
+              "section": "Аргумент, значение функции; единственность соответствия"
+            }
+          ]
+        }
       },
       "rearrange": {
         "name": "Changing the subject of a formula",
-        "rule": "Treat variables like numbers. Undo operations in reverse order. Whatever you do to one side, do to the other.",
-        "examples": ["Make r the subject of A = πr². → r² = A/π → r = √(A/π).", "Make t the subject of v = u + at. → t = (v − u)/a.", "Make h the subject of V = πr²h/3 → h = 3V/(πr²).", "Make x the subject of y = (x+1)/(x−2). → y(x−2) = x+1 → yx − 2y = x + 1 → x(y−1) = 1 + 2y → x = (1+2y)/(y−1)."],
-        "tip": "When the variable appears twice, collect terms with it on one side and factorize it out."
+        "rule": "A formula is an equation expressing a relationship between quantities. Making a variable the subject means isolating it on one side. Use reversible operations on both sides, track nonzero divisors and use the context to choose signs after taking roots.",
+        "examples": [
+          "Make r the subject of A = πr². → r² = A/π → r = √(A/π).",
+          "Make t the subject of v = u + at. → t = (v − u)/a. (a≠0).",
+          "Make h the subject of V = πr²h/3 → h = 3V/(πr²). (r≠0).",
+          "Make x the subject of y = (x+1)/(x−2). → y(x−2) = x+1 → yx − 2y = x + 1 → x(y−1) = 1 + 2y → x = (1+2y)/(y−1). (x≠2, y≠1)."
+        ],
+        "review": {
+          "englishTerm": "Changing the subject of a formula",
+          "russianTerm": "Выражение переменной из формулы",
+          "contrast": {
+            "en": "From A=πr², a radius satisfies r=√(A/π) because r≥0. From v=u+at, t=(v−u)/a requires a≠0.",
+            "ru": "Из A=πr² для радиуса получаем r=√(A/π), поскольку r≥0. Из v=u+at следует t=(v−u)/a только при a≠0."
+          },
+          "sources": [
+            {
+              "title": "1.2 Use the Language of Algebra",
+              "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+              "language": "en",
+              "section": "1.2 Use the Language of Algebra"
+            },
+            {
+              "title": "2.5 Quadratic Equations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+              "language": "en",
+              "section": "2.5 Quadratic Equations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Алгебраические выражения",
+              "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+              "language": "ru",
+              "section": "Определение выражения; переменные и допустимые значения"
+            },
+            {
+              "title": "Фоксфорд Учебник — Квадратные уравнения",
+              "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+              "language": "ru",
+              "section": "Определение; старший коэффициент; приведённое уравнение"
+            },
+            {
+              "title": "OpenStax — 2.2 Linear Equations in One Variable",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable",
+              "language": "en",
+              "section": "2.2 Linear Equations in One Variable"
+            }
+          ]
+        }
       },
       "algebraicFractions": {
         "name": "Algebraic fractions (Extended)",
-        "rule": "Same rules as numeric fractions: common denominator to add/subtract; multiply numerators × numerators, denominators × denominators; divide by multiplying by the reciprocal. Always factorize first.",
-        "examples": ["1/x + 1/y = (y + x)/(xy).", "(x² − 4)/(x − 2) = (x−2)(x+2)/(x−2) = x + 2 (x ≠ 2).", "(x/3) ÷ (2x/9) = (x/3) × (9/2x) = 9x/6x = 3/2.", "Solve: 3/(x−1) + 2/(x+1) = 1 → multiply both sides by (x−1)(x+1): 3(x+1) + 2(x−1) = (x−1)(x+1) → 5x + 1 = x² − 1 → x² − 5x − 2 = 0."],
-        "watchOut": "Note excluded values where denominator = 0. Cancel only FACTORS, not terms."
+        "rule": "An algebraic fraction is a quotient of expressions, defined only when its denominator is nonzero. Add with a common denominator, multiply numerators and denominators, and divide by multiplying by a nonzero reciprocal. Factoring reveals common factors that can be cancelled while keeping the original exclusions.",
+        "examples": [
+          "1/x + 1/y = (y + x)/(xy). (x≠0, y≠0).",
+          "(x² − 4)/(x − 2) = (x−2)(x+2)/(x−2) = x + 2 (x ≠ 2).",
+          "(x/3) ÷ (2x/9) = (x/3) × (9/2x) = 9x/6x = 3/2. (x≠0).",
+          "Solve: 3/(x−1) + 2/(x+1) = 1 → multiply both sides by (x−1)(x+1): 3(x+1) + 2(x−1) = (x−1)(x+1) → 5x + 1 = x² − 1 → x² − 5x − 2 = 0. (x≠−1, x≠1)."
+        ],
+        "review": {
+          "englishTerm": "Algebraic fractions (Extended)",
+          "russianTerm": "Алгебраические дроби (Extended)",
+          "contrast": {
+            "en": "Factors multiply; terms add. (x²−4)/(x−2)=x+2 for x≠2, but cancelling x in (x+1)/x is invalid.",
+            "ru": "Множители перемножаются, слагаемые складываются. (x²−4)/(x−2)=x+2 при x≠2, но сокращать x в (x+1)/x нельзя."
+          },
+          "sources": [
+            {
+              "title": "1.6 Rational Expressions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-6-rational-expressions",
+              "language": "en",
+              "section": "1.6 Rational Expressions"
+            }
+          ]
+        }
       },
       "proportions": {
         "name": "Direct & inverse proportions",
-        "rule": "Direct: y = kx (y ∝ x); doubling x doubles y. Inverse: y = k/x (y ∝ 1/x); doubling x halves y. Can have squares/cubes too: y ∝ x² or y ∝ 1/x³.",
-        "examples": ["Cost ∝ weight. 3 kg cost £6 → k = 2, so 5 kg cost £10.", "Time ∝ 1/speed. At 60 km/h trip takes 4h → k=240, so at 80 km/h takes 240/80 = 3h.", "Energy ∝ velocity² (kinetic). Double speed → 4× energy.", "Light intensity ∝ 1/(distance)² (inverse square law)."],
-        "tip": "Step 1: write the proportion as y = kx (or y = k/x). Step 2: use given pair to find k. Step 3: apply to new value."
+        "rule": "Direct proportionality has form y=kx: y/x=k for x≠0. Inverse proportionality has form y=k/x with x≠0 and k≠0: xy=k. The constant k is fixed for the model. Proportionality to x² instead means y=kx².",
+        "examples": [
+          "Cost ∝ weight. 3 kg cost £6 → k = 2, so 5 kg cost £10.",
+          "Time ∝ 1/speed. At 60 km/h trip takes 4h → k=240, so at 80 km/h takes 240/80 = 3h.",
+          "For fixed mass at non-relativistic speeds, kinetic energy E = ½mv² is proportional to v²: doubling speed multiplies E by 4.",
+          "For an isotropic point source of fixed power, with no absorption, irradiance on a surface perpendicular to the rays is proportional to 1/r²."
+        ],
+        "review": {
+          "englishTerm": "Direct & inverse proportions",
+          "russianTerm": "Прямая и обратная пропорциональность",
+          "contrast": {
+            "en": "A line y=mx+c with c≠0 is not direct proportionality. Inverse proportion is not merely any decreasing relationship.",
+            "ru": "Прямая y=mx+c при c≠0 не задаёт прямую пропорциональность. Не всякая убывающая зависимость является обратной пропорциональностью."
+          },
+          "sources": [
+            {
+              "title": "5.6 Rational Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-6-rational-functions",
+              "language": "en",
+              "section": "5.6 Rational Functions"
+            }
+          ],
+          "model": {
+            "en": "Physical examples require fixed conditions: time and speed are inversely proportional only for a fixed travel distance.",
+            "ru": "Физические примеры требуют фиксированных условий: время обратно пропорционально скорости только при заданном пути."
+          }
+        }
       },
       "asymptotes": {
         "name": "Rational functions — asymptotes",
-        "rule": "y = 1/x has vertical asymptote x = 0 and horizontal asymptote y = 0. Vertical: where denominator = 0 (and numerator ≠ 0). Horizontal: limit as x → ±∞.",
-        "examples": ["y = 1/(x − 3) → vertical asymptote x = 3, horizontal y = 0.", "y = (x+1)/(x−2) → vertical x = 2, horizontal y = 1 (ratio of leading coefficients).", "y = 1/x²: VA x = 0, HA y = 0, always positive — different from 1/x."],
-        "tip": "Hyperbola y = k/x has two branches in opposite quadrants. Graph never touches the asymptotes."
+        "rule": "An asymptote describes limiting graph behaviour. A vertical asymptote x=c occurs when function values become unbounded as x approaches c from at least one side. A horizontal asymptote y=L means f(x) approaches L as x→∞ or x→−∞. For a rational function, simplify common factors before locating poles.",
+        "examples": [
+          "y = 1/(x − 3) → vertical asymptote x = 3, horizontal y = 0.",
+          "y = (x+1)/(x−2) → vertical x = 2, horizontal y = 1 (ratio of leading coefficients).",
+          "y = 1/x²: VA x = 0, HA y = 0, always positive — different from 1/x."
+        ],
+        "review": {
+          "englishTerm": "Rational functions — asymptotes",
+          "russianTerm": "Рациональные функции — асимптоты",
+          "contrast": {
+            "en": "A cancelled denominator zero may be a removable hole, not a vertical asymptote. A graph can cross a horizontal asymptote.",
+            "ru": "Сокращённый ноль знаменателя может дать устранимый разрыв, а не вертикальную асимптоту. График может пересекать горизонтальную асимптоту."
+          },
+          "sources": [
+            {
+              "title": "5.6 Rational Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-6-rational-functions",
+              "language": "en",
+              "section": "5.6 Rational Functions"
+            }
+          ]
+        }
       },
       "exponential": {
         "name": "Exponential functions",
-        "rule": "y = aᵇˣ where a > 0, b > 0, b ≠ 1. b > 1: growth (rapidly increasing). 0 < b < 1: decay (rapidly decreasing to 0). Passes through (0, a).",
-        "examples": ["y = 2ˣ: doubles every unit. y(0)=1, y(3)=8.", "y = 100 × 0.9ˣ models decay (e.g., depreciation).", "Compound interest: A = P(1 + r)ⁿ.", "Bacterial growth: N = N₀ · 2^(t/T) where T is doubling time."],
-        "tip": "Exponential ≠ polynomial. Compare 2ˣ vs x² — exponential WINS for large x. Always positive, never zero."
+        "rule": "An exponential model has form y=A·bˣ with A>0, b>0 and b≠1 here. Equal increases of x multiply y by a fixed factor: increasing x by 1 multiplies y by b. The graph passes through (0,A); b>1 gives growth, while 0<b<1 gives decay.",
+        "examples": [
+          "y = 2ˣ: doubles every unit. y(0)=1, y(3)=8.",
+          "y = 100 × 0.9ˣ models decay (e.g., depreciation).",
+          "Compound interest: A = P(1 + r)ⁿ.",
+          "Bacterial growth: N = N₀ · 2^(t/T) where T is doubling time."
+        ],
+        "review": {
+          "englishTerm": "Exponential functions",
+          "russianTerm": "Показательные функции",
+          "contrast": {
+            "en": "In bˣ the variable is the exponent; in x² it is the base. Constant percentage change differs from constant absolute change.",
+            "ru": "У bˣ переменная стоит в показателе, у x² — в основании. Постоянный процент изменения отличается от постоянной абсолютной прибавки."
+          },
+          "sources": [
+            {
+              "title": "6.1 Exponential Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-1-exponential-functions",
+              "language": "en",
+              "section": "6.1 Exponential Functions"
+            },
+            {
+              "title": "Российская электронная школа — Показательная функция",
+              "url": "https://resh.edu.ru/subject/lesson/3841/conspect/",
+              "language": "ru",
+              "section": "Урок 21: определение, свойства и график показательной функции"
+            }
+          ],
+          "model": {
+            "en": "Fixed growth rates are modelling assumptions. Populations and prices need not follow the same rate indefinitely.",
+            "ru": "Постоянный темп роста — предположение модели. Численность и цены не обязаны сохранять один темп неограниченно долго."
+          }
+        }
       }
     }
   },
@@ -277,35 +1295,143 @@
     "title": "Sequences & Series",
     "intro": "Linear, quadratic and geometric sequences. General rule for the nth term; sum to infinity (Extended).",
     "subTopics": {
-      "linearGeneral": "Linear sequences — general rule",
+      "linearGeneral": "Arithmetic sequences and the nth term",
       "linearProblems": "Linear — problem solving",
-      "geometric": "Geometric sequences — general rule",
+      "geometric": "Geometric sequences and the nth term",
       "sumInfinity": "Sum to infinity (Extended)"
     },
     "subTopicsDetailed": {
       "linearGeneral": {
-        "name": "Linear (arithmetic) sequences — general rule",
-        "rule": "nth term: uₙ = a + (n − 1)d, where a = first term, d = common difference. The common difference is constant — each term increases (or decreases) by the same amount.",
-        "examples": ["5, 8, 11, 14, … → a=5, d=3, uₙ = 5 + 3(n−1) = 3n + 2.", "20, 17, 14, … → a=20, d=−3, uₙ = 23 − 3n.", "u₁₀ for above: 23 − 30 = −7.", "What's the 100th term of 7, 12, 17, …? a=7, d=5, u₁₀₀ = 7 + 99·5 = 502."],
-        "tip": "Always check: first term (sub n=1) gives a. Sum of first n terms: Sₙ = n/2 · (2a + (n−1)d) = n/2 · (a + uₙ)."
+        "name": "Arithmetic sequences and the nth term",
+        "rule": "A sequence assigns a term uₙ to each integer index n. An arithmetic sequence has constant difference d=uₙ₊₁−uₙ. Starting at n=1 with first term a, uₙ=a+(n−1)d. Its graph consists of separate points on a line; it is not a continuous line.",
+        "examples": [
+          "5, 8, 11, 14, … → a=5, d=3, uₙ = 5 + 3(n−1) = 3n + 2.",
+          "20, 17, 14, … → a=20, d=−3, uₙ = 23 − 3n.",
+          "u₁₀ for above: 23 − 30 = −7.",
+          "What's the 100th term of 7, 12, 17, …? a=7, d=5, u₁₀₀ = 7 + 99·5 = 502."
+        ],
+        "review": {
+          "englishTerm": "Arithmetic sequences and the nth term",
+          "russianTerm": "Арифметическая прогрессия и формула n-го члена",
+          "contrast": {
+            "en": "A term uₙ is one value; a partial sum Sₙ adds the first n terms: Sₙ=n(a+uₙ)/2.",
+            "ru": "Член uₙ — одно значение; частичная сумма Sₙ складывает первые n членов: Sₙ=n(a+uₙ)/2."
+          },
+          "sources": [
+            {
+              "title": "13.2 Arithmetic Sequences",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-2-arithmetic-sequences",
+              "language": "en",
+              "section": "13.2 Arithmetic Sequences"
+            },
+            {
+              "title": "13.4 Series and Their Notations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-4-series-and-their-notations",
+              "language": "en",
+              "section": "13.4 Series and Their Notations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Арифметическая прогрессия",
+              "url": "https://foxford.ru/wiki/matematika/arifmeticheskaya-progressiya",
+              "language": "ru",
+              "section": "Определение; формула общего члена"
+            }
+          ]
+        }
       },
       "linearProblems": {
         "name": "Linear sequences — problem solving",
-        "rule": "Use uₙ formula to: find a missing term; find which term has a given value (solve for n); find d given two non-consecutive terms.",
-        "examples": ["The 5th term is 22, the 10th term is 47. Find a and d. → u₁₀ − u₅ = 5d → 47 − 22 = 25 → d = 5. Then a = 22 − 4·5 = 2.", "Which term equals 200 in 3, 7, 11, …? d=4, a=3. 200 = 3 + 4(n−1) → 197 = 4(n−1) → n = 50.25 → not a term (must be integer).", "Sum first 20 terms of 2, 5, 8, …: a=2, d=3, S₂₀ = 20/2 · (4 + 57) = 610."],
-        "tip": "If n isn't an integer, the value isn't in the sequence. Watch for 'how many terms are less than X' type questions."
+        "rule": "For an arithmetic sequence, u_q−u_p=(q−p)d. Two known terms determine d when p≠q, then determine a. To test whether a value occurs, solve a+(n−1)d=value and check that n is a permitted positive integer.",
+        "examples": [
+          "The 5th term is 22, the 10th term is 47. Find a and d. → u₁₀ − u₅ = 5d → 47 − 22 = 25 → d = 5. Then a = 22 − 4·5 = 2.",
+          "Which term equals 200 in 3, 7, 11, …? d=4, a=3. 200 = 3 + 4(n−1) → 197 = 4(n−1) → n = 50.25 → not a term (must be integer).",
+          "Sum first 20 terms of 2, 5, 8, …: a=2, d=3, S₂₀ = 20/2 · (4 + 57) = 610."
+        ],
+        "review": {
+          "englishTerm": "Linear sequences — problem solving",
+          "russianTerm": "Линейные последовательности — задачи",
+          "contrast": {
+            "en": "The term value can be fractional or negative; the index here must be a positive integer. Observing a few differences does not prove the whole sequence is arithmetic.",
+            "ru": "Значение члена может быть дробным или отрицательным; номер здесь должен быть натуральным. Несколько равных разностей не доказывают правило для всей последовательности."
+          },
+          "sources": [
+            {
+              "title": "13.2 Arithmetic Sequences",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-2-arithmetic-sequences",
+              "language": "en",
+              "section": "13.2 Arithmetic Sequences"
+            },
+            {
+              "title": "Фоксфорд Учебник — Арифметическая прогрессия",
+              "url": "https://foxford.ru/wiki/matematika/arifmeticheskaya-progressiya",
+              "language": "ru",
+              "section": "Определение; формула общего члена"
+            }
+          ]
+        }
       },
       "geometric": {
-        "name": "Geometric sequences — general rule",
-        "rule": "nth term: uₙ = a · r^(n−1), where a = first term, r = common RATIO. Each term is multiplied by r to get the next.",
-        "examples": ["3, 6, 12, 24, … → a=3, r=2. uₙ = 3·2^(n−1). u₁₀ = 3·512 = 1536.", "100, 50, 25, … → r=0.5. u₅ = 100 · 0.5⁴ = 6.25.", "Compound interest: £500 at 4% pa: 500, 520, 540.8, … → r = 1.04. After n years: 500·1.04ⁿ."],
-        "tip": "r is the RATIO (divide successive terms): uₙ₊₁/uₙ = r. If r > 1: grows. 0 < r < 1: decays. r < 0: alternates sign."
+        "name": "Geometric sequences and the nth term",
+        "rule": "A geometric sequence is generated by multiplying each term by a fixed common ratio r: uₙ₊₁=ruₙ. With first term a and n≥1, uₙ=ar^(n−1). The ratio uₙ₊₁/uₙ is usable only when uₙ≠0.",
+        "examples": [
+          "3, 6, 12, 24, … → a=3, r=2. uₙ = 3·2^(n−1). u₁₀ = 3·512 = 1536.",
+          "100, 50, 25, … → r=0.5. u₅ = 100 · 0.5⁴ = 6.25.",
+          "Compound interest: £500 at 4% pa: 500, 520, 540.8, … → r = 1.04. After n years: 500·1.04ⁿ."
+        ],
+        "review": {
+          "englishTerm": "Geometric sequences and the nth term",
+          "russianTerm": "Геометрическая прогрессия и формула n-го члена",
+          "contrast": {
+            "en": "Arithmetic sequences add a fixed difference; geometric sequences multiply by a fixed ratio. For a>0, r>1 gives growth and 0<r<1 gives decay; negative r alternates signs.",
+            "ru": "Арифметическая прогрессия прибавляет разность, геометрическая — умножает на знаменатель. При a>0 и r>1 получается рост, при 0<r<1 — убывание; отрицательное r чередует знаки."
+          },
+          "sources": [
+            {
+              "title": "13.3 Geometric Sequences",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-3-geometric-sequences",
+              "language": "en",
+              "section": "13.3 Geometric Sequences"
+            },
+            {
+              "title": "Фоксфорд Учебник — Геометрическая прогрессия",
+              "url": "https://foxford.ru/wiki/matematika/geometricheskaya-progressiya",
+              "language": "ru",
+              "section": "Определение; формула n-го члена"
+            }
+          ]
+        }
       },
       "sumInfinity": {
         "name": "Sum to infinity (Extended)",
-        "rule": "For a geometric series with |r| < 1, the sum to infinity converges: S∞ = a / (1 − r). If |r| ≥ 1, sum diverges (no finite value).",
-        "examples": ["1 + 1/2 + 1/4 + 1/8 + … = 1/(1−1/2) = 2.", "9 + 3 + 1 + 1/3 + … : a=9, r=1/3. S∞ = 9/(2/3) = 13.5.", "Recurring decimal 0.111… = 0.1 + 0.01 + 0.001 + … = 0.1/(1−0.1) = 1/9.", "If S∞ = 12 and r = 1/4, find a: a = 12·(3/4) = 9."],
-        "watchOut": "Only converges if |r| < 1. For r = 1, sum = na (linear, infinite). For r ≥ 1, infinite."
+        "rule": "A series is a sum of sequence terms. Its sum to infinity is the limit of its partial sums, if that finite limit exists. For a nonzero first term a, the geometric series a+ar+ar²+… converges exactly when |r|<1; then S∞=a/(1−r).",
+        "examples": [
+          "1 + 1/2 + 1/4 + 1/8 + … = 1/(1−1/2) = 2.",
+          "9 + 3 + 1 + 1/3 + … : a=9, r=1/3. S∞ = 9/(2/3) = 13.5.",
+          "Recurring decimal 0.111… = 0.1 + 0.01 + 0.001 + … = 0.1/(1−0.1) = 1/9.",
+          "If S∞ = 12 and r = 1/4, find a: a = 12·(3/4) = 9."
+        ],
+        "review": {
+          "englishTerm": "Sum to infinity (Extended)",
+          "russianTerm": "Сумма бесконечного ряда (Extended)",
+          "contrast": {
+            "en": "Divergence need not mean growth to +∞: 1−1+1−1+… oscillates. If a=0, all terms are zero and the series sums to zero.",
+            "ru": "Расходимость не обязательно означает рост к +∞: 1−1+1−1+… колеблется. При a=0 все члены нулевые и сумма равна нулю."
+          },
+          "sources": [
+            {
+              "title": "13.4 Series and Their Notations",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-4-series-and-their-notations",
+              "language": "en",
+              "section": "13.4 Series and Their Notations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Сумма бесконечной геометрической прогрессии",
+              "url": "https://foxford.ru/wiki/matematika/summa-beskonechnoj-geometricheskoj-progressii",
+              "language": "ru",
+              "section": "Сумма при |q|<1"
+            }
+          ]
+        }
       }
     }
   },
@@ -326,57 +1452,271 @@
     "subTopicsDetailed": {
       "pythagoras": {
         "name": "Pythagoras (incl. converse — Extended)",
-        "rule": "In a right-angled triangle: a² + b² = c², where c is the hypotenuse (longest side, opposite right angle). Converse: if a² + b² = c², the triangle is right-angled.",
-        "examples": ["Sides 3, 4: hypotenuse = √(9+16) = 5.", "Sides 5, 12: hypotenuse = √(25+144) = 13.", "Is a triangle with sides 7, 24, 25 right-angled? 7² + 24² = 625 = 25² → YES.", "3D Pythagoras: diagonal of a box a×b×c = √(a² + b² + c²)."],
-        "tip": "Common Pythagorean triples: (3,4,5), (5,12,13), (8,15,17), (7,24,25). Always identify the hypotenuse first."
+        "rule": "In a Euclidean right triangle with perpendicular legs a,b and hypotenuse c, a²+b²=c². The hypotenuse is opposite the right angle. Conversely, if positive side lengths of a triangle satisfy a²+b²=c² with c the longest, its opposite angle is 90°.",
+        "examples": [
+          "Sides 3, 4: hypotenuse = √(9+16) = 5.",
+          "Sides 5, 12: hypotenuse = √(25+144) = 13.",
+          "Is a triangle with sides 7, 24, 25 right-angled? 7² + 24² = 625 = 25² → YES.",
+          "3D Pythagoras: diagonal of a box a×b×c = √(a² + b² + c²)."
+        ],
+        "review": {
+          "englishTerm": "Pythagoras (incl. converse — Extended)",
+          "russianTerm": "Теорема Пифагора (вкл. обратную — Extended)",
+          "contrast": {
+            "en": "The theorem concerns a right angle. A general triangle needs the cosine rule, and side lengths must be in the same units.",
+            "ru": "Теорема требует прямого угла. Для произвольного треугольника нужна теорема косинусов; длины должны быть в одинаковых единицах."
+          },
+          "sources": [
+            {
+              "title": "7.2 Right Triangle Trigonometry",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+              "language": "en",
+              "section": "7.2 Right Triangle Trigonometry"
+            },
+            {
+              "title": "10.2 Non-right Triangles: Law of Cosines",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-2-non-right-triangles-law-of-cosines",
+              "language": "en",
+              "section": "10.2 Non-right Triangles: Law of Cosines"
+            }
+          ]
+        }
       },
       "trig": {
         "name": "Trigonometry (SOHCAHTOA)",
-        "rule": "In right-angled triangles: sin θ = Opp/Hyp; cos θ = Adj/Hyp; tan θ = Opp/Adj. Use inverse (sin⁻¹, cos⁻¹, tan⁻¹) to find an angle from a ratio.",
-        "examples": ["Find x: hyp = 10, adj = 6, θ = ? → cos θ = 6/10 → θ = cos⁻¹(0.6) ≈ 53.1°.", "Find side: opp = ?, hyp = 8, θ = 30° → opp = 8·sin 30° = 4.", "Tower 50 m. Angle of elevation from 80 m away: tan θ = 50/80 → θ ≈ 32°.", "Angle of depression = angle of elevation (alternate angles)."],
-        "tip": "Label sides relative to the angle you know/need. Hypotenuse is always opposite the right angle."
+        "rule": "For an acute angle θ in a right triangle, sin θ=opposite leg/hypotenuse, cos θ=adjacent leg/hypotenuse and tan θ=opposite leg/adjacent leg. The side roles depend on θ; the hypotenuse is fixed. Use inverse trigonometric functions to recover the acute angle from a ratio.",
+        "examples": [
+          "Find x: hyp = 10, adj = 6, θ = ? → cos θ = 6/10 → θ = cos⁻¹(0.6) ≈ 53.1°.",
+          "Find side: opp = ?, hyp = 8, θ = 30° → opp = 8·sin 30° = 4.",
+          "Tower 50 m. Angle of elevation from 80 m away: tan θ = 50/80 → θ ≈ 32°.",
+          "Angle of depression = angle of elevation (alternate angles)."
+        ],
+        "review": {
+          "englishTerm": "Trigonometry (SOHCAHTOA)",
+          "russianTerm": "Тригонометрия (СОН-КАХ-ТОА)",
+          "contrast": {
+            "en": "sin⁻¹ denotes arcsin on a calculator, not 1/sin. This triangle definition uses 0°<θ<90°; unit-circle definitions extend the functions.",
+            "ru": "Кнопка sin⁻¹ означает arcsin, а не 1/sin. Определение через прямоугольный треугольник использует 0°<θ<90°; единичная окружность расширяет его."
+          },
+          "sources": [
+            {
+              "title": "7.2 Right Triangle Trigonometry",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+              "language": "en",
+              "section": "7.2 Right Triangle Trigonometry"
+            }
+          ]
+        }
       },
       "bearings": {
         "name": "Bearings",
-        "rule": "Three-figure clockwise from North. Always 000° to 360°. Written 045°, 120°, 270° etc. North = 000°. East = 090°. South = 180°. West = 270°.",
-        "examples": ["Bearing of B from A is 060°. Bearing of A from B: 060° + 180° = 240°.", "From P, Q is at bearing 110° at 5 km. Find Q's coordinates if P at origin: Δx = 5 sin 110°, Δy = 5 cos 110°.", "Back bearings: if forward is θ, back is θ + 180° (or − 180° if θ > 180°)."],
-        "tip": "Always draw a diagram. Three figures: 6° not 'six degrees' but '006°'. Direction is from observer."
+        "rule": "A three-figure bearing is a direction measured clockwise from north at the starting point. Use 000°≤θ<360°: east is 090°, south 180°, west 270°. In a plane with east-positive x and north-positive y, distance d gives offsets Δx=d sin θ and Δy=d cos θ.",
+        "examples": [
+          "Bearing of B from A is 060°. Bearing of A from B: 060° + 180° = 240°.",
+          "From P, Q is at bearing 110° at 5 km. Find Q's coordinates if P at origin: Δx = 5 sin 110°, Δy = 5 cos 110°.",
+          "Back bearing = (θ + 180°) mod 360°. Thus a forward bearing of 180° gives 000°, not 360°."
+        ],
+        "review": {
+          "englishTerm": "Bearings",
+          "russianTerm": "Азимуты (bearings)",
+          "contrast": {
+            "en": "The bearing of B from A starts at A. The reverse bearing is (θ+180°) modulo 360°, assuming parallel north directions.",
+            "ru": "Азимут B из A отсчитывают в A. Обратный азимут равен (θ+180°) по модулю 360° при параллельных направлениях севера."
+          },
+          "sources": [
+            {
+              "title": "7.2 Right Triangle Trigonometry",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+              "language": "en",
+              "section": "7.2 Right Triangle Trigonometry"
+            },
+            {
+              "title": "7.1 Angles — Arc Length and Area of a Sector",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+              "language": "en",
+              "section": "7.1 Angles — Arc Length and Area of a Sector"
+            }
+          ],
+          "model": {
+            "en": "This is a flat-map model using one north reference; long-distance Earth navigation needs spherical geometry and a specified north reference.",
+            "ru": "Это плоская модель с единым направлением севера; дальняя навигация по Земле требует сферической геометрии и уточнения вида севера."
+          }
+        }
       },
       "sineCosine": {
         "name": "Sine & Cosine rules (Extended)",
-        "rule": "Sine rule: a/sin A = b/sin B = c/sin C (for non-right triangles). Cosine rule: a² = b² + c² − 2bc·cos A. Use sine for AAS, ASA; cosine for SAS, SSS.",
-        "examples": ["Sine rule (AAS): angles 40°, 60°, side opp 60° = 8. Side opp 40°: 8 sin 40° / sin 60° ≈ 5.94.", "Cosine rule (SAS): sides 7 and 9, included angle 50°. Third side: √(49 + 81 − 2·7·9·cos 50°) ≈ 6.93.", "Cosine rule (SSS): sides 5, 6, 7. Angle opp 5: cos A = (36 + 49 − 25)/(2·6·7) = 60/84 ≈ 0.714, A ≈ 44.4°."],
-        "tip": "Ambiguous case (SSA) with sine rule: sin θ may give two valid angles (θ or 180°−θ). Check with triangle context."
+        "rule": "For any nondegenerate Euclidean triangle, label side a opposite angle A, and likewise b,B and c,C. The sine rule is a/sin A=b/sin B=c/sin C. The cosine rule is a²=b²+c²−2bc cos A. Choose a rule according to the known sides and angles.",
+        "examples": [
+          "Sine rule (AAS): angles 40°, 60°, side opp 60° = 8. Side opp 40°: 8 sin 40° / sin 60° ≈ 5.94.",
+          "Sides 7 cm and 9 cm include 50°. The third side is √(49+81−126 cos 50°)≈7.00 cm.",
+          "Cosine rule (SSS): sides 5, 6, 7. Angle opp 5: cos A = (36 + 49 − 25)/(2·6·7) = 60/84 ≈ 0.714, A ≈ 44.4°."
+        ],
+        "review": {
+          "englishTerm": "Sine & Cosine rules (Extended)",
+          "russianTerm": "Теоремы синусов и косинусов (Extended)",
+          "contrast": {
+            "en": "Both rules also work for right triangles. SSA data can produce zero, one or two triangles; arcsin alone does not resolve the ambiguity.",
+            "ru": "Обе теоремы действуют и для прямоугольных треугольников. Две стороны и угол не между ними могут дать ноль, один или два треугольника; одного arcsin недостаточно."
+          },
+          "sources": [
+            {
+              "title": "10.1 Non-right Triangles: Law of Sines",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+              "language": "en",
+              "section": "10.1 Non-right Triangles: Law of Sines"
+            },
+            {
+              "title": "10.2 Non-right Triangles: Law of Cosines",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-2-non-right-triangles-law-of-cosines",
+              "language": "en",
+              "section": "10.2 Non-right Triangles: Law of Cosines"
+            }
+          ]
+        }
       },
       "triangleArea": {
         "name": "Area using ½ab·sin(C)",
-        "rule": "For any triangle with sides a, b and included angle C: Area = ½ · a · b · sin C. Useful when base/height aren't given.",
-        "examples": ["Sides 6 cm and 8 cm, angle between them 30°: Area = ½·6·8·sin 30° = 12 cm².", "Equilateral side 10: Area = ½·10·10·sin 60° = 25√3 ≈ 43.3.", "Compare with traditional Area = ½ base · height — same answer but ½ab sin C doesn't need height."],
-        "tip": "C must be the angle BETWEEN sides a and b. Works for all triangles, not just right-angled."
+        "rule": "For two sides a,b and their included angle C, triangle area is A=½ab sin C. This follows from ½×base×perpendicular height with height b sin C. It applies to acute, right and obtuse nondegenerate triangles.",
+        "examples": [
+          "Sides 6 cm and 8 cm, angle between them 30°: Area = ½·6·8·sin 30° = 12 cm².",
+          "Equilateral side 10: Area = ½·10·10·sin 60° = 25√3 ≈ 43.3.",
+          "Compare with traditional Area = ½ base · height — same answer but ½ab sin C doesn't need height."
+        ],
+        "review": {
+          "englishTerm": "Area using ½ab·sin(C)",
+          "russianTerm": "Площадь через ½ab·sin(C)",
+          "contrast": {
+            "en": "C must lie between the two chosen sides. Area uses squared units; an angle elsewhere cannot be substituted unchanged.",
+            "ru": "C должен находиться между выбранными сторонами. Площадь выражается в квадратных единицах; другой угол нельзя подставить вместо C."
+          },
+          "sources": [
+            {
+              "title": "10.1 Non-right Triangles: Law of Sines",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+              "language": "en",
+              "section": "10.1 Non-right Triangles: Law of Sines"
+            }
+          ]
+        }
       },
       "circleTheorems": {
         "name": "Circle theorems",
-        "rule": "Key: (1) Angle at centre = 2× angle at circumference (same arc). (2) Angle in semicircle = 90°. (3) Angles in same segment = equal. (4) Cyclic quad opposite angles sum to 180°. (5) Tangent ⊥ radius at point of contact. (6) Tangents from same external point are equal length. (7) Alternate segment theorem.",
-        "examples": ["Angle at centre 80° → angle at circumference (same arc) = 40°.", "Triangle inscribed in semicircle with diameter as one side: opposite angle = 90°.", "ABCD cyclic, ∠A = 70° → ∠C = 110°."],
-        "tip": "Always label diagram. Look for 'same arc' or 'same chord' as a trigger to apply a theorem."
+        "rule": "A chord joins two points of a circle; an arc is part of its circumference; a tangent touches at one point. An inscribed angle is half the central angle subtending its intercepted arc. Angles in the same segment are equal; an angle subtending a diameter is 90°. Opposite angles of a cyclic quadrilateral sum to 180°. A tangent is perpendicular to the radius at contact; tangents from one external point have equal lengths.",
+        "examples": [
+          "Angle at centre 80° → angle at circumference (same arc) = 40°.",
+          "Triangle inscribed in semicircle with diameter as one side: opposite angle = 90°.",
+          "ABCD cyclic, ∠A = 70° → ∠C = 110°."
+        ],
+        "review": {
+          "englishTerm": "Circle theorems",
+          "russianTerm": "Теоремы об окружностях",
+          "contrast": {
+            "en": "The intercepted arc excludes the inscribed angle’s vertex. For the tangent–chord theorem, choose the angle in the alternate segment; do not just match any angle.",
+            "ru": "Перехваченная дуга не содержит вершину вписанного угла. В теореме об угле между касательной и хордой выбирайте вписанный угол в противоположном сегменте."
+          },
+          "sources": [
+            {
+              "title": "AMSI — Circle Geometry",
+              "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+              "language": "en",
+              "section": "Angles in circles; tangents; intersecting chords"
+            },
+            {
+              "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+              "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+              "language": "ru",
+              "section": "Теорема о вписанном угле и следствия"
+            }
+          ]
+        }
       },
       "sectors": {
         "name": "Sectors and arcs",
-        "rule": "Arc length L = (θ/360°) · 2πr. Sector area A = (θ/360°) · πr². (θ in degrees; in radians multiply by r and r²/2 respectively.)",
-        "examples": ["Sector r = 5, θ = 60°. L = (60/360) · 2π·5 = 5π/3 ≈ 5.24. A = (60/360) · π·25 = 25π/6 ≈ 13.1.", "If arc length = 10 and r = 4, then θ = (10/(2π·4)) · 360° ≈ 143.2°."],
-        "tip": "Don't confuse sector (slice) with segment (between chord & arc). Always check θ is in DEGREES if formula uses /360."
+        "rule": "A sector is the region bounded by two radii and their connecting arc. For radius r>0 and central angle θ in degrees, arc length L=(θ/360°)·2πr and sector area A=(θ/360°)·πr². In radians these become L=rθ and A=½r²θ.",
+        "examples": [
+          "Sector r = 5, θ = 60°. L = (60/360) · 2π·5 = 5π/3 ≈ 5.24. A = (60/360) · π·25 = 25π/6 ≈ 13.1.",
+          "If arc length = 10 and r = 4, then θ = (10/(2π·4)) · 360° ≈ 143.2°."
+        ],
+        "review": {
+          "englishTerm": "Sectors and arcs",
+          "russianTerm": "Секторы и дуги",
+          "contrast": {
+            "en": "An arc is a length on the circumference; a sector is an area. A segment is bounded by a chord and an arc, rather than by two radii.",
+            "ru": "Дуга — линия на окружности, её измеряют длиной; сектор — область, её измеряют площадью. Сегмент ограничен хордой и дугой, а не двумя радиусами."
+          },
+          "sources": [
+            {
+              "title": "7.1 Angles — Arc Length and Area of a Sector",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+              "language": "en",
+              "section": "7.1 Angles — Arc Length and Area of a Sector"
+            }
+          ]
+        }
       },
       "segments": {
         "name": "Area of a segment",
-        "rule": "Segment area = Sector area − Triangle area = (θ/360°)·πr² − ½r²·sin θ. The 'pizza crust' between chord and arc.",
-        "examples": ["r = 6, θ = 90°: sector = π·36/4 = 9π. Triangle = ½·6·6·sin 90° = 18. Segment = 9π − 18 ≈ 10.27.", "r = 10, θ = 60°: sector = π·100/6 ≈ 52.36. Triangle = ½·100·sin 60° ≈ 43.3. Segment ≈ 9.06."],
-        "tip": "For small θ, segment is thin. For θ = 180° (semicircle), 'segment' = semicircle (triangle area = 0)."
+        "rule": "A circular segment is the region between a chord and one of its arcs. For the minor arc with 0°<θ≤180°, area=sector area−triangle area=(θ/360°)πr²−½r² sin θ. The major segment is the rest of the circle: πr² minus the minor segment.",
+        "examples": [
+          "r = 6, θ = 90°: sector = π·36/4 = 9π. Triangle = ½·6·6·sin 90° = 18. Segment = 9π − 18 ≈ 10.27.",
+          "r = 10, θ = 60°: sector = π·100/6 ≈ 52.36. Triangle = ½·100·sin 60° ≈ 43.3. Segment ≈ 9.06."
+        ],
+        "review": {
+          "englishTerm": "Area of a segment",
+          "russianTerm": "Площадь сегмента",
+          "contrast": {
+            "en": "Sector and segment share an arc but have different straight boundaries. The positive triangle-subtraction picture applies to minor segments.",
+            "ru": "У сектора и сегмента может быть общая дуга, но разные прямолинейные границы. Вычитание положительной площади треугольника относится к меньшему сегменту."
+          },
+          "sources": [
+            {
+              "title": "7.1 Angles — Arc Length and Area of a Sector",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+              "language": "en",
+              "section": "7.1 Angles — Arc Length and Area of a Sector"
+            },
+            {
+              "title": "10.1 Non-right Triangles: Law of Sines",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+              "language": "en",
+              "section": "10.1 Non-right Triangles: Law of Sines"
+            }
+          ],
+          "model": {
+            "en": "The calculator allows a major arc too: ½r²(θ−sin θ), with θ in radians, uses a signed sine term for π<θ<2π.",
+            "ru": "Калькулятор допускает и большую дугу: ½r²(θ−sin θ), где θ в радианах, использует знак синуса при π<θ<2π."
+          }
+        }
       },
       "intersectingChords": {
         "name": "Intersecting chords",
-        "rule": "If two chords intersect inside a circle at point P: AP · PB = CP · PD (product of segments on each chord is equal). Power of a point theorem.",
-        "examples": ["Chord AB and chord CD cross at P. AP = 6, PB = 4, CP = 3. Find PD: 6·4 = 3·PD → PD = 8.", "If P is OUTSIDE circle with two secants: PA·PB = PC·PD (still products of full distances from P to far intersection times near)."],
-        "tip": "Always identify which segments. Inside circle vs outside: both have product-equals-product, but distances differ."
+        "rule": "If chords AB and CD meet at an interior point P of the same circle, their segment lengths satisfy AP·PB=CP·PD. For two secants through an exterior point P, with A,C the near points and B,D the far points, PA·PB=PC·PD.",
+        "examples": [
+          "Chord AB and chord CD cross at P. AP = 6, PB = 4, CP = 3. Find PD: 6·4 = 3·PD → PD = 8.",
+          "If P is OUTSIDE circle with two secants: PA·PB = PC·PD (still products of full distances from P to far intersection times near)."
+        ],
+        "review": {
+          "englishTerm": "Intersecting chords",
+          "russianTerm": "Пересекающиеся хорды",
+          "contrast": {
+            "en": "Inside, multiply the two parts of each chord. Outside, multiply the near distance by the full distance from P to the far intersection.",
+            "ru": "Внутри перемножаются две части каждой хорды. Снаружи — ближний отрезок и весь отрезок от P до дальней точки пересечения."
+          },
+          "sources": [
+            {
+              "title": "AMSI — Circle Geometry",
+              "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+              "language": "en",
+              "section": "Angles in circles; tangents; intersecting chords"
+            },
+            {
+              "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+              "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+              "language": "ru",
+              "section": "Теорема о вписанном угле и следствия"
+            }
+          ]
+        }
       }
     }
   },
@@ -389,64 +1729,283 @@
       "grouped": "Grouped data",
       "boxPlots": "Box plots",
       "histograms": "Histograms",
-      "cumulativeFreq": "Cumulative frequency (incl. percentiles)",
+      "cumulativeFreq": "Cumulative frequency and percentiles",
       "stdDev": "Standard deviation (Extended)",
       "pieCharts": "Pie charts"
     },
     "subTopicsDetailed": {
       "representation": {
         "name": "Data representation — choosing the right chart",
-        "rule": "Match the chart to the data type. Categorical: bar chart, pie chart. Numerical: histogram (continuous), bar chart (discrete). Comparing groups: box plots side-by-side. Showing change over time: line graph. Relationships: scatter graph.",
-        "examples": ["Favourite ice cream flavour → bar chart (categorical).", "Heights of students → histogram (continuous data, grouped).", "Goals scored per match → bar chart (discrete count).", "Temperature vs ice cream sales → scatter graph."],
-        "tip": "Histograms are NOT bar charts: bars touch (continuous), and area = frequency (not height in unequal classes)."
+        "rule": "Categorical data record labels or classes. Numerical data record counts or measurements; discrete values are separate possibilities, while a continuous variable can take any value in an interval. A bar chart compares categories, a histogram groups numerical values, a line graph shows ordered change, and a scatter plot shows paired numerical observations.",
+        "examples": [
+          "Favourite ice cream flavour → bar chart (categorical).",
+          "Heights of students → histogram (continuous data, grouped).",
+          "Goals scored per match → bar chart (discrete count).",
+          "Temperature vs ice cream sales → scatter graph."
+        ],
+        "review": {
+          "englishTerm": "Data representation — choosing the right chart",
+          "russianTerm": "Представление данных — выбор диаграммы",
+          "contrast": {
+            "en": "A number used as a label, such as a bus route, need not be quantitative. Histogram intervals have numerical widths; bar-chart categories do not.",
+            "ru": "Число-метка, например номер маршрута, не обязательно количественно. Интервалы гистограммы имеют числовую ширину; категории столбчатой диаграммы — нет."
+          },
+          "sources": [
+            {
+              "title": "1.2 Data, Sampling, and Variation",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+              "language": "en",
+              "section": "1.2 Data, Sampling, and Variation"
+            },
+            {
+              "title": "2.2 Histograms",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+              "language": "en",
+              "section": "2.2 Histograms"
+            }
+          ]
+        }
       },
       "stemLeaf": {
         "name": "Stem and leaf diagram",
-        "rule": "Split each number into 'stem' (tens) and 'leaf' (units). Keeps all data values visible while showing distribution. Always include a KEY.",
-        "examples": ["Data: 23, 25, 28, 34, 37, 41, 42, 42, 50. Stem-leaf: 2|3 5 8 / 3|4 7 / 4|1 2 2 / 5|0. Key: 2|3 = 23.", "Back-to-back stem-leaf compares two groups: e.g., boys vs girls heights with shared stems in the middle."],
-        "tip": "Leaves must be in ASCENDING order. Always include key — examiners deduct marks for missing it."
+        "rule": "A stem-and-leaf plot splits each data value at a chosen place value into a stem and a final digit called a leaf. Repeated values keep repeated leaves. Ordered leaves show distribution while preserving the recorded values. A key specifies the scale, for example 2|3=23 or 2|3=2.3.",
+        "examples": [
+          "Data: 23, 25, 28, 34, 37, 41, 42, 42, 50. Stem-leaf: 2|3 5 8 / 3|4 7 / 4|1 2 2 / 5|0. Key: 2|3 = 23.",
+          "Back-to-back stem-leaf compares two groups: e.g., boys vs girls heights with shared stems in the middle."
+        ],
+        "review": {
+          "englishTerm": "Stem and leaf diagram",
+          "russianTerm": "Диаграмма «стебель–листья»",
+          "contrast": {
+            "en": "The stem is not always tens. In a back-to-back plot, read each side away from the common stems; include units in the key.",
+            "ru": "Стебель не всегда означает десятки. У двусторонней диаграммы каждую сторону читают от общих стеблей; в ключе укажите единицы."
+          },
+          "sources": [
+            {
+              "title": "2.1 Stem-and-Leaf Graphs",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
+              "language": "en",
+              "section": "2.1 Stem-and-Leaf Graphs"
+            }
+          ]
+        }
       },
       "grouped": {
         "name": "Grouped data — mean, median, mode",
-        "rule": "From a frequency table: mean ≈ Σ(midpoint × frequency) / Σ frequency. Mode = class with highest frequency. Median = middle value, found in the cumulative frequency class.",
-        "examples": ["Class 0–10 (mid 5, freq 4), 10–20 (mid 15, freq 10), 20–30 (mid 25, freq 6). Mean = (5·4 + 15·10 + 25·6)/20 = 320/20 = 16.", "Modal class: 10–20 (highest frequency).", "Median position = 20/2 = 10th value → falls in 10–20 class."],
-        "tip": "Use class midpoints, not class boundaries, for mean. State 'modal class', not 'mode' for grouped data."
+        "rule": "Grouped data record frequencies in nonoverlapping intervals, losing exact individual values. Estimate the mean by Σ(frequency×class midpoint)/Σfrequency. The median splits ordered data into halves; grouping usually identifies its class, with interpolation needed for an estimate. For equal-width classes, the modal class has the greatest frequency.",
+        "examples": [
+          "Intervals [0,10), [10,20), [20,30] have frequencies 4,10,6 and midpoints 5,15,25. Estimated mean=(5·4+15·10+25·6)/20=16.",
+          "The modal class is [10,20); both middle observations (10th and 11th) lie there.",
+          "A linear grouped-data median estimate uses 10+(10−4)/10·10=16; the exact median is unknown."
+        ],
+        "review": {
+          "englishTerm": "Grouped data — mean, median, mode",
+          "russianTerm": "Сгруппированные данные — среднее, медиана, мода",
+          "contrast": {
+            "en": "Mean, median and mode are distinct measures of centre. For unequal intervals, compare frequency density for the histogram peak; the exact mode is not known from grouped counts.",
+            "ru": "Среднее, медиана и мода — разные характеристики центра. При неравных интервалах пик гистограммы определяют по плотности частоты; точная мода по группам неизвестна."
+          },
+          "sources": [
+            {
+              "title": "2.5 Measures of Center",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data",
+              "language": "en",
+              "section": "2.5 Measures of Center"
+            },
+            {
+              "title": "2.2 Histograms",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+              "language": "en",
+              "section": "2.2 Histograms"
+            },
+            {
+              "title": "Фоксфорд Учебник — Статистические характеристики",
+              "url": "https://foxford.ru/wiki/matematika/statisticheskieharakteristiki",
+              "language": "ru",
+              "section": "Среднее арифметическое, мода и медиана"
+            }
+          ]
+        }
       },
       "boxPlots": {
         "name": "Box plots (box-and-whisker)",
-        "rule": "Five-number summary: min, Q1 (25%), median (50%), Q3 (75%), max. Box spans Q1 to Q3 (IQR = Q3 − Q1). Whiskers reach min/max. Outliers if outside 1.5·IQR.",
-        "examples": ["Data 2, 5, 7, 8, 10, 12, 15, 18, 22 (n=9). Median = 10 (5th). Q1 = 6 (avg of 5,7). Q3 = 16.5. Min=2, Max=22. IQR = 10.5.", "Comparing: 'Group A has higher median and larger IQR — more variable than Group B'."],
-        "tip": "IQR = Q3 − Q1 is a measure of spread that ignores outliers. Length of box = IQR; shorter = more consistent."
+        "rule": "A box plot marks the median and quartiles Q1,Q3; the box covers the middle half of the data and IQR=Q3−Q1. In a modified box plot, flag values below Q1−1.5·IQR or above Q3+1.5·IQR as potential outliers, and draw whiskers to the most extreme unflagged observations.",
+        "examples": [
+          "Data 2, 5, 7, 8, 10, 12, 15, 18, 22 (n=9). Median = 10 (5th). Q1 = 6 (avg of 5,7). Q3 = 16.5. Min=2, Max=22. IQR = 10.5.",
+          "Comparing: 'Group A has higher median and larger IQR — more variable than Group B'."
+        ],
+        "review": {
+          "englishTerm": "Box plots (box-and-whisker)",
+          "russianTerm": "Ящики с усами (box-and-whisker)",
+          "contrast": {
+            "en": "A basic five-number box plot uses min/max whiskers. Do not mix that convention with modified whiskers. A flagged outlier is not automatically an error.",
+            "ru": "У простого ящика по пяти числам усы идут до минимума и максимума. Это другое соглашение. Отмеченный выброс не обязательно является ошибкой."
+          },
+          "sources": [
+            {
+              "title": "2.4 Box Plots",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
+              "language": "en",
+              "section": "2.4 Box Plots"
+            },
+            {
+              "title": "2.3 Measures of Location",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
+              "language": "en",
+              "section": "2.3 Measures of Location"
+            }
+          ],
+          "model": {
+            "en": "Here quartiles are medians of the lower and upper halves, excluding the overall median when n is odd. Software can use other conventions.",
+            "ru": "Здесь квартили — медианы нижней и верхней половин; общая медиана при нечётном n исключается. Программы могут использовать другие соглашения."
+          }
+        }
       },
       "histograms": {
         "name": "Histograms (incl. unequal class widths)",
-        "rule": "Continuous data, bars TOUCH. For unequal classes: y-axis = frequency density = frequency / class width. Then AREA = frequency.",
-        "examples": ["Classes: 0–10 (freq 20, width 10, density 2). 10–30 (freq 60, width 20, density 3). 30–60 (freq 30, width 30, density 1).", "Total frequency = sum of (density × width). Check: 2·10 + 3·20 + 1·30 = 110."],
-        "watchOut": "For equal class widths, y-axis can simply be frequency. For UNEQUAL widths it MUST be frequency density. Common mistake."
+        "rule": "A histogram displays frequencies across numerical intervals. When the vertical axis is frequency density, height=frequency/class width and rectangle area=frequency. Adjacent intervals meet at their boundary; an empty interval can create a gap. Unequal widths require area-based comparison.",
+        "examples": [
+          "Classes: 0–10 (freq 20, width 10, density 2). 10–30 (freq 60, width 20, density 3). 30–60 (freq 30, width 30, density 1).",
+          "Total frequency = sum of (density × width). Check: 2·10 + 3·20 + 1·30 = 110."
+        ],
+        "review": {
+          "englishTerm": "Histograms (incl. unequal class widths)",
+          "russianTerm": "Гистограммы (вкл. неравные классы)",
+          "contrast": {
+            "en": "Bar height alone is not frequency for unequal widths. With equal widths a frequency-height scale is possible, but area is then proportional to frequency.",
+            "ru": "При разной ширине сама высота не равна частоте. При равной ширине допустима ось частоты; площадь тогда пропорциональна частоте."
+          },
+          "sources": [
+            {
+              "title": "2.2 Histograms",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+              "language": "en",
+              "section": "2.2 Histograms"
+            }
+          ],
+          "visual": {
+            "kind": "comparison",
+            "title": {
+              "en": "Equal areas mean equal frequencies",
+              "ru": "Равные площади означают равные частоты"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "Width 10, height 2",
+                  "ru": "Ширина 10, высота 2"
+                },
+                "detail": {
+                  "en": "Area=20 observations",
+                  "ru": "Площадь=20 наблюдений"
+                }
+              },
+              {
+                "label": {
+                  "en": "Width 20, height 1",
+                  "ru": "Ширина 20, высота 1"
+                },
+                "detail": {
+                  "en": "Area=20 observations",
+                  "ru": "Площадь=20 наблюдений"
+                }
+              }
+            ],
+            "caption": {
+              "en": "These bars have different heights but the same frequency; height is frequency density.",
+              "ru": "Высоты различаются, но частоты одинаковы; высота задаёт плотность частоты."
+            }
+          }
+        }
       },
       "cumulativeFreq": {
-        "name": "Cumulative frequency (incl. percentiles)",
-        "rule": "Running total of frequencies. Plot CF against UPPER bound of each class. Curve is S-shaped. Read off: median (50%), Q1 (25%), Q3 (75%), or any percentile.",
-        "examples": ["Class 0–10 (f=4, CF=4), 10–20 (f=10, CF=14), 20–30 (f=6, CF=20). Plot (10,4), (20,14), (30,20).", "Median at CF = 10 → x ≈ 16. Q1 at CF = 5 → x ≈ 11. Q3 at CF = 15 → x ≈ 21.", "90th percentile at CF = 18 → x ≈ 26."],
-        "tip": "Always plot CF against UPPER class boundary. Curve passes through (lower bound, 0)."
+        "name": "Cumulative frequency and percentiles",
+        "rule": "Cumulative frequency is the running total up to a value. For grouped data, plot totals at upper class boundaries and start at the lowest boundary with zero. The graph cannot decrease. Read a pth percentile at cumulative frequency (p/100)N, interpolating between boundaries when necessary.",
+        "examples": [
+          "Intervals [0,10), [10,20), [20,30] have frequencies 4,10,6. Plot (0,0), (10,4), (20,14), (30,20).",
+          "Linear estimates: median at CF=10 gives 16; Q1 at CF=5 gives 11; Q3 at CF=15 gives 21.67.",
+          "90th percentile at CF=18 gives 26.67."
+        ],
+        "review": {
+          "englishTerm": "Cumulative frequency and percentiles",
+          "russianTerm": "Накопленная частота и процентили",
+          "contrast": {
+            "en": "The graph need not be S-shaped. Grouped percentiles are estimates, and flat sections have no observations; do not divide by a zero frequency.",
+            "ru": "График не обязан иметь S-образную форму. Процентили по группам — оценки; горизонтальные участки означают отсутствие наблюдений, на нулевую частоту делить нельзя."
+          },
+          "sources": [
+            {
+              "title": "2.2 Histograms",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+              "language": "en",
+              "section": "2.2 Histograms"
+            },
+            {
+              "title": "2.3 Measures of Location",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
+              "language": "en",
+              "section": "2.3 Measures of Location"
+            }
+          ],
+          "model": {
+            "en": "Straight-line interpolation assumes values are spread uniformly inside each interval; the original individual values are unknown.",
+            "ru": "Линейная интерполяция предполагает равномерное распределение внутри интервала; исходные отдельные значения неизвестны."
+          }
+        }
       },
       "stdDev": {
         "name": "Standard deviation (Extended)",
-        "rule": "σ measures the spread of data around the mean. Formula: σ = √[Σ(x − x̄)² / n]. Larger σ = more spread. ≈ 68% of data within 1σ of mean (Normal distribution).",
-        "examples": ["Data 2, 4, 4, 4, 5, 5, 7, 9. Mean x̄ = 5. Deviations: −3, −1, −1, −1, 0, 0, 2, 4. Squared: 9, 1, 1, 1, 0, 0, 4, 16 = 32. σ = √(32/8) = 2.", "Compare: data 4.5, 5, 5, 5, 5, 5.5 has same mean 5, but σ ≈ 0.32. Much more consistent."],
-        "tip": "σ is in the same UNITS as the data. σ² (variance) is in units². Standard deviation gives a sense of typical distance from mean."
+        "rule": "For a complete finite population x₁,…,x_N with mean μ, variance is σ²=Σ(xᵢ−μ)²/N and standard deviation is σ=√σ². To estimate population variance from a random sample of n>1 observations, use s²=Σ(xᵢ−x̄)²/(n−1). Standard deviation measures spread in the original units.",
+        "examples": [
+          "Data 2, 4, 4, 4, 5, 5, 7, 9. Mean x̄ = 5. Deviations: −3, −1, −1, −1, 0, 0, 2, 4. Squared: 9, 1, 1, 1, 0, 0, 4, 16 = 32. σ = √(32/8) = 2.",
+          "Compare: data 4.5, 5, 5, 5, 5, 5.5 has same mean 5, but σ ≈ 0.289. Much more consistent."
+        ],
+        "review": {
+          "englishTerm": "Standard deviation (Extended)",
+          "russianTerm": "Стандартное отклонение (Extended)",
+          "contrast": {
+            "en": "Variance has squared units. The 68% within one standard deviation rule describes a normal distribution, not arbitrary data.",
+            "ru": "Дисперсия имеет квадратные единицы. Правило о 68% в пределах одного стандартного отклонения относится к нормальному распределению, а не к любым данным."
+          },
+          "sources": [
+            {
+              "title": "2.7 Measures of Spread",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+              "language": "en",
+              "section": "2.7 Measures of Spread"
+            }
+          ]
+        }
       },
       "pieCharts": {
         "name": "Pie charts",
-        "rule": "Angle for each category = (frequency / total) × 360°. Must sum to 360°. Best for showing proportions of a whole, ≤6 categories.",
-        "examples": ["Survey of 60 people: 20 walk, 10 cycle, 30 drive. Angles: walk 120°, cycle 60°, drive 180°. Total 360° ✓.", "If sector for 'cycle' = 30° in pie of 240 students, count = (30/360)·240 = 20 cyclists."],
-        "tip": "Avoid for: >6 categories (cluttered), comparing exact values (use bar chart). Always label or include a key."
+        "rule": "A pie chart divides a circle into sectors representing nonoverlapping categories of one whole. A category with frequency f out of total N>0 has angle 360°·f/N. All categories together account for 100% and 360°.",
+        "examples": [
+          "Survey of 60 people: 20 walk, 10 cycle, 30 drive. Angles: walk 120°, cycle 60°, drive 180°. Total 360° ✓.",
+          "If sector for 'cycle' = 30° in pie of 240 students, count = (30/360)·240 = 20 cyclists."
+        ],
+        "review": {
+          "englishTerm": "Pie charts",
+          "russianTerm": "Круговые диаграммы",
+          "contrast": {
+            "en": "A category sector shows a proportion, not a raw count without the total. Overlapping categories or multiple-choice responses may not form one whole.",
+            "ru": "Сектор показывает долю; без общего числа он не задаёт количество. Пересекающиеся категории или ответы с множественным выбором могут не составлять одно целое."
+          },
+          "sources": [
+            {
+              "title": "1.2 Data, Sampling, and Variation",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+              "language": "en",
+              "section": "1.2 Data, Sampling, and Variation"
+            }
+          ]
+        }
       }
     }
   },
   "eoyPractice": {
     "title": "EOY Practice",
-    "intro": "AssessPrep e-assessment codes: GD29PC and Y9636Y. Review-in-Context questions from the textbooks below are an effective rehearsal in the same IB MYP style.",
+    "intro": "Use the topic practice and contextual questions to rehearse explaining a complete mathematical solution.",
     "assessPrepLink": "Go to AssessPrep",
     "openByChapter": "Browse by chapter"
   },
@@ -482,15 +2041,58 @@
   "simulations": {
     "standardForm": {
       "title": "Standard Form Converter",
-      "description": "Convert between standard form a × 10ⁿ and ordinary notation."
+      "description": "Convert a finite nonzero number to a×10ⁿ with 1≤|a|<10. Displayed values are rounded, not a measurement of precision.",
+      "review": {
+        "englishTerm": "Standard form (scientific notation)",
+        "russianTerm": "Стандартная (научная) форма",
+        "contrast": {
+          "en": "5.4×10⁵=54×10⁴ numerically, but only the first is normalised scientific notation. Standard form has other meanings for polynomials.",
+          "ru": "Численно 5.4×10⁵=54×10⁴, но только первая запись нормализована. Английское standard form имеет и другие значения для многочленов."
+        },
+        "sources": [
+          {
+            "title": "1.2 Exponents and Scientific Notation",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-2-exponents-and-scientific-notation",
+            "language": "en",
+            "section": "1.2 Exponents and Scientific Notation"
+          }
+        ]
+      },
+      "input": "Enter a finite number",
+      "ordinary": "Ordinary notation",
+      "standard": "Scientific notation",
+      "invalid": "Enter a finite nonzero number, using a decimal point.",
+      "shift": "Exponent n={{n}} records the power of ten; the sign belongs to the coefficient."
     },
     "quadraticExplorer": {
       "title": "Quadratic Explorer",
-      "description": "Slide a, b, c to see the parabola, vertex, axis of symmetry and roots update live."
+      "description": "Explore y=ax²+bx+c. For a≠0 the graph is a parabola; for a=0 it becomes linear or constant. The viewing window can hide roots.",
+      "review": {
+        "englishTerm": "Quadratic functions and their graphs",
+        "russianTerm": "Квадратичные функции и их графики",
+        "contrast": {
+          "en": "A root is an input value; an intercept is a point. At a repeated root the parabola touches the x-axis without crossing it.",
+          "ru": "Корень — значение аргумента, а точка пересечения имеет две координаты. При двукратном корне парабола касается оси x, не пересекая её."
+        },
+        "sources": [
+          {
+            "title": "5.1 Quadratic Functions",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+            "language": "en",
+            "section": "5.1 Quadratic Functions"
+          }
+        ]
+      },
+      "vertex": "Vertex",
+      "axis": "Axis of symmetry",
+      "discriminant": "Discriminant",
+      "roots": "Real zeros",
+      "degenerate": "a=0: this graph is linear or constant; it has no quadratic vertex.",
+      "alt": "Graph of y={{a}}x²+{{b}}x+{{c}}. Read the roots and vertex in the adjacent text; the visible x-range is −10 to 10."
     },
     "sequenceGenerator": {
       "title": "Sequence Generator",
-      "description": "Generate linear or geometric sequences, view terms and the n-th term formula.",
+      "description": "Generate terms indexed by n=1,2,…: add d for arithmetic sequences or multiply by r for geometric ones. Dots mark discrete terms.",
       "linearTab": "Linear",
       "geometricTab": "Geometric",
       "firstTermLabel": "First term u₁",
@@ -498,40 +2100,291 @@
       "ratioLabel": "Common ratio r",
       "countLabel": "Number of terms",
       "formulaLabel": "Formula:",
-      "termsLabel": "Terms:"
+      "termsLabel": "Terms:",
+      "review": {
+        "englishTerm": "Geometric sequences and the nth term",
+        "russianTerm": "Геометрическая прогрессия и формула n-го члена",
+        "contrast": {
+          "en": "Arithmetic sequences add a fixed difference; geometric sequences multiply by a fixed ratio. For a>0, r>1 gives growth and 0<r<1 gives decay; negative r alternates signs.",
+          "ru": "Арифметическая прогрессия прибавляет разность, геометрическая — умножает на знаменатель. При a>0 и r>1 получается рост, при 0<r<1 — убывание; отрицательное r чередует знаки."
+        },
+        "sources": [
+          {
+            "title": "13.3 Geometric Sequences",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-3-geometric-sequences",
+            "language": "en",
+            "section": "13.3 Geometric Sequences"
+          },
+          {
+            "title": "Фоксфорд Учебник — Геометрическая прогрессия",
+            "url": "https://foxford.ru/wiki/matematika/geometricheskaya-progressiya",
+            "language": "ru",
+            "section": "Определение; формула n-го члена"
+          }
+        ]
+      },
+      "alt": "Discrete sequence dots at positive integer indices. The full list of terms is printed above."
     },
     "sectorSegment": {
       "title": "Sector & Segment Calculator",
-      "description": "Vary radius and angle to compute sector / segment area."
+      "description": "Blue shows the sector bounded by radii; orange shows the segment bounded by chord and arc. Angles above 180° select the major arc and major segment.",
+      "review": {
+        "englishTerm": "Area of a segment",
+        "russianTerm": "Площадь сегмента",
+        "contrast": {
+          "en": "Sector and segment share an arc but have different straight boundaries. The positive triangle-subtraction picture applies to minor segments.",
+          "ru": "У сектора и сегмента может быть общая дуга, но разные прямолинейные границы. Вычитание положительной площади треугольника относится к меньшему сегменту."
+        },
+        "sources": [
+          {
+            "title": "7.1 Angles — Arc Length and Area of a Sector",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+            "language": "en",
+            "section": "7.1 Angles — Arc Length and Area of a Sector"
+          },
+          {
+            "title": "10.1 Non-right Triangles: Law of Sines",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+            "language": "en",
+            "section": "10.1 Non-right Triangles: Law of Sines"
+          }
+        ],
+        "model": {
+          "en": "The calculator allows a major arc too: ½r²(θ−sin θ), with θ in radians, uses a signed sine term for π<θ<2π.",
+          "ru": "Калькулятор допускает и большую дугу: ½r²(θ−sin θ), где θ в радианах, использует знак синуса при π<θ<2π."
+        }
+      },
+      "radius": "Radius r",
+      "angle": "Central angle θ",
+      "arc": "Arc length",
+      "sector": "Sector area",
+      "segment": "Segment area",
+      "radians": "θ in radians",
+      "alt": "Circle of radius {{radius}} cm. The {{angle}}° arc bounds a blue sector with two radii and an orange segment with a chord."
     },
     "boxPlot": {
       "title": "Box Plot Builder",
-      "description": "Paste a dataset and see the box plot with quartiles and outliers."
+      "description": "Build a modified box plot. Quartiles are medians of the two halves, excluding an odd middle value. Whiskers end at the most extreme values within the 1.5·IQR fences.",
+      "review": {
+        "englishTerm": "Box plots (box-and-whisker)",
+        "russianTerm": "Ящики с усами (box-and-whisker)",
+        "contrast": {
+          "en": "A basic five-number box plot uses min/max whiskers. Do not mix that convention with modified whiskers. A flagged outlier is not automatically an error.",
+          "ru": "У простого ящика по пяти числам усы идут до минимума и максимума. Это другое соглашение. Отмеченный выброс не обязательно является ошибкой."
+        },
+        "sources": [
+          {
+            "title": "2.4 Box Plots",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
+            "language": "en",
+            "section": "2.4 Box Plots"
+          },
+          {
+            "title": "2.3 Measures of Location",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
+            "language": "en",
+            "section": "2.3 Measures of Location"
+          }
+        ],
+        "model": {
+          "en": "Here quartiles are medians of the lower and upper halves, excluding the overall median when n is odd. Software can use other conventions.",
+          "ru": "Здесь квартили — медианы нижней и верхней половин; общая медиана при нечётном n исключается. Программы могут использовать другие соглашения."
+        }
+      },
+      "input": "Dataset: separate numbers with spaces, commas or semicolons; use a decimal point.",
+      "count": "Values: {{count}}",
+      "lowerWhisker": "Lower whisker",
+      "upperWhisker": "Upper whisker",
+      "median": "Median",
+      "outliers": "Potential outliers beyond the 1.5·IQR fences",
+      "alt": "Box plot: Q1 {{q1}}, median {{median}}, Q3 {{q3}}; whiskers at {{lower}} and {{upper}}. Outliers are separate dots."
     },
     "surdSimplifier": {
       "title": "Surd Simplifier",
-      "description": "Extract perfect square factors to simplify any √n."
+      "description": "Simplify √n for integers 1≤n≤1000. A perfect-square input produces a rational result; not every radical is a surd.",
+      "review": {
+        "englishTerm": "Surds — simplifying",
+        "russianTerm": "Корни — упрощение",
+        "contrast": {
+          "en": "A radical is the root notation; a surd has an irrational value. √9=3 is a radical expression but not a surd. π is irrational but is not a surd.",
+          "ru": "Радикал — знак корня; surd имеет иррациональное значение. √9=3 записано с радикалом, но это не surd. Число π иррационально, но не является surd."
+        },
+        "sources": [
+          {
+            "title": "1.3 Radicals and Rational Exponents",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+            "language": "en",
+            "section": "1.3 Radicals and Rational Exponents"
+          },
+          {
+            "title": "1.1 Real Numbers: Algebra Essentials",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+            "language": "en",
+            "section": "1.1 Real Numbers: Algebra Essentials"
+          },
+          {
+            "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+            "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+            "language": "ru",
+            "section": "Корни чётной и нечётной степени; арифметический корень"
+          }
+        ],
+        "visual": {
+          "kind": "comparison",
+          "title": {
+            "en": "Root expression or surd?",
+            "ru": "Корень или иррациональный корень?"
+          },
+          "items": [
+            {
+              "label": {
+                "en": "√9=3",
+                "ru": "√9=3"
+              },
+              "detail": {
+                "en": "Rational; not a surd",
+                "ru": "Рациональное число; не surd"
+              }
+            },
+            {
+              "label": {
+                "en": "√12=2√3",
+                "ru": "√12=2√3"
+              },
+              "detail": {
+                "en": "Irrational; a surd",
+                "ru": "Иррациональный корень; surd"
+              }
+            },
+            {
+              "label": {
+                "en": "√(x²)=|x|",
+                "ru": "√(x²)=|x|"
+              },
+              "detail": {
+                "en": "Principal square root is nonnegative",
+                "ru": "Арифметический квадратный корень неотрицателен"
+              }
+            }
+          ],
+          "caption": {
+            "en": "Classify the value, not just the presence of a radical sign.",
+            "ru": "Классифицируйте значение, а не само наличие знака корня."
+          }
+        }
+      },
+      "input": "Nonnegative radicand n (integer 1–1000 here)",
+      "working": "Exact working",
+      "simplified": "Simplified",
+      "decimal": "Decimal approximation",
+      "strategy": "Extract square factors until the radicand has none larger than 1."
     },
     "transformations": {
       "title": "Function Transformations",
-      "description": "See how a·f(x − h) + k transforms a base function."
+      "description": "Transform a graph by y=a·f(x−h)+k. Sine uses radians; reciprocal curves have gaps at excluded inputs. The case a=0 keeps the original domain.",
+      "review": {
+        "englishTerm": "Function transformations",
+        "russianTerm": "Преобразования функций",
+        "contrast": {
+          "en": "f(2x) halves horizontal distances: its horizontal scale factor is 1/2. Scaling and translation generally depend on their order.",
+          "ru": "f(2x) уменьшает горизонтальные расстояния вдвое: коэффициент по горизонтали равен 1/2. Результат масштабирования и переноса обычно зависит от их порядка."
+        },
+        "sources": [
+          {
+            "title": "3.5 Transformation of Functions",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+            "language": "en",
+            "section": "3.5 Transformation of Functions"
+          }
+        ]
+      },
+      "stretch": "Vertical scale a",
+      "horizontal": "Horizontal shift h",
+      "vertical": "Vertical shift k",
+      "legend": "Dashed: original function. Solid: transformed. Values are sampled; the drawing is not a proof.",
+      "alt": "Original and transformed {{function}} graphs; a={{a}}, horizontal shift {{h}}, vertical shift {{k}}."
     },
     "quadraticSolver": {
       "title": "Quadratic Equation Solver",
-      "description": "See all three methods (formula, completing the square, factorisation) side by side."
+      "description": "Compare real-root methods for ax²+bx+c=0. The case a=0 is handled separately. Numerical results are approximations.",
+      "review": {
+        "englishTerm": "Quadratic equations and real roots",
+        "russianTerm": "Квадратные уравнения и действительные корни",
+        "contrast": {
+          "en": "An expression is evaluated or transformed; an equation is solved. No real roots does not mean no complex roots.",
+          "ru": "Выражение вычисляют или преобразуют; уравнение решают. Отсутствие действительных корней не означает отсутствия комплексных."
+        },
+        "sources": [
+          {
+            "title": "1.2 Use the Language of Algebra",
+            "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+            "language": "en",
+            "section": "1.2 Use the Language of Algebra"
+          },
+          {
+            "title": "2.5 Quadratic Equations",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+            "language": "en",
+            "section": "2.5 Quadratic Equations"
+          },
+          {
+            "title": "Фоксфорд Учебник — Алгебраические выражения",
+            "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+            "language": "ru",
+            "section": "Определение выражения; переменные и допустимые значения"
+          },
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          }
+        ]
+      },
+      "formula": "Quadratic formula",
+      "complete": "Completing the square",
+      "factor": "Factorisation over the reals",
+      "two": "Two distinct real roots",
+      "one": "One repeated real root",
+      "none": "No real roots",
+      "linear": "a=0: a linear equation; x=",
+      "all": "a=b=c=0: every real x is a solution.",
+      "impossible": "a=b=0, c≠0: no solution.",
+      "approx": "Displayed factors use approximate roots."
     },
     "rightTriangle": {
       "title": "Right-Angled Triangle Trainer",
-      "description": "Drag the legs; see hypotenuse and angles computed from Pythagoras and trig."
+      "description": "Change the positive legs of a right triangle. θ is at the left vertex: the horizontal leg is adjacent and the vertical leg opposite.",
+      "review": {
+        "englishTerm": "Trigonometry (SOHCAHTOA)",
+        "russianTerm": "Тригонометрия (СОН-КАХ-ТОА)",
+        "contrast": {
+          "en": "sin⁻¹ denotes arcsin on a calculator, not 1/sin. This triangle definition uses 0°<θ<90°; unit-circle definitions extend the functions.",
+          "ru": "Кнопка sin⁻¹ означает arcsin, а не 1/sin. Определение через прямоугольный треугольник использует 0°<θ<90°; единичная окружность расширяет его."
+        },
+        "sources": [
+          {
+            "title": "7.2 Right Triangle Trigonometry",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+            "language": "en",
+            "section": "7.2 Right Triangle Trigonometry"
+          }
+        ]
+      },
+      "adjacent": "Adjacent leg",
+      "opposite": "Opposite leg",
+      "hypotenuse": "Hypotenuse",
+      "otherAngle": "Other acute angle",
+      "alt": "Right triangle: adjacent leg {{adj}}, opposite leg {{opp}}, hypotenuse {{hyp}} cm. Angle θ={{angle}}°."
     },
     "numberSetsVenn": {
       "title": "Number Sets — Venn",
-      "description": "Type any number (5, -3, 1/2, √2, π) — see which sets ℕ, ℤ, ℚ, ℝ it belongs to.",
+      "description": "Classify exact integer/fraction/finite-decimal inputs, π, e, and integer multiples of √n (0≤n≤1,000,000). Here ℕ starts at 1. Other expressions are unsupported.",
       "inputLabel": "Enter a number (try: 5, -3, 1/2, 3.14, √2, π)",
-      "irrational": "Irrational — belongs only to ℝ.",
+      "irrational": "Irrational: belongs to ℝ and not ℚ (among the four sets shown).",
       "divisionByZero": "Division by zero is undefined.",
       "simplifiesToInteger": "{{frac}} simplifies to an integer ({{value}}).",
-      "properFraction": "Proper fraction — rational (ℚ) but not an integer.",
+      "properFraction": "A non-integer rational number: belongs to ℚ and ℝ.",
       "cannotParse": "Cannot parse this value.",
       "positiveWhole": "A positive whole number — belongs to all four sets.",
       "integer": "An integer (including 0 or negative) — ℤ, ℚ, ℝ.",
@@ -539,11 +2392,28 @@
       "labelN": "ℕ Natural",
       "labelZ": "ℤ Integer",
       "labelQ": "ℚ Rational",
-      "labelR": "ℝ Real"
+      "labelR": "ℝ Real",
+      "review": {
+        "englishTerm": "Structure & Sets — classification, set notation",
+        "russianTerm": "Структура и множества — классификация, обозначения",
+        "contrast": {
+          "en": "An element and a subset are different: 2∈ℕ but {2}⊆ℕ. Some books include 0 in ℕ; state the convention.",
+          "ru": "Элемент и подмножество различаются: 2∈ℕ, но {2}⊆ℕ. В некоторых учебниках 0 включают в ℕ; соглашение нужно указывать."
+        },
+        "sources": [
+          {
+            "title": "1.1 Real Numbers: Algebra Essentials",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+            "language": "en",
+            "section": "1.1 Real Numbers: Algebra Essentials"
+          }
+        ]
+      },
+      "alt": "Nested number sets: ℕ inside ℤ inside ℚ inside ℝ. Membership is also listed in the adjacent text."
     },
     "bearingsCompass": {
       "title": "Bearings Compass",
-      "description": "Vary bearing and distance — see the path on a compass and the N/E offsets.",
+      "description": "A flat-map bearing is measured clockwise from north at the origin. East offset=d sin θ; north offset=d cos θ.",
       "bearingLabel": "Bearing (°)",
       "distanceLabel": "Distance",
       "northOffset": "North offset",
@@ -551,29 +2421,113 @@
       "compassN": "N",
       "compassE": "E",
       "compassS": "S",
-      "compassW": "W"
+      "compassW": "W",
+      "review": {
+        "englishTerm": "Bearings",
+        "russianTerm": "Азимуты (bearings)",
+        "contrast": {
+          "en": "The bearing of B from A starts at A. The reverse bearing is (θ+180°) modulo 360°, assuming parallel north directions.",
+          "ru": "Азимут B из A отсчитывают в A. Обратный азимут равен (θ+180°) по модулю 360° при параллельных направлениях севера."
+        },
+        "sources": [
+          {
+            "title": "7.2 Right Triangle Trigonometry",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+            "language": "en",
+            "section": "7.2 Right Triangle Trigonometry"
+          },
+          {
+            "title": "7.1 Angles — Arc Length and Area of a Sector",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+            "language": "en",
+            "section": "7.1 Angles — Arc Length and Area of a Sector"
+          }
+        ],
+        "model": {
+          "en": "This is a flat-map model using one north reference; long-distance Earth navigation needs spherical geometry and a specified north reference.",
+          "ru": "Это плоская модель с единым направлением севера; дальняя навигация по Земле требует сферической геометрии и уточнения вида севера."
+        }
+      },
+      "alt": "Compass bearing {{bearing}}° clockwise from north; path {{distance}} km, east offset {{east}}, north offset {{north}} km."
     },
     "cumulativeFreq": {
       "title": "Cumulative Frequency Curve",
-      "description": "Edit class frequencies. Move the percentile slider to read the value at Q1, median, Q3 or any %.",
+      "description": "Enter interval frequencies. Percentiles use straight-line interpolation, assuming uniform spread within each class. An empty dataset has no percentile.",
       "frequencyLabel": "Frequency",
       "classLabel": "Class",
       "percentileLabel": "Percentile (%)",
-      "valueAtLabel": "Value at percentile"
+      "valueAtLabel": "Estimated percentile value",
+      "review": {
+        "englishTerm": "Cumulative frequency and percentiles",
+        "russianTerm": "Накопленная частота и процентили",
+        "contrast": {
+          "en": "The graph need not be S-shaped. Grouped percentiles are estimates, and flat sections have no observations; do not divide by a zero frequency.",
+          "ru": "График не обязан иметь S-образную форму. Процентили по группам — оценки; горизонтальные участки означают отсутствие наблюдений, на нулевую частоту делить нельзя."
+        },
+        "sources": [
+          {
+            "title": "2.2 Histograms",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+            "language": "en",
+            "section": "2.2 Histograms"
+          },
+          {
+            "title": "2.3 Measures of Location",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
+            "language": "en",
+            "section": "2.3 Measures of Location"
+          }
+        ],
+        "model": {
+          "en": "Straight-line interpolation assumes values are spread uniformly inside each interval; the original individual values are unknown.",
+          "ru": "Линейная интерполяция предполагает равномерное распределение внутри интервала; исходные отдельные значения неизвестны."
+        }
+      },
+      "total": "Total frequency",
+      "target": "Target cumulative frequency",
+      "value": "Value",
+      "alt": "Nondecreasing cumulative graph starting at (0,0). Total {{count}}; percentile {{percent}}%, estimated value {{value}}."
     },
     "circleTheorems": {
       "title": "Circle Theorems Playground",
-      "description": "Four key theorems with adjustable angles: centre = 2× circumference, semicircle 90°, cyclic quadrilateral, intersecting chords.",
+      "description": "Explore valid Euclidean circle constructions: the inscribed-angle, semicircle, cyclic-quadrilateral and intersecting-chord theorems.",
       "centreTab": "Centre = 2× circumference",
       "semicircleTab": "Semicircle = 90°",
       "cyclicTab": "Cyclic quadrilateral",
       "chordsTab": "Intersecting chords",
       "centreAngle": "Centre angle",
       "circumferenceAngle": "Circumference angle",
-      "ruleCentre": "Angle at centre = 2 × angle at circumference (same arc).",
-      "ruleSemicircle": "Angle in a semicircle is always 90°.",
+      "ruleCentre": "The central angle subtending the intercepted arc is twice the inscribed angle; C is not on that arc.",
+      "ruleSemicircle": "For diameter AB and C on the circle distinct from A,B, ∠ACB=90°.",
       "ruleCyclic": "Opposite angles in a cyclic quadrilateral sum to 180°.",
-      "ruleChords": "When two chords intersect, the products of their segments are equal: AP × PB = CP × PD."
+      "ruleChords": "When two chords intersect, the products of their segments are equal: AP × PB = CP × PD.",
+      "review": {
+        "englishTerm": "Circle theorems",
+        "russianTerm": "Теоремы об окружностях",
+        "contrast": {
+          "en": "The intercepted arc excludes the inscribed angle’s vertex. For the tangent–chord theorem, choose the angle in the alternate segment; do not just match any angle.",
+          "ru": "Перехваченная дуга не содержит вершину вписанного угла. В теореме об угле между касательной и хордой выбирайте вписанный угол в противоположном сегменте."
+        },
+        "sources": [
+          {
+            "title": "AMSI — Circle Geometry",
+            "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+            "language": "en",
+            "section": "Angles in circles; tangents; intersecting chords"
+          },
+          {
+            "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+            "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+            "language": "ru",
+            "section": "Теорема о вписанном угле и следствия"
+          }
+        ]
+      },
+      "position": "C: position on the arc",
+      "centreAlt": "A and B lie on a circle centred at O. C is on the opposite arc. Angle AOB={{angle}}°, ACB={{half}}°.",
+      "semicircleAlt": "AB is a diameter. C moves on its semicircle, and angle ACB stays 90°.",
+      "cyclicAlt": "Cyclic quadrilateral ABCD changes shape with angle A={{angle}}° and opposite angle C={{other}}°; their sum is 180°.",
+      "chordsAlt": "Two chords AB and CD meet at P inside their circle. AP={{ap}}, PB={{pb}}, CP={{cp}}, PD={{pd}} cm; AP·PB=CP·PD."
     },
     "comingSoon": "More interactive models coming soon"
   }

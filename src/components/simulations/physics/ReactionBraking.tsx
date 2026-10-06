@@ -39,7 +39,7 @@ export function ReactionBraking() {
     <SimulationPanel title={t('forceMotion.sim4.title')} description={t('forceMotion.sim4.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
         <div className="space-y-3">
-          <svg viewBox={`0 0 ${VIEWBOX_W} 200`} className="w-full bg-bg-primary rounded-md border border-border">
+          <svg role="img" aria-label={t('forceMotion.sim4.desc')} viewBox={`0 0 ${VIEWBOX_W} 200`} className="w-full bg-bg-primary rounded-md border border-border">
             {/* road background */}
             <rect x="0" y="110" width={VIEWBOX_W} height="70" fill="#a8b5a0" opacity="0.25" />
             {/* lane line */}

@@ -1,3 +1,4 @@
+import { PhysicsConceptDiagram } from '../../../definitions/physicsDiagrams';
 import { useTranslation } from 'react-i18next';
 import { Scale } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -18,6 +19,10 @@ const TERMS = [
   'nonContactForce',
   'elasticity',
   'hookesLaw',
+  'energy',
+  'power',
+  'heat',
+  'temperature',
   'workDone',
   'energyTransfer',
   'pressure',
@@ -44,6 +49,8 @@ export function ForcesEnergyPage() {
         intro={t('forcesEnergy.intro')}
         icon={<Scale size={28} />}
       />
+
+      <PhysicsConceptDiagram kind="energy" />
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="forcesEnergy" termIds={TERMS} />

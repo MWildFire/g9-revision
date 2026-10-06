@@ -1,3 +1,5 @@
+import { ARABIC_REVIEWS } from '../../../definitions/arabic';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { ScrollText } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -25,12 +27,13 @@ export function GrammarPage() {
             <SectionHeading>{lang === 'ru' ? rule.titleRu : rule.titleEn}</SectionHeading>
             <div className="bg-bg-secondary border border-border rounded-md p-4 space-y-3" style={{ borderLeftColor: 'var(--color-accent-olive)', borderLeftWidth: '3px' }}>
               <p className="text-sm text-text-secondary leading-relaxed">{detail?.body ?? summary}</p>
+              <DefinitionSupport review={ARABIC_REVIEWS[rule.id]} language={lang} />
               {detail?.examples && detail.examples.length > 0 ? (
                 <div>
                   <p className="text-xs uppercase tracking-wider text-text-muted mb-1.5">{labels.examples}</p>
                   <ul className="space-y-1.5">
                     {detail.examples.map((ex, idx) => (
-                      <li key={idx} className="text-sm text-text-secondary pl-3 border-l-2 border-border" lang="ar">{ex}</li>
+                      <li key={idx} className="text-sm text-text-secondary pl-3 border-l-2 border-border">{ex}</li>
                     ))}
                   </ul>
                 </div>

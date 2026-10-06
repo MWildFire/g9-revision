@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { ExtrasLayout, ExtraSection } from '../../../components/content/ExtrasLayout';
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { DetailedItem } from '../../../components/content/DetailedCard';
 
 const PROOF_TYPES = ['direct', 'contradiction', 'induction', 'counterexample'];
@@ -12,6 +13,7 @@ export function MathExtrasPage() {
       <ExtraSection
         title={t('extras.calculus.title')}
         body={t('extras.calculus.body')}
+        review={t('extras.calculus.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-sky-deep)"
       />
       <ExtraSection
@@ -22,16 +24,19 @@ export function MathExtrasPage() {
       <ExtraSection
         title={t('extras.numberTheory.title')}
         body={t('extras.numberTheory.body')}
+        review={t('extras.numberTheory.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-warm)"
       />
       <ExtraSection
         title={t('extras.complex.title')}
         body={t('extras.complex.body')}
+        review={t('extras.complex.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-clay)"
       />
       <ExtraSection
         title={t('extras.statsExt.title')}
         body={t('extras.statsExt.body')}
+        review={t('extras.statsExt.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-sage)"
       />
     </ExtrasLayout>

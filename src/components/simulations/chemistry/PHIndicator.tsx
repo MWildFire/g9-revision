@@ -1,3 +1,6 @@
+import { pHClassification } from '../../../definitions/chemistryModels';
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -24,13 +27,7 @@ export function PHIndicator() {
   const [indicator, setIndicator] = useState<Indicator>('universal');
   const colour = indicatorColour(indicator, ph);
 
-  const classify = (p: number): string => {
-    if (p < 3) return t('simulations.phIndicator.strongAcid');
-    if (p < 7) return t('simulations.phIndicator.weakAcid');
-    if (p === 7) return t('simulations.phIndicator.neutral');
-    if (p < 11) return t('simulations.phIndicator.weakAlkali');
-    return t('simulations.phIndicator.strongAlkali');
-  };
+  const classify = (p: number) => t(`simulations.phIndicator.${pHClassification(p)}`);
 
   const exampleKey = Math.round(ph).toString();
   const exampleText = t(`simulations.phIndicator.examples.${exampleKey}`, { defaultValue: '—' });
@@ -67,15 +64,11 @@ export function PHIndicator() {
             </p>
           </div>
 
-          <svg viewBox="0 0 200 240" className="w-full max-w-[220px] mx-auto">
+          <svg role="img" aria-label={`${t(`simulations.phIndicator.${indicator}`)}; pH ${ph}; ${classify(ph)}`} viewBox="0 0 200 240" className="w-full max-w-[220px] mx-auto">
+            <title>{t(`simulations.phIndicator.${indicator}`)} — pH {ph}</title>
+            <desc>{t('simulations.phIndicator.scaleNote')}</desc>
             <path d="M 50 40 L 50 200 Q 50 220 70 220 L 130 220 Q 150 220 150 200 L 150 40" fill="none" stroke="var(--color-text-secondary)" strokeWidth={2} />
             <path d="M 55 50 L 55 198 Q 55 215 72 215 L 128 215 Q 145 215 145 198 L 145 50 Z" fill={colour} fillOpacity={0.7} />
-            <line x1={45} y1={80} x2={55} y2={80} stroke="var(--color-text-muted)" />
-            <line x1={45} y1={120} x2={55} y2={120} stroke="var(--color-text-muted)" />
-            <line x1={45} y1={160} x2={55} y2={160} stroke="var(--color-text-muted)" />
-            <text x={42} y={84} textAnchor="end" fontSize={9} fill="var(--color-text-muted)">300</text>
-            <text x={42} y={124} textAnchor="end" fontSize={9} fill="var(--color-text-muted)">200</text>
-            <text x={42} y={164} textAnchor="end" fontSize={9} fill="var(--color-text-muted)">100</text>
           </svg>
         </div>
 
@@ -84,12 +77,13 @@ export function PHIndicator() {
           <div className="flex h-6 rounded-md overflow-hidden border border-border">
             {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map((p) => (
               <div key={p} className="flex-1 flex items-center justify-center" style={{ background: indicatorColour('universal', p) }}>
-                <span className="text-[10px] font-mono" style={{ color: p > 6 && p < 9 ? '#fff' : 'rgba(0,0,0,0.7)' }}>{p}</span>
+                <span className="text-[10px] font-mono" style={{ color: p < 1.5 || p >= 9 ? '#ffffff' : '#000000' }}>{p}</span>
               </div>
             ))}
           </div>
         </div>
       </div>
+    <DefinitionSupport review={t('simulations.phIndicator.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

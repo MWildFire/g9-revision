@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { Sparkles, AlertCircle } from 'lucide-react';
 import { TopicHero, SectionHeading } from './TopicHero';
 import { DetailedCard, DetailedItem } from './DetailedCard';
+import { DefinitionSupport } from './DefinitionSupport';
+import type { DefinitionReview } from './definitionReview';
 
 interface Props {
   title: string;
@@ -14,9 +16,9 @@ export function ExtrasLayout({ title, intro, children }: Props) {
   const { i18n } = useTranslation();
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const noticeText = lang === 'ru'
-    ? 'Это дополнение к revision-листу, не часть обязательной программы EOY. Изучай для углубления.'
-    : 'This is supplementary content — beyond the revision list, not required for EOY. Read for enrichment.';
-  const noticeTitle = lang === 'ru' ? 'За рамками revision-листа' : 'Beyond the revision list';
+    ? 'Материалы для углубления. Конкретный состав контрольной определяется действующим заданием учителя.'
+    : 'Enrichment material. The current teacher instructions determine what a particular assessment covers.';
+  const noticeTitle = lang === 'ru' ? 'Для углубления' : 'Further study';
 
   return (
     <div>
@@ -42,9 +44,10 @@ interface SectionProps {
   bullets?: string[];
   detailedItems?: DetailedItem[];
   borderColor?: string;
+  review?: DefinitionReview;
 }
 
-export function ExtraSection({ title, body, items, bullets, detailedItems, borderColor }: SectionProps) {
+export function ExtraSection({ title, body, items, bullets, detailedItems, borderColor, review }: SectionProps) {
   const { i18n } = useTranslation();
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
@@ -61,6 +64,7 @@ export function ExtraSection({ title, body, items, bullets, detailedItems, borde
           {body}
         </p>
       ) : null}
+      <DefinitionSupport review={review} language={lang} />
       {detailedItems && detailedItems.length > 0 ? (
         <div className="space-y-3">
           {detailedItems.map((item, i) => (

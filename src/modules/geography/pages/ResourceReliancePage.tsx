@@ -10,6 +10,7 @@ const PLAYERS = ['un', 'ngos', 'businesses', 'governments', 'citizens'];
 
 export function ResourceReliancePage() {
   const { t, i18n } = useTranslation('geography');
+  const l = (en: string, ru: string) => i18n.language.startsWith('ru') ? ru : en;
   const TOPIC = 'resourceReliance';
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
@@ -50,13 +51,13 @@ export function ResourceReliancePage() {
       <SectionHeading>{t('resourceReliance.sections.players.title')}</SectionHeading>
       {renderDetailed('resourceReliance.sections.players.detailed', PLAYERS, 'var(--color-accent-rose-muted)')}
 
-      <SectionHeading>Active recall</SectionHeading>
+      <SectionHeading>{l('Active recall', 'Активное повторение')}</SectionHeading>
       <div className="space-y-3">
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="malthus-boserup"
-          prompt="Contrast the views of Malthus and Boserup on population growth."
-          modelAnswer="Malthus: pessimistic — food grows arithmetically while population grows geometrically; crisis inevitable. Boserup: optimistic — population pressure drives technological innovation."
+          prompt={l("Contrast Malthus and Boserup without treating either as a guaranteed forecast.", "Сравни Мальтуса и Бозеруп, не представляя их идеи как гарантированный прогноз.")}
+          modelAnswer={l("Malthus examined population pressure on subsistence under specified assumptions. Boserup explained how pressure can stimulate more intensive cultivation, often with greater labour input. Innovation and food access depend on institutions, resources and environmental limits.", "Мальтус рассматривал давление населения на средства существования при определённых предпосылках. Бозеруп объясняла, как давление стимулирует более интенсивное земледелие, нередко с большими затратами труда. Инновации и доступ к продовольствию зависят от институтов, ресурсов и природных ограничений.")}
         />
       </div>
     </div>

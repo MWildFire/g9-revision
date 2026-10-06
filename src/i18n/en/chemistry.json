@@ -8,7 +8,7 @@
   "simulations": {
     "phIndicator": {
       "title": "pH Indicator",
-      "description": "Drag the pH slider; see colour change for universal, litmus and phenolphthalein. Real-world examples for each level.",
+      "description": "Explore an illustrative pH scale at 25 °C and the approximate colours of indicators. Example substances have variable pH in real life because concentration and composition differ. The scale does not by itself identify acid or base strength, and 0–14 is not an absolute limit.",
       "phLabel": "pH value",
       "indicatorLabel": "Indicator",
       "universal": "Universal",
@@ -17,7 +17,7 @@
       "classificationLabel": "Classification",
       "exampleLabel": "Example",
       "spectrumLabel": "Universal indicator spectrum",
-      "scaleNote": "Each pH unit = 10× change in [H⁺]. pH 1 has 10× more H⁺ than pH 2; 1000× more than pH 4.",
+      "scaleNote": "Approximate indicator colours near 25 °C; exact transitions depend on the indicator mixture. pH alone cannot identify acid/base strength or the substance. Everyday examples have variable pH.",
       "strongAcid": "Strong acid",
       "weakAcid": "Weak acid",
       "neutral": "Neutral",
@@ -40,21 +40,61 @@
         "12": "Bleach, soapy water.",
         "13": "Oven cleaner.",
         "14": "Sodium hydroxide — extremely caustic."
+      },
+      "acidic": "Acidic solution",
+      "alkaline": "Alkaline solution",
+      "review": {
+        "englishTerm": "pH Indicator",
+        "russianTerm": "Индикатор pH",
+        "contrast": {
+          "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+          "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+            "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+            "language": "en",
+            "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+          },
+          {
+            "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+            "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+            "language": "en",
+            "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ],
+        "model": {
+          "en": "This classroom colour scale covers pH 0–14 near 25 °C. Real solutions can fall outside it; neutral means [H₃O⁺] = [OH⁻], with neutral pH dependent on temperature.",
+          "ru": "Учебная цветовая шкала охватывает pH 0–14 около 25 °C. Реальные значения могут выходить за неё; нейтральность означает [H₃O⁺] = [OH⁻], а нейтральный pH зависит от температуры."
+        }
       }
     },
     "atomBuilder": {
       "title": "Atom Builder",
-      "description": "Pick element 1-20; see protons, neutrons, electrons and shell configuration on a Bohr model.",
+      "description": "Select one of the first 20 elements to show a neutral atom and a specified example isotope. Z counts protons; A counts protons plus neutrons, so neutrons = A − Z. Rings represent a simplified shell model, not electron paths.",
       "atomicNumberLabel": "Atomic number (Z)",
       "protonsLabel": "Atomic number Z",
       "protonsHint": "(protons)",
-      "massLabel": "Mass number A",
+      "massLabel": "Mass number A (example isotope)",
       "neutronsLabel": "Neutrons",
       "neutronsHint": "(A − Z)",
       "electronsLabel": "Electrons",
       "electronsHint": "(neutral atom)",
       "configLabel": "Configuration",
-      "shellNote": "Shell capacities: 2, 8, 8, 18… Fill inner shells first.",
+      "shellNote": "For these neutral ground-state atoms: 2,8,8,2 at Ca. General shell capacities are 2n²; subshell energies determine filling. The chosen isotope is not an average atomic mass.",
       "elements": {
         "1": "Hydrogen",
         "2": "Helium",
@@ -76,11 +116,43 @@
         "18": "Argon",
         "19": "Potassium",
         "20": "Calcium"
+      },
+      "review": {
+        "englishTerm": "Atom Builder",
+        "russianTerm": "Конструктор атома",
+        "contrast": {
+          "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
+          "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+            "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+            "language": "en",
+            "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+          },
+          {
+            "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+            "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+            "language": "en",
+            "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+          },
+          {
+            "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+            "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+            "language": "ru",
+            "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+          }
+        ],
+        "model": {
+          "en": "Shells indicate allowed energy levels, not circular trajectories. The 2,8,8,2 pattern is for the first 20 neutral ground-state atoms; the third shell can hold up to 18 electrons.",
+          "ru": "Оболочки показывают энергетические уровни, а не круговые траектории. Схема 2,8,8,2 относится к первым 20 нейтральным атомам в основном состоянии; третья оболочка вмещает до 18 электронов."
+        }
       }
     },
     "moleCalc": {
       "title": "Mole Calculator",
-      "description": "Convert between mass, moles, and gas volume at STP. With buttons for common molar masses (H₂O, NaCl, CaCO₃...).",
+      "description": "Convert between mass m and amount n using molar mass M: n = m/M and m = nM. For gas conversions this calculator assumes an ideal gas at 0 °C and 100 kPa, with Vₘ ≈ 22.7 dm³/mol. The mole counts specified particles; it is not a unit of mass.",
       "convertPrompt": "Convert from / to:",
       "directionMassToMoles": "Mass (g) → moles",
       "directionMolesToMass": "Moles → mass (g)",
@@ -91,11 +163,40 @@
       "inputVolume": "Volume (dm³)",
       "molarMassInputLabel": "Molar mass M (g/mol)",
       "presetLabel": "Common molar masses",
-      "stpNote": "STP = 0 °C, 100 kPa (IUPAC, 2019). 1 mole of any gas = 22.7 dm³. Particle count: 1 mol = 6.022 × 10²³ particles (Avogadro)."
+      "stpNote": "The gas conversion uses the ideal-gas approximation Vₘ ≈ 22.7 dm³/mol at 0 °C and 100 kPa. Other temperatures, pressures and real gases require appropriate values.",
+      "invalidInput": "Enter a finite non-negative amount, mass or volume, and a positive molar mass for mass conversions.",
+      "review": {
+        "englishTerm": "Mole Calculator",
+        "russianTerm": "Калькулятор молей",
+        "contrast": {
+          "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
+          "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+            "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+            "language": "en",
+            "section": "3.1 Formula Mass and the Mole Concept"
+          },
+          {
+            "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+            "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+            "language": "en",
+            "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+          },
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ]
+      }
     },
     "energyProfile": {
       "title": "Energy Profile Diagram",
-      "description": "Toggle exo/endo, adjust activation energy and ΔH — see the reaction-progress curve update.",
+      "description": "Compare reactant and product enthalpy levels along an illustrative reaction coordinate. ΔH is product minus reactant level; the forward activation barrier is the rise from reactants to the peak. The peak stays above both endpoints. The horizontal axis is reaction progress, not time.",
       "exoTab": "Exothermic (ΔH negative)",
       "endoTab": "Endothermic (ΔH positive)",
       "activationLabel": "Activation energy E_a",
@@ -109,7 +210,35 @@
       "endoSummaryTitle": "Endothermic",
       "exoSummary": "products end up at lower energy than reactants. Heat is released. ΔH is negative.",
       "endoSummary": "products end up at higher energy than reactants. Heat is absorbed. ΔH is positive.",
-      "catalystNote": "A catalyst would lower the peak (smaller E_a) without changing the start or end positions — ΔH stays the same."
+      "catalystNote": "A catalyst would lower the peak (smaller E_a) without changing the start or end positions — ΔH stays the same.",
+      "review": {
+        "englishTerm": "Energy Profile Diagram",
+        "russianTerm": "Диаграмма энергетического профиля",
+        "contrast": {
+          "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
+          "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+            "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+            "language": "en",
+            "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+          },
+          {
+            "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+            "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+            "language": "en",
+            "section": "5.2 Calorimetry: heat transfer and temperature change"
+          },
+          {
+            "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+            "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+            "language": "ru",
+            "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+          }
+        ]
+      }
     }
   },
   "nav": {
@@ -130,96 +259,363 @@
     "sections": {
       "history": {
         "title": "History of the atmosphere",
-        "body": "4.6 bya — Earth formed. Early atmosphere: water vapour, CO₂, methane, ammonia (mainly from volcanoes). 3.5 bya — first photosynthetic bacteria release O₂. 2.4 bya — Great Oxygenation Event. Today: 78% N₂, 21% O₂, 0.9% argon, 0.04% CO₂, traces of others."
+        "body": "Earth's atmosphere has changed through outgassing, ocean formation, rock reactions and life. Oxygen-producing photosynthesis preceded the major atmospheric oxygen rise about 2.4 billion years ago. Dry air today is approximately 78% nitrogen, 21% oxygen and 0.9% argon; CO₂ is a smaller, changing component.",
+        "review": {
+          "englishTerm": "History of the atmosphere",
+          "russianTerm": "История атмосферы",
+          "contrast": {
+            "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+            "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Astronomy 2e — 8.4",
+              "url": "https://openstax.org/books/astronomy-2e/pages/8-4-life-chemical-evolution-and-climate-change",
+              "language": "en",
+              "section": "8.4 The Evolution of the Atmosphere"
+            }
+          ]
+        }
       },
       "carbonRocks": {
         "title": "Carbon locked in rocks",
-        "body": "Marine organisms used CO₂ to build shells (CaCO₃). When they died, shells settled and formed sedimentary rocks (limestone, chalk). This 'locked away' carbon for millions of years. Fossil fuels (coal, oil, gas) similarly trap carbon from ancient plants and plankton."
+        "body": "Carbon is stored in carbonate rocks and in organic deposits such as fossil fuels. Many marine organisms build calcium carbonate structures that can contribute to sedimentary rocks after burial. Chemical precipitation also forms carbonates; fossil fuels form from buried organic matter through different processes.",
+        "review": {
+          "englishTerm": "Carbon locked in rocks",
+          "russianTerm": "Углерод, запертый в горных породах",
+          "contrast": {
+            "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+            "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Astronomy 2e — 8.3",
+              "url": "https://openstax.org/books/astronomy-2e/pages/8-3-earths-atmosphere",
+              "language": "en",
+              "section": "8.3 Atmospheric Composition: carbonate rocks as carbon reservoirs"
+            },
+            {
+              "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+              "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+              "language": "en",
+              "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+            }
+          ]
+        }
       },
       "greenhouse": {
         "title": "Greenhouse effect",
-        "body": "Sun's short-wave radiation passes through atmosphere → warms Earth's surface → Earth re-radiates as long-wave (infrared) → greenhouse gases (CO₂, CH₄, H₂O, N₂O) absorb and re-emit it back → planet stays warm. Natural greenhouse keeps Earth at ~15°C. Without it: −18°C, no life."
+        "body": "The greenhouse effect is warming associated with gases that absorb and emit infrared radiation. The surface absorbs sunlight and emits infrared energy; greenhouse gases reduce the rate at which this energy escapes to space. The natural effect sustains warmer conditions, and increased greenhouse-gas concentrations alter Earth's energy balance.",
+        "review": {
+          "englishTerm": "Greenhouse effect",
+          "russianTerm": "Парниковый эффект",
+          "contrast": {
+            "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+            "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+          },
+          "sources": [
+            {
+              "title": "NASA — Causes of Climate Change",
+              "url": "https://science.nasa.gov/climate-change/causes/",
+              "language": "en",
+              "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+            },
+            {
+              "title": "NASA — Evidence",
+              "url": "https://science.nasa.gov/climate-change/evidence/",
+              "language": "en",
+              "section": "Global temperature, ocean heat and sea-level observations"
+            }
+          ]
+        }
       },
       "climateChange": {
         "title": "Climate change",
         "items": {
-          "cause": "Human-enhanced greenhouse effect — burning fossil fuels and deforestation raise CO₂ from 280 ppm (pre-industrial) to 420+ ppm today.",
-          "evidence": "Evidence: rising global temperatures, melting ice caps, sea level rise, ocean acidification, shifted seasons, more extreme weather.",
-          "consequences": "Consequences: flooding of low-lying nations, droughts, biodiversity loss, food insecurity, climate refugees.",
-          "mitigation": "Mitigation: renewables (solar, wind), carbon capture, reforestation, less meat, electric transport, energy efficiency."
+          "cause": "Human-driven climate change results chiefly from increased greenhouse-gas concentrations caused by fossil-fuel use, land-use change and other activities. CO₂, methane and nitrous oxide differ in lifetime and warming effect. A comparison such as methane's relative warming requires a stated time horizon and metric.",
+          "evidence": "Evidence of climate change comes from long-term measurements of temperature, ocean heat, sea level, ice and ecological responses. Attribution uses observations and physical models to test possible causes. One unusual weather event alone does not define a climate trend.",
+          "consequences": "Climate change alters risks to ecosystems and societies through heat, changing rainfall, sea-level rise and other effects. Impacts vary by region and vulnerability. Ocean acidification is a related effect of dissolved anthropogenic CO₂, chemically distinct from warming itself.",
+          "mitigation": "Mitigation reduces greenhouse-gas emissions or increases their removal from the atmosphere. Examples include energy efficiency, low-carbon electricity and protection of carbon stores. Nuclear power is low-carbon but is not normally classified as renewable; evaluate each option by its full effects."
         },
         "detailed": {
           "cause": {
             "name": "Causes of human-driven climate change",
-            "rule": "Burning fossil fuels (coal, oil, gas) releases CO₂. Deforestation removes trees that would absorb CO₂. Agriculture (cattle, rice) releases methane (CH₄, 25× stronger than CO₂). Industrial processes release N₂O, fluorinated gases.",
-            "examples": ["Pre-industrial CO₂: 280 ppm. Today (2025): 425 ppm — 50% increase.", "Top emitters: China (28%), USA (15%), EU (8%), India (7%), Russia (5%).", "Per-capita: USA ~15 t/year, EU ~7, India ~2. Massive inequality.", "Worst single contributor: coal-fired power plants. Cement production = 8% of emissions.", "1.5°C target (Paris Agreement) — already +1.2°C above pre-industrial."],
-            "tip": "Greenhouse Gas Potential (GWP) measures relative warming power. CO₂ = 1 (baseline); methane = 28; N₂O = 273. Methane lasts ~12 years; CO₂ thousands."
+            "rule": "Human-driven climate change results chiefly from increased greenhouse-gas concentrations caused by fossil-fuel use, land-use change and other activities. CO₂, methane and nitrous oxide differ in lifetime and warming effect. A comparison such as methane's relative warming requires a stated time horizon and metric.",
+            "examples": [
+              "Burning fossil carbon adds CO₂; clearing vegetation can both release carbon and reduce uptake."
+            ],
+            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "review": {
+              "englishTerm": "Causes of human-driven climate change",
+              "russianTerm": "Причины антропогенного изменения климата",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "NASA — Causes of Climate Change",
+                  "url": "https://science.nasa.gov/climate-change/causes/",
+                  "language": "en",
+                  "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+                },
+                {
+                  "title": "NASA — Evidence",
+                  "url": "https://science.nasa.gov/climate-change/evidence/",
+                  "language": "en",
+                  "section": "Global temperature, ocean heat and sea-level observations"
+                }
+              ]
+            }
           },
           "evidence": {
             "name": "Evidence climate is changing",
-            "rule": "Multiple independent lines of evidence all point the same direction: temperature records, ice cores, sea level, glacier retreat, biodiversity shifts, extreme weather frequency.",
-            "examples": ["Direct temperature records since 1850: 1.2°C warmer, last 10 years all in top-10 hottest ever.", "Ice cores (Vostok, EPICA): show CO₂ tracks temperature over 800,000 years.", "Sea level: rising 3.4 mm/year now (was 1.5 mm/year in 1900s).", "Arctic sea ice down 13% per decade.", "Bird migration patterns shifted by weeks. Tropical diseases moving toward poles."],
-            "tip": "Climate VARIABILITY (year-to-year) ≠ climate CHANGE (long-term trend). One cold winter doesn't disprove decades of warming."
+            "rule": "Evidence of climate change comes from long-term measurements of temperature, ocean heat, sea level, ice and ecological responses. Attribution uses observations and physical models to test possible causes. One unusual weather event alone does not define a climate trend.",
+            "examples": [
+              "Ocean heat content and sea-level records provide evidence independent of a single land thermometer."
+            ],
+            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "review": {
+              "englishTerm": "Evidence climate is changing",
+              "russianTerm": "Доказательства того, что климат меняется",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "NASA — Causes of Climate Change",
+                  "url": "https://science.nasa.gov/climate-change/causes/",
+                  "language": "en",
+                  "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+                },
+                {
+                  "title": "NASA — Evidence",
+                  "url": "https://science.nasa.gov/climate-change/evidence/",
+                  "language": "en",
+                  "section": "Global temperature, ocean heat and sea-level observations"
+                }
+              ]
+            }
           },
           "consequences": {
             "name": "Consequences",
-            "rule": "Sea-level rise floods coastal cities. Crop failures from droughts and floods. Heatwaves cause excess deaths. Ocean acidification destroys coral reefs. Species migrations and extinctions. Climate refugees displace millions.",
-            "examples": ["Maldives, Tuvalu — entire countries at risk of being uninhabitable.", "Australian bushfires 2019-20 killed 1 billion+ animals.", "European heatwave 2003: 70,000 excess deaths.", "Coral reefs: 50% lost since 1950 from warming + acidification.", "By 2050, expected 200 million-1 billion climate refugees."],
-            "watchOut": "Effects DISPROPORTIONATELY hurt poor countries that contributed LEAST to emissions. Climate justice is a moral issue, not just scientific."
+            "rule": "Climate change alters risks to ecosystems and societies through heat, changing rainfall, sea-level rise and other effects. Impacts vary by region and vulnerability. Ocean acidification is a related effect of dissolved anthropogenic CO₂, chemically distinct from warming itself.",
+            "examples": [
+              "Sea-level rise changes coastal flood risk; heat changes risks to organisms and people."
+            ],
+            "watchOut": "Consequences depend on exposure and vulnerability as well as the physical hazard.",
+            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "review": {
+              "englishTerm": "Consequences",
+              "russianTerm": "Последствия",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "NASA — Causes of Climate Change",
+                  "url": "https://science.nasa.gov/climate-change/causes/",
+                  "language": "en",
+                  "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+                },
+                {
+                  "title": "NASA — Evidence",
+                  "url": "https://science.nasa.gov/climate-change/evidence/",
+                  "language": "en",
+                  "section": "Global temperature, ocean heat and sea-level observations"
+                }
+              ]
+            }
           },
           "mitigation": {
             "name": "Mitigation — reducing emissions",
-            "rule": "Switching to renewable energy (solar, wind, hydro, nuclear). Energy efficiency (insulation, LED). Electrified transport. Reforestation. Carbon capture & storage. Carbon pricing (taxes, ETS). Plant-based diets.",
-            "examples": ["Costa Rica: 99% renewable electricity since 2015.", "EU Emissions Trading Scheme: carbon trading, prices rose to €90+/ton.", "Tesla and Chinese EVs: electric car sales now 18% of global new cars.", "Methane cuts from cattle and rice can give near-instant temperature relief.", "Direct Air Capture: Iceland Climeworks plant captures 4,000 t CO₂/year (still expensive)."],
-            "tip": "Mitigation is about PREVENTING further damage. Adaptation is about COPING with damage already happening. Both needed."
+            "rule": "Mitigation reduces greenhouse-gas emissions or increases their removal from the atmosphere. Examples include energy efficiency, low-carbon electricity and protection of carbon stores. Nuclear power is low-carbon but is not normally classified as renewable; evaluate each option by its full effects.",
+            "examples": [
+              "Replacing high-emission electricity generation with low-carbon sources can reduce emissions."
+            ],
+            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "review": {
+              "englishTerm": "Mitigation — reducing emissions",
+              "russianTerm": "Смягчение — сокращение выбросов",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "NASA — Mitigation and Adaptation",
+                  "url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
+                  "language": "en",
+                  "section": "Mitigation and Adaptation: emissions, sinks and adjustment to impacts"
+                }
+              ]
+            }
           },
           "adaptation": {
             "name": "Adaptation — living with changing climate",
-            "rule": "Building sea walls and flood defences. Drought-resistant crops. Better forecasting and warning systems. Heatwave action plans. Air conditioning. Relocating communities. Insurance reform.",
-            "examples": ["Netherlands 'Room for the River' programme — controlled flooding zones.", "Bangladesh: cyclone shelters reduced deaths from 500,000 (1970) to under 200 (recent storms).", "Singapore: 2°C cooler street design, white roofs, urban trees.", "Drought-resistant maize varieties in Sub-Saharan Africa.", "London flood barrier (Thames Barrier) raised to handle higher sea levels."],
-            "tip": "Adaptation is expensive but unavoidable — even with full mitigation, the planet will warm further from existing CO₂. Some change is locked in."
+            "rule": "Adaptation is adjustment to actual or expected climate effects to reduce harm or use opportunities. Examples include flood protection, heat-health plans and changes to farming. It reduces vulnerability but does not necessarily reduce greenhouse-gas emissions; adaptation and mitigation address different parts of the problem.",
+            "examples": [
+              "Floodable open space and drainage design can reduce damage during intense rainfall."
+            ],
+            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "review": {
+              "englishTerm": "Adaptation — living with changing climate",
+              "russianTerm": "Адаптация — жизнь в меняющемся климате",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "NASA — Mitigation and Adaptation",
+                  "url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
+                  "language": "en",
+                  "section": "Mitigation and Adaptation: emissions, sinks and adjustment to impacts"
+                }
+              ]
+            }
           }
         }
       },
       "pollutants": {
         "title": "Atmospheric pollutants",
         "items": {
-          "co2": "CO₂ — combustion of fossil fuels; greenhouse gas",
-          "co": "CO (carbon monoxide) — incomplete combustion; toxic (binds to haemoglobin instead of O₂)",
-          "soot": "Soot / particulates — incomplete combustion; respiratory disease, dirty buildings",
-          "sox": "SO₂ (sulfur dioxide) — burning sulfur-containing fuels; acid rain (SO₂ + H₂O → H₂SO₃)",
-          "nox": "NOx — high-temperature combustion (car engines); acid rain + photochemical smog"
+          "co2": "Carbon dioxide is a colourless gas produced by processes including respiration and complete oxidation of carbon-containing fuels. It absorbs infrared radiation and contributes to the greenhouse effect. Whether a release is a pollutant depends on its amount and context; CO₂ is also a normal part of the carbon cycle.",
+          "co": "Carbon monoxide is a colourless, odourless toxic gas that can form during incomplete combustion of carbon-containing fuels. It binds strongly to haemoglobin and impairs oxygen delivery. CO is chemically and biologically different from carbon dioxide, CO₂.",
+          "soot": "Particulate matter is a mixture of small solid particles and liquid droplets suspended in air. Soot is a carbon-rich subset from incomplete combustion. PM₁₀ and PM₂.₅ classify particles by aerodynamic diameter; smaller particles can reach deeper parts of the respiratory system.",
+          "sox": "Sulfur dioxide is a gas released when sulfur-containing materials burn, for example S + O₂ → SO₂. Atmospheric oxidation and interaction with water produce acidic compounds and sulfate particles. These processes contribute to acid deposition; a single water-addition equation is only a simplified model.",
+          "nox": "Nitrogen oxides, especially NO and NO₂, form in processes including high-temperature combustion. Nitrogen and oxygen can react to form NO, which can be oxidised to NO₂. Their atmospheric reactions contribute to acid deposition and photochemical ozone formation."
         },
         "detailed": {
           "co2": {
             "name": "Carbon dioxide (CO₂)",
-            "rule": "Produced by COMPLETE combustion of any carbon fuel: C + O₂ → CO₂. Also from respiration. Main long-lived greenhouse gas. Concentration rising 2-3 ppm/year.",
-            "examples": ["Burning octane (petrol): 2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O.", "Average UK home emits 2-3 tonnes CO₂/year from heating.", "Driving 1 mile in petrol car ≈ 400 g CO₂. EV = ~100 g (depending on grid).", "Cement production releases CO₂ via decomposition: CaCO₃ → CaO + CO₂ (chemical not combustion)."],
-            "tip": "Not toxic at normal levels but dangerous at high concentrations (>5%) — can cause headaches, drowsiness, suffocation."
+            "rule": "Carbon dioxide is a colourless gas produced by processes including respiration and complete oxidation of carbon-containing fuels. It absorbs infrared radiation and contributes to the greenhouse effect. Whether a release is a pollutant depends on its amount and context; CO₂ is also a normal part of the carbon cycle.",
+            "examples": [
+              "CaCO₃ → CaO + CO₂: decomposition also releases CO₂ without burning fuel."
+            ],
+            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "review": {
+              "englishTerm": "Carbon dioxide (CO₂)",
+              "russianTerm": "Углекислый газ (CO₂)",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "NASA — Causes of Climate Change",
+                  "url": "https://science.nasa.gov/climate-change/causes/",
+                  "language": "en",
+                  "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+                },
+                {
+                  "title": "NASA — Evidence",
+                  "url": "https://science.nasa.gov/climate-change/evidence/",
+                  "language": "en",
+                  "section": "Global temperature, ocean heat and sea-level observations"
+                }
+              ]
+            }
           },
           "co": {
             "name": "Carbon monoxide (CO)",
-            "rule": "Produced by INCOMPLETE combustion (when O₂ supply is limited). 2C + O₂ → 2CO. Colourless, odourless — the 'silent killer'. Binds to haemoglobin 200× more tightly than O₂, preventing O₂ transport.",
-            "examples": ["Faulty boilers, blocked chimneys — UK kills ~50 people/year from CO poisoning.", "Car exhaust in garage with door closed = lethal in minutes.", "CO detectors (alarms) should be in every home with gas/oil heating.", "Treatment: 100% O₂ for hours; severe cases hyperbaric chamber."],
-            "watchOut": "Symptoms (headache, nausea, confusion) mimic flu — often unrecognised. Pets often collapse first; if so EVACUATE."
+            "rule": "Carbon monoxide is a colourless, odourless toxic gas that can form during incomplete combustion of carbon-containing fuels. It binds strongly to haemoglobin and impairs oxygen delivery. CO is chemically and biologically different from carbon dioxide, CO₂.",
+            "examples": [
+              "Incomplete fuel combustion can form CO; its lack of smell does not indicate absence."
+            ],
+            "watchOut": "CO and CO₂ differ by one oxygen atom but have different chemical behaviour and hazards.",
+            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "review": {
+              "englishTerm": "Carbon monoxide (CO)",
+              "russianTerm": "Угарный газ (CO)",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "US EPA — Carbon Monoxide Basics",
+                  "url": "https://www.epa.gov/co-pollution/basic-information-about-carbon-monoxide-co-outdoor-air-pollution",
+                  "language": "en",
+                  "section": "What is CO? What are the harmful effects of CO?"
+                }
+              ]
+            }
           },
           "soot": {
             "name": "Particulates (soot, PM2.5, PM10)",
-            "rule": "Tiny solid particles from incomplete combustion. PM10 (≤10 μm), PM2.5 (≤2.5 μm — finer, penetrates deep into lungs). Diesel engines, coal burning, wildfires.",
-            "examples": ["Beijing, Delhi: PM2.5 often 5-10× WHO limit. Population wears masks.", "Diesel cars emit ~10× more particulates than petrol; banned in many cities.", "Soot deposits dirty buildings — Big Ben blackened (cleaned 2017).", "Wood-burning stoves: surprisingly polluting — UK now restricts in cities."],
-            "tip": "Linked to ~7 million premature deaths/year globally (WHO). Heart disease, stroke, lung cancer, asthma."
+            "rule": "Particulate matter is a mixture of small solid particles and liquid droplets suspended in air. Soot is a carbon-rich subset from incomplete combustion. PM₁₀ and PM₂.₅ classify particles by aerodynamic diameter; smaller particles can reach deeper parts of the respiratory system.",
+            "examples": [
+              "Combustion particles, dust and liquid aerosols are all examples of particulate matter."
+            ],
+            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "review": {
+              "englishTerm": "Particulates (soot, PM2.5, PM10)",
+              "russianTerm": "Частицы (сажа, PM2.5, PM10)",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "US EPA — Particulate Matter Basics",
+                  "url": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+                  "language": "en",
+                  "section": "What is PM? Sources of PM; harmful effects"
+                }
+              ]
+            }
           },
           "sox": {
             "name": "Sulfur dioxide (SO₂)",
-            "rule": "Burning fuels containing sulfur impurities (coal especially): S + O₂ → SO₂. Reacts with water in atmosphere: SO₂ + H₂O → H₂SO₃ (sulfurous acid). Further oxidation → H₂SO₄ (sulfuric acid) = ACID RAIN.",
-            "examples": ["1952 Great Smog of London — 12,000 deaths from coal SO₂ + fog.", "Scandinavian forests damaged by acid rain from European coal in 1980s.", "Modern coal plants use 'flue gas desulfurisation' — limestone scrubbers remove ~95% of SO₂.", "Heavy fuel oil ships emit huge SO₂ at sea — new IMO limits 2020 cut levels 80%."],
-            "tip": "Acid rain effects: dissolves limestone buildings, leaches nutrients from soil, acidifies lakes, kills fish. Causes mainly historical now in West (regulations worked)."
+            "rule": "Sulfur dioxide is a gas released when sulfur-containing materials burn, for example S + O₂ → SO₂. Atmospheric oxidation and interaction with water produce acidic compounds and sulfate particles. These processes contribute to acid deposition; a single water-addition equation is only a simplified model.",
+            "examples": [
+              "Removing sulfur from fuel or exhaust reduces sulfur dioxide emissions."
+            ],
+            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "review": {
+              "englishTerm": "Sulfur dioxide (SO₂)",
+              "russianTerm": "Диоксид серы (SO₂)",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "US EPA — Sulfur Dioxide Basics",
+                  "url": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics",
+                  "language": "en",
+                  "section": "Sources of SO₂; health and environmental effects"
+                }
+              ]
+            }
           },
           "nox": {
             "name": "Nitrogen oxides (NOx)",
-            "rule": "Formed at HIGH temperatures (car engines, power stations) by reaction of N₂ + O₂ in air: N₂ + O₂ → 2NO; further: 2NO + O₂ → 2NO₂. Causes acid rain AND photochemical smog.",
-            "examples": ["Diesel engines: highest NOx emitters. VW 'Dieselgate' 2015 — cheated on NOx tests; €30bn fines.", "Photochemical smog (Los Angeles, Mexico City) — NOx + sunlight + VOCs → ozone (O₃) + irritants.", "London: NO₂ above legal limit on many streets, especially near schools.", "Catalytic converters convert NOx → N₂ + O₂ (but only when hot)."],
-            "watchOut": "Ozone at GROUND level is harmful — irritates lungs, damages plants. Same molecule that protects us from UV in the stratosphere."
+            "rule": "Nitrogen oxides, especially NO and NO₂, form in processes including high-temperature combustion. Nitrogen and oxygen can react to form NO, which can be oxidised to NO₂. Their atmospheric reactions contribute to acid deposition and photochemical ozone formation.",
+            "examples": [
+              "NO₂ participates in sunlight-driven reactions with other pollutants that can form ozone near the ground."
+            ],
+            "watchOut": "Ozone at GROUND level is harmful — irritates lungs, damages plants. Same molecule that protects us from UV in the stratosphere.",
+            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "review": {
+              "englishTerm": "Nitrogen oxides (NOx)",
+              "russianTerm": "Оксиды азота (NOx)",
+              "contrast": {
+                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
+                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+              },
+              "sources": [
+                {
+                  "title": "US EPA — Basic Information about NO₂",
+                  "url": "https://www.epa.gov/no2-pollution/basic-information-about-no2",
+                  "language": "en",
+                  "section": "Formation of NO₂; ozone, particles and acid rain"
+                }
+              ]
+            }
           }
         }
       }
@@ -231,48 +627,237 @@
     "sections": {
       "definition": {
         "title": "What is rate?",
-        "body": "Rate = amount of product formed (or reactant used up) per unit time. Units: g/s, cm³/s, mol/dm³/s. Measured experimentally by tracking mass loss, gas volume produced, colour change, or precipitate cloudiness."
+        "body": "A reaction rate describes how quickly a measured amount of reactant decreases or product increases. Average rate = change in amount ÷ elapsed time; state the measured quantity and units. Concentration-based rates for different species are related by the equation's stoichiometric coefficients.",
+        "review": {
+          "englishTerm": "What is rate?",
+          "russianTerm": "Что такое скорость?",
+          "contrast": {
+            "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+            "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+              "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+              "language": "en",
+              "section": "12.5 Collision Theory: activation energy and orientation"
+            },
+            {
+              "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+              "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+              "language": "ru",
+              "section": "Скорость химической реакции: влияющие факторы"
+            }
+          ]
+        }
       },
       "collision": {
         "title": "Collision theory",
-        "body": "For a reaction to occur, particles must (1) collide and (2) collide with enough energy (≥ activation energy E_a) and (3) in the correct orientation. Anything that increases the frequency or energy of collisions speeds up the reaction."
+        "body": "Collision theory models reactions as effective encounters between reacting particles. A productive collision requires sufficient energy to overcome an activation barrier and a suitable orientation. More collisions do not guarantee a faster reaction unless the frequency of successful encounters increases.",
+        "review": {
+          "englishTerm": "Collision theory",
+          "russianTerm": "Теория столкновений",
+          "contrast": {
+            "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+            "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+              "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+              "language": "en",
+              "section": "12.5 Collision Theory: activation energy and orientation"
+            },
+            {
+              "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+              "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+              "language": "ru",
+              "section": "Скорость химической реакции: влияющие факторы"
+            }
+          ]
+        }
       },
       "factors": {
         "title": "Factors affecting rate",
         "detailed": {
           "temperature": {
             "name": "Temperature",
-            "rule": "Higher T → particles move FASTER and have MORE energy → more frequent AND more energetic collisions. A 10 °C rise roughly DOUBLES the rate.",
-            "examples": ["Food in the fridge lasts longer (low T slows bacterial growth).", "Cooking pasta in boiling water (100 °C) is faster than in warm water (50 °C)."],
-            "tip": "Activation-energy effect dominates over speed effect. Drawing a Maxwell–Boltzmann curve: more particles cross E_a at higher T."
+            "rule": "Raising temperature usually increases reaction rate because a larger fraction of particles can overcome the activation barrier. Collision frequency also changes. The size of the increase depends on the reaction and temperature range; a 10 °C rise does not universally double rate.",
+            "examples": [
+              "Food in the fridge lasts longer (low T slows bacterial growth).",
+              "Cooking pasta in boiling water (100 °C) is faster than in warm water (50 °C)."
+            ],
+            "tip": "Activation-energy effect dominates over speed effect. Drawing a Maxwell–Boltzmann curve: more particles cross E_a at higher T.",
+            "review": {
+              "englishTerm": "Temperature",
+              "russianTerm": "Температура",
+              "contrast": {
+                "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+                "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+                  "language": "en",
+                  "section": "12.5 Collision Theory: activation energy and orientation"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+                  "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+                  "language": "ru",
+                  "section": "Скорость химической реакции: влияющие факторы"
+                }
+              ]
+            }
           },
           "concentration": {
             "name": "Concentration (and pressure for gases)",
-            "rule": "More particles in the same volume → particles meet more often → more frequent collisions → faster rate. Doubling concentration usually doubles the rate (for simple reactions).",
-            "examples": ["Dilute HCl reacts slowly with Mg; concentrated HCl reacts quickly.", "Increasing pressure on gases (e.g., Haber process) acts like concentration."],
-            "watchOut": "Once reactants are dilute, the rate drops sharply — that's why curves flatten."
+            "rule": "Increasing a reactant concentration often increases the frequency of encounters and hence reaction rate. For gases, increasing partial pressure at fixed temperature increases concentration. The quantitative dependence is determined experimentally; doubling concentration need not double rate.",
+            "examples": [
+              "Dilute HCl reacts slowly with Mg; concentrated HCl reacts quickly.",
+              "Increasing pressure on gases (e.g., Haber process) acts like concentration."
+            ],
+            "watchOut": "A rate curve can flatten as reactants are consumed, but a plateau can also reflect equilibrium or a measurement limit.",
+            "review": {
+              "englishTerm": "Concentration (and pressure for gases)",
+              "russianTerm": "Концентрация (и давление для газов)",
+              "contrast": {
+                "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+                "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+                  "language": "en",
+                  "section": "12.5 Collision Theory: activation energy and orientation"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+                  "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+                  "language": "ru",
+                  "section": "Скорость химической реакции: влияющие факторы"
+                }
+              ]
+            }
           },
           "surfaceArea": {
             "name": "Surface area (of solids)",
-            "rule": "More exposed surface → more places where collisions can happen → faster rate. Powder reacts much faster than a single lump of the same mass.",
-            "examples": ["Powdered marble + HCl fizzes vigorously; a marble lump reacts slowly.", "Flour explosions in mills — fine powder gives huge surface area and combusts rapidly."],
-            "tip": "Total mass is the same, but surface area can be 100×+ greater for fine powder."
+            "rule": "When a solid reacts at its surface, increasing its exposed area generally increases the total reaction rate. Dividing a fixed mass into smaller pieces exposes more contact area. This changes rate, not the amount of product possible from that mass alone.",
+            "examples": [
+              "Powdered marble + HCl fizzes vigorously; a marble lump reacts slowly.",
+              "Flour explosions in mills — fine powder gives huge surface area and combusts rapidly."
+            ],
+            "tip": "Total mass is the same, but surface area can be 100×+ greater for fine powder.",
+            "review": {
+              "englishTerm": "Surface area (of solids)",
+              "russianTerm": "Площадь поверхности (твёрдых веществ)",
+              "contrast": {
+                "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+                "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+                  "language": "en",
+                  "section": "12.5 Collision Theory: activation energy and orientation"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+                  "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+                  "language": "ru",
+                  "section": "Скорость химической реакции: влияющие факторы"
+                }
+              ]
+            }
           },
           "catalyst": {
             "name": "Catalyst",
-            "rule": "Provides an ALTERNATIVE reaction pathway with a LOWER activation energy. The catalyst itself is NOT used up. Specific to a particular reaction.",
-            "examples": ["MnO₂ catalyses 2H₂O₂ → 2H₂O + O₂ (rapid bubbling).", "Iron in the Haber process (N₂ + 3H₂ → 2NH₃).", "Enzymes in your body — biological catalysts (amylase, pepsin)."],
-            "tip": "Catalysts do NOT change ΔH or the products — only the speed."
+            "rule": "A catalyst increases reaction rate through an alternative mechanism with a lower effective activation barrier and is regenerated overall. It can take part in intermediate steps. It changes neither the reaction's enthalpy change nor the equilibrium composition at a fixed temperature.",
+            "examples": [
+              "MnO₂ catalyses 2H₂O₂ → 2H₂O + O₂ (rapid bubbling).",
+              "Iron in the Haber process (N₂ + 3H₂ → 2NH₃).",
+              "Enzymes in your body — biological catalysts (amylase, pepsin)."
+            ],
+            "tip": "A catalyst may change a mechanism or product selectivity; for the same net reaction it does not change ΔH or equilibrium.",
+            "review": {
+              "englishTerm": "Catalyst",
+              "russianTerm": "Катализатор",
+              "contrast": {
+                "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+                "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+                  "language": "en",
+                  "section": "12.5 Collision Theory: activation energy and orientation"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+                  "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+                  "language": "ru",
+                  "section": "Скорость химической реакции: влияющие факторы"
+                }
+              ]
+            }
           }
         }
       },
       "graphs": {
         "title": "Drawing rate graphs",
-        "body": "Plot product (or reactant) vs time. Initial steep gradient = fast initial rate. Curve flattens as reactants run out. Steeper line = faster reaction. The gradient at any point = rate at that moment. Compare two reactions by comparing gradients of their tangents."
+        "body": "On an amount-versus-time graph, the secant gradient gives average change per time interval and a tangent gradient gives instantaneous change. Product curves usually rise; reactant curves fall. A plateau indicates no further net measured change, which may mean completion or equilibrium depending on the system.",
+        "review": {
+          "englishTerm": "Drawing rate graphs",
+          "russianTerm": "Графики скорости",
+          "contrast": {
+            "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+            "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+              "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+              "language": "en",
+              "section": "12.5 Collision Theory: activation energy and orientation"
+            },
+            {
+              "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+              "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+              "language": "ru",
+              "section": "Скорость химической реакции: влияющие факторы"
+            }
+          ]
+        }
       },
       "experiments": {
         "title": "Carrying out a rate experiment",
-        "body": "Classic example: marble chips + HCl. Measure mass loss (CO₂ escapes) over time with a balance. Independent variable: chip size / acid concentration / temperature. Dependent: mass at fixed time intervals. Control: same total marble mass, same acid volume, same temperature (unless studying T). Repeat 3 times, average."
+        "body": "A rate experiment follows a measurable change over time while controlling relevant conditions. For calcium carbonate with acid, collect CO₂ volume or measure mass loss as CO₂ escapes. Change one chosen factor, keep other relevant quantities fixed, and compare rates with repeat measurements and uncertainties.",
+        "review": {
+          "englishTerm": "Carrying out a rate experiment",
+          "russianTerm": "Эксперимент по скорости",
+          "contrast": {
+            "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+            "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+              "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+              "language": "en",
+              "section": "12.5 Collision Theory: activation energy and orientation"
+            },
+            {
+              "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+              "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+              "language": "ru",
+              "section": "Скорость химической реакции: влияющие факторы"
+            }
+          ]
+        }
       }
     }
   },
@@ -281,29 +866,162 @@
     "intro": "Topics that extend beyond the G9 syllabus — useful preview for IGCSE Extended and IB DP.",
     "organic": {
       "title": "Organic chemistry — intro",
-      "body": "Carbon forms 4 covalent bonds, allowing huge variety. Hydrocarbons = C + H only. Alkanes (CₙH₂ₙ₊₂) — single bonds, saturated, less reactive. Alkenes (CₙH₂ₙ) — at least one C=C double bond, more reactive (decolourise bromine water). Alcohols (R-OH) — react with sodium giving H₂. Carboxylic acids (R-COOH) — weak acids."
+      "body": "Organic chemistry studies carbon compounds, especially their structures and reactions. Hydrocarbons contain only C and H. Acyclic alkanes have formula CₙH₂ₙ₊₂; acyclic monoalkenes have CₙH₂ₙ. Alcohol and carboxylic-acid functional groups are –OH and –COOH; a formula alone may not identify a unique structure.",
+      "review": {
+        "englishTerm": "Organic chemistry — intro",
+        "russianTerm": "Введение в органическую химию",
+        "contrast": {
+          "en": "A classification is defined by structure or a specified process; similar-looking formulas need not have the same behaviour.",
+          "ru": "Классификация опирается на строение или определённый процесс; сходные формулы не гарантируют одинакового поведения."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 20.1 Hydrocarbons: alkanes and alkenes",
+            "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+            "language": "en",
+            "section": "20.1 Hydrocarbons: alkanes and alkenes"
+          }
+        ],
+        "model": {
+          "en": "CₙH₂ₙ₊₂ describes acyclic saturated hydrocarbons; CₙH₂ₙ describes acyclic monoalkenes but also some other structures, so a formula alone does not establish an alkene.",
+          "ru": "CₙH₂ₙ₊₂ описывает ациклические насыщенные углеводороды; CₙH₂ₙ — ациклические моноалкены, но также другие структуры, поэтому одной формулы недостаточно."
+        }
+      }
     },
     "redox": {
       "title": "Redox reactions",
-      "body": "OIL RIG: Oxidation Is Loss (of electrons), Reduction Is Gain. Oxidation number: charge an atom would have if all bonds were ionic. Half-equations show electron transfer: Zn → Zn²⁺ + 2e⁻ (oxidation). Reducing agents donate electrons. Common redox: rusting, combustion, batteries."
+      "body": "Oxidation is electron loss and reduction is electron gain; they occur together in a redox reaction. More generally, oxidation raises oxidation state and reduction lowers it. A reducing agent is itself oxidised; an oxidising agent is reduced. Oxidation state is a bookkeeping quantity, not always an atom's actual charge.",
+      "review": {
+        "englishTerm": "Redox reactions",
+        "russianTerm": "Окислительно-восстановительные реакции",
+        "contrast": {
+          "en": "Oxidation loses electrons or increases oxidation number; reduction gains electrons or decreases oxidation number. Oxygen is not required for every redox reaction.",
+          "ru": "Окисление отдаёт электроны или повышает степень окисления; восстановление принимает электроны или понижает её. Не всякая ОВР требует кислорода."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+            "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+            "language": "en",
+            "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+          }
+        ]
+      }
     },
     "electrochem": {
       "title": "Electrochemistry",
-      "body": "Electrolysis splits compounds using electricity. Cathode (−) attracts cations (metals, hydrogen). Anode (+) attracts anions (non-metals). Example: molten NaCl → Na at cathode, Cl₂ at anode. Used to extract reactive metals (Al, Na), electroplate, purify copper. Galvanic cells generate electricity from spontaneous redox."
+      "body": "Electrolysis uses electrical energy to drive a non-spontaneous redox reaction. Reduction occurs at the cathode and oxidation at the anode. In an electrolytic cell these are negative and positive respectively; signs reverse in a galvanic cell. Products depend on the electrolyte, electrodes and conditions.",
+      "review": {
+        "englishTerm": "Electrochemistry",
+        "russianTerm": "Электрохимия",
+        "contrast": {
+          "en": "Oxidation is always at the anode; reduction at the cathode. Their signs depend on whether the cell is galvanic or electrolytic.",
+          "ru": "На аноде всегда идёт окисление, на катоде — восстановление. Знаки электродов зависят от того, гальванический элемент это или электролизёр."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 17.7 Electrolysis: electrolytic cells",
+            "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+            "language": "en",
+            "section": "17.7 Electrolysis: electrolytic cells"
+          }
+        ]
+      }
     },
     "rates": {
       "title": "Rates of reaction",
       "items": [
-        "Concentration — more particles → more collisions → faster",
-        "Temperature — particles move faster, more energetic collisions",
-        "Surface area — more exposed reactant → faster (powder vs lump)",
-        "Catalyst — provides lower-energy pathway, not consumed",
-        "Light/pressure — for specific reactions (e.g., photosynthesis, gas phase)"
-      ]
+        "Concentration: changing reactant concentration can change rate; the relationship depends on the reaction mechanism.",
+        "Temperature: changes the energy distribution and the fraction of collisions able to react.",
+        "Surface area: more exposed solid surface can increase the rate of a heterogeneous reaction, with other conditions fixed.",
+        "Catalyst: increases rate through another mechanism and is regenerated overall; intermediates may form.",
+        "Pressure affects reacting gas concentrations; light affects photochemical processes. These effects are reaction-specific."
+      ],
+      "review": {
+        "englishTerm": "Rates of reaction",
+        "russianTerm": "Скорость реакции",
+        "contrast": {
+          "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
+          "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+            "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+            "language": "en",
+            "section": "12.5 Collision Theory: activation energy and orientation"
+          },
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ]
+      }
     },
     "equilibrium": {
       "title": "Dynamic equilibrium — intro",
-      "body": "Reversible reactions reach a state where forward and reverse rates are equal, but reactions continue. Le Chatelier's principle: if disturbed (T, p, conc.), the equilibrium shifts to oppose the change. Example: Haber process N₂ + 3H₂ ⇌ 2NH₃ — high pressure + moderate T + catalyst (iron) maximises ammonia yield."
+      "body": "Dynamic equilibrium in a closed system occurs when forward and reverse reaction rates are equal, so macroscopic composition stays constant. Reactant and product concentrations need not be equal. Changes in conditions can shift equilibrium; a catalyst speeds approach to equilibrium without changing its composition at a fixed temperature.",
+      "review": {
+        "englishTerm": "Dynamic equilibrium — intro",
+        "russianTerm": "Динамическое равновесие — введение",
+        "contrast": {
+          "en": "At equilibrium the forward and reverse rates are equal; concentrations are constant but need not be equal. A catalyst changes the time to equilibrium, not its composition.",
+          "ru": "При равновесии равны скорости прямой и обратной реакций; концентрации постоянны, но не обязаны быть равны. Катализатор меняет время установления равновесия, а не его состав."
+        },
+        "sources": [
+          {
+            "title": "OpenStax Chemistry 2e — 13.1 Chemical Equilibria: dynamic equilibrium",
+            "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+            "language": "en",
+            "section": "13.1 Chemical Equilibria: dynamic equilibrium"
+          }
+        ],
+        "visual": {
+          "kind": "comparison",
+          "title": {
+            "en": "Equilibrium compares rates",
+            "ru": "При равновесии сравнивают скорости"
+          },
+          "items": [
+            {
+              "label": {
+                "en": "Forward reaction rate",
+                "ru": "Скорость прямой реакции"
+              },
+              "detail": {
+                "en": "Equal to reverse rate at equilibrium.",
+                "ru": "При равновесии равна обратной скорости."
+              }
+            },
+            {
+              "label": {
+                "en": "Reverse reaction rate",
+                "ru": "Скорость обратной реакции"
+              },
+              "detail": {
+                "en": "The reverse reaction continues.",
+                "ru": "Обратная реакция продолжается."
+              }
+            },
+            {
+              "label": {
+                "en": "Concentrations",
+                "ru": "Концентрации"
+              },
+              "detail": {
+                "en": "Constant over time, not necessarily equal to one another.",
+                "ru": "Постоянны во времени, но не обязательно равны друг другу."
+              }
+            }
+          ],
+          "caption": {
+            "en": "Closed system with fixed conditions; both molecular processes continue.",
+            "ru": "Замкнутая система при неизменных условиях; оба молекулярных процесса продолжаются."
+          }
+        }
+      }
     }
   },
   "atomsPeriodic": {
@@ -312,23 +1030,216 @@
     "sections": {
       "atomicStructure": {
         "title": "Atomic structure",
-        "body": "Atoms have a tiny nucleus (protons + neutrons) and orbiting electrons. Protons are positive (+), neutrons neutral (0), electrons negative (−). Atomic number Z = number of protons (defines element). Mass number A = protons + neutrons."
+        "body": "An atom has a small positively charged nucleus containing protons and usually neutrons, surrounded by electrons described by quantum states rather than fixed planetary orbits. Atomic number Z is proton count; mass number A is proton plus neutron count. A neutral atom has Z electrons.",
+        "review": {
+          "englishTerm": "Atomic structure",
+          "russianTerm": "Строение атома",
+          "contrast": {
+            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
+            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+              "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+              "language": "en",
+              "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+              "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+              "language": "en",
+              "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+              "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+              "language": "ru",
+              "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+            }
+          ]
+        }
       },
       "isotopes": {
         "title": "Isotopes",
-        "body": "Same element, different number of neutrons. Same Z, different A. Identical chemical behaviour, slightly different physical (mass-dependent). Example: ¹²C and ¹⁴C."
+        "body": "Isotopes are atoms of one element with the same proton count but different neutron counts, so they have the same Z and different A. Their electronic structures and chemical behaviour are usually very similar, but isotope mass can affect physical properties and reaction rates.",
+        "review": {
+          "englishTerm": "Isotopes",
+          "russianTerm": "Изотопы",
+          "contrast": {
+            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
+            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+              "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+              "language": "en",
+              "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+            },
+            {
+              "title": "МАГАТЭ — Что такое изотопы?",
+              "url": "https://www.iaea.org/ru/newscenter/news/chto-takoe-izotopy",
+              "language": "ru",
+              "section": "Что такое изотопы: число протонов и нейтронов"
+            }
+          ],
+          "model": {
+            "en": "Isotopes have similar electronic chemistry, but isotope masses can affect reaction rates and physical properties; “identical chemistry” is an approximation.",
+            "ru": "Электронное строение даёт сходную химию изотопов, но масса влияет на скорости реакций и физические свойства; «полностью одинаковая химия» — приближение."
+          },
+          "visual": {
+            "kind": "comparison",
+            "title": {
+              "en": "Two isotopes, one element",
+              "ru": "Два изотопа, один элемент"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "Carbon-12: ¹²C",
+                  "ru": "Углерод-12: ¹²C"
+                },
+                "detail": {
+                  "en": "6 protons + 6 neutrons; Z = 6, A = 12.",
+                  "ru": "6 протонов + 6 нейтронов; Z = 6, A = 12."
+                }
+              },
+              {
+                "label": {
+                  "en": "Carbon-13: ¹³C",
+                  "ru": "Углерод-13: ¹³C"
+                },
+                "detail": {
+                  "en": "6 protons + 7 neutrons; Z = 6, A = 13.",
+                  "ru": "6 протонов + 7 нейтронов; Z = 6, A = 13."
+                }
+              },
+              {
+                "label": {
+                  "en": "Relative atomic mass Aᵣ",
+                  "ru": "Относительная атомная масса Aᵣ"
+                },
+                "detail": {
+                  "en": "An abundance-weighted average; not either mass number.",
+                  "ru": "Среднее с учётом долей изотопов; не одно из массовых чисел."
+                }
+              }
+            ],
+            "caption": {
+              "en": "A neutral atom of either isotope has six electrons. A is an integer; Aᵣ need not be.",
+              "ru": "У нейтрального атома любого из этих изотопов шесть электронов. A — целое число; Aᵣ может быть нецелым."
+            }
+          }
+        }
       },
       "electronConfig": {
         "title": "Electronic configuration",
-        "body": "Electron shells fill in order: 2, 8, 8, 18… Inner shells first. Example: sodium (Z=11) → 2,8,1. The outer shell (valence) determines reactivity."
+        "body": "An electron configuration describes how electrons occupy atomic states. For neutral ground-state atoms up to calcium, the school shell model gives distributions such as Na: 2,8,1 and Ca: 2,8,8,2. Shell capacities are 2n²; 2,8,8 is not a universal capacity or filling rule.",
+        "review": {
+          "englishTerm": "Electronic configuration",
+          "russianTerm": "Электронная конфигурация",
+          "contrast": {
+            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
+            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+              "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+              "language": "en",
+              "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+              "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+              "language": "en",
+              "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+              "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+              "language": "ru",
+              "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+            }
+          ],
+          "model": {
+            "en": "Shells indicate allowed energy levels, not circular trajectories. The 2,8,8,2 pattern is for the first 20 neutral ground-state atoms; the third shell can hold up to 18 electrons.",
+            "ru": "Оболочки показывают энергетические уровни, а не круговые траектории. Схема 2,8,8,2 относится к первым 20 нейтральным атомам в основном состоянии; третья оболочка вмещает до 18 электронов."
+          }
+        }
       },
       "periodicTable": {
         "title": "Reading the periodic table",
-        "body": "Groups (columns) share outer electrons and chemistry. Periods (rows) = number of shells. Group 1 = alkali metals (reactive). Group 7 = halogens. Group 0/8 = noble gases (inert, full outer shell)."
+        "body": "The periodic table orders elements by increasing atomic number. Periods are rows and IUPAC groups are columns numbered 1–18. Group 1 contains alkali metals apart from hydrogen; group 17 contains halogens and group 18 noble gases. Older school labels 7 and 0 must be identified as a different numbering system.",
+        "review": {
+          "englishTerm": "Reading the periodic table",
+          "russianTerm": "Чтение таблицы",
+          "contrast": {
+            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
+            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 2.5 The Periodic Table: groups and periods",
+              "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+              "language": "en",
+              "section": "2.5 The Periodic Table: groups and periods"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+              "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+              "language": "en",
+              "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+              "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+              "language": "ru",
+              "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+            }
+          ],
+          "model": {
+            "en": "Modern IUPAC groups are numbered 1–18; school “Group 7” and “Group 0” correspond to 17 and 18. Main-group valence shortcuts do not apply unchanged to transition metals.",
+            "ru": "Современная нумерация ИЮПАК — группы 1–18; школьные «7» и «0» соответствуют 17 и 18. Правила для главных групп нельзя без изменений переносить на переходные металлы."
+          }
+        }
       },
       "trends": {
         "title": "Periodic trends",
-        "body": "Down Group 1: more reactive (outer electron further from nucleus, easier to lose). Down Group 7: less reactive. Across a period: metallic → non-metallic character."
+        "body": "Periodic trends arise from nuclear charge, electron shielding and electron configuration. Alkali metals generally become more reactive down group 1 because their outer electron is more easily removed. Halogen oxidising power generally decreases down group 17; a trend must name the property and conditions being compared.",
+        "review": {
+          "englishTerm": "Periodic trends",
+          "russianTerm": "Периодические тренды",
+          "contrast": {
+            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
+            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 2.5 The Periodic Table: groups and periods",
+              "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+              "language": "en",
+              "section": "2.5 The Periodic Table: groups and periods"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+              "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+              "language": "en",
+              "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+            },
+            {
+              "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+              "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+              "language": "ru",
+              "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+            }
+          ],
+          "model": {
+            "en": "Modern IUPAC groups are numbered 1–18; school “Group 7” and “Group 0” correspond to 17 and 18. Main-group valence shortcuts do not apply unchanged to transition metals.",
+            "ru": "Современная нумерация ИЮПАК — группы 1–18; школьные «7» и «0» соответствуют 17 и 18. Правила для главных групп нельзя без изменений переносить на переходные металлы."
+          }
+        }
       }
     }
   },
@@ -338,48 +1249,261 @@
     "sections": {
       "ionic": {
         "title": "Ionic bonding",
-        "body": "Metal + non-metal. Metal LOSES electrons (forms cation, +). Non-metal GAINS electrons (anion, −). Opposite charges attract. Example: Na⁺ + Cl⁻ → NaCl. High melting point, conducts when molten or dissolved, crystalline."
+        "body": "Ionic bonding is electrostatic attraction between oppositely charged ions throughout a structure. Electron transfer can explain how ions form, but the bond is the attraction, not the transfer itself. Many ionic solids have high melting points and conduct when their ions can move.",
+        "review": {
+          "englishTerm": "Ionic bonding",
+          "russianTerm": "Ионная связь",
+          "contrast": {
+            "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
+            "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+              "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+              "language": "en",
+              "section": "7.1 Ionic Bonding: formation of ionic compounds"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+              "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+              "language": "en",
+              "section": "7.2 Covalent Bonding: shared electrons"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+              "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+              "language": "en",
+              "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+            }
+          ]
+        }
       },
       "covalent": {
         "title": "Covalent bonding",
-        "body": "Non-metal + non-metal. Atoms SHARE electrons to fill outer shell. Single bond = 1 pair shared, double = 2 pairs (O=O), triple = 3 (N≡N). Simple molecules: low melting point, don't conduct. Giant covalent (diamond, graphite): very high melting."
+        "body": "A covalent bond involves shared electron density attracted to two atomic nuclei; a simple model describes one or more shared electron pairs. Covalent substances may consist of discrete molecules or extended networks. Their bulk properties depend on this structure as well as the bonds.",
+        "review": {
+          "englishTerm": "Covalent bonding",
+          "russianTerm": "Ковалентная связь",
+          "contrast": {
+            "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
+            "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+              "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+              "language": "en",
+              "section": "7.1 Ionic Bonding: formation of ionic compounds"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+              "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+              "language": "en",
+              "section": "7.2 Covalent Bonding: shared electrons"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+              "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+              "language": "en",
+              "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+            }
+          ]
+        }
       },
       "metallic": {
         "title": "Metallic bonding",
-        "body": "Sea of delocalised electrons surrounding positive metal ions. Explains: conducts (mobile electrons), malleable (layers slide), high melting point (strong attraction), shiny (free electrons reflect light)."
+        "body": "Metallic bonding is attraction between positive metal ion cores and delocalised valence electrons extending through the solid. Mobile electrons explain electrical conduction. The non-directional bonding allows layers to shift without necessarily breaking the structure, helping explain malleability.",
+        "review": {
+          "englishTerm": "Metallic bonding",
+          "russianTerm": "Металлическая связь",
+          "contrast": {
+            "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
+            "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+              "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+              "language": "en",
+              "section": "7.1 Ionic Bonding: formation of ionic compounds"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+              "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+              "language": "en",
+              "section": "7.2 Covalent Bonding: shared electrons"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+              "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+              "language": "en",
+              "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+            }
+          ]
+        }
       },
       "comparison": {
         "title": "Comparing structures",
         "items": {
-          "ionic": "Ionic: high mp, brittle, conducts when molten/aq",
-          "simpleCovalent": "Simple covalent (H₂O, CO₂): low mp, non-conductor",
-          "giantCovalent": "Giant covalent (diamond, SiO₂): very high mp, hard, non-conductor",
-          "metallic": "Metallic: high mp, malleable, conductor, lustrous"
+          "ionic": "An ionic solid is an extended arrangement of cations and anions. Strong attractions often require substantial energy to melt it. In the solid, ions cannot move freely; molten material and solutions containing mobile ions can conduct. Solubility varies, so not every ionic solid dissolves in water.",
+          "simpleCovalent": "A molecular substance consists of distinct molecules held together by intermolecular attractions. Melting usually weakens these attractions without breaking the covalent bonds within each molecule. Such substances often melt at lower temperatures than network solids and usually lack mobile charge carriers when pure.",
+          "giantCovalent": "A covalent network solid has atoms bonded into an extended structure rather than separate molecules. Many have high melting temperatures. Properties depend on bonding and geometry: diamond is hard, whereas graphite has layers that slide and delocalised electrons that conduct along them.",
+          "metallic": "In a metal, delocalised electrons move through an arrangement of positive ion cores. This supports electrical and thermal conduction, while many metals can be shaped because bonding persists as atoms rearrange. Melting points vary widely; metallic bonding does not imply that every metal melts only at high temperature."
         },
         "detailed": {
           "ionic": {
             "name": "Ionic structures",
-            "rule": "Giant lattice of alternating + and − ions held by strong electrostatic forces. HIGH melting point (lots of energy to break). BRITTLE (force shifts ions, like-like meet, repel and shatter). Conducts ONLY when molten or dissolved (ions free to move).",
-            "examples": ["NaCl (table salt): mp 801 °C. Dissolves in water → conducts.", "MgO: mp 2852 °C (Mg²⁺ stronger than Na⁺).", "CaF₂ (fluorite): used in optical lenses.", "Solid NaCl does NOT conduct (ions locked in place). Molten NaCl DOES."],
-            "tip": "Higher charge = stronger bonds = higher mp. Mg²⁺O²⁻ has DOUBLE charge each → much higher mp than Na⁺Cl⁻."
+            "rule": "An ionic solid is an extended arrangement of cations and anions. Strong attractions often require substantial energy to melt it. In the solid, ions cannot move freely; molten material and solutions containing mobile ions can conduct. Solubility varies, so not every ionic solid dissolves in water.",
+            "examples": [
+              "NaCl (table salt): mp 801 °C. Dissolves in water → conducts.",
+              "MgO has a high melting point: its small, doubly charged ions give strong lattice attractions. Compare size, charge and structure together.",
+              "CaF₂ (fluorite): used in optical lenses.",
+              "Solid NaCl does NOT conduct (ions locked in place). Molten NaCl DOES."
+            ],
+            "tip": "Lattice strength depends on ion charges, sizes and structure; charge alone is not a complete melting-point rule.",
+            "review": {
+              "englishTerm": "Ionic structures",
+              "russianTerm": "Ионные структуры",
+              "contrast": {
+                "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
+                "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+                  "language": "en",
+                  "section": "7.1 Ionic Bonding: formation of ionic compounds"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+                  "language": "en",
+                  "section": "7.2 Covalent Bonding: shared electrons"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+                  "language": "en",
+                  "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+                }
+              ]
+            }
           },
           "simpleCovalent": {
             "name": "Simple molecular (covalent)",
-            "rule": "Small molecules with strong covalent bonds INSIDE but weak intermolecular forces BETWEEN. LOW mp/bp (only need to break weak forces). Do NOT conduct (no charged particles).",
-            "examples": ["H₂O: mp 0 °C, bp 100 °C. Liquid at room temp.", "CO₂: bp −78 °C (sublimes to gas).", "I₂: solid at room temp but melts at 114 °C — bigger molecules = stronger intermolecular forces.", "O₂, N₂: gases at room temp."],
-            "tip": "Bigger molecules = stronger London forces = higher mp/bp. Compare F₂ (gas) < Cl₂ (gas) < Br₂ (liquid) < I₂ (solid)."
+            "rule": "A molecular substance consists of distinct molecules held together by intermolecular attractions. Melting usually weakens these attractions without breaking the covalent bonds within each molecule. Such substances often melt at lower temperatures than network solids and usually lack mobile charge carriers when pure.",
+            "examples": [
+              "At ordinary pressure dry ice, CO₂(s), sublimes instead of boiling as a liquid.",
+              "Water molecules remain intact when ice melts; intermolecular arrangements change."
+            ],
+            "tip": "Compare both intermolecular attractions and structure; molecular size alone does not determine melting point.",
+            "review": {
+              "englishTerm": "Simple molecular (covalent)",
+              "russianTerm": "Простая молекулярная (ковалентная)",
+              "contrast": {
+                "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
+                "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+                  "language": "en",
+                  "section": "7.1 Ionic Bonding: formation of ionic compounds"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+                  "language": "en",
+                  "section": "7.2 Covalent Bonding: shared electrons"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+                  "language": "en",
+                  "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+                }
+              ]
+            }
           },
           "giantCovalent": {
             "name": "Giant covalent (macromolecular)",
-            "rule": "Network of atoms held by STRONG covalent bonds throughout. EXTREMELY HIGH mp (must break MANY strong bonds). Very HARD. Usually do NOT conduct (exception: graphite).",
-            "examples": ["Diamond: mp ~4000 °C. Every C bonded to 4 others tetrahedrally. Hardest natural substance.", "Graphite: also pure C but arranged in layers. Layers slide → soft + lubricant. Free electrons → CONDUCTS.", "SiO₂ (quartz): mp 1713 °C. Sand, glass-making.", "Silicon: foundation of microchips. Used as semiconductor."],
-            "watchOut": "Diamond and graphite are ALLOTROPES of carbon — same element, different structures, very different properties."
+            "rule": "A covalent network solid has atoms bonded into an extended structure rather than separate molecules. Many have high melting temperatures. Properties depend on bonding and geometry: diamond is hard, whereas graphite has layers that slide and delocalised electrons that conduct along them.",
+            "examples": [
+              "Diamond bonds each carbon to four neighbours; graphite bonds each to three in sheets.",
+              "Silicon is a covalent network semiconductor."
+            ],
+            "watchOut": "Diamond and graphite are ALLOTROPES of carbon — same element, different structures, very different properties.",
+            "review": {
+              "englishTerm": "Giant covalent (macromolecular)",
+              "russianTerm": "Гигантская ковалентная (макромолекулярная)",
+              "contrast": {
+                "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
+                "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+                  "language": "en",
+                  "section": "7.1 Ionic Bonding: formation of ionic compounds"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+                  "language": "en",
+                  "section": "7.2 Covalent Bonding: shared electrons"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+                  "language": "en",
+                  "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+                }
+              ]
+            }
           },
           "metallic": {
             "name": "Metallic bonding",
-            "rule": "Cations arranged in lattice, surrounded by 'sea' of delocalised electrons. Strong attraction → high mp. Free electrons → CONDUCTS heat and electricity. Layers slide easily → MALLEABLE and DUCTILE. Lustrous.",
-            "examples": ["Iron: mp 1538 °C. Strong but rusts (oxidises).", "Copper: best conductor of electricity (after silver). Used in wiring.", "Gold: doesn't oxidise → jewellery, electronics contacts.", "Aluminium: low density + corrosion-resistant → aeroplanes, drinks cans.", "Alloys (brass, steel) — different sizes disrupt sliding → harder."],
-            "tip": "All four properties (conducts, malleable, high mp, lustrous) come from the SAME thing: the sea of delocalised electrons. Mention this in answers."
+            "rule": "In a metal, delocalised electrons move through an arrangement of positive ion cores. This supports electrical and thermal conduction, while many metals can be shaped because bonding persists as atoms rearrange. Melting points vary widely; metallic bonding does not imply that every metal melts only at high temperature.",
+            "examples": [
+              "Iron: mp 1538 °C. Strong but rusts (oxidises).",
+              "Copper: best conductor of electricity (after silver). Used in wiring.",
+              "Gold resists oxidation in ordinary air; resistance under these conditions does not mean it never reacts.",
+              "Aluminium: low density + corrosion-resistant → aeroplanes, drinks cans.",
+              "Alloys (brass, steel) — different sizes disrupt sliding → harder."
+            ],
+            "tip": "Mobile electrons explain conduction; melting and deformation also depend on structure and bonding strength.",
+            "review": {
+              "englishTerm": "Metallic bonding",
+              "russianTerm": "Металлическая связь",
+              "contrast": {
+                "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
+                "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+                  "language": "en",
+                  "section": "7.1 Ionic Bonding: formation of ionic compounds"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+                  "language": "en",
+                  "section": "7.2 Covalent Bonding: shared electrons"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+                  "language": "en",
+                  "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+                }
+              ]
+            }
           }
         }
       }
@@ -394,53 +1518,240 @@
         "detailed": {
           "combination": {
             "name": "Combination (synthesis)",
-            "rule": "Two or more substances combine to form ONE product. General form: A + B → AB.",
-            "examples": ["2H₂(g) + O₂(g) → 2H₂O(l) — hydrogen burns in oxygen", "CaO(s) + H₂O(l) → Ca(OH)₂(aq) — quicklime + water", "N₂(g) + 3H₂(g) → 2NH₃(g) — Haber process"],
-            "tip": "Almost always exothermic — bond formation releases energy."
+            "rule": "A combination reaction forms a single product substance from two or more reactant substances. A schematic form is A + B → AB; an actual equation must use correct formulae and balanced coefficients. This classification can overlap with others, such as oxidation.",
+            "examples": [
+              "2H₂(g) + O₂(g) → 2H₂O(l) — hydrogen burns in oxygen",
+              "CaO(s) + H₂O(l) → Ca(OH)₂(aq) — quicklime + water",
+              "N₂(g) + 3H₂(g) → 2NH₃(g) — Haber process"
+            ],
+            "tip": "Reaction classification does not determine the sign of ΔH; consider the full energy balance.",
+            "review": {
+              "englishTerm": "Combination (synthesis)",
+              "russianTerm": "Соединение (синтез)",
+              "contrast": {
+                "en": "Coefficients change numbers of particles; changing a formula’s subscripts changes the substance. Atoms and total charge must balance.",
+                "ru": "Коэффициенты меняют числа частиц; изменение индексов формулы меняет вещество. Числа атомов и общий заряд должны сохраняться."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+                  "language": "en",
+                  "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+                }
+              ]
+            }
           },
           "decomposition": {
             "name": "Decomposition",
-            "rule": "ONE compound breaks down into two or more simpler substances. Often needs heat, light, or electricity. General: AB → A + B.",
-            "examples": ["2H₂O₂(aq) → 2H₂O(l) + O₂(g) — peroxide with MnO₂ catalyst", "CaCO₃(s) → CaO(s) + CO₂(g) — limestone heated", "2H₂O(l) → 2H₂(g) + O₂(g) — electrolysis of water"],
-            "tip": "Thermal decomposition of carbonates is a classic G9 example."
+            "rule": "A decomposition reaction converts one compound into two or more product substances. It may be driven by heat, light or electricity. For example, CaCO₃ → CaO + CO₂ on heating; decomposition changes chemical identity rather than merely separating a mixture.",
+            "examples": [
+              "2H₂O₂(aq) → 2H₂O(l) + O₂(g) — peroxide with MnO₂ catalyst",
+              "CaCO₃(s) → CaO(s) + CO₂(g) — limestone heated",
+              "2H₂O(l) → 2H₂(g) + O₂(g) — electrolysis of water"
+            ],
+            "tip": "Thermal decomposition of carbonates is a classic G9 example.",
+            "review": {
+              "englishTerm": "Decomposition",
+              "russianTerm": "Разложение",
+              "contrast": {
+                "en": "Coefficients change numbers of particles; changing a formula’s subscripts changes the substance. Atoms and total charge must balance.",
+                "ru": "Коэффициенты меняют числа частиц; изменение индексов формулы меняет вещество. Числа атомов и общий заряд должны сохраняться."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+                  "language": "en",
+                  "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+                }
+              ]
+            }
           },
           "displacement": {
             "name": "Single displacement",
-            "rule": "A more reactive metal displaces a less reactive metal from its compound. Driven by the reactivity series (K > Na > Ca > Mg > Al > Zn > Fe > Cu > Ag).",
-            "examples": ["Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s) — blue colour fades, brown copper deposits", "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g) — magnesium 'fizzes'"],
-            "watchOut": "If the metal you're adding is LESS reactive than the one in the compound, NO reaction happens (Cu added to ZnSO₄ → nothing)."
+            "rule": "A displacement reaction occurs when one element replaces another in a compound. For example, zinc reduces copper ions: Zn + Cu²⁺ → Zn²⁺ + Cu. Reactivity-series predictions apply under specified conditions; competing reactions and protective surface films can affect what is observed.",
+            "examples": [
+              "Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s) — blue colour fades, brown copper deposits",
+              "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g) — magnesium 'fizzes'"
+            ],
+            "watchOut": "A less reactive metal is not predicted to displace a more reactive metal from its salt in the simple school model. This does not rule out other reactions in a particular system.",
+            "review": {
+              "englishTerm": "Single displacement",
+              "russianTerm": "Замещение",
+              "contrast": {
+                "en": "Coefficients change numbers of particles; changing a formula’s subscripts changes the substance. Atoms and total charge must balance.",
+                "ru": "Коэффициенты меняют числа частиц; изменение индексов формулы меняет вещество. Числа атомов и общий заряд должны сохраняться."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+                  "language": "en",
+                  "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+                }
+              ]
+            }
           },
           "doubleDisplacement": {
             "name": "Double displacement (precipitation)",
-            "rule": "Two soluble compounds swap partners. If one product is INSOLUBLE, you see a precipitate. AB + CD → AD + CB.",
-            "examples": ["AgNO₃(aq) + NaCl(aq) → AgCl(s)↓ + NaNO₃(aq) — white precipitate of silver chloride", "Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s)↓ + 2KNO₃(aq) — bright yellow precipitate"],
-            "tip": "Memorise common insoluble compounds: AgCl, BaSO₄, CaCO₃, PbI₂. They appear as the precipitate."
+            "rule": "In a double-displacement reaction, ions exchange partners. A precipitation reaction is the case where dissolved ions form an insoluble solid, for example Ag⁺ + Cl⁻ → AgCl(s). Ion exchange does not always produce a precipitate; water or gas formation can also drive reactions.",
+            "examples": [
+              "AgNO₃(aq) + NaCl(aq) → AgCl(s)↓ + NaNO₃(aq) — white precipitate of silver chloride",
+              "Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s)↓ + 2KNO₃(aq) — bright yellow precipitate"
+            ],
+            "tip": "Memorise common insoluble compounds: AgCl, BaSO₄, CaCO₃, PbI₂. They appear as the precipitate.",
+            "review": {
+              "englishTerm": "Double displacement (precipitation)",
+              "russianTerm": "Двойное замещение (осаждение)",
+              "contrast": {
+                "en": "Coefficients change numbers of particles; changing a formula’s subscripts changes the substance. Atoms and total charge must balance.",
+                "ru": "Коэффициенты меняют числа частиц; изменение индексов формулы меняет вещество. Числа атомов и общий заряд должны сохраняться."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+                  "language": "en",
+                  "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+                }
+              ]
+            }
           },
           "combustion": {
             "name": "Combustion",
-            "rule": "Substance reacts rapidly with oxygen, releasing heat and light. Hydrocarbon + O₂ → CO₂ + H₂O. Complete combustion → CO₂; incomplete (not enough O₂) → toxic CO and soot.",
-            "examples": ["CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g) — methane gas", "2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(g) — petrol (octane)"],
-            "watchOut": "Incomplete combustion (yellow flame, soot) is a hazard — CO is odourless and toxic. Always ventilate."
+            "rule": "Combustion is an exothermic reaction of a fuel with an oxidant, usually oxygen in this course. Complete combustion of a hydrocarbon forms CO₂ and H₂O. Inadequate oxygen or mixing can cause incomplete combustion, producing CO and/or soot as well as other products.",
+            "examples": [
+              "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g) — methane gas",
+              "2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(g) — petrol (octane)"
+            ],
+            "watchOut": "Complete combustion needs an adequate oxygen supply and effective mixing; flame colour alone is not a quantitative gas analysis.",
+            "review": {
+              "englishTerm": "Combustion",
+              "russianTerm": "Горение",
+              "contrast": {
+                "en": "Coefficients change numbers of particles; changing a formula’s subscripts changes the substance. Atoms and total charge must balance.",
+                "ru": "Коэффициенты меняют числа частиц; изменение индексов формулы меняет вещество. Числа атомов и общий заряд должны сохраняться."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+                  "language": "en",
+                  "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+                }
+              ]
+            }
           },
           "neutralisation": {
             "name": "Neutralisation",
-            "rule": "Acid + base → salt + water. The H⁺ from the acid combines with OH⁻ from the alkali. Always slightly exothermic.",
-            "examples": ["HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)", "H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)", "2HNO₃(aq) + Mg(OH)₂(s) → Mg(NO₃)₂(aq) + 2H₂O(l)"],
-            "tip": "The ionic equation is always the same: H⁺ + OH⁻ → H₂O. Useful shortcut."
+            "rule": "Neutralisation is reaction between an acid and a base. For a strong acid and hydroxide alkali in dilute water, the net equation is H⁺(aq) + OH⁻(aq) → H₂O(l), with heat released. Other acid–base reactions can have different products; the final solution is not automatically pH 7.",
+            "examples": [
+              "HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)",
+              "H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)",
+              "2HNO₃(aq) + Mg(OH)₂(s) → Mg(NO₃)₂(aq) + 2H₂O(l)"
+            ],
+            "tip": "H⁺ + OH⁻ → H₂O applies to strong aqueous acid with hydroxide alkali; weak acids require different ionic notation.",
+            "review": {
+              "englishTerm": "Neutralisation",
+              "russianTerm": "Нейтрализация",
+              "contrast": {
+                "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+                "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+                  "language": "en",
+                  "section": "14.1 Brønsted–Lowry Acids and Bases"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+                  "language": "en",
+                  "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ],
+              "model": {
+                "en": "H⁺ + OH⁻ → H₂O describes strong-acid/hydroxide neutralisation in dilute water. Other bases require other equations; equivalence does not always occur at pH 7.",
+                "ru": "H⁺ + OH⁻ → H₂O описывает нейтрализацию сильной кислоты гидроксидом в разбавленном водном растворе. Для других оснований запись иная; pH эквивалентности не всегда равен 7."
+              }
+            }
           }
         }
       },
       "balancing": {
         "title": "Balancing equations — step by step",
-        "body": "1) Write word equation. 2) Convert to formulae. 3) Count atoms on each side. 4) Add coefficients (NOT subscripts) to balance. 5) Check H and O last. Example: __ Fe + __ O₂ → __ Fe₂O₃ → 4Fe + 3O₂ → 2Fe₂O₃."
+        "body": "A balanced equation has equal numbers of atoms of each element on both sides and conserves charge when ions are shown. Adjust coefficients multiplying whole formulae; changing subscripts changes the substances. For example, 4Fe + 3O₂ → 2Fe₂O₃.",
+        "review": {
+          "englishTerm": "Balancing equations — step by step",
+          "russianTerm": "Уравнивание — пошагово",
+          "contrast": {
+            "en": "Coefficients change numbers of particles; changing a formula’s subscripts changes the substance. Atoms and total charge must balance.",
+            "ru": "Коэффициенты меняют числа частиц; изменение индексов формулы меняет вещество. Числа атомов и общий заряд должны сохраняться."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+              "language": "en",
+              "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+            }
+          ]
+        }
       },
       "stateSymbols": {
         "title": "State symbols",
-        "body": "(s) solid, (l) liquid, (g) gas, (aq) aqueous (dissolved in water). Always include in answers."
+        "body": "State symbols specify the physical state under the reaction conditions: (s) solid, (l) liquid, (g) gas and (aq) dissolved in water. Aqueous does not mean pure liquid, and a dissolved substance need not be ionic. State symbols help decide which species dissociate in an ionic equation.",
+        "review": {
+          "englishTerm": "State symbols",
+          "russianTerm": "Символы состояния",
+          "contrast": {
+            "en": "Coefficients change numbers of particles; changing a formula’s subscripts changes the substance. Atoms and total charge must balance.",
+            "ru": "Коэффициенты меняют числа частиц; изменение индексов формулы меняет вещество. Числа атомов и общий заряд должны сохраняться."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+              "language": "en",
+              "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+            }
+          ]
+        }
       },
       "ionic": {
         "title": "Ionic equations",
-        "body": "Write only the ions that actually react. Spectator ions are omitted. Example: H⁺(aq) + OH⁻(aq) → H₂O(l) for any strong acid + strong alkali."
+        "body": "A net ionic equation shows the species undergoing chemical change and omits unchanged spectator ions. Write strong dissolved electrolytes as ions, keeping solids, gases and weak electrolytes intact where appropriate. Both atoms and total charge must balance.",
+        "review": {
+          "englishTerm": "Ionic equations",
+          "russianTerm": "Ионные уравнения",
+          "contrast": {
+            "en": "Coefficients change numbers of particles; changing a formula’s subscripts changes the substance. Atoms and total charge must balance.",
+            "ru": "Коэффициенты меняют числа частиц; изменение индексов формулы меняет вещество. Числа атомов и общий заряд должны сохраняться."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+              "language": "en",
+              "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+            }
+          ]
+        }
       }
     }
   },
@@ -450,23 +1761,206 @@
     "sections": {
       "moles": {
         "title": "The mole",
-        "body": "1 mole = 6.022 × 10²³ particles (Avogadro). n = m / M, where m is mass (g) and M is molar mass (g/mol). At STP (0 °C, 100 kPa), 1 mol gas = 22.7 dm³."
+        "body": "The mole is the SI unit of amount of substance. One mole contains exactly 6.02214076 × 10²³ specified entities, such as atoms, molecules or ions. Use n = m/M for a pure substance. Gas molar volume depends on temperature and pressure; it is not part of the mole's definition.",
+        "review": {
+          "englishTerm": "The mole",
+          "russianTerm": "Моль",
+          "contrast": {
+            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
+            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+              "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+              "language": "en",
+              "section": "3.1 Formula Mass and the Mole Concept"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+              "language": "en",
+              "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+            },
+            {
+              "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+              "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+              "language": "ru",
+              "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+            }
+          ]
+        }
       },
       "molarMass": {
         "title": "Molar mass",
-        "body": "Sum of atomic masses from the periodic table. Example: H₂O = 2(1) + 16 = 18 g/mol. CaCO₃ = 40 + 12 + 3(16) = 100 g/mol."
+        "body": "Molar mass M is mass per amount of substance: M = m/n, commonly in g mol⁻¹. Calculate a compound's molar mass by adding its elements' molar-mass contributions. Relative atomic mass Aᵣ and relative formula mass Mᵣ are dimensionless; neither is the integer mass number of an isotope.",
+        "review": {
+          "englishTerm": "Molar mass",
+          "russianTerm": "Молярная масса",
+          "contrast": {
+            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
+            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+              "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+              "language": "en",
+              "section": "3.1 Formula Mass and the Mole Concept"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+              "language": "en",
+              "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+            },
+            {
+              "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+              "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+              "language": "ru",
+              "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+            }
+          ]
+        }
       },
       "calculations": {
         "title": "Reaction calculations",
-        "body": "1) Balanced equation. 2) Find moles of given. 3) Use mole ratio from equation. 4) Convert moles to mass/volume. Example: 4g of Mg burns in O₂ — how much MgO? n(Mg) = 4/24 = 0.167 mol → 0.167 mol MgO → mass = 0.167 × 40 = 6.67 g."
+        "body": "Stoichiometric calculations use a balanced equation's coefficients as ratios of amounts in moles. Convert given quantities to moles, apply the ratio for the limiting reactant, then convert to the requested units. The ratio is not generally a ratio of masses.",
+        "review": {
+          "englishTerm": "Reaction calculations",
+          "russianTerm": "Расчёт реакций",
+          "contrast": {
+            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
+            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+              "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+              "language": "en",
+              "section": "3.1 Formula Mass and the Mole Concept"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+              "language": "en",
+              "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+            },
+            {
+              "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+              "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+              "language": "ru",
+              "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+            }
+          ],
+          "visual": {
+            "kind": "flow",
+            "title": {
+              "en": "Mass-to-mass stoichiometry",
+              "ru": "Расчёт массы по уравнению"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "Known mass → amount",
+                  "ru": "Известная масса → количество"
+                },
+                "detail": {
+                  "en": "n(reactant) = m / M.",
+                  "ru": "n(реагента) = m / M."
+                }
+              },
+              {
+                "label": {
+                  "en": "Balanced equation ratio",
+                  "ru": "Отношение коэффициентов"
+                },
+                "detail": {
+                  "en": "n(product) = n(reactant) × b/a.",
+                  "ru": "n(продукта) = n(реагента) × b/a."
+                }
+              },
+              {
+                "label": {
+                  "en": "Amount → product mass",
+                  "ru": "Количество → масса продукта"
+                },
+                "detail": {
+                  "en": "m(product) = n(product) × M(product).",
+                  "ru": "m(продукта) = n(продукта) × M(продукта)."
+                }
+              }
+            ],
+            "caption": {
+              "en": "a and b are balanced coefficients. Check the limiting reactant when several amounts are supplied.",
+              "ru": "a и b — коэффициенты уравнения. Если даны количества нескольких реагентов, найдите лимитирующий."
+            }
+          }
+        }
       },
       "limiting": {
         "title": "Limiting reactant",
-        "body": "The reactant fully used up first. Determines product amount. Calculate moles of each, divide by coefficient — smallest result is the limiting one."
+        "body": "The limiting reactant is the reactant whose available amount allows the least reaction progress according to the balanced equation. It sets the maximum theoretical product amount. Compare n/coefficient for all reactants; the smallest value identifies the limiting one, assuming the stated reaction proceeds to completion.",
+        "review": {
+          "englishTerm": "Limiting reactant",
+          "russianTerm": "Ограничивающий реагент",
+          "contrast": {
+            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
+            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+              "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+              "language": "en",
+              "section": "3.1 Formula Mass and the Mole Concept"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+              "language": "en",
+              "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+            },
+            {
+              "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+              "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+              "language": "ru",
+              "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+            }
+          ]
+        }
       },
       "percentYield": {
         "title": "Percent yield",
-        "body": "% yield = (actual mass ÷ theoretical mass) × 100. Theoretical is from stoichiometry assuming complete reaction."
+        "body": "Percentage yield = actual product amount ÷ theoretical product amount × 100%, using comparable units for the same product. The theoretical value comes from the limiting reactant. A measured yield above 100% usually indicates impurities, retained solvent or an incorrect assumption or measurement.",
+        "review": {
+          "englishTerm": "Percent yield",
+          "russianTerm": "Процентный выход",
+          "contrast": {
+            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
+            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+              "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+              "language": "en",
+              "section": "3.1 Formula Mass and the Mole Concept"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+              "language": "en",
+              "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+            },
+            {
+              "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+              "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+              "language": "ru",
+              "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+            }
+          ]
+        }
       }
     }
   },
@@ -479,56 +1973,394 @@
         "detailed": {
           "acid": {
             "name": "Acid",
-            "rule": "A substance that releases H⁺ (hydrogen) ions in water. Sour taste, turns litmus red, pH < 7.",
-            "examples": ["HCl (hydrochloric acid) — stomach acid", "H₂SO₄ (sulfuric acid) — car batteries", "HNO₃ (nitric acid) — fertilisers", "CH₃COOH (ethanoic / acetic acid) — vinegar (weak)"],
-            "tip": "Strong acids fully ionise in water (HCl → H⁺ + Cl⁻). Weak acids only partly ionise (CH₃COOH ⇌ CH₃COO⁻ + H⁺)."
+            "rule": "In the Brønsted–Lowry model, an acid donates H⁺ to another species. In water, an acid increases hydronium, H₃O⁺, often written H⁺(aq). Acid strength describes the extent of ionisation in a given solvent; concentration describes how much acid is present per volume.",
+            "examples": [
+              "HCl (hydrochloric acid) — stomach acid",
+              "H₂SO₄ (sulfuric acid) — car batteries",
+              "HNO₃ (nitric acid) — fertilisers",
+              "CH₃COOH (ethanoic / acetic acid) — vinegar (weak)"
+            ],
+            "tip": "Strong acids fully ionise in water (HCl → H⁺ + Cl⁻). Weak acids only partly ionise (CH₃COOH ⇌ CH₃COO⁻ + H⁺).",
+            "review": {
+              "englishTerm": "Acid",
+              "russianTerm": "Кислота",
+              "contrast": {
+                "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+                "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+                  "language": "en",
+                  "section": "14.1 Brønsted–Lowry Acids and Bases"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+                  "language": "en",
+                  "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           },
           "base": {
             "name": "Base",
-            "rule": "A substance that accepts H⁺ ions. Reacts with acids to form salt + water. Often metal oxides, hydroxides or carbonates.",
-            "examples": ["CuO (copper oxide) — black solid that reacts with acid to give blue solution", "MgO (magnesium oxide) — white powder", "CaCO₃ (calcium carbonate) — chalk, limestone"],
-            "tip": "Not all bases dissolve in water. Bases that DO dissolve are called alkalis."
+            "rule": "In the Brønsted–Lowry model, a base accepts H⁺. Hydroxide ions, carbonate ions and ammonia can act as bases. School classifications also call many metal oxides basic because they react with acids. A base need not be soluble and its reaction need not produce water.",
+            "examples": [
+              "CuO (copper oxide) — black solid that reacts with acid to give blue solution",
+              "MgO (magnesium oxide) — white powder",
+              "CaCO₃ (calcium carbonate) — chalk, limestone"
+            ],
+            "tip": "English school alkali means a soluble base; Russian school щёлочь usually means a soluble metal hydroxide. CuO is classed as a basic oxide in Russian inorganic nomenclature.",
+            "review": {
+              "englishTerm": "Base",
+              "russianTerm": "Основание",
+              "contrast": {
+                "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+                "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+                  "language": "en",
+                  "section": "14.1 Brønsted–Lowry Acids and Bases"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+                  "language": "en",
+                  "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           },
           "alkali": {
             "name": "Alkali",
-            "rule": "A soluble base — it dissolves in water and releases OH⁻ (hydroxide) ions. Bitter taste, slippery feel, turns litmus blue, pH > 7.",
-            "examples": ["NaOH (sodium hydroxide) — drain cleaner", "KOH (potassium hydroxide) — soaps", "Ca(OH)₂ (calcium hydroxide, limewater) — used to test for CO₂"],
-            "watchOut": "Strong alkalis (NaOH, KOH) are extremely corrosive — wear goggles."
+            "rule": "An alkali is a water-soluble base that produces an alkaline aqueous solution with excess OH⁻ over H₃O⁺. Sodium hydroxide releases OH⁻ on dissolving; ammonia forms some OH⁻ by reacting with water. Thus an alkali need not contain hydroxide ions before dissolution.",
+            "examples": [
+              "NaOH (sodium hydroxide) — drain cleaner",
+              "KOH (potassium hydroxide) — soaps",
+              "Ca(OH)₂ (calcium hydroxide, limewater) — used to test for CO₂"
+            ],
+            "watchOut": "Strong alkalis (NaOH, KOH) are extremely corrosive — wear goggles.",
+            "review": {
+              "englishTerm": "Alkali",
+              "russianTerm": "Щёлочь",
+              "contrast": {
+                "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+                "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+                  "language": "en",
+                  "section": "14.1 Brønsted–Lowry Acids and Bases"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+                  "language": "en",
+                  "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ],
+              "model": {
+                "en": "English school “alkali” commonly means a soluble base, including aqueous ammonia. Russian school «щёлочь» usually means a soluble metal hydroxide; name ammonia solution explicitly.",
+                "ru": "Английское школьное alkali часто означает растворимое основание, включая водный аммиак. Русское «щёлочь» обычно означает растворимый гидроксид металла; раствор аммиака называйте прямо."
+              },
+              "visual": {
+                "kind": "comparison",
+                "title": {
+                  "en": "Base and alkali",
+                  "ru": "Основание и щёлочь"
+                },
+                "items": [
+                  {
+                    "label": {
+                      "en": "Base: proton acceptor",
+                      "ru": "Основание: акцептор протона"
+                    },
+                    "detail": {
+                      "en": "NH₃ accepts H⁺ to form NH₄⁺.",
+                      "ru": "NH₃ принимает H⁺ и образует NH₄⁺."
+                    }
+                  },
+                  {
+                    "label": {
+                      "en": "Soluble hydroxide: NaOH",
+                      "ru": "Растворимый гидроксид: NaOH"
+                    },
+                    "detail": {
+                      "en": "In water it supplies OH⁻ ions.",
+                      "ru": "В воде даёт ионы OH⁻."
+                    }
+                  },
+                  {
+                    "label": {
+                      "en": "Insoluble base: CuO",
+                      "ru": "Нерастворимое основание: CuO"
+                    },
+                    "detail": {
+                      "en": "Basic oxide; reacts with acid but is not an alkali.",
+                      "ru": "Основный оксид; реагирует с кислотой, но не является щёлочью."
+                    }
+                  }
+                ],
+                "caption": {
+                  "en": "“Base” is used in the broad proton-transfer sense. Russian school inorganic classes call CuO a basic oxide rather than a hydroxide base.",
+                  "ru": "«Основание» здесь используется в широком протонном смысле. В русской школьной классификации CuO — основный оксид, а не основание-гидроксид."
+                }
+              }
+            }
           },
           "salt": {
             "name": "Salt",
-            "rule": "An ionic compound formed when an acid is neutralised. The H⁺ of the acid is replaced by a metal ion (or NH₄⁺).",
-            "examples": ["HCl + NaOH → NaCl (table salt) + H₂O", "H₂SO₄ + Cu(OH)₂ → CuSO₄ (blue) + 2H₂O", "HNO₃ + KOH → KNO₃ + H₂O"],
-            "tip": "Name a salt: first word from the metal/base, second from the acid. HCl → chloride; H₂SO₄ → sulfate; HNO₃ → nitrate."
+            "rule": "A salt is an ionic compound made of cations and anions in an electrically neutral ratio. In school inorganic chemistry, salts contain metal or ammonium cations and acid-residue anions. Neutralisation is one preparation method; salts can also form by other reactions and need not give neutral solutions.",
+            "examples": [
+              "HCl + NaOH → NaCl (table salt) + H₂O",
+              "H₂SO₄ + Cu(OH)₂ → CuSO₄ (blue) + 2H₂O",
+              "HNO₃ + KOH → KNO₃ + H₂O"
+            ],
+            "tip": "Name a salt: first word from the metal/base, second from the acid. HCl → chloride; H₂SO₄ → sulfate; HNO₃ → nitrate.",
+            "review": {
+              "englishTerm": "Salt",
+              "russianTerm": "Соль",
+              "contrast": {
+                "en": "A salt is not necessarily neutral in water, and it need not be made by acid–alkali neutralisation.",
+                "ru": "Раствор соли не обязательно нейтрален; соли получают не только нейтрализацией кислоты щёлочью."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+                  "language": "en",
+                  "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура солей",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-soley",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура солей"
+                }
+              ]
+            }
           }
         }
       },
       "pH": {
         "title": "pH scale",
-        "body": "0–7 acidic, 7 neutral, 7–14 alkaline. Each pH unit = 10× change in [H⁺]. Strong acid pH ≈ 0–2 (e.g., battery acid, stomach acid). Weak acid pH ≈ 3–6 (vinegar, lemon juice). Pure water pH = 7 (neutral). Weak alkali pH ≈ 8–10 (sea water, baking soda). Strong alkali pH ≈ 11–14 (ammonia, drain cleaner)."
+        "body": "pH describes hydrogen-ion activity; for dilute solutions pH ≈ −log₁₀[H₃O⁺] with concentration in mol dm⁻³. At 25 °C, neutral water has pH 7; acidic solutions have lower pH and alkaline ones higher. pH depends on both strength and concentration, and values outside 0–14 are possible.",
+        "review": {
+          "englishTerm": "pH scale",
+          "russianTerm": "Шкала pH",
+          "contrast": {
+            "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+            "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+              "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+              "language": "en",
+              "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+              "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+              "language": "en",
+              "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+            },
+            {
+              "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+              "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+              "language": "ru",
+              "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+            },
+            {
+              "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+              "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+              "language": "ru",
+              "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+            }
+          ],
+          "model": {
+            "en": "This classroom colour scale covers pH 0–14 near 25 °C. Real solutions can fall outside it; neutral means [H₃O⁺] = [OH⁻], with neutral pH dependent on temperature.",
+            "ru": "Учебная цветовая шкала охватывает pH 0–14 около 25 °C. Реальные значения могут выходить за неё; нейтральность означает [H₃O⁺] = [OH⁻], а нейтральный pH зависит от температуры."
+          }
+        }
       },
       "indicators": {
         "title": "Indicators",
         "detailed": {
           "litmus": {
             "name": "Litmus",
-            "rule": "A natural dye from lichen. RED in acid, BLUE in alkali. Simple — only tells you 'acid or alkali', not the exact pH.",
-            "tip": "Mnemonic: 'Litmus turns blue when it's basic'. Used as litmus paper (cheaper) or solution."
+            "rule": "Litmus is an acid–base indicator with different colours across a transition range: red in sufficiently acidic solution and blue in sufficiently alkaline solution, with intermediate colours between. It gives a broad classification, not a precise pH measurement.",
+            "tip": "Mnemonic: 'Litmus turns blue when it's basic'. Used as litmus paper (cheaper) or solution.",
+            "review": {
+              "englishTerm": "Litmus",
+              "russianTerm": "Лакмус",
+              "contrast": {
+                "en": "An indicator changes colour over an interval. The observed endpoint only approximates the stoichiometric equivalence point.",
+                "ru": "Индикатор меняет цвет в интервале pH. Наблюдаемая конечная точка лишь приближает стехиометрическую точку эквивалентности."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+                  "language": "en",
+                  "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           },
           "phenolphthalein": {
             "name": "Phenolphthalein",
-            "rule": "Colourless in acid AND neutral. Pink in alkali (pH > 8.2). Most common indicator for acid–alkali titrations.",
-            "tip": "End point: change from colourless to first faint pink. Stop adding acid as soon as you see the pink fade."
+            "rule": "Phenolphthalein changes from colourless to pink over approximately pH 8.2–10.0. It can locate a titration endpoint only when this transition lies within the steep pH change near equivalence. Its colour does not measure a universal boundary between acid and alkali.",
+            "tip": "The direction of colour change depends on which solution is added; an endpoint is an observed colour change near equivalence.",
+            "review": {
+              "englishTerm": "Phenolphthalein",
+              "russianTerm": "Фенолфталеин",
+              "contrast": {
+                "en": "An indicator changes colour over an interval. The observed endpoint only approximates the stoichiometric equivalence point.",
+                "ru": "Индикатор меняет цвет в интервале pH. Наблюдаемая конечная точка лишь приближает стехиометрическую точку эквивалентности."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+                  "language": "en",
+                  "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           },
           "universal": {
             "name": "Universal indicator",
-            "rule": "A MIX of several indicators. Gives a full spectrum: red (pH 0) → orange → yellow → green (pH 7) → blue → purple (pH 14).",
-            "tip": "Useful for ESTIMATING pH to ±1 unit. For precise readings, use a pH meter or probe."
+            "rule": "Universal indicator is a mixture of indicators whose combined colours estimate pH across a broad range. Compare the sample with the colour chart supplied for that mixture. Colours and precision vary by formulation; a calibrated pH meter usually gives a more precise measurement.",
+            "tip": "Useful for ESTIMATING pH to ±1 unit. For precise readings, use a pH meter or probe.",
+            "review": {
+              "englishTerm": "Universal indicator",
+              "russianTerm": "Универсальный индикатор",
+              "contrast": {
+                "en": "An indicator changes colour over an interval. The observed endpoint only approximates the stoichiometric equivalence point.",
+                "ru": "Индикатор меняет цвет в интервале pH. Наблюдаемая конечная точка лишь приближает стехиометрическую точку эквивалентности."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+                  "language": "en",
+                  "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           },
           "methylOrange": {
             "name": "Methyl orange (bonus)",
-            "rule": "RED in acid (pH < 3.1), YELLOW in alkali (pH > 4.4). Used for strong acid + weak alkali titrations.",
-            "tip": "Pairs with phenolphthalein for strong alkali + weak acid titrations."
+            "rule": "Methyl orange changes from red to yellow over approximately pH 3.1–4.4, appearing orange within the transition. It is yellow in neutral as well as alkaline solution. Choose it for a titration when its transition matches the sharp pH change around equivalence.",
+            "tip": "Methyl orange is often suitable for strong-acid/weak-base titrations, not generally weak-acid/strong-base titrations.",
+            "review": {
+              "englishTerm": "Methyl orange (bonus)",
+              "russianTerm": "Метилоранж (бонус)",
+              "contrast": {
+                "en": "An indicator changes colour over an interval. The observed endpoint only approximates the stoichiometric equivalence point.",
+                "ru": "Индикатор меняет цвет в интервале pH. Наблюдаемая конечная точка лишь приближает стехиометрическую точку эквивалентности."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+                  "language": "en",
+                  "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           }
         }
       },
@@ -537,27 +2369,182 @@
         "detailed": {
           "metal": {
             "name": "Acid + reactive metal → salt + hydrogen",
-            "rule": "Only metals ABOVE hydrogen in the reactivity series react (Mg, Al, Zn, Fe — yes; Cu, Ag, Au — no). Bubbles of H₂ form; test with a lit splint → 'squeaky pop'.",
-            "examples": ["Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g)", "Mg(s) + H₂SO₄(aq) → MgSO₄(aq) + H₂(g)", "2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g)"],
-            "watchOut": "Reactive group 1 metals (Na, K) react EXPLOSIVELY with acid — never test these in school."
+            "rule": "Many metals above hydrogen in the reactivity series react with dilute non-oxidising acids to form a salt and H₂. For example, Mg + 2HCl → MgCl₂ + H₂. Oxidising acids, surface films and conditions can change the products or prevent an observable reaction.",
+            "examples": [
+              "Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g)",
+              "Mg(s) + H₂SO₄(aq) → MgSO₄(aq) + H₂(g)",
+              "2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g)"
+            ],
+            "watchOut": "Reactive group 1 metals (Na, K) react EXPLOSIVELY with acid — never test these in school.",
+            "review": {
+              "englishTerm": "Acid + reactive metal → salt + hydrogen",
+              "russianTerm": "Кислота + активный металл → соль + водород",
+              "contrast": {
+                "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+                "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+                  "language": "en",
+                  "section": "14.1 Brønsted–Lowry Acids and Bases"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+                  "language": "en",
+                  "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           },
           "base": {
             "name": "Acid + base → salt + water (no gas)",
-            "rule": "Metal oxides and hydroxides neutralise acids. No gas given off (unlike with carbonates). Often used to make pure salts.",
-            "examples": ["2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l) — black solid turns blue solution", "H₂SO₄(aq) + ZnO(s) → ZnSO₄(aq) + H₂O(l)", "2HNO₃(aq) + Mg(OH)₂(s) → Mg(NO₃)₂(aq) + 2H₂O(l)"],
-            "tip": "Heat acid in beaker → add base until no more dissolves → filter → evaporate → crystallise. Classic 'making a salt' lab."
+            "rule": "A basic metal oxide or hydroxide can react with acid to form salt and water. For example, CuO + 2HCl → CuCl₂ + H₂O. This pattern describes these bases; it is not a universal equation for every substance that accepts a proton.",
+            "examples": [
+              "2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l) — black solid turns blue solution",
+              "H₂SO₄(aq) + ZnO(s) → ZnSO₄(aq) + H₂O(l)",
+              "2HNO₃(aq) + Mg(OH)₂(s) → Mg(NO₃)₂(aq) + 2H₂O(l)"
+            ],
+            "tip": "Heat acid in beaker → add base until no more dissolves → filter → evaporate → crystallise. Classic 'making a salt' lab.",
+            "review": {
+              "englishTerm": "Acid + base → salt + water (no gas)",
+              "russianTerm": "Кислота + основание → соль + вода (без газа)",
+              "contrast": {
+                "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+                "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+                  "language": "en",
+                  "section": "14.1 Brønsted–Lowry Acids and Bases"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+                  "language": "en",
+                  "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           },
           "carbonate": {
             "name": "Acid + carbonate → salt + water + CO₂",
-            "rule": "Carbonates (CaCO₃, Na₂CO₃, CuCO₃) fizz when acid is added. Test the gas with limewater — turns CLOUDY → confirms CO₂.",
-            "examples": ["2HCl(aq) + CaCO₃(s) → CaCl₂(aq) + H₂O(l) + CO₂(g) — marble chips classic", "H₂SO₄(aq) + Na₂CO₃(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g)"],
-            "tip": "Acid rain attacks limestone buildings via this reaction — over decades, statues are eroded."
+            "rule": "Acids react with carbonates to form a salt, water and carbon dioxide. The net reaction for a carbonate ion is CO₃²⁻ + 2H⁺ → CO₂ + H₂O. CO₂ gives a white precipitate with limewater, though a large excess can dissolve it again.",
+            "examples": [
+              "2HCl(aq) + CaCO₃(s) → CaCl₂(aq) + H₂O(l) + CO₂(g) — marble chips classic",
+              "H₂SO₄(aq) + Na₂CO₃(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g)"
+            ],
+            "tip": "Acid rain attacks limestone buildings via this reaction — over decades, statues are eroded.",
+            "review": {
+              "englishTerm": "Acid + carbonate → salt + water + CO₂",
+              "russianTerm": "Кислота + карбонат → соль + вода + CO₂",
+              "contrast": {
+                "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+                "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+                  "language": "en",
+                  "section": "14.1 Brønsted–Lowry Acids and Bases"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+                  "language": "en",
+                  "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ]
+            }
           },
           "alkali": {
             "name": "Acid + alkali → salt + water (neutralisation)",
-            "rule": "The 'pure' neutralisation reaction. Ionic equation always: H⁺(aq) + OH⁻(aq) → H₂O(l). Used in titrations.",
-            "examples": ["HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)", "H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l)", "HNO₃(aq) + KOH(aq) → KNO₃(aq) + H₂O(l)"],
-            "tip": "Slight temperature rise — neutralisation is exothermic (~57 kJ/mol of water formed)."
+            "rule": "An acid reacts with a hydroxide alkali to form salt and water. H⁺ + OH⁻ → H₂O is the net equation when both are fully dissociated. For weak acids or ammonia, keep the weakly ionised species in the ionic equation; equivalence does not always mean pH 7.",
+            "examples": [
+              "HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)",
+              "H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l)",
+              "HNO₃(aq) + KOH(aq) → KNO₃(aq) + H₂O(l)"
+            ],
+            "tip": "Dilute strong acid–hydroxide neutralisation releases roughly 57 kJ per mole of water; this value is not universal for every acid–base reaction.",
+            "review": {
+              "englishTerm": "Acid + alkali → salt + water (neutralisation)",
+              "russianTerm": "Кислота + щёлочь → соль + вода (нейтрализация)",
+              "contrast": {
+                "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
+                "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+                  "language": "en",
+                  "section": "14.1 Brønsted–Lowry Acids and Bases"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+                  "language": "en",
+                  "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+                  "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+                  "language": "ru",
+                  "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+                }
+              ],
+              "model": {
+                "en": "H⁺ + OH⁻ → H₂O describes strong-acid/hydroxide neutralisation in dilute water. Other bases require other equations; equivalence does not always occur at pH 7.",
+                "ru": "H⁺ + OH⁻ → H₂O описывает нейтрализацию сильной кислоты гидроксидом в разбавленном водном растворе. Для других оснований запись иная; pH эквивалентности не всегда равен 7."
+              }
+            }
           }
         }
       }
@@ -570,35 +2557,182 @@
       "types": {
         "title": "Exothermic vs endothermic",
         "items": {
-          "exothermic": "Exothermic — releases heat (surroundings warm up). ΔH negative. e.g., combustion, neutralisation, most reactions.",
-          "endothermic": "Endothermic — absorbs heat (surroundings cool). ΔH positive. e.g., thermal decomposition, dissolving NH₄NO₃."
+          "exothermic": "An exothermic reaction transfers heat from the reacting system to its surroundings. At constant pressure its enthalpy change is negative: ΔH = H(products) − H(reactants) < 0. The surroundings may warm; the reaction can still require an initial activation-energy input.",
+          "endothermic": "An endothermic reaction absorbs heat from its surroundings. At constant pressure ΔH = H(products) − H(reactants) > 0. Products have higher enthalpy than reactants in the stated conditions. A temperature decrease can indicate heat absorption, but temperature and energy are different quantities."
         },
         "detailed": {
           "exothermic": {
             "name": "Exothermic reactions",
-            "rule": "Energy is RELEASED to the surroundings (which get warmer). The products have LESS energy than reactants. ΔH is NEGATIVE. Energy difference comes from forming new bonds (releases more energy than breaking old bonds).",
-            "examples": ["Combustion: CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH = −890 kJ/mol.", "Neutralisation: HCl + NaOH → NaCl + H₂O, ΔH = −57 kJ/mol.", "Respiration in your body: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ENERGY (powers life).", "Hand warmers — iron oxidation: 4Fe + 3O₂ → 2Fe₂O₃ + heat. Activated by air.", "Self-heating cans of coffee."],
-            "tip": "On an energy profile diagram: products LOWER than reactants. ΔH = E(products) − E(reactants) < 0."
+            "rule": "An exothermic reaction transfers heat from the reacting system to its surroundings. At constant pressure its enthalpy change is negative: ΔH = H(products) − H(reactants) < 0. The surroundings may warm; the reaction can still require an initial activation-energy input.",
+            "examples": [
+              "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l): standard combustion enthalpy near 298 K is about −890 kJ per mole of methane.",
+              "Dilute strong acid + hydroxide: H⁺(aq) + OH⁻(aq) → H₂O(l), about −57 kJ per mole of water formed.",
+              "Respiration in your body: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ENERGY (powers life).",
+              "Hand warmers — iron oxidation: 4Fe + 3O₂ → 2Fe₂O₃ + heat. Activated by air.",
+              "Self-heating cans of coffee."
+            ],
+            "tip": "On an energy profile diagram: products LOWER than reactants. ΔH = E(products) − E(reactants) < 0.",
+            "review": {
+              "englishTerm": "Exothermic reactions",
+              "russianTerm": "Экзотермические реакции",
+              "contrast": {
+                "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
+                "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+                  "language": "en",
+                  "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+                  "language": "en",
+                  "section": "5.2 Calorimetry: heat transfer and temperature change"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+                  "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+                  "language": "ru",
+                  "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+                }
+              ]
+            }
           },
           "endothermic": {
             "name": "Endothermic reactions",
-            "rule": "Energy is ABSORBED from the surroundings (which get colder). Products have MORE energy than reactants. ΔH is POSITIVE. Breaking bonds takes more energy than is released forming new ones.",
-            "examples": ["Thermal decomposition: CaCO₃ → CaO + CO₂, ΔH = +178 kJ/mol (needs strong heating).", "Photosynthesis: 6CO₂ + 6H₂O + LIGHT → C₆H₁₂O₆ + 6O₂ (sun provides energy).", "Dissolving ammonium nitrate: NH₄NO₃(s) + H₂O → NH₄⁺(aq) + NO₃⁻(aq) — solution gets COLD.", "Cold packs in first aid kits — break sachet, NH₄NO₃ dissolves, ice-cold instantly.", "Sherbet sweets: sodium bicarbonate + citric acid = cold tingle on tongue."],
-            "watchOut": "Endothermic ≠ unusual. Many natural processes (cooking, photosynthesis) are endothermic. Don't assume reactions release energy."
+            "rule": "An endothermic reaction absorbs heat from its surroundings. At constant pressure ΔH = H(products) − H(reactants) > 0. Products have higher enthalpy than reactants in the stated conditions. A temperature decrease can indicate heat absorption, but temperature and energy are different quantities.",
+            "examples": [
+              "Thermal decomposition of calcium carbonate requires heat under the stated reaction conditions.",
+              "Dissolving ammonium nitrate can cool water: NH₄NO₃(s) → NH₄⁺(aq) + NO₃⁻(aq)."
+            ],
+            "watchOut": "Photosynthesis requires light energy; absorbing radiation is not the same process as absorbing heat from surroundings.",
+            "review": {
+              "englishTerm": "Endothermic reactions",
+              "russianTerm": "Эндотермические реакции",
+              "contrast": {
+                "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
+                "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+                  "language": "en",
+                  "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+                  "language": "en",
+                  "section": "5.2 Calorimetry: heat transfer and temperature change"
+                },
+                {
+                  "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+                  "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+                  "language": "ru",
+                  "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+                }
+              ]
+            }
           }
         }
       },
       "profiles": {
         "title": "Energy profile diagrams",
-        "body": "x-axis: reaction progress. y-axis: energy. Reactants → activation energy peak → products. Exothermic: products lower than reactants. Endothermic: products higher. Catalyst lowers activation energy without changing ΔH."
+        "body": "An energy profile plots an energy measure against reaction progress. The activation barrier is the rise from reactants to a transition-state peak; ΔH is the product–reactant enthalpy difference. A catalyst changes the pathway and barriers, not ΔH. A one-peak curve is a simplified model.",
+        "review": {
+          "englishTerm": "Energy profile diagrams",
+          "russianTerm": "Энергетические профили",
+          "contrast": {
+            "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
+            "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+              "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+              "language": "en",
+              "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+              "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+              "language": "en",
+              "section": "5.2 Calorimetry: heat transfer and temperature change"
+            },
+            {
+              "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+              "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+              "language": "ru",
+              "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+            }
+          ]
+        }
       },
       "bondEnergies": {
         "title": "Bond energies",
-        "body": "Breaking bonds requires energy (endothermic). Making bonds releases energy (exothermic). ΔH = (energy in to break bonds) − (energy out from new bonds). If +ve: endothermic; if −ve: exothermic."
+        "body": "Bond breaking requires energy; forming the corresponding bonds releases energy. Estimate ΔH as the sum of bond energies for bonds broken minus that for bonds formed. Tabulated mean bond enthalpies describe gas-phase averages, so this method is approximate and must account for all relevant bonds.",
+        "review": {
+          "englishTerm": "Bond energies",
+          "russianTerm": "Энергии связей",
+          "contrast": {
+            "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
+            "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+              "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+              "language": "en",
+              "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+              "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+              "language": "en",
+              "section": "5.2 Calorimetry: heat transfer and temperature change"
+            },
+            {
+              "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+              "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+              "language": "ru",
+              "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+            }
+          ]
+        }
       },
       "calorimetry": {
         "title": "Calorimetry",
-        "body": "q = m × c × ΔT (heat in joules = mass × specific heat capacity × temperature change). For water c = 4.18 J/g·°C. Then ΔH (in kJ/mol) = q / (1000 × n)."
+        "body": "Calorimetry infers heat transfer from measured temperature change. For a solution, q(solution) ≈ mcΔT; if other heat transfers are negligible, q(reaction) ≈ −q(solution). At constant pressure, molar ΔH ≈ −mcΔT/(1000n) in kJ mol⁻¹ when c is in J g⁻¹ °C⁻¹.",
+        "review": {
+          "englishTerm": "Calorimetry",
+          "russianTerm": "Калориметрия",
+          "contrast": {
+            "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
+            "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+              "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+              "language": "en",
+              "section": "5.2 Calorimetry: heat transfer and temperature change"
+            },
+            {
+              "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+              "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+              "language": "ru",
+              "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+            }
+          ],
+          "model": {
+            "en": "Ignoring heat losses and vessel heat capacity: q(solution) = mcΔT and q(reaction) = −q(solution). Russian Q for heat released can have the opposite sign to reaction ΔH.",
+            "ru": "При пренебрежении потерями и теплоёмкостью сосуда: q(раствора) = mcΔT, q(реакции) = −q(раствора). Русское Q выделившейся теплоты может иметь знак, противоположный ΔH реакции."
+          }
+        }
       }
     }
   }

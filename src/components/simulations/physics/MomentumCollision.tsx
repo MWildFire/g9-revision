@@ -119,7 +119,7 @@ export function MomentumCollision() {
   return (
     <SimulationPanel title={t('forceMotion.sim3.title')} description={t('forceMotion.sim3.desc')}>
       <div className="space-y-4">
-        <canvas
+        <canvas role="img" aria-label={t('forceMotion.sim3.desc')}
           ref={canvasRef}
           width={W}
           height={H}

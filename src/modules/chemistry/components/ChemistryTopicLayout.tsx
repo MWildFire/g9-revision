@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -22,12 +24,13 @@ export function ChemistryTopicLayout({ topicKey, icon, children }: Props) {
 interface SectionProps {
   title: string;
   body?: string;
+  review?: DefinitionReview;
   items?: { key: string; text: string }[];
   detailedItems?: DetailedItem[];
   borderColor?: string;
 }
 
-export function ChemSection({ title, body, items, detailedItems, borderColor }: SectionProps) {
+export function ChemSection({ title, body, review, items, detailedItems, borderColor }: SectionProps) {
   const { i18n } = useTranslation();
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
@@ -44,6 +47,7 @@ export function ChemSection({ title, body, items, detailedItems, borderColor }: 
           {body}
         </p>
       ) : null}
+      <DefinitionSupport review={review} />
       {detailedItems && detailedItems.length > 0 ? (
         <div className="space-y-3">
           {detailedItems.map((item, i) => (

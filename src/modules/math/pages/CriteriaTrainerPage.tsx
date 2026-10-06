@@ -13,17 +13,28 @@ const CRITERIA: { id: Criterion; key: string; accent: string }[] = [
   { id: 'D', key: 'criterionD', accent: 'var(--color-accent-clay)' },
 ];
 
-const CRITERION_C_CHECKLIST = [
-  'Show all working steps clearly',
-  'Use correct mathematical notation (=, →, ∴, ∈, ≤, ≥)',
-  'Include units in every answer (cm, m², seconds, etc.)',
-  'Round consistently and state the level of accuracy',
-  'Write a concluding sentence answering the question',
-  'Justify any assumptions you made',
-];
+const CRITERION_C_CHECKLIST = {
+  en: [
+    'Show the reasoning and calculation steps clearly.',
+    'Use mathematical symbols correctly: = states equality; → can show a transformation or implication.',
+    'Include units for measured quantities; dimensionless numbers need no unit.',
+    'Round consistently and state the level of accuracy.',
+    'Interpret the result in the context of the question.',
+    'State and justify assumptions that affect the model.',
+  ],
+  ru: [
+    'Ясно показывайте рассуждения и шаги вычислений.',
+    'Корректно используйте символы: = обозначает равенство; → может показывать преобразование или следствие.',
+    'Указывайте единицы измеряемых величин; безразмерным числам единица не нужна.',
+    'Согласованно округляйте и указывайте точность.',
+    'Объясняйте смысл результата в условиях задачи.',
+    'Указывайте и обосновывайте допущения, влияющие на модель.',
+  ],
+};
 
 export function CriteriaTrainerPage() {
-  const { t } = useTranslation('math');
+  const { t, i18n } = useTranslation('math');
+  const language = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const [active, setActive] = useState<Criterion>('A');
 
   const filteredProblems = ALL_MATH_PROBLEMS.filter((p) => p.criterion === active);
@@ -47,7 +58,7 @@ export function CriteriaTrainerPage() {
                 color: isActive ? c.accent : 'var(--color-text-secondary)',
               }}
             >
-              Criterion {c.id}
+              {language === 'ru' ? 'Критерий' : 'Criterion'} {c.id}
             </button>
           );
         })}
@@ -64,9 +75,9 @@ export function CriteriaTrainerPage() {
 
       {active === 'C' ? (
         <>
-          <SectionHeading>Communication checklist</SectionHeading>
+          <SectionHeading>{language === 'ru' ? 'Проверка оформления' : 'Communication checklist'}</SectionHeading>
           <ul className="space-y-2">
-            {CRITERION_C_CHECKLIST.map((item, i) => (
+            {CRITERION_C_CHECKLIST[language].map((item, i) => (
               <li key={i} className="flex items-start gap-2 bg-bg-secondary border border-border rounded-md px-4 py-2.5 text-sm">
                 <span className="text-text-muted shrink-0">☐</span>
                 <span>{item}</span>
@@ -76,12 +87,12 @@ export function CriteriaTrainerPage() {
         </>
       ) : (
         <>
-          <SectionHeading>Practice problems</SectionHeading>
+          <SectionHeading>{language === 'ru' ? 'Практические задания' : 'Practice problems'}</SectionHeading>
           {filteredProblems.length > 0 ? (
             <MathPracticeList problems={filteredProblems} />
           ) : (
             <p className="text-sm text-text-muted">
-              No problems tagged with Criterion {active} yet.
+              {language === 'ru' ? `Заданий по критерию ${active} пока нет.` : `No problems tagged with Criterion ${active} yet.`}
             </p>
           )}
         </>

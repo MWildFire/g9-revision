@@ -142,16 +142,16 @@
       ],
       "paragraphs": [
         {
-          "en": "For A(x₁,y₁), B(x₂,y₂): gradient m=(y₂−y₁)/(x₂−x₁), midpoint M=((x₁+x₂)/2,(y₁+y₂)/2), distance AB=√((x₂−x₁)²+(y₂−y₁)²). A vertical line has undefined gradient.",
-          "ru": "Для A(x₁,y₁), B(x₂,y₂): угловой коэффициент m=(y₂−y₁)/(x₂−x₁), середина M=((x₁+x₂)/2,(y₁+y₂)/2), расстояние AB=√((x₂−x₁)²+(y₂−y₁)²). У вертикальной прямой коэффициент не определён."
+          "en": "Coordinates locate a point by an ordered pair (x,y) on perpendicular axes. For A(x₁,y₁), B(x₂,y₂), distance is √((x₂−x₁)²+(y₂−y₁)²) and midpoint is ((x₁+x₂)/2,(y₁+y₂)/2). These formulas use a Euclidean coordinate system with the same unit scale on both axes.",
+          "ru": "Координаты задают положение точки упорядоченной парой (x,y) на перпендикулярных осях. Для A(x₁,y₁), B(x₂,y₂) расстояние равно √((x₂−x₁)²+(y₂−y₁)²), середина — ((x₁+x₂)/2,(y₁+y₂)/2). Формулы предполагают евклидову систему с одинаковым единичным масштабом осей."
         },
         {
-          "en": "Through a fixed point (x₀,y₀), use y−y₀=m(x−x₀). Distinct parallel lines share a gradient. For perpendicular non-vertical lines, m₁m₂=−1. Horizontal and vertical lines are perpendicular.",
-          "ru": "Через фиксированную точку (x₀,y₀): y−y₀=m(x−x₀). У параллельных прямых одинаковый коэффициент. Для перпендикулярных невертикальных прямых m₁m₂=−1. Горизонтальная и вертикальная прямые перпендикулярны."
+          "en": "Gradient is the ratio of vertical change to horizontal change: m=(y₂−y₁)/(x₂−x₁), for x₂≠x₁. A nonvertical line through a fixed point (x₀,y₀) has equation y−y₀=m(x−x₀); x,y vary along it. A vertical line x=c has undefined gradient, not an infinite numerical gradient.",
+          "ru": "Угловой коэффициент — отношение изменения y к изменению x: m=(y₂−y₁)/(x₂−x₁) при x₂≠x₁. Невертикальная прямая через фиксированную (x₀,y₀) имеет уравнение y−y₀=m(x−x₀); x,y меняются вдоль неё. У вертикальной прямой x=c коэффициент не определён, а не равен некоторому бесконечному числу."
         },
         {
-          "en": "Expand brackets carefully: −2(x−2)=−2x+4. Substitute the known point into the final equation to check it.",
-          "ru": "Раскрывайте скобки внимательно: −2(x−2)=−2x+4. Проверьте итоговое уравнение подстановкой известной точки."
+          "en": "Distinct nonvertical parallel lines have equal gradients. Nonvertical perpendicular lines satisfy m₁m₂=−1; horizontal and vertical lines form a separate perpendicular case. A perpendicular bisector passes through a segment’s midpoint at 90° and consists of points equidistant from its endpoints.",
+          "ru": "У различных параллельных невертикальных прямых равные коэффициенты. Для невертикальных перпендикулярных прямых m₁m₂=−1; горизонтальная и вертикальная образуют отдельный случай. Серединный перпендикуляр проходит через середину отрезка под 90° и состоит из точек, равноудалённых от его концов."
         }
       ],
       "question": {
@@ -171,6 +171,52 @@
           "en": "I check the negative reciprocal and substitute back.",
           "ru": "Я проверяю обратный коэффициент с противоположным знаком и делаю подстановку."
         }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Coordinate, distance, midpoint",
+          "russianTerm": "Координата, расстояние, середина",
+          "contrast": {
+            "en": "A midpoint is a point; distance is a nonnegative length.",
+            "ru": "Середина — точка, расстояние — неотрицательная длина."
+          },
+          "sources": [
+            {
+              "title": "OpenStax — 2.1 Rectangular Coordinate Systems and Graphs",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+              "language": "en",
+              "section": "2.1 Rectangular Coordinate Systems and Graphs"
+            },
+            {
+              "title": "Фоксфорд Учебник — Расстояние между точками",
+              "url": "https://foxford.ru/wiki/matematika/rasstoyanie-mezhdu-tochkami-na-koordinatnoy-ploskosti",
+              "language": "ru",
+              "section": "Формула расстояния в прямоугольной системе"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Gradient; parallel and perpendicular lines",
+          "russianTerm": "Угловой коэффициент; параллельные и перпендикулярные прямые",
+          "contrast": {
+            "en": "Vertical lines are omitted from slope-ratio formulas.",
+            "ru": "Формулы через угловой коэффициент не включают вертикальные прямые."
+          },
+          "sources": [
+            {
+              "title": "OpenStax — 2.2 Linear Equations in One Variable",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable",
+              "language": "en",
+              "section": "2.2 Linear Equations in One Variable"
+            },
+            {
+              "title": "OpenStax — 2.1 Rectangular Coordinate Systems and Graphs",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+              "language": "en",
+              "section": "2.1 Rectangular Coordinate Systems and Graphs"
+            }
+          ]
+        }
       ]
     },
     {
@@ -186,16 +232,16 @@
       ],
       "paragraphs": [
         {
-          "en": "Apply the same operation to both sides. Expand brackets before collecting terms. A solution of simultaneous equations must satisfy both original equations; use substitution or elimination.",
-          "ru": "Выполняйте одинаковую операцию с обеими частями. Раскройте скобки до приведения подобных. Решение системы должно удовлетворять обоим исходным уравнениям; используйте подстановку или сложение."
+          "en": "An expression represents a value; an equation asserts equality of two expressions. A linear equation in one unknown has form ax+b=0 with a≠0. A solution makes it true. Equivalent equations have the same solution set: adding the same expression or multiplying by the same known nonzero number preserves equality and solutions.",
+          "ru": "Выражение задаёт значение; уравнение утверждает равенство двух выражений. Линейное уравнение с одним неизвестным имеет вид ax+b=0 при a≠0. Корень обращает его в верное равенство. Равносильные уравнения имеют одинаковые решения: прибавление одного выражения или умножение на одно известное ненулевое число сохраняет решения."
         },
         {
-          "en": "Reverse an inequality when multiplying or dividing both sides by a negative number. A strict inequality uses an open endpoint on a number line; ≤ or ≥ includes the endpoint.",
-          "ru": "Меняйте знак неравенства при умножении или делении на отрицательное число. Строгое неравенство обозначается пустой точкой; ≤ и ≥ включают границу."
+          "en": "An inequality compares values using <,>,≤,≥. Multiplication or division by a negative number reverses the order; adding a negative number does not. A strict bound is an open endpoint on a number line; ≤ or ≥ includes the endpoint. If a multiplier’s sign is unknown, consider its sign before transforming the inequality.",
+          "ru": "Неравенство сравнивает значения знаками <,>,≤,≥. Умножение или деление на отрицательное число меняет направление; прибавление отрицательного числа — нет. Строгая граница изображается пустой точкой; ≤ или ≥ включает её. При неизвестном знаке множителя сначала разберите его знак."
         },
         {
-          "en": "For a rational equation, state excluded denominator values first. Multiplication by a denominator can introduce an invalid candidate; check every solution in the original equation.",
-          "ru": "В дробном уравнении сначала исключите значения, обнуляющие знаменатель. После умножения на знаменатель проверьте все найденные корни в исходной записи."
+          "en": "A solution of a system must satisfy all equations simultaneously. Two linear equations in x,y can have one solution, no solution, or infinitely many. Substitution replaces a variable by an equal expression; elimination combines equations to remove a variable. In a rational equation, exclude denominator zeros before clearing fractions and check every candidate in the original domain.",
+          "ru": "Решение системы одновременно удовлетворяет всем уравнениям. Два линейных уравнения с x,y могут иметь одно, ни одного или бесконечно много решений. Подстановка заменяет переменную равным выражением; исключение складывает уравнения для устранения переменной. В дробном уравнении сначала исключите нули знаменателя и проверьте кандидатов в исходной области."
         }
       ],
       "question": {
@@ -215,6 +261,52 @@
           "en": "I reverse the sign only for multiplication/division by a negative.",
           "ru": "Я меняю знак при умножении/делении на отрицательное число."
         }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Expression; equation; solution",
+          "russianTerm": "Выражение; уравнение; корень",
+          "contrast": {
+            "en": "Evaluating an expression is different from solving an equation.",
+            "ru": "Вычисление выражения отличается от решения уравнения."
+          },
+          "sources": [
+            {
+              "title": "1.2 Use the Language of Algebra",
+              "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+              "language": "en",
+              "section": "1.2 Use the Language of Algebra"
+            },
+            {
+              "title": "OpenStax — 2.2 Linear Equations in One Variable",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable",
+              "language": "en",
+              "section": "2.2 Linear Equations in One Variable"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Inequality; simultaneous equations",
+          "russianTerm": "Неравенство; система уравнений",
+          "contrast": {
+            "en": "A system uses an intersection of solution sets; a union means alternatives.",
+            "ru": "Система требует пересечения множеств решений; объединение означает альтернативы."
+          },
+          "sources": [
+            {
+              "title": "OpenStax — 2.7 Linear Inequalities",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+              "language": "en",
+              "section": "2.7 Linear Inequalities"
+            },
+            {
+              "title": "OpenStax — 11.1 Systems of Linear Equations: Two Variables",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-1-systems-of-linear-equations-two-variables",
+              "language": "en",
+              "section": "11.1 Systems of Linear Equations: Two Variables"
+            }
+          ]
+        }
       ]
     },
     {
@@ -231,21 +323,21 @@
       ],
       "paragraphs": [
         {
-          "en": "For equally likely outcomes, P(A)=favourable outcomes/total outcomes. P(not A)=1−P(A). List a sample space systematically; two dice produce 36 ordered, equally likely pairs, not 11 equally likely totals.",
-          "ru": "Для равновозможных исходов P(A)=число благоприятных исходов/общее число. P(не A)=1−P(A). У двух кубиков 36 равновозможных упорядоченных пар, а не 11 равновозможных сумм."
+          "en": "A random experiment has a sample space of possible outcomes; an event is a set of those outcomes. Probability lies from 0 to 1. For a finite equally likely sample space, P(A)=number of outcomes in A/total number. The complement contains outcomes outside A, so P(Aᶜ)=1−P(A). Two independent fair dice have 36 equally likely ordered pairs; their sums are not equally likely.",
+          "ru": "У случайного опыта есть пространство возможных исходов; событие — множество этих исходов. Вероятность лежит от 0 до 1. При конечном пространстве равновозможных исходов P(A)=число исходов A/общее число. Дополнение состоит из исходов вне A, поэтому P(Aᶜ)=1−P(A). У двух независимых честных кубиков 36 равновозможных упорядоченных пар; суммы не равновозможны."
         },
         {
-          "en": "P(A or B)=P(A)+P(B)−P(A and B). Mutually exclusive events have zero overlap. Independence means that knowing A does not change P(B); it is different from mutual exclusivity.",
-          "ru": "P(A или B)=P(A)+P(B)−P(A и B). У несовместных событий нет пересечения. Независимость означает, что знание A не меняет P(B); это не то же самое, что несовместность."
+          "en": "Union A∪B means A or B or both; intersection A∩B means both. P(A∪B)=P(A)+P(B)−P(A∩B). Mutually exclusive events have empty intersection. Independent events satisfy P(A∩B)=P(A)P(B); for P(A)>0 this is equivalent to P(B|A)=P(B). Two mutually exclusive events with positive probabilities cannot be independent.",
+          "ru": "Объединение A∪B означает A или B, включая оба; пересечение A∩B — оба события. P(A∪B)=P(A)+P(B)−P(A∩B). У несовместных событий пересечение пусто. Независимые события удовлетворяют P(A∩B)=P(A)P(B); при P(A)>0 это равносильно P(B|A)=P(B). Два несовместных события положительной вероятности не независимы."
         },
         {
-          "en": "On a tree, multiply along a path and add disjoint paths. Without replacement, update both numerator and denominator. In a two-way table, a conditional probability uses the row/column specified by the condition as its denominator.",
-          "ru": "В дереве умножайте вероятности вдоль ветви и складывайте несовместные ветви. Без возвращения меняются числитель и знаменатель. В таблице условная вероятность использует в знаменателе выбранную условием группу."
+          "en": "Conditional probability P(B|A)=P(A∩B)/P(A) uses a nonzero conditioning probability. On a probability tree, each branch after a result is conditional on that result: multiply along a path and add disjoint complete paths. Without replacement the remaining counts change. In a two-way table, condition on the specified subgroup when choosing the denominator.",
+          "ru": "Условная вероятность P(B|A)=P(A∩B)/P(A) требует P(A)>0. В дереве вероятность ветви после результата условна относительно него: вдоль пути вероятности перемножают, по несовместным полным путям складывают. Без возвращения оставшиеся количества меняются. В таблице знаменатель выбирают по группе, заданной условием."
         }
       ],
       "question": {
-        "en": "A bag contains 3 red and 2 blue counters. Draw two without replacement. Find P(two red) and P(one of each colour).",
-        "ru": "В мешке 3 красных и 2 синих жетона. Достают два без возвращения. Найдите вероятность двух красных и одного каждого цвета."
+        "en": "A bag has 3 red and 2 blue counters. Draw two without replacement, each remaining counter equally likely. Find P(two red) and P(one of each colour).",
+        "ru": "В мешке 3 красных и 2 синих жетона. Два извлекают без возвращения; каждый оставшийся жетон равновероятен. Найдите вероятность двух красных и одного каждого цвета."
       },
       "answer": {
         "en": "P(RR)=(3/5)(2/4)=3/10. P(RB or BR)=(3/5)(2/4)+(2/5)(3/4)=3/5. Check: RR+BB+mixed=3/10+1/10+6/10=1.",
@@ -259,6 +351,52 @@
         {
           "en": "I do not confuse independent and mutually exclusive events.",
           "ru": "Я не путаю независимость и несовместность."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Sample space; event; complement",
+          "russianTerm": "Пространство исходов; событие; дополнение",
+          "contrast": {
+            "en": "Counting ratios require equally likely elementary outcomes.",
+            "ru": "Отношение количеств требует равновозможности элементарных исходов."
+          },
+          "sources": [
+            {
+              "title": "3.1 Terminology",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+              "section": "3.1 Terminology — sample spaces, events and equally likely outcomes",
+              "language": "en"
+            },
+            {
+              "title": "3.2 Independent and Mutually Exclusive Events",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events",
+              "language": "en",
+              "section": "3.2 Independent and Mutually Exclusive Events"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Independent; mutually exclusive; conditional probability",
+          "russianTerm": "Независимость; несовместность; условная вероятность",
+          "contrast": {
+            "en": "Independence concerns probabilities; exclusivity concerns overlap.",
+            "ru": "Независимость относится к вероятностям, несовместность — к пересечению событий."
+          },
+          "sources": [
+            {
+              "title": "3.1 Terminology",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+              "section": "3.1 Terminology — sample spaces, events and equally likely outcomes",
+              "language": "en"
+            },
+            {
+              "title": "3.2 Independent and Mutually Exclusive Events",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events",
+              "language": "en",
+              "section": "3.2 Independent and Mutually Exclusive Events"
+            }
+          ]
         }
       ]
     },
@@ -275,16 +413,16 @@
       ],
       "paragraphs": [
         {
-          "en": "Prism: V=area of cross-section × length. Cylinder: V=πr²h, total area=2πr²+2πrh. Cone: V=πr²h/3, total area=πr²+πrl, where l is slant height.",
-          "ru": "Призма: V=площадь сечения × длина. Цилиндр: V=πr²h, полная площадь=2πr²+2πrh. Конус: V=πr²h/3, полная площадь=πr²+πrl, где l — образующая."
+          "en": "Volume measures three-dimensional space in cubic units; surface area measures boundary area in square units. A prism has two congruent parallel polygonal bases and a constant parallel cross-section; V=B h where B is base area and h perpendicular separation. For a right circular cylinder, V=πr²h and total closed surface area=2πr²+2πrh.",
+          "ru": "Объём измеряет трёхмерное пространство в кубических единицах; площадь поверхности — границу в квадратных. У призмы два равных параллельных многоугольных основания и постоянное параллельное сечение; V=B h, где B — площадь основания, h — перпендикулярное расстояние между основаниями. У прямого кругового цилиндра V=πr²h, полная площадь замкнутой поверхности=2πr²+2πrh."
         },
         {
-          "en": "Sphere: V=4πr³/3 and area=4πr². Pyramid: V=base area × perpendicular height/3; sum the base and triangular face areas for total surface area.",
-          "ru": "Шар: V=4πr³/3 и площадь=4πr². Пирамида: V=площадь основания × перпендикулярная высота/3; для полной площади сложите основание и боковые треугольники."
+          "en": "A pyramid joins a polygonal base to one apex; V=B h/3 with perpendicular height h. A right circular cone has V=πr²h/3 and total area=πr²+πrl, where l=√(r²+h²) is slant height. A sphere is the boundary of a ball: its area is 4πr²; the ball’s volume is 4πr³/3.",
+          "ru": "Пирамида соединяет многоугольное основание с одной вершиной; V=B h/3 при перпендикулярной высоте h. У прямого кругового конуса V=πr²h/3, полная площадь=πr²+πrl, где l=√(r²+h²) — образующая. Сфера — граница шара: её площадь 4πr²; объём шара 4πr³/3."
         },
         {
-          "en": "For joined solids, add volumes but exclude internal joined faces from exposed area. Convert lengths before calculating: 1 cm³=1000 mm³. Similar lengths scale by k, areas by k² and volumes by k³.",
-          "ru": "Для соединённых тел сложите объёмы, но исключите внутренние грани из внешней площади. Переводите единицы до расчёта: 1 см³=1000 мм³. У подобных тел длины меняются в k раз, площади — в k², объёмы — в k³."
+          "en": "For joined solids with disjoint interiors, add volumes and omit shared internal faces from exposed surface area. Similar figures with positive length factor k have area factor k² and volume factor k³. Convert units consistently: 1 cm³=1000 mm³; a scale drawing of a net shows surface area, not volume.",
+          "ru": "При соединении тел без перекрытия внутренних частей объёмы складывают; общие внутренние грани исключают из внешней площади. При положительном коэффициенте длин k площади подобных фигур меняются в k² раз, объёмы в k³. Единицы переводят согласованно: 1 см³=1000 мм³; развёртка описывает поверхность, а не объём."
         }
       ],
       "question": {
@@ -304,6 +442,58 @@
           "en": "I check squared/cubed units and hidden faces.",
           "ru": "Я проверяю квадратные/кубические единицы и внутренние грани."
         }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Prism; cylinder; surface area; volume",
+          "russianTerm": "Призма; цилиндр; площадь поверхности; объём",
+          "contrast": {
+            "en": "Perpendicular height is not slant height. Open containers omit missing faces.",
+            "ru": "Перпендикулярная высота отличается от образующей. У открытого сосуда отсутствующую поверхность не включают."
+          },
+          "sources": [
+            {
+              "title": "Фоксфорд Учебник — Объём призмы",
+              "url": "https://foxford.ru/wiki/matematika/volume-prizma",
+              "language": "ru",
+              "section": "Площадь основания и перпендикулярная высота"
+            },
+            {
+              "title": "Фоксфорд Учебник — Цилиндр и его свойства",
+              "url": "https://foxford.ru/wiki/matematika/cilindr-i-ego-svojstva",
+              "language": "ru",
+              "section": "Радиус, высота, объём и площадь поверхности"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Cone; pyramid; sphere; ball",
+          "russianTerm": "Конус; пирамида; сфера; шар",
+          "contrast": {
+            "en": "Russian distinguishes sphere (surface) and ball (solid); English sphere is often used for both in school problems.",
+            "ru": "По-русски сфера — поверхность, шар — тело; в английских школьных задачах sphere часто используется для обоих."
+          },
+          "sources": [
+            {
+              "title": "Фоксфорд Учебник — Конус и его свойства",
+              "url": "https://foxford.ru/wiki/matematika/konus-i-ego-svojstva",
+              "language": "ru",
+              "section": "Конус и его свойства"
+            },
+            {
+              "title": "Фоксфорд Учебник — Объём пирамиды",
+              "url": "https://foxford.ru/wiki/matematika/volume-piramida",
+              "language": "ru",
+              "section": "Объём пирамиды"
+            },
+            {
+              "title": "Фоксфорд Учебник — Шар и его свойства",
+              "url": "https://foxford.ru/wiki/matematika/shar-i-ego-svoistva",
+              "language": "ru",
+              "section": "Шар и его свойства"
+            }
+          ]
+        }
       ]
     },
     {
@@ -319,16 +509,16 @@
       ],
       "paragraphs": [
         {
-          "en": "A translation needs a vector; a reflection needs its mirror line; a rotation needs centre, angle and direction. For a 90° anticlockwise rotation about the origin, (x,y)→(−y,x).",
-          "ru": "Перенос задаётся вектором, отражение — осью, поворот — центром, углом и направлением. Поворот на 90° против часовой стрелки вокруг начала: (x,y)→(−y,x)."
+          "en": "A transformation maps each point to an image. A translation adds one fixed vector to every point; a reflection mirrors points across a line; a rotation turns them about a centre through a directed angle. These rigid transformations preserve distances and angles. About the origin, a 90° anticlockwise rotation sends (x,y) to (−y,x).",
+          "ru": "Преобразование сопоставляет каждой точке её образ. Перенос прибавляет один фиксированный вектор; отражение строит симметричные точки относительно прямой; поворот вращает их вокруг центра на направленный угол. Эти движения сохраняют расстояния и углы. Поворот на 90° против часовой стрелки вокруг начала переводит (x,y) в (−y,x)."
         },
         {
-          "en": "Congruent figures have equal corresponding sides and angles. Triangle tests include SSS, SAS, ASA/AAS and right-angle–hypotenuse–side. AAA establishes similarity, not congruence.",
-          "ru": "У равных фигур соответствующие стороны и углы равны. Признаки равенства треугольников: SSS, SAS, ASA/AAS и гипотенуза с катетом. AAA даёт подобие, а не равенство."
+          "en": "Congruent figures coincide after rigid transformations. Similar figures have equal corresponding angles and a common positive ratio of corresponding lengths. Triangle congruence tests include SSS, SAS, ASA/AAS and right-angle–hypotenuse–side. AAA proves similarity but cannot fix the size.",
+          "ru": "Равные фигуры совмещаются движением. У подобных фигур равны соответствующие углы и постоянно положительное отношение соответствующих длин. Признаки равенства треугольников: SSS, SAS, ASA/AAS и гипотенуза с катетом. AAA устанавливает подобие, но не определяет размер."
         },
         {
-          "en": "Enlargement with centre C maps P to C+k(P−C). Similarity scales all lengths by the same factor; preserve correspondence when forming ratios. Order matters in combined transformations. A tessellation fills the plane with no gaps or overlaps.",
-          "ru": "Гомотетия с центром C переводит P в C+k(P−C). При подобии все длины меняются в одно число раз; соблюдайте соответствие сторон. Порядок преобразований важен. Мозаика заполняет плоскость без пробелов и наложений."
+          "en": "An enlargement (homothety) with centre C and nonzero signed factor k maps P to C+k(P−C). Lengths scale by |k|; negative k also moves the image to the opposite ray. The case k=0 collapses the figure and is not a similarity. Composition means applying transformations in order; reversing the order may change the result. A tessellation covers a plane without gaps or overlapping interiors.",
+          "ru": "Гомотетия с центром C и ненулевым коэффициентом k переводит P в C+k(P−C). Длины меняются в |k| раз; при k<0 образ лежит на противоположном луче. Случай k=0 сжимает фигуру в точку и не является подобием. Композиция выполняет преобразования по порядку; его смена может изменить результат. Мозаика покрывает плоскость без пробелов и перекрытия внутренних частей."
         }
       ],
       "question": {
@@ -348,6 +538,52 @@
           "en": "I use corresponding sides and an appropriate triangle test.",
           "ru": "Я использую соответствующие стороны и подходящий признак."
         }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Translation; reflection; rotation; composition",
+          "russianTerm": "Перенос; отражение; поворот; композиция",
+          "contrast": {
+            "en": "State the vector, mirror line or centre and directed angle to specify a transformation.",
+            "ru": "Для задания преобразования укажите вектор, ось или центр и направленный угол."
+          },
+          "sources": [
+            {
+              "title": "Фоксфорд Учебник — Преобразование фигур на плоскости",
+              "url": "https://foxford.ru/wiki/matematika/preobrazovanie-figur-na-ploskosti",
+              "language": "ru",
+              "section": "Перенос, поворот, отражение"
+            },
+            {
+              "title": "3.5 Transformation of Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+              "language": "en",
+              "section": "3.5 Transformation of Functions"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Congruence; similarity; enlargement",
+          "russianTerm": "Равенство; подобие; гомотетия",
+          "contrast": {
+            "en": "A signed factor k gives length factor |k|; corresponding sides must be paired correctly.",
+            "ru": "При коэффициенте k длины меняются в |k| раз; сравнивайте соответствующие стороны."
+          },
+          "sources": [
+            {
+              "title": "Фоксфорд Учебник — Преобразование фигур на плоскости",
+              "url": "https://foxford.ru/wiki/matematika/preobrazovanie-figur-na-ploskosti",
+              "language": "ru",
+              "section": "Перенос, поворот, отражение"
+            },
+            {
+              "title": "Фоксфорд Учебник — Первый признак подобия треугольников",
+              "url": "https://foxford.ru/wiki/matematika/pervy-priznak-podobiya-treugolnikov",
+              "language": "ru",
+              "section": "Первый признак подобия треугольников"
+            }
+          ]
+        }
       ]
     },
     {
@@ -363,16 +599,16 @@
       ],
       "paragraphs": [
         {
-          "en": "Simple random sampling gives each member an equal selection chance. Systematic sampling takes every kth member after a random start. Stratified sampling represents subgroups proportionally: subgroup sample = subgroup size/population size × total sample.",
-          "ru": "Простая случайная выборка даёт каждому равный шанс. Систематическая берёт каждого k-го после случайного старта. Стратифицированная учитывает доли групп: объём группы/объём популяции × размер выборки."
+          "en": "A population is the full group under study; a sample is the observed subset. In simple random sampling of fixed size, every possible subset of that size has equal probability. Systematic sampling takes every kth entry after a random start. Stratified sampling divides the population into nonoverlapping strata and samples within each; proportional allocation uses stratum size/population size×total sample size.",
+          "ru": "Генеральная совокупность — вся изучаемая группа, выборка — наблюдаемая часть. В простой случайной выборке фиксированного объёма все подмножества такого объёма равновероятны. Систематический отбор берёт каждую k-ю запись после случайного старта. Стратификация делит совокупность на непересекающиеся слои с отбором внутри каждого; пропорциональное распределение использует размер слоя/размер совокупности×объём выборки."
         },
         {
-          "en": "A larger sample reduces random variation but does not remove selection or non-response bias. Record who was eligible, who responded and what the sampling frame excludes.",
-          "ru": "Большая выборка уменьшает случайную изменчивость, но не устраняет смещение отбора или неответов. Укажите, кого могли выбрать, кто ответил и кто не вошёл в основу выборки."
+          "en": "Sampling variation is random change between samples. Bias is a systematic distortion, for example from an incomplete sampling frame, self-selection or nonresponse. Increasing a well-designed random sample generally reduces sampling variation; it does not repair bias. A periodic list can also undermine systematic sampling.",
+          "ru": "Выборочная изменчивость — случайные различия между выборками. Смещение — систематическое искажение, например из-за неполной основы выборки, самоотбора или неответов. Увеличение правильно организованной случайной выборки обычно уменьшает случайную изменчивость, но не исправляет смещение. Периодичность списка может исказить систематический отбор."
         },
         {
-          "en": "Describe direction, strength and outliers on a scatter graph. Correlation does not prove causation. A least-squares regression line with an intercept passes through (mean x, mean y). Interpolation is generally less risky than extrapolation beyond observed data.",
-          "ru": "Опишите направление, силу связи и выбросы. Корреляция не доказывает причинность. Линия МНК со свободным членом проходит через (среднее x, среднее y). Интерполяция обычно надёжнее экстраполяции за пределы наблюдений."
+          "en": "A scatter plot shows pairs (x,y). Correlation describes association; Pearson r measures linear direction and strength when both variables have nonzero variance. The least-squares line with an intercept minimises squared vertical residuals and passes through (mean x,mean y). Interpolation predicts within the observed x-range; extrapolation predicts outside it, where the model may fail.",
+          "ru": "Диаграмма рассеяния показывает пары (x,y). Корреляция описывает связь; коэффициент Пирсона r измеряет направление и силу линейной связи при ненулевых дисперсиях. Прямая МНК со свободным членом минимизирует сумму квадратов вертикальных остатков и проходит через (среднее x,среднее y). Интерполяция прогнозирует внутри наблюдаемого диапазона x; экстраполяция — вне его, где модель может нарушиться."
         }
       ],
       "question": {
@@ -392,6 +628,40 @@
           "en": "I explain the limits of a prediction.",
           "ru": "Я объясняю ограничения прогноза."
         }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Population; sample; random, systematic and stratified sampling",
+          "russianTerm": "Генеральная совокупность; выборка; случайный, систематический и стратифицированный отбор",
+          "contrast": {
+            "en": "Equal inclusion chances alone do not define simple random sampling; every fixed-size subset must be equally likely.",
+            "ru": "Одних равных индивидуальных шансов недостаточно: равновероятны все подмножества заданного объёма."
+          },
+          "sources": [
+            {
+              "title": "1.2 Data, Sampling, and Variation",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+              "language": "en",
+              "section": "1.2 Data, Sampling, and Variation"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Correlation; regression; interpolation; extrapolation",
+          "russianTerm": "Корреляция; регрессия; интерполяция; экстраполяция",
+          "contrast": {
+            "en": "Association does not establish cause. r=0 does not exclude a nonlinear relationship.",
+            "ru": "Связь не устанавливает причину. r=0 не исключает нелинейную зависимость."
+          },
+          "sources": [
+            {
+              "title": "OpenStax — 12.3 The Regression Equation — Correlation Coefficient",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+              "language": "en",
+              "section": "12.3 The Regression Equation — Correlation Coefficient"
+            }
+          ]
+        }
       ]
     },
     {
@@ -408,17 +678,17 @@
       ],
       "paragraphs": [
         {
-          "en": "For uₙ=an²+bn+c, constant second difference=2a. Find a first, subtract an² from the sequence, then find the linear remainder bn+c.",
-          "ru": "Для uₙ=an²+bn+c постоянная вторая разность равна 2a. Найдите a, вычтите an², затем определите линейный остаток bn+c."
+          "en": "A quadratic sequence has an explicit rule uₙ=an²+bn+c with a≠0, for integer indices. Its first differences are uₙ₊₁−uₙ; successive differences of those are constant and equal to 2a when the index step is 1. Subtract an² to obtain the arithmetic remainder bn+c.",
+          "ru": "Квадратичная последовательность задаётся uₙ=an²+bn+c при a≠0 и целых номерах. Первые разности равны uₙ₊₁−uₙ; их последовательные разности постоянны и равны 2a при шаге номера 1. Вычитание an² оставляет арифметическую последовательность bn+c."
         },
         {
-          "en": "Testing a rule on several terms provides evidence, not a proof for all n. Explain the pattern construction or verify algebraically why the rule must hold. Distinguish explicit nth-term formulas from recursive definitions that also need an initial term.",
-          "ru": "Проверка нескольких членов даёт свидетельство, а не доказательство для всех n. Объясните построение или докажите правило алгебраически. Рекуррентная запись требует начального члена."
+          "en": "An explicit rule computes a term directly from its index. A recurrence defines terms from earlier ones and needs enough starting values. A finite list of terms can fit many rules: constant observed second differences suggest a quadratic model but do not prove it beyond the data. A construction or a proof must justify the rule for every permitted n.",
+          "ru": "Явная формула вычисляет член непосредственно по номеру. Рекуррентное правило задаёт его через предыдущие члены и требует начальных значений. Конечному списку подходит много правил: наблюдаемые постоянные вторые разности предлагают квадратичную модель, но не доказывают её дальше. Правило для всех допустимых n обосновывают построением или доказательством."
         }
       ],
       "question": {
-        "en": "Find and justify a rule for 3, 8, 15, 24, 35, …, starting with n=1.",
-        "ru": "Найдите и обоснуйте правило для 3, 8, 15, 24, 35, … при n=1 для первого члена."
+        "en": "The nth pattern is an n-by-(n+2) rectangle of dots. Its counts begin 3,8,15,24,35. Find and justify the rule for n≥1.",
+        "ru": "n-й рисунок — прямоугольник точек n на n+2. Числа точек начинаются с 3,8,15,24,35. Найдите и обоснуйте правило при n≥1."
       },
       "answer": {
         "en": "First differences: 5,7,9,11; second differences: 2,2,2, so a=1. Subtracting n² leaves 2,4,6,8,10=2n. Thus uₙ=n²+2n=n(n+2). If the pattern is an n-by-(n+2) rectangle of dots, counting rows and columns justifies the rule for every positive integer n.",
@@ -428,6 +698,42 @@
         {
           "en": "I test a new term and explain why the rule works.",
           "ru": "Я проверяю новый член и объясняю, почему правило работает."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Quadratic sequence; second difference; explicit and recursive rules",
+          "russianTerm": "Квадратичная последовательность; вторая разность; явное и рекуррентное правило",
+          "contrast": {
+            "en": "A fitted pattern is a conjecture until its assumptions or construction establish it.",
+            "ru": "Подобранная закономерность остаётся гипотезой, пока её не обосновывают условия или построение."
+          },
+          "sources": [
+            {
+              "title": "Oscar Levin — 4.3 Polynomial Sequences — Higher Degree Polynomials",
+              "url": "https://discrete.openmathbooks.org/dmoi4/sec_seq-polynomial.html",
+              "language": "en",
+              "section": "4.3 Polynomial Sequences — Higher Degree Polynomials"
+            },
+            {
+              "title": "13.2 Arithmetic Sequences",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-2-arithmetic-sequences",
+              "language": "en",
+              "section": "13.2 Arithmetic Sequences"
+            },
+            {
+              "title": "5.1 Quadratic Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+              "language": "en",
+              "section": "5.1 Quadratic Functions"
+            },
+            {
+              "title": "Oscar Levin — Discrete Mathematics: An Open Introduction",
+              "url": "https://discrete.openmathbooks.org/dmoi4/sec_logic-proofs.html",
+              "language": "en",
+              "section": "1.4 Proofs: direct proof and contradiction"
+            }
+          ]
         }
       ]
     },
@@ -444,12 +750,12 @@
       ],
       "paragraphs": [
         {
-          "en": "In degrees, sin x and cos x have period 360° and range [−1,1]. sin x=0 at 0°,180°,360°; cos x=1 at 0°, 0 at 90°, −1 at 180°. tan x has period 180° and vertical asymptotes at 90°+180°k.",
-          "ru": "В градусах sin x и cos x имеют период 360° и значения [−1,1]. sin x=0 при 0°,180°,360°; cos x равен 1 при 0°, 0 при 90°, −1 при 180°. Период tan x — 180°, асимптоты 90°+180°k."
+          "en": "A periodic function repeats after a fixed positive input shift; the period normally means the smallest such shift. In degrees, sin x and cos x have period 360° and range [−1,1]. Their unit-circle definitions allow all real angles. tan x=sin x/cos x has period 180° and excludes x=90°+180°k, k∈ℤ, where it has vertical asymptotes.",
+          "ru": "Периодическая функция повторяется при фиксированном положительном сдвиге аргумента; периодом обычно называют наименьший такой сдвиг. В градусах sin x и cos x имеют период 360° и область значений [−1,1]. Определения через единичную окружность допускают все действительные углы. tan x=sin x/cos x имеет период 180° и не определён при x=90°+180°k, k∈ℤ; там вертикальные асимптоты."
         },
         {
-          "en": "For y=a sin(bx)+d, amplitude is |a|, period is 360°/|b|, and midline is y=d. Solve within the stated domain and check calculator degree/radian mode.",
-          "ru": "Для y=a sin(bx)+d амплитуда |a|, период 360°/|b|, средняя линия y=d. Решайте на указанном промежутке и проверяйте режим градусов/радиан."
+          "en": "For y=a sin(bx)+d with a,b≠0, amplitude is |a|, midline is y=d, range is [d−|a|,d+|a|], and period is 360°/|b| in degrees or 2π/|b| in radians. If a=0 or b=0 the function is constant and has no smallest positive period. An inverse-trig calculator gives a principal value; use symmetry and periodicity to find all solutions in the requested interval.",
+          "ru": "Для y=a sin(bx)+d при a,b≠0 амплитуда |a|, средняя линия y=d, область значений [d−|a|,d+|a|], период 360°/|b| в градусах или 2π/|b| в радианах. При a=0 или b=0 функция постоянна и не имеет наименьшего положительного периода. Обратная функция на калькуляторе даёт главное значение; остальные решения на заданном промежутке находят по симметрии и периодичности."
         }
       ],
       "question": {
@@ -464,6 +770,42 @@
         {
           "en": "I find all solutions in the required interval.",
           "ru": "Я нахожу все решения на заданном промежутке."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Sine, cosine, tangent; period; amplitude; midline",
+          "russianTerm": "Синус, косинус, тангенс; период; амплитуда; средняя линия",
+          "contrast": {
+            "en": "Amplitude is a nonnegative vertical distance; vertical shift changes the midline, not amplitude.",
+            "ru": "Амплитуда — неотрицательное вертикальное расстояние; сдвиг меняет среднюю линию, а не амплитуду."
+          },
+          "sources": [
+            {
+              "title": "Фоксфорд Учебник — Свойства и график синуса",
+              "url": "https://foxford.ru/wiki/matematika/svoistva-funktsiy-sin",
+              "language": "ru",
+              "section": "Периодичность и область значений"
+            },
+            {
+              "title": "Фоксфорд Учебник — Свойства и график косинуса",
+              "url": "https://foxford.ru/wiki/matematika/grafikcos",
+              "language": "ru",
+              "section": "Периодичность и область значений"
+            },
+            {
+              "title": "Фоксфорд Учебник — Свойства и график тангенса",
+              "url": "https://foxford.ru/wiki/matematika/grafiktangensa",
+              "language": "ru",
+              "section": "Периодичность; исключённые значения аргумента"
+            },
+            {
+              "title": "3.5 Transformation of Functions",
+              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+              "language": "en",
+              "section": "3.5 Transformation of Functions"
+            }
+          ]
         }
       ]
     },
@@ -480,20 +822,20 @@
       ],
       "paragraphs": [
         {
-          "en": "n=m/M; c=n/V with V in dm³ for mol dm⁻³. For a gas use n=V/Vₘ with the molar volume supplied for the stated conditions; do not assume 24 dm³ mol⁻¹ under all conditions. Convert cm³ to dm³ by dividing by 1000.",
-          "ru": "n=m/M; c=n/V, где V в дм³ для моль/дм³. Для газа n=V/Vₘ; используйте молярный объём при заданных условиях, не считайте 24 дм³/моль универсальной константой. См³ переводят в дм³ делением на 1000."
+          "en": "Amount of substance n counts specified entities in moles; molar mass M is mass per mole, so n = m/M. Molar concentration c is the amount of solute divided by the total solution volume: c = n/V. Use dm³ with mol/dm³; 1 dm³ = 1000 cm³. Gas molar volume Vₘ depends on temperature and pressure; use n = V/Vₘ only with the appropriate Vₘ.",
+          "ru": "Количество вещества n характеризует число указанных частиц в молях; молярная масса M — масса на моль, поэтому n = m/M. Молярная концентрация c — количество растворённого вещества, делённое на полный объём раствора: c = n/V. Для моль/дм³ берите дм³; 1 дм³ = 1000 см³. Молярный объём газа Vₘ зависит от температуры и давления; в n = V/Vₘ подставляйте значение для нужных условий."
         },
         {
-          "en": "To find an empirical formula, convert each elemental mass or percentage to moles, divide by the smallest amount, then scale to the smallest whole-number ratio. Molecular formula requires the compound molar mass as well.",
-          "ru": "Для эмпирической формулы переведите массы или проценты элементов в моли, разделите на наименьшее и приведите к минимальному целочисленному отношению. Для молекулярной формулы нужна ещё молярная масса вещества."
+          "en": "An empirical formula gives the simplest whole-number ratio of atoms of each element in a compound. Convert element masses (or masses in a 100 g sample from percentages) into moles, divide by the smallest amount, then scale the ratio to whole numbers. A molecular formula gives the actual numbers in one molecule and also requires its molar mass.",
+          "ru": "Эмпирическая формула показывает простейшее целочисленное отношение атомов элементов в соединении. Переведите массы элементов (или массы в 100 г вещества по процентам) в моли, разделите на наименьшее количество и приведите отношение к целым числам. Молекулярная формула даёт действительные числа атомов в молекуле; для её нахождения нужна ещё молярная масса."
         },
         {
-          "en": "Percentage yield=actual/theoretical yield×100. Atom economy=stoichiometric mass of desired product/stoichiometric mass of all products×100. Use balanced coefficients; yield describes the practical result, atom economy the reaction design.",
-          "ru": "Выход %=фактический/теоретический выход×100. Атомная экономичность=стехиометрическая масса целевого продукта/масса всех продуктов×100. Учитывайте коэффициенты; выход описывает практический результат, экономичность — саму реакцию."
+          "en": "Percentage yield compares product actually obtained with the maximum predicted from the limiting reactant: actual/theoretical × 100%. Atom economy compares the stoichiometric mass of the desired product with that of all products: desired/all × 100%. Include balanced coefficients. Yield describes an experimental outcome; atom economy describes how the reaction distributes reactant atoms.",
+          "ru": "Процентный выход сравнивает реально полученный продукт с максимумом по лимитирующему реагенту: фактический/теоретический × 100%. Атомная экономичность сравнивает стехиометрическую массу целевого продукта с массой всех продуктов: целевой/все × 100%. Учитывайте коэффициенты. Выход описывает результат опыта, атомная экономичность — распределение атомов реагентов между продуктами."
         },
         {
-          "en": "Titration reasoning: obtain concordant titres, calculate moles of the known solution, use the balanced reaction ratio, then divide the unknown moles by its volume. c₁V₁=c₂V₂ only applies directly to a 1:1 reaction. Practical procedures require teacher supervision.",
-          "ru": "Расчёт титрования: используйте согласованные объёмы, найдите моли известного раствора, примените соотношение из уравнения, затем разделите неизвестные моли на объём. c₁V₁=c₂V₂ напрямую применимо только к реакции 1:1. Практику выполняют с учителем."
+          "en": "Titration determines an unknown concentration by measuring the volume of a solution of known concentration that reacts with it. The equivalence point is the stoichiometric completion; an indicator endpoint is an observed colour change near it. Use concordant titres, n = cV and the balanced mole ratio. The shortcut c₁V₁ = c₂V₂ requires a 1:1 ratio.",
+          "ru": "Титрование определяет неизвестную концентрацию по измеренному объёму раствора известной концентрации, который с ним реагирует. Точка эквивалентности соответствует стехиометрическому соотношению; индикаторная конечная точка — наблюдаемая смена цвета около неё. Используйте согласованные объёмы, n = cV и коэффициенты уравнения. Сокращённая запись c₁V₁ = c₂V₂ требует отношения 1:1."
         }
       ],
       "question": {
@@ -513,6 +855,113 @@
           "en": "I distinguish yield from atom economy.",
           "ru": "Я различаю выход и атомную экономичность."
         }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Reaction calculations",
+          "russianTerm": "Расчёт реакций",
+          "contrast": {
+            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
+            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+              "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+              "language": "en",
+              "section": "3.1 Formula Mass and the Mole Concept"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+              "language": "en",
+              "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+            },
+            {
+              "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+              "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+              "language": "ru",
+              "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+            }
+          ],
+          "visual": {
+            "kind": "flow",
+            "title": {
+              "en": "Mass-to-mass stoichiometry",
+              "ru": "Расчёт массы по уравнению"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "Known mass → amount",
+                  "ru": "Известная масса → количество"
+                },
+                "detail": {
+                  "en": "n(reactant) = m / M.",
+                  "ru": "n(реагента) = m / M."
+                }
+              },
+              {
+                "label": {
+                  "en": "Balanced equation ratio",
+                  "ru": "Отношение коэффициентов"
+                },
+                "detail": {
+                  "en": "n(product) = n(reactant) × b/a.",
+                  "ru": "n(продукта) = n(реагента) × b/a."
+                }
+              },
+              {
+                "label": {
+                  "en": "Amount → product mass",
+                  "ru": "Количество → масса продукта"
+                },
+                "detail": {
+                  "en": "m(product) = n(product) × M(product).",
+                  "ru": "m(продукта) = n(продукта) × M(продукта)."
+                }
+              }
+            ],
+            "caption": {
+              "en": "a and b are balanced coefficients. Check the limiting reactant when several amounts are supplied.",
+              "ru": "a и b — коэффициенты уравнения. Если даны количества нескольких реагентов, найдите лимитирующий."
+            }
+          }
+        },
+        {
+          "englishTerm": "Titration; yield; empirical formula",
+          "russianTerm": "Титрование; выход; эмпирическая формула",
+          "contrast": {
+            "en": "An endpoint is observed; equivalence is stoichiometric. Empirical formulas give ratios, molecular formulas give atom counts.",
+            "ru": "Конечную точку наблюдают; эквивалентность задаётся стехиометрией. Эмпирическая формула даёт отношение, молекулярная — число атомов."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+              "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+              "language": "en",
+              "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+              "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+              "language": "en",
+              "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+              "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+              "language": "en",
+              "section": "3.1 Formula Mass and the Mole Concept"
+            },
+            {
+              "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+              "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+              "language": "ru",
+              "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+            }
+          ]
+        }
       ]
     },
     {
@@ -528,16 +977,16 @@
       ],
       "paragraphs": [
         {
-          "en": "Nanoparticles typically have dimensions of about 1–100 nm. As a particle gets smaller, its surface-area-to-volume ratio increases. For a cube of side a, SA:V=6/a, so halving a doubles the ratio.",
-          "ru": "Размер наночастиц обычно около 1–100 нм. Чем меньше частица, тем выше отношение площади поверхности к объёму. Для куба со стороной a: S/V=6/a; уменьшение a вдвое удваивает отношение."
+          "en": "A nanoparticle is a small particle with characteristic dimensions typically about 1–100 nm; 1 nm = 10⁻⁹ m. Surface-area-to-volume ratio compares exposed area with bulk volume. For a cube of side a, area = 6a² and volume = a³, so S/V = 6/a, with units of inverse length. Halving a doubles this ratio.",
+          "ru": "Наночастица — малая частица с характерными размерами обычно около 1–100 нм; 1 нм = 10⁻⁹ м. Отношение поверхности к объёму сравнивает доступную площадь с объёмом вещества. Для куба со стороной a площадь 6a², объём a³, поэтому S/V = 6/a; единица — обратная длина. При уменьшении a вдвое отношение удваивается."
         },
         {
-          "en": "A greater exposed surface can improve catalytic activity per mass. Use the specific material and application to discuss benefits and risks; being small does not mean every nanoparticle is either safe or harmful. Distinguish measured evidence from an unsupported health claim.",
-          "ru": "Большая доступная поверхность может повысить каталитическую активность на единицу массы. Пользу и риски обсуждают для конкретного вещества и применения; малый размер не означает автоматически безопасность или вред. Отличайте измеренные данные от неподтверждённого заявления."
+          "en": "A catalyst increases reaction rate through an alternative mechanism and is regenerated overall. For the same mass and density, smaller separate particles can expose more active sites; aggregation or surface coatings can reduce access. Benefits and biological effects depend on material, size, dose and exposure, so “nano” alone does not establish safety or harm.",
+          "ru": "Катализатор повышает скорость реакции благодаря другому механизму и в сумме восстанавливается. При одинаковой массе и плотности более мелкие отдельные частицы могут открывать больше активных центров; слипание и покрытия уменьшают доступ. Польза и биологические эффекты зависят от вещества, размера, дозы и контакта, поэтому слово «нано» само по себе не доказывает безопасность или вред."
         },
         {
-          "en": "An ionic bond is electrostatic attraction between oppositely charged ions. Electron transfer explains how ions can form; it is not itself the bond. Connect structure, mobile charge carriers and energy needed to separate particles to explain material properties.",
-          "ru": "Ионная связь — электростатическое притяжение противоположно заряженных ионов. Перенос электронов объясняет образование ионов, но сам не является связью. Объясняйте свойства через структуру, подвижные носители заряда и энергию разделения частиц."
+          "en": "Ionic bonding is electrostatic attraction between positive and negative ions. Electron transfer is one way to form those ions; it is not the attraction itself. A bulk ionic solid is an extended lattice, not a collection of separate NaCl molecules. Mobile ions explain conduction in melts and suitable solutions, while ions in the solid are fixed around lattice positions.",
+          "ru": "Ионная связь — электростатическое притяжение положительных и отрицательных ионов. Перенос электронов — один из способов образования ионов, но не само притяжение. Объёмный ионный кристалл — протяжённая решётка, а не набор отдельных молекул NaCl. Подвижные ионы обеспечивают проводимость расплава и подходящего раствора; в твёрдом веществе ионы удерживаются около узлов решётки."
         }
       ],
       "question": {
@@ -552,6 +1001,64 @@
         {
           "en": "I link size to SA:V and a specific application.",
           "ru": "Я связываю размер, S/V и конкретное применение."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Nanoparticle; surface-area-to-volume ratio",
+          "russianTerm": "Наночастица; отношение поверхности к объёму",
+          "contrast": {
+            "en": "S/V is not surface area alone. At equal density, larger S/V gives more surface per mass, if particles remain accessible.",
+            "ru": "S/V — не сама площадь поверхности. При равной плотности большее S/V даёт больше поверхности на массу, если частицы доступны."
+          },
+          "sources": [
+            {
+              "title": "US National Nanotechnology Initiative — About Nanotechnology",
+              "url": "https://www.nano.gov/about-nanotechnology/",
+              "language": "en",
+              "section": "Nanotechnology definition; nanoscale and material properties"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+              "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+              "language": "en",
+              "section": "12.5 Collision Theory: activation energy and orientation"
+            },
+            {
+              "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+              "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+              "language": "ru",
+              "section": "Скорость химической реакции: влияющие факторы"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Ionic bonding",
+          "russianTerm": "Ионная связь",
+          "contrast": {
+            "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
+            "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+              "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+              "language": "en",
+              "section": "7.1 Ionic Bonding: formation of ionic compounds"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+              "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+              "language": "en",
+              "section": "7.2 Covalent Bonding: shared electrons"
+            },
+            {
+              "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+              "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+              "language": "en",
+              "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+            }
+          ]
         }
       ]
     },
@@ -572,12 +1079,12 @@
           "ru": "Повторение лабораторных тестов с учителем: йод с крахмалом даёт сине-чёрный цвет; Benedict’s при нагревании — осадок от зелёного до кирпично-красного для восстанавливающих сахаров; Biuret — фиолетовый цвет с белком; эмульсионный тест с этанолом — белую мутную эмульсию с липидами. Нужны контрольные образцы."
         },
         {
-          "en": "An enzyme’s active site binds a suitable substrate and lowers activation energy. Cold usually slows collisions reversibly; excessive heat or unsuitable pH can alter the active site. Substrate concentration increases rate only until the enzyme becomes saturated.",
-          "ru": "Активный центр фермента связывает подходящий субстрат и снижает энергию активации. Холод обычно обратимо замедляет столкновения; перегрев или неподходящий pH могут изменить активный центр. Увеличение субстрата повышает скорость только до насыщения фермента."
+          "en": "An enzyme is a biological catalyst: it accelerates a reaction by lowering its activation barrier and is regenerated. Its active site binds suitable substrates; the substrate is the reacting substance, while the product is formed. Low temperature usually slows the reaction reversibly. Excessive heat or unsuitable pH may change protein structure (denaturation). At fixed enzyme amount, adding substrate eventually gives little further rate increase as active sites become occupied.",
+          "ru": "Фермент — биологический катализатор: он ускоряет реакцию, снижая активационный барьер, и восстанавливается. Его активный центр связывает подходящие субстраты; субстрат — реагирующее вещество, продукт — образующееся. Низкая температура обычно обратимо замедляет реакцию. Перегрев или неподходящий pH могут изменить структуру белка — вызвать денатурацию. При постоянном количестве фермента добавление субстрата со временем почти перестаёт увеличивать скорость из-за занятости активных центров."
         },
         {
-          "en": "In a food-energy experiment, energy transferred to water Q=mcΔT. Divide by food mass burned for energy per gram. Heat lost to the surroundings and incomplete combustion make this an underestimate of the food’s energy content.",
-          "ru": "В опыте с энергией пищи: Q=mcΔT для нагреваемой воды. Разделите на массу сгоревшей пищи, чтобы получить энергию на грамм. Потери тепла и неполное сгорание занижают оценку."
+          "en": "Calorimetry estimates energy transfer from a measured temperature change. For heated water, q = mcΔT, where m is water mass, c its specific heat capacity and ΔT its temperature rise. Divide q by food mass burned to estimate transferred energy per gram. Heat lost to the apparatus and surroundings, and incomplete combustion, normally make this classroom estimate lower than total combustion energy.",
+          "ru": "Калориметрия оценивает передачу энергии по измеренному изменению температуры. Для нагретой воды q = mcΔT: m — её масса, c — удельная теплоёмкость, ΔT — повышение температуры. Разделите q на массу сгоревшей пищи, чтобы оценить переданную энергию на грамм. Нагрев прибора, потери в среду и неполное сгорание обычно занижают учебную оценку по сравнению с полной энергией сгорания."
         }
       ],
       "question": {
@@ -585,8 +1092,8 @@
         "ru": "100 г воды нагрелись на 12°C при сгорании 0,50 г пищи. c=4,2 Дж/(г·°C). Найдите измеренную энергию на грамм и предложите улучшение."
       },
       "answer": {
-        "en": "Q=100×4.2×12=5040 J. Per gram=5040/0.50=10080 J g⁻¹=10.08 kJ g⁻¹. Insulation and a draught shield can reduce heat loss; repeat measurements to assess variation.",
-        "ru": "Q=100×4,2×12=5040 Дж. На грамм: 5040/0,50=10080 Дж/г=10,08 кДж/г. Изоляция и защита от сквозняка уменьшают потери; повторы помогают оценить разброс."
+        "en": "q = 100 × 4.2 × 12 = 5040 J. Per gram: 5040/0.50 = 10080 J/g = 10.08 kJ/g before rounding (about 10 kJ/g to two significant figures). Insulation and a draught shield reduce heat loss; repeats help estimate variation but do not remove systematic heat loss.",
+        "ru": "q = 100 × 4,2 × 12 = 5040 Дж. На грамм: 5040/0,50 = 10080 Дж/г = 10,08 кДж/г до округления (около 10 кДж/г с двумя значащими цифрами). Изоляция и защита от сквозняка уменьшают потери; повторы оценивают разброс, но не устраняют систематические потери теплоты."
       },
       "checks": [
         {
@@ -596,6 +1103,56 @@
         {
           "en": "I state test result, inference and limitation.",
           "ru": "Я указываю результат теста, вывод и ограничение."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Enzyme; substrate; active site",
+          "russianTerm": "Фермент; субстрат; активный центр",
+          "contrast": {
+            "en": "A catalyst is regenerated; it changes rate, not the reaction equilibrium. Cold inhibition does not necessarily mean denaturation.",
+            "ru": "Катализатор восстанавливается; он меняет скорость, а не равновесие. Замедление на холоде не обязательно означает денатурацию."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Biology 2e — 6.5 Enzymes: active site, specificity, temperature and pH",
+              "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+              "language": "en",
+              "section": "6.5 Enzymes: active site, specificity, temperature and pH"
+            },
+            {
+              "title": "OpenStax Biology 2e — 34.3 Digestive System Processes: ingestion, digestion and absorption",
+              "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+              "language": "en",
+              "section": "34.3 Digestive System Processes: ingestion, digestion and absorption"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Calorimetry",
+          "russianTerm": "Калориметрия",
+          "contrast": {
+            "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
+            "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+              "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+              "language": "en",
+              "section": "5.2 Calorimetry: heat transfer and temperature change"
+            },
+            {
+              "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+              "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+              "language": "ru",
+              "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+            }
+          ],
+          "model": {
+            "en": "Ignoring heat losses and vessel heat capacity: q(solution) = mcΔT and q(reaction) = −q(solution). Russian Q for heat released can have the opposite sign to reaction ΔH.",
+            "ru": "При пренебрежении потерями и теплоёмкостью сосуда: q(раствора) = mcΔT, q(реакции) = −q(раствора). Русское Q выделившейся теплоты может иметь знак, противоположный ΔH реакции."
+          }
         }
       ]
     },
@@ -613,16 +1170,16 @@
       ],
       "paragraphs": [
         {
-          "en": "Osmosis is net movement of water through a partially permeable membrane from higher to lower water potential. Percentage mass change=(final−initial)/initial×100. Use equal starting dimensions and control time and temperature in a tissue experiment.",
-          "ru": "Осмос — суммарное движение воды через частично проницаемую мембрану из области более высокого водного потенциала в область более низкого. Изменение массы %=(конечная−начальная)/начальная×100. В опыте контролируют размеры, время и температуру."
+          "en": "Osmosis is net water transfer across a selectively permeable membrane from higher to lower water potential. At equal pressure, this commonly means transfer towards the side with more dissolved solute that cannot cross the membrane. In a tissue experiment, percentage mass change = (final − initial)/initial × 100%; control dimensions, exposure time and temperature.",
+          "ru": "Осмос — суммарный перенос воды через избирательно проницаемую мембрану от более высокого водного потенциала к более низкому. При равном давлении это обычно перенос к стороне с большей концентрацией вещества, не проходящего через мембрану. Для ткани изменение массы = (конечная − начальная)/начальная × 100%; контролируйте размеры, длительность и температуру."
         },
         {
-          "en": "Plot percentage mass change against solution concentration. The zero crossing estimates the concentration producing no net mass change under those conditions. It is an estimate, not proof that no water molecules move.",
-          "ru": "Постройте зависимость изменения массы в процентах от концентрации. Пересечение с нулём оценивает концентрацию без суммарного изменения массы в этих условиях. Это не означает отсутствия движения молекул воды."
+          "en": "The zero crossing on a graph of percentage mass change against solution concentration estimates the condition giving no net mass gain in the experiment. Water molecules still move both ways. The estimate depends on measurement uncertainty and whether mass changes mainly reflect water rather than solute exchange or tissue damage.",
+          "ru": "Нулевое пересечение графика изменения массы в процентах от концентрации оценивает условие без суммарного прироста массы в опыте. Молекулы воды продолжают двигаться в обе стороны. Оценка зависит от погрешности и от того, связаны ли изменения массы главным образом с водой, а не с переносом растворённых веществ или повреждением ткани."
         },
         {
-          "en": "Drug development evaluates safety and effectiveness through preclinical work and successive clinical stages. Random allocation reduces group differences; blinding reduces expectation bias; an appropriate comparator helps interpret the treatment effect. Ethical constraints can prevent placebo use. Antibiotics target bacteria, not viruses.",
-          "ru": "Разработка лекарств включает доклиническую работу и последовательные клинические этапы проверки безопасности и эффективности. Случайное распределение уменьшает различия групп, ослепление — влияние ожиданий, корректное сравнение помогает оценить эффект. Плацебо не всегда этически допустимо. Антибиотики действуют на бактерии, не на вирусы."
+          "en": "A clinical trial evaluates an intervention in people using defined outcomes, after appropriate preclinical work. Random allocation reduces systematic group differences; blinding reduces influences of expectations; a comparator helps estimate the intervention’s effect. A trial assesses both benefits and harms and does not prove universal safety. Antibiotics act against susceptible bacteria, not viruses.",
+          "ru": "Клиническое исследование оценивает вмешательство у людей по определённым показателям после соответствующей доклинической работы. Случайное распределение уменьшает систематические различия групп, ослепление — влияние ожиданий, группа сравнения помогает оценить эффект. Исследование оценивает пользу и вред, а не доказывает универсальную безопасность. Антибиотики действуют на чувствительные бактерии, а не вирусы."
         }
       ],
       "question": {
@@ -642,6 +1199,64 @@
           "en": "I explain what the evidence can and cannot support.",
           "ru": "Я объясняю, какие выводы поддерживаются данными."
         }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Osmosis",
+          "russianTerm": "Осмос",
+          "contrast": {
+            "en": "Particles keep moving at equilibrium; equal opposing transfers give zero net movement.",
+            "ru": "При равновесии частицы продолжают двигаться; равные встречные потоки дают нулевой суммарный перенос."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Biology 2e — 5.2 Passive Transport: diffusion, facilitated transport, osmosis",
+              "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+              "language": "en",
+              "section": "5.2 Passive Transport: diffusion, facilitated transport, osmosis"
+            },
+            {
+              "title": "OpenStax Biology 2e — 5.3 Active Transport: electrochemical gradients; primary and secondary transport",
+              "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+              "language": "en",
+              "section": "5.3 Active Transport: electrochemical gradients; primary and secondary transport"
+            },
+            {
+              "title": "Фоксфорд Учебник — Осмос и осморегуляция: перенос воды через мембрану",
+              "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
+              "language": "ru",
+              "section": "Осмос и осморегуляция: перенос воды через мембрану"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Clinical trial; randomisation; blinding",
+          "russianTerm": "Клиническое исследование; рандомизация; ослепление",
+          "contrast": {
+            "en": "One measurement without a relevant comparison cannot establish a treatment effect. Randomisation reduces bias; it does not guarantee identical groups.",
+            "ru": "Одно измерение без подходящего сравнения не устанавливает эффект лечения. Рандомизация уменьшает смещение, а не гарантирует одинаковые группы."
+          },
+          "sources": [
+            {
+              "title": "US FDA — Step 3: Clinical Research",
+              "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+              "language": "en",
+              "section": "Clinical research phases and study design"
+            },
+            {
+              "title": "OpenStax Biology 2e — 1.1 The Science of Biology: the scientific method",
+              "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+              "language": "en",
+              "section": "1.1 The Science of Biology: the scientific method"
+            },
+            {
+              "title": "ВОЗ — Устойчивость к противомикробным препаратам",
+              "url": "https://www.who.int/ru/news-room/fact-sheets/detail/antimicrobial-resistance",
+              "language": "ru",
+              "section": "Общая информация и причины устойчивости"
+            }
+          ]
+        }
       ]
     },
     {
@@ -657,12 +1272,12 @@
       ],
       "paragraphs": [
         {
-          "en": "Weathering breaks down rock in place: physical processes such as freeze–thaw, chemical reactions such as carbonation, and biological action such as root growth. Erosion removes material; transportation moves it; deposition occurs when transport capacity falls.",
-          "ru": "Выветривание разрушает породу на месте: физическое — например замерзание воды в трещинах; химическое — например карбонизация; биологическое — рост корней. Эрозия удаляет материал, транспорт переносит, аккумуляция откладывает при снижении переносной способности."
+          "en": "Weathering alters or breaks down rock in place. Physical weathering fractures it, for example when water freezes in suitable cracks; chemical weathering changes minerals through reactions such as dissolution. Organisms can contribute to both. Erosion removes material and transportation carries it. Deposition of particles occurs when they settle or are left behind; dissolved substances may precipitate through chemical changes.",
+          "ru": "Выветривание изменяет или разрушает породу на месте. Физическое выветривание дробит её, например при замерзании воды в подходящих трещинах; химическое изменяет минералы через реакции, включая растворение. Организмы могут участвовать в обоих процессах. Эрозия удаляет материал, транспортировка переносит его. Частицы откладываются при оседании или прекращении переноса; растворённые вещества могут выпадать в осадок при химических изменениях."
         },
         {
-          "en": "River discharge Q=cross-sectional area×mean velocity. Hydraulic radius=cross-sectional area/wetted perimeter. With other conditions comparable, a higher hydraulic radius implies less boundary friction per unit flow area. Do not equate hydraulic action with hydraulic radius.",
-          "ru": "Расход реки Q=площадь поперечного сечения×средняя скорость. Гидравлический радиус=площадь сечения/смоченный периметр. При прочих равных больший радиус означает меньшее граничное трение на единицу площади потока. Не путайте его с hydraulic action."
+          "en": "Discharge Q = A × mean velocity: the volume passing a cross-section each second, measured in m³/s. Velocity is measured in m/s. Hydraulic radius R = A/P, where A is flow cross-sectional area and P is the wetted perimeter (excluding the free water surface); R has units of length. With slope and roughness comparable, greater R generally permits faster flow. Hydraulic action instead describes erosion by water force.",
+          "ru": "Расход Q = A × средняя скорость: объём воды, проходящий через сечение за секунду, в м³/с. Скорость измеряют в м/с. Гидравлический радиус R = A/P, где A — площадь сечения потока, а P — смоченный периметр без свободной поверхности воды; R имеет размерность длины. При сопоставимых уклоне и шероховатости больший R обычно способствует более быстрому течению. Hydraulic action обозначает эрозионное действие силы воды."
         },
         {
           "en": "For untied ranks, Spearman rₛ=1−6Σd²/[n(n²−1)]. Rank both variables consistently and compute rank differences. Ties need average ranks and an appropriate method; the simplified formula needs care. A coefficient alone does not establish statistical significance: use sample size, test direction and a matching critical-values table.",
@@ -686,6 +1301,74 @@
           "en": "I separate association, significance and causation.",
           "ru": "Я различаю связь, статистическую значимость и причинность."
         }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Weathering / erosion / deposition",
+          "russianTerm": "Выветривание / эрозия / аккумуляция",
+          "contrast": {
+            "en": "Change in place, removal and accumulation describe different processes; organisms can cause both mechanical and chemical weathering.",
+            "ru": "Изменение на месте, удаление и накопление — разные процессы; организмы вызывают как физическое, так и химическое выветривание."
+          },
+          "sources": [
+            {
+              "title": "Steven Earle — Physical Geology, 2nd edition",
+              "url": "https://opentextbc.ca/physicalgeology2ed/chapter/5-1-mechanical-weathering/",
+              "language": "en",
+              "section": "5.1 Mechanical weathering: frost wedging and roots"
+            },
+            {
+              "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+              "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+              "language": "en",
+              "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+            },
+            {
+              "title": "Steven Earle — Physical Geology, 2nd edition",
+              "url": "https://opentextbc.ca/physicalgeology2ed/chapter/5-2-chemical-weathering/",
+              "language": "en",
+              "section": "5.2 Chemical weathering; dissolution and hydrolysis"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Hydraulic radius",
+          "russianTerm": "Гидравлический радиус",
+          "contrast": {
+            "en": "R = A/P describes channel geometry; hydraulic action describes erosion. The free water surface is not part of P.",
+            "ru": "R = A/P описывает геометрию потока; hydraulic action — эрозию. Свободная поверхность воды не входит в P."
+          },
+          "sources": [
+            {
+              "title": "Wei, Cheng & Lu — Revisiting the concept of hydraulic radius",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0022169423010764",
+              "language": "en",
+              "section": "Introduction, equation (1): R = A/P; definition and limitations"
+            },
+            {
+              "title": "OpenStax — College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity",
+              "language": "en",
+              "section": "12.1 Flow rate and its relation to velocity; equations 12.1–12.3"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Spearman rank correlation",
+          "russianTerm": "Ранговая корреляция Спирмена",
+          "contrast": {
+            "en": "The coefficient measures monotonic association, not causation; statistical significance is a separate question. A constant variable has no defined rank correlation.",
+            "ru": "Коэффициент измеряет монотонную связь, а не причинность; статистическая значимость — отдельный вопрос. Для постоянной переменной ранговая корреляция не определена."
+          },
+          "sources": [
+            {
+              "title": "SciPy scientific documentation — Spearman rank correlation",
+              "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html",
+              "language": "en",
+              "section": "Definition, alternative hypotheses and small-sample permutation-test example"
+            }
+          ]
+        }
       ]
     },
     {
@@ -703,29 +1386,29 @@
       ],
       "paragraphs": [
         {
-          "en": "Build a focused research question with a measurable independent and dependent variable. Predict a relationship and explain the science. State how each control is maintained, the measurement range and intervals, repeats and relevant safety measures.",
-          "ru": "Сформулируйте узкий вопрос с измеряемыми независимой и зависимой переменными. Предскажите связь и объясните её научно. Укажите способ контроля, диапазон, интервалы, повторы и меры безопасности."
+          "en": "Start with a testable question. In a controlled experiment, change one independent variable, measure a dependent response and keep relevant other conditions comparable. The independent variable may be a category, such as material type. State the measurement range, intervals, repeats and relevant precautions.",
+          "ru": "Начните с проверяемого вопроса. В контролируемом опыте изменяют независимую переменную, измеряют зависимый результат и сохраняют сопоставимыми остальные существенные условия. Независимая переменная может быть категорией, например видом материала. Укажите диапазон, интервалы, повторы и нужные меры предосторожности."
         },
         {
-          "en": "Keep raw measurements separate from processed results. Label axes and units, choose sensible scales and show variation. Use data to support the conclusion; report anomalies rather than silently deleting them.",
-          "ru": "Разделяйте исходные измерения и обработанные результаты. Подписывайте оси и единицы, выбирайте масштаб, показывайте разброс. Обосновывайте вывод данными; не удаляйте неудобные измерения молча."
+          "en": "Keep raw measurements and calculated results separate. Give quantities and units in table headings and on graph axes. Preserve unusual results and explain any exclusion. A conclusion should say how well the evidence supports the proposed explanation and what remains uncertain.",
+          "ru": "Разделяйте исходные измерения и вычисленные результаты. Указывайте величины и единицы в заголовках таблиц и на осях графика. Сохраняйте необычные результаты и объясняйте исключения. В выводе укажите, насколько данные поддерживают объяснение и что остаётся неопределённым."
         },
         {
-          "en": "Random error causes scatter; systematic error shifts results consistently. Repeats improve precision of an average but do not remove a systematic offset. An improvement should target the identified mechanism and explain its effect.",
-          "ru": "Случайная ошибка вызывает разброс, систематическая — устойчивое смещение. Повторы уточняют среднее, но не устраняют постоянное смещение. Улучшение должно воздействовать на конкретную причину ошибки."
+          "en": "Comparable independent repeats help estimate scatter. Averaging can reduce the contribution of random variation to the uncertainty of the mean; it does not repair a leak, remove a zero offset or improve the resolution of the instrument. Choose an improvement that addresses the identified cause.",
+          "ru": "Сопоставимые независимые повторы помогают оценить разброс. Усреднение может уменьшить вклад случайных колебаний в неопределённость среднего, но не устраняет утечку, смещение нуля или ограниченную разрешающую способность прибора. Улучшение должно воздействовать на выявленную причину."
         },
         {
-          "en": "For an application argument, explain the scientific mechanism, weigh benefits and limitations for named stakeholders, use evidence, and give a conditional conclusion. This is a practice framework, not an automatic grade or official markscheme.",
-          "ru": "В ответе о применении объясните научный механизм, пользу и ограничения для конкретных участников, приведите данные и обоснованный вывод с условиями. Это схема тренировки, не автоматическая оценка и не официальный markscheme."
+          "en": "When discussing an application, connect the scientific mechanism to evidence, benefits and limitations for the people affected. Make the conclusion conditional on the evidence and assumptions. This is an original practice framework, not a grading rule.",
+          "ru": "Обсуждая применение науки, свяжите механизм с данными, пользой и ограничениями для затронутых людей. Укажите, от каких данных и предположений зависит вывод. Это авторская схема тренировки, а не правило выставления оценки."
         }
       ],
       "question": {
-        "en": "An experiment collects 20, 21 and 19 cm³ of gas in 10 s. Calculate the mean rate. A gas syringe leaks; would repeating more times fix that problem?",
-        "ru": "В опыте за 10 с собрано 20, 21 и 19 см³ газа. Найдите среднюю скорость. Газовый шприц протекает; устранят ли проблему дополнительные повторы?"
+        "en": "Three comparable trials collect 20, 21 and 19 cm³ of gas, each over 10 s. Calculate the mean volume collected per second over that interval. Would more repeats fix a leaking gas syringe?",
+        "ru": "В трёх сопоставимых опытах за 10 с каждый собрано 20, 21 и 19 см³ газа. Найдите средний объём, собираемый за секунду на этом интервале. Исправят ли дополнительные повторы утечку из газового шприца?"
       },
       "answer": {
-        "en": "Mean volume=20 cm³; mean rate=2.0 cm³ s⁻¹ over the interval. A leak systematically underestimates collected gas; repeated leaking trials do not remove that bias. Check and seal the apparatus, then repeat.",
-        "ru": "Средний объём 20 см³; средняя скорость за интервал 2,0 см³/с. Утечка систематически занижает результат; повторение негерметичного опыта не устраняет смещение. Проверьте герметичность и повторите."
+        "en": "Mean volume = (20 + 21 + 19)/3 = 20 cm³. Mean collection rate over 10 s = 20/10 = 2.0 cm³ s⁻¹. This is an interval average, not an instantaneous rate. A leak loses gas and biases the collected volume downwards; repeating with the same leak does not fix that cause. Check the seal and repeat the measurements.",
+        "ru": "Средний объём = (20 + 21 + 19)/3 = 20 см³. Средняя скорость сбора за 10 с = 20/10 = 2,0 см³/с. Это среднее за интервал, не мгновенная скорость. Из-за утечки часть газа теряется и занижает собранный объём; повторы с той же утечкой не устраняют причину. Проверьте герметичность и повторите измерения."
       },
       "checks": [
         {
@@ -735,6 +1418,138 @@
         {
           "en": "Every improvement addresses a specific limitation.",
           "ru": "Каждое улучшение исправляет конкретное ограничение."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Independent, dependent and controlled variables",
+          "russianTerm": "Независимая, зависимая и контролируемые переменные",
+          "explanation": {
+            "en": "Change or compare the independent variable; observe the dependent response; keep relevant controlled variables comparable.",
+            "ru": "Независимую переменную меняют или сравнивают; зависимый результат наблюдают; контролируемые условия поддерживают сопоставимыми."
+          },
+          "contrast": {
+            "en": "A controlled variable is a condition; a control group is a comparison group, for example one receiving no treatment.",
+            "ru": "Контролируемая переменная — условие опыта; контрольная группа — группа для сравнения, например без исследуемого воздействия."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Biology 2e",
+              "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+              "language": "en",
+              "section": "§1.1 The Science of Biology — Hypothesis Testing"
+            }
+          ],
+          "model": {
+            "en": "This describes controlled experiments. In observational studies the investigator may measure variables without manipulating them.",
+            "ru": "Это схема контролируемого опыта. В наблюдательном исследовании переменные могут измерять, не изменяя их специально."
+          }
+        },
+        {
+          "englishTerm": "Hypothesis and prediction",
+          "russianTerm": "Гипотеза и предсказание",
+          "explanation": {
+            "en": "A hypothesis is a testable proposed explanation. A prediction states an outcome expected if that explanation and the test conditions hold.",
+            "ru": "Гипотеза — проверяемое предполагаемое объяснение. Предсказание указывает ожидаемый результат при верности объяснения и условий проверки."
+          },
+          "contrast": {
+            "en": "A supported prediction strengthens an explanation; a single matching result does not prove it beyond doubt.",
+            "ru": "Совпадение с предсказанием поддерживает объяснение, но один результат не доказывает его безусловно."
+          },
+          "sources": [
+            {
+              "title": "OpenStax Biology 2e",
+              "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+              "language": "en",
+              "section": "§1.1 The Science of Biology — Hypothesis Testing"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Accuracy and precision",
+          "russianTerm": "Точность и прецизионность",
+          "explanation": {
+            "en": "Accuracy concerns closeness to the true value. Precision concerns agreement among repeated measurements under specified conditions.",
+            "ru": "Точность связана с близостью к истинному значению. Прецизионность — с близостью повторных результатов при заданных условиях."
+          },
+          "contrast": {
+            "en": "Closely clustered readings can still be biased. In classroom comparisons, a reference value stands in for an unknown true value.",
+            "ru": "Малый разброс не исключает смещения. В школьной проверке вместо неизвестного истинного значения используют опорное."
+          },
+          "sources": [
+            {
+              "title": "OpenStax College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/1-3-accuracy-precision-and-significant-figures",
+              "language": "en",
+              "section": "§1.3 Accuracy, Precision, and Significant Figures"
+            },
+            {
+              "title": "JCGM 200:2012 — International Vocabulary of Metrology",
+              "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf#page=37",
+              "language": "en",
+              "section": "§§2.13–2.19, 2.26; §4.14: accuracy, precision, errors, uncertainty, resolution"
+            }
+          ],
+          "model": {
+            "en": "Precision is often explained informally as repeatability; the measurement conditions must be stated.",
+            "ru": "Precision часто поясняют через повторяемость; обязательно указывают условия измерений."
+          }
+        },
+        {
+          "englishTerm": "Resolution and uncertainty",
+          "russianTerm": "Разрешающая способность и неопределённость",
+          "explanation": {
+            "en": "Resolution is the smallest change the instrument can distinguish. Uncertainty describes the spread of values reasonably assignable to the measured quantity.",
+            "ru": "Разрешающая способность — наименьшее различимое изменение. Неопределённость характеризует разброс значений, обоснованно приписываемых измеряемой величине."
+          },
+          "contrast": {
+            "en": "Extra displayed digits do not guarantee accuracy. Half a scale division is only a simple estimate of reading uncertainty.",
+            "ru": "Дополнительные цифры не гарантируют точность. Половина деления — лишь простая оценка неопределённости отсчёта."
+          },
+          "sources": [
+            {
+              "title": "JCGM 200:2012 — International Vocabulary of Metrology",
+              "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf#page=37",
+              "language": "en",
+              "section": "§§2.13–2.19, 2.26; §4.14: accuracy, precision, errors, uncertainty, resolution"
+            },
+            {
+              "title": "Фоксфорд.Учебник — Погрешность измерений",
+              "url": "https://foxford.ru/wiki/fizika/pogreshnost-izmereniy",
+              "language": "ru",
+              "section": "Абсолютная и относительная погрешности — школьная оценка границ"
+            }
+          ],
+          "model": {
+            "en": "Include relevant calibration, method and observation effects; a school error bound and a statistical standard uncertainty use different conventions.",
+            "ru": "Учитывайте калибровку, метод и наблюдение. Школьная граница погрешности и статистическая стандартная неопределённость — разные соглашения."
+          }
+        },
+        {
+          "englishTerm": "Random and systematic measurement error",
+          "russianTerm": "Случайная и систематическая погрешность",
+          "explanation": {
+            "en": "Random error varies unpredictably between repeats. Systematic error remains constant or varies predictably.",
+            "ru": "Случайная погрешность непредсказуемо меняется при повторах; систематическая остаётся постоянной или меняется закономерно."
+          },
+          "contrast": {
+            "en": "Repeats reveal scatter; calibration or a changed method is needed to identify and correct many biases.",
+            "ru": "Повторы выявляют разброс; для многих смещений нужны калибровка или изменение метода."
+          },
+          "sources": [
+            {
+              "title": "JCGM 200:2012 — International Vocabulary of Metrology",
+              "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf#page=37",
+              "language": "en",
+              "section": "§§2.13–2.19, 2.26; §4.14: accuracy, precision, errors, uncertainty, resolution"
+            },
+            {
+              "title": "Фоксфорд.Учебник — Физический эксперимент",
+              "url": "https://foxford.ru/wiki/fizika/fizicheskiy-eksperiment",
+              "language": "ru",
+              "section": "Оформление экспериментальной работы: таблицы, единицы, графики, погрешности"
+            }
+          ]
         }
       ]
     },
@@ -769,8 +1584,8 @@
         "ru": "Авторская практика. A: “The corridor swallowed her footsteps.” B: “Fluorescent lights illuminated the empty corridor.” Сравните изображение коридора."
       },
       "answer": {
-        "en": "A personifies the corridor through “swallowed”, giving the setting apparent agency and potentially suggesting threat or isolation. B uses a concrete light source and a more detached description. Both present a sparse setting, but the first foregrounds a person’s experience while the second foregrounds the visible environment. Other interpretations need textual support.",
-        "ru": "В A “swallowed” олицетворяет коридор и может создавать ощущение угрозы или одиночества. B называет конкретный источник света и описывает обстановку отстранённее. Оба текста передают пустоту; A выделяет переживание человека, B — видимую среду. Иные трактовки нужно обосновать текстом."
+        "en": "In A, “swallowed” metaphorically gives the corridor the action of a living body: the footsteps seem to disappear into it. This can suggest isolation or menace, but swallowing is not specifically human, so personification is a possible broader reading rather than an unambiguous label. B names a concrete light source and an empty space, creating a more detached description. Explain the wording and context before naming a device; other interpretations need evidence.",
+        "ru": "В A “swallowed” метафорически придаёт коридору действие живого тела: шаги словно исчезают внутри него. Это может передавать одиночество или угрозу, но глотание не исключительно человеческое действие, поэтому олицетворение — возможная широкая трактовка, а не однозначная метка. B называет источник света и пустое пространство, создавая более отстранённое описание. Сначала объясняй слова и контекст, затем называй приём; другие трактовки требуют доказательств."
       },
       "checks": [
         {
@@ -780,6 +1595,115 @@
         {
           "en": "I do not treat Macbeth as a confirmed October text.",
           "ru": "Я не считаю Macbeth подтверждённым текстом октября."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Metaphor",
+          "russianTerm": "Метафора (metaphor)",
+          "contrast": {
+            "en": "Identify both things and the relevant shared feature. A human role applied to an abstraction may also be personification.",
+            "ru": "Назови оба сопоставленных понятия и общий признак. Человеческая роль, приписанная абстракции, может одновременно быть олицетворением."
+          },
+          "sources": [
+            {
+              "title": "Academy of American Poets — Metaphor",
+              "url": "https://poets.org/glossary/metaphor",
+              "section": "Metaphor",
+              "language": "en"
+            },
+            {
+              "title": "Фоксфорд — Метафора (metaphor)",
+              "url": "https://foxford.ru/wiki/literatura/metaphor",
+              "section": "Определение и примеры",
+              "language": "ru"
+            }
+          ],
+          "model": {
+            "en": "Literary analysis: interpretations and effects need textual support.",
+            "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+          }
+        },
+        {
+          "englishTerm": "Personification",
+          "russianTerm": "Олицетворение (personification)",
+          "contrast": {
+            "en": "An action performed by both humans and animals, such as swallowing, may create animation without unambiguously personifying. Explain the image before choosing a label.",
+            "ru": "Действие, доступное и людям, и животным, например глотание, может оживлять образ, но не однозначно олицетворять его. Сначала объясни образ, затем выбирай термин."
+          },
+          "sources": [
+            {
+              "title": "Poetry Foundation — Personification",
+              "url": "https://www.poetryfoundation.org/education/glossary/personification",
+              "section": "Personification",
+              "language": "en"
+            },
+            {
+              "title": "Фоксфорд — Олицетворение (personification)",
+              "url": "https://foxford.ru/wiki/literatura/impersonation",
+              "section": "Определение и примеры",
+              "language": "ru"
+            }
+          ],
+          "model": {
+            "en": "Literary analysis: interpretations and effects need textual support.",
+            "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+          }
+        },
+        {
+          "englishTerm": "Tone and mood",
+          "russianTerm": "Тон и атмосфера текста",
+          "contrast": {
+            "en": "Tone concerns expressed attitude; mood concerns the atmosphere created. A reader’s personal reaction is not automatically the text’s tone.",
+            "ru": "Tone — выраженное отношение; mood — создаваемая атмосфера. Личная реакция читателя не равна тону текста."
+          },
+          "sources": [
+            {
+              "title": "Merriam-Webster — tone",
+              "url": "https://www.merriam-webster.com/dictionary/tone",
+              "section": "Attitude / atmosphere sense",
+              "language": "en"
+            },
+            {
+              "title": "Merriam-Webster — mood",
+              "url": "https://www.merriam-webster.com/dictionary/mood",
+              "section": "Attitude / atmosphere sense",
+              "language": "en"
+            }
+          ],
+          "visual": {
+            "kind": "comparison",
+            "title": {
+              "en": "Attitude and atmosphere",
+              "ru": "Отношение и атмосфера"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "Tone: speaker/text",
+                  "ru": "Tone: говорящий/текст"
+                },
+                "detail": {
+                  "en": "“What a splendid disaster!” — ironic attitude",
+                  "ru": "“What a splendid disaster!” — иронический тон"
+                }
+              },
+              {
+                "label": {
+                  "en": "Mood: scene/reader",
+                  "ru": "Mood: сцена/читатель"
+                },
+                "detail": {
+                  "en": "Empty rooms and echoes may feel unsettling.",
+                  "ru": "Пустые комнаты и эхо могут тревожить."
+                }
+              }
+            ],
+            "caption": {
+              "en": "A text can use an ironic tone while creating an uneasy mood.",
+              "ru": "Иронический тон может сочетаться с тревожной атмосферой."
+            }
+          }
         }
       ]
     },
@@ -814,13 +1738,96 @@
         "ru": "Авторское чтение: “L’année dernière, je voyageais souvent en voiture. Cet été, j’ai pris le train parce que je voulais réduire mon impact sur l’environnement.” Укажите изменение и причину. Добавьте условную фразу о будущем выборе."
       },
       "answer": {
-        "en": "The speaker changed from frequent car travel to taking a train to reduce environmental impact. Possible sentence: “Si j’avais plus de temps, je voyagerais en train plus souvent.” “Si j’aurais” is incorrect here. This is reading and grammar practice; no listening audio is provided.",
-        "ru": "Говорящий сменил частые поездки на машине на поездку поездом ради меньшего воздействия на среду. Возможная фраза: “Si j’avais plus de temps, je voyagerais en train plus souvent.” Здесь нельзя “Si j’aurais”. Это чтение и грамматика; аудиозаписи нет."
+        "en": "The speaker contrasts a former habit of frequent car travel (je voyageais, imparfait) with a particular train journey (j’ai pris, passé composé), motivated by reducing environmental impact. Je voulais gives the background intention. Possible hypothesis: “Si j’avais plus de temps, je voyagerais en train plus souvent.” Here si + imparfait states a hypothetical present/future condition and the conditional states its result; si j’aurais is not the pattern for this meaning. This is reading and grammar practice, not an audio listening test.",
+        "ru": "Говорящий противопоставляет прежнюю привычку часто ездить на машине (je voyageais, imparfait) конкретной поездке на поезде (j’ai pris, passé composé), объясняя её снижением воздействия на среду. Je voulais передаёт намерение как фон. Возможная гипотеза: “Si j’avais plus de temps, je voyagerais en train plus souvent.” Здесь si + imparfait — гипотетическое условие в настоящем/будущем, conditionnel — его следствие; si j’aurais не соответствует этому значению. Это чтение и грамматика, а не аудирование."
       },
       "checks": [
         {
           "en": "I practise all four skills and check my registered level.",
           "ru": "Я тренирую все четыре навыка и уточняю свой уровень."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Passé composé",
+          "russianTerm": "Passé composé: сложное прошедшее",
+          "contrast": {
+            "en": "Passé composé presents past events as a whole; imparfait commonly presents a background state, habit or action in progress. Duration alone does not choose between them.",
+            "ru": "Passé composé представляет прошлое событие в целом; imparfait часто показывает фон, привычку или процесс. Одна длительность не определяет выбор."
+          },
+          "sources": [
+            {
+              "title": "University of Texas — Tex’s French Grammar",
+              "url": "https://laits.utexas.edu/tex/gr/tap2.html",
+              "section": "Uses and formation",
+              "language": "en"
+            },
+            {
+              "title": "University of Texas — Tex’s French Grammar",
+              "url": "https://laits.utexas.edu/tex/gr/tap3.html",
+              "section": "Auxiliary choice and agreement",
+              "language": "en"
+            },
+            {
+              "title": "University of Texas — Tex’s French Grammar",
+              "url": "https://laits.utexas.edu/tex/gr/tap6.html",
+              "section": "Passé composé versus imparfait",
+              "language": "en"
+            }
+          ],
+          "visual": {
+            "kind": "comparison",
+            "title": {
+              "en": "Two views of a past scene",
+              "ru": "Два взгляда на прошлую сцену"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "Il pleuvait…",
+                  "ru": "Il pleuvait…"
+                },
+                "detail": {
+                  "en": "Imparfait: rain is the background.",
+                  "ru": "Imparfait: дождь — фон."
+                }
+              },
+              {
+                "label": {
+                  "en": "…quand je suis sorti.",
+                  "ru": "…quand je suis sorti."
+                },
+                "detail": {
+                  "en": "Passé composé: leaving is a whole event.",
+                  "ru": "Passé composé: выход — событие целиком."
+                }
+              }
+            ],
+            "caption": {
+              "en": "“It was raining when I went out”: a contrast of viewpoint, not simply long versus short.",
+              "ru": "«Шёл дождь, когда я вышел»: различается взгляд на действие, а не просто длина."
+            }
+          }
+        },
+        {
+          "englishTerm": "Si + imparfait → conditionnel",
+          "russianTerm": "Si + imparfait → условная форма",
+          "contrast": {
+            "en": "For a hypothetical present/future condition, use si + imparfait and a conditional result: Si j’avais le temps, je voyagerais. The imparfait here marks the imagined condition, not past time.",
+            "ru": "Для гипотетического условия в настоящем/будущем используются si + imparfait и условная форма следствия: Si j’avais le temps, je voyagerais. Imparfait здесь обозначает воображаемое условие, а не прошлое время."
+          },
+          "model": {
+            "en": "This is one conditional pattern. French also has real conditions and past counterfactual conditions with different tense combinations.",
+            "ru": "Это одна условная модель. Для реальных условий и нереальных условий в прошлом во французском используются другие сочетания форм."
+          },
+          "sources": [
+            {
+              "title": "University of Texas — Tex’s French Grammar: conditional",
+              "url": "https://laits.utexas.edu/tex/gr/tac1.html",
+              "language": "en",
+              "section": "Uses — hypothetical action; formation"
+            }
+          ]
         }
       ]
     },
@@ -838,16 +1845,16 @@
       ],
       "paragraphs": [
         {
-          "en": "Interdisciplinary work combines the methods or ideas of at least two disciplines to build an understanding that one alone would not provide. Naming two subjects is insufficient: explain what each contributes and how their interaction changes the conclusion.",
-          "ru": "Междисциплинарная работа соединяет методы или идеи минимум двух дисциплин для понимания, которого одна дисциплина не даёт. Недостаточно назвать предметы: объясните вклад каждого и то, как их связь меняет вывод."
+          "en": "Interdisciplinary learning integrates knowledge or methods from at least two disciplines to reach an understanding that would be difficult through either alone. Explain what each discipline contributes and what their connection lets you conclude.",
+          "ru": "Междисциплинарное обучение соединяет знания или методы минимум двух дисциплин, чтобы получить понимание, труднодостижимое средствами одной. Объясните вклад каждой и вывод, который даёт их связь."
         },
         {
-          "en": "Use the current criteria: A Evaluating, B Synthesizing, C Reflecting. Consider strengths and limits of each disciplinary perspective, integrate them into a response, and explain how your understanding changed.",
-          "ru": "Актуальные критерии: A Evaluating, B Synthesizing, C Reflecting. Оцените сильные стороны и ограничения дисциплинарных подходов, объедините их в ответ и объясните изменение своего понимания."
+          "en": "The IB subject brief marked “for use from 2021” organises assessment as A Evaluating, B Synthesizing and C Reflecting. Evaluate disciplinary contributions, combine them in an answer or product, then examine how the connection changed your understanding. Use the rubric supplied for your actual assignment.",
+          "ru": "Предметный справочник IB с пометкой «для использования с 2021 года» выделяет A Evaluating, B Synthesizing и C Reflecting. Оцените вклад дисциплин, объедините их в ответе или продукте, затем объясните, как эта связь изменила понимание. Для своего задания используйте выданные критерии."
         },
         {
-          "en": "The school confirms interdisciplinary study for the end of MYP. An October IDL mock and the session’s disciplines/pre-release material are not confirmed in the sources found. Use this general practice without guessing the official session theme.",
-          "ru": "Школа подтверждает междисциплинарный экзамен в конце MYP. Наличие IDL mock в октябре, дисциплины и предварительные материалы сессии найденными источниками не подтверждены. Тренируйте общий навык без угадывания темы."
+          "en": "This lesson is general practice. It does not identify the subjects, theme, date or pre-release materials of a particular school or IB assessment.",
+          "ru": "Это общая тренировка. Она не устанавливает предметы, тему, дату или предварительные материалы конкретной школьной контрольной либо экзамена IB."
         }
       ],
       "question": {
@@ -866,6 +1873,69 @@
         {
           "en": "I distinguish general training from session pre-release material.",
           "ru": "Я различаю общую тренировку и материалы конкретной сессии."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Synthesis, evaluation and reflection",
+          "russianTerm": "Синтез, оценка и рефлексия",
+          "explanation": {
+            "en": "Synthesis connects contributions into a new answer; evaluation weighs their strengths and limits; reflection examines how the process changed your understanding.",
+            "ru": "Синтез соединяет вклад дисциплин в новый ответ; оценка рассматривает сильные стороны и ограничения; рефлексия анализирует изменение собственного понимания."
+          },
+          "contrast": {
+            "en": "Two unrelated subject summaries placed side by side are not yet an interdisciplinary synthesis.",
+            "ru": "Два несвязанных пересказа по разным предметам ещё не образуют междисциплинарный синтез."
+          },
+          "sources": [
+            {
+              "title": "IB — Interdisciplinary teaching and learning in the MYP (2022)",
+              "url": "https://ibo.org/globalassets/new-structure/brochures-and-infographics/pdfs/myp-brief-interdisciplinary-learning_en.pdf",
+              "language": "en",
+              "section": "§I Course description and aims; §III Assessment model. For use from 2021."
+            },
+            {
+              "title": "IB brief — public copy linked by Ambrit MYP Central",
+              "url": "https://drive.google.com/file/d/1y96wHD2F7dwvDUsiV_f1vrwT_3DlP55i/view",
+              "language": "en",
+              "section": "Same IB-authored 2022 brief, pp.1–2; accessible copy read 6 October 2026"
+            }
+          ],
+          "model": {
+            "en": "The Russian explanation is an authored translation and paraphrase of an English IB source, not an official Russian IB quotation.",
+            "ru": "Русское объяснение — авторский перевод и пересказ англоязычного источника IB, не официальная русская цитата."
+          },
+          "visual": {
+            "kind": "flow",
+            "title": {
+              "en": "How the flood example connects disciplines",
+              "ru": "Как связаны дисциплины в примере наводнения"
+            },
+            "items": [
+              {
+                "label": {
+                  "en": "Geography: exposure and drainage",
+                  "ru": "География: подверженность и сток"
+                }
+              },
+              {
+                "label": {
+                  "en": "Mathematics: costs and estimates",
+                  "ru": "Математика: стоимость и оценки"
+                }
+              },
+              {
+                "label": {
+                  "en": "Synthesis: compare local options",
+                  "ru": "Синтез: сравнение мер для районов"
+                }
+              }
+            ],
+            "caption": {
+              "en": "Use local conditions to interpret numerical comparisons, then evaluate the assumptions.",
+              "ru": "Используйте местные условия для понимания численного сравнения, затем оцените предположения."
+            }
+          }
         }
       ]
     },
@@ -886,12 +1956,12 @@
           "ru": "В твёрдых телах частицы колеблются около устойчивых положений; в жидкостях близки, но перестраиваются; в газах далеко друг от друга и движутся свободно. При фазовом переходе чистого вещества при постоянном давлении энергия меняет расположение частиц, а температура может оставаться постоянной."
         },
         {
-          "en": "Conduction transfers energy through interactions within matter; convection transfers it through bulk motion of a fluid; thermal radiation is electromagnetic and can travel through a vacuum. Temperature is not the same as the total internal energy of a system.",
-          "ru": "Теплопроводность передаёт энергию через взаимодействия в веществе, конвекция — через движение жидкости или газа, излучение — электромагнитными волнами, в том числе через вакуум. Температура не равна полной внутренней энергии системы."
+          "en": "Conduction transfers energy through microscopic interactions in matter; convection transports internal energy with the bulk motion of a fluid. Thermal radiation is electromagnetic and can cross a vacuum. Heat is energy transferred because of a temperature difference. Temperature is a state quantity, not the total internal energy; two different amounts of water at the same temperature generally have different internal energies.",
+          "ru": "Теплопроводность передаёт энергию за счёт микроскопических взаимодействий в веществе; конвекция переносит внутреннюю энергию с движением жидкости или газа. Тепловое излучение — электромагнитное и проходит через вакуум. Количество теплоты — энергия, переданная из-за разности температур. Температура характеризует состояние и не равна полной внутренней энергии: у разных количеств воды при одной температуре внутренние энергии обычно различны."
         },
         {
-          "en": "Where required by the school course, use Q=mcΔT for temperature change and Q=mL for a state change. This is an MYP framework supplement, not a verified addition to the Grade 9 physics EOY list or October scope.",
-          "ru": "Если это требуется школьным курсом, используйте Q=mcΔT для изменения температуры и Q=mL для фазового перехода. Это дополнение к рамке MYP, не подтверждённая тема списка EOY Grade 9 или октября."
+          "en": "For a single phase with approximately constant specific heat capacity, Q = mcΔT if the supplied heat changes temperature without other significant energy transfers. For a phase change at the transition temperature, Q = mL; latent heat changes the phase without raising temperature. State the phase, pressure and assumptions before choosing a relation.",
+          "ru": "Для одной фазы при примерно постоянной удельной теплоёмкости Q = mcΔT, если переданная теплота меняет температуру без других существенных передач энергии. При фазовом переходе при температуре перехода Q = mL: теплота меняет фазу без повышения температуры. Перед выбором формулы укажи фазу, давление и допущения."
         }
       ],
       "question": {
@@ -906,6 +1976,72 @@
         {
           "en": "I identify the mechanism and assumptions.",
           "ru": "Я называю механизм и условия применимости."
+        }
+      ],
+      "definitionReviews": [
+        {
+          "englishTerm": "Heat",
+          "russianTerm": "Количество теплоты",
+          "contrast": {
+            "en": "A body has internal energy; heat describes a transfer, not a substance stored inside.",
+            "ru": "Тело обладает внутренней энергией; теплота характеризует передачу, а не вещество внутри тела."
+          },
+          "model": {
+            "en": "Heat added need not raise temperature: during a phase change it may change internal potential energy.",
+            "ru": "Передача теплоты не всегда повышает температуру: при фазовом переходе может меняться потенциальная часть внутренней энергии."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/14-1-heat",
+              "language": "en",
+              "section": "14 1 heat"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics",
+              "language": "en",
+              "section": "15 1 the first law of thermodynamics"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "3.9. Первый закон термодинамики"
+            }
+          ]
+        },
+        {
+          "englishTerm": "Temperature",
+          "russianTerm": "Температура",
+          "contrast": {
+            "en": "Temperature is not total internal energy: a large cool bath can have more internal energy than a small hot cup.",
+            "ru": "Температура не равна полной внутренней энергии: большая прохладная ванна может иметь больше внутренней энергии, чем маленькая горячая чашка."
+          },
+          "model": {
+            "en": "For an ideal gas, absolute temperature is proportional to mean translational kinetic energy per particle; this is not a universal definition for every material.",
+            "ru": "Для идеального газа абсолютная температура пропорциональна средней поступательной кинетической энергии частицы; это не универсальное определение для всех веществ."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/14-1-heat",
+              "language": "en",
+              "section": "14 1 heat"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics",
+              "language": "en",
+              "section": "15 1 the first law of thermodynamics"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "3.9. Первый закон термодинамики"
+            }
+          ]
         }
       ]
     }

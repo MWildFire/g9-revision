@@ -1,3 +1,4 @@
+import { DefinitionSupport } from '../../components/content/DefinitionSupport';
 import { useEffect, useState } from 'react';
 import { Link, NavLink, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -142,7 +143,7 @@ function Practice({ store }: { store: Store }) {
 
 function Glossary() {
   const { t, txt } = useText();
-  return <section className="tectonic-glossary"><h2>{t('Geographical vocabulary', 'Географические термины')}</h2><p>{t('Learn the English term alongside its meaning so you can use it accurately in an answer.', 'Запоминай английский термин вместе с его значением, чтобы правильно использовать его в ответе.')}</p><dl>{glossary.map((item, index) => <div key={index}><dt>{txt(item.term)}<span>{t(item.term.ru, item.term.en)}</span></dt><dd>{txt(item.definition)}</dd></div>)}</dl></section>;
+  return <section className="tectonic-glossary"><h2>{t('Geographical vocabulary', 'Географические термины')}</h2><p>{t('Learn the English term alongside its meaning so you can use it accurately in an answer.', 'Запоминай английский термин вместе с его значением, чтобы правильно использовать его в ответе.')}</p><div>{(['earth', 'constructive', 'earthquake', 'volcano', 'risk'] as const).map(kind => <details key={kind}><summary>{t('Open labelled diagram', 'Открыть схему с подписями')}: {t({earth: 'Earth layers', constructive: 'Plate boundaries', earthquake: 'Focus and epicentre', volcano: 'Volcano anatomy', risk: 'Hazard and risk'}[kind], {earth: 'слои Земли', constructive: 'границы плит', earthquake: 'очаг и эпицентр', volcano: 'строение вулкана', risk: 'опасность и риск'}[kind])}</summary><TectonicVisual kind={kind} /></details>)}</div><dl>{glossary.map((item, index) => <div key={index}><dt>{txt(item.term)}<span>{t(item.term.ru, item.term.en)}</span></dt><dd>{txt(item.definition)}<DefinitionSupport review={item.review} /></dd></div>)}</dl></section>;
 }
 
 function Reference() {

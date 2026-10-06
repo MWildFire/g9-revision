@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { Heart } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { BiologyTopicLayout, InfoSection } from '../components/BiologyTopicLayout';
@@ -25,12 +26,14 @@ export function BodySystemsPage() {
           <InfoSection
             key={key}
             title={t(`bodySystems.sections.${key}.title`)}
+            body={t(`bodySystems.sections.${key}.body`)}
+            review={t(`bodySystems.sections.${key}.review`, { returnObjects: true }) as DefinitionReview}
             detailedItems={detailedItems}
             borderColor="var(--color-accent-clay)"
           />
         );
       })}
-      <SectionHeading>Interactive — Heart Diagram</SectionHeading>
+      <SectionHeading>{t('simulations.heartDiagram.title')}</SectionHeading>
       <HeartDiagram />
     </BiologyTopicLayout>
   );

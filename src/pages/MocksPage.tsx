@@ -18,13 +18,13 @@ export function MocksPage() {
   return <main className="max-w-6xl mx-auto px-4 md:px-6 py-10">
     <Link to="/" className="text-sm underline">← {t('nav.hub')}</Link>
     <header className="my-8 max-w-3xl">
-      <p className="text-sm text-text-muted mb-3">GRADE 10 · OCTOBER 2026</p>
+      <p className="text-sm text-text-secondary mb-3">GRADE 10 · OCTOBER 2026</p>
       <h1 className="font-serif text-4xl mb-4">{ru ? 'Карта подготовки к MYP mocks' : 'Your MYP mock revision map'}</h1>
       <p className="text-text-secondary">{ru ? 'Начните с тем Grade 9. Карта связывает школьные списки, существующие уроки и новые материалы. Метки показывают основание включения темы, а не вероятность вопроса на экзамене.' : 'Start with Grade 9. This map connects school lists, existing lessons and new practice. Labels identify the source of a topic, not the probability of an exam question.'}</p>
     </header>
     <section className="rounded-xl border border-border bg-bg-secondary p-5 mb-8 space-y-2">
       <h2 className="font-serif text-xl">{ru ? 'Что подтверждено — и чего пока не хватает' : 'What we know — and what is still missing'}</h2>
-      <p className="text-sm">{ru ? 'Октябрь — по сообщению Дмитрия. Точные даты, предметный scope, уровни Mathematics Standard/Extended и French, а также включение IDL должны быть подтверждены школой. Единого обязательного списка тем «IB Grade 9» нет: школа определяет последовательность в рамках MYP.' : 'October is the user-reported window. The school must confirm exact dates, subject scope, Mathematics Standard/Extended, French level and any IDL mock. IB does not prescribe one universal Grade 9 topic sequence: schools structure learning within MYP.'}</p>
+      <p className="text-sm">{ru ? 'Октябрь указан как ориентир подготовки. Точные даты, предметный scope, уровни Mathematics Standard/Extended и French, а также включение IDL должны быть подтверждены школой. Единого обязательного списка тем «IB Grade 9» нет: школа определяет последовательность в рамках MYP.' : 'October is the user-reported window. The school must confirm exact dates, subject scope, Mathematics Standard/Extended, French level and any IDL mock. IB does not prescribe one universal Grade 9 topic sequence: schools structure learning within MYP.'}</p>
       <p className="text-sm">{ru ? 'Школьные списки 2025–26 — исторические источники. Список Grade 9+10 не датирован. Ни одна строка пока не помечена «подтверждено для октября». Задания в новых блоках — авторская практика, не реальные вопросы IB.' : 'The 2025–26 school lists are historical; the Grade 9+10 list is undated. No row is labelled confirmed for October. Exercises in the new lessons are original practice, not real IB questions.'}</p>
       <p className="text-sm">{ru ? 'Полнота карты не равна полноте учебника: строки «Материал есть» указывают ближайший раздел и могут требовать углубления. Реальные аудиозаписи, полный пробный вариант и актуальные школьные markschemes остаются пробелами.' : 'Map coverage is not textbook completeness: existing-content rows point to the closest section and may need more depth. Genuine listening audio, a complete timed mock and current school markschemes remain gaps.'}</p>
     </section>
@@ -48,13 +48,13 @@ export function MocksPage() {
       <label className="text-sm flex-1 min-w-48">{ru ? 'Поиск темы' : 'Find a topic'}<input className="block w-full border border-border rounded-md bg-bg-secondary p-2 mt-1" value={query} onChange={e=>setQuery(e.target.value)} /></label>
       <label className="text-sm py-2"><input type="checkbox" checked={addedOnly} onChange={e=>setAddedOnly(e.target.checked)} className="mr-2" />{ru ? 'Только новые блоки' : 'New lessons only'}</label>
     </div>
-    <p className="text-sm text-text-muted mb-3" aria-live="polite">{visible.length} {ru ? 'результатов' : 'results'}</p>
+    <p className="text-sm text-text-secondary mb-3" aria-live="polite">{visible.length} {ru ? 'результатов' : 'results'}</p>
     <div className="grid md:grid-cols-2 gap-4">
       {visible.map(row=><article key={row.id} className="border border-border rounded-lg bg-bg-secondary p-5">
-        <p className="text-xs text-text-muted mb-2">{subjectName(row.subject)} · {scopes[row.scope]}</p>
+        <p className="text-xs text-text-secondary mb-2">{subjectName(row.subject)} · {scopes[row.scope]}</p>
         <h2 className="font-serif text-lg mb-3"><Link to={row.route} className="hover:underline">{row.title[lang]}</Link></h2>
         <p className="text-xs mb-2">{row.detail === 'added' ? (ru ? 'Новый блок · объяснение, практика, ответ' : 'New lesson · explanation, practice, solution') : (ru ? 'Материал есть · глубина требует проверки по scope' : 'Existing section · depth needs a scope check')}</p>
-        <p className="text-xs text-text-muted">{ru ? 'Основание: ' : 'Evidence: '}{row.sources.map(id=><button type="button" key={id} className="underline mr-2 text-left" onClick={()=>document.getElementById(`source-${id}`)?.scrollIntoView({behavior:'smooth'})}>{data.sources.find(s=>s.id===id)?.title}</button>)}</p>
+        <p className="text-xs text-text-secondary">{ru ? 'Основание: ' : 'Evidence: '}{row.sources.map(id=><button type="button" key={id} className="underline mr-2 text-left" onClick={()=>document.getElementById(`source-${id}`)?.scrollIntoView({behavior:'smooth'})}>{data.sources.find(s=>s.id===id)?.title}</button>)}</p>
         <Link to={row.route} className="inline-block mt-3 text-sm underline">{ru ? 'Открыть материал' : 'Open material'} →</Link>
       </article>)}
     </div>
@@ -64,7 +64,7 @@ export function MocksPage() {
       <p className="text-sm text-text-secondary mb-5">{ru ? 'Проверено 28.09.2026. Школьные файлы прочитаны локально; оригиналы и коды доступа не опубликованы. Публичные краткие документы IB описывают рамку; у старых буклетов могут быть исторические экзаменационные схемы. Актуальные требования школы и сессии имеют приоритет.' : 'Checked 28 September 2026. School files were read locally; originals and access codes are not published. Public IB briefs describe the framework; older briefs may retain historical assessment blueprints. Current school and session instructions take precedence.'}</p>
       <ul className="space-y-3 text-sm">{data.sources.map(s=><li id={`source-${s.id}`} key={s.id} className="scroll-mt-24 border-l-2 border-border pl-3">
         {'url' in s ? <a href={s.url} target="_blank" rel="noreferrer" className="underline">{s.title}</a> : <span>{s.title}</span>}
-        <span className="block text-xs text-text-muted">{s.kind==='school' ? (ru ? 'Локальный школьный источник; не подтверждает scope октября' : 'Local school source; does not confirm October scope') : (ru ? 'Публичный официальный источник' : 'Public official source')}</span>
+        <span className="block text-xs text-text-secondary">{s.kind==='school' ? (ru ? 'Локальный школьный источник; не подтверждает scope октября' : 'Local school source; does not confirm October scope') : (ru ? 'Публичный официальный источник' : 'Public official source')}</span>
       </li>)}</ul>
     </section>
   </main>;

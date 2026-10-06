@@ -58,7 +58,7 @@ function ProblemCard({ problem, lang }: { problem: MathProblem; lang: 'ru' | 'en
           <div className="flex items-center gap-2 flex-wrap text-xs">
             <span
               className="font-mono px-2 py-0.5 rounded border"
-              style={{ borderColor: accentColor, color: accentColor }}
+              style={{ borderColor: accentColor, color: 'var(--color-text-secondary)' }}
             >
               {tMath('sources.chapter')} {problem.chapter} Q{problem.questionNumber}
             </span>

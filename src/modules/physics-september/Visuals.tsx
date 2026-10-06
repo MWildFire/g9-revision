@@ -533,7 +533,7 @@ function DecayLab() {
         </span>
         <span>t / T½ = {fmt(time / half)}</span>
       </div>
-      <div className="nuclear-table-wrap">
+      <div className="nuclear-table-wrap" tabIndex={0} role="region" aria-label={t("Expected count rates table. Scroll horizontally on a narrow screen.", "Таблица ожидаемых скоростей счёта. На узком экране прокручивается по горизонтали.")}>
         <table>
           <caption>
             {t(

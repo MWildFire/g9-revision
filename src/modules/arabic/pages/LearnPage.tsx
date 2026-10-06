@@ -1,3 +1,5 @@
+import { ARABIC_REVIEWS } from '../../../definitions/arabic';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -28,6 +30,7 @@ export function LearnPage() {
     <div>
       <TopicHero title={t('learn.title')} intro={t('learn.intro')} icon={<BookOpen size={28} />} />
 
+            <DefinitionSupport review={ARABIC_REVIEWS.vocabulary} language={lang} />
       <p className="mt-4 text-xs text-text-muted">{t('learn.legend')}</p>
 
       {/* Jump-to chips */}

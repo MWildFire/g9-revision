@@ -1,3 +1,4 @@
+import { PhysicsConceptDiagram } from '../../../definitions/physicsDiagrams';
 import { useTranslation } from 'react-i18next';
 import { Compass } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -14,6 +15,8 @@ import { MotionGraphs } from '../../../components/simulations/physics/MotionGrap
 import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
 const TERMS = [
+  'mass',
+  'weight',
   'scalar',
   'vector',
   'displacement',
@@ -48,6 +51,8 @@ export function ForceMotionPage() {
         intro={t('forceMotion.intro')}
         icon={<Compass size={28} />}
       />
+
+      <PhysicsConceptDiagram kind="motion" />
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="forceMotion" termIds={TERMS} />

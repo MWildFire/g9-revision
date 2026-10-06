@@ -1,13 +1,16 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SimulationPanel } from '../../ui/Tabs';
-import { parseDataset, quartiles, fmt } from '../../../lib/math';
+import { parseDataset, fmt } from '../../../lib/math';
+import { schoolQuartiles } from '../../../definitions/math-legacy-models';
 
 export function BoxPlotBuilder() {
   const { t } = useTranslation('math');
   const [input, setInput] = useState('4, 7, 8, 10, 11, 13, 15, 18, 22, 35');
   const sorted = useMemo(() => parseDataset(input), [input]);
-  const q = quartiles(sorted);
+  const q = schoolQuartiles(sorted);
   const total = sorted.length;
 
   const width = 480;
@@ -27,7 +30,7 @@ export function BoxPlotBuilder() {
       <div className="space-y-4">
         <label className="block">
           <span className="text-sm font-medium text-text-secondary mb-1.5 block">
-            Dataset (numbers separated by commas or spaces)
+            {t('simulations.boxPlot.input')}
           </span>
           <textarea
             value={input}
@@ -36,22 +39,22 @@ export function BoxPlotBuilder() {
             className="w-full bg-bg-tertiary/40 border border-border rounded-md px-3 py-2 font-mono text-sm"
           />
           <p className="text-xs text-text-muted mt-1">
-            {total} value{total === 1 ? '' : 's'}
+            {t('simulations.boxPlot.count', { count: total })}
           </p>
         </label>
 
         {total > 0 ? (
           <>
             <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 grid grid-cols-2 md:grid-cols-3 gap-3 text-sm">
-              <Stat label="Min" value={fmt(q.min)} />
+              <Stat label={t('simulations.boxPlot.lowerWhisker')} value={fmt(q.min)} />
               <Stat label="Q1" value={fmt(q.q1)} />
-              <Stat label="Median" value={fmt(q.median)} />
+              <Stat label={t('simulations.boxPlot.median')} value={fmt(q.median)} />
               <Stat label="Q3" value={fmt(q.q3)} />
-              <Stat label="Max" value={fmt(q.max)} />
+              <Stat label={t('simulations.boxPlot.upperWhisker')} value={fmt(q.max)} />
               <Stat label="IQR" value={fmt(q.iqr)} />
             </div>
 
-            <svg viewBox={`0 0 ${width} 120`} className="w-full">
+            <svg role="img" aria-label={t('simulations.boxPlot.alt', { q1: fmt(q.q1), median: fmt(q.median), q3: fmt(q.q3), lower: fmt(q.min), upper: fmt(q.max) })} viewBox={`0 0 ${width} 120`} className="w-full">
               <line x1={padX} x2={width - padX} y1={60} y2={60} stroke="var(--color-border)" strokeWidth={1} />
               <line x1={scale(q.min)} x2={scale(q.q1)} y1={60} y2={60} stroke="var(--color-text-secondary)" strokeWidth={2} />
               <line x1={scale(q.q3)} x2={scale(q.max)} y1={60} y2={60} stroke="var(--color-text-secondary)" strokeWidth={2} />
@@ -84,12 +87,13 @@ export function BoxPlotBuilder() {
 
             {q.outliers.length > 0 ? (
               <p className="text-xs text-text-secondary">
-                <strong>Outliers</strong> (beyond 1.5 × IQR): {q.outliers.map(fmt).join(', ')}
+                <strong>{t('simulations.boxPlot.outliers')}</strong>: {q.outliers.map(v => fmt(v)).join(', ')}
               </p>
             ) : null}
           </>
         ) : null}
       </div>
+      <DefinitionSupport review={t('simulations.boxPlot.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

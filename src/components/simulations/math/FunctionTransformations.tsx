@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, ReferenceLine, Tooltip as RTooltip } from 'recharts';
@@ -24,11 +26,12 @@ export function FunctionTransformations() {
   const [a, setA] = useState(1);
 
   const data = useMemo(() => {
-    const rows: { x: number; base: number; transformed: number }[] = [];
-    for (let x = -10; x <= 10; x += 0.1) {
+    const rows: { x: number; base: number | null; transformed: number | null }[] = [];
+    for (let i = -100; i <= 100; i++) {
+      const x = i / 10;
       const base = baseFn(fnType, x);
       const transformed = a * baseFn(fnType, x - h) + k;
-      rows.push({ x: Number(x.toFixed(2)), base, transformed });
+      rows.push({ x, base: Number.isFinite(base) ? base : null, transformed: Number.isFinite(transformed) ? transformed : null });
     }
     return rows;
   }, [fnType, h, k, a]);
@@ -51,30 +54,31 @@ export function FunctionTransformations() {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <Slider label="Stretch (a)" min={-3} max={3} step={0.1} value={a} onChange={setA} />
-          <Slider label="Horizontal shift (h)" min={-5} max={5} step={0.5} value={h} onChange={setH} />
-          <Slider label="Vertical shift (k)" min={-5} max={5} step={0.5} value={k} onChange={setK} />
+          <Slider label={t('simulations.transformations.stretch')} min={-3} max={3} step={0.1} value={a} onChange={setA} />
+          <Slider label={t('simulations.transformations.horizontal')} min={-5} max={5} step={0.5} value={h} onChange={setH} />
+          <Slider label={t('simulations.transformations.vertical')} min={-5} max={5} step={0.5} value={k} onChange={setK} />
         </div>
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-3 font-mono">
           {formula}
         </div>
 
-        <div className="h-72">
+        <div className="h-72" role="img" aria-label={t('simulations.transformations.alt', { function: baseFnName, a, h, k })}>
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data} margin={{ top: 10, right: 10, bottom: 10, left: -10 }}>
               <XAxis type="number" dataKey="x" domain={[-10, 10]} tick={{ fill: 'var(--color-text-muted)', fontSize: 11 }} stroke="var(--color-border)" />
               <YAxis type="number" domain={[-10, 10]} tick={{ fill: 'var(--color-text-muted)', fontSize: 11 }} stroke="var(--color-border)" />
               <ReferenceLine x={0} stroke="var(--color-border)" />
               <ReferenceLine y={0} stroke="var(--color-border)" />
-              <Line type="monotone" dataKey="base" stroke="var(--color-text-muted)" strokeWidth={1} strokeDasharray="3 3" dot={false} />
-              <Line type="monotone" dataKey="transformed" stroke="var(--color-accent-warm)" strokeWidth={2} dot={false} />
+              <Line type="linear" dataKey="base" stroke="var(--color-text-muted)" strokeWidth={1} strokeDasharray="3 3" dot={false} />
+              <Line type="linear" dataKey="transformed" stroke="var(--color-accent-warm)" strokeWidth={2} dot={false} />
               <RTooltip contentStyle={{ background: 'var(--color-bg-secondary)', border: '1px solid var(--color-border)', borderRadius: 6 }} formatter={(v: number) => fmt(Number(v))} />
             </LineChart>
           </ResponsiveContainer>
         </div>
-        <p className="text-xs text-text-muted">Dashed line: base function. Solid: transformed.</p>
+        <p className="text-xs text-text-muted">{t('simulations.transformations.legend')}</p>
       </div>
+      <DefinitionSupport review={t('simulations.transformations.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

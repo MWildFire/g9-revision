@@ -42,8 +42,8 @@
       "title": "Unité 2 — Qu'est-ce que la solidarité humaine et le service à la communauté ?",
       "vocab": [
         "La solidarité — solidarity. Comment être solidaire — how to show solidarity",
-        "Les 4 types de solidarité — the 4 types of solidarity",
-        "Les 10 profils de l'apprenant — the 10 IB Learner Profiles",
+        "Les types de solidarité — forms of mutual support; use the categories defined in your course.",
+        "Les dix qualités du profil de l’apprenant de l’IB — the ten IB learner profile attributes.",
         "Les types de communauté — types of community",
         "Mon projet de service à la communauté — my community service project",
         "Les associations solidaires mondiales — global solidarity associations"
@@ -65,7 +65,7 @@
     "unite4": {
       "title": "Unité 4 — L'éducation pour tous, l'éducation pour la paix",
       "vocab": [
-        "Une journée traditionnelle à l'école — a typical school day",
+        "Une journée typique à l’école — a typical school day.",
         "L'école du futur — the school of the future",
         "Le système éducatif français — the French education system",
         "Le droit à l'éducation — the right to education",
@@ -100,21 +100,17 @@
   },
   "textTypesPage": {
     "title": "Text Types for Written Production",
-    "intro": "Your teacher's booklet flags these text types for Criterion D writing. Each has specific conventions.",
+    "intro": "Common written forms and useful conventions. Adapt them to the audience, purpose and task; a medium does not determine register.",
     "discours": {
       "title": "Le discours (Speech)",
-      "body": "An informative, explanatory, argumentative text addressed to a targeted public (neighbourhood, association, classmates).",
+      "body": "A speech (discours) is written to be delivered to listeners. It may inform, explain or persuade; vocabulary, structure and address should suit its audience.",
       "conventions": [
-        "Formule d'appel and closing formula",
-        "First person (Je)",
-        "Standard / formal register (vouvoiement)",
-        "Exclamatory / imperative sentences",
-        "Introduction: introduce yourself, the subject, hook the audience (humour, statistic, shocking fact)",
-        "Vocabulary related to the topic",
-        "Rhetorical questions",
-        "Figures of speech / repetition / comparisons",
-        "Development: facts, advice, examples, statistics",
-        "Conclusion: summarise, look to the future, thank the audience"
+        "Greet the audience and establish your topic and purpose.",
+        "Use je, nous or direct address when appropriate; a speech need not be entirely in first person.",
+        "Choose tu/vous and level of formality for the audience.",
+        "Develop a few connected points with examples or checked evidence.",
+        "Rhetorical questions, repetition and imperatives are optional persuasive choices.",
+        "End by returning to the purpose; thank the audience or offer a relevant next step."
       ],
       "phrases": [
         "Mesdames et messieurs, chers professeurs, chers camarades…",
@@ -130,53 +126,42 @@
     },
     "article": {
       "title": "L'article (Article)",
-      "body": "A text published in a newspaper or magazine, on paper or online. Non-fiction reporting an event, presenting facts, or putting forward a viewpoint.",
+      "body": "An article is a text for a print or online publication. A report, feature and opinion column have different purposes; identify the requested type before choosing structure and register.",
       "conventions": [
-        "Article title",
-        "Newspaper / magazine name",
-        "Chapeau (a brief description of the article)",
-        "Varied typography (italic, bold, underline)",
-        "Testimonies and quotes",
-        "Conditional sentences for unverified info (il se pourrait que…)",
-        "Date of publication and journalist's name",
-        "Subheadings",
-        "Captioned image",
-        "Statistics (d'après une étude…, un sondage récent a montré que … % des français…)",
-        "Interrogative and exclamatory sentences"
+        "A clear title; a byline and date when the task calls for them.",
+        "A chapeau is a short introductory summary beneath the title; it differs from an image caption (légende).",
+        "Paragraphs and optional subheadings organise the material.",
+        "Attribute quotations, statistics and claims to real sources; do not invent evidence.",
+        "The conditional may report an unconfirmed claim (il aurait quitté la ville), but attribution and verification still matter.",
+        "Images and captions are optional features of the publication, not required in every article."
       ],
       "phrases": [
-        "Notre journaliste a mené l'enquête.",
-        "D'après une étude réalisée par l'Institut de la statistique du Québec, … %…",
-        "Un sondage récent a montré que…",
-        "Après avoir interrogé de nombreuses personnes à ce sujet, on peut affirmer que…",
-        "Le / la ministre a insisté sur le fait que… / a martelé que… / a déclaré que… / a annoncé que…",
-        "Une enquête a été menée en caméra cachée.",
-        "La nouvelle a ému / choqué / surpris la population.",
-        "C'est maintenant officiel…",
-        "Selon des sources sûres, le Président fera une intervention télévisée à ce sujet ce soir."
+        "Selon [source vérifiée], …",
+        "D’après [titre et date de l’étude], …",
+        "La personne interrogée explique que…",
+        "Ces résultats suggèrent que…",
+        "Ces informations restent à confirmer."
       ]
     },
     "lettre": {
       "title": "La lettre officielle (Formal letter)",
-      "body": "Communication with someone you don't know personally, or with an organisation. Specific purpose: thank, request, inform, describe, persuade, protest.",
+      "body": "A formal letter addresses an institution or person in a professional or official relationship. State the purpose clearly and use a suitable greeting, organised paragraphs and courteous closing.",
       "conventions": [
-        "Place and date — top right",
-        "Recipient's contact info — top left",
-        "Sender's contact info — top right",
-        "Object of letter — below recipient info",
-        "Formule d'appel (Madame, Monsieur,)",
-        "Body in paragraphs",
-        "Formule de politesse (Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées)",
-        "Signature"
+        "Identify sender and recipient and include the date when required. Layout varies by convention or template.",
+        "Objet : a concise statement of the subject.",
+        "Greeting: Madame, Monsieur, or the appropriate named form.",
+        "Body: purpose, relevant details and the requested response.",
+        "Closing: for example, Je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.",
+        "Signature."
       ]
     },
     "blog": {
       "title": "Le blog (Blog post)",
-      "body": "Personal narrative-style writing. Less formal, first person, often with rhetorical questions inviting engagement. Less formal than an article."
+      "body": "A blog post is an entry in an online publication. It can be personal or professional; first person, a conversational style and reader questions are possible choices, not defining requirements."
     },
     "courriel": {
       "title": "Le courriel / l'email",
-      "body": "Less formal than a letter. Subject line, greeting, concise body, sign-off. Used for both formal and informal communication depending on context."
+      "body": "Courriel (email) is an electronic message. Use a clear subject, greeting, concise paragraphs and sign-off. It may be formal or informal depending on purpose and relationship, just like a letter."
     }
   },
   "extras": {
@@ -184,7 +169,7 @@
     "intro": "Topics beyond the G9 syllabus — subjunctive, idioms, francophone culture.",
     "subjunctive": {
       "title": "Subjunctive mood — quick intro",
-      "body": "Used to express doubt, emotion, necessity, or opinion. Triggered by phrases like 'il faut que', 'je veux que', 'bien que', 'avant que'. For -er verbs, take the 'ils' form, drop -ent, add: -e, -es, -e, -ions, -iez, -ent. Example: 'Il faut que tu finisses' (you must finish). You'll meet it in IB DP."
+      "body": "The subjunctive is a mood, not a time reference. It often appears after expressions of wish, doubt or necessity and conjunctions such as bien que: il faut que tu finisses. Affirmative je pense que normally takes the indicative: je pense qu’il vient. For many verbs use the ils present stem for je/tu/il/ils and the nous present stem for nous/vous, with -e, -es, -e, -ions, -iez, -ent. Être, avoir and other common verbs have irregular forms."
     },
     "idioms": {
       "title": "Idioms & expressions",
@@ -200,12 +185,12 @@
     },
     "culture": {
       "title": "Francophone culture",
-      "body": "French is spoken in 29 countries by 300+ million people: France, Belgium, Switzerland, Quebec (Canada), Senegal, Côte d'Ivoire, Tunisia, Morocco, Algeria, Vietnam (historically), and many more. La Francophonie is the international organisation of French-speaking nations. Major contributions: cinema (Truffaut, Godard), philosophy (Descartes, Sartre, Camus), food (haute cuisine), fashion (Chanel, Dior), and the Tour de France."
+      "body": "Francophone means French-speaking. Lower-case francophonie can refer to French speakers and their cultural or linguistic communities; the Organisation internationale de la Francophonie (OIF) is a particular international organisation. French is used in many countries and regions, with varied accents, vocabulary and multilingual settings; these uses cannot be reduced to France alone."
     },
     "literature": {
       "title": "Classic French literature",
       "items": [
-        "Le Petit Prince (Antoine de Saint-Exupéry, 1943) — short, profound, the most translated French book",
+        "Le Petit Prince (Antoine de Saint-Exupéry, 1943) — a tale exploring friendship, responsibility and adult values.",
         "Les Misérables (Victor Hugo, 1862) — epic novel of redemption and rebellion",
         "Madame Bovary (Gustave Flaubert, 1856) — pioneering realist novel",
         "L'Étranger (Albert Camus, 1942) — existentialist classic",

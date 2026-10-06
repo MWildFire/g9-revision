@@ -33,7 +33,9 @@ test('school scope remains separated and every goal has teaching and practice', 
     assert.ok(lesson.example.steps.length >= 3);
     assert.equal(lesson.questions.length, 2);
     assert.ok(lesson.questions.every(q => q.hint && q.steps.length >= 2));
-    assert.ok(!/\p{Script=Cyrillic}/u.test(JSON.stringify(lesson)), lesson.id);
+    // The revised pack intentionally carries authored Russian explanations alongside English.
+    assert.equal(typeof lesson.title, 'string', lesson.id);
+    assert.ok(lesson.title.length > 0, lesson.id);
   }
   assert.equal(commandTerms.length, 12);
   for (const term of ['Gradient / slope', 'Midpoint', 'Distance formula', 'Simultaneous equations', 'Linear inequality', 'Linear programming', 'Feasible region', 'Perpendicular lines', 'Proof', 'Generalisation']) assert.ok(glossary.some(t => t.term === term), term);

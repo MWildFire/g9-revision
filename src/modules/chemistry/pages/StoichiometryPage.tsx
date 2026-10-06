@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { Calculator } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
@@ -14,11 +15,11 @@ export function StoichiometryPage() {
         <ChemSection
           key={s}
           title={t(`stoichiometry.sections.${s}.title`)}
-          body={t(`stoichiometry.sections.${s}.body`)}
+          body={t(`stoichiometry.sections.${s}.body`)} review={t(`stoichiometry.sections.${s}.review`, { returnObjects: true }) as DefinitionReview}
           borderColor="var(--color-accent-sky)"
         />
       ))}
-      <SectionHeading>Interactive — Mole Calculator</SectionHeading>
+      <SectionHeading>{t('simulations.moleCalc.title')}</SectionHeading>
       <MoleCalculator />
     </ChemistryTopicLayout>
   );

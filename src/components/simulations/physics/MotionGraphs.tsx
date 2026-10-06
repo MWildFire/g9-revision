@@ -1,3 +1,4 @@
+import { motionGraphData } from '../../../definitions/physicsModels';
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip, ReferenceLine } from 'recharts';
@@ -10,47 +11,13 @@ const T_MAX = 10;
 const STEPS = 50;
 
 export function MotionGraphs() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [mode, setMode] = useState<Mode>('constantA');
   const [u, setU] = useState(2);
   const [a, setA] = useState(2);
 
   const data = useMemo(() => {
-    const points = [];
-    for (let i = 0; i <= STEPS; i++) {
-      const time = (i * T_MAX) / STEPS;
-      let acc = 0;
-      let velocity = u;
-      if (mode === 'constantV') {
-        acc = 0;
-        velocity = u;
-      } else if (mode === 'constantA') {
-        acc = a;
-        velocity = u + a * time;
-      } else {
-        // decel: positive u, negative a, stops at t = u/|a|
-        acc = -Math.abs(a);
-        velocity = Math.max(0, u + acc * time);
-      }
-      // distance = integral of velocity. For uniformly varying motion:
-      let distance;
-      if (mode === 'constantV') {
-        distance = u * time;
-      } else if (mode === 'constantA') {
-        distance = u * time + 0.5 * a * time * time;
-      } else {
-        const tStop = u / Math.abs(a);
-        if (time <= tStop) distance = u * time - 0.5 * Math.abs(a) * time * time;
-        else distance = u * tStop - 0.5 * Math.abs(a) * tStop * tStop;
-      }
-      points.push({
-        t: parseFloat(time.toFixed(2)),
-        v: parseFloat(velocity.toFixed(2)),
-        a: parseFloat(acc.toFixed(2)),
-        d: parseFloat(distance.toFixed(2)),
-      });
-    }
-    return points;
+    return motionGraphData(mode, u, a, T_MAX, STEPS);
   }, [mode, u, a]);
 
   return (
@@ -86,9 +53,9 @@ export function MotionGraphs() {
         </div>
 
         <div className="space-y-2">
-          <ChartPanel data={data} dataKey="d" title="Distance s − t" yLabel="s (m)" color="#a8b5a0" />
-          <ChartPanel data={data} dataKey="v" title="Velocity v − t" yLabel="v (m/s)" color="#c9a876" />
-          <ChartPanel data={data} dataKey="a" title="Acceleration a − t" yLabel="a (m/s²)" color="#c99a8e" />
+          <ChartPanel data={data} dataKey="d" title={i18n.language.startsWith('ru') ? 'Путь s − t' : 'Distance s − t'} yLabel="s (m)" color="#a8b5a0" />
+          <ChartPanel data={data} dataKey="v" title={i18n.language.startsWith('ru') ? 'Скорость v − t' : 'Velocity v − t'} yLabel="v (m/s)" color="#c9a876" />
+          <ChartPanel data={data} dataKey="a" title={i18n.language.startsWith('ru') ? 'Ускорение a − t' : 'Acceleration a − t'} yLabel="a (m/s²)" color="#c99a8e" />
         </div>
       </div>
     </SimulationPanel>

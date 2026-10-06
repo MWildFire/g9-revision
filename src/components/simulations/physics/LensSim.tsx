@@ -67,7 +67,7 @@ export function LensSim() {
   return (
     <SimulationPanel title={t('wavesOptics.sim5.title')} description={t('wavesOptics.sim5.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
-        <svg viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
+        <svg role="img" aria-label={t('wavesOptics.sim5.desc')} viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
           {/* axis */}
           <line x1="0" y1={CY} x2={W} y2={CY} stroke="#9c8b73" strokeWidth="1" strokeDasharray="4 4" />
 

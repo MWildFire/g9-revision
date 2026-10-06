@@ -43,7 +43,7 @@ export function PressureSim() {
     <SimulationPanel title={t('forcesEnergy.sim2.title')} description={t('forcesEnergy.sim2.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
         <div className="space-y-3">
-          <svg viewBox={`0 0 ${VB_W} ${VB_H}`} className="w-full bg-bg-primary rounded-md border border-border">
+          <svg role="img" aria-label={t('forcesEnergy.sim2.desc')} viewBox={`0 0 ${VB_W} ${VB_H}`} className="w-full bg-bg-primary rounded-md border border-border">
             {/* surface */}
             <rect x="0" y={GROUND_Y} width={VB_W} height={VB_H - GROUND_Y} fill="#a8b5a0" opacity="0.4" />
             <line x1="0" y1={GROUND_Y} x2={VB_W} y2={GROUND_Y} stroke="#6b5b47" strokeWidth="1.5" />

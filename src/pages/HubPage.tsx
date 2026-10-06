@@ -35,7 +35,7 @@ export function HubPage() {
       <section className="mb-7 rounded-lg border border-[#bacbd4] bg-[#e3ebee] p-6 md:p-8">
         <p className="text-sm uppercase tracking-wider text-[#244f6b] mb-2">Grade 10 · Mathematics · Term 1</p>
         <h2 className="text-2xl mb-3">{i18n.language.startsWith('ru') ? 'Assessment 1: понятия, методы и практика' : 'Assessment 1: concepts, methods & practice'}</h2>
-        <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? 'По проверенному школьному списку: 6 основных тем Standard, отдельное повторение Previous studies и темы Extended. 19 уроков, 38 вопросов с объяснениями, словарь и checklist. Учебный материал на английском.' : 'Based on the checked school scope: six Standard core topics, separate Previous studies recap and Extended topics. 19 lessons, 38 questions with explanations, glossary and checklist. Study material in English.'}</p>
+        <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? 'По проверенному школьному списку: 6 основных тем Standard, отдельное повторение Previous studies и темы Extended. 19 уроков, 38 вопросов с объяснениями, словарь и план повторения. Определения, примеры и решения на русском и английском.' : 'Based on the checked school scope: six Standard core topics, separate Previous studies recap and Extended topics. 19 lessons, 38 questions with explanations, glossary and checklist. Definitions, examples and solutions in English and Russian.'}</p>
         <Link to="/math-term-1-2026" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку по математике →' : 'Open mathematics preparation →'}</Link>
       </section>
 

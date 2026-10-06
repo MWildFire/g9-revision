@@ -2,7 +2,7 @@
   "subjectName": "Arabic",
   "home": {
     "title": "Arabic — Revision",
-    "intro": "Daily-routine Arabic from Mrs Hala's Revision Booklet: every word shown in Arabic script with both an English and a Russian way to read it aloud, plus practice — flashcards, exercises and quizzes.",
+    "intro": "Daily-routine Arabic with Arabic script, approximate Latin and Cyrillic reading aids, English and Russian meanings, and practice. The vocabulary uses Modern Standard Arabic; spoken regional varieties differ.",
     "source": "Source: Revision Booklet 2025-2026, Mrs Hala's group.",
     "rtlNote": "Arabic is written and read right-to-left (RTL).",
     "coversHeading": "What the booklet covers",
@@ -15,7 +15,7 @@
     "words": "words",
     "actions": {
       "learn": "Learn the words",
-      "learnDesc": "All vocabulary with triple pronunciation",
+      "learnDesc": "Vocabulary, meanings and reading aids",
       "flashcards": "Flashcards",
       "flashcardsDesc": "Flip cards and test yourself",
       "exercises": "Exercises",
@@ -43,8 +43,8 @@
   },
   "learn": {
     "title": "Learn the words",
-    "intro": "Every word at once: the Arabic script, both transliterations (Latin and Cyrillic) for reading aloud, and the English and Russian meanings.",
-    "legend": "EN / RU = meaning · Aa / Аа = how to read it aloud",
+    "intro": "Arabic script with English and Russian meanings. Latin and Cyrillic reading aids approximate pronunciation; they are not IPA and cannot represent every Arabic sound. Long vowels are doubled in this lesson deck. ʿ marks ع; ʾ marks hamza ء.",
+    "legend": "EN / RU = meaning · Aa / Аа = approximate reading aid; confirm pronunciation with audio.",
     "jumpTo": "Jump to:"
   },
   "flashcards": {
@@ -110,7 +110,7 @@
   },
   "quiz": {
     "title": "Quiz",
-    "intro": "Multiple-choice quizzes. Pick one vocabulary block, or test every word at once. Answer choices can come from other blocks, so it is a fair test.",
+    "intro": "Choose a block or the full word set. Meanings are contextual glosses of the displayed form; reading-aid questions test recognition, not pronunciation accuracy.",
     "chooseHeading": "Choose a quiz",
     "allWords": "All words",
     "allWordsDesc": "Questions mixed from every block",
@@ -122,7 +122,7 @@
     "scoreLabel": "Score",
     "promptMeaning": "What does this word mean?",
     "promptArabic": "Which Arabic word means “{{value}}”?",
-    "promptTranslit": "Which word is read “{{value}}”?",
+    "promptTranslit": "Which Arabic item matches this approximate reading aid: “{{value}}”?",
     "correct": "Correct!",
     "incorrect": "Not quite.",
     "answerWas": "Answer:",
@@ -147,26 +147,26 @@
     "introduce": {
       "title": "1. Introduce yourself (تقديم نفسك)",
       "phrases": [
-        "اسْمي… (ismī…) — my name is…",
-        "أنا في الصف العاشر (anā fī aṣ-ṣaff al-ʿāshir) — I'm in grade 10",
+        "اسمي… (ismī…) — my name is…",
+        "أنا في الصف التاسع (anā fī aṣ-ṣaff at-tāsiʿ) — I am in grade nine; change the grade to suit your situation.",
         "أنا من… (anā min…) — I am from…",
         "أعيش في… (aʿīsh fī…) — I live in…",
-        "أبلغ من العمر… سنة (ʾablugh min al-ʿumr… sana) — I am … years old",
-        "لي… إخوة وأخوات (lī… ʾikhwa wa ʾakhawāt) — I have… siblings",
-        "أحب… (ʾuḥibb…) — I love…"
+        "عمري… سنة (ʿumrī… sana) — I am … years old; Arabic number agreement needs its own rules.",
+        "لي إخوة وأخوات (lī ikhwa wa akhawāt) — I have brothers and sisters.",
+        "أحب… (uḥibb…) — I like / love…"
       ]
     },
     "clothes": {
       "title": "2. Clothes (الملابس)",
       "vocab": [
-        "تنورة (tanūra) — skirt",
+        "تنورة (tannūra) — skirt",
         "بلوزة (blūza) — blouse",
-        "حذاء (ḥidhāʾ) — shoes",
+        "حذاء (ḥidhāʾ) — a shoe; context may imply footwear",
         "فستان (fustān) — dress",
         "بنطال (binṭāl) — trousers",
         "معطف (miʿṭaf) — coat",
         "قميص (qamīṣ) — shirt",
-        "Examples: تنورة صفراء قصيرة — short yellow skirt; بلوزة بيضاء خفيفة — light white blouse; حذاء أسود طويل — long black shoes; فستان أحمر — red dress; معطف بني ثقيل — heavy brown coat; قميص أزرق جديد — new blue shirt."
+        "Examples: تنورة صفراء قصيرة — a short yellow skirt; بلوزة بيضاء خفيفة — a light white blouse; حذاء أسود — a black shoe; فستان أحمر — a red dress; معطف بني ثقيل — a heavy brown coat; قميص أزرق جديد — a new blue shirt."
       ]
     },
     "colours": {
@@ -181,21 +181,21 @@
         "بني (bunnī) — brown",
         "رمادي (ramādī) — grey",
         "Adjectives: طويل (long), قصير (short), كبير (big), صغير (small), جديد (new), قديم (old), ثقيل (heavy), خفيف (light), جميل (beautiful).",
-        "Note: adjectives agree in gender — feminine usually adds ة (e.g., أحمر / حمراء)."
+        "Gender agreement: جديد / جديدة adds ة, but colours such as أحمر / حمراء use a different pattern. Agreement follows the Arabic noun, not the gender of its translation."
       ]
     },
     "routine": {
       "title": "4. Daily routine (الروتين اليومي)",
       "verbs": [
         "أستيقظ (ʾastayqiẓ) — I wake up",
-        "أستحم (ʾastaḥimm) — I shower",
+        "أستحم (astaḥimm) — I take a shower",
         "ألبس (ʾalbas) — I get dressed",
         "أتناول (ʾatanāwal) — I eat / consume",
         "أركب (ʾarkab) — I ride / get into",
         "أذهب (ʾadhhab) — I go",
         "أتعلم (ʾataʿallam) — I learn",
         "أمارس (ʾumāris) — I practise",
-        "أرجع (ʾarjiʿ) — I return",
+        "أرجع (arjiʿ) — I return",
         "أدرس (ʾadrus) — I study",
         "أشاهد (ʾushāhid) — I watch",
         "أقرأ (ʾaqraʾ) — I read",
@@ -203,8 +203,8 @@
       ],
       "times": [
         "الساعة الخامسة (5 o'clock), السادسة (6), السابعة (7), الثامنة (8)",
-        "صباحاً (ṣabāḥan) — AM",
-        "مساءً (masāʾan) — PM",
+        "صباحًا (ṣabāḥan) — in the morning; a.m. in a clock expression",
+        "مساءً (masāʾan) — in the evening; p.m. in a clock expression",
         "Connectors: أولاً (first), ثم (then), حتى (until), بعد ذلك (after that), أخيراً (finally)"
       ]
     },
@@ -233,7 +233,7 @@
         "كيف (kayfa) — how",
         "لماذا (limādhā) — why",
         "كم (kam) — how many / how much",
-        "Prepositions: مع (with), إلى (to), في (in / at)"
+        "إلى — to; في — in/at: prepositions. مع — with/together with: an accompaniment expression traditionally analysed as an adverbial noun, not the same grammatical class as في."
       ]
     },
     "exercises": {
@@ -253,98 +253,83 @@
     "title": "Arabic — Extras",
     "intro": "Topics beyond the G9 syllabus — numerals, verb patterns, dialects, culture.",
     "numerals": {
-      "title": "Arabic numerals (Eastern)",
-      "body": "Modern Arabic uses two numeral systems. Western Arabic numerals (0–9) — what English uses, derived from Arabic. Eastern Arabic numerals (٠١٢٣٤٥٦٧٨٩) — used in MSA and many Arab countries. Read left-to-right despite the right-to-left script. 2026 in Eastern: ٢٠٢٦."
+      "title": "Arabic-Indic digits (٠–٩)",
+      "body": "Both 0–9 and ٠١٢٣٤٥٦٧٨٩ are used in Arabic-speaking settings, with regional and publication differences. These are positional decimal digits from the Hindu-Arabic numeral tradition. In ٢٠٢٦ the thousands digit is on the left: 2026. The surrounding Arabic script runs right to left; number-word order is a separate issue."
     },
     "verbForms": {
       "title": "Ten verb forms (awzān)",
-      "body": "Arabic verbs derive from 3-letter roots. Ten patterns (forms I–X) modify the root for different meanings. Form I — basic action (كَتَبَ kataba — he wrote). Form II — intensive/causative (كَتَّبَ kattaba — he made write). Form III — reciprocal (كَاتَبَ kātaba — he corresponded). Form V — reflexive of II. Form VII — passive. Form VIII — reflexive. Form X — request/seek. Learning to recognise the pattern unlocks vocabulary growth."
+      "body": "Many Arabic words are built from a consonantal root and a pattern. The familiar forms I–X describe common patterns of triliteral verbs; Arabic also has quadriliteral roots and other patterns. Patterns can suggest meanings, but do not mechanically predict them: كَتَبَ kataba — he wrote; كاتَبَ kātaba — he corresponded with; اسْتَغْفَرَ istaghfara — he sought forgiveness. Form VII is often intransitive or resultative, not the grammatical passive of every verb. Learn the actual verb meaning and conjugation."
     },
     "dialects": {
       "title": "Dialects vs MSA",
       "items": [
-        "Modern Standard Arabic (MSA) — used in news, books, formal contexts. What you study in school.",
-        "Egyptian — most widely understood dialect due to film and TV.",
-        "Levantine — Syria, Lebanon, Jordan, Palestine — soft, often called 'gentle Arabic'.",
-        "Gulf — Saudi Arabia, UAE, Qatar — preserves more classical features.",
-        "Maghrebi — Morocco, Algeria, Tunisia — heavy Berber and French influence, hardest for others to understand."
+        "Modern Standard Arabic (MSA) — a shared formal variety used in education, publishing and many broadcasts.",
+        "Egyptian Arabic — a group of spoken varieties in Egypt; Cairene speech is widely represented in media.",
+        "Levantine Arabic — related spoken varieties in Syria, Lebanon, Jordan and Palestine.",
+        "Gulf Arabic — related varieties around the Gulf; national borders do not define one uniform dialect.",
+        "Maghrebi Arabic — related North African varieties with their own regional histories and multilingual contact."
       ],
       "detailed": {
         "msa": {
-          "name": "Modern Standard Arabic (MSA / الفصحى)",
-          "rule": "The PRESTIGE form used across all 22 Arab countries. Standardised. Direct descendant of Classical Arabic (the Qur'anic language). Mutual intelligibility ensured: news, government, formal speeches, schoolbooks.",
-          "examples": ["Used by Al Jazeera, BBC Arabic, Al Arabiya in news broadcasts.", "All school textbooks, official documents, religious texts (Qur'an).", "Most public signs in airports, government buildings.", "Nobody speaks MSA at home — it's a written/formal language."],
-          "tip": "If you can only learn ONE form, MSA opens doors across the entire Arab world. School pretty much always teaches MSA."
+          "name": "Modern Standard Arabic (MSA)",
+          "rule": "MSA is a standardised variety used across countries in formal writing and speech. It is related to Classical Arabic but is not identical to all historical or Qur’anic usage. Speakers often shift between standard and regional forms according to setting.",
+          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
         },
         "egyptian": {
-          "name": "Egyptian Arabic (مصري)",
-          "rule": "Most WIDELY UNDERSTOOD dialect — thanks to Egypt's massive film and TV industry. Egyptian films and Ramadan dramas reach all 22 Arab countries. Some unique sounds (j → g: 'gameel' instead of 'jameel' for 'beautiful').",
-          "examples": ["~104 million speakers (Egypt's population).", "Stars: Omar Sharif (cinema), Umm Kulthum (singer, called 'Star of the East').", "Cairo dialect (CAIRENE Arabic) most prestigious within Egypt.", "Egyptian word for 'how are you?': إزَّيَّك (izzayyak m / izzayyik f) — VERY different from MSA كَيْفَ حالُك."],
-          "tip": "If you watch any Arabic media for fun, you'll absorb Egyptian without trying. Easiest dialect to find content in."
+          "name": "Egyptian Arabic",
+          "rule": "Egyptian Arabic comprises regional spoken varieties; Cairo speech is prominent in film and other media. Media exposure can help comprehension, but understanding differs between listeners and contexts.",
+          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
         },
         "levantine": {
-          "name": "Levantine Arabic (شامي)",
-          "rule": "Spoken in SYRIA, LEBANON, JORDAN, PALESTINE. Often called 'gentle Arabic' for its softer pronunciation. Heavily influenced by older Aramaic and Turkish. Considered melodious; popular in music (Fairouz, etc.).",
-          "examples": ["Lebanese pop culture (Fairouz, Nancy Ajram) brings this dialect global.", "'Kifak' for 'how are you?' (m) — Lebanese.", "Distinctive: drops 'q' sound — qalb (heart, MSA) → 'alb (Levantine).", "Damascus Arabic considered the most refined within Levantine."],
-          "watchOut": "Has many sub-dialects: Beirut Lebanese, Damascus Syrian, Jerusalem Palestinian — small differences."
+          "name": "Levantine Arabic",
+          "rule": "Levantine is a regional grouping, including urban and rural varieties in Syria, Lebanon, Jordan and Palestine. Pronunciation varies: some varieties realise historical q as a glottal stop, while others retain or change it differently.",
+          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
         },
         "gulf": {
-          "name": "Gulf Arabic (خليجي)",
-          "rule": "Spoken in SAUDI ARABIA, UAE, QATAR, KUWAIT, BAHRAIN, OMAN. PRESERVES MORE CLASSICAL FEATURES than other dialects — closer to MSA. Slower pace. Bedouin influences in older generations.",
-          "examples": ["Dubai's diversity means many Gulf Arabs speak English alongside their dialect.", "'Shloonak' = 'how are you?' (m, Gulf) — sounds different again.", "Gulf food and music has spread regionally (Khaleeji music).", "Use this dialect if living in UAE."],
-          "tip": "Closer to MSA than other dialects — if your MSA is solid, you can understand Gulf better than Egyptian or Maghrebi."
+          "name": "Gulf Arabic",
+          "rule": "Gulf Arabic (Khaleeji) refers to spoken Arabic varieties used around the Gulf, including in the UAE and Qatar. This regional label does not mean that all speakers use the same pronunciation, vocabulary or grammar; learn the variety relevant to your conversations.",
+          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
         },
         "maghrebi": {
-          "name": "Maghrebi Arabic (مغربي / دارجة)",
-          "rule": "Spoken in MOROCCO, ALGERIA, TUNISIA, LIBYA. Heavy BERBER, FRENCH, SPANISH influences. Compressed vowels. Often INTELLIGIBLE only to other Maghrebis — even other Arabs struggle to follow.",
-          "examples": ["'Kifash dayer?' = 'how are you doing?' (Moroccan).", "French loanwords everywhere: 'plage' for beach (Morocco), 'tlephone' for phone.", "Code-switching between Arabic, Berber and French is normal.", "Famous Maghrebi music genres: Rai (Algeria), Chaabi (Morocco)."],
-          "watchOut": "If you visit Morocco/Algeria, plan to use MSA, French or English to communicate — Maghrebi is the most distinct dialect."
+          "name": "Maghrebi Arabic",
+          "rule": "Maghrebi Arabic is a broad label for North African Arabic varieties west of Egypt, including Moroccan, Algerian, Tunisian and Libyan varieties. It covers local differences rather than one uniform way of speaking. Familiarity and context affect how much a listener understands.",
+          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
         }
       }
     },
     "culture": {
       "title": "Cultural insights",
-      "body": "Arabic is the liturgical language of Islam — over 1.8 billion people connect with it through the Qur'an. The Arab world has 22 countries. Major contributions: algebra (al-jabr), the numeral system (via India), astronomy, medicine, philosophy (Avicenna, Averroes). The Arabic script has inspired calligraphy as a major art form. Common greetings: السلام عليكم (peace be upon you)."
+      "body": "Arabic script can communicate words and also form calligraphic ornament. In a manuscript, tile or vessel, ask what the inscription says, how it is arranged and where the object was made. The Qur’an was transmitted in Arabic, but “Islamic art” is a wider art-historical category that includes secular objects and different regional traditions. Language, religion and nationality are not interchangeable categories."
     },
     "literature": {
       "title": "Classics & poetry",
       "items": [
-        "One Thousand and One Nights (ألف ليلة وليلة) — frame story including Aladdin, Sinbad, Ali Baba.",
-        "Mahmoud Darwish — Palestinian poet, voice of exile.",
-        "Naguib Mahfouz — first Arab to win Nobel in Literature (1988). The Cairo Trilogy.",
-        "Nizar Qabbani — Syrian poet of love and politics.",
-        "Khalil Gibran — Lebanese-American author of 'The Prophet'."
+        "One Thousand and One Nights — a collection with a frame narrative and a changing textual history.",
+        "Mahmoud Darwish — Palestinian poetry of identity, place and displacement.",
+        "Naguib Mahfouz — Egyptian novelist; 1988 Nobel laureate.",
+        "Nizar Qabbani — Syrian poetry of love, relationships and politics.",
+        "Kahlil Gibran — Arabic- and English-language writer; The Prophet was written in English."
       ],
       "detailed": {
         "nights": {
-          "name": "One Thousand and One Nights (ألف ليلة وليلة)",
-          "rule": "Collection of Middle Eastern folktales compiled across centuries, framed by the story of Scheherazade — a queen telling stories nightly to delay her execution. Most famous Arabic literary work in the West.",
-          "examples": ["Frame story: King Shahryar marries a new bride daily and executes her at dawn. Scheherazade tells him a cliffhanger story each night → he spares her to hear the end.", "Famous tales: Aladdin, Sinbad the Sailor, Ali Baba and the 40 Thieves.", "Note: Aladdin and Ali Baba were ADDED to the collection by French translator Antoine Galland (1700s); not in original Arabic versions.", "Best modern English translation: Husain Haddawy (1990)."],
-          "tip": "Translated into ALL major world languages. Has inspired Disney films, ballets, operas — defining 'Orientalist' fantasy for the West."
+          "name": "One Thousand and One Nights",
+          "rule": "A collection of tales with varied textual histories, framed by Shahrazad telling stories to King Shahriyar. Versions and translations include different stories; there is no single fixed original contents list."
         },
         "darwish": {
-          "name": "Mahmoud Darwish (1941-2008)",
-          "rule": "Palestinian poet considered the voice of Palestinian exile and resistance. Born in Galilee, displaced in 1948. Wrote about HOMELAND, MEMORY, LOSS. National poet of Palestine.",
-          "examples": ["Famous poem: 'Identity Card' (1964) — proud declaration of being Palestinian.", "'In Praise of the High Shadow' on the 1982 siege of Beirut.", "Won Lannan Cultural Freedom Prize (2001).", "His funeral in Ramallah was state-attended (2008).", "Read 'I Belong There' for accessible English translations."],
-          "tip": "More humanist than 'just political' — wrote about love, identity, the universal experience of being uprooted."
+          "name": "Mahmoud Darwish (1941–2008)",
+          "rule": "A Palestinian poet whose work explores displacement, identity, memory, love and place. “Identity Card” is one of his well-known poems. Read a particular poem closely rather than treating all his work as one political message."
         },
         "mahfouz": {
-          "name": "Naguib Mahfouz (1911-2006)",
-          "rule": "First Arab to win the NOBEL PRIZE IN LITERATURE (1988). Egyptian novelist. Modernised Arabic prose. Often called the 'Dickens of Cairo' for his social realism.",
-          "examples": ["Most famous: The CAIRO TRILOGY (1956-57) — Palace Walk, Palace of Desire, Sugar Street. Multi-generational saga.", "Children of the Alley (1959) — symbolic religious allegory; banned in much of Arab world.", "Wrote 30+ novels and 100s of short stories.", "Survived assassination attempt 1994 (linked to his banned book)."],
-          "watchOut": "His 1950s Cairo writings depict a city that no longer exists — fascinating historical document of pre-revolutionary Egypt."
+          "name": "Naguib Mahfouz (1911–2006)",
+          "rule": "An Egyptian novelist awarded the 1988 Nobel Prize in Literature. The Cairo Trilogy follows family life and social change across generations. A novel is an artistic representation, not a transparent historical record."
         },
         "qabbani": {
-          "name": "Nizar Qabbani (1923-1998)",
-          "rule": "Syrian poet who DEMOCRATISED ARABIC POETRY by writing in accessible language about LOVE, SENSUALITY, and POLITICS. Most popular Arab poet of 20th century. Controversial for breaking taboos.",
-          "examples": ["Famous love poems include 'The Diary of an Indifferent Woman' from a woman's perspective — revolutionary for its time.", "Wife killed in 1981 bombing of Iraqi embassy in Beirut — turned his poetry darker.", "Wrote 'Marginal Notes on the Book of Defeat' after Arab loss in 1967 war — bold political critique.", "His poetry is sung by major Arab singers (Umm Kulthum, Fairouz)."],
-          "tip": "If learning Arabic for poetry, start with Qabbani — his accessible language makes him a perfect entry point."
+          "name": "Nizar Qabbani (1923–1998)",
+          "rule": "A Syrian poet born in Damascus in 1923 who died in London in 1998. His work includes love and political poetry. The publisher Words Without Borders provides a biography and translations for studying particular poems."
         },
         "gibran": {
-          "name": "Khalil Gibran (1883-1931)",
-          "rule": "Lebanese-American author and philosopher. Wrote mainly in ENGLISH (and Arabic). The Prophet (1923) — most translated book in 20th century after the Bible.",
-          "examples": ["The Prophet: 26 prose-poetry essays on love, work, freedom, marriage etc.", "'On Children': 'Your children are not your children. They are the sons and daughters of Life's longing for itself.' — widely quoted at weddings/funerals.", "Immigrant to USA in 1895 (age 12). Wrote from Boston/NYC.", "Translated into 100+ languages; never out of print."],
-          "tip": "Bridge between Arab and Western culture. The Prophet was huge in 1960s American counterculture — Bob Dylan, John Lennon read it."
+          "name": "Kahlil Gibran (1883–1931)",
+          "rule": "A Lebanese-American writer and artist who wrote in Arabic and English. The Prophet (1923) was written in English and uses poetic prose to explore questions such as love, work and freedom. It is not an Arabic original translated into English."
         }
       }
     }

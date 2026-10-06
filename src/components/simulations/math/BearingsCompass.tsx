@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -40,7 +42,7 @@ export function BearingsCompass() {
     <SimulationPanel title={t('simulations.bearingsCompass.title')} description={t('simulations.bearingsCompass.description')}>
       <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-6 items-start">
         <div className="space-y-4">
-          <Slider label={t('simulations.bearingsCompass.bearingLabel')} min={0} max={360} step={1} value={bearing} onChange={setBearing} unit="°" />
+          <Slider label={t('simulations.bearingsCompass.bearingLabel')} min={0} max={359} step={1} value={bearing} onChange={setBearing} unit="°" />
           <Slider label={t('simulations.bearingsCompass.distanceLabel')} min={1} max={20} step={0.5} value={distance} onChange={setDistance} unit="km" />
 
           <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 space-y-2 text-sm">
@@ -60,7 +62,7 @@ export function BearingsCompass() {
           </div>
         </div>
 
-        <svg viewBox="0 0 300 300" className="w-full max-w-[320px] mx-auto">
+        <svg role="img" aria-label={t('simulations.bearingsCompass.alt', { bearing, distance, east: fmt(dx), north: fmt(-dy) })} viewBox="0 0 300 300" className="w-full max-w-[320px] mx-auto">
           <circle cx={cx} cy={cy} r={compassRadius} fill="var(--color-bg-tertiary)" fillOpacity={0.4} stroke="var(--color-border)" strokeWidth={1} />
           <line x1={cx} y1={cy - compassRadius} x2={cx} y2={cy + compassRadius} stroke="var(--color-border)" />
           <line x1={cx - compassRadius} y1={cy} x2={cx + compassRadius} y2={cy} stroke="var(--color-border)" />
@@ -90,6 +92,7 @@ export function BearingsCompass() {
           </text>
         </svg>
       </div>
+      <DefinitionSupport review={t('simulations.bearingsCompass.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

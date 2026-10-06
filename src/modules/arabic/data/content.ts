@@ -4,15 +4,16 @@
 // transliteration (translitEn) + Russian transliteration (translitRu), plus
 // the English (en) and Russian (ru) meanings. Transliterations are for reading
 // aloud, not strictly scientific: long vowels are doubled (aa / аа);
-// ʿ / ъ marks the ʿayn (a throaty catch).
+// ʿ marks ʿayn, a pharyngeal consonant; ʾ marks hamza, a glottal stop.
+// These reading aids are approximate and are not IPA. Consult the script and audio.
 
 export type Word = {
   id: string;
   ar: string; // арабская вязь
   en: string; // English meaning
   ru: string; // русский перевод
-  translitEn: string; // латиница (англ. произношение)
-  translitRu: string; // кириллица (рус. произношение)
+  translitEn: string; // латинская подсказка к арабскому произношению
+  translitRu: string; // кириллическая подсказка к арабскому произношению
 };
 
 export type Block = {
@@ -30,19 +31,19 @@ const verbs: Block = {
   titleEn: 'Verbs',
   titleRu: 'Глаголы',
   words: [
-    { id: 'v01', ar: 'أَستيقظ', en: 'Wake up', ru: 'просыпаюсь', translitEn: 'astayqiz', translitRu: 'астайкыз' },
-    { id: 'v02', ar: 'أَستحم', en: 'Take shower', ru: 'принимаю душ', translitEn: 'astahimm', translitRu: 'астахимм' },
-    { id: 'v03', ar: 'أَلبس', en: 'Wear', ru: 'одеваюсь', translitEn: 'albis', translitRu: 'альбис' },
-    { id: 'v04', ar: 'أَتناول', en: 'Intake', ru: 'принимаю (пищу)', translitEn: 'atanaawal', translitRu: 'атанааваль' },
-    { id: 'v05', ar: 'أَركب', en: 'Ride', ru: 'еду / сажусь (в транспорт)', translitEn: 'arkab', translitRu: 'аркаб' },
-    { id: 'v06', ar: 'أَذهب', en: 'Go', ru: 'иду / еду', translitEn: 'adhhab', translitRu: 'азхаб' },
-    { id: 'v07', ar: 'أَتعلم', en: 'Learn', ru: 'учусь / изучаю', translitEn: 'ataʿallam', translitRu: 'атааллям' },
-    { id: 'v08', ar: 'أُمارس', en: 'Practice', ru: 'занимаюсь / практикую', translitEn: 'umaaris', translitRu: 'умаарис' },
-    { id: 'v09', ar: 'أَرجع', en: 'Return', ru: 'возвращаюсь', translitEn: 'arjaʿ', translitRu: 'арджаъ' },
-    { id: 'v10', ar: 'أَدرس', en: 'Study', ru: 'учу / занимаюсь', translitEn: 'adrus', translitRu: 'адрус' },
-    { id: 'v11', ar: 'أُشاهد', en: 'Watch', ru: 'смотрю', translitEn: 'ushaahid', translitRu: 'ушаахид' },
-    { id: 'v12', ar: 'أَقرأ', en: 'Read', ru: 'читаю', translitEn: 'aqraʾ', translitRu: 'акъраъ' },
-    { id: 'v13', ar: 'أَنام', en: 'Sleep', ru: 'сплю', translitEn: 'anaam', translitRu: 'анаам' },
+    { id: "v01", ar: "أَستيقظ", en: "I wake up", ru: "я просыпаюсь", translitEn: "astayqiẓ", translitRu: "астайкыз" },
+    { id: "v02", ar: "أَستحم", en: "I take a shower", ru: "я принимаю душ", translitEn: "astaḥimm", translitRu: "астахимм" },
+    { id: "v03", ar: "أَلبس", en: "I wear / put on", ru: "я ношу / надеваю", translitEn: "albas", translitRu: "альбас" },
+    { id: "v04", ar: "أَتناول", en: "I have / eat (a meal)", ru: "я ем / принимаю пищу", translitEn: "atanaawal", translitRu: "атанааваль" },
+    { id: "v05", ar: "أَركب", en: "I ride / get into (transport)", ru: "я еду / сажусь в транспорт", translitEn: "arkab", translitRu: "аркаб" },
+    { id: "v06", ar: "أَذهب", en: "I go", ru: "я иду / еду", translitEn: "adhhab", translitRu: "азхаб" },
+    { id: "v07", ar: "أَتعلم", en: "I learn", ru: "я осваиваю новое / учусь", translitEn: "ataʿallam", translitRu: "атаʿаллям" },
+    { id: "v08", ar: "أُمارس", en: "I practise / do (an activity)", ru: "я занимаюсь / практикую", translitEn: "umaaris", translitRu: "умаарис" },
+    { id: "v09", ar: "أَرجع", en: "I return", ru: "я возвращаюсь", translitEn: "arjiʿ", translitRu: "арджиʿ" },
+    { id: "v10", ar: "أَدرس", en: "I study", ru: "я учусь / изучаю", translitEn: "adrus", translitRu: "адрус" },
+    { id: "v11", ar: "أُشاهد", en: "I watch", ru: "я смотрю", translitEn: "ushaahid", translitRu: "ушаахид" },
+    { id: "v12", ar: "أَقرأ", en: "I read", ru: "я читаю", translitEn: "aqraʾ", translitRu: "акраʾ" },
+    { id: "v13", ar: "أَنام", en: "I sleep", ru: "я сплю", translitEn: "anaam", translitRu: "анаам" },
   ],
 };
 
@@ -57,8 +58,8 @@ const time: Block = {
     { id: 't02', ar: 'الساعة السادسة', en: "6 o'clock", ru: '6 часов', translitEn: 'as-saaʿa as-saadisa', translitRu: 'ас-сааъа ас-саадиса' },
     { id: 't03', ar: 'الساعة السابعة', en: "7 o'clock", ru: '7 часов', translitEn: 'as-saaʿa as-saabiʿa', translitRu: 'ас-сааъа ас-саабиъа' },
     { id: 't04', ar: 'الساعة الثامنة', en: "8 o'clock", ru: '8 часов', translitEn: 'as-saaʿa ath-thaamina', translitRu: 'ас-сааъа ас-саамина' },
-    { id: 't05', ar: 'صباحًا', en: 'AM', ru: 'утра (до полудня)', translitEn: 'sabaahan', translitRu: 'сабаахан' },
-    { id: 't06', ar: 'مساءً', en: 'PM', ru: 'вечера (после полудня)', translitEn: 'masaaʾan', translitRu: 'масааан' },
+    { id: "t05", ar: "صباحًا", en: "in the morning / a.m. in clock times", ru: "утром / утра при указании времени", translitEn: "ṣabaaḥan", translitRu: "сабаахан" },
+    { id: "t06", ar: "مساءً", en: "in the evening / p.m. in clock times", ru: "вечером / вечера при указании времени", translitEn: "masaaʾan", translitRu: "масааʾан" },
   ],
 };
 
@@ -71,13 +72,13 @@ const nouns: Block = {
   words: [
     { id: 'n01', ar: 'ملابس', en: 'Clothes', ru: 'одежда', translitEn: 'malaabis', translitRu: 'маляабис' },
     { id: 'n02', ar: 'المدرسة', en: 'School', ru: 'школа', translitEn: 'al-madrasa', translitRu: 'аль-мадраса' },
-    { id: 'n03', ar: 'الفطور', en: 'The breakfast', ru: 'завтрак', translitEn: 'al-futuur', translitRu: 'аль-футуур' },
-    { id: 'n04', ar: 'العشاء', en: 'The dinner', ru: 'ужин', translitEn: 'al-ʿashaaʾ', translitRu: 'аль-ашааа' },
+    { id: "n03", ar: "الفطور", en: "breakfast", ru: "завтрак", translitEn: "al-fuṭuur", translitRu: "аль-футуур" },
+    { id: "n04", ar: "العشاء", en: "dinner / evening meal", ru: "ужин", translitEn: "al-ʿashaaʾ", translitRu: "аль-ʿашааʾ" },
     { id: 'n05', ar: 'السيارة', en: 'The car', ru: 'машина', translitEn: 'as-sayyaara', translitRu: 'ас-сайяара' },
     { id: 'n06', ar: 'البيت', en: 'The house', ru: 'дом', translitEn: 'al-bayt', translitRu: 'аль-байт' },
     { id: 'n07', ar: 'التلفاز', en: 'TV', ru: 'телевизор', translitEn: 'at-tilfaaz', translitRu: 'ат-тильфааз' },
     { id: 'n08', ar: 'كتاب', en: 'Book', ru: 'книга', translitEn: 'kitaab', translitRu: 'китааб' },
-    { id: 'n09', ar: 'أسرتي', en: 'My family', ru: 'моя семья', translitEn: 'usratii', translitRu: 'усратии' },
+    { id: "n09", ar: "أسرتي", en: "my family", ru: "моя семья", translitEn: "usratii", translitRu: "усратии" },
   ],
 };
 
@@ -89,7 +90,7 @@ const subjects: Block = {
   titleRu: 'Предметы',
   words: [
     { id: 's01', ar: 'الرياضيات', en: 'Math', ru: 'математика', translitEn: 'ar-riyaadiyyaat', translitRu: 'ар-рияадыйяат' },
-    { id: 's02', ar: 'العلوم', en: 'Science', ru: 'наука', translitEn: 'al-ʿuluum', translitRu: 'аль-улуум' },
+    { id: "s02", ar: "العلوم", en: "science (school subject); the sciences", ru: "естественные науки (школьный предмет)", translitEn: "al-ʿuluum", translitRu: "аль-ʿулюум" },
     { id: 's03', ar: 'اللغات', en: 'Languages', ru: 'языки', translitEn: 'al-lughaat', translitRu: 'аль-люгаат' },
   ],
 };
@@ -103,7 +104,7 @@ const activities: Block = {
   words: [
     { id: 'a01', ar: 'السباحة', en: 'Swimming', ru: 'плавание', translitEn: 'as-sibaaha', translitRu: 'ас-сибааха' },
     { id: 'a02', ar: 'الرسم', en: 'Drawing', ru: 'рисование', translitEn: 'ar-rasm', translitRu: 'ар-расм' },
-    { id: 'a03', ar: 'الرياضة', en: 'PE', ru: 'физкультура / спорт', translitEn: 'ar-riyaada', translitRu: 'ар-рияада' },
+    { id: "a03", ar: "الرياضة", en: "sport / exercise", ru: "спорт / физические упражнения", translitEn: "ar-riyaaḍa", translitRu: "ар-рияада" },
   ],
 };
 
@@ -116,7 +117,7 @@ const connectors: Block = {
   words: [
     { id: 'c01', ar: 'أولًا', en: 'First', ru: 'сначала', translitEn: 'awwalan', translitRu: 'аввалян' },
     { id: 'c02', ar: 'ثم', en: 'Then', ru: 'затем', translitEn: 'thumma', translitRu: 'сумма' },
-    { id: 'c03', ar: 'حتى', en: 'Until', ru: 'пока / до', translitEn: 'hattaa', translitRu: 'хаттаа' },
+    { id: "c03", ar: "حتى", en: "until (in time expressions)", ru: "до / до тех пор пока (о времени)", translitEn: "ḥattaa", translitRu: "хаттаа" },
     { id: 'c04', ar: 'بعد ذلك', en: 'After that', ru: 'после этого', translitEn: 'baʿda dhaalik', translitRu: 'баъда заалик' },
     { id: 'c05', ar: 'أخيرًا', en: 'Finally', ru: 'наконец', translitEn: 'akhiiran', translitRu: 'ахииран' },
   ],
@@ -125,11 +126,11 @@ const connectors: Block = {
 // ─── Block 7 — Prepositions / حروف الجر (предлоги) ───
 const prepositions: Block = {
   id: 'prepositions',
-  titleAr: 'حروف الجر',
-  titleEn: 'Prepositions',
-  titleRu: 'Предлоги',
+  titleAr: 'حروف الجر وظرف المصاحبة',
+  titleEn: 'Prepositions & accompaniment',
+  titleRu: 'Предлоги и совместность',
   words: [
-    { id: 'p01', ar: 'مع', en: 'With', ru: 'с / вместе с', translitEn: 'maʿa', translitRu: 'мааъа' },
+    { id: "p01", ar: "مع", en: "with / together with", ru: "с / вместе с", translitEn: "maʿa", translitRu: "маʿа" },
     { id: 'p02', ar: 'إلى', en: 'To', ru: 'к / в', translitEn: 'ilaa', translitRu: 'иляя' },
     { id: 'p03', ar: 'في', en: 'In - at', ru: 'в / на', translitEn: 'fii', translitRu: 'фии' },
   ],
@@ -176,14 +177,14 @@ export const REARRANGE: RearrangeItem[] = [
     shuffled: ['أتعلمُ', 'والعلوم', 'الرياضيات', 'في المدرسة'],
     answer: 'أتعلمُ الرياضيات والعلوم في المدرسة',
     en: 'I learn math and science at school',
-    ru: 'Я учу математику и науку в школе',
+    ru: 'Я изучаю математику и естественные науки в школе',
   },
   {
     id: 'r2',
     shuffled: ['الأنشطة', 'أمارس', 'الرياضة', 'والرسم', 'مثل'],
     answer: 'أمارس الأنشطة مثل الرياضة والرسم',
-    en: 'I do activities like PE and drawing',
-    ru: 'Я занимаюсь активностями, такими как спорт и рисование',
+    en: 'I do activities such as sport and drawing',
+    ru: 'Я занимаюсь, например, спортом и рисованием',
   },
   {
     id: 'r3',
@@ -201,8 +202,8 @@ export const MATCH_PAIRS: MatchPair[] = [
   { ar: 'أتعلم', en: 'I learn' },
   { ar: 'أرجع', en: 'I return' },
   { ar: 'أذهب', en: 'I go' },
-  { ar: 'أستحم', en: 'I take shower' },
-  { ar: 'أتناول', en: 'I intake' },
+  { ar: 'أستحم', en: 'I take a shower' },
+  { ar: 'أتناول', en: 'I have / eat (a meal)' },
   { ar: 'أدرس', en: 'I study' },
   { ar: 'أستيقظ', en: 'I wake up' },
   { ar: 'أركب', en: 'I ride' },
@@ -228,7 +229,7 @@ export const CLOZE: { templateAr: string; blanks: ClozeBlank[] } = {
     { hintEn: 'city (e.g. Dubai / دبي)', hintRu: 'город (например دبي)' },
     { hintEn: 'grade (e.g. التاسع = 9th)', hintRu: 'класс (التاسع = 9-й)' },
     { hintEn: 'school name', hintRu: 'название школы' },
-    { hintEn: 'every day / كل يوم', hintRu: 'каждый день / كل يوم' },
+    { hintEn: 'a complete sentence about your routine (e.g. أدرس كل يوم = I study every day)', hintRu: 'полное предложение о распорядке (например أدرس كل يوم = я учусь каждый день)' },
   ],
 };
 
@@ -236,7 +237,7 @@ export const CLOZE: { templateAr: string; blanks: ClozeBlank[] } = {
 export type TranslateItem = { ar: string; en: string; ru: string };
 
 export const TRANSLATE: TranslateItem[] = [
-  { ar: 'يلبس أخي معطفًا ثقيلاً.', en: 'My brother wears a thick coat.', ru: 'Мой брат носит тёплое пальто.' },
+  { ar: 'يلبس أخي معطفًا ثقيلاً.', en: 'My brother wears a heavy coat.', ru: 'Мой брат носит тяжёлое пальто.' },
   { ar: 'يشتري جدي الملابس من مركز التسوق.', en: 'My grandfather buys clothes from the mall.', ru: 'Мой дедушка покупает одежду в торговом центре.' },
   { ar: 'أختي تلبس فستانًا طويلاً.', en: 'My sister wears a long dress.', ru: 'Моя сестра носит длинное платье.' },
 ];

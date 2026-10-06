@@ -32,7 +32,7 @@ export function WaveExplorer() {
   return (
     <SimulationPanel title={t('wavesOptics.sim1.title')} description={t('wavesOptics.sim1.desc')}>
       <div className="space-y-4">
-        <canvas
+        <canvas role="img" aria-label={t('wavesOptics.sim1.desc')}
           ref={canvasRef}
           width={W}
           height={H}

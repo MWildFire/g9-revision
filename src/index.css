@@ -13,7 +13,7 @@
   /* Текст */
   --color-text-primary: #3d2f1f;
   --color-text-secondary: #6b5b47;
-  --color-text-muted: #9c8b73;
+  --color-text-muted: #74624d;
 
   /* Акценты (приглушённые) */
   --color-accent-warm: #c9a876;
@@ -89,6 +89,11 @@ a {
 a:hover {
   color: var(--color-accent-warm);
 }
+
+/* Soft accents remain suitable for surfaces; small text needs a darker tone. */
+.text-accent-warm { color: #7b5523; }
+.text-accent-clay { color: #854c3e; }
+button.bg-accent-warm { color: var(--color-text-primary); }
 
 button {
   font-family: inherit;

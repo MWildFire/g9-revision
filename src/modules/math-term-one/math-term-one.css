@@ -6,3 +6,24 @@
 @media(max-width:540px){.mathrev{padding:18px 14px}.mathrev-grid,.mathrev-command-grid,.mathrev-filters{grid-template-columns:1fr}.mathrev-hero{padding:24px 20px}.mathrev-hero h1{font-size:2.45rem}.mathrev-lead{font-size:1rem}.mathrev-stats strong{font-size:1.7rem}.mathrev-stats span{font-size:.7rem;display:block;line-height:1.5}.mathrev-stats>div{padding:5px 8px}.mathrev-panel,.mathrev-question,.mathrev-worked{padding:20px}.mathrev-routine{display:block}.mathrev-progress{border:0;border-top:1px solid var(--math-line);padding:20px 0 0;margin-top:22px}.mathrev-section-head{display:block}.mathrev-section-head label{margin-top:18px;max-width:none}.mathrev-terms dl>div{grid-template-columns:1fr;gap:5px}.mathrev-back{gap:12px}.mathrev-back a:last-child{text-align:right}.mathrev-pagination{font-size:.84rem}.mathrev-figure{padding:12px}.mathrev-figure svg text{font-size:20px}.mathrev-topnav{gap:2px}.mathrev-topnav a{font-size:.77rem;padding:9px}.mathrev-formula{font-size:1.05rem;padding:14px}.mathrev-print-lesson-title{font-size:1.7rem!important}}
 @media(prefers-reduced-motion:reduce){.mathrev-card{transition:none}.mathrev-card:hover{transform:none}}
 @media print{body{background:white!important}body:has(.mathrev-print-view)>#root>div>header,body:has(.mathrev-print-view)>#root>div>footer,.mathrev-print-view .mathrev-back,.mathrev-print-view .mathrev-sidebar,.mathrev-print-view .mathrev-topnav,.mathrev-print-view .mathrev-mobile-select,.mathrev-print-view .mathrev-print-toolbar,.mathrev-print-view .mathrev-storage-note,.mathrev-print-view .mathrev-storage-warning,.mathrev-print-view .mathrev-skip{display:none!important}.mathrev-print-view{padding:0;max-width:none;font-size:10pt;color:#182e40}.mathrev-print-view .mathrev-layout{display:block}.mathrev-print-view h1{font-size:27pt}.mathrev-print-view h2{font-size:15pt}.mathrev-print-view h3{font-size:12pt}.mathrev-print-lesson{break-before:page;border:0;padding:0}.mathrev-print-view .mathrev-panel,.mathrev-print-view .mathrev-worked,.mathrev-print-view .mathrev-figure{background:white;padding:14px;box-shadow:none}.mathrev-print-view .mathrev-figure{break-inside:avoid;max-width:440px}.mathrev-print-view .mathrev-formula,.mathrev-print-view .mathrev-print-question,.mathrev-print-view .mathrev-terms dl>div{break-inside:avoid}.mathrev-print-view h2,.mathrev-print-view h3{break-after:avoid}.mathrev-print-view .mathrev-terms dl>div{grid-template-columns:150px 1fr}.mathrev-print-view a{color:inherit}.mathrev-print-view .mathrev-writing-lines{border-bottom:1px solid #bbb;background:none}.mathrev-print-view .mathrev-badge{border:1px solid #777;background:white;color:#182e40}}
+
+.mathrev-translation-label {display:block;font-size:.86em;font-weight:500;color:#536b7b;margin-top:.3rem}
+.mathrev-other-language,.mathrev-term-illustration {margin-top:.75rem}
+.mathrev-other-language summary,.mathrev-term-illustration summary {cursor:pointer;color:#234e69;font-weight:600}
+.mathrev-language {display:flex;gap:.5rem;justify-content:flex-end;margin-bottom:1rem}
+.mathrev-language button {border:1px solid #b6c5ce;border-radius:.45rem;padding:.45rem .8rem;background:white;color:#234e69}
+.mathrev-language button[aria-pressed=true] {background:#234e69;color:white}
+.mathrev-definition-figure svg {width:100%;max-width:680px;height:auto;margin:auto;display:block}
+@media print {.mathrev-language,.mathrev-other-language {display:none}.mathrev-definition-figure {break-inside:avoid}.mathrev-terms dl>div {break-inside:avoid}}
+
+.mathrev-diagram-canvas {max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-gutter:stable}
+.mathrev-diagram-canvas svg {width:100%;min-width:540px;max-width:680px;display:block;margin:auto}
+.mathrev-diagram-canvas:focus-visible {outline:3px solid #a24b1e;outline-offset:3px}
+.mathrev-diagram-scroll-hint {display:none;font-size:.8rem;color:#4c5f6d}
+@media(max-width:700px) {.mathrev-diagram-scroll-hint{display:block}.mathrev-diagram-canvas{border:1px solid #c6d2d9;border-radius:6px}}
+@media print {.mathrev-diagram-canvas{overflow:visible}.mathrev-diagram-canvas svg{min-width:0;width:100%}.mathrev-diagram-scroll-hint{display:none}}
+
+.mathrev .mathrev-source-note {font-size:.78rem; color:#52616c; line-height:1.55;}
+
+.mathrev h1 {overflow-wrap:anywhere}
+.mathrev-filters > label {min-width:0}

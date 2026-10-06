@@ -1,3 +1,5 @@
+import { FRENCH_REVIEWS } from '../../../definitions/french';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { useTranslation } from 'react-i18next';
 import { FileText } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -17,7 +19,8 @@ const TYPES: TypeBlock[] = [
 ];
 
 export function TextTypesPage() {
-  const { t } = useTranslation('french');
+  const { t, i18n } = useTranslation('french');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
 
   return (
     <div>
@@ -32,6 +35,7 @@ export function TextTypesPage() {
             <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm mb-3" style={{ borderLeftColor: 'var(--color-accent-rose-muted)', borderLeftWidth: '3px' }}>
               {t(`textTypesPage.${key}.body`)}
             </p>
+            <DefinitionSupport review={FRENCH_REVIEWS[`textTypes.${key}`]} language={lang} />
             {conventions.length > 0 ? (
               <div className="bg-bg-secondary border border-border rounded-md p-4 mb-3">
                 <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">Conventions / Конвенции</h4>

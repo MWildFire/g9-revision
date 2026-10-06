@@ -7,7 +7,7 @@ import { Formula } from '../../ui/Formula';
 import { format } from '../../../lib/physics';
 import { AlertTriangle } from 'lucide-react';
 
-const ELASTIC_LIMIT_EXTENSION = 0.4;
+const PROPORTIONAL_LIMIT_EXTENSION = 0.4;
 
 export function HookesLaw() {
   const { t } = useTranslation('physics');
@@ -15,9 +15,9 @@ export function HookesLaw() {
   const [force, setForce] = useState(15);
 
   const extension = force / k;
-  const exceeded = extension > ELASTIC_LIMIT_EXTENSION;
+  const exceeded = extension > PROPORTIONAL_LIMIT_EXTENSION;
 
-  const chartXMax = Math.max(ELASTIC_LIMIT_EXTENSION * 1.5, extension * 1.1);
+  const chartXMax = Math.max(PROPORTIONAL_LIMIT_EXTENSION * 1.5, extension * 1.1);
 
   const data = useMemo(() => {
     const arr: { x: number; F: number }[] = [];
@@ -26,18 +26,13 @@ export function HookesLaw() {
       const x = (chartXMax * i) / steps;
       arr.push({
         x: parseFloat(x.toFixed(3)),
-        F:
-          x <= ELASTIC_LIMIT_EXTENSION
-            ? parseFloat((k * x).toFixed(2))
-            : parseFloat((k * ELASTIC_LIMIT_EXTENSION + (x - ELASTIC_LIMIT_EXTENSION) * k * 0.3).toFixed(2)),
+        F: parseFloat((k * x).toFixed(2)),
       });
     }
     return arr;
   }, [k, chartXMax]);
 
-  const currentF = extension <= ELASTIC_LIMIT_EXTENSION
-    ? k * extension
-    : k * ELASTIC_LIMIT_EXTENSION + (extension - ELASTIC_LIMIT_EXTENSION) * k * 0.3;
+  const currentF = force; // Above the threshold, the displayed straight line is explicitly an extrapolation.
 
   // visualize spring: longer when more force applied
   const springLen = 80 + extension * 200;
@@ -46,7 +41,7 @@ export function HookesLaw() {
     <SimulationPanel title={t('forcesEnergy.sim1.title')} description={t('forcesEnergy.sim1.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-6">
         <div>
-          <svg viewBox="0 0 240 320" className="w-full max-w-[280px] mx-auto bg-bg-primary rounded-md border border-border">
+          <svg role="img" aria-label={t('forcesEnergy.sim1.desc')} viewBox="0 0 240 320" className="w-full max-w-[280px] mx-auto bg-bg-primary rounded-md border border-border">
             {/* ceiling */}
             <rect x="20" y="10" width="200" height="14" fill="#6b5b47" />
             <line x1="20" y1="24" x2="220" y2="24" stroke="#3d2f1f" strokeWidth="1.5" />
@@ -94,10 +89,10 @@ export function HookesLaw() {
                   formatter={(v: number) => v.toFixed(2)}
                 />
                 <ReferenceLine
-                  x={ELASTIC_LIMIT_EXTENSION}
+                  x={PROPORTIONAL_LIMIT_EXTENSION}
                   stroke="var(--color-accent-clay)"
                   strokeDasharray="3 3"
-                  label={{ value: 'limit', fill: 'var(--color-accent-clay)', fontSize: 10, position: 'top' }}
+                  label={{ value: t('forcesEnergy.sim1.elasticLimit'), fill: 'var(--color-accent-clay)', fontSize: 10, position: 'top' }}
                 />
                 <Line type="monotone" dataKey="F" stroke="var(--color-accent-warm)" strokeWidth={2} dot={false} isAnimationActive={false} />
                 <ReferenceDot

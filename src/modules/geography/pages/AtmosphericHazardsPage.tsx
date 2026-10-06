@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import { geographyReviews } from '../../../definitions/geographyReviews';
 import { useTranslation } from 'react-i18next';
 import { Cloud } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -11,6 +13,7 @@ const CELLS = ['hadley', 'ferrel', 'polar'];
 
 export function AtmosphericHazardsPage() {
   const { t, i18n } = useTranslation('geography');
+  const l = (en: string, ru: string) => i18n.language.startsWith('ru') ? ru : en;
   const TOPIC = 'atmosphericHazards';
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
@@ -80,6 +83,7 @@ export function AtmosphericHazardsPage() {
         </div>
       </div>
 
+      <DefinitionSupport review={geographyReviews.haiyan} />
       <SectionHeading>{t('atmosphericHazards.sections.bigDry.title')}</SectionHeading>
       <div className="bg-bg-secondary border border-border rounded-md p-4">
         <p className="text-sm text-text-secondary mb-3">{t('atmosphericHazards.sections.bigDry.summary')}</p>
@@ -91,6 +95,7 @@ export function AtmosphericHazardsPage() {
         </div>
       </div>
 
+      <DefinitionSupport review={geographyReviews.bigDry} />
       <SectionHeading>{t('atmosphericHazards.sections.climateChange.title')}</SectionHeading>
       <div className="bg-bg-secondary border border-border rounded-md p-4 space-y-2 text-sm">
         <p><strong>Evidence: </strong>{t('atmosphericHazards.sections.climateChange.evidence')}</p>
@@ -98,19 +103,19 @@ export function AtmosphericHazardsPage() {
         <p>{t('atmosphericHazards.sections.climateChange.adaptation')}</p>
       </div>
 
-      <SectionHeading>Active recall</SectionHeading>
+      <SectionHeading>{l('Active recall', 'Активное повторение')}</SectionHeading>
       <div className="space-y-3">
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="enso"
-          prompt="Describe the difference between El Niño and La Niña conditions."
-          modelAnswer="El Niño: trade winds weaken, warm water shifts east; Peru gets floods, Australia gets drought. La Niña: trade winds strengthen, cold water upwelling in east; opposite pattern."
+          prompt={l("Contrast El Niño and La Niña and explain the forecast limitation.", "Сравни Эль-Ниньо и Ла-Нинья и объясни ограничение прогноза.")}
+          modelAnswer={l("El Niño involves unusually warm central/eastern equatorial Pacific water and weakened trade winds. La Niña has unusually cool water there and stronger trades. Rainfall probabilities change; a phase does not guarantee flooding or drought in a particular place.", "Эль-Ниньо связано с аномально тёплой водой центральной и восточной экваториальной части Тихого океана и ослаблением пассатов. При Ла-Нинья вода там аномально холодная, пассаты сильнее. Меняются вероятности осадков; фаза не гарантирует наводнение или засуху в конкретном месте.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="haiyan"
-          prompt="State three short-term and three long-term responses to Typhoon Haiyan."
-          modelAnswer="Short-term: emergency rescue; UN/USAID/Red Cross aid; mass evacuation. Long-term: Build Back Better program; storm-resistant housing; mangrove restoration."
+          prompt={l('Why can an accurate storm forecast still fail to prevent deaths?', 'Почему точный прогноз шторма может не предотвратить гибель людей?')}
+          modelAnswer={l('Warnings must explain the hazard in understood terms and lead to usable evacuation decisions. GIZ found that some shelters were exposed to storm surge. Its recommendations include clearer communication, improved maps and safer evacuation centres; a recommendation is not proof that rebuilding has been completed.', 'Предупреждения должны понятно объяснять опасность и приводить к выполнимым решениям об эвакуации. GIZ установила, что некоторые убежища находились в зоне штормового нагона. Среди рекомендаций — понятная связь, улучшенные карты и безопасные центры эвакуации; рекомендация не доказывает завершения восстановления.')}
         />
       </div>
     </div>

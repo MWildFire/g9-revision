@@ -1,3 +1,5 @@
+import { DefinitionSupport } from "../../components/content/DefinitionSupport";
+import { physicsNuclearReviews, nuclearLessonReviews } from "../../definitions/physicsNuclear";
 import { useEffect, useState } from "react";
 import {
   Link,
@@ -385,6 +387,7 @@ function LessonPage({ store }: { store: Store }) {
           ))}
         </section>
       )}
+      <DefinitionSupport review={nuclearLessonReviews[lesson.id]} />
       {lesson.visual && <VisualLab kind={lesson.visual} key={lesson.id} />}
       <section>
         <h2>{t("Worked examples", "Разобранные примеры")}</h2>
@@ -720,7 +723,7 @@ function Reference() {
       </section>
       <section className="nuclear-reference-section">
         <h2>{t("Radiation comparison", "Сравнение излучений")}</h2>
-        <div className="nuclear-table-wrap">
+        <div className="nuclear-table-wrap" tabIndex={0} role="region" aria-label={t("Radiation comparison table. Scroll horizontally on a narrow screen.", "Таблица сравнения излучений. На узком экране прокручивается по горизонтали.")}>
           <table>
             <thead>
               <tr>
@@ -803,6 +806,7 @@ function Reference() {
                 {en} · {ru}
               </strong>
               <p>{t(defEn, defRu)}</p>
+              <DefinitionSupport review={physicsNuclearReviews[en]} />
             </div>
           ))}
         </div>
@@ -811,8 +815,8 @@ function Reference() {
         <h2>{t("Sources and scope", "Источники и границы")}</h2>
         <p>
           {t(
-            "Topic selection comes from the supplied PiXL overview photo (29 September 2026). All explanations, examples, diagrams and questions in this pack were newly authored. The photograph and third-party question papers are not republished. Public references below were checked on 29 September 2026.",
-            "Темы взяты из переданного фото обзора PiXL (29 сентября 2026). Объяснения, примеры, схемы и задачи этого раздела написаны заново. Фотография и чужие экзаменационные варианты не переопубликованы. Публичные источники сверены 29 сентября 2026.",
+            "Topic selection comes from the supplied PiXL overview photo (29 September 2026). All explanations, examples, diagrams and questions in this pack were newly authored. The photograph and third-party question papers are not republished. Definitions and source sections were reviewed on 6 October 2026. Russian explanations are authored paraphrases, not quotations or publisher translations.",
+            "Темы взяты из переданного фото обзора PiXL (29 сентября 2026). Объяснения, примеры, схемы и задачи этого раздела написаны заново. Фотография и чужие экзаменационные варианты не переопубликованы. Определения и разделы источников проверены 6 октября 2026. Русские объяснения написаны самостоятельно: это не цитаты и не издательские переводы.",
           )}
         </p>
         <ul>

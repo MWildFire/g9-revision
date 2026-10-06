@@ -1,0 +1,2913 @@
+{
+  "subject": "biology",
+  "baselineNamedBlocksPerLanguage": 113,
+  "sourceLanguages": [
+    "en",
+    "ru"
+  ],
+  "blocks": [
+    {
+      "path": "cells.sections.microscopes.detailed.light",
+      "field": "rule",
+      "term": {
+        "en": "Light microscope",
+        "ru": "Световой микроскоп"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.1 Studying Cells: Microscopy",
+          "url": "https://openstax.org/books/biology-2e/pages/4-1-studying-cells",
+          "language": "en",
+          "section": "4.1 Studying Cells: Microscopy"
+        },
+        {
+          "title": "Фоксфорд Учебник — Микроскоп и работа с ним: устройство и порядок работы",
+          "url": "https://foxford.ru/wiki/biologiya/mikroskop-i-rabota-s-nim",
+          "language": "ru",
+          "section": "Микроскоп и работа с ним: устройство и порядок работы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/MicroscopyResolution.tsx",
+        "kind": "labelled comparison of magnification and resolution"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.microscopes.detailed.electron",
+      "field": "rule",
+      "term": {
+        "en": "Electron microscope",
+        "ru": "Электронный микроскоп"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.1 Studying Cells: Microscopy",
+          "url": "https://openstax.org/books/biology-2e/pages/4-1-studying-cells",
+          "language": "en",
+          "section": "4.1 Studying Cells: Microscopy"
+        },
+        {
+          "title": "Фоксфорд Учебник — Микроскоп и работа с ним: устройство и порядок работы",
+          "url": "https://foxford.ru/wiki/biologiya/mikroskop-i-rabota-s-nim",
+          "language": "ru",
+          "section": "Микроскоп и работа с ним: устройство и порядок работы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/MicroscopyResolution.tsx",
+        "kind": "labelled comparison of magnification and resolution"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.microscopes.detailed.preparation",
+      "field": "rule",
+      "term": {
+        "en": "Preparing a slide (light microscope)",
+        "ru": "Приготовление препарата (для светового микроскопа)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.1 Studying Cells: Microscopy",
+          "url": "https://openstax.org/books/biology-2e/pages/4-1-studying-cells",
+          "language": "en",
+          "section": "4.1 Studying Cells: Microscopy"
+        },
+        {
+          "title": "Фоксфорд Учебник — Микроскоп и работа с ним: устройство и порядок работы",
+          "url": "https://foxford.ru/wiki/biologiya/mikroskop-i-rabota-s-nim",
+          "language": "ru",
+          "section": "Микроскоп и работа с ним: устройство и порядок работы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/MicroscopyResolution.tsx",
+        "kind": "labelled comparison of magnification and resolution"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.microscopes.detailed.drawing",
+      "field": "rule",
+      "term": {
+        "en": "Biological drawings",
+        "ru": "Биологические рисунки"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.1 Studying Cells: Microscopy",
+          "url": "https://openstax.org/books/biology-2e/pages/4-1-studying-cells",
+          "language": "en",
+          "section": "4.1 Studying Cells: Microscopy"
+        },
+        {
+          "title": "Фоксфорд Учебник — Микроскоп и работа с ним: устройство и порядок работы",
+          "url": "https://foxford.ru/wiki/biologiya/mikroskop-i-rabota-s-nim",
+          "language": "ru",
+          "section": "Микроскоп и работа с ним: устройство и порядок работы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/MicroscopyResolution.tsx",
+        "kind": "labelled comparison of magnification and resolution"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.eukaryoticProkaryotic.detailed.prokaryotic",
+      "field": "rule",
+      "term": {
+        "en": "Prokaryotic cells (bacteria)",
+        "ru": "Прокариотические клетки (бактерии)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.2 Prokaryotic Cells",
+          "url": "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells",
+          "language": "en",
+          "section": "4.2 Prokaryotic Cells"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.eukaryoticProkaryotic.detailed.comparison",
+      "field": "rule",
+      "term": {
+        "en": "Side-by-side comparison",
+        "ru": "Сравнение бок-о-бок"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.2 Prokaryotic Cells",
+          "url": "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells",
+          "language": "en",
+          "section": "4.2 Prokaryotic Cells"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "simulations.cellDiagram",
+      "field": "description",
+      "term": {
+        "en": "Cell Diagram — animal vs plant",
+        "ru": "Схема клетки — животная vs растительная"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.eukaryoticProkaryotic.detailed.eukaryotic",
+      "field": "rule",
+      "term": {
+        "en": "Eukaryotic cells",
+        "ru": "Эукариотические клетки"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.structure.detailed.nucleus",
+      "field": "rule",
+      "term": {
+        "en": "Nucleus",
+        "ru": "Ядро"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.structure.detailed.cytoplasm",
+      "field": "rule",
+      "term": {
+        "en": "Cytoplasm",
+        "ru": "Цитоплазма"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.structure.detailed.membrane",
+      "field": "rule",
+      "term": {
+        "en": "Cell membrane (plasma membrane)",
+        "ru": "Клеточная мембрана (плазмалемма)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.structure.detailed.mitochondria",
+      "field": "rule",
+      "term": {
+        "en": "Mitochondria",
+        "ru": "Митохондрии"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "OpenStax Biology 2e — 7.5 Metabolism without Oxygen: anaerobic respiration and fermentation",
+          "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+          "language": "en",
+          "section": "7.5 Metabolism without Oxygen: anaerobic respiration and fermentation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Биологическое окисление: анаэробный этап клеточного дыхания",
+          "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
+          "language": "ru",
+          "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.structure.detailed.ribosome",
+      "field": "rule",
+      "term": {
+        "en": "Ribosomes",
+        "ru": "Рибосомы"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.structure.detailed.wall",
+      "field": "rule",
+      "term": {
+        "en": "Cell wall (plants, fungi, bacteria)",
+        "ru": "Клеточная стенка (растения, грибы, бактерии)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.structure.detailed.chloroplast",
+      "field": "rule",
+      "term": {
+        "en": "Chloroplast",
+        "ru": "Хлоропласт"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.structure.detailed.vacuole",
+      "field": "rule",
+      "term": {
+        "en": "Central vacuole in a plant cell",
+        "ru": "Центральная вакуоль растительной клетки"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+          "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+          "language": "ru",
+          "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.specialised.detailed.redBlood",
+      "field": "rule",
+      "term": {
+        "en": "Red blood cell (erythrocyte)",
+        "ru": "Эритроцит (красная кровяная клетка)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 40.2 Components of the Blood: plasma and formed elements",
+          "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+          "language": "en",
+          "section": "40.2 Components of the Blood: plasma and formed elements"
+        },
+        {
+          "title": "Фоксфорд Учебник — Сердечно-сосудистая система человека: сердце и направление кровотока",
+          "url": "https://foxford.ru/wiki/biologiya/serdechno-sosudistaya-sistema-cheloveka-serdtse",
+          "language": "ru",
+          "section": "Сердечно-сосудистая система человека: сердце и направление кровотока"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.specialised.detailed.neurone",
+      "field": "rule",
+      "term": {
+        "en": "Neurone (nerve cell)",
+        "ru": "Нейрон (нервная клетка)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 35.1 Neurons and Glial Cells: neurons and synapses",
+          "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+          "language": "en",
+          "section": "35.1 Neurons and Glial Cells: neurons and synapses"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.specialised.detailed.sperm",
+      "field": "rule",
+      "term": {
+        "en": "Sperm cell (male gamete)",
+        "ru": "Сперматозоид (мужская гамета)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 43.3 Gametogenesis: sperm structure and oogenesis",
+          "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+          "language": "en",
+          "section": "43.3 Gametogenesis: sperm structure and oogenesis"
+        },
+        {
+          "title": "OpenStax Biology 2e — 11.1 The Process of Meiosis: meiosis I and II",
+          "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+          "language": "en",
+          "section": "11.1 The Process of Meiosis: meiosis I and II"
+        },
+        {
+          "title": "Фоксфорд Учебник — Мейоз: общая характеристика, гаметогенез и спорообразование",
+          "url": "https://foxford.ru/wiki/biologiya/meyoz-i-ego-biologicheskoe-znachenie",
+          "language": "ru",
+          "section": "Мейоз: общая характеристика, гаметогенез и спорообразование"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.specialised.detailed.egg",
+      "field": "rule",
+      "term": {
+        "en": "Egg cell (ovum, female gamete)",
+        "ru": "Яйцеклетка (овум, женская гамета)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 43.3 Gametogenesis: sperm structure and oogenesis",
+          "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+          "language": "en",
+          "section": "43.3 Gametogenesis: sperm structure and oogenesis"
+        },
+        {
+          "title": "OpenStax Biology 2e — 11.1 The Process of Meiosis: meiosis I and II",
+          "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+          "language": "en",
+          "section": "11.1 The Process of Meiosis: meiosis I and II"
+        },
+        {
+          "title": "Фоксфорд Учебник — Мейоз: общая характеристика, гаметогенез и спорообразование",
+          "url": "https://foxford.ru/wiki/biologiya/meyoz-i-ego-biologicheskoe-znachenie",
+          "language": "ru",
+          "section": "Мейоз: общая характеристика, гаметогенез и спорообразование"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.specialised.detailed.root",
+      "field": "rule",
+      "term": {
+        "en": "Root hair cell (plant)",
+        "ru": "Клетка корневого волоска (растение)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "language": "en",
+          "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.specialised.detailed.palisade",
+      "field": "rule",
+      "term": {
+        "en": "Palisade mesophyll cell (plant)",
+        "ru": "Палисадная паренхима (растение)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/CellDiagram.tsx",
+        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "cells.sections.transport.detailed.diffusion",
+      "field": "rule",
+      "term": {
+        "en": "Diffusion",
+        "ru": "Диффузия"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 5.2 Passive Transport: diffusion, facilitated transport, osmosis",
+          "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+          "language": "en",
+          "section": "5.2 Passive Transport: diffusion, facilitated transport, osmosis"
+        },
+        {
+          "title": "OpenStax Biology 2e — 5.3 Active Transport: electrochemical gradients; primary and secondary transport",
+          "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+          "language": "en",
+          "section": "5.3 Active Transport: electrochemical gradients; primary and secondary transport"
+        },
+        {
+          "title": "Фоксфорд Учебник — Осмос и осморегуляция: перенос воды через мембрану",
+          "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
+          "language": "ru",
+          "section": "Осмос и осморегуляция: перенос воды через мембрану"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "cells.sections.transport.detailed.osmosis",
+      "field": "rule",
+      "term": {
+        "en": "Osmosis",
+        "ru": "Осмос"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 5.2 Passive Transport: diffusion, facilitated transport, osmosis",
+          "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+          "language": "en",
+          "section": "5.2 Passive Transport: diffusion, facilitated transport, osmosis"
+        },
+        {
+          "title": "OpenStax Biology 2e — 5.3 Active Transport: electrochemical gradients; primary and secondary transport",
+          "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+          "language": "en",
+          "section": "5.3 Active Transport: electrochemical gradients; primary and secondary transport"
+        },
+        {
+          "title": "Фоксфорд Учебник — Осмос и осморегуляция: перенос воды через мембрану",
+          "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
+          "language": "ru",
+          "section": "Осмос и осморегуляция: перенос воды через мембрану"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "cells.sections.transport.detailed.activeTransport",
+      "field": "rule",
+      "term": {
+        "en": "Active transport",
+        "ru": "Активный транспорт"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 5.3 Active Transport: electrochemical gradients; primary and secondary transport",
+          "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+          "language": "en",
+          "section": "5.3 Active Transport: electrochemical gradients; primary and secondary transport"
+        },
+        {
+          "title": "Фоксфорд Учебник — Осмос и осморегуляция: перенос воды через мембрану",
+          "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
+          "language": "ru",
+          "section": "Осмос и осморегуляция: перенос воды через мембрану"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "cells.sections.transport.detailed.significance",
+      "field": "rule",
+      "term": {
+        "en": "Significance of diffusion in biology",
+        "ru": "Значение диффузии в биологии"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 5.2 Passive Transport: diffusion, facilitated transport, osmosis",
+          "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+          "language": "en",
+          "section": "5.2 Passive Transport: diffusion, facilitated transport, osmosis"
+        },
+        {
+          "title": "OpenStax Biology 2e — 5.3 Active Transport: electrochemical gradients; primary and secondary transport",
+          "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+          "language": "en",
+          "section": "5.3 Active Transport: electrochemical gradients; primary and secondary transport"
+        },
+        {
+          "title": "Фоксфорд Учебник — Осмос и осморегуляция: перенос воды через мембрану",
+          "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
+          "language": "ru",
+          "section": "Осмос и осморегуляция: перенос воды через мембрану"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "simulations.heartDiagram",
+      "field": "description",
+      "term": {
+        "en": "Heart Diagram",
+        "ru": "Схема сердца"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 40.3 Mammalian Heart and Blood Vessels",
+          "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+          "language": "en",
+          "section": "40.3 Mammalian Heart and Blood Vessels"
+        },
+        {
+          "title": "OpenStax Biology 2e — 40.2 Components of the Blood: plasma and formed elements",
+          "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+          "language": "en",
+          "section": "40.2 Components of the Blood: plasma and formed elements"
+        },
+        {
+          "title": "Фоксфорд Учебник — Сердечно-сосудистая система человека: сердце и направление кровотока",
+          "url": "https://foxford.ru/wiki/biologiya/serdechno-sosudistaya-sistema-cheloveka-serdtse",
+          "language": "ru",
+          "section": "Сердечно-сосудистая система человека: сердце и направление кровотока"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/HeartDiagram.tsx",
+        "kind": "interactive chambers and flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "bodySystems.sections.circulatory",
+      "field": "body",
+      "term": {
+        "en": "Circulatory system",
+        "ru": "Кровеносная система"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 40.3 Mammalian Heart and Blood Vessels",
+          "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+          "language": "en",
+          "section": "40.3 Mammalian Heart and Blood Vessels"
+        },
+        {
+          "title": "OpenStax Biology 2e — 40.2 Components of the Blood: plasma and formed elements",
+          "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+          "language": "en",
+          "section": "40.2 Components of the Blood: plasma and formed elements"
+        },
+        {
+          "title": "Фоксфорд Учебник — Сердечно-сосудистая система человека: сердце и направление кровотока",
+          "url": "https://foxford.ru/wiki/biologiya/serdechno-sosudistaya-sistema-cheloveka-serdtse",
+          "language": "ru",
+          "section": "Сердечно-сосудистая система человека: сердце и направление кровотока"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/HeartDiagram.tsx",
+        "kind": "interactive chambers and flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "bodySystems.sections.circulatory.detailed.heart",
+      "field": "rule",
+      "term": {
+        "en": "The heart — pump for life",
+        "ru": "Сердце — насос жизни"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 40.3 Mammalian Heart and Blood Vessels",
+          "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+          "language": "en",
+          "section": "40.3 Mammalian Heart and Blood Vessels"
+        },
+        {
+          "title": "OpenStax Biology 2e — 40.2 Components of the Blood: plasma and formed elements",
+          "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+          "language": "en",
+          "section": "40.2 Components of the Blood: plasma and formed elements"
+        },
+        {
+          "title": "Фоксфорд Учебник — Сердечно-сосудистая система человека: сердце и направление кровотока",
+          "url": "https://foxford.ru/wiki/biologiya/serdechno-sosudistaya-sistema-cheloveka-serdtse",
+          "language": "ru",
+          "section": "Сердечно-сосудистая система человека: сердце и направление кровотока"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/HeartDiagram.tsx",
+        "kind": "interactive chambers and flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "bodySystems.sections.circulatory.detailed.vessels",
+      "field": "rule",
+      "term": {
+        "en": "Blood vessels — arteries, veins, capillaries",
+        "ru": "Сосуды — артерии, вены, капилляры"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 40.3 Mammalian Heart and Blood Vessels",
+          "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+          "language": "en",
+          "section": "40.3 Mammalian Heart and Blood Vessels"
+        },
+        {
+          "title": "OpenStax Biology 2e — 40.2 Components of the Blood: plasma and formed elements",
+          "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+          "language": "en",
+          "section": "40.2 Components of the Blood: plasma and formed elements"
+        },
+        {
+          "title": "Фоксфорд Учебник — Сердечно-сосудистая система человека: сердце и направление кровотока",
+          "url": "https://foxford.ru/wiki/biologiya/serdechno-sosudistaya-sistema-cheloveka-serdtse",
+          "language": "ru",
+          "section": "Сердечно-сосудистая система человека: сердце и направление кровотока"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/HeartDiagram.tsx",
+        "kind": "interactive chambers and flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "bodySystems.sections.circulatory.detailed.blood",
+      "field": "rule",
+      "term": {
+        "en": "Blood components",
+        "ru": "Состав крови"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 40.3 Mammalian Heart and Blood Vessels",
+          "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+          "language": "en",
+          "section": "40.3 Mammalian Heart and Blood Vessels"
+        },
+        {
+          "title": "OpenStax Biology 2e — 40.2 Components of the Blood: plasma and formed elements",
+          "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+          "language": "en",
+          "section": "40.2 Components of the Blood: plasma and formed elements"
+        },
+        {
+          "title": "Фоксфорд Учебник — Сердечно-сосудистая система человека: сердце и направление кровотока",
+          "url": "https://foxford.ru/wiki/biologiya/serdechno-sosudistaya-sistema-cheloveka-serdtse",
+          "language": "ru",
+          "section": "Сердечно-сосудистая система человека: сердце и направление кровотока"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/HeartDiagram.tsx",
+        "kind": "interactive chambers and flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "bodySystems.sections.respiratory",
+      "field": "body",
+      "term": {
+        "en": "Respiratory system",
+        "ru": "Дыхательная система"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 39.1 Systems of Gas Exchange: lungs and alveoli",
+          "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+          "language": "en",
+          "section": "39.1 Systems of Gas Exchange: lungs and alveoli"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.respiratory.detailed.pathway",
+      "field": "rule",
+      "term": {
+        "en": "Air pathway",
+        "ru": "Путь воздуха"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 39.1 Systems of Gas Exchange: lungs and alveoli",
+          "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+          "language": "en",
+          "section": "39.1 Systems of Gas Exchange: lungs and alveoli"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.respiratory.detailed.alveoli",
+      "field": "rule",
+      "term": {
+        "en": "Alveoli — gas exchange surfaces",
+        "ru": "Альвеолы — место газообмена"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 39.1 Systems of Gas Exchange: lungs and alveoli",
+          "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+          "language": "en",
+          "section": "39.1 Systems of Gas Exchange: lungs and alveoli"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.respiratory.detailed.breathing",
+      "field": "rule",
+      "term": {
+        "en": "Breathing mechanism",
+        "ru": "Механизм дыхания"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 39.1 Systems of Gas Exchange: lungs and alveoli",
+          "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+          "language": "en",
+          "section": "39.1 Systems of Gas Exchange: lungs and alveoli"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.digestive",
+      "field": "body",
+      "term": {
+        "en": "Digestive system",
+        "ru": "Пищеварительная система"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 34.1 Digestive Systems: organs and digestive processes",
+          "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+          "language": "en",
+          "section": "34.1 Digestive Systems: organs and digestive processes"
+        },
+        {
+          "title": "OpenStax Biology 2e — 34.3 Digestive System Processes: ingestion, digestion and absorption",
+          "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+          "language": "en",
+          "section": "34.3 Digestive System Processes: ingestion, digestion and absorption"
+        },
+        {
+          "title": "OpenStax Biology 2e — 6.5 Enzymes: active site, specificity, temperature and pH",
+          "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+          "language": "en",
+          "section": "6.5 Enzymes: active site, specificity, temperature and pH"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.digestive.detailed.pathway",
+      "field": "rule",
+      "term": {
+        "en": "Digestive tract — the journey",
+        "ru": "Пищеварительный тракт — путь"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 34.1 Digestive Systems: organs and digestive processes",
+          "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+          "language": "en",
+          "section": "34.1 Digestive Systems: organs and digestive processes"
+        },
+        {
+          "title": "OpenStax Biology 2e — 34.3 Digestive System Processes: ingestion, digestion and absorption",
+          "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+          "language": "en",
+          "section": "34.3 Digestive System Processes: ingestion, digestion and absorption"
+        },
+        {
+          "title": "OpenStax Biology 2e — 6.5 Enzymes: active site, specificity, temperature and pH",
+          "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+          "language": "en",
+          "section": "6.5 Enzymes: active site, specificity, temperature and pH"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.digestive.detailed.enzymes",
+      "field": "rule",
+      "term": {
+        "en": "Digestive enzymes",
+        "ru": "Пищеварительные ферменты"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 34.1 Digestive Systems: organs and digestive processes",
+          "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+          "language": "en",
+          "section": "34.1 Digestive Systems: organs and digestive processes"
+        },
+        {
+          "title": "OpenStax Biology 2e — 34.3 Digestive System Processes: ingestion, digestion and absorption",
+          "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+          "language": "en",
+          "section": "34.3 Digestive System Processes: ingestion, digestion and absorption"
+        },
+        {
+          "title": "OpenStax Biology 2e — 6.5 Enzymes: active site, specificity, temperature and pH",
+          "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+          "language": "en",
+          "section": "6.5 Enzymes: active site, specificity, temperature and pH"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.digestive.detailed.absorption",
+      "field": "rule",
+      "term": {
+        "en": "Absorption in the small intestine",
+        "ru": "Всасывание в тонкой кишке"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 34.1 Digestive Systems: organs and digestive processes",
+          "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+          "language": "en",
+          "section": "34.1 Digestive Systems: organs and digestive processes"
+        },
+        {
+          "title": "OpenStax Biology 2e — 34.3 Digestive System Processes: ingestion, digestion and absorption",
+          "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+          "language": "en",
+          "section": "34.3 Digestive System Processes: ingestion, digestion and absorption"
+        },
+        {
+          "title": "OpenStax Biology 2e — 6.5 Enzymes: active site, specificity, temperature and pH",
+          "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+          "language": "en",
+          "section": "6.5 Enzymes: active site, specificity, temperature and pH"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.nervous",
+      "field": "body",
+      "term": {
+        "en": "Nervous system",
+        "ru": "Нервная система"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 35.1 Neurons and Glial Cells: neurons and synapses",
+          "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+          "language": "en",
+          "section": "35.1 Neurons and Glial Cells: neurons and synapses"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.nervous.detailed.structure",
+      "field": "rule",
+      "term": {
+        "en": "CNS vs PNS",
+        "ru": "ЦНС vs ПНС"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 35.1 Neurons and Glial Cells: neurons and synapses",
+          "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+          "language": "en",
+          "section": "35.1 Neurons and Glial Cells: neurons and synapses"
+        },
+        {
+          "title": "OpenStax Biology 2e — 35.3 Spinal Cord: reflexes, white and grey matter",
+          "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+          "language": "en",
+          "section": "35.3 Spinal Cord: reflexes, white and grey matter"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.nervous.detailed.neurone",
+      "field": "rule",
+      "term": {
+        "en": "Neurone structure",
+        "ru": "Строение нейрона"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 35.1 Neurons and Glial Cells: neurons and synapses",
+          "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+          "language": "en",
+          "section": "35.1 Neurons and Glial Cells: neurons and synapses"
+        },
+        {
+          "title": "OpenStax Biology 2e — 35.3 Spinal Cord: reflexes, white and grey matter",
+          "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+          "language": "en",
+          "section": "35.3 Spinal Cord: reflexes, white and grey matter"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.nervous.detailed.reflex",
+      "field": "rule",
+      "term": {
+        "en": "Reflex arc — fast involuntary response",
+        "ru": "Рефлекторная дуга — быстрый непроизвольный ответ"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 35.1 Neurons and Glial Cells: neurons and synapses",
+          "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+          "language": "en",
+          "section": "35.1 Neurons and Glial Cells: neurons and synapses"
+        },
+        {
+          "title": "OpenStax Biology 2e — 35.3 Spinal Cord: reflexes, white and grey matter",
+          "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+          "language": "en",
+          "section": "35.3 Spinal Cord: reflexes, white and grey matter"
+        }
+      ],
+      "visual": {
+        "path": "bodySystems.sections.nervous.detailed.reflex.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "bodySystems.sections.nutrition",
+      "field": "body",
+      "term": {
+        "en": "Nutrition & balanced diet",
+        "ru": "Питание и сбалансированная диета"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 34.2 Nutrition and Energy Production: food requirements and essential nutrients",
+          "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+          "language": "en",
+          "section": "34.2 Nutrition and Energy Production: food requirements and essential nutrients"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.nutrition.detailed.groups",
+      "field": "rule",
+      "term": {
+        "en": "The 7 food groups",
+        "ru": "7 групп пищи"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 34.2 Nutrition and Energy Production: food requirements and essential nutrients",
+          "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+          "language": "en",
+          "section": "34.2 Nutrition and Energy Production: food requirements and essential nutrients"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.nutrition.detailed.energy",
+      "field": "rule",
+      "term": {
+        "en": "Energy requirements",
+        "ru": "Потребность в энергии"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 34.2 Nutrition and Energy Production: food requirements and essential nutrients",
+          "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+          "language": "en",
+          "section": "34.2 Nutrition and Energy Production: food requirements and essential nutrients"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.nutrition.detailed.deficiency",
+      "field": "rule",
+      "term": {
+        "en": "Malnutrition — overnutrition and undernutrition",
+        "ru": "Недоедание — пере- и недополучение"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 34.2 Nutrition and Energy Production: food requirements and essential nutrients",
+          "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+          "language": "en",
+          "section": "34.2 Nutrition and Energy Production: food requirements and essential nutrients"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.respiration",
+      "field": "body",
+      "term": {
+        "en": "Respiration — aerobic, anaerobic, exercise",
+        "ru": "Дыхание — аэробное, анаэробное, физкультура"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 7.5 Metabolism without Oxygen: anaerobic respiration and fermentation",
+          "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+          "language": "en",
+          "section": "7.5 Metabolism without Oxygen: anaerobic respiration and fermentation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Биологическое окисление: анаэробный этап клеточного дыхания",
+          "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
+          "language": "ru",
+          "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        }
+      ],
+      "visual": {
+        "path": "bodySystems.sections.respiration.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "comparison"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "bodySystems.sections.respiration.detailed.aerobic",
+      "field": "rule",
+      "term": {
+        "en": "Aerobic respiration",
+        "ru": "Аэробное дыхание"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 7.5 Metabolism without Oxygen: anaerobic respiration and fermentation",
+          "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+          "language": "en",
+          "section": "7.5 Metabolism without Oxygen: anaerobic respiration and fermentation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Биологическое окисление: анаэробный этап клеточного дыхания",
+          "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
+          "language": "ru",
+          "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.respiration.detailed.anaerobic",
+      "field": "rule",
+      "term": {
+        "en": "Anaerobic respiration",
+        "ru": "Анаэробное дыхание"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 7.5 Metabolism without Oxygen: anaerobic respiration and fermentation",
+          "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+          "language": "en",
+          "section": "7.5 Metabolism without Oxygen: anaerobic respiration and fermentation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Биологическое окисление: анаэробный этап клеточного дыхания",
+          "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
+          "language": "ru",
+          "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.respiration.detailed.exercise",
+      "field": "rule",
+      "term": {
+        "en": "Body's response to exercise",
+        "ru": "Реакция тела на нагрузку"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 7.5 Metabolism without Oxygen: anaerobic respiration and fermentation",
+          "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+          "language": "en",
+          "section": "7.5 Metabolism without Oxygen: anaerobic respiration and fermentation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Биологическое окисление: анаэробный этап клеточного дыхания",
+          "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
+          "language": "ru",
+          "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e — 10.3",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+          "language": "en",
+          "section": "10.3 Muscle Fatigue: excess post-exercise oxygen consumption and recovery"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.respiration.detailed.oxygenDebt",
+      "field": "rule",
+      "term": {
+        "en": "Oxygen debt and recovery",
+        "ru": "Кислородный долг и восстановление"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 7.5 Metabolism without Oxygen: anaerobic respiration and fermentation",
+          "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+          "language": "en",
+          "section": "7.5 Metabolism without Oxygen: anaerobic respiration and fermentation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Биологическое окисление: анаэробный этап клеточного дыхания",
+          "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
+          "language": "ru",
+          "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e — 10.3",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+          "language": "en",
+          "section": "10.3 Muscle Fatigue: excess post-exercise oxygen consumption and recovery"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.cellularRespiration",
+      "field": "def",
+      "term": {
+        "en": "cellularRespiration",
+        "ru": "cellularRespiration"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 7.5 Metabolism without Oxygen: anaerobic respiration and fermentation",
+          "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+          "language": "en",
+          "section": "7.5 Metabolism without Oxygen: anaerobic respiration and fermentation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Биологическое окисление: анаэробный этап клеточного дыхания",
+          "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
+          "language": "ru",
+          "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.endocrine",
+      "field": "body",
+      "term": {
+        "en": "Endocrine (hormonal) system",
+        "ru": "Эндокринная (гормональная) система"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 37.2 How Hormones Work: receptor binding and hormone action",
+          "url": "https://openstax.org/books/biology-2e/pages/37-2-how-hormones-work",
+          "language": "en",
+          "section": "37.2 How Hormones Work: receptor binding and hormone action"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.endocrine.detailed.comparison",
+      "field": "rule",
+      "term": {
+        "en": "Endocrine vs Nervous — different speeds",
+        "ru": "Эндокринная vs Нервная — разные скорости"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 37.2 How Hormones Work: receptor binding and hormone action",
+          "url": "https://openstax.org/books/biology-2e/pages/37-2-how-hormones-work",
+          "language": "en",
+          "section": "37.2 How Hormones Work: receptor binding and hormone action"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.endocrine.detailed.hormones",
+      "field": "rule",
+      "term": {
+        "en": "Key hormones",
+        "ru": "Главные гормоны"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 37.2 How Hormones Work: receptor binding and hormone action",
+          "url": "https://openstax.org/books/biology-2e/pages/37-2-how-hormones-work",
+          "language": "en",
+          "section": "37.2 How Hormones Work: receptor binding and hormone action"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bodySystems.sections.endocrine.detailed.diabetes",
+      "field": "rule",
+      "term": {
+        "en": "Diabetes — when blood sugar control fails",
+        "ru": "Диабет — когда контроль сахара рушится"
+      },
+      "sources": [
+        {
+          "title": "ВОЗ — Диабет",
+          "url": "https://www.who.int/ru/news-room/fact-sheets/detail/diabetes",
+          "language": "ru",
+          "section": "Общая информация; диабет 1-го и 2-го типов"
+        },
+        {
+          "title": "OpenStax Biology 2e — 37.2 How Hormones Work: receptor binding and hormone action",
+          "url": "https://openstax.org/books/biology-2e/pages/37-2-how-hormones-work",
+          "language": "en",
+          "section": "37.2 How Hormones Work: receptor binding and hormone action"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "extras.homeostasis",
+      "field": "body",
+      "term": {
+        "en": "Homeostasis",
+        "ru": "Гомеостаз"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 37.2 How Hormones Work: receptor binding and hormone action",
+          "url": "https://openstax.org/books/biology-2e/pages/37-2-how-hormones-work",
+          "language": "en",
+          "section": "37.2 How Hormones Work: receptor binding and hormone action"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "extras.photoDepth",
+      "field": "body",
+      "term": {
+        "en": "Photosynthesis — deeper",
+        "ru": "Фотосинтез — глубже"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "OpenStax Biology 2e — 8.3 Using Light Energy to Make Organic Molecules: Calvin cycle",
+          "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "language": "en",
+          "section": "8.3 Using Light Energy to Make Organic Molecules: Calvin cycle"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "photosynthesis.sections.process.detailed.equation",
+      "field": "rule",
+      "term": {
+        "en": "The word and balanced equation",
+        "ru": "Словесное и сбалансированное уравнение"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "OpenStax Biology 2e — 8.3 Using Light Energy to Make Organic Molecules: Calvin cycle",
+          "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "language": "en",
+          "section": "8.3 Using Light Energy to Make Organic Molecules: Calvin cycle"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": {
+        "path": "photosynthesis.sections.process.detailed.equation.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "photosynthesis.sections.process.detailed.location",
+      "field": "rule",
+      "term": {
+        "en": "Where photosynthesis happens",
+        "ru": "Где происходит фотосинтез"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "OpenStax Biology 2e — 8.3 Using Light Energy to Make Organic Molecules: Calvin cycle",
+          "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "language": "en",
+          "section": "8.3 Using Light Energy to Make Organic Molecules: Calvin cycle"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "photosynthesis.sections.process.detailed.factors",
+      "field": "rule",
+      "term": {
+        "en": "Limiting factors",
+        "ru": "Лимитирующие факторы"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "OpenStax Biology 2e — 8.3 Using Light Energy to Make Organic Molecules: Calvin cycle",
+          "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "language": "en",
+          "section": "8.3 Using Light Energy to Make Organic Molecules: Calvin cycle"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "photosynthesis.sections.process.detailed.uses",
+      "field": "rule",
+      "term": {
+        "en": "What plants do with glucose",
+        "ru": "Что растения делают с глюкозой"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "OpenStax Biology 2e — 8.3 Using Light Energy to Make Organic Molecules: Calvin cycle",
+          "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "language": "en",
+          "section": "8.3 Using Light Energy to Make Organic Molecules: Calvin cycle"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "photosynthesis.sections.process.detailed.experiments",
+      "field": "rule",
+      "term": {
+        "en": "Classic photosynthesis experiments",
+        "ru": "Классические опыты по фотосинтезу"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "OpenStax Biology 2e — 8.3 Using Light Energy to Make Organic Molecules: Calvin cycle",
+          "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "language": "en",
+          "section": "8.3 Using Light Energy to Make Organic Molecules: Calvin cycle"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.photosynthesis",
+      "field": "def",
+      "term": {
+        "en": "photosynthesis",
+        "ru": "photosynthesis"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 8.1 Overview of Photosynthesis: structures and summary",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "language": "en",
+          "section": "8.1 Overview of Photosynthesis: structures and summary"
+        },
+        {
+          "title": "OpenStax Biology 2e — 8.3 Using Light Energy to Make Organic Molecules: Calvin cycle",
+          "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "language": "en",
+          "section": "8.3 Using Light Energy to Make Organic Molecules: Calvin cycle"
+        },
+        {
+          "title": "Фоксфорд Учебник — Фотосинтез — питание растений: условия, вещества и энергия",
+          "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+          "language": "ru",
+          "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "photosynthesis.sections.biotech.detailed.definition",
+      "field": "rule",
+      "term": {
+        "en": "What is genetic engineering?",
+        "ru": "Что такое генная инженерия?"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 17.1 Biotechnology: genetic material manipulation and genetic engineering",
+          "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+          "language": "en",
+          "section": "17.1 Biotechnology: genetic material manipulation and genetic engineering"
+        },
+        {
+          "title": "Фоксфорд Учебник — Методы молекулярной биологии и молекулярная биотехнология",
+          "url": "https://foxford.ru/wiki/biologiya/metody-molekulyarnoy-biologii-i-molekulyarnaya-biotehnologiya",
+          "language": "ru",
+          "section": "Методы молекулярной биологии и молекулярная биотехнология"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "photosynthesis.sections.biotech.detailed.techniques",
+      "field": "rule",
+      "term": {
+        "en": "Key techniques",
+        "ru": "Ключевые техники"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 17.1 Biotechnology: genetic material manipulation and genetic engineering",
+          "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+          "language": "en",
+          "section": "17.1 Biotechnology: genetic material manipulation and genetic engineering"
+        },
+        {
+          "title": "Фоксфорд Учебник — Методы молекулярной биологии и молекулярная биотехнология",
+          "url": "https://foxford.ru/wiki/biologiya/metody-molekulyarnoy-biologii-i-molekulyarnaya-biotehnologiya",
+          "language": "ru",
+          "section": "Методы молекулярной биологии и молекулярная биотехнология"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "photosynthesis.sections.biotech.detailed.applications",
+      "field": "rule",
+      "term": {
+        "en": "Applications — medicine, agriculture, industry",
+        "ru": "Применение — медицина, сельское хозяйство, промышленность"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 17.1 Biotechnology: genetic material manipulation and genetic engineering",
+          "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+          "language": "en",
+          "section": "17.1 Biotechnology: genetic material manipulation and genetic engineering"
+        },
+        {
+          "title": "Фоксфорд Учебник — Методы молекулярной биологии и молекулярная биотехнология",
+          "url": "https://foxford.ru/wiki/biologiya/metody-molekulyarnoy-biologii-i-molekulyarnaya-biotehnologiya",
+          "language": "ru",
+          "section": "Методы молекулярной биологии и молекулярная биотехнология"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "photosynthesis.sections.biotech.detailed.ethics",
+      "field": "rule",
+      "term": {
+        "en": "Ethical and biological concerns",
+        "ru": "Этические и биологические проблемы"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 17.1 Biotechnology: genetic material manipulation and genetic engineering",
+          "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+          "language": "en",
+          "section": "17.1 Biotechnology: genetic material manipulation and genetic engineering"
+        },
+        {
+          "title": "Фоксфорд Учебник — Методы молекулярной биологии и молекулярная биотехнология",
+          "url": "https://foxford.ru/wiki/biologiya/metody-molekulyarnoy-biologii-i-molekulyarnaya-biotehnologiya",
+          "language": "ru",
+          "section": "Методы молекулярной биологии и молекулярная биотехнология"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "ecology.sections.levels",
+      "field": "body",
+      "term": {
+        "en": "Levels of organisation",
+        "ru": "Уровни организации"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 46.1 Ecology of Ecosystems: levels and ecosystem models",
+          "url": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+          "language": "en",
+          "section": "46.1 Ecology of Ecosystems: levels and ecosystem models"
+        },
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        },
+        {
+          "title": "Фоксфорд Учебник — Цепи и сети питания. Экологическая пирамида",
+          "url": "https://foxford.ru/wiki/biologiya/tsepi-i-seti-pitaniya-ekologicheskaya-piramida",
+          "language": "ru",
+          "section": "Цепи и сети питания. Экологическая пирамида"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "ecology.sections.foodChains",
+      "field": "body",
+      "term": {
+        "en": "Food chains and webs",
+        "ru": "Пищевые цепи и сети"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 46.1 Ecology of Ecosystems: levels and ecosystem models",
+          "url": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+          "language": "en",
+          "section": "46.1 Ecology of Ecosystems: levels and ecosystem models"
+        },
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        },
+        {
+          "title": "Фоксфорд Учебник — Цепи и сети питания. Экологическая пирамида",
+          "url": "https://foxford.ru/wiki/biologiya/tsepi-i-seti-pitaniya-ekologicheskaya-piramida",
+          "language": "ru",
+          "section": "Цепи и сети питания. Экологическая пирамида"
+        }
+      ],
+      "visual": {
+        "path": "ecology.sections.foodChains.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "ecology.sections.carbonCycle",
+      "field": "body",
+      "term": {
+        "en": "Carbon cycle",
+        "ru": "Углеродный цикл"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "ecology.sections.waterCycle",
+      "field": "body",
+      "term": {
+        "en": "Water cycle",
+        "ru": "Круговорот воды"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "ecology.sections.humanImpact",
+      "field": "body",
+      "term": {
+        "en": "Human impacts",
+        "ru": "Влияние человека"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 47.1 The Biodiversity Crisis: types of biodiversity",
+          "url": "https://openstax.org/books/biology-2e/pages/47-1-the-biodiversity-crisis",
+          "language": "en",
+          "section": "47.1 The Biodiversity Crisis: types of biodiversity"
+        },
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        },
+        {
+          "title": "Фоксфорд Учебник — Цепи и сети питания. Экологическая пирамида",
+          "url": "https://foxford.ru/wiki/biologiya/tsepi-i-seti-pitaniya-ekologicheskaya-piramida",
+          "language": "ru",
+          "section": "Цепи и сети питания. Экологическая пирамида"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.ecosystem",
+      "field": "def",
+      "term": {
+        "en": "ecosystem",
+        "ru": "ecosystem"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 46.1 Ecology of Ecosystems: levels and ecosystem models",
+          "url": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+          "language": "en",
+          "section": "46.1 Ecology of Ecosystems: levels and ecosystem models"
+        },
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        },
+        {
+          "title": "Фоксфорд Учебник — Цепи и сети питания. Экологическая пирамида",
+          "url": "https://foxford.ru/wiki/biologiya/tsepi-i-seti-pitaniya-ekologicheskaya-piramida",
+          "language": "ru",
+          "section": "Цепи и сети питания. Экологическая пирамида"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.foodWeb",
+      "field": "def",
+      "term": {
+        "en": "foodWeb",
+        "ru": "foodWeb"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 46.1 Ecology of Ecosystems: levels and ecosystem models",
+          "url": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+          "language": "en",
+          "section": "46.1 Ecology of Ecosystems: levels and ecosystem models"
+        },
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        },
+        {
+          "title": "Фоксфорд Учебник — Цепи и сети питания. Экологическая пирамида",
+          "url": "https://foxford.ru/wiki/biologiya/tsepi-i-seti-pitaniya-ekologicheskaya-piramida",
+          "language": "ru",
+          "section": "Цепи и сети питания. Экологическая пирамида"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.biodiversity",
+      "field": "def",
+      "term": {
+        "en": "biodiversity",
+        "ru": "biodiversity"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 47.1 The Biodiversity Crisis: types of biodiversity",
+          "url": "https://openstax.org/books/biology-2e/pages/47-1-the-biodiversity-crisis",
+          "language": "en",
+          "section": "47.1 The Biodiversity Crisis: types of biodiversity"
+        },
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        },
+        {
+          "title": "Фоксфорд Учебник — Цепи и сети питания. Экологическая пирамида",
+          "url": "https://foxford.ru/wiki/biologiya/tsepi-i-seti-pitaniya-ekologicheskaya-piramida",
+          "language": "ru",
+          "section": "Цепи и сети питания. Экологическая пирамида"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "simulations.punnett",
+      "field": "description",
+      "term": {
+        "en": "Punnett Square",
+        "ru": "Решётка Пеннета"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 12.1 Mendel’s Experiments and the Laws of Probability",
+          "url": "https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability",
+          "language": "en",
+          "section": "12.1 Mendel’s Experiments and the Laws of Probability"
+        },
+        {
+          "title": "Фоксфорд Учебник — Первый закон Менделя: генотип, фенотип и взаимодействие аллелей",
+          "url": "https://foxford.ru/wiki/biologiya/pervyy-zakon-mendelya-tipy-vzaimodeystviya-allelnyh-genov",
+          "language": "ru",
+          "section": "Первый закон Менделя: генотип, фенотип и взаимодействие аллелей"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/PunnettSquare.tsx",
+        "kind": "probability table"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "extras.genetics",
+      "field": "body",
+      "term": {
+        "en": "Genetics — mutations and codons",
+        "ru": "Генетика — мутации и кодоны"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 12.1 Mendel’s Experiments and the Laws of Probability",
+          "url": "https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability",
+          "language": "en",
+          "section": "12.1 Mendel’s Experiments and the Laws of Probability"
+        },
+        {
+          "title": "Фоксфорд Учебник — Первый закон Менделя: генотип, фенотип и взаимодействие аллелей",
+          "url": "https://foxford.ru/wiki/biologiya/pervyy-zakon-mendelya-tipy-vzaimodeystviya-allelnyh-genov",
+          "language": "ru",
+          "section": "Первый закон Менделя: генотип, фенотип и взаимодействие аллелей"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.dna",
+      "field": "body",
+      "term": {
+        "en": "DNA",
+        "ru": "ДНК"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 14.2 DNA Structure and Sequencing",
+          "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+          "language": "en",
+          "section": "14.2 DNA Structure and Sequencing"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.mitosis",
+      "field": "body",
+      "term": {
+        "en": "Mitosis",
+        "ru": "Митоз"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 10.2 The Cell Cycle: mitosis and cytokinesis",
+          "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+          "language": "en",
+          "section": "10.2 The Cell Cycle: mitosis and cytokinesis"
+        },
+        {
+          "title": "Фоксфорд Учебник — Клеточное деление: типы деления эукариот и митоз",
+          "url": "https://foxford.ru/wiki/biologiya/kletochnoe-delenie-mitoz",
+          "language": "ru",
+          "section": "Клеточное деление: типы деления эукариот и митоз"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.meiosis",
+      "field": "body",
+      "term": {
+        "en": "Meiosis",
+        "ru": "Мейоз"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 11.1 The Process of Meiosis: meiosis I and II",
+          "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+          "language": "en",
+          "section": "11.1 The Process of Meiosis: meiosis I and II"
+        },
+        {
+          "title": "Фоксфорд Учебник — Мейоз: общая характеристика, гаметогенез и спорообразование",
+          "url": "https://foxford.ru/wiki/biologiya/meyoz-i-ego-biologicheskoe-znachenie",
+          "language": "ru",
+          "section": "Мейоз: общая характеристика, гаметогенез и спорообразование"
+        }
+      ],
+      "visual": {
+        "path": "genetics.sections.meiosis.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "genetics.sections.inheritance",
+      "field": "body",
+      "term": {
+        "en": "Inheritance",
+        "ru": "Наследование"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 12.1 Mendel’s Experiments and the Laws of Probability",
+          "url": "https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability",
+          "language": "en",
+          "section": "12.1 Mendel’s Experiments and the Laws of Probability"
+        },
+        {
+          "title": "Фоксфорд Учебник — Первый закон Менделя: генотип, фенотип и взаимодействие аллелей",
+          "url": "https://foxford.ru/wiki/biologiya/pervyy-zakon-mendelya-tipy-vzaimodeystviya-allelnyh-genov",
+          "language": "ru",
+          "section": "Первый закон Менделя: генотип, фенотип и взаимодействие аллелей"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/biology/PunnettSquare.tsx",
+        "kind": "probability table"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "genetics.sections.variation",
+      "field": "body",
+      "term": {
+        "en": "Variation",
+        "ru": "Изменчивость"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 12.1 Mendel’s Experiments and the Laws of Probability",
+          "url": "https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability",
+          "language": "en",
+          "section": "12.1 Mendel’s Experiments and the Laws of Probability"
+        },
+        {
+          "title": "Фоксфорд Учебник — Первый закон Менделя: генотип, фенотип и взаимодействие аллелей",
+          "url": "https://foxford.ru/wiki/biologiya/pervyy-zakon-mendelya-tipy-vzaimodeystviya-allelnyh-genov",
+          "language": "ru",
+          "section": "Первый закон Менделя: генотип, фенотип и взаимодействие аллелей"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.variation.detailed.sources",
+      "field": "rule",
+      "term": {
+        "en": "Sources of variation",
+        "ru": "Источники изменчивости"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 12.1 Mendel’s Experiments and the Laws of Probability",
+          "url": "https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability",
+          "language": "en",
+          "section": "12.1 Mendel’s Experiments and the Laws of Probability"
+        },
+        {
+          "title": "Фоксфорд Учебник — Первый закон Менделя: генотип, фенотип и взаимодействие аллелей",
+          "url": "https://foxford.ru/wiki/biologiya/pervyy-zakon-mendelya-tipy-vzaimodeystviya-allelnyh-genov",
+          "language": "ru",
+          "section": "Первый закон Менделя: генотип, фенотип и взаимодействие аллелей"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.variation.detailed.continuous",
+      "field": "rule",
+      "term": {
+        "en": "Continuous vs discontinuous variation",
+        "ru": "Непрерывная vs прерывистая изменчивость"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 12.1 Mendel’s Experiments and the Laws of Probability",
+          "url": "https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability",
+          "language": "en",
+          "section": "12.1 Mendel’s Experiments and the Laws of Probability"
+        },
+        {
+          "title": "Фоксфорд Учебник — Первый закон Менделя: генотип, фенотип и взаимодействие аллелей",
+          "url": "https://foxford.ru/wiki/biologiya/pervyy-zakon-mendelya-tipy-vzaimodeystviya-allelnyh-genov",
+          "language": "ru",
+          "section": "Первый закон Менделя: генотип, фенотип и взаимодействие аллелей"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.dna",
+      "field": "def",
+      "term": {
+        "en": "dna",
+        "ru": "dna"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 14.2 DNA Structure and Sequencing",
+          "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+          "language": "en",
+          "section": "14.2 DNA Structure and Sequencing"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.mitosis",
+      "field": "def",
+      "term": {
+        "en": "mitosis",
+        "ru": "mitosis"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 10.2 The Cell Cycle: mitosis and cytokinesis",
+          "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+          "language": "en",
+          "section": "10.2 The Cell Cycle: mitosis and cytokinesis"
+        },
+        {
+          "title": "Фоксфорд Учебник — Клеточное деление: типы деления эукариот и митоз",
+          "url": "https://foxford.ru/wiki/biologiya/kletochnoe-delenie-mitoz",
+          "language": "ru",
+          "section": "Клеточное деление: типы деления эукариот и митоз"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.meiosis",
+      "field": "def",
+      "term": {
+        "en": "meiosis",
+        "ru": "meiosis"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 11.1 The Process of Meiosis: meiosis I and II",
+          "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+          "language": "en",
+          "section": "11.1 The Process of Meiosis: meiosis I and II"
+        },
+        {
+          "title": "Фоксфорд Учебник — Мейоз: общая характеристика, гаметогенез и спорообразование",
+          "url": "https://foxford.ru/wiki/biologiya/meyoz-i-ego-biologicheskoe-znachenie",
+          "language": "ru",
+          "section": "Мейоз: общая характеристика, гаметогенез и спорообразование"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.evolution",
+      "field": "body",
+      "term": {
+        "en": "Evolution by natural selection",
+        "ru": "Эволюция путём естественного отбора"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 18.1 Understanding Evolution: natural selection and evidence",
+          "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+          "language": "en",
+          "section": "18.1 Understanding Evolution: natural selection and evidence"
+        },
+        {
+          "title": "Фоксфорд Учебник — Естественный отбор: механизмы и формы",
+          "url": "https://foxford.ru/wiki/biologiya/estestvennyy-otbor-ego-mehanizmy-i-formy",
+          "language": "ru",
+          "section": "Естественный отбор: механизмы и формы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.evolution.detailed.naturalSelection",
+      "field": "rule",
+      "term": {
+        "en": "Natural selection — 4 steps",
+        "ru": "Естественный отбор — 4 шага"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 18.1 Understanding Evolution: natural selection and evidence",
+          "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+          "language": "en",
+          "section": "18.1 Understanding Evolution: natural selection and evidence"
+        },
+        {
+          "title": "Фоксфорд Учебник — Естественный отбор: механизмы и формы",
+          "url": "https://foxford.ru/wiki/biologiya/estestvennyy-otbor-ego-mehanizmy-i-formy",
+          "language": "ru",
+          "section": "Естественный отбор: механизмы и формы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.evolution.detailed.speciation",
+      "field": "rule",
+      "term": {
+        "en": "Speciation — how new species form",
+        "ru": "Видообразование — как возникают новые виды"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 18.1 Understanding Evolution: natural selection and evidence",
+          "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+          "language": "en",
+          "section": "18.1 Understanding Evolution: natural selection and evidence"
+        },
+        {
+          "title": "Фоксфорд Учебник — Естественный отбор: механизмы и формы",
+          "url": "https://foxford.ru/wiki/biologiya/estestvennyy-otbor-ego-mehanizmy-i-formy",
+          "language": "ru",
+          "section": "Естественный отбор: механизмы и формы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.evolution.detailed.evidence",
+      "field": "rule",
+      "term": {
+        "en": "Evidence for evolution",
+        "ru": "Доказательства эволюции"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 18.1 Understanding Evolution: natural selection and evidence",
+          "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+          "language": "en",
+          "section": "18.1 Understanding Evolution: natural selection and evidence"
+        },
+        {
+          "title": "Фоксфорд Учебник — Естественный отбор: механизмы и формы",
+          "url": "https://foxford.ru/wiki/biologiya/estestvennyy-otbor-ego-mehanizmy-i-formy",
+          "language": "ru",
+          "section": "Естественный отбор: механизмы и формы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "genetics.sections.evolution.detailed.humanEvolution",
+      "field": "rule",
+      "term": {
+        "en": "Human evolution",
+        "ru": "Эволюция человека"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 18.1 Understanding Evolution: natural selection and evidence",
+          "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+          "language": "en",
+          "section": "18.1 Understanding Evolution: natural selection and evidence"
+        },
+        {
+          "title": "Фоксфорд Учебник — Естественный отбор: механизмы и формы",
+          "url": "https://foxford.ru/wiki/biologiya/estestvennyy-otbor-ego-mehanizmy-i-formy",
+          "language": "ru",
+          "section": "Естественный отбор: механизмы и формы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.evolution",
+      "field": "def",
+      "term": {
+        "en": "evolution",
+        "ru": "evolution"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 18.1 Understanding Evolution: natural selection and evidence",
+          "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+          "language": "en",
+          "section": "18.1 Understanding Evolution: natural selection and evidence"
+        },
+        {
+          "title": "Фоксфорд Учебник — Естественный отбор: механизмы и формы",
+          "url": "https://foxford.ru/wiki/biologiya/estestvennyy-otbor-ego-mehanizmy-i-formy",
+          "language": "ru",
+          "section": "Естественный отбор: механизмы и формы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.diseaseTypes.detailed.communicable",
+      "field": "rule",
+      "term": {
+        "en": "Communicable (infectious) diseases",
+        "ru": "Заразные (инфекционные) болезни"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 21.1 Viral Evolution, Morphology, and Classification",
+          "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+          "language": "en",
+          "section": "21.1 Viral Evolution, Morphology, and Classification"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "CDC — About COVID-19",
+          "url": "https://www.cdc.gov/covid/about/index.html",
+          "language": "en",
+          "section": "How COVID-19 spreads: infectious respiratory droplets and very small particles"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.diseaseTypes.detailed.nonCommunicable",
+      "field": "rule",
+      "term": {
+        "en": "Non-communicable diseases",
+        "ru": "Незаразные болезни"
+      },
+      "sources": [
+        {
+          "title": "ВОЗ — Неинфекционные заболевания",
+          "url": "https://www.who.int/ru/news-room/fact-sheets/detail/noncommunicable-diseases",
+          "language": "ru",
+          "section": "Факторы риска и виды неинфекционных заболеваний"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.diseaseTypes.detailed.lifestyle",
+      "field": "rule",
+      "term": {
+        "en": "Lifestyle risk factors",
+        "ru": "Факторы образа жизни"
+      },
+      "sources": [
+        {
+          "title": "ВОЗ — Неинфекционные заболевания",
+          "url": "https://www.who.int/ru/news-room/fact-sheets/detail/noncommunicable-diseases",
+          "language": "ru",
+          "section": "Факторы риска и виды неинфекционных заболеваний"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.diseaseTypes.detailed.global",
+      "field": "rule",
+      "term": {
+        "en": "Global patterns",
+        "ru": "Глобальные паттерны"
+      },
+      "sources": [
+        {
+          "title": "ВОЗ — Неинфекционные заболевания",
+          "url": "https://www.who.int/ru/news-room/fact-sheets/detail/noncommunicable-diseases",
+          "language": "ru",
+          "section": "Факторы риска и виды неинфекционных заболеваний"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.pathogens",
+      "field": "body",
+      "term": {
+        "en": "Pathogens — the four types",
+        "ru": "Патогены — четыре типа"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 21.1 Viral Evolution, Morphology, and Classification",
+          "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+          "language": "en",
+          "section": "21.1 Viral Evolution, Morphology, and Classification"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.pathogens.detailed.bacteria",
+      "field": "rule",
+      "term": {
+        "en": "Bacterial pathogens",
+        "ru": "Бактериальные патогены"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 21.1 Viral Evolution, Morphology, and Classification",
+          "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+          "language": "en",
+          "section": "21.1 Viral Evolution, Morphology, and Classification"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.pathogens.detailed.viruses",
+      "field": "rule",
+      "term": {
+        "en": "Viral pathogens",
+        "ru": "Вирусные патогены"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 21.1 Viral Evolution, Morphology, and Classification",
+          "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+          "language": "en",
+          "section": "21.1 Viral Evolution, Morphology, and Classification"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.pathogens.detailed.fungi",
+      "field": "rule",
+      "term": {
+        "en": "Fungal pathogens",
+        "ru": "Грибковые патогены"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 21.1 Viral Evolution, Morphology, and Classification",
+          "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+          "language": "en",
+          "section": "21.1 Viral Evolution, Morphology, and Classification"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.pathogens.detailed.protists",
+      "field": "rule",
+      "term": {
+        "en": "Protist pathogens",
+        "ru": "Протистовые патогены"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 21.1 Viral Evolution, Morphology, and Classification",
+          "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+          "language": "en",
+          "section": "21.1 Viral Evolution, Morphology, and Classification"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.barriers",
+      "field": "body",
+      "term": {
+        "en": "Non-specific defences",
+        "ru": "Неспецифическая защита"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.immuneResponse",
+      "field": "body",
+      "term": {
+        "en": "Immune response (specific)",
+        "ru": "Иммунный ответ (специфический)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 42.2 Adaptive Immune Response: antigens, lymphocytes and memory",
+          "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+          "language": "en",
+          "section": "42.2 Adaptive Immune Response: antigens, lymphocytes and memory"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.vaccination",
+      "field": "body",
+      "term": {
+        "en": "Vaccination",
+        "ru": "Вакцинация"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 42.2 Adaptive Immune Response: antigens, lymphocytes and memory",
+          "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+          "language": "en",
+          "section": "42.2 Adaptive Immune Response: antigens, lymphocytes and memory"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "immune.sections.antibiotics",
+      "field": "body",
+      "term": {
+        "en": "Antibiotics",
+        "ru": "Антибиотики"
+      },
+      "sources": [
+        {
+          "title": "ВОЗ — Устойчивость к противомикробным препаратам",
+          "url": "https://www.who.int/ru/news-room/fact-sheets/detail/antimicrobial-resistance",
+          "language": "ru",
+          "section": "Общая информация и причины устойчивости"
+        },
+        {
+          "title": "OpenStax Biology 2e — 17.1 Biotechnology: genetic material manipulation and genetic engineering",
+          "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+          "language": "en",
+          "section": "17.1 Biotechnology: genetic material manipulation and genetic engineering"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "glossary.terms.immuneSystem",
+      "field": "def",
+      "term": {
+        "en": "immuneSystem",
+        "ru": "immuneSystem"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 42.2 Adaptive Immune Response: antigens, lymphocytes and memory",
+          "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+          "language": "en",
+          "section": "42.2 Adaptive Immune Response: antigens, lymphocytes and memory"
+        },
+        {
+          "title": "OpenStax Biology 2e — 42.1 Innate Immune Response: physical and chemical barriers",
+          "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+          "language": "en",
+          "section": "42.1 Innate Immune Response: physical and chemical barriers"
+        },
+        {
+          "title": "Фоксфорд Учебник — Иммунная система: барьеры и органы иммунной системы",
+          "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
+          "language": "ru",
+          "section": "Иммунная система: барьеры и органы иммунной системы"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "experiment.sections.hypothesis",
+      "field": "body",
+      "term": {
+        "en": "Hypothesis",
+        "ru": "Гипотеза"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 1.1 The Science of Biology: the scientific method",
+          "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+          "language": "en",
+          "section": "1.1 The Science of Biology: the scientific method"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "experiment.sections.method",
+      "field": "body",
+      "term": {
+        "en": "Method",
+        "ru": "Метод"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 1.1 The Science of Biology: the scientific method",
+          "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+          "language": "en",
+          "section": "1.1 The Science of Biology: the scientific method"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "experiment.sections.data",
+      "field": "body",
+      "term": {
+        "en": "Data collection and analysis",
+        "ru": "Сбор данных и анализ"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 1.1 The Science of Biology: the scientific method",
+          "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+          "language": "en",
+          "section": "1.1 The Science of Biology: the scientific method"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "experiment.sections.evaluation",
+      "field": "body",
+      "term": {
+        "en": "Evaluation",
+        "ru": "Оценка"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e — 1.1 The Science of Biology: the scientific method",
+          "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+          "language": "en",
+          "section": "1.1 The Science of Biology: the scientific method"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    }
+  ]
+}

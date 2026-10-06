@@ -80,7 +80,7 @@ export function TerminalVelocity() {
   return (
     <SimulationPanel title={t('forceMotion.sim2.title')} description={t('forceMotion.sim2.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6">
-        <canvas
+        <canvas role="img" aria-label={t('forceMotion.sim2.desc')}
           ref={canvasRef}
           width={W}
           height={H}

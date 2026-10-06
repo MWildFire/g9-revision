@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { Shield } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { BiologyTopicLayout, InfoSection } from '../components/BiologyTopicLayout';
@@ -21,6 +22,8 @@ export function ImmunePage() {
       />
       <InfoSection
         title={t('immune.sections.pathogens.title')}
+        body={t('immune.sections.pathogens.body')}
+        review={t('immune.sections.pathogens.review', { returnObjects: true }) as DefinitionReview}
         detailedItems={pathogens}
         borderColor="var(--color-accent-warm)"
       />
@@ -28,7 +31,7 @@ export function ImmunePage() {
         <InfoSection
           key={s}
           title={t(`immune.sections.${s}.title`)}
-          body={t(`immune.sections.${s}.body`)}
+          body={t(`immune.sections.${s}.body`)} review={t(`immune.sections.${s}.review`, { returnObjects: true }) as DefinitionReview}
           borderColor="var(--color-accent-sage)"
         />
       ))}

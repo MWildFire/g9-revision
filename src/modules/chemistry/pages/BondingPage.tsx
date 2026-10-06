@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { Link as LinkIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
@@ -11,17 +12,17 @@ export function BondingPage() {
     <ChemistryTopicLayout topicKey="bonding" icon={<LinkIcon size={28} />}>
       <ChemSection
         title={t('bonding.sections.ionic.title')}
-        body={t('bonding.sections.ionic.body')}
+        body={t('bonding.sections.ionic.body')} review={t('bonding.sections.ionic.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-warm)"
       />
       <ChemSection
         title={t('bonding.sections.covalent.title')}
-        body={t('bonding.sections.covalent.body')}
+        body={t('bonding.sections.covalent.body')} review={t('bonding.sections.covalent.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-sage)"
       />
       <ChemSection
         title={t('bonding.sections.metallic.title')}
-        body={t('bonding.sections.metallic.body')}
+        body={t('bonding.sections.metallic.body')} review={t('bonding.sections.metallic.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-sky-deep)"
       />
       <ChemSection

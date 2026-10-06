@@ -1,3 +1,4 @@
+import { ENGLISH_REVIEWS } from '../../../definitions/english';
 import { FileText } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero } from '../../../components/content/TopicHero';
@@ -18,7 +19,7 @@ export function TextTypesPage() {
       <div className="space-y-3 mt-8">
         {TYPES.map((id) => {
           const item = t(`textTypes.${id}`, { returnObjects: true }) as DetailedItem;
-          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-sand)" labels={labels} />;
+          return <DetailedCard key={id} item={{ ...item, review: ENGLISH_REVIEWS[`textTypes.${id}`] }} borderColor="var(--color-accent-sand)" labels={labels} />;
         })}
       </div>
     </div>

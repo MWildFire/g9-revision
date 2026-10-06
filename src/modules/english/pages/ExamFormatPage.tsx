@@ -1,9 +1,11 @@
+import { ENGLISH_REVIEWS } from '../../../definitions/english';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { useTranslation } from 'react-i18next';
 import { ClipboardCheck } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 
 export function ExamFormatPage() {
-  const { t } = useTranslation('english');
+  const { t, i18n } = useTranslation('english');
   const structure = (t('examFormatPage.structure.items', { returnObjects: true }) as string[]) ?? [];
   const marks = (t('examFormatPage.markScheme.items', { returnObjects: true }) as string[]) ?? [];
   const checks = (t('examFormatPage.selfCheck.items', { returnObjects: true }) as string[]) ?? [];
@@ -24,6 +26,7 @@ export function ExamFormatPage() {
         {t('examFormatPage.q1eStructure.body')}
       </p>
 
+      <DefinitionSupport review={ENGLISH_REVIEWS['examFormatPage.q1eStructure']} language={i18n.language.startsWith('ru') ? 'ru' : 'en'} />
       <SectionHeading>{t('examFormatPage.markScheme.title')}</SectionHeading>
       <ul className="space-y-2">
         {marks.map((m, i) => (

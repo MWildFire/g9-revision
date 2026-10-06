@@ -17,54 +17,272 @@
     "intro": "Темы за рамками revision-листа G9. Для любознательных и предпросмотр IB DP.",
     "relativity": {
       "title": "Специальная теория относительности — введение",
-      "body": "Два постулата (Эйнштейн, 1905): законы физики одинаковы во всех инерциальных системах отсчёта; скорость света постоянна для всех наблюдателей (c ≈ 3 × 10⁸ м/с). Следствия: движущиеся часы идут медленнее (замедление времени), движущиеся объекты сокращаются (сокращение длины), и E = mc² (эквивалентность массы и энергии)."
+      "body": "Специальная теория относительности описывает измерения в инерциальных системах. Её постулаты: законы физики имеют одинаковый вид во всех таких системах, а скорость света в вакууме c одинакова для всех инерциальных наблюдателей. Относительное движение влияет на измеренные интервалы времени и длины; энергия покоя E₀ = mc².",
+      "review": {
+        "englishTerm": "Special relativity — intro",
+        "russianTerm": "Специальная теория относительности — введение",
+        "contrast": {
+          "en": "Rest energy is not the whole energy of a moving particle.",
+          "ru": "Энергия покоя не равна полной энергии движущейся частицы."
+        },
+        "model": {
+          "en": "Length contraction concerns the direction of relative motion and simultaneous endpoint measurements in the observer’s frame.",
+          "ru": "Сокращение длины относится к направлению движения и одновременным измерениям концов в системе наблюдателя."
+        },
+        "sources": [
+          {
+            "title": "OpenStax · College Physics 2e",
+            "url": "https://openstax.org/books/college-physics-2e/pages/28-1-einsteins-postulates",
+            "language": "en",
+            "section": "28 1 einsteins postulates"
+          },
+          {
+            "title": "OpenStax · College Physics 2e",
+            "url": "https://openstax.org/books/college-physics-2e/pages/28-6-relativistic-energy",
+            "language": "en",
+            "section": "28 6 relativistic energy"
+          }
+        ]
+      }
     },
     "quantum": {
       "title": "Квантовая механика — введение",
-      "body": "Энергия и материя приходят дискретными порциями (квантами). Энергия фотона E = hf, где h ≈ 6.63 × 10⁻³⁴ Дж·с. Корпускулярно-волновой дуализм: электроны и фотоны ведут себя и как частицы, и как волны. Принцип неопределённости: нельзя знать положение и импульс одновременно с идеальной точностью."
+      "body": "Квантовая механика описывает микроскопические системы с помощью состояний и вероятностей. У связанных систем возможны дискретные разрешённые энергии. Свет обменивается энергией фотонами, энергия каждого E = hf. Квантовые объекты дают интерференцию и локализованные события регистрации.",
+      "review": {
+        "englishTerm": "Quantum mechanics — intro",
+        "russianTerm": "Квантовая механика — введение",
+        "contrast": {
+          "en": "Quantisation does not mean that every physical quantity always has only discrete values.",
+          "ru": "Квантование не означает, что любая физическая величина всегда принимает только дискретные значения."
+        },
+        "model": {
+          "en": "Position and momentum distributions obey an uncertainty relation; this is not merely a limitation of imperfect instruments.",
+          "ru": "Распределения координаты и импульса связаны соотношением неопределённостей; это не просто недостаток измерительных приборов."
+        },
+        "sources": [
+          {
+            "title": "OpenStax · College Physics 2e",
+            "url": "https://openstax.org/books/college-physics-2e/pages/29-1-quantization-of-energy",
+            "language": "en",
+            "section": "29 1 quantization of energy"
+          },
+          {
+            "title": "OpenStax · College Physics 2e",
+            "url": "https://openstax.org/books/college-physics-2e/pages/29-7-probability-the-heisenberg-uncertainty-principle",
+            "language": "en",
+            "section": "29 7 probability the heisenberg uncertainty principle"
+          }
+        ]
+      }
     },
     "thermo": {
       "title": "Термодинамика — законы",
       "items": [
-        "Нулевой закон — если A в тепловом равновесии с B, а B с C, то A с C. Определяет температуру.",
-        "Первый закон — энергия сохраняется: ΔU = Q − W (полученное тепло минус совершённая работа).",
-        "Второй закон — энтропия изолированной системы не убывает. Почему тепло течёт от горячего к холодному.",
-        "Третий закон — энтропия стремится к константе при T → 0 К."
+        "Если A и B находятся в тепловом равновесии с C, они находятся в тепловом равновесии друг с другом. При возможности теплопередачи между ними нет результирующего потока теплоты. Это позволяет использовать общую температурную шкалу.",
+        "Первый закон выражает сохранение энергии: ΔU = Q − W, где Q положительно при передаче теплоты системе, W — при работе системы над окружением. U — внутренняя энергия.",
+        "Полная энтропия изолированной системы не уменьшается. В идеальном обратимом процессе она постоянна, в необратимом растёт. Энтропия связана с распределением энергии по доступным микроскопическим состояниям; «беспорядок» — лишь приблизительная аналогия.",
+        "Для идеального кристалла с единственным основным состоянием энтропия стремится к нулю при приближении температуры к 0 К. Абсолютного нуля нельзя достичь конечным термодинамическим процессом охлаждения."
       ],
       "detailed": {
         "zeroth": {
           "name": "Нулевой закон термодинамики",
-          "rule": "Если A в тепловом равновесии с B, а B с C, то A и C в тепловом равновесии. Это ОПРЕДЕЛЯЕТ температуру: два объекта в тепловом равновесии имеют одинаковую температуру.",
-          "examples": ["Термометр (A) показывает температуру тела (C) через третий объект (B = сам термометр).", "Две кастрюли воды по 80°C не обмениваются нетто-теплом при соединении — одинаковая температура.", "Холодное молоко в горячий кофе: после уравнивания — общая температура."],
-          "tip": "Назван «нулевым», т.к. открыт ПОСЛЕ других, но логически более фундаментален — без него нельзя определить температуру."
+          "rule": "Если A и B находятся в тепловом равновесии с C, они находятся в тепловом равновесии друг с другом. При возможности теплопередачи между ними нет результирующего потока теплоты. Это позволяет использовать общую температурную шкалу.",
+          "examples": [
+            "Если термометр в равновесии показывает одинаковую температуру в двух ваннах, температуры ванн одинаковы."
+          ],
+          "review": {
+            "englishTerm": "Zeroth law of thermodynamics",
+            "russianTerm": "Нулевой закон термодинамики",
+            "contrast": {
+              "en": "Equal temperatures do not imply equal internal energies.",
+              "ru": "Одинаковые температуры не означают одинаковые внутренние энергии."
+            },
+            "model": {
+              "en": "Objects must be allowed to reach thermal equilibrium before a thermometer reading represents their temperature.",
+              "ru": "Показание термометра соответствует температуре тела после установления теплового равновесия."
+            },
+            "sources": [
+              {
+                "title": "OpenStax · College Physics 2e",
+                "url": "https://openstax.org/books/college-physics-2e/pages/14-1-heat",
+                "language": "en",
+                "section": "14 1 heat"
+              },
+              {
+                "title": "OpenStax · College Physics 2e",
+                "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics",
+                "language": "en",
+                "section": "15 1 the first law of thermodynamics"
+              },
+              {
+                "title": "Физикон · Открытая физика",
+                "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph9/theory.html",
+                "language": "ru",
+                "section": "3.9. Первый закон термодинамики"
+              }
+            ]
+          }
         },
         "first": {
           "name": "Первый закон (сохранение энергии)",
-          "rule": "Энергия не создаётся и не уничтожается, только ПРЕОБРАЗУЕТСЯ. ΔU = Q − W. ΔU = изменение внутренней энергии. Q = тепло, переданное СИСТЕМЕ. W = работа, совершённая СИСТЕМОЙ. Тепло прибавляет энергию; работа наружу отнимает.",
-          "examples": ["Нагрей 1 л воды (Q = 4180 Дж): температура растёт на 1°C (ΔU = +4180 Дж, работы нет, W = 0).", "Толкаешь поршень в сжатый газ: работа совершается НАД газом (W < 0 в этой записи), газ нагревается.", "Сжигание бензина в машине: химия → кинетика + тепло. Полная энергия сохраняется.", "Вечный двигатель НЕВОЗМОЖЕН — нарушал бы этот закон."],
-          "tip": "Сохранение энергии — один из самых проверяемых на экзамене принципов. Упомяни «энергия сохраняется» в любом ответе о превращениях."
+          "rule": "Первый закон выражает сохранение энергии: ΔU = Q − W, где Q положительно при передаче теплоты системе, W — при работе системы над окружением. U — внутренняя энергия.",
+          "examples": [
+            "Передай системе 100 Дж теплоты, пока она совершает работу 30 Дж: ΔU = 70 Дж."
+          ],
+          "review": {
+            "englishTerm": "First law (conservation of energy)",
+            "russianTerm": "Первый закон (сохранение энергии)",
+            "contrast": {
+              "en": "Heat and work are transfer processes; internal energy is a state quantity.",
+              "ru": "Теплота и работа характеризуют передачу энергии; внутренняя энергия — состояние."
+            },
+            "model": {
+              "en": "Other textbooks may define work done on the system as positive and write ΔU = Q + Won. State your convention.",
+              "ru": "Другие учебники считают положительной работу над системой и пишут ΔU = Q + Wнад. Укажи соглашение о знаках."
+            },
+            "sources": [
+              {
+                "title": "OpenStax · College Physics 2e",
+                "url": "https://openstax.org/books/college-physics-2e/pages/14-1-heat",
+                "language": "en",
+                "section": "14 1 heat"
+              },
+              {
+                "title": "OpenStax · College Physics 2e",
+                "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics",
+                "language": "en",
+                "section": "15 1 the first law of thermodynamics"
+              },
+              {
+                "title": "Физикон · Открытая физика",
+                "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph9/theory.html",
+                "language": "ru",
+                "section": "3.9. Первый закон термодинамики"
+              }
+            ]
+          }
         },
         "second": {
           "name": "Второй закон — энтропия растёт",
-          "rule": "Энтропия (беспорядок) ИЗОЛИРОВАННОЙ системы никогда НЕ УБЫВАЕТ. Тепло естественно течёт от ГОРЯЧЕГО к ХОЛОДНОМУ, не обратно. Часть энергии в любом процессе теряется как низкокачественное тепло.",
-          "examples": ["Брось лёд в горячий чай — лёд тает, чай охлаждается. Никогда наоборот.", "Яйцо разбивается, не собирается.", "КПД двигателя никогда не 100% — часть тепла должна теряться (теорема Карно).", "Вселенная постепенно остывает и становится более беспорядочной — «тепловая смерть» через триллионы лет."],
-          "watchOut": "Не значит, что локально энтропия никогда не убывает — холодильники и жизнь УМЕНЬШАЮТ её локально, УВЕЛИЧИВАЯ глобально (отходное тепло, нагрев атмосферы)."
+          "rule": "Полная энтропия изолированной системы не уменьшается. В идеальном обратимом процессе она постоянна, в необратимом растёт. Энтропия связана с распределением энергии по доступным микроскопическим состояниям; «беспорядок» — лишь приблизительная аналогия.",
+          "examples": [
+            "При самопроизвольной теплопередаче от горячей воды холодному воздуху суммарная энтропия растёт."
+          ],
+          "review": {
+            "englishTerm": "Second law — entropy increases",
+            "russianTerm": "Второй закон — энтропия растёт",
+            "contrast": {
+              "en": "Energy is conserved even when less of it can be converted into useful work.",
+              "ru": "Энергия сохраняется, даже когда меньшую её часть можно превратить в полезную работу."
+            },
+            "model": {
+              "en": "The restriction applies to the isolated whole; a refrigerator can lower entropy inside while increasing entropy more in its surroundings.",
+              "ru": "Ограничение относится к изолированному целому; холодильник может уменьшать энтропию внутри, сильнее увеличивая её в окружении."
+            },
+            "sources": [
+              {
+                "title": "OpenStax · College Physics 2e",
+                "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy",
+                "language": "en",
+                "section": "15 6 entropy and the second law of thermodynamics disorder and the unavailability of energy"
+              },
+              {
+                "title": "Физикон · Открытая физика",
+                "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph11/theory.html",
+                "language": "ru",
+                "section": "3.11. Тепловые двигатели. Термодинамические циклы. Цикл Карно"
+              }
+            ]
+          }
         },
         "third": {
           "name": "Третий закон — абсолютный ноль",
-          "rule": "Энтропия идеального кристалла стремится к НУЛЮ, когда температура стремится к абсолютному нулю (0 К = −273.15°C). 0 К ДОСТИЧЬ нельзя — только приблизиться.",
-          "examples": ["Самая холодная температура, достигнутая в лаборатории: 38 пикокельвин (NIST, 2021).", "Ниже ~4 К гелий становится сверхтекучим — течёт без трения.", "Сверхпроводимость (нулевое электрическое сопротивление) обычно ниже ~100 К.", "Абсолютный ноль означал бы НУЛЕВОЕ движение молекул — квантовая механика запрещает это точно (энергия нулевых колебаний)."],
-          "tip": "0°C = 273.15 К. 25°C = 298.15 К. Прибавь 273 (примерно) для Цельсия → Кельвин. Шкала Кельвина начинается с абсолютного нуля."
+          "rule": "Для идеального кристалла с единственным основным состоянием энтропия стремится к нулю при приближении температуры к 0 К. Абсолютного нуля нельзя достичь конечным термодинамическим процессом охлаждения.",
+          "examples": [
+            "0 К соответствует −273,15 °C; у единицы кельвин нет знака градуса."
+          ],
+          "review": {
+            "englishTerm": "Third law — absolute zero",
+            "russianTerm": "Третий закон — абсолютный ноль",
+            "contrast": {
+              "en": "Zero temperature does not mean all quantum motion or energy disappears.",
+              "ru": "Нулевая температура не означает исчезновения всех квантовых движений или энергии."
+            },
+            "model": {
+              "en": "The zero-entropy statement needs the perfect-crystal and unique-ground-state conditions.",
+              "ru": "Утверждение о нулевой энтропии требует идеального кристалла и единственного основного состояния."
+            },
+            "sources": [
+              {
+                "title": "OpenStax · Chemistry 2e",
+                "url": "https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics",
+                "language": "en",
+                "section": "16.3 · The Third Law of Thermodynamics (single microstate and perfect crystal)"
+              },
+              {
+                "title": "OpenStax · College Physics 2e",
+                "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+                "language": "en",
+                "section": "13.1 · Making Connections: Absolute Zero; Thermal Equilibrium and the Zeroth Law"
+              }
+            ]
+          }
         }
       }
     },
     "astro": {
       "title": "Астрофизика — основы",
-      "body": "Звёзды образуются из коллапсирующих газовых облаков. Слияние водорода → гелий в ядре высвобождает энергию. Звёзды умирают как белые карлики, нейтронные звёзды или чёрные дыры в зависимости от массы. Вселенная возникла ~13.8 млрд лет назад (Большой взрыв) — доказательства: реликтовое излучение и расширение (Хаббл)."
+      "body": "Звёзды образуются при гравитационном сжатии газа. Звёзды главной последовательности выделяют энергию ядерного синтеза в ядре. Дальнейшая эволюция зависит от массы и состава; остатками могут быть белые карлики, нейтронные звёзды и чёрные дыры. Модель расширяющейся Вселенной подтверждается красными смещениями галактик и реликтовым излучением.",
+      "review": {
+        "englishTerm": "Astrophysics — basics",
+        "russianTerm": "Астрофизика — основы",
+        "contrast": {
+          "en": "Nuclear fusion combines nuclei; ordinary burning is a chemical rearrangement of electrons and bonds.",
+          "ru": "При ядерном синтезе объединяются ядра; обычное горение — химическое изменение электронов и связей."
+        },
+        "model": {
+          "en": "This is a broad evolutionary outline, not a rule that mass alone fixes every star’s outcome.",
+          "ru": "Это общая схема эволюции, а не утверждение, что исход для любой звезды определяется только массой."
+        },
+        "sources": [
+          {
+            "title": "OpenStax · College Physics 2e",
+            "url": "https://openstax.org/books/college-physics-2e/pages/34-1-cosmology-and-particle-physics",
+            "language": "en",
+            "section": "34 1 cosmology and particle physics"
+          },
+          {
+            "title": "OpenStax · College Physics 2e",
+            "url": "https://openstax.org/books/college-physics-2e/pages/32-5-fusion",
+            "language": "en",
+            "section": "32 5 fusion"
+          }
+        ]
+      }
     },
     "renewable": {
       "title": "Возобновляемая энергетика — инженерия",
-      "body": "Солнечные панели — фотоны выбивают электроны в кремнии, генерируя ток. Ветер — турбины превращают кинетическую энергию воздуха в электрическую (P ∝ v³). Гидро — потенциальная энергия воды вращает турбины. Приливы — предсказуемо, дважды в сутки. Геотермал — тепло из ядра Земли."
+      "body": "Возобновляемые энергоресурсы восполняются за характерное для человека время. Солнечные элементы превращают часть падающего излучения в электрическую энергию; ветровые и водяные турбины используют движение среды; геотермальные установки — энергию земных недр.",
+      "review": {
+        "englishTerm": "Renewable energy — engineering",
+        "russianTerm": "Возобновляемая энергетика — инженерия",
+        "contrast": {
+          "en": "Renewable describes replenishment, not unlimited output or zero environmental impact.",
+          "ru": "Возобновляемость означает восполнение ресурса, а не неограниченную мощность или отсутствие воздействия на природу."
+        },
+        "model": {
+          "en": "Available wind power scales as speed cubed for fixed swept area and air density; real electrical output also depends on efficiency and operating limits.",
+          "ru": "Доступная мощность ветра пропорциональна кубу скорости при постоянных площади и плотности воздуха; реальная электрическая мощность зависит также от КПД и режима работы."
+        },
+        "sources": [
+          {
+            "title": "OpenStax · College Physics 2e",
+            "url": "https://openstax.org/books/college-physics-2e/pages/7-9-world-energy-use",
+            "language": "en",
+            "section": "7 9 world energy use"
+          }
+        ]
+      }
     }
   },
   "common": {
@@ -176,125 +394,817 @@
     "concepts": {
       "scalarsVectors": {
         "name": "Скаляры и векторы",
-        "rule": "Скаляры имеют только модуль (величину). Векторы имеют И модуль, И направление. При сложении скаляры складываются арифметически (5+3=8), векторы — геометрически: 5+3 может дать 4, если они направлены навстречу.",
-        "examples": ["Расстояние (скаляр) = общий путь = 7 м. Перемещение (вектор) = по прямой от начала до конца = 5 м, направление СВ.", "Скорость (speed): 60 км/ч. Скорость (velocity): 60 км/ч на СЕВЕР.", "Прошёл 3 м В, потом 4 м С: расстояние 7 м, перемещение 5 м СВ (Пифагор).", "Равнодействующая 10 Н вправо + 4 Н влево = 6 Н вправо (противоположные вычитаются)."],
-        "tip": "Если «сколько» или «как быстро» без направления — скаляр. Если есть направление (С, вверх, +x) — вектор. ВСЕГДА используй векторы в F=ma."
+        "rule": "Скаляр задаётся значением без направления в пространстве. Вектор имеет модуль и направление и складывается по правилам сложения векторов. Путь — длина траектории; перемещение — вектор из начальной точки в конечную.",
+        "examples": [
+          "После 3 м на восток и 4 м на север путь равен 7 м, модуль перемещения — 5 м, направление — примерно 53° к северу от востока.",
+          "5 Н вправо и 3 Н влево дают 2 Н вправо."
+        ],
+        "review": {
+          "englishTerm": "Scalars vs Vectors",
+          "russianTerm": "Скаляры и векторы",
+          "contrast": {
+            "en": "Distance travelled measures the entire path; displacement depends only on the two positions.",
+            "ru": "Путь — длина всей траектории; перемещение зависит только от начального и конечного положений."
+          },
+          "model": {
+            "en": "Choose a reference frame. A round trip has zero displacement even though its distance is nonzero.",
+            "ru": "Укажи систему отсчёта. При возвращении в исходную точку перемещение равно нулю, хотя путь ненулевой."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "language": "en",
+              "section": "2 1 displacement"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+              "language": "en",
+              "section": "2 3 time velocity and speed"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Основные понятия кинематики"
+            }
+          ]
+        }
       },
       "newtonLaws": {
         "name": "Три закона Ньютона",
-        "rule": "1-й (Инерция): объект в покое или движется с постоянной скоростью, ПОКА равнодействующая сила не действует. 2-й: F = ma — равнодействующая = масса × ускорение. 3-й: На каждое действие есть РАВНОЕ и ПРОТИВОПОЛОЖНОЕ противодействие на ДРУГОЙ объект.",
-        "examples": ["1-й: Шайба на льду без трения вечно скользит с постоянной скоростью. Ремни — закон 1: тело продолжает движение, когда машина останавливается.", "2-й: 10 кг с силой 30 Н → a = 3 м/с². Та же 30 Н на 5 кг → a = 6 м/с² (легче = большее ускорение).", "3-й: Ракета толкает газ ВНИЗ → газ толкает ракету ВВЕРХ. Ходьба: нога давит на землю НАЗАД, земля толкает ногу ВПЕРЁД."],
-        "watchOut": "Пары действия/противодействия — на РАЗНЫХ объектах, они не компенсируются. Не путай с равными и противоположными силами в равновесии (один объект, две силы)."
+        "rule": "В инерциальной системе: (1) нулевая равнодействующая означает постоянную скорость; (2) при постоянной массе ΣF = ma; (3) взаимодействующие тела одновременно действуют друг на друга с равными по модулю и противоположными силами.",
+        "examples": [
+          "Равнодействующая 30 Н на тело массой 10 кг даёт 3 м/с².",
+          "Сила стола на книгу и сила книги на стол образуют пару третьего закона; сила тяжести и сила опоры на книгу такой парой не являются."
+        ],
+        "review": {
+          "englishTerm": "Newton's Three Laws",
+          "russianTerm": "Три закона Ньютона",
+          "contrast": {
+            "en": "F is the resultant, not necessarily a single applied force.",
+            "ru": "F — равнодействующая, которая может отличаться от отдельной приложенной силы."
+          },
+          "model": {
+            "en": "The school equation assumes constant mass and speeds much smaller than light speed.",
+            "ru": "Школьная формула предполагает постоянную массу и скорости намного меньше скорости света."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "language": "en",
+              "section": "4 3 newtons second law of motion concept of a system"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Второй закон Ньютона"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph11/theory.html",
+              "language": "ru",
+              "section": "1.11. Вес и невесомость"
+            }
+          ]
+        }
       },
       "momentumImpulse": {
         "name": "Импульс и изменение импульса",
-        "rule": "Импульс (momentum): p = m·v (вектор, кг·м/с). Импульс силы (impulse): J = F·Δt = Δp = m·Δv (сила × время = изменение импульса). Закон сохранения: полный импульс ДО столкновения = полный импульс ПОСЛЕ (замкнутая система, без внешних сил).",
-        "examples": ["Грузовик 5000 кг при 10 м/с: p = 50 000 кг·м/с. Пуля 0.01 кг при 500 м/с: p = 5 кг·м/с. У грузовика в 10 000 раз больше.", "Авария: машина 1000 кг при 20 м/с в стену, останавливается за 0.1 с. F = (1000·20)/0.1 = 200 000 Н. С подушкой (0.5 с): F = 40 000 Н. В 5 раз меньше.", "Сохранение: шар 10 кг при 5 м/с врезается в неподвижный 5 кг, сцепляется. v_после = 50/15 = 3.33 м/с.", "Отдача: винтовка толкает пулю 0.01 кг при 400 м/с. Винтовка 4 кг откатывается: v = 0.01·400/4 = 1 м/с."],
-        "tip": "Увеличение ВРЕМЕНИ удара уменьшает силу при том же Δp — поэтому подушки, мнущиеся зоны, согнутые колени при приземлении СПАСАЮТ ЖИЗНИ."
+        "rule": "Импульс тела p = mv — вектор. Импульс равнодействующей J = FсрΔt равен Δp. Суммарный импульс системы сохраняется за интервал, если суммарный внешний импульс силы равен нулю.",
+        "examples": [
+          "Для остановки тела массой 2 кг со скоростью 3 м/с на восток нужен импульс силы 6 Н·с на запад.",
+          "При одинаковом изменении импульса большее время остановки означает меньшую среднюю силу."
+        ],
+        "review": {
+          "englishTerm": "Momentum & Impulse",
+          "russianTerm": "Импульс и изменение импульса",
+          "contrast": {
+            "en": "Momentum describes a state of motion; impulse describes its change.",
+            "ru": "Импульс тела характеризует движение, а импульс силы — изменение импульса тела."
+          },
+          "model": {
+            "en": "If force varies, use the average force or the signed area of a force–time graph.",
+            "ru": "При переменной силе используй среднюю силу или площадь графика силы от времени с учётом знака."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
+              "language": "en",
+              "section": "8 1 linear momentum and force"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+              "language": "en",
+              "section": "8 2 impulse"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph16/theory.html",
+              "language": "ru",
+              "section": "1.16. Импульс тела"
+            }
+          ]
+        }
       },
       "motionGraphs": {
         "name": "Графики движения (расшифровка)",
-        "rule": "График расстояние-время: наклон = скорость; горизонталь = покой; круче = быстрее. График скорость-время: наклон = ускорение; горизонталь = равномерно; ПЛОЩАДЬ ПОД ГРАФИКОМ = пройденное расстояние.",
-        "examples": ["d-t: прямая с наклоном 5 м/с = постоянная скорость. Кривая всё круче = ускоряется. Всё положе = замедляется.", "v-t: прямая от (0,0) до (4, 20) → a = 5 м/с². Площадь = ½·4·20 = 40 м.", "v-t: 15 м/с горизонтально 10 с = 150 м. Затем вниз до 0 за 6 с = ½·6·15 = 45 м. Всего 195 м, замедление 2.5 м/с².", "Отрицательный наклон на v-t = замедление. Отрицательная скорость = движение назад."],
-        "tip": "Всегда проверяй оси! d-t ≠ v-t. Наклон v-t = a. Площадь под v-t = s. Запомни."
+        "rule": "Наклон графика пути от времени даёт путевую скорость; наклон графика координаты — проекцию скорости. Наклон графика скорости даёт ускорение, площадь с учётом знака — перемещение. Путь равен площади под графиком модуля скорости.",
+        "examples": [
+          "При +3 м/с в течение 2 с и −3 м/с в течение 2 с перемещение равно 0 м, путь — 12 м.",
+          "Отрицательный наклон при отрицательной скорости означает увеличение её модуля, а не торможение."
+        ],
+        "review": {
+          "englishTerm": "Motion graphs (interpretation)",
+          "russianTerm": "Графики движения (расшифровка)",
+          "contrast": {
+            "en": "An object can accelerate by changing direction while its speed stays constant.",
+            "ru": "Ускорение возникает и при изменении направления движения с постоянным модулем скорости."
+          },
+          "model": {
+            "en": "Negative acceleration means the negative axis direction; it means slowing only when opposite to velocity.",
+            "ru": "Отрицательная проекция ускорения задаёт направление оси; торможение происходит, когда ускорение направлено против скорости."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-4-acceleration",
+              "language": "en",
+              "section": "2 4 acceleration"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Основные понятия кинематики"
+            }
+          ]
+        }
       },
       "terminalVelocity": {
         "name": "Установившаяся скорость",
-        "rule": "При падении в жидкости (воздух, вода) сопротивление РАСТЁТ со скоростью. Установившаяся скорость = постоянная скорость, когда сопротивление РАВНО весу (равнодействующая = 0, a = 0).",
-        "examples": ["Парашютист «звёздочкой»: ~53 м/с (~190 км/ч).", "В обтекаемом положении: ~80 м/с.", "Открыл парашют: сопротивление ВНЕЗАПНО БОЛЬШЕ веса → ЗАМЕДЛЯЕТСЯ до новой (меньшей) установившейся ~5-7 м/с.", "Капля дождя падает с 8-10 м/с (иначе била бы с 200 м/с и убила бы!).", "На Луне (нет атмосферы): НЕТ установившейся скорости. Падает с ускорением вечно."],
-        "tip": "Стадии: (1) Старт — вес > сопротивление, ускоряется. (2) Сопротивление растёт. (3) Сопр = вес, достигнута установившаяся. (4) Парашют: сопр >> вес, замедляется. (5) Новая установившаяся (меньше)."
+        "rule": "При падении в среде сопротивление обычно растёт с модулем скорости. Установившаяся скорость достигается, когда направленные вверх силы среды уравновешивают силу тяжести: равнодействующая и ускорение равны нулю.",
+        "examples": [
+          "После раскрытия парашюта сопротивление при прежней скорости возрастает; падение замедляется до нового равновесия сил при меньшей скорости.",
+          "В вакууме нет предельной скорости из-за сопротивления; ускорение всё равно зависит от гравитационного поля."
+        ],
+        "review": {
+          "englishTerm": "Terminal velocity",
+          "russianTerm": "Установившаяся скорость",
+          "contrast": {
+            "en": "Zero acceleration does not mean the object has stopped.",
+            "ru": "Нулевое ускорение не означает остановку."
+          },
+          "model": {
+            "en": "The terminal value depends on the fluid, shape and orientation; there is no drag-limited terminal speed in vacuum.",
+            "ru": "Значение зависит от среды, формы и положения тела; в вакууме предельной скорости из-за сопротивления нет."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/5-2-drag-forces",
+              "language": "en",
+              "section": "5 2 drag forces"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph13/theory.html",
+              "language": "ru",
+              "section": "1.13. Сила трения"
+            }
+          ]
+        }
       },
       "stoppingDistance": {
         "name": "Тормозной путь — реакция + торможение",
-        "rule": "Полный путь остановки = путь за время реакции + тормозной путь. Путь реакции ∝ скорость. Тормозной путь ∝ скорость². Удвоил скорость — путь реакции удвоился, ТОРМОЗНОЙ УЧЕТВЕРИЛСЯ.",
-        "examples": ["30 миль/ч (~13 м/с): реакция 9 м + торможение 14 м = 23 м всего (Highway Code).", "60 миль/ч (~27 м/с): реакция 18 м + торможение 55 м = 73 м. В 3 раза больше (не в 2!).", "70 миль/ч: реакция 21 м + торможение 75 м = 96 м — 24 длины машины.", "Мокрая дорога: тормозной путь УДВАИВАЕТСЯ. Лёд: в 10 раз дольше.", "Алкоголь/наркотики/телефон: путь реакции резко растёт (реакция 0.7 с → 1.5 с)."],
-        "watchOut": "Не путай путь за реакцию (водитель ещё не нажал на тормоз) и тормозной путь (тормоз уже нажат). КЭ ∝ v², значит тормозной путь ∝ v² (энергия для рассеивания)."
+        "rule": "Остановочный путь = путь за время реакции + тормозной путь. При постоянной скорости до торможения путь за время реакции равен vtреакции. При постоянном модуле замедления a тормозной путь равен v²/(2a).",
+        "examples": [
+          "При 10 м/с, времени реакции 1 с и замедлении 5 м/с² получаем 10 + 10 = 20 м.",
+          "При 20 м/с и прежних времени реакции и замедлении получаем 20 + 40 = 60 м."
+        ],
+        "review": {
+          "englishTerm": "Stopping distance — thinking + braking",
+          "russianTerm": "Тормозной путь — реакция + торможение",
+          "contrast": {
+            "en": "Stopping distance also includes the distance travelled during the driver’s reaction.",
+            "ru": "Остановочный путь включает также путь за время реакции водителя."
+          },
+          "model": {
+            "en": "Distance is proportional to speed squared only if the braking deceleration remains the same.",
+            "ru": "Зависимость от квадрата начальной скорости верна при одинаковом постоянном замедлении."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+              "language": "en",
+              "section": "7 1 work the scientific definition"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
+              "language": "en",
+              "section": "7 7 power"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
+              "language": "ru",
+              "section": "1.18. Механическая работа и мощность"
+            }
+          ]
+        }
       }
     },
     "terms": {
       "scalar": {
         "name": "Скаляр",
         "alt": "Scalar",
-        "definition": "Величина, имеющая только модуль и не имеющая направления.",
-        "example": "Расстояние и скорость (speed) — скалярные величины."
+        "definition": "Физическая величина, задаваемая числовым значением и единицей, без направления в пространстве.",
+        "example": "Масса 2 кг — скалярная величина.",
+        "review": {
+          "englishTerm": "Scalar",
+          "russianTerm": "Скаляр",
+          "contrast": {
+            "en": "A vector also needs direction; a negative scalar need not describe a direction.",
+            "ru": "Для вектора нужно направление; знак минус у скаляра не обязательно задаёт направление."
+          },
+          "model": {
+            "en": "For example, −5 °C is a temperature, not a vector pointing backwards.",
+            "ru": "Например, −5 °C — температура, а не вектор, направленный назад."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "language": "en",
+              "section": "2 1 displacement"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+              "language": "en",
+              "section": "2 3 time velocity and speed"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Основные понятия кинематики"
+            }
+          ]
+        }
       },
       "vector": {
         "name": "Вектор",
         "alt": "Vector",
-        "definition": "Величина, имеющая модуль и направление.",
-        "example": "Velocity, сила и displacement — векторы."
+        "definition": "Величина, имеющая модуль и направление и складывающаяся по правилам сложения векторов.",
+        "example": "Силы 5 Н на восток и 3 Н на запад дают 2 Н на восток.",
+        "review": {
+          "englishTerm": "Vector",
+          "russianTerm": "Вектор",
+          "contrast": {
+            "en": "Its magnitude is a scalar; the whole vector includes direction.",
+            "ru": "Модуль — скаляр; сам вектор включает направление."
+          },
+          "model": {
+            "en": "In one dimension, a signed component specifies direction relative to the chosen axis.",
+            "ru": "При движении по прямой знак проекции указывает направление относительно выбранной оси."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "language": "en",
+              "section": "2 1 displacement"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+              "language": "en",
+              "section": "2 3 time velocity and speed"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Основные понятия кинематики"
+            }
+          ]
+        }
       },
       "displacement": {
         "name": "Перемещение",
         "alt": "Displacement",
-        "definition": "Кратчайшее расстояние между начальной и конечной точкой в определённом направлении.",
-        "example": "3 м на восток + 4 м на север = 5 м на северо-восток."
+        "definition": "Вектор, проведённый из начального положения тела в конечное: Δr = rкон − rнач.",
+        "example": "Пройди 3 м на восток и 1 м на запад: перемещение — 2 м на восток, путь — 4 м.",
+        "review": {
+          "englishTerm": "Displacement",
+          "russianTerm": "Перемещение",
+          "contrast": {
+            "en": "Distance travelled measures the entire path; displacement depends only on the two positions.",
+            "ru": "Путь — длина всей траектории; перемещение зависит только от начального и конечного положений."
+          },
+          "model": {
+            "en": "Choose a reference frame. A round trip has zero displacement even though its distance is nonzero.",
+            "ru": "Укажи систему отсчёта. При возвращении в исходную точку перемещение равно нулю, хотя путь ненулевой."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "language": "en",
+              "section": "2 1 displacement"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+              "language": "en",
+              "section": "2 3 time velocity and speed"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Основные понятия кинематики"
+            }
+          ]
+        }
       },
       "velocity": {
-        "name": "Скорость (векторная)",
+        "name": "Векторная скорость",
         "alt": "Velocity",
-        "definition": "Скорость в заданном направлении.",
-        "example": "20 м/с на восток — это velocity."
+        "definition": "Векторная величина, характеризующая изменение положения со временем. Средняя векторная скорость: vср = Δr/Δt.",
+        "example": "Перемещение 2 м на восток за 4 с даёт среднюю векторную скорость 0,5 м/с на восток.",
+        "review": {
+          "englishTerm": "Velocity",
+          "russianTerm": "Векторная скорость",
+          "contrast": {
+            "en": "Average speed uses total distance/time; instantaneous speed is the magnitude of instantaneous velocity.",
+            "ru": "Средняя путевая скорость равна пути, делённому на время; мгновенная путевая скорость равна модулю вектора скорости."
+          },
+          "model": {
+            "en": "Instantaneous velocity describes one moment; Δr/Δt over a finite interval gives an average.",
+            "ru": "Мгновенная скорость относится к одному моменту; отношение Δr/Δt за конечный интервал даёт среднюю скорость."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "language": "en",
+              "section": "2 1 displacement"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+              "language": "en",
+              "section": "2 3 time velocity and speed"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Основные понятия кинематики"
+            }
+          ]
+        }
       },
       "acceleration": {
         "name": "Ускорение",
         "alt": "Acceleration",
-        "definition": "Скорость изменения скорости за единицу времени.",
-        "example": "Машина 0 → 20 м/с за 4 с: ускорение 5 м/с²."
+        "definition": "Векторная величина, характеризующая изменение скорости со временем; среднее ускорение равно Δv/Δt, единица — м/с².",
+        "example": "Изменение скорости с 2 до 8 м/с на восток за 3 с даёт 2 м/с² на восток.",
+        "review": {
+          "englishTerm": "Acceleration",
+          "russianTerm": "Ускорение",
+          "contrast": {
+            "en": "An object can accelerate by changing direction while its speed stays constant.",
+            "ru": "Ускорение возникает и при изменении направления движения с постоянным модулем скорости."
+          },
+          "model": {
+            "en": "Negative acceleration means the negative axis direction; it means slowing only when opposite to velocity.",
+            "ru": "Отрицательная проекция ускорения задаёт направление оси; торможение происходит, когда ускорение направлено против скорости."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-4-acceleration",
+              "language": "en",
+              "section": "2 4 acceleration"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Основные понятия кинематики"
+            }
+          ]
+        }
       },
       "resultantForce": {
         "name": "Равнодействующая сила",
         "alt": "Resultant force",
-        "definition": "Суммарная сила, действующая на объект после сложения всех сил.",
-        "example": "10 N вправо − 4 N влево = 6 N вправо."
+        "definition": "Векторная сумма всех сил, действующих на выбранное тело.",
+        "example": "10 Н вправо и 4 Н влево дают равнодействующую 6 Н вправо.",
+        "review": {
+          "englishTerm": "Resultant force",
+          "russianTerm": "Равнодействующая сила",
+          "contrast": {
+            "en": "Sum forces on one object; a third-law pair acts on different objects.",
+            "ru": "Складывай силы на одном теле; силы пары третьего закона приложены к разным телам."
+          },
+          "model": {
+            "en": "A zero resultant means zero acceleration, not necessarily zero velocity.",
+            "ru": "Нулевая равнодействующая означает нулевое ускорение, но не обязательно нулевую скорость."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
+              "language": "en",
+              "section": "4 1 development of force concept"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Второй закон Ньютона"
+            }
+          ]
+        }
       },
       "newton1": {
         "name": "Первый закон Ньютона",
         "alt": "Newton's First Law",
-        "definition": "Тело сохраняет покой или равномерное движение, пока на него не действует равнодействующая сила.",
-        "example": "Книга на столе лежит, пока её не толкнут."
+        "definition": "В инерциальной системе отсчёта тело при нулевой равнодействующей сохраняет покой или движется равномерно и прямолинейно.",
+        "example": "Шайба движется прямо с постоянной скоростью, если горизонтальными силами можно пренебречь.",
+        "review": {
+          "englishTerm": "Newton's First Law",
+          "russianTerm": "Первый закон Ньютона",
+          "contrast": {
+            "en": "Constant speed around a curve is not constant velocity.",
+            "ru": "Постоянный модуль скорости на повороте не означает постоянного вектора скорости."
+          },
+          "model": {
+            "en": "An inertial frame does not accelerate or rotate relative to another inertial frame.",
+            "ru": "Инерциальная система не ускоряется и не вращается относительно другой инерциальной системы."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "language": "en",
+              "section": "4 3 newtons second law of motion concept of a system"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Второй закон Ньютона"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph11/theory.html",
+              "language": "ru",
+              "section": "1.11. Вес и невесомость"
+            }
+          ]
+        }
       },
       "newton2": {
         "name": "Второй закон Ньютона",
         "alt": "Newton's Second Law",
-        "definition": "Ускорение зависит от силы и массы (F = m × a).",
-        "example": "Удвоить силу — удвоить ускорение."
+        "definition": "Для тела постоянной массы в инерциальной системе равнодействующая равна произведению массы на ускорение: ΣF = ma.",
+        "example": "Равнодействующая 6 Н на тело массой 2 кг сообщает ускорение 3 м/с² в направлении силы.",
+        "review": {
+          "englishTerm": "Newton's Second Law",
+          "russianTerm": "Второй закон Ньютона",
+          "contrast": {
+            "en": "F is the resultant, not necessarily a single applied force.",
+            "ru": "F — равнодействующая, которая может отличаться от отдельной приложенной силы."
+          },
+          "model": {
+            "en": "The school equation assumes constant mass and speeds much smaller than light speed.",
+            "ru": "Школьная формула предполагает постоянную массу и скорости намного меньше скорости света."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "language": "en",
+              "section": "4 3 newtons second law of motion concept of a system"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Второй закон Ньютона"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph11/theory.html",
+              "language": "ru",
+              "section": "1.11. Вес и невесомость"
+            }
+          ]
+        }
       },
       "newton3": {
         "name": "Третий закон Ньютона",
         "alt": "Newton's Third Law",
-        "definition": "Каждое действие вызывает равное и противоположное противодействие.",
-        "example": "Прыгая, ты толкаешь Землю вниз, она толкает тебя вверх."
+        "definition": "Если тело A действует на B, то B одновременно действует на A с равной по модулю и противоположно направленной силой.",
+        "example": "Нога толкает землю назад, а земля толкает ногу вперёд.",
+        "review": {
+          "englishTerm": "Newton's Third Law",
+          "russianTerm": "Третий закон Ньютона",
+          "contrast": {
+            "en": "The two forces act on different bodies, so they do not balance on one body.",
+            "ru": "Эти силы приложены к разным телам и не уравновешивают друг друга на одном теле."
+          },
+          "model": {
+            "en": "Equal forces can cause unequal accelerations when the masses differ.",
+            "ru": "Равные силы могут сообщать разные ускорения телам разной массы."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-4-newtons-third-law-of-motion-symmetry-in-forces",
+              "language": "en",
+              "section": "4 4 newtons third law of motion symmetry in forces"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "1.9. Третий закон Ньютона"
+            }
+          ]
+        }
       },
       "momentum": {
         "name": "Импульс",
         "alt": "Momentum",
-        "definition": "Количество движения объекта (p = mv).",
-        "example": "Тяжёлый грузовик медленно может иметь тот же импульс, что лёгкая машина быстро."
+        "definition": "Импульс тела — векторная величина, равная произведению массы на скорость: p = mv; единица — кг·м/с.",
+        "example": "Тележка массой 2 кг при скорости 3 м/с на восток имеет импульс 6 кг·м/с на восток.",
+        "review": {
+          "englishTerm": "Momentum",
+          "russianTerm": "Импульс",
+          "contrast": {
+            "en": "Momentum is a vector; kinetic energy is a scalar, ½mv².",
+            "ru": "Импульс — вектор, а кинетическая энергия ½mv² — скаляр."
+          },
+          "model": {
+            "en": "Use p = mv for nonrelativistic motion. Total momentum is conserved when external impulse is zero.",
+            "ru": "Формула p = mv применяется при нерелятивистском движении. Суммарный импульс сохраняется при нулевом внешнем импульсе силы."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
+              "language": "en",
+              "section": "8 1 linear momentum and force"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+              "language": "en",
+              "section": "8 2 impulse"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph16/theory.html",
+              "language": "ru",
+              "section": "1.16. Импульс тела"
+            }
+          ]
+        }
       },
       "impulse": {
         "name": "Импульс силы",
         "alt": "Impulse",
-        "definition": "Изменение импульса под действием силы за время (J = FΔt).",
-        "example": "Большее время контакта = больший импульс при той же силе."
+        "definition": "Импульс силы характеризует действие силы за время; импульс равнодействующей равен изменению импульса тела.",
+        "example": "Для постоянной или средней равнодействующей J = FсрΔt = Δp; единица — Н·с.",
+        "review": {
+          "englishTerm": "Impulse",
+          "russianTerm": "Импульс силы",
+          "contrast": {
+            "en": "Momentum describes a state of motion; impulse describes its change.",
+            "ru": "Импульс тела характеризует движение, а импульс силы — изменение импульса тела."
+          },
+          "model": {
+            "en": "If force varies, use the average force or the signed area of a force–time graph.",
+            "ru": "При переменной силе используй среднюю силу или площадь графика силы от времени с учётом знака."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
+              "language": "en",
+              "section": "8 1 linear momentum and force"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+              "language": "en",
+              "section": "8 2 impulse"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph16/theory.html",
+              "language": "ru",
+              "section": "1.16. Импульс тела"
+            }
+          ]
+        }
       },
       "terminalVelocity": {
         "name": "Установившаяся скорость",
         "alt": "Terminal velocity",
-        "definition": "Постоянная скорость, достигаемая когда сопротивление воздуха равно весу.",
-        "example": "Парашютист в свободном падении ~53 м/с."
+        "definition": "Установившаяся скорость падения, при которой сопротивление среды и выталкивающая сила вместе уравновешивают силу тяжести.",
+        "example": "Для парашютиста выталкивающей силой обычно пренебрегают: при установившейся скорости сопротивление ≈ mg.",
+        "review": {
+          "englishTerm": "Terminal velocity",
+          "russianTerm": "Установившаяся скорость",
+          "contrast": {
+            "en": "Zero acceleration does not mean the object has stopped.",
+            "ru": "Нулевое ускорение не означает остановку."
+          },
+          "model": {
+            "en": "The terminal value depends on the fluid, shape and orientation; there is no drag-limited terminal speed in vacuum.",
+            "ru": "Значение зависит от среды, формы и положения тела; в вакууме предельной скорости из-за сопротивления нет."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/5-2-drag-forces",
+              "language": "en",
+              "section": "5 2 drag forces"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph13/theory.html",
+              "language": "ru",
+              "section": "1.13. Сила трения"
+            }
+          ]
+        }
       },
       "reactionTime": {
         "name": "Время реакции",
         "alt": "Reaction time",
-        "definition": "Время, нужное чтобы среагировать на стимул.",
-        "example": "Типичное значение: 0.2–0.9 с."
+        "definition": "Время от обнаружения сигнала до начала ответного действия.",
+        "example": "При 15 м/с за время реакции 0,8 с автомобиль проходит 12 м.",
+        "review": {
+          "englishTerm": "Reaction time",
+          "russianTerm": "Время реакции",
+          "contrast": {
+            "en": "Reaction time is a duration; thinking distance is the distance travelled during it.",
+            "ru": "Время реакции — длительность; путь за время реакции — расстояние."
+          },
+          "model": {
+            "en": "Thinking distance = speed × reaction time assumes speed stays constant before braking.",
+            "ru": "Формула пути за время реакции предполагает постоянную скорость до начала торможения."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "language": "en",
+              "section": "2 1 displacement"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+              "language": "en",
+              "section": "2 3 time velocity and speed"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Основные понятия кинематики"
+            }
+          ]
+        }
       },
       "brakingDistance": {
         "name": "Тормозной путь",
         "alt": "Braking distance",
-        "definition": "Расстояние, пройденное после нажатия на тормоз.",
-        "example": "Растёт пропорционально квадрату скорости, больше на мокрой дороге."
+        "definition": "Путь, пройденный с начала торможения до полной остановки.",
+        "example": "При начальной скорости 10 м/с и постоянном замедлении 5 м/с² тормозной путь равен 10 м.",
+        "review": {
+          "englishTerm": "Braking distance",
+          "russianTerm": "Тормозной путь",
+          "contrast": {
+            "en": "Stopping distance also includes the distance travelled during the driver’s reaction.",
+            "ru": "Остановочный путь включает также путь за время реакции водителя."
+          },
+          "model": {
+            "en": "Distance is proportional to speed squared only if the braking deceleration remains the same.",
+            "ru": "Зависимость от квадрата начальной скорости верна при одинаковом постоянном замедлении."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+              "language": "en",
+              "section": "7 1 work the scientific definition"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
+              "language": "en",
+              "section": "7 7 power"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
+              "language": "ru",
+              "section": "1.18. Механическая работа и мощность"
+            }
+          ]
+        }
+      },
+      "mass": {
+        "name": "Масса",
+        "alt": "Mass",
+        "definition": "Мера инертности тела: при одинаковой равнодействующей большая масса означает меньшее ускорение. Единица СИ — килограмм.",
+        "example": "Тело массой 2 кг под равнодействующей 6 Н получает ускорение 3 м/с².",
+        "review": {
+          "englishTerm": "Mass",
+          "russianTerm": "Масса",
+          "contrast": {
+            "en": "Mass is not a force; gravitational weight is mg and is measured in newtons.",
+            "ru": "Масса — не сила; сила тяжести mg измеряется в ньютонах."
+          },
+          "model": {
+            "en": "This inertial definition and F = ma use the constant-mass, nonrelativistic model.",
+            "ru": "Это определение и F = ma используются в нерелятивистской модели с постоянной массой."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "language": "en",
+              "section": "4 3 newtons second law of motion concept of a system"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Второй закон Ньютона"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph11/theory.html",
+              "language": "ru",
+              "section": "1.11. Вес и невесомость"
+            }
+          ]
+        }
+      },
+      "weight": {
+        "name": "Сила тяжести",
+        "alt": "Weight (gravitational force)",
+        "definition": "В английских материалах этого курса weight — сила тяжести, действующая на тело: Fтяж = mg у поверхности Земли.",
+        "example": "На свободно падающее тело действует сила тяжести, хотя движущиеся вместе с ним весы показывают ноль.",
+        "review": {
+          "englishTerm": "Weight (gravitational force)",
+          "russianTerm": "Сила тяжести",
+          "contrast": {
+            "en": "Russian school «вес» usually means the force a body exerts on a support or suspension; this differs from gravitational force.",
+            "ru": "В русской школьной терминологии «вес» — сила действия тела на опору или подвес; это не то же самое, что сила тяжести."
+          },
+          "model": {
+            "en": "For a stationary supported body their magnitudes may both equal mg, but the forces act on different objects.",
+            "ru": "Для неподвижного тела модули могут быть равны mg, но силы приложены к разным телам."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "language": "en",
+              "section": "4 3 newtons second law of motion concept of a system"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Второй закон Ньютона"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph11/theory.html",
+              "language": "ru",
+              "section": "1.11. Вес и невесомость"
+            }
+          ]
+        }
       }
     },
     "formulas": {
@@ -311,7 +1221,7 @@
     },
     "sim1": {
       "title": "Второй закон Ньютона (F = ma)",
-      "desc": "Меняй массу и силу — смотри, как меняется ускорение.",
+      "desc": "Горизонтальная модель использует постоянную массу и равнодействующую; трением пренебрегаем, если оно не указано.",
       "mass": "Масса",
       "force": "Приложенная сила",
       "acceleration": "Ускорение",
@@ -320,19 +1230,19 @@
     },
     "sim2": {
       "title": "Установившаяся скорость",
-      "desc": "Сбрось парашютиста и смотри, как уравновешиваются вес и сопротивление.",
+      "desc": "Сопротивление пропорционально квадрату скорости; плотность воздуха, масса и g постоянны. Выталкивающей силой пренебрегаем.",
       "skydiverMass": "Масса парашютиста",
       "dragCoefficient": "Коэффициент сопротивления",
       "deployParachute": "Раскрыть парашют",
       "reset": "Сброс",
       "currentSpeed": "Скорость",
-      "weight": "Вес",
+      "weight": "Сила тяжести",
       "drag": "Сопротивление воздуха",
       "chartTitle": "Скорость от времени"
     },
     "sim3": {
       "title": "Столкновение и импульс",
-      "desc": "Задай две массы и скорости, выбери упругое или неупругое столкновение.",
+      "desc": "Одномерные столкновения с пренебрежимо малым внешним импульсом силы. Упругое столкновение сохраняет кинетическую энергию; неупругий вариант означает слипание тел.",
       "m1": "Масса 1",
       "m2": "Масса 2",
       "v1": "Скорость 1",
@@ -342,7 +1252,7 @@
     },
     "sim4": {
       "title": "Реакция и тормозной путь",
-      "desc": "Исследуй, как скорость, время реакции и дорога влияют на остановку.",
+      "desc": "До торможения скорость постоянна; при торможении замедление постоянно. При изменении этих условий меняются и расстояния.",
       "speed": "Скорость машины",
       "reactionTime": "Время реакции",
       "road": "Состояние дороги",
@@ -363,17 +1273,17 @@
     },
     "simGraphs": {
       "title": "Графики движения (s-t, v-t, a-t)",
-      "desc": "Переключай сценарий и смотри, как меняются все три графика движения вместе.",
+      "desc": "Одномерное движение с неотрицательной скоростью. После остановки торможение заканчивается, ускорение равно нулю.",
       "scenario": "Сценарий",
       "constantV": "Постоянная v",
       "constantA": "Равноускор.",
       "decel": "Равнозамедл.",
-      "initialV": "Начальная velocity",
+      "initialV": "Начальная векторная скорость",
       "acceleration": "Модуль ускорения",
-      "explainConstantV": "Постоянная velocity: плоская линия v-t, нулевое a-t.",
+      "explainConstantV": "Постоянная векторная скорость: плоская линия v-t, нулевое a-t.",
       "explainConstantA": "Равноускоренное движение: прямая v-t, плоская линия a-t.",
       "explainDecel": "Равнозамедленное движение: v-t линейно убывает до 0, дальше остаётся нулём.",
-      "distanceNote": "Путь = площадь под графиком v-t."
+      "distanceNote": "Площадь графика скорости с учётом знака даёт перемещение. Здесь скорость неотрицательна, поэтому она равна и пути."
     }
   },
   "forcesEnergy": {
@@ -382,101 +1292,730 @@
     "concepts": {
       "hookesLaw": {
         "name": "Закон Гука — пружины и упругость",
-        "rule": "Для пружины (или упругого материала) в пределах упругости: F = k·x, где F — сила, k — жёсткость пружины (Н/м), x — удлинение. Удвоил силу — удвоилось удлинение, ЕСЛИ ниже предела упругости. За пределом — остаточная деформация.",
-        "examples": ["Пружина k = 50 Н/м. F = 10 Н: x = F/k = 0.2 м.", "Удлинение 4 см при 8 Н: k = 8/0.04 = 200 Н/м.", "График F vs x: прямая через начало = подчиняется закону Гука.", "За пределом: график изгибается, пластическая деформация, пружина не возвращается.", "Жёсткая (большое k): тяжело растянуть. Мягкая (малое k): легко."],
-        "watchOut": "УДЛИНЕНИЕ x, не полная длина. Пружина 30 см без нагрузки и 35 см под нагрузкой, x = 5 см = 0.05 м, не 0.35 м."
+        "rule": "Для идеальной линейной пружины F = kx, где x — удлинение относительно естественной длины, k — жёсткость в Н/м. Линейная зависимость действует до предела пропорциональности. Предел упругости связан с появлением остаточной деформации после разгрузки.",
+        "examples": [
+          "Пружина жёсткостью 200 Н/м удлиняется на 0,03 м под силой 6 Н в линейном диапазоне.",
+          "Упругий материал может иметь нелинейный график силы от удлинения и всё же восстанавливать форму."
+        ],
+        "review": {
+          "englishTerm": "Hooke's Law — springs & elasticity",
+          "russianTerm": "Закон Гука — пружины и упругость",
+          "contrast": {
+            "en": "Extension is the change in length. The limit of proportionality is distinct from the elastic limit.",
+            "ru": "Удлинение — изменение длины. Предел пропорциональности отличается от предела упругости."
+          },
+          "model": {
+            "en": "The restoring force opposes deformation: Fspring = −kx along an axis. Beyond proportionality, a constant k no longer fits.",
+            "ru": "Сила упругости направлена против деформации: Fупр = −kx вдоль оси. За пределом пропорциональности постоянное k уже не описывает зависимость."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+              "language": "en",
+              "section": "5 3 elasticity stress and strain"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph12/theory.html",
+              "language": "ru",
+              "section": "1.12. Сила упругости. Закон Гука"
+            }
+          ]
+        }
       },
       "work": {
         "name": "Работа, энергия и мощность",
-        "rule": "Работа = сила × путь (в направлении силы): W = F·d (Дж). Энергия = способность совершить работу, те же единицы. Мощность = работа в секунду: P = W/t (Вт). 1 Вт = 1 Дж/с.",
-        "examples": ["Поднял 10 кг на 2 м против силы тяжести (g = 10): W = mg·h = 200 Дж.", "Потянул 5 Н на 8 м: W = 40 Дж.", "Тот же подъём за 4 с: P = 200/4 = 50 Вт. За 1 с: P = 200 Вт (мощнее).", "Спортсмен по лестнице: вес × высота ÷ время = мощность. 700 Н на 3 м за 5 с → 420 Вт."],
-        "tip": "Сила должна быть в НАПРАВЛЕНИИ движения. Несёшь сумку горизонтально — работа не совершается (сила вертикальна, движение горизонтально!)"
+        "rule": "Работа передаёт энергию: для постоянной силы W = Fd cos θ. Мощность — энергия за единицу времени, Pср = ΔE/Δt. Энергию измеряют в джоулях, мощность — в ваттах; 1 Вт = 1 Дж/с.",
+        "examples": [
+          "Передача 60 Дж за 3 с соответствует средней мощности 20 Вт.",
+          "Сила, перпендикулярная перемещению, не совершает работу при этом движении."
+        ],
+        "review": {
+          "englishTerm": "Work, energy & power",
+          "russianTerm": "Работа, энергия и мощность",
+          "contrast": {
+            "en": "Force is measured in newtons; work and energy are measured in joules.",
+            "ru": "Силу измеряют в ньютонах, работу и энергию — в джоулях."
+          },
+          "model": {
+            "en": "W = Fd applies only to parallel force and displacement. A perpendicular force does zero work.",
+            "ru": "W = Fd верно при совпадающих направлениях силы и перемещения. Перпендикулярная сила работы не совершает."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+              "language": "en",
+              "section": "7 1 work the scientific definition"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
+              "language": "en",
+              "section": "7 7 power"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
+              "language": "ru",
+              "section": "1.18. Механическая работа и мощность"
+            }
+          ]
+        }
       },
       "energyStores": {
         "name": "Запасы и переносы энергии",
-        "rule": "Энергия ХРАНИТСЯ (кинетическая, потенциальная гравитационная, упругая, химическая, тепловая, ядерная) и ПЕРЕДАЁТСЯ (механически, электрически, нагревом, излучением). Полная энергия СОХРАНЯЕТСЯ.",
-        "examples": ["Падающий шар: гравитационная ПЭ → кинетическая (механический перенос).", "Горение топлива: химическая → тепловая + свет (нагревом и излучением).", "Маятник: ПЭ ↔ КЭ при каждом качании. Сумма постоянна (без трения).", "КЭ = ½mv². 1 кг при 4 м/с: КЭ = 8 Дж.", "ПЭ = mgh. 1 кг на 5 м (g=10): ПЭ = 50 Дж."],
-        "tip": "Всегда указывай ЗАПАС (где энергия) и ПУТЬ (как двигалась). «Тепло» — это перенос, не запас — правильнее «тепловой запас энергии»."
+        "rule": "Энергия — сохраняющаяся величина, с помощью которой описывают изменения системы. Рассматривают кинетическую, гравитационную, упругую, внутреннюю и химическую энергию. Работа, теплопередача и излучение описывают способы передачи энергии.",
+        "examples": [
+          "Трение уменьшает механическую энергию и увеличивает внутреннюю энергию тел и окружения.",
+          "Количество теплоты — энергия, переданная из-за разности температур; температура не равна запасу энергии."
+        ],
+        "review": {
+          "englishTerm": "Energy stores & transfers",
+          "russianTerm": "Запасы и переносы энергии",
+          "contrast": {
+            "en": "An energy store describes a system’s state; a transfer describes a process between systems.",
+            "ru": "Запас энергии характеризует состояние системы; передача энергии — процесс взаимодействия систем."
+          },
+          "model": {
+            "en": "Energy is conserved for the system plus surroundings; dissipated energy remains present but is less useful.",
+            "ru": "Энергия системы и окружения в сумме сохраняется; рассеянная энергия остаётся, но становится менее пригодной для полезной работы."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
+              "language": "en",
+              "section": "7 6 conservation of energy"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph20/theory.html",
+              "language": "ru",
+              "section": "1.20. Закон сохранения механической энергии"
+            }
+          ]
+        }
       },
       "pressure": {
         "name": "Давление",
-        "rule": "Давление = сила на единицу площади: P = F/A (Па). 1 Па = 1 Н/м². Та же сила на меньшую площадь = больше давление. В жидкости действует ВО ВСЕХ направлениях.",
-        "examples": ["Человек 600 Н на одной ноге, площадь 200 см² = 0.02 м²: P = 600/0.02 = 30 000 Па.", "Шпильки концентрируют вес на крохотной площади → большое давление → продавливают пол.", "Острый нож: малая площадь лезвия → большое давление → режет.", "Снегоступы распределяют вес → малое давление → не проваливаешься.", "Широкие шины трактора — чтобы не уплотнять почву."],
-        "tip": "Давление ≠ сила. Та же сила может давать очень разные давления. ВСЕГДА проверяй единицы: см² → м² (×10⁻⁴), и сила в Н."
+        "rule": "Среднее давление равно нормальной силе, делённой на площадь, p = Fперп/A. В покоящейся среде давление в точке одинаково во всех направлениях, а силы давления перпендикулярны соответствующим поверхностям.",
+        "examples": [
+          "Для 200 Н на площади 0,04 м² давление равно 5000 Па.",
+          "При той же нагрузке удвоение площади уменьшает среднее давление вдвое."
+        ],
+        "review": {
+          "englishTerm": "Pressure",
+          "russianTerm": "Давление",
+          "contrast": {
+            "en": "Pressure is a scalar; the force on a surface acts normal to that surface.",
+            "ru": "Давление — скаляр; сила давления направлена перпендикулярно поверхности."
+          },
+          "model": {
+            "en": "If pressure varies over the surface, F/A gives its area average, not each local value.",
+            "ru": "Если давление меняется по поверхности, F/A даёт среднее по площади, а не каждое местное значение."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
+              "language": "en",
+              "section": "11 2 density"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
+              "language": "en",
+              "section": "11 4 variation of pressure with depth in a fluid"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph15/theory.html",
+              "language": "ru",
+              "section": "1.15. Элементы гидростатики"
+            }
+          ]
+        }
       },
       "density": {
         "name": "Плотность и плавучесть",
-        "rule": "Плотность = масса на объём: ρ = m/V (кг/м³ или г/см³). Вода = 1000 кг/м³ = 1 г/см³. Объект ПЛАВАЕТ, если его плотность < плотности жидкости; ТОНЕТ — если больше.",
-        "examples": ["Лёд ρ = 920 кг/м³ < 1000 = плавает в воде.", "Железо 7900 кг/м³ > 1000 = тонет. Но железные корабли плавают — полая форма даёт СРЕДНЮЮ плотность < воды.", "Гелий 0.18 кг/м³ < воздух 1.2 = шарики поднимаются.", "1 см³ золота (ρ=19.3) весит 19.3 г. 1 см³ алюминия (ρ=2.7) — 2.7 г.", "Плотность воды зависит от температуры: максимум при 4°C."],
-        "watchOut": "Та же масса, другой объём = другая плотность. Кг перьев vs кг свинца — масса та же, но у свинца КРОХОТНЫЙ объём → высокая плотность."
+        "rule": "Плотность — масса единицы объёма. Выталкивающая сила равна силе тяжести вытесненной среды. В простой модели средняя плотность свободно плавающего на поверхности тела меньше плотности среды; при равенстве возможна нейтральная плавучесть.",
+        "examples": [
+          "Полый стальной корабль плавает, если его масса, делённая на внешний объём, даёт плотность ниже плотности воды.",
+          "Сплошной брусок плотностью 3 г/см³ тонет в воде плотностью около 1 г/см³."
+        ],
+        "review": {
+          "englishTerm": "Density & floating",
+          "russianTerm": "Плотность и плавучесть",
+          "contrast": {
+            "en": "Mass measures how much mass is present; density relates it to occupied volume.",
+            "ru": "Масса характеризует тело, а плотность связывает массу с занимаемым объёмом."
+          },
+          "model": {
+            "en": "For a hollow or mixed object use its average density, including enclosed space, when predicting floating.",
+            "ru": "Для полого или составного тела при оценке плавания используй среднюю плотность с учётом замкнутых полостей."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
+              "language": "en",
+              "section": "11 2 density"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
+              "language": "en",
+              "section": "11 4 variation of pressure with depth in a fluid"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph15/theory.html",
+              "language": "ru",
+              "section": "1.15. Элементы гидростатики"
+            }
+          ]
+        },
+        "tip": "В этих сравнениях пренебрегаем поверхностным натяжением, внешними опорами и изменением объёма."
       },
       "fluidPressure": {
         "name": "Давление в жидкости и атмосфере",
-        "rule": "Давление на глубине h: P = ρ·g·h. Растёт ЛИНЕЙНО с глубиной. Атмосферное на уровне моря ≈ 101 325 Па (1 атм) — давление ~100 км воздуха над тобой. С высотой уменьшается.",
-        "examples": ["10 м под водой: ρgh = 1000·10·10 = 100 000 Па = ~1 атм добавочно. Итого 2 атм.", "Марианская впадина (11 000 м): ~110 МПа (1100×атм).", "Эверест (8848 м): атмосферное падает до ~30 кПа (~30% от уровня моря).", "Самолёты на 10 000 м: салон под давлением ~75 кПа (как в Денвере).", "Подлодки раздавливает на глубине, если корпус лопнет."],
-        "tip": "Гидравлика — закон Паскаля: давление передаётся одинаково во все стороны. Нажми малый поршень — поднимешь машину большим (рычаг)."
+        "rule": "Для неподвижной среды постоянной плотности давление на глубине h: p = pпов + ρgh. Поэтому ρgh — избыточное давление относительно поверхности. Атмосферное давление обычно уменьшается с высотой, поскольку выше остаётся меньше воздуха.",
+        "examples": [
+          "На глубине 2 м в воде при ρ = 1000 кг/м³ и g = 9,8 м/с² прибавка давления равна 19 600 Па.",
+          "Для полного давления нужно добавить давление на поверхности воды."
+        ],
+        "review": {
+          "englishTerm": "Fluid pressure & atmospheric",
+          "russianTerm": "Давление в жидкости и атмосфере",
+          "contrast": {
+            "en": "ρgh is the increase over surface pressure, not usually the absolute pressure.",
+            "ru": "ρgh — прибавка к давлению на поверхности, обычно не полное давление."
+          },
+          "model": {
+            "en": "The formula assumes a fluid at rest with approximately constant density and g.",
+            "ru": "Формула предполагает покоящуюся среду с примерно постоянными плотностью и g."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
+              "language": "en",
+              "section": "11 2 density"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
+              "language": "en",
+              "section": "11 4 variation of pressure with depth in a fluid"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph15/theory.html",
+              "language": "ru",
+              "section": "1.15. Элементы гидростатики"
+            }
+          ]
+        }
       }
     },
     "terms": {
       "contactForce": {
         "name": "Контактная сила",
         "alt": "Contact force",
-        "definition": "Сила, действующая при соприкосновении объектов.",
-        "example": "Трение, толчок, натяжение."
+        "definition": "Сила взаимодействия, возникающая при соприкосновении тел.",
+        "example": "Стол действует на книгу силой нормальной реакции опоры.",
+        "review": {
+          "englishTerm": "Contact force",
+          "russianTerm": "Контактная сила",
+          "contrast": {
+            "en": "Gravity can act without contact; friction needs a contact interaction.",
+            "ru": "Тяготение действует без соприкосновения; трение связано с контактом."
+          },
+          "model": {
+            "en": "At the microscopic level, ordinary contact forces arise mainly from electromagnetic interactions.",
+            "ru": "На микроскопическом уровне обычные контактные силы обусловлены главным образом электромагнитным взаимодействием."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
+              "language": "en",
+              "section": "4 1 development of force concept"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Второй закон Ньютона"
+            }
+          ]
+        }
       },
       "nonContactForce": {
         "name": "Бесконтактная сила",
         "alt": "Non-contact force",
-        "definition": "Сила, действующая без соприкосновения.",
-        "example": "Гравитация, магнетизм, электростатическая сила."
+        "definition": "Сила взаимодействия тел, для которой не требуется их соприкосновение.",
+        "example": "Земля притягивает спутник на орбите силой тяготения.",
+        "review": {
+          "englishTerm": "Non-contact force",
+          "russianTerm": "Бесконтактная сила",
+          "contrast": {
+            "en": "Unlike contact forces, gravity and electric or magnetic forces act across a separation.",
+            "ru": "В отличие от контактных сил, гравитационные, электрические и магнитные силы действуют на расстоянии."
+          },
+          "model": {
+            "en": "Fields describe the interaction; “non-contact” does not mean that no physical interaction occurs.",
+            "ru": "Взаимодействие описывается полем; отсутствие контакта не означает отсутствия взаимодействия."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
+              "language": "en",
+              "section": "4 1 development of force concept"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Второй закон Ньютона"
+            }
+          ]
+        }
       },
       "elasticity": {
         "name": "Упругость",
         "alt": "Elasticity",
-        "definition": "Способность возвращаться к исходной форме после деформации.",
-        "example": "Пружина, которая распрямляется обратно."
+        "definition": "Свойство тела восстанавливать первоначальные форму и размеры после снятия деформирующей силы.",
+        "example": "При упругой деформации пружина возвращается к исходной длине после снятия нагрузки.",
+        "review": {
+          "englishTerm": "Elasticity",
+          "russianTerm": "Упругость",
+          "contrast": {
+            "en": "Elastic deformation is reversible; plastic deformation leaves a permanent change.",
+            "ru": "Упругая деформация обратима; пластическая оставляет остаточное изменение."
+          },
+          "model": {
+            "en": "An elastic material need not obey a linear force–extension relation.",
+            "ru": "Упругий материал не обязательно имеет линейную зависимость силы от удлинения."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+              "language": "en",
+              "section": "5 3 elasticity stress and strain"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph12/theory.html",
+              "language": "ru",
+              "section": "1.12. Сила упругости. Закон Гука"
+            }
+          ]
+        }
       },
       "hookesLaw": {
         "name": "Закон Гука",
         "alt": "Hooke's Law",
-        "definition": "Удлинение пропорционально приложенной силе (F = k × x).",
-        "example": "Удвоить силу — удвоить удлинение, пока не превысили предел."
+        "definition": "В пределах пропорциональности модуль приложенной силы прямо пропорционален удлинению пружины: F = kx.",
+        "example": "При k = 100 Н/м и x = 0,02 м сила F = 2 Н.",
+        "review": {
+          "englishTerm": "Hooke's Law",
+          "russianTerm": "Закон Гука",
+          "contrast": {
+            "en": "Extension is the change in length. The limit of proportionality is distinct from the elastic limit.",
+            "ru": "Удлинение — изменение длины. Предел пропорциональности отличается от предела упругости."
+          },
+          "model": {
+            "en": "The restoring force opposes deformation: Fspring = −kx along an axis. Beyond proportionality, a constant k no longer fits.",
+            "ru": "Сила упругости направлена против деформации: Fупр = −kx вдоль оси. За пределом пропорциональности постоянное k уже не описывает зависимость."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+              "language": "en",
+              "section": "5 3 elasticity stress and strain"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph12/theory.html",
+              "language": "ru",
+              "section": "1.12. Сила упругости. Закон Гука"
+            }
+          ]
+        }
       },
       "workDone": {
         "name": "Работа",
         "alt": "Work done",
-        "definition": "Энергия, передаваемая, когда сила перемещает объект (W = F × d).",
-        "example": "Поднять 10 N сумку на 2 м — 20 Дж работы."
+        "definition": "Энергия, переданная силой при перемещении точки её приложения: для постоянной силы W = Fd cos θ.",
+        "example": "Сила 10 Н, направленная вдоль перемещения 2 м, совершает работу 20 Дж.",
+        "review": {
+          "englishTerm": "Work done",
+          "russianTerm": "Работа",
+          "contrast": {
+            "en": "Force is measured in newtons; work and energy are measured in joules.",
+            "ru": "Силу измеряют в ньютонах, работу и энергию — в джоулях."
+          },
+          "model": {
+            "en": "W = Fd applies only to parallel force and displacement. A perpendicular force does zero work.",
+            "ru": "W = Fd верно при совпадающих направлениях силы и перемещения. Перпендикулярная сила работы не совершает."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+              "language": "en",
+              "section": "7 1 work the scientific definition"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
+              "language": "en",
+              "section": "7 7 power"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
+              "language": "ru",
+              "section": "1.18. Механическая работа и мощность"
+            }
+          ]
+        }
       },
       "energyTransfer": {
         "name": "Передача энергии",
         "alt": "Energy transfer",
-        "definition": "Перемещение энергии между объектами или системами.",
-        "example": "Химическая энергия топлива → тепловая в двигателе."
+        "definition": "Передача энергии от одной системы к другой посредством работы, теплопередачи или излучения.",
+        "example": "Нагреватель получает энергию электрическим способом и передаёт её воде.",
+        "review": {
+          "englishTerm": "Energy transfer",
+          "russianTerm": "Передача энергии",
+          "contrast": {
+            "en": "An energy store describes a system’s state; a transfer describes a process between systems.",
+            "ru": "Запас энергии характеризует состояние системы; передача энергии — процесс взаимодействия систем."
+          },
+          "model": {
+            "en": "Energy is conserved for the system plus surroundings; dissipated energy remains present but is less useful.",
+            "ru": "Энергия системы и окружения в сумме сохраняется; рассеянная энергия остаётся, но становится менее пригодной для полезной работы."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
+              "language": "en",
+              "section": "7 6 conservation of energy"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph20/theory.html",
+              "language": "ru",
+              "section": "1.20. Закон сохранения механической энергии"
+            }
+          ]
+        }
       },
       "pressure": {
         "name": "Давление",
         "alt": "Pressure",
-        "definition": "Сила, действующая на единицу площади (P = F / A).",
-        "example": "Острый нож фокусирует силу на малой площади — большое давление."
+        "definition": "Нормальная сила, приходящаяся на единицу площади; среднее давление p = Fперп/A, единица — паскаль.",
+        "example": "Сила 100 Н на площади 0,02 м² создаёт среднее давление 5000 Па.",
+        "review": {
+          "englishTerm": "Pressure",
+          "russianTerm": "Давление",
+          "contrast": {
+            "en": "Pressure is a scalar; the force on a surface acts normal to that surface.",
+            "ru": "Давление — скаляр; сила давления направлена перпендикулярно поверхности."
+          },
+          "model": {
+            "en": "If pressure varies over the surface, F/A gives its area average, not each local value.",
+            "ru": "Если давление меняется по поверхности, F/A даёт среднее по площади, а не каждое местное значение."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
+              "language": "en",
+              "section": "11 2 density"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
+              "language": "en",
+              "section": "11 4 variation of pressure with depth in a fluid"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph15/theory.html",
+              "language": "ru",
+              "section": "1.15. Элементы гидростатики"
+            }
+          ]
+        }
       },
       "atmosphericPressure": {
         "name": "Атмосферное давление",
         "alt": "Atmospheric pressure",
-        "definition": "Давление, создаваемое частицами воздуха.",
-        "example": "Около 101 кПа на уровне моря."
+        "definition": "Давление, которое окружающая атмосфера оказывает на поверхность.",
+        "example": "Стандартная атмосфера равна 101 325 Па; реальное давление зависит от погоды и высоты.",
+        "review": {
+          "englishTerm": "Atmospheric pressure",
+          "russianTerm": "Атмосферное давление",
+          "contrast": {
+            "en": "Atmospheric pressure acts in all directions, not only downwards.",
+            "ru": "Атмосферное давление действует во всех направлениях, а не только вниз."
+          },
+          "model": {
+            "en": "Molecular impacts produce pressure; its height variation is linked to the weight of the air above.",
+            "ru": "Давление связано с ударами молекул, а его изменение с высотой — с действием силы тяжести на воздух выше."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
+              "language": "en",
+              "section": "11 2 density"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
+              "language": "en",
+              "section": "11 4 variation of pressure with depth in a fluid"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph15/theory.html",
+              "language": "ru",
+              "section": "1.15. Элементы гидростатики"
+            }
+          ]
+        }
       },
       "density": {
         "name": "Плотность",
         "alt": "Density",
-        "definition": "Масса на единицу объёма (ρ = m / V).",
-        "example": "Вода — 1000 кг/м³, железо — 7870 кг/м³."
+        "definition": "Масса единицы объёма: ρ = m/V; единица — кг/м³.",
+        "example": "При массе 200 г и объёме 100 см³ плотность равна 2 г/см³.",
+        "review": {
+          "englishTerm": "Density",
+          "russianTerm": "Плотность",
+          "contrast": {
+            "en": "Mass measures how much mass is present; density relates it to occupied volume.",
+            "ru": "Масса характеризует тело, а плотность связывает массу с занимаемым объёмом."
+          },
+          "model": {
+            "en": "For a hollow or mixed object use its average density, including enclosed space, when predicting floating.",
+            "ru": "Для полого или составного тела при оценке плавания используй среднюю плотность с учётом замкнутых полостей."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
+              "language": "en",
+              "section": "11 2 density"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
+              "language": "en",
+              "section": "11 4 variation of pressure with depth in a fluid"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph15/theory.html",
+              "language": "ru",
+              "section": "1.15. Элементы гидростатики"
+            }
+          ]
+        }
       },
       "fluidPressure": {
-        "name": "Давление жидкости",
+        "name": "Давление жидкости и газа",
         "alt": "Fluid pressure",
-        "definition": "Давление, оказываемое жидкостями или газами.",
-        "example": "Растёт с глубиной: P = ρgh."
+        "definition": "Давление в жидкости или газе, создающее нормальные силы на соприкасающихся с ними поверхностях.",
+        "example": "На глубине h в неподвижной воде p = pпов + ρgh.",
+        "review": {
+          "englishTerm": "Fluid pressure",
+          "russianTerm": "Давление жидкости и газа",
+          "contrast": {
+            "en": "ρgh is the increase over surface pressure, not usually the absolute pressure.",
+            "ru": "ρgh — прибавка к давлению на поверхности, обычно не полное давление."
+          },
+          "model": {
+            "en": "The formula assumes a fluid at rest with approximately constant density and g.",
+            "ru": "Формула предполагает покоящуюся среду с примерно постоянными плотностью и g."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
+              "language": "en",
+              "section": "11 2 density"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
+              "language": "en",
+              "section": "11 4 variation of pressure with depth in a fluid"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph15/theory.html",
+              "language": "ru",
+              "section": "1.15. Элементы гидростатики"
+            }
+          ]
+        }
+      },
+      "energy": {
+        "name": "Энергия",
+        "alt": "Energy",
+        "definition": "Сохраняющаяся физическая величина, позволяющая учитывать изменения системы при работе, теплопередаче и излучении. Единица СИ — джоуль.",
+        "example": "Движущееся тело обладает кинетической энергией; при подъёме увеличивается потенциальная энергия системы «тело — Земля».",
+        "review": {
+          "englishTerm": "Energy",
+          "russianTerm": "Энергия",
+          "contrast": {
+            "en": "Energy measures an amount; power measures the rate at which it is transferred.",
+            "ru": "Энергия характеризует количество, мощность — скорость её передачи."
+          },
+          "model": {
+            "en": "Specify the system boundary and reference level for potential energy.",
+            "ru": "Укажи границы системы и нулевой уровень потенциальной энергии."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
+              "language": "en",
+              "section": "7 6 conservation of energy"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph20/theory.html",
+              "language": "ru",
+              "section": "1.20. Закон сохранения механической энергии"
+            }
+          ]
+        }
+      },
+      "power": {
+        "name": "Мощность",
+        "alt": "Power",
+        "definition": "Скорость передачи энергии или совершения работы: Pср = ΔE/Δt. Один ватт равен одному джоулю в секунду.",
+        "example": "Передача 100 Дж за 5 с соответствует средней мощности 20 Вт.",
+        "review": {
+          "englishTerm": "Power",
+          "russianTerm": "Мощность",
+          "contrast": {
+            "en": "A high-power device need not use more total energy if it runs for less time.",
+            "ru": "Большая мощность не обязательно означает больший расход энергии, если прибор работает меньше времени."
+          },
+          "model": {
+            "en": "Use average power over a finite interval; E = Pt with one P assumes constant power.",
+            "ru": "За конечный интервал используют среднюю мощность; E = Pt с одним значением P предполагает постоянную мощность."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+              "language": "en",
+              "section": "7 1 work the scientific definition"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
+              "language": "en",
+              "section": "7 7 power"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
+              "language": "ru",
+              "section": "1.18. Механическая работа и мощность"
+            }
+          ]
+        }
+      },
+      "heat": {
+        "name": "Количество теплоты",
+        "alt": "Heat",
+        "definition": "Энергия, переданная между системами вследствие разности температур; обозначение Q, единица — джоуль.",
+        "example": "Горячая чашка передаёт энергию более холодному воздуху.",
+        "review": {
+          "englishTerm": "Heat",
+          "russianTerm": "Количество теплоты",
+          "contrast": {
+            "en": "A body has internal energy; heat describes a transfer, not a substance stored inside.",
+            "ru": "Тело обладает внутренней энергией; теплота характеризует передачу, а не вещество внутри тела."
+          },
+          "model": {
+            "en": "Heat added need not raise temperature: during a phase change it may change internal potential energy.",
+            "ru": "Передача теплоты не всегда повышает температуру: при фазовом переходе может меняться потенциальная часть внутренней энергии."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/14-1-heat",
+              "language": "en",
+              "section": "14 1 heat"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics",
+              "language": "en",
+              "section": "15 1 the first law of thermodynamics"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "3.9. Первый закон термодинамики"
+            }
+          ]
+        }
+      },
+      "temperature": {
+        "name": "Температура",
+        "alt": "Temperature",
+        "definition": "Характеристика состояния, определяющая направление самопроизвольной теплопередачи: от большей температуры к меньшей.",
+        "example": "У тел в тепловом равновесии одинаковая температура.",
+        "review": {
+          "englishTerm": "Temperature",
+          "russianTerm": "Температура",
+          "contrast": {
+            "en": "Temperature is not total internal energy: a large cool bath can have more internal energy than a small hot cup.",
+            "ru": "Температура не равна полной внутренней энергии: большая прохладная ванна может иметь больше внутренней энергии, чем маленькая горячая чашка."
+          },
+          "model": {
+            "en": "For an ideal gas, absolute temperature is proportional to mean translational kinetic energy per particle; this is not a universal definition for every material.",
+            "ru": "Для идеального газа абсолютная температура пропорциональна средней поступательной кинетической энергии частицы; это не универсальное определение для всех веществ."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/14-1-heat",
+              "language": "en",
+              "section": "14 1 heat"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics",
+              "language": "en",
+              "section": "15 1 the first law of thermodynamics"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "3.9. Первый закон термодинамики"
+            }
+          ]
+        }
       }
     },
     "formulas": {
@@ -493,16 +2032,17 @@
     },
     "sim1": {
       "title": "Закон Гука",
-      "desc": "Растягивай пружину и смотри линейную F-x зависимость до предела упругости.",
+      "desc": "Исследуй идеальную линейную пружину. Цветная граница — выбранный предел пропорциональности; за ней показано только продолжение линейной модели.",
       "k": "Жёсткость пружины",
       "force": "Приложенная сила",
       "extension": "Удлинение",
-      "warning": "Предел упругости превышен — пружина деформирована необратимо.",
-      "chartTitle": "Сила от удлинения"
+      "warning": "За выбранным пределом пропорциональности x = F/k — экстраполяция, а не прогноз для реальной пружины. По ней нельзя определить остаточную деформацию.",
+      "chartTitle": "Сила от удлинения",
+      "elasticLimit": "Предел пропорциональности"
     },
     "sim2": {
       "title": "Давление (P = F / A)",
-      "desc": "Та же сила, разные площади — посмотри, как меняется давление.",
+      "desc": "Сила распределена по выбранной площади контакта; результат — среднее давление.",
       "force": "Сила",
       "area": "Площадь контакта",
       "pressure": "Давление",
@@ -513,7 +2053,7 @@
     },
     "sim3": {
       "title": "Плотность и плавучесть",
-      "desc": "Сравни плотность объекта и жидкости — он утонет или всплывёт.",
+      "desc": "Сравни среднюю плотность тела с плотностью жидкости. Модель не учитывает поверхностное натяжение и внешние опоры.",
       "objectDensity": "Плотность объекта",
       "fluidDensity": "Плотность жидкости",
       "fluidPreset": "Жидкость",
@@ -524,7 +2064,7 @@
     },
     "sim4": {
       "title": "Давление с глубиной",
-      "desc": "Погружай датчик в жидкость и следи за ростом гидростатического давления.",
+      "desc": "Неподвижная жидкость постоянной плотности: ρgh — давление сверх давления на поверхности. Для полного давления добавь давление на поверхности.",
       "depth": "Глубина",
       "fluidDensity": "Плотность жидкости",
       "pressure": "Давление на глубине"
@@ -538,7 +2078,7 @@
     },
     "simWorkPower": {
       "title": "Работа и мощность",
-      "desc": "Подними груз на высоту за заданное время — увидь работу и мощность.",
+      "desc": "Подъём с постоянной скоростью без потерь: подъёмная сила равна mg, работа равна mgh, мощность — средняя работа за время.",
       "mass": "Поднимаемая масса",
       "height": "Высота подъёма",
       "time": "Время"
@@ -550,125 +2090,675 @@
     "concepts": {
       "currentVoltageResistance": {
         "name": "Ток, напряжение и сопротивление — троица",
-        "rule": "Ток (I, А) — скорость потока заряда: I = Q/t. Напряжение (V, В) — энергия на кулон заряда: V = E/Q. Сопротивление (R, Ом) — насколько компонент мешает току. Закон Ома: V = IR.",
-        "examples": ["Ток 1 А = 1 кулон заряда в секунду через точку.", "Батарея 12 В — каждый кулон получает 12 Дж энергии.", "Резистор 4 Ом, ток 2 А: V = 2·4 = 8 В.", "Тот же резистор при 12 В: I = V/R = 12/4 = 3 А.", "Ток измеряется амперметром ПОСЛЕДОВАТЕЛЬНО; напряжение — вольтметром ПАРАЛЛЕЛЬНО компоненту."],
-        "tip": "Аналогия с водой: напряжение = давление насоса (энергия на каплю), ток = скорость потока, сопротивление = узость трубы."
+        "rule": "Сила тока I = ΔQ/Δt — заряд за время. Напряжение U = ΔE/Q — энергия на единицу заряда. Сопротивление R = U/I связывает их и остаётся постоянным лишь при соответствующих условиях закона Ома.",
+        "examples": [
+          "2 Кл за 1 с означают 2 А. При 6 В каждый кулон передаёт 6 Дж.",
+          "При 6 В и 2 А сопротивление равно 3 Ом."
+        ],
+        "review": {
+          "englishTerm": "Current, voltage & resistance — the trinity",
+          "russianTerm": "Ток, напряжение и сопротивление — троица",
+          "contrast": {
+            "en": "Current is charge per time, not the amount of charge stored or the speed of electrons.",
+            "ru": "Сила тока — заряд за время, а не накопленный заряд и не скорость электронов."
+          },
+          "model": {
+            "en": "Conventional current follows positive charge motion; in metals electrons drift the opposite way.",
+            "ru": "Направление тока соответствует движению положительных зарядов; электроны в металле дрейфуют противоположно."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "language": "en",
+              "section": "20 1 current"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+              "language": "en",
+              "section": "20 2 ohms law resistance and simple circuits"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Электрический ток. Закон Ома"
+            }
+          ]
+        }
       },
       "ohmsLaw": {
         "name": "Закон Ома (V = IR)",
-        "rule": "Для омических проводников (при постоянной температуре): ток ПРОПОРЦИОНАЛЕН напряжению. V/I = R постоянно. График V vs I — прямая через начало. Лампы накаливания, диоды — НЕ омические.",
-        "examples": ["Резистор 5 Ом при 10 В: I = V/R = 2 А.", "Удвоил напряжение — удвоил ток (то же R).", "Лампа накаливания: ток растёт → нагрев → R растёт → график V vs I изгибается.", "Диод: проводит выше ~0.7 В (в прямом), почти бесконечное R в обратном."],
-        "watchOut": "Закон Ома справедлив ТОЛЬКО при постоянной температуре. Для лампы/провода, который греется, R меняется — график изгибается."
+        "rule": "Для проводника, подчиняющегося закону Ома, при неизменных температуре и физических условиях ток пропорционален напряжению. График I(U) — прямая через начало координат, R = U/I постоянно.",
+        "examples": [
+          "Удвоение напряжения на постоянном сопротивлении 10 Ом удваивает ток.",
+          "Нить лампы нагревается при росте тока: сопротивление меняется, график изгибается."
+        ],
+        "review": {
+          "englishTerm": "Ohm's Law (V = IR)",
+          "russianTerm": "Закон Ома (V = IR)",
+          "contrast": {
+            "en": "V = IR as a ratio does not prove Ohm’s law; constant R under stated conditions does.",
+            "ru": "Запись U = IR сама по себе не доказывает закон Ома; нужна неизменность R при указанных условиях."
+          },
+          "model": {
+            "en": "Heating can change a metal’s resistance, so measurements must control temperature.",
+            "ru": "Нагрев меняет сопротивление металла, поэтому при измерениях нужно контролировать температуру."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "language": "en",
+              "section": "20 1 current"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+              "language": "en",
+              "section": "20 2 ohms law resistance and simple circuits"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Электрический ток. Закон Ома"
+            }
+          ]
+        }
       },
       "seriesParallel": {
         "name": "Последовательное и параллельное соединения",
-        "rule": "Последовательно: один контур. Ток ОДИНАКОВ. Напряжения СКЛАДЫВАЮТСЯ: V_общее = V₁ + V₂. Сопротивления СКЛАДЫВАЮТСЯ: R = R₁ + R₂. Параллельно: отдельные ветви. Напряжение ОДИНАКОВО. Токи СКЛАДЫВАЮТСЯ: I_общий = I₁ + I₂. 1/R = 1/R₁ + 1/R₂.",
-        "examples": ["3 Ом + 6 Ом последовательно: R = 9 Ом. При 9 В: I = 1 А во всей цепи.", "3 Ом || 6 Ом параллельно: 1/R = 1/3 + 1/6 = 1/2, R = 2 Ом. При 9 В: 9/3 = 3 А в 3 Ом ветви, 9/6 = 1.5 А в 6 Ом, всего 4.5 А.", "Два одинаковых резистора параллельно: R = R/2.", "Старые ёлочные гирлянды — последовательные (одна перегорает — все гаснут). Современные параллельные: одна гаснет — остальные работают."],
-        "tip": "Последовательно — больше сопротивление (путь длиннее). Параллельно — меньше сопротивление (больше путей). Дом — параллельно, 230 В на каждой розетке."
+        "rule": "При последовательном соединении ток общий, напряжения и сопротивления складываются. При параллельном соединении общее напряжение, токи ветвей складываются, 1/Rэкв = 1/R₁ + 1/R₂ + ….",
+        "examples": [
+          "Два резистора по 4 Ом дают 8 Ом последовательно и 2 Ом параллельно.",
+          "Разрыв ветви прекращает ток в этой ветви; разрыв неразветвлённой цепи прекращает ток во всей цепи."
+        ],
+        "review": {
+          "englishTerm": "Series vs Parallel circuits",
+          "russianTerm": "Последовательное и параллельное соединения",
+          "contrast": {
+            "en": "Branch currents may differ; their sum gives the total current at a junction.",
+            "ru": "Токи ветвей могут различаться; их сумма равна общему току в узле."
+          },
+          "model": {
+            "en": "These rules describe steady circuits with negligible wire resistance.",
+            "ru": "Эти правила применяются к установившемуся току при пренебрежимо малом сопротивлении проводов."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+              "language": "en",
+              "section": "21 1 resistors in series and parallel"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "1.9. Последовательное и параллельное соединение проводников"
+            }
+          ]
+        }
       },
       "power": {
         "name": "Электрическая мощность",
-        "rule": "Мощность = энергия в секунду. P = V·I = I²·R = V²/R (Вт). Энергия: E = P·t (Дж или кВт·ч). Счёт за электричество — в кВт·ч: 1 кВт·ч = 1000 Вт × 3600 с = 3.6 МДж.",
-        "examples": ["Лампа 100 Вт при 230 В: I = 100/230 ≈ 0.43 А.", "Чайник 3 кВт за 2 мин: E = 3000 × 120 = 360 000 Дж = 0.1 кВт·ч.", "Обогреватель 2 кВт 5 ч: 10 кВт·ч. По 30 рублей/кВт·ч = 300 ₽.", "Тот же ток через 4 Ом vs 8 Ом: P = I²R, 8 Ом рассеивает ВДВОЕ больше.", "То же НАПРЯЖЕНИЕ на них: P = V²/R, 4 Ом рассеивает ВДВОЕ (больше тока)."],
-        "tip": "Выбирай формулу по тому, что знаешь: V и I → VI. I и R → I²R. V и R → V²/R. Всё эквивалентно через закон Ома."
+        "rule": "Электрическая мощность — энергия, переданная за секунду. Для участка цепи постоянного тока P = UI; для резистора также P = I²R = U²/R. При постоянной мощности E = Pt. 1 кВт·ч = 3,6 × 10⁶ Дж.",
+        "examples": [
+          "Прибор мощностью 60 Вт за 2 ч передаёт 120 Вт·ч = 0,12 кВт·ч.",
+          "При 12 В и 2 А мощность равна 24 Вт."
+        ],
+        "review": {
+          "englishTerm": "Electrical power",
+          "russianTerm": "Электрическая мощность",
+          "contrast": {
+            "en": "kW is power; kWh is energy, not “kilowatts per hour”.",
+            "ru": "кВт — мощность, кВт·ч — энергия, а не «киловатты в час»."
+          },
+          "model": {
+            "en": "E = Pt assumes constant power; cycling appliances need average power or a measured energy total.",
+            "ru": "E = Pt предполагает постоянную мощность; для периодически включающихся приборов нужна средняя мощность или измеренная энергия."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+              "language": "en",
+              "section": "20 4 electric power and energy"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph11/theory.html",
+              "language": "ru",
+              "section": "1.11. Работа и мощность тока"
+            }
+          ]
+        }
       },
       "safety": {
         "name": "Электросеть и безопасность",
-        "rule": "Сеть в Великобритании: 230 В AC, 50 Гц. Три провода: фаза (коричневый, 230 В), нейтраль (синий, 0 В), земля (зелёно-жёлтый, защита). Защита: предохранитель (плавится при превышении), автомат, УЗО (ловит утечку, срабатывает за мс), заземление.",
-        "examples": ["Металлический корпус тостера заземлён — фаза коснулась корпуса, большой ток на землю, предохранитель сгорает.", "Предохранитель 3 А — лампы, ТВ; 13 А — чайник, утюг, обогреватель.", "УЗО срабатывает за 30 мс — успевает предотвратить смертельный удар.", "С двойной изоляцией (радио, фен) — пластиковый корпус, заземление не нужно (значок «квадрат в квадрате»)."],
-        "watchOut": "Мокрые руки + электричество = смерть. 100 мА AC через сердце = смерть за секунды. Всегда выключай сеть, прежде чем лезть в цепь."
+        "rule": "Избыточный ток нагревает проводку. Плавкий предохранитель разрывает цепь плавлением вставки; автомат защиты от сверхтока размыкает контакты. УЗО обнаруживает различие уходящего и возвращающегося токов. Защитное заземление создаёт путь тока повреждения в предназначенном для этого оборудовании.",
+        "examples": [
+          "Короткое замыкание может вызвать избыточный ток и срабатывание защиты от сверхтока.",
+          "Утечка на землю может вызвать срабатывание УЗО даже при токе ниже порога автомата."
+        ],
+        "review": {
+          "englishTerm": "Mains electricity & safety",
+          "russianTerm": "Электросеть и безопасность",
+          "contrast": {
+            "en": "An RCD detects a current imbalance; that is different from overcurrent protection.",
+            "ru": "УЗО реагирует на разность токов; это отличается от защиты от сверхтока."
+          },
+          "model": {
+            "en": "Different devices protect against different faults; this explanation is not a wiring procedure.",
+            "ru": "Разные устройства защищают от разных повреждений; описание объясняет принцип, а не порядок монтажа."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-5-alternating-current-versus-direct-current",
+              "language": "en",
+              "section": "20 5 alternating current versus direct current"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
+              "language": "en",
+              "section": "20 6 electric hazards and the human body"
+            }
+          ]
+        }
       },
       "magnetism": {
         "name": "Магнетизм и электромагнетизм",
-        "rule": "Ток в проводе создаёт магнитное поле. Правило правой руки: большой палец — направление тока, остальные пальцы — направление поля. Катушка усиливает поле. Сердечник из железа = ЭЛЕКТРОМАГНИТ — сильный и управляемый.",
-        "examples": ["Компас отклоняется около провода с током (открытие Эрстеда, 1820).", "Соленоид ведёт себя как полосовой магнит — С полюс там, откуда выходят линии поля.", "Электромагнит на свалке поднимает машины — выключил ток, машина падает.", "Маглев-поезда: левитируют на отталкивающих электромагнитах, без трения о рельсы.", "Двигатель: ток в катушке между магнитами → сила → вращение. Генератор: вращение → ЭДС (закон Фарадея)."],
-        "tip": "Двигатель и генератор — одна машина, работающая в противоположных направлениях. Оба — взаимодействие тока и магнитного поля."
+        "rule": "Электрический ток создаёт магнитное поле. Вокруг прямого провода линии поля обходят провод; правило правой руки использует принятое направление тока. Поля витков соленоида складываются, а ферромагнитный сердечник может усиливать поле.",
+        "examples": [
+          "При изменении направления тока в катушке её полюса меняются местами.",
+          "Компас ориентируется вдоль местного результирующего магнитного поля."
+        ],
+        "review": {
+          "englishTerm": "Magnetism & electromagnetism",
+          "russianTerm": "Магнетизм и электромагнетизм",
+          "contrast": {
+            "en": "Field lines show field direction; they are not physical wires or particle tracks.",
+            "ru": "Линии поля показывают направление поля; это не провода и не траектории частиц."
+          },
+          "model": {
+            "en": "The drawings are idealised; core saturation and hysteresis are not simulated.",
+            "ru": "Рисунки идеализированы; насыщение и гистерезис сердечника не моделируются."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law",
+              "language": "en",
+              "section": "22 9 magnetic fields produced by currents amperes law"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph16/theory.html",
+              "language": "ru",
+              "section": "1.16. Магнитное взаимодействие токов"
+            }
+          ]
+        }
       }
     },
     "terms": {
       "current": {
         "name": "Сила тока",
         "alt": "Current",
-        "definition": "Поток электрического заряда (I, в амперах).",
-        "example": "Измеряется амперметром последовательно."
+        "definition": "Сила тока — заряд, проходящий через поперечное сечение за единицу времени: Iср = ΔQ/Δt; единица — ампер.",
+        "example": "Если за 3 с проходит 6 Кл, средняя сила тока равна 2 А.",
+        "review": {
+          "englishTerm": "Current",
+          "russianTerm": "Сила тока",
+          "contrast": {
+            "en": "Current is charge per time, not the amount of charge stored or the speed of electrons.",
+            "ru": "Сила тока — заряд за время, а не накопленный заряд и не скорость электронов."
+          },
+          "model": {
+            "en": "Conventional current follows positive charge motion; in metals electrons drift the opposite way.",
+            "ru": "Направление тока соответствует движению положительных зарядов; электроны в металле дрейфуют противоположно."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "language": "en",
+              "section": "20 1 current"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+              "language": "en",
+              "section": "20 2 ohms law resistance and simple circuits"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Электрический ток. Закон Ома"
+            }
+          ]
+        }
       },
       "voltage": {
         "name": "Напряжение",
         "alt": "Voltage",
-        "definition": "Энергия, передаваемая на единицу заряда (V, в вольтах).",
-        "example": "Измеряется вольтметром параллельно."
+        "definition": "Напряжение — энергия, переданная в расчёте на единицу заряда между двумя точками: U = ΔE/q.",
+        "example": "Источник с напряжением 6 В передаёт 6 Дж на каждый кулон заряда.",
+        "review": {
+          "englishTerm": "Voltage",
+          "russianTerm": "Напряжение",
+          "contrast": {
+            "en": "Current measures charge flow rate; voltage measures energy per charge.",
+            "ru": "Сила тока — заряд за время; напряжение — энергия на единицу заряда."
+          },
+          "model": {
+            "en": "Voltage is measured between two points. V denotes voltage in English formulas; Russian notation often uses U.",
+            "ru": "Напряжение измеряют между двумя точками. В английских формулах используют V, в русских обычно U."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/19-1-electric-potential-energy-potential-difference",
+              "language": "en",
+              "section": "19 1 electric potential energy potential difference"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph4/theory.html",
+              "language": "ru",
+              "section": "1.4. Работа в электрическом поле. Потенциал"
+            }
+          ]
+        }
       },
       "resistance": {
         "name": "Сопротивление",
         "alt": "Resistance",
-        "definition": "Противодействие току (R, в омах).",
-        "example": "Длинные тонкие провода — большее сопротивление."
+        "definition": "Отношение напряжения на участке цепи к силе тока: R = U/I; единица — ом.",
+        "example": "При напряжении 6 В и токе 2 А сопротивление равно 3 Ом.",
+        "review": {
+          "englishTerm": "Resistance",
+          "russianTerm": "Сопротивление",
+          "contrast": {
+            "en": "Resistance is a ratio; resistivity is a material property and also depends on temperature.",
+            "ru": "Сопротивление — характеристика участка цепи; удельное сопротивление характеризует материал и зависит от температуры."
+          },
+          "model": {
+            "en": "The ratio can vary with voltage or temperature; constant resistance is an additional ohmic assumption.",
+            "ru": "Отношение может меняться с напряжением или температурой; постоянное сопротивление — дополнительное условие закона Ома."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "language": "en",
+              "section": "20 1 current"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+              "language": "en",
+              "section": "20 2 ohms law resistance and simple circuits"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Электрический ток. Закон Ома"
+            }
+          ]
+        }
       },
       "charge": {
         "name": "Заряд",
         "alt": "Charge",
-        "definition": "Свойство, вызывающее электрическое притяжение или отталкивание.",
-        "example": "Одноимённые отталкиваются, разноимённые притягиваются."
+        "definition": "Свойство частиц и тел, определяющее электрическое взаимодействие; заряд бывает положительным и отрицательным, единица — кулон.",
+        "example": "Заряд электрона равен −e, протона — +e.",
+        "review": {
+          "englishTerm": "Charge",
+          "russianTerm": "Заряд",
+          "contrast": {
+            "en": "A neutral object can contain charged particles whose charges sum to zero.",
+            "ru": "Нейтральное тело содержит заряженные частицы, суммарный заряд которых равен нулю."
+          },
+          "model": {
+            "en": "Charge is conserved: charging by rubbing transfers electrons rather than creating net charge.",
+            "ru": "Заряд сохраняется: при электризации трением электроны переходят между телами, а суммарный заряд не создаётся."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/18-1-static-electricity-and-charge-conservation-of-charge",
+              "language": "en",
+              "section": "18 1 static electricity and charge conservation of charge"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Электрический заряд. Закон Кулона"
+            }
+          ]
+        }
       },
       "seriesCircuit": {
         "name": "Последовательная цепь",
         "alt": "Series circuit",
-        "definition": "Компоненты соединены в одну петлю.",
-        "example": "Ток везде одинаковый, напряжение делится."
+        "definition": "Компоненты, соединённые последовательно, без разветвлений между ними; через каждый проходит одинаковый ток.",
+        "example": "Два последовательных резистора 2 Ом и 3 Ом дают 5 Ом.",
+        "review": {
+          "englishTerm": "Series circuit",
+          "russianTerm": "Последовательная цепь",
+          "contrast": {
+            "en": "In series current is the same; voltage is shared and need not be equal.",
+            "ru": "При последовательном соединении одинаков ток; напряжения складываются и не обязаны быть равными."
+          },
+          "model": {
+            "en": "The resistor sum assumes ideal connecting wires and components represented by resistances.",
+            "ru": "Сложение сопротивлений предполагает идеальные соединительные провода и резистивную модель компонентов."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+              "language": "en",
+              "section": "21 1 resistors in series and parallel"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "1.9. Последовательное и параллельное соединение проводников"
+            }
+          ]
+        }
       },
       "parallelCircuit": {
         "name": "Параллельная цепь",
         "alt": "Parallel circuit",
-        "definition": "Компоненты соединены в отдельные ветви.",
-        "example": "Напряжение на ветвях одинаковое, ток делится."
+        "definition": "Компоненты, подключённые к одной паре узлов; напряжение на каждой ветви одинаково.",
+        "example": "Два резистора по 6 Ом, соединённые параллельно, дают 3 Ом.",
+        "review": {
+          "englishTerm": "Parallel circuit",
+          "russianTerm": "Параллельная цепь",
+          "contrast": {
+            "en": "Branch currents may differ; their sum gives the total current at a junction.",
+            "ru": "Токи ветвей могут различаться; их сумма равна общему току в узле."
+          },
+          "model": {
+            "en": "These rules describe steady circuits with negligible wire resistance.",
+            "ru": "Эти правила применяются к установившемуся току при пренебрежимо малом сопротивлении проводов."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+              "language": "en",
+              "section": "21 1 resistors in series and parallel"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "1.9. Последовательное и параллельное соединение проводников"
+            }
+          ]
+        }
       },
       "ohmicConductor": {
         "name": "Омический проводник",
         "alt": "Ohmic conductor",
-        "definition": "Проводник с постоянным сопротивлением.",
-        "example": "Прямая V-I через начало координат."
+        "definition": "Проводник, в котором ток пропорционален напряжению при неизменных температуре и других физических условиях.",
+        "example": "Его вольт-амперная характеристика — прямая через начало координат.",
+        "review": {
+          "englishTerm": "Ohmic conductor",
+          "russianTerm": "Омический проводник",
+          "contrast": {
+            "en": "V = IR as a ratio does not prove Ohm’s law; constant R under stated conditions does.",
+            "ru": "Запись U = IR сама по себе не доказывает закон Ома; нужна неизменность R при указанных условиях."
+          },
+          "model": {
+            "en": "Heating can change a metal’s resistance, so measurements must control temperature.",
+            "ru": "Нагрев меняет сопротивление металла, поэтому при измерениях нужно контролировать температуру."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "language": "en",
+              "section": "20 1 current"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+              "language": "en",
+              "section": "20 2 ohms law resistance and simple circuits"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "1.8. Электрический ток. Закон Ома"
+            }
+          ]
+        }
       },
       "thermistor": {
         "name": "Термистор",
         "alt": "Thermistor",
-        "definition": "Резистор, чьё сопротивление зависит от температуры.",
-        "example": "С ростом T сопротивление падает (NTC)."
+        "definition": "Резистор, сопротивление которого заметно меняется с температурой.",
+        "example": "В используемой здесь модели NTC-термистора при нагревании сопротивление уменьшается.",
+        "review": {
+          "englishTerm": "Thermistor",
+          "russianTerm": "Термистор",
+          "contrast": {
+            "en": "A thermistor responds to temperature; an LDR responds to light.",
+            "ru": "Термистор реагирует на температуру, фоторезистор — на освещённость."
+          },
+          "model": {
+            "en": "NTC and PTC types exist; decreasing resistance is not a universal thermistor rule.",
+            "ru": "Существуют NTC- и PTC-термисторы; сопротивление не у всех типов уменьшается при нагревании."
+          },
+          "sources": [
+            {
+              "title": "AQA · GCSE Physics: electricity",
+              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/electricity",
+              "language": "en",
+              "section": "4.2.1.4 Resistors: thermistors and light-dependent resistors"
+            }
+          ]
+        }
       },
       "ldr": {
         "name": "Фоторезистор (LDR)",
         "alt": "LDR",
-        "definition": "Резистор, чьё сопротивление зависит от освещённости.",
-        "example": "Больше света — меньше R. Используется в уличных фонарях."
+        "definition": "Фоторезистор — компонент, сопротивление которого меняется при изменении освещённости.",
+        "example": "В этой модели при большей освещённости сопротивление ниже.",
+        "review": {
+          "englishTerm": "LDR",
+          "russianTerm": "Фоторезистор (LDR)",
+          "contrast": {
+            "en": "An LDR senses illumination; it does not supply electrical energy like a solar cell.",
+            "ru": "Фоторезистор чувствителен к освещению; он не служит источником энергии, как солнечный элемент."
+          },
+          "model": {
+            "en": "Its response depends on wavelength, material and illumination; the displayed curve is illustrative.",
+            "ru": "Отклик зависит от длины волны, материала и освещённости; показанная кривая иллюстративна."
+          },
+          "sources": [
+            {
+              "title": "AQA · GCSE Physics: electricity",
+              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/electricity",
+              "language": "en",
+              "section": "4.2.1.4 Resistors: thermistors and light-dependent resistors"
+            }
+          ]
+        }
       },
       "staticElectricity": {
         "name": "Статическое электричество",
         "alt": "Static electricity",
-        "definition": "Накопление электрического заряда.",
-        "example": "Волосы притягиваются к шарику после трения."
+        "definition": "Явления, связанные с избытком электрического заряда, который некоторое время сохраняется на теле.",
+        "example": "Натёртый шарик может притягиваться к нейтральной стене из-за поляризации.",
+        "review": {
+          "englishTerm": "Static electricity",
+          "russianTerm": "Статическое электричество",
+          "contrast": {
+            "en": "Static charge need not stay permanently still; a discharge produces a brief current.",
+            "ru": "Статический заряд не обязан оставаться неподвижным всегда: разряд создаёт кратковременный ток."
+          },
+          "model": {
+            "en": "Attraction alone does not prove opposite net charges: a charged body can attract a neutral one.",
+            "ru": "Притяжение само по себе не доказывает противоположность зарядов: заряженное тело притягивает и нейтральное."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/18-1-static-electricity-and-charge-conservation-of-charge",
+              "language": "en",
+              "section": "18 1 static electricity and charge conservation of charge"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "1.1. Электрический заряд. Закон Кулона"
+            }
+          ]
+        }
       },
       "fuse": {
         "name": "Предохранитель",
         "alt": "Fuse",
-        "definition": "Устройство, плавящееся при слишком большом токе.",
-        "example": "Распространённые: 3 A, 5 A, 13 A."
+        "definition": "Защитное устройство, плавкая вставка которого разрывает цепь при достаточном нагреве избыточным током.",
+        "example": "Предохранитель может отключить ток повреждения, вызывающий перегрев проводов.",
+        "review": {
+          "englishTerm": "Fuse",
+          "russianTerm": "Предохранитель",
+          "contrast": {
+            "en": "A fuse must be replaced after operation; a circuit breaker can be reset.",
+            "ru": "Сработавший предохранитель заменяют; автоматический выключатель можно включить снова."
+          },
+          "model": {
+            "en": "It does not trip instantly at a precise current threshold; operation depends on current and duration.",
+            "ru": "Срабатывание не мгновенно при строго заданном пороге: оно зависит от величины тока и длительности."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-5-alternating-current-versus-direct-current",
+              "language": "en",
+              "section": "20 5 alternating current versus direct current"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
+              "language": "en",
+              "section": "20 6 electric hazards and the human body"
+            }
+          ]
+        }
       },
       "circuitBreaker": {
         "name": "Автоматический выключатель",
         "alt": "Circuit breaker",
-        "definition": "Защитный выключатель, автоматически разрывающий цепь.",
-        "example": "Можно вернуть в исходное состояние, в отличие от плавкого."
+        "definition": "Выключатель, который автоматически размыкает цепь при обнаружении предусмотренного его защитой повреждения и допускает повторное включение.",
+        "example": "Автомат защиты от сверхтока срабатывает при перегрузке или коротком замыкании.",
+        "review": {
+          "englishTerm": "Circuit breaker",
+          "russianTerm": "Автоматический выключатель",
+          "contrast": {
+            "en": "An RCD detects a current imbalance; that is different from overcurrent protection.",
+            "ru": "УЗО реагирует на разность токов; это отличается от защиты от сверхтока."
+          },
+          "model": {
+            "en": "Different devices protect against different faults; this explanation is not a wiring procedure.",
+            "ru": "Разные устройства защищают от разных повреждений; описание объясняет принцип, а не порядок монтажа."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-5-alternating-current-versus-direct-current",
+              "language": "en",
+              "section": "20 5 alternating current versus direct current"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
+              "language": "en",
+              "section": "20 6 electric hazards and the human body"
+            }
+          ]
+        }
       },
       "efficiency": {
         "name": "КПД",
         "alt": "Efficiency",
-        "definition": "Отношение полезной выходной энергии к общей входной.",
-        "example": "Светодиодная лампа — ~90%."
+        "definition": "Отношение полезной выходной энергии к затраченной энергии, либо полезной мощности к входной.",
+        "example": "20 Дж полезной энергии из 100 Дж затраченной дают КПД 0,20, или 20%.",
+        "review": {
+          "englishTerm": "Efficiency",
+          "russianTerm": "КПД",
+          "contrast": {
+            "en": "Efficiency is a ratio; power is an energy-transfer rate.",
+            "ru": "КПД — отношение, а мощность — скорость передачи энергии."
+          },
+          "model": {
+            "en": "Specify what counts as useful output; an LED’s light efficiency is not a universal 90%.",
+            "ru": "Укажи, какой выход считается полезным; световая эффективность светодиода не имеет универсального значения 90%."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+              "language": "en",
+              "section": "20 4 electric power and energy"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph11/theory.html",
+              "language": "ru",
+              "section": "1.11. Работа и мощность тока"
+            }
+          ]
+        }
       },
       "kwh": {
         "name": "Киловатт-час",
         "alt": "Kilowatt-hour (kWh)",
-        "definition": "Единица измерения потребления электроэнергии.",
-        "example": "1 кВт·ч = прибор 1000 Вт работает 1 час."
+        "definition": "Единица энергии: энергия, переданная при мощности 1 кВт за 1 час; 1 кВт·ч = 3,6 МДж.",
+        "example": "Нагреватель мощностью 2 кВт за 0,5 ч передаёт 1 кВт·ч.",
+        "review": {
+          "englishTerm": "Kilowatt-hour (kWh)",
+          "russianTerm": "Киловатт-час",
+          "contrast": {
+            "en": "kW is power; kWh is energy, not “kilowatts per hour”.",
+            "ru": "кВт — мощность, кВт·ч — энергия, а не «киловатты в час»."
+          },
+          "model": {
+            "en": "E = Pt assumes constant power; cycling appliances need average power or a measured energy total.",
+            "ru": "E = Pt предполагает постоянную мощность; для периодически включающихся приборов нужна средняя мощность или измеренная энергия."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+              "language": "en",
+              "section": "20 4 electric power and energy"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph11/theory.html",
+              "language": "ru",
+              "section": "1.11. Работа и мощность тока"
+            }
+          ]
+        }
       }
     },
     "formulas": {
@@ -683,7 +2773,7 @@
     },
     "sim1": {
       "title": "Закон Ома (V = IR)",
-      "desc": "Задай напряжение и сопротивление — ток и мощность обновятся.",
+      "desc": "Идеальный резистор в цепи постоянного тока при постоянной температуре; сопротивления источника и проводов не учитываются.",
       "voltage": "Напряжение",
       "resistance": "Сопротивление",
       "current": "Ток",
@@ -691,7 +2781,7 @@
     },
     "sim2": {
       "title": "Сборка цепи — Последовательная или Параллельная",
-      "desc": "Сравни лампы в последовательной и параллельной цепях. Перегорай отдельные лампы.",
+      "desc": "Лампы представлены постоянными сопротивлениями. У реальной нити сопротивление растёт при нагревании; здесь изучаются правила соединения цепей.",
       "mode": "Режим",
       "supplyVoltage": "Напряжение источника",
       "bulb": "Лампа",
@@ -703,7 +2793,7 @@
     },
     "sim3": {
       "title": "Термистор и LDR",
-      "desc": "Посмотри, как термистор реагирует на температуру, а LDR — на свет.",
+      "desc": "Иллюстративные зависимости для NTC-термистора и фоторезистора; это не калибровочные данные конкретных датчиков.",
       "temperature": "Температура",
       "lightLevel": "Уровень света",
       "thermistorR": "R термистора",
@@ -730,7 +2820,7 @@
     },
     "simIV": {
       "title": "I-V характеристики — омические и неомические",
-      "desc": "Сравни, как ток зависит от напряжения для резистора, лампы накаливания и диода.",
+      "desc": "Качественные модельные кривые. Реальные характеристики зависят от температуры и устройства компонента.",
       "component": "Компонент",
       "voltage": "Напряжение",
       "ohmic": "Резистор",
@@ -754,107 +2844,567 @@
     "concepts": {
       "waveTypes": {
         "name": "Поперечные и продольные волны",
-        "rule": "Поперечные: колебания ПЕРПЕНДИКУЛЯРНЫ направлению распространения. Продольные: колебания ПАРАЛЛЕЛЬНЫ направлению (сжатия и разрежения). И те, и другие переносят энергию БЕЗ переноса вещества.",
-        "examples": ["Поперечные: свет, волны на воде, волны на струне, ВСЕ ЭМ волны.", "Продольные: звук (сжатия воздуха), ультразвук, P-волны при землетрясениях.", "Пружину туда-сюда вбок = поперечная. Вперёд-назад = продольная.", "P-волны (продольные) приходят первыми, потом S-волны (поперечные, не проходят через жидкое ядро)."],
-        "tip": "Представь колеблющуюся частицу. Направление колебаний vs направление волны — перпендикулярно (П) или параллельно (Прод)?"
+        "rule": "В поперечной волне колебания перпендикулярны распространению, в продольной — параллельны. Волны переносят энергию и информацию. В модели малых механических колебаний частицы движутся около равновесия, а не вместе с волной.",
+        "examples": [
+          "Натянутая струна допускает поперечные волны; звук в воздухе — продольный.",
+          "В электромагнитной волне колеблются поля; вещественная среда для её распространения не нужна."
+        ],
+        "review": {
+          "englishTerm": "Transverse vs Longitudinal waves",
+          "russianTerm": "Поперечные и продольные волны",
+          "contrast": {
+            "en": "For electromagnetic waves it is the fields that oscillate, not material particles.",
+            "ru": "В электромагнитной волне колеблются поля, а не частицы вещества."
+          },
+          "model": {
+            "en": "Surface-water waves generally combine vertical and horizontal motion, so they are not purely transverse.",
+            "ru": "Поверхностные волны на воде обычно сочетают вертикальное и горизонтальное движение и не являются чисто поперечными."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+              "language": "en",
+              "section": "16 9 waves"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Механические волны"
+            }
+          ]
+        }
       },
       "waveEquation": {
         "name": "Уравнение волны: v = f·λ",
-        "rule": "Скорость (v, м/с) = частота (f, Гц) × длина волны (λ, м). Период T = 1/f. Время одного полного колебания = период; количество колебаний в секунду = частота.",
-        "examples": ["Звук 340 м/с при 1000 Гц: λ = 0.34 м.", "Красный свет 4.3 × 10¹⁴ Гц, в вакууме v = 3 × 10⁸ м/с: λ = 700 нм.", "FM радио 100 МГц: λ = c/f = 3 м.", "Период сетевого тока (50 Гц): T = 1/50 = 0.02 с = 20 мс."],
-        "tip": "Когда волна переходит из одной среды в другую, ЧАСТОТА остаётся (источник не изменился), а СКОРОСТЬ и ДЛИНА волны меняются."
+        "rule": "Для периодической бегущей волны v = fλ и T = 1/f. Частота f — число циклов за секунду, длина волны λ — пространственное повторение, период T — время одного цикла.",
+        "examples": [
+          "При f = 50 Гц и λ = 2 м получаем v = 100 м/с и T = 0,02 с.",
+          "На неподвижной границе прошедшая волна сохраняет частоту источника; изменение скорости меняет длину волны."
+        ],
+        "review": {
+          "englishTerm": "Wave equation: v = f·λ",
+          "russianTerm": "Уравнение волны: v = f·λ",
+          "contrast": {
+            "en": "Frequency counts cycles per time; wave speed describes how fast a disturbance travels.",
+            "ru": "Частота — число циклов за время; скорость волны — скорость распространения возмущения."
+          },
+          "model": {
+            "en": "A single f and λ describe a periodic wave; a pulse can contain many frequencies.",
+            "ru": "Одна пара f и λ описывает периодическую волну; импульс может содержать много частот."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+              "language": "en",
+              "section": "16 9 waves"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Механические волны"
+            }
+          ]
+        }
       },
       "emSpectrum": {
         "name": "Электромагнитный спектр",
-        "rule": "Все ЭМ волны движутся со скоростью c = 3 × 10⁸ м/с в вакууме. От длинных к коротким: Радио → Микроволны → Инфракрасное → Видимый (Кр-Ор-Жл-Зл-Гл-Син-Фиол) → Ультрафиолет → Рентген → Гамма. Выше частота — больше энергия.",
-        "examples": ["Радио: связь, ТВ, FM/AM. λ ~ м до км.", "Микроволны: готовка (вода поглощает 2.4 ГГц), Wi-Fi, GPS.", "Инфракрасное: тепловизоры, пульты. Чувствуется как тепло.", "Видимый: 400-700 нм. Наши глаза видят только этот узкий диапазон.", "УФ: загар, витамин D, стерилизация воды. Ожоги, рак.", "Рентген: медснимки, досмотр. Ионизирует атомы.", "Гамма: радиоактивный распад, ядерная медицина. Самые опасные: проникают и ионизируют."],
-        "watchOut": "Выше частота = БОЛЬШЕ энергия = больше биологического ущерба. УФ и выше — ИОНИЗИРУЮЩИЕ (выбивают электроны из атомов)."
+        "rule": "Электромагнитный спектр упорядочен по частоте или длине волны: радиоволны → микроволны → инфракрасное → видимое → ультрафиолетовое → рентгеновское → гамма-излучение при росте частоты. В вакууме скорость всех равна c; энергия фотона E = hf растёт с частотой.",
+        "examples": [
+          "Радиоволны переносят сигналы связи; инфракрасное излучение применяют в тепловизорах.",
+          "Рентгеновское и гамма-излучение способны ионизировать вещество. Высокоэнергетический ультрафиолет тоже может ионизировать; вред от УФ не означает, что каждый УФ-фотон ионизирует вещество."
+        ],
+        "review": {
+          "englishTerm": "Electromagnetic spectrum",
+          "russianTerm": "Электромагнитный спектр",
+          "contrast": {
+            "en": "Higher frequency means greater energy per photon, E = hf, not necessarily greater beam power.",
+            "ru": "Большая частота означает большую энергию одного фотона E = hf, но не обязательно большую мощность пучка."
+          },
+          "model": {
+            "en": "All travel at c in vacuum. Band boundaries are approximate, and radiation risk also depends on dose and exposure.",
+            "ru": "В вакууме все распространяются со скоростью c. Границы диапазонов условны; риск зависит также от дозы и условий воздействия."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum",
+              "language": "en",
+              "section": "24 3 the electromagnetic spectrum"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Электромагнитные волны"
+            }
+          ]
+        }
       },
       "reflection": {
         "name": "Отражение",
-        "rule": "Угол падения = угол отражения. Оба измеряются от НОРМАЛИ (перпендикуляра к поверхности), не от поверхности. Гладкая поверхность = зеркальное отражение. Шероховатая = диффузное.",
-        "examples": ["Зеркало: луч под 30° от нормали → отражается под 30° от нормали.", "Изображение в плоском зеркале: мнимое (за зеркалом), такое же по размеру, такое же расстояние сзади, как объект спереди, ЗЕРКАЛЬНО ОТРАЖЕНО влево-вправо.", "Перископ: два параллельных зеркала под 45°.", "Почему белая бумага кажется белой со всех сторон: диффузное отражение белого света.", "Спокойное озеро = зеркальное. Шторм = диффузное."],
-        "tip": "ВСЕГДА сначала рисуй нормаль (пунктиром). Измеряй углы ОТ нормали, не от поверхности."
+        "rule": "У отражённого луча угол отражения равен углу падения. Оба угла измеряют от нормали к поверхности. На шероховатой поверхности нормали различны, поэтому отражение рассеянное.",
+        "examples": [
+          "Луч под 40° к нормали отражается под 40° к нормали.",
+          "Плоское зеркало даёт мнимое изображение на таком же расстоянии за зеркалом, на каком предмет находится перед ним."
+        ],
+        "review": {
+          "englishTerm": "Reflection",
+          "russianTerm": "Отражение",
+          "contrast": {
+            "en": "Reflection returns into the original medium; refraction concerns the transmitted wave.",
+            "ru": "Отражённая волна остаётся в исходной среде; преломлённая проходит в другую."
+          },
+          "model": {
+            "en": "The ray law applies locally to a surface; rough surfaces scatter reflected rays in different directions.",
+            "ru": "Закон для лучей действует локально: на шероховатой поверхности отражённые лучи идут в разных направлениях."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+              "language": "en",
+              "section": "25 2 the law of reflection"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter3/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "3.1. Основные законы геометрической оптики"
+            }
+          ]
+        }
       },
       "refraction": {
         "name": "Преломление",
-        "rule": "При переходе в другую среду СКОРОСТЬ волны меняется — и если угол не 0, она ИЗГИБАЕТСЯ. Из менее плотной в более плотную (воздух → стекло): к нормали. Из стекла в воздух: ОТ нормали.",
-        "examples": ["Карандаш в воде кажется сломанным у поверхности — свет преломляется.", "Линзы фокусируют свет преломлением: собирающая линза — параллельные лучи в фокус.", "Призма расщепляет белый свет: разные цвета преломляются по-разному (дисперсия).", "Полное внутреннее отражение (TIR): свет из стекла в воздух при большом угле (>критического) отражается ПОЛНОСТЬЮ. Используется в оптоволокне (данные передаются на тысячи км).", "Миражи: тёплый воздух у дороги изгибает свет, создавая «воду»."],
-        "tip": "Скорость меняется → волна изгибается. Частота сохраняется; длина волны уменьшается в более медленной среде."
+        "rule": "При преломлении меняется скорость волны между средами; при наклонном падении обычно меняется и направление. Для света n = c/v и n₁ sin θ₁ = n₂ sin θ₂, углы отсчитывают от нормали. Большее n означает меньшую скорость света, а не обязательно большую массовую плотность.",
+        "examples": [
+          "При наклонном переходе из воздуха в стекло луч отклоняется к нормали.",
+          "Полное внутреннее отражение возможно при переходе в среду с меньшим n и угле падения больше критического."
+        ],
+        "review": {
+          "englishTerm": "Refraction",
+          "russianTerm": "Преломление",
+          "contrast": {
+            "en": "Use refractive index, not mass density, to predict the bending of light.",
+            "ru": "Направление преломления света определяет показатель преломления, а не массовая плотность."
+          },
+          "model": {
+            "en": "At normal incidence speed and wavelength change without bending; frequency stays the same at a stationary boundary.",
+            "ru": "При падении по нормали скорость и длина волны меняются без поворота; на неподвижной границе частота сохраняется."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+              "language": "en",
+              "section": "25 3 the law of refraction"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter3/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "3.1. Основные законы геометрической оптики"
+            }
+          ]
+        }
       },
       "sound": {
         "name": "Звуковые волны и слух",
-        "rule": "Звук = продольная волна; нужна среда (в вакууме звука нет). Скорость в воздухе ~340 м/с, в воде ~1500 м/с, в стали ~5000 м/с (плотнее/жёстче = быстрее). Человеческий слух: ~20 Гц до ~20 кГц. Ниже — инфразвук (слоны, киты); выше — ультразвук (летучие мыши, медицинская визуализация).",
-        "examples": ["Высота тона = частота. Выше частота — выше тон.", "Громкость = амплитуда. Больше амплитуда — громче. Измеряется в децибелах (дБ) — логарифмическая шкала.", "Гром/молния: 3 с = ~1 км до молнии (звук 340 м/с vs свет мгновенно).", "Ультразвук: 2-18 МГц, для эмбриона, камней в почках, диагностики.", "Эффект Доплера: высота тона растёт при приближении (волны сжимаются), падает при удалении (растягиваются)."],
-        "tip": "Звук — механическая волна, нужна среда. ЭМ волны — нет (свет идёт через космос)."
+        "rule": "Звук — механическое возмущение; в газах и жидкостях он распространяется как продольная волна давления. Высота тона связана главным образом с частотой; громкость зависит от интенсивности, частоты и слуха. Скорость звука зависит от упругих свойств и плотности среды.",
+        "examples": [
+          "При комнатной температуре скорость звука в воздухе около 343 м/с: задержка 3 с соответствует примерно 1 км.",
+          "При одинаковых частоте и среде рост амплитуды давления увеличивает интенсивность; саму амплитуду не измеряют в децибелах."
+        ],
+        "review": {
+          "englishTerm": "Sound waves & hearing",
+          "russianTerm": "Звуковые волны и слух",
+          "contrast": {
+            "en": "Particles oscillate locally while the disturbance travels onward.",
+            "ru": "Частицы колеблются около положения равновесия, а возмущение распространяется дальше."
+          },
+          "model": {
+            "en": "The simple model describes small oscillations in a medium, without bulk transport by the wave.",
+            "ru": "Простая модель описывает малые колебания среды без переноса её вещества вместе с волной."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/17-1-sound",
+              "language": "en",
+              "section": "17 1 sound"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength",
+              "language": "en",
+              "section": "17 2 speed of sound frequency and wavelength"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter2/section/paragraph7/theory.html",
+              "language": "ru",
+              "section": "2.7. Звук"
+            }
+          ]
+        }
       }
     },
     "terms": {
       "amplitude": {
         "name": "Амплитуда",
         "alt": "Amplitude",
-        "definition": "Максимальное отклонение от положения равновесия.",
-        "example": "Больше амплитуда — громче звук, ярче свет."
+        "definition": "Наибольшее по модулю отклонение колеблющейся величины от её равновесного значения.",
+        "example": "Если струна отклоняется от −2 до +2 см, амплитуда смещения равна 2 см.",
+        "review": {
+          "englishTerm": "Amplitude",
+          "russianTerm": "Амплитуда",
+          "contrast": {
+            "en": "Amplitude is half the peak-to-peak range; wavelength is a distance along the wave.",
+            "ru": "Амплитуда равна половине размаха; длина волны измеряется вдоль распространения."
+          },
+          "model": {
+            "en": "For sound use displacement or pressure amplitude; for light use electric or magnetic field amplitude.",
+            "ru": "Для звука рассматривают амплитуду смещения или давления; для света — амплитуду электрического или магнитного поля."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+              "language": "en",
+              "section": "16 9 waves"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Механические волны"
+            }
+          ]
+        }
       },
       "wavelength": {
         "name": "Длина волны",
         "alt": "Wavelength",
-        "definition": "Расстояние между двумя одинаковыми точками волны (λ).",
-        "example": "От гребня до следующего гребня."
+        "definition": "Расстояние вдоль периодической волны между ближайшими точками, колеблющимися в одинаковой фазе, в один момент времени.",
+        "example": "От одного гребня до следующего или от одного сгущения до следующего.",
+        "review": {
+          "englishTerm": "Wavelength",
+          "russianTerm": "Длина волны",
+          "contrast": {
+            "en": "A wavelength is a spatial repeat; a period is the time for one cycle.",
+            "ru": "Длина волны — пространственное повторение, период — время одного цикла."
+          },
+          "model": {
+            "en": "Use adjacent matching points; the distance across two wavelengths is 2λ.",
+            "ru": "Выбирай ближайшие однофазные точки: через две длины волны расстояние равно 2λ."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+              "language": "en",
+              "section": "16 9 waves"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Механические волны"
+            }
+          ]
+        }
       },
       "frequency": {
         "name": "Частота",
         "alt": "Frequency",
-        "definition": "Количество волн, проходящих за секунду (f, в Гц).",
-        "example": "Звук слышен в диапазоне ~20 Гц–20 кГц."
+        "definition": "Число полных циклов колебаний за единицу времени; 1 Гц означает один цикл в секунду.",
+        "example": "Источник с 50 колебаниями в секунду имеет частоту 50 Гц и период 0,02 с.",
+        "review": {
+          "englishTerm": "Frequency",
+          "russianTerm": "Частота",
+          "contrast": {
+            "en": "Frequency counts cycles per time; wave speed describes how fast a disturbance travels.",
+            "ru": "Частота — число циклов за время; скорость волны — скорость распространения возмущения."
+          },
+          "model": {
+            "en": "A single f and λ describe a periodic wave; a pulse can contain many frequencies.",
+            "ru": "Одна пара f и λ описывает периодическую волну; импульс может содержать много частот."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+              "language": "en",
+              "section": "16 9 waves"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Механические волны"
+            }
+          ]
+        }
       },
       "longitudinal": {
         "name": "Продольная волна",
         "alt": "Longitudinal wave",
-        "definition": "Колебания параллельны направлению распространения волны.",
-        "example": "Звуковые волны в воздухе."
+        "definition": "Волна, в которой колебания направлены параллельно распространению.",
+        "example": "Звук в воздухе создаёт чередующиеся сгущения и разрежения.",
+        "review": {
+          "englishTerm": "Longitudinal wave",
+          "russianTerm": "Продольная волна",
+          "contrast": {
+            "en": "Particles oscillate locally while the disturbance travels onward.",
+            "ru": "Частицы колеблются около положения равновесия, а возмущение распространяется дальше."
+          },
+          "model": {
+            "en": "The simple model describes small oscillations in a medium, without bulk transport by the wave.",
+            "ru": "Простая модель описывает малые колебания среды без переноса её вещества вместе с волной."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+              "language": "en",
+              "section": "16 9 waves"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Механические волны"
+            }
+          ]
+        }
       },
       "transverse": {
         "name": "Поперечная волна",
         "alt": "Transverse wave",
-        "definition": "Колебания перпендикулярны направлению распространения.",
-        "example": "Свет, волны на поверхности воды."
+        "definition": "Волна, в которой колебания направлены перпендикулярно распространению.",
+        "example": "Волна идёт вдоль горизонтальной струны, а струна движется вверх и вниз.",
+        "review": {
+          "englishTerm": "Transverse wave",
+          "russianTerm": "Поперечная волна",
+          "contrast": {
+            "en": "For electromagnetic waves it is the fields that oscillate, not material particles.",
+            "ru": "В электромагнитной волне колеблются поля, а не частицы вещества."
+          },
+          "model": {
+            "en": "Surface-water waves generally combine vertical and horizontal motion, so they are not purely transverse.",
+            "ru": "Поверхностные волны на воде обычно сочетают вертикальное и горизонтальное движение и не являются чисто поперечными."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+              "language": "en",
+              "section": "16 9 waves"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Механические волны"
+            }
+          ]
+        }
       },
       "emSpectrum": {
         "name": "Электромагнитный спектр",
         "alt": "Electromagnetic spectrum",
-        "definition": "Полный диапазон электромагнитных волн.",
-        "example": "Радио, СВЧ, ИК, видимый свет, УФ, рентген, гамма."
+        "definition": "Непрерывный диапазон электромагнитного излучения, распределённого по частоте или длине волны.",
+        "example": "По возрастанию частоты: радиоволны, микроволны, инфракрасное, видимое, ультрафиолетовое, рентгеновское, гамма-излучение.",
+        "review": {
+          "englishTerm": "Electromagnetic spectrum",
+          "russianTerm": "Электромагнитный спектр",
+          "contrast": {
+            "en": "Higher frequency means greater energy per photon, E = hf, not necessarily greater beam power.",
+            "ru": "Большая частота означает большую энергию одного фотона E = hf, но не обязательно большую мощность пучка."
+          },
+          "model": {
+            "en": "All travel at c in vacuum. Band boundaries are approximate, and radiation risk also depends on dose and exposure.",
+            "ru": "В вакууме все распространяются со скоростью c. Границы диапазонов условны; риск зависит также от дозы и условий воздействия."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum",
+              "language": "en",
+              "section": "24 3 the electromagnetic spectrum"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Электромагнитные волны"
+            }
+          ]
+        }
       },
       "reflection": {
         "name": "Отражение",
         "alt": "Reflection",
-        "definition": "Отскок волн от поверхности.",
-        "example": "Угол падения = угол отражения."
+        "definition": "Возвращение волны в исходную среду при взаимодействии с границей.",
+        "example": "Для плоского зеркала луч под 30° к нормали отражается под 30°.",
+        "review": {
+          "englishTerm": "Reflection",
+          "russianTerm": "Отражение",
+          "contrast": {
+            "en": "Reflection returns into the original medium; refraction concerns the transmitted wave.",
+            "ru": "Отражённая волна остаётся в исходной среде; преломлённая проходит в другую."
+          },
+          "model": {
+            "en": "The ray law applies locally to a surface; rough surfaces scatter reflected rays in different directions.",
+            "ru": "Закон для лучей действует локально: на шероховатой поверхности отражённые лучи идут в разных направлениях."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+              "language": "en",
+              "section": "25 2 the law of reflection"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter3/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "3.1. Основные законы геометрической оптики"
+            }
+          ]
+        }
       },
       "refraction": {
         "name": "Преломление",
         "alt": "Refraction",
-        "definition": "Изменение направления волны при переходе в другую среду.",
-        "example": "Соломинка кажется сломанной в стакане воды."
+        "definition": "Изменение скорости распространения волны при переходе в другую среду, обычно сопровождаемое изменением направления.",
+        "example": "Наклонный луч при переходе из воздуха в стекло замедляется и отклоняется к нормали.",
+        "review": {
+          "englishTerm": "Refraction",
+          "russianTerm": "Преломление",
+          "contrast": {
+            "en": "Use refractive index, not mass density, to predict the bending of light.",
+            "ru": "Направление преломления света определяет показатель преломления, а не массовая плотность."
+          },
+          "model": {
+            "en": "At normal incidence speed and wavelength change without bending; frequency stays the same at a stationary boundary.",
+            "ru": "При падении по нормали скорость и длина волны меняются без поворота; на неподвижной границе частота сохраняется."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+              "language": "en",
+              "section": "25 3 the law of refraction"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter3/section/paragraph1/theory.html",
+              "language": "ru",
+              "section": "3.1. Основные законы геометрической оптики"
+            }
+          ]
+        }
       },
       "diffraction": {
         "name": "Дифракция",
         "alt": "Diffraction",
-        "definition": "Огибание волной препятствий или прохождение через щель.",
-        "example": "Звук огибает дверной проём."
+        "definition": "Огибание препятствий и изменение распределения волны после прохождения через отверстие или около края.",
+        "example": "Звук распространяется через дверной проём и туда, куда прямой луч не попал бы.",
+        "review": {
+          "englishTerm": "Diffraction",
+          "russianTerm": "Дифракция",
+          "contrast": {
+            "en": "Refraction requires a change of wave speed; diffraction can occur in one medium.",
+            "ru": "Преломление связано с изменением скорости; дифракция возможна в одной среде."
+          },
+          "model": {
+            "en": "Spreading is strongest when opening size is comparable to wavelength; diffraction is not absent for wider openings.",
+            "ru": "Расхождение особенно заметно при размере отверстия порядка длины волны; при больших отверстиях дифракция не исчезает полностью."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/27-5-single-slit-diffraction",
+              "language": "en",
+              "section": "27 5 single slit diffraction"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter3/section/paragraph8/theory.html",
+              "language": "ru",
+              "section": "3.8. Дифракция света"
+            }
+          ]
+        }
       },
       "lens": {
         "name": "Линза",
         "alt": "Lens",
-        "definition": "Прозрачный объект, преломляющий свет.",
-        "example": "Лупа — собирающая линза."
+        "definition": "Оптический элемент, который преломляет свет для получения изображения или изменения сходимости пучка.",
+        "example": "Собирающая линза может дать действительное изображение далёкого предмета на экране.",
+        "review": {
+          "englishTerm": "Lens",
+          "russianTerm": "Линза",
+          "contrast": {
+            "en": "A real image forms where rays meet; a virtual image forms where their backward extensions meet.",
+            "ru": "Действительное изображение возникает в месте встречи лучей, мнимое — в месте встречи их обратных продолжений."
+          },
+          "model": {
+            "en": "The thin-lens formula assumes a thin ideal lens and rays close to the principal axis.",
+            "ru": "Формула тонкой линзы предполагает тонкую идеальную линзу и лучи вблизи главной оптической оси."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+              "language": "en",
+              "section": "25 6 image formation by lenses"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter3/section/paragraph3/theory.html",
+              "language": "ru",
+              "section": "3.3. Тонкие линзы"
+            }
+          ]
+        }
       },
       "filter": {
         "name": "Светофильтр",
         "alt": "Filter",
-        "definition": "Материал, пропускающий определённые цвета.",
-        "example": "Красный фильтр пропускает только красный."
+        "definition": "Оптический материал, пропускающий одни диапазоны длин волн лучше других.",
+        "example": "Идеальный красный фильтр в белом свете пропускает красный свет и поглощает большую часть остального.",
+        "review": {
+          "englishTerm": "Filter",
+          "russianTerm": "Светофильтр",
+          "contrast": {
+            "en": "A filter selects light already present; it does not turn every incoming colour into its own colour.",
+            "ru": "Фильтр выделяет имеющийся свет, а не превращает любой входящий цвет в свой."
+          },
+          "model": {
+            "en": "The simulation uses ideal colour bands; real filters have gradual, incomplete transmission and may also reflect light.",
+            "ru": "Модель использует идеальные цветовые диапазоны; у реальных фильтров пропускание неполное и плавно меняется, возможны отражения."
+          },
+          "sources": [
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum",
+              "language": "en",
+              "section": "24 3 the electromagnetic spectrum"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/chapter2/section/paragraph6/theory.html",
+              "language": "ru",
+              "section": "2.6. Электромагнитные волны"
+            }
+          ]
+        }
       }
     },
     "formulas": {
@@ -869,7 +3419,7 @@
     },
     "sim1": {
       "title": "Исследователь волн",
-      "desc": "Настраивай амплитуду, длину волны и частоту. Переключай transverse/longitudinal.",
+      "desc": "Периодическая волна: v = fλ. Независимое изменение f и λ меняет v; в заданной недиспергирующей среде скорость была бы постоянной.",
       "amplitude": "Амплитуда",
       "wavelength": "Длина волны",
       "frequency": "Частота",
@@ -877,7 +3427,7 @@
     },
     "sim2": {
       "title": "Отражение и преломление",
-      "desc": "Направь луч на границу сред и смотри, как работает закон Снеллиуса.",
+      "desc": "Идеальные лучи на плоской неподвижной границе; n — показатель преломления, не массовая плотность. Частота сохраняется.",
       "angle": "Угол падения",
       "n1": "n₁ (сверху)",
       "n2": "n₂ (снизу)",
@@ -892,13 +3442,13 @@
     },
     "sim3": {
       "title": "Дифракция",
-      "desc": "Пропусти плоскую волну через щель и посмотри, как она расходится.",
+      "desc": "Схема расхождения фронтов показывает отношение длины волны к ширине щели, а не точное распределение интенсивности.",
       "slitWidth": "Ширина щели",
       "wavelength": "Длина волны"
     },
     "sim4": {
       "title": "Электромагнитный спектр",
-      "desc": "Сдвигай ползунок по спектру и изучай каждую область.",
+      "desc": "Исследуй частоту и длину волны в вакууме: c = fλ. Границы диапазонов условны; частота определяет энергию фотона, но не полную мощность и не опасность сама по себе.",
       "frequency": "Частота",
       "wavelength": "Длина волны",
       "use": "Типичное применение",
@@ -923,7 +3473,7 @@
     },
     "sim5": {
       "title": "Собирающая линза",
-      "desc": "Перемещай объект и смотри, как формируется изображение через три главных луча.",
+      "desc": "Тонкая идеальная собирающая линза, приосевые лучи и указанное соглашение о знаках. При положении предмета в фокусе изображение находится на бесконечности.",
       "objectDistance": "Расстояние до объекта (u)",
       "focalLength": "Фокусное расстояние (f)",
       "imageDistance": "Расстояние до изображения (v)",
@@ -944,7 +3494,7 @@
     },
     "simFilters": {
       "title": "Цвет и фильтры",
-      "desc": "Освети объект цветным светом через фильтр и предскажи, что увидишь.",
+      "desc": "Идеальные цветовые диапазоны; реальные фильтры пропускают свет неполностью и с плавной зависимостью. Фильтр не создаёт отсутствующие в источнике цвета.",
       "lightSource": "Источник света",
       "filter": "Фильтр",
       "object": "Цвет объекта"

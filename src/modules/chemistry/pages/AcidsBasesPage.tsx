@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { Droplet } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
@@ -24,7 +25,7 @@ export function AcidsBasesPage() {
       />
       <ChemSection
         title={t('acidsBases.sections.pH.title')}
-        body={t('acidsBases.sections.pH.body')}
+        body={t('acidsBases.sections.pH.body')} review={t('acidsBases.sections.pH.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-sky-deep)"
       />
       <ChemSection
@@ -37,7 +38,7 @@ export function AcidsBasesPage() {
         detailedItems={reactions}
         borderColor="var(--color-accent-sage)"
       />
-      <SectionHeading>Interactive — pH Indicator</SectionHeading>
+      <SectionHeading>{t('simulations.phIndicator.title')}</SectionHeading>
       <PHIndicator />
     </ChemistryTopicLayout>
   );

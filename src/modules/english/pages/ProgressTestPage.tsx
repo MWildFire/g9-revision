@@ -1,9 +1,12 @@
+import { ENGLISH_REVIEWS } from '../../../definitions/english';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { useTranslation } from 'react-i18next';
 import { Brain } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 
 export function ProgressTestPage() {
-  const { t } = useTranslation('english');
+  const { t, i18n } = useTranslation('english');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const moodWords = t('progressTestPage.moodWords.items', { returnObjects: true }) as Record<string, string>;
   const viewWords = t('progressTestPage.viewpointWords.items', { returnObjects: true }) as Record<string, string>;
   const synth = (t('progressTestPage.synthesis.items', { returnObjects: true }) as string[]) ?? [];
@@ -21,6 +24,8 @@ export function ProgressTestPage() {
         {t('progressTestPage.survivalVocab.body')}
       </p>
 
+      <DefinitionSupport review={ENGLISH_REVIEWS['progressTestPage.survivalVocab']} language={lang} />
+      <DefinitionSupport review={ENGLISH_REVIEWS.toneMood} language={lang} />
       <SectionHeading>{t('progressTestPage.moodWords.title')}</SectionHeading>
       <ul className="space-y-2">
         {Object.entries(moodWords).map(([k, v]) => (

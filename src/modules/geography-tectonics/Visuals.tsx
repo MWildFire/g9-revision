@@ -1,3 +1,4 @@
+import { VolcanoForms } from './VolcanoForms';
 import { useId, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { Lesson } from './types';
@@ -42,13 +43,14 @@ export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: 
         <legend>{t('Compare plate boundaries', 'Сравни границы плит')}</legend>
         <div>{boundaryKeys.map(value => <button type="button" key={value} aria-pressed={selected === value} onClick={() => setBoundary(value)}>{labels[value]}</button>)}</div>
       </fieldset>}
-      {selected === 'volcano' && <div className="tectonic-volcano-anatomy">
+      {selected === 'volcano' && <div className="tectonic-volcano-anatomy"><VolcanoForms />
         <h4>{t('Read the cross-section', 'Прочитай разрез')}</h4>
         <div className="tectonic-diagram-scroll" role="region" tabIndex={0} aria-label={t('Scrollable volcano cross-section', 'Прокручиваемая схема строения вулкана')}>
           <svg viewBox="0 0 760 410" role="img" aria-labelledby={`${uid}-anatomy-title ${uid}-anatomy-desc`} className="tectonic-diagram">
             <title id={`${uid}-anatomy-title`}>{t('Numbered volcano cross-section', 'Разрез вулкана с нумерацией')}</title>
             <desc id={`${uid}-anatomy-desc`}>{t('A magma reservoir connects to a central conduit and main vent. A crater lies around the main vent. Layers build the cone; a side branch leads to a secondary vent. Dykes cut layers, while a sill runs parallel to them. The numbered key follows the image.', 'Магматический резервуар соединён с центральным каналом и главным жерлом. Кратер окружает главное жерло. Конус построен из слоёв; боковая ветвь ведёт к боковому жерлу. Дайки пересекают слои, силл залегает параллельно. Под схемой приведена расшифровка номеров.')}</desc>
             <rect x="25" y="292" width="710" height="108" fill="#d6b79a" />
+            <path d="M25 305 H735 M25 320 H735 M25 337 H735 M25 380 H735" stroke="#ad8c70" strokeWidth="2" fill="none" />
             <path d="M45 292 L170 260 L331 91 L355 118 L381 91 L548 260 L715 292Z" fill="#ab8e70" />
             <path d="M138 268 L332 122 L355 139 L381 122 L578 268 M96 282 L335 158 L359 173 L385 158 L653 282 M212 250 L339 194 L361 207 L388 194 L500 250" fill="none" stroke="#795e48" strokeWidth="5" />
             <path d="M344 121 L346 340 L368 340 L369 121Z" fill="#ca632f" />

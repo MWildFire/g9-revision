@@ -28,7 +28,7 @@
 .tectonic-sidebar-number { color: var(--tectonic-rust); font: .68rem var(--font-mono); flex-shrink: 0; }
 .tectonic-sidebar-practice { display: flex; align-items: center; gap: 9px; padding: 17px 9px; border-top: 1px solid var(--color-border); margin-top: 15px; font-size: .78rem; font-weight: 600; }
 .tectonic-main { min-width: 0; }
-.tectonic-main h1 { font-size: clamp(2.05rem, 3.75vw, 3.6rem); line-height: 1.13; letter-spacing: -.026em; margin: 13px 0 23px; }
+.tectonic-main h1 { font-size: clamp(2.05rem, 3.75vw, 3.6rem); line-height: 1.13; letter-spacing: -.026em; margin: 13px 0 23px; overflow-wrap: anywhere; }
 .tectonic-main h2 { font-size: 1.55rem; line-height: 1.3; margin-bottom: 15px; }
 .tectonic-main h3 { font-size: 1.12rem; line-height: 1.45; margin-bottom: 11px; }
 .tectonic-main p { margin-bottom: 16px; }
@@ -100,7 +100,7 @@
 .tectonic-volcano-anatomy h4 { font: 600 .84rem var(--font-sans); color: var(--tectonic-ink); margin-top: 18px; }
 .tectonic-main .tectonic-diagram-key { display: grid; grid-template-columns: 1fr 1fr; gap: 7px 30px; font-size: .77rem; line-height: 1.6; padding-left: 22px; margin: 18px 0; }
 .tectonic-diagram-key li { margin-bottom: 0; }
-.tectonic-diagram { display: block; min-width: 660px; width: 100%; height: auto; margin: 15px 0; }
+.tectonic-diagram { display: block; min-width: 760px; width: 100%; height: auto; margin: 15px 0; }
 .tectonic-diagram text { font: 15px var(--font-sans); fill: #223f3b; }
 .tectonic-figure figcaption { font-size: .82rem; line-height: 1.8; margin-top: 13px; color: #40564d; }
 .tectonic-figure figcaption strong { font-weight: 600; }
@@ -174,7 +174,7 @@
 .tectonic-glossary { margin: 38px 0; }
 .tectonic-glossary > p { color: var(--color-text-secondary); font-size: .9rem; }
 .tectonic-glossary dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; margin-top: 22px; }
-.tectonic-glossary dl > div { padding: 20px; border: 1px solid var(--color-border); background: #fbf7ef; border-radius: 10px; }
+.tectonic-glossary dl > div { min-width: 0; padding: 20px; border: 1px solid var(--color-border); background: #fbf7ef; border-radius: 10px; }
 .tectonic-glossary dt { font-weight: 600; font-size: .91rem; color: var(--tectonic-ink); margin-bottom: 10px; }
 .tectonic-glossary dt span { display: block; font-size: .75rem; color: var(--color-text-secondary); font-weight: 400; margin-top: 2px; }
 .tectonic-glossary dd { font-size: .85rem; line-height: 1.8; }
@@ -253,7 +253,7 @@
   .tectonic-review-routine { padding: 24px 20px; }
   .tectonic-question h3 { font-size: 1.07rem; }
   .tectonic-filter-panel { grid-template-columns: 1fr; padding: 20px; }
-  .tectonic-command-grid, .tectonic-glossary dl { grid-template-columns: 1fr; }
+  .tectonic-command-grid, .tectonic-glossary dl { grid-template-columns: minmax(0, 1fr); }
   .tectonic-pagination { gap: 18px; }
   .tectonic-pagination a { font-size: .79rem; }
   .tectonic-print-toolbar { align-items: stretch; flex-direction: column; padding: 20px; }
@@ -308,3 +308,6 @@
   .tectonic-risk-grid strong, .tectonic-risk-grid p { font-size: 9pt; }
   .tectonic-note { border: 1px solid #bbb; padding: 10pt; }
 }
+
+.tectonic-volcano-forms { min-width: 820px; width: 100%; }
+@media print { .tectonic-volcano-forms { min-width: 0; width: 100%; } }

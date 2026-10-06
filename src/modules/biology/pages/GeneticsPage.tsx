@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { Dna } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { BiologyTopicLayout, InfoSection } from '../components/BiologyTopicLayout';
@@ -20,7 +21,7 @@ export function GeneticsPage() {
         <InfoSection
           key={s}
           title={t(`genetics.sections.${s}.title`)}
-          body={t(`genetics.sections.${s}.body`)}
+          body={t(`genetics.sections.${s}.body`)} review={t(`genetics.sections.${s}.review`, { returnObjects: true }) as DefinitionReview}
           borderColor="var(--color-accent-warm)"
         />
       ))}
@@ -34,7 +35,7 @@ export function GeneticsPage() {
         detailedItems={evolutionItems}
         borderColor="var(--color-accent-clay)"
       />
-      <SectionHeading>Interactive — Punnett Square</SectionHeading>
+      <SectionHeading>{t('simulations.punnett.title')}</SectionHeading>
       <PunnettSquare />
     </BiologyTopicLayout>
   );

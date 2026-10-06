@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -14,7 +16,7 @@ const CONFIGS: Record<number, string> = {
   18: '2,8,8', 19: '2,8,8,1', 20: '2,8,8,2',
 };
 
-const MASSES: Record<number, number> = {
+const MASS_NUMBERS: Record<number, number> = {
   1: 1, 2: 4, 3: 7, 4: 9, 5: 11, 6: 12, 7: 14, 8: 16, 9: 19, 10: 20,
   11: 23, 12: 24, 13: 27, 14: 28, 15: 31, 16: 32, 17: 35, 18: 40, 19: 39, 20: 40,
 };
@@ -25,8 +27,8 @@ export function AtomBuilder() {
   const symbol = SYMBOLS[Z];
   const config = CONFIGS[Z] ?? '';
   const name = t(`simulations.atomBuilder.elements.${Z}`);
-  const mass = MASSES[Z] ?? 0;
-  const neutrons = mass - Z;
+  const massNumber = MASS_NUMBERS[Z] ?? 0;
+  const neutrons = massNumber - Z;
   const shells = config.split(',').map((s) => parseInt(s, 10));
 
   const cx = 180;
@@ -34,15 +36,15 @@ export function AtomBuilder() {
 
   return (
     <SimulationPanel title={t('simulations.atomBuilder.title')} description={t('simulations.atomBuilder.description')}>
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_360px] gap-6 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_360px] gap-6 items-center">
         <div className="space-y-3">
           <Slider label={t('simulations.atomBuilder.atomicNumberLabel')} min={1} max={20} step={1} value={Z} onChange={(v) => setZ(Math.round(v))} />
 
           {symbol ? (
             <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-2">
-              <p className="text-xl font-serif font-medium">{symbol} <span className="text-text-muted text-base">— {name}</span></p>
+              <p className="text-xl font-serif font-medium">{symbol}-{massNumber} <span className="text-text-muted text-base">— {name}</span></p>
               <p><span className="text-text-muted">{t('simulations.atomBuilder.protonsLabel')}:</span> <span className="font-mono">{Z}</span> {t('simulations.atomBuilder.protonsHint')}</p>
-              <p><span className="text-text-muted">{t('simulations.atomBuilder.massLabel')}:</span> <span className="font-mono">{mass}</span></p>
+              <p><span className="text-text-muted">{t('simulations.atomBuilder.massLabel')}:</span> <span className="font-mono">{massNumber}</span></p>
               <p><span className="text-text-muted">{t('simulations.atomBuilder.neutronsLabel')}:</span> <span className="font-mono">{neutrons}</span> {t('simulations.atomBuilder.neutronsHint')}</p>
               <p><span className="text-text-muted">{t('simulations.atomBuilder.electronsLabel')}:</span> <span className="font-mono">{Z}</span> {t('simulations.atomBuilder.electronsHint')}</p>
               <p><span className="text-text-muted">{t('simulations.atomBuilder.configLabel')}:</span> <span className="font-mono">{config}</span></p>
@@ -53,7 +55,9 @@ export function AtomBuilder() {
           ) : null}
         </div>
 
-        <svg viewBox="0 0 360 300" className="w-full max-w-[360px] mx-auto">
+        <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.atomBuilder.title')}><svg style={{ minWidth: 640, maxWidth: 'none' }} role="img" aria-label={`${name}-${massNumber}: ${Z} p, ${neutrons} n, ${Z} e; ${config}`} viewBox="0 0 360 300" className="w-full max-w-[360px] mx-auto">
+          <title>{name}-{massNumber}</title>
+          <desc>{t('simulations.atomBuilder.shellNote')}</desc>
           <circle cx={cx} cy={cy} r={22} fill="var(--color-accent-warm)" fillOpacity={0.4} stroke="var(--color-accent-warm)" strokeWidth={2} />
           <text x={cx} y={cy - 2} textAnchor="middle" fontSize={11} fill="var(--color-text-primary)" fontWeight={600}>{Z}p</text>
           <text x={cx} y={cy + 11} textAnchor="middle" fontSize={11} fill="var(--color-text-primary)" fontWeight={600}>{neutrons}n</text>
@@ -72,8 +76,9 @@ export function AtomBuilder() {
               </g>
             );
           })}
-        </svg>
+        </svg></div>
       </div>
+    <DefinitionSupport review={t('simulations.atomBuilder.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

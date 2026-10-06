@@ -1,3 +1,5 @@
+import { ARABIC_REVIEWS } from '../../../definitions/arabic';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { Type } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -16,6 +18,7 @@ export function AlphabetPage() {
         icon={<Type size={28} />}
       />
 
+      <DefinitionSupport review={ARABIC_REVIEWS.phonetics} language={lang} />
       <SectionHeading>{lang === 'ru' ? 'Все буквы (изолированно)' : 'All letters (isolated)'}</SectionHeading>
       <div
         dir="rtl"
@@ -32,13 +35,13 @@ export function AlphabetPage() {
         <table className="w-full text-sm">
           <thead className="bg-bg-tertiary/30 text-text-secondary text-xs uppercase tracking-wider">
             <tr>
-              <th className="text-left px-3 py-2">Name</th>
-              <th className="text-center px-2 py-2" style={{ fontFamily: arFont }}>Iso</th>
-              <th className="text-center px-2 py-2" style={{ fontFamily: arFont }}>Init</th>
-              <th className="text-center px-2 py-2" style={{ fontFamily: arFont }}>Med</th>
-              <th className="text-center px-2 py-2" style={{ fontFamily: arFont }}>Fin</th>
-              <th className="text-left px-3 py-2">Translit.</th>
-              <th className="text-left px-3 py-2">Sound</th>
+              <th className="text-left px-3 py-2">{lang === 'ru' ? 'Название' : 'Name'}</th>
+              <th className="text-center px-2 py-2" style={{ fontFamily: arFont }}>{lang === 'ru' ? 'Отдельно' : 'Isolated'}</th>
+              <th className="text-center px-2 py-2" style={{ fontFamily: arFont }}>{lang === 'ru' ? 'Начало' : 'Initial'}</th>
+              <th className="text-center px-2 py-2" style={{ fontFamily: arFont }}>{lang === 'ru' ? 'Середина' : 'Medial'}</th>
+              <th className="text-center px-2 py-2" style={{ fontFamily: arFont }}>{lang === 'ru' ? 'Конец' : 'Final'}</th>
+              <th className="text-left px-3 py-2">{lang === 'ru' ? 'Передача букв' : 'Transliteration'}</th>
+              <th className="text-left px-3 py-2">{lang === 'ru' ? 'Звук' : 'Sound'}</th>
             </tr>
           </thead>
           <tbody>
@@ -50,7 +53,7 @@ export function AlphabetPage() {
                 <td className="px-2 py-1.5 text-center text-lg" style={{ fontFamily: arFont }}>{l.medial}</td>
                 <td className="px-2 py-1.5 text-center text-lg" style={{ fontFamily: arFont }}>{l.final}</td>
                 <td className="px-3 py-1.5 text-text-secondary font-mono text-xs">{l.translit}</td>
-                <td className="px-3 py-1.5 text-text-secondary text-xs">{l.sound}</td>
+                <td className="px-3 py-1.5 text-text-secondary text-xs">{lang === 'ru' ? l.soundRu : l.sound}</td>
               </tr>
             ))}
           </tbody>

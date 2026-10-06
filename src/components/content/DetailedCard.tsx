@@ -1,3 +1,6 @@
+import { DefinitionSupport } from './DefinitionSupport';
+import type { DefinitionReview } from './definitionReview';
+
 export interface DetailedItem {
   name?: string;
   title?: string;
@@ -10,6 +13,7 @@ export interface DetailedItem {
   tip?: string;
   watchOut?: string;
   note?: string;
+  review?: DefinitionReview;
 }
 
 interface Props {
@@ -85,6 +89,7 @@ export function DetailedCard({ item, borderColor, labels }: Props) {
       {item.note ? (
         <p className="text-xs text-text-muted mt-2">{item.note}</p>
       ) : null}
+      {item.review && <DefinitionSupport review={item.review} />}
     </article>
   );
 }

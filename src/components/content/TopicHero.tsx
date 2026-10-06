@@ -15,7 +15,7 @@ export function TopicHero({ title, intro, icon }: TopicHeroProps) {
             {icon}
           </div>
         ) : null}
-        <div>
+        <div className="min-w-0 [overflow-wrap:anywhere]">
           <h1 className="font-serif text-3xl md:text-4xl font-medium text-text-primary mb-3">
             {title}
           </h1>

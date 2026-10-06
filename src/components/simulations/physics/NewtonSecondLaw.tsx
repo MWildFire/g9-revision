@@ -85,7 +85,7 @@ export function NewtonSecondLaw() {
     <SimulationPanel title={t('forceMotion.sim1.title')} description={t('forceMotion.sim1.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
         <div className="space-y-4">
-          <canvas
+          <canvas role="img" aria-label={t('forceMotion.sim1.desc')}
             ref={canvasRef}
             width={CANVAS_W}
             height={CANVAS_H}

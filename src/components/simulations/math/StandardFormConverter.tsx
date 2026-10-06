@@ -1,14 +1,17 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SimulationPanel } from '../../ui/Tabs';
-import { toStandardForm, fmt } from '../../../lib/math';
+import { fmt } from '../../../lib/math';
+import { scientificNotation } from '../../../definitions/math-legacy-models';
 
 export function StandardFormConverter() {
   const { t } = useTranslation('math');
   const [input, setInput] = useState('384000');
-  const num = parseFloat(input);
+  const num = /^[+-]?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?$/i.test(input.trim()) ? Number(input) : NaN;
   const valid = Number.isFinite(num) && num !== 0;
-  const { a, exponent } = valid ? toStandardForm(num) : { a: 0, exponent: 0 };
+  const { a, exponent } = valid ? scientificNotation(num) : { a: 0, exponent: 0 };
 
   return (
     <SimulationPanel
@@ -17,7 +20,7 @@ export function StandardFormConverter() {
     >
       <div className="space-y-4">
         <label className="block">
-          <span className="text-sm font-medium text-text-secondary mb-1.5 block">Enter a number</span>
+          <span className="text-sm font-medium text-text-secondary mb-1.5 block">{t('simulations.standardForm.input')}</span>
           <input
             type="text"
             value={input}
@@ -28,23 +31,24 @@ export function StandardFormConverter() {
         {valid ? (
           <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 space-y-3">
             <div className="flex items-center gap-3 flex-wrap">
-              <span className="text-text-muted text-sm">Ordinary:</span>
-              <span className="font-mono text-lg">{num.toLocaleString('en-US', { useGrouping: false, maximumFractionDigits: 12 })}</span>
+              <span className="text-text-muted text-sm">{t('simulations.standardForm.ordinary')}:</span>
+              <span className="font-mono text-lg">{num.toLocaleString('en-US', { useGrouping: false, maximumSignificantDigits: 15 })}</span>
             </div>
             <div className="flex items-center gap-3 flex-wrap">
-              <span className="text-text-muted text-sm">Standard form:</span>
+              <span className="text-text-muted text-sm">{t('simulations.standardForm.standard')}:</span>
               <span className="font-mono text-lg">
-                {fmt(a, 6)} × 10<sup>{exponent}</sup>
+                {String(a)} × 10<sup>{exponent}</sup>
               </span>
             </div>
             <p className="text-xs text-text-muted">
-              The decimal point shifts {exponent >= 0 ? 'left' : 'right'} by {Math.abs(exponent)} place{Math.abs(exponent) === 1 ? '' : 's'}.
+              {t('simulations.standardForm.shift', { n: exponent })}
             </p>
           </div>
         ) : (
-          <p className="text-sm text-text-muted">Enter a non-zero number.</p>
+          <p className="text-sm text-text-muted">{t('simulations.standardForm.invalid')}</p>
         )}
       </div>
+      <DefinitionSupport review={t('simulations.standardForm.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

@@ -1,3 +1,4 @@
+import { defineTerm } from './definitions';
 import type { Lesson } from './types';
 
 export const extendedLessons: Lesson[] = [
@@ -6,9 +7,9 @@ export const extendedLessons: Lesson[] = [
     intro: 'This topic is explicitly marked Extended in the Term 1 table. Study it after the Standard priorities if it belongs to your assigned course.',
     goals: ['Find a perpendicular gradient and a line through a given point.', 'Handle horizontal and vertical lines separately.'],
     terms: [
-      { term: 'Perpendicular lines', meaning: 'Lines meeting at a right angle.', example: 'y = 2x and y = −x/2 are perpendicular.' },
-      { term: 'Negative reciprocal', meaning: 'For a non-zero number m, the value −1/m.', example: 'The negative reciprocal of 3/4 is −4/3.' },
-      { term: 'Parallel lines', meaning: 'Distinct lines in a plane that never intersect.', example: 'y = 2x + 1 and y = 2x − 3 have the same gradient.' },
+      defineTerm('Perpendicular lines'),
+      defineTerm('Negative reciprocal'),
+      defineTerm('Parallel lines'),
     ],
     sections: [
       { title: 'Use the condition correctly', text: 'Two perpendicular lines with finite non-zero gradients satisfy m₁m₂ = −1. Thus take the negative reciprocal of the known gradient. A horizontal line is perpendicular to a vertical line; neither can be handled by dividing by a zero gradient.', formula: 'm₂ = −1/m₁ for finite non-zero m₁.' },
@@ -26,11 +27,11 @@ export const extendedLessons: Lesson[] = [
     intro: 'This Extended topic turns a constrained decision into a system of inequalities and an objective to maximise or minimise. Start by defining the variables and units.',
     goals: ['Graph linear constraints and identify a feasible region.', 'Evaluate an objective at relevant vertices and consider integer restrictions.'],
     terms: [
-      { term: 'Linear programming', meaning: 'Optimising a linear objective subject to linear constraints.', example: 'Maximise 3x + 2y subject to limits on x and y.' },
-      { term: 'Constraint', meaning: 'A condition limiting permitted choices.', example: 'x + y ≤ 8' },
-      { term: 'Feasible region', meaning: 'The set of points satisfying all constraints simultaneously.', example: 'The overlap of all allowed half-planes.' },
-      { term: 'Objective function', meaning: 'The quantity to maximise or minimise.', example: 'P = 3x + 2y' },
-      { term: 'Optimal solution', meaning: 'A feasible solution giving the best attainable objective value.', example: 'The feasible point with the greatest profit.' },
+      defineTerm('Linear programming'),
+      defineTerm('Constraint'),
+      defineTerm('Feasible region'),
+      defineTerm('Objective function'),
+      defineTerm('Optimal solution'),
     ],
     sections: [
       { title: 'Graph the feasible choices', text: 'Replace an inequality by its boundary equation to draw the line. Use a solid line for ≤ or ≥ and a dashed line for < or >. Test a point off the boundary to select the correct half-plane. Intersect all allowed regions and include non-negativity constraints when required by the context.' },
@@ -48,9 +49,9 @@ export const extendedLessons: Lesson[] = [
     intro: 'This Extended topic asks where an expression is positive or negative. Critical values divide the number line into intervals on which its sign can be tested.',
     goals: ['Use roots and sign intervals for quadratic inequalities.', 'Track denominator exclusions in reciprocal inequalities.'],
     terms: [
-      { term: 'Critical value', meaning: 'For a sign analysis, a value where an expression is zero or undefined and interval behaviour may change.', example: 'For (x − 1)/(x + 2), use −2 and 1.' },
-      { term: 'Sign chart', meaning: 'A table or number line recording whether an expression is positive or negative on each interval.', example: 'Test a value on each side of every critical value.' },
-      { term: 'Boundary inclusion', meaning: 'Whether an endpoint belongs to the solution set.', example: 'A zero may be included with ≥, but an undefined point is always excluded.' },
+      defineTerm('Critical value'),
+      defineTerm('Sign chart'),
+      defineTerm('Boundary inclusion'),
     ],
     sections: [
       { title: 'Quadratic signs', text: 'Move everything to one side and factor where possible. Mark roots, test each interval and include roots only for a non-strict comparison. Do not assume the sign changes at every root: an even-multiplicity factor such as (x − 2)² does not change sign there.' },

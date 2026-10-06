@@ -76,7 +76,7 @@ export function EnergyTransformations() {
     >
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
         <div className="space-y-3">
-          <svg viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
+          <svg role="img" aria-label={t('forcesEnergy.simEnergy.desc')} viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
             {/* ceiling */}
             <line x1="0" y1={PIVOT_Y} x2={W} y2={PIVOT_Y} stroke="#6b5b47" strokeWidth="2" />
             {Array.from({ length: 12 }).map((_, i) => (

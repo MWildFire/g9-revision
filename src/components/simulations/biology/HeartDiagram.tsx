@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SimulationPanel } from '../../ui/Tabs';
@@ -40,7 +42,7 @@ export function HeartDiagram() {
   return (
     <SimulationPanel title={t('simulations.heartDiagram.title')} description={t('simulations.heartDiagram.description')}>
       <div className="grid grid-cols-1 md:grid-cols-[1fr_280px] gap-4 items-start">
-        <svg viewBox="0 0 400 320" className="w-full bg-bg-tertiary/30 rounded-md border border-border">
+        <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.heartDiagram.title')}><svg style={{ minWidth: 640, maxWidth: 'none' }} role="img" aria-label={t('simulations.heartDiagram.title')} viewBox="0 0 400 320" className="w-full bg-bg-tertiary/30 rounded-md border border-border"><title>{t('simulations.heartDiagram.title')}</title><desc>{t('simulations.heartDiagram.description')}</desc>
           <path d="M 60 60 Q 60 30 200 30 Q 340 30 340 60 L 340 230 Q 340 280 200 290 Q 60 280 60 230 Z" fill="var(--color-bg-secondary)" stroke="var(--color-accent-clay)" strokeWidth={2} />
           <line x1={200} y1={50} x2={200} y2={280} stroke="var(--color-text-secondary)" strokeWidth={1.5} strokeDasharray="3 3" />
 
@@ -88,7 +90,7 @@ export function HeartDiagram() {
 
           <text x={130} y={300} textAnchor="middle" fontSize={10} fill="#7b95b0" fontWeight={600}>{t('simulations.heartDiagram.deoxygenated')}</text>
           <text x={270} y={300} textAnchor="middle" fontSize={10} fill="#c44848" fontWeight={600}>{t('simulations.heartDiagram.oxygenated')}</text>
-        </svg>
+        </svg></div>
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm min-h-[200px]">
           {activeLabel ? (
@@ -107,6 +109,7 @@ export function HeartDiagram() {
           </div>
         </div>
       </div>
+    <DefinitionSupport review={t('simulations.heartDiagram.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

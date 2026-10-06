@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { Flame } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
@@ -18,19 +19,19 @@ export function EnergyPage() {
       />
       <ChemSection
         title={t('energy.sections.profiles.title')}
-        body={t('energy.sections.profiles.body')}
+        body={t('energy.sections.profiles.body')} review={t('energy.sections.profiles.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-clay)"
       />
       <ChemSection
         title={t('energy.sections.bondEnergies.title')}
-        body={t('energy.sections.bondEnergies.body')}
+        body={t('energy.sections.bondEnergies.body')} review={t('energy.sections.bondEnergies.review', { returnObjects: true }) as DefinitionReview}
       />
       <ChemSection
         title={t('energy.sections.calorimetry.title')}
-        body={t('energy.sections.calorimetry.body')}
+        body={t('energy.sections.calorimetry.body')} review={t('energy.sections.calorimetry.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-warm)"
       />
-      <SectionHeading>Interactive — Energy Profile</SectionHeading>
+      <SectionHeading>{t('simulations.energyProfile.title')}</SectionHeading>
       <EnergyProfile />
     </ChemistryTopicLayout>
   );

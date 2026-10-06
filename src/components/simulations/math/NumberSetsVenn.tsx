@@ -1,63 +1,16 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SimulationPanel } from '../../ui/Tabs';
 
+import { classifyNumber } from '../../../definitions/math-legacy-models';
 type SetKey = 'N' | 'Z' | 'Q' | 'R';
-type NumberInfo = Record<SetKey, boolean> & { explanationKey: string; explanationParams?: Record<string, string | number> };
-
-function classify(input: string): NumberInfo {
-  const trimmed = input.trim();
-  if (!trimmed) return { N: false, Z: false, Q: false, R: false, explanationKey: 'dash' };
-
-  const irrationalPatterns = [/^√[2-9]$/, /^√1[0-9]$/, /^π$/, /^pi$/i, /^e$/, /^\d+√[2-9]$/];
-  if (irrationalPatterns.some((re) => re.test(trimmed))) {
-    return { N: false, Z: false, Q: false, R: true, explanationKey: 'irrational' };
-  }
-
-  const frac = trimmed.match(/^(-?\d+)\/(-?\d+)$/);
-  if (frac) {
-    const num = parseInt(frac[1], 10);
-    const den = parseInt(frac[2], 10);
-    if (den === 0) return { N: false, Z: false, Q: false, R: false, explanationKey: 'divisionByZero' };
-    if (num % den === 0) {
-      const integerVal = num / den;
-      const isNat = integerVal > 0 && Number.isInteger(integerVal);
-      return {
-        N: isNat,
-        Z: true,
-        Q: true,
-        R: true,
-        explanationKey: 'simplifiesToInteger',
-        explanationParams: { frac: `${num}/${den}`, value: integerVal },
-      };
-    }
-    return { N: false, Z: false, Q: true, R: true, explanationKey: 'properFraction' };
-  }
-
-  // Strict numeric parse — reject trailing garbage like "5xyz".
-  if (!/^-?\d+(?:\.\d+)?$/.test(trimmed)) {
-    return { N: false, Z: false, Q: false, R: false, explanationKey: 'cannotParse' };
-  }
-  const num = parseFloat(trimmed);
-  if (!Number.isFinite(num)) {
-    return { N: false, Z: false, Q: false, R: false, explanationKey: 'cannotParse' };
-  }
-
-  const isInt = Number.isInteger(num);
-  const isNat = isInt && num > 0;
-  return {
-    N: isNat,
-    Z: isInt,
-    Q: true,
-    R: true,
-    explanationKey: isNat ? 'positiveWhole' : isInt ? 'integer' : 'finiteDecimal',
-  };
-}
 
 export function NumberSetsVenn() {
   const { t } = useTranslation('math');
   const [value, setValue] = useState('3.14');
-  const info = classify(value);
+  const info = classifyNumber(value);
   const explanation = info.explanationKey === 'dash'
     ? '—'
     : t(`simulations.numberSetsVenn.${info.explanationKey}`, info.explanationParams ?? {});
@@ -107,8 +60,8 @@ export function NumberSetsVenn() {
           </div>
         </div>
 
-        <svg viewBox="0 0 300 230" className="w-full max-w-[320px] mx-auto">
-          {sets.slice().reverse().map((s) => {
+        <svg role="img" aria-label={t('simulations.numberSetsVenn.alt')} viewBox="0 0 300 230" className="w-full max-w-[320px] mx-auto">
+          {sets.map((s) => {
             const member = info[s.key];
             return (
               <circle
@@ -138,6 +91,7 @@ export function NumberSetsVenn() {
           ))}
         </svg>
       </div>
+      <DefinitionSupport review={t('simulations.numberSetsVenn.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

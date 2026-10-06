@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { useTranslation } from 'react-i18next';
 import { ClipboardList } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -32,6 +34,7 @@ export function FieldworkPage() {
               <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm" style={{ borderLeftColor: 'var(--color-accent-sky-deep)', borderLeftWidth: '3px' }}>
                 {t(`fieldwork.sections.${key}.body`)}
               </p>
+              {key === 'analysis' && <DefinitionSupport review={t('fieldwork.sections.analysis.review', { returnObjects: true }) as DefinitionReview} />}
             </div>
           );
         }

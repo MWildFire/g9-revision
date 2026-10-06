@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -32,28 +34,28 @@ export function SectorSegmentCalc() {
     >
       <div className="grid grid-cols-1 md:grid-cols-[1fr_240px] gap-6 items-start">
         <div className="space-y-4">
-          <Slider label="Radius (r)" min={1} max={15} step={0.5} value={radius} onChange={setRadius} unit="cm" />
-          <Slider label="Angle (θ)" min={10} max={350} step={5} value={angle} onChange={setAngle} unit="°" />
+          <Slider label={t('simulations.sectorSegment.radius')} min={1} max={15} step={0.5} value={radius} onChange={setRadius} unit="cm" />
+          <Slider label={t('simulations.sectorSegment.angle')} min={10} max={350} step={5} value={angle} onChange={setAngle} unit="°" />
 
           <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 space-y-2 text-sm">
             <p>
-              <span className="text-text-muted">Arc length:</span>{' '}
+              <span className="text-text-muted">{t('simulations.sectorSegment.arc')}:</span>{' '}
               <span className="font-mono">{fmt(arc, 3)} cm</span>
             </p>
             <p>
-              <span className="text-text-muted">Sector area:</span>{' '}
+              <span className="text-text-muted">{t('simulations.sectorSegment.sector')}:</span>{' '}
               <span className="font-mono">{fmt(sec, 3)} cm²</span>{' '}
-              <span className="text-xs text-text-muted">= ½r²θ (radians)</span>
+              <span className="text-xs text-text-muted">= ½r²θ ({t('simulations.sectorSegment.radians')})</span>
             </p>
             <p>
-              <span className="text-text-muted">Segment area:</span>{' '}
+              <span className="text-text-muted">{t('simulations.sectorSegment.segment')}:</span>{' '}
               <span className="font-mono">{fmt(seg, 3)} cm²</span>{' '}
-              <span className="text-xs text-text-muted">= ½r²(θ − sin θ)</span>
+              <span className="text-xs text-text-muted">= ½r²(θ − sin θ) ({t('simulations.sectorSegment.radians')})</span>
             </p>
           </div>
         </div>
 
-        <svg viewBox="0 0 220 220" className="w-full max-w-[240px] mx-auto">
+        <svg role="img" aria-label={t('simulations.sectorSegment.alt', { radius, angle })} viewBox="0 0 220 220" className="w-full max-w-[240px] mx-auto">
           <circle cx={cx} cy={cy} r={r} fill="none" stroke="var(--color-border)" strokeWidth={1.5} />
           <path d={sectorPath} fill="var(--color-accent-sky)" fillOpacity={0.35} stroke="var(--color-accent-sky-deep)" strokeWidth={1.5} />
           <path d={segmentPath} fill="var(--color-accent-warm)" fillOpacity={0.55} stroke="var(--color-accent-warm)" strokeWidth={1.5} />
@@ -64,6 +66,7 @@ export function SectorSegmentCalc() {
           </text>
         </svg>
       </div>
+      <DefinitionSupport review={t('simulations.sectorSegment.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

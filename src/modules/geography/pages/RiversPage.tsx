@@ -1,3 +1,6 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import { geographyReviews } from '../../../definitions/geographyReviews';
+import { RiverProcesses } from '../../../components/simulations/geography/RiverProcesses';
 import { useTranslation } from 'react-i18next';
 import { Waves } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -13,6 +16,7 @@ const MANAGEMENT = ['dams', 'embankments', 'channelStraightening', 'floodWalls',
 
 export function RiversPage() {
   const { t, i18n } = useTranslation('geography');
+  const l = (en: string, ru: string) => i18n.language.startsWith('ru') ? ru : en;
   const TOPIC = 'rivers';
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
@@ -26,7 +30,7 @@ export function RiversPage() {
       <SectionHeading>{t('rivers.sections.bradshaw.title')}</SectionHeading>
       <BradshawModel />
 
-      <SectionHeading>{t('rivers.sections.erosion.title')}</SectionHeading>
+      <SectionHeading>{t('rivers.sections.erosion.title')}</SectionHeading><RiverProcesses />
       <div className="space-y-3">
         {EROSION_TYPES.map((id) => {
           const item = t(`rivers.sections.erosion.detailed.${id}`, { returnObjects: true }) as DetailedItem;
@@ -101,19 +105,20 @@ export function RiversPage() {
         </div>
       </div>
 
-      <SectionHeading>Active recall</SectionHeading>
+      <DefinitionSupport review={geographyReviews.boscastle} />
+      <SectionHeading>{l('Active recall', 'Активное повторение')}</SectionHeading>
       <div className="space-y-3">
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="erosion-types"
-          prompt="List the four types of river erosion and one example of each."
-          modelAnswer="Abrasion, attrition, hydraulic action, solution. See descriptions above for details."
+          prompt={l("Explain what is worn away during abrasion and attrition.", "Объясни, что разрушается при abrasion и attrition.")}
+          modelAnswer={l("Abrasion: transported material scrapes or strikes the bed and banks. Attrition: collisions chip and round the transported fragments. Hydraulic action removes material by water force; solution dissolves soluble minerals.", "Abrasion: переносимые обломки скребут дно и берега или ударяют по ним. Attrition: столкновения дробят и округляют сами обломки. Гидравлическое воздействие удаляет материал силой воды; растворение переводит растворимые минералы в раствор.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="boscastle-causes"
-          prompt="State two physical and two human causes of the Boscastle floods."
-          modelAnswer="Physical: 200+mm rainfall in 5h; saturated ground; funnel-shaped valley. Human: building on floodplain; impermeable urban surfaces; limited drainage."
+          prompt={l("Distinguish flood generation from exposure in a narrow valley settlement.", "Отличи формирование паводка от подверженности ущербу в поселении узкой долины.")}
+          modelAnswer={l("Intense rain and rapid runoff generate a flood. Impermeable surfaces can increase runoff. Buildings on the floodplain increase exposure; they do not cause the rain. Use dated evidence before attributing each factor to Boscastle.", "Сильный дождь и быстрый сток формируют паводок. Водонепроницаемые поверхности способны усиливать сток. Застройка поймы повышает подверженность ущербу, но не вызывает дождь. Для связи каждого фактора с Боскаслом нужны факты с датой.")}
         />
       </div>
     </div>

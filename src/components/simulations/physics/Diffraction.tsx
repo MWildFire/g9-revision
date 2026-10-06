@@ -31,7 +31,7 @@ export function Diffraction() {
   return (
     <SimulationPanel title={t('wavesOptics.sim3.title')} description={t('wavesOptics.sim3.desc')}>
       <div className="space-y-4">
-        <canvas
+        <canvas role="img" aria-label={t('wavesOptics.sim3.desc')}
           ref={canvasRef}
           width={W}
           height={H}

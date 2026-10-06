@@ -1,3 +1,5 @@
+import { FRENCH_REVIEWS } from '../../../definitions/french';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { BookA } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -14,6 +16,7 @@ export function VocabPage() {
         intro={lang === 'ru' ? 'Базовая лексика по темам. ~75 слов для G9.' : 'Themed vocabulary. ~75 words for G9.'}
         icon={<BookA size={28} />}
       />
+      <DefinitionSupport review={FRENCH_REVIEWS.vocabulary} language={lang} />
       {VOCAB_THEMES.map((theme) => (
         <div key={theme.id}>
           <SectionHeading>{lang === 'ru' ? theme.titleRu : theme.titleEn}</SectionHeading>

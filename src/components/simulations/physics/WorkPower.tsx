@@ -6,7 +6,7 @@ import { Formula } from '../../ui/Formula';
 import { G, format } from '../../../lib/physics';
 
 export function WorkPower() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [mass, setMass] = useState(20);
   const [height, setHeight] = useState(2);
   const [time, setTime] = useState(4);
@@ -22,7 +22,7 @@ export function WorkPower() {
     >
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
         <div className="space-y-3">
-          <svg viewBox="0 0 360 280" className="w-full bg-bg-primary rounded-md border border-border">
+          <svg role="img" aria-label={t('forcesEnergy.simWorkPower.desc')} viewBox="0 0 360 280" className="w-full bg-bg-primary rounded-md border border-border">
             {/* floor */}
             <rect x="0" y="240" width="360" height="40" fill="#a8b5a0" opacity="0.3" />
             <line x1="0" y1="240" x2="360" y2="240" stroke="#6b5b47" strokeWidth="1.5" />
@@ -50,12 +50,12 @@ export function WorkPower() {
               <line x1="0" y1={Math.min(80, height * 30) - 10} x2="0" y2="0" stroke="#a8b5a0" strokeWidth="2.5" />
               <polygon points="-6,0 6,0 0,-9" fill="#a8b5a0" />
               <text x="10" y="-2" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
-                lift
+                {i18n.language.startsWith('ru') ? 'подъём' : 'lift'}
               </text>
             </g>
           </svg>
 
-          <Formula caption="W = F × d (F is the weight here)">
+          <Formula caption={i18n.language.startsWith('ru') ? 'W = Fh, F = mg при равномерном подъёме' : 'W = Fh, F = mg for steady lifting'}>
             W = (m × g) × h = ({mass} × 9.81) × {height} ={' '}
             <span className="text-accent-warm">{format(work, 1)} J</span>
           </Formula>
@@ -71,9 +71,9 @@ export function WorkPower() {
           <Slider label={t('forcesEnergy.simWorkPower.time')} unit="s" min={0.5} max={20} step={0.1} value={time} onChange={setTime} />
 
           <div className="grid grid-cols-1 gap-2 text-sm">
-            <Stat label="Weight (F)" value={`${format(weight, 1)} N`} />
-            <Stat label="Work (W)" value={`${format(work, 1)} J`} />
-            <Stat label="Power (P)" value={`${format(power, 2)} W`} />
+            <Stat label={i18n.language.startsWith('ru') ? 'Сила тяжести (F)' : 'Weight (F)'} value={`${format(weight, 1)} N`} />
+            <Stat label={i18n.language.startsWith('ru') ? 'Работа (W)' : 'Work (W)'} value={`${format(work, 1)} J`} />
+            <Stat label={i18n.language.startsWith('ru') ? 'Мощность (P)' : 'Power (P)'} value={`${format(power, 2)} W`} />
           </div>
         </div>
       </div>

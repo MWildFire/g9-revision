@@ -1,8 +1,11 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SimulationPanel, Tabs } from '../../ui/Tabs';
 import { Slider } from '../../ui/Slider';
 import { fmt } from '../../../lib/math';
+import { chordGeometry } from '../../../definitions/math-legacy-models';
 
 type Theorem = 'centre-circumference' | 'semicircle' | 'cyclic-quad' | 'intersecting-chords';
 
@@ -28,6 +31,7 @@ export function CircleTheorems() {
         {theorem === 'cyclic-quad' ? <CyclicQuadTheorem /> : null}
         {theorem === 'intersecting-chords' ? <ChordsTheorem /> : null}
       </div>
+      <DefinitionSupport review={t('simulations.circleTheorems.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }
@@ -60,7 +64,7 @@ function CentreCircTheorem() {
           </p>
         </div>
       </div>
-      <svg viewBox="0 0 320 280" className="w-full max-w-[320px] mx-auto">
+      <svg role="img" aria-label={t('simulations.circleTheorems.centreAlt', { angle: centreAngle, half: centreAngle / 2 })} viewBox="0 0 320 280" className="w-full max-w-[320px] mx-auto">
         <circle cx={cx} cy={cy} r={r} fill="none" stroke="var(--color-border)" strokeWidth={1.5} />
         <line x1={cx} y1={cy} x2={ax} y2={ay} stroke="var(--color-accent-warm)" strokeWidth={2} />
         <line x1={cx} y1={cy} x2={bx} y2={by} stroke="var(--color-accent-warm)" strokeWidth={2} />
@@ -94,10 +98,13 @@ function SemicircleTheorem() {
   const cxC = cx + r * Math.cos(Math.PI - angle);
   const cyC = cy - r * Math.sin(Math.PI - angle);
 
+  const ca = Math.hypot(ax - cxC, ay - cyC), cb = Math.hypot(bx - cxC, by - cyC);
+  const ua = { x: (ax-cxC)/ca*8, y: (ay-cyC)/ca*8 };
+  const ub = { x: (bx-cxC)/cb*8, y: (by-cyC)/cb*8 };
   return (
     <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-6 items-center">
       <div className="space-y-3">
-        <Slider label="C — position on arc" min={0.05} max={0.95} step={0.05} value={pos} onChange={setPos} format={(v) => `${(v * 100).toFixed(0)}%`} />
+        <Slider label={t('simulations.circleTheorems.position')} min={0.05} max={0.95} step={0.05} value={pos} onChange={setPos} format={(v) => `${(v * 100).toFixed(0)}%`} />
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-1">
           <p>∠ACB: <span className="font-mono">90°</span></p>
           <p className="text-xs text-text-muted pt-2 border-t border-border">
@@ -105,12 +112,13 @@ function SemicircleTheorem() {
           </p>
         </div>
       </div>
-      <svg viewBox="0 0 320 280" className="w-full max-w-[320px] mx-auto">
+      <svg role="img" aria-label={t('simulations.circleTheorems.semicircleAlt')} viewBox="0 0 320 280" className="w-full max-w-[320px] mx-auto">
         <circle cx={cx} cy={cy} r={r} fill="none" stroke="var(--color-border)" strokeWidth={1.5} />
         <line x1={ax} y1={ay} x2={bx} y2={by} stroke="var(--color-accent-warm)" strokeWidth={2} strokeDasharray="3 3" />
         <line x1={ax} y1={ay} x2={cxC} y2={cyC} stroke="var(--color-accent-sky-deep)" strokeWidth={2} />
         <line x1={bx} y1={by} x2={cxC} y2={cyC} stroke="var(--color-accent-sky-deep)" strokeWidth={2} />
-        <rect x={cxC - 6} y={cyC} width={6} height={6} fill="none" stroke="var(--color-accent-clay)" />
+
+        <polyline points={`${cxC+ua.x},${cyC+ua.y} ${cxC+ua.x+ub.x},${cyC+ua.y+ub.y} ${cxC+ub.x},${cyC+ub.y}`} fill="none" stroke="var(--color-accent-clay)" />
         <circle cx={ax} cy={ay} r={4} fill="var(--color-text-primary)" />
         <circle cx={bx} cy={by} r={4} fill="var(--color-text-primary)" />
         <circle cx={cxC} cy={cyC} r={4} fill="var(--color-accent-clay)" />
@@ -129,7 +137,8 @@ function CyclicQuadTheorem() {
   const cx = 160;
   const cy = 160;
   // 4 points around the circle
-  const points = [Math.PI * 1.2, Math.PI * 1.7, Math.PI * 0.4, Math.PI * 0.9].map((θ) => ({
+  const alpha = angleA * Math.PI / 180;
+  const points = [0, Math.PI - alpha, Math.PI, Math.PI + alpha].map((θ) => ({
     x: cx + r * Math.cos(θ),
     y: cy + r * Math.sin(θ),
   }));
@@ -147,7 +156,7 @@ function CyclicQuadTheorem() {
           </p>
         </div>
       </div>
-      <svg viewBox="0 0 320 280" className="w-full max-w-[320px] mx-auto">
+      <svg role="img" aria-label={t('simulations.circleTheorems.cyclicAlt', { angle: angleA, other: 180 - angleA })} viewBox="0 0 320 280" className="w-full max-w-[320px] mx-auto">
         <circle cx={cx} cy={cy} r={r} fill="none" stroke="var(--color-border)" strokeWidth={1.5} />
         <polygon points={points.map((p) => `${p.x},${p.y}`).join(' ')} fill="var(--color-accent-sky)" fillOpacity={0.2} stroke="var(--color-accent-sky-deep)" strokeWidth={2} />
         {points.map((p, i) => (
@@ -170,7 +179,12 @@ function ChordsTheorem() {
   const [ap, setAp] = useState(6);
   const [pb, setPb] = useState(4);
   const [cp, setCp] = useState(8);
-  const pd = (ap * pb) / cp;
+  const construction = chordGeometry(ap, pb, cp);
+  const pd = construction.pd;
+  const scale = 90 / construction.radius;
+  const point = (x: number, y: number) => ({ x: 160 + (x-construction.centre.x)*scale, y: 140 + (y-construction.centre.y)*scale });
+  const points = construction.points.map(p => point(p.x, p.y));
+  const crossing = point(0, 0);
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-6 items-center">
@@ -186,20 +200,13 @@ function ChordsTheorem() {
           </p>
         </div>
       </div>
-      <svg viewBox="0 0 320 280" className="w-full max-w-[320px] mx-auto">
-        <circle cx={160} cy={140} r={100} fill="none" stroke="var(--color-border)" strokeWidth={1.5} />
-        <line x1={60} y1={100} x2={260} y2={180} stroke="var(--color-accent-warm)" strokeWidth={2} />
-        <line x1={100} y1={210} x2={220} y2={70} stroke="var(--color-accent-sky-deep)" strokeWidth={2} />
-        <circle cx={60} cy={100} r={4} fill="var(--color-text-primary)" />
-        <circle cx={260} cy={180} r={4} fill="var(--color-text-primary)" />
-        <circle cx={100} cy={210} r={4} fill="var(--color-text-primary)" />
-        <circle cx={220} cy={70} r={4} fill="var(--color-text-primary)" />
-        <circle cx={160} cy={140} r={5} fill="var(--color-accent-clay)" />
-        <text x={50} y={94} fontSize={11} fill="var(--color-text-secondary)">A</text>
-        <text x={264} y={184} fontSize={11} fill="var(--color-text-secondary)">B</text>
-        <text x={90} y={222} fontSize={11} fill="var(--color-text-secondary)">C</text>
-        <text x={224} y={66} fontSize={11} fill="var(--color-text-secondary)">D</text>
-        <text x={166} y={154} fontSize={11} fill="var(--color-accent-clay)">P</text>
+      <svg role="img" aria-label={t('simulations.circleTheorems.chordsAlt', { ap, pb, cp, pd: fmt(pd) })} viewBox="0 0 320 280" className="w-full max-w-[320px] mx-auto">
+        <circle cx={160} cy={140} r={90} fill="none" stroke="var(--color-border)" strokeWidth={1.5} />
+        <line x1={points[0].x} y1={points[0].y} x2={points[1].x} y2={points[1].y} stroke="var(--color-accent-warm)" strokeWidth={2} />
+        <line x1={points[2].x} y1={points[2].y} x2={points[3].x} y2={points[3].y} stroke="var(--color-accent-sky-deep)" strokeWidth={2} />
+        {points.map((p,i) => <g key={i}><circle cx={p.x} cy={p.y} r={4} fill="var(--color-text-primary)" /><text x={p.x+6} y={p.y-6} fontSize={11} fill="var(--color-text-secondary)">{['A','B','C','D'][i]}</text></g>)}
+        <circle cx={crossing.x} cy={crossing.y} r={4} fill="var(--color-accent-clay)" />
+        <text x={crossing.x+6} y={crossing.y+14} fontSize={11} fill="var(--color-text-secondary)">P</text>
       </svg>
     </div>
   );

@@ -172,7 +172,7 @@ export function CircuitBuilder() {
     <SimulationPanel title={t('electricity.sim2.title')} description={t('electricity.sim2.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-6">
         <div className="space-y-4">
-          <svg viewBox="0 0 420 240" className="w-full bg-bg-primary rounded-md border border-border">
+          <svg role="img" aria-label={t('electricity.sim2.desc')} viewBox="0 0 420 240" className="w-full bg-bg-primary rounded-md border border-border">
             {mode === 'series' ? (
               <SeriesDiagram
                 voltage={voltage}

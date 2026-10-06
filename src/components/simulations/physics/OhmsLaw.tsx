@@ -96,7 +96,7 @@ export function OhmsLaw() {
   return (
     <SimulationPanel title={t('electricity.sim1.title')} description={t('electricity.sim1.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
-        <svg viewBox="0 0 360 220" className="w-full bg-bg-primary rounded-md border border-border">
+        <svg role="img" aria-label={t('electricity.sim1.desc')} viewBox="0 0 360 220" className="w-full bg-bg-primary rounded-md border border-border">
           <rect x="20" y="20" width="320" height="180" rx="8" fill="none" stroke="#6b5b47" strokeWidth="2" />
 
           <g transform="translate(40, 100)">

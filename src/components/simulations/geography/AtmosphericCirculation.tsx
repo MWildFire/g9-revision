@@ -22,7 +22,8 @@ const PRESSURE_ZONES: { lat: number; type: 'L' | 'H' }[] = [
 ];
 
 export function AtmosphericCirculation() {
-  const { t } = useTranslation('geography');
+  const { t, i18n } = useTranslation('geography');
+  const l = (en: string, ru: string) => i18n.language.startsWith('ru') ? ru : en;
   const [active, setActive] = useState<string | null>(null);
   const activeCell = CELLS.find((c) => c.id === active);
 
@@ -34,7 +35,7 @@ export function AtmosphericCirculation() {
   return (
     <SimulationPanel title={t('simulations.circulation.title')} description={t('simulations.circulation.description')}>
       <div className="grid grid-cols-1 md:grid-cols-[1fr_260px] gap-4 items-start">
-        <svg viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">
+        <div role="region" tabIndex={0} aria-label={l("Scrollable diagram. Use horizontal arrow keys to read all labels.", "Прокручиваемая схема. Используй стрелки влево и вправо, чтобы прочитать все подписи.")} className="min-w-0 max-w-full overflow-x-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"><svg style={{ minWidth: 600 }} role="img" aria-label={t('simulations.circulation.description')} viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">
           <line x1={padX} y1={20} x2={padX} y2={240} stroke="var(--color-text-secondary)" strokeWidth={2} />
           {[90, 60, 30, 0, -30, -60, -90].map((lat) => (
             <g key={lat}>
@@ -55,6 +56,8 @@ export function AtmosphericCirculation() {
                 role="button"
                 tabIndex={0}
                 aria-label={name}
+                onKeyDown={event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); setActive(c.id); } }}
+                onClick={() => setActive(c.id)}
                 onMouseEnter={() => setActive(c.id)}
                 onMouseLeave={() => setActive(null)}
                 onFocus={() => setActive(c.id)}
@@ -81,7 +84,7 @@ export function AtmosphericCirculation() {
               <text x={padX + 10} y={yOfLat(p.lat) + 3} textAnchor="middle" fontSize={9} fill="white" fontWeight={700}>{p.type}</text>
             </g>
           ))}
-        </svg>
+        </svg></div>
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm min-h-[200px]">
           {activeCell ? (

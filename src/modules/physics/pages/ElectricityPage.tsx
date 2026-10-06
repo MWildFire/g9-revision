@@ -1,3 +1,4 @@
+import { PhysicsConceptDiagram } from '../../../definitions/physicsDiagrams';
 import { useTranslation } from 'react-i18next';
 import { Zap } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -48,6 +49,8 @@ export function ElectricityPage() {
         intro={t('electricity.intro')}
         icon={<Zap size={28} />}
       />
+
+      <PhysicsConceptDiagram kind="electricity" />
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="electricity" termIds={TERMS} />

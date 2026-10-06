@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -13,9 +15,9 @@ export function RightTriangleTrainer() {
   const angleA = Math.atan(opp / adj) * 180 / Math.PI; // angle adjacent to adj
   const angleB = 90 - angleA;
 
-  const cx = 120;
+  const cx = 30;
   const cy = 180;
-  const scale = 25;
+  const scale = Math.min(180 / adj, 140 / opp);
   const adjPx = adj * scale;
   const oppPx = opp * scale;
 
@@ -23,18 +25,18 @@ export function RightTriangleTrainer() {
     <SimulationPanel title={t('simulations.rightTriangle.title')} description={t('simulations.rightTriangle.description')}>
       <div className="grid grid-cols-1 md:grid-cols-[1fr_280px] gap-6 items-start">
         <div className="space-y-4">
-          <Slider label="Adjacent side" min={1} max={8} step={0.5} value={adj} onChange={setAdj} unit="cm" />
-          <Slider label="Opposite side" min={1} max={8} step={0.5} value={opp} onChange={setOpp} unit="cm" />
+          <Slider label={t('simulations.rightTriangle.adjacent')} min={1} max={8} step={0.5} value={adj} onChange={setAdj} unit="cm" />
+          <Slider label={t('simulations.rightTriangle.opposite')} min={1} max={8} step={0.5} value={opp} onChange={setOpp} unit="cm" />
 
           <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 space-y-2 text-sm">
             <p className="font-mono">
-              Hypotenuse = √(a² + b²) = √({fmt(adj * adj)} + {fmt(opp * opp)}) = <strong>{fmt(hyp, 3)} cm</strong>
+              {t('simulations.rightTriangle.hypotenuse')} = √(a² + b²) = √({fmt(adj * adj)} + {fmt(opp * opp)}) = <strong>{fmt(hyp, 3)} cm</strong>
             </p>
             <p className="font-mono">
               tan(θ) = opp/adj = {fmt(opp)}/{fmt(adj)} → θ = <strong>{fmt(angleA, 1)}°</strong>
             </p>
             <p className="font-mono">
-              Other angle = 90° − {fmt(angleA, 1)}° = <strong>{fmt(angleB, 1)}°</strong>
+              {t('simulations.rightTriangle.otherAngle')} = 90° − {fmt(angleA, 1)}° = <strong>{fmt(angleB, 1)}°</strong>
             </p>
             <p className="font-mono text-xs text-text-muted">
               sin θ = opp/hyp = {fmt(opp / hyp, 4)} · cos θ = adj/hyp = {fmt(adj / hyp, 4)}
@@ -42,7 +44,7 @@ export function RightTriangleTrainer() {
           </div>
         </div>
 
-        <svg viewBox="0 0 280 220" className="w-full max-w-[280px] mx-auto">
+        <svg role="img" aria-label={t('simulations.rightTriangle.alt', { adj, opp, hyp: fmt(hyp), angle: fmt(angleA) })} viewBox="0 0 280 220" className="w-full max-w-[280px] mx-auto">
           {/* Triangle */}
           <polygon
             points={`${cx},${cy} ${cx + adjPx},${cy} ${cx + adjPx},${cy - oppPx}`}
@@ -68,6 +70,7 @@ export function RightTriangleTrainer() {
           </text>
         </svg>
       </div>
+      <DefinitionSupport review={t('simulations.rightTriangle.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

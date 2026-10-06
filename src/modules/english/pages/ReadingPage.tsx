@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import { ENGLISH_REVIEWS } from '../../../definitions/english';
 import { Search } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -21,7 +23,8 @@ export function ReadingPage() {
       <SectionHeading>{t('reading.strategies.title')}</SectionHeading>
       <div className="space-y-3">
         {STRATEGIES.map((id) => {
-          const item = t(`reading.strategies.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          const item = { ...t(`reading.strategies.detailed.${id}`, { returnObjects: true }) as DetailedItem };
+          item.review = ENGLISH_REVIEWS[`reading.strategies.${id}`];
           return <DetailedCard key={id} item={item} borderColor="var(--color-accent-sky)" labels={labels} />;
         })}
       </div>
@@ -29,7 +32,8 @@ export function ReadingPage() {
       <SectionHeading>{t('reading.questionTypes.title')}</SectionHeading>
       <div className="space-y-3">
         {QUESTIONS.map((id) => {
-          const item = t(`reading.questionTypes.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          const item = { ...t(`reading.questionTypes.detailed.${id}`, { returnObjects: true }) as DetailedItem };
+          item.review = ENGLISH_REVIEWS[`reading.questionTypes.${id}`];
           return <DetailedCard key={id} item={item} borderColor="var(--color-accent-warm)" labels={labels} />;
         })}
       </div>
@@ -45,6 +49,7 @@ export function ReadingPage() {
           </div>
         ))}
       </div>
+      <DefinitionSupport review={ENGLISH_REVIEWS['reading.PEEL']} language={lang} />
       <p className="text-xs bg-bg-tertiary/40 border border-border rounded-md px-3 py-2">
         <span className="uppercase tracking-wider text-text-muted mr-2">💡 Tip</span>
         {t('reading.PEEL.tip')}

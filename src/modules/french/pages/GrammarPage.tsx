@@ -1,3 +1,5 @@
+import { FRENCH_REVIEWS } from '../../../definitions/french';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { Type } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -20,6 +22,7 @@ export function GrammarPage() {
           <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm" style={{ borderLeftColor: 'var(--color-accent-sage)', borderLeftWidth: '3px' }}>
             {lang === 'ru' ? rule.bodyRu : rule.body}
           </p>
+          <DefinitionSupport review={FRENCH_REVIEWS[rule.id]} language={lang} />
         </div>
       ))}
     </div>

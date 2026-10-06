@@ -29,11 +29,11 @@ export const caseSources: Source[] = [
   },
   {
     "id": "chile-plan",
-    "title": "Government of Chile: Reconstruction executive summary",
-    "url": "https://www.ministeriodesarrollosocial.gob.cl/pdf/plan-reconstruccion-resumen-ejecutivo.pdf",
+    "title": "MINVU: Reported impacts of the 2010 earthquake and tsunami",
+    "url": "https://www.minvu.gob.cl/reconstruccion/terremoto-y-tsunami-27f-2010/",
     "purpose": {
-      "en": "370,000 damaged houses and US$30 billion total losses; do not equate affected with displaced",
-      "ru": "370 тысяч повреждённых домов и 30 млрд долларов потерь; пострадавшие не равны перемещённым"
+      "en": "More than 350,000 damaged constructions; this category is broader than homes",
+      "ru": "Более 350 тысяч повреждённых построек; это шире категории жилых домов"
     }
   },
   {

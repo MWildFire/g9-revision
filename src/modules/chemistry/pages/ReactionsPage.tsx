@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { FlaskRound } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
@@ -18,16 +19,16 @@ export function ReactionsPage() {
       />
       <ChemSection
         title={t('reactions.sections.balancing.title')}
-        body={t('reactions.sections.balancing.body')}
+        body={t('reactions.sections.balancing.body')} review={t('reactions.sections.balancing.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-warm)"
       />
       <ChemSection
         title={t('reactions.sections.stateSymbols.title')}
-        body={t('reactions.sections.stateSymbols.body')}
+        body={t('reactions.sections.stateSymbols.body')} review={t('reactions.sections.stateSymbols.review', { returnObjects: true }) as DefinitionReview}
       />
       <ChemSection
         title={t('reactions.sections.ionic.title')}
-        body={t('reactions.sections.ionic.body')}
+        body={t('reactions.sections.ionic.body')} review={t('reactions.sections.ionic.review', { returnObjects: true }) as DefinitionReview}
         borderColor="var(--color-accent-sage)"
       />
     </ChemistryTopicLayout>

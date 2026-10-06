@@ -1,3 +1,6 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import type { DefinitionReview } from '../../../components/content/definitionReview';
+import { MicroscopyResolution } from '../../../components/simulations/biology/MicroscopyResolution';
 import { Microscope } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { BiologyTopicLayout, InfoSection, KeyValueSection } from '../components/BiologyTopicLayout';
@@ -26,6 +29,7 @@ export function CellsPage() {
         detailedItems={microscopeItems}
         borderColor="var(--color-accent-sky-deep)"
       />
+      <MicroscopyResolution />
       <InfoSection
         title={t('cells.sections.eukaryoticProkaryotic.title')}
         detailedItems={eukProkItems}
@@ -39,10 +43,11 @@ export function CellsPage() {
       <KeyValueSection
         title={t('cells.sections.animalVsPlant.title')}
         pairs={[
-          { label: 'Both animal & plant', body: t('cells.sections.animalVsPlant.shared') },
-          { label: 'Plant only', body: t('cells.sections.animalVsPlant.plantOnly') },
+          { label: t('cells.sections.animalVsPlant.sharedLabel'), body: t('cells.sections.animalVsPlant.shared') },
+          { label: t('cells.sections.animalVsPlant.plantLabel'), body: t('cells.sections.animalVsPlant.plantOnly') },
         ]}
       />
+      <DefinitionSupport review={t('cells.sections.animalVsPlant.review', { returnObjects: true }) as DefinitionReview} />
       <InfoSection
         title={t('cells.sections.specialised.title')}
         detailedItems={specialisedItems}
@@ -53,7 +58,7 @@ export function CellsPage() {
         detailedItems={transportItems}
         borderColor="var(--color-accent-sky)"
       />
-      <SectionHeading>Interactive — Cell Diagram</SectionHeading>
+      <SectionHeading>{t('simulations.cellDiagram.title')}</SectionHeading>
       <CellDiagram />
     </BiologyTopicLayout>
   );

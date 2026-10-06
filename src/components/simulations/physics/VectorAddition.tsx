@@ -34,7 +34,7 @@ export function VectorAddition() {
       description={t('forceMotion.simVectors.desc')}
     >
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
-        <svg viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
+        <svg role="img" aria-label={t('forceMotion.simVectors.desc')} viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
           {/* grid */}
           {Array.from({ length: 9 }).map((_, i) => (
             <line

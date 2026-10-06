@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip } from 'recharts';
@@ -19,7 +21,7 @@ export function SequenceGenerator() {
   const data = terms.map((y, i) => ({ n: i + 1, y }));
   const formula = mode === 'linear'
     ? `uₙ = ${fmt(first)} + (n − 1) × ${fmt(param)}`
-    : `uₙ = ${fmt(first)} × ${fmt(param)}^(n − 1)`;
+    : `uₙ = ${fmt(first)} × (${fmt(param)})^(n − 1)`;
 
   return (
     <SimulationPanel
@@ -62,12 +64,12 @@ export function SequenceGenerator() {
           </p>
         </div>
 
-        <div className="h-56">
+        <div className="h-56" role="img" aria-label={t('simulations.sequenceGenerator.alt')}>
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data}>
               <XAxis dataKey="n" tick={{ fill: 'var(--color-text-muted)', fontSize: 11 }} stroke="var(--color-border)" />
               <YAxis tick={{ fill: 'var(--color-text-muted)', fontSize: 11 }} stroke="var(--color-border)" />
-              <Line type="monotone" dataKey="y" stroke="var(--color-accent-sky-deep)" strokeWidth={2} dot={{ fill: 'var(--color-accent-warm)', r: 4 }} />
+              <Line type="monotone" dataKey="y" stroke="var(--color-accent-sky-deep)" strokeWidth={0} dot={{ fill: 'var(--color-accent-warm)', r: 4 }} />
               <RTooltip
                 contentStyle={{
                   background: 'var(--color-bg-secondary)',
@@ -80,6 +82,7 @@ export function SequenceGenerator() {
           </ResponsiveContainer>
         </div>
       </div>
+      <DefinitionSupport review={t('simulations.sequenceGenerator.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

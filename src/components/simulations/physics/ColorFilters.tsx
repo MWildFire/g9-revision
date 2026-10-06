@@ -71,7 +71,7 @@ export function ColorFilters() {
     >
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
         <div className="space-y-4">
-          <svg viewBox="0 0 480 220" className="w-full bg-bg-primary rounded-md border border-border">
+          <svg role="img" aria-label={t('wavesOptics.simFilters.desc')} viewBox="0 0 480 220" className="w-full bg-bg-primary rounded-md border border-border">
             {/* Light source bulb */}
             <g transform="translate(60, 110)">
               <circle r="26" fill={asHex(sourceColor)} stroke="#6b5b47" strokeWidth="1.5" opacity="0.95" />

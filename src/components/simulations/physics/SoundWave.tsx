@@ -39,7 +39,7 @@ export function SoundWave() {
       description={t('wavesOptics.simSound.desc')}
     >
       <div className="space-y-4">
-        <canvas
+        <canvas role="img" aria-label={t('wavesOptics.simSound.desc')}
           ref={canvasRef}
           width={W}
           height={H}

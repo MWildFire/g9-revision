@@ -1,3 +1,5 @@
+import { ARABIC_REVIEWS } from '../../../definitions/arabic';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { BookA } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -15,6 +17,7 @@ export function VocabPage() {
         intro={lang === 'ru' ? 'Тематическая лексика с транслитерацией. ~50 слов для G9.' : 'Themed vocabulary with transliteration. ~50 words for G9.'}
         icon={<BookA size={28} />}
       />
+      <DefinitionSupport review={ARABIC_REVIEWS.vocabulary} language={lang} />
       {VOCAB_THEMES.map((theme) => (
         <div key={theme.id}>
           <SectionHeading>{lang === 'ru' ? theme.titleRu : theme.titleEn}</SectionHeading>

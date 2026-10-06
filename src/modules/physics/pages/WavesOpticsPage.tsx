@@ -1,3 +1,4 @@
+import { PhysicsConceptDiagram } from '../../../definitions/physicsDiagrams';
 import { useTranslation } from 'react-i18next';
 import { Waves } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -42,6 +43,8 @@ export function WavesOpticsPage() {
   return (
     <div>
       <TopicHero title={t('wavesOptics.title')} intro={t('wavesOptics.intro')} icon={<Waves size={28} />} />
+
+      <PhysicsConceptDiagram kind="waves" />
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="wavesOptics" termIds={TERMS} />

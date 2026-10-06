@@ -1,0 +1,11 @@
+# Chemistry definition revision
+
+The revision covers **73 original named definition blocks in each language**. Both English and Russian wording was rewritten. These are block counts, not a claim that each paragraph defines only one concept. Supplemental definitions in simulator parts, summary lists and practice lessons were checked as separate occurrences.
+
+English terms and Russian equivalents, distinctions and section-level sources are available alongside definitions. The notes explicitly identify the wording as an authored paraphrase; Russian text derived from an English source is not presented as a published Russian quotation. Sources include OpenStax textbooks, the Russian Foxford textbook and relevant official scientific or public-health educational pages. Published school simplifications are qualified where their scope is narrower than the modern model.
+
+The machine-readable coverage index is [`chemistryReviewManifest.json`](../../src/definitions/chemistryReviewManifest.json). It gives every baseline path, its specific sources, and a diagram/simulation path or a reason for omitting a separate visual. Sources were opened and their relevant sections read on 6 October 2026. Dated numerical climate or health claims were removed where they were unnecessary to definitions.
+
+Visuals are explanatory models, not anatomical scale drawings or experimental datasets. SVGs have names and descriptions; larger diagrams use keyboard-focusable horizontal viewports on narrow screens. The reaction-rate plot labels both axes and its illustrative equation. The atom view identifies an example isotope; it does not display relative atomic mass or literal electron trajectories. The energy profile preserves its activation-barrier and enthalpy relationships across controls. The Punnett table assumes one locus, complete dominance and independent fertilisation events.
+
+Verification: the focused regression test checks bilingual block/source coverage, repeated summary consistency, one-locus probabilities, pH classification without strength inference, physical calculator domains, and the complete energy-control parameter grid. Production type checking is also required. Private baseline/after occurrence and source receipts are retained outside the repository; no school documents or personal school data are included in this documentation.

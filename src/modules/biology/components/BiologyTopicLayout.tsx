@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -23,12 +25,13 @@ interface SectionProps {
   ns?: string;
   title: string;
   body?: string;
+  review?: DefinitionReview;
   items?: { key: string; text: string }[];
   detailedItems?: DetailedItem[];
   borderColor?: string;
 }
 
-export function InfoSection({ title, body, items, detailedItems, borderColor }: SectionProps) {
+export function InfoSection({ title, body, review, items, detailedItems, borderColor }: SectionProps) {
   const { i18n } = useTranslation();
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
@@ -45,6 +48,7 @@ export function InfoSection({ title, body, items, detailedItems, borderColor }: 
           {body}
         </p>
       ) : null}
+      <DefinitionSupport review={review} />
       {detailedItems && detailedItems.length > 0 ? (
         <div className="space-y-3">
           {detailedItems.map((item, i) => (
@@ -66,14 +70,16 @@ export function InfoSection({ title, body, items, detailedItems, borderColor }: 
 }
 
 interface KeyValueProps {
+  review?: DefinitionReview;
   title: string;
   pairs: { label: string; body: string }[];
 }
 
-export function KeyValueSection({ title, pairs }: KeyValueProps) {
+export function KeyValueSection({ title, pairs, review }: KeyValueProps) {
   return (
     <>
       <SectionHeading>{title}</SectionHeading>
+      <DefinitionSupport review={review} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {pairs.map((p) => (
           <div key={p.label} className="bg-bg-secondary border border-border rounded-md p-4 text-sm">

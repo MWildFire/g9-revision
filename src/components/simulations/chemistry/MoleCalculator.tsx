@@ -1,3 +1,6 @@
+import { convertChemicalAmount } from '../../../definitions/chemistryModels';
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SimulationPanel } from '../../ui/Tabs';
@@ -28,16 +31,16 @@ const PRESETS: { label: string; mass: number }[] = [
 export function MoleCalculator() {
   const { t } = useTranslation('chemistry');
   const [direction, setDirection] = useState<Direction>('m-to-n');
-  const [input, setInput] = useState(58.5);
-  const [molarMass, setMolarMass] = useState(58.5);
+  const [input, setInput] = useState('58.5');
+  const [molarMass, setMolarMass] = useState('58.5');
 
-  let result = 0;
+  const result = input.trim() === '' || (molarMass.trim() === '' && (direction === 'm-to-n' || direction === 'n-to-m')) ? null : convertChemicalAmount(direction, Number(input), Number(molarMass));
   let unit = '';
   let formula = '';
-  if (direction === 'm-to-n') { result = input / molarMass; unit = 'mol'; formula = `n = m / M = ${input} / ${molarMass}`; }
-  else if (direction === 'n-to-m') { result = input * molarMass; unit = 'g'; formula = `m = n × M = ${input} × ${molarMass}`; }
-  else if (direction === 'n-to-V') { result = input * 22.7; unit = 'dm³'; formula = `V = n × 22.7 (STP) = ${input} × 22.7`; }
-  else if (direction === 'V-to-n') { result = input / 22.7; unit = 'mol'; formula = `n = V / 22.7 (STP) = ${input} / 22.7`; }
+  if (direction === 'm-to-n') { unit = 'mol'; formula = `n = m / M = ${input} / ${molarMass}`; }
+  else if (direction === 'n-to-m') { unit = 'g'; formula = `m = n × M = ${input} × ${molarMass}`; }
+  else if (direction === 'n-to-V') { unit = 'dm³'; formula = `V = n × 22.7 (STP) = ${input} × 22.7`; }
+  else if (direction === 'V-to-n') { unit = 'mol'; formula = `n = V / 22.7 (STP) = ${input} / 22.7`; }
 
   const showMolarMass = direction === 'm-to-n' || direction === 'n-to-m';
 
@@ -71,9 +74,9 @@ export function MoleCalculator() {
           <label className="block">
             <span className="text-sm font-medium text-text-secondary mb-1.5 block">{inputLabel}</span>
             <input
-              type="number"
+              type="number" min="0" step="any"
               value={input}
-              onChange={(e) => setInput(parseFloat(e.target.value) || 0)}
+              onChange={(e) => setInput(e.target.value)}
               className="w-full bg-bg-tertiary/40 border border-border rounded-md px-3 py-2 font-mono"
             />
           </label>
@@ -81,9 +84,9 @@ export function MoleCalculator() {
             <label className="block">
               <span className="text-sm font-medium text-text-secondary mb-1.5 block">{t('simulations.moleCalc.molarMassInputLabel')}</span>
               <input
-                type="number"
+                type="number" min="0" step="any"
                 value={molarMass}
-                onChange={(e) => setMolarMass(parseFloat(e.target.value) || 1)}
+                onChange={(e) => setMolarMass(e.target.value)}
                 className="w-full bg-bg-tertiary/40 border border-border rounded-md px-3 py-2 font-mono"
               />
             </label>
@@ -92,7 +95,7 @@ export function MoleCalculator() {
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-2">
           <p className="font-mono text-xs text-text-muted">{formula}</p>
-          <p className="text-lg font-medium font-mono">= {fmt(result, 4)} {unit}</p>
+          {result === null ? <p role="status">{t('simulations.moleCalc.invalidInput')}</p> : <p className="text-lg font-medium font-mono">= {fmt(result, 4)} {unit}</p>}
           <p className="text-xs text-text-muted pt-2 border-t border-border">
             {t('simulations.moleCalc.stpNote')}
           </p>
@@ -102,11 +105,12 @@ export function MoleCalculator() {
           <p className="text-xs uppercase tracking-wider text-text-muted mb-2">{t('simulations.moleCalc.presetLabel')}</p>
           <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 font-mono text-xs">
             {PRESETS.map((p) => (
-              <button key={p.label} onClick={() => setMolarMass(p.mass)} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">{p.label}</button>
+              <button key={p.label} onClick={() => setMolarMass(String(p.mass))} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">{p.label}</button>
             ))}
           </div>
         </div>
       </div>
+    <DefinitionSupport review={t('simulations.moleCalc.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

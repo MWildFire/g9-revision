@@ -22,7 +22,7 @@ export function FluidPressure() {
   return (
     <SimulationPanel title={t('forcesEnergy.sim4.title')} description={t('forcesEnergy.sim4.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-6 items-start">
-        <svg viewBox="0 0 200 300" className="w-full max-w-[200px] mx-auto">
+        <svg role="img" aria-label={t('forcesEnergy.sim4.desc')} viewBox="0 0 200 300" className="w-full max-w-[200px] mx-auto">
           {/* tank */}
           <rect x={tankX} y={tankY} width={tankW} height={tankH} fill="none" stroke="#6b5b47" strokeWidth="2" />
           <rect x={tankX + 2} y={tankY + 8} width={tankW - 4} height={tankH - 10} fill="#a8b8c8" opacity="0.5" />

@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { TreePine } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { BiologyTopicLayout, InfoSection } from '../components/BiologyTopicLayout';
@@ -12,7 +13,7 @@ export function EcologyPage() {
         <InfoSection
           key={s}
           title={t(`ecology.sections.${s}.title`)}
-          body={t(`ecology.sections.${s}.body`)}
+          body={t(`ecology.sections.${s}.body`)} review={t(`ecology.sections.${s}.review`, { returnObjects: true }) as DefinitionReview}
           borderColor="var(--color-accent-sage)"
         />
       ))}

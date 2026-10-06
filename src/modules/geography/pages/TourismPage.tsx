@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import { geographyReviews } from '../../../definitions/geographyReviews';
 import { useTranslation } from 'react-i18next';
 import { Plane } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -10,6 +12,7 @@ const OTHER_TYPES = ['thana', 'medical', 'eco', 'volun', 'extreme'];
 
 export function TourismPage() {
   const { t, i18n } = useTranslation('geography');
+  const l = (en: string, ru: string) => i18n.language.startsWith('ru') ? ru : en;
   const TOPIC = 'tourism';
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const labels = lang === 'ru'
@@ -83,7 +86,7 @@ export function TourismPage() {
         </div>
       </div>
 
-      <SectionHeading>{t('tourism.sections.otherTypes.title')}</SectionHeading>
+      <DefinitionSupport review={geographyReviews.antarctic} /><SectionHeading>{t('tourism.sections.otherTypes.title')}</SectionHeading>
       <div className="space-y-3">
         {OTHER_TYPES.map((id) => {
           const item = t(`tourism.sections.otherTypes.detailed.${id}`, { returnObjects: true }) as DetailedItem;
@@ -91,25 +94,25 @@ export function TourismPage() {
         })}
       </div>
 
-      <SectionHeading>Active recall</SectionHeading>
+      <SectionHeading>{l('Active recall', 'Активное повторение')}</SectionHeading>
       <div className="space-y-3">
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="butler-stages"
-          prompt="Name the six stages of the Butler Model in order."
-          modelAnswer="1) Exploration, 2) Involvement, 3) Development, 4) Consolidation, 5) Stagnation, 6) Decline or Rejuvenation."
+          prompt={l("Outline Butler’s model and one limitation.", "Опиши модель Батлера и одно ограничение.")}
+          modelAnswer={l("Exploration, involvement, development, consolidation and stagnation; then possible decline, stabilisation or rejuvenation. These are conceptual pathways, not a fixed timetable.", "Разведочный этап, вовлечение, развитие, консолидация и стагнация; затем возможны спад, стабилизация или обновление. Это концептуальные траектории, а не фиксированное расписание.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="jamaica-impacts"
-          prompt="State three positive and three negative SEEP impacts of mass tourism in Jamaica."
-          modelAnswer="Positives: 20% of GDP; 220,000 jobs; tax revenue. Negatives: profit leakage to TNCs; seasonal jobs; environmental damage."
+          prompt={l("Explain three possible benefits and costs of mass tourism.", "Объясни три возможные выгоды и издержки массового туризма.")}
+          modelAnswer={l("Benefits can include jobs, local business income and tax revenue. Costs can include seasonal insecurity, profit leakage and environmental pressure. Their scale and distribution require case-specific evidence.", "Выгоды могут включать рабочие места, доходы местного бизнеса и налоги. Издержки — сезонную нестабильность, утечку прибыли и нагрузку на природу. Их масштаб и распределение требуют фактов о конкретном месте.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="antarctica-management"
-          prompt="State two ways tourism in Antarctica is managed under the Antarctic Treaty."
-          modelAnswer="Boats limited to 500 passengers. Permits required (violations = 1 year jail + fine). SSSIs off-limits to tourists."
+          prompt={l("Explain two ways visitor guidance protects Antarctica.", "Объясни два способа защиты Антарктики через правила посещения.")}
+          modelAnswer={l("Avoid disturbing wildlife and introducing non-native organisms; comply with protected-area permissions and remove waste. National authorisation, operator guidance and site rules are different instruments.", "Не беспокоить животных и не заносить чужеродные организмы; соблюдать разрешительный режим охраняемых участков и удалять отходы. Национальное разрешение, рекомендации операторов и правила участков — разные инструменты.")}
         />
       </div>
     </div>

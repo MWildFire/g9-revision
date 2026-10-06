@@ -1,0 +1,2021 @@
+{
+  "subject": "chemistry",
+  "baselineNamedBlocksPerLanguage": 73,
+  "sourceLanguages": [
+    "en",
+    "ru"
+  ],
+  "blocks": [
+    {
+      "path": "atmosphere.sections.history",
+      "field": "body",
+      "term": {
+        "en": "History of the atmosphere",
+        "ru": "История атмосферы"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Astronomy 2e — 8.4",
+          "url": "https://openstax.org/books/astronomy-2e/pages/8-4-life-chemical-evolution-and-climate-change",
+          "language": "en",
+          "section": "8.4 The Evolution of the Atmosphere"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.carbonRocks",
+      "field": "body",
+      "term": {
+        "en": "Carbon locked in rocks",
+        "ru": "Углерод, запертый в горных породах"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Astronomy 2e — 8.3",
+          "url": "https://openstax.org/books/astronomy-2e/pages/8-3-earths-atmosphere",
+          "language": "en",
+          "section": "8.3 Atmospheric Composition: carbonate rocks as carbon reservoirs"
+        },
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.greenhouse",
+      "field": "body",
+      "term": {
+        "en": "Greenhouse effect",
+        "ru": "Парниковый эффект"
+      },
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.climateChange.detailed.cause",
+      "field": "rule",
+      "term": {
+        "en": "Causes of human-driven climate change",
+        "ru": "Причины антропогенного изменения климата"
+      },
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.climateChange.detailed.evidence",
+      "field": "rule",
+      "term": {
+        "en": "Evidence climate is changing",
+        "ru": "Доказательства того, что климат меняется"
+      },
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.climateChange.detailed.consequences",
+      "field": "rule",
+      "term": {
+        "en": "Consequences",
+        "ru": "Последствия"
+      },
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.climateChange.detailed.mitigation",
+      "field": "rule",
+      "term": {
+        "en": "Mitigation — reducing emissions",
+        "ru": "Смягчение — сокращение выбросов"
+      },
+      "sources": [
+        {
+          "title": "NASA — Mitigation and Adaptation",
+          "url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
+          "language": "en",
+          "section": "Mitigation and Adaptation: emissions, sinks and adjustment to impacts"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.climateChange.detailed.adaptation",
+      "field": "rule",
+      "term": {
+        "en": "Adaptation — living with changing climate",
+        "ru": "Адаптация — жизнь в меняющемся климате"
+      },
+      "sources": [
+        {
+          "title": "NASA — Mitigation and Adaptation",
+          "url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
+          "language": "en",
+          "section": "Mitigation and Adaptation: emissions, sinks and adjustment to impacts"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.pollutants.detailed.co2",
+      "field": "rule",
+      "term": {
+        "en": "Carbon dioxide (CO₂)",
+        "ru": "Углекислый газ (CO₂)"
+      },
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.pollutants.detailed.co",
+      "field": "rule",
+      "term": {
+        "en": "Carbon monoxide (CO)",
+        "ru": "Угарный газ (CO)"
+      },
+      "sources": [
+        {
+          "title": "US EPA — Carbon Monoxide Basics",
+          "url": "https://www.epa.gov/co-pollution/basic-information-about-carbon-monoxide-co-outdoor-air-pollution",
+          "language": "en",
+          "section": "What is CO? What are the harmful effects of CO?"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.pollutants.detailed.soot",
+      "field": "rule",
+      "term": {
+        "en": "Particulates (soot, PM2.5, PM10)",
+        "ru": "Частицы (сажа, PM2.5, PM10)"
+      },
+      "sources": [
+        {
+          "title": "US EPA — Particulate Matter Basics",
+          "url": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+          "language": "en",
+          "section": "What is PM? Sources of PM; harmful effects"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.pollutants.detailed.sox",
+      "field": "rule",
+      "term": {
+        "en": "Sulfur dioxide (SO₂)",
+        "ru": "Диоксид серы (SO₂)"
+      },
+      "sources": [
+        {
+          "title": "US EPA — Sulfur Dioxide Basics",
+          "url": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics",
+          "language": "en",
+          "section": "Sources of SO₂; health and environmental effects"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "atmosphere.sections.pollutants.detailed.nox",
+      "field": "rule",
+      "term": {
+        "en": "Nitrogen oxides (NOx)",
+        "ru": "Оксиды азота (NOx)"
+      },
+      "sources": [
+        {
+          "title": "US EPA — Basic Information about NO₂",
+          "url": "https://www.epa.gov/no2-pollution/basic-information-about-no2",
+          "language": "en",
+          "section": "Formation of NO₂; ozone, particles and acid rain"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "rates.sections.definition",
+      "field": "body",
+      "term": {
+        "en": "What is rate?",
+        "ru": "Что такое скорость?"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+        "kind": "labelled model graph, time/s and volume/cm³"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "rates.sections.collision",
+      "field": "body",
+      "term": {
+        "en": "Collision theory",
+        "ru": "Теория столкновений"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+        "kind": "labelled model graph, time/s and volume/cm³"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "rates.sections.factors.detailed.temperature",
+      "field": "rule",
+      "term": {
+        "en": "Temperature",
+        "ru": "Температура"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+        "kind": "labelled model graph, time/s and volume/cm³"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "rates.sections.factors.detailed.concentration",
+      "field": "rule",
+      "term": {
+        "en": "Concentration (and pressure for gases)",
+        "ru": "Концентрация (и давление для газов)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+        "kind": "labelled model graph, time/s and volume/cm³"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "rates.sections.factors.detailed.surfaceArea",
+      "field": "rule",
+      "term": {
+        "en": "Surface area (of solids)",
+        "ru": "Площадь поверхности (твёрдых веществ)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+        "kind": "labelled model graph, time/s and volume/cm³"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "rates.sections.factors.detailed.catalyst",
+      "field": "rule",
+      "term": {
+        "en": "Catalyst",
+        "ru": "Катализатор"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+        "kind": "labelled model graph, time/s and volume/cm³"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "rates.sections.graphs",
+      "field": "body",
+      "term": {
+        "en": "Drawing rate graphs",
+        "ru": "Графики скорости"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+        "kind": "labelled model graph, time/s and volume/cm³"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "rates.sections.experiments",
+      "field": "body",
+      "term": {
+        "en": "Carrying out a rate experiment",
+        "ru": "Эксперимент по скорости"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+        "kind": "labelled model graph, time/s and volume/cm³"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "simulations.atomBuilder",
+      "field": "description",
+      "term": {
+        "en": "Atom Builder",
+        "ru": "Конструктор атома"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "language": "en",
+          "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
+        "kind": "specified isotope and shell-population model"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "atomsPeriodic.sections.atomicStructure",
+      "field": "body",
+      "term": {
+        "en": "Atomic structure",
+        "ru": "Строение атома"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "language": "en",
+          "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
+        "kind": "specified isotope and shell-population model"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "atomsPeriodic.sections.isotopes",
+      "field": "body",
+      "term": {
+        "en": "Isotopes",
+        "ru": "Изотопы"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "language": "en",
+          "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+        },
+        {
+          "title": "МАГАТЭ — Что такое изотопы?",
+          "url": "https://www.iaea.org/ru/newscenter/news/chto-takoe-izotopy",
+          "language": "ru",
+          "section": "Что такое изотопы: число протонов и нейтронов"
+        }
+      ],
+      "visual": {
+        "path": "atomsPeriodic.sections.isotopes.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "comparison"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "atomsPeriodic.sections.electronConfig",
+      "field": "body",
+      "term": {
+        "en": "Electronic configuration",
+        "ru": "Электронная конфигурация"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "language": "en",
+          "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
+        "kind": "specified isotope and shell-population model"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "atomsPeriodic.sections.periodicTable",
+      "field": "body",
+      "term": {
+        "en": "Reading the periodic table",
+        "ru": "Чтение таблицы"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.5 The Periodic Table: groups and periods",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+          "language": "en",
+          "section": "2.5 The Periodic Table: groups and periods"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
+        "kind": "specified isotope and shell-population model"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "atomsPeriodic.sections.trends",
+      "field": "body",
+      "term": {
+        "en": "Periodic trends",
+        "ru": "Периодические тренды"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.5 The Periodic Table: groups and periods",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+          "language": "en",
+          "section": "2.5 The Periodic Table: groups and periods"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
+        "kind": "specified isotope and shell-population model"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "bonding.sections.ionic",
+      "field": "body",
+      "term": {
+        "en": "Ionic bonding",
+        "ru": "Ионная связь"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bonding.sections.covalent",
+      "field": "body",
+      "term": {
+        "en": "Covalent bonding",
+        "ru": "Ковалентная связь"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bonding.sections.metallic",
+      "field": "body",
+      "term": {
+        "en": "Metallic bonding",
+        "ru": "Металлическая связь"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bonding.sections.comparison.detailed.ionic",
+      "field": "rule",
+      "term": {
+        "en": "Ionic structures",
+        "ru": "Ионные структуры"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bonding.sections.comparison.detailed.simpleCovalent",
+      "field": "rule",
+      "term": {
+        "en": "Simple molecular (covalent)",
+        "ru": "Простая молекулярная (ковалентная)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bonding.sections.comparison.detailed.giantCovalent",
+      "field": "rule",
+      "term": {
+        "en": "Giant covalent (macromolecular)",
+        "ru": "Гигантская ковалентная (макромолекулярная)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "bonding.sections.comparison.detailed.metallic",
+      "field": "rule",
+      "term": {
+        "en": "Metallic bonding",
+        "ru": "Металлическая связь"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "reactions.sections.types.detailed.combination",
+      "field": "rule",
+      "term": {
+        "en": "Combination (synthesis)",
+        "ru": "Соединение (синтез)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "reactions.sections.types.detailed.decomposition",
+      "field": "rule",
+      "term": {
+        "en": "Decomposition",
+        "ru": "Разложение"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "reactions.sections.types.detailed.displacement",
+      "field": "rule",
+      "term": {
+        "en": "Single displacement",
+        "ru": "Замещение"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "reactions.sections.types.detailed.doubleDisplacement",
+      "field": "rule",
+      "term": {
+        "en": "Double displacement (precipitation)",
+        "ru": "Двойное замещение (осаждение)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "reactions.sections.types.detailed.combustion",
+      "field": "rule",
+      "term": {
+        "en": "Combustion",
+        "ru": "Горение"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "reactions.sections.balancing",
+      "field": "body",
+      "term": {
+        "en": "Balancing equations — step by step",
+        "ru": "Уравнивание — пошагово"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "reactions.sections.stateSymbols",
+      "field": "body",
+      "term": {
+        "en": "State symbols",
+        "ru": "Символы состояния"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "reactions.sections.ionic",
+      "field": "body",
+      "term": {
+        "en": "Ionic equations",
+        "ru": "Ионные уравнения"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "simulations.moleCalc",
+      "field": "description",
+      "term": {
+        "en": "Mole Calculator",
+        "ru": "Калькулятор молей"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "stoichiometry.sections.moles",
+      "field": "body",
+      "term": {
+        "en": "The mole",
+        "ru": "Моль"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "stoichiometry.sections.molarMass",
+      "field": "body",
+      "term": {
+        "en": "Molar mass",
+        "ru": "Молярная масса"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "stoichiometry.sections.calculations",
+      "field": "body",
+      "term": {
+        "en": "Reaction calculations",
+        "ru": "Расчёт реакций"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "visual": {
+        "path": "stoichiometry.sections.calculations.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "flow"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "stoichiometry.sections.limiting",
+      "field": "body",
+      "term": {
+        "en": "Limiting reactant",
+        "ru": "Ограничивающий реагент"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "stoichiometry.sections.percentYield",
+      "field": "body",
+      "term": {
+        "en": "Percent yield",
+        "ru": "Процентный выход"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.definitions.detailed.acid",
+      "field": "rule",
+      "term": {
+        "en": "Acid",
+        "ru": "Кислота"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.definitions.detailed.base",
+      "field": "rule",
+      "term": {
+        "en": "Base",
+        "ru": "Основание"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.definitions.detailed.alkali",
+      "field": "rule",
+      "term": {
+        "en": "Alkali",
+        "ru": "Щёлочь"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": {
+        "path": "acidsBases.sections.definitions.detailed.alkali.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "comparison"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "acidsBases.sections.definitions.detailed.salt",
+      "field": "rule",
+      "term": {
+        "en": "Salt",
+        "ru": "Соль"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура солей",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-soley",
+          "language": "ru",
+          "section": "Классификация и номенклатура солей"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.pH",
+      "field": "body",
+      "term": {
+        "en": "pH scale",
+        "ru": "Шкала pH"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+        "kind": "approximate labelled colour scale; no strength inference"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "simulations.phIndicator",
+      "field": "description",
+      "term": {
+        "en": "pH Indicator",
+        "ru": "Индикатор pH"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+        "kind": "approximate labelled colour scale; no strength inference"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "reactions.sections.types.detailed.neutralisation",
+      "field": "rule",
+      "term": {
+        "en": "Neutralisation",
+        "ru": "Нейтрализация"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.reactions.detailed.metal",
+      "field": "rule",
+      "term": {
+        "en": "Acid + reactive metal → salt + hydrogen",
+        "ru": "Кислота + активный металл → соль + водород"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.reactions.detailed.base",
+      "field": "rule",
+      "term": {
+        "en": "Acid + base → salt + water (no gas)",
+        "ru": "Кислота + основание → соль + вода (без газа)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.reactions.detailed.carbonate",
+      "field": "rule",
+      "term": {
+        "en": "Acid + carbonate → salt + water + CO₂",
+        "ru": "Кислота + карбонат → соль + вода + CO₂"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.reactions.detailed.alkali",
+      "field": "rule",
+      "term": {
+        "en": "Acid + alkali → salt + water (neutralisation)",
+        "ru": "Кислота + щёлочь → соль + вода (нейтрализация)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "acidsBases.sections.indicators.detailed.litmus",
+      "field": "rule",
+      "term": {
+        "en": "Litmus",
+        "ru": "Лакмус"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+        "kind": "approximate labelled colour scale; no strength inference"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "acidsBases.sections.indicators.detailed.phenolphthalein",
+      "field": "rule",
+      "term": {
+        "en": "Phenolphthalein",
+        "ru": "Фенолфталеин"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+        "kind": "approximate labelled colour scale; no strength inference"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "acidsBases.sections.indicators.detailed.universal",
+      "field": "rule",
+      "term": {
+        "en": "Universal indicator",
+        "ru": "Универсальный индикатор"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+        "kind": "approximate labelled colour scale; no strength inference"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "acidsBases.sections.indicators.detailed.methylOrange",
+      "field": "rule",
+      "term": {
+        "en": "Methyl orange (bonus)",
+        "ru": "Метилоранж (бонус)"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+        "kind": "approximate labelled colour scale; no strength inference"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "simulations.energyProfile",
+      "field": "description",
+      "term": {
+        "en": "Energy Profile Diagram",
+        "ru": "Диаграмма энергетического профиля"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "energy.sections.types.detailed.exothermic",
+      "field": "rule",
+      "term": {
+        "en": "Exothermic reactions",
+        "ru": "Экзотермические реакции"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "energy.sections.types.detailed.endothermic",
+      "field": "rule",
+      "term": {
+        "en": "Endothermic reactions",
+        "ru": "Эндотермические реакции"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "energy.sections.profiles",
+      "field": "body",
+      "term": {
+        "en": "Energy profile diagrams",
+        "ru": "Энергетические профили"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "energy.sections.bondEnergies",
+      "field": "body",
+      "term": {
+        "en": "Bond energies",
+        "ru": "Энергии связей"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "energy.sections.calorimetry",
+      "field": "body",
+      "term": {
+        "en": "Calorimetry",
+        "ru": "Калориметрия"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "visual": {
+        "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+      },
+      "noSeparateVisualReason": null
+    },
+    {
+      "path": "extras.organic",
+      "field": "body",
+      "term": {
+        "en": "Organic chemistry — intro",
+        "ru": "Введение в органическую химию"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 20.1 Hydrocarbons: alkanes and alkenes",
+          "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+          "language": "en",
+          "section": "20.1 Hydrocarbons: alkanes and alkenes"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "extras.redox",
+      "field": "body",
+      "term": {
+        "en": "Redox reactions",
+        "ru": "Окислительно-восстановительные реакции"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "extras.electrochem",
+      "field": "body",
+      "term": {
+        "en": "Electrochemistry",
+        "ru": "Электрохимия"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 17.7 Electrolysis: electrolytic cells",
+          "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+          "language": "en",
+          "section": "17.7 Electrolysis: electrolytic cells"
+        }
+      ],
+      "visual": null,
+      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+    },
+    {
+      "path": "extras.equilibrium",
+      "field": "body",
+      "term": {
+        "en": "Dynamic equilibrium — intro",
+        "ru": "Динамическое равновесие — введение"
+      },
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 13.1 Chemical Equilibria: dynamic equilibrium",
+          "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+          "language": "en",
+          "section": "13.1 Chemical Equilibria: dynamic equilibrium"
+        }
+      ],
+      "visual": {
+        "path": "extras.equilibrium.review.visual",
+        "renderer": "src/components/content/DefinitionSupport.tsx",
+        "kind": "comparison"
+      },
+      "noSeparateVisualReason": null
+    }
+  ]
+}

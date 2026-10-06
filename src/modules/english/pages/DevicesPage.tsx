@@ -1,3 +1,4 @@
+import { ENGLISH_REVIEWS } from '../../../definitions/english';
 import { Sparkles } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero } from '../../../components/content/TopicHero';
@@ -18,7 +19,7 @@ export function DevicesPage() {
       <div className="space-y-3 mt-8">
         {DEVICES.map((id) => {
           const item = t(`devices.${id}`, { returnObjects: true }) as DetailedItem;
-          return <DetailedCard key={id} item={item} borderColor="var(--color-accent-warm)" labels={labels} />;
+          return <DetailedCard key={id} item={{ ...item, review: ENGLISH_REVIEWS[`devices.${id}`] }} borderColor="var(--color-accent-warm)" labels={labels} />;
         })}
       </div>
     </div>

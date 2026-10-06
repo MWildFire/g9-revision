@@ -41,7 +41,7 @@ export function ReflectionRefraction() {
   return (
     <SimulationPanel title={t('wavesOptics.sim2.title')} description={t('wavesOptics.sim2.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
-        <svg viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
+        <svg role="img" aria-label={t('wavesOptics.sim2.desc')} viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
           {/* top medium */}
           <rect x="0" y="0" width={W} height={CY} fill="#faf6ef" />
           {/* bottom medium */}

@@ -593,9 +593,15 @@
   color: var(--ink);
 }
 .nuclear-table-wrap {
+  width: 100%;
+  min-width: 0;
   max-width: 100%;
   overflow: auto;
   margin: 20px 0;
+}
+.nuclear-table-wrap:focus-visible {
+  outline: 3px solid #357c9b;
+  outline-offset: 4px;
 }
 .nuclear-course table {
   border-collapse: collapse;
@@ -640,10 +646,12 @@
 }
 .nuclear-glossary {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 15px;
 }
 .nuclear-glossary > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
   background: var(--color-bg-secondary);
   border: 1px solid var(--color-border);
   padding: 18px;
@@ -721,7 +729,7 @@
   .nuclear-paper-cards,
   .nuclear-reference-grid,
   .nuclear-glossary {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .nuclear-section-title {
     display: block;

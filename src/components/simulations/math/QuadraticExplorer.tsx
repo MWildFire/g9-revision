@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../content/DefinitionSupport';
+import type { DefinitionReview } from '../../content/definitionReview';
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, ReferenceLine, ReferenceDot, Tooltip as RTooltip } from 'recharts';
@@ -35,22 +37,23 @@ export function QuadraticExplorer() {
             <p className="font-mono">
               y = {fmt(a)}x² {b >= 0 ? '+' : '−'} {fmt(Math.abs(b))}x {c >= 0 ? '+' : '−'} {fmt(Math.abs(c))}
             </p>
-            <p>
-              <span className="text-text-muted">Vertex:</span>{' '}
+            {a !== 0 ? <><p>
+              <span className="text-text-muted">{t('simulations.quadraticExplorer.vertex')}:</span>{' '}
               <span className="font-mono">({fmt(result.vertex.h)}, {fmt(result.vertex.k)})</span>
             </p>
             <p>
-              <span className="text-text-muted">Axis of symmetry:</span>{' '}
+              <span className="text-text-muted">{t('simulations.quadraticExplorer.axis')}:</span>{' '}
               <span className="font-mono">x = {fmt(result.vertex.h)}</span>
             </p>
             <p>
-              <span className="text-text-muted">Discriminant:</span>{' '}
+              <span className="text-text-muted">{t('simulations.quadraticExplorer.discriminant')}:</span>{' '}
               <span className="font-mono">{fmt(result.discriminant)}</span>
             </p>
+            </> : <p>{t('simulations.quadraticExplorer.degenerate')}</p>}
             <p>
-              <span className="text-text-muted">Roots:</span>{' '}
+              <span className="text-text-muted">{t('simulations.quadraticExplorer.roots')}:</span>{' '}
               {result.roots.length === 0 ? (
-                <span className="italic text-text-muted">none (real)</span>
+                <span className="italic text-text-muted">{a === 0 && b === 0 && c === 0 ? t('simulations.quadraticSolver.all') : t('simulations.quadraticSolver.none')}</span>
               ) : (
                 <span className="font-mono">{result.roots.map((r) => fmt(r)).join(', ')}</span>
               )}
@@ -58,7 +61,7 @@ export function QuadraticExplorer() {
           </div>
         </div>
 
-        <div className="h-72">
+        <div className="h-72" role="img" aria-label={t('simulations.quadraticExplorer.alt', { a, b, c })}>
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data} margin={{ top: 10, right: 10, bottom: 10, left: -10 }}>
               <XAxis
@@ -76,7 +79,7 @@ export function QuadraticExplorer() {
               />
               <ReferenceLine x={0} stroke="var(--color-border)" />
               <ReferenceLine y={0} stroke="var(--color-border)" />
-              <ReferenceLine x={result.vertex.h} stroke="var(--color-accent-warm)" strokeDasharray="3 3" />
+              {a !== 0 ? <><ReferenceLine x={result.vertex.h} stroke="var(--color-accent-warm)" strokeDasharray="3 3" />
               <ReferenceDot
                 x={result.vertex.h}
                 y={result.vertex.k}
@@ -85,6 +88,7 @@ export function QuadraticExplorer() {
                 stroke="var(--color-bg-secondary)"
                 strokeWidth={2}
               />
+              </> : null}
               {result.roots.map((r, i) => (
                 <ReferenceDot
                   key={i}
@@ -115,6 +119,7 @@ export function QuadraticExplorer() {
           </ResponsiveContainer>
         </div>
       </div>
+      <DefinitionSupport review={t('simulations.quadraticExplorer.review', { returnObjects: true }) as DefinitionReview} />
     </SimulationPanel>
   );
 }

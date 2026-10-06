@@ -44,7 +44,7 @@ export function MagneticField() {
       description={t('electricity.simMagnetic.desc')}
     >
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
-        <svg viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
+        <svg role="img" aria-label={t('electricity.simMagnetic.desc')} viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-primary rounded-md border border-border">
           <defs>
             <marker id="mf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
               <path d="M 0 0 L 10 5 L 0 10 z" fill="#a8b8c8" />

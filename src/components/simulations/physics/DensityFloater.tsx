@@ -54,7 +54,7 @@ export function DensityFloater() {
   return (
     <SimulationPanel title={t('forcesEnergy.sim3.title')} description={t('forcesEnergy.sim3.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
-        <svg viewBox={`0 0 ${VB_W} ${VB_H}`} className="w-full max-w-md mx-auto bg-bg-primary rounded-md border border-border">
+        <svg role="img" aria-label={t('forcesEnergy.sim3.desc')} viewBox={`0 0 ${VB_W} ${VB_H}`} className="w-full max-w-md mx-auto bg-bg-primary rounded-md border border-border">
           {/* container outline */}
           <rect
             x={CONTAINER_X}

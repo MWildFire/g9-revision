@@ -1,3 +1,5 @@
+import { ARABIC_REVIEWS } from '../../../definitions/arabic';
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { MessageCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero } from '../../../components/content/TopicHero';
@@ -21,6 +23,7 @@ export function PhrasesPage() {
         intro={lang === 'ru' ? 'Полезные фразы с транслитерацией.' : 'Useful phrases with transliteration.'}
         icon={<MessageCircle size={28} />}
       />
+      <DefinitionSupport review={ARABIC_REVIEWS.vocabulary} language={lang} />
       <div className="mt-8 space-y-4">
         {Object.entries(grouped).map(([context, phrases]) => (
           <section key={context} className="bg-bg-secondary border border-border rounded-md p-4" style={{ borderLeftColor: 'var(--color-accent-sky)', borderLeftWidth: '3px' }}>

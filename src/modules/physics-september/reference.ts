@@ -60,124 +60,124 @@ export const sources = [
 export const glossary = [
   [
     "nucleus",
-    "ядро",
-    "The small central region containing protons and neutrons.",
-    "Маленькая центральная область с протонами и нейтронами.",
+    "атомное ядро",
+    "The compact central part of an atom, made of protons and (except hydrogen-1) neutrons, containing almost all its mass.",
+    "Компактная центральная часть атома, состоящая из протонов и, кроме водорода-1, нейтронов; в ней сосредоточена почти вся масса атома."
   ],
   [
     "nucleon",
     "нуклон",
-    "A proton or neutron in the nucleus.",
-    "Протон или нейтрон ядра.",
+    "A proton or neutron, the two types of particle that make up ordinary atomic nuclei.",
+    "Протон или нейтрон — один из двух видов частиц, составляющих обычные атомные ядра."
   ],
   [
     "nuclide",
     "нуклид",
-    "A nuclear species specified by proton and neutron counts.",
-    "Вид ядер с определённым числом протонов и нейтронов.",
+    "A type of atom specified by nuclear proton number, neutron number and, where relevant, nuclear energy state.",
+    "Вид атомов, определяемый числом протонов, числом нейтронов и, при необходимости, энергетическим состоянием ядра."
   ],
   [
     "isotope",
     "изотоп",
-    "Same element (same Z), different neutron count.",
-    "Тот же элемент (то же Z), другое число нейтронов.",
+    "One of the nuclides of an element that share proton number Z but differ in neutron number and therefore mass number A.",
+    "Один из нуклидов элемента с одинаковым числом протонов Z, но разным числом нейтронов и, следовательно, массовым числом A."
   ],
   [
     "ion",
     "ион",
-    "An atom or group with non-zero net electric charge.",
-    "Атом или группа с ненулевым суммарным зарядом.",
+    "An atom or bonded group of atoms whose total electric charge is nonzero.",
+    "Атом или связанная группа атомов с ненулевым суммарным электрическим зарядом."
   ],
   [
     "excitation",
     "возбуждение",
-    "A transition to a higher energy state without necessarily removing a particle.",
-    "Переход на более высокий уровень энергии без обязательного удаления частицы.",
+    "A change of an atom, nucleus or other system from a lower to a higher allowed energy state.",
+    "Переход атома, ядра или другой системы из состояния с меньшей энергией в разрешённое состояние с большей энергией."
   ],
   [
     "ionisation",
     "ионизация",
-    "Formation of ions, for example by removing electrons.",
-    "Образование ионов, например при удалении электронов.",
+    "Formation of ions by changing electron count, for example when radiation removes an electron from an atom.",
+    "Образование ионов при изменении числа электронов, например при удалении электрона из атома излучением."
   ],
   [
     "activity",
     "активность",
-    "Number of nuclear decays per second in the source, measured in Bq.",
-    "Число распадов источника за секунду, измеряется в Бк.",
+    "The expected rate of spontaneous nuclear decays in a source. One becquerel means one decay per second on average.",
+    "Ожидаемое число самопроизвольных ядерных распадов источника за единицу времени. Один беккерель означает в среднем один распад в секунду."
   ],
   [
     "count rate",
     "скорость счёта",
-    "Detected events per unit time; not necessarily equal to activity.",
-    "Обнаруженные события за время; не обязательно равна активности.",
+    "The number of events registered by a detector divided by the counting time, for example counts per second.",
+    "Число событий, зарегистрированных детектором, делённое на время измерения, например в импульсах в секунду."
   ],
   [
     "half-life",
     "период полураспада",
-    "Time for expected parent-nucleus count or isotope activity to halve.",
-    "Время уменьшения ожидаемого числа родительских ядер или активности изотопа вдвое.",
+    "The time in which the expected number of undecayed parent nuclei of one radionuclide falls to half its initial value.",
+    "Время, за которое ожидаемое число нераспавшихся исходных ядер одного радионуклида уменьшается вдвое."
   ],
   [
     "background",
-    "фон",
-    "Radiation detected without the added source.",
-    "Излучение, регистрируемое без добавленного источника.",
+    "радиационный фон",
+    "Radiation present from surrounding sources even when the source being investigated is absent.",
+    "Излучение окружающих источников, присутствующее и без исследуемого источника."
   ],
   [
     "contamination",
-    "загрязнение",
-    "Unwanted radioactive material on or inside an object.",
-    "Нежелательное радиоактивное вещество на объекте или внутри.",
+    "радиоактивное загрязнение",
+    "The unwanted presence of radioactive material on a surface or inside a body or object.",
+    "Нежелательное присутствие радиоактивного вещества на поверхности либо внутри тела или предмета."
   ],
   [
     "irradiation",
     "облучение",
-    "Exposure to radiation.",
-    "Воздействие излучения.",
+    "Exposure of an object or organism to radiation.",
+    "Воздействие излучения на предмет или организм."
   ],
   [
     "attenuation",
-    "ослабление",
-    "Reduction of radiation intensity during passage through matter.",
-    "Уменьшение интенсивности излучения при прохождении вещества.",
+    "ослабление излучения",
+    "Reduction in a beam’s intensity as radiation is absorbed or scattered out of the beam by matter.",
+    "Уменьшение интенсивности пучка при поглощении излучения веществом или его рассеянии из пучка."
   ],
   [
     "fission",
-    "деление",
-    "Splitting a heavy nucleus into smaller nuclei.",
-    "Расщепление тяжёлого ядра на меньшие.",
+    "деление ядра",
+    "Splitting a nucleus into two major smaller nuclei, commonly accompanied by emitted neutrons and energy.",
+    "Разделение ядра на два основных более лёгких ядра, обычно сопровождаемое испусканием нейтронов и выделением энергии."
   ],
   [
     "fusion",
-    "синтез",
-    "Combining light nuclei into products containing a heavier nucleus.",
-    "Объединение лёгких ядер с образованием более тяжёлого ядра.",
+    "ядерный синтез",
+    "A nuclear reaction in which light nuclei combine, producing a heavier nucleus and sometimes additional particles.",
+    "Ядерная реакция, в которой лёгкие ядра объединяются с образованием более тяжёлого ядра, иногда с дополнительными частицами."
   ],
   [
     "moderator",
-    "замедлитель",
-    "Material that slows neutrons in a thermal reactor.",
-    "Материал, замедляющий нейтроны в тепловом реакторе.",
+    "замедлитель нейтронов",
+    "A material that reduces neutron kinetic energy through collisions in a thermal nuclear reactor.",
+    "Вещество, уменьшающее кинетическую энергию нейтронов при столкновениях в реакторе на тепловых нейтронах."
   ],
   [
     "control rod",
     "управляющий стержень",
-    "Absorbs neutrons to control a chain reaction.",
-    "Поглощает нейтроны для управления цепной реакцией.",
+    "A neutron-absorbing component inserted or withdrawn to regulate a reactor’s chain reaction.",
+    "Поглощающий нейтроны элемент, введением или выведением которого регулируют цепную реакцию в реакторе."
   ],
   [
     "coolant",
     "теплоноситель",
-    "Transfers thermal energy out of the reactor core.",
-    "Отводит внутреннюю энергию из активной зоны реактора.",
+    "A substance circulated to carry energy away from a reactor core by heat transfer.",
+    "Вещество, циркулирующее для отвода энергии от активной зоны реактора путём теплообмена."
   ],
   [
     "daughter nucleus",
     "дочернее ядро",
-    "Nucleus produced by a decay or reaction; it may itself be unstable.",
-    "Ядро, возникающее при распаде или реакции; тоже может быть неустойчивым.",
-  ],
+    "The nucleus formed when a parent nucleus undergoes radioactive decay.",
+    "Ядро, образовавшееся при радиоактивном распаде исходного, материнского ядра."
+  ]
 ];
 export const commandTerms = [
   [

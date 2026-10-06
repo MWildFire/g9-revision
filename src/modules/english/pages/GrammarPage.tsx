@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import { ENGLISH_REVIEWS } from '../../../definitions/english';
 import { PenTool } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -23,7 +25,8 @@ export function GrammarPage() {
       <SectionHeading>{t('grammar.tenses.title')}</SectionHeading>
       <div className="space-y-3">
         {TENSES.map((id) => {
-          const item = t(`grammar.tenses.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          const item = { ...t(`grammar.tenses.detailed.${id}`, { returnObjects: true }) as DetailedItem };
+          item.review = ENGLISH_REVIEWS[`grammar.tenses.${id}`];
           return <DetailedCard key={id} item={item} borderColor="var(--color-accent-warm)" labels={labels} />;
         })}
       </div>
@@ -31,7 +34,8 @@ export function GrammarPage() {
       <SectionHeading>{t('grammar.punctuation.title')}</SectionHeading>
       <div className="space-y-3">
         {PUNCT.map((id) => {
-          const item = t(`grammar.punctuation.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          const item = { ...t(`grammar.punctuation.detailed.${id}`, { returnObjects: true }) as DetailedItem };
+          item.review = ENGLISH_REVIEWS[`grammar.punctuation.${id}`];
           return <DetailedCard key={id} item={item} borderColor="var(--color-accent-sky-deep)" labels={labels} />;
         })}
       </div>
@@ -46,10 +50,12 @@ export function GrammarPage() {
         ))}
       </ul>
 
+      <DefinitionSupport review={ENGLISH_REVIEWS['grammar.agreement']} language={lang} />
       <SectionHeading>{t('grammar.commonErrors.title')}</SectionHeading>
       <div className="space-y-3">
         {ERRORS.map((id) => {
-          const item = t(`grammar.commonErrors.detailed.${id}`, { returnObjects: true }) as DetailedItem;
+          const item = { ...t(`grammar.commonErrors.detailed.${id}`, { returnObjects: true }) as DetailedItem };
+          item.review = ENGLISH_REVIEWS[`grammar.commonErrors.${id}`];
           return <DetailedCard key={id} item={item} borderColor="var(--color-accent-clay)" labels={labels} />;
         })}
       </div>

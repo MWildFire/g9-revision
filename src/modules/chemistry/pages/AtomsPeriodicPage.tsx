@@ -1,3 +1,4 @@
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { Atom } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ChemistryTopicLayout, ChemSection } from '../components/ChemistryTopicLayout';
@@ -14,11 +15,11 @@ export function AtomsPeriodicPage() {
         <ChemSection
           key={s}
           title={t(`atomsPeriodic.sections.${s}.title`)}
-          body={t(`atomsPeriodic.sections.${s}.body`)}
+          body={t(`atomsPeriodic.sections.${s}.body`)} review={t(`atomsPeriodic.sections.${s}.review`, { returnObjects: true }) as DefinitionReview}
           borderColor="var(--color-accent-clay)"
         />
       ))}
-      <SectionHeading>Interactive — Atom Builder</SectionHeading>
+      <SectionHeading>{t('simulations.atomBuilder.title')}</SectionHeading>
       <AtomBuilder />
     </ChemistryTopicLayout>
   );

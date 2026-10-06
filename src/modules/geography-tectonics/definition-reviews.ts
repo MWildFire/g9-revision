@@ -636,6 +636,24 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
+        "title": "UNDRR — Hazard",
+        "url": "https://www.undrr.org/terminology/hazard",
+        "language": "en",
+        "section": "Definition and annotation"
+      },
+      {
+        "title": "UNDRR — Exposure",
+        "url": "https://www.undrr.org/terminology/exposure",
+        "language": "en",
+        "section": "Definition and annotation"
+      },
+      {
+        "title": "UNDRR — Vulnerability",
+        "url": "https://www.undrr.org/terminology/vulnerability",
+        "language": "en",
+        "section": "Definition and annotation"
+      },
+      {
         "title": "UNDRR — Disaster risk",
         "url": "https://www.undrr.org/terminology/disaster-risk",
         "language": "en",
@@ -744,10 +762,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "OpenStax — Introductory Statistics 2e",
-        "url": "https://openstax.org/books/introductory-statistics-2e/pages/9-1-null-and-alternative-hypotheses",
-        "language": "en",
-        "section": "9.1 Null and alternative hypotheses"
+        "title": "Cambridge International Education — Understanding command words",
+        "url": "https://www.cambridgeinternational.org/exam-administration/what-to-expect-on-exams-day/command-words/",
+        "section": "Evaluate; Explain",
+        "language": "en"
       }
     ]
   },
@@ -760,9 +778,9 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "Steven Earle — Physical Geology, 2nd edition",
-        "url": "https://opentextbc.ca/physicalgeology2ed/chapter/11-1-what-is-an-earthquake/",
-        "section": "11.1 Elastic strain, rupture area and aftershocks",
+        "title": "Cambridge International Education — Understanding command words",
+        "url": "https://www.cambridgeinternational.org/exam-administration/what-to-expect-on-exams-day/command-words/",
+        "section": "Evaluate; Explain",
         "language": "en"
       }
     ]

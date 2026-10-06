@@ -119,12 +119,12 @@ export function EnergyTransformations() {
 
           {/* Energy bars */}
           <div className="space-y-2">
-            <EnergyBar label="PE (mgh)" value={PE} max={Etot} color="#a8b5a0" />
-            <EnergyBar label="KE (½mv²)" value={KE} max={Etot} color="#c9a876" />
-            <EnergyBar label="Total (PE + KE)" value={totalE} max={Etot} color="#6b5b47" />
+            <EnergyBar label={t('forcesEnergy.simEnergy.potentialEnergyLabel')} value={PE} max={Etot} color="#a8b5a0" />
+            <EnergyBar label={t('forcesEnergy.simEnergy.kineticEnergyLabel')} value={KE} max={Etot} color="#c9a876" />
+            <EnergyBar label={t('forcesEnergy.simEnergy.mechanicalEnergyLabel')} value={totalE} max={Etot} color="#6b5b47" />
           </div>
           <p className="text-xs text-text-muted">
-            Total energy should stay constant (small drift from numerical damping). The pendulum trades PE ↔ KE as it swings.
+            {t('forcesEnergy.simEnergy.modelCaption')}
           </p>
         </div>
 
@@ -135,7 +135,7 @@ export function EnergyTransformations() {
 
           <div className="grid grid-cols-2 gap-2 text-xs">
             <Stat label="v" value={`${format(speed, 2)} m/s`} />
-            <Stat label="h above lowest" value={`${format(h, 2)} m`} />
+            <Stat label={t('forcesEnergy.simEnergy.heightLabel')} value={`${format(h, 2)} m`} />
           </div>
           <div className="flex gap-2">
             <Button variant="secondary" size="sm" onClick={reset}>

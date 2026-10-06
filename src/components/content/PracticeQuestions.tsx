@@ -7,6 +7,7 @@ export type CommandTerm =
   | 'describe'
   | 'explain'
   | 'compare'
+  | 'compareContrast'
   | 'evaluate'
   | 'calculate';
 
@@ -30,6 +31,7 @@ const COMMAND_TERM_STYLE: Record<CommandTerm, { bg: string; text: string; border
   describe: { bg: 'rgba(168, 181, 160, 0.25)', text: '#6b5b47', border: 'var(--color-accent-sage)' },
   explain: { bg: 'rgba(201, 168, 118, 0.25)', text: '#6b5b47', border: 'var(--color-accent-warm)' },
   compare: { bg: 'rgba(201, 154, 142, 0.25)', text: '#6b5b47', border: 'var(--color-accent-clay)' },
+  compareContrast: { bg: 'rgba(201, 154, 142, 0.25)', text: '#6b5b47', border: 'var(--color-accent-clay)' },
   evaluate: { bg: 'rgba(107, 91, 71, 0.18)', text: '#3d2f1f', border: '#6b5b47' },
   calculate: { bg: 'rgba(61, 47, 31, 0.12)', text: '#3d2f1f', border: '#3d2f1f' },
 };

@@ -280,6 +280,12 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
         "url": "https://physics.ru/courses/op25part2/content/chapter6/section/paragraph7/theory.html",
         "language": "ru",
         "section": "6.7. Радиоактивность"
+      },
+      {
+        "title": "OpenStax · College Physics 2e",
+        "url": "https://openstax.org/books/college-physics-2e/pages/31-2-radiation-detection-and-detectors",
+        "language": "en",
+        "section": "31.2 Geiger tube: registered counts and incomplete detection efficiency"
       }
     ],
     "visual": {
@@ -375,6 +381,12 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
         "url": "https://physics.ru/courses/op25part2/content/chapter6/section/paragraph7/theory.html",
         "language": "ru",
         "section": "6.7. Радиоактивность"
+      },
+      {
+        "title": "OpenStax · College Physics 2e",
+        "url": "https://openstax.org/books/college-physics-2e/pages/31-2-radiation-detection-and-detectors",
+        "language": "en",
+        "section": "31.2 Geiger tube: registered counts and incomplete detection efficiency"
       }
     ]
   },
@@ -796,6 +808,12 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
         "url": "https://physics.ru/courses/op25part2/content/chapter6/section/paragraph7/theory.html",
         "language": "ru",
         "section": "6.7. Радиоактивность"
+      },
+      {
+        "title": "OpenStax · College Physics 2e",
+        "url": "https://openstax.org/books/college-physics-2e/pages/31-2-radiation-detection-and-detectors",
+        "language": "en",
+        "section": "31.2 Geiger tube: registered counts and incomplete detection efficiency"
       }
     ],
     "visual": {
@@ -967,6 +985,12 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
         "url": "https://www.icrp.org/publication.asp?id=ICRP+Publication+147",
         "language": "en",
         "section": "Executive Summary (a)–(c); Key Points on individual risk"
+      },
+      {
+        "title": "OpenStax · College Physics 2e",
+        "url": "https://openstax.org/books/college-physics-2e/pages/31-2-radiation-detection-and-detectors",
+        "language": "en",
+        "section": "31.2 Geiger tube: registered counts and incomplete detection efficiency"
       }
     ],
     "visual": {

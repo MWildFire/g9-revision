@@ -33,7 +33,7 @@ const verbs: Block = {
   words: [
     { id: "v01", ar: "أَستيقظ", en: "I wake up", ru: "я просыпаюсь", translitEn: "astayqiẓ", translitRu: "астайкыз" },
     { id: "v02", ar: "أَستحم", en: "I take a shower", ru: "я принимаю душ", translitEn: "astaḥimm", translitRu: "астахимм" },
-    { id: "v03", ar: "أَلبس", en: "I wear / put on", ru: "я ношу / надеваю", translitEn: "albas", translitRu: "альбас" },
+    { id: "v03", ar: "أَلبس", en: "I wear", ru: "я ношу", translitEn: "albas", translitRu: "альбас" },
     { id: "v04", ar: "أَتناول", en: "I have / eat (a meal)", ru: "я ем / принимаю пищу", translitEn: "atanaawal", translitRu: "атанааваль" },
     { id: "v05", ar: "أَركب", en: "I ride / get into (transport)", ru: "я еду / сажусь в транспорт", translitEn: "arkab", translitRu: "аркаб" },
     { id: "v06", ar: "أَذهب", en: "I go", ru: "я иду / еду", translitEn: "adhhab", translitRu: "азхаб" },
@@ -59,7 +59,7 @@ const time: Block = {
     { id: 't03', ar: 'الساعة السابعة', en: "7 o'clock", ru: '7 часов', translitEn: 'as-saaʿa as-saabiʿa', translitRu: 'ас-сааъа ас-саабиъа' },
     { id: 't04', ar: 'الساعة الثامنة', en: "8 o'clock", ru: '8 часов', translitEn: 'as-saaʿa ath-thaamina', translitRu: 'ас-сааъа ас-саамина' },
     { id: "t05", ar: "صباحًا", en: "in the morning / a.m. in clock times", ru: "утром / утра при указании времени", translitEn: "ṣabaaḥan", translitRu: "сабаахан" },
-    { id: "t06", ar: "مساءً", en: "in the evening / p.m. in clock times", ru: "вечером / вечера при указании времени", translitEn: "masaaʾan", translitRu: "масааʾан" },
+    { id: "t06", ar: "مساءً", en: "in the evening / p.m. in clock times", ru: "вечером; при указании времени — после полудня (p.m.)", translitEn: "masaaʾan", translitRu: "масааʾан" },
   ],
 };
 
@@ -132,7 +132,7 @@ const prepositions: Block = {
   words: [
     { id: "p01", ar: "مع", en: "with / together with", ru: "с / вместе с", translitEn: "maʿa", translitRu: "маʿа" },
     { id: 'p02', ar: 'إلى', en: 'To', ru: 'к / в', translitEn: 'ilaa', translitRu: 'иляя' },
-    { id: 'p03', ar: 'في', en: 'In - at', ru: 'в / на', translitEn: 'fii', translitRu: 'фии' },
+    { id: 'p03', ar: 'في', en: 'in / at (by context)', ru: 'в / на (по контексту)', translitEn: 'fii', translitRu: 'фии' },
   ],
 };
 

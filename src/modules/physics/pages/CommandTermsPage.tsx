@@ -1,3 +1,5 @@
+import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { useTranslation } from 'react-i18next';
 import { TopicHero } from '../../../components/content/TopicHero';
 import { Card } from '../../../components/ui/Card';
@@ -42,6 +44,7 @@ export function CommandTermsPage() {
                   {t(`commandTerms.items.${id}.example`)}
                 </p>
               </div>
+              <DefinitionSupport review={t(`commandTerms.items.${id}.review`, { returnObjects: true }) as unknown as DefinitionReview} />
             </div>
           </Card>
         ))}

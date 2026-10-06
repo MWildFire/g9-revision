@@ -78,3 +78,23 @@ test('original geometric diagrams have translated equivalent descriptions', () =
   assert.match(src, /figcaption/);
   for (const kind of ['motion', 'energy', 'electricity', 'waves']) assert.match(src, new RegExp(`kind === '${kind}'`));
 });
+test('IB compare instructions distinguish similarities and align contrast questions with their badges', () => {
+  assert.match(en.commandTerms.items.compare.meaning, /similarities/);
+  assert.doesNotMatch(en.commandTerms.items.compare.meaning, /differences/);
+  assert.match(ru.commandTerms.items.compare.meaning, /сходства/);
+  assert.doesNotMatch(ru.commandTerms.items.compare.meaning, /различия/);
+  assert.match(en.commandTerms.items.compare.how, /compare and contrast asks for both/i);
+  for (const item of Object.values(en.commandTerms.items)) review(item.review);
+  const compiled = ts.transpileModule(read('src/modules/physics/data/practiceQuestions.ts'), {
+    compilerOptions: { module: ts.ModuleKind.CommonJS },
+  }).outputText;
+  const m = { exports: {} };
+  new Function('module', 'exports', compiled)(m, m.exports);
+  const questions = Object.values(m.exports).filter(Array.isArray).flat();
+  const both = questions.filter(q => q.commandTerm === 'compareContrast');
+  assert.equal(both.length, 4);
+  for (const q of both) {
+    assert.match(q.en.question, /^Compare and contrast /);
+    assert.match(q.ru.question, /сходства и различия/);
+  }
+});

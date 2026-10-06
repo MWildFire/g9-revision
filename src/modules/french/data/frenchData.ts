@@ -223,7 +223,7 @@ export const VOCAB_THEMES: VocabTheme[] = [
       },
       {
         "fr": "les fruits",
-        "en": "fruits",
+        "en": "fruit (food, usually uncountable); fruits (e.g. different kinds)",
         "ru": "фрукты"
       },
       {
@@ -649,7 +649,7 @@ export const USEFUL_PHRASES: UsefulPhrase[] = [
   },
   {
     "fr": "Pouvez-vous répéter?",
-    "en": "Could you repeat, please? (polite / plural address)",
+    "en": "Could you repeat? (polite / plural address)",
     "ru": "Не могли бы вы повторить? (вежливо / к нескольким людям)",
     "context": "Classroom"
   },

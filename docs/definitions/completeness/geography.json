@@ -1,0 +1,3967 @@
+{
+  "subject": "Geography",
+  "counts": {
+    "baselinePrimaryBlocksPerLanguage": 112,
+    "baselineLanguageOccurrences": 224,
+    "baselineDefinitionBlocksPerLanguage": 93,
+    "baselineOtherBlocksPerLanguage": 19,
+    "baselineDeduplicatedDefinitionEntries": 85,
+    "legacyCardOccurrencesPerLanguage": 97,
+    "legacyRepeatedTourismCards": 5,
+    "legacyUniqueCardTopics": 92,
+    "legacyDefinitionCardOccurrences": 82,
+    "legacyDistinctDefinitionCards": 77,
+    "legacyOtherCardTopics": 15,
+    "legacyCoverageRecords": 147,
+    "legacyDefinitionOccurrences": 103,
+    "legacyOtherOccurrences": 44,
+    "legacyDeduplicatedDefinitionEntries": 88,
+    "tectonicGlossaryGroupedEntries": 40,
+    "tectonicGeographyEntries": 38,
+    "tectonicExamCommandEntries": 2,
+    "tectonicAtomicNamedTerms": 48,
+    "mockDefinitionReviewGroups": 3,
+    "additionalDefinitionEntriesOutsideLegacy147": 2,
+    "unionDistinctNamedDefinitionEntries": 132,
+    "unionEntriesWithDirectFigure": 31,
+    "unionEntriesWithoutDirectFigure": 101
+  },
+  "countingNotes": [
+    "A block with a term meaning is a definition; causes, proposed solutions, actor-role lists, model descriptions and interface notes are recorded separately.",
+    "EN and RU copies represent one bilingual occurrence. Five identical tourism cards and repeated summaries are deduplicated by canonical concept id.",
+    "A compound glossary entry is one grouped entry; its atomic named terms are separately listed. Synonyms such as focus/hypocentre count as one term.",
+    "Grouped mock comparisons stay three review groups. Spearman is a repeated concept already present in fieldwork.",
+    "Direct figure means drawn geometry or arrows explain the named concept. Nearby figures, HTML comparison cards and tables do not count as direct figures.",
+    "Exact sources now come from current public data, superseding preliminary source/visual mappings in coverage-legacy.json and coverage-tectonics.json."
+  ],
+  "records": [
+    {
+      "id": "fieldwork.sections.aimHypothesis.detailed.aim",
+      "englishTerm": "Aim",
+      "russianTerm": "Цель исследования",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "language": "en",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity"
+        },
+        {
+          "title": "Royal Geographical Society — Rural investigations",
+          "url": "https://www.rgs.org/schools/resources-for-schools/rural-investigations",
+          "language": "en",
+          "section": "Getting started; Aims within an investigation; Considerations and possible limitations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "A research question is distinguished from its proposed answer through sentence examples; it has no fixed geometry."
+    },
+    {
+      "id": "fieldwork.sections.aimHypothesis.detailed.hypothesis",
+      "englishTerm": "Hypothesis",
+      "russianTerm": "Гипотеза",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "language": "en",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Testability and measurable variables are illustrated by sentence examples; a plotted dataset would imply evidence not collected here."
+    },
+    {
+      "id": "fieldwork.sections.aimHypothesis.detailed.nullHypothesis",
+      "englishTerm": "Null hypothesis (H₀)",
+      "russianTerm": "Нулевая гипотеза (H₀)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/9-1-null-and-alternative-hypotheses",
+          "language": "en",
+          "section": "9.1 Null and alternative hypotheses"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The null/alternative distinction is stated in words; no distribution or test statistic is introduced at this level."
+    },
+    {
+      "id": "fieldwork.sections.dataTypes.detailed.primary",
+      "englishTerm": "Primary data",
+      "russianTerm": "Первичные данные",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-2-research-methods",
+          "language": "en",
+          "section": "2.2 Research methods: research design; Field Research; Secondary Data Analysis"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The key distinction is who collected data and for which investigation, rather than its visible appearance."
+    },
+    {
+      "id": "fieldwork.sections.dataTypes.detailed.secondary",
+      "englishTerm": "Secondary data",
+      "russianTerm": "Вторичные данные",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-2-research-methods",
+          "language": "en",
+          "section": "2.2 Research methods: research design; Field Research; Secondary Data Analysis"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Provenance and reuse distinguish secondary data; a picture cannot establish source quality."
+    },
+    {
+      "id": "fieldwork.sections.dataTypes.detailed.quantitative",
+      "englishTerm": "Quantitative data",
+      "russianTerm": "Количественные данные",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Counts and measurements are demonstrated by numerical examples rather than invented observations."
+    },
+    {
+      "id": "fieldwork.sections.dataTypes.detailed.qualitative",
+      "englishTerm": "Qualitative data",
+      "russianTerm": "Качественные данные",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Categories and accounts are demonstrated by wording examples; no numerical axis is implied."
+    },
+    {
+      "id": "fieldwork.sections.sampling.detailed.sampleSize",
+      "englishTerm": "Sample size",
+      "russianTerm": "Объём выборки",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The card states the observational unit and n; no sampled population or numerical comparison is supplied."
+    },
+    {
+      "id": "fieldwork.sections.sampling.detailed.systematic",
+      "englishTerm": "Systematic sampling",
+      "russianTerm": "Систематический отбор",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The interval and random start are specified in the procedure; no spatial sampling diagram was implemented."
+    },
+    {
+      "id": "fieldwork.sections.sampling.detailed.stratified",
+      "englishTerm": "Stratified sampling",
+      "russianTerm": "Стратифицированный отбор",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The card defines group membership and within-group sampling; no group-size dataset is supplied for a proportional figure."
+    },
+    {
+      "id": "fieldwork.sections.sampling.detailed.random",
+      "englishTerm": "Simple random sampling",
+      "russianTerm": "Простой случайный отбор",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Equal selection probability is a procedural property; random-looking positions would not demonstrate it."
+    },
+    {
+      "id": "fieldwork.sections.presentation.detailed.bar",
+      "englishTerm": "Bar chart",
+      "russianTerm": "Столбчатая диаграмма",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
+          "language": "en",
+          "section": "2.1 Line graphs and bar graphs"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No plotted bar example was implemented. Category separation and the zero baseline are explained verbally; this is a visual coverage limitation."
+    },
+    {
+      "id": "fieldwork.sections.presentation.detailed.line",
+      "englishTerm": "Line graph",
+      "russianTerm": "Линейный график",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
+          "language": "en",
+          "section": "2.1 Line graphs and bar graphs"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No dedicated line-graph example was implemented; the separate hydrograph is a real worked time-series graph but is not presented as this card’s illustration."
+    },
+    {
+      "id": "fieldwork.sections.presentation.detailed.scatter",
+      "englishTerm": "Scatter graph",
+      "russianTerm": "Диаграмма рассеяния",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+          "language": "en",
+          "section": "12.3 Scatter plots, regression and cautions about interpretation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No scatter plot was implemented. The paired-variable and correlation/causation distinction remains verbal; this is a visual coverage limitation."
+    },
+    {
+      "id": "fieldwork.sections.presentation.detailed.pie",
+      "englishTerm": "Pie chart",
+      "russianTerm": "Круговая диаграмма",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No pie-chart example was implemented; the part/whole condition and 360-degree calculation are given numerically."
+    },
+    {
+      "id": "fieldwork.sections.presentation.detailed.gis",
+      "englishTerm": "Geographic information system (GIS)",
+      "russianTerm": "Географическая информационная система (ГИС)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "USGS — What is a geographic information system?",
+          "url": "https://www.usgs.gov/faqs/what-a-geographic-information-system-gis",
+          "language": "en",
+          "section": "Definition and example of combining spatial data"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No interactive layer map was implemented. A map without real georeferenced layers would not demonstrate GIS analysis."
+    },
+    {
+      "id": "fieldwork.sections.conclusionsEvaluation.detailed.conclusion",
+      "englishTerm": "Conclusion",
+      "russianTerm": "Вывод",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "language": "en",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The definition concerns evidence-based written reasoning; supplied example wording expresses the required relation."
+    },
+    {
+      "id": "fieldwork.sections.conclusionsEvaluation.detailed.evaluation",
+      "englishTerm": "Evaluation",
+      "russianTerm": "Оценка качества исследования",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        },
+        {
+          "title": "Royal Geographical Society — Rural investigations",
+          "url": "https://www.rgs.org/schools/resources-for-schools/rural-investigations",
+          "language": "en",
+          "section": "Getting started; Aims within an investigation; Considerations and possible limitations"
+        },
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "language": "en",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The limitation-to-improvement relation is presented in text; no measured uncertainty dataset is supplied."
+    },
+    {
+      "id": "rivers.sections.erosion.detailed.abrasion",
+      "englishTerm": "Abrasion (corrasion)",
+      "russianTerm": "Истирание русла наносами (abrasion)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/RiverProcesses.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "rivers.sections.erosion.detailed.attrition",
+      "englishTerm": "Attrition",
+      "russianTerm": "Истирание и дробление обломков (attrition)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        },
+        {
+          "title": "Litwin Miller & Jerolmack — Controls on the rates and products of particle attrition by bed-load collisions",
+          "url": "https://esurf.copernicus.org/articles/9/755/2021/#section1",
+          "language": "en",
+          "section": "Abstract and 1 Introduction: impact attrition; terminology varies across disciplines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/RiverProcesses.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "rivers.sections.erosion.detailed.hydraulicAction",
+      "englishTerm": "Hydraulic action",
+      "russianTerm": "Гидравлическое разрушение",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Hydraulic action needs the water's force; abrasion needs sediment striking or scraping the channel. Trapped-air pressure is one mechanism, not the whole definition. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "rivers.sections.erosion.detailed.solution",
+      "englishTerm": "Solution (corrosion)",
+      "russianTerm": "Растворение пород",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Dissolving the bed is a chemical erosion/weathering process; carrying the resulting ions is transport in solution. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "rivers.sections.transportation.detailed.traction",
+      "englishTerm": "Traction",
+      "russianTerm": "Волочение и перекатывание",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: There is no universal pebble-size boundary: movement depends on flow, grain size, shape and density. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "rivers.sections.transportation.detailed.saltation",
+      "englishTerm": "Saltation",
+      "russianTerm": "Сальтация",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Saltation means repeated bed contact; suspension keeps particles within the flow for longer. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "rivers.sections.transportation.detailed.suspension",
+      "englishTerm": "Suspension",
+      "russianTerm": "Перенос во взвеси",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Suspended material remains solid; dissolved material exists as dissolved ions or molecules. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "rivers.sections.transportation.detailed.solution",
+      "englishTerm": "Dissolved load (transport in solution)",
+      "russianTerm": "Растворённый сток",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Clear water can carry a substantial dissolved load. Deposition by settling applies to particles, not directly to dissolved ions. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "rivers.sections.flooding.detailed.saturatedGround",
+      "englishTerm": "Antecedent conditions and saturation",
+      "russianTerm": "Предшествующее увлажнение и насыщение",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "language": "en",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Saturation is water-filled pore space; impermeability concerns the difficulty of water moving through material. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "rivers.sections.flooding.detailed.snowmelt",
+      "englishTerm": "Snowmelt",
+      "russianTerm": "Снеготаяние",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Snowfall stores water; the runoff response depends on when it melts and whether the ground can absorb it. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "rivers.sections.management.detailed.dams",
+      "englishTerm": "Dams and reservoirs",
+      "russianTerm": "Плотины и водохранилища",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Dams and reservoirs varies with site and design; the mechanism and limits are stated in text. No engineering cross-section or measured flood-reduction figure is supplied."
+    },
+    {
+      "id": "rivers.sections.management.detailed.embankments",
+      "englishTerm": "Flood embankments (artificial levees)",
+      "russianTerm": "Защитные дамбы",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Flood embankments (artificial levees) varies with site and design; the mechanism and limits are stated in text. No engineering cross-section or measured flood-reduction figure is supplied."
+    },
+    {
+      "id": "rivers.sections.management.detailed.channelStraightening",
+      "englishTerm": "Channel straightening",
+      "russianTerm": "Спрямление русла",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-2-drainage-basins/",
+          "language": "en",
+          "section": "13.2 Drainage basins; stream gradients"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "language": "en",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Channel straightening varies with site and design; the mechanism and limits are stated in text. No engineering cross-section or measured flood-reduction figure is supplied."
+    },
+    {
+      "id": "rivers.sections.management.detailed.floodWalls",
+      "englishTerm": "Flood walls",
+      "russianTerm": "Противопаводковые стены",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "UNDRR — Disaster risk",
+          "url": "https://www.undrr.org/terminology/disaster-risk",
+          "language": "en",
+          "section": "Definition and annotation: hazard, exposure, vulnerability and capacity"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Flood walls varies with site and design; the mechanism and limits are stated in text. No engineering cross-section or measured flood-reduction figure is supplied."
+    },
+    {
+      "id": "rivers.sections.management.detailed.floodplainZoning",
+      "englishTerm": "Floodplain zoning",
+      "russianTerm": "Зонирование поймы",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "UNDRR — Disaster risk",
+          "url": "https://www.undrr.org/terminology/disaster-risk",
+          "language": "en",
+          "section": "Definition and annotation: hazard, exposure, vulnerability and capacity"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Floodplain zoning varies with site and design; the mechanism and limits are stated in text. No engineering cross-section or measured flood-reduction figure is supplied."
+    },
+    {
+      "id": "rivers.sections.management.detailed.afforestation",
+      "englishTerm": "Afforestation and catchment woodland",
+      "russianTerm": "Лесоразведение в бассейне",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Environment Agency — Working with Natural Processes: one-page summaries (2017)",
+          "url": "https://assets.publishing.service.gov.uk/media/6036c730d3bf7f0aac939a47/Working_with_natural_processes_one_page_summaries.pdf#page=2",
+          "language": "en",
+          "section": "River Restoration (PDF p. 2); Catchment Woodland (PDF p. 6); process definitions and stated limits, not case statistics"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "language": "en",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Afforestation and catchment woodland varies with site and design; the mechanism and limits are stated in text. No engineering cross-section or measured flood-reduction figure is supplied."
+    },
+    {
+      "id": "rivers.sections.management.detailed.restoration",
+      "englishTerm": "River restoration",
+      "russianTerm": "Восстановление речной системы",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Environment Agency — Working with Natural Processes: one-page summaries (2017)",
+          "url": "https://assets.publishing.service.gov.uk/media/6036c730d3bf7f0aac939a47/Working_with_natural_processes_one_page_summaries.pdf#page=2",
+          "language": "en",
+          "section": "River Restoration (PDF p. 2); Catchment Woodland (PDF p. 6); process definitions and stated limits, not case statistics"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "language": "en",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "River restoration varies with site and design; the mechanism and limits are stated in text. No engineering cross-section or measured flood-reduction figure is supplied."
+    },
+    {
+      "id": "rivers.sections.management.detailed.warnings",
+      "englishTerm": "Flood forecasts and warnings",
+      "russianTerm": "Прогнозы и предупреждения о паводках",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "UNDRR — Disaster risk",
+          "url": "https://www.undrr.org/terminology/disaster-risk",
+          "language": "en",
+          "section": "Definition and annotation: hazard, exposure, vulnerability and capacity"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Flood forecasts and warnings varies with site and design; the mechanism and limits are stated in text. No engineering cross-section or measured flood-reduction figure is supplied."
+    },
+    {
+      "id": "tourism.sections.types.detailed.mass",
+      "englishTerm": "Mass tourism",
+      "russianTerm": "Массовый туризм",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "BCcampus — Introduction to Tourism and Hospitality in BC",
+          "url": "https://opentextbc.ca/introtourism/chapter/chapter-1-history-and-overview/",
+          "language": "en",
+          "section": "Chapter 1: history and overview; mass tourism and tourism impacts"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Mass tourism is separated from adjacent visitor categories by purpose and practice, not a visual shape; examples and the defining criteria are provided in text."
+    },
+    {
+      "id": "tourism.sections.types.detailed.thanatourism",
+      "englishTerm": "Dark tourism / thanatourism",
+      "russianTerm": "Тёмный туризм / танатотуризм",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Philip R. Stone — A Dark Tourism Spectrum (2006)",
+          "url": "https://knowledge.lancashire.ac.uk/id/eprint/27720/1/27720%20fulltext_stamped.pdf#page=3",
+          "language": "en",
+          "section": "Introduction and dark tourism supply/demand, pp. 146–147"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Dark tourism / thanatourism is separated from adjacent visitor categories by purpose and practice, not a visual shape; examples and the defining criteria are provided in text."
+    },
+    {
+      "id": "tourism.sections.types.detailed.ecotourism",
+      "englishTerm": "Ecotourism",
+      "russianTerm": "Экологический туризм",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "UN Tourism — Ecotourism and protected areas",
+          "url": "https://www.untourism.int/sustainable-development/ecotourism-and-protected-areas",
+          "language": "en",
+          "section": "Five characteristics of ecotourism"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Ecotourism is separated from adjacent visitor categories by purpose and practice, not a visual shape; examples and the defining criteria are provided in text."
+    },
+    {
+      "id": "tourism.sections.types.detailed.medical",
+      "englishTerm": "Medical tourism",
+      "russianTerm": "Медицинский туризм",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "UN Tourism — Glossary of tourism terms",
+          "url": "https://www.untourism.int/glossary-tourism-terms",
+          "language": "en",
+          "section": "Entries: tourism, adventure tourism, medical tourism, ecotourism"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Medical tourism is separated from adjacent visitor categories by purpose and practice, not a visual shape; examples and the defining criteria are provided in text."
+    },
+    {
+      "id": "tourism.sections.types.detailed.extreme",
+      "englishTerm": "Adventure and extreme tourism",
+      "russianTerm": "Приключенческий и экстремальный туризм",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "UN Tourism — Glossary of tourism terms",
+          "url": "https://www.untourism.int/glossary-tourism-terms",
+          "language": "en",
+          "section": "Entries: tourism, adventure tourism, medical tourism, ecotourism"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Adventure and extreme tourism is separated from adjacent visitor categories by purpose and practice, not a visual shape; examples and the defining criteria are provided in text."
+    },
+    {
+      "id": "tourism.sections.types.detailed.voluntourism",
+      "englishTerm": "Voluntourism",
+      "russianTerm": "Волонтёрский туризм",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Oxfam — Voluntourism: cultural exchange or doing development badly?",
+          "url": "https://frompoverty.oxfam.org.uk/voluntourism-cultural-exchange-or-doing-development-badly/",
+          "language": "en",
+          "section": "Local development needs, volunteer skills and accountability"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Voluntourism is separated from adjacent visitor categories by purpose and practice, not a visual shape; examples and the defining criteria are provided in text."
+    },
+    {
+      "id": "tourism.sections.types.detailed.nature",
+      "englishTerm": "Nature and wildlife tourism",
+      "russianTerm": "Природный туризм и наблюдение за животными",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "UN Tourism — Ecotourism and protected areas",
+          "url": "https://www.untourism.int/sustainable-development/ecotourism-and-protected-areas",
+          "language": "en",
+          "section": "Five characteristics of ecotourism"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Nature and wildlife tourism is separated from adjacent visitor categories by purpose and practice, not a visual shape; examples and the defining criteria are provided in text."
+    },
+    {
+      "id": "resourceReliance.sections.definitions.detailed.resource",
+      "englishTerm": "Resource",
+      "russianTerm": "Ресурс",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Фоксфорд.Учебник — Мировые природные ресурсы",
+          "url": "https://foxford.ru/wiki/geografiya/miroviye-prirodniye-resursi-resursoobespechennost",
+          "language": "ru",
+          "section": "Природные ресурсы; классификация по исчерпаемости"
+        },
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "RU independently supports the core definition; finer details may use EN",
+        "scope": "RU defines natural resources and dependence on development/technology; broader generic resource wording is authored.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Мировые природные ресурсы",
+            "url": "https://foxford.ru/wiki/geografiya/miroviye-prirodniye-resursi-resursoobespechennost",
+            "language": "ru",
+            "section": "Природные ресурсы; классификация по исчерпаемости"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Renewable stocks can be depleted if use exceeds regeneration; flow resources such as sunlight are not stored finite fuel deposits. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.definitions.detailed.consumption",
+      "englishTerm": "Resource consumption",
+      "russianTerm": "Потребление ресурсов",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Фоксфорд.Учебник — Мировые природные ресурсы",
+          "url": "https://foxford.ru/wiki/geografiya/miroviye-prirodniye-resursi-resursoobespechennost",
+          "language": "ru",
+          "section": "Природные ресурсы; классификация по исчерпаемости"
+        },
+        {
+          "title": "United Nations — The 17 Goals",
+          "url": "https://sdgs.un.org/goals",
+          "language": "en",
+          "section": "History; Goals 2, 6, 7, 12 and 17"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "partial/contextual RU support; do not count as independently RU-supported full definition",
+        "scope": "RU discusses scale of resource use, not the full consumption-accounting distinction.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Мировые природные ресурсы",
+            "url": "https://foxford.ru/wiki/geografiya/miroviye-prirodniye-resursi-resursoobespechennost",
+            "language": "ru",
+            "section": "Природные ресурсы; классификация по исчерпаемости"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: A country can reduce domestic extraction while its consumption footprint remains high through imports. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.definitions.detailed.carrying",
+      "englishTerm": "Carrying capacity",
+      "russianTerm": "Ёмкость среды",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/20-1-demography-and-population",
+          "language": "en",
+          "section": "20.1 Demographic theories; Malthusian theory"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Мировые природные ресурсы",
+          "url": "https://foxford.ru/wiki/geografiya/miroviye-prirodniye-resursi-resursoobespechennost",
+          "language": "ru",
+          "section": "Природные ресурсы; классификация по исчерпаемости"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "partial/contextual RU support; do not count as independently RU-supported full definition",
+        "scope": "RU resource availability is contextual and is not a carrying-capacity definition.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Мировые природные ресурсы",
+            "url": "https://foxford.ru/wiki/geografiya/miroviye-prirodniye-resursi-resursoobespechennost",
+            "language": "ru",
+            "section": "Природные ресурсы; классификация по исчерпаемости"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: For human societies this is conditional and changeable, not a fixed worldwide headcount; trade can shift pressures elsewhere. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.sustainability.detailed.brundtland",
+      "englishTerm": "Sustainable development (Brundtland, 1987)",
+      "russianTerm": "Устойчивое развитие (Брундтланд, 1987)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Фоксфорд.Учебник — Стратегия устойчивого развития",
+          "url": "https://foxford.ru/wiki/geografiya/strategiya-ustojchivogo-razvitiya",
+          "language": "ru",
+          "section": "Определение; принципы и направления устойчивого развития"
+        },
+        {
+          "title": "United Nations — The 17 Goals",
+          "url": "https://sdgs.un.org/goals",
+          "language": "en",
+          "section": "History; Goals 2, 6, 7, 12 and 17"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "RU independently supports the core definition; finer details may use EN",
+        "scope": "RU defines present/future generational well-being and environmental/social principles.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Стратегия устойчивого развития",
+            "url": "https://foxford.ru/wiki/geografiya/strategiya-ustojchivogo-razvitiya",
+            "language": "ru",
+            "section": "Определение; принципы и направления устойчивого развития"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Sustainable development is broader than environmental protection or continuing GDP growth; examine social, economic and environmental outcomes together. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.sustainability.detailed.sdgs",
+      "englishTerm": "Sustainable Development Goals (SDGs)",
+      "russianTerm": "Цели устойчивого развития (ЦУР)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "United Nations — The 17 Goals",
+          "url": "https://sdgs.un.org/goals",
+          "language": "en",
+          "section": "History; Goals 2, 6, 7, 12 and 17"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: A goal is an intended outcome; adoption does not show that the outcome has been achieved. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.energy.detailed.solar",
+      "englishTerm": "Solar energy",
+      "russianTerm": "Солнечная энергия",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Solar explained",
+          "url": "https://www.eia.gov/energyexplained/solar/",
+          "language": "en",
+          "section": "Solar thermal (heat) energy; Solar photovoltaic systems; Benefits and limitations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No conversion schematic was implemented for Solar energy; the energy source and conversion mechanism are explained in the definition and contrast. This is text-only coverage, not a claim that all energy mechanisms have figures."
+    },
+    {
+      "id": "resourceReliance.sections.energy.detailed.wind",
+      "englishTerm": "Wind energy",
+      "russianTerm": "Энергия ветра",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Electricity generation from wind",
+          "url": "https://www.eia.gov/energyexplained/wind/electricity-generation-from-wind.php",
+          "language": "en",
+          "section": "How wind turbines work"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No conversion schematic was implemented for Wind energy; the energy source and conversion mechanism are explained in the definition and contrast. This is text-only coverage, not a claim that all energy mechanisms have figures."
+    },
+    {
+      "id": "resourceReliance.sections.energy.detailed.hydro",
+      "englishTerm": "Hydropower",
+      "russianTerm": "Гидроэнергетика",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Hydropower explained",
+          "url": "https://www.eia.gov/energyexplained/hydropower/",
+          "language": "en",
+          "section": "Hydropower relies on the water cycle; Hydroelectric power is produced with moving water"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No conversion schematic was implemented for Hydropower; the energy source and conversion mechanism are explained in the definition and contrast. This is text-only coverage, not a claim that all energy mechanisms have figures."
+    },
+    {
+      "id": "resourceReliance.sections.energy.detailed.geothermal",
+      "englishTerm": "Geothermal energy",
+      "russianTerm": "Геотермальная энергия",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Geothermal explained",
+          "url": "https://www.eia.gov/energyexplained/geothermal/",
+          "language": "en",
+          "section": "Opening definition and uses of geothermal heat only; not the simplified Earth-layer account"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No conversion schematic was implemented for Geothermal energy; the energy source and conversion mechanism are explained in the definition and contrast. This is text-only coverage, not a claim that all energy mechanisms have figures."
+    },
+    {
+      "id": "resourceReliance.sections.energy.detailed.biofuels",
+      "englishTerm": "Biofuels and biomass",
+      "russianTerm": "Биотопливо и биомасса",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Biomass explained",
+          "url": "https://www.eia.gov/energyexplained/biomass/",
+          "language": "en",
+          "section": "Biomass—renewable energy from plants and animals; Biomass can be converted to energy in different ways"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No conversion schematic was implemented for Biofuels and biomass; the energy source and conversion mechanism are explained in the definition and contrast. This is text-only coverage, not a claim that all energy mechanisms have figures."
+    },
+    {
+      "id": "resourceReliance.sections.energy.detailed.fossilFuels",
+      "englishTerm": "Fossil fuels",
+      "russianTerm": "Ископаемое топливо",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No conversion schematic was implemented for Fossil fuels; the energy source and conversion mechanism are explained in the definition and contrast. This is text-only coverage, not a claim that all energy mechanisms have figures."
+    },
+    {
+      "id": "resourceReliance.sections.energy.detailed.nuclear",
+      "englishTerm": "Nuclear fission energy",
+      "russianTerm": "Энергия ядерного деления",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Nuclear explained",
+          "url": "https://www.eia.gov/energyexplained/nuclear/",
+          "language": "en",
+          "section": "Nuclear fission and nuclear fusion; Nuclear fuel—uranium"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No conversion schematic was implemented for Nuclear fission energy; the energy source and conversion mechanism are explained in the definition and contrast. This is text-only coverage, not a claim that all energy mechanisms have figures."
+    },
+    {
+      "id": "resourceReliance.sections.waterStress.detailed.definition",
+      "englishTerm": "Water stress",
+      "russianTerm": "Водный стресс (нагрузка на водные ресурсы)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "FAO — SDG indicator 6.4.2",
+          "url": "https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/en",
+          "language": "en",
+          "section": "Level of water stress: freshwater withdrawal relative to resources"
+        },
+        {
+          "title": "ФАО — Показатель ЦУР 6.4.2",
+          "url": "https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/ru",
+          "language": "ru",
+          "section": "Уровень нагрузки на водные ресурсы; экологические потребности"
+        },
+        {
+          "title": "UN-Water — Water Security and the Global Water Agenda",
+          "url": "https://www.unwater.org/publications/water-security-and-global-water-agenda",
+          "language": "en",
+          "section": "Working definition of water security (2013 analytical brief)"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "RU independently supports the core definition; finer details may use EN",
+        "scope": "RU independently gives SDG 6.4.2 withdrawal/resource ratio and environmental-water allowance. Water security contrast uses EN UN-Water.",
+        "readRussianSources": [
+          {
+            "title": "ФАО — Показатель ЦУР 6.4.2",
+            "url": "https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/ru",
+            "language": "ru",
+            "section": "Уровень нагрузки на водные ресурсы; экологические потребности"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Water stress is a pressure indicator; water security is broader and includes reliable access, water quality, ecosystems and protection from water-related harm. Different indices use different thresholds. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.foodSecurity.detailed.definition",
+      "englishTerm": "Food security",
+      "russianTerm": "Продовольственная безопасность",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "FAO — An Introduction to the Basic Concepts of Food Security",
+          "url": "https://www.fao.org/4/al936e/al936e00.pdf#page=1",
+          "language": "en",
+          "section": "I. Four dimensions; II. Duration; III. Severity; V. Hunger, malnutrition and poverty"
+        },
+        {
+          "title": "ФАО — Часто задаваемые вопросы о доступе к продовольствию",
+          "url": "https://www.fao.org/measuring-hunger/access-to-food/frequently-asked-questions/ru",
+          "language": "ru",
+          "section": "Что оценивается / не оценивается с помощью ШВОПБ?; отличие отсутствия продовольственной безопасности от неполноценного питания"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "partial/contextual RU support; do not count as independently RU-supported full definition",
+        "scope": "RU FAQ independently supports access versus malnutrition and some drivers. The four-dimension framework and matching interventions are adapted from the EN FAO note.",
+        "readRussianSources": [
+          {
+            "title": "ФАО — Часто задаваемые вопросы о доступе к продовольствию",
+            "url": "https://www.fao.org/measuring-hunger/access-to-food/frequently-asked-questions/ru",
+            "section": "Что оценивается / не оценивается с помощью ШВОПБ?; отличие отсутствия продовольственной безопасности от неполноценного питания",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: A country can produce enough food while some households cannot afford it. Food insecurity is broader than famine and is not the same as low national self-sufficiency. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.players.detailed.un",
+      "englishTerm": "United Nations and international agencies",
+      "russianTerm": "ООН и международные организации",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "United Nations — The 17 Goals",
+          "url": "https://sdgs.un.org/goals",
+          "language": "en",
+          "section": "History; Goals 2, 6, 7, 12 and 17"
+        },
+        {
+          "title": "FAO — An Introduction to the Basic Concepts of Food Security",
+          "url": "https://www.fao.org/4/al936e/al936e00.pdf#page=1",
+          "language": "en",
+          "section": "I. Four dimensions; II. Duration; III. Severity; V. Hunger, malnutrition and poverty"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: An agreed global goal differs from national implementation; avoid treating all UN bodies as a single government or claiming none has any legal authority. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.players.detailed.ngos",
+      "englishTerm": "Non-governmental organisations (NGOs)",
+      "russianTerm": "Неправительственные организации (НПО)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "United Nations — Civil Society Unit: About us",
+          "url": "https://www.un.org/en/civil-society/page/about-us",
+          "language": "en",
+          "section": "Who We Are: definition and roles of civil society/non-governmental organisations"
+        },
+        {
+          "title": "Oxfam — Voluntourism: cultural exchange or doing development badly?",
+          "url": "https://frompoverty.oxfam.org.uk/voluntourism-cultural-exchange-or-doing-development-badly/",
+          "language": "en",
+          "section": "Local development needs, volunteer skills and accountability"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: Non-governmental does not mean funded only by donations, or automatically representative of every local voice. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "resourceReliance.sections.players.detailed.businesses",
+      "englishTerm": "Businesses and transnational corporations (TNCs)",
+      "russianTerm": "Бизнес и транснациональные корпорации (ТНК)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Business",
+          "url": "https://openstax.org/books/introduction-business/pages/3-8-the-impact-of-multinational-corporations",
+          "language": "en",
+          "section": "3.8 Definition; The Multinational Advantage; cross-border production and operations"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Глобализация",
+          "url": "https://foxford.ru/wiki/geografiya/globalizaciya-ponyatie-o-globalnyh-problemah",
+          "language": "ru",
+          "section": "Глобализация: экономические, политические и культурные связи"
+        },
+        {
+          "title": "United Nations — The 17 Goals",
+          "url": "https://sdgs.un.org/goals",
+          "language": "en",
+          "section": "History; Goals 2, 6, 7, 12 and 17"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "partial/contextual RU support; do not count as independently RU-supported full definition",
+        "scope": "RU globalisation text mentions TNCs but does not define them; EN OpenStax provides the corporate-operation account.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Глобализация",
+            "url": "https://foxford.ru/wiki/geografiya/globalizaciya-ponyatie-o-globalnyh-problemah",
+            "language": "ru",
+            "section": "Глобализация: экономические, политические и культурные связи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: A company pledge is a stated intention; verified outcomes require a baseline, scope, dates and measured results. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "atmosphericHazards.sections.climateZones.detailed.polar",
+      "englishTerm": "Polar climate",
+      "russianTerm": "Полярный климат",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Climate zones",
+          "url": "https://www.noaa.gov/jetstream/global/climate-zones",
+          "language": "en",
+          "section": "Köppen groups A–E and highland climates"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Polar climate depends on temperature/precipitation criteria. No representative climograph was invented without a named station and data; the criteria remain explicit text."
+    },
+    {
+      "id": "atmosphericHazards.sections.climateZones.detailed.temperate",
+      "englishTerm": "Temperate climates",
+      "russianTerm": "Умеренные климаты",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Climate zones",
+          "url": "https://www.noaa.gov/jetstream/global/climate-zones",
+          "language": "en",
+          "section": "Köppen groups A–E and highland climates"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Климат и климатообразующие факторы",
+          "url": "https://foxford.ru/wiki/geografiya/klimat",
+          "language": "ru",
+          "section": "Что такое климат; климатообразующие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "partial/contextual RU support; do not count as independently RU-supported full definition",
+        "scope": "RU climate factors support variation, but classification systems differ; broad temperate grouping is EN adaptation.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Климат и климатообразующие факторы",
+            "url": "https://foxford.ru/wiki/geografiya/klimat",
+            "language": "ru",
+            "section": "Что такое климат; климатообразующие факторы"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Temperate climates depends on temperature/precipitation criteria. No representative climograph was invented without a named station and data; the criteria remain explicit text."
+    },
+    {
+      "id": "atmosphericHazards.sections.climateZones.detailed.arid",
+      "englishTerm": "Arid climate",
+      "russianTerm": "Аридный (сухой) климат",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Climate zones",
+          "url": "https://www.noaa.gov/jetstream/global/climate-zones",
+          "language": "en",
+          "section": "Köppen groups A–E and highland climates"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Arid climate depends on temperature/precipitation criteria. No representative climograph was invented without a named station and data; the criteria remain explicit text."
+    },
+    {
+      "id": "atmosphericHazards.sections.climateZones.detailed.tropical",
+      "englishTerm": "Tropical climates",
+      "russianTerm": "Тропические климаты (по Кёппену)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Climate zones",
+          "url": "https://www.noaa.gov/jetstream/global/climate-zones",
+          "language": "en",
+          "section": "Köppen groups A–E and highland climates"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Tropical climates depends on temperature/precipitation criteria. No representative climograph was invented without a named station and data; the criteria remain explicit text."
+    },
+    {
+      "id": "atmosphericHazards.sections.climateZones.detailed.mediterranean",
+      "englishTerm": "Mediterranean climate",
+      "russianTerm": "Средиземноморский климат",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Climate zones",
+          "url": "https://www.noaa.gov/jetstream/global/climate-zones",
+          "language": "en",
+          "section": "Köppen groups A–E and highland climates"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Mediterranean climate depends on temperature/precipitation criteria. No representative climograph was invented without a named station and data; the criteria remain explicit text."
+    },
+    {
+      "id": "atmosphericHazards.sections.climateZones.detailed.mountainous",
+      "englishTerm": "Mountain / highland climates",
+      "russianTerm": "Горные климаты",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Climate zones",
+          "url": "https://www.noaa.gov/jetstream/global/climate-zones",
+          "language": "en",
+          "section": "Köppen groups A–E and highland climates"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Климат и климатообразующие факторы",
+          "url": "https://foxford.ru/wiki/geografiya/klimat",
+          "language": "ru",
+          "section": "Что такое климат; климатообразующие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "RU independently supports the core definition; finer details may use EN",
+        "scope": "RU independently describes altitude and windward/leeward relief as climate factors; precise classification uses EN NOAA.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Климат и климатообразующие факторы",
+            "url": "https://foxford.ru/wiki/geografiya/klimat",
+            "language": "ru",
+            "section": "Что такое климат; климатообразующие факторы"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Mountain / highland climates depends on temperature/precipitation criteria. No representative climograph was invented without a named station and data; the criteria remain explicit text."
+    },
+    {
+      "id": "atmosphericHazards.sections.latitudeSun.detailed.tilt",
+      "englishTerm": "Axial tilt and seasons",
+      "russianTerm": "Наклон земной оси и времена года",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NASA — Earth facts",
+          "url": "https://science.nasa.gov/earth/facts/",
+          "language": "en",
+          "section": "Orbit and rotation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: The angle to the orbital plane itself is about 66.5°. Seasons primarily arise from tilt, not changing Earth–Sun distance. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "atmosphericHazards.sections.circulation.detailed.hadley",
+      "englishTerm": "Hadley cell",
+      "russianTerm": "Ячейка Хэдли",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Met Office — Global circulation patterns",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/atmosphere/global-circulation-patterns",
+          "language": "en",
+          "section": "Hadley cell; Ferrel cell; Polar cell; Coriolis effect"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/AtmosphericCirculation.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atmosphericHazards.sections.circulation.detailed.ferrel",
+      "englishTerm": "Ferrel cell",
+      "russianTerm": "Ячейка Феррела",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Met Office — Global circulation patterns",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/atmosphere/global-circulation-patterns",
+          "language": "en",
+          "section": "Hadley cell; Ferrel cell; Polar cell; Coriolis effect"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/AtmosphericCirculation.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atmosphericHazards.sections.circulation.detailed.polar",
+      "englishTerm": "Polar cell",
+      "russianTerm": "Полярная ячейка",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Met Office — Global circulation patterns",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/atmosphere/global-circulation-patterns",
+          "language": "en",
+          "section": "Hadley cell; Ferrel cell; Polar cell; Coriolis effect"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/AtmosphericCirculation.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atmosphericHazards.sections.pressure.detailed.high",
+      "englishTerm": "High-pressure system (anticyclone)",
+      "russianTerm": "Область высокого давления (антициклон)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Met Office — High and low pressure",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/how-weather-works/high-and-low-pressure",
+          "language": "en",
+          "section": "Characteristics of high and low pressure; wind flow and pressure"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/AtmosphericCirculation.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atmosphericHazards.sections.pressure.detailed.low",
+      "englishTerm": "Low-pressure system (cyclone / depression)",
+      "russianTerm": "Область низкого давления (циклон)",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Met Office — High and low pressure",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/how-weather-works/high-and-low-pressure",
+          "language": "en",
+          "section": "Characteristics of high and low pressure; wind flow and pressure"
+        },
+        {
+          "title": "NOAA JetStream — Tropical cyclone introduction",
+          "url": "https://www.noaa.gov/jetstream/tropical/tropical-cyclone-introduction",
+          "language": "en",
+          "section": "Favourable environmental conditions; the need for warm water"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/AtmosphericCirculation.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atmosphericHazards.sections.tropicalStorms.detailed.formation",
+      "englishTerm": "Tropical cyclone formation",
+      "russianTerm": "Формирование тропического циклона",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Tropical cyclone introduction",
+          "url": "https://www.noaa.gov/jetstream/tropical/tropical-cyclone-introduction",
+          "language": "en",
+          "section": "Favourable environmental conditions; the need for warm water"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: About 27°C and more than roughly 5° from the equator are useful typical conditions, not absolute guarantees or exception-free boundaries. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "atmosphericHazards.sections.tropicalStorms.detailed.naming",
+      "englishTerm": "Hurricane, typhoon and tropical cyclone",
+      "russianTerm": "Ураган, тайфун и тропический циклон",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Tropical cyclone introduction",
+          "url": "https://www.noaa.gov/jetstream/tropical/tropical-cyclone-introduction",
+          "language": "en",
+          "section": "Favourable environmental conditions; the need for warm water"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The discriminating relation is stated explicitly in the paired explanation: The Saffir–Simpson scale rates sustained hurricane wind, not rainfall or storm surge; it is not the official classification used identically in every basin. No dedicated figure is implemented for this entry."
+    },
+    {
+      "id": "atmosphericHazards.sections.enso.detailed.normal",
+      "englishTerm": "ENSO-neutral Pacific conditions",
+      "russianTerm": "Нейтральные условия ENSO в Тихом океане",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA Ocean Service — What are El Niño and La Niña?",
+          "url": "https://oceanservice.noaa.gov/facts/ninonina.html",
+          "language": "en",
+          "section": "Normal conditions; El Niño; La Niña"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/EnsoToggle.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atmosphericHazards.sections.enso.detailed.elNino",
+      "englishTerm": "El Niño",
+      "russianTerm": "Эль-Ниньо",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA Ocean Service — What are El Niño and La Niña?",
+          "url": "https://oceanservice.noaa.gov/facts/ninonina.html",
+          "language": "en",
+          "section": "Normal conditions; El Niño; La Niña"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/EnsoToggle.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atmosphericHazards.sections.enso.detailed.laNina",
+      "englishTerm": "La Niña",
+      "russianTerm": "Ла-Нинья",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "NOAA Ocean Service — What are El Niño and La Niña?",
+          "url": "https://oceanservice.noaa.gov/facts/ninonina.html",
+          "language": "en",
+          "section": "Normal conditions; El Niño; La Niña"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/EnsoToggle.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "river-course",
+      "englishTerm": "river course",
+      "russianTerm": "Течение реки",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-2-drainage-basins/",
+          "language": "en",
+          "section": "13.2 Drainage basins; stream gradients"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Relative upstream/downstream location is described; Bradshaw shows related tendencies but is not a labelled river-course landscape."
+    },
+    {
+      "id": "meander",
+      "englishTerm": "meander",
+      "russianTerm": "Меандр",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No plan-view meander/oxbow sequence was implemented; bank erosion and point-bar deposition remain a verbal process explanation."
+    },
+    {
+      "id": "drainage-basin",
+      "englishTerm": "drainage basin",
+      "russianTerm": "Водосборный бассейн",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-2-drainage-basins/",
+          "language": "en",
+          "section": "13.2 Drainage basins; stream gradients"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No catchment-boundary water-pathway figure was implemented; the bounded-system definition lists inputs, stores and transfers."
+    },
+    {
+      "id": "storm-hydrograph",
+      "englishTerm": "storm hydrograph",
+      "russianTerm": "Штормовой гидрограф",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — College Physics 2e",
+          "url": "https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity",
+          "language": "en",
+          "section": "12.1 Flow rate and its relation to velocity; equations 12.1–12.3"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "language": "en",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/components/simulations/geography/StormHydrograph.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "spearman-rank-correlation",
+      "englishTerm": "spearman rank correlation",
+      "russianTerm": "Ранговая корреляция Спирмена",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "SciPy scientific documentation — Spearman rank correlation",
+          "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html",
+          "language": "en",
+          "section": "Definition, alternative hypotheses and small-sample permutation-test example"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Worked ranks and the coefficient are given; no additional scatter plot was implemented, so rank association is taught numerically."
+    },
+    {
+      "id": "methodology",
+      "englishTerm": "methodology",
+      "russianTerm": "Методология",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "language": "en",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity"
+        },
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-2-research-methods",
+          "language": "en",
+          "section": "2.2 Research methods: research design; Field Research; Secondary Data Analysis"
+        },
+        {
+          "title": "Royal Geographical Society — Rural investigations",
+          "url": "https://www.rgs.org/schools/resources-for-schools/rural-investigations",
+          "language": "en",
+          "section": "Getting started; Aims within an investigation; Considerations and possible limitations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "A repeatable procedure is explained as a list of design choices; no single spatial arrangement applies to every investigation."
+    },
+    {
+      "id": "non-renewable-energy",
+      "englishTerm": "non renewable energy",
+      "russianTerm": "Невозобновляемые источники энергии",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Human timescale replenishment is the classification criterion; a photograph of a fuel would not show that criterion."
+    },
+    {
+      "id": "plate-tectonics",
+      "englishTerm": "plate tectonics",
+      "russianTerm": "Тектоника плит",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/1-5-fundamentals-of-plate-tectonics/",
+          "language": "en",
+          "section": "1.5 Fundamentals of plate tectonics; Figure 1.5.1"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-5-mechanisms-for-plate-motion/",
+          "language": "en",
+          "section": "10.5 Mechanisms for plate motion; ridge push and slab pull"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Земная кора и литосфера",
+          "url": "https://foxford.ru/wiki/geografiya/zemnaya-kora-i-litosfera",
+          "language": "ru",
+          "section": "Литосфера и земная кора"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "mixed: RU independently supports lithospheric plates; forces and motion use EN",
+        "scope": "",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Земная кора и литосфера",
+            "url": "https://foxford.ru/wiki/geografiya/zemnaya-kora-i-litosfera",
+            "section": "Литосфера и земная кора",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#constructive/subduction/collision/conservative"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "urbanisation",
+      "englishTerm": "urbanisation",
+      "russianTerm": "Урбанизация",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "United Nations DESA — World Urbanization Prospects 2018: Highlights",
+          "url": "https://population.un.org/wup/assets/WUP2018-Highlights.pdf#page=5",
+          "language": "en",
+          "section": "What Is Urbanization? (PDF p. 5); Box 2 Sources of urban growth (PDF p. 20)"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Городское население и урбанизация",
+          "url": "https://foxford.ru/wiki/geografiya/gorodskoye-naseleniye-rossii-urbanizatsiya",
+          "language": "ru",
+          "section": "Процесс урбанизации"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "partial/contextual RU support; do not count as independently RU-supported full definition",
+        "scope": "RU urbanisation source describes growing urban role/numbers; exact share-versus-number distinction and demographic components are supported by EN UN DESA.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Городское население и урбанизация",
+            "url": "https://foxford.ru/wiki/geografiya/gorodskoye-naseleniye-rossii-urbanizatsiya",
+            "language": "ru",
+            "section": "Процесс урбанизации"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The distinction is urban share versus urban number. No invented population time series was plotted."
+    },
+    {
+      "id": "globalisation",
+      "englishTerm": "globalisation",
+      "russianTerm": "Глобализация",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Фоксфорд.Учебник — Глобализация",
+          "url": "https://foxford.ru/wiki/geografiya/globalizaciya-ponyatie-o-globalnyh-problemah",
+          "language": "ru",
+          "section": "Глобализация: экономические, политические и культурные связи"
+        },
+        {
+          "title": "UNDP — What is human development?",
+          "url": "https://hdr.undp.org/about/human-development",
+          "language": "en",
+          "section": "People, opportunities and choice; Measuring human development"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "RU independently supports the core definition; finer details may use EN",
+        "scope": "",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Глобализация",
+            "url": "https://foxford.ru/wiki/geografiya/globalizaciya-ponyatie-o-globalnyh-problemah",
+            "language": "ru",
+            "section": "Глобализация: экономические, политические и культурные связи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Cross-border connections are distinguished from development outcomes through an explicit comparison; no dataset is claimed."
+    },
+    {
+      "id": "biome",
+      "englishTerm": "biome",
+      "russianTerm": "Биом",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — Biology 2e",
+          "url": "https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes",
+          "language": "en",
+          "section": "44.3 Terrestrial biomes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The grouping is climatic/ecological and boundaries vary. No world map with falsely precise biome borders was drawn."
+    },
+    {
+      "id": "tectonic:Crust",
+      "englishTerm": "Crust",
+      "russianTerm": "Земная кора",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/1-5-fundamentals-of-plate-tectonics/",
+          "language": "en",
+          "section": "1.5 Fundamentals of plate tectonics; Figure 1.5.1"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Земная кора и литосфера",
+          "url": "https://foxford.ru/wiki/geografiya/zemnaya-kora-i-litosfera",
+          "language": "ru",
+          "section": "Литосфера и земная кора"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "RU independently supports the core definition; finer compositional/mechanical details use EN",
+        "scope": "Foxford Земная кора / Литосфера и земная кора independently states the outer solid layer and crust-plus-upper-mantle distinction.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Земная кора и литосфера",
+            "url": "https://foxford.ru/wiki/geografiya/zemnaya-kora-i-litosfera",
+            "section": "Литосфера и земная кора",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#earth"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Mantle",
+      "englishTerm": "Mantle",
+      "russianTerm": "Мантия",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/1-5-fundamentals-of-plate-tectonics/",
+          "language": "en",
+          "section": "1.5 Fundamentals of plate tectonics; Figure 1.5.1"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-5-mechanisms-for-plate-motion/",
+          "language": "en",
+          "section": "10.5 Mechanisms for plate motion; ridge push and slab pull"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#earth"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Lithosphere",
+      "englishTerm": "Lithosphere",
+      "russianTerm": "Литосфера",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/1-5-fundamentals-of-plate-tectonics/",
+          "language": "en",
+          "section": "1.5 Fundamentals of plate tectonics; Figure 1.5.1"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Земная кора и литосфера",
+          "url": "https://foxford.ru/wiki/geografiya/zemnaya-kora-i-litosfera",
+          "language": "ru",
+          "section": "Литосфера и земная кора"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "RU independently supports the core definition; finer compositional/mechanical details use EN",
+        "scope": "Foxford Земная кора / Литосфера и земная кора independently states the outer solid layer and crust-plus-upper-mantle distinction.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Земная кора и литосфера",
+            "url": "https://foxford.ru/wiki/geografiya/zemnaya-kora-i-litosfera",
+            "section": "Литосфера и земная кора",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#constructive"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Asthenosphere",
+      "englishTerm": "Asthenosphere",
+      "russianTerm": "Астеносфера",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/1-5-fundamentals-of-plate-tectonics/",
+          "language": "en",
+          "section": "1.5 Fundamentals of plate tectonics; Figure 1.5.1"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-4-plate-plate-motions-and-plate-boundary-processes/",
+          "language": "en",
+          "section": "10.4 Divergent, convergent and transform plate boundaries"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The weak, deformable asthenosphere is described verbally; the Earth-layer drawing does not label its mechanical boundary."
+    },
+    {
+      "id": "tectonic:Convection",
+      "englishTerm": "Convection",
+      "russianTerm": "Конвекция",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-5-mechanisms-for-plate-motion/",
+          "language": "en",
+          "section": "10.5 Mechanisms for plate motion; ridge push and slab pull"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The mantle diagram contains no circulation loop; convection is explained as solid-state heat transfer in text."
+    },
+    {
+      "id": "tectonic:Slab pull",
+      "englishTerm": "Slab pull",
+      "russianTerm": "Тяга погружающейся плиты",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-5-mechanisms-for-plate-motion/",
+          "language": "en",
+          "section": "10.5 Mechanisms for plate motion; ridge push and slab pull"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The boundary diagram shows a descending slab but no labelled gravitational force; the slab-pull mechanism remains textual."
+    },
+    {
+      "id": "tectonic:Constructive or divergent",
+      "englishTerm": "Constructive or divergent",
+      "russianTerm": "Конструктивная или дивергентная граница",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-4-plate-plate-motions-and-plate-boundary-processes/",
+          "language": "en",
+          "section": "10.4 Divergent, convergent and transform plate boundaries"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#constructive"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Destructive subduction",
+      "englishTerm": "Destructive subduction",
+      "russianTerm": "Деструктивная граница субдукции",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-4-plate-plate-motions-and-plate-boundary-processes/",
+          "language": "en",
+          "section": "10.4 Divergent, convergent and transform plate boundaries"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#subduction"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Collision",
+      "englishTerm": "Collision",
+      "russianTerm": "Коллизия",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-4-plate-plate-motions-and-plate-boundary-processes/",
+          "language": "en",
+          "section": "10.4 Divergent, convergent and transform plate boundaries"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#collision"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Conservative or transform",
+      "englishTerm": "Conservative or transform",
+      "russianTerm": "Консервативная или трансформная граница",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-4-plate-plate-motions-and-plate-boundary-processes/",
+          "language": "en",
+          "section": "10.4 Divergent, convergent and transform plate boundaries"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#conservative"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Subduction zone",
+      "englishTerm": "Subduction zone",
+      "russianTerm": "Зона субдукции",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-4-plate-plate-motions-and-plate-boundary-processes/",
+          "language": "en",
+          "section": "10.4 Divergent, convergent and transform plate boundaries"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#subduction"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Fault",
+      "englishTerm": "Fault",
+      "russianTerm": "Разлом",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/11-1-what-is-an-earthquake/",
+          "language": "en",
+          "section": "11.1 Elastic strain, rupture area and aftershocks"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#earthquake"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Elastic rebound",
+      "englishTerm": "Elastic rebound",
+      "russianTerm": "Упругая отдача",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/11-1-what-is-an-earthquake/",
+          "language": "en",
+          "section": "11.1 Elastic strain, rupture area and aftershocks"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The earthquake figure shows a fault and waves, not a before/after strain-release sequence; elastic rebound is defined in text."
+    },
+    {
+      "id": "tectonic:Focus or hypocentre",
+      "englishTerm": "Focus or hypocentre",
+      "russianTerm": "Очаг или гипоцентр",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/11-1-what-is-an-earthquake/",
+          "language": "en",
+          "section": "11.1 Elastic strain, rupture area and aftershocks"
+        },
+        {
+          "title": "USGS — Earthquake magnitude, energy release, and shaking intensity",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+          "language": "en",
+          "section": "Magnitude; intensity; local geology and depth"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#earthquake"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Epicentre",
+      "englishTerm": "Epicentre",
+      "russianTerm": "Эпицентр",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "USGS — Earthquake magnitude, energy release, and shaking intensity",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+          "language": "en",
+          "section": "Magnitude; intensity; local geology and depth"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#earthquake"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Magnitude",
+      "englishTerm": "Magnitude",
+      "russianTerm": "Магнитуда",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "USGS — Earthquake magnitude, energy release, and shaking intensity",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+          "language": "en",
+          "section": "Magnitude; intensity; local geology and depth"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Землетрясения",
+          "url": "https://foxford.ru/wiki/geografiya/zemletryasenuya",
+          "language": "ru",
+          "section": "Сила и энергия землетрясения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "partial/contextual RU support; specialist EN source controls the complete definition",
+        "scope": "RU distinguishes magnitude from observed-effects points; its Richter simplification does not independently support the modern moment-magnitude account or all spatial-intensity details.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Землетрясения",
+            "url": "https://foxford.ru/wiki/geografiya/zemletryasenuya",
+            "section": "Сила и энергия землетрясения",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The focus/epicentre figure is not a magnitude-scale diagram. Logarithmic size and moment-versus-local magnitude are stated numerically and verbally."
+    },
+    {
+      "id": "tectonic:Intensity",
+      "englishTerm": "Intensity",
+      "russianTerm": "Интенсивность",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "USGS — Earthquake magnitude, energy release, and shaking intensity",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+          "language": "en",
+          "section": "Magnitude; intensity; local geology and depth"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Землетрясения",
+          "url": "https://foxford.ru/wiki/geografiya/zemletryasenuya",
+          "language": "ru",
+          "section": "Сила и энергия землетрясения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "partial/contextual RU support; specialist EN source controls the complete definition",
+        "scope": "RU distinguishes magnitude from observed-effects points; its Richter simplification does not independently support the modern moment-magnitude account or all spatial-intensity details.",
+        "readRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Землетрясения",
+            "url": "https://foxford.ru/wiki/geografiya/zemletryasenuya",
+            "section": "Сила и энергия землетрясения",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No spatial intensity map is provided; site-dependent shaking is contrasted with event magnitude in text."
+    },
+    {
+      "id": "tectonic:Aftershock",
+      "englishTerm": "Aftershock",
+      "russianTerm": "Афтершок",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/11-1-what-is-an-earthquake/",
+          "language": "en",
+          "section": "11.1 Elastic strain, rupture area and aftershocks"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Aftershocks are a time-sequence concept; no event catalogue was fabricated to draw a sequence."
+    },
+    {
+      "id": "tectonic:Tsunami",
+      "englishTerm": "Tsunami",
+      "russianTerm": "Цунами",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "USGS — What are the effects of earthquakes?",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/what-are-effects-earthquakes",
+          "language": "en",
+          "section": "Liquefaction; tsunami"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No water-column displacement and coastal shoaling diagram was implemented; the tsunami definition and earthquake-versus-wave distinction remain textual."
+    },
+    {
+      "id": "tectonic:Liquefaction",
+      "englishTerm": "Liquefaction",
+      "russianTerm": "Разжижение грунта",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "USGS — What are the effects of earthquakes?",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/what-are-effects-earthquakes",
+          "language": "en",
+          "section": "Liquefaction; tsunami"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No pore-pressure/grain-contact diagram was implemented; liquefaction is explained in text, and the earthquake figure is only contextual."
+    },
+    {
+      "id": "tectonic:Magma and lava",
+      "englishTerm": "Magma and lava",
+      "russianTerm": "Магма и лава",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-2-magma-composition-and-eruption-style/",
+          "language": "en",
+          "section": "4.2 Magma composition, viscosity and eruption style"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-3-types-of-volcanoes/",
+          "language": "en",
+          "section": "4.3 Types of volcanoes: composite and shield volcanoes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#volcano"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Viscosity",
+      "englishTerm": "Viscosity",
+      "russianTerm": "Вязкость",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-2-magma-composition-and-eruption-style/",
+          "language": "en",
+          "section": "4.2 Magma composition, viscosity and eruption style"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No rheology or viscosity comparison is plotted; the resistance-to-flow definition and temperature/composition dependence remain verbal."
+    },
+    {
+      "id": "tectonic:Composite or stratovolcano",
+      "englishTerm": "Composite or stratovolcano",
+      "russianTerm": "Стратовулкан",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-3-types-of-volcanoes/",
+          "language": "en",
+          "section": "4.3 Types of volcanoes: composite and shield volcanoes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#volcano"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Shield volcano",
+      "englishTerm": "Shield volcano",
+      "russianTerm": "Щитовой вулкан",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-3-types-of-volcanoes/",
+          "language": "en",
+          "section": "4.3 Types of volcanoes: composite and shield volcanoes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/VolcanoForms.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Fissure",
+      "englishTerm": "Fissure",
+      "russianTerm": "Трещина",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-3-types-of-volcanoes/",
+          "language": "en",
+          "section": "4.3 Types of volcanoes: composite and shield volcanoes"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/3-5-intrusive-igneous-bodies/",
+          "language": "en",
+          "section": "3.5 Tabular intrusions; Figure 3.5.2"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The anatomy diagram has a central vent but does not label a fissure; linear fracture geometry is stated in text."
+    },
+    {
+      "id": "tectonic:Caldera",
+      "englishTerm": "Caldera",
+      "russianTerm": "Кальдера",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-3-types-of-volcanoes/",
+          "language": "en",
+          "section": "4.3 Types of volcanoes: composite and shield volcanoes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/VolcanoForms.tsx"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Vent and crater",
+      "englishTerm": "Vent and crater",
+      "russianTerm": "Жерло и кратер",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/3-5-intrusive-igneous-bodies/",
+          "language": "en",
+          "section": "3.5 Tabular intrusions; Figure 3.5.2"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-3-types-of-volcanoes/",
+          "language": "en",
+          "section": "4.3 Types of volcanoes: composite and shield volcanoes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#volcano"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Dyke and sill",
+      "englishTerm": "Dyke and sill",
+      "russianTerm": "Дайка и силл",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/3-5-intrusive-igneous-bodies/",
+          "language": "en",
+          "section": "3.5 Tabular intrusions; Figure 3.5.2"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#volcano"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Pyroclastic flow",
+      "englishTerm": "Pyroclastic flow",
+      "russianTerm": "Пирокластический поток",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-4-volcanic-hazards/",
+          "language": "en",
+          "section": "4.4 Pyroclastic density currents; lahars"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#volcano"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Lahar",
+      "englishTerm": "Lahar",
+      "russianTerm": "Лахар",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-4-volcanic-hazards/",
+          "language": "en",
+          "section": "4.4 Pyroclastic density currents; lahars"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/modules/geography-tectonics/Visuals.tsx#volcano"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "tectonic:Jökulhlaup",
+      "englishTerm": "Jökulhlaup",
+      "russianTerm": "Йёкюльхлёйп",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "US National Park Service — Jökulhlaups",
+          "url": "https://www.nps.gov/articles/jokulhlaups.htm",
+          "language": "en",
+          "section": "Glacial outburst floods and types of glacier lakes"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/4-4-volcanic-hazards/",
+          "language": "en",
+          "section": "4.4 Pyroclastic density currents; lahars"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "A lahar image cannot stand in for a glacial outburst. No glacier-lake drainage diagram was implemented; triggering and material distinctions are textual."
+    },
+    {
+      "id": "tectonic:Primary and secondary effects",
+      "englishTerm": "Primary and secondary effects",
+      "russianTerm": "Первичные и вторичные последствия",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "UNDRR — Disaster risk",
+          "url": "https://www.undrr.org/terminology/disaster-risk",
+          "language": "en",
+          "section": "Definition and annotation: hazard, exposure, vulnerability and capacity"
+        },
+        {
+          "title": "USGS — What are the effects of earthquakes?",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/what-are-effects-earthquakes",
+          "language": "en",
+          "section": "Liquefaction; tsunami"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The causal primary/secondary distinction uses examples; the risk grid does not depict a causal chain."
+    },
+    {
+      "id": "tectonic:Hazard exposure and vulnerability",
+      "englishTerm": "Hazard exposure and vulnerability",
+      "russianTerm": "Опасность подверженность и уязвимость",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "UNDRR — Hazard",
+          "url": "https://www.undrr.org/terminology/hazard",
+          "language": "en",
+          "section": "Definition and annotation"
+        },
+        {
+          "title": "UNDRR — Exposure",
+          "url": "https://www.undrr.org/terminology/exposure",
+          "language": "en",
+          "section": "Definition and annotation"
+        },
+        {
+          "title": "UNDRR — Vulnerability",
+          "url": "https://www.undrr.org/terminology/vulnerability",
+          "language": "en",
+          "section": "Definition and annotation"
+        },
+        {
+          "title": "UNDRR — Disaster risk",
+          "url": "https://www.undrr.org/terminology/disaster-risk",
+          "language": "en",
+          "section": "Definition and annotation: hazard, exposure, vulnerability and capacity"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "A labelled four-part HTML comparison covers hazard, exposure, vulnerability and capacity; it is counted as a comparison, not an SVG figure."
+    },
+    {
+      "id": "tectonic:Resilience",
+      "englishTerm": "Resilience",
+      "russianTerm": "Устойчивость сообщества",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "UNDRR — Resilience",
+          "url": "https://www.undrr.org/terminology/resilience",
+          "language": "en",
+          "section": "Definition and annotation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The risk grid gives capacity context, not a resilience trajectory. Recovery and adaptation are distinguished verbally."
+    },
+    {
+      "id": "tectonic:Prediction protection preparation",
+      "englishTerm": "Prediction protection preparation",
+      "russianTerm": "Прогнозирование защита подготовка",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "USGS — Can you predict earthquakes?",
+          "url": "https://www.usgs.gov/faqs/can-you-predict-earthquakes",
+          "language": "en",
+          "section": "Prediction requires date/time, location and magnitude; probability versus prediction"
+        },
+        {
+          "title": "UNDRR — Disaster risk",
+          "url": "https://www.undrr.org/terminology/disaster-risk",
+          "language": "en",
+          "section": "Definition and annotation: hazard, exposure, vulnerability and capacity"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Prediction, protection and preparation are separated by function in text; the risk grid is only contextual."
+    },
+    {
+      "id": "tectonic:Retrofit",
+      "englishTerm": "Retrofit",
+      "russianTerm": "Усиление существующего здания",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "University of Waikato — Seismic engineering",
+          "url": "https://www.sciencelearn.org.nz/resources/331-seismic-engineering",
+          "language": "en",
+          "section": "Smarter, not stronger; Base isolation and dampers"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Retrofitting means modifying an existing structure; no single reinforcement geometry represents every intervention, so the before/existing-building distinction is textual."
+    },
+    {
+      "id": "tectonic:Ductility",
+      "englishTerm": "Ductility",
+      "russianTerm": "Пластичность",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "University of Waikato — Seismic engineering",
+          "url": "https://www.sciencelearn.org.nz/resources/331-seismic-engineering",
+          "language": "en",
+          "section": "Smarter, not stronger; Base isolation and dampers"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Ductility is defined by deformation before failure; no material-specific stress–strain curve was invented. The risk grid is not a ductility figure."
+    },
+    {
+      "id": "tectonic:Base isolation",
+      "englishTerm": "Base isolation",
+      "russianTerm": "Сейсмоизоляция",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "University of Waikato — Seismic engineering",
+          "url": "https://www.sciencelearn.org.nz/resources/331-seismic-engineering",
+          "language": "en",
+          "section": "Smarter, not stronger; Base isolation and dampers"
+        },
+        {
+          "title": "University of Waikato — Base isolation and seismic dampers",
+          "url": "https://www.sciencelearn.org.nz/resources/1022-base-isolation-and-seismic-dampers",
+          "language": "en",
+          "section": "The difference between base isolators and seismic dampers"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No building/isolation-layer motion comparison was implemented. Bearings versus dampers are distinguished verbally; the risk grid is not an isolation diagram."
+    },
+    {
+      "id": "tectonic:Evaluate",
+      "englishTerm": "Evaluate",
+      "russianTerm": "Оценить",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Cambridge International Education — Understanding command words",
+          "url": "https://www.cambridgeinternational.org/exam-administration/what-to-expect-on-exams-day/command-words/",
+          "language": "en",
+          "section": "Evaluate; Explain"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This is an examination command requiring judgement, evidenced by written comparison and reasoning rather than spatial geometry."
+    },
+    {
+      "id": "tectonic:Explain",
+      "englishTerm": "Explain",
+      "russianTerm": "Объяснить",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Cambridge International Education — Understanding command words",
+          "url": "https://www.cambridgeinternational.org/exam-administration/what-to-expect-on-exams-day/command-words/",
+          "language": "en",
+          "section": "Evaluate; Explain"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This is an examination command requiring a causal account; written reasoning expresses the task without a decorative diagram."
+    },
+    {
+      "id": "weathering-erosion-deposition",
+      "englishTerm": "Weathering / erosion / deposition",
+      "russianTerm": "Выветривание / эрозия / аккумуляция",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/5-1-mechanical-weathering/",
+          "language": "en",
+          "section": "5.1 Mechanical weathering: frost wedging and roots"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+          "language": "en",
+          "section": "13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/5-2-chemical-weathering/",
+          "language": "en",
+          "section": "5.2 Chemical weathering; dissolution and hydrolysis"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The paragraph distinguishes rock alteration in place from material removal/settling; RiverProcesses illustrates a related erosion contrast but not weathering."
+    },
+    {
+      "id": "hydraulic-radius-discharge",
+      "englishTerm": "Hydraulic radius",
+      "russianTerm": "Гидравлический радиус",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "Wei, Cheng & Lu — Revisiting the concept of hydraulic radius",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0022169423010764",
+          "language": "en",
+          "section": "Introduction, equation (1): R = A/P; definition and limitations"
+        },
+        {
+          "title": "OpenStax — College Physics 2e",
+          "url": "https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity",
+          "language": "en",
+          "section": "12.1 Flow rate and its relation to velocity; equations 12.1–12.3"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The equations and units are explicit, but no wetted-perimeter cross-section diagram was implemented."
+    },
+    {
+      "id": "human-development",
+      "englishTerm": "Human development",
+      "russianTerm": "Человеческое развитие",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "UNDP — What is human development?",
+          "url": "https://hdr.undp.org/about/human-development",
+          "language": "en",
+          "section": "People, opportunities and choice; Measuring human development"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Capabilities and choices cannot be represented by GDP alone; the explanation uses explicit dimensions rather than a single fabricated index."
+    },
+    {
+      "id": "discharge-and-velocity",
+      "englishTerm": "Discharge and velocity",
+      "russianTerm": "Расход и скорость течения",
+      "countingUnit": "distinct grouped named definition entry",
+      "sources": [
+        {
+          "title": "OpenStax — College Physics 2e",
+          "url": "https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity",
+          "language": "en",
+          "section": "12.1 Flow rate and its relation to velocity; equations 12.1–12.3"
+        },
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-2-drainage-basins/",
+          "language": "en",
+          "section": "13.2 Drainage basins; stream gradients"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored RU adaptation of EN sources; no directly supporting RU source cited",
+        "scope": "",
+        "readRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The equation and unit contrast provide the definition. Bradshaw/hydrograph are related graphs, not a cross-section measurement diagram."
+    }
+  ],
+  "unverifiedDefinitions": [],
+  "evidenceLimits": [
+    {
+      "scope": "RU-source independence",
+      "detail": "No claim that all Russian definitions were independently established from Russian-language texts. Exact direct/partial/EN-adaptation classifications are provided per record. A RU-language citation alone does not make the full definition independently RU-supported."
+    },
+    {
+      "scope": "FAO Russian migration",
+      "detail": "Original https://www.fao.org/hunger/ru/ was read earlier (saved receipt) but later returned 404; slashless URL redirected to English. Public citations now use the actually read Russian FAQ. Four dimensions still use the English FAO note."
+    },
+    {
+      "scope": "UN NGO and UN-Water working definition",
+      "detail": "Relevant defining passages were read from web search retrieval of the official pages. Direct NGO opening returned 403 and the first UN-Water infographic URL returned 403; this is not represented as a successful full-page fetch."
+    },
+    {
+      "scope": "Authored examples and explanations",
+      "detail": "Sources establish defining concepts and explicitly recorded processes. Application examples and logic connecting cited concepts are authored teaching explanations; no blanket claim that every example sentence is independently quoted or source-verified."
+    },
+    {
+      "scope": "Visual gaps",
+      "detail": "The exhaustive list includes genuinely useful but unimplemented scatter, catchment, meander, hydraulic-radius and engineering diagrams; nearby illustrations are not miscounted as completing those gaps."
+    }
+  ],
+  "closedSourceGaps": [
+    {
+      "path": "fieldwork.sections.aimHypothesis.detailed.aim.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity",
+          "language": "en"
+        },
+        {
+          "title": "Royal Geographical Society — Rural investigations",
+          "url": "https://www.rgs.org/schools/resources-for-schools/rural-investigations",
+          "section": "Getting started; Aims within an investigation; Considerations and possible limitations",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "fieldwork.sections.aimHypothesis.detailed.hypothesis.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "fieldwork.sections.dataTypes.detailed.primary.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-2-research-methods",
+          "section": "2.2 Research methods: research design; Field Research; Secondary Data Analysis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "fieldwork.sections.dataTypes.detailed.secondary.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-2-research-methods",
+          "section": "2.2 Research methods: research design; Field Research; Secondary Data Analysis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "fieldwork.sections.conclusionsEvaluation.detailed.conclusion.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "fieldwork.sections.conclusionsEvaluation.detailed.evaluation.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "OpenStax — Introductory Statistics 2e",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, sampling, graphs and sampling bias"
+        },
+        {
+          "title": "Royal Geographical Society — Rural investigations",
+          "url": "https://www.rgs.org/schools/resources-for-schools/rural-investigations",
+          "section": "Getting started; Aims within an investigation; Considerations and possible limitations",
+          "language": "en"
+        },
+        {
+          "title": "OpenStax — Introduction to Sociology 3e",
+          "url": "https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research",
+          "section": "2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.players.detailed.ngos.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "United Nations — Civil Society Unit: About us",
+          "url": "https://www.un.org/en/civil-society/page/about-us",
+          "section": "Who We Are: definition and roles of civil society/non-governmental organisations",
+          "language": "en"
+        },
+        {
+          "title": "Oxfam — Voluntourism: cultural exchange or doing development badly?",
+          "url": "https://frompoverty.oxfam.org.uk/voluntourism-cultural-exchange-or-doing-development-badly/",
+          "language": "en",
+          "section": "Local development needs, volunteer skills and accountability"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.players.detailed.businesses.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "OpenStax — Introduction to Business",
+          "url": "https://openstax.org/books/introduction-business/pages/3-8-the-impact-of-multinational-corporations",
+          "section": "3.8 Definition; The Multinational Advantage; cross-border production and operations",
+          "language": "en"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Глобализация",
+          "url": "https://foxford.ru/wiki/geografiya/globalizaciya-ponyatie-o-globalnyh-problemah",
+          "language": "ru",
+          "section": "Глобализация: экономические, политические и культурные связи"
+        },
+        {
+          "title": "United Nations — The 17 Goals",
+          "url": "https://sdgs.un.org/goals",
+          "language": "en",
+          "section": "History; Goals 2, 6, 7, 12 and 17"
+        }
+      ]
+    },
+    {
+      "path": "extrasContent.urbanisation.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "United Nations DESA — World Urbanization Prospects 2018: Highlights",
+          "url": "https://population.un.org/wup/assets/WUP2018-Highlights.pdf#page=5",
+          "section": "What Is Urbanization? (PDF p. 5); Box 2 Sources of urban growth (PDF p. 20)",
+          "language": "en"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Городское население и урбанизация",
+          "url": "https://foxford.ru/wiki/geografiya/gorodskoye-naseleniye-rossii-urbanizatsiya",
+          "language": "ru",
+          "section": "Процесс урбанизации"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.energy.detailed.solar.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Solar explained",
+          "url": "https://www.eia.gov/energyexplained/solar/",
+          "section": "Solar thermal (heat) energy; Solar photovoltaic systems; Benefits and limitations",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.energy.detailed.wind.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Electricity generation from wind",
+          "url": "https://www.eia.gov/energyexplained/wind/electricity-generation-from-wind.php",
+          "section": "How wind turbines work",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.energy.detailed.hydro.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Hydropower explained",
+          "url": "https://www.eia.gov/energyexplained/hydropower/",
+          "section": "Hydropower relies on the water cycle; Hydroelectric power is produced with moving water",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.energy.detailed.geothermal.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Geothermal explained",
+          "url": "https://www.eia.gov/energyexplained/geothermal/",
+          "section": "Opening definition and uses of geothermal heat only; not the simplified Earth-layer account",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.energy.detailed.biofuels.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Biomass explained",
+          "url": "https://www.eia.gov/energyexplained/biomass/",
+          "section": "Biomass—renewable energy from plants and animals; Biomass can be converted to energy in different ways",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.energy.detailed.nuclear.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "US Energy Information Administration — Energy sources",
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+          "language": "en",
+          "section": "Nonrenewable energy; renewable energy"
+        },
+        {
+          "title": "US Energy Information Administration — Nuclear explained",
+          "url": "https://www.eia.gov/energyexplained/nuclear/",
+          "section": "Nuclear fission and nuclear fusion; Nuclear fuel—uranium",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "rivers.sections.flooding.detailed.prolongedRain.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "rivers.sections.flooding.detailed.saturatedGround.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "rivers.sections.flooding.detailed.reliefRock.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "rivers.sections.flooding.detailed.deforestation.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "rivers.sections.flooding.detailed.urbanisation.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
+          "language": "en",
+          "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "rivers.sections.management.detailed.channelStraightening.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
+          "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-2-drainage-basins/",
+          "language": "en",
+          "section": "13.2 Drainage basins; stream gradients"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "rivers.sections.management.detailed.afforestation.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "Environment Agency — Working with Natural Processes: one-page summaries (2017)",
+          "url": "https://assets.publishing.service.gov.uk/media/6036c730d3bf7f0aac939a47/Working_with_natural_processes_one_page_summaries.pdf#page=2",
+          "section": "River Restoration (PDF p. 2); Catchment Woodland (PDF p. 6); process definitions and stated limits, not case statistics",
+          "language": "en"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "rivers.sections.management.detailed.restoration.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "Environment Agency — Working with Natural Processes: one-page summaries (2017)",
+          "url": "https://assets.publishing.service.gov.uk/media/6036c730d3bf7f0aac939a47/Working_with_natural_processes_one_page_summaries.pdf#page=2",
+          "section": "River Restoration (PDF p. 2); Catchment Woodland (PDF p. 6); process definitions and stated limits, not case statistics",
+          "language": "en"
+        },
+        {
+          "title": "USGS — Surface Runoff and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+          "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.foodSecurity.detailed.definition.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "FAO — An Introduction to the Basic Concepts of Food Security",
+          "url": "https://www.fao.org/4/al936e/al936e00.pdf#page=1",
+          "language": "en",
+          "section": "I. Four dimensions; II. Duration; III. Severity; V. Hunger, malnutrition and poverty"
+        },
+        {
+          "title": "ФАО — Часто задаваемые вопросы о доступе к продовольствию",
+          "url": "https://www.fao.org/measuring-hunger/access-to-food/frequently-asked-questions/ru",
+          "section": "Что оценивается / не оценивается с помощью ШВОПБ?; отличие отсутствия продовольственной безопасности от неполноценного питания",
+          "language": "ru"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.foodSecurity.detailed.drivers.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "FAO — An Introduction to the Basic Concepts of Food Security",
+          "url": "https://www.fao.org/4/al936e/al936e00.pdf#page=1",
+          "language": "en",
+          "section": "I. Four dimensions; II. Duration; III. Severity; V. Hunger, malnutrition and poverty"
+        },
+        {
+          "title": "ФАО — Часто задаваемые вопросы о доступе к продовольствию",
+          "url": "https://www.fao.org/measuring-hunger/access-to-food/frequently-asked-questions/ru",
+          "section": "Что оценивается / не оценивается с помощью ШВОПБ?; отличие отсутствия продовольственной безопасности от неполноценного питания",
+          "language": "ru"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.foodSecurity.detailed.solutions.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "FAO — An Introduction to the Basic Concepts of Food Security",
+          "url": "https://www.fao.org/4/al936e/al936e00.pdf#page=1",
+          "language": "en",
+          "section": "I. Four dimensions; II. Duration; III. Severity; V. Hunger, malnutrition and poverty"
+        },
+        {
+          "title": "ФАО — Часто задаваемые вопросы о доступе к продовольствию",
+          "url": "https://www.fao.org/measuring-hunger/access-to-food/frequently-asked-questions/ru",
+          "section": "Что оценивается / не оценивается с помощью ШВОПБ?; отличие отсутствия продовольственной безопасности от неполноценного питания",
+          "language": "ru"
+        }
+      ]
+    },
+    {
+      "path": "resourceReliance.sections.waterStress.detailed.definition.review.sources",
+      "file": "src/i18n/en/geography.json",
+      "issue": "Previous overview section did not directly support all defining details or its RU URL no longer resolved correctly.",
+      "resolution": "Replaced or supplemented with an actually read exact section; primary wording unchanged.",
+      "sources": [
+        {
+          "title": "FAO — SDG indicator 6.4.2",
+          "url": "https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/en",
+          "language": "en",
+          "section": "Level of water stress: freshwater withdrawal relative to resources"
+        },
+        {
+          "title": "ФАО — Показатель ЦУР 6.4.2",
+          "url": "https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/ru",
+          "language": "ru",
+          "section": "Уровень нагрузки на водные ресурсы; экологические потребности"
+        },
+        {
+          "title": "UN-Water — Water Security and the Global Water Agenda",
+          "url": "https://www.unwater.org/publications/water-security-and-global-water-agenda",
+          "section": "Working definition of water security (2013 analytical brief)",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "tectonic.glossary.Evaluate",
+      "issue": "Topic overview was too broad to establish this definition.",
+      "resolution": "Use the exact command/terminology entries read in the closing audit.",
+      "sources": [
+        {
+          "title": "Cambridge International Education — Understanding command words",
+          "url": "https://www.cambridgeinternational.org/exam-administration/what-to-expect-on-exams-day/command-words/",
+          "section": "Evaluate; Explain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "tectonic.glossary.Explain",
+      "issue": "Topic overview was too broad to establish this definition.",
+      "resolution": "Use the exact command/terminology entries read in the closing audit.",
+      "sources": [
+        {
+          "title": "Cambridge International Education — Understanding command words",
+          "url": "https://www.cambridgeinternational.org/exam-administration/what-to-expect-on-exams-day/command-words/",
+          "section": "Evaluate; Explain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "path": "tectonic.glossary.Hazard exposure and vulnerability",
+      "issue": "Topic overview was too broad to establish this definition.",
+      "resolution": "Use the exact command/terminology entries read in the closing audit.",
+      "sources": [
+        {
+          "title": "UNDRR — Hazard",
+          "url": "https://www.undrr.org/terminology/hazard",
+          "language": "en",
+          "section": "Definition and annotation"
+        },
+        {
+          "title": "UNDRR — Exposure",
+          "url": "https://www.undrr.org/terminology/exposure",
+          "language": "en",
+          "section": "Definition and annotation"
+        },
+        {
+          "title": "UNDRR — Vulnerability",
+          "url": "https://www.undrr.org/terminology/vulnerability",
+          "language": "en",
+          "section": "Definition and annotation"
+        },
+        {
+          "title": "UNDRR — Disaster risk",
+          "url": "https://www.undrr.org/terminology/disaster-risk",
+          "language": "en",
+          "section": "Definition and annotation: hazard, exposure, vulnerability and capacity"
+        }
+      ]
+    }
+  ]
+}

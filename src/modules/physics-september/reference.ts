@@ -179,40 +179,46 @@ export const glossary = [
     "Ядро, образовавшееся при радиоактивном распаде исходного, материнского ядра."
   ]
 ];
+export const commandTermSource = {
+  "title": "IB · MYP: From principles into practice (2014; school-hosted copy)",
+  "url": "https://1.cdn.edl.io/32tEJtLWmP3BgLGNPeFKAwnXOC5zZXVDyr61KPQiZMMAX1WK.pdf#page=118",
+  "language": "en",
+  "section": "Appendix 3: MYP command terms, printed pp.108–110 (PDF pp.118–120)"
+};
 export const commandTerms = [
   [
     "State / Identify",
-    "Name the fact or quantity precisely; add units where needed.",
-    "Точно назови факт или величину; укажи единицы, если нужны.",
+    "State: give the requested fact briefly. Identify: select or recognize the relevant item.",
+    "State: кратко сообщи нужный факт. Identify: выбери или распознай нужный объект."
   ],
   [
     "Describe",
     "Say what happens or give the observed pattern.",
-    "Опиши происходящее или наблюдаемую закономерность.",
+    "Опиши происходящее или наблюдаемую закономерность."
   ],
   [
     "Explain",
     "Link a cause or scientific principle to the observation using “because / therefore”.",
-    "Свяжи причину или физический принцип с наблюдением через «потому что / поэтому».",
+    "Свяжи причину или физический принцип с наблюдением через «потому что / поэтому»."
   ],
   [
     "Calculate / Determine",
-    "Show the relationship, substitution, working and a result with units.",
-    "Покажи зависимость, подстановку, действия и результат с единицами.",
+    "Calculate: show the numerical working. Determine: find the uniquely specified result; the method depends on the task.",
+    "Calculate: покажи вычисления. Determine: найди однозначно заданный результат; способ зависит от задачи."
   ],
   [
-    "Compare",
-    "Address both cases using the same features and explicit similarities/differences.",
-    "Сопоставь оба случая по одинаковым признакам, указав сходства и различия.",
+    "Compare / Contrast",
+    "Compare: similarities. Contrast: differences. Compare and contrast: both. Address the same features in both cases.",
+    "Compare: сходства. Contrast: различия. Compare and contrast: и то и другое. Сопоставляй оба случая по одним признакам."
   ],
   [
     "Analyse",
-    "Extract a pattern and connect relevant data to the physical mechanism.",
-    "Выдели закономерность и свяжи данные с физическим механизмом.",
+    "Separate relevant parts and relationships, then use them to interpret the evidence.",
+    "Выдели существенные части и связи, затем используй их для интерпретации данных."
   ],
   [
     "Evaluate / Justify",
-    "Make a judgment supported by evidence, explain limits, and avoid stronger conclusions than the data allow.",
-    "Сделай вывод с опорой на данные, укажи ограничения и не утверждай больше, чем позволяют данные.",
-  ],
+    "Evaluate: weigh strengths and limitations. Justify: support a conclusion with valid reasons or evidence.",
+    "Evaluate: взвесь достоинства и ограничения. Justify: подкрепи вывод убедительными доводами или данными."
+  ]
 ];

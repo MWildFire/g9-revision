@@ -29,7 +29,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/MicroscopyResolution.tsx",
-        "kind": "labelled comparison of magnification and resolution"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Magnification versus resolution only; no TEM/SEM apparatus model."
       },
       "noSeparateVisualReason": null
     },
@@ -56,7 +57,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/MicroscopyResolution.tsx",
-        "kind": "labelled comparison of magnification and resolution"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Magnification versus resolution only; no TEM/SEM apparatus model."
       },
       "noSeparateVisualReason": null
     },
@@ -81,11 +83,8 @@
           "section": "Микроскоп и работа с ним: устройство и порядок работы"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/MicroscopyResolution.tsx",
-        "kind": "labelled comparison of magnification and resolution"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Preparing a slide (light microscope): No slide/coverslip preparation figure is implemented; the steps and precautions are written in order."
     },
     {
       "path": "cells.sections.microscopes.detailed.drawing",
@@ -108,11 +107,8 @@
           "section": "Микроскоп и работа с ним: устройство и порядок работы"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/MicroscopyResolution.tsx",
-        "kind": "labelled comparison of magnification and resolution"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Biological drawings: No specimen-specific biological drawing is supplied; scale calculation and drawing conventions are stated in text."
     },
     {
       "path": "cells.sections.eukaryoticProkaryotic.detailed.prokaryotic",
@@ -135,11 +131,8 @@
           "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Prokaryotic cells (bacteria): No prokaryotic cell or side-by-side compartment comparison is drawn; the existing CellDiagram depicts only typical animal and plant eukaryotic cells."
     },
     {
       "path": "cells.sections.eukaryoticProkaryotic.detailed.comparison",
@@ -162,11 +155,8 @@
           "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Side-by-side comparison: No prokaryotic cell or side-by-side compartment comparison is drawn; the existing CellDiagram depicts only typical animal and plant eukaryotic cells."
     },
     {
       "path": "simulations.cellDiagram",
@@ -191,7 +181,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -218,7 +209,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -245,7 +237,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -272,7 +265,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -299,7 +293,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -332,7 +327,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -359,7 +355,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -386,7 +383,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -413,7 +411,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -440,7 +439,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Location of labelled structures in typical animal/plant eukaryotic cells; not all organisms or molecular mechanisms."
       },
       "noSeparateVisualReason": null
     },
@@ -465,11 +465,8 @@
           "section": "Сердечно-сосудистая система человека: сердце и направление кровотока"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Red blood cell (erythrocyte): No specialised-cell morphology is drawn for this term; the typical-cell simulator must not be counted as showing its adaptations."
     },
     {
       "path": "cells.sections.specialised.detailed.neurone",
@@ -486,11 +483,8 @@
           "section": "35.1 Neurons and Glial Cells: neurons and synapses"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Neurone (nerve cell): No specialised-cell morphology is drawn for this term; the typical-cell simulator must not be counted as showing its adaptations."
     },
     {
       "path": "cells.sections.specialised.detailed.sperm",
@@ -519,11 +513,8 @@
           "section": "Мейоз: общая характеристика, гаметогенез и спорообразование"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Sperm cell (male gamete): No specialised-cell morphology is drawn for this term; the typical-cell simulator must not be counted as showing its adaptations."
     },
     {
       "path": "cells.sections.specialised.detailed.egg",
@@ -552,11 +543,8 @@
           "section": "Мейоз: общая характеристика, гаметогенез и спорообразование"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Egg cell (ovum, female gamete): No specialised-cell morphology is drawn for this term; the typical-cell simulator must not be counted as showing its adaptations."
     },
     {
       "path": "cells.sections.specialised.detailed.root",
@@ -571,13 +559,22 @@
           "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
           "language": "en",
           "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+        },
+        {
+          "title": "OpenStax Biology 2e — 30.3 Roots: root structure",
+          "url": "https://openstax.org/books/biology-2e/pages/30-3-roots",
+          "language": "en",
+          "section": "30.3 Roots: root structure"
+        },
+        {
+          "title": "OpenStax Biology 2e — 30.5 Transport of Water and Solutes in Plants: water potential",
+          "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+          "language": "en",
+          "section": "30.5 Transport of Water and Solutes in Plants: water potential"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Root hair cell (plant): No specialised-cell morphology is drawn for this term; the typical-cell simulator must not be counted as showing its adaptations."
     },
     {
       "path": "cells.sections.specialised.detailed.palisade",
@@ -598,13 +595,16 @@
           "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
           "language": "ru",
           "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+        },
+        {
+          "title": "OpenStax Biology 2e — 30.4 Leaves: mesophyll structure",
+          "url": "https://openstax.org/books/biology-2e/pages/30-4-leaves",
+          "language": "en",
+          "section": "30.4 Leaves: mesophyll structure"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/CellDiagram.tsx",
-        "kind": "interactive labelled typical-cell diagram; text explains exceptions"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Palisade mesophyll cell (plant): No specialised-cell morphology is drawn for this term; the typical-cell simulator must not be counted as showing its adaptations."
     },
     {
       "path": "cells.sections.transport.detailed.diffusion",
@@ -634,7 +634,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Diffusion: No membrane-flux diagram is implemented; the prose states membrane selectivity, gradient direction and energy conditions explicitly."
     },
     {
       "path": "cells.sections.transport.detailed.osmosis",
@@ -661,10 +661,16 @@
           "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
           "language": "ru",
           "section": "Осмос и осморегуляция: перенос воды через мембрану"
+        },
+        {
+          "title": "OpenStax Biology 2e — 30.5 Transport of Water and Solutes in Plants: water potential",
+          "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+          "language": "en",
+          "section": "30.5 Transport of Water and Solutes in Plants: water potential"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Osmosis: No membrane-flux diagram is implemented; the prose states membrane selectivity, gradient direction and energy conditions explicitly."
     },
     {
       "path": "cells.sections.transport.detailed.activeTransport",
@@ -688,7 +694,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Active transport: No membrane-flux diagram is implemented; the prose states membrane selectivity, gradient direction and energy conditions explicitly."
     },
     {
       "path": "cells.sections.transport.detailed.significance",
@@ -718,7 +724,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Significance of diffusion in biology: No membrane-flux diagram is implemented; the prose states membrane selectivity, gradient direction and energy conditions explicitly."
     },
     {
       "path": "simulations.heartDiagram",
@@ -749,7 +755,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/HeartDiagram.tsx",
-        "kind": "interactive chambers and flow"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Four chambers, major vessels and flow direction; not microscopic vessel structure."
       },
       "noSeparateVisualReason": null
     },
@@ -782,7 +789,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/HeartDiagram.tsx",
-        "kind": "interactive chambers and flow"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Four chambers, major vessels and flow direction; not microscopic vessel structure."
       },
       "noSeparateVisualReason": null
     },
@@ -815,7 +823,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/HeartDiagram.tsx",
-        "kind": "interactive chambers and flow"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Four chambers, major vessels and flow direction; not microscopic vessel structure."
       },
       "noSeparateVisualReason": null
     },
@@ -848,7 +857,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/HeartDiagram.tsx",
-        "kind": "interactive chambers and flow"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Four chambers, major vessels and flow direction; not microscopic vessel structure."
       },
       "noSeparateVisualReason": null
     },
@@ -879,11 +889,8 @@
           "section": "Сердечно-сосудистая система человека: сердце и направление кровотока"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/biology/HeartDiagram.tsx",
-        "kind": "interactive chambers and flow"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Blood components: No blood-cell composition figure is implemented; plasma, formed elements and functions are paired in the text."
     },
     {
       "path": "bodySystems.sections.respiratory",
@@ -901,7 +908,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Respiratory system: No respiratory-tree, alveolus or pressure-volume figure is implemented; the heart diagram does not depict ventilation or the diffusion barrier."
     },
     {
       "path": "bodySystems.sections.respiratory.detailed.pathway",
@@ -919,7 +926,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Air pathway: No respiratory-tree, alveolus or pressure-volume figure is implemented; the heart diagram does not depict ventilation or the diffusion barrier."
     },
     {
       "path": "bodySystems.sections.respiratory.detailed.alveoli",
@@ -937,7 +944,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Alveoli — gas exchange surfaces: No respiratory-tree, alveolus or pressure-volume figure is implemented; the heart diagram does not depict ventilation or the diffusion barrier."
     },
     {
       "path": "bodySystems.sections.respiratory.detailed.breathing",
@@ -952,10 +959,16 @@
           "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
           "language": "en",
           "section": "39.1 Systems of Gas Exchange: lungs and alveoli"
+        },
+        {
+          "title": "OpenStax Biology 2e — 39.3 Breathing: mechanics of human breathing",
+          "url": "https://openstax.org/books/biology-2e/pages/39-3-breathing",
+          "language": "en",
+          "section": "39.3 Breathing: mechanics of human breathing"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Breathing mechanism: No respiratory-tree, alveolus or pressure-volume figure is implemented; the heart diagram does not depict ventilation or the diffusion barrier."
     },
     {
       "path": "bodySystems.sections.digestive",
@@ -985,7 +998,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Digestive system: No digestive-tract, villus or enzyme-active-site figure is implemented; ordered organs and the digestion/absorption distinction are stated in text."
     },
     {
       "path": "bodySystems.sections.digestive.detailed.pathway",
@@ -1015,7 +1028,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Digestive tract — the journey: No digestive-tract, villus or enzyme-active-site figure is implemented; ordered organs and the digestion/absorption distinction are stated in text."
     },
     {
       "path": "bodySystems.sections.digestive.detailed.enzymes",
@@ -1045,7 +1058,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Digestive enzymes: No digestive-tract, villus or enzyme-active-site figure is implemented; ordered organs and the digestion/absorption distinction are stated in text."
     },
     {
       "path": "bodySystems.sections.digestive.detailed.absorption",
@@ -1075,7 +1088,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Absorption in the small intestine: No digestive-tract, villus or enzyme-active-site figure is implemented; ordered organs and the digestion/absorption distinction are stated in text."
     },
     {
       "path": "bodySystems.sections.nervous",
@@ -1093,7 +1106,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Nervous system: No dedicated neuron or CNS/PNS anatomy figure is implemented for this record; the separate withdrawal-reflex flow has a narrower scope."
     },
     {
       "path": "bodySystems.sections.nervous.detailed.structure",
@@ -1117,7 +1130,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "CNS vs PNS: No dedicated neuron or CNS/PNS anatomy figure is implemented for this record; the separate withdrawal-reflex flow has a narrower scope."
     },
     {
       "path": "bodySystems.sections.nervous.detailed.neurone",
@@ -1141,7 +1154,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Neurone structure: No dedicated neuron or CNS/PNS anatomy figure is implemented for this record; the separate withdrawal-reflex flow has a narrower scope."
     },
     {
       "path": "bodySystems.sections.nervous.detailed.reflex",
@@ -1167,7 +1180,8 @@
       "visual": {
         "path": "bodySystems.sections.nervous.detailed.reflex.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "flow"
+        "kind": "flow",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     },
@@ -1187,7 +1201,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Nutrition & balanced diet: No nutritional dataset is supplied for a quantitative chart; categories, energy needs and deficiency conditions remain verbal comparisons."
     },
     {
       "path": "bodySystems.sections.nutrition.detailed.groups",
@@ -1205,7 +1219,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "The 7 food groups: No nutritional dataset is supplied for a quantitative chart; categories, energy needs and deficiency conditions remain verbal comparisons."
     },
     {
       "path": "bodySystems.sections.nutrition.detailed.energy",
@@ -1223,7 +1237,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Energy requirements: No nutritional dataset is supplied for a quantitative chart; categories, energy needs and deficiency conditions remain verbal comparisons."
     },
     {
       "path": "bodySystems.sections.nutrition.detailed.deficiency",
@@ -1241,7 +1255,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Malnutrition — overnutrition and undernutrition: No nutritional dataset is supplied for a quantitative chart; categories, energy needs and deficiency conditions remain verbal comparisons."
     },
     {
       "path": "bodySystems.sections.respiration",
@@ -1262,12 +1276,19 @@
           "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
           "language": "ru",
           "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        },
+        {
+          "title": "OpenStax Biology 2e — 7.4 Oxidative Phosphorylation: electron transport and oxygen",
+          "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+          "language": "en",
+          "section": "7.4 Oxidative Phosphorylation: electron transport and oxygen"
         }
       ],
       "visual": {
         "path": "bodySystems.sections.respiration.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "comparison"
+        "kind": "comparison",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     },
@@ -1290,10 +1311,16 @@
           "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
           "language": "ru",
           "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        },
+        {
+          "title": "OpenStax Biology 2e — 7.4 Oxidative Phosphorylation: electron transport and oxygen",
+          "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+          "language": "en",
+          "section": "7.4 Oxidative Phosphorylation: electron transport and oxygen"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Aerobic respiration: No separate metabolic-pathway or exercise-recovery plot is implemented for this detailed record; the overview’s three-path comparison does not depict its reactions or time course."
     },
     {
       "path": "bodySystems.sections.respiration.detailed.anaerobic",
@@ -1317,7 +1344,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Anaerobic respiration: No separate metabolic-pathway or exercise-recovery plot is implemented for this detailed record; the overview’s three-path comparison does not depict its reactions or time course."
     },
     {
       "path": "bodySystems.sections.respiration.detailed.exercise",
@@ -1347,7 +1374,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Body's response to exercise: No separate metabolic-pathway or exercise-recovery plot is implemented for this detailed record; the overview’s three-path comparison does not depict its reactions or time course."
     },
     {
       "path": "bodySystems.sections.respiration.detailed.oxygenDebt",
@@ -1377,7 +1404,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Oxygen debt and recovery: No separate metabolic-pathway or exercise-recovery plot is implemented for this detailed record; the overview’s three-path comparison does not depict its reactions or time course."
     },
     {
       "path": "glossary.terms.cellularRespiration",
@@ -1398,10 +1425,16 @@
           "url": "https://foxford.ru/wiki/biologiya/biologicheskoe-okislenie-anaerobnyy-etap-kletochnogo-dyhaniya",
           "language": "ru",
           "section": "Биологическое окисление: анаэробный этап клеточного дыхания"
+        },
+        {
+          "title": "OpenStax Biology 2e — 7.4 Oxidative Phosphorylation: electron transport and oxygen",
+          "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+          "language": "en",
+          "section": "7.4 Oxidative Phosphorylation: electron transport and oxygen"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "cellularRespiration: The compact glossary renders the definition and support note without a figure. A lesson-level figure, where present, is not counted as rendered on this glossary entry."
     },
     {
       "path": "bodySystems.sections.endocrine",
@@ -1419,7 +1452,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Endocrine (hormonal) system: No gland map, receptor-binding diagram or endocrine feedback graph is implemented; signals, targets and effects are specified in text."
     },
     {
       "path": "bodySystems.sections.endocrine.detailed.comparison",
@@ -1437,7 +1470,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Endocrine vs Nervous — different speeds: No gland map, receptor-binding diagram or endocrine feedback graph is implemented; signals, targets and effects are specified in text."
     },
     {
       "path": "bodySystems.sections.endocrine.detailed.hormones",
@@ -1452,10 +1485,16 @@
           "url": "https://openstax.org/books/biology-2e/pages/37-2-how-hormones-work",
           "language": "en",
           "section": "37.2 How Hormones Work: receptor binding and hormone action"
+        },
+        {
+          "title": "OpenStax Biology 2e — 37.3 Regulation of Body Processes: metabolism, reproduction and stress",
+          "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+          "language": "en",
+          "section": "37.3 Regulation of Body Processes: metabolism, reproduction and stress"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Key hormones: No gland map, receptor-binding diagram or endocrine feedback graph is implemented; signals, targets and effects are specified in text."
     },
     {
       "path": "bodySystems.sections.endocrine.detailed.diabetes",
@@ -1479,7 +1518,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Diabetes — when blood sugar control fails: No gland map, receptor-binding diagram or endocrine feedback graph is implemented; signals, targets and effects are specified in text."
     },
     {
       "path": "extras.homeostasis",
@@ -1494,10 +1533,16 @@
           "url": "https://openstax.org/books/biology-2e/pages/37-2-how-hormones-work",
           "language": "en",
           "section": "37.2 How Hormones Work: receptor binding and hormone action"
+        },
+        {
+          "title": "OpenStax Biology 2e — 33.3 Homeostasis: set points and feedback",
+          "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+          "language": "en",
+          "section": "33.3 Homeostasis: set points and feedback"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Homeostasis: No physiological variable-versus-time trace is supplied; negative feedback and regulated ranges are stated without inventing measurement data."
     },
     {
       "path": "extras.photoDepth",
@@ -1527,7 +1572,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Photosynthesis — deeper: No thylakoid/Calvin-cycle molecular diagram is implemented; the matter/energy overview does not represent intermediate reactions."
     },
     {
       "path": "photosynthesis.sections.process.detailed.equation",
@@ -1559,7 +1604,8 @@
       "visual": {
         "path": "photosynthesis.sections.process.detailed.equation.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "flow"
+        "kind": "flow",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     },
@@ -1591,7 +1637,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Where photosynthesis happens: No leaf cross-section or chloroplast compartment diagram is implemented; the typical-cell chloroplast label does not show thylakoids and stroma."
     },
     {
       "path": "photosynthesis.sections.process.detailed.factors",
@@ -1621,7 +1667,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Limiting factors: No limiting-factor dataset is supplied; the prose explains changing the limiting condition without presenting invented experimental points."
     },
     {
       "path": "photosynthesis.sections.process.detailed.uses",
@@ -1651,7 +1697,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "What plants do with glucose: No separate carbon-allocation flow is implemented; uses and the additional nitrogen requirement are enumerated in text."
     },
     {
       "path": "photosynthesis.sections.process.detailed.experiments",
@@ -1681,7 +1727,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Classic photosynthesis experiments: No apparatus diagram is implemented; the record focuses on what starch/oxygen observations can and cannot infer."
     },
     {
       "path": "glossary.terms.photosynthesis",
@@ -1711,7 +1757,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "photosynthesis: The compact glossary renders the definition and support note without a figure. A lesson-level figure, where present, is not counted as rendered on this glossary entry."
     },
     {
       "path": "photosynthesis.sections.biotech.detailed.definition",
@@ -1735,7 +1781,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "What is genetic engineering?: No single genetic-engineering pipeline can stand for all listed methods; no sequence-edit or vector diagram is implemented, and method differences are explicit in prose."
     },
     {
       "path": "photosynthesis.sections.biotech.detailed.techniques",
@@ -1759,7 +1805,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Key techniques: No single genetic-engineering pipeline can stand for all listed methods; no sequence-edit or vector diagram is implemented, and method differences are explicit in prose."
     },
     {
       "path": "photosynthesis.sections.biotech.detailed.applications",
@@ -1783,7 +1829,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Applications — medicine, agriculture, industry: No single genetic-engineering pipeline can stand for all listed methods; no sequence-edit or vector diagram is implemented, and method differences are explicit in prose."
     },
     {
       "path": "photosynthesis.sections.biotech.detailed.ethics",
@@ -1807,7 +1853,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Ethical and biological concerns: No single genetic-engineering pipeline can stand for all listed methods; no sequence-edit or vector diagram is implemented, and method differences are explicit in prose."
     },
     {
       "path": "ecology.sections.levels",
@@ -1837,7 +1883,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Levels of organisation: No nested organisation figure is implemented; the successive individual/population/community/ecosystem definitions are given in order."
     },
     {
       "path": "ecology.sections.foodChains",
@@ -1869,7 +1915,8 @@
       "visual": {
         "path": "ecology.sections.foodChains.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "flow"
+        "kind": "flow",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     },
@@ -1889,7 +1936,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Carbon cycle: No carbon-reservoir flow diagram is implemented; the named transfers and stores are distinguished in prose."
     },
     {
       "path": "ecology.sections.waterCycle",
@@ -1907,7 +1954,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Water cycle: No water-cycle flow diagram is implemented; phase changes, movements and energy source are described in prose."
     },
     {
       "path": "ecology.sections.humanImpact",
@@ -1937,7 +1984,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Human impacts: No habitat-specific impact map or data series is supplied; mechanisms depend on the example and are explained in text."
     },
     {
       "path": "glossary.terms.ecosystem",
@@ -1967,7 +2014,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "ecosystem: The compact glossary renders the definition and support note without a figure. A lesson-level figure, where present, is not counted as rendered on this glossary entry."
     },
     {
       "path": "glossary.terms.foodWeb",
@@ -1997,7 +2044,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "foodWeb: The compact glossary renders the definition and support note without a figure. A lesson-level figure, where present, is not counted as rendered on this glossary entry."
     },
     {
       "path": "glossary.terms.biodiversity",
@@ -2027,7 +2074,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "biodiversity: The compact glossary renders the definition and support note without a figure. A lesson-level figure, where present, is not counted as rendered on this glossary entry."
     },
     {
       "path": "simulations.punnett",
@@ -2052,7 +2099,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/PunnettSquare.tsx",
-        "kind": "probability table"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "One-locus genotype probability table under the stated model assumptions."
       },
       "noSeparateVisualReason": null
     },
@@ -2075,10 +2123,22 @@
           "url": "https://foxford.ru/wiki/biologiya/pervyy-zakon-mendelya-tipy-vzaimodeystviya-allelnyh-genov",
           "language": "ru",
           "section": "Первый закон Менделя: генотип, фенотип и взаимодействие аллелей"
+        },
+        {
+          "title": "OpenStax Biology 2e — 15.1 The Genetic Code: codons and reading frame",
+          "url": "https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code",
+          "language": "en",
+          "section": "15.1 The Genetic Code: codons and reading frame"
+        },
+        {
+          "title": "OpenStax Biology 2e — 14.6 DNA Repair: mutations",
+          "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+          "language": "en",
+          "section": "14.6 DNA Repair: mutations"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Genetics — mutations and codons: No codon/reading-frame sequence figure is implemented; the triplet and insertion/deletion conditions are explicit in text."
     },
     {
       "path": "genetics.sections.dna",
@@ -2096,7 +2156,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "DNA: No DNA sequence/helix/chromosome diagram is implemented; the molecular, gene and chromosome distinctions are verbal."
     },
     {
       "path": "genetics.sections.mitosis",
@@ -2120,7 +2180,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Mitosis: No stage-by-stage chromosome figure is implemented; one division and chromosome-set preservation are stated in text."
     },
     {
       "path": "genetics.sections.meiosis",
@@ -2146,7 +2206,8 @@
       "visual": {
         "path": "genetics.sections.meiosis.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "flow"
+        "kind": "flow",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     },
@@ -2173,7 +2234,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/biology/PunnettSquare.tsx",
-        "kind": "probability table"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "One-locus genotype probability table under the stated model assumptions."
       },
       "noSeparateVisualReason": null
     },
@@ -2199,7 +2261,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Variation: No measured trait dataset is supplied, so there is no frequency chart; the continuous/discontinuous and genetic/environmental distinctions are verbal."
     },
     {
       "path": "genetics.sections.variation.detailed.sources",
@@ -2223,7 +2285,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Sources of variation: No measured trait dataset is supplied, so there is no frequency chart; the continuous/discontinuous and genetic/environmental distinctions are verbal."
     },
     {
       "path": "genetics.sections.variation.detailed.continuous",
@@ -2247,7 +2309,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Continuous vs discontinuous variation: No measured trait dataset is supplied, so there is no frequency chart; the continuous/discontinuous and genetic/environmental distinctions are verbal."
     },
     {
       "path": "glossary.terms.dna",
@@ -2265,7 +2327,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "dna: The compact glossary renders the definition and support note without a figure. A lesson-level figure, where present, is not counted as rendered on this glossary entry."
     },
     {
       "path": "glossary.terms.mitosis",
@@ -2289,7 +2351,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "mitosis: The compact glossary renders the definition and support note without a figure. A lesson-level figure, where present, is not counted as rendered on this glossary entry."
     },
     {
       "path": "glossary.terms.meiosis",
@@ -2313,7 +2375,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "meiosis: The compact glossary renders the definition and support note without a figure. A lesson-level figure, where present, is not counted as rendered on this glossary entry."
     },
     {
       "path": "genetics.sections.evolution",
@@ -2337,7 +2399,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Evolution by natural selection: No phylogenetic tree, fossil timeline or allele-frequency plot is implemented; the mechanism and its scope are explained without invented data."
     },
     {
       "path": "genetics.sections.evolution.detailed.naturalSelection",
@@ -2361,7 +2423,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Natural selection — 4 steps: No phylogenetic tree, fossil timeline or allele-frequency plot is implemented; the mechanism and its scope are explained without invented data."
     },
     {
       "path": "genetics.sections.evolution.detailed.speciation",
@@ -2382,10 +2444,16 @@
           "url": "https://foxford.ru/wiki/biologiya/estestvennyy-otbor-ego-mehanizmy-i-formy",
           "language": "ru",
           "section": "Естественный отбор: механизмы и формы"
+        },
+        {
+          "title": "OpenStax Biology 2e — 18.2 Formation of New Species: reproductive isolation",
+          "url": "https://openstax.org/books/biology-2e/pages/18-2-formation-of-new-species",
+          "language": "en",
+          "section": "18.2 Formation of New Species: reproductive isolation"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Speciation — how new species form: No phylogenetic tree, fossil timeline or allele-frequency plot is implemented; the mechanism and its scope are explained without invented data."
     },
     {
       "path": "genetics.sections.evolution.detailed.evidence",
@@ -2409,7 +2477,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Evidence for evolution: No phylogenetic tree, fossil timeline or allele-frequency plot is implemented; the mechanism and its scope are explained without invented data."
     },
     {
       "path": "genetics.sections.evolution.detailed.humanEvolution",
@@ -2430,10 +2498,16 @@
           "url": "https://foxford.ru/wiki/biologiya/estestvennyy-otbor-ego-mehanizmy-i-formy",
           "language": "ru",
           "section": "Естественный отбор: механизмы и формы"
+        },
+        {
+          "title": "OpenStax Biology 2e — 29.7 The Evolution of Primates: human evolution",
+          "url": "https://openstax.org/books/biology-2e/pages/29-7-the-evolution-of-primates",
+          "language": "en",
+          "section": "29.7 The Evolution of Primates: human evolution"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Human evolution: No phylogenetic tree, fossil timeline or allele-frequency plot is implemented; the mechanism and its scope are explained without invented data."
     },
     {
       "path": "glossary.terms.evolution",
@@ -2457,7 +2531,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "evolution: No phylogenetic tree, fossil timeline or allele-frequency plot is implemented; the mechanism and its scope are explained without invented data."
     },
     {
       "path": "immune.sections.diseaseTypes.detailed.communicable",
@@ -2493,7 +2567,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Communicable (infectious) diseases: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.diseaseTypes.detailed.nonCommunicable",
@@ -2511,7 +2585,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Non-communicable diseases: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.diseaseTypes.detailed.lifestyle",
@@ -2529,7 +2603,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Lifestyle risk factors: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.diseaseTypes.detailed.global",
@@ -2547,7 +2621,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Global patterns: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.pathogens",
@@ -2574,10 +2648,28 @@
           "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
           "language": "ru",
           "section": "Иммунная система: барьеры и органы иммунной системы"
+        },
+        {
+          "title": "OpenStax Biology 2e — 22.4 Bacterial Diseases in Humans: pathogens",
+          "url": "https://openstax.org/books/biology-2e/pages/22-4-bacterial-diseases-in-humans",
+          "language": "en",
+          "section": "22.4 Bacterial Diseases in Humans: pathogens"
+        },
+        {
+          "title": "OpenStax Biology 2e — 24.4 Fungal Parasites and Pathogens",
+          "url": "https://openstax.org/books/biology-2e/pages/24-4-fungal-parasites-and-pathogens",
+          "language": "en",
+          "section": "24.4 Fungal Parasites and Pathogens"
+        },
+        {
+          "title": "OpenStax Biology 2e — 23.4 Ecology of Protists: pathogenic protists",
+          "url": "https://openstax.org/books/biology-2e/pages/23-4-ecology-of-protists",
+          "language": "en",
+          "section": "23.4 Ecology of Protists: pathogenic protists"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Pathogens — the four types: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.pathogens.detailed.bacteria",
@@ -2604,10 +2696,16 @@
           "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
           "language": "ru",
           "section": "Иммунная система: барьеры и органы иммунной системы"
+        },
+        {
+          "title": "OpenStax Biology 2e — 22.4 Bacterial Diseases in Humans: pathogens",
+          "url": "https://openstax.org/books/biology-2e/pages/22-4-bacterial-diseases-in-humans",
+          "language": "en",
+          "section": "22.4 Bacterial Diseases in Humans: pathogens"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Bacterial pathogens: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.pathogens.detailed.viruses",
@@ -2637,7 +2735,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Viral pathogens: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.pathogens.detailed.fungi",
@@ -2664,10 +2762,16 @@
           "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
           "language": "ru",
           "section": "Иммунная система: барьеры и органы иммунной системы"
+        },
+        {
+          "title": "OpenStax Biology 2e — 24.4 Fungal Parasites and Pathogens",
+          "url": "https://openstax.org/books/biology-2e/pages/24-4-fungal-parasites-and-pathogens",
+          "language": "en",
+          "section": "24.4 Fungal Parasites and Pathogens"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Fungal pathogens: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.pathogens.detailed.protists",
@@ -2694,10 +2798,16 @@
           "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
           "language": "ru",
           "section": "Иммунная система: барьеры и органы иммунной системы"
+        },
+        {
+          "title": "OpenStax Biology 2e — 23.4 Ecology of Protists: pathogenic protists",
+          "url": "https://openstax.org/books/biology-2e/pages/23-4-ecology-of-protists",
+          "language": "en",
+          "section": "23.4 Ecology of Protists: pathogenic protists"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Protist pathogens: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.barriers",
@@ -2721,7 +2831,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Non-specific defences: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.immuneResponse",
@@ -2751,7 +2861,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Immune response (specific): No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.vaccination",
@@ -2778,10 +2888,16 @@
           "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
           "language": "ru",
           "section": "Иммунная система: барьеры и органы иммунной системы"
+        },
+        {
+          "title": "WHO — How do vaccines work?",
+          "url": "https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work",
+          "language": "en",
+          "section": "How vaccines help fight disease; immune memory"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Vaccination: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "immune.sections.antibiotics",
@@ -2805,7 +2921,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Antibiotics: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "glossary.terms.immuneSystem",
@@ -2835,7 +2951,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "immuneSystem: No immune-cell interaction map or pathogen micrograph is implemented; taxonomy, specificity and mechanisms are distinguished in text."
     },
     {
       "path": "experiment.sections.hypothesis",
@@ -2853,7 +2969,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Hypothesis: This is an experimental-reasoning procedure, not an anatomical structure. Ordered steps and concrete variables carry the definition; no decorative process graphic is added."
     },
     {
       "path": "experiment.sections.method",
@@ -2871,7 +2987,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Method: This is an experimental-reasoning procedure, not an anatomical structure. Ordered steps and concrete variables carry the definition; no decorative process graphic is added."
     },
     {
       "path": "experiment.sections.data",
@@ -2889,7 +3005,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Data collection and analysis: This is an experimental-reasoning procedure, not an anatomical structure. Ordered steps and concrete variables carry the definition; no decorative process graphic is added."
     },
     {
       "path": "experiment.sections.evaluation",
@@ -2907,7 +3023,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Evaluation: This is an experimental-reasoning procedure, not an anatomical structure. Ordered steps and concrete variables carry the definition; no decorative process graphic is added."
     }
   ]
 }

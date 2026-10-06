@@ -1,0 +1,2722 @@
+{
+  "subject": "Mathematics Term 1",
+  "counts": {
+    "definitionOccurrences": 107,
+    "uniqueConcepts": 106,
+    "conceptsWithAttachedDiagram": 42,
+    "conceptsWithoutAttachedDiagram": 64,
+    "distinctDiagramKinds": 10,
+    "diagramBearingDefinitionOccurrences": 43,
+    "renderedLessonFigureInstances": 12,
+    "independentlyCheckedRussianConcepts": 16,
+    "russianAuthoredAdaptationsFromEnglishSources": 90,
+    "sourceSections": 48,
+    "russianSourceSections": 8
+  },
+  "countingNotes": [
+    "All English and Russian definitions, examples and distinctions are authored. Independent Russian checking means the exact listed Russian educational source was checked for that concept; it does not turn our wording into a quotation. The90 adaptation entries have only English source support and are labelled accordingly.",
+    "42 is a count of unique concepts with a diagram link, not42 unique SVG designs. Ten shared semantic figures serve those concepts. The64 exclusion reasons describe current implementation and do not assert that another diagram could never help. Textual sign examples are not counted as rendered figures.",
+    "The sole repeated concept is Intersection; 107 occurrences represent 106 distinct concepts."
+  ],
+  "records": [
+    {
+      "id": "Fraction",
+      "englishTerm": "Fraction",
+      "russianTerm": "Дробь",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 4.1 · Model fractions; numerator and denominator",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "language": "en",
+          "section": "4.1 · Model fractions; numerator and denominator"
+        },
+        {
+          "title": "Фоксфорд · Дроби · числитель, знаменатель; отличие дроби от доли",
+          "url": "https://foxford.ru/wiki/matematika/drobi",
+          "language": "ru",
+          "section": "Дроби · числитель, знаменатель; отличие дроби от доли"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/drobi"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "fraction",
+          "scope": "Equal-part strip labels numerator, denominator and the selected share; it is a model for positive parts of one whole, not every fraction."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Numerator",
+      "englishTerm": "Numerator",
+      "russianTerm": "Числитель",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 4.1 · Model fractions; numerator and denominator",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "language": "en",
+          "section": "4.1 · Model fractions; numerator and denominator"
+        },
+        {
+          "title": "Фоксфорд · Дроби · числитель, знаменатель; отличие дроби от доли",
+          "url": "https://foxford.ru/wiki/matematika/drobi",
+          "language": "ru",
+          "section": "Дроби · числитель, знаменатель; отличие дроби от доли"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/drobi"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "fraction",
+          "scope": "Equal-part strip labels numerator, denominator and the selected share; it is a model for positive parts of one whole, not every fraction."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Denominator",
+      "englishTerm": "Denominator",
+      "russianTerm": "Знаменатель",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 4.1 · Model fractions; numerator and denominator",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "language": "en",
+          "section": "4.1 · Model fractions; numerator and denominator"
+        },
+        {
+          "title": "Фоксфорд · Дроби · числитель, знаменатель; отличие дроби от доли",
+          "url": "https://foxford.ru/wiki/matematika/drobi",
+          "language": "ru",
+          "section": "Дроби · числитель, знаменатель; отличие дроби от доли"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/drobi"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "fraction",
+          "scope": "Equal-part strip labels numerator, denominator and the selected share; it is a model for positive parts of one whole, not every fraction."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Expression",
+      "englishTerm": "Expression",
+      "russianTerm": "Выражение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.2 · Variables, expressions, equations; identify and combine like terms",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 · Variables, expressions, equations; identify and combine like terms"
+        },
+        {
+          "title": "Фоксфорд · Алгебраические выражения · Что такое алгебраические выражения",
+          "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+          "language": "ru",
+          "section": "Алгебраические выражения · Что такое алгебраические выражения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "algebra",
+          "scope": "Labelled expression/equation comparison identifies additive terms, multiplicative factors, variable, coefficient and constant."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Term",
+      "englishTerm": "Term",
+      "russianTerm": "Слагаемое выражения",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.2 · Variables, expressions, equations; identify and combine like terms",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 · Variables, expressions, equations; identify and combine like terms"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "algebra",
+          "scope": "Labelled expression/equation comparison identifies additive terms, multiplicative factors, variable, coefficient and constant."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Factor",
+      "englishTerm": "Factor",
+      "russianTerm": "Множитель",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.5 · Factoring, completing the square and discriminant",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 · Factoring, completing the square and discriminant"
+        },
+        {
+          "title": "OpenStax · 7.1 · Rational expressions; excluded values and cancelling factors",
+          "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-1-multiply-and-divide-rational-expressions",
+          "language": "en",
+          "section": "7.1 · Rational expressions; excluded values and cancelling factors"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "algebra",
+          "scope": "Labelled expression/equation comparison identifies additive terms, multiplicative factors, variable, coefficient and constant."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Variable",
+      "englishTerm": "Variable",
+      "russianTerm": "Переменная",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.2 · Variables, expressions, equations; identify and combine like terms",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 · Variables, expressions, equations; identify and combine like terms"
+        },
+        {
+          "title": "Фоксфорд · Алгебраические выражения · Что такое алгебраические выражения",
+          "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+          "language": "ru",
+          "section": "Алгебраические выражения · Что такое алгебраические выражения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "algebra",
+          "scope": "Labelled expression/equation comparison identifies additive terms, multiplicative factors, variable, coefficient and constant."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Coefficient",
+      "englishTerm": "Coefficient",
+      "russianTerm": "Коэффициент",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.2 · Variables, expressions, equations; identify and combine like terms",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 · Variables, expressions, equations; identify and combine like terms"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "algebra",
+          "scope": "Labelled expression/equation comparison identifies additive terms, multiplicative factors, variable, coefficient and constant."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Constant",
+      "englishTerm": "Constant",
+      "russianTerm": "Постоянная величина; константа",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.2 · Variables, expressions, equations; identify and combine like terms",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 · Variables, expressions, equations; identify and combine like terms"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "algebra",
+          "scope": "Labelled expression/equation comparison identifies additive terms, multiplicative factors, variable, coefficient and constant."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Substitute",
+      "englishTerm": "Substitute",
+      "russianTerm": "Подставить",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.2 · Variables, expressions, equations; identify and combine like terms",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 · Variables, expressions, equations; identify and combine like terms"
+        },
+        {
+          "title": "Фоксфорд · Алгебраические выражения · Что такое алгебраические выражения",
+          "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+          "language": "ru",
+          "section": "Алгебраические выражения · Что такое алгебраические выражения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The worked replacement x = -3 includes brackets and evaluates each operation; the operation is demonstrated symbolically rather than by a spatial object."
+    },
+    {
+      "id": "Expand",
+      "englishTerm": "Expand",
+      "russianTerm": "Раскрыть скобки",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.9 · Simplify expressions using the distributive property",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-9-properties-of-real-numbers",
+          "language": "en",
+          "section": "1.9 · Simplify expressions using the distributive property"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The worked distributive expansion shows all products and signs. No separate arrows/area model is attached to this procedural definition."
+    },
+    {
+      "id": "Like terms",
+      "englishTerm": "Like terms",
+      "russianTerm": "Подобные слагаемые",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.2 · Variables, expressions, equations; identify and combine like terms",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 · Variables, expressions, equations; identify and combine like terms"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example combines matching ab terms and contrasts a with a squared; matching symbolic variable parts is the instructional focus."
+    },
+    {
+      "id": "Equation",
+      "englishTerm": "Equation",
+      "russianTerm": "Уравнение; равенство",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.2 · Linear equations; equivalent equations",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 · Linear equations; equivalent equations"
+        },
+        {
+          "title": "Фоксфорд · Понятие уравнения · определения уравнения и корня",
+          "url": "https://foxford.ru/wiki/matematika/ponyatiye-uravneniya",
+          "language": "ru",
+          "section": "Понятие уравнения · определения уравнения и корня"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/ponyatiye-uravneniya"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "algebra",
+          "scope": "Labelled expression/equation comparison identifies additive terms, multiplicative factors, variable, coefficient and constant."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Equivalent",
+      "englishTerm": "Equivalent",
+      "russianTerm": "Равносильный; тождественно равный",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.2 · Linear equations; equivalent equations",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 · Linear equations; equivalent equations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Two equations with the same root and two equal-valued expressions are compared in symbols; a fixed graph would not show every domain caveat."
+    },
+    {
+      "id": "Linear equation",
+      "englishTerm": "Linear equation",
+      "russianTerm": "Линейное уравнение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.2 · Linear equations; equivalent equations",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 · Linear equations; equivalent equations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example reduces a bracketed equation to a first-degree form and contrasts higher-degree/product terms. No separate straight-line plot is attached."
+    },
+    {
+      "id": "Solution",
+      "englishTerm": "Solution",
+      "russianTerm": "Решение; корень уравнения",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.2 · Linear equations; equivalent equations",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 · Linear equations; equivalent equations"
+        },
+        {
+          "title": "Фоксфорд · Понятие уравнения · определения уравнения и корня",
+          "url": "https://foxford.ru/wiki/matematika/ponyatiye-uravneniya",
+          "language": "ru",
+          "section": "Понятие уравнения · определения уравнения и корня"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/ponyatiye-uravneniya"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Substitution into both sides checks the proposed value directly; no extra graph is needed for this numerical check."
+    },
+    {
+      "id": "Inverse operation",
+      "englishTerm": "Inverse operation",
+      "russianTerm": "Обратное действие",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.2 · Linear equations; equivalent equations",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 · Linear equations; equivalent equations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The worked undoing sequence shows which operation reverses each step, with qualifications about restrictions."
+    },
+    {
+      "id": "Subject of a formula",
+      "englishTerm": "Subject of a formula",
+      "russianTerm": "Выражаемая переменная формулы",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.2 · Linear equations; equivalent equations",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 · Linear equations; equivalent equations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The rearrangement isolates a named variable in symbols; the key distinction is algebraic isolation, not a spatial relationship."
+    },
+    {
+      "id": "Inequality",
+      "englishTerm": "Inequality",
+      "russianTerm": "Неравенство",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.7 · Linear and compound inequalities; interval notation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+          "language": "en",
+          "section": "2.7 · Linear and compound inequalities; interval notation"
+        },
+        {
+          "title": "Фоксфорд · Числовые неравенства и их свойства · свойства преобразований",
+          "url": "https://foxford.ru/wiki/matematika/chislovyye-neravenstva-ikh-svoystva",
+          "language": "ru",
+          "section": "Числовые неравенства и их свойства · свойства преобразований"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/chislovyye-neravenstva-ikh-svoystva"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "inequality",
+          "scope": "An open point and rightward number-line ray encode a strict inequality; accompanying definition text explains inclusion separately."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Linear inequality",
+      "englishTerm": "Linear inequality",
+      "russianTerm": "Линейное неравенство",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.7 · Linear and compound inequalities; interval notation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+          "language": "en",
+          "section": "2.7 · Linear and compound inequalities; interval notation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "inequality",
+          "scope": "An open point and rightward number-line ray encode a strict inequality; accompanying definition text explains inclusion separately."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Strict inequality",
+      "englishTerm": "Strict inequality",
+      "russianTerm": "Строгое неравенство",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.7 · Linear and compound inequalities; interval notation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+          "language": "en",
+          "section": "2.7 · Linear and compound inequalities; interval notation"
+        },
+        {
+          "title": "Фоксфорд · Числовые неравенства и их свойства · свойства преобразований",
+          "url": "https://foxford.ru/wiki/matematika/chislovyye-neravenstva-ikh-svoystva",
+          "language": "ru",
+          "section": "Числовые неравенства и их свойства · свойства преобразований"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/chislovyye-neravenstva-ikh-svoystva"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "inequality",
+          "scope": "An open point and rightward number-line ray encode a strict inequality; accompanying definition text explains inclusion separately."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Inclusive inequality",
+      "englishTerm": "Inclusive inequality",
+      "russianTerm": "Нестрогое неравенство",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.7 · Linear and compound inequalities; interval notation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+          "language": "en",
+          "section": "2.7 · Linear and compound inequalities; interval notation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "inequality",
+          "scope": "An open point and rightward number-line ray encode a strict inequality; accompanying definition text explains inclusion separately."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Solution set",
+      "englishTerm": "Solution set",
+      "russianTerm": "Множество решений",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.7 · Linear and compound inequalities; interval notation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+          "language": "en",
+          "section": "2.7 · Linear and compound inequalities; interval notation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The interval example explicitly contrasts real and integer domains; its collection notation is given without a separate number-line illustration."
+    },
+    {
+      "id": "Compound inequality",
+      "englishTerm": "Compound inequality",
+      "russianTerm": "Составное неравенство",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.7 · Linear and compound inequalities; interval notation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+          "language": "en",
+          "section": "2.7 · Linear and compound inequalities; interval notation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example combines conditions with and/or in symbols; no additional compound number-line figure is attached."
+    },
+    {
+      "id": "Generalisation",
+      "englishTerm": "Generalisation",
+      "russianTerm": "Обобщение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "Oscar Levin · Mathematical Statements",
+          "url": "https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html",
+          "language": "en",
+          "section": "0.2 · Predicates and quantifiers"
+        },
+        {
+          "title": "Oscar Levin · Discrete Mathematics: An Open Introduction",
+          "url": "https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html",
+          "language": "en",
+          "section": "3.2 · Direct proof; proof by (counter) example"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "A quantified statement and its domain explain the general claim; a few pictured cases alone could not establish it."
+    },
+    {
+      "id": "Conjecture",
+      "englishTerm": "Conjecture",
+      "russianTerm": "Гипотеза",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "Oscar Levin · Mathematical Statements",
+          "url": "https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html",
+          "language": "en",
+          "section": "0.2 · Predicates and quantifiers"
+        },
+        {
+          "title": "Oscar Levin · Discrete Mathematics: An Open Introduction",
+          "url": "https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html",
+          "language": "en",
+          "section": "3.2 · Direct proof; proof by (counter) example"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The observed pattern and provisional claim are stated explicitly; a diagram is not presented as proof of the conjecture."
+    },
+    {
+      "id": "Proof",
+      "englishTerm": "Proof",
+      "russianTerm": "Доказательство",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "Oscar Levin · Mathematical Statements",
+          "url": "https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html",
+          "language": "en",
+          "section": "0.2 · Predicates and quantifiers"
+        },
+        {
+          "title": "Oscar Levin · Discrete Mathematics: An Open Introduction",
+          "url": "https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html",
+          "language": "en",
+          "section": "3.2 · Direct proof; proof by (counter) example"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The algebraic argument is the evidence of the universal claim; no example picture is substituted for the chain of reasoning."
+    },
+    {
+      "id": "Counterexample",
+      "englishTerm": "Counterexample",
+      "russianTerm": "Контрпример",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "Oscar Levin · Mathematical Statements",
+          "url": "https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html",
+          "language": "en",
+          "section": "0.2 · Predicates and quantifiers"
+        },
+        {
+          "title": "Oscar Levin · Discrete Mathematics: An Open Introduction",
+          "url": "https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html",
+          "language": "en",
+          "section": "3.2 · Direct proof; proof by (counter) example"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "One explicit case contradicts the universal statement. The contradiction is checkable directly without a figure."
+    },
+    {
+      "id": "Integer",
+      "englishTerm": "Integer",
+      "russianTerm": "Целое число",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.1 · Integers and the number line",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
+          "language": "en",
+          "section": "3.1 · Integers and the number line"
+        },
+        {
+          "title": "OpenStax · 9.1 · Explicit and recursive sequence definitions",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/9-1-sequences-and-their-notations",
+          "language": "en",
+          "section": "9.1 · Explicit and recursive sequence definitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The definition lists positive, negative and zero examples and excludes non-integers; no dedicated integer number line is attached."
+    },
+    {
+      "id": "Consecutive",
+      "englishTerm": "Consecutive",
+      "russianTerm": "Последовательные; соседние",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.1 · Integers and the number line",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
+          "language": "en",
+          "section": "3.1 · Integers and the number line"
+        },
+        {
+          "title": "OpenStax · 9.1 · Explicit and recursive sequence definitions",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/9-1-sequences-and-their-notations",
+          "language": "en",
+          "section": "9.1 · Explicit and recursive sequence definitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The examples use n and n+1 and distinguish consecutive odd/even terms; adjacency is conveyed by the symbolic step."
+    },
+    {
+      "id": "Coordinate",
+      "englishTerm": "Coordinate",
+      "russianTerm": "Координата",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.1 · Coordinates, intercepts, distance and midpoint",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+          "language": "en",
+          "section": "2.1 · Coordinates, intercepts, distance and midpoint"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "coordinate",
+          "scope": "Equal-scale axes label the two points, horizontal/vertical change, midpoint and distance triangle."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Midpoint",
+      "englishTerm": "Midpoint",
+      "russianTerm": "Середина отрезка",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.1 · Coordinates, intercepts, distance and midpoint",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+          "language": "en",
+          "section": "2.1 · Coordinates, intercepts, distance and midpoint"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "coordinate",
+          "scope": "Equal-scale axes label the two points, horizontal/vertical change, midpoint and distance triangle."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Distance formula",
+      "englishTerm": "Distance formula",
+      "russianTerm": "Формула расстояния",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.1 · Coordinates, intercepts, distance and midpoint",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+          "language": "en",
+          "section": "2.1 · Coordinates, intercepts, distance and midpoint"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "coordinate",
+          "scope": "Equal-scale axes label the two points, horizontal/vertical change, midpoint and distance triangle."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Intercept",
+      "englishTerm": "Intercept",
+      "russianTerm": "Пересечение с осью",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.1 · Coordinates, intercepts, distance and midpoint",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+          "language": "en",
+          "section": "2.1 · Coordinates, intercepts, distance and midpoint"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example uses the zero-coordinate test to locate intercepts. A separate intercept diagram is not attached to this term."
+    },
+    {
+      "id": "Gradient / slope",
+      "englishTerm": "Gradient / slope",
+      "russianTerm": "Угловой коэффициент; наклон",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 4.1 · Slope; parallel and perpendicular lines",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/4-1-linear-functions",
+          "language": "en",
+          "section": "4.1 · Slope; parallel and perpendicular lines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "coordinate",
+          "scope": "Equal-scale axes label the two points, horizontal/vertical change, midpoint and distance triangle."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Undefined gradient",
+      "englishTerm": "Undefined gradient",
+      "russianTerm": "Неопределённый угловой коэффициент",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 4.1 · Slope; parallel and perpendicular lines",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/4-1-linear-functions",
+          "language": "en",
+          "section": "4.1 · Slope; parallel and perpendicular lines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example has zero horizontal change, making the slope quotient undefined; no dedicated vertical-line figure is attached."
+    },
+    {
+      "id": "Perpendicular lines",
+      "englishTerm": "Perpendicular lines",
+      "russianTerm": "Перпендикулярные прямые",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 4.1 · Slope; parallel and perpendicular lines",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/4-1-linear-functions",
+          "language": "en",
+          "section": "4.1 · Slope; parallel and perpendicular lines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The slope-product condition and horizontal/vertical exception are explained algebraically; no right-angle line-pair figure is attached."
+    },
+    {
+      "id": "Negative reciprocal",
+      "englishTerm": "Negative reciprocal",
+      "russianTerm": "Число, противоположное обратному",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 4.1 · Slope; parallel and perpendicular lines",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/4-1-linear-functions",
+          "language": "en",
+          "section": "4.1 · Slope; parallel and perpendicular lines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The reciprocal/sign calculation is shown numerically; a figure would depict one use rather than define the arithmetic operation."
+    },
+    {
+      "id": "Parallel lines",
+      "englishTerm": "Parallel lines",
+      "russianTerm": "Параллельные прямые",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 4.1 · Slope; parallel and perpendicular lines",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/4-1-linear-functions",
+          "language": "en",
+          "section": "4.1 · Slope; parallel and perpendicular lines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Equal slopes with distinct intercepts and the vertical-line case are stated; no dedicated pair-of-lines illustration is attached."
+    },
+    {
+      "id": "Simultaneous equations",
+      "englishTerm": "Simultaneous equations",
+      "russianTerm": "Система уравнений",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.1 · Substitution and addition methods; solution of a system",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/7-1-systems-of-linear-equations-two-variables",
+          "language": "en",
+          "section": "7.1 · Substitution and addition methods; solution of a system"
+        },
+        {
+          "title": "Фоксфорд · Системы двух линейных уравнений с двумя неизвестными · определение решения системы",
+          "url": "https://foxford.ru/wiki/matematika/sistemy-dvuh-lineynyh-uravneniy-s-dvumya-neizvestnymi",
+          "language": "ru",
+          "section": "Системы двух линейных уравнений с двумя неизвестными · определение решения системы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/sistemy-dvuh-lineynyh-uravneniy-s-dvumya-neizvestnymi"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example requires one ordered pair to satisfy both equations; no separate intersection graph is attached."
+    },
+    {
+      "id": "Elimination",
+      "englishTerm": "Elimination",
+      "russianTerm": "Метод сложения; исключение переменной",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.1 · Substitution and addition methods; solution of a system",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/7-1-systems-of-linear-equations-two-variables",
+          "language": "en",
+          "section": "7.1 · Substitution and addition methods; solution of a system"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The written equation operations show how one variable cancels; each complete equation operation matters more than a picture."
+    },
+    {
+      "id": "Substitution method",
+      "englishTerm": "Substitution method",
+      "russianTerm": "Метод подстановки",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.1 · Substitution and addition methods; solution of a system",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/7-1-systems-of-linear-equations-two-variables",
+          "language": "en",
+          "section": "7.1 · Substitution and addition methods; solution of a system"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The worked replacement transfers an equal expression between equations; no separate flow diagram is attached."
+    },
+    {
+      "id": "Intersection",
+      "englishTerm": "Intersection",
+      "russianTerm": "Пересечение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.4 · Union, intersection, complement and disjoint sets",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets",
+          "language": "en",
+          "section": "1.4 · Union, intersection, complement and disjoint sets"
+        },
+        {
+          "title": "Фоксфорд · Операции над множествами · пересечение, объединение и разность",
+          "url": "https://foxford.ru/wiki/matematika/operatsii-nad-mnozhestvami",
+          "language": "ru",
+          "section": "Операции над множествами · пересечение, объединение и разность"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/operatsii-nad-mnozhestvami"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "venn",
+          "scope": "Labelled universe rectangle and overlapping sets encode membership operations; controls select intersection, union, only-A and neither."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Union",
+      "englishTerm": "Union",
+      "russianTerm": "Объединение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.4 · Union, intersection, complement and disjoint sets",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets",
+          "language": "en",
+          "section": "1.4 · Union, intersection, complement and disjoint sets"
+        },
+        {
+          "title": "Фоксфорд · Операции над множествами · пересечение, объединение и разность",
+          "url": "https://foxford.ru/wiki/matematika/operatsii-nad-mnozhestvami",
+          "language": "ru",
+          "section": "Операции над множествами · пересечение, объединение и разность"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/operatsii-nad-mnozhestvami"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "venn",
+          "scope": "Labelled universe rectangle and overlapping sets encode membership operations; controls select intersection, union, only-A and neither."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Complement",
+      "englishTerm": "Complement",
+      "russianTerm": "Дополнение множества",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.4 · Union, intersection, complement and disjoint sets",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets",
+          "language": "en",
+          "section": "1.4 · Union, intersection, complement and disjoint sets"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "venn",
+          "scope": "Labelled universe rectangle and overlapping sets encode membership operations; controls select intersection, union, only-A and neither."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Disjoint sets",
+      "englishTerm": "Disjoint sets",
+      "russianTerm": "Непересекающиеся множества",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.4 · Union, intersection, complement and disjoint sets",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets",
+          "language": "en",
+          "section": "1.4 · Union, intersection, complement and disjoint sets"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The empty-intersection example directly expresses no shared members; the shared Venn figure demonstrates operations but is not attached to this separate case."
+    },
+    {
+      "id": "Set",
+      "englishTerm": "Set",
+      "russianTerm": "Множество",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.1 · Sets, elements, empty set and cardinality",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+          "language": "en",
+          "section": "1.1 · Sets, elements, empty set and cardinality"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Membership is specified by an explicit collection and well-defined rule; no separate enclosing-set illustration is attached."
+    },
+    {
+      "id": "Element / member",
+      "englishTerm": "Element / member",
+      "russianTerm": "Элемент множества",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.1 · Sets, elements, empty set and cardinality",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+          "language": "en",
+          "section": "1.1 · Sets, elements, empty set and cardinality"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The membership and non-membership symbols distinguish an object from a subset directly."
+    },
+    {
+      "id": "Universal set",
+      "englishTerm": "Universal set",
+      "russianTerm": "Универсальное множество",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.4 · Union, intersection, complement and disjoint sets",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets",
+          "language": "en",
+          "section": "1.4 · Union, intersection, complement and disjoint sets"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "venn",
+          "scope": "Labelled universe rectangle and overlapping sets encode membership operations; controls select intersection, union, only-A and neither."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Empty set",
+      "englishTerm": "Empty set",
+      "russianTerm": "Пустое множество",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.1 · Sets, elements, empty set and cardinality",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+          "language": "en",
+          "section": "1.1 · Sets, elements, empty set and cardinality"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example contrasts no members with a singleton containing zero; a blank circle alone would not show that distinction as clearly as notation."
+    },
+    {
+      "id": "Cardinality",
+      "englishTerm": "Cardinality",
+      "russianTerm": "Мощность множества",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.1 · Sets, elements, empty set and cardinality",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+          "language": "en",
+          "section": "1.1 · Sets, elements, empty set and cardinality"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Counting the distinct listed members demonstrates size, with duplicate entries not counted again."
+    },
+    {
+      "id": "Subset",
+      "englishTerm": "Subset",
+      "russianTerm": "Подмножество",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 1.2 · Subsets and proper subsets",
+          "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets",
+          "language": "en",
+          "section": "1.2 · Subsets and proper subsets"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The membership inclusion example and proper-subset distinction are written directly; no nested-circle diagram is attached."
+    },
+    {
+      "id": "Function",
+      "englishTerm": "Function",
+      "russianTerm": "Функция",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.1 · Functions, mappings and vertical line test",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/3-1-functions-and-function-notation",
+          "language": "en",
+          "section": "3.1 · Functions, mappings and vertical line test"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "function",
+          "scope": "Input/output arrows distinguish unique output per input, domain/range and shared outputs."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Mapping",
+      "englishTerm": "Mapping",
+      "russianTerm": "Отображение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.1 · Functions, mappings and vertical line test",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/3-1-functions-and-function-notation",
+          "language": "en",
+          "section": "3.1 · Functions, mappings and vertical line test"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "function",
+          "scope": "Input/output arrows distinguish unique output per input, domain/range and shared outputs."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Vertical line test",
+      "englishTerm": "Vertical line test",
+      "russianTerm": "Проверка вертикальной прямой",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.1 · Functions, mappings and vertical line test",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/3-1-functions-and-function-notation",
+          "language": "en",
+          "section": "3.1 · Functions, mappings and vertical line test"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The test and a counterexample are explained verbally/algebraically; the function mapping diagram is present for other concepts but no vertical-line plot is attached here."
+    },
+    {
+      "id": "One-to-one / many-to-one",
+      "englishTerm": "One-to-one / many-to-one",
+      "russianTerm": "Инъективная функция / функция с совпадающими значениями",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.1 · Functions, mappings and vertical line test",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/3-1-functions-and-function-notation",
+          "language": "en",
+          "section": "3.1 · Functions, mappings and vertical line test"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "function",
+          "scope": "Input/output arrows distinguish unique output per input, domain/range and shared outputs."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Domain",
+      "englishTerm": "Domain",
+      "russianTerm": "Область определения",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.2 · Domain and range",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/3-2-domain-and-range",
+          "language": "en",
+          "section": "3.2 · Domain and range"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "function",
+          "scope": "Input/output arrows distinguish unique output per input, domain/range and shared outputs."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Range",
+      "englishTerm": "Range",
+      "russianTerm": "Множество значений",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.2 · Domain and range",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/3-2-domain-and-range",
+          "language": "en",
+          "section": "3.2 · Domain and range"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "function",
+          "scope": "Input/output arrows distinguish unique output per input, domain/range and shared outputs."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Quadratic",
+      "englishTerm": "Quadratic",
+      "russianTerm": "Квадратичный; квадратный трёхчлен",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.1 · Quadratic forms, vertex and symmetry",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-1-quadratic-functions",
+          "language": "en",
+          "section": "5.1 · Quadratic forms, vertex and symmetry"
+        },
+        {
+          "title": "OpenStax · 8.3 · Focus–directrix definition of a parabola",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/8-3-the-parabola",
+          "language": "en",
+          "section": "8.3 · Focus–directrix definition of a parabola"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The definition concerns degree and nonzero leading coefficient. A quadratic graph appears for parabola/vertex concepts, but this term has no separate attached figure."
+    },
+    {
+      "id": "Parabola",
+      "englishTerm": "Parabola",
+      "russianTerm": "Парабола",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.1 · Quadratic forms, vertex and symmetry",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-1-quadratic-functions",
+          "language": "en",
+          "section": "5.1 · Quadratic forms, vertex and symmetry"
+        },
+        {
+          "title": "OpenStax · 8.3 · Focus–directrix definition of a parabola",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/8-3-the-parabola",
+          "language": "en",
+          "section": "8.3 · Focus–directrix definition of a parabola"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "quadratic",
+          "scope": "A correctly plotted quadratic labels roots, vertex and symmetry axis; the drawing is one quadratic instance."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Vertex / turning point",
+      "englishTerm": "Vertex / turning point",
+      "russianTerm": "Вершина параболы",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.1 · Quadratic forms, vertex and symmetry",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-1-quadratic-functions",
+          "language": "en",
+          "section": "5.1 · Quadratic forms, vertex and symmetry"
+        },
+        {
+          "title": "OpenStax · 8.3 · Focus–directrix definition of a parabola",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/8-3-the-parabola",
+          "language": "en",
+          "section": "8.3 · Focus–directrix definition of a parabola"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "quadratic",
+          "scope": "A correctly plotted quadratic labels roots, vertex and symmetry axis; the drawing is one quadratic instance."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Axis of symmetry",
+      "englishTerm": "Axis of symmetry",
+      "russianTerm": "Ось симметрии",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.1 · Quadratic forms, vertex and symmetry",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-1-quadratic-functions",
+          "language": "en",
+          "section": "5.1 · Quadratic forms, vertex and symmetry"
+        },
+        {
+          "title": "OpenStax · 8.3 · Focus–directrix definition of a parabola",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/8-3-the-parabola",
+          "language": "en",
+          "section": "8.3 · Focus–directrix definition of a parabola"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "quadratic",
+          "scope": "A correctly plotted quadratic labels roots, vertex and symmetry axis; the drawing is one quadratic instance."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Root / zero",
+      "englishTerm": "Root / zero",
+      "russianTerm": "Корень уравнения / нуль функции",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.5 · Zeros of polynomial functions",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-5-zeros-of-polynomial-functions",
+          "language": "en",
+          "section": "5.5 · Zeros of polynomial functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "quadratic",
+          "scope": "A correctly plotted quadratic labels roots, vertex and symmetry axis; the drawing is one quadratic instance."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Translation / reflection / stretch",
+      "englishTerm": "Translation / reflection / stretch",
+      "russianTerm": "Сдвиг / отражение / растяжение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 3.5 · Shifts, reflections and stretches",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/3-5-transformation-of-functions",
+          "language": "en",
+          "section": "3.5 · Shifts, reflections and stretches"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The symbolic input/output transformation rules include direction and scale restrictions; no before/after graph is attached."
+    },
+    {
+      "id": "Factorise",
+      "englishTerm": "Factorise",
+      "russianTerm": "Разложить на множители",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.5 · Factoring, completing the square and discriminant",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 · Factoring, completing the square and discriminant"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The worked equality explicitly changes a sum to a product; the displayed factors are the instructional evidence."
+    },
+    {
+      "id": "Zero-product property",
+      "englishTerm": "Zero-product property",
+      "russianTerm": "Свойство нулевого произведения",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.5 · Factoring, completing the square and discriminant",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 · Factoring, completing the square and discriminant"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example sets each factor to zero and states the real-number zero-product implication; no additional picture is attached."
+    },
+    {
+      "id": "Complete the square",
+      "englishTerm": "Complete the square",
+      "russianTerm": "Выделить полный квадрат",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.5 · Factoring, completing the square and discriminant",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 · Factoring, completing the square and discriminant"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The added/subtracted square term is shown in algebraic steps; no geometric completing-square model is attached."
+    },
+    {
+      "id": "Discriminant",
+      "englishTerm": "Discriminant",
+      "russianTerm": "Дискриминант",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 2.5 · Factoring, completing the square and discriminant",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 · Factoring, completing the square and discriminant"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The calculation of b squared minus 4ac and the real-root cases are stated directly; no three-parabola comparison is attached."
+    },
+    {
+      "id": "Term / nth term",
+      "englishTerm": "Term / nth term",
+      "russianTerm": "Член последовательности / n-й член",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 9.1 · Explicit and recursive sequence definitions",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/9-1-sequences-and-their-notations",
+          "language": "en",
+          "section": "9.1 · Explicit and recursive sequence definitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The indexed entries and distinction between index and value are shown using sequence notation."
+    },
+    {
+      "id": "Explicit formula",
+      "englishTerm": "Explicit formula",
+      "russianTerm": "Явная формула",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 9.1 · Explicit and recursive sequence definitions",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/9-1-sequences-and-their-notations",
+          "language": "en",
+          "section": "9.1 · Explicit and recursive sequence definitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example calculates an entry directly from its index; no separate dependency diagram is attached."
+    },
+    {
+      "id": "Recursive formula",
+      "englishTerm": "Recursive formula",
+      "russianTerm": "Рекуррентная формула",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 9.1 · Explicit and recursive sequence definitions",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/9-1-sequences-and-their-notations",
+          "language": "en",
+          "section": "9.1 · Explicit and recursive sequence definitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Initial value and the next-term rule are stated together; no extra recurrence flow diagram is attached."
+    },
+    {
+      "id": "Arithmetic / linear sequence",
+      "englishTerm": "Arithmetic / linear sequence",
+      "russianTerm": "Арифметическая прогрессия",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 9.2 · Common difference and nth term",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/9-2-arithmetic-sequences",
+          "language": "en",
+          "section": "9.2 · Common difference and nth term"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The constant successive difference and nth-term rule are shown numerically and algebraically."
+    },
+    {
+      "id": "Geometric sequence",
+      "englishTerm": "Geometric sequence",
+      "russianTerm": "Геометрическая прогрессия",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 9.3 · Common ratio and nth term",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/9-3-geometric-sequences",
+          "language": "en",
+          "section": "9.3 · Common ratio and nth term"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The constant multiplier and nth-term formula are shown directly; no separate growth chart is attached."
+    },
+    {
+      "id": "Convergence",
+      "englishTerm": "Convergence",
+      "russianTerm": "Сходимость",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 9.4 · Infinite geometric series and convergence",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/9-4-series-and-their-notations",
+          "language": "en",
+          "section": "9.4 · Infinite geometric series and convergence"
+        },
+        {
+          "title": "OpenStax · 5.2 · Convergence of partial sums; the divergent harmonic series",
+          "url": "https://openstax.org/books/calculus-volume-2/pages/5-2-infinite-series",
+          "language": "en",
+          "section": "5.2 · Convergence of partial sums; the divergent harmonic series"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Finite partial sums and their limiting expression demonstrate the example; no plotted sequence of partial sums is attached."
+    },
+    {
+      "id": "Hypotenuse",
+      "englishTerm": "Hypotenuse",
+      "russianTerm": "Гипотенуза",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.2 · Opposite, adjacent and hypotenuse; right-triangle ratios",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+          "language": "en",
+          "section": "7.2 · Opposite, adjacent and hypotenuse; right-triangle ratios"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "triangle",
+          "scope": "A right triangle identifies its hypotenuse and the opposite/adjacent sides relative to the selected angle."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Opposite / adjacent",
+      "englishTerm": "Opposite / adjacent",
+      "russianTerm": "Противолежащий / прилежащий катет",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.2 · Opposite, adjacent and hypotenuse; right-triangle ratios",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+          "language": "en",
+          "section": "7.2 · Opposite, adjacent and hypotenuse; right-triangle ratios"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "triangle",
+          "scope": "A right triangle identifies its hypotenuse and the opposite/adjacent sides relative to the selected angle."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Bearing",
+      "englishTerm": "Bearing",
+      "russianTerm": "Азимут",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 10.2 · Law of cosines; applied problems",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-2-non-right-triangles-law-of-cosines",
+          "language": "en",
+          "section": "10.2 · Law of cosines; applied problems"
+        },
+        {
+          "title": "AMSI · Introductory Trigonometry · TIMES teacher module 23",
+          "url": "https://amsi.org.au/teacher_modules/Introductory_trigonometry.html",
+          "language": "en",
+          "section": "True Bearings; Compass Bearings"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The north/clockwise/three-digit convention and flat-map limit are written explicitly; no compass-bearing figure is attached."
+    },
+    {
+      "id": "Cosine rule",
+      "englishTerm": "Cosine rule",
+      "russianTerm": "Теорема косинусов",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 10.2 · Law of cosines; applied problems",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-2-non-right-triangles-law-of-cosines",
+          "language": "en",
+          "section": "10.2 · Law of cosines; applied problems"
+        },
+        {
+          "title": "AMSI · Introductory Trigonometry · TIMES teacher module 23",
+          "url": "https://amsi.org.au/teacher_modules/Introductory_trigonometry.html",
+          "language": "en",
+          "section": "True Bearings; Compass Bearings"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The side-angle correspondence and worked numeric substitution are stated; no additional non-right triangle drawing is attached."
+    },
+    {
+      "id": "Inverse trigonometric function",
+      "englishTerm": "Inverse trigonometric function",
+      "russianTerm": "Обратная тригонометрическая функция",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 8.3 · Restricted domains and inverse trigonometric functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/8-3-inverse-trigonometric-functions",
+          "language": "en",
+          "section": "8.3 · Restricted domains and inverse trigonometric functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The principal-value and inverse-versus-reciprocal distinctions are symbolic; no restricted-domain graph is attached."
+    },
+    {
+      "id": "Sine rule",
+      "englishTerm": "Sine rule",
+      "russianTerm": "Теорема синусов",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 10.1 · Law of sines; ambiguous case; triangle area",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+          "language": "en",
+          "section": "10.1 · Law of sines; ambiguous case; triangle area"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Opposite side-angle pairings and possible ambiguous case are explained in notation; no separate non-right triangle diagram is attached."
+    },
+    {
+      "id": "Included angle",
+      "englishTerm": "Included angle",
+      "russianTerm": "Угол между заданными сторонами",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 10.1 · Law of sines; ambiguous case; triangle area",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+          "language": "en",
+          "section": "10.1 · Law of sines; ambiguous case; triangle area"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The selected two sides and their intervening angle are named in the area example; no standalone included-angle figure is attached."
+    },
+    {
+      "id": "Amplitude",
+      "englishTerm": "Amplitude",
+      "russianTerm": "Амплитуда",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 8.1 · Amplitude, midline and period",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/8-1-graphs-of-the-sine-and-cosine-functions",
+          "language": "en",
+          "section": "8.1 · Amplitude, midline and period"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Half the maximum-minus-minimum range and the sinusoid coefficient are calculated; no wave graph is attached."
+    },
+    {
+      "id": "Period",
+      "englishTerm": "Period",
+      "russianTerm": "Период",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 8.1 · Amplitude, midline and period",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/8-1-graphs-of-the-sine-and-cosine-functions",
+          "language": "en",
+          "section": "8.1 · Amplitude, midline and period"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The repeat interval and degree/radian qualifications are given in the formula/model note; no repeated-wave figure is attached."
+    },
+    {
+      "id": "Chord / diameter",
+      "englishTerm": "Chord / diameter",
+      "russianTerm": "Хорда / диаметр",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "AMSI · Circle Geometry · TIMES teacher module 26",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Radii and chords; Arcs and sectors; Segments; Cyclic quadrilaterals; Tangents to circles"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "circle",
+          "scope": "Radius/chord/arc boundaries distinguish a sector from a circular segment without conflating the two regions."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Tangent",
+      "englishTerm": "Tangent",
+      "russianTerm": "Касательная к окружности",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "AMSI · Circle Geometry · TIMES teacher module 26",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Radii and chords; Arcs and sectors; Segments; Cyclic quadrilaterals; Tangents to circles"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The one-contact-point property and perpendicular radius are stated, but the existing circle-region figure is not a tangent construction."
+    },
+    {
+      "id": "Arc",
+      "englishTerm": "Arc",
+      "russianTerm": "Дуга окружности",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "AMSI · Circle Geometry · TIMES teacher module 26",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Radii and chords; Arcs and sectors; Segments; Cyclic quadrilaterals; Tangents to circles"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "circle",
+          "scope": "Radius/chord/arc boundaries distinguish a sector from a circular segment without conflating the two regions."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Sector",
+      "englishTerm": "Sector",
+      "russianTerm": "Круговой сектор",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "AMSI · Circle Geometry · TIMES teacher module 26",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Radii and chords; Arcs and sectors; Segments; Cyclic quadrilaterals; Tangents to circles"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "circle",
+          "scope": "Radius/chord/arc boundaries distinguish a sector from a circular segment without conflating the two regions."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Segment",
+      "englishTerm": "Segment",
+      "russianTerm": "Круговой сегмент",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "AMSI · Circle Geometry · TIMES teacher module 26",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Radii and chords; Arcs and sectors; Segments; Cyclic quadrilaterals; Tangents to circles"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "circle",
+          "scope": "Radius/chord/arc boundaries distinguish a sector from a circular segment without conflating the two regions."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Cyclic quadrilateral",
+      "englishTerm": "Cyclic quadrilateral",
+      "russianTerm": "Вписанный четырёхугольник",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "AMSI · Circle Geometry · TIMES teacher module 26",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Radii and chords; Arcs and sectors; Segments; Cyclic quadrilaterals; Tangents to circles"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The four-on-one-circle condition and opposite-angle relation are stated; no inscribed-quadrilateral figure is attached."
+    },
+    {
+      "id": "Algebraic fraction",
+      "englishTerm": "Algebraic fraction",
+      "russianTerm": "Алгебраическая дробь",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.1 · Rational expressions; excluded values and cancelling factors",
+          "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-1-multiply-and-divide-rational-expressions",
+          "language": "en",
+          "section": "7.1 · Rational expressions; excluded values and cancelling factors"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The whole numerator/denominator and exclusion example are explicit in notation; the introductory numeric fraction figure is not reused for variable-domain cases."
+    },
+    {
+      "id": "Rational equation",
+      "englishTerm": "Rational equation",
+      "russianTerm": "Рациональное уравнение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.4 · Rational equations; clearing denominators and extraneous solutions",
+          "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-4-solve-rational-equations",
+          "language": "en",
+          "section": "7.4 · Rational equations; clearing denominators and extraneous solutions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The worked solve-and-check example keeps the original denominator exclusion visible; no separate graphical intersection is attached."
+    },
+    {
+      "id": "Excluded value",
+      "englishTerm": "Excluded value",
+      "russianTerm": "Недопустимое значение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.1 · Rational expressions; excluded values and cancelling factors",
+          "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-1-multiply-and-divide-rational-expressions",
+          "language": "en",
+          "section": "7.1 · Rational expressions; excluded values and cancelling factors"
+        },
+        {
+          "title": "Фоксфорд · Область допустимых значений рациональных выражений · определение ОДЗ",
+          "url": "https://foxford.ru/wiki/matematika/oblast-dopustimyh-znacheniy-ratsionalnyh-vyrazheniy",
+          "language": "ru",
+          "section": "Область допустимых значений рациональных выражений · определение ОДЗ"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/oblast-dopustimyh-znacheniy-ratsionalnyh-vyrazheniy"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The cancelled-factor example retains its original forbidden value; no removable-hole graph is attached."
+    },
+    {
+      "id": "Direct proportion",
+      "englishTerm": "Direct proportion",
+      "russianTerm": "Прямая пропорциональность",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.8 · Direct and inverse variation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-8-modeling-using-variation",
+          "language": "en",
+          "section": "5.8 · Direct and inverse variation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The fixed ratio and contrast with a nonzero-intercept line are computed; no line-through-origin graph is attached."
+    },
+    {
+      "id": "Inverse proportion",
+      "englishTerm": "Inverse proportion",
+      "russianTerm": "Обратная пропорциональность",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.8 · Direct and inverse variation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-8-modeling-using-variation",
+          "language": "en",
+          "section": "5.8 · Direct and inverse variation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The constant product and doubling/halving example show the relationship; no reciprocal curve is attached."
+    },
+    {
+      "id": "Constant of proportionality",
+      "englishTerm": "Constant of proportionality",
+      "russianTerm": "Коэффициент пропорциональности",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.8 · Direct and inverse variation",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-8-modeling-using-variation",
+          "language": "en",
+          "section": "5.8 · Direct and inverse variation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example calculates k from the stated model and explains its units/model dependence; no separate figure is attached."
+    },
+    {
+      "id": "Asymptote",
+      "englishTerm": "Asymptote",
+      "russianTerm": "Асимптота",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.6 · Rational functions, domains and asymptotes",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-6-rational-functions",
+          "language": "en",
+          "section": "5.6 · Rational functions, domains and asymptotes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The limiting-line meaning, possible crossing and removable-hole distinction are explained; no asymptote graph is attached."
+    },
+    {
+      "id": "Rational function",
+      "englishTerm": "Rational function",
+      "russianTerm": "Рациональная функция",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 5.6 · Rational functions, domains and asymptotes",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/5-6-rational-functions",
+          "language": "en",
+          "section": "5.6 · Rational functions, domains and asymptotes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The polynomial quotient and cancelled-factor hole example are stated; no separate rational-curve illustration is attached."
+    },
+    {
+      "id": "Exponential function",
+      "englishTerm": "Exponential function",
+      "russianTerm": "Показательная функция",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 6.1 · Exponential functions, growth and decay",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/6-1-exponential-functions",
+          "language": "en",
+          "section": "6.1 · Exponential functions, growth and decay"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Successive values show a fixed multiplier and contrast it with a power function; no exponential-curve figure is attached."
+    },
+    {
+      "id": "Linear programming",
+      "englishTerm": "Linear programming",
+      "russianTerm": "Линейное программирование",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "MIT · Michel Goemans · Linear programming",
+          "url": "https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf#page=1",
+          "language": "en",
+          "section": "1 Basics (pp. 1–3): objective, constraints, feasible and optimal solutions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "optimisation",
+          "scope": "Constraints form a feasible polygon; the objective line and optimum labels distinguish a rule, its value and the optimal variable pair."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Constraint",
+      "englishTerm": "Constraint",
+      "russianTerm": "Ограничение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "MIT · Michel Goemans · Linear programming",
+          "url": "https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf#page=1",
+          "language": "en",
+          "section": "1 Basics (pp. 1–3): objective, constraints, feasible and optimal solutions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "optimisation",
+          "scope": "Constraints form a feasible polygon; the objective line and optimum labels distinguish a rule, its value and the optimal variable pair."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Feasible region",
+      "englishTerm": "Feasible region",
+      "russianTerm": "Допустимая область",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "MIT · Michel Goemans · Linear programming",
+          "url": "https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf#page=1",
+          "language": "en",
+          "section": "1 Basics (pp. 1–3): objective, constraints, feasible and optimal solutions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "optimisation",
+          "scope": "Constraints form a feasible polygon; the objective line and optimum labels distinguish a rule, its value and the optimal variable pair."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Objective function",
+      "englishTerm": "Objective function",
+      "russianTerm": "Целевая функция",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "MIT · Michel Goemans · Linear programming",
+          "url": "https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf#page=1",
+          "language": "en",
+          "section": "1 Basics (pp. 1–3): objective, constraints, feasible and optimal solutions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "optimisation",
+          "scope": "Constraints form a feasible polygon; the objective line and optimum labels distinguish a rule, its value and the optimal variable pair."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Optimal solution",
+      "englishTerm": "Optimal solution",
+      "russianTerm": "Оптимальное решение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "MIT · Michel Goemans · Linear programming",
+          "url": "https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf#page=1",
+          "language": "en",
+          "section": "1 Basics (pp. 1–3): objective, constraints, feasible and optimal solutions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [
+        {
+          "kind": "optimisation",
+          "scope": "Constraints form a feasible polygon; the objective line and optimum labels distinguish a rule, its value and the optimal variable pair."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "Critical value",
+      "englishTerm": "Critical value",
+      "russianTerm": "Граничное значение для метода интервалов",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.6 · Zero and undefined partition values; sign charts and endpoint inclusion",
+          "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-6-solve-rational-inequalities",
+          "language": "en",
+          "section": "7.6 · Zero and undefined partition values; sign charts and endpoint inclusion"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Zero and undefined partition values are listed explicitly before interval testing; no dedicated sign-chart figure is attached."
+    },
+    {
+      "id": "Sign chart",
+      "englishTerm": "Sign chart",
+      "russianTerm": "Таблица знаков; метод интервалов",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.6 · Zero and undefined partition values; sign charts and endpoint inclusion",
+          "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-6-solve-rational-inequalities",
+          "language": "en",
+          "section": "7.6 · Zero and undefined partition values; sign charts and endpoint inclusion"
+        },
+        {
+          "title": "Фоксфорд · Метод интервалов · определение; интервалы постоянного знака",
+          "url": "https://foxford.ru/wiki/matematika/metod-intervalov",
+          "language": "ru",
+          "section": "Метод интервалов · определение; интервалы постоянного знака"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/metod-intervalov"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The worked example records the three intervals and their signs in text; no separate drawn sign table is attached."
+    },
+    {
+      "id": "Boundary inclusion",
+      "englishTerm": "Boundary inclusion",
+      "russianTerm": "Включение границы в решение",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.6 · Zero and undefined partition values; sign charts and endpoint inclusion",
+          "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-6-solve-rational-inequalities",
+          "language": "en",
+          "section": "7.6 · Zero and undefined partition values; sign charts and endpoint inclusion"
+        },
+        {
+          "title": "Фоксфорд · Метод интервалов · определение; интервалы постоянного знака",
+          "url": "https://foxford.ru/wiki/matematika/metod-intervalov",
+          "language": "ru",
+          "section": "Метод интервалов · определение; интервалы постоянного знака"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "independently-checked",
+        "independentRussianSourceUrls": [
+          "https://foxford.ru/wiki/matematika/metod-intervalov"
+        ],
+        "scope": "supported by the recorded sections; no unresolved access/scope gap identified"
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example separately checks the zero numerator and forbidden denominator endpoint; no extra endpoint-number-line figure is attached."
+    }
+  ],
+  "unverifiedDefinitions": [],
+  "closedSourceGaps": [
+    {
+      "id": "MATH-FINAL-01",
+      "concepts": [
+        "Universal set"
+      ],
+      "previous": "Basic Set Concepts1.1 did not discuss the universal set.",
+      "resolution": "Now cites existing Set Operations1.4 Venn universal-set discussion and Example1.33; actual section re-read.",
+      "status": "resolved"
+    },
+    {
+      "id": "MATH-FINAL-02",
+      "concepts": [
+        "Rational equation"
+      ],
+      "previous": "Rational Expressions7.1 supported denominator restrictions but was not the exact equation-definition/solving section.",
+      "resolution": "Now cites Rational Equations7.4 definition, LCD clearing and original-domain checks; actual section read.",
+      "status": "resolved"
+    },
+    {
+      "id": "MATH-FINAL-03",
+      "concepts": [
+        "Critical value",
+        "Sign chart",
+        "Boundary inclusion"
+      ],
+      "previous": "Quadratic Inequalities9.8 was narrower than the rational-expression examples and undefined partition values.",
+      "resolution": "Now cites Rational Inequalities7.6 zero/undefined partition values, sign testing and endpoint inclusion; actual section read. Existing RU interval-method evidence remains only on its previously verified two concepts.",
+      "status": "resolved"
+    },
+    {
+      "id": "MATH-FINAL-04",
+      "concepts": [
+        "Factor",
+        "Expand"
+      ],
+      "previous": "Language of Algebra1.2 did not contain factor/distributive explanations.",
+      "resolution": "Factor now cites existing Quadratic Equations2.5 products/factors plus Rational Expressions7.1 cancellation. Expand now cites Properties1.9 distributive law and signed worked examples; actual sections read.",
+      "status": "resolved"
+    },
+    {
+      "id": "MATH-FINAL-05",
+      "concepts": [
+        "Convergence"
+      ],
+      "previous": "College Algebra9.4 supported the geometric example but not the whole general partial-sum definition and non-sufficiency of terms tending to zero.",
+      "resolution": "Retains geometric example source and adds Calculus2 §5.2 partial-sum convergence and harmonic-series counterexample; actual sections read.",
+      "status": "resolved"
+    }
+  ]
+}

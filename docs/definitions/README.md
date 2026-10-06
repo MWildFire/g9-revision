@@ -1,5 +1,7 @@
 # Definition and explanation revision — 6 October 2026
 
+The [per-definition completeness catalogue](completeness/README.md) supersedes aggregate coverage claims below. It distinguishes definition records, unique headwords, repeated presentations, source language and directly relevant versus contextual illustrations. The route total is a browser scope only.
+
 The revision covers terminology and repeated explanations throughout all eight subjects, the three dedicated preparation packs, the 18 shared practice lessons and shared pages. The finite route inventory contains 153 routes. This is a content scope, not a claim about a future examination paper.
 
 ## Before and after

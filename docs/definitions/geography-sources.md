@@ -23,7 +23,7 @@ The diagrams are authored SVG teaching models. River-process arrows distinguish 
 | [FAO — SDG indicator 6.4.2](https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/en) | EN | Level of water stress: freshwater withdrawal relative to resources |
 | [ФАО — Показатель ЦУР 6.4.2](https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/ru) | RU | Уровень нагрузки на водные ресурсы; экологические потребности |
 | [FAO — An Introduction to the Basic Concepts of Food Security](https://www.fao.org/4/al936e/al936e00.pdf#page=1) | EN | I. Four dimensions; II. Duration; III. Severity; V. Hunger, malnutrition and poverty |
-| [ФАО — Голод и отсутствие продовольственной безопасности](https://www.fao.org/hunger/ru/) | RU | Что такое отсутствие продовольственной безопасности? |
+| [ФАО — Вопросы о доступе к продовольствию](https://www.fao.org/measuring-hunger/access-to-food/frequently-asked-questions/ru) | RU | Что оценивается / не оценивается с помощью ШВОПБ?; отличие от неполноценного питания |
 | [United Nations — The 17 Goals](https://sdgs.un.org/goals) | EN | History; Goals 2, 6, 7, 12 and 17 |
 | [NOAA JetStream — Climate zones](https://www.noaa.gov/jetstream/global/climate-zones) | EN | Köppen groups A–E and highland climates |
 | [NASA — Earth facts](https://science.nasa.gov/earth/facts/) | EN | Orbit and rotation |
@@ -84,3 +84,24 @@ Boscastle, Haiyan and the Millennium Drought summaries were rewritten against th
 - [Government of South Australia — Millennium Drought](https://www.environment.sa.gov.au/topics/water-and-river-murray/basin-river-murray-lakes-and-the-coorong/river-murray-droughts/millennium-drought) — Overview; At the peak of the drought; Drought recovery; frequently asked questions.
 
 The follow-up did not independently recheck the inherited lesson and bibliography statements for the Iceland eruption endpoint (22/23 May) or the attributed IATA airline-revenue estimate (US$1.7 billion). They are not new figures introduced by this revision.
+
+## Definition-source scope follow-up
+
+General overview links were supplemented with the specific sections below. These are source-metadata corrections; they do not turn every contextual paragraph into a separately verified definition. Russian references may support only part of a definition: for example, the FAO Russian FAQ addresses access and the distinction from malnutrition, while the English FAO teaching note supplies the four-dimension framework. Foxford provides Russian terminology and selected core concepts; specialist English sources control the finer distinctions.
+
+- [OpenStax — Introduction to Sociology 3e](https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research) — EN: 2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity.
+- [OpenStax — Introduction to Sociology 3e](https://openstax.org/books/introduction-sociology-3e/pages/2-2-research-methods) — EN: 2.2 Research methods: research design; Field Research; Secondary Data Analysis.
+- [Royal Geographical Society — Rural investigations](https://www.rgs.org/schools/resources-for-schools/rural-investigations) — EN: Getting started; Aims within an investigation; Considerations and possible limitations.
+- [US Energy Information Administration — Solar explained](https://www.eia.gov/energyexplained/solar/) — EN: Solar thermal (heat) energy; Solar photovoltaic systems; Benefits and limitations.
+- [US Energy Information Administration — Electricity generation from wind](https://www.eia.gov/energyexplained/wind/electricity-generation-from-wind.php) — EN: How wind turbines work.
+- [US Energy Information Administration — Hydropower explained](https://www.eia.gov/energyexplained/hydropower/) — EN: Hydropower relies on the water cycle; Hydroelectric power is produced with moving water.
+- [US Energy Information Administration — Geothermal explained](https://www.eia.gov/energyexplained/geothermal/) — EN: Opening definition and uses of geothermal heat only; not the simplified Earth-layer account.
+- [US Energy Information Administration — Biomass explained](https://www.eia.gov/energyexplained/biomass/) — EN: Biomass—renewable energy from plants and animals; Biomass can be converted to energy in different ways.
+- [US Energy Information Administration — Nuclear explained](https://www.eia.gov/energyexplained/nuclear/) — EN: Nuclear fission and nuclear fusion; Nuclear fuel—uranium.
+- [USGS — Surface Runoff and the Water Cycle](https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle) — EN: Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding.
+- [Environment Agency — Working with Natural Processes: one-page summaries (2017)](https://assets.publishing.service.gov.uk/media/6036c730d3bf7f0aac939a47/Working_with_natural_processes_one_page_summaries.pdf#page=2) — EN: River Restoration (PDF p. 2); Catchment Woodland (PDF p. 6); process definitions and stated limits, not case statistics.
+- [Cambridge International Education — Understanding command words](https://www.cambridgeinternational.org/exam-administration/what-to-expect-on-exams-day/command-words/) — EN: Evaluate; Explain.
+- [United Nations — Civil Society Unit: About us](https://www.un.org/en/civil-society/page/about-us) — EN: Who We Are: definition and roles of civil society/non-governmental organisations.
+- [United Nations DESA — World Urbanization Prospects 2018: Highlights](https://population.un.org/wup/assets/WUP2018-Highlights.pdf#page=5) — EN: What Is Urbanization? (PDF p. 5); Box 2 Sources of urban growth (PDF p. 20).
+- [OpenStax — Introduction to Business](https://openstax.org/books/introduction-business/pages/3-8-the-impact-of-multinational-corporations) — EN: 3.8 Definition; The Multinational Advantage; cross-border production and operations.
+- [UN-Water — Water Security and the Global Water Agenda](https://www.unwater.org/publications/water-security-and-global-water-agenda) — EN: Working definition of water security (2013 analytical brief).

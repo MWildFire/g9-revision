@@ -1,0 +1,459 @@
+{
+  "subject": "French",
+  "counts": {
+    "supportRecords": 18,
+    "categories": {
+      "concept-or-rule-definition-block": 16,
+      "glossing-policy-support": 1,
+      "grouped-lexical-grammar-contrast": 1
+    },
+    "newDiagrams": 3,
+    "noAdditionalFigureRecords": 15,
+    "sourceLanguageSets": {
+      "en": 14,
+      "en+fr": 1,
+      "fr": 3
+    }
+  },
+  "countingNotes": [
+    "Final finite completeness audit of existing English/French/Arabic revision. Counts below are support records, definition-bearing blocks, lexical row occurrences and existing structural tables; they must not be added together as unique terms.",
+    "Support records include non-definition scaffolds, lexical banks, gloss policies and cultural notes; the countingUnit field identifies them."
+  ],
+  "records": [
+    {
+      "id": "gender",
+      "englishTerm": "Grammatical gender",
+      "russianTerm": "Грамматический род",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/no3.html",
+          "language": "en",
+          "section": "Gender: masculine and feminine"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The displayed noun/article pairs reveal lexical gender, while prose states that natural sex does not determine every noun’s gender."
+    },
+    {
+      "id": "plurals",
+      "englishTerm": "Number and plural formation",
+      "russianTerm": "Число и образование множественного",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/no2.html",
+          "language": "en",
+          "section": "Regular formation and exceptions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The singular/plural spellings and exceptions show morphology directly; decorative multiplicity would hide irregular forms."
+    },
+    {
+      "id": "adjectives",
+      "englishTerm": "Adjective agreement",
+      "russianTerm": "Согласование прилагательных",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/adj2.html",
+          "language": "en",
+          "section": "Agreement and irregular feminine forms"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/french.ts#adjectives.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "negation",
+      "englishTerm": "Negation",
+      "russianTerm": "Отрицание",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/neg1.html",
+          "language": "en",
+          "section": "Ne…pas and omission of ne"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Ne…pas placement is visible in the written examples, including contraction and conversational omission of ne."
+    },
+    {
+      "id": "questions",
+      "englishTerm": "Interrogative constructions",
+      "russianTerm": "Вопросительные конструкции",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/int2.html",
+          "language": "en",
+          "section": "Questions with inversion"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Intonation, est-ce que and inversion are alternative constructions; the exact sentence strings preserve punctuation and liaison spelling."
+    },
+    {
+      "id": "articles",
+      "englishTerm": "Definite, indefinite and partitive articles",
+      "russianTerm": "Определённые, неопределённые и частичные артикли",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/det5.html",
+          "language": "en",
+          "section": "Partitive articles and negation"
+        },
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/det4.html",
+          "language": "en",
+          "section": "Indefinite articles"
+        },
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/det2.html",
+          "language": "en",
+          "section": "Definite articles"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/french.ts#articles.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "present",
+      "englishTerm": "Présent: present indicative",
+      "russianTerm": "Présent: настоящее изъявительное",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/ver1.html",
+          "language": "en",
+          "section": "-er verbs, present tense"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Seven existing six-person conjugation tables show forms more accurately than an additional timeline."
+    },
+    {
+      "id": "past",
+      "englishTerm": "Passé composé",
+      "russianTerm": "Passé composé: сложное прошедшее",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/tap2.html",
+          "language": "en",
+          "section": "Uses and formation"
+        },
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/tap3.html",
+          "language": "en",
+          "section": "Auxiliary choice and agreement"
+        },
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/tap6.html",
+          "language": "en",
+          "section": "Passé composé versus imparfait"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/french.ts#past.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "future",
+      "englishTerm": "Futur simple and futur proche",
+      "russianTerm": "Futur simple и futur proche",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/taf2.html",
+          "language": "en",
+          "section": "Simple future regular formation"
+        },
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/virr4.html",
+          "language": "en",
+          "section": "Aller and immediate future"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Existing futur simple/futur proche tables show both endings and aller + infinitive; prose separates form from time reference."
+    },
+    {
+      "id": "subjunctive",
+      "englishTerm": "Subjunctive mood",
+      "russianTerm": "Сослагательное наклонение subjonctif",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "TV5MONDE — Le subjonctif",
+          "url": "https://apprendre.tv5monde.com/fr/aides/grammaire-le-subjonctif",
+          "language": "fr",
+          "section": "Formation du subjonctif"
+        },
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/tas1.html",
+          "language": "en",
+          "section": "Regular subjunctive and stem changes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en, fr-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Stem/endings and trigger examples show the mood; a timeline would incorrectly present the subjunctive as a tense."
+    },
+    {
+      "id": "culture",
+      "englishTerm": "Francophone / Francophonie",
+      "russianTerm": "Франкоязычный мир / Франкофония",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "OIF — La Francophonie en bref",
+          "url": "https://www.francophonie.org/la-francophonie-en-bref-754",
+          "language": "fr",
+          "section": "Language community and institutions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from fr-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Francophone community and OIF institution are defined in words; a map would imply fixed membership or language uniformity."
+    },
+    {
+      "id": "vocabulary",
+      "englishTerm": "Contextual vocabulary gloss",
+      "russianTerm": "Контекстный перевод слова",
+      "countingUnit": "glossing-policy-support",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/no3.html",
+          "language": "en",
+          "section": "Noun gender"
+        },
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/det2.html",
+          "language": "en",
+          "section": "Definite articles and general reference"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This explains contextual glosses and noun gender; each vocabulary row already displays the relevant bilingual relationship."
+    },
+    {
+      "id": "register",
+      "englishTerm": "Register and address",
+      "russianTerm": "Регистр и обращение",
+      "countingUnit": "grouped-lexical-grammar-contrast",
+      "sources": [
+        {
+          "title": "University of Texas — Tex’s French Grammar",
+          "url": "https://laits.utexas.edu/tex/gr/pro1.html",
+          "language": "en",
+          "section": "Subject pronouns"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Tu/vous choice depends on relationship, convention and number; a fixed image of age/status would overgeneralise social register."
+    },
+    {
+      "id": "textTypes.discours",
+      "englishTerm": "Le discours (Speech)",
+      "russianTerm": "Le discours (речь / выступление)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Merriam-Webster — speech",
+          "url": "https://www.merriam-webster.com/dictionary/speech",
+          "language": "en",
+          "section": "Relevant noun sense"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Le discours (Speech): the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.article",
+      "englishTerm": "L'article (Article)",
+      "russianTerm": "L'article (статья)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — The inverted pyramid",
+          "url": "https://owl.purdue.edu/owl/subject_specific_writing/journalism_and_journalistic_writing/the_inverted_pyramid.html",
+          "language": "en",
+          "section": "Lead and organisation of a news report"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "L'article (Article): the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.lettre",
+      "englishTerm": "La lettre officielle (Formal letter)",
+      "russianTerm": "La lettre officielle (официальное письмо)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Projet Voltaire — Formules de politesse",
+          "url": "https://www.projet-voltaire.fr/ressources/formule-de-politesse-dans-un-e-mail/",
+          "language": "fr",
+          "section": "Salutations, register and closing formulas"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from fr-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "La lettre officielle (Formal letter): the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.blog",
+      "englishTerm": "Le blog (Blog post)",
+      "russianTerm": "Le blog (блог)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Merriam-Webster — blog",
+          "url": "https://www.merriam-webster.com/dictionary/blog",
+          "language": "en",
+          "section": "Relevant noun sense"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Le blog (Blog post): the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.courriel",
+      "englishTerm": "Le courriel / l'email",
+      "russianTerm": "Le courriel / l'email",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Projet Voltaire — Formules de politesse",
+          "url": "https://www.projet-voltaire.fr/ressources/formule-de-politesse-dans-un-e-mail/",
+          "language": "fr",
+          "section": "Salutations, register and closing formulas"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from fr-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Le courriel / l'email: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    }
+  ],
+  "unverifiedDefinitions": [],
+  "evidenceLimits": [
+    "Editorial semantic review is complete for the finite content inventory; no claim of independent external verification of every atomic example or gloss.",
+    "External lexical verification: 269 of 269 bank rows have retrieved contextual-sense evidence; 0 remain editorial-only and are explicitly listed. All six originally partial rows now have targeted closure receipts; Arabic and French glosses were narrowed/qualified for clarity where the actual receipts exposed an ambiguity. General morphology/register sources are never counted as lexical receipts by themselves.",
+    "All seven French idioms now have actual definition/meaning receipts. The final ce n’est pas la mer à boire gap was closed against Académie MER and Larousse collège mer sense 7; earlier failed accesses remain recorded.",
+    "French literature context is partly verified: Les Misérables redemption/rebellion summary, Madame Bovary broad realist classification, L’Étranger 1942 French date, and Le Rouge et le Noir ambition/social theme are retained editorial knowledge rather than newly retrieved claim-specific receipts. BnF Rouge publication excerpt was search-readable only; direct fetch failed.",
+    "Russian term-specific sources exist for eight English device records, not for all three subjects. French-language primary material remains FR provenance; Arabic teaching references used here explain Arabic in EN.",
+    "Textual review and browser rendering checks do not certify every browser voice’s Arabic pronunciation."
+  ]
+}

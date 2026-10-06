@@ -665,8 +665,8 @@ export const lessons: Lesson[] = [
     formulas: ["extension: 𝒜 = λN", "extension: λ = ln(2) / T½"],
     examples: [
       w(
-        "Two samples each start at 800 Bq. X has T½ = 2 h, Y has T½ = 8 h. Compare after 8 h.",
-        "Два образца начинают с 800 Бк. У X T½ = 2 ч, у Y T½ = 8 ч. Сравни через 8 ч.",
+        "Two samples each start at 800 Bq. X has T½ = 2 h, Y has T½ = 8 h. Calculate both activities after 8 h and their ratio.",
+        "Два образца начинают с 800 Бк. У X T½ = 2 ч, у Y T½ = 8 ч. Вычисли обе активности через 8 ч и их отношение.",
         b(
           "X undergoes four half-lives: 800 / 16 = 50 Bq. Y undergoes one: 800 / 2 = 400 Bq.",
           "У X четыре периода: 800 / 16 = 50 Бк. У Y один: 800 / 2 = 400 Бк.",
@@ -677,8 +677,8 @@ export const lessons: Lesson[] = [
         ),
       ),
       w(
-        "Two samples contain the same number of parent nuclei. Their half-lives are 3 h and 12 h. Compare initial activities.",
-        "В двух образцах одинаковое число родительских ядер. Периоды 3 ч и 12 ч. Сравни начальные активности.",
+        "Two samples contain the same number of parent nuclei. Their half-lives are 3 h and 12 h. Calculate the ratio of their initial activities.",
+        "В двух образцах одинаковое число родительских ядер. Периоды 3 ч и 12 ч. Вычисли отношение начальных активностей.",
         b(
           "At fixed N, activity is inversely proportional to T½. Ratio = 12 / 3 = 4.",
           "При одинаковом N активность обратно пропорциональна T½. Отношение 12 / 3 = 4.",

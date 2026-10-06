@@ -16,9 +16,16 @@ const russianSourceCoverage: Record<string, string[]> = {
   ruInequality: ['Inequality', 'Strict inequality'],
 };
 export const reviewedTerms: Record<string, Term> = {};
+const preciseSourceKeys: Record<string, string[]> = {
+  Factor: ['quadraticEquations', 'rationalExpressions'],
+  Expand: ['distributive'],
+  'Universal set': ['setOperations'],
+  'Rational equation': ['rationalEquations'],
+  Convergence: ['series', 'seriesConvergence'],
+};
 function group(sourceKeys: string[], rows: Row[]) {
   for (const [term, russianTerm, meaning, meaningRu, example, exampleRu, contrastEn, contrastRu, diagram] of rows) {
-    const sources = sourceKeys.filter(key => definitionSources[key].language !== 'ru' || russianSourceCoverage[key]?.includes(term)).map(key => definitionSources[key]);
+    const sources = (preciseSourceKeys[term] ?? sourceKeys).filter(key => definitionSources[key].language !== 'ru' || russianSourceCoverage[key]?.includes(term)).map(key => definitionSources[key]);
     reviewedTerms[term] = { term, meaning, example, ru: { term: russianTerm, meaning: meaningRu, example: exampleRu }, diagram,
       review: { englishTerm: term, russianTerm, contrast: { en: contrastEn, ru: contrastRu }, sources },
       russianEvidence: sources.some(source => source.language === 'ru') ? 'independently-checked' : 'authored-adaptation',

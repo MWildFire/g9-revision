@@ -22,7 +22,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "History of the atmosphere: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.carbonRocks",
@@ -46,7 +46,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Carbon locked in rocks: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.greenhouse",
@@ -70,7 +70,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Greenhouse effect: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.climateChange.detailed.cause",
@@ -94,7 +94,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Causes of human-driven climate change: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.climateChange.detailed.evidence",
@@ -118,7 +118,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Evidence climate is changing: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.climateChange.detailed.consequences",
@@ -142,7 +142,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Consequences: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.climateChange.detailed.mitigation",
@@ -160,7 +160,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Mitigation — reducing emissions: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.climateChange.detailed.adaptation",
@@ -178,7 +178,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Adaptation — living with changing climate: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.pollutants.detailed.co2",
@@ -202,7 +202,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Carbon dioxide (CO₂): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.pollutants.detailed.co",
@@ -220,7 +220,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Carbon monoxide (CO): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.pollutants.detailed.soot",
@@ -238,7 +238,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Particulates (soot, PM2.5, PM10): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.pollutants.detailed.sox",
@@ -256,7 +256,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Sulfur dioxide (SO₂): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "atmosphere.sections.pollutants.detailed.nox",
@@ -274,7 +274,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Nitrogen oxides (NOx): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
     },
     {
       "path": "rates.sections.definition",
@@ -299,7 +299,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
-        "kind": "labelled model graph, time/s and volume/cm³"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Illustrative gas-volume/time curves, shared endpoint and differing rate constants; not measured data."
       },
       "noSeparateVisualReason": null
     },
@@ -324,11 +325,8 @@
           "section": "Скорость химической реакции: влияющие факторы"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
-        "kind": "labelled model graph, time/s and volume/cm³"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Collision theory: No molecular-collision or orientation animation is implemented; the rate-time graph does not depict collision mechanisms."
     },
     {
       "path": "rates.sections.factors.detailed.temperature",
@@ -351,11 +349,8 @@
           "section": "Скорость химической реакции: влияющие факторы"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
-        "kind": "labelled model graph, time/s and volume/cm³"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Temperature: No particle distribution, surface geometry or mechanism figure is implemented for this factor; the two rate curves only compare illustrative effective rate constants."
     },
     {
       "path": "rates.sections.factors.detailed.concentration",
@@ -378,11 +373,8 @@
           "section": "Скорость химической реакции: влияющие факторы"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
-        "kind": "labelled model graph, time/s and volume/cm³"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Concentration (and pressure for gases): No particle distribution, surface geometry or mechanism figure is implemented for this factor; the two rate curves only compare illustrative effective rate constants."
     },
     {
       "path": "rates.sections.factors.detailed.surfaceArea",
@@ -405,11 +397,8 @@
           "section": "Скорость химической реакции: влияющие факторы"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
-        "kind": "labelled model graph, time/s and volume/cm³"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Surface area (of solids): No particle distribution, surface geometry or mechanism figure is implemented for this factor; the two rate curves only compare illustrative effective rate constants."
     },
     {
       "path": "rates.sections.factors.detailed.catalyst",
@@ -430,13 +419,22 @@
           "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
           "language": "ru",
           "section": "Скорость химической реакции: влияющие факторы"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 12.7 Catalysis: alternative reaction pathways",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+          "language": "en",
+          "section": "12.7 Catalysis: alternative reaction pathways"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle; catalysts",
+          "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+          "language": "en",
+          "section": "13.3 Shifting Equilibria: Le Châtelier’s Principle; catalysts"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
-        "kind": "labelled model graph, time/s and volume/cm³"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Catalyst: No particle distribution, surface geometry or mechanism figure is implemented for this factor; the two rate curves only compare illustrative effective rate constants."
     },
     {
       "path": "rates.sections.graphs",
@@ -461,7 +459,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
-        "kind": "labelled model graph, time/s and volume/cm³"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Illustrative gas-volume/time curves, shared endpoint and differing rate constants; not measured data."
       },
       "noSeparateVisualReason": null
     },
@@ -486,11 +485,8 @@
           "section": "Скорость химической реакции: влияющие факторы"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
-        "kind": "labelled model graph, time/s and volume/cm³"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Carrying out a rate experiment: This is an experimental-reasoning procedure, not an anatomical structure. Ordered steps and concrete variables carry the definition; no decorative process graphic is added."
     },
     {
       "path": "simulations.atomBuilder",
@@ -521,7 +517,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
-        "kind": "specified isotope and shell-population model"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Neutral first-20-element shell populations and specified example isotope; rings are not trajectories."
       },
       "noSeparateVisualReason": null
     },
@@ -554,7 +551,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
-        "kind": "specified isotope and shell-population model"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Neutral first-20-element shell populations and specified example isotope; rings are not trajectories."
       },
       "noSeparateVisualReason": null
     },
@@ -582,7 +580,8 @@
       "visual": {
         "path": "atomsPeriodic.sections.isotopes.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "comparison"
+        "kind": "comparison",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     },
@@ -615,7 +614,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
-        "kind": "specified isotope and shell-population model"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Neutral first-20-element shell populations and specified example isotope; rings are not trajectories."
       },
       "noSeparateVisualReason": null
     },
@@ -646,11 +646,8 @@
           "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
-        "kind": "specified isotope and shell-population model"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Reading the periodic table: No periodic-table grid is implemented in this component; the atom builder does not display group numbering or period layout."
     },
     {
       "path": "atomsPeriodic.sections.trends",
@@ -677,13 +674,16 @@
           "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
           "language": "ru",
           "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.5 Periodic Variations in Element Properties",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties",
+          "language": "en",
+          "section": "6.5 Periodic Variations in Element Properties"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
-        "kind": "specified isotope and shell-population model"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Periodic trends: No property-versus-element dataset is plotted; AtomBuilder does not depict periodic trends or oxidising power."
     },
     {
       "path": "bonding.sections.ionic",
@@ -713,7 +713,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Ionic bonding: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
     },
     {
       "path": "bonding.sections.covalent",
@@ -743,7 +743,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Covalent bonding: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
     },
     {
       "path": "bonding.sections.metallic",
@@ -773,7 +773,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Metallic bonding: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
     },
     {
       "path": "bonding.sections.comparison.detailed.ionic",
@@ -803,7 +803,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Ionic structures: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
     },
     {
       "path": "bonding.sections.comparison.detailed.simpleCovalent",
@@ -833,7 +833,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Simple molecular (covalent): No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
     },
     {
       "path": "bonding.sections.comparison.detailed.giantCovalent",
@@ -863,7 +863,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Giant covalent (macromolecular): No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
     },
     {
       "path": "bonding.sections.comparison.detailed.metallic",
@@ -893,7 +893,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Metallic bonding: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
     },
     {
       "path": "reactions.sections.types.detailed.combination",
@@ -911,7 +911,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Combination (synthesis): Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "reactions.sections.types.detailed.decomposition",
@@ -929,7 +929,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Decomposition: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "reactions.sections.types.detailed.displacement",
@@ -947,7 +947,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Single displacement: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "reactions.sections.types.detailed.doubleDisplacement",
@@ -965,7 +965,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Double displacement (precipitation): Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "reactions.sections.types.detailed.combustion",
@@ -983,7 +983,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Combustion: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "reactions.sections.balancing",
@@ -998,10 +998,16 @@
           "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
           "language": "en",
           "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.1 Writing and Balancing Chemical Equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+          "language": "en",
+          "section": "4.1 Writing and Balancing Chemical Equations"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Balancing equations — step by step: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "reactions.sections.stateSymbols",
@@ -1016,10 +1022,16 @@
           "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
           "language": "en",
           "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.1 Writing and Balancing Chemical Equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+          "language": "en",
+          "section": "4.1 Writing and Balancing Chemical Equations"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "State symbols: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "reactions.sections.ionic",
@@ -1037,7 +1049,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Ionic equations: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "simulations.moleCalc",
@@ -1067,7 +1079,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Mole Calculator: This is a numeric converter with explicit input/output units and domain checks; it has no scientific figure to count."
     },
     {
       "path": "stoichiometry.sections.moles",
@@ -1097,7 +1109,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "The mole: The definition is a quantitative relation stated with units and a worked calculation. The numeric mole calculator is supporting interaction, not a diagram of this concept."
     },
     {
       "path": "stoichiometry.sections.molarMass",
@@ -1127,7 +1139,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Molar mass: The definition is a quantitative relation stated with units and a worked calculation. The numeric mole calculator is supporting interaction, not a diagram of this concept."
     },
     {
       "path": "stoichiometry.sections.calculations",
@@ -1159,7 +1171,8 @@
       "visual": {
         "path": "stoichiometry.sections.calculations.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "flow"
+        "kind": "flow",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     },
@@ -1191,7 +1204,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Limiting reactant: The definition is a quantitative relation stated with units and a worked calculation. The numeric mole calculator is supporting interaction, not a diagram of this concept."
     },
     {
       "path": "stoichiometry.sections.percentYield",
@@ -1221,7 +1234,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Percent yield: The definition is a quantitative relation stated with units and a worked calculation. The numeric mole calculator is supporting interaction, not a diagram of this concept."
     },
     {
       "path": "acidsBases.sections.definitions.detailed.acid",
@@ -1257,7 +1270,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Acid: No proton-transfer particle diagram is implemented for this definition; the pH-colour bar does not depict acid/base structure or salt formation."
     },
     {
       "path": "acidsBases.sections.definitions.detailed.base",
@@ -1293,7 +1306,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Base: No proton-transfer particle diagram is implemented for this definition; the pH-colour bar does not depict acid/base structure or salt formation."
     },
     {
       "path": "acidsBases.sections.definitions.detailed.alkali",
@@ -1331,7 +1344,8 @@
       "visual": {
         "path": "acidsBases.sections.definitions.detailed.alkali.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "comparison"
+        "kind": "comparison",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     },
@@ -1357,7 +1371,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Salt: No proton-transfer particle diagram is implemented for this definition; the pH-colour bar does not depict acid/base structure or salt formation."
     },
     {
       "path": "acidsBases.sections.pH",
@@ -1394,7 +1408,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/PHIndicator.tsx",
-        "kind": "approximate labelled colour scale; no strength inference"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
       },
       "noSeparateVisualReason": null
     },
@@ -1433,7 +1448,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/PHIndicator.tsx",
-        "kind": "approximate labelled colour scale; no strength inference"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
       },
       "noSeparateVisualReason": null
     },
@@ -1468,10 +1484,16 @@
           "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
           "language": "ru",
           "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Neutralisation: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
     },
     {
       "path": "acidsBases.sections.reactions.detailed.metal",
@@ -1504,10 +1526,16 @@
           "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
           "language": "ru",
           "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Acid + reactive metal → salt + hydrogen: The balanced molecular/net ionic equations express the reaction. No particle-mechanism or apparatus figure is implemented."
     },
     {
       "path": "acidsBases.sections.reactions.detailed.base",
@@ -1540,10 +1568,16 @@
           "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
           "language": "ru",
           "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Acid + base → salt + water (no gas): The balanced molecular/net ionic equations express the reaction. No particle-mechanism or apparatus figure is implemented."
     },
     {
       "path": "acidsBases.sections.reactions.detailed.carbonate",
@@ -1576,10 +1610,16 @@
           "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
           "language": "ru",
           "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Acid + carbonate → salt + water + CO₂: The balanced molecular/net ionic equations express the reaction. No particle-mechanism or apparatus figure is implemented."
     },
     {
       "path": "acidsBases.sections.reactions.detailed.alkali",
@@ -1612,10 +1652,16 @@
           "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
           "language": "ru",
           "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Acid + alkali → salt + water (neutralisation): The balanced molecular/net ionic equations express the reaction. No particle-mechanism or apparatus figure is implemented."
     },
     {
       "path": "acidsBases.sections.indicators.detailed.litmus",
@@ -1646,7 +1692,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/PHIndicator.tsx",
-        "kind": "approximate labelled colour scale; no strength inference"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
       },
       "noSeparateVisualReason": null
     },
@@ -1679,7 +1726,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/PHIndicator.tsx",
-        "kind": "approximate labelled colour scale; no strength inference"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
       },
       "noSeparateVisualReason": null
     },
@@ -1712,7 +1760,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/PHIndicator.tsx",
-        "kind": "approximate labelled colour scale; no strength inference"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
       },
       "noSeparateVisualReason": null
     },
@@ -1743,11 +1792,8 @@
           "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/PHIndicator.tsx",
-        "kind": "approximate labelled colour scale; no strength inference"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Methyl orange (bonus): The existing indicator simulator has no methyl-orange mode; its transition interval and endpoint condition are therefore described in text only."
     },
     {
       "path": "simulations.energyProfile",
@@ -1774,11 +1820,18 @@
           "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
           "language": "ru",
           "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 12.7 Catalysis: alternative reaction pathways",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+          "language": "en",
+          "section": "12.7 Catalysis: alternative reaction pathways"
         }
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
-        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "One-barrier reaction-coordinate model of enthalpy difference and activation barrier; not time or mechanism."
       },
       "noSeparateVisualReason": null
     },
@@ -1811,7 +1864,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
-        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "One-barrier reaction-coordinate model of enthalpy difference and activation barrier; not time or mechanism."
       },
       "noSeparateVisualReason": null
     },
@@ -1844,7 +1898,8 @@
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
-        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "One-barrier reaction-coordinate model of enthalpy difference and activation barrier; not time or mechanism."
       },
       "noSeparateVisualReason": null
     },
@@ -1873,11 +1928,18 @@
           "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
           "language": "ru",
           "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 12.7 Catalysis: alternative reaction pathways",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+          "language": "en",
+          "section": "12.7 Catalysis: alternative reaction pathways"
         }
       ],
       "visual": {
         "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
-        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
+        "kind": "existing or added explanatory figure/table",
+        "scope": "One-barrier reaction-coordinate model of enthalpy difference and activation barrier; not time or mechanism."
       },
       "noSeparateVisualReason": null
     },
@@ -1906,13 +1968,16 @@
           "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
           "language": "ru",
           "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.5 Strengths of Ionic and Covalent Bonds: bond energies",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+          "language": "en",
+          "section": "7.5 Strengths of Ionic and Covalent Bonds: bond energies"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
-        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Bond energies: No bond-breaking/forming molecular diagram is implemented; a generic energy profile does not show which bonds are counted in a mean-enthalpy estimate."
     },
     {
       "path": "energy.sections.calorimetry",
@@ -1935,11 +2000,8 @@
           "section": "Тепловой эффект: экзотермические и эндотермические реакции"
         }
       ],
-      "visual": {
-        "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
-        "kind": "scaled reaction-coordinate model with endpoints and activation barrier"
-      },
-      "noSeparateVisualReason": null
+      "visual": null,
+      "noSeparateVisualReason": "Calorimetry: No calorimeter apparatus or experimental temperature trace is supplied; heat-accounting signs and approximations are expressed algebraically."
     },
     {
       "path": "extras.organic",
@@ -1954,10 +2016,22 @@
           "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
           "language": "en",
           "section": "20.1 Hydrocarbons: alkanes and alkenes"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 20.2 Alcohols and Ethers: alcohol functional group",
+          "url": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
+          "language": "en",
+          "section": "20.2 Alcohols and Ethers: alcohol functional group"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters: carboxylic acids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+          "language": "en",
+          "section": "20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters: carboxylic acids"
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Organic chemistry — intro: No structural-formula comparison is drawn; formula and functional-group conditions are stated explicitly in prose."
     },
     {
       "path": "extras.redox",
@@ -1975,7 +2049,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Redox reactions: No electron-transfer figure is implemented; oxidation-number bookkeeping and agent roles are given in text."
     },
     {
       "path": "extras.electrochem",
@@ -1993,7 +2067,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "The definition is a verbal classification, condition, or procedure; a separate picture would repeat its prose. Related process diagrams are linked at topic level where useful."
+      "noSeparateVisualReason": "Electrochemistry: No electrolytic-cell circuit is drawn; electrode reaction and polarity conventions are stated explicitly in prose."
     },
     {
       "path": "extras.equilibrium",
@@ -2008,12 +2082,19 @@
           "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
           "language": "en",
           "section": "13.1 Chemical Equilibria: dynamic equilibrium"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle; catalysts",
+          "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+          "language": "en",
+          "section": "13.3 Shifting Equilibria: Le Châtelier’s Principle; catalysts"
         }
       ],
       "visual": {
         "path": "extras.equilibrium.review.visual",
         "renderer": "src/components/content/DefinitionSupport.tsx",
-        "kind": "comparison"
+        "kind": "comparison",
+        "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
       },
       "noSeparateVisualReason": null
     }

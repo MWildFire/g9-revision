@@ -1,0 +1,2888 @@
+{
+  "subject": "Legacy mathematics",
+  "counts": {
+    "primaryCards": 51,
+    "primaryExtensionProse": 4,
+    "primaryNamedRecords": 55,
+    "languageInstancesOfPrimaryNamedRecords": 110,
+    "repeatedSimulationDescriptions": 13,
+    "simulationsWithActualSVGorChart": 10,
+    "calculatorOnlySimulations": 3,
+    "structuredReviewDiagrams": 4,
+    "mockLessons": 8,
+    "existingMockExplanationParagraphs": 22,
+    "mockReviewAnnotations": 14,
+    "uniquePrimaryLabels": 55,
+    "uniquePrimaryAndMockGroupLabels": 69,
+    "explicitIndexedTermAndRuleNames": 192,
+    "recordsWithoutRelevantFigure": 49,
+    "reviewedPracticeProblems": 68,
+    "primaryRecordsWithoutRelevantFigure": 33,
+    "mockGroupsWithoutEmbeddedFigure": 14
+  },
+  "countingNotes": [
+    "The previous168 count was a broad manually compiled vocabulary, not168 independently authored definition entries. It must not be used as a count of rewritten definitions.",
+    "This audit indexes explicitly defined terms, rules and methods. Some primary entries define multiple objects, while several entries repeat one concept in different methods.",
+    "Mock review annotations are grouped source/support metadata for existing paragraphs, not14new standalone definitions.",
+    "The four criteria A–D activity summaries are assessment instructions, not mathematics definitions.",
+    "Three calculator-only activities must not be counted as geometric/graphical figures."
+  ],
+  "records": [
+    {
+      "id": "extras.calculus",
+      "englishTerm": "Derivative",
+      "russianTerm": "Производная",
+      "countingUnit": "primary-extension-prose",
+      "sources": [
+        {
+          "title": "3.1 Defining the Derivative",
+          "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative",
+          "language": "en",
+          "section": "3.1 Defining the Derivative"
+        },
+        {
+          "title": "OpenStax Calculus Volume 1",
+          "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+          "language": "en",
+          "section": "3.3 The Constant Rule; The Power Rule"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Limit definition and derivative rule are supplied in prose/formulas. No tangent/secant figure is included; this remains an illustration opportunity."
+    },
+    {
+      "id": "extras.proofs.detailed.direct",
+      "englishTerm": "Direct proof",
+      "russianTerm": "Прямое доказательство",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "Oscar Levin — Discrete Mathematics: An Open Introduction",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_logic-proofs.html",
+          "language": "en",
+          "section": "1.4 Proofs: direct proof and contradiction"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example is a sequence of logical implications; no spatial or numerical relationship needs an additional figure."
+    },
+    {
+      "id": "extras.proofs.detailed.contradiction",
+      "englishTerm": "Proof by contradiction",
+      "russianTerm": "Доказательство от противного",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "Oscar Levin — Discrete Mathematics: An Open Introduction",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_logic-proofs.html",
+          "language": "en",
+          "section": "1.4 Proofs: direct proof and contradiction"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example states an assumption and its contradiction symbolically; a geometric picture would not establish the contradiction."
+    },
+    {
+      "id": "extras.proofs.detailed.induction",
+      "englishTerm": "Proof by induction",
+      "russianTerm": "Математическая индукция",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "Oscar Levin — Proof by Induction",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_seq-induction.html",
+          "language": "en",
+          "section": "Proof by Induction: base case and inductive step"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The base case and n→n+1 implication are written explicitly; no separate chain diagram was added."
+    },
+    {
+      "id": "extras.proofs.detailed.counterexample",
+      "englishTerm": "Counterexample",
+      "russianTerm": "Контрпример",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "Oscar Levin — Discrete Mathematics: An Open Introduction",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_logic-proofs.html",
+          "language": "en",
+          "section": "1.4 Proofs: direct proof and contradiction"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "One explicit value refutes the universal statement; the numerical counterexample is the representation."
+    },
+    {
+      "id": "extras.numberTheory",
+      "englishTerm": "Prime number; prime factorisation; congruence",
+      "russianTerm": "Простое число; разложение на простые множители; сравнение по модулю",
+      "countingUnit": "primary-extension-prose",
+      "sources": [
+        {
+          "title": "Фоксфорд Учебник — Простые и составные числа",
+          "url": "https://foxford.ru/wiki/matematika/prostye-i-sostavnye-chisla",
+          "language": "ru",
+          "section": "Определение простого числа; число 1"
+        },
+        {
+          "title": "Фоксфорд Учебник — Разложение на простые множители",
+          "url": "https://foxford.ru/wiki/matematika/razlozhenie-na-prostye-mnozhiteli",
+          "language": "ru",
+          "section": "Основная теорема арифметики"
+        },
+        {
+          "title": "Oscar Levin — 6.2 Introduction to Number Theory — Remainder Classes",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_addtops-numbth.html",
+          "language": "en",
+          "section": "6.2 Introduction to Number Theory — Remainder Classes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU sections corroborate primes/factorisation; modular congruence comes from the English number-theory source.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Простые и составные числа",
+            "url": "https://foxford.ru/wiki/matematika/prostye-i-sostavnye-chisla",
+            "language": "ru",
+            "section": "Определение простого числа; число 1"
+          },
+          {
+            "title": "Фоксфорд Учебник — Разложение на простые множители",
+            "url": "https://foxford.ru/wiki/matematika/razlozhenie-na-prostye-mnozhiteli",
+            "language": "ru",
+            "section": "Основная теорема арифметики"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Prime factorisation and congruence are explained symbolically. A factor tree or modular clock was not added."
+    },
+    {
+      "id": "extras.complex",
+      "englishTerm": "Complex number",
+      "russianTerm": "Комплексное число",
+      "countingUnit": "primary-extension-prose",
+      "sources": [
+        {
+          "title": "2.4 Complex Numbers",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-4-complex-numbers",
+          "language": "en",
+          "section": "2.4 Complex Numbers"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Real/imaginary parts and i²=−1 are explained symbolically. No Argand-plane figure is included."
+    },
+    {
+      "id": "extras.statsExt",
+      "englishTerm": "Variance, standard deviation and correlation",
+      "russianTerm": "Дисперсия, стандартное отклонение и корреляция",
+      "countingUnit": "primary-extension-prose",
+      "sources": [
+        {
+          "title": "2.7 Measures of Spread",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+          "language": "en",
+          "section": "2.7 Measures of Spread"
+        },
+        {
+          "title": "OpenStax — 12.3 The Regression Equation — Correlation Coefficient",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+          "language": "en",
+          "section": "12.3 The Regression Equation — Correlation Coefficient"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Variance and correlation are defined in prose; no paired scatterplots or spread comparison figure is included."
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.structureSets",
+      "englishTerm": "Structure & Sets — classification, set notation",
+      "russianTerm": "Структура и множества — классификация, обозначения",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.1 Real Numbers: Algebra Essentials",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+          "language": "en",
+          "section": "1.1 Real Numbers: Algebra Essentials"
+        },
+        {
+          "title": "Oscar Levin — 5.1 Sets — Operations on Sets",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+          "language": "en",
+          "section": "5.1 Sets — Operations on Sets"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/NumberSetsVenn.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.rounding",
+      "englishTerm": "Rounding & accuracy",
+      "russianTerm": "Округление и точность",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "5.1 Decimals — Round Decimals",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+          "language": "en",
+          "section": "5.1 Decimals — Round Decimals"
+        },
+        {
+          "title": "1.5 Measurement Uncertainty — Significant Figures",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-5-measurement-uncertainty-accuracy-and-precision",
+          "language": "en",
+          "section": "1.5 Measurement Uncertainty — Significant Figures"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Place-value examples show the retained digit and rounding convention. No number-line rounding-interval figure is included."
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.bounds",
+      "englishTerm": "Upper and lower bounds (Extended)",
+      "russianTerm": "Верхние и нижние границы (Extended)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "5.1 Decimals — Round Decimals",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+          "language": "en",
+          "section": "5.1 Decimals — Round Decimals"
+        },
+        {
+          "title": "1.5 Measurement Uncertainty — Significant Figures",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-5-measurement-uncertainty-accuracy-and-precision",
+          "language": "en",
+          "section": "1.5 Measurement Uncertainty — Significant Figures"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The half-open inequality specifies both endpoints precisely. No number-line interval figure is included."
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.exponents",
+      "englishTerm": "Laws of exponents",
+      "russianTerm": "Свойства степеней",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.2 Exponents and Scientific Notation",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-2-exponents-and-scientific-notation",
+          "language": "en",
+          "section": "1.2 Exponents and Scientific Notation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Products and exponent identities are shown symbolically; a picture would illustrate only particular integer examples."
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.fractionalIndices",
+      "englishTerm": "Fractional indices (Extended)",
+      "russianTerm": "Дробные степени (Extended)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.3 Radicals and Rational Exponents",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+          "language": "en",
+          "section": "1.3 Radicals and Rational Exponents"
+        },
+        {
+          "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+          "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+          "language": "ru",
+          "section": "Корни чётной и нечётной степени; арифметический корень"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Степень с рациональным показателем",
+          "url": "https://foxford.ru/wiki/matematika/stepen-s-ratsionalnym-pokazatelem",
+          "language": "ru",
+          "section": "Определение для a>0; свойства степени с рациональным показателем"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+            "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+            "language": "ru",
+            "section": "Корни чётной и нечётной степени; арифметический корень"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Степень с рациональным показателем",
+            "url": "https://foxford.ru/wiki/matematika/stepen-s-ratsionalnym-pokazatelem",
+            "language": "ru",
+            "section": "Определение для a>0; свойства степени с рациональным показателем"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Nth-root equivalence and real-domain restrictions are given symbolically; no additional root-graph figure is included."
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.standardForm",
+      "englishTerm": "Standard form (scientific notation)",
+      "russianTerm": "Стандартная (научная) форма",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.2 Exponents and Scientific Notation",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-2-exponents-and-scientific-notation",
+          "language": "en",
+          "section": "1.2 Exponents and Scientific Notation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The converter displays coefficient and power of ten; it is a calculator, not a figure."
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.unitConversion",
+      "englishTerm": "Conversion of units",
+      "russianTerm": "Перевод единиц измерения",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "7.5 Systems of Measurement",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+          "language": "en",
+          "section": "7.5 Systems of Measurement"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Equal-unit ratios and squared/cubed scale factors carry the argument. No scale-cube figure is included."
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.surdsSimplify",
+      "englishTerm": "Surds — simplifying",
+      "russianTerm": "Корни — упрощение",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.3 Radicals and Rational Exponents",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+          "language": "en",
+          "section": "1.3 Radicals and Rational Exponents"
+        },
+        {
+          "title": "1.1 Real Numbers: Algebra Essentials",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+          "language": "en",
+          "section": "1.1 Real Numbers: Algebra Essentials"
+        },
+        {
+          "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+          "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+          "language": "ru",
+          "section": "Корни чётной и нечётной степени; арифметический корень"
+        },
+        {
+          "title": "AMSI — Surds",
+          "url": "https://amsi.org.au/teacher_modules/Surds.html",
+          "language": "en",
+          "section": "Content: definition; Addition and subtraction; Multiplication and division; Rationalising denominators"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU source independently corroborates root notation/domain, not the English technical classification surd; surd definition checked in AMSI English.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+            "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+            "language": "ru",
+            "section": "Корни чётной и нечётной степени; арифметический корень"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "structured-labelled-diagram",
+          "location": "numberSystems.subTopicsDetailed.surdsSimplify.review.visual"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.surdsOperate",
+      "englishTerm": "Surds — operations & rationalising",
+      "russianTerm": "Корни — операции и рационализация",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.3 Radicals and Rational Exponents",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+          "language": "en",
+          "section": "1.3 Radicals and Rational Exponents"
+        },
+        {
+          "title": "1.6 Rational Expressions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-6-rational-expressions",
+          "language": "en",
+          "section": "1.6 Rational Expressions"
+        },
+        {
+          "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+          "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+          "language": "ru",
+          "section": "Корни чётной и нечётной степени; арифметический корень"
+        },
+        {
+          "title": "AMSI — Surds",
+          "url": "https://amsi.org.au/teacher_modules/Surds.html",
+          "language": "en",
+          "section": "Content: definition; Addition and subtraction; Multiplication and division; Rationalising denominators"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU source corroborates root notation/domain; operations/rationalising are English-source adaptations.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+            "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+            "language": "ru",
+            "section": "Корни чётной и нечётной степени; арифметический корень"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Exact algebra and worked rationalisation provide the explanation. The surd calculator itself is not a figure; the separate root/surd comparison belongs to surdsSimplify."
+    },
+    {
+      "id": "numberSystems.subTopicsDetailed.absolute",
+      "englishTerm": "Absolute values",
+      "russianTerm": "Модули чисел",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.1 Real Numbers: Algebra Essentials",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+          "language": "en",
+          "section": "1.1 Real Numbers: Algebra Essentials"
+        },
+        {
+          "title": "OpenStax — 2.7 Linear Inequalities",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+          "language": "en",
+          "section": "2.7 Linear Inequalities"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Distance is defined by the piecewise formula and worked values; no dedicated number-line figure is included."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.mappings",
+      "englishTerm": "Mappings, domain & range",
+      "russianTerm": "Отображения, область определения и значений",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "3.1 Functions and Function Notation",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+          "language": "en",
+          "section": "3.1 Functions and Function Notation"
+        },
+        {
+          "title": "3.2 Domain and Range",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range",
+          "language": "en",
+          "section": "3.2 Domain and Range"
+        },
+        {
+          "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+          "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+          "language": "ru",
+          "section": "Аргумент, значение функции; единственность соответствия"
+        },
+        {
+          "title": "Oscar Levin — 5.2 Functions — Domain, Codomain and Range",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_structures-functions.html",
+          "language": "en",
+          "section": "5.2 Functions — Domain, Codomain and Range"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU function/domain terminology corroborated; codomain/range distinction additionally checked in English discrete mathematics.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+            "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+            "language": "ru",
+            "section": "Аргумент, значение функции; единственность соответствия"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "structured-labelled-diagram",
+          "location": "functionsAlgebra.subTopicsDetailed.mappings.review.visual"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.verticalLine",
+      "englishTerm": "Vertical line test",
+      "russianTerm": "Проверка вертикальной прямой",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "3.1 Functions and Function Notation",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+          "language": "en",
+          "section": "3.1 Functions and Function Notation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+          "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+          "language": "ru",
+          "section": "Аргумент, значение функции; единственность соответствия"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU source concerns function definition; vertical-line criterion is an English-source adaptation.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+            "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+            "language": "ru",
+            "section": "Аргумент, значение функции; единственность соответствия"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Definition and function examples are present, but no overlaid vertical-line test or failed relation is drawn."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.quadraticsFactor",
+      "englishTerm": "Quadratic expressions — expanding and factorising",
+      "russianTerm": "Квадратные выражения: раскрытие скобок и разложение на множители",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.2 Use the Language of Algebra",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 Use the Language of Algebra"
+        },
+        {
+          "title": "1.5 Factoring Polynomials",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials",
+          "language": "en",
+          "section": "1.5 Factoring Polynomials"
+        },
+        {
+          "title": "Фоксфорд Учебник — Алгебраические выражения",
+          "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+          "language": "ru",
+          "section": "Определение выражения; переменные и допустимые значения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Алгебраические выражения",
+            "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+            "language": "ru",
+            "section": "Определение выражения; переменные и допустимые значения"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "structured-labelled-diagram",
+          "location": "functionsAlgebra.subTopicsDetailed.quadraticsFactor.review.visual"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.quadraticsGraph",
+      "englishTerm": "Quadratic functions and their graphs",
+      "russianTerm": "Квадратичные функции и их графики",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "5.1 Quadratic Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+          "language": "en",
+          "section": "5.1 Quadratic Functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/QuadraticExplorer.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.vertexForm",
+      "englishTerm": "Vertex form",
+      "russianTerm": "Канонический вид квадратичной функции",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "5.1 Quadratic Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+          "language": "en",
+          "section": "5.1 Quadratic Functions"
+        },
+        {
+          "title": "2.5 Quadratic Equations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 Quadratic Equations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Квадратные уравнения",
+          "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+          "language": "ru",
+          "section": "Определение; старший коэффициент; приведённое уравнение"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Выделение полного квадрата",
+          "url": "https://foxford.ru/wiki/matematika/rescheniye-kvadratnogo-uravneniya-videleniem-polnogo-kvadrata",
+          "language": "ru",
+          "section": "Что такое выделение полного квадрата; решение уравнения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Выделение полного квадрата",
+            "url": "https://foxford.ru/wiki/matematika/rescheniye-kvadratnogo-uravneniya-videleniem-polnogo-kvadrata",
+            "language": "ru",
+            "section": "Что такое выделение полного квадрата; решение уравнения"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/QuadraticExplorer.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.transformations",
+      "englishTerm": "Function transformations",
+      "russianTerm": "Преобразования функций",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "3.5 Transformation of Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+          "language": "en",
+          "section": "3.5 Transformation of Functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/FunctionTransformations.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.solveGeneral",
+      "englishTerm": "Quadratic equations and real roots",
+      "russianTerm": "Квадратные уравнения и действительные корни",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.2 Use the Language of Algebra",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 Use the Language of Algebra"
+        },
+        {
+          "title": "2.5 Quadratic Equations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 Quadratic Equations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Алгебраические выражения",
+          "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+          "language": "ru",
+          "section": "Определение выражения; переменные и допустимые значения"
+        },
+        {
+          "title": "Фоксфорд Учебник — Квадратные уравнения",
+          "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+          "language": "ru",
+          "section": "Определение; старший коэффициент; приведённое уравнение"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Формула корней квадратного уравнения",
+          "url": "https://foxford.ru/wiki/matematika/formula-korney-kvadratnogo-uravneniya",
+          "language": "ru",
+          "section": "Определение дискриминанта; теорема о числе и формуле корней"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Алгебраические выражения",
+            "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+            "language": "ru",
+            "section": "Определение выражения; переменные и допустимые значения"
+          },
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Формула корней квадратного уравнения",
+            "url": "https://foxford.ru/wiki/matematika/formula-korney-kvadratnogo-uravneniya",
+            "language": "ru",
+            "section": "Определение дискриминанта; теорема о числе и формуле корней"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/QuadraticExplorer.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.solveFactor",
+      "englishTerm": "Solving by factorisation",
+      "russianTerm": "Решение уравнений разложением на множители",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.5 Quadratic Equations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 Quadratic Equations"
+        },
+        {
+          "title": "1.5 Factoring Polynomials",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials",
+          "language": "en",
+          "section": "1.5 Factoring Polynomials"
+        },
+        {
+          "title": "Фоксфорд Учебник — Квадратные уравнения",
+          "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+          "language": "ru",
+          "section": "Определение; старший коэффициент; приведённое уравнение"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Разложение на множители квадратных трёхчленов",
+          "url": "https://foxford.ru/wiki/matematika/razlozheniye-na-mnozhiteli-kvadratnykh-trekhchlenov",
+          "language": "ru",
+          "section": "Теорема ax²+bx+c=a(x−x₁)(x−x₂); исключённые значения в примерах"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Разложение на множители квадратных трёхчленов",
+            "url": "https://foxford.ru/wiki/matematika/razlozheniye-na-mnozhiteli-kvadratnykh-trekhchlenov",
+            "language": "ru",
+            "section": "Теорема ax²+bx+c=a(x−x₁)(x−x₂); исключённые значения в примерах"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The zero-product implication is symbolic. The algebraic solver is a method panel, not a figure."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.solveCompleteSquare",
+      "englishTerm": "Solving — complete the square",
+      "russianTerm": "Решение выделением полного квадрата",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.5 Quadratic Equations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 Quadratic Equations"
+        },
+        {
+          "title": "1.3 Radicals and Rational Exponents",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+          "language": "en",
+          "section": "1.3 Radicals and Rational Exponents"
+        },
+        {
+          "title": "Фоксфорд Учебник — Квадратные уравнения",
+          "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+          "language": "ru",
+          "section": "Определение; старший коэффициент; приведённое уравнение"
+        },
+        {
+          "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+          "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+          "language": "ru",
+          "section": "Корни чётной и нечётной степени; арифметический корень"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Выделение полного квадрата",
+          "url": "https://foxford.ru/wiki/matematika/rescheniye-kvadratnogo-uravneniya-videleniem-polnogo-kvadrata",
+          "language": "ru",
+          "section": "Что такое выделение полного квадрата; решение уравнения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          },
+          {
+            "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+            "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+            "language": "ru",
+            "section": "Корни чётной и нечётной степени; арифметический корень"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Выделение полного квадрата",
+            "url": "https://foxford.ru/wiki/matematika/rescheniye-kvadratnogo-uravneniya-videleniem-polnogo-kvadrata",
+            "language": "ru",
+            "section": "Что такое выделение полного квадрата; решение уравнения"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The identity and ±√ step are explicit. No area-completion picture is included; the solver is algebraic."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.solveFormula",
+      "englishTerm": "Quadratic formula",
+      "russianTerm": "Формула корней квадратного уравнения",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.5 Quadratic Equations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 Quadratic Equations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Квадратные уравнения",
+          "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+          "language": "ru",
+          "section": "Определение; старший коэффициент; приведённое уравнение"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Формула корней квадратного уравнения",
+          "url": "https://foxford.ru/wiki/matematika/formula-korney-kvadratnogo-uravneniya",
+          "language": "ru",
+          "section": "Определение дискриминанта; теорема о числе и формуле корней"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Формула корней квадратного уравнения",
+            "url": "https://foxford.ru/wiki/matematika/formula-korney-kvadratnogo-uravneniya",
+            "language": "ru",
+            "section": "Определение дискриминанта; теорема о числе и формуле корней"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The formula and discriminant cases are given symbolically; no additional diagram is required for evaluation."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.solveGraphical",
+      "englishTerm": "Solving — graphically",
+      "russianTerm": "Решение графически",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.5 Quadratic Equations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 Quadratic Equations"
+        },
+        {
+          "title": "3.1 Functions and Function Notation",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+          "language": "en",
+          "section": "3.1 Functions and Function Notation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Квадратные уравнения",
+          "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+          "language": "ru",
+          "section": "Определение; старший коэффициент; приведённое уравнение"
+        },
+        {
+          "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+          "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+          "language": "ru",
+          "section": "Аргумент, значение функции; единственность соответствия"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU sources concern quadratic/function definitions; graphical-intersection method is checked in English sources.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          },
+          {
+            "title": "Фоксфорд Учебник — Понятие функции и способы её задания",
+            "url": "https://foxford.ru/wiki/matematika/ponyatie-funkcii-i-sposoby-ee-zadaniya",
+            "language": "ru",
+            "section": "Аргумент, значение функции; единственность соответствия"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/QuadraticExplorer.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.rearrange",
+      "englishTerm": "Changing the subject of a formula",
+      "russianTerm": "Выражение переменной из формулы",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.2 Use the Language of Algebra",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 Use the Language of Algebra"
+        },
+        {
+          "title": "2.5 Quadratic Equations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 Quadratic Equations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Алгебраические выражения",
+          "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+          "language": "ru",
+          "section": "Определение выражения; переменные и допустимые значения"
+        },
+        {
+          "title": "Фоксфорд Учебник — Квадратные уравнения",
+          "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+          "language": "ru",
+          "section": "Определение; старший коэффициент; приведённое уравнение"
+        },
+        {
+          "title": "OpenStax — 2.2 Linear Equations in One Variable",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 Linear Equations in One Variable"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU sources corroborate expressions/equations; general reversible rearrangement method is checked in English sources.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Алгебраические выражения",
+            "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+            "language": "ru",
+            "section": "Определение выражения; переменные и допустимые значения"
+          },
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Reversible algebraic operations are shown in worked equations; no spatial relationship needs a diagram."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.algebraicFractions",
+      "englishTerm": "Algebraic fractions (Extended)",
+      "russianTerm": "Алгебраические дроби (Extended)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.6 Rational Expressions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-6-rational-expressions",
+          "language": "en",
+          "section": "1.6 Rational Expressions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Factor cancellation and exclusions are symbolic; no area model would cover the stated variable domains."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.proportions",
+      "englishTerm": "Direct & inverse proportions",
+      "russianTerm": "Прямая и обратная пропорциональность",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "5.6 Rational Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-6-rational-functions",
+          "language": "en",
+          "section": "5.6 Rational Functions"
+        },
+        {
+          "title": "OpenStax Algebra and Trigonometry 2e",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-8-modeling-using-variation",
+          "language": "en",
+          "section": "5.8 Solving Direct Variation Problems; Solving Inverse Variation Problems"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Equations, constant ratios/products and numerical examples define the models. No dedicated direct/inverse comparison graph is included."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.asymptotes",
+      "englishTerm": "Rational functions — asymptotes",
+      "russianTerm": "Рациональные функции — асимптоты",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "5.6 Rational Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-6-rational-functions",
+          "language": "en",
+          "section": "5.6 Rational Functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Limits and rational-function examples are written; no dedicated asymptote/hole figure is attached to this card."
+    },
+    {
+      "id": "functionsAlgebra.subTopicsDetailed.exponential",
+      "englishTerm": "Exponential functions",
+      "russianTerm": "Показательные функции",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "6.1 Exponential Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-1-exponential-functions",
+          "language": "en",
+          "section": "6.1 Exponential Functions"
+        },
+        {
+          "title": "Российская электронная школа — Показательная функция",
+          "url": "https://resh.edu.ru/subject/lesson/3841/conspect/",
+          "language": "ru",
+          "section": "Урок 21: определение, свойства и график показательной функции"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-indexed-text-read; direct-retrieval-unconfirmed; English-corroborated",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Российская электронная школа — Показательная функция",
+            "url": "https://resh.edu.ru/subject/lesson/3841/conspect/",
+            "language": "ru",
+            "section": "Урок 21: определение, свойства и график показательной функции"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The multiplicative rule and example are written; no exponential growth/decay graph is included in the legacy page."
+    },
+    {
+      "id": "sequences.subTopicsDetailed.linearGeneral",
+      "englishTerm": "Arithmetic sequences and the nth term",
+      "russianTerm": "Арифметическая прогрессия и формула n-го члена",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "13.2 Arithmetic Sequences",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-2-arithmetic-sequences",
+          "language": "en",
+          "section": "13.2 Arithmetic Sequences"
+        },
+        {
+          "title": "13.4 Series and Their Notations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-4-series-and-their-notations",
+          "language": "en",
+          "section": "13.4 Series and Their Notations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Арифметическая прогрессия",
+          "url": "https://foxford.ru/wiki/matematika/arifmeticheskaya-progressiya",
+          "language": "ru",
+          "section": "Определение; формула общего члена"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Арифметическая прогрессия",
+            "url": "https://foxford.ru/wiki/matematika/arifmeticheskaya-progressiya",
+            "language": "ru",
+            "section": "Определение; формула общего члена"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/SequenceGenerator.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "sequences.subTopicsDetailed.linearProblems",
+      "englishTerm": "Linear sequences — problem solving",
+      "russianTerm": "Линейные последовательности — задачи",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "13.2 Arithmetic Sequences",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-2-arithmetic-sequences",
+          "language": "en",
+          "section": "13.2 Arithmetic Sequences"
+        },
+        {
+          "title": "Фоксфорд Учебник — Арифметическая прогрессия",
+          "url": "https://foxford.ru/wiki/matematika/arifmeticheskaya-progressiya",
+          "language": "ru",
+          "section": "Определение; формула общего члена"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Арифметическая прогрессия",
+            "url": "https://foxford.ru/wiki/matematika/arifmeticheskaya-progressiya",
+            "language": "ru",
+            "section": "Определение; формула общего члена"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/SequenceGenerator.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "sequences.subTopicsDetailed.geometric",
+      "englishTerm": "Geometric sequences and the nth term",
+      "russianTerm": "Геометрическая прогрессия и формула n-го члена",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "13.3 Geometric Sequences",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-3-geometric-sequences",
+          "language": "en",
+          "section": "13.3 Geometric Sequences"
+        },
+        {
+          "title": "Фоксфорд Учебник — Геометрическая прогрессия",
+          "url": "https://foxford.ru/wiki/matematika/geometricheskaya-progressiya",
+          "language": "ru",
+          "section": "Определение; формула n-го члена"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Геометрическая прогрессия",
+            "url": "https://foxford.ru/wiki/matematika/geometricheskaya-progressiya",
+            "language": "ru",
+            "section": "Определение; формула n-го члена"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/SequenceGenerator.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "sequences.subTopicsDetailed.sumInfinity",
+      "englishTerm": "Sum to infinity (Extended)",
+      "russianTerm": "Сумма бесконечного ряда (Extended)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "13.4 Series and Their Notations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-4-series-and-their-notations",
+          "language": "en",
+          "section": "13.4 Series and Their Notations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Сумма бесконечной геометрической прогрессии",
+          "url": "https://foxford.ru/wiki/matematika/summa-beskonechnoj-geometricheskoj-progressii",
+          "language": "ru",
+          "section": "Сумма при |q|<1"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Сумма бесконечной геометрической прогрессии",
+            "url": "https://foxford.ru/wiki/matematika/summa-beskonechnoj-geometricheskoj-progressii",
+            "language": "ru",
+            "section": "Сумма при |q|<1"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Partial sums, convergence condition and exact formula are written. No partial-sum convergence plot is included."
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.pythagoras",
+      "englishTerm": "Pythagoras (incl. converse — Extended)",
+      "russianTerm": "Теорема Пифагора (вкл. обратную — Extended)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "7.2 Right Triangle Trigonometry",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+          "language": "en",
+          "section": "7.2 Right Triangle Trigonometry"
+        },
+        {
+          "title": "10.2 Non-right Triangles: Law of Cosines",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-2-non-right-triangles-law-of-cosines",
+          "language": "en",
+          "section": "10.2 Non-right Triangles: Law of Cosines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/RightTriangleTrainer.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.trig",
+      "englishTerm": "Trigonometry (SOHCAHTOA)",
+      "russianTerm": "Тригонометрия (СОН-КАХ-ТОА)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "7.2 Right Triangle Trigonometry",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+          "language": "en",
+          "section": "7.2 Right Triangle Trigonometry"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/RightTriangleTrainer.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.bearings",
+      "englishTerm": "Bearings",
+      "russianTerm": "Азимуты (bearings)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "7.2 Right Triangle Trigonometry",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+          "language": "en",
+          "section": "7.2 Right Triangle Trigonometry"
+        },
+        {
+          "title": "7.1 Angles — Arc Length and Area of a Sector",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+          "language": "en",
+          "section": "7.1 Angles — Arc Length and Area of a Sector"
+        },
+        {
+          "title": "Cambridge IGCSE Mathematics 0580 syllabus 2025–2027",
+          "url": "https://www.cambridgeinternational.org/Images/662466-2025-2027-syllabus.pdf#page=23",
+          "language": "en",
+          "section": "C4.3 Scale drawings, printed page23 (E4.3 on page47): three-figure bearings measured clockwise from north"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/BearingsCompass.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.sineCosine",
+      "englishTerm": "Sine & Cosine rules (Extended)",
+      "russianTerm": "Теоремы синусов и косинусов (Extended)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "10.1 Non-right Triangles: Law of Sines",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+          "language": "en",
+          "section": "10.1 Non-right Triangles: Law of Sines"
+        },
+        {
+          "title": "10.2 Non-right Triangles: Law of Cosines",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-2-non-right-triangles-law-of-cosines",
+          "language": "en",
+          "section": "10.2 Non-right Triangles: Law of Cosines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "General non-right-triangle formulas and examples are written; the right-triangle simulator does not illustrate their generality."
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.triangleArea",
+      "englishTerm": "Area using ½ab·sin(C)",
+      "russianTerm": "Площадь через ½ab·sin(C)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "10.1 Non-right Triangles: Law of Sines",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+          "language": "en",
+          "section": "10.1 Non-right Triangles: Law of Sines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The included-angle/height derivation is written; no dedicated general-triangle altitude figure is included."
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.circleTheorems",
+      "englishTerm": "Circle theorems",
+      "russianTerm": "Теоремы об окружностях",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "AMSI — Circle Geometry",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Angles in circles; tangents; intersecting chords"
+        },
+        {
+          "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+          "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+          "language": "ru",
+          "section": "Теорема о вписанном угле и следствия"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU angle theorems read; tangent lengths and other combined theorems also rely on AMSI English.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+            "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+            "language": "ru",
+            "section": "Теорема о вписанном угле и следствия"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/CircleTheorems.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.sectors",
+      "englishTerm": "Sectors and arcs",
+      "russianTerm": "Секторы и дуги",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "7.1 Angles — Arc Length and Area of a Sector",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+          "language": "en",
+          "section": "7.1 Angles — Arc Length and Area of a Sector"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/SectorSegmentCalc.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.segments",
+      "englishTerm": "Area of a segment",
+      "russianTerm": "Площадь сегмента",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "7.1 Angles — Arc Length and Area of a Sector",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+          "language": "en",
+          "section": "7.1 Angles — Arc Length and Area of a Sector"
+        },
+        {
+          "title": "10.1 Non-right Triangles: Law of Sines",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+          "language": "en",
+          "section": "10.1 Non-right Triangles: Law of Sines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/SectorSegmentCalc.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "geometryTrig.subTopicsDetailed.intersectingChords",
+      "englishTerm": "Intersecting chords",
+      "russianTerm": "Пересекающиеся хорды",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "AMSI — Circle Geometry",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Angles in circles; tangents; intersecting chords"
+        },
+        {
+          "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+          "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+          "language": "ru",
+          "section": "Теорема о вписанном угле и следствия"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU cited page proves angle theorems, not chord-length products. Chord/secant-product theorem checked in AMSI English.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+            "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+            "language": "ru",
+            "section": "Теорема о вписанном угле и следствия"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/CircleTheorems.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "statsProb.subTopicsDetailed.representation",
+      "englishTerm": "Data representation — choosing the right chart",
+      "russianTerm": "Представление данных — выбор диаграммы",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.2 Data, Sampling, and Variation",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, Sampling, and Variation"
+        },
+        {
+          "title": "2.2 Histograms",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+          "language": "en",
+          "section": "2.2 Histograms"
+        },
+        {
+          "title": "OpenStax — 12.3 The Regression Equation — Correlation Coefficient",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+          "language": "en",
+          "section": "12.3 The Regression Equation — Correlation Coefficient"
+        },
+        {
+          "title": "2.1 Stem-and-Leaf Graphs",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
+          "language": "en",
+          "section": "2.1 Stem-and-Leaf Graphs"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Chart types are compared in words. The page has box-plot and cumulative-frequency activities, but no comprehensive chart-selection comparison figure."
+    },
+    {
+      "id": "statsProb.subTopicsDetailed.stemLeaf",
+      "englishTerm": "Stem and leaf diagram",
+      "russianTerm": "Диаграмма «стебель–листья»",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.1 Stem-and-Leaf Graphs",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
+          "language": "en",
+          "section": "2.1 Stem-and-Leaf Graphs"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "A textual stem|leaf worked display with its key is the actual statistical representation; no separate image is necessary."
+    },
+    {
+      "id": "statsProb.subTopicsDetailed.grouped",
+      "englishTerm": "Grouped data — mean, median, mode",
+      "russianTerm": "Сгруппированные данные — среднее, медиана, мода",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.5 Measures of Center",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data",
+          "language": "en",
+          "section": "2.5 Measures of Center"
+        },
+        {
+          "title": "2.2 Histograms",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+          "language": "en",
+          "section": "2.2 Histograms"
+        },
+        {
+          "title": "Фоксфорд Учебник — Статистические характеристики",
+          "url": "https://foxford.ru/wiki/matematika/statisticheskieharakteristiki",
+          "language": "ru",
+          "section": "Среднее арифметическое, мода и медиана"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU section defines ungrouped mean/median/mode; grouped estimates and density distinction rely on English sources/explicit interpolation model.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Статистические характеристики",
+            "url": "https://foxford.ru/wiki/matematika/statisticheskieharakteristiki",
+            "language": "ru",
+            "section": "Среднее арифметическое, мода и медиана"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Frequency tables and midpoint/interpolation calculations provide the grouped-data representation; no separate diagram is attached."
+    },
+    {
+      "id": "statsProb.subTopicsDetailed.boxPlots",
+      "englishTerm": "Box plots (box-and-whisker)",
+      "russianTerm": "Ящики с усами (box-and-whisker)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.4 Box Plots",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
+          "language": "en",
+          "section": "2.4 Box Plots"
+        },
+        {
+          "title": "2.3 Measures of Location",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
+          "language": "en",
+          "section": "2.3 Measures of Location"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/BoxPlotBuilder.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "statsProb.subTopicsDetailed.histograms",
+      "englishTerm": "Histograms (incl. unequal class widths)",
+      "russianTerm": "Гистограммы (вкл. неравные классы)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.2 Histograms",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+          "language": "en",
+          "section": "2.2 Histograms"
+        },
+        {
+          "title": "NIST/SEMATECH e-Handbook of Statistical Methods",
+          "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/histogra.htm",
+          "language": "en",
+          "section": "1.3.3.14 Histogram — Definition; area normalisation (multiply probability density by sample size for frequency density)"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "structured-labelled-diagram",
+          "location": "statsProb.subTopicsDetailed.histograms.review.visual"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "statsProb.subTopicsDetailed.cumulativeFreq",
+      "englishTerm": "Cumulative frequency and percentiles",
+      "russianTerm": "Накопленная частота и процентили",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.2 Histograms",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+          "language": "en",
+          "section": "2.2 Histograms"
+        },
+        {
+          "title": "2.3 Measures of Location",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
+          "language": "en",
+          "section": "2.3 Measures of Location"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "same-topic-interactive-figure",
+          "location": "src/components/simulations/math/CumulativeFrequency.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "statsProb.subTopicsDetailed.stdDev",
+      "englishTerm": "Standard deviation (Extended)",
+      "russianTerm": "Стандартное отклонение (Extended)",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "2.7 Measures of Spread",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+          "language": "en",
+          "section": "2.7 Measures of Spread"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The formula and numeric examples define spread; no two-distribution comparison figure is included."
+    },
+    {
+      "id": "statsProb.subTopicsDetailed.pieCharts",
+      "englishTerm": "Pie charts",
+      "russianTerm": "Круговые диаграммы",
+      "countingUnit": "primary-definition-card",
+      "sources": [
+        {
+          "title": "1.2 Data, Sampling, and Variation",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, Sampling, and Variation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The 360°f/N rule and examples are supplied; no actual sector chart is drawn."
+    },
+    {
+      "id": "simulations.standardForm",
+      "englishTerm": "Standard form (scientific notation)",
+      "russianTerm": "Стандартная (научная) форма",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "1.2 Exponents and Scientific Notation",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-2-exponents-and-scientific-notation",
+          "language": "en",
+          "section": "1.2 Exponents and Scientific Notation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The converter displays coefficient and power of ten; it is a calculator, not a figure."
+    },
+    {
+      "id": "simulations.quadraticExplorer",
+      "englishTerm": "Quadratic functions and their graphs",
+      "russianTerm": "Квадратичные функции и их графики",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "5.1 Quadratic Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+          "language": "en",
+          "section": "5.1 Quadratic Functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/QuadraticExplorer.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.sequenceGenerator",
+      "englishTerm": "Geometric sequences and the nth term",
+      "russianTerm": "Геометрическая прогрессия и формула n-го члена",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "13.3 Geometric Sequences",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-3-geometric-sequences",
+          "language": "en",
+          "section": "13.3 Geometric Sequences"
+        },
+        {
+          "title": "Фоксфорд Учебник — Геометрическая прогрессия",
+          "url": "https://foxford.ru/wiki/matematika/geometricheskaya-progressiya",
+          "language": "ru",
+          "section": "Определение; формула n-го члена"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Геометрическая прогрессия",
+            "url": "https://foxford.ru/wiki/matematika/geometricheskaya-progressiya",
+            "language": "ru",
+            "section": "Определение; формула n-го члена"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/SequenceGenerator.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.sectorSegment",
+      "englishTerm": "Area of a segment",
+      "russianTerm": "Площадь сегмента",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "7.1 Angles — Arc Length and Area of a Sector",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+          "language": "en",
+          "section": "7.1 Angles — Arc Length and Area of a Sector"
+        },
+        {
+          "title": "10.1 Non-right Triangles: Law of Sines",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-1-non-right-triangles-law-of-sines",
+          "language": "en",
+          "section": "10.1 Non-right Triangles: Law of Sines"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/SectorSegmentCalc.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.boxPlot",
+      "englishTerm": "Box plots (box-and-whisker)",
+      "russianTerm": "Ящики с усами (box-and-whisker)",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "2.4 Box Plots",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
+          "language": "en",
+          "section": "2.4 Box Plots"
+        },
+        {
+          "title": "2.3 Measures of Location",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
+          "language": "en",
+          "section": "2.3 Measures of Location"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/BoxPlotBuilder.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.surdSimplifier",
+      "englishTerm": "Surds — simplifying",
+      "russianTerm": "Корни — упрощение",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "1.3 Radicals and Rational Exponents",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+          "language": "en",
+          "section": "1.3 Radicals and Rational Exponents"
+        },
+        {
+          "title": "1.1 Real Numbers: Algebra Essentials",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+          "language": "en",
+          "section": "1.1 Real Numbers: Algebra Essentials"
+        },
+        {
+          "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+          "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+          "language": "ru",
+          "section": "Корни чётной и нечётной степени; арифметический корень"
+        },
+        {
+          "title": "AMSI — Surds",
+          "url": "https://amsi.org.au/teacher_modules/Surds.html",
+          "language": "en",
+          "section": "Content: definition; Addition and subtraction; Multiplication and division; Rationalising denominators"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU root definition/domain corroborated; simplification/surd distinction checked in English sources.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Определение корня n-ой степени",
+            "url": "https://foxford.ru/wiki/matematika/arifmeticheskiy-koren-vysokoy-stepeni",
+            "language": "ru",
+            "section": "Корни чётной и нечётной степени; арифметический корень"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "structured-labelled-diagram",
+          "location": "simulations.surdSimplifier.review.visual"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.transformations",
+      "englishTerm": "Function transformations",
+      "russianTerm": "Преобразования функций",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "3.5 Transformation of Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+          "language": "en",
+          "section": "3.5 Transformation of Functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/FunctionTransformations.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.quadraticSolver",
+      "englishTerm": "Quadratic equations and real roots",
+      "russianTerm": "Квадратные уравнения и действительные корни",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "1.2 Use the Language of Algebra",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 Use the Language of Algebra"
+        },
+        {
+          "title": "2.5 Quadratic Equations",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+          "language": "en",
+          "section": "2.5 Quadratic Equations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Алгебраические выражения",
+          "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+          "language": "ru",
+          "section": "Определение выражения; переменные и допустимые значения"
+        },
+        {
+          "title": "Фоксфорд Учебник — Квадратные уравнения",
+          "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+          "language": "ru",
+          "section": "Определение; старший коэффициент; приведённое уравнение"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Формула корней квадратного уравнения",
+          "url": "https://foxford.ru/wiki/matematika/formula-korney-kvadratnogo-uravneniya",
+          "language": "ru",
+          "section": "Определение дискриминанта; теорема о числе и формуле корней"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Выделение полного квадрата",
+          "url": "https://foxford.ru/wiki/matematika/rescheniye-kvadratnogo-uravneniya-videleniem-polnogo-kvadrata",
+          "language": "ru",
+          "section": "Что такое выделение полного квадрата; решение уравнения"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Разложение на множители квадратных трёхчленов",
+          "url": "https://foxford.ru/wiki/matematika/razlozheniye-na-mnozhiteli-kvadratnykh-trekhchlenov",
+          "language": "ru",
+          "section": "Теорема ax²+bx+c=a(x−x₁)(x−x₂); исключённые значения в примерах"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Алгебраические выражения",
+            "url": "https://foxford.ru/wiki/matematika/algebraicheskie-vyrazheniya",
+            "language": "ru",
+            "section": "Определение выражения; переменные и допустимые значения"
+          },
+          {
+            "title": "Фоксфорд Учебник — Квадратные уравнения",
+            "url": "https://foxford.ru/wiki/matematika/kvadratnye-uravneniya",
+            "language": "ru",
+            "section": "Определение; старший коэффициент; приведённое уравнение"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Формула корней квадратного уравнения",
+            "url": "https://foxford.ru/wiki/matematika/formula-korney-kvadratnogo-uravneniya",
+            "language": "ru",
+            "section": "Определение дискриминанта; теорема о числе и формуле корней"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Выделение полного квадрата",
+            "url": "https://foxford.ru/wiki/matematika/rescheniye-kvadratnogo-uravneniya-videleniem-polnogo-kvadrata",
+            "language": "ru",
+            "section": "Что такое выделение полного квадрата; решение уравнения"
+          },
+          {
+            "title": "Фоксфорд.Учебник — Разложение на множители квадратных трёхчленов",
+            "url": "https://foxford.ru/wiki/matematika/razlozheniye-na-mnozhiteli-kvadratnykh-trekhchlenov",
+            "language": "ru",
+            "section": "Теорема ax²+bx+c=a(x−x₁)(x−x₂); исключённые значения в примерах"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Three algebraic method panels are supplied; this is not a graph. A separate QuadraticExplorer exists on the same topic page."
+    },
+    {
+      "id": "simulations.rightTriangle",
+      "englishTerm": "Trigonometry (SOHCAHTOA)",
+      "russianTerm": "Тригонометрия (СОН-КАХ-ТОА)",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "7.2 Right Triangle Trigonometry",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+          "language": "en",
+          "section": "7.2 Right Triangle Trigonometry"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/RightTriangleTrainer.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.numberSetsVenn",
+      "englishTerm": "Structure & Sets — classification, set notation",
+      "russianTerm": "Структура и множества — классификация, обозначения",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "1.1 Real Numbers: Algebra Essentials",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+          "language": "en",
+          "section": "1.1 Real Numbers: Algebra Essentials"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/NumberSetsVenn.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.bearingsCompass",
+      "englishTerm": "Bearings",
+      "russianTerm": "Азимуты (bearings)",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "7.2 Right Triangle Trigonometry",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry",
+          "language": "en",
+          "section": "7.2 Right Triangle Trigonometry"
+        },
+        {
+          "title": "7.1 Angles — Arc Length and Area of a Sector",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles",
+          "language": "en",
+          "section": "7.1 Angles — Arc Length and Area of a Sector"
+        },
+        {
+          "title": "Cambridge IGCSE Mathematics 0580 syllabus 2025–2027",
+          "url": "https://www.cambridgeinternational.org/Images/662466-2025-2027-syllabus.pdf#page=23",
+          "language": "en",
+          "section": "C4.3 Scale drawings, printed page23 (E4.3 on page47): three-figure bearings measured clockwise from north"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/BearingsCompass.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.cumulativeFreq",
+      "englishTerm": "Cumulative frequency and percentiles",
+      "russianTerm": "Накопленная частота и процентили",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "2.2 Histograms",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+          "language": "en",
+          "section": "2.2 Histograms"
+        },
+        {
+          "title": "2.3 Measures of Location",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
+          "language": "en",
+          "section": "2.3 Measures of Location"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/CumulativeFrequency.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.circleTheorems",
+      "englishTerm": "Circle theorems",
+      "russianTerm": "Теоремы об окружностях",
+      "countingUnit": "repeated-simulation-description",
+      "sources": [
+        {
+          "title": "AMSI — Circle Geometry",
+          "url": "https://amsi.org.au/teacher_modules/Circle_Geometry.html",
+          "language": "en",
+          "section": "Angles in circles; tangents; intersecting chords"
+        },
+        {
+          "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+          "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+          "language": "ru",
+          "section": "Теорема о вписанном угле и следствия"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "RU angle theorems read; chord-product numeric construction checked independently and with AMSI English.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Вписанный и центральный углы",
+            "url": "https://foxford.ru/wiki/matematika/vpisannyy-i-tsentralnyy-ugly",
+            "language": "ru",
+            "section": "Теорема о вписанном угле и следствия"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "kind": "interactive-graph-or-geometry",
+          "location": "src/components/simulations/math/CircleTheorems.tsx"
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "mocks.coordinate-geometry.definitionReviews[0]",
+      "englishTerm": "Coordinate, distance, midpoint",
+      "russianTerm": "Координата, расстояние, середина",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "OpenStax — 2.1 Rectangular Coordinate Systems and Graphs",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+          "language": "en",
+          "section": "2.1 Rectangular Coordinate Systems and Graphs"
+        },
+        {
+          "title": "Фоксфорд Учебник — Расстояние между точками",
+          "url": "https://foxford.ru/wiki/matematika/rasstoyanie-mezhdu-tochkami-na-koordinatnoy-ploskosti",
+          "language": "ru",
+          "section": "Формула расстояния в прямоугольной системе"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Расстояние между точками",
+            "url": "https://foxford.ru/wiki/matematika/rasstoyanie-mezhdu-tochkami-na-koordinatnoy-ploskosti",
+            "language": "ru",
+            "section": "Формула расстояния в прямоугольной системе"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This mock uses coordinate formulas and a worked line problem; no labelled coordinate diagram is embedded."
+    },
+    {
+      "id": "mocks.coordinate-geometry.definitionReviews[1]",
+      "englishTerm": "Gradient; parallel and perpendicular lines",
+      "russianTerm": "Угловой коэффициент; параллельные и перпендикулярные прямые",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "OpenStax — 2.2 Linear Equations in One Variable",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 Linear Equations in One Variable"
+        },
+        {
+          "title": "OpenStax — 2.1 Rectangular Coordinate Systems and Graphs",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+          "language": "en",
+          "section": "2.1 Rectangular Coordinate Systems and Graphs"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This mock uses coordinate formulas and a worked line problem; no labelled coordinate diagram is embedded."
+    },
+    {
+      "id": "mocks.linear-equations.definitionReviews[0]",
+      "englishTerm": "Expression; equation; solution",
+      "russianTerm": "Выражение; уравнение; корень",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "1.2 Use the Language of Algebra",
+          "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+          "language": "en",
+          "section": "1.2 Use the Language of Algebra"
+        },
+        {
+          "title": "OpenStax — 2.2 Linear Equations in One Variable",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable",
+          "language": "en",
+          "section": "2.2 Linear Equations in One Variable"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This mock uses equations, inequalities and substitutions; no number-line solution diagram is embedded."
+    },
+    {
+      "id": "mocks.linear-equations.definitionReviews[1]",
+      "englishTerm": "Inequality; simultaneous equations",
+      "russianTerm": "Неравенство; система уравнений",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "OpenStax — 2.7 Linear Inequalities",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+          "language": "en",
+          "section": "2.7 Linear Inequalities"
+        },
+        {
+          "title": "OpenStax — 11.1 Systems of Linear Equations: Two Variables",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-1-systems-of-linear-equations-two-variables",
+          "language": "en",
+          "section": "11.1 Systems of Linear Equations: Two Variables"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This mock uses equations, inequalities and substitutions; no number-line solution diagram is embedded."
+    },
+    {
+      "id": "mocks.probability.definitionReviews[0]",
+      "englishTerm": "Sample space; event; complement",
+      "russianTerm": "Пространство исходов; событие; дополнение",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "3.1 Terminology",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+          "language": "en",
+          "section": "3.1 Terminology — sample spaces, events and equally likely outcomes"
+        },
+        {
+          "title": "3.2 Independent and Mutually Exclusive Events",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events",
+          "language": "en",
+          "section": "3.2 Independent and Mutually Exclusive Events"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Sample spaces and tree/table methods are described, but no actual tree/Venn/table diagram is embedded in this mock."
+    },
+    {
+      "id": "mocks.probability.definitionReviews[1]",
+      "englishTerm": "Independent; mutually exclusive; conditional probability",
+      "russianTerm": "Независимость; несовместность; условная вероятность",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "3.1 Terminology",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+          "language": "en",
+          "section": "3.1 Terminology — sample spaces, events and equally likely outcomes"
+        },
+        {
+          "title": "3.2 Independent and Mutually Exclusive Events",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events",
+          "language": "en",
+          "section": "3.2 Independent and Mutually Exclusive Events"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Sample spaces and tree/table methods are described, but no actual tree/Venn/table diagram is embedded in this mock."
+    },
+    {
+      "id": "mocks.solids.definitionReviews[0]",
+      "englishTerm": "Prism; cylinder; surface area; volume",
+      "russianTerm": "Призма; цилиндр; площадь поверхности; объём",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "Фоксфорд Учебник — Объём призмы",
+          "url": "https://foxford.ru/wiki/matematika/volume-prizma",
+          "language": "ru",
+          "section": "Площадь основания и перпендикулярная высота"
+        },
+        {
+          "title": "Фоксфорд Учебник — Цилиндр и его свойства",
+          "url": "https://foxford.ru/wiki/matematika/cilindr-i-ego-svojstva",
+          "language": "ru",
+          "section": "Радиус, высота, объём и площадь поверхности"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Объём призмы",
+            "url": "https://foxford.ru/wiki/matematika/volume-prizma",
+            "language": "ru",
+            "section": "Площадь основания и перпендикулярная высота"
+          },
+          {
+            "title": "Фоксфорд Учебник — Цилиндр и его свойства",
+            "url": "https://foxford.ru/wiki/matematika/cilindr-i-ego-svojstva",
+            "language": "ru",
+            "section": "Радиус, высота, объём и площадь поверхности"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Solid formulas and a cylinder example are written, but no labelled solid drawing is embedded."
+    },
+    {
+      "id": "mocks.solids.definitionReviews[1]",
+      "englishTerm": "Cone; pyramid; sphere; ball",
+      "russianTerm": "Конус; пирамида; сфера; шар",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "Фоксфорд Учебник — Конус и его свойства",
+          "url": "https://foxford.ru/wiki/matematika/konus-i-ego-svojstva",
+          "language": "ru",
+          "section": "Конус и его свойства"
+        },
+        {
+          "title": "Фоксфорд Учебник — Объём пирамиды",
+          "url": "https://foxford.ru/wiki/matematika/volume-piramida",
+          "language": "ru",
+          "section": "Объём пирамиды"
+        },
+        {
+          "title": "Фоксфорд Учебник — Шар и его свойства",
+          "url": "https://foxford.ru/wiki/matematika/shar-i-ego-svoistva",
+          "language": "ru",
+          "section": "Шар и его свойства"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Конус и его свойства",
+            "url": "https://foxford.ru/wiki/matematika/konus-i-ego-svojstva",
+            "language": "ru",
+            "section": "Конус и его свойства"
+          },
+          {
+            "title": "Фоксфорд Учебник — Объём пирамиды",
+            "url": "https://foxford.ru/wiki/matematika/volume-piramida",
+            "language": "ru",
+            "section": "Объём пирамиды"
+          },
+          {
+            "title": "Фоксфорд Учебник — Шар и его свойства",
+            "url": "https://foxford.ru/wiki/matematika/shar-i-ego-svoistva",
+            "language": "ru",
+            "section": "Шар и его свойства"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Solid formulas and a cylinder example are written, but no labelled solid drawing is embedded."
+    },
+    {
+      "id": "mocks.transformations.definitionReviews[0]",
+      "englishTerm": "Translation; reflection; rotation; composition",
+      "russianTerm": "Перенос; отражение; поворот; композиция",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "Фоксфорд Учебник — Преобразование фигур на плоскости",
+          "url": "https://foxford.ru/wiki/matematika/preobrazovanie-figur-na-ploskosti",
+          "language": "ru",
+          "section": "Перенос, поворот, отражение"
+        },
+        {
+          "title": "3.5 Transformation of Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+          "language": "en",
+          "section": "3.5 Transformation of Functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Преобразование фигур на плоскости",
+            "url": "https://foxford.ru/wiki/matematika/preobrazovanie-figur-na-ploskosti",
+            "language": "ru",
+            "section": "Перенос, поворот, отражение"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Coordinate maps and a composition example are written, but no before/after geometry figure is embedded."
+    },
+    {
+      "id": "mocks.transformations.definitionReviews[1]",
+      "englishTerm": "Congruence; similarity; enlargement",
+      "russianTerm": "Равенство; подобие; гомотетия",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "Фоксфорд Учебник — Преобразование фигур на плоскости",
+          "url": "https://foxford.ru/wiki/matematika/preobrazovanie-figur-na-ploskosti",
+          "language": "ru",
+          "section": "Перенос, поворот, отражение"
+        },
+        {
+          "title": "Фоксфорд Учебник — Первый признак подобия треугольников",
+          "url": "https://foxford.ru/wiki/matematika/pervy-priznak-podobiya-treugolnikov",
+          "language": "ru",
+          "section": "Первый признак подобия треугольников"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Преобразование фигур на плоскости",
+            "url": "https://foxford.ru/wiki/matematika/preobrazovanie-figur-na-ploskosti",
+            "language": "ru",
+            "section": "Перенос, поворот, отражение"
+          },
+          {
+            "title": "Фоксфорд Учебник — Первый признак подобия треугольников",
+            "url": "https://foxford.ru/wiki/matematika/pervy-priznak-podobiya-treugolnikov",
+            "language": "ru",
+            "section": "Первый признак подобия треугольников"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Coordinate maps and a composition example are written, but no before/after geometry figure is embedded."
+    },
+    {
+      "id": "mocks.sampling-correlation.definitionReviews[0]",
+      "englishTerm": "Population; sample; random, systematic and stratified sampling",
+      "russianTerm": "Генеральная совокупность; выборка; случайный, систематический и стратифицированный отбор",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "1.2 Data, Sampling, and Variation",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "language": "en",
+          "section": "1.2 Data, Sampling, and Variation"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Sampling and regression are described in prose; no sampling schematic or scatterplot is embedded."
+    },
+    {
+      "id": "mocks.sampling-correlation.definitionReviews[1]",
+      "englishTerm": "Correlation; regression; interpolation; extrapolation",
+      "russianTerm": "Корреляция; регрессия; интерполяция; экстраполяция",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "OpenStax — 12.3 The Regression Equation — Correlation Coefficient",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+          "language": "en",
+          "section": "12.3 The Regression Equation — Correlation Coefficient"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Sampling and regression are described in prose; no sampling schematic or scatterplot is embedded."
+    },
+    {
+      "id": "mocks.quadratic-patterns.definitionReviews[0]",
+      "englishTerm": "Quadratic sequence; second difference; explicit and recursive rules",
+      "russianTerm": "Квадратичная последовательность; вторая разность; явное и рекуррентное правило",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "Oscar Levin — 4.3 Polynomial Sequences — Higher Degree Polynomials",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_seq-polynomial.html",
+          "language": "en",
+          "section": "4.3 Polynomial Sequences — Higher Degree Polynomials"
+        },
+        {
+          "title": "13.2 Arithmetic Sequences",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-2-arithmetic-sequences",
+          "language": "en",
+          "section": "13.2 Arithmetic Sequences"
+        },
+        {
+          "title": "5.1 Quadratic Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+          "language": "en",
+          "section": "5.1 Quadratic Functions"
+        },
+        {
+          "title": "Oscar Levin — Discrete Mathematics: An Open Introduction",
+          "url": "https://discrete.openmathbooks.org/dmoi4/sec_logic-proofs.html",
+          "language": "en",
+          "section": "1.4 Proofs: direct proof and contradiction"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-Russian-adaptation-of-read-English-sources",
+        "scope": "No independently read Russian source is claimed for this record.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The second-difference rule and growing-square example are written; no tile-pattern diagram is embedded."
+    },
+    {
+      "id": "mocks.trig-graphs.definitionReviews[0]",
+      "englishTerm": "Sine, cosine, tangent; period; amplitude; midline",
+      "russianTerm": "Синус, косинус, тангенс; период; амплитуда; средняя линия",
+      "countingUnit": "mock-group-annotation",
+      "sources": [
+        {
+          "title": "Фоксфорд Учебник — Свойства и график синуса",
+          "url": "https://foxford.ru/wiki/matematika/svoistva-funktsiy-sin",
+          "language": "ru",
+          "section": "Периодичность и область значений"
+        },
+        {
+          "title": "Фоксфорд Учебник — Свойства и график косинуса",
+          "url": "https://foxford.ru/wiki/matematika/grafikcos",
+          "language": "ru",
+          "section": "Периодичность и область значений"
+        },
+        {
+          "title": "Фоксфорд Учебник — Свойства и график тангенса",
+          "url": "https://foxford.ru/wiki/matematika/grafiktangensa",
+          "language": "ru",
+          "section": "Периодичность; исключённые значения аргумента"
+        },
+        {
+          "title": "3.5 Transformation of Functions",
+          "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+          "language": "en",
+          "section": "3.5 Transformation of Functions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Russian-primary-section-read; mixed-coverage; text-remains-authored-paraphrase",
+        "scope": "Russian section supports its own named topic, not automatically every term in the combined card; detailed exceptions recorded below.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Свойства и график синуса",
+            "url": "https://foxford.ru/wiki/matematika/svoistva-funktsiy-sin",
+            "language": "ru",
+            "section": "Периодичность и область значений"
+          },
+          {
+            "title": "Фоксфорд Учебник — Свойства и график косинуса",
+            "url": "https://foxford.ru/wiki/matematika/grafikcos",
+            "language": "ru",
+            "section": "Периодичность и область значений"
+          },
+          {
+            "title": "Фоксфорд Учебник — Свойства и график тангенса",
+            "url": "https://foxford.ru/wiki/matematika/grafiktangensa",
+            "language": "ru",
+            "section": "Периодичность; исключённые значения аргумента"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Period/amplitude rules and domains are written, but no trigonometric graph is embedded in this mock."
+    }
+  ],
+  "unverifiedDefinitions": [],
+  "sourceScopeLimitations": [
+    {
+      "record": "functionsAlgebra.subTopicsDetailed.exponential",
+      "limitation": "Russian РЭШ section was read through indexed text; direct access timed out. English OpenStax6.1 independently supports the entire mathematical definition. No claim of directly retrieved Russian article."
+    },
+    {
+      "record": "numberSystems.subTopicsDetailed.bounds",
+      "limitation": "Half-open error interval is an authored derivation from the explicitly stated positive half-up rule, not a verbatim theorem in the rounding reference."
+    },
+    {
+      "record": "statsProb.subTopicsDetailed.cumulativeFreq",
+      "limitation": "Linear within-class interpolation is an authored stated model derived from endpoint totals; sources establish cumulative frequencies/percentiles, not the exact chosen implementation."
+    },
+    {
+      "record": "geometryTrig.subTopicsDetailed.segments",
+      "limitation": "Segment area is explicitly derived by subtracting the sourced triangle area from the sourced sector area; major-arc signed-sine extension is an authored algebraic derivation."
+    }
+  ]
+}

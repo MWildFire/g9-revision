@@ -1,0 +1,3086 @@
+{
+  "subject": "Chemistry",
+  "counts": {
+    "baselineNamedBlocksPerLanguage": 73,
+    "currentNamedDefinitionEntriesPerLanguage": 73,
+    "bilingualPrimaryOccurrences": 146,
+    "primaryDefinitionFields": {
+      "body": 31,
+      "rule": 38,
+      "description": 4
+    },
+    "sourceLanguageClassification": {
+      "authored-RU-adaptation-of-EN-only": 32,
+      "authored-bilingual-paraphrase-with-independently-read-RU-core-support": 13,
+      "authored-RU-adaptation-of-EN-with-RU-context-only": 28
+    },
+    "withFigureOrTable": 18,
+    "withoutFigureOrTable": 55,
+    "distinctSourceURLs": 43,
+    "independentlyReadRUURLs": 8
+  },
+  "countingNotes": [
+    "No exact semantic deduplication total is asserted. Composite blocks define multiple terms; glossary, lesson, simulator and practice occurrences overlap. Baseline named-block counts are 113 biology + 73 chemistry per language.",
+    "RU core support means the defining property was independently read in Russian; it does not mean that every qualifier has a separate Russian-language source. Context-only citations are excluded from that count.",
+    "No new scientific figure is claimed for prose-only entries; the exact omission list is exhaustive for the 186 primary records.",
+    "An exact all-concept count is not defensible from paragraph counts and is deliberately left null.",
+    "Prior finite occurrence and independent science reviews remain separate receipts; this final pass narrowly checked source scope and figure/provenance claims."
+  ],
+  "records": [
+    {
+      "id": "atmosphere.sections.history",
+      "englishTerm": "History of the atmosphere",
+      "russianTerm": "История атмосферы",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Astronomy 2e — 8.4",
+          "url": "https://openstax.org/books/astronomy-2e/pages/8-4-life-chemical-evolution-and-climate-change",
+          "language": "en",
+          "section": "8.4 The Evolution of the Atmosphere"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "History of the atmosphere: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.carbonRocks",
+      "englishTerm": "Carbon locked in rocks",
+      "russianTerm": "Углерод, запертый в горных породах",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Astronomy 2e — 8.3",
+          "url": "https://openstax.org/books/astronomy-2e/pages/8-3-earths-atmosphere",
+          "language": "en",
+          "section": "8.3 Atmospheric Composition: carbonate rocks as carbon reservoirs"
+        },
+        {
+          "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "language": "en",
+          "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Carbon locked in rocks: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.greenhouse",
+      "englishTerm": "Greenhouse effect",
+      "russianTerm": "Парниковый эффект",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Greenhouse effect: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.climateChange.detailed.cause",
+      "englishTerm": "Causes of human-driven climate change",
+      "russianTerm": "Причины антропогенного изменения климата",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Causes of human-driven climate change: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.climateChange.detailed.evidence",
+      "englishTerm": "Evidence climate is changing",
+      "russianTerm": "Доказательства того, что климат меняется",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Evidence climate is changing: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.climateChange.detailed.consequences",
+      "englishTerm": "Consequences",
+      "russianTerm": "Последствия",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Consequences: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.climateChange.detailed.mitigation",
+      "englishTerm": "Mitigation — reducing emissions",
+      "russianTerm": "Смягчение — сокращение выбросов",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "NASA — Mitigation and Adaptation",
+          "url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
+          "language": "en",
+          "section": "Mitigation and Adaptation: emissions, sinks and adjustment to impacts"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Mitigation — reducing emissions: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.climateChange.detailed.adaptation",
+      "englishTerm": "Adaptation — living with changing climate",
+      "russianTerm": "Адаптация — жизнь в меняющемся климате",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "NASA — Mitigation and Adaptation",
+          "url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
+          "language": "en",
+          "section": "Mitigation and Adaptation: emissions, sinks and adjustment to impacts"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Adaptation — living with changing climate: No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.pollutants.detailed.co2",
+      "englishTerm": "Carbon dioxide (CO₂)",
+      "russianTerm": "Углекислый газ (CO₂)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "NASA — Causes of Climate Change",
+          "url": "https://science.nasa.gov/climate-change/causes/",
+          "language": "en",
+          "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
+        },
+        {
+          "title": "NASA — Evidence",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "language": "en",
+          "section": "Global temperature, ocean heat and sea-level observations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Carbon dioxide (CO₂): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.pollutants.detailed.co",
+      "englishTerm": "Carbon monoxide (CO)",
+      "russianTerm": "Угарный газ (CO)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "US EPA — Carbon Monoxide Basics",
+          "url": "https://www.epa.gov/co-pollution/basic-information-about-carbon-monoxide-co-outdoor-air-pollution",
+          "language": "en",
+          "section": "What is CO? What are the harmful effects of CO?"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Carbon monoxide (CO): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.pollutants.detailed.soot",
+      "englishTerm": "Particulates (soot, PM2.5, PM10)",
+      "russianTerm": "Частицы (сажа, PM2.5, PM10)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "US EPA — Particulate Matter Basics",
+          "url": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+          "language": "en",
+          "section": "What is PM? Sources of PM; harmful effects"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Particulates (soot, PM2.5, PM10): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.pollutants.detailed.sox",
+      "englishTerm": "Sulfur dioxide (SO₂)",
+      "russianTerm": "Диоксид серы (SO₂)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "US EPA — Sulfur Dioxide Basics",
+          "url": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics",
+          "language": "en",
+          "section": "Sources of SO₂; health and environmental effects"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Sulfur dioxide (SO₂): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "atmosphere.sections.pollutants.detailed.nox",
+      "englishTerm": "Nitrogen oxides (NOx)",
+      "russianTerm": "Оксиды азота (NOx)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "US EPA — Basic Information about NO₂",
+          "url": "https://www.epa.gov/no2-pollution/basic-information-about-no2",
+          "language": "en",
+          "section": "Formation of NO₂; ozone, particles and acid rain"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Nitrogen oxides (NOx): No atmospheric dataset or reservoir model is supplied for this term; processes, evidence types and response categories are distinguished in prose."
+    },
+    {
+      "id": "rates.sections.definition",
+      "englishTerm": "What is rate?",
+      "russianTerm": "Что такое скорость?",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian reaction-rate section directly defines change per time; choice of observable and stoichiometric normalisation use EN qualifications.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Illustrative gas-volume/time curves, shared endpoint and differing rate constants; not measured data."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "rates.sections.collision",
+      "englishTerm": "Collision theory",
+      "russianTerm": "Теория столкновений",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU rate-factor overview is contextual; the graph-gradient definition, productive-collision model and controlled experiment are authored using EN kinetics.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Collision theory: No molecular-collision or orientation animation is implemented; the rate-time graph does not depict collision mechanisms."
+    },
+    {
+      "id": "rates.sections.factors.detailed.temperature",
+      "englishTerm": "Temperature",
+      "russianTerm": "Температура",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian source describes temperature effects; the rejection of a universal doubling rule and activation-barrier explanation use EN kinetics.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Temperature: No particle distribution, surface geometry or mechanism figure is implemented for this factor; the two rate curves only compare illustrative effective rate constants."
+    },
+    {
+      "id": "rates.sections.factors.detailed.concentration",
+      "englishTerm": "Concentration (and pressure for gases)",
+      "russianTerm": "Концентрация (и давление для газов)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian source describes concentration/pressure effects; experimentally determined reaction order is an EN qualification.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Concentration (and pressure for gases): No particle distribution, surface geometry or mechanism figure is implemented for this factor; the two rate curves only compare illustrative effective rate constants."
+    },
+    {
+      "id": "rates.sections.factors.detailed.surfaceArea",
+      "englishTerm": "Surface area (of solids)",
+      "russianTerm": "Площадь поверхности (твёрдых веществ)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian source directly describes exposed surface area affecting heterogeneous reaction rate; unchanged theoretical amount is the author’s stoichiometric clarification.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Surface area (of solids): No particle distribution, surface geometry or mechanism figure is implemented for this factor; the two rate curves only compare illustrative effective rate constants."
+    },
+    {
+      "id": "rates.sections.factors.detailed.catalyst",
+      "englishTerm": "Catalyst",
+      "russianTerm": "Катализатор",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 12.7 Catalysis: alternative reaction pathways",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+          "language": "en",
+          "section": "12.7 Catalysis: alternative reaction pathways"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle; catalysts",
+          "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+          "language": "en",
+          "section": "13.3 Shifting Equilibria: Le Châtelier’s Principle; catalysts"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian kinetics source identifies catalytic rate change; regeneration, multistep pathway and unchanged equilibrium use targeted EN sections.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Catalyst: No particle distribution, surface geometry or mechanism figure is implemented for this factor; the two rate curves only compare illustrative effective rate constants."
+    },
+    {
+      "id": "rates.sections.graphs",
+      "englishTerm": "Drawing rate graphs",
+      "russianTerm": "Графики скорости",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU rate-factor overview is contextual; the graph-gradient definition, productive-collision model and controlled experiment are authored using EN kinetics.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/ReactionRateGraph.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Illustrative gas-volume/time curves, shared endpoint and differing rate constants; not measured data."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "rates.sections.experiments",
+      "englishTerm": "Carrying out a rate experiment",
+      "russianTerm": "Эксперимент по скорости",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU rate-factor overview is contextual; the graph-gradient definition, productive-collision model and controlled experiment are authored using EN kinetics.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Carrying out a rate experiment: This is an experimental-reasoning procedure, not an anatomical structure. Ordered steps and concrete variables carry the definition; no decorative process graphic is added."
+    },
+    {
+      "id": "simulations.atomBuilder",
+      "englishTerm": "Atom Builder",
+      "russianTerm": "Конструктор атома",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "language": "en",
+          "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU electron-shell lesson supports the shell picture only; the simulator’s isotope-count and display conventions are an author-designed EN-supported model.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+            "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+            "language": "ru",
+            "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Neutral first-20-element shell populations and specified example isotope; rings are not trajectories."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atomsPeriodic.sections.atomicStructure",
+      "englishTerm": "Atomic structure",
+      "russianTerm": "Строение атома",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "language": "en",
+          "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU electron-shell lesson is contextual; isotope/atom identity, IUPAC group numbering and property-specific trends require the cited EN/IUPAC sources.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+            "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+            "language": "ru",
+            "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Neutral first-20-element shell populations and specified example isotope; rings are not trajectories."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atomsPeriodic.sections.isotopes",
+      "englishTerm": "Isotopes",
+      "russianTerm": "Изотопы",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "language": "en",
+          "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+        },
+        {
+          "title": "МАГАТЭ — Что такое изотопы?",
+          "url": "https://www.iaea.org/ru/newscenter/news/chto-takoe-izotopy",
+          "language": "ru",
+          "section": "Что такое изотопы: число протонов и нейтронов"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "IAEA Russian explanation directly defines equal proton count and differing neutron count; kinetic isotope effects are an EN qualification.",
+        "independentRussianSources": [
+          {
+            "title": "МАГАТЭ — Что такое изотопы?",
+            "url": "https://www.iaea.org/ru/newscenter/news/chto-takoe-izotopy",
+            "language": "ru",
+            "section": "Что такое изотопы: число протонов и нейтронов"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "path": "atomsPeriodic.sections.isotopes.review.visual",
+          "renderer": "src/components/content/DefinitionSupport.tsx",
+          "kind": "comparison",
+          "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atomsPeriodic.sections.electronConfig",
+      "englishTerm": "Electronic configuration",
+      "russianTerm": "Электронная конфигурация",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "language": "en",
+          "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian electron-shell chapter directly supports levels, orbitals and filling; first-20-element scope and no planetary trajectories are explicit model qualifications.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+            "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+            "language": "ru",
+            "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/AtomBuilder.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Neutral first-20-element shell populations and specified example isotope; rings are not trajectories."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "atomsPeriodic.sections.periodicTable",
+      "englishTerm": "Reading the periodic table",
+      "russianTerm": "Чтение таблицы",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.5 The Periodic Table: groups and periods",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+          "language": "en",
+          "section": "2.5 The Periodic Table: groups and periods"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU electron-shell lesson is contextual; isotope/atom identity, IUPAC group numbering and property-specific trends require the cited EN/IUPAC sources.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+            "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+            "language": "ru",
+            "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Reading the periodic table: No periodic-table grid is implemented in this component; the atom builder does not display group numbering or period layout."
+    },
+    {
+      "id": "atomsPeriodic.sections.trends",
+      "englishTerm": "Periodic trends",
+      "russianTerm": "Периодические тренды",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 2.5 The Periodic Table: groups and periods",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+          "language": "en",
+          "section": "2.5 The Periodic Table: groups and periods"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "language": "en",
+          "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
+        },
+        {
+          "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+          "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+          "language": "ru",
+          "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 6.5 Periodic Variations in Element Properties",
+          "url": "https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties",
+          "language": "en",
+          "section": "6.5 Periodic Variations in Element Properties"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU electron-shell lesson is contextual; isotope/atom identity, IUPAC group numbering and property-specific trends require the cited EN/IUPAC sources.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
+            "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
+            "language": "ru",
+            "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Periodic trends: No property-versus-element dataset is plotted; AtomBuilder does not depict periodic trends or oxidising power."
+    },
+    {
+      "id": "bonding.sections.ionic",
+      "englishTerm": "Ionic bonding",
+      "russianTerm": "Ионная связь",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Ionic bonding: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
+    },
+    {
+      "id": "bonding.sections.covalent",
+      "englishTerm": "Covalent bonding",
+      "russianTerm": "Ковалентная связь",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Covalent bonding: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
+    },
+    {
+      "id": "bonding.sections.metallic",
+      "englishTerm": "Metallic bonding",
+      "russianTerm": "Металлическая связь",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Metallic bonding: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
+    },
+    {
+      "id": "bonding.sections.comparison.detailed.ionic",
+      "englishTerm": "Ionic structures",
+      "russianTerm": "Ионные структуры",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Ionic structures: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
+    },
+    {
+      "id": "bonding.sections.comparison.detailed.simpleCovalent",
+      "englishTerm": "Simple molecular (covalent)",
+      "russianTerm": "Простая молекулярная (ковалентная)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Simple molecular (covalent): No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
+    },
+    {
+      "id": "bonding.sections.comparison.detailed.giantCovalent",
+      "englishTerm": "Giant covalent (macromolecular)",
+      "russianTerm": "Гигантская ковалентная (макромолекулярная)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Giant covalent (macromolecular): No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
+    },
+    {
+      "id": "bonding.sections.comparison.detailed.metallic",
+      "englishTerm": "Metallic bonding",
+      "russianTerm": "Металлическая связь",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Metallic bonding: No lattice, orbital-sharing or metallic-electron diagram is implemented; AtomBuilder depicts isolated atoms and cannot stand in for a bonding model."
+    },
+    {
+      "id": "reactions.sections.types.detailed.combination",
+      "englishTerm": "Combination (synthesis)",
+      "russianTerm": "Соединение (синтез)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Combination (synthesis): Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "reactions.sections.types.detailed.decomposition",
+      "englishTerm": "Decomposition",
+      "russianTerm": "Разложение",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Decomposition: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "reactions.sections.types.detailed.displacement",
+      "englishTerm": "Single displacement",
+      "russianTerm": "Замещение",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Single displacement: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "reactions.sections.types.detailed.doubleDisplacement",
+      "englishTerm": "Double displacement (precipitation)",
+      "russianTerm": "Двойное замещение (осаждение)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Double displacement (precipitation): Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "reactions.sections.types.detailed.combustion",
+      "englishTerm": "Combustion",
+      "russianTerm": "Горение",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Combustion: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "reactions.sections.balancing",
+      "englishTerm": "Balancing equations — step by step",
+      "russianTerm": "Уравнивание — пошагово",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.1 Writing and Balancing Chemical Equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+          "language": "en",
+          "section": "4.1 Writing and Balancing Chemical Equations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Balancing equations — step by step: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "reactions.sections.stateSymbols",
+      "englishTerm": "State symbols",
+      "russianTerm": "Символы состояния",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.1 Writing and Balancing Chemical Equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+          "language": "en",
+          "section": "4.1 Writing and Balancing Chemical Equations"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "State symbols: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "reactions.sections.ionic",
+      "englishTerm": "Ionic equations",
+      "russianTerm": "Ионные уравнения",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Ionic equations: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "simulations.moleCalc",
+      "englishTerm": "Mole Calculator",
+      "russianTerm": "Калькулятор молей",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU amount-of-substance lesson supports moles, not the entire ideal-gas temperature/pressure convention used by this author-designed calculator.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Mole Calculator: This is a numeric converter with explicit input/output units and domain checks; it has no scientific figure to count."
+    },
+    {
+      "id": "stoichiometry.sections.moles",
+      "englishTerm": "The mole",
+      "russianTerm": "Моль",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian amount-of-substance lesson supports entity counting and n=m/M; exact SI constant and specified entities use EN/SI corroboration.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The mole: The definition is a quantitative relation stated with units and a worked calculation. The numeric mole calculator is supporting interaction, not a diagram of this concept."
+    },
+    {
+      "id": "stoichiometry.sections.molarMass",
+      "englishTerm": "Molar mass",
+      "russianTerm": "Молярная масса",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian source directly defines mass per mole; relative-mass versus isotope mass-number distinctions use EN corroboration.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Molar mass: The definition is a quantitative relation stated with units and a worked calculation. The numeric mole calculator is supporting interaction, not a diagram of this concept."
+    },
+    {
+      "id": "stoichiometry.sections.calculations",
+      "englishTerm": "Reaction calculations",
+      "russianTerm": "Расчёт реакций",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU mole lesson is contextual; balanced reaction ratios, limiting reactant and experimental yield definitions use EN stoichiometry.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "stoichiometry.sections.calculations.review.visual",
+          "renderer": "src/components/content/DefinitionSupport.tsx",
+          "kind": "flow",
+          "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "stoichiometry.sections.limiting",
+      "englishTerm": "Limiting reactant",
+      "russianTerm": "Ограничивающий реагент",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU mole lesson is contextual; balanced reaction ratios, limiting reactant and experimental yield definitions use EN stoichiometry.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Limiting reactant: The definition is a quantitative relation stated with units and a worked calculation. The numeric mole calculator is supporting interaction, not a diagram of this concept."
+    },
+    {
+      "id": "stoichiometry.sections.percentYield",
+      "englishTerm": "Percent yield",
+      "russianTerm": "Процентный выход",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU mole lesson is contextual; balanced reaction ratios, limiting reactant and experimental yield definitions use EN stoichiometry.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Percent yield: The definition is a quantitative relation stated with units and a worked calculation. The numeric mole calculator is supporting interaction, not a diagram of this concept."
+    },
+    {
+      "id": "acidsBases.sections.definitions.detailed.acid",
+      "englishTerm": "Acid",
+      "russianTerm": "Кислота",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Acid: No proton-transfer particle diagram is implemented for this definition; the pH-colour bar does not depict acid/base structure or salt formation."
+    },
+    {
+      "id": "acidsBases.sections.definitions.detailed.base",
+      "englishTerm": "Base",
+      "russianTerm": "Основание",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian bases section explicitly gives the proton-acceptor theory; broader school metal-oxide classification is distinguished in the author’s wording.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Base: No proton-transfer particle diagram is implemented for this definition; the pH-colour bar does not depict acid/base structure or salt formation."
+    },
+    {
+      "id": "acidsBases.sections.definitions.detailed.alkali",
+      "englishTerm": "Alkali",
+      "russianTerm": "Щёлочь",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "acidsBases.sections.definitions.detailed.alkali.review.visual",
+          "renderer": "src/components/content/DefinitionSupport.tsx",
+          "kind": "comparison",
+          "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "acidsBases.sections.definitions.detailed.salt",
+      "englishTerm": "Salt",
+      "russianTerm": "Соль",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура солей",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-soley",
+          "language": "ru",
+          "section": "Классификация и номенклатура солей"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian salts chapter supports cation/acid-residue school definition; broader electrically neutral ionic-compound wording and non-neutral solutions use EN sources.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура солей",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-soley",
+            "language": "ru",
+            "section": "Классификация и номенклатура солей"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Salt: No proton-transfer particle diagram is implemented for this definition; the pH-colour bar does not depict acid/base structure or salt formation."
+    },
+    {
+      "id": "acidsBases.sections.pH",
+      "englishTerm": "pH scale",
+      "russianTerm": "Шкала pH",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "simulations.phIndicator",
+      "englishTerm": "pH Indicator",
+      "russianTerm": "Индикатор pH",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU acid/base classifications are contextual; the pH/indicator simulator’s 25 °C scale and approximate transition colours use EN sources.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "reactions.sections.types.detailed.neutralisation",
+      "englishTerm": "Neutralisation",
+      "russianTerm": "Нейтрализация",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU classifications are contextual; the broader acid–base reaction definition and equivalence/pH limits use EN chemistry.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Neutralisation: Balanced symbolic equations already show the stated reactant/product relationship. No additional particle-mechanism figure is implemented for this classification or notation."
+    },
+    {
+      "id": "acidsBases.sections.reactions.detailed.metal",
+      "englishTerm": "Acid + reactive metal → salt + hydrogen",
+      "russianTerm": "Кислота + активный металл → соль + водород",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Acid + reactive metal → salt + hydrogen: The balanced molecular/net ionic equations express the reaction. No particle-mechanism or apparatus figure is implemented."
+    },
+    {
+      "id": "acidsBases.sections.reactions.detailed.base",
+      "englishTerm": "Acid + base → salt + water (no gas)",
+      "russianTerm": "Кислота + основание → соль + вода (без газа)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Acid + base → salt + water (no gas): The balanced molecular/net ionic equations express the reaction. No particle-mechanism or apparatus figure is implemented."
+    },
+    {
+      "id": "acidsBases.sections.reactions.detailed.carbonate",
+      "englishTerm": "Acid + carbonate → salt + water + CO₂",
+      "russianTerm": "Кислота + карбонат → соль + вода + CO₂",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Acid + carbonate → salt + water + CO₂: The balanced molecular/net ionic equations express the reaction. No particle-mechanism or apparatus figure is implemented."
+    },
+    {
+      "id": "acidsBases.sections.reactions.detailed.alkali",
+      "englishTerm": "Acid + alkali → salt + water (neutralisation)",
+      "russianTerm": "Кислота + щёлочь → соль + вода (нейтрализация)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.1 Brønsted–Lowry Acids and Bases",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+          "language": "en",
+          "section": "14.1 Brønsted–Lowry Acids and Bases"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 14.2 pH and pOH: logarithmic scale and neutral water",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "language": "en",
+          "section": "14.2 pH and pOH: logarithmic scale and neutral water"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: acid–base reactions, antacids, metal displacement"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Acid + alkali → salt + water (neutralisation): The balanced molecular/net ionic equations express the reaction. No particle-mechanism or apparatus figure is implemented."
+    },
+    {
+      "id": "acidsBases.sections.indicators.detailed.litmus",
+      "englishTerm": "Litmus",
+      "russianTerm": "Лакмус",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "acidsBases.sections.indicators.detailed.phenolphthalein",
+      "englishTerm": "Phenolphthalein",
+      "russianTerm": "Фенолфталеин",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "acidsBases.sections.indicators.detailed.universal",
+      "englishTerm": "Universal indicator",
+      "russianTerm": "Универсальный индикатор",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/PHIndicator.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "Approximate indicator colours at 25 °C with numeric labels; no inference of acid/base strength."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "acidsBases.sections.indicators.detailed.methylOrange",
+      "englishTerm": "Methyl orange (bonus)",
+      "russianTerm": "Метилоранж (бонус)",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+          "language": "ru",
+          "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+        },
+        {
+          "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+          "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+          "language": "ru",
+          "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU inorganic acid/base classification is contextual for this exact modern model, pH activity definition, reaction condition or indicator transition range.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура кислот: электролитическая диссоциация",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-kislot",
+            "language": "ru",
+            "section": "Классификация и номенклатура кислот: электролитическая диссоциация"
+          },
+          {
+            "title": "Фоксфорд Учебник — Классификация и номенклатура оснований: три теории; растворимость и щёлочи",
+            "url": "https://foxford.ru/wiki/himiya/klassifikatsiya-i-nomenklatura-osnovaniy",
+            "language": "ru",
+            "section": "Классификация и номенклатура оснований: три теории; растворимость и щёлочи"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Methyl orange (bonus): The existing indicator simulator has no methyl-orange mode; its transition interval and endpoint condition are therefore described in text only."
+    },
+    {
+      "id": "simulations.energyProfile",
+      "englishTerm": "Energy Profile Diagram",
+      "russianTerm": "Диаграмма энергетического профиля",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 12.7 Catalysis: alternative reaction pathways",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+          "language": "en",
+          "section": "12.7 Catalysis: alternative reaction pathways"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU heat-effect material is contextual; reaction-coordinate barriers, gas-phase mean bond enthalpy or calorimetric sign/accounting use EN textbook sections.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+            "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+            "language": "ru",
+            "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "One-barrier reaction-coordinate model of enthalpy difference and activation barrier; not time or mechanism."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "energy.sections.types.detailed.exothermic",
+      "englishTerm": "Exothermic reactions",
+      "russianTerm": "Экзотермические реакции",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian thermochemistry lesson directly supports heat release. Its Q convention is distinguished from the EN system-enthalpy sign convention.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+            "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+            "language": "ru",
+            "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "One-barrier reaction-coordinate model of enthalpy difference and activation barrier; not time or mechanism."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "energy.sections.types.detailed.endothermic",
+      "englishTerm": "Endothermic reactions",
+      "russianTerm": "Эндотермические реакции",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-bilingual-paraphrase-with-independently-read-RU-core-support",
+        "scope": "Russian thermochemistry lesson directly supports heat absorption. The EN constant-pressure ΔH convention is explicitly stated.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+            "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+            "language": "ru",
+            "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+          }
+        ],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "One-barrier reaction-coordinate model of enthalpy difference and activation barrier; not time or mechanism."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "energy.sections.profiles",
+      "englishTerm": "Energy profile diagrams",
+      "russianTerm": "Энергетические профили",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 12.7 Catalysis: alternative reaction pathways",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+          "language": "en",
+          "section": "12.7 Catalysis: alternative reaction pathways"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU heat-effect material is contextual; reaction-coordinate barriers, gas-phase mean bond enthalpy or calorimetric sign/accounting use EN textbook sections.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+            "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+            "language": "ru",
+            "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/simulations/chemistry/EnergyProfile.tsx",
+          "kind": "existing or added explanatory figure/table",
+          "scope": "One-barrier reaction-coordinate model of enthalpy difference and activation barrier; not time or mechanism."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "energy.sections.bondEnergies",
+      "englishTerm": "Bond energies",
+      "russianTerm": "Энергии связей",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.3 Enthalpy: reaction enthalpy and thermochemical equations",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "language": "en",
+          "section": "5.3 Enthalpy: reaction enthalpy and thermochemical equations"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.5 Strengths of Ionic and Covalent Bonds: bond energies",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+          "language": "en",
+          "section": "7.5 Strengths of Ionic and Covalent Bonds: bond energies"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU heat-effect material is contextual; reaction-coordinate barriers, gas-phase mean bond enthalpy or calorimetric sign/accounting use EN textbook sections.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+            "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+            "language": "ru",
+            "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Bond energies: No bond-breaking/forming molecular diagram is implemented; a generic energy profile does not show which bonds are counted in a mean-enthalpy estimate."
+    },
+    {
+      "id": "energy.sections.calorimetry",
+      "englishTerm": "Calorimetry",
+      "russianTerm": "Калориметрия",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 5.2 Calorimetry: heat transfer and temperature change",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "language": "en",
+          "section": "5.2 Calorimetry: heat transfer and temperature change"
+        },
+        {
+          "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+          "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+          "language": "ru",
+          "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "RU heat-effect material is contextual; reaction-coordinate barriers, gas-phase mean bond enthalpy or calorimetric sign/accounting use EN textbook sections.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Тепловой эффект: экзотермические и эндотермические реакции",
+            "url": "https://foxford.ru/wiki/himiya/teplovoy-effekt-himicheskoy-reaktsii-ekzo-i-endotermicheskie-reaktsii",
+            "language": "ru",
+            "section": "Тепловой эффект: экзотермические и эндотермические реакции"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Calorimetry: No calorimeter apparatus or experimental temperature trace is supplied; heat-accounting signs and approximations are expressed algebraically."
+    },
+    {
+      "id": "extras.organic",
+      "englishTerm": "Organic chemistry — intro",
+      "russianTerm": "Введение в органическую химию",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 20.1 Hydrocarbons: alkanes and alkenes",
+          "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+          "language": "en",
+          "section": "20.1 Hydrocarbons: alkanes and alkenes"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 20.2 Alcohols and Ethers: alcohol functional group",
+          "url": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
+          "language": "en",
+          "section": "20.2 Alcohols and Ethers: alcohol functional group"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters: carboxylic acids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+          "language": "en",
+          "section": "20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters: carboxylic acids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Organic chemistry — intro: No structural-formula comparison is drawn; formula and functional-group conditions are stated explicitly in prose."
+    },
+    {
+      "id": "extras.redox",
+      "englishTerm": "Redox reactions",
+      "russianTerm": "Окислительно-восстановительные реакции",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 4.2 Classifying Chemical Reactions: precipitation, acid–base and redox",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "language": "en",
+          "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Redox reactions: No electron-transfer figure is implemented; oxidation-number bookkeeping and agent roles are given in text."
+    },
+    {
+      "id": "extras.electrochem",
+      "englishTerm": "Electrochemistry",
+      "russianTerm": "Электрохимия",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 17.7 Electrolysis: electrolytic cells",
+          "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+          "language": "en",
+          "section": "17.7 Electrolysis: electrolytic cells"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Electrochemistry: No electrolytic-cell circuit is drawn; electrode reaction and polarity conventions are stated explicitly in prose."
+    },
+    {
+      "id": "extras.equilibrium",
+      "englishTerm": "Dynamic equilibrium — intro",
+      "russianTerm": "Динамическое равновесие — введение",
+      "countingUnit": "named definition block",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 13.1 Chemical Equilibria: dynamic equilibrium",
+          "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+          "language": "en",
+          "section": "13.1 Chemical Equilibria: dynamic equilibrium"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle; catalysts",
+          "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+          "language": "en",
+          "section": "13.3 Shifting Equilibria: Le Châtelier’s Principle; catalysts"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian-language publication is cited for this definition. Russian wording is an authored adaptation of the cited English-language sources; it is not a published Russian quotation.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [
+        {
+          "path": "extras.equilibrium.review.visual",
+          "renderer": "src/components/content/DefinitionSupport.tsx",
+          "kind": "comparison",
+          "scope": "The comparison or flow explicitly encoded in this record; broader topic coverage is not implied."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "lessons.8.definitionReviews.0",
+      "englishTerm": "Reaction calculations",
+      "russianTerm": "Расчёт реакций",
+      "countingUnit": "shared practice review group",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "Russian mole source supports quantities, but the reaction-calculation ratio and limiting-reactant process are authored from EN stoichiometry.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/data/mocks.json:lessons.8.definitionReviews.0.visual",
+          "renderer": "src/components/content/DefinitionSupport.tsx",
+          "kind": "flow",
+          "scope": "Mass→amount→balanced ratio→product mass flow only."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "lessons.8.definitionReviews.1",
+      "englishTerm": "Titration; yield; empirical formula",
+      "russianTerm": "Титрование; выход; эмпирическая формула",
+      "countingUnit": "shared practice review group",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 14.7 Acid–Base Titrations: equivalence points and indicators",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+          "language": "en",
+          "section": "14.7 Acid–Base Titrations: equivalence points and indicators"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 4.4 Reaction Yields: limiting reactants and percentage yield",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "language": "en",
+          "section": "4.4 Reaction Yields: limiting reactants and percentage yield"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 3.1 Formula Mass and the Mole Concept",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "language": "en",
+          "section": "3.1 Formula Mass and the Mole Concept"
+        },
+        {
+          "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+          "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+          "language": "ru",
+          "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 3.2 Determining Empirical and Molecular Formulas",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-2-determining-empirical-and-molecular-formulas",
+          "language": "en",
+          "section": "3.2 Determining Empirical and Molecular Formulas"
+        },
+        {
+          "title": "American Chemical Society — 12 Principles of Green Chemistry",
+          "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
+          "language": "en",
+          "section": "Principle 2: Atom Economy, Michael Cann; formula and distinction from yield"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 3.2 Determining Empirical and Molecular Formulas",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-2-determining-empirical-and-molecular-formulas",
+          "language": "en",
+          "section": "3.2 Determining Empirical and Molecular Formulas"
+        },
+        {
+          "title": "American Chemical Society — 12 Principles of Green Chemistry",
+          "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
+          "language": "en",
+          "section": "Principle 2: Atom Economy, Michael Cann; formula and distinction from yield"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "Russian mole source is contextual; titration, yield, empirical formula and atom economy use the exact EN sections.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Основные понятия, моль: количество вещества, молярная масса и концентрация",
+            "url": "https://foxford.ru/wiki/himiya/osnovnye-ponyatiya-mol",
+            "language": "ru",
+            "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The balanced equations, formula ratios and endpoint/equivalence distinction are described in prose; no titration curve or particle-ratio figure is implemented."
+    },
+    {
+      "id": "lessons.9.definitionReviews.0",
+      "englishTerm": "Nanoparticle; surface-area-to-volume ratio",
+      "russianTerm": "Наночастица; отношение поверхности к объёму",
+      "countingUnit": "shared practice review group",
+      "sources": [
+        {
+          "title": "US National Nanotechnology Initiative — About Nanotechnology",
+          "url": "https://www.nano.gov/about-nanotechnology/",
+          "language": "en",
+          "section": "Nanotechnology definition; nanoscale and material properties"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 12.5 Collision Theory: activation energy and orientation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "language": "en",
+          "section": "12.5 Collision Theory: activation energy and orientation"
+        },
+        {
+          "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+          "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+          "language": "ru",
+          "section": "Скорость химической реакции: влияющие факторы"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 12.7 Catalysis: alternative reaction pathways",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+          "language": "en",
+          "section": "12.7 Catalysis: alternative reaction pathways"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-with-RU-context-only",
+        "scope": "Russian rate-factor source supports surface-rate context, not the nanoscale size definition or geometrical ratio; EN NNI material and the explicit cube derivation supply these.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд Учебник — Скорость химической реакции: влияющие факторы",
+            "url": "https://foxford.ru/wiki/himiya/skorost-himicheskoy-reaktsii",
+            "language": "ru",
+            "section": "Скорость химической реакции: влияющие факторы"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No particle-size geometry or S/V plot is implemented; the cube derivation S/V=6/a and its inverse-length units are explicit."
+    },
+    {
+      "id": "lessons.9.definitionReviews.1",
+      "englishTerm": "Ionic bonding",
+      "russianTerm": "Ионная связь",
+      "countingUnit": "shared practice review group",
+      "sources": [
+        {
+          "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+          "language": "en",
+          "section": "7.1 Ionic Bonding: formation of ionic compounds"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+          "language": "en",
+          "section": "7.2 Covalent Bonding: shared electrons"
+        },
+        {
+          "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "language": "en",
+          "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-RU-adaptation-of-EN-only",
+        "scope": "No independently read Russian source is cited; Russian wording is an authored adaptation of the cited EN textbook.",
+        "independentRussianSources": [],
+        "contextOnlyRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No ionic lattice diagram is implemented; the prose distinguishes ion formation from electrostatic bonding and mobile ions from fixed lattice positions."
+    }
+  ],
+  "unverifiedDefinitions": [],
+  "closedSourceGaps": [
+    {
+      "subject": "chemistry",
+      "path": "acidsBases.sections.reactions.detailed.alkali.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "acidsBases.sections.reactions.detailed.base.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "acidsBases.sections.reactions.detailed.carbonate.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "acidsBases.sections.reactions.detailed.metal.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "atomsPeriodic.sections.trends.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "energy.sections.bondEnergies.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "energy.sections.profiles.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "extras.equilibrium.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "extras.organic.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "extras.rates.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "rates.sections.factors.detailed.catalyst.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "reactions.sections.balancing.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "reactions.sections.stateSymbols.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "reactions.sections.types.detailed.neutralisation.review.sources"
+    },
+    {
+      "subject": "chemistry",
+      "path": "simulations.energyProfile.review.sources"
+    }
+  ]
+}

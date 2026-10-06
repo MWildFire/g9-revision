@@ -228,7 +228,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       {
         "title": "Academy of American Poets — Glossary",
         "url": "https://poets.org/glossary",
-        "section": "Named entries: hyperbole, irony, symbol, tone, rhetorical question",
+        "section": "Hyperbole",
         "language": "en"
       },
       {
@@ -294,7 +294,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       {
         "title": "Academy of American Poets — Glossary",
         "url": "https://poets.org/glossary",
-        "section": "Named entries: hyperbole, irony, symbol, tone, rhetorical question",
+        "section": "Onomatopoeia",
         "language": "en"
       },
       {
@@ -320,7 +320,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       {
         "title": "Academy of American Poets — Glossary",
         "url": "https://poets.org/glossary",
-        "section": "Named entries: hyperbole, irony, symbol, tone, rhetorical question",
+        "section": "Irony",
         "language": "en"
       },
       {
@@ -346,7 +346,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       {
         "title": "Academy of American Poets — Glossary",
         "url": "https://poets.org/glossary",
-        "section": "Named entries: hyperbole, irony, symbol, tone, rhetorical question",
+        "section": "Symbol",
         "language": "en"
       }
     ],
@@ -507,9 +507,9 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "British Council — Present tense",
-        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-tense",
-        "section": "Present forms; present and future reference",
+        "title": "British Council — Talking about the future",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/talking-about-future",
+        "section": "Present forms, will and going to for future reference",
         "language": "en"
       }
     ],
@@ -820,6 +820,12 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
+        "title": "Merriam-Webster — literal",
+        "url": "https://www.merriam-webster.com/dictionary/literal",
+        "section": "Adjective sense 1b: explicit wording and ordinary meaning",
+        "language": "en"
+      },
+      {
         "title": "Purdue OWL — Argumentative essays",
         "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
         "section": "Structure, evidence and transitions",
@@ -857,6 +863,12 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
     },
     "sources": [
+      {
+        "title": "Merriam-Webster — analyze",
+        "url": "https://www.merriam-webster.com/dictionary/analyze",
+        "section": "Transitive verb senses 1–2: components, relationships and grammatical analysis",
+        "language": "en"
+      },
       {
         "title": "Purdue OWL — Argumentative essays",
         "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
@@ -1014,9 +1026,9 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "Purdue OWL — Argumentative essays",
-        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
-        "section": "Structure, evidence and transitions",
+        "title": "Merriam-Webster — guide",
+        "url": "https://www.merriam-webster.com/dictionary/guide",
+        "section": "Noun sense 1e: a resource providing information",
         "language": "en"
       }
     ]
@@ -1186,6 +1198,12 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
         "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/establishing_arguments/index.html",
         "section": "Strong thesis statements and evidence",
         "language": "en"
+      },
+      {
+        "title": "Purdue OWL — Logical Fallacies",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/logic_in_argumentative_writing/fallacies.html",
+        "section": "Either/or, Ad hominem, Straw Man",
+        "language": "en"
       }
     ]
   },
@@ -1198,9 +1216,21 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "Academy of American Poets — Glossary",
-        "url": "https://poets.org/glossary",
-        "section": "Named entries: hyperbole, irony, symbol, tone, rhetorical question",
+        "title": "Academy of American Poets — William Shakespeare",
+        "url": "https://poets.org/poet/william-shakespeare",
+        "section": "Biography; sonnets and dramatic works",
+        "language": "en"
+      },
+      {
+        "title": "Academy of American Poets — Iambic Pentameter",
+        "url": "https://poets.org/glossary/iambic-pentameter",
+        "section": "Definition and use",
+        "language": "en"
+      },
+      {
+        "title": "Royal Shakespeare Company — A Midsummer Night’s Dream",
+        "url": "https://www.rsc.org.uk/a-midsummer-nights-dream/",
+        "section": "Play introduction: comedy",
         "language": "en"
       }
     ]
@@ -1260,6 +1290,30 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
         "url": "https://www.merriam-webster.com/dictionary/notwithstanding",
         "section": "Learner-relevant sense",
         "language": "en"
+      },
+      {
+        "title": "Merriam-Webster — furthermore",
+        "url": "https://www.merriam-webster.com/dictionary/furthermore",
+        "section": "Adverb definition: addition",
+        "language": "en"
+      },
+      {
+        "title": "Merriam-Webster — moreover",
+        "url": "https://www.merriam-webster.com/dictionary/moreover",
+        "section": "Adverb definition: addition",
+        "language": "en"
+      },
+      {
+        "title": "Merriam-Webster — consequently",
+        "url": "https://www.merriam-webster.com/dictionary/consequently",
+        "section": "Adverb definition: consequence",
+        "language": "en"
+      },
+      {
+        "title": "Merriam-Webster — therefore",
+        "url": "https://www.merriam-webster.com/dictionary/therefore",
+        "section": "Adverb definition: consequence",
+        "language": "en"
       }
     ]
   },
@@ -1290,7 +1344,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       {
         "title": "Academy of American Poets — Glossary",
         "url": "https://poets.org/glossary",
-        "section": "Named entries: hyperbole, irony, symbol, tone, rhetorical question",
+        "section": "Entries: Meter, Rhyme, Stanza, Tone, Imagery",
         "language": "en"
       }
     ]

@@ -3,6 +3,7 @@ export type CommandTerm =
   | 'describe'
   | 'explain'
   | 'compare'
+  | 'compareContrast'
   | 'evaluate'
   | 'calculate';
 
@@ -63,15 +64,15 @@ export const FORCE_MOTION_QUESTIONS: PracticeQuestion[] = [
   },
   {
     "id": "fm-4",
-    "commandTerm": "compare",
+    "commandTerm": "compareContrast",
     "criterion": "A",
     "marks": 4,
     "en": {
-      "question": "Compare Newton's First Law and Newton's Third Law, giving an example of each.",
+      "question": "Compare and contrast Newton's First Law and Newton's Third Law, giving an example of each.",
       "answer": "Newton's First Law is about a single object: it stays at rest or moves at constant velocity unless a resultant force acts on it (e.g. a book on a desk stays still). Whereas Newton's Third Law is about pairs of objects: every action force has an equal and opposite reaction force (e.g. a rocket pushes gas downward, the gas pushes the rocket upward). Both involve forces, but the First Law explains motion of one object, whereas the Third Law links forces between two objects."
     },
     "ru": {
-      "question": "Сравни первый и третий законы Ньютона, приведя пример к каждому.",
+      "question": "Укажи сходства и различия: первый и третий законы Ньютона, приведя пример к каждому.",
       "answer": "Первый закон Ньютона — про один объект: он сохраняет покой или равномерное движение, пока на него не действует равнодействующая сила (например, книга лежит на столе). В то же время третий закон — про пары объектов: каждое действие вызывает равное и противоположное противодействие (например, ракета толкает газ вниз, газ толкает ракету вверх). Оба закона про силы, но первый описывает движение одного объекта, а третий связывает силы между двумя объектами."
     }
   },
@@ -261,15 +262,15 @@ export const FORCES_ENERGY_QUESTIONS: PracticeQuestion[] = [
   },
   {
     "id": "fe-4",
-    "commandTerm": "compare",
+    "commandTerm": "compareContrast",
     "criterion": "A",
     "marks": 4,
     "en": {
-      "question": "Compare contact forces and non-contact forces. Give two examples of each.",
+      "question": "Compare and contrast contact forces and non-contact forces. Give two examples of each.",
       "answer": "Whereas contact forces act only when objects physically touch (e.g. friction between shoes and ground, the push on a trolley), non-contact forces act over a distance without any touching (e.g. gravity pulling an apple to Earth, the magnetic force on a paperclip). Both can change an object's motion, but contact forces require an interface, whereas non-contact forces act through a field."
     },
     "ru": {
-      "question": "Сравни контактные и бесконтактные силы. Приведи по два примера каждой.",
+      "question": "Укажи сходства и различия: контактные и бесконтактные силы. Приведи по два примера каждой.",
       "answer": "Контактные силы действуют только при физическом соприкосновении объектов (например, трение между обувью и землёй, толчок тележки), в то время как бесконтактные силы действуют на расстоянии без соприкосновения (например, гравитация притягивает яблоко к Земле, магнитная сила на скрепку). Обе могут изменить движение объекта, но контактным нужен интерфейс, а бесконтактные действуют через поле."
     }
   },
@@ -459,15 +460,15 @@ export const ELECTRICITY_QUESTIONS: PracticeQuestion[] = [
   },
   {
     "id": "el-4",
-    "commandTerm": "compare",
+    "commandTerm": "compareContrast",
     "criterion": "A",
     "marks": 4,
     "en": {
-      "question": "Compare a fuse and a circuit breaker as safety devices.",
+      "question": "Compare and contrast a fuse and a circuit breaker as safety devices.",
       "answer": "Both a fuse and an overcurrent circuit breaker open a circuit carrying excessive current. A fuse melts and needs replacement; a breaker trips and can be reset after the fault has been dealt with. Operating time depends on the device and current; neither type is universally faster. An RCD instead detects a current imbalance."
     },
     "ru": {
-      "question": "Сравни плавкий предохранитель и автоматический выключатель как устройства защиты.",
+      "question": "Укажи сходства и различия: плавкий предохранитель и автоматический выключатель как устройства защиты.",
       "answer": "Плавкий предохранитель и автомат защиты от сверхтока разрывают цепь при избыточном токе. Вставка предохранителя плавится и требует замены; автомат размыкает контакты и допускает повторное включение после устранения причины. Время срабатывания зависит от устройства и тока; один тип не всегда быстрее другого. УЗО вместо этого обнаруживает разность токов."
     }
   },
@@ -657,15 +658,15 @@ export const WAVES_OPTICS_QUESTIONS: PracticeQuestion[] = [
   },
   {
     "id": "wo-4",
-    "commandTerm": "compare",
+    "commandTerm": "compareContrast",
     "criterion": "A",
     "marks": 4,
     "en": {
-      "question": "Compare sound waves and light waves.",
+      "question": "Compare and contrast sound waves and light waves.",
       "answer": "Both sound and light transfer energy and can reflect and refract. Sound requires a material medium; in air it is longitudinal and travels at about 343 m/s at room temperature. Light is an electromagnetic wave that can travel through vacuum at approximately 3 × 10⁸ m/s. Solids can support more than one type of mechanical wave."
     },
     "ru": {
-      "question": "Сравни звуковые и световые волны.",
+      "question": "Укажи сходства и различия: звуковые и световые волны.",
       "answer": "Звук и свет переносят энергию, отражаются и преломляются. Звуку нужна вещественная среда; в воздухе он продольный и при комнатной температуре распространяется примерно со скоростью 343 м/с. Свет — электромагнитная волна, которая распространяется в вакууме со скоростью около 3 × 10⁸ м/с. В твёрдых телах возможны разные виды механических волн."
     }
   },

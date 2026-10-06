@@ -119,6 +119,12 @@
                 "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph9/theory.html",
                 "language": "ru",
                 "section": "3.9. Первый закон термодинамики"
+              },
+              {
+                "title": "OpenStax · College Physics 2e",
+                "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+                "language": "en",
+                "section": "13.1 Thermal Equilibrium and the Zeroth Law of Thermodynamics"
               }
             ]
           }
@@ -354,37 +360,163 @@
         "term": "State / Name — Назвать",
         "meaning": "Дать конкретный факт или информацию.",
         "how": "Просто дать факт. Без объяснений.",
-        "example": "Назови единицу силы в СИ. → ньютон (N)."
+        "example": "Назови единицу силы в СИ. → ньютон (N).",
+        "review": {
+          "englishTerm": "State / Name",
+          "russianTerm": "State / Name — Назвать",
+          "contrast": {
+            "en": "State requests a short answer; explain needs reasoning. Name asks for a name.",
+            "ru": "State требует краткого ответа, explain — рассуждения. Name просит назвать объект или термин."
+          },
+          "model": {
+            "en": "Use this MYP convention with the rest of the question; the requested content and marks set the required detail.",
+            "ru": "Учитывай эту конвенцию MYP вместе с остальным вопросом: содержание задания и баллы задают нужную подробность."
+          },
+          "sources": [
+            {
+              "title": "IB · Sciences guide (2014; school-hosted copy)",
+              "url": "https://1.cdn.edl.io/mCntIluC0dagjkd30psWxg6xYsw0y50XS8BxI3IoBM7vO0Jm.pdf#page=62",
+              "language": "en",
+              "section": "MYP command terms for sciences, printed p.52 (PDF p.62)"
+            },
+            {
+              "title": "IB · MYP: From principles into practice (2014; school-hosted copy)",
+              "url": "https://1.cdn.edl.io/32tEJtLWmP3BgLGNPeFKAwnXOC5zZXVDyr61KPQiZMMAX1WK.pdf#page=118",
+              "language": "en",
+              "section": "Appendix 3: MYP command terms, printed pp.108–110 (PDF pp.118–120)"
+            }
+          ]
+        }
       },
       "describe": {
         "term": "Describe — Описать",
-        "meaning": "Дать подробное описание происходящего.",
-        "how": "Перечислить события или признаки по порядку.",
-        "example": "Опиши движение парашютиста до установившейся скорости."
+        "meaning": "Подробно изложить существенные признаки или последовательность событий.",
+        "how": "Опиши наблюдаемое; explain дополнительно требует причин.",
+        "example": "Опиши движение парашютиста до установившейся скорости.",
+        "review": {
+          "englishTerm": "Describe",
+          "russianTerm": "Describe — Описать",
+          "contrast": {
+            "en": "A pattern description is not yet an explanation of its cause.",
+            "ru": "Описание закономерности ещё не объясняет её причину."
+          },
+          "model": {
+            "en": "Use this MYP convention with the rest of the question; the requested content and marks set the required detail.",
+            "ru": "Учитывай эту конвенцию MYP вместе с остальным вопросом: содержание задания и баллы задают нужную подробность."
+          },
+          "sources": [
+            {
+              "title": "IB · Sciences guide (2014; school-hosted copy)",
+              "url": "https://1.cdn.edl.io/mCntIluC0dagjkd30psWxg6xYsw0y50XS8BxI3IoBM7vO0Jm.pdf#page=62",
+              "language": "en",
+              "section": "MYP command terms for sciences, printed p.52 (PDF p.62)"
+            }
+          ]
+        }
       },
       "explain": {
         "term": "Explain — Объяснить",
         "meaning": "Дать причины: почему или как это происходит.",
         "how": "Используй слова «потому что», связывай причину и следствие.",
-        "example": "Объясни, почему толстый провод имеет меньшее сопротивление."
+        "example": "Объясни, почему более толстый провод имеет меньшее сопротивление при одинаковых материале, длине и температуре.",
+        "review": {
+          "englishTerm": "Explain",
+          "russianTerm": "Explain — Объяснить",
+          "contrast": {
+            "en": "A scientific explanation needs a mechanism, not just the word “because”.",
+            "ru": "Для научного объяснения нужен механизм, а не только слово «потому что»."
+          },
+          "model": {
+            "en": "Use this MYP convention with the rest of the question; the requested content and marks set the required detail.",
+            "ru": "Учитывай эту конвенцию MYP вместе с остальным вопросом: содержание задания и баллы задают нужную подробность."
+          },
+          "sources": [
+            {
+              "title": "IB · MYP: From principles into practice (2014; school-hosted copy)",
+              "url": "https://1.cdn.edl.io/32tEJtLWmP3BgLGNPeFKAwnXOC5zZXVDyr61KPQiZMMAX1WK.pdf#page=118",
+              "language": "en",
+              "section": "Appendix 3: MYP command terms, printed pp.108–110 (PDF pp.118–120)"
+            }
+          ]
+        }
       },
       "compare": {
         "term": "Compare — Сравнить",
-        "meaning": "Указать сходства и различия.",
-        "how": "Слова-связки: similarly, however, whereas.",
-        "example": "Сравни последовательную и параллельную цепь."
+        "meaning": "В словаре MYP — раскрыть сходства сопоставляемых случаев.",
+        "how": "Сопоставляй оба случая по каждому признаку. Contrast требует различий, compare and contrast — и сходств, и различий.",
+        "example": "Сравни последовательную и параллельную цепи. → В обеих для постоянного тока нужен замкнутый проводящий путь.",
+        "review": {
+          "englishTerm": "Compare",
+          "russianTerm": "Compare — Сравнить",
+          "contrast": {
+            "en": "The ordinary Russian word «сравнить» is broader than this specific IB command.",
+            "ru": "Обычное русское «сравнить» шире, чем эта конкретная команда IB."
+          },
+          "model": {
+            "en": "Use this MYP convention with the rest of the question; the requested content and marks set the required detail.",
+            "ru": "Учитывай эту конвенцию MYP вместе с остальным вопросом: содержание задания и баллы задают нужную подробность."
+          },
+          "sources": [
+            {
+              "title": "IB · MYP: From principles into practice (2014; school-hosted copy)",
+              "url": "https://1.cdn.edl.io/32tEJtLWmP3BgLGNPeFKAwnXOC5zZXVDyr61KPQiZMMAX1WK.pdf#page=118",
+              "language": "en",
+              "section": "Appendix 3: MYP command terms, printed pp.108–110 (PDF pp.118–120)"
+            }
+          ]
+        }
       },
       "evaluate": {
         "term": "Evaluate — Оценить",
         "meaning": "Взвесить плюсы и минусы и сделать вывод.",
-        "how": "Назвать pros, cons, затем заключение.",
-        "example": "Оцени использование ядерной энергии."
+        "how": "С опорой на данные взвесь достоинства и ограничения, затем обоснуй вывод.",
+        "example": "Оцени использование ядерной энергии.",
+        "review": {
+          "englishTerm": "Evaluate",
+          "russianTerm": "Evaluate — Оценить",
+          "contrast": {
+            "en": "An evidence-based judgement differs from a list of opinions.",
+            "ru": "Вывод на основе данных отличается от перечня мнений."
+          },
+          "model": {
+            "en": "Use this MYP convention with the rest of the question; the requested content and marks set the required detail.",
+            "ru": "Учитывай эту конвенцию MYP вместе с остальным вопросом: содержание задания и баллы задают нужную подробность."
+          },
+          "sources": [
+            {
+              "title": "IB · Sciences guide (2014; school-hosted copy)",
+              "url": "https://1.cdn.edl.io/mCntIluC0dagjkd30psWxg6xYsw0y50XS8BxI3IoBM7vO0Jm.pdf#page=62",
+              "language": "en",
+              "section": "MYP command terms for sciences, printed p.52 (PDF p.62)"
+            }
+          ]
+        }
       },
       "calculate": {
         "term": "Calculate — Вычислить",
-        "meaning": "Получить числовой ответ через формулу.",
-        "how": "Формула → подстановка → вычисление → единицы.",
-        "example": "Вычисли силу, действующую на 5 кг с ускорением 2 м/с²."
+        "meaning": "Найти числовой результат и показать вычисления.",
+        "how": "Выбери подходящий способ, покажи шаги и укажи нужные единицы.",
+        "example": "Вычисли силу, действующую на 5 кг с ускорением 2 м/с².",
+        "review": {
+          "englishTerm": "Calculate",
+          "russianTerm": "Calculate — Вычислить",
+          "contrast": {
+            "en": "A formula alone is not a numerical result.",
+            "ru": "Одна формула ещё не является числовым результатом."
+          },
+          "model": {
+            "en": "Use this MYP convention with the rest of the question; the requested content and marks set the required detail.",
+            "ru": "Учитывай эту конвенцию MYP вместе с остальным вопросом: содержание задания и баллы задают нужную подробность."
+          },
+          "sources": [
+            {
+              "title": "IB · MYP: From principles into practice (2014; school-hosted copy)",
+              "url": "https://1.cdn.edl.io/32tEJtLWmP3BgLGNPeFKAwnXOC5zZXVDyr61KPQiZMMAX1WK.pdf#page=118",
+              "language": "en",
+              "section": "Appendix 3: MYP command terms, printed pp.108–110 (PDF pp.118–120)"
+            }
+          ]
+        }
       }
     }
   },
@@ -468,6 +600,18 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph11/theory.html",
               "language": "ru",
               "section": "1.11. Вес и невесомость"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/4-4-newtons-third-law-of-motion-symmetry-in-forces",
+              "language": "en",
+              "section": "4 4 newtons third law of motion symmetry in forces"
+            },
+            {
+              "title": "Физикон · Открытая физика",
+              "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph9/theory.html",
+              "language": "ru",
+              "section": "1.9. Третий закон Ньютона"
             }
           ]
         }
@@ -542,6 +686,12 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
               "language": "ru",
               "section": "1.1. Основные понятия кинематики"
+            },
+            {
+              "title": "AQA · GCSE Physics: motion graphs",
+              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
+              "language": "en",
+              "section": "4.5.6.1 Speed, velocity and acceleration: slopes and area under velocity–time graphs"
             }
           ]
         }
@@ -616,6 +766,12 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
               "language": "ru",
               "section": "1.18. Механическая работа и мощность"
+            },
+            {
+              "title": "AQA · GCSE Physics: forces and braking",
+              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
+              "language": "en",
+              "section": "4.5.6.3.1 Stopping distance; 4.5.6.3.2 Reaction time; 4.5.6.3.3–4 Braking distance"
             }
           ]
         }
@@ -1088,6 +1244,12 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
               "language": "ru",
               "section": "1.1. Основные понятия кинематики"
+            },
+            {
+              "title": "AQA · GCSE Physics: forces and braking",
+              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
+              "language": "en",
+              "section": "4.5.6.3.1 Stopping distance; 4.5.6.3.2 Reaction time; 4.5.6.3.3–4 Braking distance"
             }
           ]
         }
@@ -1126,6 +1288,12 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
               "language": "ru",
               "section": "1.18. Механическая работа и мощность"
+            },
+            {
+              "title": "AQA · GCSE Physics: forces and braking",
+              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
+              "language": "en",
+              "section": "4.5.6.3.1 Stopping distance; 4.5.6.3.2 Reaction time; 4.5.6.3.3–4 Braking distance"
             }
           ]
         }
@@ -1549,6 +1717,12 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
               "language": "ru",
               "section": "1.8. Второй закон Ньютона"
+            },
+            {
+              "title": "AQA · GCSE Physics: contact and non-contact forces",
+              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
+              "language": "en",
+              "section": "4.5.1.2 Contact and non-contact forces"
             }
           ]
         }
@@ -1581,6 +1755,12 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
               "language": "ru",
               "section": "1.8. Второй закон Ньютона"
+            },
+            {
+              "title": "AQA · GCSE Physics: contact and non-contact forces",
+              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
+              "language": "en",
+              "section": "4.5.1.2 Contact and non-contact forces"
             }
           ]
         }
@@ -2013,6 +2193,12 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter3/section/paragraph9/theory.html",
               "language": "ru",
               "section": "3.9. Первый закон термодинамики"
+            },
+            {
+              "title": "OpenStax · College Physics 2e",
+              "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+              "language": "en",
+              "section": "13.1 Thermal Equilibrium and the Zeroth Law of Thermodynamics"
             }
           ]
         }
@@ -2074,7 +2260,12 @@
       "desc": "Наблюдай, как PE и KE сменяют друг друга по мере раскачивания маятника.",
       "mass": "Масса груза",
       "length": "Длина нити",
-      "initialAngle": "Начальный угол"
+      "initialAngle": "Начальный угол",
+      "potentialEnergyLabel": "Потенциальная энергия (mgh)",
+      "kineticEnergyLabel": "Кинетическая энергия (½mv²)",
+      "mechanicalEnergyLabel": "Механическая энергия (Eₚ + Eₖ)",
+      "modelCaption": "У идеального маятника без затухания гравитационная потенциальная и кинетическая энергии переходят друг в друга, а их сумма сохраняется. В анимации есть небольшое численное затухание, поэтому показанная механическая энергия постепенно уменьшается.",
+      "heightLabel": "Высота над нижней точкой"
     },
     "simWorkPower": {
       "title": "Работа и мощность",
@@ -3402,6 +3593,12 @@
               "url": "https://physics.ru/courses/op25part2/content/chapter2/section/paragraph6/theory.html",
               "language": "ru",
               "section": "2.6. Электромагнитные волны"
+            },
+            {
+              "title": "Edmund Optics · Optical Filters",
+              "url": "https://www.edmundoptics.com/knowledge-center/application-notes/optics/optical-filters/",
+              "language": "en",
+              "section": "Introduction to Optical Filters; Optical Filter Fabrication Techniques; Color Substrate Filters"
             }
           ]
         }

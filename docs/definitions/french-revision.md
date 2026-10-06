@@ -2,7 +2,7 @@
 
 Revised the six grammar rules, contextual vocabulary glosses, conjugation guidance and writing-form descriptions. All eight existing conjugation notes now have Russian versions.
 
-8 named locale blocks per language; 75 vocabulary rows, 12 phrase rows, 12 conjugation tables with 72 forms, 6 grammar rules; 18 review entries and 3 diagrams.
+8 named locale blocks per language; 73 vocabulary rows, 12 phrase rows, 12 conjugation tables with 72 forms, 6 grammar rules; 18 review entries and 3 diagrams.
 
 Standard French rules include exceptions and register limits. English/Russian equivalents explain the displayed sense; they are not a complete dictionary. Subjunctive mood is separated from tense and from a generic “opinion trigger”.
 

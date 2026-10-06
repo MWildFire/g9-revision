@@ -310,8 +310,8 @@ export const papers = [
         "A(i)",
         "application",
         b(
-          "A gamma-irradiated sealed food packet has no radioactive material transferred to it. Another packet has radioactive dust on its surface. Compare what happens after the original source is removed. Explain why paper shielding is insufficient for gamma and why “natural radiation is always safe” is invalid.",
-          "На герметичную упаковку еды воздействовала гамма, без переноса радиоактивного вещества. На другой есть радиоактивная пыль. Сравни после удаления исходного источника. Почему бумага не защищает от гамма и почему «природное излучение всегда безопасно» неверно?",
+          "A gamma-irradiated sealed food packet has no radioactive material transferred to it. Another packet has radioactive dust on its surface. Contrast what happens after the original source is removed. Explain why paper shielding is insufficient for gamma and why “natural radiation is always safe” is invalid.",
+          "На герметичную упаковку еды воздействовала гамма, без переноса радиоактивного вещества. На другой есть радиоактивная пыль. Укажи различия после удаления исходного источника. Почему бумага не защищает от гамма и почему «природное излучение всегда безопасно» неверно?",
         ),
         b(
           "Classify the mechanism, then reason about penetration and dose.",

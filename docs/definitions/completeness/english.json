@@ -1,0 +1,1568 @@
+{
+  "subject": "English",
+  "counts": {
+    "supportRecords": 56,
+    "categories": {
+      "concept-or-rule-definition-block": 33,
+      "grouped-lexical-grammar-contrast": 6,
+      "procedural-definition": 8,
+      "study-scaffold": 3,
+      "added-comparison-support": 1,
+      "mixed-definition-and-context": 3,
+      "grouped-lexical-gloss-bank": 2
+    },
+    "newDiagrams": 6,
+    "noAdditionalFigureRecords": 50,
+    "sourceLanguageSets": {
+      "en+ru": 8,
+      "en": 48
+    }
+  },
+  "countingNotes": [
+    "Final finite completeness audit of existing English/French/Arabic revision. Counts below are support records, definition-bearing blocks, lexical row occurrences and existing structural tables; they must not be added together as unique terms.",
+    "Support records include non-definition scaffolds, lexical banks, gloss policies and cultural notes; the countingUnit field identifies them."
+  ],
+  "records": [
+    {
+      "id": "devices.metaphor",
+      "englishTerm": "Metaphor",
+      "russianTerm": "Метафора (metaphor)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Metaphor",
+          "url": "https://poets.org/glossary/metaphor",
+          "language": "en",
+          "section": "Metaphor"
+        },
+        {
+          "title": "Фоксфорд — Метафора (metaphor)",
+          "url": "https://foxford.ru/wiki/literatura/metaphor",
+          "language": "ru",
+          "section": "Определение и примеры"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Editorial Russian paraphrase with an actual Russian definition source for the key term, plus English comparison/context sources.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд — Метафора (metaphor)",
+            "url": "https://foxford.ru/wiki/literatura/metaphor",
+            "section": "Определение и примеры",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The simile comparison already displays a metaphor alongside literal wording; another picture would not show which textual feature creates the analogy."
+    },
+    {
+      "id": "devices.simile",
+      "englishTerm": "Simile",
+      "russianTerm": "Образное сравнение (simile)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Poetry Foundation — Simile",
+          "url": "https://www.poetryfoundation.org/education/glossary/simile",
+          "language": "en",
+          "section": "Simile"
+        },
+        {
+          "title": "Фоксфорд — Метафора, сравнение и олицетворение",
+          "url": "https://externat.foxford.ru/polezno-znat/primery-metafor-kak-obyasnit-rebenku-metafory",
+          "language": "ru",
+          "section": "Чем метафора отличается от сравнения и олицетворения"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Editorial Russian paraphrase with an actual Russian definition source for the key term, plus English comparison/context sources.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд — Метафора, сравнение и олицетворение",
+            "url": "https://externat.foxford.ru/polezno-znat/primery-metafor-kak-obyasnit-rebenku-metafory",
+            "section": "Чем метафора отличается от сравнения и олицетворения",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        "src/definitions/english.ts#devices.simile.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "devices.anaphora",
+      "englishTerm": "Anaphora",
+      "russianTerm": "Анафора (anaphora)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Anaphora",
+          "url": "https://poets.org/glossary/anaphora",
+          "language": "en",
+          "section": "Anaphora"
+        },
+        {
+          "title": "Фоксфорд — Анафора (anaphora)",
+          "url": "https://foxford.ru/wiki/literatura/anaphora",
+          "language": "ru",
+          "section": "Определение и примеры"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Editorial Russian paraphrase with an actual Russian definition source for the key term, plus English comparison/context sources.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд — Анафора (anaphora)",
+            "url": "https://foxford.ru/wiki/literatura/anaphora",
+            "section": "Определение и примеры",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [
+        "src/definitions/english.ts#devices.anaphora.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "devices.alliteration",
+      "englishTerm": "Alliteration",
+      "russianTerm": "Аллитерация (alliteration)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Alliteration",
+          "url": "https://poets.org/glossary/alliteration",
+          "language": "en",
+          "section": "Alliteration"
+        },
+        {
+          "title": "Фоксфорд — Аллитерация (alliteration)",
+          "url": "https://foxford.ru/wiki/literatura/alliteration",
+          "language": "ru",
+          "section": "Определение и примеры"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Editorial Russian paraphrase with an actual Russian definition source for the key term, plus English comparison/context sources.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд — Аллитерация (alliteration)",
+            "url": "https://foxford.ru/wiki/literatura/alliteration",
+            "section": "Определение и примеры",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Repeated consonant sounds are demonstrated by the spelled and spoken example; a picture cannot establish sound identity."
+    },
+    {
+      "id": "devices.personification",
+      "englishTerm": "Personification",
+      "russianTerm": "Олицетворение (personification)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Poetry Foundation — Personification",
+          "url": "https://www.poetryfoundation.org/education/glossary/personification",
+          "language": "en",
+          "section": "Personification"
+        },
+        {
+          "title": "Фоксфорд — Олицетворение (personification)",
+          "url": "https://foxford.ru/wiki/literatura/impersonation",
+          "language": "ru",
+          "section": "Определение и примеры"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Editorial Russian paraphrase with an actual Russian definition source for the key term, plus English comparison/context sources.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд — Олицетворение (personification)",
+            "url": "https://foxford.ru/wiki/literatura/impersonation",
+            "section": "Определение и примеры",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The example identifies the human property assigned to a nonhuman subject; a literal picture risks obscuring the figurative attribution."
+    },
+    {
+      "id": "devices.hyperbole",
+      "englishTerm": "Hyperbole",
+      "russianTerm": "Гипербола (hyperbole)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Glossary",
+          "url": "https://poets.org/glossary",
+          "language": "en",
+          "section": "Hyperbole"
+        },
+        {
+          "title": "Фоксфорд — Гипербола (hyperbole)",
+          "url": "https://foxford.ru/wiki/literatura/hyperbole",
+          "language": "ru",
+          "section": "Определение и примеры"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Editorial Russian paraphrase with an actual Russian definition source for the key term, plus English comparison/context sources.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд — Гипербола (hyperbole)",
+            "url": "https://foxford.ru/wiki/literatura/hyperbole",
+            "section": "Определение и примеры",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The degree of exaggeration depends on the stated claim and context, so the verbal example is the evidence."
+    },
+    {
+      "id": "devices.rhetoricalQuestion",
+      "englishTerm": "Rhetorical question",
+      "russianTerm": "Риторический вопрос (rhetorical question)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Merriam-Webster — rhetorical question",
+          "url": "https://www.merriam-webster.com/dictionary/rhetorical%20question",
+          "language": "en",
+          "section": "Definition; Rhetorical Language vs. Rhetorical Questions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The communicative purpose, rather than a question mark’s shape, distinguishes a rhetorical question; the paired wording and explanation provide it."
+    },
+    {
+      "id": "devices.imagery",
+      "englishTerm": "Imagery",
+      "russianTerm": "Чувственная образность (imagery)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Imagery",
+          "url": "https://poets.org/glossary/imagery",
+          "language": "en",
+          "section": "Imagery"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Sensory imagery includes nonvisual senses; the wording and named sense are more accurate than a single illustrative scene."
+    },
+    {
+      "id": "devices.onomatopoeia",
+      "englishTerm": "Onomatopoeia",
+      "russianTerm": "Звукоподражание (onomatopoeia)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Glossary",
+          "url": "https://poets.org/glossary",
+          "language": "en",
+          "section": "Onomatopoeia"
+        },
+        {
+          "title": "Фоксфорд — Звукоподражание (onomatopoeia)",
+          "url": "https://foxford.ru/wiki/literatura/onomatopoeia",
+          "language": "ru",
+          "section": "Определение и примеры"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Editorial Russian paraphrase with an actual Russian definition source for the key term, plus English comparison/context sources.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд — Звукоподражание (onomatopoeia)",
+            "url": "https://foxford.ru/wiki/literatura/onomatopoeia",
+            "section": "Определение и примеры",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This is a word–sound relationship, explained through the word’s sound rather than a decorative object image."
+    },
+    {
+      "id": "devices.irony",
+      "englishTerm": "Irony",
+      "russianTerm": "Ирония (irony)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Glossary",
+          "url": "https://poets.org/glossary",
+          "language": "en",
+          "section": "Irony"
+        },
+        {
+          "title": "Фоксфорд — Ирония (irony)",
+          "url": "https://foxford.ru/wiki/literatura/irony",
+          "language": "ru",
+          "section": "Определение и примеры"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Editorial Russian paraphrase with an actual Russian definition source for the key term, plus English comparison/context sources.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": [
+          {
+            "title": "Фоксфорд — Ирония (irony)",
+            "url": "https://foxford.ru/wiki/literatura/irony",
+            "section": "Определение и примеры",
+            "language": "ru"
+          }
+        ]
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Irony depends on the relation between expectation, knowledge and what is said; the contextual verbal example preserves that evidence."
+    },
+    {
+      "id": "devices.symbolism",
+      "englishTerm": "Symbolism",
+      "russianTerm": "Символика (symbolism)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Glossary",
+          "url": "https://poets.org/glossary",
+          "language": "en",
+          "section": "Symbol"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "A symbol’s meaning depends on textual or cultural context; a fixed icon would suggest a universal meaning the definition rejects."
+    },
+    {
+      "id": "devices.foreshadowing",
+      "englishTerm": "Foreshadowing",
+      "russianTerm": "Предвосхищение событий (foreshadowing)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Merriam-Webster — Foreshadowing",
+          "url": "https://www.merriam-webster.com/dictionary/foreshadowing",
+          "language": "en",
+          "section": "Foreshadow: indicate beforehand"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The significance of an earlier clue depends on the later event; the short verbal before/after example supplies that link."
+    },
+    {
+      "id": "grammar.tenses.present",
+      "englishTerm": "Present simple",
+      "russianTerm": "Present simple",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "British Council — Present tense",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-tense",
+          "language": "en",
+          "section": "Present forms; present and future reference"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The habitual/general use and third-person form are shown in sentence examples; a single timeline would hide scheduled future and narrative uses."
+    },
+    {
+      "id": "grammar.tenses.presentCont",
+      "englishTerm": "Present continuous (progressive)",
+      "russianTerm": "Present continuous (длительное настоящее)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "British Council — Present tense",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-tense",
+          "language": "en",
+          "section": "Present forms; present and future reference"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The be + -ing structure and examples show the form; the adjacent future-reference diagram handles arranged future use."
+    },
+    {
+      "id": "grammar.tenses.past",
+      "englishTerm": "Past simple",
+      "russianTerm": "Past simple",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "British Council — past simple",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+          "language": "en",
+          "section": "Past simple: formation, questions, negatives and use"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Affirmative, question and negative examples expose the did/base-form distinction directly; past does not always mean past time."
+    },
+    {
+      "id": "grammar.tenses.pastCont",
+      "englishTerm": "Past continuous",
+      "russianTerm": "Past continuous",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "British Council — past continuous",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-continuous",
+          "language": "en",
+          "section": "Formation; past events in progress; Past continuous and hypotheses"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The was/were + -ing example states the relevant past reference time; a rigid interrupted-event diagram would overstate a common use."
+    },
+    {
+      "id": "grammar.tenses.presentPerfect",
+      "englishTerm": "Present perfect",
+      "russianTerm": "Present perfect",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "British Council — Present perfect",
+          "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect",
+          "language": "en",
+          "section": "Present perfect uses and finished-time expressions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/english.ts#grammar.tenses.presentPerfect.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "grammar.tenses.future",
+      "englishTerm": "Future reference: will, be going to, present continuous",
+      "russianTerm": "Выражение будущего: will, be going to, Present continuous",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "British Council — Talking about the future",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/talking-about-future",
+          "language": "en",
+          "section": "Present forms, will and going to for future reference"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/english.ts#grammar.tenses.future.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "grammar.punctuation.comma",
+      "englishTerm": "Comma (,)",
+      "russianTerm": "Запятая (,)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — Extended rules for commas",
+          "url": "https://owl.purdue.edu/owl/general_writing/punctuation/commas/extended_rules_for_commas.html",
+          "language": "en",
+          "section": "Comma use and comma abuse"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Exact comma placement and sentence examples directly demonstrate the boundary; spacing artwork would add no new rule."
+    },
+    {
+      "id": "grammar.punctuation.semicolon",
+      "englishTerm": "Semicolon (;)",
+      "russianTerm": "Точка с запятой (;)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — Punctuation overview",
+          "url": "https://owl.purdue.edu/owl/general_writing/punctuation/punctuation/index.html",
+          "language": "en",
+          "section": "Comma, semicolon, colon, apostrophe and dash"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Two independent clauses are displayed in the example; a separate picture would repeat the visible punctuation."
+    },
+    {
+      "id": "grammar.punctuation.colon",
+      "englishTerm": "Colon (:)",
+      "russianTerm": "Двоеточие (:)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — Punctuation overview",
+          "url": "https://owl.purdue.edu/owl/general_writing/punctuation/punctuation/index.html",
+          "language": "en",
+          "section": "Comma, semicolon, colon, apostrophe and dash"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The introductory clause and following explanation/list are already visible in the sentence."
+    },
+    {
+      "id": "grammar.punctuation.apostrophe",
+      "englishTerm": "Apostrophe (')",
+      "russianTerm": "Апостроф (')",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — Punctuation overview",
+          "url": "https://owl.purdue.edu/owl/general_writing/punctuation/punctuation/index.html",
+          "language": "en",
+          "section": "Comma, semicolon, colon, apostrophe and dash"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Possessive and contracted spellings must be read character by character; short written contrasts provide the required structure."
+    },
+    {
+      "id": "grammar.punctuation.dash",
+      "englishTerm": "Dash (—)",
+      "russianTerm": "Тире (—)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — Punctuation overview",
+          "url": "https://owl.purdue.edu/owl/general_writing/punctuation/punctuation/index.html",
+          "language": "en",
+          "section": "Comma, semicolon, colon, apostrophe and dash"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Written dash/compound examples preserve distinctions between dash and hyphen; a decorative diagram would not explain register or sentence purpose."
+    },
+    {
+      "id": "grammar.commonErrors.yourYoure",
+      "englishTerm": "your vs you're",
+      "russianTerm": "your vs you're",
+      "countingUnit": "grouped-lexical-grammar-contrast",
+      "sources": [
+        {
+          "title": "Merriam-Webster — Usage guide",
+          "url": "https://www.merriam-webster.com/grammar/your-vs-youre-how-to-use-them-correctly",
+          "language": "en",
+          "section": "your vs you're"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Expanding you’re to you are is the operative test; the written forms make the contrast inspectable."
+    },
+    {
+      "id": "grammar.commonErrors.itsIts",
+      "englishTerm": "its vs it's",
+      "russianTerm": "its vs it's",
+      "countingUnit": "grouped-lexical-grammar-contrast",
+      "sources": [
+        {
+          "title": "Merriam-Webster — Usage guide",
+          "url": "https://www.merriam-webster.com/grammar/when-to-use-its-vs-its",
+          "language": "en",
+          "section": "its vs it's"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Expanding it’s to it is/it has and contrasting possessive its requires orthographic examples."
+    },
+    {
+      "id": "grammar.commonErrors.thereTheirTheyre",
+      "englishTerm": "there / their / they're",
+      "russianTerm": "there / their / they're",
+      "countingUnit": "grouped-lexical-grammar-contrast",
+      "sources": [
+        {
+          "title": "Merriam-Webster — Usage guide",
+          "url": "https://www.merriam-webster.com/grammar/how-to-use-theyre-there-their",
+          "language": "en",
+          "section": "there / their / they're"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Place/existence, possession and contracted they are are three contextual grammatical uses, made explicit in sentences."
+    },
+    {
+      "id": "grammar.commonErrors.lessFewer",
+      "englishTerm": "less vs fewer",
+      "russianTerm": "less vs fewer",
+      "countingUnit": "grouped-lexical-grammar-contrast",
+      "sources": [
+        {
+          "title": "Merriam-Webster — Usage guide",
+          "url": "https://www.merriam-webster.com/grammar/fewer-vs-less",
+          "language": "en",
+          "section": "less vs fewer"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Count/non-count use and conventional measurements require lexical examples and exceptions, not a misleading universal picture of quantities."
+    },
+    {
+      "id": "grammar.commonErrors.affectEffect",
+      "englishTerm": "affect vs effect",
+      "russianTerm": "affect vs effect",
+      "countingUnit": "grouped-lexical-grammar-contrast",
+      "sources": [
+        {
+          "title": "Merriam-Webster — Usage guide",
+          "url": "https://www.merriam-webster.com/grammar/affect-vs-effect-usage-difference",
+          "language": "en",
+          "section": "affect vs effect"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Part-of-speech labels and less-common noun/verb senses are demonstrated verbally; an arrow would erase those exceptions."
+    },
+    {
+      "id": "grammar.commonErrors.thanThen",
+      "englishTerm": "than vs then",
+      "russianTerm": "than vs then",
+      "countingUnit": "grouped-lexical-grammar-contrast",
+      "sources": [
+        {
+          "title": "Merriam-Webster — Usage guide",
+          "url": "https://www.merriam-webster.com/grammar/when-to-use-then-and-than",
+          "language": "en",
+          "section": "than vs then"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Comparison versus time/consequence is shown with the two spellings in context."
+    },
+    {
+      "id": "reading.strategies.skim",
+      "englishTerm": "Skim",
+      "russianTerm": "Skim — пробежать по тексту",
+      "countingUnit": "procedural-definition",
+      "sources": [
+        {
+          "title": "British Council LearnEnglish Teens — How to read the text",
+          "url": "https://learnenglishteens.britishcouncil.org/exams/reading-exams/how-read-text",
+          "language": "en",
+          "section": "Skimming"
+        },
+        {
+          "title": "Merriam-Webster — skim",
+          "url": "https://www.merriam-webster.com/dictionary/skim",
+          "language": "en",
+          "section": "intransitive verb 1b: cursory reading"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This describes purposeful fast reading for gist; a prescribed eye-movement diagram would falsely imply one compulsory technique."
+    },
+    {
+      "id": "reading.strategies.scan",
+      "englishTerm": "Scan",
+      "russianTerm": "Scan — поиск конкретного",
+      "countingUnit": "procedural-definition",
+      "sources": [
+        {
+          "title": "British Council LearnEnglish Teens — How to read the text",
+          "url": "https://learnenglishteens.britishcouncil.org/exams/reading-exams/how-read-text",
+          "language": "en",
+          "section": "Scanning"
+        },
+        {
+          "title": "Merriam-Webster — scan",
+          "url": "https://www.merriam-webster.com/dictionary/scan",
+          "language": "en",
+          "section": "transitive verb 2b: looking for a particular item"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The learner searches for a stated target in text; the procedure needs the target and passage, not a decorative visual."
+    },
+    {
+      "id": "reading.strategies.annotate",
+      "englishTerm": "Annotate",
+      "russianTerm": "Annotate — пометки",
+      "countingUnit": "procedural-definition",
+      "sources": [
+        {
+          "title": "University of North Carolina Learning Center — Annotating Texts",
+          "url": "https://learningcenter.unc.edu/tips-and-tools/annotating-texts/",
+          "language": "en",
+          "section": "What is annotation?; How do you annotate?"
+        },
+        {
+          "title": "Merriam-Webster — annotate",
+          "url": "https://www.merriam-webster.com/dictionary/annotate",
+          "language": "en",
+          "section": "Verb senses: explanatory notes"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Brief marginal notes and the distinction from indiscriminate highlighting can be stated directly; the passage itself is the useful working surface."
+    },
+    {
+      "id": "reading.strategies.infer",
+      "englishTerm": "Infer",
+      "russianTerm": "Infer — между строк",
+      "countingUnit": "procedural-definition",
+      "sources": [
+        {
+          "title": "Merriam-Webster — infer",
+          "url": "https://www.merriam-webster.com/dictionary/infer",
+          "language": "en",
+          "section": "Transitive verb sense 1: conclusion based on facts or premises"
+        },
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The instruction explicitly links a conclusion to clues; the PEEL evidence/explanation diagram shows the related argument structure."
+    },
+    {
+      "id": "reading.questionTypes.literal",
+      "englishTerm": "Literal questions",
+      "russianTerm": "Literal — буквальные вопросы",
+      "countingUnit": "procedural-definition",
+      "sources": [
+        {
+          "title": "Merriam-Webster — literal",
+          "url": "https://www.merriam-webster.com/dictionary/literal",
+          "language": "en",
+          "section": "Adjective sense 1b: explicit wording and ordinary meaning"
+        },
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The answer must be recoverable from explicit wording; a textual question and evidence are the appropriate representation."
+    },
+    {
+      "id": "reading.questionTypes.inferential",
+      "englishTerm": "Inferential questions",
+      "russianTerm": "Inferential — на вывод",
+      "countingUnit": "procedural-definition",
+      "sources": [
+        {
+          "title": "Merriam-Webster — infer",
+          "url": "https://www.merriam-webster.com/dictionary/infer",
+          "language": "en",
+          "section": "Transitive verb sense 1: conclusion based on facts or premises"
+        },
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The inference must be supported by textual clues; its uncertainty cannot be encoded by a fixed image."
+    },
+    {
+      "id": "reading.questionTypes.language",
+      "englishTerm": "Language analysis",
+      "russianTerm": "Language — анализ языка",
+      "countingUnit": "procedural-definition",
+      "sources": [
+        {
+          "title": "Merriam-Webster — analyze",
+          "url": "https://www.merriam-webster.com/dictionary/analyze",
+          "language": "en",
+          "section": "Transitive verb senses 1–2: components, relationships and grammatical analysis"
+        },
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Specific word choices and syntax are the evidence under analysis; their quotation and explanation carry the concept."
+    },
+    {
+      "id": "reading.questionTypes.evaluation",
+      "englishTerm": "Evaluation questions",
+      "russianTerm": "Evaluation — оценка",
+      "countingUnit": "procedural-definition",
+      "sources": [
+        {
+          "title": "Merriam-Webster — evaluate",
+          "url": "https://www.merriam-webster.com/dictionary/evaluate",
+          "language": "en",
+          "section": "Transitive verb sense 2: appraisal and study"
+        },
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The named criterion and justified judgment matter, so the response instructions directly express the relation."
+    },
+    {
+      "id": "textTypes.essay",
+      "englishTerm": "Essay",
+      "russianTerm": "Эссе (Essay)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Essay: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.letter",
+      "englishTerm": "Letter",
+      "russianTerm": "Письмо (Letter)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — The basic business letter",
+          "url": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/basic_business_letters/index.html",
+          "language": "en",
+          "section": "Parts of a business letter; format"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Letter: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.email",
+      "englishTerm": "Email",
+      "russianTerm": "Email",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — Email etiquette",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/email_etiquette.html",
+          "language": "en",
+          "section": "Writing an email; tone and audience"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Email: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.speech",
+      "englishTerm": "Speech",
+      "russianTerm": "Речь (Speech)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Merriam-Webster — speech",
+          "url": "https://www.merriam-webster.com/dictionary/speech",
+          "language": "en",
+          "section": "Relevant noun sense"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Speech: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.newspaper",
+      "englishTerm": "Newspaper Article",
+      "russianTerm": "Газетная статья",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — The inverted pyramid",
+          "url": "https://owl.purdue.edu/owl/subject_specific_writing/journalism_and_journalistic_writing/the_inverted_pyramid.html",
+          "language": "en",
+          "section": "Lead and organisation of a news report"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Newspaper Article: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.online",
+      "englishTerm": "Online Article",
+      "russianTerm": "Онлайн-статья",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — The inverted pyramid",
+          "url": "https://owl.purdue.edu/owl/subject_specific_writing/journalism_and_journalistic_writing/the_inverted_pyramid.html",
+          "language": "en",
+          "section": "Lead and organisation of a news report"
+        },
+        {
+          "title": "Purdue OWL — Email etiquette",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/email_etiquette.html",
+          "language": "en",
+          "section": "Writing an email; tone and audience"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Online Article: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.blog",
+      "englishTerm": "Blog Article",
+      "russianTerm": "Блог",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Merriam-Webster — blog",
+          "url": "https://www.merriam-webster.com/dictionary/blog",
+          "language": "en",
+          "section": "Relevant noun sense"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Blog Article: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.guide",
+      "englishTerm": "Revision Guide",
+      "russianTerm": "Учебное руководство",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Merriam-Webster — guide",
+          "url": "https://www.merriam-webster.com/dictionary/guide",
+          "language": "en",
+          "section": "Noun sense 1e: a resource providing information"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Revision Guide: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "textTypes.script",
+      "englishTerm": "Script",
+      "russianTerm": "Сценарий",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Merriam-Webster — script",
+          "url": "https://www.merriam-webster.com/dictionary/script",
+          "language": "en",
+          "section": "Relevant noun sense"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Script: the purpose, audience and actual writing conventions are the teaching evidence; the existing written structure/examples express them without a decorative genre icon."
+    },
+    {
+      "id": "reading.PEEL",
+      "englishTerm": "PEEL paragraph scaffold",
+      "russianTerm": "Опорная схема абзаца PEEL",
+      "countingUnit": "study-scaffold",
+      "sources": [
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/english.ts#reading.PEEL.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "toneMood",
+      "englishTerm": "Tone and mood",
+      "russianTerm": "Тон и атмосфера текста",
+      "countingUnit": "added-comparison-support",
+      "sources": [
+        {
+          "title": "Merriam-Webster — tone",
+          "url": "https://www.merriam-webster.com/dictionary/tone",
+          "language": "en",
+          "section": "Attitude / atmosphere sense"
+        },
+        {
+          "title": "Merriam-Webster — mood",
+          "url": "https://www.merriam-webster.com/dictionary/mood",
+          "language": "en",
+          "section": "Attitude / atmosphere sense"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/english.ts#toneMood.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "grammar.agreement",
+      "englishTerm": "Subject–verb agreement",
+      "russianTerm": "Согласование подлежащего и сказуемого",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Purdue OWL — Subject–Verb Agreement",
+          "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html",
+          "language": "en",
+          "section": "Rules 1–11; American convention for collective nouns"
+        },
+        {
+          "title": "British Council — Group nouns",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/group-nouns",
+          "language": "en",
+          "section": "Singular and plural use of group nouns"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Singular/plural forms and British/American collective-noun conventions require actual sentence forms; text preserves the variability."
+    },
+    {
+      "id": "extras.criticalThinking",
+      "englishTerm": "Critical thinking",
+      "russianTerm": "Критическое мышление",
+      "countingUnit": "mixed-definition-and-context",
+      "sources": [
+        {
+          "title": "Purdue OWL — Establishing arguments",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/establishing_arguments/index.html",
+          "language": "en",
+          "section": "Strong thesis statements and evidence"
+        },
+        {
+          "title": "Purdue OWL — Logical Fallacies",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/logic_in_argumentative_writing/fallacies.html",
+          "language": "en",
+          "section": "Either/or, Ad hominem, Straw Man"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Each fallacy is a defect in a stated argument, so the claim/evidence wording is essential; icons could not establish the defect."
+    },
+    {
+      "id": "extras.shakespeare",
+      "englishTerm": "Shakespeare — quick intro",
+      "russianTerm": "Шекспир — короткое введение",
+      "countingUnit": "mixed-definition-and-context",
+      "sources": [
+        {
+          "title": "Academy of American Poets — William Shakespeare",
+          "url": "https://poets.org/poet/william-shakespeare",
+          "language": "en",
+          "section": "Biography; sonnets and dramatic works"
+        },
+        {
+          "title": "Academy of American Poets — Iambic Pentameter",
+          "url": "https://poets.org/glossary/iambic-pentameter",
+          "language": "en",
+          "section": "Definition and use"
+        },
+        {
+          "title": "Royal Shakespeare Company — A Midsummer Night’s Dream",
+          "url": "https://www.rsc.org.uk/a-midsummer-nights-dream/",
+          "language": "en",
+          "section": "Play introduction: comedy"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Dates and play classifications are biographical facts; five iambic feet are explained as a metrical pattern rather than a portrait."
+    },
+    {
+      "id": "extras.vocab",
+      "englishTerm": "Advanced vocabulary for essays",
+      "russianTerm": "Продвинутая лексика для эссе",
+      "countingUnit": "grouped-lexical-gloss-bank",
+      "sources": [
+        {
+          "title": "Merriam-Webster — ubiquitous",
+          "url": "https://www.merriam-webster.com/dictionary/ubiquitous",
+          "language": "en",
+          "section": "Learner-relevant sense"
+        },
+        {
+          "title": "Merriam-Webster — profound",
+          "url": "https://www.merriam-webster.com/dictionary/profound",
+          "language": "en",
+          "section": "Learner-relevant sense"
+        },
+        {
+          "title": "Merriam-Webster — articulate",
+          "url": "https://www.merriam-webster.com/dictionary/articulate",
+          "language": "en",
+          "section": "Learner-relevant sense"
+        },
+        {
+          "title": "Merriam-Webster — paradox",
+          "url": "https://www.merriam-webster.com/dictionary/paradox",
+          "language": "en",
+          "section": "Learner-relevant sense"
+        },
+        {
+          "title": "Merriam-Webster — catalyst",
+          "url": "https://www.merriam-webster.com/dictionary/catalyst",
+          "language": "en",
+          "section": "Learner-relevant sense"
+        },
+        {
+          "title": "Merriam-Webster — pivotal",
+          "url": "https://www.merriam-webster.com/dictionary/pivotal",
+          "language": "en",
+          "section": "Learner-relevant sense"
+        },
+        {
+          "title": "Merriam-Webster — inevitable",
+          "url": "https://www.merriam-webster.com/dictionary/inevitable",
+          "language": "en",
+          "section": "Learner-relevant sense"
+        },
+        {
+          "title": "Merriam-Webster — notwithstanding",
+          "url": "https://www.merriam-webster.com/dictionary/notwithstanding",
+          "language": "en",
+          "section": "Learner-relevant sense"
+        },
+        {
+          "title": "Merriam-Webster — furthermore",
+          "url": "https://www.merriam-webster.com/dictionary/furthermore",
+          "language": "en",
+          "section": "Adverb definition: addition"
+        },
+        {
+          "title": "Merriam-Webster — moreover",
+          "url": "https://www.merriam-webster.com/dictionary/moreover",
+          "language": "en",
+          "section": "Adverb definition: addition"
+        },
+        {
+          "title": "Merriam-Webster — consequently",
+          "url": "https://www.merriam-webster.com/dictionary/consequently",
+          "language": "en",
+          "section": "Adverb definition: consequence"
+        },
+        {
+          "title": "Merriam-Webster — therefore",
+          "url": "https://www.merriam-webster.com/dictionary/therefore",
+          "language": "en",
+          "section": "Adverb definition: consequence"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "These are twelve contextual lexemes across ten rows; direct definitions preserve polysemy and connective grammar."
+    },
+    {
+      "id": "extras.essayQuotes",
+      "englishTerm": "Using quotations responsibly",
+      "russianTerm": "Как использовать цитаты",
+      "countingUnit": "study-scaffold",
+      "sources": [
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Attribution, exact wording and argumentative relevance are a checking procedure, not a physical process needing a picture."
+    },
+    {
+      "id": "extras.poetry",
+      "englishTerm": "Analysing poetry",
+      "russianTerm": "Анализ поэзии",
+      "countingUnit": "mixed-definition-and-context",
+      "sources": [
+        {
+          "title": "Academy of American Poets — Glossary",
+          "url": "https://poets.org/glossary",
+          "language": "en",
+          "section": "Entries: Meter, Rhyme, Stanza, Tone, Imagery"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The analysis scaffold is intentionally flexible; line/stanza/rhyme/metre examples remain textual while tone/mood has a separate comparison."
+    },
+    {
+      "id": "examFormatPage.q1eStructure",
+      "englishTerm": "Comparative essay: evidence and organisation",
+      "russianTerm": "Сравнительное эссе: доказательства и структура",
+      "countingUnit": "study-scaffold",
+      "sources": [
+        {
+          "title": "Purdue OWL — Argumentative essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+          "language": "en",
+          "section": "Structure, evidence and transitions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The paragraph plan is a study scaffold rather than a guaranteed marking scheme; the existing PEEL structure diagram supplies the general relationship."
+    },
+    {
+      "id": "progressTestPage.survivalVocab",
+      "englishTerm": "Setting and survival vocabulary",
+      "russianTerm": "Лексика обстановки и выживания",
+      "countingUnit": "grouped-lexical-gloss-bank",
+      "sources": [
+        {
+          "title": "Merriam-Webster — glacial",
+          "url": "https://www.merriam-webster.com/dictionary/glacial",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — inhospitable",
+          "url": "https://www.merriam-webster.com/dictionary/inhospitable",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — barren",
+          "url": "https://www.merriam-webster.com/dictionary/barren",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — crystalline",
+          "url": "https://www.merriam-webster.com/dictionary/crystalline",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — desolate",
+          "url": "https://www.merriam-webster.com/dictionary/desolate",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — relentless",
+          "url": "https://www.merriam-webster.com/dictionary/relentless",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — fragile",
+          "url": "https://www.merriam-webster.com/dictionary/fragile",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — endure",
+          "url": "https://www.merriam-webster.com/dictionary/endure",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — eerie",
+          "url": "https://www.merriam-webster.com/dictionary/eerie",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — bleak",
+          "url": "https://www.merriam-webster.com/dictionary/bleak",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — solitude",
+          "url": "https://www.merriam-webster.com/dictionary/solitude",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — resilient",
+          "url": "https://www.merriam-webster.com/dictionary/resilient",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — ritual",
+          "url": "https://www.merriam-webster.com/dictionary/ritual",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — burden",
+          "url": "https://www.merriam-webster.com/dictionary/burden",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — adapt",
+          "url": "https://www.merriam-webster.com/dictionary/adapt",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        },
+        {
+          "title": "Merriam-Webster — thrive",
+          "url": "https://www.merriam-webster.com/dictionary/thrive",
+          "language": "en",
+          "section": "Dictionary entry: contextual adjective, noun or verb senses"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Sixteen contextual glosses are best read as bilingual vocabulary; a picture would not establish metaphorical or evaluative senses."
+    }
+  ],
+  "unverifiedDefinitions": [],
+  "evidenceLimits": [
+    "Editorial semantic review is complete for the finite content inventory; no claim of independent external verification of every atomic example or gloss.",
+    "External lexical verification: 269 of 269 bank rows have retrieved contextual-sense evidence; 0 remain editorial-only and are explicitly listed. All six originally partial rows now have targeted closure receipts; Arabic and French glosses were narrowed/qualified for clarity where the actual receipts exposed an ambiguity. General morphology/register sources are never counted as lexical receipts by themselves.",
+    "All seven French idioms now have actual definition/meaning receipts. The final ce n’est pas la mer à boire gap was closed against Académie MER and Larousse collège mer sense 7; earlier failed accesses remain recorded.",
+    "French literature context is partly verified: Les Misérables redemption/rebellion summary, Madame Bovary broad realist classification, L’Étranger 1942 French date, and Le Rouge et le Noir ambition/social theme are retained editorial knowledge rather than newly retrieved claim-specific receipts. BnF Rouge publication excerpt was search-readable only; direct fetch failed.",
+    "Russian term-specific sources exist for eight English device records, not for all three subjects. French-language primary material remains FR provenance; Arabic teaching references used here explain Arabic in EN.",
+    "Textual review and browser rendering checks do not certify every browser voice’s Arabic pronunciation."
+  ]
+}

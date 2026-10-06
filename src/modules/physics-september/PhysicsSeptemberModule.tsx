@@ -22,7 +22,7 @@ import {
 import { lessons } from "./lessons";
 import { questions } from "./questions";
 import { papers } from "./papers";
-import { commandTerms, glossary, sources } from "./reference";
+import { commandTerms, commandTermSource, glossary, sources } from "./reference";
 import { VisualLab } from "./Visuals";
 import { parseStudyState, STUDY_KEY, type StudyState } from "./model";
 import type { Bilingual, Question } from "./types";
@@ -790,6 +790,12 @@ function Reference() {
         <h2>
           {t("Command terms: how to respond", "Командные слова: как отвечать")}
         </h2>
+        <p>
+          {t("Study paraphrases; read the full task to judge the required detail. Russian wording is authored from the English source. ", "Учебные пояснения: нужная подробность зависит от полного задания. Русский текст написан по английскому источнику. ")}
+          <a href={commandTermSource.url} target="_blank" rel="noreferrer">
+            {t("IB MYP command glossary, Appendix 3, pp.108–110 (2014)", "Словарь команд IB MYP, приложение 3, с.108–110 (2014)")}
+          </a>
+        </p>
         {commandTerms.map(([term, en, ru]) => (
           <div className="nuclear-term" key={term}>
             <strong>{term}</strong>

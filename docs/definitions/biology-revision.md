@@ -1,5 +1,7 @@
 # Biology definition revision
 
+The [final per-definition catalogue](completeness/biology.md) distinguishes direct RU support from context-only citations and gives the corrected, definition-specific figure coverage.
+
 The revision covers **113 original named definition blocks in each language**. Both English and Russian wording was rewritten. These are block counts, not a claim that each paragraph defines only one concept. Supplemental definitions in simulator parts, summary lists and practice lessons were checked as separate occurrences.
 
 English terms and Russian equivalents, distinctions and section-level sources are available alongside definitions. The notes explicitly identify the wording as an authored paraphrase; Russian text derived from an English source is not presented as a published Russian quotation. Sources include OpenStax textbooks, the Russian Foxford textbook and relevant official scientific or public-health educational pages. Published school simplifications are qualified where their scope is narrower than the modern model.

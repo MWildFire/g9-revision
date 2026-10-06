@@ -37,6 +37,12 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
+        "title": "United Nations DESA — World Urbanization Prospects 2018: Highlights",
+        "url": "https://population.un.org/wup/assets/WUP2018-Highlights.pdf#page=5",
+        "section": "What Is Urbanization? (PDF p. 5); Box 2 Sources of urban growth (PDF p. 20)",
+        "language": "en"
+      },
+      {
         "title": "Фоксфорд.Учебник — Городское население и урбанизация",
         "url": "https://foxford.ru/wiki/geografiya/gorodskoye-naseleniye-rossii-urbanizatsiya",
         "language": "ru",
@@ -161,6 +167,12 @@ export const geographyReviews: Record<string, DefinitionReview> = {
         "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/",
         "language": "en",
         "section": "13.5 Flooding; flood plains, snowmelt and reducing losses"
+      },
+      {
+        "title": "USGS — Surface Runoff and the Water Cycle",
+        "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+        "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
+        "language": "en"
       }
     ],
     "model": {

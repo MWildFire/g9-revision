@@ -9,7 +9,7 @@ export const questions: Question[] = [
       "State the relative charge, relative mass and location of an electron.",
       "Укажи относительные заряд, массу и положение электрона.",
     ),
-    b("Compare it with a proton.", "Сравни с протоном."),
+    b("Check charge, mass and location against the proton values.", "Проверь заряд, массу и положение по значениям для протона."),
     b("Relative charge −1.", "Относительный заряд −1."),
     b("Relative mass about 1/1836.", "Относительная масса около 1/1836."),
     b(
@@ -175,8 +175,8 @@ export const questions: Question[] = [
       "Объясни два различия моделей Томсона и Резерфорда.",
     ),
     b(
-      "Compare where positive charge and mass are placed.",
-      "Сравни распределение положительного заряда и массы.",
+      "Contrast where positive charge and mass are placed.",
+      "Укажи различия в распределении положительного заряда и массы.",
     ),
     b(
       "Plum pudding spreads positive charge through the atom; the nuclear model concentrates it in a small nucleus.",
@@ -265,8 +265,8 @@ export const questions: Question[] = [
     "A(i)",
     "foundation",
     b(
-      "Compare alpha, beta-minus and gamma in charge and physical nature.",
-      "Сравни альфа, бета-минус и гамма по заряду и природе.",
+      "State the charge and physical nature of alpha, beta-minus and gamma radiation.",
+      "Укажи заряд и физическую природу альфа-, бета-минус- и гамма-излучения.",
     ),
     b(
       "Particles and photons are different.",
@@ -987,11 +987,11 @@ export const questions: Question[] = [
     "foundation",
     b(
       "Define fusion and contrast it with fission.",
-      "Определи синтез и сравни с делением.",
+      "Дай определение синтеза и укажи его отличия от деления.",
     ),
     b(
-      "Compare starting nuclei and the direction of the change.",
-      "Сравни исходные ядра и направление изменения.",
+      "Contrast the starting nuclei and the direction of the change.",
+      "Укажи различия исходных ядер и направления изменения.",
     ),
     b(
       "Fusion joins light nuclei into products containing a heavier nucleus.",

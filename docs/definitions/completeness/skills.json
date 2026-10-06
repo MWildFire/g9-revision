@@ -1,0 +1,250 @@
+{
+  "subject": "Shared investigation and interdisciplinary skills",
+  "counts": {
+    "groupedDefinitionRecords": 6,
+    "headlineConceptLabelsWithinGroups": 14,
+    "recordsWithRelevantVisual": 3,
+    "recordsWithoutVisual": 3,
+    "independentRussianDefinitionSupportedRecords": 0,
+    "authoredRussianAdaptationRecords": 6
+  },
+  "countingNotes": [
+    "The 14 headline labels are not added to other subjects as distinct global terms.",
+    "Control group is an additional contrast term, not included in the 14 headline labels.",
+    "The two science illustration records share one original figure; the interdisciplinary flow covers synthesis only."
+  ],
+  "records": [
+    {
+      "id": "science-investigation.0",
+      "englishTerm": "Independent, dependent and controlled variables",
+      "russianTerm": "Независимая, зависимая и контролируемые переменные",
+      "countingUnit": "grouped definition record",
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e",
+          "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+          "language": "en",
+          "section": "§1.1 The Science of Biology — Hypothesis Testing"
+        },
+        {
+          "title": "OpenStax Psychology 2e",
+          "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+          "language": "en",
+          "section": "§2.3 — Independent and Dependent Variables; Designing an Experiment"
+        },
+        {
+          "title": "Science Buddies — Variables",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/science-fair/variables",
+          "language": "en",
+          "section": "What is a Control Variable?; Independent and Dependent Variables"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored_ru_adaptation_of_en",
+        "independentRussianDefinitionSources": [],
+        "contextOnlyRussianSources": [],
+        "note": "RU wording is our authored adaptation of the English definition. Russian error-bound/experiment references, where present, support context only."
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The three variable roles are identified in text and the experimental example; the existing measurement dot plot does not show manipulation/control groups."
+    },
+    {
+      "id": "science-investigation.1",
+      "englishTerm": "Hypothesis and prediction",
+      "russianTerm": "Гипотеза и предсказание",
+      "countingUnit": "grouped definition record",
+      "sources": [
+        {
+          "title": "OpenStax Biology 2e",
+          "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+          "language": "en",
+          "section": "§1.1 The Science of Biology — Hypothesis Testing"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored_ru_adaptation_of_en",
+        "independentRussianDefinitionSources": [],
+        "contextOnlyRussianSources": [],
+        "note": "RU wording is our authored adaptation of the English definition. Russian error-bound/experiment references, where present, support context only."
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The distinction is between a proposed explanation and its conditional expected result; the paired sentences carry the testable relation."
+    },
+    {
+      "id": "science-investigation.2",
+      "englishTerm": "Accuracy and precision",
+      "russianTerm": "Точность и прецизионность",
+      "countingUnit": "grouped definition record",
+      "sources": [
+        {
+          "title": "OpenStax College Physics 2e",
+          "url": "https://openstax.org/books/college-physics-2e/pages/1-3-accuracy-precision-and-significant-figures",
+          "language": "en",
+          "section": "§1.3 Accuracy, Precision, and Significant Figures"
+        },
+        {
+          "title": "JCGM 200:2012 — International Vocabulary of Metrology",
+          "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf#page=37",
+          "language": "en",
+          "section": "§§2.13–2.19, 2.26; §4.14: accuracy, precision, errors, uncertainty, resolution"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored_ru_adaptation_of_en",
+        "independentRussianDefinitionSources": [],
+        "contextOnlyRussianSources": [],
+        "note": "RU wording is our authored adaptation of the English definition. Russian error-bound/experiment references, where present, support context only."
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/content/MeasurementComparison.tsx",
+          "scope": "Known reference and repeated values contrast closeness and spread."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "science-investigation.3",
+      "englishTerm": "Resolution and uncertainty",
+      "russianTerm": "Разрешающая способность и неопределённость",
+      "countingUnit": "grouped definition record",
+      "sources": [
+        {
+          "title": "JCGM 200:2012 — International Vocabulary of Metrology",
+          "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf#page=37",
+          "language": "en",
+          "section": "§§2.13–2.19, 2.26; §4.14: accuracy, precision, errors, uncertainty, resolution"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Погрешность измерений",
+          "url": "https://foxford.ru/wiki/fizika/pogreshnost-izmereniy",
+          "language": "ru",
+          "section": "Абсолютная и относительная погрешности — школьная оценка границ"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored_ru_adaptation_of_en",
+        "independentRussianDefinitionSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Погрешность измерений",
+            "url": "https://foxford.ru/wiki/fizika/pogreshnost-izmereniy",
+            "language": "ru",
+            "section": "Абсолютная и относительная погрешности — школьная оценка границ"
+          }
+        ],
+        "note": "RU wording is our authored adaptation of the English definition. Russian error-bound/experiment references, where present, support context only."
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Resolution requires an instrument/readout example and uncertainty a stated measurement model; the neighbouring accuracy plot is not counted as an illustration of either."
+    },
+    {
+      "id": "science-investigation.4",
+      "englishTerm": "Random and systematic measurement error",
+      "russianTerm": "Случайная и систематическая погрешность",
+      "countingUnit": "grouped definition record",
+      "sources": [
+        {
+          "title": "JCGM 200:2012 — International Vocabulary of Metrology",
+          "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf#page=37",
+          "language": "en",
+          "section": "§§2.13–2.19, 2.26; §4.14: accuracy, precision, errors, uncertainty, resolution"
+        },
+        {
+          "title": "Фоксфорд.Учебник — Физический эксперимент",
+          "url": "https://foxford.ru/wiki/fizika/fizicheskiy-eksperiment",
+          "language": "ru",
+          "section": "Оформление экспериментальной работы: таблицы, единицы, графики, погрешности"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored_ru_adaptation_of_en",
+        "independentRussianDefinitionSources": [],
+        "contextOnlyRussianSources": [
+          {
+            "title": "Фоксфорд.Учебник — Физический эксперимент",
+            "url": "https://foxford.ru/wiki/fizika/fizicheskiy-eksperiment",
+            "language": "ru",
+            "section": "Оформление экспериментальной работы: таблицы, единицы, графики, погрешности"
+          }
+        ],
+        "note": "RU wording is our authored adaptation of the English definition. Russian error-bound/experiment references, where present, support context only."
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/components/content/MeasurementComparison.tsx",
+          "scope": "Repeated values and a constant offset illustrate scatter versus one systematic bias; not every possible predictable systematic error."
+        }
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "interdisciplinary.0",
+      "englishTerm": "Synthesis, evaluation and reflection",
+      "russianTerm": "Синтез, оценка и рефлексия",
+      "countingUnit": "grouped definition record",
+      "sources": [
+        {
+          "title": "IB — Interdisciplinary teaching and learning in the MYP (2022)",
+          "url": "https://ibo.org/globalassets/new-structure/brochures-and-infographics/pdfs/myp-brief-interdisciplinary-learning_en.pdf",
+          "language": "en",
+          "section": "§I Course description and aims; §III Assessment model. For use from 2021."
+        },
+        {
+          "title": "IB brief — public copy linked by Ambrit MYP Central",
+          "url": "https://drive.google.com/file/d/1y96wHD2F7dwvDUsiV_f1vrwT_3DlP55i/view",
+          "language": "en",
+          "section": "Same IB-authored 2022 brief, pp.1–2; accessible copy read 6 October 2026"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored_ru_adaptation_of_en",
+        "independentRussianDefinitionSources": [],
+        "contextOnlyRussianSources": [],
+        "note": "RU wording is our authored adaptation of the English definition. Russian error-bound/experiment references, where present, support context only."
+      },
+      "relevantVisuals": [
+        {
+          "path": "src/data/mocks.json#interdisciplinary.definitionReviews[0].visual",
+          "scope": "Disciplinary contributions combine into a flood-response comparison; illustrates synthesis, not a visual definition of all reflection/evaluation."
+        }
+      ],
+      "noVisualReason": null
+    }
+  ],
+  "unverifiedDefinitions": [],
+  "closedSourceGaps": [
+    {
+      "id": "science-investigation.0",
+      "reason": "Biology §1.1 explains variable/control group but does not explicitly define independent/dependent/controlled-variable roles. Exact sections now read and added.",
+      "beforeSources": [
+        {
+          "title": "OpenStax Biology 2e",
+          "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+          "language": "en",
+          "section": "§1.1 The Science of Biology — Hypothesis Testing"
+        }
+      ],
+      "afterSources": [
+        {
+          "title": "OpenStax Biology 2e",
+          "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+          "language": "en",
+          "section": "§1.1 The Science of Biology — Hypothesis Testing"
+        },
+        {
+          "title": "OpenStax Psychology 2e",
+          "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+          "language": "en",
+          "section": "§2.3 — Independent and Dependent Variables; Designing an Experiment"
+        },
+        {
+          "title": "Science Buddies — Variables",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/science-fair/variables",
+          "language": "en",
+          "section": "What is a Control Variable?; Independent and Dependent Variables"
+        }
+      ]
+    }
+  ]
+}

@@ -443,8 +443,8 @@ export const VOCAB_THEMES: ArabicVocabTheme[] = [
       {
         "ar": "الفَصْل",
         "translit": "al-faṣl",
-        "en": "classroom / class (here); also season",
-        "ru": "класс (здесь); также время года"
+        "en": "classroom (here); also season",
+        "ru": "классная комната (здесь); также время года"
       },
       {
         "ar": "المُعَلِّم",
@@ -559,8 +559,8 @@ export const VOCAB_THEMES: ArabicVocabTheme[] = [
       {
         "ar": "يَكُون",
         "translit": "yakūnu",
-        "en": "he is / becomes",
-        "ru": "он бывает / становится"
+        "en": "he is (a form of ‘to be’; use depends on context)",
+        "ru": "он бывает / является (форма глагола «быть»; зависит от контекста)"
       },
       {
         "ar": "لَدَيْه",
@@ -800,8 +800,8 @@ export const USEFUL_PHRASES: ArabicPhrase[] = [
   {
     "ar": "الحَمْدُ لِلَّه",
     "translit": "al-ḥamdu lillāh",
-    "en": "Praise be to God / well",
-    "ru": "Слава Богу / хорошо",
+    "en": "Praise be to God (also used when answering ‘How are you?’)",
+    "ru": "Слава Богу (также употребляется в ответе на «Как дела?»)",
     "context": "Reply"
   },
   {

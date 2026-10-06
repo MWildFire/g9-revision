@@ -1,0 +1,511 @@
+{
+  "subject": "Arabic",
+  "counts": {
+    "supportRecords": 21,
+    "categories": {
+      "concept-or-rule-definition-block": 13,
+      "added-comparison-support": 1,
+      "glossing-policy-support": 1,
+      "cultural-or-biographical-context": 6
+    },
+    "newDiagrams": 4,
+    "noAdditionalFigureRecords": 17,
+    "sourceLanguageSets": {
+      "en": 21
+    }
+  },
+  "countingNotes": [
+    "Final finite completeness audit of existing English/French/Arabic revision. Counts below are support records, definition-bearing blocks, lexical row occurrences and existing structural tables; they must not be added together as unique terms.",
+    "Support records include non-definition scaffolds, lexical banks, gloss policies and cultural notes; the countingUnit field identifies them."
+  ],
+  "records": [
+    {
+      "id": "rtl",
+      "englishTerm": "Arabic script and joining",
+      "russianTerm": "Арабское письмо и соединение букв",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Madinah Arabic — Alphabet",
+          "url": "https://madinaharabic.com/free-content/reading/lesson-1/part-1",
+          "language": "en",
+          "section": "Alphabet chart; vowel marks; reading and sound distinctions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The existing 28-letter table displays joining positions and Arabic text displays direction; another arrow is unnecessary and can mislead with bidirectional text."
+    },
+    {
+      "id": "definite",
+      "englishTerm": "Definite article and assimilation",
+      "russianTerm": "Определённый артикль и ассимиляция",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Madinah Arabic — Lesson 3",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-3/part-1",
+          "language": "en",
+          "section": "Definite article"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The visible article and sun/moon-letter examples show spelling versus pronunciation; the alphabet/sound comparison supplies the related representation."
+    },
+    {
+      "id": "gender",
+      "englishTerm": "Grammatical gender and agreement",
+      "russianTerm": "Грамматический род и согласование",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Madinah Arabic — Lesson 6",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-6/part-1",
+          "language": "en",
+          "section": "Feminine demonstratives and nouns"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/arabic.ts#gender.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "plurals",
+      "englishTerm": "Singular, dual and plural",
+      "russianTerm": "Единственное, двойственное и множественное число",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Madinah Arabic — Lesson 13",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-13/part-1",
+          "language": "en",
+          "section": "Plural forms"
+        },
+        {
+          "title": "Madinah Arabic — Lesson 17",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-17/part-1",
+          "language": "en",
+          "section": "Rational and non-rational nouns; agreement"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Sound and broken plural examples must preserve actual word forms; a repeated-object image would hide morphology and agreement conditions."
+    },
+    {
+      "id": "pronouns",
+      "englishTerm": "Personal pronouns and finite forms",
+      "russianTerm": "Личные местоимения и личные формы",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Madinah Arabic — Lesson 23",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-23/part-4",
+          "language": "en",
+          "section": "Pronouns and their types"
+        },
+        {
+          "title": "Madinah Arabic — Lesson 10",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-10/part-1",
+          "language": "en",
+          "section": "Possessive pronouns"
+        },
+        {
+          "title": "Madinah Arabic — Lesson 28",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-28/part-2",
+          "language": "en",
+          "section": "Verb forms and parts of speech"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/arabic.ts#pronouns.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "idafa",
+      "englishTerm": "Iḍāfa: noun–noun construction",
+      "russianTerm": "Идафа: именная конструкция",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Madinah Arabic — Lesson 5",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-5/part-1",
+          "language": "en",
+          "section": "Possessive expression"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/arabic.ts#idafa.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "phonetics",
+      "englishTerm": "Script, sound and reading aid",
+      "russianTerm": "Буква, звук и подсказка для чтения",
+      "countingUnit": "added-comparison-support",
+      "sources": [
+        {
+          "title": "Madinah Arabic — Alphabet",
+          "url": "https://madinaharabic.com/free-content/reading/lesson-1/part-1",
+          "language": "en",
+          "section": "Alphabet chart; vowel marks; reading and sound distinctions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [
+        "src/definitions/arabic.ts#phonetics.visual"
+      ],
+      "noVisualReason": null
+    },
+    {
+      "id": "vocabulary",
+      "englishTerm": "Contextual meaning and inflection",
+      "russianTerm": "Контекстное значение и форма",
+      "countingUnit": "glossing-policy-support",
+      "sources": [
+        {
+          "title": "Madinah Arabic — Lesson 28",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-28/part-2",
+          "language": "en",
+          "section": "Verb forms and parts of speech"
+        },
+        {
+          "title": "Madinah Arabic — Lesson 29",
+          "url": "https://madinaharabic.com/free-content/grammar/lesson-29/part-2",
+          "language": "en",
+          "section": "Time reference"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Finite verb glosses display I/he explicitly alongside Arabic; the pronoun diagram already explains subject versus possessive forms."
+    },
+    {
+      "id": "verbForms",
+      "englishTerm": "Root and pattern; verb forms",
+      "russianTerm": "Корень и модель; породы глагола",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Quranic Arabic Corpus — Verb Forms (University of Leeds research)",
+          "url": "https://corpus.quran.com/documentation/verbforms.jsp",
+          "language": "en",
+          "section": "Triliteral Verb Forms; Figure 3: patterns I–X and roots not occurring in every form"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The actual root-and-pattern examples and source I–X table convey morphology; a fixed meaning arrow for each form would falsely imply mechanically predictable meanings."
+    },
+    {
+      "id": "numerals",
+      "englishTerm": "Arabic-Indic digits (٠–٩)",
+      "russianTerm": "Арабо-индийские цифры (٠–٩)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "W3C — Arabic & Persian Layout Requirements (Group Draft Note)",
+          "url": "https://www.w3.org/TR/alreq/",
+          "language": "en",
+          "section": "6.1.1 Preferred Terminology; 6.1.2 Families of Numerals; 6.1.3 Formatting of Numerals"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The two digit strings and example ٢٠٢٦/2026 already form a compact positional comparison; an extra diagram would repeat it."
+    },
+    {
+      "id": "culture",
+      "englishTerm": "Language and cultural context",
+      "russianTerm": "Язык и культурный контекст",
+      "countingUnit": "cultural-or-biographical-context",
+      "sources": [
+        {
+          "title": "The Metropolitan Museum of Art — Calligraphy in Islamic Art",
+          "url": "https://www.metmuseum.org/essays/calligraphy-in-islamic-art",
+          "language": "en",
+          "section": "Curatorial essay: Arabic script, text and ornament"
+        },
+        {
+          "title": "The Metropolitan Museum of Art — The Nature of Islamic Art",
+          "url": "https://www.metmuseum.org/essays/the-nature-of-islamic-art",
+          "language": "en",
+          "section": "Curatorial essay: scope, regional traditions and cultural context"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The note asks how script functions on an object and distinguishes language/religion/nationality; an isolated stock image could not justify those historical distinctions."
+    },
+    {
+      "id": "dialects.msa",
+      "englishTerm": "Modern Standard Arabic (MSA)",
+      "russianTerm": "Современный литературный арабский (MSA)",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Georgetown University Press — Al-Kitaab",
+          "url": "https://alkitaabtextbook.com/",
+          "language": "en",
+          "section": "Integrated teaching of formal and spoken Arabic varieties"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The distinction concerns formal usage and linguistic variety; a country map would imply that MSA belongs to one country."
+    },
+    {
+      "id": "dialects.egyptian",
+      "englishTerm": "Egyptian Arabic",
+      "russianTerm": "Египетский арабский",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Georgetown University Press — Al-Kitaab",
+          "url": "https://alkitaabtextbook.com/",
+          "language": "en",
+          "section": "Integrated teaching of formal and spoken Arabic varieties"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Regional variety and media exposure are qualified in prose; a map cannot establish mutual comprehension."
+    },
+    {
+      "id": "dialects.levantine",
+      "englishTerm": "Levantine Arabic",
+      "russianTerm": "Левантийский арабский",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Georgetown University Press — Al-Kitaab",
+          "url": "https://alkitaabtextbook.com/",
+          "language": "en",
+          "section": "Integrated teaching of formal and spoken Arabic varieties"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "Urban/rural and sound variation cross borders, so a single map or arrow would suggest uniform boundaries."
+    },
+    {
+      "id": "dialects.gulf",
+      "englishTerm": "Gulf Arabic",
+      "russianTerm": "Арабский Залива",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Qasid Arabic Institute — Gulf Dialect (Khaleeji)",
+          "url": "https://www.qasidonline.com/gulf-dialect-khaleeji",
+          "language": "en",
+          "section": "Program introduction; Level 1: everyday spoken Arabic in the Gulf"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The regional label does not define uniform grammar or pronunciation; country examples plus an explicit limitation are clearer than a fixed dialect boundary."
+    },
+    {
+      "id": "dialects.maghrebi",
+      "englishTerm": "Maghrebi Arabic",
+      "russianTerm": "Магрибский арабский",
+      "countingUnit": "concept-or-rule-definition-block",
+      "sources": [
+        {
+          "title": "Qasid Arabic Institute — Arabic dialects",
+          "url": "https://www.qasidonline.com/blog/the-ultimate-guide-to-arabic-dialects",
+          "language": "en",
+          "section": "Types of Arabic Dialects by Region — Maghrebi Arabic; local variety within groups"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "The broad grouping contains local differences and contact histories; text avoids presenting a single uniform dialect or intelligibility scale."
+    },
+    {
+      "id": "literature.darwish",
+      "englishTerm": "Mahmoud Darwish (1941–2008)",
+      "russianTerm": "Махмуд Дарвиш (1941–2008)",
+      "countingUnit": "cultural-or-biographical-context",
+      "sources": [
+        {
+          "title": "Author reference: Mahmoud Darwish (1941–2008)",
+          "url": "https://poets.org/poet/mahmoud-darwish",
+          "language": "en",
+          "section": "Biography / facts"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This is a named author/work reference, with dates, scope or textual history; a portrait/book cover would not explain or verify those facts."
+    },
+    {
+      "id": "literature.gibran",
+      "englishTerm": "Kahlil Gibran (1883–1931)",
+      "russianTerm": "Халиль Джебран (1883–1931)",
+      "countingUnit": "cultural-or-biographical-context",
+      "sources": [
+        {
+          "title": "Author reference: Kahlil Gibran (1883–1931)",
+          "url": "https://poets.org/poet/kahlil-gibran",
+          "language": "en",
+          "section": "Biography / facts"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This is a named author/work reference, with dates, scope or textual history; a portrait/book cover would not explain or verify those facts."
+    },
+    {
+      "id": "literature.mahfouz",
+      "englishTerm": "Naguib Mahfouz (1911–2006)",
+      "russianTerm": "Нагиб Махфуз (1911–2006)",
+      "countingUnit": "cultural-or-biographical-context",
+      "sources": [
+        {
+          "title": "Author reference: Naguib Mahfouz (1911–2006)",
+          "url": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/facts/",
+          "language": "en",
+          "section": "Biography / facts"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This is a named author/work reference, with dates, scope or textual history; a portrait/book cover would not explain or verify those facts."
+    },
+    {
+      "id": "literature.qabbani",
+      "englishTerm": "Nizar Qabbani",
+      "russianTerm": "Низар Каббани",
+      "countingUnit": "cultural-or-biographical-context",
+      "sources": [
+        {
+          "title": "Publisher reference — Nizar Qabbani",
+          "url": "https://wordswithoutborders.org/contributors/view/nizar-qabbani/",
+          "language": "en",
+          "section": "Publisher biography"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This is a named author/work reference, with dates, scope or textual history; a portrait/book cover would not explain or verify those facts."
+    },
+    {
+      "id": "literature.nights",
+      "englishTerm": "One Thousand and One Nights",
+      "russianTerm": "«Тысяча и одна ночь»",
+      "countingUnit": "cultural-or-biographical-context",
+      "sources": [
+        {
+          "title": "Publisher reference — One Thousand and One Nights",
+          "url": "https://www.pookpress.co.uk/project/arabian-nights-one-thousand-and-one-nights/",
+          "language": "en",
+          "section": "Origins; history; translations and versions"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "Authored Russian adaptation from en-language explanatory sources; no Russian-source definition or official Russian quotation is claimed.",
+        "scope": "The named sources support the named definition/rule or stated context, not every authored example, teaching sequence, register recommendation or English/Russian lexical equivalence.",
+        "independentRussianSources": []
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "This is a named author/work reference, with dates, scope or textual history; a portrait/book cover would not explain or verify those facts."
+    }
+  ],
+  "unverifiedDefinitions": [],
+  "evidenceLimits": [
+    "Editorial semantic review is complete for the finite content inventory; no claim of independent external verification of every atomic example or gloss.",
+    "External lexical verification: 269 of 269 bank rows have retrieved contextual-sense evidence; 0 remain editorial-only and are explicitly listed. All six originally partial rows now have targeted closure receipts; Arabic and French glosses were narrowed/qualified for clarity where the actual receipts exposed an ambiguity. General morphology/register sources are never counted as lexical receipts by themselves.",
+    "All seven French idioms now have actual definition/meaning receipts. The final ce n’est pas la mer à boire gap was closed against Académie MER and Larousse collège mer sense 7; earlier failed accesses remain recorded.",
+    "French literature context is partly verified: Les Misérables redemption/rebellion summary, Madame Bovary broad realist classification, L’Étranger 1942 French date, and Le Rouge et le Noir ambition/social theme are retained editorial knowledge rather than newly retrieved claim-specific receipts. BnF Rouge publication excerpt was search-readable only; direct fetch failed.",
+    "Russian term-specific sources exist for eight English device records, not for all three subjects. French-language primary material remains FR provenance; Arabic teaching references used here explain Arabic in EN.",
+    "Textual review and browser rendering checks do not certify every browser voice’s Arabic pronunciation."
+  ]
+}

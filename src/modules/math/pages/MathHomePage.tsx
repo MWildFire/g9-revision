@@ -24,6 +24,13 @@ export function MathHomePage() {
     <div>
       <TopicHero title={t('home.title')} intro={t('home.intro')} icon={<Hash size={28} />} />
 
+      <section className="mt-6 rounded-lg border border-[#bacbd4] bg-[#e3ebee] p-6" lang="en">
+        <p className="text-sm uppercase tracking-wider text-[#244f6b] mb-2">Grade 10 · Term 1 · Assessment 1</p>
+        <h2 className="font-serif text-xl mb-3">Mathematics preparation in English</h2>
+        <p className="text-sm text-text-secondary mb-3">Six Standard core topics, separate Previous studies and Extended lessons, worked examples, glossary and 38 practice questions.</p>
+        <Link to="/math-term-1-2026" className="underline font-medium">Open the current assessment guide →</Link>
+      </section>
+
       <div className="mt-6 bg-bg-secondary border border-border rounded-md p-5" style={{ borderLeftColor: 'var(--color-accent-sky-deep)', borderLeftWidth: '4px' }}>
         <h3 className="font-serif text-lg font-medium mb-2">{t('home.examStructure')}</h3>
         <p className="text-sm text-text-secondary">{t('home.examStructureBody')}</p>

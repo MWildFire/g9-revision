@@ -10,6 +10,7 @@ const TimetablePage = lazy(async () => { const [, m] = await Promise.all([Promis
 import { AboutPage } from './pages/AboutPage';
 const PhysicsSeptemberModule = lazy(() => import('./modules/physics-september/PhysicsSeptemberModule').then(m => ({ default: m.PhysicsSeptemberModule })));
 const GeographyTectonicsModule = lazy(() => import('./modules/geography-tectonics/GeographyTectonicsModule').then(m => ({ default: m.GeographyTectonicsModule })));
+const MathTermOneModule = lazy(() => import('./modules/math-term-one/MathTermOneModule').then(m => ({ default: m.MathTermOneModule })));
 const MocksPage = lazy(() => import('./pages/MocksPage').then(m => ({ default: m.MocksPage })));
 const MockLessonPage = lazy(() => import('./pages/MockLessonPage').then(m => ({ default: m.MockLessonPage })));
 
@@ -52,6 +53,7 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/physics-september-2026/*" element={<PhysicsSeptemberModule />} />
             <Route path="/geography-tectonic-hazards/*" element={<GeographyTectonicsModule />} />
+            <Route path="/math-term-1-2026/*" element={<MathTermOneModule />} />
             <Route path="/physics/*" element={<PhysicsModule />} />
             <Route path="/math/*" element={<MathModule />} />
             <Route path="/geography/*" element={<GeographyModule />} />

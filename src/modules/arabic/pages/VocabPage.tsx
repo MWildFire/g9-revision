@@ -21,7 +21,12 @@ export function VocabPage() {
       {VOCAB_THEMES.map((theme) => (
         <div key={theme.id}>
           <SectionHeading>{lang === 'ru' ? theme.titleRu : theme.titleEn}</SectionHeading>
-          <div className="bg-bg-secondary border border-border rounded-md overflow-hidden">
+          <div
+            className="bg-bg-secondary border border-border rounded-md overflow-x-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            role="region"
+            tabIndex={0}
+            aria-label={lang === 'ru' ? `${theme.titleRu}: таблица с горизонтальной прокруткой` : `${theme.titleEn}: horizontally scrollable vocabulary table`}
+          >
             <table className="w-full text-sm">
               <thead className="bg-bg-tertiary/30 text-text-secondary text-xs uppercase tracking-wider">
                 <tr>

@@ -1,11 +1,12 @@
 {
   "brand": "MYP Revision",
-  "tagline": "October 2026 mock preparation",
+  "tagline": "Preparation for the 9–13 November 2026 mocks",
   "nav": {
     "hub": "Hub",
     "timetable": "Timetable",
     "about": "About",
-    "mocks": "Revision map"
+    "mocks": "Revision map",
+    "plan": "My plan"
   },
   "actions": {
     "next": "Next",
@@ -37,8 +38,8 @@
     "weeks_other": "{{count}} weeks",
     "weeks": "{{count}} weeks",
     "daysShort": "days left",
-    "window": "Mocks • October 2026",
-    "unconfirmed": "The exact school date is not confirmed. Add it in the planner when known."
+    "window": "Mocks · 9–13 November 2026",
+    "unconfirmed": "School timetable confirmed; your planner can override the countdown date."
   },
   "practice": {
     "intro": "Practice questions formatted in IB MYP exam style. Tap to reveal a model answer.",

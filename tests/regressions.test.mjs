@@ -5,17 +5,17 @@ import { parseExamDate, getExamDate, setExamDate, EXAM_DATE_STORAGE_KEY } from '
 import { loadState, saveState, STORAGE_KEY } from '../src/lib/storage.ts';
 const values = new Map();
 globalThis.window = { localStorage: { getItem:k=>values.get(k)??null, setItem:(k,v)=>values.set(k,v), removeItem:k=>values.delete(k) }, dispatchEvent:()=>true };
-test('no fabricated date and no June countdown migration',()=>{
-  values.clear(); values.set('g9-exam-date','2026-06-15'); assert.equal(getExamDate(),null);
+test('confirmed November default, personal override and no June migration',()=>{
+  values.clear(); values.set('g9-exam-date','2026-06-15'); assert.equal(getExamDate()?.getFullYear(),2026); assert.equal(getExamDate()?.getMonth(),10); assert.equal(getExamDate()?.getDate(),9);
   setExamDate('2026-10-19'); const date=getExamDate(); assert.equal(date.getMonth(),9); assert.equal(date.getDate(),19);
-  setExamDate(''); assert.equal(getExamDate(),null);
+  setExamDate(''); assert.equal(getExamDate()?.getFullYear(),2026); assert.equal(getExamDate()?.getMonth(),10); assert.equal(getExamDate()?.getDate(),9);
 });
 test('date validation rejects rollover and survives denied storage',()=>{
   for(const s of ['2026-02-30','2026-13-01','bad','2026-2-1','']) assert.equal(parseExamDate(s),null);
   assert.ok(parseExamDate('2028-02-29'));
   const previous=window.localStorage;
   Object.defineProperty(window,'localStorage',{configurable:true,get(){throw Error('denied')}});
-  assert.equal(getExamDate(),null); assert.doesNotThrow(()=>setExamDate('2026-10-20')); assert.deepEqual(loadState().timetable,{entries:[]});
+  assert.equal(getExamDate()?.getFullYear(),2026); assert.equal(getExamDate()?.getMonth(),10); assert.equal(getExamDate()?.getDate(),9); assert.doesNotThrow(()=>setExamDate('2026-10-20')); assert.deepEqual(loadState().timetable,{entries:[]});
   Object.defineProperty(window,'localStorage',{configurable:true,value:previous});
 });
 test('malformed nested state cannot crash planner or progress',()=>{

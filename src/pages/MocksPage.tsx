@@ -18,7 +18,8 @@ export function MocksPage() {
   return <main className="max-w-6xl mx-auto px-4 md:px-6 py-10">
     <Link to="/" className="text-sm underline">← {t('nav.hub')}</Link>
     <header className="my-8 max-w-3xl">
-      <p className="text-sm text-text-secondary mb-3">GRADE 10 · OCTOBER 2026</p>
+      <Link to="/revision-plan" className="inline-block rounded-lg bg-accent-sage px-5 py-3 mb-6">{ru ? 'Моки 9–13 ноября: актуальный план и полный курс →' : '9–13 November mocks: current plan and complete course →'}</Link>
+      <p className="text-sm text-text-secondary mb-3">ПРЕДМЕТНАЯ БИБЛИОТЕКА · SUBJECT LIBRARY</p>
       <h1 className="font-serif text-4xl mb-4">{ru ? 'Карта подготовки к MYP mocks' : 'Your MYP mock revision map'}</h1>
       <p className="text-text-secondary">{ru ? 'Начните с тем Grade 9. Карта связывает школьные списки, существующие уроки и новые материалы. Метки показывают основание включения темы, а не вероятность вопроса на экзамене.' : 'Start with Grade 9. This map connects school lists, existing lessons and new practice. Labels identify the source of a topic, not the probability of an exam question.'}</p>
     </header>

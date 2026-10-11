@@ -10,7 +10,7 @@ export function Header() {
   const isSeparatePack = pathname.startsWith('/physics-september-2026') || pathname.startsWith('/geography-tectonic-hazards') || pathname.startsWith('/math-term-1-2026');
   return (
     <header className="sticky top-0 z-40 bg-bg-primary/85 backdrop-blur border-b border-border">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 flex flex-wrap items-center justify-between gap-2">
         <Link to={ROUTES.HUB} className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
           <svg width="28" height="28" viewBox="0 0 64 64" fill="none" aria-hidden>
             <circle cx="32" cy="32" r="6" fill="var(--color-text-primary)" />
@@ -27,6 +27,7 @@ export function Header() {
             {!isSeparatePack && <ExamCountdown variant="compact" />}
           </div>
           <Link to="/mocks" className="text-sm hover:underline">{t('nav.mocks')}</Link>
+          <Link to="/revision-plan" className="text-sm hover:underline">{t('nav.plan')}</Link>
           <LanguageToggle />
         </div>
       </div>

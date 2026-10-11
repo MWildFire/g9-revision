@@ -13,6 +13,8 @@ const GeographyTectonicsModule = lazy(() => import('./modules/geography-tectonic
 const MathTermOneModule = lazy(() => import('./modules/math-term-one/MathTermOneModule').then(m => ({ default: m.MathTermOneModule })));
 const MocksPage = lazy(() => import('./pages/MocksPage').then(m => ({ default: m.MocksPage })));
 const MockLessonPage = lazy(() => import('./pages/MockLessonPage').then(m => ({ default: m.MockLessonPage })));
+const NovemberModule = lazy(() => import('./modules/november/NovemberModule').then(m => ({ default: m.NovemberModule })));
+const RevisionPlanPage = lazy(() => import('./modules/revision-plan/RevisionPlanPage').then(m => ({ default: m.RevisionPlanPage })));
 
 const PhysicsModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('physics'), import('./modules/physics')]); return { default: m.PhysicsModule }; });
 const MathModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('math'), import('./modules/math')]); return { default: m.MathModule }; });
@@ -41,13 +43,15 @@ export default function App() {
           className="flex-1"
         >
           {['math','physics','chemistry','biology','geography','english','french','arabic'].includes(subject) && <div className="max-w-7xl w-full mx-auto px-4 md:px-6 pt-5 text-sm text-text-secondary">
-            {i18n.language.startsWith('ru') ? 'Материалы Grade 9. Состав октябрьских mocks уточняется. ' : 'Grade 9 materials. October mock scope is awaiting confirmation. '}
-            <Link to={`/mocks?subject=${subject}`} className="underline">{t('nav.mocks')} →</Link>
+            {i18n.language.startsWith('ru') ? 'Предметная библиотека. Текущий план моков 9–13 ноября: ' : 'Subject library. Current plan for the 9–13 November mocks: '}
+            <Link to="/revision-plan" className="underline">{i18n.language.startsWith('ru') ? 'Подготовка по дням' : 'Daily preparation'} →</Link>
           </div>}
           <Suspense fallback={<p className="p-8" role="status">{t('loading')}</p>}>
           <Routes location={location}>
             <Route path="/" element={<HubPage />} />
             <Route path="/timetable" element={<TimetablePage />} />
+            <Route path="/revision-plan" element={<RevisionPlanPage />} />
+            <Route path="/november/*" element={<NovemberModule />} />
             <Route path="/mocks" element={<MocksPage />} />
             <Route path="/mocks/:lessonId" element={<MockLessonPage />} />
             <Route path="/about" element={<AboutPage />} />

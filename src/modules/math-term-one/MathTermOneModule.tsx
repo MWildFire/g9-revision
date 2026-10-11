@@ -55,7 +55,7 @@ function Overview({ store }: { store: Store }) {
   </>;
 }
 
-function LessonBody({ lesson, print = false }: { lesson: Lesson; print?: boolean }) {
+export function LessonBody({ lesson, print = false, embedded = false }: { lesson: Lesson; print?: boolean; embedded?: boolean }) {
   const { language, t } = usePack();
   return <>
     <section className="mathrev-panel mathrev-goals"><h2>{t("By the end, I can…", "После урока я могу…")}</h2><ul>{lesson.goals.map(goal => <li key={goal}>{goal}</li>)}</ul></section>
@@ -64,7 +64,7 @@ function LessonBody({ lesson, print = false }: { lesson: Lesson; print?: boolean
     {lesson.sections.map(section => <section className="mathrev-prose" key={section.title}><h2>{section.title}</h2><p>{section.text}</p>{section.formula && <div className="mathrev-formula">{section.formula}</div>}</section>)}
     <section className="mathrev-worked"><p className="mathrev-eyebrow">{t("Worked example", "Разобранный пример")}</p><h2>{lesson.example.prompt}</h2><ol>{lesson.example.steps.map((step, index) => <li key={index}>{step}</li>)}</ol></section>
     <section className="mathrev-pitfalls"><h2>{t("Common mistakes", "Типичные ошибки")}</h2><ul>{lesson.pitfalls.map(pitfall => <li key={pitfall}>{pitfall}</li>)}</ul></section>
-    {lesson.drFrost && <p className="mathrev-small">{t('School checklist · Dr Frost topic codes: ', 'Школьный список · коды тем Dr Frost: ')}{lesson.drFrost}{t('. Use the school-provided access route for those exercises.', '. Открывайте эти задания по ссылке, предоставленной школой.')}</p>}
+    {!embedded && lesson.drFrost && <p className="mathrev-small">{t('School checklist · Dr Frost topic codes: ', 'Школьный список · коды тем Dr Frost: ')}{lesson.drFrost}{t('. Use the school-provided access route for those exercises.', '. Открывайте эти задания по ссылке, предоставленной школой.')}</p>}
   </>;
 }
 

@@ -18,6 +18,8 @@ export function HubPage() {
           {t('hero.subtitle')}
         </p>
         <div className="flex flex-col items-center gap-4">
+          <Link to="/revision-plan" className="rounded-xl bg-[#244f6b] text-white hover:text-white px-7 py-4 text-lg font-medium">{i18n.language.startsWith('ru') ? 'Моки 9–13 ноября · мой план →' : '9–13 November mocks · my plan →'}</Link>
+          <Link to="/november" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Теория, практика и разборы внутри сайта →' : 'On-site theory, practice and worked answers →'}</Link>
           <Link to="/math-term-1-2026" className="rounded-md bg-[#244f6b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Математика · Assessment 1 →' : 'Mathematics · Assessment 1 →'}</Link>
           <Link to="/geography-tectonic-hazards" className="rounded-md bg-[#a74d2b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'География · тектонические опасности →' : 'Geography · Tectonic hazards →'}</Link>
           <Link to="/physics-september-2026" className="rounded-md bg-[#184f46] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Физика · сентябрь 2026 →' : 'Physics · September 2026 →'}</Link>

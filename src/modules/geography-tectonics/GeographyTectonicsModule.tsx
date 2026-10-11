@@ -99,7 +99,7 @@ function Overview({ store }: { store: Store }) {
   </>;
 }
 
-function LessonBody({ lesson, print = false }: { lesson: Lesson; print?: boolean }) {
+export function LessonBody({ lesson, print = false }: { lesson: Lesson; print?: boolean }) {
   const { t, txt } = useText();
   return <>
     {lesson.visual && <TectonicVisual key={`${lesson.id}-${print}`} kind={lesson.visual} fixed={print} />}

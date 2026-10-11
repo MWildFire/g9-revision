@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { format, startOfWeek, eachDayOfInterval, addDays, addWeeks, subWeeks } from 'date-fns';
 import { ru, enUS } from 'date-fns/locale';
@@ -160,6 +161,7 @@ export function TimetablePage() {
 
   return (
     <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
+      <Link to="/revision-plan" className="inline-block rounded-xl bg-bg-secondary border border-border p-4 mb-6">{i18n.language.startsWith('ru') ? 'Готовый план моков 9–13 ноября →' : 'Prepared plan for the 9–13 November mocks →'}</Link>
       <header className="mb-8 flex items-start justify-between gap-4 flex-wrap">
         <div>
           <h1 className="font-serif text-3xl md:text-4xl font-medium mb-2">

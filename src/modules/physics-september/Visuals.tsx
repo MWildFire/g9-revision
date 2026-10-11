@@ -1,3 +1,4 @@
+import './physics-september.css';
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { decayStep, daughter, remaining } from "./model";

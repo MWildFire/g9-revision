@@ -39,5 +39,17 @@ f('absorption','Thickness and count rate','Толщина поглотителя
 ];
 export const formulaTeaching=[...physicsFormulaTeaching,...mathFormulaTeaching,...chemBioFormulaTeaching,...additionalFormulaTeaching];
 export function normalizeFormula(value:string){return value.toLowerCase().replace(/[\s·×*{}\\]/g,'').replace(/[−–]/g,'-');}
-export function findFormulaTeaching(text:string):FormulaTeaching[]{const normalized=normalizeFormula(text);return formulaTeaching.filter(item=>item.matches.some(match=>normalized.includes(normalizeFormula(match))));}
+export function findFormulaTeaching(text:string):FormulaTeaching[]{
+ const normalized=normalizeFormula(text);
+ const prose=text.toLowerCase().replace(/\s+/g,' ');
+ return formulaTeaching.filter(item=>item.matches.some(match=>{
+  // Topic names need real word boundaries: removing spaces made «только масс»
+  // accidentally contain «Ома» and attached Ohm's law to stoichiometry.
+  if(/^[\p{L}\s’'–-]+$/u.test(match)){
+   const phrase=match.toLowerCase().trim().replace(/\s+/g,' ').replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+   return new RegExp(`(?:^|[^\\p{L}\\p{N}])${phrase}(?=$|[^\\p{L}\\p{N}])`,'u').test(prose);
+  }
+  return normalized.includes(normalizeFormula(match));
+ }));
+}
 export function formulaById(id:string){return formulaTeaching.find(item=>item.id===id);}

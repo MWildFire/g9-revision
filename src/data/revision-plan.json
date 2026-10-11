@@ -718,8 +718,8 @@
           "minutes": 15,
           "topics": [],
           "task": {
-            "en": "Check every line of the current school lists; mark red, amber or green. Confirm Maths/French level, Geography scope and Arabic registration.",
-            "ru": "Пройти каждый пункт школьных списков; отметить красный, жёлтый или зелёный. Уточнить уровни Maths/French, scope Geography и регистрацию на Arabic."
+            "en": "Use the topic map below to mark each study unit red, amber or green after a short recall check. Leave optional Arabic off unless registered.",
+            "ru": "По карте тем ниже оцени каждый учебный блок: красный, жёлтый или зелёный после короткой проверки без подсказок. Арабский включать только при регистрации."
           },
           "id": "2026-10-11-1"
         },
@@ -789,8 +789,8 @@
             "a-language"
           ],
           "task": {
-            "en": "Only if registered: diagnose the current teacher vocabulary and reading list.",
-            "ru": "Только при регистрации: диагностика текущего списка лексики и чтения учителя."
+            "en": "Only if registered: use the site’s Arabic reading, vocabulary and grammar to find your weakest area.",
+            "ru": "Только при регистрации: по чтению, лексике и грамматике арабского на сайте найти самый слабый навык."
           },
           "optional": true,
           "id": "2026-10-12-3"
@@ -812,8 +812,8 @@
             "e-analysis"
           ],
           "task": {
-            "en": "Use the English lesson for the school Frankenstein/Replicas Task 1a–e. Attempt first, then discuss evidence and comparison.",
-            "ru": "На уроке английского: школьный Frankenstein/Replicas, Task 1a–e. Сначала свой ответ, затем разбор доказательств и сравнения."
+            "en": "English lesson: use Text A and the storyboard in the site’s Task 1 unit. Attempt the comparison, then use the embedded explanation to check evidence and analysis.",
+            "ru": "Урок английского: текст A и раскадровка во встроенном Task 1. Сначала свой ответ на сравнение, затем проверка доказательств и анализа по разбору."
           },
           "lesson": true,
           "id": "2026-10-13-1"
@@ -825,8 +825,8 @@
             "f-language"
           ],
           "task": {
-            "en": "Use the French lesson for real teacher audio, reading evidence, technology vocabulary and complex sentences.",
-            "ru": "На уроке французского: настоящее аудио учителя, доказательства из текста, лексика технологий и сложные предложения."
+            "en": "French lesson: use the two audio tracks and transcripts on this site; support answers with evidence and practise technology vocabulary and complex sentences.",
+            "ru": "Урок французского: два аудио и тексты на сайте; подтверждать ответы фрагментами записи, отработать лексику технологий и сложные предложения."
           },
           "lesson": true,
           "id": "2026-10-13-2"
@@ -848,8 +848,8 @@
             "e-creative"
           ],
           "task": {
-            "en": "English lesson: plan and draft the school monologue and play-script openings. Check voice and script conventions.",
-            "ru": "Урок английского: спланировать и написать школьный монолог и начало сценария. Проверить голос и оформление."
+            "en": "English lesson: plan and write the monologue and play-script exercise in the site’s Task 2 unit. Check voice, stage directions and layout.",
+            "ru": "Урок английского: спланировать и написать монолог и сценарий по встроенному Task 2. Проверить голос, ремарки и оформление."
           },
           "lesson": true,
           "id": "2026-10-14-1"
@@ -1037,8 +1037,8 @@
             "a-language"
           ],
           "task": {
-            "en": "Reading and vocabulary from the registered Arabic course.",
-            "ru": "Чтение и лексика зарегистрированного курса арабского."
+            "en": "If registered: Arabic reading and vocabulary from the site’s study unit.",
+            "ru": "При регистрации: чтение и лексика из учебного блока арабского на сайте."
           },
           "optional": true,
           "id": "2026-10-18-5"
@@ -1109,8 +1109,8 @@
             "e-purpose"
           ],
           "task": {
-            "en": "English lesson: school speech/article tasks, then check audience, purpose, structure and SPaG.",
-            "ru": "Урок английского: школьные задания речь/статья; проверить аудиторию, цель, структуру и SPaG."
+            "en": "English lesson: use the site’s speech/article task; check audience, purpose, structure and spelling, punctuation and grammar.",
+            "ru": "Урок английского: встроенные задания речи/статьи; проверить аудиторию, цель, структуру, орфографию и пунктуацию."
           },
           "lesson": true,
           "id": "2026-10-20-1"
@@ -1121,8 +1121,8 @@
             "f-listen"
           ],
           "task": {
-            "en": "French lesson: timed listening and reading with real audio; justify answers using specific evidence.",
-            "ru": "Урок французского: аудирование и чтение на время с настоящим аудио; обосновать ответы конкретными фрагментами."
+            "en": "French lesson: repeat the site’s listening exercise on time without the transcript, then use the transcript and solutions to justify answers.",
+            "ru": "Урок французского: повторить встроенное аудирование на время без текста, затем по расшифровке и разборам обосновать ответы."
           },
           "lesson": true,
           "id": "2026-10-20-2"
@@ -1168,8 +1168,8 @@
             "e-analysis"
           ],
           "task": {
-            "en": "English lesson: second compare-and-contrast task from the school pack; improve precise analysis.",
-            "ru": "Урок английского: второе задание compare-and-contrast из школьного пакета; уточнить анализ."
+            "en": "English lesson: complete the 35-minute comparison in the site’s Task 1 unit; improve each claim with precise textual and visual evidence.",
+            "ru": "Урок английского: выполнить сравнение за 35 минут во встроенном Task 1; усилить каждый тезис точными деталями текста и раскадровки."
           },
           "lesson": true,
           "id": "2026-10-21-2"
@@ -1204,8 +1204,8 @@
             "s-c"
           ],
           "task": {
-            "en": "Energy profiles, cells, collision theory and equilibrium. Use one data set to draw a graph and evaluate a method.",
-            "ru": "Энергетические профили, элементы, столкновения и равновесие. По одному набору данных построить график и оценить метод."
+            "en": "Energy profiles, chemical cells, collisions and equilibrium. Use a rehearsal dataset on this site to draw a graph and evaluate the method.",
+            "ru": "Энергетические профили, химические источники тока, столкновения и равновесие. По данным встроенной репетиции построить график и оценить метод."
           },
           "id": "2026-10-22-1"
         },
@@ -1215,8 +1215,8 @@
             "b-environment"
           ],
           "task": {
-            "en": "Explain eutrophication, pollution, climate change and a conservation decision using the school list.",
-            "ru": "Объяснить эвтрофикацию, загрязнение, изменение климата и решение по охране природы по школьному списку."
+            "en": "Use the ecology unit to explain eutrophication, pollution, climate change and an evidence-based conservation decision.",
+            "ru": "По встроенному уроку экологии объяснить эвтрофикацию, загрязнение, изменение климата и решение по охране природы."
           },
           "id": "2026-10-22-2"
         },
@@ -1326,8 +1326,8 @@
             "g-previous"
           ],
           "task": {
-            "en": "Use the updated Geography list if available; otherwise diagnose the previous river/tourism/resource/hazard themes.",
-            "ru": "Если появился новый список Geography, использовать его; иначе диагностика прежних тем рек/туризма/ресурсов/опасностей."
+            "en": "Use the site’s earlier geography units to diagnose rivers, tourism, resources and atmospheric hazards. Prioritise the weakest explanation.",
+            "ru": "По прежним географическим блокам сайта проверить реки, туризм, ресурсы и атмосферные угрозы. Выбрать самое слабое объяснение."
           },
           "id": "2026-10-25-4"
         }
@@ -1385,8 +1385,8 @@
             "e-creative"
           ],
           "task": {
-            "en": "English lesson: timed Task 1 and a short Task 2. Mark against teacher criteria.",
-            "ru": "Урок английского: Task 1 и короткий Task 2 на время. Проверить по критериям учителя."
+            "en": "English lesson: timed Task 1 and a short Task 2 from the site. Check the detailed reasoning, evidence and writing checklist after attempting.",
+            "ru": "Урок английского: встроенный Task 1 и короткий Task 2 на время. После попытки проверить доказательства, разбор и памятку редактуры."
           },
           "lesson": true,
           "id": "2026-10-27-1"
@@ -1397,8 +1397,8 @@
             "f-write"
           ],
           "task": {
-            "en": "French lesson: teacher-format writing under a timer, then a targeted correction.",
-            "ru": "Урок французского: письмо в формате учителя на время, затем адресная правка."
+            "en": "French lesson: complete the site’s writing task on time, then correct it using the model explanation and text-type guidance.",
+            "ru": "Урок французского: выполнить встроенное письмо на время, затем исправить по разбору и памятке типа текста."
           },
           "lesson": true,
           "id": "2026-10-27-2"
@@ -1458,8 +1458,8 @@
             "s-d"
           ],
           "task": {
-            "en": "Timed science B–D section using school practice; mark it and record one fix per criterion.",
-            "ru": "Раздел наук B–D на время по школьной практике; проверить и записать по одной правке на критерий."
+            "en": "Attempt B–D questions from the site’s science rehearsals on time; self-mark and record one specific correction per criterion.",
+            "ru": "Выполнить на время вопросы B–D из встроенных научных репетиций; проверить и записать по одной конкретной правке на критерий."
           },
           "id": "2026-10-29-1"
         },
@@ -1496,8 +1496,8 @@
             "m-data"
           ],
           "task": {
-            "en": "Existing Maths lesson: a teacher paper or timed mixed sections at the correct level. Keep feedback within the same lesson.",
-            "ru": "Текущий урок математики: вариант учителя или смешанные разделы на время нужного уровня. Обратная связь входит в тот же урок."
+            "en": "Current mathematics lesson: timed mixed questions from the site’s four mathematics units at the appropriate level. Feedback stays within this lesson.",
+            "ru": "Текущий урок математики: смешанные вопросы из четырёх математических блоков сайта на время нужного уровня. Обратная связь входит в тот же урок."
           },
           "lesson": true,
           "id": "2026-10-30-1"
@@ -1693,8 +1693,8 @@
             "g-previous"
           ],
           "task": {
-            "en": "Geography: timed case-study answer, data interpretation and the topics on the confirmed current list.",
-            "ru": "Geography: ответ по кейсу на время, анализ данных и темы подтверждённого актуального списка."
+            "en": "Geography: a timed case-study answer and data interpretation using the site’s tectonics and earlier-topic units.",
+            "ru": "Geography: ответ по кейсу на время и анализ данных из встроенных блоков тектоники и прежних тем."
           },
           "id": "2026-11-04-2"
         },
@@ -1702,8 +1702,8 @@
           "minutes": 20,
           "topics": [],
           "task": {
-            "en": "Readiness check: each school-list item has a tested rating; identify remaining red items and assign them to 5–6 November.",
-            "ru": "Проверка готовности: каждый пункт школьного списка имеет оценку после проверки; оставшиеся красные пункты поставить на 5–6 ноября."
+            "en": "Readiness check: every study unit in the map has a confidence rating after independent practice. Put remaining red units into the 5–6 November buffer.",
+            "ru": "Проверка готовности: у каждого блока карты тем есть оценка после самостоятельной практики. Оставшиеся красные темы поставить на 5–6 ноября."
           },
           "id": "2026-11-04-3"
         }
@@ -1805,8 +1805,8 @@
             "a-language"
           ],
           "task": {
-            "en": "If registered: short Arabic recall from the current teacher list.",
-            "ru": "При регистрации: короткое повторение арабского по текущему списку учителя."
+            "en": "If registered: a short Arabic recap using the site’s reading, vocabulary and grammar.",
+            "ru": "При регистрации: коротко повторить арабский по чтению, лексике и грамматике на сайте."
           },
           "optional": true,
           "id": "2026-11-08-2"

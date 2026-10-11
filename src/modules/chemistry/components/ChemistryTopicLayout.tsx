@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../../components/content/FormulaTeaching';
 import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { ReactNode } from 'react';
@@ -47,6 +48,7 @@ export function ChemSection({ title, body, review, items, detailedItems, borderC
           {body}
         </p>
       ) : null}
+      <FormulaTeaching text={(body??'')}/>
       <DefinitionSupport review={review} />
       {detailedItems && detailedItems.length > 0 ? (
         <div className="space-y-3">
@@ -59,7 +61,7 @@ export function ChemSection({ title, body, review, items, detailedItems, borderC
         <ul className="space-y-2">
           {items.map((item) => (
             <li key={item.key} className="bg-bg-secondary border border-border rounded-md px-4 py-2.5 text-sm">
-              {item.text}
+              {item.text}<FormulaTeaching text={item.text}/>
             </li>
           ))}
         </ul>

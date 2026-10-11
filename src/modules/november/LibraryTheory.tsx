@@ -1,3 +1,5 @@
+import {FormulaTeaching} from '../../components/content/FormulaTeaching';
+import {atomicFormulaIds} from '../physics-september/formulaPlacement';
 import { lazy, Suspense, type ComponentType } from 'react';
 import { useTranslation } from 'react-i18next';
 import { loadSubjectTranslations } from '../../i18n';
@@ -55,7 +57,7 @@ const reading: Record<string, (keyof typeof pages)[]> = {
   'c-energy':['chemEnergy'], 'c-rates':['rates','chemExtra'], 'c-air':['air'],
   'b-cells':['cells'], 'b-nutrition':['body'], 'b-transport':['body'], 'b-respiration':['body'],
   'b-plants':['plants'], 'b-disease':['disease'], 'b-evolution':['evolution'], 'b-environment':['environment'],
-  'b-nervous':['body'], 'b-hormones':['body','biotech'], 'b-biotech':['biotech'],
+  'b-earlier':['body','evolution'], 'b-nervous':['body'], 'b-hormones':['body','biotech'], 'b-biotech':['biotech'],
   'g-previous':['rivers','tourism','resources','atmosphere','fieldwork'], 'm-data':['statistics'],
   'e-analysis':['reading','devices'], 'e-creative':['textTypes'], 'e-purpose':['textTypes'],
   'f-language':['frGrammar','frTenses'], 'f-write':['frText','frVocab'], 'a-language':['arabic'],
@@ -67,13 +69,13 @@ const names: Record<string,[string,string]> = {
   rivers:['Rivers','Реки'], tourism:['Tourism','Туризм'], resources:['Resources','Ресурсы'], atmosphere:['Atmospheric hazards','Атмосферные угрозы'], fieldwork:['Fieldwork','Полевые исследования'], statistics:['Statistics and probability','Статистика и вероятность'],
   textTypes:['Text types and examples','Типы текстов и примеры'], reading:['Reading and analysis','Чтение и анализ'], devices:['Writer’s choices','Средства выразительности'], frGrammar:['French grammar','Грамматика французского'], frTenses:['French tenses','Времена французского'], frText:['French text types','Французские типы текстов'], frVocab:['French vocabulary','Французская лексика'], arabic:['Arabic grammar','Грамматика арабского'],
 };
-export function LibraryTheory({id}: {id:string}) {
+export function LibraryTheory({id,selected}: {id:string;selected?:string[]}) {
   const {i18n} = useTranslation(); const lang = i18n.language.startsWith('ru') ? 'ru' : 'en'; const ru = lang === 'ru';
-  if (id === 'p-atom') return <div className="nov-library">{atomicLessons.map((lesson,index) => <details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><p>{lesson.intro[lang]}</p>{lesson.visual && <VisualLab kind={lesson.visual}/ >}{lesson.sections.map((s,i)=><section key={i}><h3>{s.title[lang]}</h3><p>{s.text[lang]}</p></section>)}{lesson.formulas.map(f=><p className="nov-formula" key={f}>{f}</p>)}{lesson.examples.map((e,i)=><section key={i}><h3>{e.question[lang]}</h3><ol>{e.steps.map((s,j)=><li key={j}>{s[lang]}</li>)}</ol></section>)}<ul>{lesson.pitfalls.map((p,i)=><li key={i}>{p[lang]}</li>)}</ul></details>)}</div>;
+  if (id === 'p-atom') return <div className="nov-library">{atomicLessons.filter(l=>!selected||selected.includes(l.id)).map((lesson,index) => <details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><p>{lesson.intro[lang]}</p>{lesson.visual && <VisualLab kind={lesson.visual}/ >}{lesson.sections.map((s,i)=><section key={i}><h3>{s.title[lang]}</h3><p>{s.text[lang]}</p>{atomicFormulaIds(lesson.id,i).map(id=><FormulaTeaching key={id} id={id}/>)}</section>)}{lesson.examples.map((e,i)=><section key={i}><h3>{e.question[lang]}</h3><ol>{e.steps.map((s,j)=><li key={j}>{s[lang]}</li>)}</ol></section>)}<ul>{lesson.pitfalls.map((p,i)=><li key={i}>{p[lang]}</li>)}</ul></details>)}</div>;
   if (id === 'g-tectonics') return <div className="tectonic nov-library">{geographyLessons.map((lesson,index)=><details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><GeographyLessonBody lesson={lesson}/></details>)}</div>;
   if (['m-core','m-algebra','m-geometry'].includes(id)) {
-    const pack = getPack(lang); const selected = pack.lessons.filter(l => id === 'm-core' ? ['start','core'].includes(l.tier) : id === 'm-algebra' ? ['functions','quadratic-graphs','quadratic-equations','sequences','formulae-and-fractions','proportion-and-graphs'].includes(l.id) : ['right-triangles','trigonometry','circles'].includes(l.id));
-    return <div className="mathrev nov-library">{selected.map((lesson,index)=><details key={lesson.id} open={index===0}><summary>{lesson.title}</summary><p>{lesson.intro}</p><MathLessonBody lesson={lesson} embedded/>{lesson.questions.map((q,i)=><section key={i}><h3>{q.prompt}</h3><details><summary>{ru?'Разбор':'Worked solution'}</summary><ol>{q.steps.map((s,j)=><li key={j}>{s}</li>)}</ol></details></section>)}</details>)}</div>;
+    const pack = getPack(lang); const chosen = pack.lessons.filter(l => selected ? selected.includes(l.id) : id === 'm-core' ? ['start','core'].includes(l.tier) : id === 'm-algebra' ? ['functions','quadratic-graphs','quadratic-equations','sequences','formulae-and-fractions','proportion-and-graphs'].includes(l.id) : ['right-triangles','trigonometry','circles'].includes(l.id));
+    return <div className="mathrev nov-library">{chosen.filter(l=>!selected||selected.includes(l.id)).map((lesson,index)=><details key={lesson.id} open={index===0}><summary>{lesson.title}</summary><p>{lesson.intro}</p><MathLessonBody lesson={lesson} embedded/>{(!selected?lesson.questions:[]).map((q,i)=><section key={i}><h3>{q.prompt}</h3><details><summary>{ru?'Разбор':'Worked solution'}</summary><ol>{q.steps.map((s,j)=><li key={j}>{s}</li>)}</ol></details></section>)}</details>)}</div>;
   }
   if (id === 'p-matter' || id.startsWith('s-')) return <MockLessonPage embeddedId={id === 'p-matter' ? 'states-thermal' : 'science-investigation'}/>;
   return <div className="nov-library">{(reading[id]??[]).map((key,index)=>{ const Component=pages[key]; return <details key={key} open={index===0}><summary>{names[key][ru?1:0]}</summary><Suspense fallback={<p role="status">{ru?'Загружаю урок…':'Loading lesson…'}</p>}><Component/></Suspense></details>; })}</div>;

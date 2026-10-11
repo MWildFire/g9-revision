@@ -1,0 +1,1321 @@
+[
+  {
+    "id": "atomic-structure",
+    "topic": "p-atom",
+    "title": {
+      "en": "Inside an atom",
+      "ru": "Строение атома"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "atomic-structure"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "isotopes",
+    "topic": "p-atom",
+    "title": {
+      "en": "Atomic number, mass number and isotopes",
+      "ru": "Атомный номер, массовое число и изотопы"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "isotopes"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "atomic-models",
+    "topic": "p-atom",
+    "title": {
+      "en": "How the atomic model changed",
+      "ru": "Как менялась модель атома"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "atomic-models"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "radiation",
+    "topic": "p-atom",
+    "title": {
+      "en": "Radioactive decay and radiation",
+      "ru": "Радиоактивный распад и излучение"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "radiation"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "nuclear-equations",
+    "topic": "p-atom",
+    "title": {
+      "en": "Balancing nuclear equations",
+      "ru": "Уравнения ядерных реакций"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "nuclear-equations"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "half-life",
+    "topic": "p-atom",
+    "title": {
+      "en": "Half-life and random decay",
+      "ru": "Период полураспада и случайность"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "half-life"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "contamination",
+    "topic": "p-atom",
+    "title": {
+      "en": "Contamination, irradiation and hazards",
+      "ru": "Загрязнение, облучение и опасность"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "contamination"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "background",
+    "topic": "p-atom",
+    "title": {
+      "en": "Background radiation and measurements",
+      "ru": "Радиационный фон и измерения"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "background"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "half-life-choice",
+    "topic": "p-atom",
+    "title": {
+      "en": "Comparing isotopes and half-lives",
+      "ru": "Сравнение изотопов и периодов"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "half-life-choice"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "uses",
+    "topic": "p-atom",
+    "title": {
+      "en": "Choosing radiation for a purpose",
+      "ru": "Применения ядерного излучения"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "uses"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "fission",
+    "topic": "p-atom",
+    "title": {
+      "en": "Fission and chain reactions",
+      "ru": "Деление ядер и цепная реакция"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "fission"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "fusion",
+    "topic": "p-atom",
+    "title": {
+      "en": "Fusion and nuclear energy",
+      "ru": "Синтез и ядерная энергия"
+    },
+    "minutes": 25,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 6,
+      "check": 4
+    },
+    "libraryIds": [
+      "fusion"
+    ],
+    "range": [
+      25,
+      40
+    ]
+  },
+  {
+    "id": "p-energy-core",
+    "topic": "p-energy",
+    "title": {
+      "en": "Energy, work, power and efficiency",
+      "ru": "Энергия, работа, мощность и КПД"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "p-matter-core",
+    "topic": "p-matter",
+    "title": {
+      "en": "Particles, density and thermal changes",
+      "ru": "Частицы, плотность и тепловые процессы"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "p-electric-core",
+    "topic": "p-electric",
+    "title": {
+      "en": "Electricity, circuits and safety",
+      "ru": "Электричество, цепи и безопасность"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "p-forces-core",
+    "topic": "p-forces",
+    "title": {
+      "en": "Forces, motion, moments and momentum",
+      "ru": "Силы, движение, моменты и импульс"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "p-waves-core",
+    "topic": "p-waves",
+    "title": {
+      "en": "Waves, sound, EM spectrum and optics",
+      "ru": "Волны, звук, ЭМ-спектр и оптика"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "c-atoms-core",
+    "topic": "c-atoms",
+    "title": {
+      "en": "Atoms, periodic table and separation",
+      "ru": "Атомы, таблица и разделение смесей"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "c-bonds-core",
+    "topic": "c-bonds",
+    "title": {
+      "en": "Bonding, structures and nanoparticles",
+      "ru": "Связи, структуры и наночастицы"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "c-quantity-core",
+    "topic": "c-quantity",
+    "title": {
+      "en": "Moles, equations, yield and concentration",
+      "ru": "Моль, уравнения, выход и концентрация"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "c-changes-core",
+    "topic": "c-changes",
+    "title": {
+      "en": "Reactivity, acids, salts and electrolysis",
+      "ru": "Активность, кислоты, соли и электролиз"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "c-energy-core",
+    "topic": "c-energy",
+    "title": {
+      "en": "Energy changes and chemical cells",
+      "ru": "Энергия реакций и химические источники тока"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "c-rates-core",
+    "topic": "c-rates",
+    "title": {
+      "en": "Rates and equilibrium",
+      "ru": "Скорость реакций и равновесие"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "c-air-core",
+    "topic": "c-air",
+    "title": {
+      "en": "Atmosphere and climate evidence",
+      "ru": "Атмосфера и данные о климате"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-cells-core",
+    "topic": "b-cells",
+    "title": {
+      "en": "Cells, microscopy and membrane transport",
+      "ru": "Клетки, микроскопия и мембранный транспорт"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-nutrition-core",
+    "topic": "b-nutrition",
+    "title": {
+      "en": "Nutrition, digestion and enzymes",
+      "ru": "Питание, пищеварение и ферменты"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-transport-core",
+    "topic": "b-transport",
+    "title": {
+      "en": "Gas exchange, blood and circulation",
+      "ru": "Газообмен, кровь и кровообращение"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-respiration-core",
+    "topic": "b-respiration",
+    "title": {
+      "en": "Aerobic and anaerobic respiration",
+      "ru": "Аэробное и анаэробное дыхание"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-plants-core",
+    "topic": "b-plants",
+    "title": {
+      "en": "Photosynthesis and transport in plants",
+      "ru": "Фотосинтез и транспорт у растений"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-disease-core",
+    "topic": "b-disease",
+    "title": {
+      "en": "Health, disease and immunity",
+      "ru": "Здоровье, болезни и иммунитет"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-evolution-core",
+    "topic": "b-evolution",
+    "title": {
+      "en": "Variation, evolution, breeding and cloning",
+      "ru": "Изменчивость, эволюция, селекция и клонирование"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-environment-core",
+    "topic": "b-environment",
+    "title": {
+      "en": "Human impacts and conservation",
+      "ru": "Влияние человека и охрана природы"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "m-data-core",
+    "topic": "m-data",
+    "title": {
+      "en": "Statistics and probability",
+      "ru": "Статистика и вероятность"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "g-tectonics-core",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Tectonics and case-study arguments",
+      "ru": "Тектоника и аргументация по кейсам"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "g-previous-core",
+    "topic": "g-previous",
+    "title": {
+      "en": "Rivers, tourism, resources and atmospheric hazards",
+      "ru": "Реки, туризм, ресурсы и атмосферные опасности"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "e-analysis-core",
+    "topic": "e-analysis",
+    "title": {
+      "en": "Task 1: text and film analysis; comparison",
+      "ru": "Task 1: анализ текста и фильма; сравнение"
+    },
+    "minutes": 60,
+    "timing": {
+      "read": 8,
+      "example": 7,
+      "attempt": 35,
+      "check": 10
+    },
+    "range": [
+      60,
+      75
+    ]
+  },
+  {
+    "id": "e-creative-core",
+    "topic": "e-creative",
+    "title": {
+      "en": "Task 2: monologue and play script",
+      "ru": "Task 2: монолог и театральный сценарий"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "e-purpose-core",
+    "topic": "e-purpose",
+    "title": {
+      "en": "Task 3: speech, article and other text types",
+      "ru": "Task 3: речь, статья и другие типы текстов"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "f-listen-core",
+    "topic": "f-listen",
+    "title": {
+      "en": "Listening and reading with evidence",
+      "ru": "Аудирование и чтение с доказательствами"
+    },
+    "minutes": 50,
+    "timing": {
+      "read": 10,
+      "example": 5,
+      "attempt": 25,
+      "check": 10
+    },
+    "range": [
+      50,
+      65
+    ]
+  },
+  {
+    "id": "f-write-core",
+    "topic": "f-write",
+    "title": {
+      "en": "Opinions, technology and accurate writing",
+      "ru": "Мнения, технологии и грамотное письмо"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "f-language-core",
+    "topic": "f-language",
+    "title": {
+      "en": "Vocabulary, time frames and complex sentences",
+      "ru": "Лексика, времена и сложные предложения"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-biotech-core",
+    "topic": "b-biotech",
+    "title": {
+      "en": "Biotechnology",
+      "ru": "Биотехнологии"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-nervous-core",
+    "topic": "b-nervous",
+    "title": {
+      "en": "Homeostasis, nervous system and the eye",
+      "ru": "Гомеостаз, нервная система и глаз"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-hormones-core",
+    "topic": "b-hormones",
+    "title": {
+      "en": "Hormones and blood glucose",
+      "ru": "Гормоны и глюкоза крови"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "b-earlier-core",
+    "topic": "b-earlier",
+    "title": {
+      "en": "Earlier-year reproduction, muscles and bones",
+      "ru": "Размножение, мышцы и кости из прошлых лет"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "s-b-core",
+    "topic": "s-b",
+    "title": {
+      "en": "Criterion B: plan an investigation",
+      "ru": "Criterion B: спроектировать исследование"
+    },
+    "minutes": 30,
+    "timing": {
+      "read": 12,
+      "example": 6,
+      "attempt": 8,
+      "check": 4
+    },
+    "range": [
+      30,
+      45
+    ]
+  },
+  {
+    "id": "s-c-core",
+    "topic": "s-c",
+    "title": {
+      "en": "Criterion C: graph, analyse and evaluate",
+      "ru": "Criterion C: график, анализ и оценка"
+    },
+    "minutes": 30,
+    "timing": {
+      "read": 12,
+      "example": 6,
+      "attempt": 8,
+      "check": 4
+    },
+    "range": [
+      30,
+      45
+    ]
+  },
+  {
+    "id": "s-d-core",
+    "topic": "s-d",
+    "title": {
+      "en": "Criterion D: evidence and implications",
+      "ru": "Criterion D: доказательства и последствия"
+    },
+    "minutes": 30,
+    "timing": {
+      "read": 12,
+      "example": 6,
+      "attempt": 8,
+      "check": 4
+    },
+    "range": [
+      30,
+      45
+    ]
+  },
+  {
+    "id": "a-language-core",
+    "topic": "a-language",
+    "title": {
+      "en": "Arabic: teacher list, reading and vocabulary",
+      "ru": "Арабский: список учителя, чтение и лексика"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-mathematical-language",
+    "topic": "m-core",
+    "title": {
+      "en": "Read notation",
+      "ru": "Язык математики"
+    },
+    "minutes": 20,
+    "timing": {
+      "read": 8,
+      "example": 4,
+      "attempt": 5,
+      "check": 3
+    },
+    "libraryIds": [
+      "mathematical-language"
+    ],
+    "range": [
+      20,
+      35
+    ]
+  },
+  {
+    "id": "math-proof-and-generalisation",
+    "topic": "m-core",
+    "title": {
+      "en": "Proof and generalisation",
+      "ru": "Доказательство и обобщение"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "proof-and-generalisation"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-coordinate-geometry",
+    "topic": "m-core",
+    "title": {
+      "en": "Coordinates and gradient",
+      "ru": "Координаты и угловой коэффициент"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "coordinate-geometry"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-linear-equations",
+    "topic": "m-core",
+    "title": {
+      "en": "Linear equations",
+      "ru": "Линейные уравнения"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "linear-equations"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-simultaneous-equations",
+    "topic": "m-core",
+    "title": {
+      "en": "Simultaneous equations",
+      "ru": "Системы уравнений"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "simultaneous-equations"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-linear-inequalities",
+    "topic": "m-core",
+    "title": {
+      "en": "Linear inequalities",
+      "ru": "Линейные неравенства"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "linear-inequalities"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-sets-and-venn",
+    "topic": "m-core",
+    "title": {
+      "en": "Sets and Venn diagrams",
+      "ru": "Множества и диаграммы Венна"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "sets-and-venn"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-functions",
+    "topic": "m-algebra",
+    "title": {
+      "en": "Functions",
+      "ru": "Функции"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "functions"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-quadratic-graphs",
+    "topic": "m-algebra",
+    "title": {
+      "en": "Quadratic graphs",
+      "ru": "Графики квадратичных функций"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "quadratic-graphs"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-quadratic-equations",
+    "topic": "m-algebra",
+    "title": {
+      "en": "Quadratic equations",
+      "ru": "Квадратные уравнения"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "quadratic-equations"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-sequences",
+    "topic": "m-algebra",
+    "title": {
+      "en": "Sequences",
+      "ru": "Последовательности"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "sequences"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-formulae-and-fractions",
+    "topic": "m-algebra",
+    "title": {
+      "en": "Rearrangement and fractions",
+      "ru": "Преобразование формул и дроби"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "formulae-and-fractions"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-proportion-and-graphs",
+    "topic": "m-algebra",
+    "title": {
+      "en": "Proportion and graphs",
+      "ru": "Пропорциональность и графики"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "proportion-and-graphs"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-right-triangles",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Right triangles and bearings",
+      "ru": "Прямоугольные треугольники и азимуты"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "right-triangles"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-trigonometry",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Trigonometry",
+      "ru": "Тригонометрия"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "trigonometry"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  },
+  {
+    "id": "math-circles",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Circles",
+      "ru": "Окружности"
+    },
+    "minutes": 35,
+    "timing": {
+      "read": 14,
+      "example": 7,
+      "attempt": 9,
+      "check": 5
+    },
+    "libraryIds": [
+      "circles"
+    ],
+    "range": [
+      35,
+      50
+    ]
+  }
+]

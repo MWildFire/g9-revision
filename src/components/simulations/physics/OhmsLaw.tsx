@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useRef, useState, useEffect, useMemo } from 'react';
 import { Slider } from '../../ui/Slider';
@@ -161,6 +162,6 @@ export function OhmsLaw() {
           </Formula>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="ohm"/><FormulaTeaching id="electrical-power"/></SimulationPanel>
   );
 }

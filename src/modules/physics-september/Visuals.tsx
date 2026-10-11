@@ -91,7 +91,7 @@ function AtomLab() {
           {a.A - a.Z} n
         </text>
       </svg>
-      <div className="nuclear-stats" aria-live="polite">
+      <p>{t("Notation: Z counts protons; A counts protons plus neutrons; n counts neutrons; e⁻ counts electrons. These counts have no unit. Charge is shown in units of positive elementary charge e, not coulombs.","Обозначения: Z — число протонов; A — число протонов и нейтронов вместе; n — число нейтронов; e⁻ — число электронов. Эти числа безразмерны. Заряд показан в единицах положительного элементарного заряда e, а не в кулонах.")}</p><div className="nuclear-stats" aria-live="polite">
         <span>Z = {a.Z}</span>
         <span>A = {a.A}</span>
         <span>n = {a.A - a.Z}</span>

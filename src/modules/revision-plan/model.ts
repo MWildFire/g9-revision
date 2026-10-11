@@ -1,9 +1,9 @@
 export type Text = { en: string; ru: string };
 export type Topic = { id: string; subject: string; title: Text; route: string; source: string; optional?: boolean };
-export type Block = { id: string; minutes: number; topics: string[]; task: Text; lesson?: boolean; paper?: string; optional?: boolean };
+export type Block = { id: string; minutes: number; topics: string[]; task: Text; lesson?: boolean; paper?: string; optional?: boolean; sessions?: string[]; paperQuestions?:string[]; reported?:boolean };
 export type Day = { date: string; phase: string; title: Text; blocks: Block[]; recall: number; note?: Text; rest?: boolean };
 export type Confidence = 'red' | 'amber' | 'green';
-export type PlanState = { completed: Record<string, string>; confidence: Record<string, Confidence>; arabic: boolean; notes: string };
+export type PlanState = { completed: Record<string, string>; confidence: Record<string, Confidence>; arabic: boolean; notes: string; reportedSeeded?:boolean };
 export const PLAN_KEY = 'g9-november-plan-2026-v1';
 export const FIRST_EXAM = '2026-11-09';
 export const READY_BY = '2026-11-04';
@@ -26,6 +26,7 @@ export function normalizePlan(raw: unknown): PlanState {
       if (rating === 'red' || rating === 'amber' || rating === 'green') state.confidence[id] = rating;
     }
   }
+  if(value.reportedSeeded===true)state.reportedSeeded=true;
   state.arabic = value.arabic === true;
   state.notes = typeof value.notes === 'string' ? value.notes.slice(0, 12000) : '';
   return state;
@@ -51,7 +52,7 @@ export function dueReviews(days: Day[], topics: Topic[], state: PlanState, today
   const latest: Record<string, string> = {};
   for (const day of days) for (const block of activeBlocks(day, state.arabic)) {
     const completed = state.completed[block.id];
-    if (completed && completed <= today) for (const id of block.topics) {
+    if (completed && completed <= today) for (const id of (block.sessions?.length?block.sessions:block.topics)) {
       if (!latest[id] || latest[id] < completed) latest[id] = completed;
     }
   }
@@ -60,4 +61,10 @@ export function dueReviews(days: Day[], topics: Topic[], state: PlanState, today
     const dates = [...new Set([1, 4, 11].map(offset => shiftedDate(latest[topic.id], offset)))].filter(date => date < FIRST_EXAM && !state.completed[`review:${topic.id}:${date}`]);
     return dates.length ? [{ topic, dates, due: dates.some(date => date <= today), lastStudied: latest[topic.id] }] : [];
   }).sort((a, b) => Number(b.due) - Number(a.due) || a.dates[0].localeCompare(b.dates[0]));
+}
+
+export function loadStudyState(raw:unknown):PlanState {
+ const state=normalizePlan(raw);
+ if(!state.reportedSeeded){for(const id of ['atomic-structure','isotopes','atomic-models'])state.completed['study:'+id]='2026-10-11';state.reportedSeeded=true;}
+ return state;
 }

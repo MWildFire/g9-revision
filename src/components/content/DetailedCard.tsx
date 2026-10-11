@@ -1,3 +1,4 @@
+import {FormulaTeaching} from './FormulaTeaching';
 import { DefinitionSupport } from './DefinitionSupport';
 import type { DefinitionReview } from './definitionReview';
 
@@ -89,6 +90,7 @@ export function DetailedCard({ item, borderColor, labels }: Props) {
       {item.note ? (
         <p className="text-xs text-text-muted mt-2">{item.note}</p>
       ) : null}
+      <FormulaTeaching text={[heading,item.rule,item.form,item.body,item.tip,item.note,item.watchOut,item.example,...(item.examples??[])].filter(Boolean).join(' ')}/>
       {item.review && <DefinitionSupport review={item.review} />}
     </article>
   );

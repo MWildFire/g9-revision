@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../components/content/FormulaTeaching';
 import { getPack } from './localisation';
 import { useTranslation } from 'react-i18next';
 import { TermDefinition } from './TermDefinition';
@@ -61,7 +62,7 @@ export function LessonBody({ lesson, print = false, embedded = false }: { lesson
     <section className="mathrev-panel mathrev-goals"><h2>{t("By the end, I can…", "После урока я могу…")}</h2><ul>{lesson.goals.map(goal => <li key={goal}>{goal}</li>)}</ul></section>
     {[...new Set(lesson.terms.flatMap(term => term.diagram ? [term.diagram] : []))].map(kind => <DefinitionDiagram key={kind} kind={kind} language={language}/>)}
     <section className="mathrev-terms"><h2>{t("Know the words", "Термины")}</h2><dl>{lesson.terms.map(term => <div key={term.term}><TermDefinition term={term} language={language}/></div>)}</dl></section>
-    {lesson.sections.map(section => <section className="mathrev-prose" key={section.title}><h2>{section.title}</h2><p>{section.text}</p>{section.formula && <div className="mathrev-formula">{section.formula}</div>}</section>)}
+    {lesson.sections.map(section => <section className="mathrev-prose" key={section.title}><h2>{section.title}</h2><p>{section.text}</p>{section.formula && <><div className="mathrev-formula">{section.formula}</div><FormulaTeaching text={section.formula}/></>}</section>)}
     <section className="mathrev-worked"><p className="mathrev-eyebrow">{t("Worked example", "Разобранный пример")}</p><h2>{lesson.example.prompt}</h2><ol>{lesson.example.steps.map((step, index) => <li key={index}>{step}</li>)}</ol></section>
     <section className="mathrev-pitfalls"><h2>{t("Common mistakes", "Типичные ошибки")}</h2><ul>{lesson.pitfalls.map(pitfall => <li key={pitfall}>{pitfall}</li>)}</ul></section>
     {!embedded && lesson.drFrost && <p className="mathrev-small">{t('School checklist · Dr Frost topic codes: ', 'Школьный список · коды тем Dr Frost: ')}{lesson.drFrost}{t('. Use the school-provided access route for those exercises.', '. Открывайте эти задания по ссылке, предоставленной школой.')}</p>}

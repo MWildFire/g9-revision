@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Slider } from '../../ui/Slider';
@@ -165,6 +166,6 @@ export function PressureSim() {
           </div>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="pressure"/></SimulationPanel>
   );
 }

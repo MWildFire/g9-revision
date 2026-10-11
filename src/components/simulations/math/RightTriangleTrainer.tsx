@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -71,6 +72,6 @@ export function RightTriangleTrainer() {
         </svg>
       </div>
       <DefinitionSupport review={t('simulations.rightTriangle.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="pythagoras"/><FormulaTeaching id="trig-ratios"/></SimulationPanel>
   );
 }

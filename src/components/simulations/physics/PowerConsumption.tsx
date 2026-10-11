@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Slider } from '../../ui/Slider';
@@ -103,6 +104,6 @@ export function PowerConsumption() {
           </div>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="electrical-power"/></SimulationPanel>
   );
 }

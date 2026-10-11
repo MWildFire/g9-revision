@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -79,6 +80,6 @@ export function AtomBuilder() {
         </svg></div>
       </div>
     <DefinitionSupport review={t('simulations.atomBuilder.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="charge"/><FormulaTeaching id="nucleons"/></SimulationPanel>
   );
 }

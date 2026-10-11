@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState, useMemo } from 'react';
@@ -86,6 +87,6 @@ export function CumulativeFrequency() {
         </div>
       </div>
       <DefinitionSupport review={t('simulations.cumulativeFreq.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="statistics"/></SimulationPanel>
   );
 }

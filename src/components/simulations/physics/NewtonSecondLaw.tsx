@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip } from 'recharts';
@@ -156,7 +157,7 @@ export function NewtonSecondLaw() {
           </div>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="newton"/></SimulationPanel>
   );
 }
 

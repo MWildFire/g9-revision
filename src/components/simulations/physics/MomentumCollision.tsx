@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -172,7 +173,7 @@ export function MomentumCollision() {
           </div>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="momentum"/></SimulationPanel>
   );
 }
 

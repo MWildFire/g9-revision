@@ -1,3 +1,5 @@
+import {FormulaTeaching} from '../../components/content/FormulaTeaching';
+import {atomicFormulaIds} from './formulaPlacement';
 import { DefinitionSupport } from "../../components/content/DefinitionSupport";
 import { physicsNuclearReviews, nuclearLessonReviews } from "../../definitions/physicsNuclear";
 import { useEffect, useState } from "react";
@@ -375,18 +377,9 @@ function LessonPage({ store }: { store: Store }) {
         <section id={`section-${i}`} key={i} className="nuclear-theory">
           <h2>{txt(section.title)}</h2>
           <Text value={section.text} />
+          {atomicFormulaIds(lesson.id,i).map(id=><FormulaTeaching id={id} key={id}/>)}
         </section>
       ))}
-      {lesson.formulas.length > 0 && (
-        <section className="nuclear-formula-box">
-          <h2>{t("Keep these relationships", "Главные зависимости")}</h2>
-          {lesson.formulas.map((f) => (
-            <p key={f} className="nuclear-formula">
-              {f}
-            </p>
-          ))}
-        </section>
-      )}
       <DefinitionSupport review={nuclearLessonReviews[lesson.id]} />
       {lesson.visual && <VisualLab kind={lesson.visual} key={lesson.id} />}
       <section>
@@ -712,11 +705,7 @@ function Reference() {
                 <Link to={`${BASE}/${l.id}`}>
                   <h3>{txt(l.title)}</h3>
                 </Link>
-                {l.formulas.map((f) => (
-                  <p key={f} className="nuclear-formula">
-                    {f}
-                  </p>
-                ))}
+                {atomicFormulaIds(l.id).map(id=><FormulaTeaching key={id} id={id}/>)}
               </div>
             ))}
         </div>

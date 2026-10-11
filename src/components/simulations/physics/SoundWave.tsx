@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -85,7 +86,7 @@ export function SoundWave() {
           as compression / rarefaction of air particles (bottom).
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="wave"/></SimulationPanel>
   );
 }
 

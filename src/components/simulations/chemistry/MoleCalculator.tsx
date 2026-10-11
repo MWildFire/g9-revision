@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { convertChemicalAmount } from '../../../definitions/chemistryModels';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
@@ -111,6 +112,6 @@ export function MoleCalculator() {
         </div>
       </div>
     <DefinitionSupport review={t('simulations.moleCalc.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="moles"/><FormulaTeaching id="gas-volume"/></SimulationPanel>
   );
 }

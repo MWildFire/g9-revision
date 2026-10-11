@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Slider } from '../../ui/Slider';
@@ -205,7 +206,7 @@ export function LensSim() {
           </div>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="lens"/></SimulationPanel>
   );
 }
 

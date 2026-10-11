@@ -710,54 +710,68 @@
       "date": "2026-10-11",
       "phase": "holiday",
       "title": {
-        "en": "Baseline and priorities",
-        "ru": "Диагностика и приоритеты"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
-          "minutes": 15,
-          "topics": [],
-          "task": {
-            "en": "Use the topic map below to mark each study unit red, amber or green after a short recall check. Leave optional Arabic off unless registered.",
-            "ru": "По карте тем ниже оцени каждый учебный блок: красный, жёлтый или зелёный после короткой проверки без подсказок. Арабский включать только при регистрации."
-          },
-          "id": "2026-10-11-1"
-        },
-        {
+          "id": "study:atomic-structure",
           "minutes": 25,
           "topics": [
             "p-atom"
           ],
-          "task": {
-            "en": "Closed-book diagnostic: atomic notation, radiation and a half-life question.",
-            "ru": "Без конспекта: обозначение атома, излучение и задача на период полураспада."
-          },
-          "id": "2026-10-11-2"
-        },
-        {
-          "minutes": 25,
-          "topics": [
-            "c-atoms"
+          "sessions": [
+            "atomic-structure"
           ],
           "task": {
-            "en": "Check particle counts, electronic structure, periodic trends and a separation method.",
-            "ru": "Проверить состав атома, электроны, периодические тренды и метод разделения смесей."
+            "en": "Inside an atom",
+            "ru": "Строение атома"
           },
-          "id": "2026-10-11-3"
+          "reported": true
+        },
+        {
+          "id": "study:isotopes",
+          "minutes": 25,
+          "topics": [
+            "p-atom"
+          ],
+          "sessions": [
+            "isotopes"
+          ],
+          "task": {
+            "en": "Atomic number, mass number and isotopes",
+            "ru": "Атомный номер, массовое число и изотопы"
+          },
+          "reported": true
+        },
+        {
+          "id": "study:atomic-models",
+          "minutes": 25,
+          "topics": [
+            "p-atom"
+          ],
+          "sessions": [
+            "atomic-models"
+          ],
+          "task": {
+            "en": "How the atomic model changed",
+            "ru": "Как менялась модель атома"
+          },
+          "reported": true
         }
       ],
-      "recall": 10,
+      "recall": 0,
       "note": {
-        "en": "If another lesson has already happened today, keep only the diagnostic and one 25-minute block.",
-        "ru": "Если сегодня уже был другой урок, оставить диагностику и один блок на 25 минут."
+        "en": "These three sections were reported completed today. 75 min is a planning estimate, not a recorded duration. Stop new work for today.",
+        "ru": "Эти три раздела, по вашему сообщению, пройдены сегодня. 75 мин — ориентир плана, не измеренная длительность. Новых тем сегодня больше нет."
       }
     },
     {
       "date": "2026-10-12",
       "phase": "holiday",
       "title": {
-        "en": "Maths and cell transport",
-        "ru": "Математика и транспорт клетки"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
@@ -766,44 +780,69 @@
             "m-core"
           ],
           "task": {
-            "en": "Use the existing Maths lesson for mixed Assessment 1 questions. Record three errors to revisit.",
-            "ru": "В текущем уроке математики решить смешанные вопросы Assessment 1. Записать три ошибки для повторения."
+            "en": "Read notation; Proof and generalisation — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Язык математики; Доказательство и обобщение — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-12-1"
+          "id": "v2:2026-10-12-1",
+          "sessions": [
+            "math-mathematical-language",
+            "math-proof-and-generalisation"
+          ]
         },
         {
-          "minutes": 30,
-          "topics": [
-            "b-cells"
-          ],
-          "task": {
-            "en": "Draw cells and explain diffusion, osmosis and active transport; attempt microscopy and osmosis data.",
-            "ru": "Нарисовать клетки, объяснить диффузию, осмос и активный транспорт; разобрать микроскопию и данные по осмосу."
-          },
-          "id": "2026-10-12-2"
-        },
-        {
+          "id": "2026-10-12-arabic",
           "minutes": 15,
           "topics": [
             "a-language"
           ],
           "task": {
-            "en": "Only if registered: use the site’s Arabic reading, vocabulary and grammar to find your weakest area.",
-            "ru": "Только при регистрации: по чтению, лексике и грамматике арабского на сайте найти самый слабый навык."
+            "en": "Optional: one passage and two accurate sentences; use grammar reference if needed.",
+            "ru": "По желанию: один текст и две точные фразы; при необходимости откройте грамматику."
           },
-          "optional": true,
-          "id": "2026-10-12-3"
+          "optional": true
+        },
+        {
+          "id": "study:c-atoms-core",
+          "minutes": 35,
+          "topics": [
+            "c-atoms"
+          ],
+          "sessions": [
+            "c-atoms-core"
+          ],
+          "task": {
+            "en": "Atoms, periodic table and separation",
+            "ru": "Атомы, таблица и разделение смесей"
+          }
+        },
+        {
+          "id": "study:b-cells-core",
+          "minutes": 35,
+          "topics": [
+            "b-cells"
+          ],
+          "sessions": [
+            "b-cells-core"
+          ],
+          "task": {
+            "en": "Cells, microscopy and membrane transport",
+            "ru": "Клетки, микроскопия и мембранный транспорт"
+          }
         }
       ],
-      "recall": 10
+      "recall": 5,
+      "note": {
+        "en": "Recall the three atomic sections for five minutes without rereading the whole course.",
+        "ru": "Пять минут вспомните три вчерашних раздела об атоме без перечитывания всего курса."
+      }
     },
     {
       "date": "2026-10-13",
       "phase": "holiday",
       "title": {
-        "en": "English analysis and French",
-        "ru": "Анализ по английскому и французский"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
@@ -812,34 +851,53 @@
             "e-analysis"
           ],
           "task": {
-            "en": "English lesson: use Text A and the storyboard in the site’s Task 1 unit. Attempt the comparison, then use the embedded explanation to check evidence and analysis.",
-            "ru": "Урок английского: текст A и раскадровка во встроенном Task 1. Сначала свой ответ на сравнение, затем проверка доказательств и анализа по разбору."
+            "en": "Task 1: text and film analysis; comparison — one worked model, independent response, feedback within the lesson.",
+            "ru": "Task 1: анализ текста и фильма; сравнение — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-13-1"
+          "id": "v2:2026-10-13-1",
+          "sessions": [
+            "e-analysis-core"
+          ]
         },
         {
           "minutes": 60,
           "topics": [
-            "f-listen",
-            "f-language"
+            "f-listen"
           ],
           "task": {
-            "en": "French lesson: use the two audio tracks and transcripts on this site; support answers with evidence and practise technology vocabulary and complex sentences.",
-            "ru": "Урок французского: два аудио и тексты на сайте; подтверждать ответы фрагментами записи, отработать лексику технологий и сложные предложения."
+            "en": "Listening and reading with evidence; Vocabulary, time frames and complex sentences — one worked model, independent response, feedback within the lesson.",
+            "ru": "Аудирование и чтение с доказательствами; Лексика, времена и сложные предложения — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-13-2"
+          "id": "v2:2026-10-13-2",
+          "sessions": [
+            "f-listen-core"
+          ]
+        },
+        {
+          "id": "study:radiation",
+          "minutes": 25,
+          "topics": [
+            "p-atom"
+          ],
+          "sessions": [
+            "radiation"
+          ],
+          "task": {
+            "en": "Radioactive decay and radiation",
+            "ru": "Радиоактивный распад и излучение"
+          }
         }
       ],
-      "recall": 10
+      "recall": 5
     },
     {
       "date": "2026-10-14",
       "phase": "holiday",
       "title": {
-        "en": "Creative writing and algebra",
-        "ru": "Творческое письмо и алгебра"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
@@ -848,35 +906,43 @@
             "e-creative"
           ],
           "task": {
-            "en": "English lesson: plan and write the monologue and play-script exercise in the site’s Task 2 unit. Check voice, stage directions and layout.",
-            "ru": "Урок английского: спланировать и написать монолог и сценарий по встроенному Task 2. Проверить голос, ремарки и оформление."
+            "en": "Task 2: monologue and play script — one worked model, independent response, feedback within the lesson.",
+            "ru": "Task 2: монолог и театральный сценарий — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-14-1"
+          "id": "v2:2026-10-14-1",
+          "sessions": [
+            "e-creative-core"
+          ]
         },
         {
           "minutes": 60,
           "topics": [
-            "m-algebra"
+            "m-core"
           ],
           "task": {
-            "en": "Maths lesson: functions, quadratic equations and sequences. Start with a short closed-book check.",
-            "ru": "Урок математики: функции, квадратные уравнения и последовательности. Начать с короткой проверки без конспекта."
+            "en": "Coordinates and gradient — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Координаты и угловой коэффициент — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-14-2"
+          "id": "v2:2026-10-14-2",
+          "sessions": [
+            "math-coordinate-geometry"
+          ]
         },
         {
-          "minutes": 20,
+          "id": "study:nuclear-equations",
+          "minutes": 25,
           "topics": [
-            "p-energy",
-            "p-matter"
+            "p-atom"
+          ],
+          "sessions": [
+            "nuclear-equations"
           ],
           "task": {
-            "en": "Quick energy and particle diagnostic. Read only the part that explains an error.",
-            "ru": "Короткая диагностика энергии и частиц. Прочитать только объяснение найденной ошибки."
-          },
-          "id": "2026-10-14-3"
+            "en": "Balancing nuclear equations",
+            "ru": "Уравнения ядерных реакций"
+          }
         }
       ],
       "recall": 5
@@ -885,82 +951,97 @@
       "date": "2026-10-15",
       "phase": "holiday",
       "title": {
-        "en": "Chemistry foundations and French writing",
-        "ru": "Основа химии и письмо на французском"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
-        {
-          "minutes": 35,
-          "topics": [
-            "c-bonds",
-            "c-quantity"
-          ],
-          "task": {
-            "en": "Explain structure–property links and solve moles, balancing and reacting-mass questions. Keep [H] items labelled.",
-            "ru": "Объяснить связь структуры и свойств; решить моль, балансировку и массы реагентов. Сохранить пометки [H]."
-          },
-          "id": "2026-10-15-1"
-        },
         {
           "minutes": 60,
           "topics": [
             "f-write"
           ],
           "task": {
-            "en": "French lesson: write on technology with benefits, drawbacks and a justified opinion; correct recurring language errors.",
-            "ru": "Урок французского: текст о технологиях с плюсами, минусами и обоснованным мнением; исправить повторяющиеся ошибки."
+            "en": "Opinions, technology and accurate writing — one worked model, independent response, feedback within the lesson.",
+            "ru": "Мнения, технологии и грамотное письмо — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-15-2"
+          "id": "v2:2026-10-15-2",
+          "sessions": [
+            "f-write-core"
+          ]
         },
         {
-          "minutes": 25,
+          "id": "study:p-energy-core",
+          "minutes": 35,
           "topics": [
-            "g-tectonics"
+            "p-energy"
+          ],
+          "sessions": [
+            "p-energy-core"
           ],
           "task": {
-            "en": "Sketch plate boundaries from memory; compare Chile and Nepal using evidence.",
-            "ru": "Нарисовать границы плит по памяти; сравнить Чили и Непал с опорой на факты."
-          },
-          "id": "2026-10-15-3"
+            "en": "Energy, work, power and efficiency",
+            "ru": "Энергия, работа, мощность и КПД"
+          }
+        },
+        {
+          "id": "study:c-bonds-core",
+          "minutes": 35,
+          "topics": [
+            "c-bonds"
+          ],
+          "sessions": [
+            "c-bonds-core"
+          ],
+          "task": {
+            "en": "Bonding, structures and nanoparticles",
+            "ru": "Связи, структуры и наночастицы"
+          }
         }
       ],
-      "recall": 10
+      "recall": 5
     },
     {
       "date": "2026-10-16",
       "phase": "holiday",
       "title": {
-        "en": "Maths practice and a short biology check",
-        "ru": "Практика математики и короткая биология"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
           "minutes": 120,
           "topics": [
-            "m-geometry",
-            "m-data"
+            "m-geometry"
           ],
           "task": {
-            "en": "Use the existing long Maths lesson, with breaks, for geometry/trigonometry and statistics/probability. Correct a mixed set.",
-            "ru": "Текущий длинный урок математики с перерывами: геометрия/тригонометрия и статистика/вероятность. Проверить смешанный набор."
+            "en": "Right triangles and bearings; Trigonometry; Circles — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Прямоугольные треугольники и азимуты; Тригонометрия; Окружности — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-16-1"
+          "id": "v2:2026-10-16-1",
+          "sessions": [
+            "math-right-triangles",
+            "math-trigonometry",
+            "math-circles"
+          ]
         },
         {
-          "minutes": 20,
+          "id": "study:half-life",
+          "minutes": 25,
           "topics": [
-            "b-nutrition"
+            "p-atom"
+          ],
+          "sessions": [
+            "half-life"
           ],
           "task": {
-            "en": "Explain digestion and enzymes, then interpret one enzyme graph.",
-            "ru": "Объяснить пищеварение и ферменты, затем разобрать один график фермента."
-          },
-          "id": "2026-10-16-2"
+            "en": "Half-life and random decay",
+            "ru": "Период полураспада и случайность"
+          }
         }
       ],
-      "recall": 10,
+      "recall": 5,
       "note": {
         "en": "If the Maths lesson is tiring, move the biology check to Sunday; do not extend the day.",
         "ru": "Если урок математики утомил, перенести короткую биологию на воскресенье; не продлевать день."
@@ -970,8 +1051,8 @@
       "date": "2026-10-17",
       "phase": "holiday",
       "title": {
-        "en": "Completely free Saturday",
-        "ru": "Полностью свободная суббота"
+        "en": "Rest day",
+        "ru": "День отдыха"
       },
       "blocks": [],
       "recall": 0,
@@ -981,70 +1062,68 @@
       "date": "2026-10-18",
       "phase": "holiday",
       "title": {
-        "en": "Science practice and a weekly check",
-        "ru": "Науки и проверка недели"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
-          "minutes": 30,
+          "id": "study:c-energy-core",
+          "minutes": 35,
+          "topics": [
+            "c-energy"
+          ],
+          "sessions": [
+            "c-energy-core"
+          ],
+          "task": {
+            "en": "Energy changes and chemical cells",
+            "ru": "Энергия реакций и химические источники тока"
+          }
+        },
+        {
+          "id": "study:b-disease-core",
+          "minutes": 35,
+          "topics": [
+            "b-disease"
+          ],
+          "sessions": [
+            "b-disease-core"
+          ],
+          "task": {
+            "en": "Health, disease and immunity",
+            "ru": "Здоровье, болезни и иммунитет"
+          }
+        },
+        {
+          "id": "study:p-electric-core",
+          "minutes": 35,
           "topics": [
             "p-electric"
           ],
-          "task": {
-            "en": "Solve series/parallel circuit questions and explain power, domestic safety and static electricity.",
-            "ru": "Решить последовательные/параллельные цепи; объяснить мощность, бытовую безопасность и статическое электричество."
-          },
-          "id": "2026-10-18-1"
-        },
-        {
-          "minutes": 30,
-          "topics": [
-            "c-changes",
-            "s-b"
+          "sessions": [
+            "p-electric-core"
           ],
           "task": {
-            "en": "Electrolysis, salts and reactivity. Write a Criterion B plan: variables, controls, repeats and method.",
-            "ru": "Электролиз, соли и активность. Написать план Criterion B: переменные, контроль, повторы и метод."
-          },
-          "id": "2026-10-18-2"
+            "en": "Electricity, circuits and safety",
+            "ru": "Электричество, цепи и безопасность"
+          }
         },
         {
-          "minutes": 30,
+          "id": "study:c-rates-core",
+          "minutes": 35,
           "topics": [
-            "b-plants",
-            "b-respiration"
+            "c-rates"
+          ],
+          "sessions": [
+            "c-rates-core"
           ],
           "task": {
-            "en": "Compare photosynthesis and respiration, then explain xylem, phloem, transpiration and a potometer.",
-            "ru": "Сравнить фотосинтез и дыхание; объяснить ксилему, флоэму, транспирацию и потометр."
-          },
-          "id": "2026-10-18-3"
-        },
-        {
-          "minutes": 20,
-          "topics": [
-            "b-transport"
-          ],
-          "task": {
-            "en": "Recall the heart, vessels and gas exchange; explain the mechanism of breathing.",
-            "ru": "Вспомнить сердце, сосуды и газообмен; объяснить механизм дыхания."
-          },
-          "id": "2026-10-18-4"
-        },
-        {
-          "minutes": 15,
-          "topics": [
-            "a-language"
-          ],
-          "task": {
-            "en": "If registered: Arabic reading and vocabulary from the site’s study unit.",
-            "ru": "При регистрации: чтение и лексика из учебного блока арабского на сайте."
-          },
-          "optional": true,
-          "id": "2026-10-18-5"
+            "en": "Rates and equilibrium",
+            "ru": "Скорость реакций и равновесие"
+          }
         }
       ],
-      "recall": 10,
+      "recall": 5,
       "note": {
         "en": "Review the week with a 10-minute closed-book check. Next week, swap a green topic for a red topic of the same length.",
         "ru": "Проверить неделю за 10 минут без конспекта. На следующей неделе заменить зелёную тему красной на то же время."
@@ -1054,8 +1133,8 @@
       "date": "2026-10-19",
       "phase": "return",
       "title": {
-        "en": "Forces and the nervous system",
-        "ru": "Силы и нервная система"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
@@ -1064,43 +1143,52 @@
             "m-core"
           ],
           "task": {
-            "en": "Maths lesson: retry last week’s errors before new questions.",
-            "ru": "Урок математики: сначала снова решить ошибки прошлой недели."
+            "en": "Linear equations — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Линейные уравнения — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-19-1"
+          "id": "v2:2026-10-19-1",
+          "sessions": [
+            "math-linear-equations"
+          ]
         },
         {
-          "minutes": 25,
+          "id": "study:b-nutrition-core",
+          "minutes": 35,
           "topics": [
-            "p-forces"
+            "b-nutrition"
+          ],
+          "sessions": [
+            "b-nutrition-core"
           ],
           "task": {
-            "en": "Motion graphs, Newton’s laws, moments, pressure and momentum: select the weakest two from the diagnostic.",
-            "ru": "Графики движения, законы Ньютона, моменты, давление и импульс: выбрать два самых слабых пункта диагностики."
-          },
-          "id": "2026-10-19-2"
+            "en": "Nutrition, digestion and enzymes",
+            "ru": "Питание, пищеварение и ферменты"
+          }
         },
         {
-          "minutes": 25,
+          "id": "study:g-tectonics-core",
+          "minutes": 35,
           "topics": [
-            "b-nervous"
+            "g-tectonics"
+          ],
+          "sessions": [
+            "g-tectonics-core"
           ],
           "task": {
-            "en": "Open the on-site homeostasis, reflex arc and eye lesson. Sketch and explain one control pathway.",
-            "ru": "Открыть урок о гомеостазе, рефлекторной дуге и глазе на сайте. Нарисовать и объяснить одну цепь регуляции."
-          },
-          "id": "2026-10-19-3"
+            "en": "Tectonics and case-study arguments",
+            "ru": "Тектоника и аргументация по кейсам"
+          }
         }
       ],
-      "recall": 10
+      "recall": 5
     },
     {
       "date": "2026-10-20",
       "phase": "return",
       "title": {
-        "en": "Purposeful writing and listening",
-        "ru": "Целевое письмо и аудирование"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
@@ -1109,11 +1197,14 @@
             "e-purpose"
           ],
           "task": {
-            "en": "English lesson: use the site’s speech/article task; check audience, purpose, structure and spelling, punctuation and grammar.",
-            "ru": "Урок английского: встроенные задания речи/статьи; проверить аудиторию, цель, структуру, орфографию и пунктуацию."
+            "en": "Task 3: speech, article and other text types — one worked model, independent response, feedback within the lesson.",
+            "ru": "Task 3: речь, статья и другие типы текстов — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-20-1"
+          "id": "v2:2026-10-20-1",
+          "sessions": [
+            "e-purpose-core"
+          ]
         },
         {
           "minutes": 60,
@@ -1121,22 +1212,28 @@
             "f-listen"
           ],
           "task": {
-            "en": "French lesson: repeat the site’s listening exercise on time without the transcript, then use the transcript and solutions to justify answers.",
-            "ru": "Урок французского: повторить встроенное аудирование на время без текста, затем по расшифровке и разборам обосновать ответы."
+            "en": "Listening and reading with evidence — one worked model, independent response, feedback within the lesson.",
+            "ru": "Аудирование и чтение с доказательствами — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-20-2"
+          "id": "v2:2026-10-20-2",
+          "sessions": [
+            "f-listen-core"
+          ]
         },
         {
-          "minutes": 15,
+          "id": "study:contamination",
+          "minutes": 25,
           "topics": [
-            "b-hormones"
+            "p-atom"
+          ],
+          "sessions": [
+            "contamination"
           ],
           "task": {
-            "en": "Use the on-site lesson to explain blood glucose control and compare nervous with hormonal signalling.",
-            "ru": "По уроку на сайте объяснить регуляцию глюкозы и сравнить нервную и гормональную регуляцию."
-          },
-          "id": "2026-10-20-3"
+            "en": "Contamination, irradiation and hazards",
+            "ru": "Загрязнение, облучение и опасность"
+          }
         }
       ],
       "recall": 5
@@ -1145,22 +1242,24 @@
       "date": "2026-10-21",
       "phase": "return",
       "title": {
-        "en": "Mixed Maths and comparison",
-        "ru": "Смешанная математика и сравнение"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
           "minutes": 60,
           "topics": [
-            "m-algebra",
-            "m-geometry"
+            "m-algebra"
           ],
           "task": {
-            "en": "Maths lesson: mixed questions, including unfamiliar applications and explanations of reasoning.",
-            "ru": "Урок математики: смешанные вопросы, включая незнакомый контекст и объяснение хода решения."
+            "en": "Quadratic graphs — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Графики квадратичных функций — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-21-1"
+          "id": "v2:2026-10-21-1",
+          "sessions": [
+            "math-quadratic-graphs"
+          ]
         },
         {
           "minutes": 60,
@@ -1168,22 +1267,28 @@
             "e-analysis"
           ],
           "task": {
-            "en": "English lesson: complete the 35-minute comparison in the site’s Task 1 unit; improve each claim with precise textual and visual evidence.",
-            "ru": "Урок английского: выполнить сравнение за 35 минут во встроенном Task 1; усилить каждый тезис точными деталями текста и раскадровки."
+            "en": "Task 1: text and film analysis; comparison — one worked model, independent response, feedback within the lesson.",
+            "ru": "Task 1: анализ текста и фильма; сравнение — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-21-2"
+          "id": "v2:2026-10-21-2",
+          "sessions": [
+            "e-analysis-core"
+          ]
         },
         {
-          "minutes": 15,
+          "id": "study:background",
+          "minutes": 25,
           "topics": [
-            "b-disease"
+            "p-atom"
+          ],
+          "sessions": [
+            "background"
           ],
           "task": {
-            "en": "Retrieve immunity, vaccination, antibiotics and resistance without notes.",
-            "ru": "Без конспекта вспомнить иммунитет, вакцинацию, антибиотики и устойчивость."
-          },
-          "id": "2026-10-21-3"
+            "en": "Background radiation and measurements",
+            "ru": "Радиационный фон и измерения"
+          }
         }
       ],
       "recall": 5
@@ -1192,72 +1297,98 @@
       "date": "2026-10-22",
       "phase": "return",
       "title": {
-        "en": "Rates, data and language",
-        "ru": "Скорость, данные и язык"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
-        {
-          "minutes": 25,
-          "topics": [
-            "c-energy",
-            "c-rates",
-            "s-c"
-          ],
-          "task": {
-            "en": "Energy profiles, chemical cells, collisions and equilibrium. Use a rehearsal dataset on this site to draw a graph and evaluate the method.",
-            "ru": "Энергетические профили, химические источники тока, столкновения и равновесие. По данным встроенной репетиции построить график и оценить метод."
-          },
-          "id": "2026-10-22-1"
-        },
-        {
-          "minutes": 25,
-          "topics": [
-            "b-environment"
-          ],
-          "task": {
-            "en": "Use the ecology unit to explain eutrophication, pollution, climate change and an evidence-based conservation decision.",
-            "ru": "По встроенному уроку экологии объяснить эвтрофикацию, загрязнение, изменение климата и решение по охране природы."
-          },
-          "id": "2026-10-22-2"
-        },
         {
           "minutes": 60,
           "topics": [
             "f-language"
           ],
           "task": {
-            "en": "French lesson: work on the language errors found in writing, then a short spoken explanation.",
-            "ru": "Урок французского: исправить языковые ошибки из письма, затем короткое устное объяснение."
+            "en": "Vocabulary, time frames and complex sentences — one worked model, independent response, feedback within the lesson.",
+            "ru": "Лексика, времена и сложные предложения — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-22-3"
+          "id": "v2:2026-10-22-3",
+          "sessions": [
+            "f-language-core"
+          ]
+        },
+        {
+          "id": "study:p-matter-core",
+          "minutes": 35,
+          "topics": [
+            "p-matter"
+          ],
+          "sessions": [
+            "p-matter-core"
+          ],
+          "task": {
+            "en": "Particles, density and thermal changes",
+            "ru": "Частицы, плотность и тепловые процессы"
+          }
+        },
+        {
+          "id": "study:c-quantity-core",
+          "minutes": 35,
+          "topics": [
+            "c-quantity"
+          ],
+          "sessions": [
+            "c-quantity-core"
+          ],
+          "task": {
+            "en": "Moles, equations, yield and concentration",
+            "ru": "Моль, уравнения, выход и концентрация"
+          }
         }
       ],
-      "recall": 10
+      "recall": 5
     },
     {
       "date": "2026-10-23",
       "phase": "return",
       "title": {
-        "en": "Maths consolidation",
-        "ru": "Закрепление математики"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
           "minutes": 120,
           "topics": [
-            "m-data",
-            "m-core"
+            "m-core",
+            "m-data"
           ],
           "task": {
-            "en": "Existing Maths lesson with breaks: data/probability and the red core topics. Use the confirmed teacher level.",
-            "ru": "Текущий урок математики с перерывами: данные/вероятность и красные основные темы. Использовать подтверждённый уровень."
+            "en": "Sets and Venn diagrams; Statistics and probability; Linear inequalities — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Множества и диаграммы Венна; Статистика и вероятность; Линейные неравенства — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-23-1"
+          "id": "v2:2026-10-23-1",
+          "sessions": [
+            "math-sets-and-venn",
+            "m-data-core",
+            "math-linear-inequalities"
+          ]
+        },
+        {
+          "id": "study:half-life-choice",
+          "minutes": 25,
+          "topics": [
+            "p-atom"
+          ],
+          "sessions": [
+            "half-life-choice"
+          ],
+          "task": {
+            "en": "Comparing isotopes and half-lives",
+            "ru": "Сравнение изотопов и периодов"
+          }
         }
       ],
-      "recall": 10,
+      "recall": 5,
       "note": {
         "en": "Homework or a deadline replaces revision time. Leave the rest of the day free.",
         "ru": "Домашнее задание или дедлайн заменяет время повторения. Остаток дня свободный."
@@ -1267,8 +1398,8 @@
       "date": "2026-10-24",
       "phase": "return",
       "title": {
-        "en": "Rest from mock revision",
-        "ru": "Отдых от подготовки к mocks"
+        "en": "Rest day",
+        "ru": "День отдыха"
       },
       "blocks": [],
       "recall": 0,
@@ -1282,114 +1413,145 @@
       "date": "2026-10-25",
       "phase": "return",
       "title": {
-        "en": "Biology breadth and waves",
-        "ru": "Широкая биология и волны"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
+          "id": "study:b-evolution-core",
           "minutes": 35,
           "topics": [
-            "b-biotech",
             "b-evolution"
           ],
-          "task": {
-            "en": "On-site lessons and practice: genetic engineering, bioprinting, genome mapping, variation, evolution, selection and cloning.",
-            "ru": "Уроки и задания на сайте: генная инженерия, биопечать, геном, изменчивость, эволюция, селекция и клонирование."
-          },
-          "id": "2026-10-25-1"
-        },
-        {
-          "minutes": 35,
-          "topics": [
-            "b-earlier"
+          "sessions": [
+            "b-evolution-core"
           ],
           "task": {
-            "en": "Diagnostic for earlier-year human/plant reproduction, muscles and bones. Expand only the red items.",
-            "ru": "Диагностика размножения человека/растений, мышц и костей из прошлых лет. Углубить только красные пункты."
-          },
-          "id": "2026-10-25-2"
+            "en": "Variation, evolution, breeding and cloning",
+            "ru": "Изменчивость, эволюция, селекция и клонирование"
+          }
         },
         {
+          "id": "study:b-environment-core",
+          "minutes": 35,
+          "topics": [
+            "b-environment"
+          ],
+          "sessions": [
+            "b-environment-core"
+          ],
+          "task": {
+            "en": "Human impacts and conservation",
+            "ru": "Влияние человека и охрана природы"
+          }
+        },
+        {
+          "id": "study:s-c-core",
+          "minutes": 30,
+          "topics": [
+            "s-c"
+          ],
+          "sessions": [
+            "s-c-core"
+          ],
+          "task": {
+            "en": "Criterion C: graph, analyse and evaluate",
+            "ru": "Criterion C: график, анализ и оценка"
+          }
+        },
+        {
+          "id": "study:p-waves-core",
           "minutes": 35,
           "topics": [
             "p-waves"
           ],
-          "task": {
-            "en": "Wave equation, EM spectrum, sound, reflection and refraction. Explain a diagram and solve mixed questions.",
-            "ru": "Уравнение волны, ЭМ-спектр, звук, отражение и преломление. Объяснить схему и решить смешанные вопросы."
-          },
-          "id": "2026-10-25-3"
-        },
-        {
-          "minutes": 20,
-          "topics": [
-            "g-previous"
+          "sessions": [
+            "p-waves-core"
           ],
           "task": {
-            "en": "Use the site’s earlier geography units to diagnose rivers, tourism, resources and atmospheric hazards. Prioritise the weakest explanation.",
-            "ru": "По прежним географическим блокам сайта проверить реки, туризм, ресурсы и атмосферные угрозы. Выбрать самое слабое объяснение."
-          },
-          "id": "2026-10-25-4"
+            "en": "Waves, sound, EM spectrum and optics",
+            "ru": "Волны, звук, ЭМ-спектр и оптика"
+          }
         }
       ],
-      "recall": 10
+      "recall": 5
     },
     {
       "date": "2026-10-26",
       "phase": "practice",
       "title": {
-        "en": "Atmosphere and scientific arguments",
-        "ru": "Атмосфера и научная аргументация"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
           "minutes": 60,
           "topics": [
-            "m-core",
-            "m-algebra"
+            "m-core"
           ],
           "task": {
-            "en": "Maths lesson: timed mixed sections at the confirmed level. Mark and classify mistakes.",
-            "ru": "Урок математики: смешанные разделы на время на подтверждённом уровне. Проверить и классифицировать ошибки."
+            "en": "Simultaneous equations — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Системы уравнений — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-26-1"
+          "id": "v2:2026-10-26-1",
+          "sessions": [
+            "math-simultaneous-equations"
+          ]
         },
         {
+          "id": "study:b-transport-core",
           "minutes": 35,
           "topics": [
-            "c-air",
-            "s-d"
+            "b-transport"
+          ],
+          "sessions": [
+            "b-transport-core"
           ],
           "task": {
-            "en": "Atmosphere and climate evidence. Write one Criterion D answer with data, benefits, drawbacks and a justified judgement.",
-            "ru": "Атмосфера и данные о климате. Один ответ Criterion D с данными, плюсами, минусами и обоснованной оценкой."
-          },
-          "id": "2026-10-26-2"
+            "en": "Gas exchange, blood and circulation",
+            "ru": "Газообмен, кровь и кровообращение"
+          }
+        },
+        {
+          "id": "study:s-b-core",
+          "minutes": 30,
+          "topics": [
+            "s-b"
+          ],
+          "sessions": [
+            "s-b-core"
+          ],
+          "task": {
+            "en": "Criterion B: plan an investigation",
+            "ru": "Criterion B: спроектировать исследование"
+          }
         }
       ],
-      "recall": 10
+      "recall": 5
     },
     {
       "date": "2026-10-27",
       "phase": "practice",
       "title": {
-        "en": "English timing and French writing",
-        "ru": "Темп английского и письмо на французском"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
           "minutes": 60,
           "topics": [
-            "e-analysis",
-            "e-creative"
+            "e-analysis"
           ],
           "task": {
-            "en": "English lesson: timed Task 1 and a short Task 2 from the site. Check the detailed reasoning, evidence and writing checklist after attempting.",
-            "ru": "Урок английского: встроенный Task 1 и короткий Task 2 на время. После попытки проверить доказательства, разбор и памятку редактуры."
+            "en": "Task 1: text and film analysis; comparison; Task 2: monologue and play script — one worked model, independent response, feedback within the lesson.",
+            "ru": "Task 1: анализ текста и фильма; сравнение; Task 2: монолог и театральный сценарий — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-27-1"
+          "id": "v2:2026-10-27-1",
+          "sessions": [
+            "e-analysis-core"
+          ]
         },
         {
           "minutes": 60,
@@ -1397,11 +1559,28 @@
             "f-write"
           ],
           "task": {
-            "en": "French lesson: complete the site’s writing task on time, then correct it using the model explanation and text-type guidance.",
-            "ru": "Урок французского: выполнить встроенное письмо на время, затем исправить по разбору и памятке типа текста."
+            "en": "Opinions, technology and accurate writing — one worked model, independent response, feedback within the lesson.",
+            "ru": "Мнения, технологии и грамотное письмо — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-27-2"
+          "id": "v2:2026-10-27-2",
+          "sessions": [
+            "f-write-core"
+          ]
+        },
+        {
+          "id": "study:uses",
+          "minutes": 25,
+          "topics": [
+            "p-atom"
+          ],
+          "sessions": [
+            "uses"
+          ],
+          "task": {
+            "en": "Choosing radiation for a purpose",
+            "ru": "Применения ядерного излучения"
+          }
         }
       ],
       "recall": 5
@@ -1410,22 +1589,24 @@
       "date": "2026-10-28",
       "phase": "practice",
       "title": {
-        "en": "Maths timing and purposeful writing",
-        "ru": "Темп математики и целевое письмо"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
           "minutes": 60,
           "topics": [
-            "m-geometry",
-            "m-data"
+            "m-algebra"
           ],
           "task": {
-            "en": "Maths lesson: timed geometry/data set, then explain two difficult solutions.",
-            "ru": "Урок математики: геометрия/данные на время, затем объяснить два сложных решения."
+            "en": "Quadratic equations — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Квадратные уравнения — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-28-1"
+          "id": "v2:2026-10-28-1",
+          "sessions": [
+            "math-quadratic-equations"
+          ]
         },
         {
           "minutes": 60,
@@ -1433,11 +1614,28 @@
             "e-purpose"
           ],
           "task": {
-            "en": "English lesson: timed Task 3, including a plan and editing time; revisit the weakest text type.",
-            "ru": "Урок английского: Task 3 на время с планом и редактурой; повторить самый слабый тип текста."
+            "en": "Task 3: speech, article and other text types — one worked model, independent response, feedback within the lesson.",
+            "ru": "Task 3: речь, статья и другие типы текстов — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-28-2"
+          "id": "v2:2026-10-28-2",
+          "sessions": [
+            "e-purpose-core"
+          ]
+        },
+        {
+          "id": "study:fission",
+          "minutes": 25,
+          "topics": [
+            "p-atom"
+          ],
+          "sessions": [
+            "fission"
+          ],
+          "task": {
+            "en": "Fission and chain reactions",
+            "ru": "Деление ядер и цепная реакция"
+          }
         }
       ],
       "recall": 5
@@ -1446,61 +1644,94 @@
       "date": "2026-10-29",
       "phase": "practice",
       "title": {
-        "en": "Science criteria and French",
-        "ru": "Научные критерии и французский"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
-          "minutes": 35,
-          "topics": [
-            "s-b",
-            "s-c",
-            "s-d"
-          ],
-          "task": {
-            "en": "Attempt B–D questions from the site’s science rehearsals on time; self-mark and record one specific correction per criterion.",
-            "ru": "Выполнить на время вопросы B–D из встроенных научных репетиций; проверить и записать по одной конкретной правке на критерий."
-          },
-          "id": "2026-10-29-1"
-        },
-        {
           "minutes": 60,
           "topics": [
-            "f-listen",
-            "f-language"
+            "f-listen"
           ],
           "task": {
-            "en": "French lesson: listening plus the most persistent vocabulary/grammar errors.",
-            "ru": "Урок французского: аудирование и самые устойчивые ошибки лексики/грамматики."
+            "en": "Listening and reading with evidence; Vocabulary, time frames and complex sentences — one worked model, independent response, feedback within the lesson.",
+            "ru": "Аудирование и чтение с доказательствами; Лексика, времена и сложные предложения — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
-          "id": "2026-10-29-2"
+          "id": "v2:2026-10-29-2",
+          "sessions": [
+            "f-listen-core"
+          ]
+        },
+        {
+          "id": "study:p-forces-core",
+          "minutes": 35,
+          "topics": [
+            "p-forces"
+          ],
+          "sessions": [
+            "p-forces-core"
+          ],
+          "task": {
+            "en": "Forces, motion, moments and momentum",
+            "ru": "Силы, движение, моменты и импульс"
+          }
+        },
+        {
+          "id": "study:c-changes-core",
+          "minutes": 35,
+          "topics": [
+            "c-changes"
+          ],
+          "sessions": [
+            "c-changes-core"
+          ],
+          "task": {
+            "en": "Reactivity, acids, salts and electrolysis",
+            "ru": "Активность, кислоты, соли и электролиз"
+          }
         }
       ],
-      "recall": 10
+      "recall": 5
     },
     {
       "date": "2026-10-30",
       "phase": "practice",
       "title": {
-        "en": "Maths rehearsal and feedback",
-        "ru": "Репетиция математики и обратная связь"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
           "minutes": 120,
           "topics": [
-            "m-core",
-            "m-algebra",
-            "m-geometry",
-            "m-data"
+            "m-algebra"
           ],
           "task": {
-            "en": "Current mathematics lesson: timed mixed questions from the site’s four mathematics units at the appropriate level. Feedback stays within this lesson.",
-            "ru": "Текущий урок математики: смешанные вопросы из четырёх математических блоков сайта на время нужного уровня. Обратная связь входит в тот же урок."
+            "en": "Functions; Sequences; Rearrangement and fractions — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Функции; Последовательности; Преобразование формул и дроби — оставшееся время урока: самостоятельные задачи и исправления."
           },
           "lesson": true,
-          "id": "2026-10-30-1"
+          "id": "v2:2026-10-30-1",
+          "sessions": [
+            "math-functions",
+            "math-sequences",
+            "math-formulae-and-fractions"
+          ]
+        },
+        {
+          "id": "study:fusion",
+          "minutes": 25,
+          "topics": [
+            "p-atom"
+          ],
+          "sessions": [
+            "fusion"
+          ],
+          "task": {
+            "en": "Fusion and nuclear energy",
+            "ru": "Синтез и ядерная энергия"
+          }
         }
       ],
       "recall": 5
@@ -1509,8 +1740,8 @@
       "date": "2026-10-31",
       "phase": "practice",
       "title": {
-        "en": "Rest from mock revision",
-        "ru": "Отдых от подготовки к mocks"
+        "en": "Rest day",
+        "ru": "День отдыха"
       },
       "blocks": [],
       "recall": 0,
@@ -1524,194 +1755,223 @@
       "date": "2026-11-01",
       "phase": "practice",
       "title": {
-        "en": "Biology exam rehearsal",
-        "ru": "Репетиция экзамена по биологии"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
-          "minutes": 120,
-          "topics": [
-            "b-cells",
-            "b-nutrition",
-            "b-transport",
-            "b-respiration",
-            "b-plants",
-            "b-disease",
-            "b-biotech",
-            "b-evolution",
-            "b-nervous",
-            "b-hormones",
-            "b-environment",
-            "b-earlier",
-            "s-b",
-            "s-c",
-            "s-d"
-          ],
-          "task": {
-            "en": "Complete the two-hour Biology A–D rehearsal on this site. Use no explanations until the timed attempt ends.",
-            "ru": "Выполнить двухчасовую репетицию Biology A–D на сайте. Открывать разборы только после попытки на время."
-          },
-          "id": "2026-11-01-1",
-          "paper": "biology"
-        },
-        {
-          "minutes": 20,
-          "topics": [],
-          "task": {
-            "en": "Mark, list the three biggest gaps and book them into the 2–4 November repair slots.",
-            "ru": "Проверить, выписать три крупнейших пробела и поставить их в слоты исправления 2–4 ноября."
-          },
-          "id": "2026-11-01-2"
-        }
-      ],
-      "recall": 0
-    },
-    {
-      "date": "2026-11-02",
-      "phase": "repair",
-      "title": {
-        "en": "Repair Maths and Physics",
-        "ru": "Исправить математику и физику"
-      },
-      "blocks": [
-        {
-          "minutes": 60,
-          "topics": [
-            "m-core",
-            "m-algebra",
-            "m-geometry",
-            "m-data"
-          ],
-          "task": {
-            "en": "Maths lesson: repair the error log. Retry on a fresh question rather than copying a solution.",
-            "ru": "Урок математики: исправить журнал ошибок. Решить новый похожий вопрос, а не переписать решение."
-          },
-          "lesson": true,
-          "id": "2026-11-02-1"
-        },
-        {
+          "id": "study:c-air-core",
           "minutes": 35,
           "topics": [
-            "p-atom",
-            "p-energy",
-            "p-matter",
-            "p-electric",
-            "p-forces",
-            "p-waves"
+            "c-air"
+          ],
+          "sessions": [
+            "c-air-core"
           ],
           "task": {
-            "en": "Attempt section A of the on-site Physics rehearsal, then mark and retry your weakest question. Use all six topic units to repair gaps.",
-            "ru": "Выполнить раздел A репетиции по физике на сайте, проверить и заново решить самый трудный вопрос. Пробелы исправлять по шести учебным блокам."
-          },
-          "id": "2026-11-02-2",
-          "paper": "physics"
-        }
-      ],
-      "recall": 10
-    },
-    {
-      "date": "2026-11-03",
-      "phase": "repair",
-      "title": {
-        "en": "Repair languages and Biology",
-        "ru": "Исправить языки и биологию"
-      },
-      "blocks": [
-        {
-          "minutes": 60,
-          "topics": [
-            "e-analysis",
-            "e-creative",
-            "e-purpose"
-          ],
-          "task": {
-            "en": "English lesson: repair the weakest task and confirm the plan for the exam.",
-            "ru": "Урок английского: исправить самое слабое задание и закрепить план на экзамен."
-          },
-          "lesson": true,
-          "id": "2026-11-03-1"
+            "en": "Atmosphere and climate evidence",
+            "ru": "Атмосфера и данные о климате"
+          }
         },
         {
-          "minutes": 60,
+          "id": "study:b-nervous-core",
+          "minutes": 35,
           "topics": [
-            "f-listen",
-            "f-write"
+            "b-nervous"
+          ],
+          "sessions": [
+            "b-nervous-core"
           ],
           "task": {
-            "en": "French lesson: final listening/writing correction using teacher feedback.",
-            "ru": "Урок французского: финальная правка аудирования/письма по обратной связи учителя."
-          },
-          "lesson": true,
-          "id": "2026-11-03-2"
+            "en": "Homeostasis, nervous system and the eye",
+            "ru": "Гомеостаз, нервная система и глаз"
+          }
         },
         {
-          "minutes": 20,
+          "id": "study:b-hormones-core",
+          "minutes": 35,
           "topics": [
-            "b-nervous",
-            "b-hormones",
+            "b-hormones"
+          ],
+          "sessions": [
+            "b-hormones-core"
+          ],
+          "task": {
+            "en": "Hormones and blood glucose",
+            "ru": "Гормоны и глюкоза крови"
+          }
+        },
+        {
+          "id": "study:b-biotech-core",
+          "minutes": 35,
+          "topics": [
             "b-biotech"
           ],
+          "sessions": [
+            "b-biotech-core"
+          ],
           "task": {
-            "en": "Repair the weakest Biology questions from the rehearsal; these topics are placeholders to replace with actual errors.",
-            "ru": "Исправить самые слабые вопросы репетиции Biology; эти темы — исходные, заменить фактическими ошибками."
-          },
-          "id": "2026-11-03-3"
+            "en": "Biotechnology",
+            "ru": "Биотехнологии"
+          }
         }
       ],
       "recall": 5
     },
     {
-      "date": "2026-11-04",
+      "date": "2026-11-02",
       "phase": "repair",
       "title": {
-        "en": "Ready checkpoint",
-        "ru": "Контрольная точка готовности"
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
       },
       "blocks": [
         {
-          "minutes": 35,
+          "minutes": 60,
           "topics": [
-            "c-atoms",
-            "c-bonds",
-            "c-quantity",
-            "c-changes",
-            "c-energy",
-            "c-rates",
-            "c-air"
+            "m-algebra"
           ],
           "task": {
-            "en": "Attempt selected questions from sections A and C of the on-site Chemistry rehearsal: include a calculation and a graph, then self-mark.",
-            "ru": "Выбрать задания разделов A и C репетиции по химии на сайте: расчёт и график, затем самопроверка."
+            "en": "Proportion and graphs — use remaining lesson time for independent attempts and corrections.",
+            "ru": "Пропорциональность и графики — оставшееся время урока: самостоятельные задачи и исправления."
           },
-          "id": "2026-11-04-1",
-          "paper": "chemistry"
+          "lesson": true,
+          "id": "v2:2026-11-02-1",
+          "sessions": [
+            "math-proportion-and-graphs"
+          ]
         },
         {
+          "id": "study:b-respiration-core",
           "minutes": 35,
           "topics": [
-            "g-tectonics",
-            "g-previous"
+            "b-respiration"
+          ],
+          "sessions": [
+            "b-respiration-core"
           ],
           "task": {
-            "en": "Geography: a timed case-study answer and data interpretation using the site’s tectonics and earlier-topic units.",
-            "ru": "Geography: ответ по кейсу на время и анализ данных из встроенных блоков тектоники и прежних тем."
-          },
-          "id": "2026-11-04-2"
+            "en": "Aerobic and anaerobic respiration",
+            "ru": "Аэробное и анаэробное дыхание"
+          }
         },
         {
-          "minutes": 20,
-          "topics": [],
+          "id": "study:b-plants-core",
+          "minutes": 35,
+          "topics": [
+            "b-plants"
+          ],
+          "sessions": [
+            "b-plants-core"
+          ],
           "task": {
-            "en": "Readiness check: every study unit in the map has a confidence rating after independent practice. Put remaining red units into the 5–6 November buffer.",
-            "ru": "Проверка готовности: у каждого блока карты тем есть оценка после самостоятельной практики. Оставшиеся красные темы поставить на 5–6 ноября."
-          },
-          "id": "2026-11-04-3"
+            "en": "Photosynthesis and transport in plants",
+            "ru": "Фотосинтез и транспорт у растений"
+          }
         }
       ],
-      "recall": 10,
+      "recall": 5
+    },
+    {
+      "date": "2026-11-03",
+      "phase": "repair",
+      "title": {
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
+      },
+      "blocks": [
+        {
+          "minutes": 60,
+          "topics": [
+            "e-analysis"
+          ],
+          "task": {
+            "en": "Task 1: text and film analysis; comparison; Task 2: monologue and play script; Task 3: speech, article and other text types — one worked model, independent response, feedback within the lesson.",
+            "ru": "Task 1: анализ текста и фильма; сравнение; Task 2: монолог и театральный сценарий; Task 3: речь, статья и другие типы текстов — один образец, самостоятельный ответ и обратная связь внутри урока."
+          },
+          "lesson": true,
+          "id": "v2:2026-11-03-1",
+          "sessions": [
+            "e-analysis-core"
+          ]
+        },
+        {
+          "minutes": 60,
+          "topics": [
+            "f-listen"
+          ],
+          "task": {
+            "en": "Listening and reading with evidence; Opinions, technology and accurate writing — one worked model, independent response, feedback within the lesson.",
+            "ru": "Аудирование и чтение с доказательствами; Мнения, технологии и грамотное письмо — один образец, самостоятельный ответ и обратная связь внутри урока."
+          },
+          "lesson": true,
+          "id": "v2:2026-11-03-2",
+          "sessions": [
+            "f-listen-core"
+          ]
+        }
+      ],
+      "recall": 5,
       "note": {
-        "en": "Any existing lesson replaces a block of the same subject. If two long lessons are already booked, keep only the 20-minute readiness check.",
-        "ru": "Текущий урок заменяет блок того же предмета. Если уже записаны два длинных урока, оставить только 20-минутную проверку готовности."
+        "en": "Reserve: 25 minutes remain below the daily ceiling. Use them only for unfinished portions; stop early if on track.",
+        "ru": "Резерв: до дневного потолка остаётся 25 минут. Только для незаконченных частей; если идёте по плану, заканчивайте раньше."
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "phase": "repair",
+      "title": {
+        "en": "Focused preparation",
+        "ru": "Подготовка по частям"
+      },
+      "blocks": [
+        {
+          "id": "study:b-earlier-core",
+          "minutes": 35,
+          "topics": [
+            "b-earlier"
+          ],
+          "sessions": [
+            "b-earlier-core"
+          ],
+          "task": {
+            "en": "Earlier-year reproduction, muscles and bones",
+            "ru": "Размножение, мышцы и кости из прошлых лет"
+          }
+        },
+        {
+          "id": "study:g-previous-core",
+          "minutes": 35,
+          "topics": [
+            "g-previous"
+          ],
+          "sessions": [
+            "g-previous-core"
+          ],
+          "task": {
+            "en": "Rivers, tourism, resources and atmospheric hazards",
+            "ru": "Реки, туризм, ресурсы и атмосферные опасности"
+          }
+        },
+        {
+          "id": "study:s-d-core",
+          "minutes": 30,
+          "topics": [
+            "s-d"
+          ],
+          "sessions": [
+            "s-d-core"
+          ],
+          "task": {
+            "en": "Criterion D: evidence and implications",
+            "ru": "Criterion D: доказательства и последствия"
+          }
+        }
+      ],
+      "recall": 5,
+      "note": {
+        "en": "Reserve: 45 minutes remain below the daily ceiling. Use them only for unfinished portions; stop early if on track.",
+        "ru": "Резерв: до дневного потолка остаётся 45 минут. Только для незаконченных частей; если идёте по плану, заканчивайте раньше."
       }
     },
     {
@@ -1723,25 +1983,42 @@
       },
       "blocks": [
         {
-          "minutes": 25,
-          "topics": [],
+          "id": "biology-full",
+          "minutes": 120,
+          "topics": [
+            "b-cells",
+            "b-nutrition",
+            "b-transport",
+            "b-respiration",
+            "b-plants",
+            "b-disease",
+            "b-evolution",
+            "b-environment",
+            "b-biotech",
+            "b-nervous",
+            "b-hormones",
+            "b-earlier",
+            "s-b",
+            "s-c",
+            "s-d"
+          ],
+          "paper": "biology",
           "task": {
-            "en": "Repair the highest-priority red topic. Stop when a fresh question works unaided.",
-            "ru": "Исправить приоритетную красную тему. Закончить, когда новый вопрос получается без помощи."
-          },
-          "id": "2026-11-05-1"
+            "en": "Full original Biology rehearsal A–D. Take a short break after 60 minutes if needed.",
+            "ru": "Полная авторская репетиция по биологии A–D. При необходимости — короткий перерыв после 60 минут."
+          }
         },
         {
-          "minutes": 25,
+          "id": "biology-correct",
+          "minutes": 20,
           "topics": [],
           "task": {
-            "en": "A second red topic only. If none remain, use a short closed-book mixed check.",
-            "ru": "Только вторая красная тема. Если красных нет, короткая смешанная проверка без конспекта."
-          },
-          "id": "2026-11-05-2"
+            "en": "Self-mark; choose two errors to correct.",
+            "ru": "Самопроверка; исправьте две главные ошибки."
+          }
         }
       ],
-      "recall": 10
+      "recall": 5
     },
     {
       "date": "2026-11-06",
@@ -1752,16 +2029,35 @@
       },
       "blocks": [
         {
-          "minutes": 30,
+          "id": "physics-partial",
+          "minutes": 65,
           "topics": [],
+          "paper": "physics",
+          "paperQuestions": [
+            "phy-A",
+            "phy-C"
+          ],
           "task": {
-            "en": "Resolve one persistent error with the teacher or a worked example; retry independently.",
-            "ru": "Разобрать одну устойчивую ошибку с учителем или по примеру; решить самостоятельно ещё раз."
-          },
-          "id": "2026-11-06-1"
+            "en": "Selected physics rehearsal: sections A and C only (50 min), then check (15 min). This is not the full paper.",
+            "ru": "Физика: только разделы A и C (50 мин), затем проверка (15 мин). Это часть работы."
+          }
+        },
+        {
+          "id": "chemistry-partial",
+          "minutes": 65,
+          "topics": [],
+          "paper": "chemistry",
+          "paperQuestions": [
+            "chem-A",
+            "chem-C"
+          ],
+          "task": {
+            "en": "Selected chemistry rehearsal: sections A and C only (50 min), then check (15 min). This is not the full paper.",
+            "ru": "Химия: только разделы A и C (50 мин), затем проверка (15 мин). Это часть работы."
+          }
         }
       ],
-      "recall": 10,
+      "recall": 5,
       "note": {
         "en": "If a normal long lesson is still running, use it for this correction and add no extra block.",
         "ru": "Если обычный длинный урок остаётся в расписании, сделать эту правку на нём без дополнительного блока."
@@ -2015,5 +2311,7 @@
         "ru": "Отдых"
       }
     }
-  ]
+  ],
+  "revision": 2,
+  "updated": "2026-10-11"
 }

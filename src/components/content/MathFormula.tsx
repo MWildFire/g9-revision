@@ -1,3 +1,4 @@
+import {FormulaTeaching} from './FormulaTeaching';
 import { InlineMath, BlockMath } from 'react-katex';
 
 interface Props {
@@ -10,7 +11,7 @@ export function MathFormula({ formula, block = false, className }: Props) {
   if (block) {
     return (
       <div className={className}>
-        <BlockMath math={formula} />
+        <BlockMath math={formula} /><FormulaTeaching text={formula}/>
       </div>
     );
   }

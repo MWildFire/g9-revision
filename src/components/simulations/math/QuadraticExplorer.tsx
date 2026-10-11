@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState, useMemo } from 'react';
@@ -120,6 +121,6 @@ export function QuadraticExplorer() {
         </div>
       </div>
       <DefinitionSupport review={t('simulations.quadraticExplorer.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="quadratic"/><FormulaTeaching id="quadratic-formula"/></SimulationPanel>
   );
 }

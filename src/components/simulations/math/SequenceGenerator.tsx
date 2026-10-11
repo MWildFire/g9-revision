@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -83,6 +84,6 @@ export function SequenceGenerator() {
         </div>
       </div>
       <DefinitionSupport review={t('simulations.sequenceGenerator.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="sequences"/></SimulationPanel>
   );
 }

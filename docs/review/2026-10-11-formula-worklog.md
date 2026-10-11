@@ -1,0 +1,33 @@
+# Formula explanations, deeper teaching and realistic workload
+
+User explicitly requests whole-site corrections: every instructional formula must have symbol meanings, units, interpretation and a worked example adjacent to its topic. Existing p-atom is twelve lessons, not a 25-minute activity. Expand shallow topic lists into teaching; preserve atomic material depth. Replan by bounded portions, including tutors and Saturday rest, mocks 9–13 November. Prior sourcing constraint: EN grounded in inspected IB books; independent Russian terminology/sources. Publish current GitHub Pages destination; no Sites migration.
+
+Canonical checkout [redacted]/Projects/g9-revision; clean main initially 2b595f1. React TS Vite. No project AGENTS found in files. User asks completion, no approval needed.
+
+Audit findings: UI Formula and MathFormula render bare expressions. DetailedCard, ChemSection, InfoSection, TermCard and math LessonBody contain formula strings. PhysicsSeptember renders lesson.formulas after all sections, causing screenshot confusion; November reuses this. November LibraryTheory embeds whole subject pages, often repeated (body systems across four units; chemistry extras across two). Plan budgets entire multi-topic libraries at 15–35 minutes and combines unrelated topics. Required material must be explicit; optional full reference must not masquerade as required block.
+
+Implementation plan: curated bilingual formula teaching registry and adjacent shared renderer across all teaching surfaces; map atomic formulas to exact sections; explicit session partitions with separate reading/example/attempt/check times and scope selections, retain full libraries as reference; develop standalone explanations for thin November units; replan within sustainable capacity and show transparent estimates/carry-over; semantic content coverage tests plus build, browser QA and live publication.
+
+Memory consulted: MEMORY.md 1192–1234 and rollout 2026-09-28T07-29-59-y6Da, ID 01a0e6eb-aa31-7b41-8f18-422c6db23044. Reverified current repo.
+
+## User steering during implementation
+
+[redacted] and [redacted] completed today (11 October) the first three atomic lessons: Inside an atom; Atomic number, mass number and isotopes; How the atomic model changed. Replied that this is sufficient if worked examples and independent explanations were attempted; offered three brief recall questions. Treat these three lessons as reported complete, not mastery of the whole p-atom course. No further new material assigned today. Actual study duration was not supplied; any minutes remain estimates. Preserve this completion during plan migration.
+
+## Implemented so far
+
+72 bilingual formula teaching cards in src/content/{formulaTeaching,mathFormulaTeaching,chemBioFormulaTeaching,formulaTypes}. Shared FormulaTeaching component with symbols+units, meaning, worked example and applicability. Integrated Formula, MathFormula, DetailedCard, TermCard, ChemSection, InfoSection, math LessonBody and TermDefinition. Atomic formulaPlacement maps cards to the precise section; removed trailing formula dump in September and November atomic renderers. September reference now explains formulas. Build passed once after those edits. Further audit and examples still needed for raw formulas in simulators, definitions and extras.
+
+Added guidedTeaching.ts physics/chemistry (12 units × 2 long explanatory sections), biologyTeaching.ts (12 units × 2 sections). Not connected to renderer yet. Need other subjects and session/plan rewrite, full verification and publication. Audit script scripts/audit-formula-teaching.mjs reports 89 entries including 15 spurious characters from the common.formulas label; fix filter to require object. All actual currently inventoried math/physics expressions have >=1 matching card, but this is not yet whole-site coverage evidence.
+
+Sources available locally: /tmp/myp-{biology,chemistry}-book.{pdf,txt}, /tmp/myp-biology-oxford.{pdf,txt}, /tmp/ib-english-a-oxford.{pdf,txt}; original Physics PDF in Downloads. Physics extracted /tmp/g9-study-audit/physics-book.txt. Oxford Standard Maths PDF in Downloads is scanned/near-empty extraction: don't falsely claim new exact math sections read; render/OCR or use accessible inspected IB source. Existing Russian per-definition evidence retained; new Russian independent sources visited physics.ru Ohm and heat capacity, Foxford equilibrium and indexed digestion/progressions. Complete source documentation still needed.
+
+No commit/push yet. No preview server yet. CUA initialized getState: browser Chrome id 3, live p-atom tab 1769504212. For post-compaction call cua.rewriteDocumentation before continuing UI. No subagents used (not user-authorized).
+
+## Completed implementation and local verification
+
+87 bilingual formula guides; shared teaching components, definitions, extras, mock lessons and 41 interactive widgets now attach meaning/units/worked examples. Atomic formulas moved to their relevant sections. Matching regressions prevent confusing dose with coordinate distance, lens focal length with wave frequency, or efficiency with half-life. 80 developed bilingual explanatory sections across 40 other units are accessible; mathematics overview is extra reference while assigned maths lessons retain full depth. Required atomic and maths practice follows the selected lesson, not a generic question from the whole unit.
+
+Plan rewritten as 65 selectable portions (12 atomic,16 maths,37 other units). Tutor appointments/durations preserved. First three atomic lessons seeded once as reported completed, notes/ratings retained, unchecking survives. No new task today; tomorrow five-minute recall. Per-portion timing estimates and ranges, stopping/carry-over guidance, bounded required content and full reference are visibly distinct. Full Biology rehearsal moved to5Nov; Physics/Chemistry6Nov show A/C only with50-minute timer and15-minute checking. Remaining reserve25min3Nov/45min4Nov.
+
+Local verification:80 tests passed; TypeScript and production build passed. Audited74 maths formula fields/physics reference expressions with no unmatched entries. Browser checked41 November routes, selection and correct per-lesson questions, four fields on RU cards, answer persistence/reload/clearing, selected paper A/C with50:00 timer, desktop/390px/320px layouts (no document overflow in sampled routes), no logged JS errors. One very fast route sweep briefly captured the previous title during React navigation; representative routes were rechecked after visible-heading readiness. Local preview127.0.0.1:43129, stop after live verification. Source details in2026-10-11-formula-sources.md.

@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../components/content/FormulaTeaching';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import data from '../data/mocks.json';
@@ -19,13 +20,13 @@ export function MockLessonPage({ embeddedId }: { embeddedId?: string } = {}) {
     <p className="text-xs text-text-secondary mt-7">{lesson.scope === 'g9' ? (ru ? 'Основание: школьный Grade 9' : 'Source: school Grade 9') : lesson.scope === 'g9-10' ? (ru ? 'Основание: недатированный список Grade 9+10' : 'Source: undated Grade 9+10 list') : (ru ? 'Общая подготовка MYP' : 'General MYP preparation')}</p>
     <h1 className="font-serif text-3xl md:text-4xl mt-3 mb-6">{lesson.title[lang]}</h1>
     <p className="text-sm text-text-secondary mb-7">{ru ? 'Авторский учебный материал. Актуальный ноябрьский состав тем указан в плане подготовки.' : 'Original study material. Current November scope is recorded in the daily preparation plan.'}</p>
-    <div className="space-y-4 leading-relaxed">{lesson.paragraphs.map((p,i)=><p key={i}>{p[lang]}</p>)}</div>
+    <div className="space-y-4 leading-relaxed">{lesson.paragraphs.map((p,i)=><section key={i}><p>{p[lang]}</p><FormulaTeaching text={p[lang]}/></section>)}</div>
     {reviews.length > 0 && <section className="space-y-5 mt-8"><h2 className="font-serif text-2xl">{ru ? 'Понятия и различия' : 'Concepts and distinctions'}</h2>{reviews.map((review, index) => <DefinitionSupport key={index} review={review} language={lang}/>)}</section>}
     {lesson.id === 'science-investigation' && <MeasurementComparison language={lang}/>}
     <section className="bg-bg-secondary border border-border rounded-xl p-6 my-8">
       <h2 className="font-serif text-2xl mb-4">{ru ? 'Попробуйте самостоятельно' : 'Try it yourself'}</h2>
       <p className="mb-5">{lesson.question[lang]}</p>
-      <details className="border-t border-border pt-4"><summary className="cursor-pointer font-medium">{ru ? 'Разбор и ответ' : 'Worked solution'}</summary><p className="mt-4 leading-relaxed">{lesson.answer[lang]}</p></details>
+      <details className="border-t border-border pt-4"><summary className="cursor-pointer font-medium">{ru ? 'Разбор и ответ' : 'Worked solution'}</summary><p className="mt-4 leading-relaxed">{lesson.answer[lang]}</p><FormulaTeaching text={lesson.answer[lang]}/></details>
     </section>
     <section className="mb-8"><h2 className="font-serif text-xl mb-3">{ru ? 'Проверьте себя' : 'Self-check'}</h2><ul className="list-disc pl-5 space-y-2">{lesson.checks.map((c,i)=><li key={i}>{c[lang]}</li>)}</ul></section>
     <section className="border-t border-border pt-5"><h2 className="text-sm font-medium mb-2">{ru ? 'Основание выбора темы' : 'Why this topic is included'}</h2>

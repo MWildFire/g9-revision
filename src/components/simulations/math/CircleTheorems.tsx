@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -32,7 +33,7 @@ export function CircleTheorems() {
         {theorem === 'intersecting-chords' ? <ChordsTheorem /> : null}
       </div>
       <DefinitionSupport review={t('simulations.circleTheorems.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="circle-angles"/><FormulaTeaching id="chords"/></SimulationPanel>
   );
 }
 

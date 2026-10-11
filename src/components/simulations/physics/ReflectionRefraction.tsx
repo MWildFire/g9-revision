@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Slider } from '../../ui/Slider';
@@ -140,7 +141,7 @@ export function ReflectionRefraction() {
           </div>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="refraction"/></SimulationPanel>
   );
 }
 

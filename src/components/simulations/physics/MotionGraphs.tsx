@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { motionGraphData } from '../../../definitions/physicsModels';
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -58,7 +59,7 @@ export function MotionGraphs() {
           <ChartPanel data={data} dataKey="a" title={i18n.language.startsWith('ru') ? 'Ускорение a − t' : 'Acceleration a − t'} yLabel="a (m/s²)" color="#c99a8e" />
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="speed"/></SimulationPanel>
   );
 }
 

@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../content/FormulaTeaching';
 import { Card } from './Card';
 import { DefinitionSupport } from '../content/DefinitionSupport';
 import type { DefinitionReview } from '../content/definitionReview';
@@ -28,6 +29,7 @@ export function TermCard({ term, altTerm, definition, example, review }: TermCar
             {example}
           </p>
         ) : null}
+        <FormulaTeaching text={definition + ' ' + (example??'')}/>
         {review && <DefinitionSupport review={review} />}
       </div>
     </Card>

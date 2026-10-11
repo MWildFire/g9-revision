@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { SimulationPanel } from '../../ui/Tabs';
@@ -128,6 +129,6 @@ export function EMSpectrum() {
           ))}
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="wave"/><FormulaTeaching id="photon"/></SimulationPanel>
   );
 }

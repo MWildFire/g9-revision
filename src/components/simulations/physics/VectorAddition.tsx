@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -121,7 +122,7 @@ export function VectorAddition() {
           </div>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="vectors"/></SimulationPanel>
   );
 }
 

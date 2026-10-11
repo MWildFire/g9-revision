@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useId } from 'react';
 import { useTranslation } from 'react-i18next';
 import { reactionVolume } from '../../../definitions/chemistryModels';
@@ -13,7 +14,7 @@ export function ReactionRateGraph() {
   const description = ru
     ? 'Две модельные кривые объёма газа со временем. При большем k начальный наклон больше, но обе кривые стремятся к 50 см³. Это иллюстрация при одинаковом лимитирующем реагенте, без утечек и побочных реакций; экспериментальные точки не показаны.'
     : 'Two model curves of gas volume against time. Larger k gives a steeper initial slope, but both curves approach 50 cm³. This illustration assumes the same limiting reactant, no leaks and no side reactions; it is not experimental data.';
-  return <figure className="bg-bg-secondary border border-border rounded-md p-4 my-4">
+  return <><figure className="bg-bg-secondary border border-border rounded-md p-4 my-4">
     <div className="definition-diagram-viewport" role="region" tabIndex={0} aria-label={title}>
     <svg style={{ minWidth: 600, maxWidth: 'none' }} viewBox="0 0 620 430" role="img" aria-labelledby={`${id}-title ${id}-desc`} className="w-full max-w-[700px] mx-auto">
       <title id={`${id}-title`}>{title}</title><desc id={`${id}-desc`}>{description}</desc>
@@ -32,5 +33,5 @@ export function ReactionRateGraph() {
     </svg>
     </div>
     <figcaption className="text-sm"><strong>{title}.</strong> {description} {ru ? 'Скорость в момент времени равна наклону касательной, dV/dt, в см³/с.' : 'The rate at an instant is the tangent slope, dV/dt, in cm³/s.'}</figcaption>
-  </figure>;
+  </figure><FormulaTeaching id="reaction-curve"/><FormulaTeaching id="rate"/></>;
 }

@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip, ReferenceLine } from 'recharts';
@@ -154,7 +155,7 @@ export function TerminalVelocity() {
           {running ? t('common.pause') : t('common.play')}
         </Button>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="newton"/></SimulationPanel>
   );
 }
 

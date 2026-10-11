@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip, ReferenceDot, ReferenceLine } from 'recharts';
@@ -117,6 +118,6 @@ export function IVCharacteristics() {
           </ResponsiveContainer>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="ohm"/></SimulationPanel>
   );
 }

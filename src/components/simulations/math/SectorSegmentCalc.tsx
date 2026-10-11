@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -67,6 +68,6 @@ export function SectorSegmentCalc() {
         </svg>
       </div>
       <DefinitionSupport review={t('simulations.sectorSegment.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="circle-parts"/></SimulationPanel>
   );
 }

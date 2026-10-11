@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState, useMemo } from 'react';
@@ -94,7 +95,7 @@ export function BoxPlotBuilder() {
         ) : null}
       </div>
       <DefinitionSupport review={t('simulations.boxPlot.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="statistics"/></SimulationPanel>
   );
 }
 

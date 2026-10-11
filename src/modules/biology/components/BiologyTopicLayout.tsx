@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../../components/content/FormulaTeaching';
 import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { ReactNode } from 'react';
@@ -48,6 +49,7 @@ export function InfoSection({ title, body, review, items, detailedItems, borderC
           {body}
         </p>
       ) : null}
+      <FormulaTeaching text={(body??'')}/>
       <DefinitionSupport review={review} />
       {detailedItems && detailedItems.length > 0 ? (
         <div className="space-y-3">
@@ -60,7 +62,7 @@ export function InfoSection({ title, body, review, items, detailedItems, borderC
         <ul className="space-y-2">
           {items.map((item) => (
             <li key={item.key} className="bg-bg-secondary border border-border rounded-md px-4 py-2.5 text-sm">
-              {item.text}
+              {item.text}<FormulaTeaching text={item.text}/>
             </li>
           ))}
         </ul>
@@ -84,7 +86,7 @@ export function KeyValueSection({ title, pairs, review }: KeyValueProps) {
         {pairs.map((p) => (
           <div key={p.label} className="bg-bg-secondary border border-border rounded-md p-4 text-sm">
             <strong className="block mb-1">{p.label}</strong>
-            {p.body}
+            {p.body}<FormulaTeaching text={p.body}/>
           </div>
         ))}
       </div>

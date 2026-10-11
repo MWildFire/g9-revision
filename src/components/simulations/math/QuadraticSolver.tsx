@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -38,7 +39,7 @@ export function QuadraticSolver() {
         </div>
       )}
       <DefinitionSupport review={t('simulations.quadraticSolver.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="quadratic-formula"/></SimulationPanel>
   );
 }
 function Method({ title, children }: { title: string; children: React.ReactNode }) {

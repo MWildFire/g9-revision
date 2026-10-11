@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -48,6 +49,6 @@ export function SurdSimplifier() {
         </div>
       </div>
       <DefinitionSupport review={t('simulations.surdSimplifier.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="surds"/></SimulationPanel>
   );
 }

@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useId } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -15,7 +16,7 @@ export function MicroscopyResolution() {
     ad: 'Their images overlap', bd: 'Still unresolved', cd: 'Two points distinguished',
     caption: 'A schematic of the same object. Enlarging a merged spot does not recover detail. Better resolution distinguishes the two points. Sizes are illustrative.',
   };
-  return <figure className="bg-bg-secondary border border-border rounded-md p-4 my-4">
+  return <><figure className="bg-bg-secondary border border-border rounded-md p-4 my-4">
     <div className="definition-diagram-viewport" role="region" tabIndex={0} aria-label={labels.title}>
     <svg style={{ minWidth: 700, maxWidth: 'none' }} viewBox="0 0 720 235" role="img" aria-labelledby={`${id}-title ${id}-desc`} className="w-full">
       <title id={`${id}-title`}>{labels.title}</title>
@@ -29,5 +30,5 @@ export function MicroscopyResolution() {
     </svg>
     </div>
     <figcaption className="text-sm"><strong>{labels.title}.</strong> {labels.caption}</figcaption>
-  </figure>;
+  </figure><FormulaTeaching id="magnification"/></>;
 }

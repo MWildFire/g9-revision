@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState, useRef } from 'react';
 import { Slider } from '../../ui/Slider';
@@ -54,7 +55,7 @@ export function Diffraction() {
           as a new source (Huygens' principle).
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="diffraction-ratio"/></SimulationPanel>
   );
 }
 

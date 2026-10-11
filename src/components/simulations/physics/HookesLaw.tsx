@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState, useMemo } from 'react';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip, ReferenceLine, ReferenceDot } from 'recharts';
@@ -108,7 +109,7 @@ export function HookesLaw() {
           </div>
         </div>
       </div>
-    </SimulationPanel>
+    <FormulaTeaching id="hooke"/></SimulationPanel>
   );
 }
 

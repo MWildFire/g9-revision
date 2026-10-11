@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../content/FormulaTeaching';
 import { ReactNode } from 'react';
 
 interface FormulaProps {
@@ -22,6 +23,7 @@ export function Formula({ children, inline = false, caption, className = '' }: F
       <div className="font-mono text-lg md:text-xl text-text-primary bg-bg-tertiary border border-border rounded-md px-4 py-3 text-center">
         {children}
       </div>
+      {typeof children === 'string' && <FormulaTeaching text={children + ' ' + (caption ?? '')}/>}
       {caption ? (
         <div className="mt-1.5 text-xs text-text-muted text-center">{caption}</div>
       ) : null}

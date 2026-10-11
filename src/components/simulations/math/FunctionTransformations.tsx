@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState, useMemo } from 'react';
@@ -79,6 +80,6 @@ export function FunctionTransformations() {
         <p className="text-xs text-text-muted">{t('simulations.transformations.legend')}</p>
       </div>
       <DefinitionSupport review={t('simulations.transformations.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="transformation"/></SimulationPanel>
   );
 }

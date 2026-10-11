@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
@@ -148,7 +149,7 @@ export function EnergyTransformations() {
         </div>
       </div>
 
-    </SimulationPanel>
+    <FormulaTeaching id="mechanical-energy"/><FormulaTeaching id="efficiency"/></SimulationPanel>
   );
 }
 

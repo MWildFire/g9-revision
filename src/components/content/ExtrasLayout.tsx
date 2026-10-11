@@ -1,3 +1,4 @@
+import {FormulaTeaching} from './FormulaTeaching';
 import { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Sparkles, AlertCircle } from 'lucide-react';
@@ -64,7 +65,7 @@ export function ExtraSection({ title, body, items, bullets, detailedItems, borde
           {body}
         </p>
       ) : null}
-      <DefinitionSupport review={review} language={lang} />
+      <FormulaTeaching text={[title,body,...(items??[]),...(bullets??[])].filter(Boolean).join(' ')}/><DefinitionSupport review={review} language={lang} />
       {detailedItems && detailedItems.length > 0 ? (
         <div className="space-y-3">
           {detailedItems.map((item, i) => (

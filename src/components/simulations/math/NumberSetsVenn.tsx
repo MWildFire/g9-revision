@@ -1,3 +1,4 @@
+import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -92,6 +93,6 @@ export function NumberSetsVenn() {
         </svg>
       </div>
       <DefinitionSupport review={t('simulations.numberSetsVenn.review', { returnObjects: true }) as DefinitionReview} />
-    </SimulationPanel>
+    <FormulaTeaching id="sets"/></SimulationPanel>
   );
 }

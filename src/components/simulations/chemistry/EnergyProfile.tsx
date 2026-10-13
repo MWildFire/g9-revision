@@ -11,6 +11,7 @@ type Mode = 'exo' | 'endo';
 
 export function EnergyProfile() {
   const { t } = useTranslation('chemistry');
+  const unit = t('simulations.energyProfile.unit');
   const [mode, setMode] = useState<Mode>('exo');
   const [activation, setActivation] = useState(80);
   const [deltaH, setDeltaH] = useState(60);
@@ -24,7 +25,7 @@ export function EnergyProfile() {
   const peakX = (reactantsX + productsX) / 2;
 
   return (
-    <SimulationPanel title={t('simulations.energyProfile.title')} description={t('simulations.energyProfile.description')}>
+    <SimulationPanel description={t('simulations.energyProfile.description')}>
       <div className="space-y-4">
         <Tabs
           tabs={[
@@ -36,11 +37,11 @@ export function EnergyProfile() {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <Slider label={t('simulations.energyProfile.activationLabel')} min={mode === 'endo' ? deltaH + 5 : 20} max={160} step={5} value={geometry.activation} onChange={setActivation} unit="kJ/mol" />
-          <Slider label={mode === 'exo' ? t('simulations.energyProfile.deltaHExoLabel') : t('simulations.energyProfile.deltaHEndoLabel')} min={20} max={120} step={5} value={deltaH} onChange={setDeltaH} unit="kJ/mol" />
+          <Slider label={t('simulations.energyProfile.activationLabel')} min={mode === 'endo' ? deltaH + 5 : 20} max={160} step={5} value={geometry.activation} onChange={setActivation} unit={unit} />
+          <Slider label={mode === 'exo' ? t('simulations.energyProfile.deltaHExoLabel') : t('simulations.energyProfile.deltaHEndoLabel')} min={20} max={120} step={5} value={deltaH} onChange={setDeltaH} unit={unit} />
         </div>
 
-        <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.energyProfile.title')}><svg style={{ minWidth: 640, maxWidth: 'none' }} role="img" aria-label={`${t('simulations.energyProfile.title')}; Ea = ${geometry.activation} kJ/mol; ΔH = ${geometry.deltaH} kJ/mol`} viewBox={`0 0 ${W} 280`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">
+        <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.energyProfile.title')}><svg style={{ width: '100%', maxWidth: 'none', height: 'auto' }} role="img" aria-label={`${t('simulations.energyProfile.title')}; Ea = ${geometry.activation} ${unit}; ΔH = ${geometry.deltaH} ${unit}`} viewBox={`0 0 ${W} 280`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">
           <title>{t('simulations.energyProfile.title')}</title>
           <desc>{t('simulations.energyProfile.description')}</desc>
           {/* Axes */}
@@ -59,17 +60,17 @@ export function EnergyProfile() {
 
           {/* Activation energy arrow */}
           <line x1={peakX - 5} y1={reactantsY} x2={peakX - 5} y2={peakY} stroke="var(--color-accent-warm)" strokeWidth={1.5} markerStart={`url(#${markerId}-arrow)`} markerEnd={`url(#${markerId}-arrow)`} />
-          <text x={peakX + 5} y={(reactantsY + peakY) / 2} fontSize={10} fill="var(--color-accent-warm)">Eₐ = {geometry.activation}</text>
+          <text x={peakX - 10} y={(reactantsY + peakY) / 2} textAnchor="end" fontSize={10} fill="var(--color-accent-warm)">Eₐ = {geometry.activation}</text>
 
           {/* ΔH arrow */}
           <line x1={productsX - 25} y1={reactantsY} x2={productsX - 25} y2={productsY} stroke="var(--color-accent-sage)" strokeWidth={1.5} />
-          <text x={productsX - 80} y={(reactantsY + productsY) / 2 + 4} fontSize={10} fill="var(--color-accent-sage)">
+          <text x={productsX - 20} y={(reactantsY + productsY) / 2 + 4} fontSize={10} fill="var(--color-accent-sage)">
             ΔH = {mode === 'exo' ? '−' : '+'}{deltaH}
           </text>
 
           {/* Labels */}
           <text x={reactantsX + 5} y={reactantsY - 8} fontSize={11} fill="var(--color-text-secondary)" fontWeight={600}>{t('simulations.energyProfile.reactants')}</text>
-          <text x={productsX - 5} y={productsY - 8} textAnchor="end" fontSize={11} fill="var(--color-text-secondary)" fontWeight={600}>{t('simulations.energyProfile.products')}</text>
+          <text x={productsX - 5} y={mode === 'exo' ? productsY + 14 : productsY - 8} textAnchor="end" fontSize={11} fill="var(--color-text-secondary)" fontWeight={600}>{t('simulations.energyProfile.products')}</text>
 
           <defs>
             <marker id={`${markerId}-arrow`} viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--color-accent-warm)" /></marker>

@@ -187,28 +187,28 @@
       }
     },
     "energyProfile": {
-      "title": "Energy Profile Diagram",
-      "description": "Compare reactant and product enthalpy levels along an illustrative reaction coordinate. ΔH is product minus reactant level; the forward activation barrier is the rise from reactants to the peak. The peak stays above both endpoints. The horizontal axis is reaction progress, not time.",
-      "exoTab": "Exothermic (ΔH negative)",
-      "endoTab": "Endothermic (ΔH positive)",
-      "activationLabel": "Activation energy E_a",
-      "deltaHExoLabel": "|ΔH| (reactants lose)",
-      "deltaHEndoLabel": "|ΔH| (products gain)",
+      "title": "Interactive energy profile",
+      "description": "Compare the enthalpy levels of the reactants and the products. The peak is higher than both the reactants and the products. The gap between the two levels is |ΔH|, the size of the enthalpy change at constant pressure. The horizontal axis shows reaction progress, not time.",
+      "exoTab": "Exothermic",
+      "endoTab": "Endothermic",
+      "activationLabel": "Activation energy Eₐ",
+      "deltaHExoLabel": "|ΔH| (heat released)",
+      "deltaHEndoLabel": "|ΔH| (heat absorbed)",
       "reactants": "Reactants",
       "products": "Products",
       "xAxis": "Reaction progress",
       "yAxis": "Energy",
       "exoSummaryTitle": "Exothermic",
       "endoSummaryTitle": "Endothermic",
-      "exoSummary": "products end up at lower energy than reactants. Heat is released. ΔH is negative.",
-      "endoSummary": "products end up at higher energy than reactants. Heat is absorbed. ΔH is positive.",
-      "catalystNote": "A catalyst would lower the peak (smaller E_a) without changing the start or end positions — ΔH stays the same.",
+      "exoSummary": "the diagram ends lower than it starts, so the drop equals the heat released.",
+      "endoSummary": "the diagram ends higher than it starts, so the rise equals the heat absorbed.",
+      "catalystNote": "A catalyst lowers the energy barrier (Eₐ) by the same amount for the forward and the reverse reaction. It does not change ΔH.",
       "review": {
         "englishTerm": "Energy Profile Diagram",
         "russianTerm": "Диаграмма энергетического профиля",
         "contrast": {
-          "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
-          "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+          "en": "The slider sets |ΔH|, the size of the enthalpy change, which is always positive. The diagram shows the same value with a sign: ΔH = −60 kJ/mol if the products are lower, or ΔH = +60 kJ/mol if they are higher.",
+          "ru": "Ползунок задаёт модуль |ΔH| — изменение энтальпии без учёта знака, оно всегда положительно. На диаграмме то же число записано со знаком: ΔH = −60 кДж/моль, если продукты ниже реагентов, или ΔH = +60 кДж/моль, если они выше."
         },
         "sources": [
           {
@@ -236,7 +236,8 @@
             "section": "12.7 Catalysis: alternative reaction pathways"
           }
         ]
-      }
+      },
+      "unit": "kJ/mol"
     }
   },
   "nav": {
@@ -2509,32 +2510,29 @@
   },
   "energy": {
     "title": "Energy Changes",
-    "intro": "Exothermic and endothermic reactions, energy diagrams, calculations.",
+    "intro": "Chemical reactions usually release or absorb energy, mostly as heat. Here you will compare exothermic and endothermic reactions, read energy profile diagrams and calculate heat changes from bond energies and from temperature data.",
     "sections": {
       "types": {
-        "title": "Exothermic vs endothermic",
-        "items": {
-          "exothermic": "An exothermic reaction transfers heat from the reacting system to its surroundings. At constant pressure its enthalpy change is negative: ΔH = H(products) − H(reactants) < 0. The surroundings may warm; the reaction can still require an initial activation-energy input.",
-          "endothermic": "An endothermic reaction absorbs heat from its surroundings. At constant pressure ΔH = H(products) − H(reactants) > 0. Products have higher enthalpy than reactants in the stated conditions. A temperature decrease can indicate heat absorption, but temperature and energy are different quantities."
-        },
+        "title": "Exothermic and endothermic reactions",
+        "items": {},
         "detailed": {
           "exothermic": {
             "name": "Exothermic reactions",
-            "rule": "An exothermic reaction transfers heat from the reacting system to its surroundings. At constant pressure its enthalpy change is negative: ΔH = H(products) − H(reactants) < 0. The surroundings may warm; the reaction can still require an initial activation-energy input.",
+            "rule": "An exothermic reaction transfers heat from the reacting system to its surroundings. Enthalpy (H) is the heat content of a system at constant pressure. The products have less enthalpy than the reactants, so ΔH = H(products) − H(reactants) < 0.",
             "examples": [
-              "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l): standard combustion enthalpy near 298 K is about −890 kJ per mole of methane.",
-              "Dilute strong acid + hydroxide: H⁺(aq) + OH⁻(aq) → H₂O(l), about −57 kJ per mole of water formed.",
-              "Respiration in your body: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ENERGY (powers life).",
-              "Hand warmers — iron oxidation: 4Fe + 3O₂ → 2Fe₂O₃ + heat. Activated by air.",
-              "Self-heating cans of coffee."
+              "Burning methane: methane reacts with oxygen to give carbon dioxide and liquid water. At 298 K and 100 kPa, ΔH ≈ −890 kJ mol⁻¹ of methane.",
+              "Neutralisation of a dilute strong acid by a strong alkali: H⁺(aq) + OH⁻(aq) → H₂O(l). ΔH ≈ −57 kJ mol⁻¹ of water formed.",
+              "Aerobic respiration in cells: glucose reacts with oxygen to give carbon dioxide and water. ΔH ≈ −2800 kJ mol⁻¹ of glucose. Cells use part of this energy for life processes.",
+              "Hand warmers: iron oxidises with oxygen from the air, 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s). The reaction releases heat. The iron is used as a fine powder: small particles have a large surface, so the reaction runs faster, but the heat released per mole stays the same.",
+              "Self-heating coffee cans: calcium oxide reacts with water, CaO(s) + H₂O(l) → Ca(OH)₂(s). The heat released warms the drink."
             ],
-            "tip": "On an energy profile diagram: products LOWER than reactants. ΔH = E(products) − E(reactants) < 0.",
+            "tip": "Do not drop the minus sign. Write ΔH = −57 kJ mol⁻¹, not 57 kJ mol⁻¹: the sign shows the direction of the heat flow, and the number shows how much heat moves.",
             "review": {
               "englishTerm": "Exothermic reactions",
               "russianTerm": "Экзотермические реакции",
               "contrast": {
-                "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
-                "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+                "en": "An exothermic reaction is not always combustion. Burning is only one example; neutralisation and self-heating cans release heat with no flame.",
+                "ru": "Экзотермическая реакция — не обязательно горение. Горение — лишь один пример; нейтрализация и самонагревающиеся банки выделяют теплоту без пламени."
               },
               "sources": [
                 {
@@ -2560,18 +2558,18 @@
           },
           "endothermic": {
             "name": "Endothermic reactions",
-            "rule": "An endothermic reaction absorbs heat from its surroundings. At constant pressure ΔH = H(products) − H(reactants) > 0. Products have higher enthalpy than reactants in the stated conditions. A temperature decrease can indicate heat absorption, but temperature and energy are different quantities.",
+            "rule": "An endothermic reaction absorbs heat from its surroundings. Its products have more enthalpy than its reactants, so ΔH = H(products) − H(reactants) > 0.",
             "examples": [
-              "Thermal decomposition of calcium carbonate requires heat under the stated reaction conditions.",
-              "Dissolving ammonium nitrate can cool water: NH₄NO₃(s) → NH₄⁺(aq) + NO₃⁻(aq)."
+              "Heating limestone (calcium carbonate): CaCO₃(s) → CaO(s) + CO₂(g). ΔH ≈ +178 kJ mol⁻¹, so heat must be supplied.",
+              "Dissolving ammonium nitrate cools the water: NH₄NO₃(s) → NH₄⁺(aq) + NO₃⁻(aq). ΔH ≈ +26 kJ mol⁻¹, so the water loses heat."
             ],
-            "watchOut": "Photosynthesis requires light energy; absorbing radiation is not the same process as absorbing heat from surroundings.",
+            "watchOut": "Not every energy input is heat. Photosynthesis is endothermic (ΔH > 0), but its energy comes from light, which is stored in the glucose it makes.",
             "review": {
               "englishTerm": "Endothermic reactions",
               "russianTerm": "Эндотермические реакции",
               "contrast": {
-                "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
-                "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+                "en": "Temperature is not the same as heat. A falling temperature shows that the surroundings gave heat to the reaction, but it does not measure how much energy moved.",
+                "ru": "Температура — не то же, что теплота. Понижение температуры показывает, что среда отдала реакции теплоту, но не показывает, сколько энергии перешло."
               },
               "sources": [
                 {
@@ -2599,13 +2597,13 @@
       },
       "profiles": {
         "title": "Energy profile diagrams",
-        "body": "An energy profile plots an energy measure against reaction progress. The activation barrier is the rise from reactants to a transition-state peak; ΔH is the product–reactant enthalpy difference. A catalyst changes the pathway and barriers, not ΔH. A one-peak curve is a simplified model.",
+        "body": "An energy profile diagram shows enthalpy (H) against reaction progress. The reactants and the products sit at two levels. The change in level from reactants to products is ΔH = H(products) − H(reactants). The activation energy (Eₐ) is the rise from the reactants to the peak, which is the transition state. A real reaction can have several steps and several peaks; this diagram shows one.",
         "review": {
           "englishTerm": "Energy profile diagrams",
-          "russianTerm": "Энергетические профили",
+          "russianTerm": "Диаграммы энергетического профиля",
           "contrast": {
-            "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
-            "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+            "en": "A high barrier does not make a reaction endothermic.",
+            "ru": "Высокий энергетический барьер (energy barrier) не делает реакцию эндотермической (endothermic)."
           },
           "sources": [
             {
@@ -2637,13 +2635,13 @@
       },
       "bondEnergies": {
         "title": "Bond energies",
-        "body": "Bond breaking requires energy; forming the corresponding bonds releases energy. Estimate ΔH as the sum of bond energies for bonds broken minus that for bonds formed. Tabulated mean bond enthalpies describe gas-phase averages, so this method is approximate and must account for all relevant bonds.",
+        "body": "Bonds break in the reactants and form in the products, so the two contributions enter ΔH with opposite signs. Estimate ΔH as the sum of the bond energies broken minus the sum of the bond energies formed. Tabulated bond energies are mean values for bonds in gaseous molecules, so the result is an estimate: count every bond in the equation.",
         "review": {
           "englishTerm": "Bond energies",
           "russianTerm": "Энергии связей",
           "contrast": {
-            "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
-            "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+            "en": "A bond energy is always a positive number: it is the energy needed to break one mole of that bond. The minus sign in ΔH comes from the subtraction, not from the table.",
+            "ru": "Энергия связи всегда положительна: это энергия, которую нужно затратить, чтобы разорвать один моль таких связей. Минус в ΔH появляется при вычитании, а не в таблице."
           },
           "sources": [
             {
@@ -2675,13 +2673,13 @@
       },
       "calorimetry": {
         "title": "Calorimetry",
-        "body": "Calorimetry infers heat transfer from measured temperature change. For a solution, q(solution) ≈ mcΔT; if other heat transfers are negligible, q(reaction) ≈ −q(solution). At constant pressure, molar ΔH ≈ −mcΔT/(1000n) in kJ mol⁻¹ when c is in J g⁻¹ °C⁻¹.",
+        "body": "Calorimetry finds heat from a temperature change. A solution of mass m (kg) that warms by ΔT (°C) gains q = mcΔT joules, where c is its specific heat capacity (J/(kg·K)). The reaction gives off the same amount of heat. Divide by 1000 and by n, the moles of reactant used, to get ΔH ≈ −mcΔT/(1000n) in kJ mol⁻¹.\n\nExample: 0.050 kg of solution warms by 2.5 °C, and 0.025 mol of reactant reacts: ΔH ≈ −(0.050 × 4180 × 2.5)/(1000 × 0.025) ≈ −20.9 kJ mol⁻¹.",
         "review": {
           "englishTerm": "Calorimetry",
           "russianTerm": "Калориметрия",
           "contrast": {
-            "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
-            "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+            "en": "The sign of q(solution) is not the sign of ΔH: if the solution warms, q is positive, but ΔH of the reaction is negative.",
+            "ru": "Знак Q раствора — не знак ΔH реакции: если раствор нагрелся, Q(раствора) > 0, а ΔH реакции отрицательна."
           },
           "sources": [
             {
@@ -2698,8 +2696,8 @@
             }
           ],
           "model": {
-            "en": "Ignoring heat losses and vessel heat capacity: q(solution) = mcΔT and q(reaction) = −q(solution). Russian Q for heat released can have the opposite sign to reaction ΔH.",
-            "ru": "При пренебрежении потерями и теплоёмкостью сосуда: q(раствора) = mcΔT, q(реакции) = −q(раствора). Русское Q выделившейся теплоты может иметь знак, противоположный ΔH реакции."
+            "en": "The formula assumes that no heat is lost to the air and that the cup absorbs no heat. For dilute aqueous solutions, use c = 4180 J/(kg·K) and take 1 cm³ of solution as 1 g, so 1 dm³ is 1 kg.",
+            "ru": "Формула предполагает, что теплота не уходит в воздух и стакан не поглощает теплоту. Для разбавленных водных растворов бери c = 4180 Дж/(кг·К), а 1 см³ раствора считай за 1 г, то есть 1 дм³ — за 1 кг."
           }
         }
       }

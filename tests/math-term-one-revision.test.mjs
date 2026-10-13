@@ -22,8 +22,8 @@ test('every term has authored bilingual definition, example, distinction and hon
   assert.equal(Object.keys(reviewedTerms).length,106);
   for (const term of en.glossary) {
     assert.ok(term.meaning.length > 15 && term.example.length > 10,term.term);
-    for (const text of [term.ru.term,term.ru.meaning,term.ru.example,term.review.contrast.ru]) assert.ok(localised(text),`${term.term}: ${text}`);
-    assert.ok(term.review.contrast.en.length > 10,term.term);
+    for (const text of [term.ru.term,term.ru.meaning,term.ru.example,...(term.review.contrast?[term.review.contrast.ru]:[])]) assert.ok(localised(text),`${term.term}: ${text}`);
+    if (term.review.contrast) assert.ok(term.review.contrast.en.length > 10,term.term);
     assert.ok(term.review.sources.length > 0,term.term);
     for (const source of term.review.sources) {
       assert.ok(source.section && source.title,term.term);

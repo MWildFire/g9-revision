@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy
 
 on:
   push:
@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
@@ -17,6 +15,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Primary address of the site (AWS CloudFront). Empty until AWS is set up.
+      VITE_PRIMARY_URL: ${{ vars.AWS_SITE_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,16 +27,55 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - name: Build for AWS (served from the domain root)
+        if: ${{ vars.AWS_DEPLOY_ROLE_ARN != '' }}
+        run: npx vite build --base=/ --outDir dist-aws
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
+      - uses: actions/upload-artifact@v4
+        if: ${{ vars.AWS_DEPLOY_ROLE_ARN != '' }}
+        with:
+          name: dist-aws
+          path: ./dist-aws
+          retention-days: 7
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-aws:
+    needs: build
+    if: ${{ vars.AWS_DEPLOY_ROLE_ARN != '' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist-aws
+          path: dist-aws
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: eu-central-1
+      # Hashed files never change: cache for a year and keep old ones, so an open tab can still load its chunks.
+      - run: aws s3 sync dist-aws/assets "s3://${{ vars.AWS_S3_BUCKET }}/assets" --cache-control "public,max-age=31536000,immutable"
+      # index.html, audio and the rest: always revalidated; files removed from the build are removed from the bucket.
+      - run: aws s3 sync dist-aws "s3://${{ vars.AWS_S3_BUCKET }}" --delete --exclude "assets/*" --cache-control "no-cache"
+      - run: aws cloudfront create-invalidation --distribution-id "${{ vars.AWS_CLOUDFRONT_ID }}" --paths "/index.html" "/"
+      - name: Smoke test
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' "${{ vars.AWS_SITE_URL }}")
+          echo "GET ${{ vars.AWS_SITE_URL }} -> $code"
+          test "$code" = "200"

@@ -10,6 +10,7 @@ import { LessonBody as GeographyLessonBody } from '../geography-tectonics/Geogra
 import { lessons as geographyLessons } from '../geography-tectonics/lessons';
 import { lessons as atomicLessons } from '../physics-september/lessons';
 import { VisualLab } from '../physics-september/Visuals';
+import { RichText } from '../../components/content/RichText';
 
 const page = (subject: string, loader: () => Promise<Record<string, unknown>>, name: string) => lazy(async () => {
   const [, module] = await Promise.all([loadSubjectTranslations(subject), loader()]);
@@ -71,7 +72,7 @@ const names: Record<string,[string,string]> = {
 };
 export function LibraryTheory({id,selected}: {id:string;selected?:string[]}) {
   const {i18n} = useTranslation(); const lang = i18n.language.startsWith('ru') ? 'ru' : 'en'; const ru = lang === 'ru';
-  if (id === 'p-atom') return <div className="nov-library">{atomicLessons.filter(l=>!selected||selected.includes(l.id)).map((lesson,index) => <details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><p>{lesson.intro[lang]}</p>{lesson.visual && <VisualLab kind={lesson.visual}/ >}{lesson.sections.map((s,i)=><section key={i}><h3>{s.title[lang]}</h3><p>{s.text[lang]}</p>{atomicFormulaIds(lesson.id,i).map(id=><FormulaTeaching key={id} id={id}/>)}</section>)}{lesson.examples.map((e,i)=><section key={i}><h3>{e.question[lang]}</h3><ol>{e.steps.map((s,j)=><li key={j}>{s[lang]}</li>)}</ol></section>)}<ul>{lesson.pitfalls.map((p,i)=><li key={i}>{p[lang]}</li>)}</ul></details>)}</div>;
+  if (id === 'p-atom') return <div className="nov-library">{atomicLessons.filter(l=>!selected||selected.includes(l.id)).map((lesson,index) => <details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><p>{lesson.intro[lang]}</p>{lesson.visual && <VisualLab kind={lesson.visual}/ >}{lesson.sections.map((s,i)=><section key={i}><h3>{s.title[lang]}</h3><RichText text={s.text[lang]}/>{atomicFormulaIds(lesson.id,i).map(id=><FormulaTeaching key={id} id={id}/>)}</section>)}{lesson.examples.map((e,i)=><section key={i}><h3>{e.question[lang]}</h3><ol>{e.steps.map((s,j)=><li key={j}>{s[lang]}</li>)}</ol></section>)}<ul>{lesson.pitfalls.map((p,i)=><li key={i}>{p[lang]}</li>)}</ul></details>)}</div>;
   if (id === 'g-tectonics') return <div className="tectonic nov-library">{geographyLessons.map((lesson,index)=><details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><GeographyLessonBody lesson={lesson}/></details>)}</div>;
   if (['m-core','m-algebra','m-geometry'].includes(id)) {
     const pack = getPack(lang); const chosen = pack.lessons.filter(l => selected ? selected.includes(l.id) : id === 'm-core' ? ['start','core'].includes(l.tier) : id === 'm-algebra' ? ['functions','quadratic-graphs','quadratic-equations','sequences','formulae-and-fractions','proportion-and-graphs'].includes(l.id) : ['right-triangles','trigonometry','circles'].includes(l.id));

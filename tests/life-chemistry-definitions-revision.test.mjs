@@ -21,7 +21,7 @@ test('all inventoried biology and chemistry blocks have bilingual definitions an
         const block = at(locale, path);
         assert.ok(block[field].length > 30, path);
         assert.ok(block.review.englishTerm && block.review.russianTerm, path);
-        assert.ok(block.review.contrast.en && block.review.contrast.ru, path);
+        if (block.review.contrast) assert.ok(block.review.contrast.en && block.review.contrast.ru, path);
         assert.ok(block.review.sources.length, path);
         for (const source of block.review.sources) {
           assert.match(source.url, /^https:\/\/[^/]+\/.+/);

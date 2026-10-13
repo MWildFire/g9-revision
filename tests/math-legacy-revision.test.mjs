@@ -75,7 +75,7 @@ test('all existing legacy definition cards expose bilingual terminology and sect
     for (const group of [d.extras.proofs.detailed,...['numberSystems','functionsAlgebra','sequences','geometryTrig','statsProb'].map(k=>d[k].subTopicsDetailed)]) {
       for (const item of Object.values(group)) {
         count++;assert.ok(item.rule.length>70);assert.ok(item.review.englishTerm&&item.review.russianTerm);
-        assert.ok(item.review.contrast.en&&item.review.contrast.ru);
+        if(item.review.contrast)assert.ok(item.review.contrast.en&&item.review.contrast.ru);
         assert.ok(item.review.sources.length>0);
         for (const source of item.review.sources) { assert.match(source.url,/^https:\/\//); assert.ok(source.section); assert.ok(['en','ru'].includes(source.language)); }
       }

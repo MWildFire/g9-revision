@@ -1,3 +1,4 @@
+import { useOnce } from './OnceScope';
 import {FormulaTeaching} from './FormulaTeaching';
 import { useId } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -53,16 +54,16 @@ export function DefinitionDiagram({ visual, language }: { visual: NonNullable<De
 export function DefinitionSupport({ review, language }: { review?: DefinitionReview | null; language?: 'en' | 'ru' }) {
   const { i18n } = useTranslation();
   const lang = language ?? (i18n.language.startsWith('ru') ? 'ru' : 'en');
-  if (!review || typeof review !== 'object' || !Array.isArray(review.sources)) return null;
   const text = (value: DefinitionText | undefined) => value?.[lang] ?? '';
+  const [showContrast, showModel] = useOnce([review?.contrast ? `contrast:${text(review.contrast)}` : '', review?.model ? `model:${text(review.model)}` : '']);
+  if (!review || typeof review !== 'object') return null;
   const ru = lang === 'ru';
   return <div className="definition-support" lang={lang}>
     <p className="definition-equivalents"><span lang="en">{review.englishTerm}</span><span aria-hidden="true"> · </span><span lang="ru">{review.russianTerm}</span></p>
     {review.explanation && <p>{text(review.explanation)}</p>}
-    {review.contrast && <p className="definition-contrast"><strong>{ru ? 'Не путать:' : 'Distinguish:'}</strong> {text(review.contrast)}</p>}
-    {review.model && <p className="definition-model"><strong>{ru ? 'Область применения:' : 'Scope of the model:'}</strong> {text(review.model)}</p>}
+    {review.contrast && showContrast && <p className="definition-contrast"><strong>{ru ? 'Не путать:' : 'Distinguish:'}</strong> {text(review.contrast)}</p>}
+    {review.model && showModel && <p className="definition-model"><strong>{ru ? 'Область применения:' : 'Scope of the model:'}</strong> {text(review.model)}</p>}
     <FormulaTeaching text={[text(review.explanation),text(review.contrast),text(review.model)].join(' ')}/>
     {review.visual && <DefinitionDiagram visual={review.visual} language={lang}/>}
-    {review.sources.length > 0 && <details className="definition-sources"><summary>{ru ? 'Источники и формулировка' : 'Sources and wording'}</summary><p>{ru ? 'Определение и объяснение изложены своими словами по указанным источникам. Язык источника отмечен рядом со ссылкой; русский текст не выдаётся за опубликованную цитату.' : 'The definition and explanation are authored paraphrases of the sources below. Each source’s language is shown; translated wording is not presented as a published quotation.'}</p><ul>{review.sources.map((source, index) => <li key={`${source.url}-${index}`}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a> <span className="definition-source-language">{source.language.toUpperCase()}</span><span className="definition-source-section">{source.section}</span></li>)}</ul></details>}
   </div>;
 }

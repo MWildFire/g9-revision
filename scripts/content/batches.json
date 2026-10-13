@@ -1,0 +1,3719 @@
+{
+  "version": 1,
+  "ignoreFiles": [
+    {
+      "file": "src/modules/math-term-one/sources.ts",
+      "why": "список источников (не показывается ученику после Фазы 1)"
+    }
+  ],
+  "lanes": {
+    "S": "lead — фаза 0–2, AWS, план и оболочка сайта, интеграция и финальная проверка",
+    "P": "phys — физика (включая атомный курс)",
+    "C": "chem — химия",
+    "B": "bio — биология и научные навыки (критерии B–D)",
+    "G": "geo — география (тектоника, прежние темы)",
+    "M": "math — математика",
+    "L": "lang — английский, французский, арабский"
+  },
+  "batches": [
+    {
+      "id": "C-c-atoms",
+      "lane": "C",
+      "due": "2026-10-13",
+      "title": "Chemistry · atoms and the periodic table (today’s lesson, flagged by the teacher)",
+      "routes": [
+        "/chemistry/atoms-periodic",
+        "/november/c-atoms",
+        "/november/c-atoms?part=c-atoms-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "atomsPeriodic"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "simulations",
+          "sub": "atomBuilder"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "c-atoms"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "c-atoms"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "c-atoms"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "nucleons",
+            "charge"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/chemistry/AtomBuilder.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/AtomsPeriodicPage.tsx"
+        }
+      ],
+      "notes": [
+        "Пример из замечаний к сайту: 8 одинаковых карточек и «Не путать: Z — число протонов…» в каждом разделе. После Фазы 1 карточка показывается один раз; здесь — сделать каждый раздел самостоятельным и специфичным.",
+        "Уровень MYP 4–5 (Hodder Termaat & Talbot): оболочки 2,8,8, без «квантовых состояний».",
+        "Группы: IUPAC 1–18 + соответствие русской школьной записи (IA, VIIA, VIIIA)."
+      ]
+    },
+    {
+      "id": "P-p-radiation",
+      "lane": "P",
+      "due": "2026-10-13",
+      "title": "Physics · atomic course · radiation",
+      "routes": [
+        "/physics-september-2026/radiation",
+        "/november/p-atom?part=radiation"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "radiation"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "radiation"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "radiation"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "nuclear-equation",
+            "activity",
+            "decay"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "p-atom"
+          ]
+        }
+      ],
+      "notes": [
+        "В батч входит и practice p-atom (вопросы ко всему атомному курсу): правь только то, что относится к радиации; остальное — keep с why «следующий батч атомного курса»."
+      ]
+    },
+    {
+      "id": "P-p-nuclear-equations",
+      "lane": "P",
+      "due": "2026-10-14",
+      "title": "Physics · atomic course · nuclear-equations",
+      "routes": [
+        "/physics-september-2026/nuclear-equations",
+        "/november/p-atom?part=nuclear-equations"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "nuclear-equations"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "nuclear-equations"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "nuclear-equations"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "nuclear-equation"
+          ]
+        }
+      ],
+      "notes": [
+        "Формульные карточки этого урока стоят по карте src/modules/physics-september/formulaPlacement.ts — проверь, что каждая стоит у нужного раздела."
+      ]
+    },
+    {
+      "id": "P-p-energy",
+      "lane": "P",
+      "due": "2026-10-15",
+      "title": "Physics · energy, work, power, pressure (forces & energy page)",
+      "routes": [
+        "/physics/forces-energy",
+        "/november/p-energy",
+        "/november/p-energy?part=p-energy-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "forcesEnergy"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "p-energy"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "p-energy"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "p-energy"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "work",
+            "mechanical-energy",
+            "efficiency",
+            "hooke",
+            "density",
+            "pressure"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/physics/pages/ForcesEnergyPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/DensityFloater.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/EnergyTransformations.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/FluidPressure.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/HookesLaw.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/PressureSim.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/WorkPower.tsx"
+        }
+      ]
+    },
+    {
+      "id": "C-c-bonds",
+      "lane": "C",
+      "due": "2026-10-15",
+      "title": "Chemistry · bonding and structure",
+      "routes": [
+        "/chemistry/bonding",
+        "/november/c-bonds",
+        "/november/c-bonds?part=c-bonds-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "bonding"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "c-bonds"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "c-bonds"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "c-bonds"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/BondingPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "P-p-half-life",
+      "lane": "P",
+      "due": "2026-10-16",
+      "title": "Physics · atomic course · half-life",
+      "routes": [
+        "/physics-september-2026/half-life",
+        "/november/p-atom?part=half-life"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "half-life"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "half-life"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "half-life"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "decay",
+            "activity"
+          ]
+        }
+      ],
+      "notes": [
+        "Формульные карточки этого урока стоят по карте src/modules/physics-september/formulaPlacement.ts — проверь, что каждая стоит у нужного раздела."
+      ]
+    },
+    {
+      "id": "S-plan-ui",
+      "lane": "S",
+      "due": "2026-10-21",
+      "title": "Daily plan, study portions and November course interface",
+      "routes": [
+        "/revision-plan",
+        "/november",
+        "/november/c-atoms?part=c-atoms-core",
+        "/november/paper/biology"
+      ],
+      "units": [
+        {
+          "kind": "json",
+          "file": "src/data/revision-plan.json"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/study-sessions.json"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/revision-plan/RevisionPlanPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/november/NovemberModule.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/november/LibraryTheory.tsx"
+        }
+      ],
+      "notes": [
+        "Тексты плана — для ученика: коротко, по-человечески, без внутренних оговорок («не измеренная скорость чтения», «ориентир, не гарантия», «не равна оценке IB» — один раз на странице плана, не в каждой порции).",
+        "Не менять даты, минуты, id блоков и структуру плана — только формулировки."
+      ]
+    },
+    {
+      "id": "C-c-energy",
+      "lane": "C",
+      "due": "2026-10-18",
+      "title": "Chemistry · energy changes",
+      "routes": [
+        "/chemistry/energy",
+        "/november/c-energy",
+        "/november/c-energy?part=c-energy-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "energy"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "simulations",
+          "sub": "energyProfile"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "c-energy"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "c-energy"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "c-energy"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "reaction-energy"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/EnergyPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/chemistry/EnergyProfile.tsx"
+        }
+      ]
+    },
+    {
+      "id": "P-p-electric",
+      "lane": "P",
+      "due": "2026-10-18",
+      "title": "Physics · electricity and magnetism",
+      "routes": [
+        "/physics/electricity",
+        "/november/p-electric",
+        "/november/p-electric?part=p-electric-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "electricity"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "p-electric"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "p-electric"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "p-electric"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "current",
+            "ohm",
+            "circuit",
+            "electrical-power"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/physics/pages/ElectricityPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/CircuitBuilder.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/IVCharacteristics.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/MagneticField.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/OhmsLaw.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/PowerConsumption.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/ThermistorLDR.tsx"
+        }
+      ]
+    },
+    {
+      "id": "C-c-rates",
+      "lane": "C",
+      "due": "2026-10-18",
+      "title": "Chemistry · rates of reaction (+ redox/electrochemistry/equilibrium extras)",
+      "routes": [
+        "/chemistry/rates",
+        "/chemistry/extras",
+        "/november/c-rates",
+        "/november/c-rates?part=c-rates-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "rates"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "extras"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "c-rates"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "c-rates"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "c-rates"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "rate"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/RatesPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/chemistry/ReactionRateGraph.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/ChemistryExtrasPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "P-p-contamination",
+      "lane": "P",
+      "due": "2026-10-20",
+      "title": "Physics · atomic course · contamination",
+      "routes": [
+        "/physics-september-2026/contamination",
+        "/november/p-atom?part=contamination"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "contamination"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "contamination"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "contamination"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "dose"
+          ]
+        }
+      ],
+      "notes": [
+        "Формульные карточки этого урока стоят по карте src/modules/physics-september/formulaPlacement.ts — проверь, что каждая стоит у нужного раздела."
+      ]
+    },
+    {
+      "id": "P-p-background",
+      "lane": "P",
+      "due": "2026-10-21",
+      "title": "Physics · atomic course · background",
+      "routes": [
+        "/physics-september-2026/background",
+        "/november/p-atom?part=background"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "background"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "background"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "background"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "activity",
+            "decay",
+            "dose"
+          ]
+        }
+      ],
+      "notes": [
+        "Формульные карточки этого урока стоят по карте src/modules/physics-september/formulaPlacement.ts — проверь, что каждая стоит у нужного раздела."
+      ]
+    },
+    {
+      "id": "P-p-matter",
+      "lane": "P",
+      "due": "2026-10-22",
+      "title": "Physics · states of matter and thermal physics",
+      "routes": [
+        "/mocks/states-thermal",
+        "/november/p-matter",
+        "/november/p-matter?part=p-matter-core"
+      ],
+      "units": [
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "states-thermal"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "p-matter"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "p-matter"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "p-matter"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "thermal",
+            "gas",
+            "first-law",
+            "density"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-c-quantity",
+      "lane": "C",
+      "due": "2026-10-22",
+      "title": "Chemistry · amount of substance (moles, yield, concentration)",
+      "routes": [
+        "/chemistry/stoichiometry",
+        "/november/c-quantity",
+        "/november/c-quantity?part=c-quantity-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "stoichiometry"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "simulations",
+          "sub": "moleCalc"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "c-quantity"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "c-quantity"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "c-quantity"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "moles",
+            "concentration",
+            "yield",
+            "stoichiometry",
+            "gas-volume"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/StoichiometryPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/chemistry/MoleCalculator.tsx"
+        }
+      ]
+    },
+    {
+      "id": "P-p-half-life-choice",
+      "lane": "P",
+      "due": "2026-10-23",
+      "title": "Physics · atomic course · half-life-choice",
+      "routes": [
+        "/physics-september-2026/half-life-choice",
+        "/november/p-atom?part=half-life-choice"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "half-life-choice"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "half-life-choice"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "half-life-choice"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "activity-decay"
+          ]
+        }
+      ],
+      "notes": [
+        "Формульные карточки этого урока стоят по карте src/modules/physics-september/formulaPlacement.ts — проверь, что каждая стоит у нужного раздела."
+      ]
+    },
+    {
+      "id": "P-p-waves",
+      "lane": "P",
+      "due": "2026-10-25",
+      "title": "Physics · waves, sound, light and optics",
+      "routes": [
+        "/physics/waves-optics",
+        "/november/p-waves",
+        "/november/p-waves?part=p-waves-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "wavesOptics"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "p-waves"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "p-waves"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "p-waves"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "wave",
+            "refraction",
+            "lens",
+            "photon"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/physics/pages/WavesOpticsPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/ColorFilters.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/Diffraction.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/EMSpectrum.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/LensSim.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/ReflectionRefraction.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/SoundWave.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/WaveExplorer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "P-p-uses",
+      "lane": "P",
+      "due": "2026-10-27",
+      "title": "Physics · atomic course · uses",
+      "routes": [
+        "/physics-september-2026/uses",
+        "/november/p-atom?part=uses"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "uses"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "uses"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "uses"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "absorption"
+          ]
+        }
+      ],
+      "notes": [
+        "Формульные карточки этого урока стоят по карте src/modules/physics-september/formulaPlacement.ts — проверь, что каждая стоит у нужного раздела."
+      ]
+    },
+    {
+      "id": "P-p-fission",
+      "lane": "P",
+      "due": "2026-10-28",
+      "title": "Physics · atomic course · fission",
+      "routes": [
+        "/physics-september-2026/fission",
+        "/november/p-atom?part=fission"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "fission"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "fission"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "fission"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "nuclear-equation",
+            "fission-power",
+            "efficiency"
+          ]
+        }
+      ],
+      "notes": [
+        "Формульные карточки этого урока стоят по карте src/modules/physics-september/formulaPlacement.ts — проверь, что каждая стоит у нужного раздела."
+      ]
+    },
+    {
+      "id": "P-p-forces",
+      "lane": "P",
+      "due": "2026-10-29",
+      "title": "Physics · forces, motion, momentum",
+      "routes": [
+        "/physics/force-motion",
+        "/november/p-forces",
+        "/november/p-forces?part=p-forces-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "forceMotion"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "p-forces"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "p-forces"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "p-forces"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "speed",
+            "newton",
+            "momentum",
+            "moment",
+            "stopping",
+            "vectors"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/physics/pages/ForceMotionPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/MomentumCollision.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/MotionGraphs.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/NewtonSecondLaw.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/ReactionBraking.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/TerminalVelocity.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/physics/VectorAddition.tsx"
+        }
+      ]
+    },
+    {
+      "id": "C-c-changes",
+      "lane": "C",
+      "due": "2026-10-29",
+      "title": "Chemistry · reactions, acids, bases and salts",
+      "routes": [
+        "/chemistry/reactions",
+        "/chemistry/acids-bases",
+        "/november/c-changes",
+        "/november/c-changes?part=c-changes-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "reactions"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "acidsBases"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "simulations",
+          "sub": "phIndicator"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "c-changes"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "c-changes"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "c-changes"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "redox-equation",
+            "ph"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/ReactionsPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/AcidsBasesPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/chemistry/PHIndicator.tsx"
+        }
+      ]
+    },
+    {
+      "id": "P-p-fusion",
+      "lane": "P",
+      "due": "2026-10-30",
+      "title": "Physics · atomic course · fusion",
+      "routes": [
+        "/physics-september-2026/fusion",
+        "/november/p-atom?part=fusion"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "fusion"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": "fusion"
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "fusion"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "nuclear-equation",
+            "mass-energy"
+          ]
+        }
+      ],
+      "notes": [
+        "Формульные карточки этого урока стоят по карте src/modules/physics-september/formulaPlacement.ts — проверь, что каждая стоит у нужного раздела."
+      ]
+    },
+    {
+      "id": "C-c-air",
+      "lane": "C",
+      "due": "2026-11-01",
+      "title": "Chemistry · the atmosphere",
+      "routes": [
+        "/chemistry/atmosphere",
+        "/november/c-air",
+        "/november/c-air?part=c-air-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "atmosphere"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "c-air"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "c-air"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/guidedTeaching.ts",
+          "export": "guidedTeaching",
+          "keys": [
+            "c-air"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/AtmospherePage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "P-p-atom-start",
+      "lane": "P",
+      "due": "2026-11-03",
+      "title": "Physics · atomic course parts 1–3 (already studied 11.10) + module UI",
+      "routes": [
+        "/physics-september-2026",
+        "/physics-september-2026/atomic-structure",
+        "/physics-september-2026/isotopes",
+        "/physics-september-2026/atomic-models",
+        "/physics-september-2026/practice",
+        "/physics-september-2026/reference",
+        "/physics-september-2026/paper-1",
+        "/physics-september-2026/paper-2",
+        "/november/p-atom"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "atomic-structure",
+            "isotopes",
+            "atomic-models"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "where": {
+            "topic": [
+              "atomic-structure",
+              "isotopes",
+              "atomic-models"
+            ]
+          }
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/papers.ts",
+          "export": "papers"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/reference.ts",
+          "export": "glossary"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics-september/reference.ts",
+          "export": "commandTerms"
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "physicsNuclearReviews"
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/physicsNuclear.ts",
+          "export": "nuclearLessonReviews",
+          "keys": [
+            "atomic-structure",
+            "isotopes",
+            "atomic-models"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "nanometre",
+            "photon"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/physics-september/PhysicsSeptemberModule.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/physics-september/Visuals.tsx"
+        }
+      ]
+    },
+    {
+      "id": "P-paper-physics",
+      "lane": "P",
+      "due": "2026-11-05",
+      "title": "Physics rehearsal paper",
+      "routes": [
+        "/november/paper/physics"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/november/papers.ts",
+          "export": "papers",
+          "ids": [
+            "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-paper-chemistry",
+      "lane": "C",
+      "due": "2026-11-05",
+      "title": "Chemistry rehearsal paper",
+      "routes": [
+        "/november/paper/chemistry"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/november/papers.ts",
+          "export": "papers",
+          "ids": [
+            "chemistry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P-physics-library",
+      "lane": "P",
+      "due": "2026-11-06",
+      "title": "Physics library: command terms, criteria, extras, practice bank",
+      "routes": [
+        "/physics",
+        "/physics/command-terms",
+        "/physics/criteria",
+        "/physics/resources",
+        "/physics/extras"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "subjectName"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "brand"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "nav"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "common"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "home"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "commandTerms"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "criteria"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "resources"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "extras"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "practice"
+        },
+        {
+          "kind": "i18n",
+          "ns": "physics",
+          "key": "footer"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/physics/data/practiceQuestions.ts",
+          "export": "QUESTIONS_BY_TOPIC"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/physics/pages/HomePage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/definitions/physicsDiagrams.tsx"
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "absorption",
+            "activity-decay",
+            "fission-power",
+            "mass-energy",
+            "dose",
+            "thermal",
+            "gas",
+            "first-law",
+            "absolute",
+            "zero"
+          ]
+        }
+      ],
+      "notes": [
+        "Карточки в этом батче — проверка оставшихся физических карточек каталога; если карточка уже переписана в своём батче — keep с why «переписана в <батч>»."
+      ]
+    },
+    {
+      "id": "C-chemistry-library",
+      "lane": "C",
+      "due": "2026-11-06",
+      "title": "Chemistry library: home, navigation, remaining cards, chemistry mock lessons",
+      "routes": [
+        "/chemistry",
+        "/mocks/chemical-quantities",
+        "/mocks/nanoparticles"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "subjectName"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "home"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "nav"
+        },
+        {
+          "kind": "i18n",
+          "ns": "chemistry",
+          "key": "simulations"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "chemical-quantities",
+            "nanoparticles"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/pages/ChemistryHomePage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/chemistry/components/ChemistryTopicLayout.tsx"
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/chemBioFormulaTeaching.ts",
+          "export": "chemBioFormulaTeaching"
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/additionalFormulaTeaching.ts",
+          "export": "additionalFormulaTeaching"
+        }
+      ],
+      "notes": [
+        "i18n chemistry.simulations целиком — то, что не вошло в предметные батчи."
+      ]
+    },
+    {
+      "id": "S-shell",
+      "lane": "S",
+      "due": "2026-11-06",
+      "title": "Site shell: header, hub, about, timetable, mocks map, shared components",
+      "routes": [
+        "/",
+        "/about",
+        "/timetable",
+        "/mocks",
+        "/mocks/interdisciplinary",
+        "/transfer"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "common",
+          "key": "*"
+        },
+        {
+          "kind": "i18n",
+          "ns": "hub",
+          "key": "*"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/App.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/config/subjects.ts"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/pages/HubPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/pages/AboutPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/pages/TimetablePage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/pages/MocksPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/pages/MockLessonPage.tsx"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "interdisciplinary"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/layout/Footer.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/layout/MovedBanner.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/pages/TransferPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/layout/SubjectSidebar.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/progress/ExamCountdown.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/content/DefinitionSupport.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/content/DetailedCard.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/content/DrFrostLink.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/content/ExtrasLayout.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/content/FormulaTeaching.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/content/MathPracticeList.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/content/MeasurementComparison.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/ui/TermCard.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-b-cells",
+      "lane": "B",
+      "due": "2026-10-13",
+      "title": "Biology · cells, microscopes, transport across membranes (today’s lesson)",
+      "routes": [
+        "/biology/cells",
+        "/november/b-cells",
+        "/november/b-cells?part=b-cells-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "cells"
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "simulations",
+          "sub": "cellDiagram"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "b-cells"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-cells"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-cells"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "magnification",
+            "surface-volume"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/CellsPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/biology/MicroscopyResolution.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/biology/CellDiagram.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/components/BiologyTopicLayout.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-b-disease",
+      "lane": "B",
+      "due": "2026-10-18",
+      "title": "Biology · health, pathogens and immunity",
+      "routes": [
+        "/biology/immune",
+        "/november/b-disease",
+        "/november/b-disease?part=b-disease-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "immune"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "b-disease"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-disease"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-disease"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/ImmunePage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-body-systems",
+      "lane": "B",
+      "due": "2026-10-19",
+      "title": "Biology · human body systems (nutrition first)",
+      "routes": [
+        "/biology/body-systems",
+        "/november/b-nutrition",
+        "/november/b-nutrition?part=b-nutrition-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "bodySystems"
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "simulations",
+          "sub": "heartDiagram"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "b-nutrition"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-nutrition"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-nutrition"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "respiration-equation"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/BodySystemsPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/biology/HeartDiagram.tsx"
+        }
+      ],
+      "notes": [
+        "Самый «повторяющийся» раздел сайта: «Не путать: Артерии…/Аэробное дыхание…» ×13. Каждому разделу — своё различение или ничего."
+      ]
+    },
+    {
+      "id": "G-g-tectonics-1",
+      "lane": "G",
+      "due": "2026-10-19",
+      "title": "Geography · tectonics: Earth structure, plate boundaries, earthquakes, volcanoes",
+      "routes": [
+        "/geography-tectonic-hazards",
+        "/geography-tectonic-hazards/earth-structure",
+        "/geography-tectonic-hazards/constructive",
+        "/geography-tectonic-hazards/subduction",
+        "/geography-tectonic-hazards/collision",
+        "/geography-tectonic-hazards/conservative",
+        "/geography-tectonic-hazards/earthquakes",
+        "/geography-tectonic-hazards/volcano-types",
+        "/geography-tectonic-hazards/volcano-structure",
+        "/november/g-tectonics",
+        "/november/g-tectonics?part=g-tectonics-core"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/geography-tectonics/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "earth-structure",
+            "constructive",
+            "subduction",
+            "collision",
+            "conservative",
+            "earthquakes",
+            "volcano-types",
+            "volcano-structure"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "g-tectonics"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "g-tectonics"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography-tectonics/Visuals.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography-tectonics/VolcanoForms.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-b-evolution",
+      "lane": "B",
+      "due": "2026-10-25",
+      "title": "Biology · inheritance, variation and evolution",
+      "routes": [
+        "/biology/genetics",
+        "/november/b-evolution",
+        "/november/b-evolution?part=b-evolution-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "genetics"
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "simulations",
+          "sub": "punnett"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "b-evolution"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-evolution"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-evolution"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/GeneticsPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/biology/PunnettSquare.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-b-environment",
+      "lane": "B",
+      "due": "2026-10-25",
+      "title": "Biology · ecology and human impact",
+      "routes": [
+        "/biology/ecology",
+        "/november/b-environment",
+        "/november/b-environment?part=b-environment-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "ecology"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "b-environment"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-environment"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-environment"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/EcologyPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-skills",
+      "lane": "B",
+      "due": "2026-10-25",
+      "title": "Science skills: criteria B, C, D (investigation, data, impacts)",
+      "routes": [
+        "/mocks/science-investigation",
+        "/biology/experiment",
+        "/november/s-b",
+        "/november/s-b?part=s-b-core",
+        "/november/s-c",
+        "/november/s-c?part=s-c-core",
+        "/november/s-d",
+        "/november/s-d?part=s-d-core"
+      ],
+      "units": [
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "science-investigation"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "s-b",
+            "s-c",
+            "s-d"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "s-b",
+            "s-c",
+            "s-d"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "s-b",
+            "s-c",
+            "s-d"
+          ]
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "experiment"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/ExperimentPage.tsx"
+        }
+      ],
+      "notes": [
+        "Термины точности/погрешности: accuracy — «правильность (близость к истинному)», precision — «прецизионность / разброс повторных измерений», resolution — «цена деления / разрешение прибора»; объясняй смысл, а не только слово."
+      ]
+    },
+    {
+      "id": "G-g-tectonics-2",
+      "lane": "G",
+      "due": "2026-10-26",
+      "title": "Geography · tectonics case studies, management, reference and practice",
+      "routes": [
+        "/geography-tectonic-hazards/chile",
+        "/geography-tectonic-hazards/nepal",
+        "/geography-tectonic-hazards/eyjafjallajokull",
+        "/geography-tectonic-hazards/three-ps",
+        "/geography-tectonic-hazards/building-design",
+        "/geography-tectonic-hazards/reference",
+        "/geography-tectonic-hazards/practice",
+        "/geography-tectonic-hazards/print"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/geography-tectonics/lessons.ts",
+          "export": "lessons",
+          "ids": [
+            "chile",
+            "nepal",
+            "eyjafjallajokull",
+            "three-ps",
+            "building-design"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/geography-tectonics/reference.ts",
+          "export": "glossary"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/geography-tectonics/reference.ts",
+          "export": "checklist"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/geography-tectonics/definition-reviews.ts",
+          "export": "tectonicDefinitionReviews"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/geography-tectonics/case-sources.ts",
+          "export": "caseSources"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography-tectonics/GeographyTectonicsModule.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-b-transport",
+      "lane": "B",
+      "due": "2026-10-26",
+      "title": "Biology · transport in humans (November unit)",
+      "routes": [
+        "/november/b-transport",
+        "/november/b-transport?part=b-transport-core"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-transport"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-transport"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B-b-regulation",
+      "lane": "B",
+      "due": "2026-11-01",
+      "title": "Biology · nervous system, hormones, biotechnology",
+      "routes": [
+        "/biology/extras",
+        "/november/b-nervous",
+        "/november/b-nervous?part=b-nervous-core",
+        "/november/b-hormones",
+        "/november/b-hormones?part=b-hormones-core",
+        "/november/b-biotech",
+        "/november/b-biotech?part=b-biotech-core"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "b-nervous",
+            "b-hormones",
+            "b-biotech"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-nervous",
+            "b-hormones",
+            "b-biotech"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-nervous",
+            "b-hormones",
+            "b-biotech"
+          ]
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "extras"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/BiologyExtrasPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-b-respiration-plants",
+      "lane": "B",
+      "due": "2026-11-02",
+      "title": "Biology · respiration, photosynthesis, plant transport",
+      "routes": [
+        "/biology/photosynthesis",
+        "/november/b-respiration",
+        "/november/b-respiration?part=b-respiration-core",
+        "/november/b-plants",
+        "/november/b-plants?part=b-plants-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "photosynthesis"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "b-respiration",
+            "b-plants"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-respiration",
+            "b-plants"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-respiration",
+            "b-plants"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/formulaTeaching.ts",
+          "export": "formulaTeaching",
+          "ids": [
+            "photosynthesis-equation"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/PhotosynthesisPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-b-earlier",
+      "lane": "B",
+      "due": "2026-11-04",
+      "title": "Biology · earlier topics (reproduction, skeleton) recap",
+      "routes": [
+        "/november/b-earlier",
+        "/november/b-earlier?part=b-earlier-core"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "b-earlier"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "b-earlier"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/biologyTeaching.ts",
+          "export": "biologyTeaching",
+          "keys": [
+            "b-earlier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G-g-previous-1",
+      "lane": "G",
+      "due": "2026-11-04",
+      "title": "Geography · rivers, atmospheric hazards",
+      "routes": [
+        "/geography/rivers",
+        "/geography/atmospheric-hazards",
+        "/november/g-previous",
+        "/november/g-previous?part=g-previous-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "rivers"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "atmosphericHazards"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "simulations"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "g-previous"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "g-previous"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "g-previous"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography/pages/RiversPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography/pages/AtmosphericHazardsPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/geography/BradshawModel.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/geography/RiverProcesses.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/geography/StormHydrograph.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/geography/AtmosphericCirculation.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/geography/EnsoToggle.tsx"
+        }
+      ]
+    },
+    {
+      "id": "G-g-previous-2",
+      "lane": "G",
+      "due": "2026-11-04",
+      "title": "Geography · tourism, resources, fieldwork, extras",
+      "routes": [
+        "/geography/tourism",
+        "/geography/resource-reliance",
+        "/geography/fieldwork",
+        "/geography/extras",
+        "/geography",
+        "/mocks/landscapes-fieldwork"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "tourism"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "resourceReliance"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "fieldwork"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "extrasContent"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "subjectName"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "home"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "nav"
+        },
+        {
+          "kind": "i18n",
+          "ns": "geography",
+          "key": "activeRecall"
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/geographyReviews.ts",
+          "export": "geographyReviews"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "landscapes-fieldwork"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography/pages/TourismPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography/pages/ResourceReliancePage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography/pages/FieldworkPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/geography/pages/GeographyHomePage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/geography/ButlerModel.tsx"
+        }
+      ]
+    },
+    {
+      "id": "B-paper-bio",
+      "lane": "B",
+      "due": "2026-11-05",
+      "title": "Biology rehearsal paper",
+      "routes": [
+        "/november/paper/biology"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/november/papers.ts",
+          "export": "papers",
+          "ids": [
+            "biology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B-biology-library",
+      "lane": "B",
+      "due": "2026-11-06",
+      "title": "Biology library: home, glossary, biology mock lessons",
+      "routes": [
+        "/biology",
+        "/mocks/food-enzymes",
+        "/mocks/osmosis-drugs"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "subjectName"
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "home"
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "nav"
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "glossary"
+        },
+        {
+          "kind": "i18n",
+          "ns": "biology",
+          "key": "simulations"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "food-enzymes",
+            "osmosis-drugs"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/biology/pages/BiologyHomePage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "M-m-core-1",
+      "lane": "M",
+      "due": "2026-10-14",
+      "title": "Maths · reading mathematics, proof, coordinate geometry, sets",
+      "routes": [
+        "/math-term-1-2026",
+        "/math-term-1-2026/mathematical-language",
+        "/math-term-1-2026/proof-and-generalisation",
+        "/math-term-1-2026/coordinate-geometry",
+        "/math-term-1-2026/sets-and-venn",
+        "/november/m-core",
+        "/november/m-core?part=math-mathematical-language"
+      ],
+      "units": [
+        {
+          "kind": "math",
+          "lessons": [
+            "mathematical-language",
+            "proof-and-generalisation",
+            "coordinate-geometry",
+            "sets-and-venn"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "m-core"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "m-core"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math-term-one/TermDefinition.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math-term-one/DefinitionDiagrams.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math-term-one/Visuals.tsx"
+        }
+      ],
+      "notes": [
+        "Команды заданий (commandTerms): EN — src/modules/math-term-one/content.ts, RU — localisation.ts (russianCommands). Правь вручную, держи пары синхронными."
+      ]
+    },
+    {
+      "id": "L-a-language",
+      "lane": "L",
+      "due": "2026-11-07",
+      "title": "Arabic · grammar (today’s optional block)",
+      "routes": [
+        "/arabic/grammar",
+        "/november/a-language",
+        "/november/a-language?part=a-language-core"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/definitions/arabic.ts",
+          "export": "ARABIC_REVIEWS"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/arabic/data/arabicData.ts",
+          "export": "GRAMMAR_RULES"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "a-language"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "a-language"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/GrammarPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "L-e-analysis",
+      "lane": "L",
+      "due": "2026-10-13",
+      "title": "English · reading and analysing texts, writer’s choices",
+      "routes": [
+        "/english/reading",
+        "/english/devices",
+        "/november/e-analysis",
+        "/november/e-analysis?part=e-analysis-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "reading"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "readingPage"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "devices"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "devicesPage"
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/english.ts",
+          "export": "ENGLISH_REVIEWS",
+          "keyPrefix": [
+            "devices.",
+            "reading."
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "e-analysis"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "englishStimulus"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "e-analysis"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/pages/ReadingPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/pages/DevicesPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "L-f-listen",
+      "lane": "L",
+      "due": "2026-10-13",
+      "title": "French · listening practice",
+      "routes": [
+        "/november/f-listen",
+        "/november/f-listen?part=f-listen-core"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/november/listening.ts",
+          "export": "listening"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "f-listen"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "f-listen"
+          ]
+        }
+      ],
+      "notes": [
+        "Тексты аудиозаписей (транскрипты) не менять: аудио уже записано (public/audio). Правь вопросы, ответы, пояснения и переводы."
+      ]
+    },
+    {
+      "id": "M-m-core-2",
+      "lane": "M",
+      "due": "2026-10-14",
+      "title": "Maths · linear equations, simultaneous equations, inequalities",
+      "routes": [
+        "/math-term-1-2026/linear-equations",
+        "/math-term-1-2026/simultaneous-equations",
+        "/math-term-1-2026/linear-inequalities"
+      ],
+      "units": [
+        {
+          "kind": "math",
+          "lessons": [
+            "linear-equations",
+            "simultaneous-equations",
+            "linear-inequalities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L-e-creative",
+      "lane": "L",
+      "due": "2026-10-14",
+      "title": "English · text types and creative writing",
+      "routes": [
+        "/english/text-types",
+        "/november/e-creative",
+        "/november/e-creative?part=e-creative-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "textTypes"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "textTypesPage"
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/english.ts",
+          "export": "ENGLISH_REVIEWS",
+          "keyPrefix": [
+            "textTypes."
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "e-creative"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "e-creative"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "e-creative"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "storyboard"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/pages/TextTypesPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "L-f-write",
+      "lane": "L",
+      "due": "2026-10-15",
+      "title": "French · writing: text types and vocabulary",
+      "routes": [
+        "/french/text-types",
+        "/french/vocab",
+        "/november/f-write",
+        "/november/f-write?part=f-write-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "french",
+          "key": "textTypesPage"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/french/data/frenchData.ts",
+          "export": "VOCAB_THEMES"
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/french.ts",
+          "export": "FRENCH_REVIEWS"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "f-write"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "f-write"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/french/pages/TextTypesPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/french/pages/VocabPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "M-m-geometry",
+      "lane": "M",
+      "due": "2026-10-16",
+      "title": "Maths · right triangles, trigonometry, circles",
+      "routes": [
+        "/math-term-1-2026/right-triangles",
+        "/math-term-1-2026/trigonometry",
+        "/math-term-1-2026/circles",
+        "/november/m-geometry",
+        "/math/geometry-trig"
+      ],
+      "units": [
+        {
+          "kind": "math",
+          "lessons": [
+            "right-triangles",
+            "trigonometry",
+            "circles"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "m-geometry"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "m-geometry"
+          ]
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "geometryTrig"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/pages/GeometryTrigPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/BearingsCompass.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/CircleTheorems.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/RightTriangleTrainer.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/SectorSegmentCalc.tsx"
+        }
+      ]
+    },
+    {
+      "id": "L-e-purpose",
+      "lane": "L",
+      "due": "2026-10-20",
+      "title": "English · purpose, audience, register",
+      "routes": [
+        "/november/e-purpose",
+        "/november/e-purpose?part=e-purpose-core"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "supplements",
+          "keys": [
+            "e-purpose"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "e-purpose"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "e-purpose"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M-m-algebra",
+      "lane": "M",
+      "due": "2026-10-21",
+      "title": "Maths · functions, quadratics, sequences, formulae, proportion",
+      "routes": [
+        "/math-term-1-2026/functions",
+        "/math-term-1-2026/quadratic-graphs",
+        "/math-term-1-2026/quadratic-equations",
+        "/math-term-1-2026/sequences",
+        "/math-term-1-2026/formulae-and-fractions",
+        "/math-term-1-2026/proportion-and-graphs",
+        "/november/m-algebra",
+        "/math/functions-algebra",
+        "/math/sequences"
+      ],
+      "units": [
+        {
+          "kind": "math",
+          "lessons": [
+            "functions",
+            "quadratic-graphs",
+            "quadratic-equations",
+            "sequences",
+            "formulae-and-fractions",
+            "proportion-and-graphs"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "m-algebra"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "m-algebra"
+          ]
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "functionsAlgebra"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "sequences"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/pages/FunctionsAlgebraPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/pages/SequencesPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/FunctionTransformations.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/QuadraticExplorer.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/QuadraticSolver.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/SequenceGenerator.tsx"
+        }
+      ]
+    },
+    {
+      "id": "L-f-language",
+      "lane": "L",
+      "due": "2026-10-22",
+      "title": "French · grammar and tenses",
+      "routes": [
+        "/french/grammar",
+        "/french/tenses",
+        "/november/f-language",
+        "/november/f-language?part=f-language-core"
+      ],
+      "units": [
+        {
+          "kind": "ts",
+          "file": "src/modules/french/data/frenchData.ts",
+          "export": "GRAMMAR_RULES"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/french/data/frenchData.ts",
+          "export": "PRESENT_TENSE"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/french/data/frenchData.ts",
+          "export": "PASSE_COMPOSE"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/french/data/frenchData.ts",
+          "export": "FUTURE_TENSE"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "f-language"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "f-language"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/french/pages/GrammarPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/french/pages/TensesPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "M-m-data",
+      "lane": "M",
+      "due": "2026-10-23",
+      "title": "Maths · statistics and probability",
+      "routes": [
+        "/math/stats-prob",
+        "/november/m-data",
+        "/november/m-data?part=m-data-core"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "statsProb"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/content.ts",
+          "export": "practice",
+          "keys": [
+            "m-data"
+          ]
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/otherTeaching.ts",
+          "export": "otherTeaching",
+          "keys": [
+            "m-data"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/pages/StatsProbPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/BoxPlotBuilder.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/CumulativeFrequency.tsx"
+        }
+      ]
+    },
+    {
+      "id": "M-math-library",
+      "lane": "M",
+      "due": "2026-11-06",
+      "title": "Maths library: extended lessons, number systems, practice bank, maths cards, maths mock lessons",
+      "routes": [
+        "/math",
+        "/math/number-systems",
+        "/math/eoy-practice",
+        "/math/criteria-trainer",
+        "/math/extras",
+        "/math-term-1-2026/reference",
+        "/math-term-1-2026/practice",
+        "/math-term-1-2026/checklist",
+        "/math-term-1-2026/perpendicular-lines",
+        "/math-term-1-2026/linear-programming",
+        "/math-term-1-2026/nonlinear-inequalities",
+        "/mocks/coordinate-geometry",
+        "/mocks/linear-equations",
+        "/mocks/probability",
+        "/mocks/solids",
+        "/mocks/transformations",
+        "/mocks/sampling-correlation",
+        "/mocks/quadratic-patterns",
+        "/mocks/trig-graphs"
+      ],
+      "units": [
+        {
+          "kind": "math",
+          "lessons": [
+            "perpendicular-lines",
+            "linear-programming",
+            "nonlinear-inequalities"
+          ]
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "subjectName"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "home"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "nav"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "extras"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "numberSystems"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "eoyPractice"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "criteriaTrainer"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "sources"
+        },
+        {
+          "kind": "i18n",
+          "ns": "math",
+          "key": "simulations"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/math/data/practiceProblems.ts",
+          "export": "ALL_MATH_PROBLEMS"
+        },
+        {
+          "kind": "ts",
+          "file": "src/content/mathFormulaTeaching.ts",
+          "export": "mathFormulaTeaching"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "coordinate-geometry",
+            "linear-equations",
+            "probability",
+            "solids",
+            "transformations",
+            "sampling-correlation",
+            "quadratic-patterns",
+            "trig-graphs"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math-term-one/MathTermOneModule.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math-term-one/localisation.ts"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/components/MathTopicLayout.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/pages/CriteriaTrainerPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/pages/MathHomePage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/pages/NumberSystemsPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/NumberSetsVenn.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/StandardFormConverter.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/components/simulations/math/SurdSimplifier.tsx"
+        }
+      ]
+    },
+    {
+      "id": "L-english-library",
+      "lane": "L",
+      "due": "2026-11-06",
+      "title": "English library: grammar, essays, Macbeth, exam format, progress test",
+      "routes": [
+        "/english",
+        "/english/grammar",
+        "/english/essays",
+        "/english/macbeth",
+        "/english/exam-format",
+        "/english/progress-test",
+        "/english/extras",
+        "/mocks/english-unseen"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "subjectName"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "home"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "nav"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "grammar"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "grammarPage"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "essaysPage"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "essayPromptsLabel"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "essayPrompts"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "macbethPage"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "examFormatPage"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "progressTestPage"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "extras"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "checklistHeading"
+        },
+        {
+          "kind": "i18n",
+          "ns": "english",
+          "key": "checklist"
+        },
+        {
+          "kind": "ts",
+          "file": "src/definitions/english.ts",
+          "export": "ENGLISH_REVIEWS",
+          "keyPrefix": [
+            "grammar.",
+            "essays.",
+            "macbeth.",
+            "exam.",
+            "progress.",
+            "extras.",
+            "examFormat.",
+            "progressTest."
+          ]
+        },
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "english-unseen"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/pages/GrammarPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/pages/ExamFormatPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "L-french-library",
+      "lane": "L",
+      "due": "2026-11-06",
+      "title": "French library: phrases, units, extras",
+      "routes": [
+        "/french",
+        "/french/phrases",
+        "/french/units",
+        "/french/extras",
+        "/mocks/french-skills"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "french",
+          "key": "subjectName"
+        },
+        {
+          "kind": "i18n",
+          "ns": "french",
+          "key": "home"
+        },
+        {
+          "kind": "i18n",
+          "ns": "french",
+          "key": "nav"
+        },
+        {
+          "kind": "i18n",
+          "ns": "french",
+          "key": "unitsPage"
+        },
+        {
+          "kind": "i18n",
+          "ns": "french",
+          "key": "unitsContent"
+        },
+        {
+          "kind": "i18n",
+          "ns": "french",
+          "key": "extras"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/french/data/frenchData.ts",
+          "export": "USEFUL_PHRASES"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/mocks.json",
+          "path": "lessons",
+          "ids": [
+            "french-skills"
+          ]
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/french/pages/FrenchHomePage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/french/pages/PhrasesPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "L-arabic-library",
+      "lane": "L",
+      "due": "2026-11-06",
+      "title": "Arabic library: learn, vocabulary, exercises, quiz, alphabet, phrases",
+      "routes": [
+        "/arabic",
+        "/arabic/learn",
+        "/arabic/flashcards",
+        "/arabic/exercises",
+        "/arabic/quiz",
+        "/arabic/alphabet",
+        "/arabic/vocab",
+        "/arabic/phrases",
+        "/arabic/mrs-hala",
+        "/arabic/extras"
+      ],
+      "units": [
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "subjectName"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "home"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "nav"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "common"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "learn"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "flashcards"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "exercises"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "quiz"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "mrsHalaPage"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "topicsContent"
+        },
+        {
+          "kind": "i18n",
+          "ns": "arabic",
+          "key": "extras"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/arabic/data/arabicData.ts",
+          "export": "ARABIC_LETTERS"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/arabic/data/arabicData.ts",
+          "export": "VOCAB_THEMES"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/arabic/data/arabicData.ts",
+          "export": "USEFUL_PHRASES"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/arabic/data/content.ts",
+          "export": "VOCAB_BLOCKS"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/arabic/data/content.ts",
+          "export": "LEARN_BLOCKS"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/arabic/data/content.ts",
+          "export": "EXTRAS_BLOCK"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/AlphabetPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/ArabicHomePage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/ExercisesPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/FlashcardsPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/MrsHalaPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/PhrasesPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/QuizPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/pages/VocabPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/arabic/components/WordCard.tsx"
+        }
+      ],
+      "notes": [
+        "Арабский текст (Modern Standard Arabic) не трогать без проверки по словарю; правь английские и русские пояснения, транслитерацию сверяй с одной системой."
+      ]
+    }
+  ]
+}

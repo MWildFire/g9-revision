@@ -17,7 +17,7 @@ test('all 97 legacy cards retain bilingual terms, a comparison and specific sour
   assert.equal(en.length,97);assert.deepEqual(en.map(x=>x.path),ru.map(x=>x.path));
   for(const card of [...en,...ru]){
     assert.ok(card.rule.length>35,card.path);assert.ok(card.review.englishTerm);assert.ok(card.review.russianTerm);
-    for(const l of ['en','ru'])assert.ok(card.review.contrast[l].length>15,card.path);
+    if(card.review.contrast)for(const l of ['en','ru'])assert.ok(card.review.contrast[l].length>15,card.path);
     assert.ok(card.review.sources.length);
     for(const s of card.review.sources){assert.ok(new URL(s.url).protocol==='https:');assert.ok(s.section);assert.ok(['en','ru'].includes(s.language));}
   }
@@ -59,7 +59,7 @@ test('all 40 tectonic glossary reviews use accessed detailed pages and separate 
  const source=read('src/modules/geography-tectonics/definition-reviews.ts');
  const reviews=JSON.parse(source.split(' = ')[1].trim().replace(/;$/,''));
  assert.equal(Object.keys(reviews).length,40);
- for(const v of Object.values(reviews)){assert.ok(v.contrast.en);assert.ok(v.contrast.ru);assert.ok(v.sources.length);}
+ for(const v of Object.values(reviews)){if(v.contrast){assert.ok(v.contrast.en);assert.ok(v.contrast.ru);}assert.ok(v.sources.length);}
  assert.doesNotMatch(source,/fema_p749|volcano-hazards-program-glossary|zemletryaseniya/);
  assert.match(reviews.Ductility.contrast.en,/permanently deformed/);
 });

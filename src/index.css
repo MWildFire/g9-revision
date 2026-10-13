@@ -200,3 +200,8 @@ input[type='range']::-moz-range-thumb {
   line-height: 1.9;
   font-feature-settings: 'liga' 1, 'calt' 1;
 }
+
+/* RichText: paragraphs and lists inside teaching text */
+.rich-text > * + * { margin-top: 0.6em; }
+.rich-text ul { list-style: disc; padding-left: 1.25rem; }
+.rich-text li + li { margin-top: 0.25em; }

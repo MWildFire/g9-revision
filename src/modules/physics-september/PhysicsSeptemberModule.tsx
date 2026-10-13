@@ -1,4 +1,6 @@
 import {FormulaTeaching} from '../../components/content/FormulaTeaching';
+import { RichText } from '../../components/content/RichText';
+import { OnceNote } from '../../components/content/OnceScope';
 import {atomicFormulaIds} from './formulaPlacement';
 import { DefinitionSupport } from "../../components/content/DefinitionSupport";
 import { physicsNuclearReviews, nuclearLessonReviews } from "../../definitions/physicsNuclear";
@@ -41,7 +43,7 @@ const useText = () => {
 };
 const Text = ({ value }: { value: Bilingual }) => {
   const { txt } = useText();
-  return <p className="nuclear-prose">{txt(value)}</p>;
+  return <RichText text={txt(value)} paragraphClassName="nuclear-prose" />;
 };
 type Store = {
   state: StudyState;
@@ -127,12 +129,10 @@ function QuestionCard({
           </li>
         ))}
       </ol>
-      <p className="nuclear-caption">
-        {t(
+      <OnceNote className="nuclear-caption" text={t(
           "Equivalent correct reasoning is accepted. Do not count the same idea twice. These are practice marks, not an IB level.",
           "Равнозначное верное объяснение принимается. Не считай одну мысль дважды. Это тренировочные баллы, не уровень IB.",
-        )}
-      </p>
+        )} />
     </div>
   );
   return (

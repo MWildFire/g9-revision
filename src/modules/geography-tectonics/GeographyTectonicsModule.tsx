@@ -1,4 +1,6 @@
 import { DefinitionSupport } from '../../components/content/DefinitionSupport';
+import { RichText } from '../../components/content/RichText';
+import { OnceNote } from '../../components/content/OnceScope';
 import { useEffect, useState } from 'react';
 import { Link, NavLink, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -67,7 +69,7 @@ function QuestionCard({ question, number, store }: { question: Question; number:
     <textarea id={inputId} value={store.state.answers[question.id] ?? ''} onChange={event => store.answer(question.id, event.target.value)} rows={4} placeholder={t('Explain the process, add evidence, then link back to the question…', 'Объясни процесс, приведи доказательство и свяжи вывод с вопросом…')} />
     <div className="tectonic-question-tools">
       <details><summary>{t('Need a hint?', 'Нужна подсказка?')}</summary><p>{txt(question.hint)}</p></details>
-      <details className="tectonic-solution"><summary>{t('Check the key points', 'Проверить ключевые пункты')}</summary><p className="tectonic-small">{t('Compare your reasoning with these points. Equivalent accurate explanations are also valid.', 'Сравни свои рассуждения с этими пунктами. Другие точные объяснения также допустимы.')}</p><ol>{question.marking.map((point, index) => <li key={index}>{txt(point)}</li>)}</ol></details>
+      <details className="tectonic-solution"><summary>{t('Check the key points', 'Проверить ключевые пункты')}</summary><OnceNote className="tectonic-small" text={t('Compare your reasoning with these points. Equivalent accurate explanations are also valid.', 'Сравни свои рассуждения с этими пунктами. Другие точные объяснения также допустимы.')}/><ol>{question.marking.map((point, index) => <li key={index}>{txt(point)}</li>)}</ol></details>
     </div>
   </article>;
 }
@@ -103,7 +105,7 @@ export function LessonBody({ lesson, print = false }: { lesson: Lesson; print?: 
   const { t, txt } = useText();
   return <>
     {lesson.visual && <TectonicVisual key={`${lesson.id}-${print}`} kind={lesson.visual} fixed={print} />}
-    <div className="tectonic-prose-sections">{lesson.sections.map((section, index) => <section className="tectonic-prose-section" key={index}><h2>{txt(section.title)}</h2><p>{txt(section.text)}</p></section>)}</div>
+    <div className="tectonic-prose-sections">{lesson.sections.map((section, index) => <section className="tectonic-prose-section" key={index}><h2>{txt(section.title)}</h2><RichText text={txt(section.text)}/></section>)}</div>
     <section className="tectonic-facts"><h2>{t('The essentials to remember', 'Главное для запоминания')}</h2><ul>{lesson.keyFacts.map((fact, index) => <li key={index}>{txt(fact)}</li>)}</ul></section>
     <section className="tectonic-worked"><span className="tectonic-eyebrow">{t('WORKED EXAMPLE', 'РАЗОБРАННЫЙ ПРИМЕР')}</span><h2>{txt(lesson.example.question)}</h2><ol>{lesson.example.steps.map((step, index) => <li key={index}><span>{index + 1}</span><p>{txt(step)}</p></li>)}</ol></section>
     <section className="tectonic-pitfalls"><h2>{t('Avoid these mistakes', 'Избегай этих ошибок')}</h2><ul>{lesson.pitfalls.map((pitfall, index) => <li key={index}>{txt(pitfall)}</li>)}</ul></section>

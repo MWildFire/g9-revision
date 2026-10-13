@@ -77,7 +77,7 @@ test('Bilingual review maps carry exact source paths and purposeful labelled dia
     const data = moduleData(`src/definitions/${subject}.ts`)[subject.toUpperCase() + '_REVIEWS'];
     assert.ok(Object.keys(data).length >= 18);
     for (const [key, r] of Object.entries(data)) {
-      assert.ok(r.englishTerm && r.russianTerm && r.contrast.en && r.contrast.ru, key);
+      assert.ok(r.englishTerm && r.russianTerm && (!r.contrast || (r.contrast.en && r.contrast.ru)), key);
       assert.ok(r.sources.length, key);
       for (const s of r.sources) {
         assert.ok(s.section && ['en', 'ru', 'fr', 'ar'].includes(s.language));

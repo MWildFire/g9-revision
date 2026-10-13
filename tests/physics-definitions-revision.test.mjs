@@ -9,8 +9,8 @@ const ru = JSON.parse(read('src/i18n/ru/physics.json'));
 const topics = ['forceMotion', 'forcesEnergy', 'electricity', 'wavesOptics'];
 const review = r => {
   assert.ok(r.englishTerm && r.russianTerm);
-  assert.ok(r.contrast.en && /[А-Яа-яЁё]/.test(r.contrast.ru));
-  assert.ok(r.model.en && /[А-Яа-яЁё]/.test(r.model.ru));
+  if (r.contrast) assert.ok(r.contrast.en && /[А-Яа-яЁё]/.test(r.contrast.ru));
+  if (r.model) assert.ok(r.model.en && /[А-Яа-яЁё]/.test(r.model.ru));
   assert.ok(r.sources.length > 0);
   for (const s of r.sources) {
     assert.ok(s.section && s.title);

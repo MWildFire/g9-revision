@@ -4,9 +4,9 @@ export type DefinitionReview = {
   englishTerm: string;
   russianTerm: string;
   explanation?: DefinitionText;
-  contrast: DefinitionText;
+  contrast?: DefinitionText;
   model?: DefinitionText;
-  sources: DefinitionSource[];
+  sources?: DefinitionSource[];
   visual?: {
     kind: 'flow' | 'comparison' | 'parts';
     title: DefinitionText;

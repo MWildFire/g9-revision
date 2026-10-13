@@ -1,5 +1,6 @@
 import {FormulaTeaching} from '../../../components/content/FormulaTeaching';
 import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
+import { RichText } from '../../../components/content/RichText';
 import type { DefinitionReview } from '../../../components/content/definitionReview';
 import { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -42,12 +43,11 @@ export function InfoSection({ title, body, review, items, detailedItems, borderC
     <>
       <SectionHeading>{title}</SectionHeading>
       {body ? (
-        <p
+        <RichText
+          text={body}
           className="bg-bg-secondary border border-border rounded-md p-4 text-sm"
           style={borderColor ? { borderLeftColor: borderColor, borderLeftWidth: '3px' } : undefined}
-        >
-          {body}
-        </p>
+        />
       ) : null}
       <FormulaTeaching text={(body??'')}/>
       <DefinitionSupport review={review} />

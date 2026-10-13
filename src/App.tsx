@@ -6,8 +6,11 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { HubPage } from './pages/HubPage';
+import { OnceScope } from './components/content/OnceScope';
 const TimetablePage = lazy(async () => { const [, m] = await Promise.all([Promise.all(['math','physics','chemistry','biology','geography','english','french','arabic'].map(loadSubjectTranslations)), import('./pages/TimetablePage')]); return { default: m.TimetablePage }; });
 import { AboutPage } from './pages/AboutPage';
+import { TransferPage } from './pages/TransferPage';
+import { MovedBanner } from './components/layout/MovedBanner';
 const PhysicsSeptemberModule = lazy(() => import('./modules/physics-september/PhysicsSeptemberModule').then(m => ({ default: m.PhysicsSeptemberModule })));
 const GeographyTectonicsModule = lazy(() => import('./modules/geography-tectonics/GeographyTectonicsModule').then(m => ({ default: m.GeographyTectonicsModule })));
 const MathTermOneModule = lazy(() => import('./modules/math-term-one/MathTermOneModule').then(m => ({ default: m.MathTermOneModule })));
@@ -33,6 +36,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
+      <MovedBanner />
       <AnimatePresence mode="wait">
         <motion.div
           key={location.pathname.split('/')[1] || '_'}
@@ -47,6 +51,7 @@ export default function App() {
             <Link to="/revision-plan" className="underline">{i18n.language.startsWith('ru') ? 'Подготовка по дням' : 'Daily preparation'} →</Link>
           </div>}
           <Suspense fallback={<p className="p-8" role="status">{t('loading')}</p>}>
+          <OnceScope key={location.pathname}>
           <Routes location={location}>
             <Route path="/" element={<HubPage />} />
             <Route path="/timetable" element={<TimetablePage />} />
@@ -55,6 +60,7 @@ export default function App() {
             <Route path="/mocks" element={<MocksPage />} />
             <Route path="/mocks/:lessonId" element={<MockLessonPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/transfer" element={<TransferPage />} />
             <Route path="/physics-september-2026/*" element={<PhysicsSeptemberModule />} />
             <Route path="/geography-tectonic-hazards/*" element={<GeographyTectonicsModule />} />
             <Route path="/math-term-1-2026/*" element={<MathTermOneModule />} />
@@ -67,6 +73,7 @@ export default function App() {
             <Route path="/french/*" element={<FrenchModule />} />
             <Route path="/arabic/*" element={<ArabicModule />} />
           </Routes>
+          </OnceScope>
           </Suspense>
         </motion.div>
       </AnimatePresence>

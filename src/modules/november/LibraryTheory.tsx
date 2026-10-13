@@ -61,7 +61,7 @@ const reading: Record<string, (keyof typeof pages)[]> = {
   'b-earlier':['body','evolution'], 'b-nervous':['body'], 'b-hormones':['body','biotech'], 'b-biotech':['biotech'],
   'g-previous':['rivers','tourism','resources','atmosphere','fieldwork'], 'm-data':['statistics'],
   'e-analysis':['reading','devices'], 'e-creative':['textTypes'], 'e-purpose':['textTypes'],
-  'f-language':['frGrammar','frTenses'], 'f-write':['frText','frVocab'], 'a-language':['arabic'],
+  'f-listen':['frGrammar','frTenses'], 'f-language':['frGrammar','frTenses'], 'f-write':['frText','frVocab'], 'a-language':['arabic'],
 };
 const names: Record<string,[string,string]> = {
   energy:['Energy, work and forces','Энергия, работа и силы'], forces:['Motion and Newton’s laws','Движение и законы Ньютона'], electric:['Electric circuits','Электрические цепи'], waves:['Waves and optics','Волны и оптика'],

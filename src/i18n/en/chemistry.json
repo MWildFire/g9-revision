@@ -622,17 +622,17 @@
   },
   "rates": {
     "title": "Rates of Reaction",
-    "intro": "How fast a reaction goes — and the four factors that control it. Topic 6 in the teacher's revision booklet.",
+    "intro": "How fast a reaction goes, and the four factors that change its rate: temperature, concentration, surface area and catalyst.",
     "sections": {
       "definition": {
-        "title": "What is rate?",
-        "body": "A reaction rate describes how quickly a measured amount of reactant decreases or product increases. Average rate = change in amount ÷ elapsed time; state the measured quantity and units. Concentration-based rates for different species are related by the equation's stoichiometric coefficients.",
+        "title": "What is the rate of reaction?",
+        "body": "**Rate of reaction** is the change in the amount (or concentration) of a reactant or product per unit time. Average rate = change in amount ÷ time taken. Always give the units, for example mol/(dm³·s) for concentration or cm³/s for gas volume.",
         "review": {
-          "englishTerm": "What is rate?",
-          "russianTerm": "Что такое скорость?",
+          "englishTerm": "What is the rate of reaction?",
+          "russianTerm": "Что такое скорость химической реакции?",
           "contrast": {
-            "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-            "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+            "en": "Rate and the amount of product are different things. A reaction can make a lot of product slowly, or a little product quickly.",
+            "ru": "Скорость и количество продукта — разные величины. Реакция может медленно дать много продукта или быстро дать мало."
           },
           "sources": [
             {
@@ -652,13 +652,13 @@
       },
       "collision": {
         "title": "Collision theory",
-        "body": "Collision theory models reactions as effective encounters between reacting particles. A productive collision requires sufficient energy to overcome an activation barrier and a suitable orientation. More collisions do not guarantee a faster reaction unless the frequency of successful encounters increases.",
+        "body": "Collision theory explains reaction rate through particle collisions. An **effective collision** needs energy at least equal to the activation energy, and the particles must be correctly oriented. A faster reaction needs more effective collisions per second, not just more collisions.",
         "review": {
           "englishTerm": "Collision theory",
           "russianTerm": "Теория столкновений",
           "contrast": {
-            "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-            "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+            "en": "Activation energy is not the energy released by a reaction. It is the barrier particles must overcome. The enthalpy change, ΔH, is the energy released or absorbed overall.",
+            "ru": "Энергия активации — это не энергия, которая выделяется в реакции. Это барьер, который должны преодолеть частицы. Изменение энтальпии (enthalpy change) ΔH показывает, сколько энергии выделяется или поглощается в целом."
           },
           "sources": [
             {
@@ -681,18 +681,18 @@
         "detailed": {
           "temperature": {
             "name": "Temperature",
-            "rule": "Raising temperature usually increases reaction rate because a larger fraction of particles can overcome the activation barrier. Collision frequency also changes. The size of the increase depends on the reaction and temperature range; a 10 °C rise does not universally double rate.",
+            "rule": "Raising the temperature usually speeds up a reaction. Particles move faster, so they collide more often, and a larger fraction of them have energy at least equal to the activation energy. A rise of 10 °C does not always double the rate.",
             "examples": [
-              "Food in the fridge lasts longer (low T slows bacterial growth).",
-              "Cooking pasta in boiling water (100 °C) is faster than in warm water (50 °C)."
+              "Food lasts longer in a fridge, because low temperature slows the growth of bacteria.",
+              "A glow stick is brighter in warm water than in ice-cold water, because the reaction runs faster when it is warm."
             ],
-            "tip": "Activation-energy effect dominates over speed effect. Drawing a Maxwell–Boltzmann curve: more particles cross E_a at higher T.",
+            "tip": "In a rate experiment, measure the temperature of the reacting mixture itself, not the room, and keep it constant (a water bath helps).",
             "review": {
               "englishTerm": "Temperature",
               "russianTerm": "Температура",
               "contrast": {
-                "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-                "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+                "en": "Heating does not lower the activation energy: for a given reaction, it stays the same.",
+                "ru": "Нагревание не снижает энергию активации: для этой реакции она остаётся прежней."
               },
               "sources": [
                 {
@@ -712,18 +712,18 @@
           },
           "concentration": {
             "name": "Concentration (and pressure for gases)",
-            "rule": "Increasing a reactant concentration often increases the frequency of encounters and hence reaction rate. For gases, increasing partial pressure at fixed temperature increases concentration. The quantitative dependence is determined experimentally; doubling concentration need not double rate.",
+            "rule": "A higher reactant concentration means more particles in the same volume, so collisions happen more often and the rate increases. For gases, raising the pressure at a fixed temperature has the same effect, because it squeezes the particles closer together. The quantitative relationship is found by experiment: doubling a concentration does not always double the rate.",
             "examples": [
-              "Dilute HCl reacts slowly with Mg; concentrated HCl reacts quickly.",
-              "Increasing pressure on gases (e.g., Haber process) acts like concentration."
+              "The same mass of magnesium reacts much faster with concentrated hydrochloric acid than with dilute acid.",
+              "A glowing splint bursts into flame in pure oxygen but only stays glowing in air, where oxygen is less concentrated."
             ],
-            "watchOut": "A rate curve can flatten as reactants are consumed, but a plateau can also reflect equilibrium or a measurement limit.",
+            "watchOut": "Usually the rate is highest at the start, when reactant concentration is greatest. It slows as the reactant is used up, so do not assume one rate for the whole reaction.",
             "review": {
               "englishTerm": "Concentration (and pressure for gases)",
               "russianTerm": "Концентрация (и давление для газов)",
               "contrast": {
-                "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-                "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+                "en": "Concentration is not the same as the amount of substance. Twice the volume of the same solution holds twice the substance, yet its concentration is the same, so the rate in mol/(dm³·s) does not change.",
+                "ru": "Концентрация — это не количество вещества (amount of substance). Вдвое больший объём того же раствора содержит вдвое больше вещества, но концентрация та же, поэтому скорость в моль/(дм³·с) не меняется."
               },
               "sources": [
                 {
@@ -743,18 +743,18 @@
           },
           "surfaceArea": {
             "name": "Surface area (of solids)",
-            "rule": "When a solid reacts at its surface, increasing its exposed area generally increases the total reaction rate. Dividing a fixed mass into smaller pieces exposes more contact area. This changes rate, not the amount of product possible from that mass alone.",
+            "rule": "A solid reacts at its surface. The larger the surface area, the more of its particles contact the other reactant at the same time. Grinding the same mass into powder exposes more surface, so the reaction speeds up.",
             "examples": [
-              "Powdered marble + HCl fizzes vigorously; a marble lump reacts slowly.",
-              "Flour explosions in mills — fine powder gives huge surface area and combusts rapidly."
+              "The same mass of marble reacts much faster with acid as powder than as lumps: the powder fizzes vigorously.",
+              "Flour dust in mills can explode, because very fine particles have a huge total surface area and burn almost at once."
             ],
-            "tip": "Total mass is the same, but surface area can be 100×+ greater for fine powder.",
+            "tip": "Cutting a 1 cm cube into 1 mm cubes gives 1000 small cubes. The total surface area rises from 6 cm² to 60 cm², but the mass stays the same.",
             "review": {
               "englishTerm": "Surface area (of solids)",
               "russianTerm": "Площадь поверхности (твёрдых веществ)",
               "contrast": {
-                "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-                "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+                "en": "Powder does not raise the concentration of the acid. Concentration describes the solution, while surface area describes the solid.",
+                "ru": "Порошок не повышает концентрацию кислоты. Концентрация относится к раствору, а площадь поверхности — к твёрдому веществу."
               },
               "sources": [
                 {
@@ -774,19 +774,19 @@
           },
           "catalyst": {
             "name": "Catalyst",
-            "rule": "A catalyst increases reaction rate through an alternative mechanism with a lower effective activation barrier and is regenerated overall. It can take part in intermediate steps. It changes neither the reaction's enthalpy change nor the equilibrium composition at a fixed temperature.",
+            "rule": "A catalyst speeds up a reaction by providing another pathway with a lower activation energy. It takes part in intermediate steps but returns to its original form at the end, so it is not used up.",
             "examples": [
-              "MnO₂ catalyses 2H₂O₂ → 2H₂O + O₂ (rapid bubbling).",
-              "Iron in the Haber process (N₂ + 3H₂ → 2NH₃).",
+              "MnO₂ catalyses the breakdown of hydrogen peroxide (H₂O₂) into water (H₂O) and oxygen (O₂). The reaction gives off oxygen bubbles rapidly.",
+              "Iron catalyses the Haber process: N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
               "Enzymes in your body — biological catalysts (amylase, pepsin)."
             ],
-            "tip": "A catalyst may change a mechanism or product selectivity; for the same net reaction it does not change ΔH or equilibrium.",
+            "tip": "On an energy profile diagram, the catalysed route has a lower peak, but the start and end levels are the same, so ΔH does not change.",
             "review": {
               "englishTerm": "Catalyst",
               "russianTerm": "Катализатор",
               "contrast": {
-                "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-                "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+                "en": "A catalyst is not a reactant or a product, so in an equation it goes above the arrow.",
+                "ru": "Катализатор — не реагент и не продукт, поэтому в уравнении его пишут над стрелкой."
               },
               "sources": [
                 {
@@ -820,13 +820,13 @@
       },
       "graphs": {
         "title": "Drawing rate graphs",
-        "body": "On an amount-versus-time graph, the secant gradient gives average change per time interval and a tangent gradient gives instantaneous change. Product curves usually rise; reactant curves fall. A plateau indicates no further net measured change, which may mean completion or equilibrium depending on the system.",
+        "body": "On a graph of amount against time, product curves rise and reactant curves fall. To find the rate at one moment, draw a tangent to the curve and measure its slope. For a reactant, the rate is the negative of the slope. A flat part means no further measured change: the reaction has finished or reached equilibrium.",
         "review": {
           "englishTerm": "Drawing rate graphs",
           "russianTerm": "Графики скорости",
           "contrast": {
-            "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-            "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+            "en": "Do not confuse the initial rate (the tangent at t = 0) with the average rate over the whole reaction.",
+            "ru": "Не путай начальную скорость (касательная при t = 0) со средней скоростью за весь опыт."
           },
           "sources": [
             {
@@ -846,13 +846,13 @@
       },
       "experiments": {
         "title": "Carrying out a rate experiment",
-        "body": "A rate experiment follows a measurable change over time while controlling relevant conditions. For calcium carbonate with acid, collect CO₂ volume or measure mass loss as CO₂ escapes. Change one chosen factor, keep other relevant quantities fixed, and compare rates with repeat measurements and uncertainties.",
+        "body": "In a rate experiment, measure a quantity that changes over time. For calcium carbonate and acid, this is the volume of CO₂ collected or the mass lost as the gas escapes. Change one factor only, keep the other conditions the same, and repeat each measurement to check your results.",
         "review": {
           "englishTerm": "Carrying out a rate experiment",
           "russianTerm": "Эксперимент по скорости",
           "contrast": {
-            "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-            "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+            "en": "When you time a fixed volume of gas, a shorter time means a faster rate. The rate is proportional to 1/time, not to the time itself.",
+            "ru": "Если измеряешь время, за которое собирается фиксированный объём газа, то меньшее время означает большую скорость. Скорость пропорциональна 1/t, а не самому времени."
           },
           "sources": [
             {
@@ -873,17 +873,17 @@
     }
   },
   "extras": {
-    "title": "Chemistry — Extras",
-    "intro": "Topics that extend beyond the G9 syllabus — useful preview for IGCSE Extended and IB DP.",
+    "title": "Chemistry — extension",
+    "intro": "Extension: topics beyond the G9 list, and a more detailed look at its topics. Read these after the main topics, not instead of them.",
     "organic": {
       "title": "Organic chemistry — intro",
-      "body": "Organic chemistry studies carbon compounds, especially their structures and reactions. Hydrocarbons contain only C and H. Acyclic alkanes have formula CₙH₂ₙ₊₂; acyclic monoalkenes have CₙH₂ₙ. Alcohol and carboxylic-acid functional groups are –OH and –COOH; a formula alone may not identify a unique structure.",
+      "body": "Organic chemistry studies carbon compounds, their structures and their reactions. Hydrocarbons contain only carbon and hydrogen. Alkanes without a ring have the formula CₙH₂ₙ₊₂; alkenes with one C=C double bond have CₙH₂ₙ. A functional group is a group of atoms that determines a compound's characteristic reactions: –OH in alcohols and –COOH in carboxylic acids.",
       "review": {
         "englishTerm": "Organic chemistry — intro",
         "russianTerm": "Введение в органическую химию",
         "contrast": {
-          "en": "A classification is defined by structure or a specified process; similar-looking formulas need not have the same behaviour.",
-          "ru": "Классификация опирается на строение или определённый процесс; сходные формулы не гарантируют одинакового поведения."
+          "en": "Not every carbon compound is organic. Carbon monoxide, carbon dioxide and carbonates are classed as inorganic.",
+          "ru": "Не каждое соединение углерода — органическое. Оксиды углерода (CO, CO₂) и карбонаты (carbonates) относят к неорганическим (inorganic)."
         },
         "sources": [
           {
@@ -906,20 +906,20 @@
           }
         ],
         "model": {
-          "en": "CₙH₂ₙ₊₂ describes acyclic saturated hydrocarbons; CₙH₂ₙ describes acyclic monoalkenes but also some other structures, so a formula alone does not establish an alkene.",
-          "ru": "CₙH₂ₙ₊₂ описывает ациклические насыщенные углеводороды; CₙH₂ₙ — ациклические моноалкены, но также другие структуры, поэтому одной формулы недостаточно."
+          "en": "C₃H₆ can be propene, an alkene with a C=C double bond, or cyclopropane, a ring of three carbon atoms with no double bond. Both fit the general formula CₙH₂ₙ, so the formula alone does not prove that a compound is an alkene.",
+          "ru": "Формуле C₃H₆ отвечают пропен (алкен с двойной связью C=C) и циклопропан (кольцо из трёх атомов углерода без двойной связи). Оба вещества подходят под общую формулу CₙH₂ₙ, поэтому сама формула не доказывает, что перед нами алкен."
         }
       }
     },
     "redox": {
       "title": "Redox reactions",
-      "body": "Oxidation is electron loss and reduction is electron gain; they occur together in a redox reaction. More generally, oxidation raises oxidation state and reduction lowers it. A reducing agent is itself oxidised; an oxidising agent is reduced. Oxidation state is a bookkeeping quantity, not always an atom's actual charge.",
+      "body": "Oxidation is the loss of electrons; reduction is the gain of electrons. The two always happen together, so the electrons lost by one substance are gained by another. A reducing agent is oxidised as it reduces another substance, and an oxidising agent is reduced. Oxidation state is a formal charge found by a set of rules. It is not always the real charge on the atom.",
       "review": {
         "englishTerm": "Redox reactions",
         "russianTerm": "Окислительно-восстановительные реакции",
         "contrast": {
-          "en": "Oxidation loses electrons or increases oxidation number; reduction gains electrons or decreases oxidation number. Oxygen is not required for every redox reaction.",
-          "ru": "Окисление отдаёт электроны или повышает степень окисления; восстановление принимает электроны или понижает её. Не всякая ОВР требует кислорода."
+          "en": "Oxygen is not always involved: in Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g), zinc is oxidised and hydrogen ions are reduced.",
+          "ru": "Кислород участвует не всегда: в реакции Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g) цинк окисляется, а ионы водорода восстанавливаются."
         },
         "sources": [
           {
@@ -933,13 +933,13 @@
     },
     "electrochem": {
       "title": "Electrochemistry",
-      "body": "Electrolysis uses electrical energy to drive a non-spontaneous redox reaction. Reduction occurs at the cathode and oxidation at the anode. In an electrolytic cell these are negative and positive respectively; signs reverse in a galvanic cell. Products depend on the electrolyte, electrodes and conditions.",
+      "body": "An electrolytic cell uses electrical energy to drive a non-spontaneous redox reaction. Reduction happens at the cathode and oxidation at the anode, whatever the cell type. A galvanic cell uses a spontaneous redox reaction to produce electrical energy. The products formed in an electrolytic cell depend on the electrolyte, the electrodes and the conditions.",
       "review": {
         "englishTerm": "Electrochemistry",
         "russianTerm": "Электрохимия",
         "contrast": {
-          "en": "Oxidation is always at the anode; reduction at the cathode. Their signs depend on whether the cell is galvanic or electrolytic.",
-          "ru": "На аноде всегда идёт окисление, на катоде — восстановление. Знаки электродов зависят от того, гальванический элемент это или электролизёр."
+          "en": "Do not mix up the signs. In an electrolytic cell the cathode is negative and the anode positive; in a galvanic cell the signs are reversed.",
+          "ru": "Не путай знаки электродов. В электролитической ячейке катод отрицателен, а анод положителен; в гальваническом элементе знаки меняются на противоположные."
         },
         "sources": [
           {
@@ -954,18 +954,18 @@
     "rates": {
       "title": "Rates of reaction",
       "items": [
-        "Concentration: changing reactant concentration can change rate; the relationship depends on the reaction mechanism.",
-        "Temperature: changes the energy distribution and the fraction of collisions able to react.",
-        "Surface area: more exposed solid surface can increase the rate of a heterogeneous reaction, with other conditions fixed.",
-        "Catalyst: increases rate through another mechanism and is regenerated overall; intermediates may form.",
-        "Pressure affects reacting gas concentrations; light affects photochemical processes. These effects are reaction-specific."
+        "Concentration: a reactant usually changes the rate only if it takes part in the slowest step, the rate-determining step.",
+        "Temperature: the Maxwell–Boltzmann curve shifts to the right and widens, while its area stays the same. If the vertical axis shows the number of particles, the area equals the total number of particles.",
+        "Surface area: a solid catalyst works on its surface. A car's catalytic converter coats a porous support with platinum, palladium and rhodium, so the catalyst has a large surface area.",
+        "Catalyst poisoning: impurities bind strongly to the catalyst's surface, so less of the surface is left for the reactants.",
+        "Light starts photochemical reactions. A mixture of H₂ and Cl₂ hardly reacts in the dark, but it can explode in bright light."
       ],
       "review": {
         "englishTerm": "Rates of reaction",
-        "russianTerm": "Скорость реакции",
+        "russianTerm": "Скорость реакций",
         "contrast": {
-          "en": "Reaction rate measures change per time; final amount of product measures how far the reaction has proceeded.",
-          "ru": "Скорость измеряет изменение за время; конечное количество продукта показывает, насколько далеко прошла реакция."
+          "en": "The main topic explains the four factors through collisions and activation energy. The extension adds that some effects depend on the mechanism, the sequence of steps in the reaction.",
+          "ru": "Основная тема объясняет четыре фактора через столкновения частиц и энергию активации. Углубление добавляет, что эффект некоторых факторов зависит от механизма (mechanism), то есть от последовательности стадий реакции."
         },
         "sources": [
           {
@@ -991,13 +991,13 @@
     },
     "equilibrium": {
       "title": "Dynamic equilibrium — intro",
-      "body": "Dynamic equilibrium in a closed system occurs when forward and reverse reaction rates are equal, so macroscopic composition stays constant. Reactant and product concentrations need not be equal. Changes in conditions can shift equilibrium; a catalyst speeds approach to equilibrium without changing its composition at a fixed temperature.",
+      "body": "In a closed system, dynamic equilibrium is reached when the forward and reverse reactions run at equal rates. The concentrations then stay constant.",
       "review": {
         "englishTerm": "Dynamic equilibrium — intro",
         "russianTerm": "Динамическое равновесие — введение",
         "contrast": {
-          "en": "At equilibrium the forward and reverse rates are equal; concentrations are constant but need not be equal. A catalyst changes the time to equilibrium, not its composition.",
-          "ru": "При равновесии равны скорости прямой и обратной реакций; концентрации постоянны, но не обязаны быть равны. Катализатор меняет время установления равновесия, а не его состав."
+          "en": "Equilibrium does not mean that reactant and product concentrations are equal.",
+          "ru": "Равновесие не значит, что концентрации реагентов и продуктов равны."
         },
         "sources": [
           {
@@ -1016,8 +1016,8 @@
         "visual": {
           "kind": "comparison",
           "title": {
-            "en": "Equilibrium compares rates",
-            "ru": "При равновесии сравнивают скорости"
+            "en": "Rates and concentrations at equilibrium",
+            "ru": "Скорости и концентрации при равновесии"
           },
           "items": [
             {
@@ -1026,8 +1026,8 @@
                 "ru": "Скорость прямой реакции"
               },
               "detail": {
-                "en": "Equal to reverse rate at equilibrium.",
-                "ru": "При равновесии равна обратной скорости."
+                "en": "Equal to the reverse rate at equilibrium.",
+                "ru": "Равна скорости обратной реакции при равновесии."
               }
             },
             {
@@ -1036,8 +1036,8 @@
                 "ru": "Скорость обратной реакции"
               },
               "detail": {
-                "en": "The reverse reaction continues.",
-                "ru": "Обратная реакция продолжается."
+                "en": "Products turn back into reactants.",
+                "ru": "Продукты превращаются обратно в реагенты."
               }
             },
             {
@@ -1046,14 +1046,14 @@
                 "ru": "Концентрации"
               },
               "detail": {
-                "en": "Constant over time, not necessarily equal to one another.",
-                "ru": "Постоянны во времени, но не обязательно равны друг другу."
+                "en": "Constant over time.",
+                "ru": "Постоянны во времени."
               }
             }
           ],
           "caption": {
-            "en": "Closed system with fixed conditions; both molecular processes continue.",
-            "ru": "Замкнутая система при неизменных условиях; оба молекулярных процесса продолжаются."
+            "en": "Closed system at fixed conditions, with both reactions running.",
+            "ru": "Закрытая система при неизменных условиях: идут обе реакции."
           }
         }
       }

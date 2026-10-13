@@ -10,13 +10,13 @@ export function ReactionRateGraph() {
   const x = (time: number) => 90 + 7.1 * time;
   const y = (volume: number) => 320 - 4.7 * volume;
   const curve = (k: number) => Array.from({ length: 61 }, (_, time) => `${time ? 'L' : 'M'}${x(time)},${y(reactionVolume(time, k))}`).join(' ');
-  const title = ru ? 'Скорость и конечное количество продукта' : 'Rate and final amount of product';
+  const title = ru ? 'Скорость и конечный объём газа' : 'Rate and final volume of gas';
   const description = ru
-    ? 'Две модельные кривые объёма газа со временем. При большем k начальный наклон больше, но обе кривые стремятся к 50 см³. Это иллюстрация при одинаковом лимитирующем реагенте, без утечек и побочных реакций; экспериментальные точки не показаны.'
-    : 'Two model curves of gas volume against time. Larger k gives a steeper initial slope, but both curves approach 50 cm³. This illustration assumes the same limiting reactant, no leaks and no side reactions; it is not experimental data.';
+    ? 'Две модельные кривые объёма газа от времени: более крутая растёт в начале быстрее. Обе выходят на 50 см³, потому что расходуется одинаковое количество реагента, находящегося в недостатке (limiting reactant). Это модель: она не учитывает утечки и побочные реакции, а измеренных точек на графике нет.'
+    : 'Two model curves of gas volume against time: the steeper one rises faster at the start. Both level off at 50 cm³, because the same amount of limiting reactant is used up. This is a model: it assumes no leaks and no side reactions, and no measured points are shown.';
   return <><figure className="bg-bg-secondary border border-border rounded-md p-4 my-4">
-    <div className="definition-diagram-viewport" role="region" tabIndex={0} aria-label={title}>
-    <svg style={{ minWidth: 600, maxWidth: 'none' }} viewBox="0 0 620 430" role="img" aria-labelledby={`${id}-title ${id}-desc`} className="w-full max-w-[700px] mx-auto">
+    <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={title}>
+    <svg style={{ width: '100%', maxWidth: 'none', height: 'auto' }} viewBox="0 0 620 430" role="img" aria-labelledby={`${id}-title ${id}-desc`} className="w-full max-w-[700px] mx-auto">
       <title id={`${id}-title`}>{title}</title><desc id={`${id}-desc`}>{description}</desc>
       <rect x="90" y="55" width="426" height="265" fill="#fafcfb"/>
       {[0,10,20,30,40,50].map(v => <g key={v}><path d={`M90 ${y(v)}H516`} stroke="#d9e2e5"/><text x="79" y={y(v)+5} textAnchor="end" fontSize="15" fill="#243e50">{v}</text></g>)}
@@ -25,13 +25,13 @@ export function ReactionRateGraph() {
       <path d={`M90 ${y(50)}H516`} stroke="#8a6072" strokeDasharray="4 4"/>
       <path d={curve(.05)} fill="none" stroke="#276b93" strokeWidth="3"/>
       <path d={curve(.10)} fill="none" stroke="#946129" strokeWidth="3" strokeDasharray="9 4"/>
-      <text x="306" y="377" textAnchor="middle" fontSize="17" fill="#243e50">{ru ? 'Время / с' : 'Time / s'}</text>
-      <text transform="translate(30 200) rotate(-90)" textAnchor="middle" fontSize="17" fill="#243e50">{ru ? 'Объём газа / см³' : 'Gas volume / cm³'}</text>
-      <text x="95" y="33" fontSize="15" fill="#243e50">V(t) = 50(1 − e⁻ᵏᵗ); V∞ = 50 cm³</text>
-      <path d="M85 408h35" stroke="#276b93" strokeWidth="3"/><text x="130" y="413" fontSize="15" fill="#243e50">k = 0.05 s⁻¹</text>
-      <path d="M330 408h35" stroke="#946129" strokeWidth="3" strokeDasharray="9 4"/><text x="375" y="413" fontSize="15" fill="#243e50">k = 0.10 s⁻¹</text>
+      <text x="306" y="377" textAnchor="middle" fontSize="17" fill="#243e50">{ru ? 'Время, с' : 'Time / s'}</text>
+      <text transform="translate(30 200) rotate(-90)" textAnchor="middle" fontSize="17" fill="#243e50">{ru ? 'Объём газа, см³' : 'Gas volume / cm³'}</text>
+      <text x="95" y="33" fontSize="15" fill="#243e50">{ru ? 'Предел: 50 см³' : 'Limit: 50 cm³'}</text>
+      <path d="M85 408h35" stroke="#276b93" strokeWidth="3"/><text x="130" y="413" fontSize="15" fill="#243e50">{ru ? 'медленнее' : 'slower'}</text>
+      <path d="M330 408h35" stroke="#946129" strokeWidth="3" strokeDasharray="9 4"/><text x="375" y="413" fontSize="15" fill="#243e50">{ru ? 'быстрее' : 'faster'}</text>
     </svg>
     </div>
-    <figcaption className="text-sm"><strong>{title}.</strong> {description} {ru ? 'Скорость в момент времени равна наклону касательной, dV/dt, в см³/с.' : 'The rate at an instant is the tangent slope, dV/dt, in cm³/s.'}</figcaption>
-  </figure><FormulaTeaching id="reaction-curve"/><FormulaTeaching id="rate"/></>;
+    <figcaption className="text-sm"><strong>{title}.</strong> {description} {ru ? 'На более крутой кривой объём в начале растёт быстрее: наклон касательной при t = 0 даёт скорость в этот момент.' : 'On the steeper curve the gas volume rises faster at the start: the slope of the tangent at t = 0 gives the rate at that moment.'}</figcaption>
+  </figure><FormulaTeaching id="rate"/></>;
 }

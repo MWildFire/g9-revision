@@ -12,7 +12,7 @@ const MICROSCOPES = ['light', 'electron', 'preparation', 'drawing'];
 const EUK_PROK = ['eukaryotic', 'prokaryotic', 'comparison'];
 const STRUCTURE_PARTS = ['nucleus', 'cytoplasm', 'membrane', 'mitochondria', 'ribosome', 'wall', 'chloroplast', 'vacuole'];
 const SPECIALISED = ['redBlood', 'neurone', 'sperm', 'egg', 'root', 'palisade'];
-const TRANSPORT = ['diffusion', 'osmosis', 'activeTransport', 'significance'];
+const TRANSPORT = ['diffusion', 'osmosis', 'osmosisPractical', 'activeTransport', 'significance'];
 
 export function CellsPage() {
   const { t } = useTranslation('biology');

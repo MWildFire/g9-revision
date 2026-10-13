@@ -44,7 +44,9 @@ test('legacy summaries agree with the expanded definitions', () => {
     }
     const biology = json(`../src/i18n/${language}/biology.json`);
     for (const key of ['nucleus', 'mitochondria', 'ribosome', 'membrane', 'cytoplasm', 'wall', 'chloroplast', 'vacuole']) {
-      assert.equal(biology.simulations.cellDiagram.parts[key].desc, biology.cells.sections.structure.detailed[key].rule);
+      const desc = biology.simulations.cellDiagram.parts[key].desc;
+      assert.ok(desc, `${key}: нет подписи на схеме`);
+      assert.notEqual(desc, biology.cells.sections.structure.detailed[key].rule, `${key}: подпись на схеме повторяет правило (повтор блока)`);
     }
   }
 });

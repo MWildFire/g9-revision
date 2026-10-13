@@ -46,18 +46,18 @@
       }
     },
     "cellDiagram": {
-      "title": "Cell Diagram — animal vs plant",
-      "description": "Compare a typical animal cell with a photosynthetic plant cell. Select a labelled structure to connect its location with its function. This schematic omits many cell components and does not represent every specialised cell.",
+      "title": "Animal and plant cell diagram",
+      "description": "Compare a typical animal cell with a photosynthetic plant cell. The diagram is simplified: it omits many components, and specialised cells can look different.",
       "animalTab": "Animal cell",
       "plantTab": "Plant cell",
       "plantOnlyLabel": "Plant only",
-      "animalLacksLabel": "Animal cells lack",
-      "plantExtras": "This photosynthetic plant-cell example includes a cellulose wall, chloroplasts and a large central vacuole.",
-      "hoverHint": "Hover an organelle to see its function.",
+      "animalLacksLabel": "Not in animal cells",
+      "plantExtras": "The photosynthetic plant cell in this diagram has three extra parts: a cellulose cell wall, chloroplasts and a large central vacuole.",
+      "hoverHint": "Tap or hover a part to see its function.",
       "parts": {
         "nucleus": {
           "label": "Nucleus",
-          "desc": "The nucleus is a membrane-enclosed compartment containing most of a eukaryotic cell's DNA. Gene expression in the nucleus helps regulate protein production and cell activity. The nuclear envelope has pores through which selected molecules pass."
+          "desc": "Holds the cell's DNA. Pores in the nuclear envelope let molecules, such as mRNA, pass in and out."
         },
         "nucleolus": {
           "label": "Nucleolus",
@@ -65,39 +65,39 @@
         },
         "mitochondria": {
           "label": "Mitochondria",
-          "desc": "Mitochondria are organelles in which most stages of aerobic respiration occur in eukaryotes. Their inner membrane carries the machinery that transfers energy from oxidation into ATP synthesis. Glycolysis occurs in the cytosol, outside mitochondria."
+          "desc": "Most stages of aerobic respiration take place here. The energy released is stored in ATP."
         },
         "ribosome": {
           "label": "Ribosomes",
-          "desc": "A ribosome is a complex of ribosomal RNA and proteins that translates an mRNA sequence into an amino-acid chain. Ribosomes have no surrounding membrane and occur in both prokaryotic and eukaryotic cells."
+          "desc": "Makes proteins by joining amino acids in the order set by mRNA. It has no membrane around it."
         },
         "membrane": {
           "label": "Cell membrane",
-          "desc": "The cell membrane is a phospholipid bilayer containing proteins. It separates the cell from its surroundings and selectively regulates exchange. Small non-polar molecules can cross the bilayer; ions and many polar molecules require transport proteins."
+          "desc": "Controls which substances enter and leave the cell. It is a phospholipid bilayer with proteins in it."
         },
         "cytoplasm": {
           "label": "Cytoplasm",
-          "desc": "In a eukaryotic cell, the cytoplasm comprises the cytosol and structures outside the nucleus but inside the cell membrane. The cytosol is its aqueous fluid component; many reactions, including glycolysis, take place there."
+          "desc": "Water-based fluid between the cell membrane and the nucleus. Organelles are suspended in it, and many chemical reactions happen here."
         },
         "wall": {
           "label": "Cell wall",
-          "desc": "A cell wall is a supportive layer outside the cell membrane. Plant walls contain cellulose; fungal walls contain chitin; most bacterial walls contain peptidoglycan. Walls help resist excessive expansion when water enters; animal cells lack them."
+          "desc": "Rigid layer outside the cell membrane. It stops the cell from bursting when water enters."
         },
         "chloroplast": {
           "label": "Chloroplast",
-          "desc": "A chloroplast is a photosynthetic organelle in plants and many algae. Chlorophyll in its thylakoid membranes absorbs light; reactions there and in the stroma enable carbon dioxide to be incorporated into organic molecules. Non-photosynthetic plant cells usually lack chloroplasts."
+          "desc": "Site of photosynthesis. Chlorophyll in the thylakoid membranes absorbs light."
         },
         "vacuole": {
           "label": "Vacuole",
-          "desc": "A plant cell's large central vacuole is a membrane-bound compartment containing cell sap. It stores substances and helps maintain turgor: water entry makes the cell contents press against the wall. Vacuoles also occur in other eukaryotes."
+          "desc": "Large sac filled with cell sap. It stores water and dissolved substances and keeps the cell firm."
         }
       },
       "review": {
-        "englishTerm": "Cell Diagram — animal vs plant",
-        "russianTerm": "Схема клетки — животная vs растительная",
+        "englishTerm": "Animal and plant cell diagram",
+        "russianTerm": "Схема клетки: животная и растительная",
         "contrast": {
-          "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-          "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
+          "en": "The cell wall lies outside the cell membrane and does not replace it. Plant cells have both.",
+          "ru": "Клеточная стенка лежит снаружи клеточной мембраны и не заменяет её. У растительных клеток есть и стенка, и мембрана."
         },
         "sources": [
           {
@@ -369,27 +369,27 @@
   },
   "cells": {
     "title": "Cell Biology",
-    "intro": "Cells are the basic unit of life. Compare animal vs plant cells, understand specialized structures, and link cell function to organisms.",
+    "intro": "All living organisms are made of cells, the basic unit of life. Animal and plant cells share many structures but differ from each other, and specialised cells are adapted to their functions.",
     "sections": {
       "microscopes": {
-        "title": "Use of microscopes",
+        "title": "Magnification and microscopes",
         "detailed": {
           "light": {
             "name": "Light microscope",
-            "rule": "A light microscope forms a magnified image using visible light and lenses. Magnification is image size ÷ actual size; resolution is the ability to distinguish nearby points. A conventional light microscope resolves details about 0.2 μm apart; enlarging an unresolved image adds no detail.",
+            "rule": "A light microscope forms a magnified image using visible light and lenses. Magnification is image size ÷ actual size. Resolution is the smallest distance between two points at which they can still be seen as separate. A conventional light microscope has a resolution of about 0.2 μm. If two points are not resolved, enlarging the image adds no detail.",
             "examples": [
               "Eyepiece ×10 multiplied by objective ×40 gives total magnification ×400.",
-              "You can see: animal/plant cells, nuclei, chloroplasts, vacuoles, even cell movement in living samples.",
+              "With a light microscope you can see whole plant and animal cells, nuclei, chloroplasts and vacuoles. In a living sample you can also see the cytoplasm moving.",
               "A conventional light microscope cannot resolve ribosomes, mitochondrial internal detail or the thickness of the lipid bilayer.",
-              "Light microscopes have RESOLUTION limit ~0.2 μm — closer objects blur together."
+              "Two points 0.1 μm apart merge into one blurred spot in a light microscope, because its resolution is about 0.2 μm."
             ],
-            "tip": "Magnification ≠ resolution. Bigger image, but blurry above the resolution limit. School microscopes are light microscopes.",
+            "tip": "The smaller the resolution limit, the finer the detail you can see. A microscope with a limit of 0.2 μm shows more detail than one with a limit of 1 μm.",
             "review": {
               "englishTerm": "Light microscope",
               "russianTerm": "Световой микроскоп",
               "contrast": {
-                "en": "Magnification changes image size; resolution determines whether adjacent details can be distinguished.",
-                "ru": "Увеличение меняет размер изображения; разрешение определяет, различимы ли соседние детали."
+                "en": "Magnification is a ratio with no unit, such as ×400. Resolution is a distance, such as 0.2 μm.",
+                "ru": "Увеличение — безразмерная величина, например ×400. Предел разрешения — расстояние, например 0,2 мкм."
               },
               "sources": [
                 {
@@ -409,18 +409,18 @@
           },
           "electron": {
             "name": "Electron microscope",
-            "rule": "An electron microscope forms an image using electrons and electromagnetic lenses. Its resolving power usually exceeds that of a light microscope. TEM shows internal structure in thin specimens; SEM shows surface detail. Conventional preparation and vacuum conditions prevent observing living cells.",
+            "rule": "An electron microscope forms an image using a beam of electrons and electromagnetic lenses. Its resolving power is much higher than that of a light microscope. A transmission electron microscope (TEM) shows the internal structure of thin specimens, while a scanning electron microscope (SEM) shows surface detail. Conventional preparation and the vacuum inside the microscope prevent observation of living cells.",
             "examples": [
-              "TEM: internal membranes in a thin section.",
-              "SEM: surface shape of a pollen grain."
+              "A TEM image of a thin section shows the internal membranes of a mitochondrion.",
+              "A SEM image shows the surface shape of a pollen grain."
             ],
             "watchOut": "Resolution depends on instrument and specimen preparation; there is no single maximum magnification for all electron microscopes.",
             "review": {
               "englishTerm": "Electron microscope",
               "russianTerm": "Электронный микроскоп",
               "contrast": {
-                "en": "Magnification changes image size; resolution determines whether adjacent details can be distinguished.",
-                "ru": "Увеличение меняет размер изображения; разрешение определяет, различимы ли соседние детали."
+                "en": "Electron micrographs are black and white. Colour is added later and does not show the true colour of the specimen.",
+                "ru": "Электронные микрофотографии чёрно-белые. Цвет на них добавляют позже, и он не показывает настоящий цвет образца."
               },
               "sources": [
                 {
@@ -439,19 +439,19 @@
             }
           },
           "preparation": {
-            "name": "Preparing a slide (light microscope)",
-            "rule": "A wet mount holds a thin specimen in liquid between a slide and coverslip. Lower the coverslip at an angle to reduce bubbles, then locate and focus the specimen with the lowest-power objective. A suitable stain increases contrast but may kill cells or alter structures.",
+            "name": "Preparing a wet mount",
+            "rule": "A wet mount holds a thin specimen in liquid between a slide and coverslip. Lower the coverslip at an angle to reduce bubbles, then locate and focus the specimen with the lowest-magnification objective. A suitable stain increases contrast but may kill cells or alter structures.",
             "examples": [
-              "A thin onion epidermis can be mounted in water and stained according to the laboratory method.",
-              "A stain increases contrast; a food-test reagent is not automatically a suitable microscopy stain."
+              "A thin layer of onion epidermis is placed in a drop of water and covered with a coverslip.",
+              "Iodine solution is a common stain for onion cells. It colours the nucleus, so the nucleus is easier to see."
             ],
-            "tip": "Always start with LOW power objective to find the specimen. Increasing power without finding focus first = lost specimen.",
+            "tip": "Lower the objective slowly while watching from the side, so that the lens does not hit the coverslip.",
             "review": {
-              "englishTerm": "Preparing a slide (light microscope)",
-              "russianTerm": "Приготовление препарата (для светового микроскопа)",
+              "englishTerm": "Wet mount",
+              "russianTerm": "Временный препарат",
               "contrast": {
-                "en": "Magnification changes image size; resolution determines whether adjacent details can be distinguished.",
-                "ru": "Увеличение меняет размер изображения; разрешение определяет, различимы ли соседние детали."
+                "en": "A wet mount is only for light microscopes. Electron microscope samples are fixed and placed in a vacuum, and TEM samples are also cut into ultrathin sections.",
+                "ru": "Временный препарат годится только для светового микроскопа. Образцы для электронного микроскопа фиксируют и помещают в вакуум, а образцы для TEM, кроме того, режут на ультратонкие срезы."
               },
               "sources": [
                 {
@@ -471,20 +471,20 @@
           },
           "drawing": {
             "name": "Biological drawings",
-            "rule": "A biological drawing records the structures actually observed, with clear outlines, labels and a title. Include a scale bar or the drawing's magnification. Calculate magnification using image and actual size in the same units; the microscope setting is not automatically the magnification of a resized drawing.",
+            "rule": "A biological drawing shows only the structures that you actually observed, with clear outlines, labels and a title. Include a scale bar or the magnification of the drawing. When you calculate magnification, use image size and actual size in the same units. If the drawing is resized, its magnification changes, so the microscope setting no longer applies to it.",
             "examples": [
-              "Drawing of an onion epidermal cell: cell wall, cytoplasm, nucleus, vacuole labelled.",
-              "Always include scale or magnification (e.g., ×400).",
-              "Calculate ACTUAL SIZE = image size ÷ magnification."
+              "A drawing of one onion epidermal cell has the cell wall, cytoplasm, nucleus and vacuole labelled.",
+              "A cell 75 μm long seen at ×400 is 30 mm long on the drawing: 75 μm × 400 = 30 000 μm = 30 mm.",
+              "A structure 4 cm long on a drawing made at ×200 has a real length of 4 cm ÷ 200 = 0.02 cm, or 200 μm."
             ],
-            "watchOut": "Follow the stated drawing conventions. Label observed structures and avoid adding details that the microscope did not resolve.",
-            "tip": "A scale bar remains useful when the image is resized together with the bar.",
+            "watchOut": "Draw with a sharp pencil and single clean lines, without shading or colour. Do not add details that the microscope did not resolve.",
+            "tip": "A scale bar stays correct when you resize the drawing, because the bar is resized with the image.",
             "review": {
               "englishTerm": "Biological drawings",
               "russianTerm": "Биологические рисунки",
               "contrast": {
-                "en": "Magnification changes image size; resolution determines whether adjacent details can be distinguished.",
-                "ru": "Увеличение меняет размер изображения; разрешение определяет, различимы ли соседние детали."
+                "en": "Image size is measured on the drawing or micrograph; actual size is the real size of the structure. Never substitute one for the other.",
+                "ru": "Размер изображения измеряют на рисунке или микрофотографии, а реальный размер — это размер самого объекта. Их нельзя подменять друг другом."
               },
               "sources": [
                 {
@@ -505,22 +505,22 @@
         }
       },
       "eukaryoticProkaryotic": {
-        "title": "Eukaryotic vs Prokaryotic cells",
+        "title": "Eukaryotic and prokaryotic cells",
         "detailed": {
           "eukaryotic": {
             "name": "Eukaryotic cells",
-            "rule": "Eukaryotes include animals, plants, fungi and protists. Their typical cells have a membrane-bound nucleus containing linear chromosomes and specialised organelles. Some mature specialised cells lose their nucleus; chloroplasts occur in photosynthetic eukaryotes, not in every eukaryotic cell.",
+            "rule": "Eukaryotic cells have a nucleus surrounded by a membrane and other membrane-bound organelles, such as mitochondria. Eukaryotes are animals, plants, fungi and protists, and all of them are made of these cells.\n\nThe nuclear envelope separates the DNA from the cytoplasm. The DNA in the nucleus is packed into linear chromosomes. Membrane-bound organelles divide the cell into compartments, so different reactions can run at the same time. Some specialised cells lose their nucleus as they mature, for example mammalian red blood cells.",
             "examples": [
-              "Plant, animal, fungal and protist cells are eukaryotic.",
-              "Nuclear chromosomes are usually linear; mitochondrial and chloroplast DNA are separate."
+              "An onion bulb cell has a nucleus and mitochondria but no chloroplasts, and it is still eukaryotic.",
+              "A human body cell has 46 linear chromosomes in its nucleus, arranged in 23 pairs."
             ],
-            "tip": "Classification depends on cell organisation, not simply whether a cell is large.",
+            "tip": "On a diagram or electron micrograph, look for a nucleus with a double membrane (the nuclear envelope). Its presence shows that the cell is eukaryotic.",
             "review": {
               "englishTerm": "Eukaryotic cells",
               "russianTerm": "Эукариотические клетки",
               "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
+                "en": "A eukaryotic cell is not necessarily a plant cell. Animal cells are eukaryotic too, although they have no cell wall or chloroplasts.",
+                "ru": "Эукариотическая клетка — не обязательно растительная. Животные клетки тоже эукариотические, хотя у них нет клеточной стенки и хлоропластов."
               },
               "sources": [
                 {
@@ -540,18 +540,18 @@
           },
           "prokaryotic": {
             "name": "Prokaryotic cells (bacteria)",
-            "rule": "Prokaryotes are bacteria and archaea whose cells lack a membrane-bound nucleus. Their chromosome lies in a nucleoid; many also contain plasmids. They have a cell membrane, cytoplasm and ribosomes. Most bacteria have peptidoglycan walls; archaeal walls differ.",
+            "rule": "Prokaryotic cells have no nucleus surrounded by a membrane. Prokaryotes are bacteria and archaea.\n\nUsually the chromosome is a single circular DNA molecule. It lies in a region called the nucleoid, which has no membrane around it. Many bacteria also carry small circular DNA molecules called plasmids. Prokaryotic cells have a cell membrane, cytoplasm and ribosomes. Most bacteria have a cell wall made of peptidoglycan, but archaeal walls are made of different molecules.",
             "examples": [
-              "E. coli has a chromosome in a nucleoid and may carry plasmids.",
-              "Bacteria and archaea are distinct groups of prokaryotes."
+              "E. coli is about 2 μm long and has one circular chromosome in its nucleoid.",
+              "Lactobacillus bacteria in yoghurt turn lactose into lactic acid, which makes the milk thicken."
             ],
-            "watchOut": "Prokaryotes do have chromosomes. Most bacterial chromosomes are circular, but this is not universal.",
+            "watchOut": "A plasmid is not the main chromosome. It is a small ring of DNA that carries extra genes, for example genes that help the bacterium survive antibiotics. The bacterium can usually survive without it.",
             "review": {
               "englishTerm": "Prokaryotic cells (bacteria)",
               "russianTerm": "Прокариотические клетки (бактерии)",
               "contrast": {
-                "en": "No membrane-bound nucleus does not mean no DNA or no chromosome.",
-                "ru": "Отсутствие окружённого мембраной ядра не означает отсутствия ДНК или хромосомы."
+                "en": "A nucleoid is not a nucleus. It holds the DNA but has no membrane around it.",
+                "ru": "Нуклеоид — не ядро. В нём лежит ДНК, но его не окружает мембрана."
               },
               "sources": [
                 {
@@ -570,19 +570,19 @@
             }
           },
           "comparison": {
-            "name": "Side-by-side comparison",
-            "rule": "Both cell types contain a membrane, cytoplasm, DNA and ribosomes. A typical eukaryotic cell contains a nucleus and membrane-bound organelles; a prokaryotic cell lacks these compartments. Cell size and cell-wall presence alone cannot reliably identify the type.",
+            "name": "Comparing eukaryotes and prokaryotes",
+            "rule": "Compare the two cell types by these features.\n\nNucleus: eukaryotes have a nucleus surrounded by a membrane. Prokaryotes have no nucleus: their DNA lies in a nucleoid.\n\nChromosomes: eukaryotes usually have several linear chromosomes. Prokaryotes usually have one circular chromosome.\n\nMembrane-bound organelles: eukaryotes have them, such as mitochondria. Prokaryotes do not.\n\nSize: eukaryotic cells are usually 10–100 μm. Prokaryotic cells are usually 0.1–5 μm.\n\nCell wall: plants, fungi and most bacteria have one. Animal cells do not.",
             "examples": [
-              "A plant cell and a bacterium can both have walls, made of different materials.",
+              "A yeast cell, 5–10 μm across, is eukaryotic because it has a nucleus and mitochondria.",
               "Ribosomes occur in both cell types and are not membrane-bound."
             ],
-            "tip": "Some bacteria lack walls, and plasmids can also occur in eukaryotes; neither feature alone defines prokaryotes.",
+            "tip": "In a comparison answer, name one feature and give both cell types in one sentence, for example: 'Eukaryotes have a nucleus with a membrane; prokaryotes have a nucleoid with no membrane.'",
             "review": {
-              "englishTerm": "Side-by-side comparison",
-              "russianTerm": "Сравнение бок-о-бок",
+              "englishTerm": "Comparing eukaryotes and prokaryotes",
+              "russianTerm": "Сравнение эукариот и прокариот",
               "contrast": {
-                "en": "No membrane-bound nucleus does not mean no DNA or no chromosome.",
-                "ru": "Отсутствие окружённого мембраной ядра не означает отсутствия ДНК или хромосомы."
+                "en": "Viruses are not prokaryotes. They are not made of cells and have no ribosomes or cytoplasm of their own.",
+                "ru": "Вирусы — не прокариоты. Они не состоят из клеток и не имеют собственных рибосом и цитоплазмы."
               },
               "sources": [
                 {
@@ -607,15 +607,11 @@
         "detailed": {
           "nucleus": {
             "name": "Nucleus",
-            "rule": "The nucleus is a membrane-enclosed compartment containing most of a eukaryotic cell's DNA. Gene expression in the nucleus helps regulate protein production and cell activity. The nuclear envelope has pores through which selected molecules pass.",
+            "rule": "The nucleus is a membrane-bound organelle that contains most of the cell's DNA, arranged in chromosomes. Genes in the DNA determine which proteins the cell makes, so the nucleus controls the cell's activities. Nuclear pores in the nuclear envelope let copies of genes (mRNA) and other selected molecules pass into the cytoplasm.",
             "tip": "Mature mammalian red cells lose their nucleus; skeletal muscle fibres commonly contain many nuclei.",
             "review": {
               "englishTerm": "Nucleus",
               "russianTerm": "Ядро",
-              "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
-              },
               "sources": [
                 {
                   "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
@@ -634,14 +630,14 @@
           },
           "cytoplasm": {
             "name": "Cytoplasm",
-            "rule": "In a eukaryotic cell, the cytoplasm comprises the cytosol and structures outside the nucleus but inside the cell membrane. The cytosol is its aqueous fluid component; many reactions, including glycolysis, take place there.",
-            "tip": "Cytosol is the fluid component; cytoplasm includes organelles outside the nucleus.",
+            "rule": "The cytoplasm is the region of the cell between the nucleus and the cell membrane. Many chemical reactions take place there. Enzymes in the cytoplasm speed up these reactions, so different reactions can run at the same time.",
+            "tip": "Glycolysis, the first stage of respiration, takes place in the cytosol, not inside mitochondria.",
             "review": {
               "englishTerm": "Cytoplasm",
               "russianTerm": "Цитоплазма",
               "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
+                "en": "Cytosol is the watery part of the cytoplasm; the cytoplasm also contains the organelles outside the nucleus.",
+                "ru": "Цитозоль — водная часть цитоплазмы; цитоплазма, помимо цитозоля, включает органоиды вне ядра."
               },
               "sources": [
                 {
@@ -660,8 +656,8 @@
             }
           },
           "membrane": {
-            "name": "Cell membrane (plasma membrane)",
-            "rule": "The cell membrane is a phospholipid bilayer containing proteins. It separates the cell from its surroundings and selectively regulates exchange. Small non-polar molecules can cross the bilayer; ions and many polar molecules require transport proteins.",
+            "name": "Cell membrane",
+            "rule": "The cell membrane is a phospholipid bilayer with proteins embedded in it. It separates the cell from its surroundings and controls which substances enter and leave. The middle of the bilayer is non-polar, so charged and polar particles cannot pass through it easily.",
             "examples": [
               "O₂ and CO₂ pass freely (small, non-polar).",
               "Glucose needs a transporter protein.",
@@ -669,11 +665,7 @@
             ],
             "review": {
               "englishTerm": "Cell membrane (plasma membrane)",
-              "russianTerm": "Клеточная мембрана (плазмалемма)",
-              "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
-              },
+              "russianTerm": "Клеточная мембрана (плазматическая мембрана)",
               "sources": [
                 {
                   "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
@@ -692,14 +684,14 @@
           },
           "mitochondria": {
             "name": "Mitochondria",
-            "rule": "Mitochondria are organelles in which most stages of aerobic respiration occur in eukaryotes. Their inner membrane carries the machinery that transfers energy from oxidation into ATP synthesis. Glycolysis occurs in the cytosol, outside mitochondria.",
-            "tip": "Mitochondria are abundant in many energy-demanding cells; in sperm they are concentrated in the midpiece.",
+            "rule": "Mitochondria are organelles where most stages of aerobic respiration take place in eukaryotic cells. The overall equation is glucose + oxygen → carbon dioxide + water. Energy released when glucose is oxidised is used on their inner membrane to make ATP. ATP then supplies energy for movement, growth and other processes.",
+            "tip": "A muscle cell uses a lot of energy when it contracts, so it contains many mitochondria.",
             "review": {
               "englishTerm": "Mitochondria",
               "russianTerm": "Митохондрии",
               "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
+                "en": "Mitochondria release energy from glucose in aerobic respiration; chloroplasts use light energy to build glucose from carbon dioxide and water.",
+                "ru": "Митохондрии высвобождают энергию из глюкозы при аэробном дыхании; хлоропласты используют энергию света, чтобы синтезировать глюкозу из углекислого газа и воды."
               },
               "sources": [
                 {
@@ -725,14 +717,14 @@
           },
           "ribosome": {
             "name": "Ribosomes",
-            "rule": "A ribosome is a complex of ribosomal RNA and proteins that translates an mRNA sequence into an amino-acid chain. Ribosomes have no surrounding membrane and occur in both prokaryotic and eukaryotic cells.",
-            "tip": "Found free in cytoplasm OR attached to rough endoplasmic reticulum. The MORE proteins a cell needs to make, the MORE ribosomes it has.",
+            "rule": "Ribosomes are small structures made of ribosomal RNA (rRNA) and protein. They read the sequence of an mRNA molecule and join amino acids in the same order to make a protein. Ribosomes have no membrane and occur in both prokaryotic and eukaryotic cells.",
+            "tip": "A pancreas cell that makes large amounts of digestive enzymes contains many ribosomes.",
             "review": {
               "englishTerm": "Ribosomes",
               "russianTerm": "Рибосомы",
               "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
+                "en": "The nucleus stores DNA and copies it into mRNA; ribosomes read the mRNA and build the protein.",
+                "ru": "Ядро хранит ДНК и переписывает её в мРНК; рибосома читает мРНК и собирает белок."
               },
               "sources": [
                 {
@@ -751,16 +743,12 @@
             }
           },
           "wall": {
-            "name": "Cell wall (plants, fungi, bacteria)",
-            "rule": "A cell wall is a supportive layer outside the cell membrane. Plant walls contain cellulose; fungal walls contain chitin; most bacterial walls contain peptidoglycan. Walls help resist excessive expansion when water enters; animal cells lack them.",
-            "watchOut": "A cell wall supports the cell; the cell membrane is the selective transport barrier.",
+            "name": "Cell wall",
+            "rule": "A cell wall is a rigid layer outside the cell membrane. Its material depends on the organism: cellulose in plants, chitin in fungi and peptidoglycan in most bacteria. The wall resists swelling, so the cell does not burst when water enters by osmosis.",
+            "watchOut": "The cell wall does not control what enters the cell; the cell membrane is the selective barrier.",
             "review": {
               "englishTerm": "Cell wall (plants, fungi, bacteria)",
               "russianTerm": "Клеточная стенка (растения, грибы, бактерии)",
-              "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
-              },
               "sources": [
                 {
                   "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
@@ -779,14 +767,14 @@
           },
           "chloroplast": {
             "name": "Chloroplast",
-            "rule": "A chloroplast is a photosynthetic organelle in plants and many algae. Chlorophyll in its thylakoid membranes absorbs light; reactions there and in the stroma enable carbon dioxide to be incorporated into organic molecules. Non-photosynthetic plant cells usually lack chloroplasts.",
-            "tip": "Found mostly in leaf cells, especially palisade mesophyll — packed near the upper surface to catch light.",
+            "rule": "A chloroplast is an organelle in plant and algal cells where photosynthesis takes place. Chlorophyll in the thylakoid membranes (stacked membrane sacs) absorbs light energy. This energy drives the reactions in the stroma, the fluid inside the chloroplast, that build glucose from carbon dioxide and water.",
+            "tip": "Chloroplasts are found mainly in green parts such as leaves. Root cells usually have none, because they get no light.",
             "review": {
               "englishTerm": "Chloroplast",
               "russianTerm": "Хлоропласт",
               "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
+                "en": "Chlorophyll is the green pigment that absorbs light; the chloroplast is the organelle that contains it.",
+                "ru": "Хлорофилл — зелёный пигмент, который поглощает свет; хлоропласт — органоид, в котором он находится."
               },
               "sources": [
                 {
@@ -809,11 +797,11 @@
             "rule": "A plant cell's large central vacuole is a membrane-bound compartment containing cell sap. It stores substances and helps maintain turgor: water entry makes the cell contents press against the wall. Vacuoles also occur in other eukaryotes.",
             "tip": "Loss of water can reduce turgor and cause wilting; a cell wall can remain intact even when its contents shrink.",
             "review": {
-              "englishTerm": "Central vacuole in a plant cell",
-              "russianTerm": "Центральная вакуоль растительной клетки",
+              "englishTerm": "Central vacuole (permanent vacuole)",
+              "russianTerm": "Центральная вакуоль (постоянная вакуоль)",
               "contrast": {
-                "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-                "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
+                "en": "Cell sap is the liquid inside the vacuole; the cytosol lies outside the vacuole, in the cytoplasm.",
+                "ru": "Клеточный сок — жидкость внутри вакуоли; цитозоль лежит вне вакуоли, в цитоплазме."
               },
               "sources": [
                 {
@@ -834,18 +822,14 @@
         }
       },
       "animalVsPlant": {
-        "title": "Animal vs plant cells",
+        "title": "Animal and plant cells",
         "shared": "Typical plant and animal cells share a membrane, cytoplasm, nucleus, mitochondria and ribosomes; specialised cells may differ.",
-        "plantOnly": "Plant cells have cellulose walls and usually a large central vacuole; photosynthetic cells also have chloroplasts. These features distinguish the two example cells, not all organisms.",
+        "plantOnly": "Typical plant cells have a cellulose cell wall and one large central vacuole. Photosynthetic plant cells also contain chloroplasts.",
         "sharedLabel": "Typical animal and plant cells",
         "plantLabel": "Typical plant-cell features",
         "review": {
-          "englishTerm": "Animal vs plant cells",
-          "russianTerm": "Животные vs растительные клетки",
-          "contrast": {
-            "en": "An organelle is a cell component; a whole cell carries out coordinated functions using many components.",
-            "ru": "Органоид — часть клетки; работа целой клетки обеспечивается взаимодействием многих компонентов."
-          },
+          "englishTerm": "Animal and plant cells",
+          "russianTerm": "Клетки животных и растений",
           "sources": [
             {
               "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
@@ -867,19 +851,19 @@
         "detailed": {
           "redBlood": {
             "name": "Red blood cell (erythrocyte)",
-            "rule": "A red blood cell transports respiratory gases in blood. Haemoglobin binds oxygen reversibly. Mature mammalian red cells lack a nucleus and have a flexible biconcave shape, helping them exchange gases and pass through narrow capillaries.",
+            "rule": "A red blood cell carries oxygen from the lungs to the body's tissues. Haemoglobin inside it binds oxygen where the oxygen level is high, in the lungs, and releases it where the level is low, in respiring tissues. The cell's shape and contents are adapted to this job.",
             "examples": [
-              "BICONCAVE shape: increases surface area for O₂ absorption.",
+              "BICONCAVE shape: thin, with a large surface area relative to volume, so O₂ diffuses in and out quickly.",
               "NO NUCLEUS: more room for haemoglobin (~270 million per cell).",
               "FLEXIBLE: can squeeze through narrow capillaries."
             ],
-            "tip": "Lifespan ~120 days. Broken down in spleen and liver, recycled.",
+            "tip": "Lifespan is about 120 days. Old cells are broken down in the spleen and liver, and their parts are recycled.",
             "review": {
               "englishTerm": "Red blood cell (erythrocyte)",
               "russianTerm": "Эритроцит (красная кровяная клетка)",
               "contrast": {
-                "en": "A specialised cell is adapted for a role; its features need not match the diagram of a typical cell.",
-                "ru": "Специализированная клетка приспособлена к определённой функции; её строение может отличаться от типичной схемы."
+                "en": "Red blood cells carry oxygen; white blood cells (leucocytes) defend the body against pathogens such as bacteria and viruses.",
+                "ru": "Эритроциты переносят кислород, а лейкоциты защищают организм от возбудителей болезней, таких как бактерии и вирусы."
               },
               "sources": [
                 {
@@ -899,19 +883,19 @@
           },
           "neurone": {
             "name": "Neurone (nerve cell)",
-            "rule": "A neurone is a specialised cell that receives and transmits information. Electrical changes travel along its membrane, and most synapses pass the signal chemically to another cell. Its shape supports connections over short or long distances.",
+            "rule": "A neurone is a nerve cell that carries electrical impulses. An impulse travels along the cell's membrane; at a synapse, the signal usually passes to the next cell by a chemical messenger. Neurones link sense organs with the central nervous system and with muscles or glands.",
             "examples": [
               "LONG AXON: can be over 1 metre (from spinal cord to foot).",
               "DENDRITES: branched ends receive signals from many other neurones.",
               "MYELIN SHEATH: insulates the axon → impulses travel up to 100 m/s."
             ],
-            "tip": "Three types: sensory (in → CNS), motor (CNS → muscle), relay (within CNS).",
+            "tip": "Three types: sensory neurones carry impulses in from receptors to the CNS, motor neurones carry them from the CNS to muscles or glands, and relay neurones work inside the CNS.",
             "review": {
               "englishTerm": "Neurone (nerve cell)",
               "russianTerm": "Нейрон (нервная клетка)",
               "contrast": {
-                "en": "A specialised cell is adapted for a role; its features need not match the diagram of a typical cell.",
-                "ru": "Специализированная клетка приспособлена к определённой функции; её строение может отличаться от типичной схемы."
+                "en": "A nerve is a bundle of axons from many neurones, held together by connective tissue. A single neurone is one cell.",
+                "ru": "Нерв — пучок аксонов многих нейронов, скреплённых соединительной тканью. Один нейрон — это одна клетка."
               },
               "sources": [
                 {
@@ -925,20 +909,20 @@
           },
           "sperm": {
             "name": "Sperm cell (male gamete)",
-            "rule": "A sperm cell is a motile male gamete with a haploid set of chromosomes. In humans its flagellum enables movement, mitochondria supply ATP, and the acrosome helps the cell interact with the egg's surrounding layers during fertilisation.",
+            "rule": "A sperm cell is a male gamete, a sex cell that fuses with an egg cell at fertilisation. Its structure is adapted to reach the egg and enter it.",
             "examples": [
-              "TAIL (flagellum): whips for swimming.",
-              "MANY MITOCHONDRIA in mid-piece: ATP energy for the swim.",
-              "ACROSOME at the head: enzymes to digest through the egg's outer layer.",
-              "HAPLOID nucleus: 23 chromosomes."
+              "TAIL (flagellum): beats like a whip to push the cell through fluid.",
+              "MANY MITOCHONDRIA in the mid-piece: aerobic respiration releases energy as ATP to power the tail.",
+              "ACROSOME at the head: releases enzymes that digest a path through the egg's outer layers.",
+              "HAPLOID nucleus: 23 chromosomes, half the 46 found in body cells."
             ],
-            "tip": "Released in millions; only one fertilises the egg.",
+            "tip": "Millions are released at a time, but only one usually fertilises the egg.",
             "review": {
               "englishTerm": "Sperm cell (male gamete)",
               "russianTerm": "Сперматозоид (мужская гамета)",
               "contrast": {
-                "en": "A specialised cell is adapted for a role; its features need not match the diagram of a typical cell.",
-                "ru": "Специализированная клетка приспособлена к определённой функции; её строение может отличаться от типичной схемы."
+                "en": "A sperm cell is tiny and swims, whereas an egg cell does not swim by itself.",
+                "ru": "Сперматозоид мелкий и плывёт сам, а яйцеклетка сама не плавает."
               },
               "sources": [
                 {
@@ -964,18 +948,18 @@
           },
           "egg": {
             "name": "Egg cell (ovum, female gamete)",
-            "rule": "An egg cell is a female gamete with a haploid chromosome set and cytoplasm that supports early development after fertilisation. Its size and stored nutrients vary among species; a human egg does not supply all the embryo's later nutritional needs.",
+            "rule": "An egg cell (ovum) is the female gamete. It is one of the largest human cells. Its cytoplasm holds stored nutrients for early development after fertilisation; in humans this store is small, and the embryo later gets its food from the mother.",
             "examples": [
-              "Human gametes have 23 chromosomes; fertilisation normally restores 46 in the zygote.",
-              "The zona pellucida is a glycoprotein layer around a mammalian egg."
+              "23 + 23 = 46: the egg's 23 chromosomes join the sperm's 23 at fertilisation.",
+              "ZONA PELLUCIDA: a glycoprotein layer around a mammalian egg that the sperm must pass through."
             ],
-            "tip": "Released ~once a month at ovulation. Survives ~24 hours in the fallopian tube.",
+            "tip": "One egg cell is released from the ovary about once a month at ovulation and survives about 24 hours in the fallopian tube (oviduct).",
             "review": {
               "englishTerm": "Egg cell (ovum, female gamete)",
-              "russianTerm": "Яйцеклетка (овум, женская гамета)",
+              "russianTerm": "Яйцеклетка (женская гамета)",
               "contrast": {
-                "en": "A specialised cell is adapted for a role; its features need not match the diagram of a typical cell.",
-                "ru": "Специализированная клетка приспособлена к определённой функции; её строение может отличаться от типичной схемы."
+                "en": "A zygote is not an egg cell. It forms when an egg and a sperm fuse, and it is the first cell of the new organism.",
+                "ru": "Зигота — не яйцеклетка. Она образуется при слиянии яйцеклетки и сперматозоида и становится первой клеткой нового организма."
               },
               "sources": [
                 {
@@ -1001,19 +985,15 @@
           },
           "root": {
             "name": "Root hair cell (plant)",
-            "rule": "A root hair cell is an epidermal cell with a projection that increases the root's absorbing surface. Water enters down a water-potential gradient; membrane transport proteins take up mineral ions, often using energy to move them against a gradient.",
+            "rule": "A root hair cell is a cell on the root's outer surface, with a long projection that grows into the soil. Water enters by osmosis, because the cell's contents have a lower water potential than the soil water. Mineral ions usually enter by active transport, moving from a lower to a higher concentration and using energy from respiration.",
             "examples": [
               "The projection increases surface area in contact with soil water.",
-              "A typical underground root hair cell lacks chloroplasts."
+              "A typical root hair cell grows underground, where there is no light for photosynthesis, so it has no chloroplasts."
             ],
             "tip": "Found in the 'zone of root hairs' just behind the growing root tip.",
             "review": {
               "englishTerm": "Root hair cell (plant)",
               "russianTerm": "Клетка корневого волоска (растение)",
-              "contrast": {
-                "en": "A specialised cell is adapted for a role; its features need not match the diagram of a typical cell.",
-                "ru": "Специализированная клетка приспособлена к определённой функции; её строение может отличаться от типичной схемы."
-              },
               "sources": [
                 {
                   "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
@@ -1038,19 +1018,19 @@
           },
           "palisade": {
             "name": "Palisade mesophyll cell (plant)",
-            "rule": "A palisade mesophyll cell is an elongated photosynthetic cell, commonly found beneath the upper epidermis of a leaf. Its many chloroplasts help absorb light. Other leaf cells can photosynthesise too; leaf organisation varies among plants.",
+            "rule": "A palisade mesophyll cell is a photosynthetic cell in the mesophyll, the inner tissue of a leaf. Most of the leaf's photosynthesis takes place in this layer.",
             "examples": [
-              "PACKED with CHLOROPLASTS: maximises light absorption.",
-              "COLUMN shape: stacked tightly together to catch parallel light rays.",
+              "PACKED with CHLOROPLASTS: more chloroplasts means more light absorbed for photosynthesis.",
+              "COLUMN shape: packed tightly side by side, so the layer catches as much of the sunlight as possible.",
               "Located JUST BELOW the upper leaf surface: closest to incoming sunlight."
             ],
-            "tip": "Below palisade is the SPONGY MESOPHYLL — looser, with air spaces for gas exchange.",
+            "tip": "Below the palisade layer lies the SPONGY MESOPHYLL: its cells are loosely packed, with air spaces for gas exchange.",
             "review": {
               "englishTerm": "Palisade mesophyll cell (plant)",
-              "russianTerm": "Палисадная паренхима (растение)",
+              "russianTerm": "Клетка столбчатой ткани листа (палисадная паренхима)",
               "contrast": {
-                "en": "A specialised cell is adapted for a role; its features need not match the diagram of a typical cell.",
-                "ru": "Специализированная клетка приспособлена к определённой функции; её строение может отличаться от типичной схемы."
+                "en": "The upper epidermis is a transparent protective layer with few chloroplasts. It lets light through to the palisade layer below.",
+                "ru": "Верхняя кожица — прозрачный защитный слой с небольшим числом хлоропластов. Она пропускает свет к столбчатому слою под ней."
               },
               "sources": [
                 {
@@ -1078,26 +1058,26 @@
       },
       "transport": {
         "title": "Movement across membranes",
-        "diffusion": "Diffusion — movement from high to low concentration. Passive (no energy).",
-        "osmosis": "Osmosis — diffusion of WATER across a partially permeable membrane.",
-        "activeTransport": "Active transport — low to high concentration. Requires energy (ATP).",
+        "diffusion": "Diffusion — the spreading of particles from a higher to a lower concentration. It is passive: no energy is used.",
+        "osmosis": "Osmosis — diffusion of water across a partially permeable membrane.",
+        "activeTransport": "Active transport — moving a substance from lower to higher concentration. It is powered by ATP from respiration.",
         "detailed": {
           "diffusion": {
             "name": "Diffusion",
-            "rule": "Diffusion is the net movement of particles down a concentration gradient because of their random motion. Particles move in both directions, but more leave the more concentrated region. Passive diffusion needs no metabolic energy input; at equilibrium random motion continues without net transfer.",
+            "rule": "Diffusion is the net movement of particles from a higher to a lower concentration, caused by their random motion. Particles move in both directions, but more particles leave the more concentrated region. At equilibrium particles keep moving, but there is no net movement.",
             "examples": [
               "O₂ moves from alveoli (high) into blood (low) by diffusion.",
               "CO₂ moves from blood into alveoli (high → low) by diffusion.",
-              "Perfume molecules spread by diffusion; air currents also transport them, so a room-scale smell demonstration is not pure diffusion.",
-              "Glucose absorbed from gut into blood (partly by diffusion + active transport)."
+              "Perfume spreads through a room by diffusion, but air currents also carry it, so the spreading is not diffusion alone.",
+              "Carbon dioxide enters a leaf through the stomata by diffusion, because photosynthesis uses it up inside the leaf."
             ],
-            "tip": "Fick's law: rate ∝ (surface area × concentration difference) / distance. Why villi/alveoli have huge SA and thin walls.",
+            "tip": "Surface area to volume ratio (SA:V) falls as a cell or organism gets bigger. Volume grows faster than surface area, so large organisms need exchange surfaces such as villi and alveoli.",
             "review": {
               "englishTerm": "Diffusion",
               "russianTerm": "Диффузия",
               "contrast": {
-                "en": "Particles keep moving at equilibrium; equal opposing transfers give zero net movement.",
-                "ru": "При равновесии частицы продолжают двигаться; равные встречные потоки дают нулевой суммарный перенос."
+                "en": "Diffusion moves any particles, such as gases or dissolved sugar, from high to low concentration, with or without a membrane.",
+                "ru": "Диффузия переносит любые частицы, например газы или растворённый сахар, из области высокой концентрации в низкую, с мембраной или без неё."
               },
               "sources": [
                 {
@@ -1123,18 +1103,18 @@
           },
           "osmosis": {
             "name": "Osmosis",
-            "rule": "Osmosis is the net movement of water across a selectively permeable membrane from higher to lower water potential. At equal pressure, water tends to move from the more dilute to the more concentrated solution when the relevant solute cannot cross the membrane.",
+            "rule": "Osmosis is the net movement of water molecules across a partially permeable membrane, from a dilute solution to a concentrated solution. The dilute solution has a higher water potential, so water moves from higher to lower water potential.",
             "examples": [
-              "A red cell in a sufficiently hypotonic solution gains water and may burst.",
-              "A plant cell can become turgid as water enters; its wall resists further expansion."
+              "A red blood cell in a hypotonic (dilute) solution takes in water by osmosis and bursts.",
+              "A plant cell in pure water takes in water and becomes turgid (firm). Its cell wall stops it from bursting."
             ],
-            "tip": "The direction depends on water potential, including pressure; concentration alone is a simplified equal-pressure comparison.",
+            "tip": "Say 'water potential', not just 'concentration': the dilute solution has a higher water potential, so water moves from it into the concentrated solution.",
             "review": {
               "englishTerm": "Osmosis",
               "russianTerm": "Осмос",
               "contrast": {
-                "en": "Particles keep moving at equilibrium; equal opposing transfers give zero net movement.",
-                "ru": "При равновесии частицы продолжают двигаться; равные встречные потоки дают нулевой суммарный перенос."
+                "en": "Osmosis moves only water across a partially permeable membrane. Dissolved solutes, such as sugar, cannot cross it.",
+                "ru": "Осмос переносит только воду через полупроницаемую мембрану. Растворённые вещества (solutes), например сахар, через неё пройти не могут."
               },
               "sources": [
                 {
@@ -1166,18 +1146,18 @@
           },
           "activeTransport": {
             "name": "Active transport",
-            "rule": "Active transport moves a substance across a membrane against its concentration gradient, or electrochemical gradient for ions. It requires a transport protein and an energy source, supplied directly by ATP or indirectly by another ion gradient.",
+            "rule": "Active transport moves a substance across a membrane against the concentration difference, from low to high concentration. The cell uses ATP from respiration for this, and carrier proteins in the membrane move the substance.",
             "examples": [
-              "The sodium–potassium pump uses ATP to export Na⁺ and import K⁺ against their electrochemical gradients.",
-              "Intestinal sodium–glucose cotransport uses a sodium gradient maintained by ATP-dependent transport."
+              "Root hair cells take up mineral ions from the soil, even when the ions are more concentrated inside the cell.",
+              "Glucose is absorbed from the small intestine into the blood, even when the blood already has a higher glucose concentration."
             ],
-            "watchOut": "Active transport needs an energy supply; passive transport can continue while its driving gradient remains.",
+            "watchOut": "Without oxygen, cells make less ATP, so active transport slows down or stops. Diffusion needs no ATP, so it carries on.",
             "review": {
               "englishTerm": "Active transport",
               "russianTerm": "Активный транспорт",
               "contrast": {
-                "en": "Particles keep moving at equilibrium; equal opposing transfers give zero net movement.",
-                "ru": "При равновесии частицы продолжают двигаться; равные встречные потоки дают нулевой суммарный перенос."
+                "en": "Active transport works against diffusion, using ATP to move substances into a region of higher concentration.",
+                "ru": "Активный транспорт идёт против диффузии: он тратит АТФ и переносит вещества в область более высокой концентрации."
               },
               "sources": [
                 {
@@ -1197,18 +1177,18 @@
           },
           "significance": {
             "name": "Significance of diffusion in biology",
-            "rule": "Diffusion transfers substances efficiently over short distances. A large exchange surface, a thin barrier and a maintained concentration difference increase net transfer. Large organisms use ventilation and circulation to maintain gradients and transport substances over longer distances.",
+            "rule": "Diffusion is efficient only over short distances, so exchange surfaces must be thin. Large organisms need ventilation and circulation to bring substances to every cell.",
             "examples": [
-              "Alveoli place air and blood close together across a thin barrier.",
+              "The wall of an alveolus is only one cell thick, so oxygen diffuses quickly from the air into the blood.",
               "Insect tracheae carry air close to tissues; many insects also ventilate their tracheal systems."
             ],
-            "tip": "Adaptations for fast diffusion: LARGE surface area, SHORT distance, BIG concentration gradient, MOIST surface, GOOD ventilation/circulation. Mention these in any gas-exchange answer.",
+            "tip": "A good gas exchange surface has a large surface area, thin walls, a steep concentration difference, a moist surface and good ventilation or circulation. Name these features in any gas-exchange answer.",
             "review": {
-              "englishTerm": "Significance of diffusion in biology",
-              "russianTerm": "Значение диффузии в биологии",
+              "englishTerm": "Gas exchange surface",
+              "russianTerm": "Поверхность газообмена",
               "contrast": {
-                "en": "Particles keep moving at equilibrium; equal opposing transfers give zero net movement.",
-                "ru": "При равновесии частицы продолжают двигаться; равные встречные потоки дают нулевой суммарный перенос."
+                "en": "Single-celled organisms exchange gases by diffusion through the cell surface. Large multicellular organisms need specialised exchange surfaces, such as lungs, gills or leaves.",
+                "ru": "Одноклеточные организмы обмениваются газами диффузией через поверхность клетки. Крупным многоклеточным организмам нужны специализированные поверхности обмена, например лёгкие, жабры или листья."
               },
               "sources": [
                 {
@@ -1230,6 +1210,23 @@
                   "section": "Осмос и осморегуляция: перенос воды через мембрану"
                 }
               ]
+            }
+          },
+          "osmosisPractical": {
+            "name": "Practical: osmosis",
+            "rule": "Identical potato cylinders are put into sucrose solutions of different concentrations, each for the same time (for example 30 minutes). The sucrose concentration is the independent variable. The change in mass (or length) of each cylinder is the dependent variable.\n\nIn dilute solutions water enters the cells by osmosis, so the cylinder gains mass. In concentrated solutions water leaves the cells, so the cylinder loses mass.",
+            "examples": [
+              "In pure water the mass of a cylinder rises from 4.00 g to 4.40 g: % change = (4.40 g − 4.00 g) ÷ 4.00 g × 100 = +10 %. In 1.0 mol/dm³ sucrose the mass falls from 4.00 g to 3.60 g: % change = (3.60 g − 4.00 g) ÷ 4.00 g × 100 = −10 %.",
+              "At 0.2 mol/dm³ the change is +4 %, and at 0.4 mol/dm³ it is −4 %. The mass does not change at about 0.3 mol/dm³ (the exact value varies between potatoes). So the water potential of the potato cells is about the same as a 0.3 mol/dm³ sucrose solution."
+            ],
+            "tip": "Blot each cylinder dry with a paper towel before you weigh it. Water left on the surface adds mass and hides the real change. Keep the time, the volume of solution and the temperature the same for all cylinders.",
+            "review": {
+              "englishTerm": "Water potential",
+              "russianTerm": "Водный потенциал",
+              "contrast": {
+                "en": "Water potential is the tendency of water molecules to move out of a solution or cell. Pure water has the highest water potential; dissolved solutes lower it.",
+                "ru": "Водный потенциал — это склонность молекул воды выходить из раствора или клетки. Чистая вода имеет наибольший водный потенциал; растворённые вещества его снижают."
+              }
             }
           }
         }

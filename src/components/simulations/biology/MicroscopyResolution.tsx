@@ -8,9 +8,9 @@ export function MicroscopyResolution() {
   const ru = i18n.language.startsWith('ru');
   const id = useId().replace(/:/g, '');
   const labels = ru ? {
-    title: 'Увеличение и разрешение', a: 'Две близкие точки', b: 'Больше размер', c: 'Выше разрешение',
+    title: 'Увеличение и разрешающая способность', a: 'Две близкие точки', b: 'Изображение крупнее', c: 'Разрешение выше',
     ad: 'Изображения перекрылись', bd: 'Точки всё ещё слиты', cd: 'Две точки различимы',
-    caption: 'Схема одного и того же объекта. Простое увеличение слитого пятна не восстанавливает детали. Более высокое разрешение позволяет различить две точки. Размеры условны.',
+    caption: 'Схема одного и того же объекта. Увеличение слитого пятна не добавляет деталей. Более высокое разрешение позволяет различить две точки. Размеры на схеме условные.',
   } : {
     title: 'Magnification and resolution', a: 'Two nearby points', b: 'Larger image', c: 'Better resolution',
     ad: 'Their images overlap', bd: 'Still unresolved', cd: 'Two points distinguished',

@@ -45,7 +45,7 @@ export function DetailedCard({ item, borderColor, labels }: Props) {
       {heading ? <h4 className="font-serif text-base font-medium mb-2">{heading}</h4> : null}
       {item.body ? <p className="text-sm text-text-secondary whitespace-pre-line mb-2">{item.body}</p> : null}
       {item.rule ? (
-        <p className="text-sm mb-2">
+        <p className="text-sm mb-2 whitespace-pre-line">
           <span className="text-xs uppercase tracking-wider text-text-muted mr-2">{L.rule}</span>
           {item.rule}
         </p>

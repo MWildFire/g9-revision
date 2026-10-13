@@ -45,5 +45,5 @@ test('three original rehearsals each total 100 with all four criteria; listening
  assert.equal(listening.length,2);for(const track of listening){assert.equal(track.questions.reduce((n,q)=>n+q.marks,0),10);assert.ok(track.transcript.length>400);assert.ok(statSync(new URL(`../public/audio/french-${track.id}.mp3`,import.meta.url)).size>10000);}
 });
 test('worked quantitative answers retain important unit and model checks',()=>{
- assert.ok(practice['p-matter'][0].answer.en.includes('71000'));assert.ok(practice['c-quantity'][0].answer.en.includes('80%'));assert.ok(practice['c-quantity'][0].answer.en.includes('56%'));assert.ok(practice['b-plants'][0].answer.en.includes('4.71'));assert.ok(practice['b-cells'].at(-1).answer.en.includes('cm⁻¹'));assert.ok(practice['b-nervous'].at(-1).answer.en.includes('0.179'));
+ assert.ok(practice['p-matter'][0].answer.en.includes('71000'));assert.ok(practice['c-quantity'][0].answer.en.includes('80%'));assert.ok(practice['c-quantity'][0].answer.en.includes('56%'));assert.ok(practice['b-plants'][0].answer.en.includes('4.71'));assert.ok(practice['b-cells'].at(-1).answer.en.includes('m⁻¹'));assert.ok(practice['b-nervous'].at(-1).answer.en.includes('0.179'));
 });

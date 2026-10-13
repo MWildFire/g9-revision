@@ -349,12 +349,12 @@ function LessonPage({ store }: { store: Store }) {
   return (
     <article className="nuclear-lesson">
       <p className="nuclear-eyebrow">
-        {String(index + 1).padStart(2, "0")} / 12 · CRITERION A
+        {String(index + 1).padStart(2, "0")} / 12 · {t("CRITERION A", "Критерий A")}
       </p>
       <h1>{txt(lesson.title)}</h1>
       <p className="nuclear-lead">{txt(lesson.intro)}</p>
       <p className="nuclear-caption">
-        {t("Photo checklist", "Пункт фотографии")}: {lesson.photoTopic}
+        {t("Photo checklist", "Пункт фотографии")}: {t(lesson.photoTopic, lesson.photoTopicRu ?? lesson.photoTopic)}
       </p>
       <div className="nuclear-contents">
         <strong>{t("In this lesson", "В этой теме")}</strong>
@@ -880,7 +880,7 @@ export function PhysicsSeptemberModule() {
       </nav>
       <div className="nuclear-layout">
         <aside className="nuclear-sidebar">
-          <p className="nuclear-eyebrow">ATOMIC STRUCTURE</p>
+          <p className="nuclear-eyebrow">{t("ATOMIC STRUCTURE", "Строение атома")}</p>
           {lessons.map((l, i) => (
             <NavLink
               key={l.id}

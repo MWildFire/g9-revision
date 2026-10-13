@@ -360,8 +360,8 @@ export const questions: Question[] = [
     "A(ii)",
     "foundation",
     b(
-      "Complete ²¹⁰₈₄Po → X + ⁴₂He. Give X’s A, Z and neutron number; Z = 82 is lead.",
-      "Дополни ²¹⁰₈₄Po → X + ⁴₂He. Укажи A, Z и число нейтронов X; Z = 82 — свинец.",
+      "Complete the equation ²¹⁰₈₄Po → X + ⁴₂He. Calculate the nucleon number A, the charge number Z and the neutron number N of X.",
+      "Дополни уравнение ²¹⁰₈₄Po → X + ⁴₂He. Вычисли число нуклонов (nucleon number) A, зарядовое число (charge number) Z и число нейтронов (neutron number) N для X.",
     ),
     b(
       "Balance upper and lower numbers separately.",
@@ -369,29 +369,29 @@ export const questions: Question[] = [
     ),
     b("A = 210 − 4 = 206.", "A = 210 − 4 = 206."),
     b("Z = 84 − 2 = 82; X = ²⁰⁶₈₂Pb.", "Z = 84 − 2 = 82; X = ²⁰⁶₈₂Pb."),
-    b("Neutrons = 206 − 82 = 124.", "Нейтронов 206 − 82 = 124."),
+    b("Neutron number: 206 − 82 = 124.", "Число нейтронов: 206 − 82 = 124."),
   ),
   q(
     "eq-2",
     "nuclear-equations",
-    "A(ii)",
+    "A(i)",
     "application",
     b(
-      "Complete the beta-minus decay of ³²₁₅P. Z = 16 is sulfur. Explain why A does not change.",
-      "Запиши бета-минус-распад ³²₁₅P. Z = 16 — сера. Объясни сохранение A.",
+      "Write the equation for the beta-minus decay of ³²₁₅P. Explain why A does not change.",
+      "Запиши уравнение бета-минус-распада (beta-minus decay) ³²₁₅P. Объясни, почему A не меняется.",
     ),
     b(
-      "A neutron changes type rather than leaving as a nucleon.",
-      "Нейтрон меняет тип, а не вылетает как нуклон.",
+      "Which particle is emitted? Does it contain any nucleons?",
+      "Подумай, какая частица испускается. Есть ли у неё нуклоны?",
     ),
     b(
       "³²₁₅P → ³²₁₆S + ⁰₋₁e (+ electron antineutrino).",
       "³²₁₅P → ³²₁₆S + ⁰₋₁e (+ электронное антинейтрино).",
     ),
-    b("Charge balances: 15 = 16 − 1.", "Заряд: 15 = 16 − 1."),
+    b("Charge on the left is 15. On the right, 16 + (−1) = 15, so charge is conserved.", "Заряд слева равен 15. Справа 16 + (−1) = 15, значит, заряд сохраняется."),
     b(
-      "One neutron becomes a proton, so the total nucleon number stays 32.",
-      "Один нейтрон становится протоном; число нуклонов остаётся 32.",
+      "One neutron becomes a proton, which is still a nucleon. The electron is not a nucleon, so A stays 32.",
+      "Один нейтрон становится протоном, а протон — тоже нуклон. Электрон — не нуклон, поэтому A остаётся 32.",
     ),
   ),
   q(
@@ -400,12 +400,12 @@ export const questions: Question[] = [
     "A(ii)",
     "challenge",
     b(
-      "A parent with A = 238, Z = 92 undergoes two alpha decays and two beta-minus decays. Find final A, Z and N.",
-      "Ядро A = 238, Z = 92 проходит два альфа- и два бета-минус-распада. Найди конечные A, Z и N.",
+      "A parent nucleus (A = 238, Z = 92) goes through two alpha decays and two beta-minus decays. Calculate its final A, Z and neutron number N.",
+      "Исходное ядро (parent nucleus) имеет A = 238 и Z = 92. Оно претерпевает два альфа-распада (alpha decay) и два бета-минус-распада. Вычисли конечные A, Z и число нейтронов N.",
     ),
     b(
-      "Add all changes to each number independently.",
-      "Суммируй изменения каждого числа отдельно.",
+      "Add up the changes to A and to Z separately.",
+      "Сложи отдельно изменения A и Z.",
     ),
     b("A = 238 − 8 = 230.", "A = 238 − 8 = 230."),
     b("Z = 92 − 4 + 2 = 90.", "Z = 92 − 4 + 2 = 90."),
@@ -417,24 +417,24 @@ export const questions: Question[] = [
     "A(iii)",
     "challenge",
     b(
-      "A student writes ¹⁴₆C → ¹⁴₅B + ⁰₋₁e and says charge is conserved because a negative particle leaves. Diagnose and correct the error.",
-      "Ученик пишет ¹⁴₆C → ¹⁴₅B + ⁰₋₁e и утверждает, что заряд сохраняется: вылетает отрицательная частица. Найди и исправь ошибку.",
+      "A student writes ¹⁴₆C → ¹⁴₅B + ⁰₋₁e and says charge is conserved because a negative particle leaves. Identify and correct the error.",
+      "Ученик пишет ¹⁴₆C → ¹⁴₅B + ⁰₋₁e и утверждает, что заряд сохраняется, так как вылетает отрицательная частица. Найди и исправь ошибку.",
     ),
     b(
       "Calculate the lower-number total on the right.",
       "Вычисли сумму нижних чисел справа.",
     ),
     b(
-      "The proposed right-hand charge is 5 − 1 = 4, not 6.",
-      "В предложенной записи справа 5 − 1 = 4, а не 6.",
+      "The right side gives 5 + (−1) = 4, but the left side has 6.",
+      "Справа получается 5 + (−1) = 4, а слева стоит 6.",
     ),
     b(
-      "The daughter must have Z = 7 because 7 − 1 = 6.",
-      "Должно быть Z = 7, потому что 7 − 1 = 6.",
+      "The daughter must have Z = 7, because 7 + (−1) = 6.",
+      "Дочернее ядро (daughter nucleus) должно иметь Z = 7, потому что 7 + (−1) = 6.",
     ),
     b(
-      "Correct daughter: ¹⁴₇N; A stays 14 as a neutron becomes a proton.",
-      "Правильное дочернее ядро ¹⁴₇N; A = 14, поскольку нейтрон стал протоном.",
+      "Correct equation: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e (+ electron antineutrino). A stays 14 because a neutron becomes a proton.",
+      "Правильное уравнение: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e (+ электронное антинейтрино). A остаётся 14, потому что нейтрон превращается в протон.",
     ),
   ),
   q(

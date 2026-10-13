@@ -853,11 +853,11 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "russianTerm": "дочернее ядро",
     "contrast": {
       "en": "Balance nucleon number and electric charge for these school reactions; a beta electron has charge −1 but contains no nucleons.",
-      "ru": "В этих школьных реакциях уравнивают число нуклонов и электрический заряд; бета-электрон имеет заряд −1, но не содержит нуклонов."
+      "ru": "В этих школьных реакциях уравнивают число нуклонов и электрический заряд; бета-частица (электрон) имеет заряд −1, но не содержит нуклонов."
     },
     "model": {
-      "en": "Energy and momentum must also be conserved. A and charge balance alone cannot establish that a reaction is physically possible; rest mass can change.",
-      "ru": "Должны сохраняться также энергия и импульс. Одного баланса A и заряда недостаточно для физической возможности реакции; сумма масс покоя может меняться."
+      "en": "These rules apply to the alpha, beta-minus and gamma decays on this page. They say nothing about how fast a decay happens or how much energy is released.",
+      "ru": "Эти правила работают для альфа-, бета-минус- и гамма-распадов на этой странице. Они ничего не говорят о том, как быстро идёт распад и сколько энергии выделяется."
     },
     "sources": [
       {

@@ -261,27 +261,27 @@
   },
   "textTypesPage": {
     "title": "Text Types (Criterion C)",
-    "intro": "Nine text types you may be asked to write. Match the format and audience carefully."
+    "intro": "You may be asked to write one of these text types for Criterion C. Each has its own format and conventions, so check them before you start writing."
   },
   "textTypes": {
     "essay": {
       "name": "Essay",
-      "rule": "An essay develops a focused response or argument through an introduction, connected paragraphs and a conclusion. The task determines purpose, register, evidence and length; first person and paragraph structures depend on the assignment.",
+      "rule": "An essay is a short prose text in free composition: the writer gives a personal view on a topic, and an argument or a final conclusion is optional. An argumentative essay states a thesis and proves it paragraph by paragraph; the five-paragraph plan of a timed exam answer is a separate school scheme. The task sets the purpose, register, length and whether the first person is allowed.",
       "examples": [
-        "A thesis makes a claim that the following paragraphs develop.",
-        "Use evidence appropriate to the subject and explain how it supports the claim.",
-        "Register and whether to use “I” depend on the assignment."
+        "Thesis: 'Libraries should stay open late, because not every student has a quiet place to study at home.'",
+        "Supporting evidence: 'Mara finishes her history essays in the library because it is quieter than home. A library open late would help every student in the same position.'",
+        "Formal: 'This essay argues that libraries should stay open late.' Personal: 'I used to think libraries were only for exams.' Use the first person only when the task allows it."
       ],
-      "tip": "Always answer the question in the introduction (state your thesis), then prove it. Don't list — argue."
+      "tip": "In an argumentative essay, answer the question and state your thesis in the introduction, then prove it: argue, don't list."
     },
     "letter": {
       "name": "Letter",
-      "rule": "A letter is a message addressed to a recipient. Include an appropriate greeting, organised body and closing; a formal posted letter may need addresses and a date. Layout and closing conventions vary by country and organisation.",
+      "rule": "A letter is a written message to a specific recipient. It needs a greeting that suits your relationship with the reader, a clear body and a closing. Layout conventions for formal letters can differ between countries and organisations.",
       "examples": [
-        "Formal opening: 'Dear Mr Smith,' / closing: 'Yours sincerely, [name]' (when you know the name) or 'Yours faithfully' (when you don't).",
+        "Formal opening: 'Dear Ms Taylor,' with the closing 'Yours sincerely, Sam'. If you do not know the addressee's name, open with 'Dear Sir/Madam' and close with 'Yours faithfully'.",
         "Informal opening: 'Dear Granny,' / closing: 'Love, Sam' or 'Best wishes,'.",
-        "Letter of complaint: state the issue, evidence, action requested, deadline.",
-        "Letter to editor: short, punchy, opinion-driven."
+        "Letter of complaint: 'The lunch queue has taken over 20 minutes since Monday. I timed it on three days, and it reached 25 minutes on Thursday. Please open a second serving point by Friday.' The issue, the evidence, the action and the deadline come in that order.",
+        "Letter to the editor: 'The new timetable leaves our stop without a bus after 7pm. Late shift workers have no safe way home. The council should review it this month.' Short, with one clear opinion and a call to action."
       ],
       "watchOut": "DON'T mix formal and informal: never write 'Dear Sir/Madam' then 'Take care!' — register must match throughout."
     },
@@ -291,77 +291,99 @@
       "examples": [
         "Subject: 'Request: extension on history essay deadline'",
         "Body: 'Hi Ms Taylor, I'm writing to ask for a two-day extension on the history essay due Friday. I've been unwell since Monday. Thank you for considering this. Best wishes, Sam.'",
-        "Reply: 'Hi Sam, Thanks for letting me know. The new deadline is Monday at 9am. Best, Ms Taylor'"
+        "Reply: 'Hi Sam, Thanks for letting me know. The new deadline is Sunday at 6pm. Best, Ms Taylor.'"
       ],
-      "tip": "First sentence states your purpose — readers scan, they don't read line by line. Subject lines decide if your email gets opened."
+      "tip": "Put your purpose in the first sentence, because readers scan emails and the subject line decides whether they open them."
     },
     "speech": {
       "name": "Speech",
-      "rule": "A speech is prepared for listeners. Establish your purpose, organise ideas in an audible sequence and close clearly. Direct address, repetition or a call to action may suit a persuasive speech, but are not required in every speech.",
+      "rule": "A speech is prepared for listeners. State your purpose, organise ideas in a sequence listeners can follow by ear, and close clearly. Direct address, repetition or a call to action suit a persuasive speech but are not required in every speech.",
       "examples": [
         "Hook: 'Imagine waking up tomorrow with no internet. How long before you'd cope?'",
-        "Tricolon: 'We need education, opportunity, and hope.'",
+        "Tricolon (three parallel items): 'We need education, opportunity, and hope.'",
         "Direct address: 'Friends, fellow students, you have the power to change this.'",
-        "Famous example: MLK 'I Have a Dream' — uses anaphora ('I have a dream that...').",
-        "Call to action: 'So sign the petition. Speak to your MP. Be the change.'"
+        "Anaphora: 'We want a library that opens late. We want a garden that everyone can use. We want a school that listens.'",
+        "Call to action: 'So sign the petition. Speak to your MP. Start a group at school this week.'"
       ],
-      "tip": "Read it aloud as you write. Use shorter sentences than essays — listeners can't re-read. Pause cues: ellipses, dashes."
+      "tip": "Read your speech aloud as you write it, keep sentences short enough to say in one breath, and use dashes or ellipses to mark pauses."
     },
     "newspaper": {
       "name": "Newspaper Article",
       "rule": "A newspaper article may report news, explain a topic or offer commentary. A straight news report often has a headline, byline and a lead giving key facts, followed by supporting detail; features and opinion pieces may use different structures.",
       "examples": [
-        "Fictional headline: “Local pupils open a community garden”.",
-        "Fictional lead: “Pupils opened a garden beside the library on Saturday to provide a shared growing space.”",
-        "In real reporting, attribute statements and verify names, dates, quotations and numbers."
+        "Headline: 'Local pupils open a community garden'",
+        "Lead: 'Pupils opened a garden beside the library on Saturday to provide a shared growing space.'",
+        "Attribution: 'Léa, who runs the garden club, said the group would meet every Saturday.' Before publishing, check every name, date, quotation and number."
       ],
-      "tip": "Inverted pyramid — if your editor cuts the last paragraph, the story should still make sense. Crucial info goes UP TOP."
+      "tip": "In an inverted pyramid, put the most important facts first, so the story still makes sense if the editor cuts the last paragraph."
     },
     "online": {
       "name": "Online Article",
-      "rule": "An online article is an article published on the web, not a single fixed genre. Clear headings, links and short sections may help navigation. Tone, length and evidence depend on the audience and purpose.",
+      "rule": "An online article is a piece of writing published on a website. It has no single fixed genre: a review, a guide or a personal opinion can all be published online. Tone, length and evidence depend on the audience and purpose.",
       "examples": [
-        "A heading states the question the section answers.",
+        "A subheading can state the question the section answers, for example 'Why do readers skim online?'",
         "Links let readers inspect the evidence behind a factual claim.",
-        "A news report and a personal tutorial can both be online while using different registers."
+        "A news report and a personal how-to post can both appear online, but they use different registers."
       ],
-      "tip": "Give readers a clear route through the information. Numerical limits on paragraph length or subheading frequency are design choices, not genre rules."
+      "tip": "Give readers a clear route through the information: numerical limits on paragraph length or subheading frequency are design choices, not genre rules."
     },
     "blog": {
       "name": "Blog Article",
-      "rule": "A blog post is an entry in a regularly updated web publication. It may be personal, professional, explanatory or argumentative. First person and conversational language are options when they suit the writer and audience.",
+      "rule": "A blog post is an entry in a regularly updated online journal. Its entries are arranged by date. It may be personal, professional, explanatory or persuasive. First person and conversational language are options, not requirements.",
       "examples": [
         "Title: 'Why I quit Netflix for a month (and what I learned)'",
         "Opening: 'So three weeks ago, I deleted Netflix from my phone. I know — radical, right?'",
         "Body: 'Here's the thing nobody told me about screen-time addiction...'",
         "Closing: 'What's the one app you couldn't live without? Drop a comment below.'",
-        "Top blogs: Wait But Why, Mark Manson, The Pudding."
+        "Byline: 'Posted by Alex on 14 October 2026 · 4 min read'"
       ],
-      "tip": "A recognisable voice still benefits from accurate wording and proofreading. Match informality to the intended audience."
+      "tip": "Even a recognisable voice needs accurate wording and proofreading, and the level of informality should suit the intended audience."
     },
     "guide": {
       "name": "Revision Guide",
-      "rule": "A revision guide organises knowledge for study and retrieval. Define terms accurately, show examples and include questions that check understanding; headings and diagrams should make the relationships easier to follow.",
+      "rule": "A revision guide organises knowledge so that it is easy to recall. It defines terms accurately, shows worked examples and includes questions that check understanding.",
       "examples": [
-        "Heading: 'Quadratic equations'",
-        "Definition box: 'A quadratic equation is one in the form ax² + bx + c = 0, where a ≠ 0.'",
-        "Worked example: 'Solve x² - 5x + 6 = 0. Factorise: (x-2)(x-3) = 0. So x = 2 or x = 3.'",
-        "Tip box: '💡 Always check by substituting back into the original equation.'",
-        "This very page is a revision guide."
+        "Heading: 'Command terms'",
+        "Definition box: 'Describe means give a clear account of what something is or looks like; explain means give reasons.'",
+        "Worked example: 'Question: Explain how the writer creates tension. Answer: the short sentences force a pause, so the reader feels the same hesitation as the character.'",
+        "Tip box: 'Always check that your answer responds to the command term in the question.'",
+        "Checklist: can you define each term without notes, and solve one example on your own?"
       ],
-      "tip": "Layout matters as much as content — a well-formatted guide with whitespace and clear hierarchy is more useful than a wall of text."
+      "tip": "Layout matters as much as content: a guide with white space and a clear hierarchy of headings is more useful than a wall of text."
     },
     "script": {
       "name": "Script",
-      "rule": "A script sets out dialogue and directions for performance or production. Stage plays, film and radio use different conventions; character labels and clear action or sound directions help the intended performers.",
+      "rule": "A script sets out dialogue and stage directions for performance or production. Stage plays, films and radio programmes use different conventions; character names and clear descriptions of action and sound help the performers.",
       "examples": [
         "Scene heading: 'INT. SCHOOL CAFETERIA — DAY'",
-        "Action: 'SAM sits alone, picking at his food. ALEX enters, sees him.'",
-        "Dialogue: 'ALEX: Mind if I sit?'",
+        "Action: 'ALEX sits alone, picking at his food. SAM enters and sees him.'",
+        "Dialogue, typed as plain text: 'SAM: Mind if I sit?'",
         "Parenthetical: '(quietly) Yeah... whatever.'",
-        "Plays use slightly different format (e.g., character names centered) vs screenplays (Hollywood format)."
+        "Plays and screenplays are laid out differently. In a screenplay, character names are centred above the dialogue (the Hollywood format); in a play, they usually sit at the left margin."
       ],
-      "tip": "Show, don't tell. Don't write 'Sam is sad' — write 'Sam stares at his lunch without eating.' Dialogue should sound like real people speaking, not perfect sentences."
+      "tip": "Show, don't tell: write 'Alex stares at the tray without eating' rather than 'Alex is sad', and let dialogue sound like real speech rather than perfect sentences."
+    },
+    "narrative": {
+      "name": "Narrative",
+      "rule": "A narrative tells a connected story: characters, a setting and a conflict that changes the situation, with events in a clear time order, usually in the past tense. A narrator tells it from one point of view: 'I' (inside the story) or 'he', 'she' or 'they' (outside it).",
+      "examples": [
+        "I didn't want to go to the party, but Mum had already told everyone I would be there.",
+        "Mara wanted the lead role in the summer play more than anything, but the director had already given it to her best friend.",
+        "Léa missed the last bus, so she walked home through the empty market, and that was when she heard the piano.",
+        "In the end, Sam gave the wallet back to its owner, and for the first time all week he felt lighter."
+      ],
+      "watchOut": "DON'T confuse the two: a narrative is one connected story with a plot, while a diary is a set of dated entries about the writer's own life, and a single entry does not need a plot."
+    },
+    "diary": {
+      "name": "Diary",
+      "rule": "A diary is a set of dated entries in which the writer records personal experience, thoughts and feelings. Entries are written in the first person, in an informal register, mainly for the writer alone. Each entry usually covers one day or a short period.",
+      "examples": [
+        "Monday 12 October. I passed the maths test, and I still can't quite believe it.",
+        "I shouldn't have shouted at Alex this morning. I was tired, but that's no excuse, so I'll apologise tomorrow.",
+        "Honestly, another late train. I missed the start of the film, and my hands are freezing.",
+        "Saturday 10 October. Went to the market with Sam, bought too many peaches and no batteries."
+      ],
+      "watchOut": "DON'T polish a diary entry like a finished essay: fragments and unfinished thoughts are normal, and a neat final paragraph is not needed."
     }
   },
   "devicesPage": {
@@ -374,28 +396,28 @@
       "rule": "A metaphor describes one thing in terms of another, transferring features or associations without presenting a literal identity. It can be a noun, verb or longer image; it need not say “X is Y”.",
       "examples": [
         "“Her argument collapsed.” An argument is presented as a structure that can fall.",
-        "“Time is a thief.” Time is imagined as taking something valuable."
+        "“The classroom was a zoo before the test.” The noise and disorder of the room are described as the chaos of a zoo."
       ],
-      "tip": "Identify both things and the relevant shared feature. A human role applied to an abstraction may also be personification."
+      "tip": "Name both things the metaphor links and the feature that is transferred between them."
     },
     "simile": {
       "name": "Simile",
-      "rule": "A simile explicitly compares unlike things through a shared feature, often using “like” or “as”. Its effect depends on the particular comparison and context; it is not inherently weaker than a metaphor.",
+      "rule": "A simile compares two unlike things directly, using the words “like” or “as”, to show a shared quality. Its effect depends on the particular comparison and context; it is not inherently weaker than a metaphor.",
       "examples": [
         "“Her voice was like sandpaper.” The comparison suggests a rough sound.",
         "“He waited as still as a statue.” The comparison highlights lack of movement.",
         "“I like music” expresses a preference and is not a simile."
       ],
-      "tip": "Choose an image that fits the meaning. An original simile does not automatically earn a higher mark."
+      "tip": "Quote the whole comparison, not just the noun, and explain why the writer chose this pairing."
     },
     "anaphora": {
       "name": "Anaphora",
       "rule": "Anaphora repeats a word or phrase at the beginning of successive clauses, sentences or verse lines. This repeated opening can connect ideas and build emphasis.",
       "examples": [
         "“We need time. We need trust. We need change.” Each sentence begins “We need”.",
-        "“Tomorrow, and tomorrow, and tomorrow” is repetition within one line; it is not, by itself, a clear example of anaphora."
+        "“Nobody came. Nobody called. Nobody cared.” Each sentence begins with “Nobody”."
       ],
-      "tip": "Name where the repetition occurs. Repetition is the broader category; repeated endings are epistrophe."
+      "tip": "Two repetitions may be a coincidence; three or more form a pattern worth commenting on."
     },
     "alliteration": {
       "name": "Alliteration",
@@ -405,7 +427,7 @@
         "“City” and “cat” start with the same letter but different sounds, /s/ and /k/.",
         "“Silent streets” repeats /s/ and also illustrates sibilance, a repeated hissing sound."
       ],
-      "tip": "A sound has no fixed emotion: support claims such as “menacing” or “gentle” with the words and situation."
+      "tip": "A sound does not carry a fixed emotion by itself: support claims such as “menacing” or “gentle” with the words and situation."
     },
     "personification": {
       "name": "Personification",
@@ -415,25 +437,25 @@
         "“Hope refused to leave.” An abstract idea is given human determination.",
         "“The dog ran” is literal animal behaviour, so it is not personification."
       ],
-      "tip": "An action performed by both humans and animals, such as swallowing, may create animation without unambiguously personifying. Explain the image before choosing a label."
+      "tip": "A human-like action such as swallowing can be done by animals too, so it does not automatically personify. Explain the image first, then choose the label."
     },
     "hyperbole": {
       "name": "Hyperbole",
       "rule": "Hyperbole is deliberate exaggeration intended to emphasise a feeling or point, rather than to be accepted as a literal measurement or fact.",
       "examples": [
         "“I have waited a thousand years!” exaggerates a long or frustrating wait.",
-        "“This bag weighs a ton” exaggerates the effort of carrying it."
+        "“This bag weighs a ton” exaggerates how heavy the bag is, so carrying it may feel like a huge effort."
       ],
-      "tip": "Explain what is exaggerated and why. An inaccurate statement is not automatically a hyperbole."
+      "tip": "Say what is exaggerated and what effect the exaggeration has on the reader."
     },
     "rhetoricalQuestion": {
       "name": "Rhetorical question",
       "rule": "A rhetorical question is asked mainly to make a point, provoke thought or express a feeling, rather than to obtain new information from an answer.",
       "examples": [
-        "“Who would choose more homework?” may imply an expected answer in a persuasive speech.",
+        "“Who would choose more homework?” in a speech against extra tasks expects the answer “nobody”.",
         "“How long can we ignore this?” challenges the audience to act."
       ],
-      "tip": "The same wording can be a genuine question in another context. Judge its purpose, not the question mark alone."
+      "tip": "Decide first whether the writer expects an answer, then explain the effect."
     },
     "imagery": {
       "name": "Imagery",
@@ -442,16 +464,16 @@
         "“The damp wool scratched her neck.” Touch is central.",
         "“A sharp lemon scent filled the room.” Smell is central."
       ],
-      "tip": "Imagery is broader than metaphor. More senses do not automatically make a passage more effective."
+      "tip": "Name the sense the description appeals to and the mood it creates."
     },
     "onomatopoeia": {
       "name": "Onomatopoeia",
       "rule": "Onomatopoeia uses a word whose sound imitates or suggests the sound it names. These imitations are conventional and vary between languages.",
       "examples": [
         "“Buzz”, “hiss” and “clang” suggest sounds through pronunciation.",
-        "English “woof” and Russian «гав» represent a dog’s bark differently."
+        "A dog’s bark is “woof” in English but “gav” in Russian, so each language has its own imitation."
       ],
-      "tip": "Alliteration repeats sounds across words; onomatopoeia imitates a sound. A phrase may do both."
+      "tip": "Say which sound the word imitates and how that sound supports the meaning."
     },
     "irony": {
       "name": "Irony",
@@ -461,25 +483,25 @@
         "Situational: a campaign for silence is disrupted by its own loudspeaker.",
         "Dramatic: the audience knows a guest is plotting against an unsuspecting host."
       ],
-      "tip": "Sarcasm is often mocking and can use irony; the terms are not identical. Irony need not involve punishment or poetic justice."
+      "tip": "Name the type of irony first, then explain the gap that creates it."
     },
     "symbolism": {
       "name": "Symbolism",
       "rule": "Symbolism uses something concrete, such as an object, image or action, to suggest meaning beyond its literal role. A symbol’s meaning is established by the work and its cultural context.",
       "examples": [
-        "Blood in Macbeth can suggest guilt as well as physical violence.",
+        "A character who keeps washing her hands may suggest guilt, not just cleanliness.",
         "A locked gate might suggest exclusion if the surrounding text supports that reading."
       ],
-      "tip": "A recurring element is a motif; it becomes symbolic when it carries further meaning. A dove is a conventional peace symbol, not a universal code."
+      "tip": "Check where the image recurs before you call it a symbol: a recurring element is a motif and becomes a symbol only when it carries further meaning."
     },
     "foreshadowing": {
       "name": "Foreshadowing",
       "rule": "Foreshadowing is an earlier detail that hints at a later development. The connection may create anticipation on a first reading or become clear only after the event.",
       "examples": [
         "A story mentions a bridge’s damaged support before that bridge later collapses.",
-        "A warning about a character’s distrust prepares for a later betrayal."
+        "Early in the story, a character leaves the back door unlocked “for a minute”. Later, that door is how the intruder gets in."
       ],
-      "tip": "Explain the later event that the detail anticipates. Bad weather or a title is not automatically foreshadowing."
+      "tip": "Name the later event the detail points to, then explain the link."
     }
   },
   "grammarPage": {
@@ -705,36 +727,36 @@
   },
   "reading": {
     "strategies": {
-      "title": "Strategies",
+      "title": "Reading strategies",
       "detailed": {
         "skim": {
           "name": "Skim",
           "use": "Read quickly for the overall subject, purpose and organisation before examining details.",
-          "rule": "Look at the title, headings, opening, conclusion and prominent sentences. Adapt the route to the text: a poem or dialogue may not have topic sentences in predictable places.",
-          "tip": "Don't read every word. Your goal is to know WHAT and ROUGHLY HOW, not the detail."
+          "rule": "Look at the title, the headings, the opening and closing lines, and any sentence that stands out. Adjust the method to the text: a poem or a dialogue may not state its main idea at the start or the end.",
+          "tip": "Do not stop at unfamiliar words. Read on, then go back only if the word blocks the main idea."
         },
         "scan": {
           "name": "Scan",
-          "use": "Find a specific piece of information (a name, date, key word, quote).",
+          "use": "Use it when you need one specific piece of information, such as a name, a date, a keyword or a quotation.",
           "rule": "Choose the detail you need, then search for distinctive names, numbers or related words. Once you find a candidate, read the surrounding sentences carefully to check its meaning.",
           "examples": [
-            "To find an event’s date, scan for the event name and dates; then check which date belongs to it.",
-            "To find a metaphor, close reading of meaning is usually needed: there may be no single keyword to scan for."
+            "A question asks when the storm arrived. Scan for “storm” and any dates or times, then check that the date appears in the sentence about the storm.",
+            "Scanning rarely finds a metaphor, because there is usually no single keyword to search for. You have to read for meaning instead."
           ]
         },
         "annotate": {
           "name": "Annotate",
           "use": "Mark up the text as you read so you can find evidence quickly when answering.",
-          "rule": "Add brief notes or marks that help you understand and revisit the text: identify a relevant phrase, propose its effect, and record questions or a possible shift in tone. Do not assume every passage contains the same devices or a shift.",
-          "tip": "Choose a consistent marking system suited to the task. A useful note explains why a detail matters; colouring every line makes key evidence harder to find."
+          "rule": "Add brief notes that help you understand and revisit the text: mark a relevant phrase, propose its effect, and record any question or possible shift in tone.",
+          "tip": "Use the same few marks every time, for example a box around a device and a wavy line for tone, so that each mark means the same thing throughout the text. Colouring every line makes key evidence harder to find."
         },
         "infer": {
           "name": "Infer",
           "use": "Read between the lines — what is the author IMPLYING but not directly saying?",
           "rule": "An inference is a conclusion supported by textual clues and relevant background knowledge. Separate what the text states from what you infer and consider other plausible explanations.",
           "examples": [
-            "“She slammed the door” may suggest anger; the surrounding scene could instead show fear or a strong draught.",
-            "“The sky was the colour of bruises” may connect the setting with hurt or menace; support that reading with context."
+            "“She slammed the door” suggests anger. If the previous lines describe a sudden draught, the reader should infer a physical cause instead.",
+            "“The garden had gone grey and silent” suggests the setting mirrors someone’s grief. The garden cannot literally grieve, so the reader must work out the link."
           ]
         }
       }
@@ -745,10 +767,10 @@
         "literal": {
           "name": "Literal questions",
           "use": "Ask for information stated explicitly in the text.",
-          "rule": "Locate the relevant statement and quote or paraphrase it accurately. Follow the question’s instructions and mark allocation rather than assuming a fixed number of marks.",
+          "rule": "Locate the relevant statement and quote it accurately or paraphrase it. Follow the question’s wording and use the mark allocation to decide how many details to give.",
           "examples": [
-            "'State one reason Macbeth feels afraid.' → quote directly.",
-            "'Name two effects of climate change mentioned.' → list directly from text."
+            "“State one reason Sam is late.” Quote the line that gives the reason directly, for example “The bus broke down on the way.”",
+            "“Name two effects of climate change mentioned in the text.” Give two effects the text states. An effect from your own knowledge does not answer this question, however accurate it is."
           ]
         },
         "inferential": {
@@ -756,21 +778,21 @@
           "use": "An inferential question asks for a conclusion supported by the text but not directly stated in it, such as a possible motive or attitude.",
           "rule": "Identify a specific clue, explain the reasoning from that clue to your conclusion, and check it against the surrounding text. Distinguish a well-supported inference from a possible reading or an unsupported guess.",
           "examples": [
-            "If a relationship is described as “cold”, emotional distance is a possible inference. Check the surrounding words: a physical temperature or another meaning may also be relevant."
+            "If a relationship is described as “cold”, emotional detachment is a possible inference. The word may also mean a physical temperature, so decide which meaning the context supports."
           ]
         },
         "language": {
           "name": "Language analysis",
-          "use": "Test how the writer creates meaning: 'How does the writer use language?'",
+          "use": "Asks how the writer creates meaning: 'How does the writer use language?'",
           "rule": "Select precise wording, explain its meaning and associations, and connect these to a supported interpretation. Name a technique when the label helps explain the choice.",
           "examples": [
-            "In the invented phrase “a sea of doubt”, doubt is imagined as a vast surrounding mass; this may suggest being overwhelmed. This is an original example, not a quotation from Macbeth."
+            "In the phrase “a sea of doubt”, doubt is imagined as a vast surrounding mass; this may suggest being overwhelmed."
           ],
           "tip": "Never say 'the writer uses a metaphor to make it more interesting.' Always say WHAT specific feeling, image, or idea the technique creates."
         },
         "evaluation": {
           "name": "Evaluation questions",
-          "use": "Test critical judgement: 'How effective is X?' / 'To what extent…?'",
+          "use": "An evaluation question asks for a critical judgement, for example “How effective is X?” or “To what extent…?”",
           "rule": "Make a judgement about the feature named in the question. Support it with relevant details and explain how they bear on your judgement. Discuss limits or counter-evidence where they matter; follow the task’s actual requirements.",
           "examples": [
             "For a question about imagery, identify an image, explain its effect in context and judge how it serves the text’s purpose. A different supported interpretation may also be valid."
@@ -782,12 +804,12 @@
       "title": "PEEL paragraph structure",
       "body": "PEEL (Point, Evidence, Explain, Link) is a planning scaffold for an analytical paragraph. It helps connect a claim, evidence and reasoning; it is not an exam rule or a guaranteed marking checklist.",
       "steps": {
-        "p": "POINT — open with your topic sentence. State the specific claim this paragraph proves. e.g., 'Shakespeare presents Lady Macbeth as more ruthless than her husband in Act 1.'",
-        "e1": "EVIDENCE — use a relevant short quotation or precise reference. For example, Lady Macbeth asks the spirits to “unsex me here” in Act 1, scene 5.",
-        "e2": "EXPLAIN — show how the wording supports your claim. The imperative “unsex” can suggest Lady Macbeth’s wish to escape qualities her culture associates with womanhood; relate this reading to the rest of her speech.",
-        "l": "LINK — connect back to the question and forward to the next paragraph. e.g., 'This ruthless ambition contrasts sharply with Macbeth's hesitation in Scene 7, setting up the central tension of the play.'"
+        "p": "POINT — open with your topic sentence: the specific claim this paragraph will prove. For example, “The writer presents Sam as more anxious than his brother at the start of the story.”",
+        "e1": "EVIDENCE — use a relevant short quotation or precise reference. For example, “Sam checked the lock three times while his brother was already asleep.”",
+        "e2": "EXPLAIN — show how the wording supports your claim. “Three times” suggests that one check is never enough for Sam, and the contrast with his sleeping brother shows that his anxiety is greater. Relate this reading to the rest of the paragraph.",
+        "l": "LINK — connect back to the question and forward to the next paragraph. For example, “This anxiety contrasts sharply with his brother’s calm, setting up the tension the next paragraph explores.”"
       },
-      "tip": "Adapt the order and amount of evidence to your argument. Follow the actual task and assessment criteria; a paragraph may need several pieces of evidence and explanation."
+      "tip": "Adapt the amount of evidence to your argument. A paragraph may need several pieces of evidence, each with its own explanation; follow the task and its assessment criteria."
     }
   },
   "essaysPage": {

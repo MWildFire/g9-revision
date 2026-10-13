@@ -3,10 +3,10 @@ import type { DefinitionReview } from '../components/content/definitionReview';
 export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   "devices.metaphor": {
     "englishTerm": "Metaphor",
-    "russianTerm": "Метафора (metaphor)",
+    "russianTerm": "Метафора",
     "contrast": {
-      "en": "Identify both things and the relevant shared feature. A human role applied to an abstraction may also be personification.",
-      "ru": "Назови оба сопоставленных понятия и общий признак. Человеческая роль, приписанная абстракции, может одновременно быть олицетворением."
+      "en": "A literal statement is not a metaphor: “The bridge collapsed” reports a real fall, while “Her argument collapsed” moves the idea of falling onto reasoning.",
+      "ru": "Буквальное высказывание — не метафора: «Мост рухнул» сообщает о реальном падении, а «её аргумент рассыпался» переносит идею падения на рассуждение."
     },
     "sources": [
       {
@@ -23,16 +23,16 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The metaphor “Her argument collapsed” presents her reasoning as a structure that can fall. This suggests that the argument is weak and easy to defeat, so the reader may be less ready to trust it.",
+      "ru": "Метафора «её аргумент рассыпался» представляет рассуждение как конструкцию, которая может рухнуть. Это подсказывает, что аргумент слабый и легко опровергается, поэтому читатель может меньше ему доверять."
     }
   },
   "devices.simile": {
     "englishTerm": "Simile",
-    "russianTerm": "Образное сравнение (simile)",
+    "russianTerm": "Сравнение",
     "contrast": {
-      "en": "Choose an image that fits the meaning. An original simile does not automatically earn a higher mark.",
-      "ru": "Выбирай образ, который помогает передать смысл. Необычное сравнение само по себе не гарантирует более высокую оценку."
+      "en": "Look for “like” or “as” between the two things. Without it, the link is a metaphor.",
+      "ru": "Ищи слово «как», «будто» или «словно» (в английском — like или as) между двумя предметами. Без него связь — это метафора."
     },
     "sources": [
       {
@@ -49,8 +49,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The simile “as still as a statue” makes his waiting look rigid, which suggests he is holding back tension rather than resting.",
+      "ru": "Сравнение «as still as a statue» делает его ожидание каменно неподвижным: это намекает, что он сдерживает напряжение, а не отдыхает."
     },
     "visual": {
       "kind": "comparison",
@@ -91,17 +91,17 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
         }
       ],
       "caption": {
-        "en": "The image changes the meaning’s presentation; these forms have no fixed ranking of strength.",
-        "ru": "Образ меняет способ передачи смысла; у форм нет постоянной шкалы выразительности."
+        "en": "The literal line names the quality; the two figurative lines add an image that has to be interpreted.",
+        "ru": "Буквальная фраза называет качество прямо; две образные добавляют образ, который нужно истолковать."
       }
     }
   },
   "devices.anaphora": {
     "englishTerm": "Anaphora",
-    "russianTerm": "Анафора (anaphora)",
+    "russianTerm": "Анафора",
     "contrast": {
-      "en": "Name where the repetition occurs. Repetition is the broader category; repeated endings are epistrophe.",
-      "ru": "Укажи позицию повтора. Повтор — более широкое понятие; повтор концовок называется эпифорой (epistrophe)."
+      "en": "Anaphora repeats the opening of clauses. Repeating the endings of clauses is epistrophe, not anaphora.",
+      "ru": "Анафора повторяет начало фраз. Повтор их концовок — это эпифора (epistrophe), а не анафора."
     },
     "sources": [
       {
@@ -118,14 +118,14 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The repeated opening “Nobody” makes the character’s isolation grow, because each clause adds another way in which no one responded.",
+      "ru": "Повтор начала «Nobody» заставляет почувствовать, что одиночество героя растёт: каждая фраза добавляет ещё один способ, которым никто не откликнулся."
     },
     "visual": {
       "kind": "parts",
       "title": {
         "en": "Locate the repetition",
-        "ru": "Найди позицию повтора"
+        "ru": "Найди повтор в начале фраз"
       },
       "items": [
         {
@@ -135,7 +135,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
           },
           "detail": {
             "en": "Repeated opening: We need",
-            "ru": "Повтор начала: We need"
+            "ru": "Повтор начала: «We need»"
           }
         },
         {
@@ -167,10 +167,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "devices.alliteration": {
     "englishTerm": "Alliteration",
-    "russianTerm": "Аллитерация (alliteration)",
+    "russianTerm": "Аллитерация",
     "contrast": {
-      "en": "A sound has no fixed emotion: support claims such as “menacing” or “gentle” with the words and situation.",
-      "ru": "У звука нет закреплённой эмоции. «Угрожающее» или «мягкое» звучание обосновывай словами и ситуацией."
+      "en": "Repeated vowels are not alliteration: in “Feed the deep sea” the same vowel recurs, but the first consonants differ. Alliteration repeats consonants.",
+      "ru": "Повтор гласных — не аллитерация: в «Feed the deep sea» повторяется гласный звук, а начальные согласные разные. Аллитерация — повтор согласных."
     },
     "sources": [
       {
@@ -187,16 +187,16 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The alliteration in “Wild and windy weather” links the three words through the repeated /w/, so the weather feels like one continuous force.",
+      "ru": "Аллитерация в «Wild and windy weather» связывает три слова повтором /w/, поэтому погода кажется одной непрерывной силой."
     }
   },
   "devices.personification": {
     "englishTerm": "Personification",
-    "russianTerm": "Олицетворение (personification)",
+    "russianTerm": "Олицетворение",
     "contrast": {
-      "en": "An action performed by both humans and animals, such as swallowing, may create animation without unambiguously personifying. Explain the image before choosing a label.",
-      "ru": "Действие, доступное и людям, и животным, например глотание, может оживлять образ, но не однозначно олицетворять его. Сначала объясни образ, затем выбирай термин."
+      "en": "Personification gives a non-human thing human behaviour, such as speaking or judging; a metaphor only carries a quality from one thing to another.",
+      "ru": "Олицетворение приписывает неживому человеческое поведение: говорит, судит; метафора лишь переносит признак с одного предмета на другой."
     },
     "sources": [
       {
@@ -213,16 +213,16 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The personification “The clock scolded me for being late” gives the clock the role of a strict adult. This suggests that the narrator feels judged by time itself, which may make being late seem a serious offence.",
+      "ru": "Олицетворение «часы отругали меня за опоздание» наделяет часы ролью строгого взрослого. Это подсказывает, что рассказчик чувствует себя осуждённым самим временем, и опоздание может казаться серьёзным проступком."
     }
   },
   "devices.hyperbole": {
     "englishTerm": "Hyperbole",
-    "russianTerm": "Гипербола (hyperbole)",
+    "russianTerm": "Гипербола",
     "contrast": {
-      "en": "Explain what is exaggerated and why. An inaccurate statement is not automatically a hyperbole.",
-      "ru": "Объясни, что именно преувеличено и зачем. Любая неточность ещё не является гиперболой."
+      "en": "“This bag weighs a ton” exaggerates the bag’s real weight. It does not borrow a feature from another thing, so it is hyperbole, not metaphor.",
+      "ru": "«Сумка весит тонну» преувеличивает реальный вес сумки. Признак другого предмета здесь не переносится, поэтому это гипербола, а не метафора."
     },
     "sources": [
       {
@@ -239,16 +239,16 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The hyperbole “I have waited a thousand years!” exaggerates how long the wait lasted. This may show the speaker’s frustration and help the reader feel how slowly time seems to pass.",
+      "ru": "Гипербола «я жду уже тысячу лет!» преувеличивает, как долго длится ожидание. Это может показывать раздражение говорящего и помогать читателю почувствовать, как медленно тянется время."
     }
   },
   "devices.rhetoricalQuestion": {
     "englishTerm": "Rhetorical question",
-    "russianTerm": "Риторический вопрос (rhetorical question)",
+    "russianTerm": "Риторический вопрос",
     "contrast": {
-      "en": "The same wording can be a genuine question in another context. Judge its purpose, not the question mark alone.",
-      "ru": "Та же фраза в другом контексте может быть настоящим вопросом. Определяй цель, а не только наличие вопросительного знака."
+      "en": "A genuine question is open: the answer is unknown. A rhetorical question has an obvious answer that the reader is expected to supply.",
+      "ru": "Настоящий вопрос открыт: ответ неизвестен. У риторического вопроса ответ очевиден, и читатель сам должен его назвать."
     },
     "sources": [
       {
@@ -259,16 +259,16 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "In a speech about a polluted river, the speaker asks, “Can anyone still call this river safe?” The question can lead the listener to a verdict of “no” and encourage them to share the speaker’s view without being asked for an opinion. The effect can be persuasive: the argument may feel settled before any evidence is given.",
+      "ru": "Вопрос может подвести слушателя к ответу «нет» и побудить его разделить мнение оратора, хотя его мнения никто не спрашивал. Эффект может быть убеждающим: спор может показаться решённым ещё до доказательств."
     }
   },
   "devices.imagery": {
     "englishTerm": "Imagery",
-    "russianTerm": "Чувственная образность (imagery)",
+    "russianTerm": "Образность",
     "contrast": {
-      "en": "Imagery is broader than metaphor. More senses do not automatically make a passage more effective.",
-      "ru": "Образность шире метафоры. Количество задействованных чувств само по себе не определяет силу описания."
+      "en": "Listing all five senses is not analysis: one well-chosen sense can carry more effect than a full list.",
+      "ru": "Перечисление всех пяти чувств — ещё не анализ: одно точно подобранное чувство может создать более сильный эффект, чем полный перечень."
     },
     "sources": [
       {
@@ -279,13 +279,13 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The sensory image “A sharp lemon scent filled the room” appeals to smell and may make the room feel fresh and clean. This helps the reader picture the setting at once and can create a fresh, lively mood.",
+      "ru": "Образ «резкий запах лимона наполнил комнату» обращается к обонянию и может сделать комнату свежей и чистой. Это помогает читателю сразу представить обстановку и может создавать свежее, бодрящее настроение."
     }
   },
   "devices.onomatopoeia": {
     "englishTerm": "Onomatopoeia",
-    "russianTerm": "Звукоподражание (onomatopoeia)",
+    "russianTerm": "Звукоподражание",
     "contrast": {
       "en": "Alliteration repeats sounds across words; onomatopoeia imitates a sound. A phrase may do both.",
       "ru": "Аллитерация повторяет звуки в словах, а звукоподражание имитирует звук. Приёмы могут сочетаться."
@@ -305,16 +305,16 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The onomatopoeia “clang” in “The gate shut with a clang” imitates a harsh metal sound. This may make the closing feel sudden and jarring, which suggests that the ending is final and unwelcome.",
+      "ru": "Звукоподражание «лязг» в предложении «Ворота закрылись с лязгом» передаёт резкий металлический звук. Из-за этого закрытие может казаться внезапным и резким, что подсказывает: конец окончательный и нежеланный."
     }
   },
   "devices.irony": {
     "englishTerm": "Irony",
-    "russianTerm": "Ирония (irony)",
+    "russianTerm": "Ирония",
     "contrast": {
-      "en": "Sarcasm is often mocking and can use irony; the terms are not identical. Irony need not involve punishment or poetic justice.",
-      "ru": "Сарказм часто язвителен и может использовать иронию, но это не синонимы. Для иронии не обязательны наказание или «поэтическая справедливость»."
+      "en": "Sarcasm is a biting, mocking remark that often uses verbal irony. Not all irony is sarcasm: situational and dramatic irony need not mock anyone.",
+      "ru": "Сарказм — язвительная насмешка, которая часто строится на словесной иронии. Не всякая ирония — сарказм: ситуационная и драматическая ирония может никого не высмеивать."
     },
     "sources": [
       {
@@ -331,16 +331,16 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The narrator calls the first morning in the café “restful”, although the waiter has already dropped three trays. The word contradicts what the reader sees, so the narrator may seem naive and the reader may sympathise with the waiter. This verbal irony can create humour while also showing the strain of the job.",
+      "ru": "Рассказчик называет первое утро в кафе «спокойным», хотя официант уже уронил три подноса. Слово противоречит увиденному, поэтому рассказчик может показаться наивным, а читатель может сочувствовать официанту. Такая словесная ирония может смешить и одновременно показывать тяжесть работы."
     }
   },
   "devices.symbolism": {
     "englishTerm": "Symbolism",
-    "russianTerm": "Символика (symbolism)",
+    "russianTerm": "Символика",
     "contrast": {
-      "en": "A recurring element is a motif; it becomes symbolic when it carries further meaning. A dove is a conventional peace symbol, not a universal code.",
-      "ru": "Повторяющийся элемент — motif (мотив); он символичен, когда несёт дополнительный смысл. Голубь — распространённый символ мира, а не универсальный код. Не путай символику с направлением Symbolism — символизмом."
+      "en": "A symbol stands for an idea beyond the object itself. A dove can be a conventional peace symbol, but it does not carry this meaning universally.",
+      "ru": "Символ обозначает идею за пределами самого предмета. Голубь может быть условным символом мира, но не везде несёт этот смысл."
     },
     "sources": [
       {
@@ -351,16 +351,16 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "The red door appears three times: when the family moves in, when the father leaves and at the end of the story. Each time it appears, it marks a change in the family’s relationships, which can help the reader follow the family’s story through the door. The writer uses one physical object to suggest the family’s hope and then its loss.",
+      "ru": "Красная дверь появляется трижды (когда семья переезжает, когда уходит отец и в финале), и каждый раз она отмечает перемену в отношениях семьи. Одним предметом писатель намекает сначала на надежду семьи, а затем на её потерю. Это помогает читателю проследить историю семьи через дверь."
     }
   },
   "devices.foreshadowing": {
     "englishTerm": "Foreshadowing",
-    "russianTerm": "Предвосхищение событий (foreshadowing)",
+    "russianTerm": "Предвосхищение",
     "contrast": {
-      "en": "Explain the later event that the detail anticipates. Bad weather or a title is not automatically foreshadowing.",
-      "ru": "Назови последующее событие, на которое указывает деталь. Плохая погода или заглавие сами по себе ещё не предвосхищение."
+      "en": "Dramatic irony depends on what the audience knows now; foreshadowing depends on what will happen later.",
+      "ru": "Драматическая ирония держится на том, что зритель знает сейчас; предвосхищение — на том, что произойдёт позже."
     },
     "sources": [
       {
@@ -371,8 +371,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "Literary analysis: interpretations and effects need textual support.",
-      "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+      "en": "In the opening scene, a letter lies unopened on the hall table. Later, its news forces the family to leave the city. The unopened envelope can prepare the reader for a change that the characters do not yet expect, so the move may feel less sudden.",
+      "ru": "В первой сцене письмо лежит на столике в прихожей нераспечатанным, а позже его новость заставляет семью уехать из города. Нераспечатанный конверт может подготовить читателя к переменам, которых герои пока не ждут, поэтому переезд может казаться менее внезапным."
     }
   },
   "grammar.tenses.present": {
@@ -725,10 +725,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "reading.strategies.skim": {
     "englishTerm": "Skim",
-    "russianTerm": "Skim — пробежать по тексту",
+    "russianTerm": "Просмотровое чтение",
     "contrast": {
-      "en": "Support the response with the relevant text. This is a reading procedure, not a fixed marking formula.",
-      "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
+      "en": "Don't mistake a quick overview for analysis. After skimming you know the gist, but you do not yet have the evidence. Reread the quotations you plan to use before you comment on them.",
+      "ru": "Не путай быстрый обзор с анализом: после просмотрового чтения ты знаешь общую идею, но доказательств ещё нет. Прежде чем комментировать, перечитай цитаты, которые собираешься использовать."
     },
     "sources": [
       {
@@ -747,10 +747,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "reading.strategies.scan": {
     "englishTerm": "Scan",
-    "russianTerm": "Scan — поиск конкретного",
+    "russianTerm": "Поисковое чтение",
     "contrast": {
-      "en": "Support the response with the relevant text. This is a reading procedure, not a fixed marking formula.",
-      "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
+      "en": "Don't confuse scan with skim. When you scan, you already know what you are looking for, such as a name or a date. When you skim, you are looking for the overall idea.",
+      "ru": "Не путай поисковое чтение (scan) и просмотровое (skim). При поисковом чтении ты уже знаешь, что ищешь, например имя или дату; при просмотровом ищешь общую идею."
     },
     "sources": [
       {
@@ -769,10 +769,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "reading.strategies.annotate": {
     "englishTerm": "Annotate",
-    "russianTerm": "Annotate — пометки",
+    "russianTerm": "Пометки на тексте",
     "contrast": {
-      "en": "Support the response with the relevant text. This is a reading procedure, not a fixed marking formula.",
-      "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
+      "en": "Don't confuse annotation with summary notes. An annotation comments on how the text is written, for example “gloomy tone; effect: unease”, not on what happens in the story.",
+      "ru": "Не путай пометки с конспектом. Пометка комментирует, как написан текст, например «мрачный тон; эффект — тревога», а не то, что происходит в истории."
     },
     "sources": [
       {
@@ -791,10 +791,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "reading.strategies.infer": {
     "englishTerm": "Infer",
-    "russianTerm": "Infer — между строк",
+    "russianTerm": "Чтение между строк",
     "contrast": {
-      "en": "Support the response with the relevant text. This is a reading procedure, not a fixed marking formula.",
-      "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
+      "en": "Don't mix up the two verbs: a writer implies a meaning, and a reader infers it. Your answer should say what the writer implies and what you infer from it.",
+      "ru": "Не путай два глагола: автор подразумевает (implies) смысл, а читатель делает вывод (infer). В ответе пиши, что подразумевает автор и какой вывод делаешь ты."
     },
     "sources": [
       {
@@ -813,10 +813,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "reading.questionTypes.literal": {
     "englishTerm": "Literal questions",
-    "russianTerm": "Literal — буквальные вопросы",
+    "russianTerm": "Вопросы на буквальный смысл",
     "contrast": {
-      "en": "Support the response with the relevant text. This is a reading procedure, not a fixed marking formula.",
-      "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
+      "en": "Not every question with a clear answer is literal. If you must connect several clues to answer it, it is an inferential question.",
+      "ru": "Не каждый вопрос с ясным ответом буквальный. Если, чтобы ответить, нужно связать несколько подсказок, это вопрос на вывод."
     },
     "sources": [
       {
@@ -835,10 +835,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "reading.questionTypes.inferential": {
     "englishTerm": "Inferential questions",
-    "russianTerm": "Inferential — на вывод",
+    "russianTerm": "Вопросы на вывод",
     "contrast": {
-      "en": "Support the response with the relevant text. This is a reading procedure, not a fixed marking formula.",
-      "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
+      "en": "Inferential and evaluation questions can sound alike. First work out what the text implies; only then judge how well it does this.",
+      "ru": "Вопросы на вывод и на оценку качества звучат похоже. Сначала выясни, что подразумевает текст, и только потом оцени, насколько удачно он это делает."
     },
     "sources": [
       {
@@ -857,10 +857,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "reading.questionTypes.language": {
     "englishTerm": "Language analysis",
-    "russianTerm": "Language — анализ языка",
+    "russianTerm": "Языковой анализ",
     "contrast": {
-      "en": "Support the response with the relevant text. This is a reading procedure, not a fixed marking formula.",
-      "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
+      "en": "Naming a device is not analysis. Explain how the words work and what effect they create.",
+      "ru": "Назвать приём — ещё не анализ. Объясни, как работают слова и какой эффект они создают."
     },
     "sources": [
       {
@@ -879,10 +879,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "reading.questionTypes.evaluation": {
     "englishTerm": "Evaluation questions",
-    "russianTerm": "Evaluation — оценка",
+    "russianTerm": "Вопросы на оценку качества",
     "contrast": {
-      "en": "Support the response with the relevant text. This is a reading procedure, not a fixed marking formula.",
-      "ru": "Опирайся на нужный фрагмент текста. Это приём чтения, а не постоянная формула оценивания."
+      "en": "Evaluation judges how the text is made, not your opinion of its topic. Agreeing or disagreeing with the writer is not an evaluation.",
+      "ru": "Оценка относится к тому, как сделан текст, а не к твоему отношению к теме. Согласие или несогласие с автором — ещё не оценка."
     },
     "sources": [
       {
@@ -901,10 +901,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "textTypes.essay": {
     "englishTerm": "Essay",
-    "russianTerm": "Эссе (Essay)",
+    "russianTerm": "Эссе",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "Essay or news report: an essay gives the writer's own view on a topic in free composition; a news report states the facts and usually keeps opinion out.",
+      "ru": "Эссе или новостная заметка: эссе излагает авторское отношение к теме свободной композицией; новостная заметка сообщает факты и обычно не выражает мнение."
     },
     "sources": [
       {
@@ -917,10 +917,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "textTypes.letter": {
     "englishTerm": "Letter",
-    "russianTerm": "Письмо (Letter)",
+    "russianTerm": "Письмо",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "Letter or email: a formal letter sent by post shows the sender's address and a date at the top; an email has a subject line instead of the address block, and its date and sender are added automatically.",
+      "ru": "Письмо или электронное письмо: официальное письмо, отправляемое по почте, пишет адрес отправителя и дату вверху; в электронном письме вместо адресного блока есть тема, а дата и отправитель проставляются автоматически."
     },
     "sources": [
       {
@@ -933,10 +933,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "textTypes.email": {
     "englishTerm": "Email",
-    "russianTerm": "Email",
+    "russianTerm": "электронное письмо",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "Email or online article: an email goes to one named recipient, so it can assume shared context; an online article is published for any reader, so it must explain its own context.",
+      "ru": "Электронное письмо или онлайн-статья: письмо уходит одному адресату, поэтому может опираться на общий контекст; онлайн-статья публикуется для любого читателя и сама объясняет свой контекст."
     },
     "sources": [
       {
@@ -949,10 +949,10 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "textTypes.speech": {
     "englishTerm": "Speech",
-    "russianTerm": "Речь (Speech)",
+    "russianTerm": "Речь",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "Speech or essay: a listener cannot re-read, so a speech signals its structure aloud ('First... Finally...'); an essay relies on paragraphs a reader can check again.",
+      "ru": "Речь или эссе: слушатель не может перечитать, поэтому речь обозначает структуру вслух («Во-первых… Наконец…»); эссе опирается на абзацы, которые читатель может перечитать."
     },
     "sources": [
       {
@@ -967,8 +967,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Newspaper Article",
     "russianTerm": "Газетная статья",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "News report or letter to the editor: a straight news report keeps facts apart from opinion; a letter to the editor is one reader's opinion on a published issue.",
+      "ru": "Новостная заметка или письмо в редакцию: обычная заметка отделяет факты от мнения; письмо в редакцию — мнение одного читателя о опубликованной теме."
     },
     "sources": [
       {
@@ -983,8 +983,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Online Article",
     "russianTerm": "Онлайн-статья",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "'Online' describes where a text is published, not its genre. Decide the genre from the purpose and register, not from the website.",
+      "ru": "«Онлайн» говорит о том, где опубликован текст, а не о его жанре. Жанр определяй по цели и уровню формальности, а не по сайту."
     },
     "sources": [
       {
@@ -1005,8 +1005,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Blog Article",
     "russianTerm": "Блог",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "A blog is written for readers who can reply in the comments, so it addresses them directly. A diary is private, and its writer does not need to address anyone.",
+      "ru": "Блог пишут для читателей, которые могут ответить в комментариях, поэтому он обращается к ним напрямую. Личный дневник ведут для себя, и автору не нужно ни к кому обращаться."
     },
     "sources": [
       {
@@ -1021,8 +1021,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Revision Guide",
     "russianTerm": "Учебное руководство",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "A revision guide is not a textbook or a set of lesson notes. It keeps only what is needed to recall and apply the topic, so it selects content rather than copying all of it.",
+      "ru": "Учебное руководство — не учебник и не конспект урока. В нём есть только то, что нужно, чтобы вспомнить и применить тему: материал отобран, а не переписан целиком."
     },
     "sources": [
       {
@@ -1037,8 +1037,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Script",
     "russianTerm": "Сценарий",
     "contrast": {
-      "en": "Purpose, audience and task determine register and structure; examples are options, not universal requirements.",
-      "ru": "Цель, аудитория и задание определяют регистр и структуру; примеры — варианты, а не универсальные требования."
+      "en": "A line of dialogue is what a character says aloud. A stage direction describes action, movement or sound and is never spoken. Do not write a description of action as dialogue.",
+      "ru": "Реплика — то, что персонаж произносит вслух. Ремарка описывает действие, движение или звук и не произносится. Не записывай описание действия как реплику: актёр произнесёт его вслух."
     },
     "sources": [
       {
@@ -1050,11 +1050,11 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     ]
   },
   "reading.PEEL": {
-    "englishTerm": "PEEL paragraph scaffold",
-    "russianTerm": "Опорная схема абзаца PEEL",
+    "englishTerm": "PEEL paragraph structure",
+    "russianTerm": "Структура абзаца PEEL",
     "contrast": {
-      "en": "A scaffold organises reasoning; it is not itself an assessment criterion.",
-      "ru": "Схема организует рассуждение, но сама не является критерием оценивания."
+      "en": "The Point in PEEL is the claim of one paragraph, not the thesis of the whole answer.",
+      "ru": "Мысль в PEEL — утверждение одного абзаца, а не тезис (thesis) всего ответа."
     },
     "sources": [
       {
@@ -1078,7 +1078,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
           },
           "detail": {
             "en": "State a claim that answers the question.",
-            "ru": "Сформулируй тезис по вопросу."
+            "ru": "Сформулируй мысль, которая отвечает на вопрос."
           }
         },
         {
@@ -1088,7 +1088,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
           },
           "detail": {
             "en": "Use a detail and explain what it shows.",
-            "ru": "Приведи деталь и объясни её смысл."
+            "ru": "Приведи деталь и объясни, что она показывает."
           }
         },
         {
@@ -1097,8 +1097,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
             "ru": "Связь"
           },
           "detail": {
-            "en": "Connect it to the argument.",
-            "ru": "Свяжи её с аргументом."
+            "en": "Connect the explanation to the question.",
+            "ru": "Свяжи объяснение с вопросом."
           }
         }
       ],

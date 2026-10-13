@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { TopicHero } from '../../../components/content/TopicHero';
 import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 
-const TYPES = ['essay', 'letter', 'email', 'speech', 'newspaper', 'online', 'blog', 'guide', 'script'];
+const TYPES = ['essay', 'letter', 'email', 'speech', 'newspaper', 'online', 'blog', 'guide', 'script', 'narrative', 'diary'];
 
 export function TextTypesPage() {
   const { t, i18n } = useTranslation('english');

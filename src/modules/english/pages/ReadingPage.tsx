@@ -51,7 +51,7 @@ export function ReadingPage() {
       </div>
       <DefinitionSupport review={ENGLISH_REVIEWS['reading.PEEL']} language={lang} />
       <p className="text-xs bg-bg-tertiary/40 border border-border rounded-md px-3 py-2">
-        <span className="uppercase tracking-wider text-text-muted mr-2">💡 Tip</span>
+        <span className="uppercase tracking-wider text-text-muted mr-2">💡 {lang === 'ru' ? 'Подсказка' : 'Tip'}</span>
         {t('reading.PEEL.tip')}
       </p>
     </div>

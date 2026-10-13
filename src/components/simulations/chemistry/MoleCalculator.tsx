@@ -32,16 +32,16 @@ const PRESETS: { label: string; mass: number }[] = [
 export function MoleCalculator() {
   const { t } = useTranslation('chemistry');
   const [direction, setDirection] = useState<Direction>('m-to-n');
-  const [input, setInput] = useState('58.5');
+  const [input, setInput] = useState('29.25');
   const [molarMass, setMolarMass] = useState('58.5');
 
   const result = input.trim() === '' || (molarMass.trim() === '' && (direction === 'm-to-n' || direction === 'n-to-m')) ? null : convertChemicalAmount(direction, Number(input), Number(molarMass));
   let unit = '';
   let formula = '';
-  if (direction === 'm-to-n') { unit = 'mol'; formula = `n = m / M = ${input} / ${molarMass}`; }
-  else if (direction === 'n-to-m') { unit = 'g'; formula = `m = n × M = ${input} × ${molarMass}`; }
-  else if (direction === 'n-to-V') { unit = 'dm³'; formula = `V = n × 22.7 (STP) = ${input} × 22.7`; }
-  else if (direction === 'V-to-n') { unit = 'mol'; formula = `n = V / 22.7 (STP) = ${input} / 22.7`; }
+  if (direction === 'm-to-n') { unit = t('simulations.moleCalc.unitMol'); formula = `n = m / M = ${input} / ${molarMass}`; }
+  else if (direction === 'n-to-m') { unit = t('simulations.moleCalc.unitGram'); formula = `m = n × M = ${input} × ${molarMass}`; }
+  else if (direction === 'n-to-V') { unit = t('simulations.moleCalc.unitDm3'); formula = `V = n × 22.7 (STP) = ${input} × 22.7`; }
+  else if (direction === 'V-to-n') { unit = t('simulations.moleCalc.unitMol'); formula = `n = V / 22.7 (STP) = ${input} / 22.7`; }
 
   const showMolarMass = direction === 'm-to-n' || direction === 'n-to-m';
 
@@ -104,9 +104,9 @@ export function MoleCalculator() {
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm">
           <p className="text-xs uppercase tracking-wider text-text-muted mb-2">{t('simulations.moleCalc.presetLabel')}</p>
-          <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 font-mono text-xs">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 font-mono text-xs">
             {PRESETS.map((p) => (
-              <button key={p.label} onClick={() => setMolarMass(String(p.mass))} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary">{p.label}</button>
+              <button key={p.label} onClick={() => setMolarMass(String(p.mass))} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary whitespace-nowrap">{p.label}</button>
             ))}
           </div>
         </div>

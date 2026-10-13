@@ -144,25 +144,25 @@
     },
     "moleCalc": {
       "title": "Mole Calculator",
-      "description": "Convert between mass m and amount n using molar mass M: n = m/M and m = nM. For gas conversions this calculator assumes an ideal gas at 0 °C and 100 kPa, with Vₘ ≈ 22.7 dm³/mol. The mole counts specified particles; it is not a unit of mass.",
-      "convertPrompt": "Convert from / to:",
-      "directionMassToMoles": "Mass (g) → moles",
-      "directionMolesToMass": "Moles → mass (g)",
-      "directionMolesToVolume": "Moles → gas volume (dm³)",
-      "directionVolumeToMoles": "Gas volume (dm³) → moles",
+      "description": "Enter a number and choose a conversion direction. The calculator uses molar mass M to link mass and amount, and molar volume Vm to link amount and gas volume.",
+      "convertPrompt": "Choose a conversion:",
+      "directionMassToMoles": "Mass (g) → amount (mol)",
+      "directionMolesToMass": "Amount (mol) → mass (g)",
+      "directionMolesToVolume": "Amount (mol) → gas volume (dm³)",
+      "directionVolumeToMoles": "Gas volume (dm³) → amount (mol)",
       "inputMass": "Mass (g)",
-      "inputMoles": "Moles (n)",
-      "inputVolume": "Volume (dm³)",
+      "inputMoles": "Amount n (mol)",
+      "inputVolume": "Gas volume (dm³)",
       "molarMassInputLabel": "Molar mass M (g/mol)",
-      "presetLabel": "Common molar masses",
-      "stpNote": "The gas conversion uses the ideal-gas approximation Vₘ ≈ 22.7 dm³/mol at 0 °C and 100 kPa. Other temperatures, pressures and real gases require appropriate values.",
-      "invalidInput": "Enter a finite non-negative amount, mass or volume, and a positive molar mass for mass conversions.",
+      "presetLabel": "Preset molar masses (g/mol)",
+      "stpNote": "Gas volumes here use STP: 0 °C, 273 K, 100 kPa, where Vm = 22.7 dm³/mol. Normal conditions (0 °C, 101.325 kPa) give Vm = 22.4 dm³/mol, so do not mix the two values.",
+      "invalidInput": "Enter a number that is zero or more. Mass conversions also need a molar mass greater than zero.",
       "review": {
         "englishTerm": "Mole Calculator",
         "russianTerm": "Калькулятор молей",
         "contrast": {
-          "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
-          "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+          "en": "The volume here is a gas volume. Do not enter the volume of a solution: for solutions, use concentration instead.",
+          "ru": "Здесь объём — это объём газа. Объём раствора сюда не вводи: для растворов используй концентрацию."
         },
         "sources": [
           {
@@ -184,7 +184,10 @@
             "section": "Основные понятия, моль: количество вещества, молярная масса и концентрация"
           }
         ]
-      }
+      },
+      "unitMol": "mol",
+      "unitGram": "g",
+      "unitDm3": "dm³"
     },
     "energyProfile": {
       "title": "Interactive energy profile",
@@ -1695,13 +1698,13 @@
     "sections": {
       "moles": {
         "title": "The mole",
-        "body": "The mole is the SI unit of amount of substance. One mole contains exactly 6.02214076 × 10²³ specified entities, such as atoms, molecules or ions. Use n = m/M for a pure substance. Gas molar volume depends on temperature and pressure; it is not part of the mole's definition.",
+        "body": "The mole is the SI unit of amount of substance. One mole contains exactly 6.02214076 × 10²³ specified particles, such as atoms, molecules or ions. Reactions combine particles in fixed ratios, so chemists work with amounts of substance in moles. For a pure substance, divide the mass by the molar mass to find the amount.",
         "review": {
           "englishTerm": "The mole",
           "russianTerm": "Моль",
           "contrast": {
-            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
-            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+            "en": "A mole is not a unit of mass: one mole of magnesium atoms has a mass of about 24 g, and one mole of sulfur atoms has a mass of about 32 g.",
+            "ru": "Моль — не единица массы: 1 моль атомов магния имеет массу около 24 г, а 1 моль атомов серы — около 32 г."
           },
           "sources": [
             {
@@ -1727,13 +1730,13 @@
       },
       "molarMass": {
         "title": "Molar mass",
-        "body": "Molar mass M is mass per amount of substance: M = m/n, commonly in g mol⁻¹. Calculate a compound's molar mass by adding its elements' molar-mass contributions. Relative atomic mass Aᵣ and relative formula mass Mᵣ are dimensionless; neither is the integer mass number of an isotope.",
+        "body": "Molar mass (M) is the mass of one mole of a substance, usually in g/mol. To find a compound's molar mass, add the relative atomic masses of all its atoms, counting the subscripts. For example, M(H₂SO₄) = 2 × 1 + 32 + 4 × 16 = 98 g/mol.",
         "review": {
           "englishTerm": "Molar mass",
           "russianTerm": "Молярная масса",
           "contrast": {
-            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
-            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+            "en": "Relative formula mass (Mr) has no unit, but molar mass (M) is in g/mol. For water, Mr = 18 and M = 18 g/mol: the numbers match, but Mr is a ratio, not a mass per mole.",
+            "ru": "Относительная молекулярная (формульная) масса Mr (relative formula mass) не имеет единицы, а молярная масса M указывается в г/моль. Для воды Mr = 18 и M = 18 г/моль: числа совпадают, но Mr — это отношение, а не масса одного моля."
           },
           "sources": [
             {
@@ -1758,14 +1761,14 @@
         }
       },
       "calculations": {
-        "title": "Reaction calculations",
-        "body": "Stoichiometric calculations use a balanced equation's coefficients as ratios of amounts in moles. Convert given quantities to moles, apply the ratio for the limiting reactant, then convert to the requested units. The ratio is not generally a ratio of masses.",
+        "title": "Calculations from equations",
+        "body": "Calculations from equations use the coefficients of the balanced equation as ratios of amounts in moles.",
         "review": {
-          "englishTerm": "Reaction calculations",
-          "russianTerm": "Расчёт реакций",
+          "englishTerm": "Calculations from equations",
+          "russianTerm": "Расчёты по уравнению реакции",
           "contrast": {
-            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
-            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+            "en": "Inverting the ratio is a common mistake. In CH₄ + 2O₂ → CO₂ + 2H₂O, 0.50 mol CH₄ gives 1.0 mol H₂O, not 0.25 mol. The product's coefficient (2) goes on top.",
+            "ru": "Частая ошибка — перевернуть отношение. В реакции CH₄ + 2O₂ → CO₂ + 2H₂O из 0,50 моль CH₄ получается 1,0 моль H₂O, а не 0,25 моль. Коэффициент продукта (2) ставят в числитель."
           },
           "sources": [
             {
@@ -1791,23 +1794,23 @@
             "kind": "flow",
             "title": {
               "en": "Mass-to-mass stoichiometry",
-              "ru": "Расчёт массы по уравнению"
+              "ru": "Расчёт массы продукта по уравнению"
             },
             "items": [
               {
                 "label": {
-                  "en": "Known mass → amount",
-                  "ru": "Известная масса → количество"
+                  "en": "Given mass → amount of substance",
+                  "ru": "Данная масса → количество вещества"
                 },
                 "detail": {
-                  "en": "n(reactant) = m / M.",
-                  "ru": "n(реагента) = m / M."
+                  "en": "n(reactant) = m/M.",
+                  "ru": "n(реагента) = m/M."
                 }
               },
               {
                 "label": {
                   "en": "Balanced equation ratio",
-                  "ru": "Отношение коэффициентов"
+                  "ru": "Отношение коэффициентов уравнения"
                 },
                 "detail": {
                   "en": "n(product) = n(reactant) × b/a.",
@@ -1826,21 +1829,21 @@
               }
             ],
             "caption": {
-              "en": "a and b are balanced coefficients. Check the limiting reactant when several amounts are supplied.",
-              "ru": "a и b — коэффициенты уравнения. Если даны количества нескольких реагентов, найдите лимитирующий."
+              "en": "a and b are coefficients in the balanced equation: a for the reactant, b for the product. If amounts of two reactants are given, first find the limiting reactant.",
+              "ru": "a и b — коэффициенты уравнения: a относится к реагенту, b к продукту. Если даны количества вещества двух реагентов, сначала найди вещество в недостатке."
             }
           }
         }
       },
       "limiting": {
         "title": "Limiting reactant",
-        "body": "The limiting reactant is the reactant whose available amount allows the least reaction progress according to the balanced equation. It sets the maximum theoretical product amount. Compare n/coefficient for all reactants; the smallest value identifies the limiting one, assuming the stated reaction proceeds to completion.",
+        "body": "The limiting reactant is the one that runs out first. It sets the maximum possible amount of product. To find it, divide the amount of each reactant by its coefficient. The smallest result identifies the limiting reactant, assuming the reaction goes to completion.",
         "review": {
           "englishTerm": "Limiting reactant",
-          "russianTerm": "Ограничивающий реагент",
+          "russianTerm": "Вещество в недостатке",
           "contrast": {
-            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
-            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+            "en": "The limiting reactant does not always leave an excess. If the amounts are in the same ratio as the coefficients, both reactants run out together. For 2H₂ + O₂ → 2H₂O, 0.40 mol H₂ and 0.20 mol O₂ react with nothing left over.",
+            "ru": "Вещество в недостатке не всегда означает, что другой реагент взят в избытке. Если количества вещества реагентов относятся друг к другу так же, как коэффициенты, оба реагента заканчиваются одновременно. Для 2H₂ + O₂ → 2H₂O смесь из 0,40 моль H₂ и 0,20 моль O₂ прореагирует без остатка."
           },
           "sources": [
             {
@@ -1865,14 +1868,14 @@
         }
       },
       "percentYield": {
-        "title": "Percent yield",
-        "body": "Percentage yield = actual product amount ÷ theoretical product amount × 100%, using comparable units for the same product. The theoretical value comes from the limiting reactant. A measured yield above 100% usually indicates impurities, retained solvent or an incorrect assumption or measurement.",
+        "title": "Percentage yield",
+        "body": "Percentage yield is the actual mass of product as a percentage of the theoretical mass. Use the same unit for both masses, such as grams. The theoretical mass is calculated from the limiting reactant. A yield above 100% usually means impurities or retained solvent, or a mistake in the measurement or calculation.",
         "review": {
-          "englishTerm": "Percent yield",
-          "russianTerm": "Процентный выход",
+          "englishTerm": "Percentage yield",
+          "russianTerm": "Выход продукта, %",
           "contrast": {
-            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
-            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+            "en": "Divide by the theoretical mass of product, not by the mass of reactant you started with. For 2Mg + O₂ → 2MgO with 4.8 g of magnesium, the theoretical mass of MgO is 8.0 g. If 6.4 g is obtained, the yield is 6.4/8.0 × 100 = 80%. Dividing by 4.8 g gives a wrong 133%.",
+            "ru": "Дели на теоретическую массу продукта, а не на массу взятого реагента. В реакции 2Mg + O₂ → 2MgO из 4,8 г магния теоретическая масса MgO равна 8,0 г. Если получено 6,4 г, выход равен 6,4/8,0 × 100 = 80 %. Деление на 4,8 г даёт неверные 133 %."
           },
           "sources": [
             {

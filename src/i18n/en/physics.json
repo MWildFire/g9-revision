@@ -2275,125 +2275,113 @@
   },
   "electricity": {
     "title": "Electricity and Magnetism",
-    "intro": "Charge, current, resistance and circuits — plus the sensors and safety devices that put them to use.",
+    "intro": "Charge, current, voltage and resistance are the core ideas. The topic also covers circuits, power and energy, magnetism, and the sensors and safety devices used in circuits.",
     "concepts": {
       "currentVoltageResistance": {
-        "name": "Current, voltage & resistance — the trinity",
-        "rule": "Current I = ΔQ/Δt measures charge flow rate. Potential difference V = ΔE/Q measures energy per charge. Resistance R = V/I relates the two; it is constant only under the relevant ohmic conditions.",
+        "name": "How current, voltage and resistance are linked",
+        "rule": "Current I = ΔQ/Δt is the charge that passes a point per unit time. Potential difference V = E/Q is the energy transferred per coulomb of charge. Resistance R = V/I links the three quantities: if you know any two, you can find the third.",
         "examples": [
           "2 C in 1 s means 2 A. At 6 V, each coulomb transfers 6 J.",
           "6 V across a component carrying 2 A gives 3 Ω."
         ],
         "review": {
-          "englishTerm": "Current, voltage & resistance — the trinity",
-          "russianTerm": "Ток, напряжение и сопротивление — троица",
+          "englishTerm": "Current, potential difference and resistance",
+          "russianTerm": "Сила тока, напряжение и сопротивление",
           "contrast": {
-            "en": "Current is charge per time, not the amount of charge stored or the speed of electrons.",
-            "ru": "Сила тока — заряд за время, а не накопленный заряд и не скорость электронов."
+            "en": "Potential difference is not energy, but energy per coulomb. So the volt and the joule are different units.",
+            "ru": "Напряжение — не энергия, а энергия на кулон заряда. Поэтому вольт и джоуль — разные единицы."
           },
           "model": {
-            "en": "Conventional current follows positive charge motion; in metals electrons drift the opposite way.",
-            "ru": "Направление тока соответствует движению положительных зарядов; электроны в металле дрейфуют противоположно."
+            "en": "R = V/I applies to one component or section: measure V across it and I through it.",
+            "ru": "Формула R = U/I относится к одному элементу или участку: U измеряют на нём, I — через него."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 1 current"
+              "section": "p. 391, 398, 404–405, 411"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
-              "language": "en",
-              "section": "20 2 ohms law resistance and simple circuits"
-            },
-            {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph8/",
               "language": "ru",
-              "section": "1.8. Электрический ток. Закон Ома"
+              "section": "§1.8 Электрический ток. Закон Ома"
             }
           ]
         }
       },
       "ohmsLaw": {
-        "name": "Ohm's Law (V = IR)",
+        "name": "Ohm's law (V = IR)",
         "rule": "For an ohmic conductor at fixed temperature and physical conditions, current is proportional to potential difference. Its I–V graph is a straight line through the origin, and R = V/I remains constant.",
         "examples": [
           "Doubling voltage across a fixed 10 Ω resistor doubles current.",
           "A filament lamp heats as current rises, so its resistance changes and the graph curves."
         ],
         "review": {
-          "englishTerm": "Ohm's Law (V = IR)",
-          "russianTerm": "Закон Ома (V = IR)",
+          "englishTerm": "Ohm's law",
+          "russianTerm": "Закон Ома",
           "contrast": {
-            "en": "V = IR as a ratio does not prove Ohm’s law; constant R under stated conditions does.",
-            "ru": "Запись U = IR сама по себе не доказывает закон Ома; нужна неизменность R при указанных условиях."
+            "en": "Any component has a V/I ratio, so writing R = V/I does not prove Ohm's law. The law needs R to stay constant.",
+            "ru": "У любого элемента есть отношение U/I, поэтому одна лишь запись R = U/I не доказывает закон Ома. Закон выполняется только тогда, когда R остаётся постоянным."
           },
           "model": {
-            "en": "Heating can change a metal’s resistance, so measurements must control temperature.",
-            "ru": "Нагрев меняет сопротивление металла, поэтому при измерениях нужно контролировать температуру."
+            "en": "A straight I–V graph confirms the law only over the range where R stays constant. Where the graph curves, the law does not apply.",
+            "ru": "Прямая на графике I(U) подтверждает закон только в том диапазоне, где R остаётся постоянным. Там, где график изгибается, закон не выполняется."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 1 current"
+              "section": "p. 410, 411"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
-              "language": "en",
-              "section": "20 2 ohms law resistance and simple circuits"
-            },
-            {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph8/",
               "language": "ru",
-              "section": "1.8. Электрический ток. Закон Ома"
+              "section": "§1.8 Электрический ток. Закон Ома"
             }
           ]
         }
       },
       "seriesParallel": {
-        "name": "Series vs Parallel circuits",
+        "name": "How series and parallel circuits differ",
         "rule": "In series, current is common, potential differences add and resistor values add. In parallel, potential difference is common, branch currents add and 1/Req = 1/R₁ + 1/R₂ + ….",
         "examples": [
           "Two 4 Ω resistors give 8 Ω in series and 2 Ω in parallel.",
           "An open branch interrupts that branch; an open unbranched series path interrupts the whole path."
         ],
         "review": {
-          "englishTerm": "Series vs Parallel circuits",
-          "russianTerm": "Последовательное и параллельное соединения",
+          "englishTerm": "Series circuit and parallel circuit",
+          "russianTerm": "Последовательное соединение и параллельное соединение",
           "contrast": {
-            "en": "Branch currents may differ; their sum gives the total current at a junction.",
-            "ru": "Токи ветвей могут различаться; их сумма равна общему току в узле."
+            "en": "An ammeter goes in series, so it carries the same current as the component. A voltmeter goes in parallel.",
+            "ru": "Амперметр включают последовательно, поэтому через него идёт тот же ток, что и через элемент. Вольтметр включают параллельно."
           },
           "model": {
-            "en": "These rules describe steady circuits with negligible wire resistance.",
-            "ru": "Эти правила применяются к установившемуся току при пренебрежимо малом сопротивлении проводов."
+            "en": "The rules hold only if the connecting wires have negligible resistance.",
+            "ru": "Правила верны, только если сопротивлением соединительных проводов можно пренебречь."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "21 1 resistors in series and parallel"
+              "section": "p. 395–397, 413–416"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph9/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph9/",
               "language": "ru",
-              "section": "1.9. Последовательное и параллельное соединение проводников"
+              "section": "§1.9 Последовательное и параллельное соединение проводников"
             }
           ]
         }
       },
       "power": {
         "name": "Electrical power",
-        "rule": "Electrical power is energy transferred per second. For a DC component P = VI; for a resistor also P = I²R = V²/R. At constant power E = Pt. 1 kWh = 3.6 × 10⁶ J.",
+        "rule": "Electrical power is the energy transferred per second, measured in watts (W). For an electrical component, P = VI, where P is power in watts (W), V is potential difference in volts (V) and I is current in amperes (A). At constant power, the energy transferred is E = Pt, where E is energy in joules (J) and t is time in seconds (s). Using E = Pt, 1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J.",
         "examples": [
           "A 60 W device running 2 h transfers 120 Wh = 0.12 kWh.",
           "At 12 V and 2 A, power is 24 W."
@@ -2402,69 +2390,69 @@
           "englishTerm": "Electrical power",
           "russianTerm": "Электрическая мощность",
           "contrast": {
-            "en": "kW is power; kWh is energy, not “kilowatts per hour”.",
-            "ru": "кВт — мощность, кВт·ч — энергия, а не «киловатты в час»."
+            "en": "P = VI holds for any electrical component. P = I²R and P = V²/R hold only for a resistor.",
+            "ru": "P = UI верно для любого элемента цепи. Формулы P = I²R и P = U²/R верны только для резистора."
           },
           "model": {
-            "en": "E = Pt assumes constant power; cycling appliances need average power or a measured energy total.",
-            "ru": "E = Pt предполагает постоянную мощность; для периодически включающихся приборов нужна средняя мощность или измеренная энергия."
+            "en": "E = Pt holds only for constant power. For an appliance that switches on and off, use its average power or a measured total energy.",
+            "ru": "A = Pt верно только при постоянной мощности. Для прибора, который периодически включается и выключается, используй среднюю мощность или измеренную суммарную энергию."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 4 electric power and energy"
+              "section": "p. 265, 427"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph11/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph11/",
               "language": "ru",
-              "section": "1.11. Работа и мощность тока"
+              "section": "§1.11 Работа и мощность тока"
             }
           ]
         }
       },
       "safety": {
         "name": "Mains electricity & safety",
-        "rule": "Excess current heats wiring. A fuse melts and opens the circuit; an overcurrent breaker opens a switch. An RCD detects unequal outgoing and returning currents. Protective earthing provides a fault-current path in equipment designed to use it.",
+        "rule": "Excess current heats the wiring. Protection devices open the circuit: a fuse melts, and a circuit breaker switches off when the current is dangerously large. Earthing gives a fault current an alternative path, so the protection can act.",
         "examples": [
           "A short circuit may produce excessive current and operate overcurrent protection.",
-          "Leakage to earth can make an RCD detect an imbalance even below an overcurrent trip level."
+          "If a live wire touches a metal casing, the fault current can flow through the earth connection, and the fuse or circuit breaker may switch the circuit off."
         ],
         "review": {
           "englishTerm": "Mains electricity & safety",
           "russianTerm": "Электросеть и безопасность",
           "contrast": {
-            "en": "An RCD detects a current imbalance; that is different from overcurrent protection.",
-            "ru": "УЗО реагирует на разность токов; это отличается от защиты от сверхтока."
+            "en": "Earthing does not absorb the current, and it does not switch the circuit off by itself. A fuse or circuit breaker does that.",
+            "ru": "Заземление не «поглощает» ток и само цепь не отключает. Это делает предохранитель или автоматический выключатель."
           },
           "model": {
-            "en": "Different devices protect against different faults; this explanation is not a wiring procedure.",
-            "ru": "Разные устройства защищают от разных повреждений; описание объясняет принцип, а не порядок монтажа."
+            "en": "Earthing works only for equipment connected to earth, for example through an earth pin in the plug.",
+            "ru": "Заземление работает только у оборудования, подключённого к земле, например через заземляющий контакт (earth pin) в вилке."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-5-alternating-current-versus-direct-current",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 5 alternating current versus direct current"
+              "section": "p. 417–419, 421–423"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
-              "language": "en",
-              "section": "20 6 electric hazards and the human body"
+              "title": "Фоксфорд · Сила тока",
+              "url": "https://externat.foxford.ru/polezno-znat/wiki-fizika-sila-toka",
+              "language": "ru",
+              "section": "мало: общая фраза о защите от перегрузки и КЗ; заземление и УЗО в проверенных источниках не найдены"
             }
           ]
         }
       },
       "magnetism": {
         "name": "Magnetism & electromagnetism",
-        "rule": "An electric current produces a magnetic field. Around a straight wire the field circles the wire; the right-hand rule uses conventional current. A solenoid’s turns combine their fields, and a ferromagnetic core can strengthen the field.",
+        "rule": "An electric current produces a magnetic field around it. Around a straight wire, the field lines form circles that surround the wire. Their direction follows the right-hand rule for conventional current, which flows from positive to negative.",
         "examples": [
-          "Reversing coil current reverses the electromagnet’s poles.",
-          "A compass aligns with the local resultant magnetic field."
+          "If the current in a straight wire is reversed, the field lines circle the wire in the opposite direction.",
+          "Inside a solenoid (a coil carrying current), the field is uniform, except near the ends of the coil."
         ],
         "review": {
           "englishTerm": "Magnetism & electromagnetism",
@@ -2474,21 +2462,61 @@
             "ru": "Линии поля показывают направление поля; это не провода и не траектории частиц."
           },
           "model": {
-            "en": "The drawings are idealised; core saturation and hysteresis are not simulated.",
-            "ru": "Рисунки идеализированы; насыщение и гистерезис сердечника не моделируются."
+            "en": "The solenoid model here has no core, so the effect of a core on the field is not covered.",
+            "ru": "Модель соленоида здесь без сердечника, поэтому влияние сердечника на поле не рассматривается."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "22 9 magnetic fields produced by currents amperes law"
+              "section": "мало: в разрешённых страницах (265, 391–428) раздела о магнетизме нет"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph16/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph16/",
               "language": "ru",
-              "section": "1.16. Магнитное взаимодействие токов"
+              "section": "§1.16 Магнитное взаимодействие токов (прямой провод, правило буравчика)"
+            },
+            {
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/courses/op25part2/content/models/solenoid.html",
+              "language": "ru",
+              "section": "модель «Магнитное поле соленоида» (мало: сердечник не описан)"
+            }
+          ]
+        }
+      },
+      "circuitSymbols": {
+        "name": "Circuit symbols and reading a diagram",
+        "rule": "A circuit diagram shows a circuit with standard symbols, so anyone can build the same circuit from it. Read the diagram from the battery, following the wires.\n\n- Cell: a long thin line (positive) and a short thick line (negative). A battery is two or more cells joined together.\n- Switch: a gap in the wire. A closed switch connects the wire; an open switch keeps the gap.\n- Lamp (bulb): a circle with a cross inside.\n- Resistor: a rectangle.\n- Ammeter: a circle with the letter A. It is connected in series, in a break in the wire.\n- Voltmeter: a circle with the letter V. It is connected in parallel, across the component.\n\nA dot where wires meet shows a junction. Wires that cross without a dot are not connected.",
+        "examples": [
+          "A bulb in a circuit diagram is a circle with a cross inside, not a picture of a bulb.",
+          "To measure the current through a lamp, put the ammeter in series with the lamp. To measure the voltage across the lamp, put the voltmeter in parallel with the lamp."
+        ],
+        "review": {
+          "englishTerm": "Circuit symbols",
+          "russianTerm": "Обозначения на схемах",
+          "contrast": {
+            "en": "An ammeter has a very low resistance, so it must be in series. A voltmeter has a very high resistance, so it is connected in parallel and draws almost no current.",
+            "ru": "У амперметра очень малое сопротивление, поэтому его включают последовательно. У вольтметра очень большое сопротивление, поэтому его включают параллельно, и он почти не забирает ток."
+          },
+          "model": {
+            "en": "The symbols show connections, not the real size or shape of the parts. The long and short lines of a cell show polarity, not its size.",
+            "ru": "Символы показывают соединения, а не реальные размеры и форму деталей. Длинная и короткая линии элемента показывают полярность, а не размер элемента."
+          },
+          "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "обозначения общепринятые, не сверены с источником (страниц нет в SOURCES)"
+            },
+            {
+              "title": "Физика.ру · §1.9 «Последовательное и параллельное соединение проводников»",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph9/",
+              "language": "ru",
+              "section": "мало: правила соединений проверены; символы на схемах в проверенных источниках не разобраны"
             }
           ]
         }
@@ -2504,31 +2532,31 @@
           "englishTerm": "Current",
           "russianTerm": "Сила тока",
           "contrast": {
-            "en": "Current is charge per time, not the amount of charge stored or the speed of electrons.",
-            "ru": "Сила тока — заряд за время, а не накопленный заряд и не скорость электронов."
+            "en": "Current is not used up in a component: as much charge leaves it as enters it. Energy is transferred to the component instead.",
+            "ru": "Ток в элементе не расходуется: сколько заряда входит в элемент, столько и выходит. Вместо этого элементу передаётся энергия."
           },
           "model": {
-            "en": "Conventional current follows positive charge motion; in metals electrons drift the opposite way.",
-            "ru": "Направление тока соответствует движению положительных зарядов; электроны в металле дрейфуют противоположно."
+            "en": "The direction of current is a convention, from + to −. In metals the charge carriers are electrons, which move the other way.",
+            "ru": "Направление тока условное: от «+» к «−». В металлах носители заряда — электроны, и они движутся в обратную сторону."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 1 current"
+              "section": "p. 391, 397–398"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
-              "language": "en",
-              "section": "20 2 ohms law resistance and simple circuits"
-            },
-            {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph8/",
               "language": "ru",
-              "section": "1.8. Электрический ток. Закон Ома"
+              "section": "§1.8 Электрический ток. Закон Ома"
+            },
+            {
+              "title": "Фоксфорд · Сила тока",
+              "url": "https://externat.foxford.ru/polezno-znat/wiki-fizika-sila-toka",
+              "language": "ru",
+              "section": "«Сила тока»: I = Q/t, амперметр включают последовательно (проверено)"
             }
           ]
         }
@@ -2536,31 +2564,31 @@
       "voltage": {
         "name": "Voltage",
         "alt": "Напряжение",
-        "definition": "Potential difference is the energy transferred per unit charge between two points: V = ΔE/Q.",
-        "example": "A 6 V supply transfers 6 J for each coulomb of charge.",
+        "definition": "Voltage, also called potential difference (p.d.), is the energy transferred per coulomb of charge between two points: V = E/Q, measured in volts (V).",
+        "example": "A 1.5 V cell gives 1.5 J of energy to every coulomb of charge that flows through it.",
         "review": {
           "englishTerm": "Voltage",
           "russianTerm": "Напряжение",
           "contrast": {
-            "en": "Current measures charge flow rate; voltage measures energy per charge.",
-            "ru": "Сила тока — заряд за время; напряжение — энергия на единицу заряда."
+            "en": "Voltage is measured across a component, but current is measured through it: a voltmeter is connected in parallel, an ammeter in series.",
+            "ru": "Напряжение измеряют на элементе, а ток — через него: вольтметр подключают параллельно элементу, амперметр — последовательно."
           },
           "model": {
-            "en": "Voltage is measured between two points. V denotes voltage in English formulas; Russian notation often uses U.",
-            "ru": "Напряжение измеряют между двумя точками. В английских формулах используют V, в русских обычно U."
+            "en": "The volt follows from the definition: 1 V = 1 J/C.",
+            "ru": "Единица вольт следует из определения: 1 В = 1 Дж/Кл."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/19-1-electric-potential-energy-potential-difference",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "19 1 electric potential energy potential difference"
+              "section": "p. 404–405, 406"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph4/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph8/",
               "language": "ru",
-              "section": "1.4. Работа в электрическом поле. Потенциал"
+              "section": "§1.8 Электрический ток. Закон Ома (U₁₂ = φ₁ − φ₂ + ℰ в общем случае)"
             }
           ]
         }
@@ -2568,37 +2596,37 @@
       "resistance": {
         "name": "Resistance",
         "alt": "Сопротивление",
-        "definition": "A component’s potential difference divided by current: R = V/I, measured in ohms.",
-        "example": "A component with 6 V across it and 2 A through it has resistance 3 Ω.",
+        "definition": "Resistance is the ratio of the potential difference across a component to the current through it: R = V/I, measured in ohms (Ω).",
+        "example": "A resistor with 5 V across it and 0.25 A through it has resistance 20 Ω.",
         "review": {
           "englishTerm": "Resistance",
           "russianTerm": "Сопротивление",
           "contrast": {
-            "en": "Resistance is a ratio; resistivity is a material property and also depends on temperature.",
-            "ru": "Сопротивление — характеристика участка цепи; удельное сопротивление характеризует материал и зависит от температуры."
+            "en": "Resistance belongs to one component or section of a circuit; resistivity is a property of the material itself.",
+            "ru": "Сопротивление относится к одному элементу цепи или её участку; удельное сопротивление (resistivity) — свойство самого материала."
           },
           "model": {
-            "en": "The ratio can vary with voltage or temperature; constant resistance is an additional ohmic assumption.",
-            "ru": "Отношение может меняться с напряжением или температурой; постоянное сопротивление — дополнительное условие закона Ома."
+            "en": "One ohm is the resistance of a component that passes 1 A when 1 V is across it.",
+            "ru": "Один ом — сопротивление элемента, через который при напряжении 1 В проходит ток 1 А."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 1 current"
+              "section": "p. 411, 412, 423–424"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
-              "language": "en",
-              "section": "20 2 ohms law resistance and simple circuits"
-            },
-            {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph8/",
               "language": "ru",
-              "section": "1.8. Электрический ток. Закон Ома"
+              "section": "§1.8 Электрический ток. Закон Ома"
+            },
+            {
+              "title": "Фоксфорд · Сила тока",
+              "url": "https://externat.foxford.ru/polezno-znat/wiki-fizika-sila-toka",
+              "language": "ru",
+              "section": "«Сила тока»: определение ома (проверено)"
             }
           ]
         }
@@ -2606,8 +2634,8 @@
       "charge": {
         "name": "Charge",
         "alt": "Заряд",
-        "definition": "A property of matter that determines electric interaction; charge may be positive or negative and is measured in coulombs.",
-        "example": "An electron has charge −e and a proton has charge +e.",
+        "definition": "Charge is a property of particles and objects that makes them take part in electric interactions. It is positive or negative and is measured in coulombs (C).",
+        "example": "One electron carries a charge of about −1.6 × 10⁻¹⁹ C, so a charge of 1 C is carried by about 6.25 × 10¹⁸ electrons.",
         "review": {
           "englishTerm": "Charge",
           "russianTerm": "Заряд",
@@ -2616,21 +2644,21 @@
             "ru": "Нейтральное тело содержит заряженные частицы, суммарный заряд которых равен нулю."
           },
           "model": {
-            "en": "Charge is conserved: charging by rubbing transfers electrons rather than creating net charge.",
-            "ru": "Заряд сохраняется: при электризации трением электроны переходят между телами, а суммарный заряд не создаётся."
+            "en": "Charge is conserved: when bodies become charged, electrons move from one to another and the total charge does not change.",
+            "ru": "Заряд сохраняется: при электризации электроны переходят с одного тела на другое, а суммарный заряд не меняется."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/18-1-static-electricity-and-charge-conservation-of-charge",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "18 1 static electricity and charge conservation of charge"
+              "section": "p. 391, 394, 398 (сам заряд в разрешённых страницах не определён)"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph1/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph1/",
               "language": "ru",
-              "section": "1.1. Электрический заряд. Закон Кулона"
+              "section": "§1.1 Электрический заряд. Закон Кулона"
             }
           ]
         }
@@ -2638,31 +2666,31 @@
       "seriesCircuit": {
         "name": "Series circuit",
         "alt": "Последовательная цепь",
-        "definition": "Components connected along one unbranched path, so the same current passes through each.",
-        "example": "Two series resistors of 2 Ω and 3 Ω have total resistance 5 Ω.",
+        "definition": "A series circuit has its components joined one after another along a single path, with no branches. Current is the same at every point of it, because there is only one path for the charge.",
+        "example": "A 9 V supply connected to two 3 Ω resistors in series has a total resistance of 6 Ω and a current of 1.5 A. Each resistor has 4.5 V across it.",
         "review": {
           "englishTerm": "Series circuit",
           "russianTerm": "Последовательная цепь",
           "contrast": {
-            "en": "In series current is the same; voltage is shared and need not be equal.",
-            "ru": "При последовательном соединении одинаков ток; напряжения складываются и не обязаны быть равными."
+            "en": "The same current does not mean the same voltage: at one current, the resistor with the larger resistance has the larger voltage across it.",
+            "ru": "Одинаковый ток не означает одинакового напряжения: при одном токе на резисторе с большим сопротивлением напряжение больше."
           },
           "model": {
-            "en": "The resistor sum assumes ideal connecting wires and components represented by resistances.",
-            "ru": "Сложение сопротивлений предполагает идеальные соединительные провода и резистивную модель компонентов."
+            "en": "The rule R = R₁ + R₂ gives the total resistance of the whole chain only. To find the voltage across one resistor, use V = IR with the current I of the whole chain.",
+            "ru": "Правило R = R₁ + R₂ даёт только общее сопротивление всей цепи. Напряжение на одном резисторе находят по формуле U = IR, подставляя ток I всей цепи."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "21 1 resistors in series and parallel"
+              "section": "p. 397, 415–416"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph9/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph9/",
               "language": "ru",
-              "section": "1.9. Последовательное и параллельное соединение проводников"
+              "section": "§1.9 Последовательное и параллельное соединение проводников"
             }
           ]
         }
@@ -2674,27 +2702,27 @@
         "example": "Two 6 Ω resistors in parallel have equivalent resistance 3 Ω.",
         "review": {
           "englishTerm": "Parallel circuit",
-          "russianTerm": "Параллельная цепь",
+          "russianTerm": "Параллельное соединение",
           "contrast": {
-            "en": "Branch currents may differ; their sum gives the total current at a junction.",
-            "ru": "Токи ветвей могут различаться; их сумма равна общему току в узле."
+            "en": "Branch currents can differ, but their sum is the current that enters the junction.",
+            "ru": "Токи ветвей могут различаться, но их сумма равна току, входящему в узел."
           },
           "model": {
-            "en": "These rules describe steady circuits with negligible wire resistance.",
-            "ru": "Эти правила применяются к установившемуся току при пренебрежимо малом сопротивлении проводов."
+            "en": "The formula 1/R = 1/R₁ + 1/R₂ applies only to parallel resistors; series resistances simply add.",
+            "ru": "Формула 1/R = 1/R₁ + 1/R₂ относится только к параллельным резисторам; последовательные сопротивления просто складываются."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "21 1 resistors in series and parallel"
+              "section": "p. 396–397, 416"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph9/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph9/",
               "language": "ru",
-              "section": "1.9. Последовательное и параллельное соединение проводников"
+              "section": "§1.9 Последовательное и параллельное соединение проводников"
             }
           ]
         }
@@ -2703,36 +2731,30 @@
         "name": "Ohmic conductor",
         "alt": "Омический проводник",
         "definition": "A conductor whose current is proportional to potential difference when temperature and other physical conditions are fixed.",
-        "example": "Its I–V graph is a straight line through the origin.",
+        "example": "A 5 Ω metal wire at constant temperature: 1 V gives 0.2 A, and 3 V gives 0.6 A.",
         "review": {
           "englishTerm": "Ohmic conductor",
           "russianTerm": "Омический проводник",
           "contrast": {
-            "en": "V = IR as a ratio does not prove Ohm’s law; constant R under stated conditions does.",
-            "ru": "Запись U = IR сама по себе не доказывает закон Ома; нужна неизменность R при указанных условиях."
+            "en": "Not every conductor is ohmic: a diode and a neon lamp do not obey Ohm's law.",
+            "ru": "Не всякий проводник омический: диод и неоновая лампа закону Ома не подчиняются."
           },
           "model": {
-            "en": "Heating can change a metal’s resistance, so measurements must control temperature.",
-            "ru": "Нагрев меняет сопротивление металла, поэтому при измерениях нужно контролировать температуру."
+            "en": "A metal's resistance rises as it heats up, so a test of Ohm's law must keep the temperature fixed.",
+            "ru": "Сопротивление металла растёт при нагреве, поэтому при проверке закона Ома температуру держат постоянной."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 1 current"
+              "section": "p. 410, 411"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
-              "language": "en",
-              "section": "20 2 ohms law resistance and simple circuits"
-            },
-            {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph8/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph8/",
               "language": "ru",
-              "section": "1.8. Электрический ток. Закон Ома"
+              "section": "§1.8 Электрический ток. Закон Ома"
             }
           ]
         }
@@ -2740,8 +2762,8 @@
       "thermistor": {
         "name": "Thermistor",
         "alt": "Термистор",
-        "definition": "A resistor designed to have resistance that changes strongly with temperature.",
-        "example": "For the NTC thermistor model here, heating decreases resistance.",
+        "definition": "A thermistor is a resistor whose resistance depends on temperature.",
+        "example": "If the temperature of a thermistor changes, its resistance changes, so at a fixed voltage the current in the circuit changes too.",
         "review": {
           "englishTerm": "Thermistor",
           "russianTerm": "Термистор",
@@ -2750,24 +2772,30 @@
             "ru": "Термистор реагирует на температуру, фоторезистор — на освещённость."
           },
           "model": {
-            "en": "NTC and PTC types exist; decreasing resistance is not a universal thermistor rule.",
-            "ru": "Существуют NTC- и PTC-термисторы; сопротивление не у всех типов уменьшается при нагревании."
+            "en": "Not every resistor that depends on temperature behaves the same way: in metals resistance rises when heated, in semiconductors it falls.",
+            "ru": "Не все резисторы, зависящие от температуры, ведут себя одинаково: у металлов сопротивление при нагревании растёт, у полупроводников — падает."
           },
           "sources": [
             {
-              "title": "AQA · GCSE Physics: electricity",
-              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/electricity",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "4.2.1.4 Resistors: thermistors and light-dependent resistors"
+              "section": "источника нет в проверенных (стр. 265, 391–428)"
+            },
+            {
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph13/",
+              "language": "ru",
+              "section": "§1.13 Электрический ток в полупроводниках — источника нет в проверенных: термистор не описан"
             }
           ]
         }
       },
       "ldr": {
         "name": "LDR",
-        "alt": "Фоторезистор (LDR)",
+        "alt": "Фоторезистор",
         "definition": "A light-dependent resistor whose resistance changes with illumination.",
-        "example": "In the model here, brighter illumination gives lower resistance.",
+        "example": "If the supply voltage stays the same, changing the light on an LDR changes its resistance and therefore the current (I = V/R).",
         "review": {
           "englishTerm": "LDR",
           "russianTerm": "Фоторезистор (LDR)",
@@ -2776,15 +2804,21 @@
             "ru": "Фоторезистор чувствителен к освещению; он не служит источником энергии, как солнечный элемент."
           },
           "model": {
-            "en": "Its response depends on wavelength, material and illumination; the displayed curve is illustrative.",
-            "ru": "Отклик зависит от длины волны, материала и освещённости; показанная кривая иллюстративна."
+            "en": "How strongly an LDR responds depends on the wavelength of the light and on the material it is made from.",
+            "ru": "Насколько сильно фоторезистор реагирует на свет, зависит от длины волны света и от материала, из которого он сделан."
           },
           "sources": [
             {
-              "title": "AQA · GCSE Physics: electricity",
-              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/electricity",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "4.2.1.4 Resistors: thermistors and light-dependent resistors"
+              "section": "источника нет в проверенных (стр. 265, 391–428)"
+            },
+            {
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph13/",
+              "language": "ru",
+              "section": "§1.13 Электрический ток в полупроводниках — источника нет в проверенных: фоторезистор не описан"
             }
           ]
         }
@@ -2792,14 +2826,14 @@
       "staticElectricity": {
         "name": "Static electricity",
         "alt": "Статическое электричество",
-        "definition": "Phenomena associated with an imbalance of electric charge that remains on an object for a time.",
-        "example": "A rubbed balloon can attract a neutral wall by polarising it.",
+        "definition": "Static electricity is the effect of electric charge that stays on an object for some time.",
+        "example": "A large enough potential difference can drive a spark through the air.",
         "review": {
           "englishTerm": "Static electricity",
           "russianTerm": "Статическое электричество",
           "contrast": {
-            "en": "Static charge need not stay permanently still; a discharge produces a brief current.",
-            "ru": "Статический заряд не обязан оставаться неподвижным всегда: разряд создаёт кратковременный ток."
+            "en": "Static electricity is not a steady current: a spark carries current only briefly.",
+            "ru": "Статическое электричество — не постоянный ток: искра проводит ток лишь кратковременно."
           },
           "model": {
             "en": "Attraction alone does not prove opposite net charges: a charged body can attract a neutral one.",
@@ -2807,16 +2841,16 @@
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/18-1-static-electricity-and-charge-conservation-of-charge",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "18 1 static electricity and charge conservation of charge"
+              "section": "мало: p. 394, 404, 418 (явление описано без определения)"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph1/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph1/",
               "language": "ru",
-              "section": "1.1. Электрический заряд. Закон Кулона"
+              "section": "§1.1 Электрический заряд — мало: электризация трением не разобрана"
             }
           ]
         }
@@ -2830,8 +2864,8 @@
           "englishTerm": "Fuse",
           "russianTerm": "Предохранитель",
           "contrast": {
-            "en": "A fuse must be replaced after operation; a circuit breaker can be reset.",
-            "ru": "Сработавший предохранитель заменяют; автоматический выключатель можно включить снова."
+            "en": "After it operates, a fuse must be replaced, because its melted element cannot carry current again.",
+            "ru": "Сработавший предохранитель нужно заменить: его плавкая вставка уже не может проводить ток."
           },
           "model": {
             "en": "It does not trip instantly at a precise current threshold; operation depends on current and duration.",
@@ -2839,16 +2873,16 @@
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-5-alternating-current-versus-direct-current",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 5 alternating current versus direct current"
+              "section": "p. 419, 421–423"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
-              "language": "en",
-              "section": "20 6 electric hazards and the human body"
+              "title": "Фоксфорд · Сила тока",
+              "url": "https://externat.foxford.ru/polezno-znat/wiki-fizika-sila-toka",
+              "language": "ru",
+              "section": "«Сила тока» — проверено: защита от перегрузки и КЗ; механизм плавления не описан"
             }
           ]
         }
@@ -2856,31 +2890,31 @@
       "circuitBreaker": {
         "name": "Circuit breaker",
         "alt": "Автоматический выключатель",
-        "definition": "A resettable switch that automatically opens a circuit when its protective mechanism detects a specified fault.",
-        "example": "An overcurrent breaker trips on overload or short circuit.",
+        "definition": "A circuit breaker is a switch that opens the circuit by itself when there is an overload or a short circuit.",
+        "example": "If too many high-power appliances are on one circuit, the current can become dangerously large, and the circuit breaker switches the circuit off.",
         "review": {
           "englishTerm": "Circuit breaker",
           "russianTerm": "Автоматический выключатель",
           "contrast": {
-            "en": "An RCD detects a current imbalance; that is different from overcurrent protection.",
-            "ru": "УЗО реагирует на разность токов; это отличается от защиты от сверхтока."
+            "en": "Unlike a fuse, a circuit breaker does not melt.",
+            "ru": "В отличие от предохранителя, автоматический выключатель не плавится."
           },
           "model": {
-            "en": "Different devices protect against different faults; this explanation is not a wiring procedure.",
-            "ru": "Разные устройства защищают от разных повреждений; описание объясняет принцип, а не порядок монтажа."
+            "en": "A circuit breaker acts only when the current becomes dangerously large, so a normal current does not trip it.",
+            "ru": "Автоматический выключатель срабатывает только тогда, когда ток становится опасно большим, поэтому обычный ток его не отключает."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-5-alternating-current-versus-direct-current",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 5 alternating current versus direct current"
+              "section": "мало: в разрешённых страницах упомянуты только предохранители"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
-              "language": "en",
-              "section": "20 6 electric hazards and the human body"
+              "title": "Фоксфорд · Сила тока",
+              "url": "https://externat.foxford.ru/polezno-znat/wiki-fizika-sila-toka",
+              "language": "ru",
+              "section": "«Сила тока» — мало: общая фраза о защите; повторное включение и УЗО не описаны"
             }
           ]
         }
@@ -2898,21 +2932,21 @@
             "ru": "КПД — отношение, а мощность — скорость передачи энергии."
           },
           "model": {
-            "en": "Specify what counts as useful output; an LED’s light efficiency is not a universal 90%.",
-            "ru": "Укажи, какой выход считается полезным; световая эффективность светодиода не имеет универсального значения 90%."
+            "en": "Before you calculate efficiency, state what counts as useful output.",
+            "ru": "Прежде чем считать КПД, укажи, какую энергию в задаче считать полезной."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 4 electric power and energy"
+              "section": "мало: определения КПД в разрешённых страницах (265, 391–428) нет"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph11/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph11/",
               "language": "ru",
-              "section": "1.11. Работа и мощность тока"
+              "section": "§1.11 Работа и мощность тока — мало: только КПД источника тока η = R/(R + r)"
             }
           ]
         }
@@ -2920,8 +2954,8 @@
       "kwh": {
         "name": "Kilowatt-hour (kWh)",
         "alt": "Киловатт-час",
-        "definition": "A unit of energy equal to the energy transferred at 1 kW for 1 hour: 1 kWh = 3.6 MJ.",
-        "example": "A 2 kW heater running for 0.5 h transfers 1 kWh.",
+        "definition": "The kilowatt-hour (kWh) is a unit of energy. It equals the energy transferred by 1 kW of power acting for 1 hour.",
+        "example": "Electricity providers charge for energy in kWh. A 2 kW heater running for 0.5 h transfers 1 kWh.",
         "review": {
           "englishTerm": "Kilowatt-hour (kWh)",
           "russianTerm": "Киловатт-час",
@@ -2930,72 +2964,70 @@
             "ru": "кВт — мощность, кВт·ч — энергия, а не «киловатты в час»."
           },
           "model": {
-            "en": "E = Pt assumes constant power; cycling appliances need average power or a measured energy total.",
-            "ru": "E = Pt предполагает постоянную мощность; для периодически включающихся приборов нужна средняя мощность или измеренная энергия."
+            "en": "A kWh value does not show how powerful a device is. A 3 kW kettle used for 0.1 h uses 0.3 kWh. A 0.1 kW lamp left on for 24 h uses 2.4 kWh.",
+            "ru": "Значение в кВт·ч не показывает, насколько мощный прибор. Чайник мощностью 3 кВт, работающий 0,1 ч, расходует 0,3 кВт·ч. Лампа мощностью 0,1 кВт, горящая 24 ч, расходует 2,4 кВт·ч."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
               "language": "en",
-              "section": "20 4 electric power and energy"
+              "section": "p. 427–428 (единица счетов), p. 265 (E = Pt); мало: перевода в джоули нет"
             },
             {
-              "title": "Физикон · Открытая физика",
-              "url": "https://physics.ru/courses/op25part2/content/chapter1/section/paragraph11/theory.html",
+              "title": "Физика.ру · Открытая физика",
+              "url": "https://physics.ru/textbook1/chapter1/section/paragraph11/",
               "language": "ru",
-              "section": "1.11. Работа и мощность тока"
+              "section": "§1.11 Работа и мощность тока — мало: кВт·ч не упомянут"
             }
           ]
         }
       }
     },
     "formulas": {
-      "ohm": "V = I × R",
-      "ohmCaption": "Ohm's Law",
-      "power": "P = V × I = I²R = V²/R",
-      "powerCaption": "Electrical power",
-      "energy": "E = P × t",
-      "energyCaption": "Energy used over time",
-      "efficiency": "Efficiency = (useful out / total in) × 100%",
-      "efficiencyCaption": "Energy efficiency"
+      "ohm": "V = I × R",
+      "ohmCaption": "Ohm's law: V in volts, I in amperes, R in ohms (Ω)",
+      "power": "P = V × I = I²R = V²/R",
+      "powerCaption": "P in watts (W); I²R and V²/R apply to a resistor only",
+      "energy": "E = P × t",
+      "energyCaption": "E in joules (J), P in watts (W), t in seconds (s)",
+      "efficiency": "Efficiency = (useful energy out / total energy in) × 100%",
+      "efficiencyCaption": "Efficiency is dimensionless; it is often given as a percentage."
     },
     "sim1": {
-      "title": "Ohm's Law (V = IR)",
+      "title": "Ohm's law (V = IR)",
       "desc": "Ideal DC resistor at fixed temperature, with negligible supply and wire resistance.",
-      "voltage": "Voltage",
-      "resistance": "Resistance",
-      "current": "Current",
-      "power": "Power"
+      "voltage": "Battery voltage",
+      "resistance": "Resistance of the resistor",
+      "current": "Current I through the resistor",
+      "power": "Power P in the resistor"
     },
     "sim2": {
       "title": "Circuit Builder — Series vs Parallel",
       "desc": "Bulbs are modelled as fixed resistors. Real filament resistance rises with temperature, so this is a circuit-rule model.",
-      "mode": "Mode",
+      "mode": "Wiring of the bulbs",
       "supplyVoltage": "Supply voltage",
       "bulb": "Bulb",
-      "resistance": "Resistance",
-      "totalResistance": "Total resistance",
-      "totalCurrent": "Total current",
-      "burnOut": "Burn out",
-      "restore": "Restore"
+      "resistance": "Resistance of this bulb",
+      "totalResistance": "Total resistance of the circuit",
+      "totalCurrent": "Total current from the supply",
+      "burnOut": "Simulate burnout",
+      "restore": "Restore the bulb"
     },
     "sim3": {
       "title": "Thermistor & LDR",
       "desc": "Illustrative response curves for an NTC thermistor and an LDR; these are not calibration data for a particular sensor.",
-      "temperature": "Temperature",
-      "lightLevel": "Light level",
-      "thermistorR": "Thermistor R",
-      "ldrR": "LDR R",
-      "low": "low",
-      "high": "high"
+      "temperature": "Thermistor temperature",
+      "lightLevel": "Light on the LDR",
+      "thermistorR": "Thermistor R at this temperature",
+      "ldrR": "LDR R at this light level"
     },
     "sim4": {
-      "title": "Power Consumption Calculator",
-      "desc": "Estimate monthly energy and cost for everyday devices.",
+      "title": "Energy Consumption Calculator",
+      "desc": "Set each device's power, its daily hours and the cost per kWh. Monthly energy assumes 30 days.",
       "device": "Device",
       "powerW": "Power (W)",
-      "hoursPerDay": "Hours / day",
+      "hoursPerDay": "Hours per day",
       "kwhPerMonth": "kWh / month",
       "costPerKwh": "Cost per kWh",
       "monthlyCost": "Estimated monthly cost",
@@ -3008,23 +3040,23 @@
       }
     },
     "simIV": {
-      "title": "I-V Characteristics — Ohmic vs Non-ohmic",
-      "desc": "Qualitative model curves. Actual component behaviour depends on temperature and device construction.",
-      "component": "Component",
-      "voltage": "Voltage",
+      "title": "I–V Characteristics — Ohmic vs Non-ohmic",
+      "desc": "The curves show the general shape, not measured values. A real component can differ, for example when it heats up.",
+      "component": "Choose a component",
+      "voltage": "Set the voltage",
       "ohmic": "Resistor",
-      "filament": "Filament",
+      "filament": "Filament lamp",
       "diode": "Diode"
     },
     "simMagnetic": {
       "title": "Magnetic Fields",
-      "desc": "Visualise field lines and compass directions for a bar magnet, a current-carrying wire or a solenoid.",
-      "source": "Source",
+      "desc": "Pick a source to see its field lines and compass needles. For a wire or solenoid, set the current.",
+      "source": "Field source",
       "barMagnet": "Bar magnet",
       "wire": "Current wire",
       "solenoid": "Solenoid",
-      "current": "Current",
-      "showCompass": "Show compasses"
+      "current": "Set the current: a negative value reverses the field",
+      "showCompass": "Show compass needles"
     }
   },
   "wavesOptics": {

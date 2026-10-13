@@ -55,7 +55,7 @@ export function PhysicsConceptDiagram({ kind }: { kind: DiagramKind }) {
           <path d="M290 125 V65 H320 M360 65 H390 V125" stroke="currentColor" strokeWidth="2" fill="none" />
           <circle cx="340" cy="65" r="20" fill="var(--color-bg-secondary)" stroke="currentColor" strokeWidth="2" /><text x="333" y="71">V</text>
           <path d="M150 110 H190" stroke="currentColor" strokeWidth="2" markerEnd={`url(#${id}-arrow)`} /><text x="147" y="92">I</text>
-          <text x="180" y="259">{t('I = ΔQ/Δt       V = ΔE/Q','I = ΔQ/Δt       U = ΔE/Q')}</text>
+          <text x="180" y="259">{t('I = ΔQ/Δt       V = ΔE/Q','I = ΔQ/Δt       U = A/Q')}</text>
         </>}
         {kind === 'waves' && <>
           <path d="M35 145 H565" stroke="currentColor" strokeDasharray="5 5" /><text x="40" y="177">{t('equilibrium','равновесие')}</text>

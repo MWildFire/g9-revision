@@ -16,7 +16,7 @@ export function Tabs({ tabs, activeId, onChange, className = '' }: TabsProps) {
   return (
     <div
       role="tablist"
-      className={`inline-flex p-1 bg-bg-tertiary rounded-md border border-border ${className}`}
+      className={`inline-flex max-w-full flex-wrap p-1 bg-bg-tertiary rounded-md border border-border ${className}`}
     >
       {tabs.map((tab) => {
         const active = tab.id === activeId;
@@ -26,7 +26,7 @@ export function Tabs({ tabs, activeId, onChange, className = '' }: TabsProps) {
             role="tab"
             aria-selected={active}
             onClick={() => onChange(tab.id)}
-            className={`px-3 py-1.5 text-sm font-medium rounded transition-colors ${
+            className={`px-3 py-1.5 text-sm font-medium rounded transition-colors whitespace-nowrap break-normal ${
               active
                 ? 'bg-bg-secondary text-text-primary shadow-soft'
                 : 'text-text-secondary hover:text-text-primary'

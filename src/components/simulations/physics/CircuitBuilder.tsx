@@ -67,8 +67,13 @@ function pointAt(path: PathData, t: number): { x: number; y: number } {
   return { x: last.bx, y: last.by };
 }
 
+// formatResistance (lib/physics) prints Ω; the Russian UI uses Ом, кОм and МОм.
+function localizeOhm(text: string, ru: boolean): string {
+  return ru ? text.replace('MΩ', 'МОм').replace('kΩ', 'кОм').replace('Ω', 'Ом') : text;
+}
+
 export function CircuitBuilder() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [mode, setMode] = useState<'series' | 'parallel'>('series');
   const [voltage, setVoltage] = useState(12);
   const [bulbs, setBulbs] = useState<Bulb[]>([
@@ -96,7 +101,12 @@ export function CircuitBuilder() {
     bulbCurrents = bulbs.map((b) => (b.on ? voltage / b.r : 0));
   }
 
-  const totalCurrent = bulbCurrents.reduce((a, b) => a + b, 0);
+  // Total current: in a series loop the same current flows through every bulb (I = U / R_total),
+  // so it is NOT the sum of the bulb currents. In parallel it is the sum of the branch currents.
+  const totalCurrent =
+    mode === 'series'
+      ? (!seriesBroken && totalR > 0 ? voltage / totalR : 0)
+      : bulbCurrents.reduce((a, b) => a + b, 0);
 
   const updateBulb = (id: number, patch: Partial<Bulb>) => {
     setBulbs((prev) => prev.map((b) => (b.id === id ? { ...b, ...patch } : b)));
@@ -196,19 +206,20 @@ export function CircuitBuilder() {
               className="bg-bg-tertiary border border-border rounded-md px-3 py-2 text-sm text-text-secondary"
               style={{ borderLeft: '4px solid var(--color-accent-clay)' }}
             >
-              Open circuit — one bulb has burned out, so no current flows in the series loop.
-              The intact bulbs are unlit but not damaged.
+              {i18n.language.startsWith('ru')
+                ? 'Разомкнутая цепь — одна лампа перегорела, поэтому в последовательной цепи ток не течёт. Исправные лампы не горят, но не повреждены.'
+                : 'Open circuit — one bulb has burned out, so no current flows in the series loop. The intact bulbs are unlit but not damaged.'}
             </div>
           ) : null}
 
           <div className="grid grid-cols-2 gap-3 text-sm">
             <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2">
               <div className="text-xs text-text-muted">{t('electricity.sim2.totalResistance')}</div>
-              <div className="font-mono">{formatResistance(totalR)}</div>
+              <div className="font-mono">{localizeOhm(formatResistance(totalR), i18n.language.startsWith('ru'))}</div>
             </div>
             <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2">
               <div className="text-xs text-text-muted">{t('electricity.sim2.totalCurrent')}</div>
-              <div className="font-mono">{format(totalCurrent, 2)} A</div>
+              <div className="font-mono">{format(totalCurrent, 2)} {i18n.language.startsWith('ru') ? 'А' : 'A'}</div>
             </div>
           </div>
         </div>
@@ -225,7 +236,7 @@ export function CircuitBuilder() {
               onChange={(id) => setMode(id as 'series' | 'parallel')}
             />
           </div>
-          <Slider label={t('electricity.sim2.supplyVoltage')} unit="V" min={0} max={24} step={0.5} value={voltage} onChange={setVoltage} />
+          <Slider label={t('electricity.sim2.supplyVoltage')} unit={i18n.language.startsWith('ru') ? 'В' : 'V'} min={0} max={24} step={0.5} value={voltage} onChange={setVoltage} />
 
           <div className="space-y-2">
             {bulbs.map((b, i) => {
@@ -240,7 +251,11 @@ export function CircuitBuilder() {
                     <span className="text-xs text-text-secondary">
                       {t('electricity.sim2.bulb')} {b.id}
                       <span className="ml-2 text-[10px] uppercase tracking-wider text-text-muted">
-                        {state === 'burned' ? 'burned' : state === 'lit' ? 'lit' : 'no current'}
+                        {state === 'burned'
+                          ? (i18n.language.startsWith('ru') ? 'перегорела' : 'burned')
+                          : state === 'lit'
+                            ? (i18n.language.startsWith('ru') ? 'горит' : 'lit')
+                            : (i18n.language.startsWith('ru') ? 'ток не течёт' : 'no current')}
                       </span>
                     </span>
                     <Button
@@ -253,7 +268,7 @@ export function CircuitBuilder() {
                   </div>
                   <Slider
                     label={t('electricity.sim2.resistance')}
-                    unit="Ω"
+                    unit={i18n.language.startsWith('ru') ? 'Ом' : 'Ω'}
                     min={1}
                     max={30}
                     step={1}
@@ -334,6 +349,7 @@ function BulbVisual({
 }
 
 function BatteryHorizontal({ cx, cy, voltage }: { cx: number; cy: number; voltage: number }) {
+  const { i18n } = useTranslation('physics');
   return (
     <g transform={`translate(${cx}, ${cy})`}>
       {/* long plate (-) */}
@@ -341,26 +357,27 @@ function BatteryHorizontal({ cx, cy, voltage }: { cx: number; cy: number; voltag
       {/* short plate (+) */}
       <line x1="5" y1="-7" x2="5" y2="7" stroke="#3d2f1f" strokeWidth="3" />
       {/* signs */}
-      <text x="-12" y="-16" fontSize="9" fill="#9c8b73" textAnchor="middle">−</text>
-      <text x="12" y="-16" fontSize="9" fill="#9c8b73" textAnchor="middle">+</text>
-      <text x="0" y="26" textAnchor="middle" fontSize="10" fontFamily="JetBrains Mono" fill="#6b5b47">
-        {voltage.toFixed(1)} V
+      <text x="-12" y="-16" fontSize="11" fill="#9c8b73" textAnchor="middle">−</text>
+      <text x="12" y="-16" fontSize="11" fill="#9c8b73" textAnchor="middle">+</text>
+      <text x="0" y="26" textAnchor="middle" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
+        {voltage.toFixed(1)} {i18n.language.startsWith('ru') ? 'В' : 'V'}
       </text>
     </g>
   );
 }
 
 function BatteryVertical({ cx, cy, voltage }: { cx: number; cy: number; voltage: number }) {
+  const { i18n } = useTranslation('physics');
   return (
     <g transform={`translate(${cx}, ${cy})`}>
       {/* long plate (+, on top) */}
       <line x1="-14" y1="-7" x2="14" y2="-7" stroke="#3d2f1f" strokeWidth="3" />
       {/* short plate (-, on bottom) */}
       <line x1="-8" y1="7" x2="8" y2="7" stroke="#3d2f1f" strokeWidth="3" />
-      <text x="20" y="-4" fontSize="9" fill="#9c8b73">+</text>
-      <text x="20" y="11" fontSize="9" fill="#9c8b73">−</text>
-      <text x="-32" y="3" fontSize="10" fontFamily="JetBrains Mono" fill="#6b5b47" textAnchor="end">
-        {voltage.toFixed(1)} V
+      <text x="20" y="-4" fontSize="11" fill="#9c8b73">+</text>
+      <text x="20" y="11" fontSize="11" fill="#9c8b73">−</text>
+      <text x="-28" y="3" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47" textAnchor="end">
+        {voltage.toFixed(1)} {i18n.language.startsWith('ru') ? 'В' : 'V'}
       </text>
     </g>
   );

@@ -73,7 +73,7 @@ function QuestionCard({ q, lang }: { q: PracticeQuestion; lang: 'ru' | 'en' }) {
               className="text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded border"
               style={{ borderColor: 'var(--color-border)', color: 'var(--color-text-muted)' }}
             >
-              Criterion {q.criterion}
+              {t('practice.criterion')} {q.criterion}
             </span>
           </div>
           <span className="text-xs text-text-muted font-mono">

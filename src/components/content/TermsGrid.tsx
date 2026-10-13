@@ -11,7 +11,7 @@ interface TermsGridProps {
 export function TermsGrid({ ns, topicKey, termIds }: TermsGridProps) {
   const { t, i18n } = useTranslation(ns);
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start gap-4">
       {termIds.map((id) => (
         <TermCard
           key={id}

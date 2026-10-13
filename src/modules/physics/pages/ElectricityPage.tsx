@@ -31,7 +31,7 @@ const TERMS = [
   'kwh',
 ];
 
-const CONCEPTS = ['currentVoltageResistance', 'ohmsLaw', 'seriesParallel', 'power', 'safety', 'magnetism'];
+const CONCEPTS = ['currentVoltageResistance', 'ohmsLaw', 'seriesParallel', 'power', 'safety', 'magnetism', 'circuitSymbols'];
 const FORMULAS = ['ohm', 'power', 'energy', 'efficiency'];
 
 export function ElectricityPage() {
@@ -50,7 +50,10 @@ export function ElectricityPage() {
         icon={<Zap size={28} />}
       />
 
-      <PhysicsConceptDiagram kind="electricity" />
+      {/* SVG keeps its viewBox; drop the inline 500 px min-width so it fits a 390 px screen. */}
+      <div className="[&_svg]:!min-w-0">
+        <PhysicsConceptDiagram kind="electricity" />
+      </div>
 
       <SectionHeading>{t('common.keyTerms')}</SectionHeading>
       <TermsGrid ns="physics" topicKey="electricity" termIds={TERMS} />
@@ -64,7 +67,8 @@ export function ElectricityPage() {
       </div>
 
       <SectionHeading>{t('common.simulations')}</SectionHeading>
-      <div className="space-y-6">
+      {/* Energy table: scroll inside the block; wrap only between words, never inside a word. */}
+      <div className="space-y-6 [&_table]:min-w-[20rem] [&_th]:break-normal [&_td]:break-normal">
         <OhmsLaw />
         <IVCharacteristics />
         <CircuitBuilder />

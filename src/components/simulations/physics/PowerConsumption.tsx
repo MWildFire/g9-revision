@@ -20,7 +20,7 @@ const DEVICES: DeviceRow[] = [
 ];
 
 export function PowerConsumption() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [rate, setRate] = useState(0.38);
   const [rows, setRows] = useState(
     DEVICES.map((d) => ({ key: d.key, power: d.defaultPower, hours: d.defaultHours })),
@@ -41,7 +41,7 @@ export function PowerConsumption() {
         <div className="overflow-x-auto -mx-2">
           <table className="w-full text-sm">
             <thead className="text-left">
-              <tr className="text-xs uppercase text-text-muted">
+              <tr className="text-xs text-text-muted">
                 <th className="px-2 py-2 font-medium">{t('electricity.sim4.device')}</th>
                 <th className="px-2 py-2 font-medium">{t('electricity.sim4.powerW')}</th>
                 <th className="px-2 py-2 font-medium">{t('electricity.sim4.hoursPerDay')}</th>
@@ -60,7 +60,7 @@ export function PowerConsumption() {
                       min={5}
                       max={3000}
                       step={5}
-                      unit="W"
+                      unit={i18n.language.startsWith('ru') ? 'Вт' : 'W'}
                       value={row.power}
                       onChange={(v) =>
                         setRows((prev) => prev.map((r, j) => (i === j ? { ...r, power: v } : r)))
@@ -73,7 +73,7 @@ export function PowerConsumption() {
                       min={0}
                       max={24}
                       step={0.1}
-                      unit="h"
+                      unit={i18n.language.startsWith('ru') ? 'ч' : 'h'}
                       value={row.hours}
                       onChange={(v) =>
                         setRows((prev) => prev.map((r, j) => (i === j ? { ...r, hours: v } : r)))
@@ -93,12 +93,12 @@ export function PowerConsumption() {
             <Slider label="" min={0.05} max={1.0} step={0.01} unit="AED" value={rate} onChange={setRate} format={(v) => v.toFixed(2)} />
           </div>
           <div className="bg-bg-tertiary border border-border rounded-md px-4 py-3">
-            <p className="text-xs uppercase tracking-wider text-text-muted">{t('electricity.sim4.kwhPerMonth')}</p>
+            <p className="text-xs tracking-wider text-text-muted">{t('electricity.sim4.kwhPerMonth')}</p>
             <p className="font-mono text-2xl text-text-primary">{format(totalKwh, 1)}</p>
-            <p className="text-xs text-text-muted">kWh</p>
+            <p className="text-xs text-text-muted">{i18n.language.startsWith('ru') ? 'кВт·ч' : 'kWh'}</p>
           </div>
           <div className="bg-bg-secondary border border-border rounded-md px-4 py-3" style={{ borderLeft: '4px solid var(--color-accent-warm)' }}>
-            <p className="text-xs uppercase tracking-wider text-text-muted">{t('electricity.sim4.monthlyCost')}</p>
+            <p className="text-xs tracking-wider text-text-muted">{t('electricity.sim4.monthlyCost')}</p>
             <p className="font-mono text-2xl text-text-primary">{format(totalCost, 1)}</p>
             <p className="text-xs text-text-muted">AED</p>
           </div>

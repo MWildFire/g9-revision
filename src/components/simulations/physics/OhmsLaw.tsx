@@ -32,7 +32,7 @@ function pathPoint(t: number) {
 }
 
 export function OhmsLaw() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [voltage, setVoltage] = useState(12);
   const [resistance, setResistance] = useState(6);
 
@@ -105,29 +105,13 @@ export function OhmsLaw() {
             <line x1="-10" y1="-8" x2="10" y2="-8" stroke="#3d2f1f" strokeWidth="3" />
             <line x1="-6" y1="0" x2="6" y2="0" stroke="#3d2f1f" strokeWidth="2" />
             <line x1="0" y1="0" x2="0" y2="22" stroke="#3d2f1f" strokeWidth="3" />
-            <text x="-26" y="-4" fontSize="10" fontFamily="JetBrains Mono" fill="#6b5b47">
-              {voltage.toFixed(1)} V
-            </text>
-          </g>
-
-          <g transform="translate(180, 50)">
-            <rect x="-30" y="-12" width="60" height="24" fill="#ede4d3" stroke="#6b5b47" strokeWidth="1.5" rx="2" />
-            <text x="0" y="4" textAnchor="middle" fontSize="11" fontFamily="JetBrains Mono" fill="#3d2f1f">
-              {resistance.toFixed(0)} Ω
-            </text>
-          </g>
-
-          <g transform="translate(300, 100)">
-            <circle r="20" fill="#faf6ef" stroke="#6b5b47" strokeWidth="1.5" />
-            <text y="-3" textAnchor="middle" fontSize="11" fontFamily="Lora" fill="#3d2f1f">
-              A
-            </text>
-            <text y="10" textAnchor="middle" fontSize="9" fontFamily="JetBrains Mono" fill="#6b5b47">
-              {current.toFixed(2)}
+            <text x="12" y="4" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
+              {voltage.toFixed(1)} {i18n.language.startsWith('ru') ? 'В' : 'V'}
             </text>
           </g>
 
           {/* electrons — animated via refs; initial positions distributed around the loop */}
+          {/* drawn under the resistor and the ammeter so that their labels are never crossed by a moving dot */}
           {initialPositions.map((pos, i) => (
             <circle
               key={i}
@@ -140,25 +124,42 @@ export function OhmsLaw() {
             />
           ))}
 
+          <g transform="translate(180, 50)">
+            <rect x="-30" y="-12" width="60" height="24" fill="#ede4d3" stroke="#6b5b47" strokeWidth="1.5" rx="2" />
+            <text x="0" y="4" textAnchor="middle" fontSize="11" fontFamily="JetBrains Mono" fill="#3d2f1f">
+              {resistance.toFixed(0)} {i18n.language.startsWith('ru') ? 'Ом' : 'Ω'}
+            </text>
+          </g>
+
+          <g transform="translate(300, 100)">
+            <circle r="20" fill="#faf6ef" stroke="#6b5b47" strokeWidth="1.5" />
+            <text y="-3" textAnchor="middle" fontSize="11" fontFamily="Lora" fill="#3d2f1f">
+              {i18n.language.startsWith('ru') ? 'А' : 'A'}
+            </text>
+            <text x="-26" y="4" textAnchor="end" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
+              {current.toFixed(2)}
+            </text>
+          </g>
+
           {/* status indicator under the ammeter when there's no current */}
           {current < 0.001 ? (
-            <text x="300" y="148" textAnchor="middle" fontSize="9" fill="#9c8b73" fontStyle="italic">
-              no current
+            <text x="300" y="148" textAnchor="middle" fontSize="10" fill="#9c8b73" fontStyle="italic">
+              {i18n.language.startsWith('ru') ? 'ток не течёт' : 'no current'}
             </text>
           ) : null}
         </svg>
 
         <div className="space-y-4">
-          <Slider label={t('electricity.sim1.voltage')} unit="V" min={0} max={24} step={0.5} value={voltage} onChange={setVoltage} />
-          <Slider label={t('electricity.sim1.resistance')} unit="Ω" min={1} max={100} step={1} value={resistance} onChange={setResistance} />
+          <Slider label={t('electricity.sim1.voltage')} unit={i18n.language.startsWith('ru') ? 'В' : 'V'} min={0} max={24} step={0.5} value={voltage} onChange={setVoltage} />
+          <Slider label={t('electricity.sim1.resistance')} unit={i18n.language.startsWith('ru') ? 'Ом' : 'Ω'} min={1} max={100} step={1} value={resistance} onChange={setResistance} />
 
-          <Formula caption="I = V / R">
+          <Formula caption={i18n.language.startsWith('ru') ? 'I = U / R' : 'I = V / R'}>
             I = {voltage.toFixed(1)} / {resistance.toFixed(0)} ={' '}
-            <span className="text-accent-warm">{format(current, 3)} A</span>
+            <span className="text-accent-warm">{format(current, 3)} {i18n.language.startsWith('ru') ? 'А' : 'A'}</span>
           </Formula>
-          <Formula caption="P = V × I">
+          <Formula caption={i18n.language.startsWith('ru') ? 'P = U × I' : 'P = V × I'}>
             P = {voltage.toFixed(1)} × {current.toFixed(3)} ={' '}
-            <span className="text-accent-sage">{format(watt, 2)} W</span>
+            <span className="text-accent-sage">{format(watt, 2)} {i18n.language.startsWith('ru') ? 'Вт' : 'W'}</span>
           </Formula>
         </div>
       </div>

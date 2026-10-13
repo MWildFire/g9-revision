@@ -5,4 +5,4 @@
 @media(max-width:500px){.november{padding:20px 16px 44px}.nov-grid,.nov-storyboard{grid-template-columns:1fr}.nov-panel,.nov-exercise{padding:18px}.nov-library>details{padding:14px}.nov-nav{font-size:.9rem}.nov-nav button{margin-left:0}.november h2{font-size:1.55rem}}
 @media print{.nov-nav,.nov-anchor,.nov-timer,.nov-button,.nov-filters,.nov-small{display:none!important}.november{max-width:none;padding:0;font-size:10pt;color:#000}.nov-hero,.nov-panel,.nov-exercise{background:#fff}.nov-grid{display:block}.nov-topic{margin:10px 0}.november textarea{min-height:100px}.nov-exercise{break-inside:avoid}.nov-source{display:none}.november h1{font-size:26pt}}
 
-.nov-session select{max-width:100%;min-width:0;white-space:normal}.nov-session{border-left:4px solid #426c62}.nov-session p{max-width:850px}
+.nov-session select{max-width:100%;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.nov-session{border-left:4px solid #426c62}.nov-session p{max-width:850px}.nov-kicker-plain{text-transform:none;letter-spacing:normal}@media(max-width:500px){.nov-session-dup{display:none}}

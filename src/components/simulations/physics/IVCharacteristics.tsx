@@ -12,7 +12,7 @@ const V_MAX = 6;
 const STEPS = 80;
 
 export function IVCharacteristics() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [component, setComponent] = useState<Component>('ohmic');
   const [voltage, setVoltage] = useState(3);
 
@@ -45,10 +45,15 @@ export function IVCharacteristics() {
   const apparentResistance = Math.abs(currentValue) > 1e-4 ? voltage / currentValue : Infinity;
 
   const description: Record<Component, string> = {
-    ohmic: 'Straight line through origin — resistance is constant. This obeys Ohm\'s Law.',
-    filament:
-      'Curve flattens as voltage increases — the wire heats up, resistance rises. NOT ohmic.',
-    diode: 'Current only flows in one direction once forward voltage > ~0.6 V. Strongly non-ohmic.',
+    ohmic: i18n.language.startsWith('ru')
+      ? 'Прямая через начало координат — сопротивление постоянно. Выполняется закон Ома.'
+      : 'Straight line through origin — resistance is constant. This obeys Ohm\'s law.',
+    filament: i18n.language.startsWith('ru')
+      ? 'Кривая выполаживается при росте напряжения — нить лампы накаливания нагревается, сопротивление растёт. Не омический.'
+      : 'Curve flattens as voltage increases — the wire heats up, resistance rises. NOT ohmic.',
+    diode: i18n.language.startsWith('ru')
+      ? 'Ток течёт только в одном направлении и только при прямом напряжении выше ~0,6 В. Сильно неомический.'
+      : 'Current only flows in one direction once forward voltage > ~0.6 V. Strongly non-ohmic.',
   };
 
   return (
@@ -70,16 +75,18 @@ export function IVCharacteristics() {
               onChange={(id) => setComponent(id as Component)}
             />
           </div>
-          <Slider label={t('electricity.simIV.voltage')} unit="V" min={V_MIN} max={V_MAX} step={0.1} value={voltage} onChange={setVoltage} />
+          <Slider label={t('electricity.simIV.voltage')} unit={i18n.language.startsWith('ru') ? 'В' : 'V'} min={V_MIN} max={V_MAX} step={0.1} value={voltage} onChange={setVoltage} />
 
           <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2 text-sm space-y-1">
             <div className="flex justify-between">
-              <span className="text-text-muted">I at V = {voltage.toFixed(1)} V</span>
-              <span className="font-mono">{currentValue.toFixed(3)} A</span>
+              <span className="text-text-muted">
+                {i18n.language.startsWith('ru') ? 'I при U' : 'I at V'} = {voltage.toFixed(1)} {i18n.language.startsWith('ru') ? 'В' : 'V'}
+              </span>
+              <span className="font-mono">{currentValue.toFixed(3)} {i18n.language.startsWith('ru') ? 'А' : 'A'}</span>
             </div>
             <div className="flex justify-between">
-              <span className="text-text-muted">V / I (effective R)</span>
-              <span className="font-mono">{isFinite(apparentResistance) ? apparentResistance.toFixed(1) : '∞'} Ω</span>
+              <span className="text-text-muted">{i18n.language.startsWith('ru') ? 'U / I (статическое R)' : 'V / I (effective R)'}</span>
+              <span className="font-mono">{isFinite(apparentResistance) ? apparentResistance.toFixed(1) : '∞'} {i18n.language.startsWith('ru') ? 'Ом' : 'Ω'}</span>
             </div>
           </div>
 
@@ -87,7 +94,7 @@ export function IVCharacteristics() {
         </div>
 
         <div className="h-72 bg-bg-primary rounded-md border border-border p-2">
-          <p className="text-xs text-text-muted px-2">I vs V</p>
+          <p className="text-xs text-text-muted px-2">{i18n.language.startsWith('ru') ? 'I(U)' : 'I vs V'}</p>
           <ResponsiveContainer width="100%" height="92%">
             <LineChart data={data} margin={{ top: 8, right: 12, left: 0, bottom: 4 }}>
               <XAxis
@@ -96,10 +103,10 @@ export function IVCharacteristics() {
                 domain={[V_MIN, V_MAX]}
                 stroke="var(--color-text-muted)"
                 fontSize={10}
-                unit=" V"
+                unit={i18n.language.startsWith('ru') ? ' В' : ' V'}
                 tickFormatter={(v) => v.toFixed(0)}
               />
-              <YAxis stroke="var(--color-text-muted)" fontSize={10} unit=" A" width={48} />
+              <YAxis stroke="var(--color-text-muted)" fontSize={10} unit={i18n.language.startsWith('ru') ? ' А' : ' A'} width={48} />
               <ReferenceLine x={0} stroke="#9c8b73" strokeWidth={0.6} />
               <ReferenceLine y={0} stroke="#9c8b73" strokeWidth={0.6} />
               <RTooltip
@@ -109,7 +116,7 @@ export function IVCharacteristics() {
                   borderRadius: 8,
                   fontSize: 12,
                 }}
-                labelFormatter={(v: number) => `V = ${v.toFixed(2)} V`}
+                labelFormatter={(v: number) => (i18n.language.startsWith('ru') ? `U = ${v.toFixed(2)} В` : `V = ${v.toFixed(2)} V`)}
                 formatter={(v: number) => v.toFixed(3)}
               />
               <Line type="monotone" dataKey="i" stroke="var(--color-accent-warm)" strokeWidth={2} dot={false} isAnimationActive={false} />

@@ -193,7 +193,7 @@ function Overview({ store }: { store: Store }) {
     <>
       <section className="nuclear-hero">
         <div>
-          <p className="nuclear-eyebrow">GRADE 10 · IB MYP · CRITERION A</p>
+          <p className="nuclear-eyebrow">{t("GRADE 10 · IB MYP · CRITERION A", "10 класс · IB MYP · Критерий A")}</p>
           <h1>{t("Physics. September 2026.", "Физика. Сентябрь 2026.")}</h1>
           <p>
             {t(
@@ -458,7 +458,7 @@ function Practice({ store }: { store: Store }) {
   );
   return (
     <>
-      <p className="nuclear-eyebrow">CRITERION A · QUESTION BANK</p>
+      <p className="nuclear-eyebrow">{t("CRITERION A · QUESTION BANK", "Критерий A · Банк вопросов")}</p>
       <h1>
         {t("Practice, one skill at a time", "Практика по отдельным навыкам")}
       </h1>
@@ -558,7 +558,7 @@ function PaperPage({ store, id }: { store: Store; id: string }) {
   }, [deadline]);
   return (
     <div className="nuclear-paper">
-      <p className="nuclear-eyebrow">ORIGINAL PRACTICE · CRITERION A</p>
+      <p className="nuclear-eyebrow">{t("ORIGINAL PRACTICE · CRITERION A", "Оригинальная практика · Критерий A")}</p>
       <h1>{txt(paper.title)}</h1>
       <p className="nuclear-lead">
         {t(

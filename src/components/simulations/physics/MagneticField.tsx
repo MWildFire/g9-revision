@@ -17,7 +17,7 @@ const SOL_HALF_W = 110;
 const SOL_HALF_H = 38;
 
 export function MagneticField() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [source, setSource] = useState<Source>('bar');
   const [current, setCurrent] = useState(2);
   const [showCompass, setShowCompass] = useState(true);
@@ -86,7 +86,7 @@ export function MagneticField() {
           {source !== 'bar' && (
             <Slider
               label={t('electricity.simMagnetic.current')}
-              unit="A"
+              unit={i18n.language.startsWith('ru') ? 'А' : 'A'}
               min={-5}
               max={5}
               step={0.2}
@@ -108,19 +108,39 @@ export function MagneticField() {
           <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2 text-xs leading-relaxed">
             {source === 'bar' && (
               <span>
-                Field lines emerge from the <span className="text-accent-clay font-medium">N</span> pole and curve back into the{' '}
-                <span className="text-accent-sky font-medium">S</span> pole. Compasses align with the local field direction.
+                {i18n.language.startsWith('ru') ? (
+                  <>
+                    Линии поля выходят из северного полюса <span className="text-accent-clay font-medium">N</span> и входят в южный полюс{' '}
+                    <span className="text-accent-sky font-medium">S</span>. Стрелки компасов выстраиваются по направлению поля в данной точке.
+                  </>
+                ) : (
+                  <>
+                    Field lines emerge from the <span className="text-accent-clay font-medium">N</span> pole and curve back into the{' '}
+                    <span className="text-accent-sky font-medium">S</span> pole. Compasses align with the local field direction.
+                  </>
+                )}
               </span>
             )}
             {source === 'wire' && (
               <span>
-                A current-carrying wire produces circular field lines. Use the <em>right-hand rule</em>: thumb along the current,
-                fingers curl in the direction of the field.
+                {i18n.language.startsWith('ru') ? (
+                  <>
+                    Проводник с током создаёт круговые линии поля. Используй <em>правило правой руки</em>: большой палец — по току,
+                    пальцы, обхватывающие провод, — по направлению поля.
+                  </>
+                ) : (
+                  <>
+                    A current-carrying wire produces circular field lines. Use the <em>right-hand rule</em>: thumb along the current,
+                    fingers curl in the direction of the field.
+                  </>
+                )}
               </span>
             )}
             {source === 'solenoid' && (
               <span>
-                A solenoid behaves like a bar magnet. Inside the coils the field is uniform; outside it loops back from N to S.
+                {i18n.language.startsWith('ru')
+                  ? 'Соленоид ведёт себя как полосовой магнит. Внутри катушки поле однородно, снаружи линии выходят из N и возвращаются к S.'
+                  : 'A solenoid behaves like a bar magnet. Inside the coils the field is uniform; outside it loops back from N to S.'}
               </span>
             )}
           </div>
@@ -217,6 +237,7 @@ function BarMagnetFieldLines() {
 }
 
 function CurrentWire({ current }: { current: number }) {
+  const { i18n } = useTranslation('physics');
   const inward = current < 0;
   return (
     <g>
@@ -230,7 +251,7 @@ function CurrentWire({ current }: { current: number }) {
         <circle cx={CX} cy={CY} r="3.2" fill="#3d2f1f" />
       )}
       <text x={CX + WIRE_R + 8} y={CY + 4} fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
-        I = {Math.abs(current).toFixed(1)} A
+        I = {Math.abs(current).toFixed(1)} {i18n.language.startsWith('ru') ? 'А' : 'A'}
       </text>
     </g>
   );

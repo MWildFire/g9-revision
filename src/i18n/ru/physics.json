@@ -1456,25 +1456,25 @@
   },
   "forcesEnergy": {
     "title": "Силы и энергия",
-    "intro": "Как силы растягивают, толкают, поднимают и совершают работу — и как давление с плотностью определяют, что плавает, тонет или ломается.",
+    "intro": "Страница объясняет, как силы растягивают пружины и совершают работу (work). Здесь также разобрано, как запасается и передаётся энергия (energy) и как вычисляют давление (pressure) и плотность (density).",
     "concepts": {
       "hookesLaw": {
         "name": "Закон Гука — пружины и упругость",
         "rule": "Для идеальной линейной пружины F = kx, где x — удлинение относительно естественной длины, k — жёсткость в Н/м. Линейная зависимость действует до предела пропорциональности. Предел упругости связан с появлением остаточной деформации после разгрузки.",
         "examples": [
           "Пружина жёсткостью 200 Н/м удлиняется на 0,03 м под силой 6 Н в линейном диапазоне.",
-          "Упругий материал может иметь нелинейный график силы от удлинения и всё же восстанавливать форму."
+          "У резиновой ленты график «сила — удлинение» изогнутый, но после снятия силы она возвращается к прежней длине, если её не растянули слишком сильно."
         ],
         "review": {
-          "englishTerm": "Hooke's Law — springs & elasticity",
-          "russianTerm": "Закон Гука — пружины и упругость",
+          "englishTerm": "Hooke's law",
+          "russianTerm": "Закон Гука",
           "contrast": {
-            "en": "Extension is the change in length. The limit of proportionality is distinct from the elastic limit.",
-            "ru": "Удлинение — изменение длины. Предел пропорциональности отличается от предела упругости."
+            "en": "x is the extension, not the total length of the spring. If the natural length is L₀ and the spring stretches by x, its total length is L₀ + x.",
+            "ru": "x — это удлинение, а не полная длина пружины. Если естественная длина равна L₀, а удлинение — x, то полная длина равна L₀ + x."
           },
           "model": {
-            "en": "The restoring force opposes deformation: Fspring = −kx along an axis. Beyond proportionality, a constant k no longer fits.",
-            "ru": "Сила упругости направлена против деформации: Fупр = −kx вдоль оси. За пределом пропорциональности постоянное k уже не описывает зависимость."
+            "en": "F = kx also works for compression: a compressed spring pushes back with force kx, as long as it stays within its limit of proportionality.",
+            "ru": "Формула F = kx работает и при сжатии: сжатая пружина отталкивает с силой kx, пока сжатие не выходит за предел пропорциональности."
           },
           "sources": [
             {
@@ -1494,21 +1494,21 @@
       },
       "work": {
         "name": "Работа, энергия и мощность",
-        "rule": "Работа передаёт энергию: для постоянной силы W = Fd cos θ. Мощность — энергия за единицу времени, Pср = ΔE/Δt. Энергию измеряют в джоулях, мощность — в ваттах; 1 Вт = 1 Дж/с.",
+        "rule": "Работа A (W) — способ передачи энергии. Для постоянной силы A = F·s·cos α, где α — угол между силой и перемещением. Средняя мощность N (P) — энергия, переданная за единицу времени: N = A/t. Энергию измеряют в джоулях, мощность — в ваттах; 1 Вт = 1 Дж/с.",
         "examples": [
           "Передача 60 Дж за 3 с соответствует средней мощности 20 Вт.",
-          "Сила, перпендикулярная перемещению, не совершает работу при этом движении."
+          "Тележка катится по горизонтальному столу. Сила тяжести направлена под углом 90° к движению, поэтому работы она не совершает."
         ],
         "review": {
-          "englishTerm": "Work, energy & power",
-          "russianTerm": "Работа, энергия и мощность",
+          "englishTerm": "Work done",
+          "russianTerm": "Механическая работа",
           "contrast": {
-            "en": "Force is measured in newtons; work and energy are measured in joules.",
-            "ru": "Силу измеряют в ньютонах, работу и энергию — в джоулях."
+            "en": "Force is measured in newtons (N), but work is measured in joules (J): one joule is the work done by a force of one newton acting through one metre. Writing newtons for work is a common mistake.",
+            "ru": "Силу измеряют в ньютонах (Н), а работу — в джоулях (Дж), причём 1 Дж = 1 Н·м. Записывать работу в ньютонах — частая ошибка."
           },
           "model": {
-            "en": "W = Fd applies only to parallel force and displacement. A perpendicular force does zero work.",
-            "ru": "W = Fd верно при совпадающих направлениях силы и перемещения. Перпендикулярная сила работы не совершает."
+            "en": "W = Fd works only when the force points along the displacement. At an angle θ, use cos θ: a 10 N force at 60° to a 2 m displacement does 10 J of work, not 20 J.",
+            "ru": "Формула A = F·s верна, только если сила направлена вдоль перемещения. При угле α в формулу входит cos α. Сила 10 Н под углом 60° к перемещению 2 м совершает работу 10 Дж, а не 20 Дж."
           },
           "sources": [
             {
@@ -1533,22 +1533,22 @@
         }
       },
       "energyStores": {
-        "name": "Запасы и переносы энергии",
+        "name": "Запасы энергии (energy stores) и её передача",
         "rule": "Энергия — сохраняющаяся величина, с помощью которой описывают изменения системы. Рассматривают кинетическую, гравитационную, упругую, внутреннюю и химическую энергию. Работа, теплопередача и излучение описывают способы передачи энергии.",
         "examples": [
-          "Трение уменьшает механическую энергию и увеличивает внутреннюю энергию тел и окружения.",
-          "Количество теплоты — энергия, переданная из-за разности температур; температура не равна запасу энергии."
+          "Мяч, отпущенный с высоты, при падении теряет запас гравитационной энергии и получает запас кинетической. Без сопротивления воздуха прирост кинетической энергии равен убыли гравитационной.",
+          "Батарейка теряет запас химической энергии, пока работает вентилятор. Растут кинетическая энергия лопастей и внутренняя энергия проводов."
         ],
         "review": {
-          "englishTerm": "Energy stores & transfers",
-          "russianTerm": "Запасы и переносы энергии",
+          "englishTerm": "Energy store",
+          "russianTerm": "Запас энергии",
           "contrast": {
-            "en": "An energy store describes a system’s state; a transfer describes a process between systems.",
-            "ru": "Запас энергии характеризует состояние системы; передача энергии — процесс взаимодействия систем."
+            "en": "Energy is not used up. When brakes stop a car, its kinetic energy is transferred to the brakes and the road as internal energy.",
+            "ru": "Энергия не «расходуется» и не исчезает. Когда тормоза останавливают машину, её кинетическая энергия превращается во внутреннюю энергию тормозов и дороги."
           },
           "model": {
-            "en": "Energy is conserved for the system plus surroundings; dissipated energy remains present but is less useful.",
-            "ru": "Энергия системы и окружения в сумме сохраняется; рассеянная энергия остаётся, но становится менее пригодной для полезной работы."
+            "en": "Store and transfer accounting counts how much energy there is, not how useful it is. Energy spread out as heat in a room still counts, but it is hard to use.",
+            "ru": "Учёт запасов и передач энергии показывает, сколько энергии есть, но не насколько она полезна. Энергия, рассеянная в комнате в виде тепла, тоже учитывается, но её трудно использовать."
           },
           "sources": [
             {
@@ -1568,21 +1568,21 @@
       },
       "pressure": {
         "name": "Давление",
-        "rule": "Среднее давление равно нормальной силе, делённой на площадь, p = Fперп/A. В покоящейся среде давление в точке одинаково во всех направлениях, а силы давления перпендикулярны соответствующим поверхностям.",
+        "rule": "Среднее давление равно силе, перпендикулярной поверхности, делённой на площадь соприкосновения: p = F/S. В покоящейся жидкости давление в точке одинаково по всем направлениям, а силы давления перпендикулярны поверхностям, на которые действуют.",
         "examples": [
           "Для 200 Н на площади 0,04 м² давление равно 5000 Па.",
-          "При той же нагрузке удвоение площади уменьшает среднее давление вдвое."
+          "Снегоступы распределяют вес человека на большую площадь, поэтому давление на снег меньше и человек меньше проваливается."
         ],
         "review": {
           "englishTerm": "Pressure",
           "russianTerm": "Давление",
           "contrast": {
-            "en": "Pressure is a scalar; the force on a surface acts normal to that surface.",
-            "ru": "Давление — скаляр; сила давления направлена перпендикулярно поверхности."
+            "en": "Use the contact area (the base), not the total surface area of the object. A 100 N box on a 0.5 m × 0.2 m base exerts 100 N ÷ 0.1 m² = 1000 Pa.",
+            "ru": "В формулу подставляют площадь опоры (основание), а не площадь всей поверхности тела. Коробка весом 100 Н опирается основанием 0,5 м × 0,2 м и создаёт давление 100 Н ÷ 0,1 м² = 1000 Па."
           },
           "model": {
-            "en": "If pressure varies over the surface, F/A gives its area average, not each local value.",
-            "ru": "Если давление меняется по поверхности, F/A даёт среднее по площади, а не каждое местное значение."
+            "en": "The formula gives the average pressure over the contact area. If the load is uneven, some points feel more pressure than others, as under the point of a drawing pin.",
+            "ru": "Формула даёт среднее давление по площади опоры. Если нагрузка неравномерна, в одних точках давление больше, чем в других, например под острием канцелярской кнопки."
           },
           "sources": [
             {
@@ -1607,22 +1607,22 @@
         }
       },
       "density": {
-        "name": "Плотность и плавучесть",
-        "rule": "Плотность — масса единицы объёма. Выталкивающая сила равна силе тяжести вытесненной среды. В простой модели средняя плотность свободно плавающего на поверхности тела меньше плотности среды; при равенстве возможна нейтральная плавучесть.",
+        "name": "Плотность и плавание тел",
+        "rule": "Плотность — масса единицы объёма. Выталкивающая сила равна силе тяжести вытесненной телом жидкости. Свободно плавающее тело имеет среднюю плотность меньше плотности жидкости. Если плотности равны, тело остаётся в равновесии на любой глубине, где его оставили.",
         "examples": [
-          "Полый стальной корабль плавает, если его масса, делённая на внешний объём, даёт плотность ниже плотности воды.",
+          "Полый стальной корабль плавает, потому что его масса, делённая на весь объём внутри корпуса (вместе с воздухом), меньше плотности воды.",
           "Сплошной брусок плотностью 3 г/см³ тонет в воде плотностью около 1 г/см³."
         ],
         "review": {
-          "englishTerm": "Density & floating",
-          "russianTerm": "Плотность и плавучесть",
+          "englishTerm": "Density",
+          "russianTerm": "Плотность",
           "contrast": {
-            "en": "Mass measures how much mass is present; density relates it to occupied volume.",
-            "ru": "Масса характеризует тело, а плотность связывает массу с занимаемым объёмом."
+            "en": "A floating object is not held up by a force larger than its weight. At rest, the buoyant force equals the object's weight.",
+            "ru": "Плавающее тело держится на воде силой, равной его силе тяжести, а не большей. Когда тело покоится, выталкивающая сила равна его силе тяжести."
           },
           "model": {
-            "en": "For a hollow or mixed object use its average density, including enclosed space, when predicting floating.",
-            "ru": "Для полого или составного тела при оценке плавания используй среднюю плотность с учётом замкнутых полостей."
+            "en": "The same test works for any fluid, including air: a helium balloon rises because its average density is lower than that of the surrounding air.",
+            "ru": "Тот же критерий работает для любой жидкости и для газов, включая воздух: гелиевый шар поднимается, потому что его средняя плотность меньше плотности окружающего воздуха."
           },
           "sources": [
             {
@@ -1648,22 +1648,22 @@
         "tip": "В этих сравнениях пренебрегаем поверхностным натяжением, внешними опорами и изменением объёма."
       },
       "fluidPressure": {
-        "name": "Давление в жидкости и атмосфере",
-        "rule": "Для неподвижной среды постоянной плотности давление на глубине h: p = pпов + ρgh. Поэтому ρgh — избыточное давление относительно поверхности. Атмосферное давление обычно уменьшается с высотой, поскольку выше остаётся меньше воздуха.",
+        "name": "Давление в жидкости и атмосферное давление",
+        "rule": "Для покоящейся жидкости постоянной плотности давление на глубине h равно p = p₀ + Δp, где p₀ — давление на поверхности, а Δp = ρgh — прибавка давления по сравнению с поверхностью. Атмосферное давление обычно уменьшается с высотой, потому что над каждым уровнем лежит меньше воздуха.",
         "examples": [
           "На глубине 2 м в воде при ρ = 1000 кг/м³ и g = 9,8 м/с² прибавка давления равна 19 600 Па.",
-          "Для полного давления нужно добавить давление на поверхности воды."
+          "Если поверхность воды открыта воздуху (p₀ ≈ 1,01 × 10⁵ Па), то на глубине 2 м полное (абсолютное) давление примерно равно 1,2 × 10⁵ Па."
         ],
         "review": {
-          "englishTerm": "Fluid pressure & atmospheric",
-          "russianTerm": "Давление в жидкости и атмосфере",
+          "englishTerm": "Fluid pressure",
+          "russianTerm": "Давление в жидкости",
           "contrast": {
-            "en": "ρgh is the increase over surface pressure, not usually the absolute pressure.",
-            "ru": "ρgh — прибавка к давлению на поверхности, обычно не полное давление."
+            "en": "Depth is not the height above the bottom. Depth h runs from the liquid's surface down to the point, so a point near the base of a deep tank is at great depth, while a point near the top is shallow.",
+            "ru": "Глубина — это не высота над дном. Глубина h отсчитывается от поверхности жидкости вниз до точки: точка у дна глубокого сосуда лежит на большой глубине, а точка у самой поверхности — на небольшой."
           },
           "model": {
-            "en": "The formula assumes a fluid at rest with approximately constant density and g.",
-            "ru": "Формула предполагает покоящуюся среду с примерно постоянными плотностью и g."
+            "en": "Water density is almost constant, so Δp = ρgh works well for depths of a few metres. Air density falls with height, so for the atmosphere over kilometres, Δp = ρgh gives only a rough estimate.",
+            "ru": "Плотность воды почти постоянна, поэтому формула Δp = ρgh хорошо работает на глубинах в несколько метров. Плотность воздуха уменьшается с высотой, поэтому для атмосферы на высотах в несколько километров Δp = ρgh даёт лишь грубую оценку."
           },
           "sources": [
             {
@@ -1731,13 +1731,13 @@
         "name": "Бесконтактная сила",
         "alt": "Non-contact force",
         "definition": "Сила взаимодействия тел, для которой не требуется их соприкосновение.",
-        "example": "Земля притягивает спутник на орбите силой тяготения.",
+        "example": "Земля притягивает спутник на орбите силой тяготения, хотя они не касаются друг друга.",
         "review": {
           "englishTerm": "Non-contact force",
           "russianTerm": "Бесконтактная сила",
           "contrast": {
-            "en": "Unlike contact forces, gravity and electric or magnetic forces act across a separation.",
-            "ru": "В отличие от контактных сил, гравитационные, электрические и магнитные силы действуют на расстоянии."
+            "en": "The pull of gravity on a book is a non-contact force; the table's upward push on the book is a contact force.",
+            "ru": "Сила тяжести, действующая на книгу, — бесконтактная; сила, с которой стол поддерживает книгу, — контактная."
           },
           "model": {
             "en": "Fields describe the interaction; “non-contact” does not mean that no physical interaction occurs.",
@@ -1806,12 +1806,12 @@
           "englishTerm": "Hooke's Law",
           "russianTerm": "Закон Гука",
           "contrast": {
-            "en": "Extension is the change in length. The limit of proportionality is distinct from the elastic limit.",
-            "ru": "Удлинение — изменение длины. Предел пропорциональности отличается от предела упругости."
+            "en": "Hooke's law is a formula, not the force itself. The spring force can act beyond the limit of proportionality, where F = kx no longer describes it; the limit of proportionality is distinct from the elastic limit.",
+            "ru": "Закон Гука — это формула, а не сама сила. Сила упругости может действовать и за пределом пропорциональности, где F = kx уже не описывает её; предел пропорциональности отличается от предела упругости."
           },
           "model": {
-            "en": "The restoring force opposes deformation: Fspring = −kx along an axis. Beyond proportionality, a constant k no longer fits.",
-            "ru": "Сила упругости направлена против деформации: Fупр = −kx вдоль оси. За пределом пропорциональности постоянное k уже не описывает зависимость."
+            "en": "Within the proportional range, k is numerically equal to the force needed to stretch the spring by 1 m. Its unit is N/m, and a stiffer spring has a larger k.",
+            "ru": "В пределах пропорциональности коэффициент жёсткости k численно равен силе, которая растягивает пружину на 1 м. Единица k — Н/м. У более жёсткой пружины k больше."
           },
           "sources": [
             {
@@ -1832,18 +1832,18 @@
       "workDone": {
         "name": "Работа",
         "alt": "Work done",
-        "definition": "Энергия, переданная силой при перемещении точки её приложения: для постоянной силы W = Fd cos θ.",
+        "definition": "Работа — энергия, передаваемая телу силой при перемещении в направлении этой силы; единица — джоуль (Дж).",
         "example": "Сила 10 Н, направленная вдоль перемещения 2 м, совершает работу 20 Дж.",
         "review": {
           "englishTerm": "Work done",
           "russianTerm": "Работа",
           "contrast": {
-            "en": "Force is measured in newtons; work and energy are measured in joules.",
-            "ru": "Силу измеряют в ньютонах, работу и энергию — в джоулях."
+            "en": "A large force can do no work: holding a heavy bag still means exerting a force, but the bag has no displacement, so W = 0.",
+            "ru": "Большая сила может не совершать работу: удерживая тяжёлую сумку неподвижно, мы прикладываем силу, но перемещения нет, поэтому A = 0."
           },
           "model": {
-            "en": "W = Fd applies only to parallel force and displacement. A perpendicular force does zero work.",
-            "ru": "W = Fd верно при совпадающих направлениях силы и перемещения. Перпендикулярная сила работы не совершает."
+            "en": "Work done is negative when the force opposes the displacement (θ > 90°). The body then loses kinetic energy, as a box sliding under friction does.",
+            "ru": "Работа отрицательна, если сила направлена против перемещения (α > 90°). Тогда тело теряет кинетическую энергию, как ящик, который скользит и тормозится силой трения."
           },
           "sources": [
             {
@@ -1871,17 +1871,17 @@
         "name": "Передача энергии",
         "alt": "Energy transfer",
         "definition": "Передача энергии от одной системы к другой посредством работы, теплопередачи или излучения.",
-        "example": "Нагреватель получает энергию электрическим способом и передаёт её воде.",
+        "example": "Электрический ток совершает работу в нагревателе, а нагреватель передаёт энергию воде, нагревая её.",
         "review": {
           "englishTerm": "Energy transfer",
           "russianTerm": "Передача энергии",
           "contrast": {
-            "en": "An energy store describes a system’s state; a transfer describes a process between systems.",
-            "ru": "Запас энергии характеризует состояние системы; передача энергии — процесс взаимодействия систем."
+            "en": "A transfer moves energy between systems. A transformation changes energy from one form to another inside one system.",
+            "ru": "Передача переносит энергию между системами. Превращение — переход энергии из одного вида в другой внутри одной системы."
           },
           "model": {
-            "en": "Energy is conserved for the system plus surroundings; dissipated energy remains present but is less useful.",
-            "ru": "Энергия системы и окружения в сумме сохраняется; рассеянная энергия остаётся, но становится менее пригодной для полезной работы."
+            "en": "Count a transfer only when energy crosses the boundary of the chosen system. Energy moving inside the system only redistributes between its stores.",
+            "ru": "Считай передачей только переход энергии через границу выбранной системы. Внутри системы энергия лишь перераспределяется между её запасами."
           },
           "sources": [
             {
@@ -1902,18 +1902,18 @@
       "pressure": {
         "name": "Давление",
         "alt": "Pressure",
-        "definition": "Нормальная сила, приходящаяся на единицу площади; среднее давление p = Fперп/A, единица — паскаль.",
-        "example": "Сила 100 Н на площади 0,02 м² создаёт среднее давление 5000 Па.",
+        "definition": "Давление — это сила, действующая перпендикулярно поверхности, делённая на площадь этой поверхности: p = F/S. Единица давления — паскаль (Па). В английских учебниках площадь обозначают буквой A.",
+        "example": "Сила 600 Н действует на подошвы общей площадью 0,03 м², поэтому давление равно 20 кПа.",
         "review": {
           "englishTerm": "Pressure",
           "russianTerm": "Давление",
           "contrast": {
-            "en": "Pressure is a scalar; the force on a surface acts normal to that surface.",
-            "ru": "Давление — скаляр; сила давления направлена перпендикулярно поверхности."
+            "en": "The formula p = F/A applies to any surface, but Δp = ρgh is only the extra pressure that a column of liquid at rest adds.",
+            "ru": "Формула p = F/S применима к любой поверхности, а Δp = ρgh — лишь прибавка давления, которую создаёт столб покоящейся жидкости."
           },
           "model": {
-            "en": "If pressure varies over the surface, F/A gives its area average, not each local value.",
-            "ru": "Если давление меняется по поверхности, F/A даёт среднее по площади, а не каждое местное значение."
+            "en": "One pascal is one newton per square metre: a force of 1 N spread over 1 m² gives 1 Pa.",
+            "ru": "Один паскаль — это один ньютон на квадратный метр: сила 1 Н, распределённая по площади 1 м², создаёт давление 1 Па."
           },
           "sources": [
             {
@@ -1950,8 +1950,8 @@
             "ru": "Атмосферное давление действует во всех направлениях, а не только вниз."
           },
           "model": {
-            "en": "Molecular impacts produce pressure; its height variation is linked to the weight of the air above.",
-            "ru": "Давление связано с ударами молекул, а его изменение с высотой — с действием силы тяжести на воздух выше."
+            "en": "It acts on the outside of any surface exposed to air. Inside a sealed container, the gas itself sets the pressure, not the outside air.",
+            "ru": "Атмосферное давление действует снаружи на любую поверхность, соприкасающуюся с воздухом. Внутри закрытого сосуда давление задаёт сам газ, а не наружный воздух."
           },
           "sources": [
             {
@@ -1979,17 +1979,17 @@
         "name": "Плотность",
         "alt": "Density",
         "definition": "Масса единицы объёма: ρ = m/V; единица — кг/м³.",
-        "example": "При массе 200 г и объёме 100 см³ плотность равна 2 г/см³.",
+        "example": "Масса 200 г в объёме 100 см³ даёт плотность 2 г/см³, или 2000 кг/м³.",
         "review": {
           "englishTerm": "Density",
           "russianTerm": "Плотность",
           "contrast": {
-            "en": "Mass measures how much mass is present; density relates it to occupied volume.",
-            "ru": "Масса характеризует тело, а плотность связывает массу с занимаемым объёмом."
+            "en": "Density is not the same as mass: a large polystyrene block can have less mass than a small steel block.",
+            "ru": "Плотность — не то же, что масса: большой блок пенопласта может иметь меньшую массу, чем маленький стальной."
           },
           "model": {
-            "en": "For a hollow or mixed object use its average density, including enclosed space, when predicting floating.",
-            "ru": "Для полого или составного тела при оценке плавания используй среднюю плотность с учётом замкнутых полостей."
+            "en": "One density value applies to a uniform material at a stated temperature. For a gas, pressure matters too, because its density changes a lot with both.",
+            "ru": "Одно значение плотности относится к однородному веществу при заданной температуре. Для газа важно ещё и давление: его плотность сильно меняется и от температуры, и от давления."
           },
           "sources": [
             {
@@ -2017,17 +2017,17 @@
         "name": "Давление жидкости и газа",
         "alt": "Fluid pressure",
         "definition": "Давление в жидкости или газе, создающее нормальные силы на соприкасающихся с ними поверхностях.",
-        "example": "На глубине h в неподвижной воде p = pпов + ρgh.",
+        "example": "На глубине 100 м в пресной воде прибавка давления, которую создаёт столб воды, равна Δp = ρgh = 1000 кг/м³ × 9,8 м/с² × 100 м = 9,8 × 10⁵ Па.",
         "review": {
           "englishTerm": "Fluid pressure",
           "russianTerm": "Давление жидкости и газа",
           "contrast": {
-            "en": "ρgh is the increase over surface pressure, not usually the absolute pressure.",
-            "ru": "ρgh — прибавка к давлению на поверхности, обычно не полное давление."
+            "en": "In a liquid, pressure depends on depth and density, not on the shape of the container or the amount of liquid.",
+            "ru": "В жидкости давление зависит от глубины и плотности, но не от формы сосуда и количества жидкости."
           },
           "model": {
-            "en": "The formula assumes a fluid at rest with approximately constant density and g.",
-            "ru": "Формула предполагает покоящуюся среду с примерно постоянными плотностью и g."
+            "en": "The pressure on the surface (p₀) is atmospheric only if the vessel is open; in a sealed vessel, use the value given in the question.",
+            "ru": "Давление на поверхности (p₀) равно атмосферному, только если сосуд открыт; в закрытом сосуде используй значение из условия."
           },
           "sources": [
             {
@@ -2054,7 +2054,7 @@
       "energy": {
         "name": "Энергия",
         "alt": "Energy",
-        "definition": "Сохраняющаяся физическая величина, позволяющая учитывать изменения системы при работе, теплопередаче и излучении. Единица СИ — джоуль.",
+        "definition": "Способность системы совершать работу. Единица энергии в СИ — джоуль (Дж).",
         "example": "Движущееся тело обладает кинетической энергией; при подъёме увеличивается потенциальная энергия системы «тело — Земля».",
         "review": {
           "englishTerm": "Energy",
@@ -2086,8 +2086,8 @@
       "power": {
         "name": "Мощность",
         "alt": "Power",
-        "definition": "Скорость передачи энергии или совершения работы: Pср = ΔE/Δt. Один ватт равен одному джоулю в секунду.",
-        "example": "Передача 100 Дж за 5 с соответствует средней мощности 20 Вт.",
+        "definition": "Мощность N — скорость передачи энергии: N = A/t, где A — работа, t — время. Единица — ватт (Вт).",
+        "example": "Чайник мощностью 1500 Вт за 120 с передаёт 180 кДж энергии.",
         "review": {
           "englishTerm": "Power",
           "russianTerm": "Мощность",
@@ -2096,8 +2096,8 @@
             "ru": "Большая мощность не обязательно означает больший расход энергии, если прибор работает меньше времени."
           },
           "model": {
-            "en": "Use average power over a finite interval; E = Pt with one P assumes constant power.",
-            "ru": "За конечный интервал используют среднюю мощность; E = Pt с одним значением P предполагает постоянную мощность."
+            "en": "For a time interval, the average power is used: energy = power × time holds only when the power is constant.",
+            "ru": "За промежуток времени используют среднюю мощность. Формула A = Nt верна только при постоянной мощности."
           },
           "sources": [
             {
@@ -2125,17 +2125,17 @@
         "name": "Количество теплоты",
         "alt": "Heat",
         "definition": "Энергия, переданная между системами вследствие разности температур; обозначение Q, единица — джоуль.",
-        "example": "Горячая чашка передаёт энергию более холодному воздуху.",
+        "example": "Чашка чая при 90 °C в комнате при 20 °C отдаёт теплоту воздуху, пока их температуры не сравняются.",
         "review": {
           "englishTerm": "Heat",
           "russianTerm": "Количество теплоты",
           "contrast": {
-            "en": "A body has internal energy; heat describes a transfer, not a substance stored inside.",
-            "ru": "Тело обладает внутренней энергией; теплота характеризует передачу, а не вещество внутри тела."
+            "en": "Internal energy is stored in a body, but heat is only a transfer of energy, not a store.",
+            "ru": "Внутренняя энергия (internal energy) хранится в теле, а теплота — это процесс передачи энергии, а не запас."
           },
           "model": {
-            "en": "Heat added need not raise temperature: during a phase change it may change internal potential energy.",
-            "ru": "Передача теплоты не всегда повышает температуру: при фазовом переходе может меняться потенциальная часть внутренней энергии."
+            "en": "Heat supplied does not always raise temperature: while ice melts at 0 °C, the heat turns ice into water and the temperature stays at 0 °C.",
+            "ru": "Подведённая теплота не всегда повышает температуру: пока лёд тает при 0 °C, теплота превращает его в воду, а температура остаётся равной 0 °C."
           },
           "sources": [
             {
@@ -2162,8 +2162,8 @@
       "temperature": {
         "name": "Температура",
         "alt": "Temperature",
-        "definition": "Характеристика состояния, определяющая направление самопроизвольной теплопередачи: от большей температуры к меньшей.",
-        "example": "У тел в тепловом равновесии одинаковая температура.",
+        "definition": "Температура — величина, характеризующая степень нагретости тела. Теплота самопроизвольно переходит от более нагретого тела к менее нагретому.",
+        "example": "Термометр, опущенный в воду при 40 °C, показывает 40 °C, когда его температура сравняется с температурой воды.",
         "review": {
           "englishTerm": "Temperature",
           "russianTerm": "Температура",
@@ -2172,8 +2172,8 @@
             "ru": "Температура не равна полной внутренней энергии: большая прохладная ванна может иметь больше внутренней энергии, чем маленькая горячая чашка."
           },
           "model": {
-            "en": "For an ideal gas, absolute temperature is proportional to mean translational kinetic energy per particle; this is not a universal definition for every material.",
-            "ru": "Для идеального газа абсолютная температура пропорциональна средней поступательной кинетической энергии частицы; это не универсальное определение для всех веществ."
+            "en": "Temperature is a measure of the average kinetic energy of the particles: in a hotter substance, the particles move faster on average.",
+            "ru": "Температура — мера средней кинетической энергии частиц вещества: в более горячем веществе частицы в среднем движутся быстрее."
           },
           "sources": [
             {
@@ -2206,73 +2206,71 @@
     },
     "formulas": {
       "hooke": "F = k × x",
-      "hookeCaption": "Закон Гука",
-      "work": "W = F × d",
-      "workCaption": "Работа",
-      "pressure": "P = F / A",
-      "pressureCaption": "Давление",
+      "hookeCaption": "Закон Гука (сила в Н)",
+      "work": "A = F × s",
+      "workCaption": "Работа (Дж)",
+      "pressure": "p = F / S",
+      "pressureCaption": "Давление (Па)",
       "density": "ρ = m / V",
-      "densityCaption": "Плотность",
-      "fluidPressure": "P = ρgh",
-      "fluidPressureCaption": "Гидростатическое давление"
+      "densityCaption": "Плотность (кг/м³)",
+      "fluidPressure": "Δp = ρgh",
+      "fluidPressureCaption": "Прирост давления с глубиной (Па)"
     },
     "sim1": {
       "title": "Закон Гука",
-      "desc": "Исследуй идеальную линейную пружину. Цветная граница — выбранный предел пропорциональности; за ней показано только продолжение линейной модели.",
+      "desc": "Меняй жёсткость пружины (spring constant) и силу, смотри, как меняется удлинение идеальной линейной пружины. Пунктирная линия — предел пропорциональности, заданный в модели.",
       "k": "Жёсткость пружины",
       "force": "Приложенная сила",
-      "extension": "Удлинение",
-      "warning": "За выбранным пределом пропорциональности x = F/k — экстраполяция, а не прогноз для реальной пружины. По ней нельзя определить остаточную деформацию.",
-      "chartTitle": "Сила от удлинения",
+      "warning": "За пределом пропорциональности формула x = F/k — лишь экстраполяция, а не прогноз для реальной пружины. По ней нельзя узнать остаточную деформацию.",
+      "chartTitle": "Сила в зависимости от удлинения",
       "elasticLimit": "Предел пропорциональности"
     },
     "sim2": {
-      "title": "Давление (P = F / A)",
-      "desc": "Сила распределена по выбранной площади контакта; результат — среднее давление.",
+      "title": "Давление (p = F / S)",
+      "desc": "Измени силу и площадь контакта. Сила равномерно распределяется по этой площади, поэтому результат — среднее давление.",
       "force": "Сила",
       "area": "Площадь контакта",
       "pressure": "Давление",
       "scenarios": "Сценарии",
       "knife": "Лезвие ножа",
-      "shoe": "Обувь",
-      "elephant": "Лапа слона"
+      "shoe": "Ботинок",
+      "elephant": "Нога слона"
     },
     "sim3": {
       "title": "Плотность и плавучесть",
       "desc": "Сравни среднюю плотность тела с плотностью жидкости. Модель не учитывает поверхностное натяжение и внешние опоры.",
-      "objectDensity": "Плотность объекта",
+      "objectDensity": "Плотность тела",
       "fluidDensity": "Плотность жидкости",
       "fluidPreset": "Жидкость",
       "water": "Вода",
       "oil": "Масло",
-      "mercury": "Ртуть",
-      "verdict": "Вывод"
+      "mercury": "Ртуть"
     },
     "sim4": {
-      "title": "Давление с глубиной",
-      "desc": "Неподвижная жидкость постоянной плотности: ρgh — давление сверх давления на поверхности. Для полного давления добавь давление на поверхности.",
+      "title": "Давление жидкости на глубине",
+      "desc": "Задай глубину и плотность жидкости. Жидкость покоится, и её плотность везде одинакова. Показано значение Δp = ρgh — прибавка давления от столба жидкости. Чтобы получить абсолютное давление, прибавь давление на поверхности p₀.",
       "depth": "Глубина",
-      "fluidDensity": "Плотность жидкости",
-      "pressure": "Давление на глубине"
+      "fluidDensity": "Плотность жидкости в сосуде",
+      "pressure": "Прибавка давления, Δp = ρgh"
     },
     "simEnergy": {
       "title": "Превращения энергии (маятник)",
-      "desc": "Наблюдай, как PE и KE сменяют друг друга по мере раскачивания маятника.",
+      "desc": "Наблюдай, как потенциальная и кинетическая энергия превращаются друг в друга, пока маятник качается.",
       "mass": "Масса груза",
       "length": "Длина нити",
       "initialAngle": "Начальный угол",
       "potentialEnergyLabel": "Потенциальная энергия (mgh)",
       "kineticEnergyLabel": "Кинетическая энергия (½mv²)",
-      "mechanicalEnergyLabel": "Механическая энергия (Eₚ + Eₖ)",
-      "modelCaption": "У идеального маятника без затухания гравитационная потенциальная и кинетическая энергии переходят друг в друга, а их сумма сохраняется. В анимации есть небольшое численное затухание, поэтому показанная механическая энергия постепенно уменьшается.",
+      "mechanicalEnergyLabel": "Механическая энергия (Eп + Eк)",
+      "modelCaption": "В модели не учитываются трение и сопротивление воздуха, поэтому у идеального маятника механическая энергия не меняется. В симуляции для устойчивости добавлено небольшое дополнительное затухание, из-за которого показанная механическая энергия постепенно уменьшается.",
       "heightLabel": "Высота над нижней точкой"
     },
     "simWorkPower": {
       "title": "Работа и мощность",
-      "desc": "Подъём с постоянной скоростью без потерь: подъёмная сила равна mg, работа равна mgh, мощность — средняя работа за время.",
-      "mass": "Поднимаемая масса",
+      "desc": "Меняй массу, высоту и время и проверяй A = mgh и среднюю мощность N = A / t. Груз поднимают с постоянной скоростью без потерь, поэтому сила подъёма равна mg.",
+      "mass": "Масса груза",
       "height": "Высота подъёма",
-      "time": "Время"
+      "time": "Время подъёма"
     }
   },
   "electricity": {

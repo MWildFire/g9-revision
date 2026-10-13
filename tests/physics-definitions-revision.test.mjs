@@ -50,7 +50,8 @@ test('braking model stops with zero acceleration and a continuous final distance
 test('thermal and circuit definitions do not collapse amounts, rates or state variables', () => {
   assert.match(en.forcesEnergy.terms.heat.definition, /temperature difference/);
   assert.match(en.forcesEnergy.terms.temperature.review.contrast.en, /not total internal energy/);
-  assert.match(en.forcesEnergy.terms.power.definition, /rate of energy transfer/);
+  // README rule 1: the point (power is the rate of energy transfer) stays; the definition now says it with other words
+  assert.match(en.forcesEnergy.terms.power.definition, /rate at which energy is transferred/);
   assert.match(en.electricity.terms.kwh.definition, /unit of energy/i);
   assert.match(en.electricity.terms.current.definition, /cross-section/);
   assert.match(en.forcesEnergy.terms.hookesLaw.review.contrast.en, /proportionality.*distinct.*elastic/i);

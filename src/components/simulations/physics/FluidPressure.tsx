@@ -51,8 +51,8 @@ export function FluidPressure() {
           <Slider label={t('forcesEnergy.sim4.depth')} unit="m" min={0} max={100} step={1} value={depth} onChange={setDepth} />
           <Slider label={t('forcesEnergy.sim4.fluidDensity')} unit="kg/m³" min={500} max={13600} step={50} value={rho} onChange={setRho} format={(v) => v.toFixed(0)} />
 
-          <Formula caption="P = ρ × g × h">
-            P = {rho.toFixed(0)} × 9.81 × {depth.toFixed(0)}
+          <Formula caption="Δp = ρ × g × h">
+            Δp = {rho.toFixed(0)} × 9.81 × {depth.toFixed(0)}
             <br />
             <span className="text-accent-warm">= {formatPressure(pressure)}</span>
           </Formula>

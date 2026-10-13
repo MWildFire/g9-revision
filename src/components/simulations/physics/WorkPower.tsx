@@ -56,12 +56,12 @@ export function WorkPower() {
             </g>
           </svg>
 
-          <Formula caption={i18n.language.startsWith('ru') ? 'W = Fh, F = mg при равномерном подъёме' : 'W = Fh, F = mg for steady lifting'}>
-            W = (m × g) × h = ({mass} × 9.81) × {height} ={' '}
+          <Formula caption={i18n.language.startsWith('ru') ? 'A = Fh, F = mg при равномерном подъёме' : 'W = Fh, F = mg for steady lifting'}>
+            {i18n.language.startsWith('ru') ? 'A' : 'W'} = (m × g) × h = ({mass} × 9.81) × {height} ={' '}
             <span className="text-accent-warm">{format(work, 1)} J</span>
           </Formula>
-          <Formula caption="P = W / t">
-            P = {format(work, 1)} / {time.toFixed(1)} ={' '}
+          <Formula caption={i18n.language.startsWith('ru') ? 'N = A / t' : 'P = W / t'}>
+            {i18n.language.startsWith('ru') ? 'N' : 'P'} = {format(work, 1)} / {time.toFixed(1)} ={' '}
             <span className="text-accent-sage">{format(power, 2)} W</span>
           </Formula>
         </div>
@@ -73,8 +73,8 @@ export function WorkPower() {
 
           <div className="grid grid-cols-1 gap-2 text-sm">
             <Stat label={i18n.language.startsWith('ru') ? 'Сила тяжести (F)' : 'Weight (F)'} value={`${format(weight, 1)} N`} />
-            <Stat label={i18n.language.startsWith('ru') ? 'Работа (W)' : 'Work (W)'} value={`${format(work, 1)} J`} />
-            <Stat label={i18n.language.startsWith('ru') ? 'Мощность (P)' : 'Power (P)'} value={`${format(power, 2)} W`} />
+            <Stat label={i18n.language.startsWith('ru') ? 'Работа (A)' : 'Work (W)'} value={`${format(work, 1)} J`} />
+            <Stat label={i18n.language.startsWith('ru') ? 'Мощность (N)' : 'Power (P)'} value={`${format(power, 2)} W`} />
           </div>
         </div>
       </div>

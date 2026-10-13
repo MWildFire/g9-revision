@@ -192,6 +192,8 @@ const itemType = keys => {
   const last = [...keys].reverse().find(k => typeof k === 'string') ?? '';
   if (/title|heading|label|name|summary/i.test(last)) return 'title';
   if (/term$/i.test(last)) return 'term';
+  // terms.<id>.alt is the other-language term shown beside the card (EN page: Russian equivalent), so it is a term, not English text
+  if (last === 'alt' && keys.some(k => k === 'terms')) return 'term';
   if (/definition|meaning|contrast|model|explanation/i.test(last)) return 'definition';
   if (/example|steps|worked/i.test(last)) return 'example';
   if (/question|prompt|hint/i.test(last)) return 'question';

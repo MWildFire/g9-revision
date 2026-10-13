@@ -137,7 +137,7 @@ export function PressureSim() {
           />
 
           <Formula caption={t('forcesEnergy.sim2.pressure')}>
-            P = {force.toFixed(0)} / {area.toFixed(4)}
+            p = {force.toFixed(0)} / {area.toFixed(4)}
             <br />
             <span className="text-accent-warm">= {formatPressure(pressure)}</span>
           </Formula>

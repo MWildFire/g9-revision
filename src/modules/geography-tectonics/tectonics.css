@@ -176,7 +176,7 @@
 .tectonic-command-grid p { font-size: .88rem; line-height: 1.8; }
 .tectonic-glossary { margin: 38px 0; }
 .tectonic-glossary > p { color: var(--color-text-secondary); font-size: .9rem; }
-.tectonic-glossary dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; margin-top: 22px; }
+.tectonic-glossary dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 13px; margin-top: 22px; }
 .tectonic-glossary dl > div { min-width: 0; padding: 20px; border: 1px solid var(--color-border); background: #fbf7ef; border-radius: 10px; }
 .tectonic-glossary dt { font-weight: 600; font-size: .91rem; color: var(--tectonic-ink); margin-bottom: 10px; }
 .tectonic-glossary dt span { display: block; font-size: .75rem; color: var(--color-text-secondary); font-weight: 400; margin-top: 2px; }
@@ -314,3 +314,11 @@
 
 .tectonic-volcano-forms { min-width: 820px; width: 100%; }
 @media print { .tectonic-volcano-forms { min-width: 0; width: 100%; } }
+/* Narrow screens: the three volcano forms are stacked at 1:1 scale (SVG units = CSS px), so their labels keep their size. */
+@media screen and (max-width: 600px) {
+  .tectonic-volcano-forms-scroll { overflow: hidden; }
+  .tectonic-volcano-forms { display: block; min-width: 0; width: 760px; height: 500px; }
+  .tectonic-vf-shield { transform: translateY(-95px); }
+  .tectonic-vf-composite { transform: translate(-245px, 104px); }
+  .tectonic-vf-caldera { transform: translate(-490px, 278px); }
+}

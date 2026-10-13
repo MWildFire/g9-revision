@@ -61,5 +61,5 @@ test('all 40 tectonic glossary reviews use accessed detailed pages and separate 
  assert.equal(Object.keys(reviews).length,40);
  for(const v of Object.values(reviews)){if(v.contrast){assert.ok(v.contrast.en);assert.ok(v.contrast.ru);}assert.ok(v.sources.length);}
  assert.doesNotMatch(source,/fema_p749|volcano-hazards-program-glossary|zemletryaseniya/);
- assert.match(reviews.Ductility.contrast.en,/permanently deformed/);
+ assert.match(reviews.Ductility.contrast.en,/permanent deformation/);
 });

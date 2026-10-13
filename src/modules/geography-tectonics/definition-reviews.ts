@@ -4,8 +4,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Crust",
     "russianTerm": "Земная кора",
     "contrast": {
-      "en": "Crust is a compositional layer; lithosphere includes crust and rigid uppermost mantle.",
-      "ru": "Кора — слой по составу; литосфера включает кору и жёсткую верхнюю мантию."
+      "en": "Think of an apple: the skin is a thin layer, and most of the fruit is flesh. Earth works in a similar way: the crust is a very thin outer shell, and the mantle below it is a thick layer that holds most of the planet's rock. Below the mantle, the core is mostly iron: the outer core is liquid, and the inner core is solid.",
+      "ru": "Представь яблоко: кожица — тонкий слой, а большая часть плода — мякоть. С Землёй то же самое: земная кора — очень тонкая внешняя оболочка. Мантия — толстый слой под ней, который содержит большую часть горных пород планеты. Ниже мантии лежит ядро, в основном состоящее из железа: внешнее ядро жидкое, внутреннее твёрдое."
     },
     "sources": [
       {
@@ -26,8 +26,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Mantle",
     "russianTerm": "Мантия",
     "contrast": {
-      "en": "Slow solid-state flow is not an ocean of liquid magma. Partial melting occurs in particular settings.",
-      "ru": "Медленное течение твёрдого вещества не означает океан жидкой магмы. Частичное плавление происходит в определённых условиях."
+      "en": "Imagine modelling clay: if you tap it, it keeps its shape, but if you press it slowly for a long time, it changes shape. Mantle rock behaves in a similar way, but it is much hotter, so over geological time it deforms and flows while remaining solid.",
+      "ru": "Представь пластилин для лепки: если быстро ударить по нему, он сохранит форму, а если долго и медленно давить, постепенно изменит её. Породы мантии ведут себя похоже, но они намного горячее, поэтому в геологическом масштабе времени деформируются и текут, оставаясь твёрдыми."
     },
     "sources": [
       {
@@ -48,8 +48,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Lithosphere",
     "russianTerm": "Литосфера",
     "contrast": {
-      "en": "Lithosphere is defined by mechanical behaviour, so it crosses the crust–mantle compositional boundary.",
-      "ru": "Литосфера выделяется по механическим свойствам и пересекает границу состава между корой и мантией."
+      "en": "Compare butter from the fridge with butter left out to warm: it is the same substance, but the cold butter is firm and the warm butter is soft. The rigid lithosphere is like the cold butter, while the asthenosphere below it is warmer and weaker. This is why the lower edge of the lithosphere is set by temperature, not by the crust–mantle boundary.",
+      "ru": "Сравни масло из холодильника с маслом, которое оставили на тепле: это одно и то же вещество, но холодное масло твёрдое, а тёплое мягкое. Жёсткая литосфера похожа на холодное масло, а астеносфера (asthenosphere) под ней теплее и слабее. Поэтому нижняя граница литосферы задаётся температурой, а не границей коры и мантии."
     },
     "sources": [
       {
@@ -70,8 +70,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Asthenosphere",
     "russianTerm": "Астеносфера",
     "contrast": {
-      "en": "Weak means able to deform over long timescales, not freely flowing liquid beneath floating continents.",
-      "ru": "Слабая означает способная деформироваться за долгое время, а не свободно текущая жидкость под плавающими материками."
+      "en": "Take a glacier as a model: the ice is solid, yet it creeps downhill over years. The asthenosphere is weak in the same sense, but it is not a liquid layer that the continents drift over. Its rock deforms very slowly, and that weakness is one reason the plates above can move.",
+      "ru": "Возьми ледник в пример: лёд твёрдый, но за годы медленно сползает по склону. Астеносфера в этом смысле слабая, но это не жидкий слой, по которому дрейфуют материки. Её породы деформируются очень медленно, и эта слабость — одна из причин, почему плиты над ней могут двигаться."
     },
     "sources": [
       {
@@ -92,8 +92,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Convection",
     "russianTerm": "Конвекция",
     "contrast": {
-      "en": "Circular arrows are a model: the mantle is not a set of fixed, isolated conveyor belts.",
-      "ru": "Круговые стрелки — модель: мантия не состоит из неподвижных изолированных конвейеров."
+      "en": "Imagine a pan of thick soup heated from below. The soup at the bottom warms, becomes less dense and rises; at the top it cools, becomes denser and sinks. Mantle convection works on the same principle of density differences, but the rock moves extremely slowly and stays mostly solid.",
+      "ru": "Представь кастрюлю густого супа, которую греют снизу. Суп у дна нагревается, становится легче и поднимается; у поверхности он остывает, становится тяжелее и опускается. В мантии конвекция работает по тому же принципу разницы плотностей, но породы движутся крайне медленно и остаются в основном твёрдыми."
     },
     "sources": [
       {
@@ -108,8 +108,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Slab pull",
     "russianTerm": "Тяга погружающейся плиты",
     "contrast": {
-      "en": "Slab pull is not the only force; ridge-related gravitational forces and mantle flow also contribute.",
-      "ru": "Тяга погружающейся плиты — не единственная сила: участвуют гравитационные силы у хребтов и течение мантии."
+      "en": "A heavy chain on a table is a useful model: one end hangs over the edge, and the hanging part pulls the rest of the chain along. Slab pull works in a similar way, and it is strongest when the sinking lithosphere is old and cold, because cold rock is denser. The chain leaves out other forces that act on plates, such as mantle flow and friction at plate boundaries.",
+      "ru": "Тяжёлая цепь на столе — полезная модель: один её конец свисает с края, и свисающая часть тянет за собой остальную цепь. Тяга погружающейся плиты (slab pull) работает похоже и сильнее всего тогда, когда погружающаяся литосфера старая и холодная, ведь холодная порода плотнее. Модель с цепью не показывает другие силы, которые действуют на плиты, например течение мантии и трение на границах плит."
     },
     "sources": [
       {
@@ -122,10 +122,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Constructive or divergent": {
     "englishTerm": "Constructive or divergent",
-    "russianTerm": "Конструктивная или дивергентная граница",
+    "russianTerm": "Дивергентная граница (зона расхождения плит)",
     "contrast": {
-      "en": "Decompression melting does not require friction to heat the mantle until it melts.",
-      "ru": "Декомпрессионное плавление не требует нагрева мантии трением до плавления."
+      "en": "Think of water boiling at a lower temperature on a mountain, where the air pressure is lower. Hot mantle rising beneath a ridge melts for a similar reason: as pressure drops (decompression melting), no extra heat needs to be added.",
+      "ru": "Вспомни, что на горе, где давление воздуха ниже, вода кипит при более низкой температуре. Горячая мантия, поднимающаяся под хребтом, плавится по похожей причине: при падении давления (decompression melting) дополнительный нагрев ей не нужен."
     },
     "sources": [
       {
@@ -138,10 +138,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Destructive subduction": {
     "englishTerm": "Destructive subduction",
-    "russianTerm": "Деструктивная граница субдукции",
+    "russianTerm": "Конвергентная граница с субдукцией",
     "contrast": {
-      "en": "Water released from the slab helps the overlying mantle melt; the slab does not simply melt because of friction.",
-      "ru": "Вода из погружающейся плиты облегчает плавление вышележащей мантии; плита не просто плавится от трения."
+      "en": "Water released from the sinking slab lowers the melting point of the hot mantle above it, so that rock there melts. This is how the volcanoes of the Andes form above the Nazca Plate, which sinks beneath South America.",
+      "ru": "Вода, которую выделяет погружающаяся плита, понижает температуру плавления горячей мантии над ней, и порода там плавится. Так возникают вулканы Анд над плитой Наска, которая погружается под Южную Америку."
     },
     "sources": [
       {
@@ -156,8 +156,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Collision",
     "russianTerm": "Коллизия",
     "contrast": {
-      "en": "Collision is a convergent setting; continental crust can underthrust even though it resists deep subduction.",
-      "ru": "Коллизия — случай сближения; континентальная кора может поддвигаться, хотя сопротивляется глубокому погружению."
+      "en": "Think of it as a sequence: first an ocean separates two continents, and oceanic lithosphere sinks beneath one of them. When the ocean has closed, the continents meet, and neither sinks far, so the crust is squeezed into mountains, as in the Himalayas.",
+      "ru": "Представь последовательность: сначала океан разделяет два континента, и океаническая литосфера погружается под один из них. Когда океан закрывается, континенты сходятся, ни один из них глубоко не погружается, поэтому кора сминается и образует горы, как в Гималаях."
     },
     "sources": [
       {
@@ -170,10 +170,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Conservative or transform": {
     "englishTerm": "Conservative or transform",
-    "russianTerm": "Консервативная или трансформная граница",
+    "russianTerm": "Трансформная граница",
     "contrast": {
-      "en": "Conservative refers to the lithosphere budget, not an absence of earthquakes or damage.",
-      "ru": "«Консервативная» относится к балансу литосферы, а не отсутствию землетрясений и ущерба."
+      "en": "Picture the rock on both sides of the fault sticking, stress building up, and then slipping suddenly, which releases energy as an earthquake. The San Andreas Fault in California is a transform boundary where the Pacific and North American plates slide past each other and produce many earthquakes.",
+      "ru": "Представь: породы по обе стороны разлома сцепляются, напряжение в них растёт, а затем они резко проскальзывают, и выделившаяся энергия проявляется как землетрясение. Разлом Сан-Андреас в Калифорнии — трансформная граница (transform boundary), где Тихоокеанская и Северо-Американская плиты скользят мимо друг друга и вызывают множество землетрясений."
     },
     "sources": [
       {
@@ -188,8 +188,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Subduction zone",
     "russianTerm": "Зона субдукции",
     "contrast": {
-      "en": "The trench marks a surface feature; the subduction zone is a three-dimensional region extending beneath it.",
-      "ru": "Жёлоб — поверхностная форма; зона субдукции — трёхмерная область, уходящая в глубину."
+      "en": "Imagine plotting the earthquakes of a subduction zone on a vertical cross-section. They line up along a slope that dips under the neighbouring plate, and they get deeper with distance from the trench.",
+      "ru": "Представь, что землетрясения зоны субдукции (subduction zone) нанесены на вертикальный разрез. Они выстраиваются вдоль наклонной полосы, которая уходит под соседнюю плиту, и чем дальше от жёлоба, тем глубже очаги."
     },
     "sources": [
       {
@@ -204,8 +204,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Fault",
     "russianTerm": "Разлом",
     "contrast": {
-      "en": "A joint is a fracture without significant shear displacement; not every crack is a fault.",
-      "ru": "Трещина без значимого сдвигового смещения отличается от разлома; не каждая трещина является разломом."
+      "en": "Geologists look for an offset: if a crack cuts a rock layer or a dyke and shifts one side relative to the other, it is a fault. A crack with no offset is only a joint.",
+      "ru": "Геологи ищут смещение: если трещина перерезает слой породы или дайку и смещает одну сторону относительно другой, это разлом. Если смещения нет, перед тобой трещина отдельности (joint)."
     },
     "sources": [
       {
@@ -220,8 +220,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Elastic rebound",
     "russianTerm": "Упругая отдача",
     "contrast": {
-      "en": "Elastic rebound explains energy storage and release; fault movement leaves a permanent offset.",
-      "ru": "Упругая отдача объясняет накопление и выделение энергии; смещение по разлому оставляет постоянный сдвиг."
+      "en": "Think of a ruler bent between your hands until it snaps. The bending stores energy and the snap releases it, while the two broken halves end up shifted against each other. The snap is the elastic rebound; the shift between the halves is the fault offset.",
+      "ru": "Представь линейку, которую сгибаешь между руками, пока она не сломается. Изгиб запасает энергию, излом её высвобождает, а две половинки оказываются сдвинуты друг относительно друга. Излом — это упругая отдача, а сдвиг половинок — смещение по разлому."
     },
     "sources": [
       {
@@ -234,10 +234,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Focus or hypocentre": {
     "englishTerm": "Focus or hypocentre",
-    "russianTerm": "Очаг или гипоцентр",
+    "russianTerm": "Очаг (гипоцентр)",
     "contrast": {
-      "en": "Hypocentre is a point locating rupture initiation; the full earthquake source occupies a larger volume or rupture area.",
-      "ru": "Гипоцентр — точка начала; полный очаговый процесс охватывает большую область или площадь разрыва."
+      "en": "Think of a match dropped into dry grass: the flame starts at one spot, but the fire then spreads across a wide area. The hypocentre marks only where the rupture starts; the rupture area is the stretch of fault that actually slips.",
+      "ru": "Представь, что спичка упала в сухую траву: огонь начинается в одном месте, а потом охватывает большую площадь. Гипоцентр отмечает только место начала разрыва, а площадь разрыва — это участок разлома, который действительно сместился."
     },
     "sources": [
       {
@@ -258,8 +258,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Epicentre",
     "russianTerm": "Эпицентр",
     "contrast": {
-      "en": "The worst shaking or damage need not occur at the epicentre; ground conditions and rupture geometry matter.",
-      "ru": "Самое сильное сотрясение или разрушение не обязательно в эпицентре: важны грунты и геометрия разрыва."
+      "en": "Two buildings at the same distance from the epicentre can experience very different shaking: one on soft, water-saturated sediment, the other on bedrock. Rupture geometry can also push the strongest shaking away from the epicentre, for example along the fault line.",
+      "ru": "Два здания на одинаковом расстоянии от эпицентра могут испытать очень разное сотрясение: одно стоит на мягком водонасыщенном грунте, а другое — на скальном основании. Геометрия разрыва тоже может отодвинуть самое сильное сотрясение от эпицентра, например вдоль линии разлома."
     },
     "sources": [
       {
@@ -274,8 +274,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Magnitude",
     "russianTerm": "Магнитуда",
     "contrast": {
-      "en": "Magnitude describes the event; intensity describes local shaking effects. Magnitude is not measured in intensity points or degrees.",
-      "ru": "Магнитуда описывает событие; интенсивность — местные сотрясения. Магнитуду не измеряют баллами интенсивности."
+      "en": "Think of a loudspeaker: its rated power describes the speaker itself, just as magnitude describes the earthquake at its source. Intensity is how loud it sounds where you stand, which depends on the distance and the room.",
+      "ru": "Представь динамик: его номинальная мощность описывает сам динамик, так же как магнитуда описывает землетрясение в очаге. Интенсивность — это то, насколько громко его слышно в конкретном месте, а это зависит от расстояния и помещения."
     },
     "sources": [
       {
@@ -294,8 +294,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "visual": {
       "kind": "comparison",
       "title": {
-        "en": "One earthquake, different local effects",
-        "ru": "Одно землетрясение — разные местные проявления"
+        "en": "Why one earthquake is felt differently at two sites?",
+        "ru": "Почему одно землетрясение ощущается по-разному в двух местах?"
       },
       "items": [
         {
@@ -330,8 +330,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
         }
       ],
       "caption": {
-        "en": "Conceptual comparison, not a formula converting magnitude to intensity.",
-        "ru": "Смысловое сравнение, а не формула перевода магнитуды в интенсивность."
+        "en": "Site A and site B differ because of local ground and distance; the magnitude is the same for both.",
+        "ru": "Точки A и B различаются из-за местного грунта и расстояния, а магнитуда для них одна."
       }
     }
   },
@@ -339,8 +339,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Intensity",
     "russianTerm": "Интенсивность",
     "contrast": {
-      "en": "Magnitude is an event-size estimate; intensity also depends on distance, depth, local ground and the scale used.",
-      "ru": "Магнитуда оценивает размер события; интенсивность зависит также от расстояния, глубины, грунта и используемой шкалы."
+      "en": "Two earthquakes of the same magnitude can produce different intensities. A shallow one is usually felt more strongly near the surface than a deep one, because its waves travel a shorter distance before reaching the ground.",
+      "ru": "Два землетрясения одинаковой магнитуды могут дать разную интенсивность. Неглубокое землетрясение обычно ощущается у поверхности сильнее глубокого, потому что его волны проходят до поверхности меньший путь."
     },
     "sources": [
       {
@@ -361,8 +361,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Aftershock",
     "russianTerm": "Афтершок",
     "contrast": {
-      "en": "An aftershock can still cause severe damage to weakened structures. If a later event is larger, the mainshock label may be reassigned.",
-      "ru": "Афтершок может сильно повредить ослабленные здания. Если позднейшее событие сильнее, название основного толчка могут пересмотреть."
+      "en": "A house cracked by the mainshock can collapse in an aftershock that would have caused little harm to an undamaged building. Damage accumulates, so the same shaking does more harm after the first event.",
+      "ru": "Дом, треснувший при основном толчке, может обрушиться от афтершока, который почти не навредил бы целому зданию. Повреждения накапливаются, поэтому то же сотрясение после первого толчка наносит больше вреда."
     },
     "sources": [
       {
@@ -377,8 +377,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Tsunami",
     "russianTerm": "Цунами",
     "contrast": {
-      "en": "A tsunami is not a tide or ordinary wind wave; not every offshore earthquake displaces enough water to generate one.",
-      "ru": "Цунами — не прилив и не обычная ветровая волна; не всякое морское землетрясение смещает достаточно воды для его возникновения."
+      "en": "A strong earthquake does not always make a tsunami. What matters is whether the seafloor moves up or down over a large area, as it can at a destructive (convergent) plate boundary, where one plate dives under another. At a conservative (transform) plate boundary, the plates slide sideways past each other, so the seafloor barely moves vertically and such earthquakes rarely cause a tsunami.",
+      "ru": "Сильное землетрясение не всегда вызывает цунами. Важно, поднимается или опускается морское дно на большой площади: так может происходить на конвергентной границе (destructive plate boundary), где одна плита погружается под другую. На трансформной границе (conservative plate boundary) плиты скользят мимо друг друга, дно почти не смещается по вертикали, и такие землетрясения редко вызывают цунами."
     },
     "sources": [
       {
@@ -393,8 +393,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Liquefaction",
     "russianTerm": "Разжижение грунта",
     "contrast": {
-      "en": "The ground is not melting; liquefaction is a change in mechanical behaviour that does not happen in every soil.",
-      "ru": "Грунт не плавится; меняются механические свойства, и разжижение возможно не во всякой почве."
+      "en": "Two houses can face the same earthquake with different results. A house on dense gravel usually stays firm, while a house on loose, water-saturated sand may sink or tilt, because the sand loses strength during shaking. So liquefaction depends on the soil, not only on the size of the earthquake.",
+      "ru": "Два дома могут пережить одно и то же землетрясение по-разному. Дом на плотном гравии обычно стоит на месте, а дом на рыхлом водонасыщенном песке может осесть или накрениться, потому что песок теряет прочность. Значит, разжижение зависит от грунта, а не только от силы землетрясения."
     },
     "sources": [
       {
@@ -409,8 +409,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Magma and lava",
     "russianTerm": "Магма и лава",
     "contrast": {
-      "en": "Location distinguishes the terms; magma does not come directly from Earth's liquid outer core.",
-      "ru": "Термины различаются положением; магма не поступает прямо из жидкого внешнего ядра Земли."
+      "en": "Magma does not come from the liquid outer core, which is mostly iron. It forms when solid rock in the upper mantle or crust partly melts. For example, at a subduction zone, a sinking plate carries water into the mantle, and this water lowers the melting point of the surrounding rock.",
+      "ru": "Магма не поступает из жидкого внешнего ядра, которое состоит в основном из железа. Она образуется, когда твёрдая порода в верхней мантии или земной коре частично плавится. Например, в зоне субдукции (subduction zone) погружающаяся плита приносит в мантию воду, а вода понижает температуру плавления окружающей породы."
     },
     "sources": [
       {
@@ -431,8 +431,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Viscosity",
     "russianTerm": "Вязкость",
     "contrast": {
-      "en": "Viscosity influences eruption style, but it alone does not determine whether an eruption is explosive.",
-      "ru": "Вязкость влияет на извержение, но сама по себе не определяет, будет ли оно взрывным."
+      "en": "Imagine two magmas at the same temperature. Runny basaltic magma lets gas bubbles rise and escape, so the eruption is usually a gentle flow of lava. Thick magma rich in silica traps gas, so pressure builds up and the eruption can be explosive.",
+      "ru": "Представь две магмы одинаковой температуры. Текучая базальтовая магма позволяет газовым пузырькам подняться и выйти, поэтому извержение обычно превращается в спокойный поток лавы. Густая магма, богатая кремнезёмом (silica), удерживает газ, давление растёт, и извержение может стать взрывным."
     },
     "sources": [
       {
@@ -447,8 +447,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Composite or stratovolcano",
     "russianTerm": "Стратовулкан",
     "contrast": {
-      "en": "Composite describes construction; it does not mean every eruption is explosive or every layer alternates perfectly.",
-      "ru": "«Слоистый» описывает строение, а не взрывной характер каждого извержения или идеальное чередование всех слоёв."
+      "en": "Picture a layered cake: each eruption adds a new layer of lava or ash on top of the older ones. Thick lava does not travel far from the vent, and ash settles close to it, so the cone becomes steep.",
+      "ru": "Представь слоёный пирог: каждое извержение добавляет новый слой лавы или пепла поверх старых. Густая лава далеко не растекается от жерла, а пепел оседает рядом с ним, поэтому конус становится крутым."
     },
     "sources": [
       {
@@ -463,8 +463,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Shield volcano",
     "russianTerm": "Щитовой вулкан",
     "contrast": {
-      "en": "A shield shape does not guarantee harmless eruptions: lava, gas and occasional explosions can be dangerous.",
-      "ru": "Щитовая форма не гарантирует безвредность: опасны лава, газ и возможные взрывы."
+      "en": "Think of a runny liquid poured onto a flat table: it spreads into a thin, wide layer. Runny lava spreads the same way from the vent, so many thin flows pile up into a broad, low mountain, such as Mauna Loa in Hawaii.",
+      "ru": "Представь, что ты разливаешь жидкость по плоскому столу: она растекается тонким широким слоем. Текучая лава так же растекается от жерла, и много тонких потоков складываются в широкую низкую гору, как Мауна-Лоа на Гавайях."
     },
     "sources": [
       {
@@ -479,8 +479,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Fissure",
     "russianTerm": "Трещина",
     "contrast": {
-      "en": "A fissure describes an opening; a shield or composite volcano describes an edifice. These categories can overlap.",
-      "ru": "Трещина описывает выход; щитовой вулкан или стратовулкан — сооружение. Такие категории могут пересекаться."
+      "en": "Picture a crack opening across a plain: lava pours out along its length rather than from one point. A shield or composite volcano is defined by the mountain it builds, which is broad and gently sloping or steep and layered. So ask two questions: where does the magma come out, and what shape does the material pile into?",
+      "ru": "Представь трещину, которая открывается на равнине: лава выливается вдоль всей её длины, а не из одной точки. Щитовой вулкан и стратовулкан (слоистый вулкан) различаются формой горы, которую они строят: широкой и пологой или крутой и слоистой. Поэтому задай себе два вопроса: где выходит магма и какую форму принимает накопленный материал?"
     },
     "sources": [
       {
@@ -501,8 +501,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Caldera",
     "russianTerm": "Кальдера",
     "contrast": {
-      "en": "A caldera can occur on a shield or composite volcano and contain smaller craters; it is not just an exceptionally large summit vent.",
-      "ru": "Кальдера возможна на щитовом вулкане или стратовулкане и может содержать кратеры; это не просто особенно большое жерло."
+      "en": "Picture a roof over an emptied cellar: once the support underneath is removed, the roof can sink as one block. A caldera forms in a similar way, when the ground above a magma chamber drops after magma has been erupted or drained away. A crater, by contrast, is usually a much smaller bowl around a vent.",
+      "ru": "Представь крышу над опустевшим подвалом: когда опору под ней убирают, крыша может провалиться целиком. Кальдера образуется похожим образом: земля над магматической камерой (резервуаром) проседает, когда магма излилась или ушла. Кратер, напротив, — обычно гораздо меньшая чаша вокруг жерла."
     },
     "sources": [
       {
@@ -517,8 +517,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Vent and crater",
     "russianTerm": "Жерло и кратер",
     "contrast": {
-      "en": "English vent names the outlet. Russian «жерло» can also name the channel, so distinguish outlet and conduit in the diagram.",
-      "ru": "Английское vent обозначает выход. Русское «жерло» может обозначать и канал, поэтому различай выход и подводящий канал на схеме."
+      "en": "Think of a bottle: the neck is the conduit that carries magma up, and the mouth at the top of the neck is the vent. Use vent only for the opening at the surface, and conduit for the passage below it.",
+      "ru": "Представь бутылку: горлышко — это подводящий канал, по которому магма поднимается, а отверстие на его конце — жерло. Используй «vent» только для отверстия на поверхности, а «conduit» — для канала под ним."
     },
     "sources": [
       {
@@ -539,8 +539,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Dyke and sill",
     "russianTerm": "Дайка и силл",
     "contrast": {
-      "en": "The distinction is relative to rock layering, not simply vertical versus horizontal; tilted beds can contain a steep sill.",
-      "ru": "Различие определяется отношением к слоям, а не просто вертикалью и горизонталью: в наклонных пластах силл тоже бывает крутым."
+      "en": "Picture rock layers tilted like the pages of a book propped up at an angle. A dyke cuts across the layers, while a sill runs between them. A steep body is therefore not automatically a dyke: if it follows the layers, it is a sill.",
+      "ru": "Представь пласты, наклонённые, как страницы книги, приподнятой под углом. Дайка прорезает их поперёк, а силл идёт между ними. Поэтому крутое тело — не обязательно дайка: если оно повторяет пласты, это силл."
     },
     "sources": [
       {
@@ -555,8 +555,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Pyroclastic flow",
     "russianTerm": "Пирокластический поток",
     "contrast": {
-      "en": "An ash plume rises and disperses aloft; a density current travels near the ground and is not a lava flow.",
-      "ru": "Пепловое облако поднимается и рассеивается в воздухе; плотностное течение идёт у поверхности и не является лавой."
+      "en": "An explosive eruption throws material up as a column. Fine ash that stays aloft forms a plume. If the column becomes too dense to keep rising, it collapses, and the mixture rushes down the slopes as a pyroclastic flow.",
+      "ru": "Взрывное извержение выбрасывает материал вверх, образуя столб. Мелкий пепел, который остаётся в воздухе, создаёт пепловое облако. Если столб становится слишком плотным и перестаёт подниматься, он обрушивается, и смесь мчится по склонам как пирокластический поток."
     },
     "sources": [
       {
@@ -569,10 +569,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Lahar": {
     "englishTerm": "Lahar",
-    "russianTerm": "Лахар",
+    "russianTerm": "Лахар (грязевой поток)",
     "contrast": {
-      "en": "A lahar is water-rich, unlike a hot gas-rich pyroclastic flow; lahars can occur without a new eruption.",
-      "ru": "Лахар богат водой, а пирокластический поток — горячим газом; лахары возможны без нового извержения."
+      "en": "Picture the slopes of a volcano covered in loose ash and rock fragments from an earlier eruption. Rain or meltwater can wash these deposits downhill long after the eruption has ended, so a lahar can arrive while the volcano is quiet. The trigger is water, not new magma.",
+      "ru": "Представь склоны вулкана, покрытые рыхлым пеплом и обломками от прежнего извержения. Дождь или талая вода могут смыть эти отложения вниз много позже извержения, поэтому лахар может сойти, пока вулкан спокоен. Причина — вода, а не новая магма."
     },
     "sources": [
       {
@@ -585,10 +585,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Jökulhlaup": {
     "englishTerm": "Jökulhlaup",
-    "russianTerm": "Йёкюльхлёйп",
+    "russianTerm": "Ледниковый прорывной паводок (jökulhlaup)",
     "contrast": {
-      "en": "A jökulhlaup is defined by glacial water release; it need not contain enough volcanic debris to be a lahar.",
-      "ru": "Йёкюльхлёйп определяется прорывом ледниковой воды; вулканических обломков может быть недостаточно для лахара."
+      "en": "For example, an eruption under a glacier melts ice, and the meltwater collects in a basin beneath the ice until it bursts out and floods the valley below. That flood is still a jökulhlaup even if it carries little sediment, whereas a lahar is defined by the volcanic debris in its flow, whatever the water source.",
+      "ru": "Например, при извержении под ледником тепло растапливает лёд, и талая вода собирается в углублении подо льдом, пока не прорвётся и не зальёт долину внизу. Такой паводок остаётся ледниковым прорывным паводком, даже если в нём мало наносов. А лахар определяется вулканическими обломками в потоке, независимо от того, откуда взялась вода."
     },
     "sources": [
       {
@@ -609,8 +609,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Primary and secondary effects",
     "russianTerm": "Первичные и вторичные последствия",
     "contrast": {
-      "en": "Classification depends on the causal chain, not just timing: a tsunami may arrive quickly but be secondary to an earthquake.",
-      "ru": "Классификация зависит от причинной цепи, а не только времени: цунами может прийти быстро, оставаясь вторичным последствием землетрясения."
+      "en": "To classify an effect, trace it back to its cause. Shaking that collapses a house is a primary effect. The same shaking can break a gas pipe, and the fire that follows is secondary: it may start almost at once, but the gas leak caused it, not the shaking itself.",
+      "ru": "Чтобы классифицировать последствие, его нужно проследить до причины. Толчок, который обрушивает дом, — это первичное последствие. Тот же толчок может порвать газопровод, и возникший пожар будет вторичным последствием. Он может начаться почти сразу, но вызвала его утечка газа, а не сам толчок."
     },
     "sources": [
       {
@@ -629,10 +629,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Hazard exposure and vulnerability": {
     "englishTerm": "Hazard exposure and vulnerability",
-    "russianTerm": "Опасность подверженность и уязвимость",
+    "russianTerm": "Природная опасность, подверженность и уязвимость",
     "contrast": {
-      "en": "The same hazard can produce different losses because exposure, vulnerability and capacity differ. Hazard is not synonymous with risk.",
-      "ru": "Одинаковая опасность даёт разные потери из-за различий подверженности, уязвимости и возможностей. Опасность не синоним риска."
+      "en": "Two cities can be hit by the same earthquake. In one, most buildings follow strict seismic codes and emergency services are well prepared; in the other, many buildings are older and weakly built. The losses differ greatly even though the hazard is identical: the cities differ in how many people and buildings are in harm's way, how weak those buildings are and how fast help arrives.",
+      "ru": "Два города могут пострадать от одного и того же землетрясения. В одном большинство зданий построено по строгим нормам сейсмостойкости, а службы спасения хорошо подготовлены; в другом много старых зданий, построенных непрочно. Потери сильно различаются, хотя природная опасность одна. Города отличаются числом людей и построек в зоне действия природной опасности, прочностью зданий и скоростью прихода помощи."
     },
     "sources": [
       {
@@ -663,10 +663,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Resilience": {
     "englishTerm": "Resilience",
-    "russianTerm": "Устойчивость сообщества",
+    "russianTerm": "Устойчивость сообщества (resilience)",
     "contrast": {
-      "en": "Resilience is broader than strength of buildings or speed of rebuilding; services, livelihoods and organisation also matter.",
-      "ru": "Устойчивость шире прочности зданий или скорости ремонта; важны услуги, средства к существованию и организация."
+      "en": "Two villages can suffer the same damage to their houses. In the first, homes are repaired, but the school stays closed for months because nobody organises shelter or water deliveries. In the second, local people set up shelter and water supplies quickly, so the school reopens much sooner. Resilience describes the second village's ability to keep essential functions going, even though its houses are no stronger.",
+      "ru": "Два села могут получить одинаковые повреждения домов. В первом дома отремонтировали, но школа месяцами остаётся закрытой: никто не организовал укрытие и подвоз воды. Во втором местные жители быстро наладили укрытие и водоснабжение, поэтому школа открылась гораздо раньше. Устойчивость — это способность второго села сохранять основные функции, хотя его дома не прочнее."
     },
     "sources": [
       {
@@ -679,10 +679,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Prediction protection preparation": {
     "englishTerm": "Prediction protection preparation",
-    "russianTerm": "Прогнозирование защита подготовка",
+    "russianTerm": "Прогнозирование, защита, подготовка",
     "contrast": {
-      "en": "Earthquake early warning detects a rupture already underway; it is not prediction before the earthquake begins.",
-      "ru": "Раннее предупреждение обнаруживает уже начавшийся разрыв; это не предсказание до начала землетрясения."
+      "en": "The three parts answer different questions. Forecasting asks which hazard may occur and where; protection asks how to reduce damage, for example by building to code; preparation asks what people will do, for example through drills and clear evacuation routes. For a volcano, forecasting relies on monitoring of seismicity, ground deformation and gases.",
+      "ru": "Эти три части отвечают на разные вопросы. Прогнозирование: какая природная опасность может случиться и где. Защита: как уменьшить ущерб, например строить по нормам. Подготовка: что будут делать люди, например учения и понятные пути эвакуации. Для вулкана прогноз опирается на мониторинг сейсмичности, деформации земли и выделения газов."
     },
     "sources": [
       {
@@ -701,10 +701,10 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
   },
   "Retrofit": {
     "englishTerm": "Retrofit",
-    "russianTerm": "Усиление существующего здания",
+    "russianTerm": "Усиление существующего здания (retrofit)",
     "contrast": {
-      "en": "Retrofitting existing structures differs from specifying protective features for a new building; feasibility depends on the structure and site.",
-      "ru": "Усиление существующего сооружения отличается от проектирования нового; выполнимость зависит от конструкции и площадки."
+      "en": "An old school may have brick walls that are not tied to its floors. Retrofitting adds ties and strengthens the joints, but the work is done inside an existing structure, so the result depends on its foundations and soil. Designing a new school, by contrast, means planning the same ties before any wall is built.",
+      "ru": "У старой школы кирпичные стены могут быть не связаны с перекрытиями. Усиление добавляет связи и укрепляет соединения, но работа ведётся внутри уже построенной конструкции, поэтому результат зависит от фундамента и грунта. Для новой школы такие же связи планируют ещё до того, как возводят стены."
     },
     "sources": [
       {
@@ -719,8 +719,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Ductility",
     "russianTerm": "Пластичность",
     "contrast": {
-      "en": "Ductility is not the same as stiffness or elastic recovery: a ductile component can remain permanently deformed.",
-      "ru": "Пластичность отличается от жёсткости и упругого восстановления: элемент может сохранить остаточную деформацию."
+      "en": "Bend a paperclip slightly and it springs back to its original shape: that is elastic recovery, not ductility. Bend it hard and it stays bent: that permanent change shows ductility. Glass breaks with almost no permanent deformation, so it is not ductile.",
+      "ru": "Согни скрепку слегка — она вернётся к прежней форме: это упругое восстановление, а не пластичность. Согни её сильно — она останется согнутой, и это остаточное изменение формы показывает пластичность. Стекло разрушается почти без остаточной деформации, поэтому оно не пластичное."
     },
     "sources": [
       {
@@ -735,8 +735,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Base isolation",
     "russianTerm": "Сейсмоизоляция",
     "contrast": {
-      "en": "Isolation changes the dynamic response; it does not stop the ground shaking or remove every design demand.",
-      "ru": "Изоляция меняет динамическую реакцию; она не останавливает сотрясение грунта и не отменяет остальные требования проекта."
+      "en": "Picture a house on flexible bearings made of alternating layers of rubber and steel, or on sliding bearings. When the ground shakes, the foundation moves with it, but the bearings absorb much of that movement, so the house above moves less. The bearings themselves move a lot, so a gap is needed around the building. Isolation does not remove other design needs: the building must still carry its own weight and resist wind.",
+      "ru": "Представь дом на гибких опорах из чередующихся слоёв резины и стали или на скользящих опорах. Когда грунт сотрясается, фундамент движется вместе с ним, но опоры поглощают большую часть этого движения, поэтому дом над ними движется меньше. Сами опоры при этом сильно смещаются, поэтому вокруг здания нужен зазор. Изоляция не отменяет остальные требования: здание всё равно должно выдерживать собственный вес и ветер."
     },
     "sources": [
       {
@@ -757,8 +757,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Evaluate",
     "russianTerm": "Оценить",
     "contrast": {
-      "en": "Listing advantages and disadvantages without deciding what they imply is incomplete evaluation.",
-      "ru": "Перечень плюсов и минусов без вывода о том, что они означают, — неполная оценка."
+      "en": "Take the question: 'Evaluate base isolation for a city with frequent earthquakes.' A weak answer lists advantages and disadvantages and stops there. A strong answer weighs them using criteria such as safety and cost. Isolation is justified for a hospital that must keep working after a quake, but probably not for a small building in a low-risk area.",
+      "ru": "Возьми вопрос: «Оцени сейсмоизоляцию для города с частыми землетрясениями». Слабый ответ перечисляет плюсы и минусы и на этом останавливается. Сильный ответ взвешивает их по критериям, например по безопасности и стоимости. Для больницы, которая должна работать после толчков, сейсмоизоляция оправдана, а для небольшого дома в зоне низкого риска, скорее всего, нет."
     },
     "sources": [
       {
@@ -773,8 +773,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Explain",
     "russianTerm": "Объяснить",
     "contrast": {
-      "en": "Description says what is observed; explanation supplies the mechanism linking the observations.",
-      "ru": "Описание сообщает, что наблюдается; объяснение раскрывает связывающий наблюдения механизм."
+      "en": "Compare two statements about the same event. A description says: 'Chile had an earthquake of magnitude 8.8 in 2010.' An explanation adds the cause: 'The Nazca plate is forced beneath South America, so the rock along the boundary suddenly slips and releases stored energy as seismic waves.'",
+      "ru": "Сравни два утверждения об одном событии. Описание говорит: «В 2010 году в Чили было землетрясение магнитудой 8,8». Объяснение добавляет причину: «Плита Наска вынуждена погружаться под Южную Америку, поэтому порода на границе плит внезапно смещается и высвобождает накопленную энергию в виде сейсмических волн»."
     },
     "sources": [
       {

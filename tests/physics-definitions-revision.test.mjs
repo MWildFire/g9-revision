@@ -67,7 +67,8 @@ test('all September glossary reviews preserve statistical activity and nuclear c
   Object.values(g).forEach(review);
   // λN left the activity scope note: λ (decay constant) is not in the batch sources and is not confirmed for MYP; see docs/content-revision/done/P-p-radiation.md.
   assert.match(g.activity.model.en, /One radionuclide only/);
-  assert.match(g['half-life'].model.en, /background correction/);
+  // README rule 1: the background-correction point moved to the lesson section ("First subtract the constant background"); the glossary model now states scope only
+  assert.match(read('src/modules/physics-september/lessons.ts'), /First subtract the constant background/);
   assert.match(g.fission.model.en, /rest masses need not be equal/);
   // The model now states the scope only; energy conservation is stated in the lesson section and the energy-release scope is checked here.
   assert.match(l['nuclear-equations'].model.en, /how much energy is released/);

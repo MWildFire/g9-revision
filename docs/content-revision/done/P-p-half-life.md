@@ -1,0 +1,8 @@
+# P-p-half-life — период полураспада (атомный курс)
+- готово: 14.10 02:17 GST · лейн P
+- пункты: изменено 44 / оставлено 9 / удалено 0 (всего 53); ручные правки: `src/content/formulaTeaching.ts` (карточки «decay» и «activity» взяты из ветки half-life; RU-описание символов activity сокращено тремя формулировками; символ R разведён: в activity — с фоном, в decay — фон вычтен); `src/modules/physics-september/lessons.ts` (EN: «25%» и «0%» без пробела, Q12.5 (1)); `tests/physics-definitions-revision.test.mjs` (проверка активности — «One radionuclide only» из радиации, проверка фона — по тексту урока «First subtract the constant background»)
+- EN источники: Paul Morris, *Physics for the IB MYP 4&5: By Concept* (Hodder), стр. 520–523 и глоссарий · RU источники: «Открытая физика» (physics.ru), §6.7 «Закон радиоактивного распада»; РЭШ — не проверено
+- ревью: FIX→OK (механика, правило 9: CRITICAL по двум косметическим пунктам исправлен — проценты EN и длина RU-описания activity; общая карточка decay проверена снимками на страницах half-life и radiation: абзацы и текст верны)
+- визуальная проверка: снимки RU mobile карточек decay и activity на обеих страницах; длина RU-описания activity — 7 строк на мобильном вместо нормы ~6, принято как остаток (смысл сохранён, «Не путай с массовым числом A» оставлено)
+- локальная проверка: content:lint 0 ошибок / 0 предупреждений (53 пункта) · npm test ✓ (98/98) · build ✓ · render-audit half-life 8 просмотров, 0 failed; radiation (повтор) 8 просмотров, 0 failed
+- открыто: длина RU-описания activity (7 строк вместо ~6) — остаток записан

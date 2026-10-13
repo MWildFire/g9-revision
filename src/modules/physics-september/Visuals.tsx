@@ -392,10 +392,15 @@ function EquationLab() {
         </div>
       )}
       <p className="nuclear-caption">
-        {t(
-          "The gamma example is a schematic excited-state transition. These balances track nucleon count and charge, not exact rest mass.",
-          "Гамма-пример — схема перехода возбуждённого ядра. Балансы учитывают число нуклонов и заряд, не точную массу покоя.",
-        )}
+        {c.mode === "gamma"
+          ? t(
+              "The gamma example is a schematic excited-state transition. These balances track nucleon count and charge.",
+              "Гамма-пример — схема перехода возбуждённого ядра. Балансы учитывают число нуклонов и заряд.",
+            )
+          : t(
+              "These balances track nucleon count and charge.",
+              "Балансы учитывают число нуклонов и заряд.",
+            )}
       </p>
     </>
   );

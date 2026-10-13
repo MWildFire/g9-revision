@@ -68,7 +68,8 @@ test('all September glossary reviews preserve statistical activity and nuclear c
   assert.match(g.activity.model.en, /One radionuclide only/);
   assert.match(g['half-life'].model.en, /background correction/);
   assert.match(g.fission.model.en, /rest masses need not be equal/);
-  assert.match(l['nuclear-equations'].model.en, /Energy and momentum/);
+  // The model now states the scope only; energy conservation is stated in the lesson section and the energy-release scope is checked here.
+  assert.match(l['nuclear-equations'].model.en, /how much energy is released/);
   assert.match(g.nucleon.model.en, /free neutron/i);
 });
 test('original geometric diagrams have translated equivalent descriptions', () => {

@@ -1,0 +1,7 @@
+# P-p-nuclear-equations — ядерные уравнения (атомный курс)
+- готово: 14.10 02:07 GST · лейн P
+- пункты: изменено 24 / оставлено 18 / удалено 0 (всего 42); ручные правки: `src/content/formulaTeaching.ts` (карточка «nuclear-equation»: текст и правило из ветки; заголовок «Balancing nuclear equations» / «Уравнивание ядерных реакций» — как в `main` после радиации; формула с неразрывными пробелами «ΣA (left) = ΣA (right)» по Q12.3); `src/modules/physics-september/lessons.ts` и `questions.ts` — тексты из ветки
+- EN источники: Paul Morris, *Physics for the IB MYP 4&5: By Concept* (Hodder), стр. 508–515 · RU источники: «Открытая физика» (physics.ru), раздел о составе ядра; РЭШ 9 кл., урок 43 — не проверено
+- ревью: FIX→OK (механика, правило 9: пункт 1 — тест переведён на сферу «how much energy is released», утверждение «energy and momentum must also allow it» стоит в тексте урока; пункт 6 — перенос формулы исправлен неразрывными пробелами; снимок карточки RU mobile — перенос только по «;», равенства цельные); визуальная проверка: замечания fixer закрыты
+- локальная проверка: content:lint 0 ошибок / 0 предупреждений · npm test ✓ (98/98) · build ✓ · render-audit 8 просмотров, 0 failed (EN/RU, desktop/mobile)
+- открыто: ничего; решение (а) по Q12.3 выполнено

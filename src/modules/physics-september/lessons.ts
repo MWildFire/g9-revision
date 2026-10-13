@@ -310,6 +310,7 @@ export const lessons: Lesson[] = [
     id: "nuclear-equations",
     title: b("Balancing nuclear equations", "Уравнения ядерных реакций"),
     photoTopic: "Nuclear equations",
+    photoTopicRu: "Ядерные уравнения",
     visual: "equation",
     intro: b(
       "Conserve the total nucleon number and electric charge. Work with the two number lines before identifying a daughter element.",
@@ -319,26 +320,26 @@ export const lessons: Lesson[] = [
       s(
         "Two independent balances",
         "Два независимых баланса",
-        "In the low-energy nuclear processes studied here, the upper numbers count nucleons and their totals balance. Energy, momentum and electric charge are also conserved; balancing A and charge alone does not prove a reaction can occur. The lower numbers represent charge in proton-charge units and must also balance. For a nucleus the lower number is Z; for an electron it is −1, not an “element with −1 protons”. A photon has 0 in both bookkeeping positions. Atomic electron shells are usually not drawn in these nuclear equations.",
-        "В изучаемых низкоэнергетических ядерных процессах верхние числа считают нуклоны, и их суммы совпадают. Сохраняются также энергия, импульс и электрический заряд; один баланс A и заряда ещё не доказывает возможность реакции. Нижние числа обозначают заряд в единицах заряда протона: их суммы тоже совпадают. У ядра нижнее число равно Z, у электрона −1 — это не «элемент с −1 протоном». Для фотона оба числа 0. Электронные оболочки в таких уравнениях обычно не изображаются.",
+        "Energy, momentum and electric charge are conserved in every nuclear reaction.\n\nThe upper numbers count nucleons, and the totals on the two sides balance. The lower numbers represent charge in proton-charge units and must also balance. For a nucleus the lower number is Z; for an electron it is −1, not an “element with −1 protons”. A photon has 0 in both bookkeeping positions. Atomic electron shells are usually not drawn in these nuclear equations.",
+        "Энергия, импульс (momentum) и электрический заряд сохраняются в любой ядерной реакции.\n\nВерхние числа показывают число нуклонов (nucleons), и их суммы слева и справа совпадают. Нижние числа показывают заряд в единицах заряда протона, и их суммы тоже должны совпадать. Для ядра нижнее число равно Z. Для электрона оно равно −1: это не «элемент с −1 протоном». У фотона и верхнее, и нижнее число равны 0. Электронные слои (electron shells) атома в таких уравнениях обычно не показывают.",
       ),
       s(
         "Alpha decay: remove a helium nucleus",
         "Альфа-распад: отделяется ядро гелия",
-        "An emitted alpha particle carries away two protons and two neutrons. The daughter has A − 4 and Z − 2. Its neutron count decreases by two. The parent becomes a different element because its proton count changes. Example: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Do not subtract four from Z.",
-        "Альфа-частица уносит два протона и два нейтрона. У дочернего ядра A − 4 и Z − 2. Число нейтронов уменьшается на два. Меняется элемент, потому что меняется число протонов. Пример: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Из Z вычитают два, а не четыре.",
+        "An emitted alpha particle carries away two protons and two neutrons.\n\n- The daughter has A − 4 and Z − 2.\n- Its neutron count falls by two.\n- The parent becomes a different element, because its proton count changes.\n\nExample: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Do not subtract four from Z.",
+        "Альфа-частица уносит два протона и два нейтрона.\n\n— У дочернего ядра A − 4 и Z − 2.\n— Число нейтронов уменьшается на два.\n— Меняется элемент, потому что меняется число протонов.\n\nПример: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Из Z вычитают два, а не четыре.",
       ),
       s(
         "Beta-minus: a neutron becomes a proton",
         "Бета-минус: нейтрон превращается в протон",
-        "In β⁻ decay a neutron transforms into a proton, an electron and an electron antineutrino. A stays fixed because one nucleon changes type; Z rises by one and N falls by one. The electron is created in the decay; it was not stored inside the nucleus. The full process includes the antineutrino, with zero nucleon number and zero charge; school balancing often omits it because it does not alter the two totals. Example: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e + ν̅ₑ.",
-        "При β⁻-распаде нейтрон превращается в протон, электрон и электронное антинейтрино. A сохраняется: один нуклон меняет тип. Z увеличивается на один, N уменьшается на один. Электрон рождается при распаде, а не хранится заранее внутри ядра. Антинейтрино имеет нулевые заряд и число нуклонов; в школьной записи его часто опускают, поскольку оба баланса не меняются. Пример: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e + ν̅ₑ.",
+        "In β⁻ decay a neutron transforms into a proton, an electron and an electron antineutrino.\n\n- A stays fixed, because one nucleon changes type.\n- Z rises by one and N falls by one.\n- The electron is created in the decay; it was not stored inside the nucleus.\n- The antineutrino has zero nucleon number and zero charge. School balancing often omits it, because it changes neither total.\n\nExample: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e + ν̅ₑ.",
+        "При β⁻-распаде нейтрон превращается в протон, электрон и электронное антинейтрино.\n\n— A сохраняется: один нуклон меняет тип.\n— Z увеличивается на один, N уменьшается на один.\n— Электрон рождается при распаде, а не хранится заранее внутри ядра.\n— У антинейтрино заряд и число нуклонов равны нулю. В школьной записи его часто опускают, потому что ни одна из сумм не меняется.\n\nПример: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e + ν̅ₑ.",
       ),
       s(
         "Gamma: energy changes, element does not",
         "Гамма: меняется энергия, не элемент",
-        "An excited nucleus (shown with *) emits a photon and drops to a lower energy state. A and Z remain unchanged: ⁹⁹₄₃Tc* → ⁹⁹₄₃Tc + γ is a schematic energy-state example. Gamma emission often follows another decay. A mixed sequence is solved one step at a time; two alpha and one beta-minus emissions give ΔA = −8 and ΔZ = −3.",
-        "Возбуждённое ядро (обозначено *) испускает фотон и переходит в состояние с меньшей энергией. A и Z не меняются: ⁹⁹₄₃Tc* → ⁹⁹₄₃Tc + γ — схематический пример перехода между состояниями. Гамма-излучение часто следует за другим распадом. Цепочку решай по шагам: два альфа- и один бета-минус-распад дают ΔA = −8, ΔZ = −3.",
+        "An excited nucleus (shown with *) emits a photon and drops to a lower energy state.\n\n- A and Z remain unchanged: ⁹⁹₄₃Tc* → ⁹⁹₄₃Tc + γ is a schematic example.\n- Gamma emission often follows another decay.\n- A mixed sequence is solved one step at a time. Two alpha and one beta-minus emissions give ΔA = −8 and ΔZ = −3.",
+        "Возбуждённое ядро (обозначено *) испускает фотон и переходит в состояние с меньшей энергией.\n\n— A и Z не меняются: ⁹⁹₄₃Tc* → ⁹⁹₄₃Tc + γ — схематический пример.\n— Гамма-излучение часто следует за другим распадом.\n— Цепочку решай по шагам. Два альфа- и один бета-минус-распад дают ΔA = −8 и ΔZ = −3.",
       ),
     ],
     formulas: [
@@ -378,8 +379,8 @@ export const lessons: Lesson[] = [
         "Вылет отрицательной бета-частицы не уменьшает Z: из сохранения заряда следует увеличение Z.",
       ),
       b(
-        "Balanced numbers are necessary but do not prove a proposed reaction actually occurs.",
-        "Баланс чисел необходим, но сам по себе не доказывает, что реакция происходит.",
+        "Balanced numbers are necessary but do not prove that a proposed reaction actually occurs: energy and momentum must also allow it.",
+        "Баланс чисел — необходимое условие, но он не доказывает, что предложенная реакция действительно происходит. Энергия и импульс тоже должны это допускать.",
       ),
     ],
   },

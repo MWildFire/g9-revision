@@ -17,7 +17,7 @@ const VB_H = 240;
 const GROUND_Y = 200;
 
 export function PressureSim() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [force, setForce] = useState(100);
   const [area, setArea] = useState(0.01);
 
@@ -124,10 +124,10 @@ export function PressureSim() {
         </div>
 
         <div className="space-y-4">
-          <Slider label={t('forcesEnergy.sim2.force')} unit="N" min={1} max={1000} step={5} value={force} onChange={setForce} />
+          <Slider label={t('forcesEnergy.sim2.force')} unit={i18n.language.startsWith('ru') ? 'Н' : 'N'} min={1} max={1000} step={5} value={force} onChange={setForce} />
           <Slider
             label={t('forcesEnergy.sim2.area')}
-            unit="m²"
+            unit={i18n.language.startsWith('ru') ? 'м²' : 'm²'}
             min={0.0001}
             max={1}
             step={0.001}
@@ -137,7 +137,7 @@ export function PressureSim() {
           />
 
           <Formula caption={t('forcesEnergy.sim2.pressure')}>
-            P = {force.toFixed(0)} / {area.toFixed(4)}
+            p = {force.toFixed(0)} / {area.toFixed(4)}
             <br />
             <span className="text-accent-warm">= {formatPressure(pressure)}</span>
           </Formula>

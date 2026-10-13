@@ -56,25 +56,25 @@ export function WorkPower() {
             </g>
           </svg>
 
-          <Formula caption={i18n.language.startsWith('ru') ? 'W = Fh, F = mg при равномерном подъёме' : 'W = Fh, F = mg for steady lifting'}>
-            W = (m × g) × h = ({mass} × 9.81) × {height} ={' '}
+          <Formula caption={i18n.language.startsWith('ru') ? 'A = Fh, F = mg при равномерном подъёме' : 'W = Fh, F = mg for steady lifting'}>
+            {i18n.language.startsWith('ru') ? 'A' : 'W'} = (m × g) × h = ({mass} × 9.81) × {height} ={' '}
             <span className="text-accent-warm">{format(work, 1)} J</span>
           </Formula>
-          <Formula caption="P = W / t">
-            P = {format(work, 1)} / {time.toFixed(1)} ={' '}
+          <Formula caption={i18n.language.startsWith('ru') ? 'N = A / t' : 'P = W / t'}>
+            {i18n.language.startsWith('ru') ? 'N' : 'P'} = {format(work, 1)} / {time.toFixed(1)} ={' '}
             <span className="text-accent-sage">{format(power, 2)} W</span>
           </Formula>
         </div>
 
         <div className="space-y-4">
-          <Slider label={t('forcesEnergy.simWorkPower.mass')} unit="kg" min={1} max={50} step={1} value={mass} onChange={setMass} />
-          <Slider label={t('forcesEnergy.simWorkPower.height')} unit="m" min={0.5} max={6} step={0.1} value={height} onChange={setHeight} />
-          <Slider label={t('forcesEnergy.simWorkPower.time')} unit="s" min={0.5} max={20} step={0.1} value={time} onChange={setTime} />
+          <Slider label={t('forcesEnergy.simWorkPower.mass')} unit={i18n.language.startsWith('ru') ? 'кг' : 'kg'} min={1} max={50} step={1} value={mass} onChange={setMass} />
+          <Slider label={t('forcesEnergy.simWorkPower.height')} unit={i18n.language.startsWith('ru') ? 'м' : 'm'} min={0.5} max={6} step={0.1} value={height} onChange={setHeight} />
+          <Slider label={t('forcesEnergy.simWorkPower.time')} unit={i18n.language.startsWith('ru') ? 'с' : 's'} min={0.5} max={20} step={0.1} value={time} onChange={setTime} />
 
           <div className="grid grid-cols-1 gap-2 text-sm">
-            <Stat label={i18n.language.startsWith('ru') ? 'Сила тяжести (F)' : 'Weight (F)'} value={`${format(weight, 1)} N`} />
-            <Stat label={i18n.language.startsWith('ru') ? 'Работа (W)' : 'Work (W)'} value={`${format(work, 1)} J`} />
-            <Stat label={i18n.language.startsWith('ru') ? 'Мощность (P)' : 'Power (P)'} value={`${format(power, 2)} W`} />
+            <Stat label={i18n.language.startsWith('ru') ? 'Сила тяжести (F)' : 'Weight (F)'} value={`${format(weight, 1)} ${i18n.language.startsWith('ru') ? 'Н' : 'N'}`} />
+            <Stat label={i18n.language.startsWith('ru') ? 'Работа (A)' : 'Work (W)'} value={`${format(work, 1)} ${i18n.language.startsWith('ru') ? 'Дж' : 'J'}`} />
+            <Stat label={i18n.language.startsWith('ru') ? 'Мощность (N)' : 'Power (P)'} value={`${format(power, 2)} ${i18n.language.startsWith('ru') ? 'Вт' : 'W'}`} />
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import { Formula } from '../../ui/Formula';
 import { hydrostaticPressure, formatPressure } from '../../../lib/physics';
 
 export function FluidPressure() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
   const [depth, setDepth] = useState(20);
   const [rho, setRho] = useState(1000);
 
@@ -48,11 +48,11 @@ export function FluidPressure() {
         </svg>
 
         <div className="space-y-4">
-          <Slider label={t('forcesEnergy.sim4.depth')} unit="m" min={0} max={100} step={1} value={depth} onChange={setDepth} />
-          <Slider label={t('forcesEnergy.sim4.fluidDensity')} unit="kg/m³" min={500} max={13600} step={50} value={rho} onChange={setRho} format={(v) => v.toFixed(0)} />
+          <Slider label={t('forcesEnergy.sim4.depth')} unit={i18n.language.startsWith('ru') ? 'м' : 'm'} min={0} max={100} step={1} value={depth} onChange={setDepth} />
+          <Slider label={t('forcesEnergy.sim4.fluidDensity')} unit={i18n.language.startsWith('ru') ? 'кг/м³' : 'kg/m³'} min={500} max={13600} step={50} value={rho} onChange={setRho} format={(v) => v.toFixed(0)} />
 
-          <Formula caption="P = ρ × g × h">
-            P = {rho.toFixed(0)} × 9.81 × {depth.toFixed(0)}
+          <Formula caption="Δp = ρ × g × h">
+            Δp = {rho.toFixed(0)} × 9.81 × {depth.toFixed(0)}
             <br />
             <span className="text-accent-warm">= {formatPressure(pressure)}</span>
           </Formula>

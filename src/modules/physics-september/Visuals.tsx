@@ -224,7 +224,7 @@ function PenetrationLab() {
   const t = useText();
   const [material, setMaterial] = useState("paper");
   const labels = [
-    ["none", "No absorber", "Без экрана"],
+    ["none", "No absorber", "Без поглотителя"],
     ["paper", "Paper", "Бумага"],
     ["aluminium", "A few mm of aluminium", "Несколько мм алюминия"],
     ["lead", "Thick lead", "Толстый свинец"],
@@ -232,7 +232,7 @@ function PenetrationLab() {
   return (
     <>
       <label>
-        {t("Absorber", "Экран")}
+        {t("Absorber", "Поглотитель")}
         <select value={material} onChange={(e) => setMaterial(e.target.value)}>
           {labels.map(([v, en, ru]) => (
             <option value={v} key={v}>
@@ -266,7 +266,7 @@ function PenetrationLab() {
             (i === 0 || (i === 1 && material !== "paper"));
           return (
             <g key={label}>
-              <text x="10" y={y + 5} fontSize="18" fill="#34443c">
+              <text x="10" y={y + 5} fontSize="20" fill="#34443c">
                 {label}
               </text>
               <line
@@ -288,7 +288,7 @@ function PenetrationLab() {
                   opacity={material === "lead" ? 0.3 : 1}
                 />
               )}
-              <text x="355" y={y - 12} fontSize="13" fill="#34443c">
+              <text x="355" y={y - 12} fontSize="20" fill="#34443c">
                 {stopped
                   ? t("stopped", "задержано")
                   : material === "lead"

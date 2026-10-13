@@ -64,7 +64,8 @@ test('all September glossary reviews preserve statistical activity and nuclear c
   assert.equal(Object.keys(g).length, 20);
   assert.equal(Object.keys(l).length, 12);
   Object.values(g).forEach(review);
-  assert.match(g.activity.model.en, /𝒜 = λN/);
+  // λN left the activity scope note: λ (decay constant) is not in the batch sources and is not confirmed for MYP; see docs/content-revision/done/P-p-radiation.md.
+  assert.match(g.activity.model.en, /One radionuclide only/);
   assert.match(g['half-life'].model.en, /background correction/);
   assert.match(g.fission.model.en, /rest masses need not be equal/);
   assert.match(l['nuclear-equations'].model.en, /Energy and momentum/);

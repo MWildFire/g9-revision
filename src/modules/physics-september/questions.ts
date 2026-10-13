@@ -265,21 +265,21 @@ export const questions: Question[] = [
     "A(i)",
     "foundation",
     b(
-      "State the charge and physical nature of alpha, beta-minus and gamma radiation.",
-      "Укажи заряд и физическую природу альфа-, бета-минус- и гамма-излучения.",
+      "For alpha, beta-minus and gamma radiation, state the charge and the physical nature (particle or wave).",
+      "Для альфа-, бета-минус- и гамма-излучения укажи заряд и физическую природу (частица или волна).",
     ),
     b(
-      "Particles and photons are different.",
-      "Частицы вещества и фотоны различаются.",
+      "Is each type a stream of particles, or an electromagnetic wave?",
+      "Подумай: каждый вид — поток частиц или электромагнитная волна?",
     ),
-    b("Alpha: helium nucleus, charge +2.", "Альфа: ядро гелия, заряд +2."),
+    b("Alpha: a particle (a helium-4 nucleus, two protons and two neutrons); charge +2.", "Альфа: частица — ядро гелия-4 (два протона и два нейтрона); заряд +2."),
     b(
-      "Beta-minus: electron produced in a nuclear decay, charge −1.",
-      "Бета-минус: электрон, возникающий при ядерном распаде, заряд −1.",
+      "Beta-minus: a fast electron emitted from the nucleus when a neutron changes into a proton; charge −1.",
+      "Бета-минус: быстрый электрон, который вылетает из ядра, когда нейтрон превращается в протон; заряд −1.",
     ),
     b(
-      "Gamma: electromagnetic photon, charge 0.",
-      "Гамма: электромагнитный фотон, заряд 0.",
+      "Gamma: an electromagnetic wave (photons), not a stream of charged particles; charge 0.",
+      "Гамма: электромагнитная волна (поток фотонов), не поток заряженных частиц; заряд 0.",
     ),
   ),
   q(
@@ -288,19 +288,19 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "A source produces 780 detected counts in 60 s. Background gives 90 counts in 30 s. Find the net rate.",
-      "С источником зарегистрировано 780 импульсов за 60 с. Фон дал 90 за 30 с. Найди чистую скорость.",
+      "With the source in place, the detector records 780 counts in 60 s. With the source removed, the background gives 90 counts in 30 s. Calculate the net count rate of the source.",
+      "С источником детектор регистрирует 780 импульсов за 60 с. Без источника фон даёт 90 импульсов за 30 с. Рассчитай скорость счёта источника без фона.",
     ),
     b(
-      "Convert both measurements to counts/s first.",
-      "Сначала оба измерения переведи в имп/с.",
+      "Convert each measurement to counts/s before you subtract the background.",
+      "Сначала переведи каждое измерение в имп/с и только потом вычти фон.",
     ),
     b(
-      "Total = 780 / 60 = 13 counts/s.",
-      "Полная скорость 780 / 60 = 13 имп/с.",
+      "Total count rate with the source: 780 / 60 = 13 counts/s.",
+      "Общая скорость счёта с источником: 780 / 60 = 13 имп/с.",
     ),
-    b("Background = 90 / 30 = 3 counts/s.", "Фон 90 / 30 = 3 имп/с."),
-    b("Net = 10 counts/s.", "Чистая скорость 10 имп/с."),
+    b("Background count rate: 90 / 30 = 3 counts/s.", "Скорость счёта фона: 90 / 30 = 3 имп/с."),
+    b("Net count rate: 13 − 3 = 10 counts/s.", "Скорость счёта без фона: 13 − 3 = 10 имп/с."),
   ),
   q(
     "rad-3",
@@ -308,24 +308,24 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "A corrected signal is 400 counts/min with no absorber, 390 with paper, 380 with thin aluminium and 95 with thick lead. Which radiation is most consistent, and why?",
-      "Чистый счёт: 400 имп/мин без экрана, 390 с бумагой, 380 с тонким алюминием, 95 с толстым свинцом. Какое излучение лучше соответствует данным и почему?",
+      "Each absorber is tested on its own. The background-corrected count rate is 400 counts/min with no absorber, 390 counts/min with paper, 380 counts/min with thin aluminium and 95 counts/min with thick lead. Identify the radiation that fits these results best. Explain your answer.",
+      "Каждый экран проверяют отдельно. Скорость счёта без фона: 400 имп/мин без экрана, 390 имп/мин с бумагой, 380 имп/мин с тонким алюминием и 95 имп/мин с толстым свинцом. Определи излучение, которое лучше всего соответствует результатам. Объясни ответ.",
     ),
     b(
-      "Look for strong penetration and attenuation rather than complete stopping.",
-      "Ищи глубокое проникновение и ослабление, а не полную остановку.",
+      "Compare how much each absorber reduces the reading. Which one causes the largest drop?",
+      "Сравни, на сколько каждый экран уменьшает показания. Какой экран даёт самое большое уменьшение?",
     ),
     b(
-      "Gamma is most consistent with passing paper and thin aluminium.",
-      "Гамма лучше соответствует прохождению бумаги и тонкого алюминия.",
+      "Gamma fits best: paper reduces the reading by only 10 counts/min, and thin aluminium by only 20 counts/min.",
+      "Лучше всего подходит гамма-излучение: бумага снижает показания всего на 10 имп/мин, а тонкий алюминий — на 20 имп/мин.",
     ),
     b(
-      "Thick lead reduces the signal substantially but does not eliminate it.",
-      "Толстый свинец сильно ослабляет, но не полностью устраняет сигнал.",
+      "Alpha is excluded: paper stops alpha particles, yet the reading falls only from 400 to 390 counts/min. Beta is unlikely: thick lead would stop nearly all beta particles.",
+      "Альфа-излучение исключается: бумага задерживает альфа-частицы, но показание падает лишь с 400 до 390 имп/мин. Бета-излучение маловероятно: толстый свинец задержал бы почти все бета-частицы.",
     ),
     b(
-      "The conclusion is based on the pattern; repeats and energy information would strengthen identification.",
-      "Вывод основан на характере ослабления; повторы и сведения об энергии усилили бы его.",
+      "Thick lead removes 305 counts/min but leaves 95 counts/min: the radiation penetrates strongly but is not fully stopped. Repeat readings and information about the energy would make the conclusion more reliable.",
+      "Толстый свинец уменьшает показания на 305 имп/мин, но остаётся 95 имп/мин: излучение сильно проникает, но ослабляется не полностью. Повторные измерения и данные об энергии сделали бы вывод надёжнее.",
     ),
   ),
   q(
@@ -334,24 +334,24 @@ export const questions: Question[] = [
     "A(iii)",
     "challenge",
     b(
-      "A 2,000 Bq source gives a net detector rate of 100 counts/s. A student says the detector disproves the activity label. Evaluate.",
-      "Источник 2000 Бк даёт чистый счёт 100 имп/с. Ученик считает маркировку активности неверной. Оцени.",
+      "A source is labelled 2000 Bq. The detector gives a net count rate of 100 counts/s for this source. A student claims that this disproves the label. Evaluate the claim.",
+      "Источник помечен как 2000 Бк. Детектор даёт скорость счёта без фона 100 имп/с для этого источника. Ученик считает, что это опровергает маркировку. Оцени это утверждение.",
     ),
     b(
       "Does a detector register every decay?",
       "Регистрирует ли детектор каждый распад?",
     ),
     b(
-      "Bq describes all decays per second in the source, not just detected events.",
-      "Бк — все распады источника за секунду, а не только обнаруженные события.",
+      "The claim is not valid. An activity of 2000 Bq means, on average, 2000 decays per second in the source, whether or not the detector registers them.",
+      "Утверждение неверно. Активность 2000 Бк означает в среднем 2000 распадов в секунду в источнике, независимо от того, регистрирует ли их детектор.",
     ),
     b(
-      "Only a fraction of emissions reach the detector and are registered.",
-      "Лишь часть излучения достигает детектора и регистрируется.",
+      "The student compares two different quantities: a count rate (100 counts/s) and an activity (2000 Bq).",
+      "Ученик сравнивает разные величины: скорость счёта (100 имп/с) и активность (2000 Бк).",
     ),
     b(
-      "100 / 2,000 = 5% would be a possible overall detection fraction under a simple one-emission-per-decay model; the readings need not conflict.",
-      "100 / 2000 = 5% — возможная доля регистрации в простой модели одного испускания на распад; противоречие необязательно.",
+      "Example of a simple model: each decay gives one emission. In this model, the detector registers 100 / 2000 = 5% of the emissions. Once registration is taken into account, the readings do not conflict with the activity.",
+      "Пример простой модели: каждый распад даёт одно испускание. В этой модели детектор регистрирует 100 / 2000 = 5 % испусканий. С учётом регистрации показания не противоречат активности.",
     ),
   ),
   q(

@@ -196,8 +196,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
       "ru": "Скорость счёта обычно не равна активности: часть излучения не попадает в детектор или не регистрируется."
     },
     "model": {
-      "en": "For one radionuclide, activity 𝒜 = λN. Observed counts fluctuate; use 𝒜 to avoid confusion with mass number A.",
-      "ru": "Для одного радионуклида активность 𝒜 = λN. Измеренные отсчёты случайно колеблются; символ 𝒜 отличаем от массового числа A."
+      "en": "One radionuclide only. Mixed sources are not covered.",
+      "ru": "Один радионуклид (radionuclide). Смесь нескольких радионуклидов не рассматривается."
     },
     "sources": [
       {
@@ -234,20 +234,20 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
         },
         {
           "label": {
-            "en": "Detected source events: 40 counts/s",
-            "ru": "Обнаружено от источника: 40 имп./с"
+            "en": "Detected from the source: 40 counts/s",
+            "ru": "От источника зарегистрировано: 40 имп/с"
           }
         },
         {
           "label": {
-            "en": "Add background 5 → total 45 counts/s",
-            "ru": "Добавь фон 5 → всего 45 имп./с"
+            "en": "Add background 5 counts/s → total 45 counts/s",
+            "ru": "Добавь фон 5 имп/с → всего 45 имп/с"
           }
         }
       ],
       "caption": {
-        "en": "Illustrative numbers for a fixed setup: detector losses and background prevent equating count rate with activity.",
-        "ru": "Условные числа для фиксированной установки: потери регистрации и фон не позволяют приравнивать счёт к активности."
+        "en": "Illustrative numbers for one setup: the source has an activity of 200 Bq, the detector registers 40 counts/s from it, and background adds 5 counts/s.",
+        "ru": "Для наглядности, на одной установке: активность источника 200 Бк, от него детектор регистрирует 40 имп/с, а фон добавляет 5 имп/с."
       }
     }
   },
@@ -303,20 +303,20 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
         },
         {
           "label": {
-            "en": "Detected source events: 40 counts/s",
-            "ru": "Обнаружено от источника: 40 имп./с"
+            "en": "Detected from the source: 40 counts/s",
+            "ru": "От источника зарегистрировано: 40 имп/с"
           }
         },
         {
           "label": {
-            "en": "Add background 5 → total 45 counts/s",
-            "ru": "Добавь фон 5 → всего 45 имп./с"
+            "en": "Add background 5 counts/s → total 45 counts/s",
+            "ru": "Добавь фон 5 имп/с → всего 45 имп/с"
           }
         }
       ],
       "caption": {
-        "en": "Illustrative numbers for a fixed setup: detector losses and background prevent equating count rate with activity.",
-        "ru": "Условные числа для фиксированной установки: потери регистрации и фон не позволяют приравнивать счёт к активности."
+        "en": "Illustrative numbers for one setup: the source has an activity of 200 Bq, the detector registers 40 counts/s from it, and background adds 5 counts/s.",
+        "ru": "Для наглядности, на одной установке: активность источника 200 Бк, от него детектор регистрирует 40 имп/с, а фон добавляет 5 имп/с."
       }
     }
   },
@@ -782,13 +782,9 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
   "radiation": {
     "englishTerm": "activity",
     "russianTerm": "активность",
-    "contrast": {
-      "en": "A detector count rate is not generally the source activity: some radiation misses the detector or is not registered.",
-      "ru": "Скорость счёта обычно не равна активности: часть излучения не попадает в детектор или не регистрируется."
-    },
     "model": {
-      "en": "For one radionuclide, activity 𝒜 = λN. Observed counts fluctuate; use 𝒜 to avoid confusion with mass number A.",
-      "ru": "Для одного радионуклида активность 𝒜 = λN. Измеренные отсчёты случайно колеблются; символ 𝒜 отличаем от массового числа A."
+      "en": "One radionuclide only. Mixed sources are not covered.",
+      "ru": "Один радионуклид (radionuclide). Смесь нескольких радионуклидов не рассматривается."
     },
     "sources": [
       {
@@ -831,20 +827,20 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
         },
         {
           "label": {
-            "en": "Detected source events: 40 counts/s",
-            "ru": "Обнаружено от источника: 40 имп./с"
+            "en": "Detected from the source: 40 counts/s",
+            "ru": "От источника зарегистрировано: 40 имп/с"
           }
         },
         {
           "label": {
-            "en": "Add background 5 → total 45 counts/s",
-            "ru": "Добавь фон 5 → всего 45 имп./с"
+            "en": "Add background 5 counts/s → total 45 counts/s",
+            "ru": "Добавь фон 5 имп/с → всего 45 имп/с"
           }
         }
       ],
       "caption": {
-        "en": "Illustrative numbers for a fixed setup: detector losses and background prevent equating count rate with activity.",
-        "ru": "Условные числа для фиксированной установки: потери регистрации и фон не позволяют приравнивать счёт к активности."
+        "en": "Illustrative numbers for one setup: the source has an activity of 200 Bq, the detector registers 40 counts/s from it, and background adds 5 counts/s.",
+        "ru": "Для наглядности, на одной установке: активность источника 200 Бк, от него детектор регистрирует 40 имп/с, а фон добавляет 5 имп/с."
       }
     }
   },

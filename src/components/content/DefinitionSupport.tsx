@@ -8,7 +8,7 @@ import './definition-support.css';
 function wrap(text: string, maximum = 37): string[] {
   const lines: string[] = [];
   let line = '';
-  for (const word of text.trim().split(/\s+/)) {
+  for (const word of text.trim().split(/[^\S ]+/)) {
     if (line && line.length + word.length + 1 > maximum) { lines.push(line); line = ''; }
     if (word.length > maximum) {
       if (line) { lines.push(line); line = ''; }

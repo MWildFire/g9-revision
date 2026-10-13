@@ -84,17 +84,17 @@
     },
     "atomBuilder": {
       "title": "Atom Builder",
-      "description": "Select one of the first 20 elements to show a neutral atom and a specified example isotope. Z counts protons; A counts protons plus neutrons, so neutrons = A − Z. Rings represent a simplified shell model, not electron paths.",
+      "description": "Move the slider to set Z from 1 to 20. The constructor shows a neutral atom of one example isotope: protons (Z), neutrons (A − Z) and electrons (as many as the protons), and a shell diagram. It does not show electron paths.",
       "atomicNumberLabel": "Atomic number (Z)",
-      "protonsLabel": "Atomic number Z",
-      "protonsHint": "(protons)",
+      "protonsLabel": "Protons",
+      "protonsHint": "(equal to Z)",
       "massLabel": "Mass number A (example isotope)",
       "neutronsLabel": "Neutrons",
       "neutronsHint": "(A − Z)",
       "electronsLabel": "Electrons",
-      "electronsHint": "(neutral atom)",
-      "configLabel": "Configuration",
-      "shellNote": "For these neutral ground-state atoms: 2,8,8,2 at Ca. General shell capacities are 2n²; subshell energies determine filling. The chosen isotope is not an average atomic mass.",
+      "electronsHint": "(neutral atom: equal to Z)",
+      "configLabel": "Electron configuration",
+      "shellNote": "Each number is the count of electrons in one shell, counted from the nucleus outwards. The numbers add up to Z. Potassium (Z = 19) has 2,8,8,1: one electron is already in the fourth shell, although the third shell can take 18 and has only 8.",
       "elements": {
         "1": "Hydrogen",
         "2": "Helium",
@@ -121,33 +121,25 @@
         "englishTerm": "Atom Builder",
         "russianTerm": "Конструктор атома",
         "contrast": {
-          "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
-          "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+          "en": "“Neutral” means the atom’s charge is zero, not that it has no neutrons. Neutrons have no charge, so they do not affect the balance of protons and electrons.",
+          "ru": "«Нейтральный» значит, что заряд атома равен нулю, а не что в нём нет нейтронов. Нейтроны не имеют заряда, поэтому на равенство числа протонов и электронов они не влияют."
+        },
+        "model": {
+          "en": "It applies to isolated neutral atoms of the first 20 elements in the ground state. It does not show bonding or ions. It cannot give relative atomic mass: the constructor shows only the most common isotope of each element.",
+          "ru": "Модель применима к отдельным нейтральным атомам первых 20 элементов в основном состоянии (ground state). Она не показывает химические связи и ионы. По ней нельзя найти относительную атомную массу (relative atomic mass): конструктор показывает только самый распространённый изотоп каждого элемента."
         },
         "sources": [
           {
-            "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
-            "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
-            "language": "en",
-            "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+            "url": "https://resh.edu.ru/subject/lesson/2050/main/",
+            "section": "РЭШ, 8 класс, урок 27 «Расположение электронов по энергетическим уровням». Не открыт из среды, проверить вручную.",
+            "language": "ru"
           },
           {
-            "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
-            "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
-            "language": "en",
-            "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
-          },
-          {
-            "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
-            "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
-            "language": "ru",
-            "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+            "url": "https://www.hachettelearning.com/subjects/international-schools/products/myp/chemistry-for-the-ib-myp-4-5",
+            "section": "Termaat & Talbot, Chemistry for the IB MYP 4&5 (Hodder 2016), издательская страница. Книги на Mac нет, страницы не проверены.",
+            "language": "en"
           }
-        ],
-        "model": {
-          "en": "Shells indicate allowed energy levels, not circular trajectories. The 2,8,8,2 pattern is for the first 20 neutral ground-state atoms; the third shell can hold up to 18 electrons.",
-          "ru": "Оболочки показывают энергетические уровни, а не круговые траектории. Схема 2,8,8,2 относится к первым 20 нейтральным атомам в основном состоянии; третья оболочка вмещает до 18 электронов."
-        }
+        ]
       }
     },
     "moleCalc": {
@@ -1068,67 +1060,45 @@
   },
   "atomsPeriodic": {
     "title": "Atomic Structure & Periodic Table",
-    "intro": "Atoms, isotopes, electronic configuration, and how the periodic table organises elements.",
+    "intro": "How atoms are built, what isotopes are, how electrons are arranged in shells, and how the periodic table is organised.",
     "sections": {
       "atomicStructure": {
         "title": "Atomic structure",
-        "body": "An atom has a small positively charged nucleus containing protons and usually neutrons, surrounded by electrons described by quantum states rather than fixed planetary orbits. Atomic number Z is proton count; mass number A is proton plus neutron count. A neutral atom has Z electrons.",
+        "body": "An atom has a tiny, positively charged nucleus. Atomic number (Z) is the number of protons in the nucleus. Mass number (A) is the total number of protons and neutrons. Electrons occupy energy levels (shells) around the nucleus. A neutral atom has as many electrons as protons. For example, oxygen-16 has Z = 8 and A = 16: its nucleus holds 8 protons and 8 neutrons, and the neutral atom has 8 electrons.",
         "review": {
           "englishTerm": "Atomic structure",
           "russianTerm": "Строение атома",
           "contrast": {
-            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
-            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+            "en": "Electrons add almost no mass: one electron is about 1836 times less massive than a proton. So mass number A does not count electrons, and an ion has almost the same mass as its atom.",
+            "ru": "Электроны почти не дают массы: один электрон примерно в 1836 раз легче протона. Поэтому электроны не входят в массовое число A, и масса иона почти равна массе атома."
           },
           "sources": [
             {
-              "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
-              "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
-              "language": "en",
-              "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+              "url": "https://resh.edu.ru/subject/lesson/2051/train/",
+              "section": "РЭШ, 8 класс, урок 26 «Строение атома. Состав атомных ядер. Изотопы», раздел «Строение атома». Не открыт из среды, проверить вручную.",
+              "language": "ru"
             },
             {
-              "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
-              "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
-              "language": "en",
-              "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
-            },
-            {
-              "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
-              "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
-              "language": "ru",
-              "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+              "url": "https://www.hachettelearning.com/subjects/international-schools/products/myp/chemistry-for-the-ib-myp-4-5",
+              "section": "Termaat & Talbot, Chemistry for the IB MYP 4&5 (Hodder 2016), издательская страница. Книги на Mac нет, страницы не проверены.",
+              "language": "en"
             }
           ]
         }
       },
       "isotopes": {
         "title": "Isotopes",
-        "body": "Isotopes are atoms of one element with the same proton count but different neutron counts, so they have the same Z and different A. Their electronic structures and chemical behaviour are usually very similar, but isotope mass can affect physical properties and reaction rates.",
+        "body": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. They therefore have the same atomic number (Z) but different mass numbers (A). Neutral atoms of all isotopes of an element have the same number of electrons, so isotopes react in almost the same way. Properties that depend on mass, such as density, differ slightly.",
         "review": {
           "englishTerm": "Isotopes",
           "russianTerm": "Изотопы",
           "contrast": {
-            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
-            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+            "en": "Equal mass numbers do not mean the same element: carbon-14 and nitrogen-14 both have A = 14, but their Z values are 6 and 7.",
+            "ru": "Одинаковое массовое число ещё не значит, что это один элемент: у углерода-14 и азота-14 A = 14, а Z — 6 и 7 соответственно."
           },
-          "sources": [
-            {
-              "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
-              "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
-              "language": "en",
-              "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
-            },
-            {
-              "title": "МАГАТЭ — Что такое изотопы?",
-              "url": "https://www.iaea.org/ru/newscenter/news/chto-takoe-izotopy",
-              "language": "ru",
-              "section": "Что такое изотопы: число протонов и нейтронов"
-            }
-          ],
           "model": {
-            "en": "Isotopes have similar electronic chemistry, but isotope masses can affect reaction rates and physical properties; “identical chemistry” is an approximation.",
-            "ru": "Электронное строение даёт сходную химию изотопов, но масса влияет на скорости реакций и физические свойства; «полностью одинаковая химия» — приближение."
+            "en": "For hydrogen the mass difference is large: deuterium (hydrogen-2) is about twice as heavy as hydrogen-1, so reactions in which a bond to deuterium breaks can run noticeably slower.",
+            "ru": "У водорода разница в массе велика: дейтерий (deuterium, водород-2) примерно вдвое тяжелее обычного водорода (водород-1). Поэтому реакции, в которых рвётся связь с дейтерием, могут идти заметно медленнее."
           },
           "visual": {
             "kind": "comparison",
@@ -1144,7 +1114,7 @@
                 },
                 "detail": {
                   "en": "6 protons + 6 neutrons; Z = 6, A = 12.",
-                  "ru": "6 протонов + 6 нейтронов; Z = 6, A = 12."
+                  "ru": "6 протонов и 6 нейтронов; Z = 6, A = 12."
                 }
               },
               {
@@ -1154,139 +1124,121 @@
                 },
                 "detail": {
                   "en": "6 protons + 7 neutrons; Z = 6, A = 13.",
-                  "ru": "6 протонов + 7 нейтронов; Z = 6, A = 13."
+                  "ru": "6 протонов и 7 нейтронов; Z = 6, A = 13."
                 }
               },
               {
                 "label": {
-                  "en": "Relative atomic mass Aᵣ",
-                  "ru": "Относительная атомная масса Aᵣ"
+                  "en": "Relative atomic mass Ar",
+                  "ru": "Относительная атомная масса (relative atomic mass) Ar"
                 },
                 "detail": {
-                  "en": "An abundance-weighted average; not either mass number.",
-                  "ru": "Среднее с учётом долей изотопов; не одно из массовых чисел."
+                  "en": "The weighted average mass of an atom of the element, compared with 1/12 of the mass of an atom of carbon-12. Isotopes are weighted by their natural abundance. For carbon it is about 12.01.",
+                  "ru": "Средняя масса атома элемента с учётом долей изотопов в природе по сравнению с 1/12 массы атома углерода-12. Для углерода это около 12,01."
                 }
               }
             ],
             "caption": {
-              "en": "A neutral atom of either isotope has six electrons. A is an integer; Aᵣ need not be.",
-              "ru": "У нейтрального атома любого из этих изотопов шесть электронов. A — целое число; Aᵣ может быть нецелым."
+              "en": "Both neutral atoms have six electrons. A is always a whole number, but Ar usually is not.",
+              "ru": "У обоих нейтральных атомов по шесть электронов. Массовое число A всегда целое, а Ar обычно нецелое."
             }
-          }
-        }
-      },
-      "electronConfig": {
-        "title": "Electronic configuration",
-        "body": "An electron configuration describes how electrons occupy atomic states. For neutral ground-state atoms up to calcium, the school shell model gives distributions such as Na: 2,8,1 and Ca: 2,8,8,2. Shell capacities are 2n²; 2,8,8 is not a universal capacity or filling rule.",
-        "review": {
-          "englishTerm": "Electronic configuration",
-          "russianTerm": "Электронная конфигурация",
-          "contrast": {
-            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
-            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
           },
           "sources": [
             {
-              "title": "OpenStax Chemistry 2e — 2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass",
-              "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
-              "language": "en",
-              "section": "2.3 Atomic Structure and Symbolism: atomic number, isotopes, atomic mass"
+              "url": "https://resh.edu.ru/subject/lesson/2051/train/",
+              "section": "РЭШ, 8 класс, урок 26, раздел «Изотопы». Не открыт из среды, проверить вручную.",
+              "language": "ru"
             },
             {
-              "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
-              "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
-              "language": "en",
-              "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
-            },
-            {
-              "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
-              "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
-              "language": "ru",
-              "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+              "url": "https://www.hachettelearning.com/subjects/international-schools/products/myp/chemistry-for-the-ib-myp-4-5",
+              "section": "Termaat & Talbot, Chemistry for the IB MYP 4&5 (Hodder 2016), издательская страница. Книги на Mac нет, страницы не проверены.",
+              "language": "en"
             }
-          ],
+          ]
+        }
+      },
+      "electronConfig": {
+        "title": "Electron configuration",
+        "body": "An electron configuration shows how many electrons sit in each shell of an atom. A shell holds at most 2n² electrons, where n is the shell number. For example, a neutral sodium atom in its ground state (lowest energy) has the configuration 2, 8, 1, and calcium has 2, 8, 8, 2.",
+        "review": {
+          "englishTerm": "Electron configuration",
+          "russianTerm": "Электронная конфигурация",
+          "contrast": {
+            "en": "Sodium is in period 3 because it has 3 shells, and in group 1 because it has 1 outer electron.",
+            "ru": "Натрий стоит в периоде 3, потому что у него 3 слоя, и в группе 1, потому что у него один внешний электрон."
+          },
           "model": {
-            "en": "Shells indicate allowed energy levels, not circular trajectories. The 2,8,8,2 pattern is for the first 20 neutral ground-state atoms; the third shell can hold up to 18 electrons.",
-            "ru": "Оболочки показывают энергетические уровни, а не круговые траектории. Схема 2,8,8,2 относится к первым 20 нейтральным атомам в основном состоянии; третья оболочка вмещает до 18 электронов."
-          }
+            "en": "The 2, 8, 8, 2 pattern does not carry past calcium.",
+            "ru": "Закономерность 2, 8, 8, 2 не работает дальше кальция."
+          },
+          "sources": [
+            {
+              "url": "https://resh.edu.ru/subject/lesson/2050/main/",
+              "section": "РЭШ, 8 класс, урок 27 «Расположение электронов по энергетическим уровням». Не открыт из среды, проверить вручную.",
+              "language": "ru"
+            },
+            {
+              "url": "https://www.hachettelearning.com/subjects/international-schools/products/myp/chemistry-for-the-ib-myp-4-5",
+              "section": "Termaat & Talbot, Chemistry for the IB MYP 4&5 (Hodder 2016), издательская страница. Книги на Mac нет, страницы не проверены.",
+              "language": "en"
+            }
+          ]
         }
       },
       "periodicTable": {
         "title": "Reading the periodic table",
-        "body": "The periodic table orders elements by increasing atomic number. Periods are rows and IUPAC groups are columns numbered 1–18. Group 1 contains alkali metals apart from hydrogen; group 17 contains halogens and group 18 noble gases. Older school labels 7 and 0 must be identified as a different numbering system.",
+        "body": "An element is a substance made of one kind of atom. The periodic table lists elements in order of increasing atomic number, not relative atomic mass. Each row is a period and each column is a group. IUPAC numbers the groups from 1 to 18. Group 1 holds the alkali metals, apart from hydrogen. Group 17 holds the halogens, and group 18 holds the noble gases. The old school labels VIIA and 0 (VIIIA) mean groups 17 and 18. Most elements are metals. Metals lie to the left of a stepped line that runs from boron to astatine; non-metals lie to its right.",
         "review": {
           "englishTerm": "Reading the periodic table",
-          "russianTerm": "Чтение таблицы",
+          "russianTerm": "Как читать периодическую систему",
           "contrast": {
-            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
-            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+            "en": "The old label Group 7 (VIIA) means halogens, but IUPAC group 7 is manganese, a transition metal. Halogens are group 17 in IUPAC numbering.",
+            "ru": "В старом обозначении «группа 7» (VIIA) — галогены, а по ИЮПАК в группе 7 — марганец, переходный металл (transition metal). Галогены в нумерации ИЮПАК — группа 17."
+          },
+          "model": {
+            "en": "So argon (relative atomic mass 39.95) comes before potassium (relative atomic mass 39.10), even though argon’s relative atomic mass is larger.",
+            "ru": "Поэтому аргон (относительная атомная масса 39,95) стоит раньше калия (относительная атомная масса 39,10), хотя его относительная атомная масса больше."
           },
           "sources": [
             {
-              "title": "OpenStax Chemistry 2e — 2.5 The Periodic Table: groups and periods",
-              "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
-              "language": "en",
-              "section": "2.5 The Periodic Table: groups and periods"
+              "url": "https://externat.foxford.ru/polezno-znat/wiki-himiya-periodicheskaya-tablica-mendeleeva",
+              "section": "Foxford, «Периодическая система химических элементов: как это работает». Открыт, разделы о группах и металлах совпали.",
+              "language": "ru"
             },
             {
-              "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
-              "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
-              "language": "en",
-              "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
-            },
-            {
-              "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
-              "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
-              "language": "ru",
-              "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
+              "url": "https://www.hachettelearning.com/subjects/international-schools/products/myp/chemistry-for-the-ib-myp-4-5",
+              "section": "Termaat & Talbot, Chemistry for the IB MYP 4&5 (Hodder 2016), издательская страница. Книги на Mac нет, страницы не проверены.",
+              "language": "en"
             }
-          ],
-          "model": {
-            "en": "Modern IUPAC groups are numbered 1–18; school “Group 7” and “Group 0” correspond to 17 and 18. Main-group valence shortcuts do not apply unchanged to transition metals.",
-            "ru": "Современная нумерация ИЮПАК — группы 1–18; школьные «7» и «0» соответствуют 17 и 18. Правила для главных групп нельзя без изменений переносить на переходные металлы."
-          }
+          ]
         }
       },
       "trends": {
-        "title": "Periodic trends",
-        "body": "Periodic trends arise from nuclear charge, electron shielding and electron configuration. Alkali metals generally become more reactive down group 1 because their outer electron is more easily removed. Halogen oxidising power generally decreases down group 17; a trend must name the property and conditions being compared.",
+        "title": "How properties change down a group",
+        "body": "These changes come from nuclear charge, shielding by inner electrons and the number of shells. Alkali metals become more reactive down group 1. The outer electron is further from the nucleus and more shielded, so it is lost more easily. Halogens become less oxidising down group 17, because the larger atom attracts an extra electron less strongly.",
         "review": {
-          "englishTerm": "Periodic trends",
-          "russianTerm": "Периодические тренды",
+          "englishTerm": "How properties change down a group",
+          "russianTerm": "Как меняются свойства в группах",
           "contrast": {
-            "en": "Atomic number Z counts protons. Mass number A counts nucleons in one isotope; relative atomic mass is an isotopic average.",
-            "ru": "Z — число протонов. Массовое число A — число нуклонов одного изотопа; относительная атомная масса — среднее по изотопному составу."
+            "en": "Reactivity of alkali metals increases down group 1, but their melting points decrease. A trend in one property does not predict another.",
+            "ru": "Реакционная способность щелочных металлов растёт вниз по группе 1, а температура плавления падает. Закономерность для одного свойства не позволяет предсказать другое."
+          },
+          "model": {
+            "en": "These group patterns apply to main-group elements. Do not apply them to transition metals (groups 3–12), which can have several oxidation states.",
+            "ru": "Эти закономерности относятся к элементам главных групп (main-group elements). Не переноси их на переходные металлы (transition metals, группы 3–12): они могут иметь несколько степеней окисления."
           },
           "sources": [
             {
-              "title": "OpenStax Chemistry 2e — 2.5 The Periodic Table: groups and periods",
-              "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
-              "language": "en",
-              "section": "2.5 The Periodic Table: groups and periods"
+              "url": "https://externat.foxford.ru/polezno-znat/wiki-himiya-periodicheskaya-tablica-mendeleeva",
+              "section": "Foxford, «Периодическая система химических элементов: как это работает». Открыт, разделы о группах и металлах совпали.",
+              "language": "ru"
             },
             {
-              "title": "OpenStax Chemistry 2e — 6.4 Electronic Structure of Atoms: orbital filling and electron configurations",
-              "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
-              "language": "en",
-              "section": "6.4 Electronic Structure of Atoms: orbital filling and electron configurations"
-            },
-            {
-              "title": "Фоксфорд Учебник — Строение электронных оболочек: орбитали, уровни и заполнение",
-              "url": "https://foxford.ru/wiki/himiya/stroenie-elektronnyh-obolochek",
-              "language": "ru",
-              "section": "Строение электронных оболочек: орбитали, уровни и заполнение"
-            },
-            {
-              "title": "OpenStax Chemistry 2e — 6.5 Periodic Variations in Element Properties",
-              "url": "https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties",
-              "language": "en",
-              "section": "6.5 Periodic Variations in Element Properties"
+              "url": "https://www.hachettelearning.com/subjects/international-schools/products/myp/chemistry-for-the-ib-myp-4-5",
+              "section": "Termaat & Talbot, Chemistry for the IB MYP 4&5 (Hodder 2016), издательская страница. Книги на Mac нет, страницы не проверены.",
+              "language": "en"
             }
-          ],
-          "model": {
-            "en": "Modern IUPAC groups are numbered 1–18; school “Group 7” and “Group 0” correspond to 17 and 18. Main-group valence shortcuts do not apply unchanged to transition metals.",
-            "ru": "Современная нумерация ИЮПАК — группы 1–18; школьные «7» и «0» соответствуют 17 и 18. Правила для главных групп нельзя без изменений переносить на переходные металлы."
-          }
+          ]
         }
       }
     }

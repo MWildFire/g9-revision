@@ -1,4 +1,3 @@
-import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
 import { useState } from 'react';
@@ -34,6 +33,9 @@ export function AtomBuilder() {
 
   const cx = 180;
   const cy = 150;
+  // Fixed frame for the largest atom (4 shells, Z 19-20): outer shell 124 + electron radius 4.5 + stroke and margin.
+  // The same for every Z, so the diagram does not shift when the slider moves.
+  const half = 40 + 3 * 28 + 4.5 + 3;
 
   return (
     <SimulationPanel title={t('simulations.atomBuilder.title')} description={t('simulations.atomBuilder.description')}>
@@ -56,7 +58,7 @@ export function AtomBuilder() {
           ) : null}
         </div>
 
-        <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.atomBuilder.title')}><svg style={{ minWidth: 640, maxWidth: 'none' }} role="img" aria-label={`${name}-${massNumber}: ${Z} p, ${neutrons} n, ${Z} e; ${config}`} viewBox="0 0 360 300" className="w-full max-w-[360px] mx-auto">
+        <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.atomBuilder.title')}><svg style={{ width: '100%', maxWidth: 360, height: 'auto' }} role="img" aria-label={`${name}-${massNumber}: ${Z} p, ${neutrons} n, ${Z} e; ${config}`} viewBox={`${cx - half} ${cy - half} ${2 * half} ${2 * half}`} className="mx-auto">
           <title>{name}-{massNumber}</title>
           <desc>{t('simulations.atomBuilder.shellNote')}</desc>
           <circle cx={cx} cy={cy} r={22} fill="var(--color-accent-warm)" fillOpacity={0.4} stroke="var(--color-accent-warm)" strokeWidth={2} />
@@ -80,6 +82,6 @@ export function AtomBuilder() {
         </svg></div>
       </div>
     <DefinitionSupport review={t('simulations.atomBuilder.review', { returnObjects: true }) as DefinitionReview} />
-    <FormulaTeaching id="charge"/><FormulaTeaching id="nucleons"/></SimulationPanel>
+    </SimulationPanel>
   );
 }

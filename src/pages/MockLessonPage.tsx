@@ -26,10 +26,10 @@ export function MockLessonPage({ embeddedId }: { embeddedId?: string } = {}) {
     {reviews.length > 0 && <section className="space-y-5 mt-8"><h2 className="font-serif text-2xl">{ru ? 'Понятия и различия' : 'Concepts and distinctions'}</h2>{reviews.map((review, index) => <DefinitionSupport key={index} review={review} language={lang}/>)}</section>}
     {lesson.id === 'science-investigation' && <MeasurementComparison language={lang}/>}
     <section className="bg-bg-secondary border border-border rounded-xl p-6 my-8">
-      <h2 className="font-serif text-2xl mb-4">{ru ? 'Попробуйте самостоятельно' : 'Try it yourself'}</h2>
+      <h2 className="font-serif text-2xl mb-4">{ru ? 'Попробуй самостоятельно' : 'Try it yourself'}</h2>
       <p className="mb-5">{lesson.question[lang]}</p>
       <details className="border-t border-border pt-4"><summary className="cursor-pointer font-medium">{ru ? 'Разбор и ответ' : 'Worked solution'}</summary><RichText className="mt-4 leading-relaxed" text={lesson.answer[lang]}/></details>
     </section>
-    <section className="mb-8"><h2 className="font-serif text-xl mb-3">{ru ? 'Проверьте себя' : 'Self-check'}</h2><ul className="list-disc pl-5 space-y-2">{lesson.checks.map((c,i)=><li key={i}>{c[lang]}</li>)}</ul></section>
+    <section className="mb-8"><h2 className="font-serif text-xl mb-3">{ru ? 'Проверь себя' : 'Self-check'}</h2><ul className="list-disc pl-5 space-y-2">{lesson.checks.map((c,i)=><li key={i}>{c[lang]}</li>)}</ul></section>
   </Container></SubjectScope>;
 }

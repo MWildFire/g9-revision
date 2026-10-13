@@ -59,7 +59,7 @@ export function DefinitionSupport({ review, language }: { review?: DefinitionRev
   if (!review || typeof review !== 'object') return null;
   const ru = lang === 'ru';
   return <div className="definition-support" lang={lang}>
-    <p className="definition-equivalents"><span lang="en">{review.englishTerm}</span><span aria-hidden="true"> · </span><span lang="ru">{review.russianTerm}</span></p>
+    <p className="definition-equivalents">{ru ? <><span lang="ru">{review.russianTerm}</span> <span lang="en">({review.englishTerm})</span></> : <><span lang="en">{review.englishTerm}</span><span aria-hidden="true"> · </span><span lang="ru">{review.russianTerm}</span></>}</p>
     {review.explanation && <p>{text(review.explanation)}</p>}
     {review.contrast && showContrast && <p className="definition-contrast"><strong>{ru ? 'Не путать:' : 'Distinguish:'}</strong> {text(review.contrast)}</p>}
     {review.model && showModel && <p className="definition-model"><strong>{ru ? 'Область применения:' : 'Scope of the model:'}</strong> {text(review.model)}</p>}

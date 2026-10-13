@@ -27,7 +27,7 @@
     "inProgress": "В процессе",
     "completed": "Готово",
     "draft": "В разработке",
-    "partial": "Частичный контент"
+    "partial": "Часть материалов готова"
   },
   "countdown": {
     "untilExam": "До выбранной даты",
@@ -41,7 +41,7 @@
     "weeks_many": "{{count}} недель",
     "weeks_other": "{{count}} недель",
     "weeks": "{{count}} недель",
-    "daysShort": "дней",
+    "daysShort": "дн.",
     "window": "Моки · 9–13 ноября 2026",
     "unconfirmed": "Школьная дата подтверждена; в планировщике можно выбрать другую дату для отсчёта."
   },
@@ -53,16 +53,16 @@
     "marks_one": "балл",
     "marks_few": "балла",
     "marks_many": "баллов",
-    "marks_other": "баллов",
+    "marks_other": "балла",
     "marks": "баллов",
     "commandTerms": {
-      "state": "State",
-      "describe": "Describe",
-      "explain": "Explain",
-      "compare": "Compare",
-      "compareContrast": "Compare and contrast / Сходства и различия",
-      "evaluate": "Evaluate",
-      "calculate": "Calculate"
+      "state": "Укажи (state)",
+      "describe": "Опиши (describe)",
+      "explain": "Объясни (explain)",
+      "compare": "Сравни (compare)",
+      "compareContrast": "Сравни: сходства и различия (compare and contrast)",
+      "evaluate": "Оцени (evaluate)",
+      "calculate": "Вычисли (calculate)"
     }
   },
   "sections": {
@@ -70,8 +70,8 @@
     "formulas": "Формулы",
     "simulations": "Интерактивные модели",
     "drFrost": "Практика на Dr Frost",
-    "drFrostHint": "Dr Frost переехал на drfrost.org и теперь требует входа в аккаунт. Кликни любой тег ниже — откроется Dr Frost в новой вкладке. Введи Skill ID в поиске Dr Frost.",
-    "textbookRefs": "Учебник",
+    "drFrostHint": "Dr Frost переехал на drfrost.org, и теперь нужно войти в аккаунт. Нажми любой тег ниже — Dr Frost откроется в новой вкладке. Введи Skill ID в поиске Dr Frost.",
+    "textbookRefs": "Ссылки на учебник",
     "practice": "Практика",
     "subTopics": "Подтемы",
     "workedSolutions": "Разборы",
@@ -94,7 +94,7 @@
     "week": "Неделя",
     "examDateLabel": "Дата экзамена:",
     "addAria": "Добавить",
-    "removeAria": "Удалить",
+    "removeAria": "Убрать",
     "toggleAria": "Отметить выполненным"
   },
   "loading": "Загрузка…"

@@ -18,12 +18,12 @@ export function HubPage() {
           {t('hero.subtitle')}
         </p>
         <div className="flex flex-col items-center gap-4">
-          <Link to="/revision-plan" className="rounded-xl bg-[#244f6b] text-white hover:text-white px-7 py-4 text-lg font-medium">{i18n.language.startsWith('ru') ? 'Моки 9–13 ноября · мой план →' : '9–13 November mocks · my plan →'}</Link>
-          <Link to="/november" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Теория, практика и разборы внутри сайта →' : 'On-site theory, practice and worked answers →'}</Link>
-          <Link to="/math-term-1-2026" className="rounded-md bg-[#244f6b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Математика · Assessment 1 →' : 'Mathematics · Assessment 1 →'}</Link>
-          <Link to="/geography-tectonic-hazards" className="rounded-md bg-[#a74d2b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'География · тектонические опасности →' : 'Geography · Tectonic hazards →'}</Link>
-          <Link to="/physics-september-2026" className="rounded-md bg-[#184f46] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Физика · сентябрь 2026 →' : 'Physics · September 2026 →'}</Link>
-          <Link to="/mocks" className="rounded-md bg-text-primary text-bg-primary px-6 py-3 font-medium">{t('common:nav.mocks')} →</Link>
+          <Link to="/revision-plan" className="rounded-xl bg-[#244f6b] text-white hover:text-white px-7 py-4 text-lg font-medium">{i18n.language.startsWith('ru') ? 'Моки 9–13 ноября · мой план →' : '9–13 November mocks · my plan →'}</Link>
+          <Link to="/november" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Теория, практика и разборы внутри сайта →' : 'Theory, practice and worked answers on this site →'}</Link>
+          <Link to="/math-term-1-2026" className="rounded-md bg-[#244f6b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Математика · контрольная (Assessment 1) →' : 'Mathematics · Assessment 1 →'}</Link>
+          <Link to="/geography-tectonic-hazards" className="rounded-md bg-[#a74d2b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'География · тектонические опасности →' : 'Geography · Tectonic hazards →'}</Link>
+          <Link to="/physics-september-2026" className="rounded-md bg-[#184f46] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Физика · сентябрь 2026 →' : 'Physics · September 2026 →'}</Link>
+          <Link to="/mocks" className="rounded-md bg-text-primary text-bg-primary px-6 py-3 font-medium">{t('common:nav.mocks')} →</Link>
           <Link
             to={ROUTES.TIMETABLE}
             className="inline-flex items-center gap-2 px-5 py-2 mt-2 bg-bg-secondary border border-border rounded-md hover:shadow-soft transition-shadow text-sm font-medium"
@@ -35,24 +35,24 @@ export function HubPage() {
       </section>
 
       <section className="mb-7 rounded-lg border border-[#bacbd4] bg-[#e3ebee] p-6 md:p-8">
-        <p className="text-sm uppercase tracking-wider text-[#244f6b] mb-2">Grade 10 · Mathematics · Term 1</p>
-        <h2 className="text-2xl mb-3">{i18n.language.startsWith('ru') ? 'Assessment 1: понятия, методы и практика' : 'Assessment 1: concepts, methods & practice'}</h2>
-        <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? 'По проверенному школьному списку: 6 основных тем Standard, отдельное повторение Previous studies и темы Extended. 19 уроков, 38 вопросов с объяснениями, словарь и план повторения. Определения, примеры и решения на русском и английском.' : 'Based on the checked school scope: six Standard core topics, separate Previous studies recap and Extended topics. 19 lessons, 38 questions with explanations, glossary and checklist. Definitions, examples and solutions in English and Russian.'}</p>
-        <Link to="/math-term-1-2026" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку по математике →' : 'Open mathematics preparation →'}</Link>
+        <p className="text-sm uppercase tracking-wider text-[#244f6b] mb-2">{i18n.language.startsWith('ru') ? '10 класс · Математика · 1 триместр' : 'Grade 10 · Mathematics · Term 1'}</p>
+        <h2 className="text-2xl mb-3">{i18n.language.startsWith('ru') ? 'Контрольная (Assessment 1): понятия, методы и практика' : 'Assessment 1: concepts, methods & practice'}</h2>
+        <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? 'По проверенному школьному списку: 6 основных тем Standard, отдельное повторение прежних тем и темы Extended. 19 уроков, 38 вопросов с объяснениями, словарь и план повторения. Определения, примеры и решения на русском и английском.' : 'Based on the checked school scope: six Standard core topics, separate Previous studies recap and Extended topics. 19 lessons, 38 questions with explanations, glossary and checklist. Definitions, examples and solutions in English and Russian.'}</p>
+        <Link to="/math-term-1-2026" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку по математике →' : 'Open mathematics preparation →'}</Link>
       </section>
 
       <section className="mb-7 rounded-lg border border-[#d8bfa6] bg-[#f4e8da] p-6 md:p-8">
         <p className="text-sm uppercase tracking-wider text-[#a74d2b] mb-2">{i18n.language.startsWith('ru') ? 'География · отдельная подготовка' : 'Geography · dedicated revision pack'}</p>
         <h2 className="text-2xl mb-3">{i18n.language.startsWith('ru') ? 'Тектонические опасности' : 'Tectonic hazards'}</h2>
-        <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? 'Подробная теория по учебному списку, схемы границ плит, конкретные примеры, вопросы с объяснениями и полный материал для печати. На русском и английском.' : 'Detailed checklist-based lessons, plate-boundary diagrams, case studies, practice with explanations and a complete printable guide. In English and Russian.'}</p>
-        <Link to="/geography-tectonic-hazards" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку по географии →' : 'Open geography preparation →'}</Link>
+        <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? 'Подробная теория по учебному списку, схемы границ плит, конкретные примеры, вопросы с объяснениями и полное пособие для печати. На русском и английском.' : 'Detailed checklist-based lessons, plate-boundary diagrams, case studies, practice with explanations and a complete printable guide. In English and Russian.'}</p>
+        <Link to="/geography-tectonic-hazards" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку по географии →' : 'Open geography preparation →'}</Link>
       </section>
 
       <section className="mb-12 rounded-lg border border-border bg-bg-secondary p-6 md:p-8">
-        <p className="text-sm uppercase tracking-wider text-text-secondary mb-2">Grade 10 · Criterion A</p>
+        <p className="text-sm uppercase tracking-wider text-text-secondary mb-2">{i18n.language.startsWith('ru') ? '10 класс · Критерий A' : 'Grade 10 · Criterion A'}</p>
         <h2 className="text-2xl mb-3">{i18n.language.startsWith('ru') ? 'Атомная и ядерная физика' : 'Atomic and nuclear physics'}</h2>
         <p className="mb-4 text-text-secondary">{i18n.language.startsWith('ru') ? '12 тем по списку контрольной: теория, 24 примера, 48 задач, интерактивные модели и два тренировочных варианта.' : '12 assessment topics: theory, 24 examples, 48 questions, interactive models and two practice papers.'}</p>
-        <Link to="/physics-september-2026" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку →' : 'Open preparation pack →'}</Link>
+        <Link to="/physics-september-2026" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Открыть подготовку →' : 'Open preparation pack →'}</Link>
       </section>
 
       <section>

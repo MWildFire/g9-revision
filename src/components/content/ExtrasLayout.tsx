@@ -17,7 +17,7 @@ export function ExtrasLayout({ title, intro, children }: Props) {
   const { i18n } = useTranslation();
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const noticeText = lang === 'ru'
-    ? 'Материалы для углубления. Конкретный состав контрольной определяется действующим заданием учителя.'
+    ? 'Материалы для углубления. Что входит в конкретную контрольную, определяют текущие указания учителя.'
     : 'Enrichment material. The current teacher instructions determine what a particular assessment covers.';
   const noticeTitle = lang === 'ru' ? 'Для углубления' : 'Further study';
 

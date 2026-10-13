@@ -38,7 +38,7 @@ export function SubjectSidebar({ subject, topics }: Props) {
           className="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm text-text-secondary hover:bg-bg-secondary hover:text-text-primary transition-colors mb-2 border border-transparent"
         >
           <HomeIcon size={16} />
-          <span>← Hub</span>
+          <span>← {t('common:nav.hub')}</span>
         </NavLink>
         <div
           className="px-3 py-1.5 text-xs uppercase tracking-wider font-medium"

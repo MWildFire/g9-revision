@@ -324,12 +324,12 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "englishTerm": "half-life",
     "russianTerm": "период полураспада",
     "contrast": {
-      "en": "After two half-lives, one quarter is expected to remain; a nucleus has no scheduled individual decay time.",
-      "ru": "После двух периодов ожидается четверть исходных ядер; у отдельного ядра нет назначенного момента распада."
+      "en": "The half-life is the same for all samples of one isotope, but activity depends on how many nuclei a sample contains.",
+      "ru": "Период полураспада одинаков для всех образцов одного изотопа (isotope), а активность зависит от числа ядер в образце."
     },
     "model": {
-      "en": "The same halving describes that radionuclide’s activity. Detector readings follow it only after background correction with fixed detection conditions.",
-      "ru": "Так же уменьшается активность этого радионуклида. Показания детектора подчиняются этому правилу после вычитания фона при постоянных условиях регистрации."
+      "en": "Each nucleus decays at random, but for a large group of nuclei the halving is predictable. For a few nuclei, the result can differ noticeably from the expected value.",
+      "ru": "Каждое ядро распадается случайно, но для большой группы ядер уменьшение вдвое предсказуемо. Для нескольких ядер результат может заметно отличаться от ожидаемого."
     },
     "sources": [
       {
@@ -884,12 +884,12 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "englishTerm": "half-life",
     "russianTerm": "период полураспада",
     "contrast": {
-      "en": "After two half-lives, one quarter is expected to remain; a nucleus has no scheduled individual decay time.",
-      "ru": "После двух периодов ожидается четверть исходных ядер; у отдельного ядра нет назначенного момента распада."
+      "en": "The half-life is the same for all samples of one isotope, but activity depends on how many nuclei a sample contains.",
+      "ru": "Период полураспада одинаков для всех образцов одного изотопа (isotope), а активность зависит от числа ядер в образце."
     },
     "model": {
-      "en": "The same halving describes that radionuclide’s activity. Detector readings follow it only after background correction with fixed detection conditions.",
-      "ru": "Так же уменьшается активность этого радионуклида. Показания детектора подчиняются этому правилу после вычитания фона при постоянных условиях регистрации."
+      "en": "Each nucleus decays at random, but for a large group of nuclei the halving is predictable. For a few nuclei, the result can differ noticeably from the expected value.",
+      "ru": "Каждое ядро распадается случайно, но для большой группы ядер уменьшение вдвое предсказуемо. Для нескольких ядер результат может заметно отличаться от ожидаемого."
     },
     "sources": [
       {

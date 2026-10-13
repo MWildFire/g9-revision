@@ -65,7 +65,8 @@ test('all September glossary reviews preserve statistical activity and nuclear c
   assert.equal(Object.keys(l).length, 12);
   Object.values(g).forEach(review);
   assert.match(g.activity.model.en, /𝒜 = λN/);
-  assert.match(g['half-life'].model.en, /background correction/);
+  // README rule 1: the background-correction point moved to the lesson section ("First subtract the constant background"); the glossary model now states scope only
+  assert.match(read('src/modules/physics-september/lessons.ts'), /First subtract the constant background/);
   assert.match(g.fission.model.en, /rest masses need not be equal/);
   assert.match(l['nuclear-equations'].model.en, /Energy and momentum/);
   assert.match(g.nucleon.model.en, /free neutron/i);

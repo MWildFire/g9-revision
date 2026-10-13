@@ -25,6 +25,7 @@ export type Lesson = {
   id: string;
   title: Bilingual;
   photoTopic: string;
+  photoTopicRu?: string;
   intro: Bilingual;
   sections: Section[];
   formulas: string[];

@@ -34,7 +34,7 @@ export function PHIndicator() {
   const exampleText = t(`simulations.phIndicator.examples.${exampleKey}`, { defaultValue: '—' });
 
   return (
-    <SimulationPanel title={t('simulations.phIndicator.title')} description={t('simulations.phIndicator.description')}>
+    <SimulationPanel description={t('simulations.phIndicator.description')}>
       <div className="space-y-4">
         <div>
           <label className="text-sm font-medium text-text-secondary block mb-2">{t('simulations.phIndicator.indicatorLabel')}</label>

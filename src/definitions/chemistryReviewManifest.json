@@ -1769,8 +1769,8 @@
       "path": "acidsBases.sections.indicators.detailed.methylOrange",
       "field": "rule",
       "term": {
-        "en": "Methyl orange (bonus)",
-        "ru": "Метилоранж (бонус)"
+        "en": "Methyl orange (Extended)",
+        "ru": "Метилоранж (Extended)"
       },
       "sources": [
         {
@@ -1793,7 +1793,7 @@
         }
       ],
       "visual": null,
-      "noSeparateVisualReason": "Methyl orange (bonus): The existing indicator simulator has no methyl-orange mode; its transition interval and endpoint condition are therefore described in text only."
+      "noSeparateVisualReason": "Methyl orange (Extended): The existing indicator simulator has no methyl-orange mode; its transition interval and endpoint condition are therefore described in text only."
     },
     {
       "path": "simulations.energyProfile",

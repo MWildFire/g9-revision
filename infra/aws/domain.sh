@@ -52,7 +52,7 @@ say "2. certificate (us-east-1, DNS validation)"
 CERT_ARN=$(acm list-certificates --certificate-statuses ISSUED PENDING_VALIDATION --query "CertificateSummaryList[?DomainName=='$APEX'].CertificateArn | [0]" --output text)
 if [ "$CERT_ARN" = "None" ] || [ -z "$CERT_ARN" ]; then
   CERT_ARN=$(acm request-certificate --domain-name "$APEX" --subject-alternative-names "$WWW" --validation-method DNS \
-    --idempotency-token g9-site-cert --tags Key=Project,Value=g9-revision --query CertificateArn --output text)
+    --idempotency-token g9sitecert2026 --tags Key=Project,Value=g9-revision --query CertificateArn --output text)
   echo "certificate requested"
 fi
 echo "certificate $CERT_ARN"

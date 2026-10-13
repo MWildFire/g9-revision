@@ -20,6 +20,7 @@ export const formulaSubjects: Record<string, string[]> = {
   sequences: [M], 'geometric-sum': [M], compound: [M], pythagoras: [M, P], 'trig-ratios': [M, P],
   'triangle-rules': [M], 'circle-parts': [M], chords: [M], 'trig-graph': [M],
   statistics: [M, S, G], histogram: [M, G], probability: [M], 'pie-angle': [M, G],
+  'rational-cancel': [M],
   // chemistry and biology (chemBioFormulaTeaching.ts)
   moles: [C], concentration: [C], yield: [C], stoichiometry: [C], 'redox-equation': [C],
   'reaction-energy': [C], rate: [C, B], ph: [C], chromatography: [C, B],

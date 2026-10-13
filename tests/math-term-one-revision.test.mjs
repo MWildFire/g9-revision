@@ -19,7 +19,7 @@ const localised = text => cyrillic.test(text) || !/[A-Za-z]{3,}/.test(text.repla
 
 test('every term has authored bilingual definition, example, distinction and honest source status', () => {
   assert.equal(en.glossary.length,107);
-  assert.equal(Object.keys(reviewedTerms).length,106);
+  assert.equal(Object.keys(reviewedTerms).length,107);
   for (const term of en.glossary) {
     assert.ok(term.meaning.length > 15 && term.example.length > 10,term.term);
     for (const text of [term.ru.term,term.ru.meaning,term.ru.example,...(term.review.contrast?[term.review.contrast.ru]:[])]) assert.ok(localised(text),`${term.term}: ${text}`);
@@ -38,7 +38,7 @@ test('every term has authored bilingual definition, example, distinction and hon
 
 test('both languages retain every lesson, scope tier, question and stable progress identity', () => {
   assert.equal(en.lessons.length,19); assert.equal(ru.lessons.length,19);
-  assert.equal(ru.questions.length,38); assert.equal(ru.commandTerms.length,12);
+  assert.equal(ru.questions.length,39); assert.equal(ru.commandTerms.length,12);
   assert.deepEqual(ru.lessons.map(l => [l.id,l.tier]),en.lessons.map(l => [l.id,l.tier]));
   assert.deepEqual(ru.questions.map(q => q.id),en.questions.map(q => q.id));
   for (const lesson of ru.lessons) {
@@ -47,14 +47,17 @@ test('both languages retain every lesson, scope tier, question and stable progre
     for (const text of [lesson.title,lesson.intro,...lesson.goals,...lesson.sections.flatMap(s => [s.title,s.text]),lesson.example.prompt,...lesson.example.steps,...lesson.pitfalls,...lesson.questions.flatMap(q => [q.prompt,q.hint,...q.steps])]) assert.ok(localised(text),`${lesson.id}: ${text}`);
     assert.equal(lesson.terms,original.terms);
   }
+  // Review fix: the systems page now has its own term, so the sets term is no longer repeated.
   const intersections = en.glossary.filter(t => t.term === 'Intersection');
-  assert.equal(intersections.length,2);
-  assert.deepEqual(intersections[0].review,intersections[1].review);
+  assert.equal(intersections.length,1);
+  const intersectionPoints = en.glossary.filter(t => t.term === 'Intersection point');
+  assert.equal(intersectionPoints.length,1);
+  assert.equal(intersectionPoints[0].lessonId,'simultaneous-equations');
 });
 
 test('critical distinctions and restrictions remain explicit', () => {
-  assert.match(reviewedTerms.Fraction.meaning,/non-zero/);
-  assert.match(reviewedTerms.Denominator.review.contrast.en,/zero is undefined/);
+  assert.match(reviewedTerms.Fraction.meaning,/non-zero|cannot be zero/);
+  assert.match(reviewedTerms.Denominator.review.contrast.en,/smaller/);
   assert.match(reviewedTerms.Expression.review.contrast.en,/solve an equation/);
   assert.match(reviewedTerms.Term.review.contrast.en,/factors/);
   assert.match(reviewedTerms.Coefficient.example,/−6.*1/);

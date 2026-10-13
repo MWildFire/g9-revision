@@ -24,14 +24,15 @@ test('school scope remains separated and every goal has teaching and practice', 
   assert.equal(lessons.filter(l => l.tier === 'recap').length, 9);
   assert.equal(lessons.length, 19);
   assert.equal(new Set(lessons.map(l => l.id)).size, lessons.length);
-  assert.equal(questions.length, 38);
-  assert.equal(new Set(questions.map(q => q.id)).size, 38);
+  assert.equal(questions.length, 39);
+  assert.equal(new Set(questions.map(q => q.id)).size, 39);
   for (const lesson of lessons) {
     assert.ok(lesson.goals.length >= 2);
     assert.ok(lesson.sections.length >= 2);
     assert.ok(lesson.terms.length >= 3);
     assert.ok(lesson.example.steps.length >= 3);
-    assert.equal(lesson.questions.length, 2);
+    // linear-inequalities gained a third question (review fix); every other lesson keeps two.
+    assert.equal(lesson.questions.length, lesson.id === 'linear-inequalities' ? 3 : 2, lesson.id);
     assert.ok(lesson.questions.every(q => q.hint && q.steps.length >= 2));
     // The revised pack intentionally carries authored Russian explanations alongside English.
     assert.equal(typeof lesson.title, 'string', lesson.id);

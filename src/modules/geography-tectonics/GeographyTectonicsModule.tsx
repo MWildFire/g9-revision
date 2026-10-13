@@ -101,15 +101,15 @@ function Overview({ store }: { store: Store }) {
   </>;
 }
 
-export function LessonBody({ lesson, print = false }: { lesson: Lesson; print?: boolean }) {
-  const { t, txt } = useText();
+export function LessonBody({ lesson, print = false, showVisual = true, showHint = true }: { lesson: Lesson; print?: boolean; showVisual?: boolean; showHint?: boolean }) {
+  const { t, txt } = useText(); const variant = visualVariant(lesson.id);
   return <>
-    {lesson.visual && <TectonicVisual key={`${lesson.id}-${print}`} kind={lesson.visual} fixed={print} />}
+    {showVisual && lesson.visual && <TectonicVisual key={`${lesson.id}-${print}`} kind={lesson.visual} fixed={print} showHint={showHint} variant={variant} />}
     <div className="tectonic-prose-sections">{lesson.sections.map((section, index) => <section className="tectonic-prose-section" key={index}><h2>{txt(section.title)}</h2><RichText text={txt(section.text)}/></section>)}</div>
     <section className="tectonic-facts"><h2>{t('The essentials to remember', 'Главное для запоминания')}</h2><ul>{lesson.keyFacts.map((fact, index) => <li key={index}>{txt(fact)}</li>)}</ul></section>
     <section className="tectonic-worked"><span className="tectonic-eyebrow">{t('WORKED EXAMPLE', 'РАЗОБРАННЫЙ ПРИМЕР')}</span><h2>{txt(lesson.example.question)}</h2><ol>{lesson.example.steps.map((step, index) => <li key={index}><span>{index + 1}</span><p>{txt(step)}</p></li>)}</ol></section>
     <section className="tectonic-pitfalls"><h2>{t('Avoid these mistakes', 'Избегай этих ошибок')}</h2><ul>{lesson.pitfalls.map((pitfall, index) => <li key={index}>{txt(pitfall)}</li>)}</ul></section>
-    <section className="tectonic-lesson-sources"><h2>{t('Evidence and further explanation', 'Источники и дополнительные объяснения')}</h2><SourceList ids={lesson.sourceIds} compact /></section>
+    {/* Source lists are not shown to students; lesson.sourceIds stay in the data. */}
   </>;
 }
 
@@ -210,4 +210,9 @@ export function GeographyTectonicsModule() {
       </main>
     </div>
   </div>;
+}
+
+// Volcano lessons split one diagram: 07 shows the shape cards, 08 the cross-section and hazard paths.
+export function visualVariant(lessonId: string): 'forms' | 'anatomy' | 'full' {
+  return lessonId === 'volcano-types' ? 'forms' : lessonId === 'volcano-structure' ? 'anatomy' : 'full';
 }

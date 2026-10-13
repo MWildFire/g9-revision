@@ -7,22 +7,22 @@ type Visual = NonNullable<Lesson['visual']>;
 type Boundary = 'constructive' | 'subduction' | 'collision' | 'conservative';
 const boundaryKeys: Boundary[] = ['constructive', 'subduction', 'collision', 'conservative'];
 
-export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: boolean }) {
+export function TectonicVisual({ kind, fixed = false, showHint = true, variant = 'full' }: { kind: Visual; fixed?: boolean; showHint?: boolean; variant?: 'forms' | 'anatomy' | 'full' }) {
   const { i18n } = useTranslation();
   const t = (en: string, ru: string) => i18n.language.startsWith('ru') ? ru : en;
   const uid = useId().replace(/:/g, '');
   const arrow = `${uid}-arrow`;
   const [boundary, setBoundary] = useState<Boundary>(boundaryKeys.includes(kind as Boundary) ? kind as Boundary : 'constructive');
   const isBoundary = boundaryKeys.includes(kind as Boundary);
-  const selected = isBoundary ? fixed ? kind as Boundary : boundary : kind;
+  const selected = isBoundary ? fixed ? kind as Boundary : boundary : kind; if (variant === 'forms' && kind === 'volcano') return <VolcanoForms />;
   const labels: Record<Visual, string> = {
     earth: t('Inside Earth', 'Внутреннее строение Земли'),
-    constructive: t('Divergent / constructive', 'Расхождение / конструктивная'),
-    subduction: t('Convergent / subduction', 'Сближение / субдукция'),
-    collision: t('Continental collision', 'Коллизия континентов'),
-    conservative: t('Transform / conservative', 'Сдвиг / консервативная'),
+    constructive: t('Divergent / constructive', 'Дивергентная граница (конструктивная)'),
+    subduction: t('Convergent / subduction', 'Конвергентная граница (субдукция)'),
+    collision: t('Continental collision', 'Коллизионная граница (континентов)'),
+    conservative: t('Transform / conservative', 'Трансформная граница (консервативная)'),
     earthquake: t('From a fault to surface shaking', 'От разлома к сотрясению поверхности'),
-    volcano: t('Volcano anatomy and hazard pathways', 'Строение вулкана и пути опасных потоков'),
+    volcano: t('Volcano anatomy and hazard pathways', 'Строение вулкана и пути распространения опасностей'),
     risk: t('Why the same hazard can have different impacts', 'Почему одна опасность приводит к разным последствиям'),
   };
   const captions: Record<Visual, string> = {
@@ -31,9 +31,9 @@ export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: 
     subduction: t('Denser oceanic lithosphere bends beneath another plate. Water released by the slab helps the overlying mantle melt; magma can rise to a volcanic arc. Earthquake depths generally increase along the descending slab. The slab does not simply melt through friction.', 'Более плотная океаническая литосфера погружается под другую плиту. Вода, выделяемая погружающейся плитой, облегчает плавление вышележащей мантии; магма может подняться к вулканической дуге. Глубина очагов обычно увеличивается вдоль погружающейся плиты. Плита не просто плавится из-за трения.'),
     collision: t('After intervening oceanic lithosphere has been consumed, buoyant continental crust collides, shortens and thickens. Fold mountains and earthquakes form. Typical continental collision does not create a subduction-style volcanic arc.', 'После погружения разделявшей их океанической литосферы континенты сталкиваются. Континентальная кора сжимается и утолщается: возникают складчатые горы и землетрясения. Для типичной континентальной коллизии вулканическая дуга субдукционного типа не характерна.'),
     conservative: t('Plan view: plates slide past one another. Locked sections store strain until sudden slip causes an earthquake. Lithosphere is neither created nor destroyed; transform motion itself does not produce a volcanic arc.', 'Вид сверху: плиты скользят вдоль друг друга. Заблокированные участки накапливают деформацию; внезапный сдвиг вызывает землетрясение. Литосфера не создаётся и не уничтожается; само сдвиговое движение не создаёт вулканическую дугу.'),
-    earthquake: t('The focus (hypocentre) is the point where rupture begins; the epicentre is directly above it at the surface. Waves spread from the rupture. This cross-section is schematic: rupture extends across an area of the fault.', 'Очаг (гипоцентр) — точка начала разрыва. Эпицентр расположен прямо над ней на поверхности. От разрыва распространяются волны. Разрез условный: разрыв охватывает площадь вдоль разлома.'),
-    volcano: t('Ash can travel far downwind. Fast, hot pyroclastic density currents and water-rich lahars can follow valleys. Lava has a different speed and reach. This sketch shows possible hazards, not a forecast for a real volcano.', 'Пепел может уноситься далеко по ветру. Быстрые горячие пирокластические потоки и насыщенные водой лахары могут двигаться по долинам. У лавы другая скорость и дальность распространения. Схема показывает возможные опасности, а не прогноз извержения.'),
-    risk: t('Risk depends on the hazard and who or what is exposed, their vulnerability and capacity to cope. Reducing exposure or vulnerability can reduce losses without changing plate movement. This is a thinking framework, not a numerical prediction formula.', 'Риск зависит от опасного явления, подверженных воздействию людей и объектов, их уязвимости и способности справиться с последствиями. Снижение подверженности или уязвимости уменьшает потери, не меняя движения плит. Это схема рассуждения, а не формула численного прогноза.'),
+    earthquake: t('The focus (hypocentre) is the point where rupture begins; the epicentre is directly above it at the surface. Waves spread from the rupture. This cross-section is schematic: rupture extends across an area of the fault.', 'Очаг (гипоцентр) — точка начала разрыва. Эпицентр расположен на поверхности прямо над очагом. От разрыва распространяются волны. Разрез условный: разрыв охватывает площадь вдоль разлома.'),
+    volcano: t('Ash can travel far downwind. Fast, hot pyroclastic flows and water-rich lahars can follow valleys. Lava has a different speed and reach. This sketch shows possible hazards, not a forecast for a real volcano.', 'Пепел может далеко унестись по ветру. Быстрые горячие пирокластические потоки и богатые водой лахары (грязевые потоки) могут идти по долинам. Лава движется с другой скоростью и на другое расстояние. Схема показывает возможные опасности, а не прогноз для реального вулкана.'),
+    risk: t('Risk depends on the hazard and who or what is exposed, their vulnerability and capacity to cope. Reducing exposure or vulnerability can reduce losses without changing plate movement. This is a thinking framework, not a numerical prediction formula.', 'Риск зависит от опасного явления, от людей и объектов, которые ему подвержены, а также от их уязвимости и способности справиться с последствиями. Снижение подверженности или уязвимости уменьшает потери, не меняя движения плит. Это схема рассуждения, а не формула численного прогноза.'),
   };
   const line = (x1: number, y1: number, x2: number, y2: number) => <line x1={x1} y1={y1} x2={x2} y2={y2} stroke="#174f4b" strokeWidth="5" markerEnd={`url(#${arrow})`} />;
   return (
@@ -43,12 +43,12 @@ export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: 
         <legend>{t('Compare plate boundaries', 'Сравни границы плит')}</legend>
         <div>{boundaryKeys.map(value => <button type="button" key={value} aria-pressed={selected === value} onClick={() => setBoundary(value)}>{labels[value]}</button>)}</div>
       </fieldset>}
-      {selected === 'volcano' && <div className="tectonic-volcano-anatomy"><VolcanoForms />
+      {selected === 'volcano' && <div className="tectonic-volcano-anatomy">{variant !== 'anatomy' && <VolcanoForms />}
         <h4>{t('Read the cross-section', 'Прочитай разрез')}</h4>
         <div className="tectonic-diagram-scroll" role="region" tabIndex={0} aria-label={t('Scrollable volcano cross-section', 'Прокручиваемая схема строения вулкана')}>
           <svg viewBox="0 0 760 410" role="img" aria-labelledby={`${uid}-anatomy-title ${uid}-anatomy-desc`} className="tectonic-diagram">
             <title id={`${uid}-anatomy-title`}>{t('Numbered volcano cross-section', 'Разрез вулкана с нумерацией')}</title>
-            <desc id={`${uid}-anatomy-desc`}>{t('A magma reservoir connects to a central conduit and main vent. A crater lies around the main vent. Layers build the cone; a side branch leads to a secondary vent. Dykes cut layers, while a sill runs parallel to them. The numbered key follows the image.', 'Магматический резервуар соединён с центральным каналом и главным жерлом. Кратер окружает главное жерло. Конус построен из слоёв; боковая ветвь ведёт к боковому жерлу. Дайки пересекают слои, силл залегает параллельно. Под схемой приведена расшифровка номеров.')}</desc>
+            <desc id={`${uid}-anatomy-desc`}>{t('A magma reservoir connects to a central conduit and main vent. A crater lies around the main vent. Layers build the cone; a side branch leads to a secondary vent. Dykes cut layers, while a sill runs parallel to them. The numbered key follows the image.', 'Магматическая камера (резервуар) соединена с центральным каналом и главным жерлом. Кратер окружает главное жерло. Конус построен из слоёв; побочная ветвь ведёт к побочному жерлу. Дайки пересекают слои, а силл залегает параллельно им. Под схемой приведена расшифровка номеров.')}</desc>
             <rect x="25" y="292" width="710" height="108" fill="#d6b79a" />
             <path d="M25 305 H735 M25 320 H735 M25 337 H735 M25 380 H735" stroke="#ad8c70" strokeWidth="2" fill="none" />
             <path d="M45 292 L170 260 L331 91 L355 118 L381 91 L548 260 L715 292Z" fill="#ab8e70" />
@@ -69,20 +69,20 @@ export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: 
           t('Lava flow at the surface', 'Лавовый поток на поверхности'),
           t('Layers of lava and fragmental deposits', 'Слои лавы и обломочных отложений'),
           t('Dyke: intrusion across rock layers', 'Дайка: внедрение поперёк слоёв пород'),
-          t('Magma reservoir below the surface', 'Магматический резервуар под поверхностью'),
+          t('Magma reservoir below the surface', 'Магматическая камера (резервуар) под поверхностью'),
           t('Sill: intrusion parallel to layers', 'Силл: внедрение параллельно слоям'),
-          t('Secondary vent fed by a branch', 'Боковое жерло, питаемое ответвлением'),
+          t('Secondary vent fed by a branch', 'Побочное жерло, питаемое ответвлением'),
           t('Central conduit: main magma pathway', 'Центральный канал: основной путь магмы'),
           t('Main vent: opening at the surface', 'Главное жерло: выход на поверхность'),
           t('Ash cloud carried away by wind', 'Облако пепла, переносимое ветром'),
         ].map((text, index) => <li key={index}>{text}</li>)}</ol>
-        <p className="tectonic-small">{t('A simplified cross-section: real magma storage may contain crystals and several connected regions, and intrusions do not always erupt.', 'Упрощённый разрез: реальные магматические области могут содержать кристаллы и состоять из нескольких связанных зон; внедрения не всегда выходят на поверхность.')}</p>
+        <p className="tectonic-small">{t('A simplified cross-section: real magma reservoirs may contain crystals and several connected parts; not every intrusion erupts.', 'Упрощённый разрез: реальные магматические камеры (резервуары) могут содержать кристаллы и состоять из нескольких связанных частей; не каждое внедрение приводит к извержению.')}</p>
         <h4>{t('Trace the hazards', 'Проследи распространение опасностей')}</h4>
       </div>}
       {selected === 'risk' ? <div className="tectonic-risk-grid" role="group" aria-label={labels.risk}>
         {[
-          [t('HAZARD', 'ОПАСНОСТЬ'), t('How strong? Where? How often?', 'Какой силы? Где? Как часто?'), t('Magnitude, depth, duration; ground conditions', 'Магнитуда, глубина, длительность; грунты')],
-          [t('EXPOSURE', 'ПОДВЕРЖЕННОСТЬ'), t('Who and what is in harm’s way?', 'Кто и что находится в опасной зоне?'), t('People, homes, roads, hospitals', 'Люди, дома, дороги, больницы')],
+          [t('HAZARD', 'ОПАСНОСТЬ'), t('Ask yourself: how strong? Where? How often?', 'Спроси себя: какой силы? Где? Как часто?'), t('Magnitude, depth, duration; ground conditions', 'Магнитуда, глубина, длительность; грунты')],
+          [t('EXPOSURE', 'ПОДВЕРЖЕННОСТЬ'), t('Think about who and what is in harm’s way.', 'Подумай, кто и что окажется под угрозой.'), t('People, homes, roads, hospitals', 'Люди, дома, дороги, больницы')],
           [t('VULNERABILITY', 'УЯЗВИМОСТЬ'), t('How easily can they be harmed?', 'Насколько легко причинить ущерб?'), t('Weak buildings, poverty, limited access', 'Непрочные здания, бедность, ограниченный доступ')],
           [t('CAPACITY', 'СПОСОБНОСТЬ СПРАВИТЬСЯ'), t('What can reduce the losses?', 'Что позволяет уменьшить потери?'), t('Preparation, safe design, effective response', 'Подготовка, безопасное строительство, эффективное реагирование')],
         ].map(([title, question, text], index) => <div key={title}><span className="tectonic-risk-number">0{index + 1}</span><h4>{title}</h4><strong>{question}</strong><p>{text}</p></div>)}
@@ -92,7 +92,7 @@ export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: 
           <defs><marker id={arrow} markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6" fill="#174f4b" /></marker></defs>
           {selected === 'earth' && <>
             <circle cx="215" cy="175" r="144" fill="#765947" /><circle cx="215" cy="175" r="134" fill="#cc8663" /><circle cx="215" cy="175" r="86" fill="#e8b26c" /><circle cx="215" cy="175" r="42" fill="#f9ddaa" />
-            <path d="M 207,32 L 417,32" stroke="#174f4b" strokeWidth="2" /><text x="429" y="38">{t('Crust', 'Кора')}</text>
+            <path d="M 207,32 L 417,32" stroke="#174f4b" strokeWidth="2" /><text x="429" y="38">{t('Crust', 'Земная кора')}</text>
             <path d="M 300,103 L 417,103" stroke="#174f4b" strokeWidth="2" /><text x="429" y="109">{t('Mantle — mostly solid', 'Мантия — в основном твёрдая')}</text>
             <path d="M 274,198 L 417,198" stroke="#174f4b" strokeWidth="2" /><text x="429" y="204">{t('Outer core — liquid', 'Внешнее ядро — жидкое')}</text>
             <path d="M 221,175 L 386,284 L 417,284" stroke="#174f4b" strokeWidth="2" fill="none" /><text x="429" y="290">{t('Inner core — solid', 'Внутреннее ядро — твёрдое')}</text>
@@ -105,7 +105,7 @@ export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: 
             {line(288,65,160,65)}{line(472,65,600,65)}{line(380,280,380,220)}
             <text x="40" y="158">{t('Oceanic lithosphere', 'Океаническая литосфера')}</text><text x="484" y="158">{t('Oceanic lithosphere', 'Океаническая литосфера')}</text>
             <text x="440" y="255">{t('Rising mantle / magma', 'Подъём мантии / магмы')}</text>
-            <path d="M383 127 L420 100 L558 100" fill="none" stroke="#174f4b" strokeWidth="2" /><text x="429" y="90">{t('New crust at the ridge', 'Новая кора у хребта')}</text>
+            <path d="M383 127 L420 110 L424 98" fill="none" stroke="#174f4b" strokeWidth="2" /><text x="429" y="102">{t('New crust at the ridge', 'Новая кора у хребта')}</text>
           </>}
           {selected === 'subduction' && <>
             <rect x="20" y="123" width="720" height="202" rx="10" fill="#edbba0" /><path d="M20 109 L280 109 L434 224 L500 271 L478 299 L412 252 L264 142 L20 142Z" fill="#6f8f89" />
@@ -133,17 +133,17 @@ export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: 
             <path d="M60 225 H358 M391 132 H687" stroke="#fffaf1" strokeWidth="8" />
             {line(253,89,205,246)}{line(506,254,555,95)}
             <text x="62" y="65">{t('Plate A', 'Плита A')}</text><text x="610" y="291">{t('Plate B', 'Плита B')}</text>
-            <path d="M378 165 L617 205" stroke="#174f4b" strokeWidth="2" /><text x="487" y="236">{t('Transform fault', 'Трансформный разлом')}</text>
-            <text x="48" y="343">{t('Plan view · white line = offset surface feature', 'Вид сверху · белая линия = смещённый объект поверхности')}</text>
+            <path d="M378 165 L617 205" stroke="#174f4b" strokeWidth="2" /><text x="536" y="240">{t('Transform fault', 'Трансформный разлом')}</text>
+            <text x="48" y="343">{t('Plan view · white lines are offset by the fault', 'Вид сверху · белые линии смещены разломом')}</text>
           </>}
           {selected === 'earthquake' && <>
             <rect x="25" y="94" width="710" height="230" rx="10" fill="#e7ccb0" /><line x1="25" y1="95" x2="735" y2="95" stroke="#688d7e" strokeWidth="8" />
             <path d="M227 324 L405 95" stroke="#7a614e" strokeWidth="6" />
-            {[43,80,117].map(r => <circle key={r} cx="307" cy="218" r={r} stroke="#c5653b" strokeWidth="2" opacity=".6" fill="none" />)}
+            {[43,80,100].map(r => <circle key={r} cx="307" cy="218" r={r} stroke="#c5653b" strokeWidth="2" opacity=".6" fill="none" />)}
             <line x1="307" y1="218" x2="307" y2="95" stroke="#174f4b" strokeDasharray="6 5" strokeWidth="2" />
             <circle cx="307" cy="218" r="9" fill="#b84821" /><circle cx="307" cy="95" r="7" fill="#174f4b" />
             <text x="235" y="53">{t('Epicentre', 'Эпицентр')}</text><path d="M306 65 V87" stroke="#174f4b" strokeWidth="2" />
-            <path d="M319 220 H465" stroke="#174f4b" strokeWidth="2" /><text x="481" y="227">{t('Focus / hypocentre', 'Очаг / гипоцентр')}</text>
+            <path d="M319 220 H465" stroke="#174f4b" strokeWidth="2" /><text x="481" y="227">{t('Focus / hypocentre', 'Очаг (гипоцентр)')}</text>
             <text x="516" y="138">{t('Ground surface', 'Поверхность')}</text><text x="451" y="298">{t('Seismic waves', 'Сейсмические волны')}</text><text x="132" y="307">{t('Fault', 'Разлом')}</text>
           </>}
           {selected === 'volcano' && <>
@@ -156,11 +156,11 @@ export function TectonicVisual({ kind, fixed = false }: { kind: Visual; fixed?: 
             <path d="M309 228 Q239 284 110 310" fill="none" stroke="#547e85" strokeWidth="12" />
             <text x="571" y="153">{t('Ashfall', 'Пеплопад')}</text><text x="83" y="196">{t('Lava', 'Лава')}</text><path d="M144 199 L280 223" stroke="#174f4b" strokeWidth="2" />
             <text x="473" y="220">{t('Pyroclastic flow', 'Пирокластический поток')}</text><path d="M546 234 L496 260" stroke="#174f4b" strokeWidth="2" />
-            <text x="41" y="344">{t('Lahar: water + volcanic debris', 'Лахар: вода + вулканический материал')}</text>
+            <text x="41" y="344">{t('Lahar: water + volcanic debris', 'Лахар (грязевой поток): вода и вулканические обломки')}</text>
           </>}
         </svg>
       </div>}
-      {selected !== 'risk' && <p className="tectonic-diagram-hint">{t('On a small screen, swipe the diagram sideways to read every label.', 'На небольшом экране прокручивай схему вбок, чтобы прочитать все подписи.')}</p>}
+      {showHint && selected !== 'risk' && <p className="tectonic-diagram-hint">{t('On a small screen, swipe the diagram sideways to read every label.', 'На небольшом экране прокручивай схему вбок, чтобы прочитать все подписи.')}</p>}
       <figcaption>{captions[selected]} <strong>{t('Schematic; not to scale.', 'Условная схема; масштаб не соблюдён.')}</strong></figcaption>
     </figure>
   );

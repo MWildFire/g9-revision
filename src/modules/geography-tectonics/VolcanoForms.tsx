@@ -3,7 +3,7 @@ export function VolcanoForms() {
   const { i18n } = useTranslation();
   const l = (en: string, ru: string) => i18n.language.startsWith('ru') ? ru : en;
   return <figure className="tectonic-panel">
-    <div className="tectonic-diagram-scroll" role="region" tabIndex={0} aria-label={l("Scrollable comparison of volcanic forms", "Прокручиваемое сравнение вулканических форм")}><svg className="tectonic-volcano-forms" viewBox="0 0 760 250" role="img" aria-label={l('Volcanic forms compared: broad shield, steep composite cone and a subsided caldera depression.', 'Сравнение вулканических форм: широкий щит, крутой слоистый конус и провальная впадина кальдеры.')}>
+    <div className="tectonic-diagram-scroll" role="region" tabIndex={0} aria-label={l("Scrollable comparison of volcanic forms", "Прокручиваемое сравнение вулканических форм")}><svg className="tectonic-volcano-forms" viewBox="0 0 760 250" role="img" aria-label={l('Volcanic forms compared: gently sloping shield volcano, steep composite volcano and a subsided caldera depression.', 'Сравнение вулканических форм: пологий щитовой вулкан, крутой стратовулкан (слоистый вулкан) и провальная впадина кальдеры.')}>
       <title>{l('Shield, composite volcano and caldera', 'Щитовой вулкан, стратовулкан и кальдера')}</title>
       <path d="M25 155 Q75 151 122 117 Q160 95 192 125 Q220 148 245 155 Z" fill="#bc9169" stroke="#795e48" strokeWidth="2" />
       <path d="M270 155 L363 40 L380 52 L395 40 L485 155 Z" fill="#bc9169" stroke="#795e48" strokeWidth="2" />
@@ -17,6 +17,6 @@ export function VolcanoForms() {
       <text x="380" y="211" textAnchor="middle" fill="currentColor" fontSize="13">{l('Layers; steeper cone', 'Слои; более крутой конус')}</text>
       <text x="625" y="211" textAnchor="middle" fill="currentColor" fontSize="13">{l('Subsidence / collapse', 'Проседание / обрушение')}</text>
     </svg></div>
-    <figcaption>{l('Schematic profiles, not to a common scale. A shield is commonly built by fluid lava flows; a composite volcano contains successive lava and fragmental deposits. A caldera is a collapse depression and can occur on different volcano types, including shields. It is not simply another cone shape or any summit crater.', 'Условные профили без общего масштаба. Щит обычно создают потоки текучей лавы; стратовулкан содержит последовательные лавовые и обломочные отложения. Кальдера — впадина обрушения, возможная у разных типов вулканов, включая щитовые. Это не ещё одна форма конуса и не любой вершинный кратер.')}</figcaption>
+    <figcaption>{l('Schematic profiles, not to a common scale. A shield volcano grows mainly from thin, runny lava. A composite volcano is built up from alternating lava flows and layers of ash and rock fragments. A caldera is a collapse depression, not a cone or an ordinary crater, and it can form on several volcano types.', 'Условные профили, без общего масштаба. Щитовой вулкан растёт в основном за счёт жидкой лавы. Стратовулкан (слоистый вулкан) образуется из чередующихся лавовых потоков и слоёв пепла и обломков породы. Кальдера — впадина обрушения, а не конус и не обычный кратер; она может возникать у разных типов вулканов.')}</figcaption>
   </figure>;
 }

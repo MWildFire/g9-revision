@@ -6,7 +6,7 @@ import { loadSubjectTranslations } from '../../i18n';
 import { MockLessonPage } from '../../pages/MockLessonPage';
 import { getPack } from '../math-term-one/localisation';
 import { LessonBody as MathLessonBody } from '../math-term-one/MathTermOneModule';
-import { LessonBody as GeographyLessonBody } from '../geography-tectonics/GeographyTectonicsModule';
+import { LessonBody as GeographyLessonBody, visualVariant } from '../geography-tectonics/GeographyTectonicsModule';
 import { lessons as geographyLessons } from '../geography-tectonics/lessons';
 import { lessons as atomicLessons } from '../physics-september/lessons';
 import { VisualLab } from '../physics-september/Visuals';
@@ -73,7 +73,15 @@ const names: Record<string,[string,string]> = {
 export function LibraryTheory({id,selected}: {id:string;selected?:string[]}) {
   const {i18n} = useTranslation(); const lang = i18n.language.startsWith('ru') ? 'ru' : 'en'; const ru = lang === 'ru';
   if (id === 'p-atom') return <div className="nov-library">{atomicLessons.filter(l=>!selected||selected.includes(l.id)).map((lesson,index) => <details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><p>{lesson.intro[lang]}</p>{lesson.visual && <VisualLab kind={lesson.visual}/ >}{lesson.sections.map((s,i)=><section key={i}><h3>{s.title[lang]}</h3><RichText text={s.text[lang]}/>{atomicFormulaIds(lesson.id,i).map(id=><FormulaTeaching key={id} id={id}/>)}</section>)}{lesson.examples.map((e,i)=><section key={i}><h3>{e.question[lang]}</h3><ol>{e.steps.map((s,j)=><li key={j}>{s[lang]}</li>)}</ol></section>)}<ul>{lesson.pitfalls.map((p,i)=><li key={i}>{p[lang]}</li>)}</ul></details>)}</div>;
-  if (id === 'g-tectonics') return <div className="tectonic nov-library">{geographyLessons.map((lesson,index)=><details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><GeographyLessonBody lesson={lesson}/></details>)}</div>;
+  if (id === 'g-tectonics') {
+    // Each diagram (kind + variant) and its swipe hint appear once per page; the full volcano diagram (case study) repeats forms and anatomy.
+    const shownVisuals = new Set<string>(); let hintShown = false;
+    return <div className="tectonic nov-library">{geographyLessons.map((lesson,index)=>{
+      const kind = lesson.visual; const variant = visualVariant(lesson.id); const keys = kind === 'volcano' && variant === 'full' ? ['volcano:forms', 'volcano:anatomy'] : kind ? [`${kind}:${variant}`] : []; const showVisual = keys.length > 0 && keys.every(k => !shownVisuals.has(k)); if (showVisual) keys.forEach(k => shownVisuals.add(k));
+      const showHint = showVisual && !hintShown; if (showHint) hintShown = true;
+      return <details key={lesson.id} open={index===0}><summary>{lesson.title[lang]}</summary><GeographyLessonBody lesson={lesson} showVisual={showVisual} showHint={showHint}/></details>;
+    })}</div>;
+  }
   if (['m-core','m-algebra','m-geometry'].includes(id)) {
     const pack = getPack(lang); const chosen = pack.lessons.filter(l => selected ? selected.includes(l.id) : id === 'm-core' ? ['start','core'].includes(l.tier) : id === 'm-algebra' ? ['functions','quadratic-graphs','quadratic-equations','sequences','formulae-and-fractions','proportion-and-graphs'].includes(l.id) : ['right-triangles','trigonometry','circles'].includes(l.id));
     return <div className="mathrev nov-library">{chosen.filter(l=>!selected||selected.includes(l.id)).map((lesson,index)=><details key={lesson.id} open={index===0}><summary>{lesson.title}</summary><p>{lesson.intro}</p><MathLessonBody lesson={lesson} embedded/>{(!selected?lesson.questions:[]).map((q,i)=><section key={i}><h3>{q.prompt}</h3><details><summary>{ru?'Разбор решения':'Worked solution'}</summary><ol>{q.steps.map((s,j)=><li key={j}>{s}</li>)}</ol></details></section>)}</details>)}</div>;

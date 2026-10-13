@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # REMOVES the AWS copy of the site. Run ONLY on the owner's explicit command. GitHub Pages is not affected.
 set -euo pipefail
-PROFILE="${AWS_PROFILE_NAME:-slovo-admin}"; REGION=eu-central-1
+PROFILE=slovo-admin; REGION=eu-central-1
 aws() { command aws --profile "$PROFILE" --region "$REGION" "$@"; }
 S=infra/aws/state.json; [ -f "$S" ] || { echo "no $S"; exit 1; }
 j() { node -e "console.log(require('./$S')['$1'])"; }

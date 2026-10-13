@@ -37,6 +37,7 @@ dist-aws/
 # secrets: never commit
 .env
 .env.*
+!.env.example
 
 # local design-hook state (impeccable plugin)
 .impeccable/

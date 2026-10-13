@@ -6,7 +6,7 @@
 #   EXPECTED_ACCOUNT=<12 digits> bash infra/aws/setup.sh
 # Writes infra/aws/state.json (git-ignored) with the resource ids.
 set -euo pipefail
-PROFILE="${AWS_PROFILE_NAME:-slovo-admin}"
+PROFILE=slovo-admin
 REGION=eu-central-1
 REPO=MWildFire/g9-revision
 NAME=g9-revision

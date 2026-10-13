@@ -38,10 +38,19 @@ test('all inventoried biology and chemistry blocks have bilingual definitions an
 test('legacy summaries agree with the expanded definitions', () => {
   for (const language of ['en', 'ru']) {
     const chemistry = json(`../src/i18n/${language}/chemistry.json`);
-    for (const path of ['atmosphere.sections.climateChange', 'atmosphere.sections.pollutants', 'bonding.sections.comparison', 'energy.sections.types']) {
+    for (const path of ['atmosphere.sections.climateChange', 'atmosphere.sections.pollutants', 'energy.sections.types']) {
       const section = at(chemistry, path);
       for (const [key, value] of Object.entries(section.items)) if (section.detailed[key]) assert.equal(value, section.detailed[key].rule, `${path}.${key}`);
     }
+    // C-c-bonds (13.10): сводка и правило пишутся разными фразами (иначе блок повторяется на странице),
+    // но обязаны называть одно и то же ключевое понятие (README батча, п. 1); дословный повтор проверяется ниже.
+    const comparison = at(chemistry, 'bonding.sections.comparison');
+    const keyTerms = { ionic: /lattice|решётк/i, simpleCovalent: /molecul|молекул/i, giantCovalent: /covalent|ковалент/i, metallic: /delocalised|делокализ/i };
+    for (const [key, pattern] of Object.entries(keyTerms)) {
+      assert.match(comparison.items[key], pattern, `bonding.sections.comparison.items.${key}: сводка не называет ключевое понятие`);
+      assert.match(comparison.detailed[key].rule, pattern, `bonding.sections.comparison.detailed.${key}.rule: правило не называет ключевое понятие`);
+    }
+    for (const [key, value] of Object.entries(comparison.items)) if (comparison.detailed[key]) assert.notEqual(value, comparison.detailed[key].rule, `bonding.sections.comparison.${key}: сводка повторяет правило`);
     const biology = json(`../src/i18n/${language}/biology.json`);
     for (const key of ['nucleus', 'mitochondria', 'ribosome', 'membrane', 'cytoplasm', 'wall', 'chloroplast', 'vacuole']) {
       const desc = biology.simulations.cellDiagram.parts[key].desc;

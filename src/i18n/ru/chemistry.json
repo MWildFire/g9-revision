@@ -1244,101 +1244,65 @@
     }
   },
   "bonding": {
-    "title": "Связи",
-    "intro": "Как соединяются атомы: ионные, ковалентные, металлические. У каждой свои свойства.",
+    "title": "Химическая связь",
+    "intro": "Атомы соединяются ионной (ionic), ковалентной (covalent) или металлической (metallic) связью. Тип связи помогает объяснить свойства вещества.",
     "sections": {
       "ionic": {
         "title": "Ионная связь",
-        "body": "Ионная связь — электростатическое притяжение противоположно заряженных ионов в структуре. Передача электронов объясняет образование ионов, но сама связь — притяжение, а не передача. Многие ионные твёрдые вещества имеют высокую температуру плавления и проводят ток, когда ионы подвижны.",
+        "body": "Ионная связь (ionic bonding) — это электростатическое притяжение между противоположно заряженными ионами (ions). Она обычно возникает между атомом металла и атомом неметалла. В хлориде натрия атом натрия отдаёт один электрон, а атом хлора его принимает, и образуются ионы Na⁺ и Cl⁻. Перенос электрона объясняет, как появляются ионы, но сама связь — это притяжение между ними, а не перенос. Притяжение действует во всех направлениях, поэтому ионы образуют упорядоченную трёхмерную структуру — ионную кристаллическую решётку (ionic lattice).",
         "review": {
           "englishTerm": "Ionic bonding",
           "russianTerm": "Ионная связь",
           "contrast": {
-            "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
-            "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+            "en": "Do not confuse ionic and covalent bonds. In an ionic bond, one atom gives electrons to another, forming ions. In a covalent bond, atoms share electron pairs.",
+            "ru": "Не путай ионную и ковалентную связь: при ионной связи один атом отдаёт электроны другому, а при ковалентной атомы делят общую электронную пару."
           },
           "sources": [
             {
-              "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
-              "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
-              "language": "en",
-              "section": "7.1 Ionic Bonding: formation of ionic compounds"
-            },
-            {
-              "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
-              "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
-              "language": "en",
-              "section": "7.2 Covalent Bonding: shared electrons"
-            },
-            {
-              "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
-              "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
-              "language": "en",
-              "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+              "title": "РЭШ, 8 кл., урок 29 «Электроотрицательность химических элементов. Ионная связь» (не открыт из среды; проверить вручную, Q11.5)",
+              "url": "https://resh.edu.ru/subject/lesson/2439/main/",
+              "language": "ru",
+              "section": "Урок 29: Электроотрицательность химических элементов. Ионная связь"
             }
           ]
         }
       },
       "covalent": {
         "title": "Ковалентная связь",
-        "body": "Ковалентная связь возникает при общей электронной плотности, притягиваемой двумя ядрами; простая модель описывает одну или несколько общих электронных пар. Вещества могут состоять из отдельных молекул или протяжённых сетей. Их свойства зависят и от связей, и от строения.",
+        "body": "Ковалентная связь (covalent bond) — притяжение общей электронной пары к ядрам двух атомов. Атомы могут делить одну или несколько пар: в молекуле водорода H₂ общая одна пара, а в молекуле кислорода O₂ — две. Если атомы притягивают общую пару одинаково, связь неполярная (non-polar), как в H₂ и O₂. Если один атом притягивает её сильнее, как в HCl, связь полярная (polar). Вещества с ковалентными связями бывают молекулярными или имеют атомную кристаллическую решётку (giant covalent).",
         "review": {
           "englishTerm": "Covalent bonding",
           "russianTerm": "Ковалентная связь",
           "contrast": {
-            "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
-            "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+            "en": "A covalent bond holds atoms together inside a molecule. Intermolecular forces are much weaker: boiling water breaks them, but the O–H bonds inside each H₂O molecule stay intact.",
+            "ru": "Ковалентная связь удерживает атомы внутри молекулы. Межмолекулярные взаимодействия (intermolecular forces) намного слабее: при кипении воды они разрываются, а связи O–H внутри молекул H₂O остаются целыми."
           },
           "sources": [
             {
-              "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
-              "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
-              "language": "en",
-              "section": "7.1 Ionic Bonding: formation of ionic compounds"
-            },
-            {
-              "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
-              "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
-              "language": "en",
-              "section": "7.2 Covalent Bonding: shared electrons"
-            },
-            {
-              "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
-              "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
-              "language": "en",
-              "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+              "title": "РЭШ, 8 кл., урок 30 «Ковалентная химическая связь. Полярная и неполярная ковалентная связь» (не открыт из среды; проверить вручную, Q11.5)",
+              "url": "https://resh.edu.ru/subject/lesson/2048/train/",
+              "language": "ru",
+              "section": "Урок 30: Ковалентная химическая связь. Полярная и неполярная ковалентная связь"
             }
           ]
         }
       },
       "metallic": {
         "title": "Металлическая связь",
-        "body": "Металлическая связь — притяжение положительных ионных остовов металла и делокализованных валентных электронов, общих для кристалла. Подвижные электроны объясняют электропроводность. Ненаправленная связь допускает смещение слоёв без обязательного разрушения структуры, что объясняет ковкость.",
+        "body": "Металлическая связь (metallic bond) — притяжение между катионами (cations) металла и делокализованными электронами (delocalised electrons), которые свободно движутся по всему металлу. Связь не направлена, поэтому слои ионов могут смещаться без разрыва связей, и металлы можно гнуть и ковать.",
         "review": {
           "englishTerm": "Metallic bonding",
           "russianTerm": "Металлическая связь",
           "contrast": {
-            "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
-            "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+            "en": "In a metal, outer electrons belong to the whole structure, not to a pair of atoms as in a covalent bond. So they are not transferred to particular atoms, as happens in an ionic bond.",
+            "ru": "В металле внешние электроны принадлежат всей структуре, а не одной паре атомов, как в ковалентной связи. Поэтому они не переходят к отдельным атомам, как при ионной связи."
           },
           "sources": [
             {
-              "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
-              "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
-              "language": "en",
-              "section": "7.1 Ionic Bonding: formation of ionic compounds"
-            },
-            {
-              "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
-              "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
-              "language": "en",
-              "section": "7.2 Covalent Bonding: shared electrons"
-            },
-            {
-              "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
-              "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
-              "language": "en",
-              "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+              "title": "РЭШ, урок 31 «Металлическая связь и кристаллические решётки» (класс проверить) (не открыт из среды; проверить вручную, Q11.5)",
+              "url": "https://resh.edu.ru/subject/lesson/2438/main/",
+              "language": "ru",
+              "section": "Урок 31: Металлическая связь и кристаллические решётки"
             }
           ]
         }
@@ -1346,161 +1310,112 @@
       "comparison": {
         "title": "Сравнение структур",
         "items": {
-          "ionic": "Ионный кристалл — протяжённая структура из катионов и анионов. Для преодоления сильного притяжения при плавлении часто нужна большая энергия. В твёрдом веществе ионы не могут свободно перемещаться; расплав и растворы с подвижными ионами проводят ток. Растворимость различается: не каждый ионный кристалл растворяется в воде.",
-          "simpleCovalent": "Молекулярное вещество состоит из отдельных молекул, связанных межмолекулярным притяжением. При плавлении обычно ослабевает это взаимодействие, а ковалентные связи внутри молекул сохраняются. Такие вещества часто плавятся легче сетчатых кристаллов и в чистом виде обычно не имеют подвижных носителей заряда.",
-          "giantCovalent": "Ковалентный сетчатый кристалл содержит атомы, связанные в протяжённую структуру, а не отдельные молекулы. Многие такие вещества тугоплавки. Свойства зависят от связей и геометрии: алмаз твёрдый, а слои графита скользят и проводят ток благодаря делокализованным электронам.",
-          "metallic": "В металле делокализованные электроны движутся среди положительных ионных остовов. Это обеспечивает перенос заряда и тепла; многие металлы можно деформировать, поскольку при перестройке атомов связь сохраняется. Температуры плавления сильно различаются: металлическая связь не означает обязательной тугоплавкости."
+          "ionic": "Вещества с ионной кристаллической решёткой (ionic solids): ионы в упорядоченной трёхмерной решётке.",
+          "simpleCovalent": "Вещества с молекулярным строением (simple molecular substances): отдельные молекулы, каждая — группа атомов, соединённых ковалентными связями.",
+          "giantCovalent": "Вещества с атомной кристаллической решёткой (giant covalent substances), например алмаз и SiO₂: атомы связаны в одну протяжённую структуру, а температура плавления обычно очень высокая.",
+          "metallic": "Металлы: положительные ионы в облаке делокализованных электронов (delocalised electrons), поэтому проводят ток и тепло, и их можно придавать нужную форму."
         },
         "detailed": {
           "ionic": {
-            "name": "Ионные структуры",
-            "rule": "Ионный кристалл — протяжённая структура из катионов и анионов. Для преодоления сильного притяжения при плавлении часто нужна большая энергия. В твёрдом веществе ионы не могут свободно перемещаться; расплав и растворы с подвижными ионами проводят ток. Растворимость различается: не каждый ионный кристалл растворяется в воде.",
+            "name": "Ионная кристаллическая решётка (ionic structure)",
+            "rule": "Каждый ион (ion) притягивается сразу несколькими соседними ионами с противоположным зарядом, поэтому ионная кристаллическая решётка прочная. Чтобы расплавить кристалл, нужно преодолеть множество таких сильных притяжений, на это требуется много энергии, поэтому температура плавления высокая. При плавлении или растворении ионы начинают двигаться, поэтому расплав или раствор проводит ток.",
             "examples": [
-              "NaCl (поваренная соль): Tпл 801°C. Растворяется в воде → проводит.",
-              "MgO имеет высокую температуру плавления: небольшие двухзарядные ионы сильно притягиваются в решётке. Сравнивайте размер, заряд и строение вместе.",
-              "CaF₂ (флюорит): для оптических линз.",
-              "Твёрдый NaCl НЕ проводит (ионы зафиксированы). Расплавленный — ПРОВОДИТ."
+              "NaCl (поваренная соль) плавится при 801 °C, а вода — при 0 °C.",
+              "MgO (оксид магния) плавится примерно при 2850 °C. Его ионы несут заряды 2+ и 2−, а небольшой ион Mg²⁺ сильно притягивает ионы O²⁻.",
+              "CaF₂ (флюорит) — вещество с ионной кристаллической решёткой, из которого делают некоторые оптические линзы, потому что оно хорошо пропускает ультрафиолетовый свет.",
+              "MgCl₂ (хлорид магния): каждый атом Mg отдаёт два электрона, а каждый атом Cl принимает один, поэтому на один ион Mg²⁺ приходится два иона Cl⁻."
             ],
-            "tip": "Прочность решётки зависит от зарядов, размеров и структуры; одного заряда недостаточно для прогноза температуры плавления.",
+            "tip": "Когда сравниваешь два вещества с ионной кристаллической решёткой, учитывай вместе заряды ионов, их размеры и строение. Одного заряда недостаточно, чтобы предсказать температуру плавления.",
             "review": {
-              "englishTerm": "Ionic structures",
-              "russianTerm": "Ионные структуры",
+              "englishTerm": "Ionic lattice",
+              "russianTerm": "Ионная кристаллическая решётка",
               "contrast": {
-                "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
-                "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+                "en": "Ionic crystals are brittle, but metals are malleable. When an ionic lattice shifts, ions of like charge are brought side by side, repel each other, and the crystal shatters. In a metal, the layers slide while the ions stay attracted to the delocalised electrons.",
+                "ru": "Вещества с ионной кристаллической решёткой хрупкие, а металлы ковкие. При сдвиге слоёв ионной кристаллической решётки одноимённые ионы оказываются рядом, отталкиваются, и кристалл раскалывается. В металле слои скользят, а ионы остаются притянутыми к делокализованным электронам (delocalised electrons)."
               },
               "sources": [
                 {
-                  "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
-                  "language": "en",
-                  "section": "7.1 Ionic Bonding: formation of ionic compounds"
-                },
-                {
-                  "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
-                  "language": "en",
-                  "section": "7.2 Covalent Bonding: shared electrons"
-                },
-                {
-                  "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
-                  "language": "en",
-                  "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+                  "title": "РЭШ, 8 кл., урок 34 «Повторение и обобщение: строение атома, строение вещества, химическая связь» (не открыт из среды; проверить вручную, Q11.5)",
+                  "url": "https://resh.edu.ru/subject/lesson/3093/train/",
+                  "language": "ru",
+                  "section": "Урок 34: Повторение и обобщение: строение вещества, химическая связь"
                 }
               ]
             }
           },
           "simpleCovalent": {
-            "name": "Простая молекулярная (ковалентная)",
-            "rule": "Молекулярное вещество состоит из отдельных молекул, связанных межмолекулярным притяжением. При плавлении обычно ослабевает это взаимодействие, а ковалентные связи внутри молекул сохраняются. Такие вещества часто плавятся легче сетчатых кристаллов и в чистом виде обычно не имеют подвижных носителей заряда.",
+            "name": "Молекулярное строение (simple molecular)",
+            "rule": "При плавлении и кипении молекулы лишь отделяются друг от друга. Межмолекулярные взаимодействия (intermolecular forces) между ними слабые, поэтому нужно мало энергии, и вещество плавится и кипит при низких температурах.",
             "examples": [
-              "При обычном давлении сухой лёд CO₂(s) сублимирует, а не кипит как жидкость.",
-              "При плавлении льда молекулы воды сохраняются, а межмолекулярное расположение меняется."
+              "При атмосферном давлении сухой лёд (твёрдый CO₂) сублимирует примерно при −78 °C: сразу переходит в газ и не превращается в жидкость.",
+              "Иод (I₂) при комнатной температуре — твёрдое вещество. Между его молекулами действуют слабые силы, поэтому он плавится около 114 °C."
             ],
-            "tip": "Сравнивайте межмолекулярные взаимодействия и структуру; одного размера молекул недостаточно для определения температуры плавления.",
+            "tip": "Сравни межмолекулярные взаимодействия, а не только массу молекул: метан (CH₄, 16 г/моль) кипит при −162 °C, вода (H₂O, 18 г/моль) — при 100 °C.",
             "review": {
-              "englishTerm": "Simple molecular (covalent)",
-              "russianTerm": "Простая молекулярная (ковалентная)",
+              "englishTerm": "Simple molecular structure",
+              "russianTerm": "Молекулярное строение",
               "contrast": {
-                "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
-                "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+                "en": "Pure hydrogen chloride, a molecular substance, does not conduct electricity. Its solution does, because the HCl molecules split into H⁺ and Cl⁻ ions in water.",
+                "ru": "Чистый хлороводород, молекулярное вещество, ток не проводит. Его раствор проводит, потому что в воде молекулы HCl распадаются на ионы H⁺ и Cl⁻."
               },
               "sources": [
                 {
-                  "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
-                  "language": "en",
-                  "section": "7.1 Ionic Bonding: formation of ionic compounds"
-                },
-                {
-                  "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
-                  "language": "en",
-                  "section": "7.2 Covalent Bonding: shared electrons"
-                },
-                {
-                  "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
-                  "language": "en",
-                  "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+                  "title": "РЭШ, 8 кл., урок 34 «Повторение и обобщение: строение атома, строение вещества, химическая связь» (не открыт из среды; проверить вручную, Q11.5)",
+                  "url": "https://resh.edu.ru/subject/lesson/3093/train/",
+                  "language": "ru",
+                  "section": "Урок 34: Повторение и обобщение: строение вещества, химическая связь"
                 }
               ]
             }
           },
           "giantCovalent": {
-            "name": "Гигантская ковалентная (макромолекулярная)",
-            "rule": "Ковалентный сетчатый кристалл содержит атомы, связанные в протяжённую структуру, а не отдельные молекулы. Многие такие вещества тугоплавки. Свойства зависят от связей и геометрии: алмаз твёрдый, а слои графита скользят и проводят ток благодаря делокализованным электронам.",
+            "name": "Атомная кристаллическая решётка (giant covalent)",
+            "rule": "В алмазе каждая связь направлена в определённую сторону, поэтому атомы не скользят друг относительно друга: кристалл ломается, а не гнётся. Чтобы расплавить кристалл, нужно разорвать множество прочных ковалентных связей (covalent bonds) по всей структуре, а на это уходит много энергии.",
             "examples": [
-              "В алмазе каждый углерод связан с четырьмя соседями, в графите — с тремя в слоях.",
-              "Кремний — полупроводник с ковалентной сетчатой структурой."
+              "Кварц, главная составляющая песка, — это SiO₂. Каждый атом кремния связан с четырьмя атомами кислорода, а каждый атом кислорода — с двумя атомами кремния. Плавится кварц около 1700 °C.",
+              "Твёрдость алмаза — 10 по шкале Мооса, это максимум шкалы. Графит, тоже чистый углерод, имеет твёрдость всего 1–2."
             ],
-            "watchOut": "Алмаз и графит — АЛЛОТРОПЫ углерода: один элемент, разные структуры, очень разные свойства.",
+            "watchOut": "Не путай аллотропы (allotropes) с изотопами (isotopes). Алмаз и графит — аллотропы углерода: в обоих только атомы углерода, но расположены они по-разному. Изотопы одного элемента отличаются числом нейтронов.",
             "review": {
               "englishTerm": "Giant covalent (macromolecular)",
-              "russianTerm": "Гигантская ковалентная (макромолекулярная)",
+              "russianTerm": "Атомная кристаллическая решётка",
               "contrast": {
-                "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
-                "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+                "en": "A very high melting point does not make a substance unreactive. When heated strongly in air, diamond burns to form carbon dioxide.",
+                "ru": "Очень высокая температура плавления не делает вещество химически инертным. При сильном нагреве на воздухе алмаз сгорает с образованием углекислого газа (CO₂)."
               },
               "sources": [
                 {
-                  "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
-                  "language": "en",
-                  "section": "7.1 Ionic Bonding: formation of ionic compounds"
-                },
-                {
-                  "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
-                  "language": "en",
-                  "section": "7.2 Covalent Bonding: shared electrons"
-                },
-                {
-                  "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
-                  "language": "en",
-                  "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+                  "title": "РЭШ, 8 кл., урок 34 «Повторение и обобщение: строение атома, строение вещества, химическая связь» (не открыт из среды; проверить вручную, Q11.5)",
+                  "url": "https://resh.edu.ru/subject/lesson/3093/train/",
+                  "language": "ru",
+                  "section": "Урок 34: Повторение и обобщение: строение вещества, химическая связь"
                 }
               ]
             }
           },
           "metallic": {
-            "name": "Металлическая связь",
-            "rule": "В металле делокализованные электроны движутся среди положительных ионных остовов. Это обеспечивает перенос заряда и тепла; многие металлы можно деформировать, поскольку при перестройке атомов связь сохраняется. Температуры плавления сильно различаются: металлическая связь не означает обязательной тугоплавкости.",
+            "name": "Металлическая кристаллическая решётка (metallic lattice)",
+            "rule": "Обычно, чем больше делокализованных электронов (delocalised electrons) приходится на один атом металла, тем крепче удерживаются положительные ионы. Чем прочнее удерживаются ионы, тем больше энергии нужно на плавление, поэтому температура плавления металла обычно выше. Размер ионов тоже влияет на температуру плавления.",
             "examples": [
-              "Железо: Tпл 1538°C. Прочное, но ржавеет (окисляется).",
-              "Медь: лучший проводник электричества (после серебра). В проводке.",
-              "Золото устойчиво к окислению в обычном воздухе; устойчивость в этих условиях не означает полного отсутствия реакций.",
-              "Алюминий: малая плотность + коррозионная стойкость → самолёты, банки.",
-              "Сплавы (латунь, сталь) — разные размеры мешают скольжению → твёрже."
+              "Магний (два делокализованных электрона на атом) плавится при 650 °C, а натрий (один делокализованный электрон на атом) — при 98 °C.",
+              "Медь проводит электричество лучше любого металла, кроме серебра, поэтому из неё делают электропроводку.",
+              "Золото очень ковкое: его можно расплющить молотком в тончайшую фольгу (сусальное золото).",
+              "Алюминий имеет малую плотность (2,7 г/см³) и хорошо проводит ток, поэтому его используют в воздушных линиях электропередачи.",
+              "Латунь (медь и цинк) и сталь (железо и углерод) — сплавы (alloys), и обе тверже чистых металлов. Атомы другого размера нарушают ровные слои, поэтому слои хуже скользят."
             ],
-            "tip": "Подвижные электроны объясняют проводимость; плавление и деформация зависят также от структуры и прочности связи.",
             "review": {
-              "englishTerm": "Metallic bonding",
-              "russianTerm": "Металлическая связь",
+              "englishTerm": "Metallic lattice",
+              "russianTerm": "Металлическая кристаллическая решётка",
               "contrast": {
-                "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
-                "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+                "en": "An alloy is a mixture of a metal with other elements, such as carbon in steel, so its composition can vary: brass can contain more or less zinc. A compound has a fixed composition.",
+                "ru": "Сплав — смесь (mixture) металла с другими элементами, например углеродом в стали, поэтому состав может меняться: в латуни можно взять больше или меньше цинка. Сложное вещество (compound) имеет постоянный состав."
               },
               "sources": [
                 {
-                  "title": "OpenStax Chemistry 2e — 7.1 Ionic Bonding: formation of ionic compounds",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
-                  "language": "en",
-                  "section": "7.1 Ionic Bonding: formation of ionic compounds"
-                },
-                {
-                  "title": "OpenStax Chemistry 2e — 7.2 Covalent Bonding: shared electrons",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
-                  "language": "en",
-                  "section": "7.2 Covalent Bonding: shared electrons"
-                },
-                {
-                  "title": "OpenStax Chemistry 2e — 10.5 The Solid State of Matter: ionic, metallic, molecular and network solids",
-                  "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
-                  "language": "en",
-                  "section": "10.5 The Solid State of Matter: ionic, metallic, molecular and network solids"
+                  "title": "РЭШ, 8 кл., урок 34 «Повторение и обобщение: строение атома, строение вещества, химическая связь» (не открыт из среды; проверить вручную, Q11.5)",
+                  "url": "https://resh.edu.ru/subject/lesson/3093/train/",
+                  "language": "ru",
+                  "section": "Урок 34: Повторение и обобщение: строение вещества, химическая связь"
                 }
               ]
             }

@@ -1,5 +1,5 @@
 // Arabic revision content — source of truth.
-// Extracted from the Revision Booklet 2025-2026 ([redacted]'s group).
+// Extracted from the school revision booklet 2025-2026.
 // Each word shows pronunciation three ways: Arabic script (ar) + English
 // transliteration (translitEn) + Russian transliteration (translitRu), plus
 // the English (en) and Russian (ru) meanings. Transliterations are for reading

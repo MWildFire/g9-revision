@@ -64,7 +64,7 @@
 | french | Comparisons, connectors, agreements, opinions and reasons | g9: school-french | `/french/grammar` | Existing section; depth not fully verified |
 | french | Speech, article, formal letter, blog and email conventions | g9: school-french | `/french/text-types` | Existing section; depth not fully verified |
 | arabic | Existing school booklet, vocabulary and quiz; current mock status unconfirmed | check: ib-assessment | `/arabic` | Existing section; depth not fully verified |
-| skills | Arts / Design portfolio, Personal Project and service: separate completion track | check: [redacted] | `/mocks` | Existing section; depth not fully verified |
+| skills | Arts / Design portfolio, Personal Project and service: separate completion track | check: school | `/mocks` | Existing section; depth not fully verified |
 | math | Coordinate geometry | g9-10: school-math-910 | `/mocks/coordinate-geometry` | New explanation + practice |
 | math | Linear equations, inequalities and systems | g9-10: school-math-910 | `/mocks/linear-equations` | New explanation + practice |
 | math | Probability: trees, Venn diagrams and tables | g9-10: school-math-910 | `/mocks/probability` | New explanation + practice |
@@ -102,4 +102,3 @@
 - **ib-language** — [IB: Language acquisition subject brief (2020)](https://ibo.org/globalassets/new-structure/brochures-and-infographics/pdfs/myp-brief-language-acquisition-2020-en.pdf). Public framework; not an October topic guarantee. Read 28 September 2026.
 - **ib-idl** — [IB: Interdisciplinary learning subject brief (2021)](https://ibo.org/globalassets/new-structure/brochures-and-infographics/pdfs/myp-brief-interdisciplinary-learning_en.pdf). Public framework; not an October topic guarantee. Read 28 September 2026.
 - **ib-humanities** — [IB: Individuals and societies](https://ibo.org/programmes/middle-years-programme/curriculum/individuals-and-societies/). Public framework; not an October topic guarantee. Read 28 September 2026.
-- **[redacted]** — [[redacted] Dubai: Upper School](https://[redacted].ae/ib-upper-school-grades-school-dubai/). Public framework; not an October topic guarantee. Read 28 September 2026.

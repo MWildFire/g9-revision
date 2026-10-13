@@ -48,6 +48,6 @@ Seven public primary references are linked with their purpose on the `reference`
 - Browser QA: all 17 new pages in English and Russian, plus 11 legacy entry routes; eight interactive types; answers and completion retained; filter/search; paper answer gating, timer start/pause, self-marking; print visibility; mobile direct navigation/overflow; malformed and denied browser storage.
 - Visual review of desktop overview, decay visualization, Russian mobile overview and nuclear-equation model.
 
-Release evidence is held privately in the [redacted] workspace under `work/physics-september-2026/`. Public release is performed by the existing GitHub Pages workflow after tests and build. Temporary local preview is stopped after live verification.
+Release evidence is held privately in the private study workspace under `work/physics-september-2026/`. Public release is performed by the existing GitHub Pages workflow after tests and build. Temporary local preview is stopped after live verification.
 
 Dedicated hosting/custom domain remains deferred in `docs/BACKLOG.md`.

@@ -118,14 +118,6 @@
       "url": "https://ibo.org/programmes/middle-years-programme/curriculum/individuals-and-societies/",
       "context": "Public framework; not an October topic guarantee",
       "checked": "2026-09-28"
-    },
-    {
-      "id": "[redacted]",
-      "title": "[redacted] Dubai: Upper School",
-      "kind": "official",
-      "url": "https://[redacted].ae/ib-upper-school-grades-school-dubai/",
-      "context": "Public framework; not an October topic guarantee",
-      "checked": "2026-09-28"
     }
   ],
   "lessons": [
@@ -1877,8 +1869,7 @@
       },
       "scope": "myp",
       "sources": [
-        "ib-idl",
-        "[redacted]"
+        "ib-idl"
       ],
       "paragraphs": [
         {
@@ -2940,7 +2931,7 @@
       "route": "/mocks",
       "scope": "check",
       "sources": [
-        "[redacted]"
+        "ib-assessment"
       ],
       "detail": "existing"
     },

@@ -67,6 +67,12 @@ test('i18n ids cannot point outside the i18n folders (path traversal refused)', 
   assert.ok(errors.some(e => e.startsWith('i18n:../../../package:x')), JSON.stringify(errors));
 });
 
+test('a new i18n key can only be created in a namespace of the batch', () => {
+  const batch = { id: 'X-test', units: [{ kind: 'i18n', ns: 'common', key: 'nav' }] };
+  const { errors } = applyEdits(batch, [{ id: 'i18n:physics:newKey', create: true, en: 'a', ru: 'б' }], { dryRun: true });
+  assert.match(errors.join('\n'), /namespace "physics" is not part of batch X-test/);
+});
+
 test('json edits are refused for files that are not part of the batch', () => withFixture({ 'pair.json': JSON.stringify({ title: { en: 'Hello world', ru: 'Привет, мир' } }) }, paths => {
   const unit = { kind: 'json', file: paths['pair.json'] };
   const [item] = extractUnit(unit);
@@ -89,6 +95,14 @@ test('replacement text that contains $& or $$ is written verbatim', () => withFi
   assert.ok(text.includes("t('Price $&', 'Цена $$')"), text);
 }));
 
+test('a repeated long text is not rewritten everywhere without "replaceAll" (copies may be on other pages)', () => withFixture({ 'Fixture.tsx': "export const A = t('The same long sentence appears on two pages of the site.', 'Одно и то же длинное предложение стоит на двух страницах сайта.');\nexport const B = t('The same long sentence appears on two pages of the site.', 'Одно и то же длинное предложение стоит на двух страницах сайта.');\n" }, paths => {
+  const unit = { kind: 'tsx', file: paths['Fixture.tsx'] };
+  const [first] = extractUnit(unit);
+  const edit = { id: first.id, ru: 'Новое предложение только для первой страницы сайта.' };
+  assert.match(applyEdits({ units: [unit] }, [edit], { dryRun: true }).errors.join('\n'), /occurs 2×.*replaceAll/);
+  assert.deepEqual(applyEdits({ units: [unit] }, [{ ...edit, replaceAll: true }], { dryRun: true }).errors, []);
+}));
+
 test('an edit cannot add text in a language the item does not have (null old text is an error)', () => withFixture({ 'Fixture.tsx': 'export const Sum = () => <p>Сумма</p>;\n' }, paths => {
   const unit = { kind: 'tsx', file: paths['Fixture.tsx'] };
   const [item] = extractUnit(unit);
@@ -105,5 +119,23 @@ test('keys that would reach Object.prototype are refused (__proto__)', () => {
     }
   } finally {
     delete Object.prototype.polluted;
+  }
+});
+
+test('privacy check refuses added lines that match the private patterns (patterns live outside the repository)', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'g9-privacy-'));
+  try {
+    const git = (...a) => execFileSync('git', a, { cwd: dir, encoding: 'utf8', stdio: 'pipe' });
+    git('init', '-q'); git('config', 'user.email', 't@example.com'); git('config', 'user.name', 't');
+    fs.writeFileSync(path.join(dir, 'a.txt'), 'hello\n'); git('add', 'a.txt'); git('commit', '-qm', 'base'); git('tag', 'base');
+    fs.writeFileSync(path.join(dir, 'a.txt'), 'hello\nSecretName was here\n'); git('commit', '-qam', 'add');
+    const patterns = path.join(dir, 'patterns.txt');
+    const run = () => { try { execFileSync(process.execPath, [path.resolve('scripts/content/privacy-check.mjs'), 'base'], { cwd: dir, env: { ...process.env, G9_PRIVACY_PATTERNS: patterns }, stdio: 'pipe' }); return 0; } catch (e) { return e.status; } };
+    fs.writeFileSync(patterns, '# names\n\\bSecretName\\b\n');
+    assert.equal(run(), 7);
+    fs.writeFileSync(patterns, '\\bOtherName\\b\n');
+    assert.equal(run(), 0);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
   }
 });

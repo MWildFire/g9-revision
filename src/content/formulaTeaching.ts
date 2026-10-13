@@ -2,6 +2,7 @@ import {additionalFormulaTeaching} from './additionalFormulaTeaching';
 import {f,type FormulaTeaching} from './formulaTypes';
 import {mathFormulaTeaching} from './mathFormulaTeaching';
 import {chemBioFormulaTeaching} from './chemBioFormulaTeaching';
+import {formulaAllowedOn} from './formulaSubjects';
 export type {FormulaTeaching} from './formulaTypes';
 // Explanations and numerical examples are independently authored. The source map is in docs/review/2026-10-11-formula-sources.md.
 const physicsFormulaTeaching:FormulaTeaching[]=[
@@ -39,10 +40,11 @@ f('absorption','Thickness and count rate','Толщина поглотителя
 ];
 export const formulaTeaching=[...physicsFormulaTeaching,...mathFormulaTeaching,...chemBioFormulaTeaching,...additionalFormulaTeaching];
 export function normalizeFormula(value:string){return value.toLowerCase().replace(/[\s·×*{}\\]/g,'').replace(/[−–]/g,'-');}
-export function findFormulaTeaching(text:string):FormulaTeaching[]{
+// subject: the page subject (SubjectScope). Cards of other subjects are not matched there.
+export function findFormulaTeaching(text:string,subject?:string|null):FormulaTeaching[]{
  const normalized=normalizeFormula(text);
  const prose=text.toLowerCase().replace(/\s+/g,' ');
- return formulaTeaching.filter(item=>item.matches.some(match=>{
+ return formulaTeaching.filter(item=>formulaAllowedOn(item.id,subject)&&item.matches.some(match=>{
   // Topic names need real word boundaries: removing spaces made «только масс»
   // accidentally contain «Ома» and attached Ohm's law to stoichiometry.
   if(/^[\p{L}\s’'–-]+$/u.test(match)){

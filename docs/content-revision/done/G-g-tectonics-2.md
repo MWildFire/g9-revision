@@ -1,5 +1,5 @@
 # G-g-tectonics-2 — Geography · tectonics case studies, management, reference and practice
-- готово: 13.10.2026 16:50 GST · лейн G · поток [redacted]eo
+- готово: 13.10.2026 16:50 GST · лейн G
 - пункты: изменено 401 / оставлено 245 (из 646; три UI-пункта убраны вместе с блоком источников и служебной заметкой о написании). Применено через apply: 597 записей журнала. Ручные правки после apply: `case-lessons.ts`, `definition-reviews.ts`, `management-lessons.ts`, `reference.ts`, `GeographyTectonicsModule.tsx`, `tectonics.css`, `VolcanoForms.tsx`; в тестах обновлён regex для ductility (тот же смысл — «permanent deformation»)
 - EN источники: USGS (Mw 8,8 — Чили; Mw 7,8 и 7,3 — Непал), MINVU (525 — совокупно землетрясение и цунами; более 350 000 построек — не только дома), PDNA Vol. A (частично — полный текст не открыт), World Bank (проект восстановления, 330 000 домохозяйств), IMO (даты фаз 20.03, 14.04; конец — по сводкам), EUROCONTROL (без точных чисел — «более 100 000 рейсов» с атрибуцией), правительство Исландии (эвакуация — без числа)
 - RU источники: `docs/content-revision/GLOSSARY.md`; Фоксфорд, БРЭ, РЭШ недоступны из этой среды — RU-пункты без проверенного источника помечены «RU не открыто» в factcheck.md

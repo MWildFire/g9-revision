@@ -1,11 +1,11 @@
 # MYP Revision Hub
 
-[redacted]'s bilingual EN/RU study hub: subject archives, dated assessment packs and Grade 10 October mocks preparation. Independent study resource; not an official IB publication.
+A bilingual EN/RU study hub: subject archives, dated assessment packs and Grade 10 October mocks preparation. Independent study resource; not an official IB publication.
 
 - Public site: https://mwildfire.github.io/g9-revision/
 - October preparation map: https://mwildfire.github.io/g9-revision/#/mocks
 - Repository: https://github.com/MWildFire/g9-revision
-- Local checkout: `[redacted]/Projects/g9-revision`
+- Local checkout: `~/Projects/g9-revision`
 - Release branch: `main`; GitHub Pages serves the site without a local server.
 - Review and remaining gaps: [September review](docs/review/2026-09-28.md)
 - Source-by-source coverage: [Curriculum map](docs/review/curriculum-map.md)
@@ -16,7 +16,7 @@ Eight subject modules: Mathematics, Physics, Chemistry, Biology, Geography, Engl
 
 The new `/#/mocks` page contains 79 coverage entries, with filters, source labels and 18 additional bilingual lessons. Each new lesson includes an explanation, original practice, a worked response and a self-check. General science investigation and interdisciplinary preparation are included.
 
-School Grade 9 documents, an undated Grade 9+10 Mathematics list and public IB/[redacted] sources are distinguished. **None of these establishes the exact October mock scope.** The exact date, subject coverage, Mathematics level, French level and any IDL mock still require school confirmation. No exam date is invented. Older EOY and Macbeth pages are labelled historical.
+School Grade 9 documents, an undated Grade 9+10 Mathematics list and public IB sources are distinguished. **None of these establishes the exact October mock scope.** The exact date, subject coverage, Mathematics level, French level and any IDL mock still require school confirmation. No exam date is invented. Older EOY and Macbeth pages are labelled historical.
 
 A topic link is not a claim of complete textbook coverage. Genuine listening audio, complete timed papers with validated marking, and session-specific material remain outstanding. Student progress is not a measure of curriculum completeness or an IB grade.
 

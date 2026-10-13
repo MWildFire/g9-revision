@@ -2,7 +2,7 @@
 # One-time AWS setup for the g9-revision static site:
 #   private S3 bucket (versioned) + CloudFront with Origin Access Control + GitHub OIDC deploy role,
 #   then the first upload. Idempotent: safe to re-run; existing resources are reused.
-# Run from the repository root after [redacted]'s login:  aws login --profile slovo-admin --region eu-central-1
+# Run from the repository root after the owner's login:  aws login --profile slovo-admin --region eu-central-1
 #   EXPECTED_ACCOUNT=<12 digits> bash infra/aws/setup.sh
 # Writes infra/aws/state.json (git-ignored) with the resource ids.
 set -euo pipefail
@@ -31,7 +31,7 @@ aws s3api put-public-access-block --bucket "$BUCKET" --public-access-block-confi
 aws s3api put-bucket-versioning --bucket "$BUCKET" --versioning-configuration Status=Enabled
 aws s3api put-bucket-encryption --bucket "$BUCKET" --server-side-encryption-configuration '{"Rules":[{"ApplyServerSideEncryptionByDefault":{"SSEAlgorithm":"AES256"}}]}'
 aws s3api put-bucket-lifecycle-configuration --bucket "$BUCKET" --lifecycle-configuration '{"Rules":[{"ID":"expire-old-versions","Status":"Enabled","Filter":{},"NoncurrentVersionExpiration":{"NoncurrentDays":30}}]}'
-aws s3api put-bucket-tagging --bucket "$BUCKET" --tagging 'TagSet=[{Key=Project,Value=g9-revision},{Key=Owner,Value=[redacted]}]'
+aws s3api put-bucket-tagging --bucket "$BUCKET" --tagging 'TagSet=[{Key=Project,Value=g9-revision},{Key=Owner,Value=site-owner}]'
 
 # 2. Origin Access Control: CloudFront signs its requests; the bucket stays private.
 OAC_ID=$(aws cloudfront list-origin-access-controls --query "OriginAccessControlList.Items[?Name=='$NAME-oac'].Id | [0]" --output text)

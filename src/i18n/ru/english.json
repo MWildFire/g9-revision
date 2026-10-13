@@ -279,7 +279,7 @@
       "rule": "Письмо — сообщение определённому адресату. Нужны подходящее обращение, организованный текст и завершение; официальное почтовое письмо может требовать адресов и даты. Формат зависит от страны и организации.",
       "examples": [
         "Формальное открытие: «Dear Mr Smith,» / прощание: «Yours sincerely, [имя]» (если знаешь имя) или «Yours faithfully» (если не знаешь).",
-        "Неформальное: «Dear Granny,» / прощание: «Love, [redacted]» или «Best wishes,».",
+        "Неформальное: «Dear Granny,» / прощание: «Love, Sam» или «Best wishes,».",
         "Письмо-жалоба: проблема, доказательства, требуемые действия, срок.",
         "Письмо редактору: коротко, по делу, со своей позицией."
       ],
@@ -290,8 +290,8 @@
       "rule": "Email — электронное сообщение с адресатом и обычно темой, обращением, текстом и подписью. Регистр может быть официальным или неформальным: важны цель и отношения, а не сам носитель.",
       "examples": [
         "Тема: «Request: extension on history essay deadline»",
-        "Тело: «Hi Mrs Williams, I'm writing to ask for a two-day extension on the history essay due Friday. I've been unwell since Monday. Thank you for considering this. Best wishes, [redacted].»",
-        "Ответ: «Hi [redacted], Thanks for letting me know. The new deadline is Monday at 9am. Best, Mrs W.»"
+        "Тело: «Hi Ms Taylor, I'm writing to ask for a two-day extension on the history essay due Friday. I've been unwell since Monday. Thank you for considering this. Best wishes, Sam.»",
+        "Ответ: «Hi Sam, Thanks for letting me know. The new deadline is Monday at 9am. Best, Ms Taylor»"
       ],
       "tip": "Первое предложение — твоя цель. Читатели сканируют, не читают построчно. Тема решает, откроют ли письмо."
     },
@@ -356,12 +356,12 @@
       "rule": "Сценарий или текст пьесы содержит реплики и указания для исполнения. Театр, кино и радио используют разные условности; имена персонажей, действия и звуковые указания должны быть понятны исполнителям.",
       "examples": [
         "Заголовок сцены: «INT. SCHOOL CAFETERIA — DAY»",
-        "Действие: «[redacted] sits alone, picking at his food. SARA enters, sees him.»",
+        "Действие: «SAM sits alone, picking at his food. SARA enters, sees him.»",
         "Диалог: «SARA: Mind if I sit?»",
         "Ремарка: «(тихо) Yeah... whatever.»",
         "Пьесы — слегка другой формат (имена по центру) vs сценарии (Hollywood format)."
       ],
-      "tip": "Показывай, не рассказывай. Не пиши «[redacted] грустный» — пиши «[redacted] смотрит в обед, не ест». Диалог должен звучать как настоящие люди, не идеальные предложения."
+      "tip": "Показывай, не рассказывай. Не пиши «Сэму грустно» — пиши «Сэм смотрит на свой обед и не ест». Диалог должен звучать как настоящие люди, не идеальные предложения."
     }
   },
   "devicesPage": {
@@ -601,7 +601,7 @@
           "name": "Апостроф (')",
           "use": "Апостроф обозначает пропущенные буквы в сокращениях, например don’t, или образует многие притяжательные конструкции, например the teacher’s advice. Такая конструкция выражает связь, не всегда буквальное владение. Обычное множественное число существительных апострофа не требует.",
           "examples": [
-            "[redacted]'s book — книга принадлежит [redacted] (один владелец).",
+            "Sam's book — книга принадлежит Сэму (один владелец).",
             "The students' essays — эссе учеников (несколько владельцев).",
             "Don't = do not. It's = it is. They're = they are.",
             "James's coat / James' coat — оба варианта допустимы; выбери один и будь последователен."

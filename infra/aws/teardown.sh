@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# REMOVES the AWS copy of the site. Run ONLY on [redacted]'s explicit command. GitHub Pages is not affected.
+# REMOVES the AWS copy of the site. Run ONLY on the owner's explicit command. GitHub Pages is not affected.
 set -euo pipefail
 PROFILE="${AWS_PROFILE_NAME:-slovo-admin}"; REGION=eu-central-1
 aws() { command aws --profile "$PROFILE" --region "$REGION" "$@"; }

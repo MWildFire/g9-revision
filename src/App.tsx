@@ -7,6 +7,7 @@ import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { HubPage } from './pages/HubPage';
 import { OnceScope } from './components/content/OnceScope';
+import { SubjectScope, subjectFromPath } from './components/content/SubjectScope';
 const TimetablePage = lazy(async () => { const [, m] = await Promise.all([Promise.all(['math','physics','chemistry','biology','geography','english','french','arabic'].map(loadSubjectTranslations)), import('./pages/TimetablePage')]); return { default: m.TimetablePage }; });
 import { AboutPage } from './pages/AboutPage';
 import { TransferPage } from './pages/TransferPage';
@@ -52,6 +53,7 @@ export default function App() {
           </div>}
           <Suspense fallback={<p className="p-8" role="status">{t('loading')}</p>}>
           <OnceScope key={location.pathname}>
+          <SubjectScope subject={subjectFromPath(location.pathname)}>
           <Routes location={location}>
             <Route path="/" element={<HubPage />} />
             <Route path="/timetable" element={<TimetablePage />} />
@@ -73,6 +75,7 @@ export default function App() {
             <Route path="/french/*" element={<FrenchModule />} />
             <Route path="/arabic/*" element={<ArabicModule />} />
           </Routes>
+          </SubjectScope>
           </OnceScope>
           </Suspense>
         </motion.div>

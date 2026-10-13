@@ -43,4 +43,4 @@ Responses and reviewed-topic ticks use the independent `geography-tectonic-hazar
 - Verified answer reveal, shared/persistent answers, completion persistence, filters/search/unanswered mode, all boundary selectors, print completeness/answer gating, unknown-route fallback, and malformed/denied storage.
 - Desktop/mobile overview, bilingual subduction and volcano diagrams, earthquake mobile view and print styling visually inspected.
 
-Private release evidence is in the [redacted] workspace under `work/geography-tectonic-2026-10-05/`. Publish through the existing GitHub Pages workflow and verify the rendered public release before reporting publication complete.
+Private release evidence is in the private study workspace under `work/geography-tectonic-2026-10-05/`. Publish through the existing GitHub Pages workflow and verify the rendered public release before reporting publication complete.

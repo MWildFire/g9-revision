@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Primary address of the site (AWS CloudFront). Empty until AWS is set up.
+      # Primary address of the site on AWS (https://lukalearningportal.academy/ after infra/aws/domain.sh).
       VITE_PRIMARY_URL: ${{ vars.AWS_SITE_URL }}
     steps:
       - uses: actions/checkout@v4
@@ -30,7 +30,10 @@ jobs:
       - name: Build for AWS (served from the domain root)
         if: ${{ vars.AWS_DEPLOY_ROLE_ARN != '' }}
         run: npx vite build --base=/ --outDir dist-aws
+      # GitHub Pages (the old address) is switched off with the repository variable PAGES_DISABLED=true
+      # (infra/github/make-private.sh) once the student has moved to the domain.
       - uses: actions/upload-pages-artifact@v3
+        if: ${{ vars.PAGES_DISABLED != 'true' }}
         with:
           path: ./dist
       - uses: actions/upload-artifact@v4
@@ -42,6 +45,7 @@ jobs:
 
   deploy:
     needs: build
+    if: ${{ vars.PAGES_DISABLED != 'true' }}
     runs-on: ubuntu-latest
     permissions:
       pages: write

@@ -1,0 +1,1351 @@
+{
+ "days": [
+  {
+   "date": "2026-10-11",
+   "recall": 0,
+   "blocks": [
+    {
+     "id": "study:atomic-structure",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "atomic-structure"
+     ]
+    },
+    {
+     "id": "study:isotopes",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "isotopes"
+     ]
+    },
+    {
+     "id": "study:atomic-models",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "atomic-models"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-12-1",
+     "minutes": 60,
+     "topics": [
+      "m-core"
+     ],
+     "sessions": [
+      "math-mathematical-language",
+      "math-proof-and-generalisation"
+     ]
+    },
+    {
+     "id": "2026-10-12-arabic",
+     "minutes": 15,
+     "topics": [
+      "a-language"
+     ]
+    },
+    {
+     "id": "study:c-atoms-core",
+     "minutes": 35,
+     "topics": [
+      "c-atoms"
+     ],
+     "sessions": [
+      "c-atoms-core"
+     ]
+    },
+    {
+     "id": "study:b-cells-core",
+     "minutes": 35,
+     "topics": [
+      "b-cells"
+     ],
+     "sessions": [
+      "b-cells-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-13-1",
+     "minutes": 60,
+     "topics": [
+      "e-analysis"
+     ],
+     "sessions": [
+      "e-analysis-core"
+     ]
+    },
+    {
+     "id": "v2:2026-10-13-2",
+     "minutes": 60,
+     "topics": [
+      "f-listen"
+     ],
+     "sessions": [
+      "f-listen-core"
+     ]
+    },
+    {
+     "id": "study:radiation",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "radiation"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-14-1",
+     "minutes": 60,
+     "topics": [
+      "e-creative"
+     ],
+     "sessions": [
+      "e-creative-core"
+     ]
+    },
+    {
+     "id": "v2:2026-10-14-2",
+     "minutes": 60,
+     "topics": [
+      "m-core"
+     ],
+     "sessions": [
+      "math-coordinate-geometry"
+     ]
+    },
+    {
+     "id": "study:nuclear-equations",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "nuclear-equations"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-15-2",
+     "minutes": 60,
+     "topics": [
+      "f-write"
+     ],
+     "sessions": [
+      "f-write-core"
+     ]
+    },
+    {
+     "id": "study:p-energy-core",
+     "minutes": 35,
+     "topics": [
+      "p-energy"
+     ],
+     "sessions": [
+      "p-energy-core"
+     ]
+    },
+    {
+     "id": "study:c-bonds-core",
+     "minutes": 35,
+     "topics": [
+      "c-bonds"
+     ],
+     "sessions": [
+      "c-bonds-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-16-1",
+     "minutes": 120,
+     "topics": [
+      "m-geometry"
+     ],
+     "sessions": [
+      "math-right-triangles",
+      "math-trigonometry",
+      "math-circles"
+     ]
+    },
+    {
+     "id": "study:half-life",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "half-life"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "recall": 0,
+   "blocks": []
+  },
+  {
+   "date": "2026-10-18",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "study:c-energy-core",
+     "minutes": 35,
+     "topics": [
+      "c-energy"
+     ],
+     "sessions": [
+      "c-energy-core"
+     ]
+    },
+    {
+     "id": "study:b-disease-core",
+     "minutes": 35,
+     "topics": [
+      "b-disease"
+     ],
+     "sessions": [
+      "b-disease-core"
+     ]
+    },
+    {
+     "id": "study:p-electric-core",
+     "minutes": 35,
+     "topics": [
+      "p-electric"
+     ],
+     "sessions": [
+      "p-electric-core"
+     ]
+    },
+    {
+     "id": "study:c-rates-core",
+     "minutes": 35,
+     "topics": [
+      "c-rates"
+     ],
+     "sessions": [
+      "c-rates-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-19-1",
+     "minutes": 60,
+     "topics": [
+      "m-core"
+     ],
+     "sessions": [
+      "math-linear-equations"
+     ]
+    },
+    {
+     "id": "study:b-nutrition-core",
+     "minutes": 35,
+     "topics": [
+      "b-nutrition"
+     ],
+     "sessions": [
+      "b-nutrition-core"
+     ]
+    },
+    {
+     "id": "study:g-tectonics-core",
+     "minutes": 35,
+     "topics": [
+      "g-tectonics"
+     ],
+     "sessions": [
+      "g-tectonics-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-20-1",
+     "minutes": 60,
+     "topics": [
+      "e-purpose"
+     ],
+     "sessions": [
+      "e-purpose-core"
+     ]
+    },
+    {
+     "id": "v2:2026-10-20-2",
+     "minutes": 60,
+     "topics": [
+      "f-listen"
+     ],
+     "sessions": [
+      "f-listen-core"
+     ]
+    },
+    {
+     "id": "study:contamination",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "contamination"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-21-1",
+     "minutes": 60,
+     "topics": [
+      "m-algebra"
+     ],
+     "sessions": [
+      "math-quadratic-graphs"
+     ]
+    },
+    {
+     "id": "v2:2026-10-21-2",
+     "minutes": 60,
+     "topics": [
+      "e-analysis"
+     ],
+     "sessions": [
+      "e-analysis-core"
+     ]
+    },
+    {
+     "id": "study:background",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "background"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-22-3",
+     "minutes": 60,
+     "topics": [
+      "f-language"
+     ],
+     "sessions": [
+      "f-language-core"
+     ]
+    },
+    {
+     "id": "study:p-matter-core",
+     "minutes": 35,
+     "topics": [
+      "p-matter"
+     ],
+     "sessions": [
+      "p-matter-core"
+     ]
+    },
+    {
+     "id": "study:c-quantity-core",
+     "minutes": 35,
+     "topics": [
+      "c-quantity"
+     ],
+     "sessions": [
+      "c-quantity-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-23-1",
+     "minutes": 120,
+     "topics": [
+      "m-core",
+      "m-data"
+     ],
+     "sessions": [
+      "math-sets-and-venn",
+      "m-data-core",
+      "math-linear-inequalities"
+     ]
+    },
+    {
+     "id": "study:half-life-choice",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "half-life-choice"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "recall": 0,
+   "blocks": []
+  },
+  {
+   "date": "2026-10-25",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "study:b-evolution-core",
+     "minutes": 35,
+     "topics": [
+      "b-evolution"
+     ],
+     "sessions": [
+      "b-evolution-core"
+     ]
+    },
+    {
+     "id": "study:b-environment-core",
+     "minutes": 35,
+     "topics": [
+      "b-environment"
+     ],
+     "sessions": [
+      "b-environment-core"
+     ]
+    },
+    {
+     "id": "study:s-c-core",
+     "minutes": 30,
+     "topics": [
+      "s-c"
+     ],
+     "sessions": [
+      "s-c-core"
+     ]
+    },
+    {
+     "id": "study:p-waves-core",
+     "minutes": 35,
+     "topics": [
+      "p-waves"
+     ],
+     "sessions": [
+      "p-waves-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-26-1",
+     "minutes": 60,
+     "topics": [
+      "m-core"
+     ],
+     "sessions": [
+      "math-simultaneous-equations"
+     ]
+    },
+    {
+     "id": "study:b-transport-core",
+     "minutes": 35,
+     "topics": [
+      "b-transport"
+     ],
+     "sessions": [
+      "b-transport-core"
+     ]
+    },
+    {
+     "id": "study:s-b-core",
+     "minutes": 30,
+     "topics": [
+      "s-b"
+     ],
+     "sessions": [
+      "s-b-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-27-1",
+     "minutes": 60,
+     "topics": [
+      "e-analysis"
+     ],
+     "sessions": [
+      "e-analysis-core"
+     ]
+    },
+    {
+     "id": "v2:2026-10-27-2",
+     "minutes": 60,
+     "topics": [
+      "f-write"
+     ],
+     "sessions": [
+      "f-write-core"
+     ]
+    },
+    {
+     "id": "study:uses",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "uses"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-28-1",
+     "minutes": 60,
+     "topics": [
+      "m-algebra"
+     ],
+     "sessions": [
+      "math-quadratic-equations"
+     ]
+    },
+    {
+     "id": "v2:2026-10-28-2",
+     "minutes": 60,
+     "topics": [
+      "e-purpose"
+     ],
+     "sessions": [
+      "e-purpose-core"
+     ]
+    },
+    {
+     "id": "study:fission",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "fission"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-29-2",
+     "minutes": 60,
+     "topics": [
+      "f-listen"
+     ],
+     "sessions": [
+      "f-listen-core"
+     ]
+    },
+    {
+     "id": "study:p-forces-core",
+     "minutes": 35,
+     "topics": [
+      "p-forces"
+     ],
+     "sessions": [
+      "p-forces-core"
+     ]
+    },
+    {
+     "id": "study:c-changes-core",
+     "minutes": 35,
+     "topics": [
+      "c-changes"
+     ],
+     "sessions": [
+      "c-changes-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-10-30-1",
+     "minutes": 120,
+     "topics": [
+      "m-algebra"
+     ],
+     "sessions": [
+      "math-functions",
+      "math-sequences",
+      "math-formulae-and-fractions"
+     ]
+    },
+    {
+     "id": "study:fusion",
+     "minutes": 25,
+     "topics": [
+      "p-atom"
+     ],
+     "sessions": [
+      "fusion"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "recall": 0,
+   "blocks": []
+  },
+  {
+   "date": "2026-11-01",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "study:c-air-core",
+     "minutes": 35,
+     "topics": [
+      "c-air"
+     ],
+     "sessions": [
+      "c-air-core"
+     ]
+    },
+    {
+     "id": "study:b-nervous-core",
+     "minutes": 35,
+     "topics": [
+      "b-nervous"
+     ],
+     "sessions": [
+      "b-nervous-core"
+     ]
+    },
+    {
+     "id": "study:b-hormones-core",
+     "minutes": 35,
+     "topics": [
+      "b-hormones"
+     ],
+     "sessions": [
+      "b-hormones-core"
+     ]
+    },
+    {
+     "id": "study:b-biotech-core",
+     "minutes": 35,
+     "topics": [
+      "b-biotech"
+     ],
+     "sessions": [
+      "b-biotech-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-11-02-1",
+     "minutes": 60,
+     "topics": [
+      "m-algebra"
+     ],
+     "sessions": [
+      "math-proportion-and-graphs"
+     ]
+    },
+    {
+     "id": "study:b-respiration-core",
+     "minutes": 35,
+     "topics": [
+      "b-respiration"
+     ],
+     "sessions": [
+      "b-respiration-core"
+     ]
+    },
+    {
+     "id": "study:b-plants-core",
+     "minutes": 35,
+     "topics": [
+      "b-plants"
+     ],
+     "sessions": [
+      "b-plants-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "v2:2026-11-03-1",
+     "minutes": 60,
+     "topics": [
+      "e-analysis"
+     ],
+     "sessions": [
+      "e-analysis-core"
+     ]
+    },
+    {
+     "id": "v2:2026-11-03-2",
+     "minutes": 60,
+     "topics": [
+      "f-listen"
+     ],
+     "sessions": [
+      "f-listen-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "study:b-earlier-core",
+     "minutes": 35,
+     "topics": [
+      "b-earlier"
+     ],
+     "sessions": [
+      "b-earlier-core"
+     ]
+    },
+    {
+     "id": "study:g-previous-core",
+     "minutes": 35,
+     "topics": [
+      "g-previous"
+     ],
+     "sessions": [
+      "g-previous-core"
+     ]
+    },
+    {
+     "id": "study:s-d-core",
+     "minutes": 30,
+     "topics": [
+      "s-d"
+     ],
+     "sessions": [
+      "s-d-core"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "biology-full",
+     "minutes": 120,
+     "topics": [
+      "b-cells",
+      "b-nutrition",
+      "b-transport",
+      "b-respiration",
+      "b-plants",
+      "b-disease",
+      "b-evolution",
+      "b-environment",
+      "b-biotech",
+      "b-nervous",
+      "b-hormones",
+      "b-earlier",
+      "s-b",
+      "s-c",
+      "s-d"
+     ]
+    },
+    {
+     "id": "biology-correct",
+     "minutes": 20,
+     "topics": []
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "recall": 5,
+   "blocks": [
+    {
+     "id": "physics-partial",
+     "minutes": 65,
+     "topics": []
+    },
+    {
+     "id": "chemistry-partial",
+     "minutes": 65,
+     "topics": []
+    }
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "recall": 0,
+   "blocks": []
+  },
+  {
+   "date": "2026-11-08",
+   "recall": 0,
+   "blocks": [
+    {
+     "id": "2026-11-08-1",
+     "minutes": 25,
+     "topics": [
+      "e-analysis",
+      "e-creative",
+      "e-purpose"
+     ]
+    },
+    {
+     "id": "2026-11-08-2",
+     "minutes": 20,
+     "topics": [
+      "a-language"
+     ]
+    },
+    {
+     "id": "2026-11-08-3",
+     "minutes": 15,
+     "topics": []
+    }
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "recall": 0,
+   "blocks": [
+    {
+     "id": "2026-11-09-1",
+     "minutes": 30,
+     "topics": [
+      "b-cells",
+      "b-disease",
+      "s-b",
+      "s-c",
+      "s-d"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "recall": 0,
+   "blocks": [
+    {
+     "id": "2026-11-10-1",
+     "minutes": 15,
+     "topics": [
+      "f-listen",
+      "f-write"
+     ]
+    },
+    {
+     "id": "2026-11-10-2",
+     "minutes": 15,
+     "topics": [
+      "c-quantity",
+      "c-changes",
+      "s-b",
+      "s-c",
+      "s-d"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "recall": 0,
+   "blocks": [
+    {
+     "id": "2026-11-11-1",
+     "minutes": 15,
+     "topics": [
+      "g-tectonics"
+     ]
+    },
+    {
+     "id": "2026-11-11-2",
+     "minutes": 15,
+     "topics": [
+      "p-energy",
+      "p-electric",
+      "p-forces"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "recall": 0,
+   "blocks": [
+    {
+     "id": "2026-11-12-1",
+     "minutes": 25,
+     "topics": [
+      "m-core",
+      "m-algebra",
+      "m-geometry",
+      "m-data"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "recall": 0,
+   "blocks": []
+  }
+ ],
+ "topics": [
+  "p-atom",
+  "p-energy",
+  "p-matter",
+  "p-electric",
+  "p-forces",
+  "p-waves",
+  "c-atoms",
+  "c-bonds",
+  "c-quantity",
+  "c-changes",
+  "c-energy",
+  "c-rates",
+  "c-air",
+  "b-cells",
+  "b-nutrition",
+  "b-transport",
+  "b-respiration",
+  "b-plants",
+  "b-disease",
+  "b-evolution",
+  "b-environment",
+  "m-core",
+  "m-algebra",
+  "m-geometry",
+  "m-data",
+  "g-tectonics",
+  "g-previous",
+  "e-analysis",
+  "e-creative",
+  "e-purpose",
+  "f-listen",
+  "f-write",
+  "f-language",
+  "b-biotech",
+  "b-nervous",
+  "b-hormones",
+  "b-earlier",
+  "s-b",
+  "s-c",
+  "s-d",
+  "a-language"
+ ],
+ "sessions": [
+  {
+   "id": "atomic-structure",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "isotopes",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "atomic-models",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "radiation",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "nuclear-equations",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "half-life",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "contamination",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "background",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "half-life-choice",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "uses",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "fission",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "fusion",
+   "topic": "p-atom",
+   "minutes": 25
+  },
+  {
+   "id": "p-energy-core",
+   "topic": "p-energy",
+   "minutes": 35
+  },
+  {
+   "id": "p-matter-core",
+   "topic": "p-matter",
+   "minutes": 35
+  },
+  {
+   "id": "p-electric-core",
+   "topic": "p-electric",
+   "minutes": 35
+  },
+  {
+   "id": "p-forces-core",
+   "topic": "p-forces",
+   "minutes": 35
+  },
+  {
+   "id": "p-waves-core",
+   "topic": "p-waves",
+   "minutes": 35
+  },
+  {
+   "id": "c-atoms-core",
+   "topic": "c-atoms",
+   "minutes": 35
+  },
+  {
+   "id": "c-bonds-core",
+   "topic": "c-bonds",
+   "minutes": 35
+  },
+  {
+   "id": "c-quantity-core",
+   "topic": "c-quantity",
+   "minutes": 35
+  },
+  {
+   "id": "c-changes-core",
+   "topic": "c-changes",
+   "minutes": 35
+  },
+  {
+   "id": "c-energy-core",
+   "topic": "c-energy",
+   "minutes": 35
+  },
+  {
+   "id": "c-rates-core",
+   "topic": "c-rates",
+   "minutes": 35
+  },
+  {
+   "id": "c-air-core",
+   "topic": "c-air",
+   "minutes": 35
+  },
+  {
+   "id": "b-cells-core",
+   "topic": "b-cells",
+   "minutes": 35
+  },
+  {
+   "id": "b-nutrition-core",
+   "topic": "b-nutrition",
+   "minutes": 35
+  },
+  {
+   "id": "b-transport-core",
+   "topic": "b-transport",
+   "minutes": 35
+  },
+  {
+   "id": "b-respiration-core",
+   "topic": "b-respiration",
+   "minutes": 35
+  },
+  {
+   "id": "b-plants-core",
+   "topic": "b-plants",
+   "minutes": 35
+  },
+  {
+   "id": "b-disease-core",
+   "topic": "b-disease",
+   "minutes": 35
+  },
+  {
+   "id": "b-evolution-core",
+   "topic": "b-evolution",
+   "minutes": 35
+  },
+  {
+   "id": "b-environment-core",
+   "topic": "b-environment",
+   "minutes": 35
+  },
+  {
+   "id": "m-data-core",
+   "topic": "m-data",
+   "minutes": 35
+  },
+  {
+   "id": "g-tectonics-core",
+   "topic": "g-tectonics",
+   "minutes": 35
+  },
+  {
+   "id": "g-previous-core",
+   "topic": "g-previous",
+   "minutes": 35
+  },
+  {
+   "id": "e-analysis-core",
+   "topic": "e-analysis",
+   "minutes": 60
+  },
+  {
+   "id": "e-creative-core",
+   "topic": "e-creative",
+   "minutes": 35
+  },
+  {
+   "id": "e-purpose-core",
+   "topic": "e-purpose",
+   "minutes": 35
+  },
+  {
+   "id": "f-listen-core",
+   "topic": "f-listen",
+   "minutes": 50
+  },
+  {
+   "id": "f-write-core",
+   "topic": "f-write",
+   "minutes": 35
+  },
+  {
+   "id": "f-language-core",
+   "topic": "f-language",
+   "minutes": 35
+  },
+  {
+   "id": "b-biotech-core",
+   "topic": "b-biotech",
+   "minutes": 35
+  },
+  {
+   "id": "b-nervous-core",
+   "topic": "b-nervous",
+   "minutes": 35
+  },
+  {
+   "id": "b-hormones-core",
+   "topic": "b-hormones",
+   "minutes": 35
+  },
+  {
+   "id": "b-earlier-core",
+   "topic": "b-earlier",
+   "minutes": 35
+  },
+  {
+   "id": "s-b-core",
+   "topic": "s-b",
+   "minutes": 30
+  },
+  {
+   "id": "s-c-core",
+   "topic": "s-c",
+   "minutes": 30
+  },
+  {
+   "id": "s-d-core",
+   "topic": "s-d",
+   "minutes": 30
+  },
+  {
+   "id": "a-language-core",
+   "topic": "a-language",
+   "minutes": 35
+  },
+  {
+   "id": "math-mathematical-language",
+   "topic": "m-core",
+   "minutes": 20
+  },
+  {
+   "id": "math-proof-and-generalisation",
+   "topic": "m-core",
+   "minutes": 35
+  },
+  {
+   "id": "math-coordinate-geometry",
+   "topic": "m-core",
+   "minutes": 35
+  },
+  {
+   "id": "math-linear-equations",
+   "topic": "m-core",
+   "minutes": 35
+  },
+  {
+   "id": "math-simultaneous-equations",
+   "topic": "m-core",
+   "minutes": 35
+  },
+  {
+   "id": "math-linear-inequalities",
+   "topic": "m-core",
+   "minutes": 35
+  },
+  {
+   "id": "math-sets-and-venn",
+   "topic": "m-core",
+   "minutes": 35
+  },
+  {
+   "id": "math-functions",
+   "topic": "m-algebra",
+   "minutes": 35
+  },
+  {
+   "id": "math-quadratic-graphs",
+   "topic": "m-algebra",
+   "minutes": 35
+  },
+  {
+   "id": "math-quadratic-equations",
+   "topic": "m-algebra",
+   "minutes": 35
+  },
+  {
+   "id": "math-sequences",
+   "topic": "m-algebra",
+   "minutes": 35
+  },
+  {
+   "id": "math-formulae-and-fractions",
+   "topic": "m-algebra",
+   "minutes": 35
+  },
+  {
+   "id": "math-proportion-and-graphs",
+   "topic": "m-algebra",
+   "minutes": 35
+  },
+  {
+   "id": "math-right-triangles",
+   "topic": "m-geometry",
+   "minutes": 35
+  },
+  {
+   "id": "math-trigonometry",
+   "topic": "m-geometry",
+   "minutes": 35
+  },
+  {
+   "id": "math-circles",
+   "topic": "m-geometry",
+   "minutes": 35
+  }
+ ]
+}

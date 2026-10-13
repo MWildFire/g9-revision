@@ -1,8 +1,8 @@
-> Historical handoff for June 2026. Updated location: `[redacted]/Projects/g9-revision`. For the September 2026 review, current mock preparation and unresolved school scope, read [the current review](docs/review/2026-09-28.md) and README. The former description of [redacted] as [redacted]'s parent was incorrect: he is [redacted]'s tutor.
+> Historical handoff for June 2026. Updated location: `~/Projects/g9-revision`. For the September 2026 review, current mock preparation and unresolved school scope, read [the current review](docs/review/2026-09-28.md) and README.
 
 # G9 Revision Hub — Project Handoff
 
-A multi-subject revision site for [redacted]'s **Grade 9 IB MYP End-of-Year (EOY) exams in June 2026** at [redacted] Dubai. Bilingual (English + Russian), hosted on GitHub Pages. Replaces a worse "physics-revision" v1 prototype that lives in the parent directory.
+A multi-subject revision site for a student's **Grade 9 IB MYP End-of-Year (EOY) exams in June 2026**. Bilingual (English + Russian), hosted on GitHub Pages. Replaces a worse "physics-revision" v1 prototype that lives in the parent directory.
 
 ---
 
@@ -10,15 +10,15 @@ A multi-subject revision site for [redacted]'s **Grade 9 IB MYP End-of-Year (EOY
 
 - **Live site**: <https://mwildfire.github.io/g9-revision/>
 - **GitHub repo**: <https://github.com/MWildFire/g9-revision> (owner: `MWildFire`)
-- **Local path**: `[redacted]/PhysicsExamProject/g9-revision/`
-- **Parent dir** (also contains source PDFs and the old physics-revision v1): `[redacted]/PhysicsExamProject/`
+- **Local path**: `~/PhysicsExamProject/g9-revision/`
+- **Parent dir** (also contains source PDFs and the old physics-revision v1): `~/PhysicsExamProject/`
 - **Default exam date**: 2026-06-15 (configurable in the Timetable page UI; stored in localStorage)
 
 ---
 
 ## Who is this for
 
-**[redacted]** — a Grade 9 student preparing for the EOY exams in June 2026. The user (his parent) drives content updates. The site is meant to be the **ultimate self-contained study tool**: every topic should have enough depth that the student doesn't need to Google or refer to other notes.
+**The student** — a Grade 9 student preparing for the EOY exams in June 2026. The site owner (his tutor) drives content updates. The site is meant to be the **ultimate self-contained study tool**: every topic should have enough depth that the student doesn't need to Google or refer to other notes.
 
 User's stated quality bar (paraphrased): *"each topic should be revealed deeply so all necessary information can be taken directly from the site, not having to google anywhere else."*
 
@@ -139,7 +139,7 @@ g9-revision/
 | `biology` | Biology | **7** main topics (cells, body-systems, **photosynthesis**, ecology, genetics, immune, experiment) + Extras | Photosynthesis added 2026-05-20 after teacher Kyle Neil clarified the exam syllabus. CellDiagram, HeartDiagram, PunnettSquare sims |
 | `english` | English | 8 main topics (macbeth, exam-format, progress-test, text-types, devices, grammar, reading, essays) + Extras | Macbeth has scene-by-scene guiding questions |
 | `french` | French | 6 main topics (units, vocab, tenses, grammar, phrases, text-types) + Extras | Level toggle (Emergent/Capable/Proficient) — partial wiring |
-| `arabic` | Arabic | 5 main topics (mrs-hala, alphabet, vocab, grammar, phrases) + Extras | RTL-aware grammar examples |
+| `arabic` | Arabic | 5 main topics (booklet, alphabet, vocab, grammar, phrases) + Extras | RTL-aware grammar examples |
 | `geography` | Geography | 4 main topics (rivers, tourism, resource-reliance, atmospheric-hazards) + Fieldwork + Extras | Most simulation-heavy after physics — Bradshaw model, Butler model, ENSO toggle, atmospheric circulation, storm hydrograph |
 
 Subject config lives in **`src/config/subjects.ts`**. The `topicsCount` here drives the home-page progress bar denominator (e.g., "0 / 7"), so it must equal the actual number of MAIN topics in the sidebar (not counting Home/Extras/Criteria-style auxiliary pages).
@@ -296,7 +296,7 @@ First version: marking a topic complete in the planner wrote only to `state.time
 ## Local dev workflow
 
 ```bash
-cd [redacted]/PhysicsExamProject/g9-revision
+cd ~/PhysicsExamProject/g9-revision
 npm install                  # First-time
 npm run dev                  # http://localhost:5173/g9-revision/
 ```

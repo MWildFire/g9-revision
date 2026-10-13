@@ -28,7 +28,7 @@ const ACTIONS = [
 ] as const;
 
 const REFERENCE = [
-  { to: '/arabic/mrs-hala', key: 'mrsHala', icon: GraduationCap },
+  { to: '/arabic/booklet', key: 'mrsHala', icon: GraduationCap },
   { to: '/arabic/alphabet', key: 'alphabet', icon: Type },
   { to: '/arabic/vocab', key: 'vocab', icon: BookA },
   { to: '/arabic/grammar', key: 'grammar', icon: ScrollText },

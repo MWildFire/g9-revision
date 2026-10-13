@@ -1,5 +1,5 @@
 # C-c-atoms — Строение атома и периодическая таблица
-- готово: 2026-10-13 11:10 GST · лейн C · поток [redacted]hem
+- готово: 2026-10-13 11:10 GST · лейн C
 - пункты: изменено 50 / оставлено 40 / удалено 0. Ручные правки: `src/components/simulations/chemistry/AtomBuilder.tsx` (схема по viewBox, явные карточки убраны), `src/content/formulaTeaching.ts` (matches карточки заряда), `src/components/content/DefinitionSupport.tsx` (перенос строк не режет по неразрывным пробелам), `src/i18n/en/chemistry.json` и `src/i18n/ru/chemistry.json` (review.sources), `src/modules/november/content.ts`, `src/modules/november/guidedTeaching.ts`.
 - EN источники: страниц учебника нет. Termaat & Talbot, Chemistry for the IB MYP 4&5 (Hodder 2016) локально не найден; в источниках указана издательская страница без проверенных страниц. RU источники: РЭШ, 8 класс, уроки 26 и 27 (из среды не открыты, проверить вручную); Foxford «Периодическая система химических элементов» (открыт, разделы о группах и металлах совпали).
 - ревью: VERDICT FIX, исправлено. Один цикл: независимый ревьюер, фиксер, повторная проверка исправлений. Последний CRITICAL (перенос «A = 12») исправлен после повторной проверки и подтверждён проверкой разбиения, тестами и рендером.

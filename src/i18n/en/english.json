@@ -279,7 +279,7 @@
       "rule": "A letter is a message addressed to a recipient. Include an appropriate greeting, organised body and closing; a formal posted letter may need addresses and a date. Layout and closing conventions vary by country and organisation.",
       "examples": [
         "Formal opening: 'Dear Mr Smith,' / closing: 'Yours sincerely, [name]' (when you know the name) or 'Yours faithfully' (when you don't).",
-        "Informal opening: 'Dear Granny,' / closing: 'Love, [redacted]' or 'Best wishes,'.",
+        "Informal opening: 'Dear Granny,' / closing: 'Love, Sam' or 'Best wishes,'.",
         "Letter of complaint: state the issue, evidence, action requested, deadline.",
         "Letter to editor: short, punchy, opinion-driven."
       ],
@@ -290,8 +290,8 @@
       "rule": "An email is an electronic message with a recipient and usually a subject, greeting, body and sign-off. Its register may be formal or informal: purpose and relationship matter more than the medium.",
       "examples": [
         "Subject: 'Request: extension on history essay deadline'",
-        "Body: 'Hi Mrs Williams, I'm writing to ask for a two-day extension on the history essay due Friday. I've been unwell since Monday. Thank you for considering this. Best wishes, [redacted].'",
-        "Reply: 'Hi [redacted], Thanks for letting me know. The new deadline is Monday at 9am. Best, Mrs W.'"
+        "Body: 'Hi Ms Taylor, I'm writing to ask for a two-day extension on the history essay due Friday. I've been unwell since Monday. Thank you for considering this. Best wishes, Sam.'",
+        "Reply: 'Hi Sam, Thanks for letting me know. The new deadline is Monday at 9am. Best, Ms Taylor'"
       ],
       "tip": "First sentence states your purpose — readers scan, they don't read line by line. Subject lines decide if your email gets opened."
     },
@@ -356,12 +356,12 @@
       "rule": "A script sets out dialogue and directions for performance or production. Stage plays, film and radio use different conventions; character labels and clear action or sound directions help the intended performers.",
       "examples": [
         "Scene heading: 'INT. SCHOOL CAFETERIA — DAY'",
-        "Action: '[redacted] sits alone, picking at his food. SARA enters, sees him.'",
+        "Action: 'SAM sits alone, picking at his food. SARA enters, sees him.'",
         "Dialogue: 'SARA: Mind if I sit?'",
         "Parenthetical: '(quietly) Yeah... whatever.'",
         "Plays use slightly different format (e.g., character names centered) vs screenplays (Hollywood format)."
       ],
-      "tip": "Show, don't tell. Don't write '[redacted] is sad' — write '[redacted] stares at his lunch without eating.' Dialogue should sound like real people speaking, not perfect sentences."
+      "tip": "Show, don't tell. Don't write 'Sam is sad' — write 'Sam stares at his lunch without eating.' Dialogue should sound like real people speaking, not perfect sentences."
     }
   },
   "devicesPage": {
@@ -601,7 +601,7 @@
           "name": "Apostrophe (')",
           "use": "An apostrophe marks omitted letters in contractions, such as don’t, or forms many genitives, such as the teacher’s advice. A genitive expresses a relationship, not always literal ownership. Ordinary noun plurals do not take an apostrophe.",
           "examples": [
-            "[redacted]'s book — book belongs to [redacted] (singular owner).",
+            "Sam's book — book belongs to Sam (singular owner).",
             "The students' essays — essays of the students (plural owners).",
             "Don't = do not. It's = it is. They're = they are.",
             "James's coat / James' coat — both accepted; pick one and be consistent."

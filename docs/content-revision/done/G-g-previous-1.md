@@ -1,5 +1,5 @@
 # G-g-previous-1 — Geography · rivers, atmospheric hazards
-- готово: 13.10.2026 18:20 GST · лейн G · поток [redacted]eo
+- готово: 13.10.2026 18:20 GST · лейн G
 - пункты: изменено 248 через apply (из 387; оставлено 139, из них с причиной). Ручные правки после apply: `src/i18n/en/geography.json`, `src/i18n/ru/geography.json` (раздел rivers и atmosphericHazards), `src/modules/geography/pages/RiversPage.tsx`, `src/modules/geography/pages/AtmosphericHazardsPage.tsx`, `src/components/simulations/geography/*.tsx`, CSS симуляций (по итогам ревью и визуальной проверки)
 - EN источники: RGS (Бредшоу, продольный профиль), Steven Earle (§13.2–13.5, §5.1–5.2 — по оглавлению и частично; 403), Met Office (ячейки, давление, Boscastle), NOAA JetStream (климатические зоны, тропические циклоны), NOAA Ocean Service (ENSO), NASA (Солнце, вулканы), NASA JPL (причины изменения климата), FAU (циклы Миланковича), Environment Agency (Boscastle 2014, River Restoration), GIZ (Haiyan), правительство Южной Австралии (засуха)
 - RU источники: `docs/content-revision/GLOSSARY.md`, ВМО (определения ЭНЮК); Фоксфорд, БРЭ, РЭШ недоступны из этой среды — RU-пункты без проверенного источника помечены «RU не открыто»

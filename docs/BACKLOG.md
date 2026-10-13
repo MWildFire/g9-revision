@@ -2,11 +2,11 @@
 
 ## Product direction — 29 September 2026
 
-Use this repository as [redacted]'s primary study hub. Keep dated assessment-preparation packs separate from the broader October MYP mocks map and the existing Grade 9 subject archive.
+Use this repository as the student's primary study hub. Keep dated assessment-preparation packs separate from the broader October MYP mocks map and the existing Grade 9 subject archive.
 
 ## Deferred: dedicated hosting / custom domain
 
-Requested by [redacted] as a future project item, not work to carry out now. GitHub Pages remains the current hosting target. No new hosting account, server, tunnel, paid plan or always-running local service is needed for the current release.
+Requested by the owner as a future project item, not work to carry out now. GitHub Pages remains the current hosting target. No new hosting account, server, tunnel, paid plan or always-running local service is needed for the current release.
 
 When this becomes an active request, choose the domain and provider, preserve existing deep links, confirm any privacy/authentication needs, and migrate only with a tested rollback.
 

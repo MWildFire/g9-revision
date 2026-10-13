@@ -62,6 +62,7 @@ for (const edit of edits) {
   const modes = ['keep', 'delete'].filter(k => edit[k]).length + (edit.en != null || edit.ru != null ? 1 : 0);
   if (modes !== 1) { errors.push(`${where}: give exactly one of: new "en"/"ru" text, "keep": true, or "delete": true`); continue; }
   if ((edit.keep || edit.delete) && !(edit.why ?? '').trim()) errors.push(`${where}: "keep"/"delete" needs a short "why"`);
+  if (edit.create && (edit.en == null || edit.ru == null)) errors.push(`${where}: a new key ("create") needs both "en" and "ru" text`);
   if (edit.delete) continue;
   const finalEn = edit.en ?? item?.en, finalRu = edit.ru ?? item?.ru;
   for (const [lang, text] of [['en', finalEn], ['ru', finalRu]]) if (typeof text === 'string' && !text.trim()) errors.push(`${where} [${lang}]: пустой текст — напишите текст или поставьте "delete"`);

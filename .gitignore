@@ -33,3 +33,6 @@ vite.config.d.ts
 content-work/
 infra/aws/state.json
 dist-aws/
+
+# local design-hook state (impeccable plugin)
+.impeccable/

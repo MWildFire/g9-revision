@@ -2,7 +2,7 @@
 
 User explicitly requests whole-site corrections: every instructional formula must have symbol meanings, units, interpretation and a worked example adjacent to its topic. Existing p-atom is twelve lessons, not a 25-minute activity. Expand shallow topic lists into teaching; preserve atomic material depth. Replan by bounded portions, including tutors and Saturday rest, mocks 9–13 November. Prior sourcing constraint: EN grounded in inspected IB books; independent Russian terminology/sources. Publish current GitHub Pages destination; no Sites migration.
 
-Canonical checkout [redacted]/Projects/g9-revision; clean main initially 2b595f1. React TS Vite. No project AGENTS found in files. User asks completion, no approval needed.
+Canonical checkout ~/Projects/g9-revision; clean main initially 2b595f1. React TS Vite. No project AGENTS found in files. User asks completion, no approval needed.
 
 Audit findings: UI Formula and MathFormula render bare expressions. DetailedCard, ChemSection, InfoSection, TermCard and math LessonBody contain formula strings. PhysicsSeptember renders lesson.formulas after all sections, causing screenshot confusion; November reuses this. November LibraryTheory embeds whole subject pages, often repeated (body systems across four units; chemistry extras across two). Plan budgets entire multi-topic libraries at 15–35 minutes and combines unrelated topics. Required material must be explicit; optional full reference must not masquerade as required block.
 
@@ -12,7 +12,7 @@ Memory consulted: MEMORY.md 1192–1234 and rollout 2026-09-28T07-29-59-y6Da, ID
 
 ## User steering during implementation
 
-[redacted] and [redacted] completed today (11 October) the first three atomic lessons: Inside an atom; Atomic number, mass number and isotopes; How the atomic model changed. Replied that this is sufficient if worked examples and independent explanations were attempted; offered three brief recall questions. Treat these three lessons as reported complete, not mastery of the whole p-atom course. No further new material assigned today. Actual study duration was not supplied; any minutes remain estimates. Preserve this completion during plan migration.
+The student completed today (11 October) the first three atomic lessons: Inside an atom; Atomic number, mass number and isotopes; How the atomic model changed. Replied that this is sufficient if worked examples and independent explanations were attempted; offered three brief recall questions. Treat these three lessons as reported complete, not mastery of the whole p-atom course. No further new material assigned today. Actual study duration was not supplied; any minutes remain estimates. Preserve this completion during plan migration.
 
 ## Implemented so far
 

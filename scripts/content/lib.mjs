@@ -334,7 +334,15 @@ export function applyEdits(batch, edits, { dryRun = false } = {}) {
     }
     const total = hits.reduce((a, h) => a + h.count, 0);
     if (!total) { errors.push(`${edit.id}: literal not found in ${files.join(', ')} — edit this text by hand (Edit tool) and re-run extract`); return; }
-    if (total > 1 && oldValue.length < 25 && !edit.replaceAll) { errors.push(`${edit.id}: short text "${oldValue}" occurs ${total}× — add "replaceAll": true if every occurrence should change, otherwise edit by hand`); return; }
+    // Every copy of a literal is rewritten, and copies can sit on other pages (the source files of a ts unit
+    // include all its local imports). So any repeated text, short or long, needs an explicit "replaceAll".
+    if (total > 1 && !edit.replaceAll) {
+      const where = hits.map(h => `${h.file} ×${h.count}`).join(', ');
+      errors.push(oldValue.length < 25
+        ? `${edit.id}: short text "${oldValue}" occurs ${total}× (${where}) — add "replaceAll": true if every occurrence should change, otherwise edit by hand`
+        : `${edit.id}: the same text occurs ${total}× (${where}) — other copies may be on other pages; add "replaceAll": true only if every copy should change, otherwise edit this copy by hand`);
+      return;
+    }
     for (const { file } of hits) {
       if (!literalChanges.has(file)) literalChanges.set(file, new Map());
       const prior = literalChanges.get(file).get(oldValue);
@@ -353,6 +361,7 @@ export function applyEdits(batch, edits, { dryRun = false } = {}) {
       const m = edit.id.match(/^i18n:([A-Za-z0-9_-]+):(.+)$/);
       if (!m) { errors.push(`${edit.id}: unexpected i18n id — edit by hand`); continue; }
       const [, ns, rest] = m;
+      if (edit.create && !batch.units.some(u => u.kind === 'i18n' && u.ns === ns)) { errors.push(`${edit.id}: namespace "${ns}" is not part of batch ${batch.id ?? ''} — a new key goes into a namespace of this batch`); continue; }
       const termPair = rest.endsWith('#terms');
       const keys = parsePath(rest.replace(/#terms$/, ''));
       if (unsafeKeys(keys)) { errors.push(`${edit.id}: unsafe key — edit by hand`); continue; }

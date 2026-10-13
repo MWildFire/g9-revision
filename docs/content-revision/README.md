@@ -29,7 +29,7 @@ npm run qa:render -- --batch <batch> --mobile --shots   # must end with 0 failed
 
 - Every worksheet item needs exactly one decision: new text (`en` and/or `ru`), `keep` + `why`, or `delete` + `why`.
 - `delete` and `create` work for i18n keys only. Add `"bilingual": true` to `create` for an `{en, ru}` object such as `review.contrast`.
-- TypeScript items are written back by locating the old string literal. A short string (< 25 characters) that occurs several times needs `"replaceAll": true`.
+- TypeScript items are written back by locating the old string literal. Any string that occurs more than once in the batch files (short or long) needs `"replaceAll": true` — every copy changes, and copies can sit on other pages; otherwise edit that copy by hand and re-run extract. After each `content:apply`, run `content:extract` again before applying more edits to the same files: TSX item ids are line.column and shift.
 - What the tool cannot do (new sections in components, reordering, new formula cards), do by hand with the editor, then run extract + lint again.
 - Text formatting the site renders: blank line = new paragraph, lines starting with `- ` = list, `**bold**`.
 

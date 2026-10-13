@@ -1,6 +1,6 @@
 # B-b-cells — Биология: клетки, микроскопы, транспорт через мембраны
 
-- готово: 2026-10-13 10:53 GST · лейн B · поток [redacted]io
+- готово: 2026-10-13 10:53 GST · лейн B
 - пункты: изменено 169 (из них 7 новых — практическая работа «осмос»), оставлено 85, удалено 5 (повторы «Не путать»); ручные правки: `src/modules/biology/pages/CellsPage.tsx` (раздел «осмос-практикум» в TRANSPORT), `src/components/content/DetailedCard.tsx` (абзацы в rule), `src/content/chemBioFormulaTeaching.ts` (карточка уравнений дыхания — триггер; карточка увеличения и S:V — текст), `src/modules/november/biologyTeaching.ts` и `content.ts` (ноябрьские пункты), `src/components/simulations/biology/MicroscopyResolution.tsx` (подписи схемы микроскопа), `tests/life-chemistry-definitions-revision.test.mjs` и `tests/november-plan.test.mjs` (два утверждения обновлены, см. ниже)
 - EN источники: полного учебника IB по биологии на Mac нет (Davis & Deo и Allott & Mindorff не найдены). Определения — по знаниям IB MYP 4–5, каждое проверено fact-checker. Для микроскопа — PBC (Hodder, физика), стр. 17–18. RU источники: РЭШ и БРЭ из сессии не открылись, ссылки по заголовку, по содержанию не сверены.
 - ревью: FIX (CRITICAL 0, MAJOR 4, MINOR 19) → исправлено MAJOR 1–4 и визуальные 1–3, 5 → повторный проход по исправлениям: OK (правило 10, без третьего круга). Открытые MINOR — ниже.

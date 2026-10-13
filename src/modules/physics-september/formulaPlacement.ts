@@ -2,7 +2,7 @@
 export const atomicFormulaPlacement:Record<string,Record<number,string[]>>={
  'atomic-structure':{1:['nanometre'],2:['charge'],3:['photon']},
  'isotopes':{0:['nucleons']},
- 'radiation':{1:['nuclear-equation'],3:['activity','decay']},
+ 'radiation':{0:['decay'],1:['nuclear-equation'],3:['activity']},
  'nuclear-equations':{0:['nuclear-equation']},
  'half-life':{1:['decay'],2:['activity']},
  'contamination':{2:['dose']},

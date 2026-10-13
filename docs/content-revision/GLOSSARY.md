@@ -276,6 +276,110 @@
 | food security | продовольственная безопасность | продовольственн |
 | tropical cyclone | тропический циклон | тропическ |
 | drought | засуха | засух |
+| Urbanisation | Урбанизация | урбани |
+| Globalisation | Глобализация | глобал |
+| Biome | Биом | биом |
+| Human development | Человеческое развитие | челове, развит |
+| Discharge and velocity | Расход и скорость течения | расход, скорос |
+| Storm hydrograph; lag time | Паводочный гидрограф; время запаздывания | паводо, гидрог |
+| Tourism area life cycle | Модель жизненного цикла туристического района | модель, жизнен |
+| El Niño–Southern Oscillation (ENSO) | Эль-Ниньо — Южное колебание (ЭНСО) | эль-ни |
+| Visitor management | Управление посещениями | управл, посеще |
+| Boscastle flash flood | Внезапное наводнение в Боскасле | внезап, наводн |
+| Typhoon Haiyan / Yolanda | Тайфун Хайян / Йоланда | тайфун, хайян |
+| Millennium Drought | «Тысячелетняя засуха» | тысяче, засуха |
+| Aim | Цель | цель |
+| Hypothesis | Гипотеза | гипоте |
+| Null hypothesis (H₀) | Нулевая гипотеза (H₀) | нулева, гипоте |
+| Primary data | Первичные данные | первич, данные |
+| Secondary data | Вторичные данные | вторич, данные |
+| Quantitative data | Количественные данные | количе, данные |
+| Qualitative data | Качественные данные | качест, данные |
+| Sample size | Объём выборки | объём, выборк |
+| Systematic sampling | Систематическая выборка | систем, выборк |
+| Stratified sampling | Стратифицированная выборка | страти, выборк |
+| Simple random sampling | Простая случайная выборка | проста, случай |
+| Bar chart | Столбчатая диаграмма | столбч, диагра |
+| Line graph | Линейный график | линейн, график |
+| Scatter graph | Диаграмма рассеяния | диагра, рассея |
+| Pie chart | Круговая диаграмма | кругов, диагра |
+| Geographic information system (GIS) | ГИС | гис |
+| Spearman's rank correlation coefficient | Коэффициент ранговой корреляции Спирмена | коэффи, рангов |
+| Conclusion | Вывод | вывод |
+| Evaluation | Оценка качества исследования | оценка, качест |
+| Abrasion (corrasion) | Истирание русла наносами (abrasion) | истира, русла |
+| Attrition | Истирание и дробление обломков (attrition) | истира, дробле |
+| Hydraulic action | Гидравлическое действие | гидрав, действ |
+| Solution (corrosion) | Растворение пород | раство, пород |
+| Traction | Волочение и перекатывание | волоче, перека |
+| Saltation | Сальтация | сальта |
+| Suspension | Перенос во взвеси | перено, взвес |
+| Dissolved load (transport in solution) | Растворённые вещества | раство, вещест |
+| Intense or prolonged rainfall | Сильные или длительные осадки | сильны, длител |
+| Antecedent conditions and saturation | Предшествующее увлажнение и насыщение | предше, увлажн |
+| Snowmelt | Снеготаяние | снегот, таяни |
+| Steep slopes, basin shape and soils | Крутые склоны, форма бассейна и почвы | крутые, склоны |
+| Deforestation and runoff | Обезлесение и сток | обезле, сток |
+| Urbanisation and runoff | Урбанизация и сток | урбани, сток |
+| Climate change and flood risk | Изменение климата и риск паводков | измене, климат |
+| Dams and reservoirs | Плотины и водохранилища | плотин, водохр |
+| Flood embankments (artificial levees) | Защитные дамбы | защитн, дамбы |
+| Channel straightening | Спрямление русла | спрямл, русла |
+| Flood walls | Противопаводковые стены | против, стены |
+| Floodplain zoning | Зонирование поймы | зониро, поймы |
+| Afforestation and catchment woodland | Лесоразведение в водосборном бассейне | лесора, водосб |
+| River restoration | Восстановление русла и поймы | восста, русла |
+| Flood forecasts and warnings | Прогнозы и предупреждения о паводках | прогно, предуп |
+| Mass tourism | Массовый туризм | массов, туризм |
+| Dark tourism / thanatourism | Танатуризм | танату |
+| Medical tourism | Медицинский туризм | медици, туризм |
+| Adventure and extreme tourism | Приключенческий и экстремальный туризм | приклю, экстре |
+| Voluntourism | Волонтуризм | волонт |
+| Nature tourism | Природный туризм | природ, туризм |
+| Extreme tourism | Экстремальный туризм | экстре, туризм |
+| Resource | Ресурс | ресурс |
+| Resource consumption | Потребление ресурсов | потреб, ресурс |
+| Carrying capacity | Ёмкость среды | ёмкост, среды |
+| Sustainable development | Устойчивое развитие | устойч, развит |
+| Sustainable Development Goals (SDGs) | Цели устойчивого развития (ЦУР) | цели, устойч |
+| Solar energy | Солнечная энергия | солнеч |
+| Wind energy | Энергия ветра | ветра |
+| Hydropower | Гидроэнергетика | гидроэ |
+| Geothermal energy | Геотермальная энергия | геотер |
+| Biofuels and biomass | Биотопливо и биомасса | биотоп, биомас |
+| Fossil fuels | Ископаемое топливо | ископа, топлив |
+| Nuclear fission energy | Энергия ядерного деления | ядерно |
+| Malthusian population model | Модель Мальтуса | модель, мальту |
+| Agricultural intensification | Интенсификация земледелия | интенс, землед |
+| Water stress | Водный стресс | водный, стресс, нагрузк |
+| Drivers of water stress | Причины водного стресса | причин, водног |
+| Managing water stress | Управление нагрузкой на воду | управл, нагруз |
+| Food insecurity | Продовольственная незащищённость | продов, незащи |
+| Food security measures | Меры по продовольственной безопасности | меры, продов |
+| UN and international agencies | ООН и международные организации | междун, органи |
+| Non-governmental organisations (NGOs) | Неправительственные организации (НПО) | неправ, органи |
+| Businesses and TNCs | Бизнес и ТНК | бизнес |
+| National and local governments | Национальные и местные органы власти | национ, местны |
+| Citizens and consumers | Граждане и потребители | гражда, потреб |
+| Polar climate | Полярный климат | полярн, климат |
+| Temperate climates | Умеренные климаты | умерен, климат |
+| Arid climate | Аридный (сухой) климат | аридны, климат |
+| Tropical climates | Тропические климаты (по Кёппену) | тропич, климат |
+| Mediterranean climate | Средиземноморский климат | средиз, климат |
+| Mountain / highland climates | Горные климаты | горные, климат |
+| Solar angle and latitude | Угол падения солнечных лучей и широта | угол, падени |
+| Axial tilt and seasons | Наклон земной оси и времена года | наклон, земной |
+| Hadley cell | Ячейка Хэдли | ячейка, хэдли |
+| Ferrel cell | Ячейка Ферреля | ячейка, феррел |
+| Polar cell | Полярная ячейка | полярн, ячейка |
+| High-pressure system (anticyclone) | Область высокого давления (антициклон) | област, высоко |
+| Low pressure (cyclone) | Низкое давление (циклон) | низкое, давлен |
+| Tropical cyclone formation | Формирование тропического циклона | формир, тропич |
+| Hurricane, typhoon and tropical cyclone | Ураган, тайфун и тропический циклон | ураган, тайфун |
+| Tropical cyclone hazards and impacts | Опасные процессы и последствия тропического циклона | опасны, процес |
+| ENSO-neutral Pacific conditions | Нейтральные условия ЭНЮК в Тихом океане | нейтра, услови |
+| El Niño | Эль-Ниньо | эль-ни |
+| La Niña | Ла-Нинья | ла-нин |
 
 ## Математика / Mathematics
 

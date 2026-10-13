@@ -8,8 +8,7 @@ The diagrams are authored SVG teaching models. River-process arrows distinguish 
 
 | Source | Language | Section read |
 | --- | --- | --- |
-| [OpenStax — Introductory Statistics 2e](https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling) | EN | 1.2 Data, sampling, graphs and sampling bias |
-| [OpenStax — Introductory Statistics 2e](https://openstax.org/books/introductory-statistics-2e/pages/9-1-null-and-alternative-hypotheses) | EN | 9.1 Null and alternative hypotheses |
+| [Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)](https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/) | EN | ch. 1 'What do geographers do?', pp. 2–27 — section not identified; not checked (book not on Mac) |
 | [Steven Earle — Physical Geology, 2nd edition (BCcampus)](https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/) | EN | 13.3 Stream erosion and deposition; Figures 13.3.1–13.3.3 |
 | [Steven Earle — Physical Geology, 2nd edition (BCcampus)](https://opentextbc.ca/physicalgeology2ed/chapter/13-2-drainage-basins/) | EN | 13.2 Drainage basins; stream gradients |
 | [Steven Earle — Physical Geology, 2nd edition (BCcampus)](https://opentextbc.ca/physicalgeology2ed/chapter/13-5-flooding/) | EN | 13.5 Flooding; flood plains, snowmelt and reducing losses |
@@ -19,7 +18,7 @@ The diagrams are authored SVG teaching models. River-process arrows distinguish 
 | [Philip R. Stone — A Dark Tourism Spectrum (2006)](https://knowledge.lancashire.ac.uk/id/eprint/27720/1/27720%20fulltext_stamped.pdf#page=3) | EN | Introduction and dark tourism supply/demand, pp. 146–147 |
 | [Oxfam — Voluntourism: cultural exchange or doing development badly?](https://frompoverty.oxfam.org.uk/voluntourism-cultural-exchange-or-doing-development-badly/) | EN | Local development needs, volunteer skills and accountability |
 | [US Energy Information Administration — Energy sources](https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php) | EN | Nonrenewable energy; renewable energy |
-| [OpenStax — Introduction to Sociology 3e](https://openstax.org/books/introduction-sociology-3e/pages/20-1-demography-and-population) | EN | 20.1 Demographic theories; Malthusian theory |
+| [Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)](https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/) | EN | ch. 2 'How many are we? How many should we be?', pp. 28–49 — population; section not identified; not checked (book not on Mac) |
 | [FAO — SDG indicator 6.4.2](https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/en) | EN | Level of water stress: freshwater withdrawal relative to resources |
 | [ФАО — Показатель ЦУР 6.4.2](https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/ru) | RU | Уровень нагрузки на водные ресурсы; экологические потребности |
 | [FAO — An Introduction to the Basic Concepts of Food Security](https://www.fao.org/4/al936e/al936e00.pdf#page=1) | EN | I. Four dimensions; II. Duration; III. Severity; V. Hunger, malnutrition and poverty |
@@ -58,7 +57,7 @@ The diagrams are authored SVG teaching models. River-process arrows distinguish 
 | [University of Waikato — Base isolation and seismic dampers](https://www.sciencelearn.org.nz/resources/1022-base-isolation-and-seismic-dampers) | EN | The difference between base isolators and seismic dampers |
 | [Ester Boserup — The Conditions of Agricultural Growth (1965)](https://www.biw.kuleuven.be/aee/clo/idessa_files/boserup1965.pdf#page=4) | EN | Introduction and Chapter 1: The dynamics of land utilisation, PDF pp. 4–9 |
 | [R. W. Butler — Tourism Area Life Cycle (2011)](https://www.goodfellowpublishers.com/free_files/fileTALC.pdf#page=3) | EN | Introduction; Development of the Field; Framing the Field; Figure 1, PDF pp. 3–6 |
-| [OpenStax — Biology 2e](https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes) | EN | 44.3 Terrestrial biomes |
+| [Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)](https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/) | EN | ch. 6 'How can biomes be managed for all to benefit?', pp. 124–153 — section not identified; not checked (book not on Mac) |
 | [UNDP — What is human development?](https://hdr.undp.org/about/human-development) | EN | People, opportunities and choice; Measuring human development |
 | [IAATO — During your visit](https://iaato.org/visiting-antarctica/during-your-visit) | EN | Protect Antarctic Wildlife; Respect Protected Areas; Keep Antarctica Pristine |
 | [Litwin Miller & Jerolmack — Controls on the rates and products of particle attrition by bed-load collisions](https://esurf.copernicus.org/articles/9/755/2021/#section1) | EN | Abstract and 1 Introduction: impact attrition; terminology varies across disciplines |
@@ -67,9 +66,9 @@ The diagrams are authored SVG teaching models. River-process arrows distinguish 
 
 Sources support the scientific and conceptual content. The application’s comparisons, examples and model limitations are authored teaching explanations, not attributed quotations. Foxford is used as a Russian school textbook source; where its simplifications conflict with specialist sources (for example epicentral shaking, earthquake scales or melting), the specialist explanation controls. Sources can change after this review.
 
-- [OpenStax — College Physics 2e](https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity) — EN: 12.1 Flow rate and its relation to velocity; equations 12.1–12.3.
-- [OpenStax — Introductory Statistics 2e](https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs) — EN: 2.1 Line graphs and bar graphs.
-- [OpenStax — Introductory Statistics 2e](https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation) — EN: 12.3 Scatter plots, regression and cautions about interpretation.
+- [Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)](https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/) — EN: ch. 4 'How can we manage the interaction of water and land?', pp. 68–89 — rivers; section not identified; text not checked (book not on Mac).
+- [Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)](https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/) — EN: ch. 1 'What do geographers do?', pp. 2–27 — chart types not checked; text not checked (book not on Mac).
+- [Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)](https://media.hachettelearning.com/media/medialibraries/hodder/samples/geography/14-16/ib-myp-geography/geography-for-the-ib-myp-4and5-by-concept-sample-pages-9781510425804.pdf) — EN: ch. 1 'What do geographers do?', publisher sample pp. 13–14 (scatter diagrams); text not checked (book not on Mac).
 - [Steven Earle — Physical Geology, 2nd edition](https://opentextbc.ca/physicalgeology2ed/chapter/5-2-chemical-weathering/) — EN: 5.2 Chemical weathering; dissolution and hydrolysis.
 
 - [SciPy scientific documentation — Spearman rank correlation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html) — EN: Definition, alternative hypotheses and small-sample permutation-test example.
@@ -89,8 +88,7 @@ The follow-up did not independently recheck the inherited lesson and bibliograph
 
 General overview links were supplemented with the specific sections below. These are source-metadata corrections; they do not turn every contextual paragraph into a separately verified definition. Russian references may support only part of a definition: for example, the FAO Russian FAQ addresses access and the distinction from malnutrition, while the English FAO teaching note supplies the four-dimension framework. Foxford provides Russian terminology and selected core concepts; specialist English sources control the finer distinctions.
 
-- [OpenStax — Introduction to Sociology 3e](https://openstax.org/books/introduction-sociology-3e/pages/2-1-approaches-to-sociological-research) — EN: 2.1 Scientific method: Steps 1, 3, 4 and 5; reliability and validity.
-- [OpenStax — Introduction to Sociology 3e](https://openstax.org/books/introduction-sociology-3e/pages/2-2-research-methods) — EN: 2.2 Research methods: research design; Field Research; Secondary Data Analysis.
+- [Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)](https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/) — EN: ch. 1 'What do geographers do?', pp. 2–27 — section not identified; text not checked (book not on Mac).
 - [Royal Geographical Society — Rural investigations](https://www.rgs.org/schools/resources-for-schools/rural-investigations) — EN: Getting started; Aims within an investigation; Considerations and possible limitations.
 - [US Energy Information Administration — Solar explained](https://www.eia.gov/energyexplained/solar/) — EN: Solar thermal (heat) energy; Solar photovoltaic systems; Benefits and limitations.
 - [US Energy Information Administration — Electricity generation from wind](https://www.eia.gov/energyexplained/wind/electricity-generation-from-wind.php) — EN: How wind turbines work.
@@ -103,5 +101,5 @@ General overview links were supplemented with the specific sections below. These
 - [Cambridge International Education — Understanding command words](https://www.cambridgeinternational.org/exam-administration/what-to-expect-on-exams-day/command-words/) — EN: Evaluate; Explain.
 - [United Nations — Civil Society Unit: About us](https://www.un.org/en/civil-society/page/about-us) — EN: Who We Are: definition and roles of civil society/non-governmental organisations.
 - [United Nations DESA — World Urbanization Prospects 2018: Highlights](https://population.un.org/wup/assets/WUP2018-Highlights.pdf#page=5) — EN: What Is Urbanization? (PDF p. 5); Box 2 Sources of urban growth (PDF p. 20).
-- [OpenStax — Introduction to Business](https://openstax.org/books/introduction-business/pages/3-8-the-impact-of-multinational-corporations) — EN: 3.8 Definition; The Multinational Advantage; cross-border production and operations.
+- [Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)](https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/) — EN: ch. 7 'In what ways does globalization affect us?', pp. 154–179 — section not identified; text not checked (book not on Mac).
 - [UN-Water — Water Security and the Global Water Agenda](https://www.unwater.org/publications/water-security-and-global-water-agenda) — EN: Working definition of water security (2013 analytical brief).

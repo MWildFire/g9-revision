@@ -1,5 +1,7 @@
 # Geography: per-definition completeness
 
+Snapshot before G-open (14.10): OpenStax sources in the records of this inventory were replaced in review.sources (see docs/definitions/geography-sources.md); the records were not recounted.
+
 A block with a term meaning is a definition; causes, proposed solutions, actor-role lists, model descriptions and interface notes are recorded separately.
 EN and RU copies represent one bilingual occurrence. Five identical tourism cards and repeated summaries are deduplicated by canonical concept id.
 A compound glossary entry is one grouped entry; its atomic named terms are separately listed. Synonyms such as focus/hypocentre count as one term.

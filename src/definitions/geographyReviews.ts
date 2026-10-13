@@ -103,9 +103,9 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "OpenStax — Biology 2e",
-        "url": "https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes",
-        "section": "44.3 Terrestrial biomes",
+        "title": "Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)",
+        "url": "https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/",
+        "section": "ch. 6 'How can biomes be managed for all to benefit?', pp. 124–153 — section not identified; text not checked (book not on Mac)",
         "language": "en"
       }
     ]
@@ -135,10 +135,10 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "OpenStax — College Physics 2e",
-        "url": "https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity",
+        "title": "Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)",
+        "url": "https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/",
         "language": "en",
-        "section": "12.1 Flow rate and its relation to velocity; equations 12.1–12.3"
+        "section": "ch. 4 'How can we manage the interaction of water and land?', pp. 68–89 — section not identified; text not checked (book not on Mac)"
       },
       {
         "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
@@ -157,10 +157,10 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "OpenStax — College Physics 2e",
-        "url": "https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity",
+        "title": "Harrison & Torres — Geography for the IB MYP 4&5: by Concept (Hodder, 2019)",
+        "url": "https://www.hachetteukdistribution.co.uk/titles/louise-harrison/geography-for-the-ib-myp-45-by-concept/9781510425804/",
         "language": "en",
-        "section": "12.1 Flow rate and its relation to velocity; equations 12.1–12.3"
+        "section": "ch. 4 'How can we manage the interaction of water and land?', pp. 68–89 — section not identified; text not checked (book not on Mac)"
       },
       {
         "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",

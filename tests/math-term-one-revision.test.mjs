@@ -65,7 +65,7 @@ test('critical distinctions and restrictions remain explicit', () => {
   assert.match(reviewedTerms.Segment.meaning,/chord.*arcs/);
   assert.match(reviewedTerms['Objective function'].meaning,/rule/);
   assert.match(reviewedTerms['Optimal solution'].meaning,/feasible choice/i);
-  assert.match(reviewedTerms.Period.review.model.en,/A ≠ 0 and B ≠ 0/);
+  assert.match(reviewedTerms['Period (Extended)'].review.model.en,/A ≠ 0 and B ≠ 0/);
   assert.match(reviewedTerms['Linear programming'].review.model.en,/integer/);
 });
 

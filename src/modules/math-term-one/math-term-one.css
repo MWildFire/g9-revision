@@ -29,4 +29,4 @@
 .mathrev-filters > label {min-width:0}
 
 /* Formulas and worked-example steps: no line break inside an expression (this class only). */
-.mathrev-formula {white-space:nowrap;overflow-wrap:normal;overflow-x:auto}
+.mathrev-formula {white-space:normal;overflow-wrap:anywhere}

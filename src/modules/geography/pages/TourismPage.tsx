@@ -37,24 +37,24 @@ export function TourismPage() {
       <SectionHeading>{t('tourism.sections.jamaica.title')}</SectionHeading>
       <div className="bg-bg-secondary border border-border rounded-md p-4 space-y-3" style={{ borderLeftColor: 'var(--color-accent-warm)', borderLeftWidth: '3px' }}>
         <div className="text-sm">
-          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Key facts</h4>
+          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Key facts', 'Ключевые факты')}</h4>
           {t('tourism.sections.jamaica.facts')}
         </div>
         <div className="text-sm">
-          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Attractions</h4>
+          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Attractions', 'Что привлекает')}</h4>
           {t('tourism.sections.jamaica.attractions')}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm pt-2 border-t border-border">
           <div>
-            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Positives</h4>
+            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Positives', 'Положительные эффекты')}</h4>
             {t('tourism.sections.jamaica.positives')}
           </div>
           <div>
-            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Negatives</h4>
+            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Negatives', 'Отрицательные эффекты')}</h4>
             {t('tourism.sections.jamaica.negatives')}
           </div>
           <div>
-            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Management</h4>
+            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Management', 'Управление')}</h4>
             {t('tourism.sections.jamaica.management')}
           </div>
         </div>
@@ -63,24 +63,24 @@ export function TourismPage() {
       <SectionHeading>{t('tourism.sections.antarctica.title')}</SectionHeading>
       <div className="bg-bg-secondary border border-border rounded-md p-4 space-y-3" style={{ borderLeftColor: 'var(--color-accent-sky-deep)', borderLeftWidth: '3px' }}>
         <div className="text-sm">
-          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Key facts</h4>
+          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Key facts', 'Ключевые факты')}</h4>
           {t('tourism.sections.antarctica.facts')}
         </div>
         <div className="text-sm">
-          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Why is this growing?</h4>
+          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Why is this growing?', 'Почему число посетителей растёт')}</h4>
           {t('tourism.sections.antarctica.whyGrowing')}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm pt-2 border-t border-border">
           <div>
-            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Positives</h4>
+            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Positives', 'Положительные эффекты')}</h4>
             {t('tourism.sections.antarctica.positives')}
           </div>
           <div>
-            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Negatives</h4>
+            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Negatives', 'Отрицательные эффекты')}</h4>
             {t('tourism.sections.antarctica.negatives')}
           </div>
           <div>
-            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">Management</h4>
+            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-1">{l('Management', 'Управление')}</h4>
             {t('tourism.sections.antarctica.management')}
           </div>
         </div>
@@ -99,20 +99,20 @@ export function TourismPage() {
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="butler-stages"
-          prompt={l("Outline Butler’s model and one limitation.", "Опиши модель Батлера и одно ограничение.")}
-          modelAnswer={l("Exploration, involvement, development, consolidation and stagnation; then possible decline, stabilisation or rejuvenation. These are conceptual pathways, not a fixed timetable.", "Разведочный этап, вовлечение, развитие, консолидация и стагнация; затем возможны спад, стабилизация или обновление. Это концептуальные траектории, а не фиксированное расписание.")}
+          prompt={l("Outline Butler’s model and state one limitation of it.", "Кратко опиши модель Батлера и назови одно её ограничение.")}
+          modelAnswer={l("Butler’s model shows a tourist area’s life cycle in stages: exploration, involvement, development, consolidation and stagnation, then decline or rejuvenation. One limitation is that it is conceptual, with no fixed timescale, so it cannot predict when a stage will begin.", "Модель Батлера описывает жизненный цикл туристического района как последовательность этапов: разведка (exploration), вовлечение, развитие, консолидация и стагнация, затем спад или возрождение. Одно ограничение: модель концептуальная, сроки этапов в ней не заданы, поэтому она не может предсказать, когда начнётся какой-либо этап.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="jamaica-impacts"
-          prompt={l("Explain three possible benefits and costs of mass tourism.", "Объясни три возможные выгоды и издержки массового туризма.")}
-          modelAnswer={l("Benefits can include jobs, local business income and tax revenue. Costs can include seasonal insecurity, profit leakage and environmental pressure. Their scale and distribution require case-specific evidence.", "Выгоды могут включать рабочие места, доходы местного бизнеса и налоги. Издержки — сезонную нестабильность, утечку прибыли и нагрузку на природу. Их масштаб и распределение требуют фактов о конкретном месте.")}
+          prompt={l("Explain three possible benefits and three possible costs of mass tourism.", "Объясни три возможные выгоды и три возможные издержки массового туризма.")}
+          modelAnswer={l("Benefits: tourism creates jobs, brings spending to local shops and cafés, and generates tax revenue that can pay for local services. Costs: many tourism jobs are seasonal, so incomes are unstable. Profits can leave the area, for example when hotels are owned from abroad. Large numbers of visitors can also damage nature. The scale of each effect depends on the place.", "Выгоды: туризм создаёт рабочие места, приносит деньги местным магазинам и кафе и даёт налоговые поступления, которые можно потратить на местные услуги. Издержки: многие рабочие места в туризме сезонные, поэтому доходы нестабильны. Прибыль может уйти из района, например, если отели принадлежат владельцам из-за рубежа. Большой поток туристов может также навредить природе. Масштаб каждого эффекта зависит от места.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="antarctica-management"
           prompt={l("Explain two ways visitor guidance protects Antarctica.", "Объясни два способа защиты Антарктики через правила посещения.")}
-          modelAnswer={l("Avoid disturbing wildlife and introducing non-native organisms; comply with protected-area permissions and remove waste. National authorisation, operator guidance and site rules are different instruments.", "Не беспокоить животных и не заносить чужеродные организмы; соблюдать разрешительный режим охраняемых участков и удалять отходы. Национальное разрешение, рекомендации операторов и правила участков — разные инструменты.")}
+          modelAnswer={l("First, visitors must not disturb wildlife or bring in non-native organisms, which can upset local ecosystems. Second, they must follow protected-area permits and take all waste away, so the environment is not polluted.", "Во-первых, посетители не должны беспокоить животных и привозить чужеродные организмы: это может нарушить местные экосистемы. Во-вторых, нужно получать разрешения там, где они требуются, и увозить с собой весь мусор, чтобы природа не загрязнялась.")}
         />
       </div>
     </div>

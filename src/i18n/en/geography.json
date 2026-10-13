@@ -2,7 +2,7 @@
   "subjectName": "Geography",
   "home": {
     "title": "Geography — Revision",
-    "intro": "Four revision sheets brought to life: Rivers, Tourism, Resource Reliance, and Atmospheric Hazards. Each topic includes an Active Recall mode that hides model answers so you can practice retrieval.",
+    "intro": "Rivers, Tourism, Resource Reliance and Atmospheric Hazards have interactive revision notes with Active Recall questions. Write your answer first, then use Compare with model to see the model answer.",
     "activeRecallToggle": "Active recall mode"
   },
   "simulations": {
@@ -61,27 +61,27 @@
     "resourceReliance": "Resource Reliance",
     "atmosphericHazards": "Atmospheric Hazards",
     "fieldwork": "Fieldwork & Research",
-    "extras": "Extras (beyond G9)"
+    "extras": "Extras"
   },
   "fieldwork": {
     "title": "Fieldwork & Research",
-    "intro": "How geographers gather and interpret data — explicitly on the teacher's revision checklist. Knowing this vocabulary unlocks the long-answer Criterion B questions on the exam.",
+    "intro": "Geographers collect data during fieldwork and then interpret it. The terms in this section help you plan an investigation and explain its results in longer exam answers.",
     "sections": {
       "aimHypothesis": {
         "title": "Aim & Hypothesis",
         "detailed": {
           "aim": {
             "name": "Aim",
-            "rule": "The question or purpose that the investigation is designed to address. It specifies what will be studied and where.",
+            "rule": "An aim is the question that the investigation is designed to answer. It states what will be studied and where.",
             "examples": [
               "Aim: investigate how channel width changes along a selected river reach."
             ],
             "review": {
               "englishTerm": "Aim",
-              "russianTerm": "Цель исследования",
+              "russianTerm": "Цель",
               "contrast": {
-                "en": "An aim asks what to investigate; a hypothesis proposes a testable answer.",
-                "ru": "Цель задаёт направление исследования; гипотеза предлагает проверяемый ответ."
+                "en": "An aim is the question you want to answer; a hypothesis is a testable prediction that the data can support or reject.",
+                "ru": "Цель — это вопрос, на который нужно ответить; гипотеза (hypothesis) — проверяемое предположение, которое данные могут подтвердить или опровергнуть."
               },
               "sources": [
                 {
@@ -101,16 +101,16 @@
           },
           "hypothesis": {
             "name": "Hypothesis",
-            "rule": "A testable statement about an expected relationship or difference. Identify measurable variables and collect evidence that could support or challenge it.",
+            "rule": "A hypothesis is a testable statement about an expected relationship or difference between measurable variables. It must be possible to show that it is false, so that data can reject it. Plan the measurements in advance, so that the evidence can test it fairly.",
             "examples": [
-              "Hypothesis: mean channel width increases with distance downstream in this reach."
+              "Alternative hypothesis (H₁): mean channel width increases with distance downstream along this reach."
             ],
             "review": {
               "englishTerm": "Hypothesis",
               "russianTerm": "Гипотеза",
               "contrast": {
-                "en": "Evidence may support a hypothesis within the sample; it does not prove a universal rule.",
-                "ru": "Данные могут поддержать гипотезу для выборки, но не доказывают универсальное правило."
+                "en": "Evidence can support a hypothesis for the sample studied, but it does not prove a general rule.",
+                "ru": "Данные могут подтвердить гипотезу для изученной выборки, но не доказывают общего правила."
               },
               "sources": [
                 {
@@ -124,7 +124,7 @@
           },
           "nullHypothesis": {
             "name": "Null hypothesis (H₀)",
-            "rule": "The statistical baseline tested against an alternative; in a simple fieldwork test it usually states no population difference or association between the specified variables.",
+            "rule": "The null hypothesis (H₀) is the statement that a test checks. In a simple fieldwork test, it usually says that there is no difference or association between the variables in the population being studied. The alternative hypothesis contradicts it and describes the expected effect.",
             "examples": [
               "H₀: there is no association between distance downstream and channel width in the population being studied."
             ],
@@ -132,8 +132,8 @@
               "englishTerm": "Null hypothesis (H₀)",
               "russianTerm": "Нулевая гипотеза (H₀)",
               "contrast": {
-                "en": "Failing to reject H₀ is not proof that no relationship exists: the sample may be too small or noisy.",
-                "ru": "Если H₀ не отвергнута, это ещё не доказательство отсутствия связи: выборка может быть слишком мала или неточна."
+                "en": "Failing to reject H₀ does not prove that no relationship exists: the sample may be too small or the measurements too variable.",
+                "ru": "Если H₀ не удалось отвергнуть, это ещё не доказывает отсутствия связи: выборка может быть слишком мала или измерения слишком разбросаны."
               },
               "sources": [
                 {
@@ -160,8 +160,8 @@
               "englishTerm": "Primary data",
               "russianTerm": "Первичные данные",
               "contrast": {
-                "en": "Primary/secondary describes origin; quantitative/qualitative describes the kind of information.",
-                "ru": "Первичные/вторичные — происхождение; количественные/качественные — характер информации."
+                "en": "Primary and secondary describe where the data came from; quantitative and qualitative describe the kind of information.",
+                "ru": "Первичные и вторичные данные различаются по происхождению, а количественные и качественные — по характеру информации."
               },
               "sources": [
                 {
@@ -183,8 +183,8 @@
               "englishTerm": "Secondary data",
               "russianTerm": "Вторичные данные",
               "contrast": {
-                "en": "Secondary does not mean unreliable; official records may cover more places and years than a class survey.",
-                "ru": "Вторичные не означает ненадёжные: официальные ряды могут охватывать больше мест и лет, чем школьное обследование."
+                "en": "Secondary data are not necessarily unreliable: official statistics may cover more places and years than a survey by one class.",
+                "ru": "Вторичные данные не обязательно ненадёжны: официальная статистика может охватывать больше мест и лет, чем опрос одного класса."
               },
               "sources": [
                 {
@@ -198,16 +198,16 @@
           },
           "quantitative": {
             "name": "Quantitative data",
-            "rule": "Numerical counts or measurements of a quantity. Counts are usually discrete; measurements such as depth are continuous, although recorded to finite precision.",
+            "rule": "Numerical results of counting or measuring, which can be compared directly. Counts give whole numbers; measurements, such as depth, can take any value in a range but are recorded to a set precision.",
             "examples": [
-              "12 pedestrians in five minutes is a count; 0.42 m water depth is a measurement."
+              "The number of cars passing a junction in an hour is a count; the speed of a river's current is a measurement."
             ],
             "review": {
               "englishTerm": "Quantitative data",
               "russianTerm": "Количественные данные",
               "contrast": {
-                "en": "A numerical category code is not automatically a measured quantity.",
-                "ru": "Числовой код категории не становится от этого измеренной величиной."
+                "en": "A number used only as a label, such as a land-use code, is not a measured quantity.",
+                "ru": "Число, которое служит лишь названием категории (например, кодом типа землепользования), — не измеренная величина."
               },
               "sources": [
                 {
@@ -221,16 +221,16 @@
           },
           "qualitative": {
             "name": "Qualitative data",
-            "rule": "Descriptions or categories expressing characteristics, meanings or experiences, such as land-use type or interview accounts. They can be coded and compared systematically.",
+            "rule": "Descriptions, categories or opinions that express qualities, meanings or experiences, such as a land-use type or what residents say in an interview. They can be coded and compared using consistent rules.",
             "examples": [
-              "Residential, retail and park are land-use categories; interview comments add explanations."
+              "Recording a site as residential, retail or park gives qualitative data. A resident's comment on why they use the park adds an explanation."
             ],
             "review": {
               "englishTerm": "Qualitative data",
               "russianTerm": "Качественные данные",
               "contrast": {
-                "en": "Qualitative is not a synonym for opinion or poor quality; a land-use category can be directly observed.",
-                "ru": "Качественные — не синоним субъективных или плохих данных: категорию землепользования можно наблюдать непосредственно."
+                "en": "Qualitative does not automatically mean subjective or poor quality: a land-use type can be recorded by direct observation.",
+                "ru": "Качественные данные не обязательно субъективны или плохи: тип землепользования можно записать прямым наблюдением."
               },
               "sources": [
                 {
@@ -251,14 +251,14 @@
             "name": "Sample size",
             "rule": "The number of observational units included in a sample, written n. State whether a unit is a person, site, pebble or independent measurement.",
             "examples": [
-              "Thirty pebbles at one site describe that site, not thirty independent river sites."
+              "Many pebbles from one site are not many independent observations; they give one description of that site."
             ],
             "review": {
               "englishTerm": "Sample size",
               "russianTerm": "Объём выборки",
               "contrast": {
                 "en": "A larger sample can reduce random sampling error; it cannot automatically remove selection bias.",
-                "ru": "Большая выборка может уменьшить случайную ошибку, но сама по себе не устраняет систематический перекос отбора."
+                "ru": "Большая выборка может уменьшить случайную ошибку, но сама по себе не устраняет смещение отбора (selection bias)."
               },
               "sources": [
                 {
@@ -272,16 +272,16 @@
           },
           "systematic": {
             "name": "Systematic sampling",
-            "rule": "Select observations at a fixed interval from an ordered population or along space/time, ideally after a randomly chosen starting point.",
+            "rule": "Observations are taken at a fixed step (every N-th one) along a route, from an ordered list or over time. Ideally, the first observation is chosen at random.",
             "examples": [
-              "From a random starting point, record land use every 50 m along the route."
+              "Start at a randomly chosen point along the route, then record the land use at equal intervals decided before fieldwork begins."
             ],
             "review": {
               "englishTerm": "Systematic sampling",
-              "russianTerm": "Систематический отбор",
+              "russianTerm": "Систематическая выборка",
               "contrast": {
-                "en": "Regular spacing is efficient, but can coincide with a repeating pattern and bias the sample.",
-                "ru": "Равные интервалы удобны, но могут совпасть с повторяющейся структурой и исказить выборку."
+                "en": "Regular spacing is efficient, but it can coincide with a repeating pattern in the landscape, such as evenly spaced houses, and bias the sample.",
+                "ru": "Равные интервалы удобны, но могут совпасть с повторяющимся узором местности, например с равномерно расставленными домами, и исказить выборку."
               },
               "sources": [
                 {
@@ -295,16 +295,16 @@
           },
           "stratified": {
             "name": "Stratified sampling",
-            "rule": "Divide the population into relevant non-overlapping groups, then sample within every group. In proportional stratified sampling, each group supplies its share of the sample.",
+            "rule": "Stratified sampling divides the population into non-overlapping groups that matter for the question, and takes observations within every group. In proportional stratified sampling, each group supplies a share of the sample equal to its share of the population.",
             "examples": [
-              "If 40% of residents are in one age group, a proportional sample of 50 includes 20 from that group."
+              "If most of a study area is residential and only a small part is parkland, a proportional sample takes most of its sites in the residential zone."
             ],
             "review": {
               "englishTerm": "Stratified sampling",
-              "russianTerm": "Стратифицированный отбор",
+              "russianTerm": "Стратифицированная выборка",
               "contrast": {
-                "en": "Stratified sampling includes each stratum; cluster sampling selects only some whole groups.",
-                "ru": "Стратификация охватывает каждую группу; кластерный отбор выбирает лишь часть целых групп."
+                "en": "Stratified sampling makes sure every group is represented; a simple random sample may, by chance, miss a small group.",
+                "ru": "Стратифицированная выборка обеспечивает представленность каждой группы, а простая случайная выборка может по воле случая не включить небольшую группу."
               },
               "sources": [
                 {
@@ -318,16 +318,16 @@
           },
           "random": {
             "name": "Simple random sampling",
-            "rule": "Use a random procedure so every possible sample of a given size has an equal chance of selection from the defined population.",
+            "rule": "Every member of the defined population has an equal chance of being selected, because the choice is made by a random procedure.",
             "examples": [
               "Number all eligible sites and use a random-number generator to select them."
             ],
             "review": {
               "englishTerm": "Simple random sampling",
-              "russianTerm": "Простой случайный отбор",
+              "russianTerm": "Простая случайная выборка",
               "contrast": {
-                "en": "Choosing whoever is easiest to reach is convenience sampling, even if it feels unplanned.",
-                "ru": "Выбор тех, к кому проще подойти, — удобная выборка, даже если он кажется бессистемным."
+                "en": "Choosing whoever is easiest to reach is convenience sampling, not random sampling, even if the choice looks haphazard.",
+                "ru": "Выбор тех, до кого легче всего добраться, — удобная выборка, а не случайная, даже если выбор кажется бессистемным."
               },
               "sources": [
                 {
@@ -343,23 +343,23 @@
       },
       "methodology": {
         "title": "Methodology",
-        "body": "A methodology explains and justifies how the investigation is conducted: sites, sampling, timing, equipment, measurement procedure, data handling and practical constraints. Give enough detail for repetition and explain how choices affect the question being answered."
+        "body": "A methodology explains what is measured or observed, where, when and how, so that someone else could repeat the work. Reduce errors by repeating measurements and using the same equipment and method at every observation point. Follow the safety rules for every site you visit. Explain how each choice affects the question you are answering."
       },
       "presentation": {
         "title": "Data presentation",
         "detailed": {
           "bar": {
             "name": "Bar chart",
-            "rule": "Separate bars compare counts or values for categories. Label the categories, quantity and units; normally start the value axis at zero so bar lengths remain comparable.",
+            "rule": "Each bar shows a count or value for one category, so the bars compare categories with each other. Label each category, the quantity measured and its units, and normally start the value axis at zero so that bar lengths can be compared fairly.",
             "examples": [
-              "Compare pedestrian counts at three named sites during equal five-minute intervals."
+              "Compare pedestrian counts at several sites during equal time intervals."
             ],
             "review": {
               "englishTerm": "Bar chart",
               "russianTerm": "Столбчатая диаграмма",
               "contrast": {
-                "en": "A histogram groups numerical data into intervals; its bars have a different meaning from category bars.",
-                "ru": "Гистограмма группирует числовые данные по интервалам; её столбцы означают не то же, что столбцы категорий."
+                "en": "A histogram groups numerical data into intervals, so its bars do not mean the same as category bars.",
+                "ru": "Гистограмма (histogram) группирует числовые данные по интервалам, поэтому её столбцы означают другое, чем столбцы категорий."
               },
               "sources": [
                 {
@@ -381,8 +381,8 @@
               "englishTerm": "Line graph",
               "russianTerm": "Линейный график",
               "contrast": {
-                "en": "A connecting line implies an ordered continuum; it does not establish values between measurements as observed facts.",
-                "ru": "Соединение точек предполагает упорядоченную непрерывную шкалу; промежуточные значения от этого не становятся измеренными."
+                "en": "Do not join points for unordered categories, such as different sites: the line would suggest values between them that were never measured.",
+                "ru": "Не соединяй точки линией для категорий без естественного порядка, например разных участков: линия подскажет значения между ними, которых не измеряли."
               },
               "sources": [
                 {
@@ -398,14 +398,14 @@
             "name": "Scatter graph",
             "rule": "Each point shows a paired observation of two quantitative variables. The pattern helps identify direction, strength, outliers and possible non-linear relationships.",
             "examples": [
-              "Plot each site's distance downstream against its measured channel width."
+              "Plot each site's measured channel width (vertical axis) against its distance downstream (horizontal axis)."
             ],
             "review": {
               "englishTerm": "Scatter graph",
               "russianTerm": "Диаграмма рассеяния",
               "contrast": {
-                "en": "Correlation does not establish causation; another variable or sampling pattern may explain the association.",
-                "ru": "Корреляция не доказывает причинность: связь может объясняться третьей переменной или особенностями отбора."
+                "en": "Correlation does not prove causation: a third variable or the sampling method may explain the association.",
+                "ru": "Корреляция не доказывает причинность: связь может объясняться третьей переменной или способом формирования выборки."
               },
               "sources": [
                 {
@@ -419,9 +419,9 @@
           },
           "pie": {
             "name": "Pie chart",
-            "rule": "Sectors represent mutually exclusive parts of one complete total. Sector angle = category value ÷ total × 360°.",
+            "rule": "Each sector shows one category's share of a single total, and the categories must not overlap. Sector angle = (category value ÷ total) × 360°.",
             "examples": [
-              "A category containing 25% of the total occupies 90°."
+              "If a quarter of all survey answers fall into one category, its sector is 90°."
             ],
             "review": {
               "englishTerm": "Pie chart",
@@ -442,16 +442,16 @@
           },
           "gis": {
             "name": "Geographic information system (GIS)",
-            "rule": "A computer-based system for storing, linking, analysing and displaying data referenced to geographic locations, often as map layers.",
+            "rule": "A GIS is a computer system for storing, analysing and displaying data tied to geographic locations. Such data are often organised as map layers, one layer for each kind of data.",
             "examples": [
-              "Overlay buildings, elevation and a flood-extent layer to identify exposed properties."
+              "Overlay building locations, ground elevation and a flood-extent layer to find buildings that may be at risk."
             ],
             "review": {
               "englishTerm": "Geographic information system (GIS)",
-              "russianTerm": "Географическая информационная система (ГИС)",
+              "russianTerm": "ГИС",
               "contrast": {
-                "en": "A GIS is an analysis system; a GPS/GNSS receiver estimates a position that can supply data to it.",
-                "ru": "ГИС — система анализа; приёмник GPS/ГНСС определяет координаты, которые могут стать её исходными данными."
+                "en": "A GIS stores and analyses map data; a GPS receiver determines coordinates, which can then be entered into a GIS.",
+                "ru": "ГИС хранит и анализирует картографические данные; приёмник GPS определяет координаты, которые затем можно внести в ГИС."
               },
               "sources": [
                 {
@@ -467,13 +467,13 @@
       },
       "analysis": {
         "title": "Data analysis",
-        "body": "Spearman’s rank correlation measures the direction and strength of a monotonic association using ranks, from −1 to +1. Zero means no ranked monotonic association, not necessarily no relationship. Statistical significance requires a suitable method accounting for sample size, ties and test direction; association does not prove causation.",
+        "body": "Spearman's rank correlation coefficient (ρ) measures the direction and strength of a monotonic association between two variables, using ranks rather than the raw values. A monotonic association means that as one variable increases, the other consistently rises or consistently falls; the relationship does not have to be a straight line. For data with no tied ranks, ρ = 1 − (6Σd²) ÷ [n(n² − 1)], where d is the difference between the two ranks of each pair and n is the number of pairs. The value lies between −1 and +1; zero means no monotonic association, not necessarily no relationship at all. To test a hypothesis about association, compare the result with the null hypothesis of no association (ρ = 0); tied ranks and small samples need caution.",
         "review": {
-          "englishTerm": "Spearman rank correlation",
-          "russianTerm": "Ранговая корреляция Спирмена",
+          "englishTerm": "Spearman's rank correlation coefficient",
+          "russianTerm": "Коэффициент ранговой корреляции Спирмена",
           "contrast": {
-            "en": "The coefficient measures monotonic association, not causation; statistical significance is a separate question. A constant variable has no defined rank correlation.",
-            "ru": "Коэффициент измеряет монотонную связь, а не причинность; статистическая значимость — отдельный вопрос. Для постоянной переменной ранговая корреляция не определена."
+            "en": "Strength and significance are different questions: a strong coefficient from a small sample may not be statistically significant.",
+            "ru": "Сила связи и её статистическая значимость — разные вопросы: сильный коэффициент на малой выборке может оказаться статистически незначимым."
           },
           "sources": [
             {
@@ -490,16 +490,16 @@
         "detailed": {
           "conclusion": {
             "name": "Conclusion",
-            "rule": "An evidence-based answer to the investigation aim. Refer to measured patterns, relevant values and exceptions, and state how far the hypothesis is supported.",
+            "rule": "An evidence-based answer to the investigation aim. Refer to measured patterns, key values and exceptions, and state how far the hypothesis is supported.",
             "examples": [
-              "Width rose at four of five sites; the bridge site differed, so support is qualified."
+              "If width rose at most sites but not at the bridge site, the conclusion should say the hypothesis is only partly supported."
             ],
             "review": {
               "englishTerm": "Conclusion",
               "russianTerm": "Вывод",
               "contrast": {
                 "en": "A conclusion answers the question; an evaluation assesses the evidence and method behind that answer.",
-                "ru": "Вывод отвечает на вопрос; оценка исследования рассматривает данные и методы, на которых он основан."
+                "ru": "Вывод отвечает на вопрос исследования; оценка разбирает данные и методы, на которых основан этот ответ."
               },
               "sources": [
                 {
@@ -513,16 +513,16 @@
           },
           "evaluation": {
             "name": "Evaluation",
-            "rule": "Judge how sampling, measurement, timing and analysis affect the trustworthiness and scope of the conclusion. Link each limitation to a feasible improvement.",
+            "rule": "Evaluate how the sample, measurement error and bias affect the reliability and scope of the conclusion. For each limitation, suggest a realistic improvement, such as more data, repeat measurements or a different method.",
             "examples": [
-              "Repeat counts at different times to test whether one lunchtime represented the day."
+              "Repeat the counts at different times to test whether a single lunchtime count represents the whole day."
             ],
             "review": {
               "englishTerm": "Evaluation",
               "russianTerm": "Оценка качества исследования",
               "contrast": {
-                "en": "Reliability concerns consistency; validity concerns whether the method answers the intended question. Repetition alone cannot fix a biased method.",
-                "ru": "Надёжность касается воспроизводимости; валидность — соответствия метода исследовательскому вопросу. Повторение само по себе не исправляет смещённый метод."
+                "en": "Reliability means consistent results when the study is repeated; validity means the method answers the intended question. Repeating a biased method repeats the error; it does not remove the bias.",
+                "ru": "Надёжность (reliability) — постоянство результатов при повторении исследования; валидность (validity) — соответствие метода исследовательскому вопросу. Повторение смещённого метода воспроизводит ошибку, но не устраняет смещение."
               },
               "sources": [
                 {
@@ -552,16 +552,16 @@
   },
   "extrasContent": {
     "title": "Geography — Extras",
-    "intro": "Topics beyond the four revision sheets — plate tectonics, urbanisation, globalisation, sustainable development.",
+    "intro": "This section includes a brief revision of plate tectonics, as well as urbanisation, globalisation, sustainable development, world biomes and human development.",
     "tectonics": {
       "title": "Plate tectonics",
-      "body": "Tectonic plates are pieces of lithosphere: crust plus rigid uppermost mantle. They move over weaker, mostly solid upper mantle. Gravity acting on subducting slabs and elevated ridges, together with mantle flow, contributes to motion. Divergent, convergent and transform boundaries describe relative plate movement; continental collision is one convergent setting.",
+      "body": "A tectonic plate is a piece of the lithosphere: the crust and the rigid uppermost mantle. Plates move relative to each other at divergent, convergent and transform boundaries. Where two continental plates collide, the land is pushed up into mountains.",
       "review": {
         "englishTerm": "Plate tectonics",
-        "russianTerm": "Тектоника плит",
+        "russianTerm": "Тектоника литосферных плит",
         "contrast": {
-          "en": "Plates contain crust and uppermost mantle; crust alone is not a plate.",
-          "ru": "Плита включает кору и верхнюю мантию; одна кора не образует плиту."
+          "en": "A continent is not a plate: one plate can include both continental and oceanic crust.",
+          "ru": "Континент — не плита: одна плита может включать и континентальную, и океаническую кору."
         },
         "sources": [
           {
@@ -587,13 +587,13 @@
     },
     "urbanisation": {
       "title": "Urbanisation",
-      "body": "Urbanisation is an increase in the share of a population living in urban settlements, alongside wider changes associated with urban life. Rural-to-urban migration is one contributor; natural increase and settlement reclassification also matter. Urban population growth means rising numbers and can occur without a rising urban share.",
+      "body": "Urbanisation is an increase in the share of a population that lives in towns and cities. It happens when people move from rural areas for work, schools and services, and, in some regions, when city populations grow through births. Fast growth raises demand for housing, water, energy and transport. If services cannot keep up, poor housing and crowded informal settlements can appear. For example, a village near a growing city may be added to the city’s boundary, so its residents become urban without moving.",
       "review": {
         "englishTerm": "Urbanisation",
         "russianTerm": "Урбанизация",
         "contrast": {
-          "en": "An increasing urban population is not necessarily an increasing urban share.",
-          "ru": "Рост числа горожан не обязательно означает рост их доли."
+          "en": "Do not confuse the number of city dwellers with the urban share. The number can rise while the share falls, if the total population grows faster.",
+          "ru": "Не путай число горожан и долю городского населения. Число горожан может расти, а доля — падать, если общее население растёт быстрее."
         },
         "sources": [
           {
@@ -614,16 +614,16 @@
     "globalisation": {
       "title": "Globalisation",
       "items": [
-        "Globalisation is the development of connections and interdependence across national borders through trade, investment, migration, information and culture.",
-        "It differs from development: stronger connections do not guarantee better health, education or living standards for everyone.",
-        "Benefits and costs differ within countries and between groups; avoid assuming all firms or all workers win or lose."
+        "Globalisation is the growth of links and interdependence between countries through trade, investment, migration, information and culture.",
+        "Transnational corporations (TNCs) run factories, offices and shops in several countries. They choose where to produce according to costs, skills and access to customers, so one company's decision can move jobs and change local markets.",
+        "For example, a car company may design cars in one country, make parts in several others and assemble them in another. Benefits and costs are not shared equally: a region may lose factory jobs, while shoppers may pay less for goods."
       ],
       "review": {
         "englishTerm": "Globalisation",
         "russianTerm": "Глобализация",
         "contrast": {
-          "en": "Cross-border connections and human development are different ideas.",
-          "ru": "Трансграничные связи и человеческое развитие — разные понятия."
+          "en": "Globalisation describes links between countries, while development describes people's health, education and choices. Stronger links can improve lives, but they do not do so for everyone automatically.",
+          "ru": "Глобализация описывает связи между странами, а развитие — здоровье, образование и возможность выбирать. Более тесные связи могут улучшить жизнь людей, но не делают этого автоматически для всех."
         },
         "sources": [
           {
@@ -643,13 +643,13 @@
     },
     "sustainable": {
       "title": "Sustainable Development Goals (SDGs)",
-      "body": "Seventeen linked global goals adopted in 2015 as part of the UN 2030 Agenda. They set objectives supported by targets and indicators for countries at all income levels.",
+      "body": "Sustainable development means meeting today's needs without taking away future generations' ability to meet their own. The Sustainable Development Goals (SDGs) are a set of global goals agreed by the member states of the United Nations to put this into practice. They cover poverty, hunger, health, water, energy, consumption and partnerships between countries. The goals are linked, so progress in one area can help or slow another. Examples of goals: SDG 2 (Zero Hunger), SDG 6 (Clean Water and Sanitation) and SDG 7 (Affordable and Clean Energy). Two more goals: SDG 12 (Responsible Consumption and Production) and SDG 17 (Partnerships for the Goals).",
       "review": {
         "englishTerm": "Sustainable development goals",
         "russianTerm": "Цели устойчивого развития",
         "contrast": {
-          "en": "Goals, measurable targets and indicators have distinct roles.",
-          "ru": "Цели, конкретные задачи и показатели выполняют разные роли."
+          "en": "Do not confuse a goal, a target and an indicator: a goal is a broad aim, a target is a specific step within it, and an indicator is a measure of progress.",
+          "ru": "Не путай цель, задачу и индикатор: цель — общий ориентир, задача (target) — конкретный шаг внутри цели, индикатор (indicator) — то, что измеряют, чтобы видеть прогресс."
         },
         "sources": [
           {
@@ -670,17 +670,17 @@
     "biomes": {
       "title": "World biomes",
       "items": [
-        "A biome is a large ecological grouping characterised by climate, vegetation and associated organisms; its boundaries are gradual and classifications differ.",
-        "Tropical rainforest: warm, wet conditions favour dense forest. Savanna: seasonal water availability supports grasses with scattered trees.",
-        "Deserts: limited available moisture; they can be hot or cold. Temperate forests include different seasonal and rainfall regimes.",
-        "Boreal forest (taiga): long cold winters, mostly coniferous trees. Tundra: low-growing vegetation and a short growing season; permafrost is widespread in Arctic tundra."
+        "A biome is a large region with a broadly similar climate and vegetation, along with the animals and other organisms adapted to those conditions. Boundaries between biomes are often gradual, so different sources divide the world into biomes in different ways.",
+        "Tropical rainforest: warm, wet conditions favour dense forest. Savanna: a clear wet and dry season supports grasses with scattered trees.",
+        "Deserts: very little rain, so water is scarce; they can be hot or cold. Temperate forests: clear seasons and enough rain for trees; many trees lose their leaves in autumn.",
+        "Boreal forest (taiga): long, cold winters and mostly coniferous trees. Tundra: low-growing plants and a short growing season; permafrost is widespread in Arctic tundra."
       ],
       "review": {
         "englishTerm": "Biome",
         "russianTerm": "Биом",
         "contrast": {
-          "en": "A biome groups ecological communities over large areas; an ecosystem describes organisms and their physical environment interacting at a chosen scale.",
-          "ru": "Биом объединяет экологические сообщества обширных территорий; экосистема описывает взаимодействие организмов и среды в выбранном масштабе."
+          "en": "Do not confuse a biome with an ecosystem: an ecosystem can be as small as a pond, while a biome is a large region described by its climate and vegetation.",
+          "ru": "Не путай биом и экосистему: экосистема может быть маленькой, например пруд, а биом — большая область, которую описывают климатом и растительностью."
         },
         "sources": [
           {
@@ -694,13 +694,13 @@
     },
     "development": {
       "title": "Human development",
-      "body": "Human development means expanding people’s capabilities, opportunities and choices to live lives they value. Health, education and access to resources matter alongside participation and freedom. Economic growth can support development but its benefits may be distributed unequally.",
+      "body": "Human development means expanding people's capabilities, choices and freedoms so they can live lives they value. Health, education and access to resources matter, and so do taking part in public life and being free to make choices. The Human Development Index (HDI) combines life expectancy, years of schooling and income into one measure. Economic growth can support development, but its benefits may be shared unequally.",
       "review": {
         "englishTerm": "Human development",
         "russianTerm": "Человеческое развитие",
         "contrast": {
-          "en": "Income is one means of improving life; GDP alone does not measure health, learning, choices or inequality.",
-          "ru": "Доход — одно из средств улучшения жизни; ВВП сам по себе не измеряет здоровье, образование, свободу выбора и неравенство."
+          "en": "Do not confuse GDP (gross domestic product) with human development. GDP is the value of goods and services produced in a country in a year; it does not show whether people are healthy, educated or free to choose.",
+          "ru": "Не путай ВВП (gross domestic product, GDP) и человеческое развитие. ВВП — это стоимость товаров и услуг, созданных в стране за год; он не показывает, здоровы ли люди, получили ли они образование и могут ли свободно выбирать."
         },
         "sources": [
           {
@@ -1402,7 +1402,7 @@
   },
   "tourism": {
     "title": "Tourism",
-    "intro": "Types of tourism, the Butler model life-cycle, and case studies of mass and niche tourism.",
+    "intro": "Types of tourism, the Butler model of how destinations change over time, and case studies of mass and niche tourism.",
     "sections": {
       "types": {
         "title": "Types of tourism",
@@ -1411,7 +1411,7 @@
             "name": "Mass tourism",
             "rule": "Tourism involving large visitor flows and services organised on a large scale, often concentrated in popular resorts and supported by standardised transport and accommodation.",
             "examples": [
-              "A coastal resort with large hotels and package holidays illustrates the pattern; visitor volume alone does not measure local benefit."
+              "For example, coastal resorts with large hotels and package holidays show the pattern; visitor numbers alone do not show how much local people gain."
             ],
             "review": {
               "englishTerm": "Mass tourism",
@@ -1432,16 +1432,16 @@
           },
           "thanatourism": {
             "name": "Dark tourism / thanatourism",
-            "rule": "Visits to places associated with death, suffering or catastrophe. The category covers diverse sites and experiences; remembrance and learning are common but not universal motives.",
+            "rule": "Dark tourism, or thanatourism, is travel to places linked with death, suffering or disaster, such as memorials and former sites of violence. Remembrance and learning are common motives, but not every visitor has them.",
             "examples": [
-              "Auschwitz-Birkenau and the 9/11 Memorial require sensitive interpretation and respect for victims."
+              "For example, guided visits to a memorial on the site of a former camp need careful explanation and respect for the victims."
             ],
             "review": {
               "englishTerm": "Dark tourism / thanatourism",
-              "russianTerm": "Тёмный туризм / танатотуризм",
+              "russianTerm": "Танатуризм",
               "contrast": {
-                "en": "The terms overlap in school geography; some researchers use thanatourism more narrowly for travel motivated by encounters with death.",
-                "ru": "В школьной географии термины пересекаются; некоторые исследователи сужают танатотуризм до поездок, мотивированных обращением к смерти."
+                "en": "Dark tourism and thanatourism are often used as synonyms, but some researchers limit thanatourism to trips motivated by encounters with death.",
+                "ru": "Тёмный туризм и танатуризм часто используют как синонимы, но некоторые исследователи сужают танатуризм до поездок, мотивированных встречей со смертью."
               },
               "sources": [
                 {
@@ -1455,16 +1455,16 @@
           },
           "ecotourism": {
             "name": "Ecotourism",
-            "rule": "Nature-based tourism that includes learning, limits environmental and cultural harm, and contributes to conservation and the well-being of host communities.",
+            "rule": "Ecotourism is nature-based travel in which visitors mainly come to see and appreciate nature. It includes learning, keeps environmental and cultural damage low, and supports conservation and local communities.",
             "examples": [
-              "A locally managed guided forest visit can support conservation if fees and visitor behaviour are managed appropriately."
+              "For example, on a small island reserve, visitors usually walk with a licensed guide on designated trails, which limits damage to fragile habitats."
             ],
             "review": {
               "englishTerm": "Ecotourism",
-              "russianTerm": "Экологический туризм",
+              "russianTerm": "Экотуризм",
               "contrast": {
-                "en": "A nature trip is not automatically ecotourism: examine management, conservation benefits and local participation.",
-                "ru": "Поездка на природу не автоматически экотуризм: проверяй управление, пользу для охраны природы и участие жителей."
+                "en": "A trip into nature is not ecotourism by default; check who manages it, whether it helps conservation and whether local people take part.",
+                "ru": "Поход в природу сам по себе не экотуризм: проверь, кто управляет объектом, помогает ли он охране природы и участвуют ли в нём местные жители."
               },
               "sources": [
                 {
@@ -1478,16 +1478,16 @@
           },
           "medical": {
             "name": "Medical tourism",
-            "rule": "Travel outside a person's usual environment to use medical services such as diagnosis, treatment or rehabilitation. It may be domestic or international.",
+            "rule": "Medical tourism is travel to receive healthcare, such as diagnosis, treatment or rehabilitation, away from home. The trip can be domestic or across a border.",
             "examples": [
-              "Travelling to a specialist treatment centre is an example; destination alone does not establish price, quality or safety."
+              "For example, some patients travel abroad for dental or cosmetic treatment; the country alone does not establish price, quality or safety."
             ],
             "review": {
               "englishTerm": "Medical tourism",
               "russianTerm": "Медицинский туризм",
               "contrast": {
-                "en": "Medical tourism concerns medical care; wellness tourism primarily concerns maintaining well-being and need not involve treatment.",
-                "ru": "Медицинский туризм связан с медицинской помощью; оздоровительный прежде всего поддерживает самочувствие и не обязательно включает лечение."
+                "en": "Medical tourism is about treatment; wellness tourism is mainly about staying healthy and may involve no treatment at all.",
+                "ru": "Медицинский туризм связан с лечением; оздоровительный туризм в первую очередь направлен на поддержание самочувствия и может обходиться без лечения."
               },
               "sources": [
                 {
@@ -1501,16 +1501,16 @@
           },
           "extreme": {
             "name": "Adventure and extreme tourism",
-            "rule": "Adventure tourism involves activities linked to landscapes, physical effort or perceived risk. Extreme tourism describes its more demanding or hazardous end, rather than a single official risk class.",
+            "rule": "Adventure tourism is usually defined as a trip that combines at least two of three elements: physical activity, a natural environment and cultural immersion. Extreme tourism is the most demanding or dangerous part of that range.",
             "examples": [
-              "Classify a trip by its actual activity and conditions, not just by a remote destination name."
+              "For example, an expedition to Antarctica involves ice, cold and distance from help, while a short walk on a marked coastal path does not."
             ],
             "review": {
               "englishTerm": "Adventure and extreme tourism",
               "russianTerm": "Приключенческий и экстремальный туризм",
               "contrast": {
-                "en": "A guided lowland hike and a high-altitude ascent can both be adventure tourism but demand very different skills and safeguards.",
-                "ru": "Прогулка с гидом и высотное восхождение могут быть приключенческим туризмом, но требуют совершенно разных навыков и мер защиты."
+                "en": "A guided walk on lowland paths and a high-altitude climb may both count as adventure tourism, yet they need very different skills and safety measures.",
+                "ru": "Прогулка с гидом по равнине и подъём на большую высоту могут считаться приключенческим туризмом, но требуют очень разных навыков и мер безопасности."
               },
               "sources": [
                 {
@@ -1524,16 +1524,16 @@
           },
           "voluntourism": {
             "name": "Voluntourism",
-            "rule": "Travel that combines a visitor experience with voluntary work on a host project, often through a paid programme. Evaluate what the host community needs and what the visitor can competently contribute.",
+            "rule": "Voluntourism combines a holiday with voluntary work on a local project, often through a paid programme. Its benefit depends on whether the work meets the real needs of the host community and the skills of the volunteer.",
             "examples": [
-              "A locally requested habitat survey with trained volunteers has a clearer purpose than an unspecified short visit to 'help'."
+              "For example, a biogas plant that local residents asked for, built by trained volunteers working alongside local staff, has a clear purpose; a short visit to 'help' with no clear task does not."
             ],
             "review": {
               "englishTerm": "Voluntourism",
-              "russianTerm": "Волонтёрский туризм",
+              "russianTerm": "Волонтуризм",
               "contrast": {
-                "en": "Good intentions or a fee do not prove benefit; participation must support local priorities rather than displace paid local work.",
-                "ru": "Добрые намерения или взнос не доказывают пользу: участие должно отвечать местным приоритетам, а не вытеснять оплачиваемый труд жителей."
+                "en": "Good intentions or a paid fee do not prove that a project helps; volunteers should meet local needs rather than replace paid local workers.",
+                "ru": "Добрые намерения или плата за участие не доказывают, что проект полезен: волонтёры должны отвечать на местные потребности, а не вытеснять оплачиваемых местных работников."
               },
               "sources": [
                 {
@@ -1552,8 +1552,8 @@
               "Whale watching is nature tourism; its ecological effects depend on how boats and visitors behave."
             ],
             "review": {
-              "englishTerm": "Nature and wildlife tourism",
-              "russianTerm": "Природный туризм и наблюдение за животными",
+              "englishTerm": "Nature tourism",
+              "russianTerm": "Природный туризм",
               "contrast": {
                 "en": "Ecotourism adds conservation, learning and community-benefit requirements; wildlife viewing alone does not meet them.",
                 "ru": "Экотуризм добавляет требования охраны природы, обучения и пользы для жителей; одного наблюдения за животными недостаточно."
@@ -1571,48 +1571,48 @@
         }
       },
       "butler": {
-        "title": "Butler Model",
+        "title": "Butler model (tourism area life cycle)",
         "stages": {
           "1": "Exploration — few visitors, limited facilities",
           "2": "Involvement — locals provide services",
           "3": "Development — large-scale tourism, external investment",
           "4": "Consolidation — tourism dominates local economy",
           "5": "Stagnation — growth slows or levels off; environmental or service capacity may be strained",
-          "6": "Possible later paths — decline, stabilisation or rejuvenation; none is inevitable"
+          "6": "Possible later paths — decline or rejuvenation; none is inevitable"
         },
         "examples": "The tourism-area life-cycle is a conceptual model of possible destination change. Stages can overlap, be interrupted or follow different paths. The curve is schematic: neither time nor visitor numbers are calibrated."
       },
       "jamaica": {
-        "title": "Case study — Jamaica (mass tourism)",
-        "facts": "Jamaica is a Caribbean island destination. Use dated visitor, employment and economic data from the case-study source; distinguish overnight tourists from cruise visitors and direct from total economic contribution.",
-        "attractions": "Tropical climate; sandy beaches at Montego Bay; water sports along the coast; all-inclusive hotels in Negril; Negril nightlife; golf in Negril; caves at Ocho Rios.",
-        "positives": "Tourism can generate jobs, demand for local goods, tax receipts and infrastructure investment. The local share depends on ownership, purchasing and access to services.",
-        "negatives": "Possible costs include leakage through imports and overseas profit transfers, seasonal or insecure work, pressure on housing and water, and damage to coastal habitats. Assess evidence for particular places and businesses.",
-        "management": "All-inclusive resorts (controversial — money stays inside), community tourism initiatives, government regulation of new development."
+        "title": "Case study: mass tourism on a Caribbean island",
+        "facts": "On many small island countries, tourism is one of the most important industries. Overnight guests often spend more on accommodation and local services than cruise passengers, who may spend only a day ashore. When you judge the value of tourism, separate the direct effect (what visitors spend) from the total effect (including suppliers and wages that also depend on tourism).",
+        "attractions": "A warm tropical island attracts visitors with its beaches. Coastal areas offer water sports, and some resorts sell all-inclusive packages.",
+        "positives": "Tourism can create jobs, demand for local goods, tax income and money for infrastructure, such as roads and water supply. Local people gain more when they own businesses, sell goods to hotels and have skilled jobs in the tourism sector.",
+        "negatives": "Mass tourism can cause income leakage: foreign-owned hotels may send profits abroad, and goods for visitors are often imported. Work is often seasonal, so many people earn little in quieter months. In the peak season, demand for water, electricity and housing can overload local services. Building on the coast can damage habitats, and traditions shown to visitors can turn into products, which changes local culture. Effects differ from place to place, so check each case.",
+        "management": "Management can reduce these effects. Governments may regulate new development, including building on the coast. Community tourism programmes can give local people a share of the income and a say in what is offered. All-inclusive resorts are debated because guests spend inside the complex, so less money reaches local businesses."
       },
       "antarctica": {
         "title": "Case study — Antarctica (extreme tourism)",
-        "facts": "Antarctica has no permanent resident population; research stations host scientists and support staff, while tourists usually make seasonal visits. Remoteness, ice and rapidly changing weather complicate access and rescue.",
-        "whyGrowing": "Specialist transport and organised expeditions make visits possible. Demand for remote landscapes can increase pressure on sensitive sites; growth and visitor profiles must be checked against dated statistics.",
-        "negatives": "Tourism can disturb wildlife, introduce non-native organisms, generate emissions and create waste or spill risks. Disturbance may disrupt feeding and breeding; do not assume every touched egg is abandoned. Penguins are flightless, so oil harms insulation and swimming rather than flight.",
-        "positives": "Income for tour operators; awareness raised through tourism education.",
-        "management": "Tourism is subject to the Antarctic Treaty system, national authorisations and site guidance. Visitors must avoid disturbing wildlife, introducing non-native species and leaving waste; some protected areas require specific permission."
+        "facts": "Antarctica has no permanent resident population. Research stations are staffed by scientists and support staff, while tourists usually visit during the southern summer. Remoteness, ice and fast-changing weather make access difficult and rescue slow.",
+        "whyGrowing": "Specialist ships and organised expeditions make visits to Antarctica possible. Interest in remote, wild landscapes and wildlife can attract more and more visitors. The more people visit, the greater the pressure on sensitive sites, such as penguin colonies.",
+        "negatives": "Tourism can disturb wildlife: noise, crowds and close approach may disrupt feeding and breeding, and some birds may abandon their nests. Non-native organisms carried on boots, clothing or equipment can establish themselves and harm native species. Ships and aircraft produce emissions, and waste or fuel spills can damage the environment. Oil harms penguins through their feathers: oiled feathers lose their insulation and their ability to repel water, so the birds get cold and swim poorly.",
+        "positives": "Tourism brings income to tour operators and crew, and some expeditions include talks on science and conservation. Visitors who see the landscape first-hand may become more aware of climate change and of the need to protect the region.",
+        "management": "Tourism is regulated by the Antarctic Treaty system and by national permits. Members of IAATO, the International Association of Antarctica Tour Operators, follow its rules on visitor behaviour. Its guidance asks visitors to keep their distance from wildlife, not to feed animals and to take all their waste away. Some protected areas need a special permit, and clean boots and clothing stop seeds and other organisms being carried in."
       },
       "otherTypes": {
         "title": "Other tourism case-study examples",
         "detailed": {
           "thana": {
             "name": "Dark tourism — applying the definition",
-            "rule": "Visits to places associated with death, suffering or catastrophe. The category covers diverse sites and experiences; remembrance and learning are common but not universal motives.",
+            "rule": "A trip counts as dark tourism when its main purpose is to visit a place linked to death, suffering or disaster. Visitors may go to learn, to remember or out of curiosity.",
             "examples": [
-              "Auschwitz-Birkenau and the 9/11 Memorial require sensitive interpretation and respect for victims."
+              "For example, an ancient amphitheatre was an arena where gladiators fought and where people and animals were killed for public entertainment. A tour that focuses on these deaths, not only on the building, fits the definition of dark tourism."
             ],
             "review": {
               "englishTerm": "Dark tourism / thanatourism",
-              "russianTerm": "Тёмный туризм / танатотуризм",
+              "russianTerm": "Тёмный туризм / танатуризм",
               "contrast": {
-                "en": "The terms overlap in school geography; some researchers use thanatourism more narrowly for travel motivated by encounters with death.",
-                "ru": "В школьной географии термины пересекаются; некоторые исследователи сужают танатотуризм до поездок, мотивированных обращением к смерти."
+                "en": "Test the purpose: a visit to learn about a disaster and honour its victims fits the definition; a visit only for a photo at the same site does not.",
+                "ru": "Проверь цель: поездка, чтобы узнать о катастрофе и почтить память жертв, подходит под определение; поездка только ради фото на фоне того же места — нет."
               },
               "sources": [
                 {
@@ -1626,16 +1626,16 @@
           },
           "medical": {
             "name": "Medical tourism — applying the definition",
-            "rule": "Travel outside a person's usual environment to use medical services such as diagnosis, treatment or rehabilitation. It may be domestic or international.",
+            "rule": "A trip is medical tourism when a traveller leaves their usual area to receive diagnosis, treatment or rehabilitation. The destination can be in the same country or abroad.",
             "examples": [
-              "Travelling to a specialist treatment centre is an example; destination alone does not establish price, quality or safety."
+              "A patient from abroad books a planned operation at a specialist clinic in a neighbouring country, after checking the clinic’s accreditation."
             ],
             "review": {
               "englishTerm": "Medical tourism",
               "russianTerm": "Медицинский туризм",
               "contrast": {
-                "en": "Medical tourism concerns medical care; wellness tourism primarily concerns maintaining well-being and need not involve treatment.",
-                "ru": "Медицинский туризм связан с медицинской помощью; оздоровительный прежде всего поддерживает самочувствие и не обязательно включает лечение."
+                "en": "Test the follow-up: check who will care for the patient when they return home, because complications can appear after the trip.",
+                "ru": "Проверь наблюдение после лечения: кто будет наблюдать пациента, когда он вернётся домой, ведь осложнения могут появиться уже после поездки."
               },
               "sources": [
                 {
@@ -1649,16 +1649,16 @@
           },
           "eco": {
             "name": "Ecotourism — applying the definition",
-            "rule": "Nature-based tourism that includes learning, limits environmental and cultural harm, and contributes to conservation and the well-being of host communities.",
+            "rule": "A trip is ecotourism when it is based on nature, includes learning and reduces harm to the environment and local culture. Its benefits for conservation and for local residents must be real, not just claimed.",
             "examples": [
-              "A locally managed guided forest visit can support conservation if fees and visitor behaviour are managed appropriately."
+              "In a forest reserve, a local community runs the guided walks and keeps part of the fees, so the income helps to protect the forest."
             ],
             "review": {
               "englishTerm": "Ecotourism",
-              "russianTerm": "Экологический туризм",
+              "russianTerm": "Экотуризм",
               "contrast": {
-                "en": "A nature trip is not automatically ecotourism: examine management, conservation benefits and local participation.",
-                "ru": "Поездка на природу не автоматически экотуризм: проверяй управление, пользу для охраны природы и участие жителей."
+                "en": "Test the trip: check whether a local operator, a protected area or a conservation programme gets a real share of the income, and whether the visit includes learning.",
+                "ru": "Проверь поездку: получает ли местный оператор, охраняемая территория или программа охраны природы реальную долю дохода и есть ли в поездке элемент обучения."
               },
               "sources": [
                 {
@@ -1672,16 +1672,16 @@
           },
           "volun": {
             "name": "Voluntourism — applying the definition",
-            "rule": "Travel that combines a visitor experience with voluntary work on a host project, often through a paid programme. Evaluate what the host community needs and what the visitor can competently contribute.",
+            "rule": "A trip counts as voluntourism when a traveller combines sightseeing with volunteer work on a project in the host community. The work should meet a need that local people have identified, and the volunteer must have the skills for it.",
             "examples": [
-              "A locally requested habitat survey with trained volunteers has a clearer purpose than an unspecified short visit to 'help'."
+              "For example, at the request of a village, volunteers help install a water filter, and local staff learn how to maintain it. The purpose is clear from the start, and the result stays in the village."
             ],
             "review": {
               "englishTerm": "Voluntourism",
-              "russianTerm": "Волонтёрский туризм",
+              "russianTerm": "Волонтуризм",
               "contrast": {
-                "en": "Good intentions or a fee do not prove benefit; participation must support local priorities rather than displace paid local work.",
-                "ru": "Добрые намерения или взнос не доказывают пользу: участие должно отвечать местным приоритетам, а не вытеснять оплачиваемый труд жителей."
+                "en": "Test the project: ask who keeps the skills and the result after the volunteers leave.",
+                "ru": "Проверь проект: кто сохранит навыки и результат после отъезда волонтёров."
               },
               "sources": [
                 {
@@ -1694,17 +1694,17 @@
             }
           },
           "extreme": {
-            "name": "Adventure tourism — applying the definition",
-            "rule": "Adventure tourism involves activities linked to landscapes, physical effort or perceived risk. Extreme tourism describes its more demanding or hazardous end, rather than a single official risk class.",
+            "name": "Extreme tourism — applying the definition",
+            "rule": "A trip is extreme tourism when its activities carry a high risk of injury or death because of cold, altitude, weather or distance from help. It is the most demanding end of adventure tourism.",
             "examples": [
-              "Classify a trip by its actual activity and conditions, not just by a remote destination name."
+              "A solo cave dive far from the entrance carries a high risk of injury or death, because there is no easy exit and no quick help. A supervised dive in shallow open water carries a much lower risk."
             ],
             "review": {
-              "englishTerm": "Adventure and extreme tourism",
-              "russianTerm": "Приключенческий и экстремальный туризм",
+              "englishTerm": "Extreme tourism",
+              "russianTerm": "Экстремальный туризм",
               "contrast": {
-                "en": "A guided lowland hike and a high-altitude ascent can both be adventure tourism but demand very different skills and safeguards.",
-                "ru": "Прогулка с гидом и высотное восхождение могут быть приключенческим туризмом, но требуют совершенно разных навыков и мер защиты."
+                "en": "Test the risk: ask whether a rescue would arrive in time to help a serious injury, and whether the guide can stop the trip.",
+                "ru": "Проверь риск: успеет ли спасение помочь при тяжёлой травме и может ли гид остановить поездку."
               },
               "sources": [
                 {
@@ -1721,24 +1721,24 @@
     }
   },
   "resourceReliance": {
-    "title": "Resource Reliance",
-    "intro": "How societies depend on resources — energy, water, food. Sustainability concepts, Malthus vs Boserup, and key players.",
+    "title": "Resource reliance",
+    "intro": "Societies depend on resources such as energy, water and food. This topic covers sustainability, the theories of Malthus and Boserup, and the key players who shape how resources are distributed and used.",
     "sections": {
       "definitions": {
         "title": "Definitions",
         "detailed": {
           "resource": {
             "name": "Resource",
-            "rule": "Something people can use to meet a need or achieve a purpose. Natural resources include water, soil, organisms, minerals and energy flows; usefulness depends on technology, access and demand.",
+            "rule": "A resource is anything from the natural environment that people use to meet a need or achieve a goal, such as water, soil, minerals or sunlight. Something becomes a resource only when people have the technology and access to use it, so what counts as a resource can change over time. Supply is the amount of a resource that is available to use. Demand is the wish to buy a resource, backed by the ability to pay for it.",
             "examples": [
-              "A forest is renewable only if regeneration can sustain harvesting; uranium is a finite mineral fuel."
+              "A forest is a renewable resource only while its trees regrow at least as fast as they are cut down. Uranium, used as nuclear fuel, is a finite mineral resource."
             ],
             "review": {
               "englishTerm": "Resource",
               "russianTerm": "Ресурс",
               "contrast": {
-                "en": "Renewable stocks can be depleted if use exceeds regeneration; flow resources such as sunlight are not stored finite fuel deposits.",
-                "ru": "Возобновляемые запасы истощаются, если использование превышает восстановление; поточные ресурсы, например солнечное излучение, не являются конечным топливным запасом."
+                "en": "Renewable resources can still be depleted if use exceeds regeneration. Flow resources, such as sunlight, are not finite deposits like oil.",
+                "ru": "Возобновляемые ресурсы тоже можно истощить, если использование превышает восстановление. Потоковые ресурсы (flow resources), например солнечный свет, в отличие от нефти, не образуют конечных месторождений."
               },
               "sources": [
                 {
@@ -1758,16 +1758,16 @@
           },
           "consumption": {
             "name": "Resource consumption",
-            "rule": "The use of resources by people and economic activities over a stated period. Distinguish total use from use per person and from resources embodied in imported goods.",
+            "rule": "Consumption is the use of resources by people and economic activities over a stated period. Total use shows the overall strain on a resource, while use per person shows how much one person uses on average. A country with a large population can have a high total use even when each person uses little, so both measures are needed when comparing countries.",
             "examples": [
-              "Compare both total water use and litres per person per day, stating what uses are included."
+              "Water for irrigating crops counts towards a country's total water use. A country with large irrigated farms can therefore have a high total use even if each household uses little water."
             ],
             "review": {
               "englishTerm": "Resource consumption",
               "russianTerm": "Потребление ресурсов",
               "contrast": {
-                "en": "A country can reduce domestic extraction while its consumption footprint remains high through imports.",
-                "ru": "Страна может сократить собственную добычу, сохраняя большой ресурсный след за счёт импорта."
+                "en": "A country can cut its own extraction of a resource while its consumption stays high through imports.",
+                "ru": "Страна может сократить собственную добычу ресурса, но её потребление останется высоким за счёт импорта."
               },
               "sources": [
                 {
@@ -1787,16 +1787,16 @@
           },
           "carrying": {
             "name": "Carrying capacity",
-            "rule": "The population or level of activity that an environment can sustain over time under specified resource, technology and consumption conditions.",
+            "rule": "Carrying capacity is the maximum population size that an environment can support over a long period, given its resources and the way they are used. Growth starts slowly, speeds up, and then levels off as the population nears this limit. This pattern is called logistic growth, and it produces an S-shaped curve.",
             "examples": [
-              "A region may support different populations under different diets, farming methods and water supplies."
+              "Groundwater in a farming valley: if farmers pump it faster than rain and rivers refill it, the valley can no longer support the same number of farms and people."
             ],
             "review": {
               "englishTerm": "Carrying capacity",
               "russianTerm": "Ёмкость среды",
               "contrast": {
-                "en": "For human societies this is conditional and changeable, not a fixed worldwide headcount; trade can shift pressures elsewhere.",
-                "ru": "Для общества это условная и изменяемая величина, а не неизменное число людей на Земле; торговля может переносить нагрузку в другие места."
+                "en": "For people, carrying capacity depends on technology and consumption, so it changes over time. It is not a fixed number of people for the whole planet.",
+                "ru": "Для людей ёмкость среды зависит от технологий и уровня потребления, поэтому со временем меняется. Это не фиксированное число жителей Земли."
               },
               "sources": [
                 {
@@ -1818,21 +1818,21 @@
       },
       "sustainability": {
         "title": "Sustainability",
-        "brundtland": "Development that addresses present needs while preserving future generations' ability to meet theirs. It links environmental limits with human well-being and fairness between and within generations.",
-        "sdgs": "Seventeen linked global goals adopted in 2015 as part of the UN 2030 Agenda. They set objectives supported by targets and indicators for countries at all income levels.",
+        "brundtland": "Sustainability asks whether today's use of resources can continue without depleting them for future generations. The answer depends on the carrying capacity of the environment and on how fairly resources are shared.",
+        "sdgs": "Four of the 17 SDGs are especially relevant to resource reliance: Goal 2 (zero hunger), Goal 6 (clean water and sanitation), Goal 7 (affordable and clean energy) and Goal 12 (responsible consumption and production).",
         "detailed": {
           "brundtland": {
-            "name": "Sustainable development (Brundtland, 1987)",
-            "rule": "Development that addresses present needs while preserving future generations' ability to meet theirs. It links environmental limits with human well-being and fairness between and within generations.",
+            "name": "Sustainable development (Brundtland definition)",
+            "rule": "Sustainable development meets present needs without reducing the ability of future generations to meet theirs. For a renewable resource, this means using it no faster than it can regenerate, and keeping total use within the carrying capacity of the environment. For a finite resource, it means using it more slowly and finding alternatives.",
             "examples": [
-              "A water project should be affordable now and preserve reliable clean supplies and ecosystems for the future."
+              "A fishery that keeps its catch below the rate at which fish regrow can feed people now and still leave fish for future generations."
             ],
             "review": {
-              "englishTerm": "Sustainable development (Brundtland, 1987)",
-              "russianTerm": "Устойчивое развитие (Брундтланд, 1987)",
+              "englishTerm": "Sustainable development",
+              "russianTerm": "Устойчивое развитие",
               "contrast": {
                 "en": "Sustainable development is broader than environmental protection or continuing GDP growth; examine social, economic and environmental outcomes together.",
-                "ru": "Устойчивое развитие шире охраны природы или непрерывного роста ВВП; рассматривай социальные, экономические и экологические результаты вместе."
+                "ru": "Устойчивое развитие шире охраны природы или непрерывного роста ВВП (GDP); рассматривай социальные, экономические и экологические результаты вместе."
               },
               "sources": [
                 {
@@ -1852,16 +1852,16 @@
           },
           "sdgs": {
             "name": "Sustainable Development Goals (SDGs)",
-            "rule": "Seventeen linked global goals adopted in 2015 as part of the UN 2030 Agenda. They set objectives supported by targets and indicators for countries at all income levels.",
+            "rule": "The Sustainable Development Goals (SDGs) are 17 global goals adopted by UN member states as part of the UN Agenda for Sustainable Development. Each goal has targets and indicators that make progress measurable.",
             "examples": [
-              "Goal 6 addresses water and sanitation; Goal 12 addresses consumption and production."
+              "A town that treats its sewage before it reaches a river contributes to Goal 6, which covers water and sanitation."
             ],
             "review": {
               "englishTerm": "Sustainable Development Goals (SDGs)",
               "russianTerm": "Цели устойчивого развития (ЦУР)",
               "contrast": {
                 "en": "A goal is an intended outcome; adoption does not show that the outcome has been achieved.",
-                "ru": "Цель — желаемый результат; её принятие не доказывает достижения."
+                "ru": "Цель — это желаемый результат. Принятие цели не доказывает, что результат уже достигнут."
               },
               "sources": [
                 {
@@ -1877,14 +1877,14 @@
       },
       "energy": {
         "title": "Energy sources",
-        "renewable": "Renewable: solar, wind, hydro, geothermal, biofuels",
-        "nonRenewable": "Non-renewable: coal, oil, natural gas and uranium fuel for nuclear power. Low-carbon is a separate classification.",
+        "renewable": "Renewable energy sources are replenished naturally on a human timescale. The main ones are solar, wind, hydropower, geothermal and biomass.",
+        "nonRenewable": "Non-renewable energy sources are not replenished on a human timescale. The main ones are coal, oil, natural gas and the uranium used as fuel in nuclear power stations.",
         "detailed": {
           "solar": {
             "name": "Solar energy",
-            "rule": "Energy from solar radiation. Photovoltaic cells convert light to electricity; solar thermal systems collect heat or use concentrated sunlight to generate power.",
+            "rule": "Solar energy is energy from the Sun's light and heat. Photovoltaic cells convert light directly into electricity. Solar thermal systems collect heat, or use mirrors to focus sunlight and heat water into steam that drives a turbine.",
             "examples": [
-              "A rooftop photovoltaic panel produces electricity in daylight, with lower output under many cloudy conditions."
+              "A rooftop solar panel makes electricity without burning fuel, but it produces no electricity at night."
             ],
             "review": {
               "englishTerm": "Solar energy",
@@ -1911,16 +1911,16 @@
           },
           "wind": {
             "name": "Wind energy",
-            "rule": "Wind turbines transfer kinetic energy from moving air into mechanical rotation and then electricity. Wind is a replenished energy flow.",
+            "rule": "Wind energy is the kinetic energy of moving air. Wind turbines use it to turn their blades, and a generator then converts that rotation into electricity. Wind is replenished because the Sun heats the Earth's surface unevenly, which makes air move.",
             "examples": [
-              "A wind farm's annual generation depends on the wind resource as well as its installed capacity."
+              "A wind farm makes electricity without burning fuel, but its turbines need large areas of land and can change the local landscape."
             ],
             "review": {
               "englishTerm": "Wind energy",
               "russianTerm": "Энергия ветра",
               "contrast": {
                 "en": "Wind speed and turbine operating limits determine output; turbines do not generate their rated power all the time.",
-                "ru": "Выработка зависит от скорости ветра и рабочих ограничений турбины; номинальная мощность достигается не постоянно."
+                "ru": "Выработка зависит от скорости ветра и рабочих ограничений турбины; турбина не всегда работает на номинальной мощности."
               },
               "sources": [
                 {
@@ -1940,9 +1940,9 @@
           },
           "hydro": {
             "name": "Hydropower",
-            "rule": "Electricity generated by moving water driving turbines, often using a difference in water level. The water cycle replenishes river flows.",
+            "rule": "Hydropower generates electricity when flowing water turns turbines. Dams often hold back water, so it falls through the turbines from a higher level. The water cycle, driven by the Sun, keeps refilling rivers and reservoirs.",
             "examples": [
-              "A reservoir can store water for later generation, but its storage and inflow are finite."
+              "A reservoir can store water and release it when more electricity is needed, but in a dry year less water flows in and less electricity is made."
             ],
             "review": {
               "englishTerm": "Hydropower",
@@ -1969,16 +1969,16 @@
           },
           "geothermal": {
             "name": "Geothermal energy",
-            "rule": "Useful heat from within Earth, accessed for heating or, at suitable temperatures, electricity generation.",
+            "rule": "Geothermal energy is heat from inside the Earth. It is used directly for heating, or to generate electricity where the underground water or rock is hot enough.",
             "examples": [
-              "Hot underground fluids can supply a district-heating network."
+              "In some volcanic regions, hot water from underground heats homes without burning fuel."
             ],
             "review": {
               "englishTerm": "Geothermal energy",
               "russianTerm": "Геотермальная энергия",
               "contrast": {
                 "en": "A renewable classification does not guarantee every local reservoir is inexhaustible; extraction and recharge must be managed.",
-                "ru": "Отнесение к возобновляемым источникам не делает каждый местный резервуар неисчерпаемым: нужны управление отбором и восполнением."
+                "ru": "Возобновляемость не значит, что каждый подземный резервуар неисчерпаем: его отбор и восполнение нужно контролировать."
               },
               "sources": [
                 {
@@ -1998,9 +1998,9 @@
           },
           "biofuels": {
             "name": "Biofuels and biomass",
-            "rule": "Biomass is recently living organic material used as an energy source. Biofuels are fuels made from it, including ethanol, biodiesel and biogas.",
+            "rule": "Biomass is organic material from recently living plants and animals, such as wood, crop residues or manure. Biofuels are fuels made from biomass, for example ethanol, biodiesel and biogas. The energy in biomass is sunlight that plants stored through photosynthesis.",
             "examples": [
-              "Using crop residues differs from clearing forest to grow an energy crop."
+              "Some countries make ethanol from sugar cane to fuel cars, but fuel crops can compete with food crops for land."
             ],
             "review": {
               "englishTerm": "Biofuels and biomass",
@@ -2027,16 +2027,16 @@
           },
           "fossilFuels": {
             "name": "Fossil fuels",
-            "rule": "Coal, oil and natural gas formed from ancient organic material over geological time. Burning them releases stored chemical energy and carbon dioxide.",
+            "rule": "Coal, oil and natural gas are fossil fuels. They formed from the remains of ancient organic material over geological time. Burning them releases the chemical energy stored in them, together with carbon dioxide.",
             "examples": [
-              "Gas can produce electricity on demand, but combustion still releases CO₂."
+              "A gas-fired power station can be switched on when demand rises, but burning the gas still releases CO₂."
             ],
             "review": {
               "englishTerm": "Fossil fuels",
               "russianTerm": "Ископаемое топливо",
               "contrast": {
-                "en": "They are non-renewable on human timescales; a deposit being large does not make it renewable.",
-                "ru": "В масштабе человеческой жизни они невозобновляемы; большой запас не делает ресурс возобновляемым."
+                "en": "They are non-renewable on a human timescale: a large deposit does not make them renewable.",
+                "ru": "В масштабах человеческой жизни они невозобновляемы: большое месторождение не делает их возобновляемыми."
               },
               "sources": [
                 {
@@ -2050,16 +2050,16 @@
           },
           "nuclear": {
             "name": "Nuclear fission energy",
-            "rule": "Power stations release energy by splitting heavy atomic nuclei, usually using uranium fuel; the heat is used to generate electricity.",
+            "rule": "Nuclear power stations release energy by splitting heavy atomic nuclei (fission), usually of uranium. The heat boils water into steam, and the steam turns turbines that generate electricity.",
             "examples": [
-              "Compare fuel supply, construction, operation and waste management when judging an energy option."
+              "Some countries generate much of their electricity in nuclear power stations. They emit little CO₂ during operation, but they produce radioactive waste that must be stored safely for a very long time."
             ],
             "review": {
               "englishTerm": "Nuclear fission energy",
               "russianTerm": "Энергия ядерного деления",
               "contrast": {
-                "en": "Nuclear power is low-carbon over its life cycle but uses finite mineral fuel and creates waste requiring long-term management; low-carbon and renewable are different categories.",
-                "ru": "Атомная энергетика имеет низкие выбросы углерода за жизненный цикл, но использует конечное топливо и создаёт отходы для длительного обращения; низкоуглеродное и возобновляемое — разные признаки."
+                "en": "Nuclear power is generally considered low-carbon over its life cycle, but it uses finite fuel and creates waste that needs long-term management. Low-carbon and renewable are different categories.",
+                "ru": "Атомную энергетику обычно считают низкоуглеродной за весь жизненный цикл, но она использует конечное минеральное топливо и создаёт отходы, которые нужно долго хранить и контролировать. Низкоуглеродность и возобновляемость — разные категории."
               },
               "sources": [
                 {
@@ -2080,21 +2080,21 @@
         }
       },
       "malthusBoserup": {
-        "title": "Malthus vs Boserup",
-        "malthus": "Malthus argued that unchecked population could grow faster than food supply, creating pressure restrained by checks such as reduced births or higher mortality. This is a historical argument with assumptions, not a universal forecast.",
-        "boserup": "Boserup argued that population pressure can encourage more intensive land use, including shorter fallow periods, more labour and changes in farming techniques, raising output per unit of land.",
+        "title": "Malthus and Boserup: two theories",
+        "malthus": "Malthus argued that population tends to grow faster than food supply, so checks such as famine and disease would limit growth.",
+        "boserup": "Boserup argued that population pressure can push farmers to use their land more intensively, which can raise output per unit of land.",
         "detailed": {
           "malthus": {
             "name": "Malthusian population model",
-            "rule": "Malthus argued that unchecked population could grow faster than food supply, creating pressure restrained by checks such as reduced births or higher mortality. This is a historical argument with assumptions, not a universal forecast.",
+            "rule": "If births are not restrained, population keeps rising until it outruns the food that can be produced. Checks then follow: births fall, or deaths rise through famine, disease or war. Malthus's argument rests on assumptions about how fast food can grow, so it is a historical model, not a universal forecast.",
             "examples": [
-              "Compare the model's assumed growth paths with evidence on yields, fertility and access to food."
+              "In a village where more children survive each year, more people share the same fields. If the harvest does not grow, each person gets less food, which is the kind of pressure Malthus described."
             ],
             "review": {
               "englishTerm": "Malthusian population model",
-              "russianTerm": "Мальтузианская модель населения",
+              "russianTerm": "Модель Мальтуса",
               "contrast": {
-                "en": "A model of population pressure does not explain every famine: access, inequality, conflict and technology also matter.",
+                "en": "A model of population pressure does not explain every famine: access, unequal distribution, conflict and technology also matter.",
                 "ru": "Модель демографического давления не объясняет любой голод: важны доступ, неравенство, конфликты и технологии."
               },
               "sources": [
@@ -2115,16 +2115,16 @@
           },
           "boserup": {
             "name": "Boserup's agricultural intensification model",
-            "rule": "Boserup argued that population pressure can encourage more intensive land use, including shorter fallow periods, more labour and changes in farming techniques, raising output per unit of land.",
+            "rule": "When population grows, each person has less land. Farmers respond by shortening fallow periods, cropping more often and adding labour and new techniques, such as irrigation. Output per unit of land rises, but usually at a higher cost in labour.",
             "examples": [
-              "More frequent cultivation can feed more people while increasing labour needs and pressure on soils."
+              "A farmer who sows a new crop straight after the harvest, instead of leaving the field to rest, can feed more people from the same land. That farmer now spends more time ploughing, weeding and watering."
             ],
             "review": {
-              "englishTerm": "Boserup's agricultural intensification model",
-              "russianTerm": "Модель интенсификации земледелия Бозеруп",
+              "englishTerm": "Agricultural intensification",
+              "russianTerm": "Интенсификация земледелия",
               "contrast": {
-                "en": "Higher output per hectare need not mean higher output per hour of labour. Innovation is possible, not guaranteed or free of environmental costs.",
-                "ru": "Больший выпуск с гектара не обязательно означает больший выпуск за час труда. Новшества возможны, но не гарантированы и могут иметь экологическую цену."
+                "en": "Higher output per hectare need not mean higher output per hour of labour. New techniques are not automatic, and they can bring environmental costs, such as soil damage.",
+                "ru": "Больший выпуск с гектара не обязательно означает больший выпуск за час труда. Новые методы не появляются сами собой, и они могут нанести ущерб окружающей среде, например истощить почву."
               },
               "sources": [
                 {
@@ -2140,20 +2140,20 @@
       },
       "waterStress": {
         "title": "Water stress",
-        "description": "Pressure from water use relative to available water. SDG indicator 6.4.2 compares freshwater withdrawals with renewable freshwater resources after allowing for environmental water needs, expressed as a percentage.",
+        "description": "Water stress is the strain that water use places on the water that is available. It is high when people, farms and factories take a large share of the water that rivers and groundwater can renew.",
         "detailed": {
           "definition": {
             "name": "Water stress",
-            "rule": "Pressure from water use relative to available water. SDG indicator 6.4.2 compares freshwater withdrawals with renewable freshwater resources after allowing for environmental water needs, expressed as a percentage.",
+            "rule": "Water stress is the share of available freshwater that is taken from rivers, lakes and groundwater for use. The SDG indicator 6.4.2 expresses it as a percentage.",
             "examples": [
-              "A national annual average can hide severe seasonal or basin-level shortages."
+              "In a dry summer, a river carries much less water, while farms in its valley still want to irrigate. The valley can be under water stress even when the national annual average looks fine."
             ],
             "review": {
               "englishTerm": "Water stress",
-              "russianTerm": "Водный стресс (нагрузка на водные ресурсы)",
+              "russianTerm": "Водный стресс",
               "contrast": {
-                "en": "Water stress is a pressure indicator; water security is broader and includes reliable access, water quality, ecosystems and protection from water-related harm. Different indices use different thresholds.",
-                "ru": "Водный стресс — показатель нагрузки; водная безопасность шире и включает надёжный доступ, качество воды, экосистемы и защиту от связанного с водой ущерба. Пороговые значения разных индексов различаются."
+                "en": "Water stress is a measure of strain; water security is broader and includes reliable access, water quality, ecosystems and protection from water-related harm. Different indices may use different thresholds.",
+                "ru": "Водный стресс — это показатель нагрузки. Водная безопасность (water security) шире: она включает надёжный доступ к воде, её качество, экосистемы и защиту от вреда, связанного с водой. Разные индексы могут использовать разные пороговые значения."
               },
               "sources": [
                 {
@@ -2188,7 +2188,7 @@
               "russianTerm": "Причины водного стресса",
               "contrast": {
                 "en": "Scarce rainfall is only one cause; high demand can stress a relatively wet basin, while poor water quality can restrict usable supply.",
-                "ru": "Малые осадки — лишь одна причина: высокий спрос нагружает и относительно влажный бассейн, а загрязнение ограничивает пригодную воду."
+                "ru": "Недостаток осадков — лишь одна из причин: высокий спрос может создать нагрузку даже на относительно влажный бассейн, а низкое качество воды может сокращать запасы, пригодные для использования."
               },
               "sources": [
                 {
@@ -2208,16 +2208,16 @@
           },
           "solutions": {
             "name": "Managing water stress",
-            "rule": "Combine demand management, leakage reduction, appropriate reuse, protection of water quality and ecosystems, and reliable supply planning at basin scale.",
+            "rule": "Combine demand management, cutting leakage, appropriate reuse, protection of water quality and ecosystems, and reliable supply planning at basin scale.",
             "examples": [
-              "Judge an option by water saved, energy use, affordability and effects downstream."
+              "Repairing leaking pipes in a city means less water is taken from a river for the same supply, but the repairs cost money."
             ],
             "review": {
               "englishTerm": "Managing water stress",
               "russianTerm": "Управление нагрузкой на воду",
               "contrast": {
                 "en": "More efficient irrigation does not automatically save water across a basin if saved water expands irrigated area or reduces return flows.",
-                "ru": "Эффективное орошение не автоматически экономит воду бассейна, если высвобождённый объём расширяет полив или уменьшает возвратный сток."
+                "ru": "Более эффективное орошение не экономит воду в масштабе бассейна автоматически. Экономии может не быть, если сэкономленная вода идёт на расширение орошаемых площадей или уменьшает возвратный сток."
               },
               "sources": [
                 {
@@ -2239,13 +2239,13 @@
       },
       "foodSecurity": {
         "title": "Food security",
-        "factors": "Availability, access, utilisation and stability: population, water, climate, soils, incomes, conflict and trade affect these in different ways.",
+        "factors": "Population, water, climate, soils, incomes, conflict and trade all affect availability, access, utilisation and stability, but in different ways.",
         "detailed": {
           "definition": {
             "name": "Food security",
             "rule": "People have food security when they can consistently obtain enough safe, nutritious food for a healthy active life. Four connected dimensions are availability, access, utilisation and stability over time.",
             "examples": [
-              "A functioning food market addresses availability; sufficient household income addresses access."
+              "A drought that cuts the local harvest reduces availability, because less food reaches the market. A family whose income falls can lose access, even when shops still have food."
             ],
             "review": {
               "englishTerm": "Food security",
@@ -2272,16 +2272,16 @@
           },
           "drivers": {
             "name": "Drivers of food insecurity",
-            "rule": "Crop losses can reduce availability; conflict, displacement or low income can block access; unsafe water or poor diet can impair utilisation. Repeated shocks undermine stability.",
+            "rule": "Crop losses can reduce availability. Conflict, displacement or low income can block access. Unsafe water or a poor diet can impair utilisation. Repeated shocks undermine stability.",
             "examples": [
               "A price rise may make food inaccessible to low-income households without a complete production failure."
             ],
             "review": {
-              "englishTerm": "Drivers of food insecurity",
-              "russianTerm": "Причины продовольственной незащищённости",
+              "englishTerm": "Food insecurity",
+              "russianTerm": "Продовольственная незащищённость",
               "contrast": {
                 "en": "Food insecurity can occur where shops contain food. Identify which dimension fails rather than assuming too little food is grown.",
-                "ru": "Нехватка продовольственной безопасности возможна при полных магазинах. Укажи нарушенную сторону вместо предположения, что всегда мало выращено."
+                "ru": "Продовольственная незащищённость возможна и там, где в магазинах полно еды. Определи, какое измерение нарушено, а не предполагай, что еды выращивают слишком мало."
               },
               "sources": [
                 {
@@ -2301,13 +2301,13 @@
           },
           "solutions": {
             "name": "Improving food security",
-            "rule": "Match action to the failing dimension: resilient farming and storage support supply; income or food assistance supports access; safe water and appropriate nutrition support utilisation; planning helps stability.",
+            "rule": "Match action to the failing dimension: resilient farming and storage support availability; income or food assistance support access; safe water and good nutrition support utilisation; planning helps stability.",
             "examples": [
-              "School meals can support access and nutrition; reliable storage can reduce seasonal losses."
+              "A school meal programme gives children a reliable meal every school day. This supports their access to food and their nutrition."
             ],
             "review": {
-              "englishTerm": "Improving food security",
-              "russianTerm": "Повышение продовольственной безопасности",
+              "englishTerm": "Food security measures",
+              "russianTerm": "Меры по продовольственной безопасности",
               "contrast": {
                 "en": "Increasing yield alone cannot solve insecurity caused by lost income, exclusion or conflict.",
                 "ru": "Одно повышение урожайности не устраняет проблемы из-за утраты дохода, исключения из доступа или конфликта."
@@ -2332,20 +2332,20 @@
       },
       "players": {
         "title": "Key players",
-        "items": "UN, Greenpeace, Zero Waste, supermarkets (Tesco, Sainsbury's), national governments",
+        "items": "Five groups of players influence how resources are used: international organisations such as the United Nations (UN), non-governmental organisations (NGOs), businesses, national and local governments, and citizens and consumers. For example, these include the UN, an environmental NGO and a large supermarket chain. Together, their decisions largely determine whether resources can be used sustainably, that is, in a way that future generations can also use them.",
         "detailed": {
           "un": {
             "name": "United Nations and international agencies",
-            "rule": "Intergovernmental organisations support cooperation through shared goals, evidence, technical assistance and programmes. Different UN bodies have different mandates and powers.",
+            "rule": "Intergovernmental organisations are made up of member states, so their decisions depend on agreement between governments. They help by setting shared goals, collecting evidence, giving technical assistance and running programmes that support sustainable resource use. Different UN bodies have different mandates and powers: some can only advise, while others can make binding decisions.",
             "examples": [
-              "FAO supports food and agriculture information; SDG progress relies on action by many partners."
+              "The Food and Agriculture Organization (FAO), a UN agency, publishes data on food and farming, so countries can compare how they use their land and water."
             ],
             "review": {
-              "englishTerm": "United Nations and international agencies",
+              "englishTerm": "UN and international agencies",
               "russianTerm": "ООН и международные организации",
               "contrast": {
-                "en": "An agreed global goal differs from national implementation; avoid treating all UN bodies as a single government or claiming none has any legal authority.",
-                "ru": "Общая глобальная цель отличается от реализации в стране; нельзя считать все органы ООН единым правительством или утверждать, что ни один не имеет правовых полномочий."
+                "en": "An agreed global goal is not the same as action in a country, because governments decide how to carry it out. Do not treat all UN bodies as one government, since they have different powers.",
+                "ru": "Согласованная глобальная цель — ещё не действия в стране: выполнение зависит от правительств. Нельзя считать все органы ООН одним правительством: у них разные полномочия."
               },
               "sources": [
                 {
@@ -2365,16 +2365,16 @@
           },
           "ngos": {
             "name": "Non-governmental organisations (NGOs)",
-            "rule": "Organisations outside government that work on public or community purposes, for example through advocacy, research or services. Funding and accountability arrangements vary.",
+            "rule": "Non-governmental organisations work outside government for public or community goals, for example through campaigning, research or services. They cannot make laws, so they influence resource use by persuading governments, businesses and the public. Their campaigns and research can help resource use become more sustainable. Funding and accountability arrangements vary between organisations, so their independence can differ.",
             "examples": [
-              "Assess a project by local participation, evidence of outcomes and transparent use of funds."
+              "A community group runs a beach clean-up project. Its report should show whether residents helped plan the work, what measurements prove its results, and how it spent its money."
             ],
             "review": {
               "englishTerm": "Non-governmental organisations (NGOs)",
               "russianTerm": "Неправительственные организации (НПО)",
               "contrast": {
-                "en": "Non-governmental does not mean funded only by donations, or automatically representative of every local voice.",
-                "ru": "Неправительственная не означает финансируемая только пожертвованиями или автоматически представляющая всех местных жителей."
+                "en": "A non-governmental organisation does not have to rely only on donations, and it does not automatically speak for every local resident.",
+                "ru": "Неправительственная организация не обязана получать деньги только от пожертвований и не обязательно представляет всех местных жителей."
               },
               "sources": [
                 {
@@ -2394,16 +2394,16 @@
           },
           "businesses": {
             "name": "Businesses and transnational corporations (TNCs)",
-            "rule": "Businesses produce goods and services; TNCs organise or control activities in more than one country. Their supply chains, investment and purchasing decisions affect resource use and jobs.",
+            "rule": "Businesses produce goods and services and decide how to use materials, energy and labour. A transnational corporation (TNC) organises or controls activities in more than one country. Its supply chains, investment and purchasing decisions affect resource use, jobs and pollution, so these decisions matter for sustainability. Laws, costs and customer demand limit what companies can change.",
             "examples": [
-              "Compare actual material and energy use with a stated reduction target."
+              "A supermarket chain says it will cut the plastic packaging it uses. To check this claim, compare how much packaging it used in the year it made the pledge with the amount used in later years."
             ],
             "review": {
-              "englishTerm": "Businesses and transnational corporations (TNCs)",
-              "russianTerm": "Бизнес и транснациональные корпорации (ТНК)",
+              "englishTerm": "Businesses and TNCs",
+              "russianTerm": "Бизнес и ТНК",
               "contrast": {
                 "en": "A company pledge is a stated intention; verified outcomes require a baseline, scope, dates and measured results.",
-                "ru": "Обещание компании — намерение; подтверждённый результат требует исходного уровня, охвата, сроков и измерений."
+                "ru": "Обещание компании — заявленное намерение; подтверждённый результат требует исходного уровня (baseline), охвата, сроков и измеренных результатов."
               },
               "sources": [
                 {
@@ -2429,9 +2429,9 @@
           },
           "governments": {
             "name": "National and local governments",
-            "rule": "Governments can set rules, taxes, budgets and infrastructure priorities and provide public services. Their capacity, responsibilities and effectiveness differ across places.",
+            "rule": "Governments can set rules, collect taxes, decide budgets and choose which infrastructure to build. Their choices are limited by budgets, by laws and by the capacity of their institutions, so their effectiveness differs from place to place. Long-term planning can protect water, energy and land for future use, so governments play a key part in sustainable resource management.",
             "examples": [
-              "A water policy needs monitoring, service investment and clear responsibilities as well as targets."
+              "A regional government sets a target to clean up a polluted river. The target works only if the environment agency measures water quality each year, the government pays for the work, and each stretch of river has a clear owner."
             ],
             "review": {
               "englishTerm": "National and local governments",
@@ -2452,9 +2452,9 @@
           },
           "citizens": {
             "name": "Citizens and consumers",
-            "rule": "People influence resource decisions through purchasing, everyday practices, civic participation and collective action. Available choices depend on income, services and institutions.",
+            "rule": "Citizens and consumers influence resource use through what they buy, how they use water and energy, and through voting, petitions and community action. Their choices are limited by income, by local services and by the products on sale. Many small choices together can make resource use more sustainable, but only if sustainable options are easy to choose.",
             "examples": [
-              "A household can reduce waste, while collection systems and product design affect what reduction is feasible."
+              "A family sorts its rubbish, but recycling a material is much harder if the local waste service does not collect it."
             ],
             "review": {
               "englishTerm": "Citizens and consumers",

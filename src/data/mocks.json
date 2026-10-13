@@ -1287,7 +1287,7 @@
       "id": "landscapes-fieldwork",
       "subject": "geography",
       "title": {
-        "en": "Weathering, river efficiency and ranked data",
+        "en": "Weathering, channel efficiency and ranked data",
         "ru": "Выветривание, эффективность русла и ранговые данные"
       },
       "scope": "g9",
@@ -1297,20 +1297,20 @@
       "paragraphs": [
         {
           "en": "Weathering alters or breaks down rock in place. Physical weathering fractures it, for example when water freezes in suitable cracks; chemical weathering changes minerals through reactions such as dissolution. Organisms can contribute to both. Erosion removes material and transportation carries it. Deposition of particles occurs when they settle or are left behind; dissolved substances may precipitate through chemical changes.",
-          "ru": "Выветривание изменяет или разрушает породу на месте. Физическое выветривание дробит её, например при замерзании воды в подходящих трещинах; химическое изменяет минералы через реакции, включая растворение. Организмы могут участвовать в обоих процессах. Эрозия удаляет материал, транспортировка переносит его. Частицы откладываются при оседании или прекращении переноса; растворённые вещества могут выпадать в осадок при химических изменениях."
+          "ru": "Выветривание изменяет или разрушает горную породу на месте. Физическое выветривание дробит её, например, когда вода замерзает в подходящих трещинах. Химическое выветривание меняет минералы через реакции, например растворение. Организмы могут участвовать в обоих видах выветривания. Эрозия удаляет материал, а перенос уносит его. Отложение (аккумуляция) происходит, когда частицы оседают или перестают переноситься. Растворённые вещества могут выпадать в осадок при химических изменениях."
         },
         {
-          "en": "Discharge Q = A × mean velocity: the volume passing a cross-section each second, measured in m³/s. Velocity is measured in m/s. Hydraulic radius R = A/P, where A is flow cross-sectional area and P is the wetted perimeter (excluding the free water surface); R has units of length. With slope and roughness comparable, greater R generally permits faster flow. Hydraulic action instead describes erosion by water force.",
-          "ru": "Расход Q = A × средняя скорость: объём воды, проходящий через сечение за секунду, в м³/с. Скорость измеряют в м/с. Гидравлический радиус R = A/P, где A — площадь сечения потока, а P — смоченный периметр без свободной поверхности воды; R имеет размерность длины. При сопоставимых уклоне и шероховатости больший R обычно способствует более быстрому течению. Hydraulic action обозначает эрозионное действие силы воды."
+          "en": "Discharge Q = A × mean velocity: the volume passing a cross-section each second, measured in m³/s. Velocity is measured in m/s. Hydraulic radius R = A/P, where A is flow cross-sectional area and P is the wetted perimeter (excluding the free water surface); R has units of length. With slope and roughness comparable, greater R generally permits faster flow. Hydraulic action is a separate process: erosion by the force of moving water.",
+          "ru": "Расход Q = A × средняя скорость: объём воды, проходящий через сечение за секунду, в м³/с. Скорость измеряют в м/с. Гидравлический радиус R = A/P, где A — площадь сечения потока, а P — смоченный периметр без свободной поверхности воды; R имеет размерность длины. При сопоставимых уклоне и шероховатости больший R обычно позволяет воде течь быстрее. Гидравлическое действие (hydraulic action) — отдельный процесс: эрозия силой движущейся воды."
         },
         {
           "en": "For untied ranks, Spearman rₛ=1−6Σd²/[n(n²−1)]. Rank both variables consistently and compute rank differences. Ties need average ranks and an appropriate method; the simplified formula needs care. A coefficient alone does not establish statistical significance: use sample size, test direction and a matching critical-values table.",
-          "ru": "Для рангов без совпадений: rₛ=1−6Σd²/[n(n²−1)]. Ранжируйте обе переменные одинаково и найдите разности. При совпадениях нужны средние ранги и подходящий метод. Один коэффициент не доказывает значимость: учитывайте объём выборки, направление теста и подходящую таблицу."
+          "ru": "Для рангов без совпадений: rₛ = 1 − 6Σd²/[n(n²−1)]. Ранжируй обе переменные одинаково и найди разности рангов. При совпадениях нужны средние ранги и подходящий метод; упрощённой формулой в этом случае пользоваться осторожно. Один коэффициент ещё не доказывает статистическую значимость: учитывай объём выборки, направление теста (односторонний или двусторонний) и подходящую таблицу критических значений."
         }
       ],
       "question": {
         "en": "For 5 sites, ranks are x=[1,2,3,4,5], y=[1,3,2,5,4]. Find rₛ and interpret cautiously.",
-        "ru": "Для 5 участков ранги x=[1,2,3,4,5], y=[1,3,2,5,4]. Найдите rₛ и осторожно интерпретируйте."
+        "ru": "Для 5 участков ранги x = [1, 2, 3, 4, 5], y = [1, 3, 2, 5, 4]. Найди rₛ и осторожно интерпретируй результат."
       },
       "answer": {
         "en": "d=[0,−1,1,−1,1], Σd²=4. rₛ=1−24/(5×24)=0.8: a positive ranked association in these observations. Do not claim significance or causation without further evidence.",
@@ -1332,7 +1332,7 @@
           "russianTerm": "Выветривание / эрозия / аккумуляция",
           "contrast": {
             "en": "Change in place, removal and accumulation describe different processes; organisms can cause both mechanical and chemical weathering.",
-            "ru": "Изменение на месте, удаление и накопление — разные процессы; организмы вызывают как физическое, так и химическое выветривание."
+            "ru": "Изменение на месте, удаление и аккумуляция — разные процессы; организмы могут вызывать и физическое, и химическое выветривание."
           },
           "sources": [
             {
@@ -1360,7 +1360,7 @@
           "russianTerm": "Гидравлический радиус",
           "contrast": {
             "en": "R = A/P describes channel geometry; hydraulic action describes erosion. The free water surface is not part of P.",
-            "ru": "R = A/P описывает геометрию потока; hydraulic action — эрозию. Свободная поверхность воды не входит в P."
+            "ru": "R = A/P описывает геометрию русла; гидравлическое действие (hydraulic action) — это эрозия водой. Свободная поверхность воды не входит в смоченный периметр P."
           },
           "sources": [
             {
@@ -1379,10 +1379,10 @@
         },
         {
           "englishTerm": "Spearman rank correlation",
-          "russianTerm": "Ранговая корреляция Спирмена",
+          "russianTerm": "Коэффициент ранговой корреляции Спирмена (rₛ)",
           "contrast": {
-            "en": "The coefficient measures monotonic association, not causation; statistical significance is a separate question. A constant variable has no defined rank correlation.",
-            "ru": "Коэффициент измеряет монотонную связь, а не причинность; статистическая значимость — отдельный вопрос. Для постоянной переменной ранговая корреляция не определена."
+            "en": "Spearman's coefficient shows monotonic association, not causation, and significance is a separate check; a constant variable gives no defined rₛ.",
+            "ru": "Коэффициент Спирмена показывает монотонную связь, но не причинность; значимость проверяется отдельно, а для постоянной переменной rₛ не определён."
           },
           "sources": [
             {
@@ -1393,7 +1393,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideProvenance": true
     },
     {
       "id": "science-investigation",

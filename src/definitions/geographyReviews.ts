@@ -2,10 +2,10 @@ import type { DefinitionReview } from '../components/content/definitionReview';
 export const geographyReviews: Record<string, DefinitionReview> = {
   "tectonics": {
     "englishTerm": "Plate tectonics",
-    "russianTerm": "Тектоника плит",
+    "russianTerm": "Тектоника литосферных плит",
     "contrast": {
-      "en": "Plates contain crust and uppermost mantle; crust alone is not a plate.",
-      "ru": "Плита включает кору и верхнюю мантию; одна кора не образует плиту."
+      "en": "A tectonic plate includes the crust and the uppermost mantle, so crust alone does not count as one.",
+      "ru": "Литосферная плита включает земную кору и верхнюю часть мантии, поэтому одна лишь кора плитой не считается."
     },
     "sources": [
       {
@@ -32,8 +32,8 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Urbanisation",
     "russianTerm": "Урбанизация",
     "contrast": {
-      "en": "An increasing urban population is not necessarily an increasing urban share.",
-      "ru": "Рост числа горожан не обязательно означает рост их доли."
+      "en": "The number of urban residents and their share of the population are different measures, so a rise in one does not guarantee a rise in the other.",
+      "ru": "Число горожан и их доля в населении — разные показатели: рост одного не гарантирует роста другого."
     },
     "sources": [
       {
@@ -54,8 +54,8 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Globalisation",
     "russianTerm": "Глобализация",
     "contrast": {
-      "en": "Cross-border connections and human development are different ideas.",
-      "ru": "Трансграничные связи и человеческое развитие — разные понятия."
+      "en": "Globalisation is about links across borders, whereas human development is about people's choices and well-being.",
+      "ru": "Глобализация — это связи через границы, а человеческое развитие — возможности людей и их благополучие."
     },
     "sources": [
       {
@@ -76,8 +76,8 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Sustainable development goals",
     "russianTerm": "Цели устойчивого развития",
     "contrast": {
-      "en": "Goals, measurable targets and indicators have distinct roles.",
-      "ru": "Цели, конкретные задачи и показатели выполняют разные роли."
+      "en": "A goal sets a broad aim, a target gives a measurable step towards it, and an indicator tracks progress.",
+      "ru": "Цель задаёт общий ориентир, задача — конкретный измеримый шаг к нему, а индикатор отслеживает прогресс."
     },
     "sources": [
       {
@@ -98,8 +98,8 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Biome",
     "russianTerm": "Биом",
     "contrast": {
-      "en": "A biome groups ecological communities over large areas; an ecosystem describes organisms and their physical environment interacting at a chosen scale.",
-      "ru": "Биом объединяет экологические сообщества обширных территорий; экосистема описывает взаимодействие организмов и среды в выбранном масштабе."
+      "en": "A biome covers a large area and groups similar ecological communities; an ecosystem is the organisms and their physical environment interacting at a scale chosen for study.",
+      "ru": "Биом охватывает большую территорию и объединяет сходные экологические сообщества; экосистема — это организмы и их физическая среда, взаимодействующие в масштабе, выбранном для изучения."
     },
     "sources": [
       {
@@ -114,8 +114,8 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Human development",
     "russianTerm": "Человеческое развитие",
     "contrast": {
-      "en": "Income is one means of improving life; GDP alone does not measure health, learning, choices or inequality.",
-      "ru": "Доход — одно из средств улучшения жизни; ВВП сам по себе не измеряет здоровье, образование, свободу выбора и неравенство."
+      "en": "GDP does not show whether people are healthy, educated and free to choose, or how fairly income is shared; income is only one way to improve lives.",
+      "ru": "ВВП не показывает, здоровы ли люди, получили ли они образование, могут ли свободно выбирать и насколько справедливо распределён доход. Доход — лишь одно из средств улучшить жизнь."
     },
     "sources": [
       {
@@ -131,7 +131,7 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "russianTerm": "Расход и скорость течения",
     "contrast": {
       "en": "Q = A × mean velocity. Discharge is volume per time (m³/s); velocity is distance per time (m/s).",
-      "ru": "Q = A × средняя скорость. Расход — объём за время (м³/с); скорость — путь за время (м/с)."
+      "ru": "Q = A × средняя скорость. Расход — объём воды за единицу времени (м³/с); скорость — путь за единицу времени (м/с)."
     },
     "sources": [
       {
@@ -153,7 +153,7 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "russianTerm": "Паводочный гидрограф; время запаздывания",
     "contrast": {
       "en": "A hydrograph plots discharge against time; lag compares the timing of the rainfall and discharge peaks.",
-      "ru": "Гидрограф показывает расход во времени; запаздывание сравнивает моменты пиков дождя и расхода."
+      "ru": "Гидрограф показывает расход воды во времени; запаздывание сравнивает моменты пика дождя и пика расхода."
     },
     "sources": [
       {
@@ -176,16 +176,16 @@ export const geographyReviews: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "The numerical curve is an authored teaching scenario, not a fitted model for any catchment.",
-      "ru": "Численная кривая — авторский учебный сценарий, а не модель, откалиброванная для реального бассейна."
+      "en": "The curve is a teaching example, not a model fitted to data from a real catchment.",
+      "ru": "Кривая — учебный пример, а не модель, подобранная по данным реального речного бассейна."
     }
   },
   "butler": {
     "englishTerm": "Tourism area life cycle",
-    "russianTerm": "Жизненный цикл туристской дестинации",
+    "russianTerm": "Модель жизненного цикла туристического района",
     "contrast": {
       "en": "Stagnation may be followed by several pathways; rejuvenation is not a guaranteed sixth stage.",
-      "ru": "После стагнации возможны разные траектории; обновление не является обязательным шестым этапом."
+      "ru": "После стагнации возможны разные пути; возрождение (rejuvenation) — не обязательный шестой этап."
     },
     "sources": [
       {
@@ -201,7 +201,7 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "russianTerm": "Эль-Ниньо — Южное колебание (ЭНСО)",
     "contrast": {
       "en": "ENSO involves coupled ocean and atmospheric changes, not just a current. Rainfall effects are probabilistic.",
-      "ru": "ЭНСО включает связанные изменения океана и атмосферы, а не только течение. Влияние на осадки вероятностное."
+      "ru": "ЭНСО включает связанные изменения океана и атмосферы, а не только течение. Влияние на осадки носит вероятностный характер."
     },
     "sources": [
       {
@@ -232,8 +232,8 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Boscastle flash flood",
     "russianTerm": "Внезапное наводнение в Боскасле",
     "contrast": {
-      "en": "Keep the event, location, measurement and reporting date with each number. Damage, recovery spending, displacement and homelessness are different measures.",
-      "ru": "Сохраняй событие, место, показатель и дату отчёта при каждом числе. Ущерб, расходы на восстановление, перемещение и потеря жилья — разные показатели."
+      "en": "For Boscastle, keep damage, recovery spending, displacement and homelessness apart as separate measures, and tie each figure to its event, place and reporting date.",
+      "ru": "В случае с Боскаслом держи отдельно ущерб, расходы на восстановление, перемещение людей и потерю жилья; каждую цифру привязывай к событию, месту и дате отчёта."
     },
     "sources": [
       {
@@ -254,8 +254,8 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Typhoon Haiyan / Yolanda",
     "russianTerm": "Тайфун Хайян / Йоланда",
     "contrast": {
-      "en": "Keep the event, location, measurement and reporting date with each number. Damage, recovery spending, displacement and homelessness are different measures.",
-      "ru": "Сохраняй событие, место, показатель и дату отчёта при каждом числе. Ущерб, расходы на восстановление, перемещение и потеря жилья — разные показатели."
+      "en": "For Typhoon Haiyan, the number of people displaced and the number of homes damaged are different measures, so one cannot be read from the other.",
+      "ru": "В случае тайфуна Хайян число перемещённых людей и число повреждённых домов — разные показатели: одно нельзя вывести из другого."
     },
     "sources": [
       {
@@ -268,10 +268,10 @@ export const geographyReviews: Record<string, DefinitionReview> = {
   },
   "bigDry": {
     "englishTerm": "Millennium Drought",
-    "russianTerm": "«Засуха тысячелетия»",
+    "russianTerm": "«Тысячелетняя засуха»",
     "contrast": {
-      "en": "Keep the event, location, measurement and reporting date with each number. Damage, recovery spending, displacement and homelessness are different measures.",
-      "ru": "Сохраняй событие, место, показатель и дату отчёта при каждом числе. Ущерб, расходы на восстановление, перемещение и потеря жилья — разные показатели."
+      "en": "In the Millennium Drought case, a fall in river flow and a fall in farm output are different measures; one does not prove the other.",
+      "ru": "В случае Тысячелетней засухи падение стока реки и падение урожая — разные показатели: одно не доказывает другое."
     },
     "sources": [
       {

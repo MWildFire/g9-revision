@@ -11,14 +11,14 @@
 #   EXPECTED_ACCOUNT=<12 digits> bash infra/aws/domain.sh
 set -euo pipefail
 export LC_ALL=C   # the same sort order for every list of name servers
-PROFILE="${AWS_PROFILE_NAME:-slovo-admin}"
+PROFILE=slovo-admin
 REGION=eu-central-1
 REPO=MWildFire/g9-revision
 NAME=g9-revision
 APEX=lukalearningportal.academy
 WWW="www.$APEX"
 SITE_URL="https://$APEX/"
-FUNCTION=[redacted]ww-to-apex
+FUNCTION=g9-www-to-apex
 CLOUDFRONT_ZONE=Z2FDTNDATAQYW2   # fixed hosted zone id of every CloudFront alias target
 TMP="$(mktemp -d)"
 aws() { command aws --profile "$PROFILE" --region "$REGION" "$@"; }
@@ -52,7 +52,7 @@ say "2. certificate (us-east-1, DNS validation)"
 CERT_ARN=$(acm list-certificates --certificate-statuses ISSUED PENDING_VALIDATION --query "CertificateSummaryList[?DomainName=='$APEX'].CertificateArn | [0]" --output text)
 if [ "$CERT_ARN" = "None" ] || [ -z "$CERT_ARN" ]; then
   CERT_ARN=$(acm request-certificate --domain-name "$APEX" --subject-alternative-names "$WWW" --validation-method DNS \
-    --idempotency-token lukaportal2026 --tags Key=Project,Value=g9-revision --query CertificateArn --output text)
+    --idempotency-token g9-site-cert --tags Key=Project,Value=g9-revision --query CertificateArn --output text)
   echo "certificate requested"
 fi
 echo "certificate $CERT_ARN"

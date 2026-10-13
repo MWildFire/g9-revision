@@ -34,5 +34,9 @@ content-work/
 infra/aws/state.json
 dist-aws/
 
+# secrets: never commit
+.env
+.env.*
+
 # local design-hook state (impeccable plugin)
 .impeccable/

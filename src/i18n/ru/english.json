@@ -356,8 +356,8 @@
       "rule": "Сценарий или текст пьесы содержит реплики и указания для исполнения. Театр, кино и радио используют разные условности; имена персонажей, действия и звуковые указания должны быть понятны исполнителям.",
       "examples": [
         "Заголовок сцены: «INT. SCHOOL CAFETERIA — DAY»",
-        "Действие: «SAM sits alone, picking at his food. SARA enters, sees him.»",
-        "Диалог: «SARA: Mind if I sit?»",
+        "Действие: «SAM sits alone, picking at his food. ALEX enters, sees him.»",
+        "Диалог: «ALEX: Mind if I sit?»",
         "Ремарка: «(тихо) Yeah... whatever.»",
         "Пьесы — слегка другой формат (имена по центру) vs сценарии (Hollywood format)."
       ],
@@ -557,7 +557,7 @@
             "'It will rain tomorrow.' (предсказание).",
             "'I'm going to study medicine.' (план).",
             "'Look at those clouds — it's going to rain.' (доказательства).",
-            "'I'm meeting Sarah at 4.' (договорённость)."
+            "'I'm meeting Alex at 4.' (договорённость)."
           ],
           "tip": "В описании по формам глагола английский имеет настоящее и прошедшее времена; «future tense» — распространённое учебное название конструкций будущего. Выбирай форму по смыслу, а не ради разнообразия."
         }

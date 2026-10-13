@@ -35,7 +35,7 @@ export function AtmosphericCirculation() {
   return (
     <SimulationPanel title={t('simulations.circulation.title')} description={t('simulations.circulation.description')}>
       <div className="grid grid-cols-1 md:grid-cols-[1fr_260px] gap-4 items-start">
-        <div role="region" tabIndex={0} aria-label={l("Scrollable diagram. Use horizontal arrow keys to read all labels.", "Прокручиваемая схема. Используй стрелки влево и вправо, чтобы прочитать все подписи.")} className="min-w-0 max-w-full overflow-x-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"><svg style={{ minWidth: 600 }} role="img" aria-label={t('simulations.circulation.description')} viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">
+        <div role="region" tabIndex={0} aria-label={l("Scrollable diagram of the circulation cells. Use horizontal arrow keys to read the latitude and cell labels.", "Прокручиваемая схема ячеек циркуляции. Используй стрелки влево и вправо, чтобы прочитать подписи широт и ячеек.")} className="min-w-0 max-w-full overflow-x-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"><svg style={{ minWidth: 600 }} role="img" aria-label={t('simulations.circulation.description')} viewBox={`0 0 ${W} ${H}`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">
           <line x1={padX} y1={20} x2={padX} y2={240} stroke="var(--color-text-secondary)" strokeWidth={2} />
           {[90, 60, 30, 0, -30, -60, -90].map((lat) => (
             <g key={lat}>

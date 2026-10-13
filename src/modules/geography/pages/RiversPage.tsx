@@ -30,7 +30,11 @@ export function RiversPage() {
       <SectionHeading>{t('rivers.sections.bradshaw.title')}</SectionHeading>
       <BradshawModel />
 
-      <SectionHeading>{t('rivers.sections.erosion.title')}</SectionHeading><RiverProcesses />
+      <SectionHeading>{t('rivers.sections.erosion.title')}</SectionHeading>
+      <div className="bg-bg-secondary border border-border rounded-md p-4 text-sm space-y-2">
+        {t('rivers.sections.erosion.detailed.intro').split('\n\n').map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+      </div>
+      <RiverProcesses />
       <div className="space-y-3">
         {EROSION_TYPES.map((id) => {
           const item = t(`rivers.sections.erosion.detailed.${id}`, { returnObjects: true }) as DetailedItem;
@@ -111,14 +115,14 @@ export function RiversPage() {
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="erosion-types"
-          prompt={l("Explain what is worn away during abrasion and attrition.", "Объясни, что разрушается при abrasion и attrition.")}
-          modelAnswer={l("Abrasion: transported material scrapes or strikes the bed and banks. Attrition: collisions chip and round the transported fragments. Hydraulic action removes material by water force; solution dissolves soluble minerals.", "Abrasion: переносимые обломки скребут дно и берега или ударяют по ним. Attrition: столкновения дробят и округляют сами обломки. Гидравлическое воздействие удаляет материал силой воды; растворение переводит растворимые минералы в раствор.")}
+          prompt={l("Explain what is worn away during abrasion and attrition.", "Объясни, что разрушается при истирании русла (abrasion) и истирании обломков (attrition).")}
+          modelAnswer={l("Abrasion: transported material scrapes or strikes the bed and banks. Attrition: collisions break and round the transported fragments. Hydraulic action removes material with the force of water; solution dissolves soluble minerals.", "Истирание русла: переносимые обломки скребут дно и берега или ударяют по ним. Истирание обломков: столкновения дробят и округляют сами обломки. Гидравлическое действие (hydraulic action) удаляет материал силой воды; растворение (solution) переводит растворимые минералы в раствор.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}
           blockId="boscastle-causes"
-          prompt={l("Distinguish flood generation from exposure in a narrow valley settlement.", "Отличи формирование паводка от подверженности ущербу в поселении узкой долины.")}
-          modelAnswer={l("Intense rain and rapid runoff generate a flood. Impermeable surfaces can increase runoff. Buildings on the floodplain increase exposure; they do not cause the rain. Use dated evidence before attributing each factor to Boscastle.", "Сильный дождь и быстрый сток формируют паводок. Водонепроницаемые поверхности способны усиливать сток. Застройка поймы повышает подверженность ущербу, но не вызывает дождь. Для связи каждого фактора с Боскаслом нужны факты с датой.")}
+          prompt={l("Distinguish flood generation from exposure in a narrow valley settlement.", "Отличи формирование паводка (flood generation) от подверженности ущербу (exposure) для поселения в узкой долине.")}
+          modelAnswer={l("Flood generation: intense rain and rapid runoff produce a flood. Impermeable surfaces, such as roads and car parks, can increase runoff. Buildings on the floodplain increase exposure: they put more people and property in the flood's path, but they do not cause the rain. To apply this to Boscastle, support each factor with evidence from the 2004 event.", "Формирование паводка: сильный дождь и быстрый сток вызывают паводок. Непроницаемые поверхности, например дороги и парковки, могут усиливать сток. Застройка поймы повышает подверженность ущербу, но не вызывает дождь. Чтобы связать каждый фактор с Боскаслом, подкрепи его фактами о событии 2004 года.")}
         />
       </div>
     </div>

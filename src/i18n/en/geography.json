@@ -8,7 +8,7 @@
   "simulations": {
     "hydrograph": {
       "title": "Storm Hydrograph",
-      "description": "Illustrative catchment response. Sliders are relative scenario settings, not measured percentages or a calibrated flood forecast. Compare the rainfall peak with the discharge peak to read lag time.",
+      "description": "An illustrative model of how a catchment responds to rain, not a forecast for any real river. The sliders set relative scenario conditions, not measured percentages. Compare the peak of rainfall intensity with the peak of discharge: the time between them is the lag time.",
       "rainfallLabel": "Rainfall intensity",
       "saturationLabel": "Soil saturation",
       "urbanisationLabel": "Connected impermeable surfaces",
@@ -16,40 +16,40 @@
       "peakDischarge": "Peak discharge",
       "xAxis": "Time (hours)",
       "yAxis": "Discharge (m³/s)",
-      "subduedNote": "In this scenario the response is broader and the peak later. Actual shape also depends on basin size, slope, soils and storm duration.",
-      "flashyNote": "In this scenario the response is faster with a higher peak. This illustrates a tendency, not a prediction for a real catchment."
+      "subduedNote": "In this scenario the response is slower and more spread out: lag time is longer and the peak comes later. Real hydrographs also depend on basin size, slope, soil type and storm duration.",
+      "flashyNote": "In this scenario the water reaches the river sooner: lag time is shorter and the discharge peak is high. This illustrates a tendency, not a prediction for a real catchment."
     },
     "circulation": {
       "title": "Atmospheric Circulation",
-      "description": "Explore a schematic long-term, zonally averaged circulation model. Pressure belts and boundaries migrate; continents, oceans and seasons create regional differences.",
-      "hoverHint": "Hover a cell to see its description.",
-      "legendLow": "L = relatively low pressure; ascent often supports clouds and rain",
-      "legendHigh": "H = relatively high pressure; descent often suppresses cloud",
+      "description": "Explore a simplified model of average atmospheric circulation that ignores differences between longitudes. Pressure belts and boundaries migrate; continents, oceans and seasons create regional differences.",
+      "hoverHint": "Hover over or tap a cell to see its description.",
+      "legendLow": "L = relatively low pressure; rising air often produces clouds and rain",
+      "legendHigh": "H = relatively high pressure; sinking air often keeps clouds from forming",
       "summary": "Approximate pattern: tropical ascent, subtropical descent, subpolar ascent and polar descent. This helps explain climate belts but is not a weather forecast.",
       "cells": {
         "hadleyN": {
           "name": "Hadley (N)",
-          "desc": "A tropical overturning circulation: air rises near the shifting tropical rain belt, moves poleward aloft and generally sinks in the subtropics. Surface trade winds return air toward the convergence zone."
+          "desc": "Northern Hadley cell: air rises near the equator, moves north aloft and sinks in the northern subtropics. Near the surface, north-east trade winds carry the air back towards the equator."
         },
         "ferrelN": {
           "name": "Ferrel (N)",
-          "desc": "The idealised mid-latitude mean circulation, with surface air generally moving poleward and an equatorward return aloft. It is thermally indirect and maintained largely through mid-latitude weather systems and their heat and momentum transfers."
+          "desc": "Northern Ferrel cell: near the surface, air moves towards the pole and westerly winds blow from the south-west. Aloft, air returns towards the equator. Mid-latitude weather systems, not direct heating, keep this cell going."
         },
         "polarN": {
           "name": "Polar (N)",
-          "desc": "In the idealised circulation model, cold air sinks at high latitudes and flows equatorward near the surface, with ascent toward subpolar latitudes and return flow aloft."
+          "desc": "Northern polar cell: cold, dense air sinks near the North Pole, moves south near the surface and rises at subpolar latitudes. The polar easterlies there blow from the north-east."
         },
         "polarS": {
           "name": "Polar (S)",
-          "desc": "In the idealised circulation model, cold air sinks at high latitudes and flows equatorward near the surface, with ascent toward subpolar latitudes and return flow aloft."
+          "desc": "Southern polar cell: cold air sinks over Antarctica, flows north near the surface and climbs again at subpolar latitudes. Near the ground, these polar easterlies blow from the south-east."
         },
         "ferrelS": {
           "name": "Ferrel (S)",
-          "desc": "The idealised mid-latitude mean circulation, with surface air generally moving poleward and an equatorward return aloft. It is thermally indirect and maintained largely through mid-latitude weather systems and their heat and momentum transfers."
+          "desc": "Southern Ferrel cell: surface westerlies come from the north-west and push air towards the pole. Air returns towards the equator higher up. Passing mid-latitude storms drive this indirect cell, not direct heating."
         },
         "hadleyS": {
           "name": "Hadley (S)",
-          "desc": "A tropical overturning circulation: air rises near the shifting tropical rain belt, moves poleward aloft and generally sinks in the subtropics. Surface trade winds return air toward the convergence zone."
+          "desc": "Southern Hadley cell: warm air rises close to the equator, flows south high up and descends across the southern subtropics. The south-east trade winds near the ground return it to the equator."
         }
       }
     }
@@ -719,15 +719,16 @@
     "sections": {
       "bradshaw": {
         "title": "Bradshaw Model",
-        "description": "The Bradshaw model summarises common downstream trends: discharge, width, depth and mean velocity tend to increase, while gradient and typical sediment size tend to decrease. These are tendencies, not laws; geology, tributaries, dams and water abstraction can interrupt them. Slider values are illustrative, not measurements or predictions."
+        "description": "The Bradshaw model summarises common downstream trends: discharge, width, depth and mean velocity tend to increase, while gradient and typical sediment size tend to decrease. Downstream, the cross-sectional area (CSA) of the channel grows faster than the wetted perimeter, which is the length of bed and bank in contact with the water. As a result, the hydraulic radius (R = A/P, where A is the CSA and P is the wetted perimeter) increases. A channel with a larger hydraulic radius has a higher channel efficiency, because friction slows the water less. These are tendencies, not laws; geology, tributaries, dams and water abstraction can interrupt them. Slider values are illustrative, not measurements or predictions."
       },
       "course": {
         "title": "River Course",
-        "description": "Upper, middle and lower course describe relative position along a river. Erosion, transport and deposition can all occur within each; their balance varies with local conditions."
+        "description": "The upper, middle and lower course describe where a section lies along the river's long profile, a graph of the bed height from source to mouth. The gradient (the slope of the bed) is steep in the upper course, so the river erodes downwards and cuts a V-shaped valley. In the lower course the gradient is gentle, so the river slows down and deposits sediment. The base level is the lowest level to which a river can erode, usually sea level. If it falls, the river cuts deeper. Erosion, transport and deposition can all occur within each course; their balance varies with local conditions."
       },
       "erosion": {
-        "title": "Erosion types",
+        "title": "Four types of erosion",
         "detailed": {
+          "intro": "Erosion is the wearing away and removal of rock and soil by moving water. Transportation is the movement of this eroded material (the load) by the river. Deposition is the dropping of the load when the river no longer has enough energy to carry it, usually when its velocity falls.\n\nWeathering breaks rock down in place, without moving it, in three ways: mechanical (freeze-thaw, root wedging), chemical (dissolution, hydrolysis) and biological (burrowing animals, plants). Weathering and other subaerial processes, which act on land above the water, supply the debris that rivers transport.",
           "abrasion": {
             "name": "Abrasion (corrasion)",
             "rule": "Sediment carried by a river scrapes, grinds or strikes the bed and banks, wearing them away. The load acts as an abrasive tool.",
@@ -738,8 +739,8 @@
               "englishTerm": "Abrasion (corrasion)",
               "russianTerm": "Истирание русла наносами (abrasion)",
               "contrast": {
-                "en": "Abrasion wears the channel; attrition wears the transported fragments. Russian «абразия» most often refers to coastal wave erosion, so the process is spelled out here.",
-                "ru": "Abrasion разрушает русло; attrition истирает сами переносимые обломки. Русское «абразия» чаще относится к разрушению берегов волнами, поэтому здесь дано описание процесса."
+                "en": "Abrasion wears down the channel (bed and banks); attrition wears down the transported fragments themselves. Coastal abrasion, where waves wear down cliffs, is a different process with the same name.",
+                "ru": "Истирание русла (abrasion) разрушает дно и берега, а истирание обломков (attrition) стирает сами переносимые камни. Не путай с морской абразией, при которой волны разрушают берега: это другой процесс."
               },
               "sources": [
                 {
@@ -762,7 +763,7 @@
               "russianTerm": "Истирание и дробление обломков (attrition)",
               "contrast": {
                 "en": "Attrition changes the load. Abrasion is the associated wearing of the bed or banks; both can occur in one collision.",
-                "ru": "Attrition изменяет сами наносы. Abrasion — сопутствующее разрушение дна или берегов; один удар может участвовать в обоих процессах."
+                "ru": "Истирание обломков (attrition) меняет сами наносы. Истирание русла (abrasion) — сопутствующий износ дна или берегов; оба процесса могут происходить при одном столкновении."
               },
               "sources": [
                 {
@@ -780,7 +781,7 @@
               ],
               "model": {
                 "en": "School geography often reserves abrasion for wear of the bed/banks and attrition for wear of the load. Research literature sometimes uses abrasion more broadly; identify the material being worn.",
-                "ru": "В школьной географии abrasion обычно обозначает истирание дна/берегов, а attrition — самих наносов. В научной литературе abrasion иногда употребляют шире; уточняй, какой материал разрушается."
+                "ru": "В школьной географии истирание русла (abrasion) обычно означает износ дна и берегов, а истирание обломков (attrition) — износ самих наносов. В научной литературе термин «истирание» иногда понимают шире, поэтому уточняй, какой материал стирается."
               }
             }
           },
@@ -792,10 +793,10 @@
             ],
             "review": {
               "englishTerm": "Hydraulic action",
-              "russianTerm": "Гидравлическое разрушение",
+              "russianTerm": "Гидравлическое действие",
               "contrast": {
-                "en": "Hydraulic action needs the water's force; abrasion needs sediment striking or scraping the channel. Trapped-air pressure is one mechanism, not the whole definition.",
-                "ru": "При hydraulic action действует сила воды; при abrasion — удары и трение наносов о русло. Давление запертого воздуха — лишь один механизм, а не полное определение."
+                "en": "Hydraulic action depends on the force of the water; abrasion depends on sediment striking or scraping the channel. Trapped air compressed in cracks is only one mechanism of hydraulic action.",
+                "ru": "Гидравлическое действие (hydraulic action) зависит от силы воды, а истирание русла (abrasion) — от ударов и трения наносов о дно и берега. Сжатие воздуха в трещинах — лишь один из механизмов гидравлического действия."
               },
               "sources": [
                 {
@@ -809,7 +810,7 @@
           },
           "solution": {
             "name": "Solution (corrosion)",
-            "rule": "Soluble minerals dissolve through chemical interaction with river water and are removed in solution. Slightly acidic water can dissolve carbonate minerals in limestone.",
+            "rule": "Soluble minerals dissolve through chemical interaction with river water and are removed in solution. Rainwater and soil water take up carbon dioxide and become slightly acidic, so they can dissolve carbonate minerals in limestone.",
             "examples": [
               "Calcium and bicarbonate ions can leave a limestone reach in clear water."
             ],
@@ -817,8 +818,8 @@
               "englishTerm": "Solution (corrosion)",
               "russianTerm": "Растворение пород",
               "contrast": {
-                "en": "Dissolving the bed is a chemical erosion/weathering process; carrying the resulting ions is transport in solution.",
-                "ru": "Растворение дна — химическое разрушение; перенос образовавшихся ионов — транспорт в растворе."
+                "en": "Dissolving the bed is chemical erosion: the ions are carried away in solution. Weathering, by contrast, breaks rock down in place without moving it.",
+                "ru": "Растворение дна — это эрозия: растворённые ионы уносятся водой. Выветривание (weathering) разрушает породу на месте, без переноса. Оно бывает механическим (замерзание воды в трещинах, расклинивание корнями), химическим (растворение, гидролиз) и биологическим (роющие животные, растения). Выветривание и другие субаэральные (subaerial) процессы, которые идут на суше над уровнем воды, поставляют обломки, которые потом переносит река."
               },
               "sources": [
                 {
@@ -837,16 +838,16 @@
         "detailed": {
           "traction": {
             "name": "Traction",
-            "rule": "Sediment moves along the bed by rolling or sliding under the force of the flow. It is one form of bed-load transport.",
+            "rule": "Traction is the rolling or sliding of the largest particles, such as boulders and pebbles, along the river bed.\n\nThe water’s force pushes these heavy particles along the bottom. The larger the particle, the faster the water must flow to move it. Traction therefore needs a strong flow, such as a steep upland stream during a flood.",
             "examples": [
-              "A gravel clast rolls along the bed during high flow."
+              "After heavy rain, a mountain stream rolls pebbles and small boulders downstream along its bed."
             ],
             "review": {
               "englishTerm": "Traction",
               "russianTerm": "Волочение и перекатывание",
               "contrast": {
-                "en": "There is no universal pebble-size boundary: movement depends on flow, grain size, shape and density.",
-                "ru": "Универсальной границы размера нет: движение зависит от потока, размера, формы и плотности частиц."
+                "en": "Traction particles stay in contact with the bed; saltation particles leave it in short hops. The same grain can switch from one to the other as the flow speed changes.",
+                "ru": "При волочении частицы остаются у самого дна; при сальтации они на короткое время отрываются от него. Одна и та же частица может переходить от одного вида к другому при изменении скорости потока."
               },
               "sources": [
                 {
@@ -860,9 +861,9 @@
           },
           "saltation": {
             "name": "Saltation",
-            "rule": "Particles move in short hops, repeatedly lifted from the bed and returned to it. Saltation connects rolling bed load with suspended transport.",
+            "rule": "Saltation is the movement of smaller particles, such as sand grains and small pebbles, in short hops along the river bed.\n\nEach grain is lifted by the flow, falls back to the bed and is lifted again. Faster water lifts grains higher and for longer, and larger grains need faster water to hop. Saltation sits between traction and suspension.",
             "examples": [
-              "Sand grains bounce downstream close to the bed."
+              "On a sandy lowland river, grains of sand bounce downstream close to the bed."
             ],
             "review": {
               "englishTerm": "Saltation",
@@ -883,9 +884,9 @@
           },
           "suspension": {
             "name": "Suspension",
-            "rule": "Solid particles are carried within the water column, supported by turbulent motion against settling. Fine silt and clay commonly travel this way.",
+            "rule": "Suspension is the carrying of fine solid particles, such as silt and clay, within the water.\n\nTurbulence, the swirling movement of the water, keeps these particles from settling to the bed. Fine particles are light and settle slowly, so turbulence can easily keep them in the water. Faster, more turbulent water can keep even larger particles, such as fine sand, in suspension.",
             "examples": [
-              "Cloudy river water can contain fine suspended sediment."
+              "After heavy rain, a river can look brown or yellow because it carries fine silt in suspension."
             ],
             "review": {
               "englishTerm": "Suspension",
@@ -906,16 +907,16 @@
           },
           "solution": {
             "name": "Dissolved load (transport in solution)",
-            "rule": "Dissolved substances travel with the river water as ions or molecules. Their transport does not require the water to support solid grains against gravity.",
+            "rule": "Dissolved substances, such as salts, move with the river water as separate ions or molecules.\n\nThey do not need turbulence to stay in the water, so grain size does not matter. How much dissolves depends on how soluble the rock is.",
             "examples": [
-              "Dissolved salts travel even in water with little visible sediment."
+              "Water draining salt-rich ground can look clear yet carry dissolved salts downstream."
             ],
             "review": {
               "englishTerm": "Dissolved load (transport in solution)",
-              "russianTerm": "Растворённый сток",
+              "russianTerm": "Растворённые вещества",
               "contrast": {
                 "en": "Clear water can carry a substantial dissolved load. Deposition by settling applies to particles, not directly to dissolved ions.",
-                "ru": "Прозрачная вода может нести много растворённых веществ. Оседание относится к частицам, а не непосредственно к растворённым ионам."
+                "ru": "Прозрачная вода может переносить немало растворённых веществ. Отложение при оседании относится к частицам, а не напрямую к растворённым ионам."
               },
               "sources": [
                 {
@@ -935,38 +936,38 @@
           "1": "Hard rock overlies soft rock; soft rock is eroded faster",
           "2": "A plunge pool forms at the base of the drop",
           "3": "An overhang develops as soft rock is eroded back",
-          "4": "Overhang collapses; waterfall retreats upstream, leaving a gorge"
+          "4": "The overhang collapses and the waterfall retreats upstream, leaving a gorge: a narrow, deep valley with steep sides. The cycle then repeats further upstream."
         }
       },
       "meander": {
         "title": "Meander & oxbow lake",
-        "description": "A meander is a river bend. In a typical bend, faster flow and erosion near the outer bank accompany deposition on the inner point bar. Migration may narrow the neck until a cutoff leaves an oxbow lake; not every bend follows this sequence."
+        "description": "A meander is a river bend. Faster flow erodes the outer bank, while slower flow deposits sediment on the inner bank as a point bar, so the bend shifts outwards and downstream. During floods, the river spills onto the floodplain, the flat land beside the channel, and drops its coarsest load close to the banks, building up a levee, a natural embankment along the channel. When the neck of a bend narrows enough, the river cuts through it and the abandoned loop becomes an oxbow lake. Not every bend follows this sequence."
       },
       "drainageBasin": {
         "title": "Drainage basin",
-        "description": "A drainage basin (catchment) is the area supplying water to a river system through a common outlet. A drainage divide separates neighbouring basins. Inputs such as precipitation move through stores and pathways: interception, infiltration into soil, throughflow, groundwater flow and surface runoff; evaporation and transpiration return water to the atmosphere."
+        "description": "A drainage basin (catchment) is the area that supplies water to a river through a common outlet. A drainage divide separates neighbouring basins. Some precipitation is intercepted by plants; the rest either soaks into the soil or runs over the surface. Water then reaches the river as throughflow, groundwater flow or surface runoff. Evaporation and transpiration return some water to the atmosphere, so less water reaches the river than falls as precipitation."
       },
       "hydrograph": {
         "title": "Storm hydrograph",
-        "description": "A hydrograph plots river discharge against time. A storm hydrograph shows the response to rainfall: rising limb, peak discharge and falling limb. Here lag time is measured from peak rainfall intensity to peak discharge; other conventions must be stated explicitly."
+        "description": "A hydrograph plots river discharge against time. A storm hydrograph shows the response to rainfall: the rising limb climbs to the peak discharge, the highest flow during the flood, and the falling limb brings the flow back towards normal. Lag time is the time from peak rainfall to peak discharge."
       },
       "flooding": {
         "title": "Causes of flooding",
-        "physical": "Physical: prolonged rainfall, saturated ground, snowmelt, steep relief, impermeable rock",
-        "human": "Human: deforestation, urbanisation, poor drainage, climate change",
+        "physical": "Physical: intense or prolonged rain, saturated ground, snowmelt, steep slopes, impermeable rock",
+        "human": "Human: deforestation, urbanisation, drained wetlands, narrowed river channels, climate change",
         "detailed": {
           "prolongedRain": {
-            "name": "Prolonged or intense rainfall",
-            "rule": "Intense rainfall can exceed infiltration capacity; prolonged rainfall can fill soil and catchment stores. Both can increase runoff and river discharge.",
+            "name": "Intense or prolonged rainfall",
+            "rule": "Intense rain can arrive faster than the soil can soak it up, so the extra water runs off the surface into the river. Prolonged rain fills the soil and raises the groundwater, so the next rain also runs off quickly. Both raise river discharge, and floods happen more often when wet spells and heavy storms follow each other.",
             "examples": [
-              "A short intense storm and a long wet spell may cause flooding by different pathways."
+              "A short, violent storm over a bare, steep hillside can send a flash flood down a dry valley within hours. A long spell of steady rain over already soaked fields raises a river more slowly, over several days."
             ],
             "review": {
-              "englishTerm": "Prolonged or intense rainfall",
-              "russianTerm": "Продолжительные или сильные осадки",
+              "englishTerm": "Intense or prolonged rainfall",
+              "russianTerm": "Сильные или длительные осадки",
               "contrast": {
-                "en": "Intensity is rainfall per unit time; total rainfall also depends on duration and spatial coverage.",
-                "ru": "Интенсивность — количество осадков за единицу времени; сумма зависит также от длительности и площади дождя."
+                "en": "Intense rainfall means a large amount of rain per unit of time, not a large total. Prolonged rainfall lasts a long time and can fill the soil with water even when each hour is light.",
+                "ru": "Сильные осадки — это большой объём дождя за единицу времени, а не общая сумма. Длительные осадки идут долго и могут заполнить почву водой, даже если за каждый час выпадает немного."
               },
               "sources": [
                 {
@@ -986,16 +987,16 @@
           },
           "saturatedGround": {
             "name": "Antecedent conditions and saturation",
-            "rule": "Antecedent conditions describe the catchment before the storm. Where soil pores are already filled with water, there is little remaining storage and additional rain can become rapid runoff.",
+            "rule": "Soil that is already wet before a storm has little room left to store rain. When its pores are full of water, new rain runs off the surface quickly. For this reason, floods are more common in wet seasons, when storms arrive on ground that is already saturated.",
             "examples": [
-              "Two equal storms can produce different peaks after a dry week and after a wet week."
+              "After a dry summer, a storm soaks into the fields and the river barely rises. The same storm on the same fields after a wet autumn runs off the surface and makes the river rise sharply."
             ],
             "review": {
               "englishTerm": "Antecedent conditions and saturation",
               "russianTerm": "Предшествующее увлажнение и насыщение",
               "contrast": {
-                "en": "Saturation is water-filled pore space; impermeability concerns the difficulty of water moving through material.",
-                "ru": "Насыщение — заполнение пор водой; водонепроницаемость — затруднённое движение воды через материал."
+                "en": "Saturation means the pores of soil or rock are full of water, while impermeability means water moves through a material only with great difficulty. Saturated sand, for example, can still let water through.",
+                "ru": "Насыщение — это когда поры почвы или породы полностью заполнены водой, а непроницаемость — когда вода с большим трудом проходит сквозь материал. Насыщенный песок, например, всё ещё пропускает воду."
               },
               "sources": [
                 {
@@ -1015,16 +1016,16 @@
           },
           "snowmelt": {
             "name": "Snowmelt",
-            "rule": "Melting releases water previously stored as snow. Rapid warming or rain on snow can deliver much meltwater to channels over a short period.",
+            "rule": "Melting releases water that was stored as snow. Rapid warming, or rain falling on snow, can send large volumes of meltwater into rivers within a short time. Frozen ground absorbs little of this water, so floods become more likely when warm spells or rain arrive early in spring.",
             "examples": [
-              "Spring snowmelt can raise discharge even without heavy rain at the gauging station."
+              "Snow melting on distant mountains can raise a lowland river for weeks in spring, even when no heavy rain falls near the river."
             ],
             "review": {
               "englishTerm": "Snowmelt",
               "russianTerm": "Снеготаяние",
               "contrast": {
-                "en": "Snowfall stores water; the runoff response depends on when it melts and whether the ground can absorb it.",
-                "ru": "Снегопад запасает воду; сток зависит от времени таяния и способности грунта впитывать воду."
+                "en": "Snowmelt is the melting of stored snow into water. Snowfall only stores water, so the flood depends on when the snow melts and whether the ground can absorb the meltwater.",
+                "ru": "Снеготаяние — это превращение накопленного снега в воду. Снегопад только копит воду, поэтому паводок зависит от того, когда снег растает и может ли грунт впитать талую воду."
               },
               "sources": [
                 {
@@ -1037,17 +1038,17 @@
             }
           },
           "reliefRock": {
-            "name": "Relief and permeability",
-            "rule": "Steep slopes can speed surface runoff. Low-permeability soil or rock restricts infiltration and subsurface flow, favouring rapid delivery to channels.",
+            "name": "Steep slopes, basin shape and soils",
+            "rule": "Steep slopes make water run downhill faster, so it reaches the river sooner. Low-permeability soil or rock, such as clay, restricts infiltration, so more rain runs over the surface. In a round basin, water from every part reaches the outlet within a short time, so the flood peak is high; in a long, narrow basin, the water arrives more slowly and the peak is lower. A steep, round basin with low-permeability ground therefore floods after smaller storms, so floods happen more often there.",
             "examples": [
-              "A steep, wet catchment with compacted soils may respond rapidly to intense rainfall."
+              "Steep fields of clay soil above a village can send water from a heavy storm into the stream within a short time."
             ],
             "review": {
-              "englishTerm": "Relief and permeability",
-              "russianTerm": "Рельеф и водопроницаемость",
+              "englishTerm": "Steep slopes, basin shape and soils",
+              "russianTerm": "Крутые склоны, форма бассейна и почвы",
               "contrast": {
-                "en": "Relief alone does not determine flooding: vegetation, soils, drainage and storm position also matter.",
-                "ru": "Рельеф не определяет паводок в одиночку: важны растительность, почвы, дренаж и положение ливня."
+                "en": "Relief is the shape of the land surface, and steep slopes speed up runoff. A steep slope alone does not guarantee a flood, because vegetation, soils, drainage and the place where the storm falls also matter.",
+                "ru": "Рельеф — это форма земной поверхности, а крутые склоны ускоряют сток. Крутой склон сам по себе не гарантирует паводок: важны растительность, почвы, дренаж и место, где прошёл ливень."
               },
               "sources": [
                 {
@@ -1067,16 +1068,16 @@
           },
           "deforestation": {
             "name": "Deforestation and runoff",
-            "rule": "Removing trees can reduce rainfall interception and evapotranspiration. Soil disturbance or compaction may also reduce infiltration and increase rapid runoff.",
+            "rule": "Trees catch rain on their leaves and return water to the air through transpiration. When trees are removed, more rain reaches the ground and less water returns to the air. Soil squeezed by heavy machinery absorbs less water, so runoff increases and floods come more often.",
             "examples": [
-              "Logging tracks can channel water quickly toward streams."
+              "Ruts from logging machines on a forest track can turn the track into a channel that carries rainwater straight down the slope to a stream."
             ],
             "review": {
               "englishTerm": "Deforestation and runoff",
               "russianTerm": "Обезлесение и сток",
               "contrast": {
-                "en": "The effect varies with catchment scale, soils and storm size; trees cannot prevent every flood.",
-                "ru": "Эффект зависит от масштаба бассейна, почв и силы дождя; лес не предотвращает любое наводнение."
+                "en": "Deforestation means removing trees, which lets more rain reach the ground. Its effect depends on catchment size, soils and storm size, and trees cannot prevent every flood.",
+                "ru": "Обезлесение — это вырубка деревьев, из-за которой до почвы доходит больше дождя. Эффект зависит от масштаба бассейна, почв и силы дождя; лес не предотвращает любой паводок."
               },
               "sources": [
                 {
@@ -1095,17 +1096,17 @@
             }
           },
           "urbanisation": {
-            "name": "Urban surfaces and drainage",
-            "rule": "Roofs, roads and connected drains can reduce infiltration and route rainwater rapidly to rivers, shortening response time and increasing the peak after a storm.",
+            "name": "Urbanisation and runoff",
+            "rule": "Asphalt and concrete seal the surface of roads, car parks and roofs, so rain cannot soak into the ground. Storm drains then carry this water straight to rivers, so the river rises sooner and higher after each storm. Floods therefore become more frequent in towns than on land that still soaks up rain.",
             "examples": [
-              "Rain gardens and permeable surfaces can reduce rapid runoff where local conditions allow."
+              "When a meadow beside a town is paved for a car park, rain that once soaked in now runs straight into storm drains, and the nearby river rises much faster."
             ],
             "review": {
-              "englishTerm": "Urban surfaces and drainage",
-              "russianTerm": "Городские поверхности и водоотвод",
+              "englishTerm": "Urbanisation and runoff",
+              "russianTerm": "Урбанизация и сток",
               "contrast": {
-                "en": "Urbanisation means a growing urban share of population; sealing land and drainage connections explain the hydrological effect.",
-                "ru": "Урбанизация — рост доли городского населения; гидрологический эффект объясняют покрытие земли и устройство водоотвода."
+                "en": "Urbanisation means a growing share of people living in towns. Its flood effect depends less on the number of people than on sealed surfaces and storm drains.",
+                "ru": "Урбанизация — это рост доли людей, живущих в городах. Влияние на паводки связано не столько с числом жителей, сколько с асфальтом, бетоном и ливневой канализацией."
               },
               "sources": [
                 {
@@ -1125,16 +1126,16 @@
           },
           "climate": {
             "name": "Climate change and flood risk",
-            "rule": "Climate change can alter heavy rainfall, snowmelt and sea level, changing flood hazard. Exposure and vulnerability determine how those changes translate into losses.",
+            "rule": "Warmer air holds more water vapour, so heavy downpours can become more intense and frequent in many regions. Climate change therefore alters the flood hazard. Losses depend on exposure (how many people and buildings lie in the flood path) and vulnerability (how easily they can be harmed).",
             "examples": [
-              "More intense rainfall can increase runoff, but local flood trends also depend on land use and management."
+              "The same heavy storm may flood a paved town centre but only soak into a wooded hillside upstream."
             ],
             "review": {
               "englishTerm": "Climate change and flood risk",
-              "russianTerm": "Изменение климата и риск наводнений",
+              "russianTerm": "Изменение климата и риск паводков",
               "contrast": {
-                "en": "A global tendency does not mean every river floods more often; regional circulation and catchment changes matter.",
-                "ru": "Глобальная тенденция не означает учащения паводков на каждой реке: важны региональная циркуляция и изменения бассейна."
+                "en": "Climate change is a long-term shift in weather patterns, including heavier downpours in many places. A global trend does not mean every river will flood more often, because regional weather and changes within each catchment matter.",
+                "ru": "Изменение климата — это долгосрочный сдвиг погодных условий, в том числе более сильные ливни во многих местах. Глобальная тенденция не значит, что каждая река будет чаще выходить из берегов: важны региональная погода и изменения в водосборном бассейне."
               },
               "sources": [
                 {
@@ -1157,20 +1158,20 @@
       "management": {
         "title": "Management strategies",
         "hard": "Hard engineering: dams, embankments, channel straightening, flood walls",
-        "soft": "Soft engineering: floodplain zoning, afforestation, river restoration, warnings",
+        "soft": "Soft engineering: floodplain zoning, afforestation, river restoration, flood warnings. Soft methods usually complement hard ones rather than replace them, and their effect in extreme floods is still poorly understood.",
         "detailed": {
           "dams": {
             "name": "Dams and reservoirs",
-            "rule": "A dam impounds water; a reservoir used for flood control stores part of an incoming flood and releases it more slowly when safe downstream capacity is available.",
+            "rule": "A dam holds back river water, and the reservoir behind it stores part of a flood. The stored water is then released slowly, so the peak flow downstream is lower. Dams are expensive to build and change the natural flow of the river.",
             "examples": [
-              "Benefit: reduce a flood peak. Trade-off: inundated land, sediment trapping and altered downstream flows."
+              "A dam holds back floodwater in its reservoir and lowers the peak flow downstream. The reservoir also traps sediment, so the riverbed below the dam can be eroded and the delta receives less sediment. People living on land that the reservoir floods may have to move."
             ],
             "review": {
               "englishTerm": "Dams and reservoirs",
               "russianTerm": "Плотины и водохранилища",
               "contrast": {
-                "en": "A reservoir needs spare storage and suitable operation; a full reservoir cannot absorb unlimited floodwater.",
-                "ru": "Нужны свободный объём и подходящий режим управления; заполненное водохранилище не может принять неограниченный паводок."
+                "en": "A reservoir can store floodwater only if it has spare capacity. A full reservoir cannot hold any more water.",
+                "ru": "Водохранилище может накопить паводковую воду, только если в нём есть свободный объём. Полное водохранилище уже не может принять воду."
               },
               "sources": [
                 {
@@ -1184,16 +1185,16 @@
           },
           "embankments": {
             "name": "Flood embankments (artificial levees)",
-            "rule": "Raised earth barriers along a river restrict floodwater from spreading onto protected land, up to their design and maintenance limits.",
+            "rule": "A flood embankment is a raised earth bank along a river. It protects the land behind it from floodwater, but only up to its design height. When an embankment cuts off the floodplain from the river, water in the channel moves faster and rises higher, so the risk often passes downstream. Building and repairing embankments is expensive.",
             "examples": [
-              "Overtopping or breach can flood land behind a barrier; residual risk remains."
+              "Along a river that carries a heavy load of sediment, the bed can rise above the surrounding plain. Embankments then have to be raised again and again. When an embankment breaks, water floods large areas."
             ],
             "review": {
               "englishTerm": "Flood embankments (artificial levees)",
               "russianTerm": "Защитные дамбы",
               "contrast": {
-                "en": "Artificial flood defences differ from natural levees built by river sediment deposition.",
-                "ru": "Искусственные защитные дамбы отличаются от естественных прирусловых валов, созданных отложением наносов."
+                "en": "Artificial embankments differ from natural levees, which form when a river deposits sediment on its banks during floods.",
+                "ru": "Искусственные защитные дамбы отличаются от естественных прирусловых валов (natural levees), которые возникают, когда река откладывает наносы на берегах во время разливов."
               },
               "sources": [
                 {
@@ -1207,16 +1208,16 @@
           },
           "channelStraightening": {
             "name": "Channel straightening",
-            "rule": "Removing bends shortens a channel reach and can increase its slope and flow conveyance, moving water more quickly through the modified reach.",
+            "rule": "Cutting off bends shortens the channel, so the same drop in height now happens over a shorter distance. The slope becomes steeper and the water speeds up through that section.",
             "examples": [
-              "Assess the whole catchment before claiming that a faster channel reduces overall flood risk."
+              "A river may be straightened into a canal. Its bends are lost, floodplain wetlands are drained, and the birds that depended on those wetlands become less common. Later, some lost bends may be restored."
             ],
             "review": {
               "englishTerm": "Channel straightening",
               "russianTerm": "Спрямление русла",
               "contrast": {
-                "en": "Faster passage at one location can transfer a flood problem downstream and damage river habitats.",
-                "ru": "Ускорение воды в одном месте может переносить проблему вниз по течению и нарушать речные местообитания."
+                "en": "Straightening speeds up water on one stretch but does not make the whole river safer, because floodwater reaches towns downstream sooner.",
+                "ru": "Спрямление ускоряет воду на одном участке, но не делает реку безопаснее в целом: паводок быстрее доходит до населённых пунктов ниже по течению."
               },
               "sources": [
                 {
@@ -1236,16 +1237,16 @@
           },
           "floodWalls": {
             "name": "Flood walls",
-            "rule": "Engineered walls keep floodwater away from particular buildings or urban areas up to a specified protection level.",
+            "rule": "A flood wall is a barrier of concrete, steel or stone built along a river or around buildings. It protects the area only up to its design height, and water above that level spills over the top.",
             "examples": [
-              "A wall saves space compared with a broad earth embankment but needs inspection and maintenance."
+              "In a city centre with no room for a wide earth embankment, a wall can protect the buildings. It still needs regular inspection, because cracks and loose joints let water through."
             ],
             "review": {
               "englishTerm": "Flood walls",
               "russianTerm": "Противопаводковые стены",
               "contrast": {
-                "en": "Protection reduces risk but cannot guarantee safety for every event; drainage behind the wall also matters.",
-                "ru": "Защита снижает риск, но не гарантирует безопасность при любом событии; важен и водоотвод за стеной."
+                "en": "A wall keeps river floodwater out, but rain that collects behind the wall must be drained away separately.",
+                "ru": "Стена не пускает речную воду на защищаемую территорию, но дождевую воду, которая собирается за стеной, нужно отводить отдельно."
               },
               "sources": [
                 {
@@ -1265,7 +1266,7 @@
           },
           "floodplainZoning": {
             "name": "Floodplain zoning",
-            "rule": "Land-use planning limits vulnerable development in areas expected to flood and can reserve space for water storage or low-damage uses.",
+            "rule": "Land-use planning limits building on areas that often flood. Such land can be kept free for floodwater, or used for activities that suffer less damage, such as parks and sports fields.",
             "examples": [
               "A riverside park may tolerate temporary inundation better than a hospital on the same site."
             ],
@@ -1294,16 +1295,16 @@
           },
           "afforestation": {
             "name": "Afforestation and catchment woodland",
-            "rule": "Establishing woodland can increase interception and soil infiltration and slow some runoff pathways, depending on site and management.",
+            "rule": "Tree canopies catch some rain, and roots open up the soil, so more water soaks in and less runs off quickly. The effect is largest for small floods in small catchments and weakens as floods get bigger.",
             "examples": [
-              "Target woodland where it can interrupt rapid runoff; allow time for soils and vegetation to develop."
+              "In a small catchment planted with trees, the soil under the woodland soaks up more rain than the grazed fields around it, so less water runs off in small storms."
             ],
             "review": {
               "englishTerm": "Afforestation and catchment woodland",
-              "russianTerm": "Лесоразведение в бассейне",
+              "russianTerm": "Лесоразведение в водосборном бассейне",
               "contrast": {
-                "en": "Afforestation is establishing forest on land not recently forested; it is not an immediate guarantee against extreme floods.",
-                "ru": "Лесоразведение — создание леса на земле без недавнего лесного покрова; это не немедленная гарантия от экстремальных паводков."
+                "en": "Afforestation means planting trees on land that has not recently been forest. Reforestation means replanting where forest was recently cut down or burnt.",
+                "ru": "Лесоразведение (afforestation) — посадка леса на земле, где лес давно не рос. Лесовосстановление (reforestation) — восстановление леса на месте недавней вырубки или пожара."
               },
               "sources": [
                 {
@@ -1323,13 +1324,13 @@
           },
           "restoration": {
             "name": "River restoration",
-            "rule": "Restoring channel and floodplain processes can reconnect storage areas, recreate bends or wetlands, and improve habitat while managing flood flows.",
+            "rule": "Restoring the channel lets the river spread across its floodplain again. Part of a flood is then stored there, so less water reaches towns downstream at once. The effect depends on how long the restored stretch is compared with the size of the whole catchment. Bends and wetlands also return, which improves conditions for plants and animals.",
             "examples": [
-              "Reconnect a suitable floodplain so part of a flood spreads and is stored away from vulnerable buildings."
+              "Where flood embankments are removed, water spreads across the floodplain at high flows, so the peak downstream falls, though often only slightly."
             ],
             "review": {
               "englishTerm": "River restoration",
-              "russianTerm": "Восстановление речной системы",
+              "russianTerm": "Восстановление русла и поймы",
               "contrast": {
                 "en": "Restoration does not mean flooding is eliminated; some land is deliberately allowed to flood to reduce damage elsewhere.",
                 "ru": "Восстановление не устраняет затопление: часть земли намеренно оставляют для разлива, снижая ущерб в других местах."
@@ -1352,9 +1353,9 @@
           },
           "warnings": {
             "name": "Flood forecasts and warnings",
-            "rule": "Forecasts estimate possible river levels or flooding from observations and models. Warnings communicate danger and actions so people can prepare and respond.",
+            "rule": "A forecast estimates when and where a river may rise, based on observations and models. A warning passes this on with clear advice, so people have time to prepare. Forecasts are estimates, so they are never completely certain.",
             "examples": [
-              "Move possessions and use an agreed evacuation plan before routes become flooded."
+              "A warning system may use several levels. Each level tells people what to do, such as moving possessions upstairs or leaving before the roads flood."
             ],
             "review": {
               "englishTerm": "Flood forecasts and warnings",
@@ -1383,18 +1384,18 @@
       },
       "boscastle": {
         "title": "Case study — Boscastle floods 2004",
-        "summary": "On 16 August 2004, intense rainfall caused a flash flood through Boscastle, Cornwall. Rivers overtopped, buildings were damaged and vehicles were swept away. The Met Office records no deaths and a major helicopter rescue operation.",
+        "summary": "On 16 August 2004, intense rain fell on the steep slopes around Boscastle, Cornwall. Water ran off the land quickly, and the rivers overtopped. A flash flood swept through the village. Buildings were damaged and vehicles were carried away. The Met Office records no deaths, but a major helicopter rescue operation was needed.",
         "seep": {
-          "social": "Social: people required urgent rescue and temporary shelter.",
-          "economic": "Economic: homes, businesses, roads and bridges were damaged; the Environment Agency reports about 115 vehicles swept away.",
-          "environmental": "Environmental: floodwater moved large amounts of sediment and debris; sewers were damaged.",
-          "political": "Governance: the Environment Agency and local partners coordinated flood defences and community flood planning."
+          "social": "Social: people needed urgent rescue and evacuation, and temporary shelter was required.",
+          "economic": "Economic: homes, businesses, roads and bridges were damaged, and vehicles were swept away.",
+          "environmental": "Environmental: floodwater moved large amounts of sediment and debris, which then had to be cleared away.",
+          "political": "Political: the flood exposed weaknesses in local flood planning."
         },
         "responses": {
-          "local": "Local: rescue and emergency shelter.",
-          "government": "Government and partners: new river and rainfall monitoring supported a tailored warning service.",
-          "shortTerm": "Short term: around 4,000 tonnes of debris were removed, according to the Environment Agency’s 2014 retrospective.",
-          "longTerm": "Long term: channel and bridge changes, culverts and community planning; the 2014 retrospective reports over £10 million in improvements, a different measure from total flood damage."
+          "local": "Local: emergency services carried out the rescues; affected people were given emergency shelter.",
+          "government": "Government and partners: local councils and other organisations took part in the village’s post-flood regeneration.",
+          "shortTerm": "Short term: flood debris was removed from the village, according to the Environment Agency’s 2014 statement on the 10th anniversary.",
+          "longTerm": "Long term: the Environment Agency’s 2014 statement on the 10th anniversary describes flood defence schemes and reports more than £10 million invested in improvements. Investment is a different measure from total flood damage."
         }
       }
     }
@@ -2478,7 +2479,7 @@
   },
   "atmosphericHazards": {
     "title": "Atmospheric Hazards",
-    "intro": "Climate zones, atmospheric circulation, tropical storms and droughts. Case studies: Typhoon Haiyan and The Big Dry.",
+    "intro": "This topic covers climate zones, atmospheric circulation, tropical cyclones and droughts. The two detailed case studies are Typhoon Haiyan and the Millennium Drought.",
     "sections": {
       "climateZones": {
         "title": "Climate zones",
@@ -2486,9 +2487,9 @@
         "detailed": {
           "polar": {
             "name": "Polar climate",
-            "rule": "A climate with very cool summers; in the Köppen classification, the warmest month's mean temperature is below 10°C. Tundra climates can rise above freezing in summer; ice-cap climates do not reach a monthly mean above 0°C.",
+            "rule": "Polar climate (group E in the Köppen system) has cool summers, because the Sun is low in the sky at high latitudes and its energy is spread over a large area. In a tundra climate, the warmest month is above freezing but still cool, so mainly mosses, lichens and dwarf shrubs can grow. In an ice-cap climate, every month stays below freezing, so the ice does not melt away.",
             "examples": [
-              "Compare tundra coasts with the interior Antarctic ice sheet; their summer conditions differ."
+              "Compare the tundra of northern Siberia or northern Canada, where a short summer supports mosses and lichens, with the interior of Antarctica, where the ice stays frozen all year."
             ],
             "review": {
               "englishTerm": "Polar climate",
@@ -2509,16 +2510,16 @@
           },
           "temperate": {
             "name": "Temperate climates",
-            "rule": "A broad school-geography grouping of climates between tropical and polar extremes, with seasonal temperature differences. Maritime influence, continentality and circulation produce different rainfall and temperature regimes.",
+            "rule": "Temperate climates (group C in the Köppen system) lie between the tropics and the polar zones, with clear seasons: warm or hot summers and cool or mild winters. Snow climates (group D) lie further north and deeper inland, where winters are very cold. The sea warms and cools more slowly than land, so coastal places have milder winters than continental interiors at the same latitude.",
             "examples": [
-              "An oceanic west coast usually has a smaller annual temperature range than a continental interior at similar latitude."
+              "Vancouver, on Canada's Pacific coast, and Winnipeg, deep inside the continent, lie at almost the same latitude. Winnipeg has much colder winters and a larger gap between winter and summer temperatures."
             ],
             "review": {
               "englishTerm": "Temperate climates",
               "russianTerm": "Умеренные климаты",
               "contrast": {
-                "en": "Temperate is not a guarantee of mild winters or rain in every season; classify the specific climate rather than using latitude alone.",
-                "ru": "Умеренный не гарантирует мягкую зиму или дождь в любой сезон; определяй конкретный тип, а не только широту."
+                "en": "Temperate does not mean mild everywhere: winters in the interior of a continent can be very cold. Classify the climate from its temperatures and rainfall, not from latitude alone.",
+                "ru": "Умеренный не значит мягкий везде: зимы в глубине материка могут быть очень холодными. Определяй климат по температуре и осадкам, а не только по широте."
               },
               "sources": [
                 {
@@ -2538,16 +2539,16 @@
           },
           "arid": {
             "name": "Arid climate",
-            "rule": "A climate with a persistent moisture deficit: precipitation is small relative to potential evaporation and transpiration. Many deserts have under about 250 mm annually, but classification also depends on temperature and rainfall seasonality.",
+            "rule": "Arid climate (group B in the Köppen system) has a persistent water deficit: precipitation is lower than the water that could evaporate from the ground and from plants. Arid conditions occur where dry air sinks, for example under the subtropical high-pressure belts, in continental interiors and behind mountains that block moist air. Hot and cold deserts both belong to group B, so temperature alone does not make a climate arid.",
             "examples": [
-              "A cool desert can receive little rain without having hot-desert summer temperatures."
+              "The Gobi Desert in Mongolia receives very little rain, but its winters are much colder than in the Sahara."
             ],
             "review": {
               "englishTerm": "Arid climate",
               "russianTerm": "Аридный (сухой) климат",
               "contrast": {
-                "en": "Arid describes water balance, not heat; deserts can be hot or cold. One rainfall threshold is a school shortcut.",
-                "ru": "Аридность описывает водный баланс, а не жару; пустыни бывают жаркими и холодными. Единый порог осадков — школьное упрощение."
+                "en": "Arid does not mean hot or completely rainless: it describes a shortage of water, so a cold desert is arid too.",
+                "ru": "Аридный не значит жаркий или совсем без дождей: это нехватка влаги, поэтому холодная пустыня тоже аридная."
               },
               "sources": [
                 {
@@ -2561,16 +2562,16 @@
           },
           "tropical": {
             "name": "Tropical climates",
-            "rule": "In the Köppen system, tropical climates have mean temperatures of at least 18°C in every month. Rainfall distinguishes rainforest, monsoon and savanna types.",
+            "rule": "Tropical climates (group A in the Köppen system) are warm in every month, because the Sun stands high near the equator and each square metre receives a lot of solar energy. Rainfall separates the types: rainforest climates have rain in every month, monsoon climates have very heavy rain in one part of the year, and savanna climates have a clear dry season.",
             "examples": [
-              "A tropical rainforest is wet through the year; a tropical savanna has a marked dry season."
+              "The Amazon basin has rain all year round, while the savanna (cerrado) of central Brazil has a clear dry season."
             ],
             "review": {
               "englishTerm": "Tropical climates",
               "russianTerm": "Тропические климаты (по Кёппену)",
               "contrast": {
-                "en": "The geographic tropics also contain dry deserts and cool high mountains. English tropical climate is not identical to the narrower Russian climatic belt label «тропический пояс».",
-                "ru": "Между тропиками есть также сухие пустыни и холодные высокогорья. Английское tropical climate не полностью совпадает с русским названием пояса «тропический»."
+                "en": "The geographic tropics, the belt between the Tropics of Cancer and Capricorn, also contain deserts and cool high mountains. Tropical climate (A) is a narrower Köppen type: it is warm in every month.",
+                "ru": "Тропический пояс (широтная зона между тропиками) включает и пустыни, и холодные высокогорья. Тропический климат по Кёппену (A) — более узкое понятие: это климат, тёплый в каждом месяце."
               },
               "sources": [
                 {
@@ -2584,16 +2585,16 @@
           },
           "mediterranean": {
             "name": "Mediterranean climate",
-            "rule": "A climate characterised by dry summers and relatively wetter, mild winters, found around the Mediterranean and in some other west-coast regions. Summers may be hot or warm depending on subtype.",
+            "rule": "Mediterranean climate (group C in the Köppen system) has hot or warm, dry summers and mild, wetter winters. In summer, the subtropical high-pressure belt keeps the air dry; in winter, the belt moves towards the equator and westerly low-pressure systems bring rain. This climate is found on the west coasts of continents: around the Mediterranean Sea, and in parts of California, central Chile and South Africa.",
             "examples": [
-              "Central Chile and parts of California share a dry-summer rainfall pattern with the Mediterranean basin."
+              "Athens has hot, almost rainless summers, and most of its rain falls between autumn and spring."
             ],
             "review": {
               "englishTerm": "Mediterranean climate",
               "russianTerm": "Средиземноморский климат",
               "contrast": {
-                "en": "Mediterranean is a climate type, not only a location. Fire risk also depends on vegetation, ignition and land management.",
-                "ru": "Средиземноморский — тип климата, а не только местоположение. Пожарный риск зависит также от растительности, источника огня и управления землёй."
+                "en": "Mediterranean names a type of climate, not a place: the type depends on rain and temperature, so it occurs far from the Mediterranean Sea.",
+                "ru": "Средиземноморский — название типа климата, а не места: тип определяется осадками и температурой, поэтому он встречается далеко от Средиземного моря."
               },
               "sources": [
                 {
@@ -2607,16 +2608,16 @@
           },
           "mountainous": {
             "name": "Mountain / highland climates",
-            "rule": "Local climates shaped strongly by elevation, slope aspect and relief. Air temperature generally decreases with altitude in the troposphere, while windward and leeward slopes can receive very different precipitation.",
+            "rule": "Mountain (highland) climates depend on altitude, the shape of the relief and the side of a mountain that faces the wind. Air gets colder as you climb, so a mountain can be much cooler than lowlands at the same latitude. Moist air forced up a windward slope cools and drops its rain, so the leeward side is often much drier (a rain shadow).",
             "examples": [
-              "Two sites at the same latitude can have different climates if one is high in the mountains."
+              "Quito, the capital of Ecuador, lies almost on the equator, but its height in the Andes gives it a cool, mild climate, unlike the hot coastal lowlands."
             ],
             "review": {
               "englishTerm": "Mountain / highland climates",
               "russianTerm": "Горные климаты",
               "contrast": {
-                "en": "About 6.5°C per kilometre is a standard average environmental lapse rate, not a constant at every mountain or time; inversions can reverse the gradient.",
-                "ru": "Около 6,5°C на километр — стандартное среднее убывание температуры, а не постоянная для каждой горы и момента; при инверсии знак может измениться."
+                "en": "Temperature usually falls with height, but not always: on calm, clear nights cold air can collect in valleys, so a hilltop can be warmer than the valley floor (a temperature inversion).",
+                "ru": "Температура обычно падает с высотой, но не всегда. В тихие ясные ночи холодный воздух стекает и собирается в долинах, поэтому вершина холма может быть теплее дна долины (температурная инверсия)."
               },
               "sources": [
                 {
@@ -2637,21 +2638,21 @@
         }
       },
       "latitudeSun": {
-        "title": "Latitude & sun's rays",
-        "description": "When sunlight strikes a surface at a lower angle, the same incoming beam is spread over a larger area. Averaged over the year, high latitudes receive less solar energy per unit area than low latitudes.",
+        "title": "Latitude and the angle of the Sun's rays",
+        "description": "The equator receives more solar heat than the poles. The main cause is the angle at which the rays strike the surface, which controls insolation (the solar energy received per square metre).",
         "detailed": {
           "physics": {
             "name": "Solar angle and latitude",
-            "rule": "When sunlight strikes a surface at a lower angle, the same incoming beam is spread over a larger area. Averaged over the year, high latitudes receive less solar energy per unit area than low latitudes.",
+            "rule": "A beam that strikes the ground straight on covers a small area, so each square metre gets a lot of energy. At a lower angle, the same beam spreads over a larger area, so each square metre gets less energy. On average over a year, high latitudes therefore receive less solar energy per square metre than low latitudes.",
             "examples": [
-              "Compare a beam falling perpendicular to a surface with the same beam falling obliquely."
+              "Shine a torch straight down onto a sheet of paper, then at a shallow angle. The bright patch becomes longer and dimmer."
             ],
             "review": {
               "englishTerm": "Solar angle and latitude",
               "russianTerm": "Угол падения солнечных лучей и широта",
               "contrast": {
-                "en": "Solar angle varies with latitude, season and time of day; the Sun is not vertically overhead at the equator every day.",
-                "ru": "Угол зависит от широты, сезона и времени суток; на экваторе Солнце не каждый день находится в зените."
+                "en": "The Sun's height in the sky changes with latitude, season and time of day: even on the equator, the Sun is overhead at noon only at the equinoxes.",
+                "ru": "Высота Солнца над горизонтом меняется с широтой, сезоном и временем суток: даже на экваторе Солнце бывает в зените в полдень только в дни равноденствий."
               },
               "sources": [
                 {
@@ -2671,16 +2672,16 @@
           },
           "tilt": {
             "name": "Axial tilt and seasons",
-            "rule": "Earth's rotation axis is tilted about 23.5° from the perpendicular to its orbital plane. As Earth orbits, this changes day length and solar height in each hemisphere, producing opposite seasons.",
+            "rule": "Earth's axis is tilted relative to the perpendicular to its orbital plane. As a result, each hemisphere leans towards the Sun for part of the year and away from it for the rest. This changes the length of day and the height of the Sun at noon, so the two hemispheres have opposite seasons.",
             "examples": [
-              "In June the Northern Hemisphere has longer days and higher midday Sun than in December."
+              "In June, Moscow has long days and a high midday Sun, while Sydney, in the Southern Hemisphere, is in winter."
             ],
             "review": {
               "englishTerm": "Axial tilt and seasons",
               "russianTerm": "Наклон земной оси и времена года",
               "contrast": {
-                "en": "The angle to the orbital plane itself is about 66.5°. Seasons primarily arise from tilt, not changing Earth–Sun distance.",
-                "ru": "К самой плоскости орбиты угол около 66,5°. Сезоны определяются прежде всего наклоном, а не изменением расстояния до Солнца."
+                "en": "Seasons come mainly from the tilt, not from changing distance: Earth is closest to the Sun during the Northern Hemisphere's winter.",
+                "ru": "Смену сезонов вызывает прежде всего наклон оси, а не изменение расстояния до Солнца: Земля ближе всего к Солнцу зимой в Северном полушарии."
               },
               "sources": [
                 {
@@ -2696,20 +2697,20 @@
       },
       "circulation": {
         "title": "Atmospheric circulation cells",
-        "items": "Idealised mean cells: Hadley roughly 0–30°, Ferrel roughly 30–60°, Polar roughly 60–90°, in each hemisphere. Their boundaries shift.",
+        "items": "Air rises near the equator and sinks in the subtropics. In each hemisphere this pattern is made up of three idealised cells: Hadley, Ferrel and polar. The Coriolis effect, caused by Earth’s rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern. Together with the cells, it creates wind belts (trade winds, westerlies and polar easterlies). The cells also create pressure belts: low pressure near the equator and in subpolar latitudes, high pressure in the subtropics and at the poles.",
         "detailed": {
           "hadley": {
             "name": "Hadley cell",
-            "rule": "A tropical overturning circulation: air rises near the shifting tropical rain belt, moves poleward aloft and generally sinks in the subtropics. Surface trade winds return air toward the convergence zone.",
+            "rule": "The Hadley cell is the tropical loop of air. Air is heated near the equator, rises and flows towards the poles high up. It cools and sinks around the subtropics, then flows back towards the equator near the surface. The Coriolis effect turns this surface flow into the north-east and south-east trade winds.",
             "examples": [
-              "Subtropical descending air helps explain many dry belts, alongside ocean currents and relief."
+              "The Sahara lies in the subtropical belt of sinking air, which is one reason it is so dry."
             ],
             "review": {
               "englishTerm": "Hadley cell",
               "russianTerm": "Ячейка Хэдли",
               "contrast": {
-                "en": "The three-cell diagram is a long-term, zonally averaged model; ascent is not fixed exactly at 0° and descent is not fixed at 30°.",
-                "ru": "Трёхъячеечная схема — многолетняя модель, усреднённая по долготе; подъём не закреплён строго на 0°, а опускание на 30°."
+                "en": "The three-cell model is an average over long periods and over all longitudes. Real zones of rising and sinking air are not fixed at one latitude. They move with the seasons.",
+                "ru": "Модель трёх ячеек — усреднённая картина за длительный период и по всей долготе. Реальные зоны подъёма и опускания воздуха не привязаны к одной широте: они смещаются вместе с сезонами."
               },
               "sources": [
                 {
@@ -2723,16 +2724,16 @@
           },
           "ferrel": {
             "name": "Ferrel cell",
-            "rule": "The idealised mid-latitude mean circulation, with surface air generally moving poleward and an equatorward return aloft. It is thermally indirect and maintained largely through mid-latitude weather systems and their heat and momentum transfers.",
+            "rule": "The Ferrel cell is the circulation in mid-latitudes, between the subtropical and polar cells. Surface air moves towards the poles, and air higher up moves back towards the equator. It is not driven directly by heating. Mid-latitude weather systems, such as depressions and anticyclones, keep it going by moving heat and momentum.",
             "examples": [
-              "Prevailing westerlies are a mean tendency, not the wind direction at every time and place."
+              "In the UK, the prevailing wind comes from the south-west, so weather systems usually arrive from the Atlantic."
             ],
             "review": {
               "englishTerm": "Ferrel cell",
-              "russianTerm": "Ячейка Феррела",
+              "russianTerm": "Ячейка Ферреля",
               "contrast": {
-                "en": "It is not a simple closed convection loop mechanically pushed by adjacent cells; actual mid-latitude winds are highly variable.",
-                "ru": "Это не простая замкнутая конвективная петля, которую механически толкают соседние ячейки; реальные ветры сильно меняются."
+                "en": "Prevailing westerlies are only an average. On a given day, mid-latitude winds can blow from many directions as depressions and anticyclones pass.",
+                "ru": "Преобладающие западные ветры — это только среднее. В конкретный день ветер умеренных широт может дуть с разных сторон, когда над территорией проходят циклоны и антициклоны."
               },
               "sources": [
                 {
@@ -2746,16 +2747,16 @@
           },
           "polar": {
             "name": "Polar cell",
-            "rule": "In the idealised circulation model, cold air sinks at high latitudes and flows equatorward near the surface, with ascent toward subpolar latitudes and return flow aloft.",
+            "rule": "Over the poles, cold, dense air sinks and creates high pressure. At the surface it flows towards lower latitudes, where it meets the warmer air of the mid-latitudes at the polar front. There the air rises and returns towards the poles higher up.",
             "examples": [
-              "Near-surface polar easterlies result from the mean pressure pattern and Earth's rotation."
+              "In winter, cold air from the polar regions can spread south and bring severe frost to northern Canada and Siberia."
             ],
             "review": {
               "englishTerm": "Polar cell",
               "russianTerm": "Полярная ячейка",
               "contrast": {
-                "en": "The polar front shifts and is irregular; the polar cell is not the same feature as the stratospheric polar vortex.",
-                "ru": "Полярный фронт смещается и неоднороден; полярная ячейка и стратосферный полярный вихрь — разные явления."
+                "en": "A wind is named after the direction it blows from. Polar easterlies blow from the east, and westerlies blow from the west.",
+                "ru": "Ветер называют по направлению, откуда он дует. Полярные восточные ветры дуют с востока, а западные — с запада."
               },
               "sources": [
                 {
@@ -2771,12 +2772,12 @@
       },
       "pressure": {
         "title": "High & low pressure",
-        "high": "A region with surface pressure higher than its surroundings. Descending air often warms by compression, lowering relative humidity and suppressing cloud formation.",
-        "low": "A region with surface pressure lower than its surroundings. Converging air and ascent often promote cooling, condensation and unsettled weather when enough moisture is present.",
+        "high": "A high-pressure area usually brings settled, dry weather. Wind blows from high to low pressure, so air flows outwards from the centre of the high.",
+        "low": "As air rises over a low, it cools and its water vapour condenses, forming cloud. Rain is likely when the air is moist, so low pressure usually brings unsettled weather.",
         "detailed": {
           "high": {
             "name": "High-pressure system (anticyclone)",
-            "rule": "A region with surface pressure higher than its surroundings. Descending air often warms by compression, lowering relative humidity and suppressing cloud formation.",
+            "rule": "A high-pressure system (anticyclone) is an area where surface air pressure is higher than in its surroundings. Air sinks over it, is compressed and warms, so its relative humidity falls and clouds struggle to form.",
             "examples": [
               "A clear anticyclonic winter night can cool strongly by radiation."
             ],
@@ -2784,8 +2785,8 @@
               "englishTerm": "High-pressure system (anticyclone)",
               "russianTerm": "Область высокого давления (антициклон)",
               "contrast": {
-                "en": "High pressure need not mean high temperature or clear skies: winter fog and low cloud can persist. Wind strength depends on pressure gradient, not the label high or low.",
-                "ru": "Высокое давление не обязательно означает высокую температуру или ясное небо: зимой возможны туман и низкая облачность. Сила ветра зависит от градиента давления, а не названия системы."
+                "en": "High pressure does not always mean warm or clear weather: in winter, fog and low cloud can persist under a high. Wind strength depends on how quickly pressure changes over a distance, not on whether the system is high or low.",
+                "ru": "Высокое давление не всегда означает тепло и ясное небо: зимой под антициклоном могут держаться туман и низкая облачность. Сила ветра зависит от того, насколько быстро давление меняется на расстоянии, а не от того, высокое оно или низкое."
               },
               "sources": [
                 {
@@ -2799,16 +2800,16 @@
           },
           "low": {
             "name": "Low-pressure system (cyclone / depression)",
-            "rule": "A region with surface pressure lower than its surroundings. Converging air and ascent often promote cooling, condensation and unsettled weather when enough moisture is present.",
+            "rule": "A low-pressure system is an area where surface air pressure is lower than in its surroundings. Air is drawn in at the surface and converges, so it has to rise.",
             "examples": [
-              "Closely spaced isobars indicate a strong pressure gradient and usually stronger winds."
+              "On a weather map, isobars are lines joining places of equal pressure. Where they are close together, pressure changes quickly over a short distance, and the wind is usually strong."
             ],
             "review": {
-              "englishTerm": "Low-pressure system (cyclone / depression)",
-              "russianTerm": "Область низкого давления (циклон)",
+              "englishTerm": "Low pressure (cyclone)",
+              "russianTerm": "Низкое давление (циклон)",
               "contrast": {
-                "en": "A low is not defined by a universal 980 hPa threshold. Mid-latitude depressions often have fronts; tropical cyclones have a different warm-core structure.",
-                "ru": "Циклон не определяется универсальным порогом 980 гПа. Умеренные циклоны часто имеют фронты; тропические отличаются тёплым ядром."
+                "en": "Mid-latitude lows (depressions) and tropical cyclones can both be called cyclones, but they are different systems. Mid-latitude lows often have fronts; tropical cyclones have a warm core.",
+                "ru": "Внетропические циклоны (depressions) и тропические циклоны можно назвать одним словом «циклон», но это разные системы. У внетропических циклонов часто есть фронты, а у тропических — тёплое ядро."
               },
               "sources": [
                 {
@@ -2830,20 +2831,20 @@
       },
       "tropicalStorms": {
         "title": "Tropical storms",
-        "description": "A tropical cyclone is an organised rotating low-pressure system with a warm core over tropical or subtropical waters. Formation is favoured by deep warm water, moist unstable air, a disturbance, weak vertical wind shear and sufficient Coriolis effect.",
+        "description": "A tropical cyclone is an organised, rotating low-pressure system with a warm core. It forms over tropical or subtropical oceans.",
         "detailed": {
           "formation": {
             "name": "Tropical cyclone formation",
-            "rule": "A tropical cyclone is an organised rotating low-pressure system with a warm core over tropical or subtropical waters. Formation is favoured by deep warm water, moist unstable air, a disturbance, weak vertical wind shear and sufficient Coriolis effect.",
+            "rule": "Warm sea water evaporates a lot of moisture, and the moist, unstable air above it rises easily. Where storms already cluster, the rising air condenses and releases latent heat. This heat warms the centre of the system and lowers the pressure there. Air flows in towards this low, and the Earth's rotation deflects it (the Coriolis effect), so the system starts to spin. Weak vertical wind shear lets the storm stay upright, so the process can continue.",
             "examples": [
-              "Condensation releases latent heat; the circulation draws further warm moist air from the ocean."
+              "Many typhoons in the western Pacific form in late summer and early autumn, when the sea has been warm for weeks."
             ],
             "review": {
               "englishTerm": "Tropical cyclone formation",
               "russianTerm": "Формирование тропического циклона",
               "contrast": {
-                "en": "About 27°C and more than roughly 5° from the equator are useful typical conditions, not absolute guarantees or exception-free boundaries.",
-                "ru": "Около 27°C и удаление более примерно 5° от экватора — типичные ориентиры, а не достаточные условия или границы без исключений."
+                "en": "Warm water is necessary but not enough on its own: the air must also be moist and unstable, and the wind must not change much with height. Cyclones also rarely form right on the equator, where the Coriolis effect is almost zero.",
+                "ru": "Одной тёплой воды недостаточно: нужны ещё влажный неустойчивый воздух и слабый сдвиг ветра по высоте. Циклоны почти не возникают прямо на экваторе, где эффект Кориолиса почти равен нулю."
               },
               "sources": [
                 {
@@ -2859,14 +2860,14 @@
             "name": "Hurricane, typhoon and tropical cyclone",
             "rule": "Hurricane and typhoon are regional names for sufficiently strong tropical cyclones: hurricane in the Atlantic and northeast/central Pacific, typhoon in the northwest Pacific. Other basins use their own cyclone classifications.",
             "examples": [
-              "Storm surge and heavy rainfall can be dangerous even when the wind category is relatively low."
+              "A storm with a low wind category can still flood a low-lying coastal town if its storm surge arrives at high tide."
             ],
             "review": {
               "englishTerm": "Hurricane, typhoon and tropical cyclone",
               "russianTerm": "Ураган, тайфун и тропический циклон",
               "contrast": {
-                "en": "The Saffir–Simpson scale rates sustained hurricane wind, not rainfall or storm surge; it is not the official classification used identically in every basin.",
-                "ru": "Шкала Саффира–Симпсона оценивает устойчивый ветер урагана, а не осадки или нагон; во всех бассейнах она не применяется одинаково."
+                "en": "The Saffir–Simpson scale rates only sustained hurricane wind, not rainfall or storm surge. Other basins use different scales or classifications.",
+                "ru": "Шкала Саффира–Симпсона (Saffir–Simpson scale) оценивает только устойчивый ветер урагана, а не дождь и нагон. В других районах мира используют свои шкалы и классификации."
               },
               "sources": [
                 {
@@ -2879,10 +2880,10 @@
             }
           },
           "impacts": {
-            "name": "Tropical cyclone hazards and impacts",
-            "rule": "Wind, heavy rain and storm surge can damage structures, inundate land and trigger landslides. Losses depend on exposure, vulnerability, warning and capacity to respond as well as storm characteristics.",
+            "name": "How tropical cyclones cause damage",
+            "rule": "Strong winds, large waves and storm surge damage buildings and flood low-lying coasts. Heavy rain causes inland flooding and can trigger landslides on steep slopes. Losses depend on exposure (how many people and assets are in the path) and vulnerability (how easily they can be harmed). The early warning people receive and their ability to respond also matter.",
             "examples": [
-              "Flooding can directly damage homes; interruption of clean-water supply can create further health risks."
+              "When an early warning is issued in time, families can move to a shelter on high ground before the surge arrives. Stronger building codes mean roofs and walls are less likely to fail in strong winds."
             ],
             "review": {
               "englishTerm": "Tropical cyclone hazards and impacts",
@@ -2910,23 +2911,23 @@
         }
       },
       "enso": {
-        "title": "El Niño / La Niña / Normal",
-        "normal": "In the usual equatorial Pacific pattern, easterly trade winds push warm surface water westward and help maintain cooler upwelled water in the east. ENSO-neutral means neither El Niño nor La Niña conditions dominate.",
-        "elNino": "The warm phase of ENSO: unusually warm surface water in the central/eastern equatorial Pacific is coupled with atmospheric changes, commonly weaker trade winds and reduced eastern upwelling.",
-        "laNina": "The cool phase of ENSO: unusually cool surface water in the central/eastern equatorial Pacific is coupled with atmospheric changes, often stronger trade winds and enhanced upwelling.",
+        "title": "El Niño / La Niña / ENSO-neutral",
+        "normal": "ENSO (El Niño–Southern Oscillation) is a natural climate pattern in the equatorial Pacific. Its neutral phase is the usual state, when neither El Niño nor La Niña conditions dominate.",
+        "elNino": "El Niño is the warm phase of ENSO: the surface of the central and eastern equatorial Pacific becomes unusually warm. It is linked to weaker trade winds and to shifts in weather across many parts of the world.",
+        "laNina": "La Niña is the cool phase of ENSO: the surface of the central and eastern equatorial Pacific becomes unusually cold. It often comes with stronger trade winds.",
         "detailed": {
           "normal": {
             "name": "ENSO-neutral Pacific conditions",
-            "rule": "In the usual equatorial Pacific pattern, easterly trade winds push warm surface water westward and help maintain cooler upwelled water in the east. ENSO-neutral means neither El Niño nor La Niña conditions dominate.",
+            "rule": "Trade winds blow from east to west along the equator. They push warm surface water towards Indonesia and Australia, so the water there is warmer and the sea level is higher. Surface water is pulled away from the coast of South America, and cold water rises from below to replace it. This upwelling, the rise of cold deep water, brings nutrients to the surface.",
             "examples": [
-              "The western warm pool favours convection, while nutrient-rich upwelling supports eastern Pacific ecosystems."
+              "Off the coast of Peru, upwelling brings nutrient-rich water to the surface, which supports a large fishery."
             ],
             "review": {
               "englishTerm": "ENSO-neutral Pacific conditions",
-              "russianTerm": "Нейтральные условия ENSO в Тихом океане",
+              "russianTerm": "Нейтральные условия ЭНЮК в Тихом океане",
               "contrast": {
                 "en": "Neutral does not mean no weather extremes or no variability; ENSO is only one influence on climate.",
-                "ru": "Нейтральная фаза не означает отсутствие экстремальной погоды или изменчивости; ENSO — лишь один из факторов климата."
+                "ru": "Нейтральная фаза не означает отсутствия экстремальной погоды или изменчивости: ЭНЮК — лишь один из факторов климата."
               },
               "sources": [
                 {
@@ -2940,16 +2941,16 @@
           },
           "elNino": {
             "name": "El Niño",
-            "rule": "The warm phase of ENSO: unusually warm surface water in the central/eastern equatorial Pacific is coupled with atmospheric changes, commonly weaker trade winds and reduced eastern upwelling.",
+            "rule": "Trade winds weaken, so less warm water is pushed west and warm water drifts back east. The central and eastern Pacific become unusually warm, and upwelling off South America weakens because less cold water reaches the surface. Warm, moist air now rises over the central Pacific instead of the west, so rainfall shifts eastwards.",
             "examples": [
-              "Reduced upwelling can reduce nutrient supply; effects vary with event strength, season and location."
+              "Off Peru, a strong El Niño weakens upwelling, so fewer nutrients reach the surface and the fish catch often falls."
             ],
             "review": {
               "englishTerm": "El Niño",
               "russianTerm": "Эль-Ниньо",
               "contrast": {
-                "en": "El Niño changes probabilities of regional weather, not a fixed list of guaranteed floods or droughts. Events recur irregularly, commonly within a 2–7-year range.",
-                "ru": "Эль-Ниньо меняет вероятности региональной погоды, а не гарантирует заданный список наводнений и засух. События повторяются нерегулярно, часто в интервале 2–7 лет."
+                "en": "El Niño changes the odds of regional weather; it does not guarantee a fixed list of floods or droughts. Events recur irregularly, every few years.",
+                "ru": "Эль-Ниньо меняет вероятность региональной погоды, но не гарантирует определённого набора наводнений и засух. События повторяются нерегулярно, примерно каждые несколько лет."
               },
               "sources": [
                 {
@@ -2963,16 +2964,16 @@
           },
           "laNina": {
             "name": "La Niña",
-            "rule": "The cool phase of ENSO: unusually cool surface water in the central/eastern equatorial Pacific is coupled with atmospheric changes, often stronger trade winds and enhanced upwelling.",
+            "rule": "The trade winds strengthen and push more warm water west. Upwelling off South America increases, so more cold water rises and the eastern Pacific becomes cooler than normal. Rain and storm clouds gather over the western Pacific, while the central and eastern Pacific become drier.",
             "examples": [
-              "The phase can favour wetter conditions in some regions and drier conditions in others, depending on season."
+              "In eastern Australia, La Niña years often bring heavier rain, which can increase the risk of flooding."
             ],
             "review": {
               "englishTerm": "La Niña",
               "russianTerm": "Ла-Нинья",
               "contrast": {
                 "en": "Regional impacts are not exact mirror images of every El Niño event; an ENSO phase alone is not a local forecast.",
-                "ru": "Региональные последствия не являются точным зеркальным отражением каждого Эль-Ниньо; фаза ENSO сама по себе не местный прогноз."
+                "ru": "Последствия Ла-Нинья в регионах не всегда противоположны последствиям Эль-Ниньо. Сама фаза ЭНЮК не даёт местного прогноза погоды."
               },
               "sources": [
                 {
@@ -2991,33 +2992,36 @@
         "location": "Philippines (Leyte, Tacloban)",
         "scale": "A very powerful tropical cyclone with destructive winds and coastal storm-surge flooding. Surge depth varied by location; a single value does not describe the whole coast.",
         "seep": {
-          "social": "Social: GIZ’s May 2014 assessment records more than 6,000 deaths and about 4 million displaced people using earlier situation reports. Displaced is not the same measure as homeless.",
+          "social": "Social: a GIZ assessment from May 2014 reports more than 6,000 deaths and about 4 million displaced people. Displaced people had to leave their homes. Affected people, who suffered any kind of harm, are a different measure, so do not confuse the two.",
           "economic": "Economic: homes, businesses and transport infrastructure were damaged; losses depend on which assets and reporting period are counted.",
           "environmental": "Environmental: storm surge flooded coastal land, while strong winds damaged vegetation and spread debris.",
-          "political": "Governance: the assessment identified gaps between hazard forecasts, public understanding and evacuation decisions."
+          "political": "Political: the response depended on local government capacity."
         },
         "responses": {
           "local": "Local: residents and responders carried out evacuation and rescue under severe disruption.",
-          "government": "Government: storm warnings and evacuation orders were issued, but some evacuation centres were themselves exposed to storm surge.",
+          "government": "Government: storm warnings and evacuation orders were issued, but some evacuation centres were themselves exposed to storm surge. The assessment identified gaps between hazard forecasts and local warnings.",
           "shortTerm": "Short term: emergency relief addressed shelter, food, safe water and medical needs.",
-          "longTerm": "Long term: the GIZ assessment recommended clearer warnings, better hazard maps and safer evacuation centres; recommendations are not evidence of completed rebuilding."
+          "longTerm": "Long term: the GIZ assessment recommended clearer warnings, better hazard maps and safer evacuation centres. These are recommendations, not proof that they were carried out."
         }
       },
       "bigDry": {
         "title": "Case study — Australia’s Millennium Drought",
-        "summary": "A prolonged drought affected southern Australia. Dates depend on region and indicator: the South Australian government describes the River Murray episode as late 2001–2010. Low rainfall and over-allocation combined to reduce flows and threaten water supplies.",
+        "summary": "Drought is a long period of much less rain than normal, so water supplies, soil moisture and river flows fall below what people, farming and ecosystems need. A long drought, known as the Millennium Drought, affected south-eastern Australia from about 1997 to 2009. Low rainfall and over-allocation of water cut river flows and threatened water supplies. The crisis was worst in the later years of the drought, when river flows and lake levels were at their lowest.",
         "seep": {
-          "social": "Social: Adelaide’s supply and Lower Lakes communities were threatened; restrictions and new drinking-water pipelines were used.",
-          "economic": "Economic: irrigation allocations were restricted, placing pressure on agriculture and horticulture. Avoid applying one annual loss estimate to every drought year.",
+          "social": "Social: the water supply to Adelaide and to towns around the Lower Lakes was at risk, and households faced water restrictions.",
+          "economic": "Economic: water for irrigation was cut sharply, which hurt farming and horticulture.",
           "environmental": "Environmental: low lake levels exposed acid sulfate soils; salinity increased and wetlands lost connectivity.",
-          "political": "Governance: drought experience contributed to basin-wide planning, environmental water recovery and changes in water management."
+          "political": "Political: the drought showed weaknesses in water management."
+        },
+        "responses": {
+          "government": "Government: basin-wide planning, water returned to rivers and wetlands for the environment, and changes in how water is shared."
         }
       },
       "climateChange": {
         "title": "Climate change over time",
-        "evidence": "Ice cores, tree rings, sun observations, atmospheric records",
-        "mitigation": "Mitigation: renewables, carbon capture, reforestation",
-        "adaptation": "Adaptation: sea walls, drought-resistant crops, early warning"
+        "evidence": "Ice cores, tree rings and atmospheric measurements show how the climate has changed. Natural factors have changed it in the past.\n\n- Milankovitch cycles: changes in Earth’s orbit and tilt alter how sunlight is spread across latitudes and seasons. These cycles last about 100,000 years (eccentricity), 41,000 years (axial tilt) and 23,000 years (precession); the figures are rounded (FAU data).\n- Sunspots: the number of sunspots rises and falls in a cycle of about 11 years (NASA data). Solar activity is a weak factor: its cycle changes the Sun’s energy output only slightly, so its effect on temperature is small.\n- Volcanic eruptions release sulfate aerosols that reflect sunlight. After the eruption of Mount Pinatubo in 1991, global temperatures fell for a short time.\n\nToday natural factors contribute very little. The main cause of current warming is the emission of greenhouse gases from burning fossil fuels.",
+        "mitigation": "Mitigation means cutting greenhouse gas emissions or removing gases from the atmosphere, so that climate change is slower and weaker. Examples: renewable energy such as wind and solar power, carbon capture and storage, and reforestation.",
+        "adaptation": "Adaptation means adjusting to the effects of climate change that are already happening or expected, so that people and ecosystems are less harmed. Examples: sea walls against rising sea levels, drought-resistant crops and early warning systems for floods and storms."
       }
     }
   },

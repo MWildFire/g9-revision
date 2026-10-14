@@ -54,7 +54,7 @@ export const recapLessons: Lesson[] = [
     goals: ['Choose the most suitable method for a given quadratic equation and justify your choice.', 'Use the discriminant to find how many real solutions an equation has, and include both signs when you take a square root.'],
     terms: [
       defineTerm('Factorise'),
-      defineTerm('Zero-product property'),
+      defineTerm('Null factor law'),
       defineTerm('Completing the square'),
       defineTerm('Discriminant'),
     ],
@@ -83,7 +83,7 @@ export const recapLessons: Lesson[] = [
     ],
     sections: [
       { title: 'Difference or ratio?', text: 'In an arithmetic sequence, subtract each term from the next one. The result is the common difference d, which is the same for every pair of neighbouring terms. Extended: in a geometric sequence, divide each term by the one before it. The result is the common ratio r, which is also constant.', formula: 'Arithmetic: uₙ = a + (n − 1)d.  Geometric: uₙ = arⁿ⁻¹.' },
-      { title: 'Term or sum?', text: 'The formula for the nth term, uₙ, gives one term of the sequence. The sum Sₙ = u₁ + u₂ + … + uₙ adds the first n terms. For 12, 6, 3, …, u₃ = 3, but S₃ = 12 + 6 + 3 = 21. Extended: if the first term is not zero, an infinite geometric sum is finite only when |r| < 1, and r may be negative.', formula: 'Arithmetic: Sₙ = n[2a + (n − 1)d]/2.  Geometric: Sₙ = a(1 − rⁿ)/(1 − r) for r ≠ 1; Sₙ = na for r = 1.  S∞ = a/(1 − r) for |r| < 1.' },
+      { title: 'Term or sum?', text: 'The formula for the nth term, uₙ, gives one term of the sequence. The sum Sₙ = u₁ + u₂ + … + uₙ adds the first n terms. For 12, 6, 3, …, u₃ = 3, but S₃ = 12 + 6 + 3 = 21. Extended: r may be negative.', formula: 'Arithmetic: Sₙ = n[2a + (n − 1)d]/2.  Geometric: Sₙ = a(1 − rⁿ)/(1 − r) for r ≠ 1; Sₙ = na for r = 1.  S∞ = a/(1 − r) for |r| < 1.' },
       { title: 'Two descriptions, one formula', text: 'Extended: for 3, 6, 12, 24, …, one description is ‘each term doubles’. Another is ‘the differences 3, 6, 12, … also double’. Each description leads to uₙ = 3 × 2ⁿ⁻¹. Check the formula on the given terms and on a new one, such as u₆ = 3 × 2⁵ = 96. The exponent is n − 1 because reaching the nth term from u₁ takes n − 1 doublings.' },
     ],
     example: { prompt: 'Find an explicit formula and a recursive formula for 5, 8, 11, … Then calculate u₂₀, the 20th term.', steps: ['The common difference is d = 8 − 5 = 3, so uₙ = u₁ + (n − 1)d = 5 + 3(n − 1) = 3n + 2.', 'Recursive formula: u₁ = 5 and uₙ₊₁ = uₙ + 3.', 'u₂₀ = 3(20) + 2 = 62.', 'Why n − 1: from u₁ to uₙ there are exactly n − 1 steps, and each step adds 3, so the total added is 3(n − 1).'] },

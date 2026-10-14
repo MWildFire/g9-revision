@@ -20,8 +20,10 @@ export function MockLessonPage({ embeddedId }: { embeddedId?: string } = {}) {
   if (!lesson) return <Container className="max-w-3xl mx-auto p-8"><p>{ru ? 'Блок не найден.' : 'Lesson not found.'}</p><Link to="/mocks" className="underline">{t('nav.mocks')}</Link></Container>;
   const reviews = ('definitionReviews' in lesson ? lesson.definitionReviews : []) as DefinitionReview[];
   return <SubjectScope subject={lesson.subject}><Container className="max-w-3xl mx-auto px-4 md:px-6 py-10 [overflow-wrap:anywhere]" lang={lang}>
-    <Link to="/mocks" className="text-sm underline">← {t('nav.mocks')}</Link>
-    <h1 className="font-serif text-3xl md:text-4xl mt-7 mb-6">{lesson.title[lang]}</h1>
+    {!embeddedId && <Link to="/mocks" className="text-sm underline">← {t('nav.mocks')}</Link>}
+    {embeddedId
+      ? <h2 className="font-serif text-2xl md:text-3xl mt-7 mb-6">{lesson.title[lang]}</h2>
+      : <h1 className="font-serif text-3xl md:text-4xl mt-7 mb-6">{lesson.title[lang]}</h1>}
     <div className="space-y-4 leading-relaxed">{lesson.paragraphs.map((p,i)=><section key={i}><RichText text={p[lang]}/><FormulaTeaching text={p[lang]}/></section>)}</div>
     {reviews.length > 0 && <section className="space-y-5 mt-8"><h2 className="font-serif text-2xl">{ru ? 'Понятия и различия' : 'Concepts and distinctions'}</h2>{reviews.map((review, index) => <DefinitionSupport key={index} review={review} language={lang}/>)}</section>}
     {lesson.id === 'science-investigation' && <MeasurementComparison language={lang}/>}

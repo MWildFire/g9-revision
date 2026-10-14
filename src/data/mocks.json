@@ -1941,8 +1941,8 @@
       "id": "states-thermal",
       "subject": "physics",
       "title": {
-        "en": "States of matter and thermal transfer",
-        "ru": "Состояния вещества и передача тепла"
+        "en": "States of matter and thermal energy transfer",
+        "ru": "Агрегатные состояния вещества и теплопередача"
       },
       "scope": "myp",
       "sources": [
@@ -1950,30 +1950,30 @@
       ],
       "paragraphs": [
         {
-          "en": "In solids, particles vibrate around fixed positions; in liquids they remain close but rearrange; in gases they are widely separated and move freely. During a change of state of a pure substance at constant pressure, energy changes particle arrangement while temperature can remain constant.",
-          "ru": "В твёрдых телах частицы колеблются около устойчивых положений; в жидкостях близки, но перестраиваются; в газах далеко друг от друга и движутся свободно. При фазовом переходе чистого вещества при постоянном давлении энергия меняет расположение частиц, а температура может оставаться постоянной."
+          "en": "In solids, particles vibrate about fixed positions. In liquids, they stay close together but can rearrange. In gases, they are widely separated and move freely.",
+          "ru": "В твёрдом теле частицы колеблются около положений равновесия. В жидкости частицы находятся близко друг к другу, но могут перестраиваться. В газе они далеко друг от друга и движутся свободно."
         },
         {
-          "en": "Conduction transfers energy through microscopic interactions in matter; convection transports internal energy with the bulk motion of a fluid. Thermal radiation is electromagnetic and can cross a vacuum. Heat is energy transferred because of a temperature difference. Temperature is a state quantity, not the total internal energy; two different amounts of water at the same temperature generally have different internal energies.",
-          "ru": "Теплопроводность передаёт энергию за счёт микроскопических взаимодействий в веществе; конвекция переносит внутреннюю энергию с движением жидкости или газа. Тепловое излучение — электромагнитное и проходит через вакуум. Количество теплоты — энергия, переданная из-за разности температур. Температура характеризует состояние и не равна полной внутренней энергии: у разных количеств воды при одной температуре внутренние энергии обычно различны."
+          "en": "Conduction transfers energy through microscopic interactions in matter. Convection carries internal energy with the movement of a liquid or gas. Thermal radiation is a form of electromagnetic radiation, so it can cross a vacuum.",
+          "ru": "Теплопроводность (conduction) передаёт энергию через микроскопические взаимодействия в веществе. Конвекция (convection) переносит внутреннюю энергию (internal energy) вместе с движением жидкости или газа. Тепловое излучение (thermal radiation) — это вид электромагнитного излучения, поэтому оно может проходить через вакуум."
         },
         {
-          "en": "For a single phase with approximately constant specific heat capacity, Q = mcΔT if the supplied heat changes temperature without other significant energy transfers. For a phase change at the transition temperature, Q = mL; latent heat changes the phase without raising temperature. State the phase, pressure and assumptions before choosing a relation.",
-          "ru": "Для одной фазы при примерно постоянной удельной теплоёмкости Q = mcΔT, если переданная теплота меняет температуру без других существенных передач энергии. При фазовом переходе при температуре перехода Q = mL: теплота меняет фазу без повышения температуры. Перед выбором формулы укажи фазу, давление и допущения."
+          "en": "For a single phase with approximately constant specific heat capacity, Q = mcΔT (Q in J, m in kg, c in J/(kg·K)) if the supplied heat changes the temperature without other significant energy transfers. For a phase change at the transition temperature, Q = mL (L in J/kg), where L is the specific latent heat. For example, water at its boiling temperature needs heat to turn into steam at the same temperature: the specific latent heat of vaporisation multiplied by the mass. This energy breaks the bonds between molecules rather than heating them. State the phase, pressure and assumptions before choosing a formula.",
+          "ru": "Для одной фазы при примерно постоянной удельной теплоёмкости (specific heat capacity) c используют Q = mcΔt (Q в Дж, m в кг, c в Дж/(кг·К)). Это верно, если переданная теплота меняет температуру без других существенных передач энергии. Для фазового перехода (phase change) при температуре перехода используют Q = λm при плавлении и Q = Lm при парообразовании. Здесь λ — удельная теплота плавления, L — удельная теплота парообразования; обе в Дж/кг. Например, чтобы вода при температуре кипения превратилась в пар той же температуры, нужна энергия Q = Lm — удельная теплота парообразования, умноженная на массу. Эта энергия тратится на разрыв связей между молекулами, а не на нагрев. Перед выбором формулы укажи фазу, давление и допущения."
         }
       ],
       "question": {
-        "en": "Why can ice keep melting while a thermometer stays near 0°C at normal pressure?",
-        "ru": "Почему лёд продолжает таять, хотя термометр остаётся около 0°C при нормальном давлении?"
+        "en": "Why can ice keep melting while a thermometer stays near 0 °C at normal pressure?",
+        "ru": "Почему лёд продолжает таять, хотя термометр остаётся около 0 °C при нормальном давлении?"
       },
       "answer": {
         "en": "Energy supplied during melting changes the particle arrangement rather than raising the temperature of the ice–water mixture. Once melting is complete, further energy can raise the water temperature.",
-        "ru": "Во время плавления подведённая энергия меняет расположение частиц, а не температуру смеси льда и воды. После завершения плавления энергия может повышать температуру воды."
+        "ru": "Во время плавления подведённая энергия меняет расположение частиц, но не повышает температуру смеси льда и воды. После завершения плавления дополнительная энергия может повышать температуру воды."
       },
       "checks": [
         {
-          "en": "I identify the mechanism and assumptions.",
-          "ru": "Я называю механизм и условия применимости."
+          "en": "I can state the mechanism and the assumptions.",
+          "ru": "Я могу назвать механизм и допущения."
         }
       ],
       "definitionReviews": [
@@ -1981,12 +1981,12 @@
           "englishTerm": "Heat",
           "russianTerm": "Количество теплоты",
           "contrast": {
-            "en": "A body has internal energy; heat describes a transfer, not a substance stored inside.",
-            "ru": "Тело обладает внутренней энергией; теплота характеризует передачу, а не вещество внутри тела."
+            "en": "A body has internal energy; heat is the energy transferred to or from it, not something stored inside the body.",
+            "ru": "Тело обладает внутренней энергией; теплота — это энергия, переданная телу или от него, а не запас внутри тела."
           },
           "model": {
-            "en": "Heat added need not raise temperature: during a phase change it may change internal potential energy.",
-            "ru": "Передача теплоты не всегда повышает температуру: при фазовом переходе может меняться потенциальная часть внутренней энергии."
+            "en": "Heat supplied does not always raise the temperature.",
+            "ru": "Подведённая теплота не всегда повышает температуру."
           },
           "sources": [
             {
@@ -2013,12 +2013,12 @@
           "englishTerm": "Temperature",
           "russianTerm": "Температура",
           "contrast": {
-            "en": "Temperature is not total internal energy: a large cool bath can have more internal energy than a small hot cup.",
-            "ru": "Температура не равна полной внутренней энергии: большая прохладная ванна может иметь больше внутренней энергии, чем маленькая горячая чашка."
+            "en": "Temperature is not the same as total internal energy: a large bath of cool water can contain more internal energy than a small cup of hot water.",
+            "ru": "Температура не равна полной внутренней энергии: большая ванна с прохладной водой может содержать больше внутренней энергии, чем маленькая чашка с горячей водой."
           },
           "model": {
-            "en": "For an ideal gas, absolute temperature is proportional to mean translational kinetic energy per particle; this is not a universal definition for every material.",
-            "ru": "Для идеального газа абсолютная температура пропорциональна средней поступательной кинетической энергии частицы; это не универсальное определение для всех веществ."
+            "en": "In the simple particle model of an ideal gas, a higher absolute temperature means a higher average energy of the particles’ random motion. This is not a universal definition that applies to every material.",
+            "ru": "В простой модели идеального газа (ideal gas) более высокая абсолютная температура означает большую среднюю энергию хаотического движения частиц. Это не универсальное определение: оно подходит не для всех веществ."
           },
           "sources": [
             {

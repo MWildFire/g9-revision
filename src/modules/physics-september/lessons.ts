@@ -788,39 +788,39 @@ export const lessons: Lesson[] = [
     photoTopic: "Nuclear fission (physics only HT)",
     visual: "chain",
     intro: b(
-      "Follow one neutron-induced event and then a population of events. Distinguish releasing energy from controlling its rate.",
-      "Проследи одно деление, вызванное нейтроном, а затем множество делений. Различай выделение энергии и управление скоростью её выделения.",
+      "Follow one neutron-induced event and then many events. Distinguish releasing energy from controlling its rate.",
+      "Проследи одно деление ядра (nuclear fission), вызванное нейтроном, а затем множество делений. Различай выделение энергии и управление скоростью, с которой она выделяется.",
     ),
     sections: [
       s(
         "One induced fission event",
-        "Одно вынужденное деление",
+        "Одно деление, вызванное нейтроном",
         "A suitable heavy nucleus such as uranium-235 can absorb a neutron, form an excited compound nucleus and split into two smaller nuclei. Additional neutrons and energy are released, often with gamma radiation. Products are not always identical: several fragment pairs are possible. Much of the released energy initially appears as kinetic energy of the fragments and becomes thermal energy in the surrounding material.",
-        "Подходящее тяжёлое ядро, например уран-235, поглощает нейтрон, образует возбуждённое составное ядро и делится на два меньших. Выделяются дополнительные нейтроны и энергия, часто гамма-излучение. Продукты не всегда одинаковы: возможны разные пары осколков. Значительная часть энергии сначала является кинетической энергией осколков, а затем превращается во внутреннюю энергию вещества.",
+        "Подходящее тяжёлое ядро, например уран-235, поглощает нейтрон, образует возбуждённое составное ядро (compound nucleus) и делится на два меньших ядра. Выделяются вторичные нейтроны и энергия, часто вместе с гамма-излучением. Продукты деления не всегда одинаковы: возможны разные пары осколков. Большая часть энергии сначала появляется в виде кинетической энергии осколков, а затем превращается во внутреннюю энергию окружающего вещества.",
       ),
       s(
         "A balanced example, not the only outcome",
-        "Один уравненный пример",
-        "One possible channel is ¹₀n + ²³⁵₉₂U → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3 ¹₀n + energy. Upper totals: 1 + 235 = 141 + 92 + 3 = 236. Lower totals: 92 = 56 + 36. Nucleon numbers are conserved, but the total rest mass of products is slightly lower; the difference corresponds to released energy. Do not confuse nucleon count with exact mass.",
-        "Один возможный канал: ¹₀n + ²³⁵₉₂U → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3 ¹₀n + энергия. Верхние суммы: 1 + 235 = 141 + 92 + 3 = 236. Нижние: 92 = 56 + 36. Число нуклонов сохраняется, но суммарная масса покоя продуктов чуть меньше; разность соответствует выделенной энергии. Число нуклонов и точная масса — не одно и то же.",
+        "Пример уравнения и другие исходы",
+        "One possible channel is ¹₀n + ²³⁵₉₂U → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3 ¹₀n + energy. Sum of mass numbers: 1 + 235 = 141 + 92 + 3 = 236. Sum of charge numbers: 92 = 56 + 36. Nucleon numbers are conserved, but the total mass of the products is slightly lower; the difference corresponds to released energy. Do not confuse nucleon count with exact mass.",
+        "Один возможный канал: ¹₀n + ²³⁵₉₂U → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3 ¹₀n + энергия. Сумма массовых чисел: 1 + 235 = 141 + 92 + 3 = 236. Сумма зарядовых чисел: 92 = 56 + 36. Число нуклонов сохраняется, но суммарная масса продуктов чуть меньше; разность соответствует выделенной энергии. Не путай число нуклонов с точной массой.",
       ),
       s(
         "When a chain continues",
-        "Когда цепь продолжается",
-        "Released neutrons may cause further fissions, but some escape or are absorbed without fission. If each event causes on average less than one further event, the chain dies away; about one maintains a steady rate; more than one makes the rate grow. This is an average branching model, not a recipe for a real reactor. A drawing with three emitted neutrons does not mean every one certainly causes another fission.",
-        "Испущенные нейтроны могут вызвать новые деления, но часть уходит или поглощается без деления. Если одно событие в среднем вызывает меньше одного следующего, цепь затухает; около одного поддерживает постоянную скорость; больше одного даёт рост. Это усреднённая модель ветвления, а не проект реактора. Три нарисованных нейтрона не означают, что каждый обязательно вызовет деление.",
+        "Условия продолжения цепной реакции",
+        "Released neutrons may cause further fissions, but some escape or are absorbed without fission. If each event causes on average less than one further event, the chain dies away; about one maintains a steady rate; more than one makes the rate grow.\n\nThis is an average branching model, not a recipe for a real reactor. A drawing with three emitted neutrons does not show that every one certainly causes another fission.",
+        "Выделившиеся нейтроны могут вызвать новые деления, но часть вылетает наружу или поглощается, не вызвав деления. Если каждое деление в среднем вызывает меньше одного нового, цепная реакция (chain reaction) затухает. Если в среднем примерно одно, скорость остаётся постоянной. Если больше одного, скорость растёт.\n\nЭто упрощённая модель со средними значениями, а не инструкция для настоящего реактора. Рисунок с тремя испущенными нейтронами не показывает, что каждый из них обязательно вызовет деление.",
       ),
       s(
         "Control rods, moderator and coolant",
         "Управляющие стержни, замедлитель и теплоноситель",
-        "In a thermal reactor, the moderator slows neutrons so further fission is more likely for the chosen fuel. Control rods absorb neutrons, controlling the fission rate. Coolant transfers thermal energy away; in a typical power station it is ultimately used to produce steam, drive a turbine and turn a generator. These components have different jobs. Fission products can remain radioactive, and cooling can still be needed after the chain reaction is stopped.",
-        "В тепловом реакторе замедлитель снижает скорость нейтронов, повышая вероятность деления выбранного топлива. Управляющие стержни поглощают нейтроны и регулируют скорость реакции. Теплоноситель отводит внутреннюю энергию; на типичной станции она в итоге используется для пара, турбины и генератора. Это разные функции. Осколки могут оставаться радиоактивными, поэтому охлаждение может требоваться после остановки цепной реакции.",
+        "In a thermal reactor, the moderator slows neutrons so further fission is more likely for uranium-235. Control rods absorb neutrons, controlling the fission rate. Coolant transfers thermal energy away; in a typical power station it is ultimately used to produce steam, drive a turbine and turn a generator. These components have different jobs. Fission products can remain radioactive, and cooling can still be needed after the chain reaction is stopped.",
+        "В тепловом реакторе замедлитель замедляет нейтроны, повышая вероятность деления урана-235. Управляющие стержни поглощают нейтроны и регулируют скорость реакции. Теплоноситель отводит тепло; на типичной станции его в итоге используют, чтобы получить пар, который вращает турбину и генератор. Это разные функции. Осколки могут оставаться радиоактивными, поэтому охлаждение может требоваться после остановки цепной реакции.",
       ),
       s(
         "Energy and power questions",
         "Задачи на энергию и мощность",
-        "If the energy per fission is given, multiply it by the number of fissions. For a rate of fissions, multiply energy per fission by fissions per second to obtain power in watts. Electrical output may be smaller than thermal power; apply efficiency only if supplied. This is useful application of familiar energy ideas to an unfamiliar nuclear context.",
-        "Если дана энергия одного деления, умножь её на число делений. Для мощности умножь энергию деления на число делений в секунду: получатся ватты. Электрическая мощность может быть меньше тепловой; учитывай КПД, если он дан. Это применение знакомых идей об энергии в новом ядерном контексте.",
+        "If the energy per fission is given, multiply it by the number of fissions. For a rate of fissions, multiply energy per fission by fissions per second to obtain power in watts. Electrical power may be smaller than thermal power; apply efficiency only if supplied. The same energy ideas apply to nuclear processes.",
+        "Если дана энергия одного деления, умножь её на число делений. Если дано число делений в секунду, умножь энергию одного деления на него и получи мощность в ваттах. Электрическая мощность может быть меньше тепловой. КПД (efficiency) учитывай, только если он дан. Знакомые тебе идеи об энергии применимы и к ядерным процессам.",
       ),
     ],
     formulas: [
@@ -830,19 +830,19 @@ export const lessons: Lesson[] = [
     ],
     examples: [
       w(
-        "Each event releases 3.2 × 10⁻¹¹ J. The rate is 5.0 × 10¹⁸ fissions/s. Find thermal power and electrical output at 35% efficiency.",
-        "Каждое деление даёт 3,2 × 10⁻¹¹ Дж. Скорость 5,0 × 10¹⁸ делений/с. Найди тепловую и электрическую мощности при КПД 35%.",
+        "Each event releases 3.2 × 10⁻¹¹ J. The rate is 5.0 × 10¹⁸ fissions/s. Find the thermal power and the electrical power at 35% efficiency.",
+        "Каждое деление даёт 3,2 × 10⁻¹¹ Дж. Происходит 5,0 × 10¹⁸ делений в секунду. Найди тепловую и электрическую мощности при КПД 35 %.",
         b(
-          "P = 3.2 × 5.0 × 10⁻¹¹⁺¹⁸ = 1.6 × 10⁸ W = 160 MW.",
-          "P = 3,2 × 5,0 × 10⁻¹¹⁺¹⁸ = 1,6 × 10⁸ Вт = 160 МВт.",
+          "P = (3.2 × 10⁻¹¹) × (5.0 × 10¹⁸) = 16 × 10⁷ W = 1.6 × 10⁸ W = 160 MW.",
+          "P = (3,2 × 10⁻¹¹) × (5,0 × 10¹⁸) = 16 × 10⁷ Вт = 1,6 × 10⁸ Вт = 160 МВт.",
         ),
         b(
-          "Electrical output = 0.35 × 160 = 56 MW. Do not multiply by 35 instead of 0.35.",
-          "Электрическая мощность 0,35 × 160 = 56 МВт. Нельзя умножать на 35 вместо 0,35.",
+          "Electrical power = 0.35 × 160 = 56 MW. Do not multiply by 35 instead of 0.35.",
+          "Электрическая мощность = 0,35 × 160 = 56 МВт. Не умножай на 35 вместо 0,35.",
         ),
       ),
       w(
-        "Explain why inserting control rods farther reduces the fission rate.",
+        "Explain why inserting control rods deeper reduces the fission rate.",
         "Объясни, почему более глубокое введение управляющих стержней снижает скорость деления.",
         b(
           "More neutrons are absorbed by the rods rather than reaching fissile nuclei.",
@@ -850,18 +850,18 @@ export const lessons: Lesson[] = [
         ),
         b(
           "Fewer neutrons initiate further fission events, reducing the chain reaction rate and power. The rods do not “cool the neutrons”.",
-          "Меньше нейтронов инициирует дальнейшие деления: скорость цепи и мощность падают. Стержни не «охлаждают нейтроны».",
+          "Меньше нейтронов — меньше новых делений: скорость цепной реакции и мощность падают. Стержни не «охлаждают нейтроны».",
         ),
       ),
     ],
     pitfalls: [
       b(
-        "The moderator slows neutrons; control rods absorb them; coolant carries away heat.",
-        "Замедлитель замедляет нейтроны, стержни поглощают их, теплоноситель отводит тепло.",
+        "Do not swap the roles: the moderator slows neutrons, while control rods absorb them.",
+        "Не путай роли: замедлитель замедляет нейтроны, а стержни поглощают их.",
       ),
       b(
-        "HT is a label on the supplied slide, not an IB achievement band. This topic remains included.",
-        "HT — пометка исходного слайда, не уровень оценки IB. Тема включена в подготовку.",
+        "Energy per fission is not power: power needs the number of fissions per second.",
+        "Энергия одного деления — ещё не мощность: нужно знать, сколько делений происходит в секунду.",
       ),
     ],
   },

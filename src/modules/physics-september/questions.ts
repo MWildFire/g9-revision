@@ -886,7 +886,7 @@ export const questions: Question[] = [
     "foundation",
     b(
       "Describe neutron-induced fission and how it can start a chain reaction.",
-      "Опиши деление под действием нейтрона и возникновение цепной реакции.",
+      "Опиши деление ядра под действием нейтрона и то, как оно запускает цепную реакцию.",
     ),
     b(
       "Follow the initial neutron, fragments and new neutrons.",
@@ -925,7 +925,7 @@ export const questions: Question[] = [
     b("x = 2 neutrons.", "x = 2 нейтрона."),
     b(
       "Charge: 92 = 54 + 38; neutrons contribute zero.",
-      "Заряд: 92 = 54 + 38; нейтроны добавляют ноль.",
+      "Заряд: 92 = 54 + 38; у нейтронов заряд равен нулю.",
     ),
   ),
   q(
@@ -934,12 +934,12 @@ export const questions: Question[] = [
     "A(ii)",
     "challenge",
     b(
-      "A model releases 3.0 × 10⁻¹¹ J per fission at 2.0 × 10¹⁸ fissions/s. Calculate thermal power and electrical power at 40% efficiency.",
-      "Модель выделяет 3,0 × 10⁻¹¹ Дж на деление при 2,0 × 10¹⁸ делений/с. Найди тепловую и электрическую мощности при КПД 40%.",
+      "A model releases 3.0 × 10⁻¹¹ J per fission at 2.0 × 10¹⁸ fissions/s. Find the thermal power and the electrical power at 40% efficiency.",
+      "В модели каждое деление даёт 3,0 × 10⁻¹¹ Дж. Происходит 2,0 × 10¹⁸ делений в секунду. Найди тепловую и электрическую мощности при КПД 40 %.",
     ),
     b(
       "Multiply energy/event by events/s.",
-      "Умножь энергию события на события/с.",
+      "Умножь энергию одного деления на число делений в секунду.",
     ),
     b(
       "Thermal P = 6.0 × 10⁷ W = 60 MW.",
@@ -950,8 +950,8 @@ export const questions: Question[] = [
       "Электрическая P = 0,40 × 60 = 24 МВт.",
     ),
     b(
-      "The remaining 36 MW is not converted into useful electrical output in this model.",
-      "Остальные 36 МВт в этой модели не превращаются в полезную электрическую мощность.",
+      "The remaining 36 MW is not converted into useful electrical power in this model.",
+      "Остальные 36 МВт тепловой мощности в этой модели не превращаются в полезную электрическую мощность.",
     ),
   ),
   q(
@@ -961,7 +961,7 @@ export const questions: Question[] = [
     "challenge",
     b(
       "A chain diagram shows three neutrons released per fission. Someone concludes the event count must triple every generation. Evaluate.",
-      "Схема показывает три нейтрона на деление. Ученик заключает, что число делений обязано утраиваться каждое поколение. Оцени.",
+      "Схема показывает три нейтрона на деление. Кто-то заключает, что число делений должно утраиваться в каждом поколении. Оцени.",
     ),
     b(
       "Emitted is not the same as causing a new event.",
@@ -972,8 +972,8 @@ export const questions: Question[] = [
       "Часть нейтронов уходит или поглощается без деления.",
     ),
     b(
-      "The next generation depends on the average number that successfully trigger further fissions.",
-      "Следующее поколение определяется средним числом успешных новых делений.",
+      "The next generation depends on the average number of neutrons that successfully trigger further fissions.",
+      "Следующее поколение определяется средним числом нейтронов, успешно вызвавших новые деления.",
     ),
     b(
       "Tripling requires all three to cause another event in the simplified model; the diagram alone does not establish that.",

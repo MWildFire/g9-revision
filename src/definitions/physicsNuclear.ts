@@ -439,8 +439,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
       "ru": "Разделение тяжёлого ядра — деление; объединение лёгких ядер — синтез."
     },
     "model": {
-      "en": "The U-235 equation is one possible product channel. Nucleon number and charge balance; separate total rest masses need not be equal.",
-      "ru": "Уравнение для урана-235 показывает один возможный канал. Число нуклонов и заряд сохраняются; суммы масс покоя исходных частиц и продуктов могут различаться."
+      "en": "The equation shows only the balance of nucleon and charge numbers. The energy released needs particle masses, which the equation does not give.",
+      "ru": "Уравнение показывает только баланс нуклонов и заряда. Чтобы найти выделившуюся энергию, нужны массы частиц, а в уравнении их нет."
     },
     "sources": [
       {
@@ -1072,8 +1072,8 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
       "ru": "Разделение тяжёлого ядра — деление; объединение лёгких ядер — синтез."
     },
     "model": {
-      "en": "The U-235 equation is one possible product channel. Nucleon number and charge balance; separate total rest masses need not be equal.",
-      "ru": "Уравнение для урана-235 показывает один возможный канал. Число нуклонов и заряд сохраняются; суммы масс покоя исходных частиц и продуктов могут различаться."
+      "en": "The equation shows only the balance of nucleon and charge numbers. The energy released needs particle masses, which the equation does not give.",
+      "ru": "Уравнение показывает только баланс нуклонов и заряда. Чтобы найти выделившуюся энергию, нужны массы частиц, а в уравнении их нет."
     },
     "sources": [
       {

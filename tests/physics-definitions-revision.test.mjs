@@ -70,7 +70,7 @@ test('all September glossary reviews preserve statistical activity and nuclear c
   assert.match(g.activity.model.en, /For one radionuclide/);
   // README rule 1: the background-correction point moved to the lesson section ("First subtract the constant background"); the glossary model now states scope only
   assert.match(read('src/modules/physics-september/lessons.ts'), /First subtract the constant background/);
-  assert.match(g.fission.model.en, /rest masses need not be equal/);
+  assert.match(read('src/modules/physics-september/lessons.ts'), /total mass of the products is slightly lower/);
   // The model now states the scope only; energy conservation is stated in the lesson section and the energy-release scope is checked here.
   assert.match(l['nuclear-equations'].model.en, /how much energy is released/);
   assert.match(g.nucleon.model.en, /free neutron/i);

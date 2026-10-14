@@ -3,7 +3,7 @@ import { DefinitionSupport } from '../../../components/content/DefinitionSupport
 import { Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
-import { PRESENT_TENSE, PASSE_COMPOSE, FUTURE_TENSE, ConjugationTable } from '../data/frenchData';
+import { PRESENT_TENSE, PASSE_COMPOSE, FUTURE_TENSE, FUTUR_PROCHE_TENSE, IMPARFAIT_TENSE, CONDITIONNEL_TENSE, PLUS_QUE_PARFAIT_TENSE, ConjugationTable } from '../data/frenchData';
 
 function TenseSection({ title, tables, lang }: { title: string; tables: ConjugationTable[]; lang: 'ru' | 'en' }) {
   return (
@@ -34,15 +34,19 @@ export function TensesPage() {
     <div>
       <TopicHero
         title={t('nav.tenses')}
-        intro={lang === 'ru' ? 'Три ключевых времени: настоящее, passé composé, futur simple.' : 'Three key tenses: present, passé composé, futur simple.'}
+        intro={lang === 'ru' ? 'Основные времена: настоящее, сложное прошедшее (passé composé), простое будущее (futur simple), ближайшее будущее, имперфект, условное наклонение и давнопрошедшее.' : 'Main tenses: present, passé composé, futur simple, futur proche, imparfait, conditionnel présent and plus-que-parfait.'}
         icon={<Clock size={28} />}
       />
       <TenseSection title={lang === 'ru' ? 'Présent (Настоящее)' : 'Présent (Present)'} tables={PRESENT_TENSE} lang={lang} />
       <DefinitionSupport review={FRENCH_REVIEWS.present} language={lang} />
-      <TenseSection title={lang === 'ru' ? 'Passé composé (Прошедшее)' : 'Passé composé (Past)'} tables={PASSE_COMPOSE} lang={lang} />
+      <TenseSection title={lang === 'ru' ? 'Passé composé (Сложное прошедшее)' : 'Passé composé (Compound past)'} tables={PASSE_COMPOSE} lang={lang} />
       <DefinitionSupport review={FRENCH_REVIEWS.past} language={lang} />
-      <TenseSection title={lang === 'ru' ? 'Futur simple (Будущее)' : 'Futur simple (Future)'} tables={FUTURE_TENSE} lang={lang} />
+      <TenseSection title={lang === 'ru' ? 'Futur simple (Простое будущее)' : 'Futur simple (Future)'} tables={FUTURE_TENSE} lang={lang} />
       <DefinitionSupport review={FRENCH_REVIEWS.future} language={lang} />
+      <TenseSection title={lang === 'ru' ? 'Futur proche (Ближайшее будущее)' : 'Futur proche (Near future)'} tables={FUTUR_PROCHE_TENSE} lang={lang} />
+      <TenseSection title={lang === 'ru' ? 'Imparfait (Имперфект)' : 'Imparfait (Imperfect)'} tables={IMPARFAIT_TENSE} lang={lang} />
+      <TenseSection title={lang === 'ru' ? 'Conditionnel présent (Условное наклонение)' : 'Conditionnel présent (Conditional)'} tables={CONDITIONNEL_TENSE} lang={lang} />
+      <TenseSection title={lang === 'ru' ? 'Plus-que-parfait (Давнопрошедшее)' : 'Plus-que-parfait (Pluperfect)'} tables={PLUS_QUE_PARFAIT_TENSE} lang={lang} />
     </div>
   );
 }

@@ -212,8 +212,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     ]
   },
   "past": {
-    "englishTerm": "Passé composé",
-    "russianTerm": "Сложное прошедшее (passé composé)",
+    "englishTerm": "Compound past",
+    "russianTerm": "Сложное прошедшее",
     "contrast": {
       "en": "Passé composé presents a past event as a whole; imparfait commonly presents background, a habit or an action in progress. Duration alone does not decide the choice.",
       "ru": "«Сложное прошедшее (passé composé)» показывает прошлое событие целиком; «имперфект (imparfait)» часто показывает фон, привычку или действие в процессе. Выбор зависит от смысла, а не от одной только длительности."

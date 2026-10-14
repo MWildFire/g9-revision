@@ -596,7 +596,7 @@ export const GRAMMAR_RULES: GrammarRule[] = [
     "titleEn": "Plurals",
     "titleRu": "Множественное число",
     "body": "Most nouns add a written -s: livre → livres. Words already ending in -s, -x or -z normally stay unchanged. Many -eau/-eu nouns add -x and many -al nouns change to -aux, with exceptions: pneus, bals. Final plural letters are usually silent, but liaison can reveal number.",
-    "bodyRu": "Большинство существительных добавляет на письме -s: livre → livres. Слова на -s, -x, -z обычно не меняются. Многие слова на -eau/-eu получают -x, на -al — -aux, но есть исключения: pneus, bals. Конечные показатели обычно не звучат, однако liaison может выявлять число."
+    "bodyRu": "Большинство существительных добавляет на письме -s: livre → livres. Слова на -s, -x, -z обычно не меняются. Многие слова на -eau/-eu получают -x, на -al — -aux, но есть исключения: pneus, bals. Конечные буквы, показывающие множественное число, обычно не читаются, но связывание (liaison) может выдать число."
   },
   {
     "id": "adjectives",
@@ -617,12 +617,12 @@ export const GRAMMAR_RULES: GrammarRule[] = [
     "titleEn": "Forming questions",
     "titleRu": "Вопросы",
     "body": "For a yes/no question, rising intonation is common in conversation (tu viens ?); est-ce que works in many contexts (est-ce que tu viens ?); inversion is common in formal writing (viens-tu ?). Qui asks who, où where, quand when, pourquoi why, comment how and combien how much/many. “What” may be que, quoi or qu’est-ce que, depending on structure.",
-    "bodyRu": "Для общего вопроса в разговоре часто используют интонацию (tu viens ?); est-ce que подходит разным контекстам (est-ce que tu viens ?); инверсия типична для формального текста (viens-tu ?). Qui — кто, où — где, quand — когда, pourquoi — почему, comment — как, combien — сколько. «Что» передают que, quoi или qu’est-ce que в зависимости от конструкции."
+    "bodyRu": "Для общего вопроса в разговоре часто используют интонацию (tu viens ?); est-ce que подходит разным контекстам (est-ce que tu viens ?); инверсия характерна для письменной речи (viens-tu ?). Qui — кто, où — где, quand — когда, pourquoi — почему, comment — как, combien — сколько. «Что» передают que, quoi или qu’est-ce que в зависимости от конструкции."
   },
   {
     "id": "articles",
-    "titleEn": "Definite vs indefinite articles",
-    "titleRu": "Определённые vs неопределённые артикли",
+    "titleEn": "Definite, indefinite and partitive articles",
+    "titleRu": "Определённые, неопределённые и частичные артикли",
     "body": "Definite le/la/l’/les identifies something known or a class in general: j’aime le chocolat. Indefinite un/une/des introduces an unspecified countable item or items: un chat, des chats. Partitive du/de la/de l’ expresses an unspecified amount: du pain, de l’eau. Des can also occur with plural non-count expressions. After many negatives, indefinite/partitive forms become de/d’: je n’ai pas de pain; after être they normally remain: ce n’est pas du pain.",
     "bodyRu": "Определённые le/la/l’/les обозначают известное или класс в целом: j’aime le chocolat. Неопределённые un/une/des вводят неопределённый исчисляемый предмет или предметы: un chat, des chats. Частичные du/de la/de l’ обозначают неопределённое количество: du pain, de l’eau. Des встречается и с некоторыми неисчисляемыми выражениями во множественном числе. После многих отрицаний формы заменяются на de/d’: je n’ai pas de pain; после être обычно сохраняются: ce n’est pas du pain."
   }
@@ -701,4 +701,28 @@ export const USEFUL_PHRASES: UsefulPhrase[] = [
     "ru": "В заключение",
     "context": "Essay ending"
   }
+];
+
+// Added 14.10 (L-f-language): imparfait, conditionnel présent, plus-que-parfait, futur proche.
+export const IMPARFAIT_TENSE: ConjugationTable[] = [
+  { verb: 'être — imparfait', ru: 'был', notes: 'Stem: ét- (the only irregular stem). Endings: -ais, -ais, -ait, -ions, -iez, -aient. Uses: background, description and habits in the past.', notesRu: 'Основа ét- (единственная неправильная). Окончания: -ais, -ais, -ait, -ions, -iez, -aient. Употребление: фон, описание и привычки в прошлом.', forms: ["j'étais", 'tu étais', 'il/elle était', 'nous étions', 'vous étiez', 'ils/elles étaient'] },
+  { verb: 'avoir — imparfait', ru: 'имел', notes: 'Stem: av-.', notesRu: 'Основа av-.', forms: ["j'avais", 'tu avais', 'il/elle avait', 'nous avions', 'vous aviez', 'ils/elles avaient'] },
+  { verb: 'parler — imparfait', ru: 'говорил', notes: 'Stem: from nous parlons → parl-.', notesRu: 'Основа от nous parlons → parl-.', forms: ['je parlais', 'tu parlais', 'il/elle parlait', 'nous parlions', 'vous parliez', 'ils/elles parlaient'] },
+  { verb: 'faire — imparfait', ru: 'делал', notes: 'Stem: from nous faisons → fais-.', notesRu: 'Основа от nous faisons → fais-.', forms: ['je faisais', 'tu faisais', 'il/elle faisait', 'nous faisions', 'vous faisiez', 'ils/elles faisaient'] },
+];
+export const CONDITIONNEL_TENSE: ConjugationTable[] = [
+  { verb: 'être — conditionnel présent', ru: 'был бы', notes: 'Stem: the futur simple stem ser-; endings of the imparfait. Si + imparfait → conditionnel présent: si j’avais le temps, je ferais du sport. Uses: hypothesis (with si), polite request, unconfirmed information.', notesRu: 'Основа как у futur simple (ser-), окончания имперфекта. Si + imparfait → conditionnel présent: si j’avais le temps, je ferais du sport. Употребление: гипотеза (с si), вежливая просьба, непроверенная информация.', forms: ['je serais', 'tu serais', 'il/elle serait', 'nous serions', 'vous seriez', 'ils/elles seraient'] },
+  { verb: 'avoir — conditionnel présent', ru: 'имел бы', notes: 'Stem: aur-.', notesRu: 'Основа aur-.', forms: ["j'aurais", 'tu aurais', 'il/elle aurait', 'nous aurions', 'vous auriez', 'ils/elles auraient'] },
+  { verb: 'parler — conditionnel présent', ru: 'говорил бы', notes: 'Stem: the futur simple stem parler-; endings of the imparfait.', notesRu: 'Основа как у futur simple (parler-), окончания имперфекта.', forms: ['je parlerais', 'tu parlerais', 'il/elle parlerait', 'nous parlerions', 'vous parleriez', 'ils/elles parleraient'] },
+  { verb: 'faire — conditionnel présent', ru: 'делал бы', notes: 'Stem: fer-.', notesRu: 'Основа fer-.', forms: ['je ferais', 'tu ferais', 'il/elle ferait', 'nous ferions', 'vous feriez', 'ils/elles feraient'] },
+];
+export const PLUS_QUE_PARFAIT_TENSE: ConjugationTable[] = [
+  { verb: 'parler — plus-que-parfait', ru: 'уже говорил', notes: 'avoir or être in the imparfait + past participle (parlé). Used for an action completed before another past action.', notesRu: 'avoir или être в имперфекте + причастие прошедшего времени (parlé). Действие, завершённое раньше другого прошлого действия.', forms: ["j'avais parlé", 'tu avais parlé', 'il/elle avait parlé', 'nous avions parlé', 'vous aviez parlé', 'ils/elles avaient parlé'] },
+  { verb: 'aller — plus-que-parfait (être)', ru: 'уже ходил', notes: 'aller takes être; the past participle agrees with the subject.', notesRu: 'aller спрягается с être; причастие согласуется с подлежащим.', forms: ["j'étais allé(e)", 'tu étais allé(e)', 'il était allé / elle était allée', 'nous étions allé(e)s', 'vous étiez allé(e)(s)', 'ils étaient allés / elles étaient allées'] },
+  { verb: 'faire — plus-que-parfait', ru: 'уже делал', notes: 'Past participle: fait.', notesRu: 'Причастие прошедшего времени: fait.', forms: ["j'avais fait", 'tu avais fait', 'il/elle avait fait', 'nous avions fait', 'vous aviez fait', 'ils/elles avaient fait'] },
+];
+export const FUTUR_PROCHE_TENSE: ConjugationTable[] = [
+  { verb: 'parler — futur proche', ru: 'собираюсь говорить', notes: 'aller in the present + infinitive, for the near future.', notesRu: 'aller в настоящем времени + инфинитив: ближайшее будущее.', forms: ['je vais parler', 'tu vas parler', 'il/elle va parler', 'nous allons parler', 'vous allez parler', 'ils/elles vont parler'] },
+  { verb: 'être — futur proche', ru: 'собираюсь быть', notes: 'The infinitive être stays unchanged.', notesRu: 'Инфинитив être не меняется.', forms: ['je vais être', 'tu vas être', 'il/elle va être', 'nous allons être', 'vous allez être', 'ils/elles vont être'] },
+  { verb: 'faire — futur proche', ru: 'собираюсь делать', notes: 'Infinitive faire: nous allons faire le projet.', notesRu: 'Инфинитив faire: nous allons faire le projet.', forms: ['je vais faire', 'tu vas faire', 'il/elle va faire', 'nous allons faire', 'vous allez faire', 'ils/elles vont faire'] },
 ];

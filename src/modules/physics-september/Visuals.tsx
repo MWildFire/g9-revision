@@ -651,7 +651,7 @@ function ContaminationLab() {
           fill="#e7d6b7"
           stroke="#9e8e6c"
         />
-        <text x="375" y="150" textAnchor="middle" fill="#4a4131">
+        <text x="375" y="150" textAnchor="middle" fill="#4a4131" fontSize="20">
           {t("Object", "Объект")}
         </text>
         {!removed && (

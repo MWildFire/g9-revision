@@ -473,41 +473,42 @@ export const lessons: Lesson[] = [
     id: "contamination",
     title: b(
       "Contamination, irradiation and hazards",
-      "Загрязнение, облучение и опасность",
+      "Радиоактивное загрязнение (contamination), облучение (irradiation) и опасности",
     ),
     photoTopic: "Radioactive contamination",
+    photoTopicRu: "Радиоактивное загрязнение (radioactive contamination)",
     visual: "contamination",
     intro: b(
       "Ask whether radioactive material moved onto or into the object, or whether only radiation reached it. This determines what happens after the source is removed.",
-      "Определи, попало ли радиоактивное вещество на объект или внутрь него либо до него дошло только излучение. От этого зависит, что будет после удаления источника.",
+      "Определи, попало ли радиоактивное вещество на объект или внутрь него, либо дошло ли до него только излучение. От этого зависит, что будет после удаления источника.",
     ),
     sections: [
       s(
         "Two different mechanisms",
         "Два разных механизма",
-        "Irradiation is exposure to radiation from a source. Contamination is the unwanted presence of radioactive material on or inside an object. A sealed source can irradiate a person without transferring radioactive material. A spill of radioactive solution can contaminate a surface, which then becomes a source of radiation until the material is removed or decays. Contamination can therefore also cause irradiation.",
-        "Облучение — воздействие излучения источника. Загрязнение — нежелательное присутствие радиоактивного вещества на объекте или внутри. Герметичный источник может облучать человека без переноса вещества. Пролитый радиоактивный раствор загрязняет поверхность; она остаётся источником, пока вещество не удалено или не распалось. Загрязнение поэтому также вызывает облучение.",
+        "Irradiation is exposure to radiation from a source. Contamination is the unwanted presence of radioactive material on or inside an object. A sealed source can irradiate a person without transferring radioactive material.\n\nA spill of radioactive solution can contaminate a surface, which then becomes a source of radiation until the material is removed or decays. Contamination can therefore also cause irradiation.",
+        "Облучение — воздействие излучения источника. Загрязнение — нежелательное присутствие радиоактивного вещества на объекте или внутри. Герметичный источник (sealed source) может облучать человека без переноса вещества.\n\nПролитый радиоактивный раствор может загрязнить поверхность, которая затем становится источником излучения, пока вещество не удалено или не распадётся. Загрязнение поэтому также может вызывать облучение.",
       ),
       s(
         "External versus internal exposure",
         "Внешнее и внутреннее воздействие",
-        "An external alpha source is usually blocked by dead skin, but inhaled or swallowed alpha-emitting material can irradiate living tissue at very short range with dense ionisation. Gamma can reach internal organs from an external source. Beta may affect skin and can also be hazardous internally. A ranking such as “alpha is harmless” ignores location, activity, energy, exposure time and the tissues involved.",
-        "Внешние альфа-частицы обычно задерживаются мёртвым слоем кожи. Но вдыхание или проглатывание альфа-излучающего вещества может вызвать сильную ионизацию живой ткани на малом расстоянии. Гамма-излучение достигает внутренних органов извне. Бета может повреждать кожу и быть опасной внутри. Фраза «альфа безвредна» игнорирует расположение, активность, энергию, время и затронутые ткани.",
+        "An external alpha source is usually blocked by dead skin, but inhaled or swallowed alpha-emitting material can irradiate living tissue at very short range with dense ionisation.\n\nGamma can reach internal organs from an external source. Beta may affect skin and can also be hazardous internally.\n\nA ranking such as “alpha is harmless” ignores location, activity, energy, exposure time and the tissues involved.",
+        "Альфа-частицы (alpha particles) внешнего источника обычно задерживаются мёртвым слоем кожи. Однако вдыхание или проглатывание альфа-излучающего вещества может облучать живую ткань на очень малом расстоянии, вызывая плотную ионизацию (ionisation).\n\nГамма-излучение (gamma rays) может достигать внутренних органов извне. Бета-частицы (beta particles) могут воздействовать на кожу и также быть опасными внутри организма.\n\nСравнение видов излучения по опасности вроде «альфа безвредна» не учитывает расположение, активность (activity), энергию, время облучения и затронутые ткани.",
       ),
       s(
         "Cell damage and sensible comparisons",
         "Повреждение клеток и корректное сравнение",
-        "Ionising radiation can damage molecules including DNA. Cells may repair damage, die or undergo changes that increase cancer risk. Activity in Bq describes the source. Absorbed dose is energy deposited per unit mass, in Gy = J/kg. Equivalent dose applies radiation weighting; effective dose also applies tissue weighting. These weighted protection quantities use Sv and do not predict an individual’s exact risk. Equal activities do not necessarily imply equal biological risk. In school risk questions, use the given data and state missing information rather than inventing a medical threshold.",
-        "Ионизирующее излучение может повреждать молекулы, включая ДНК. Клетка может восстановиться, погибнуть или измениться так, что возрастёт риск рака. Бк характеризует источник. Поглощённая доза — энергия, переданная единице массы; её единица Гр = Дж/кг. Эквивалентная доза учитывает вид излучения, эффективная — также вид ткани. Эти взвешенные величины радиационной защиты измеряют в Зв; они не предсказывают точный риск для отдельного человека. Одинаковая активность не означает одинаковый биологический риск. В учебной оценке используй данные задачи и называй недостающие сведения, а не придумывай медицинский порог.",
+        "Ionising radiation can damage molecules including DNA. Cells may repair damage, die or undergo changes that increase cancer risk.\n\n- Activity in Bq describes the source.\n- Absorbed dose is energy deposited per unit mass, in Gy\u00A0=\u00A0J/kg.\n- Equivalent dose applies radiation weighting; effective dose also applies tissue weighting. These weighted protection quantities use Sv and do not predict an individual’s exact risk.\n\nEqual activities do not necessarily imply equal biological risk. In school risk questions, use the given data and state missing information rather than inventing a medical threshold.",
+        "Ионизирующее излучение (ionising radiation) может повреждать молекулы, включая ДНК (DNA). Клетка может восстановиться, погибнуть или измениться так, что возрастёт риск рака.\n\n- Активность, измеряемая в Бк, характеризует источник.\n- Поглощённая доза (absorbed dose) — энергия, переданная веществу в расчёте на единицу массы; её единица Гр\u00A0=\u00A0Дж/кг.\n- Эквивалентная доза (equivalent dose) учитывает вид излучения, а эффективная (effective dose) — ещё и вид ткани. Эти взвешенные величины радиационной защиты измеряют в Зв; они не предсказывают точный риск для отдельного человека.\n\nОдинаковая активность не обязательно означает одинаковый биологический риск. В школьных задачах на риск используй данные из условия и называй недостающие сведения, а не придумывай медицинский порог.",
       ),
       s(
         "Protection must match the mechanism",
-        "Защита должна соответствовать механизму",
-        "For external exposure, shorter time, greater distance and suitable shielding generally reduce dose. To prevent contamination, containment and avoiding the transfer of radioactive material matter. Removing an external source ends that source’s direct irradiation, but does not remove material already deposited. Ordinary school examples of alpha, beta or gamma irradiation do not make an object radioactive; nuclear activation, especially by neutrons, is a separate process.",
-        "Для внешнего облучения меньшие время, большее расстояние и подходящий экран обычно уменьшают дозу. От загрязнения защищает удержание вещества и предотвращение его переноса. Удаление внешнего источника прекращает его прямое воздействие, но не убирает уже осевшее вещество. В обычных школьных примерах облучение альфа-, бета- или гамма-излучением не делает предмет радиоактивным; активация, особенно нейтронами, — отдельный процесс.",
+        "Выбор защиты по механизму",
+        "For external exposure, shorter time, greater distance and suitable shielding generally reduce dose. Containment and avoiding the transfer of radioactive material protect against contamination.\n\nRemoving an external source ends that source’s direct irradiation, but does not remove material already deposited.\n\nOrdinary school examples of alpha, beta or gamma irradiation do not make an object radioactive; nuclear activation, especially by neutrons, is a separate process.",
+        "Для внешнего облучения доза обычно снижается при меньшем времени облучения, большем расстоянии и подходящем экране. Удержание радиоактивного вещества и предотвращение его переноса защищают от загрязнения.\n\nУдаление внешнего источника прекращает его прямое облучение, но не убирает уже осевшее вещество.\n\nВ обычных школьных примерах облучение альфа-, бета- или гамма-излучением не делает предмет радиоактивным; ядерная активация (nuclear activation), особенно нейтронами, — отдельный процесс.",
       ),
     ],
-    formulas: ["dose = dose rate × exposure time (constant rate)"],
+    formulas: ["dose\u00A0=\u00A0dose rate\u00A0×\u00A0exposure time (constant rate)"],
     examples: [
       w(
         "A sealed gamma source is moved away. A second bench has radioactive dust on it. Which can remain a source?",
@@ -523,14 +524,14 @@ export const lessons: Lesson[] = [
       ),
       w(
         "Why can a weakly penetrating alpha emitter be a serious internal hazard?",
-        "Почему слабо проникающий альфа-источник может быть серьёзно опасен внутри организма?",
+        "Почему слабо проникающий альфа-излучатель (alpha emitter) может представлять серьёзную опасность внутри организма?",
         b(
           "The source is already next to living cells, so penetrating the skin is irrelevant.",
-          "Источник уже рядом с живыми клетками, поэтому проникновение через кожу не требуется.",
+          "Источник уже рядом с живыми клетками, поэтому проникновение через кожу не имеет значения.",
         ),
         b(
           "Dense ionisation deposits energy over a short path and can damage nearby DNA. Actual risk still depends on dose and tissue.",
-          "Сильная ионизация передаёт энергию на коротком пути и может повреждать ДНК рядом. Реальный риск зависит от дозы и ткани.",
+          "Плотная ионизация передаёт энергию на коротком пути и может повреждать ДНК рядом. Реальный риск зависит от дозы и ткани.",
         ),
       ),
     ],
@@ -541,7 +542,7 @@ export const lessons: Lesson[] = [
       ),
       b(
         "Shielding does not remove contamination or change the isotope’s half-life.",
-        "Экран не удаляет загрязнение и не меняет период полураспада.",
+        "Экран не удаляет загрязнение и не меняет период полураспада изотопа (half-life).",
       ),
     ],
   },

@@ -394,8 +394,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "englishTerm": "contamination",
     "russianTerm": "радиоактивное загрязнение",
     "contrast": {
-      "en": "Contamination means material is present; irradiation means radiation reaches the object.",
-      "ru": "Загрязнение означает присутствие вещества; облучение — попадание излучения на объект."
+      "en": "Contamination means radioactive material is present; irradiation means radiation reaches the object.",
+      "ru": "Загрязнение — присутствие радиоактивного вещества; облучение — попадание излучения на объект."
     },
     "model": {
       "en": "A sealed external source can irradiate without contaminating; radioactive dust can do both.",
@@ -911,14 +911,6 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
   "contamination": {
     "englishTerm": "contamination",
     "russianTerm": "радиоактивное загрязнение",
-    "contrast": {
-      "en": "Contamination means material is present; irradiation means radiation reaches the object.",
-      "ru": "Загрязнение означает присутствие вещества; облучение — попадание излучения на объект."
-    },
-    "model": {
-      "en": "A sealed external source can irradiate without contaminating; radioactive dust can do both.",
-      "ru": "Герметичный внешний источник может облучать без загрязнения; радиоактивная пыль может вызывать оба явления."
-    },
     "sources": [
       {
         "title": "CDC · Contamination versus exposure",

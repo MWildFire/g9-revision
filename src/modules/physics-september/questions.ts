@@ -533,16 +533,16 @@ export const questions: Question[] = [
       "Различи облучение и радиоактивное загрязнение.",
     ),
     b(
-      "One concerns radiation reaching an object; the other concerns material.",
-      "Одно относится к воздействию излучения, другое — к веществу.",
+      "Ask what is left on the object after the source is removed.",
+      "Подумай, что останется на объекте после удаления источника.",
     ),
     b(
-      "Irradiation is exposure to radiation from a source.",
-      "Облучение — воздействие излучения источника.",
+      "Irradiation means radiation from a source acts on an object.",
+      "Облучение — действие излучения источника на объект.",
     ),
     b(
-      "Contamination is unwanted radioactive material on or inside an object.",
-      "Загрязнение — нежелательное радиоактивное вещество на объекте или внутри него.",
+      "Contamination means radioactive material that should not be on or inside an object.",
+      "Загрязнение — радиоактивное вещество, которое не должно быть на объекте или внутри него.",
     ),
   ),
   q(
@@ -552,7 +552,7 @@ export const questions: Question[] = [
     "application",
     b(
       "A worker walks past a sealed gamma source without touching it. Another gets radioactive powder on a glove. Classify each event and explain what remains after leaving.",
-      "Работник проходит мимо герметичного гамма-источника, не касаясь его. Другому на перчатку попал радиоактивный порошок. Классифицируй и объясни последствия ухода.",
+      "Работник проходит мимо герметичного гамма-источника, не касаясь его. На перчатку другого работника попал радиоактивный порошок. Классифицируй каждое событие и объясни, что остаётся после ухода.",
     ),
     b(
       "Track whether radioactive atoms travel with the person.",
@@ -567,8 +567,8 @@ export const questions: Question[] = [
       "Второй — загрязнение и облучение от порошка.",
     ),
     b(
-      "Leaving the first source reduces/ends its exposure; the glove carries a source away and may transfer material.",
-      "Уход от первого источника снижает/прекращает воздействие; перчатка уносит источник и может переносить вещество.",
+      "Leaving the first source reduces/ends its exposure; the glove carries radioactive powder away and may transfer material.",
+      "Уход от первого источника снижает или прекращает воздействие; перчатка уносит радиоактивный порошок и может переносить вещество.",
     ),
   ),
   q(
@@ -578,12 +578,12 @@ export const questions: Question[] = [
     "application",
     b(
       "Explain why reducing time, increasing distance and choosing shielding can reduce external radiation dose.",
-      "Объясни, почему меньшее время, большее расстояние и подходящий экран уменьшают внешнюю дозу.",
+      "Объясни, почему меньшее время, большее расстояние и подходящий экран могут уменьшать внешнюю дозу.",
     ),
     b("Give a mechanism for each measure.", "Для каждой меры дай механизм."),
     b(
       "Less time means fewer interactions accumulate at the same dose rate.",
-      "За меньшее время при той же мощности дозы накапливается меньше взаимодействий.",
+      "За меньшее время при той же мощности дозы (dose rate) накапливается меньше взаимодействий.",
     ),
     b(
       "Greater distance generally spreads emissions over a larger area, reducing intensity at the person.",
@@ -601,7 +601,7 @@ export const questions: Question[] = [
     "challenge",
     b(
       "“Alpha cannot pass through skin, so swallowing an alpha emitter is safe.” Evaluate the argument.",
-      "«Альфа не проходит кожу, значит проглатывать альфа-источник безопасно». Оцени аргумент.",
+      "«Альфа не проходит кожу, значит проглатывать альфа-излучатель безопасно». Оцени аргумент.",
     ),
     b("The location of the source changes.", "Меняется положение источника."),
     b(
@@ -610,7 +610,7 @@ export const questions: Question[] = [
     ),
     b(
       "Internal alpha emission can cause dense ionisation directly beside living cells.",
-      "Внутреннее альфа-излучение вызывает сильную ионизацию рядом с живыми клетками.",
+      "Внутреннее альфа-излучение может вызывать плотную ионизацию рядом с живыми клетками.",
     ),
     b(
       "The conclusion is unsupported; risk depends on dose, distribution and residence time, not penetration alone.",

@@ -38,7 +38,7 @@ export function AtomBuilder() {
   const half = 40 + 3 * 28 + 4.5 + 3;
 
   return (
-    <SimulationPanel title={t('simulations.atomBuilder.title')} description={t('simulations.atomBuilder.description')}>
+    <SimulationPanel description={t('simulations.atomBuilder.description')}>
       <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_360px] gap-6 items-center">
         <div className="space-y-3">
           <Slider label={t('simulations.atomBuilder.atomicNumberLabel')} min={1} max={20} step={1} value={Z} onChange={(v) => setZ(Math.round(v))} />

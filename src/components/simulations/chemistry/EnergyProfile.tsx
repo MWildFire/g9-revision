@@ -38,7 +38,7 @@ export function EnergyProfile() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <Slider label={t('simulations.energyProfile.activationLabel')} min={mode === 'endo' ? deltaH + 5 : 20} max={160} step={5} value={geometry.activation} onChange={setActivation} unit={unit} />
-          <Slider label={mode === 'exo' ? t('simulations.energyProfile.deltaHExoLabel') : t('simulations.energyProfile.deltaHEndoLabel')} min={20} max={120} step={5} value={deltaH} onChange={setDeltaH} unit={unit} />
+          <Slider label={(mode === 'exo' ? t('simulations.energyProfile.deltaHExoLabel') : t('simulations.energyProfile.deltaHEndoLabel')).replace('|ΔH| ', '|ΔH|\u00A0')} min={20} max={120} step={5} value={deltaH} onChange={setDeltaH} unit={unit} />
         </div>
 
         <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.energyProfile.title')}><svg style={{ width: '100%', maxWidth: 'none', height: 'auto' }} role="img" aria-label={`${t('simulations.energyProfile.title')}; Ea = ${geometry.activation} ${unit}; ΔH = ${geometry.deltaH} ${unit}`} viewBox={`0 0 ${W} 280`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">

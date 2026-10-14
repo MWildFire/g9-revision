@@ -128,8 +128,9 @@ export function parseDataset(input: string): number[] {
     .sort((a, b) => a - b);
 }
 
-export function fmt(n: number, digits = 3): string {
+export function fmt(n: number, digits = 3, lang?: string): string {
   if (!Number.isFinite(n)) return '—';
   if (Number.isInteger(n)) return String(n);
-  return n.toFixed(digits).replace(/\.?0+$/, '');
+  const s = n.toFixed(digits).replace(/\.?0+$/, '');
+  return lang === 'ru' ? s.replace('.', ',') : s;
 }

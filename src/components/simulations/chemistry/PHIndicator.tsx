@@ -23,7 +23,8 @@ function indicatorColour(indicator: Indicator, ph: number): string {
 }
 
 export function PHIndicator() {
-  const { t } = useTranslation('chemistry');
+  const { t, i18n } = useTranslation('chemistry');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const [ph, setPh] = useState(7);
   const [indicator, setIndicator] = useState<Indicator>('universal');
   const colour = indicatorColour(indicator, ph);
@@ -53,11 +54,11 @@ export function PHIndicator() {
           </div>
         </div>
 
-        <Slider label={t('simulations.phIndicator.phLabel')} min={0} max={14} step={0.5} value={ph} onChange={setPh} />
+        <Slider label={t('simulations.phIndicator.phLabel')} min={0} max={14} step={0.5} value={ph} onChange={setPh} format={(v) => (lang === 'ru' ? v.toFixed(1).replace('.', ',') : v.toFixed(1))} />
 
         <div className="grid grid-cols-1 md:grid-cols-[1fr_220px] gap-4 items-center">
           <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-2">
-            <p><span className="text-text-muted">pH:</span> <span className="font-mono font-medium">{ph}</span></p>
+            <p><span className="text-text-muted">pH:</span> <span className="font-mono font-medium">{lang === 'ru' ? String(ph).replace('.', ',') : ph}</span></p>
             <p><span className="text-text-muted">{t('simulations.phIndicator.classificationLabel')}:</span> <strong>{classify(ph)}</strong></p>
             <p><span className="text-text-muted">{t('simulations.phIndicator.exampleLabel')}:</span> {exampleText}</p>
             <p className="text-xs text-text-muted pt-2 border-t border-border">

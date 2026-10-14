@@ -3,6 +3,12 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { parseExamDate, getExamDate, setExamDate, EXAM_DATE_STORAGE_KEY } from '../src/config/examDate.ts';
 import { loadState, saveState, STORAGE_KEY } from '../src/lib/storage.ts';
+import { fmt } from '../src/lib/math.ts';
+
+test('decimal comma is used only for Russian number formatting', () => {
+  assert.equal(fmt(0.25, 3, 'ru'), '0,25');
+  assert.equal(fmt(0.25, 3), '0.25');
+});
 const values = new Map();
 globalThis.window = { localStorage: { getItem:k=>values.get(k)??null, setItem:(k,v)=>values.set(k,v), removeItem:k=>values.delete(k) }, dispatchEvent:()=>true };
 test('confirmed November default, personal override and no June migration',()=>{

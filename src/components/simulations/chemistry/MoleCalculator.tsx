@@ -30,7 +30,10 @@ const PRESETS: { label: string; mass: number }[] = [
 ];
 
 export function MoleCalculator() {
-  const { t } = useTranslation('chemistry');
+  const { t, i18n } = useTranslation('chemistry');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+  const dec = (v: string) => (lang === 'ru' ? v.replace('.', ',') : v);
+  const presetLabel = (s: string) => (lang === 'ru' ? s.replace(/(\d)\.(\d)/g, '$1,$2') : s);
   const [direction, setDirection] = useState<Direction>('m-to-n');
   const [input, setInput] = useState('29.25');
   const [molarMass, setMolarMass] = useState('58.5');
@@ -38,10 +41,10 @@ export function MoleCalculator() {
   const result = input.trim() === '' || (molarMass.trim() === '' && (direction === 'm-to-n' || direction === 'n-to-m')) ? null : convertChemicalAmount(direction, Number(input), Number(molarMass));
   let unit = '';
   let formula = '';
-  if (direction === 'm-to-n') { unit = t('simulations.moleCalc.unitMol'); formula = `n = m / M = ${input} / ${molarMass}`; }
-  else if (direction === 'n-to-m') { unit = t('simulations.moleCalc.unitGram'); formula = `m = n × M = ${input} × ${molarMass}`; }
-  else if (direction === 'n-to-V') { unit = t('simulations.moleCalc.unitDm3'); formula = `V = n × 22.7 (STP) = ${input} × 22.7`; }
-  else if (direction === 'V-to-n') { unit = t('simulations.moleCalc.unitMol'); formula = `n = V / 22.7 (STP) = ${input} / 22.7`; }
+  if (direction === 'm-to-n') { unit = t('simulations.moleCalc.unitMol'); formula = `n = m / M = ${dec(input)} / ${dec(molarMass)}`; }
+  else if (direction === 'n-to-m') { unit = t('simulations.moleCalc.unitGram'); formula = `m = n × M = ${dec(input)} × ${dec(molarMass)}`; }
+  else if (direction === 'n-to-V') { unit = t('simulations.moleCalc.unitDm3'); formula = `V = n × ${dec('22.7')} (STP) = ${dec(input)} × ${dec('22.7')}`; }
+  else if (direction === 'V-to-n') { unit = t('simulations.moleCalc.unitMol'); formula = `n = V / ${dec('22.7')} (STP) = ${dec(input)} / ${dec('22.7')}`; }
 
   const showMolarMass = direction === 'm-to-n' || direction === 'n-to-m';
 
@@ -96,7 +99,7 @@ export function MoleCalculator() {
 
         <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm space-y-2">
           <p className="font-mono text-xs text-text-muted">{formula}</p>
-          {result === null ? <p role="status">{t('simulations.moleCalc.invalidInput')}</p> : <p className="text-lg font-medium font-mono">= {fmt(result, 4)} {unit}</p>}
+          {result === null ? <p role="status">{t('simulations.moleCalc.invalidInput')}</p> : <p className="text-lg font-medium font-mono">= {fmt(result, 4, lang)} {unit}</p>}
           <p className="text-xs text-text-muted pt-2 border-t border-border">
             {t('simulations.moleCalc.stpNote')}
           </p>
@@ -106,7 +109,7 @@ export function MoleCalculator() {
           <p className="text-xs uppercase tracking-wider text-text-muted mb-2">{t('simulations.moleCalc.presetLabel')}</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 font-mono text-xs">
             {PRESETS.map((p) => (
-              <button key={p.label} onClick={() => setMolarMass(String(p.mass))} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary whitespace-nowrap">{p.label}</button>
+              <button key={p.label} onClick={() => setMolarMass(String(p.mass))} className="px-2 py-1 rounded border border-border hover:bg-bg-secondary whitespace-nowrap">{presetLabel(p.label)}</button>
             ))}
           </div>
         </div>

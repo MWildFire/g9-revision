@@ -1256,7 +1256,7 @@
               "russianTerm": "сердце",
               "contrast": {
                 "en": "A heart chamber is not a vessel. The left ventricle holds oxygenated blood, just like the aorta, but it is part of the heart, not an artery.",
-                "ru": "Камера сердца — не сосуд. В левом желудочке, как и в аорте, кровь богатая кислородом, но левый желудочек — часть сердца, а не артерия."
+                "ru": "Камера сердца — не сосуд. В левом желудочке, как и в аорте, кровь, богатая кислородом, но левый желудочек — часть сердца, а не артерия."
               },
               "sources": [
                 {
@@ -1331,7 +1331,7 @@
               "russianTerm": "плазма крови",
               "contrast": {
                 "en": "Plasma is the liquid part of blood. A plasma cell is a different thing: it is a cell, made from a B lymphocyte, that makes antibodies. Both names share the root ‘plasm-’, which is confusing, but they are different concepts.",
-                "ru": "Плазма крови — жидкая часть крови. Плазматическая клетка — клетка, которая образуется из B-лимфоцита и вырабатывает антитела. Общий корень «плазм-» сбивает с толку, но это разные понятия."
+                "ru": "Плазма крови — жидкая часть крови. Плазматическая клетка — клетка, которая образуется из В-лимфоцита и вырабатывает антитела. Общий корень «плазм-» сбивает с толку, но это разные понятия."
               },
               "sources": [
                 {
@@ -1398,7 +1398,7 @@
               "Cigarette smoke damages and paralyses the cilia. Mucus and dust stop moving up and collect in the airways. A strong cough pushes them out: this is the smoker's cough.",
               "Bronchitis inflames the bronchi. In asthma, the bronchioles narrow, so air passes through them with difficulty."
             ],
-            "tip": "Remember the size order: trachea > bronchus > bronchiole > alveolus. The airways branch like an upside-down tree, and the branches get thinner towards the alveoli.",
+            "tip": "Remember the size order: from largest to smallest: trachea, bronchus, bronchiole, alveolus. The airways branch like an upside-down tree, and the branches get thinner towards the alveoli.",
             "review": {
               "englishTerm": "Air pathway",
               "russianTerm": "Путь воздуха",
@@ -1420,7 +1420,7 @@
             "name": "Alveoli — gas exchange surfaces",
             "rule": "An alveolus (plural: alveoli) is a tiny air sac at the end of a bronchiole, surrounded by capillaries. The wall of the alveolus and the wall of the capillary are each only one cell thick, so gases travel a very short distance.\n\nBefore they diffuse, gases dissolve in the thin moist lining of the alveolus. There are very many alveoli, so their total surface is large and diffusion is fast.",
             "examples": [
-              "Oxygen diffuses because of the difference in concentration. The air in the alveoli has more oxygen than the blood, so oxygen diffuses into the blood. Carbon dioxide diffuses the other way: the blood has more of it than the air, so it diffuses into the alveoli.",
+              "Oxygen diffuses down its concentration gradient. The air in the alveoli has more oxygen than the blood, so oxygen diffuses into the blood. Carbon dioxide diffuses the other way: the blood has more of it than the air, so it diffuses into the alveoli.",
               "Smoking destroys alveolar walls, which causes emphysema, a lung disease. Fewer alveoli means less surface for gas exchange, so less oxygen passes into the blood, even when a person breathes as usual. Smoking is a major risk factor for lung disease and lung cancer."
             ],
             "watchOut": "Carbon monoxide (CO) from cigarette smoke crosses the alveolar walls into the blood. It binds to haemoglobin much more strongly than oxygen does, so it competes with oxygen for the binding sites. Oxygen transport falls even when the alveoli are undamaged.",
@@ -1538,7 +1538,7 @@
             "rule": "Digestive enzymes are biological catalysts. They speed up hydrolysis, the breakdown of large food molecules into smaller products that can be absorbed.\n\nEach enzyme has an active site that fits only one kind of substrate, like a key in a lock. Activity depends on temperature and pH, and the optimum differs from enzyme to enzyme.",
             "examples": [
               "Amylase breaks starch down into smaller sugars; pepsin breaks proteins down into peptides. Pepsin works best at a pH of about 2 (in the stomach), while amylase works best at a pH of about 7 (in the mouth and small intestine).",
-              "Lipase breaks triglycerides (fats) down into fatty acids and glycerol. Bile is not an enzyme: it emulsifies fat into tiny droplets, so lipase has a larger surface to act on."
+              "Lipase breaks triglycerides (fats) down into fatty acids and glycerol. Bile is not an enzyme."
             ],
             "watchOut": "Low temperature slows an enzyme down but does not normally denature it. Excessive heat or an unsuitable pH changes the shape of the active site, so the enzyme is denatured and can no longer fit its substrate.",
             "review": {
@@ -1572,14 +1572,14 @@
           },
           "absorption": {
             "name": "Absorption in the small intestine",
-            "rule": "Absorption is the transfer of digested nutrients across the intestinal epithelium into the blood or lymph. The small intestine, including its last part, the ileum, is adapted for this: villi (singular: villus) are finger-like projections of the mucosa, the inner lining of the gut; microvilli are tiny projections on the surface of each epithelial cell; each villus contains a lacteal, a lymph capillary that takes up fat.",
+            "rule": "Absorption is the transfer of digested nutrients across the intestinal epithelium into the blood or lymph. The small intestine, including its last part, the ileum, is adapted for this. Villi (singular: villus) are finger-like projections of the mucosa, the inner lining of the gut. Microvilli are tiny projections on the surface of each epithelial cell. Each villus contains a lacteal, a lymph capillary that takes up fat.",
             "examples": [
               "Glucose, amino acids and water-soluble vitamins pass into the blood capillaries of the villi, then reach the liver through the hepatic portal vein.",
               "Fatty acids and glycerol pass into a lacteal, then into the lymph, and only later join the blood close to the heart. Unlike glucose, they do not go straight to the liver.",
               "Iron is absorbed in the upper small intestine. Vitamin B12 is absorbed in the ileum, but only with intrinsic factor, a protein made by the lining of the stomach.",
               "In coeliac disease, the immune system reacts to gluten and damages the villi. Absorption falls, so a person can lack nutrients even though they eat normally."
             ],
-            "tip": "Why is the surface so large? Over a bigger area, more substance crosses in the same time. The wall of each villus is a thin, single-layer epithelium, so in a villus a substance crosses only one cell layer (the epithelium). The capillary wall it reaches next is also one cell thick. A dense network of capillaries carries absorbed nutrients away, which keeps the difference in concentration large and diffusion fast. Villi, microvilli and a length of about 6–7 m together give a very large absorption area.",
+            "tip": "Why is the surface so large? Over a bigger area, more substance crosses in the same time. The wall of each villus is a thin, single-layer epithelium, so in a villus a substance crosses only one cell layer (the epithelium). The capillary wall it reaches next is also one cell thick. A dense network of capillaries carries absorbed nutrients away, which keeps the concentration gradient steep and diffusion fast. Villi, microvilli and a length of about 6–7 m together give a very large absorption area.",
             "review": {
               "englishTerm": "Absorption in the small intestine",
               "russianTerm": "Всасывание в тонкой кишке",
@@ -1688,8 +1688,8 @@
               "englishTerm": "Neurone structure",
               "russianTerm": "Строение нейрона",
               "contrast": {
-                "en": "Dendrites carry signals towards the cell body; the axon carries them away from it.",
-                "ru": "Дендриты несут сигнал к телу клетки, аксон — от него."
+                "en": "A dendrite and an axon are two parts of one neurone, not two different cells.",
+                "ru": "Дендриты и аксон — две части одного нейрона, а не два разных нейрона."
               },
               "sources": [
                 {
@@ -1709,7 +1709,7 @@
           },
           "reflex": {
             "name": "Reflex arc",
-            "rule": "A reflex arc is the pathway that gives an automatic response to a stimulus.\n\nThe order of the links is: receptor → sensory neurone → relay neurone (interneurone) in the spinal cord → motor neurone → effector (a muscle or a gland).\n\nImpulses pass from one neurone to the next across synapses. The response is fast because the pathway is short and does not involve conscious thought.",
+            "rule": "A reflex arc is the pathway that gives an automatic response to a stimulus.\n\nMost reflex arcs follow this order: receptor → sensory neurone → relay neurone (interneurone) in the CNS → motor neurone → effector (a muscle or a gland). Some arcs have no relay neurone.\n\nImpulses pass from one neurone to the next across synapses. The response is fast because the pathway is short and does not involve conscious thought.",
             "examples": [
               "The knee-jerk reflex is the simplest arc: the sensory neurone makes a synapse directly with the motor neurone in the spinal cord, with no relay neurone.",
               "If you touch a hot pan, your hand moves away before you feel the pain. The signal for the response passes through a relay neurone in the spinal cord, not the brain."
@@ -1808,7 +1808,7 @@
             "rule": "Carbohydrates and fats supply energy; phospholipids, a type of lipid, form cell membranes. Proteins supply amino acids for making the body's own proteins. Vitamins and minerals are needed in small amounts for specific functions. Fibre keeps the gut working well, and water acts as a solvent and transport medium. These are nutrient categories, not seven separate groups of food: one food usually contains several of them.",
             "examples": [
               "Vitamin C deficiency causes scurvy: the gums bleed and wounds heal slowly. Iron deficiency is a common cause of anaemia: less haemoglobin is made, so the blood carries less oxygen.",
-              "Three minerals and their roles:\n\n- Calcium: builds bones and teeth and helps muscles contract; found in milk, cheese and leafy green vegetables.\n- Iron: part of haemoglobin; found in red meat, liver, beans and lentils.\n- Iodine: needed to make thyroid hormones; found in iodised salt and seafood."
+              "Three minerals and their roles: calcium builds bones and teeth and helps muscles contract (found in milk, cheese and leafy green vegetables); iron is part of haemoglobin (found in red meat, liver, beans and lentils); iodine is needed to make thyroid hormones (found in iodised salt and seafood)."
             ],
             "tip": "Nutrient adequacy matters; omitting one named food does not automatically cause deficiency if nutrients come from other sources.",
             "review": {
@@ -1833,7 +1833,7 @@
             "rule": "Energy requirement is the energy from food that a person needs each day for metabolism, physical activity and growth. It is commonly expressed in kilojoules (kJ) or kilocalories (kcal), where 1 kcal = 4.184 kJ.",
             "examples": [
               "Two people of the same age may have different needs because body size and activity differ.",
-              "Calorimetry measures the energy stored in food. A food sample is burned under a tube of water. The energy released heats the water, so the temperature rise shows how much energy was transferred:\n\nE = m × c × ΔT\n\nwhere:\n\n- E is the energy transferred (J)\n- m is the mass of water (kg)\n- c is the specific heat capacity of water, 4200 J/(kg °C)\n- ΔT is the temperature rise (°C).\n\nIn one test, a 1.0 g sample of peanut heats 0.050 kg of water from 20 °C to 40 °C. E = 0.050 kg × 4200 J/(kg °C) × 20 °C = 4200 J = 4.2 kJ. The same mass of food and the same mass of water must be used in every test, so that foods can be compared."
+              "Calorimetry measures the energy stored in food. A food sample is burned under a tube of water. The energy released heats the water, so the temperature rise shows how much energy was transferred:\n\nE = m × c × ΔT\n\nwhere E is the energy transferred (J), m is the mass of water (kg), c is the specific heat capacity of water, 4200 J/(kg °C), and ΔT is the temperature rise (°C).\n\nIn one test, a 1.0 g sample of peanut heats 0.050 kg of water from 20 °C to 40 °C. E = 0.050 kg × 4200 J/(kg °C) × 20 °C = 4200 J = 4.2 kJ. The same mass of food and the same mass of water must be used in every test, so that foods can be compared."
             ],
             "tip": "Metabolisable energy is about 17 kJ/g for carbohydrate and protein, and about 38 kJ/g for fat; values depend on composition. A school calorimetry experiment gives a lower value, because heat escapes to the air and the tube.",
             "review": {
@@ -1884,7 +1884,7 @@
           "russianTerm": "Питание и сбалансированная диета",
           "contrast": {
             "en": "In biology, a diet is everything a person usually eats and drinks. It does not mean a plan for losing weight. Any diet can be balanced or unbalanced.",
-            "ru": "В биологии диета — это обычный рацион: всё, что человек ест и пьёт. Слово не значит «ограничения для похудения». Любой рацион может быть сбалансированным или несбалансированным."
+            "ru": "В биологии диета — это обычный рацион: всё, что человек ест и пьёт. Это не «диета для похудения». Любой рацион может быть сбалансированным или несбалансированным."
           },
           "sources": [
             {
@@ -1971,8 +1971,8 @@
                 }
               ],
               "model": {
-                "en": "In school courses, anaerobic respiration usually means fermentation, as in this section. Some bacteria respire without oxygen by using another substance, such as nitrate; this section does not cover them.",
-                "ru": "В школьных курсах анаэробным дыханием обычно называют брожение, как и в этом разделе. Некоторые бактерии дышат без кислорода, используя вместо него, например, нитрат; здесь такие процессы не рассматриваются."
+                "en": "In school courses, anaerobic respiration usually means fermentation. Some bacteria respire without oxygen by using another substance, such as nitrate; this section does not cover them.",
+                "ru": "В школьных курсах анаэробным дыханием обычно называют брожение. Некоторые бактерии дышат без кислорода, используя вместо него, например, нитрат; здесь такие процессы не рассматриваются."
               }
             }
           },
@@ -2138,7 +2138,7 @@
               "Reflex (nervous): dust reaches the eye → the eyelid closes in a fraction of a second.",
               "Adrenaline (endocrine): a frightening event → effect throughout the body within a few seconds, lasting a few minutes.",
               "Insulin (endocrine): after a meal, it keeps lowering blood glucose for hours.",
-              "Growth hormone (endocrine): its direct effects on tissues start after a few hours and last for days; the growth it causes builds up over months and years."
+              "Growth hormone (endocrine): the growth it causes builds up over months and years."
             ],
             "tip": "The two systems often work together. Under stress, the brain sends a nerve signal to the adrenal glands, which release adrenaline into the blood. The hormone then spreads through the body.",
             "review": {
@@ -3367,7 +3367,7 @@
               "Cholera is caused by the bacterium Vibrio cholerae. It releases a toxin that causes severe diarrhoea and dehydration.",
               "MRSA (methicillin-resistant Staphylococcus aureus) is a bacterium that is resistant to many antibiotics, so its infections are harder to treat."
             ],
-            "tip": "In an exam, say how an antibiotic works. For example, it can damage the bacterial cell wall or block protein synthesis in bacterial ribosomes.",
+            "tip": "In an exam, explain how an antibiotic works. For example, it can damage the bacterial cell wall or block protein synthesis in bacterial ribosomes.",
             "review": {
               "englishTerm": "Bacterial pathogens",
               "russianTerm": "Патогенные бактерии",
@@ -3578,7 +3578,7 @@
       },
       "barriers": {
         "title": "Transmission barriers and body defence",
-        "body": "Transmission barriers keep pathogens from getting inside the body. They are non-specific: they work in the same way against all pathogens.\n\nThe main barriers are:\n\n- skin: unbroken skin is a physical barrier, but a cut is an entry point for bacteria\n- mucus in the airways: sticky mucus traps dust, bacteria and viruses\n- ciliated epithelium: the cells lining the airways have cilia, which beat and move the mucus up to the throat, where it is swallowed\n- stomach acid: hydrochloric acid (pH around 2) kills most microbes swallowed with food\n- tears: they contain lysozyme, an enzyme that breaks down the cell walls of some bacteria\n\nExample: bacteria in the dust you breathe in stick to the mucus in your windpipe, and the mucus is then swallowed and carried to the stomach.\n\nBody defence summary: the body defends itself in two lines. The first line, the barriers above, keeps out most pathogens.",
+        "body": "Transmission barriers keep pathogens from getting inside the body. They are non-specific: they work in the same way against all pathogens.\n\nThe main barriers are:\n\n- skin: unbroken skin is a physical barrier, but a cut is an entry point for bacteria\n- mucus in the airways: sticky mucus traps dust, bacteria and viruses\n- ciliated epithelium: the cells lining the airways have cilia, which beat and move the mucus up to the throat, where it is swallowed\n- stomach acid: hydrochloric acid (pH around 2) kills most microbes swallowed with food\n- tears: they contain lysozyme, an enzyme that breaks down the cell walls of some bacteria\n\nExample: bacteria in the dust you breathe in stick to the mucus in your windpipe, and the mucus is then swallowed and carried to the stomach.\n\nBody defence summary: the body defends itself in two lines. The first line, the barriers above, keeps out most pathogens. The second line is the immune system, which deals with the pathogens that get in.",
         "review": {
           "englishTerm": "Transmission barriers",
           "russianTerm": "Барьеры передачи",
@@ -3604,7 +3604,7 @@
       },
       "immuneResponse": {
         "title": "Immune system (second line of defence)",
-        "body": "The immune system is the second line of defence. It deals with pathogens that get past the barriers, using phagocytes, lymphocytes, antibodies and memory cells.\n\nPhagocytes are white blood cells that engulf pathogens. A phagocyte surrounds a pathogen and takes it inside, where the cell's enzymes digest it.\n\nThis process is called phagocytosis. It works against any pathogen, so it is non-specific.\n\nLymphocytes are white blood cells. Each one recognises one specific antigen, and B-lymphocytes then make antibodies against it. An antibody fits its antigen like a key fits a lock.\n\nMemory cells are lymphocytes that stay in the body after an infection. If the same pathogen returns, they respond faster and make more antibodies, so the illness is usually stopped before it becomes serious.\n\nExample: after chickenpox, memory cells usually stop you catching it again.",
+        "body": "The immune system is the second line of defence. It deals with pathogens that get past the barriers, using phagocytes, lymphocytes, antibodies and memory cells.\n\nPhagocytes are white blood cells that engulf pathogens. A phagocyte surrounds a pathogen and takes it inside, where the cell's enzymes digest it.\n\nThis process is called phagocytosis. It works against any pathogen, so it is non-specific.\n\nLymphocytes are white blood cells. Each one recognises one specific antigen, and B-lymphocytes then make antibodies against it. An antibody fits its antigen like a key fits a lock. T-lymphocytes also take part. T-helper cells signal to B-lymphocytes to start their work, and T-killer cells destroy body cells that a pathogen has infected. Other white blood cells also help: neutrophils are the most common phagocytes in the blood, and monocytes become macrophages in the tissues.\n\nMemory cells are lymphocytes that stay in the body after an infection. If the same pathogen returns, they respond faster and make more antibodies, so the illness is usually stopped before it becomes serious.\n\nExample: after chickenpox, memory cells usually stop you catching it again.",
         "review": {
           "englishTerm": "Antibody",
           "russianTerm": "Антитело",
@@ -3679,8 +3679,8 @@
           "englishTerm": "Antibiotics",
           "russianTerm": "Антибиотики",
           "contrast": {
-            "en": "An antibiotic is not a vaccine: it treats a bacterial infection that has already started, and it does not create immunity.",
-            "ru": "Антибиотик — не вакцина: он лечит уже начавшуюся бактериальную инфекцию и не создаёт иммунитет."
+            "en": "Antibiotics act on bacteria only; they do not work against viruses.",
+            "ru": "Антибиотики действуют только на бактерии, против вирусов они не работают."
           },
           "sources": [
             {

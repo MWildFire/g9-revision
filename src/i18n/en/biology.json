@@ -204,13 +204,13 @@
     "intro": "Topics that extend beyond the G9 syllabus — depth on photosynthesis, hormones, mutations, biotech.",
     "photoDepth": {
       "title": "Photosynthesis — deeper",
-      "body": "In chloroplasts, light-dependent reactions in thylakoid membranes use light energy to make ATP and NADPH and release oxygen from water. The Calvin cycle in the stroma uses ATP and NADPH to fix CO₂ into small carbohydrates from which sugars can be made. It does not require darkness.",
+      "body": "In chloroplasts, the light-dependent reactions take place in the thylakoid membranes. They use light energy to make ATP and NADPH, and they split water, releasing oxygen. The Calvin cycle takes place in the stroma. It uses ATP and NADPH to fix CO₂ into 3-carbon molecules. The Calvin cycle does not use light directly, but it slows down when the light-dependent reactions stop.",
       "review": {
         "englishTerm": "Photosynthesis — deeper",
         "russianTerm": "Фотосинтез — глубже",
         "contrast": {
-          "en": "Carbon dioxide and water supply matter; light supplies energy. Plants also respire in both light and darkness.",
-          "ru": "Углекислый газ и вода поставляют вещество, свет — энергию. Растения дышат и на свету, и в темноте."
+          "en": "Carbon dioxide and water are raw materials. Light supplies energy, not matter. Plants also respire in both light and darkness.",
+          "ru": "Углекислый газ и вода — сырьё фотосинтеза. Свет даёт энергию, а не вещество. Растения дышат и на свету, и в темноте."
         },
         "sources": [
           {
@@ -241,18 +241,18 @@
     "hormones": {
       "title": "Hormones in depth",
       "items": [
-        "Insulin from pancreatic beta cells promotes glucose uptake in responsive tissues and storage, lowering blood glucose.",
+        "Insulin from pancreatic beta cells promotes glucose uptake into cells and its storage as glycogen, which lowers blood glucose.",
         "Glucagon from pancreatic alpha cells promotes liver glucose production and release.",
-        "Adrenaline helps coordinate acute responses such as increased heart activity and fuel mobilisation.",
-        "Oestrogens and testosterone influence reproductive development and other functions in all sexes.",
-        "Thyroid hormones affect metabolic activity in many tissues."
+        "Adrenaline, produced by the adrenal glands, prepares the body for fast action: the heart beats faster and the liver releases glucose into the blood.",
+        "Oestrogens and testosterone are present in both males and females, but in different amounts. Testosterone is usually higher in males, and oestrogens are usually higher in females. Both hormones affect reproductive development and other functions.",
+        "Thyroid hormones, such as thyroxine, increase the metabolic rate in most body tissues, so the body uses more energy."
       ],
       "review": {
         "englishTerm": "Hormones in depth",
-        "russianTerm": "Гормоны подробно",
+        "russianTerm": "Гормоны в деталях",
         "contrast": {
-          "en": "A hormone is a signalling molecule; its target cells respond because they have suitable receptors.",
-          "ru": "Гормон — сигнальная молекула; клетки-мишени отвечают на него благодаря соответствующим рецепторам."
+          "en": "A hormone is carried in the blood to all tissues, but only target cells with the right receptors respond to it.",
+          "ru": "Гормон переносится кровью ко всем тканям, но отвечают на него только клетки-мишени с нужными рецепторами."
         },
         "sources": [
           {
@@ -277,8 +277,8 @@
         "englishTerm": "Genetics — mutations and codons",
         "russianTerm": "Генетика — мутации и кодоны",
         "contrast": {
-          "en": "Genotype is genetic constitution; phenotype is an observable characteristic influenced by genotype and environment.",
-          "ru": "Генотип — генетическая конституция; фенотипический признак зависит от генотипа и среды."
+          "en": "Genotype is the genetic makeup of an organism. Phenotype is the set of observable characteristics, influenced by genotype and environment.",
+          "ru": "Генотип (genotype) — генетический состав организма. Фенотип (phenotype) — совокупность наблюдаемых признаков, на которые влияют генотип и среда."
         },
         "sources": [
           {
@@ -311,18 +311,18 @@
     "biotech": {
       "title": "Biotechnology",
       "items": [
-        "Selective breeding chooses parents to change inherited traits over generations.",
-        "Genetic engineering directly alters DNA; it includes editing within one species and transfer between species.",
-        "Cloning produces genetically matching copies; mutations and environment can still create differences.",
-        "CRISPR-based editing targets selected sequences but requires checks for unintended changes.",
-        "Ethical assessment considers evidence, consent, welfare, environmental effects and access."
+        "Selective breeding means choosing parents with desired traits, so that those traits become more common in later generations.",
+        "In genetic engineering, DNA is changed directly, either within one species or by moving a gene between species.",
+        "Cloning produces genetically identical copies, but mutations and the environment can still cause differences between them.",
+        "CRISPR-based editing changes selected DNA sequences precisely, but scientists must check for unwanted changes at other sites.",
+        "Ethical assessment checks evidence of safety, consent, the welfare of organisms, effects on the environment and access to the technology."
       ],
       "review": {
         "englishTerm": "Biotechnology",
         "russianTerm": "Биотехнология",
         "contrast": {
-          "en": "Biotechnology is broader than genetic engineering; engineering can edit existing DNA without adding a gene from another species.",
-          "ru": "Биотехнология шире генной инженерии; инженерное изменение ДНК не обязательно переносит ген другого вида."
+          "en": "Genetic engineering is one part of biotechnology, not all of it. Making yoghurt with bacterial cultures is also biotechnology, even though no gene is moved between species.",
+          "ru": "Генная инженерия — только одна часть биотехнологии. Приготовление йогурта на бактериальных культурах тоже относится к биотехнологии, хотя ни один ген не переносится между видами."
         },
         "sources": [
           {
@@ -342,13 +342,13 @@
     },
     "homeostasis": {
       "title": "Homeostasis",
-      "body": "Homeostasis is regulation of internal conditions within ranges compatible with cell function despite disturbances. Negative feedback reduces a deviation: a sensor detects change, a control system coordinates a response and effectors act. Conditions fluctuate around regulated values rather than staying perfectly constant.",
+      "body": "Homeostasis is the maintenance of internal conditions within ranges compatible with cell function, despite changes inside and outside the body. Negative feedback reduces a deviation from the set value. Conditions fluctuate around regulated values rather than staying perfectly constant.",
       "review": {
         "englishTerm": "Homeostasis",
         "russianTerm": "Гомеостаз",
         "contrast": {
-          "en": "A hormone is a signalling molecule; its target cells respond because they have suitable receptors.",
-          "ru": "Гормон — сигнальная молекула; клетки-мишени отвечают на него благодаря соответствующим рецепторам."
+          "en": "Homeostasis is the goal of regulation, not a mechanism. Hormones and the nervous system are two tools that keep it.",
+          "ru": "Гомеостаз — цель регуляции, а не механизм. Гормоны и нервная система — два средства, которыми его поддерживают."
         },
         "sources": [
           {

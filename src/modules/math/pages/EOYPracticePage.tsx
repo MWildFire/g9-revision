@@ -13,9 +13,6 @@ export function EOYPracticePage() {
       <TopicHero title={t('eoyPractice.title')} intro={t('eoyPractice.intro')} icon={<Layers size={28} />} />
 
       <SectionHeading>{t('sources.reviewInContext')}</SectionHeading>
-      <p className="text-sm text-text-secondary mb-4">
-        {t('eoyPractice.intro')}
-      </p>
       <MathPracticeList problems={problems} />
     </div>
   );

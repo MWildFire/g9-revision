@@ -81,7 +81,7 @@ test('linear and nonlinear inequality solutions match samples and boundary inclu
     if (x !== -2) assert.equal((x - 1) / (x + 2) >= 0, x < -2 || x >= 1);
     if (x !== 1) assert.equal(1 / (x - 1) < 2, x < 1 || x > 1.5);
   }
-  assert.match(get('nonlinear-inequalities').example.steps.join(' '), /exclude x = −2/);
+  assert.match(get('nonlinear-inequalities').example.steps.join(' '), /x = −2 is not, because the fraction is undefined/);
 });
 
 test('set membership, counting and proof examples are correct', () => {

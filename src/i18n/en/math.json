@@ -2,12 +2,18 @@
   "subjectName": "Mathematics",
   "home": {
     "title": "Mathematics — Revision",
-    "intro": "Five topics covering the G9 EOY revision list, with Dr Frost practice and interactive simulations.",
+    "intro": "Five topics from the G9 EOY revision list, with Dr Frost practice and interactive simulations.",
     "topics": "Topics",
     "practice": "Practice",
     "tools": "Tools",
-    "examStructure": "Exam structure",
-    "examStructureBody": "Revision covers mathematical knowledge, pattern investigation, communication and real-life applications. Show reasoning, define variables, label diagrams, give units and evaluate assumptions. Check your current assessment instructions for its format and scope."
+    "examStructure": "What is assessed",
+    "examStructureBody": "Assessments check mathematical knowledge, pattern investigation, communication and real-life applications. Show reasoning, define variables, label diagrams, give units and evaluate assumptions. Check the format and scope in the instructions for your current assessment.",
+    "prep": {
+      "label": "Grade 10 · Term 1 · Assessment 1",
+      "title": "Mathematics preparation in English",
+      "body": "Five core topics, separate Previous studies and Extended lessons, worked examples, glossary and 68 practice questions.",
+      "link": "Open the current assessment guide →"
+    }
   },
   "nav": {
     "home": "Overview",
@@ -22,16 +28,16 @@
   },
   "extras": {
     "title": "Mathematics — Extras",
-    "intro": "Topics that extend beyond the G9 revision list — useful for IB DP preparation or for curious students.",
+    "intro": "These topics go beyond the revision list. They are useful for IB DP preparation or simply for curious students.",
     "calculus": {
-      "title": "Calculus — derivatives intro",
-      "body": "The derivative f′(a) is the limit of [f(a+h)−f(a)]/h as h→0, when that finite limit exists. It is the instantaneous rate of change and the tangent slope. For y=xⁿ with positive integer n, y′=nxⁿ⁻¹; a constant has derivative zero. A stationary point has derivative zero, but need not be a maximum or minimum.",
+      "title": "Calculus — introduction to derivatives",
+      "body": "The derivative of a function f at the point x = a, written f′(a), is the limit of [f(a + h) − f(a)]/h as h → 0. This limit must exist and be a finite number.\n\nThe derivative gives the instantaneous rate of change of f at a. It is also the gradient (slope) of the tangent to the graph at that point. The fraction [f(a + h) − f(a)]/h is an average rate of change over the interval from a to a + h. As h gets smaller, this average gets closer to the instantaneous value.\n\nFor y = xⁿ, where n is a positive integer, dy/dx = nxⁿ⁻¹. The derivative of a constant is 0, because a constant does not change.\n\nA point where the derivative is 0 is a stationary point. It is not always a maximum or a minimum: for y = x³ at x = 0, the derivative is 0, but there is neither.\n\nExample: the displacement of a particle is s = t² metres, where t is time in seconds. Its velocity is ds/dt = 2t metres per second. At t = 3 seconds, the velocity is 6 m/s.",
       "review": {
         "englishTerm": "Derivative",
         "russianTerm": "Производная",
         "contrast": {
-          "en": "A difference quotient is an average rate over an interval; the derivative is a limit at a point. At a corner such as |x| at 0 it does not exist.",
-          "ru": "Разностное отношение — средняя скорость на промежутке; производная — предел в точке. В угловой точке, например у |x| при 0, производной нет."
+          "en": "Do not confuse the average rate of change over an interval with the derivative at a point. The derivative does not exist at a sharp corner, such as y = |x| at x = 0.",
+          "ru": "Не путай среднюю скорость изменения на промежутке с производной в точке. В угловой точке производной нет, например, у функции y = |x| при x = 0."
         },
         "sources": [
           {
@@ -52,26 +58,26 @@
     "proofs": {
       "title": "Mathematical proof",
       "items": [
-        "Direct proof — A direct proof derives a statement from its hypotheses using definitions and valid logical steps. For a claim “if P, then Q”, assume P and deduce Q for an arbitrary object satisfying the hypotheses.",
-        "Proof by contradiction — A proof by contradiction assumes the negation of the desired statement together with the hypotheses, then derives incompatible conclusions. Since the hypotheses and logical rules are retained, the added negation must be false.",
-        "Proof by induction — Mathematical induction proves a claim P(n) for every integer n≥n₀. First prove P(n₀). Then, for an arbitrary k≥n₀, assume P(k) and prove P(k+1). These two steps establish all successive cases.",
-        "Counterexample — A counterexample is an allowed instance for which a universal claim fails. One such instance disproves “for every x, P(x)”. To refute “if P then Q”, the example must satisfy P while failing Q."
+        "Direct proof — a chain of justified steps from the given facts to the conclusion.",
+        "Proof by contradiction — useful when a direct proof is hard, for example to show that √2 is irrational.",
+        "Proof by induction — used to prove a statement for all integers n from a starting value n₀ onwards.",
+        "Counterexample — one allowed value for which a general claim is false. One counterexample is enough to disprove the claim. For example, n = 40 disproves 'n² + n + 41 is prime for every positive integer n': 40² + 40 + 41 = 1681 = 41 × 41."
       ],
       "detailed": {
         "direct": {
           "name": "Direct proof",
-          "rule": "A direct proof derives a statement from its hypotheses using definitions and valid logical steps. For a claim “if P, then Q”, assume P and deduce Q for an arbitrary object satisfying the hypotheses.",
+          "rule": "A direct proof starts from the premises, which are the given facts, and reaches the conclusion through valid reasoning.\n\nFor a claim 'if P, then Q', take an arbitrary object that satisfies P, and show that it satisfies Q. 'Arbitrary' means that nothing special is assumed about the object, so the result holds for every object of that kind.\n\nThis is deductive reasoning: it produces new facts from facts that are already known.",
           "examples": [
-            "Let a=2m and b=2n for integers m,n. Then a+b=2(m+n), and m+n is an integer, so the sum is even.",
-            "For a Euclidean triangle, draw a line through the top vertex parallel to the opposite side. Alternate angles reproduce the two base angles at that vertex; together with its angle they form a straight angle of 180°.",
-            "PROVE: a² − b² = (a−b)(a+b). Expand right side: (a−b)(a+b) = a² + ab − ab − b² = a² − b². QED."
+            "Prove that the sum of two even numbers is even.\n\n- Let the numbers be a and b. Both are even, so a = 2m and b = 2n for some integers m and n, by the definition of an even number.\n- Then a + b = 2m + 2n = 2(m + n), by the distributive law.\n- The sum m + n is an integer, because the sum of two integers is always an integer.\n- So a + b = 2 × (an integer), which means a + b is even, by the definition of an even number.\n- Check: 4 + 6 = 2(2 + 3) = 10.",
+            "Prove that the angles of any triangle in a plane add up to 180°.\n\n- Let the triangle be ABC. Through the vertex A, draw a line parallel to BC.\n- The angle that AB makes with this line, on the side away from C, equals ∠B, because the two are alternate angles.\n- The angle that AC makes with this line, on the side away from B, equals ∠C, for the same reason.\n- The three angles at A lie along a straight line, so they add up to 180°.\n- Therefore ∠A + ∠B + ∠C = 180°. For example, if ∠B = 50° and ∠C = 60°, then ∠A = 70°.",
+            "Prove that a² − b² = (a − b)(a + b).\n\n- Start with the right-hand side and expand the brackets using the distributive law: (a − b)(a + b) = a² + ab − ba − b².\n- Multiplication is commutative, so ba = ab. Therefore ab − ba = 0.\n- So (a − b)(a + b) = a² − b².\n- The right-hand side equals the left-hand side for all values of a and b. For example, with a = 5 and b = 3, both sides equal 16."
           ],
           "review": {
             "englishTerm": "Direct proof",
             "russianTerm": "Прямое доказательство",
             "contrast": {
-              "en": "Several successful examples do not prove a universal claim. State which assumptions and theorem justify each step.",
-              "ru": "Несколько удачных примеров не доказывают всеобщее утверждение. Укажите условия и теоремы, обосновывающие шаги."
+              "en": "Checking a few numbers does not prove a claim about all numbers. Give a reason (a definition, a rule or a theorem) for every step.",
+              "ru": "Проверка нескольких чисел не доказывает утверждение обо всех числах. Для каждого шага укажи причину: определение, правило или теорему."
             },
             "sources": [
               {
@@ -85,17 +91,17 @@
         },
         "contradiction": {
           "name": "Proof by contradiction",
-          "rule": "A proof by contradiction assumes the negation of the desired statement together with the hypotheses, then derives incompatible conclusions. Since the hypotheses and logical rules are retained, the added negation must be false.",
+          "rule": "To prove a statement, assume that it is false, so that its negation is true. Keep all the given conditions and the rules of logic. Then use valid steps to reach a result that cannot be true, for example 1 = 2.\n\nThe conditions and the rules of logic are true, so the added assumption must be the false part. Therefore the original statement is true.",
           "examples": [
-            "PROVE: √2 is irrational. Assume √2 IS rational, so √2 = a/b in lowest terms. Square: 2 = a²/b². So a² = 2b². a² is even → a is even → a = 2k. Then 4k² = 2b² → b² = 2k² → b also even. But a/b was in lowest terms — CONTRADICTION. So √2 is irrational.",
-            "PROVE: there are infinitely many primes. Assume finitely many: p₁, p₂, …, pₙ. Consider N = p₁·p₂·…·pₙ + 1. N is not divisible by any pᵢ (remainder 1). So either N is prime (contradicts list being complete) or has a new prime factor."
+            "Prove that √2 is irrational.\n\n- Assume the opposite: √2 is rational. Then √2 = a/b, where a and b are integers with no common factor (the fraction is in its lowest terms).\n- Square both sides: 2 = a²/b², so a² = 2b².\n- The number a² is even, because it equals 2b². If a were odd, a² would be odd, since an odd number multiplied by itself is odd. So a is even, and we can write a = 2k, where k is an integer.\n- Substitute a = 2k: (2k)² = 2b², so 4k² = 2b² and b² = 2k².\n- Now b² is even, so b is even, by the same argument as for a.\n- Both a and b are even, so both have a factor of 2. This contradicts the fact that a/b is in its lowest terms.\n- So the assumption is false, and √2 is irrational.",
+            "Prove that there are infinitely many prime numbers.\n\n- Assume the opposite: there are finitely many primes. Then they can be listed as p₁, p₂, …, pₙ, and this list contains all the primes.\n- Let N = p₁ × p₂ × … × pₙ + 1. For example, for the primes 2, 3 and 5, N = 2 × 3 × 5 + 1 = 31.\n- Divide N by any pᵢ: the remainder is 1, so no pᵢ is a factor of N.\n- Every integer greater than 1 has a prime factor, because its smallest factor greater than 1 is prime. Take a prime factor of N. It cannot be any pᵢ, because no pᵢ divides N.\n- This contradicts the assumption that the list contains all the primes. So there are infinitely many primes."
           ],
           "review": {
             "englishTerm": "Proof by contradiction",
             "russianTerm": "Доказательство от противного",
             "contrast": {
-              "en": "Negation must be precise: the negation of “all” is “there exists a counterexample”, not “none”.",
-              "ru": "Отрицание должно быть точным: отрицание «для всех» — «существует контрпример», а не «ни для одного»."
+              "en": "Negate carefully. The negation of 'every integer is even' is 'some integer is not even', for example 3. It is not 'no integer is even', which is false, because 2 is even.",
+              "ru": "Отрицай аккуратно. Отрицание утверждения «все целые числа чётные» — это «существует целое число, которое не является чётным», например, 3. Это не «ни одно целое число не является чётным»: такое утверждение ложно, ведь 2 — чётное число."
             },
             "sources": [
               {
@@ -109,18 +115,18 @@
         },
         "induction": {
           "name": "Proof by induction",
-          "rule": "Mathematical induction proves a claim P(n) for every integer n≥n₀. First prove P(n₀). Then, for an arbitrary k≥n₀, assume P(k) and prove P(k+1). These two steps establish all successive cases.",
+          "rule": "Mathematical induction proves a statement P(n) for every integer n ≥ n₀. It needs two steps.\n\n- Base case: show that P(n₀) is true.\n- Inductive step: for an arbitrary integer k ≥ n₀, assume that P(k) is true, and prove that P(k + 1) is true.\n\nThe base case starts the chain. The inductive step links each case to the next: P(n₀) gives P(n₀ + 1), which gives P(n₀ + 2), and so on for every n ≥ n₀.\n\nDo not confuse this with inductive reasoning, which collects evidence for a pattern from examples. Mathematical induction is a deductive proof: once both steps are shown, the statement is true for every n ≥ n₀.\n\nExample: prove that 1 + 2 + … + n = n(n + 1)/2 for every positive integer n.\n\n- Base case: for n = 1, the left-hand side is 1, and the right-hand side is 1 × 2/2 = 1. Both sides are equal, so P(1) is true.\n- Inductive step: assume 1 + 2 + … + k = k(k + 1)/2 for some integer k ≥ 1. Add k + 1 to both sides. Equal quantities stay equal when the same number is added to both.\n- Factorise the right-hand side: k(k + 1)/2 + (k + 1) = (k + 1)(k/2 + 1) = (k + 1)(k + 2)/2. This is the formula with n = k + 1, so P(k + 1) is true.\n- P(1) is true, and P(k) implies P(k + 1). So, by induction, the formula holds for every positive integer n.",
           "examples": [
-            "PROVE: 1 + 2 + … + n = n(n+1)/2. Base: n=1, LHS=1, RHS=1·2/2=1. ✓ Inductive: assume true for k. Add (k+1): k(k+1)/2 + (k+1) = (k+1)(k+2)/2. ✓",
-            "PROVE: 2ⁿ > n for all positive integers. Base: 2¹=2>1. ✓ Inductive: 2^(k+1) = 2·2ᵏ > 2k ≥ k+1 (since k ≥ 1). ✓",
-            "Divisibility example: PROVE 7ⁿ − 1 is divisible by 6. Base: 7¹−1 = 6. ✓ Inductive: 7^(k+1) − 1 = 7·7ᵏ − 1 = 7(7ᵏ − 1) + 6 = 7·6m + 6 = 6(7m+1). ✓"
+            "Prove that 1 + 3 + 5 + … + (2n − 1) = n² for all positive integers n.\n\n- Base case: when n = 1, the left-hand side is 1 and the right-hand side is 1² = 1. The statement is true for n = 1.\n- Inductive hypothesis: assume that 1 + 3 + … + (2k − 1) = k² for some positive integer k.\n- Add the next odd number, 2k + 1, to both sides of the hypothesis: 1 + 3 + … + (2k − 1) + (2k + 1) = k² + 2k + 1.\n- Simplify the right-hand side: k² + 2k + 1 = (k + 1)², because (k + 1)² expands to k² + 2k + 1. The last term on the left is 2(k + 1) − 1, so the left-hand side is the sum for n = k + 1. Both sides equal (k + 1)², so the statement holds for k + 1.\n- The statement is true for n = 1, and it is true for k + 1 whenever it is true for k. So, by induction, it is true for every positive integer n. Check: for n = 4, 1 + 3 + 5 + 7 = 16 = 4².",
+            "Prove that 2ⁿ > n for all positive integers n.\n\n- Base case: when n = 1, 2¹ = 2, and 2 > 1. The statement is true for n = 1.\n- Inductive hypothesis: assume that 2^k > k for some positive integer k.\n- Multiply both sides of the hypothesis by 2. The inequality stays true, because 2 is positive: 2^(k + 1) > 2k.\n- Since k ≥ 1, we have 2k ≥ k + 1. Therefore 2^(k + 1) > 2k ≥ k + 1.\n- So the statement holds for k + 1. By induction, 2ⁿ > n for every positive integer n. Check: for n = 3, 2³ = 8 > 3.",
+            "Prove that 7ⁿ − 1 is divisible by 6 for all positive integers n.\n\n- Base case: when n = 1, 7¹ − 1 = 6, and 6 is divisible by 6. The statement is true for n = 1.\n- Inductive hypothesis: assume that 7^k − 1 is divisible by 6 for some positive integer k. Then 7^k − 1 = 6m, where m is an integer.\n- Write 7^(k + 1) − 1 in terms of 7^k − 1. Expand the bracket: 7(7^k − 1) = 7 × 7^k − 7. Adding 6 gives 7(7^k − 1) + 6 = 7 × 7^k − 1 = 7^(k + 1) − 1.\n- Substitute 7^k − 1 = 6m: 7^(k + 1) − 1 = 7(7^k − 1) + 6 = 7 × 6m + 6 = 6(7m + 1).\n- The number 7m + 1 is an integer, so 7^(k + 1) − 1 is divisible by 6. By induction, 7ⁿ − 1 is divisible by 6 for every positive integer n. Check: for n = 2, 7² − 1 = 48 = 6 × 8."
           ],
           "review": {
             "englishTerm": "Proof by induction",
             "russianTerm": "Математическая индукция",
             "contrast": {
-              "en": "The inductive assumption concerns an arbitrary k, not the conclusion for every n. The starting value need not be 1.",
-              "ru": "Предположение индукции относится к произвольному k, а не к уже доказанному результату для всех n. Начальный номер не обязан быть 1."
+              "en": "Check the base case at the first value of n that the claim covers, not automatically at n = 1. For example, 2ⁿ > n² holds for every integer n ≥ 5, but it fails for n = 3, because 8 < 9. For this claim, the base case is n = 5: 2⁵ = 32 > 25.",
+              "ru": "Базу индукции проверяют при первом значении n, которое входит в утверждение, а не обязательно при n = 1. Например, 2ⁿ > n² верно при всех натуральных n ≥ 5, но при n = 3 оно неверно: 8 < 9. Для этого утверждения база — n = 5: 2⁵ = 32 > 25."
             },
             "sources": [
               {
@@ -134,19 +140,19 @@
         },
         "counterexample": {
           "name": "Counterexample",
-          "rule": "A counterexample is an allowed instance for which a universal claim fails. One such instance disproves “for every x, P(x)”. To refute “if P then Q”, the example must satisfy P while failing Q.",
+          "rule": "A universal claim has the form 'for every x in a set, P(x) is true'. Any one value of x from that set for which P(x) is false refutes the claim.\n\nFor a claim 'if P, then Q', a counterexample is a case where P is true and Q is false. A case where P is false does not refute the claim, even if Q is also false.",
           "examples": [
-            "CLAIM: 'all primes are odd'. Counterexample: 2 is prime AND even. Disproved.",
-            "CLAIM: 'n² > n for all positive integers'. Counterexample: n=1 gives 1²=1, NOT > 1. Disproved.",
-            "CLAIM: 'every quadratic has real roots'. Counterexample: x² + 1 = 0 has no real roots. Disproved.",
-            "CLAIM: 'if a²=b² then a=b'. Counterexample: a=−3, b=3. Both square to 9 but aren't equal."
+            "Claim: every prime number is odd. Counterexample: 2 is prime, and it is even, so the claim is false.",
+            "Claim: n² > n for every positive integer n. Counterexample: n = 1 gives 1² = 1, and the inequality 1 > 1 is false. The claim is still true for n ≥ 2, but it fails at n = 1, so it is disproved.",
+            "Claim: every quadratic equation has real roots. Counterexample: x² + 1 = 0 gives x² = −1. No real number squared is negative, so this equation has no real roots.",
+            "Claim: if a² = b², then a = b. Counterexample: take a = −3 and b = 3. Here a² = b² = 9 holds, but a = b is false, because −3 ≠ 3."
           ],
           "review": {
             "englishTerm": "Counterexample",
             "russianTerm": "Контрпример",
             "contrast": {
-              "en": "A value outside the stated domain is not a counterexample. Passing many checks can support a conjecture but does not prove it for all cases.",
-              "ru": "Значение вне указанной области не является контрпримером. Много удачных проверок поддерживает гипотезу, но не доказывает её для всех случаев."
+              "en": "A value that is not in the stated set is not a counterexample. For 'n² > n for every positive integer n', the value n = 0 makes the inequality 0 > 0 false. Yet 0 is not a positive integer, so it does not count.",
+              "ru": "Значение, которого нет в заданном множестве, контрпримером не является. Для утверждения «n² > n при любом натуральном n» значение n = 0 даёт неверное неравенство 0 > 0. Но 0 — не натуральное число, поэтому он не подходит."
             },
             "sources": [
               {
@@ -162,13 +168,13 @@
     },
     "numberTheory": {
       "title": "Number theory basics",
-      "body": "A prime is an integer greater than 1 with exactly two positive divisors: 1 and itself. Every integer greater than 1 is a product of primes, unique apart from their order. Congruence a≡b (mod m), for positive integer m, means m divides a−b; for example 17≡2 (mod 5).",
+      "body": "A prime number is an integer greater than 1 with exactly two positive divisors: 1 and itself. For example, 7 is prime, but 9 is not, because 9 = 3 × 3.\n\nEvery integer greater than 1 can be written as primes multiplied together in only one way, apart from the order of the factors. This is called prime factorisation. For example, 60 = 2 × 2 × 3 × 5 = 2² × 3 × 5.\n\nThe difficulty of factorising very large numbers into primes underpins RSA encryption, which protects data sent online.\n\nFor integers a and b and a positive integer m, congruence modulo m is written a ≡ b (mod m) and means that m divides a − b. Equivalently, a and b leave the same remainder when divided by m. For example, 17 ≡ 2 (mod 5), because 17 − 2 = 15 is divisible by 5.",
       "review": {
         "englishTerm": "Prime number; prime factorisation; congruence",
         "russianTerm": "Простое число; разложение на простые множители; сравнение по модулю",
         "contrast": {
-          "en": "1 is neither prime nor composite. Congruence means equal remainders, not equal numbers.",
-          "ru": "1 не является ни простым, ни составным. Сравнение по модулю означает одинаковые остатки, а не равенство чисел."
+          "en": "The number 1 is neither prime nor composite. Also, 'congruence' here has nothing to do with congruent shapes, which have the same shape and size.",
+          "ru": "Число 1 не бывает ни простым, ни составным (composite). Кроме того, сравнение по модулю не связано с равными фигурами, которые совпадают по форме и размеру."
         },
         "sources": [
           {
@@ -193,14 +199,14 @@
       }
     },
     "complex": {
-      "title": "Complex numbers — preview",
-      "body": "A complex number has form z=a+bi, where a,b are real and i²=−1. Its real part is a and imaginary part is b. The real numbers form the case b=0. In the complex numbers, x²+1=0 has solutions ±i; real square-root product rules must not be applied blindly to negative radicands.",
+      "title": "Complex numbers: a first look",
+      "body": "A complex number has the form z = a + bi. Here a and b are real numbers, and i is the imaginary unit, with i² = −1. The number a is the real part of z, and b is the imaginary part. Every real number is also complex, with b = 0: for example, 5 = 5 + 0i.\n\nComplex numbers allow solutions to equations that have no real solutions. For example, x² + 1 = 0 gives x² = −1, so x = ±i.\n\nThe square-root rule √(ab) = √a × √b does not work when both a and b are negative. For example, √(−4) × √(−9) = 2i × 3i = −6, but √((−4) × (−9)) = √36 = 6.",
       "review": {
         "englishTerm": "Complex number",
         "russianTerm": "Комплексное число",
         "contrast": {
-          "en": "The imaginary part of 2+3i is 3, not 3i. “Imaginary” is a mathematical name and does not mean invalid.",
-          "ru": "Мнимая часть 2+3i равна 3, а не 3i. «Мнимая» — математическое название, а не указание на недопустимость числа."
+          "en": "The imaginary part of 2 + 3i is 3, not 3i. The word 'imaginary' is only a name: imaginary numbers are just as valid as real numbers.",
+          "ru": "Мнимая часть числа 2 + 3i равна 3, а не 3i. Слово «мнимая» — лишь название: такие числа не менее законны, чем действительные."
         },
         "sources": [
           {
@@ -213,14 +219,14 @@
       }
     },
     "statsExt": {
-      "title": "Statistics extension",
-      "body": "Population variance is the mean squared deviation from the population mean; standard deviation is its square root. The usual sample variance estimator divides the sum of squared deviations from the sample mean by n−1. Pearson correlation r describes the direction and strength of linear association between paired numerical variables and lies from −1 to 1 when both have nonzero variance.",
+      "title": "Spread of data and correlation",
+      "body": "Variance measures how far the values of a data set spread from the mean. For n values with mean x̄, the variance is σ² = Σ(x − x̄)² / n. Here Σ means 'add up all the values', and x is each value in turn. The standard deviation σ is the square root of the variance.\n\nFor example, the lengths 2 cm, 4 cm and 6 cm have a mean of 4 cm. The variance is (4 + 0 + 4) / 3 ≈ 2.67 cm², and the standard deviation is √2.67 ≈ 1.63 cm.\n\nCovariance shows how x and y change together. A positive covariance means that y tends to increase as x increases, and a negative one means that y tends to decrease. The covariance depends on the units, so it is divided by σx × σy. The result is Pearson's correlation coefficient r. It has no units and always lies between −1 and 1. If r = 1, the points lie on a straight line with positive gradient. If r = −1, the line has negative gradient.",
       "review": {
         "englishTerm": "Variance, standard deviation and correlation",
         "russianTerm": "Дисперсия, стандартное отклонение и корреляция",
         "contrast": {
-          "en": "Zero correlation does not rule out a nonlinear relationship. Correlation alone does not establish causation.",
-          "ru": "Нулевая корреляция не исключает нелинейную связь. Одна корреляция не устанавливает причинность."
+          "en": "A correlation coefficient r = 0 means that there is no straight-line relationship. A curved relationship can still exist: for x = −2, −1, 0, 1, 2 and y = x², r = 0, although y is fully determined by x. Also, a strong correlation does not prove that one variable causes the other.",
+          "ru": "Коэффициент корреляции r = 0 означает, что линейной связи нет. Криволинейная связь при этом может существовать: для x = −2, −1, 0, 1, 2 и y = x² получаем r = 0, хотя y полностью определяется значением x. Кроме того, сильная корреляция не доказывает, что одна переменная вызывает другую."
         },
         "sources": [
           {
@@ -241,35 +247,35 @@
   },
   "numberSystems": {
     "title": "Number Systems & Arithmetic",
-    "intro": "Classification of numbers, set notation, rounding, surds, exponents, standard form and absolute values.",
+    "intro": "This topic covers number sets, rounding and bounds, exponents and standard form, unit conversion, surds and absolute values.",
     "subTopics": {
-      "structureSets": "Structure & Sets — classification, set notation",
+      "structureSets": "Number sets and notation",
       "rounding": "Rounding & accuracy",
       "bounds": "Upper and lower bounds (Extended)",
-      "exponents": "Laws of exponents",
+      "exponents": "Exponents",
       "fractionalIndices": "Fractional indices (Extended)",
       "standardForm": "Standard form",
       "unitConversion": "Conversion of units",
-      "surdsSimplify": "Surds — simplifying",
-      "surdsOperate": "Surds — operations",
+      "surdsSimplify": "Simplifying surds",
+      "surdsOperate": "Operations with surds",
       "absolute": "Absolute values"
     },
     "subTopicsDetailed": {
       "structureSets": {
-        "name": "Structure & Sets — classification, set notation",
-        "rule": "Natural numbers count: ℕ={1,2,3,…} here. Integers ℤ also include zero and negative whole numbers. Rational numbers ℚ are a/b with integers a,b and b≠0. Real numbers ℝ comprise rational and irrational numbers. Thus ℕ⊂ℤ⊂ℚ⊂ℝ. A∪B contains elements in either set; A∩B contains elements in both; ∅ is empty; x∈A means membership; A⊆B means every element of A is in B.",
+        "name": "Classifying numbers and notation for sets",
+        "rule": "Each of these number sets lies inside the next one: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.\n\nNatural numbers ℕ = {0, 1, 2, 3, …} include zero. Integers ℤ = {…, −2, −1, 0, 1, 2, …} add the negative whole numbers. Rational numbers ℚ can be written as p/q, where p and q are integers and q ≠ 0. Real numbers ℝ are all the rational numbers and all the irrational numbers, such as √2.\n\nIn the notation for sets, x ∈ A means that x is one of the elements of A. A ∪ B (union) contains the elements in A or in B, and A ∩ B (intersection) contains the elements in both sets.",
         "examples": [
-          "√2 ∈ ℝ but √2 ∉ ℚ (it's irrational).",
-          "0.333… = 1/3 ∈ ℚ (recurring decimals are rational).",
-          "A = {1,2,3}, B = {3,4}. A∪B = {1,2,3,4}. A∩B = {3}.",
-          "{x ∈ ℤ : x² < 10} = {−3, −2, −1, 0, 1, 2, 3}."
+          "√2 ∈ ℝ, but √2 ∉ ℚ, because √2 is an irrational number.",
+          "A recurring decimal such as 0.333… = 1/3 is rational, so 0.333… ∈ ℚ.",
+          "A = {1, 2, 3} and B = {3, 4}, so A ∪ B = {1, 2, 3, 4} and A ∩ B = {3}.",
+          "{x ∈ ℤ | x² < 10} means the integers x with x² < 10, so it equals {−3, −2, −1, 0, 1, 2, 3}: 3² = 9 < 10, but 4² = 16 > 10."
         ],
         "review": {
-          "englishTerm": "Structure & Sets — classification, set notation",
-          "russianTerm": "Структура и множества — классификация, обозначения",
+          "englishTerm": "number sets",
+          "russianTerm": "числовые множества",
           "contrast": {
-            "en": "An element and a subset are different: 2∈ℕ but {2}⊆ℕ. Some books include 0 in ℕ; state the convention.",
-            "ru": "Элемент и подмножество различаются: 2∈ℕ, но {2}⊆ℕ. В некоторых учебниках 0 включают в ℕ; соглашение нужно указывать."
+            "en": "2 ∈ ℕ means 2 is one of the numbers in ℕ, but {2} ⊆ ℕ means all the elements of {2} are in ℕ. Some books start ℕ at 1, so state which convention you use.",
+            "ru": "2 ∈ ℕ означает, что 2 — одно из чисел в ℕ, а {2} ⊆ ℕ означает, что все элементы {2} входят в ℕ. Некоторые книги начинают ℕ с единицы, поэтому укажи, какое соглашение ты используешь."
           },
           "sources": [
             {
@@ -288,19 +294,19 @@
         }
       },
       "rounding": {
-        "name": "Rounding & accuracy",
-        "rule": "Rounding replaces a number by a nearby multiple of a chosen place value. Decimal places count digits after the decimal point; significant figures count from the first nonzero digit. For positive values here, a next digit 5–9 increases the retained digit; 0–4 leaves it unchanged.",
+        "name": "Rounding to decimal places and significant figures",
+        "rule": "Rounding replaces a number with a nearby simpler number, to a stated degree of accuracy. You can round to a place value, such as 2 decimal places, or to a number of significant figures. Decimal places count the digits after the decimal point; significant figures count from the first non-zero digit. Look at the first digit you remove: if it is 5 or more, add 1 to the last digit you keep; if it is 0 to 4, keep that digit unchanged. Round only the final answer, not the working.",
         "examples": [
-          "3.4567 ≈ 3.46 (2 d.p.), 3.457 (3 d.p.), 3.5 (2 s.f.).",
-          "0.004532 ≈ 0.005 (1 s.f.); the first significant digit is 4 and the next is 5.",
-          "1250 ≈ 1.3×10³ (2 s.f.); 1250 = 1.25×10³ (3 s.f.)."
+          "3.4567 rounded to 2 d.p. is 3.46, to 3 d.p. is 3.457, and to 2 s.f. is 3.5.",
+          "0.004532 rounded to 1 s.f. is 0.005: the first significant figure is 4, and the next digit is 5, so round up.",
+          "5400 rounded to 1 significant figure is 5000 (5 × 10³), because the next digit is 4, so the 5 stays the same."
         ],
         "review": {
-          "englishTerm": "Rounding & accuracy",
-          "russianTerm": "Округление и точность",
+          "englishTerm": "rounding",
+          "russianTerm": "округление",
           "contrast": {
-            "en": "Precision of the written result differs from accuracy relative to a true value. 1.25×10³ explicitly has three significant figures.",
-            "ru": "Точность записи отличается от близости к истинному значению. Запись 1.25×10³ явно содержит три значащие цифры."
+            "en": "Zeros at the end of a whole number are not significant: 1250 has 3 significant figures, not 4. Writing 1.25 × 10³ shows the three significant figures clearly.",
+            "ru": "Нули в конце целого числа не считаются значащими: в числе 1250 три значащие цифры, а не четыре. Запись 1,25 × 10³ наглядно показывает три значащие цифры."
           },
           "sources": [
             {
@@ -317,26 +323,26 @@
             }
           ],
           "model": {
-            "en": "Exact halfway cases depend on the rounding convention. These examples round positive ties upward.",
-            "ru": "Ровно половинные случаи зависят от соглашения. В этих примерах положительные половинные значения округляются вверх."
+            "en": "This rule is for positive numbers and for the convention used in this topic: an exact half is rounded up, so 2.5 rounds to 3. Some other conventions round an exact half to the nearest even whole number, which gives 2.",
+            "ru": "Это правило относится к положительным числам и к соглашению, принятому в этой теме. Число, ровно посередине между двумя значениями, округляют вверх: 2,5 округляется до 3. В некоторых других соглашениях точную половину округляют до ближайшего чётного целого, и тогда получается 2."
           }
         }
       },
       "bounds": {
-        "name": "Upper and lower bounds (Extended)",
-        "rule": "If a positive value is rounded to x to the nearest unit d using half-up rounding, its original value v satisfies x−d/2≤v<x+d/2. These endpoints are the lower and upper bounds; the interval describes rounding uncertainty.",
+        "name": "Bounds of a rounded value (Extended)",
+        "rule": "The lower bound (LB) is the smallest value that rounds to x. The upper bound (UB) is not reached: the original value can get close to it but never equal it. If a positive value v is rounded to x, to the nearest unit d, then x − d/2 ≤ v < x + d/2, where x, v and d are in the same units.",
         "examples": [
-          "Length = 27 cm (nearest cm). LB = 26.5; UB = 27.5.",
-          "Time = 8.4 s (1 d.p.). LB = 8.35; UB = 8.45.",
-          "For positive distance d and time t, average speed v = d/t has lower bound d_L/t_U and upper bound d_U/t_L. A strict endpoint gives a limiting bound, not an attained minimum or maximum.",
-          "Mass = 2.50 kg (3 s.f.). LB = 2.495; UB = 2.505."
+          "A length of 27 cm, to the nearest cm, has LB = 26.5 cm and UB = 27.5 cm.",
+          "A time of 8.4 s, to 1 d.p., has LB = 8.35 s and UB = 8.45 s.",
+          "Alex measures 100 m (nearest metre) and 9.6 s (1 d.p.), so 99.5 ≤ d < 100.5 and 9.55 ≤ t < 9.65. The speed v = d/t has a lower bound of 99.5/9.65 ≈ 10.31 m/s and an upper bound of 100.5/9.55 ≈ 10.52 m/s; the speed gets close to these bounds but never reaches them.",
+          "A mass of 2.50 kg, to 3 s.f., has LB = 2.495 kg and UB = 2.505 kg."
         ],
         "review": {
-          "englishTerm": "Upper and lower bounds (Extended)",
-          "russianTerm": "Верхние и нижние границы (Extended)",
+          "englishTerm": "lower bound",
+          "russianTerm": "нижняя граница",
           "contrast": {
-            "en": "An upper bound need not be an attainable maximum. Endpoint inclusion changes with the tie rule; bounds do not account for every measurement error.",
-            "ru": "Верхняя граница не обязательно достигается. Включение концов зависит от правила округления; границы не учитывают все погрешности измерения."
+            "en": "Whether a bound is included depends on the rounding convention. A length of 7 cm, to the nearest centimetre, means 6.5 ≤ x < 7.5, where x is the true length, because an exact half is rounded up. Bounds cover only rounding error, not the error of the measuring instrument.",
+            "ru": "Входит ли граница (bound) в промежуток, зависит от правила округления. Длина 7 см (с точностью до 1 см) означает 6,5 ≤ x < 7,5, где x — точная длина: ровно посередине округляют вверх. Такие границы учитывают только погрешность округления, но не погрешность измерительного прибора."
           },
           "sources": [
             {
@@ -353,14 +359,14 @@
             }
           ],
           "model": {
-            "en": "For positive distance s and time t, bounds for s/t use s_low/t_high and s_high/t_low, with t_low>0.",
-            "ru": "Для положительных пути s и времени t границы s/t находят как s_low/t_high и s_high/t_low при t_low>0."
+            "en": "Let the distance s (in metres) and the time t (in seconds) be positive, with s_low ≤ s ≤ s_high and t_low ≤ t ≤ t_high, where t_low > 0. Then the lower bound of the speed s/t is s_low/t_high, and the upper bound is s_high/t_low.",
+            "ru": "Пусть расстояние s (в метрах) и время t (в секундах) положительны, s_low ≤ s ≤ s_high и t_low ≤ t ≤ t_high, причём t_low > 0. Тогда нижняя граница (lower bound) скорости s/t равна s_low/t_high, а верхняя — s_high/t_low."
           }
         }
       },
       "exponents": {
         "name": "Laws of exponents",
-        "rule": "For positive integer n, aⁿ is a product of n factors equal to a. Integer exponent laws: aᵐaⁿ=aᵐ⁺ⁿ, aᵐ/aⁿ=aᵐ⁻ⁿ, (aᵐ)ⁿ=aᵐⁿ and (ab)ⁿ=aⁿbⁿ. For a≠0, a⁰=1 and a⁻ⁿ=1/aⁿ. Every denominator must be nonzero.",
+        "rule": "For a positive integer n, aⁿ means n factors of a multiplied together. So aᵐ × aⁿ = aᵐ⁺ⁿ, because there are m + n factors of a. For a ≠ 0, the quotient rule gives aᵐ ÷ aⁿ = aᵐ⁻ⁿ, and the power rule gives (aᵐ)ⁿ = aᵐⁿ. The power of products rule gives (ab)ⁿ = aⁿbⁿ. The zero power rule gives a⁰ = 1, and the negative power rule gives a⁻ⁿ = 1/aⁿ, both for a ≠ 0.",
         "examples": [
           "3² · 3⁴ = 3⁶ = 729.",
           "(2³)² = 2⁶ = 64.",
@@ -368,11 +374,11 @@
           "(2x³)² = 4x⁶."
         ],
         "review": {
-          "englishTerm": "Laws of exponents",
-          "russianTerm": "Свойства степеней",
+          "englishTerm": "exponent",
+          "russianTerm": "показатель степени",
           "contrast": {
-            "en": "Adding exponents requires the same base; distributing a power over a product requires the same exponent. A negative exponent means a reciprocal.",
-            "ru": "Сложение показателей требует одинакового основания; степень произведения распределяют с одним показателем. Отрицательный показатель означает обратную величину."
+            "en": "You cannot add exponents when the bases differ: 2³ × 3⁴ is not 6⁷. A power of a sum is not the sum of the powers: (2 + 3)² = 25, not 2² + 3² = 13.",
+            "ru": "При умножении степеней с разными основаниями показатели складывать нельзя: 2³ · 3⁴ не равно 6⁷. Степень суммы не равна сумме степеней: (2 + 3)² = 25, а не 2² + 3² = 13."
           },
           "sources": [
             {
@@ -385,20 +391,20 @@
         }
       },
       "fractionalIndices": {
-        "name": "Fractional indices (Extended)",
-        "rule": "For a>0 and integers m,n with n>0, a^(m/n)=(ⁿ√a)ᵐ. The positive nth root is the number whose nth power is a. A negative exponent additionally takes the reciprocal.",
+        "name": "Writing roots as fractional indices (Extended)",
+        "rule": "For a > 0 and integers m and n with n > 0, a^(m/n) = (ⁿ√a)ᵐ. The denominator n gives the root, and the numerator m gives the power. The nth root of a is the positive number whose nth power is a. If m is negative, take the reciprocal of the result.",
         "examples": [
           "8^(1/3) = ∛8 = 2.",
           "16^(3/4) = (⁴√16)³ = 2³ = 8.",
           "27^(−2/3) = 1 / 27^(2/3) = 1 / (∛27)² = 1/9.",
-          "x^(1/2) = √x."
+          "The side of a square with area 36 cm² is 36^(1/2) = √36 = 6 cm."
         ],
         "review": {
-          "englishTerm": "Fractional indices (Extended)",
-          "russianTerm": "Дробные степени (Extended)",
+          "englishTerm": "fractional exponent",
+          "russianTerm": "дробный показатель степени",
           "contrast": {
-            "en": "√a denotes the nonnegative square root, whereas solving x²=a may give two solutions. For negative a, real roots and exponent laws require separate domain checks.",
-            "ru": "√a обозначает неотрицательный квадратный корень, а уравнение x²=a может иметь два корня. Для a<0 действительные корни и свойства степеней требуют отдельной проверки области определения."
+            "en": "The symbol √9 gives only the principal (positive) square root, 3. The equation x² = 9, however, has two solutions: x = 3 and x = −3.",
+            "ru": "Знак √9 обозначает только арифметический квадратный корень (principal square root), то есть 3. А уравнение x² = 9 имеет два решения: x = 3 и x = −3."
           },
           "sources": [
             {
@@ -421,26 +427,26 @@
             }
           ],
           "model": {
-            "en": "The main exponent rule here uses a>0. Even real roots require nonnegative radicands; odd roots such as ∛(−8)=−2 exist.",
-            "ru": "Основное правило здесь дано при a>0. Для действительного корня чётной степени подкоренное выражение неотрицательно; нечётные корни, например ∛(−8)=−2, существуют."
+            "en": "The rule above is for a > 0. Even roots of negative numbers are not real: √(−4) does not exist. Odd roots do exist, for example ∛(−8) = −2.",
+            "ru": "Правило выше верно при a > 0. Корни чётной степени из отрицательных чисел не существуют в действительных числах, например √(−4). Корни нечётной степени существуют, например ∛(−8) = −2."
           }
         }
       },
       "standardForm": {
         "name": "Standard form (scientific notation)",
-        "rule": "Scientific notation writes a nonzero real number as a×10ⁿ, where n is an integer and 1≤|a|<10. For positive numbers this is 1≤a<10. The coefficient holds the significant digits; n gives the power of ten. Zero is written separately as 0.",
+        "rule": "Standard form, or scientific notation, writes a non-zero number as a × 10ⁿ, where n is an integer and 1 ≤ |a| < 10. The coefficient a carries the significant figures. The power of ten, n, shows how far the decimal point moves: to the right if n is positive, to the left if n is negative. Zero has no standard form; it is written simply as 0.",
         "examples": [
-          "540,000 = 5.4 × 10⁵.",
-          "0.000072 = 7.2 × 10⁻⁵.",
-          "Speed of light: 3 × 10⁸ m/s.",
-          "Multiply: (3×10⁴) × (2×10⁻²) = 6×10² = 600."
+          "540,000 = 5.4 × 100,000 = 5.4 × 10⁵.",
+          "0.000072 = 7.2 × 0.00001 = 7.2 × 10⁻⁵.",
+          "The speed of light is about 3.0 × 10⁸ m/s, or 300,000,000 m/s.",
+          "(3 × 10⁴) × (2 × 10⁻²) = 6 × 10² = 600, because 3 × 2 = 6 and 10⁴ × 10⁻² = 10²."
         ],
         "review": {
           "englishTerm": "Standard form (scientific notation)",
-          "russianTerm": "Стандартная (научная) форма",
+          "russianTerm": "Стандартный вид числа (научная запись)",
           "contrast": {
-            "en": "5.4×10⁵=54×10⁴ numerically, but only the first is normalised scientific notation. Standard form has other meanings for polynomials.",
-            "ru": "Численно 5.4×10⁵=54×10⁴, но только первая запись нормализована. Английское standard form имеет и другие значения для многочленов."
+            "en": "54 × 10⁴ and 5.4 × 10⁵ are equal, but only 5.4 × 10⁵ is in standard form, because 5.4 lies between 1 and 10. In algebra, standard form means ax² + bx + c for a quadratic function.",
+            "ru": "54 × 10⁴ и 5,4 × 10⁵ равны. Но стандартный вид числа — только вторая запись, потому что коэффициент 5,4 лежит между 1 и 10. В алгебре «стандартным видом» называют запись квадратичной функции: ax² + bx + c."
           },
           "sources": [
             {
@@ -453,20 +459,20 @@
         }
       },
       "unitConversion": {
-        "name": "Conversion of units",
-        "rule": "Unit conversion expresses the same quantity with another unit. Multiply by a ratio equal to one: 1 km=1000 m, 1 t=1000 kg, 1 L=1000 cm³ and 1 m³=1000 L. Square length conversion factors for area, cube them for volume, and convert numerator and denominator for compound units.",
+        "name": "Converting units of length, area, volume and speed",
+        "rule": "Converting units changes the unit of measurement, but not the quantity. Multiply by a conversion factor equal to 1, such as 1000 m / 1 km = 1. For area, square the conversion factor; for volume, cube it. For a compound unit such as speed in m/s, convert the numerator and the denominator separately.",
         "examples": [
-          "72 km/h → 72/3.6 = 20 m/s.",
-          "5 m² = 5 × 100 × 100 = 50,000 cm² (because 1 m² has 100×100 cm²).",
-          "2.5 hours = 2.5 × 60 × 60 = 9000 s.",
-          "0.5 L = 500 cm³."
+          "72 km/h = 72 × 1000 m / 3600 s = 20 m/s. A shortcut is to divide by 3.6, because 1 m/s = 3.6 km/h.",
+          "1 m² = 100 × 100 cm² = 10,000 cm², so 5 m² = 5 × 10,000 cm² = 50,000 cm².",
+          "2.5 hours = 2.5 × 60 × 60 s = 9000 s. One hour has 60 minutes, and each minute has 60 seconds.",
+          "A 0.5-litre bottle holds 500 cm³, because 0.5 × 1000 = 500 and 1 litre = 1000 cm³."
         ],
         "review": {
-          "englishTerm": "Conversion of units",
-          "russianTerm": "Перевод единиц измерения",
+          "englishTerm": "compound unit",
+          "russianTerm": "составная единица измерения",
           "contrast": {
-            "en": "A numerical value changes when the unit changes; the physical quantity stays the same. 1 m²=10,000 cm², not 100 cm².",
-            "ru": "При смене единицы меняется числовое значение, но сама величина сохраняется. 1 м²=10 000 см², а не 100 см²."
+            "en": "A common mistake is to forget to square the 100: 1 m = 100 cm, so 1 m² = (100 cm)² = 10 000 cm², not 100 cm².",
+            "ru": "Частая ошибка — забыть возвести в квадрат число 100: 1 м = 100 см, поэтому 1 м² = (100 см)² = 10 000 см², а не 100 см²."
           },
           "sources": [
             {
@@ -479,20 +485,20 @@
         }
       },
       "surdsSimplify": {
-        "name": "Surds — simplifying",
-        "rule": "A surd is an irrational root of a rational number, kept in exact root form. Here we mainly use √n for positive integers n that are not perfect squares. Simplify by taking square factors out: √(a²b)=|a|√b for real a and b≥0.",
+        "name": "Writing a surd in simplest form",
+        "rule": "A surd is a square root with an irrational value, such as √2 or √12. The square root of a positive whole number that is not a perfect square is always a surd. To simplify a surd, take out a square factor: √(a²b) = |a|√b for real a and b ≥ 0.",
         "examples": [
-          "√50=√(25·2)=5√2.",
-          "√72=√(36·2)=6√2.",
-          "√(8x²)=2|x|√2 for real x; when x=−1, the result is 2√2.",
-          "√300=10√3."
+          "√50 = √(25 × 2) = 5√2",
+          "√72 = √(36 × 2) = 6√2",
+          "√(8x²) = 2|x|√2 for real x. When x = −1, the result is 2√2, not −2√2, because the square root sign means the positive root.",
+          "√300 = √(100 × 3) = 10√3"
         ],
         "review": {
-          "englishTerm": "Surds — simplifying",
-          "russianTerm": "Корни — упрощение",
+          "englishTerm": "surd",
+          "russianTerm": "иррациональный корень",
           "contrast": {
-            "en": "A radical is the root notation; a surd has an irrational value. √9=3 is a radical expression but not a surd. π is irrational but is not a surd.",
-            "ru": "Радикал — знак корня; surd имеет иррациональное значение. √9=3 записано с радикалом, но это не surd. Число π иррационально, но не является surd."
+            "en": "√9 = 3 is written with a root sign, but its value is rational, so it is not a surd. π is irrational, but it is not the square root of a rational number, so it is not a surd either.",
+            "ru": "√9 = 3 записано со знаком корня, но значение рационально, поэтому это не иррациональный корень. Число π иррационально, но оно не является корнем из рационального числа, поэтому тоже не иррациональный корень."
           },
           "sources": [
             {
@@ -524,7 +530,7 @@
             "kind": "comparison",
             "title": {
               "en": "Root expression or surd?",
-              "ru": "Корень или иррациональный корень?"
+              "ru": "Выражение с корнем или иррациональный корень?"
             },
             "items": [
               {
@@ -533,8 +539,8 @@
                   "ru": "√9=3"
                 },
                 "detail": {
-                  "en": "Rational; not a surd",
-                  "ru": "Рациональное число; не surd"
+                  "en": "Simplifies to the whole number 3, so no surd is left",
+                  "ru": "Упрощается до целого числа 3, поэтому иррационального корня не остаётся"
                 }
               },
               {
@@ -543,8 +549,8 @@
                   "ru": "√12=2√3"
                 },
                 "detail": {
-                  "en": "Irrational; a surd",
-                  "ru": "Иррациональный корень; surd"
+                  "en": "Irrational value, so it is a surd",
+                  "ru": "Значение иррационально, поэтому это иррациональный корень"
                 }
               },
               {
@@ -553,33 +559,33 @@
                   "ru": "√(x²)=|x|"
                 },
                 "detail": {
-                  "en": "Principal square root is nonnegative",
-                  "ru": "Арифметический квадратный корень неотрицателен"
+                  "en": "For x = −3 the value is 3: rational, so not a surd",
+                  "ru": "При x = −3 значение равно 3. Оно рационально, поэтому это не иррациональный корень"
                 }
               }
             ],
             "caption": {
-              "en": "Classify the value, not just the presence of a radical sign.",
-              "ru": "Классифицируйте значение, а не само наличие знака корня."
+              "en": "Simplify the root first, then decide whether the value is rational.",
+              "ru": "Сначала упрости корень, а потом реши, рационально ли значение."
             }
           }
         }
       },
       "surdsOperate": {
-        "name": "Surds — operations & rationalising",
-        "rule": "Simplify radicals before combining like terms: p√d+q√d=(p+q)√d. For a,b≥0, √a√b=√(ab); for b>0, √a/√b=√(a/b). Rationalising rewrites a fraction with a rational denominator by multiplying numerator and denominator by the same nonzero factor, often a conjugate.",
+        "name": "Operations with surds and rationalising the denominator",
+        "rule": "Multiplying and dividing: combine two roots under one root sign, √a × √b = √(ab) and √a/√b = √(a/b), for a ≥ 0 and b > 0.\n\nAdding and subtracting: only like surds can be combined, that is, surds with the same number under the root: p√d + q√d = (p + q)√d.\n\nRationalising the denominator: rewrite a fraction with a surd in the denominator as an equal fraction with a rational denominator. Multiply the numerator and the denominator by the same nonzero expression, often the conjugate, which has the opposite sign between its two terms.",
         "examples": [
-          "√3 · √12 = √36 = 6.",
-          "(2+√5)(2−√5) = 4 − 5 = −1 (difference of squares).",
-          "5/√2 × √2/√2 = 5√2/2.",
-          "1/(3+√2) × (3−√2)/(3−√2) = (3−√2)/7."
+          "√3 × √12 = √36 = 6",
+          "(2 + √5)(2 − √5) = 2² − (√5)² = 4 − 5 = −1, a difference of squares",
+          "5/√2 = (5 × √2)/(√2 × √2) = 5√2/2, multiplying the numerator and the denominator by √2",
+          "1/(3 + √2) = (3 − √2)/((3 + √2)(3 − √2)) = (3 − √2)/7, since (3 + √2)(3 − √2) = 9 − 2 = 7"
         ],
         "review": {
-          "englishTerm": "Surds — operations & rationalising",
-          "russianTerm": "Корни — операции и рационализация",
+          "englishTerm": "rationalising the denominator",
+          "russianTerm": "рационализация знаменателя",
           "contrast": {
-            "en": "A conjugate changes the middle sign: 3+√2 and 3−√2. Roots do not distribute over addition: √(a+b) is generally not √a+√b.",
-            "ru": "Сопряжённые выражения отличаются знаком между слагаемыми: 3+√2 и 3−√2. Корень в общем случае не распределяется по сумме: √(a+b)≠√a+√b."
+            "en": "A root of a sum is not the sum of the roots: √(9 + 16) = √25 = 5, but √9 + √16 = 3 + 4 = 7.",
+            "ru": "Корень из суммы не равен сумме корней: √(9 + 16) = √25 = 5, а √9 + √16 = 3 + 4 = 7."
           },
           "sources": [
             {
@@ -610,20 +616,20 @@
         }
       },
       "absolute": {
-        "name": "Absolute values",
-        "rule": "For a real number x, |x| is its distance from zero on the number line: |x|=x for x≥0 and |x|=−x for x<0. Thus |x|≥0 and |a−b| is the distance between a and b.",
+        "name": "How far is a number from zero?",
+        "rule": "The absolute value of a number is its distance from 0 on the number line, written |x|. For a real number x: |x| = x if x ≥ 0, and |x| = −x if x < 0. It can also be written as |x| = √(x²). So |x| is never negative.",
         "examples": [
           "|−7| = 7.",
-          "|3 − 10| = 7.",
-          "|x − 5| = 3 means x = 8 or x = 2.",
-          "|2x + 1| < 5 means −5 < 2x+1 < 5, so −3 < x < 2."
+          "|3 − 10| = |−7| = 7, the distance from 3 to 10",
+          "|x − 5| = 3 means x − 5 = 3 or x − 5 = −3, so x = 8 or x = 2",
+          "|2x + 1| < 5 means −5 < 2x + 1 < 5, so −3 < x < 2"
         ],
         "review": {
-          "englishTerm": "Absolute values",
-          "russianTerm": "Модули чисел",
+          "englishTerm": "absolute value",
+          "russianTerm": "модуль числа",
           "contrast": {
-            "en": "An absolute value is a nonnegative magnitude, not a rule that always changes the sign. For k>0, |x|<k means −k<x<k; |x|>k means x<−k or x>k.",
-            "ru": "Модуль — неотрицательная величина, а не правило обязательной смены знака. При k>0 условие |x|<k равносильно −k<x<k; |x|>k — условию x<−k или x>k."
+            "en": "The absolute value of a difference is not the difference of absolute values: |2 − 9| = |−7| = 7, but |2| − |9| = 2 − 9 = −7.",
+            "ru": "Модуль разности не равен разности модулей: |2 − 9| = |−7| = 7, а |2| − |9| = 2 − 9 = −7."
           },
           "sources": [
             {
@@ -2071,15 +2077,15 @@
   },
   "eoyPractice": {
     "title": "EOY Practice",
-    "intro": "Use the topic practice and contextual questions to rehearse explaining a complete mathematical solution.",
+    "intro": "Use topic practice and real-life questions to practise writing complete solutions with explanations.",
     "assessPrepLink": "Go to AssessPrep",
     "openByChapter": "Browse by chapter"
   },
   "criteriaTrainer": {
     "title": "Criteria Trainer",
-    "intro": "Practice in the format of MYP Criteria A, B, C and D.",
+    "intro": "Practise tasks in the format of MYP Criteria A, B, C and D.",
     "criterionA": {
-      "title": "Criterion A — Knowing & Understanding",
+      "title": "Criterion A — Knowing and Understanding",
       "description": "Short calculation tasks across all five topics."
     },
     "criterionB": {
@@ -2087,19 +2093,19 @@
       "description": "Spot the pattern → general rule → verify → justify."
     },
     "criterionC": {
-      "title": "Criterion C — Communication",
+      "title": "Criterion C — Communicating",
       "description": "Checklist for high-quality mathematical communication."
     },
     "criterionD": {
-      "title": "Criterion D — Applying to Real Life",
+      "title": "Criterion D — Applying mathematics in real-life contexts",
       "description": "Real-world problem solving — identify factors, calculate, justify, evaluate."
     }
   },
   "sources": {
-    "standard": "Standard book 4-5",
-    "extended": "Extended book 4-5",
-    "standardAnswers": "Standard Answers",
-    "extendedAnswers": "Extended Answers",
+    "standard": "Standard book, MYP 4–5",
+    "extended": "Extended book, MYP 4–5",
+    "standardAnswers": "Standard answers",
+    "extendedAnswers": "Extended answers",
     "chapter": "Chapter",
     "mixedPractice": "Mixed practice",
     "reviewInContext": "Review in context"
@@ -2109,11 +2115,11 @@
       "title": "Standard Form Converter",
       "description": "Convert a finite nonzero number to a×10ⁿ with 1≤|a|<10. Displayed values are rounded, not a measurement of precision.",
       "review": {
-        "englishTerm": "Standard form (scientific notation)",
-        "russianTerm": "Стандартная (научная) форма",
+        "englishTerm": "Standard form on a calculator",
+        "russianTerm": "Стандартный вид на калькуляторе",
         "contrast": {
-          "en": "5.4×10⁵=54×10⁴ numerically, but only the first is normalised scientific notation. Standard form has other meanings for polynomials.",
-          "ru": "Численно 5.4×10⁵=54×10⁴, но только первая запись нормализована. Английское standard form имеет и другие значения для многочленов."
+          "en": "A calculator writes 5.4 × 10⁵ as 5.4E5. The E means 'times 10 to the power', so 5.4E5 is 540,000, not 5.4 × 5.",
+          "ru": "Калькулятор записывает 5,4 × 10⁵ как 5,4E5. Буква E означает «× 10 в степени», поэтому 5,4E5 — это 540 000, а не 5,4 × 5."
         },
         "sources": [
           {
@@ -2269,11 +2275,11 @@
       "title": "Surd Simplifier",
       "description": "Simplify √n for integers 1≤n≤1000. A perfect-square input produces a rational result; not every radical is a surd.",
       "review": {
-        "englishTerm": "Surds — simplifying",
-        "russianTerm": "Корни — упрощение",
+        "englishTerm": "simplest surd form",
+        "russianTerm": "простейший вид корня",
         "contrast": {
-          "en": "A radical is the root notation; a surd has an irrational value. √9=3 is a radical expression but not a surd. π is irrational but is not a surd.",
-          "ru": "Радикал — знак корня; surd имеет иррациональное значение. √9=3 записано с радикалом, но это не surd. Число π иррационально, но не является surd."
+          "en": "Keep the surd form for an exact answer. √12 = 2√3 is exact, but 2√3 ≈ 3.46 is only a rounded value.",
+          "ru": "Для точного ответа оставляй корень. √12 = 2√3 — точное значение, а 2√3 ≈ 3,46 — только округлённое значение."
         },
         "sources": [
           {
@@ -2304,44 +2310,44 @@
         "visual": {
           "kind": "comparison",
           "title": {
-            "en": "Root expression or surd?",
-            "ru": "Корень или иррациональный корень?"
+            "en": "Is the root fully simplified?",
+            "ru": "Корень упрощён до конца?"
           },
           "items": [
             {
               "label": {
-                "en": "√9=3",
-                "ru": "√9=3"
+                "en": "√98=7√2",
+                "ru": "√98=7√2"
               },
               "detail": {
-                "en": "Rational; not a surd",
-                "ru": "Рациональное число; не surd"
+                "en": "Complete: 2 has no square factor left",
+                "ru": "Готово: у 2 нет квадратного множителя"
               }
             },
             {
               "label": {
-                "en": "√12=2√3",
-                "ru": "√12=2√3"
+                "en": "√48=4√3",
+                "ru": "√48=4√3"
               },
               "detail": {
-                "en": "Irrational; a surd",
-                "ru": "Иррациональный корень; surd"
+                "en": "Taking out only 4 gives 2√12, which is not fully simplified: 12 still has the square factor 4",
+                "ru": "Если вынести только 4, получится 2√12. Это ещё не полностью упрощённое выражение: в 12 есть квадратный множитель 4"
               }
             },
             {
               "label": {
-                "en": "√(x²)=|x|",
-                "ru": "√(x²)=|x|"
+                "en": "√108=6√3",
+                "ru": "√108=6√3"
               },
               "detail": {
-                "en": "Principal square root is nonnegative",
-                "ru": "Арифметический квадратный корень неотрицателен"
+                "en": "Check by squaring: (6√3)² = 36 × 3 = 108",
+                "ru": "Проверка возведением в квадрат: (6√3)² = 36 × 3 = 108"
               }
             }
           ],
           "caption": {
-            "en": "Classify the value, not just the presence of a radical sign.",
-            "ru": "Классифицируйте значение, а не само наличие знака корня."
+            "en": "The simplest form has no square factor left under the root.",
+            "ru": "Простейший вид: под корнем не осталось квадратного множителя."
           }
         }
       },
@@ -2484,11 +2490,11 @@
       "labelQ": "ℚ Rational",
       "labelR": "ℝ Real",
       "review": {
-        "englishTerm": "Structure & Sets — classification, set notation",
-        "russianTerm": "Структура и множества — классификация, обозначения",
+        "englishTerm": "Venn diagram",
+        "russianTerm": "диаграмма Венна (круги Эйлера)",
         "contrast": {
-          "en": "An element and a subset are different: 2∈ℕ but {2}⊆ℕ. Some books include 0 in ℕ; state the convention.",
-          "ru": "Элемент и подмножество различаются: 2∈ℕ, но {2}⊆ℕ. В некоторых учебниках 0 включают в ℕ; соглашение нужно указывать."
+          "en": "Nested circles: a number inside the ℕ circle is also inside the ℤ, ℚ and ℝ circles. 3 belongs to all four sets, but −3 is not in ℕ.",
+          "ru": "Вложенные круги: число внутри круга ℕ находится также внутри кругов ℤ, ℚ и ℝ. Число 3 входит во все четыре множества, а −3 в ℕ не входит."
         },
         "sources": [
           {

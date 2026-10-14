@@ -1,4 +1,5 @@
 import { useOnce } from './OnceScope';
+import { RichText, hasRichMarks } from './RichText';
 import {FormulaTeaching} from './FormulaTeaching';
 import { useId } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -51,6 +52,17 @@ export function DefinitionDiagram({ visual, language }: { visual: NonNullable<De
   </figure>;
 }
 
+// a plain paragraph stays as it was; a list, a second paragraph or bold goes through RichText
+function Block({ text }: { text: string }) {
+  return hasRichMarks(text) ? <RichText text={text} /> : <p>{text}</p>;
+}
+
+// a labelled field: a plain sentence stays on the label's line; a list, a second paragraph or bold goes below the label
+function Labelled({ className, label, text }: { className: string; label: string; text: string }) {
+  if (!hasRichMarks(text)) return <p className={className}><strong>{label}</strong> {text}</p>;
+  return <div className={className}><strong>{label}</strong><RichText text={text} /></div>;
+}
+
 export function DefinitionSupport({ review, language }: { review?: DefinitionReview | null; language?: 'en' | 'ru' }) {
   const { i18n } = useTranslation();
   const lang = language ?? (i18n.language.startsWith('ru') ? 'ru' : 'en');
@@ -60,9 +72,9 @@ export function DefinitionSupport({ review, language }: { review?: DefinitionRev
   const ru = lang === 'ru';
   return <div className="definition-support" lang={lang}>
     <p className="definition-equivalents">{ru ? <><span lang="ru">{review.russianTerm}</span> <span lang="en">({review.englishTerm})</span></> : <><span lang="en">{review.englishTerm}</span>{review.russianTerm && <><span aria-hidden="true"> · </span><span lang="ru">{review.russianTerm}</span></>}</>}</p>
-    {review.explanation && <p>{text(review.explanation)}</p>}
-    {review.contrast && showContrast && <p className="definition-contrast"><strong>{ru ? 'Не путать:' : 'Distinguish:'}</strong> {text(review.contrast)}</p>}
-    {review.model && showModel && <p className="definition-model"><strong>{ru ? 'Область применения:' : 'Scope of the model:'}</strong> {text(review.model)}</p>}
+    {review.explanation && <Block text={text(review.explanation)} />}
+    {review.contrast && showContrast && <Labelled className="definition-contrast" label={ru ? 'Не путать:' : 'Distinguish:'} text={text(review.contrast)} />}
+    {review.model && showModel && <Labelled className="definition-model" label={ru ? 'Область применения:' : 'Scope of the model:'} text={text(review.model)} />}
     <FormulaTeaching text={[text(review.explanation),text(review.contrast),text(review.model)].join(' ')}/>
     {review.visual && <DefinitionDiagram visual={review.visual} language={lang}/>}
   </div>;

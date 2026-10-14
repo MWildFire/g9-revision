@@ -18,6 +18,11 @@ const resources = {
   },
 };
 
+// the page language follows the interface language, so screen readers and hyphenation use the right one
+i18n.on('languageChanged', lng => {
+  document.documentElement.lang = lng.startsWith('ru') ? 'ru' : 'en';
+});
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)

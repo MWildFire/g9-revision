@@ -31,7 +31,7 @@ npm run qa:render -- --batch <batch> --mobile --shots   # must end with 0 failed
 - `delete` and `create` work for i18n keys only. Add `"bilingual": true` to `create` for an `{en, ru}` object such as `review.contrast`.
 - TypeScript items are written back by locating the old string literal. Any string that occurs more than once in the batch files (short or long) needs `"replaceAll": true` — every copy changes, and copies can sit on other pages; otherwise edit that copy by hand and re-run extract. After each `content:apply`, run `content:extract` again before applying more edits to the same files: TSX item ids are line.column and shift.
 - What the tool cannot do (new sections in components, reordering, new formula cards), do by hand with the editor, then run extract + lint again.
-- Text formatting the site renders: blank line = new paragraph, lines starting with `- ` = list, `**bold**`. Fields that show plain text (rule, examples, callouts) do not render lists or bold: write those as sentences.
+- Text formatting the site renders: blank line = new paragraph, lines starting with `- ` = list (a list may follow a sentence with no blank line), `**bold**`. It works in the definition fields (explanation, «Distinguish», «Scope of the model»), in the rule, use, body, tip, watch-out and note fields of a card, and in practice answers. Items of an `examples` list are single lines: write them as sentences.
 - `"allowDuplicate": true` (with `why`) on a `keep` or text line tells the repeat check that a long text may match another field on purpose, e.g. a section title and its term. Use it only for that case; repeated sentences inside one page are still errors.
 
 ### When an old test fails after a content change

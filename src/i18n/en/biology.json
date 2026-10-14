@@ -3233,29 +3233,29 @@
   },
   "immune": {
     "title": "Health & Disease",
-    "intro": "How the body stays healthy and defends itself. Communicable vs non-communicable diseases, pathogens, immune response, vaccination, antibiotics.",
+    "intro": "How the body stays healthy and defends itself. This page covers infectious and non-communicable diseases, pathogens, the body's defences, vaccination and antibiotics.",
     "sections": {
       "diseaseTypes": {
-        "title": "Communicable vs non-communicable diseases",
+        "title": "Communicable and non-communicable diseases",
         "detailed": {
           "communicable": {
             "name": "Communicable (infectious) diseases",
-            "rule": "A communicable disease is an infectious disease whose causative agent can pass directly or indirectly between hosts. Transmission may involve air, water, food, body fluids or vectors. Infection means an agent has entered and multiplied; it does not always produce symptoms.",
+            "rule": "A communicable disease is caused by a pathogen and can pass from one person to another, directly or indirectly.\n\nThe pathogen can travel through direct contact, including contact with bodily fluids, in droplets from coughs and sneezes, through contaminated food or water, or through a vector. A vector is an organism that carries a pathogen from one host to another, such as a mosquito.",
             "examples": [
-              "TB (tuberculosis): bacterial, lung infection, spread by coughing.",
-              "Influenza: viral, airborne droplets.",
-              "Malaria: protist (Plasmodium) carried by Anopheles mosquito.",
-              "Athlete's foot: fungal, spread by contact in damp areas.",
-              "Respiratory viruses such as SARS-CoV-2 can spread in infectious respiratory particles, including small airborne particles.",
-              "Cholera: bacterial, contaminated water."
+              "Tuberculosis (TB) is caused by the bacterium Mycobacterium tuberculosis and spreads through the air when an infected person coughs.",
+              "Influenza (flu) is caused by a virus and spreads in tiny droplets from the coughs and sneezes of infected people.",
+              "Malaria is caused by a protist (Plasmodium) and is spread by the bite of an infected Anopheles mosquito.",
+              "Athlete's foot is caused by a fungus and spreads by contact in damp places, such as showers and changing rooms.",
+              "Hepatitis B is a viral infection of the liver that spreads through infected blood and other bodily fluids, for example through shared needles or unprotected sex.",
+              "Cholera is caused by a bacterium that spreads through water or food contaminated with faeces."
             ],
-            "tip": "Always identify: PATHOGEN TYPE + TRANSMISSION ROUTE. These two facts unlock most exam questions on infections.",
+            "tip": "When you write about an infection, state the type of pathogen and the transmission route.",
             "review": {
               "englishTerm": "Communicable (infectious) diseases",
-              "russianTerm": "Заразные (инфекционные) болезни",
+              "russianTerm": "Инфекционные болезни",
               "contrast": {
-                "en": "Infection is the establishment of an agent in a host; disease involves harmful effects. A person can transmit some infections without symptoms.",
-                "ru": "Инфекция — внедрение и развитие возбудителя в хозяине; болезнь включает вредные проявления. Некоторые инфекции передаются и без симптомов."
+                "en": "Infection means a pathogen has entered the body and is multiplying there. Disease means the infection is causing harm to the body, usually with symptoms. A person can be infected with no symptoms and still pass the pathogen on.",
+                "ru": "Инфекция — это попадание патогена в организм и его размножение в нём. Болезнь — это вред, который инфекция наносит организму, обычно с симптомами. Человек может быть инфицирован без симптомов и всё же передать патоген другим людям."
               },
               "sources": [
                 {
@@ -3287,18 +3287,18 @@
           },
           "nonCommunicable": {
             "name": "Non-communicable diseases",
-            "rule": "A non-communicable disease is not transmitted between people as an infection. Causes can include genetic, physiological, environmental and behavioural factors. The category includes inherited disorders and many chronic diseases; it does not mean every case is caused by lifestyle.",
+            "rule": "A non-communicable disease cannot be passed from one person to another, and it is usually not caused by a pathogen.\n\nCauses include genes, problems with body processes such as insulin production, the environment and behaviour. Many chronic (long-lasting) diseases belong to this group, for example heart disease and some cancers.",
             "examples": [
-              "An inherited variant can cause a disorder whose severity is also affected by environment and care."
+              "Cystic fibrosis is inherited: a faulty gene makes the body produce thick mucus that blocks the airways in the lungs and the ducts of the pancreas."
             ],
-            "watchOut": "Some diseases are MIXED — e.g., cervical cancer (HPV virus → cancer). Pathogen plays a role but the cancer itself isn't contagious.",
-            "tip": "A population association does not predict an individual outcome with certainty.",
+            "watchOut": "Some diseases have mixed causes. Cervical cancer is usually caused by a long-lasting infection with human papillomavirus (HPV), but the cancer itself is not passed from person to person.",
+            "tip": "To explain a non-communicable disease, identify one specific cause and show how it affects the body.",
             "review": {
               "englishTerm": "Non-communicable diseases",
-              "russianTerm": "Незаразные болезни",
+              "russianTerm": "Неинфекционные болезни",
               "contrast": {
-                "en": "A risk factor changes probability; it does not by itself prove the cause of a particular person’s illness.",
-                "ru": "Фактор риска меняет вероятность; сам по себе он не доказывает причину болезни конкретного человека."
+                "en": "A disease can be inherited and still not be communicable. Inheritance means passing genes from parents to children. Communicability means that a pathogen can pass from one person to another.",
+                "ru": "Болезнь может наследоваться и при этом не быть инфекционной. Наследование — это передача генов от родителей к детям. Инфекционность — это способность патогена переходить от одного человека к другому."
               },
               "sources": [
                 {
@@ -3312,17 +3312,17 @@
           },
           "lifestyle": {
             "name": "Lifestyle risk factors",
-            "rule": "A risk factor is a characteristic or exposure associated with a greater probability of disease. Smoking, some dietary patterns, physical inactivity and alcohol use can affect risk. Risk is probabilistic: a risk factor neither guarantees disease nor explains every individual case.",
+            "rule": "A risk factor is a behaviour or condition linked to a higher chance of developing a disease. Smoking, a diet high in salt, sugar or fat, physical inactivity and heavy drinking are lifestyle risk factors.\n\nA risk factor works through a chain of events in the body. For example, physical inactivity and a diet high in sugar can lead to obesity. Obesity raises the risk of type 2 diabetes.",
             "examples": [
-              "Smoking is a modifiable risk factor; risk is not a certainty."
+              "Smoking raises the risk of lung cancer and heart disease. Stopping smoking lowers this risk over time."
             ],
-            "tip": "A population association does not predict an individual outcome with certainty.",
+            "tip": "When you write about a habit, state that it increases the risk of a disease rather than that it causes it.",
             "review": {
               "englishTerm": "Lifestyle risk factors",
-              "russianTerm": "Факторы образа жизни",
+              "russianTerm": "Факторы риска образа жизни",
               "contrast": {
-                "en": "A risk factor changes probability; it does not by itself prove the cause of a particular person’s illness.",
-                "ru": "Фактор риска меняет вероятность; сам по себе он не доказывает причину болезни конкретного человека."
+                "en": "Risk factors can be modifiable or non-modifiable. Smoking and diet can be changed, but age and family history cannot. Both types still raise the risk of disease.",
+                "ru": "Факторы риска бывают изменяемыми (modifiable) и неизменяемыми (non-modifiable). Курение и питание можно изменить, а возраст и наследственность — нельзя. Оба вида всё равно повышают риск болезни."
               },
               "sources": [
                 {
@@ -3335,19 +3335,19 @@
             }
           },
           "global": {
-            "name": "Global patterns",
-            "rule": "Disease burden describes the impact of illness and premature death in a population. Patterns vary with age structure, environment, exposure, sanitation and access to care. Infectious and non-communicable diseases occur in every region; comparisons need dated data and comparable measures.",
+            "name": "Global patterns of disease",
+            "rule": "Global patterns of disease show how common illness and early death are in different parts of the world. They depend on the age structure of the population, the environment, exposure to pathogens and risk factors, sanitation and access to healthcare.",
             "examples": [
-              "Compare rates per population and a specified year, rather than raw counts alone.",
-              "COVID-19 is a communicable disease, unlike diabetes."
+              "In many wealthy countries, non-communicable diseases cause most deaths. In some poorer regions, infections such as diarrhoea from dirty water still cause many child deaths.",
+              "Malaria is found mainly in tropical and subtropical regions, where the warm climate suits the mosquitoes that carry the malaria parasite."
             ],
-            "tip": "A population association does not predict an individual outcome with certainty.",
+            "tip": "When you write about a global pattern, state the region, the year of the data and one cause.",
             "review": {
-              "englishTerm": "Global patterns",
-              "russianTerm": "Глобальные паттерны",
+              "englishTerm": "Global patterns of disease",
+              "russianTerm": "Глобальные закономерности болезней",
               "contrast": {
-                "en": "A risk factor changes probability; it does not by itself prove the cause of a particular person’s illness.",
-                "ru": "Фактор риска меняет вероятность; сам по себе он не доказывает причину болезни конкретного человека."
+                "en": "A large number of cases does not mean a high rate. The rate compares cases with the size of the population, so a large country can have many cases and still a low risk for each person.",
+                "ru": "Большое число случаев ещё не значит высокую заболеваемость (rate). Заболеваемость сравнивает число случаев с размером населения, поэтому в большой стране случаев может быть много, а риск для каждого человека — низкий."
               },
               "sources": [
                 {
@@ -3362,27 +3362,23 @@
         }
       },
       "pathogens": {
-        "title": "Pathogens — the four types",
-        "body": "A pathogen is a biological agent capable of causing disease in a susceptible host. Examples include some bacteria, viruses, fungi and protists. Viruses are non-cellular, so calling all pathogens organisms is imprecise; most microorganisms are not human pathogens.",
+        "title": "Types of pathogen",
+        "body": "A pathogen is an agent, usually a microorganism, that causes disease. Pathogens fall mainly into four groups: bacteria, viruses, fungi and protists. Most microorganisms are harmless or useful, so being a microorganism does not make something a pathogen.",
         "detailed": {
           "bacteria": {
             "name": "Bacterial pathogens",
-            "rule": "Bacterial pathogens are disease-causing prokaryotic organisms. They may damage tissues or produce toxins, and usually reproduce by binary fission. Some bacterial infections respond to antibiotics, but effectiveness depends on the bacterium and its susceptibility; not every bacterium is pathogenic.",
+            "rule": "Bacteria are single-celled prokaryotes: their cells have no nucleus, and their DNA lies free in the cytoplasm. Pathogenic bacteria damage tissues or release toxins. They reproduce by binary fission, splitting in two, so a small number of bacteria can quickly become a large population.",
             "examples": [
-              "Salmonella can cause intestinal infection and inflammation, with diarrhoea, fever or vomiting.",
-              "Gonorrhoea — STI, can cause infertility if untreated.",
-              "Tuberculosis (TB) — lung infection, slow-growing.",
-              "Cholera — releases toxin in gut → severe water loss.",
-              "MRSA — antibiotic-resistant 'superbug'."
+              "Salmonella is a bacterium spread in contaminated food, such as poultry or eggs. It causes diarrhoea, fever and vomiting.",
+              "Gonorrhoea is a bacterial sexually transmitted infection. If it is not treated, it can cause infertility.",
+              "Tuberculosis (TB) is caused by Mycobacterium tuberculosis, a slow-growing bacterium. Treatment with antibiotics takes several months.",
+              "Cholera is caused by the bacterium Vibrio cholerae. It releases a toxin that causes severe diarrhoea and dehydration.",
+              "MRSA (methicillin-resistant Staphylococcus aureus) is a bacterium that is resistant to many antibiotics, so its infections are harder to treat."
             ],
-            "tip": "Bacteria are LIVING organisms. Antibiotics work by disrupting their cell walls or protein synthesis.",
+            "tip": "In an exam, say how an antibiotic works. For example, it can damage the bacterial cell wall or block protein synthesis in bacterial ribosomes.",
             "review": {
               "englishTerm": "Bacterial pathogens",
-              "russianTerm": "Бактериальные патогены",
-              "contrast": {
-                "en": "A pathogen can cause disease, but many microorganisms are harmless or beneficial; viruses are not cells.",
-                "ru": "Патоген может вызвать болезнь, но многие микроорганизмы безвредны или полезны; вирусы не являются клетками."
-              },
+              "russianTerm": "Патогенные бактерии",
               "sources": [
                 {
                   "title": "OpenStax Biology 2e — 21.1 Viral Evolution, Morphology, and Classification",
@@ -3413,21 +3409,21 @@
           },
           "viruses": {
             "name": "Viral pathogens",
-            "rule": "A virus is a non-cellular infectious agent with a DNA or RNA genome enclosed in a protein coat, sometimes with a lipid envelope. It depends on host-cell machinery to replicate. New viruses may leave by cell lysis or other routes; antibiotics do not target viruses.",
+            "rule": "A virus is a non-cellular agent: a DNA or RNA genome inside a protein coat, sometimes with an outer lipid envelope. It reproduces only inside a host cell, where the cell's machinery makes copies of the virus's genome and coat proteins. New viruses leave the cell, often destroying it.",
             "examples": [
-              "Influenza (flu) — mutates rapidly, hence annual flu jab.",
-              "HIV — attacks immune system itself (T-helper cells) → AIDS.",
-              "Measles, mumps, rubella — childhood diseases, prevented by MMR vaccine.",
-              "COVID-19 — SARS-CoV-2 virus, novel coronavirus, pandemic 2020+.",
-              "Tobacco mosaic virus (in plants) — damages leaves, reduces photosynthesis."
+              "Influenza (flu): the virus mutates quickly, so the flu vaccine is updated every year.",
+              "HIV infects T-helper lymphocytes and weakens the immune system. It is transmitted through infected blood, semen, vaginal fluid and breast milk, for example during unprotected sex. Untreated, it can lead to AIDS.",
+              "Measles, mumps and rubella are viral childhood diseases. The MMR vaccine prevents them.",
+              "COVID-19 is caused by SARS-CoV-2, a coronavirus identified in early 2020 after an outbreak of pneumonia in late 2019. It spreads in droplets that an infected person releases when breathing, coughing or talking. It led to a worldwide pandemic from 2020.",
+              "Tobacco mosaic virus infects plants. Its pale, mottled patches on the leaves reduce photosynthesis."
             ],
-            "watchOut": "Many people demand antibiotics for viral infections — but antibiotics DO NOTHING against viruses. This contributes to antibiotic resistance.",
+            "watchOut": "Asking for antibiotics for a cold or flu is a common mistake. Unnecessary courses do not help the patient and make bacteria resistant, so the drugs may stop working when they are really needed.",
             "review": {
               "englishTerm": "Viral pathogens",
-              "russianTerm": "Вирусные патогены",
+              "russianTerm": "Патогенные вирусы",
               "contrast": {
-                "en": "A pathogen can cause disease, but many microorganisms are harmless or beneficial; viruses are not cells.",
-                "ru": "Патоген может вызвать болезнь, но многие микроорганизмы безвредны или полезны; вирусы не являются клетками."
+                "en": "A virus is not a tiny cell. It has no cytoplasm and no ribosomes, so it cannot make proteins until it enters a host cell.",
+                "ru": "Вирус — не маленькая клетка. У него нет цитоплазмы и рибосом, поэтому белки он сам не синтезирует, пока не попадёт в клетку-хозяина."
               },
               "sources": [
                 {
@@ -3453,21 +3449,21 @@
           },
           "fungi": {
             "name": "Fungal pathogens",
-            "rule": "Fungal pathogens are eukaryotes that can cause disease in plants or animals. They include unicellular yeasts and filamentous forms with hyphae. Fungi differ biologically from bacteria, so antifungal medicines and antibacterial antibiotics act on different targets.",
+            "rule": "Fungal pathogens are eukaryotes: their cells have a nucleus. They include single-celled yeasts and filamentous fungi, whose bodies are made of hyphae (thin threads). Fungal cell walls contain chitin, which bacterial cell walls do not.",
             "examples": [
-              "Athlete's foot (Trichophyton) — between toes, itchy.",
-              "Ringworm — circular rash on skin (despite name, it's a fungus).",
-              "Thrush (Candida) — yeast overgrowth, common after antibiotics.",
-              "Aspergillus — lung infection in immunocompromised patients.",
-              "Powdery mildew on roses — major plant disease."
+              "Athlete's foot is a fungal infection caused by Trichophyton. It gives an itchy, scaly rash between the toes.",
+              "Ringworm causes a red, ring-shaped, itchy rash on the skin. It spreads by contact with an infected person, an animal or an object.",
+              "Thrush is an overgrowth of the yeast Candida. It can follow a course of antibiotics, which kill the bacteria that normally keep the yeast in check.",
+              "Aspergillus is a fungus that can infect the lungs of people with a weak immune system.",
+              "Powdery mildew is a fungal disease that coats rose leaves with a white, powdery layer."
             ],
-            "tip": "Fungal diseases thrive in WARM, MOIST conditions — keeping skin dry helps prevention.",
+            "tip": "Fungi grow best in warm, damp conditions. If a question asks about prevention, explain that keeping the skin dry lowers the risk.",
             "review": {
               "englishTerm": "Fungal pathogens",
-              "russianTerm": "Грибковые патогены",
+              "russianTerm": "Патогенные грибы",
               "contrast": {
-                "en": "A pathogen can cause disease, but many microorganisms are harmless or beneficial; viruses are not cells.",
-                "ru": "Патоген может вызвать болезнь, но многие микроорганизмы безвредны или полезны; вирусы не являются клетками."
+                "en": "The English name ringworm is misleading. It is caused by a fungus, not a worm, so anti-worm medicines do not work against it.",
+                "ru": "Английское название ringworm («кольцевой червь») вводит в заблуждение. Болезнь вызывает гриб, а не червь, поэтому средства от глистов не помогают."
               },
               "sources": [
                 {
@@ -3499,18 +3495,18 @@
           },
           "protists": {
             "name": "Protist pathogens",
-            "rule": "Some protists are eukaryotic parasites that cause disease. Plasmodium causes malaria and is transmitted by infected female Anopheles mosquitoes. A vector carries an agent between hosts; it is distinct from the agent itself. Other protist infections have different transmission routes.",
+            "rule": "Pathogenic protists are single-celled eukaryotes: their cells have a nucleus and membrane-bound organelles. Many are parasites that live in or on a host and harm it.",
             "examples": [
-              "Plasmodium causes malaria; the mosquito is its vector.",
-              "Entamoeba can spread through faecally contaminated food or water."
+              "Toxoplasmosis is caused by the protist Toxoplasma gondii. It spreads through undercooked meat or contact with cat faeces.",
+              "Amoebic dysentery is caused by the protist Entamoeba histolytica. It spreads in food or water contaminated with faeces and causes bloody diarrhoea."
             ],
-            "watchOut": "The causative agent, transmission route and vector are different parts of an explanation.",
+            "watchOut": "Antibiotics act on bacterial structures, such as the cell wall. The malaria parasite has no such wall, so malaria is usually treated with antimalarial medicines instead.",
             "review": {
               "englishTerm": "Protist pathogens",
-              "russianTerm": "Протистовые патогены",
+              "russianTerm": "Патогенные простейшие",
               "contrast": {
-                "en": "A pathogen can cause disease, but many microorganisms are harmless or beneficial; viruses are not cells.",
-                "ru": "Патоген может вызвать болезнь, но многие микроорганизмы безвредны или полезны; вирусы не являются клетками."
+                "en": "The pathogen and its vector are different. In malaria, Plasmodium is the pathogen and the mosquito is only the vector, so the mosquito does not cause the disease.",
+                "ru": "Патоген и вектор — разные вещи. При малярии патоген — плазмодий, а комар только переносит его, поэтому комар сам болезнь не вызывает."
               },
               "sources": [
                 {
@@ -3542,11 +3538,11 @@
           }
         },
         "review": {
-          "englishTerm": "Pathogens — the four types",
-          "russianTerm": "Патогены — четыре типа",
+          "englishTerm": "Pathogen",
+          "russianTerm": "Возбудитель болезни (патоген)",
           "contrast": {
-            "en": "A pathogen can cause disease, but many microorganisms are harmless or beneficial; viruses are not cells.",
-            "ru": "Патоген может вызвать болезнь, но многие микроорганизмы безвредны или полезны; вирусы не являются клетками."
+            "en": "The pathogen and the disease are not the same thing: the pathogen is the agent (for example, Plasmodium), and malaria is the illness it causes.",
+            "ru": "Возбудитель и болезнь — не одно и то же: возбудитель — организм (например, плазмодий), а малярия — болезнь, которую он вызывает."
           },
           "sources": [
             {
@@ -3589,14 +3585,14 @@
         }
       },
       "barriers": {
-        "title": "Non-specific defences",
-        "body": "Innate defences act without prior exposure to a particular pathogen. They include skin and mucosal barriers, antimicrobial secretions, inflammation and phagocytic cells. Mucus traps particles and cilia help remove them; barriers reduce entry but do not prevent every infection.",
+        "title": "Transmission barriers and body defence",
+        "body": "Transmission barriers keep pathogens from getting inside the body. They are non-specific: they work in the same way against all pathogens.\n\nThe main barriers are:\n\n- skin: unbroken skin is a physical barrier, but a cut is an entry point for bacteria\n- mucus in the airways: sticky mucus traps dust, bacteria and viruses\n- ciliated epithelium: the cells lining the airways have cilia, which beat and move the mucus up to the throat, where it is swallowed\n- stomach acid: hydrochloric acid (pH around 2) kills most microbes swallowed with food\n- tears: they contain lysozyme, an enzyme that breaks down the cell walls of some bacteria\n\nExample: bacteria in the dust you breathe in stick to the mucus in your windpipe, and the mucus is then swallowed and carried to the stomach.\n\nBody defence summary: the body defends itself in two lines. The first line, the barriers above, keeps out most pathogens.",
         "review": {
-          "englishTerm": "Non-specific defences",
-          "russianTerm": "Неспецифическая защита",
+          "englishTerm": "Transmission barriers",
+          "russianTerm": "Барьеры передачи",
           "contrast": {
-            "en": "Innate defence acts broadly; adaptive immunity recognises particular antigens and can form memory.",
-            "ru": "Врождённая защита действует широко; адаптивный иммунитет распознаёт определённые антигены и может формировать память."
+            "en": "Transmission barriers are the body's first line of defence. They are present from birth and work all the time. Unlike the immune system, they do not get stronger after an infection.",
+            "ru": "Барьеры передачи — это первая линия защиты. Они есть с рождения и работают постоянно. В отличие от иммунной системы, после болезни они не становятся сильнее."
           },
           "sources": [
             {
@@ -3615,14 +3611,14 @@
         }
       },
       "immuneResponse": {
-        "title": "Immune response (specific)",
-        "body": "Adaptive immunity recognises particular antigens using B and T lymphocytes. Activated B cells can become plasma cells that secrete antibodies; T cells coordinate responses or kill infected cells. Memory cells can produce a faster response on re-exposure; antibodies are only one part of this system.",
+        "title": "Immune system (second line of defence)",
+        "body": "The immune system is the second line of defence. It deals with pathogens that get past the barriers, using phagocytes, lymphocytes, antibodies and memory cells.\n\nPhagocytes are white blood cells that engulf pathogens. A phagocyte surrounds a pathogen and takes it inside, where the cell's enzymes digest it.\n\nThis process is called phagocytosis. It works against any pathogen, so it is non-specific.\n\nLymphocytes are white blood cells. Each one recognises one specific antigen, and B-lymphocytes then make antibodies against it. An antibody fits its antigen like a key fits a lock.\n\nMemory cells are lymphocytes that stay in the body after an infection. If the same pathogen returns, they respond faster and make more antibodies, so the illness is usually stopped before it becomes serious.\n\nExample: after chickenpox, memory cells usually stop you catching it again.",
         "review": {
-          "englishTerm": "Immune response (specific)",
-          "russianTerm": "Иммунный ответ (специфический)",
+          "englishTerm": "Antibody",
+          "russianTerm": "Антитело",
           "contrast": {
-            "en": "Innate defence acts broadly; adaptive immunity recognises particular antigens and can form memory.",
-            "ru": "Врождённая защита действует широко; адаптивный иммунитет распознаёт определённые антигены и может формировать память."
+            "en": "An antibody is a protein that the body makes in response to an antigen. Do not confuse the two: the antigen is the marker on the pathogen; the antibody is the body's reaction to it.",
+            "ru": "Антитело — белок, который организм вырабатывает в ответ на антиген. Не путай их: антиген — метка на поверхности патогена, а антитело — ответ организма на неё."
           },
           "sources": [
             {
@@ -3648,13 +3644,13 @@
       },
       "vaccination": {
         "title": "Vaccination",
-        "body": "Vaccination exposes the immune system to selected antigens, or instructions for making them, to develop protective responses and memory. Vaccines use different technologies and need not contain whole or weakened pathogens. Protection can reduce disease, infection or transmission to different degrees.",
+        "body": "Vaccination gives the immune system a safe way to meet a pathogen. A vaccine contains weakened or killed pathogens, or only parts of them, such as an antigen from the pathogen's surface. The immune system then makes antibodies and memory cells, but the person does not get the disease.\n\nExample: the MMR vaccine contains a weakened measles virus. If the person later meets the real virus, the memory cells respond quickly, and the virus is usually destroyed before it causes illness.",
         "review": {
           "englishTerm": "Vaccination",
           "russianTerm": "Вакцинация",
           "contrast": {
-            "en": "Innate defence acts broadly; adaptive immunity recognises particular antigens and can form memory.",
-            "ru": "Врождённая защита действует широко; адаптивный иммунитет распознаёт определённые антигены и может формировать память."
+            "en": "Vaccination is the act of giving a vaccine; immunity is the state of being protected from a disease. Do not confuse them: a vaccine helps prevent illness, but it does not cure one that has already started.",
+            "ru": "Вакцинация — это введение вакцины, а иммунитет — состояние защищённости от болезни. Не путай их: вакцина помогает не заболеть, но не лечит уже начавшуюся болезнь."
           },
           "sources": [
             {
@@ -3686,13 +3682,13 @@
       },
       "antibiotics": {
         "title": "Antibiotics",
-        "body": "Antibiotics kill susceptible bacteria or inhibit their growth; they do not treat viral infections. Resistance occurs when bacteria withstand a drug that would otherwise affect them. Antibiotic exposure selects resistant variants; use and duration should follow a qualified clinician's instructions.",
+        "body": "Antibiotics are medicines that kill bacteria or stop them from growing. Some antibiotics damage the cell wall or stop bacteria building it, so the cell bursts. Others block protein synthesis in bacterial ribosomes, so the bacterium cannot make the proteins it needs.\n\nHuman cells have no cell wall, and their ribosomes are different, so antibiotics mainly harm bacteria. For example, penicillin stops bacteria building their cell walls, so it can treat a bacterial infection such as strep throat.\n\nA bacterial population can become resistant to an antibiotic. Some bacteria are already resistant before the drug is used, because of random mutations or gene transfer. The antibiotic does not cause this change: it kills susceptible bacteria, and the resistant survivors reproduce and pass the ability to survive the drug on to their offspring.\n\nFrequent use, or a course that is not finished, lets more resistant bacteria survive. The trait belongs to the bacteria, not to the patient's body.\n\nAntibiotics do not act on viruses, so they are not used for viral infections, and a doctor decides which drug to take and how long the course lasts.\n\nA new antibiotic goes through drug development before a doctor can prescribe it. First comes pre-clinical testing in the laboratory, on cells and animals.\n\nClinical trials then test the drug on people in phases. Phase 1 checks safety in a small group, Phase 2 checks effectiveness and side effects in patients, and Phase 3 compares the drug with existing treatments in a large group.",
         "review": {
           "englishTerm": "Antibiotics",
           "russianTerm": "Антибиотики",
           "contrast": {
-            "en": "Antibiotics act against susceptible bacteria; they do not treat viral infection. Resistance evolves in microbes, not in the patient’s body.",
-            "ru": "Антибиотики действуют на чувствительные бактерии, а не на вирусную инфекцию. Устойчивость возникает у микробов, а не у организма пациента."
+            "en": "An antibiotic is not a vaccine: it treats a bacterial infection that has already started, and it does not create immunity.",
+            "ru": "Антибиотик — не вакцина: он лечит уже начавшуюся бактериальную инфекцию и не создаёт иммунитет."
           },
           "sources": [
             {

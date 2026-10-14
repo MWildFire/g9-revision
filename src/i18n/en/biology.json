@@ -3701,22 +3701,22 @@
     }
   },
   "experiment": {
-    "title": "Experimental Design (Criterion B)",
-    "intro": "Designing a fair test: variables, hypothesis, method, controls.",
+    "title": "Inquiring and Designing (Criterion B)",
+    "intro": "Designing a fair test means deciding what to change, what to measure and what to keep the same before any data are collected.",
     "sections": {
       "variables": {
         "title": "Variables",
         "items": {
-          "independent": "Independent variable: the factor deliberately varied to test its effect; a simple fair-test design changes one factor at a time.",
-          "dependent": "Dependent variable: the measured response used to assess the effect of the independent variable.",
-          "controlled": "Controlled variables: other relevant conditions kept constant to make comparisons interpretable; these differ from a control group."
+          "independent": "Independent variable: the factor you choose to change on purpose. In a pondweed (Elodea) test, the distance from the lamp is the independent variable.",
+          "dependent": "Dependent variable: the outcome you measure after each change of the independent variable. In the same test, it is the number of oxygen bubbles released per minute.",
+          "controlled": "Controlled variables: the conditions you hold constant during the test, such as the water temperature, the size of the sprig and the volume of water. A controlled variable is a condition of the test, whereas a control group is a group for comparison that receives no treatment."
         },
         "review": {
           "englishTerm": "Variables",
           "russianTerm": "Переменные",
           "contrast": {
-            "en": "A hypothesis is a testable proposed explanation; data are observations used to evaluate it.",
-            "ru": "Гипотеза — проверяемое предполагаемое объяснение; данные — наблюдения, по которым его оценивают."
+            "en": "One quantity has only one role in a given experiment. Temperature cannot be both the independent variable and a controlled variable in the same test.",
+            "ru": "Одна величина в одном опыте играет только одну роль. Температура не может быть одновременно независимой переменной и контролируемой."
           },
           "sources": [
             {
@@ -3730,13 +3730,13 @@
       },
       "hypothesis": {
         "title": "Hypothesis",
-        "body": "A hypothesis is a testable proposed explanation. A prediction states an expected observation if that explanation and stated assumptions are correct. In a fair-test investigation, specify the expected relationship between the independent and dependent variables and give a biological reason.",
+        "body": "A hypothesis is a testable explanation for why a pattern occurs. A prediction is what you expect to observe if the hypothesis holds. In a fair test, state the expected relationship between the independent and dependent variables, and give a biological reason for it. For the pondweed test, predict that moving the lamp closer increases the number of bubbles per minute, because more light supplies more energy for photosynthesis while light is the limiting factor.",
         "review": {
           "englishTerm": "Hypothesis",
           "russianTerm": "Гипотеза",
           "contrast": {
-            "en": "A hypothesis is a testable proposed explanation; data are observations used to evaluate it.",
-            "ru": "Гипотеза — проверяемое предполагаемое объяснение; данные — наблюдения, по которым его оценивают."
+            "en": "A research question asks whether a factor has an effect, and it has no answer yet. A hypothesis is written before the test, so it cannot report what was found. A conclusion states what the data showed and whether they support the hypothesis.",
+            "ru": "Исследовательский вопрос (research question) спрашивает, влияет ли фактор на результат, и ответа на него пока нет. Гипотезу записывают до опыта, поэтому в ней нельзя писать то, что уже нашли. Вывод описывает, что показали данные, и отвечает, поддерживают ли они гипотезу."
           },
           "sources": [
             {
@@ -3750,13 +3750,13 @@
       },
       "method": {
         "title": "Method",
-        "body": "A method is a reproducible description of how evidence will be collected. Specify samples, apparatus, quantities, timing, measurements, controls and relevant precautions. Include enough detail for another investigator to repeat the study and distinguish repeats from independent samples.",
+        "body": "A method is a reproducible description of how the data will be collected. It states the samples, apparatus, quantities, timing, measurements, controls and precautions in enough detail for another student to repeat the test. For example, count the bubbles released by a 10 cm pondweed sprig in 3 minutes at each lamp distance. Use a new sprig for each repeat: repeated counts on the same sprig show only the variation in counting, not the variation between plants.",
         "review": {
           "englishTerm": "Method",
           "russianTerm": "Метод",
           "contrast": {
-            "en": "A hypothesis is a testable proposed explanation; data are observations used to evaluate it.",
-            "ru": "Гипотеза — проверяемое предполагаемое объяснение; данные — наблюдения, по которым его оценивают."
+            "en": "The method lists steps, while the results list measured values with their units. A count of 25 bubbles belongs in the results, not in the method.",
+            "ru": "Метод перечисляет шаги, а результаты — измеренные значения с единицами. Число 25 пузырьков относится к результатам, а не к методу."
           },
           "sources": [
             {
@@ -3770,13 +3770,13 @@
       },
       "data": {
         "title": "Data collection and analysis",
-        "body": "Data analysis organises measurements to answer the research question. Record units and uncertainty, repeat measurements where useful and justify how anomalies are handled. Use a scatter plot for two numerical variables, a histogram for a numerical distribution and a bar chart for category comparisons.",
+        "body": "Data analysis turns measured values into results that answer the research question. Calculate a mean for each series of repeats, and show the units of every value. An outlier is a value far from the others: check it for a recording error or a faulty step, and justify whether you keep it. For example, bubble counts of 25, 27, 26 and 41 have a mean of 29.75, but without the outlier 41 the mean is 26.",
         "review": {
           "englishTerm": "Data collection and analysis",
           "russianTerm": "Сбор данных и анализ",
           "contrast": {
-            "en": "A hypothesis is a testable proposed explanation; data are observations used to evaluate it.",
-            "ru": "Гипотеза — проверяемое предполагаемое объяснение; данные — наблюдения, по которым его оценивают."
+            "en": "The mean gives the typical value of a series of repeats. The range, the largest value minus the smallest, shows how far the repeats spread. Report both, because a mean alone hides the spread. For example, plant heights of 14.2 cm, 13.8 cm and 14.5 cm have a mean of 14.2 cm and a range of 0.7 cm.",
+            "ru": "Среднее арифметическое показывает типичное значение серии повторов. Размах, то есть разность между наибольшим и наименьшим значением, показывает, насколько повторы разбросаны. Указывай оба значения: одно только среднее скрывает разброс. Например, высота трёх растений 14,2 см, 13,8 см и 14,5 см: среднее арифметическое 14,2 см, размах 0,7 см."
           },
           "sources": [
             {
@@ -3789,14 +3789,14 @@
         }
       },
       "evaluation": {
-        "title": "Evaluation",
-        "body": "Evaluation judges how strongly the evidence supports the conclusion and identifies limitations. Random errors produce unpredictable scatter; systematic errors cause consistent bias. Repeats can reduce uncertainty from random variation but do not by themselves remove systematic error. Propose changes tied to specific limitations.",
+        "title": "Evaluation (Criterion C)",
+        "body": "Evaluation judges how strongly the evidence supports the conclusion and identifies limitations. Random error changes unpredictably from one reading to the next, whereas systematic error shifts every reading in the same direction. For example, a balance that always reads 0.5 g too high has a systematic error, while readings that vary by 0.1 g between repeats show random error. Reliability means that results are repeatable, and validity means that the test measures what it is meant to measure. Suggest improvements tied to specific limitations.",
         "review": {
           "englishTerm": "Evaluation",
-          "russianTerm": "Оценка",
+          "russianTerm": "Оценка качества исследования",
           "contrast": {
-            "en": "A hypothesis is a testable proposed explanation; data are observations used to evaluate it.",
-            "ru": "Гипотеза — проверяемое предполагаемое объяснение; данные — наблюдения, по которым его оценивают."
+            "en": "Describing a trend means stating the pattern with values and units. Evaluating it means deciding how far the pattern can be trusted, given the spread and the limitations.",
+            "ru": "Описать тенденцию — значит назвать закономерность числами и единицами. Оценить её — значит решить, насколько можно доверять этой закономерности с учётом разброса и ограничений."
           },
           "sources": [
             {

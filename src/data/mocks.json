@@ -1403,38 +1403,38 @@
       ],
       "paragraphs": [
         {
-          "en": "Start with a testable question. In a controlled experiment, change one independent variable, measure a dependent response and keep relevant other conditions comparable. The independent variable may be a category, such as material type. State the measurement range, intervals, repeats and relevant precautions.",
-          "ru": "Начните с проверяемого вопроса. В контролируемом опыте изменяют независимую переменную, измеряют зависимый результат и сохраняют сопоставимыми остальные существенные условия. Независимая переменная может быть категорией, например видом материала. Укажите диапазон, интервалы, повторы и нужные меры предосторожности."
+          "en": "Start with a testable question that you can answer with measurements you can actually make. The variable you change does not have to be a number. It can be a category, such as the type of material.",
+          "ru": "Начни с проверяемого вопроса, на который можно ответить измерениями, которые ты реально можешь провести. Независимая переменная (independent variable) необязательно выражается числом: это может быть категория, например вид материала."
         },
         {
-          "en": "Keep raw measurements and calculated results separate. Give quantities and units in table headings and on graph axes. Preserve unusual results and explain any exclusion. A conclusion should say how well the evidence supports the proposed explanation and what remains uncertain.",
-          "ru": "Разделяйте исходные измерения и вычисленные результаты. Указывайте величины и единицы в заголовках таблиц и на осях графика. Сохраняйте необычные результаты и объясняйте исключения. В выводе укажите, насколько данные поддерживают объяснение и что остаётся неопределённым."
+          "en": "In your conclusion, state the most important uncertainty in your data, not every small doubt. Explain how that uncertainty affects the claim you make.",
+          "ru": "В выводе назови главную неопределённость (uncertainty) данных, а не каждое мелкое сомнение. Объясни, как она влияет на то, что ты утверждаешь."
         },
         {
-          "en": "Comparable independent repeats help estimate scatter. Averaging can reduce the contribution of random variation to the uncertainty of the mean; it does not repair a leak, remove a zero offset or improve the resolution of the instrument. Choose an improvement that addresses the identified cause.",
-          "ru": "Сопоставимые независимые повторы помогают оценить разброс. Усреднение может уменьшить вклад случайных колебаний в неопределённость среднего, но не устраняет утечку, смещение нуля или ограниченную разрешающую способность прибора. Улучшение должно воздействовать на выявленную причину."
+          "en": "Run a short trial before you collect the main data. It shows whether the readings change enough to be useful over your chosen range and time intervals. If the trial shows a problem, change the plan and write down the change.",
+          "ru": "Перед основными измерениями проведи короткое пробное испытание. Оно покажет, достаточно ли меняются показания в выбранных диапазоне и интервалах времени, чтобы они были полезны. Если пробное испытание выявило проблему, измени план и запиши, что именно изменил."
         },
         {
-          "en": "When discussing an application, connect the scientific mechanism to evidence, benefits and limitations for the people affected. Make the conclusion conditional on the evidence and assumptions. This is an original practice framework, not a grading rule.",
-          "ru": "Обсуждая применение науки, свяжите механизм с данными, пользой и ограничениями для затронутых людей. Укажите, от каких данных и предположений зависит вывод. Это авторская схема тренировки, а не правило выставления оценки."
+          "en": "When you judge an application, compare it with the option it would replace, not with an ideal. A new method is only better if it does more good, or less harm, than the method in use.",
+          "ru": "Оценивая применение науки (application), сравнивай его не с идеалом, а с вариантом, который оно заменит. Новый способ лучше старого, только если приносит больше пользы или меньше вреда, чем тот, что используется сейчас."
         }
       ],
       "question": {
-        "en": "Three comparable trials collect 20, 21 and 19 cm³ of gas, each over 10 s. Calculate the mean volume collected per second over that interval. Would more repeats fix a leaking gas syringe?",
-        "ru": "В трёх сопоставимых опытах за 10 с каждый собрано 20, 21 и 19 см³ газа. Найдите средний объём, собираемый за секунду на этом интервале. Исправят ли дополнительные повторы утечку из газового шприца?"
+        "en": "Three comparable trials collect 20, 21 and 19 cm³ of gas, each over 10 s. Calculate the average volume of gas collected per second over those 10 seconds. Would more repeats fix a leaking gas syringe?",
+        "ru": "В трёх сопоставимых опытах, каждый длительностью 10 с, собрали 20, 21 и 19 см³ газа. Вычисли средний объём газа, собираемый за одну секунду в течение этих 10 с. Исправят ли дополнительные повторы утечку в газовом шприце?"
       },
       "answer": {
-        "en": "Mean volume = (20 + 21 + 19)/3 = 20 cm³. Mean collection rate over 10 s = 20/10 = 2.0 cm³ s⁻¹. This is an interval average, not an instantaneous rate. A leak loses gas and biases the collected volume downwards; repeating with the same leak does not fix that cause. Check the seal and repeat the measurements.",
-        "ru": "Средний объём = (20 + 21 + 19)/3 = 20 см³. Средняя скорость сбора за 10 с = 20/10 = 2,0 см³/с. Это среднее за интервал, не мгновенная скорость. Из-за утечки часть газа теряется и занижает собранный объём; повторы с той же утечкой не устраняют причину. Проверьте герметичность и повторите измерения."
+        "en": "Average volume = (20 + 21 + 19)/3 = 20 cm³. Average collection rate over 10 s = 20/10 = 2.0 cm³/s. This is an average over 10 s, not an instantaneous rate. The leak lets gas escape, so more trials would still collect too little gas. Seal the leak first, then repeat the measurements.",
+        "ru": "Средний объём = (20 + 21 + 19)/3 = 20 см³. Средняя скорость сбора за 10 с = 20/10 = 2,0 см³/с. Это среднее за 10 с, а не мгновенная скорость. Из-за утечки газ выходит наружу, поэтому и дополнительные опыты соберут его слишком мало. Сначала устрани утечку, а потом повтори измерения."
       },
       "checks": [
         {
-          "en": "I justify controls and enough relevant data.",
-          "ru": "Я обосновываю контроль и достаточность данных."
+          "en": "I justify my controlled variables and show that I have enough data.",
+          "ru": "Я обосновываю контролируемые переменные (controlled variables) и показываю, что данных достаточно."
         },
         {
-          "en": "Every improvement addresses a specific limitation.",
-          "ru": "Каждое улучшение исправляет конкретное ограничение."
+          "en": "I say whether a rate is an average over several seconds or an instantaneous value.",
+          "ru": "Я указываю, относится ли скорость к среднему за несколько секунд или к мгновенному значению."
         }
       ],
       "definitionReviews": [
@@ -1442,12 +1442,12 @@
           "englishTerm": "Independent, dependent and controlled variables",
           "russianTerm": "Независимая, зависимая и контролируемые переменные",
           "explanation": {
-            "en": "Change or compare the independent variable; observe the dependent response; keep relevant controlled variables comparable.",
-            "ru": "Независимую переменную меняют или сравнивают; зависимый результат наблюдают; контролируемые условия поддерживают сопоставимыми."
+            "en": "Independent variable: the factor you deliberately change to test its effect. Dependent variable: the response you measure to judge the effect of the independent variable. Controlled variables: the other conditions you keep the same so that the comparison is fair.",
+            "ru": "Независимая переменная (independent variable) — фактор, который намеренно меняют, чтобы проверить его влияние. Зависимая переменная (dependent variable) — результат, который измеряют, чтобы оценить влияние независимой переменной. Контролируемые переменные (controlled variables) — остальные условия, которые держат неизменными, чтобы сравнение было честным."
           },
           "contrast": {
-            "en": "A controlled variable is a condition; a control group is a comparison group, for example one receiving no treatment.",
-            "ru": "Контролируемая переменная — условие опыта; контрольная группа — группа для сравнения, например без исследуемого воздействия."
+            "en": "In a spring test, the mass hung on the spring is the independent variable and the extension is the dependent variable. Swapping them would wrongly imply that the extension causes the mass.",
+            "ru": "В опыте с пружиной масса груза — независимая переменная, а растяжение пружины — зависимая. Если поменять их местами, получится, что растяжение вызывает массу груза, а это неверно."
           },
           "sources": [
             {
@@ -1470,20 +1470,20 @@
             }
           ],
           "model": {
-            "en": "This describes controlled experiments. In observational studies the investigator may measure variables without manipulating them.",
-            "ru": "Это схема контролируемого опыта. В наблюдательном исследовании переменные могут измерять, не изменяя их специально."
+            "en": "It fits an experiment in which the experimenter chooses the independent variable. It does not apply to a study in which events are only recorded as they happen.",
+            "ru": "Понятие подходит для опыта, в котором экспериментатор сам выбирает независимую переменную. Оно не подходит для исследования, в котором явления только фиксируют по мере их появления."
           }
         },
         {
           "englishTerm": "Hypothesis and prediction",
           "russianTerm": "Гипотеза и предсказание",
           "explanation": {
-            "en": "A hypothesis is a testable proposed explanation. A prediction states an outcome expected if that explanation and the test conditions hold.",
-            "ru": "Гипотеза — проверяемое предполагаемое объяснение. Предсказание указывает ожидаемый результат при верности объяснения и условий проверки."
+            "en": "A hypothesis is a testable explanation of a pattern. A prediction is the observation you expect if the hypothesis is correct. For example, the hypothesis that warmer water makes sugar dissolve faster predicts that a sugar cube dissolves in less time at 60 °C than at 20 °C.",
+            "ru": "Гипотеза (hypothesis) — это проверяемое объяснение закономерности. Предсказание (prediction) — наблюдение, которое ожидают увидеть, если гипотеза верна. Например, гипотеза о том, что тёплая вода быстрее растворяет сахар, предсказывает, что кубик сахара растворится за меньшее время при 60 °C, чем при 20 °C."
           },
           "contrast": {
-            "en": "A supported prediction strengthens an explanation; a single matching result does not prove it beyond doubt.",
-            "ru": "Совпадение с предсказанием поддерживает объяснение, но один результат не доказывает его безусловно."
+            "en": "A result that matches the prediction supports the hypothesis, but it does not prove it, because another explanation could give the same result.",
+            "ru": "Результат, совпавший с предсказанием, поддерживает гипотезу, но не доказывает её, потому что другое объяснение могло бы дать такой же результат."
           },
           "sources": [
             {
@@ -1498,12 +1498,12 @@
           "englishTerm": "Accuracy and precision",
           "russianTerm": "Точность и прецизионность",
           "explanation": {
-            "en": "Accuracy concerns closeness to the true value. Precision concerns agreement among repeated measurements under specified conditions.",
-            "ru": "Точность связана с близостью к истинному значению. Прецизионность — с близостью повторных результатов при заданных условиях."
+            "en": "Accuracy is how close a measurement is to the true value. Precision is how close repeated measurements are to each other under the same conditions.",
+            "ru": "Точность (accuracy) — близость измерения к истинному значению. Прецизионность (precision) — близость повторных измерений друг к другу при одинаковых условиях."
           },
           "contrast": {
-            "en": "Closely clustered readings can still be biased. In classroom comparisons, a reference value stands in for an unknown true value.",
-            "ru": "Малый разброс не исключает смещения. В школьной проверке вместо неизвестного истинного значения используют опорное."
+            "en": "Readings can be precise but inaccurate. In a check against a reference value of 20.0 °C, a thermometer gives readings of 22.1, 22.0 and 22.1 °C. The readings are close together, with a range of 0.1 °C, but their average of about 22.1 °C is 2.1 °C too high.",
+            "ru": "Показания могут быть близки друг к другу и всё же быть неточными. Если сравнить с опорным значением 20,0 °C, термометр даёт показания 22,1; 22,0 и 22,1 °C. Размах 0,1 °C мал, но среднее около 22,1 °C отличается от опорного значения на 2,1 °C."
           },
           "sources": [
             {
@@ -1520,20 +1520,20 @@
             }
           ],
           "model": {
-            "en": "Precision is often explained informally as repeatability; the measurement conditions must be stated.",
-            "ru": "Precision часто поясняют через повторяемость; обязательно указывают условия измерений."
+            "en": "A small spread shows precision only under the conditions you tested. A single reading cannot show precision, because precision is judged from repeated readings.",
+            "ru": "Малый разброс говорит о прецизионности только при тех условиях, в которых шёл опыт. Одно показание не покажет прецизионность: её оценивают по повторным измерениям."
           }
         },
         {
           "englishTerm": "Resolution and uncertainty",
           "russianTerm": "Разрешающая способность и неопределённость",
           "explanation": {
-            "en": "Resolution is the smallest change the instrument can distinguish. Uncertainty describes the spread of values reasonably assignable to the measured quantity.",
-            "ru": "Разрешающая способность — наименьшее различимое изменение. Неопределённость характеризует разброс значений, обоснованно приписываемых измеряемой величине."
+            "en": "Resolution is the smallest change an instrument can distinguish. Uncertainty is the range of values that could reasonably be assigned to a measured quantity. A ruler marked in millimetres has a resolution of 1 mm.",
+            "ru": "Разрешающая способность (resolution) — наименьшее изменение, которое прибор способен различить. Неопределённость (uncertainty) — диапазон значений, которые можно разумно приписать измеряемой величине. Линейка с миллиметровыми делениями имеет разрешающую способность 1 мм."
           },
           "contrast": {
-            "en": "Extra displayed digits do not guarantee accuracy. Half a scale division is only a simple estimate of reading uncertainty.",
-            "ru": "Дополнительные цифры не гарантируют точность. Половина деления — лишь простая оценка неопределённости отсчёта."
+            "en": "More displayed digits do not make a reading more accurate. They only show a finer resolution.",
+            "ru": "Дополнительные цифры на дисплее не делают показание точнее: они говорят лишь о более высокой разрешающей способности."
           },
           "sources": [
             {
@@ -1550,20 +1550,20 @@
             }
           ],
           "model": {
-            "en": "Include relevant calibration, method and observation effects; a school error bound and a statistical standard uncertainty use different conventions.",
-            "ru": "Учитывайте калибровку, метод и наблюдение. Школьная граница погрешности и статистическая стандартная неопределённость — разные соглашения."
+            "en": "Half of the smallest scale division is a common school estimate for one reading. A reading of 25 mm on a millimetre ruler is therefore written as 25 ± 0.5 mm. For repeated readings, the spread of the results is a better guide to uncertainty.",
+            "ru": "Половина наименьшего деления шкалы — распространённая школьная оценка неопределённости одного отсчёта. Поэтому отсчёт 25 мм на линейке с миллиметровыми делениями записывают как 25 ± 0,5 мм. Для повторных измерений надёжнее судить о неопределённости по разбросу результатов."
           }
         },
         {
           "englishTerm": "Random and systematic measurement error",
           "russianTerm": "Случайная и систематическая погрешность",
           "explanation": {
-            "en": "Random error varies unpredictably between repeats. Systematic error remains constant or varies predictably.",
-            "ru": "Случайная погрешность непредсказуемо меняется при повторах; систематическая остаётся постоянной или меняется закономерно."
+            "en": "Random errors produce unpredictable scatter; systematic errors cause consistent bias. For example, a stopwatch started 0.2 s late makes every time 0.2 s too short (systematic error), while variation in reaction time makes the times scatter (random error).",
+            "ru": "Случайные погрешности (random errors) дают непредсказуемый разброс, систематические (systematic errors) — устойчивое смещение. Например, секундомер, который запускают на 0,2 с позже, занижает каждое время на 0,2 с (систематическая погрешность), а разброс из-за разного времени реакции — случайная погрешность (random error)."
           },
           "contrast": {
-            "en": "Repeats reveal scatter; calibration or a changed method is needed to identify and correct many biases.",
-            "ru": "Повторы выявляют разброс; для многих смещений нужны калибровка или изменение метода."
+            "en": "Repeats can reduce uncertainty from random variation but do not by themselves remove systematic error. Finding and correcting a systematic error often needs calibration against a known standard, or a different method.",
+            "ru": "Повторы уменьшают неопределённость, связанную со случайной изменчивостью, но сами по себе не устраняют систематическую погрешность. Чтобы найти и исправить систематическую погрешность, часто помогают калибровка по известному эталону или другой метод измерения."
           },
           "sources": [
             {

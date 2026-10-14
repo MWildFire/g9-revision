@@ -1587,7 +1587,7 @@
       "subject": "english",
       "title": {
         "en": "Unseen texts, comparison and purposeful writing",
-        "ru": "Незнакомые тексты, сравнение и целевое письмо"
+        "ru": "Незнакомые тексты, сравнение и целенаправленное написание текстов"
       },
       "scope": "g9",
       "sources": [
@@ -1597,24 +1597,24 @@
       "paragraphs": [
         {
           "en": "Start with audience, purpose, voice and context. Select a precise detail, name a relevant choice, explain how it shapes meaning and connect it to your interpretation. A technique label without explanation is not analysis.",
-          "ru": "Начните с аудитории, цели, голоса и контекста. Выберите точную деталь, назовите приём, объясните его влияние на смысл и свяжите с интерпретацией. Название приёма без объяснения не является анализом."
+          "ru": "Начни с аудитории, цели, голоса и контекста. Выбери точную деталь, назови уместный авторский выбор, объясни его влияние на смысл и свяжи с собственной интерпретацией. Название приёма без объяснения не является анализом."
         },
         {
           "en": "Compare texts by shared ideas and differences in method. In each paragraph, use evidence from both, then explain why the contrast matters. For film or visual material, consider framing, light, sound, gesture and editing rather than treating everything as written language.",
-          "ru": "Сравнивайте общие идеи и различия в способах их выражения. В абзаце используйте оба текста и объясняйте значимость сравнения. Для видео учитывайте кадр, свет, звук, жесты и монтаж."
+          "ru": "Сравнивай тексты по общим идеям и различиям в способах их выражения. В каждом абзаце используй примеры из обоих текстов, затем объясни, почему важен контраст. Для фильма или визуального материала учитывай кадр, свет, звук, жесты и монтаж, а не своди всё к письменному тексту."
         },
         {
           "en": "For literary writing, plan a controlled perspective, a purposeful change and selected sensory details. For non-literary writing, choose conventions and register for the requested audience and form. Revise structure, sentence boundaries and precise vocabulary. Follow the task’s actual word/time instructions.",
-          "ru": "Для художественного текста спланируйте точку зрения, значимое изменение и конкретные детали. Для нехудожественного — форму и регистр под аудиторию и задание. Проверьте структуру, границы предложений и лексику. Следуйте реальным ограничениям задания."
+          "ru": "Для художественного текста спланируй выдержанную точку зрения, целенаправленное изменение и отобранные сенсорные детали. Для нехудожественного текста выбери жанровые нормы и регистр под заданные аудиторию и форму. Доработай структуру, границы предложений и точную лексику. Следуй указаниям самого задания по объёму и времени."
         }
       ],
       "question": {
         "en": "Original practice text A: “The corridor swallowed her footsteps.” Text B: “Fluorescent lights illuminated the empty corridor.” Compare how the corridor is presented.",
-        "ru": "Авторская практика. A: “The corridor swallowed her footsteps.” B: “Fluorescent lights illuminated the empty corridor.” Сравните изображение коридора."
+        "ru": "Авторские тексты для практики. A: «The corridor swallowed her footsteps.» B: «Fluorescent lights illuminated the empty corridor.» Сравни, как представлен коридор."
       },
       "answer": {
-        "en": "In A, “swallowed” metaphorically gives the corridor the action of a living body: the footsteps seem to disappear into it. This can suggest isolation or menace, but swallowing is not specifically human, so personification is a possible broader reading rather than an unambiguous label. B names a concrete light source and an empty space, creating a more detached description. Explain the wording and context before naming a device; other interpretations need evidence.",
-        "ru": "В A “swallowed” метафорически придаёт коридору действие живого тела: шаги словно исчезают внутри него. Это может передавать одиночество или угрозу, но глотание не исключительно человеческое действие, поэтому олицетворение — возможная широкая трактовка, а не однозначная метка. B называет источник света и пустое пространство, создавая более отстранённое описание. Сначала объясняй слова и контекст, затем называй приём; другие трактовки требуют доказательств."
+        "en": "In A, “swallowed” metaphorically gives the corridor the action of a living body: the footsteps seem to disappear into it. This can imply isolation or menace, but swallowing is not specifically human, so personification is a possible broader reading rather than an unambiguous label. B names a concrete light source and an empty space, creating a more detached description. Name the choice first, then explain its effect in context; other interpretations need evidence.",
+        "ru": "В тексте A «swallowed» метафорически придаёт коридору действие живого тела: шаги словно исчезают внутри него. Это может намекать на одиночество или угрозу, но глотание не исключительно человеческое действие, поэтому олицетворение (personification) — возможная широкая трактовка, а не однозначная метка. Текст B называет конкретный источник света и пустое пространство, создавая более отстранённое описание. Сначала назови выбор, затем объясни его влияние в контексте; другие трактовки требуют доказательств."
       },
       "checks": [
         {
@@ -1622,17 +1622,17 @@
           "ru": "Я объясняю эффект, а не только называю приёмы."
         },
         {
-          "en": "I do not treat Macbeth as a confirmed text for the 9–13 November mocks.",
-          "ru": "Я не считаю «Macbeth» подтверждённым текстом пробных экзаменов 9–13 ноября."
+          "en": "I explain why the contrast between two texts matters, not just list the differences.",
+          "ru": "Я объясняю, почему важен контраст между двумя текстами, а не просто перечисляю различия."
         }
       ],
       "definitionReviews": [
         {
           "englishTerm": "Metaphor",
-          "russianTerm": "Метафора (metaphor)",
+          "russianTerm": "Метафора",
           "contrast": {
-            "en": "Identify both things and the relevant shared feature. A human role applied to an abstraction may also be personification.",
-            "ru": "Назови оба сопоставленных понятия и общий признак. Человеческая роль, приписанная абстракции, может одновременно быть олицетворением."
+            "en": "A metaphor says one thing is another, without 'like' or 'as'.",
+            "ru": "Метафора называет одно другим, без «like» и «as»."
           },
           "sources": [
             {
@@ -1649,16 +1649,16 @@
             }
           ],
           "model": {
-            "en": "Literary analysis: interpretations and effects need textual support.",
-            "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+            "en": "Example: 'Sam’s voice was a knife.' The comparison is direct, with no 'like' or 'as'. The shared feature is sharpness.",
+            "ru": "Пример: «Sam’s voice was a knife.» Сопоставление прямое, без слов «like» и «as». Общий признак — резкость."
           }
         },
         {
           "englishTerm": "Personification",
-          "russianTerm": "Олицетворение (personification)",
+          "russianTerm": "Олицетворение",
           "contrast": {
-            "en": "An action performed by both humans and animals, such as swallowing, may create animation without unambiguously personifying. Explain the image before choosing a label.",
-            "ru": "Действие, доступное и людям, и животным, например глотание, может оживлять образ, но не однозначно олицетворять его. Сначала объясни образ, затем выбирай термин."
+            "en": "An action performed by both humans and animals, such as swallowing, may bring an image to life without clearly personifying it. Name the device only when the image clearly works that way.",
+            "ru": "Действие, которое совершают и люди, и животные, например глотание, может оживлять образ, но не означает однозначного олицетворения. Называй приём, только когда образ действительно работает именно так."
           },
           "sources": [
             {
@@ -1675,16 +1675,16 @@
             }
           ],
           "model": {
-            "en": "Literary analysis: interpretations and effects need textual support.",
-            "ru": "Литературный анализ: трактовки и эффекты требуют подтверждения текстом."
+            "en": "Example: 'The wind whispered at the window.' Whispering is a human act, so the wind is given a human voice.",
+            "ru": "Пример: «The wind whispered at the window.» Шёпот — человеческое действие, значит, ветру приписан человеческий голос."
           }
         },
         {
           "englishTerm": "Tone and mood",
-          "russianTerm": "Тон и атмосфера текста",
+          "russianTerm": "Тон и атмосфера",
           "contrast": {
             "en": "Tone concerns expressed attitude; mood concerns the atmosphere created. A reader’s personal reaction is not automatically the text’s tone.",
-            "ru": "Tone — выраженное отношение; mood — создаваемая атмосфера. Личная реакция читателя не равна тону текста."
+            "ru": "Тон — выраженное отношение; атмосфера — та, которую создаёт текст. Личная реакция читателя не обязательно совпадает с тоном текста."
           },
           "sources": [
             {
@@ -1710,17 +1710,17 @@
               {
                 "label": {
                   "en": "Tone: speaker/text",
-                  "ru": "Tone: говорящий/текст"
+                  "ru": "Тон: говорящий/текст"
                 },
                 "detail": {
                   "en": "“What a splendid disaster!” — ironic attitude",
-                  "ru": "“What a splendid disaster!” — иронический тон"
+                  "ru": "«What a splendid disaster!» — ироническое отношение"
                 }
               },
               {
                 "label": {
                   "en": "Mood: scene/reader",
-                  "ru": "Mood: сцена/читатель"
+                  "ru": "Атмосфера: сцена/читатель"
                 },
                 "detail": {
                   "en": "Empty rooms and echoes may feel unsettling.",

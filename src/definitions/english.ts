@@ -260,7 +260,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     ],
     "model": {
       "en": "In a speech about a polluted river, the speaker asks, “Can anyone still call this river safe?” The question can lead the listener to a verdict of “no” and encourage them to share the speaker’s view without being asked for an opinion. The effect can be persuasive: the argument may feel settled before any evidence is given.",
-      "ru": "Вопрос может подвести слушателя к ответу «нет» и побудить его разделить мнение оратора, хотя его мнения никто не спрашивал. Эффект может быть убеждающим: спор может показаться решённым ещё до доказательств."
+      "ru": "В речи о загрязнённой реке оратор спрашивает: «Can anyone still call this river safe?» Вопрос может подвести слушателя к ответу «нет» и побудить его разделить мнение оратора, хотя его мнения никто не спрашивал. Эффект может быть убеждающим: спор может показаться решённым ещё до доказательств."
     }
   },
   "devices.imagery": {
@@ -379,8 +379,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Present simple",
     "russianTerm": "Present simple",
     "contrast": {
-      "en": "Don't forget the −s on third person singular: 'He goes' (not 'He go'). For verbs ending in −y after consonant: study → studies.",
-      "ru": "Не забудь окончание −s в третьем лице ед. ч.: 'He goes' (а не 'He go'). Для глаголов на −y после согласной: study → studies."
+      "en": "After do or does, the main verb takes its base form: 'She doesn't like coffee', not 'She doesn't likes coffee'. In questions and negatives, the -s moves to does.",
+      "ru": "После «do» и «does» глагол стоит в основной форме, без -s: «She doesn’t like coffee», а не «She doesn’t likes coffee». В вопросах и отрицаниях -s переходит на «do» или «does»."
     },
     "sources": [
       {
@@ -392,11 +392,11 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     ]
   },
   "grammar.tenses.presentCont": {
-    "englishTerm": "Present continuous (progressive)",
-    "russianTerm": "Present continuous (длительное настоящее)",
+    "englishTerm": "Present continuous (progressive): am/is/are + verb-ing",
+    "russianTerm": "Настоящее длительное (Present continuous, progressive): «am/is/are + глагол с -ing»",
     "contrast": {
-      "en": "Stative meanings usually take simple forms: I know. Some verbs have dynamic uses: I am seeing the dentist tomorrow; I am thinking about your idea.",
-      "ru": "Глаголы в значении состояния обычно употребляют в простой форме: I know. У некоторых есть значения действия: I am seeing the dentist tomorrow; I am thinking about your idea."
+      "en": "Stative verbs such as know, want and think (meaning 'believe') do not usually take -ing: 'I think you're right', not 'I'm thinking you're right'. Think with -ing means 'consider': 'I'm thinking about your idea.'",
+      "ru": "Глаголы состояния (stative verbs), например «know», «want» и «think» в значении «считаю», обычно не употребляют в форме с «-ing»: «I think you’re right», а не «I’m thinking you’re right». В значении «обдумывать» глагол «think» употребляют с «-ing»: «I’m thinking about your idea»."
     },
     "sources": [
       {
@@ -411,8 +411,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Past simple",
     "russianTerm": "Past simple",
     "contrast": {
-      "en": "Time markers: yesterday, last (week / year), ago, in 2020, when I was younger.",
-      "ru": "Маркеры времени: yesterday, last (week/year), ago, in 2020, when I was younger."
+      "en": "Words for a finished time, such as yesterday, last week, in 2020 or two years ago, go with past simple: 'I met her two years ago', not 'I have met her two years ago'.",
+      "ru": "Слова завершённого времени (yesterday, last week, in 2020, two years ago) идут с прошедшим простым (Past simple): «I met her two years ago», а не «I have met her two years ago»."
     },
     "sources": [
       {
@@ -427,8 +427,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Past continuous",
     "russianTerm": "Past continuous",
     "contrast": {
-      "en": "The progressive presents an action from within its duration; simple past presents the event as a whole. This is a difference in viewpoint, not a rule that one action must be long and the other short.",
-      "ru": "Длительная форма показывает действие в процессе; Past simple — событие в целом. Это различие точки зрения, а не правило «одно действие длинное, другое короткое»."
+      "en": "Past continuous shows the background, an action in progress. Past simple shows a single event that interrupts it: 'I was watching TV when my brother came home.' The same meaning works with while: 'While I was watching TV, my brother came home.'",
+      "ru": "Прошедшее длительное (Past continuous) показывает фон, действие в процессе. Прошедшее простое (Past simple) — одно событие, которое прерывает этот фон: «I was watching TV when my brother came home». Тот же смысл даёт союз «while»: «While I was watching TV, my brother came home»."
     },
     "sources": [
       {
@@ -443,8 +443,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Present perfect",
     "russianTerm": "Present perfect",
     "contrast": {
-      "en": "In standard British usage, a finished-time expression such as yesterday normally takes past simple. For, since, already and just are clues to meaning, not automatic selectors of a tense.",
-      "ru": "В стандартном британском употреблении yesterday и другие указания на завершённое прошлое обычно требуют Past simple. For, since, already и just помогают понять смысл, но не выбирают форму автоматически."
+      "en": "'For' says how long something has lasted: 'I have worked here for three years.' 'Since' gives the starting point: 'I have worked here since May.' 'Already' and 'just' often go with the present perfect: 'I have already finished.'",
+      "ru": "«For» обозначает длительность: «I have worked here for three years» — я работаю здесь уже три года. «Since» называет начальную точку: «I have worked here since May» — я работаю здесь с мая. «Already» и «just» часто стоят в настоящем совершённом (Present perfect): «I have already finished»."
     },
     "sources": [
       {
@@ -499,11 +499,11 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     }
   },
   "grammar.tenses.future": {
-    "englishTerm": "Future reference: will, be going to, present continuous",
-    "russianTerm": "Выражение будущего: will, be going to, Present continuous",
+    "englishTerm": "Future forms to compare: will, be going to, present continuous",
+    "russianTerm": "Формы будущего для сравнения: «will», «be going to», настоящее длительное (Present continuous)",
     "contrast": {
-      "en": "In a grammatical account based on verb inflection, English has present and past tenses; “future tense” is a common classroom label for future constructions. Choose the form for meaning, not merely to create variety.",
-      "ru": "В описании по формам глагола английский имеет настоящее и прошедшее времена; «future tense» — распространённое учебное название конструкций будущего. Выбирай форму по смыслу, а не ради разнообразия."
+      "en": "'Will' often marks a decision made at the moment of speaking: 'The phone is ringing. I'll answer it.' 'Be going to' marks a plan, or a prediction based on present evidence: 'Look at those clouds. It's going to rain.'",
+      "ru": "«Will» часто обозначает решение, принятое в момент речи: «The phone is ringing. I’ll answer it.» «Be going to» — это план или прогноз, который опирается на признаки в настоящем: «Look at those clouds. It’s going to rain»."
     },
     "sources": [
       {
@@ -527,7 +527,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
           },
           "detail": {
             "en": "The train leaves tomorrow.",
-            "ru": "The train leaves tomorrow."
+            "ru": "Поезд отправляется завтра."
           }
         },
         {
@@ -548,11 +548,11 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     }
   },
   "grammar.punctuation.comma": {
-    "englishTerm": "Comma (,)",
+    "englishTerm": "Comma",
     "russianTerm": "Запятая (,)",
     "contrast": {
-      "en": "Don't use a comma to join two complete sentences (this is a 'comma splice'): WRONG — 'I went out, it was cold.' Use a full stop, semicolon, or conjunction.",
-      "ru": "Не соединяй два самостоятельных предложения запятой ('comma splice'): НЕВЕРНО — 'I went out, it was cold.' Используй точку, точку с запятой или союз."
+      "en": "A comma joins two full sentences with a conjunction such as 'but' or 'so': 'I went out, but it was cold.' Without one, use a full stop or a semicolon: 'I went out. It was cold.'",
+      "ru": "Запятая соединяет два полных предложения вместе с союзом: «I went out, but it was cold.» Без союза нужна точка или точка с запятой: «I went out. It was cold.»"
     },
     "sources": [
       {
@@ -564,11 +564,11 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     ]
   },
   "grammar.punctuation.semicolon": {
-    "englishTerm": "Semicolon (;)",
+    "englishTerm": "Semicolon",
     "russianTerm": "Точка с запятой (;)",
     "contrast": {
-      "en": "For the clause-linking use, both sides must be independent clauses and their ideas must be closely related. In a complex list, the items need not be complete clauses.",
-      "ru": "При соединении частей обе должны быть самостоятельными и тесно связанными по смыслу. В сложном перечислении элементы не обязаны быть предложениями."
+      "en": "Use a semicolon between list items when the items already contain commas: 'We visited Paris, France; Rome, Italy; and Madrid, Spain.' A plain list needs only commas: 'We visited Paris, Rome and Madrid.'",
+      "ru": "Ставь точку с запятой между элементами списка, если внутри элементов уже есть запятые: «We visited Paris, France; Rome, Italy; and Madrid, Spain.» В простом списке нужны только запятые: «We visited Paris, Rome and Madrid»."
     },
     "sources": [
       {
@@ -580,11 +580,11 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     ]
   },
   "grammar.punctuation.colon": {
-    "englishTerm": "Colon (:)",
+    "englishTerm": "Colon",
     "russianTerm": "Двоеточие (:)",
     "contrast": {
-      "en": "For the list/explanation use in ordinary prose, the introduction is normally a complete clause. Do not separate a verb or preposition from its complement: write “We bought bread and milk”, not “We bought: bread and milk”.",
-      "ru": "Перед списком или пояснением в обычном тексте обычно нужна законченная часть предложения. Не отделяй глагол или предлог от дополнения: We bought bread and milk, а не We bought: bread and milk."
+      "en": "A colon can follow a complete clause and introduce a list or an explanation: 'She needed three things: a pen, paper and a ruler.' Do not put a colon between a verb and its object: 'She needed a pen, paper and a ruler', not 'She needed: a pen, paper and a ruler.'",
+      "ru": "Двоеточие ставят после законченного предложения, когда за ним идёт список или пояснение: «She needed three things: a pen, paper and a ruler». Не ставь двоеточие между глаголом и дополнением: «She needed a pen, paper and a ruler», а не «She needed: a pen, paper and a ruler»."
     },
     "sources": [
       {
@@ -596,11 +596,11 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     ]
   },
   "grammar.punctuation.apostrophe": {
-    "englishTerm": "Apostrophe (')",
+    "englishTerm": "Apostrophe",
     "russianTerm": "Апостроф (')",
     "contrast": {
-      "en": "Possessive its, yours, hers, ours and theirs have no apostrophe. This does not apply to every pronoun: one’s and someone’s do take one. It’s can mean it is or it has.",
-      "ru": "Притяжательные its, yours, hers, ours и theirs пишутся без апострофа. Это не правило для всех местоимений: one’s и someone’s имеют апостроф. It’s означает it is или it has."
+      "en": "An ordinary plural noun takes no apostrophe: 'two apples', not apple's. An apostrophe shows possession: 'the cat's bowl' (one cat) and 'the cats' bowls' (several cats). Watch the pronouns: one's and someone's take an apostrophe.",
+      "ru": "У обычного существительного во множественном числе апострофа нет: «two apples», а не «apple’s». Апостроф показывает принадлежность: «the cat’s bowl» (одна кошка) и «the cats’ bowls» (несколько кошек). Обрати внимание на местоимения: «one’s» и «someone’s» пишут с апострофом."
     },
     "sources": [
       {
@@ -612,11 +612,11 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     ]
   },
   "grammar.punctuation.dash": {
-    "englishTerm": "Dash (—)",
+    "englishTerm": "Dash",
     "russianTerm": "Тире (—)",
     "contrast": {
-      "en": "Em dash (—) is longer than a hyphen (-). Use it sparingly; overuse makes prose feel breathless.",
-      "ru": "Em-тире (—) длиннее дефиса (-). Не злоупотребляй — слишком много тире делает текст рваным."
+      "en": "A hyphen (-) joins parts of one word: 'well-known', 'twenty-one'. A dash (—) sets off an extra idea: 'The test — which was hard — took an hour.'",
+      "ru": "Дефис (-) соединяет части одного слова: «well-known», «twenty-one». Тире (—) выделяет вставку или пояснение: «The test — which was hard — took an hour»."
     },
     "sources": [
       {
@@ -631,8 +631,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "your vs you're",
     "russianTerm": "your vs you're",
     "contrast": {
-      "en": "Try expanding you’re to you are. Use your when a following noun belongs or relates to the person addressed.",
-      "ru": "Попробуй заменить you’re на you are. Your определяет существительное, связанное с адресатом или принадлежащее ему."
+      "en": "'Your' comes before a noun: 'your essay', 'your new idea'. 'You're' means 'you are': 'You're late', 'You're writing'.",
+      "ru": "«Your» стоит перед существительным: «your essay», «your new idea». «You’re» значит «you are»: «You’re late», «You’re writing»."
     },
     "sources": [
       {
@@ -647,8 +647,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "its vs it's",
     "russianTerm": "its vs it's",
     "contrast": {
-      "en": "Expand it’s to it is or it has. Possessive its has no apostrophe: the bird spread its wings.",
-      "ru": "Разверни it’s в it is или it has. Притяжательное its пишется без апострофа: the bird spread its wings."
+      "en": "Replace it's with 'it is' or 'it has': 'It's raining', 'It's been a long day'. Possessive 'its' has no apostrophe: 'The bird spread its wings.' If 'it's' does not fit 'it is' or 'it has', write 'its'.",
+      "ru": "Замени «it’s» на «it is» или «it has»: «It’s raining», «It’s been a long day». Притяжательное «its» пишется без апострофа: «The bird spread its wings». Если замена не подходит, пиши «its»."
     },
     "sources": [
       {
@@ -663,8 +663,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "there / their / they're",
     "russianTerm": "there / their / they're",
     "contrast": {
-      "en": "There can indicate a place or introduce existence; their is possessive; they’re expands to they are. Decide by meaning and sentence structure.",
-      "ru": "There обозначает место или вводит существование; their — притяжательная форма; they’re = they are. Выбирай по смыслу и структуре."
+      "en": "Ask what the word does. 'There' answers 'where?' or introduces something that exists: 'There is a bus outside.' 'Their' answers 'whose?': 'Their bus is late.' 'They're' means 'they are': 'They're waiting outside.'",
+      "ru": "Спроси себя, что делает слово. «There» отвечает на вопрос «где?» или вводит то, что существует: «There is a bus outside». «Their» отвечает на вопрос «чей?»: «Their bus is late». «They’re» значит «they are»: «They’re waiting outside»."
     },
     "sources": [
       {
@@ -679,8 +679,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "less vs fewer",
     "russianTerm": "less vs fewer",
     "contrast": {
-      "en": "Time meaning duration is uncountable: less time. Times meaning occasions is countable: fewer times. Informal usage varies.",
-      "ru": "Time в значении длительности неисчисляемо: less time. Times в значении случаев исчисляемо: fewer times. В разговорной речи употребление варьируется."
+      "en": "Use 'less' with uncountable nouns, the things you measure rather than count: 'less water', 'less time'. Use 'fewer' with countable plural nouns: 'fewer mistakes', 'fewer students'. Informal usage varies.",
+      "ru": "Используй «less» с неисчисляемыми существительными, то есть с тем, что измеряют, а не считают: «less water», «less time». С исчисляемыми существительными во множественном числе используй «fewer»: «fewer mistakes», «fewer students». В разговорной речи употребление варьируется."
     },
     "sources": [
       {
@@ -695,8 +695,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "affect vs effect",
     "russianTerm": "affect vs effect",
     "contrast": {
-      "en": "Effect can be a verb meaning bring about: effect change. Affect can be a technical noun for an observable emotional state or expression. Check the intended meaning.",
-      "ru": "Effect бывает глаголом «осуществить»: effect change. Affect бывает специальным существительным для эмоционального состояния или его внешнего проявления. Проверяй нужное значение."
+      "en": "'Affect' is usually a verb meaning 'influence': 'The rain affected the match.' 'Effect' is usually a noun meaning 'result': 'the effect of the rain'. As a verb, 'effect' means 'bring about': 'to effect change'. 'Affect' as a noun is a specialist word for visible emotion.",
+      "ru": "«Affect» обычно глагол со значением «влиять»: «The rain affected the match». «Effect» обычно существительное со значением «результат»: «the effect of the rain». Как глагол «effect» значит «вызвать»: «to effect change». «Affect» как существительное — специальный термин для видимого проявления эмоций."
     },
     "sources": [
       {
@@ -711,8 +711,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "than vs then",
     "russianTerm": "than vs then",
     "contrast": {
-      "en": "Comparison → think 'compare', both have an A. Time → then has 'en' like 'when'.",
-      "ru": "Сравнение → 'compare', обе с буквой A. Время → then с 'en' как 'when'."
+      "en": "Use 'than' to compare: 'taller than Sam'. Use 'then' for time or order: 'We ate, then we left.'",
+      "ru": "Для сравнения используй «than»: «taller than Sam» (выше, чем Сэм). Для времени или порядка используй «then»: «We ate, then we left» (поели, потом ушли)."
     },
     "sources": [
       {
@@ -1167,8 +1167,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Subject–verb agreement",
     "russianTerm": "Согласование подлежащего и сказуемого",
     "contrast": {
-      "en": "Agreement follows the subject’s grammatical head and the variety of English used.",
-      "ru": "Согласование зависит от главного слова подлежащего и варианта английского."
+      "en": "The verb agrees with the head noun of the subject, not with a noun inside a phrase: 'The box of pencils is on the desk', not 'are'. In British English, a collective noun can take a plural verb: 'The team are winning.'",
+      "ru": "Глагол согласуется с главным словом подлежащего, а не с существительным внутри фразы: «The box of pencils is on the desk», а не «are». В британском английском коллективное существительное иногда получает глагол во множественном числе: «The team are winning»."
     },
     "sources": [
       {
@@ -1189,8 +1189,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Critical thinking",
     "russianTerm": "Критическое мышление",
     "contrast": {
-      "en": "Use context and evidence; a useful label or memorable phrase is not a substitute for an explanation.",
-      "ru": "Учитывай контекст и доказательства: термин или запоминающаяся фраза не заменяет объяснения."
+      "en": "In 'critical thinking', critical means judging carefully, using evidence, not finding fault. Test a claim: what supports it, and what could weaken it?",
+      "ru": "В выражении «critical thinking» слово «critical» значит «внимательно оценивать, опираясь на доказательства», а не «критиковать». Проверь утверждение: что его подтверждает и что может его ослабить."
     },
     "sources": [
       {
@@ -1211,8 +1211,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Shakespeare — quick intro",
     "russianTerm": "Шекспир — короткое введение",
     "contrast": {
-      "en": "Use context and evidence; a useful label or memorable phrase is not a substitute for an explanation.",
-      "ru": "Учитывай контекст и доказательства: термин или запоминающаяся фраза не заменяет объяснения."
+      "en": "Shakespeare's words can look old, but do not translate them one by one. Read the whole line and its context before you decide what it means.",
+      "ru": "Слова Шекспира могут казаться старомодными, но не переводи их по одному. Сначала прочитай всю строку и её контекст, и только потом решай, что она значит."
     },
     "sources": [
       {
@@ -1239,8 +1239,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Advanced vocabulary for essays",
     "russianTerm": "Продвинутая лексика для эссе",
     "contrast": {
-      "en": "Use context and evidence; a useful label or memorable phrase is not a substitute for an explanation.",
-      "ru": "Учитывай контекст и доказательства: термин или запоминающаяся фраза не заменяет объяснения."
+      "en": "A longer word is not a more precise one. Choose the word whose meaning fits your point: 'gripping' means it holds your attention, while 'impressive' means it makes you admire something.",
+      "ru": "Длинное слово не значит, что оно точнее. Выбирай слово, которое совпадает с твоей мыслью: «gripping» — держит внимание, а «impressive» — вызывает восхищение."
     },
     "sources": [
       {
@@ -1321,8 +1321,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Using quotations responsibly",
     "russianTerm": "Как использовать цитаты",
     "contrast": {
-      "en": "Use context and evidence; a useful label or memorable phrase is not a substitute for an explanation.",
-      "ru": "Учитывай контекст и доказательства: термин или запоминающаяся фраза не заменяет объяснения."
+      "en": "A quotation does not prove a point by itself. After each quotation, explain what the words show. For example, the writer describes the sea as 'a grey wall', which makes the storm seem threatening.",
+      "ru": "Сама по себе цитата ничего не доказывает. После неё объясни, что показывают слова. Например, автор описывает море как «a grey wall» (серая стена), и из-за этого шторм кажется угрожающим."
     },
     "sources": [
       {
@@ -1337,8 +1337,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Analysing poetry",
     "russianTerm": "Анализ поэзии",
     "contrast": {
-      "en": "Use context and evidence; a useful label or memorable phrase is not a substitute for an explanation.",
-      "ru": "Учитывай контекст и доказательства: термин или запоминающаяся фраза не заменяет объяснения."
+      "en": "The speaker is the voice in a poem, and it is not always the poet. Analyse what the speaker feels and says, not the poet's life, unless the question asks for context.",
+      "ru": "Лирический герой (speaker) — это голос в стихотворении, и он не обязательно совпадает с поэтом. Анализируй, что чувствует и говорит этот голос, а не биографию поэта, если вопрос не просит о контексте."
     },
     "sources": [
       {

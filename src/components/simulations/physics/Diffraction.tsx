@@ -11,7 +11,8 @@ const WALL_X = Math.round(W * 0.35);
 const SLIT_CENTER_Y = H / 2;
 
 export function Diffraction() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const ru = i18n.language.startsWith('ru');
   const [slit, setSlit] = useState(80);
   const [wavelength, setWavelength] = useState(40);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -25,9 +26,9 @@ export function Diffraction() {
   });
 
   const ratio = wavelength / slit;
-  let intuition = 'Mild spreading — wave continues mostly straight';
-  if (ratio > 0.6) intuition = 'Strong diffraction — wave spreads wide';
-  else if (ratio > 0.3) intuition = 'Moderate diffraction — clear curving at edges';
+  let intuition = ru ? 'Слабое расхождение — волна идёт почти прямо' : 'Mild spreading — wave continues mostly straight';
+  if (ratio > 0.6) intuition = ru ? 'Сильная дифракция — волна сильно расходится' : 'Strong diffraction — wave spreads wide';
+  else if (ratio > 0.3) intuition = ru ? 'Умеренная дифракция — заметный изгиб у краёв' : 'Moderate diffraction — clear curving at edges';
 
   return (
     <SimulationPanel title={t('wavesOptics.sim3.title')} description={t('wavesOptics.sim3.desc')}>
@@ -40,19 +41,19 @@ export function Diffraction() {
         />
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
           <div className="space-y-3">
-            <Slider label={t('wavesOptics.sim3.slitWidth')} unit="px" min={10} max={200} step={2} value={slit} onChange={setSlit} />
-            <Slider label={t('wavesOptics.sim3.wavelength')} unit="px" min={10} max={100} step={2} value={wavelength} onChange={setWavelength} />
+            <Slider label={t('wavesOptics.sim3.slitWidth')} unit={ru ? 'м' : 'm'} format={(v) => (v / 100).toFixed(2)} min={10} max={200} step={2} value={slit} onChange={setSlit} />
+            <Slider label={t('wavesOptics.sim3.wavelength')} unit={ru ? 'м' : 'm'} format={(v) => (v / 100).toFixed(2)} min={10} max={100} step={2} value={wavelength} onChange={setWavelength} />
           </div>
           <div className="bg-bg-tertiary border border-border rounded-md px-4 py-3">
-            <p className="text-xs text-text-muted">λ / slit</p>
+            <p className="text-xs text-text-muted">{ru ? 'λ / щель' : 'λ / slit'}</p>
             <p className="font-mono text-xl">{ratio.toFixed(2)}</p>
             <p className="text-xs text-text-secondary mt-1">{intuition}</p>
           </div>
         </div>
         <div className="text-xs text-text-muted leading-relaxed">
-          When the slit is much wider than λ, the wave passes through almost as a plane wave with small bending at the edges.
-          When the slit is similar in size to (or smaller than) λ, the wave spreads out widely — each point in the slit acts
-          as a new source (Huygens' principle).
+          {ru
+            ? 'Если щель намного шире λ, волна проходит почти как плоская и лишь немного загибается у краёв. Если щель сравнима с λ или меньше, волна сильно расходится: каждая точка щели становится новым источником (принцип Гюйгенса).'
+            : 'When the slit is much wider than λ, the wave passes through almost as a plane wave with small bending at the edges. When the slit is similar in size to (or smaller than) λ, the wave spreads out widely — each point in the slit acts as a new source (Huygens\' principle).'}
         </div>
       </div>
     <FormulaTeaching id="diffraction-ratio"/></SimulationPanel>

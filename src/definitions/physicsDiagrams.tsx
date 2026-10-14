@@ -62,7 +62,7 @@ export function PhysicsConceptDiagram({ kind }: { kind: DiagramKind }) {
           <path d="M35 145 Q90 15 145 145 T255 145 T365 145 T475 145 T585 145" fill="none" stroke="#397a90" strokeWidth="4" />
           <path d="M90 145 V80" stroke="currentColor" strokeWidth="2" markerStart={`url(#${id}-arrow)`} markerEnd={`url(#${id}-arrow)`} /><text x="102" y="122">A</text>
           <path d="M90 50 H310" stroke="currentColor" strokeWidth="2" markerStart={`url(#${id}-arrow)`} markerEnd={`url(#${id}-arrow)`} /><text x="195" y="37">λ</text>
-          <path d="M365 224 H530" stroke="currentColor" strokeWidth="2" markerEnd={`url(#${id}-arrow)`} /><text x="340" y="254">{t('wave travel','распространение')}</text>
+          <path d="M365 224 H530" stroke="currentColor" strokeWidth="2" markerEnd={`url(#${id}-arrow)`} /><text x="300" y="254">{t('wave travel','распространение')}</text>
         </>}
       </g>
     </svg></div>

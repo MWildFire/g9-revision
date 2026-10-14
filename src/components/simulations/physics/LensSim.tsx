@@ -13,7 +13,8 @@ const LENS_X = W / 2;
 const OBJECT_HEIGHT = 60;
 
 export function LensSim() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const ru = i18n.language.startsWith('ru');
   const [u, setU] = useState(140);
   const [f, setF] = useState(80);
 
@@ -116,7 +117,7 @@ export function LensSim() {
               fill="#3d2f1f"
             />
             <text x={objectX} y={CY + 14} textAnchor="middle" fontSize="9" fill="#6b5b47" fontFamily="JetBrains Mono">
-              object
+              {ru ? 'предмет' : 'object'}
             </text>
           </g>
 
@@ -141,7 +142,7 @@ export function LensSim() {
                 fill={isReal ? '#3d2f1f' : '#c99a8e'}
               />
               <text x={imageX} y={CY + 14} textAnchor="middle" fontSize="9" fill={isReal ? '#3d2f1f' : '#c99a8e'} fontFamily="JetBrains Mono">
-                {isReal ? 'real image' : 'virtual image'}
+                {isReal ? (ru ? 'действительное' : 'real image') : (ru ? 'мнимое' : 'virtual image')}
               </text>
             </g>
           ) : null}
@@ -155,17 +156,17 @@ export function LensSim() {
         </svg>
 
         <div className="space-y-4">
-          <Slider label={t('wavesOptics.sim5.objectDistance')} unit="px" min={20} max={260} step={2} value={u} onChange={setU} />
-          <Slider label={t('wavesOptics.sim5.focalLength')} unit="px" min={20} max={180} step={2} value={f} onChange={setF} />
+          <Slider label={t('wavesOptics.sim5.objectDistance')} unit={ru ? 'см' : 'cm'} min={20} max={260} step={2} value={u} onChange={setU} />
+          <Slider label={t('wavesOptics.sim5.focalLength')} unit={ru ? 'см' : 'cm'} min={20} max={180} step={2} value={f} onChange={setF} />
 
           <Formula caption="1/v = 1/f − 1/u">
-            v = {v !== null ? format(v, 1) : '—'} px
+            v = {v !== null ? format(v, 1) : '—'} {ru ? 'см' : 'cm'}
           </Formula>
 
           <div className="bg-bg-tertiary border border-border rounded-md px-4 py-2.5 text-sm space-y-0.5">
             <div className="flex justify-between">
               <span className="text-text-muted">{t('wavesOptics.sim5.imageDistance')}</span>
-              <span className="font-mono">{v !== null ? format(v, 1) : '—'} px</span>
+              <span className="font-mono">{v !== null ? format(v, 1) : '—'} {ru ? 'см' : 'cm'}</span>
             </div>
             <div className="flex justify-between">
               <span className="text-text-muted">{t('wavesOptics.sim5.magnification')}</span>
@@ -173,11 +174,11 @@ export function LensSim() {
             </div>
             <div className="pt-1.5 mt-1.5 border-t border-border space-y-0.5">
               <div className="flex justify-between text-xs">
-                <span className="text-text-muted">Type</span>
+                <span className="text-text-muted">{ru ? 'Тип' : 'Type'}</span>
                 <span>{isReal ? t('wavesOptics.sim5.real') : isVirtual ? t('wavesOptics.sim5.virtual') : '—'}</span>
               </div>
               <div className="flex justify-between text-xs">
-                <span className="text-text-muted">Orientation</span>
+                <span className="text-text-muted">{ru ? 'Ориентация' : 'Orientation'}</span>
                 <span>
                   {mag === null
                     ? '—'
@@ -187,7 +188,7 @@ export function LensSim() {
                 </span>
               </div>
               <div className="flex justify-between text-xs">
-                <span className="text-text-muted">Size</span>
+                <span className="text-text-muted">{ru ? 'Размер' : 'Size'}</span>
                 <span>
                   {mag === null
                     ? '—'
@@ -200,9 +201,9 @@ export function LensSim() {
           </div>
 
           <div className="text-xs text-text-muted leading-relaxed">
-            <span style={{ color: '#a8b5a0' }}>━</span> Ray 1: parallel → through F′ &nbsp;
-            <span style={{ color: '#c99a8e' }}>━</span> Ray 2: through center &nbsp;
-            <span style={{ color: '#c9a876' }}>━</span> Ray 3: through F → parallel
+            <span style={{ color: '#a8b5a0' }}>━</span> {ru ? 'Луч 1: параллельно → через F′' : 'Ray 1: parallel → through F′'} &nbsp;
+            <span style={{ color: '#c99a8e' }}>━</span> {ru ? 'Луч 2: через центр' : 'Ray 2: through centre'} &nbsp;
+            <span style={{ color: '#c9a876' }}>━</span> {ru ? 'Луч 3: через F → параллельно' : 'Ray 3: through F → parallel'}
           </div>
         </div>
       </div>

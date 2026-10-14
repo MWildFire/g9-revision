@@ -3190,22 +3190,22 @@
     "intro": "From ripples on a pond to gamma rays — all waves share a few simple properties.",
     "concepts": {
       "waveTypes": {
-        "name": "Transverse vs Longitudinal waves",
-        "rule": "Transverse oscillations are perpendicular to propagation; longitudinal oscillations are parallel. Waves transfer energy and information. In the small-amplitude mechanical model, particles oscillate locally rather than travelling along with the wave.",
+        "name": "Transverse and longitudinal waves",
+        "rule": "In a mechanical wave, particles only oscillate about their rest positions. The wave carries energy and information onwards, not the particles themselves. Light and other electromagnetic waves are transverse.",
         "examples": [
-          "A stretched string can support transverse waves; air sound is longitudinal.",
-          "Electromagnetic waves have oscillating fields and do not require a material medium."
+          "When a guitar string is plucked, each point on it moves up and down, but the wave travels along the string.",
+          "Push one end of a long, soft spring along its length. A compression travels down the spring, but each coil only moves back and forth."
         ],
         "review": {
-          "englishTerm": "Transverse vs Longitudinal waves",
+          "englishTerm": "Transverse and longitudinal waves",
           "russianTerm": "Поперечные и продольные волны",
           "contrast": {
-            "en": "For electromagnetic waves it is the fields that oscillate, not material particles.",
-            "ru": "В электромагнитной волне колеблются поля, а не частицы вещества."
+            "en": "Light is a transverse wave, but its electric and magnetic fields oscillate, not particles of matter. This is why light can travel through a vacuum.",
+            "ru": "Свет — поперечная волна, но в нём колеблются электрическое и магнитное поля, а не частицы вещества. Поэтому свет проходит и через вакуум."
           },
           "model": {
-            "en": "Surface-water waves generally combine vertical and horizontal motion, so they are not purely transverse.",
-            "ru": "Поверхностные волны на воде обычно сочетают вертикальное и горизонтальное движение и не являются чисто поперечными."
+            "en": "Waves on the surface of water are not purely transverse. Water particles move in near-circular paths, so they have both up-and-down and sideways motion.",
+            "ru": "Волны на поверхности воды не бывают чисто поперечными. Частицы воды описывают почти круговые пути, поэтому они движутся и вверх-вниз, и в стороны."
           },
           "sources": [
             {
@@ -3224,22 +3224,22 @@
         }
       },
       "waveEquation": {
-        "name": "Wave equation: v = f·λ",
-        "rule": "For a periodic travelling wave, v = fλ and T = 1/f. Frequency f counts cycles per second, wavelength λ measures spatial repetition and period T measures the time per cycle.",
+        "name": "Wave speed: v = fλ",
+        "rule": "For a periodic wave, the **wave speed** v equals the frequency f times the wavelength λ: v = fλ. In one period, the wave moves forward by exactly one wavelength. There are f periods each second, so the wave travels fλ metres each second. The period T is the time for one cycle, and T = 1/f.",
         "examples": [
-          "At f = 50 Hz and λ = 2 m, v = 100 m/s and T = 0.02 s.",
-          "At a stationary boundary the transmitted wave keeps the source frequency; a speed change produces a wavelength change."
+          "A radio wave with frequency 100 MHz travels at 3.0 × 10⁸ m/s, so its wavelength is λ = v / f = (3.0 × 10⁸ m/s) / (1.0 × 10⁸ Hz) = 3.0 m.",
+          "A wave with frequency 4 Hz has period T = 1 / f = 1 / 4 Hz = 0.25 s, so each cycle takes a quarter of a second."
         ],
         "review": {
-          "englishTerm": "Wave equation: v = f·λ",
-          "russianTerm": "Уравнение волны: v = f·λ",
+          "englishTerm": "Wave speed",
+          "russianTerm": "Скорость волны: v = νλ",
           "contrast": {
-            "en": "Frequency counts cycles per time; wave speed describes how fast a disturbance travels.",
-            "ru": "Частота — число циклов за время; скорость волны — скорость распространения возмущения."
+            "en": "Frequency counts cycles per second. Wave speed depends on the medium: a wave of the same frequency travels at different speeds in air and in water.",
+            "ru": "Частота показывает число колебаний в секунду, а скорость зависит от среды. Волна одной и той же частоты распространяется в воздухе и в воде с разной скоростью."
           },
           "model": {
-            "en": "A single f and λ describe a periodic wave; a pulse can contain many frequencies.",
-            "ru": "Одна пара f и λ описывает периодическую волну; импульс может содержать много частот."
+            "en": "The formula v = fλ applies to a periodic wave with one frequency and one wavelength. A single pulse contains a range of frequencies and wavelengths, so it has no single f or λ.",
+            "ru": "Формула v = νλ относится к периодической волне с одной частотой и одной длиной волны. Одиночный импульс содержит много частот и длин волн, поэтому у него нет одной частоты и одной длины волны."
           },
           "sources": [
             {
@@ -3259,21 +3259,21 @@
       },
       "emSpectrum": {
         "name": "Electromagnetic spectrum",
-        "rule": "The electromagnetic spectrum is ordered by frequency or wavelength: radio → microwave → infrared → visible → ultraviolet → X-ray → gamma for increasing frequency. In vacuum all travel at c; photon energy E = hf increases with frequency.",
+        "rule": "The regions are grouped by frequency or wavelength.\n\nFrom lowest to highest frequency, the regions are radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays.\n\nAll of them travel at c = 3.0 × 10⁸ m/s in a vacuum, and they differ in frequency and wavelength.",
         "examples": [
           "Radio waves carry communication signals; infrared radiation is used in thermal imaging.",
-          "X-rays and gamma rays can ionise matter. High-energy ultraviolet can also ionise; UV damage does not require every UV photon to be ionising."
+          "X-rays and gamma rays can ionise atoms, so they can damage living cells. Ultraviolet from sunlight causes sunburn, but its photons carry less energy and rarely ionise atoms."
         ],
         "review": {
           "englishTerm": "Electromagnetic spectrum",
           "russianTerm": "Электромагнитный спектр",
           "contrast": {
-            "en": "Higher frequency means greater energy per photon, E = hf, not necessarily greater beam power.",
-            "ru": "Большая частота означает большую энергию одного фотона E = hf, но не обязательно большую мощность пучка."
+            "en": "Higher frequency means more energy per photon, but not necessarily more beam power. Beam power depends on how many photons arrive each second. A weak gamma-ray source can deliver less power than a bright lamp.",
+            "ru": "Большая частота означает большую энергию одного фотона, но не обязательно большую мощность пучка. Мощность пучка зависит от того, сколько фотонов приходит за секунду. Слабый источник гамма-излучения может давать меньшую мощность, чем яркая лампа."
           },
           "model": {
-            "en": "All travel at c in vacuum. Band boundaries are approximate, and radiation risk also depends on dose and exposure.",
-            "ru": "В вакууме все распространяются со скоростью c. Границы диапазонов условны; риск зависит также от дозы и условий воздействия."
+            "en": "The band boundaries are approximate, because neighbouring regions blend gradually with no sharp edges.",
+            "ru": "Границы диапазонов условны: соседние области постепенно переходят одна в другую, резких границ нет."
           },
           "sources": [
             {
@@ -3293,21 +3293,21 @@
       },
       "reflection": {
         "name": "Reflection",
-        "rule": "For a reflected ray, the angle of reflection equals the angle of incidence. Both angles are measured from the normal to the surface. A rough surface has different local normals and gives diffuse reflection.",
+        "rule": "The **angle of reflection** equals the angle of incidence. Both angles are measured from the normal, the line drawn at right angles to the surface where the ray hits it. The reflected wave keeps the same speed and wavelength as the incident wave, because it stays in the same medium.",
         "examples": [
-          "A ray incident at 40° to the normal reflects at 40° to the normal.",
+          "At 20 °C, sound travels at 343 m/s in air. If an echo returns 2 s after the shout, the sound covers 343 m/s × 2 s = 686 m in total, there and back. The wall is half that distance away: 686 m / 2 = 343 m, one way.",
           "A plane mirror produces a virtual image as far behind the mirror as the object is in front."
         ],
         "review": {
           "englishTerm": "Reflection",
           "russianTerm": "Отражение",
           "contrast": {
-            "en": "Reflection returns into the original medium; refraction concerns the transmitted wave.",
-            "ru": "Отражённая волна остаётся в исходной среде; преломлённая проходит в другую."
+            "en": "Angles are measured from the normal, not from the surface. A ray that meets a mirror at 30° to the surface has an angle of incidence of 60° and reflects at 60° to the normal.",
+            "ru": "Углы отсчитывают от нормали, а не от поверхности. Луч, падающий на зеркало под углом 30° к поверхности, имеет угол падения 60° и отражается под углом 60° к нормали."
           },
           "model": {
-            "en": "The ray law applies locally to a surface; rough surfaces scatter reflected rays in different directions.",
-            "ru": "Закон для лучей действует локально: на шероховатой поверхности отражённые лучи идут в разных направлениях."
+            "en": "The law applies at each point of a surface. A rough surface has many tiny facets facing different ways, so parallel rays reflect in different directions. This is diffuse reflection.",
+            "ru": "Закон отражения выполняется в каждой точке поверхности. На шероховатой поверхности много мелких граней, направленных в разные стороны, поэтому параллельные лучи отражаются в разных направлениях. Так получается рассеянное отражение (diffuse reflection)."
           },
           "sources": [
             {
@@ -3327,21 +3327,21 @@
       },
       "refraction": {
         "name": "Refraction",
-        "rule": "Refraction changes wave speed between media; at oblique incidence it usually changes direction. For light n = c/v and n₁ sin θ₁ = n₂ sin θ₂, with angles measured from the normal. Larger n means lower light speed, not necessarily larger mass density.",
+        "rule": "For light, n = c / v, where c is the speed in a vacuum and v is the speed in the medium. A larger n means light travels more slowly in that medium. Because n is a ratio of two speeds, it has no unit.",
         "examples": [
-          "Air to glass at oblique incidence: the ray bends towards the normal.",
-          "Total internal reflection needs travel towards lower n and an incidence angle above the critical angle."
+          "Light travels from air (n = 1.00) into glass (n = 1.52) at an angle of incidence θ₁ = 30°. Using n₁ sin θ₁ = n₂ sin θ₂, where θ₂ is the angle of refraction: sin θ₂ = (1.00 × sin 30°) / 1.52 = 0.329, so θ₂ ≈ 19.2°. The ray bends towards the normal.",
+          "Light inside glass (n = 1.52) meets the glass–air boundary at 50° to the normal. The critical angle θc is the largest angle at which light can still leave the glass. From sin θc = 1 / 1.52, θc ≈ 41.1°. Since 50° is greater than 41.1°, the light is totally internally reflected."
         ],
         "review": {
           "englishTerm": "Refraction",
           "russianTerm": "Преломление",
           "contrast": {
-            "en": "Use refractive index, not mass density, to predict the bending of light.",
-            "ru": "Направление преломления света определяет показатель преломления, а не массовая плотность."
+            "en": "Refractive index and mass density are different quantities. How strongly light bends depends on the refractive indices of the two media, that is, on how different the light speeds in them are, not on mass density.",
+            "ru": "Показатель преломления и плотность — разные величины. Насколько сильно свет преломляется, зависит от показателей преломления двух сред, то есть от того, насколько различаются скорости света в них, а не от плотности вещества."
           },
           "model": {
-            "en": "At normal incidence speed and wavelength change without bending; frequency stays the same at a stationary boundary.",
-            "ru": "При падении по нормали скорость и длина волны меняются без поворота; на неподвижной границе частота сохраняется."
+            "en": "At normal incidence the ray does not bend, although the speed and wavelength still change. The frequency stays the same at a stationary boundary, because the source sets it.",
+            "ru": "При падении по нормали луч не отклоняется, хотя скорость и длина волны всё равно меняются. Частота на неподвижной границе не меняется, потому что её задаёт источник."
           },
           "sources": [
             {
@@ -3360,22 +3360,22 @@
         }
       },
       "sound": {
-        "name": "Sound waves & hearing",
-        "rule": "Sound is a mechanical disturbance; in gases and liquids it propagates as longitudinal pressure waves. Pitch relates mainly to frequency; loudness depends on intensity, frequency and hearing. Sound speed depends on the medium’s elasticity and density.",
+        "name": "Sound waves and hearing",
+        "rule": "**Sound** is a mechanical longitudinal wave: it moves as pressure variations through a medium such as air, water or metal. Pitch depends mainly on frequency, and higher frequency gives a higher pitch. Loudness depends on the intensity of the wave and also on frequency, because the ear is not equally sensitive to all frequencies.",
         "examples": [
-          "At room temperature sound speed in air is about 343 m/s, so a 3 s delay corresponds to about 1 km.",
-          "At fixed frequency and medium, increasing pressure amplitude increases intensity; amplitude itself is not measured in decibels."
+          "Thunder heard 3 s after a lightning flash comes from about 343 m/s × 3 s ≈ 1 km away (air at 20 °C).",
+          "Ultrasound is sound above 20 kHz, the upper limit of human hearing. Medical scanners use it to form images of organs inside the body."
         ],
         "review": {
-          "englishTerm": "Sound waves & hearing",
+          "englishTerm": "Sound waves and hearing",
           "russianTerm": "Звуковые волны и слух",
           "contrast": {
-            "en": "Particles oscillate locally while the disturbance travels onward.",
-            "ru": "Частицы колеблются около положения равновесия, а возмущение распространяется дальше."
+            "en": "Sound is not moving air: unlike wind, it does not carry the air from the source to the listener.",
+            "ru": "Звук — не движение воздуха: в отличие от ветра, он не переносит воздух от источника к слушателю."
           },
           "model": {
-            "en": "The simple model describes small oscillations in a medium, without bulk transport by the wave.",
-            "ru": "Простая модель описывает малые колебания среды без переноса её вещества вместе с волной."
+            "en": "Sound needs a medium. In a vacuum there are no particles to pass on the pressure variations, so sound cannot travel.",
+            "ru": "Звуку нужна среда. В вакууме нет частиц, которые передавали бы колебания давления, поэтому звук не может распространяться."
           },
           "sources": [
             {
@@ -3404,18 +3404,18 @@
       "amplitude": {
         "name": "Amplitude",
         "alt": "Амплитуда",
-        "definition": "The maximum magnitude of an oscillating quantity’s deviation from its equilibrium value.",
-        "example": "For a string moving between −2 cm and +2 cm, displacement amplitude is 2 cm.",
+        "definition": "The amplitude of a wave is the greatest distance of a particle from its equilibrium position.",
+        "example": "If you shake a rope harder, its crests rise higher above the equilibrium position, so the amplitude is larger.",
         "review": {
           "englishTerm": "Amplitude",
           "russianTerm": "Амплитуда",
           "contrast": {
-            "en": "Amplitude is half the peak-to-peak range; wavelength is a distance along the wave.",
-            "ru": "Амплитуда равна половине размаха; длина волны измеряется вдоль распространения."
+            "en": "Amplitude is half the height from trough to crest, not the full height.",
+            "ru": "Амплитуда — половина высоты от впадины до гребня, а не вся высота."
           },
           "model": {
-            "en": "For sound use displacement or pressure amplitude; for light use electric or magnetic field amplitude.",
-            "ru": "Для звука рассматривают амплитуду смещения или давления; для света — амплитуду электрического или магнитного поля."
+            "en": "For sound, use the amplitude of the particles' movement or of the pressure; for light, use the amplitude of the electric or magnetic field.",
+            "ru": "Для звука берут амплитуду колебаний частиц или давления, для света — амплитуду электрического или магнитного поля."
           },
           "sources": [
             {
@@ -3436,18 +3436,13 @@
       "wavelength": {
         "name": "Wavelength",
         "alt": "Длина волны",
-        "definition": "The distance along a periodic wave between adjacent points in the same phase, measured at one time.",
-        "example": "From one crest to the next, or one compression to the next.",
+        "definition": "The wavelength is the distance from a point on a wave to the same point on the next wave.",
         "review": {
           "englishTerm": "Wavelength",
           "russianTerm": "Длина волны",
-          "contrast": {
-            "en": "A wavelength is a spatial repeat; a period is the time for one cycle.",
-            "ru": "Длина волны — пространственное повторение, период — время одного цикла."
-          },
           "model": {
-            "en": "Use adjacent matching points; the distance across two wavelengths is 2λ.",
-            "ru": "Выбирай ближайшие однофазные точки: через две длины волны расстояние равно 2λ."
+            "en": "Measure the distance spanned by several waves, then divide by their number. This way, a small error in one reading matters less.",
+            "ru": "Измерь расстояние, на котором укладывается несколько волн, и раздели его на их число. Так ошибка одного отсчёта меньше влияет на результат."
           },
           "sources": [
             {
@@ -3463,24 +3458,17 @@
               "section": "2.6. Механические волны"
             }
           ]
-        }
+        },
+        "example": "From one crest to the next, or one compression to the next."
       },
       "frequency": {
         "name": "Frequency",
         "alt": "Частота",
-        "definition": "The number of complete oscillation cycles per unit time; 1 Hz means one cycle per second.",
-        "example": "A source making 50 cycles each second has frequency 50 Hz and period 0.02 s.",
+        "definition": "The number of complete oscillation cycles per second; the unit is hertz (Hz).",
+        "example": "The lowest frequency most people can hear is 20 Hz: the source makes 20 complete cycles every second.",
         "review": {
           "englishTerm": "Frequency",
           "russianTerm": "Частота",
-          "contrast": {
-            "en": "Frequency counts cycles per time; wave speed describes how fast a disturbance travels.",
-            "ru": "Частота — число циклов за время; скорость волны — скорость распространения возмущения."
-          },
-          "model": {
-            "en": "A single f and λ describe a periodic wave; a pulse can contain many frequencies.",
-            "ru": "Одна пара f и λ описывает периодическую волну; импульс может содержать много частот."
-          },
           "sources": [
             {
               "title": "OpenStax · College Physics 2e",
@@ -3494,24 +3482,24 @@
               "language": "ru",
               "section": "2.6. Механические волны"
             }
-          ]
+          ],
+          "model": {
+            "en": "The idea applies to any wave: sound, water waves and light.",
+            "ru": "Понятие относится к любой волне: звуку, волнам на воде и свету."
+          }
         }
       },
       "longitudinal": {
         "name": "Longitudinal wave",
         "alt": "Продольная волна",
-        "definition": "A wave whose oscillations are parallel to its direction of propagation.",
-        "example": "In air, sound produces alternating compressions and rarefactions.",
+        "definition": "A longitudinal wave is one in which the particles move parallel to the wave's direction of travel.",
+        "example": "Some earthquake waves, called P-waves, are longitudinal: they push and pull the ground along the direction the wave travels.",
         "review": {
           "englishTerm": "Longitudinal wave",
           "russianTerm": "Продольная волна",
-          "contrast": {
-            "en": "Particles oscillate locally while the disturbance travels onward.",
-            "ru": "Частицы колеблются около положения равновесия, а возмущение распространяется дальше."
-          },
           "model": {
-            "en": "The simple model describes small oscillations in a medium, without bulk transport by the wave.",
-            "ru": "Простая модель описывает малые колебания среды без переноса её вещества вместе с волной."
+            "en": "Particles are pushed together where a compression forms and pulled apart where a rarefaction forms. These two regions alternate along the wave.",
+            "ru": "Там, где образуется сгущение, частицы сближаются, а там, где образуется разрежение, расходятся. Эти области чередуются вдоль волны."
           },
           "sources": [
             {
@@ -3532,18 +3520,14 @@
       "transverse": {
         "name": "Transverse wave",
         "alt": "Поперечная волна",
-        "definition": "A wave whose oscillations are perpendicular to its direction of propagation.",
-        "example": "A wave travels horizontally along a string while the string moves up and down.",
+        "definition": "A transverse wave is one in which the particles move at right angles to the wave's direction of travel.",
+        "example": "Other earthquake waves, called S-waves, are transverse: the ground moves from side to side, at right angles to the wave's direction.",
         "review": {
           "englishTerm": "Transverse wave",
           "russianTerm": "Поперечная волна",
-          "contrast": {
-            "en": "For electromagnetic waves it is the fields that oscillate, not material particles.",
-            "ru": "В электромагнитной волне колеблются поля, а не частицы вещества."
-          },
           "model": {
-            "en": "Surface-water waves generally combine vertical and horizontal motion, so they are not purely transverse.",
-            "ru": "Поверхностные волны на воде обычно сочетают вертикальное и горизонтальное движение и не являются чисто поперечными."
+            "en": "Tension pulls each displaced point back towards its equilibrium position, and that point then pulls its neighbour. The tighter the string, the faster the disturbance moves.",
+            "ru": "Натяжение струны возвращает смещённую точку к положению равновесия, и эта точка, в свою очередь, тянет соседнюю. Чем туже натянута струна, тем быстрее распространяется возмущение."
           },
           "sources": [
             {
@@ -3564,18 +3548,14 @@
       "emSpectrum": {
         "name": "Electromagnetic spectrum",
         "alt": "Электромагнитный спектр",
-        "definition": "The continuous range of electromagnetic radiation, classified by frequency or wavelength.",
-        "example": "Increasing frequency: radio, microwave, infrared, visible, ultraviolet, X-ray, gamma.",
+        "definition": "The electromagnetic spectrum is the set of all electromagnetic waves, arranged by frequency from radio waves to gamma rays.",
+        "example": "Earth's atmosphere lets visible light through, but it absorbs most X-rays and gamma rays from space.",
         "review": {
           "englishTerm": "Electromagnetic spectrum",
-          "russianTerm": "Электромагнитный спектр",
+          "russianTerm": "Электромагнитный спектр (шкала электромагнитных волн)",
           "contrast": {
-            "en": "Higher frequency means greater energy per photon, E = hf, not necessarily greater beam power.",
-            "ru": "Большая частота означает большую энергию одного фотона E = hf, но не обязательно большую мощность пучка."
-          },
-          "model": {
-            "en": "All travel at c in vacuum. Band boundaries are approximate, and radiation risk also depends on dose and exposure.",
-            "ru": "В вакууме все распространяются со скоростью c. Границы диапазонов условны; риск зависит также от дозы и условий воздействия."
+            "en": "Visible light is only a small part of the spectrum: infrared and ultraviolet waves are electromagnetic too.",
+            "ru": "Видимый свет — лишь узкая часть шкалы: инфракрасное и ультрафиолетовое излучение тоже электромагнитные волны."
           },
           "sources": [
             {
@@ -3596,18 +3576,14 @@
       "reflection": {
         "name": "Reflection",
         "alt": "Отражение",
-        "definition": "Return of a wave into the original medium after interaction with a boundary.",
-        "example": "For a plane mirror, a ray at 30° to the normal reflects at 30°.",
+        "definition": "Reflection is the bouncing back of a wave when it meets a boundary between two media. The reflected wave stays in the original medium.",
+        "example": "A ray hits a plane mirror at an angle of incidence of 30°. The angle of reflection is also 30°, on the other side of the normal.",
         "review": {
           "englishTerm": "Reflection",
           "russianTerm": "Отражение",
-          "contrast": {
-            "en": "Reflection returns into the original medium; refraction concerns the transmitted wave.",
-            "ru": "Отражённая волна остаётся в исходной среде; преломлённая проходит в другую."
-          },
           "model": {
-            "en": "The ray law applies locally to a surface; rough surfaces scatter reflected rays in different directions.",
-            "ru": "Закон для лучей действует локально: на шероховатой поверхности отражённые лучи идут в разных направлениях."
+            "en": "The ray model works when the mirror is much larger than the wavelength.",
+            "ru": "Модель лучей работает, если зеркало намного больше длины волны (wavelength)."
           },
           "sources": [
             {
@@ -3622,24 +3598,28 @@
               "language": "ru",
               "section": "3.1. Основные законы геометрической оптики"
             }
-          ]
+          ],
+          "contrast": {
+            "en": "Do not confuse it with refraction: the reflected wave keeps its speed, while in refraction the speed changes at the boundary.",
+            "ru": "Не путай с преломлением: отражённая волна сохраняет скорость, а при преломлении скорость на границе меняется."
+          }
         }
       },
       "refraction": {
         "name": "Refraction",
         "alt": "Преломление",
-        "definition": "A change in a wave’s speed on entering a different medium, usually accompanied by a change of direction.",
-        "example": "An oblique ray entering glass from air bends towards the normal as it slows.",
+        "definition": "Refraction is the change in direction of a wave at a boundary between two media. It happens when the wave meets the boundary at an angle, because its speed changes.",
+        "example": "Light goes from air (n = 1.00) into water (n = 1.33) at 30° to the normal. Its speed drops from 3.00 × 10⁸ m/s to about 2.26 × 10⁸ m/s. The ray bends towards the normal, with an angle of refraction of about 22.1°.",
         "review": {
           "englishTerm": "Refraction",
           "russianTerm": "Преломление",
           "contrast": {
-            "en": "Use refractive index, not mass density, to predict the bending of light.",
-            "ru": "Направление преломления света определяет показатель преломления, а не массовая плотность."
+            "en": "Do not mix up the direction of bending. The ray bends towards the normal when it slows down, and away from it when it speeds up.",
+            "ru": "Не путай направление отклонения. Луч приближается к нормали, когда замедляется, и отдаляется от неё, когда ускоряется."
           },
           "model": {
-            "en": "At normal incidence speed and wavelength change without bending; frequency stays the same at a stationary boundary.",
-            "ru": "При падении по нормали скорость и длина волны меняются без поворота; на неподвижной границе частота сохраняется."
+            "en": "The refractive index depends on wavelength. Different colours bend by different amounts, so a prism splits white light into colours.",
+            "ru": "Показатель преломления (refractive index) зависит от длины волны. Разные цвета отклоняются на разные углы, поэтому призма разлагает белый свет на цвета."
           },
           "sources": [
             {
@@ -3660,8 +3640,8 @@
       "diffraction": {
         "name": "Diffraction",
         "alt": "Дифракция",
-        "definition": "Spreading and redistribution of a wave around an obstacle or after passage through an opening.",
-        "example": "Sound spreads through a doorway into regions outside a straight-line path.",
+        "definition": "Diffraction is the spreading of a wave after it passes through a narrow opening or around the edge of an obstacle.",
+        "example": "For sound with a frequency of 1 kHz in air at 20 °C, the wavelength is about 0.34 m. This follows from λ = v / f = 343 m/s ÷ 1000 Hz. Such sound spreads out through a doorway and can be heard in the next room.",
         "review": {
           "englishTerm": "Diffraction",
           "russianTerm": "Дифракция",
@@ -3670,8 +3650,8 @@
             "ru": "Преломление связано с изменением скорости; дифракция возможна в одной среде."
           },
           "model": {
-            "en": "Spreading is strongest when opening size is comparable to wavelength; diffraction is not absent for wider openings.",
-            "ru": "Расхождение особенно заметно при размере отверстия порядка длины волны; при больших отверстиях дифракция не исчезает полностью."
+            "en": "Spreading is strong when the opening is about as wide as the wavelength or narrower. Wider openings still show diffraction, but the spreading is smaller.",
+            "ru": "Расхождение сильное, когда ширина отверстия сравнима с длиной волны или меньше её. При более широких отверстиях дифракция всё равно есть, но расхождение меньше."
           },
           "sources": [
             {
@@ -3692,18 +3672,18 @@
       "lens": {
         "name": "Lens",
         "alt": "Линза",
-        "definition": "An optical element that refracts light to form an image or change a beam’s convergence.",
-        "example": "A converging lens can form a real image of a distant object on a screen.",
+        "definition": "A lens is a transparent object with curved surfaces that refracts light. A converging lens brings parallel rays together; a diverging lens spreads them apart.",
+        "example": "A converging lens with f = +10 cm has an object at u = 20 cm. The image is real, at v = 20 cm on the far side, inverted and the same size as the object.",
         "review": {
           "englishTerm": "Lens",
           "russianTerm": "Линза",
           "contrast": {
-            "en": "A real image forms where rays meet; a virtual image forms where their backward extensions meet.",
-            "ru": "Действительное изображение возникает в месте встречи лучей, мнимое — в месте встречи их обратных продолжений."
+            "en": "A real image forms where the rays actually cross, so v > 0. A virtual image forms where the backward extensions of the rays meet, so v < 0.",
+            "ru": "Действительное изображение возникает там, где лучи реально пересекаются, поэтому v > 0. Мнимое изображение (virtual image) возникает там, где пересекаются продолжения лучей назад, поэтому v < 0."
           },
           "model": {
-            "en": "The thin-lens formula assumes a thin ideal lens and rays close to the principal axis.",
-            "ru": "Формула тонкой линзы предполагает тонкую идеальную линзу и лучи вблизи главной оптической оси."
+            "en": "Use f > 0 for a converging lens and f < 0 for a diverging lens.",
+            "ru": "Собирающая линза: f > 0; рассеивающая: f < 0."
           },
           "sources": [
             {
@@ -3724,14 +3704,14 @@
       "filter": {
         "name": "Filter",
         "alt": "Светофильтр",
-        "definition": "An optical material that transmits some wavelength ranges more strongly than others.",
+        "definition": "A filter is a transparent material that absorbs some wavelengths of light and transmits the rest.",
         "example": "An ideal red filter under white light transmits red light and absorbs much of the rest.",
         "review": {
           "englishTerm": "Filter",
           "russianTerm": "Светофильтр",
           "contrast": {
-            "en": "A filter selects light already present; it does not turn every incoming colour into its own colour.",
-            "ru": "Фильтр выделяет имеющийся свет, а не превращает любой входящий цвет в свой."
+            "en": "A filter only absorbs or passes the light that reaches it. It cannot turn one colour into another.",
+            "ru": "Светофильтр только поглощает или пропускает свет, который на него падает. Он не превращает один цвет в другой."
           },
           "model": {
             "en": "The simulation uses ideal colour bands; real filters have gradual, incomplete transmission and may also reflect light.",
@@ -3761,18 +3741,18 @@
       }
     },
     "formulas": {
-      "waveSpeed": "v = f × λ",
-      "waveSpeedCaption": "Wave speed",
+      "waveSpeed": "v = fλ",
+      "waveSpeedCaption": "Wave speed: v is the speed (m/s), f the frequency (Hz) and λ the wavelength (m).",
       "period": "T = 1 / f",
-      "periodCaption": "Period of a wave",
+      "periodCaption": "Period: T is the time for one complete oscillation (s), f the frequency (Hz).",
       "snell": "n₁ sin θ₁ = n₂ sin θ₂",
-      "snellCaption": "Snell's law",
+      "snellCaption": "Snell's law: n₁ = refractive index of medium 1, n₂ = refractive index of medium 2 (no units). θ₁ = angle of incidence, θ₂ = angle of refraction; both angles are measured from the normal.",
       "lens": "1/f = 1/u + 1/v",
-      "lensCaption": "Thin lens formula"
+      "lensCaption": "Thin lens formula: f: focal length; u: object distance; v: image distance; use the same unit for all three, for example cm. Here f is not frequency."
     },
     "sim1": {
       "title": "Wave Explorer",
-      "desc": "A periodic wave: v = fλ. Adjusting f and λ independently also changes v; in a fixed nondispersive medium its speed would be fixed.",
+      "desc": "Move the frequency or wavelength slider and watch the product f × λ on the screen: in one medium the wave speed is fixed, so when f goes up, λ goes down.",
       "amplitude": "Amplitude",
       "wavelength": "Wavelength",
       "frequency": "Frequency",
@@ -3780,7 +3760,7 @@
     },
     "sim2": {
       "title": "Reflection & Refraction",
-      "desc": "Ideal rays at a flat stationary boundary; n is refractive index, not mass density. Frequency stays constant.",
+      "desc": "Change the angle, n₁ or n₂: the refracted ray bends towards the normal (dashed line) when n₂ > n₁, and away from the normal when n₂ < n₁. With n₁ > n₂ and an angle above the critical angle, the light undergoes total internal reflection.",
       "angle": "Angle of incidence",
       "n1": "n₁ (top)",
       "n2": "n₂ (bottom)",
@@ -3795,28 +3775,28 @@
     },
     "sim3": {
       "title": "Diffraction",
-      "desc": "Schematic wavefront spreading; the picture illustrates the wavelength-to-gap ratio, not a quantitative intensity distribution.",
+      "desc": "Narrow the slit or lengthen the wavelength to see the waves spread out more. The ratio λ / slit shows how strong the spreading is; the drawing is schematic.",
       "slitWidth": "Slit width",
       "wavelength": "Wavelength"
     },
     "sim4": {
       "title": "Electromagnetic Spectrum",
-      "desc": "Explore frequency and wavelength in vacuum: c = fλ. Region boundaries are approximate; frequency determines energy per photon, not total power or hazard by itself.",
+      "desc": "Move the slider or press a region name. In a vacuum, c = fλ, so a higher frequency means a shorter wavelength. Region boundaries are approximate.",
       "frequency": "Frequency",
       "wavelength": "Wavelength",
       "use": "Typical use",
       "regions": {
-        "radio": "Radio",
-        "micro": "Microwave",
+        "radio": "Radio waves",
+        "micro": "Microwaves",
         "ir": "Infrared",
         "visible": "Visible light",
         "uv": "Ultraviolet",
-        "xray": "X-ray",
-        "gamma": "Gamma"
+        "xray": "X-rays",
+        "gamma": "Gamma rays"
       },
       "uses": {
         "radio": "Broadcast, communications",
-        "micro": "Cooking, satellite, Wi-Fi",
+        "micro": "Microwave ovens, satellite communication, Wi-Fi",
         "ir": "Heat, remote controls, night vision",
         "visible": "Sight, photography",
         "uv": "Sterilisation, tanning",
@@ -3826,12 +3806,11 @@
     },
     "sim5": {
       "title": "Converging Lens",
-      "desc": "Thin ideal converging lens, paraxial rays and the displayed sign convention. At the focal distance, the image is at infinity.",
+      "desc": "Move the sliders to change the object distance (u) and the focal length (f). A positive image distance (v) means a real image; a negative one means a virtual image. With the object at the focal point, the image is at infinity.",
       "objectDistance": "Object distance (u)",
       "focalLength": "Focal length (f)",
       "imageDistance": "Image distance (v)",
-      "magnification": "Magnification",
-      "imageType": "Image",
+      "magnification": "Magnification (m)",
       "real": "Real",
       "virtual": "Virtual",
       "inverted": "Inverted",
@@ -3841,13 +3820,13 @@
     },
     "simSound": {
       "title": "Sound Wave — Pitch & Loudness",
-      "desc": "Tune frequency (pitch) and amplitude (loudness) and see the wave + air-particle compressions.",
+      "desc": "Move the frequency slider to change the pitch, and the amplitude slider to change the loudness. The air particles below show compressions and rarefactions.",
       "frequency": "Frequency",
       "amplitude": "Amplitude"
     },
     "simFilters": {
       "title": "Colour & Filters",
-      "desc": "Ideal broad colour bands; real filters have gradual and incomplete transmission. A filter cannot supply colours absent from the source.",
+      "desc": "Choose a light, a filter and an object colour: the observer sees only the colour that passes the filter and is reflected by the object. This is an ideal model: a red filter with blue light gives black.",
       "lightSource": "Light source",
       "filter": "Filter",
       "object": "Object colour"

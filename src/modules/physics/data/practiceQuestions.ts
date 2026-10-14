@@ -625,7 +625,7 @@ export const WAVES_OPTICS_QUESTIONS: PracticeQuestion[] = [
     },
     "ru": {
       "question": "Запиши уравнение волны, связывающее скорость, частоту и длину волны.",
-      "answer": "v = f × λ, где v — скорость волны (м/с), f — частота (Гц), λ — длина волны (м)."
+      "answer": "v = νλ, где v — скорость волны (м/с), ν — частота (Гц), λ — длина волны (м)."
     }
   },
   {
@@ -681,7 +681,7 @@ export const WAVES_OPTICS_QUESTIONS: PracticeQuestion[] = [
     },
     "ru": {
       "question": "Волна имеет частоту 50 Гц и длину 2 м. Вычисли её скорость.",
-      "answer": "v = f × λ = 50 × 2 = 100 м/с."
+      "answer": "v = νλ = 50 × 2 = 100 м/с."
     }
   },
   {
@@ -690,12 +690,12 @@ export const WAVES_OPTICS_QUESTIONS: PracticeQuestion[] = [
     "criterion": "A",
     "marks": 2,
     "en": {
-      "question": "A pendulum completes one full swing every 0.02 s. Calculate its frequency.",
+      "question": "A wave has a period of 0.02 s. Calculate its frequency.",
       "answer": "f = 1 / T = 1 / 0.02 = 50 Hz."
     },
     "ru": {
-      "question": "Маятник совершает одно полное колебание за 0,02 с. Вычисли его частоту.",
-      "answer": "f = 1 / T = 1 / 0,02 = 50 Гц."
+      "question": "Период волны — 0,02 с. Вычисли её частоту.",
+      "answer": "ν = 1 / T = 1 / 0,02 = 50 Гц."
     }
   },
   {
@@ -733,11 +733,11 @@ export const WAVES_OPTICS_QUESTIONS: PracticeQuestion[] = [
     "marks": 2,
     "en": {
       "question": "State the order of the main regions of the electromagnetic spectrum, starting from longest wavelength.",
-      "answer": "Radio → microwave → infrared → visible → ultraviolet → X-ray → gamma. Frequency and energy per photon increase in this ordering; wavelength in vacuum decreases. Total beam power depends on photon rate as well as photon energy."
+      "answer": "Radio → microwave → infrared → visible → ultraviolet → X-ray → gamma. Frequency and energy per photon increase in this ordering; wavelength in vacuum decreases."
     },
     "ru": {
       "question": "Назови основные области электромагнитного спектра по порядку, начиная с самой длинной длины волны.",
-      "answer": "Радиоволны → микроволны → инфракрасное → видимое → ультрафиолетовое → рентгеновское → гамма-излучение. В этом порядке растут частота и энергия одного фотона, длина волны в вакууме уменьшается. Полная мощность пучка зависит также от числа фотонов в секунду."
+      "answer": "Радиоволны → микроволны → инфракрасное → видимое → ультрафиолетовое → рентгеновское → гамма-излучение. В этом порядке растут частота и энергия одного фотона, длина волны в вакууме уменьшается."
     }
   },
   {
@@ -746,12 +746,12 @@ export const WAVES_OPTICS_QUESTIONS: PracticeQuestion[] = [
     "criterion": "A",
     "marks": 3,
     "en": {
-      "question": "Light travels from air (n₁ = 1.00) into glass (n₂ = 1.50). The angle of incidence is 40°. Calculate the angle of refraction using Snell's law.",
-      "answer": "n₁ sin θ₁ = n₂ sin θ₂. So sin θ₂ = (1.00 × sin 40°) / 1.50 = 0.6428 / 1.5 = 0.4285. θ₂ = arcsin(0.4285) ≈ 25.4°."
+      "question": "Light travels from air (n₁ = 1.00) into glass (n₂ = 1.52). The angle of incidence is 40°. Calculate the angle of refraction using Snell's law.",
+      "answer": "n₁ sin θ₁ = n₂ sin θ₂. So sin θ₂ = (1.00 × sin 40°) / 1.52 = 0.6428 / 1.52 = 0.4229. θ₂ = arcsin(0.4229) ≈ 25.0°."
     },
     "ru": {
-      "question": "Свет идёт из воздуха (n₁ = 1,00) в стекло (n₂ = 1,50). Угол падения 40°. Вычисли угол преломления по закону Снеллиуса.",
-      "answer": "n₁ sin θ₁ = n₂ sin θ₂. Значит sin θ₂ = (1,00 × sin 40°) / 1,50 = 0,6428 / 1,5 = 0,4285. θ₂ = arcsin(0,4285) ≈ 25,4°."
+      "question": "Свет идёт из воздуха (n₁ = 1,00) в стекло (n₂ = 1,52). Угол падения α = 40°. Вычисли угол преломления β по закону Снеллиуса.",
+      "answer": "n₁ sin α = n₂ sin β. Значит sin β = (1,00 × sin 40°) / 1,52 = 0,6428 / 1,52 = 0,4229. β = arcsin(0,4229) ≈ 25,0°."
     }
   },
   {

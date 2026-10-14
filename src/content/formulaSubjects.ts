@@ -17,7 +17,7 @@ export const formulaSubjects: Record<string, string[]> = {
   integers: [M], line: [M, P, C, B, S], 'coordinate-distance': [M], perpendicular: [M],
   'linear-equation': [M], inequality: [M], sets: [M], indices: [M, P, C, B], surds: [M],
   function: [M], quadratic: [M], 'quadratic-formula': [M], transformation: [M], proportion: [M],
-  sequences: [M], 'geometric-sum': [M], compound: [M], pythagoras: [M, P], 'trig-ratios': [M, P],
+  sequences: [M], 'geometric-sum': [M], compound: [M], pythagoras: [M, P], 'trig-ratios': [M],
   'triangle-rules': [M], 'circle-parts': [M], chords: [M], 'trig-graph': [M],
   statistics: [M, S, G], histogram: [M, G], probability: [M], 'pie-angle': [M, G],
   'rational-cancel': [M],

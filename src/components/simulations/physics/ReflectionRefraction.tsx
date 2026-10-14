@@ -5,7 +5,7 @@ import { Slider } from '../../ui/Slider';
 import { SimulationPanel } from '../../ui/Tabs';
 import { snellRefractedAngle, criticalAngle, format } from '../../../lib/physics';
 
-const PRESETS = { air: 1.0, water: 1.33, glass: 1.5, diamond: 2.42 };
+const PRESETS = { air: 1.0, water: 1.33, glass: 1.52, diamond: 2.42 };
 
 const W = 420;
 const H = 320;
@@ -13,10 +13,11 @@ const CX = W / 2;
 const CY = H / 2;
 
 export function ReflectionRefraction() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const ru = i18n.language.startsWith('ru');
   const [angle, setAngle] = useState(35);
   const [n1, setN1] = useState(1.0);
-  const [n2, setN2] = useState(1.5);
+  const [n2, setN2] = useState(1.52);
 
   const refrAngle = snellRefractedAngle(angle, n1, n2);
   const critical = criticalAngle(n1, n2);
@@ -107,18 +108,18 @@ export function ReflectionRefraction() {
 
           <div className="bg-bg-tertiary border border-border rounded-md px-4 py-3 text-sm space-y-1">
             <div className="flex justify-between">
-              <span className="text-text-muted">θ₁ (incidence)</span>
+              <span className="text-text-muted">{ru ? 'α (падение)' : 'θ₁ (incidence)'}</span>
               <span className="font-mono">{angle.toFixed(0)}°</span>
             </div>
             <div className="flex justify-between">
               <span className="text-text-muted" style={{ color: '#6b8a64' }}>
-                θ (reflection)
+                {ru ? 'угол отражения' : 'θ (reflection)'}
               </span>
               <span className="font-mono">{angle.toFixed(0)}°</span>
             </div>
             <div className="flex justify-between">
               <span className="text-text-muted" style={{ color: '#a67367' }}>
-                θ₂ (refraction)
+                {ru ? 'β (преломление)' : 'θ₂ (refraction)'}
               </span>
               <span className="font-mono">
                 {refrAngle !== null ? `${refrAngle.toFixed(1)}°` : '—'}
@@ -129,7 +130,7 @@ export function ReflectionRefraction() {
                 className="flex justify-between pt-1 mt-1 border-t border-border"
                 style={{ color: tir ? '#c99a8e' : '#6b5b47' }}
               >
-                <span>θc (critical)</span>
+                <span>{ru ? 'α₀ (предельный)' : 'θc (critical)'}</span>
                 <span className="font-mono">{format(critical, 1)}°</span>
               </div>
             ) : null}

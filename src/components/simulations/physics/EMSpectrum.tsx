@@ -8,24 +8,26 @@ interface Region {
   // log10 frequency in Hz (approx midpoints)
   freqLog: number;
   wavelength: string;
+  wavelengthRu: string;
   color: string;
 }
 
 const REGIONS: Region[] = [
-  { id: 'radio', freqLog: 6, wavelength: '~100 m', color: '#9c8b73' },
-  { id: 'micro', freqLog: 10, wavelength: '~10 cm', color: '#a8b5a0' },
-  { id: 'ir', freqLog: 12.5, wavelength: '~10 μm', color: '#c99a8e' },
-  { id: 'visible', freqLog: 14.5, wavelength: '500 nm', color: '#c9a876' },
-  { id: 'uv', freqLog: 16, wavelength: '~10 nm', color: '#a8b8c8' },
-  { id: 'xray', freqLog: 18.5, wavelength: '~0.1 nm', color: '#6b5b47' },
-  { id: 'gamma', freqLog: 21, wavelength: '~10⁻¹² m', color: '#3d2f1f' },
+  { id: 'radio', wavelengthRu: '~100 м', freqLog: 6.5, wavelength: '~100 m', color: '#9c8b73' },
+  { id: 'micro', wavelengthRu: '~10 см', freqLog: 9.5, wavelength: '~10 cm', color: '#a8b5a0' },
+  { id: 'ir', wavelengthRu: '~10 мкм', freqLog: 13.5, wavelength: '~10 μm', color: '#c99a8e' },
+  { id: 'visible', wavelengthRu: '500 нм', freqLog: 14.8, wavelength: '500 nm', color: '#c9a876' },
+  { id: 'uv', wavelengthRu: '~10 нм', freqLog: 16.5, wavelength: '~10 nm', color: '#a8b8c8' },
+  { id: 'xray', wavelengthRu: '~0,1 нм', freqLog: 18.5, wavelength: '~0.1 nm', color: '#6b5b47' },
+  { id: 'gamma', wavelengthRu: '~10⁻¹² м', freqLog: 20.5, wavelength: '~10⁻¹² m', color: '#3d2f1f' },
 ];
 
 const F_MIN = 5;
 const F_MAX = 22;
 
 export function EMSpectrum() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const ru = i18n.language.startsWith('ru');
   const [pos, setPos] = useState(14.5);
 
   // find closest region
@@ -73,10 +75,10 @@ export function EMSpectrum() {
             </div>
           </div>
           <div className="flex justify-between text-xs text-text-muted mt-1 font-mono">
-            <span>10⁵ Hz</span>
+            <span>10⁵ {ru ? 'Гц' : 'Hz'}</span>
             <span>10¹⁰</span>
             <span>10¹⁵</span>
-            <span>10²⁰ Hz</span>
+            <span>10²² {ru ? 'Гц' : 'Hz'}</span>
           </div>
         </div>
 
@@ -92,13 +94,13 @@ export function EMSpectrum() {
               <p className="text-xs uppercase tracking-wider text-text-muted">
                 {t('wavesOptics.sim4.frequency')}
               </p>
-              <p className="font-mono">~10<sup>{current.freqLog.toFixed(0)}</sup> Hz</p>
+              <p className="font-mono">~{(10 ** (current.freqLog % 1)).toFixed(1)} × 10<sup>{Math.floor(current.freqLog)}</sup> {ru ? 'Гц' : 'Hz'}</p>
             </div>
             <div>
               <p className="text-xs uppercase tracking-wider text-text-muted">
                 {t('wavesOptics.sim4.wavelength')}
               </p>
-              <p className="font-mono">{current.wavelength}</p>
+              <p className="font-mono">{ru ? current.wavelengthRu : current.wavelength}</p>
             </div>
             <div>
               <p className="text-xs uppercase tracking-wider text-text-muted">

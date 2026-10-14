@@ -53,8 +53,14 @@ function describe(rgb: [number, number, number]): string {
   return 'mixed';
 }
 
+const RU_COLOUR: Record<string, string> = {
+  white: 'белый', red: 'красный', green: 'зелёный', blue: 'синий', yellow: 'жёлтый', cyan: 'голубой', magenta: 'пурпурный', black: 'чёрный', mixed: 'смешанный',
+};
+const ruColour = (name: string): string => RU_COLOUR[name] ?? name;
+
 export function ColorFilters() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const ru = i18n.language.startsWith('ru');
   const [source, setSource] = useState<LightSource>('white');
   const [filter, setFilter] = useState<Filter>('red');
   const [object, setObject] = useState<ObjectColor>('white');
@@ -76,7 +82,7 @@ export function ColorFilters() {
             <g transform="translate(60, 110)">
               <circle r="26" fill={asHex(sourceColor)} stroke="#6b5b47" strokeWidth="1.5" opacity="0.95" />
               <text y="44" textAnchor="middle" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
-                source: {source}
+                {ru ? `источник: ${ruColour(source)}` : `source: ${source}`}
               </text>
             </g>
 
@@ -94,7 +100,7 @@ export function ColorFilters() {
               </g>
             )}
             <text x="225" y="178" textAnchor="middle" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
-              filter
+              {ru ? 'фильтр' : 'filter'}
             </text>
 
             {/* Beam 2: filter → object */}
@@ -104,26 +110,26 @@ export function ColorFilters() {
             <g transform="translate(380, 110)">
               <rect x="-20" y="-20" width="40" height="40" rx="4" fill={asHex(OBJECT_REFLECT[object])} stroke="#3d2f1f" strokeWidth="1.5" />
               <text y="38" textAnchor="middle" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
-                object: {object}
+                {ru ? `объект: ${ruColour(object)}` : `object: ${object}`}
               </text>
             </g>
 
             {/* Observed color back to viewer */}
             <g transform="translate(440, 60)">
               <text x="0" y="0" fontSize="10" fontFamily="JetBrains Mono" fill="#6b5b47" textAnchor="middle">
-                seen
+                {ru ? 'видимый' : 'seen'}
               </text>
               <circle cx="0" cy="22" r="14" fill={asHex(seen)} stroke="#3d2f1f" strokeWidth="1.5" />
               <text x="0" y="55" fontSize="10" fontFamily="JetBrains Mono" fill="#6b5b47" textAnchor="middle">
-                {observedName}
+                {ru ? ruColour(observedName) : observedName}
               </text>
             </g>
           </svg>
 
           <div className="bg-bg-tertiary border border-border rounded-md px-4 py-3 text-sm">
-            <span className="text-text-muted">Observer sees: </span>
+            <span className="text-text-muted">{ru ? 'Наблюдатель видит: ' : 'Observer sees: '}</span>
             <span className="font-medium capitalize" style={{ color: asHex(seen) }}>
-              {observedName}
+              {ru ? ruColour(observedName) : observedName}
             </span>
           </div>
         </div>
@@ -133,10 +139,10 @@ export function ColorFilters() {
             <p className="text-sm font-medium text-text-secondary mb-2">{t('wavesOptics.simFilters.lightSource')}</p>
             <Tabs
               tabs={[
-                { id: 'white', label: 'White' },
-                { id: 'red', label: 'Red' },
-                { id: 'green', label: 'Green' },
-                { id: 'blue', label: 'Blue' },
+                { id: 'white', label: ru ? 'Белый' : 'White' },
+                { id: 'red', label: ru ? 'Красный' : 'Red' },
+                { id: 'green', label: ru ? 'Зелёный' : 'Green' },
+                { id: 'blue', label: ru ? 'Синий' : 'Blue' },
               ]}
               activeId={source}
               onChange={(id) => setSource(id as LightSource)}
@@ -147,10 +153,10 @@ export function ColorFilters() {
             <p className="text-sm font-medium text-text-secondary mb-2">{t('wavesOptics.simFilters.filter')}</p>
             <Tabs
               tabs={[
-                { id: 'none', label: 'None' },
-                { id: 'red', label: 'Red' },
-                { id: 'green', label: 'Green' },
-                { id: 'blue', label: 'Blue' },
+                { id: 'none', label: ru ? 'Нет' : 'None' },
+                { id: 'red', label: ru ? 'Красный' : 'Red' },
+                { id: 'green', label: ru ? 'Зелёный' : 'Green' },
+                { id: 'blue', label: ru ? 'Синий' : 'Blue' },
               ]}
               activeId={filter}
               onChange={(id) => setFilter(id as Filter)}
@@ -169,15 +175,16 @@ export function ColorFilters() {
                   }`}
                   style={{ background: asHex(OBJECT_REFLECT[c]), color: c === 'white' || c === 'yellow' || c === 'cyan' ? '#3d2f1f' : '#faf6ef' }}
                 >
-                  {c[0].toUpperCase()}
+                  {ru ? ruColour(c)[0].toUpperCase() : c[0].toUpperCase()}
                 </button>
               ))}
             </div>
           </div>
 
           <p className="text-xs text-text-muted leading-relaxed">
-            A coloured object reflects only its own colour(s) and absorbs the rest. A filter passes only its own colour(s).
-            White light contains all colours; a single-colour light contains only that one.
+            {ru
+              ? 'Окрашенный предмет отражает только свой цвет (или свои цвета) и поглощает остальные. Фильтр пропускает только свой цвет (или свои цвета). Белый свет содержит все цвета, а одноцветный — только свой.'
+              : 'A coloured object reflects only its own colour(s) and absorbs the rest. A filter passes only its own colour(s). White light contains all colours; a single-colour light contains only that one.'}
           </p>
         </div>
       </div>

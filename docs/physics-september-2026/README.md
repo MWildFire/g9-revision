@@ -1,6 +1,6 @@
 # Physics · September 2026
 
-This dedicated Grade 10 criterion-A preparation pack follows the supplied PiXL Atomic structure overview photo received on 29 September 2026. It is separate from October mocks. The month names the pack; no exact test date or school paper format is inferred.
+This dedicated Grade 10 criterion-A preparation pack follows the supplied Atomic structure overview received on 29 September 2026. It is separate from October mocks. The month names the pack; no exact test date or school paper format is inferred.
 
 Route: `#/physics-september-2026`.
 

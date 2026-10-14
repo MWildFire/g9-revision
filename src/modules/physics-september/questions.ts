@@ -309,11 +309,11 @@ export const questions: Question[] = [
     "application",
     b(
       "Each absorber is tested on its own. The background-corrected count rate is 400 counts/min with no absorber, 390 counts/min with paper, 380 counts/min with thin aluminium and 95 counts/min with thick lead. Identify the radiation that fits these results best. Explain your answer.",
-      "Каждый экран проверяют отдельно. Скорость счёта без фона: 400 имп/мин без экрана, 390 имп/мин с бумагой, 380 имп/мин с тонким алюминием и 95 имп/мин с толстым свинцом. Определи излучение, которое лучше всего соответствует результатам. Объясни ответ.",
+      "Каждый поглотитель проверяют отдельно. Скорость счёта без фона: 400 имп/мин без поглотителя, 390 имп/мин с бумагой, 380 имп/мин с тонким алюминием и 95 имп/мин с толстым свинцом. Определи излучение, которое лучше всего соответствует результатам. Объясни ответ.",
     ),
     b(
       "Compare how much each absorber reduces the reading. Which one causes the largest drop?",
-      "Сравни, на сколько каждый экран уменьшает показания. Какой экран даёт самое большое уменьшение?",
+      "Сравни, на сколько каждый поглотитель уменьшает показания. Какой поглотитель даёт самое большое уменьшение?",
     ),
     b(
       "Gamma fits best: paper reduces the reading by only 10 counts/min, and thin aluminium by only 20 counts/min.",
@@ -346,8 +346,8 @@ export const questions: Question[] = [
       "Утверждение неверно. Активность 2000 Бк означает в среднем 2000 распадов в секунду в источнике, независимо от того, регистрирует ли их детектор.",
     ),
     b(
-      "The student compares two different quantities: a count rate (100 counts/s) and an activity (2000 Bq).",
-      "Ученик сравнивает разные величины: скорость счёта (100 имп/с) и активность (2000 Бк).",
+      "The student compares two different quantities: a count rate (100 counts/s) and an activity (2000 Bq). Only some emissions reach the detector and are registered, so the count rate is usually lower than the activity.",
+      "Ученик сравнивает разные величины: скорость счёта (100 имп/с) и активность (2000 Бк). Лишь часть излучения попадает в детектор и регистрируется, поэтому скорость счёта обычно меньше активности.",
     ),
     b(
       "Example of a simple model: each decay gives one emission. In this model, the detector registers 100 / 2000 = 5% of the emissions. Once registration is taken into account, the readings do not conflict with the activity.",
@@ -361,7 +361,7 @@ export const questions: Question[] = [
     "foundation",
     b(
       "Complete the equation ²¹⁰₈₄Po → X + ⁴₂He. Calculate the nucleon number A, the charge number Z and the neutron number N of X.",
-      "Дополни уравнение ²¹⁰₈₄Po → X + ⁴₂He. Вычисли число нуклонов (nucleon number) A, зарядовое число (charge number) Z и число нейтронов (neutron number) N для X.",
+      "Дополни уравнение ²¹⁰₈₄Po → X + ⁴₂He. Вычисли массовое число (nucleon number) A, зарядовое число (charge number) Z и число нейтронов (neutron number) N для X.",
     ),
     b(
       "Balance upper and lower numbers separately.",
@@ -369,7 +369,7 @@ export const questions: Question[] = [
     ),
     b("A = 210 − 4 = 206.", "A = 210 − 4 = 206."),
     b("Z = 84 − 2 = 82; X = ²⁰⁶₈₂Pb.", "Z = 84 − 2 = 82; X = ²⁰⁶₈₂Pb."),
-    b("Neutron number: 206 − 82 = 124.", "Число нейтронов: 206 − 82 = 124."),
+    b("Neutron number: N = A − Z = 206 − 82 = 124.", "Число нейтронов: N = A − Z = 206 − 82 = 124."),
   ),
   q(
     "eq-2",
@@ -401,7 +401,7 @@ export const questions: Question[] = [
     "challenge",
     b(
       "A parent nucleus (A = 238, Z = 92) goes through two alpha decays and two beta-minus decays. Calculate its final A, Z and neutron number N.",
-      "Исходное ядро (parent nucleus) имеет A = 238 и Z = 92. Оно претерпевает два альфа-распада (alpha decay) и два бета-минус-распада. Вычисли конечные A, Z и число нейтронов N.",
+      "Материнское ядро (parent nucleus) имеет A = 238 и Z = 92. Оно претерпевает два альфа-распада (alpha decay) и два бета-минус-распада. Вычисли конечные A, Z и число нейтронов N.",
     ),
     b(
       "Add up the changes to A and to Z separately.",
@@ -567,7 +567,7 @@ export const questions: Question[] = [
       "Второй — загрязнение и облучение от порошка.",
     ),
     b(
-      "Leaving the first source reduces/ends its exposure; the glove carries radioactive powder away and may transfer material.",
+      "Leaving the first source reduces or ends its exposure; the glove carries radioactive powder away and may transfer material.",
       "Уход от первого источника снижает или прекращает воздействие; перчатка уносит радиоактивный порошок и может переносить вещество.",
     ),
   ),
@@ -614,7 +614,7 @@ export const questions: Question[] = [
     ),
     b(
       "The conclusion is unsupported; risk depends on dose, distribution and residence time, not penetration alone.",
-      "Вывод не обоснован: риск зависит от дозы, распределения и времени нахождения, а не только проникновения.",
+      "Вывод не обоснован: риск зависит от дозы, распределения и времени пребывания (residence time), а не только проникновения.",
     ),
   ),
   q(
@@ -654,7 +654,7 @@ export const questions: Question[] = [
       "Background rate = 240 / 4 = 60 counts/min; total count rate = 1560 / 2 = 780 counts/min.",
       "Скорость фона = 240 / 4 = 60 импульсов в минуту; полная скорость счёта = 1560 / 2 = 780 импульсов в минуту.",
     ),
-    b("Net rate = 780 − 60 = 720 counts/min.", "Чистая скорость — 780 − 60 = 720 импульсов в минуту."),
+    b("Net rate = 780 − 60 = 720 counts/min.", "Чистая скорость = 780 − 60 = 720 импульсов в минуту."),
     b("720 counts/min ÷ 60 (seconds per minute) = 12 counts/s.", "720 импульсов в минуту ÷ 60 (секунд в минуте) = 12 импульсов в секунду."),
   ),
   q(
@@ -663,8 +663,8 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "In this made-up question, the dose rate is 0.8 μSv/h for 15 h. Calculate the dose in μSv and in mSv.",
-      "В условной задаче мощность дозы 0,8 мкЗв/ч сохраняется в течение 15 ч. Вычисли дозу в мкЗв и в мЗв.",
+      "The dose rate is 0.8 μSv/h for 15 h. Calculate the dose in μSv and in mSv.",
+      "Мощность дозы 0,8 мкЗв/ч сохраняется в течение 15 ч. Вычисли дозу в мкЗв и в мЗв.",
     ),
     b("Multiply by time, then convert.", "Умножь на время и переведи единицы."),
     b("Dose = dose rate × time = 0.8 μSv/h × 15 h = 12 μSv.", "Доза = мощность дозы × время = 0,8 мкЗв/ч × 15 ч = 12 мкЗв."),
@@ -677,7 +677,7 @@ export const questions: Question[] = [
     "challenge",
     b(
       "Suppose the count in one minute rises from 24 to 27 when a rock is placed near the detector. Is this enough to show that the rock adds a signal? Explain, and suggest a better comparison.",
-      "Представь, что счёт за минуту вырос с 24 до 27, когда рядом с детектором положили камень. Достаточно ли этого, чтобы показать, что камень добавляет сигнал? Объясни и предложи лучшее сравнение.",
+      "Представь, что число импульсов за минуту выросло с 24 до 27, когда рядом с детектором положили камень. Достаточно ли этого, чтобы показать, что камень добавляет сигнал? Объясни и предложи лучшее сравнение.",
     ),
     b(
       "Consider random fluctuations and measurement conditions.",

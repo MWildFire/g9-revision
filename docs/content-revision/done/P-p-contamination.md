@@ -15,3 +15,4 @@
   - P2: блок «Distinguish / Scope of the model» на ноябре не выводится — по задумке ноябрьской страницы;
   - P5: подписи опций в селекте обрезаются на телефоне — данные других батчей;
   - предупреждения линта по глоссарию (8) — см. выше
+- перекрёстная проверка (R01): журнал `changes/P-p-contamination.jsonl` не совпадает с итоговым текстом (cont-2, cont-3, cont-4, sections[3], карточка dose); id `nuclearLessonReviews.contamination.contrast` в отчёте неверный — правильный `physicsNuclearReviews.contamination.contrast`. Журнал не переписан. По отчёту исправлено: pitfalls[1] (скобка «half-life»), examples[0] (первый и второй стол), пример dose без «условного», алиас «D = E/m» удалён, cont-2 «reduces or ends», cont-4 «времени пребывания (residence time)».

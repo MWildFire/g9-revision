@@ -246,8 +246,8 @@ function Overview({ store }: { store: Store }) {
         </p>
         <p className="nuclear-caption">
           {t(
-            "Scope: all 12 bullets in the supplied PiXL Atomic structure overview. September is the pack label, not an invented exam date. Original practice, not an official IB paper or a guarantee of the school’s questions. HT labels on the slide do not exclude fission or fusion here.",
-            "Охват: все 12 пунктов переданного обзора PiXL Atomic structure. Сентябрь — название подготовки, не придуманная дата работы. Задания авторские: это не официальный вариант IB и не обещание школьных вопросов. Пометка HT на слайде не исключает деление и синтез из этого раздела.",
+            "Scope: all 12 bullets in the supplied Atomic structure overview. September is the pack label, not an invented exam date. Original practice, not an official IB paper or a guarantee of the school’s questions. HT labels on the slide do not exclude fission or fusion here.",
+            "Охват: все 12 пунктов переданного обзора по теме «Атомная структура» (Atomic structure). Сентябрь — название подготовки, не придуманная дата работы. Задания авторские: это не официальный вариант IB и не обещание школьных вопросов. Пометка HT на слайде не исключает деление и синтез из этого раздела.",
           )}
         </p>
       </section>
@@ -777,7 +777,7 @@ function Reference() {
           {t("Command terms: how to respond", "Командные слова: как отвечать")}
         </h2>
         <p>
-          {t("Study paraphrases; read the full task to judge the required detail. Russian wording is authored from the English source. ", "Учебные пояснения: нужная подробность зависит от полного задания. Русский текст написан по английскому источнику. ")}
+          {t("Study paraphrases; read the full task to judge the required detail. ", "Учебные пояснения: нужная подробность зависит от полного задания. ")}
           <a href={commandTermSource.url} target="_blank" rel="noreferrer">
             {t("IB MYP command glossary, Appendix 3, pp.108–110 (2014)", "Словарь команд IB MYP, приложение 3, с.108–110 (2014)")}
           </a>
@@ -807,8 +807,8 @@ function Reference() {
         <h2>{t("Sources and scope", "Источники и границы")}</h2>
         <p>
           {t(
-            "Topic selection comes from the supplied PiXL overview photo (29 September 2026). All explanations, examples, diagrams and questions in this pack were newly authored. The photograph and third-party question papers are not republished. Definitions and source sections were reviewed on 6 October 2026. Russian explanations are authored paraphrases, not quotations or publisher translations.",
-            "Темы взяты из переданного фото обзора PiXL (29 сентября 2026). Объяснения, примеры, схемы и задачи этого раздела написаны заново. Фотография и чужие экзаменационные варианты не переопубликованы. Определения и разделы источников проверены 6 октября 2026. Русские объяснения написаны самостоятельно: это не цитаты и не издательские переводы.",
+            "Topic selection comes from a supplied topic overview (29 September 2026). All explanations, examples, diagrams and questions in this pack were newly authored. The photograph and third-party question papers are not republished. Definitions and source sections were reviewed on 6 October 2026. Russian explanations are authored paraphrases, not quotations or publisher translations.",
+            "Темы взяты из переданного обзора (29 сентября 2026). Объяснения, примеры, схемы и задачи этого раздела написаны заново. Фотография и чужие экзаменационные варианты не переопубликованы. Определения и разделы источников проверены 6 октября 2026. Русские объяснения написаны самостоятельно: это не цитаты и не издательские переводы.",
           )}
         </p>
         <ul>

@@ -209,6 +209,8 @@
 | focal length | фокусное расстояние F | фокусн |
 | electromagnetic spectrum | шкала электромагнитных волн | электромагнитн |
 | nucleon | нуклон | нуклон |
+| parent nucleus | материнское ядро | материнск |
+| daughter nucleus | дочернее ядро | дочерн |
 | radioactive decay | радиоактивный распад | распад |
 | alpha particle | альфа-частица | альфа |
 | beta particle | бета-частица (электрон) | бета |

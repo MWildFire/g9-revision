@@ -6,7 +6,7 @@ export const atomicFormulaPlacement:Record<string,Record<number,string[]>>={
  'nuclear-equations':{0:['nuclear-equation']},
  'half-life':{1:['decay'],2:['activity']},
  'contamination':{2:['dose']},
- 'background':{2:['activity','decay'],3:['dose']},
+ 'background':{2:['activity'],3:['dose']},
  'half-life-choice':{1:['activity-decay']},
  'uses':{2:['absorption']},
  'fission':{1:['nuclear-equation'],4:['fission-power','efficiency']},

@@ -111,7 +111,7 @@ export function MagneticField() {
                 {i18n.language.startsWith('ru') ? (
                   <>
                     Линии поля выходят из северного полюса <span className="text-accent-clay font-medium">N</span> и входят в южный полюс{' '}
-                    <span className="text-accent-sky font-medium">S</span>. Стрелки компасов выстраиваются по направлению поля в данной точке.
+                    <span className="text-accent-sky font-medium">S</span>. Стрелки компасов выстраиваются по направлению поля в этой точке.
                   </>
                 ) : (
                   <>

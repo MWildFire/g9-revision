@@ -229,15 +229,15 @@ export const lessons: Lesson[] = [
     photoTopicRu: "Радиоактивный распад и ядерное излучение",
     visual: "penetration",
     intro: b(
-      "Identify radiation by its nature, its effect on matter and its penetrating power. This lesson covers radioactive decay, the types of radiation, ionisation, what a detector measures and how charge affects deflection in an electric field.",
-      "Различай излучения по природе, действию на вещество и проникающей способности. В уроке рассматриваются радиоактивный распад (radioactive decay), виды излучения, ионизация (ionisation) и то, что на самом деле измеряет детектор. Также разбирается, как заряд влияет на отклонение частиц в электрическом поле.",
+      "Identify radiation by its nature, its effect on matter and its penetrating power.",
+      "Различай излучения по природе, действию на вещество и проникающей способности.",
     ),
     sections: [
       s(
         "Decay of an unstable nucleus",
         "Распад неустойчивого ядра",
-        "**Radioactive decay** is the spontaneous change of an unstable nucleus. The nucleus emits ionising radiation and may become a different nucleus.\n\nFor one nucleus, we can give only the probability of decay in a given time interval; we cannot predict exactly when it will decay. A large sample of nuclei decays at a predictable average rate. The time for half of the nuclei to decay is the half-life, T½. Temperature, pressure and chemical state do not noticeably change this rate. The new nucleus may also be unstable and decay again. This forms a chain of decays.",
-        "**Радиоактивный распад** — самопроизвольное изменение неустойчивого ядра. Ядро испускает ионизирующее излучение (ionising radiation) и может превратиться в другое ядро.\n\nДля одного ядра можно указать только вероятность распада за определённый промежуток времени, но не точный момент. Большой образец ядер распадается с предсказуемой средней скоростью. Время, за которое распадается половина ядер, — период полураспада T½ (half-life). Температура, давление и химическое состояние заметно не меняют эту скорость. Новое ядро тоже может быть неустойчивым и распасться снова. Так возникает цепочка распадов.",
+        "**Radioactive decay** is the spontaneous change of an unstable nucleus. The nucleus emits ionising radiation and may become a different nucleus.\n\nFor one nucleus, we can give only the probability of decay in a given time interval; we cannot predict exactly when it will decay. A large sample of nuclei decays at a predictable average rate. Temperature, pressure and chemical state do not noticeably change this rate. The time for half of the nuclei to decay is the half-life, T½. The new nucleus may also be unstable and decay again. This forms a chain of decays.",
+        "**Радиоактивный распад** — самопроизвольное изменение неустойчивого ядра. Ядро испускает ионизирующее излучение (ionising radiation) и может превратиться в другое ядро.\n\nДля одного ядра можно указать только вероятность распада за определённый промежуток времени, но не точный момент. Большой образец ядер распадается с предсказуемой средней скоростью. Температура, давление и химическое состояние заметно не меняют эту скорость. Время, за которое распадается половина ядер, — период полураспада T½ (half-life). Новое ядро тоже может быть неустойчивым и распасться снова. Так возникает цепочка распадов.",
       ),
       s(
         "Alpha, beta-minus, gamma and neutrons",
@@ -278,8 +278,8 @@ export const lessons: Lesson[] = [
           "Полная скорость 930 / 30 = 31 имп/с; фон 90 / 30 = 3 имп/с.",
         ),
         b(
-          "Source count rate = 31 − 3 = 28 counts s⁻¹.",
-          "Скорость счёта источника: 31 − 3 = 28 имп/с.",
+          "Source count rate = 31 − 3 = 28 counts s⁻¹. This is not automatically the source activity in Bq.",
+          "Скорость счёта источника: 31 − 3 = 28 имп/с. Это не обязательно активность источника в Бк.",
         ),
       ),
       w(
@@ -298,7 +298,7 @@ export const lessons: Lesson[] = [
     pitfalls: [
       b(
         "Do not think that a beta-minus electron comes from an electron shell. It is created by the decay itself.",
-        "Не думай, что бета-минус-электрон выходит из электронного слоя (electron shell) атома. Он возникает в самом распаде ядра.",
+        "Не думай, что бета-минус-электрон выходит из электронного слоя (electron shell) атома. Он образуется при распаде ядра.",
       ),
       b(
         "“Most penetrating” does not mean “most dangerous”. Alpha is the least penetrating. But if an alpha emitter is swallowed or inhaled, it can cause serious harm, because its alpha particles deposit their energy in nearby tissue. The exposure route matters.",
@@ -308,7 +308,7 @@ export const lessons: Lesson[] = [
   },
   {
     id: "nuclear-equations",
-    title: b("Balancing nuclear equations", "Уравнения ядерных реакций"),
+    title: b("Balancing nuclear equations", "Уравнивание ядерных реакций"),
     photoTopic: "Nuclear equations",
     photoTopicRu: "Ядерные уравнения",
     visual: "equation",
@@ -327,19 +327,19 @@ export const lessons: Lesson[] = [
         "Alpha decay: remove a helium nucleus",
         "Альфа-распад: отделяется ядро гелия",
         "An emitted alpha particle carries away two protons and two neutrons.\n\n- The daughter has A − 4 and Z − 2.\n- Its neutron count falls by two.\n- The parent becomes a different element, because its proton count changes.\n\nExample: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Do not subtract four from Z.",
-        "Альфа-частица уносит два протона и два нейтрона.\n\n— У дочернего ядра A − 4 и Z − 2.\n— Число нейтронов уменьшается на два.\n— Меняется элемент, потому что меняется число протонов.\n\nПример: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Из Z вычитают два, а не четыре.",
+        "Альфа-частица уносит два протона и два нейтрона.\n\n- У дочернего ядра A − 4 и Z − 2.\n- Число нейтронов уменьшается на два.\n- Меняется элемент, потому что меняется число протонов.\n\nПример: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Из Z вычитают два, а не четыре.",
       ),
       s(
         "Beta-minus: a neutron becomes a proton",
         "Бета-минус: нейтрон превращается в протон",
         "In β⁻ decay a neutron transforms into a proton, an electron and an electron antineutrino.\n\n- A stays fixed, because one nucleon changes type.\n- Z rises by one and N falls by one.\n- The electron is created in the decay; it was not stored inside the nucleus.\n- The antineutrino has zero nucleon number and zero charge. School balancing often omits it, because it changes neither total.\n\nExample: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e + ν̅ₑ.",
-        "При β⁻-распаде нейтрон превращается в протон, электрон и электронное антинейтрино.\n\n— A сохраняется: один нуклон меняет тип.\n— Z увеличивается на один, N уменьшается на один.\n— Электрон рождается при распаде, а не хранится заранее внутри ядра.\n— У антинейтрино заряд и число нуклонов равны нулю. В школьной записи его часто опускают, потому что ни одна из сумм не меняется.\n\nПример: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e + ν̅ₑ.",
+        "При β⁻-распаде нейтрон превращается в протон, электрон и электронное антинейтрино.\n\n- A сохраняется: один нуклон меняет тип.\n- Z увеличивается на один, N уменьшается на один.\n- Электрон рождается при распаде, а не хранится заранее внутри ядра.\n- У антинейтрино заряд и число нуклонов равны нулю. В школьной записи его часто опускают, потому что ни одна из сумм не меняется.\n\nПример: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e + ν̅ₑ.",
       ),
       s(
         "Gamma: energy changes, element does not",
         "Гамма: меняется энергия, не элемент",
         "An excited nucleus (shown with *) emits a photon and drops to a lower energy state.\n\n- A and Z remain unchanged: ⁹⁹₄₃Tc* → ⁹⁹₄₃Tc + γ is a schematic example.\n- Gamma emission often follows another decay.\n- A mixed sequence is solved one step at a time. Two alpha and one beta-minus emissions give ΔA = −8 and ΔZ = −3.",
-        "Возбуждённое ядро (обозначено *) испускает фотон и переходит в состояние с меньшей энергией.\n\n— A и Z не меняются: ⁹⁹₄₃Tc* → ⁹⁹₄₃Tc + γ — схематический пример.\n— Гамма-излучение часто следует за другим распадом.\n— Цепочку решай по шагам. Два альфа- и один бета-минус-распад дают ΔA = −8 и ΔZ = −3.",
+        "Возбуждённое ядро (обозначено *) испускает фотон и переходит в состояние с меньшей энергией.\n\n- A и Z не меняются: ⁹⁹₄₃Tc* → ⁹⁹₄₃Tc + γ — схематический пример.\n- Гамма-излучение часто следует за другим распадом.\n- Цепочку решай по шагам. Два альфа- и один бета-минус-распад дают ΔA = −8 и ΔZ = −3.",
       ),
     ],
     formulas: [
@@ -391,21 +391,21 @@ export const lessons: Lesson[] = [
     photoTopicRu: "Период полураспада и случайный характер распада",
     visual: "decay",
     intro: b(
-      "This lesson shows how to find a half-life from repeated halving and count-rate graphs.",
-      "Урок показывает, как найти период полураспада по делению пополам и графику скорости счёта.",
+      "Each nucleus decays at a random moment, and nobody can predict when a particular nucleus will decay.",
+      "Каждое ядро распадается в случайный момент, и заранее нельзя сказать, когда распадётся конкретное ядро.",
     ),
     sections: [
       s(
         "What exactly halves?",
         "Что именно уменьшается вдвое?",
         "The **half-life** T½ is the time taken for half of the parent nuclei in a sample to decay. The activity of the sample halves in the same time, because activity depends on how many undecayed nuclei are left.\n\nDo not confuse the half-life with the mass of the sample: the daughter nuclei stay in the material, so its total mass does not halve in one half-life.",
-        "**Период полураспада** T½ — это время, за которое распадается половина материнских ядер (parent nuclei) образца. Активность (activity) образца за то же время уменьшается вдвое, потому что она зависит от числа ещё нераспавшихся ядер.\n\nНе путай период полураспада с массой образца: дочерние ядра (daughter nuclei) остаются в веществе, поэтому за один период полураспада масса образца вдвое не уменьшается.",
+        "**Период полураспада** (half-life) T½ — это время, за которое распадается половина материнских ядер (parent nuclei) образца. Активность (activity) образца за то же время уменьшается вдвое, потому что она зависит от числа ещё нераспавшихся ядер.\n\nНе путай период полураспада с массой образца: дочерние ядра (daughter nuclei) остаются в веществе, поэтому за один период полураспада масса образца вдвое не уменьшается.",
       ),
       s(
         "Repeated halving and the remaining fraction",
         "Последовательное деление пополам и оставшаяся доля",
         "Each half-life halves what is left. The fraction of the starting amount that remains after 0, 1, 2, 3 and 4 half-lives is:\n\n- 0 half-lives: 1\n- 1 half-life: 1/2\n- 2 half-lives: 1/4\n- 3 half-lives: 1/8\n- 4 half-lives: 1/16\n\nTo find the number of half-lives, divide the elapsed time by the half-life. Then halve the starting amount that many times to find what is left. The amount that has decayed is the starting amount minus what is left.\n\nIf the time is not a whole number of half-lives, use a calculator. The answer is then an expected value. Round only the final answer, and use one time unit for both the elapsed time and the half-life.",
-        "Каждый период полураспада уменьшает остаток вдвое. Доля исходного количества, которая остаётся после 0, 1, 2, 3 и 4 периодов:\n\n— 0 периодов: 1\n— 1 период: 1/2\n— 2 периода: 1/4\n— 3 периода: 1/8\n— 4 периода: 1/16\n\nЧтобы найти число периодов, раздели прошедшее время на период полураспада. Затем дели начальное количество пополам столько раз, сколько периодов прошло. Так получишь остаток. Распавшаяся часть — это начальное количество минус остаток.\n\nЕсли прошедшее время не кратно периоду полураспада, нужен калькулятор. Тогда ответ — ожидаемое значение. Округляй только итоговый ответ и используй одну единицу времени для прошедшего времени и периода полураспада.",
+        "Каждый период полураспада уменьшает остаток вдвое. Доля исходного количества, которая остаётся после 0, 1, 2, 3 и 4 периодов:\n\n- 0 периодов: 1\n- 1 период: 1/2\n- 2 периода: 1/4\n- 3 периода: 1/8\n- 4 периода: 1/16\n\nЧтобы найти число периодов, раздели прошедшее время на период полураспада. Затем дели начальное количество пополам столько раз, сколько периодов прошло. Так получишь остаток. Распавшаяся часть — это начальное количество минус остаток.\n\nЕсли прошедшее время не кратно периоду полураспада, нужен калькулятор. Тогда ответ — ожидаемое значение. Округляй только итоговый ответ и используй одну единицу времени для прошедшего времени и периода полураспада.",
       ),
       s(
         "Read a graph correctly",
@@ -429,13 +429,13 @@ export const lessons: Lesson[] = [
     formulas: [
       "n = t / T½",
       "N(t) = N₀ × 2^(−t / T½)",
-      "Rnet(t) = Rnet(0) × 2^(−t / T½)",
-      "Rtotal(t) = Rnet(t) + Rbackground",
+      "R(t) = R(0) × 2^(−t / T½)",
+      "Rtotal(t) = R(t) + Rbackground",
     ],
     examples: [
       w(
-        "A source has T½ = 6 h and initial activity 960 Bq. Find activity and percentage decayed after 18 h.",
-        "У источника T½ = 6 ч, начальная активность 960 Бк. Найди активность и процент распавшихся ядер через 18 ч.",
+        "A source has T½ = 6 h and initial activity 960 Bq. Calculate the activity and the percentage decayed after 18 h.",
+        "У источника T½ = 6 ч, начальная активность 960 Бк. Рассчитай активность и процент распавшихся ядер через 18 ч.",
         b(
           "Number of half-lives: 18 h / 6 h = 3. Activity: 960 → 480 → 240 → 120 Bq.",
           "Число периодов полураспада: 18 ч / 6 ч = 3. Активность: 960 → 480 → 240 → 120 Бк.",
@@ -446,8 +446,8 @@ export const lessons: Lesson[] = [
         ),
       ),
       w(
-        "The total count rate falls from 164 to 44 counts/min in 12 min. The background count rate is 4 counts/min. Find the half-life.",
-        "Полная скорость счёта падает со 164 до 44 имп/мин за 12 мин. Фон — 4 имп/мин. Найди период полураспада.",
+        "The total count rate falls from 164 to 44 counts/min in 12 min. The background count rate is 4 counts/min. Calculate the half-life.",
+        "Полная скорость счёта падает со 164 до 44 имп/мин за 12 мин. Фон — 4 имп/мин. Рассчитай период полураспада.",
         b(
           "Corrected rates: 164 − 4 = 160 and 44 − 4 = 40 counts/min.",
           "Без фона: 164 − 4 = 160 и 44 − 4 = 40 имп/мин.",
@@ -511,8 +511,8 @@ export const lessons: Lesson[] = [
     formulas: ["dose\u00A0=\u00A0dose rate\u00A0×\u00A0exposure time (constant rate)"],
     examples: [
       w(
-        "A sealed gamma source is moved away. A second bench has radioactive dust on it. Which can remain a source?",
-        "Герметичный гамма-источник убрали. На другом столе осталась радиоактивная пыль. Какой стол может оставаться источником?",
+        "A sealed gamma source on the first bench is moved away. The second bench has radioactive dust on it. Which can remain a source?",
+        "С первого стола убрали герметичный гамма-источник. На втором столе осталась радиоактивная пыль. Какой стол может оставаться источником?",
         b(
           "The first bench was irradiated but not necessarily contaminated; removing the source ends its direct exposure.",
           "Первый стол облучался, но не обязательно загрязнился; удаление источника прекращает прямое облучение.",
@@ -542,7 +542,7 @@ export const lessons: Lesson[] = [
       ),
       b(
         "Shielding does not remove contamination or change the isotope’s half-life.",
-        "Экран не удаляет загрязнение и не меняет период полураспада изотопа (half-life).",
+        "Экран не удаляет загрязнение и не меняет период полураспада (half-life) изотопа.",
       ),
     ],
   },
@@ -569,7 +569,7 @@ export const lessons: Lesson[] = [
         "Why locations differ",
         "Почему места отличаются",
         "Higher altitude generally means more cosmic radiation, because there is less atmosphere above. Radon comes from soil, rocks and building materials, and it builds up in closed rooms.\n\nSo geology, building materials and ventilation all affect the radon-related background. Occupation and time spent in different environments also matter. The shares of each source depend on the country and the year, so do not memorise one set of percentages as universal.",
-        "На большей высоте космического излучения обычно больше: сверху меньше атмосферы. Радон образуется в почве, горных породах и стройматериалах и накапливается в закрытых помещениях.\n\nПоэтому на фон от радона влияют геология, строительные материалы и вентиляция. Важны также профессия и время, которое человек проводит в разных условиях. Доли источников зависят от страны и года, поэтому не заучивай один набор процентов как общий.",
+        "На большей высоте обычно больше космического излучения: сверху меньше атмосферы. Радон образуется в почве, горных породах и стройматериалах и накапливается в закрытых помещениях.\n\nПоэтому на фон от радона влияют геология, строительные материалы и вентиляция. Важны также профессия и время, которое человек проводит в разных условиях. Доли источников зависят от страны и года, поэтому не заучивай один набор процентов как общий.",
       ),
       s(
         "Correcting for different counting times",
@@ -580,18 +580,18 @@ export const lessons: Lesson[] = [
       s(
         "Dose units are not activity units",
         "Единицы дозы — не единицы активности",
-        "1 Bq = 1 decay per second. Counts/s is a detector reading, not a property of the source.\n\nGy measures absorbed dose: 1 joule of energy absorbed per kilogram of material. Sv measures equivalent or effective dose, which allows for how harmful the radiation is. mSv = 10⁻³ Sv and μSv = 10⁻⁶ Sv.\n\nFor a constant dose rate, dose = rate × time, with matching units. Keep the units apart: a count rate alone does not determine a person’s dose.",
+        "1 Bq = 1 decay per second. Counts/s is a detector reading, not a property of the source.\n\nGy measures absorbed dose: 1 joule of energy absorbed per kilogram of material. Sv measures equivalent or effective dose, which allows for how harmful the radiation is. mSv = 10⁻³ Sv and μSv = 10⁻⁶ Sv.\n\nFor a constant dose rate, dose = rate × time, with matching units. Do not mix up the units: a count rate alone does not determine a person’s dose.",
         "1 Бк = 1 распад в секунду. Импульсы в секунду — показание детектора, а не свойство источника.\n\nГр — единица поглощённой дозы: 1 Дж энергии на килограмм вещества. Зв — единица эквивалентной или эффективной дозы: она учитывает, насколько опасно излучение. мЗв = 10⁻³ Зв, мкЗв = 10⁻⁶ Зв.\n\nПри постоянной мощности дозы доза = мощность дозы × время, и единицы должны совпадать. Не смешивай единицы: по одной скорости счёта нельзя найти дозу человека.",
       ),
       s(
         "Evaluate a small difference",
         "Как оценить небольшую разницу",
         "If one reading is slightly above another, random variation may explain the difference. Repeat and average before claiming an effect.\n\nA negative background-subtracted result near zero does not mean negative radioactivity: it can arise from fluctuations and should be interpreted as consistent with no detectable added signal within uncertainty.",
-        "Если одно показание немного больше другого, разницу может объяснить случайная изменчивость. Повтори измерения и найди среднее, прежде чем говорить об эффекте.\n\nОтрицательный результат после вычитания фона около нуля не означает отрицательную радиоактивность. Он может возникнуть из-за случайных колебаний. Такой результат стоит трактовать как согласующийся с отсутствием заметного дополнительного сигнала в пределах погрешности.",
+        "Если одно показание немного больше другого, разницу может объяснить случайная изменчивость. Повтори измерения и найди среднее, прежде чем говорить об эффекте.\n\nОтрицательный результат после вычитания фона около нуля не означает отрицательную радиоактивность. Он может возникнуть из-за случайных колебаний. Такой результат стоит трактовать так: он согласуется с отсутствием заметного дополнительного сигнала в пределах погрешности.",
       ),
     ],
     formulas: [
-      "Rnet = Ctotal / ttotal − Cbackground / tbackground",
+      "R = Ctotal / ttotal − Cbackground / tbackground",
       "1 Sv = 1000 mSv = 1000000 μSv",
     ],
     examples: [
@@ -604,16 +604,16 @@ export const lessons: Lesson[] = [
         ),
         b(
           "Net = 8.0 − 0.6 = 7.4 counts/s. This is the rate from the source alone.",
-          "Чистая скорость — 8,0 − 0,6 = 7,4 импульса в секунду. Это скорость, которую даёт только источник.",
+          "Чистая скорость = 8,0 − 0,6 = 7,4 импульса в секунду. Это скорость, которую даёт только источник.",
         ),
       ),
       w(
-        "In this fictional case, the dose rate is 2.5 μSv/h for 8 h. Express the dose in μSv and mSv.",
-        "В условном примере мощность дозы 2,5 мкЗв/ч в течение 8 ч. Вырази дозу в мкЗв и мЗв.",
+        "The dose rate is 2.5 μSv/h for 8 h. Express the dose in μSv and mSv.",
+        "Мощность дозы 2,5 мкЗв/ч в течение 8 ч. Вырази дозу в мкЗв и мЗв.",
         b("Dose = 2.5 × 8 = 20 μSv.", "Доза = 2,5 × 8 = 20 мкЗв."),
         b(
-          "20 μSv = 0.020 mSv. This arithmetic alone does not establish a medical risk threshold.",
-          "20 мкЗв = 0,020 мЗв. Сам расчёт не устанавливает медицинский порог риска.",
+          "20 μSv = 0.020 mSv. This arithmetic alone does not show whether the dose is harmful.",
+          "20 мкЗв = 0,020 мЗв. По одному этому расчёту нельзя судить, опасна ли такая доза.",
         ),
       ),
     ],

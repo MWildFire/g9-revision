@@ -12,8 +12,8 @@ export const sources = [
     title: "AQA · Atomic structure",
     url: "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/atomic-structure",
     note: b(
-      "Cross-check of topic terminology on the supplied PiXL overview; AQA/HT labels are not IB grade bands.",
-      "Проверка терминов исходного обзора PiXL; пометки AQA/HT не являются уровнями оценки IB.",
+      "Cross-check of topic terminology on the supplied topic overview; AQA/HT labels are not IB grade bands.",
+      "Проверка терминов исходного обзора темы; пометки AQA/HT не являются уровнями оценки IB.",
     ),
   },
   {

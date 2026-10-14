@@ -1460,7 +1460,7 @@
     "concepts": {
       "hookesLaw": {
         "name": "Закон Гука — пружины и упругость",
-        "rule": "Для идеальной линейной пружины F = kx, где x — удлинение относительно естественной длины, k — жёсткость в Н/м. Линейная зависимость действует до предела пропорциональности. Предел упругости связан с появлением остаточной деформации после разгрузки.",
+        "rule": "Для идеальной линейной пружины F = kx, где x — удлинение относительно недеформированной длины, k — жёсткость в Н/м. Линейная зависимость действует до предела пропорциональности. Предел упругости связан с появлением остаточной деформации после разгрузки.",
         "examples": [
           "Пружина жёсткостью 200 Н/м удлиняется на 0,03 м под силой 6 Н в линейном диапазоне.",
           "У резиновой ленты график «сила — удлинение» изогнутый, но после снятия силы она возвращается к прежней длине, если её не растянули слишком сильно."
@@ -1470,13 +1470,19 @@
           "russianTerm": "Закон Гука",
           "contrast": {
             "en": "x is the extension, not the total length of the spring. If the natural length is L₀ and the spring stretches by x, its total length is L₀ + x.",
-            "ru": "x — это удлинение, а не полная длина пружины. Если естественная длина равна L₀, а удлинение — x, то полная длина равна L₀ + x."
+            "ru": "x — это удлинение, а не полная длина пружины. Если недеформированная длина равна L₀, а удлинение — x, то полная длина равна L₀ + x."
           },
           "model": {
             "en": "F = kx also works for compression: a compressed spring pushes back with force kx, as long as it stays within its limit of proportionality.",
             "ru": "Формула F = kx работает и при сжатии: сжатая пружина отталкивает с силой kx, пока сжатие не выходит за предел пропорциональности."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "страницы не сверены (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
@@ -1504,13 +1510,19 @@
           "russianTerm": "Механическая работа",
           "contrast": {
             "en": "Force is measured in newtons (N), but work is measured in joules (J): one joule is the work done by a force of one newton acting through one metre. Writing newtons for work is a common mistake.",
-            "ru": "Силу измеряют в ньютонах (Н), а работу — в джоулях (Дж), причём 1 Дж = 1 Н·м. Записывать работу в ньютонах — частая ошибка."
+            "ru": "Силу измеряют в ньютонах (Н), а работу — в джоулях (Дж): 1 Дж — работа силы 1 Н на пути 1 м, то есть 1 Дж = 1 Н·м. Записывать работу в ньютонах — частая ошибка."
           },
           "model": {
             "en": "W = Fd works only when the force points along the displacement. At an angle θ, use cos θ: a 10 N force at 60° to a 2 m displacement does 10 J of work, not 20 J.",
             "ru": "Формула A = F·s верна, только если сила направлена вдоль перемещения. При угле α в формулу входит cos α. Сила 10 Н под углом 60° к перемещению 2 м совершает работу 10 Дж, а не 20 Дж."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 226–233 (Putting energy to work) — по выписке SOURCES, не пересверено (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
@@ -1570,7 +1582,7 @@
         "name": "Запасы энергии (energy stores) и её передача",
         "rule": "Энергия — сохраняющаяся величина, с помощью которой описывают изменения системы. Рассматривают кинетическую, гравитационную, упругую, внутреннюю и химическую энергию. Работа, теплопередача и излучение описывают способы передачи энергии.",
         "examples": [
-          "Мяч, отпущенный с высоты, при падении теряет запас гравитационной энергии и получает запас кинетической. Без сопротивления воздуха прирост кинетической энергии равен убыли гравитационной.",
+          "Мяч, отпущенный с высоты, при падении теряет запас потенциальной энергии и получает запас кинетической. Без сопротивления воздуха прирост кинетической энергии равен убыли потенциальной.",
           "Батарейка теряет запас химической энергии, пока работает вентилятор. Растут кинетическая энергия лопастей и внутренняя энергия проводов."
         ],
         "review": {
@@ -1585,6 +1597,12 @@
             "ru": "Учёт запасов и передач энергии показывает, сколько энергии есть, но не насколько она полезна. Энергия, рассеянная в комнате в виде тепла, тоже учитывается, но её трудно использовать."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 221–225 (Kinds of energy) — по выписке SOURCES, не пересверено (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
@@ -1619,6 +1637,12 @@
             "ru": "Формула даёт среднее давление по площади опоры. Если нагрузка неравномерна, в одних точках давление больше, чем в других, например под острием канцелярской кнопки."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 326 (only a mention; no section) — по выписке SOURCES, не пересверено (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
@@ -1659,6 +1683,12 @@
             "ru": "Тот же критерий работает для любой жидкости и для газов, включая воздух: гелиевый шар поднимается, потому что его средняя плотность меньше плотности окружающего воздуха."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "страницы не сверены (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
@@ -1701,6 +1731,12 @@
           },
           "sources": [
             {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "раздела нет в книге (открыто)"
+            },
+            {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
               "language": "en",
@@ -1741,6 +1777,12 @@
           },
           "sources": [
             {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "страницы не сверены (открыто)"
+            },
+            {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
               "language": "en",
@@ -1751,12 +1793,6 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
               "language": "ru",
               "section": "1.8. Второй закон Ньютона"
-            },
-            {
-              "title": "AQA · GCSE Physics: contact and non-contact forces",
-              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
-              "language": "en",
-              "section": "4.5.1.2 Contact and non-contact forces"
             }
           ]
         }
@@ -1779,6 +1815,12 @@
           },
           "sources": [
             {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "страницы не сверены (открыто)"
+            },
+            {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
               "language": "en",
@@ -1789,12 +1831,6 @@
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph8/theory.html",
               "language": "ru",
               "section": "1.8. Второй закон Ньютона"
-            },
-            {
-              "title": "AQA · GCSE Physics: contact and non-contact forces",
-              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
-              "language": "en",
-              "section": "4.5.1.2 Contact and non-contact forces"
             }
           ]
         }
@@ -1816,6 +1852,12 @@
             "ru": "Упругий материал не обязательно имеет линейную зависимость силы от удлинения."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "страницы не сверены (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
@@ -1849,6 +1891,12 @@
           },
           "sources": [
             {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "страницы не сверены (открыто)"
+            },
+            {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
               "language": "en",
@@ -1880,6 +1928,12 @@
             "ru": "Работа отрицательна, если сила направлена против перемещения (α > 90°). Тогда тело теряет кинетическую энергию, как ящик, который скользит и тормозится силой трения."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 226–233 (Putting energy to work) — по выписке SOURCES, не пересверено (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
@@ -1919,6 +1973,12 @@
           },
           "sources": [
             {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "страницы не сверены (открыто)"
+            },
+            {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
               "language": "en",
@@ -1950,6 +2010,12 @@
             "ru": "Один паскаль — это один ньютон на квадратный метр: сила 1 Н, распределённая по площади 1 м², создаёт давление 1 Па."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 326 (only a mention; no section) — по выписке SOURCES, не пересверено (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
@@ -1989,6 +2055,12 @@
           },
           "sources": [
             {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 326 (only a mention; no section) — по выписке SOURCES, не пересверено (открыто)"
+            },
+            {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
               "language": "en",
@@ -2026,6 +2098,12 @@
             "ru": "Одно значение плотности относится к однородному веществу при заданной температуре. Для газа важно ещё и давление: его плотность сильно меняется и от температуры, и от давления."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "страницы не сверены (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
@@ -2065,6 +2143,12 @@
           },
           "sources": [
             {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "раздела нет в книге (открыто)"
+            },
+            {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
               "language": "en",
@@ -2103,6 +2187,12 @@
           },
           "sources": [
             {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 221–225 (Kinds of energy) — по выписке SOURCES, не пересверено (открыто)"
+            },
+            {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
               "language": "en",
@@ -2134,6 +2224,12 @@
             "ru": "За промежуток времени используют среднюю мощность. Формула A = Nt верна только при постоянной мощности."
           },
           "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 226–233 (Putting energy to work) — по выписке SOURCES, не пересверено (открыто)"
+            },
             {
               "title": "OpenStax · College Physics 2e",
               "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
@@ -2248,7 +2344,7 @@
       "density": "ρ = m / V",
       "densityCaption": "Плотность (кг/м³)",
       "fluidPressure": "Δp = ρgh",
-      "fluidPressureCaption": "Прирост давления с глубиной (Па)"
+      "fluidPressureCaption": "Прибавка давления с глубиной (Па)"
     },
     "sim1": {
       "title": "Закон Гука",
@@ -2267,7 +2363,7 @@
       "pressure": "Давление",
       "scenarios": "Сценарии",
       "knife": "Лезвие ножа",
-      "shoe": "Ботинок",
+      "shoe": "Обувь",
       "elephant": "Нога слона"
     },
     "sim3": {
@@ -2309,11 +2405,11 @@
   },
   "electricity": {
     "title": "Электричество и магнетизм",
-    "intro": "Заряд (charge), ток (current), напряжение (voltage) и сопротивление (resistance) — основные понятия темы. Кроме них, в этой теме есть цепи, мощность и энергия, магнетизм, а также датчики и устройства защиты, которые применяются в цепях.",
+    "intro": "Заряд (charge), сила тока (current), напряжение (voltage) и сопротивление (resistance) — основные понятия темы. Кроме них, в этой теме есть цепи, мощность и энергия, магнетизм, а также датчики и устройства защиты, которые применяются в цепях.",
     "concepts": {
       "currentVoltageResistance": {
         "name": "Как связаны ток, напряжение и сопротивление",
-        "rule": "Сила тока (current) I = ΔQ/Δt — заряд, проходящий через точку за единицу времени. Напряжение (potential difference) U = A/Q — работа, переданная на каждый кулон заряда. Сопротивление (resistance) R = U/I связывает три величины: зная любые две, можно найти третью.",
+        "rule": "Сила тока (current) I = Δq/Δt — заряд, проходящий через точку за единицу времени. Напряжение (potential difference) U = A/q — работа электрического поля при переносе каждого кулона заряда. Сопротивление (resistance) R = U/I связывает три величины: зная любые две, можно найти третью.",
         "examples": [
           "2 Кл за 1 с означают 2 А. При 6 В каждый кулон передаёт 6 Дж.",
           "При 6 В и 2 А сопротивление равно 3 Ом."
@@ -2346,7 +2442,7 @@
         }
       },
       "ohmsLaw": {
-        "name": "Ток пропорционален напряжению",
+        "name": "Закон Ома (U = IR)",
         "rule": "Для проводника, подчиняющегося закону Ома, при неизменных температуре и физических условиях ток пропорционален напряжению. График I(U) — прямая через начало координат, R = U/I постоянно.",
         "examples": [
           "Удвоение напряжения на постоянном сопротивлении 10 Ом удваивает ток.",
@@ -2495,10 +2591,6 @@
             "en": "Field lines show field direction; they are not physical wires or particle tracks.",
             "ru": "Линии поля показывают направление поля; это не провода и не траектории частиц."
           },
-          "model": {
-            "en": "The solenoid model here has no core, so the effect of a core on the field is not covered.",
-            "ru": "Модель соленоида здесь без сердечника, поэтому влияние сердечника на поле не рассматривается."
-          },
           "sources": [
             {
               "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
@@ -2532,8 +2624,8 @@
           "englishTerm": "Circuit symbols",
           "russianTerm": "Обозначения на схемах",
           "contrast": {
-            "en": "An ammeter has a very low resistance, so it must be in series. A voltmeter has a very high resistance, so it is connected in parallel and draws almost no current.",
-            "ru": "У амперметра очень малое сопротивление, поэтому его включают последовательно. У вольтметра очень большое сопротивление, поэтому его включают параллельно, и он почти не забирает ток."
+            "en": "The ammeter and the voltmeter are both circles; only the letter inside (A or V) tells them apart.",
+            "ru": "Амперметр и вольтметр на схеме — оба кружки; различает их только буква внутри (A или V)."
           },
           "model": {
             "en": "The symbols show connections, not the real size or shape of the parts. The long and short lines of a cell show polarity, not its size.",
@@ -2560,7 +2652,7 @@
       "current": {
         "name": "Сила тока",
         "alt": "Current",
-        "definition": "Сила тока — заряд, проходящий через поперечное сечение за единицу времени: Iср = ΔQ/Δt; единица — ампер.",
+        "definition": "Сила тока — заряд, проходящий через поперечное сечение за единицу времени: Iср = Δq/Δt; единица — ампер.",
         "example": "Если за 3 с проходит 6 Кл, средняя сила тока равна 2 А.",
         "review": {
           "englishTerm": "Current",
@@ -2598,14 +2690,14 @@
       "voltage": {
         "name": "Напряжение",
         "alt": "Voltage",
-        "definition": "Напряжение (разность потенциалов) между двумя точками — это работа электрического поля на единицу заряда: U = A/Q; единица — вольт (В).",
+        "definition": "Напряжение (разность потенциалов) между двумя точками — это работа электрического поля на единицу заряда: U = A/q; единица — вольт (В).",
         "example": "Элемент питания на 1,5 В отдаёт 1,5 Дж энергии каждому кулону заряда, который через него проходит.",
         "review": {
           "englishTerm": "Voltage",
           "russianTerm": "Напряжение",
           "contrast": {
-            "en": "Voltage is measured across a component, but current is measured through it: a voltmeter is connected in parallel, an ammeter in series.",
-            "ru": "Напряжение измеряют на элементе, а ток — через него: вольтметр подключают параллельно элементу, амперметр — последовательно."
+            "en": "Voltage is measured across a component, but current is measured through it.",
+            "ru": "Напряжение измеряют на элементе, а ток — через него."
           },
           "model": {
             "en": "The volt follows from the definition: 1 V = 1 J/C.",

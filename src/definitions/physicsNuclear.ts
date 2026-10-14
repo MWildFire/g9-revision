@@ -196,8 +196,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
       "ru": "Скорость счёта обычно не равна активности: часть излучения не попадает в детектор или не регистрируется."
     },
     "model": {
-      "en": "One radionuclide only. Mixed sources are not covered.",
-      "ru": "Один радионуклид (radionuclide). Смесь нескольких радионуклидов не рассматривается."
+      "en": "For one radionuclide, the activity falls as fewer undecayed nuclei remain.",
+      "ru": "Для одного радионуклида (radionuclide) активность падает, когда остаётся меньше нераспавшихся ядер."
     },
     "sources": [
       {
@@ -246,8 +246,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
         }
       ],
       "caption": {
-        "en": "Illustrative numbers for one setup: the source has an activity of 200 Bq, the detector registers 40 counts/s from it, and background adds 5 counts/s.",
-        "ru": "Для наглядности, на одной установке: активность источника 200 Бк, от него детектор регистрирует 40 имп/с, а фон добавляет 5 имп/с."
+        "en": "Illustrative numbers for one setup: the source has an activity of 200 Bq, the detector registers 40 counts/s from it, and background adds 5 counts/s. So the 45 counts/s is not the source activity.",
+        "ru": "Для наглядности, на одной установке: активность источника 200 Бк, от него детектор регистрирует 40 имп/с, а фон добавляет 5 имп/с. Поэтому 45 имп/с — не активность источника."
       }
     }
   },
@@ -297,8 +297,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
       "ru": "Период полураспада одинаков для всех образцов одного изотопа (isotope), а активность зависит от числа ядер в образце."
     },
     "model": {
-      "en": "Each nucleus decays at random, but for a large group of nuclei the halving is predictable. For a few nuclei, the result can differ noticeably from the expected value.",
-      "ru": "Каждое ядро распадается случайно, но для большой группы ядер уменьшение вдвое предсказуемо. Для нескольких ядер результат может заметно отличаться от ожидаемого."
+      "en": "Each nucleus decays at random, but for a large group of nuclei the halving is predictable.",
+      "ru": "Каждое ядро распадается случайно, но для большой группы ядер уменьшение вдвое предсказуемо."
     },
     "sources": [
       {
@@ -752,10 +752,16 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "englishTerm": "activity",
     "russianTerm": "активность",
     "model": {
-      "en": "One radionuclide only. Mixed sources are not covered.",
-      "ru": "Один радионуклид (radionuclide). Смесь нескольких радионуклидов не рассматривается."
+      "en": "For one radionuclide, the activity falls as fewer undecayed nuclei remain.",
+      "ru": "Для одного радионуклида (radionuclide) активность падает, когда остаётся меньше нераспавшихся ядер."
     },
     "sources": [
+      {
+        "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+        "url": "https://isbnsearch.org/isbn/9781471839337",
+        "language": "en",
+        "section": "p. 499–518 (radioactivity; ionising radiation) — страницы не пересверены (открыто)"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-1-nuclear-radioactivity",
@@ -808,8 +814,8 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
         }
       ],
       "caption": {
-        "en": "Illustrative numbers for one setup: the source has an activity of 200 Bq, the detector registers 40 counts/s from it, and background adds 5 counts/s.",
-        "ru": "Для наглядности, на одной установке: активность источника 200 Бк, от него детектор регистрирует 40 имп/с, а фон добавляет 5 имп/с."
+        "en": "Illustrative numbers for one setup: the source has an activity of 200 Bq, the detector registers 40 counts/s from it, and background adds 5 counts/s. So the 45 counts/s is not the source activity.",
+        "ru": "Для наглядности, на одной установке: активность источника 200 Бк, от него детектор регистрирует 40 имп/с, а фон добавляет 5 имп/с. Поэтому 45 имп/с — не активность источника."
       }
     }
   },
@@ -817,14 +823,20 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "englishTerm": "daughter nucleus",
     "russianTerm": "дочернее ядро",
     "contrast": {
-      "en": "Balance nucleon number and electric charge for these school reactions; a beta electron has charge −1 but contains no nucleons.",
-      "ru": "В этих школьных реакциях уравнивают число нуклонов и электрический заряд; бета-частица (электрон) имеет заряд −1, но не содержит нуклонов."
+      "en": "A beta electron has charge −1 but contains no nucleons, so it is not counted in the nucleon sum.",
+      "ru": "Бета-частица (электрон) имеет заряд −1, но не содержит нуклонов, поэтому в сумме нуклонов её не учитывают."
     },
     "model": {
       "en": "These rules apply to the alpha, beta-minus and gamma decays on this page. They say nothing about how fast a decay happens or how much energy is released.",
       "ru": "Эти правила работают для альфа-, бета-минус- и гамма-распадов на этой странице. Они ничего не говорят о том, как быстро идёт распад и сколько энергии выделяется."
     },
     "sources": [
+      {
+        "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+        "url": "https://isbnsearch.org/isbn/9781471839337",
+        "language": "en",
+        "section": "p. 508–515 (nuclide notation: A, Z, N) — страницы не пересверены (открыто)"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-1-nuclear-radioactivity",
@@ -853,8 +865,8 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
       "ru": "Период полураспада одинаков для всех образцов одного изотопа (isotope), а активность зависит от числа ядер в образце."
     },
     "model": {
-      "en": "Each nucleus decays at random, but for a large group of nuclei the halving is predictable. For a few nuclei, the result can differ noticeably from the expected value.",
-      "ru": "Каждое ядро распадается случайно, но для большой группы ядер уменьшение вдвое предсказуемо. Для нескольких ядер результат может заметно отличаться от ожидаемого."
+      "en": "Each nucleus decays at random, but for a large group of nuclei the halving is predictable.",
+      "ru": "Каждое ядро распадается случайно, но для большой группы ядер уменьшение вдвое предсказуемо."
     },
     "sources": [
       {
@@ -913,6 +925,12 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
       "ru": "Детектор охватывает лишь часть пространства вокруг источника, поэтому регистрирует только часть распадов."
     },
     "sources": [
+      {
+        "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder)",
+        "url": "https://isbnsearch.org/isbn/9781471839337",
+        "language": "en",
+        "section": "p. 522, 551; glossary p. 621 (background radiation) — проверено по done/P-p-background.md"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-1-nuclear-radioactivity",
@@ -978,7 +996,7 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
       ],
       "caption": {
         "en": "Illustrative numbers for one fixed setup. The count rate (45 counts/s) is not the activity (200 decays/s).",
-        "ru": "Условные числа для одной установки. Скорость счёта (45 импульсов в секунду) — не активность источника (200 распадов в секунду)."
+        "ru": "Условные числа для одной неизменной установки. Скорость счёта (45 импульсов в секунду) — не активность источника (200 распадов в секунду)."
       }
     }
   },

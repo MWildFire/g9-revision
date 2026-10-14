@@ -60,12 +60,12 @@ export function EnergyProfile() {
 
           {/* Activation energy arrow */}
           <line x1={peakX - 5} y1={reactantsY} x2={peakX - 5} y2={peakY} stroke="var(--color-accent-warm)" strokeWidth={1.5} markerStart={`url(#${markerId}-arrow)`} markerEnd={`url(#${markerId}-arrow)`} />
-          <text x={peakX - 10} y={(reactantsY + peakY) / 2} textAnchor="end" fontSize={10} fill="var(--color-accent-warm)">Eₐ = {geometry.activation}</text>
+          <text x={peakX - 10} y={(reactantsY + peakY) / 2} textAnchor="end" fontSize={10} fill="var(--color-accent-warm)">Eₐ = {geometry.activation} {unit}</text>
 
           {/* ΔH arrow */}
           <line x1={productsX - 25} y1={reactantsY} x2={productsX - 25} y2={productsY} stroke="var(--color-accent-sage)" strokeWidth={1.5} />
           <text x={productsX - 20} y={(reactantsY + productsY) / 2 + 4} fontSize={10} fill="var(--color-accent-sage)">
-            ΔH = {mode === 'exo' ? '−' : '+'}{deltaH}
+            ΔH = {mode === 'exo' ? '−' : '+'}{deltaH} {unit}
           </text>
 
           {/* Labels */}

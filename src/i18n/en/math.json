@@ -1499,7 +1499,7 @@
     "title": "Geometry & Trigonometry",
     "intro": "This page covers right-angled triangles, bearings and circles, plus Extended rules for other triangles. Pythagoras and the trigonometric ratios work only in right-angled triangles. Parts marked Extended are higher-level content: the converse of Pythagoras, the sine and cosine rules and the area formula ½ab sin C.",
     "subTopics": {
-      "pythagoras": "Pythagorean theorem (converse — Extended)",
+      "pythagoras": "Pythagoras’ theorem (converse — Extended)",
       "trig": "Trigonometry",
       "bearings": "Bearings",
       "sineCosine": "Sine & Cosine rules (Extended)",
@@ -1511,7 +1511,7 @@
     },
     "subTopicsDetailed": {
       "pythagoras": {
-        "name": "Pythagorean theorem",
+        "name": "Pythagoras’ theorem",
         "rule": "In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a² + b² = c². Here a and b are the legs, the sides that meet at the right angle. The hypotenuse c is opposite the right angle and is always the longest side.\n\nExtended: the converse is also true. If the sides of a triangle satisfy a² + b² = c², where c is the longest side, then the angle opposite c is 90°.\n\nIn the exam, first decide whether you are finding the hypotenuse or a leg. Add the squares of the legs to find the hypotenuse, and subtract the square of the known leg from the square of the hypotenuse to find a leg.",
         "examples": [
           "Legs 3 cm and 4 cm: hypotenuse c = √(3² + 4²) = √25 = 5 cm.",
@@ -1553,7 +1553,7 @@
         ],
         "review": {
           "englishTerm": "Trigonometry (SOH–CAH–TOA)",
-          "russianTerm": "Тригонометрия (СОН-КАХ-ТОА)",
+          "russianTerm": "Тригонометрия (SOH–CAH–TOA)",
           "contrast": {
             "en": "sin⁻¹ means the inverse function (arcsin), not 1 / sin. The ratios apply only to acute angles, 0° < θ < 90°, in a right-angled triangle.",
             "ru": "Запись sin⁻¹ означает обратную функцию (arcsin), а не 1 / sin. Отношения работают только для острых углов, 0° < θ < 90°, в прямоугольном треугольнике."
@@ -1580,8 +1580,8 @@
           "englishTerm": "Bearing",
           "russianTerm": "Азимут",
           "contrast": {
-            "en": "Do not confuse a bearing with the usual maths angle, which is measured from the x-axis anticlockwise. So for a bearing, the sine and cosine swap places: Δx = d sin θ, not d cos θ.",
-            "ru": "Не путай азимут с обычным углом в математике: тот отсчитывают от оси x против часовой стрелки. Поэтому у азимута синус и косинус меняются местами: Δx = d sin θ, а не d cos θ."
+            "en": "Do not confuse a bearing with the usual maths angle, which is measured from the x-axis anticlockwise. So for a bearing, the sine and cosine swap places: Δx = d sin θ, not d cos θ.",
+            "ru": "Не путай азимут с обычным углом в математике: тот отсчитывают от оси x против часовой стрелки. Поэтому у азимута синус и косинус меняются местами: Δx = d sin θ, а не d cos θ."
           },
           "sources": [
             {
@@ -1707,7 +1707,7 @@
           "englishTerm": "Sectors and arcs",
           "russianTerm": "Секторы и дуги",
           "contrast": {
-            "en": "Do not mix up the arc and the sector. An arc is part of the circle's boundary, so its length is measured in centimetres (cm). A sector is part of the circle's area, so its area is measured in square centimetres (cm²). Do not put the arc-length formula where the area formula belongs.",
+            "en": "Do not mix up the arc and the sector. An arc is part of the circle’s boundary, so its length is measured in centimetres (cm). A sector is part of the circle’s area, so its area is measured in square centimetres (cm²). Do not put the arc-length formula where the area formula belongs.",
             "ru": "Не путай дугу и сектор. Дуга — часть окружности, её длина измеряется в сантиметрах (см). Сектор — часть круга, его площадь измеряется в квадратных сантиметрах (см²). Не подставляй формулу длины дуги вместо формулы площади."
           },
           "sources": [
@@ -1724,8 +1724,8 @@
         "name": "Area of a segment",
         "rule": "A segment (circular segment) is the region between a chord and one of its arcs. The area of the minor segment is the sector area minus the triangle area, where the triangle is formed by the chord and the two radii.\n\nFor a minor segment with radius r (cm) and central angle θ (up to 180°):\n\n\nSector area: (θ ÷ 360°) × πr²\n\nSegment area = sector area − triangle area\n\nExtended: the triangle area is ½r² sin θ, so the segment area = (θ ÷ 360°) × πr² − ½r² sin θ.\n\nBefore you calculate, check the radius and the central angle. Is the angle up to 180°? If it is, you are finding the minor segment, and the subtraction formula applies.",
         "examples": [
-          "Radius 6 cm and central angle 90°. Sector area: (90 ÷ 360) × π × 6² = 9π ≈ 28.27 cm². The triangle has two sides of 6 cm with a right angle between them, so its area is ½ × 6 × 6 = 18 cm². Segment area: 9π − 18 ≈ 10.27 cm².",
-          "Extended: radius 10 cm and central angle 60°. Sector area: (60 ÷ 360) × π × 10² ≈ 52.36 cm². Triangle area: ½ × 10 × 10 × sin 60° ≈ 43.30 cm². Segment area: 52.36 − 43.30 = 9.06 cm²."
+          "Radius 6 cm and central angle 90°. Sector area: (90 ÷ 360) × π × 6² = 9π ≈ 28.27 cm². The triangle has two sides of 6 cm with a right angle between them, so its area is ½ × 6 × 6 = 18 cm². Segment area = 9π − 18 ≈ 10.27 cm².",
+          "Extended: radius 10 cm and central angle 60°. Sector area: (60 ÷ 360) × π × 10² ≈ 52.36 cm². Triangle area: ½ × 10 × 10 × sin 60° ≈ 43.30 cm². Segment area = 52.36 − 43.30 = 9.06 cm²."
         ],
         "review": {
           "englishTerm": "Area of a circular segment",
@@ -1752,7 +1752,7 @@
       },
       "intersectingChords": {
         "name": "Intersecting chords",
-        "rule": "If two chords AB and CD cross at a point P inside the circle, the product of the two parts of one chord equals the product of the two parts of the other: AP × PB = CP × PD. This is the first case of the intersecting chords theorem.\n\nIf the lines AB and CD meet at a point X outside the circle, the same formula holds, using the whole distances from X: AX × BX = CX × DX. This is the second case.\n\nCheck first where the chords or lines meet: inside the circle or outside it. This decides which lengths you multiply.",
+        "rule": "If two chords AB and CD cross at a point P inside the circle, the product of the two parts of one chord equals the product of the two parts of the other: AP × PB = CP × PD. This is the first case of the intersecting chords theorem.\n\nIf the lines AB and CD meet at a point X outside the circle, the same formula holds, using the whole distances from X: AX × BX = CX × DX. This is the intersecting secants theorem (second case).\n\nCheck first where the chords or lines meet: inside the circle or outside it. This decides which lengths you multiply.",
         "examples": [
           "Chords AB and CD cross at P. AP = 6 cm, PB = 4 cm and CP = 3 cm. Find PD: 6 × 4 = 3 × PD, so PD = 24 ÷ 3 = 8 cm.",
           "Two lines meet at X outside the circle. The first line meets the circle at A and B, with AX = 4 cm and BX = 9 cm. The second line meets it at C and D, with CX = 5 cm. Find DX: 4 × 9 = 5 × DX, so DX = 36 ÷ 5 = 7.2 cm. Check: 7.2 cm is longer than 5 cm, so D is the far point, as assumed."
@@ -2447,7 +2447,7 @@
       "description": "Change the positive legs of a right triangle. θ is at the left vertex: the horizontal leg is adjacent and the vertical leg opposite.",
       "review": {
         "englishTerm": "Trigonometry (SOHCAHTOA)",
-        "russianTerm": "Тригонометрия (СОН-КАХ-ТОА)",
+        "russianTerm": "Тригонометрия (SOH–CAH–TOA)",
         "contrast": {
           "en": "sin⁻¹ denotes arcsin on a calculator, not 1/sin. This triangle definition uses 0°<θ<90°; unit-circle definitions extend the functions.",
           "ru": "Кнопка sin⁻¹ означает arcsin, а не 1/sin. Определение через прямоугольный треугольник использует 0°<θ<90°; единичная окружность расширяет его."

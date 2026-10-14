@@ -4,7 +4,7 @@ import { TopicHero, SectionHeading } from '../../../components/content/TopicHero
 
 const SIMPLE_TOPICS = ['introduce', 'clothes', 'colours', 'seasons'];
 
-export function MrsHalaPage() {
+export function BookletPage() {
   const { t } = useTranslation('arabic');
   const arFont = '"Noto Sans Arabic", "Amiri", serif';
 
@@ -23,11 +23,11 @@ export function MrsHalaPage() {
 
   return (
     <div>
-      <TopicHero title={t('mrsHalaPage.title')} intro={t('mrsHalaPage.intro')} icon={<GraduationCap size={28} />} />
+      <TopicHero title={t('bookletPage.title')} intro={t('bookletPage.intro')} icon={<GraduationCap size={28} />} />
 
       <div className="mt-6 flex items-start gap-3 bg-bg-secondary border border-border rounded-md p-4" style={{ borderLeftColor: 'var(--color-accent-olive)', borderLeftWidth: '4px' }}>
         <AlertCircle size={18} className="text-accent-olive shrink-0 mt-0.5" />
-        <p className="text-sm">{t('mrsHalaPage.notice')}</p>
+        <p className="text-sm">{t('bookletPage.notice')}</p>
       </div>
 
       {SIMPLE_TOPICS.map((k) => {

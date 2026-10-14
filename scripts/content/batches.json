@@ -3632,7 +3632,7 @@
         {
           "kind": "i18n",
           "ns": "arabic",
-          "key": "mrsHalaPage"
+          "key": "bookletPage"
         },
         {
           "kind": "i18n",
@@ -3692,7 +3692,7 @@
         },
         {
           "kind": "tsx",
-          "file": "src/modules/arabic/pages/MrsHalaPage.tsx"
+          "file": "src/modules/arabic/pages/BookletPage.tsx"
         },
         {
           "kind": "tsx",

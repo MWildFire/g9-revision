@@ -22,7 +22,7 @@ import { AlphabetPage } from './pages/AlphabetPage';
 import { VocabPage } from './pages/VocabPage';
 import { GrammarPage } from './pages/GrammarPage';
 import { PhrasesPage } from './pages/PhrasesPage';
-import { MrsHalaPage } from './pages/MrsHalaPage';
+import { BookletPage } from './pages/BookletPage';
 import { ArabicExtrasPage } from './pages/ArabicExtrasPage';
 
 const TOPICS: TopicNavItem[] = [
@@ -31,7 +31,7 @@ const TOPICS: TopicNavItem[] = [
   { to: '/arabic/flashcards', key: 'flashcards', icon: Layers },
   { to: '/arabic/exercises', key: 'exercises', icon: PencilLine },
   { to: '/arabic/quiz', key: 'quiz', icon: ListChecks },
-  { to: '/arabic/booklet', key: 'mrsHala', icon: GraduationCap },
+  { to: '/arabic/booklet', key: 'booklet', icon: GraduationCap },
   { to: '/arabic/alphabet', key: 'alphabet', icon: Type },
   { to: '/arabic/vocab', key: 'vocab', icon: BookA },
   { to: '/arabic/grammar', key: 'grammar', icon: ScrollText },
@@ -54,7 +54,7 @@ export function ArabicModule() {
           <Route path="vocab" element={<VocabPage />} />
           <Route path="grammar" element={<GrammarPage />} />
           <Route path="phrases" element={<PhrasesPage />} />
-          <Route path="booklet" element={<MrsHalaPage />} />
+          <Route path="booklet" element={<BookletPage />} />
           <Route path="*" element={<ArabicHomePage />} />
           <Route path="extras" element={<ArabicExtrasPage />} />
         </Routes>

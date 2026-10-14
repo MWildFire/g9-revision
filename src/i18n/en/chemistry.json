@@ -2,22 +2,22 @@
   "subjectName": "Chemistry",
   "home": {
     "title": "Chemistry — Revision",
-    "intro": "Eight core topics for G9 IB MYP Chemistry, matching the teacher's revision booklet. Each topic page has explanations and interactive simulations.",
+    "intro": "Chemistry topics for G9 IB MYP. Each topic page has explanations and interactive simulations.",
     "topicsHeading": "Topics"
   },
   "simulations": {
     "phIndicator": {
-      "title": "pH Indicator",
-      "description": "Explore an illustrative pH scale at 25 °C and the approximate colours of indicators. Example substances have variable pH in real life because concentration and composition differ. The scale does not by itself identify acid or base strength, and 0–14 is not an absolute limit.",
+      "title": "pH scale and indicators",
+      "description": "Move the slider and watch how each indicator changes colour with pH. A pH value alone does not tell you whether an acid is strong or weak.",
       "phLabel": "pH value",
       "indicatorLabel": "Indicator",
-      "universal": "Universal",
+      "universal": "Universal indicator",
       "litmus": "Litmus",
       "phenolphthalein": "Phenolphthalein",
-      "classificationLabel": "Classification",
+      "classificationLabel": "Type of solution",
       "exampleLabel": "Example",
       "spectrumLabel": "Universal indicator spectrum",
-      "scaleNote": "Approximate indicator colours near 25 °C; exact transitions depend on the indicator mixture. pH alone cannot identify acid/base strength or the substance. Everyday examples have variable pH.",
+      "scaleNote": "Colours are approximate: the exact colour change depends on the indicator mixture. Real samples of the same substance can have different pH.",
       "strongAcid": "Strong acid",
       "weakAcid": "Weak acid",
       "neutral": "Neutral",
@@ -25,10 +25,10 @@
       "strongAlkali": "Strong alkali",
       "examplesLabel": "Real-world examples",
       "examples": {
-        "0": "Battery acid, strong HCl — extremely corrosive.",
+        "0": "Car battery acid (sulfuric acid) — extremely corrosive.",
         "1": "Stomach acid (gastric HCl).",
         "2": "Lemon juice, vinegar.",
-        "3": "Orange juice, soda.",
+        "3": "Orange juice, cola.",
         "4": "Tomato juice, acid rain.",
         "5": "Black coffee, banana.",
         "6": "Milk, urine.",
@@ -37,18 +37,18 @@
         "9": "Toothpaste, hand soap.",
         "10": "Milk of magnesia.",
         "11": "Ammonia cleaner.",
-        "12": "Bleach, soapy water.",
+        "12": "Household bleach (sodium hypochlorite solution).",
         "13": "Oven cleaner.",
         "14": "Sodium hydroxide — extremely caustic."
       },
-      "acidic": "Acidic solution",
-      "alkaline": "Alkaline solution",
+      "acidic": "Acidic",
+      "alkaline": "Alkaline",
       "review": {
         "englishTerm": "pH Indicator",
         "russianTerm": "Индикатор pH",
         "contrast": {
-          "en": "Strength describes the extent of ionisation or reaction with water; concentration describes amount per volume. They are different quantities.",
-          "ru": "Сила характеризует полноту ионизации или реакции с водой; концентрация — количество на объём. Это разные характеристики."
+          "en": "A pH indicator shows a range of pH, not an exact value. Each indicator changes colour across its own pH range (phenolphthalein about pH 8.2–10.0), so the colour gives a range.",
+          "ru": "Индикатор показывает интервал pH, а не точное значение. Каждый индикатор меняет цвет в своём интервале pH (фенолфталеин — примерно pH 8,2–10,0), поэтому цвет даёт диапазон."
         },
         "sources": [
           {
@@ -77,14 +77,14 @@
           }
         ],
         "model": {
-          "en": "This classroom colour scale covers pH 0–14 near 25 °C. Real solutions can fall outside it; neutral means [H₃O⁺] = [OH⁻], with neutral pH dependent on temperature.",
-          "ru": "Учебная цветовая шкала охватывает pH 0–14 около 25 °C. Реальные значения могут выходить за неё; нейтральность означает [H₃O⁺] = [OH⁻], а нейтральный pH зависит от температуры."
+          "en": "The colour scale covers pH 0–14. Real samples can fall outside this range. Neutral means [H⁺] = [OH⁻]. Neutral pH is 7 at 25 °C and changes with temperature.",
+          "ru": "Шкала цветов охватывает pH 0–14. Реальные образцы могут выходить за этот диапазон. Нейтральный раствор — тот, в котором [H⁺] = [OH⁻]. pH нейтрального раствора равен 7 при 25 °C и меняется с температурой."
         }
       }
     },
     "atomBuilder": {
       "title": "Atom Builder",
-      "description": "Move the slider to set Z from 1 to 20. The constructor shows a neutral atom of one example isotope: protons (Z), neutrons (A − Z) and electrons (as many as the protons), and a shell diagram. It does not show electron paths.",
+      "description": "Move the slider to choose Z from 1 to 20. The builder shows a neutral atom of one example isotope: protons (Z), neutrons (A − Z), electrons (equal to Z) and electron shells. Electron paths are not shown.",
       "atomicNumberLabel": "Atomic number (Z)",
       "protonsLabel": "Protons",
       "protonsHint": "(equal to Z)",
@@ -92,7 +92,7 @@
       "neutronsLabel": "Neutrons",
       "neutronsHint": "(A − Z)",
       "electronsLabel": "Electrons",
-      "electronsHint": "(neutral atom: equal to Z)",
+      "electronsHint": "(neutral atom, so equal to Z)",
       "configLabel": "Electron configuration",
       "shellNote": "Each number is the count of electrons in one shell, counted from the nucleus outwards. The numbers add up to Z. Potassium (Z = 19) has 2,8,8,1: one electron is already in the fourth shell, although the third shell can take 18 and has only 8.",
       "elements": {
@@ -118,15 +118,15 @@
         "20": "Calcium"
       },
       "review": {
-        "englishTerm": "Atom Builder",
-        "russianTerm": "Конструктор атома",
+        "englishTerm": "Neutral atom",
+        "russianTerm": "Нейтральный атом",
         "contrast": {
           "en": "“Neutral” means the atom’s charge is zero, not that it has no neutrons. Neutrons have no charge, so they do not affect the balance of protons and electrons.",
           "ru": "«Нейтральный» значит, что заряд атома равен нулю, а не что в нём нет нейтронов. Нейтроны не имеют заряда, поэтому на равенство числа протонов и электронов они не влияют."
         },
         "model": {
-          "en": "It applies to isolated neutral atoms of the first 20 elements in the ground state. It does not show bonding or ions. It cannot give relative atomic mass: the constructor shows only the most common isotope of each element.",
-          "ru": "Модель применима к отдельным нейтральным атомам первых 20 элементов в основном состоянии (ground state). Она не показывает химические связи и ионы. По ней нельзя найти относительную атомную массу (relative atomic mass): конструктор показывает только самый распространённый изотоп каждого элемента."
+          "en": "It applies to isolated neutral atoms of the first 20 elements in the ground state. It does not show bonding or ions. It cannot give relative atomic mass: that needs the abundance of every isotope, but the constructor shows one example isotope.",
+          "ru": "Модель применима к отдельным нейтральным атомам первых 20 элементов в основном состоянии (ground state). Она не показывает химические связи и ионы. Относительную атомную массу (relative atomic mass) по ней не найти: для неё нужна доля каждого изотопа в природе, а конструктор показывает один пример изотопа."
         },
         "sources": [
           {
@@ -144,7 +144,7 @@
     },
     "moleCalc": {
       "title": "Mole Calculator",
-      "description": "Enter a number and choose a conversion direction. The calculator uses molar mass M to link mass and amount, and molar volume Vm to link amount and gas volume.",
+      "description": "Enter a number and choose a conversion direction. Molar mass M links mass and amount of substance. Molar volume Vm links amount of substance and gas volume.",
       "convertPrompt": "Choose a conversion:",
       "directionMassToMoles": "Mass (g) → amount (mol)",
       "directionMolesToMass": "Amount (mol) → mass (g)",
@@ -158,8 +158,8 @@
       "stpNote": "Gas volumes here use STP: 0 °C, 273 K, 100 kPa, where Vm = 22.7 dm³/mol. Normal conditions (0 °C, 101.325 kPa) give Vm = 22.4 dm³/mol, so do not mix the two values.",
       "invalidInput": "Enter a number that is zero or more. Mass conversions also need a molar mass greater than zero.",
       "review": {
-        "englishTerm": "Mole Calculator",
-        "russianTerm": "Калькулятор молей",
+        "englishTerm": "Molar volume",
+        "russianTerm": "Молярный объём",
         "contrast": {
           "en": "The volume here is a gas volume. Do not enter the volume of a solution: for solutions, use concentration instead.",
           "ru": "Здесь объём — это объём газа. Объём раствора сюда не вводи: для растворов используй концентрацию."
@@ -190,7 +190,7 @@
       "unitDm3": "dm³"
     },
     "energyProfile": {
-      "title": "Interactive energy profile",
+      "title": "Energy profile of a reaction",
       "description": "Compare the enthalpy levels of the reactants and the products. The peak is higher than both the reactants and the products. The gap between the two levels is |ΔH|, the size of the enthalpy change at constant pressure. The horizontal axis shows reaction progress, not time.",
       "exoTab": "Exothermic",
       "endoTab": "Endothermic",
@@ -201,10 +201,10 @@
       "products": "Products",
       "xAxis": "Reaction progress",
       "yAxis": "Energy",
-      "exoSummaryTitle": "Exothermic",
-      "endoSummaryTitle": "Endothermic",
-      "exoSummary": "the diagram ends lower than it starts, so the drop equals the heat released.",
-      "endoSummary": "the diagram ends higher than it starts, so the rise equals the heat absorbed.",
+      "exoSummaryTitle": "Energy falls",
+      "endoSummaryTitle": "Energy rises",
+      "exoSummary": "the products are lower than the reactants, so the gap between the two levels equals the heat released.",
+      "endoSummary": "the products are higher than the reactants, so the gap between the two levels equals the heat absorbed.",
       "catalystNote": "A catalyst lowers the energy barrier (Eₐ) by the same amount for the forward and the reverse reaction. It does not change ΔH.",
       "review": {
         "englishTerm": "Energy Profile Diagram",

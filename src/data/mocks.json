@@ -805,8 +805,8 @@
       "id": "chemical-quantities",
       "subject": "chemistry",
       "title": {
-        "en": "Moles, empirical formula, yield and titration",
-        "ru": "Моли, эмпирическая формула, выход и титрование"
+        "en": "Moles, empirical formula, percentage yield and titration",
+        "ru": "Количество вещества, эмпирическая формула, выход продукта и титрование"
       },
       "scope": "g9",
       "sources": [
@@ -814,47 +814,47 @@
       ],
       "paragraphs": [
         {
-          "en": "Amount of substance n counts specified entities in moles; molar mass M is mass per mole, so n = m/M. Molar concentration c is the amount of solute divided by the total solution volume: c = n/V. Use dm³ with mol/dm³; 1 dm³ = 1000 cm³. Gas molar volume Vₘ depends on temperature and pressure; use n = V/Vₘ only with the appropriate Vₘ.",
-          "ru": "Количество вещества n характеризует число указанных частиц в молях; молярная масса M — масса на моль, поэтому n = m/M. Молярная концентрация c — количество растворённого вещества, делённое на полный объём раствора: c = n/V. Для моль/дм³ берите дм³; 1 дм³ = 1000 см³. Молярный объём газа Vₘ зависит от температуры и давления; в n = V/Vₘ подставляйте значение для нужных условий."
+          "en": "The amount of substance n is measured in moles (mol); one mole contains 6.02 × 10²³ particles, and this number is the Avogadro constant, with units mol⁻¹. Molar mass M is the mass of one mole, so n = m/M. Molar concentration c is the amount of solute divided by the volume of solution: c = n/V, with V in dm³ (1 dm³ = 1000 cm³). The molar volume of a gas Vₘ depends on temperature and pressure, so use n = V/Vₘ only with the molar volume for the same conditions.",
+          "ru": "Количество вещества (amount of substance) n измеряют в молях (моль): в одном моле содержится 6,02 × 10²³ частиц — это постоянная Авогадро (Avogadro constant), её единица — моль⁻¹. Молярная масса (molar mass) M — масса одного моля, поэтому n = m/M. Молярная концентрация (molar concentration) c — количество растворённого вещества, делённое на объём раствора: c = n/V, объём берётся в дм³ (1 дм³ = 1000 см³). Молярный объём газа (molar volume) Vₘ зависит от температуры и давления. Поэтому в n = V/Vₘ подставляй Vₘ для тех же условий, при которых измерен объём V."
         },
         {
-          "en": "An empirical formula gives the simplest whole-number ratio of atoms of each element in a compound. Convert element masses (or masses in a 100 g sample from percentages) into moles, divide by the smallest amount, then scale the ratio to whole numbers. A molecular formula gives the actual numbers in one molecule and also requires its molar mass.",
-          "ru": "Эмпирическая формула показывает простейшее целочисленное отношение атомов элементов в соединении. Переведите массы элементов (или массы в 100 г вещества по процентам) в моли, разделите на наименьшее количество и приведите отношение к целым числам. Молекулярная формула даёт действительные числа атомов в молекуле; для её нахождения нужна ещё молярная масса."
+          "en": "An empirical formula gives the simplest whole-number ratio of atoms of each element in a compound. Convert element masses (or the masses in a 100 g sample if you are given percentages) into moles, divide by the smallest amount, then scale the ratio to whole numbers. A molecular formula gives the actual number of atoms in one molecule; to find it, you also need the molar mass.",
+          "ru": "Эмпирическая формула (empirical formula) показывает простейшее соотношение атомов элементов в соединении, выраженное целыми числами. Переведи массы элементов в моли (если даны проценты, считай, что масса образца 100 г), раздели на наименьшее из них и приведи отношение к целым числам. Молекулярная формула показывает настоящее число атомов в одной молекуле; чтобы её найти, нужна молярная масса."
         },
         {
-          "en": "Percentage yield compares product actually obtained with the maximum predicted from the limiting reactant: actual/theoretical × 100%. Atom economy compares the stoichiometric mass of the desired product with that of all products: desired/all × 100%. Include balanced coefficients. Yield describes an experimental outcome; atom economy describes how the reaction distributes reactant atoms.",
-          "ru": "Процентный выход сравнивает реально полученный продукт с максимумом по лимитирующему реагенту: фактический/теоретический × 100%. Атомная экономичность сравнивает стехиометрическую массу целевого продукта с массой всех продуктов: целевой/все × 100%. Учитывайте коэффициенты. Выход описывает результат опыта, атомная экономичность — распределение атомов реагентов между продуктами."
+          "en": "Percentage yield compares the product actually obtained with the maximum predicted from the limiting reactant: actual ÷ theoretical × 100%. Atom economy compares the mass of the desired product in the balanced equation with the total mass of all reactants: desired product ÷ all reactants × 100%. Yield describes what happened in an experiment; atom economy describes how many reactant atoms end up in the desired product, even if the reaction goes to completion.",
+          "ru": "Выход продукта (percentage yield) сравнивает практическую массу, полученную в опыте, с теоретической. Теоретическая масса — максимально возможная, её рассчитывают по веществу в недостатке (limiting reactant): практическая масса ÷ теоретическая масса × 100 %. Атомная экономичность (atom economy) сравнивает массу нужного продукта по уравнению с общей массой всех реагентов: нужный продукт ÷ все реагенты × 100 %. Выход показывает результат опыта, а атомная экономичность — какая доля атомов реагентов попадает в нужный продукт, даже если реакция идёт полностью."
         },
         {
-          "en": "Titration determines an unknown concentration by measuring the volume of a solution of known concentration that reacts with it. The equivalence point is the stoichiometric completion; an indicator endpoint is an observed colour change near it. Use concordant titres, n = cV and the balanced mole ratio. The shortcut c₁V₁ = c₂V₂ requires a 1:1 ratio.",
-          "ru": "Титрование определяет неизвестную концентрацию по измеренному объёму раствора известной концентрации, который с ним реагирует. Точка эквивалентности соответствует стехиометрическому соотношению; индикаторная конечная точка — наблюдаемая смена цвета около неё. Используйте согласованные объёмы, n = cV и коэффициенты уравнения. Сокращённая запись c₁V₁ = c₂V₂ требует отношения 1:1."
+          "en": "Titration finds an unknown concentration. A solution of known concentration is added from a burette until the reaction is just complete. The equivalence point is when the reactants have reacted in exact stoichiometric amounts; the end point is the observed colour change of the indicator, which is close to it. Use concordant titres (results within 0.10 cm³ of each other), n = cV and the balanced mole ratio. The shortcut c₁V₁ = c₂V₂ works only for a 1:1 mole ratio.",
+          "ru": "Титрование (titration) позволяет найти неизвестную концентрацию. Раствор известной концентрации добавляют из бюретки, пока реакция не завершится. Точка эквивалентности (equivalence point) — момент, когда вещества прореагировали в точно стехиометрическом соотношении; конечная точка (end point) — заметная смена цвета индикатора рядом с ней. Используй сходящиеся (concordant) результаты, которые отличаются не больше чем на 0,10 см³, формулу n = cV и мольное соотношение из уравнения. Сокращённая запись c₁V₁ = c₂V₂ работает только при соотношении 1 : 1."
         }
       ],
       "question": {
-        "en": "25.0 cm³ of NaOH is neutralised by 20.0 cm³ of 0.100 mol dm⁻³ HCl. Find c(NaOH). A compound is 40.0% C, 6.7% H, 53.3% O by mass; find its empirical formula using Ar: C=12,H=1,O=16.",
-        "ru": "25,0 см³ NaOH нейтрализованы 20,0 см³ HCl с концентрацией 0,100 моль/дм³. Найдите c(NaOH). Вещество: 40,0% C, 6,7% H, 53,3% O; найдите эмпирическую формулу при Ar: C=12,H=1,O=16."
+        "en": "(a) 25.0 cm³ of NaOH solution is neutralised by 20.0 cm³ of 0.100 mol dm⁻³ HCl. Calculate the concentration of the NaOH solution. (b) A compound contains 40.0% C, 6.7% H and 53.3% O by mass. Calculate its empirical formula. Use relative atomic masses (Ar): C = 12, H = 1, O = 16.",
+        "ru": "(а) На нейтрализацию 25,0 см³ раствора гидроксида натрия (NaOH) требуется 20,0 см³ раствора соляной кислоты (HCl) с концентрацией 0,100 моль/дм³. Вычисли концентрацию раствора NaOH. (б) Соединение содержит по массе 40,0 % C, 6,7 % H и 53,3 % O. Вычисли его эмпирическую формулу. Используй относительные атомные массы (Ar): C = 12, H = 1, O = 16."
       },
       "answer": {
-        "en": "HCl+NaOH→NaCl+H₂O. n(HCl)=0.100×0.0200=0.00200 mol. Ratio 1:1; c(NaOH)=0.00200/0.0250=0.0800 mol dm⁻³. Empirical formula: 40/12:6.7/1:53.3/16≈3.33:6.7:3.33≈1:2:1, so CH₂O.",
-        "ru": "HCl+NaOH→NaCl+H₂O. n(HCl)=0,100×0,0200=0,00200 моль. Отношение 1:1; c(NaOH)=0,00200/0,0250=0,0800 моль/дм³. 40/12:6,7/1:53,3/16≈1:2:1, поэтому CH₂O."
+        "en": "(a) HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l). The mole ratio is 1 : 1.\n\n- n(HCl) = c × V = 0.100 mol dm⁻³ × 0.0200 dm³ = 0.00200 mol (20.0 cm³ = 0.0200 dm³)\n- n(NaOH) = 0.00200 mol\n- c(NaOH) = n ÷ V = 0.00200 mol ÷ 0.0250 dm³ = 0.0800 mol dm⁻³\n\n(b) Take 100 g of the compound, so each percentage is a mass in grams. Divide each mass by its relative atomic mass (Ar):\n\n- C: 40.0 ÷ 12 = 3.33\n- H: 6.7 ÷ 1 = 6.7\n- O: 53.3 ÷ 16 = 3.33\n\nDivide by the smallest value (3.33): C : H : O = 1 : 2.0 : 1, so the ratio is 1 : 2 : 1.\n\nEmpirical formula: CH₂O",
+        "ru": "(а) HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l). Соотношение молей 1 : 1.\n\n- n(HCl) = c × V = 0,100 моль/дм³ × 0,0200 дм³ = 0,00200 моль (20,0 см³ = 0,0200 дм³)\n- n(NaOH) = 0,00200 моль\n- c(NaOH) = n ÷ V = 0,00200 моль ÷ 0,0250 дм³ = 0,0800 моль/дм³\n\n(б) Возьми 100 г вещества: тогда проценты — это массы в граммах. Раздели массу каждого элемента на его относительную атомную массу (Ar):\n\n- C: 40,0 ÷ 12 = 3,33\n- H: 6,7 ÷ 1 = 6,7\n- O: 53,3 ÷ 16 = 3,33\n\nРаздели на наименьшее значение (3,33): C : H : O = 1 : 2,0 : 1, то есть 1 : 2 : 1.\n\nЭмпирическая формула: CH₂O"
       },
       "checks": [
         {
-          "en": "I use the balanced ratio and convert volume units.",
-          "ru": "Я использую коэффициенты и перевожу единицы объёма."
+          "en": "I can use the balanced mole ratio and convert volume units.",
+          "ru": "Я могу использовать мольное соотношение из уравнения и переводить единицы объёма."
         },
         {
-          "en": "I distinguish yield from atom economy.",
-          "ru": "Я различаю выход и атомную экономичность."
+          "en": "I can tell percentage yield apart from atom economy.",
+          "ru": "Я могу отличить выход продукта от атомной экономичности."
         }
       ],
       "definitionReviews": [
         {
           "englishTerm": "Reaction calculations",
-          "russianTerm": "Расчёт реакций",
+          "russianTerm": "Расчёты по уравнению реакции",
           "contrast": {
-            "en": "Mass m is measured in g; amount n in mol; molar mass M in g/mol. They are connected by m = nM.",
-            "ru": "Массу m измеряют в г, количество n — в моль, молярную массу M — в г/моль. Их связывает m = nM."
+            "en": "Do not mix up the units: mass m is in grams (g), amount n in moles (mol) and molar mass M in g mol⁻¹. They are linked by m = nM.",
+            "ru": "единицы разные. Масса m — в граммах (г), количество вещества n — в молях (моль), молярная масса M — в г/моль. Их связывает формула m = nM."
           },
           "sources": [
             {
@@ -880,7 +880,7 @@
             "kind": "flow",
             "title": {
               "en": "Mass-to-mass stoichiometry",
-              "ru": "Расчёт массы по уравнению"
+              "ru": "Стехиометрический расчёт массы по уравнению"
             },
             "items": [
               {
@@ -896,7 +896,7 @@
               {
                 "label": {
                   "en": "Balanced equation ratio",
-                  "ru": "Отношение коэффициентов"
+                  "ru": "Отношение коэффициентов уравнения"
                 },
                 "detail": {
                   "en": "n(product) = n(reactant) × b/a.",
@@ -915,17 +915,17 @@
               }
             ],
             "caption": {
-              "en": "a and b are balanced coefficients. Check the limiting reactant when several amounts are supplied.",
-              "ru": "a и b — коэффициенты уравнения. Если даны количества нескольких реагентов, найдите лимитирующий."
+              "en": "a and b are the balanced coefficients: a of the reactant, b of the product. If the amounts of two reactants are given, first find the limiting reactant.",
+              "ru": "a и b — коэффициенты уравнения: a у реагента, b у продукта. Если даны количества двух реагентов, сначала найди вещество в недостатке (limiting reactant)."
             }
           }
         },
         {
-          "englishTerm": "Titration; yield; empirical formula",
-          "russianTerm": "Титрование; выход; эмпирическая формула",
+          "englishTerm": "Titration; percentage yield; empirical formula",
+          "russianTerm": "Титрование; выход продукта; эмпирическая формула",
           "contrast": {
-            "en": "An endpoint is observed; equivalence is stoichiometric. Empirical formulas give ratios, molecular formulas give atom counts.",
-            "ru": "Конечную точку наблюдают; эквивалентность задаётся стехиометрией. Эмпирическая формула даёт отношение, молекулярная — число атомов."
+            "en": "Do not confuse the end point (what you see: a colour change) with the equivalence point, where the reactants are in exactly the stoichiometric proportion. An empirical formula gives the simplest ratio of atoms; a molecular formula gives the actual number of atoms in one molecule.",
+            "ru": "конечную точку (то, что видишь: смену цвета индикатора) и точку эквивалентности, где реагенты находятся в точно стехиометрической пропорции. Эмпирическая формула даёт простейшее соотношение атомов, а молекулярная — число атомов в одной молекуле."
           },
           "sources": [
             {
@@ -962,7 +962,7 @@
               "title": "American Chemical Society — 12 Principles of Green Chemistry",
               "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
               "language": "en",
-              "section": "Principle 2: Atom Economy, Michael Cann; formula and distinction from yield"
+              "section": "Principle 2: Atom Economy; formula and distinction from yield"
             }
           ]
         }
@@ -972,8 +972,8 @@
       "id": "nanoparticles",
       "subject": "chemistry",
       "title": {
-        "en": "Nanoparticles and structure–property reasoning",
-        "ru": "Наночастицы и связь строения со свойствами"
+        "en": "Nanoparticles and how size changes properties",
+        "ru": "Наночастицы: как размер меняет свойства"
       },
       "scope": "g9",
       "sources": [
@@ -981,30 +981,30 @@
       ],
       "paragraphs": [
         {
-          "en": "A nanoparticle is a small particle with characteristic dimensions typically about 1–100 nm; 1 nm = 10⁻⁹ m. Surface-area-to-volume ratio compares exposed area with bulk volume. For a cube of side a, area = 6a² and volume = a³, so S/V = 6/a, with units of inverse length. Halving a doubles this ratio.",
-          "ru": "Наночастица — малая частица с характерными размерами обычно около 1–100 нм; 1 нм = 10⁻⁹ м. Отношение поверхности к объёму сравнивает доступную площадь с объёмом вещества. Для куба со стороной a площадь 6a², объём a³, поэтому S/V = 6/a; единица — обратная длина. При уменьшении a вдвое отношение удваивается."
+          "en": "A nanoparticle is a small particle, typically about 1–100 nm across; 1 nm = 10⁻⁹ m. The surface-area-to-volume ratio (S/V) is the surface area divided by the volume. For a cube of side a, the surface area is 6a² and the volume is a³, so S/V = 6/a. With a in metres, S/V is in m⁻¹. Halving a doubles this ratio.",
+          "ru": "Наночастица (nanoparticle) — малая частица размером обычно около 1–100 нм; 1 нм = 10⁻⁹ м. Отношение поверхности к объёму (surface-area-to-volume ratio, S/V) — это площадь поверхности, делённая на объём. Для куба со стороной a площадь поверхности равна 6a², объём — a³, поэтому S/V = 6/a. При a в метрах S/V выражают в м⁻¹. При уменьшении a вдвое отношение удваивается."
         },
         {
-          "en": "A catalyst increases reaction rate through an alternative mechanism and is regenerated overall. For the same mass and density, smaller separate particles can expose more active sites; aggregation or surface coatings can reduce access. Benefits and biological effects depend on material, size, dose and exposure, so “nano” alone does not establish safety or harm.",
-          "ru": "Катализатор повышает скорость реакции благодаря другому механизму и в сумме восстанавливается. При одинаковой массе и плотности более мелкие отдельные частицы могут открывать больше активных центров; слипание и покрытия уменьшают доступ. Польза и биологические эффекты зависят от вещества, размера, дозы и контакта, поэтому слово «нано» само по себе не доказывает безопасность или вред."
+          "en": "A catalyst speeds up a reaction by providing a different pathway, and it is not used up overall. For the same mass and density, smaller separate particles expose more surface and so more active sites. Sticking together (aggregation) or surface coatings can block access to those sites. Benefits and biological effects depend on material, size, dose and exposure, so the word “nano” alone does not show that something is safe or harmful.",
+          "ru": "Катализатор (catalyst) ускоряет реакцию, открывая для неё другой путь, и в итоге не расходуется. При той же массе и плотности у мелких отдельных частиц суммарная поверхность больше, а значит, больше и активных центров. Слипание частиц, или агрегация (aggregation), и покрытия поверхности могут закрыть доступ к этим центрам. Польза и биологические эффекты зависят от вещества, размера, дозы и условий воздействия, поэтому одно слово «нано» не говорит ни о безопасности, ни о вреде."
         },
         {
-          "en": "Ionic bonding is electrostatic attraction between positive and negative ions. Electron transfer is one way to form those ions; it is not the attraction itself. A bulk ionic solid is an extended lattice, not a collection of separate NaCl molecules. Mobile ions explain conduction in melts and suitable solutions, while ions in the solid are fixed around lattice positions.",
-          "ru": "Ионная связь — электростатическое притяжение положительных и отрицательных ионов. Перенос электронов — один из способов образования ионов, но не само притяжение. Объёмный ионный кристалл — протяжённая решётка, а не набор отдельных молекул NaCl. Подвижные ионы обеспечивают проводимость расплава и подходящего раствора; в твёрдом веществе ионы удерживаются около узлов решётки."
+          "en": "Ionic bonding is the electrostatic attraction between positive and negative ions. Electron transfer creates the ions, but the bond itself is the attraction between them. A solid ionic compound is an extended ionic lattice, not a collection of separate NaCl molecules. Ions can move and carry charge in a melt or in solution, but in the solid they are fixed in their lattice positions.",
+          "ru": "Ионная связь (ionic bonding) — это электростатическое притяжение между положительными и отрицательными ионами. Перенос электронов создаёт ионы, но сама связь — это притяжение между ними. Твёрдое ионное соединение — протяжённая ионная кристаллическая решётка (ionic lattice), а не набор отдельных молекул NaCl. Ионы могут двигаться и переносить заряд в расплаве или растворе, а в твёрдом веществе они закреплены в узлах решётки."
         }
       ],
       "question": {
-        "en": "Compare SA:V for cubes with side lengths 20 nm and 10 nm. Why may the smaller particles be useful in a catalyst?",
-        "ru": "Сравните S/V кубов со стороной 20 и 10 нм. Почему меньшие частицы могут быть полезны в катализаторе?"
+        "en": "Compare the surface-area-to-volume ratio of cubes made of the same material, with side lengths of 20 nm and 10 nm. Explain why the smaller particles can be more useful as a catalyst.",
+        "ru": "Сравни отношение поверхности к объёму (S/V) у кубов из одного вещества со сторонами 20 нм и 10 нм. Объясни, почему меньшие частицы могут быть полезнее в качестве катализатора."
       },
       "answer": {
-        "en": "6/20=0.30 nm⁻¹ and 6/10=0.60 nm⁻¹. The smaller cubes expose twice the area per unit volume, potentially providing more accessible catalytic sites per mass of the same material.",
-        "ru": "6/20=0,30 нм⁻¹ и 6/10=0,60 нм⁻¹. У меньших кубов вдвое больше поверхности на единицу объёма; для того же вещества это может дать больше доступных каталитических центров на единицу массы."
+        "en": "For a cube, S/V = 6/a.\n\n- Side 20 nm = 2.0 × 10⁻⁸ m: S/V = 6 ÷ (2.0 × 10⁻⁸ m) = 3.0 × 10⁸ m⁻¹\n- Side 10 nm = 1.0 × 10⁻⁸ m: S/V = 6 ÷ (1.0 × 10⁻⁸ m) = 6.0 × 10⁸ m⁻¹\n\nThe 10 nm cubes have twice the surface area per unit volume. For the same mass of the same material, the smaller particles therefore have twice the total surface, which gives more active sites for the reaction.",
+        "ru": "Для куба S/V = 6/a.\n\n- Сторона 20 нм = 2,0 × 10⁻⁸ м: S/V = 6 ÷ (2,0 × 10⁻⁸ м) = 3,0 × 10⁸ м⁻¹\n- Сторона 10 нм = 1,0 × 10⁻⁸ м: S/V = 6 ÷ (1,0 × 10⁻⁸ м) = 6,0 × 10⁸ м⁻¹\n\nУ кубов со стороной 10 нм площадь поверхности на единицу объёма вдвое больше. При той же массе того же вещества общая поверхность мелких частиц вдвое больше, поэтому доступно больше активных центров."
       },
       "checks": [
         {
-          "en": "I link size to SA:V and a specific application.",
-          "ru": "Я связываю размер, S/V и конкретное применение."
+          "en": "I can link particle size, S/V and a specific use.",
+          "ru": "Я могу связать размер частицы, отношение S/V и конкретное применение."
         }
       ],
       "definitionReviews": [
@@ -1012,8 +1012,8 @@
           "englishTerm": "Nanoparticle; surface-area-to-volume ratio",
           "russianTerm": "Наночастица; отношение поверхности к объёму",
           "contrast": {
-            "en": "S/V is not surface area alone. At equal density, larger S/V gives more surface per mass, if particles remain accessible.",
-            "ru": "S/V — не сама площадь поверхности. При равной плотности большее S/V даёт больше поверхности на массу, если частицы доступны."
+            "en": "Do not confuse surface area with S/V. One small particle has less surface area than one large particle, but a larger S/V. For the same mass of the same material, the small particles have more total surface.",
+            "ru": "площадь поверхности и отношение S/V. Одна маленькая частица имеет меньшую площадь поверхности, чем одна большая, но большее отношение S/V. При той же массе того же вещества мелкие частицы в сумме имеют больше поверхности."
           },
           "sources": [
             {
@@ -1046,8 +1046,8 @@
           "englishTerm": "Ionic bonding",
           "russianTerm": "Ионная связь",
           "contrast": {
-            "en": "Bonding within a particle or network differs from attractions between molecules. Structure determines which interactions a change disrupts.",
-            "ru": "Связи внутри частицы или сетки отличаются от взаимодействий между молекулами. Строение определяет, какие взаимодействия нарушаются при изменении."
+            "en": "Do not confuse the strong electrostatic attraction inside a giant ionic lattice with the weak intermolecular forces between separate molecules. Melting a molecular solid overcomes only the weak intermolecular forces; melting an ionic solid must overcome the strong attraction between ions.",
+            "ru": "сильное электростатическое притяжение внутри ионной кристаллической решётки и слабое межмолекулярное взаимодействие (intermolecular forces) между отдельными молекулами. При плавлении молекулярного вещества преодолевается только слабое межмолекулярное взаимодействие; при плавлении ионного вещества нужно преодолеть сильное притяжение между ионами."
           },
           "sources": [
             {

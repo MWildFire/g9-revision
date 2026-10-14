@@ -5,8 +5,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Grammatical gender",
     "russianTerm": "Грамматический род",
     "contrast": {
-      "en": "Examples use standard French; endings and translations are patterns with exceptions, not word-for-word rules.",
-      "ru": "Примеры относятся к стандартному французскому; окончания и переводы имеют исключения и не работают механически."
+      "en": "Grammatical gender is not the same as sex. Une personne is feminine even when it describes a man, so the adjective agrees in the feminine: Mon voisin est une personne très gentille (My neighbour is a very kind person).",
+      "ru": "Грамматический род — не пол. Слово «une personne» женского рода, поэтому прилагательное тоже женское, даже если речь о мужчине. Пример: «Mon voisin est une personne très gentille» (мой сосед — очень добрый человек)."
     },
     "sources": [
       {
@@ -19,10 +19,10 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "plurals": {
     "englishTerm": "Number and plural formation",
-    "russianTerm": "Число и образование множественного",
+    "russianTerm": "Число и образование множественного числа",
     "contrast": {
-      "en": "Examples use standard French; endings and translations are patterns with exceptions, not word-for-word rules.",
-      "ru": "Примеры относятся к стандартному французскому; окончания и переводы имеют исключения и не работают механически."
+      "en": "Most plurals add -s, but not all: un cheval becomes des chevaux, and un bateau becomes des bateaux.",
+      "ru": "Большинство существительных получает -s во множественном числе, но не все: например, «un cheval» → «des chevaux», «un bateau» → «des bateaux»."
     },
     "sources": [
       {
@@ -37,8 +37,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Adjective agreement",
     "russianTerm": "Согласование прилагательных",
     "contrast": {
-      "en": "Examples use standard French; endings and translations are patterns with exceptions, not word-for-word rules.",
-      "ru": "Примеры относятся к стандартному французскому; окончания и переводы имеют исключения и не работают механически."
+      "en": "Some agreements are heard only in writing: joli (masculine) and jolie (feminine) sound the same, so the spelling must match the noun.",
+      "ru": "Иногда согласование слышно только на письме: joli (муж. род) и jolie (жен. род) звучат одинаково, поэтому написание должно соответствовать существительному."
     },
     "sources": [
       {
@@ -81,14 +81,14 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
             "ru": "des petites tables"
           },
           "detail": {
-            "en": "Plural adds written -s here",
-            "ru": "В этой модели мн. число добавляет -s"
+            "en": "In this regular example, the plural adds a written -s, which is usually silent.",
+            "ru": "В этом регулярном примере во множественном числе добавляется написанное -s, которое обычно не произносится."
           }
         }
       ],
       "caption": {
-        "en": "These are regular examples; belle and heureuse use other changes.",
-        "ru": "Это регулярные примеры; belle и heureuse образуются иначе."
+        "en": "Most adjectives follow the regular pattern: the feminine adds -e, and the plural adds -s. Belle (the feminine of beau) is an irregular form; heureux changes -eux to -euse in the feminine.",
+        "ru": "Большинство прилагательных следуют обычной схеме: женский род добавляет -e, множественное число — -s. «Belle» (женская форма от «beau») — особая форма; у «heureux» в женском роде -eux меняется на -euse."
       }
     }
   },
@@ -96,8 +96,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Negation",
     "russianTerm": "Отрицание",
     "contrast": {
-      "en": "Examples use standard French; endings and translations are patterns with exceptions, not word-for-word rules.",
-      "ru": "Примеры относятся к стандартному французскому; окончания и переводы имеют исключения и не работают механически."
+      "en": "The negation ne … pas surrounds the conjugated verb. In a compound tense, it surrounds the auxiliary: je n'ai pas mangé, not je n'ai mangé pas.",
+      "ru": "Конструкция «ne … pas» окружает спрягаемый глагол. В сложном времени она стоит вокруг вспомогательного: «je n'ai pas mangé», а не «je n'ai mangé pas»."
     },
     "sources": [
       {
@@ -112,8 +112,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Interrogative constructions",
     "russianTerm": "Вопросительные конструкции",
     "contrast": {
-      "en": "Examples use standard French; endings and translations are patterns with exceptions, not word-for-word rules.",
-      "ru": "Примеры относятся к стандартному французскому; окончания и переводы имеют исключения и не работают механически."
+      "en": "Est-ce que and inversion both make a question, so do not combine them: write Est-ce que tu viens ? or Viens-tu ?, never Est-ce que viens-tu ?",
+      "ru": "«Est-ce que» и инверсия («Viens-tu ?») уже делают предложение вопросом, поэтому их не соединяют. Пиши «Est-ce que tu viens ?» или «Viens-tu ?», но не «Est-ce que viens-tu ?»."
     },
     "sources": [
       {
@@ -128,8 +128,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Definite, indefinite and partitive articles",
     "russianTerm": "Определённые, неопределённые и частичные артикли",
     "contrast": {
-      "en": "Examples use standard French; endings and translations are patterns with exceptions, not word-for-word rules.",
-      "ru": "Примеры относятся к стандартному французскому; окончания и переводы имеют исключения и не работают механически."
+      "en": "In a negative sentence, du, de la, des, un and une usually become de: Je ne mange pas de pain. The definite article stays: Je n'aime pas le pain.",
+      "ru": "В отрицательном предложении неопределённый и частичный артикли обычно становятся «de»: «Je ne mange pas de pain». Определённый артикль остаётся: «Je n'aime pas le pain»."
     },
     "sources": [
       {
@@ -185,13 +185,13 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
           },
           "detail": {
             "en": "Identified bread, or bread as a class",
-            "ru": "Известный хлеб или хлеб вообще"
+            "ru": "Конкретный, известный собеседникам хлеб или хлеб вообще"
           }
         }
       ],
       "caption": {
-        "en": "Choose the article with the intended meaning and sentence context.",
-        "ru": "Выбирай артикль по смыслу и контексту предложения."
+        "en": "Choose the article that fits the meaning you intend and the context of the sentence.",
+        "ru": "Выбирай артикль по смыслу, который хочешь передать, и по контексту предложения."
       }
     }
   },
@@ -200,7 +200,7 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "russianTerm": "Présent: настоящее изъявительное",
     "contrast": {
       "en": "The French present may translate as I speak or I am speaking. It does not encode the same contrast as English simple versus progressive.",
-      "ru": "Французское настоящее может переводиться I speak или I am speaking. Оно не выражает то же противопоставление, что английские simple/progressive."
+      "ru": "Французское «présent» может переводиться и как «я говорю», и как «я говорю сейчас». Оно не передаёт того же различия, что английские времена (simple и progressive)."
     },
     "sources": [
       {
@@ -213,10 +213,10 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "past": {
     "englishTerm": "Passé composé",
-    "russianTerm": "Passé composé: сложное прошедшее",
+    "russianTerm": "Сложное прошедшее (passé composé)",
     "contrast": {
-      "en": "Passé composé presents past events as a whole; imparfait commonly presents a background state, habit or action in progress. Duration alone does not choose between them.",
-      "ru": "Passé composé представляет прошлое событие в целом; imparfait часто показывает фон, привычку или процесс. Одна длительность не определяет выбор."
+      "en": "Passé composé presents a past event as a whole; imparfait commonly presents background, a habit or an action in progress. Duration alone does not decide the choice.",
+      "ru": "«Сложное прошедшее (passé composé)» показывает прошлое событие целиком; «имперфект (imparfait)» часто показывает фон, привычку или действие в процессе. Выбор зависит от смысла, а не от одной только длительности."
     },
     "sources": [
       {
@@ -252,7 +252,7 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
           },
           "detail": {
             "en": "Imparfait: rain is the background.",
-            "ru": "Imparfait: дождь — фон."
+            "ru": "Имперфект (imparfait): дождь — фон."
           }
         },
         {
@@ -262,22 +262,22 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
           },
           "detail": {
             "en": "Passé composé: leaving is a whole event.",
-            "ru": "Passé composé: выход — событие целиком."
+            "ru": "Сложное прошедшее (passé composé): выход — событие целиком."
           }
         }
       ],
       "caption": {
-        "en": "“It was raining when I went out”: a contrast of viewpoint, not simply long versus short.",
-        "ru": "«Шёл дождь, когда я вышел»: различается взгляд на действие, а не просто длина."
+        "en": "Example: “Il pleuvait quand je suis sorti” (“It was raining when I went out”).",
+        "ru": "Пример: «Il pleuvait quand je suis sorti» («Шёл дождь, когда я вышел»)."
       }
     }
   },
   "future": {
     "englishTerm": "Futur simple and futur proche",
-    "russianTerm": "Futur simple и futur proche",
+    "russianTerm": "Простое будущее (futur simple) и ближайшее будущее (futur proche)",
     "contrast": {
-      "en": "Futur simple is one verb form; futur proche is present aller plus infinitive. Proche does not impose a fixed number of minutes or days.",
-      "ru": "Futur simple — форма глагола; futur proche — aller в настоящем + инфинитив. Proche не задаёт фиксированного числа минут или дней."
+      "en": "Futur simple is a single verb form; futur proche is the present tense of aller plus an infinitive. Proche does not fix an exact number of minutes or days.",
+      "ru": "«Futur simple» — одна форма глагола; «futur proche» — настоящее время «aller» + инфинитив. «Proche» не задаёт точного числа минут или дней."
     },
     "sources": [
       {
@@ -296,10 +296,10 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "subjunctive": {
     "englishTerm": "Subjunctive mood",
-    "russianTerm": "Сослагательное наклонение subjonctif",
+    "russianTerm": "Сослагательное наклонение (subjonctif)",
     "contrast": {
-      "en": "Mood presents the speaker’s stance or a clause’s grammatical dependency; it is different from tense and is not triggered by every opinion.",
-      "ru": "Наклонение передаёт отношение или грамматическую зависимость части предложения; оно отличается от времени и не возникает после любого мнения."
+      "en": "Mood is not the same as tense, and not every opinion needs the subjunctive: je pense qu'il a raison (indicative), but je ne pense pas qu'il ait raison (subjunctive).",
+      "ru": "Наклонение — не то же, что время. Не каждое мнение требует сослагательного: «je pense qu'il a raison» (изъявительное), но «je ne pense pas qu'il ait raison» (сослагательное)."
     },
     "sources": [
       {
@@ -318,10 +318,10 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "culture": {
     "englishTerm": "Francophone / Francophonie",
-    "russianTerm": "Франкоязычный мир / Франкофония",
+    "russianTerm": "Франкоязычный мир / Международная организация франкофонии",
     "contrast": {
-      "en": "A linguistic community is not the same thing as membership in an international organisation.",
-      "ru": "Языковое сообщество не равно членству в международной организации."
+      "en": "Francophone usually describes a French-speaking community; written with a capital F, Francophonie usually names an international organisation.",
+      "ru": "«Francophone» обычно обозначает франкоязычное сообщество; «Francophonie» с большой буквы обычно обозначает Международную организацию франкофонии."
     },
     "sources": [
       {
@@ -336,8 +336,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Contextual vocabulary gloss",
     "russianTerm": "Контекстный перевод слова",
     "contrast": {
-      "en": "Learn articles and grammatical forms with the word. French school stages and meal names do not always map directly onto another country’s categories.",
-      "ru": "Учи артикль и грамматическую форму вместе со словом. Ступени школы и названия приёмов пищи не всегда совпадают между странами."
+      "en": "Learn each word with its article and grammatical form. One Russian verb can have several French equivalents: ‘to welcome guests’ is accueillir, but ‘to meet a friend’ is rencontrer. A collège is not a Russian college; it is a lower secondary school for pupils aged about 11 to 15.",
+      "ru": "Учи каждое слово вместе с артиклем и грамматической формой. Одному русскому глаголу могут соответствовать разные французские глаголы: «встречать гостей» — «accueillir», «встретить друга» — «rencontrer». «Collège» — не колледж: это ступень школы для учеников примерно от 11 до 15 лет."
     },
     "sources": [
       {
@@ -358,8 +358,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Register and address",
     "russianTerm": "Регистр и обращение",
     "contrast": {
-      "en": "Tu normally addresses one familiar person. Vous addresses several people or one person politely; neither is simply equivalent to English you in every social context.",
-      "ru": "Tu обычно обращено к одному знакомому человеку. Vous — к нескольким или вежливо к одному; английское you не передаёт это социальное различие само по себе."
+      "en": "Tu addresses one familiar person; vous addresses several people, or one person politely. English you covers both, so choose the form by who the reader is.",
+      "ru": "Tu — к одному знакомому; vous — к нескольким или вежливо к одному. Английское you не различает эти формы, поэтому выбирай по адресату."
     },
     "sources": [
       {
@@ -372,11 +372,7 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "textTypes.discours": {
     "englishTerm": "Le discours (Speech)",
-    "russianTerm": "Le discours (речь / выступление)",
-    "contrast": {
-      "en": "These conventions depend on audience, purpose and publication; use the actual task’s instructions.",
-      "ru": "Условности зависят от аудитории, цели и издания; следуй конкретному заданию."
-    },
+    "russianTerm": "Le discours (выступление)",
     "sources": [
       {
         "title": "Merriam-Webster — speech",
@@ -389,10 +385,6 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   "textTypes.article": {
     "englishTerm": "L'article (Article)",
     "russianTerm": "L'article (статья)",
-    "contrast": {
-      "en": "These conventions depend on audience, purpose and publication; use the actual task’s instructions.",
-      "ru": "Условности зависят от аудитории, цели и издания; следуй конкретному заданию."
-    },
     "sources": [
       {
         "title": "Purdue OWL — The inverted pyramid",
@@ -404,11 +396,7 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "textTypes.lettre": {
     "englishTerm": "La lettre officielle (Formal letter)",
-    "russianTerm": "La lettre officielle (официальное письмо)",
-    "contrast": {
-      "en": "These conventions depend on audience, purpose and publication; use the actual task’s instructions.",
-      "ru": "Условности зависят от аудитории, цели и издания; следуй конкретному заданию."
-    },
+    "russianTerm": "La lettre officielle — официальное (деловое) письмо",
     "sources": [
       {
         "title": "Projet Voltaire — Formules de politesse",
@@ -421,10 +409,6 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   "textTypes.blog": {
     "englishTerm": "Le blog (Blog post)",
     "russianTerm": "Le blog (блог)",
-    "contrast": {
-      "en": "These conventions depend on audience, purpose and publication; use the actual task’s instructions.",
-      "ru": "Условности зависят от аудитории, цели и издания; следуй конкретному заданию."
-    },
     "sources": [
       {
         "title": "Merriam-Webster — blog",
@@ -436,11 +420,7 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   },
   "textTypes.courriel": {
     "englishTerm": "Le courriel / l'email",
-    "russianTerm": "Le courriel / l'email",
-    "contrast": {
-      "en": "These conventions depend on audience, purpose and publication; use the actual task’s instructions.",
-      "ru": "Условности зависят от аудитории, цели и издания; следуй конкретному заданию."
-    },
+    "russianTerm": "Электронное письмо",
     "sources": [
       {
         "title": "Projet Voltaire — Formules de politesse",

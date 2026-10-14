@@ -38,7 +38,7 @@ export function TextTypesPage() {
             <DefinitionSupport review={FRENCH_REVIEWS[`textTypes.${key}`]} language={lang} />
             {conventions.length > 0 ? (
               <div className="bg-bg-secondary border border-border rounded-md p-4 mb-3">
-                <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">Conventions / Конвенции</h4>
+                <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">Conventions / Условности</h4>
                 <ul className="space-y-1 text-sm">
                   {conventions.map((c, i) => (<li key={i}>· {c}</li>))}
                 </ul>

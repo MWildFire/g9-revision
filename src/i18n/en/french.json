@@ -100,47 +100,49 @@
   },
   "textTypesPage": {
     "title": "Text Types for Written Production",
-    "intro": "Common written forms and useful conventions. Adapt them to the audience, purpose and task; a medium does not determine register.",
+    "intro": "Common written forms and useful conventions. Adapt them to the audience, purpose and task; the channel (print, website or email) does not determine the register.",
     "discours": {
       "title": "Le discours (Speech)",
-      "body": "A speech (discours) is written to be delivered to listeners. It may inform, explain or persuade; vocabulary, structure and address should suit its audience.",
+      "body": "A speech (discours) is written to be delivered to listeners. It may inform, explain or persuade; its vocabulary and form of address should suit the audience.",
       "conventions": [
         "Greet the audience and establish your topic and purpose.",
         "Use je, nous or direct address when appropriate; a speech need not be entirely in first person.",
-        "Choose tu/vous and level of formality for the audience.",
-        "Develop a few connected points with examples or checked evidence.",
-        "Rhetorical questions, repetition and imperatives are optional persuasive choices.",
-        "End by returning to the purpose; thank the audience or offer a relevant next step."
+        "Use vous for an audience of several people or a formal occasion; tu suits one familiar listener.",
+        "Develop a few connected points, each with a reason and a concrete example or checked evidence.",
+        "Rhetorical questions, repetition and imperatives are persuasive devices; use them deliberately, not in every sentence.",
+        "End by summing up the main points, returning to your purpose, then thanking the audience or offering a relevant next step.",
+        "Open with an attention device: a question, a striking statistic, a surprising fact or a short anecdote; humour works only if it does not distract from your purpose."
       ],
       "phrases": [
-        "Mesdames et messieurs, chers professeurs, chers camarades…",
-        "Merci d'être venus ce soir assister à…",
-        "C'est un honneur pour moi d'être ici aujourd'hui.",
-        "Nous sommes rassemblés / réunis ici aujourd'hui pour…",
-        "Avant de commencer, je vous prie d'éteindre vos portables.",
-        "M'entendez-vous tous bien au fond de la salle ?",
-        "J'aimerais vous parler aujourd'hui d'un sujet qui nous concerne tous.",
-        "Je peux maintenant répondre à vos questions.",
-        "Merci de votre attention / Je vous remercie."
+        "Mesdames et messieurs, chers professeurs, chers camarades… (ladies and gentlemen, dear teachers, dear classmates)",
+        "Merci d'être venus ce soir assister à… (thank you for coming this evening to attend…)",
+        "C'est un honneur pour moi d'être ici aujourd'hui. (it is an honour for me to be here today)",
+        "Nous sommes rassemblés / réunis ici aujourd'hui pour… (we have gathered here today to…)",
+        "Avant de commencer, je vous prie d'éteindre vos portables. (before we start, please switch off your mobile phones)",
+        "M'entendez-vous tous bien au fond de la salle ? (can everyone hear me clearly at the back of the room?)",
+        "J'aimerais vous parler aujourd'hui d'un sujet qui nous concerne tous. (today I would like to talk to you about a subject that concerns us all)",
+        "Je peux maintenant répondre à vos questions. (I can now answer your questions)",
+        "Merci de votre attention / Je vous remercie. (thank you for your attention)"
       ]
     },
     "article": {
       "title": "L'article (Article)",
-      "body": "An article is a text for a print or online publication. A report, feature and opinion column have different purposes; identify the requested type before choosing structure and register.",
+      "body": "An article is a text for a print or online publication about an event, facts or a point of view. A report, feature and opinion column have different purposes; identify the type the task requests before choosing structure and register.",
       "conventions": [
         "A clear title; a byline and date when the task calls for them.",
         "A chapeau is a short introductory summary beneath the title; it differs from an image caption (légende).",
         "Paragraphs and optional subheadings organise the material.",
         "Attribute quotations, statistics and claims to real sources; do not invent evidence.",
-        "The conditional may report an unconfirmed claim (il aurait quitté la ville), but attribution and verification still matter.",
-        "Images and captions are optional features of the publication, not required in every article."
+        "The conditional can report an unconfirmed claim, as in il aurait quitté la ville; make clear that the claim is not yet confirmed.",
+        "Images and captions are optional features of the publication, not required in every article.",
+        "Open with a hook or a short quotation. Use témoignages (first-hand accounts), direct questions and exclamations only where they suit the tone. Report what people said with verbs such as a déclaré que or a dénoncé, and use guillemets (« ») for quotations."
       ],
       "phrases": [
-        "Selon [source vérifiée], …",
-        "D’après [titre et date de l’étude], …",
-        "La personne interrogée explique que…",
-        "Ces résultats suggèrent que…",
-        "Ces informations restent à confirmer."
+        "Selon [source vérifiée], … (according to [a verified source], …)",
+        "D’après [titre et date de l’étude], … (according to [title and date of the study], …)",
+        "La personne interrogée explique que… (the person interviewed explains that…)",
+        "Ces résultats suggèrent que… (these results suggest that…)",
+        "Ces informations restent à confirmer. (this information still needs to be confirmed)"
       ]
     },
     "lettre": {
@@ -149,15 +151,15 @@
       "conventions": [
         "Identify sender and recipient and include the date when required. Layout varies by convention or template.",
         "Objet : a concise statement of the subject.",
-        "Greeting: Madame, Monsieur, or the appropriate named form.",
+        "Greeting: Madame, Monsieur, or a suitable form with the recipient's name or title.",
         "Body: purpose, relevant details and the requested response.",
-        "Closing: for example, Je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.",
+        "Closing: for example, Je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées (roughly: yours faithfully).",
         "Signature."
       ]
     },
     "blog": {
       "title": "Le blog (Blog post)",
-      "body": "A blog post is an entry in an online publication. It can be personal or professional; first person, a conversational style and reader questions are possible choices, not defining requirements."
+      "body": "A blog post is an entry in an online publication. It can be personal or professional. First person and a conversational style are possible choices, not requirements."
     },
     "courriel": {
       "title": "Le courriel / l'email",

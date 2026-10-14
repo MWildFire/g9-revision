@@ -13,7 +13,7 @@ export const VOCAB_THEMES: VocabTheme[] = [
       {
         "fr": "bonjour",
         "en": "hello / good morning / good afternoon",
-        "ru": "здравствуйте / добрый день / доброе утро"
+        "ru": "здравствуйте / доброе утро / добрый день"
       },
       {
         "fr": "bonsoir",
@@ -42,8 +42,8 @@ export const VOCAB_THEMES: VocabTheme[] = [
       },
       {
         "fr": "s'il vous plaît",
-        "en": "please (polite singular or plural address)",
-        "ru": "пожалуйста (вежливое обращение или к нескольким людям)"
+        "en": "please (s'il vous plaît; vous is used for polite address to one person or to several people)",
+        "ru": "пожалуйста (s'il vous plaît; «vous» — вежливое обращение к одному человеку или ко многим)"
       },
       {
         "fr": "oui",
@@ -57,13 +57,13 @@ export const VOCAB_THEMES: VocabTheme[] = [
       },
       {
         "fr": "excusez-moi",
-        "en": "excuse me (polite singular or plural address)",
-        "ru": "извините (вежливое обращение или к нескольким людям)"
+        "en": "excuse me (excusez-moi; polite singular or plural address)",
+        "ru": "извините (excusez-moi; вежливое обращение к одному человеку или ко многим)"
       },
       {
         "fr": "pardon",
-        "en": "sorry / pardon / excuse me",
-        "ru": "простите / извините"
+        "en": "sorry (pardon: a minor apology, for example, after bumping into someone)",
+        "ru": "простите (pardon: небольшое извинение, например, если задел прохожего)"
       },
       {
         "fr": "je m'appelle…",
@@ -137,12 +137,12 @@ export const VOCAB_THEMES: VocabTheme[] = [
       {
         "fr": "le collège",
         "en": "lower secondary school (France)",
-        "ru": "коллеж: первая ступень средней школы во Франции"
+        "ru": "коллеж (collège): первая ступень средней школы во Франции"
       },
       {
         "fr": "le lycée",
         "en": "upper secondary school (France)",
-        "ru": "лицей: старшая ступень средней школы во Франции"
+        "ru": "лицей (lycée): старшая ступень средней школы во Франции"
       },
       {
         "fr": "la classe",
@@ -186,8 +186,8 @@ export const VOCAB_THEMES: VocabTheme[] = [
       },
       {
         "fr": "la note",
-        "en": "mark / grade (here); also a note",
-        "ru": "оценка (здесь); также заметка"
+        "en": "mark / grade at school; also a note",
+        "ru": "оценка в школе; также заметка"
       }
     ]
   },
@@ -224,7 +224,7 @@ export const VOCAB_THEMES: VocabTheme[] = [
       {
         "fr": "les fruits",
         "en": "fruit (food, usually uncountable); fruits (e.g. different kinds)",
-        "ru": "фрукты"
+        "ru": "фрукты (как еда); фрукты разных видов"
       },
       {
         "fr": "le déjeuner",
@@ -300,8 +300,8 @@ export const VOCAB_THEMES: VocabTheme[] = [
       },
       {
         "fr": "l'heure",
-        "en": "hour / time",
-        "ru": "час / время"
+        "en": "hour / time (what time it is)",
+        "ru": "час / время (который час)"
       },
       {
         "fr": "il fait beau",
@@ -315,8 +315,8 @@ export const VOCAB_THEMES: VocabTheme[] = [
       },
       {
         "fr": "il fait chaud / froid",
-        "en": "it's hot / cold",
-        "ru": "жарко / холодно"
+        "en": "it's hot / cold (about the weather)",
+        "ru": "жарко / холодно (о погоде)"
       },
       {
         "fr": "le soleil",
@@ -347,13 +347,13 @@ export const VOCAB_THEMES: VocabTheme[] = [
       },
       {
         "fr": "faire",
-        "en": "to do / make",
-        "ru": "делать"
+        "en": "to do / make; also to cook (faire la cuisine)",
+        "ru": "делать; также готовить (faire la cuisine)"
       },
       {
         "fr": "venir",
         "en": "to come",
-        "ru": "приходить"
+        "ru": "приходить / приезжать"
       },
       {
         "fr": "voir",
@@ -388,7 +388,7 @@ export const VOCAB_THEMES: VocabTheme[] = [
       {
         "fr": "aimer",
         "en": "to love / like",
-        "ru": "любить"
+        "ru": "любить; нравиться"
       },
       {
         "fr": "manger",

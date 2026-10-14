@@ -645,41 +645,41 @@
   },
   "functionsAlgebra": {
     "title": "Functions & Algebra",
-    "intro": "Mappings, domain/range, quadratics in three forms, function transformations, algebraic fractions, variation.",
+    "intro": "This page covers mappings, domain and range, quadratic expressions, quadratic functions and their graphs, and transformations of graphs. Then come solving quadratic equations, rearranging formulae, algebraic fractions, proportion, asymptotes and exponential functions.",
     "subTopics": {
-      "mappings": "Mappings, domain & range",
+      "mappings": "Mappings",
       "verticalLine": "Vertical line test",
-      "quadraticsFactor": "Quadratic expressions — expanding and factorising",
-      "quadraticsGraph": "Quadratic functions and their graphs",
+      "quadraticsFactor": "Quadratic expressions",
+      "quadraticsGraph": "Quadratic graphs",
       "vertexForm": "Vertex form",
-      "transformations": "Function transformations",
-      "solveGeneral": "Quadratic equations and real roots",
-      "solveFactor": "Solving by factorisation",
-      "solveCompleteSquare": "Solving — complete the square",
-      "solveFormula": "Quadratic formula",
-      "solveGraphical": "Solving — graphically",
-      "rearrange": "Changing the subject of a formula",
-      "algebraicFractions": "Algebraic fractions (Extended)",
-      "proportions": "Direct & inverse proportions",
-      "asymptotes": "Rational functions — asymptotes",
-      "exponential": "Exponential functions"
+      "transformations": "Transformations",
+      "solveGeneral": "Quadratic equations",
+      "solveFactor": "Factorisation method",
+      "solveCompleteSquare": "Completing the square",
+      "solveFormula": "Formula method",
+      "solveGraphical": "Graphical method",
+      "rearrange": "Rearranging a formula",
+      "algebraicFractions": "Algebraic fractions",
+      "proportions": "Direct and inverse proportion",
+      "asymptotes": "Extended: asymptotes",
+      "exponential": "Extended: exponential function"
     },
     "subTopicsDetailed": {
       "mappings": {
-        "name": "Mappings, domain & range",
-        "rule": "A function assigns exactly one output to each input in its domain. The codomain is the declared set of possible output values; the range is the subset actually attained. For f:ℝ→ℝ with f(x)=x², the domain and codomain are ℝ, but the range is [0,∞).",
+        "name": "Mappings, domain and range",
+        "rule": "A mapping pairs each element of one set with an element of another set. A function is a mapping in which each input has exactly one output. The domain is the set of input values; the range is the set of output values the function actually produces.",
         "examples": [
-          "f(x) = x², domain ℝ, range [0, ∞).",
+          "f(x) = x², domain ℝ, range [0, ∞).",
           "g(x) = 1/x, domain ℝ \\ {0}, range ℝ \\ {0}.",
           "h(x) = √x, domain [0, ∞), range [0, ∞).",
           "If f(x) = 3x − 2, then f(4) = 10 and f(−1) = −5."
         ],
         "review": {
-          "englishTerm": "Mappings, domain & range",
-          "russianTerm": "Отображения, область определения и значений",
+          "englishTerm": "Mapping",
+          "russianTerm": "Отображение",
           "contrast": {
-            "en": "Different inputs may share an output. Domain, codomain and range have different roles; a formula alone does not always specify the intended domain.",
-            "ru": "Разным аргументам может соответствовать одно значение. Область определения, кодомен и область значений — разные понятия; формула не всегда полностью задаёт область определения."
+            "en": "Two different inputs can give the same output: y = x² gives 4 for both x = 2 and x = −2. One input can never give two different outputs. Do not mix up the domain (the allowed inputs) with the range (the outputs that actually occur). Exam tip: when you are asked for the range, write outputs, not inputs.",
+            "ru": "Два разных аргумента могут дать одно и то же значение: y = x² равно 4 при x = 2 и при x = −2. Один аргумент не может дать два разных значения. Не путай область определения (допустимые аргументы) и область значений (значения, которые функция действительно даёт). Если на экзамене спрашивают область значений, пиши значения функции, а не аргументы."
           },
           "sources": [
             {
@@ -740,32 +740,32 @@
                   "ru": "{0, 4}"
                 },
                 "detail": {
-                  "en": "The attained range; codomain may be ℝ",
-                  "ru": "Достигнутые значения; кодомен может быть ℝ"
+                  "en": "The outputs that actually occur",
+                  "ru": "Значения, которые функция действительно принимает"
                 }
               }
             ],
             "caption": {
-              "en": "Each input has one output. Two inputs can have the same output.",
-              "ru": "У каждого аргумента одно значение. У разных аргументов значения могут совпадать."
+              "en": "Put −2, 0 and 2 into the rule. The outputs are 4, 0 and 4, so the range for these inputs is {0, 4}.",
+              "ru": "Подставь −2, 0 и 2 в правило. Получаются значения 4, 0 и 4, значит, область значений для этих аргументов — {0, 4}."
             }
           }
         }
       },
       "verticalLine": {
-        "name": "Vertical line test",
-        "rule": "A set of points in the xy-plane is the graph of y as a function of x exactly when no vertical line meets it at more than one point. Each x in the domain must have exactly one y.",
+        "name": "Vertical line test: when a graph is a function",
+        "rule": "A graph shows y as a function of x if every vertical line crosses it at most once. If a vertical line crosses the graph two or more times, one x-value gives two or more y-values, so the graph is not a function.",
         "examples": [
-          "y = x² PASSES — function.",
-          "x = y² (sideways parabola) FAILS — vertical line at x=1 hits y=1 and y=−1.",
-          "Circle x² + y² = 4 FAILS — not a function."
+          "y = x² is a function: every vertical line crosses its parabola at most once.",
+          "x = y² is not a function: the vertical line x = 1 meets the graph at y = 1 and y = −1.",
+          "The circle x² + y² = 4 is not a function. The vertical line x = 0 crosses it at y = 2 and at y = −2."
         ],
         "review": {
-          "englishTerm": "Vertical line test",
-          "russianTerm": "Проверка вертикальной прямой",
+          "englishTerm": "Function",
+          "russianTerm": "Функция",
           "contrast": {
-            "en": "This checks whether y depends uniquely on x. A horizontal-line test checks a different property: whether a function is one-to-one.",
-            "ru": "Проверка устанавливает единственность y при данном x. Горизонтальная прямая проверяет другое свойство: принимает ли функция каждое значение не более одного раза."
+            "en": "Do not confuse many-to-one with one-to-many. Several x-values can share one y-value, as in y = x²: x = √5 and x = −√5 (≈ ±2.24) both give y = 5, and this is allowed. One x-value giving two y-values is not allowed, as in y² = x: x = 4 gives y = 2 and y = −2.",
+            "ru": "Не путай два случая: несколько значений x могут давать одно значение y, а один x — два значения y. В y = x² при x = √5 и x = −√5 (≈ ±2,24) получаем y = 5, и это допустимо для функции. В y² = x один x даёт два значения y: при x = 4 получаем y = 2 и y = −2, и это уже не функция."
           },
           "sources": [
             {
@@ -784,21 +784,21 @@
         }
       },
       "quadraticsFactor": {
-        "name": "Quadratic expressions — expanding and factorising",
-        "rule": "An algebraic expression combines numbers, variables and operations, for example x²+7x+12. Terms are the added parts (x², 7x, 12); factors are multiplied parts. Expanding removes brackets by distributivity; factorising rewrites a sum as a product: x²+7x+12=(x+3)(x+4). A quadratic expression has form ax²+bx+c with a≠0.",
+        "name": "Expanding and factorising quadratic expressions",
+        "rule": "A quadratic expression has the form ax² + bx + c, where a ≠ 0. Expanding removes brackets: multiply every term in one bracket by every term in the other. Factorising does the reverse: it writes the expression as brackets multiplied together. Do not mix up the two words: terms are added (x², 7x, 12), but factors are multiplied, as in (x + 3)(x + 4).",
         "examples": [
-          "Expand: (x+3)(x−5) = x² − 2x − 15.",
-          "Factor: x² + 7x + 12 = (x+3)(x+4) (since 3·4=12, 3+4=7).",
-          "Factor: x² − 5x − 14 = (x−7)(x+2).",
-          "Difference of squares: x² − 9 = (x−3)(x+3).",
-          "With leading coefficient: 2x² + 7x + 3 = (2x+1)(x+3)."
+          "Expand: (x + 3)(x − 5) = x² − 2x − 15.",
+          "Factorise: x² + 7x + 12 = (x + 3)(x + 4), because 3 × 4 = 12 and 3 + 4 = 7.",
+          "Factorise: x² − 5x − 14 = (x − 7)(x + 2), because −7 × 2 = −14 and −7 + 2 = −5.",
+          "Difference of squares: x² − 9 = (x − 3)(x + 3).",
+          "Leading coefficient 2: 2x² + 7x + 3 = (2x + 1)(x + 3). Check the middle term: 2 × 3 + 1 × 1 = 7, and the constant term: 1 × 3 = 3."
         ],
         "review": {
-          "englishTerm": "Quadratic expressions — expanding and factorising",
-          "russianTerm": "Квадратные выражения: раскрытие скобок и разложение на множители",
+          "englishTerm": "Factorise",
+          "russianTerm": "Разложить на множители",
           "contrast": {
-            "en": "Factorising an expression does not solve an equation. In x²+bx+c=(x+p)(x+q), p+q=b and pq=c; integer factors need not exist.",
-            "ru": "Разложение выражения на множители само по себе не решает уравнение. В x²+bx+c=(x+p)(x+q) нужны p+q=b и pq=c; целые множители могут не существовать."
+            "en": "Do not confuse factorising with solving. (x + 3)(x + 4) is an expression, but (x + 3)(x + 4) = 0 is an equation. For x² + bx + c = (x + p)(x + q), you need p + q = b and pq = c. Some quadratic expressions cannot be factorised using whole numbers.",
+            "ru": "Не путай разложение с решением. (x + 3)(x + 4) — это выражение, а (x + 3)(x + 4) = 0 — уравнение. Для x² + bx + c = (x + p)(x + q) нужно, чтобы p + q = b и pq = c. Некоторые квадратные выражения нельзя разложить на множители с целыми числами."
           },
           "sources": [
             {
@@ -823,8 +823,8 @@
           "visual": {
             "kind": "parts",
             "title": {
-              "en": "Read the algebraic structure",
-              "ru": "Как устроено выражение"
+              "en": "Sum, factors and equation",
+              "ru": "Сумма, множители и уравнение"
             },
             "items": [
               {
@@ -833,52 +833,52 @@
                   "ru": "x² + 7x + 12"
                 },
                 "detail": {
-                  "en": "Three terms joined by addition",
-                  "ru": "Три слагаемых, соединённые сложением"
+                  "en": "A sum of three terms",
+                  "ru": "Сумма трёх слагаемых"
                 }
               },
               {
                 "label": {
-                  "en": "(x+3)(x+4)",
-                  "ru": "(x+3)(x+4)"
+                  "en": "(x + 3)(x + 4)",
+                  "ru": "(x + 3)(x + 4)"
                 },
                 "detail": {
-                  "en": "Two factors joined by multiplication",
-                  "ru": "Два множителя, соединённые умножением"
+                  "en": "Two factors multiplied together",
+                  "ru": "Произведение двух множителей"
                 }
               },
               {
                 "label": {
-                  "en": "(x+3)(x+4)=0",
-                  "ru": "(x+3)(x+4)=0"
+                  "en": "(x + 3)(x + 4) = 0",
+                  "ru": "(x + 3)(x + 4) = 0"
                 },
                 "detail": {
-                  "en": "An equation, solved by x=−3 or x=−4",
-                  "ru": "Уравнение с корнями x=−3 и x=−4"
+                  "en": "An equation with roots x = −3 and x = −4",
+                  "ru": "Уравнение с корнями x = −3 и x = −4"
                 }
               }
             ],
             "caption": {
-              "en": "The first two expressions have the same value for every x. Adding =0 creates an equation with particular solutions.",
-              "ru": "Первые два выражения равны при любом x. Условие =0 задаёт уравнение с конкретными корнями."
+              "en": "The first two expressions are equal for every x. Setting (x + 3)(x + 4) equal to 0 gives an equation with two solutions.",
+              "ru": "Первые два выражения равны при любом x. Если приравнять (x + 3)(x + 4) к нулю, получится уравнение с двумя решениями."
             }
           }
         }
       },
       "quadraticsGraph": {
-        "name": "Quadratic functions and their graphs",
-        "rule": "A quadratic function f(x)=ax²+bx+c has a≠0 and, on domain ℝ, a parabola as its graph. Its y-intercept is (0,c); x-intercepts are (r,0) where f(r)=0. The vertex is a minimum for a>0 and a maximum for a<0. Its x-coordinate is −b/(2a).",
+        "name": "Quadratic graphs: the parabola, its intercepts and its vertex",
+        "rule": "A quadratic function f(x) = ax² + bx + c, where a ≠ 0, has a parabola as its graph. The parabola crosses the y-axis at (0, c). Its x-intercepts are the points where f(x) = 0. The vertex is the lowest point if a > 0, and the highest point if a < 0. Its x-coordinate is −b/(2a).",
         "examples": [
-          "y = x² − 4x + 3 opens up; y-int = 3; x-ints at x=1, x=3.",
-          "y = −x² + 4 opens down; y-int = 4; x-ints at x = ±2.",
-          "Vertex (turning point) at x = −b/(2a)."
+          "y = x² − 4x + 3 opens upwards. It crosses the y-axis at (0, 3) and the x-axis at x = 1 and x = 3.",
+          "y = −x² + 4 opens downwards. It crosses the y-axis at (0, 4) and the x-axis at x = −2 and x = 2.",
+          "For y = −x² + 2x + 3, x = −b/(2a) = −2/(2 × (−1)) = 1. Then y = −1 + 2 + 3 = 4, so the vertex is (1, 4). It is a maximum, because a = −1 is negative."
         ],
         "review": {
-          "englishTerm": "Quadratic functions and their graphs",
-          "russianTerm": "Квадратичные функции и их графики",
+          "englishTerm": "Parabola",
+          "russianTerm": "Парабола",
           "contrast": {
-            "en": "A root is an input value; an intercept is a point. At a repeated root the parabola touches the x-axis without crossing it.",
-            "ru": "Корень — значение аргумента, а точка пересечения имеет две координаты. При двукратном корне парабола касается оси x, не пересекая её."
+            "en": "Do not confuse a root with an intercept. A root is an x-value, for example x = 2. An x-intercept is a point, for example (2, 0). A double root means the parabola touches the x-axis at its vertex without crossing it.",
+            "ru": "Не путай корень и точку пересечения. Корень — это значение x, например x = 2. Точка пересечения с осью x — это точка (2; 0). Двойной корень означает, что парабола касается оси x в вершине и не пересекает её."
           },
           "sources": [
             {
@@ -891,18 +891,18 @@
         }
       },
       "vertexForm": {
-        "name": "Vertex form",
-        "rule": "Vertex form is y=a(x−h)²+k with a≠0. Its vertex is (h,k), axis of symmetry x=h, and extreme value k. Completing the square rewrites ax²+bx+c in this form without changing its value.",
+        "name": "Vertex form: the vertex, the axis of symmetry and completing the square",
+        "rule": "The vertex form is y = a(x − h)² + k, where a ≠ 0. The vertex is the point (h, k), and the axis of symmetry is the line x = h. The value k is the minimum of y if a > 0, and the maximum if a < 0. Completing the square changes ax² + bx + c into this form without changing its values.",
         "examples": [
-          "y = x² − 6x + 5 → y = (x − 3)² − 4. Vertex (3, −4).",
-          "y = 2x² + 8x − 3 → factor 2 from quadratic terms: 2(x² + 4x) − 3 → 2(x+2)² − 8 − 3 = 2(x+2)² − 11."
+          "Complete the square: x² − 6x + 5 = (x − 3)² − 4, so the vertex is (3, −4).",
+          "For y = 2x² + 8x − 3, take 2 out of the first two terms: y = 2(x² + 4x) − 3. Complete the square inside the bracket: y = 2[(x + 2)² − 4] − 3 = 2(x + 2)² − 11. So the vertex is (−2, −11)."
         ],
         "review": {
-          "englishTerm": "Vertex form",
-          "russianTerm": "Канонический вид квадратичной функции",
+          "englishTerm": "Axis of symmetry",
+          "russianTerm": "Ось симметрии",
           "contrast": {
-            "en": "The sign inside the bracket is opposite to h: (x+2)² has h=−2. For a≠1, first factor a from the quadratic and linear terms.",
-            "ru": "Знак в скобках противоположен h: у (x+2)² значение h=−2. При a≠1 сначала вынесите a из квадратного и линейного слагаемых."
+            "en": "Watch the sign. In (x + 2)², the value of h is −2, because the bracket is (x − h). If a ≠ 1, take a out of the x² and x terms first, and leave the constant term outside the bracket.",
+            "ru": "Смотри на знак. В (x + 2)² значение h равно −2, потому что в скобке стоит x − h. Если a ≠ 1, сначала вынеси a только из членов с x² и x, а свободный член оставь за скобками."
           },
           "sources": [
             {
@@ -933,20 +933,20 @@
         }
       },
       "transformations": {
-        "name": "Function transformations",
-        "rule": "For g(x)=a f(b(x−h))+k with a,b≠0, a point (u,v) on y=f(x) maps to (h+u/b, k+av). Thus h,k translate the graph; |a| scales vertical distances and 1/|b| scales horizontal distances. Negative a or b also reflects in the relevant direction.",
+        "name": "Transformations of graphs: shifts, stretches and reflections",
+        "rule": "A transformation changes the position or the shape of a graph. In y = a f(x − h) + k, h shifts the graph right by h units, and k shifts it up by k units. If h or k is negative, the shift goes the opposite way. The value |a| is the vertical stretch factor, and a negative a also reflects the graph in the x-axis.\n\nExtended: for y = f(bx), the graph is stretched horizontally by the factor 1/|b|, and a negative b reflects it in the y-axis.",
         "examples": [
-          "y = (x − 3)² + 2 is y = x² shifted right 3, up 2.",
-          "y = 2x² is y = x² stretched vertically by 2.",
-          "y=(2x)²=4x² has horizontal scale factor 1/2 relative to y=x²; for this particular base function it also equals a vertical stretch by 4.",
-          "y = −sin(x) is y = sin(x) reflected in x-axis."
+          "y = (x − 3)² + 2 is the graph of y = x² moved 3 units right and 2 units up. Its vertex is (3, 2).",
+          "y = 2x² is the graph of y = x² stretched vertically by factor 2: every y-value doubles. For example, when x = 1, y changes from 1 to 2.",
+          "Extended: y = (2x)² = 4x². For y = x², a horizontal scale factor of 1/2 gives the same graph as a vertical stretch by factor 4. For y = x³, the same horizontal factor gives a vertical stretch by factor 8, so the vertical factor depends on the function.",
+          "y = −x² is the graph of y = x² reflected in the x-axis. The point (2, 4) on y = x² moves to (2, −4)."
         ],
         "review": {
-          "englishTerm": "Function transformations",
-          "russianTerm": "Преобразования функций",
+          "englishTerm": "Scale factor",
+          "russianTerm": "Коэффициент растяжения",
           "contrast": {
-            "en": "f(2x) halves horizontal distances: its horizontal scale factor is 1/2. Scaling and translation generally depend on their order.",
-            "ru": "f(2x) уменьшает горизонтальные расстояния вдвое: коэффициент по горизонтали равен 1/2. Результат масштабирования и переноса обычно зависит от их порядка."
+            "en": "f(2x) compresses the graph horizontally: every horizontal distance is halved, so the horizontal scale factor is 1/2. The order of stretching and shifting matters, because doing them in a different order can give a different graph.",
+            "ru": "f(2x) сжимает график по горизонтали: все горизонтальные расстояния уменьшаются вдвое, поэтому коэффициент растяжения по горизонтали равен 1/2. Порядок растяжения и сдвига важен: в другом порядке эти действия могут дать другой график."
           },
           "sources": [
             {
@@ -959,19 +959,19 @@
         }
       },
       "solveGeneral": {
-        "name": "Quadratic equations and real roots",
-        "rule": "An equation states that two expressions are equal. A solution is a permitted value making the equality true. A quadratic equation can be written ax²+bx+c=0 with a≠0. For real coefficients, Δ=b²−4ac gives two distinct real roots if Δ>0, one repeated root if Δ=0 and no real roots if Δ<0.",
+        "name": "Quadratic equations and their real roots",
+        "rule": "An equation is a statement that two expressions are equal. A solution is a value of the variable that makes the equation true. A quadratic equation can be written as ax² + bx + c = 0, where a ≠ 0. The discriminant, Δ = b² − 4ac, shows how many real roots there are: two distinct roots if Δ > 0, one repeated root if Δ = 0, and no real roots if Δ < 0.",
         "examples": [
-          "x² + 5x + 6 = 0 → Δ = 1 > 0 → factor: (x+2)(x+3) = 0 → x=−2 or x=−3.",
-          "x² − 4x + 4 = 0 → Δ = 0 → repeated root x = 2.",
-          "x² + x + 1 = 0 → Δ = −3 < 0 → no real solutions."
+          "x² + 5x + 6 = 0: Δ = 5² − 4 × 1 × 6 = 1 > 0, so (x + 2)(x + 3) = 0 and x = −2 or x = −3.",
+          "x² − 4x + 4 = 0: Δ = (−4)² − 4 × 1 × 4 = 0, so there is one repeated root, x = 2.",
+          "x² + x + 1 = 0: Δ = 1² − 4 × 1 × 1 = −3 < 0, so there are no real solutions."
         ],
         "review": {
-          "englishTerm": "Quadratic equations and real roots",
-          "russianTerm": "Квадратные уравнения и действительные корни",
+          "englishTerm": "Discriminant",
+          "russianTerm": "Дискриминант",
           "contrast": {
-            "en": "An expression is evaluated or transformed; an equation is solved. No real roots does not mean no complex roots.",
-            "ru": "Выражение вычисляют или преобразуют; уравнение решают. Отсутствие действительных корней не означает отсутствия комплексных."
+            "en": "You simplify or factorise an expression, but you solve an equation to find the values of x.",
+            "ru": "Выражение упрощают или раскладывают на множители, а уравнение решают, чтобы найти значения x."
           },
           "sources": [
             {
@@ -1008,19 +1008,19 @@
         }
       },
       "solveFactor": {
-        "name": "Solving by factorisation",
-        "rule": "The zero-product property says that a product of real numbers is zero exactly when at least one factor is zero. Write the equation as a product equal to zero, then solve each factor equation: (x−p)(x−q)=0 gives x=p or x=q.",
+        "name": "Solving quadratic equations by factorising",
+        "rule": "If two numbers multiply to give zero, at least one of them is zero. First move all the terms to one side, so that the other side is zero, then factorise the expression. Then set each bracket equal to zero and solve: if (x − p)(x − q) = 0, then x = p or x = q.",
         "examples": [
-          "x² − 7x + 12 = 0 → (x − 3)(x − 4) = 0 → x = 3 or x = 4.",
-          "x² + 2x = 0 → x(x + 2) = 0 → x = 0 or x = −2.",
-          "x² = 16 → x² − 16 = 0 → (x−4)(x+4)=0 → x = ±4."
+          "x² − 7x + 12 = 0, so (x − 3)(x − 4) = 0 and x = 3 or x = 4.",
+          "x² + 2x = 0: take out the common factor x to get x(x + 2) = 0, so x = 0 or x = −2.",
+          "x² = 16: subtract 16 to get x² − 16 = 0, so (x − 4)(x + 4) = 0 and x = 4 or x = −4."
         ],
         "review": {
-          "englishTerm": "Solving by factorisation",
-          "russianTerm": "Решение уравнений разложением на множители",
+          "englishTerm": "Null factor law",
+          "russianTerm": "Свойство нулевого произведения",
           "contrast": {
-            "en": "This property applies to a product equal to zero, not a sum or a product equal to 5. Dividing by an unknown factor can lose zero solutions.",
-            "ru": "Правило относится к произведению, равному нулю, а не к сумме или произведению, равному 5. Деление на неизвестный множитель может потерять нулевые корни."
+            "en": "This rule works only when the brackets multiply to give zero: in (x − 2)(x − 3) = 5, you cannot set each bracket equal to 5. Dividing both sides of x² = 3x by x loses the solution x = 0.",
+            "ru": "Это правило работает только тогда, когда произведение равно нулю: в (x − 2)(x − 3) = 5 нельзя приравнять каждую скобку к 5. Деление обеих частей x² = 3x на x теряет решение x = 0."
           },
           "sources": [
             {
@@ -1051,18 +1051,18 @@
         }
       },
       "solveCompleteSquare": {
-        "name": "Solving — complete the square",
-        "rule": "Completing the square uses x²+2px=(x+p)²−p². After isolating (x+p)²=q, real solutions are x=−p±√q when q≥0; for q<0 there are no real solutions. Divide by a≠0 first when solving ax²+bx+c=0.",
+        "name": "Solving quadratic equations by completing the square",
+        "rule": "Completing the square rewrites x² + 2px as (x + p)² − p². Isolate the squared bracket to get (x + p)² = q. If q ≥ 0, the solutions are x = −p ± √q; if q < 0, there are no real solutions. When the equation has the form ax² + bx + c = 0, first divide every term by a, where a ≠ 0.",
         "examples": [
-          "x² + 6x − 7 = 0 → (x+3)² − 9 − 7 = 0 → (x+3)² = 16 → x+3 = ±4 → x = 1 or −7.",
-          "x² − 4x + 1 = 0 → (x−2)² − 3 = 0 → x = 2 ± √3."
+          "x² + 6x − 7 = 0: (x + 3)² − 9 − 7 = 0, so (x + 3)² = 16 and x + 3 = ±4. Therefore x = 1 or x = −7.",
+          "x² − 4x + 1 = 0: (x − 2)² − 4 + 1 = 0, so (x − 2)² = 3 and x = 2 ± √3, which gives x ≈ 3.73 or x ≈ 0.27."
         ],
         "review": {
-          "englishTerm": "Solving — complete the square",
-          "russianTerm": "Решение выделением полного квадрата",
+          "englishTerm": "Perfect square",
+          "russianTerm": "Полный квадрат",
           "contrast": {
-            "en": "The symbol √q gives one nonnegative root; ± is needed because both opposite numbers have the same square.",
-            "ru": "Символ √q означает один неотрицательный корень; знак ± нужен потому, что противоположные числа имеют одинаковый квадрат."
+            "en": "The symbol √q gives only the non-negative root, so the ± sign is needed. For example, both 4 and −4 square to 16.",
+            "ru": "Символ √q обозначает только неотрицательный корень, поэтому нужен знак ±. Например, и 4, и −4 при возведении в квадрат дают 16."
           },
           "sources": [
             {
@@ -1099,18 +1099,18 @@
         }
       },
       "solveFormula": {
-        "name": "Quadratic formula",
-        "rule": "For real a,b,c with a≠0, the quadratic formula is x=(−b±√(b²−4ac))/(2a). It gives real roots when Δ=b²−4ac≥0. Retain the full numerator over 2a and include coefficient signs. If Δ<0, real-root calculations stop here.",
+        "name": "Solving quadratic equations with the quadratic formula",
+        "rule": "For a quadratic equation ax² + bx + c = 0, with a ≠ 0, the quadratic formula gives the solutions x = (−b ± √(b² − 4ac)) / (2a). The part under the square root, Δ = b² − 4ac, is the discriminant. If Δ ≥ 0, the formula gives real solutions; if Δ < 0, there are no real solutions. Divide the whole numerator by 2a, and take care with signs: if b = −5, then −b = 5.",
         "examples": [
-          "2x² − 5x + 1 = 0: a=2, b=−5, c=1. x = (5 ± √(25−8))/4 = (5 ± √17)/4.",
-          "x² + 3x + 1 = 0: x = (−3 ± √5)/2."
+          "2x² − 5x + 1 = 0: a = 2, b = −5, c = 1. So x = (5 ± √(25 − 8)) / 4 = (5 ± √17) / 4, which gives x ≈ 2.28 or x ≈ 0.22 (to 2 d.p.).",
+          "x² + 3x + 1 = 0: a = 1, b = 3, c = 1. So Δ = 3² − 4 × 1 × 1 = 5. Then x = (−3 ± √5) / 2, which gives x ≈ −0.38 or x ≈ −2.62 (to 2 d.p.)."
         ],
         "review": {
-          "englishTerm": "Quadratic formula",
-          "russianTerm": "Формула корней квадратного уравнения",
+          "englishTerm": "Roots of a quadratic equation",
+          "russianTerm": "Корни квадратного уравнения",
           "contrast": {
-            "en": "An exact answer may be rational or involve a surd. A decimal approximation should be marked ≈ and rounded only at the end.",
-            "ru": "Точный ответ может быть рациональным или содержать иррациональный корень. Приближение отмечают знаком ≈ и округляют в конце."
+            "en": "An exact answer can contain a square root, such as (5 ± √17) / 4. Write a decimal approximation with ≈ and round only the final answer.",
+            "ru": "Точный ответ может содержать квадратный корень, например (5 ± √17) / 4. Приближённое значение пиши со знаком ≈ и округляй только итоговый ответ."
           },
           "sources": [
             {
@@ -1135,18 +1135,18 @@
         }
       },
       "solveGraphical": {
-        "name": "Solving — graphically",
-        "rule": "The real solutions of f(x)=0 are the x-coordinates where y=f(x) meets the x-axis. Solutions of f(x)=g(x) are the x-coordinates of intersections of their graphs, within both domains. A tangent contact counts as an intersection.",
+        "name": "Solving equations graphically",
+        "rule": "A solution of f(x) = 0 is an x-value where the graph of y = f(x) crosses or touches the x-axis. A solution of f(x) = g(x) is an x-value where the graphs of y = f(x) and y = g(x) meet. If the graph only touches the x-axis, that point is still a solution, called a repeated root.",
         "examples": [
-          "x² − 4 = 0 → graph y = x² − 4, read x = ±2 where graph crosses x-axis.",
-          "Solve x² = x + 2 by plotting y = x² and y = x + 2 — intersect at x = −1, x = 2."
+          "To solve x² − 4 = 0, plot y = x² − 4. It crosses the x-axis at x = −2 and x = 2.",
+          "To solve x² = x + 2, plot y = x² and y = x + 2. The graphs meet at two points, where x = −1 and x = 2, so these are the solutions."
         ],
         "review": {
-          "englishTerm": "Solving — graphically",
-          "russianTerm": "Решение графически",
+          "englishTerm": "x-intercept",
+          "russianTerm": "Точка пересечения с осью x",
           "contrast": {
-            "en": "A graph usually gives estimates. A limited viewing window can miss roots, and a plotted joining line can hide a discontinuity.",
-            "ru": "По графику обычно получают приближения. Ограниченное окно может скрыть корни, а соединённые точки — разрыв функции."
+            "en": "A graph gives an estimate, not an exact answer. Check your answer by substituting it into the equation. A viewing window that is too small can hide a solution.",
+            "ru": "График даёт приближённый ответ, а не точный. Проверь ответ, подставив его в уравнение. Слишком маленькое окно графика может скрыть решение."
           },
           "sources": [
             {
@@ -1177,20 +1177,20 @@
         }
       },
       "rearrange": {
-        "name": "Changing the subject of a formula",
-        "rule": "A formula is an equation expressing a relationship between quantities. Making a variable the subject means isolating it on one side. Use reversible operations on both sides, track nonzero divisors and use the context to choose signs after taking roots.",
+        "name": "Rearranging a formula to make a chosen variable the subject",
+        "rule": "A formula is an equation that shows how quantities are related. Changing the subject means rearranging the formula so that one chosen variable is on its own on one side. Do the same operation to both sides, and check that you never divide by zero. After you take a square root, choose the sign using the context of the problem.",
         "examples": [
-          "Make r the subject of A = πr². → r² = A/π → r = √(A/π).",
-          "Make t the subject of v = u + at. → t = (v − u)/a. (a≠0).",
-          "Make h the subject of V = πr²h/3 → h = 3V/(πr²). (r≠0).",
-          "Make x the subject of y = (x+1)/(x−2). → y(x−2) = x+1 → yx − 2y = x + 1 → x(y−1) = 1 + 2y → x = (1+2y)/(y−1). (x≠2, y≠1)."
+          "Make r the subject of A = πr²: r² = A/π, so r = √(A/π). A radius is positive, so take the positive root. For A = 50 cm², r ≈ 3.99 cm.",
+          "Make t the subject of v = u + at. Subtract u from both sides: v − u = at. Divide both sides by a (a ≠ 0): t = (v − u)/a. Check with v = 20 m/s, u = 5 m/s and a = 3 m/s²: t = (20 − 5)/3 = 5 s.",
+          "Make h the subject of V = πr²h/3. Multiply both sides by 3: 3V = πr²h. Divide by πr² (r ≠ 0): h = 3V/(πr²). Check with r = 2 cm and V = 8π cm³: h = 3 × 8π/(π × 2²) = 6 cm.",
+          "Make x the subject of y = (x + 1)/(x − 2), where x ≠ 2. Multiply both sides by (x − 2): y(x − 2) = x + 1. Expand: yx − 2y = x + 1. Move the x terms to the left: yx − x = 2y + 1. Take x outside the brackets: x(y − 1) = 2y + 1, so x = (2y + 1)/(y − 1), where y ≠ 1. Check with y = 2: x = 5, and (5 + 1)/(5 − 2) = 2."
         ],
         "review": {
-          "englishTerm": "Changing the subject of a formula",
+          "englishTerm": "Change of subject",
           "russianTerm": "Выражение переменной из формулы",
           "contrast": {
-            "en": "From A=πr², a radius satisfies r=√(A/π) because r≥0. From v=u+at, t=(v−u)/a requires a≠0.",
-            "ru": "Из A=πr² для радиуса получаем r=√(A/π), поскольку r≥0. Из v=u+at следует t=(v−u)/a только при a≠0."
+            "en": "A radius cannot be negative, so from A = πr² we get r = √(A/π), not ±√(A/π). From v = u + at, t = (v − u)/a only when a ≠ 0.",
+            "ru": "Радиус не может быть отрицательным, поэтому из A = πr² получаем r = √(A/π), а не ±√(A/π). Из v = u + at получаем t = (v − u)/a только при a ≠ 0."
           },
           "sources": [
             {
@@ -1227,20 +1227,20 @@
         }
       },
       "algebraicFractions": {
-        "name": "Algebraic fractions (Extended)",
-        "rule": "An algebraic fraction is a quotient of expressions, defined only when its denominator is nonzero. Add with a common denominator, multiply numerators and denominators, and divide by multiplying by a nonzero reciprocal. Factoring reveals common factors that can be cancelled while keeping the original exclusions.",
+        "name": "Simplifying algebraic fractions; Extended: solving equations with them",
+        "rule": "An algebraic fraction (rational algebraic expression) is one algebraic expression divided by another. It is undefined when its denominator is zero, so state the values that are not allowed, for example x ≠ 0. Add fractions over a common denominator, multiply the numerators and multiply the denominators, and divide by multiplying by the reciprocal. Factorise first, then cancel common factors; cancelling does not remove the restrictions on the variable.\n\nExtended: when you multiply both sides of an equation by an expression that contains the variable, check every solution in the original equation.",
         "examples": [
-          "1/x + 1/y = (y + x)/(xy). (x≠0, y≠0).",
-          "(x² − 4)/(x − 2) = (x−2)(x+2)/(x−2) = x + 2 (x ≠ 2).",
-          "(x/3) ÷ (2x/9) = (x/3) × (9/2x) = 9x/6x = 3/2. (x≠0).",
-          "Solve: 3/(x−1) + 2/(x+1) = 1 → multiply both sides by (x−1)(x+1): 3(x+1) + 2(x−1) = (x−1)(x+1) → 5x + 1 = x² − 1 → x² − 5x − 2 = 0. (x≠−1, x≠1)."
+          "1/x + 1/y = (y + x)/(xy), for x ≠ 0 and y ≠ 0. Check with x = 2 and y = 3: 1/2 + 1/3 = 5/6 and (3 + 2)/(2 × 3) = 5/6.",
+          "(x² − 4)/(x − 2) = (x − 2)(x + 2)/(x − 2) = x + 2, for x ≠ 2. Check with x = 5: (25 − 4)/(5 − 2) = 21/3 = 7, and 5 + 2 = 7.",
+          "(x/3) ÷ (2x/9) = (x/3) × (9/(2x)) = 9x/(6x) = 3/2, for x ≠ 0. Check with x = 1: (1/3) ÷ (2/9) = (1/3) × (9/2) = 3/2.",
+          "Solve 3/(x − 1) + 2/(x + 1) = 1, where x ≠ 1 and x ≠ −1. Multiply both sides by (x − 1)(x + 1): 3(x + 1) + 2(x − 1) = (x − 1)(x + 1). This gives 5x + 1 = x² − 1, so x² − 5x − 2 = 0. Then x = (5 ± √33)/2, so x ≈ 5.37 or x ≈ −0.37. Both values are allowed."
         ],
         "review": {
-          "englishTerm": "Algebraic fractions (Extended)",
-          "russianTerm": "Алгебраические дроби (Extended)",
+          "englishTerm": "Algebraic fraction",
+          "russianTerm": "Алгебраическая дробь",
           "contrast": {
-            "en": "Factors multiply; terms add. (x²−4)/(x−2)=x+2 for x≠2, but cancelling x in (x+1)/x is invalid.",
-            "ru": "Множители перемножаются, слагаемые складываются. (x²−4)/(x−2)=x+2 при x≠2, но сокращать x в (x+1)/x нельзя."
+            "en": "Cancel common factors, not terms. (x² − 4)/(x − 2) = x + 2 for x ≠ 2, but in (x + 1)/x the x cannot be cancelled, because x is not a factor of the whole numerator (x + 1).",
+            "ru": "Сокращай общие множители, а не слагаемые. (x² − 4)/(x − 2) = x + 2 при x ≠ 2, но в (x + 1)/x сокращать x нельзя: это не множитель всего числителя (x + 1)."
           },
           "sources": [
             {
@@ -1253,20 +1253,20 @@
         }
       },
       "proportions": {
-        "name": "Direct & inverse proportions",
-        "rule": "Direct proportionality has form y=kx: y/x=k for x≠0. Inverse proportionality has form y=k/x with x≠0 and k≠0: xy=k. The constant k is fixed for the model. Proportionality to x² instead means y=kx².",
+        "name": "Direct and inverse proportion: y = kx and y = k/x",
+        "rule": "Two quantities are directly proportional if y = kx, where k is a non-zero constant called the constant of proportionality. Then y/x = k for every x ≠ 0, and the graph is a straight line through the origin. Two quantities are inversely proportional if y = k/x, so xy = k. Doubling x halves y. To find k, substitute one known pair of values. If y is proportional to x², then y = kx².",
         "examples": [
-          "Cost ∝ weight. 3 kg cost £6 → k = 2, so 5 kg cost £10.",
-          "Time ∝ 1/speed. At 60 km/h trip takes 4h → k=240, so at 80 km/h takes 240/80 = 3h.",
-          "For fixed mass at non-relativistic speeds, kinetic energy E = ½mv² is proportional to v²: doubling speed multiplies E by 4.",
-          "For an isotropic point source of fixed power, with no absorption, irradiance on a surface perpendicular to the rays is proportional to 1/r²."
+          "Cost is directly proportional to weight. If 3 kg cost £6, then k = 6 ÷ 3 = £2 per kg. So 5 kg cost 2 × 5 = £10.",
+          "Time is inversely proportional to speed for a fixed distance. At 60 km/h a trip takes 4 hours, so the distance is k = 60 × 4 = 240 km. At 80 km/h the time is 240 ÷ 80 = 3 hours.",
+          "The area of a circle is directly proportional to the square of its radius: A = πr², so k = π. With r = 2 cm, A = 4π ≈ 12.6 cm². With r = 4 cm, A = 16π ≈ 50.3 cm². Doubling the radius makes the area four times bigger.",
+          "4 people finish a job in 6 days, so k = 4 × 6 = 24 person-days. With 8 people, the job takes 24 ÷ 8 = 3 days."
         ],
         "review": {
-          "englishTerm": "Direct & inverse proportions",
-          "russianTerm": "Прямая и обратная пропорциональность",
+          "englishTerm": "Direct proportion",
+          "russianTerm": "Прямая пропорциональность",
           "contrast": {
-            "en": "A line y=mx+c with c≠0 is not direct proportionality. Inverse proportion is not merely any decreasing relationship.",
-            "ru": "Прямая y=mx+c при c≠0 не задаёт прямую пропорциональность. Не всякая убывающая зависимость является обратной пропорциональностью."
+            "en": "The line y = mx + c with c ≠ 0 is not direct proportion, because it does not pass through the origin. A decreasing graph is not automatically inverse proportion: y must equal k/x.",
+            "ru": "График y = mx + c при c ≠ 0 — это не прямая пропорциональность: он не проходит через начало координат. Убывающий график ещё не означает обратную пропорциональность: y должен равняться k/x."
           },
           "sources": [
             {
@@ -1283,25 +1283,25 @@
             }
           ],
           "model": {
-            "en": "Physical examples require fixed conditions: time and speed are inversely proportional only for a fixed travel distance.",
-            "ru": "Физические примеры требуют фиксированных условий: время обратно пропорционально скорости только при заданном пути."
+            "en": "Real situations need fixed conditions. Time and speed are inversely proportional only when the distance stays the same.",
+            "ru": "Реальные ситуации требуют постоянных условий. Время и скорость обратно пропорциональны только при одинаковом расстоянии."
           }
         }
       },
       "asymptotes": {
-        "name": "Rational functions — asymptotes",
-        "rule": "An asymptote describes limiting graph behaviour. A vertical asymptote x=c occurs when function values become unbounded as x approaches c from at least one side. A horizontal asymptote y=L means f(x) approaches L as x→∞ or x→−∞. For a rational function, simplify common factors before locating poles.",
+        "name": "Extended: asymptotes of rational functions",
+        "rule": "An asymptote is a line that a graph gets closer and closer to. A vertical asymptote is at x = c, where the denominator is zero and the factor does not cancel. A horizontal asymptote y = L shows the value the function approaches as |x| becomes very large. For f(x) = a/(x − h) + k, with a ≠ 0, the asymptotes are x = h and y = k.",
         "examples": [
-          "y = 1/(x − 3) → vertical asymptote x = 3, horizontal y = 0.",
-          "y = (x+1)/(x−2) → vertical x = 2, horizontal y = 1 (ratio of leading coefficients).",
-          "y = 1/x²: VA x = 0, HA y = 0, always positive — different from 1/x."
+          "y = 1/(x − 3): the vertical asymptote is x = 3, because the denominator is zero there. The horizontal asymptote is y = 0. For example, y = 1 when x = 4.",
+          "y = (x + 1)/(x − 2) = 1 + 3/(x − 2). The vertical asymptote is x = 2, and the horizontal asymptote is y = 1. Check with x = 5: (5 + 1)/(5 − 2) = 2 and 1 + 3/3 = 2.",
+          "y = 1/x²: the vertical asymptote is x = 0 and the horizontal asymptote is y = 0. Unlike y = 1/x, the graph stays above the x-axis, because x² is always greater than zero when x ≠ 0."
         ],
         "review": {
-          "englishTerm": "Rational functions — asymptotes",
-          "russianTerm": "Рациональные функции — асимптоты",
+          "englishTerm": "Asymptote",
+          "russianTerm": "Асимптота",
           "contrast": {
-            "en": "A cancelled denominator zero may be a removable hole, not a vertical asymptote. A graph can cross a horizontal asymptote.",
-            "ru": "Сокращённый ноль знаменателя может дать устранимый разрыв, а не вертикальную асимптоту. График может пересекать горизонтальную асимптоту."
+            "en": "If a zero of the denominator cancels, the graph has a hole, not an asymptote. For (x² − 4)/(x − 2), the hole is at (2, 4). A graph can cross its horizontal asymptote.",
+            "ru": "Если ноль знаменателя сокращается, на графике будет выколотая точка, а не асимптота. У (x² − 4)/(x − 2) выколота точка (2; 4). График может пересекать горизонтальную асимптоту."
           },
           "sources": [
             {
@@ -1314,20 +1314,20 @@
         }
       },
       "exponential": {
-        "name": "Exponential functions",
-        "rule": "An exponential model has form y=A·bˣ with A>0, b>0 and b≠1 here. Equal increases of x multiply y by a fixed factor: increasing x by 1 multiplies y by b. The graph passes through (0,A); b>1 gives growth, while 0<b<1 gives decay.",
+        "name": "Extended: exponential functions — growth and decay",
+        "rule": "An exponential function has the form y = A·bˣ, where A is the starting value and b is the constant growth factor (A > 0, b > 0, b ≠ 1). Each time x increases by 1, y is multiplied by b. The graph passes through (0, A). If b > 1, the function shows growth. If 0 < b < 1, it shows decay.",
         "examples": [
-          "y = 2ˣ: doubles every unit. y(0)=1, y(3)=8.",
-          "y = 100 × 0.9ˣ models decay (e.g., depreciation).",
-          "Compound interest: A = P(1 + r)ⁿ.",
-          "Bacterial growth: N = N₀ · 2^(t/T) where T is doubling time."
+          "y = 2ˣ: each time x increases by 1, y doubles. Check: y(0) = 1, y(1) = 2 and y(3) = 8.",
+          "A laptop is worth £100 and loses 10% of its value each year, so V = 100 × 0.9ᵗ, where t is the number of years. After 1 year V = £90, and after 2 years V = £81.",
+          "Compound interest: A = P(1 + r)ⁿ, where P is the starting sum, r is the yearly rate as a decimal and n is the number of years. For £500 at 4% a year for 3 years: A = 500 × 1.04³ ≈ £562.43.",
+          "Bacteria: N = N₀ × 2⁽ᵗ/ᵀ⁾, where N₀ is the starting number, t is the time in hours and T is the doubling time. A colony starts with 100 cells and doubles every 3 hours. After 6 hours: N = 100 × 2⁽⁶/³⁾ = 100 × 2² = 400 cells."
         ],
         "review": {
-          "englishTerm": "Exponential functions",
-          "russianTerm": "Показательные функции",
+          "englishTerm": "Base of an exponential function",
+          "russianTerm": "Основание показательной функции",
           "contrast": {
-            "en": "In bˣ the variable is the exponent; in x² it is the base. Constant percentage change differs from constant absolute change.",
-            "ru": "У bˣ переменная стоит в показателе, у x² — в основании. Постоянный процент изменения отличается от постоянной абсолютной прибавки."
+            "en": "In bˣ the variable is the power, so y = 2ˣ doubles at each step. In x² the variable is the base: at x = 1, 2, 3 the values are 1, 4 and 9, and the ratio between steps is not fixed. A fixed percentage change is not the same as a fixed amount added each time.",
+            "ru": "В bˣ переменная стоит в показателе, поэтому y = 2ˣ удваивается на каждом шаге. В x² переменная — основание: при x = 1, 2, 3 значения равны 1, 4 и 9, и множитель между шагами не постоянен. Постоянный процентный рост не совпадает с постоянной прибавкой."
           },
           "sources": [
             {
@@ -1344,8 +1344,8 @@
             }
           ],
           "model": {
-            "en": "Fixed growth rates are modelling assumptions. Populations and prices need not follow the same rate indefinitely.",
-            "ru": "Постоянный темп роста — предположение модели. Численность и цены не обязаны сохранять один темп неограниченно долго."
+            "en": "A fixed growth rate is a modelling assumption. Populations and prices cannot keep the same rate of growth indefinitely.",
+            "ru": "Постоянный темп роста — это допущение модели. Численность населения и цены не могут расти с одним и тем же темпом неограниченно долго."
           }
         }
       }
@@ -1353,29 +1353,29 @@
   },
   "sequences": {
     "title": "Sequences & Series",
-    "intro": "Linear, quadratic and geometric sequences. General rule for the nth term; sum to infinity (Extended).",
+    "intro": "Arithmetic sequences: the rule for the nth term and the sum of the first n terms. Extended: geometric sequences: the rule for the nth term, and the sum to infinity of a geometric series.",
     "subTopics": {
-      "linearGeneral": "Arithmetic sequences and the nth term",
-      "linearProblems": "Linear — problem solving",
-      "geometric": "Geometric sequences and the nth term",
+      "linearGeneral": "Arithmetic progressions",
+      "linearProblems": "Arithmetic problems",
+      "geometric": "Extended: geometric progressions",
       "sumInfinity": "Sum to infinity (Extended)"
     },
     "subTopicsDetailed": {
       "linearGeneral": {
-        "name": "Arithmetic sequences and the nth term",
-        "rule": "A sequence assigns a term uₙ to each integer index n. An arithmetic sequence has constant difference d=uₙ₊₁−uₙ. Starting at n=1 with first term a, uₙ=a+(n−1)d. Its graph consists of separate points on a line; it is not a continuous line.",
+        "name": "Arithmetic sequences: recursive and explicit formulas",
+        "rule": "An arithmetic sequence is a sequence in which the difference between consecutive terms is constant. This constant is the common difference, d.\n\nWith first term u₁, the recursive formula is uₙ₊₁ = uₙ + d, so each term is the previous term plus d. The explicit formula gives any term directly: uₙ = u₁ + (n − 1)d, where u₁ is the first term and n is the term number, a positive whole number.\n\nThe graph of an arithmetic sequence is a set of separate points on a straight line, because n takes only whole-number values.",
         "examples": [
-          "5, 8, 11, 14, … → a=5, d=3, uₙ = 5 + 3(n−1) = 3n + 2.",
-          "20, 17, 14, … → a=20, d=−3, uₙ = 23 − 3n.",
-          "u₁₀ for above: 23 − 30 = −7.",
-          "What's the 100th term of 7, 12, 17, …? a=7, d=5, u₁₀₀ = 7 + 99·5 = 502."
+          "For 5, 8, 11, 14, …: u₁ = 5 and d = 3, so uₙ = 5 + 3(n − 1) = 3n + 2.",
+          "For 20, 17, 14, …: u₁ = 20 and d = −3, so uₙ = 20 − 3(n − 1) = 23 − 3n.",
+          "Using uₙ = 23 − 3n for the sequence 20, 17, 14, …, the 10th term is u₁₀ = 23 − 30 = −7.",
+          "What is the 100th term of 7, 12, 17, …? Here u₁ = 7 and d = 5, so u₁₀₀ = 7 + 99 × 5 = 502."
         ],
         "review": {
-          "englishTerm": "Arithmetic sequences and the nth term",
-          "russianTerm": "Арифметическая прогрессия и формула n-го члена",
+          "englishTerm": "Arithmetic sequence",
+          "russianTerm": "Арифметическая прогрессия",
           "contrast": {
-            "en": "A term uₙ is one value; a partial sum Sₙ adds the first n terms: Sₙ=n(a+uₙ)/2.",
-            "ru": "Член uₙ — одно значение; частичная сумма Sₙ складывает первые n членов: Sₙ=n(a+uₙ)/2."
+            "en": "A term is one value: u₄ = 14 in 5, 8, 11, 14. A sum adds several terms: the sum of the first four terms is 5 + 8 + 11 + 14 = 38.",
+            "ru": "Член — одно значение: u₄ = 14 в последовательности 5, 8, 11, 14. Сумма — результат сложения нескольких членов: сумма первых четырёх членов равна 5 + 8 + 11 + 14 = 38."
           },
           "sources": [
             {
@@ -1400,19 +1400,19 @@
         }
       },
       "linearProblems": {
-        "name": "Linear sequences — problem solving",
-        "rule": "For an arithmetic sequence, u_q−u_p=(q−p)d. Two known terms determine d when p≠q, then determine a. To test whether a value occurs, solve a+(n−1)d=value and check that n is a permitted positive integer.",
+        "name": "Solving problems with arithmetic sequences: u₁, d and the term number",
+        "rule": "Two known terms give the common difference. If uₚ and u_q are known, then u_q − uₚ = (q − p)d, so d = (u_q − uₚ) ÷ (q − p) when p ≠ q. Then use uₚ = u₁ + (p − 1)d to find u₁.\n\nTo check whether a value occurs in the sequence, solve u₁ + (n − 1)d = value for n. The value occurs only if n is a positive whole number.",
         "examples": [
-          "The 5th term is 22, the 10th term is 47. Find a and d. → u₁₀ − u₅ = 5d → 47 − 22 = 25 → d = 5. Then a = 22 − 4·5 = 2.",
-          "Which term equals 200 in 3, 7, 11, …? d=4, a=3. 200 = 3 + 4(n−1) → 197 = 4(n−1) → n = 50.25 → not a term (must be integer).",
-          "Sum first 20 terms of 2, 5, 8, …: a=2, d=3, S₂₀ = 20/2 · (4 + 57) = 610."
+          "The 5th term is 22 and the 10th term is 47. Find u₁ and d. Since u₁₀ − u₅ = 5d, we get 47 − 22 = 5d, so d = 5. Then u₁ = u₅ − 4d = 22 − 4 × 5 = 2.",
+          "Is 200 a term of 3, 7, 11, …? Here u₁ = 3 and d = 4. From 200 = 3 + 4(n − 1) we get 4(n − 1) = 197, so n − 1 = 49.25 and n = 50.25. The term number must be a whole number, so 200 is not a term.",
+          "Let S₂₀ be the sum of the first 20 terms of 2, 5, 8, …. Use Sₙ = n(u₁ + uₙ) ÷ 2. Here u₁ = 2, d = 3 and u₂₀ = 2 + 19 × 3 = 59, so S₂₀ = 20 × (2 + 59) ÷ 2 = 610."
         ],
         "review": {
-          "englishTerm": "Linear sequences — problem solving",
-          "russianTerm": "Линейные последовательности — задачи",
+          "englishTerm": "Common difference",
+          "russianTerm": "Разность прогрессии",
           "contrast": {
-            "en": "The term value can be fractional or negative; the index here must be a positive integer. Observing a few differences does not prove the whole sequence is arithmetic.",
-            "ru": "Значение члена может быть дробным или отрицательным; номер здесь должен быть натуральным. Несколько равных разностей не доказывают правило для всей последовательности."
+            "en": "Do not take the difference between any two terms as d. The difference u₈ − u₃ equals 5d, because there are 5 steps from the 3rd term to the 8th.",
+            "ru": "Не принимай разность любых двух членов за d. Разность u₈ − u₃ равна 5d: от 3-го члена до 8-го — 5 шагов."
           },
           "sources": [
             {
@@ -1431,19 +1431,19 @@
         }
       },
       "geometric": {
-        "name": "Geometric sequences and the nth term",
-        "rule": "A geometric sequence is generated by multiplying each term by a fixed common ratio r: uₙ₊₁=ruₙ. With first term a and n≥1, uₙ=ar^(n−1). The ratio uₙ₊₁/uₙ is usable only when uₙ≠0.",
+        "name": "Extended: geometric sequences: the common ratio and the nth term",
+        "rule": "Extended: a geometric sequence is a sequence in which the ratio between consecutive terms is constant. This constant is the common ratio, r, so each term is r times the previous term.\n\nWith first term u₁, the recursive formula is uₙ₊₁ = r uₙ. The explicit formula is uₙ = u₁rⁿ⁻¹, where n is the term number, a positive whole number. The common ratio cannot be 0, and you cannot divide by a term that is 0 when you find r.",
         "examples": [
-          "3, 6, 12, 24, … → a=3, r=2. uₙ = 3·2^(n−1). u₁₀ = 3·512 = 1536.",
-          "100, 50, 25, … → r=0.5. u₅ = 100 · 0.5⁴ = 6.25.",
-          "Compound interest: £500 at 4% pa: 500, 520, 540.8, … → r = 1.04. After n years: 500·1.04ⁿ."
+          "For 3, 6, 12, 24, …: u₁ = 3 and r = 2, so uₙ = 3 × 2ⁿ⁻¹. Then u₁₀ = 3 × 2⁹ = 3 × 512 = 1536.",
+          "For 100, 50, 25, …: u₁ = 100 and r = 0.5. The 5th term is u₅ = 100 × 0.5⁴ = 6.25.",
+          "$500 invested at 4% per year: 500, 520, 540.8, …, so r = 1.04. After n years the amount is 500 × 1.04ⁿ, where n = 0 is the starting amount."
         ],
         "review": {
-          "englishTerm": "Geometric sequences and the nth term",
-          "russianTerm": "Геометрическая прогрессия и формула n-го члена",
+          "englishTerm": "Common ratio",
+          "russianTerm": "Знаменатель прогрессии",
           "contrast": {
-            "en": "Arithmetic sequences add a fixed difference; geometric sequences multiply by a fixed ratio. For a>0, r>1 gives growth and 0<r<1 gives decay; negative r alternates signs.",
-            "ru": "Арифметическая прогрессия прибавляет разность, геометрическая — умножает на знаменатель. При a>0 и r>1 получается рост, при 0<r<1 — убывание; отрицательное r чередует знаки."
+            "en": "Compare with the arithmetic case, where the terms change by a fixed amount d. Here they change by a fixed factor r, so check r first. If −1 < r < 1, the terms get closer to 0. If r > 1 or r < −1, their size grows. If r < 0, the signs alternate.",
+            "ru": "Сравни с арифметической прогрессией. Там члены меняются на одну и ту же величину d. Здесь они умножаются на один и тот же множитель r, поэтому сначала проверь r. Если −1 < r < 1, члены приближаются к 0. Если r > 1 или r < −1, их модули растут. Если r < 0, знаки чередуются."
           },
           "sources": [
             {
@@ -1462,20 +1462,20 @@
         }
       },
       "sumInfinity": {
-        "name": "Sum to infinity (Extended)",
-        "rule": "A series is a sum of sequence terms. Its sum to infinity is the limit of its partial sums, if that finite limit exists. For a nonzero first term a, the geometric series a+ar+ar²+… converges exactly when |r|<1; then S∞=a/(1−r).",
+        "name": "Extended: sum to infinity of a geometric series",
+        "rule": "A series is the sum of the terms of a sequence.\n\nExtended: the sum to infinity, S∞, is the value that the sums of the first n terms approach as n grows. If the first term u₁ is not 0, S∞ exists only when −1 < r < 1. Then S∞ = u₁ ÷ (1 − r).",
         "examples": [
-          "1 + 1/2 + 1/4 + 1/8 + … = 1/(1−1/2) = 2.",
-          "9 + 3 + 1 + 1/3 + … : a=9, r=1/3. S∞ = 9/(2/3) = 13.5.",
-          "Recurring decimal 0.111… = 0.1 + 0.01 + 0.001 + … = 0.1/(1−0.1) = 1/9.",
-          "If S∞ = 12 and r = 1/4, find a: a = 12·(3/4) = 9."
+          "For 1 + 1/2 + 1/4 + 1/8 + …: u₁ = 1 and r = 1/2, so S∞ = 1 ÷ (1 − 1/2) = 2.",
+          "For 9 + 3 + 1 + 1/3 + …: u₁ = 9 and r = 1/3, so S∞ = 9 ÷ (2/3) = 13.5.",
+          "The recurring decimal 0.111… = 0.1 + 0.01 + 0.001 + …, with u₁ = 0.1 and r = 0.1. So S∞ = 0.1 ÷ 0.9 = 1/9.",
+          "If S∞ = 12 and r = 1/4, find u₁. From S∞ = u₁ ÷ (1 − r), u₁ = 12 × (1 − 1/4) = 12 × 3/4 = 9."
         ],
         "review": {
-          "englishTerm": "Sum to infinity (Extended)",
-          "russianTerm": "Сумма бесконечного ряда (Extended)",
+          "englishTerm": "Series",
+          "russianTerm": "Ряд",
           "contrast": {
-            "en": "Divergence need not mean growth to +∞: 1−1+1−1+… oscillates. If a=0, all terms are zero and the series sums to zero.",
-            "ru": "Расходимость не обязательно означает рост к +∞: 1−1+1−1+… колеблется. При a=0 все члены нулевые и сумма равна нулю."
+            "en": "Do not use the formula when |r| ≥ 1. For 1 − 1 + 1 − 1 + … (r = −1) the formula would give 1 ÷ 2 = 0.5, but the partial sums 1, 0, 1, 0, … do not settle, so there is no sum to infinity. For r = 1 the formula divides by 0.",
+            "ru": "Формулу нельзя применять при |r| ≥ 1. Для 1 − 1 + 1 − 1 + … (r = −1) формула дала бы 1 : 2 = 0,5, но частичные суммы 1, 0, 1, 0, … не приближаются к одному числу, значит, бесконечной суммы нет. При r = 1 в формуле получается деление на 0."
           },
           "sources": [
             {

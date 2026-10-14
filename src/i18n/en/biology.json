@@ -798,7 +798,7 @@
             "tip": "Loss of water can reduce turgor and cause wilting; a cell wall can remain intact even when its contents shrink.",
             "review": {
               "englishTerm": "Central vacuole (permanent vacuole)",
-              "russianTerm": "Центральная вакуоль (постоянная вакуоль)",
+              "russianTerm": "Центральная вакуоль (central vacuole)",
               "contrast": {
                 "en": "Cell sap is the liquid inside the vacuole; the cytosol lies outside the vacuole, in the cytoplasm.",
                 "ru": "Клеточный сок — жидкость внутри вакуоли; цитозоль лежит вне вакуоли, в цитоплазме."
@@ -1387,7 +1387,7 @@
       },
       "respiratory": {
         "title": "Respiratory system",
-        "body": "The respiratory system supplies the blood with oxygen and removes carbon dioxide from it. Two processes make this possible. Ventilation moves air in and out of the lungs and keeps the air in the alveoli fresh. Gas exchange moves oxygen and carbon dioxide between the alveoli and the blood.",
+        "body": "The respiratory system supplies the blood with oxygen and removes carbon dioxide from it. Two processes make this possible. Ventilation moves air in and out of the lungs and keeps the air in the alveoli fresh. The second process is gas exchange, described below.",
         "detailed": {
           "pathway": {
             "name": "Air pathway",
@@ -2729,7 +2729,7 @@
                 },
                 "detail": {
                   "en": "Feeds on the rabbit; heat is dissipated at each level.",
-                  "ru": "Питается кроликом; на каждом уровне рассеивается тепло."
+                  "ru": "Питается кроликом; на каждом уровне энергия рассеивается в виде тепла."
                 }
               }
             ],
@@ -2747,8 +2747,8 @@
           "englishTerm": "Carbon cycle",
           "russianTerm": "Круговорот углерода",
           "contrast": {
-            "en": "A reservoir stores carbon; a flux moves it between reservoirs. Fossil fuels are a carbon reservoir, and burning them is a flux into the atmosphere. An arrow on a carbon cycle diagram shows this transfer, not the appearance of new carbon.",
-            "ru": "Резервуар (reservoir) накапливает углерод, а поток (flux) переносит его между резервуарами. Ископаемое топливо — резервуар углерода, а его сжигание — поток в атмосферу. Стрелка на схеме круговорота углерода показывает этот перенос, а не появление нового углерода."
+            "en": "A reservoir stores carbon; a flux moves it between reservoirs. Coal is a carbon reservoir; burning it is a flux into the atmosphere. An arrow on a carbon cycle diagram shows this transfer, not the appearance of new carbon.",
+            "ru": "Резервуар (reservoir) накапливает углерод, а поток (flux) переносит его между резервуарами. Уголь — резервуар углерода, а его сжигание — поток в атмосферу. Стрелка на схеме круговорота углерода показывает этот перенос, а не появление нового углерода."
           },
           "sources": [
             {
@@ -2767,7 +2767,7 @@
           "englishTerm": "Water cycle",
           "russianTerm": "Круговорот воды",
           "contrast": {
-            "en": "Water vapour is an invisible gas. Clouds are made of tiny liquid droplets, which form by condensation, ice crystals, or both. Ice crystals form when droplets freeze or when vapour turns directly into ice (deposition). Precipitation is water that falls from clouds to the surface, as rain, snow or hail.",
+            "en": "Water vapour is an invisible gas. Clouds are made of tiny liquid droplets, ice crystals, or both; droplets form by condensation. Ice crystals form when droplets freeze or when vapour turns directly into ice (deposition). Precipitation is water that falls from clouds to the surface, as rain, snow or hail.",
             "ru": "Водяной пар (water vapour) — невидимый газ. Облако состоит из мелких капель воды, которые образуются при конденсации (condensation), из ледяных кристаллов или из тех и других. Ледяные кристаллы образуются, когда капли замерзают или когда водяной пар, минуя жидкую фазу, превращается в лёд (deposition). Осадки (precipitation) — это вода, которая падает из облаков на поверхность: дождь, снег или град."
           },
           "sources": [
@@ -2782,7 +2782,7 @@
       },
       "humanImpact": {
         "title": "Human impacts",
-        "body": "Human activities change ecosystems in several ways:\n\n- Population growth increases demand for land, water, food and energy, so more pressure falls on natural ecosystems.\n- Clearing forests for farms and cities destroys habitats, divides what is left into patches and changes runoff.\n- Pollution includes chemicals such as pesticides and heavy metals, which harm organisms.\n- Excess fertiliser nutrients cause eutrophication (see the eutrophication section).\n- Introduced species can harm native species: cane toads, brought to Australia to control beetles, now poison the predators that try to eat them.\n- Global warming (see the chemistry section on the greenhouse effect) shifts where species can live and changes the timing of seasonal events.\n\nConservation aims to maintain or restore biodiversity and ecosystem functions. It uses protected areas, habitat restoration and the reduction of threats such as pollution and introduced species. Its success is assessed with evidence such as population trends, habitat condition and genetic diversity.",
+        "body": "Human activities change ecosystems in several ways:\n\n- Population growth increases demand for land, water, food and energy, so more pressure falls on natural ecosystems.\n- Clearing forests for farms and cities destroys habitats, divides what is left into patches and changes runoff.\n- Pollution includes chemicals such as pesticides and heavy metals, which harm organisms.\n- Excess fertiliser nutrients cause eutrophication (see the eutrophication section).\n- Introduced species can harm native species: cane toads, brought to Australia to control beetles, now poison the predators that try to eat them.\n- Global warming shifts where species can live and changes the timing of seasonal events.\n\nConservation aims to maintain or restore biodiversity and ecosystem functions. It uses protected areas, habitat restoration and the reduction of threats such as pollution and introduced species. Its success is assessed with evidence such as population trends, habitat condition and genetic diversity.",
         "review": {
           "englishTerm": "Human impacts",
           "russianTerm": "Влияние человека",
@@ -2820,7 +2820,7 @@
     "sections": {
       "dna": {
         "title": "DNA",
-        "body": "DNA stores hereditary information as a sequence of four bases: A, T, C and G. In the double helix, A always pairs with T and C always pairs with G.\n\nA gene is a section of DNA that codes for a functional product, usually a protein. For example, most human body cells have 46 chromosomes, while gametes (sex cells) have 23.",
+        "body": "DNA stores hereditary information as a sequence of four bases: A, T, C and G. In the double helix, A always pairs with T and C always pairs with G.\n\nA gene is a section of DNA that codes for a functional product, usually a protein. Chromosomes contain DNA. For example, most human body cells have 46 chromosomes, while gametes (sex cells) have 23.",
         "review": {
           "englishTerm": "DNA",
           "russianTerm": "ДНК",
@@ -2935,13 +2935,13 @@
       },
       "inheritance": {
         "title": "Inheritance",
-        "body": "Inheritance is the transmission of genetic information from parents to offspring. Alleles are different versions of one gene, found at the same place on a chromosome (locus).\n\nAn individual with two different alleles, such as Bb, is heterozygous. With complete dominance, Bb shows the dominant phenotype. For example, in pea plants the allele for purple flowers (P) is dominant over the allele for white flowers (p). In a genetic diagram, the parents are P, their offspring are F1 and the next generation is F2.",
+        "body": "Inheritance is the transmission of genetic information from parents to offspring. Alleles are different versions of one gene, found at the same place on a chromosome (locus).\n\nAn individual with two different alleles, such as Bb, is heterozygous. With complete dominance, Bb shows the dominant phenotype. For example, in pea plants the allele for purple flowers (B) is dominant over the allele for white flowers (b). In a genetic diagram, the parents are P, their offspring are F1 and the next generation is F2.",
         "review": {
           "englishTerm": "Inheritance",
           "russianTerm": "Наследование",
           "contrast": {
-            "en": "Genotype is genetic constitution; phenotype is an observable characteristic influenced by genotype and environment.",
-            "ru": "Генотип — генетическая конституция; фенотипический признак зависит от генотипа и среды."
+            "en": "Genotype is the genetic make-up of an organism; phenotype is an observable characteristic influenced by genotype and environment.",
+            "ru": "Генотип — совокупность генов организма; фенотипический признак зависит от генотипа и среды."
           },
           "sources": [
             {
@@ -2958,8 +2958,8 @@
             }
           ],
           "model": {
-            "en": "One diploid locus, two alleles, equal gamete probabilities, random fertilisation and complete dominance. Each child is a new probability trial.",
-            "ru": "Один диплоидный локус, два аллеля, равновероятные гаметы, случайное оплодотворение и полное доминирование. Каждый потомок — новое испытание с теми же вероятностями."
+            "en": "One diploid locus, two alleles, equal gamete probabilities, random fertilisation and complete dominance.",
+            "ru": "Один диплоидный локус, два аллеля, равновероятные гаметы, случайное оплодотворение и полное доминирование."
           }
         }
       },
@@ -2969,18 +2969,18 @@
         "detailed": {
           "sources": {
             "name": "Sources of variation",
-            "rule": "Mutations create new DNA sequence variants. Recombination and fertilisation combine existing variants in new ways. Environment also affects phenotype, and a genetic effect can depend on the environment. A percentage attributed to heredity is a population estimate under specified conditions, not a fixed share of one person's trait.",
+            "rule": "Mutations create new DNA sequence variants. Recombination and fertilisation combine existing variants in new ways. Environment also affects phenotype, and a genetic effect can depend on the environment.",
             "examples": [
               "Mutation may create a new allele; meiosis can produce new combinations of existing alleles.",
               "Nutrition can affect height, alongside inherited differences."
             ],
-            "tip": "Mutation creates new alleles; meiosis and fertilisation create new combinations. Gene flow can introduce existing alleles into another population.",
+            "tip": "Mutation creates new alleles; meiosis and fertilisation create new combinations.",
             "review": {
               "englishTerm": "Sources of variation",
               "russianTerm": "Источники изменчивости",
               "contrast": {
-                "en": "Genotype is genetic constitution; phenotype is an observable characteristic influenced by genotype and environment.",
-                "ru": "Генотип — генетическая конституция; фенотипический признак зависит от генотипа и среды."
+                "en": "Do not confuse a trait with variation: a trait is a feature of one organism; variation is the difference in that trait between organisms.",
+                "ru": "Не путай признак и изменчивость: признак — свойство одной особи, а изменчивость — различия этого признака между особями."
               },
               "sources": [
                 {
@@ -3034,8 +3034,8 @@
           "englishTerm": "Variation",
           "russianTerm": "Изменчивость",
           "contrast": {
-            "en": "Inherited variation comes from different alleles and can be passed to offspring, for example eye colour. Environmental variation is not inherited: a suntan or a scar is not passed on to children.",
-            "ru": "Наследственная изменчивость возникает из-за разных аллелей и передаётся потомкам, например, цвет глаз. Ненаследственная изменчивость вызвана средой: загар или шрам детям не передаются."
+            "en": "Inherited variation comes from different alleles and can be passed to offspring, for example eye colour. Environmental variation is not inherited.",
+            "ru": "Наследственная изменчивость возникает из-за разных аллелей и передаётся потомкам, например, цвет глаз. Ненаследственная изменчивость вызвана средой и не передаётся потомкам."
           },
           "sources": [
             {
@@ -3697,7 +3697,7 @@
     }
   },
   "experiment": {
-    "title": "Inquiring and Designing (Criterion B)",
+    "title": "Inquiring and designing (Criterion B)",
     "intro": "Designing a fair test means deciding what to change, what to measure and what to keep the same before any data are collected.",
     "sections": {
       "variables": {

@@ -785,8 +785,8 @@
         }
       },
       "graphs": {
-        "title": "Drawing rate graphs",
-        "body": "On a graph of amount against time, product curves rise and reactant curves fall. To find the rate at one moment, draw a tangent to the curve and measure its slope. For a reactant, the rate is the negative of the slope. A flat part means no further measured change: the reaction has finished or reached equilibrium.",
+        "title": "Drawing rate graphs [H]",
+        "body": "On a graph of amount against time, product curves rise and reactant curves fall. To find the rate at one moment, draw a tangent to the curve and measure its slope. For a reactant, the rate is the negative of the slope. A flat part means no further measured change: the reaction has finished or reached equilibrium. Worked example: a tangent to a reactant curve passes through the points (10 s, 0.80 mol dm⁻³) and (20 s, 0.50 mol dm⁻³). Its slope is (0.50 − 0.80) ÷ (20 − 10) = −0.030 mol dm⁻³ s⁻¹. For a reactant, the rate is the negative of the slope, so the rate is 0.030 mol dm⁻³ s⁻¹.",
         "review": {
           "englishTerm": "Drawing rate graphs",
           "russianTerm": "Графики скорости",
@@ -878,8 +878,8 @@
       }
     },
     "redox": {
-      "title": "Redox reactions",
-      "body": "Oxidation is the loss of electrons; reduction is the gain of electrons. The two always happen together, so the electrons lost by one substance are gained by another. A reducing agent is oxidised as it reduces another substance, and an oxidising agent is reduced. Oxidation state is a formal charge found by a set of rules. It is not always the real charge on the atom.",
+      "title": "Redox reactions [H]",
+      "body": "Oxidation is the loss of electrons; reduction is the gain of electrons. The two always happen together, so the electrons lost by one substance are gained by another. A reducing agent is oxidised as it reduces another substance, and an oxidising agent is reduced. Oxidation state is a formal charge found by a set of rules. It is not always the real charge on the atom. Oxidation can also mean gaining oxygen, and reduction losing oxygen. In 2Mg(s) + O₂(g) → 2MgO(s), magnesium gains oxygen and is oxidised, while oxygen is reduced because each O atom gains electrons.",
       "review": {
         "englishTerm": "Redox reactions",
         "russianTerm": "Окислительно-восстановительные реакции",
@@ -1031,7 +1031,7 @@
     "sections": {
       "atomicStructure": {
         "title": "Atomic structure",
-        "body": "An atom has a tiny, positively charged nucleus. Atomic number (Z) is the number of protons in the nucleus. Mass number (A) is the total number of protons and neutrons. Electrons occupy energy levels (shells) around the nucleus. A neutral atom has as many electrons as protons. For example, oxygen-16 has Z = 8 and A = 16: its nucleus holds 8 protons and 8 neutrons, and the neutral atom has 8 electrons.",
+        "body": "An atom has a tiny, positively charged nucleus. Atomic number (Z) is the number of protons in the nucleus. Mass number (A) is the total number of protons and neutrons. Electrons occupy energy levels (shells) around the nucleus. A neutral atom has as many electrons as protons. For example, oxygen-16 has Z = 8 and A = 16: its nucleus holds 8 protons and 8 neutrons, and the neutral atom has 8 electrons.\n\nMasses of the particles: a proton and a neutron each have a relative mass of about 1. An electron is much lighter, about 1/1836 of a proton, so its mass is usually ignored.\n\n- Proton: charge +1, relative mass 1, in the nucleus\n- Neutron: charge 0, relative mass 1, in the nucleus\n- Electron: charge −1, relative mass about 0.0005, in shells around the nucleus\n\nHow the model of the atom changed: Dalton (1808) described atoms as tiny solid spheres. Thomson (1897) discovered the electron, a negative particle. In 1904 he proposed a ‘plum pudding’ atom, with electrons scattered in a positive sphere. Rutherford’s gold-foil experiment (1909–1911) showed a small, dense, positive nucleus: most alpha particles passed straight through, but a few were deflected sharply. Bohr (1913) placed electrons in fixed energy levels to explain line spectra. Each model was changed when new evidence did not fit it.",
         "review": {
           "englishTerm": "Atomic structure",
           "russianTerm": "Строение атома",
@@ -1182,7 +1182,7 @@
       },
       "trends": {
         "title": "How properties change down a group",
-        "body": "These changes come from nuclear charge, shielding by inner electrons and the number of shells. Alkali metals become more reactive down group 1. The outer electron is further from the nucleus and more shielded, so it is lost more easily. Halogens become less oxidising down group 17, because the larger atom attracts an extra electron less strongly.",
+        "body": "These changes come from nuclear charge, shielding by inner electrons and the number of shells. Alkali metals become more reactive down group 1. The outer electron is further from the nucleus and more shielded, so it is lost more easily. Halogens become less oxidising down group 17, because the larger atom attracts an extra electron less strongly. Noble gases (group 18, the old group 0) hardly react, because their outer shells are full. Their boiling points rise down the group: helium −269 °C, neon −246 °C, argon −186 °C, krypton −153 °C, xenon −108 °C. Larger atoms have more electrons, so the forces between them (London forces) are stronger.",
         "review": {
           "englishTerm": "How properties change down a group",
           "russianTerm": "Как меняются свойства в группах",
@@ -1312,7 +1312,7 @@
           },
           "simpleCovalent": {
             "name": "Simple molecular structure",
-            "rule": "Melting or boiling only separates the molecules from one another. The intermolecular forces between them are weak, so little energy is needed, and these substances melt and boil at low temperatures.",
+            "rule": "Melting or boiling only separates the molecules from one another. The intermolecular forces between them are weak, so little energy is needed, and these substances melt and boil at low temperatures. The boiling point also rises with relative molecular mass in a series of similar substances. The halogens F₂ (−188 °C), Cl₂ (−34 °C), Br₂ (59 °C) and I₂ (184 °C) boil at higher temperatures down the group, because bigger molecules have stronger intermolecular forces. The same trend holds for alkanes: methane (−162 °C), ethane (−89 °C) and propane (−42 °C).",
             "examples": [
               "At atmospheric pressure, dry ice (solid CO₂) sublimes at about −78 °C. It turns straight into gas and never becomes a liquid.",
               "Iodine (I₂) is a solid at room temperature. Weak forces act between its molecules, so it melts at about 114 °C."
@@ -1832,7 +1832,7 @@
       },
       "percentYield": {
         "title": "Percentage yield",
-        "body": "Percentage yield is the actual mass of product as a percentage of the theoretical mass. Use the same unit for both masses, such as grams. The theoretical mass is calculated from the limiting reactant. A yield above 100% usually means impurities or retained solvent, or a mistake in the measurement or calculation.",
+        "body": "Percentage yield is the actual mass of product as a percentage of the theoretical mass. Use the same unit for both masses, such as grams. The theoretical mass is calculated from the limiting reactant. A yield above 100% usually means impurities or retained solvent, or a mistake in the measurement or calculation. A yield below 100% is normal. Causes include an incomplete reaction (a reversible reaction reaches equilibrium), losses when transferring, filtering or drying the product, and side reactions that make other substances.",
         "review": {
           "englishTerm": "Percentage yield",
           "russianTerm": "Выход продукта, %",

@@ -1012,21 +1012,21 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "Complete ²₁H + ³₁H → ⁴₂He + X. Then explain the need for high temperature.",
-      "Дополни ²₁H + ³₁H → ⁴₂He + X. Затем объясни высокую температуру.",
+      "Complete ²₁H + ²₁H → ³₂He + X. Then explain the need for high temperature.",
+      "Дополни ²₁H + ²₁H → ³₂He + X. Затем объясни, зачем нужна высокая температура.",
     ),
     b(
       "Use both number balances, then charge repulsion.",
       "Используй оба баланса, затем отталкивание зарядов.",
     ),
-    b("X = ¹₀n: 5 = 4 + 1 and 2 = 2 + 0.", "X = ¹₀n: 5 = 4 + 1 и 2 = 2 + 0."),
+    b("X = ¹₀n: 4 = 3 + 1 and 2 = 2 + 0.", "X = ¹₀n: 4 = 3 + 1 и 2 = 2 + 0."),
     b(
       "Both initial nuclei are positive and repel.",
       "Оба исходных ядра положительны и отталкиваются.",
     ),
     b(
-      "High temperature gives enough kinetic energy for some nuclei to approach closely enough for nuclear interaction.",
-      "Высокая температура даёт достаточную кинетическую энергию для тесного сближения части ядер и ядерного взаимодействия.",
+      "High temperature makes some nuclei move fast enough to approach closely enough for nuclear interaction.",
+      "Высокая температура даёт достаточную кинетическую энергию для такого тесного сближения части ядер, при котором возможно ядерное взаимодействие.",
     ),
   ),
   q(
@@ -1035,16 +1035,16 @@ export const questions: Question[] = [
     "A(ii)",
     "challenge",
     b(
-      "Extension: Δm = 2.0 × 10⁻²⁹ kg per reaction, c = 3.0 × 10⁸ m/s. Calculate energy per reaction and for 1.0 × 10¹⁵ reactions.",
-      "Дополнение: Δm = 2,0 × 10⁻²⁹ кг на реакцию, c = 3,0 × 10⁸ м/с. Найди энергию одной и 1,0 × 10¹⁵ реакций.",
+      "Extended: Δm = 2.0 × 10⁻²⁹ kg per reaction, c = 3.0 × 10⁸ m/s. Calculate energy per reaction and for 1.0 × 10¹⁵ reactions.",
+      "Для углублённых: Δm = 2,0 × 10⁻²⁹ кг на реакцию, c = 3,0 × 10⁸ м/с. Вычисли энергию одной реакции и энергию 1,0 × 10¹⁵ реакций.",
     ),
     b(
       "Square c before multiplying by mass defect.",
       "Возведи c в квадрат до умножения на дефект массы.",
     ),
     b("c² = 9.0 × 10¹⁶ m²/s².", "c² = 9,0 × 10¹⁶ м²/с²."),
-    b("E = 1.8 × 10⁻¹² J per reaction.", "E = 1,8 × 10⁻¹² Дж на реакцию."),
-    b("Total = 1.8 × 10³ J = 1,800 J.", "Всего 1,8 × 10³ Дж = 1800 Дж."),
+    b("E = 1.8 × 10⁻¹² J per reaction.", "E = 1,8 × 10⁻¹² Дж на реакцию."),
+    b("Total = 1.8 × 10³ J = 1800 J.", "Всего 1,8 × 10³ Дж = 1800 Дж."),
   ),
   q(
     "fus-4",
@@ -1069,7 +1069,7 @@ export const questions: Question[] = [
     ),
     b(
       "D–T uses radioactive tritium and releases neutrons that can activate materials; “no radioactive material” is too absolute.",
-      "D–T использует радиоактивный тритий и испускает активирующие материалы нейтроны; «нет радиоактивных веществ» слишком категорично.",
+      "В реакции D–T используется радиоактивный тритий. Нейтроны могут сделать материалы радиоактивными. Поэтому утверждение «нет радиоактивных веществ» слишком категорично.",
     ),
   ),
 ];

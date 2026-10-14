@@ -878,32 +878,32 @@ export const lessons: Lesson[] = [
       s(
         "Joining light nuclei",
         "Объединение лёгких ядер",
-        "Nuclear fusion combines light nuclei into products with a larger nucleus. A useful example is deuterium plus tritium: ²₁H + ³₁H → ⁴₂He + ¹₀n + energy. This reaction produces a neutron as well as helium; it is not simply two whole atoms sticking together chemically. In stellar interiors, hydrogen fusion proceeds through reaction chains; the D–T reaction is a convenient teaching example, not the main reaction sequence in the Sun.",
-        "При ядерном синтезе лёгкие ядра объединяются с образованием более тяжёлого ядра. Пример: дейтерий и тритий, ²₁H + ³₁H → ⁴₂He + ¹₀n + энергия. Здесь образуется и нейтрон, а не просто два атома химически склеиваются. Внутри звёзд водород участвует в цепочках реакций; D–T — удобный учебный пример, а не главная цепь реакций Солнца.",
+        "Nuclear fusion combines light nuclei into a heavier nucleus. A useful example is deuterium plus tritium: ²₁H + ³₁H → ⁴₂He + ¹₀n + energy. This reaction produces a neutron as well as helium. In stellar interiors, hydrogen fusion proceeds through reaction chains; the D–T reaction is a convenient teaching example, not the main reaction sequence in the Sun.",
+        "При термоядерном синтезе (nuclear fusion) лёгкие ядра объединяются в более тяжёлое ядро. Пример — реакция дейтерия (deuterium) и трития (tritium): ²₁H + ³₁H → ⁴₂He + ¹₀n + энергия. Помимо гелия, образуется ещё и нейтрон. В недрах звёзд синтез водорода идёт через цепочки реакций. D–T — удобный учебный пример, а не главная цепочка реакций на Солнце.",
       ),
       s(
         "Why high temperature is needed",
         "Зачем нужна высокая температура",
-        "Both nuclei are positively charged and repel electrostatically. They must approach extremely closely for the short-range nuclear interaction to bind them. Very high temperature gives nuclei large kinetic energies; sufficient density and confinement time increase the chance of useful collisions. In stars, gravity helps provide confinement. Heating alone does not guarantee a self-sustaining reaction: energy losses and confinement also matter.",
-        "Оба ядра положительны и электрически отталкиваются. Им нужно очень сильно сблизиться, чтобы подействовало короткодействующее ядерное взаимодействие. Очень высокая температура даёт большую кинетическую энергию; достаточные плотность и время удержания повышают число полезных столкновений. В звёздах удержанию помогает гравитация. Одного нагрева недостаточно: важны потери энергии и удержание.",
+        "Both nuclei are positively charged and repel electrostatically. They must approach extremely closely for the short-range nuclear interaction to bind them. Very high temperature makes nuclei move very fast; sufficient density and confinement time increase the chance of useful collisions. In stars, gravity helps provide confinement. Heating alone does not guarantee a self-sustaining reaction: energy losses and confinement also matter.",
+        "Оба ядра положительны и электрически отталкиваются. Им нужно очень сильно сблизиться, чтобы подействовало короткодействующее ядерное взаимодействие. Очень высокая температура даёт большую кинетическую энергию; достаточные плотность и время удержания повышают число полезных столкновений. В звёздах удержанию помогает гравитация. Одного нагрева недостаточно, чтобы реакция шла сама по себе: важны потери энергии и удержание.",
       ),
       s(
         "Mass–energy accounting",
         "Учёт массы и энергии",
-        "In an energy-releasing reaction, the total rest mass of the products is less than that of the reactants. The difference Δm corresponds to energy E = Δmc². Nucleon number and charge still balance. For the relevant light nuclei, products are more tightly bound overall. The formula is an optional extension here because the photograph names fusion but does not specify a mass-defect calculation. All numerical extension tasks supply c.",
-        "В реакции с выделением энергии суммарная масса покоя продуктов меньше массы исходных частиц. Разность Δm соответствует энергии E = Δmc². Число нуклонов и заряд по-прежнему сохраняются. Для рассматриваемых лёгких ядер продукты в целом прочнее связаны. Формула здесь дополнительная: фотография называет синтез, но не уточняет расчёт дефекта массы. В численных задачах дополнения c дано.",
+        "In an energy-releasing reaction, the total rest mass of the products is less than that of the reactants. Nucleon number and charge still balance. For the relevant light nuclei, products are more tightly bound overall.\n\n**Extended:** the difference Δm corresponds to energy E = Δmc².",
+        "В реакции с выделением энергии суммарная масса покоя продуктов меньше суммарной массы покоя исходных частиц. Число нуклонов (nucleon number) и заряд при этом сохраняются. Для таких лёгких ядер продукты в целом связаны прочнее.\n\n**Для углублённых:** дефект массы Δm соответствует энергии E = Δmc².",
       ),
       s(
         "Compare without slogans",
         "Сравнение без упрощённых лозунгов",
-        "Fission splits a heavy nucleus; fusion joins light nuclei. Both are nuclear changes and can release much more energy per reaction than typical chemical changes. Fission can sustain a neutron-driven chain; fusion is not the same neutron branching process. D–T fusion does not produce the same heavy fission fragments, but its neutrons can activate surrounding materials and tritium is radioactive. “Fusion has no radioactive issues” is therefore too absolute.",
-        "При делении распадается тяжёлое ядро, при синтезе объединяются лёгкие. Оба процесса ядерные и могут выделять намного больше энергии на реакцию, чем типичные химические процессы. Деление поддерживает нейтронную цепь; синтез не является той же цепью ветвления. При D–T не возникают те же тяжёлые осколки, но нейтроны могут активировать окружающие материалы, а тритий радиоактивен. Поэтому «при синтезе нет радиоактивных проблем» слишком категорично.",
+        "Fission splits a heavy nucleus; fusion joins light nuclei. Both are nuclear changes and can release much more energy per reaction than typical chemical changes.\n\nFission can sustain a neutron-driven chain; fusion is not the same neutron branching process. D–T fusion does not produce the same heavy fission fragments, but its neutrons can activate surrounding materials and tritium is radioactive.\n\n“Fusion has no radioactive issues” is therefore too absolute.",
+        "При делении распадается тяжёлое ядро, при синтезе объединяются лёгкие. Оба процесса ядерные и могут выделять намного больше энергии на реакцию, чем типичные химические процессы.\n\nДеление поддерживает нейтронную цепную реакцию; синтез не является таким же разветвлённым нейтронным процессом. При D–T не возникают те же тяжёлые осколки, но нейтроны могут активировать окружающие материалы, а тритий радиоактивен.\n\nПоэтому «при синтезе нет радиоактивных проблем» слишком категорично.",
       ),
       s(
         "Recognise a criterion-A answer",
         "Признаки ответа по критерию A",
         "For “explain”, link charge repulsion to the need for close approach and kinetic energy. For “calculate”, show substitution, powers of ten and units. For “evaluate”, identify which part of a claim is supported, which part overreaches and what evidence is missing. You do not need a speculative prediction about commercial fusion to explain the physics correctly.",
-        "Для «explain» свяжи электрическое отталкивание с необходимостью сближения и большой кинетической энергии. Для «calculate» покажи подстановку, степени десяти и единицы. Для «evaluate» укажи подтверждённую часть утверждения, чрезмерное обобщение и недостающие сведения. Для правильного объяснения физики не нужно предсказывать сроки коммерческого синтеза.",
+        "Если в задании «explain» (объясни), свяжи электрическое отталкивание ядер с необходимостью тесного сближения и большой кинетической энергии. Если в задании «calculate» (вычисли), покажи подстановку значений, степени десяти и единицы измерения.\n\nЕсли в задании «evaluate» (оцени), укажи, какая часть утверждения подтверждена, какая выходит за рамки доказанного и каких доказательств не хватает. Чтобы правильно объяснить физику, не нужны предположительные прогнозы о коммерческом синтезе.",
       ),
     ],
     formulas: [
@@ -916,7 +916,7 @@ export const lessons: Lesson[] = [
         "Уравняй ²₁H + ³₁H → ⁴₂He + X и определи X.",
         b(
           "Mass-number balance: 2 + 3 = 4 + A, so A = 1. Charge balance: 1 + 1 = 2 + Z, so Z = 0.",
-          "Баланс массовых чисел: 2 + 3 = 4 + A, значит A = 1. Зарядов: 1 + 1 = 2 + Z, значит Z = 0.",
+          "Баланс массовых чисел: 2 + 3 = 4 + A, значит A = 1. Баланс зарядов: 1 + 1 = 2 + Z, значит Z = 0.",
         ),
         b(
           "X is a neutron, ¹₀n. The reaction is fusion because light nuclei combine.",
@@ -924,15 +924,15 @@ export const lessons: Lesson[] = [
         ),
       ),
       w(
-        "Extension: a reaction has mass defect 3.0 × 10⁻²⁹ kg. Use c = 3.0 × 10⁸ m/s to calculate energy.",
-        "Дополнение: дефект массы 3,0 × 10⁻²⁹ кг. Используй c = 3,0 × 10⁸ м/с и вычисли энергию.",
+        "Extended: a reaction has mass defect 3.0 × 10⁻²⁹ kg. Use c = 3.0 × 10⁸ m/s to calculate energy.",
+        "Для углублённых: дефект массы 3,0 × 10⁻²⁹ кг. Используй c = 3,0 × 10⁸ м/с и вычисли энергию.",
         b(
-          "c² = 9.0 × 10¹⁶ m²/s². E = 3.0 × 10⁻²⁹ × 9.0 × 10¹⁶.",
-          "c² = 9,0 × 10¹⁶ м²/с². E = 3,0 × 10⁻²⁹ × 9,0 × 10¹⁶.",
+          "c² = 9.0 × 10¹⁶ m²/s². E = 3.0 × 10⁻²⁹ × 9.0 × 10¹⁶.",
+          "c² = 9,0 × 10¹⁶ м²/с². E = 3,0 × 10⁻²⁹ × 9,0 × 10¹⁶.",
         ),
         b(
-          "E = 2.7 × 10⁻¹² J. Squaring c means squaring both 3.0 and the power of ten.",
-          "E = 2,7 × 10⁻¹² Дж. При возведении c в квадрат возводятся и 3,0, и степень десяти.",
+          "E = 2.7 × 10⁻¹² J. Squaring c means squaring both 3.0 and the power of ten.",
+          "E = 2,7 × 10⁻¹² Дж. При возведении c в квадрат возводятся и 3,0, и степень десяти.",
         ),
       ),
     ],
@@ -943,7 +943,7 @@ export const lessons: Lesson[] = [
       ),
       b(
         "Conserving A does not require the exact total rest mass to remain unchanged.",
-        "Сохранение A не требует неизменности точной суммарной массы покоя.",
+        "Сохранение массового числа A не требует неизменности точной суммарной массы покоя.",
       ),
     ],
   },

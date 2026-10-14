@@ -459,14 +459,14 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
   },
   "fusion": {
     "englishTerm": "fusion",
-    "russianTerm": "ядерный синтез",
+    "russianTerm": "термоядерный синтез",
     "contrast": {
       "en": "D + T produces helium-4 and a neutron; it is not a chemical joining of complete atoms.",
       "ru": "D + T дают гелий-4 и нейтрон; это не химическое объединение целых атомов."
     },
     "model": {
-      "en": "Fusion of the relevant light nuclei can release energy. D–T is a teaching example, not the main solar reaction chain.",
-      "ru": "Синтез рассматриваемых лёгких ядер может выделять энергию. D–T — учебный пример, а не главная цепь реакций Солнца."
+      "en": "Fusion of the relevant light nuclei can release energy.",
+      "ru": "Синтез рассматриваемых лёгких ядер может выделять энергию."
     },
     "sources": [
       {
@@ -1098,14 +1098,14 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
   },
   "fusion": {
     "englishTerm": "fusion",
-    "russianTerm": "ядерный синтез",
+    "russianTerm": "термоядерный синтез",
     "contrast": {
       "en": "D + T produces helium-4 and a neutron; it is not a chemical joining of complete atoms.",
       "ru": "D + T дают гелий-4 и нейтрон; это не химическое объединение целых атомов."
     },
     "model": {
-      "en": "Fusion of the relevant light nuclei can release energy. D–T is a teaching example, not the main solar reaction chain.",
-      "ru": "Синтез рассматриваемых лёгких ядер может выделять энергию. D–T — учебный пример, а не главная цепь реакций Солнца."
+      "en": "Fusion of the relevant light nuclei can release energy.",
+      "ru": "Синтез рассматриваемых лёгких ядер может выделять энергию."
     },
     "sources": [
       {

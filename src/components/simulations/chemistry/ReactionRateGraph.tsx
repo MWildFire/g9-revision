@@ -12,7 +12,7 @@ export function ReactionRateGraph() {
   const curve = (k: number) => Array.from({ length: 61 }, (_, time) => `${time ? 'L' : 'M'}${x(time)},${y(reactionVolume(time, k))}`).join(' ');
   const title = ru ? 'Скорость и конечный объём газа' : 'Rate and final volume of gas';
   const description = ru
-    ? 'Две модельные кривые объёма газа от времени: более крутая растёт в начале быстрее. Обе выходят на 50 см³, потому что расходуется одинаковое количество реагента, находящегося в недостатке (limiting reactant). Это модель: она не учитывает утечки и побочные реакции, а измеренных точек на графике нет.'
+    ? 'Две модельные кривые зависимости объёма газа от времени: более крутая растёт в начале быстрее. Обе кривые выходят на уровень 50 см³, потому что расходуется одинаковое количество реагента, находящегося в недостатке (limiting reactant). Это модель: она не учитывает утечки и побочные реакции, а измеренных точек на графике нет.'
     : 'Two model curves of gas volume against time: the steeper one rises faster at the start. Both level off at 50 cm³, because the same amount of limiting reactant is used up. This is a model: it assumes no leaks and no side reactions, and no measured points are shown.';
   return <><figure className="bg-bg-secondary border border-border rounded-md p-4 my-4">
     <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={title}>

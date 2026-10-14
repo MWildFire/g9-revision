@@ -598,8 +598,8 @@
         },
         {
           "kind": "ts",
-          "file": "src/content/formulaTeaching.ts",
-          "export": "formulaTeaching",
+          "file": "src/content/chemBioFormulaTeaching.ts",
+          "export": "chemBioFormulaTeaching",
           "ids": [
             "rate"
           ]

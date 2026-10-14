@@ -94,7 +94,7 @@
       "electronsLabel": "Electrons",
       "electronsHint": "(neutral atom, so equal to Z)",
       "configLabel": "Electron configuration",
-      "shellNote": "Each number is the count of electrons in one shell, counted from the nucleus outwards. The numbers add up to Z. Potassium (Z = 19) has 2,8,8,1: one electron is already in the fourth shell, although the third shell can take 18 and has only 8.",
+      "shellNote": "Each number is the count of electrons in one shell, counted from the nucleus outwards. The numbers add up to Z. Potassium (Z = 19) has 2, 8, 8, 1: one electron is already in the fourth shell, although the third shell can take 18 and has only 8.",
       "elements": {
         "1": "Hydrogen",
         "2": "Helium",
@@ -155,7 +155,7 @@
       "inputVolume": "Gas volume (dm³)",
       "molarMassInputLabel": "Molar mass M (g/mol)",
       "presetLabel": "Preset molar masses (g/mol)",
-      "stpNote": "Gas volumes here use STP: 0 °C, 273 K, 100 kPa, where Vm = 22.7 dm³/mol. Normal conditions (0 °C, 101.325 kPa) give Vm = 22.4 dm³/mol, so do not mix the two values.",
+      "stpNote": "Gas volumes here use STP: 0 °C, 273 K, 100 kPa, where Vm = 22.7 dm³/mol. Normal conditions (0 °C, 101.325 kPa) give Vm = 22.4 dm³/mol.",
       "invalidInput": "Enter a number that is zero or more. Mass conversions also need a molar mass greater than zero.",
       "review": {
         "englishTerm": "Molar volume",
@@ -774,7 +774,7 @@
       },
       "graphs": {
         "title": "Drawing rate graphs [H]",
-        "body": "On a graph of amount against time, product curves rise and reactant curves fall. To find the rate at one moment, draw a tangent to the curve and measure its slope. For a reactant, the rate is the negative of the slope. A flat part means no further measured change: the reaction has finished or reached equilibrium. Worked example: a tangent to a reactant curve passes through the points (10 s, 0.80 mol dm⁻³) and (20 s, 0.50 mol dm⁻³). Its slope is (0.50 − 0.80) ÷ (20 − 10) = −0.030 mol dm⁻³ s⁻¹. For a reactant, the rate is the negative of the slope, so the rate is 0.030 mol dm⁻³ s⁻¹.",
+        "body": "On a graph of amount against time, product curves rise and reactant curves fall. To find the rate at one moment, draw a tangent to the curve and measure its slope. For a reactant, the rate is the negative of the slope. A flat part means no further measured change: the reaction has finished or reached equilibrium. Worked example: two points on the tangent to the reactant curve are (10 s, 0.80 mol/dm³) and (20 s, 0.50 mol/dm³). Its slope is (0.50 − 0.80) ÷ (20 − 10) = −0.030 mol/(dm³·s). For a reactant, the rate is the negative of the slope, so the rate is 0.030 mol/(dm³·s).",
         "review": {
           "englishTerm": "Drawing rate graphs",
           "russianTerm": "Графики скорости",
@@ -831,7 +831,7 @@
     "intro": "Extension: topics beyond the G9 list, and a more detailed look at its topics. Read these after the main topics, not instead of them.",
     "organic": {
       "title": "Organic chemistry — intro",
-      "body": "Organic chemistry studies carbon compounds, their structures and their reactions. Hydrocarbons contain only carbon and hydrogen. Alkanes without a ring have the formula CₙH₂ₙ₊₂; alkenes with one C=C double bond have CₙH₂ₙ. A functional group is a group of atoms that determines a compound's characteristic reactions: –OH in alcohols and –COOH in carboxylic acids.",
+      "body": "Organic chemistry studies carbon compounds, their structures and their reactions. Hydrocarbons contain only carbon and hydrogen. Alkanes without a ring have the formula CₙH₂ₙ₊₂; alkenes without a ring and with one C=C double bond have CₙH₂ₙ. A functional group is a group of atoms that determines a compound's characteristic reactions: –OH in alcohols and –COOH in carboxylic acids.",
       "review": {
         "englishTerm": "Organic chemistry — intro",
         "russianTerm": "Введение в органическую химию",
@@ -893,7 +893,7 @@
         "russianTerm": "Электрохимия",
         "contrast": {
           "en": "Do not mix up the signs. In an electrolytic cell the cathode is negative and the anode positive; in a galvanic cell the signs are reversed.",
-          "ru": "Не путай знаки электродов. В электролитической ячейке катод отрицателен, а анод положителен; в гальваническом элементе знаки меняются на противоположные."
+          "ru": "Не путай знаки электродов. При электролизе катод отрицателен, а анод положителен; в гальваническом элементе знаки меняются на противоположные."
         },
         "sources": [
           {
@@ -1024,8 +1024,8 @@
           "englishTerm": "Atomic structure",
           "russianTerm": "Строение атома",
           "contrast": {
-            "en": "Electrons add almost no mass: one electron is about 1836 times less massive than a proton. So mass number A does not count electrons, and an ion has almost the same mass as its atom.",
-            "ru": "Электроны почти не дают массы: один электрон примерно в 1836 раз легче протона. Поэтому электроны не входят в массовое число A, и масса иона почти равна массе атома."
+            "en": "Electrons add almost no mass, so mass number A does not count them, and an ion has almost the same mass as its atom.",
+            "ru": "Электроны почти не дают массы, поэтому они не входят в массовое число A, и масса иона почти равна массе атома."
           },
           "sources": [
             {
@@ -1052,8 +1052,8 @@
             "ru": "Одинаковое массовое число ещё не значит, что это один элемент: у углерода-14 и азота-14 A = 14, а Z — 6 и 7 соответственно."
           },
           "model": {
-            "en": "For hydrogen the mass difference is large: deuterium (hydrogen-2) is about twice as heavy as hydrogen-1, so reactions in which a bond to deuterium breaks can run noticeably slower.",
-            "ru": "У водорода разница в массе велика: дейтерий (deuterium, водород-2) примерно вдвое тяжелее обычного водорода (водород-1). Поэтому реакции, в которых рвётся связь с дейтерием, могут идти заметно медленнее."
+            "en": "For hydrogen the mass difference is large: deuterium (hydrogen-2) is about twice as heavy as hydrogen-1, so heavy water (D₂O) is denser than ordinary water.",
+            "ru": "У водорода разница в массе велика: дейтерий (deuterium, водород-2) примерно вдвое тяжелее обычного водорода (водород-1). Поэтому тяжёлая вода (D₂O) плотнее обычной."
           },
           "visual": {
             "kind": "comparison",
@@ -1151,8 +1151,8 @@
             "ru": "В старом обозначении «группа 7» (VIIA) — галогены, а по ИЮПАК в группе 7 — марганец, переходный металл (transition metal). Галогены в нумерации ИЮПАК — группа 17."
           },
           "model": {
-            "en": "So argon (relative atomic mass 39.95) comes before potassium (relative atomic mass 39.10), even though argon’s relative atomic mass is larger.",
-            "ru": "Поэтому аргон (относительная атомная масса 39,95) стоит раньше калия (относительная атомная масса 39,10), хотя его относительная атомная масса больше."
+            "en": "Argon (relative atomic mass 39.95) comes before potassium (relative atomic mass 39.10), even though argon’s relative atomic mass is larger.",
+            "ru": "Аргон (относительная атомная масса 39,95) стоит раньше калия (относительная атомная масса 39,10), хотя его относительная атомная масса больше."
           },
           "sources": [
             {
@@ -1175,8 +1175,8 @@
           "englishTerm": "How properties change down a group",
           "russianTerm": "Как меняются свойства в группах",
           "contrast": {
-            "en": "Reactivity of alkali metals increases down group 1, but their melting points decrease. A trend in one property does not predict another.",
-            "ru": "Реакционная способность щелочных металлов растёт вниз по группе 1, а температура плавления падает. Закономерность для одного свойства не позволяет предсказать другое."
+            "en": "Melting points of alkali metals fall down group 1. A trend in one property does not predict another.",
+            "ru": "Температура плавления щелочных металлов вниз по группе падает. Закономерность для одного свойства не позволяет предсказать другое."
           },
           "model": {
             "en": "These group patterns apply to main-group elements. Do not apply them to transition metals (groups 3–12), which can have several oxidation states.",
@@ -1724,8 +1724,8 @@
           "englishTerm": "Calculations from equations",
           "russianTerm": "Расчёты по уравнению реакции",
           "contrast": {
-            "en": "Inverting the ratio is a common mistake. In CH₄ + 2O₂ → CO₂ + 2H₂O, 0.50 mol CH₄ gives 1.0 mol H₂O, not 0.25 mol. The product's coefficient (2) goes on top.",
-            "ru": "Частая ошибка — перевернуть отношение. В реакции CH₄ + 2O₂ → CO₂ + 2H₂O из 0,50 моль CH₄ получается 1,0 моль H₂O, а не 0,25 моль. Коэффициент продукта (2) ставят в числитель."
+            "en": "Inverting the ratio is a common mistake. In CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), 0.50 mol CH₄ gives 1.0 mol H₂O, not 0.25 mol. The product's coefficient (2) goes on top.",
+            "ru": "Частая ошибка — перевернуть отношение. В реакции CH₄(г) + 2O₂(г) → CO₂(г) + 2H₂O(ж) из 0,50 моль CH₄ получается 1,0 моль H₂O, а не 0,25 моль. Коэффициент продукта (2) ставят в числитель."
           },
           "sources": [
             {
@@ -1799,8 +1799,8 @@
           "englishTerm": "Limiting reactant",
           "russianTerm": "Вещество в недостатке",
           "contrast": {
-            "en": "The limiting reactant does not always leave an excess. If the amounts are in the same ratio as the coefficients, both reactants run out together. For 2H₂ + O₂ → 2H₂O, 0.40 mol H₂ and 0.20 mol O₂ react with nothing left over.",
-            "ru": "Вещество в недостатке не всегда означает, что другой реагент взят в избытке. Если количества вещества реагентов относятся друг к другу так же, как коэффициенты, оба реагента заканчиваются одновременно. Для 2H₂ + O₂ → 2H₂O смесь из 0,40 моль H₂ и 0,20 моль O₂ прореагирует без остатка."
+            "en": "The limiting reactant does not always leave an excess. If the amounts are in the same ratio as the coefficients, both reactants run out together. For 2H₂(g) + O₂(g) → 2H₂O(l), 0.40 mol H₂ and 0.20 mol O₂ react with nothing left over.",
+            "ru": "Вещество в недостатке не всегда означает, что другой реагент взят в избытке. Если количества вещества реагентов относятся друг к другу так же, как коэффициенты, оба реагента заканчиваются одновременно. Для 2H₂(г) + O₂(г) → 2H₂O(ж) смесь из 0,40 моль H₂ и 0,20 моль O₂ прореагирует без остатка."
           },
           "sources": [
             {
@@ -1831,8 +1831,8 @@
           "englishTerm": "Percentage yield",
           "russianTerm": "Выход продукта, %",
           "contrast": {
-            "en": "Divide by the theoretical mass of product, not by the mass of reactant you started with. For 2Mg + O₂ → 2MgO with 4.8 g of magnesium, the theoretical mass of MgO is 8.0 g. If 6.4 g is obtained, the yield is 6.4/8.0 × 100 = 80%. Dividing by 4.8 g gives a wrong 133%.",
-            "ru": "Дели на теоретическую массу продукта, а не на массу взятого реагента. В реакции 2Mg + O₂ → 2MgO из 4,8 г магния теоретическая масса MgO равна 8,0 г. Если получено 6,4 г, выход равен 6,4/8,0 × 100 = 80 %. Деление на 4,8 г даёт неверные 133 %."
+            "en": "Divide by the theoretical mass of product, not by the mass of reactant you started with. For 2Mg(s) + O₂(g) → 2MgO(s) with 4.8 g of magnesium, the theoretical mass of MgO is 8.0 g. If 6.4 g is obtained, the yield is 6.4/8.0 × 100 = 80%. Dividing by 4.8 g gives a wrong 133%.",
+            "ru": "Дели на теоретическую массу продукта, а не на массу взятого реагента. В реакции 2Mg(тв) + O₂(г) → 2MgO(тв) из 4,8 г магния теоретическая масса MgO равна 8,0 г. Если получено 6,4 г, выход равен 6,4/8,0 × 100 = 80 %. Деление на 4,8 г даёт неверные 133 %."
           },
           "sources": [
             {

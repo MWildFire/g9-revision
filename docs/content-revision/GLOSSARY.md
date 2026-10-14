@@ -168,6 +168,24 @@
 | primary cell | первичный элемент | первичн |
 | rechargeable cell | перезаряжаемый элемент | перезаряжаем |
 | lithium-ion | литий-ионный | литий-ион |
+| stationary phase | неподвижная фаза | неподвижн |
+| mobile phase | подвижная фаза | подвижн |
+| shielding | экранирование | экранирован |
+| dispersion forces | дисперсионные силы | дисперсионн |
+| deuterium | дейтерий | дейтери |
+| filtrate | фильтрат | фильтрат |
+| outer shell | внешний слой | внешн |
+| period | период | период |
+| group | группа | групп |
+| main group | главная группа | главн |
+| effective collision | эффективное столкновение | эффективн |
+| alkenes | алкены | алкен |
+| hydrocarbons | углеводороды | углеводород |
+| functional group | функциональная группа | функциональн |
+| organic chemistry | органическая химия | органическ |
+| catalyst poisoning | отравление катализатора | отравлен |
+| Maxwell–Boltzmann curve | кривая Максвелла–Больцмана | Максвелл |
+| rate-determining step | самая медленная стадия | медленн |
 | reactivity series | ряд активности металлов | активност |
 | basic oxide | основный оксид | основн |
 | carbonate | карбонат | карбонат |

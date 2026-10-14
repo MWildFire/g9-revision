@@ -353,9 +353,6 @@ function LessonPage({ store }: { store: Store }) {
       </p>
       <h1>{txt(lesson.title)}</h1>
       <p className="nuclear-lead">{txt(lesson.intro)}</p>
-      <p className="nuclear-caption">
-        {t("Photo checklist", "Пункт фотографии")}: {t(lesson.photoTopic, lesson.photoTopicRu ?? lesson.photoTopic)}
-      </p>
       <div className="nuclear-contents">
         <strong>{t("In this lesson", "В этой теме")}</strong>
         {lesson.sections.map((s, i) => (

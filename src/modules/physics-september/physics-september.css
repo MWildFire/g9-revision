@@ -392,6 +392,13 @@
   margin: 15px auto;
   height: auto;
 }
+.nuclear-chart-scroll {
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.nuclear-chart-scroll > svg {
+  min-width: 560px;
+}
 .nuclear-visual > p {
   font-size: 0.88rem;
 }
@@ -603,22 +610,27 @@
   outline: 3px solid #357c9b;
   outline-offset: 4px;
 }
-.nuclear-course table {
+.nuclear-course table,
+.nuclear-table-wrap table {
   border-collapse: collapse;
   width: 100%;
   font-size: 0.85rem;
 }
 .nuclear-course th,
-.nuclear-course td {
+.nuclear-course td,
+.nuclear-table-wrap th,
+.nuclear-table-wrap td {
   padding: 12px;
   border-bottom: 1px solid #cad5c8;
   text-align: left;
   vertical-align: top;
 }
-.nuclear-course th {
+.nuclear-course th,
+.nuclear-table-wrap th {
   background: #e7eee3;
 }
-.nuclear-course caption {
+.nuclear-course caption,
+.nuclear-table-wrap caption {
   text-align: left;
   font-size: 0.8rem;
   margin-bottom: 8px;

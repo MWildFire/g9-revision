@@ -454,6 +454,15 @@ function DecayLab() {
           />
         </label>
       </div>
+      <div
+        className="nuclear-chart-scroll"
+        tabIndex={0}
+        role="region"
+        aria-label={t(
+          "Chart of expected count rates. Scroll horizontally on a narrow screen.",
+          "График ожидаемых скоростей счёта. На узком экране прокручивается по горизонтали.",
+        )}
+      >
       <svg
         viewBox="0 0 560 285"
         role="img"
@@ -528,6 +537,7 @@ function DecayLab() {
           fill="#b15c36"
         />
       </svg>
+      </div>
       <div className="nuclear-stats" aria-live="polite">
         <span>
           {t("Solid: net", "Сплошная: без фона")}{" "}
@@ -557,7 +567,7 @@ function DecayLab() {
           <tbody>
             {[0, 1, 2, 3, 4].map((n) => (
               <tr key={n}>
-                <td>{n * half} min</td>
+                <td>{n * half} {t("min", "мин")}</td>
                 <td>{initial / 2 ** n}</td>
                 <td>{initial / 2 ** n + background}</td>
               </tr>

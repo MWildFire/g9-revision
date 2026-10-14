@@ -255,12 +255,12 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "englishTerm": "count rate",
     "russianTerm": "скорость счёта",
     "contrast": {
-      "en": "Subtract background rate from source-plus-background rate, not raw counts taken over different times.",
-      "ru": "Из скорости счёта с источником вычитай фоновую скорость, а не числа отсчётов за разные интервалы."
+      "en": "Total rate (source plus background) is not the net rate. To get the net rate, subtract the background rate from the total.",
+      "ru": "Полная скорость (источник и фон) — не чистая скорость. Чтобы получить чистую скорость, вычти фоновую скорость из полной."
     },
     "model": {
-      "en": "Detector geometry, efficiency and dead time affect counts; count rate alone cannot determine dose.",
-      "ru": "На счёт влияют геометрия, эффективность и мёртвое время детектора; по одному счёту нельзя определить дозу."
+      "en": "The detector covers only part of the space around the source, so it records only some of the decays.",
+      "ru": "Детектор охватывает лишь часть пространства вокруг источника, поэтому регистрирует только часть распадов."
     },
     "sources": [
       {
@@ -287,38 +287,7 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
         "language": "en",
         "section": "31.2 Geiger tube: registered counts and incomplete detection efficiency"
       }
-    ],
-    "visual": {
-      "kind": "flow",
-      "title": {
-        "en": "Source and detector are different stages",
-        "ru": "Источник и детектор: разные этапы"
-      },
-      "items": [
-        {
-          "label": {
-            "en": "Source: 200 decays/s on average",
-            "ru": "Источник: в среднем 200 распадов/с"
-          }
-        },
-        {
-          "label": {
-            "en": "Detected from the source: 40 counts/s",
-            "ru": "От источника зарегистрировано: 40 имп/с"
-          }
-        },
-        {
-          "label": {
-            "en": "Add background 5 counts/s → total 45 counts/s",
-            "ru": "Добавь фон 5 имп/с → всего 45 имп/с"
-          }
-        }
-      ],
-      "caption": {
-        "en": "Illustrative numbers for one setup: the source has an activity of 200 Bq, the detector registers 40 counts/s from it, and background adds 5 counts/s.",
-        "ru": "Для наглядности, на одной установке: активность источника 200 Бк, от него детектор регистрирует 40 имп/с, а фон добавляет 5 имп/с."
-      }
-    }
+    ]
   },
   "half-life": {
     "englishTerm": "half-life",
@@ -356,8 +325,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "englishTerm": "background",
     "russianTerm": "радиационный фон",
     "contrast": {
-      "en": "Background includes natural and artificial contributions; detector noise can also contribute to a measured background count.",
-      "ru": "Фон включает природные и искусственные источники; в измеренный фоновый счёт может входить и шум детектора."
+      "en": "Background radiation is natural radiation from the environment. A measured background count can also include counts from the detector's own noise.",
+      "ru": "Радиационный фон — естественное излучение окружающей среды. Измеренный фоновый счёт может включать собственный шум детектора."
     },
     "model": {
       "en": "Measure a background rate in the same setup and compare rates with matching units.",
@@ -936,12 +905,12 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "englishTerm": "count rate",
     "russianTerm": "скорость счёта",
     "contrast": {
-      "en": "Subtract background rate from source-plus-background rate, not raw counts taken over different times.",
-      "ru": "Из скорости счёта с источником вычитай фоновую скорость, а не числа отсчётов за разные интервалы."
+      "en": "Total rate (source plus background) is not the net rate. To get the net rate, subtract the background rate from the total.",
+      "ru": "Полная скорость (источник и фон) — не чистая скорость. Чтобы получить чистую скорость, вычти фоновую скорость из полной."
     },
     "model": {
-      "en": "Detector geometry, efficiency and dead time affect counts; count rate alone cannot determine dose.",
-      "ru": "На счёт влияют геометрия, эффективность и мёртвое время детектора; по одному счёту нельзя определить дозу."
+      "en": "The detector covers only part of the space around the source, so it records only some of the decays.",
+      "ru": "Детектор охватывает лишь часть пространства вокруг источника, поэтому регистрирует только часть распадов."
     },
     "sources": [
       {
@@ -997,19 +966,19 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
         {
           "label": {
             "en": "Detected source events: 40 counts/s",
-            "ru": "Обнаружено от источника: 40 имп./с"
+            "ru": "Обнаружено от источника: 40 импульсов в секунду"
           }
         },
         {
           "label": {
             "en": "Add background 5 → total 45 counts/s",
-            "ru": "Добавь фон 5 → всего 45 имп./с"
+            "ru": "Добавь фон 5 → всего 45 импульсов в секунду"
           }
         }
       ],
       "caption": {
-        "en": "Illustrative numbers for a fixed setup: detector losses and background prevent equating count rate with activity.",
-        "ru": "Условные числа для фиксированной установки: потери регистрации и фон не позволяют приравнивать счёт к активности."
+        "en": "Illustrative numbers for one fixed setup. The count rate (45 counts/s) is not the activity (200 decays/s).",
+        "ru": "Условные числа для одной установки. Скорость счёта (45 импульсов в секунду) — не активность источника (200 распадов в секунду)."
       }
     }
   },

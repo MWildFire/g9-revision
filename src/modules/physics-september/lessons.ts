@@ -556,60 +556,60 @@ export const lessons: Lesson[] = [
     visual: "decay",
     intro: b(
       "A detector reading is a mixture of source and background events. Turn raw counts into comparable rates before drawing a conclusion.",
-      "Показание детектора содержит события от источника и фона. Переводи числа импульсов в сопоставимые скорости, прежде чем делать вывод.",
+      "Показание детектора (detector) — это смесь событий от источника и радиационного фона (background radiation). Переводи числа импульсов в сопоставимые скорости счёта (count rate), прежде чем делать вывод.",
     ),
     sections: [
       s(
-        "Where background comes from",
-        "Откуда берётся фон",
-        "Natural sources include cosmic radiation, radioactive rocks and soil, radon gas and naturally occurring radioisotopes in living things. Human-related exposure includes medical imaging and small contributions from releases or fallout, depending on place and history. “Natural” describes origin, not harmlessness. Medical exposure is often listed with human-made exposure, though it is not normally part of the ambient room background measured by a school detector.",
-        "Природные источники — космическое излучение, радиоактивные породы и почва, радон и природные радиоизотопы в живых организмах. К связанным с человеком воздействиям относятся медицинская диагностика и зависящие от места и истории выбросы или выпадения. «Природное» описывает происхождение, а не безвредность. Медицинское воздействие часто выделяют среди искусственных источников, но оно обычно не входит в комнатный фон школьного счётчика.",
+        "Where natural background comes from",
+        "Откуда берётся естественный фон",
+        "Natural sources include cosmic radiation, radioactive rocks and soil, radon gas in the air, and radioisotopes in food and in the human body.\n\nArtificial sources, such as medical X-ray machines, are made by people. They are not part of this natural background. “Natural” describes origin, not harmlessness.\n\nRadioactive contamination is different. It is radioactive material that has got onto a surface, into the air or into a sample, and it is not part of the background.",
+        "Природные источники — космическое излучение (cosmic radiation), радиоактивные породы и почва, радон в воздухе и радиоизотопы (radioisotopes) в пище и теле человека.\n\nИскусственные источники (artificial sources), например медицинские рентгеновские аппараты, создаёт человек. В этот естественный фон они не входят. «Природное» описывает происхождение, а не безвредность.\n\nРадиоактивное загрязнение — другое явление: это радиоактивные вещества, попавшие на поверхность, в воздух или в образец. Они не входят в фон.",
       ),
       s(
         "Why locations differ",
         "Почему места отличаются",
-        "Higher altitude generally gives greater cosmic exposure because there is less atmosphere above. Geology, building materials and ventilation affect radon-related background. Occupation and time spent in different environments also matter. A pie chart from one country and year is not a universal distribution; use the chart supplied in the question instead of memorising unsupported percentages.",
-        "На большей высоте космическое воздействие обычно выше: сверху меньше атмосферы. Геология, строительные материалы и вентиляция влияют на фон от радона. Важны профессия и время в разных условиях. Диаграмма одной страны и года не универсальна: используй данные задачи вместо заучивания неподтверждённых процентов.",
+        "Higher altitude generally means more cosmic radiation, because there is less atmosphere above. Radon comes from soil, rocks and building materials, and it builds up in closed rooms.\n\nSo geology, building materials and ventilation all affect the radon-related background. Occupation and time spent in different environments also matter. The shares of each source depend on the country and the year, so do not memorise one set of percentages as universal.",
+        "На большей высоте космического излучения обычно больше: сверху меньше атмосферы. Радон образуется в почве, горных породах и стройматериалах и накапливается в закрытых помещениях.\n\nПоэтому на фон от радона влияют геология, строительные материалы и вентиляция. Важны также профессия и время, которое человек проводит в разных условиях. Доли источников зависят от страны и года, поэтому не заучивай один набор процентов как общий.",
       ),
       s(
-        "Correct different counting intervals",
-        "Поправка при разном времени счёта",
-        "Measure background without the added source in the same location. Divide background counts by background time, and source-plus-background counts by their own time. Only then subtract the rates. Longer counting reduces relative random fluctuations. Keep the detector position and settings fixed; moving the source changes count rate without necessarily changing its activity.",
-        "Измеряй фон без добавленного источника в том же месте. Раздели фоновые импульсы на время измерения фона, а импульсы с источником — на их собственное время. Только затем вычитай скорости. Длительный счёт уменьшает относительные случайные колебания. Положение и настройки детектора сохраняй: перемещение источника меняет счёт, но не обязательно активность.",
+        "Correcting for different counting times",
+        "Учёт разного времени счёта",
+        "Measure background without the added source in the same location. Divide background counts by background time, and source-plus-background counts by their own time. Only then subtract the rates.\n\nLonger counting reduces relative random fluctuations. Keep the detector position and settings fixed; moving the source changes count rate without necessarily changing its activity.",
+        "Измеряй фон без добавленного источника в том же месте. Раздели число фоновых импульсов на время фонового счёта, а число импульсов с источником — на их собственное время. Только затем вычитай скорости счёта.\n\nДлительный счёт уменьшает относительные случайные колебания. Положение и настройки детектора сохраняй: перемещение источника меняет скорость счёта, но не обязательно его активность (activity).",
       ),
       s(
         "Dose units are not activity units",
         "Единицы дозы — не единицы активности",
-        "Bq means decays per second. Counts/s describes a detector. Gy describes absorbed energy per kilogram. Sv is used for equivalent or effective dose with relevant weighting; mSv = 10⁻³ Sv and μSv = 10⁻⁶ Sv. For a constant dose rate, dose = rate × time, with matching units. These unit distinctions support comparisons; a count rate alone does not determine a person’s dose.",
-        "Бк — распады в секунду. Имп/с — показатель детектора. Гр — поглощённая энергия на килограмм. Зв применяется для эквивалентной или эффективной дозы с соответствующими коэффициентами; мЗв = 10⁻³ Зв, мкЗв = 10⁻⁶ Зв. При постоянной мощности дозы доза = мощность × время с согласованными единицами. По одной скорости счёта нельзя найти дозу человека.",
+        "1 Bq = 1 decay per second. Counts/s is a detector reading, not a property of the source.\n\nGy measures absorbed dose: 1 joule of energy absorbed per kilogram of material. Sv measures equivalent or effective dose, which allows for how harmful the radiation is. mSv = 10⁻³ Sv and μSv = 10⁻⁶ Sv.\n\nFor a constant dose rate, dose = rate × time, with matching units. Keep the units apart: a count rate alone does not determine a person’s dose.",
+        "1 Бк = 1 распад в секунду. Импульсы в секунду — показание детектора, а не свойство источника.\n\nГр — единица поглощённой дозы: 1 Дж энергии на килограмм вещества. Зв — единица эквивалентной или эффективной дозы: она учитывает, насколько опасно излучение. мЗв = 10⁻³ Зв, мкЗв = 10⁻⁶ Зв.\n\nПри постоянной мощности дозы доза = мощность дозы × время, и единицы должны совпадать. Не смешивай единицы: по одной скорости счёта нельзя найти дозу человека.",
       ),
       s(
         "Evaluate a small difference",
         "Как оценить небольшую разницу",
-        "If one reading is slightly above another, random variation may explain the difference. Repeat and average before claiming an effect. A negative background-subtracted result near zero does not mean negative radioactivity: it can arise from fluctuations and should be interpreted as consistent with no detectable added signal within uncertainty. A full statistical significance calculation is beyond the core checklist.",
-        "Если одно показание немного выше другого, разницу может объяснить случайность. Повтори и усредни измерения до вывода об эффекте. Отрицательный результат после вычитания фона около нуля не означает отрицательную радиоактивность: так проявляются флуктуации. Это может быть совместимо с отсутствием обнаружимого дополнительного сигнала в пределах неопределённости. Полный расчёт статистической значимости выходит за основной список.",
+        "If one reading is slightly above another, random variation may explain the difference. Repeat and average before claiming an effect.\n\nA negative background-subtracted result near zero does not mean negative radioactivity: it can arise from fluctuations and should be interpreted as consistent with no detectable added signal within uncertainty.",
+        "Если одно показание немного больше другого, разницу может объяснить случайная изменчивость. Повтори измерения и найди среднее, прежде чем говорить об эффекте.\n\nОтрицательный результат после вычитания фона около нуля не означает отрицательную радиоактивность. Он может возникнуть из-за случайных колебаний. Такой результат стоит трактовать как согласующийся с отсутствием заметного дополнительного сигнала в пределах погрешности.",
       ),
     ],
     formulas: [
       "Rnet = Ctotal / ttotal − Cbackground / tbackground",
-      "1 Sv = 1,000 mSv = 1,000,000 μSv",
+      "1 Sv = 1000 mSv = 1000000 μSv",
     ],
     examples: [
       w(
-        "Background: 180 counts in 5 min. With source: 960 counts in 2 min. Find the net rate in counts/s.",
-        "Фон: 180 импульсов за 5 мин. С источником: 960 за 2 мин. Найди чистую скорость в имп/с.",
+        "Background: 180 counts in 5 min. With source: 960 counts in 2 min. Calculate the net count rate in counts/s.",
+        "Фон: 180 импульсов за 5 мин. С источником: 960 импульсов за 2 мин. Вычисли чистую скорость счёта в импульсах в секунду.",
         b(
           "Background = 180 / 300 = 0.6 counts/s; total = 960 / 120 = 8.0 counts/s.",
           "Фон 180 / 300 = 0,6 имп/с; полная скорость 960 / 120 = 8,0 имп/с.",
         ),
         b(
-          "Net = 8.0 − 0.6 = 7.4 counts/s. Subtracting 180 from 960 before dividing would mix unequal times.",
-          "Чистая скорость 8,0 − 0,6 = 7,4 имп/с. Вычитание 180 из 960 до деления смешало бы разные времена.",
+          "Net = 8.0 − 0.6 = 7.4 counts/s. This is the rate from the source alone.",
+          "Чистая скорость — 8,0 − 0,6 = 7,4 импульса в секунду. Это скорость, которую даёт только источник.",
         ),
       ),
       w(
-        "A fictional exposure is 2.5 μSv/h for 8 h. Express the dose in μSv and mSv.",
-        "В учебном примере мощность дозы 2,5 мкЗв/ч в течение 8 ч. Вырази дозу в мкЗв и мЗв.",
+        "In this fictional case, the dose rate is 2.5 μSv/h for 8 h. Express the dose in μSv and mSv.",
+        "В условном примере мощность дозы 2,5 мкЗв/ч в течение 8 ч. Вырази дозу в мкЗв и мЗв.",
         b("Dose = 2.5 × 8 = 20 μSv.", "Доза = 2,5 × 8 = 20 мкЗв."),
         b(
           "20 μSv = 0.020 mSv. This arithmetic alone does not establish a medical risk threshold.",
@@ -621,10 +621,6 @@ export const lessons: Lesson[] = [
       b(
         "Never subtract raw counts taken over different durations.",
         "Нельзя вычитать сырые числа импульсов за разные промежутки времени.",
-      ),
-      b(
-        "Do not equate background, activity, count rate and dose.",
-        "Не отождествляй фон, активность, скорость счёта и дозу.",
       ),
     ],
   },

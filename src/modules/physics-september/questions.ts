@@ -623,21 +623,21 @@ export const questions: Question[] = [
     "A(i)",
     "foundation",
     b(
-      "Give two natural sources of background radiation and explain one reason it varies by location.",
-      "Назови два природных источника фона и объясни одну причину его различий между местами.",
+      "State two natural sources of background radiation. Explain one reason why its level varies from place to place.",
+      "Назови два природных источника радиационного фона (background radiation). Объясни одну причину, почему его уровень меняется от места к месту.",
     ),
     b(
-      "Think about space, geology and atmosphere.",
-      "Подумай о космосе, геологии и атмосфере.",
+      "Think about radiation from space and from the ground.",
+      "Подумай об излучении из космоса и из земли.",
     ),
     b("Cosmic radiation.", "Космическое излучение."),
     b(
-      "Radioactive rocks/soil or radon gas.",
-      "Радиоактивные породы/почва или радон.",
+      "Radioactive rocks and soil, or radon gas.",
+      "Радиоактивные горные породы и почва или газ радон.",
     ),
     b(
       "For example, higher altitude means less atmospheric shielding against cosmic radiation.",
-      "Например, на большей высоте меньше атмосферная защита от космического излучения.",
+      "Например, на большей высоте над головой меньше атмосферы, поэтому защита от космического излучения слабее.",
     ),
   ),
   q(
@@ -646,16 +646,16 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "Background is 240 counts in 4 min. A source measurement is 1,560 counts in 2 min. Calculate net counts/min and counts/s.",
-      "Фон 240 импульсов за 4 мин, с источником 1560 за 2 мин. Найди чистый счёт в имп/мин и имп/с.",
+      "In a practice question, the background gives 240 counts in 4 min. With a source present, the detector records 1560 counts in 2 min. Calculate the net count rate in counts/min and in counts/s.",
+      "В учебной задаче фон даёт 240 импульсов за 4 мин. С источником прибор регистрирует 1560 импульсов за 2 мин. Вычисли чистую скорость счёта в импульсах в минуту и в импульсах в секунду.",
     ),
-    b("Use rates before subtracting.", "Перед вычитанием используй скорости."),
+    b("Convert both counts to rates before subtracting.", "Перед вычитанием переведи оба числа импульсов в скорости счёта."),
     b(
-      "Background 60 counts/min; total 780 counts/min.",
-      "Фон 60 имп/мин, полная скорость 780 имп/мин.",
+      "Background rate = 240 / 4 = 60 counts/min; total count rate = 1560 / 2 = 780 counts/min.",
+      "Скорость фона = 240 / 4 = 60 импульсов в минуту; полная скорость счёта = 1560 / 2 = 780 импульсов в минуту.",
     ),
-    b("Net = 720 counts/min.", "Чистая скорость 720 имп/мин."),
-    b("720 / 60 = 12 counts/s.", "720 / 60 = 12 имп/с."),
+    b("Net rate = 780 − 60 = 720 counts/min.", "Чистая скорость — 780 − 60 = 720 импульсов в минуту."),
+    b("720 counts/min ÷ 60 (seconds per minute) = 12 counts/s.", "720 импульсов в минуту ÷ 60 (секунд в минуте) = 12 импульсов в секунду."),
   ),
   q(
     "bg-3",
@@ -663,12 +663,12 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "A fictional dose rate is 0.8 μSv/h for 15 h. Calculate the dose in μSv and mSv.",
-      "Условная мощность дозы 0,8 мкЗв/ч действует 15 ч. Найди дозу в мкЗв и мЗв.",
+      "In this made-up question, the dose rate is 0.8 μSv/h for 15 h. Calculate the dose in μSv and in mSv.",
+      "В условной задаче мощность дозы 0,8 мкЗв/ч сохраняется в течение 15 ч. Вычисли дозу в мкЗв и в мЗв.",
     ),
     b("Multiply by time, then convert.", "Умножь на время и переведи единицы."),
-    b("Dose = 0.8 × 15 = 12 μSv.", "Доза 0,8 × 15 = 12 мкЗв."),
-    b("12 μSv = 0.012 mSv.", "12 мкЗв = 0,012 мЗв."),
+    b("Dose = dose rate × time = 0.8 μSv/h × 15 h = 12 μSv.", "Доза = мощность дозы × время = 0,8 мкЗв/ч × 15 ч = 12 мкЗв."),
+    b("12 μSv ÷ 1000 = 0.012 mSv, because 1 mSv = 1000 μSv.", "12 мкЗв ÷ 1000 = 0,012 мЗв, потому что 1 мЗв = 1000 мкЗв."),
   ),
   q(
     "bg-4",
@@ -676,24 +676,24 @@ export const questions: Question[] = [
     "A(iii)",
     "challenge",
     b(
-      "A one-minute count rises from 24 to 27 after a rock is placed near a detector. Is this enough to establish that the rock adds a signal? Explain and propose a better comparison.",
-      "За минуту счёт вырос с 24 до 27 после помещения камня рядом. Достаточно ли этого для вывода о дополнительном сигнале? Объясни и предложи лучшее сравнение.",
+      "Suppose the count in one minute rises from 24 to 27 when a rock is placed near the detector. Is this enough to show that the rock adds a signal? Explain, and suggest a better comparison.",
+      "Представь, что счёт за минуту вырос с 24 до 27, когда рядом с детектором положили камень. Достаточно ли этого, чтобы показать, что камень добавляет сигнал? Объясни и предложи лучшее сравнение.",
     ),
     b(
       "Consider random fluctuations and measurement conditions.",
       "Учти случайные колебания и условия измерения.",
     ),
     b(
-      "A difference of three in single short readings can arise from random fluctuations.",
-      "Разница в три импульса в коротких одиночных измерениях может быть случайной.",
+      "A difference of 3 counts (27 − 24) between single one-minute readings can be caused by random fluctuations.",
+      "Разница в 3 импульса (27 − 24) между одиночными измерениями за минуту может быть вызвана случайными колебаниями.",
     ),
     b(
-      "Repeat and average, or count for longer, both with and without the rock.",
-      "Повтори и усредни либо измеряй дольше с камнем и без него.",
+      "Repeat the measurements with and without the rock and average them, or count for longer.",
+      "Повтори измерения с камнем и без него и усредни их или измеряй дольше.",
     ),
     b(
-      "Keep position/settings fixed and compare corrected rates with their variability before a firm conclusion.",
-      "Сохраняй положение/настройки и сравни чистые скорости с их разбросом до уверенного вывода.",
+      "Keep the position and settings fixed. Compare the background-corrected rates with their spread before drawing a firm conclusion.",
+      "Сохраняй положение детектора и его настройки. Сравни скорости за вычетом фона с их разбросом, прежде чем делать уверенный вывод.",
     ),
   ),
   q(

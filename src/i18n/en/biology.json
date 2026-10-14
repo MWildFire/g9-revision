@@ -117,53 +117,53 @@
     },
     "heartDiagram": {
       "title": "Heart Diagram",
-      "description": "Trace pulmonary and systemic circulation through the four heart chambers. Arteries carry blood away from the heart; veins return it. The colour indicates relative oxygen content, not the blood's actual colour.",
-      "deoxygenated": "Deoxygenated",
-      "oxygenated": "Oxygenated",
-      "hoverHint": "Hover a chamber or vessel to see its function.",
-      "doubleCirc": "Double circulation: blood passes the heart TWICE per circuit — once for the body, once for the lungs.",
+      "description": "Follow the pulmonary and systemic circulation through the four chambers. Colours show relative oxygen content.",
+      "deoxygenated": "Deoxygenated blood",
+      "oxygenated": "Oxygenated blood",
+      "hoverHint": "Hover over a chamber or vessel (or use Tab to reach it) to see its function.",
+      "doubleCirc": "Double circulation: blood passes through the heart twice in one complete circuit of the body, first to the lungs and then to the rest of the body.",
       "chambers": {
         "ra": {
           "label": "Right atrium",
-          "desc": "Receives deoxygenated blood from the body via the vena cava."
+          "desc": "Receives deoxygenated blood and passes it into the right ventricle."
         },
         "rv": {
           "label": "Right ventricle",
-          "desc": "Pumps deoxygenated blood to the lungs via the pulmonary artery."
+          "desc": "Pumps deoxygenated blood into the pulmonary artery."
         },
         "la": {
           "label": "Left atrium",
-          "desc": "Receives oxygenated blood from the lungs via pulmonary veins."
+          "desc": "Receives oxygenated blood and passes it into the left ventricle."
         },
         "lv": {
           "label": "Left ventricle",
-          "desc": "Pumps oxygenated blood to the entire body via the aorta. Thickest wall (high pressure)."
+          "desc": "Pumps oxygenated blood into the aorta. Its wall is the thickest of the four chambers."
         }
       },
       "vessels": {
         "vc": {
           "label": "Vena cava",
-          "desc": "The superior and inferior venae cavae return relatively oxygen-poor blood from the body to the right atrium."
+          "desc": "The superior and inferior venae cavae carry deoxygenated blood from the body to the right atrium."
         },
         "pa": {
           "label": "Pulmonary artery",
-          "desc": "Carries relatively oxygen-poor blood from the right ventricle to the lungs; arteries are defined by flow away from the heart."
+          "desc": "Carries deoxygenated blood from the right ventricle to the lungs."
         },
         "pv": {
           "label": "Pulmonary vein",
-          "desc": "Carries relatively oxygen-rich blood from the lungs to the left atrium; veins return blood to the heart."
+          "desc": "Carries oxygenated blood from the lungs to the left atrium."
         },
         "ao": {
           "label": "Aorta",
-          "desc": "Largest artery. Carries oxygenated blood from left ventricle → body."
+          "desc": "The largest artery. It carries oxygenated blood to the organs and tissues of the body."
         }
       },
       "review": {
         "englishTerm": "Heart Diagram",
         "russianTerm": "Схема сердца",
         "contrast": {
-          "en": "Arteries carry blood away from the heart and veins towards it; these names do not specify oxygen content.",
-          "ru": "Артерии несут кровь от сердца, вены — к нему; названия не определяются содержанием кислорода."
+          "en": "Left and right mean the person's own sides, not the viewer's. On this diagram the left side (LA, LV, PV, AO) is drawn on the right of the picture.",
+          "ru": "Левое и правое — это стороны самого человека, а не зрителя. На схеме левая сторона (LA, LV, PV, AO) нарисована справа."
         },
         "sources": [
           {
@@ -1235,28 +1235,28 @@
   },
   "bodySystems": {
     "title": "Body Systems",
-    "intro": "How systems coordinate: circulation, respiration, digestion, nervous, hormonal.",
+    "intro": "The body's systems work together: nutrition, digestion, circulation, respiration, and the nervous and hormonal systems.",
     "sections": {
       "circulatory": {
         "title": "Circulatory system",
-        "body": "The human circulatory system moves blood through the heart and blood vessels. Pulmonary circulation connects the heart and lungs; systemic circulation connects the heart and the rest of the body. Arteries lead away from the heart, veins lead towards it, and capillaries allow exchange with tissues.",
+        "body": "The circulatory system moves blood around the body in a loop. Blood leaves the heart in arteries, passes through capillaries and returns to the heart in veins. Pulmonary circulation links the heart with the lungs, and systemic circulation links it with the rest of the body.",
         "detailed": {
           "heart": {
-            "name": "The heart — pump for life",
-            "rule": "The heart is a muscular pump with two atria that receive blood and two ventricles that eject it. The right side pumps to the lungs and the left side to the body. Pressure differences open and close valves, maintaining mainly one-way flow.",
+            "name": "The heart — a muscular pump",
+            "rule": "The heart has four chambers: two atria and two ventricles. The right side pumps blood to the lungs, and the left side pumps it to the rest of the body. Valves open and close as pressure changes, so blood flows mainly in one direction.",
             "examples": [
-              "RA receives deoxygenated blood from vena cava → RV → pulmonary artery → lungs.",
-              "LA receives oxygenated blood from pulmonary veins → LV → aorta → body.",
-              "Left ventricle wall is THICKEST — pumps blood around the entire body, needs more force.",
-              "Heart attack = blood supply to heart muscle blocked (coronary artery)."
+              "Right side: vena cava → right atrium → right ventricle → pulmonary artery → lungs. The blood is deoxygenated.",
+              "Left side: pulmonary veins → left atrium → left ventricle → aorta → rest of the body. The blood is oxygenated.",
+              "The left ventricle has the thickest wall, because it pumps blood around the whole body and needs to generate higher pressure. The right ventricle's wall is thinner, because it pumps blood only to the nearby lungs.",
+              "A heart attack happens when a coronary artery is blocked, so part of the heart muscle gets no blood and no oxygen."
             ],
-            "tip": "Remember: 'right has less might' — the right ventricle only pumps to the nearby lungs, so its wall is thinner.",
+            "tip": "Remember the roles: atria receive blood from veins, and ventricles pump it out into arteries. In an exam question, 'receives' points to an atrium, and 'pumps out' points to a ventricle.",
             "review": {
-              "englishTerm": "The heart — pump for life",
-              "russianTerm": "Сердце — насос жизни",
+              "englishTerm": "heart",
+              "russianTerm": "сердце",
               "contrast": {
-                "en": "Arteries carry blood away from the heart and veins towards it; these names do not specify oxygen content.",
-                "ru": "Артерии несут кровь от сердца, вены — к нему; названия не определяются содержанием кислорода."
+                "en": "A heart chamber is not a vessel. The left ventricle holds oxygenated blood, just like the aorta, but it is part of the heart, not an artery.",
+                "ru": "Камера сердца — не сосуд. В левом желудочке, как и в аорте, кровь богатая кислородом, но левый желудочек — часть сердца, а не артерия."
               },
               "sources": [
                 {
@@ -1282,18 +1282,18 @@
           },
           "vessels": {
             "name": "Blood vessels — arteries, veins, capillaries",
-            "rule": "Arteries carry blood away from the heart under relatively high pressure. Veins return blood at lower pressure; many contain valves. Capillaries have thin endothelial walls for exchange. These names describe flow direction, so a pulmonary artery carries relatively oxygen-poor blood.",
+            "rule": "Arteries carry blood away from the heart, and veins carry it back to the heart. Capillaries are the tiny vessels where substances pass between the blood and the tissues. Artery walls are thick and contain elastic fibres and muscle, because blood leaves the heart under high pressure. Vein walls are thinner, with less muscle and elastic tissue. Many veins, especially in the legs, have valves that stop blood flowing backwards, but arteries have none, apart from the semilunar valves at the start of the aorta and pulmonary artery. Capillary walls are only one cell thick, and capillaries have no valves.",
             "examples": [
-              "Pulmonary arteries lead from the right ventricle to the lungs.",
-              "Many limb veins use valves and surrounding muscle activity to assist return."
+              "Feel the pulse at your wrist: the wall of an artery stretches each time the heart pushes blood into it.",
+              "In the legs, valves stop blood flowing back down under gravity. When the calf muscles contract, they squeeze the veins and push the blood up towards the heart."
             ],
-            "watchOut": "Don't confuse with arteries/veins of pulmonary circulation: PULMONARY artery carries DEOXYGENATED blood (to lungs); PULMONARY vein carries OXYGENATED blood (back from lungs).",
+            "watchOut": "Do not judge vessels by oxygen content: the pulmonary artery carries deoxygenated blood to the lungs, and the pulmonary vein carries oxygenated blood back to the heart. The names still follow the direction of flow.",
             "review": {
-              "englishTerm": "Blood vessels — arteries, veins, capillaries",
-              "russianTerm": "Сосуды — артерии, вены, капилляры",
+              "englishTerm": "blood vessel",
+              "russianTerm": "кровеносный сосуд",
               "contrast": {
-                "en": "Arteries carry blood away from the heart and veins towards it; these names do not specify oxygen content.",
-                "ru": "Артерии несут кровь от сердца, вены — к нему; названия не определяются содержанием кислорода."
+                "en": "The wall thickness and the width of the inner space (lumen) are different things. An artery has a thicker wall, but the vena cava has a much wider lumen than most arteries.",
+                "ru": "Толщина стенки и ширина просвета (lumen) — разные вещи. У артерии стенка толще, но полая вена широкая: её просвет больше, чем у большинства артерий."
               },
               "sources": [
                 {
@@ -1319,19 +1319,19 @@
           },
           "blood": {
             "name": "Blood components",
-            "rule": "Blood consists of plasma and formed elements. Plasma carries dissolved substances; red cells transport oxygen using haemoglobin; white cells participate in defence. Platelets are cell fragments that help form blood clots. The proportions vary with the person and conditions.",
+            "rule": "Blood consists of plasma, a liquid, and formed elements: cells and cell fragments. Plasma carries dissolved substances, such as glucose, carbon dioxide and hormones. Red blood cells carry oxygen using haemoglobin, and white blood cells help defend the body against pathogens. Platelets are cell fragments that help blood clot. The proportions vary between people and conditions.",
             "examples": [
-              "Oxygenated blood is bright red; relatively oxygen-poor blood is darker red, never blue.",
-              "B lymphocytes can form antibody-secreting plasma cells; other white cells have different roles.",
-              "Platelets and clotting proteins help form a fibrin mesh."
+              "Oxygenated blood is bright red. Deoxygenated blood, such as the blood in most of the body's veins, is dark red, not blue; blue is only a convention in diagrams.",
+              "A B lymphocyte can develop into a plasma cell, which makes antibodies against a particular pathogen.",
+              "A cut: platelets stick to the damaged edge, clotting factors (proteins) form fibrin threads, and the threads trap red blood cells to make a clot."
             ],
-            "tip": "RBC has biconcave shape (donut without hole) — maximises surface area for O₂ absorption.",
+            "tip": "A red blood cell has a biconcave shape: it is dented on both sides, like a disc. This gives it a large surface area for taking up oxygen.",
             "review": {
-              "englishTerm": "Blood components",
-              "russianTerm": "Состав крови",
+              "englishTerm": "blood plasma",
+              "russianTerm": "плазма крови",
               "contrast": {
-                "en": "Arteries carry blood away from the heart and veins towards it; these names do not specify oxygen content.",
-                "ru": "Артерии несут кровь от сердца, вены — к нему; названия не определяются содержанием кислорода."
+                "en": "Plasma is the liquid part of blood. A plasma cell is a different thing: it is a cell, made from a B lymphocyte, that makes antibodies. Both names share the root ‘plasm-’, which is confusing, but they are different concepts.",
+                "ru": "Плазма крови — жидкая часть крови. Плазматическая клетка — клетка, которая образуется из B-лимфоцита и вырабатывает антитела. Общий корень «плазм-» сбивает с толку, но это разные понятия."
               },
               "sources": [
                 {
@@ -1357,11 +1357,11 @@
           }
         },
         "review": {
-          "englishTerm": "Circulatory system",
-          "russianTerm": "Кровеносная система",
+          "englishTerm": "blood circulation",
+          "russianTerm": "кровообращение",
           "contrast": {
-            "en": "Arteries carry blood away from the heart and veins towards it; these names do not specify oxygen content.",
-            "ru": "Артерии несут кровь от сердца, вены — к нему; названия не определяются содержанием кислорода."
+            "en": "The circulatory system transports gases, but it does not take them in from the air. Oxygen enters the blood in the alveoli of the lungs and leaves it across capillary walls in the tissues.",
+            "ru": "Кровеносная система переносит газы, но сама не забирает их из воздуха. Кислород попадает в кровь в альвеолах лёгких, а из крови переходит в ткани через стенки капилляров."
           },
           "sources": [
             {
@@ -1387,24 +1387,24 @@
       },
       "respiratory": {
         "title": "Respiratory system",
-        "body": "The respiratory system ventilates the lungs and provides a surface for gas exchange. Air passes through the trachea, bronchi and bronchioles to alveoli. Oxygen diffuses into blood and carbon dioxide diffuses out; these exchanges are distinct from cellular respiration.",
+        "body": "The respiratory system supplies the blood with oxygen and removes carbon dioxide from it. Two processes make this possible. Ventilation moves air in and out of the lungs and keeps the air in the alveoli fresh. Gas exchange moves oxygen and carbon dioxide between the alveoli and the blood.",
         "detailed": {
           "pathway": {
             "name": "Air pathway",
-            "rule": "Conducting airways move air towards the gas-exchange surfaces: nose or mouth → pharynx → larynx → trachea → bronchi → bronchioles → alveoli. Mucus and cilia in parts of the airways help trap and remove particles.",
+            "rule": "The conducting airways carry air to the alveoli along this route: nose or mouth → pharynx → larynx → trachea → bronchi → bronchioles → alveoli. On the way, the air is cleaned, moistened and warmed.",
             "examples": [
-              "Trachea is ~10-12 cm long. C-shaped cartilage rings allow food to pass behind in oesophagus.",
-              "Cilia (tiny hairs) + mucus trap dust & bacteria → swept up to throat → swallowed.",
-              "Smoking destroys cilia → 'smoker's cough' as gunk can't be cleared.",
-              "Bronchitis = inflamed bronchi. Asthma = bronchioles constrict."
+              "The trachea is about 10–12 cm long. Its wall contains 16–20 C-shaped cartilage rings that stop the tube from collapsing. The open side of each ring faces the oesophagus behind it.",
+              "Cilia are tiny hair-like structures on the cells lining the airways. They beat upwards and carry mucus, dust and bacteria to the throat, where it is swallowed.",
+              "Cigarette smoke damages and paralyses the cilia. Mucus and dust stop moving up and collect in the airways. A strong cough pushes them out: this is the smoker's cough.",
+              "Bronchitis inflames the bronchi. In asthma, the bronchioles narrow, so air passes through them with difficulty."
             ],
-            "tip": "Remember the SIZE order: trachea > bronchus > bronchiole > alveolus. Like a tree branching downward.",
+            "tip": "Remember the size order: trachea > bronchus > bronchiole > alveolus. The airways branch like an upside-down tree, and the branches get thinner towards the alveoli.",
             "review": {
               "englishTerm": "Air pathway",
               "russianTerm": "Путь воздуха",
               "contrast": {
-                "en": "Ventilation moves air; gas exchange transfers gases across a surface; cellular respiration comprises chemical reactions.",
-                "ru": "Вентиляция перемещает воздух; газообмен переносит газы через поверхность; клеточное дыхание включает химические реакции."
+                "en": "Air and food both pass through the pharynx. Beyond it, the trachea carries air to the lungs, while the oesophagus carries food to the stomach.",
+                "ru": "Воздух и пища проходят вместе через глотку. Дальше трахея ведёт воздух в лёгкие, а пищевод — пищу в желудок."
               },
               "sources": [
                 {
@@ -1418,18 +1418,18 @@
           },
           "alveoli": {
             "name": "Alveoli — gas exchange surfaces",
-            "rule": "Alveoli are small lung air sacs surrounded by capillaries. Their large total surface area and thin air–blood barrier allow rapid diffusion. Ventilation and blood flow maintain oxygen and carbon dioxide gradients; gases dissolve in the moist surface lining.",
+            "rule": "An alveolus (plural: alveoli) is a tiny air sac at the end of a bronchiole, surrounded by capillaries. The wall of the alveolus and the wall of the capillary are each only one cell thick, so gases travel a very short distance.\n\nBefore they diffuse, gases dissolve in the thin moist lining of the alveolus. There are very many alveoli, so their total surface is large and diffusion is fast.",
             "examples": [
-              "Oxygen diffuses from alveolar air to blood; CO₂ diffuses in the opposite direction.",
-              "Loss of alveolar walls reduces gas-exchange surface area."
+              "Oxygen diffuses because of the difference in concentration. The air in the alveoli has more oxygen than the blood, so oxygen diffuses into the blood. Carbon dioxide diffuses the other way: the blood has more of it than the air, so it diffuses into the alveoli.",
+              "Smoking destroys alveolar walls, which causes emphysema, a lung disease. Fewer alveoli means less surface for gas exchange, so less oxygen passes into the blood, even when a person breathes as usual. Smoking is a major risk factor for lung disease and lung cancer."
             ],
-            "watchOut": "Carbon monoxide binds haemoglobin strongly, not permanently, and interferes with oxygen transport.",
+            "watchOut": "Carbon monoxide (CO) from cigarette smoke crosses the alveolar walls into the blood. It binds to haemoglobin much more strongly than oxygen does, so it competes with oxygen for the binding sites. Oxygen transport falls even when the alveoli are undamaged.",
             "review": {
               "englishTerm": "Alveoli — gas exchange surfaces",
               "russianTerm": "Альвеолы — место газообмена",
               "contrast": {
-                "en": "Ventilation moves air; gas exchange transfers gases across a surface; cellular respiration comprises chemical reactions.",
-                "ru": "Вентиляция перемещает воздух; газообмен переносит газы через поверхность; клеточное дыхание включает химические реакции."
+                "en": "One alveolus is tiny, about 0.2 mm across. The large area of about 70 m² is the sum of the surfaces of all the alveoli, not of one.",
+                "ru": "Одна альвеола очень мала: около 0,2 мм в диаметре. Большую площадь (около 70 м²) даёт сумма поверхностей всех альвеол, а не одной."
               },
               "sources": [
                 {
@@ -1443,20 +1443,20 @@
           },
           "breathing": {
             "name": "Breathing mechanism",
-            "rule": "Ventilation moves air because pressure in the lungs differs from atmospheric pressure. During quiet inhalation, diaphragm and external intercostal contraction expands the chest and lowers lung pressure. Quiet exhalation is mainly passive recoil; forceful exhalation also uses muscles.",
+            "rule": "Air moves into and out of the lungs because the pressure in the lungs changes relative to atmospheric pressure. Muscles cause this by changing the volume of the chest. During quiet breathing in, the diaphragm and the external intercostal muscles contract, and the chest gets bigger. Quiet breathing out is passive: these muscles relax, and the elastic lungs return to their resting size. Forced breathing out, for example when running, needs the work of other muscles.",
             "examples": [
-              "Diaphragm is a dome-shaped sheet of muscle below lungs.",
-              "Intercostal muscles between ribs help expand chest.",
-              "Hiccup = involuntary diaphragm spasm.",
-              "Resting breath rate: 12-20/min. Exercise: up to 60+."
+              "The diaphragm is a dome-shaped muscle that separates the chest from the abdomen. When you breathe in, your belly moves slightly outwards as the diaphragm contracts and moves down.",
+              "A hiccup is an involuntary spasm of the diaphragm. After each spasm, the vocal cords snap shut, which makes the 'hic' sound.",
+              "When you cough, the abdominal muscles contract and push the abdominal organs upwards against the diaphragm. This makes the exhalation strong and rapid.",
+              "A resting adult breathes 12–20 times per minute. During hard exercise, the rate can rise above 40 times per minute."
             ],
-            "tip": "Pressure-volume law: bigger space = lower pressure = air rushes in. This is BOYLE'S LAW applied to your chest.",
+            "tip": "Remember Boyle's law: for a fixed amount of gas at constant temperature, a bigger volume means a lower pressure. When the chest gets bigger, the lung pressure falls and air rushes in. When it gets smaller, air is pushed out.",
             "review": {
               "englishTerm": "Breathing mechanism",
-              "russianTerm": "Механизм дыхания",
+              "russianTerm": "Механизм вдоха и выдоха",
               "contrast": {
-                "en": "Ventilation moves air; gas exchange transfers gases across a surface; cellular respiration comprises chemical reactions.",
-                "ru": "Вентиляция перемещает воздух; газообмен переносит газы через поверхность; клеточное дыхание включает химические реакции."
+                "en": "The external and internal intercostal muscles work in different phases of breathing. The external ones raise the ribs when you breathe in. The internal ones pull the ribs down when you breathe out forcefully.",
+                "ru": "Наружные и внутренние межрёберные мышцы работают в разные фазы дыхания. Наружные поднимают рёбра при вдохе. Внутренние опускают их при усиленном выдохе."
               },
               "sources": [
                 {
@@ -1479,8 +1479,8 @@
           "englishTerm": "Respiratory system",
           "russianTerm": "Дыхательная система",
           "contrast": {
-            "en": "Ventilation moves air; gas exchange transfers gases across a surface; cellular respiration comprises chemical reactions.",
-            "ru": "Вентиляция перемещает воздух; газообмен переносит газы через поверхность; клеточное дыхание включает химические реакции."
+            "en": "Ventilation moves air; gas exchange moves gases. Gas exchange is diffusion across the alveolar wall, so the breathing muscles do not carry oxygen into the blood.",
+            "ru": "Вентиляция перемещает воздух, а газообмен переносит газы. Газообмен — это диффузия через стенку альвеолы, поэтому дыхательные мышцы кислород в кровь не переносят."
           },
           "sources": [
             {
@@ -1494,22 +1494,22 @@
       },
       "digestive": {
         "title": "Digestive system",
-        "body": "The digestive system breaks food down mechanically and chemically, absorbs useful substances and eliminates undigested material. Most nutrient absorption occurs in the small intestine. Egestion of undigested food through the anus differs from excretion of metabolic wastes.",
+        "body": "The digestive system breaks food down mechanically and chemically, absorbs useful substances and removes undigested material through the anus. Most nutrient absorption occurs in the small intestine.",
         "detailed": {
           "pathway": {
-            "name": "Digestive tract — the journey",
-            "rule": "The alimentary canal runs from mouth → oesophagus → stomach → small intestine → large intestine → rectum → anus. Waves of muscle contraction, called peristalsis, propel its contents. The liver and pancreas add secretions but food does not pass through those organs.",
+            "name": "Route through the alimentary canal",
+            "rule": "The alimentary canal is a tube from mouth to anus. The order of its parts is: mouth → oesophagus → stomach → small intestine → large intestine → rectum → anus.\n\nWaves of muscle contraction, called peristalsis, push the food along it.",
             "examples": [
-              "Stomach acid provides conditions for pepsin; acid is not itself a digestive enzyme.",
-              "Most nutrients are absorbed in the small intestine; the large intestine also absorbs water and ions."
+              "The stomach absorbs very little. It mixes food with hydrochloric acid and pepsin, then releases it into the small intestine in small portions.",
+              "The large intestine digests very little but absorbs water and ions. Without this, faeces would be liquid."
             ],
-            "tip": "Digestion breaks material down; absorption transfers substances across an epithelium.",
+            "tip": "Remember that 'small' and 'large' describe the diameter, not the length. The small intestine is narrow but long; the large intestine is wide but short.",
             "review": {
-              "englishTerm": "Digestive tract — the journey",
-              "russianTerm": "Пищеварительный тракт — путь",
+              "englishTerm": "Alimentary canal",
+              "russianTerm": "Пищеварительный канал (тракт)",
               "contrast": {
-                "en": "Digestion breaks down food; absorption transfers digested substances across the gut wall.",
-                "ru": "Пищеварение расщепляет пищу; всасывание переносит продукты пищеварения через стенку кишечника."
+                "en": "the alimentary canal from the digestive system. The liver and pancreas belong to the system: they make digestive secretions and send them into the start of the small intestine through ducts. Food never passes through them, so they are not part of the canal.",
+                "ru": "пищеварительный канал и пищеварительную систему. Печень и поджелудочная железа входят в систему: они вырабатывают пищеварительные соки и по протокам подают их в начало тонкой кишки. Но пища через эти органы не проходит, поэтому в канал они не входят."
               },
               "sources": [
                 {
@@ -1535,18 +1535,18 @@
           },
           "enzymes": {
             "name": "Digestive enzymes",
-            "rule": "Digestive enzymes are biological catalysts that accelerate hydrolysis of large food molecules into smaller absorbable products. Their active sites recognise particular substrates or bonds. Activity depends on temperature and pH; the optimum differs among enzymes.",
+            "rule": "Digestive enzymes are biological catalysts. They speed up hydrolysis, the breakdown of large food molecules into smaller products that can be absorbed.\n\nEach enzyme has an active site that fits only one kind of substrate, like a key in a lock. Activity depends on temperature and pH, and the optimum differs from enzyme to enzyme.",
             "examples": [
-              "Amylase hydrolyses starch into smaller sugars; pepsin hydrolyses proteins into peptides.",
-              "Lipase breaks down triglycerides; bile emulsifies fat but is not an enzyme."
+              "Amylase breaks starch down into smaller sugars; pepsin breaks proteins down into peptides. Pepsin works best at a pH of about 2 (in the stomach), while amylase works best at a pH of about 7 (in the mouth and small intestine).",
+              "Lipase breaks triglycerides (fats) down into fatty acids and glycerol. Bile is not an enzyme: it emulsifies fat into tiny droplets, so lipase has a larger surface to act on."
             ],
-            "watchOut": "Low temperature slows enzyme activity; it does not normally denature the enzyme. Excessive heat or an unsuitable pH can change the active site and denature it.",
+            "watchOut": "Low temperature slows an enzyme down but does not normally denature it. Excessive heat or an unsuitable pH changes the shape of the active site, so the enzyme is denatured and can no longer fit its substrate.",
             "review": {
               "englishTerm": "Digestive enzymes",
               "russianTerm": "Пищеварительные ферменты",
               "contrast": {
-                "en": "Digestion breaks down food; absorption transfers digested substances across the gut wall.",
-                "ru": "Пищеварение расщепляет пищу; всасывание переносит продукты пищеварения через стенку кишечника."
+                "en": "an enzyme from its substrate or product. Amylase is not used up: after it acts, it stays unchanged and can act again. Starch (the substrate) and water are used up, and sugars (the products) are made.",
+                "ru": "фермент с субстратом и продуктом. Амилаза не расходуется: закончив работу, она остаётся неизменной и снова катализирует реакцию. Расходуются крахмал (субстрат) и вода, а образуются сахара (продукты)."
               },
               "sources": [
                 {
@@ -1572,20 +1572,20 @@
           },
           "absorption": {
             "name": "Absorption in the small intestine",
-            "rule": "Absorption is transfer of digested nutrients across the intestinal epithelium into blood or lymph. Villi increase the intestine's surface; microvilli are projections of the epithelial cells. Capillaries receive many soluble nutrients, while lacteals receive much of the absorbed fat in packaged form.",
+            "rule": "Absorption is the transfer of digested nutrients across the intestinal epithelium into the blood or lymph. The small intestine, including its last part, the ileum, is adapted for this: villi (singular: villus) are finger-like projections of the mucosa, the inner lining of the gut; microvilli are tiny projections on the surface of each epithelial cell; each villus contains a lacteal, a lymph capillary that takes up fat.",
             "examples": [
-              "Glucose, amino acids, water-soluble vitamins → into BLOOD capillaries → liver via hepatic portal vein.",
-              "Fats → into LACTEALS → lymph system → eventually joins blood near heart.",
-              "Iron absorbed in upper small intestine. Vitamin B12 needs intrinsic factor from stomach.",
-              "Coeliac disease damages villi → poor absorption → malnutrition despite eating."
+              "Glucose, amino acids and water-soluble vitamins pass into the blood capillaries of the villi, then reach the liver through the hepatic portal vein.",
+              "Fatty acids and glycerol pass into a lacteal, then into the lymph, and only later join the blood close to the heart. Unlike glucose, they do not go straight to the liver.",
+              "Iron is absorbed in the upper small intestine. Vitamin B12 is absorbed in the ileum, but only with intrinsic factor, a protein made by the lining of the stomach.",
+              "In coeliac disease, the immune system reacts to gluten and damages the villi. Absorption falls, so a person can lack nutrients even though they eat normally."
             ],
-            "tip": "Why huge surface area? Diffusion is faster across larger area. Villi + microvilli + 7m length = massive absorption capacity.",
+            "tip": "Why is the surface so large? Over a bigger area, more substance crosses in the same time. The wall of each villus is a thin, single-layer epithelium, so in a villus a substance crosses only one cell layer (the epithelium). The capillary wall it reaches next is also one cell thick. A dense network of capillaries carries absorbed nutrients away, which keeps the difference in concentration large and diffusion fast. Villi, microvilli and a length of about 6–7 m together give a very large absorption area.",
             "review": {
               "englishTerm": "Absorption in the small intestine",
               "russianTerm": "Всасывание в тонкой кишке",
               "contrast": {
-                "en": "Digestion breaks down food; absorption transfers digested substances across the gut wall.",
-                "ru": "Пищеварение расщепляет пищу; всасывание переносит продукты пищеварения через стенку кишечника."
+                "en": "digestion from absorption. Digestion makes molecules smaller; absorption only moves them across the wall. Starch cannot be absorbed until it is broken down into simple sugars.",
+                "ru": "пищеварение и всасывание. Пищеварение уменьшает размер молекул, а всасывание только переносит их через стенку кишки. Крахмал нельзя всосать, пока он не распался до простых сахаров."
               },
               "sources": [
                 {
@@ -1614,8 +1614,8 @@
           "englishTerm": "Digestive system",
           "russianTerm": "Пищеварительная система",
           "contrast": {
-            "en": "Digestion breaks down food; absorption transfers digested substances across the gut wall.",
-            "ru": "Пищеварение расщепляет пищу; всасывание переносит продукты пищеварения через стенку кишечника."
+            "en": "egestion from excretion. Egestion removes undigested food. That food never passed through the gut wall, so it was never inside the body. Excretion removes metabolic waste made by cells, such as urea (removed by the kidneys) and carbon dioxide (removed by the lungs).",
+            "ru": "выведение (egestion) и выделение (excretion). При выведении удаляются непереваренные остатки пищи: они не прошли через стенку кишки и поэтому не были внутри тела. При выделении удаляются продукты обмена веществ, которые образовались в клетках, например мочевина (её выделяют почки) и углекислый газ (его выделяют лёгкие)."
           },
           "sources": [
             {
@@ -1645,18 +1645,18 @@
         "detailed": {
           "structure": {
             "name": "CNS vs PNS",
-            "rule": "The CNS consists of the brain and spinal cord. The PNS includes nerves and ganglia outside the CNS. Sensory pathways carry information towards the CNS; motor pathways carry commands to effectors. Somatic and autonomic motor pathways control different targets.",
+            "rule": "The CNS consists of the brain and spinal cord. The PNS includes the nerves and ganglia outside the CNS. The optic nerve is an exception: it develops from the brain and is part of the CNS. Sensory neurones carry information to the CNS; motor neurones carry commands to effectors (muscles and glands). Motor pathways are somatic (to skeletal muscles, under conscious control) or autonomic (to internal organs, without conscious control).",
             "examples": [
-              "Sensory pathways convey information towards the CNS; motor pathways lead to effectors.",
-              "Autonomic pathways regulate targets such as the heart and digestive tract."
+              "A pin prick in the foot sends a signal along sensory nerves (PNS) into the spinal cord (CNS). The response goes along motor nerves (PNS) to the leg muscles.",
+              "When you run, autonomic pathways speed up your heartbeat."
             ],
-            "tip": "Mnemonic: PNS Peripheral = body Parts. CNS Central = brain + Cord.",
+            "tip": "The spinal cord is part of the CNS even though it lies inside the spine. The nerves that run from the spinal cord to the arms and legs are part of the PNS.",
             "review": {
               "englishTerm": "CNS vs PNS",
-              "russianTerm": "ЦНС vs ПНС",
+              "russianTerm": "ЦНС и ПНС",
               "contrast": {
-                "en": "A nerve is a bundle of axons; a neurone is a cell. A reflex is a response, not a type of nerve.",
-                "ru": "Нерв — пучок аксонов; нейрон — клетка. Рефлекс — ответная реакция, а не вид нерва."
+                "en": "A nerve is a bundle of many axons in a shared sheath. Most nerves belong to the PNS. A neurone is a single cell.",
+                "ru": "Нерв — пучок аксонов (axons) многих нейронов в общей оболочке. Большинство нервов относится к ПНС. Нейрон — одна клетка."
               },
               "sources": [
                 {
@@ -1676,20 +1676,20 @@
           },
           "neurone": {
             "name": "Neurone structure",
-            "rule": "A typical neurone has a cell body, dendrites that receive input and an axon that conducts action potentials. Myelin insulates some axons and speeds conduction between gaps in the sheath. Most synapses transmit to the next cell using neurotransmitters.",
+            "rule": "A neurone is a nerve cell that carries signals. Its main parts are the dendrites, which receive signals and carry them towards the cell body; the cell body, which contains the nucleus; and the axon, which carries nerve impulses away from the cell body.\n\nSome axons are wrapped in myelin, a fatty sheath formed by supporting cells. The gaps between sections of myelin are the nodes of Ranvier. A signal passes from one neurone to the next across a synapse; most synapses use neurotransmitters, which are chemical messengers.",
             "examples": [
-              "Longest neurone in human body: from base of spinal cord to big toe (~1 m).",
+              "The longest neurone in the human body has an axon that runs from the base of the spinal cord to the big toe: about 1 m.",
               "White matter contains many myelinated axons; grey matter contains many neuronal cell bodies, dendrites and synapses.",
-              "Multiple sclerosis = autoimmune attack on myelin → signals slow/fail.",
-              "Speed: myelinated axons conduct at up to 120 m/s. Unmyelinated: ~1 m/s."
+              "In multiple sclerosis, the immune system attacks the myelin, so nerve impulses slow down or are blocked.",
+              "The fastest myelinated axons conduct nerve impulses at up to 120 m/s; unmyelinated axons conduct them at only about 1 m/s."
             ],
-            "tip": "Myelin enables rapid conduction between nodes of Ranvier; the wire-insulation analogy does not explain all neuronal signalling.",
+            "tip": "Along a myelinated axon the impulse does not travel continuously. It jumps from one node of Ranvier to the next, which makes conduction faster.",
             "review": {
               "englishTerm": "Neurone structure",
               "russianTerm": "Строение нейрона",
               "contrast": {
-                "en": "A nerve is a bundle of axons; a neurone is a cell. A reflex is a response, not a type of nerve.",
-                "ru": "Нерв — пучок аксонов; нейрон — клетка. Рефлекс — ответная реакция, а не вид нерва."
+                "en": "Dendrites carry signals towards the cell body; the axon carries them away from it.",
+                "ru": "Дендриты несут сигнал к телу клетки, аксон — от него."
               },
               "sources": [
                 {
@@ -1708,19 +1708,19 @@
             }
           },
           "reflex": {
-            "name": "Reflex arc — fast involuntary response",
-            "rule": "A reflex arc is the pathway producing an automatic response to a stimulus: receptor → sensory neurone → CNS connection → motor neurone → effector. Some arcs include relay neurones; others do not. Reflexes may be integrated in the spinal cord or brainstem.",
+            "name": "Reflex arc",
+            "rule": "A reflex arc is the pathway that gives an automatic response to a stimulus.\n\nThe order of the links is: receptor → sensory neurone → relay neurone (interneurone) in the spinal cord → motor neurone → effector (a muscle or a gland).\n\nImpulses pass from one neurone to the next across synapses. The response is fast because the pathway is short and does not involve conscious thought.",
             "examples": [
-              "The knee-jerk reflex has a direct sensory-to-motor synapse in its main pathway.",
-              "A withdrawal reflex uses interneurones and can begin without a conscious decision."
+              "The knee-jerk reflex is the simplest arc: the sensory neurone makes a synapse directly with the motor neurone in the spinal cord, with no relay neurone.",
+              "If you touch a hot pan, your hand moves away before you feel the pain. The signal for the response passes through a relay neurone in the spinal cord, not the brain."
             ],
-            "watchOut": "Some reflexes are integrated in the brainstem; a reflex is not defined by complete absence of brain involvement.",
+            "watchOut": "Some reflexes are completed in the brainstem. For example, the pupil narrows in bright light, and this reflex runs through the midbrain. Automatic does not mean the brain is not involved: the brain also receives the information, so you may notice the stimulus only after the response has started.",
             "review": {
-              "englishTerm": "Reflex arc — fast involuntary response",
-              "russianTerm": "Рефлекторная дуга — быстрый непроизвольный ответ",
+              "englishTerm": "Reflex arc",
+              "russianTerm": "Рефлекторная дуга",
               "contrast": {
-                "en": "A nerve is a bundle of axons; a neurone is a cell. A reflex is a response, not a type of nerve.",
-                "ru": "Нерв — пучок аксонов; нейрон — клетка. Рефлекс — ответная реакция, а не вид нерва."
+                "en": "A reflex is not the same as a voluntary movement. Both contract muscles, but a voluntary movement starts with a decision in the cerebral cortex; a reflex does not need one.",
+                "ru": "Рефлекс — не то же, что произвольное движение. И то и другое сокращает мышцы, но произвольное движение начинается с решения в коре головного мозга, а рефлексу это решение не нужно."
               },
               "sources": [
                 {
@@ -1740,7 +1740,7 @@
                 "kind": "flow",
                 "title": {
                   "en": "A withdrawal reflex arc",
-                  "ru": "Дуга рефлекса отдёргивания"
+                  "ru": "Рефлекторная дуга отдёргивания"
                 },
                 "items": [
                   {
@@ -1749,8 +1749,8 @@
                       "ru": "Рецептор → чувствительный нейрон"
                     },
                     "detail": {
-                      "en": "A stimulus starts an electrical signal.",
-                      "ru": "Раздражитель вызывает электрический сигнал."
+                      "en": "The receptor detects the stimulus and turns it into a nerve impulse.",
+                      "ru": "Рецептор воспринимает раздражитель и превращает его в нервный импульс."
                     }
                   },
                   {
@@ -1759,8 +1759,8 @@
                       "ru": "Вставочный нейрон спинного мозга"
                     },
                     "detail": {
-                      "en": "Synapses connect the pathway; brain also receives information.",
-                      "ru": "Синапсы соединяют звенья; мозг тоже получает информацию."
+                      "en": "The interneurone passes the impulse on across a synapse.",
+                      "ru": "Вставочный нейрон передаёт импульс дальше через синапс."
                     }
                   },
                   {
@@ -1769,14 +1769,14 @@
                       "ru": "Двигательный нейрон → мышца"
                     },
                     "detail": {
-                      "en": "The effector contracts.",
-                      "ru": "Эффектор сокращается."
+                      "en": "The muscle (the effector) contracts.",
+                      "ru": "Мышца (эффектор) сокращается."
                     }
                   }
                 ],
                 "caption": {
-                  "en": "One example: not every reflex uses an interneurone or only the spinal cord.",
-                  "ru": "Один пример: не все рефлексы включают вставочный нейрон или только спинной мозг."
+                  "en": "The arrows show the direction of the impulse: from receptor to effector, in one direction only.",
+                  "ru": "Стрелки показывают направление импульса: от рецептора к эффектору, только в одну сторону."
                 }
               }
             }
@@ -1786,8 +1786,8 @@
           "englishTerm": "Nervous system",
           "russianTerm": "Нервная система",
           "contrast": {
-            "en": "A nerve is a bundle of axons; a neurone is a cell. A reflex is a response, not a type of nerve.",
-            "ru": "Нерв — пучок аксонов; нейрон — клетка. Рефлекс — ответная реакция, а не вид нерва."
+            "en": "The nervous system is not only the brain: the spinal cord, the nerves and the sense organs (receptors) are part of it too.",
+            "ru": "Нервная система — не только мозг: в неё входят спинной мозг, нервы и органы чувств (рецепторы)."
           },
           "sources": [
             {
@@ -1801,22 +1801,22 @@
       },
       "nutrition": {
         "title": "Nutrition & balanced diet",
-        "body": "Nutrition supplies matter and energy needed for maintenance, growth and activity. A balanced diet provides adequate energy, essential nutrients, fibre and water in suitable proportions. Requirements vary with development, body size, activity and health.",
+        "body": "Nutrition supplies the matter and energy needed for maintenance, growth and activity. A **balanced diet** provides enough energy, all essential nutrients, fibre and water, in suitable amounts and proportions. Requirements vary with age, body size, activity and health.",
         "detailed": {
           "groups": {
-            "name": "The 7 food groups",
-            "rule": "Carbohydrates and fats supply energy; fats also form membranes. Proteins supply amino acids for body proteins. Vitamins and minerals support specific functions, fibre supports intestinal function, and water acts as a solvent and transport medium. These are nutrient categories, not seven mutually exclusive foods.",
+            "name": "The seven nutrient categories",
+            "rule": "Carbohydrates and fats supply energy; phospholipids, a type of lipid, form cell membranes. Proteins supply amino acids for making the body's own proteins. Vitamins and minerals are needed in small amounts for specific functions. Fibre keeps the gut working well, and water acts as a solvent and transport medium. These are nutrient categories, not seven separate groups of food: one food usually contains several of them.",
             "examples": [
-              "Vitamin C deficiency can cause scurvy; iron deficiency can contribute to anaemia.",
-              "Different foods supply overlapping combinations of nutrients."
+              "Vitamin C deficiency causes scurvy: the gums bleed and wounds heal slowly. Iron deficiency is a common cause of anaemia: less haemoglobin is made, so the blood carries less oxygen.",
+              "Three minerals and their roles:\n\n- Calcium: builds bones and teeth and helps muscles contract; found in milk, cheese and leafy green vegetables.\n- Iron: part of haemoglobin; found in red meat, liver, beans and lentils.\n- Iodine: needed to make thyroid hormones; found in iodised salt and seafood."
             ],
             "tip": "Nutrient adequacy matters; omitting one named food does not automatically cause deficiency if nutrients come from other sources.",
             "review": {
-              "englishTerm": "The 7 food groups",
-              "russianTerm": "7 групп пищи",
+              "englishTerm": "The seven nutrient categories",
+              "russianTerm": "Семь категорий питательных веществ",
               "contrast": {
-                "en": "An essential nutrient must come from the diet; “essential” does not mean that other nutrients are unimportant.",
-                "ru": "Незаменимое пищевое вещество необходимо получать с пищей; это не означает, что остальные вещества не важны."
+                "en": "An essential nutrient is one the body cannot make itself, so it must come from food. 'Essential' does not mean 'most important': glucose is vital for cells, but the body makes it, so it is not an essential nutrient.",
+                "ru": "Незаменимое вещество — то, которое организм не может синтезировать сам, поэтому его нужно получать с пищей. «Незаменимое» не значит «самое важное»: глюкоза нужна клеткам, но организм синтезирует её сам, поэтому её не относят к незаменимым веществам."
               },
               "sources": [
                 {
@@ -1830,18 +1830,18 @@
           },
           "energy": {
             "name": "Energy requirements",
-            "rule": "Energy requirements are the dietary energy needed to support metabolism, physical activity and growth. They are commonly expressed in kJ or kcal, with 1 kcal = 4.184 kJ. Basal metabolic rate is energy use measured at rest under specified conditions.",
+            "rule": "Energy requirement is the energy from food that a person needs each day for metabolism, physical activity and growth. It is commonly expressed in kilojoules (kJ) or kilocalories (kcal), where 1 kcal = 4.184 kJ.",
             "examples": [
               "Two people of the same age may have different needs because body size and activity differ.",
-              "A food-energy comparison should use the same units and portion size."
+              "Calorimetry measures the energy stored in food. A food sample is burned under a tube of water. The energy released heats the water, so the temperature rise shows how much energy was transferred:\n\nE = m × c × ΔT\n\nwhere:\n\n- E is the energy transferred (J)\n- m is the mass of water (kg)\n- c is the specific heat capacity of water, 4200 J/(kg °C)\n- ΔT is the temperature rise (°C).\n\nIn one test, a 1.0 g sample of peanut heats 0.050 kg of water from 20 °C to 40 °C. E = 0.050 kg × 4200 J/(kg °C) × 20 °C = 4200 J = 4.2 kJ. The same mass of food and the same mass of water must be used in every test, so that foods can be compared."
             ],
-            "tip": "Approximate metabolizable energy: carbohydrate and protein 17 kJ/g; fat 37 kJ/g. Values depend on composition.",
+            "tip": "Metabolisable energy is about 17 kJ/g for carbohydrate and protein, and about 38 kJ/g for fat; values depend on composition. A school calorimetry experiment gives a lower value, because heat escapes to the air and the tube.",
             "review": {
               "englishTerm": "Energy requirements",
               "russianTerm": "Потребность в энергии",
               "contrast": {
-                "en": "An essential nutrient must come from the diet; “essential” does not mean that other nutrients are unimportant.",
-                "ru": "Незаменимое пищевое вещество необходимо получать с пищей; это не означает, что остальные вещества не важны."
+                "en": "Basal metabolic rate is the energy used at rest, measured after fasting. It is only part of the energy requirement: activity and growth add to it.",
+                "ru": "Основной обмен (basal metabolic rate) — энергия, которую организм тратит в покое натощак. Он входит в потребность в энергии, но не равен ей: физическая активность и рост добавляют свои затраты."
               },
               "sources": [
                 {
@@ -1855,18 +1855,18 @@
           },
           "deficiency": {
             "name": "Malnutrition — overnutrition and undernutrition",
-            "rule": "Malnutrition is a deficiency, excess or imbalance in energy or nutrient intake. It includes undernutrition, micronutrient deficiencies and overweight or obesity. A person can consume excess energy while lacking particular nutrients; malnutrition is not synonymous with starvation.",
+            "rule": "Malnutrition is a deficiency, excess or imbalance in energy or nutrient intake. It includes undernutrition, deficiencies of micronutrients (vitamins and minerals), overweight and obesity. A person can take in too much energy and still lack particular nutrients.",
             "examples": [
-              "A person may have sufficient total energy intake but an iron deficiency.",
-              "Growth, nutrient status and clinical context matter when assessing malnutrition."
+              "A person may eat enough energy but get too little iodine. The thyroid gland then cannot make enough hormone and grows larger, which is a goitre.",
+              "A child whose growth is slow may be undernourished, so doctors check growth, nutrient levels and the clinical picture together."
             ],
-            "watchOut": "Adult BMI thresholds do not directly classify children; no single measurement defines every aspect of nutritional health.",
+            "watchOut": "Adult body mass index (BMI) thresholds cannot be applied directly to children, and no single measurement describes every aspect of nutritional health.",
             "review": {
-              "englishTerm": "Malnutrition — overnutrition and undernutrition",
-              "russianTerm": "Недоедание — пере- и недополучение",
+              "englishTerm": "Malnutrition",
+              "russianTerm": "Нарушение питания",
               "contrast": {
-                "en": "An essential nutrient must come from the diet; “essential” does not mean that other nutrients are unimportant.",
-                "ru": "Незаменимое пищевое вещество необходимо получать с пищей; это не означает, что остальные вещества не важны."
+                "en": "Malnutrition is not only too little food. More is not always better: excess vitamin A (retinol) builds up in the liver and can be toxic.",
+                "ru": "Нарушение питания — не только нехватка еды. Больше не значит лучше: избыток витамина A (ретинол) накапливается в печени и может быть токсичным."
               },
               "sources": [
                 {
@@ -1883,8 +1883,8 @@
           "englishTerm": "Nutrition & balanced diet",
           "russianTerm": "Питание и сбалансированная диета",
           "contrast": {
-            "en": "An essential nutrient must come from the diet; “essential” does not mean that other nutrients are unimportant.",
-            "ru": "Незаменимое пищевое вещество необходимо получать с пищей; это не означает, что остальные вещества не важны."
+            "en": "In biology, a diet is everything a person usually eats and drinks. It does not mean a plan for losing weight. Any diet can be balanced or unbalanced.",
+            "ru": "В биологии диета — это обычный рацион: всё, что человек ест и пьёт. Слово не значит «ограничения для похудения». Любой рацион может быть сбалансированным или несбалансированным."
           },
           "sources": [
             {
@@ -1898,22 +1898,22 @@
       },
       "respiration": {
         "title": "Respiration — aerobic, anaerobic, exercise",
-        "body": "Cellular respiration is a set of metabolic reactions that transfers energy from fuels such as glucose into forms cells can use, including ATP. Aerobic respiration uses oxygen; some microorganisms respire without it. Fermentation is another anaerobic pathway, often grouped with anaerobic respiration in school courses.",
+        "body": "**Cellular respiration** releases energy from glucose and other food molecules inside cells. Cells capture part of this energy as ATP, the molecule they use for their work. This section compares aerobic and anaerobic respiration, then looks at what happens in the body during and after exercise.",
         "detailed": {
           "aerobic": {
             "name": "Aerobic respiration",
-            "rule": "Aerobic respiration oxidises fuels using oxygen as the final electron acceptor. The overall glucose equation is C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. Some released energy supports ATP synthesis and some becomes heat; ATP yield is not a fixed coefficient in this equation.",
+            "rule": "Aerobic respiration needs oxygen. It breaks glucose down completely, mainly in the mitochondria, into carbon dioxide and water. Oxygen is used up in the final step, where it combines with hydrogen. Each glucose molecule yields about 30 ATP, and most of the energy is released as heat. The overall equation is in the formula card on this page.",
             "examples": [
-              "In eukaryotes, glycolysis occurs in cytosol and later aerobic stages occur in mitochondria.",
-              "Plants carry out cellular respiration in light and darkness."
+              "At rest, the brain uses about a fifth of the body's oxygen to release energy from glucose.",
+              "Plants respire day and night. At night there is no photosynthesis, so respiration is the only process that releases carbon dioxide."
             ],
-            "tip": "ATP is a molecule used in energy transfer, not a synonym for energy itself.",
+            "tip": "ATP is not energy itself but a molecule that carries energy to where the cell needs it. A cell holds only a small amount of ATP, so it must keep making more.",
             "review": {
               "englishTerm": "Aerobic respiration",
               "russianTerm": "Аэробное дыхание",
               "contrast": {
-                "en": "Aerobic respiration uses oxygen. Fermentation does not use an electron-transport chain; strict anaerobic respiration uses another final electron acceptor.",
-                "ru": "Аэробное дыхание использует кислород. При брожении нет дыхательной цепи; при анаэробном дыхании в строгом смысле конечный акцептор электронов иной."
+                "en": "Oxygen is not a fuel. Glucose supplies the energy; oxygen is needed to release that energy fully.",
+                "ru": "Кислород — не топливо. Энергию даёт глюкоза, а кислород нужен, чтобы энергия высвободилась полностью."
               },
               "sources": [
                 {
@@ -1936,25 +1936,25 @@
                 }
               ],
               "model": {
-                "en": "Some school courses group fermentation under “anaerobic respiration”. Here that school usage is identified separately from the stricter biochemical meaning.",
-                "ru": "В ряде школьных курсов брожение называют «анаэробным дыханием». Здесь это школьное употребление отделено от строгого биохимического смысла."
+                "en": "The figure of about 30 ATP is an estimate. Textbooks quote values from about 30 to 38, depending on how the steps are counted.",
+                "ru": "Число около 30 АТФ — это оценка. Разные учебники дают значения примерно от 30 до 38 в зависимости от способа подсчёта."
               }
             }
           },
           "anaerobic": {
             "name": "Anaerobic respiration",
-            "rule": "Fermentation lets glycolysis continue without oxygen by regenerating NAD⁺. Glycolysis yields a net 2 ATP per glucose. Animal cells can form lactate; yeast can form ethanol and CO₂. Strictly, anaerobic respiration uses an electron-transport chain with a final acceptor other than oxygen.",
+            "rule": "Anaerobic respiration releases energy from glucose without oxygen. Glucose is only partly broken down, in the cytoplasm, so the yield is low: a net 2 ATP per glucose molecule. Animal muscle cells make lactate; yeast makes ethanol and carbon dioxide. Fermentation also recycles NAD⁺, a molecule that glycolysis needs. Without it, glycolysis would stop.",
             "examples": [
-              "Yeast fermentation releases CO₂ that can make dough rise.",
-              "Lactate fermentation regenerates NAD⁺, allowing glycolysis to continue producing ATP."
+              "In bread dough, yeast ferments sugar and releases CO₂ bubbles, which make the dough rise.",
+              "Lactic acid bacteria ferment sugar in kefir and sauerkraut, and the lactic acid they make gives these foods their sour taste."
             ],
-            "watchOut": "Lactate predominates at physiological pH. Lactose is a different substance: a sugar.",
+            "watchOut": "At body pH, lactic acid exists mainly as lactate. Do not confuse lactate with lactose, the sugar in milk.",
             "review": {
               "englishTerm": "Anaerobic respiration",
               "russianTerm": "Анаэробное дыхание",
               "contrast": {
-                "en": "Aerobic respiration uses oxygen. Fermentation does not use an electron-transport chain; strict anaerobic respiration uses another final electron acceptor.",
-                "ru": "Аэробное дыхание использует кислород. При брожении нет дыхательной цепи; при анаэробном дыхании в строгом смысле конечный акцептор электронов иной."
+                "en": "Anaerobic does not mean no respiration and no energy. Glycolysis, which gives the energy, happens both with and without oxygen.",
+                "ru": "Анаэробное не значит «без дыхания» и «без энергии». Гликолиз, который даёт энергию, идёт и с кислородом, и без него."
               },
               "sources": [
                 {
@@ -1971,26 +1971,22 @@
                 }
               ],
               "model": {
-                "en": "Some school courses group fermentation under “anaerobic respiration”. Here that school usage is identified separately from the stricter biochemical meaning.",
-                "ru": "В ряде школьных курсов брожение называют «анаэробным дыханием». Здесь это школьное употребление отделено от строгого биохимического смысла."
+                "en": "In school courses, anaerobic respiration usually means fermentation, as in this section. Some bacteria respire without oxygen by using another substance, such as nitrate; this section does not cover them.",
+                "ru": "В школьных курсах анаэробным дыханием обычно называют брожение, как и в этом разделе. Некоторые бактерии дышат без кислорода, используя вместо него, например, нитрат; здесь такие процессы не рассматриваются."
               }
             }
           },
           "exercise": {
-            "name": "Body's response to exercise",
-            "rule": "During exercise, active muscles need faster ATP production. Increased heart output, ventilation and blood flow to muscles support oxygen delivery and carbon dioxide removal. Both aerobic metabolism and anaerobic ATP-producing pathways contribute; their relative contributions depend on intensity and duration.",
+            "name": "The body's response to exercise",
+            "rule": "During exercise, working muscles need ATP faster than at rest. The heart pumps more blood each minute, breathing becomes faster and deeper, and blood is redirected to the muscles. Together these changes deliver more oxygen and remove more carbon dioxide. Aerobic and anaerobic pathways both supply ATP at the same time; their shares depend on how hard and how long the exercise lasts.",
             "examples": [
-              "Heart output and ventilation usually rise as muscle activity increases.",
-              "The energy contribution of each pathway changes with exercise intensity and duration."
+              "A teenager's pulse is about 70–80 beats per minute at rest and can reach 160–180 during fast running.",
+              "A 100 m sprint is powered mainly by anaerobic pathways, while a steady 30-minute run is powered mainly by aerobic respiration."
             ],
-            "tip": "After exercise, oxygen consumption supports recovery, including restoration of energy stores and use of lactate; it is not simply a debt repaid by destroying lactic acid.",
+            "tip": "Heart rate and breathing take a few minutes to reach a steady level. At the start of exercise, muscles use energy already stored in them until oxygen delivery catches up.",
             "review": {
-              "englishTerm": "Body's response to exercise",
-              "russianTerm": "Реакция тела на нагрузку",
-              "contrast": {
-                "en": "Aerobic respiration uses oxygen. Fermentation does not use an electron-transport chain; strict anaerobic respiration uses another final electron acceptor.",
-                "ru": "Аэробное дыхание использует кислород. При брожении нет дыхательной цепи; при анаэробном дыхании в строгом смысле конечный акцептор электронов иной."
-              },
+              "englishTerm": "The body's response to exercise",
+              "russianTerm": "Реакция организма на нагрузку",
               "sources": [
                 {
                   "title": "OpenStax Biology 2e — 7.5 Metabolism without Oxygen: anaerobic respiration and fermentation",
@@ -2012,25 +2008,25 @@
                 }
               ],
               "model": {
-                "en": "Some school courses group fermentation under “anaerobic respiration”. Here that school usage is identified separately from the stricter biochemical meaning.",
-                "ru": "В ряде школьных курсов брожение называют «анаэробным дыханием». Здесь это школьное употребление отделено от строгого биохимического смысла."
+                "en": "The numbers are typical for healthy teenagers. Trained athletes usually have a lower resting pulse and recover faster.",
+                "ru": "Числа — типичные значения для здоровых подростков. У тренированных людей пульс в покое обычно ниже, а восстановление быстрее."
               }
             }
           },
           "oxygenDebt": {
-            "name": "Oxygen debt and recovery",
-            "rule": "After exercise, oxygen consumption may remain above resting level while the body restores energy stores and recovers. This excess post-exercise oxygen consumption is sometimes called oxygen debt. Lactate can be oxidised or used to make glucose; recovery is not simply removal of lactic acid.",
+            "name": "Oxygen debt and recovery after exercise",
+            "rule": "When exercise is hard, oxygen supply cannot keep up with demand, so anaerobic pathways cover the gap. After exercise, oxygen use stays above the resting level until energy stores are restored and the body returns to normal. This extra oxygen use is often called oxygen debt, or excess post-exercise oxygen consumption. Lactate is oxidised in the heart and muscles, or converted into glucose in the liver.",
             "examples": [
-              "After exercise, elevated oxygen use helps restore phosphocreatine stores and oxygen stores.",
-              "Lactate can be used as fuel or converted into glucose."
+              "After hard exercise, the extra oxygen restores the phosphocreatine stores in the muscles and refills the oxygen held by myoglobin.",
+              "After a hard 400 m race, blood lactate can take about an hour to fall back to resting levels. A gentle jog speeds this up."
             ],
-            "tip": "Delayed muscle soreness is not explained by lactate remaining in muscles for days.",
+            "tip": "Muscle soreness that starts a day or two after exercise is usually linked to tiny injuries in muscle fibres, not to lactate.",
             "review": {
-              "englishTerm": "Oxygen debt and recovery",
-              "russianTerm": "Кислородный долг и восстановление",
+              "englishTerm": "Oxygen debt and recovery after exercise",
+              "russianTerm": "Кислородный долг и восстановление после нагрузки",
               "contrast": {
-                "en": "Aerobic respiration uses oxygen. Fermentation does not use an electron-transport chain; strict anaerobic respiration uses another final electron acceptor.",
-                "ru": "Аэробное дыхание использует кислород. При брожении нет дыхательной цепи; при анаэробном дыхании в строгом смысле конечный акцептор электронов иной."
+                "en": "The oxygen deficit is the shortfall during exercise. The oxygen debt is the extra oxygen used after exercise. The two happen at different times.",
+                "ru": "Кислородный дефицит — нехватка кислорода во время нагрузки. Кислородный долг — дополнительный расход кислорода после неё. Это разные периоды."
               },
               "sources": [
                 {
@@ -2053,18 +2049,18 @@
                 }
               ],
               "model": {
-                "en": "Some school courses group fermentation under “anaerobic respiration”. Here that school usage is identified separately from the stricter biochemical meaning.",
-                "ru": "В ряде школьных курсов брожение называют «анаэробным дыханием». Здесь это школьное употребление отделено от строгого биохимического смысла."
+                "en": "The word 'debt' is a simplified model. Nothing is borrowed and then repaid; the body simply uses more oxygen for a while to return to its normal state.",
+                "ru": "Слово «долг» — упрощённая модель. Ничего не берётся в долг и не возвращается; организм некоторое время тратит больше кислорода, чтобы вернуться в обычное состояние."
               }
             }
           }
         },
         "review": {
-          "englishTerm": "Respiration — aerobic, anaerobic, exercise",
-          "russianTerm": "Дыхание — аэробное, анаэробное, физкультура",
+          "englishTerm": "Aerobic and anaerobic respiration",
+          "russianTerm": "Аэробное и анаэробное дыхание",
           "contrast": {
-            "en": "Aerobic respiration uses oxygen. Fermentation does not use an electron-transport chain; strict anaerobic respiration uses another final electron acceptor.",
-            "ru": "Аэробное дыхание использует кислород. При брожении нет дыхательной цепи; при анаэробном дыхании в строгом смысле конечный акцептор электронов иной."
+            "en": "Here 'respiration' means cellular respiration, which happens inside cells. Breathing moves air in and out of the lungs and does not release energy on its own.",
+            "ru": "Здесь «дыхание» — это клеточное дыхание, процесс внутри клеток. Вдох и выдох (вентиляция лёгких) перемещают воздух в лёгкие и из них и сами по себе энергию не дают."
           },
           "sources": [
             {
@@ -2086,15 +2082,11 @@
               "section": "7.4 Oxidative Phosphorylation: electron transport and oxygen"
             }
           ],
-          "model": {
-            "en": "Some school courses group fermentation under “anaerobic respiration”. Here that school usage is identified separately from the stricter biochemical meaning.",
-            "ru": "В ряде школьных курсов брожение называют «анаэробным дыханием». Здесь это школьное употребление отделено от строгого биохимического смысла."
-          },
           "visual": {
             "kind": "comparison",
             "title": {
-              "en": "Ways to support ATP synthesis",
-              "ru": "Пути обеспечения синтеза АТФ"
+              "en": "Three ways to resynthesise ATP",
+              "ru": "Три пути ресинтеза АТФ"
             },
             "items": [
               {
@@ -2103,58 +2095,58 @@
                   "ru": "Аэробное дыхание"
                 },
                 "detail": {
-                  "en": "Electron transport; oxygen is final acceptor.",
-                  "ru": "Дыхательная цепь; конечный акцептор — кислород."
+                  "en": "Needs oxygen. Glucose breaks down fully, giving about 30 ATP per glucose molecule.",
+                  "ru": "Нужен кислород. Глюкоза расщепляется полностью, даёт около 30 АТФ на одну молекулу глюкозы."
                 }
               },
               {
                 "label": {
-                  "en": "Anaerobic respiration (strict)",
-                  "ru": "Анаэробное дыхание (строго)"
+                  "en": "Anaerobic respiration",
+                  "ru": "Анаэробное дыхание"
                 },
                 "detail": {
-                  "en": "Electron transport; final acceptor is not oxygen.",
-                  "ru": "Дыхательная цепь; конечный акцептор — не кислород."
+                  "en": "No oxygen. Glucose breaks down only partly, giving 2 ATP per glucose molecule.",
+                  "ru": "Без кислорода. Глюкоза расщепляется частично, даёт 2 АТФ на одну молекулу глюкозы."
                 }
               },
               {
                 "label": {
-                  "en": "Fermentation",
-                  "ru": "Брожение"
+                  "en": "Phosphocreatine",
+                  "ru": "Креатинфосфат"
                 },
                 "detail": {
-                  "en": "No respiratory chain; regenerates NAD⁺ for glycolysis.",
-                  "ru": "Без дыхательной цепи; восстанавливает запас NAD⁺ для гликолиза."
+                  "en": "A fast reserve for the first seconds of hard work. It needs neither oxygen nor glucose.",
+                  "ru": "Быстрый запас для первых секунд тяжёлой работы. Ему не нужны ни кислород, ни глюкоза."
                 }
               }
             ],
             "caption": {
-              "en": "Compare pathways by mechanism, not just by the presence of oxygen.",
-              "ru": "Сравнивайте пути по механизму, а не только по наличию кислорода."
+              "en": "Compare the pathways by their products and ATP yield, not only by whether oxygen is used.",
+              "ru": "Сравнивай пути по продуктам и выходу АТФ, а не только по тому, используется ли кислород."
             }
           }
         }
       },
       "endocrine": {
         "title": "Endocrine (hormonal) system",
-        "body": "The endocrine system coordinates activity through hormones released into the blood. Only cells with suitable receptors respond to a particular hormone. Hormones regulate processes such as metabolism, growth, reproduction and blood glucose; their speed and duration vary.",
+        "body": "The endocrine system is a set of glands that release hormones into the blood. The blood carries hormones to the whole body. Hormones regulate processes such as metabolism, growth, reproduction and the level of glucose in the blood.",
         "detailed": {
           "comparison": {
-            "name": "Endocrine vs Nervous — different speeds",
-            "rule": "Nervous signalling uses electrical activity along neurones and signals at synapses; endocrine signalling carries hormones in blood. Nervous responses are often rapid and targeted, whereas hormonal effects often develop more slowly and last longer. These are tendencies, not absolute rules.",
+            "name": "Nervous and endocrine regulation: speed and duration",
+            "rule": "Nervous signals are electrical impulses that travel along neurones. At a synapse, a chemical messenger carries the signal to the next cell. Hormones need time to reach their target cells through the blood. The effect therefore builds up more slowly, but it can last longer. These are typical differences, not strict rules.",
             "examples": [
-              "Reflex (nervous): pain → response in 50 ms.",
-              "Adrenaline (endocrine): scary event → rush throughout body in seconds, lasts minutes.",
-              "Insulin (endocrine): blood sugar regulation lasts hours.",
-              "Growth hormone (endocrine): operates over months and years."
+              "Reflex (nervous): dust reaches the eye → the eyelid closes in a fraction of a second.",
+              "Adrenaline (endocrine): a frightening event → effect throughout the body within a few seconds, lasting a few minutes.",
+              "Insulin (endocrine): after a meal, it keeps lowering blood glucose for hours.",
+              "Growth hormone (endocrine): its direct effects on tissues start after a few hours and last for days; the growth it causes builds up over months and years."
             ],
-            "tip": "Often work TOGETHER. Stress: brain (nervous) signals adrenal glands (endocrine) → adrenaline releases → effects everywhere.",
+            "tip": "The two systems often work together. Under stress, the brain sends a nerve signal to the adrenal glands, which release adrenaline into the blood. The hormone then spreads through the body.",
             "review": {
-              "englishTerm": "Endocrine vs Nervous — different speeds",
-              "russianTerm": "Эндокринная vs Нервная — разные скорости",
+              "englishTerm": "Nervous vs endocrine control",
+              "russianTerm": "Нервная и эндокринная регуляция",
               "contrast": {
-                "en": "A hormone is a signalling molecule; its target cells respond because they have suitable receptors.",
-                "ru": "Гормон — сигнальная молекула; клетки-мишени отвечают на него благодаря соответствующим рецепторам."
+                "en": "Nervous: the signal reaches one specific target. Endocrine: the hormone reaches every tissue, but only target cells react.",
+                "ru": "Нервная: сигнал доходит до одной конкретной мишени. Эндокринная: гормон попадает во все ткани, но реагируют только клетки-мишени."
               },
               "sources": [
                 {
@@ -2167,22 +2159,22 @@
             }
           },
           "hormones": {
-            "name": "Key hormones",
-            "rule": "A hormone is a chemical messenger released by endocrine cells that changes the activity of receptor-bearing target cells. Insulin promotes processes that lower blood glucose; glucagon promotes processes that raise it. Feedback helps maintain glucose within a regulated range.",
+            "name": "Hormones and their effects",
+            "rule": "A hormone is a chemical messenger, made by endocrine glands and carried in the blood. It acts only on target cells that have matching receptors. Very small amounts of a hormone can produce a strong effect.",
             "examples": [
-              "INSULIN (pancreas, β cells): lowers blood sugar — promotes glucose uptake into cells, conversion to glycogen.",
-              "GLUCAGON (pancreatic α cells): raises blood glucose by stimulating liver glycogen breakdown and glucose production and release.",
-              "ADRENALINE (adrenal glands): fight-or-flight — raises heart rate, releases sugar, dilates pupils.",
-              "OESTROGEN (ovaries): female puberty, menstrual cycle. TESTOSTERONE (testes): male puberty, sex drive.",
-              "THYROXINE (thyroid): metabolic rate. INSULIN and THYROXINE are exam favourites."
+              "INSULIN (β cells of the pancreas): lowers blood glucose. It helps cells take in glucose and stores the extra glucose as glycogen in the liver and muscles.",
+              "GLUCAGON (α cells of the pancreas): raises blood glucose. The liver breaks down glycogen and releases glucose into the blood.",
+              "ADRENALINE (adrenal glands): fight-or-flight response. It speeds up the heart, raises blood glucose and dilates the pupils.",
+              "OESTROGEN (ovaries): female secondary sexual characteristics at puberty, and regulation of the menstrual cycle. TESTOSTERONE (testes): male secondary sexual characteristics at puberty, and sex drive.",
+              "THYROXINE (thyroid gland): increases the metabolic rate. It contains iodine, so the thyroid gland cannot make it without iodine."
             ],
-            "tip": "Negative feedback regulates most hormones. Blood sugar too high → insulin out → lowers it → less insulin needed. Self-correcting.",
+            "tip": "Most hormones are regulated by negative feedback. Example: blood glucose rises → more insulin is released → glucose falls → less insulin is released. Cells need glucose for respiration, so its level is kept within a narrow range.",
             "review": {
-              "englishTerm": "Key hormones",
-              "russianTerm": "Главные гормоны",
+              "englishTerm": "Hormones and their effects",
+              "russianTerm": "Гормоны и их действие",
               "contrast": {
-                "en": "A hormone is a signalling molecule; its target cells respond because they have suitable receptors.",
-                "ru": "Гормон — сигнальная молекула; клетки-мишени отвечают на него благодаря соответствующим рецепторам."
+                "en": "Insulin and glucagon have opposite effects: one lowers blood glucose, the other raises it.",
+                "ru": "Инсулин и глюкагон действуют противоположно: один снижает глюкозу в крови, другой повышает её."
               },
               "sources": [
                 {
@@ -2201,19 +2193,19 @@
             }
           },
           "diabetes": {
-            "name": "Diabetes — when blood sugar control fails",
-            "rule": "Diabetes mellitus involves persistently elevated blood glucose. In type 1, destruction of pancreatic beta cells causes severe insulin deficiency. In type 2, reduced insulin responsiveness and insufficient insulin secretion both contribute. Either type can occur at different ages.",
+            "name": "Diabetes mellitus: when blood glucose control fails",
+            "rule": "Diabetes mellitus is a long-term condition in which blood glucose stays high, because insulin is missing or does not work properly. In type 1, the immune system destroys the beta cells of the pancreas, so little or no insulin is made. In type 2, the cells respond poorly to insulin (insulin resistance), and over time the pancreas cannot make enough insulin to compensate.",
             "examples": [
-              "Type 1 involves severe insulin deficiency; type 2 includes insulin resistance and impaired secretion."
+              "Sam (14) has type 1 diabetes. Without insulin, the cells cannot take in glucose from the blood, so Sam injects insulin before meals to keep blood glucose from rising too high."
             ],
-            "watchOut": "Type 1 and type 2 diabetes can occur at different ages. Risk factors alter probability; they do not establish an individual diagnosis.",
-            "tip": "Age and body size alone cannot determine diabetes type.",
+            "watchOut": "Type 1 diabetes is not caused by eating sugary food: its cause is the immune destruction of beta cells. Obesity and inactivity raise the risk of type 2, but they do not show that a particular person has the disease. Type 1 can also start in adults, and type 2 in young people.",
+            "tip": "In an answer, state what is missing first, then explain why blood glucose stays high.",
             "review": {
-              "englishTerm": "Diabetes — when blood sugar control fails",
-              "russianTerm": "Диабет — когда контроль сахара рушится",
+              "englishTerm": "Diabetes mellitus",
+              "russianTerm": "Сахарный диабет",
               "contrast": {
-                "en": "A hormone is a signalling molecule; its target cells respond because they have suitable receptors.",
-                "ru": "Гормон — сигнальная молекула; клетки-мишени отвечают на него благодаря соответствующим рецепторам."
+                "en": "Type 1 always needs insulin injections. Type 2 is often controlled with diet, exercise and medicines.",
+                "ru": "Диабет 1-го типа всегда требует уколов инсулина. Диабет 2-го типа часто контролируют питанием, физической активностью и лекарствами."
               },
               "sources": [
                 {
@@ -2236,8 +2228,8 @@
           "englishTerm": "Endocrine (hormonal) system",
           "russianTerm": "Эндокринная (гормональная) система",
           "contrast": {
-            "en": "A hormone is a signalling molecule; its target cells respond because they have suitable receptors.",
-            "ru": "Гормон — сигнальная молекула; клетки-мишени отвечают на него благодаря соответствующим рецепторам."
+            "en": "Endocrine glands have no ducts: they release hormones into the blood. Exocrine glands, such as salivary and sweat glands, release their products through ducts. The pancreas has both functions: its enzymes reach the gut through a duct, while its insulin goes into the blood.",
+            "ru": "Эндокринные железы (железы внутренней секреции) не имеют протоков и выделяют гормоны в кровь. Экзокринные железы (железы внешней секреции), например слюнные и потовые, выводят секрет по протокам. Поджелудочная железа совмещает обе функции: ферменты поступают в кишечник по протоку, а инсулин — в кровь."
           },
           "sources": [
             {

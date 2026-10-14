@@ -26,6 +26,8 @@ test('automatically found cards stay on pages of their own subject', () => {
   assert.ok(!ids('n = m / M', 'physics').includes('moles'));
   assert.ok(ids('magnification = image size / actual size', 'biology').includes('magnification'));
   assert.ok(ids('y = mx + c', 'biology').includes('line'), 'a line of best fit is used in science graphs');
+  assert.ok(ids('Anaerobic respiration releases energy from glucose without oxygen.', 'biology').includes('respiration-equation'));
+  assert.ok(ids('Анаэробное дыхание высвобождает энергию из глюкозы без кислорода.', 'biology').includes('respiration-equation'));
   assert.equal(formulaAllowedOn('quadratic-formula', null), true, 'no page subject = no restriction');
 });
 

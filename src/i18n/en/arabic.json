@@ -7,11 +7,11 @@
     "rtlNote": "Arabic is written and read right-to-left (RTL).",
     "coversHeading": "What the booklet covers",
     "coversIntro": "The five themes from page 1 of the booklet:",
-    "practiceHeading": "Practise",
+    "practiceHeading": "Practice",
     "blocksHeading": "Vocabulary blocks",
     "blocksIntro": "Tap a block to jump straight to its words.",
     "referenceHeading": "More reference",
-    "referenceIntro": "Extra Arabic material kept from before — handy alongside the booklet.",
+    "referenceIntro": "Extra Arabic material — handy alongside the revision booklet.",
     "words": "words",
     "actions": {
       "learn": "Learn the words",
@@ -44,7 +44,7 @@
   "learn": {
     "title": "Learn the words",
     "intro": "Arabic script with English and Russian meanings. Latin and Cyrillic reading aids approximate pronunciation; they are not IPA and cannot represent every Arabic sound. Long vowels are doubled in this lesson deck. ʿ marks ع; ʾ marks hamza ء.",
-    "legend": "EN / RU = meaning · Aa / Аа = approximate reading aid; confirm pronunciation with audio.",
+    "legend": "EN / RU = meaning · Aa = approximate reading aid (the Russian interface shows it in Cyrillic); confirm pronunciation with audio.",
     "jumpTo": "Jump to:"
   },
   "flashcards": {
@@ -206,7 +206,9 @@
         "صباحًا (ṣabāḥan) — in the morning; a.m. in a clock expression",
         "مساءً (masāʾan) — in the evening; p.m. in a clock expression",
         "Connectors: أولاً (first), ثم (then), حتى (until), بعد ذلك (after that), أخيراً (finally)"
-      ]
+      ],
+      "verbsHeading": "Verbs",
+      "timesHeading": "Times & connectors"
     },
     "seasons": {
       "title": "5. Seasons & weather (الفصول والطقس)",
@@ -225,7 +227,7 @@
       ]
     },
     "extra": {
-      "title": "Question words & connectors",
+      "title": "Question words & prepositions",
       "items": [
         "ماذا / ما (mādhā / mā) — what",
         "متى (matā) — when",
@@ -277,23 +279,19 @@
         },
         "egyptian": {
           "name": "Egyptian Arabic",
-          "rule": "Egyptian Arabic comprises regional spoken varieties; Cairo speech is prominent in film and other media. Media exposure can help comprehension, but understanding differs between listeners and contexts.",
-          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
+          "rule": "Egyptian Arabic comprises regional spoken varieties; Cairo speech is prominent in film and other media. Media exposure can help comprehension, but understanding differs between listeners and contexts."
         },
         "levantine": {
           "name": "Levantine Arabic",
-          "rule": "Levantine is a regional grouping, including urban and rural varieties in Syria, Lebanon, Jordan and Palestine. Pronunciation varies: some varieties realise historical q as a glottal stop, while others retain or change it differently.",
-          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
+          "rule": "Levantine is a regional grouping, including urban and rural varieties in Syria, Lebanon, Jordan and Palestine. Pronunciation varies: some varieties realise historical q as a glottal stop, while others retain or change it differently."
         },
         "gulf": {
           "name": "Gulf Arabic",
-          "rule": "Gulf Arabic (Khaleeji) refers to spoken Arabic varieties used around the Gulf, including in the UAE and Qatar. This regional label does not mean that all speakers use the same pronunciation, vocabulary or grammar; learn the variety relevant to your conversations.",
-          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
+          "rule": "Gulf Arabic (Khaleeji) refers to spoken Arabic varieties used around the Gulf, including in the UAE and Qatar. This regional label does not mean that all speakers use the same pronunciation, vocabulary or grammar; learn the variety relevant to your conversations."
         },
         "maghrebi": {
           "name": "Maghrebi Arabic",
-          "rule": "Maghrebi Arabic is a broad label for North African Arabic varieties west of Egypt, including Moroccan, Algerian, Tunisian and Libyan varieties. It covers local differences rather than one uniform way of speaking. Familiarity and context affect how much a listener understands.",
-          "tip": "Choose a regional variety for relevant everyday conversations and MSA for the formal contexts you need. No variety is inherently gentler, purer or more refined."
+          "rule": "Maghrebi Arabic is a broad label for North African Arabic varieties west of Egypt, including Moroccan, Algerian, Tunisian and Libyan varieties. It covers local differences rather than one uniform way of speaking. Familiarity and context affect how much a listener understands."
         }
       }
     },

@@ -42,11 +42,11 @@ export function MrsHalaPage() {
 
       <SectionHeading>{t('topicsContent.routine.title')}</SectionHeading>
       <div className="mb-3">
-        <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">Verbs / Глаголы</h4>
+        <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">{t('topicsContent.routine.verbsHeading')}</h4>
         {renderItems('routine', 'verbs')}
       </div>
       <div>
-        <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">Times & connectors / Время и связки</h4>
+        <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">{t('topicsContent.routine.timesHeading')}</h4>
         {renderItems('routine', 'times')}
       </div>
 

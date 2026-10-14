@@ -765,7 +765,7 @@ export const GRAMMAR_RULES: ArabicGrammarRule[] = [
   {
     "id": "idafa",
     "titleEn": "Iḍāfa (construct state)",
-    "titleRu": "Идāфа (конструктное состояние)",
+    "titleRu": "Идафа (конструктное состояние)",
     "body": "Iḍāfa links nouns to express possession or another relationship: كِتابُ المُعَلِّمِ — the teacher’s book. In the basic noun–noun construction the first noun has neither al- nor tanwīn, and the second is genitive.",
     "bodyRu": "Идафа связывает существительные, выражая принадлежность или другое отношение: كِتابُ المُعَلِّمِ — книга учителя. В базовой конструкции первое существительное не имеет al- и танвина, а второе стоит в родительном падеже.",
     "detailsEn": {

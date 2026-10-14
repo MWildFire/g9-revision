@@ -5,8 +5,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Arabic script and joining",
     "russianTerm": "Арабское письмо и соединение букв",
     "contrast": {
-      "en": "This explanation describes common Modern Standard Arabic patterns. English and Russian translations are contextual, not a one-to-one grammatical mapping.",
-      "ru": "Объяснение относится к распространённым моделям современного литературного арабского. Английский и русский переводы контекстны и не повторяют грамматику слово в слово."
+      "en": "Right-to-left describes the direction of the text, not of the digits: in ٢٠٢٦ the highest place value is on the left, so the number reads 2026.",
+      "ru": "Направление справа налево относится к тексту, но не к цифрам: в ٢٠٢٦ старший разряд стоит слева, и число читается как 2026."
     },
     "sources": [
       {
@@ -21,8 +21,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Definite article and assimilation",
     "russianTerm": "Определённый артикль и ассимиляция",
     "contrast": {
-      "en": "This explanation describes common Modern Standard Arabic patterns. English and Russian translations are contextual, not a one-to-one grammatical mapping.",
-      "ru": "Объяснение относится к распространённым моделям современного литературного арабского. Английский и русский переводы контекстны и не повторяют грамматику слово в слово."
+      "en": "Before a sun letter the written ل stays but is not pronounced: الشَّمْس is read ash-shams, with the sun letter doubled. Before a moon letter, ل is pronounced, as in القَمَر (al-qamar).",
+      "ru": "Перед солнечной буквой ل на письме остаётся, но не произносится: الشَّمْس читается ash-shams, а солнечная буква удваивается. Перед лунной буквой ل произносится: القَمَر (al-qamar)."
     },
     "sources": [
       {
@@ -37,8 +37,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Grammatical gender and agreement",
     "russianTerm": "Грамматический род и согласование",
     "contrast": {
-      "en": "This explanation describes common Modern Standard Arabic patterns. English and Russian translations are contextual, not a one-to-one grammatical mapping.",
-      "ru": "Объяснение относится к распространённым моделям современного литературного арабского. Английский и русский переводы контекстны и не повторяют грамматику слово в слово."
+      "en": "Gender follows the Arabic noun, not its translation: كِتاب is masculine, even though its Russian translation is feminine.",
+      "ru": "Род задаёт арабское слово, а не русский перевод: كِتاب — мужского рода, хотя «книга» — женского."
     },
     "sources": [
       {
@@ -86,8 +86,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Singular, dual and plural",
     "russianTerm": "Единственное, двойственное и множественное число",
     "contrast": {
-      "en": "This explanation describes common Modern Standard Arabic patterns. English and Russian translations are contextual, not a one-to-one grammatical mapping.",
-      "ru": "Объяснение относится к распространённым моделям современного литературного арабского. Английский и русский переводы контекстны и не повторяют грамматику слово в слово."
+      "en": "Sound plurals add an ending (مُعَلِّم → مُعَلِّمون), but broken plurals change the internal pattern (كِتاب → كُتُب), so learn each noun with its plural.",
+      "ru": "Правильное множественное добавляет окончание (مُعَلِّم → مُعَلِّمون), а ломаное меняет внутреннюю модель слова (كِتاب → كُتُب). Поэтому учи множественное вместе с каждым существительным."
     },
     "sources": [
       {
@@ -108,8 +108,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Personal pronouns and finite forms",
     "russianTerm": "Личные местоимения и личные формы",
     "contrast": {
-      "en": "This explanation describes common Modern Standard Arabic patterns. English and Russian translations are contextual, not a one-to-one grammatical mapping.",
-      "ru": "Объяснение относится к распространённым моделям современного литературного арабского. Английский и русский переводы контекстны и не повторяют грамматику слово в слово."
+      "en": "أَدْرُس means 'I study' and يَدْرُس means 'he studies': these are finite verb forms, not infinitives or commands. The prefix shows the person, so the subject pronoun أَنا can be left out.",
+      "ru": "أَدْرُس — «я учусь», يَدْرُس — «он учится»: это личные формы глагола, а не инфинитив и не приказ. Приставка показывает лицо, поэтому местоимение أَنا можно опустить."
     },
     "sources": [
       {
@@ -169,8 +169,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Iḍāfa: noun–noun construction",
     "russianTerm": "Идафа: именная конструкция",
     "contrast": {
-      "en": "This explanation describes common Modern Standard Arabic patterns. English and Russian translations are contextual, not a one-to-one grammatical mapping.",
-      "ru": "Объяснение относится к распространённым моделям современного литературного арабского. Английский и русский переводы контекстны и не повторяют грамматику слово в слово."
+      "en": "The first noun of an iḍāfa takes neither al- nor tanwīn; definiteness comes from the last noun, as in كِتابُ المُعَلِّمِ, 'the teacher's book'.",
+      "ru": "Первое слово идафы не получает ال и танвин, а определённость задаёт последнее: كِتابُ المُعَلِّمِ — «книга учителя», а كِتابُ مُعَلِّمٍ — «книга какого-то учителя»."
     },
     "sources": [
       {
@@ -311,16 +311,16 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "The cited corpus illustrates Classical Arabic. The I–X templates are also used in standard descriptions of Modern Standard Arabic; learn each actual verb’s meaning rather than deriving it mechanically from a pattern.",
-      "ru": "Цитируемый корпус иллюстрирует классический арабский. Модели I–X используются и в описаниях современного литературного арабского; значение каждого глагола нужно изучать, а не механически выводить из модели."
+      "en": "The I–X templates come from Classical Arabic and are also used in standard descriptions of Modern Standard Arabic; learn each actual verb’s meaning rather than deriving it mechanically from a pattern.",
+      "ru": "Модели I–X пришли из классического арабского и используются и в описаниях современного литературного арабского; значение каждого глагола нужно изучать, а не механически выводить из модели."
     }
   },
   "numerals": {
     "englishTerm": "Arabic-Indic digits (٠–٩)",
     "russianTerm": "Арабо-индийские цифры (٠–٩)",
     "contrast": {
-      "en": "Script direction and the order of digit place values are different conventions.",
-      "ru": "Направление письма и порядок разрядов цифр — разные условности."
+      "en": "Letters run right to left; digits run left to right, highest place value on the left.",
+      "ru": "Буквы пишутся справа налево, а цифры (0–9, ٠–٩) — слева направо, старший разряд слева."
     },
     "sources": [
       {
@@ -357,8 +357,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Modern Standard Arabic (MSA)",
     "russianTerm": "Современный литературный арабский (MSA)",
     "contrast": {
-      "en": "Regional groupings contain internal variation. Ease of understanding depends on experience; “gentle”, “pure” and “refined” are value judgements.",
-      "ru": "Внутри региональных групп есть различия. Понимание зависит от опыта; «мягкий», «чистый» и «изысканный» — оценочные суждения."
+      "en": "MSA is related to Classical Arabic, but it is not identical to all historical or Qur'anic usage. Do not rank it as 'purer' than regional varieties: speakers often shift between MSA and regional forms according to the setting.",
+      "ru": "MSA связан с классическим арабским, но не совпадает со всем историческим и коранским употреблением. Не считай его «чище» региональных разновидностей: говорящие часто переключаются между MSA и региональными формами в зависимости от ситуации."
     },
     "sources": [
       {
@@ -373,8 +373,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Egyptian Arabic",
     "russianTerm": "Египетский арабский",
     "contrast": {
-      "en": "Regional groupings contain internal variation. Ease of understanding depends on experience; “gentle”, “pure” and “refined” are value judgements.",
-      "ru": "Внутри региональных групп есть различия. Понимание зависит от опыта; «мягкий», «чистый» и «изысканный» — оценочные суждения."
+      "en": "Egyptian Arabic is a group of regional spoken varieties, not a single dialect. Cairo speech is prominent in films and other media, but it is only one of these varieties.",
+      "ru": "Египетский арабский — группа региональных разговорных разновидностей, а не один диалект. Каирская речь широко представлена в кино и других медиа, но это лишь одна из них."
     },
     "sources": [
       {
@@ -389,8 +389,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Levantine Arabic",
     "russianTerm": "Левантийский арабский",
     "contrast": {
-      "en": "Regional groupings contain internal variation. Ease of understanding depends on experience; “gentle”, “pure” and “refined” are value judgements.",
-      "ru": "Внутри региональных групп есть различия. Понимание зависит от опыта; «мягкий», «чистый» и «изысканный» — оценочные суждения."
+      "en": "Levantine covers urban and rural varieties in Syria, Lebanon, Jordan and Palestine, so it is a group rather than one accent. Historical q is not pronounced the same way in all of them: some varieties make it a glottal stop, while others keep or change it differently.",
+      "ru": "Левантийский объединяет городские и сельские разновидности Сирии, Ливана, Иордании и Палестины, поэтому это группа, а не один говор. Историческое q произносится в них неодинаково: в одних разновидностях оно становится гортанной смычкой, в других сохраняется или меняется иначе."
     },
     "sources": [
       {
@@ -403,10 +403,10 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
   },
   "dialects.gulf": {
     "englishTerm": "Gulf Arabic",
-    "russianTerm": "Арабский Залива",
+    "russianTerm": "Арабский Персидского залива",
     "contrast": {
-      "en": "Regional groupings contain internal variation. Ease of understanding depends on experience; “gentle”, “pure” and “refined” are value judgements.",
-      "ru": "Внутри региональных групп есть различия. Понимание зависит от опыта; «мягкий», «чистый» и «изысканный» — оценочные суждения."
+      "en": "Gulf Arabic (Khaleeji) is a regional label rather than one uniform variety. It does not mean that all speakers use the same pronunciation, vocabulary or grammar, so learn the variety relevant to your conversations.",
+      "ru": "Арабский Залива (халиджи) — региональное название, а не одна однородная разновидность. Оно не значит, что все говорящие одинаково произносят слова, выбирают лексику и строят фразы: учи ту разновидность, которая нужна для твоих разговоров."
     },
     "sources": [
       {
@@ -421,8 +421,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Maghrebi Arabic",
     "russianTerm": "Магрибский арабский",
     "contrast": {
-      "en": "Regional groupings contain internal variation. Ease of understanding depends on experience; “gentle”, “pure” and “refined” are value judgements.",
-      "ru": "Внутри региональных групп есть различия. Понимание зависит от опыта; «мягкий», «чистый» и «изысканный» — оценочные суждения."
+      "en": "Maghrebi Arabic covers varieties west of Egypt, such as Moroccan, Algerian, Tunisian and Libyan, so Egyptian Arabic is a separate group.",
+      "ru": "Магрибский арабский — разновидности к западу от Египта, например марокканская, алжирская, тунисская и ливийская. Египетский арабский относится к другой группе."
     },
     "sources": [
       {
@@ -437,8 +437,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Mahmoud Darwish (1941–2008)",
     "russianTerm": "Махмуд Дарвиш (1941–2008)",
     "contrast": {
-      "en": "A short reference note identifies the writer; interpret individual works using their text and context.",
-      "ru": "Краткая справка представляет автора; отдельные произведения анализируй по тексту и контексту."
+      "en": "Darwish's general themes, such as displacement and identity, do not tell you what one particular poem says. Read the text of the poem itself, for example 'Identity Card', rather than assuming one political message across his work.",
+      "ru": "Общие темы Дарвиша — изгнание, идентичность, память — не определяют смысл отдельного стихотворения. Читай текст конкретного стихотворения, например, «Удостоверение личности», а не считай всё его творчество одним политическим посланием."
     },
     "sources": [
       {
@@ -453,8 +453,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Kahlil Gibran (1883–1931)",
     "russianTerm": "Халиль Джебран (1883–1931)",
     "contrast": {
-      "en": "A short reference note identifies the writer; interpret individual works using their text and context.",
-      "ru": "Краткая справка представляет автора; отдельные произведения анализируй по тексту и контексту."
+      "en": "Gibran wrote in both Arabic and English, but The Prophet was written in English, so it is not a translation from Arabic.",
+      "ru": "Джебран писал и по-арабски, и по-английски, но «Пророк» написан по-английски, поэтому это не перевод с арабского."
     },
     "sources": [
       {
@@ -469,8 +469,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Naguib Mahfouz (1911–2006)",
     "russianTerm": "Нагиб Махфуз (1911–2006)",
     "contrast": {
-      "en": "A short reference note identifies the writer; interpret individual works using their text and context.",
-      "ru": "Краткая справка представляет автора; отдельные произведения анализируй по тексту и контексту."
+      "en": "The Cairo Trilogy follows family life and social change across generations, but a novel is an artistic representation rather than a transparent historical record. Treat it as literature, not as a history book.",
+      "ru": "«Каирская трилогия» показывает семейную жизнь и общественные перемены через несколько поколений, но роман — художественное изображение, а не прозрачная историческая запись. Относись к нему как к литературе, а не как к учебнику истории."
     },
     "sources": [
       {
@@ -485,8 +485,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Nizar Qabbani",
     "russianTerm": "Низар Каббани",
     "contrast": {
-      "en": "Read the particular work or edition: a short biography or collection title does not establish one universal interpretation.",
-      "ru": "Обращайся к конкретному произведению или изданию: справка об авторе или название сборника не задаёт единой трактовки."
+      "en": "Qabbani's work includes both love and political poetry, so a biography does not tell you what one poem is about. Check the poem's own text before deciding whether it is romantic or political.",
+      "ru": "У Каббани есть и любовная, и политическая поэзия, поэтому биография не скажет, о чём конкретное стихотворение. Сначала прочитай его текст, а потом решай, о любви оно или о политике."
     },
     "sources": [
       {
@@ -501,8 +501,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "One Thousand and One Nights",
     "russianTerm": "«Тысяча и одна ночь»",
     "contrast": {
-      "en": "Read the particular work or edition: a short biography or collection title does not establish one universal interpretation.",
-      "ru": "Обращайся к конкретному произведению или изданию: справка об авторе или название сборника не задаёт единой трактовки."
+      "en": "The title refers to a collection, not one fixed text: versions and translations include different stories. The frame story, in which Shahrazad tells stories to King Shahriyar, links the tales but does not fix their contents.",
+      "ru": "«Тысяча и одна ночь» — название собрания, а не один фиксированный текст: версии и переводы включают разные истории. Рамочный рассказ о Шахразаде и царе Шахрияре связывает сказки, но не фиксирует их состав."
     },
     "sources": [
       {

@@ -1594,19 +1594,21 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "A pie chart of 1200 students shows that 30% study French. How many study French? What angle on the pie chart represents French?",
-      "answer": "360 students; 108°",
+      "question": "A researcher wants to estimate the average length of the fish in a lake. About 40% of the fish in the lake are salmon and 60% are trout. The fish will be caught with a large net, measured on the shore and then released. The researcher plans a sample of 50 fish. (a) Suggest a suitable sampling method. (b) Explain how the 50 fish should be chosen, including how many of each type are in the sample.",
+      "answer": "(a) Stratified sampling; (b) 20 salmon and 30 trout, chosen at random within each group.",
       "workingSteps": [
-        "30% × 1200 = 360",
-        "30% × 360° = 108°"
+        "Stratified sampling: split the fish into the salmon and trout groups and sample from each group in proportion to its share.",
+        "Salmon: 40% × 50 = 20 fish; trout: 60% × 50 = 30 fish (20 + 30 = 50).",
+        "Within each group, choose the fish at random, for example by numbering them and using random numbers."
       ]
     },
     "ru": {
-      "question": "Круговая диаграмма 1200 учеников показывает, что 30% изучают французский. Сколько студентов? Какой угол сектора?",
-      "answer": "360 учеников; 108°",
+      "question": "Исследователь хочет оценить среднюю длину рыб в озере. Примерно 40% рыб в озере — лососи, а 60% — форели. Рыбу поймают большим сачком, измерят на берегу и отпустят обратно в воду. Исследователь планирует выборку из 50 рыб. а) Предложи подходящий способ выборки. б) Объясни, как выбрать эти 50 рыб, в том числе сколько рыб каждого вида войдёт в выборку.",
+      "answer": "а) Стратифицированная выборка; б) 20 лососей и 30 форелей, выбранных случайно внутри каждой группы.",
       "workingSteps": [
-        "30% × 1200 = 360",
-        "30% × 360° = 108°"
+        "Стратифицированная выборка: рыбы делятся на группы «лосось» и «форель», и из каждой группы берётся выборка пропорционально её доле.",
+        "Лососи: 40% × 50 = 20 рыб; форели: 60% × 50 = 30 рыб (20 + 30 = 50).",
+        "Внутри каждой группы выбирай рыб случайно, например, пронумеровав их и используя таблицу случайных чисел."
       ]
     }
   }

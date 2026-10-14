@@ -4,8 +4,9 @@ import { BoxPlotBuilder } from '../../../components/simulations/math/BoxPlotBuil
 import { CumulativeFrequency } from '../../../components/simulations/math/CumulativeFrequency';
 
 const SUB_TOPICS = [
-  'representation', 'stemLeaf', 'grouped', 'boxPlots',
+  'representation', 'twoWayTables', 'stemLeaf', 'rangeSpread', 'grouped', 'boxPlots',
   'histograms', 'cumulativeFreq', 'stdDev', 'pieCharts',
+  'mutuallyExclusive', 'addProbabilities', 'sampling', 'correlation',
 ];
 
 export function StatsProbPage() {

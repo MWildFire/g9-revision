@@ -1783,186 +1783,110 @@
     }
   },
   "statsProb": {
-    "title": "Statistics & Probability",
-    "intro": "Histograms, box plots, stem-and-leaf plots, grouped data, cumulative frequency, standard deviation (Extended).",
+    "title": "Statistics and probability",
+    "intro": "On this page you choose a suitable chart for the data and draw stem-and-leaf diagrams, box plots and histograms. You also use grouped data and cumulative frequency to find typical values and spread. Extended: the standard deviation.",
     "subTopics": {
       "representation": "Data representation",
-      "stemLeaf": "Stem and leaf",
+      "stemLeaf": "Stem-and-leaf",
       "grouped": "Grouped data",
       "boxPlots": "Box plots",
       "histograms": "Histograms",
-      "cumulativeFreq": "Cumulative frequency and percentiles",
+      "cumulativeFreq": "Cumulative frequency",
       "stdDev": "Standard deviation (Extended)",
-      "pieCharts": "Pie charts"
+      "pieCharts": "Pie charts",
+      "twoWayTables": "Two-way tables",
+      "rangeSpread": "Range",
+      "mutuallyExclusive": "Mutually exclusive events",
+      "addProbabilities": "Adding probabilities",
+      "sampling": "Sampling methods",
+      "correlation": "Scatter diagrams and correlation"
     },
     "subTopicsDetailed": {
       "representation": {
-        "name": "Data representation — choosing the right chart",
-        "rule": "Categorical data record labels or classes. Numerical data record counts or measurements; discrete values are separate possibilities, while a continuous variable can take any value in an interval. A bar chart compares categories, a histogram groups numerical values, a line graph shows ordered change, and a scatter plot shows paired numerical observations.",
+        "name": "Choosing a chart for the type of data",
+        "rule": "Categorical data are names or groups, such as favourite colour. Numerical data are counts or measurements. Discrete data take separate values, such as 0, 1 or 2 goals. Continuous data can take any value between two limits, such as a height of 1.62 m.\n\nA bar chart represents categorical data: its bars have equal widths, with spaces between them. A histogram represents numerical data, discrete or continuous: its bars touch. A line graph shows how values change in order, usually over time. A scatter diagram shows pairs of numerical values, one pair for each observation.",
         "examples": [
-          "Favourite ice cream flavour → bar chart (categorical).",
-          "Heights of students → histogram (continuous data, grouped).",
-          "Goals scored per match → bar chart (discrete count).",
-          "Temperature vs ice cream sales → scatter graph."
+          "Favourite ice cream flavour (vanilla, chocolate or mango): categorical data, so a bar chart fits.",
+          "Heights of students: continuous data, grouped into class intervals, so a histogram fits.",
+          "Goals scored in 10 matches: 0, 1, 1, 2, 0, 3, 1, 2, 0, 1. The values are discrete numbers, so a histogram fits: 0 goals in 3 matches, 1 goal in 4 matches, 2 goals in 2 matches and 3 goals in 1 match.",
+          "Daily temperature (°C) and portions of ice cream sold on the same days: each day gives a pair of numbers, so a scatter diagram fits."
         ],
         "review": {
-          "englishTerm": "Data representation — choosing the right chart",
-          "russianTerm": "Представление данных — выбор диаграммы",
+          "englishTerm": "Categorical data",
+          "russianTerm": "Качественные данные",
           "contrast": {
-            "en": "A number used as a label, such as a bus route, need not be quantitative. Histogram intervals have numerical widths; bar-chart categories do not.",
-            "ru": "Число-метка, например номер маршрута, не обязательно количественно. Интервалы гистограммы имеют числовую ширину; категории столбчатой диаграммы — нет."
-          },
-          "sources": [
-            {
-              "title": "1.2 Data, Sampling, and Variation",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
-              "language": "en",
-              "section": "1.2 Data, Sampling, and Variation"
-            },
-            {
-              "title": "2.2 Histograms",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
-              "language": "en",
-              "section": "2.2 Histograms"
-            },
-            {
-              "title": "OpenStax — 12.3 The Regression Equation — Correlation Coefficient",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
-              "language": "en",
-              "section": "12.3 The Regression Equation — Correlation Coefficient"
-            },
-            {
-              "title": "2.1 Stem-and-Leaf Graphs",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
-              "language": "en",
-              "section": "2.1 Stem-and-Leaf Graphs"
-            }
-          ]
+            "en": "A bus route number such as 12 is a label, so it is categorical data, not numerical data. Histogram class intervals have a numerical width; bar-chart categories do not.",
+            "ru": "Номер маршрута 12 — это метка, поэтому такие данные качественные, а не количественные. Интервалы гистограммы имеют числовую ширину, а категории столбчатой диаграммы — нет."
+          }
         }
       },
       "stemLeaf": {
-        "name": "Stem and leaf diagram",
-        "rule": "A stem-and-leaf plot splits each data value at a chosen place value into a stem and a final digit called a leaf. Repeated values keep repeated leaves. Ordered leaves show distribution while preserving the recorded values. A key specifies the scale, for example 2|3=23 or 2|3=2.3.",
+        "name": "Stem-and-leaf diagrams: splitting values and reading the key",
+        "rule": "A stem-and-leaf diagram splits each value into a stem and a leaf. The leaf is the final digit of the value; the stem holds the other digits. Repeated values give repeated leaves. Writing the leaves in order shows how the data are spread and keeps every recorded value. The key shows the scale, for example 2|3 = 23 or 2|3 = 2.3.",
         "examples": [
-          "Data: 23, 25, 28, 34, 37, 41, 42, 42, 50. Stem-leaf: 2|3 5 8 / 3|4 7 / 4|1 2 2 / 5|0. Key: 2|3 = 23.",
-          "Back-to-back stem-leaf compares two groups: e.g., boys vs girls heights with shared stems in the middle."
+          "Data: 23, 25, 28, 34, 37, 41, 42, 42, 50. Diagram: 2|3 5 8 · 3|4 7 · 4|1 2 2 · 5|0. Key: 2|3 = 23. The row 2|3 5 8 means 23, 25 and 28.",
+          "Back-to-back diagram comparing two classes. Class A scores are 12, 15, 17, 23 and 28; Class B scores are 11, 14, 22, 25 and 27. Class A leaves go on the left of the shared stems, Class B leaves on the right: 7 5 2 | 1 | 1 4 and 8 3 | 2 | 2 5 7. Key: 2 | 1 | 1 means 12 for Class A and 11 for Class B."
         ],
         "review": {
-          "englishTerm": "Stem and leaf diagram",
-          "russianTerm": "Диаграмма «стебель–листья»",
+          "englishTerm": "Stem",
+          "russianTerm": "Стебель",
           "contrast": {
-            "en": "The stem is not always tens. In a back-to-back plot, read each side away from the common stems; include units in the key.",
-            "ru": "Стебель не всегда означает десятки. У двусторонней диаграммы каждую сторону читают от общих стеблей; в ключе укажите единицы."
-          },
-          "sources": [
-            {
-              "title": "2.1 Stem-and-Leaf Graphs",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
-              "language": "en",
-              "section": "2.1 Stem-and-Leaf Graphs"
-            }
-          ]
+            "en": "The stem is not always the tens digit. For the values 0.8, 1.2 and 1.5, the stem is the units digit and the leaf is the tenths digit. In a back-to-back diagram, read each side outwards from the shared stems, and state the units in the key.",
+            "ru": "Стебель не всегда означает десятки. Для значений 0,8; 1,2 и 1,5 стебель — это цифра целых, а лист — цифра десятых. В двусторонней диаграмме читай каждую сторону от общих стеблей наружу и укажи единицы измерения в ключе."
+          }
         }
       },
       "grouped": {
-        "name": "Grouped data — mean, median, mode",
-        "rule": "Grouped data record frequencies in nonoverlapping intervals, losing exact individual values. Estimate the mean by Σ(frequency×class midpoint)/Σfrequency. The median splits ordered data into halves; grouping usually identifies its class, with interpolation needed for an estimate. For equal-width classes, the modal class has the greatest frequency.",
+        "name": "Estimating the mean, median and modal class from grouped data",
+        "rule": "Grouped data show how many values fall into each class, such as 0 to 10. The exact values are lost.\n\nEstimate the mean with the class centres: mean ≈ Σ(frequency × centre) ÷ Σfrequency. The median lies in the class that contains the middle value, but its exact value is not known. A cumulative frequency curve or interpolation gives an estimate. For classes of equal width, the modal class is the class with the highest frequency.",
         "examples": [
-          "Intervals [0,10), [10,20), [20,30] have frequencies 4,10,6 and midpoints 5,15,25. Estimated mean=(5·4+15·10+25·6)/20=16.",
-          "The modal class is [10,20); both middle observations (10th and 11th) lie there.",
-          "A linear grouped-data median estimate uses 10+(10−4)/10·10=16; the exact median is unknown."
+          "The classes 0 < x ≤ 10, 10 < x ≤ 20 and 20 < x ≤ 30 have frequencies 4, 10 and 6, with midpoints 5, 15 and 25. The estimated mean is (5 × 4 + 15 × 10 + 25 × 6) ÷ 20 = 320 ÷ 20 = 16.",
+          "The modal class is 10 < x ≤ 20 because it has the highest frequency, 10. The 10th and 11th values out of 20 both lie in this class, so the median is also in 10 < x ≤ 20.",
+          "Half of 20 is 10, so the median is at cumulative frequency 10. Interpolate within the median class 10 < x ≤ 20: median ≈ 10 + (10 − 4) ÷ 10 × 10 = 16. Here 10 is the lower boundary, 4 is the cumulative frequency before the class, the next 10 is the class frequency and the last 10 is the class width. The exact median is not known."
         ],
         "review": {
-          "englishTerm": "Grouped data — mean, median, mode",
-          "russianTerm": "Сгруппированные данные — среднее, медиана, мода",
+          "englishTerm": "Class centre",
+          "russianTerm": "Середина интервала",
           "contrast": {
-            "en": "Mean, median and mode are distinct measures of centre. For unequal intervals, compare frequency density for the histogram peak; the exact mode is not known from grouped counts.",
-            "ru": "Среднее, медиана и мода — разные характеристики центра. При неравных интервалах пик гистограммы определяют по плотности частоты; точная мода по группам неизвестна."
-          },
-          "sources": [
-            {
-              "title": "2.5 Measures of Center",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data",
-              "language": "en",
-              "section": "2.5 Measures of Center"
-            },
-            {
-              "title": "2.2 Histograms",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
-              "language": "en",
-              "section": "2.2 Histograms"
-            },
-            {
-              "title": "Фоксфорд Учебник — Статистические характеристики",
-              "url": "https://foxford.ru/wiki/matematika/statisticheskieharakteristiki",
-              "language": "ru",
-              "section": "Среднее арифметическое, мода и медиана"
-            }
-          ]
+            "en": "The mode and the modal class are different. The mode is the value that occurs most often, but grouped data cannot show it; they only show the modal class. With unequal class widths, the modal class is the class with the greatest frequency per unit of class width, not the class with the greatest frequency.",
+            "ru": "Мода и модальный интервал — разные понятия. Мода — значение, которое встречается чаще всего, но по сгруппированным данным её найти нельзя. По ним можно найти только модальный интервал. При разной ширине интервалов модальный интервал — тот, у которого наибольшая частота на единицу ширины, а не наибольшая частота."
+          }
         }
       },
       "boxPlots": {
-        "name": "Box plots (box-and-whisker)",
-        "rule": "A box plot marks the median and quartiles Q1,Q3; the box covers the middle half of the data and IQR=Q3−Q1. In a modified box plot, flag values below Q1−1.5·IQR or above Q3+1.5·IQR as potential outliers, and draw whiskers to the most extreme unflagged observations.",
+        "name": "Box plots: five-point summary, quartiles and IQR",
+        "rule": "A box plot (box-and-whisker diagram) shows the five-point summary: the minimum, the lower quartile Q1, the median, the upper quartile Q3 and the maximum. The box spans the middle half of the data, from Q1 to Q3. Its length is the interquartile range, IQR = Q3 − Q1.\n\nA value less than Q1 − 1.5 × IQR, or greater than Q3 + 1.5 × IQR, is an outlier. In a modified box plot, the whiskers then stop at the furthest values that are not outliers.",
         "examples": [
-          "Data 2, 5, 7, 8, 10, 12, 15, 18, 22 (n=9). Median = 10 (5th). Q1 = 6 (avg of 5,7). Q3 = 16.5. Min=2, Max=22. IQR = 10.5.",
-          "Comparing: 'Group A has higher median and larger IQR — more variable than Group B'."
+          "Data: 2, 5, 7, 8, 10, 12, 15, 18, 22 (n = 9). Median = 10, the 5th value. Lower half 2, 5, 7, 8: Q1 = (5 + 7) ÷ 2 = 6. Upper half 12, 15, 18, 22: Q3 = (15 + 18) ÷ 2 = 16.5. Minimum 2, maximum 22, IQR = 16.5 − 6 = 10.5.",
+          "Group A: Q1 = 8, median 12, Q3 = 16, so IQR = 16 − 8 = 8. Group B: Q1 = 7, median 9, Q3 = 10, so IQR = 10 − 7 = 3. Group A has the higher median and the wider box, so the middle half of its data is more spread out."
         ],
         "review": {
-          "englishTerm": "Box plots (box-and-whisker)",
-          "russianTerm": "Ящики с усами (box-and-whisker)",
+          "englishTerm": "Interquartile range",
+          "russianTerm": "Межквартильный размах",
           "contrast": {
-            "en": "A basic five-number box plot uses min/max whiskers. Do not mix that convention with modified whiskers. A flagged outlier is not automatically an error.",
-            "ru": "У простого ящика по пяти числам усы идут до минимума и максимума. Это другое соглашение. Отмеченный выброс не обязательно является ошибкой."
+            "en": "There are two whisker rules. A basic box plot from the five-point summary runs the whiskers to the minimum and maximum. A value flagged as an outlier is not automatically a mistake in the data.",
+            "ru": "Для усов есть два правила. В простой диаграмме размаха по пятичисловой сводке усы идут до минимума и максимума. Значение, отмеченное как выброс, не обязательно ошибка в данных."
           },
-          "sources": [
-            {
-              "title": "2.4 Box Plots",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
-              "language": "en",
-              "section": "2.4 Box Plots"
-            },
-            {
-              "title": "2.3 Measures of Location",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
-              "language": "en",
-              "section": "2.3 Measures of Location"
-            }
-          ],
           "model": {
-            "en": "Here quartiles are medians of the lower and upper halves, excluding the overall median when n is odd. Software can use other conventions.",
-            "ru": "Здесь квартили — медианы нижней и верхней половин; общая медиана при нечётном n исключается. Программы могут использовать другие соглашения."
+            "en": "Method used here: Q1 is the median of the lower half of the data and Q3 is the median of the upper half. If n is odd, leave the overall median out of both halves. Calculators and software can use other methods, so state the method you use in an exam answer.",
+            "ru": "Здесь используется такой способ: Q1 — медиана нижней половины данных, Q3 — медиана верхней половины. Если n нечётное, медиана не входит ни в одну из половин. Калькуляторы и программы могут считать квартили иначе, поэтому в ответе на экзамене укажи, каким способом ты считаешь."
           }
         }
       },
       "histograms": {
-        "name": "Histograms (incl. unequal class widths)",
-        "rule": "A histogram displays frequencies across numerical intervals. When the vertical axis is frequency density, height=frequency/class width and rectangle area=frequency. Adjacent intervals meet at their boundary; an empty interval can create a gap. Unequal widths require area-based comparison.",
+        "name": "Histograms with equal and unequal class widths",
+        "rule": "A histogram shows the frequencies of numerical data (discrete or continuous) grouped into class intervals. There are no spaces between the bars. If the vertical scale shows frequency density, then bar height = frequency ÷ class width, and the area of each bar equals its frequency.\n\nWith unequal class widths, compare the areas of the bars, not their heights. A class with frequency 0 has no bar, so the histogram shows a gap there.",
         "examples": [
-          "Classes: 0–10 (freq 20, width 10, density 2). 10–30 (freq 60, width 20, density 3). 30–60 (freq 30, width 30, density 1).",
-          "Total frequency = sum of (density × width). Check: 2·10 + 3·20 + 1·30 = 110."
+          "Homework time for 110 students (minutes): 0 < t ≤ 10 has frequency 20, width 10 and frequency density 20/10 = 2; 10 < t ≤ 30 has frequency 60, width 20 and density 60/20 = 3; 30 < t ≤ 60 has frequency 30, width 30 and density 30/30 = 1.",
+          "Frequency = density × width, so the total is 2 × 10 + 3 × 20 + 1 × 30 = 20 + 60 + 30 = 110 students. The areas of the bars add up to 110."
         ],
         "review": {
-          "englishTerm": "Histograms (incl. unequal class widths)",
-          "russianTerm": "Гистограммы (вкл. неравные классы)",
+          "englishTerm": "Histogram",
+          "russianTerm": "Гистограмма",
           "contrast": {
-            "en": "Bar height alone is not frequency for unequal widths. With equal widths a frequency-height scale is possible, but area is then proportional to frequency.",
-            "ru": "При разной ширине сама высота не равна частоте. При равной ширине допустима ось частоты; площадь тогда пропорциональна частоте."
+            "en": "The height of a bar is not its frequency: a bar of height 2 and width 10 has frequency 20 (its area), not 2.",
+            "ru": "Высота столбца — не частота: столбец высотой 2 и шириной 10 имеет частоту 20 (его площадь), а не 2."
           },
-          "sources": [
-            {
-              "title": "2.2 Histograms",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
-              "language": "en",
-              "section": "2.2 Histograms"
-            },
-            {
-              "title": "NIST/SEMATECH e-Handbook of Statistical Methods",
-              "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/histogra.htm",
-              "language": "en",
-              "section": "1.3.3.14 Histogram — Definition; area normalisation (multiply probability density by sample size for frequency density)"
-            }
-          ],
           "visual": {
             "kind": "comparison",
             "title": {
@@ -1976,8 +1900,8 @@
                   "ru": "Ширина 10, высота 2"
                 },
                 "detail": {
-                  "en": "Area=20 observations",
-                  "ru": "Площадь=20 наблюдений"
+                  "en": "Area = 10 × 2 = 20 observations",
+                  "ru": "Площадь = 10 × 2 = 20 наблюдений"
                 }
               },
               {
@@ -1986,8 +1910,8 @@
                   "ru": "Ширина 20, высота 1"
                 },
                 "detail": {
-                  "en": "Area=20 observations",
-                  "ru": "Площадь=20 наблюдений"
+                  "en": "Area = 20 × 1 = 20 observations",
+                  "ru": "Площадь = 20 × 1 = 20 наблюдений"
                 }
               }
             ],
@@ -1999,86 +1923,148 @@
         }
       },
       "cumulativeFreq": {
-        "name": "Cumulative frequency and percentiles",
-        "rule": "Cumulative frequency is the running total up to a value. For grouped data, plot totals at upper class boundaries and start at the lowest boundary with zero. The graph cannot decrease. Read a pth percentile at cumulative frequency (p/100)N, interpolating between boundaries when necessary.",
+        "name": "Cumulative frequency graphs: reading medians, quartiles and percentiles",
+        "rule": "Cumulative frequency is the running total of frequencies up to a value. For grouped data, plot each running total at the upper boundary of its class, starting at 0 at the lower boundary of the first class. The curve never decreases. To find the p-th percentile, find the value at cumulative frequency (p/100) × N, where N is the total frequency. If this point lies inside a class, estimate the value by straight-line interpolation between the two boundaries of that class.",
         "examples": [
-          "Intervals [0,10), [10,20), [20,30] have frequencies 4,10,6. Plot (0,0), (10,4), (20,14), (30,20).",
-          "Linear estimates: median at CF=10 gives 16; Q1 at CF=5 gives 11; Q3 at CF=15 gives 21.67.",
-          "90th percentile at CF=18 gives 26.67."
+          "Intervals 0 < x ≤ 10, 10 < x ≤ 20 and 20 < x ≤ 30 have frequencies 4, 10 and 6. The running totals are 4, 14 and 20, so plot (0, 0), (10, 4), (20, 14) and (30, 20).",
+          "With N = 20: the median is at cumulative frequency 10 and equals 16. The lower quartile Q1 is at cumulative frequency 5 and equals 11. The upper quartile Q3 is at cumulative frequency 15 and equals 21.67 (to 2 d.p.).",
+          "90th percentile: cumulative frequency 0.9 × 20 = 18. Interpolating between (20, 14) and (30, 20): x = 20 + (18 − 14)/(20 − 14) × 10 = 26.67 (to 2 d.p.)."
         ],
         "review": {
-          "englishTerm": "Cumulative frequency and percentiles",
-          "russianTerm": "Накопленная частота и процентили",
+          "englishTerm": "Cumulative frequency",
+          "russianTerm": "Накопленная частота",
           "contrast": {
-            "en": "The graph need not be S-shaped. Grouped percentiles are estimates, and flat sections have no observations; do not divide by a zero frequency.",
-            "ru": "График не обязан иметь S-образную форму. Процентили по группам — оценки; горизонтальные участки означают отсутствие наблюдений, на нулевую частоту делить нельзя."
+            "en": "The curve does not have to be S-shaped; its shape depends on the data. A flat part means that class has frequency 0, so the cumulative frequency does not rise there. Never divide by that zero when you interpolate.",
+            "ru": "График не обязан быть S-образным: его форма зависит от данных. Горизонтальный участок означает, что частота этого интервала равна 0, поэтому накопленная частота там не растёт. При интерполяции нельзя делить на эту нулевую частоту."
           },
-          "sources": [
-            {
-              "title": "2.2 Histograms",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
-              "language": "en",
-              "section": "2.2 Histograms"
-            },
-            {
-              "title": "2.3 Measures of Location",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
-              "language": "en",
-              "section": "2.3 Measures of Location"
-            }
-          ],
           "model": {
-            "en": "Straight-line interpolation assumes values are spread uniformly inside each interval; the original individual values are unknown.",
-            "ru": "Линейная интерполяция предполагает равномерное распределение внутри интервала; исходные отдельные значения неизвестны."
+            "en": "Straight-line interpolation assumes that values are spread evenly within each class; the exact individual values are not known.",
+            "ru": "Линейная интерполяция предполагает, что значения внутри каждого интервала распределены равномерно. Точные значения неизвестны."
           }
         }
       },
       "stdDev": {
-        "name": "Standard deviation (Extended)",
-        "rule": "For a complete finite population x₁,…,x_N with mean μ, variance is σ²=Σ(xᵢ−μ)²/N and standard deviation is σ=√σ². To estimate population variance from a random sample of n>1 observations, use s²=Σ(xᵢ−x̄)²/(n−1). Standard deviation measures spread in the original units.",
+        "name": "Standard deviation: measuring spread from the mean (Extended)",
+        "rule": "Standard deviation (σ) measures how far the values typically lie from the mean, in the same units as the data. For n values with mean x̄: σ = √(Σ(x − x̄)²/n), where Σ(x − x̄)² is the sum of the squared deviations from the mean. The variance is σ².",
         "examples": [
-          "Data 2, 4, 4, 4, 5, 5, 7, 9. Mean x̄ = 5. Deviations: −3, −1, −1, −1, 0, 0, 2, 4. Squared: 9, 1, 1, 1, 0, 0, 4, 16 = 32. σ = √(32/8) = 2.",
-          "Compare: data 4.5, 5, 5, 5, 5, 5.5 has same mean 5, but σ ≈ 0.289. Much more consistent."
+          "Data: 2, 4, 4, 4, 5, 5, 7, 9, so n = 8 and the mean is 40/8 = 5. Deviations from the mean: −3, −1, −1, −1, 0, 0, 2, 4. Squared: 9, 1, 1, 1, 0, 0, 4, 16, with sum 32. So σ = √(32/8) = √4 = 2.",
+          "Compare with the data above: 4.5, 5, 5, 5, 5, 5.5 also has mean 5. Its squared deviations sum to 0.5, so σ = √(0.5/6) ≈ 0.289. The values lie much closer to the mean, so the spread is smaller."
         ],
         "review": {
-          "englishTerm": "Standard deviation (Extended)",
-          "russianTerm": "Стандартное отклонение (Extended)",
+          "englishTerm": "Standard deviation",
+          "russianTerm": "Стандартное отклонение",
           "contrast": {
-            "en": "Variance has squared units. The 68% within one standard deviation rule describes a normal distribution, not arbitrary data.",
-            "ru": "Дисперсия имеет квадратные единицы. Правило о 68% в пределах одного стандартного отклонения относится к нормальному распределению, а не к любым данным."
-          },
-          "sources": [
-            {
-              "title": "2.7 Measures of Spread",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
-              "language": "en",
-              "section": "2.7 Measures of Spread"
-            }
-          ]
+            "en": "Variance is in squared units (for example, cm²), so compare spreads with the standard deviation, which is in the original units (cm). A standard deviation of 0 means that all the values are equal.",
+            "ru": "Дисперсия измеряется в квадратных единицах (например, см²), поэтому разброс сравнивают по стандартному отклонению, которое измеряется в исходных единицах (см). Стандартное отклонение, равное 0, означает, что все значения одинаковы."
+          }
         }
       },
       "pieCharts": {
-        "name": "Pie charts",
-        "rule": "A pie chart divides a circle into sectors representing nonoverlapping categories of one whole. A category with frequency f out of total N>0 has angle 360°·f/N. All categories together account for 100% and 360°.",
+        "name": "Pie charts: reading sectors and calculating angles",
+        "rule": "A pie chart shows how one whole is split into non-overlapping categories. Each category gets a sector. Its sector angle is 360° × f/N, where f is the frequency of the category and N is the total frequency. The angles of all the sectors add up to 360°, which is 100% of the whole.",
         "examples": [
-          "Survey of 60 people: 20 walk, 10 cycle, 30 drive. Angles: walk 120°, cycle 60°, drive 180°. Total 360° ✓.",
-          "If sector for 'cycle' = 30° in pie of 240 students, count = (30/360)·240 = 20 cyclists."
+          "A survey of 60 people on how they travel: 20 walk, 10 cycle and 30 drive. Angles: walk 20/60 × 360° = 120°; cycle 10/60 × 360° = 60°; drive 30/60 × 360° = 180°. The three angles add up to 360°.",
+          "A pie chart of 240 students has a 30° sector for 'cycle'. The number who cycle is (30/360) × 240 = 20 students."
         ],
         "review": {
-          "englishTerm": "Pie charts",
-          "russianTerm": "Круговые диаграммы",
+          "englishTerm": "Pie chart",
+          "russianTerm": "Круговая диаграмма",
           "contrast": {
-            "en": "A category sector shows a proportion, not a raw count without the total. Overlapping categories or multiple-choice responses may not form one whole.",
-            "ru": "Сектор показывает долю; без общего числа он не задаёт количество. Пересекающиеся категории или ответы с множественным выбором могут не составлять одно целое."
-          },
-          "sources": [
-            {
-              "title": "1.2 Data, Sampling, and Variation",
-              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
-              "language": "en",
-              "section": "1.2 Data, Sampling, and Variation"
-            }
-          ]
+            "en": "A sector shows a share of the whole, so you need the total to turn it into a count. A pie chart works only if the categories do not overlap and make up one whole: multiple-choice answers can add up to more than 100%.",
+            "ru": "Сектор показывает долю целого, поэтому, чтобы получить количество, нужен общий итог. Круговая диаграмма подходит, только если категории не пересекаются и составляют одно целое: при множественном выборе ответы могут в сумме дать больше 100%."
+          }
+        }
+      },
+      "twoWayTables": {
+        "name": "Two-way tables: rows, columns and totals",
+        "rule": "A two-way table shows data for two features at once: one feature in the rows and one in the columns. Row totals, column totals and the grand total give the number of people in each category and in the whole group.",
+        "examples": [
+          "40 students are asked how they travel to school. Girls: 9 walk and 13 take the bus. Boys: 7 walk and 11 take the bus. For a student picked at random, P(walks) = (9 + 7) ÷ 40 = 16/40 = 2/5. If the student picked is a girl, P(walks) = 9/22."
+        ],
+        "review": {
+          "englishTerm": "Two-way table",
+          "russianTerm": "Таблица сопряжённости",
+          "contrast": {
+            "en": "The denominator is the total of the group named in the question. For a girl, use the 22 girls, not the 40 students.",
+            "ru": "Знаменатель — это итог той группы, о которой спрашивают. Для девочки берём 22 девочки, а не 40 учеников."
+          }
+        }
+      },
+      "rangeSpread": {
+        "name": "Range as a measure of spread",
+        "rule": "The range measures spread: how far apart the values are. Range = largest value − smallest value. A range of 0 means all values are equal, and one extreme value can change the range a lot.",
+        "examples": [
+          "Data: 7, 12, 12, 18, 25. Range = 25 − 7 = 18.",
+          "Class A marks: 52, 58, 61, 70. Class B marks: 45, 60, 75. Range A = 70 − 52 = 18 and range B = 75 − 45 = 30, so the marks of class B are more spread out."
+        ],
+        "review": {
+          "englishTerm": "Range",
+          "russianTerm": "Размах",
+          "contrast": {
+            "en": "The range is a difference, not one of the values: 25 is not the range of the first data set.",
+            "ru": "Размах — это разность, а не одно из значений: число 25 в первом наборе — не размах."
+          }
+        }
+      },
+      "mutuallyExclusive": {
+        "name": "Mutually exclusive events: events that cannot happen together",
+        "rule": "Two events are mutually exclusive if they cannot both happen in a single trial. Their sets have no outcome in common, so A ∩ B = ∅ and P(A and B) = 0.",
+        "examples": [
+          "A fair six-sided die is rolled once. A = odd number = {1, 3, 5} and B = even number = {2, 4, 6} have no outcome in common, so they are mutually exclusive. C = number greater than 4 = {5, 6} shares the outcome 6 with B, so B and C are not mutually exclusive."
+        ],
+        "review": {
+          "englishTerm": "Mutually exclusive events",
+          "russianTerm": "Несовместные события",
+          "contrast": {
+            "en": "Mutually exclusive does not mean unrelated. If A happens, B cannot happen.",
+            "ru": "Несовместные — не значит «никак не связанные»: если наступило A, событие B уже не может наступить."
+          }
+        }
+      },
+      "addProbabilities": {
+        "name": "Adding probabilities of mutually exclusive events",
+        "rule": "If events A and B are mutually exclusive, P(A or B) = P(A) + P(B): the probabilities are added. This is the addition rule, and it works for any number of mutually exclusive events.",
+        "examples": [
+          "A card is taken at random from a pack of 52. P(heart) = 13/52 and P(spade) = 13/52. A card cannot be both a heart and a spade, so P(heart or spade) = 13/52 + 13/52 = 26/52 = 1/2."
+        ],
+        "review": {
+          "englishTerm": "Addition rule",
+          "russianTerm": "Сложение вероятностей",
+          "contrast": {
+            "en": "Only events that cannot happen together can be added. A heart and a king can both happen (the king of hearts), so P(heart or king) is not 13/52 + 4/52.",
+            "ru": "Складывать можно только события, которые не могут произойти вместе. Червы и король могут совпасть (король червей), поэтому P(червы или король) не равно 13/52 + 4/52."
+          }
+        }
+      },
+      "sampling": {
+        "name": "Sampling: simple random, systematic and stratified samples",
+        "rule": "A sample is part of a population. Each method below needs a sampling frame: a list of every member of the population. Simple random sampling gives every member an equal chance. Systematic sampling takes every nth member of an ordered list after a random start. Stratified sampling splits the population into groups and samples each group in proportion to its size. A larger sample usually gives more reliable results.",
+        "examples": [
+          "A school has 300 students: 180 in Year 10 and 120 in Year 11. A stratified sample of 30 keeps the proportions: Year 10 gets 30 × 180/300 = 18 students and Year 11 gets 30 × 120/300 = 12 students.",
+          "From a list of 300 students, start at a random student among the first 10 and take every 10th student: this gives a systematic sample of 300 ÷ 10 = 30 students."
+        ],
+        "review": {
+          "englishTerm": "Sampling",
+          "russianTerm": "Выборка",
+          "contrast": {
+            "en": "A large sample is not automatically fair. A biased method gives a biased sample, however many people it includes.",
+            "ru": "Большая выборка не всегда честная. Если способ отбора смещён, выборка будет смещённой, сколько бы людей в неё ни вошло."
+          }
+        }
+      },
+      "correlation": {
+        "name": "Correlation and the line of best fit",
+        "rule": "Correlation describes how closely the points of a scatter diagram follow a straight line. Positive correlation means y tends to increase as x increases; negative correlation means y tends to decrease. A line of best fit is a straight line drawn through the middle of the points, with about equal numbers of points on each side. It passes through the mean point (x̄, ȳ) and can predict values inside the data range.",
+        "examples": [
+          "A line of best fit passes through (4, 60) and (8, 80). Its gradient is (80 − 60) ÷ (8 − 4) = 5, so the line is y = 5x + 40. For x = 6, y = 5 × 6 + 40 = 70."
+        ],
+        "review": {
+          "englishTerm": "Correlation",
+          "russianTerm": "Корреляция",
+          "contrast": {
+            "en": "Correlation does not prove causation. Two quantities can be strongly correlated because a third factor affects both.",
+            "ru": "Корреляция не доказывает причину. Две величины могут сильно коррелировать, если на обе влияет третий фактор."
+          }
         }
       }
     }
@@ -2569,28 +2555,10 @@
       "valueAtLabel": "Estimated percentile value",
       "review": {
         "englishTerm": "Cumulative frequency and percentiles",
-        "russianTerm": "Накопленная частота и процентили",
+        "russianTerm": "",
         "contrast": {
           "en": "The graph need not be S-shaped. Grouped percentiles are estimates, and flat sections have no observations; do not divide by a zero frequency.",
           "ru": "График не обязан иметь S-образную форму. Процентили по группам — оценки; горизонтальные участки означают отсутствие наблюдений, на нулевую частоту делить нельзя."
-        },
-        "sources": [
-          {
-            "title": "2.2 Histograms",
-            "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
-            "language": "en",
-            "section": "2.2 Histograms"
-          },
-          {
-            "title": "2.3 Measures of Location",
-            "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
-            "language": "en",
-            "section": "2.3 Measures of Location"
-          }
-        ],
-        "model": {
-          "en": "Straight-line interpolation assumes values are spread uniformly inside each interval; the original individual values are unknown.",
-          "ru": "Линейная интерполяция предполагает равномерное распределение внутри интервала; исходные отдельные значения неизвестны."
         }
       },
       "total": "Total frequency",

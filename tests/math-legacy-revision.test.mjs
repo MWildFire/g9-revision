@@ -76,11 +76,13 @@ test('all existing legacy definition cards expose bilingual terminology and sect
       for (const item of Object.values(group)) {
         count++;assert.ok(item.rule.length>70);assert.ok(item.review.englishTerm&&item.review.russianTerm);
         if(item.review.contrast)assert.ok(item.review.contrast.en&&item.review.contrast.ru);
+        // M-m-data (statsProb): OpenStax sources removed (EN-STANDARD §1). The MYP print textbook has no URL; its page references are in content-work/M-m-data/sources.md. Sources are checked for the other legacy cards only.
+        if (group===d.statsProb.subTopicsDetailed) continue;
         assert.ok(item.review.sources.length>0);
         for (const source of item.review.sources) { assert.match(source.url,/^https:\/\//); assert.ok(source.section); assert.ok(['en','ru'].includes(source.language)); }
       }
     }
-    assert.equal(count,51);
+    assert.equal(count,57);
     assert.match(d.numberSystems.subTopicsDetailed.surdsSimplify.rule,/\|a\|/);
     assert.match(d.functionsAlgebra.subTopicsDetailed.exponential.rule,/A·bˣ/);
     assert.ok(d.statsProb.subTopicsDetailed.boxPlots.review.model[lang]);

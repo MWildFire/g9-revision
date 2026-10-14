@@ -2252,7 +2252,7 @@
         "detailed": {
           "equation": {
             "name": "The word and balanced equation",
-            "rule": "Photosynthesis uses light energy to build organic molecules from carbon dioxide. In plants, water supplies electrons and oxygen is released. The simplified net equation is 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, with light and chlorophyll required; light is an energy input, not matter.",
+            "rule": "Photosynthesis is the process by which plants and algae use light energy to make glucose from carbon dioxide and water. The carbon in the glucose comes from carbon dioxide. The oxygen released comes from water, which is split during the light-dependent reactions. The net equation is 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.",
             "examples": [
               "Carbon dioxide + water → carbohydrate + oxygen, using light energy.",
               "Plants respire in daylight too; net gas exchange depends on both rates."
@@ -2262,8 +2262,8 @@
               "englishTerm": "The word and balanced equation",
               "russianTerm": "Словесное и сбалансированное уравнение",
               "contrast": {
-                "en": "Carbon dioxide and water supply matter; light supplies energy. Plants also respire in both light and darkness.",
-                "ru": "Углекислый газ и вода поставляют вещество, свет — энергию. Растения дышат и на свету, и в темноте."
+                "en": "One CO₂ molecule does not make one glucose molecule. Six CO₂ molecules are needed for one glucose molecule, because glucose contains six carbon atoms.",
+                "ru": "Из одной молекулы CO₂ не получается одна молекула глюкозы. На одну молекулу глюкозы нужны шесть молекул CO₂, потому что в глюкозе шесть атомов углерода."
               },
               "sources": [
                 {
@@ -2286,8 +2286,8 @@
                 }
               ],
               "model": {
-                "en": "The net equation summarises oxygenic photosynthesis; it is not a one-step mechanism. The Calvin cycle first makes a three-carbon product, not a glucose molecule directly.",
-                "ru": "Суммарное уравнение описывает кислородный фотосинтез, а не одностадийный механизм. Первичный продукт цикла Кальвина трёхуглеродный; глюкоза образуется последующими превращениями."
+                "en": "The net equation describes the overall change in photosynthesis that releases oxygen, in plants and algae. It does not show the steps. The first product of the Calvin cycle is a three-carbon compound, not glucose.",
+                "ru": "Суммарное уравнение описывает общий итог кислородного фотосинтеза у растений и водорослей. Оно не показывает шаги процесса. Первый продукт цикла Кальвина — трёхуглеродное соединение, а не глюкоза."
               },
               "visual": {
                 "kind": "flow",
@@ -2336,18 +2336,18 @@
           },
           "location": {
             "name": "Where photosynthesis happens",
-            "rule": "In plants and algae, photosynthesis occurs in chloroplasts. Chlorophyll and other pigments in thylakoid membranes absorb light. Carbon fixation occurs in the stroma. Leaf mesophyll contains many chloroplasts, but photosynthetic bacteria have no chloroplasts.",
+            "rule": "In plants and algae, photosynthesis happens in chloroplasts, mostly in the mesophyll cells of leaves. The light-dependent reactions happen on thylakoid membranes, and carbon fixation happens in the stroma, the fluid matrix of the chloroplast.",
             "examples": [
-              "Thylakoid membranes contain light-absorbing pigment systems.",
-              "Xylem supplies water; phloem transports organic solutes, commonly sucrose."
+              "Thylakoid membranes hold chlorophyll and other pigments, grouped into photosystems that absorb light.",
+              "Xylem brings water to the leaf; phloem carries away the organic substances made there, mainly sucrose."
             ],
-            "tip": "Leaf shape is an ADAPTATION: thin and flat = short diffusion distance + large surface area for light absorption.",
+            "tip": "The thin, flat shape of a leaf is an adaptation. It gives CO₂ a short diffusion distance to the chloroplasts and a large surface area to absorb light.",
             "review": {
               "englishTerm": "Where photosynthesis happens",
               "russianTerm": "Где происходит фотосинтез",
               "contrast": {
-                "en": "Carbon dioxide and water supply matter; light supplies energy. Plants also respire in both light and darkness.",
-                "ru": "Углекислый газ и вода поставляют вещество, свет — энергию. Растения дышат и на свету, и в темноте."
+                "en": "A leaf is an organ; the reactions take place only in the chloroplasts inside its cells. Leaf anatomy is an adaptation for photosynthesis, not the process itself. Most root cells have no chloroplasts, so they do not photosynthesise.",
+                "ru": "Лист — это орган, а реакции идут только в хлоропластах его клеток. Строение листа — адаптация к фотосинтезу, а не сам процесс. Большинство клеток корня не имеет хлоропластов, поэтому они не фотосинтезируют."
               },
               "sources": [
                 {
@@ -2370,14 +2370,14 @@
                 }
               ],
               "model": {
-                "en": "The net equation summarises oxygenic photosynthesis; it is not a one-step mechanism. The Calvin cycle first makes a three-carbon product, not a glucose molecule directly.",
-                "ru": "Суммарное уравнение описывает кислородный фотосинтез, а не одностадийный механизм. Первичный продукт цикла Кальвина трёхуглеродный; глюкоза образуется последующими превращениями."
+                "en": "The chloroplast description applies to plants and algae. Cyanobacteria also photosynthesise, but they have no chloroplasts; their thylakoid membranes lie free in the cytoplasm.",
+                "ru": "Сказанное о хлоропластах относится к растениям и водорослям. Цианобактерии тоже фотосинтезируют, но хлоропластов у них нет: тилакоидные мембраны лежат свободно в цитоплазме."
               }
             }
           },
           "factors": {
             "name": "Limiting factors",
-            "rule": "A limiting factor is a condition whose change would increase the photosynthesis rate while other conditions remain fixed. Light intensity, CO₂ availability and temperature can each limit rate. Raising one factor may eventually stop helping because another becomes limiting; excessive heat can reduce enzyme activity.",
+            "rule": "A limiting factor is the condition that restricts the rate of photosynthesis: if it increases while the other conditions stay the same, the rate rises. Light acts on the light-dependent reactions, and CO₂ acts on the Calvin cycle. Temperature acts on enzymes: they work faster as the temperature rises up to an optimum, but very high heat denatures them, so they lose their shape. When one factor stops limiting the rate, another factor takes over the limit.",
             "examples": [
               "Increasing light at fixed CO₂ and temperature can produce an initial rise followed by a plateau.",
               "Water shortage can close stomata and limit CO₂ entry."
@@ -2387,8 +2387,8 @@
               "englishTerm": "Limiting factors",
               "russianTerm": "Лимитирующие факторы",
               "contrast": {
-                "en": "Carbon dioxide and water supply matter; light supplies energy. Plants also respire in both light and darkness.",
-                "ru": "Углекислый газ и вода поставляют вещество, свет — энергию. Растения дышат и на свету, и в темноте."
+                "en": "Light, CO₂ and temperature can all affect the rate, but only the factor in shortest supply is limiting. In bright light with little CO₂, extra light does not help, because CO₂ is the limit.",
+                "ru": "Свет, CO₂ и температура могут влиять на скорость, но лимитирует только тот фактор, которого сейчас не хватает сильнее всего. При ярком свете и малом CO₂ дополнительный свет не поможет: предел задаёт CO₂."
               },
               "sources": [
                 {
@@ -2411,8 +2411,8 @@
                 }
               ],
               "model": {
-                "en": "The net equation summarises oxygenic photosynthesis; it is not a one-step mechanism. The Calvin cycle first makes a three-carbon product, not a glucose molecule directly.",
-                "ru": "Суммарное уравнение описывает кислородный фотосинтез, а не одностадийный механизм. Первичный продукт цикла Кальвина трёхуглеродный; глюкоза образуется последующими превращениями."
+                "en": "A limiting factor describes one moment, not the whole day. During the day, the limit changes: low light at dawn or dusk is limiting, but at midday CO₂ or temperature may be the limit.",
+                "ru": "Лимитирующий фактор описывает один момент, а не весь день. В течение дня предел меняется: на рассвете и закате лимитирует слабый свет, а в полдень может лимитировать CO₂ или температура."
               }
             }
           },
@@ -2420,18 +2420,18 @@
             "name": "What plants do with glucose",
             "rule": "Photosynthetic carbohydrates supply carbon and energy for growth. Plants use them in respiration, store carbon as starch, build cellulose and make other organic molecules. Protein synthesis also requires mineral nutrients such as nitrogen; glucose alone cannot supply nitrogen atoms.",
             "examples": [
-              "Potatoes/grain — starch stores.",
-              "Cellulose in walls makes wood, cotton, paper.",
-              "Plant proteins (e.g., soya) made from amino acids derived from glucose + N.",
-              "Glucose can also be converted to fats (in seeds — high-energy storage for the embryo)."
+              "Potato tubers and wheat grains store starch that the plant can later break down into glucose.",
+              "Cellulose in plant cell walls gives strength to wood, cotton and paper.",
+              "Soya proteins are built from amino acids: the carbon comes from sugars made by photosynthesis, and the nitrogen comes from nitrate or ammonium ions in the soil.",
+              "Sunflower and rapeseed seeds convert sugars into fats, which store a lot of energy in a small mass."
             ],
-            "tip": "The Calvin cycle first produces three-carbon compounds; glucose is a convenient product in the simplified overall equation.",
+            "tip": "Glucose is a convenient product in the simplified overall equation.",
             "review": {
               "englishTerm": "What plants do with glucose",
               "russianTerm": "Что растения делают с глюкозой",
               "contrast": {
-                "en": "Carbon dioxide and water supply matter; light supplies energy. Plants also respire in both light and darkness.",
-                "ru": "Углекислый газ и вода поставляют вещество, свет — энергию. Растения дышат и на свету, и в темноте."
+                "en": "Starch and cellulose are both built from glucose units, but the units are linked differently. Starch is a store that the plant can break down; cellulose is a wall material that most animals cannot digest without microbes.",
+                "ru": "Крахмал и целлюлоза построены из остатков глюкозы, но звенья соединены по-разному. Крахмал — запас, который растение может расщепить; целлюлоза — материал стенок, который большинство животных без микроорганизмов не переваривает."
               },
               "sources": [
                 {
@@ -2454,8 +2454,8 @@
                 }
               ],
               "model": {
-                "en": "The net equation summarises oxygenic photosynthesis; it is not a one-step mechanism. The Calvin cycle first makes a three-carbon product, not a glucose molecule directly.",
-                "ru": "Суммарное уравнение описывает кислородный фотосинтез, а не одностадийный механизм. Первичный продукт цикла Кальвина трёхуглеродный; глюкоза образуется последующими превращениями."
+                "en": "Think of glucose as a hub, not a final product. The plant uses it for energy in respiration, stores it as starch, builds cellulose from it or converts it to fats, depending on its needs.",
+                "ru": "Глюкоза — не конечный продукт, а точка разветвления. Растение расходует её на энергию в дыхании, запасает в виде крахмала, строит из неё целлюлозу или превращает в жиры — в зависимости от потребностей."
               }
             }
           },
@@ -2463,16 +2463,16 @@
             "name": "Classic photosynthesis experiments",
             "rule": "Photosynthesis experiments test a stated prediction using a control and measured outcomes. A leaf starch test gives indirect evidence of carbohydrate accumulation; oxygen production can estimate net photosynthetic rate. Respiration and storage can affect results, so neither measure directly counts every photosynthetic reaction.",
             "examples": [
-              "Compare covered and uncovered parts of a previously destarched leaf using an appropriate control.",
-              "Measure gas volume rather than assuming all pondweed bubbles have equal volume."
+              "A destarched leaf, partly covered with foil and left in light, turns blue-black with iodine only where it was exposed.",
+              "In a pondweed experiment, counting bubbles per minute ignores that the bubbles differ in size; measuring the volume of collected gas gives a more accurate rate."
             ],
-            "tip": "All these test ONE variable while controlling others — exactly what Criterion B is about.",
+            "tip": "Each of these experiments changes ONE variable and controls the others, which is what Criterion B asks for.",
             "review": {
               "englishTerm": "Classic photosynthesis experiments",
               "russianTerm": "Классические опыты по фотосинтезу",
               "contrast": {
-                "en": "Carbon dioxide and water supply matter; light supplies energy. Plants also respire in both light and darkness.",
-                "ru": "Углекислый газ и вода поставляют вещество, свет — энергию. Растения дышат и на свету, и в темноте."
+                "en": "A bubble count is not the same as the photosynthesis rate. Bubbles differ in size, and the oxygen released is a net value because respiration uses some of it.",
+                "ru": "Число пузырьков — не то же, что скорость фотосинтеза. Пузырьки бывают разного размера, а выделившийся кислород отражает чистый результат, потому что часть его расходует дыхание."
               },
               "sources": [
                 {
@@ -2493,11 +2493,7 @@
                   "language": "ru",
                   "section": "Фотосинтез — питание растений: условия, вещества и энергия"
                 }
-              ],
-              "model": {
-                "en": "The net equation summarises oxygenic photosynthesis; it is not a one-step mechanism. The Calvin cycle first makes a three-carbon product, not a glucose molecule directly.",
-                "ru": "Суммарное уравнение описывает кислородный фотосинтез, а не одностадийный механизм. Первичный продукт цикла Кальвина трёхуглеродный; глюкоза образуется последующими превращениями."
-              }
+              ]
             }
           }
         }
@@ -2512,7 +2508,7 @@
               "Engineered microbes can produce a human insulin protein.",
               "Editing a plant gene without adding another species' DNA is also genetic engineering."
             ],
-            "tip": "Targeted editing can affect more than the intended trait; verify the sequence and phenotype.",
+            "tip": "Targeted editing can change more than the intended trait, so check both the DNA sequence and the phenotype.",
             "review": {
               "englishTerm": "What is genetic engineering?",
               "russianTerm": "Что такое генная инженерия?",
@@ -2540,7 +2536,7 @@
             "name": "Key techniques",
             "rule": "Recombinant-DNA methods join DNA sequences, often using restriction enzymes, ligase and a vector such as a plasmid. Gene-editing systems such as CRISPR direct changes to selected sites. Successful delivery does not guarantee correct expression; the modified cells must be checked.",
             "examples": [
-              "Restriction enzymes cut selected DNA sequences; ligase joins DNA backbones.",
+              "Restriction enzymes cleave selected DNA sequences; ligase joins DNA backbones.",
               "A guide RNA can direct a CRISPR-associated enzyme to a selected DNA region."
             ],
             "watchOut": "Precision is a goal, not a guarantee: off-target and unintended on-target changes must be assessed.",
@@ -2548,8 +2544,8 @@
               "englishTerm": "Key techniques",
               "russianTerm": "Ключевые техники",
               "contrast": {
-                "en": "Biotechnology is broader than genetic engineering; engineering can edit existing DNA without adding a gene from another species.",
-                "ru": "Биотехнология шире генной инженерии; инженерное изменение ДНК не обязательно переносит ген другого вида."
+                "en": "Restriction enzymes cleave DNA, but they do not join it; ligase does the joining. The two enzymes do opposite jobs, so name the one that fits each step.",
+                "ru": "Рестриктазы разрезают ДНК, но не соединяют её: соединяет лигаза. Эти ферменты выполняют противоположные задачи, поэтому для каждого шага назови нужный."
               },
               "sources": [
                 {
@@ -2572,15 +2568,15 @@
             "rule": "Applications of genetic engineering include producing human insulin in microbes, modifying crop traits and investigating gene function. Some treatments alter patient cells to address disease. Each application needs separate evidence of effectiveness and effects; a useful gene does not guarantee a useful organism.",
             "examples": [
               "Recombinant protein production uses modified cells as factories for a chosen protein.",
-              "A herbicide-tolerance trait changes a crop's response to a particular herbicide."
+              "Herbicide-tolerant soya survives a spray that kills the weeds growing among it."
             ],
-            "tip": "When asked about benefits/risks: split into ENVIRONMENTAL (good: less pesticide; bad: gene flow to wild plants), SOCIAL (good: cheaper food; bad: dependence on big agri companies), ECONOMIC, ETHICAL.",
+            "tip": "When asked about benefits and risks, split your answer into environmental, social, economic and ethical points. For example, less pesticide is an environmental benefit, while gene flow to wild plants is an environmental risk.",
             "review": {
-              "englishTerm": "Applications — medicine, agriculture, industry",
-              "russianTerm": "Применение — медицина, сельское хозяйство, промышленность",
+              "englishTerm": "Biotechnology uses: medicine, agriculture and industry",
+              "russianTerm": "Применения биотехнологии: медицина, сельское хозяйство и промышленность",
               "contrast": {
-                "en": "Biotechnology is broader than genetic engineering; engineering can edit existing DNA without adding a gene from another species.",
-                "ru": "Биотехнология шире генной инженерии; инженерное изменение ДНК не обязательно переносит ген другого вида."
+                "en": "A herbicide-tolerant crop is designed to survive a spray; weeds become herbicide-resistant through natural selection. The two terms refer to different organisms and different causes.",
+                "ru": "Культуру, устойчивую к гербициду, создают так, чтобы она выдержала опрыскивание; сорняки становятся устойчивыми благодаря естественному отбору. Эти понятия относятся к разным организмам и имеют разные причины."
               },
               "sources": [
                 {
@@ -2602,16 +2598,16 @@
             "name": "Ethical and biological concerns",
             "rule": "Ethical assessment of genetic engineering considers likely benefits, evidence about harms, animal welfare, consent where relevant and fair access. Environmental assessment considers gene flow and effects on ecosystems. Biological risk and value judgements are different questions and both require explicit reasoning.",
             "examples": [
-              "Assess gene flow to relatives using evidence about the particular organism and environment.",
-              "Discuss who receives benefits, bears risks and can participate in decisions."
+              "Pollen from a GM crop can pollinate a wild relative growing nearby, so the risk depends on distance and whether the two species can interbreed.",
+              "A GM seed that costs more than a small farmer can afford benefits only the farmers who can pay for it."
             ],
-            "watchOut": "Separate evidence about biological effects from ethical judgements; explain each rather than assuming every application has the same outcome.",
+            "watchOut": "Separate evidence about biological effects from ethical judgements, and give reasons for each one rather than assuming every application has the same outcome.",
             "review": {
               "englishTerm": "Ethical and biological concerns",
               "russianTerm": "Этические и биологические проблемы",
               "contrast": {
-                "en": "Biotechnology is broader than genetic engineering; engineering can edit existing DNA without adding a gene from another species.",
-                "ru": "Биотехнология шире генной инженерии; инженерное изменение ДНК не обязательно переносит ген другого вида."
+                "en": "A modified crop can be biologically safe and still raise ethical questions, such as who controls the seed. Safety evidence does not settle the ethical question.",
+                "ru": "ГМ-культура может быть безопасной в биологическом смысле и всё же вызывать этические вопросы, например о том, кто контролирует семена. Данные о безопасности не решают этический вопрос."
               },
               "sources": [
                 {

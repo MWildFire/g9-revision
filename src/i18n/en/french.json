@@ -2,7 +2,7 @@
   "subjectName": "French",
   "home": {
     "title": "French — Revision",
-    "intro": "Reference for G9 IB MYP French Language Acquisition: themed vocabulary, verb tenses, key grammar, and useful phrases.",
+    "intro": "Reference for G9 IB MYP French Language Acquisition: themed vocabulary, verb tenses, key grammar, useful phrases, exam units and writing text types.",
     "topicsHeading": "Topics",
     "selectLevel": "Select your level",
     "levels": {
@@ -23,12 +23,12 @@
   },
   "unitsPage": {
     "title": "Exam Units — Capable & Proficient",
-    "intro": "The four units examined for Capable and Proficient phases. Each unit has its own vocabulary themes. Master vocab for the unit you're tested on and your speaking topic.",
-    "notice": "These are the actual units from your G9 French revision list."
+    "intro": "The four units examined for the Capable and Proficient levels. Each unit has its own vocabulary themes. Master the vocabulary for the unit you are tested on and for your speaking topic.",
+    "notice": "These units follow your G9 French revision list."
   },
   "unitsContent": {
     "unite1": {
-      "title": "Unité 1 — Quels sont les facteurs de la bonne santé ?",
+      "title": "Unité 1 — Quels sont les facteurs de la bonne santé ? (What are the factors of good health?)",
       "vocab": [
         "Une alimentation saine — healthy eating",
         "La malbouffe — junk food",
@@ -39,18 +39,18 @@
       ]
     },
     "unite2": {
-      "title": "Unité 2 — Qu'est-ce que la solidarité humaine et le service à la communauté ?",
+      "title": "Unité 2 — Qu'est-ce que la solidarité humaine et le service à la communauté ? (What is human solidarity and community service?)",
       "vocab": [
         "La solidarité — solidarity. Comment être solidaire — how to show solidarity",
-        "Les types de solidarité — forms of mutual support; use the categories defined in your course.",
-        "Les dix qualités du profil de l’apprenant de l’IB — the ten IB learner profile attributes.",
+        "Les types de solidarité — forms of mutual support (for example, help within a family, volunteering, aid to other countries)",
+        "Les dix qualités du profil de l’apprenant de l’IB — the ten IB learner profile attributes",
         "Les types de communauté — types of community",
         "Mon projet de service à la communauté — my community service project",
-        "Les associations solidaires mondiales — global solidarity associations"
+        "Les associations solidaires mondiales — global solidarity associations (NGOs)"
       ]
     },
     "unite3": {
-      "title": "Unité 3 — Es-tu curieux ? (vacances & tourisme)",
+      "title": "Unité 3 — Es-tu curieux ? (Are you curious? — holidays and tourism)",
       "vocab": [
         "Les vacances — holidays",
         "Les moyens de transport — means of transport",
@@ -63,38 +63,38 @@
       ]
     },
     "unite4": {
-      "title": "Unité 4 — L'éducation pour tous, l'éducation pour la paix",
+      "title": "Unité 4 — L'éducation pour tous, l'éducation pour la paix (Education for all, education for peace)",
       "vocab": [
-        "Une journée typique à l’école — a typical school day.",
+        "Une journée typique à l’école — a typical school day",
         "L'école du futur — the school of the future",
         "Le système éducatif français — the French education system",
         "Le droit à l'éducation — the right to education",
         "Les élèves dans le monde francophone — students in the Francophone world",
-        "'Sur le chemin de l'école' (film) — On the Way to School (documentary)",
-        "Malala — referenced education-rights activist",
-        "Ça sert à quoi l'école? Projets d'avenir — what is school for? Future plans"
+        "“Sur le chemin de l’école” — On the Way to School (documentary film)",
+        "Malala — Malala Yousafzai, activist for girls' right to education",
+        "Ça sert à quoi l'école ? Projets d'avenir — what is school for? Future plans"
       ]
     },
     "grammar": {
-      "title": "Grammar checklist (both phases)",
+      "title": "Grammar checklist (both levels: Emergent and Proficient)",
       "items": [
-        "Les connecteurs logiques — donc, parce que, cependant, en effet, ainsi",
-        "Le comparatif et le superlatif — plus…que / moins…que / le plus / le moins",
-        "Verbes (régulier et irrégulier) au présent",
-        "Opinions et justifications — je pense que, à mon avis, selon moi",
-        "Le passé composé + L'imparfait",
-        "Le conditionnel + Les hypothèses (si + imparfait, conditionnel)",
-        "Le futur proche / le futur simple",
-        "Proficient extras: le gérondif (en + -ant); avant de + infinitif; après avoir / être + participe passé; les verbes impersonnels (il faut que, il est nécessaire que); le subjonctif"
+        "Logical connectors (connecteurs logiques) link ideas: donc (so, therefore), parce que (because), cependant (however), en effet (indeed), ainsi (thus). Example: Il pleut, donc je reste à la maison (It is raining, so I am staying at home).",
+        "Comparatives and superlatives (comparatif, superlatif): plus … que (more … than), moins … que (less … than), le plus / le moins (the most / the least). Example: Ce film est plus intéressant que le livre (This film is more interesting than the book). Irregular forms: bon (good) gives meilleur (better), bien (well) gives mieux (better).",
+        "Regular and irregular verbs in the present tense: regular -er verbs (parler: je parle, tu parles) and irregular verbs être (je suis), avoir (j'ai), aller (je vais), faire (je fais).",
+        "Opinions and justifications: je pense que (I think that), à mon avis (in my opinion), selon moi (in my view). After each opinion, give a reason.",
+        "Passé composé and imparfait. The passé composé (avoir or être + past participle) describes completed actions: Hier, je suis allé au cinéma (Yesterday I went to the cinema). The imparfait describes background, habits and states: Quand j'étais petit, je jouais au foot (When I was little, I used to play football). Distinguish: J'ai été malade (I was ill for a while, a completed episode) and J'étais malade (I was ill, a background state).",
+        "Conditional and unreal conditions. The conditional (je voudrais, I would like) expresses wishes and polite requests. For an unreal condition, si + imparfait is followed by the conditional: Si j'avais plus de temps, je voyagerais davantage (If I had more time, I would travel more). Distinguish: in an if-clause (si + ...), use the imparfait, not the conditional.",
+        "Near future (futur proche) and simple future (futur simple). The futur proche is aller + infinitive, used for plans and the near future: Je vais voyager (I am going to travel). The futur simple adds endings to the verb stem: Je voyagerai (I will travel). A few common verbs have irregular stems: être gives ser-, avoir gives aur-, aller gives ir-, faire gives fer-.",
+        "Proficient extras: gérondif (en + -ant, meaning 'while doing': en mangeant, while eating). Avant de + infinitive means 'before doing' (avant de partir, before leaving). Après avoir / être + past participle means 'after doing' (après avoir mangé, after eating). Impersonal expressions such as il faut que and il est nécessaire que (it is necessary that) are followed by the subjunctive (le subjonctif)."
       ]
     },
     "emergent": {
-      "title": "Emergent phase — your 4 units",
+      "title": "Emergent level — your 4 units",
       "items": [
-        "Unité 1 — Mon identité, mes préférences, ma culture (famille, loisirs, alimentation, célébrations)",
-        "Unité 2 — Suis-je responsable de mon environnement ? (types de pollution, causes, conséquences, actions)",
-        "Unité 3 — Es-tu curieux ? (pays, villes, transport, vacances, saisons)",
-        "Unité 4 — À quoi sert l'école ? (matières, routine, professions, uniforme, plans d'études)"
+        "Unité 1 — Mon identité, mes préférences, ma culture (my identity, preferences and culture: family, hobbies, food, celebrations)",
+        "Unité 2 — Suis-je responsable de mon environnement ? (Am I responsible for my environment? — types of pollution, causes, consequences, actions)",
+        "Unité 3 — Es-tu curieux ? (Are you curious? — countries, cities, transport, holidays, seasons)",
+        "Unité 4 — À quoi sert l'école ? (What is school for? — subjects, daily routine, jobs, uniform, study plans)"
       ]
     }
   },
@@ -168,16 +168,16 @@
   },
   "extras": {
     "title": "French — Extras",
-    "intro": "Topics beyond the G9 syllabus — subjunctive, idioms, francophone culture.",
+    "intro": "This page covers the subjunctive, French idioms, francophone culture, classic French literature, and modern French film and music.",
     "subjunctive": {
-      "title": "Subjunctive mood — quick intro",
-      "body": "The subjunctive is a mood, not a time reference. It often appears after expressions of wish, doubt or necessity and conjunctions such as bien que: il faut que tu finisses. Affirmative je pense que normally takes the indicative: je pense qu’il vient. For many verbs use the ils present stem for je/tu/il/ils and the nous present stem for nous/vous, with -e, -es, -e, -ions, -iez, -ent. Être, avoir and other common verbs have irregular forms."
+      "title": "Subjunctive mood — an introduction",
+      "body": "The subjunctive is a mood, not a tense. It shows that something is wished, doubted, feared or required, rather than stated as a fact. It follows expressions of wish, doubt, emotion or necessity, and conjunctions such as bien que (‘although’): il faut que tu finisses (‘you have to finish’). For many regular verbs, take the stem from the present-tense ils form for je, tu, il and ils, and the stem from the nous form for nous and vous. Endings: -e (je), -es (tu), -e (il), -ions (nous), -iez (vous), -ent (ils). Être, avoir and other common verbs are irregular."
     },
     "idioms": {
       "title": "Idioms & expressions",
       "items": [
         "Avoir le cafard — to feel blue (lit. 'to have the cockroach')",
-        "Coûter les yeux de la tête — to cost an arm and a leg (lit. 'cost the eyes of the head')",
+        "Coûter les yeux de la tête — to cost a fortune (lit. 'cost the eyes of the head')",
         "Tomber dans les pommes — to faint (lit. 'fall into the apples')",
         "Poser un lapin — to stand someone up (lit. 'place a rabbit')",
         "Avoir un chat dans la gorge — to have a frog in your throat (lit. 'have a cat in your throat')",
@@ -187,21 +187,21 @@
     },
     "culture": {
       "title": "Francophone culture",
-      "body": "Francophone means French-speaking. Lower-case francophonie can refer to French speakers and their cultural or linguistic communities; the Organisation internationale de la Francophonie (OIF) is a particular international organisation. French is used in many countries and regions, with varied accents, vocabulary and multilingual settings; these uses cannot be reduced to France alone."
+      "body": "Francophone means French-speaking. Lower-case francophonie refers to French speakers and to their cultural and linguistic communities. The Organisation internationale de la Francophonie (OIF) is an international organisation of French-speaking countries. French is an official language in many countries and regions, for example Belgium, Switzerland, Canada (Québec) and Senegal. Each of these places has its own accents and vocabulary."
     },
     "literature": {
       "title": "Classic French literature",
       "items": [
         "Le Petit Prince (Antoine de Saint-Exupéry, 1943) — a tale exploring friendship, responsibility and adult values.",
         "Les Misérables (Victor Hugo, 1862) — epic novel of redemption and rebellion",
-        "Madame Bovary (Gustave Flaubert, 1856) — pioneering realist novel",
-        "L’Étranger (Albert Camus, 1942) — a novel exploring human life and the absurd.",
-        "Le Rouge et le Noir (Stendhal, 1830) — ambition and society"
+        "Madame Bovary (Gustave Flaubert, 1857) — one of the key novels of French realism",
+        "L’Étranger (Albert Camus, 1942) — a novel about the absurd, seen through Meursault’s indifference to social conventions.",
+        "Le Rouge et le Noir (Stendhal, 1830) — a novel about social ambition in Restoration France, following Julien Sorel"
       ]
     },
     "filmMusic": {
       "title": "Modern film & music",
-      "body": "Films to explore: Amélie (2001), The Intouchables (2011), La Haine (1995). Singers: Stromae (Belgian), Aya Nakamura, Indila, Christine and the Queens. Watching/listening with French subtitles is a great way to train your ear."
+      "body": "Films to explore: Amélie (2001), Les Choristes (2004). Singers: Stromae (Belgian), Aya Nakamura, Indila, Christine and the Queens. Watching/listening with French subtitles is a great way to train your ear."
     }
   }
 }

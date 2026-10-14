@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next';
 import { TopicHero } from '../../../components/content/TopicHero';
 import { USEFUL_PHRASES } from '../data/frenchData';
 
+const CONTEXT_RU: Record<string, string> = { 'Greeting': 'Приветствие', 'Classroom': 'В классе', 'Polite request': 'Вежливая просьба', 'Restaurant': 'В ресторане', 'Directions': 'Как спросить дорогу', 'Opinion (writing)': 'Мнение (для письма)', 'Discursive writing': 'Рассуждение (для письма)', 'Writing connector': 'Связки для письма', 'Essay ending': 'Концовка эссе' };
+
 export function PhrasesPage() {
   const { t, i18n } = useTranslation('french');
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
@@ -20,14 +22,14 @@ export function PhrasesPage() {
     <div>
       <TopicHero
         title={t('nav.phrases')}
-        intro={lang === 'ru' ? 'Полезные фразы по контекстам.' : 'Useful phrases grouped by context.'}
+        intro={lang === 'ru' ? 'Полезные фразы по ситуациям.' : 'Useful phrases grouped by context.'}
         icon={<MessageCircle size={28} />}
       />
       <DefinitionSupport review={FRENCH_REVIEWS.register} language={lang} />
       <div className="mt-8 space-y-4">
         {Object.entries(grouped).map(([context, phrases]) => (
           <section key={context} className="bg-bg-secondary border border-border rounded-md p-4" style={{ borderLeftColor: 'var(--color-accent-sky)', borderLeftWidth: '3px' }}>
-            <h3 className="text-xs uppercase tracking-wider text-text-muted mb-2">{context}</h3>
+            <h3 className="text-xs uppercase tracking-wider text-text-muted mb-2">{lang === 'ru' ? (CONTEXT_RU[context] ?? context) : context}</h3>
             <div className="space-y-2">
               {phrases.map((p, i) => (
                 <div key={i} className="text-sm">

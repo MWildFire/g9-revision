@@ -649,7 +649,7 @@ export const USEFUL_PHRASES: UsefulPhrase[] = [
   },
   {
     "fr": "Pouvez-vous répéter?",
-    "en": "Could you repeat? (polite / plural address)",
+    "en": "Could you repeat that? (polite, or to more than one person)",
     "ru": "Не могли бы вы повторить? (вежливо / к нескольким людям)",
     "context": "Classroom"
   },
@@ -685,8 +685,8 @@ export const USEFUL_PHRASES: UsefulPhrase[] = [
   },
   {
     "fr": "D'une part… d'autre part",
-    "en": "On one hand… on the other",
-    "ru": "С одной стороны… с другой",
+    "en": "On the one hand… on the other hand…",
+    "ru": "С одной стороны… с другой стороны…",
     "context": "Discursive writing"
   },
   {

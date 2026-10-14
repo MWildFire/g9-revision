@@ -702,18 +702,18 @@ export const questions: Question[] = [
     "A(i)",
     "foundation",
     b(
-      "For equal numbers of parent nuclei, which sample has greater initial activity: T½ = 2 h or T½ = 10 h? By what factor?",
-      "При одинаковом числе ядер какой образец активнее вначале: T½ = 2 ч или 10 ч? Во сколько раз?",
+      "For equal numbers of nuclei, which sample has greater initial activity: T½ = 2 h or T½ = 10 h? How many times greater?",
+      "При одинаковом числе ядер какой образец активнее вначале: T½ = 2 ч или T½ = 10 ч? Во сколько раз?",
     ),
     b(
-      "At equal N, activity varies inversely with half-life.",
-      "При равном N активность обратно пропорциональна периоду.",
+      "At equal numbers of nuclei (N), activity varies inversely with half-life.",
+      "При одинаковом числе ядер (N) активность обратно пропорциональна периоду полураспада.",
     ),
     b(
       "The 2 h sample has greater initial activity.",
       "Образец с периодом 2 ч активнее.",
     ),
-    b("Factor = 10 / 2 = 5.", "В пять раз: 10 / 2 = 5."),
+    b("Ratio = 10 / 2 = 5, so the 2 h sample is five times as active.", "Отношение 10 / 2 = 5: образец с T½ = 2 ч активнее в пять раз."),
   ),
   q(
     "choice-2",
@@ -721,15 +721,15 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "X and Y each start at 1,200 Bq. Half-lives are 2 h and 6 h. Find their activities after 6 h and the ratio Y:X then.",
-      "X и Y начинают с 1200 Бк. Периоды 2 ч и 6 ч. Найди активности через 6 ч и отношение Y:X.",
+      "X and Y each start at 1,200 Bq. X has T½ = 2 h and Y has T½ = 6 h. Calculate both activities after 6 h and the ratio of Y’s activity to X’s at that time.",
+      "У обоих образцов начальная активность 1200 Бк. У X T½ = 2 ч, у Y T½ = 6 ч. Вычисли обе активности через 6 ч и отношение активности Y к активности X в тот же момент.",
     ),
     b(
       "Equal initial activity does not imply equal later activity.",
-      "Равные начальные активности не означают равные последующие.",
+      "Одинаковая начальная активность не означает одинаковой активности позже.",
     ),
-    b("X: three half-lives → 150 Bq.", "X: три периода → 150 Бк."),
-    b("Y: one half-life → 600 Bq.", "Y: один период → 600 Бк."),
+    b("X: 6 h / 2 h = 3 half-lives, so 1200 / 2³ = 1200 / 8 = 150 Bq.", "X: 6 ч / 2 ч = 3 периода полураспада, значит 1200 / 2³ = 1200 / 8 = 150 Бк."),
+    b("Y: 6 h / 6 h = 1 T½, so 1200 / 2 = 600 Bq. Ratio Y : X = 600 / 150 = 4.", "Y: 6 ч / 6 ч = 1 период (T½), значит 1200 / 2 = 600 Бк. Отношение Y : X = 600 / 150 = 4."),
     b("Y:X = 600:150 = 4:1.", "Y:X = 600:150 = 4:1."),
   ),
   q(
@@ -739,19 +739,19 @@ export const questions: Question[] = [
     "application",
     b(
       "An industrial gauge must operate for months without frequent replacement. Explain why a 10 s source is unsuitable and why a long half-life alone does not guarantee suitability.",
-      "Промышленный датчик должен работать месяцами без частой замены. Почему источник с периодом 10 с не подходит и почему большого периода самого по себе мало?",
+      "Промышленный датчик должен месяцами работать без частой замены. Объясни, почему источник с периодом полураспада 10 с не подходит и почему длинный период полураспада сам по себе не гарантирует пригодности.",
     ),
     b(
       "Combine lifetime with radiation properties.",
       "Сочетай срок работы со свойствами излучения.",
     ),
     b(
-      "A 10 s source loses useful activity extremely rapidly over many half-lives.",
-      "Источник с периодом 10 с очень быстро теряет полезную активность.",
+      "A 10 s source loses almost all its activity within about one minute: 60 s / 10 s = 6 half-lives.",
+      "Источник с периодом 10 с теряет почти всю активность примерно за минуту: 60 с / 10 с = 6 периодов полураспада.",
     ),
     b(
-      "A longer half-life gives a more stable working signal over the required period.",
-      "Больший период даёт более стабильный сигнал на нужное время.",
+      "A longer T½ gives a more stable working signal over the required time.",
+      "Больший период (T½) даёт более стабильный сигнал в течение нужного времени.",
     ),
     b(
       "Radiation penetration, energy, activity and containment must also suit the material and detector.",
@@ -765,20 +765,20 @@ export const questions: Question[] = [
     "challenge",
     b(
       "“Isotope L has a 1,000 year half-life, so it is safer than isotope S with a 1 h half-life.” Evaluate without assuming equal mass or activity.",
-      "«У L период 1000 лет, поэтому он безопаснее S с периодом 1 ч». Оцени без предположения равной массы или активности.",
+      "«Изотоп L имеет период полураспада 1000 лет, поэтому он безопаснее изотопа S с периодом полураспада 1 ч». Оцени, не предполагая равной массы или равной активности.",
     ),
     b("What is missing from the comparison?", "Чего не хватает для сравнения?"),
     b(
-      "Half-life alone does not specify activity unless the number of parent nuclei is known.",
-      "Период не определяет активность без числа родительских ядер.",
+      "Half-life alone does not determine activity without the number of nuclei.",
+      "Одного периода полураспада недостаточно, чтобы найти активность: нужно знать число ядер.",
     ),
     b(
-      "Radiation type/energy, route, dose and duration matter.",
-      "Важны вид/энергия излучения, путь воздействия, доза и время.",
+      "Radiation type and energy, the route into the body, the dose and the duration all matter.",
+      "Важны вид и энергия излучения, путь попадания в организм, доза и длительность воздействия.",
     ),
     b(
-      "L may persist longer; S may decay away faster. No universal safety ranking follows.",
-      "L может сохраняться дольше, S быстрее распадаться. Универсального вывода о безопасности нет.",
+      "L may persist longer and S may decay away faster, so no universal safety ranking follows from half-lives alone.",
+      "L может сохраняться дольше, а S быстрее распадается, поэтому по одним только периодам полураспада нельзя однозначно сказать, какой изотоп безопаснее.",
     ),
   ),
   q(

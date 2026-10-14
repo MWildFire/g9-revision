@@ -1004,12 +1004,12 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "englishTerm": "half-life",
     "russianTerm": "период полураспада",
     "contrast": {
-      "en": "After two half-lives, one quarter is expected to remain; a nucleus has no scheduled individual decay time.",
-      "ru": "После двух периодов ожидается четверть исходных ядер; у отдельного ядра нет назначенного момента распада."
+      "en": "T½ is not the lifetime of one nucleus. Each nucleus decays at a random moment; after two half-lives, one quarter of the original nuclei remain.",
+      "ru": "Период (T½) — не срок жизни отдельного ядра. Каждое ядро распадается в случайный момент; через два периода остаётся четверть исходных ядер."
     },
     "model": {
-      "en": "The same halving describes that radionuclide’s activity. Detector readings follow it only after background correction with fixed detection conditions.",
-      "ru": "Так же уменьшается активность этого радионуклида. Показания детектора подчиняются этому правилу после вычитания фона при постоянных условиях регистрации."
+      "en": "The same halving applies to the activity of one radionuclide. A detector shows this only after background is subtracted and the counting conditions stay the same.",
+      "ru": "Так же вдвое за каждый период (T½) уменьшается активность одного и того же радионуклида. Детектор показывает это только после вычитания фона и при неизменных условиях измерения."
     },
     "sources": [
       {

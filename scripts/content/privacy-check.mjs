@@ -4,28 +4,36 @@
 // one JavaScript regular expression per line (# = comment).
 //   node scripts/content/privacy-check.mjs --staged     staged changes + the commit message in $G9_COMMIT_MSG
 //   node scripts/content/privacy-check.mjs [base-ref]   every commit since base-ref (default origin/main):
-//                                                       added lines AND commit messages
-// Exit 7 when a forbidden text is found; 0 when clean or when the private file is absent (with a warning).
+//                                                       added lines, names of added and renamed files AND commit messages
+// Exit 7 when a forbidden text is found, or when there is no list of patterns to check against; 0 when clean.
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 
 const git = args => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 512 * 1024 * 1024 });
 const file = process.env.G9_PRIVACY_PATTERNS ?? path.join(path.resolve(git(['rev-parse', '--git-common-dir']).trim()), 'info', 'privacy-patterns.txt');
-if (!fs.existsSync(file)) { console.log(`privacy check skipped: ${file} not found`); process.exit(0); }
+// without a list nothing can be checked: refuse rather than pass silently
+if (!fs.existsSync(file)) { console.log(`PRIVACY: ${file} not found — nothing to check against`); process.exit(7); }
 const patterns = fs.readFileSync(file, 'utf8').split('\n').map(l => l.trim()).filter(l => l && !l.startsWith('#')).map(l => new RegExp(l, 'u'));
+if (!patterns.length) { console.log(`PRIVACY: ${file} has no patterns — nothing to check against`); process.exit(7); }
 const hits = [];
 const check = (where, text) => { for (const re of patterns) if (re.test(text)) { hits.push(`${where}: ${text.slice(0, 160)}`); return; } };
+// a "+++ " line is the file header only before the first "@@" of a file; after it, added text such as "++ …" is checked too
 const scanDiff = (diff, label) => {
   let current = '';
+  let header = false;
   for (const line of diff.split('\n')) {
-    if (line.startsWith('+++ ')) { current = line.slice(6); continue; }
-    if (line.startsWith('+') && !line.startsWith('+++')) check(`${label}${current}`, line.slice(1));
+    if (line.startsWith('diff --git ')) { header = true; current = ''; continue; }
+    if (line.startsWith('@@')) { header = false; continue; }
+    if (header) { if (line.startsWith('+++ ')) current = line.slice(6); continue; }
+    if (line.startsWith('+')) check(`${label}${current}`, line.slice(1));
   }
 };
+const checkNames = (names, label) => { for (const name of names.split('\n').filter(Boolean)) check(`${label}file name`, name); };
 
 if (process.argv[2] === '--staged') {
   scanDiff(git(['diff', '--cached', '--unified=0', '--no-color']), '');
+  checkNames(git(['diff', '--cached', '--name-only', '--diff-filter=AR']), '');
   for (const line of (process.env.G9_COMMIT_MSG ?? '').split('\n')) check('commit message', line);
 } else {
   const base = process.argv[2] ?? 'origin/main';
@@ -34,6 +42,7 @@ if (process.argv[2] === '--staged') {
     const short = sha.slice(0, 7);
     for (const line of git(['log', '-1', '--format=%B', sha]).split('\n')) check(`${short} commit message`, line);
     scanDiff(git(['show', '--format=', '--unified=0', '--no-color', sha]), `${short} `);
+    checkNames(git(['show', '--format=', '--name-only', '--diff-filter=AR', sha]), `${short} `);
   }
 }
 if (hits.length) {

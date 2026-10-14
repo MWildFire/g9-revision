@@ -139,3 +139,64 @@ test('privacy check refuses added lines that match the private patterns (pattern
     fs.rmSync(dir, { recursive: true, force: true });
   }
 });
+
+// a throwaway repository with one base commit (tag "base"); each privacy test writes its own patterns file
+const privacyRepo = () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'g9-privacy-'));
+  const git = (...a) => execFileSync('git', a, { cwd: dir, encoding: 'utf8', stdio: 'pipe' });
+  git('init', '-q'); git('config', 'user.email', 't@example.com'); git('config', 'user.name', 't');
+  fs.writeFileSync(path.join(dir, 'a.txt'), 'hello\n'); git('add', 'a.txt'); git('commit', '-qm', 'base'); git('tag', 'base');
+  const patterns = path.join(dir, 'patterns.txt');
+  const run = (...args) => { try { execFileSync(process.execPath, [path.resolve('scripts/content/privacy-check.mjs'), ...args], { cwd: dir, env: { ...process.env, G9_PRIVACY_PATTERNS: patterns }, stdio: 'pipe' }); return 0; } catch (e) { return e.status; } };
+  return { dir, git, patterns, run, cleanup: () => fs.rmSync(dir, { recursive: true, force: true }) };
+};
+
+test('privacy check reads an added line that starts with "++" as text, not as a file header', () => {
+  const r = privacyRepo();
+  try {
+    fs.writeFileSync(r.patterns, '\\bZorblax\\b\n');
+    fs.writeFileSync(path.join(r.dir, 'a.txt'), 'hello\n++ Zorblax was here\n'); r.git('commit', '-qam', 'add');
+    assert.equal(r.run('base'), 7);
+  } finally { r.cleanup(); }
+});
+
+test('privacy check refuses an added file whose name matches a pattern', () => {
+  const r = privacyRepo();
+  try {
+    fs.writeFileSync(r.patterns, '\\bZorblax\\b\n');
+    fs.writeFileSync(path.join(r.dir, 'Zorblax.txt'), 'plain text\n'); r.git('add', 'Zorblax.txt'); r.git('commit', '-qm', 'add');
+    assert.equal(r.run('base'), 7);
+  } finally { r.cleanup(); }
+});
+
+test('privacy check refuses a renamed file whose new name matches a pattern', () => {
+  const r = privacyRepo();
+  try {
+    fs.writeFileSync(r.patterns, '\\bZorblax\\b\n');
+    r.git('mv', 'a.txt', 'Zorblax.txt'); r.git('commit', '-qm', 'rename');
+    assert.equal(r.run('base'), 7);
+  } finally { r.cleanup(); }
+});
+
+test('privacy check --staged refuses a staged file whose name matches a pattern', () => {
+  const r = privacyRepo();
+  try {
+    fs.writeFileSync(r.patterns, '\\bZorblax\\b\n');
+    fs.writeFileSync(path.join(r.dir, 'Zorblax.txt'), 'plain text\n'); r.git('add', 'Zorblax.txt');
+    assert.equal(r.run('--staged'), 7);
+  } finally { r.cleanup(); }
+});
+
+test('privacy check refuses to pass without a list of patterns to check against', () => {
+  const r = privacyRepo();
+  try {
+    fs.writeFileSync(path.join(r.dir, 'a.txt'), 'hello\nclean text\n'); r.git('commit', '-qam', 'clean');
+    assert.equal(r.run('base'), 7, 'no patterns file');
+    fs.writeFileSync(r.patterns, '');
+    assert.equal(r.run('base'), 7, 'empty patterns file');
+    fs.writeFileSync(r.patterns, '# only a comment\n\n');
+    assert.equal(r.run('base'), 7, 'patterns file without patterns');
+    fs.writeFileSync(r.patterns, '\\bZorblax\\b\n');
+    assert.equal(r.run('base'), 0, 'clean text with a pattern list');
+  } finally { r.cleanup(); }
+});

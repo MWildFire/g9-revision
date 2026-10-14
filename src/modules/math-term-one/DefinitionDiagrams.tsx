@@ -6,11 +6,11 @@ export function DefinitionDiagram({ kind, language = 'en' }: { kind: string; lan
   if (kind === 'venn') return <VennVisual language={language}/>;
   const captions: Record<string, string> = {
     fraction: t('A fraction shows how many equal parts of a whole are taken. This picture shows only one case: a positive fraction below one.', 'Дробь показывает, сколько равных частей целого взято. На рисунке только один случай: положительная дробь меньше единицы.'),
-    algebra: t('The expression 4x − 3 is not an equation yet. It becomes one when you set it equal to another expression, such as 9.', 'Выражение 4x − 3 ещё не уравнение. Оно становится уравнением, когда его приравнивают к другому выражению, например к 9.'),
+    algebra: t('The expression 4x − 3 is not an equation yet. It becomes one when you set it equal to another expression, such as 9.', 'Выражение 4x − 3 ещё не уравнение. Оно становится уравнением, когда его приравнивают к другому выражению, например, к 9.'),
     circle: t('Both shapes are bounded by the same 90° arc. The segment is the sector minus the triangle.', 'Обе фигуры ограничены одной дугой 90°. Сегмент — это сектор без треугольника.'),
     optimisation: t('The shaded area holds every choice that meets the constraints x ≥ 0, y ≥ 0, x ≤ 4 and x + y ≤ 6. The best choice lies at a vertex of the area.', 'Закрашенная область содержит все наборы, которые выполняют ограничения x ≥ 0, y ≥ 0, x ≤ 4 и x + y ≤ 6. Наилучший набор лежит в вершине области.'),
     function: t('Each input has exactly one arrow. Here −2 and 2 share the output 4.', 'У каждого входа ровно одна стрелка. Здесь −2 и 2 имеют общий выход 4.'),
-    quadratic: t('For y = (x − 2)² − 3, the vertex is (2, −3). The roots 2 ± √3 are numbers, while the x-intercepts are points (2 ± √3, 0).', 'Для y = (x − 2)² − 3 вершина — точка (2; −3). Корни 2 ± √3 — это числа, а пересечения с осью x — точки (2 ± √3, 0).'),
+    quadratic: t('For y = (x − 2)² − 3, the vertex is (2, −3). The roots 2 ± √3 are numbers, while the x-intercepts are points (2 ± √3, 0).', 'Для y = (x − 2)² − 3 вершина — точка (2; −3). Корни 2 ± √3 — это числа, а пересечения с осью x — точки (2 ± √3; 0).'),
     triangle: t('Drawn to scale. For the angle θ, tan θ = opposite / adjacent = 6/8.', 'Нарисовано в масштабе. Для угла θ: tg θ = противолежащий / прилежащий = 6/8.'),
   };
   return <figure className="mathrev-figure mathrev-definition-figure" lang={language}>

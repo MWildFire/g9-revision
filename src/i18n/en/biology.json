@@ -2639,13 +2639,13 @@
     "sections": {
       "levels": {
         "title": "Levels of organisation",
-        "body": "An individual is one organism. A population is individuals of one species in a defined area; a community includes populations of different species. An ecosystem includes the community, its non-living environment and their interactions. The biosphere includes Earth's ecosystems.",
+        "body": "An individual is one organism. A **population** is all the individuals of one species in a defined area. A **community** includes the populations of different species that live in the same area. An **ecosystem** includes the community, its non-living environment and the interactions between them. The **biosphere** includes all of Earth's ecosystems.\n\nFor example, all the oak trees in one wood form a population, while the oaks, birds and fungi in that wood are only some of the populations in its community.",
         "review": {
           "englishTerm": "Levels of organisation",
           "russianTerm": "Уровни организации",
           "contrast": {
-            "en": "Matter is recycled through ecosystems; energy is transferred and eventually dissipated as heat.",
-            "ru": "Вещества участвуют в круговоротах; энергия передаётся и в итоге рассеивается в виде теплоты."
+            "en": "A species is not the same as a population. One species can form several separate populations, and each one contains only part of the species.",
+            "ru": "Вид и популяция — не одно и то же. Один вид может образовывать несколько отдельных популяций, и каждая содержит только часть особей вида."
           },
           "sources": [
             {
@@ -2671,13 +2671,13 @@
       },
       "foodChains": {
         "title": "Food chains and webs",
-        "body": "A food chain shows one feeding pathway; a food web links many pathways. Arrows point from food to consumer, showing transfer of matter and energy. Only some energy becomes new consumer biomass; the rest is unavailable to the next level or dissipates as heat. Transfer efficiency varies.",
+        "body": "A **food chain** shows one feeding pathway; a **food web** links many pathways. Arrows point from food to consumer, showing transfer of matter and energy. Only some energy becomes new consumer biomass; the rest is unavailable to the next level or dissipates as heat. **Transfer efficiency** is the share of energy that passes from one step of a food chain to the next; it varies between chains.",
         "review": {
           "englishTerm": "Food chains and webs",
           "russianTerm": "Пищевые цепи и сети",
           "contrast": {
-            "en": "Matter is recycled through ecosystems; energy is transferred and eventually dissipated as heat.",
-            "ru": "Вещества участвуют в круговоротах; энергия передаётся и в итоге рассеивается в виде теплоты."
+            "en": "Matter is recycled: nutrients from dead material return to the soil or water, and producers take them up again. Energy is not recycled: in most ecosystems it enters as sunlight, and it cannot return to the producers.",
+            "ru": "Вещество используется повторно: питательные вещества из остатков организмов возвращаются в почву или воду, и продуценты (producers) снова их усваивают. Энергия не используется повторно: в большинстве экосистем она поступает в виде солнечного света и не возвращается к продуцентам."
           },
           "sources": [
             {
@@ -2702,8 +2702,8 @@
           "visual": {
             "kind": "flow",
             "title": {
-              "en": "Food-chain arrows show transfer",
-              "ru": "Стрелки пищевой цепи показывают перенос"
+              "en": "Reading food-chain arrows",
+              "ru": "Как читать стрелки пищевой цепи"
             },
             "items": [
               {
@@ -2733,26 +2733,26 @@
                 },
                 "detail": {
                   "en": "Feeds on the rabbit; heat is dissipated at each level.",
-                  "ru": "Питается кроликом; на каждом уровне рассеивается теплота."
+                  "ru": "Питается кроликом; на каждом уровне рассеивается тепло."
                 }
               }
             ],
             "caption": {
-              "en": "The arrow points from food to feeder. Decomposers receive material from every level. Transfer efficiency varies.",
-              "ru": "Стрелка направлена от пищи к потребителю. Редуценты получают вещество со всех уровней. Эффективность передачи неодинакова."
+              "en": "The arrow points from food to consumer. Decomposers receive material from every level.",
+              "ru": "Стрелка направлена от пищи к консументу. Редуценты (decomposers) получают вещество со всех уровней."
             }
           }
         }
       },
       "carbonCycle": {
         "title": "Carbon cycle",
-        "body": "The carbon cycle is movement of carbon among organisms, air, water, soil and rocks. Photosynthesis incorporates CO₂ into organic matter; respiration, decomposition and combustion return carbon to the environment. Fossil-fuel combustion moves long-stored carbon into the active cycle.",
+        "body": "The carbon cycle is movement of carbon among organisms, air, water, soil and rocks. Photosynthesis incorporates CO₂ into organic matter; respiration, decomposition and combustion return carbon to the environment. Fossil-fuel combustion moves long-stored carbon into the active cycle. This extra CO₂ traps more heat and drives global warming, the rise in Earth's average temperature (see the chemistry section on the greenhouse effect).",
         "review": {
           "englishTerm": "Carbon cycle",
-          "russianTerm": "Углеродный цикл",
+          "russianTerm": "Круговорот углерода",
           "contrast": {
-            "en": "A reservoir stores a substance; a flux transfers it between reservoirs. A diagram arrow describes a process, not creation of matter.",
-            "ru": "Резервуар накапливает вещество; поток переносит его между резервуарами. Стрелка схемы показывает процесс, а не создание вещества."
+            "en": "A reservoir stores carbon; a flux moves it between reservoirs. Fossil fuels are a carbon reservoir, and burning them is a flux into the atmosphere. An arrow on a carbon cycle diagram shows this transfer, not the appearance of new carbon.",
+            "ru": "Резервуар (reservoir) накапливает углерод, а поток (flux) переносит его между резервуарами. Ископаемое топливо — резервуар углерода, а его сжигание — поток в атмосферу. Стрелка на схеме круговорота углерода показывает этот перенос, а не появление нового углерода."
           },
           "sources": [
             {
@@ -2771,8 +2771,8 @@
           "englishTerm": "Water cycle",
           "russianTerm": "Круговорот воды",
           "contrast": {
-            "en": "A reservoir stores a substance; a flux transfers it between reservoirs. A diagram arrow describes a process, not creation of matter.",
-            "ru": "Резервуар накапливает вещество; поток переносит его между резервуарами. Стрелка схемы показывает процесс, а не создание вещества."
+            "en": "Water vapour is an invisible gas. Clouds are made of tiny liquid droplets, which form by condensation, ice crystals, or both. Ice crystals form when droplets freeze or when vapour turns directly into ice (deposition). Precipitation is water that falls from clouds to the surface, as rain, snow or hail.",
+            "ru": "Водяной пар (water vapour) — невидимый газ. Облако состоит из мелких капель воды, которые образуются при конденсации (condensation), из ледяных кристаллов или из тех и других. Ледяные кристаллы образуются, когда капли замерзают или когда водяной пар, минуя жидкую фазу, превращается в лёд (deposition). Осадки (precipitation) — это вода, которая падает из облаков на поверхность: дождь, снег или град."
           },
           "sources": [
             {
@@ -2786,13 +2786,13 @@
       },
       "humanImpact": {
         "title": "Human impacts",
-        "body": "Human activities alter ecosystems through habitat change, resource use, pollution, introduced species and climate change. Conservation aims to maintain or restore biodiversity and ecosystem functions. Its success is assessed using evidence such as population trends, habitat condition and genetic diversity.",
+        "body": "Human activities change ecosystems in several ways:\n\n- Population growth increases demand for land, water, food and energy, so more pressure falls on natural ecosystems.\n- Clearing forests for farms and cities destroys habitats, divides what is left into patches and changes runoff.\n- Pollution includes chemicals such as pesticides and heavy metals, which harm organisms.\n- Excess fertiliser nutrients cause eutrophication (see the eutrophication section).\n- Introduced species can harm native species: cane toads, brought to Australia to control beetles, now poison the predators that try to eat them.\n- Global warming (see the chemistry section on the greenhouse effect) shifts where species can live and changes the timing of seasonal events.\n\nConservation aims to maintain or restore biodiversity and ecosystem functions. It uses protected areas, habitat restoration and the reduction of threats such as pollution and introduced species. Its success is assessed with evidence such as population trends, habitat condition and genetic diversity.",
         "review": {
           "englishTerm": "Human impacts",
           "russianTerm": "Влияние человека",
           "contrast": {
-            "en": "Matter is recycled through ecosystems; energy is transferred and eventually dissipated as heat.",
-            "ru": "Вещества участвуют в круговоротах; энергия передаётся и в итоге рассеивается в виде теплоты."
+            "en": "Conservation is not only about saving one species. Protecting a single species can be one step, but it does not replace protecting the habitat that species depends on.",
+            "ru": "Охрана природы — не только спасение одного вида. Защита одного вида — лишь один из шагов, и она не заменяет охрану местообитания, от которого этот вид зависит."
           },
           "sources": [
             {

@@ -1455,7 +1455,12 @@
             "rule": "In a displacement reaction, a more reactive element takes the place of a less reactive one in a compound. Zinc is above copper in the reactivity series, so it displaces copper from copper sulfate solution: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).",
             "examples": [
               "Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s) — the blue solution fades as zinc becomes coated with copper",
-              "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g) — magnesium dissolves with fizzing as bubbles form"
+              "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g) — magnesium dissolves with fizzing as bubbles form",
+              "2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g) — potassium, sodium and calcium react with cold water; potassium reacts most violently, calcium most slowly",
+              "Magnesium reacts with hot water: Mg(s) + 2H₂O(l) → Mg(OH)₂(s) + H₂(g). It also reacts with steam: Mg(s) + H₂O(g) → MgO(s) + H₂(g). Zinc and iron react only with steam, for example Zn(s) + H₂O(g) → ZnO(s) + H₂(g). Copper, silver and gold do not react with water or steam",
+              "Metals above hydrogen, such as Zn and Fe, displace hydrogen from dilute HCl and H₂SO₄: Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g); Fe(s) + 2HCl(aq) → FeCl₂(aq) + H₂(g). Copper, silver and gold lie below hydrogen and do not react with dilute acids",
+              "Predict: will an iron nail react with copper(II) sulfate solution? Answer: yes. Iron is above copper in the series, so it displaces copper: Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s). A red-brown layer of copper forms on the nail",
+              "Predict: will zinc react with magnesium sulfate solution? Answer: no reaction. Zinc is below magnesium in the series, so it cannot displace magnesium from its salt"
             ],
             "watchOut": "The reactivity series is a simplified model. A protective oxide film, for example on aluminium, can slow down a reaction that the series predicts, or make it hard to see.",
             "review": {
@@ -1473,7 +1478,8 @@
                   "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
                 }
               ]
-            }
+            },
+            "tip": "Reactivity series, from most to least reactive: K, Na, Ca, Mg, Al, Zn, Fe, Sn, Pb, H (hydrogen, not a metal), Cu, Ag, Au. A more reactive metal displaces a less reactive metal from its salt solution."
           },
           "doubleDisplacement": {
             "name": "Double displacement (precipitation)",
@@ -1635,7 +1641,7 @@
       },
       "ionic": {
         "title": "Ionic equations",
-        "body": "A net ionic equation leaves out spectator ions, which are unchanged on both sides. Write strong dissolved electrolytes as ions; solids, gases and weak electrolytes stay as formulae. Check that the total charge is the same on both sides. For example, Ag⁺ (+1) and Cl⁻ (−1) together have a charge of 0, so the product AgCl is also neutral.",
+        "body": "A net ionic equation leaves out spectator ions, which are unchanged on both sides. Write strong dissolved electrolytes as ions; solids, gases and weak electrolytes stay as formulae. Check that the total charge is the same on both sides. For example, Ag⁺ (+1) and Cl⁻ (−1) together have a charge of 0, so the product AgCl is also neutral.\n\n**Half-equations at each electrode [H]**\n\nIn electrolysis, the cathode is the negative electrode. Reduction happens there: positive ions gain electrons, for example Cu²⁺(aq) + 2e⁻ → Cu(s).\n\nIn electrolysis, the anode is the positive electrode. Oxidation happens there: negative ions lose electrons, for example 2Cl⁻(aq) → Cl₂(g) + 2e⁻ in a concentrated solution. In a melt, the same equation applies, with Cl⁻(l). In a dilute chloride solution, the anode releases oxygen from the water instead.",
         "review": {
           "englishTerm": "Ionic equations",
           "russianTerm": "Ионные уравнения",

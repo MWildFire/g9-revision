@@ -9,11 +9,11 @@
   "simulations": {
     "punnett": {
       "title": "Punnett Square",
-      "description": "A Punnett square lists possible allele combinations from two parents at one gene locus. This model assumes equal gamete probabilities, random fertilisation and complete dominance. Ratios describe expected probabilities across many offspring, not a guaranteed set of four children.",
+      "description": "Here you enter the genotype of each parent for one gene. The table shows which allele pairs the offspring can receive, and the ratio panel shows their genotypes and phenotypes.",
       "parent1Label": "Parent 1 genotype",
       "parent2Label": "Parent 2 genotype",
-      "alleleHint": "Use a capital letter for the dominant allele (e.g., B) and lowercase for recessive (b). Try BB × bb, Bb × Bb, AA × aa, etc.",
-      "invalidHint": "Use two alleles of the same locus in both parents, for example Bb × bb; do not mix A and B.",
+      "alleleHint": "Use a capital letter for the dominant allele, for example B, and a lower-case letter for the recessive allele, for example b. Try BB × bb, Bb × Bb or AA × aa.",
+      "invalidHint": "Both parents need two alleles of the same gene, for example Bb × bb. Do not mix letters for different genes, such as A and B, in one cross.",
       "genotypeRatio": "Genotype ratio",
       "phenotypeRatio": "Phenotype ratio",
       "dominant": "Dominant",
@@ -22,8 +22,8 @@
         "englishTerm": "Punnett Square",
         "russianTerm": "Решётка Пеннета",
         "contrast": {
-          "en": "Genotype is genetic constitution; phenotype is an observable characteristic influenced by genotype and environment.",
-          "ru": "Генотип — генетическая конституция; фенотипический признак зависит от генотипа и среды."
+          "en": "The genotype ratio (1 : 2 : 1) and the phenotype ratio (3 : 1, dominant : recessive) are not the same: for Bb × Bb, BB and Bb show the same phenotype.",
+          "ru": "Соотношение генотипов (1 : 2 : 1) и соотношение фенотипов (3 : 1, доминантный : рецессивный) — не одно и то же: при Bb × Bb генотипы BB и Bb имеют одинаковый фенотип."
         },
         "sources": [
           {
@@ -40,8 +40,8 @@
           }
         ],
         "model": {
-          "en": "One diploid locus, two alleles, equal gamete probabilities, random fertilisation and complete dominance. Each child is a new probability trial; four boxes do not promise four particular children.",
-          "ru": "Один диплоидный локус, два аллеля, равновероятные гаметы, случайное оплодотворение и полное доминирование. Каждый потомок — новое вероятностное событие; четыре клетки таблицы не предсказывают состав четырёх детей."
+          "en": "Each cell is one possible genotype for one child, and the four cells are equally likely. To find a chance, count the cells with the genotype or phenotype you need and divide by four. For Bb × bb, two of the four cells are Bb, so the chance of Bb is 2/4, or 50 per cent. The grid gives a chance for each child, not a guaranteed group of four children.",
+          "ru": "Каждая клетка — один возможный генотип потомка, и все четыре клетки равновероятны. Чтобы найти вероятность, посчитай клетки с нужным генотипом или фенотипом и раздели на четыре. Например, при Bb × bb две из четырёх клеток имеют генотип Bb, значит, вероятность Bb равна 2/4 (50 %). Решётка показывает вероятность для каждого потомка, а не гарантированный набор из четырёх детей."
         }
       }
     },
@@ -2820,17 +2820,17 @@
   },
   "genetics": {
     "title": "Genetics & Evolution",
-    "intro": "Inheritance, DNA, variation, natural selection.",
+    "intro": "This page explains how genetic information is passed on, why individuals in a population differ, and how populations change over many generations through natural selection.",
     "sections": {
       "dna": {
         "title": "DNA",
-        "body": "DNA stores hereditary information in its nucleotide sequence. In a double helix, A pairs with T and C with G. A gene is a DNA sequence whose expression produces a functional RNA or protein. Most human body cells have 46 nuclear chromosomes; gametes have 23.",
+        "body": "DNA stores hereditary information as a sequence of four bases: A, T, C and G. In the double helix, A always pairs with T and C always pairs with G.\n\nA gene is a section of DNA that codes for a functional product, usually a protein. For example, most human body cells have 46 chromosomes, while gametes (sex cells) have 23.",
         "review": {
           "englishTerm": "DNA",
           "russianTerm": "ДНК",
           "contrast": {
-            "en": "DNA is a molecule; a gene is a functional sequence; a chromosome contains a long DNA molecule with associated proteins.",
-            "ru": "ДНК — молекула; ген — функциональная последовательность; хромосома содержит длинную молекулу ДНК и связанные белки."
+            "en": "DNA is the molecule, a gene is a section of it, and a chromosome is one long DNA molecule with proteins that carries many genes.",
+            "ru": "ДНК — это молекула, ген — её участок, а хромосома — одна длинная молекула ДНК вместе с белками, на которой расположено много генов."
           },
           "sources": [
             {
@@ -2844,13 +2844,13 @@
       },
       "mitosis": {
         "title": "Mitosis",
-        "body": "Mitosis is nuclear division that separates duplicated chromosomes into two nuclei with the same chromosome set. It commonly accompanies cytokinesis to produce two daughter cells for growth, repair or asexual reproduction. It preserves ploidy; it does not necessarily produce diploid cells.",
+        "body": "Mitosis is nuclear division in which the two identical copies of each duplicated chromosome, called sister chromatids, separate and move to opposite ends of the cell. Each new nucleus therefore gets the same chromosomes as the parent cell.\n\nCytokinesis then divides the cytoplasm, giving two genetically identical daughter cells for growth, repair or asexual reproduction. For example, a human skin cell with 46 chromosomes divides to make two skin cells, each with 46 chromosomes.",
         "review": {
           "englishTerm": "Mitosis",
           "russianTerm": "Митоз",
           "contrast": {
-            "en": "Mitosis divides the nucleus; cytokinesis divides the cell. Mitosis preserves ploidy, including in haploid cells.",
-            "ru": "Митоз делит ядро, цитокинез — клетку. Митоз сохраняет плоидность, в том числе в гаплоидных клетках."
+            "en": "Mitosis divides the nucleus; cytokinesis divides the cytoplasm and makes two separate cells. Without cytokinesis, one cell can end up with two nuclei.",
+            "ru": "Митоз делит ядро; цитокинез делит цитоплазму и образует две отдельные клетки. Без цитокинеза одна клетка может оказаться с двумя ядрами."
           },
           "sources": [
             {
@@ -2870,7 +2870,7 @@
       },
       "meiosis": {
         "title": "Meiosis",
-        "body": "Meiosis consists of two nuclear divisions after one DNA replication, reducing the chromosome set from diploid to haploid. Homologous chromosomes separate first and sister chromatids second. It creates genetic variation and produces gametes in animals, but spores in many plants and fungi.",
+        "body": "Meiosis is cell division that makes gametes (sex cells) in animals and spores in many plants and fungi. It consists of two nuclear divisions that follow one round of DNA replication, so the chromosome set is halved, from diploid (2n) to haploid (n).\n\nHomologous chromosomes are a pair with one chromosome from each parent. Each gamete receives one chromosome from each pair, maternal or paternal, chosen at random. Segments of homologous chromosomes can also be exchanged (crossing over). These steps make each gamete genetically different from the others. Fertilisation then restores the diploid number.",
         "review": {
           "englishTerm": "Meiosis",
           "russianTerm": "Мейоз",
@@ -2915,8 +2915,8 @@
                   "ru": "После мейоза I: n + n"
                 },
                 "detail": {
-                  "en": "Homologous chromosomes separate.",
-                  "ru": "Расходятся гомологичные хромосомы."
+                  "en": "Each cell gets one chromosome from each homologous pair; each chromosome still has two chromatids.",
+                  "ru": "Каждая клетка получает по одной хромосоме из каждой гомологичной пары; каждая хромосома пока состоит из двух хроматид."
                 }
               },
               {
@@ -2925,21 +2925,21 @@
                   "ru": "После мейоза II: n, n, n, n"
                 },
                 "detail": {
-                  "en": "Sister chromatids separate without a new DNA replication.",
-                  "ru": "Хроматиды расходятся без нового удвоения ДНК."
+                  "en": "Each of the four cells ends with one copy of each chromosome in its set.",
+                  "ru": "В каждой из четырёх клеток по одной копии каждой хромосомы из её набора."
                 }
               }
             ],
             "caption": {
-              "en": "n counts chromosome sets, not DNA copies. Cell size and eventual gamete fate can differ.",
-              "ru": "n обозначает наборы хромосом, а не копии ДНК. Размер и дальнейшая судьба клеток могут различаться."
+              "en": "n counts chromosome sets, not DNA copies: the same n can apply to cells with different amounts of DNA.",
+              "ru": "n — число наборов хромосом, а не копий ДНК: одно и то же n может относиться к клеткам с разным количеством ДНК."
             }
           }
         }
       },
       "inheritance": {
         "title": "Inheritance",
-        "body": "Inheritance is transmission of genetic information between generations. Alleles are alternative sequences at a gene locus. With complete dominance, a heterozygote shows the dominant phenotype; other relationships include incomplete dominance and codominance. A Punnett square predicts probabilities under specified assumptions.",
+        "body": "Inheritance is the transmission of genetic information from parents to offspring. Alleles are different versions of one gene, found at the same place on a chromosome (locus).\n\nAn individual with two different alleles, such as Bb, is heterozygous. With complete dominance, Bb shows the dominant phenotype. For example, in pea plants the allele for purple flowers (P) is dominant over the allele for white flowers (p). In a genetic diagram, the parents are P, their offspring are F1 and the next generation is F2.",
         "review": {
           "englishTerm": "Inheritance",
           "russianTerm": "Наследование",
@@ -2962,14 +2962,14 @@
             }
           ],
           "model": {
-            "en": "One diploid locus, two alleles, equal gamete probabilities, random fertilisation and complete dominance. Each child is a new probability trial; four boxes do not promise four particular children.",
-            "ru": "Один диплоидный локус, два аллеля, равновероятные гаметы, случайное оплодотворение и полное доминирование. Каждый потомок — новое вероятностное событие; четыре клетки таблицы не предсказывают состав четырёх детей."
+            "en": "One diploid locus, two alleles, equal gamete probabilities, random fertilisation and complete dominance. Each child is a new probability trial.",
+            "ru": "Один диплоидный локус, два аллеля, равновероятные гаметы, случайное оплодотворение и полное доминирование. Каждый потомок — новое испытание с теми же вероятностями."
           }
         }
       },
       "variation": {
         "title": "Variation",
-        "body": "Variation means differences among individuals. Genetic differences, environmental influences and their interaction affect traits. Continuous variation gives a range of measured values, such as height; discontinuous variation gives categories, such as ABO blood group. The graph type depends on the data and the question.",
+        "body": "Variation is the difference in characteristics between individuals of the same species. Its causes are different alleles, the environment, or both together.\n\nFor example, two people with similar genes can have different body mass if their diets differ.",
         "detailed": {
           "sources": {
             "name": "Sources of variation",
@@ -3003,19 +3003,19 @@
             }
           },
           "continuous": {
-            "name": "Continuous vs discontinuous variation",
-            "rule": "Continuous variation can take intermediate values within a range; discontinuous variation is recorded in distinct categories. Height is continuous and ABO blood group is categorical. A continuous distribution need not be bell-shaped, and a categorical trait need not be controlled by only one gene.",
+            "name": "Continuous and discontinuous variation",
+            "rule": "Continuous variation can take any value within a range, so the measurements form a continuous spread. Discontinuous variation falls into separate categories, with no values in between.",
             "examples": [
-              "Height measured in centimetres: a numerical variable with many intermediate values.",
-              "ABO group A, B, AB or O: categories without numerical spacing."
+              "Continuous variation: height in centimetres. A person's height can be 162.5 cm or 162.6 cm, so the values fill a range with no gaps.",
+              "Discontinuous variation: blood group (ABO) is A, B, AB or O. A person cannot be halfway between group A and group B, so each person falls into exactly one category."
             ],
-            "tip": "Use a histogram for a numerical distribution and a scatter plot for a relationship between numerical variables.",
+            "tip": "Draw a histogram for continuous data, with the bars touching, because the values have no gaps. Draw a bar chart for categories, with gaps between the bars.",
             "review": {
-              "englishTerm": "Continuous vs discontinuous variation",
-              "russianTerm": "Непрерывная vs прерывистая изменчивость",
+              "englishTerm": "Continuous and discontinuous variation",
+              "russianTerm": "Непрерывная и прерывистая изменчивость",
               "contrast": {
-                "en": "Genotype is genetic constitution; phenotype is an observable characteristic influenced by genotype and environment.",
-                "ru": "Генотип — генетическая конституция; фенотипический признак зависит от генотипа и среды."
+                "en": "Continuous variation is usually caused by many genes working together, plus the environment. Discontinuous variation is usually caused by one or two genes, with little effect from the environment.",
+                "ru": "Непрерывную изменчивость обычно вызывают многие гены, действующие вместе, и среда. Прерывистую обычно вызывают один или два гена, а среда почти не влияет."
               },
               "sources": [
                 {
@@ -3038,8 +3038,8 @@
           "englishTerm": "Variation",
           "russianTerm": "Изменчивость",
           "contrast": {
-            "en": "Genotype is genetic constitution; phenotype is an observable characteristic influenced by genotype and environment.",
-            "ru": "Генотип — генетическая конституция; фенотипический признак зависит от генотипа и среды."
+            "en": "Inherited variation comes from different alleles and can be passed to offspring, for example eye colour. Environmental variation is not inherited: a suntan or a scar is not passed on to children.",
+            "ru": "Наследственная изменчивость возникает из-за разных аллелей и передаётся потомкам, например, цвет глаз. Ненаследственная изменчивость вызвана средой: загар или шрам детям не передаются."
           },
           "sources": [
             {
@@ -3059,22 +3059,22 @@
       },
       "evolution": {
         "title": "Evolution by natural selection",
-        "body": "Evolution is change in heritable characteristics of populations across generations. Natural selection is one mechanism: individuals with some inherited variants leave more surviving offspring in a given environment. Mutation, genetic drift and gene flow also change populations.",
+        "body": "Evolution is the change in heritable characteristics of a population over many generations. The best-known mechanism of evolution is natural selection. Extinction happens when the last living member of a species dies, so the species no longer exists. Extinction does not mean that a species was ‘worse’ than others. The dodo of Mauritius was well adapted to an island with no native predators. After people and introduced animals such as rats arrived, it could not survive and became extinct in the 1600s.",
         "detailed": {
           "naturalSelection": {
             "name": "Natural selection — 4 steps",
-            "rule": "Natural selection occurs when heritable differences affect reproductive success. If a variant increases the number of surviving offspring in a particular environment, it can become more common over generations. Individuals do not acquire needed mutations on purpose, and populations evolve rather than individual organisms.",
+            "rule": "Natural selection is the process in which individuals with heritable traits that suit their environment survive and reproduce more successfully, so these traits become more common over generations. The variation that selection acts on arises by chance: variants do not appear because an organism needs them.",
             "examples": [
-              "An antibiotic can favour bacteria carrying resistance variants, increasing their frequency.",
-              "An advantage depends on the environment and may disappear when conditions change."
+              "Suppose 1 in 1,000 bacteria carries a variant that resists an antibiotic. If the antibiotic kills 99 per cent of the other bacteria, about 9 in every 100 survivors carry the variant, up from 1 in 1,000 before treatment. The survivors reproduce, so the variant spreads through the population.",
+              "In 19th-century Britain, the dark form of the peppered moth (Biston betularia) became more common in industrial areas, where soot darkened tree trunks and dark moths were harder for birds to see. When air pollution fell, the pale form became more common again."
             ],
-            "tip": "Heritable variation → differences in reproductive success → changed variant frequencies. This describes selection, not every evolutionary mechanism.",
+            "tip": "Heritable variation → more offspring are born than can survive → survival and reproduction are unequal → variants that suit the environment become more common in later generations. This describes selection, not every mechanism of evolution.",
             "review": {
               "englishTerm": "Natural selection — 4 steps",
               "russianTerm": "Естественный отбор — 4 шага",
               "contrast": {
-                "en": "Individuals develop during life; populations evolve over generations. Natural selection is one mechanism of evolution.",
-                "ru": "Особи развиваются в течение жизни; популяции эволюционируют в поколениях. Естественный отбор — один из механизмов эволюции."
+                "en": "Natural selection acts on inherited differences between individuals. Changes acquired during life, such as muscles built by training, are not passed on to offspring.",
+                "ru": "Естественный отбор действует на наследуемые различия между особями. Изменения, приобретённые за жизнь, например мышцы, наращённые тренировками, потомкам не передаются."
               },
               "sources": [
                 {
@@ -3094,18 +3094,18 @@
           },
           "speciation": {
             "name": "Speciation — how new species form",
-            "rule": "Speciation is the formation of distinct evolutionary lineages recognised as species. Under the biological species concept, reproductive isolation restricts gene flow between populations. This concept is useful for many sexually reproducing organisms but has limits for fossils, asexual organisms and hybridising populations.",
+            "rule": "Speciation is the process in which one population splits into groups that can no longer interbreed, so that they become separate species. A species is a group of organisms that can interbreed and produce fertile offspring. This definition works well for many sexually reproducing organisms, but it is hard to apply to fossils, where interbreeding cannot be tested, and to asexual organisms.",
             "examples": [
-              "Geographic separation can reduce gene flow and allow divergence.",
-              "Different breeding seasons or mating signals can contribute to reproductive isolation."
+              "Darwin's finches on the Galápagos Islands descend from one ancestral population. Groups that were cut off on different islands diverged, and their beaks became suited to different foods.",
+              "Birds from two groups whose males sing different songs may not recognise each other as mates, so they rarely interbreed."
             ],
             "watchOut": "Isolation does not guarantee eventual speciation; species boundaries can be incomplete where hybridisation occurs.",
             "review": {
               "englishTerm": "Speciation — how new species form",
               "russianTerm": "Видообразование — как возникают новые виды",
               "contrast": {
-                "en": "Individuals develop during life; populations evolve over generations. Natural selection is one mechanism of evolution.",
-                "ru": "Особи развиваются в течение жизни; популяции эволюционируют в поколениях. Естественный отбор — один из механизмов эволюции."
+                "en": "A population can change a great deal over many generations and still be one species. In sexually reproducing organisms, a new species usually appears when reproductive isolation stops the groups from interbreeding.",
+                "ru": "Популяция может сильно измениться за много поколений и остаться одним видом. У организмов с половым размножением новый вид обычно появляется, когда репродуктивная изоляция (reproductive isolation) не даёт группам скрещиваться."
               },
               "sources": [
                 {
@@ -3131,18 +3131,18 @@
           },
           "evidence": {
             "name": "Evidence for evolution",
-            "rule": "Evidence for evolution includes the ordered fossil record, shared anatomical patterns, similarities in DNA and observed population change. Independent observations support common ancestry and test hypotheses about relationships. Similar appearance alone can arise by convergence and does not establish close ancestry.",
+            "rule": "Fossils are the preserved remains or traces of organisms from the past. Most fossils form when a dead organism is quickly buried in sediment; over millions of years the sediment hardens into rock, and minerals can replace the hard parts. Fossils in rock layers make up the fossil record, and older layers usually contain forms that look less like living organisms. Some fossils are transitional forms with features of two groups. Archaeopteryx, about 150 million years old, had feathers like a bird but also teeth and a long bony tail like a reptile. The fossil record is incomplete, because most organisms never fossilise, so it supports change over time but cannot show every step.",
             "examples": [
-              "Shared arrangements of limb bones can support homology despite different uses.",
-              "DNA comparisons test relatedness using many sequences, not one visual resemblance."
+              "Homology means the same underlying structure, inherited from a common ancestor, even when it does a different job. For example, a human arm, a bat wing, a whale flipper and a horse's foreleg all have one upper-arm bone, a forearm, wrist bones and finger or toe bones, arranged in the same way, although they are used for grasping, flying, swimming and running.",
+              "Almost 99 per cent of the DNA bases in comparable sections of the human and chimpanzee genomes are the same, which fits a close relationship."
             ],
             "tip": "Use several independent lines of evidence to evaluate an evolutionary explanation.",
             "review": {
               "englishTerm": "Evidence for evolution",
               "russianTerm": "Доказательства эволюции",
               "contrast": {
-                "en": "Individuals develop during life; populations evolve over generations. Natural selection is one mechanism of evolution.",
-                "ru": "Особи развиваются в течение жизни; популяции эволюционируют в поколениях. Естественный отбор — один из механизмов эволюции."
+                "en": "Similar features do not always show close relatedness. Convergent evolution produces similar features in unrelated groups, for example the streamlined bodies of sharks and dolphins, which evolved separately for fast swimming. Homology, in contrast, shows shared ancestry. It is not the same as homologous chromosomes in meiosis.",
+                "ru": "Сходство признаков не всегда означает близкое родство. Конвергентная эволюция (convergent evolution) даёт похожие признаки неродственным группам: например, обтекаемое тело акул и дельфинов сложилось независимо для быстрого плавания. Гомология, наоборот, указывает на общего предка. Не путай её с гомологичными хромосомами в мейозе."
               },
               "sources": [
                 {
@@ -3162,18 +3162,18 @@
           },
           "humanEvolution": {
             "name": "Human evolution",
-            "rule": "Human evolution is the branching history of the lineage leading to Homo sapiens and its extinct relatives. Humans are great apes and share ancestors with other living apes. Fossil and genetic evidence indicates African origins and later migrations, with interbreeding among some human lineages.",
+            "rule": "Human evolution is a history of many lineages: several human species lived at the same time, and Homo sapiens is the only one that survives today. Other lineages, such as Neanderthals, became extinct. Fossil and genetic evidence points to Africa as the place where Homo sapiens first evolved, followed by migrations across the world.",
             "examples": [
-              "Different ancient human lineages overlapped in time; evolution is a branching tree.",
-              "Some modern populations carry inherited DNA from Neanderthal or Denisovan admixture."
+              "Neanderthals and early Homo sapiens lived in Europe and Western Asia at the same time for thousands of years.",
+              "People with ancestry from outside Africa typically carry about 1 to 2 per cent of their DNA from Neanderthals."
             ],
-            "tip": "Humans descend from ancestral apes and share ancestors with other living apes; humans did not evolve from living chimpanzees.",
+            "tip": "Estimates suggest that humans and chimpanzees share a common ancestor that lived about 5 to 7 million years ago.",
             "review": {
               "englishTerm": "Human evolution",
               "russianTerm": "Эволюция человека",
               "contrast": {
-                "en": "Individuals develop during life; populations evolve over generations. Natural selection is one mechanism of evolution.",
-                "ru": "Особи развиваются в течение жизни; популяции эволюционируют в поколениях. Естественный отбор — один из механизмов эволюции."
+                "en": "A relative is not the same as an ancestor. Evolution looks like a branching tree, not a ladder, so living apes are not lower steps on the way to humans.",
+                "ru": "Родственник — не то же самое, что предок. Эволюция похожа на ветвистое дерево, а не на лестницу, поэтому современные человекообразные обезьяны — не низшие ступени на пути к человеку."
               },
               "sources": [
                 {
@@ -3200,7 +3200,7 @@
         },
         "review": {
           "englishTerm": "Evolution by natural selection",
-          "russianTerm": "Эволюция путём естественного отбора",
+          "russianTerm": "Эволюция через естественный отбор",
           "contrast": {
             "en": "Individuals develop during life; populations evolve over generations. Natural selection is one mechanism of evolution.",
             "ru": "Особи развиваются в течение жизни; популяции эволюционируют в поколениях. Естественный отбор — один из механизмов эволюции."

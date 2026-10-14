@@ -38,9 +38,34 @@ test('all inventoried biology and chemistry blocks have bilingual definitions an
 test('legacy summaries agree with the expanded definitions', () => {
   for (const language of ['en', 'ru']) {
     const chemistry = json(`../src/i18n/${language}/chemistry.json`);
-    for (const path of ['atmosphere.sections.climateChange', 'atmosphere.sections.pollutants', 'energy.sections.types']) {
+    for (const path of ['energy.sections.types']) {
       const section = at(chemistry, path);
       for (const [key, value] of Object.entries(section.items)) if (section.detailed[key]) assert.equal(value, section.detailed[key].rule, `${path}.${key}`);
+    }
+    // C-c-air (14.10): сводки атмосферы на страницу не выводятся (AtmospherePage не передаёт items), поэтому повтор
+    // проверяется в данных: сводка не равна правилу, оба называют одно ключевое понятие (как в C-c-bonds ниже).
+    const airKeyTerms = {
+      'atmosphere.sections.climateChange': {
+        cause: /human|человек|антропоген/i,
+        evidence: /long-term|долгосрочн|многолетн|measure|record|измерен|наблюден/i,
+        consequences: /heat|жар|rain|осад|sea level|уровн[яе] моря|ecosystem|экосистем|risk|риск/i,
+        mitigation: /mitigat|смягчен/i,
+      },
+      'atmosphere.sections.pollutants': {
+        co2: /CO₂|carbon dioxide|углекисл/i,
+        co: /carbon monoxide|угарн|\bCO\b/i,
+        soot: /soot|сажа|сажи|сажей|particulate|частиц/i,
+        sox: /sulfur dioxide|SO₂|диоксид серы|сернист|серы/i,
+        nox: /nitrogen oxides|NOₓ|NOx|оксид[ыа]? азота|оксиды азота|nitrogen/i,
+      },
+    };
+    for (const [path, keys] of Object.entries(airKeyTerms)) {
+      const section = at(chemistry, path);
+      for (const [key, pattern] of Object.entries(keys)) {
+        assert.match(section.items[key], pattern, `${path}.items.${key}: сводка не называет ключевое понятие`);
+        assert.match(section.detailed[key].rule, pattern, `${path}.detailed.${key}.rule: правило не называет ключевое понятие`);
+        assert.notEqual(section.items[key], section.detailed[key].rule, `${path}.${key}: сводка повторяет правило`);
+      }
     }
     // C-c-bonds (13.10): сводка и правило пишутся разными фразами (иначе блок повторяется на странице),
     // но обязаны называть одно и то же ключевое понятие (README батча, п. 1); дословный повтор проверяется ниже.

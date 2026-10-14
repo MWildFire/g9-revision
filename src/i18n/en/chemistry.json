@@ -257,76 +257,64 @@
   },
   "atmosphere": {
     "title": "The Atmosphere",
-    "intro": "From the early atmosphere through to climate change. Topic 4 in the teacher's revision booklet.",
+    "intro": "How the atmosphere formed, what dry air is made of, and how its gases affect climate and health.",
     "sections": {
       "history": {
         "title": "History of the atmosphere",
-        "body": "Earth's atmosphere has changed through outgassing, ocean formation, rock reactions and life. Oxygen-producing photosynthesis preceded the major atmospheric oxygen rise about 2.4 billion years ago. Dry air today is approximately 78% nitrogen, 21% oxygen and 0.9% argon; CO₂ is a smaller, changing component.",
+        "body": "The early atmosphere had almost no oxygen. Its gases probably came from volcanic outgassing and from reactions with rocks. Later, photosynthesis by early organisms released oxygen, which slowly built up in the air. Evidence from that time is scarce: the early air has not survived, and the oldest rocks have changed over time. Today's dry air is about 78% nitrogen, 21% oxygen, 0.9% argon and 0.04% carbon dioxide.",
         "review": {
           "englishTerm": "History of the atmosphere",
           "russianTerm": "История атмосферы",
           "contrast": {
-            "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-            "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+            "en": "Dry air means air without water vapour. The amount of water vapour varies from place to place, so the percentages in this section apply only to dry air.",
+            "ru": "Сухой воздух — это воздух без водяного пара. Количество пара меняется от места к месту, поэтому приведённые здесь проценты относятся только к сухому воздуху."
           },
           "sources": [
             {
-              "title": "OpenStax Astronomy 2e — 8.4",
-              "url": "https://openstax.org/books/astronomy-2e/pages/8-4-life-chemical-evolution-and-climate-change",
-              "language": "en",
-              "section": "8.4 The Evolution of the Atmosphere"
+              "title": "БРЭ «Атмосфера Земли»",
+              "url": "https://bigenc.ru/c/atmosfera-zemli-68ee43",
+              "section": "Состав и история атмосферы",
+              "language": "ru"
             }
           ]
         }
       },
       "carbonRocks": {
-        "title": "Carbon locked in rocks",
-        "body": "Carbon is stored in carbonate rocks and in organic deposits such as fossil fuels. Many marine organisms build calcium carbonate structures that can contribute to sedimentary rocks after burial. Chemical precipitation also forms carbonates; fossil fuels form from buried organic matter through different processes.",
+        "title": "Carbon stored in rocks",
+        "body": "Carbon is stored in carbonate rocks, such as limestone (CaCO₃), and in fossil fuels. Many marine organisms build shells and skeletons from calcium carbonate. When these remains are buried and compressed, they can form limestone, which holds carbon for a very long time. The ocean also takes up CO₂ from the air and converts part of it into carbonates. Fossil fuels are another carbon store: they formed from ancient organic matter that was buried.",
         "review": {
-          "englishTerm": "Carbon locked in rocks",
-          "russianTerm": "Углерод, запертый в горных породах",
+          "englishTerm": "Carbonate rock",
+          "russianTerm": "Карбонатная порода",
           "contrast": {
-            "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-            "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+            "en": "Limestone is not a fuel. Its carbon is bound in carbonate, which does not burn, whereas coal and oil burn and release CO₂.",
+            "ru": "Известняк — не топливо. Его углерод связан в карбонатах, которые не горят, а уголь и нефть горят и выделяют CO₂."
           },
           "sources": [
             {
-              "title": "OpenStax Astronomy 2e — 8.3",
-              "url": "https://openstax.org/books/astronomy-2e/pages/8-3-earths-atmosphere",
-              "language": "en",
-              "section": "8.3 Atmospheric Composition: carbonate rocks as carbon reservoirs"
-            },
-            {
-              "title": "OpenStax Biology 2e — 46.3 Biogeochemical Cycles: water and carbon cycles",
-              "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
-              "language": "en",
-              "section": "46.3 Biogeochemical Cycles: water and carbon cycles"
+              "title": "БРЭ «Атмосфера Земли»",
+              "url": "https://bigenc.ru/c/atmosfera-zemli-68ee43",
+              "section": "Углерод в горных породах и круговорот углерода",
+              "language": "ru"
             }
           ]
         }
       },
       "greenhouse": {
         "title": "Greenhouse effect",
-        "body": "The greenhouse effect is warming associated with gases that absorb and emit infrared radiation. The surface absorbs sunlight and emits infrared energy; greenhouse gases reduce the rate at which this energy escapes to space. The natural effect sustains warmer conditions, and increased greenhouse-gas concentrations alter Earth's energy balance.",
+        "body": "The greenhouse effect is the warming of Earth's surface caused by gases that absorb and re-emit infrared radiation. Sunlight heats the surface, which gives off heat as infrared radiation. Greenhouse gases absorb part of this radiation and re-emit it in all directions, so some energy returns to the surface. The main greenhouse gases are water vapour, carbon dioxide (CO₂), methane (CH₄), nitrous oxide (N₂O) and ozone (O₃). When these gases increase, more energy is trapped, so less escapes to space and the surface warms.",
         "review": {
           "englishTerm": "Greenhouse effect",
           "russianTerm": "Парниковый эффект",
           "contrast": {
-            "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-            "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+            "en": "The name misleads. A glass greenhouse stays warm mainly because it stops warm air from escaping upwards; the atmospheric effect works through infrared radiation.",
+            "ru": "Название вводит в заблуждение. Стеклянная теплица нагревается в основном потому, что не даёт тёплому воздуху уходить вверх; парниковый эффект в атмосфере работает через инфракрасное излучение."
           },
           "sources": [
             {
-              "title": "NASA — Causes of Climate Change",
-              "url": "https://science.nasa.gov/climate-change/causes/",
-              "language": "en",
-              "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
-            },
-            {
-              "title": "NASA — Evidence",
-              "url": "https://science.nasa.gov/climate-change/evidence/",
-              "language": "en",
-              "section": "Global temperature, ocean heat and sea-level observations"
+              "title": "БРЭ «Парниковый эффект»",
+              "url": "https://bigenc.ru/c/parnikovyi-effekt-7ff160",
+              "section": "Парниковые газы и инфракрасное излучение",
+              "language": "ru"
             }
           ]
         }
@@ -334,147 +322,129 @@
       "climateChange": {
         "title": "Climate change",
         "items": {
-          "cause": "Human-driven climate change results chiefly from increased greenhouse-gas concentrations caused by fossil-fuel use, land-use change and other activities. CO₂, methane and nitrous oxide differ in lifetime and warming effect. A comparison such as methane's relative warming requires a stated time horizon and metric.",
-          "evidence": "Evidence of climate change comes from long-term measurements of temperature, ocean heat, sea level, ice and ecological responses. Attribution uses observations and physical models to test possible causes. One unusual weather event alone does not define a climate trend.",
-          "consequences": "Climate change alters risks to ecosystems and societies through heat, changing rainfall, sea-level rise and other effects. Impacts vary by region and vulnerability. Ocean acidification is a related effect of dissolved anthropogenic CO₂, chemically distinct from warming itself.",
-          "mitigation": "Mitigation reduces greenhouse-gas emissions or increases their removal from the atmosphere. Examples include energy efficiency, low-carbon electricity and protection of carbon stores. Nuclear power is low-carbon but is not normally classified as renewable; evaluate each option by its full effects."
+          "cause": "Climate change is mainly driven by human emissions, which nature cannot absorb fast enough.",
+          "evidence": "Long-term measurements record the warming, and calculations show that people caused it.",
+          "consequences": "Heat, changing rainfall and rising sea levels hit ecosystems and people unevenly.",
+          "mitigation": "Mitigation tackles the cause, so the warming slows over time."
         },
         "detailed": {
           "cause": {
             "name": "Causes of human-driven climate change",
-            "rule": "Human-driven climate change results chiefly from increased greenhouse-gas concentrations caused by fossil-fuel use, land-use change and other activities. CO₂, methane and nitrous oxide differ in lifetime and warming effect. A comparison such as methane's relative warming requires a stated time horizon and metric.",
+            "rule": "Human-driven climate change is change caused by human activity, mainly by rising concentrations of greenhouse gases. Burning fossil fuels and clearing forests add CO₂ beyond the natural carbon cycle. Agriculture and landfill sites produce mainly methane and nitrous oxide. These gases absorb infrared radiation from the surface, so Earth warms as their concentrations rise. Methane traps more heat per molecule but breaks down within years, while CO₂ stays in the air for centuries.",
             "examples": [
-              "Burning fossil carbon adds CO₂; clearing vegetation can both release carbon and reduce uptake."
+              "Most of the carbon from petrol burned in a car engine leaves the exhaust as CO₂."
             ],
-            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "tip": "If a question asks you to state causes, give two or three human activities and name the gas for each.",
             "review": {
-              "englishTerm": "Causes of human-driven climate change",
-              "russianTerm": "Причины антропогенного изменения климата",
+              "englishTerm": "Human-driven climate change",
+              "russianTerm": "Антропогенное изменение климата",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "Past natural climate change and today's change are different things. Climate has changed in the past for natural reasons, but the recent rise in CO₂ matches the burning of fossil fuels.",
+                "ru": "Прошлые природные изменения климата и нынешние — разные вещи. Климат менялся и раньше по природным причинам, но недавний рост CO₂ совпадает с сжиганием ископаемого топлива."
               },
               "sources": [
                 {
-                  "title": "NASA — Causes of Climate Change",
-                  "url": "https://science.nasa.gov/climate-change/causes/",
-                  "language": "en",
-                  "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
-                },
-                {
-                  "title": "NASA — Evidence",
-                  "url": "https://science.nasa.gov/climate-change/evidence/",
-                  "language": "en",
-                  "section": "Global temperature, ocean heat and sea-level observations"
+                  "title": "БРЭ «Климат»",
+                  "url": "https://bigenc.ru/c/klimat-780c32",
+                  "section": "Климат и изменение климата",
+                  "language": "ru"
                 }
               ]
             }
           },
           "evidence": {
-            "name": "Evidence climate is changing",
-            "rule": "Evidence of climate change comes from long-term measurements of temperature, ocean heat, sea level, ice and ecological responses. Attribution uses observations and physical models to test possible causes. One unusual weather event alone does not define a climate trend.",
+            "name": "Evidence that the climate is changing",
+            "rule": "Evidence of climate change comes from long-term records of air and ocean temperature, sea level, glacier retreat and CO₂ in the air.\n\nScientists test the causes by comparing these observations with physical models. Models that leave out human emissions cannot reproduce the warming of recent decades.\n\nProjections of future change are less certain. They depend on climate models and on emission scenarios (how much greenhouse gas people will release). Uncertainty also comes from the ocean, which absorbs heat, and from clouds, which can both cool and warm the planet.",
             "examples": [
-              "Ocean heat content and sea-level records provide evidence independent of a single land thermometer."
+              "CO₂ in the air was about 280 ppm before the industrial era and is more than 400 ppm today."
             ],
-            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "tip": "Give the year, region and measure when you use climate statistics.",
             "review": {
-              "englishTerm": "Evidence climate is changing",
-              "russianTerm": "Доказательства того, что климат меняется",
+              "englishTerm": "Evidence of climate change",
+              "russianTerm": "Доказательства изменения климата",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "Weather and climate are different things. Weather is the state of the air over hours or days. Climate is the average pattern of weather over many years.",
+                "ru": "Погода и климат — разные вещи. Погода — состояние воздуха за часы или дни. Климат — средний многолетний режим погоды."
               },
               "sources": [
                 {
-                  "title": "NASA — Causes of Climate Change",
-                  "url": "https://science.nasa.gov/climate-change/causes/",
-                  "language": "en",
-                  "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
-                },
-                {
-                  "title": "NASA — Evidence",
-                  "url": "https://science.nasa.gov/climate-change/evidence/",
-                  "language": "en",
-                  "section": "Global temperature, ocean heat and sea-level observations"
+                  "title": "БРЭ «Климат»",
+                  "url": "https://bigenc.ru/c/klimat-780c32",
+                  "section": "Климат и изменение климата",
+                  "language": "ru"
                 }
               ]
             }
           },
           "consequences": {
-            "name": "Consequences",
-            "rule": "Climate change alters risks to ecosystems and societies through heat, changing rainfall, sea-level rise and other effects. Impacts vary by region and vulnerability. Ocean acidification is a related effect of dissolved anthropogenic CO₂, chemically distinct from warming itself.",
+            "name": "Consequences for ecosystems and people",
+            "rule": "Consequences are the effects of climate change on ecosystems and people. The harm depends on the hazard and on exposure, meaning how many people, homes or species are in its path. Vulnerability, meaning how poorly people or ecosystems can cope, also decides the damage. So the same hazard can cause very different damage in different places.",
             "examples": [
-              "Sea-level rise changes coastal flood risk; heat changes risks to organisms and people."
+              "Rising sea levels raise the flood risk for homes on low-lying coasts."
             ],
-            "watchOut": "Consequences depend on exposure and vulnerability as well as the physical hazard.",
-            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "watchOut": "Sea ice already floats on the water, so melting it adds little to sea level. Most of the rise comes from melting glaciers on land and from warmer water expanding.",
+            "tip": "For a 'describe' question, give a detailed account: the effect, how it harms and who suffers from it, for example coastal towns during a flood.",
             "review": {
               "englishTerm": "Consequences",
               "russianTerm": "Последствия",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "Ocean acidification and warming are different processes. Acidification happens when dissolved CO₂ forms a weak acid in seawater and lowers the pH. Warming is caused by greenhouse gases that trap heat near the surface.",
+                "ru": "Подкисление океана и потепление — разные процессы. Подкисление — химическая реакция: растворённый в морской воде CO₂ образует слабую кислоту и снижает pH. Потепление же вызывают парниковые газы, которые удерживают тепло у поверхности."
               },
               "sources": [
                 {
-                  "title": "NASA — Causes of Climate Change",
-                  "url": "https://science.nasa.gov/climate-change/causes/",
-                  "language": "en",
-                  "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
-                },
-                {
-                  "title": "NASA — Evidence",
-                  "url": "https://science.nasa.gov/climate-change/evidence/",
-                  "language": "en",
-                  "section": "Global temperature, ocean heat and sea-level observations"
+                  "title": "БРЭ «Климат»",
+                  "url": "https://bigenc.ru/c/klimat-780c32",
+                  "section": "Климат и изменение климата",
+                  "language": "ru"
                 }
               ]
             }
           },
           "mitigation": {
             "name": "Mitigation — reducing emissions",
-            "rule": "Mitigation reduces greenhouse-gas emissions or increases their removal from the atmosphere. Examples include energy efficiency, low-carbon electricity and protection of carbon stores. Nuclear power is low-carbon but is not normally classified as renewable; evaluate each option by its full effects.",
+            "rule": "Mitigation means cutting greenhouse-gas emissions or increasing their removal from the air. Fewer emissions mean less CO₂ builds up in the air. Removal happens, for example, when growing forests take up CO₂ by photosynthesis.",
             "examples": [
-              "Replacing high-emission electricity generation with low-carbon sources can reduce emissions."
+              "Replacing a coal power station with wind or solar generation cuts CO₂ emissions for the same amount of electricity."
             ],
-            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "tip": "For an 'evaluate' question, compare options by emissions, cost and effects on nature; one criterion is not enough.",
             "review": {
               "englishTerm": "Mitigation — reducing emissions",
               "russianTerm": "Смягчение — сокращение выбросов",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "Low-carbon and renewable are not the same thing. Nuclear power emits little CO₂ when it runs, but uranium is a finite resource, so it is usually classed as non-renewable. Wind and solar power are both low-carbon and renewable.",
+                "ru": "Низкоуглеродный и возобновляемый (renewable) — не одно и то же. Ядерная энергия почти не выбрасывает CO₂ при работе, но уран — ограниченный ресурс, поэтому её обычно относят к невозобновляемой. Ветер и солнце одновременно низкоуглеродны и возобновляемы."
               },
               "sources": [
                 {
-                  "title": "NASA — Mitigation and Adaptation",
-                  "url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
-                  "language": "en",
-                  "section": "Mitigation and Adaptation: emissions, sinks and adjustment to impacts"
+                  "title": "БРЭ «Климат»",
+                  "url": "https://bigenc.ru/c/klimat-780c32",
+                  "section": "Климат и изменение климата",
+                  "language": "ru"
                 }
               ]
             }
           },
           "adaptation": {
             "name": "Adaptation — living with changing climate",
-            "rule": "Adaptation is adjustment to actual or expected climate effects to reduce harm or use opportunities. Examples include flood protection, heat-health plans and changes to farming. It reduces vulnerability but does not necessarily reduce greenhouse-gas emissions; adaptation and mitigation address different parts of the problem.",
+            "rule": "Adaptation means adjusting to actual or expected effects of climate change to reduce harm or make use of new opportunities. It lowers the vulnerability of people and ecosystems to these effects.",
             "examples": [
-              "Floodable open space and drainage design can reduce damage during intense rainfall."
+              "A city builds drainage channels and a park that can flood, so fewer homes flood in heavy rain."
             ],
-            "tip": "State the year, region and measure when using climate statistics; projections depend on assumptions.",
+            "tip": "For each adaptation measure, name the hazard it protects against, such as flooding, heat or drought.",
             "review": {
-              "englishTerm": "Adaptation — living with changing climate",
-              "russianTerm": "Адаптация — жизнь в меняющемся климате",
+              "englishTerm": "Adaptation",
+              "russianTerm": "Адаптация",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "Mitigation and adaptation are different responses to warming. Mitigation acts on the cause by cutting emissions, while adaptation acts on the harm and leaves emissions unchanged.",
+                "ru": "Смягчение изменения климата и адаптация — разные ответы на потепление. Смягчение изменения климата действует на причину: сокращает выбросы. Адаптация снижает вред, но выбросы не сокращает."
               },
               "sources": [
                 {
-                  "title": "NASA — Mitigation and Adaptation",
-                  "url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
-                  "language": "en",
-                  "section": "Mitigation and Adaptation: emissions, sinks and adjustment to impacts"
+                  "title": "БРЭ «Климат»",
+                  "url": "https://bigenc.ru/c/klimat-780c32",
+                  "section": "Климат и изменение климата",
+                  "language": "ru"
                 }
               ]
             }
@@ -484,57 +454,51 @@
       "pollutants": {
         "title": "Atmospheric pollutants",
         "items": {
-          "co2": "Carbon dioxide is a colourless gas produced by processes including respiration and complete oxidation of carbon-containing fuels. It absorbs infrared radiation and contributes to the greenhouse effect. Whether a release is a pollutant depends on its amount and context; CO₂ is also a normal part of the carbon cycle.",
-          "co": "Carbon monoxide is a colourless, odourless toxic gas that can form during incomplete combustion of carbon-containing fuels. It binds strongly to haemoglobin and impairs oxygen delivery. CO is chemically and biologically different from carbon dioxide, CO₂.",
-          "soot": "Particulate matter is a mixture of small solid particles and liquid droplets suspended in air. Soot is a carbon-rich subset from incomplete combustion. PM₁₀ and PM₂.₅ classify particles by aerodynamic diameter; smaller particles can reach deeper parts of the respiratory system.",
-          "sox": "Sulfur dioxide is a gas released when sulfur-containing materials burn, for example S + O₂ → SO₂. Atmospheric oxidation and interaction with water produce acidic compounds and sulfate particles. These processes contribute to acid deposition; a single water-addition equation is only a simplified model.",
-          "nox": "Nitrogen oxides, especially NO and NO₂, form in processes including high-temperature combustion. Nitrogen and oxygen can react to form NO, which can be oxidised to NO₂. Their atmospheric reactions contribute to acid deposition and photochemical ozone formation."
+          "co2": "Carbon dioxide is a normal part of clean air, so it counts as a pollutant only because of its amount. Too much of it changes the climate.",
+          "co": "Carbon monoxide (CO) is a poisonous gas. It comes from incomplete burning and reduces the amount of oxygen the blood can carry.",
+          "soot": "Soot and other particulate matter are tiny solid pieces or droplets in the air. They irritate the airways and the lungs.",
+          "sox": "Sulfur dioxide comes from sulfur in coal and oil. Its products make rain acidic.",
+          "nox": "Nitrogen oxides (NOx) come mainly from hot engines and power stations. In sunlight, they help form photochemical smog."
         },
         "detailed": {
           "co2": {
             "name": "Carbon dioxide (CO₂)",
-            "rule": "Carbon dioxide is a colourless gas produced by processes including respiration and complete oxidation of carbon-containing fuels. It absorbs infrared radiation and contributes to the greenhouse effect. Whether a release is a pollutant depends on its amount and context; CO₂ is also a normal part of the carbon cycle.",
+            "rule": "Carbon dioxide (CO₂) is a colourless gas produced by respiration and by complete combustion. Burning fuel releases extra CO₂ into the air. This strengthens the greenhouse effect, so the planet warms.",
             "examples": [
-              "CaCO₃ → CaO + CO₂: decomposition also releases CO₂ without burning fuel."
+              "Propane, a fuel gas, burns completely: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(g). One propane molecule makes three CO₂ molecules."
             ],
-            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "tip": "When you balance a combustion equation, count carbon first, then hydrogen, and balance oxygen last. Then add the state symbols.",
             "review": {
               "englishTerm": "Carbon dioxide (CO₂)",
               "russianTerm": "Углекислый газ (CO₂)",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "The greenhouse effect, which is a process, and CO₂ are different things: CO₂ is one of the gases that take part in it.",
+                "ru": "Парниковый эффект (процесс) и CO₂ — разные понятия: CO₂ — один из газов, которые участвуют в нём."
               },
               "sources": [
                 {
-                  "title": "NASA — Causes of Climate Change",
-                  "url": "https://science.nasa.gov/climate-change/causes/",
-                  "language": "en",
-                  "section": "Increasing Greenhouse Gases Are Warming the Planet; Human Activity"
-                },
-                {
-                  "title": "NASA — Evidence",
-                  "url": "https://science.nasa.gov/climate-change/evidence/",
-                  "language": "en",
-                  "section": "Global temperature, ocean heat and sea-level observations"
+                  "title": "БРЭ «Климат»",
+                  "url": "https://bigenc.ru/c/klimat-780c32",
+                  "section": "Климат и изменение климата",
+                  "language": "ru"
                 }
               ]
             }
           },
           "co": {
             "name": "Carbon monoxide (CO)",
-            "rule": "Carbon monoxide is a colourless, odourless toxic gas that can form during incomplete combustion of carbon-containing fuels. It binds strongly to haemoglobin and impairs oxygen delivery. CO is chemically and biologically different from carbon dioxide, CO₂.",
+            "rule": "Carbon monoxide is a toxic gas. It forms when fuel burns with too little oxygen, so the carbon is not fully oxidised to CO₂. In the blood, CO binds to haemoglobin much more strongly than oxygen does. Less oxygen then reaches the body's cells.",
             "examples": [
-              "Incomplete fuel combustion can form CO; its lack of smell does not indicate absence."
+              "A gas heater used in a closed room with blocked vents can form CO. One possible reaction for propane is 2C₃H₈(g) + 7O₂(g) → 6CO(g) + 8H₂O(g)."
             ],
-            "watchOut": "CO and CO₂ differ by one oxygen atom but have different chemical behaviour and hazards.",
-            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "watchOut": "Carbon monoxide has no colour and no smell, so people cannot notice it. That is why homes with gas appliances have CO alarms.",
+            "tip": "For 'state', give the source and the type of substance. For 'describe', add the mechanism of harm: binding to haemoglobin.",
             "review": {
               "englishTerm": "Carbon monoxide (CO)",
               "russianTerm": "Угарный газ (CO)",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "CO and CO₂ differ by one oxygen atom. CO is a poison, while CO₂ harms mainly through climate change.",
+                "ru": "CO и CO₂ отличаются одним атомом кислорода. CO — яд, а CO₂ вредит в основном через изменение климата."
               },
               "sources": [
                 {
@@ -548,17 +512,17 @@
           },
           "soot": {
             "name": "Particulates (soot, PM2.5, PM10)",
-            "rule": "Particulate matter is a mixture of small solid particles and liquid droplets suspended in air. Soot is a carbon-rich subset from incomplete combustion. PM₁₀ and PM₂.₅ classify particles by aerodynamic diameter; smaller particles can reach deeper parts of the respiratory system.",
+            "rule": "Particulate matter is a mixture of small solid particles and liquid droplets in the air. Soot is its carbon-rich part, formed in incomplete combustion. PM10 and PM2.5 are size classes based on aerodynamic diameter. Small particles can be breathed in and reach deep into the lungs. Dark soot also absorbs sunlight, which warms the air.",
             "examples": [
-              "Combustion particles, dust and liquid aerosols are all examples of particulate matter."
+              "A diesel lorry and a bonfire both release soot particles into the air."
             ],
-            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "tip": "PM2.5 names a size class of particles. Do not read the 2.5 as a percentage of the particles.",
             "review": {
               "englishTerm": "Particulates (soot, PM2.5, PM10)",
-              "russianTerm": "Частицы (сажа, PM2.5, PM10)",
+              "russianTerm": "Взвешенные частицы (сажа, PM2,5, PM10)",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "Soot is not a gas. It is made of solid particles, while CO, SO₂ and NOx are gases.",
+                "ru": "Сажа — не газ: она состоит из твёрдых частиц, а CO, SO₂ и NOx — газы."
               },
               "sources": [
                 {
@@ -572,17 +536,16 @@
           },
           "sox": {
             "name": "Sulfur dioxide (SO₂)",
-            "rule": "Sulfur dioxide is a gas released when sulfur-containing materials burn, for example S + O₂ → SO₂. Atmospheric oxidation and interaction with water produce acidic compounds and sulfate particles. These processes contribute to acid deposition; a single water-addition equation is only a simplified model.",
+            "rule": "Sulfur dioxide (SO₂) is a gas. It forms when sulfur in fuel burns: S(s) + O₂(g) → SO₂(g). In the air, SO₂ is oxidised and reacts with water to form sulfuric acid. This acid falls as acid rain, which harms lakes, forests and buildings.",
             "examples": [
-              "Removing sulfur from fuel or exhaust reduces sulfur dioxide emissions."
+              "A coal power station without flue-gas cleaning sends SO₂ up its chimney."
             ],
-            "tip": "Identify the chemical species, its formation process and its specific effect.",
             "review": {
               "englishTerm": "Sulfur dioxide (SO₂)",
               "russianTerm": "Диоксид серы (SO₂)",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "Acid rain is not sulfur dioxide itself. It is the acid made from SO₂ once it reacts in the air.",
+                "ru": "Кислотный дождь — это не сам диоксид серы, а кислота, которая из него образуется в воздухе."
               },
               "sources": [
                 {
@@ -596,18 +559,18 @@
           },
           "nox": {
             "name": "Nitrogen oxides (NOx)",
-            "rule": "Nitrogen oxides, especially NO and NO₂, form in processes including high-temperature combustion. Nitrogen and oxygen can react to form NO, which can be oxidised to NO₂. Their atmospheric reactions contribute to acid deposition and photochemical ozone formation.",
+            "rule": "Nitrogen oxides (NOx) are mainly NO and NO₂. In the air, NO reacts with more oxygen to form NO₂. NO₂ dissolves in rain water and forms nitric acid, so it contributes to acid rain.",
             "examples": [
-              "NO₂ participates in sunlight-driven reactions with other pollutants that can form ozone near the ground."
+              "Nitrogen and oxygen react in a car engine at high temperature: N₂(g) + O₂(g) → 2NO(g)."
             ],
-            "watchOut": "Ozone at GROUND level is harmful — irritates lungs, damages plants. Same molecule that protects us from UV in the stratosphere.",
-            "tip": "Identify the chemical species, its formation process and its specific effect.",
+            "watchOut": "Ozone (O₃) at ground level is harmful: it irritates the lungs and damages plants. The same gas in the stratosphere absorbs harmful UV radiation.",
+            "tip": "If a question asks you to suggest something, name a way to cut NOx, such as a catalytic converter in the exhaust.",
             "review": {
               "englishTerm": "Nitrogen oxides (NOx)",
               "russianTerm": "Оксиды азота (NOx)",
               "contrast": {
-                "en": "The greenhouse effect concerns energy exchange; air pollution describes substances at concentrations that cause harm. Some substances contribute to both.",
-                "ru": "Парниковый эффект относится к энергообмену; загрязнение воздуха — к веществам во вредных концентрациях. Некоторые вещества участвуют в обоих процессах."
+                "en": "NOx and N₂O (nitrous oxide) are different groups of gases. N₂O is a greenhouse gas, but it is not counted in NOx.",
+                "ru": "NOx и N₂O (закись азота) — разные группы газов. N₂O — парниковый газ, но в NOx он не входит."
               },
               "sources": [
                 {

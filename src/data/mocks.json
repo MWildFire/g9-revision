@@ -822,8 +822,8 @@
           "ru": "Эмпирическая формула (empirical formula) показывает простейшее соотношение атомов элементов в соединении, выраженное целыми числами. Переведи массы элементов в моли (если даны проценты, считай, что масса образца 100 г), раздели на наименьшее из них и приведи отношение к целым числам. Молекулярная формула показывает настоящее число атомов в одной молекуле; чтобы её найти, нужна молярная масса."
         },
         {
-          "en": "Percentage yield compares the product actually obtained with the maximum predicted from the limiting reactant: actual ÷ theoretical × 100%. Atom economy compares the mass of the desired product in the balanced equation with the total mass of all reactants: desired product ÷ all reactants × 100%. Yield describes what happened in an experiment; atom economy describes how many reactant atoms end up in the desired product, even if the reaction goes to completion.",
-          "ru": "Выход продукта (percentage yield) сравнивает практическую массу, полученную в опыте, с теоретической. Теоретическая масса — максимально возможная, её рассчитывают по веществу в недостатке (limiting reactant): практическая масса ÷ теоретическая масса × 100 %. Атомная экономичность (atom economy) сравнивает массу нужного продукта по уравнению с общей массой всех реагентов: нужный продукт ÷ все реагенты × 100 %. Выход показывает результат опыта, а атомная экономичность — какая доля атомов реагентов попадает в нужный продукт, даже если реакция идёт полностью."
+          "en": "Percentage yield compares the product actually obtained with the maximum predicted from the limiting reactant: actual ÷ theoretical × 100%.\n\n[H] Atom economy compares the mass of the desired product in the balanced equation with the total mass of all reactants: desired product ÷ all reactants × 100%. Yield describes what happened in an experiment; atom economy describes how many reactant atoms end up in the desired product, even if the reaction goes to completion.",
+          "ru": "Выход продукта (percentage yield) сравнивает практическую массу, полученную в опыте, с теоретической. Теоретическая масса — максимально возможная, её рассчитывают по веществу в недостатке (limiting reactant): практическая масса ÷ теоретическая масса × 100 %.\n\n[H] Атомная экономичность (atom economy) сравнивает массу нужного продукта по уравнению с общей массой всех реагентов: нужный продукт ÷ все реагенты × 100 %. Выход показывает результат опыта, а атомная экономичность — какая доля атомов реагентов попадает в нужный продукт, даже если реакция идёт полностью."
         },
         {
           "en": "Titration finds an unknown concentration. A solution of known concentration is added from a burette until the reaction is just complete. The equivalence point is when the reactants have reacted in exact stoichiometric amounts; the end point is the observed colour change of the indicator, which is close to it. Use concordant titres (results within 0.10 cm³ of each other), n = cV and the balanced mole ratio. The shortcut c₁V₁ = c₂V₂ works only for a 1:1 mole ratio.",
@@ -853,7 +853,7 @@
           "englishTerm": "Reaction calculations",
           "russianTerm": "Расчёты по уравнению реакции",
           "contrast": {
-            "en": "Do not mix up the units: mass m is in grams (g), amount n in moles (mol) and molar mass M in g mol⁻¹. They are linked by m = nM.",
+            "en": "The units differ: mass m is in grams (g), amount n in moles (mol) and molar mass M in g mol⁻¹. They are linked by m = nM.",
             "ru": "единицы разные. Масса m — в граммах (г), количество вещества n — в молях (моль), молярная масса M — в г/моль. Их связывает формула m = nM."
           },
           "sources": [
@@ -924,7 +924,7 @@
           "englishTerm": "Titration; percentage yield; empirical formula",
           "russianTerm": "Титрование; выход продукта; эмпирическая формула",
           "contrast": {
-            "en": "Do not confuse the end point (what you see: a colour change) with the equivalence point, where the reactants are in exactly the stoichiometric proportion. An empirical formula gives the simplest ratio of atoms; a molecular formula gives the actual number of atoms in one molecule.",
+            "en": "The end point (what you see: a colour change) differs from the equivalence point, where the reactants are in exactly the stoichiometric proportion. An empirical formula gives the simplest ratio of atoms; a molecular formula gives the actual number of atoms in one molecule.",
             "ru": "конечную точку (то, что видишь: смену цвета индикатора) и точку эквивалентности, где реагенты находятся в точно стехиометрической пропорции. Эмпирическая формула даёт простейшее соотношение атомов, а молекулярная — число атомов в одной молекуле."
           },
           "sources": [
@@ -986,7 +986,7 @@
         },
         {
           "en": "A catalyst speeds up a reaction by providing a different pathway, and it is not used up overall. For the same mass and density, smaller separate particles expose more surface and so more active sites. Sticking together (aggregation) or surface coatings can block access to those sites. Benefits and biological effects depend on material, size, dose and exposure, so the word “nano” alone does not show that something is safe or harmful. Three possible risks are being studied. Very small particles can reach places that larger ones cannot, such as deep in the lungs and, in some cases, inside cells. A large surface can make the nanoform of a material more reactive than the same material in bulk. Long-term effects on health and on organisms in water are not yet fully known: silver nanoparticles that kill bacteria in some products may also harm aquatic life.",
-          "ru": "Катализатор (catalyst) ускоряет реакцию, открывая для неё другой путь, и в итоге не расходуется. При той же массе и плотности у мелких отдельных частиц суммарная поверхность больше, а значит, больше и активных центров. Слипание частиц, или агрегация (aggregation), и покрытия поверхности могут закрыть доступ к этим центрам. Польза и биологические эффекты зависят от вещества, размера, дозы и условий воздействия, поэтому одно слово «нано» не говорит ни о безопасности, ни о вреде. Изучают три возможных риска. Очень мелкие частицы могут попадать туда, куда крупные не проникают, например глубоко в лёгкие и в отдельных случаях в клетки. Большая поверхность может делать наночастицы более реакционноспособными, чем то же вещество в крупном куске. Долгосрочные последствия для здоровья и для организмов в воде изучены ещё не полностью: наночастицы серебра, которые убивают бактерии в некоторых товарах, могут навредить водной жизни."
+          "ru": "Катализатор (catalyst) ускоряет реакцию, открывая для неё другой путь, и в итоге не расходуется. При той же массе и плотности у мелких отдельных частиц суммарная поверхность больше, а значит, больше и активных центров. Слипание частиц, или агрегация (aggregation), и покрытия поверхности могут закрыть доступ к этим центрам. Польза и биологические эффекты зависят от вещества, размера, дозы и условий воздействия, поэтому одно слово «нано» не говорит ни о безопасности, ни о вреде. Учёные изучают три возможных риска. Очень мелкие частицы могут попадать туда, куда крупные не проникают, например глубоко в лёгкие и в отдельных случаях в клетки. Большая поверхность может делать наночастицы более реакционноспособными, чем то же вещество в крупном куске. Долгосрочные последствия для здоровья и для организмов в воде изучены ещё не полностью: наночастицы серебра, которые убивают бактерии в некоторых товарах, могут навредить водной жизни."
         },
         {
           "en": "Ionic bonding is the electrostatic attraction between positive and negative ions. Electron transfer creates the ions, but the bond itself is the attraction between them. A solid ionic compound is an extended ionic lattice, not a collection of separate NaCl molecules. Ions can move and carry charge in a melt or in solution, but in the solid they are fixed in their lattice positions.",
@@ -1012,7 +1012,7 @@
           "englishTerm": "Nanoparticle; surface-area-to-volume ratio",
           "russianTerm": "Наночастица; отношение поверхности к объёму",
           "contrast": {
-            "en": "Do not confuse surface area with S/V. One small particle has less surface area than one large particle, but a larger S/V. For the same mass of the same material, the small particles have more total surface.",
+            "en": "Surface area and S/V are different quantities. One small particle has less surface area than one large particle, but a larger S/V. For the same mass of the same material, the small particles have more total surface.",
             "ru": "площадь поверхности и отношение S/V. Одна маленькая частица имеет меньшую площадь поверхности, чем одна большая, но большее отношение S/V. При той же массе того же вещества мелкие частицы в сумме имеют больше поверхности."
           },
           "sources": [
@@ -1046,7 +1046,7 @@
           "englishTerm": "Ionic bonding",
           "russianTerm": "Ионная связь",
           "contrast": {
-            "en": "Do not confuse the strong electrostatic attraction inside a giant ionic lattice with the weak intermolecular forces between separate molecules. Melting a molecular solid overcomes only the weak intermolecular forces; melting an ionic solid must overcome the strong attraction between ions.",
+            "en": "The strong electrostatic attraction inside a giant ionic lattice differs from the weak intermolecular forces between separate molecules. Melting a molecular solid overcomes only the weak intermolecular forces; melting an ionic solid must overcome the strong attraction between ions.",
             "ru": "сильное электростатическое притяжение внутри ионной кристаллической решётки и слабое межмолекулярное взаимодействие (intermolecular forces) между отдельными молекулами. При плавлении молекулярного вещества преодолевается только слабое межмолекулярное взаимодействие; при плавлении ионного вещества нужно преодолеть сильное притяжение между ионами."
           },
           "sources": [

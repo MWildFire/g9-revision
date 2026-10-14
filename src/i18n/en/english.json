@@ -135,6 +135,13 @@
         "Did you compare in every paragraph (not text-by-text)?",
         "Did you write under timed conditions to build exam stamina?"
       ]
+    },
+    "criteria": {
+      "title": "Assessment criteria A and B",
+      "items": [
+        "Criterion A (Analysing) — explain how the writer’s choices (words, structure, images, sound, framing) create meaning, and support each point with precise evidence from the text.",
+        "Criterion B (Organising) — build a clear answer: one focused claim, parts or paragraphs with one idea each, and links between the ideas."
+      ]
     }
   },
   "progressTestPage": {
@@ -810,6 +817,27 @@
         "l": "LINK — connect back to the question and forward to the next paragraph. For example, “This anxiety contrasts sharply with his brother’s calm, setting up the tension the next paragraph explores.”"
       },
       "tip": "Adapt the amount of evidence to your argument. A paragraph may need several pieces of evidence, each with its own explanation; follow the task and its assessment criteria."
+    },
+    "toneMood": {
+      "title": "Tone and mood",
+      "body": "Tone is the attitude that the writer or narrator shows towards the subject: admiring, mocking, anxious or detached. Mood is the atmosphere the text creates for the reader: tense, gloomy or playful. The two can differ. A cheerful narrator can describe a frightening scene; then the mood is tense, but the tone stays light.",
+      "tip": "Name the tone with one adjective and quote the words that show it. Name the mood separately, and say which details create it: sentence length, sounds, images."
+    },
+    "soliloquy": {
+      "title": "Soliloquy and aside",
+      "body": "A soliloquy is a speech in which a character, alone on stage, talks to themselves or to the audience. It shows thoughts and feelings the other characters do not know. An aside is a short remark to the audience; by convention, the other characters on stage do not hear it. In both cases the audience knows something that the other characters in the play do not.",
+      "tip": "When you analyse a soliloquy, ask what the character reveals that they would hide from others, and which words show that their thinking is changing."
+    },
+    "camera": {
+      "title": "Camera terms in a storyboard",
+      "intro": "A storyboard shows each shot. Name the type of shot, then say what it makes the audience notice.",
+      "items": [
+        "Wide shot — the whole setting is visible; a character can look small or isolated.",
+        "Medium shot — the character is shown from the waist up; the focus is on action and speech.",
+        "Close-up — a face or an object fills the frame; small reactions and details become important.",
+        "Cut — an instant switch from one shot to the next; it can create speed, shock or a link between ideas.",
+        "Off-screen sound — sound from outside the frame, such as a voice or a noise; the audience hears something that the character may not see yet."
+      ]
     }
   },
   "essaysPage": {

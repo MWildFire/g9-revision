@@ -34,6 +34,13 @@ export function ExamFormatPage() {
         ))}
       </ul>
 
+      <SectionHeading>{t('examFormatPage.criteria.title')}</SectionHeading>
+      <ul className="space-y-2">
+        {((t('examFormatPage.criteria.items', { returnObjects: true }) as string[]) ?? []).map((c, i) => (
+          <li key={i} className="bg-bg-secondary border border-border rounded-md px-4 py-2.5 text-sm">{c}</li>
+        ))}
+      </ul>
+
       <SectionHeading>{t('examFormatPage.selfCheck.title')}</SectionHeading>
       <ul className="space-y-2">
         {checks.map((c, i) => (

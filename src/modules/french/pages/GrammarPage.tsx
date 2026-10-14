@@ -13,7 +13,7 @@ export function GrammarPage() {
     <div>
       <TopicHero
         title={t('nav.grammar')}
-        intro={lang === 'ru' ? 'Шесть ключевых правил французской грамматики.' : 'Six core French grammar rules.'}
+        intro={lang === 'ru' ? 'Девять ключевых правил французской грамматики.' : 'Nine core French grammar rules.'}
         icon={<Type size={28} />}
       />
       {GRAMMAR_RULES.map((rule) => (

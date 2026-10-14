@@ -54,6 +54,37 @@ export function ReadingPage() {
         <span className="uppercase tracking-wider text-text-muted mr-2">💡 {lang === 'ru' ? 'Подсказка' : 'Tip'}</span>
         {t('reading.PEEL.tip')}
       </p>
+
+      <SectionHeading>{t('reading.toneMood.title')}</SectionHeading>
+      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm mb-3" style={{ borderLeftColor: 'var(--color-accent-sky-deep)', borderLeftWidth: '3px' }}>
+        {t('reading.toneMood.body')}
+      </p>
+      <p className="text-xs bg-bg-tertiary/40 border border-border rounded-md px-3 py-2 mb-6">
+        <span className="uppercase tracking-wider text-text-muted mr-2">💡 {lang === 'ru' ? 'Подсказка' : 'Tip'}</span>
+        {t('reading.toneMood.tip')}
+      </p>
+
+      <SectionHeading>{t('reading.soliloquy.title')}</SectionHeading>
+      <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm mb-3" style={{ borderLeftColor: 'var(--color-accent-sky-deep)', borderLeftWidth: '3px' }}>
+        {t('reading.soliloquy.body')}
+      </p>
+      <p className="text-xs bg-bg-tertiary/40 border border-border rounded-md px-3 py-2 mb-6">
+        <span className="uppercase tracking-wider text-text-muted mr-2">💡 {lang === 'ru' ? 'Подсказка' : 'Tip'}</span>
+        {t('reading.soliloquy.tip')}
+      </p>
+
+      <SectionHeading>{t('reading.camera.title')}</SectionHeading>
+      <p className="text-sm mb-3">{t('reading.camera.intro')}</p>
+      <ul className="space-y-2">
+        {((t('reading.camera.items', { returnObjects: true }) as string[]) ?? []).map((item, i) => {
+          const [term, ...rest] = item.split(' — ');
+          return (
+            <li key={i} className="bg-bg-secondary border border-border rounded-md px-4 py-2.5 text-sm">
+              <strong>{term}</strong>{rest.length > 0 && ` — ${rest.join(' — ')}`}
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }

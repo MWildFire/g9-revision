@@ -625,6 +625,27 @@ export const GRAMMAR_RULES: GrammarRule[] = [
     "titleRu": "Определённые, неопределённые и частичные артикли",
     "body": "Definite le/la/l’/les identifies something known or a class in general: j’aime le chocolat. Indefinite un/une/des introduces an unspecified countable item or items: un chat, des chats. Partitive du/de la/de l’ expresses an unspecified amount: du pain, de l’eau. Des can also occur with plural non-count expressions. After many negatives, indefinite/partitive forms become de/d’: je n’ai pas de pain; after être they normally remain: ce n’est pas du pain.",
     "bodyRu": "Определённые le/la/l’/les обозначают известное или класс в целом: j’aime le chocolat. Неопределённые un/une/des вводят неопределённый исчисляемый предмет или предметы: un chat, des chats. Частичные du/de la/de l’ обозначают неопределённое количество: du pain, de l’eau. Des встречается и с некоторыми неисчисляемыми выражениями во множественном числе. После многих отрицаний формы заменяются на de/d’: je n’ai pas de pain; после être обычно сохраняются: ce n’est pas du pain."
+  },
+  {
+    "id": "comparison",
+    "titleEn": "Comparison: comparatives and superlatives",
+    "titleRu": "Сравнение: сравнительная и превосходная степени",
+    "body": "Comparative: plus + adjective + que (plus rapide que — faster than); moins + adjective + que (moins rapide que — less fast than); aussi + adjective + que (aussi rapide que — as fast as). Superlative: le, la or les + plus or moins + adjective, for example la plus rapide (the fastest). Name the group with de: le plus grand de la classe (the tallest in the class). Irregular: bon becomes meilleur (le meilleur — the best), and bien becomes mieux (il chante mieux — he sings better).",
+    "bodyRu": "Сравнительная степень строится так: plus + прилагательное + que — «…ее, чем» (plus rapide que — быстрее, чем). Moins + прилагательное + que — «меньше, чем» (moins rapide que — медленнее, чем). Aussi + прилагательное + que — «так же… как» (aussi rapide que — так же быстро, как). Превосходная степень: le, la или les + plus или moins + прилагательное, например la plus rapide (самая быстрая). Группу называем через de: le plus grand de la classe (самый высокий в классе). Исключения: bon → meilleur (le meilleur — лучший), bien → mieux (il chante mieux — он поёт лучше)."
+  },
+  {
+    "id": "connectors",
+    "titleEn": "Contrast and concession: cependant, même si",
+    "titleRu": "Противопоставление и уступка: cependant, même si",
+    "body": "Cependant (however) starts a contrast as a separate idea and takes a comma after it: Il pleut ; cependant, nous sortons (It is raining; however, we go out). Mais (but) joins two parts of one sentence: Il pleut, mais nous sortons. Même si (even if) introduces a condition that does not change the result. It takes the indicative, not the subjunctive: Même s’il pleut, nous sortons (Even if it rains, we go out).",
+    "bodyRu": "Cependant («однако») начинает противопоставление как отдельную мысль. После него ставится запятая: Il pleut ; cependant, nous sortons (Идёт дождь, однако мы выходим). Mais («но») соединяет две части одной фразы: Il pleut, mais nous sortons. Même si («даже если») вводит условие, которое не меняет результата. После même si ставится изъявительное наклонение (indicatif), а не сослагательное: Même s’il pleut, nous sortons (Даже если идёт дождь, мы выходим)."
+  },
+  {
+    "id": "conditions",
+    "titleEn": "Conditions with si",
+    "titleRu": "Условия с si",
+    "body": "Real condition: si + présent, then present or futur simple: Si tu travailles, tu réussiras (If you work, you will succeed). Unreal condition, about a situation that is not true now: si + imparfait, then conditionnel présent: Si j’avais du temps, je lirais (If I had time, I would read). The conditional never follows si in the si-clause: say si j’avais, not si j’aurais.",
+    "bodyRu": "Реальное условие: si + présent, в главной части présent или futur simple: Si tu travailles, tu réussiras (Если будешь работать, добьёшься). Нереальное условие — о ситуации, которой сейчас нет. Формула: si + imparfait, в главной части conditionnel présent. Пример: Si j’avais du temps, je lirais (Если бы у меня было время, я бы читал(а)). После si условное наклонение не ставят: говорим si j’avais, а не si j’aurais."
   }
 ];
 

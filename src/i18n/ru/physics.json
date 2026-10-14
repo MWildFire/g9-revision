@@ -1532,6 +1532,40 @@
           ]
         }
       },
+      "nonRenewableResources": {
+        "name": "Невозобновляемые ресурсы",
+        "rule": "Невозобновляемые ресурсы (non-renewable energy resources) — это источники энергии, которые природные процессы восполняют намного медленнее, чем мы их используем. Ископаемое топливо (уголь, нефть и природный газ) образовалось из остатков древних организмов за очень долгое время, поэтому его запас ограничен. Возобновляемые ресурсы — солнечный свет, ветер и проточная вода — постоянно возобновляются природными процессами.",
+        "examples": [
+          "Электростанция работает на угле из одной шахты. Каждый сожжённый кусок угля расходуется безвозвратно, поэтому запас шахты только уменьшается.",
+          "Уран ведёт себя так же: его руда в породе конечна и за человеческую жизнь не восполняется."
+        ],
+        "review": {
+          "englishTerm": "Non-renewable energy resource",
+          "russianTerm": "Невозобновляемый энергетический ресурс",
+          "contrast": {
+            "en": "Non-renewable does not mean 'no longer used': most of our energy still comes from non-renewable fossil fuels.",
+            "ru": "Невозобновляемый не значит «больше не используемый»: большая часть нашей энергии всё ещё приходится на невозобновляемое ископаемое топливо."
+          },
+          "model": {
+            "en": "The key is the rate of replacement, not the timescale: can natural processes replace this source as fast as we use it? If not, it is non-renewable.",
+            "ru": "Важна скорость восполнения, а не срок: успевают ли природные процессы восполнять этот источник так же быстро, как мы его используем? Если нет, ресурс невозобновляемый."
+          },
+          "sources": [
+            {
+              "title": "Morris, Physics for the IB MYP 4 & 5: By Concept (Hodder, 2015)",
+              "url": "https://isbnsearch.org/isbn/9781471839337",
+              "language": "en",
+              "section": "p. 339, 342, 345 (Energy for a global society: fossil fuels will run out; renewables will not run out; non-renewables)"
+            },
+            {
+              "title": "OpenStax · College Physics 2e (вторичный источник)",
+              "url": "https://openstax.org/books/college-physics-2e/pages/7-9-world-energy-use",
+              "language": "en",
+              "section": "7.9 World Energy Use: Renewable and Nonrenewable Energy Sources (examples: oil, natural gas, coal; water, wind, solar, biomass)"
+            }
+          ]
+        }
+      },
       "energyStores": {
         "name": "Запасы энергии (energy stores) и её передача",
         "rule": "Энергия — сохраняющаяся величина, с помощью которой описывают изменения системы. Рассматривают кинетическую, гравитационную, упругую, внутреннюю и химическую энергию. Работа, теплопередача и излучение описывают способы передачи энергии.",

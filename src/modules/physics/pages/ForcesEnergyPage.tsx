@@ -31,7 +31,7 @@ const TERMS = [
   'fluidPressure',
 ];
 
-const CONCEPTS = ['hookesLaw', 'work', 'energyStores', 'pressure', 'density', 'fluidPressure'];
+const CONCEPTS = ['hookesLaw', 'work', 'energyStores', 'nonRenewableResources', 'pressure', 'density', 'fluidPressure'];
 const FORMULAS = ['hooke', 'work', 'pressure', 'density', 'fluidPressure'];
 
 export function ForcesEnergyPage() {

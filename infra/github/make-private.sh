@@ -29,9 +29,17 @@ fi
 echo "3/3 repository is private"
 
 # The next push must still reach AWS from the private repository.
+# The new run is looked up by id: the previous (public) run must not be taken for it.
+BEFORE=$(gh run list --repo "$REPO" --workflow deploy.yml --branch main --limit 1 --json databaseId --jq '.[0].databaseId')
 gh workflow run deploy.yml --repo "$REPO" --ref main
-sleep 20
-RUN=$(gh run list --repo "$REPO" --workflow deploy.yml --limit 1 --json databaseId --jq '.[0].databaseId')
+RUN=""
+for _ in $(seq 1 24); do
+  sleep 5
+  RUN=$(gh run list --repo "$REPO" --workflow deploy.yml --branch main --limit 1 --json databaseId --jq '.[0].databaseId')
+  [ -n "$RUN" ] && [ "$RUN" != "$BEFORE" ] && break
+  RUN=""
+done
+[ -n "$RUN" ] || { echo "STOP: the new deploy run did not appear within 2 minutes"; exit 1; }
 gh run watch "$RUN" --repo "$REPO" --exit-status >/dev/null && echo "deploy from the private repository: OK" || { echo "STOP: deploy from the private repository failed — see: gh run view $RUN --repo $REPO --log-failed"; exit 1; }
 echo "old address $OLD_URL now answers $(curl -s -o /dev/null -w '%{http_code}' "$OLD_URL" || true) (404 is expected; it can take a few minutes)"
 echo "DONE"

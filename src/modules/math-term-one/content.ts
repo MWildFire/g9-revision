@@ -4,7 +4,7 @@ import { extendedLessons } from './extended';
 export const lessons = [...coreLessons, ...recapLessons, ...extendedLessons];
 export const questions = lessons.flatMap(lesson => lesson.questions.map((question, index) => ({ ...question, id: `${lesson.id}-${index + 1}`, lessonId: lesson.id, tier: lesson.tier })));
 export const glossary = lessons.flatMap(lesson => lesson.terms.map(term => ({ ...term, lessonId: lesson.id, tier: lesson.tier }))).sort((a, b) => a.term.localeCompare(b.term));
-export const tierLabels = { start: 'Start here', core: 'Assessment 1 · Standard', recap: 'Previous studies · recap', extended: 'Extended only · optional' };
+export const tierLabels = { start: 'Start here', core: 'Assessment 1 · Standard', recap: 'Previous studies · recap', extended: 'Extended only · if assigned by school' };
 export const commandTerms = [
   ['Calculate', 'Work out a numerical answer and show relevant working.', 'Calculate a distance: formula, substitution, evaluation and units.'],
   ['Describe', 'Give relevant features or a pattern in words.', 'Each term is three more than the previous term.'],

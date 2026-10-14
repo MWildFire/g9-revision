@@ -95,11 +95,11 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "criterion": "A",
     "en": {
       "question": "Express in standard form: 384 000",
-      "answer": "3.84 × 10^5"
+      "answer": "3.84 × 10⁵"
     },
     "ru": {
-      "question": "Запиши в стандартной форме: 384 000",
-      "answer": "3.84 × 10^5"
+      "question": "Запиши в стандартном виде: 384 000",
+      "answer": "3,84 × 10⁵"
     }
   },
   {
@@ -112,11 +112,11 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "criterion": "A",
     "en": {
       "question": "Express in standard form: 0.00057",
-      "answer": "5.7 × 10^(-4)"
+      "answer": "5.7 × 10⁻⁴"
     },
     "ru": {
-      "question": "Запиши в стандартной форме: 0.00057",
-      "answer": "5.7 × 10^(-4)"
+      "question": "Запиши в стандартном виде: 0,00057",
+      "answer": "5,7 × 10⁻⁴"
     }
   },
   {
@@ -132,8 +132,8 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "answer": "4.8"
     },
     "ru": {
-      "question": "Округли 4.7639 до 2 значащих цифр.",
-      "answer": "4.8"
+      "question": "Округли 4,7639 до 2 значащих цифр.",
+      "answer": "4,8"
     }
   },
   {
@@ -149,8 +149,8 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "answer": "42.45 cm ≤ L < 42.55 cm"
     },
     "ru": {
-      "question": "Длина указана как 42.5 см с точностью до 1 знака после запятой. Запиши верхнюю и нижнюю границы.",
-      "answer": "42.45 см ≤ L < 42.55 см"
+      "question": "Длина указана как 42,5 см с точностью до одного знака после запятой. Запиши верхнюю и нижнюю границы.",
+      "answer": "42,45 см ≤ L < 42,55 см"
     }
   },
   {
@@ -220,11 +220,11 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Переведи 2.5 м² в см².",
+      "question": "Переведи 2,5 м² в см².",
       "answer": "25 000 см²",
       "workingSteps": [
         "1 м² = 10 000 см²",
-        "2.5 × 10 000 = 25 000"
+        "2,5 × 10 000 = 25 000"
       ]
     }
   },
@@ -312,21 +312,21 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "D",
     "en": {
-      "question": "In a simplified model, take the Sun–Earth distance as 1.496×10⁸ km and light speed as 3.00×10⁵ km/s. Calculate travel time in minutes to 3 significant figures; neglect changes in distance.",
+      "question": "In a simplified model, take the Sun–Earth distance as 1.496 × 10⁸ km and the speed of light as 3.00 × 10⁵ km/s. Calculate the travel time in minutes to 3 significant figures; neglect changes in distance.",
       "answer": "≈ 8.31 minutes",
       "workingSteps": [
         "t = distance / speed",
-        "t = (1.496 × 10^8) / (3.00 × 10^5) s ≈ 498.67 s",
+        "t = (1.496 × 10⁸) / (3.00 × 10⁵) s ≈ 498.67 s",
         "498.67 / 60 ≈ 8.31 min"
       ]
     },
     "ru": {
-      "question": "В упрощённой модели примите расстояние Солнце–Земля равным 1.496×10⁸ км, скорость света 3.00×10⁵ км/с. Найдите время в минутах до 3 значащих цифр, пренебрегая изменением расстояния.",
-      "answer": "≈ 8.31 минут",
+      "question": "В упрощённой модели считай расстояние от Солнца до Земли равным 1,496 × 10⁸ км, а скорость света — 3,00 × 10⁵ км/с. Вычисли время в пути в минутах с точностью до 3 значащих цифр, пренебрегая изменением расстояния.",
+      "answer": "≈ 8,31 минуты",
       "workingSteps": [
         "t = расстояние / скорость",
-        "t = (1.496 × 10^8) / (3.00 × 10^5) с ≈ 498.67 с",
-        "498.67 / 60 ≈ 8.31 мин"
+        "t = (1,496 × 10⁸) / (3,00 × 10⁵) с ≈ 498,67 с",
+        "498,67 / 60 ≈ 8,31 мин"
       ]
     }
   },
@@ -339,23 +339,23 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "D",
     "en": {
-      "question": "A hypothetical population is reported as 1,400,000,000 rounded to the nearest 100,000,000 (positive ties upward). Find its bounds and the maximum rounding error as a percentage of the stated value.",
-      "answer": "1.35×10⁹ ≤ population < 1.45×10⁹; maximum absolute error 5×10⁷, or about 3.57% of the stated value.",
+      "question": "A hypothetical population is reported as 1 400 000 000, rounded to the nearest 100 000 000 (halfway values round up). Find its bounds and the maximum rounding error as a percentage of the stated value.",
+      "answer": "1.35 × 10⁹ ≤ population < 1.45 × 10⁹; maximum absolute error 5 × 10⁷, or about 3.57% of the stated value.",
       "workingSteps": [
         "Rounded to nearest 100 million → ±50 million",
-        "Lower: 1 400 000 000 − 50 000 000 = 1.35 × 10^9",
-        "Upper: 1 400 000 000 + 50 000 000 = 1.45 × 10^9",
+        "Lower bound: 1 400 000 000 − 50 000 000 = 1.35 × 10⁹",
+        "Upper bound: 1 400 000 000 + 50 000 000 = 1.45 × 10⁹",
         "% error = 50 000 000 / 1 400 000 000 × 100 ≈ 3.57%"
       ]
     },
     "ru": {
-      "question": "Условная численность населения 1 400 000 000 округлена до 100 000 000 (половинные значения вверх). Найдите границы и наибольшую ошибку округления в процентах от указанного значения.",
-      "answer": "1.35×10⁹ ≤ численность < 1.45×10⁹; наибольшая абсолютная ошибка 5×10⁷, или примерно 3.57% указанного значения.",
+      "question": "Условная численность населения указана как 1 400 000 000, округлённая до ближайшей сотни миллионов (если число ровно посередине, округляй вверх). Найди границы и наибольшую погрешность округления в процентах от указанного значения.",
+      "answer": "1,35 × 10⁹ ≤ численность < 1,45 × 10⁹; наибольшая абсолютная погрешность 5 × 10⁷, или примерно 3,57 % от указанного значения.",
       "workingSteps": [
         "Округлено до 100 миллионов → ±50 миллионов",
-        "Нижняя: 1 400 000 000 − 50 000 000 = 1.35 × 10^9",
-        "Верхняя: 1 400 000 000 + 50 000 000 = 1.45 × 10^9",
-        "% ошибки = 50 000 000 / 1 400 000 000 × 100 ≈ 3.57%"
+        "Нижняя граница: 1 400 000 000 − 50 000 000 = 1,35 × 10⁹",
+        "Верхняя граница: 1 400 000 000 + 50 000 000 = 1,45 × 10⁹",
+        "Погрешность в процентах = 50 000 000 / 1 400 000 000 × 100 ≈ 3,57 %"
       ]
     }
   },
@@ -368,12 +368,12 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "Simplify: (a^2 b^3)^4",
-      "answer": "a^8 b^12"
+      "question": "Simplify: (a²b³)⁴",
+      "answer": "a⁸b¹²"
     },
     "ru": {
-      "question": "Упрости: (a^2 b^3)^4",
-      "answer": "a^8 b^12"
+      "question": "Упрости: (a²b³)⁴",
+      "answer": "a⁸b¹²"
     }
   },
   {
@@ -415,7 +415,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     },
     "ru": {
       "question": "Перечисли, каким множествам принадлежит √2: ℕ, ℤ, ℚ, ℝ.",
-      "answer": "Только ℝ (√2 — иррациональное)"
+      "answer": "Только ℝ (√2 — иррациональное число)"
     }
   },
   {
@@ -427,16 +427,16 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "Compute: (3 × 10^4) × (2 × 10^(-2))",
-      "answer": "6 × 10^2 = 600",
+      "question": "Calculate: (3 × 10⁴) × (2 × 10⁻²)",
+      "answer": "6 × 10² = 600",
       "workingSteps": [
         "Multiply coefficients: 3 × 2 = 6",
         "Add exponents: 4 + (−2) = 2"
       ]
     },
     "ru": {
-      "question": "Вычисли: (3 × 10^4) × (2 × 10^(-2))",
-      "answer": "6 × 10^2 = 600",
+      "question": "Вычисли: (3 × 10⁴) × (2 × 10⁻²)",
+      "answer": "6 × 10² = 600",
       "workingSteps": [
         "Перемножь коэффициенты: 3 × 2 = 6",
         "Сложи степени: 4 + (−2) = 2"
@@ -512,7 +512,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Реши факторизацией: x² + 2x − 15 = 0",
+      "question": "Реши разложением на множители: x² + 2x − 15 = 0",
       "answer": "x = 3 или x = −5",
       "workingSteps": [
         "(x − 3)(x + 5) = 0",
@@ -540,13 +540,13 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Реши по формуле квадратного: 2x² + 3x − 2 = 0",
-      "answer": "x = 0.5 или x = −2",
+      "question": "Реши по формуле корней квадратного уравнения: 2x² + 3x − 2 = 0",
+      "answer": "x = 0,5 или x = −2",
       "workingSteps": [
         "a=2, b=3, c=−2",
-        "Δ = b² − 4ac = 9 + 16 = 25",
+        "D = b² − 4ac = 9 + 16 = 25",
         "x = (−3 ± 5) / 4",
-        "x = 0.5 или x = −2"
+        "x = 0,5 или x = −2"
       ]
     }
   },
@@ -564,7 +564,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "workingSteps": [
         "Take half of coefficient of x: 6/2 = 3",
         "(x + 3)² = x² + 6x + 9",
-        "Subtract extra: x² + 6x + 5 = (x + 3)² − 4"
+        "Write 5 as 9 − 4 (9 = 3²): x² + 6x + 5 = (x² + 6x + 9) − 4 = (x + 3)² − 4"
       ]
     },
     "ru": {
@@ -573,7 +573,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "workingSteps": [
         "Половина коэффициента при x: 6/2 = 3",
         "(x + 3)² = x² + 6x + 9",
-        "Вычти излишек: x² + 6x + 5 = (x + 3)² − 4"
+        "Представь 5 как 9 − 4 (9 = 3²): x² + 6x + 5 = (x² + 6x + 9) − 4 = (x + 3)² − 4"
       ]
     }
   },
@@ -621,7 +621,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Найди область определения функции f(x) = √(x − 2) над действительными числами.",
+      "question": "Найди область определения функции f(x) = √(x − 2).",
       "answer": "x ≥ 2 (т.е., [2, ∞))",
       "workingSteps": [
         "Под корнем должно быть ≥ 0",
@@ -680,7 +680,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "y прямо пропорциональна x. Когда x = 4, y = 20. Найди y при x = 7.",
+      "question": "Величина y прямо пропорциональна x. Когда x = 4, y = 20. Найди y при x = 7.",
       "answer": "y = 35",
       "workingSteps": [
         "y = kx → 20 = 4k → k = 5",
@@ -705,7 +705,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "y обратно пропорциональна x. Когда x = 6, y = 4. Найди y при x = 3.",
+      "question": "Величина y обратно пропорциональна x. Когда x = 6, y = 4. Найди y при x = 3.",
       "answer": "y = 8",
       "workingSteps": [
         "y = k/x → 4 = k/6 → k = 24",
@@ -819,20 +819,20 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "criterion": "D",
     "en": {
       "question": "A water jet from a fountain follows the path y = −0.4x² + 2.4x where x and y are in metres. Find the maximum height and the horizontal distance at which it lands.",
-      "answer": "Maximum height: 3.6 m at x = 3 m; Lands at x = 6 m.",
+      "answer": "Maximum height 3.6 m at x = 3 m; it lands at x = 6 m.",
       "workingSteps": [
-        "Vertex at x = −b/(2a) = −2.4/(−0.8) = 3",
+        "Vertex: x = −b/(2a) = −2.4/(−0.8) = 3",
         "y(3) = −0.4(9) + 2.4(3) = 3.6",
-        "Land: y = 0 → −0.4x(x − 6) = 0 → x = 0 or x = 6"
+        "Landing: y = 0 → −0.4x(x − 6) = 0 → x = 0 or x = 6"
       ]
     },
     "ru": {
-      "question": "Струя воды из фонтана движется по пути y = −0.4x² + 2.4x (x, y в метрах). Найди максимальную высоту и расстояние приземления.",
-      "answer": "Макс. высота: 3.6 м при x = 3 м; Приземляется при x = 6 м.",
+      "question": "Струя воды из фонтана описывается уравнением y = −0,4x² + 2,4x, где x и y измеряются в метрах. Найди максимальную высоту струи и горизонтальное расстояние до места, где она падает на землю.",
+      "answer": "Максимальная высота 3,6 м достигается при x = 3 м; струя падает на землю при x = 6 м.",
       "workingSteps": [
-        "Vertex при x = −b/(2a) = −2.4/(−0.8) = 3",
-        "y(3) = −0.4(9) + 2.4(3) = 3.6",
-        "Приземление: y = 0 → −0.4x(x − 6) = 0 → x = 0 или x = 6"
+        "Вершина параболы: x = −b/(2a) = −2,4/(−0,8) = 3",
+        "y(3) = −0,4(9) + 2,4(3) = 3,6",
+        "Падение на землю: y = 0 → −0,4x(x − 6) = 0 → x = 0 или x = 6"
       ]
     }
   },
@@ -845,7 +845,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "Find the n-th term of the linear sequence: 3, 7, 11, 15, ...",
+      "question": "Find the n-th term of the arithmetic sequence: 3, 7, 11, 15, ...",
       "answer": "u_n = 4n − 1",
       "workingSteps": [
         "Common difference d = 4",
@@ -854,10 +854,10 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Найди формулу n-го члена линейной последовательности: 3, 7, 11, 15, ...",
+      "question": "Найди формулу n-го члена арифметической прогрессии: 3, 7, 11, 15, ...",
       "answer": "u_n = 4n − 1",
       "workingSteps": [
-        "Разность d = 4",
+        "Разность прогрессии d = 4",
         "u_1 = 3 = 4(1) − 1",
         "u_n = 4n − 1"
       ]
@@ -872,11 +872,11 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "Find the n-th term of the linear sequence: 100, 95, 90, 85, ...",
+      "question": "Find the n-th term of the arithmetic sequence: 100, 95, 90, 85, ...",
       "answer": "u_n = 105 − 5n"
     },
     "ru": {
-      "question": "Найди формулу n-го члена линейной последовательности: 100, 95, 90, 85, ...",
+      "question": "Найди формулу n-го члена арифметической прогрессии: 100, 95, 90, 85, ...",
       "answer": "u_n = 105 − 5n"
     }
   },
@@ -898,10 +898,10 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Найди формулу n-го члена геометрической последовательности: 2, 6, 18, 54, ...",
+      "question": "Найди формулу n-го члена геометрической прогрессии: 2, 6, 18, 54, …",
       "answer": "u_n = 2 · 3^(n−1)",
       "workingSteps": [
-        "Отношение r = 3",
+        "Знаменатель прогрессии r = 3",
         "u_1 = 2",
         "u_n = a · r^(n−1) = 2 · 3^(n−1)"
       ]
@@ -916,12 +916,12 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "For uₙ=2·3^(n−1), n≥1, find u₈.",
-      "answer": "u_8 = 2 · 3^7 = 4374"
+      "question": "For uₙ = 2·3^(n−1), n ≥ 1, find u₈.",
+      "answer": "u₈ = 2 · 3⁷ = 4374"
     },
     "ru": {
-      "question": "Для uₙ=2·3^(n−1), n≥1, найдите u₈.",
-      "answer": "u_8 = 2 · 3^7 = 4374"
+      "question": "Дано: uₙ = 2·3^(n−1), n ≥ 1. Найди u₈.",
+      "answer": "u₈ = 2 · 3⁷ = 4374"
     }
   },
   {
@@ -937,7 +937,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "answer": "u_n = 2n − 1"
     },
     "ru": {
-      "question": "Паттерн: каждая фигура добавляет на 2 точки больше предыдущей. Фигура 1 — 1 точка, фигура 2 — 3, фигура 3 — 5. Найди формулу для фигуры n.",
+      "question": "Закономерность: каждая следующая фигура содержит на 2 точки больше предыдущей. Фигура 1 — 1 точка, фигура 2 — 3 точки, фигура 3 — 5 точек. Найди формулу для n-й фигуры.",
       "answer": "u_n = 2n − 1"
     }
   },
@@ -950,7 +950,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "The 5th term of a linear sequence is 17, the 10th is 37. Find the n-th term.",
+      "question": "The 5th term of an arithmetic sequence is 17, the 10th is 37. Find the n-th term.",
       "answer": "u_n = 4n − 3",
       "workingSteps": [
         "d = (37 − 17)/(10 − 5) = 4",
@@ -959,7 +959,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Пятый член линейной последовательности равен 17, десятый — 37. Найди n-й член.",
+      "question": "Пятый член арифметической прогрессии равен 17, десятый — 37. Найди формулу n-го члена.",
       "answer": "u_n = 4n − 3",
       "workingSteps": [
         "d = (37 − 17)/(10 − 5) = 4",
@@ -1029,12 +1029,12 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "B",
     "en": {
-      "question": "A cross has a central unit square and four arms. At stage n each arm has n squares beyond the centre. Stages 1,2,3 use 5,9,13 squares. (a) Find and justify uₙ. (b) Which stage uses 41 squares?",
-      "answer": "(a) uₙ=1+4n: one centre plus n squares on each of four arms. (b) n=10."
+      "question": "A cross has a central unit square and four arms. At stage n each arm has n squares beyond the centre. Stages 1, 2 and 3 use 5, 9 and 13 squares. (a) Find and justify uₙ. (b) Which stage uses 41 squares?",
+      "answer": "(a) uₙ = 1 + 4n: one centre plus n squares on each of four arms. (b) n=10."
     },
     "ru": {
-      "question": "Крест состоит из центрального квадрата и четырёх лучей. На этапе n в каждом луче n квадратов, кроме центра. Этапы 1,2,3 используют 5,9,13 квадратов. (а) Найдите и обоснуйте uₙ. (б) Какой этап содержит 41 квадрат?",
-      "answer": "(а) uₙ=1+4n: один центральный квадрат и по n квадратов в четырёх лучах. (б) n=10."
+      "question": "Крест состоит из центрального единичного квадрата и четырёх лучей. На этапе n в каждом луче n квадратов, не считая центрального. Этапы 1, 2 и 3 используют 5, 9 и 13 квадратов. (а) Найди формулу для uₙ и обоснуй её. (б) Какой этап использует 41 квадрат?",
+      "answer": "(а) uₙ = 1 + 4n: один центральный квадрат и по n квадратов в четырёх лучах. (б) n=10."
     }
   },
   {
@@ -1051,17 +1051,17 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "workingSteps": [
         "u_3 = u_1 · r² = 12",
         "u_5 = u_1 · r⁴ = 48",
-        "Divide: r² = 4 → r = 2",
+        "Divide u_5 by u_3: r² = 48 / 12 = 4 → r = 2",
         "u_1 = 12 / 4 = 3"
       ]
     },
     "ru": {
-      "question": "Третий член геометрической последовательности — 12, пятый — 48. Найди u_1 и r (положительный).",
+      "question": "Третий член геометрической прогрессии — 12, пятый — 48. Найди u_1 и знаменатель r, если он положительный.",
       "answer": "u_1 = 3; r = 2",
       "workingSteps": [
         "u_3 = u_1 · r² = 12",
         "u_5 = u_1 · r⁴ = 48",
-        "Раздели: r² = 4 → r = 2",
+        "Раздели u_5 на u_3: r² = 48 / 12 = 4 → r = 2",
         "u_1 = 12 / 4 = 3"
       ]
     }
@@ -1136,8 +1136,8 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "question": "В прямоугольном треугольнике противолежащий катет 4, гипотенуза 8. Найди угол θ.",
       "answer": "θ = 30°",
       "workingSteps": [
-        "sin θ = opp/hyp = 4/8 = 0.5",
-        "θ = arcsin(0.5) = 30°"
+        "sin θ = opp/hyp = 4/8 = 0,5",
+        "θ = arcsin(0,5) = 30°"
       ]
     }
   },
@@ -1150,7 +1150,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "Find x: tan(40°) = x / 12, give x to 1 dp.",
+      "question": "Find x: tan(40°) = x / 12. Give x correct to 1 decimal place.",
       "answer": "x ≈ 10.1",
       "workingSteps": [
         "x = 12 · tan(40°) ≈ 12 · 0.8391",
@@ -1158,11 +1158,11 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Найди x: tan(40°) = x / 12, x с точностью до 1 знака.",
-      "answer": "x ≈ 10.1",
+      "question": "Найди x: tg 40° = x / 12. Ответ дай с точностью до одного знака после запятой.",
+      "answer": "x ≈ 10,1",
       "workingSteps": [
-        "x = 12 · tan(40°) ≈ 12 · 0.8391",
-        "x ≈ 10.07 → 10.1"
+        "x = 12 · tg 40° ≈ 12 · 0,8391",
+        "x ≈ 10,07 → 10,1"
       ]
     }
   },
@@ -1175,7 +1175,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "Find the area of a sector with radius 6 cm and angle 60°. Leave the answer in terms of π.",
+      "question": "Find the area of a sector with radius 6 cm and angle 60°. Give your answer in terms of π.",
       "answer": "6π cm²",
       "workingSteps": [
         "A = (θ/360) · πr²",
@@ -1183,7 +1183,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Найди площадь сектора с радиусом 6 см и углом 60°. Ответ в π.",
+      "question": "Найди площадь сектора с радиусом 6 см и углом 60°. Ответ дай через π.",
       "answer": "6π см²",
       "workingSteps": [
         "A = (θ/360) · πr²",
@@ -1200,7 +1200,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "Find the arc length of a sector with radius 5 cm and angle 72°. To 3 sf.",
+      "question": "Find the arc length of a sector with radius 5 cm and angle 72°. Give your answer correct to 3 significant figures.",
       "answer": "6.28 cm (2π cm)",
       "workingSteps": [
         "s = (θ/360) · 2πr",
@@ -1208,11 +1208,11 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "Найди длину дуги сектора с радиусом 5 см и углом 72°. До 3 знач. цифр.",
-      "answer": "6.28 см (2π см)",
+      "question": "Найди длину дуги сектора с радиусом 5 см и углом 72°. Ответ дай с точностью до трёх значащих цифр.",
+      "answer": "6,28 см (2π см)",
       "workingSteps": [
         "s = (θ/360) · 2πr",
-        "= (72/360) · 2π · 5 = 0.2 · 10π = 2π ≈ 6.283"
+        "= (72/360) · 2π · 5 = 0,2 · 10π = 2π ≈ 6,283"
       ]
     }
   },
@@ -1229,8 +1229,8 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "answer": "90° (angle in a semicircle)"
     },
     "ru": {
-      "question": "AB — диаметр окружности; C лежит на окружности и отличается от A и B. Найдите ∠ACB.",
-      "answer": "90° (угол в полукруге)"
+      "question": "AB — диаметр окружности; C лежит на окружности и не совпадает с A и B. Найди ∠ACB.",
+      "answer": "90° (угол в полуокружности)"
     }
   },
   {
@@ -1245,7 +1245,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "question": "Two chords AB and CD intersect at P inside a circle. AP = 6, PB = 4, CP = 8. Find PD.",
       "answer": "PD = 3",
       "workingSteps": [
-        "Intersecting chord theorem: AP · PB = CP · PD",
+        "Intersecting chords theorem: AP · PB = CP · PD",
         "6 · 4 = 8 · PD",
         "PD = 24/8 = 3"
       ]
@@ -1254,7 +1254,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "question": "Две хорды AB и CD пересекаются в P внутри окружности. AP = 6, PB = 4, CP = 8. Найди PD.",
       "answer": "PD = 3",
       "workingSteps": [
-        "Теорема о хордах: AP · PB = CP · PD",
+        "Теорема о пересекающихся хордах: AP · PB = CP · PD",
         "6 · 4 = 8 · PD",
         "PD = 24/8 = 3"
       ]
@@ -1371,14 +1371,14 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "answer": "Median = 5",
       "workingSteps": [
         "Sort: 1, 2, 4, 5, 7, 8, 9",
-        "Middle value: 5"
+        "Middle value: 5. This is the median, not the mean."
       ]
     },
     "ru": {
       "question": "Найди медиану: 4, 7, 2, 9, 5, 1, 8",
       "answer": "Медиана = 5",
       "workingSteps": [
-        "Упорядочим: 1, 2, 4, 5, 7, 8, 9",
+        "Упорядочи: 1, 2, 4, 5, 7, 8, 9",
         "Центральный член ряда: 5. Это медиана, а не среднее арифметическое."
       ]
     }
@@ -1392,21 +1392,21 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "Find the IQR of 2,5,7,8,10,11,14,17,20 using medians of the two halves and excluding the overall median.",
+      "question": "Find the IQR of 2, 5, 7, 8, 10, 11, 14, 17, 20 using medians of the two halves and excluding the overall median.",
       "answer": "IQR=9.5",
       "workingSteps": [
-        "The overall median is 10; exclude it from both halves.",
+        "The overall median is 10. Leave it out and split the rest into two halves: 2, 5, 7, 8 and 11, 14, 17, 20.",
         "Q1=(5+7)/2=6; Q3=(14+17)/2=15.5.",
         "IQR=15.5−6=9.5."
       ]
     },
     "ru": {
-      "question": "Найдите IQR для 2,5,7,8,10,11,14,17,20: используйте медианы половин, исключив общую медиану.",
-      "answer": "IQR=9.5",
+      "question": "Найди межквартильный размах (IQR) для 2, 5, 7, 8, 10, 11, 14, 17, 20: возьми медианы двух половин и исключи общую медиану.",
+      "answer": "IQR=9,5",
       "workingSteps": [
-        "Общая медиана 10; исключаем её из обеих половин.",
-        "Q1=(5+7)/2=6; Q3=(14+17)/2=15.5.",
-        "IQR=15.5−6=9.5."
+        "Общая медиана — 10. Её не учитываем, остальные числа делим на две половины: 2, 5, 7, 8 и 11, 14, 17, 20.",
+        "Q1=(5+7)/2=6; Q3=(14+17)/2=15,5.",
+        "IQR=15,5−6=9,5."
       ]
     }
   },
@@ -1419,21 +1419,21 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "A dataset has quartiles Q1=12 and Q3=19. Which of the candidate values 5 and 35 lies beyond its 1.5·IQR fences?",
+      "question": "A dataset has quartiles Q1 = 12 and Q3 = 19. Determine which of the candidate values 5 and 35 lies beyond its 1.5·IQR fences.",
       "answer": "35 is an outlier (above 29.5 = Q3 + 1.5·IQR)",
       "workingSteps": [
         "IQR=19−12=7.",
-        "Fences: 12−10.5=1.5 and 19+10.5=29.5.",
-        "5 is inside; 35>29.5 is a potential outlier."
+        "Fences: 12 − 10.5 = 1.5 and 19 + 10.5 = 29.5.",
+        "5 is inside the fences; 35 > 29.5, so 35 is an outlier."
       ]
     },
     "ru": {
-      "question": "У набора данных Q1=12 и Q3=19. Какое из проверяемых значений 5 и 35 лежит за границами 1.5·IQR?",
-      "answer": "35 — выброс (выше 29.5 = Q3 + 1.5·IQR)",
+      "question": "Для набора данных известно: Q1 = 12, Q3 = 19. Определи, какое из значений 5 и 35 лежит за границами 1,5·IQR.",
+      "answer": "35 — выброс (больше 29,5 = Q3 + 1,5·IQR)",
       "workingSteps": [
         "IQR=19−12=7.",
-        "Границы: 12−10.5=1.5 и 19+10.5=29.5.",
-        "5 внутри; 35>29.5 — возможный выброс."
+        "Границы: 12 − 10,5 = 1,5 и 19 + 10,5 = 29,5.",
+        "5 внутри границ; 35 > 29,5, значит, 35 — выброс."
       ]
     }
   },
@@ -1446,11 +1446,11 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "A cumulative frequency curve shows that the 50th percentile is 24 and the 25th percentile is 18. Find the median and Q1.",
+      "question": "A cumulative frequency curve shows that the 50th percentile is 24 and the 25th percentile is 18. Find the median and the lower quartile (Q1).",
       "answer": "Median = 24; Q1 = 18."
     },
     "ru": {
-      "question": "Кумулятивная частота: 50-й процентиль = 24, 25-й = 18. Найди медиану и Q1.",
+      "question": "По графику накопленных частот 50-й перцентиль равен 24, а 25-й перцентиль — 18. Найди медиану и нижний квартиль (Q1).",
       "answer": "Медиана = 24; Q1 = 18."
     }
   },
@@ -1466,16 +1466,16 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "question": "P(A) = 0.4, P(B) = 0.5, and A and B are independent. Find P(A ∩ B) and P(A ∪ B).",
       "answer": "P(A ∩ B) = 0.2; P(A ∪ B) = 0.7",
       "workingSteps": [
-        "Independent: P(A ∩ B) = P(A) · P(B) = 0.4 · 0.5 = 0.2",
+        "Independent events: P(A ∩ B) = P(A) · P(B) = 0.4 · 0.5 = 0.2",
         "P(A ∪ B) = P(A) + P(B) − P(A ∩ B) = 0.4 + 0.5 − 0.2 = 0.7"
       ]
     },
     "ru": {
-      "question": "P(A) = 0.4, P(B) = 0.5, A и B независимы. Найди P(A ∩ B) и P(A ∪ B).",
-      "answer": "P(A ∩ B) = 0.2; P(A ∪ B) = 0.7",
+      "question": "P(A) = 0,4, P(B) = 0,5, A и B независимы. Найди P(A ∩ B) и P(A ∪ B).",
+      "answer": "P(A ∩ B) = 0,2; P(A ∪ B) = 0,7",
       "workingSteps": [
-        "Независимые: P(A ∩ B) = P(A) · P(B) = 0.4 · 0.5 = 0.2",
-        "P(A ∪ B) = P(A) + P(B) − P(A ∩ B) = 0.7"
+        "Независимые события: P(A ∩ B) = P(A) · P(B) = 0,4 · 0,5 = 0,2",
+        "P(A ∪ B) = P(A) + P(B) − P(A ∩ B) = 0,4 + 0,5 − 0,2 = 0,7"
       ]
     }
   },
@@ -1488,7 +1488,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "difficulty": "standard",
     "criterion": "A",
     "en": {
-      "question": "A bag contains 4 red and 6 blue balls. Two are drawn without replacement. Find P(both red). Each remaining ball is equally likely on each draw.",
+      "question": "A bag contains 4 red and 6 blue balls. Two are drawn without replacement. Find P(both red). Each ball still in the bag is equally likely to be drawn each time.",
       "answer": "2/15",
       "workingSteps": [
         "P(1st red) = 4/10",
@@ -1497,7 +1497,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "В мешке 4 красных и 6 синих шаров. Достали два без возврата. Найди P(оба красных). При каждом извлечении все оставшиеся шары равновероятны.",
+      "question": "В мешке 4 красных и 6 синих шаров. Два шара вынимают без возвращения. Найди P(оба красных). При каждом извлечении все оставшиеся шары равновероятны.",
       "answer": "2/15",
       "workingSteps": [
         "P(1-й красный) = 4/10",
@@ -1522,7 +1522,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       ]
     },
     "ru": {
-      "question": "У гистограммы ширина классов 5 и плотности частот 2, 3, 1.4, 0.6. Найди общую частоту.",
+      "question": "У гистограммы ширина каждого класса равна 5, а плотности частоты — 2; 3; 1,4 и 0,6. Найди общую частоту.",
       "answer": "35",
       "workingSteps": [
         "Частота = ширина × плотность: 10, 15, 7, 3. Всего 35 наблюдений."
@@ -1566,22 +1566,22 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "criterion": "D",
     "en": {
       "question": "Battery life for 50 phones has cumulative frequencies: at 10 h: 5; 15 h: 20; 20 h: 40; 25 h: 48; 30 h: 50. Use straight-line interpolation to estimate median and IQR.",
-      "answer": "Median≈16.25 h; IQR≈6.875 h.",
+      "answer": "Median ≈ 16.25 h; IQR ≈ 6.875 h.",
       "workingSteps": [
-        "Median target=25: 15+(25−20)/(40−20)·5=16.25 h.",
-        "Q1 target=12.5: 10+(12.5−5)/(20−5)·5=12.5 h.",
-        "Q3 target=37.5: 15+(37.5−20)/(40−20)·5=19.375 h.",
-        "IQR≈19.375−12.5=6.875 h; estimates assume uniform spread in each interval."
+        "Median: cumulative frequency 25 (half of 50): 15 + (25 − 20)/(40 − 20) · 5 = 16.25 h.",
+        "Q1: cumulative frequency 12.5 (a quarter of 50): 10 + (12.5 − 5)/(20 − 5) · 5 = 12.5 h.",
+        "Q3: cumulative frequency 37.5 (three quarters of 50): 15 + (37.5 − 20)/(40 − 20) · 5 = 19.375 h.",
+        "IQR ≈ 19.375 − 12.5 = 6.875 h. These are estimates: they assume values are spread evenly within each interval."
       ]
     },
     "ru": {
-      "question": "Накопленные частоты времени работы 50 телефонов: при 10 ч: 5; 15 ч: 20; 20 ч: 40; 25 ч: 48; 30 ч: 50. Линейной интерполяцией оцените медиану и IQR.",
-      "answer": "Медиана≈16.25 ч; IQR≈6.875 ч.",
+      "question": "Для 50 телефонов известны накопленные частоты времени работы от батареи. При 10 ч накопленная частота равна 5, при 15 ч — 20, при 20 ч — 40, при 25 ч — 48, при 30 ч — 50. Линейной интерполяцией оцени медиану и межквартильный размах (IQR).",
+      "answer": "Медиана ≈ 16,25 ч; IQR ≈ 6,875 ч.",
       "workingSteps": [
-        "Уровень медианы=25: 15+(25−20)/(40−20)·5=16.25 ч.",
-        "Уровень Q1=12.5: 10+(12.5−5)/(20−5)·5=12.5 ч.",
-        "Уровень Q3=37.5: 15+(37.5−20)/(40−20)·5=19.375 ч.",
-        "IQR≈19.375−12.5=6.875 ч; предполагается равномерность внутри интервалов."
+        "Медиана: накопленная частота 25 (половина от 50): 15 + (25 − 20)/(40 − 20) · 5 = 16,25 ч.",
+        "Q1: накопленная частота 12,5 (четверть от 50): 10 + (12,5 − 5)/(20 − 5) · 5 = 12,5 ч.",
+        "Q3: накопленная частота 37,5 (три четверти от 50): 15 + (37,5 − 20)/(40 − 20) · 5 = 19,375 ч.",
+        "IQR ≈ 19,375 − 12,5 = 6,875 ч. Это оценки: они предполагают, что значения внутри каждого интервала распределены равномерно."
       ]
     }
   },

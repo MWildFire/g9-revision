@@ -62,9 +62,9 @@ test('corrected practice roots satisfy the original rational equation; statistic
   assert.equal(ALL_MATH_PROBLEMS.length,68);
   for (const lang of ['en','ru']) {
     assert.match(get('m-fa-ext-3')[lang].answer,/3±√17/);
-    assert.match(get('m-sp-2')[lang].answer,/9\.5/);
-    assert.match(get('m-sp-ric-1')[lang].answer,/16\.25/);
-    assert.match(get('m-sp-ric-1')[lang].answer,/6\.875/);
+    assert.match(get('m-sp-2')[lang].answer,/9[.,]5/);
+    assert.match(get('m-sp-ric-1')[lang].answer,/16[.,]25/);
+    assert.match(get('m-sp-ric-1')[lang].answer,/6[.,]875/);
     assert.match(get('m-fa-ext-1')[lang].answer,/−3/);
   }
 });

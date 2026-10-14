@@ -796,15 +796,15 @@ export const questions: Question[] = [
     ),
     b(
       "Gamma can penetrate body tissue to reach an external detector.",
-      "Гамма проходит ткани до внешнего детектора.",
+      "Гамма-излучение проходит через ткани тела и достигает внешнего детектора.",
     ),
     b(
-      "The radiation reveals the tracer distribution/process without needing to remove tissue.",
-      "Излучение позволяет отслеживать распределение/процесс без извлечения ткани.",
+      "The radiation shows where the tracer goes and what process it follows, without removing tissue.",
+      "Излучение показывает, куда движется индикатор и какой процесс он отслеживает, не извлекая ткань.",
     ),
     b(
-      "Half-life and chemistry still must be suitable; penetration alone is insufficient.",
-      "Период и химия тоже должны подходить: одного проникновения мало.",
+      "Decay rate and chemistry still must be suitable; penetration alone is insufficient.",
+      "Скорость распада и химические свойства тоже должны подходить: одного проникновения недостаточно.",
     ),
   ),
   q(
@@ -813,12 +813,12 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "A paper gauge uses beta radiation. The corrected count rises above its set value. Explain the likely thickness change and why alpha is a poor replacement.",
-      "Датчик бумаги использует бета-излучение. Чистый счёт стал выше заданного. Объясни вероятное изменение толщины и почему альфа — плохая замена.",
+      "A paper gauge uses beta radiation. The corrected count (after background subtraction) rises above the target value. Explain the likely thickness change and why alpha is a poor replacement.",
+      "Датчик толщины бумаги использует бета-излучение. Скорректированный счёт (за вычетом фона) стал выше заданного значения. Объясни вероятное изменение толщины и почему альфа — плохая замена.",
     ),
     b(
-      "More reaching the detector means less absorbed.",
-      "Больше дошло до детектора — меньше поглотилось.",
+      "More radiation reaching the detector means less was absorbed.",
+      "Больше излучения дошло до детектора — значит, меньше его поглотилось.",
     ),
     b(
       "The paper is likely thinner, so fewer beta particles are absorbed.",
@@ -826,11 +826,11 @@ export const questions: Question[] = [
     ),
     b(
       "This assumes fixed source, geometry and composition.",
-      "Предполагаются постоянные источник, геометрия и состав.",
+      "Предполагается, что источник, геометрия и состав не меняются.",
     ),
     b(
       "Alpha may be stopped completely even by thin paper, giving no useful thickness-dependent transmitted signal.",
-      "Альфа может полностью задерживаться даже тонкой бумагой, без полезного прошедшего сигнала для измерения толщины.",
+      "Альфа может полностью задерживаться даже тонкой бумагой, поэтому полезного сигнала, зависящего от толщины, не будет.",
     ),
   ),
   q(
@@ -839,18 +839,18 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "A fictional imaging tracer starts at 480 MBq, with T½ = 6 h. Find activity after 12 h. State one reason it should not have a 10 s half-life for a two-hour procedure.",
-      "Учебный индикатор начинает с 480 МБк, T½ = 6 ч. Найди активность через 12 ч. Почему период 10 с не подходит двухчасовой процедуре?",
+      "A hypothetical imaging tracer starts at 480 MBq, with T½ = 6 h. Find the activity after 12 h. State one reason it should not have a 10 s half-life for a two-hour procedure.",
+      "Условный индикатор для визуализации имеет начальную активность 480 МБк; период полураспада T½ = 6 ч. Найди активность через 12 ч. Назови одну причину, почему для двухчасовой процедуры не подходит период полураспада 10 с.",
     ),
     b(
       "M means million, but the same unit may be kept throughout.",
       "М означает миллион, но единицу можно сохранить в расчёте.",
     ),
-    b("Two half-lives elapse.", "Проходит два периода."),
-    b("480 / 4 = 120 MBq.", "480 / 4 = 120 МБк."),
+    b("12 h / 6 h = 2 half-lives elapse.", "12 ч / 6 ч = 2 периода полураспада."),
+    b("480 / 2² = 480 / 4 = 120 MBq.", "480 / 2² = 480 / 4 = 120 МБк."),
     b(
       "With 10 s half-life the useful activity would disappear far too quickly during preparation and imaging.",
-      "При периоде 10 с полезная активность слишком быстро исчезла бы во время подготовки и исследования.",
+      "При периоде полураспада 10 с полезная активность слишком быстро исчезла бы во время подготовки и исследования.",
     ),
   ),
   q(
@@ -863,20 +863,20 @@ export const questions: Question[] = [
       "Поставщик утверждает, что гамма-стерилизация навсегда делает каждый шприц радиоактивным. Оцени и объясни настоящий механизм.",
     ),
     b(
-      "Distinguish energy exposure from transfer of radioactive atoms.",
-      "Различай воздействие энергии и перенос радиоактивных атомов.",
+      "Distinguish irradiation by energy from transfer of radioactive atoms.",
+      "Различай облучение (действие излучения) и попадание радиоактивных атомов в предмет.",
     ),
     b(
       "Gamma photons penetrate packaging and damage microorganisms by ionisation.",
-      "Гамма-фотоны проходят упаковку и повреждают микроорганизмы ионизацией.",
+      "Гамма-кванты проходят через упаковку и повреждают микроорганизмы ионизацией.",
     ),
     b(
       "Radioactive material need not be added to the syringe; this is irradiation, not contamination.",
       "Радиоактивное вещество не нужно добавлять в шприц: это облучение, не загрязнение.",
     ),
     b(
-      "Ordinary sterilisation does not imply permanent induced radioactivity; the claim is unsupported.",
-      "Обычная стерилизация не означает постоянную наведённую радиоактивность; утверждение не обосновано.",
+      "Gamma irradiation at sterilisation energies does not make the object radioactive; the claim is unsupported.",
+      "Гамма-облучение при энергиях, используемых для стерилизации, не делает предмет радиоактивным; утверждение не обосновано.",
     ),
   ),
   q(

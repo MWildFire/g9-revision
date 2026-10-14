@@ -403,8 +403,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "englishTerm": "attenuation",
     "russianTerm": "ослабление излучения",
     "contrast": {
-      "en": "Attenuation is a change during passage through matter; radioactive decay is a change in the source nuclei over time.",
-      "ru": "Ослабление происходит при прохождении вещества; радиоактивный распад — изменение ядер источника со временем."
+      "en": "Attenuation is the weakening of radiation as it passes through matter; radioactive decay is the change in the source’s nuclei over time.",
+      "ru": "Ослабление — уменьшение интенсивности излучения при прохождении через вещество; радиоактивный распад — превращение ядер источника со временем."
     },
     "model": {
       "en": "A thicker shield usually reduces transmission but does not imply a sharp universal thickness that stops every photon.",
@@ -1036,8 +1036,8 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "englishTerm": "attenuation",
     "russianTerm": "ослабление излучения",
     "contrast": {
-      "en": "Attenuation is a change during passage through matter; radioactive decay is a change in the source nuclei over time.",
-      "ru": "Ослабление происходит при прохождении вещества; радиоактивный распад — изменение ядер источника со временем."
+      "en": "Attenuation is the weakening of radiation as it passes through matter; radioactive decay is the change in the source’s nuclei over time.",
+      "ru": "Ослабление — уменьшение интенсивности излучения при прохождении через вещество; радиоактивный распад — превращение ядер источника со временем."
     },
     "model": {
       "en": "A thicker shield usually reduces transmission but does not imply a sharp universal thickness that stops every photon.",

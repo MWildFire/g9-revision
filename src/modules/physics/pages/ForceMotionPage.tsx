@@ -79,7 +79,7 @@ export function ForceMotionPage() {
       <FormulaCheatsheet ns="physics" topicKey="forceMotion" ids={FORMULAS} />
 
       <SectionHeading>{t('common.practice')}</SectionHeading>
-      <PracticeQuestions questions={FORCE_MOTION_QUESTIONS} />
+      <div className="[&>div>p:first-child]:hidden"><PracticeQuestions questions={FORCE_MOTION_QUESTIONS} /></div>
     </div>
   );
 }

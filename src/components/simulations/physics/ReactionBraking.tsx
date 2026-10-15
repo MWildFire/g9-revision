@@ -1,9 +1,10 @@
+import { forceDisplay } from './VectorAddition';
 import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Slider } from '../../ui/Slider';
 import { Tabs, SimulationPanel } from '../../ui/Tabs';
-import { brakingDistance, reactionDistance, format } from '../../../lib/physics';
+import { brakingDistance, reactionDistance } from '../../../lib/physics';
 
 const FRICTION = {
   dry: 0.7,
@@ -17,7 +18,8 @@ const ROAD_RIGHT = 400;
 const ROAD_WIDTH = ROAD_RIGHT - ROAD_LEFT;
 
 export function ReactionBraking() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const { ru, u: unit, n } = forceDisplay(i18n.language);
   const [speedKmh, setSpeedKmh] = useState(60);
   const [reactionTime, setReactionTime] = useState(1.0);
   const [road, setRoad] = useState<keyof typeof FRICTION>('dry');
@@ -54,12 +56,12 @@ export function ReactionBraking() {
             {/* labels */}
             {rdPx > 30 && (
               <text x={ROAD_LEFT + rdPx / 2} y="120" textAnchor="middle" fontSize="10" fontFamily="JetBrains Mono" fill="#6b5b47">
-                {rd.toFixed(1)} m
+                {n(rd, 1)} {unit('m')}
               </text>
             )}
             {bdPx > 30 && (
               <text x={ROAD_LEFT + rdPx + bdPx / 2} y="120" textAnchor="middle" fontSize="10" fontFamily="JetBrains Mono" fill="#6b5b47">
-                {bd.toFixed(1)} m
+                {n(bd, 1)} {unit('m')}
               </text>
             )}
 
@@ -70,7 +72,7 @@ export function ReactionBraking() {
             {/* stop marker */}
             <line x1={ROAD_LEFT + totalPx} y1="115" x2={ROAD_LEFT + totalPx} y2="175" stroke="#3d2f1f" strokeWidth="2" />
             <text x={ROAD_LEFT + totalPx} y="185" fontSize="9" textAnchor="middle" fill="#6b5b47">
-              {total.toFixed(1)} m
+              {n(total, 1)} {unit('m')}
             </text>
 
             {/* car */}
@@ -83,19 +85,19 @@ export function ReactionBraking() {
           </svg>
 
           <div className="text-xs text-text-muted text-center">
-            Scale: 1 m ≈ {scale.toFixed(2)} px
+            {ru ? 'Масштаб' : 'Scale'}: 1 {unit('m')} ≈ {n(scale, 2)} {ru ? 'пикс.' : 'px'}
           </div>
 
           <div className="grid grid-cols-3 gap-2 text-sm">
-            <Stat label={t('forceMotion.sim4.reactionDistance')} value={`${format(rd, 1)} m`} dot="#c9a876" />
-            <Stat label={t('forceMotion.sim4.brakingDistance')} value={`${format(bd, 1)} m`} dot="#c99a8e" />
-            <Stat label={t('forceMotion.sim4.stoppingDistance')} value={`${format(total, 1)} m`} dot="#3d2f1f" />
+            <Stat label={t('forceMotion.sim4.reactionDistance')} value={`${n(rd, 1)} ${unit('m')}`} dot="#c9a876" />
+            <Stat label={t('forceMotion.sim4.brakingDistance')} value={`${n(bd, 1)} ${unit('m')}`} dot="#c99a8e" />
+            <Stat label={t('forceMotion.sim4.stoppingDistance')} value={`${n(total, 1)} ${unit('m')}`} dot="#3d2f1f" />
           </div>
         </div>
 
         <div className="space-y-4">
-          <Slider label={t('forceMotion.sim4.speed')} unit="km/h" min={10} max={120} step={5} value={speedKmh} onChange={setSpeedKmh} />
-          <Slider label={t('forceMotion.sim4.reactionTime')} unit="s" min={0.3} max={2.5} step={0.1} value={reactionTime} onChange={setReactionTime} />
+          <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim4.speed')} unit={unit('km/h')} min={10} max={120} step={5} value={speedKmh} onChange={setSpeedKmh} />
+          <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim4.reactionTime')} unit={unit('s')} min={0.3} max={2.5} step={0.1} value={reactionTime} onChange={setReactionTime} />
           <div>
             <p className="text-sm font-medium text-text-secondary mb-2">{t('forceMotion.sim4.road')}</p>
             <Tabs
@@ -109,8 +111,8 @@ export function ReactionBraking() {
             />
           </div>
           <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2 text-xs space-y-0.5">
-            <div className="text-text-muted">μ (friction): {FRICTION[road].toFixed(1)}</div>
-            <div className="text-text-muted">v = {speedMs.toFixed(2)} m/s</div>
+            <div className="text-text-muted">μ ({ru ? 'коэффициент трения' : 'coefficient of friction'}): {n(FRICTION[road], 1)}</div>
+            <div className="text-text-muted">v = {n(speedMs, 2)} {unit('m/s')}</div>
           </div>
         </div>
       </div>

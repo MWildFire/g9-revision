@@ -1,4 +1,4 @@
-import {FormulaTeaching} from '../../content/FormulaTeaching';
+import { forceDisplay } from './VectorAddition';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip, ReferenceLine } from 'recharts';
@@ -6,7 +6,7 @@ import { Slider } from '../../ui/Slider';
 import { SimulationPanel } from '../../ui/Tabs';
 import { Button } from '../../ui/Button';
 import { useAnimationFrame } from '../../../hooks/useAnimationFrame';
-import { G, format } from '../../../lib/physics';
+import { G } from '../../../lib/physics';
 import { RotateCcw } from 'lucide-react';
 
 const W = 320;
@@ -18,7 +18,8 @@ interface Sample {
 }
 
 export function TerminalVelocity() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const { ru, u: unit, n } = forceDisplay(i18n.language);
   const [mass, setMass] = useState(80);
   const [drag, setDrag] = useState(0.4);
   const [parachuteOpen, setParachuteOpen] = useState(false);
@@ -88,8 +89,8 @@ export function TerminalVelocity() {
           className="w-full max-w-[320px] mx-auto bg-bg-primary rounded-md border border-border"
         />
         <div className="space-y-4">
-          <Slider label={t('forceMotion.sim2.skydiverMass')} unit="kg" min={50} max={120} step={1} value={mass} onChange={setMass} />
-          <Slider label={t('forceMotion.sim2.dragCoefficient')} min={0.1} max={2.0} step={0.05} value={drag} onChange={setDrag} />
+          <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim2.skydiverMass')} unit={unit('kg')} min={50} max={120} step={1} value={mass} onChange={setMass} />
+          <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim2.dragCoefficient')} min={0.1} max={2.0} step={0.05} value={drag} onChange={setDrag} />
 
           <div className="flex gap-2">
             <Button
@@ -104,10 +105,10 @@ export function TerminalVelocity() {
             </Button>
           </div>
 
-          <div className="grid grid-cols-3 gap-2 text-xs">
-            <Stat label={t('forceMotion.sim2.weight')} value={`${format(weight, 0)} N`} accent="warm" />
-            <Stat label={t('forceMotion.sim2.drag')} value={`${format(fDrag, 0)} N`} accent="sky" />
-            <Stat label={t('forceMotion.sim2.currentSpeed')} value={`${format(currentSpeed, 1)} m/s`} accent="sage" />
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+            <Stat label={t('forceMotion.sim2.weight')} value={`${n(weight, 0)} ${unit('N')}`} accent="warm" />
+            <Stat label={t('forceMotion.sim2.drag')} value={`${n(fDrag, 0)} ${unit('N')}`} accent="sky" />
+            <Stat label={t('forceMotion.sim2.currentSpeed')} value={`${n(currentSpeed, 1)} ${unit('m/s')}`} accent="sage" />
           </div>
 
           <div className="h-44 bg-bg-primary rounded-md border border-border p-2">
@@ -118,12 +119,12 @@ export function TerminalVelocity() {
                   dataKey="t"
                   type="number"
                   domain={[0, 'dataMax']}
-                  tickFormatter={(v) => `${v.toFixed(0)}s`}
+                  tickFormatter={(v) => `${n(v, 0)} ${unit('s')}`}
                   stroke="var(--color-text-muted)"
                   fontSize={10}
                   tickCount={6}
                 />
-                <YAxis stroke="var(--color-text-muted)" fontSize={10} domain={[0, 'auto']} width={40} unit=" m/s" />
+                <YAxis stroke="var(--color-text-muted)" fontSize={10} domain={[0, 'auto']} width={40} unit={' ' + unit('m/s')} />
                 <RTooltip
                   contentStyle={{
                     background: 'var(--color-bg-secondary)',
@@ -131,7 +132,7 @@ export function TerminalVelocity() {
                     borderRadius: 8,
                     fontSize: 12,
                   }}
-                  formatter={(v: number) => v.toFixed(1)}
+                  formatter={(v: number) => n(v, 1)}
                 />
                 <ReferenceLine y={vTerm} stroke="var(--color-accent-sage)" strokeDasharray="3 3" />
                 <Line
@@ -148,14 +149,15 @@ export function TerminalVelocity() {
         </div>
       </div>
       <div className="mt-2 text-xs text-text-muted">
-        v<sub>terminal</sub> ≈ √(mg/b) = {format(vTerm, 1)} m/s
+        v<sub>{ru ? 'уст' : 'terminal'}</sub> ≈ √(mg/b) = {n(vTerm, 1)} {unit('m/s')}
       </div>
+      <p className="text-xs text-text-muted">{ru ? 'm — масса (кг); g = 9,81 м/с²; b — коэффициент в модели сопротивления Fсопр = bv² (кг/м); v — скорость (м/с). Выталкивающая сила не учитывается.' : 'm is mass (kg); g = 9.81 m/s²; b is the coefficient in the drag model Fdrag = bv² (kg/m); v is speed (m/s). Upthrust is neglected.'}</p>
       <div className="mt-2">
         <Button variant="ghost" size="sm" onClick={() => setRunning((r) => !r)}>
           {running ? t('common.pause') : t('common.play')}
         </Button>
       </div>
-    <FormulaTeaching id="newton"/></SimulationPanel>
+    </SimulationPanel>
   );
 }
 

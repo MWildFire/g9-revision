@@ -36,8 +36,8 @@ test('motion definitions preserve the vector and signed-area distinctions', () =
   assert.match(en.forceMotion.terms.displacement.definition, /vector.*initial.*final/i);
   assert.match(en.forceMotion.terms.velocity.definition, /displacement.*time/i);
   assert.match(en.forceMotion.concepts.motionGraphs.rule, /signed area gives displacement/i);
-  assert.match(ru.forceMotion.terms.weight.review.contrast.ru, /опору.*подвес/);
-  assert.match(en.forceMotion.terms.acceleration.review.model.en, /opposite to velocity/);
+  assert.match(ru.forceMotion.terms.weight.review.model.ru, /опору.*подвес/);
+  assert.match(en.forceMotion.terms.acceleration.review.model.en, /opposite to (?:the )?velocity/);
 });
 test('braking model stops with zero acceleration and a continuous final distance', () => {
   const points = motionGraphData('decel', 10, 5, 4, 8);

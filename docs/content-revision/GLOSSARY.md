@@ -268,6 +268,9 @@
 | irradiation | облучение | облучен |
 | nuclear fission | деление ядер | делени |
 | nuclear fusion | термоядерный синтез (синтез ядер) | синтез |
+| deuterium | дейтерий | дейтери |
+| tritium | тритий | трити |
+| mass defect | дефект массы | дефект масс |
 | chain reaction | цепная реакция | цепн |
 | fault current | ток замыкания | ток замыкания |
 | infrared radiation | инфракрасное излучение | инфракрасн |

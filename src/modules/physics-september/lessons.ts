@@ -695,8 +695,8 @@ export const lessons: Lesson[] = [
         "Длинный период полураспада не делает источник безвредным.",
       ),
       b(
-        "When you compare activities through half-life, always write “for equal numbers of nuclei”.",
-        "Когда сравниваешь активности по периоду полураспада, обязательно пиши «при одинаковом числе ядер».",
+        "A shorter half-life gives greater activity only when comparing equal numbers of undecayed nuclei. For equal initial activities, calculate the later activities separately.",
+        "Меньший период означает большую активность только при одинаковом числе нераспавшихся ядер. При одинаковых начальных активностях вычисляй последующие активности отдельно.",
       ),
     ],
   },
@@ -740,8 +740,8 @@ export const lessons: Lesson[] = [
       s(
         "Build a justified judgement",
         "Как строить обоснованный вывод",
-        "Explain the mechanism. Apply it to a new design or calculation. Evaluate a claim using the evidence given, and state its limitations. For example, a higher detector count may improve image statistics but can come with a greater dose to the patient; one number does not settle the choice. A full social or economic evaluation may belong to criterion D, so this lesson focuses on scientific suitability and evidence.",
-        "Объясни механизм. Примени его к новой конструкции или расчёту. Оцени утверждение по приведённым данным и укажи его ограничения. Например, больший счёт может улучшить статистику изображения, но сопровождаться большей дозой облучения пациента; одного числа недостаточно для выбора. Полная социальная или экономическая оценка может относиться к критерию D, поэтому этот урок посвящён научной пригодности и доказательствам.",
+        "Explain the mechanism. Apply it to a new design or calculation. Evaluate a claim using the evidence given, and state its limitations. For example, a higher detector count may improve image statistics but can come with a greater dose to the patient; one number does not settle the choice. Scientific suitability depends on the mechanism and evidence; social and economic judgements also consider effects on people and costs.",
+        "Объясни механизм. Примени его к новой конструкции или расчёту. Оцени утверждение по приведённым данным и укажи его ограничения. Например, больший счёт может улучшить статистику изображения, но сопровождаться большей дозой облучения пациента; одного числа недостаточно для выбора. Научную пригодность оценивают по механизму и данным; при социальной и экономической оценке учитывают также последствия для людей и затраты.",
       ),
     ],
     formulas: ["thicker sheet → more absorption → lower corrected count"],
@@ -766,8 +766,8 @@ export const lessons: Lesson[] = [
           "За 180 периодов минутный источник практически утратит полезную активность. Источник с периодом 30 лет сохраняется неоправданно долго.",
         ),
         b(
-          "6 h is the reasonable compromise under the given assumptions: after 3 h, half a half-life has passed and about 71% of the activity remains (2⁻⁰·⁵ ≈ 0.71). Then the activity keeps falling over the following hours.",
-          "6 ч — разумный компромисс при данных допущениях: через 3 ч, то есть за половину периода полураспада, остаётся около 71 % активности (2⁻⁰·⁵ ≈ 0,71). Затем активность продолжает падать в течение следующих часов.",
+          "6 h is the reasonable compromise under the given assumptions: after 3 h, half a half-life has passed and about 71% of the activity remains (1/√2 ≈ 0.71). Then the activity keeps falling over the following hours.",
+          "6 ч — разумный компромисс при данных допущениях: через 3 ч, то есть за половину периода полураспада, остаётся около 71 % активности (1/√2 ≈ 0,71). Затем активность продолжает падать в течение следующих часов.",
         ),
       ),
     ],
@@ -807,8 +807,8 @@ export const lessons: Lesson[] = [
       s(
         "When a chain continues",
         "Условия продолжения цепной реакции",
-        "Released neutrons may cause further fissions, but some escape or are absorbed without fission. If each event causes on average less than one further event, the chain dies away; about one maintains a steady rate; more than one makes the rate grow.\n\nThis is an average branching model, not a recipe for a real reactor. A drawing with three emitted neutrons does not show that every one certainly causes another fission.",
-        "Выделившиеся нейтроны могут вызвать новые деления, но часть вылетает наружу или поглощается, не вызвав деления. Если каждое деление в среднем вызывает меньше одного нового, цепная реакция (chain reaction) затухает. Если в среднем примерно одно, скорость остаётся постоянной. Если больше одного, скорость растёт.\n\nЭто упрощённая модель со средними значениями, а не инструкция для настоящего реактора. Рисунок с тремя испущенными нейтронами не показывает, что каждый из них обязательно вызовет деление.",
+        "Released neutrons may cause further fissions, but some escape or are absorbed without fission. If each event causes on average less than one further event, the chain dies away; about one maintains a steady rate; more than one makes the rate grow.\n\nThis is a simplified branching model using average values. A drawing with three emitted neutrons does not show that every one certainly causes another fission.",
+        "Выделившиеся нейтроны могут вызвать новые деления, но часть вылетает наружу или поглощается, не вызвав деления. Если каждое деление в среднем вызывает меньше одного нового, цепная реакция (chain reaction) затухает. Если в среднем примерно одно, скорость остаётся постоянной. Если больше одного, скорость растёт.\n\nЭто упрощённая модель со средними значениями. Рисунок с тремя испущенными нейтронами не показывает, что каждый из них обязательно вызовет деление.",
       ),
       s(
         "Control rods, moderator and coolant",

@@ -42,7 +42,7 @@ export function WorkPower() {
             <g>
               <rect x="50" y={240 - mass * 1.5 - 30} width={mass * 1.5 + 30} height={mass * 1.5 + 30} fill="#c9a876" stroke="#6b5b47" strokeWidth="1.5" rx="3" />
               <text x={50 + (mass * 1.5 + 30) / 2} y={240 - mass * 1.5 / 2 - 10} textAnchor="middle" fontSize="12" fontFamily="JetBrains Mono" fill="#3d2f1f">
-                {mass} kg
+                {mass} {i18n.language.startsWith('ru') ? 'кг' : 'kg'}
               </text>
             </g>
 
@@ -58,11 +58,11 @@ export function WorkPower() {
 
           <Formula caption={i18n.language.startsWith('ru') ? 'A = Fh, F = mg при равномерном подъёме' : 'W = Fh, F = mg for steady lifting'}>
             {i18n.language.startsWith('ru') ? 'A' : 'W'} = (m × g) × h = ({mass} × 9.81) × {height} ={' '}
-            <span className="text-accent-warm">{format(work, 1)} J</span>
+            <span className="text-accent-warm">{format(work, 1)} {i18n.language.startsWith('ru') ? 'Дж' : 'J'}</span>
           </Formula>
           <Formula caption={i18n.language.startsWith('ru') ? 'N = A / t' : 'P = W / t'}>
             {i18n.language.startsWith('ru') ? 'N' : 'P'} = {format(work, 1)} / {time.toFixed(1)} ={' '}
-            <span className="text-accent-sage">{format(power, 2)} W</span>
+            <span className="text-accent-sage">{format(power, 2)} {i18n.language.startsWith('ru') ? 'Вт' : 'W'}</span>
           </Formula>
         </div>
 

@@ -1,6 +1,7 @@
 import { b, type Exercise, type Text } from './content';
 export type Paper = {id:string;title:Text;minutes:number;intro:Text;questions:Exercise[]};
-const item=(id:string,criterion:string,en:string,ru:string,ae:string,ar:string):Exercise=>({id,criterion,marks:25,prompt:b(en,ru),answer:b(ae,ar)});
+const PAPER_FORMULAS:Record<string,string[]> = {'bio-C':['rate']};
+const item=(id:string,criterion:string,en:string,ru:string,ae:string,ar:string):Exercise=>({id,criterion,marks:25,prompt:b(en,ru),answer:b(ae,ar),formulaIds:PAPER_FORMULAS[id]});
 export const papers:Paper[]=[{
  id:'biology',title:b('Biology · practice paper A–D','Биология · тренировочная работа A–D'),minutes:120,
  intro:b('Four criteria, 25 marks each: 100 marks in total. Allow 120 minutes of working time, about 30 minutes per criterion. Pause the timer for a short break after 60 minutes if needed. Check your answers after the timed attempt. These practice marks are not IB grades.','Четыре критерия по 25 баллов: всего 100 баллов. На работу отведено 120 минут, примерно по 30 минут на критерий. Через 60 минут при необходимости останови таймер и сделай короткий перерыв. Разбор открывай после попытки на время. Учебные баллы не переводятся напрямую в оценку IB.'),

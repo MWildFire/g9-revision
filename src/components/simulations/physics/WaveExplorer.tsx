@@ -106,7 +106,7 @@ function drawTransverse(
   ctx.lineTo(40 + lam, baseY + amp + 10);
   ctx.stroke();
   ctx.fillStyle = '#6b5b47';
-  ctx.font = '10px JetBrains Mono';
+  ctx.font = '16px JetBrains Mono';
   ctx.textAlign = 'center';
   ctx.fillText(`λ = ${(lam / 100).toLocaleString(ru ? 'ru-RU' : 'en-GB', {minimumFractionDigits:2,maximumFractionDigits:2})} ${ru ? 'м' : 'm'}`, 40 + lam / 2, baseY + amp + 24);
 }
@@ -139,7 +139,7 @@ function drawLongitudinal(
 
   // compression label
   ctx.fillStyle = '#6b5b47';
-  ctx.font = '10px JetBrains Mono';
+  ctx.font = '16px JetBrains Mono';
   ctx.textAlign = 'center';
   ctx.fillText(`λ = ${(lam / 100).toLocaleString(ru ? 'ru-RU' : 'en-GB', {minimumFractionDigits:2,maximumFractionDigits:2})} ${ru ? 'м' : 'm'}`, W / 2, H - 14);
 }

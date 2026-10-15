@@ -251,7 +251,7 @@
             "name": "Sample size",
             "rule": "The number of observational units included in a sample, written n. State whether a unit is a person, site, pebble or independent measurement.",
             "examples": [
-              "Many pebbles from one site are not many independent observations; they give one description of that site."
+              "If the investigation compares sites, many pebbles from one site still represent only one sampled site. If the population of interest is the pebbles at that site, the pebbles are the sampling units; independence depends on how they are selected."
             ],
             "review": {
               "englishTerm": "Sample size",
@@ -318,7 +318,7 @@
           },
           "random": {
             "name": "Simple random sampling",
-            "rule": "Every member of the defined population has an equal chance of being selected, because the choice is made by a random procedure.",
+            "rule": "In a simple random sample of n distinct units from a defined population, every possible set of n units has the same probability of selection. Each individual unit therefore also has the same inclusion probability.",
             "examples": [
               "Number all eligible sites and use a random-number generator to select them."
             ],
@@ -979,7 +979,7 @@
             "name": "Antecedent conditions and saturation",
             "rule": "Soil that is already wet before a storm has little room left to store rain. When its pores are full of water, new rain runs off the surface quickly. For this reason, floods are more common in wet seasons, when storms arrive on ground that is already saturated.",
             "examples": [
-              "After a dry summer, a storm soaks into the fields and the river barely rises. The same storm on the same fields after a wet autumn runs off the surface and makes the river rise sharply."
+              "Other conditions being similar, wet soil has less remaining storage than unsaturated soil, so the same storm may produce more rapid runoff. Dry soil does not guarantee infiltration: intense rain, compaction or water repellency can also cause runoff."
             ],
             "review": {
               "englishTerm": "Antecedent conditions and saturation",
@@ -1717,7 +1717,7 @@
             "name": "Resource",
             "rule": "A resource is anything from the natural environment that people use to meet a need or achieve a goal, such as water, soil, minerals or sunlight. Something becomes a resource only when people have the technology and access to use it, so what counts as a resource can change over time. Supply is the amount of a resource that is available to use. Demand is the wish to buy a resource, backed by the ability to pay for it.",
             "examples": [
-              "A forest is a renewable resource only while its trees regrow at least as fast as they are cut down. Uranium, used as nuclear fuel, is a finite mineral resource."
+              "A forest can provide a continuing supply of timber if harvesting does not exceed regrowth and ecosystem functions are maintained. Overuse can deplete this renewable resource. Uranium, used as nuclear fuel, is a finite mineral resource."
             ],
             "review": {
               "englishTerm": "Resource",
@@ -2130,7 +2130,7 @@
         "detailed": {
           "definition": {
             "name": "Water stress",
-            "rule": "Water stress is the share of available freshwater that is taken from rivers, lakes and groundwater for use. The SDG indicator 6.4.2 expresses it as a percentage.",
+            "rule": "Water stress measures pressure from water use on available freshwater. SDG indicator 6.4.2 is freshwater withdrawal as a percentage of renewable freshwater resources after allowing for environmental water requirements. Compare withdrawals and resources for the same place and period.",
             "examples": [
               "In a dry summer, a river carries much less water, while farms in its valley still want to irrigate. The valley can be under water stress even when the national annual average looks fine."
             ],
@@ -2821,7 +2821,7 @@
         "detailed": {
           "formation": {
             "name": "Tropical cyclone formation",
-            "rule": "Warm sea water evaporates a lot of moisture, and the moist, unstable air above it rises easily. Where storms already cluster, the rising air condenses and releases latent heat. This heat warms the centre of the system and lowers the pressure there. Air flows in towards this low, and the Earth's rotation deflects it (the Coriolis effect), so the system starts to spin. Weak vertical wind shear lets the storm stay upright, so the process can continue.",
+            "rule": "Warm seawater supplies moisture to the air. In an existing cluster of storms, moist air rises and cools; water vapour condenses and releases latent heat. This helps sustain rising air and the developing low-pressure circulation. Air flows inward near the surface and is deflected by Earth’s rotation. Weak vertical wind shear helps the storm’s circulation remain organised.",
             "examples": [
               "Many typhoons in the western Pacific form in late summer and early autumn, when the sea has been warm for weeks."
             ],

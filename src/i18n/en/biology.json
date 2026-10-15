@@ -128,7 +128,7 @@
       "description": "Follow the pulmonary and systemic circulation through the four chambers. Colours show relative oxygen content.",
       "deoxygenated": "Deoxygenated blood",
       "oxygenated": "Oxygenated blood",
-      "hoverHint": "Hover over a chamber or vessel (or use Tab to reach it) to see its function.",
+      "hoverHint": "Choose a chamber or vessel by clicking, tapping, or using Tab and Enter/Space to read its function.",
       "doubleCirc": "Double circulation: blood passes through the heart twice in one complete circuit of the body, first to the lungs and then to the rest of the body.",
       "chambers": {
         "ra": {
@@ -1917,7 +1917,7 @@
             "rule": "Aerobic respiration needs oxygen. It breaks glucose down completely, mainly in the mitochondria, into carbon dioxide and water. Oxygen is used up in the final step, where it combines with hydrogen. Each glucose molecule yields about 30 ATP, and most of the energy is released as heat. The overall equation is in the formula card on this page.",
             "examples": [
               "At rest, the brain uses about a fifth of the body's oxygen to release energy from glucose.",
-              "Plants respire day and night. At night there is no photosynthesis, so respiration is the only process that releases carbon dioxide."
+              "Plants respire day and night. In darkness, photosynthesis stops but respiration continues and releases carbon dioxide. In light, net gas exchange reflects both processes."
             ],
             "tip": "ATP is not energy itself but a molecule that carries energy to where the cell needs it. A cell holds only a small amount of ATP, so it must keep making more.",
             "review": {
@@ -2647,7 +2647,7 @@
     "sections": {
       "levels": {
         "title": "Levels of organisation",
-        "body": "An individual is one organism. A **population** is all the individuals of one species in a defined area. A **community** includes the populations of different species that live in the same area. An **ecosystem** includes the community, its non-living environment and the interactions between them. The **biosphere** includes all of Earth's ecosystems.\n\nFor example, all the oak trees in one wood form a population, while the oaks, birds and fungi in that wood are only some of the populations in its community.",
+        "body": "An individual is one organism. A **population** is all the individuals of one species in a defined area. A **community** includes the populations of different species that live in the same area. An **ecosystem** includes the community, its non-living environment and the interactions between them. The **biosphere** includes all of Earth's ecosystems.\n\nFor example, all the oak trees of one species in a defined wood form a population, while the oaks, birds and fungi in that wood are only some of the populations in its community.",
         "review": {
           "englishTerm": "Levels of organisation",
           "russianTerm": "Уровни организации",
@@ -3682,7 +3682,7 @@
       },
       "antibiotics": {
         "title": "Antibiotics",
-        "body": "Antibiotics are medicines that kill bacteria or stop them from growing. Some antibiotics damage the cell wall or stop bacteria building it, so the cell bursts. Others block protein synthesis in bacterial ribosomes, so the bacterium cannot make the proteins it needs.\n\nHuman cells have no cell wall, and their ribosomes are different, so antibiotics mainly harm bacteria. For example, penicillin stops bacteria building their cell walls, so it can treat a bacterial infection such as strep throat.\n\nA bacterial population can become resistant to an antibiotic. Some bacteria are already resistant before the drug is used, because of random mutations or gene transfer. The antibiotic does not cause this change: it kills susceptible bacteria, and the resistant survivors reproduce and pass the ability to survive the drug on to their offspring.\n\nFrequent use, or a course that is not finished, lets more resistant bacteria survive. The trait belongs to the bacteria, not to the patient's body.\n\nAntibiotics do not act on viruses, so they are not used for viral infections, and a doctor decides which drug to take and how long the course lasts.\n\nA new antibiotic goes through drug development before a doctor can prescribe it. First comes pre-clinical testing in the laboratory, on cells and animals.\n\nClinical trials then test the drug on people in phases. Phase 1 checks safety in a small group, Phase 2 checks effectiveness and side effects in patients, and Phase 3 compares the drug with existing treatments in a large group.",
+        "body": "Antibiotics are medicines that kill bacteria or stop them from growing. Some antibiotics damage the cell wall or stop bacteria building it, so the cell bursts. Others block protein synthesis in bacterial ribosomes, so the bacterium cannot make the proteins it needs.\n\nHuman cells have no cell wall, and their ribosomes are different, so antibiotics mainly harm bacteria. For example, penicillin stops bacteria building their cell walls, so it can treat a bacterial infection such as strep throat.\n\nA bacterial population can become resistant to an antibiotic. Some bacteria are already resistant before the drug is used, because of random mutations or gene transfer. The antibiotic does not cause this change: it kills susceptible bacteria, and the resistant survivors reproduce and pass the ability to survive the drug on to their offspring.\n\nUnnecessary or inappropriate antibiotic use selects for resistant bacteria. Follow the prescribed drug, dose and duration; the clinician chooses the duration using evidence for the infection. The trait belongs to the bacteria, not to the patient's body.\n\nAntibiotics do not act on viruses, so they are not used for viral infections, and a doctor decides which drug to take and how long the course lasts.\n\nA new antibiotic goes through drug development before a doctor can prescribe it. First comes pre-clinical testing in the laboratory, on cells and animals.\n\nClinical trials then test the drug on people in phases. Phase 1 checks safety in a small group, Phase 2 checks effectiveness and side effects in patients, and Phase 3 compares the drug with existing treatments in a large group.",
         "review": {
           "englishTerm": "Antibiotics",
           "russianTerm": "Антибиотики",

@@ -134,8 +134,8 @@ export function DensityFloater() {
         </svg>
 
         <div className="space-y-4">
-          <Slider label={t('forcesEnergy.sim3.objectDensity')} unit={ru ? 'г/см³' : 'g/cm³'} min={0.1} max={15} step={0.05} value={objectRho} onChange={setObjectRho} />
-          <Slider label={t('forcesEnergy.sim3.fluidDensity')} unit={ru ? 'г/см³' : 'g/cm³'} min={0.5} max={13.6} step={0.05} value={fluidRho} onChange={setFluidRho} />
+          <Slider label={t('forcesEnergy.sim3.objectDensity')} unit={ru ? 'г/см³' : 'g/cm³'} format={num} min={0.1} max={15} step={0.05} value={objectRho} onChange={setObjectRho} />
+          <Slider label={t('forcesEnergy.sim3.fluidDensity')} unit={ru ? 'г/см³' : 'g/cm³'} format={num} min={0.5} max={13.6} step={0.05} value={fluidRho} onChange={setFluidRho} />
 
           <div>
             <p className="text-xs uppercase tracking-wider text-text-muted mb-2">

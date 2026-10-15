@@ -2385,8 +2385,8 @@
         "englishTerm": "Arithmetic and geometric sequences and the nth term",
         "russianTerm": "Арифметическая и геометрическая прогрессии и формула n-го члена",
         "contrast": {
-          "en": "Arithmetic sequences add a fixed difference d; geometric sequences multiply by a fixed ratio r. If u₁ > 0 and r > 1, the terms grow; if u₁ > 0 and 0 < r < 1, they decrease. A negative r makes the signs alternate.",
-          "ru": "В арифметической прогрессии к каждому члену прибавляют разность d, в геометрической — умножают на знаменатель r. Если u₁ > 0 и r > 1, члены растут; если u₁ > 0 и 0 < r < 1, убывают. При отрицательном r знаки членов чередуются."
+          "en": "Arithmetic sequences add a fixed difference d; geometric sequences multiply by a fixed ratio r. If u₁ > 0 and r > 1, the terms grow; if u₁ > 0 and 0 < r < 1, they decrease. If u₁ ≠ 0, a negative r makes the signs alternate. In the geometric model, a zero first term gives only zeros. The control also allows r = 0: after the first term all terms are zero, so consecutive-term ratios are then undefined.",
+          "ru": "В арифметической прогрессии к каждому члену прибавляют разность d, в геометрической — умножают на знаменатель r. Если u₁ > 0 и r > 1, члены растут; если u₁ > 0 и 0 < r < 1, убывают. При u₁ ≠ 0 и отрицательном r знаки членов чередуются. В геометрической модели нулевой первый член даёт только нули. Регулятор также допускает r = 0: после первого члена идут нули, поэтому отношения соседних членов затем не определены."
         },
         "sources": [
           {

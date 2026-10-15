@@ -4,14 +4,20 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "englishTerm": "nucleus",
     "russianTerm": "атомное ядро",
     "contrast": {
-      "en": "The nucleus is not the whole atom; electrons occupy states around it.",
-      "ru": "Ядро — не весь атом: электроны находятся в состояниях вокруг него."
+      "en": "The nucleus is the central part of an atom. Electrons occupy the space around it.",
+      "ru": "Ядро — центральная часть атома. Электроны находятся вокруг него."
     },
     "model": {
       "en": "The shell drawing exaggerates nuclear size and is not a picture of fixed electron orbits.",
       "ru": "На схеме ядро сильно увеличено; электронные оболочки не изображают точные орбиты."
     },
     "sources": [
+      {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus",
@@ -31,13 +37,19 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "russianTerm": "нуклон",
     "contrast": {
       "en": "An electron is not a nucleon; mass number A counts protons plus neutrons.",
-      "ru": "Электрон не является нуклоном; массовое число A считает протоны и нейтроны."
+      "ru": "Электрон не относится к нуклонам. Массовое число A равно сумме протонов и нейтронов."
     },
     "model": {
-      "en": "A free neutron is still a nucleon; the term is not restricted to a particle currently bound in a nucleus.",
-      "ru": "Свободный нейтрон тоже является нуклоном; частица не обязана находиться внутри ядра."
+      "en": "A free neutron is still a nucleon. The name also applies to protons and neutrons outside a nucleus.",
+      "ru": "Протоны и нейтроны называют нуклонами и вне ядра."
     },
     "sources": [
+      {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus",
@@ -60,10 +72,16 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
       "ru": "Изотопы — нуклиды одного элемента с разным числом нейтронов."
     },
     "model": {
-      "en": "For most tasks A and Z suffice; a metastable state such as technetium-99m needs an extra state label.",
-      "ru": "В большинстве задач достаточно A и Z; для метастабильного состояния, например технеция-99m, нужна дополнительная пометка."
+      "en": "A and Z specify the nuclear composition. For example, carbon-14 has A = 14 and Z = 6.",
+      "ru": "A и Z задают состав ядра. Например, у углерода-14 A = 14 и Z = 6."
     },
     "sources": [
+      {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus",
@@ -91,6 +109,12 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
+      {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus",
         "language": "en",
@@ -116,6 +140,12 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
       "ru": "Обычная ионизация меняет электронное строение, а не число протонов или массовое число."
     },
     "sources": [
+      {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/18-1-static-electricity-and-charge-conservation-of-charge",
@@ -143,6 +173,12 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
+      {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom",
         "language": "en",
@@ -160,14 +196,20 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "englishTerm": "ionisation",
     "russianTerm": "ионизация",
     "contrast": {
-      "en": "Ionisation creates charge imbalance; excitation alone need not create an ion.",
-      "ru": "Ионизация создаёт ненулевой заряд; одно возбуждение не обязательно образует ион."
+      "en": "Excitation changes an electron’s energy without removing it. Ionisation can remove the electron and leave a charged atom.",
+      "ru": "При возбуждении меняется энергия электрона, но он остаётся в атоме. При ионизации электрон может покинуть атом, и тогда атом получает заряд."
     },
     "model": {
       "en": "One nuclear decay may cause many ionisations along a particle track. Decays and ionisations are different event counts.",
       "ru": "Один ядерный распад может вызвать много ионизаций вдоль трека частицы. Числа распадов и ионизаций различаются."
     },
     "sources": [
+      {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-1-nuclear-radioactivity",
@@ -325,8 +367,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
     "englishTerm": "background",
     "russianTerm": "радиационный фон",
     "contrast": {
-      "en": "Background radiation is natural radiation from the environment. A measured background count can also include counts from the detector's own noise.",
-      "ru": "Радиационный фон — естественное излучение окружающей среды. Измеренный фоновый счёт может включать собственный шум детектора."
+      "en": "Background includes radiation from natural and human-made sources around the detector. Detector noise can also contribute to a measured background count.",
+      "ru": "Фон включает излучение природных и искусственных источников вокруг детектора. В измеренный фоновый счёт может также вносить вклад шум прибора."
     },
     "model": {
       "en": "Measure a background rate in the same setup and compare rates with matching units.",
@@ -465,8 +507,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
       "ru": "D + T дают гелий-4 и нейтрон; это не химическое объединение целых атомов."
     },
     "model": {
-      "en": "Fusion of the relevant light nuclei can release energy.",
-      "ru": "Синтез рассматриваемых лёгких ядер может выделять энергию."
+      "en": "Fusion of deuterium and tritium releases energy because the products have less total rest mass than the initial particles.",
+      "ru": "При синтезе дейтерия и трития выделяется энергия: суммарная масса покоя продуктов меньше, чем у исходных частиц."
     },
     "sources": [
       {
@@ -553,37 +595,7 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
         "section": "2.2 Components of a nuclear power station: control rods, moderator, coolant"
       }
     ],
-    "visual": {
-      "kind": "parts",
-      "title": {
-        "en": "Three reactor functions",
-        "ru": "Три функции в реакторе"
-      },
-      "items": [
-        {
-          "label": {
-            "en": "Moderator → slows neutrons",
-            "ru": "Замедлитель → снижает скорость нейтронов"
-          }
-        },
-        {
-          "label": {
-            "en": "Control rods → absorb neutrons",
-            "ru": "Стержни → поглощают нейтроны"
-          }
-        },
-        {
-          "label": {
-            "en": "Coolant → carries energy away",
-            "ru": "Теплоноситель → отводит энергию"
-          }
-        }
-      ],
-      "caption": {
-        "en": "Different functions can use the same material: in some reactors water moderates and cools.",
-        "ru": "Разные функции может выполнять одно вещество: в некоторых реакторах вода замедляет нейтроны и отводит энергию."
-      }
-    }
+
   },
   "coolant": {
     "englishTerm": "coolant",
@@ -593,8 +605,8 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
       "ru": "Охлаждение передаёт энергию; поглощение нейтронов регулирует цепную реакцию."
     },
     "model": {
-      "en": "The exact coolant and circuit arrangement depend on reactor design; the diagram shows functions only.",
-      "ru": "Выбор теплоносителя и устройство контуров зависят от типа реактора; схема показывает только функции."
+      "en": "The choice of coolant depends on reactor design. Its role is to carry thermal energy from the core to another part of the system.",
+      "ru": "Выбор теплоносителя зависит от устройства реактора. Его задача — переносить тепловую энергию из активной зоны в другую часть установки."
     },
     "sources": [
       {
@@ -604,37 +616,7 @@ export const physicsNuclearReviews: Record<string, DefinitionReview> = {
         "section": "2.2 Components of a nuclear power station: control rods, moderator, coolant"
       }
     ],
-    "visual": {
-      "kind": "parts",
-      "title": {
-        "en": "Three reactor functions",
-        "ru": "Три функции в реакторе"
-      },
-      "items": [
-        {
-          "label": {
-            "en": "Moderator → slows neutrons",
-            "ru": "Замедлитель → снижает скорость нейтронов"
-          }
-        },
-        {
-          "label": {
-            "en": "Control rods → absorb neutrons",
-            "ru": "Стержни → поглощают нейтроны"
-          }
-        },
-        {
-          "label": {
-            "en": "Coolant → carries energy away",
-            "ru": "Теплоноситель → отводит энергию"
-          }
-        }
-      ],
-      "caption": {
-        "en": "Different functions can use the same material: in some reactors water moderates and cools.",
-        "ru": "Разные функции может выполнять одно вещество: в некоторых реакторах вода замедляет нейтроны и отводит энергию."
-      }
-    }
+
   },
   "daughter nucleus": {
     "englishTerm": "daughter nucleus",
@@ -674,14 +656,20 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "englishTerm": "nucleus",
     "russianTerm": "атомное ядро",
     "contrast": {
-      "en": "The nucleus is not the whole atom; electrons occupy states around it.",
-      "ru": "Ядро — не весь атом: электроны находятся в состояниях вокруг него."
+      "en": "A neutral atom can have a positive nucleus: the surrounding electrons balance the nuclear charge.",
+      "ru": "У нейтрального атома ядро заряжено положительно: его заряд компенсируют окружающие электроны."
     },
     "model": {
-      "en": "The shell drawing exaggerates nuclear size and is not a picture of fixed electron orbits.",
-      "ru": "На схеме ядро сильно увеличено; электронные оболочки не изображают точные орбиты."
+      "en": "Use the same scale for the atomic and nuclear radii. At a radius ratio of 20,000, a 1 m model atom would have a 0.05 mm nucleus.",
+      "ru": "Масштаб для радиусов атома и ядра должен быть одинаковым. При отношении 20 000 радиусу атома 1 м соответствует радиус ядра 0,05 мм."
     },
     "sources": [
+      {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus",
@@ -700,14 +688,20 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     "englishTerm": "isotope",
     "russianTerm": "изотоп",
     "contrast": {
-      "en": "Carbon-12 and carbon-14 are isotopes; carbon and nitrogen are different elements.",
-      "ru": "Углерод-12 и углерод-14 — изотопы; углерод и азот — разные элементы."
+      "en": "Adding a neutron changes the isotope, while adding an electron changes the charge. Neither change alters the element.",
+      "ru": "Добавление нейтрона меняет изотоп, а электрона — заряд. Ни то ни другое не меняет химический элемент."
     },
     "model": {
-      "en": "Changing electron count creates an ion without changing which isotope is present.",
-      "ru": "Изменение числа электронов создаёт ион, но не меняет изотоп."
+      "en": "Mass number describes one nucleus. Relative atomic mass describes an average for a sample and can be non-integer.",
+      "ru": "Массовое число относится к одному ядру. Относительная атомная масса — среднее для образца, поэтому она может быть дробной."
     },
     "sources": [
+      {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus",
@@ -723,17 +717,23 @@ export const nuclearLessonReviews: Record<string, DefinitionReview> = {
     ]
   },
   "atomic-models": {
-    "englishTerm": "excitation",
-    "russianTerm": "возбуждение",
+    "englishTerm": "atomic model",
+    "russianTerm": "модель атома",
     "contrast": {
-      "en": "In atomic excitation the electron remains bound; ionisation can remove it.",
-      "ru": "При возбуждении атома электрон остаётся связанным; ионизация может удалить его."
+      "en": "The foil experiment provided evidence for the nucleus. Electron energy levels and neutrons were established through later work.",
+      "ru": "Опыт с фольгой дал доказательства существования ядра. Уровни энергии электронов и нейтроны установили в последующих исследованиях."
     },
     "model": {
-      "en": "A lower-energy transition can emit a photon whose energy equals the difference between states.",
-      "ru": "При переходе в состояние с меньшей энергией может испускаться фотон с энергией, равной разности энергий состояний."
+      "en": "A model must explain all the observations, including rare large deflections. A schematic drawing alone is not experimental evidence.",
+      "ru": "Модель должна объяснять все наблюдения, включая редкие сильные отклонения. Сам по себе условный рисунок не служит экспериментальным доказательством."
     },
     "sources": [
+      {
+        "title": "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+        "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+        "language": "en",
+        "section": "Chapter 11: atomic structure, isotopes and models"
+      },
       {
         "title": "OpenStax · College Physics 2e",
         "url": "https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom",

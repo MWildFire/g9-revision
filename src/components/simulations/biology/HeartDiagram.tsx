@@ -43,7 +43,7 @@ export function HeartDiagram() {
     const colour=c.oxygenated?'#ad3838':'#537d9e';
     return <g key={id} role="button" tabIndex={0} aria-label={label(id)} aria-pressed={active===id}
       onMouseEnter={()=>setActive(id)} onFocus={()=>setActive(id)} onClick={()=>setActive(id)}
-      onKeyDown={event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();setActive(id);}} style={{cursor:'pointer'}}>
+      onKeyDown={event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();setActive(id);}}} style={{cursor:'pointer'}}>
       <rect x={c.x} y={c.y} width={110} height={c.h} rx={8} fill={colour} fillOpacity={active === id ? 0.35 : 0.15} stroke={colour} strokeWidth={active===id?3:1.5}/>
       <text x={c.x+55} y={c.y+c.h/2+5} textAnchor="middle" fontSize={16} fontWeight={600} fill="var(--color-text-primary)">{c.initials}</text>
     </g>;

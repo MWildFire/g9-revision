@@ -207,7 +207,7 @@ input[type='range']::-moz-range-thumb {
 .rich-text li + li { margin-top: 0.25em; }
 
 /* Keep complete equations readable within their card at narrow widths. */
-.formula-teaching-expression {
+.formula-teaching .formula-teaching-expression {
   white-space: nowrap !important;
   overflow-wrap: normal;
   overflow-x: auto;
@@ -225,8 +225,9 @@ input[type='range']::-moz-range-thumb {
 }
 .katex-display > .katex { text-align: left; }
 /* The canvas already provides keyboard-accessible horizontal scrolling. */
-@media (max-width: 700px) {
-  .mathrev-diagram-canvas svg { min-width: 600px !important; overflow: visible; }
+@media screen and (max-width: 700px) {
+  .mathrev-diagram-canvas { padding-inline-end: 24px; }
+  .mathrev-diagram-canvas svg { min-width: 420px !important; overflow: visible; }
   .nuclear-visual { overflow-x: auto; }
   .nuclear-visual > svg { min-width: 540px; }
   .definition-diagram .definition-diagram-viewport svg { min-width: 420px; }

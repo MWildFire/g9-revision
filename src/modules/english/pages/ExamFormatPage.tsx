@@ -41,6 +41,10 @@ export function ExamFormatPage() {
         ))}
       </ul>
 
+      <p className="mt-3 text-sm">
+        <a className="text-accent-sky-deep underline" href="https://resources.ibo.org/data/m_1_langa_guu_1405_8_e.pdf#page=51" target="_blank" rel="noreferrer">{t('examFormatPage.criteria.sourceLabel')}</a>
+      </p>
+
       <SectionHeading>{t('examFormatPage.selfCheck.title')}</SectionHeading>
       <ul className="space-y-2">
         {checks.map((c, i) => (

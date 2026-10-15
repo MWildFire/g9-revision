@@ -13,8 +13,8 @@ export const lessons: Lesson[] = [
       s(
         "Three particles, two regions",
         "Три частицы, две области",
-        "The nucleus contains protons and neutrons. A proton has relative charge +1 and relative mass about 1. A neutron has charge 0 and relative mass about 1.\n\nElectrons occupy energy levels around the nucleus. Each has relative charge −1 and relative mass about 1/1836. These relative values have no units. Almost all the atom’s mass is in the nucleus; most of its volume is outside it.",
-        "Ядро (nucleus) состоит из протонов и нейтронов. Относительный заряд протона равен +1, нейтрона — 0. Относительная масса каждой из этих частиц примерно равна 1.\n\nВокруг ядра находятся электроны, распределённые по энергетическим уровням. У электрона относительный заряд равен −1, а относительная масса — примерно 1/1836. У относительных величин нет единиц измерения. Почти вся масса атома сосредоточена в ядре, хотя оно занимает очень малую часть объёма.",
+        "Most nuclei contain protons and neutrons. Hydrogen-1 has one proton and no neutrons. A proton has relative charge +1 and relative mass about 1. A neutron has charge 0 and relative mass about 1.\n\nElectrons occupy energy levels around the nucleus. Each has relative charge −1 and relative mass about 1/1836. These relative values have no units. Almost all the atom’s mass is in the nucleus; most of its volume is outside it.",
+        "Большинство ядер (nuclei) состоит из протонов и нейтронов. В ядре водорода-1 один протон и нет нейтронов. Относительный заряд протона равен +1, нейтрона — 0. Относительная масса каждой из этих частиц примерно равна 1.\n\nВокруг ядра находятся электроны, распределённые по энергетическим уровням. У электрона относительный заряд равен −1, а относительная масса — примерно 1/1836. У относительных величин нет единиц измерения. Почти вся масса атома сосредоточена в ядре, хотя оно занимает очень малую часть объёма.",
       ),
       s(
         "How small is small?",

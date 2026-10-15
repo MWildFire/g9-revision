@@ -159,7 +159,7 @@ function QuestionCard({
         )}
         onChange={(e) => store.answer(q.id, e.target.value)}
       />
-      <p className="nuclear-print-answer">
+      <p className="nuclear-print-answer" data-qa-allow-repeat={!store.state.answers[q.id] ? "blank-writing-line" : undefined}>
         {store.state.answers[q.id] ||
           "________________________________________________"}
       </p>

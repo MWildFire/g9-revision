@@ -1,3 +1,4 @@
+import { fallingSpeed } from './fallingModel';
 import { formatTimeTick } from './timeTicks';
 import { forceDisplay } from './VectorAddition';
 import { useEffect, useRef, useState } from 'react';
@@ -26,7 +27,7 @@ export function TerminalVelocity() {
   const [parachuteOpen, setParachuteOpen] = useState(false);
   const [running, setRunning] = useState(true);
 
-  const stateRef = useRef({ y: 30, v: 0, t: 0 });
+  const stateRef = useRef({ y: 80, v: 0, t: 0 });
   const samplesRef = useRef<Sample[]>([{ t: 0, v: 0 }]);
   const [samples, setSamples] = useState<Sample[]>([{ t: 0, v: 0 }]);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -36,7 +37,7 @@ export function TerminalVelocity() {
   const weight = mass * G;
 
   const reset = () => {
-    stateRef.current = { y: 30, v: 0, t: 0 };
+    stateRef.current = { y: 80, v: 0, t: 0 };
     samplesRef.current = [{ t: 0, v: 0 }];
     setSamples([{ t: 0, v: 0 }]);
     setParachuteOpen(false);
@@ -50,17 +51,13 @@ export function TerminalVelocity() {
 
   useAnimationFrame((dt) => {
     const s = stateRef.current;
-    const fDrag = effectiveDrag * s.v * s.v;
-    const fNet = weight - fDrag;
-    const a = fNet / mass;
-    s.v += a * dt;
-    if (s.v < 0) s.v = 0;
+    const previousSpeed = s.v;
+    s.v = fallingSpeed(previousSpeed, mass, effectiveDrag, dt, G);
     s.t += dt;
-    s.y += s.v * 0.4 * dt;
-    if (s.y > H - 30) {
-      s.y = H - 30;
-      s.v = 0;
-    }
+    // The canvas repeats vertically; it is not a finite drop height or a collision.
+    const visualTop = 80, visualBottom = H - 60;
+    s.y = visualTop + ((s.y - visualTop + (previousSpeed + s.v) / 2 * 0.4 * dt) % (visualBottom - visualTop));
+    const fDrag = effectiveDrag * s.v * s.v;
 
     const last = samplesRef.current[samplesRef.current.length - 1];
     if (s.t - (last?.t ?? -1) > 0.1) {
@@ -152,7 +149,7 @@ export function TerminalVelocity() {
       <div className="mt-2 text-xs text-text-muted">
         v<sub>{ru ? 'уст' : 'terminal'}</sub> ≈ √(mg/b) = {n(vTerm, 1)} {unit('m/s')}
       </div>
-      <p className="text-xs text-text-muted">{ru ? 'm — масса (кг); g = 9,81 м/с²; b — коэффициент в модели сопротивления Fсопр = bv² (кг/м); v — скорость (м/с). Выталкивающая сила не учитывается.' : 'm is mass (kg); g = 9.81 m/s²; b is the coefficient in the drag model Fdrag = bv² (kg/m); v is speed (m/s). Upthrust is neglected.'}</p>
+      <p className="text-xs text-text-muted">{ru ? 'm — масса (кг); g = 9,81 м/с²; b — коэффициент в модели сопротивления Fсопр = bv² (кг/м); v — скорость (м/с). Выталкивающая сила не учитывается. Рисунок прокручивается по кругу и не задаёт высоту падения; скорость и время продолжают изменяться.' : 'm is mass (kg); g = 9.81 m/s²; b is the coefficient in the drag model Fdrag = bv² (kg/m); v is speed (m/s). Upthrust is neglected. The drawing repeats vertically and does not set a drop height; speed and time continue evolving.'}</p>
       <div className="mt-2">
         <Button variant="ghost" size="sm" onClick={() => setRunning((r) => !r)}>
           {running ? t('common.pause') : t('common.play')}
@@ -186,9 +183,6 @@ function drawScene(ctx: CanvasRenderingContext2D, y: number, parachute: boolean,
   ctx.fillStyle = grad;
   ctx.fillRect(0, 0, W, H);
 
-  // ground
-  ctx.fillStyle = '#a8b5a0';
-  ctx.fillRect(0, H - 18, W, 18);
 
   const cx = W / 2;
 

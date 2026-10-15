@@ -12,7 +12,7 @@
 // Reports (no fail): English-only blocks on RU pages and Cyrillic on EN pages outside lang-marked elements.
 import fs from 'node:fs';
 import path from 'node:path';
-import { startAuditServer } from './local-audit-server.mjs';
+import { startAuditServer, verifySourceRevision } from './local-audit-server.mjs';
 import { waitForCaptureReady, readCaptureState } from './capture-readiness.mjs';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
@@ -37,6 +37,7 @@ if (!opt('contract') && !opt('discover')) throw new Error('--contract is require
 fs.mkdirSync(outDir, { recursive: true });
 
 if (opt('url')) throw new Error('External servers require a separately authorized audit; use a local build and explicit port');
+verifySourceRevision(ROOT,String(opt('build-sha')??''));
 const { server, base, identity } = await startAuditServer({ dist:path.join(ROOT,'dist'), port:Number(opt('port')), sha:String(opt('build-sha')??'') });
 let browser;
 try { browser = await chromium.launch(process.env.QA_BROWSER_EXECUTABLE ? { executablePath:process.env.QA_BROWSER_EXECUTABLE } : {}); } catch(error) { server.close(); throw error; }

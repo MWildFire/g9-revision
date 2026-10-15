@@ -26,3 +26,8 @@ test('continuously changing layout times out instead of passing',async()=>{
 test('capture refuses a route without an expected heading',async()=>{
  await assert.rejects(waitForCaptureReady(null,{...expected,h1:undefined},opts(async()=>ready)),/missing_expected_h1/);
 });
+
+test('capture refuses a revision label that differs from its source tree',async()=>{
+ const {verifySourceRevision}=await import('../scripts/qa/local-audit-server.mjs');
+ assert.throws(()=>verifySourceRevision(process.cwd(),'0'.repeat(40)),/wrong_source_revision/);
+});

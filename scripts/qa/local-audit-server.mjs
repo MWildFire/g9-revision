@@ -1,11 +1,19 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { createServer } from 'node:http';
 export function buildDigest(dir) {
   const hash = createHash('sha256');
   const visit = rel => { for (const name of fs.readdirSync(path.join(dir,rel)).sort()) { const file = path.join(rel,name); if (fs.statSync(path.join(dir,file)).isDirectory()) visit(file); else { hash.update(file); hash.update(fs.readFileSync(path.join(dir,file))); } } };
   visit(''); return hash.digest('hex');
+}
+export function verifySourceRevision(root, sha) {
+  const actual = fs.existsSync(path.join(root,'.git'))
+    ? execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim()
+    : JSON.parse(fs.readFileSync(path.join(root,'.qa-source.json'),'utf8')).sha;
+  if (actual !== sha) throw new Error('wrong_source_revision');
+  return actual;
 }
 export async function startAuditServer({ dist, port, sha }) {
   if (!Number.isInteger(port) || port < 1024 || port > 65535) throw new Error('An explicit allowed --port is required');

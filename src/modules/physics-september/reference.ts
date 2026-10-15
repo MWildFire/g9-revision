@@ -203,8 +203,8 @@ export const commandTerms = [
   ],
   [
     "Describe",
-    "Say what happens or give the observed pattern.",
-    "Опиши происходящее или наблюдаемую закономерность."
+    "Give a detailed account of what happens, the situation or the observed pattern.",
+    "Подробно опиши происходящее, ситуацию или наблюдаемую закономерность."
   ],
   [
     "Explain",

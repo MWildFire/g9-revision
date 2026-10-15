@@ -787,8 +787,8 @@
   }
 }
 @media print {
-  header,
-  footer,
+  body:has(.nuclear-course) #root > div > header,
+  body:has(.nuclear-course) #root > div > footer,
   .nuclear-course-top,
   .nuclear-topnav,
   .nuclear-sidebar,

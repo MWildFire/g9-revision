@@ -45,3 +45,10 @@ test('normalized glossary has unique meanings and retains both clinical-trial la
  const trial=terms.find(x=>x.en==='clinical trial');assert.match(trial.term,/исследование/);assert.match(trial.term,/испытание/);
  const keys=terms.map(x=>x.en.toLowerCase().trim().replace(/\s+/g,' '));assert.equal(new Set(keys).size,keys.length);
 });
+
+test('nuclear print styles hide only shell headers and cannot erase other lesson titles',()=>{
+ const css=read('src/modules/physics-september/physics-september.css');
+ assert.doesNotMatch(css,/@media print\s*\{\s*header,/);
+ assert.match(css,/body:has\(\.nuclear-course\) #root > div > header/);
+ assert.match(read('src/modules/november/november.css'),/body:has\(\.november\) #root > div > header/);
+});

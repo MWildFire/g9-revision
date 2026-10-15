@@ -6,7 +6,7 @@ import { Slider } from '../../ui/Slider';
 import { SimulationPanel, Tabs } from '../../ui/Tabs';
 import { Formula } from '../../ui/Formula';
 import { useAnimationFrame } from '../../../hooks/useAnimationFrame';
-import { waveSpeed, format } from '../../../lib/physics';
+import { waveSpeed } from '../../../lib/physics';
 
 const W = 560;
 const H = 200;
@@ -14,6 +14,7 @@ const H = 200;
 export function WaveExplorer() {
   const { t, i18n } = useTranslation('physics');
   const ru = i18n.language.startsWith('ru');
+  const n = (value: number, decimals: number) => value.toLocaleString(ru ? 'ru-RU' : 'en-GB', { minimumFractionDigits:decimals, maximumFractionDigits:decimals, useGrouping:false });
   const [amplitude, setAmplitude] = useState(40);
   const [wavelength, setWavelength] = useState(120);
   const [frequency, setFrequency] = useState(1.5);
@@ -44,8 +45,8 @@ export function WaveExplorer() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6 items-start">
           <div className="space-y-3">
             <Slider label={t('wavesOptics.sim1.amplitude')} unit="px" min={10} max={80} step={1} value={amplitude} onChange={setAmplitude} />
-            <Slider label={t('wavesOptics.sim1.wavelength')} unit={ru ? 'м' : 'm'} format={(v) => (v / 100).toFixed(2)} min={20} max={300} step={5} value={wavelength} onChange={setWavelength} />
-            <Slider label={t('wavesOptics.sim1.frequency')} unit={ru ? 'Гц' : 'Hz'} min={0.2} max={5} step={0.1} value={frequency} onChange={setFrequency} />
+            <Slider label={t('wavesOptics.sim1.wavelength')} unit={ru ? 'м' : 'm'} format={(v) => n(v / 100, 2)} min={20} max={300} step={5} value={wavelength} onChange={setWavelength} />
+            <Slider label={t('wavesOptics.sim1.frequency')} unit={ru ? 'Гц' : 'Hz'} format={(v) => n(v, 1)} min={0.2} max={5} step={0.1} value={frequency} onChange={setFrequency} />
           </div>
           <div className="space-y-3">
             <Tabs
@@ -57,8 +58,8 @@ export function WaveExplorer() {
               onChange={(id) => setType(id as 'transverse' | 'longitudinal')}
             />
             <Formula caption={t('wavesOptics.sim1.speed')}>
-              <span style={{ whiteSpace: 'nowrap' }}>v = {ru ? 'ν' : 'f'} × λ = {frequency.toFixed(1)} × {(wavelength / 100).toFixed(2)} =</span>{' '}
-              <span className="text-accent-warm">{format(v, 2)} {ru ? 'м/с' : 'm/s'}</span>
+              <span style={{ whiteSpace: 'nowrap' }}>v = {ru ? 'ν' : 'f'} × λ = {n(frequency, 1)} × {n(wavelength / 100, 2)} =</span>{' '}
+              <span className="text-accent-warm">{n(v, 2)} {ru ? 'м/с' : 'm/s'}</span>
             </Formula>
           </div>
         </div>
@@ -76,7 +77,8 @@ function drawTransverse(
   ru: boolean,
 ) {
   ctx.clearRect(0, 0, W, H);
-  const baseY = H / 2;
+  // Reserve room below the largest amplitude for the wavelength annotation.
+  const baseY = (H - 30) / 2;
   ctx.strokeStyle = '#9c8b73';
   ctx.lineWidth = 1;
   ctx.setLineDash([4, 4]);

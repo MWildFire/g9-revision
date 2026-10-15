@@ -1,4 +1,5 @@
 import {FormulaTeaching} from '../components/content/FormulaTeaching';
+import { useEffect } from 'react';
 import { RichText } from '../components/content/RichText';
 import { SubjectScope } from '../components/content/SubjectScope';
 import { Link, useParams } from 'react-router-dom';
@@ -16,6 +17,9 @@ export function MockLessonPage({ embeddedId }: { embeddedId?: string } = {}) {
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const ru = lang === 'ru';
   const lesson = data.lessons.find(l=>l.id===lessonId);
+  useEffect(() => {
+    if (!embeddedId) document.title = `${lesson?.title[lang] ?? (ru ? 'Блок не найден' : 'Lesson not found')} · MYP Revision`;
+  }, [embeddedId, lesson, lang, ru]);
   const Container = embeddedId ? 'div' : 'main';
   if (!lesson) return <Container className="max-w-3xl mx-auto p-8"><p>{ru ? 'Блок не найден.' : 'Lesson not found.'}</p><Link to="/mocks" className="underline">{t('nav.mocks')}</Link></Container>;
   const reviews = ('definitionReviews' in lesson ? lesson.definitionReviews : []) as DefinitionReview[];

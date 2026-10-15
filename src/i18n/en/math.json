@@ -93,7 +93,7 @@
           "name": "Proof by contradiction",
           "rule": "To prove a statement, assume that it is false, so that its negation is true. Keep all the given conditions and the rules of logic. Then use valid steps to reach a result that cannot be true, for example 1 = 2.\n\nThe conditions and the rules of logic are true, so the added assumption must be the false part. Therefore the original statement is true.",
           "examples": [
-            "Prove that √2 is irrational.\n\n- Assume the opposite: √2 is rational. Then √2 = a/b, where a and b are integers with no common factor (the fraction is in its lowest terms).\n- Square both sides: 2 = a²/b², so a² = 2b².\n- The number a² is even, because it equals 2b². If a were odd, a² would be odd, since an odd number multiplied by itself is odd. So a is even, and we can write a = 2k, where k is an integer.\n- Substitute a = 2k: (2k)² = 2b², so 4k² = 2b² and b² = 2k².\n- Now b² is even, so b is even, by the same argument as for a.\n- Both a and b are even, so both have a factor of 2. This contradicts the fact that a/b is in its lowest terms.\n- So the assumption is false, and √2 is irrational.",
+            "Prove that √2 is irrational.\n\n- Assume the opposite: √2 is rational. Then √2 = a/b, where a and b are integers with b ≠ 0 and no common positive factor other than 1 (the fraction is in its lowest terms).\n- Square both sides: 2 = a²/b², so a² = 2b².\n- The number a² is even, because it equals 2b². If a were odd, a² would be odd, since an odd number multiplied by itself is odd. So a is even, and we can write a = 2k, where k is an integer.\n- Substitute a = 2k: (2k)² = 2b², so 4k² = 2b² and b² = 2k².\n- Now b² is even, so b is even, by the same argument as for a.\n- Both a and b are even, so both have a factor of 2. This contradicts the fact that a/b is in its lowest terms.\n- So the assumption is false, and √2 is irrational.",
             "Prove that there are infinitely many prime numbers.\n\n- Assume the opposite: there are finitely many primes. Then they can be listed as p₁, p₂, …, pₙ, and this list contains all the primes.\n- Let N = p₁ × p₂ × … × pₙ + 1. For example, for the primes 2, 3 and 5, N = 2 × 3 × 5 + 1 = 31.\n- Divide N by any pᵢ: the remainder is 1, so no pᵢ is a factor of N.\n- Every integer greater than 1 has a prime factor, because its smallest factor greater than 1 is prime. Take a prime factor of N. It cannot be any pᵢ, because no pᵢ divides N.\n- This contradicts the assumption that the list contains all the primes. So there are infinitely many primes."
           ],
           "review": {
@@ -220,7 +220,7 @@
     },
     "statsExt": {
       "title": "Spread of data and correlation",
-      "body": "Variance measures how far the values of a data set spread from the mean. For n values with mean x̄, the variance is σ² = Σ(x − x̄)² / n. Here Σ means 'add up all the values', and x is each value in turn. The standard deviation σ is the square root of the variance.\n\nFor example, the lengths 2 cm, 4 cm and 6 cm have a mean of 4 cm. The variance is (4 + 0 + 4) / 3 ≈ 2.67 cm², and the standard deviation is √2.67 ≈ 1.63 cm.\n\nCovariance shows how x and y change together. A positive covariance means that y tends to increase as x increases, and a negative one means that y tends to decrease. The covariance depends on the units, so it is divided by σx × σy. The result is Pearson's correlation coefficient r. It has no units and always lies between −1 and 1. If r = 1, the points lie on a straight line with positive gradient. If r = −1, the line has negative gradient.",
+      "body": "Variance measures how far the values of a data set spread from the mean. For a complete data set of n values with mean x̄, its descriptive variance is σ² = Σ(x − x̄)² / n. When estimating a population variance from a random sample, the usual unbiased estimator instead divides the sum of squared deviations by n − 1 (n > 1). Here Σ means 'add up all the values', and x is each value in turn. The standard deviation σ is the square root of the variance.\n\nFor example, the lengths 2 cm, 4 cm and 6 cm have a mean of 4 cm. The variance is (4 + 0 + 4) / 3 ≈ 2.67 cm², and the standard deviation is √2.67 ≈ 1.63 cm.\n\nCovariance shows how x and y change together. Positive covariance indicates an overall positive linear association in the data, and negative covariance an overall negative association. Individual pairs need not follow that overall tendency. For at least two paired observations, provided neither variable is constant, divide the covariance by σx × σy, using the same divisor convention throughout. The result is Pearson's correlation coefficient r. If either standard deviation is zero, r is undefined. It has no units and always lies between −1 and 1. If r = 1, the points lie on a straight line with positive gradient. If r = −1, the line has negative gradient.",
       "review": {
         "englishTerm": "Variance, standard deviation and correlation",
         "russianTerm": "Дисперсия, стандартное отклонение и корреляция",
@@ -439,7 +439,7 @@
             }
           ],
           "model": {
-            "en": "The rule above is for a > 0. Even roots of negative numbers are not real: √(−4) does not exist. Odd roots do exist, for example ∛(−8) = −2.",
+            "en": "The rule above is for a > 0. Even roots of negative numbers are not real: √(−4) has no real value. Odd roots do exist in the real numbers, for example ∛(−8) = −2.",
             "ru": "Правило выше верно при a > 0. Корни чётной степени из отрицательных чисел не существуют в действительных числах, например √(−4). Корни нечётной степени существуют, например ∛(−8) = −2."
           }
         }
@@ -952,7 +952,7 @@
       },
       "transformations": {
         "name": "Transformations of graphs: shifts, stretches and reflections",
-        "rule": "A transformation changes the position or the shape of a graph. In y = a f(x − h) + k, h shifts the graph right by h units, and k shifts it up by k units. If h or k is negative, the shift goes the opposite way. The value |a| is the vertical stretch factor, and a negative a also reflects the graph in the x-axis.\n\nExtended: for y = f(bx), the graph is stretched horizontally by the factor 1/|b|, and a negative b reflects it in the y-axis.",
+        "rule": "A transformation changes the position or the shape of a graph. In y = a f(x − h) + k, h shifts the graph right by h units, and k shifts it up by k units. If h or k is negative, the shift goes the opposite way. The value |a| is the vertical stretch factor, and a negative a also reflects the graph in the x-axis.\n\nExtended: for y = f(bx) with b ≠ 0, the graph is stretched horizontally by the factor 1/|b|, and a negative b reflects it in the y-axis.",
         "examples": [
           "y = (x − 3)² + 2 is the graph of y = x² moved 3 units right and 2 units up. Its vertex is (3, 2).",
           "y = 2x² is the graph of y = x² stretched vertically by factor 2: every y-value doubles. For example, when x = 1, y changes from 1 to 2.",

@@ -200,3 +200,25 @@ test('privacy check refuses to pass without a list of patterns to check against'
     assert.equal(r.run('base'), 0, 'clean text with a pattern list');
   } finally { r.cleanup(); }
 });
+
+test('hub biology summary includes photosynthesis in both languages', () => {
+  const en = JSON.parse(fs.readFileSync('src/i18n/en/hub.json', 'utf8'));
+  const ru = JSON.parse(fs.readFileSync('src/i18n/ru/hub.json', 'utf8'));
+  assert.match(en.subjects.biology.description, /photosynthesis/i);
+  assert.match(ru.subjects.biology.description, /фотосинтез/i);
+});
+
+test('the selected study portion always has a visible full title and accessible association', () => {
+  const source = fs.readFileSync('src/modules/november/NovemberModule.tsx', 'utf8');
+  assert.match(source, /aria-describedby="nov-session-title"/);
+  assert.match(source, /id="nov-session-title" className="nov-session-title"/);
+  assert.doesNotMatch(source, /nov-session-dup/);
+});
+
+test('formula blocks preserve each equation inside a scrollable focusable region', () => {
+  const source = fs.readFileSync('src/components/content/FormulaTeaching.tsx', 'utf8');
+  assert.match(source, /className="formula-teaching-expression"[^>]*tabIndex=\{0\}/);
+  const css = fs.readFileSync('src/index.css', 'utf8');
+  assert.match(css, /\.formula-teaching-expression[^}]*white-space:\s*nowrap\s*!important/);
+  assert.match(css, /\.formula-teaching-expression[^}]*overflow-x:\s*auto/);
+});

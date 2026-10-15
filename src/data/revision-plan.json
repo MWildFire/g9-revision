@@ -143,8 +143,8 @@
       "id": "biology",
       "status": "confirmed",
       "note": {
-        "en": "Current groups plus earlier-year reproduction, muscles and bones. School materials take priority for gaps on this site.",
-        "ru": "Основные группы, плюс размножение, мышцы и кости из прошлых лет. Для пробелов сайта приоритет у школьных материалов."
+        "en": "Thirteen current groups plus earlier-year reproduction, muscles and bones. School materials take priority for gaps on this site.",
+        "ru": "13 основных групп, плюс размножение, мышцы и кости из прошлых лет. Для пробелов сайта приоритет у школьных материалов."
       },
       "title": {
         "en": "Biology",
@@ -168,7 +168,7 @@
       "status": "provisional",
       "note": {
         "en": "Assessment 1 and previous studies are a starting point.",
-        "ru": "Assessment 1 и прежние темы — отправная точка."
+        "ru": "Контрольная работа 1 (Assessment 1) и прежние темы — отправная точка."
       },
       "title": {
         "en": "Mathematics",
@@ -203,8 +203,8 @@
       "id": "arabic",
       "status": "conditional",
       "note": {
-        "en": "Only include if registered for this exam.",
-        "ru": "Добавляй, только если записан на этот экзамен."
+        "en": "Only include if registered for this exam. Confirm the current topics with your teacher before adding revision.",
+        "ru": "Добавляй, только если записан на этот экзамен. Перед подготовкой уточни актуальные темы у учителя."
       },
       "title": {
         "en": "Arabic",
@@ -280,7 +280,7 @@
       "subject": "physics",
       "title": {
         "en": "Waves, sound, EM spectrum and optics",
-        "ru": "Волны, звук, ЭМ-спектр и оптика"
+        "ru": "Волны, звук, шкала электромагнитных волн и оптика"
       },
       "route": "/november/p-waves",
       "source": "physics"
@@ -330,7 +330,7 @@
       "subject": "chemistry",
       "title": {
         "en": "Energy changes and chemical cells",
-        "ru": "Энергия реакций и химические источники тока"
+        "ru": "Энергетика реакций и химические источники тока"
       },
       "route": "/november/c-energy",
       "source": "chemistry"
@@ -480,7 +480,7 @@
       "subject": "geography",
       "title": {
         "en": "Tectonics and case-study arguments",
-        "ru": "Тектоника и аргументация по кейсам"
+        "ru": "Тектоника и аргументация на конкретных примерах"
       },
       "route": "/november/g-tectonics",
       "source": "geography"
@@ -490,7 +490,7 @@
       "subject": "geography",
       "title": {
         "en": "Rivers, tourism, resources and atmospheric hazards",
-        "ru": "Реки, туризм, ресурсы и атмосферные опасности"
+        "ru": "Реки, туризм, ресурсы и опасные атмосферные явления"
       },
       "route": "/november/g-previous",
       "source": "geography"
@@ -510,7 +510,7 @@
       "subject": "english",
       "title": {
         "en": "Task 2: monologue and play script",
-        "ru": "Task 2: монолог и театральный сценарий"
+        "ru": "Task 2: монолог и сценарий пьесы"
       },
       "route": "/november/e-creative",
       "source": "english"
@@ -530,7 +530,7 @@
       "subject": "french",
       "title": {
         "en": "Listening and reading with evidence",
-        "ru": "Аудирование и чтение с доказательствами"
+        "ru": "Аудирование и чтение с опорой на текст"
       },
       "route": "/november/f-listen",
       "source": "french"
@@ -600,7 +600,7 @@
       "subject": "skills",
       "title": {
         "en": "Criterion B: plan an investigation",
-        "ru": "Criterion B: спроектировать исследование"
+        "ru": "Критерий B (Criterion B): спроектировать исследование"
       },
       "route": "/november/s-b",
       "source": "chem-b"
@@ -610,7 +610,7 @@
       "subject": "skills",
       "title": {
         "en": "Criterion C: graph, analyse and evaluate",
-        "ru": "Criterion C: график, анализ и оценка"
+        "ru": "Критерий C (Criterion C): график, анализ и оценка"
       },
       "route": "/november/s-c",
       "source": "chem-c"
@@ -620,7 +620,7 @@
       "subject": "skills",
       "title": {
         "en": "Criterion D: evidence and implications",
-        "ru": "Criterion D: доказательства и последствия"
+        "ru": "Критерий D (Criterion D): доказательства и последствия"
       },
       "route": "/november/s-d",
       "source": "chem-d"
@@ -697,7 +697,7 @@
       "id": "exams",
       "title": {
         "en": "9–13 Nov · Exam week",
-        "ru": "9–13 ноя · Неделя экзаменов"
+        "ru": "9–13 ноя · Неделя пробных экзаменов"
       },
       "note": {
         "en": "After each exam, switch to the next subject. Do not dwell on the last exam.",
@@ -867,7 +867,7 @@
           ],
           "task": {
             "en": "Listening and reading with evidence; Vocabulary, time frames and complex sentences — look at one model answer first, then answer on your own. Feedback is in the lesson.",
-            "ru": "Аудирование и чтение с доказательствами; Лексика, времена и сложные предложения — сначала посмотри один разобранный образец, потом ответь сам. Обратная связь — на уроке."
+            "ru": "Аудирование и чтение с опорой на текст; Лексика, времена и сложные предложения — сначала посмотри один разобранный образец, потом ответь сам. Обратная связь — на уроке."
           },
           "lesson": true,
           "id": "v2:2026-10-13-2",
@@ -907,7 +907,7 @@
           ],
           "task": {
             "en": "Task 2: monologue and play script — read one model answer, then write your own response. You get feedback in the lesson.",
-            "ru": "Task 2: монолог и театральный сценарий — прочитай один разобранный образец, затем напиши собственный ответ. Обратную связь получишь на уроке."
+            "ru": "Task 2: монолог и сценарий пьесы — прочитай один разобранный образец, затем напиши собственный ответ. Обратную связь получишь на уроке."
           },
           "lesson": true,
           "id": "v2:2026-10-14-1",
@@ -1037,7 +1037,7 @@
           ],
           "task": {
             "en": "Half-life and random decay",
-            "ru": "Период полураспада и случайность распада"
+            "ru": "Период полураспада и случайный характер распада"
           }
         }
       ],
@@ -1073,7 +1073,7 @@
           ],
           "task": {
             "en": "Energy changes and chemical cells (Chemistry)",
-            "ru": "Энергия реакций и химические источники тока (химия)"
+            "ru": "Энергетика реакций и химические источники тока (химия)"
           }
         },
         {
@@ -1173,7 +1173,7 @@
           ],
           "task": {
             "en": "Tectonics and case-study arguments (Geography)",
-            "ru": "Тектоника и аргументация по кейсам (география)"
+            "ru": "Тектоника и аргументация на конкретных примерах (география)"
           }
         }
       ],
@@ -1209,7 +1209,7 @@
           ],
           "task": {
             "en": "Listening and reading with evidence — read the model, try your own answer, and get feedback during the lesson.",
-            "ru": "Аудирование и чтение с доказательствами — разбери образец, попробуй ответить самостоятельно и получи обратную связь на уроке."
+            "ru": "Аудирование и чтение с опорой на текст — разбери образец, попробуй ответить самостоятельно и получи обратную связь на уроке."
           },
           "lesson": true,
           "id": "v2:2026-10-20-2",
@@ -1228,7 +1228,7 @@
           ],
           "task": {
             "en": "Contamination, irradiation and hazards (Physics)",
-            "ru": "Загрязнение, облучение и опасность (физика)"
+            "ru": "Радиоактивное загрязнение, облучение и опасности (физика)"
           }
         }
       ],
@@ -1452,7 +1452,7 @@
           ],
           "task": {
             "en": "Criterion C: graph, analyse and evaluate (Scientific skills)",
-            "ru": "Criterion C: график, анализ и оценка (научные навыки)"
+            "ru": "Критерий C (Criterion C): график, анализ и оценка (научные навыки)"
           }
         },
         {
@@ -1466,7 +1466,7 @@
           ],
           "task": {
             "en": "Waves, sound, EM spectrum and optics (Physics)",
-            "ru": "Волны, звук, ЭМ-спектр и оптика (физика)"
+            "ru": "Волны, звук, шкала электромагнитных волн и оптика (физика)"
           }
         }
       ],
@@ -1520,7 +1520,7 @@
           ],
           "task": {
             "en": "Criterion B: plan an investigation (Scientific skills)",
-            "ru": "Criterion B: спроектировать исследование (научные навыки)"
+            "ru": "Критерий B (Criterion B): спроектировать исследование (научные навыки)"
           }
         }
       ],
@@ -1541,7 +1541,7 @@
           ],
           "task": {
             "en": "Task 1: text and film analysis; comparison; Task 2: monologue and play script — a model first, then your own response, with feedback in the lesson.",
-            "ru": "Task 1: анализ текста и фильма; сравнение; Task 2: монолог и театральный сценарий — сначала разбери образец, затем напиши свой ответ. Обратная связь — на уроке."
+            "ru": "Task 1: анализ текста и фильма; сравнение; Task 2: монолог и сценарий пьесы — сначала разбери образец, затем напиши свой ответ. Обратная связь — на уроке."
           },
           "lesson": true,
           "id": "v2:2026-10-27-1",
@@ -1575,7 +1575,7 @@
           ],
           "task": {
             "en": "Choosing radiation for a purpose (Physics)",
-            "ru": "Выбор излучения для цели (физика)"
+            "ru": "Выбор излучения для определённой цели (физика)"
           }
         }
       ],
@@ -1651,7 +1651,7 @@
           ],
           "task": {
             "en": "Listening and reading with evidence; Vocabulary, time frames and complex sentences — model first, then your own answer, with feedback in the lesson.",
-            "ru": "Аудирование и чтение с доказательствами; Лексика, времена и сложные предложения — разбери образец, сделай самостоятельный ответ и получи обратную связь на уроке."
+            "ru": "Аудирование и чтение с опорой на текст; Лексика, времена и сложные предложения — разбери образец, ответь самостоятельно и получи обратную связь на уроке."
           },
           "lesson": true,
           "id": "v2:2026-10-29-2",
@@ -1883,7 +1883,7 @@
           ],
           "task": {
             "en": "Task 1: text and film analysis; comparison; Task 2: monologue and play script; Task 3: speech, article and other text types — one worked model, independent response, feedback within the lesson.",
-            "ru": "Task 1: анализ текста и фильма; сравнение; Task 2: монолог и театральный сценарий; Task 3: речь, статья и другие типы текстов — один образец, самостоятельный ответ и обратная связь внутри урока."
+            "ru": "Task 1: анализ текста и фильма; сравнение; Task 2: монолог и сценарий пьесы; Task 3: речь, статья и другие типы текстов — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
           "id": "v2:2026-11-03-1",
@@ -1898,7 +1898,7 @@
           ],
           "task": {
             "en": "Listening and reading with evidence; Opinions, technology and accurate writing — one worked model, independent response, feedback within the lesson.",
-            "ru": "Аудирование и чтение с доказательствами; Мнения, технологии и грамотное письмо — один образец, самостоятельный ответ и обратная связь внутри урока."
+            "ru": "Аудирование и чтение с опорой на текст; Мнения, технологии и грамотное письмо — один образец, самостоятельный ответ и обратная связь внутри урока."
           },
           "lesson": true,
           "id": "v2:2026-11-03-2",
@@ -1946,7 +1946,7 @@
           ],
           "task": {
             "en": "Rivers, tourism, resources and atmospheric hazards (Geography)",
-            "ru": "Реки, туризм, ресурсы и атмосферные опасности (география)"
+            "ru": "Реки, туризм, ресурсы и опасные атмосферные явления (география)"
           }
         },
         {
@@ -1960,7 +1960,7 @@
           ],
           "task": {
             "en": "Criterion D: evidence and implications (across all three sciences)",
-            "ru": "Criterion D: доказательства и последствия (во всех трёх науках)"
+            "ru": "Критерий D (Criterion D): доказательства и последствия (во всех трёх науках)"
           }
         }
       ],
@@ -2087,7 +2087,7 @@
           ],
           "task": {
             "en": "Recall task structures, a few precise analysis points and an editing checklist. No full paper.",
-            "ru": "Вспомни структуру заданий, несколько точных приёмов анализа и список для редактуры. Полный вариант не нужен."
+            "ru": "Вспомни структуру заданий, несколько точных приёмов анализа и чек-лист для проверки текста. Полный вариант не нужен."
           },
           "id": "2026-11-08-1"
         },
@@ -2194,7 +2194,7 @@
           ],
           "task": {
             "en": "Geography case-study facts and answer structure.",
-            "ru": "Факты кейсов по географии и структура ответа."
+            "ru": "Факты по конкретным примерам (география) и структура ответа."
           },
           "id": "2026-11-11-1"
         },
@@ -2232,7 +2232,7 @@
           ],
           "task": {
             "en": "Maths error log, formulas and two short confidence-building questions.",
-            "ru": "Журнал ошибок по математике, формулы и два коротких вопроса для уверенности."
+            "ru": "Журнал ошибок по математике, формулы и два коротких вопроса, чтобы проверить себя."
           },
           "id": "2026-11-12-1"
         }
@@ -2278,7 +2278,7 @@
       "date": "2026-11-11",
       "am": {
         "en": "MFL (French)",
-        "ru": "Французский (MFL)"
+        "ru": "Французский"
       },
       "pm": {
         "en": "Chemistry",

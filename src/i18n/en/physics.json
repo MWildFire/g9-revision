@@ -2460,7 +2460,7 @@
       },
       "safety": {
         "name": "Mains electricity & safety",
-        "rule": "Excess current heats the wiring. Protection devices open the circuit: a fuse melts, and a circuit breaker switches off when the current is dangerously large. Earthing gives a fault current an alternative path, so the protection can act.",
+        "rule": "Excess current heats the wiring. Protection devices open the circuit: a fuse melts, and a circuit breaker switches off when the current is dangerously large. Protective earthing provides a low-resistance path for a fault current so that protective devices can disconnect the supply.",
         "examples": [
           "A short circuit may produce excessive current and operate overcurrent protection.",
           "If a live wire touches a metal casing, the fault current can flow through the earth connection, and the fuse or circuit breaker may switch the circuit off."

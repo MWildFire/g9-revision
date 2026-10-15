@@ -2,135 +2,52 @@ import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { SimulationPanel } from '../../ui/Tabs';
+import { EM_EXAMPLES, vacuumWavelength } from './waveModels';
 
-interface Region {
-  id: 'radio' | 'micro' | 'ir' | 'visible' | 'uv' | 'xray' | 'gamma';
-  // log10 frequency in Hz (approx midpoints)
-  freqLog: number;
-  wavelength: string;
-  wavelengthRu: string;
-  color: string;
-}
-
-const REGIONS: Region[] = [
-  { id: 'radio', wavelengthRu: '~100 м', freqLog: 6.5, wavelength: '~100 m', color: '#9c8b73' },
-  { id: 'micro', wavelengthRu: '~10 см', freqLog: 9.5, wavelength: '~10 cm', color: '#a8b5a0' },
-  { id: 'ir', wavelengthRu: '~10 мкм', freqLog: 13.5, wavelength: '~10 μm', color: '#c99a8e' },
-  { id: 'visible', wavelengthRu: '500 нм', freqLog: 14.8, wavelength: '500 nm', color: '#c9a876' },
-  { id: 'uv', wavelengthRu: '~10 нм', freqLog: 16.5, wavelength: '~10 nm', color: '#a8b8c8' },
-  { id: 'xray', wavelengthRu: '~0,1 нм', freqLog: 18.5, wavelength: '~0.1 nm', color: '#6b5b47' },
-  { id: 'gamma', wavelengthRu: '~10⁻¹² м', freqLog: 20.5, wavelength: '~10⁻¹² m', color: '#3d2f1f' },
-];
-
-const F_MIN = 5;
-const F_MAX = 22;
+const COLORS = ['#9c8b73', '#a8b5a0', '#c99a8e', '#c9a876', '#a8b8c8', '#6b5b47', '#3d2f1f'];
 
 export function EMSpectrum() {
   const { t, i18n } = useTranslation('physics');
   const ru = i18n.language.startsWith('ru');
-  const [pos, setPos] = useState(14.5);
-
-  // find closest region
-  const current = REGIONS.reduce((best, r) =>
-    Math.abs(r.freqLog - pos) < Math.abs(best.freqLog - pos) ? r : best,
-  );
-
-  const sliderPercent = ((pos - F_MIN) / (F_MAX - F_MIN)) * 100;
+  const [selected, setSelected] = useState(3);
+  const current = EM_EXAMPLES[selected];
+  const wavelength = vacuumWavelength(current.frequency);
+  const exponent = Math.floor(Math.log10(current.frequency));
+  const number = (value: number) => value.toLocaleString(ru ? 'ru-RU' : 'en-GB', { maximumFractionDigits: 3 });
+  const length = wavelength >= 1 ? [wavelength, ru ? 'м' : 'm']
+    : wavelength >= .01 ? [wavelength * 100, ru ? 'см' : 'cm']
+    : wavelength >= 1e-6 ? [wavelength * 1e6, ru ? 'мкм' : 'μm']
+    : [wavelength * 1e9, ru ? 'нм' : 'nm'];
 
   return (
     <SimulationPanel title={t('wavesOptics.sim4.title')} description={t('wavesOptics.sim4.desc')}>
       <div className="space-y-5">
-        <div>
-          <div
-            className="h-12 rounded-md border border-border overflow-hidden flex"
-            aria-hidden
-          >
-            {REGIONS.map((r, i) => {
-              const next = REGIONS[i + 1]?.freqLog ?? F_MAX;
-              const prev = REGIONS[i - 1]?.freqLog ?? F_MIN;
-              const width = ((next - prev) / 2 / (F_MAX - F_MIN)) * 100;
-              return (
-                <div
-                  key={r.id}
-                  style={{ background: r.color, width: `${width}%` }}
-                  className="opacity-80 hover:opacity-100 transition-opacity"
-                />
-              );
-            })}
-          </div>
-          <div className="relative mt-2">
-            <input
-              type="range"
-              min={F_MIN}
-              max={F_MAX}
-              step={0.1}
-              value={pos}
-              onChange={(e) => setPos(parseFloat(e.target.value))}
-            />
-            <div
-              className="absolute top-[-26px] -translate-x-1/2 transition-all pointer-events-none"
-              style={{ left: `${sliderPercent}%` }}
-            >
-              <div className="w-0.5 h-3 bg-text-primary mx-auto" />
-            </div>
-          </div>
-          <div className="flex justify-between text-xs text-text-muted mt-1 font-mono">
-            <span>10⁵ {ru ? 'Гц' : 'Hz'}</span>
-            <span>10¹⁰</span>
-            <span>10¹⁵</span>
-            <span>10²² {ru ? 'Гц' : 'Hz'}</span>
-          </div>
+        <div className="h-12 rounded-md border border-border overflow-hidden flex" aria-hidden>
+          {EM_EXAMPLES.map((region, index) => <div key={region.id} style={{ background: COLORS[index], width: `${100 / EM_EXAMPLES.length}%` }} className="opacity-80" />)}
         </div>
-
-        <div
-          className="bg-bg-secondary border border-border rounded-md p-5"
-          style={{ borderLeft: `4px solid ${current.color}` }}
-        >
-          <h3 className="font-serif text-2xl font-medium">
-            {t(`wavesOptics.sim4.regions.${current.id}`)}
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-3 text-sm">
-            <div>
-              <p className="text-xs uppercase tracking-wider text-text-muted">
-                {t('wavesOptics.sim4.frequency')}
-              </p>
-              <p className="font-mono">~{(10 ** (current.freqLog % 1)).toFixed(1)} × 10<sup>{Math.floor(current.freqLog)}</sup> {ru ? 'Гц' : 'Hz'}</p>
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-wider text-text-muted">
-                {t('wavesOptics.sim4.wavelength')}
-              </p>
-              <p className="font-mono">{ru ? current.wavelengthRu : current.wavelength}</p>
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-wider text-text-muted">
-                {t('wavesOptics.sim4.use')}
-              </p>
-              <p>{t(`wavesOptics.sim4.uses.${current.id}`)}</p>
-            </div>
-          </div>
-        </div>
-
+        <p className="text-xs text-text-muted">{ru ? 'Выбери пример. Цветные полосы обозначают порядок диапазонов, а не их ширину.' : 'Choose an example. The coloured bands show the order of regions, not their widths.'}</p>
         <div className="grid grid-cols-3 sm:grid-cols-7 gap-2">
-          {REGIONS.map((r) => (
-            <button
-              key={r.id}
-              onClick={() => setPos(r.freqLog)}
-              className={`text-xs px-2 py-1.5 rounded-md border transition-colors text-center ${
-                current.id === r.id
-                  ? 'bg-bg-secondary border-text-primary'
-                  : 'border-border bg-bg-tertiary hover:bg-bg-secondary'
-              }`}
-            >
-              <span
-                className="inline-block w-2 h-2 rounded-full mr-1 align-middle"
-                style={{ background: r.color }}
-              />
-              {t(`wavesOptics.sim4.regions.${r.id}`)}
+          {EM_EXAMPLES.map((region, index) => (
+            <button key={region.id} onClick={() => setSelected(index)} aria-pressed={selected === index}
+              className={`text-xs px-2 py-1.5 rounded-md border transition-colors text-center ${selected === index ? 'bg-bg-secondary border-text-primary' : 'border-border bg-bg-tertiary hover:bg-bg-secondary'}`}>
+              <span className="inline-block w-2 h-2 rounded-full mr-1 align-middle" style={{ background: COLORS[index] }} />
+              {t(`wavesOptics.sim4.regions.${region.id}`)}
             </button>
           ))}
         </div>
+        <div className="bg-bg-secondary border border-border rounded-md p-5" style={{ borderLeft: `4px solid ${COLORS[selected]}` }}>
+          <h3 className="font-serif text-2xl font-medium">{t(`wavesOptics.sim4.regions.${current.id}`)}</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-3 text-sm">
+            <div><p className="text-xs uppercase tracking-wider text-text-muted">{t('wavesOptics.sim4.frequency')}</p>
+              <p className="font-mono">{number(current.frequency / 10 ** exponent)} × 10<sup>{exponent}</sup> {ru ? 'Гц' : 'Hz'}</p></div>
+            <div><p className="text-xs uppercase tracking-wider text-text-muted">{t('wavesOptics.sim4.wavelength')}</p>
+              <p className="font-mono">≈ {number(Number(length[0]))} {length[1]}</p></div>
+            <div><p className="text-xs uppercase tracking-wider text-text-muted">{t('wavesOptics.sim4.use')}</p>
+              <p>{t(`wavesOptics.sim4.uses.${current.id}`)}</p></div>
+          </div>
+        </div>
       </div>
-    <FormulaTeaching id="wave"/><FormulaTeaching id="photon"/></SimulationPanel>
+      <FormulaTeaching id="wave"/><FormulaTeaching id="photon"/>
+    </SimulationPanel>
   );
 }

@@ -1,3 +1,4 @@
+import { wavefrontPhase } from './waveModels';
 import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState, useRef } from 'react';
@@ -67,12 +68,13 @@ function drawScene(ctx: CanvasRenderingContext2D, slit: number, lam: number, tim
   const slitTop = SLIT_CENTER_Y - slitHalf;
   const slitBottom = SLIT_CENTER_Y + slitHalf;
   const speed = 50;
+  const phase = wavefrontPhase(lam, speed, time);
 
   // Incoming plane waves (left of wall)
   ctx.strokeStyle = '#c9a876';
   ctx.lineWidth = 2;
   for (let i = -1; i < 8; i++) {
-    const x = WALL_X - 30 - i * lam + ((time * speed) % lam);
+    const x = WALL_X - lam - i * lam + phase;
     if (x < 4 || x > WALL_X - 4) continue;
     ctx.beginPath();
     ctx.moveTo(x, 14);
@@ -89,9 +91,8 @@ function drawScene(ctx: CanvasRenderingContext2D, slit: number, lam: number, tim
   // For narrow slits this naturally degenerates into a full semicircle (point-source-like).
   ctx.strokeStyle = '#a8b8c8';
   ctx.lineWidth = 2;
-  const phase = (time * speed) % lam;
   const maxR = W - WALL_X - 8;
-  for (let r = lam - phase; r < maxR; r += lam) {
+  for (let r = phase; r < maxR; r += lam) {
     if (r < 4) continue;
 
     ctx.beginPath();

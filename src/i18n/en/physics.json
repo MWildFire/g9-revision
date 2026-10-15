@@ -3276,7 +3276,7 @@
       },
       "sound": {
         "name": "Sound waves and hearing",
-        "rule": "**Sound** is a mechanical longitudinal wave: it moves as pressure variations through a medium such as air, water or metal. Pitch depends mainly on frequency, and higher frequency gives a higher pitch. Loudness depends on the intensity of the wave and also on frequency, because the ear is not equally sensitive to all frequencies.",
+        "rule": "**Sound in air** is a longitudinal mechanical wave: it travels as pressure variations. Sound needs a material medium. In gases and liquids it is longitudinal; solids can also support transverse elastic waves. Pitch depends mainly on frequency, and higher frequency gives a higher pitch. Loudness depends on the intensity of the wave and also on frequency, because the ear is not equally sensitive to all frequencies.",
         "examples": [
           "Thunder heard 3 s after a lightning flash comes from about 343 m/s × 3 s ≈ 1 km away (air at 20 °C).",
           "Ultrasound is sound above 20 kHz, the upper limit of human hearing. Medical scanners use it to form images of organs inside the body."
@@ -3319,7 +3319,7 @@
       "amplitude": {
         "name": "Amplitude",
         "alt": "Амплитуда",
-        "definition": "The amplitude of a wave is the greatest distance of a particle from its equilibrium position.",
+        "definition": "For a mechanical wave, amplitude is the greatest displacement of a particle from its equilibrium position.",
         "example": "If you shake a rope harder, its crests rise higher above the equilibrium position, so the amplitude is larger.",
         "review": {
           "englishTerm": "Amplitude",
@@ -3435,7 +3435,7 @@
       "transverse": {
         "name": "Transverse wave",
         "alt": "Поперечная волна",
-        "definition": "A transverse wave is one in which the particles move at right angles to the wave's direction of travel.",
+        "definition": "In a transverse mechanical wave, particles oscillate at right angles to the direction in which the wave travels.",
         "example": "Other earthquake waves, called S-waves, are transverse: the ground moves from side to side, at right angles to the wave's direction.",
         "review": {
           "englishTerm": "Transverse wave",
@@ -3667,7 +3667,7 @@
     },
     "sim1": {
       "title": "Wave Explorer",
-      "desc": "Move the frequency or wavelength slider and watch the product f × λ on the screen: in one medium the wave speed is fixed, so when f goes up, λ goes down.",
+      "desc": "Choose frequency and wavelength independently in this model. The displayed speed is their product, f × λ, and the animation uses the same values. For a wave whose speed is fixed by its medium, frequency and wavelength cannot be chosen independently: a higher frequency requires a shorter wavelength.",
       "amplitude": "Amplitude",
       "wavelength": "Wavelength",
       "frequency": "Frequency",
@@ -3696,7 +3696,7 @@
     },
     "sim4": {
       "title": "Electromagnetic Spectrum",
-      "desc": "Move the slider or press a region name. In a vacuum, c = fλ, so a higher frequency means a shorter wavelength. Region boundaries are approximate.",
+      "desc": "Choose one example from each of seven regions. These are illustrative frequency–wavelength pairs, not a continuous scale or region boundaries. In a vacuum, c = fλ, so higher frequency means shorter wavelength.",
       "frequency": "Frequency",
       "wavelength": "Wavelength",
       "use": "Typical use",
@@ -3735,7 +3735,7 @@
     },
     "simSound": {
       "title": "Sound Wave — Pitch & Loudness",
-      "desc": "Move the frequency slider to change the pitch, and the amplitude slider to change the loudness. The air particles below show compressions and rarefactions.",
+      "desc": "Compare frequency, amplitude, and air compressions. The drawing is a slowed schematic snapshot along the wave, with arbitrary distance and amplitude scales; it does not reproduce the displayed frequency in real time.",
       "frequency": "Frequency",
       "amplitude": "Amplitude"
     },

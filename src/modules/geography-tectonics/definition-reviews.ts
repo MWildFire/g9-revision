@@ -48,8 +48,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Lithosphere",
     "russianTerm": "Литосфера",
     "contrast": {
-      "en": "Compare butter from the fridge with butter left out to warm: it is the same substance, but the cold butter is firm and the warm butter is soft. The rigid lithosphere is like the cold butter, while the asthenosphere below it is warmer and weaker. This is why the lower edge of the lithosphere is set by temperature, not by the crust–mantle boundary.",
-      "ru": "Сравни масло из холодильника с маслом, которое оставили на тепле: это одно и то же вещество, но холодное масло твёрдое, а тёплое мягкое. Жёсткая литосфера похожа на холодное масло, а астеносфера (asthenosphere) под ней теплее и слабее. Поэтому нижняя граница литосферы задаётся температурой, а не границей коры и мантии."
+      "en": "Compare cold butter with warmer butter: temperature can change how easily the same material deforms. Likewise, temperature strongly affects mantle strength. The lithosphere–asthenosphere boundary separates comparatively strong and weak material; it does not coincide with the compositional crust–mantle boundary. Temperature is important, but composition, water and partial melt can also affect the transition.",
+      "ru": "Сравни холодное и согретое масло: температура меняет способность одного материала деформироваться. Температура сильно влияет и на прочность мантийных пород. Граница литосферы и астеносферы разделяет относительно жёсткое и более слабое вещество; она не совпадает с границей коры и мантии, выделяемой по составу. Важна температура, но на переход могут влиять также состав, вода и частичное плавление."
     },
     "sources": [
       {
@@ -156,8 +156,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Collision",
     "russianTerm": "Коллизия",
     "contrast": {
-      "en": "Think of it as a sequence: first an ocean separates two continents, and oceanic lithosphere sinks beneath one of them. When the ocean has closed, the continents meet, and neither sinks far, so the crust is squeezed into mountains, as in the Himalayas.",
-      "ru": "Представь последовательность: сначала океан разделяет два континента, и океаническая литосфера погружается под один из них. Когда океан закрывается, континенты сходятся, ни один из них глубоко не погружается, поэтому кора сминается и образует горы, как в Гималаях."
+      "en": "First an ocean separates two continents, and oceanic lithosphere subducts. As the continents converge, their buoyant crust resists further subduction, shortening and thickening to build mountains such as the Himalayas. Some continental material can nevertheless be carried deep into the mantle; collision does not mean that all continental rock stays near the surface.",
+      "ru": "Сначала два континента разделены океаном, а океаническая литосфера погружается в мантию. При сближении континентов плавучесть их коры затрудняет дальнейшее погружение; кора укорачивается и утолщается, образуя горы, например Гималаи. Однако часть континентального материала может быть унесена глубоко в мантию: коллизия не означает, что все континентальные породы остаются у поверхности."
     },
     "sources": [
       {
@@ -757,8 +757,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Evaluate",
     "russianTerm": "Оценить",
     "contrast": {
-      "en": "Take the question: 'Evaluate base isolation for a city with frequent earthquakes.' A weak answer lists advantages and disadvantages and stops there. A strong answer weighs them using criteria such as safety and cost. Isolation is justified for a hospital that must keep working after a quake, but probably not for a small building in a low-risk area.",
-      "ru": "Возьми вопрос: «Оцени сейсмоизоляцию для города с частыми землетрясениями». Слабый ответ перечисляет плюсы и минусы и на этом останавливается. Сильный ответ взвешивает их по критериям, например по безопасности и стоимости. Для больницы, которая должна работать после толчков, сейсмоизоляция оправдана, а для небольшого дома в зоне низкого риска, скорее всего, нет."
+      "en": "For “Evaluate base isolation in a city with frequent earthquakes”, weigh benefits and limitations against criteria such as expected shaking, continued operation, site suitability and cost. A hospital that must keep working may justify a different investment from another building in the same city. End with a conditional judgement supported by the evidence provided.",
+      "ru": "В вопросе «Оцени сейсмоизоляцию в городе с частыми землетрясениями» сопоставь достоинства и ограничения по критериям: ожидаемые колебания, сохранение работы, условия площадки и стоимость. Для больницы, которая должна продолжать работать, может быть оправдан иной объём затрат, чем для другого здания в том же городе. Заверши ответ выводом с условиями и опорой на данные."
     },
     "sources": [
       {

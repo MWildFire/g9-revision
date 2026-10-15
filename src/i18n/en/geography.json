@@ -693,8 +693,8 @@
         "englishTerm": "Human development",
         "russianTerm": "Человеческое развитие",
         "contrast": {
-          "en": "Do not confuse GDP (gross domestic product) with human development. GDP is the value of goods and services produced in a country in a year; it does not show whether people are healthy, educated or free to choose.",
-          "ru": "Не путай ВВП (gross domestic product, GDP) и человеческое развитие. ВВП — это стоимость товаров и услуг, созданных в стране за год; он не показывает, здоровы ли люди, получили ли они образование и могут ли свободно выбирать."
+          "en": "Do not confuse GDP (gross domestic product) with human development. GDP measures the value of final goods and services produced within an economy over a stated period, such as a year. Counting final output avoids counting intermediate inputs again. GDP alone does not show whether people are healthy, educated or free to choose.",
+          "ru": "Не путай ВВП (gross domestic product, GDP) и человеческое развитие. ВВП показывает стоимость конечных товаров и услуг, произведённых внутри экономики за определённый период, например год. Промежуточную продукцию не прибавляют повторно к стоимости конечной. Сам по себе ВВП не показывает, здоровы ли люди, получили ли они образование и могут ли свободно выбирать."
         },
         "sources": [
           {
@@ -733,8 +733,8 @@
               "englishTerm": "Abrasion (corrasion)",
               "russianTerm": "Истирание русла наносами (abrasion)",
               "contrast": {
-                "en": "Abrasion wears down the channel (bed and banks); attrition wears down the transported fragments themselves. Coastal abrasion, where waves wear down cliffs, is a different process with the same name.",
-                "ru": "Истирание русла наносами (abrasion) разрушает дно и берега, а истирание обломков (attrition) стирает сами переносимые камни. Не путай с морской абразией, при которой волны разрушают берега: это другой процесс."
+                "en": "Abrasion wears the channel bed and banks; attrition wears the transported fragments themselves. Coastal erosion is a broader setting with wave and current action, so do not use it as a synonym for river abrasion.",
+                "ru": "Истирание русла наносами (abrasion) разрушает дно и берега; истирание и дробление обломков (attrition) изменяет сами переносимые камни. Морская абразия относится к разрушению берегов волнами и течениями: её нельзя подставлять вместо речного термина без учёта контекста."
               },
               "sources": [
                 {

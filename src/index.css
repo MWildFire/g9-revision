@@ -205,3 +205,30 @@ input[type='range']::-moz-range-thumb {
 .rich-text > * + * { margin-top: 0.6em; }
 .rich-text ul { list-style: disc; padding-left: 1.25rem; }
 .rich-text li + li { margin-top: 0.25em; }
+
+/* Keep complete equations readable within their card at narrow widths. */
+.formula-teaching .formula-teaching-expression {
+  white-space: nowrap !important;
+  overflow-wrap: normal;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.formula-teaching-expression:focus-visible {
+  outline: 2px solid var(--color-text-primary);
+  outline-offset: 2px;
+}
+.katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.2em;
+}
+.katex-display > .katex { text-align: left; }
+/* The canvas already provides keyboard-accessible horizontal scrolling. */
+@media screen and (max-width: 700px) {
+  .mathrev-diagram-canvas { padding-inline-end: 24px; }
+  .mathrev-diagram-canvas svg { min-width: 420px !important; overflow: visible; }
+  .nuclear-visual { overflow-x: auto; }
+  .nuclear-visual > svg { min-width: 540px; }
+  .definition-diagram .definition-diagram-viewport svg { min-width: 420px; }
+}

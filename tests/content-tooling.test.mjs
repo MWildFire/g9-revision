@@ -200,3 +200,56 @@ test('privacy check refuses to pass without a list of patterns to check against'
     assert.equal(r.run('base'), 0, 'clean text with a pattern list');
   } finally { r.cleanup(); }
 });
+
+// Inspect the integration entrypoint without executing it: publishing is never part of a test.
+test('integration uses a published privacy checker for staged and committed changes', () => {
+  const script = fs.readFileSync('scripts/content/integrate.sh', 'utf8');
+  assert.match(script, /git show origin\/main:scripts\/content\/privacy-check\.mjs/);
+  assert.match(script, /G9_COMMIT_MSG="\$MSG" node "\$PRIVACY_CHECK" --staged/);
+  assert.match(script, /node "\$PRIVACY_CHECK" origin\/main/);
+  assert.doesNotMatch(script, /node scripts\/content\/privacy-check\.mjs/);
+  assert.match(script, /rm -f "\$PRIVACY_CHECK"/);
+});
+
+test('integration recovery preserves the merge base and distinguishes no-op publication', () => {
+  const script = fs.readFileSync('scripts/content/integrate.sh', 'utf8');
+  assert.ok(script.includes('git reset --soft "$(git merge-base HEAD origin/main)"'));
+  assert.doesNotMatch(script, /git reset --soft origin\/main/);
+  const guard = script.indexOf('if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then');
+  assert.ok(guard >= 0 && guard < script.indexOf('git push -q origin HEAD:main'));
+  assert.match(script.slice(guard, script.indexOf('git push -q origin HEAD:main')), /nothing to push[\s\S]*exit 0/);
+  execFileSync('bash', ['-n', 'scripts/content/integrate.sh']);
+});
+
+test('the published privacy checker rejects a branch that replaces its local checker', () => {
+  const r = privacyRepo();
+  try {
+    const relative = 'scripts/content/privacy-check.mjs';
+    fs.mkdirSync(path.join(r.dir, 'scripts/content'), { recursive: true });
+    fs.copyFileSync(path.resolve(relative), path.join(r.dir, relative));
+    r.git('add', relative); r.git('commit', '-qm', 'publish checker');
+    r.git('update-ref', 'refs/remotes/origin/main', 'HEAD');
+    fs.writeFileSync(path.join(r.dir, relative), 'process.exit(0);\n');
+    fs.writeFileSync(path.join(r.dir, 'a.txt'), 'Zorblax\n');
+    r.git('commit', '-qam', 'replace checker');
+    fs.writeFileSync(r.patterns, '\\bZorblax\\b\n');
+    const published = path.join(r.dir, 'published-check.mjs');
+    fs.writeFileSync(published, r.git('show', `origin/main:${relative}`));
+    assert.throws(() => execFileSync(process.execPath, [published, 'origin/main'], {
+      cwd: r.dir, env: { ...process.env, G9_PRIVACY_PATTERNS: r.patterns }, stdio: 'pipe',
+    }), error => error.status === 7);
+  } finally { r.cleanup(); }
+});
+
+
+test('published checker gets a unique temporary directory on BSD and GNU mktemp', () => {
+  const script = fs.readFileSync('scripts/content/integrate.sh', 'utf8');
+  assert.match(script, /PRIVACY_DIR=\$\(mktemp -d "[^"\n]+\.XXXXXX"\)/);
+  assert.ok(script.includes('PRIVACY_CHECK="$PRIVACY_DIR/check.mjs"'));
+  const dirs = [];
+  try {
+    for (let n = 0; n < 2; n++) dirs.push(execFileSync('mktemp', ['-d', path.join(os.tmpdir(), 'g9-checker-test.XXXXXX')], { encoding: 'utf8' }).trim());
+    assert.notEqual(dirs[0], dirs[1]);
+    assert.ok(dirs.every(dir => !dir.endsWith('XXXXXX') && fs.statSync(dir).isDirectory()));
+  } finally { dirs.forEach(dir => fs.rmdirSync(dir)); }
+});

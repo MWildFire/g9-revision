@@ -10,6 +10,23 @@ set -euo pipefail
 MSG="${1:?usage: integrate.sh \"commit message\"}"
 LOCK="$HOME/Projects/.g9-revision-main.lock"
 cd "$(git rev-parse --show-toplevel)"
+# Use only the checker already published on main, never a replacement from this branch.
+PRIVACY_DIR=$(mktemp -d "${TMPDIR:-/tmp}/g9-published-privacy.XXXXXX")
+PRIVACY_CHECK="$PRIVACY_DIR/check.mjs"
+got=0
+cleanup() {
+  rm -f "$PRIVACY_CHECK"
+  rmdir "$PRIVACY_DIR" 2>/dev/null || true
+  if [ "$got" = 1 ]; then rmdir "$LOCK" 2>/dev/null || true; fi
+}
+trap cleanup EXIT
+published_checker() {
+  git show origin/main:scripts/content/privacy-check.mjs > "$PRIVACY_CHECK" || {
+    echo "PRIVACY: published checker unavailable — nothing pushed"
+    exit 7
+  }
+}
+published_checker
 git add -A -- src docs scripts tests public
 OUTSIDE=$(git status --porcelain --untracked-files=all | grep -v -E '^.. "?(src|docs|scripts|tests|public)/' || true)
 if [ -n "$OUTSIDE" ]; then
@@ -17,27 +34,35 @@ if [ -n "$OUTSIDE" ]; then
   echo "$OUTSIDE"; exit 6
 fi
 if ! git diff --cached --quiet; then
-  G9_COMMIT_MSG="$MSG" node scripts/content/privacy-check.mjs --staged || { echo "PRIVACY: fix the lines above (nothing was committed), then run integrate.sh again"; exit 7; }
+  G9_COMMIT_MSG="$MSG" node "$PRIVACY_CHECK" --staged || { echo "PRIVACY: fix the lines above (nothing was committed), then run integrate.sh again"; exit 7; }
   git commit -q -m "$MSG"
 fi
 age() { echo $(( $(date +%s) - $(stat -f %m "$1" 2>/dev/null || stat -c %Y "$1") )); }
-got=0
 for _ in $(seq 1 90); do
   if mkdir "$LOCK" 2>/dev/null; then got=1; break; fi
   if [ -d "$LOCK" ] && [ "$(age "$LOCK")" -gt 1800 ]; then rmdir "$LOCK" 2>/dev/null || true; fi
   sleep 20
 done
 [ "$got" = 1 ] || { echo "no integration lock"; exit 5; }
-trap 'rmdir "$LOCK" 2>/dev/null || true' EXIT
 git fetch -q origin
+published_checker
 if ! git rebase -q origin/main; then
   echo "REBASE CONFLICT: $(git diff --name-only --diff-filter=U | tr '\n' ' ')"
   git rebase --abort
   exit 2
 fi
 # every local commit (added lines and messages): a fix in a later commit would not hide an earlier one
-node scripts/content/privacy-check.mjs origin/main || { echo "PRIVACY: nothing pushed. These commits are not public yet: fix the text, then 'git add -A -- src docs scripts tests public && git commit --amend --no-edit' (one commit) or 'git reset --soft origin/main && git commit -m <clean message>' (several), and run integrate.sh again"; exit 7; }
+node "$PRIVACY_CHECK" origin/main || {
+  cat <<'PRIVACY_ADVICE'
+PRIVACY: nothing pushed. These commits are not public yet: fix the text, then 'git add -A -- src docs scripts tests public && git commit --amend --no-edit' (one commit) or 'git reset --soft "$(git merge-base HEAD origin/main)" && git commit -m <clean message>' (several), and run integrate.sh again
+PRIVACY_ADVICE
+  exit 7
+}
 npm test > /tmp/g9-integrate-test.log 2>&1 || { tail -40 /tmp/g9-integrate-test.log; echo "TESTS FAILED after rebase — nothing pushed"; exit 3; }
 npm run build > /tmp/g9-integrate-build.log 2>&1 || { tail -40 /tmp/g9-integrate-build.log; echo "BUILD FAILED after rebase — nothing pushed"; exit 4; }
+if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then
+  echo "nothing to push: HEAD already matches origin/main"
+  exit 0
+fi
 git push -q origin HEAD:main
 echo "pushed $(git rev-parse --short HEAD) to main"

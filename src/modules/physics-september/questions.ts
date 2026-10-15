@@ -9,7 +9,7 @@ export const questions: Question[] = [
       "State the relative charge, relative mass and location of an electron.",
       "Укажи относительные заряд, массу и положение электрона.",
     ),
-    b("Check charge, mass and location against the proton values.", "Проверь заряд, массу и положение по значениям для протона."),
+    b("Compare with a proton: relative charge +1 and relative mass about 1.", "Сравни электрон с протоном: относительный заряд протона равен +1, относительная масса — примерно 1."),
     b("Relative charge −1.", "Относительный заряд −1."),
     b("Relative mass about 1/1836.", "Относительная масса около 1/1836."),
     b(
@@ -26,7 +26,7 @@ export const questions: Question[] = [
       "An atom has 13 protons and 14 neutrons. It loses three electrons. Find its mass number, electron count and charge.",
       "У атома 13 протонов и 14 нейтронов. Он теряет три электрона. Найди массовое число, число электронов и заряд.",
     ),
-    b("Loss changes electrons only.", "Потеря меняет только электроны."),
+    b("Only the electron count changes when the atom loses electrons.", "При потере электронов число частиц в ядре не меняется."),
     b("A = 13 + 14 = 27.", "A = 13 + 14 = 27."),
     b("13 − 3 = 10 electrons.", "13 − 3 = 10 электронов."),
     b("Charge = +3; nucleus unchanged.", "Заряд +3; ядро не меняется."),
@@ -46,11 +46,11 @@ export const questions: Question[] = [
     ),
     b(
       "Ratio = (1.2 / 4.0) × 10⁵ = 30,000.",
-      "Отношение (1,2 / 4,0) × 10⁵ = 30 000.",
+      "Отношение радиусов = (1,2 / 4,0) × 10⁵ = 30 000.",
     ),
     b(
       "Model nuclear radius = 3 / 30,000 = 0.0001 m.",
-      "Радиус модельного ядра 3 / 30 000 = 0,0001 м.",
+      "Радиус ядра в модели = 3 м / 30 000 = 0,0001 м.",
     ),
     b(
       "This is 0.1 mm; the nucleus is tiny even in a large atom model.",
@@ -63,8 +63,8 @@ export const questions: Question[] = [
     "A(iii)",
     "challenge",
     b(
-      "A diagram shows electrons travelling on circular tracks. A student claims it proves their exact positions are always known. Evaluate the claim.",
-      "На схеме электроны движутся по окружностям. Ученик считает, что это доказывает постоянное знание их точного положения. Оцени утверждение.",
+      "A diagram shows electrons on circular tracks. A student says it shows the exact path of each electron. Evaluate this claim.",
+      "На схеме электроны изображены на окружностях. Ученик считает, что схема показывает точную траекторию каждого электрона. Оцени это утверждение.",
     ),
     b(
       "Separate a model feature from direct evidence.",
@@ -79,8 +79,8 @@ export const questions: Question[] = [
       "Схема не устанавливает точные положения или классические орбиты электронов.",
     ),
     b(
-      "It is useful for energy transitions but has limits; the claim goes beyond the evidence.",
-      "Она полезна для переходов энергии, но ограничена; утверждение выходит за пределы данных.",
+      "The diagram helps explain energy-level transitions, but it does not show actual trajectories.",
+      "Схема помогает объяснить переходы между уровнями энергии, но не показывает реальные траектории.",
     ),
   ),
   q(
@@ -111,8 +111,8 @@ export const questions: Question[] = [
     "A(ii)",
     "application",
     b(
-      "Find protons, neutrons and electrons in ²⁴₁₂Mg²⁺ and ²⁶₁₂Mg²⁺.",
-      "Найди протоны, нейтроны и электроны в ²⁴₁₂Mg²⁺ и ²⁶₁₂Mg²⁺.",
+      "Find the numbers of protons, neutrons and electrons in ²⁴₁₂Mg²⁺ and ²⁶₁₂Mg²⁺.",
+      "Найди число протонов, нейтронов и электронов в ²⁴₁₂Mg²⁺ и ²⁶₁₂Mg²⁺.",
     ),
     b("A differs but Z and charge do not.", "Различается A, но не Z и заряд."),
     b("Both have 12 protons.", "В обоих по 12 протонов."),
@@ -148,8 +148,8 @@ export const questions: Question[] = [
     "A(iii)",
     "challenge",
     b(
-      "An element has relative atomic mass 20.4. A student says every nucleus contains 20.4 nucleons. Evaluate and give an isotope mixture consistent with the average, using masses 20 and 22.",
-      "Относительная атомная масса элемента 20,4. Ученик говорит, что в каждом ядре 20,4 нуклона. Оцени и предложи смесь масс 20 и 22 с таким средним.",
+      "An element has relative atomic mass 20.4. A student says every nucleus has 20.4 nucleons. Evaluate the claim. Suggest proportions of isotopes with mass numbers 20 and 22 that give this approximate average.",
+      "Относительная атомная масса элемента равна 20,4. Ученик считает, что в каждом ядре 20,4 нуклона. Оцени утверждение. Подбери доли изотопов с массовыми числами 20 и 22, дающие такое среднее.",
     ),
     b(
       "The average can be non-integer; particle counts cannot.",
@@ -160,8 +160,8 @@ export const questions: Question[] = [
       "Перепутаны среднее и число частиц одного ядра.",
     ),
     b(
-      "80% mass-20 and 20% mass-22 is a possible mixture.",
-      "Возможна смесь 80% массы-20 и 20% массы-22.",
+      "A sample with 80% mass-20 atoms and 20% mass-22 atoms gives this approximate average.",
+      "Подходит образец, в котором 80% атомов имеют массовое число 20, а 20% — массовое число 22.",
     ),
     b("0.8 × 20 + 0.2 × 22 = 20.4.", "0,8 × 20 + 0,2 × 22 = 20,4."),
   ),
@@ -251,12 +251,12 @@ export const questions: Question[] = [
       "Рассеяние подтвердило маленькое плотное положительное ядро.",
     ),
     b(
-      "Fixed energy levels were a later Bohr-model development, supported by evidence such as spectra.",
-      "Фиксированные уровни относятся к последующей модели Бора и данным, например спектрам.",
+      "Bohr later proposed discrete energy levels to explain line spectra.",
+      "Позднее Бор предложил определённые уровни энергии электронов для объяснения линейчатых спектров.",
     ),
     b(
-      "Neutron evidence came later from Chadwick; neither claim follows from the foil experiment alone.",
-      "Свидетельства нейтронов позднее получил Чедвик; обе части не следуют из одного опыта с фольгой.",
+      "Chadwick discovered neutrons later; neither claim follows from alpha scattering alone.",
+      "Нейтроны позднее открыл Чедвик. Ни один из этих выводов не следует только из опыта с фольгой.",
     ),
   ),
   q(

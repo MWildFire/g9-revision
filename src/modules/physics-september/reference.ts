@@ -1,19 +1,29 @@
 import { b } from "./types";
 export const sources = [
   {
+    title: "Paul Morris · Physics for the IB MYP 4 & 5: By Concept",
+    url: "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
+    note: b("Chapter 11: atomic structure, radiation and nuclear energy.", "Глава 11: строение атома, излучение и ядерная энергия."),
+  },
+  {
+    title: "Открытая физика · Физика атома и атомного ядра",
+    url: "https://physics.ru/courses/op25part2/content/chapter6/section/paragraph1/theory.html",
+    note: b("Russian explanations of atomic models and nuclear physics.", "Объяснения моделей атома и ядерной физики на русском языке."),
+  },
+  {
     title: "IB MYP Sciences subject brief",
     url: "https://www.ibo.org/globalassets/new-structure/brochures-and-infographics/pdfs/myp-brief-sciences-en.pdf",
     note: b(
-      "Assessment framework: scientific knowledge, application and supported judgments. No claim about this school’s exact paper.",
-      "Рамки оценивания: знания, применение и научно обоснованные выводы. Не спецификация конкретной школьной работы.",
+      "An overview of scientific knowledge, investigation, data analysis and evaluation in MYP sciences.",
+      "Обзор знаний, исследования, анализа данных и оценивания в естественных науках MYP.",
     ),
   },
   {
     title: "AQA · Atomic structure",
     url: "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/atomic-structure",
     note: b(
-      "Cross-check of topic terminology on the supplied topic overview; AQA/HT labels are not IB grade bands.",
-      "Проверка терминов исходного обзора темы; пометки AQA/HT не являются уровнями оценки IB.",
+      "A further outline of atomic structure and radioactivity.",
+      "Дополнительный перечень понятий о строении атома и радиоактивности.",
     ),
   },
   {
@@ -44,16 +54,16 @@ export const sources = [
     title: "NASA · Solar interior",
     url: "https://solarscience.msfc.nasa.gov/interior.shtml",
     note: b(
-      "The Sun’s proton–proton chain, distinguished from the D–T teaching example.",
-      "Протон-протонная цепь Солнца в отличие от учебного примера D–T.",
+      "How fusion releases energy in the Sun.",
+      "Как при синтезе выделяется энергия в Солнце.",
     ),
   },
   {
     title: "ITER · Fusion FAQs",
     url: "https://www.iter.org/faqs",
     note: b(
-      "D–T products, tritium and neutron activation: avoids the claim of no radioactive issues.",
-      "Продукты D–T, тритий и нейтронная активация: без утверждения об отсутствии радиоактивных проблем.",
+      "Deuterium–tritium fusion, plasma confinement and the materials used in fusion reactors.",
+      "Дейтерий-тритиевый синтез, удержание плазмы и материалы термоядерных установок.",
     ),
   },
 ];
@@ -61,8 +71,8 @@ export const glossary = [
   [
     "nucleus",
     "атомное ядро",
-    "The compact central part of an atom, made of protons and (except hydrogen-1) neutrons, containing almost all its mass.",
-    "Компактная центральная часть атома, состоящая из протонов и, кроме водорода-1, нейтронов; в ней сосредоточена почти вся масса атома."
+    "The tiny central part of an atom. It contains protons and neutrons, except in hydrogen-1, which has one proton and no neutrons. Almost all atomic mass is here.",
+    "Маленькая центральная часть атома. Состоит из протонов и нейтронов; у водорода-1 в ядре один протон и нет нейтронов. В ядре сосредоточена почти вся масса атома."
   ],
   [
     "nucleon",
@@ -73,26 +83,26 @@ export const glossary = [
   [
     "nuclide",
     "нуклид",
-    "A type of atom specified by nuclear proton number, neutron number and, where relevant, nuclear energy state.",
-    "Вид атомов, определяемый числом протонов, числом нейтронов и, при необходимости, энергетическим состоянием ядра."
+    "A type of atom defined by the number of protons and neutrons in its nucleus, such as carbon-14.",
+    "Вид атомов с определённым числом протонов и нейтронов в ядре, например углерод-14."
   ],
   [
     "isotope",
     "изотоп",
-    "One of the nuclides of an element that share proton number Z but differ in neutron number and therefore mass number A.",
-    "Один из нуклидов элемента с одинаковым числом протонов Z, но разным числом нейтронов и, следовательно, массовым числом A."
+    "One of the types of atom of an element with the same number of protons but different numbers of neutrons. Carbon-12 and carbon-14 are isotopes of carbon.",
+    "Один из видов атомов одного элемента с одинаковым числом протонов, но разным числом нейтронов. Например, углерод-12 и углерод-14 — изотопы углерода."
   ],
   [
     "ion",
     "ион",
-    "An atom or bonded group of atoms whose total electric charge is nonzero.",
-    "Атом или связанная группа атомов с ненулевым суммарным электрическим зарядом."
+    "An atom or group of atoms with an electric charge because electrons have been lost or gained.",
+    "Атом или группа атомов с электрическим зарядом, возникающим при потере или присоединении электронов."
   ],
   [
     "excitation",
     "возбуждение",
-    "A change of an atom, nucleus or other system from a lower to a higher allowed energy state.",
-    "Переход атома, ядра или другой системы из состояния с меньшей энергией в разрешённое состояние с большей энергией."
+    "An increase in an atom’s energy when an electron moves to a higher energy level without leaving the atom. A nucleus can also be excited.",
+    "Повышение энергии атома при переходе электрона на более высокий уровень без отрыва от атома. Возбуждённым может быть и ядро."
   ],
   [
     "ionisation",
@@ -103,8 +113,8 @@ export const glossary = [
   [
     "activity",
     "активность",
-    "The expected rate of spontaneous nuclear decays in a source. One becquerel means one decay per second on average.",
-    "Ожидаемое число самопроизвольных ядерных распадов источника за единицу времени. Один беккерель означает в среднем один распад в секунду."
+    "The number of nuclear decays per second in a source, on average. It is measured in becquerels (Bq): 1 Bq = 1 decay per second.",
+    "Среднее число ядерных распадов в источнике за секунду. Измеряется в беккерелях (Бк): 1 Бк = 1 распад в секунду."
   ],
   [
     "count rate",
@@ -115,8 +125,8 @@ export const glossary = [
   [
     "half-life",
     "период полураспада",
-    "The time in which the expected number of undecayed parent nuclei of one radionuclide falls to half its initial value.",
-    "Время, за которое ожидаемое число нераспавшихся исходных ядер одного радионуклида уменьшается вдвое."
+    "The time for the number of undecayed nuclei of one isotope in a large sample to fall to half its initial value.",
+    "Время, за которое число нераспавшихся ядер одного изотопа в большом образце уменьшается вдвое."
   ],
   [
     "background",
@@ -163,14 +173,14 @@ export const glossary = [
   [
     "control rod",
     "управляющий стержень",
-    "A neutron-absorbing component inserted or withdrawn to regulate a reactor’s chain reaction.",
-    "Поглощающий нейтроны элемент, введением или выведением которого регулируют цепную реакцию в реакторе."
+    "A rod that absorbs neutrons. Inserting it further into the core reduces the rate of the chain reaction.",
+    "Стержень, поглощающий нейтроны. При более глубоком введении в активную зону уменьшает скорость цепной реакции."
   ],
   [
     "coolant",
     "теплоноситель",
-    "A substance circulated to carry energy away from a reactor core by heat transfer.",
-    "Вещество, циркулирующее для отвода энергии от активной зоны реактора путём теплообмена."
+    "A substance, such as water, that carries thermal energy away from a reactor core.",
+    "Вещество, например вода, которое отводит тепловую энергию из активной зоны реактора."
   ],
   [
     "daughter nucleus",
@@ -189,7 +199,7 @@ export const commandTerms = [
   [
     "State / Identify",
     "State: give the requested fact briefly. Identify: select or recognize the relevant item.",
-    "State: кратко сообщи нужный факт. Identify: выбери или распознай нужный объект."
+    "State — назови нужный факт кратко. Identify — выбери или укажи нужный объект."
   ],
   [
     "Describe",
@@ -204,12 +214,12 @@ export const commandTerms = [
   [
     "Calculate / Determine",
     "Calculate: show the numerical working. Determine: find the uniquely specified result; the method depends on the task.",
-    "Calculate: покажи вычисления. Determine: найди однозначно заданный результат; способ зависит от задачи."
+    "Calculate — выполни вычисления и покажи ход решения. Determine — найди требуемый результат по условию задачи."
   ],
   [
     "Compare / Contrast",
     "Compare: similarities. Contrast: differences. Compare and contrast: both. Address the same features in both cases.",
-    "Compare: сходства. Contrast: различия. Compare and contrast: и то и другое. Сопоставляй оба случая по одним признакам."
+    "Compare — укажи сходства. Contrast — различия. Compare and contrast — и сходства, и различия. Сопоставляй объекты по одним признакам."
   ],
   [
     "Analyse",
@@ -219,6 +229,6 @@ export const commandTerms = [
   [
     "Evaluate / Justify",
     "Evaluate: weigh strengths and limitations. Justify: support a conclusion with valid reasons or evidence.",
-    "Evaluate: взвесь достоинства и ограничения. Justify: подкрепи вывод убедительными доводами или данными."
+    "Evaluate — оцени достоинства и ограничения. Justify — обоснуй вывод доводами или данными."
   ]
 ];

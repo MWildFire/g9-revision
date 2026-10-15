@@ -6,15 +6,15 @@ export const lessons: Lesson[] = [
     photoTopic: "Structure of an atom",
     visual: "atom",
     intro: b(
-      "Separate the nucleus from the electron structure. Use charge, mass and scale to explain what changes when an atom becomes an ion.",
-      "Разделяй ядро и электронную оболочку. Заряд, масса и масштаб помогают объяснить, что меняется при превращении атома в ион.",
+      "An atom has a tiny nucleus surrounded by electrons. Its charge depends on the balance between protons and electrons.",
+      "В центре атома находится маленькое ядро, вокруг него — электроны. Заряд атома зависит от числа протонов и электронов.",
     ),
     sections: [
       s(
         "Three particles, two regions",
         "Три частицы, две области",
-        "A proton has relative charge +1 and relative mass approximately 1; a neutron has charge 0 and relative mass approximately 1. Both are in the nucleus. An electron has charge −1 and relative mass about 1/1836; electrons occupy energy levels around the nucleus. Almost all atomic mass is nuclear, but almost all atomic volume is outside the nucleus.",
-        "Относительный заряд протона +1, масса примерно 1; заряд нейтрона 0, масса примерно 1. Они находятся в ядре. У электрона заряд −1 и масса около 1/1836; электроны занимают энергетические уровни вокруг ядра. Почти вся масса атома сосредоточена в ядре, а почти весь объём находится вне него.",
+        "The nucleus contains protons and neutrons. A proton has relative charge +1 and relative mass about 1. A neutron has charge 0 and relative mass about 1.\n\nElectrons occupy energy levels around the nucleus. Each has relative charge −1 and relative mass about 1/1836. These relative values have no units. Almost all the atom’s mass is in the nucleus; most of its volume is outside it.",
+        "Ядро (nucleus) состоит из протонов и нейтронов. Относительный заряд протона равен +1, нейтрона — 0. Относительная масса каждой из этих частиц примерно равна 1.\n\nВокруг ядра находятся электроны, распределённые по энергетическим уровням. У электрона относительный заряд равен −1, а относительная масса — примерно 1/1836. У относительных величин нет единиц измерения. Почти вся масса атома сосредоточена в ядре, хотя оно занимает очень малую часть объёма.",
       ),
       s(
         "How small is small?",
@@ -25,14 +25,14 @@ export const lessons: Lesson[] = [
       s(
         "Neutral atoms and ions",
         "Нейтральные атомы и ионы",
-        "A neutral atom has equal proton and electron counts, so its charges cancel. Losing an electron produces a positive ion; gaining an electron produces a negative ion. Ordinary ionisation changes electrons, not protons or neutrons: the element and mass number stay the same. A +2 ion has two fewer electrons than protons, not two extra protons.",
-        "У нейтрального атома одинаковое число протонов и электронов, поэтому заряды компенсируются. Потеря электрона даёт положительный ион, присоединение — отрицательный. Обычная ионизация меняет число электронов, а не протонов или нейтронов: элемент и массовое число сохраняются. У иона +2 на два электрона меньше, а не на два протона больше.",
+        "An ion is an atom or group of atoms with an electric charge. A neutral atom has equal numbers of protons and electrons. Losing electrons forms a positive ion; gaining electrons forms a negative ion.\n\nFor an atom becoming an ion, the nucleus stays unchanged. The element and mass number therefore stay the same. A 2+ ion has two fewer electrons than protons.",
+        "Ион (ion) — атом или группа атомов с электрическим зарядом. У нейтрального атома числа протонов и электронов равны. Если атом теряет электроны, образуется положительный ион; если присоединяет — отрицательный.\n\nПри этом ядро не меняется: сохраняются элемент и массовое число. У иона с зарядом 2+ электронов на два меньше, чем протонов.",
       ),
       s(
         "Energy levels, excitation and ionisation",
         "Энергетические уровни, возбуждение и ионизация",
-        "An electron can absorb a suitable amount of energy and move to a higher energy level. When it returns to a lower level, a photon carries away the energy difference. Excitation leaves the electron bound to the atom; ionisation removes it. Shell circles are a useful model of allowed energies, not photographs of tiny planets on known tracks.",
-        "Электрон может поглотить подходящую порцию энергии и перейти на более высокий уровень. При переходе вниз разность энергий уносит фотон. При возбуждении электрон остаётся связан с атомом, при ионизации покидает его. Окружности оболочек — модель разрешённых энергий, а не фотография планет на точно известных орбитах.",
+        "Excitation occurs when an electron absorbs energy and moves to a higher energy level, while remaining part of the atom. A transition to a lower level can release a photon: a packet of electromagnetic radiation whose energy equals the energy difference.\n\nIonisation can remove an electron from the atom altogether. Circles in a shell diagram represent energy levels; they do not show measured electron paths.",
+        "Возбуждение (excitation) происходит, когда электрон поглощает энергию и переходит на более высокий энергетический уровень, оставаясь в атоме. При переходе на нижний уровень может испускаться фотон — порция электромагнитного излучения. Его энергия равна разности энергий уровней.\n\nПри ионизации (ionisation) электрон может покинуть атом. Окружности на схеме обозначают энергетические уровни, а не измеренные траектории электронов.",
       ),
     ],
     formulas: ["net charge / e = protons − electrons", "1 nm = 10⁻⁹ m"],
@@ -46,15 +46,15 @@ export const lessons: Lesson[] = [
         ),
         b(
           "Electrons = 12 − 2 = 10. Net relative charge = 12 − 10 = +2: Mg²⁺.",
-          "Электронов 12 − 2 = 10. Относительный заряд 12 − 10 = +2: Mg²⁺.",
+          "Число электронов = 12 − 2 = 10. Относительный заряд иона = 12 − 10 = +2: Mg²⁺.",
         ),
       ),
       w(
         "An atom has radius 1.0 × 10⁻¹⁰ m and its nucleus 5.0 × 10⁻¹⁵ m. How many times larger is the atomic radius?",
         "Радиус атома 1,0 × 10⁻¹⁰ м, ядра 5,0 × 10⁻¹⁵ м. Во сколько раз радиус атома больше?",
         b(
-          "Ratio = (1.0 / 5.0) × 10⁻¹⁰⁻⁽⁻¹⁵⁾ = 0.2 × 10⁵.",
-          "Отношение = (1,0 / 5,0) × 10⁻¹⁰⁻⁽⁻¹⁵⁾ = 0,2 × 10⁵.",
+          "Radius ratio = (1.0 × 10⁻¹⁰ m) / (5.0 × 10⁻¹⁵ m) = (1.0 / 5.0) × 10⁵ = 0.2 × 10⁵.",
+          "Отношение радиусов = (1,0 × 10⁻¹⁰ м) / (5,0 × 10⁻¹⁵ м) = (1,0 / 5,0) × 10⁵ = 0,2 × 10⁵.",
         ),
         b(
           "The ratio is 2.0 × 10⁴ = 20,000, with no unit. This is a length ratio, not a volume ratio.",
@@ -68,8 +68,8 @@ export const lessons: Lesson[] = [
         "Ядро положительное: нейтроны не компенсируют заряд протонов.",
       ),
       b(
-        "Excitation is an electron change; radioactive decay is a nuclear change.",
-        "Возбуждение связано с электронами; радиоактивный распад — с ядром.",
+        "Atomic excitation changes electron energy; radioactive decay changes the nucleus.",
+        "При возбуждении атома меняется энергия электрона; при радиоактивном распаде — ядро.",
       ),
     ],
   },
@@ -82,21 +82,21 @@ export const lessons: Lesson[] = [
     photoTopic: "Mass number, atomic number and isotopes",
     visual: "atom",
     intro: b(
-      "Read nuclide notation in both directions: from a symbol to particle counts and from counts to a symbol.",
-      "Научись читать обозначение нуклида в обе стороны: находить частицы по записи и составлять запись по числу частиц.",
+      "Nuclide notation shows the element and the numbers of particles in its nucleus. Use it to find proton, neutron and electron counts.",
+      "Запись нуклида (nuclide) указывает элемент и состав ядра. По ней можно найти число протонов, нейтронов и электронов.",
     ),
     sections: [
       s(
         "Read the two numbers",
         "Как читать два числа",
-        "In the notation ¹⁴₆C, the upper number A = 14 counts nucleons: protons plus neutrons. The lower number Z = 6 counts protons and identifies the element. Neutron number N = A − Z = 8. The letter is the chemical symbol; the ion charge, if any, is written at the upper right, separate from A.",
-        "В записи ¹⁴₆C верхнее число A = 14 — число нуклонов: протонов и нейтронов. Нижнее Z = 6 — число протонов, определяющее элемент. Число нейтронов N = A − Z = 8. Буква — символ элемента; заряд иона пишут справа сверху отдельно от A.",
+        "In ¹⁴₆C, the mass number A = 14 counts nucleons: protons plus neutrons. The atomic number Z = 6 counts protons and identifies the element. The neutron number is N = A − Z = 14 − 6 = 8.\n\nA, Z and N are particle counts with no units. C is the symbol for carbon. Any ion charge is written at the upper right, separately from A.",
+        "В записи ¹⁴₆C массовое число A = 14 показывает число нуклонов — протонов и нейтронов. Атомный номер Z = 6 равен числу протонов и определяет элемент. Число нейтронов N = A − Z = 14 − 6 = 8.\n\nA, Z и N — количества частиц, у них нет единиц измерения. C — символ углерода. Заряд иона, если он есть, записывают справа сверху, отдельно от A.",
       ),
       s(
         "Same element, different isotope",
         "Один элемент, разные изотопы",
-        "Isotopes share Z but have different neutron counts and therefore different A. Carbon-12 and carbon-14 each contain six protons; they have six and eight neutrons respectively. Their neutral atoms have the same electron arrangement, so their chemical behaviour is very similar. Nuclear stability can be very different: an isotope may be stable or radioactive.",
-        "У изотопов одинаковое Z, но разное число нейтронов и поэтому разное A. В углероде-12 и углероде-14 по шесть протонов, а нейтронов шесть и восемь. У нейтральных атомов одинаковое электронное строение и очень близкие химические свойства. Устойчивость ядер может сильно отличаться: изотоп бывает стабильным или радиоактивным.",
+        "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. Carbon-12 and carbon-14 each have six protons; they have six and eight neutrons respectively.\n\nTheir neutral atoms have the same electron arrangement, so their chemical properties are very similar. Their nuclear stability differs: carbon-12 is stable, while carbon-14 is radioactive.",
+        "Изотопы (isotopes) — атомы одного элемента с одинаковым числом протонов и разным числом нейтронов. У углерода-12 и углерода-14 по шесть протонов, а нейтронов — шесть и восемь соответственно.\n\nУ нейтральных атомов этих изотопов одинаковое электронное строение, поэтому их химические свойства очень близки. Но углерод-12 стабилен, а углерод-14 радиоактивен.",
       ),
       s(
         "Isotope is not ion",
@@ -107,8 +107,8 @@ export const lessons: Lesson[] = [
       s(
         "Mass number versus relative atomic mass",
         "Массовое число и относительная атомная масса",
-        "A is a whole-number count for one nucleus. A periodic-table relative atomic mass is an abundance-weighted average for a mixture of isotopes and need not be a whole number. If abundance calculations are set, multiply each isotope mass by its fraction and add. This is useful supporting practice, not an extra topic promised by the photograph.",
-        "A — целое число частиц одного ядра. Относительная атомная масса в таблице — среднее с учётом распространённости изотопов; она не обязана быть целой. Для такой задачи умножай массу каждого изотопа на его долю и складывай. Это полезное дополнение, но фотография не обещает отдельную задачу на среднюю массу.",
+        "Mass number A is a whole-number count of protons and neutrons in one nucleus. Relative atomic mass is the average mass of an element’s atoms compared with 1/12 of the mass of a carbon-12 atom. It has no unit.\n\nThe average takes account of the proportion of each isotope. To estimate it, multiply each mass number by the fraction of atoms with that mass number, then add. The result need not be a whole number.",
+        "Массовое число A — целое число протонов и нейтронов в одном ядре. Относительная атомная масса показывает среднюю массу атома элемента по сравнению с 1/12 массы атома углерода-12. Единицы измерения у неё нет.\n\nСреднее учитывает долю каждого изотопа. Для приближённого расчёта умножь массовое число каждого изотопа на долю его атомов, затем сложи результаты. Среднее может быть дробным.",
       ),
     ],
     formulas: ["A = Z + N", "N = A − Z", "electrons = Z − signed ion charge"],
@@ -118,7 +118,7 @@ export const lessons: Lesson[] = [
         "Найди число частиц в ³⁷₁₇Cl⁻.",
         b(
           "Protons = 17. Neutrons = 37 − 17 = 20.",
-          "Протонов 17. Нейтронов 37 − 17 = 20.",
+          "Число протонов = 17. Число нейтронов = 37 − 17 = 20.",
         ),
         b(
           "A charge of −1 means one extra electron: 18 electrons. Check 17 − 18 = −1.",
@@ -126,8 +126,8 @@ export const lessons: Lesson[] = [
         ),
       ),
       w(
-        "A mixture contains 75% mass-35 and 25% mass-37 atoms. Estimate its relative atomic mass.",
-        "Смесь содержит 75% атомов с массовым числом 35 и 25% с числом 37. Оцени среднюю относительную массу.",
+        "A sample contains 75% chlorine-35 atoms and 25% chlorine-37 atoms. Estimate its relative atomic mass using the mass numbers.",
+        "В образце 75% атомов хлора-35 и 25% атомов хлора-37. Оцени относительную атомную массу, используя массовые числа.",
         b(
           "Use fractions: 0.75 × 35 + 0.25 × 37 = 35.5.",
           "Используй доли: 0,75 × 35 + 0,25 × 37 = 35,5.",
@@ -159,8 +159,8 @@ export const lessons: Lesson[] = [
       s(
         "From indivisible spheres to electrons",
         "От неделимых шаров к электронам",
-        "Dalton represented atoms as tiny particles characteristic of each element. Discovery of the electron showed that atoms contain smaller parts. Thomson’s plum-pudding model placed negative electrons within spread-out positive charge. It accounted for neutrality but had no small, dense nucleus.",
-        "Дальтон представлял атомы маленькими частицами, характерными для каждого элемента. Открытие электрона показало, что в атоме есть более мелкие частицы. В модели Томсона отрицательные электроны находились в распределённом положительном заряде. Модель объясняла нейтральность, но не содержала маленького плотного ядра.",
+        "Dalton pictured atoms as tiny indivisible spheres, with a different type for each element. The discovery of electrons showed that atoms contain smaller particles. Thomson’s plum-pudding model put negative electrons inside a sphere of spread-out positive charge. It explained electrical neutrality but had no nucleus.",
+        "Дальтон представлял атомы неделимыми шарами; у каждого элемента — свой вид атомов. Открытие электрона показало, что атом делится на более мелкие частицы. В модели Томсона электроны находились внутри шара с равномерно распределённым положительным зарядом. Такая модель объясняла нейтральность атома, но ядра в ней не было.",
       ),
       s(
         "What the foil experiment measured",
@@ -171,14 +171,14 @@ export const lessons: Lesson[] = [
       s(
         "Three observation → explanation links",
         "Три связи «наблюдение → объяснение»",
-        "Most alpha particles pass through → most atomic volume is empty space. Rare strong deflections → positive charge is concentrated into a small region that repels positive alpha particles. Rare backscattering → this region is very dense and contains most of the mass, allowing a large momentum change. Diffuse positive charge would normally give small deflections and does not explain the rare large ones.",
-        "Большинство частиц проходит → основная часть объёма атома пустая. Редкие сильные отклонения → положительный заряд сосредоточен в маленькой области, отталкивающей положительные альфа-частицы. Редкое обратное рассеяние → эта область очень плотная и содержит большую часть массы, позволяя резко изменить импульс частицы. Размазанный заряд обычно давал бы малые отклонения и не объясняет редкие большие.",
+        "Most alpha particles passed nearly straight through because most of the atom is empty space.\n\nThe few large deflections showed that positive charge is concentrated in a small region: the nucleus. A positive alpha particle passing close to it is strongly repelled. The rare backward deflections support a dense nucleus containing most of the atom’s mass.\n\nThomson’s spread-out positive charge could not explain these large deflections.",
+        "Большинство альфа-частиц прошло почти прямо: большая часть объёма атома — пустое пространство.\n\nРедкие сильные отклонения показали, что положительный заряд сосредоточен в маленькой области — ядре. Оно сильно отталкивает положительную альфа-частицу, проходящую близко к нему. Очень редкое рассеяние назад подтверждает, что ядро плотное и содержит почти всю массу атома.\n\nРавномерно распределённый заряд в модели Томсона не объяснял таких больших отклонений.",
       ),
       s(
         "Bohr, Chadwick and the limits of a drawing",
         "Бор, Чедвик и границы рисунка",
-        "Bohr introduced discrete electron energy levels, helping explain line spectra. Chadwick supplied evidence for neutrons, explaining nuclear mass not accounted for by protons alone. Models changed because of evidence, not simply because a newer scientist preferred a different picture. Modern quantum models do not give electrons fixed planetary trajectories; the shell model remains useful at this level.",
-        "Бор ввёл дискретные уровни энергии электронов, что помогло объяснить линейчатые спектры. Чедвик получил свидетельства существования нейтронов: одних протонов недостаточно для объяснения массы ядра. Модели менялись из-за данных, а не из-за предпочтений нового учёного. В квантовой модели у электронов нет фиксированных планетарных траекторий; модель оболочек остаётся полезной на школьном уровне.",
+        "Bohr proposed that electrons can occupy only certain energy levels. Transitions between these levels explain the separate lines in an atomic emission spectrum.\n\nChadwick later discovered the neutron. Neutrons account for nuclear mass that protons alone cannot explain. A shell diagram helps us describe electron energies, but it is not a map of measured electron paths.",
+        "Бор предположил, что электроны могут занимать только определённые энергетические уровни. Переходы между ними объясняют отдельные линии в спектре излучения атома.\n\nПозднее Чедвик открыл нейтрон. Нейтроны объяснили ту часть массы ядра, которую нельзя было связать только с протонами. Схема электронных слоёв помогает описать энергии электронов, но не показывает их точные траектории.",
       ),
     ],
     formulas: [],
@@ -214,8 +214,8 @@ export const lessons: Lesson[] = [
         "Нейтрон был открыт не в опыте Резерфорда.",
       ),
       b(
-        "“Proved the model forever” is too strong: a model is supported within the evidence available.",
-        "«Навсегда доказал модель» — слишком сильно: модель подтверждается доступными данными.",
+        "Experimental results support a model; new evidence can show where it needs to change.",
+        "Результаты опытов подтверждают модель, но новые данные могут показать, что её нужно изменить.",
       ),
     ],
   },

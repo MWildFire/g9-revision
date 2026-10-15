@@ -6,5 +6,6 @@
 @media print{body:has(.november) #root > div > header,body:has(.november) #root > div > footer,.nov-nav,.nov-anchor,.nov-timer,.nov-button,.nov-filters,.nov-small{display:none!important}.november{max-width:none;padding:0;font-size:10pt;color:#000}.nov-hero,.nov-panel,.nov-exercise{background:#fff}.nov-grid{display:block}.nov-topic{margin:10px 0}.november textarea{min-height:100px}.nov-exercise{break-inside:avoid}.nov-source{display:none}.november h1{font-size:26pt}}
 
 .nov-session select{max-width:100%;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.nov-session{border-left:4px solid #426c62}.nov-session p{max-width:850px}.nov-kicker-plain{text-transform:none;letter-spacing:normal}@media(max-width:500px){.nov-session select{font-weight:400;font-size:13px}}
+@media print{.november .formula-teaching .formula-teaching-expression{white-space:normal!important;overflow:visible;overflow-wrap:anywhere}}
 
 .nov-session-title { white-space: normal; overflow-wrap: anywhere; line-height: 1.5; }

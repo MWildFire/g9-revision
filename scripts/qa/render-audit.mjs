@@ -13,7 +13,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { startAuditServer, verifySourceRevision } from './local-audit-server.mjs';
-import { waitForCaptureReady, readCaptureState } from './capture-readiness.mjs';
+import { waitForCaptureReady, readCaptureState, findClippedPrintFormulas } from './capture-readiness.mjs';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 
@@ -85,6 +85,7 @@ try {
           for (const el of root.querySelectorAll('[data-formula-id]')) { const id = el.getAttribute('data-formula-id'); formulas[id] = (formulas[id] ?? 0) + 1; }
           return { blocks, formulas, title: (root.querySelector('h1')?.textContent ?? '').trim(), overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth };
         }, { lang });
+        data.clippedFormulas = label === 'print' ? await page.evaluate(findClippedPrintFormulas) : [];
         const counts = new Map();
         for (const b of data.blocks) if (b.text.length >= 40) counts.set(b.text, (counts.get(b.text) ?? 0) + 1);
         const repeated = [...counts].filter(([, n]) => n > 1).map(([text, n]) => ({ n, text: text.slice(0, 200) }));
@@ -92,8 +93,8 @@ try {
         const leaks = data.blocks.filter(b => !b.other && (lang === 'ru'
           ? /[A-Za-z]{3,}(?:[ ,'’-]+[A-Za-z]{2,}){3,}/.test(b.text) && !/[А-Яа-яЁё]/.test(b.text)
           : /[А-Яа-яЁё]{3,}/.test(b.text))).map(b => b.text.slice(0, 160));
-        const fail = errors.length > 0 || repeated.length > 0 || formulaRepeats.length > 0 || (label === 'mobile' && data.overflow > 2);
-        results.push({ status:opt('discover')?'inventory_only':'captured', readiness, build:identity, lang, view: label, route, title: data.title, blocks: data.blocks.length, formulaCards: Object.keys(data.formulas), repeated, formulaRepeats, leaks: leaks.slice(0, 30), leakCount: leaks.length, overflow: data.overflow, errors: [...errors], fail });
+        const fail = errors.length > 0 || repeated.length > 0 || formulaRepeats.length > 0 || data.clippedFormulas.length > 0 || (label === 'mobile' && data.overflow > 2);
+        results.push({ status:opt('discover')?'inventory_only':'captured', readiness, build:identity, lang, view: label, route, title: data.title, blocks: data.blocks.length, formulaCards: Object.keys(data.formulas), repeated, formulaRepeats, clippedFormulas:data.clippedFormulas, leaks: leaks.slice(0, 30), leakCount: leaks.length, overflow: data.overflow, errors: [...errors], fail });
         if (opt('shots') && !opt('discover')) {
           const stem = `${lang}-${label}-${route.replace(/[^a-z0-9]+/gi, '_').replace(/^_|_$/g, '') || 'home'}`;
           await page.screenshot({ path:path.join(outDir, `${stem}.png`), fullPage:true });
@@ -119,6 +120,7 @@ for (const r of results.filter(r => r.fail || r.leakCount)) {
   if (r.status === 'capture_incomplete') { console.log(r.error); continue; }
   for (const x of r.repeated.slice(0, 8)) console.log(`   repeated ×${x.n}: ${x.text}`);
   for (const [id, n] of r.formulaRepeats) console.log(`   formula card ${id} ×${n}`);
+  for (const x of r.clippedFormulas ?? []) console.log(`   clipped print formula ${x.id}: ${x.overflow}px`);
   if (r.view === 'mobile' && r.overflow > 2) console.log(`   horizontal overflow ${r.overflow}px at 390 px`);
   for (const l of r.leaks.slice(0, 5)) console.log(`   ${r.lang === 'ru' ? 'English-only block on RU page' : 'Cyrillic on EN page'}: ${l}`);
 }

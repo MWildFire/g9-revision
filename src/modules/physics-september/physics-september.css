@@ -708,6 +708,17 @@
   .nuclear-layout {
     display: block;
   }
+  .nuclear-reference-grid {
+    display: block;
+  }
+  .nuclear-reference-grid .nuclear-formula-box {
+    margin: 16px 0;
+  }
+  .nuclear-course .formula-teaching .formula-teaching-expression {
+    white-space: normal !important;
+    overflow: visible;
+    overflow-wrap: anywhere;
+  }
   .nuclear-mobile-select {
     display: block;
     margin: 0 0 24px;

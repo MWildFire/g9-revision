@@ -14,6 +14,14 @@ export function readinessProblems(state, expected) {
   for (const id of expected.formulas ?? []) if (!state.formulas.includes(id)) reasons.push(`missing_formula:${id}`);
   return reasons;
 }
+// Runs inside page.evaluate after print media is selected. Scrollable screen
+// equations must fit their printed box because paper cannot scroll.
+export function findClippedPrintFormulas() {
+  const root = document.querySelector('#root') ?? document.body;
+  return [...root.querySelectorAll('.formula-teaching-expression')]
+    .filter(el => el.getBoundingClientRect().width > 0 && el.scrollWidth > el.clientWidth + 2)
+    .map(el => ({ id:el.closest('[data-formula-id]')?.getAttribute('data-formula-id'), text:el.textContent, overflow:el.scrollWidth-el.clientWidth }));
+}
 export async function readCaptureState(page) {
   return page.evaluate(() => {
     const root = document.querySelector('#root') ?? document.body;

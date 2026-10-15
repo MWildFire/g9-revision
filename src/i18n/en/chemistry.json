@@ -666,7 +666,7 @@
           },
           "concentration": {
             "name": "Concentration (and pressure for gases)",
-            "rule": "A higher reactant concentration means more particles in the same volume, so collisions happen more often and the rate increases. For gases, raising the pressure at a fixed temperature has the same effect, because it squeezes the particles closer together. The quantitative relationship is found by experiment: doubling a concentration does not always double the rate.",
+            "rule": "A higher reactant concentration means more particles in the same volume, so collisions happen more often and the rate increases. Compressing a gas mixture at fixed temperature raises the concentrations of its reacting gases. Increasing total pressure by adding an inert gas at fixed volume does not do this (ideal-gas model). The quantitative relationship is found by experiment: doubling a concentration does not always double the rate.",
             "examples": [
               "The same mass of magnesium reacts much faster with concentrated hydrochloric acid than with dilute acid.",
               "A glowing splint bursts into flame in pure oxygen but only stays glowing in air, where oxygen is less concentrated."
@@ -2418,7 +2418,7 @@
               "HNO₃(aq) + KOH(aq) → KNO₃(aq) + H₂O(l)",
               "HBr(aq) + KOH(aq) → KBr(aq) + H₂O(l)"
             ],
-            "tip": "Neutralising a dilute strong acid with a strong alkali releases about 57 kJ per mole of water formed. Weak acids and weak bases release less heat, because some energy is used to ionise them.",
+            "tip": "Neutralising a dilute strong acid with a strong alkali releases about 57 kJ per mole of water formed. For weak acids or bases, the overall heat change also includes ionisation and depends on the substance. Common examples such as ethanoic acid release less heat, but this is not a universal rule.",
             "review": {
               "englishTerm": "Net ionic equation",
               "russianTerm": "Сокращённое ионное уравнение",
@@ -2517,7 +2517,7 @@
               "Heating limestone (calcium carbonate): CaCO₃(s) → CaO(s) + CO₂(g). ΔH ≈ +178 kJ/mol, so heat must be supplied.",
               "Dissolving ammonium nitrate cools the water: NH₄NO₃(s) → NH₄⁺(aq) + NO₃⁻(aq). ΔH ≈ +26 kJ/mol, so the water loses heat."
             ],
-            "watchOut": "Not every energy input is heat. Photosynthesis is endothermic (ΔH > 0), but its energy comes from light, which is stored in the glucose it makes.",
+            "watchOut": "Not every energy input is heat. Photosynthesis is endothermic (ΔH > 0); it converts light energy into chemical energy stored in its products, including glucose.",
             "review": {
               "englishTerm": "Endothermic reactions",
               "russianTerm": "Эндотермические реакции",

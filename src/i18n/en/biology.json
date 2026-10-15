@@ -200,10 +200,10 @@
     "extras": "Extras (beyond G9)"
   },
   "extras": {
-    "title": "Biology — Extras",
-    "intro": "Topics that extend beyond the G9 syllabus — depth on photosynthesis, hormones, mutations, biotech.",
+    "title": "Biology — revision and extension",
+    "intro": "Revision of hormones and biotechnology, with extension topics on photosynthesis and mutations. Use the extension sections to deepen your understanding after reviewing the core ideas.",
     "photoDepth": {
-      "title": "Photosynthesis — deeper",
+      "title": "Photosynthesis — extension",
       "body": "In chloroplasts, the light-dependent reactions take place in the thylakoid membranes. They use light energy to make ATP and NADPH, and they split water, releasing oxygen. The Calvin cycle takes place in the stroma. It uses ATP and NADPH to fix CO₂ into 3-carbon molecules. The Calvin cycle does not use light directly, but it slows down when the light-dependent reactions stop.",
       "review": {
         "englishTerm": "Photosynthesis — deeper",
@@ -311,7 +311,7 @@
     "biotech": {
       "title": "Biotechnology",
       "items": [
-        "Selective breeding means choosing parents with desired traits, so that those traits become more common in later generations.",
+        "Selective breeding means choosing parents with desired heritable traits, so that those traits become more common in later generations.",
         "In genetic engineering, DNA is changed directly, either within one species or by moving a gene between species.",
         "Cloning produces genetically identical copies, but mutations and the environment can still cause differences between them.",
         "CRISPR-based editing changes selected DNA sequences precisely, but scientists must check for unwanted changes at other sites.",
@@ -2245,7 +2245,7 @@
   },
   "photosynthesis": {
     "title": "Photosynthesis & Biotechnology",
-    "intro": "How plants make food from light, and how humans use biology to engineer organisms. The exam will assess the process of photosynthesis and the applications of genetic engineering.",
+    "intro": "Plants use light energy to make organic substances from carbon dioxide (CO₂) and water. This page covers photosynthesis and how humans use genetic engineering to change organisms.",
     "sections": {
       "process": {
         "title": "The process of photosynthesis",
@@ -2336,7 +2336,7 @@
           },
           "location": {
             "name": "Where photosynthesis happens",
-            "rule": "In plants and algae, photosynthesis happens in chloroplasts, mostly in the mesophyll cells of leaves. The light-dependent reactions happen on thylakoid membranes, and carbon fixation happens in the stroma, the fluid matrix of the chloroplast.",
+            "rule": "In plants and algae, photosynthesis happens in chloroplasts. In land plants, it is especially active in the mesophyll cells of leaves. The light-dependent reactions happen on thylakoid membranes, and carbon fixation happens in the stroma, the fluid matrix of the chloroplast.",
             "examples": [
               "Thylakoid membranes hold chlorophyll and other pigments, grouped into photosystems that absorb light.",
               "Xylem brings water to the leaf; phloem carries away the organic substances made there, mainly sucrose."

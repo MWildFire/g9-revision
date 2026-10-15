@@ -5,6 +5,8 @@ import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip
 import { Slider } from '../../ui/Slider';
 import { Tabs, SimulationPanel } from '../../ui/Tabs';
 
+import { filamentCurrent } from './electricalBuoyancyModels';
+
 type Component = 'ohmic' | 'filament' | 'diode';
 
 const V_MIN = -6;
@@ -23,8 +25,7 @@ export function IVCharacteristics() {
     if (component === 'filament') {
       // Filament lamp: resistance increases with current (T rises)
       // Approximate I(V) such that the curve flattens at high V
-      const sign = v >= 0 ? 1 : -1;
-      return sign * 0.6 * Math.sign(v) * Math.pow(Math.abs(v), 0.6);
+      return filamentCurrent(v);
     }
     // diode: only conducts above ~0.6V
     if (v < 0.6) return v < -6 ? -0.001 : 0.0;

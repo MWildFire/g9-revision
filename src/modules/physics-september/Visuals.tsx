@@ -1,7 +1,7 @@
 import './physics-september.css';
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { decayStep, daughter, remaining } from "./model";
+import { decayStep, daughter, remaining, scatteringSketch } from "./model";
 import type { Visual } from "./types";
 const useText = () => {
   const { i18n } = useTranslation();
@@ -114,13 +114,7 @@ function ScatteringLab() {
   const t = useText();
   const [nuclear, setNuclear] = useState(true);
   const [offset, setOffset] = useState(65);
-  const y = 145 - offset;
-  const close = Math.abs(offset) < 20;
-  const endY = nuclear
-    ? close
-      ? 25
-      : Math.max(15, y - 40 * (1 - Math.abs(offset) / 100))
-    : y - 8;
+  const {y, close, endY} = scatteringSketch(offset, nuclear);
   return (
     <>
       <div className="nuclear-actions">
@@ -173,7 +167,9 @@ function ScatteringLab() {
             + + +
           </text>
         )}
+        <defs><marker id="scattering-direction" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b55a25" /></marker></defs>
         <path
+          markerEnd="url(#scattering-direction)"
           d={
             nuclear && close
               ? `M 25 ${y} L 215 ${y} Q 250 ${y} 200 ${endY} L 70 ${endY}`

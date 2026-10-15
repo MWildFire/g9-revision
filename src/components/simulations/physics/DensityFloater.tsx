@@ -5,6 +5,8 @@ import { Slider } from '../../ui/Slider';
 import { SimulationPanel } from '../../ui/Tabs';
 import { Formula } from '../../ui/Formula';
 
+import { buoyancyState } from './electricalBuoyancyModels';
+
 const PRESETS = {
   water: 1.0,
   oil: 0.9,
@@ -23,30 +25,25 @@ const FLUID_DEPTH = FLUID_BOTTOM_Y - FLUID_LEVEL_Y;
 const OBJECT_SIZE = 50;
 
 export function DensityFloater() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const ru = i18n.language.startsWith('ru');
+  const num = (n: number) => n.toLocaleString(ru ? 'ru-RU' : 'en-GB', {maximumFractionDigits: 2});
   const [objectRho, setObjectRho] = useState(0.7);
   const [fluidRho, setFluidRho] = useState(1.0);
 
-  let verdictKey: 'sinks' | 'floats' | 'neutralBuoyancy';
-  if (objectRho > fluidRho * 1.02) verdictKey = 'sinks';
-  else if (objectRho < fluidRho * 0.98) verdictKey = 'floats';
-  else verdictKey = 'neutralBuoyancy';
+  const {verdict: verdictKey, fraction: submergedFraction} = buoyancyState(objectRho, fluidRho);
 
   // Determine object vertical position
   let objTopY: number;
-  let submergedFraction: number;
 
   if (verdictKey === 'sinks') {
     objTopY = FLUID_BOTTOM_Y - OBJECT_SIZE;
-    submergedFraction = 1.0;
   } else if (verdictKey === 'floats') {
     // Archimedes: fraction submerged = ρ_obj / ρ_fluid
-    submergedFraction = Math.max(0.05, Math.min(0.95, objectRho / fluidRho));
     const submergedHeight = submergedFraction * OBJECT_SIZE;
     objTopY = FLUID_LEVEL_Y - (OBJECT_SIZE - submergedHeight);
   } else {
     // Neutral: fully submerged, mid-depth
-    submergedFraction = 1.0;
     objTopY = FLUID_LEVEL_Y + FLUID_DEPTH / 2 - OBJECT_SIZE / 2;
   }
 
@@ -107,13 +104,13 @@ export function DensityFloater() {
               fontFamily="JetBrains Mono"
               fill="#3d2f1f"
             >
-              ρ = {objectRho.toFixed(2)}
+              ρ = {num(objectRho)} {ru ? 'г/см³' : 'g/cm³'}
             </text>
           </g>
 
           {/* fluid label */}
           <text x={CONTAINER_X + CONTAINER_W - 6} y={FLUID_BOTTOM_Y - 8} textAnchor="end" fontSize="10" fontFamily="JetBrains Mono" fill="#6b5b47">
-            ρ_fluid = {fluidRho.toFixed(2)}
+            {ru ? 'ρ жидкости' : 'ρ fluid'} = {num(fluidRho)} {ru ? 'г/см³' : 'g/cm³'}
           </text>
 
           {/* verdict */}
@@ -132,13 +129,13 @@ export function DensityFloater() {
             fontFamily="Lora"
           >
             {t(`common.${verdictKey}`)}
-            {verdictKey === 'floats' ? ` — ${Math.round(submergedFraction * 100)}% submerged` : ''}
+            {verdictKey === 'floats' ? ` — ${num(submergedFraction * 100)}% ${ru ? 'объёма погружено' : 'of volume submerged'}` : ''}
           </text>
         </svg>
 
         <div className="space-y-4">
-          <Slider label={t('forcesEnergy.sim3.objectDensity')} unit="g/cm³" min={0.1} max={15} step={0.05} value={objectRho} onChange={setObjectRho} />
-          <Slider label={t('forcesEnergy.sim3.fluidDensity')} unit="g/cm³" min={0.5} max={13.6} step={0.05} value={fluidRho} onChange={setFluidRho} />
+          <Slider label={t('forcesEnergy.sim3.objectDensity')} unit={ru ? 'г/см³' : 'g/cm³'} min={0.1} max={15} step={0.05} value={objectRho} onChange={setObjectRho} />
+          <Slider label={t('forcesEnergy.sim3.fluidDensity')} unit={ru ? 'г/см³' : 'g/cm³'} min={0.5} max={13.6} step={0.05} value={fluidRho} onChange={setFluidRho} />
 
           <div>
             <p className="text-xs uppercase tracking-wider text-text-muted mb-2">
@@ -157,7 +154,7 @@ export function DensityFloater() {
             </div>
           </div>
 
-          <Formula caption={`ρ_object ${objectRho > fluidRho ? '>' : objectRho < fluidRho ? '<' : '='} ρ_fluid`}>
+          <Formula caption={`${ru ? 'ρ тела' : 'ρ object'} ${verdictKey === 'sinks' ? '>' : verdictKey === 'floats' ? '<' : '='} ${ru ? 'ρ жидкости' : 'ρ fluid'}`}>
             <span
               className={
                 verdictKey === 'sinks'

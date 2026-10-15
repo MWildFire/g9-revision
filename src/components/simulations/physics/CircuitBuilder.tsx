@@ -5,6 +5,7 @@ import { Slider } from '../../ui/Slider';
 import { Tabs, SimulationPanel } from '../../ui/Tabs';
 import { Button } from '../../ui/Button';
 import { format, formatResistance } from '../../../lib/physics';
+import { bulbCurrentLabel } from './electricalBuoyancyModels';
 import { Power } from 'lucide-react';
 
 interface Bulb {
@@ -148,7 +149,7 @@ export function CircuitBuilder() {
           const pos = pointAt(seriesPath, t);
           node.setAttribute('cx', String(pos.x));
           node.setAttribute('cy', String(pos.y));
-          node.style.opacity = I > 0.05 ? '0.9' : '0';
+          node.style.opacity = I > 0 ? '0.9' : '0';
         }
       } else {
         // Hide series electrons
@@ -165,10 +166,10 @@ export function CircuitBuilder() {
             if (!node) continue;
             const t = (branchPhases[b] + i / BRANCH_ELECTRON_COUNT) % 1;
             const x = PARALLEL_BULB_XS[b];
-            const y = PARALLEL_TOP_Y + t * (PARALLEL_BOTTOM_Y - PARALLEL_TOP_Y);
+            const y = PARALLEL_BOTTOM_Y - t * (PARALLEL_BOTTOM_Y - PARALLEL_TOP_Y);
             node.setAttribute('cx', String(x));
             node.setAttribute('cy', String(y));
-            node.style.opacity = branchI > 0.05 ? '0.9' : '0';
+            node.style.opacity = branchI > 0 ? '0.9' : '0';
           }
         }
       }
@@ -201,6 +202,9 @@ export function CircuitBuilder() {
             )}
           </svg>
 
+          <p className="text-xs text-text-muted">{i18n.language.startsWith('ru')
+            ? 'Точки показывают движение электронов во внешней цепи: от минуса к плюсу. Скорость и яркость условны; слабое свечение не означает отсутствия тока.'
+            : 'Dots show electron motion in the external circuit, from negative to positive. Speed and brightness are schematic; a dim bulb can still carry current.'}</p>
           {seriesBroken ? (
             <div
               className="bg-bg-tertiary border border-border rounded-md px-3 py-2 text-sm text-text-secondary"
@@ -241,6 +245,7 @@ export function CircuitBuilder() {
           <div className="space-y-2">
             {bulbs.map((b, i) => {
               const state: BulbState = !b.on ? 'burned' : bulbCurrents[i] > 0.05 ? 'lit' : 'unlit';
+              const label = bulbCurrentLabel(b.on, bulbCurrents[i]);
               const statusColor =
                 state === 'burned' ? 'var(--color-accent-clay)' :
                 state === 'lit' ? 'var(--color-accent-warm)' :
@@ -251,11 +256,13 @@ export function CircuitBuilder() {
                     <span className="text-xs text-text-secondary">
                       {t('electricity.sim2.bulb')} {b.id}
                       <span className="ml-2 text-[10px] uppercase tracking-wider text-text-muted">
-                        {state === 'burned'
+                        {label === 'burned'
                           ? (i18n.language.startsWith('ru') ? 'перегорела' : 'burned')
-                          : state === 'lit'
+                          : label === 'lit'
                             ? (i18n.language.startsWith('ru') ? 'горит' : 'lit')
-                            : (i18n.language.startsWith('ru') ? 'ток не течёт' : 'no current')}
+                            : label === 'dim'
+                              ? (i18n.language.startsWith('ru') ? 'малый ток' : 'small current')
+                              : (i18n.language.startsWith('ru') ? 'ток не течёт' : 'no current')}
                       </span>
                     </span>
                     <Button
@@ -352,13 +359,13 @@ function BatteryHorizontal({ cx, cy, voltage }: { cx: number; cy: number; voltag
   const { i18n } = useTranslation('physics');
   return (
     <g transform={`translate(${cx}, ${cy})`}>
-      {/* long plate (-) */}
+      {/* long plate (+) */}
       <line x1="-5" y1="-12" x2="-5" y2="12" stroke="#3d2f1f" strokeWidth="3" />
-      {/* short plate (+) */}
+      {/* short plate (-) */}
       <line x1="5" y1="-7" x2="5" y2="7" stroke="#3d2f1f" strokeWidth="3" />
       {/* signs */}
-      <text x="-12" y="-16" fontSize="11" fill="#9c8b73" textAnchor="middle">−</text>
-      <text x="12" y="-16" fontSize="11" fill="#9c8b73" textAnchor="middle">+</text>
+      <text x="-12" y="-16" fontSize="11" fill="#9c8b73" textAnchor="middle">+</text>
+      <text x="12" y="-16" fontSize="11" fill="#9c8b73" textAnchor="middle">−</text>
       <text x="0" y="26" textAnchor="middle" fontSize="11" fontFamily="JetBrains Mono" fill="#6b5b47">
         {voltage.toFixed(1)} {i18n.language.startsWith('ru') ? 'В' : 'V'}
       </text>

@@ -642,7 +642,7 @@
         "name": "Reading motion graphs",
         "rule": "The gradient of a distance–time graph gives speed. On a velocity–time graph, the gradient gives acceleration and the signed area gives displacement. The area under a speed–time graph gives distance travelled.",
         "examples": [
-          "A car speeds up from 0 to 6 m/s in 3 s. The gradient of its speed–time graph is 2 m/s². The area under the graph is ½ × 3 s × 6 m/s = 9 m.",
+          "A car speeds up uniformly from 0 to 6 m/s in 3 s. The gradient of its speed–time graph is 2 m/s². The area under the graph is ½ × 3 s × 6 m/s = 9 m.",
           "A horizontal line on a distance–time graph means the object has stopped: its gradient, and so its speed, is zero."
         ],
         "review": {
@@ -1151,8 +1151,8 @@
             "ru": "Время реакции — длительность; путь за время реакции — расстояние."
           },
           "model": {
-            "en": "During the reaction time the car keeps its original speed, because the brakes have not been applied yet.",
-            "ru": "За время реакции автомобиль сохраняет прежнюю скорость, потому что тормоза ещё не включены."
+            "en": "In this model, the car keeps its original speed during the reaction time. We assume no change in speed until braking starts.",
+            "ru": "В этой модели автомобиль сохраняет прежнюю скорость за время реакции. Предполагаем, что до начала торможения скорость не меняется."
           },
           "sources": [
             {

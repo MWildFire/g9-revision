@@ -1,3 +1,4 @@
+import { forceDisplay } from './VectorAddition';
 import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { motionGraphData } from '../../../definitions/physicsModels';
 import { useState, useMemo } from 'react';
@@ -13,6 +14,7 @@ const STEPS = 50;
 
 export function MotionGraphs() {
   const { t, i18n } = useTranslation('physics');
+  const { ru, u: unit, n } = forceDisplay(i18n.language);
   const [mode, setMode] = useState<Mode>('constantA');
   const [u, setU] = useState(2);
   const [a, setA] = useState(2);
@@ -37,9 +39,9 @@ export function MotionGraphs() {
               onChange={(id) => setMode(id as Mode)}
             />
           </div>
-          <Slider label={t('forceMotion.simGraphs.initialV')} unit="m/s" min={0} max={20} step={0.5} value={u} onChange={setU} />
+          <Slider format={(value) => n(value, 1)} label={t('forceMotion.simGraphs.initialV')} unit={unit('m/s')} min={0} max={20} step={0.5} value={u} onChange={setU} />
           {mode !== 'constantV' ? (
-            <Slider label={t('forceMotion.simGraphs.acceleration')} unit="m/s²" min={0.5} max={6} step={0.1} value={a} onChange={setA} />
+            <Slider format={(value) => n(value, 1)} label={t('forceMotion.simGraphs.acceleration')} unit={unit('m/s²')} min={0.5} max={6} step={0.1} value={a} onChange={setA} />
           ) : null}
           <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2 text-xs space-y-1">
             <p className="text-text-secondary">
@@ -54,9 +56,9 @@ export function MotionGraphs() {
         </div>
 
         <div className="space-y-2">
-          <ChartPanel data={data} dataKey="d" title={i18n.language.startsWith('ru') ? 'Путь s − t' : 'Distance s − t'} yLabel="s (m)" color="#a8b5a0" />
-          <ChartPanel data={data} dataKey="v" title={i18n.language.startsWith('ru') ? 'Скорость v − t' : 'Velocity v − t'} yLabel="v (m/s)" color="#c9a876" />
-          <ChartPanel data={data} dataKey="a" title={i18n.language.startsWith('ru') ? 'Ускорение a − t' : 'Acceleration a − t'} yLabel="a (m/s²)" color="#c99a8e" />
+          <ChartPanel language={i18n.language} data={data} dataKey="d" title={i18n.language.startsWith('ru') ? 'Перемещение s − t' : 'Displacement s − t'} yLabel={`s (${unit('m')})`} color="#a8b5a0" />
+          <ChartPanel language={i18n.language} data={data} dataKey="v" title={i18n.language.startsWith('ru') ? 'Скорость v − t' : 'Velocity v − t'} yLabel={`v (${unit('m/s')})`} color="#c9a876" />
+          <ChartPanel language={i18n.language} data={data} dataKey="a" title={i18n.language.startsWith('ru') ? 'Ускорение a − t' : 'Acceleration a − t'} yLabel={`a (${unit('m/s²')})`} color="#c99a8e" />
         </div>
       </div>
     <FormulaTeaching id="speed"/></SimulationPanel>
@@ -64,18 +66,21 @@ export function MotionGraphs() {
 }
 
 function ChartPanel({
+  language,
   data,
   dataKey,
   title,
   yLabel,
   color,
 }: {
+  language: string;
   data: any[];
   dataKey: string;
   title: string;
   yLabel: string;
   color: string;
 }) {
+  const { u: unit, n } = forceDisplay(language);
   return (
     <div className="h-32 bg-bg-primary rounded-md border border-border p-2">
       <p className="text-[10px] text-text-muted px-2">{title}</p>
@@ -86,11 +91,11 @@ function ChartPanel({
             type="number"
             domain={[0, T_MAX]}
             ticks={[0, 2, 4, 6, 8, 10]}
-            tickFormatter={(v) => `${v}s`}
+            tickFormatter={(v) => `${n(v, 0)} ${unit('s')}`}
             stroke="var(--color-text-muted)"
             fontSize={9}
           />
-          <YAxis stroke="var(--color-text-muted)" fontSize={9} width={42} />
+          <YAxis label={{ value: yLabel, angle: -90, position: 'insideLeft', fontSize: 9 }} tickFormatter={(v) => n(v, 1)} stroke="var(--color-text-muted)" fontSize={9} width={42} />
           <ReferenceLine y={0} stroke="#9c8b73" strokeWidth={0.5} />
           <RTooltip
             contentStyle={{
@@ -99,8 +104,8 @@ function ChartPanel({
               borderRadius: 8,
               fontSize: 11,
             }}
-            labelFormatter={(v: number) => `t = ${v.toFixed(1)} s`}
-            formatter={(v: number) => [v.toFixed(2), yLabel]}
+            labelFormatter={(v: number) => `t = ${n(v, 1)} ${unit('s')}`}
+            formatter={(v: number) => [n(v, 2), yLabel]}
           />
           <Line type="monotone" dataKey={dataKey} stroke={color} strokeWidth={2} dot={false} isAnimationActive={false} />
         </LineChart>

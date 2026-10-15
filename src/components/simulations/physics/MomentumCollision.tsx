@@ -1,3 +1,4 @@
+import { forceDisplay } from './VectorAddition';
 import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -6,14 +7,15 @@ import { SimulationPanel } from '../../ui/Tabs';
 import { Button } from '../../ui/Button';
 import { Tabs } from '../../ui/Tabs';
 import { useAnimationFrame } from '../../../hooks/useAnimationFrame';
-import { elasticCollision, inelasticCollision, format } from '../../../lib/physics';
+import { elasticCollision, inelasticCollision } from '../../../lib/physics';
 import { RotateCcw } from 'lucide-react';
 
 const W = 560;
 const H = 180;
 
 export function MomentumCollision() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const { ru, u: unit, n } = forceDisplay(i18n.language);
   const [m1, setM1] = useState(2);
   const [m2, setM2] = useState(3);
   const [v1Init, setV1Init] = useState(4);
@@ -93,16 +95,10 @@ export function MomentumCollision() {
       }
     }
 
-    // Bounce off walls
-    if (s.x1 < r1) {
-      s.x1 = r1;
-      s.v1 = Math.abs(s.v1);
-    }
-    if (s.x2 > W - r2) {
-      s.x2 = W - r2;
-      s.v2 = -Math.abs(s.v2);
-    }
-    if (s.x1 > W + 40 || s.x2 < -40) {
+    // Start a fresh isolated collision at the edge of the view. A wall bounce
+    // would add an external impulse while the display still compares with the
+    // original two-body momentum.
+    if (s.x1 < r1 || s.x2 > W - r2 || s.x1 > W - r1 || s.x2 < r2) {
       reset();
       return;
     }
@@ -111,7 +107,7 @@ export function MomentumCollision() {
     if (!c) return;
     const ctx = c.getContext('2d');
     if (!ctx) return;
-    drawScene(ctx, s.x1, s.x2, r1, r2, m1, m2, s.v1, s.v2);
+    drawScene(ctx, s.x1, s.x2, r1, r2, m1, m2, s.v1, s.v2, i18n.language);
   });
 
   const pBefore = m1 * v1Init + m2 * v2Init;
@@ -129,12 +125,12 @@ export function MomentumCollision() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="space-y-3">
-            <Slider label={t('forceMotion.sim3.m1')} unit="kg" min={0.5} max={10} step={0.1} value={m1} onChange={setM1} />
-            <Slider label={t('forceMotion.sim3.m2')} unit="kg" min={0.5} max={10} step={0.1} value={m2} onChange={setM2} />
+            <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim3.m1')} unit={unit('kg')} min={0.5} max={10} step={0.1} value={m1} onChange={setM1} />
+            <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim3.m2')} unit={unit('kg')} min={0.5} max={10} step={0.1} value={m2} onChange={setM2} />
           </div>
           <div className="space-y-3">
-            <Slider label={t('forceMotion.sim3.v1')} unit="m/s" min={-5} max={5} step={0.1} value={v1Init} onChange={setV1Init} />
-            <Slider label={t('forceMotion.sim3.v2')} unit="m/s" min={-5} max={5} step={0.1} value={v2Init} onChange={setV2Init} />
+            <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim3.v1')} unit={unit('m/s')} min={-5} max={5} step={0.1} value={v1Init} onChange={setV1Init} />
+            <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim3.v2')} unit={unit('m/s')} min={-5} max={5} step={0.1} value={v2Init} onChange={setV2Init} />
           </div>
         </div>
 
@@ -153,23 +149,23 @@ export function MomentumCollision() {
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 text-sm">
-          <Stat label={`v₁ ${t('common.before')}`} value={`${v1Init.toFixed(1)} m/s`} />
-          <Stat label={`v₂ ${t('common.before')}`} value={`${v2Init.toFixed(1)} m/s`} />
-          <Stat label={`v₁' ${t('common.after')}`} value={`${postCollision.v1.toFixed(2)} m/s`} accent />
-          <Stat label={`v₂' ${t('common.after')}`} value={`${postCollision.v2.toFixed(2)} m/s`} accent />
+          <Stat label={`v₁ ${t('common.before')}`} value={`${n(v1Init, 1)} ${unit('m/s')}`} />
+          <Stat label={`v₂ ${t('common.before')}`} value={`${n(v2Init, 1)} ${unit('m/s')}`} />
+          <Stat label={`v₁' ${t('common.after')}`} value={`${n(postCollision.v1, 2)} ${unit('m/s')}`} accent />
+          <Stat label={`v₂' ${t('common.after')}`} value={`${n(postCollision.v2, 2)} ${unit('m/s')}`} accent />
         </div>
 
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div className="bg-bg-tertiary border border-border rounded-md px-4 py-2.5">
             <div className="text-xs text-text-muted">{t('forceMotion.sim3.totalBefore')}</div>
-            <div className="font-mono text-text-primary">{format(pBefore, 2)} kg·m/s</div>
+            <div className="font-mono text-text-primary">{n(pBefore, 2)} {unit('kg·m/s')}</div>
           </div>
           <div
             className="bg-bg-tertiary rounded-md px-4 py-2.5 border border-border"
             style={{ borderLeft: '4px solid var(--color-accent-sage)' }}
           >
             <div className="text-xs text-text-muted">{t('forceMotion.sim3.totalAfter')}</div>
-            <div className="font-mono text-text-primary">{format(pAfter, 2)} kg·m/s</div>
+            <div className="font-mono text-text-primary">{n(pAfter, 2)} {unit('kg·m/s')}</div>
           </div>
         </div>
       </div>
@@ -200,6 +196,7 @@ function drawScene(
   m2: number,
   v1: number,
   v2: number,
+  language: string,
 ) {
   ctx.clearRect(0, 0, W, H);
   const groundY = H - 30;
@@ -210,8 +207,8 @@ function drawScene(
   ctx.lineTo(W, groundY);
   ctx.stroke();
 
-  drawBall(ctx, x1, groundY - r1, r1, '#c9a876', m1, v1);
-  drawBall(ctx, x2, groundY - r2, r2, '#a8b8c8', m2, v2);
+  drawBall(ctx, x1, groundY - r1, r1, '#c9a876', m1, v1, language);
+  drawBall(ctx, x2, groundY - r2, r2, '#a8b8c8', m2, v2, language);
 }
 
 function drawBall(
@@ -222,7 +219,9 @@ function drawBall(
   color: string,
   m: number,
   v: number,
+  language: string,
 ) {
+  const { u: unit, n } = forceDisplay(language);
   ctx.fillStyle = color;
   ctx.strokeStyle = '#6b5b47';
   ctx.lineWidth = 1.5;
@@ -234,7 +233,7 @@ function drawBall(
   ctx.fillStyle = '#3d2f1f';
   ctx.font = `${Math.max(10, r / 2)}px JetBrains Mono`;
   ctx.textAlign = 'center';
-  ctx.fillText(`${m.toFixed(1)}`, x, y + 4);
+  ctx.fillText(`${n(m, 1)} ${unit('kg')}`, x, y + 4);
 
   const arrowLen = Math.min(60, Math.abs(v) * 10);
   if (arrowLen > 4) {
@@ -255,6 +254,6 @@ function drawBall(
     ctx.fill();
     ctx.font = '10px Inter';
     ctx.fillStyle = '#6b5b47';
-    ctx.fillText(`${v.toFixed(1)}`, x, ay - 6);
+    ctx.fillText(`${n(v, 1)} ${unit('m/s')}`, x, ay - 6);
   }
 }

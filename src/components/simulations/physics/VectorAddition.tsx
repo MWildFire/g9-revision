@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 import { Slider } from '../../ui/Slider';
 import { SimulationPanel } from '../../ui/Tabs';
 import { Formula } from '../../ui/Formula';
-import { format } from '../../../lib/physics';
 
 const W = 420;
 const H = 320;
@@ -13,7 +12,8 @@ const CY = H / 2;
 const SCALE = 6; // px per N
 
 export function VectorAddition() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const { ru, u: unit, n } = forceDisplay(i18n.language);
   const [f1, setF1] = useState(20);
   const [a1, setA1] = useState(30);
   const [f2, setF2] = useState(15);
@@ -28,6 +28,12 @@ export function VectorAddition() {
   const ry = f1y + f2y;
   const rMag = Math.sqrt(rx * rx + ry * ry);
   const rAngle = (Math.atan2(ry, rx) * 180) / Math.PI;
+  const hasDirection = rMag > 1e-9;
+  const scale = Math.min(
+    SCALE,
+    (CX - 45) / Math.max(1, Math.abs(f1x), Math.abs(rx)),
+    (CY - 40) / Math.max(1, Math.abs(f1y), Math.abs(ry)),
+  );
 
   return (
     <SimulationPanel
@@ -64,16 +70,16 @@ export function VectorAddition() {
           <line x1={CX} y1="0" x2={CX} y2={H} stroke="#9c8b73" strokeWidth="1" />
 
           {/* F1 from origin */}
-          <Arrow x1={CX} y1={CY} x2={CX + f1x * SCALE} y2={CY - f1y * SCALE} color="#c9a876" label={`F₁ = ${f1.toFixed(0)} N`} />
+          <Arrow x1={CX} y1={CY} x2={CX + f1x * scale} y2={CY - f1y * scale} color="#c9a876" label={`F₁ = ${n(f1, 0)} ${unit('N')}`} />
 
           {/* F2 from tip of F1 (head-to-tail) for visual sum */}
           <Arrow
-            x1={CX + f1x * SCALE}
-            y1={CY - f1y * SCALE}
-            x2={CX + (f1x + f2x) * SCALE}
-            y2={CY - (f1y + f2y) * SCALE}
+            x1={CX + f1x * scale}
+            y1={CY - f1y * scale}
+            x2={CX + (f1x + f2x) * scale}
+            y2={CY - (f1y + f2y) * scale}
             color="#a8b5a0"
-            label={`F₂ = ${f2.toFixed(0)} N`}
+            label={`F₂ = ${n(f2, 0)} ${unit('N')}`}
             dashed
           />
 
@@ -81,10 +87,10 @@ export function VectorAddition() {
           <Arrow
             x1={CX}
             y1={CY}
-            x2={CX + rx * SCALE}
-            y2={CY - ry * SCALE}
+            x2={CX + rx * scale}
+            y2={CY - ry * scale}
             color="#3d2f1f"
-            label={`R = ${rMag.toFixed(1)} N`}
+            label={`R = ${n(rMag, 1)} ${unit('N')}`}
             thick
           />
         </svg>
@@ -94,31 +100,31 @@ export function VectorAddition() {
             <p className="text-xs uppercase tracking-wider text-text-muted mb-2">
               {t('forceMotion.simVectors.f1')}
             </p>
-            <Slider label={t('forceMotion.simVectors.magnitude')} unit="N" min={1} max={30} step={1} value={f1} onChange={setF1} />
+            <Slider format={(value) => n(value, 1)} label={t('forceMotion.simVectors.magnitude')} unit={unit('N')} min={1} max={30} step={1} value={f1} onChange={setF1} />
             <div className="mt-2">
-              <Slider label={t('forceMotion.simVectors.angle')} unit="°" min={0} max={360} step={5} value={a1} onChange={setA1} />
+              <Slider format={(value) => n(value, 1)} label={t('forceMotion.simVectors.angle')} unit="°" min={0} max={360} step={5} value={a1} onChange={setA1} />
             </div>
           </div>
           <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2">
             <p className="text-xs uppercase tracking-wider text-text-muted mb-2">
               {t('forceMotion.simVectors.f2')}
             </p>
-            <Slider label={t('forceMotion.simVectors.magnitude')} unit="N" min={1} max={30} step={1} value={f2} onChange={setF2} />
+            <Slider format={(value) => n(value, 1)} label={t('forceMotion.simVectors.magnitude')} unit={unit('N')} min={1} max={30} step={1} value={f2} onChange={setF2} />
             <div className="mt-2">
-              <Slider label={t('forceMotion.simVectors.angle')} unit="°" min={0} max={360} step={5} value={a2} onChange={setA2} />
+              <Slider format={(value) => n(value, 1)} label={t('forceMotion.simVectors.angle')} unit="°" min={0} max={360} step={5} value={a2} onChange={setA2} />
             </div>
           </div>
 
-          <Formula caption="R = F₁ + F₂ (vector sum)">
-            |R| = {format(rMag, 1)} N
+          <Formula caption={ru ? 'R = F₁ + F₂ (векторная сумма)' : 'R = F₁ + F₂ (vector sum)'}>
+            |R| = {n(rMag, 1)} {unit('N')}
             <br />
-            <span className="text-xs text-text-muted">angle ≈ {rAngle.toFixed(0)}°</span>
+            <span className="text-xs text-text-muted">{hasDirection ? `${ru ? 'угол' : 'angle'} ≈ ${n(rAngle, 0)}°` : (ru ? 'У нулевой равнодействующей нет направления.' : 'The zero resultant has no direction.')}</span>
           </Formula>
 
           <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2 text-xs font-mono space-y-0.5">
-            <div>Rₓ = F₁ₓ + F₂ₓ = {format(rx, 1)} N</div>
-            <div>Rᵧ = F₁ᵧ + F₂ᵧ = {format(ry, 1)} N</div>
-            <div>|R| = √(Rₓ² + Rᵧ²) = {format(rMag, 1)} N</div>
+            <div>Rₓ = F₁ₓ + F₂ₓ = {n(rx, 1)} {unit('N')}</div>
+            <div>Rᵧ = F₁ᵧ + F₂ᵧ = {n(ry, 1)} {unit('N')}</div>
+            <div>|R| = √(Rₓ² + Rᵧ²) = {n(rMag, 1)} {unit('N')}</div>
           </div>
         </div>
       </div>
@@ -166,7 +172,7 @@ function Arrow({
       />
       <text
         x={(x1 + x2) / 2}
-        y={(y1 + y2) / 2 - 6}
+        y={(y1 + y2) / 2 + (dashed ? 14 : -6)}
         fontSize="10"
         fontFamily="JetBrains Mono"
         fill={color}
@@ -176,4 +182,15 @@ function Arrow({
       </text>
     </g>
   );
+}
+
+/** Display conventions for the forces and motion simulations. */
+export function forceDisplay(language: string) {
+  const ru = language.startsWith('ru');
+  const units: Record<string, string> = { 'kg': 'кг', 'N': 'Н', 'm': 'м', 's': 'с', 'm/s': 'м/с', 'm/s²': 'м/с²', 'km/h': 'км/ч', 'kg·m/s': 'кг·м/с' };
+  return {
+    ru,
+    u: (unit: string) => ru ? units[unit] ?? unit : unit,
+    n: (value: number, digits = 1) => ru ? value.toFixed(digits).replace('.', ',') : value.toFixed(digits),
+  };
 }

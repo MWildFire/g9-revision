@@ -23,3 +23,7 @@
 - R03, правки по проверке (15.10.2026): в ответе об автобусах восстановлены = по правилу R03, пересчитаны 500/495 и 800/670 тыс. фунтов. mocks.json исключён из зоны: отдельный запрос его владельцу; оспорено: нет. Полного учебника IB Biology нет, проверка по нему не заявляется.
 
 - 2026-10-15 local correction: four calculation separators in science-investigation answers changed to equals signs; EN/RU arithmetic and units checked. Other lesson fields unchanged. Source verification remains partial; independent review and final rendered candidate verification pending. No release/live claim.
+
+## Local follow-up — 16 October 2026
+
+The repeated-readings uncertainty model now distinguishes random spread from instrument resolution, calibration and systematic effects. This is a local correction of a separately assigned, independently confirmed finding; final snapshot review and broader IB/RU source acceptance remain pending. Not published or deployed.

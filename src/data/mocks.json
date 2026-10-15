@@ -1550,8 +1550,8 @@
             }
           ],
           "model": {
-            "en": "Half of the smallest scale division is a common school estimate for one reading. A reading of 25 mm on a millimetre ruler is therefore written as 25 ± 0.5 mm. For repeated readings, the spread of the results is a better guide to uncertainty.",
-            "ru": "Половина наименьшего деления шкалы — распространённая школьная оценка неопределённости одного отсчёта. Поэтому отсчёт 25 мм на линейке с миллиметровыми делениями записывают как 25 ± 0,5 мм. Для повторных измерений надёжнее судить о неопределённости по разбросу результатов."
+            "en": "Half of the smallest scale division is a common school estimate for one reading. A reading of 25 mm on a millimetre ruler is therefore written as 25 ± 0.5 mm. Repeated readings help estimate random uncertainty. Also consider instrument resolution, calibration and systematic effects.",
+            "ru": "Половина наименьшего деления шкалы — распространённая школьная оценка неопределённости одного отсчёта. Поэтому отсчёт 25 мм на линейке с миллиметровыми делениями записывают как 25 ± 0,5 мм. Повторы помогают оценить случайную неопределённость; учитывай также разрешение прибора, калибровку и систематические эффекты."
           }
         },
         {

@@ -10,13 +10,20 @@ Content is split into **batches** (`scripts/content/batches.json`), one per topi
 
 ```sh
 npm run content:extract -- <batch>        # content-work/<batch>/worksheet.md + worksheet.json
-npm run qa:render -- --batch <batch> --shots   # screenshots of the current pages
+# Set QA_OUT and QA_CONTRACT to private SSD evidence paths, and reserve a free loopback port.
+# Commit the isolated candidate before each capture build.
+npm run qa:build
+npm run qa:render -- --batch <batch> --shots --out "$QA_OUT/before" --port 4328 --build-sha "$(git rev-parse HEAD)" --contract "$QA_CONTRACT"
 # write content-work/<batch>/sources.md and content-work/<batch>/NN-*.edits.jsonl
 npm run content:lint -- <batch>           # must end with 0 errors
 npm run content:apply -- <batch>          # writes the source files + docs/content-revision/changes/<batch>.jsonl
-npm test && npm run build
-npm run qa:render -- --batch <batch> --mobile --shots   # must end with 0 failed
+npm test
+# Review and commit the source edits, then build the exact committed version.
+npm run qa:build
+npm run qa:render -- --batch <batch> --mobile --shots --out "$QA_OUT/after" --port 4328 --build-sha "$(git rev-parse HEAD)" --contract "$QA_CONTRACT" # must end with 0 failed
 ```
+
+The route contract maps `en:<route>` and `ru:<route>` to the expected `h1`, a meaningful `minBlocks`, and required `texts` or `formulas` where appropriate. Create an initial inventory using the same capture command with `--discover` instead of `--contract`; manually check its headings, content coverage and formulas before using its `contract.json`. Discovery is not an accepted audit. `qa:build` requires a clean Git checkout and records source and output hashes in `dist/.qa-build.json`; captures reject a missing manifest, changed source, dirty checkout or changed output. Evidence and contracts stay outside the public source tree.
 
 ### Edits file format (`content-work/<batch>/NN-anything.edits.jsonl`, one JSON object per line)
 

@@ -1,0 +1,36 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import {verifyBuiltRevision} from '../scripts/qa/local-audit-server.mjs';
+
+const buildScript=fileURLToPath(new URL('../scripts/qa/build.mjs',import.meta.url));
+test('capture build rejects stale, modified and dirty inputs, and seals a clean build',()=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'qa-build-'));
+ const git=(...args)=>execFileSync('git',args,{cwd:root,encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim();
+ git('init','-q');git('config','user.name','QA fixture');git('config','user.email','qa@example.invalid');
+ fs.writeFileSync(path.join(root,'.gitignore'),'dist/\n');
+ fs.writeFileSync(path.join(root,'source.txt'),'original source');
+ fs.writeFileSync(path.join(root,'package.json'),JSON.stringify({scripts:{build:'node build.cjs'}}));
+ fs.writeFileSync(path.join(root,'build.cjs'),"const fs=require('fs');fs.mkdirSync('dist',{recursive:true});fs.writeFileSync('dist/index.html',fs.readFileSync('source.txt'));\n");
+ git('add','.');git('commit','-qm','fixture');const sha=git('rev-parse','HEAD');
+ const dist=path.join(root,'dist');fs.mkdirSync(dist);fs.writeFileSync(path.join(dist,'index.html'),'unrelated stale bytes');
+ assert.throws(()=>verifyBuiltRevision(root,dist,sha),/missing_build_manifest/);
+ execFileSync(process.execPath,[buildScript],{cwd:root,stdio:'pipe'});
+ assert.equal(verifyBuiltRevision(root,dist,sha).sha,sha);
+ fs.writeFileSync(path.join(dist,'index.html'),'changed output');
+ assert.throws(()=>verifyBuiltRevision(root,dist,sha),/modified_build/);
+ execFileSync(process.execPath,[buildScript],{cwd:root,stdio:'pipe'});
+ fs.writeFileSync(path.join(root,'source.txt'),'changed source');
+ assert.throws(()=>verifyBuiltRevision(root,dist,sha),/dirty_source/);
+ assert.throws(()=>execFileSync(process.execPath,[buildScript],{cwd:root,stdio:'pipe'}));
+ git('add','.');git('commit','-qm','changed fixture');const next=git('rev-parse','HEAD');
+ assert.throws(()=>verifyBuiltRevision(root,dist,next),/stale_build_source/);
+ execFileSync(process.execPath,[buildScript],{cwd:root,stdio:'pipe'});
+ assert.equal(verifyBuiltRevision(root,dist,next).sha,next);
+ fs.writeFileSync(path.join(root,'unexpected.js'),'untracked source');
+ assert.throws(()=>verifyBuiltRevision(root,dist,next),/dirty_source/);
+});

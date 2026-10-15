@@ -12,7 +12,8 @@
     "content:extract": "node scripts/content/extract.mjs",
     "content:lint": "node scripts/content/lint.mjs",
     "content:apply": "node scripts/content/apply.mjs",
-    "qa:render": "node scripts/qa/render-audit.mjs"
+    "qa:render": "node scripts/qa/render-audit.mjs",
+    "qa:build": "node scripts/qa/build.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.1.0",

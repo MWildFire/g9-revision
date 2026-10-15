@@ -1,3 +1,4 @@
+import { printDiagramPlan } from '../src/modules/geography-tectonics/model.ts';
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -272,4 +273,16 @@ test("geography progress is isolated from physics and preserves bilingual answer
   storage.delete(STUDY_KEY);
   assert.equal(storage.get(PHYSICS_STUDY_KEY), physicsBefore);
   assert.deepEqual(parseStudyState(storage.get(STUDY_KEY) ?? null), { completed: [], answers: {} });
+});
+
+test('compiled guide retains each distinct diagram while referring repeated case-study diagrams to their lesson', () => {
+  const plan=printDiagramPlan(lessons);
+  const entry=id=>plan[lessons.findIndex(x=>x.id===id)];
+  assert.equal(entry('volcano-types').showVisual,true);
+  assert.equal(entry('volcano-structure').showVisual,true);
+  assert.equal(entry('eyjafjallajokull').showVisual,false);
+  assert.deepEqual(entry('eyjafjallajokull').references,['volcano-types','volcano-structure']);
+  assert.deepEqual(entry('nepal').references,['collision']);
+  for(const item of plan) for(const id of item.references) assert.ok(lessons.some(x=>x.id===id));
+  assert.equal(plan.filter(x=>x.showVisual).length,9);
 });

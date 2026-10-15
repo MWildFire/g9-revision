@@ -10,3 +10,5 @@
 - PiXL: отсутствовал уже в исходном модуле; новых упоминаний нет. Sources and scope заменён на Further reading / Дополнительное чтение; служебные фразы о фотографии, переводе и процессе авторства удалены.
 - открыто: photon, efficiency, decay, nuclear-equation — карточки другого автора, оставлены. В Visuals.tsx остаются двуязычные названия Carbon-12/14 и отдельные тяжёлые подписи; это зона общего интерфейса. Низ длинного банка задач дополнительно проверен обычными viewport-снимками: дефектов текста нет.
 - R03, правки по проверке (15.10 15:33 GST): журнал дополнен финальными EN-значениями nucleon.model и atom-1.hint; сверка журнала также добавила каноническую запись ранее отменённой RU-правки счётчика примеров. Тексты сайта не менялись; история сохранена. Оспорено: нет.
+
+- R04 local candidate: Preserved atom/reference duplicate and lint corrections. Duplicate parent/daughter nucleus rows normalized at source with stems retained; glossary regenerated. Integration tests 123/123 and followup tests 138/138 pass; build passes. Render and independent acceptance are separate pending gates. No GitHub merge, deployment or live verification claimed.

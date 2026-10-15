@@ -5,7 +5,7 @@ import { ExtrasLayout, ExtraSection } from '../../../components/content/ExtrasLa
 export function BiologyExtrasPage() {
   const { t } = useTranslation('biology');
   return (
-    <ExtrasLayout title={t('extras.title')} intro={t('extras.intro')}>
+    <ExtrasLayout title={t('extras.title')} intro={t('extras.intro')} notice={{ title:t('extras.notice.title'), text:t('extras.notice.text') }}>
       <ExtraSection title={t('extras.photoDepth.title')} body={t('extras.photoDepth.body')} review={t('extras.photoDepth.review', { returnObjects: true }) as DefinitionReview} borderColor="var(--color-accent-sage)" />
       <ExtraSection title={t('extras.hormones.title')} review={t('extras.hormones.review', { returnObjects: true }) as DefinitionReview} items={(t('extras.hormones.items', { returnObjects: true }) as string[]) ?? []} />
       <ExtraSection title={t('extras.genetics.title')} body={t('extras.genetics.body')} review={t('extras.genetics.review', { returnObjects: true }) as DefinitionReview} borderColor="var(--color-accent-warm)" />

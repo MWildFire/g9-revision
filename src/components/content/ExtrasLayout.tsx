@@ -11,9 +11,10 @@ interface Props {
   title: string;
   intro: string;
   children: ReactNode;
+  notice?: { title: string; text: string };
 }
 
-export function ExtrasLayout({ title, intro, children }: Props) {
+export function ExtrasLayout({ title, intro, children, notice }: Props) {
   const { i18n } = useTranslation();
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
   const noticeText = lang === 'ru'
@@ -28,8 +29,8 @@ export function ExtrasLayout({ title, intro, children }: Props) {
       <div className="mt-6 flex items-start gap-3 bg-bg-secondary border border-border rounded-md p-4" style={{ borderLeftColor: 'var(--color-accent-warm)', borderLeftWidth: '4px' }}>
         <AlertCircle size={18} className="text-accent-warm shrink-0 mt-0.5" />
         <div>
-          <p className="text-sm font-medium mb-0.5">{noticeTitle}</p>
-          <p className="text-xs text-text-secondary">{noticeText}</p>
+          <p className="text-sm font-medium mb-0.5">{notice?.title ?? noticeTitle}</p>
+          <p className="text-xs text-text-secondary">{notice?.text ?? noticeText}</p>
         </div>
       </div>
 

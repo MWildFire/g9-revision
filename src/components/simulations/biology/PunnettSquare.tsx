@@ -1,4 +1,3 @@
-import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { isSingleLocusCross, singleLocusOutcomes } from '../../../definitions/biologyModels';
 import { DefinitionSupport } from '../../content/DefinitionSupport';
 import type { DefinitionReview } from '../../content/definitionReview';
@@ -104,6 +103,6 @@ export function PunnettSquare() {
         )}
       </div>
     <DefinitionSupport review={t('simulations.punnett.review', { returnObjects: true }) as DefinitionReview} />
-    <FormulaTeaching id="probability"/></SimulationPanel>
+    </SimulationPanel>
   );
 }

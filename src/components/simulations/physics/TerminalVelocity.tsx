@@ -1,3 +1,4 @@
+import { formatTimeTick } from './timeTicks';
 import { forceDisplay } from './VectorAddition';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -119,7 +120,7 @@ export function TerminalVelocity() {
                   dataKey="t"
                   type="number"
                   domain={[0, 'dataMax']}
-                  tickFormatter={(v) => `${n(v, 0)} ${unit('s')}`}
+                  tickFormatter={(v) => `${formatTimeTick(v, i18n.language)} ${unit('s')}`}
                   stroke="var(--color-text-muted)"
                   fontSize={10}
                   tickCount={6}

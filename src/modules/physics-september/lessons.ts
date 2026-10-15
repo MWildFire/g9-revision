@@ -695,8 +695,8 @@ export const lessons: Lesson[] = [
         "Длинный период полураспада не делает источник безвредным.",
       ),
       b(
-        "When you compare activities through half-life, always write “for equal numbers of nuclei”.",
-        "Когда сравниваешь активности по периоду полураспада, обязательно пиши «при одинаковом числе ядер».",
+        "A shorter half-life gives greater activity only when comparing equal numbers of undecayed nuclei. For equal initial activities, calculate the later activities separately.",
+        "Меньший период означает большую активность только при одинаковом числе нераспавшихся ядер. При одинаковых начальных активностях вычисляй последующие активности отдельно.",
       ),
     ],
   },

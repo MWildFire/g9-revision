@@ -34,7 +34,7 @@ export function TensesPage() {
     <div>
       <TopicHero
         title={t('nav.tenses')}
-        intro={lang === 'ru' ? 'Основные времена: настоящее, сложное прошедшее (passé composé), простое будущее (futur simple), ближайшее будущее, имперфект, условное наклонение и давнопрошедшее.' : 'Main tenses: present, passé composé, futur simple, futur proche, imparfait, conditionnel présent and plus-que-parfait.'}
+        intro={lang === 'ru' ? 'Основные времена: настоящее, сложное прошедшее (passé composé), простое будущее (futur simple), ближайшее будущее (futur proche), имперфект (imparfait), условное наклонение (conditionnel présent) и давнопрошедшее (plus-que-parfait).' : 'Main tenses: present, passé composé, futur simple, futur proche, imparfait, conditionnel présent and plus-que-parfait.'}
         icon={<Clock size={28} />}
       />
       <TenseSection title={lang === 'ru' ? 'Présent (Настоящее)' : 'Présent (Present)'} tables={PRESENT_TENSE} lang={lang} />

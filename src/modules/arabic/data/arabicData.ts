@@ -663,7 +663,7 @@ export const GRAMMAR_RULES: ArabicGrammarRule[] = [
     "titleEn": "Definite article (الـ)",
     "titleRu": "Определённый артикль (الـ)",
     "body": "The definite article الـ (al-) attaches to its word. Before a sun letter its l assimilates to that consonant, which is doubled: الشَّمْس ash-shams. Before a moon letter l remains audible: القَمَر al-qamar.",
-    "bodyRu": "Определённый артикль الـ (al-) пишется слитно со словом. Перед солнечной буквой l уподобляется ей, а согласный удваивается: الشَّمْس ash-shams. Перед лунной l произносится: القَمَر al-qamar.",
+    "bodyRu": "Определённый артикль الـ (al-) пишется слитно со словом. Перед солнечной буквой лам артикля (ل) уподобляется ей, а согласный удваивается: الشَّمْس ash-shams. Перед лунной буквой лам артикля (ل) произносится: القَمَر al-qamar.",
     "detailsEn": {
       "body": "Definiteness helps identify a referent or a class, but Arabic and English articles do not correspond word for word. Arabic has no separate indefinite article like a/an. In fully vowelled text, many indefinite nouns take tanwīn, but not every word without al- is indefinite: proper names and possessive constructions can be definite too.",
       "examples": [
@@ -695,8 +695,7 @@ export const GRAMMAR_RULES: ArabicGrammarRule[] = [
         "قَميص أَحْمَر — a red shirt; تَنّورة حَمْراء — a red skirt.",
         "كِتاب جَديد — a new book; مَدْرَسة جَديدة — a new school.",
         "مُعَلِّمة is often read muʿallima in pause; in a construction or with case endings the t is pronounced."
-      ],
-      "watchOut": "Arabic and Russian genders need not match: كِتاب is masculine although Russian «книга» is feminine. Agreement follows the Arabic noun."
+      ]
     },
     "detailsRu": {
       "body": "Род влияет на согласование. Многие женские формы добавляют ة: مُعَلِّم / مُعَلِّمة. Некоторые слова женского рода не имеют её: شَمْس (солнце); некоторые мужские имена, наоборот, имеют. Цветовые прилагательные أَحْمَر / حَمْراء образуют женский род по другой модели, а не добавлением ة.",
@@ -704,8 +703,7 @@ export const GRAMMAR_RULES: ArabicGrammarRule[] = [
         "قَميص أَحْمَر — красная рубашка; تَنّورة حَمْراء — красная юбка.",
         "كِتاب جَديد — новая книга; مَدْرَسة جَديدة — новая школа.",
         "مُعَلِّمة часто читают muʿallima на паузе; в конструкции или с падежным окончанием произносится t."
-      ],
-      "watchOut": "Арабский и русский род могут не совпадать: كِتاب мужского рода, хотя «книга» — женского. Согласование определяется арабским словом."
+      ]
     }
   },
   {
@@ -749,17 +747,17 @@ export const GRAMMAR_RULES: ArabicGrammarRule[] = [
         "أنتم antum / أنتنّ antunna — you plural masculine/feminine; هم hum / هنّ hunna — they masculine/feminine.",
         "كِتابي kitābī — my book; رَأَيْتُهُ raʾaytuhu — I saw him."
       ],
-      "watchOut": "أَدْرُس means I study; يَدْرُس means he studies. These are finite forms, not infinitives or commands. The time interpretation depends on context."
+      "watchOut": "أَدْرُس means I study; يَدْرُس means he studies. The time interpretation depends on context."
     },
     "detailsRu": {
-      "body": "Личная форма глагола часто сама указывает на подлежащее, поэтому отдельное местоимение можно опустить. أَنا أَدْرُس и أَدْرُس означают «я учусь». В обычном именном предложении настоящего связка am/is/are явно не выражается: أَنا طالِب. Формы kāna/yakūnu в языке есть; отсутствие связки здесь не означает отсутствие глагола вообще.",
+      "body": "Личная форма глагола часто сама указывает на подлежащее, поэтому отдельное местоимение можно опустить. أَنا أَدْرُس и أَدْرُس означают «я учусь». В обычном именном предложении настоящего связка «быть» (am/is/are) явно не выражается: أَنا طالِب. Формы kāna/yakūnu в языке есть; отсутствие связки здесь не означает отсутствие глагола вообще.",
       "examples": [
         "أنا anā — я; نحن naḥnu — мы; أنتَ anta — ты (к мужчине); أنتِ anti — ты (к женщине).",
         "هو huwa — он; هي hiya — она; أنتما antumā — вы двое; هما humā — они двое.",
         "أنتم antum / أنتنّ antunna — вы, муж./жен. мн.; هم hum / هنّ hunna — они, муж./жен. мн.",
         "كِتابي kitābī — моя книга; رَأَيْتُهُ raʾaytuhu — я увидел(а) его."
       ],
-      "watchOut": "أَدْرُس — я учусь; يَدْرُس — он учится. Это личные формы, а не инфинитивы и не команды. Временное значение зависит от контекста."
+      "watchOut": "أَدْرُس — я учусь; يَدْرُس — он учится. Временное значение зависит от контекста."
     }
   },
   {

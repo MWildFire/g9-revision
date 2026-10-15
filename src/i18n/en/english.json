@@ -273,7 +273,7 @@
   "textTypes": {
     "essay": {
       "name": "Essay",
-      "rule": "An essay is a short prose text in free composition: the writer gives a personal view on a topic, and an argument or a final conclusion is optional. An argumentative essay states a thesis and proves it paragraph by paragraph; the five-paragraph plan of a timed exam answer is a separate school scheme. The task sets the purpose, register, length and whether the first person is allowed.",
+      "rule": "An essay is a short prose text in free composition: the writer gives a personal view on a topic, and an argument or a final conclusion is optional. An argumentative essay states a thesis and proves it paragraph by paragraph; the five-paragraph plan of a timed exam answer is a separate school scheme. The task sets the purpose, register and length.",
       "examples": [
         "Thesis: 'Libraries should stay open late, because not every student has a quiet place to study at home.'",
         "Supporting evidence: 'Mara finishes her history essays in the library because it is quieter than home. A library open late would help every student in the same position.'",
@@ -287,7 +287,7 @@
       "examples": [
         "Formal opening: 'Dear Ms Taylor,' with the closing 'Yours sincerely, Sam'. If you do not know the addressee's name, open with 'Dear Sir/Madam' and close with 'Yours faithfully'.",
         "Informal opening: 'Dear Granny,' / closing: 'Love, Sam' or 'Best wishes,'.",
-        "Letter of complaint: 'The lunch queue has taken over 20 minutes since Monday. I timed it on three days, and it reached 25 minutes on Thursday. Please open a second serving point by Friday.' The issue, the evidence, the action and the deadline come in that order.",
+        "Letter of complaint: 'Since Monday, the wait in the lunch queue has been over 20 minutes. I timed it on three days, and it reached 25 minutes on Thursday. Please open a second serving point by Friday.' The issue, the evidence, the action and the deadline come in that order.",
         "Letter to the editor: 'The new timetable leaves our stop without a bus after 7pm. Late shift workers have no safe way home. The council should review it this month.' Short, with one clear opinion and a call to action."
       ],
       "watchOut": "DON'T mix formal and informal: never write 'Dear Sir/Madam' then 'Take care!' — register must match throughout."
@@ -351,10 +351,10 @@
       "rule": "A revision guide organises knowledge so that it is easy to recall. It defines terms accurately, shows worked examples and includes questions that check understanding.",
       "examples": [
         "Heading: 'Command terms'",
-        "Definition box: 'Describe means give a clear account of what something is or looks like; explain means give reasons.'",
+        "Definition box: 'Describe means give a clear account of what something is or looks like; explain means give a detailed account including reasons or causes.'",
         "Worked example: 'Question: Explain how the writer creates tension. Answer: the short sentences force a pause, so the reader feels the same hesitation as the character.'",
         "Tip box: 'Always check that your answer responds to the command term in the question.'",
-        "Checklist: can you define each term without notes, and solve one example on your own?"
+        "Checklist: can you define each term without notes, and write one short example of your own?"
       ],
       "tip": "Layout matters as much as content: a guide with white space and a clear hierarchy of headings is more useful than a wall of text."
     },

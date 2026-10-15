@@ -8,7 +8,8 @@
 // --root selects an isolated built checkout. --discover writes an unaccepted heading inventory.
 // --print additionally audits print media for paper/reference routes, including repeat failures.
 // Fails (exit 1) on: JS errors, repeated visible text blocks (≥40 chars) on one page,
-// the same formula card twice on one page, horizontal overflow at 390 px.
+// the same formula card twice on one page, horizontal overflow at widths below 480 px,
+// or a clipped formula in print media.
 // Reports (no fail): English-only blocks on RU pages and Cyrillic on EN pages outside lang-marked elements.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -93,8 +94,8 @@ try {
         const leaks = data.blocks.filter(b => !b.other && (lang === 'ru'
           ? /[A-Za-z]{3,}(?:[ ,'’-]+[A-Za-z]{2,}){3,}/.test(b.text) && !/[А-Яа-яЁё]/.test(b.text)
           : /[А-Яа-яЁё]{3,}/.test(b.text))).map(b => b.text.slice(0, 160));
-        const fail = errors.length > 0 || repeated.length > 0 || formulaRepeats.length > 0 || data.clippedFormulas.length > 0 || (label === 'mobile' && data.overflow > 2);
-        results.push({ status:opt('discover')?'inventory_only':'captured', readiness, build:identity, lang, view: label, route, title: data.title, blocks: data.blocks.length, formulaCards: Object.keys(data.formulas), repeated, formulaRepeats, clippedFormulas:data.clippedFormulas, leaks: leaks.slice(0, 30), leakCount: leaks.length, overflow: data.overflow, errors: [...errors], fail });
+        const fail = errors.length > 0 || repeated.length > 0 || formulaRepeats.length > 0 || data.clippedFormulas.length > 0 || (viewport.width < 480 && data.overflow > 2);
+        results.push({ status:opt('discover')?'inventory_only':'captured', readiness, build:identity, lang, view: label, viewport, route, title: data.title, blocks: data.blocks.length, formulaCards: Object.keys(data.formulas), repeated, formulaRepeats, clippedFormulas:data.clippedFormulas, leaks: leaks.slice(0, 30), leakCount: leaks.length, overflow: data.overflow, errors: [...errors], fail });
         if (opt('shots') && !opt('discover')) {
           const stem = `${lang}-${label}-${route.replace(/[^a-z0-9]+/gi, '_').replace(/^_|_$/g, '') || 'home'}`;
           await page.screenshot({ path:path.join(outDir, `${stem}.png`), fullPage:true });
@@ -121,7 +122,7 @@ for (const r of results.filter(r => r.fail || r.leakCount)) {
   for (const x of r.repeated.slice(0, 8)) console.log(`   repeated ×${x.n}: ${x.text}`);
   for (const [id, n] of r.formulaRepeats) console.log(`   formula card ${id} ×${n}`);
   for (const x of r.clippedFormulas ?? []) console.log(`   clipped print formula ${x.id}: ${x.overflow}px`);
-  if (r.view === 'mobile' && r.overflow > 2) console.log(`   horizontal overflow ${r.overflow}px at 390 px`);
+  if (r.viewport.width < 480 && r.overflow > 2) console.log(`   horizontal overflow ${r.overflow}px at ${r.viewport.width} px`);
   for (const l of r.leaks.slice(0, 5)) console.log(`   ${r.lang === 'ru' ? 'English-only block on RU page' : 'Cyrillic on EN page'}: ${l}`);
 }
 const failed = results.filter(r => r.fail).length;

@@ -948,7 +948,7 @@
         "detailed": {
           "prolongedRain": {
             "name": "Intense or prolonged rainfall",
-            "rule": "Intense rain can arrive faster than the soil can soak it up, so the extra water runs off the surface into the river. Prolonged rain fills the soil and raises the groundwater, so the next rain also runs off quickly. Both raise river discharge.",
+            "rule": "Intense rain can exceed the infiltration rate, producing surface runoff. Prolonged rain can fill available soil storage and raise groundwater levels, increasing the runoff from later rain. Where this water reaches the river, discharge rises; the timing and size of the response depend on the catchment and storm.",
             "examples": [
               "A short, violent storm over a bare, steep hillside can send a flash flood down a dry valley within hours. A long spell of steady rain over already soaked fields raises a river more slowly, over several days."
             ],
@@ -977,7 +977,7 @@
           },
           "saturatedGround": {
             "name": "Antecedent conditions and saturation",
-            "rule": "Soil that is already wet before a storm has little room left to store rain. When its pores are full of water, new rain runs off the surface quickly. For this reason, floods are more common in wet seasons, when storms arrive on ground that is already saturated.",
+            "rule": "Wet soil has less empty pore space available for additional storage. Where the ground is saturated and rainfall cannot drain into deeper layers fast enough, more water can run over the surface. This can increase flood response during wet periods, but drainage, rainfall and catchment storage still matter.",
             "examples": [
               "Other conditions being similar, wet soil has less remaining storage than unsaturated soil, so the same storm may produce more rapid runoff. Dry soil does not guarantee infiltration: intense rain, compaction or water repellency can also cause runoff."
             ],
@@ -1029,7 +1029,7 @@
           },
           "reliefRock": {
             "name": "Steep slopes, basin shape and soils",
-            "rule": "Steep slopes make water run downhill faster, so it reaches the river sooner. Low-permeability soil or rock, such as clay, restricts infiltration, so more rain runs over the surface. In a round basin, water from every part reaches the outlet within a short time, so the flood peak is high; in a long, narrow basin, the water arrives more slowly and the peak is lower. A steep, round basin with low-permeability ground therefore floods after smaller storms, so floods happen more often there.",
+            "rule": "Steep slopes can shorten runoff travel time. Low-permeability ground, such as many clay-rich soils, can restrict infiltration. Under comparable rainfall and other catchment conditions, a compact basin may concentrate runoff more closely in time than an elongated basin. However, the drainage network, storm location and movement, storage and channel capacity also affect the flood peak; shape alone does not establish flood frequency.",
             "examples": [
               "Steep fields of clay soil above a village can send water from a heavy storm into the stream within a short time."
             ],
@@ -1601,8 +1601,8 @@
               "englishTerm": "Dark tourism / thanatourism",
               "russianTerm": "Танатуризм",
               "contrast": {
-                "en": "Test the purpose: a visit to learn about a disaster and honour its victims fits the definition; a visit only for a photo at the same site does not.",
-                "ru": "Проверь цель: поездка, чтобы узнать о катастрофе и почтить память жертв, подходит под определение; поездка только ради фото на фоне того же места — нет."
+                "en": "A visit to learn about a disaster and honour its victims is a clear example. A visitor taking photographs at the same site may have different motives. That alone does not exclude the visit from the broader dark-tourism category; a motive-based definition of thanatourism asks specifically about an interest in death.",
+                "ru": "Поездка ради изучения катастрофы и памяти её жертв — ясный пример. У посетителя, который фотографирует то же место, могут быть другие мотивы. Само по себе это не исключает поездку из широкой категории тёмного туризма; определение танатуризма через мотив специально учитывает интерес к смерти."
               },
               "sources": [
                 {
@@ -1641,7 +1641,7 @@
             "name": "Ecotourism — applying the definition",
             "rule": "An operator advertises a nature tour. What evidence would you request before accepting its environmental claims?",
             "examples": [
-              "In a forest reserve, a local community runs the guided walks and keeps part of the fees, so the income helps to protect the forest."
+              "In this example, a local community runs guided walks in a forest reserve and uses part of the fees to fund conservation, while retaining income locally."
             ],
             "review": {
               "englishTerm": "Ecotourism",
@@ -2072,7 +2072,7 @@
         "detailed": {
           "malthus": {
             "name": "Malthusian population model",
-            "rule": "If births are not restrained, population keeps rising until it outruns the food that can be produced. Checks then follow: births fall, or deaths rise through famine, disease or war. Malthus's argument rests on assumptions about how fast food can grow, so it is a historical model, not a universal forecast.",
+            "rule": "Malthus argued that population tends to outgrow food supply unless checked, under his assumptions about their relative growth. Preventive checks, such as postponing marriage, can reduce births before a crisis; positive checks, including famine, disease and war, raise deaths. This is a historical model, not a universal forecast.",
             "examples": [
               "In a village where more children survive each year, more people share the same fields. If the harvest does not grow, each person gets less food, which is the kind of pressure Malthus described."
             ],
@@ -2101,7 +2101,7 @@
           },
           "boserup": {
             "name": "Boserup's agricultural intensification model",
-            "rule": "When population grows, each person has less land. Farmers respond by shortening fallow periods, cropping more often and adding labour and new techniques, such as irrigation. Output per unit of land rises, but usually at a higher cost in labour.",
+            "rule": "Boserup proposed that population pressure on a given land area can encourage more intensive farming: shorter fallows, more frequent cropping, additional labour and techniques such as irrigation. This can raise annual output from the land while requiring more work; output per harvest or per hour of labour need not rise. Investment, skills and environmental conditions limit the response.",
             "examples": [
               "A farmer who sows a new crop straight after the harvest, instead of leaving the field to rest, can feed more people from the same land. That farmer now spends more time ploughing, weeding and watering."
             ],
@@ -2417,7 +2417,7 @@
             "name": "National and local governments",
             "rule": "Governments can set rules, collect taxes, decide budgets and choose which infrastructure to build. Their choices are limited by budgets, by laws and by the capacity of their institutions, so their effectiveness differs from place to place. Long-term planning can protect water, energy and land for future use, so governments play a key part in sustainable resource management.",
             "examples": [
-              "A regional government sets a target to clean up a polluted river. The target works only if the environment agency measures water quality each year, the government pays for the work, and each stretch of river has a clear owner."
+              "A regional government sets a target to clean up a polluted river. To evaluate delivery, check whether responsibilities and funding are clear, whether pollution controls are implemented, and whether suitable water-quality monitoring shows improvement."
             ],
             "review": {
               "englishTerm": "National and local governments",
@@ -2438,7 +2438,7 @@
           },
           "citizens": {
             "name": "Citizens and consumers",
-            "rule": "Citizens and consumers influence resource use through what they buy, how they use water and energy, and through voting, petitions and community action. Their choices are limited by income, by local services and by the products on sale. Many small choices together can make resource use more sustainable, but only if sustainable options are easy to choose.",
+            "rule": "Citizens and consumers influence resource use through what they buy, how they use water and energy, and through voting, petitions and community action. Their choices are limited by income, by local services and by the products on sale. Many small choices together can make resource use more sustainable, and making sustainable options accessible can increase participation.",
             "examples": [
               "A family sorts its rubbish, but recycling a material is much harder if the local waste service does not collect it."
             ],

@@ -15,3 +15,10 @@
 ## Source/editorial follow-up — 2026-10-15
 
 Russian Boscastle responses now refer to debris brought by the flood and implemented flood-defence projects. The underlying case-specific source limitation remains open. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.
+
+
+## Source/editorial follow-up — 16.10.2026
+
+Уточнены климатические средние и критерии групп Кёппена, разные причины аридности, разнообразие режима осадков большого бассейна и выделение скрытой теплоты при конденсации.
+
+Локальные исправления; полный новый кандидат ещё ожидает независимую предметную и техническую приёмку. Полное первичное покрытие IB/RU не заявляется; доступность отдельных книг, точных школьных подпунктов и независимых русских разделов остаётся ограничением. Прошлые записи выше сохранены как исторические, их приёмка не распространяется автоматически на эти изменения. Публикации и live-проверки не выполнялись.

@@ -1773,7 +1773,7 @@
           },
           "carrying": {
             "name": "Carrying capacity",
-            "rule": "Carrying capacity is the maximum population size that an environment can support over a long period, given its resources and the way they are used. Growth starts slowly, speeds up, and then levels off as the population nears this limit. This pattern is called logistic growth, and it produces an S-shaped curve.",
+            "rule": "Carrying capacity is the population an environment can support over time under stated resource and consumption conditions. In the simple logistic model, a population starting well below a constant carrying capacity grows slowly at first, then faster, and finally slows as it approaches that limit, forming an S-shaped curve. Real populations can fluctuate or overshoot, and the limit itself can change.",
             "examples": [
               "Groundwater in a farming valley: if farmers pump it faster than rain and rivers refill it, the valley can no longer support the same number of farms and people."
             ],
@@ -2473,7 +2473,7 @@
         "detailed": {
           "polar": {
             "name": "Polar climate",
-            "rule": "Polar climate (group E in the Köppen system) has cool summers, because the Sun is low in the sky at high latitudes and its energy is spread over a large area. In a tundra climate, the warmest month is above freezing but still cool, so mainly mosses, lichens and dwarf shrubs can grow. In an ice-cap climate, every month stays below freezing, so the ice does not melt away.",
+            "rule": "Polar climate (Köppen group E) has a warmest monthly mean below 10°C. In the Peel et al. classification, tundra (ET) has a warmest monthly mean above 0°C; ice-cap (EF) has no monthly mean above 0°C. These are long-term averages, not limits on every day’s weather. Low solar angles help explain high-latitude cold, while elevation also matters.",
             "examples": [
               "Compare the tundra of northern Siberia or northern Canada, where a short summer supports mosses and lichens, with the interior of Antarctica, where the ice stays frozen all year."
             ],
@@ -2496,7 +2496,7 @@
           },
           "temperate": {
             "name": "Temperate climates",
-            "rule": "Temperate climates (group C in the Köppen system) lie between the tropics and the polar zones, with clear seasons: warm or hot summers and cool or mild winters. Snow climates (group D) lie further north and deeper inland, where winters are very cold. The sea warms and cools more slowly than land, so coastal places have milder winters than continental interiors at the same latitude.",
+            "rule": "Köppen group C generally has milder winters than group D, which has colder continental winters. These groups are defined from temperature and rainfall, not latitude alone: elevation can produce group C climates even within the geographic tropics. Oceans heat and cool more slowly than land, often moderating seasonal temperatures near coasts; winds and currents also matter.",
             "examples": [
               "Vancouver, on Canada's Pacific coast, and Winnipeg, deep inside the continent, lie at almost the same latitude. Winnipeg has much colder winters and a larger gap between winter and summer temperatures."
             ],
@@ -2525,7 +2525,7 @@
           },
           "arid": {
             "name": "Arid climate",
-            "rule": "Arid climate (group B in the Köppen system) has a persistent water deficit: precipitation is lower than the water that could evaporate from the ground and from plants. Arid conditions occur where dry air sinks, for example under the subtropical high-pressure belts, in continental interiors and behind mountains that block moist air. Hot and cold deserts both belong to group B, so temperature alone does not make a climate arid.",
+            "rule": "Dry climates (Köppen group B) have low precipitation relative to atmospheric water demand; their classification uses rainfall, temperature and rainfall seasonality. Dryness has several causes, including descending subtropical air, distance from oceanic moisture and mountain rain shadows. Group B includes both hot and cold deserts and steppes, so dryness is not defined by heat alone.",
             "examples": [
               "The Gobi Desert in Mongolia receives very little rain, but its winters are much colder than in the Sahara."
             ],
@@ -2550,7 +2550,7 @@
             "name": "Tropical climates",
             "rule": "Tropical climates (group A in the Köppen system) are warm in every month, because the Sun stands high near the equator and each square metre receives a lot of solar energy. Rainfall separates the types: rainforest climates have rain in every month, monsoon climates have very heavy rain in one part of the year, and savanna climates have a clear dry season.",
             "examples": [
-              "The Amazon basin has rain all year round, while the savanna (cerrado) of central Brazil has a clear dry season."
+              "Compare a tropical rainforest climate, with substantial rainfall in every month, with a tropical savanna climate, which has a marked dry season. A large river basin can contain more than one rainfall regime."
             ],
             "review": {
               "englishTerm": "Tropical climates",

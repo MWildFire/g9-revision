@@ -13,3 +13,10 @@
 ## Source/editorial follow-up — 2026-10-15
 
 The Russian comparison prompt distinguishes immediate/long-term impacts, matching the English temporal distinction rather than substituting primary/secondary causation. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.
+
+
+## Source/editorial follow-up — 16.10.2026
+
+Вероятностный прогноз отделён от точного предсказания и раннего предупреждения. Разделены местная интенсивность опасности, подверженность и уязвимость. Сейсмоизоляция, относительное перемещение, демпфирование и пластичность описаны без гарантии предупреждения для эвакуации; восстановление функций отделено от его длительности.
+
+Локальные исправления; полный новый кандидат ещё ожидает независимую предметную и техническую приёмку. Полное первичное покрытие IB/RU не заявляется; доступность отдельных книг, точных школьных подпунктов и независимых русских разделов остаётся ограничением. Прошлые записи выше сохранены как исторические, их приёмка не распространяется автоматически на эти изменения. Публикации и live-проверки не выполнялись.

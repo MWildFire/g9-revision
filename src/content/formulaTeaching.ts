@@ -45,6 +45,10 @@ export function findFormulaTeaching(text:string,subject?:string|null):FormulaTea
  const normalized=normalizeFormula(text);
  const prose=text.toLowerCase().replace(/\s+/g,' ');
  return formulaTeaching.filter(item=>formulaAllowedOn(item.id,subject)&&item.matches.some(match=>{
+  // A concentration gradient describes diffusion, not a straight-line graph.
+  // Keep mathematical uses (including the potometer graph) and explicit equations.
+  if(item.id==='line' && match==='gradient' && subject!=='math' &&
+    !/\b(?:graph|slope|line|axis|axes|coordinates?)\b|график|наклон|координат|прямой|прямая/u.test(prose)) return false;
   // Topic names need real word boundaries: removing spaces made «только масс»
   // accidentally contain «Ома» and attached Ohm's law to stoichiometry.
   if(/^[\p{L}\s’'–-]+$/u.test(match)){

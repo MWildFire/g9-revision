@@ -12,3 +12,10 @@
 - R03 B-fix-x, локальная проверка: npm test 110/110; build OK; lint трёх батчей — 0 ошибок (182 пункта); render 36 просмотров EN/RU desktop/mobile — 0 failed. Ревью PR, merge, deploy и live ещё не завершены.
 
 - R04 local candidate: Both historical append entries retained. Biology-specific notice distinguishes core regulation/homeostasis from further topics; the existing corrected nav label remains. Integration tests 123/123 and followup tests 138/138 pass; build passes. Render and independent acceptance are separate pending gates. No GitHub merge, deployment or live verification claimed.
+
+
+## Source/editorial follow-up — 16.10.2026
+
+Уточнены инсулинозависимые ткани, нервные пути и ответ чувствительных плодов на этилен без универсального утверждения обо всех плодах.
+
+Локальные исправления; полный новый кандидат ещё ожидает независимую предметную и техническую приёмку. Полное первичное покрытие IB/RU не заявляется; доступность отдельных книг, точных школьных подпунктов и независимых русских разделов остаётся ограничением. Прошлые записи выше сохранены как исторические, их приёмка не распространяется автоматически на эти изменения. Публикации и live-проверки не выполнялись.

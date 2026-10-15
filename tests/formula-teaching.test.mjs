@@ -19,3 +19,13 @@ test('biology rehearsal provides the same quantitative guides in EN and RU',()=>
   for(const id of ids)assert.ok(formulaById(id)?.formula[lang]);
  }
 });
+test('concentration gradients do not place a line equation, while graph gradients still do',()=>{
+ for(const lang of ['en','ru']){
+  const b=JSON.parse(fs.readFileSync(`src/i18n/${lang}/biology.json`));
+  for(const text of [b.bodySystems.sections.respiratory.detailed.alveoli.examples[0],b.bodySystems.sections.digestive.detailed.absorption.tip])
+   assert.ok(!findFormulaTeaching(text,'biology').some(f=>f.id==='line'),`${lang}: concentration gradient`);
+ }
+ for(const text of ['Use the gradient of the potometer graph.','Найди наклон графика (gradient).','y = mx + c'])
+  assert.ok(findFormulaTeaching(text,'biology').some(f=>f.id==='line'),text);
+ assert.ok(findFormulaTeaching('gradient','math').some(f=>f.id==='line'));
+});

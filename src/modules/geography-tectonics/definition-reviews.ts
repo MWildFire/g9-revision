@@ -220,8 +220,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Elastic rebound",
     "russianTerm": "Упругая отдача",
     "contrast": {
-      "en": "Think of a ruler bent between your hands until it snaps. The bending stores energy and the snap releases it, while the two broken halves end up shifted against each other. The snap is the elastic rebound; the shift between the halves is the fault offset.",
-      "ru": "Представь линейку, которую сгибаешь между руками, пока она не сломается. Изгиб запасает энергию, излом её высвобождает, а две половинки оказываются сдвинуты друг относительно друга. Излом — это упругая отдача, а сдвиг половинок — смещение по разлому."
+      "en": "Bending a ruler stores elastic energy. When it is released, the ruler springs back towards its undeformed shape: that recovery illustrates elastic rebound. In an earthquake, sudden fault slip allows strained rock to recover some of its deformation, while a permanent offset remains across the fault. Breaking the ruler is not itself the rebound.",
+      "ru": "При изгибе линейки запасается упругая энергия. Если отпустить линейку, она стремится восстановить исходную форму: такое восстановление иллюстрирует упругую отдачу. При землетрясении резкое смещение по разлому позволяет породам снять часть упругой деформации, а по разные стороны разлома остаётся необратимое смещение. Сам излом линейки — не упругая отдача."
     },
     "sources": [
       {
@@ -447,8 +447,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Composite or stratovolcano",
     "russianTerm": "Стратовулкан",
     "contrast": {
-      "en": "Picture a layered cake: each eruption adds a new layer of lava or ash on top of the older ones. Thick lava does not travel far from the vent, and ash settles close to it, so the cone becomes steep.",
-      "ru": "Представь слоёный пирог: каждое извержение добавляет новый слой лавы или пепла поверх старых. Густая лава далеко не растекается от жерла, а пепел оседает рядом с ним, поэтому конус становится крутым."
+      "en": "Picture repeated eruptions building layers of lava and fragmented volcanic material. Relatively viscous lava flows and deposits of coarse fragments help build a steep cone. Fine ash need not settle near the vent: winds can carry it far away.",
+      "ru": "Представь, как повторные извержения наращивают слои лавы и обломочного вулканического материала. Потоки относительно вязкой лавы и отложения крупных обломков помогают образовать крутой конус. Мелкий пепел не обязательно оседает у жерла: ветер может унести его далеко."
     },
     "sources": [
       {
@@ -631,8 +631,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Hazard exposure and vulnerability",
     "russianTerm": "Природная опасность, подверженность и уязвимость",
     "contrast": {
-      "en": "Two cities can be hit by the same earthquake. In one, most buildings follow strict seismic codes and emergency services are well prepared; in the other, many buildings are older and weakly built. The losses differ greatly even though the hazard is identical: the cities differ in how many people and buildings are in harm's way, how weak those buildings are and how fast help arrives.",
-      "ru": "Два города могут пострадать от одного и того же землетрясения. В одном большинство зданий построено по строгим нормам сейсмостойкости, а службы спасения хорошо подготовлены; в другом много старых и слабо построенных зданий. Потери сильно различаются, хотя природная опасность одна. Города отличаются числом людей и построек в зоне действия природной опасности, прочностью зданий и скоростью прихода помощи."
+      "en": "Suppose two cities experience comparable local shaking. In one, many buildings meet seismic codes and emergency services are prepared; in the other, buildings are weaker and rescue capacity is limited. Losses can differ because exposure, vulnerability and response capacity differ. Being affected by the same earthquake alone does not guarantee identical shaking at both cities.",
+      "ru": "Предположим, два города испытывают сопоставимые по силе местные колебания грунта. В одном многие здания отвечают сейсмическим нормам, а экстренные службы подготовлены; в другом здания слабее и возможности спасателей ограничены. Потери могут различаться из-за разной подверженности, уязвимости и готовности к реагированию. Одно и то же землетрясение само по себе не гарантирует одинаковое сотрясение в обоих городах."
     },
     "sources": [
       {
@@ -735,8 +735,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Base isolation",
     "russianTerm": "Сейсмоизоляция",
     "contrast": {
-      "en": "Picture a house on flexible bearings made of alternating layers of rubber and steel, or on sliding bearings. When the ground shakes, the foundation moves with it, but the bearings absorb much of that movement, so the house above moves less. The bearings themselves move a lot, so a gap is needed around the building. Isolation does not remove other design needs: the building must still carry its own weight and resist wind.",
-      "ru": "Представь дом на гибких опорах из чередующихся слоёв резины и стали или на скользящих опорах. Когда грунт сотрясается, фундамент движется вместе с ним, но опоры поглощают большую часть этого движения, поэтому дом над ними движется меньше. Сами опоры при этом сильно смещаются, поэтому вокруг здания нужен зазор. Изоляция не отменяет остальные требования: здание всё равно должно выдерживать собственный вес и ветер."
+      "en": "Picture a building on flexible rubber-and-steel bearings or sliding bearings. During an earthquake, the ground and foundation move relative to the structure above, and much of this relative displacement occurs at the isolation layer. Clearance and flexible utility connections are needed. Some isolation systems also dissipate energy; separate dampers may add this function. The building still needs adequate vertical support and resistance to wind.",
+      "ru": "Представь здание на гибких резинометаллических или скользящих опорах. При землетрясении грунт и фундамент смещаются относительно верхней конструкции, а значительная часть относительного перемещения приходится на слой изоляции. Поэтому нужны зазоры и гибкие подключения коммуникаций. Некоторые системы изоляции также рассеивают энергию; эту функцию могут дополнять отдельные демпферы. Зданию по-прежнему необходимы надёжные вертикальные опоры и устойчивость к ветру."
     },
     "sources": [
       {

@@ -92,7 +92,6 @@ export function TourismPage() {
           const item = t(`tourism.sections.otherTypes.detailed.${id}`, { returnObjects: true }) as DetailedItem;
           const practiceItem: DetailedItem = {
             ...item,
-            name: `${l('Apply', 'Применение')}: ${item.name}`,
             body: item.rule,
             rule: undefined,
             watchOut: item.review?.contrast?.[lang] ?? item.watchOut,

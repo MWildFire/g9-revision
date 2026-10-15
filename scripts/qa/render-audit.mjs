@@ -17,6 +17,7 @@ import { startAuditServer, verifySourceRevision } from './local-audit-server.mjs
 import { waitForCaptureReady, readCaptureState, findClippedPrintFormulas } from './capture-readiness.mjs';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
+import { withDeadline, persistAuditReport } from './audit-lifecycle.mjs';
 
 const SCRIPT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const args = process.argv.slice(2);
@@ -43,6 +44,13 @@ const { server, base, identity } = await startAuditServer({ dist:path.join(ROOT,
 let browser;
 try { browser = await chromium.launch(process.env.QA_BROWSER_EXECUTABLE ? { executablePath:process.env.QA_BROWSER_EXECUTABLE } : {}); } catch(error) { server.close(); throw error; }
 const results = [];
+const expectedDenominator = langs.length * (routes.length * (1 + (opt('mobile') ? 1 : 0)) + (opt('print') ? routes.filter(route => /paper|reference|\/print/.test(route)).length : 0));
+const cleanupErrors = [];
+let loopCompleted = false, fatalError = null;
+const save = (final = false) => persistAuditReport(path.join(outDir, final ? 'report.json' : 'partial-report.json'), {
+  at:new Date().toISOString(), base, build:identity, mode:opt('discover')?'inventory_only':'audit',
+  expectedDenominator, loopCompleted, fatalError, cleanupErrors, results,
+});
 try {
   for (const lang of langs) {
     for (const [label, viewport] of [['desktop', { width, height: 900 }], ...(opt('mobile') ? [['mobile', { width: 390, height: 844 }]] : []), ...(opt('print') ? [['print', { width:1280, height:900 }]] : [])]) {
@@ -73,7 +81,7 @@ try {
           }
         } catch(error) {
           results.push({lang,view:label,route,fail:true,status:'capture_incomplete',error:String(error),errors});
-          await page.close(); process.stdout.write('!'); continue;
+          save(); await withDeadline(() => page.close(), 'page_close'); process.stdout.write('!'); continue;
         }
         const data = await page.evaluate(({ lang }) => {
           const SEL = 'p,li,dd,dt,figcaption,td,th,h1,h2,h3,h4,summary,blockquote,label';
@@ -102,17 +110,25 @@ try {
           await page.screenshot({ path:path.join(outDir, `${stem}-viewport.png`) });
           if (label === 'print') await page.pdf({ path:path.join(outDir, `${stem}.pdf`), format:'A4', printBackground:true });
         }
-        await page.close();
+        save();
+        await withDeadline(() => page.close(), 'page_close');
         process.stdout.write(fail ? 'x' : '.');
       }
-      await context.close();
+      await withDeadline(() => context.close(), 'context_close');
     }
   }
+  loopCompleted = true;
+} catch(error) {
+  fatalError = String(error);
 } finally {
-  await browser.close();
-  server.close();
+  save();
+  try { await withDeadline(() => browser.close(), 'browser_close'); } catch(error) { cleanupErrors.push(String(error)); }
+  try {
+    server.closeAllConnections();
+    await withDeadline(() => new Promise((resolve, reject) => server.close(error => error ? reject(error) : resolve())), 'server_close');
+  } catch(error) { cleanupErrors.push(String(error)); }
+  save(true);
 }
-fs.writeFileSync(path.join(outDir, 'report.json'), JSON.stringify({ at:new Date().toISOString(), base, build:identity, mode:opt('discover')?'inventory_only':'audit', denominator:results.length, incomplete:results.filter(r=>r.status==='capture_incomplete').length, results }, null, 2));
 if(opt('discover')) fs.writeFileSync(path.join(outDir,'contract.json'),JSON.stringify(contract,null,2)+'\n');
 console.log('\n');
 for (const r of results.filter(r => r.fail || r.leakCount)) {
@@ -126,5 +142,7 @@ for (const r of results.filter(r => r.fail || r.leakCount)) {
   for (const l of r.leaks.slice(0, 5)) console.log(`   ${r.lang === 'ru' ? 'English-only block on RU page' : 'Cyrillic on EN page'}: ${l}`);
 }
 const failed = results.filter(r => r.fail).length;
-console.log(`${results.length} page views · ${failed} failed · report: ${path.relative(ROOT, path.join(outDir, 'report.json'))}${opt('shots') ? ' · screenshots in the same folder' : ''}`);
-process.exit(failed ? 1 : 0);
+console.log(`${results.length}/${expectedDenominator} page views · ${failed} failed · report: ${path.relative(ROOT, path.join(outDir, 'report.json'))}${opt('shots') ? ' · screenshots in the same folder' : ''}`);
+if(fatalError) console.error(fatalError);
+for(const error of cleanupErrors) console.error(error);
+process.exit(failed || fatalError || cleanupErrors.length || !loopCompleted || results.length !== expectedDenominator ? 1 : 0);

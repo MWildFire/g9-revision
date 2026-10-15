@@ -410,7 +410,7 @@
     },
     "simile": {
       "name": "Simile",
-      "rule": "A simile compares two unlike things directly, using the words “like” or “as”, to show a shared quality. Its effect depends on the particular comparison and context; it is not inherently weaker than a metaphor.",
+      "rule": "A simile explicitly compares unlike things to show a shared quality, often using “like” or “as”. Its effect depends on the particular comparison and context; it is not inherently weaker than a metaphor.",
       "examples": [
         "“Her voice was like sandpaper.” The comparison suggests a rough sound.",
         "“He waited as still as a statue.” The comparison highlights lack of movement.",
@@ -425,7 +425,7 @@
         "“We need time. We need trust. We need change.” Each sentence begins “We need”.",
         "“Nobody came. Nobody called. Nobody cared.” Each sentence begins with “Nobody”."
       ],
-      "tip": "Two repetitions may be a coincidence; three or more form a pattern worth commenting on."
+      "tip": "Two successive clauses or lines can already form anaphora. Identify the repeated opening and explain its effect in context; the number of repetitions alone does not establish its importance."
     },
     "alliteration": {
       "name": "Alliteration",
@@ -541,7 +541,7 @@
             "I'm staying with my aunt this week (temporary).",
             "We're meeting Sam at 6 pm (future arrangement)."
           ],
-          "watchOut": "'Have' and 'think' take simple forms when they express a state: I have a car; I think you're right. With an action meaning they take -ing: I'm having a shower; I'm thinking about your idea."
+          "watchOut": "'Have' and 'think' normally take simple forms when they express a state: I have a car; I think you're right. With an action meaning they can take -ing: I'm having a shower; I'm thinking about your idea. A habitual action can still use the simple: I have a shower every morning."
         },
         "past": {
           "name": "Past simple",
@@ -589,7 +589,7 @@
             "'Look at those clouds — it's going to rain.' (evidence-based).",
             "'I'm meeting Alex at 4.' (arrangement)."
           ],
-          "tip": "In time clauses (after when, as soon as, before, until) and conditional if-clauses, use the present simple for future time: 'When she arrives, we'll eat' (not 'When she will arrive')."
+          "tip": "In future time clauses and ordinary future conditions, use a present form: 'When she arrives, we’ll eat'; 'We’ll leave after she has finished'; 'If it is raining, we’ll stay in.' Do not add will merely to mark future time. Will is possible in an if-clause when it means willingness."
         }
       }
     },
@@ -763,8 +763,8 @@
           "use": "Read between the lines — what is the author IMPLYING but not directly saying?",
           "rule": "An inference is a conclusion supported by textual clues and relevant background knowledge. Separate what the text states from what you infer and consider other plausible explanations.",
           "examples": [
-            "“She slammed the door” suggests anger. If the previous lines describe a sudden draught, the reader should infer a physical cause instead.",
-            "“The garden had gone grey and silent” suggests the setting mirrors someone’s grief. The garden cannot literally grieve, so the reader must work out the link."
+            "“The door slammed behind her” might suggest an angry departure if the surrounding dialogue supports it. If the text instead describes a strong draught, a physical cause is more likely.",
+            "“The garden had gone grey and silent” may echo a character’s grief if the context links the setting with that loss. Without that link, it may simply describe the weather or season."
           ]
         }
       }

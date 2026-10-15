@@ -31,8 +31,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Simile",
     "russianTerm": "Сравнение",
     "contrast": {
-      "en": "Look for “like” or “as” between the two things. Without it, the link is a metaphor.",
-      "ru": "Ищи слово «как», «будто» или «словно» (в английском — like или as) между двумя предметами. Без него связь — это метафора."
+      "en": "A simile makes an explicit comparison, often using “like” or “as”. A metaphor presents one thing as another. Check the meaning: “I like music” contains “like” but is not a simile, and a sentence without “like” or “as” need not be a metaphor.",
+      "ru": "Сравнение прямо сопоставляет предметы или явления, часто с помощью «как», «будто», «словно» (в английском — like или as). Метафора переносит название или свойства одного предмета на другой. Смотри на смысл: фраза «I like music» содержит like, но не сравнение. Отсутствие этих слов само по себе ещё не означает метафору."
     },
     "sources": [
       {
@@ -195,8 +195,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Personification",
     "russianTerm": "Олицетворение",
     "contrast": {
-      "en": "Personification gives a non-human thing human behaviour, such as speaking or judging; a metaphor only carries a quality from one thing to another.",
-      "ru": "Олицетворение приписывает неживому человеческое поведение: говорит, судит; метафора лишь переносит признак с одного предмета на другой."
+      "en": "Personification gives a non-human thing human qualities or behaviour. It can be a kind of metaphor: “The clock scolded me” is both. Not every metaphor personifies: “Her argument collapsed” presents reasoning as a structure.",
+      "ru": "Олицетворение приписывает предмету, явлению, животному или отвлечённому понятию человеческие свойства. Оно может быть разновидностью метафоры: «часы отругали меня» — оба приёма. Но не каждая метафора — олицетворение: в «аргумент рассыпался» рассуждение уподоблено конструкции."
     },
     "sources": [
       {
@@ -247,8 +247,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Rhetorical question",
     "russianTerm": "Риторический вопрос",
     "contrast": {
-      "en": "A genuine question is open: the answer is unknown. A rhetorical question has an obvious answer that the reader is expected to supply.",
-      "ru": "Настоящий вопрос открыт: ответ неизвестен. У риторического вопроса ответ очевиден, и читатель сам должен его назвать."
+      "en": "A question seeking information requests an answer. A rhetorical question primarily makes a point or creates an effect; it may imply an answer or leave the issue open for reflection.",
+      "ru": "Информационный вопрос задают ради ответа. Риторический вопрос прежде всего выражает мысль или создаёт эффект: он может подразумевать ответ либо оставлять повод для размышления."
     },
     "sources": [
       {
@@ -331,8 +331,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "The narrator calls the first morning in the café “restful”, although the waiter has already dropped three trays. The word contradicts what the reader sees, so the narrator may seem naive and the reader may sympathise with the waiter. This verbal irony can create humour while also showing the strain of the job.",
-      "ru": "Рассказчик называет первое утро в кафе «спокойным», хотя официант уже уронил три подноса. Слово противоречит увиденному, поэтому рассказчик может показаться наивным, а читатель может сочувствовать официанту. Такая словесная ирония может смешить и одновременно показывать тяжесть работы."
+      "en": "The narrator knowingly calls a chaotic morning in the café “restful” after three trays have fallen. The intended meaning is the opposite of the word’s literal meaning, so this is verbal irony. It can create humour while drawing attention to the strain of the job.",
+      "ru": "Рассказчик намеренно называет суматошное утро в кафе «спокойным», хотя уже упали три подноса. Подразумеваемый смысл противоположен буквальному, поэтому это словесная ирония. Она может создавать юмор и подчёркивать тяжесть работы."
     }
   },
   "devices.symbolism": {
@@ -380,7 +380,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "russianTerm": "Present simple",
     "contrast": {
       "en": "After do or does, the main verb takes its base form: 'She doesn't like coffee', not 'She doesn't likes coffee'. In questions and negatives, the -s moves to does.",
-      "ru": "После «do» и «does» глагол стоит в основной форме, без -s: «She doesn’t like coffee», а не «She doesn’t likes coffee». В вопросах и отрицаниях -s переходит на «do» или «does»."
+      "ru": "После «do» и «does» смысловой глагол стоит в основной форме, без -s: «She doesn’t like coffee», а не «She doesn’t likes coffee». В обычном вопросе или отрицании третьего лица единственного числа используется «does», а не «do»."
     },
     "sources": [
       {
@@ -411,8 +411,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Past simple",
     "russianTerm": "Past simple",
     "contrast": {
-      "en": "Words for a finished time, such as yesterday, last week, in 2020 or two years ago, go with past simple: 'I met her two years ago', not 'I have met her two years ago'.",
-      "ru": "Слова завершённого времени (yesterday, last week, in 2020, two years ago) идут с прошедшим простым (Past simple): «I met her two years ago», а не «I have met her two years ago»."
+      "en": "With a stated finished past time, use a suitable past form rather than the present perfect: 'I met her two years ago', not 'I have met her two years ago'. A progressive is also possible when the meaning needs it: 'I was studying yesterday evening.'",
+      "ru": "Если назван завершённый момент или период прошлого, выбирай подходящую прошедшую форму, а не Present perfect: «I met her two years ago», а не «I have met her two years ago». При нужном значении возможна и длительная форма: «I was studying yesterday evening»."
     },
     "sources": [
       {
@@ -427,8 +427,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Past continuous",
     "russianTerm": "Past continuous",
     "contrast": {
-      "en": "Past continuous shows the background, an action in progress. Past simple shows a single event that interrupts it: 'I was watching TV when my brother came home.' The same meaning works with while: 'While I was watching TV, my brother came home.'",
-      "ru": "Прошедшее длительное (Past continuous) показывает фон, действие в процессе. Прошедшее простое (Past simple) — одно событие, которое прерывает этот фон: «I was watching TV when my brother came home». Тот же смысл даёт союз «while»: «While I was watching TV, my brother came home»."
+      "en": "Past continuous can show an action already in progress when another event occurs: 'I was watching TV when my brother came home.' His arrival need not stop the watching. 'While I was watching TV, my brother came home' gives the same background relationship.",
+      "ru": "Прошедшее длительное может задавать действие, которое уже шло в момент другого события: «I was watching TV when my brother came home». Приход брата не обязательно прервал просмотр. Вариант «While I was watching TV, my brother came home» передаёт ту же связь фона и события."
     },
     "sources": [
       {
@@ -755,8 +755,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Annotate",
     "russianTerm": "Пометки на тексте",
     "contrast": {
-      "en": "Don't confuse annotation with summary notes. An annotation comments on how the text is written, for example “gloomy tone; effect: unease”, not on what happens in the story.",
-      "ru": "Не путай пометки с конспектом. Пометка комментирует, как написан текст, например «мрачный тон; эффект — тревога», а не то, что происходит в истории."
+      "en": "An annotation can summarise a key point, explain an unfamiliar word, ask a question or analyse how the writing works. For a language-analysis task, include comments on wording and effect rather than relying on plot summary alone.",
+      "ru": "Пометка может кратко передавать мысль, объяснять незнакомое слово, задавать вопрос или разбирать приём. Для задания на анализ языка добавляй наблюдения о словах и их эффекте: одного пересказа событий недостаточно."
     },
     "sources": [
       {
@@ -799,8 +799,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Literal questions",
     "russianTerm": "Вопросы на буквальный смысл",
     "contrast": {
-      "en": "Not every question with a clear answer is literal. If you must connect several clues to answer it, it is an inferential question.",
-      "ru": "Не каждый вопрос с ясным ответом буквальный. Если, чтобы ответить, нужно связать несколько подсказок, это вопрос на вывод."
+      "en": "A literal question asks for explicitly stated information, even if you collect it from several sentences. An inferential question requires a conclusion that is not directly stated.",
+      "ru": "Вопрос на буквальный смысл требует прямо сообщённые сведения, даже если их нужно собрать из нескольких предложений. Вопрос на вывод требует заключения, которого текст прямо не формулирует."
     },
     "sources": [
       {
@@ -865,8 +865,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Evaluation questions",
     "russianTerm": "Вопросы на оценку качества",
     "contrast": {
-      "en": "Evaluation judges how the text is made, not your opinion of its topic. Agreeing or disagreeing with the writer is not an evaluation.",
-      "ru": "Оценка относится к тому, как сделан текст, а не к твоему отношению к теме. Согласие или несогласие с автором — ещё не оценка."
+      "en": "Evaluate the aspect named in the question: for example, the effectiveness of the language or the strength of an argument. Agreement or disagreement alone is insufficient; give reasons and relevant evidence.",
+      "ru": "Оцени то, о чём спрашивают: например, выразительность языка или убедительность аргумента. Самого согласия или несогласия мало — нужны причины и подходящие доказательства."
     },
     "sources": [
       {
@@ -919,8 +919,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Email",
     "russianTerm": "электронное письмо",
     "contrast": {
-      "en": "Email or online article: an email goes to one named recipient, so it can assume shared context; an online article is published for any reader, so it must explain its own context.",
-      "ru": "Электронное письмо или онлайн-статья: письмо уходит одному адресату, поэтому может опираться на общий контекст; онлайн-статья публикуется для любого читателя и сама объясняет свой контекст."
+      "en": "An email is addressed to one or more recipients; the writer should explain any context they do not share. An online article also needs enough context for its intended audience. Medium alone does not tell you what readers already know.",
+      "ru": "Электронное письмо адресуют одному или нескольким получателям; незнакомый им контекст нужно объяснить. Онлайн-статье тоже нужен контекст, понятный её аудитории. Сам канал публикации не определяет, что читатели уже знают."
     },
     "sources": [
       {
@@ -989,8 +989,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Blog Article",
     "russianTerm": "Блог",
     "contrast": {
-      "en": "A blog is written for readers who can reply in the comments, so it addresses them directly. A diary is private, and its writer does not need to address anyone.",
-      "ru": "Блог пишут для читателей, которые могут ответить в комментариях, поэтому он обращается к ним напрямую. Личный дневник ведут для себя, и автору не нужно ни к кому обращаться."
+      "en": "A blog post is normally written for an audience and may invite responses; comments and direct address are optional. A private diary is primarily for its writer, although published diaries can also have readers.",
+      "ru": "Пост в блоге обычно рассчитан на аудиторию и может приглашать к отклику; комментарии и прямое обращение необязательны. Личный дневник прежде всего ведут для себя, хотя опубликованные дневники тоже имеют читателей."
     },
     "sources": [
       {

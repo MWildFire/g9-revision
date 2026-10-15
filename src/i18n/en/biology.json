@@ -642,7 +642,7 @@
           },
           "cytoplasm": {
             "name": "Cytoplasm",
-            "rule": "The cytoplasm is the region of the cell between the nucleus and the cell membrane. Many chemical reactions take place there. Enzymes in the cytoplasm speed up these reactions, so different reactions can run at the same time.",
+            "rule": "The cytoplasm is the cell contents inside the cell membrane, excluding the nucleus in eukaryotic cells. Many chemical reactions take place there and are catalysed by enzymes.",
             "tip": "Glycolysis, the first stage of respiration, takes place in the cytosol, not inside mitochondria.",
             "review": {
               "englishTerm": "Cytoplasm",
@@ -729,7 +729,7 @@
           },
           "ribosome": {
             "name": "Ribosomes",
-            "rule": "Ribosomes are small structures made of ribosomal RNA (rRNA) and protein. They read the sequence of an mRNA molecule and join amino acids in the same order to make a protein. Ribosomes have no membrane and occur in both prokaryotic and eukaryotic cells.",
+            "rule": "Ribosomes are small structures made of ribosomal RNA (rRNA) and protein. They read the codons in mRNA and join amino acids in the order specified by those codons to make a protein. Ribosomes have no membrane and occur in both prokaryotic and eukaryotic cells.",
             "tip": "A pancreas cell that makes large amounts of digestive enzymes contains many ribosomes.",
             "review": {
               "englishTerm": "Ribosomes",
@@ -779,7 +779,7 @@
           },
           "chloroplast": {
             "name": "Chloroplast",
-            "rule": "A chloroplast is an organelle in plant and algal cells where photosynthesis takes place. Chlorophyll in the thylakoid membranes (stacked membrane sacs) absorbs light energy. This energy drives the reactions in the stroma, the fluid inside the chloroplast, that build glucose from carbon dioxide and water.",
+            "rule": "A chloroplast is an organelle in plant and algal cells where photosynthesis takes place. Chlorophyll in the membranes of thylakoids — flattened sacs, often arranged in stacks called grana — absorbs light energy. This energy drives the reactions in the stroma, the fluid inside the chloroplast, that build glucose from carbon dioxide and water.",
             "tip": "Chloroplasts are found mainly in green parts such as leaves. Root cells usually have none, because they get no light.",
             "review": {
               "englishTerm": "Chloroplast",
@@ -1041,8 +1041,8 @@
               "englishTerm": "Palisade mesophyll cell (plant)",
               "russianTerm": "Клетка столбчатой ткани листа (палисадная паренхима)",
               "contrast": {
-                "en": "The upper epidermis is a transparent protective layer with few chloroplasts. It lets light through to the palisade layer below.",
-                "ru": "Верхняя кожица — прозрачный защитный слой с небольшим числом хлоропластов. Она пропускает свет к столбчатому слою под ней."
+                "en": "The upper epidermis is a transparent protective layer. Most epidermal cells lack chloroplasts; guard cells are an exception. Light passes through to the palisade layer below.",
+                "ru": "Верхняя кожица — прозрачный защитный слой. Большинство её клеток не содержит хлоропластов; исключение — замыкающие клетки устьиц. Свет проходит к столбчатой ткани ниже."
               },
               "sources": [
                 {
@@ -1070,7 +1070,7 @@
       },
       "transport": {
         "title": "Movement across membranes",
-        "diffusion": "Diffusion — the spreading of particles from a higher to a lower concentration. It is passive: no energy is used.",
+        "diffusion": "Diffusion is the net movement of particles from higher to lower concentration due to random motion. It is passive and does not require ATP.",
         "osmosis": "Osmosis — diffusion of water across a partially permeable membrane.",
         "activeTransport": "Active transport — moving a substance from lower to higher concentration. It is powered by ATP from respiration.",
         "detailed": {
@@ -1115,18 +1115,18 @@
           },
           "osmosis": {
             "name": "Osmosis",
-            "rule": "Osmosis is the net movement of water molecules across a partially permeable membrane, from a dilute solution to a concentrated solution. The dilute solution has a higher water potential, so water moves from higher to lower water potential.",
+            "rule": "Osmosis is the net movement of water molecules across a partially permeable membrane from higher to lower water potential. At equal pressure and temperature, dissolving a solute lowers water potential; in the usual dilute-solution model, water moves from the more dilute solution to the more concentrated one.",
             "examples": [
-              "A red blood cell in a hypotonic (dilute) solution takes in water by osmosis and bursts.",
+              "A red blood cell in a hypotonic solution takes in water by osmosis, swells and may burst.",
               "A plant cell in pure water takes in water and becomes turgid (firm). Its cell wall stops it from bursting."
             ],
-            "tip": "Say 'water potential', not just 'concentration': the dilute solution has a higher water potential, so water moves from it into the concentrated solution.",
+            "tip": "Say which concentration you mean. Compare water potentials: the concentration shortcut assumes equal pressure and temperature. Increased pressure can raise water potential.",
             "review": {
               "englishTerm": "Osmosis",
               "russianTerm": "Осмос",
               "contrast": {
-                "en": "Osmosis moves only water across a partially permeable membrane. Dissolved solutes, such as sugar, cannot cross it.",
-                "ru": "Осмос переносит только воду через полупроницаемую мембрану. Растворённые вещества (solutes), например сахар, через неё пройти не могут."
+                "en": "Osmosis describes the net movement of water, not solute. In the sucrose-tubing model, the membrane admits water but prevents sucrose crossing.",
+                "ru": "Осмос описывает суммарный перенос воды, а не растворённого вещества. В модели с раствором сахарозы мембрана пропускает воду, но не сахарозу."
               },
               "sources": [
                 {
@@ -1189,7 +1189,7 @@
           },
           "significance": {
             "name": "Significance of diffusion in biology",
-            "rule": "Diffusion is efficient only over short distances, so exchange surfaces must be thin. Large organisms need ventilation and circulation to bring substances to every cell.",
+            "rule": "Diffusion is efficient only over short distances, so exchange surfaces must be thin. Large multicellular organisms need specialised exchange surfaces and ways to transport substances over longer distances. In humans, ventilation and circulation maintain gas-exchange gradients.",
             "examples": [
               "The wall of an alveolus is only one cell thick, so oxygen diffuses quickly from the air into the blood.",
               "Insect tracheae carry air close to tissues; many insects also ventilate their tracheal systems."
@@ -1236,8 +1236,8 @@
               "englishTerm": "Water potential",
               "russianTerm": "Водный потенциал",
               "contrast": {
-                "en": "Water potential is the tendency of water molecules to move out of a solution or cell. Pure water has the highest water potential; dissolved solutes lower it.",
-                "ru": "Водный потенциал — это склонность молекул воды выходить из раствора или клетки. Чистая вода имеет наибольший водный потенциал; растворённые вещества его снижают."
+                "en": "Water potential describes the tendency of water to move. Pure water at the reference pressure has water potential zero. At the same pressure and temperature, dissolved solutes lower it; pressure also affects water potential.",
+                "ru": "Водный потенциал характеризует способность воды перемещаться. У чистой воды при принятом за отсчёт давлении водный потенциал равен нулю. При одинаковых давлении и температуре растворённые вещества его снижают; давление тоже влияет на водный потенциал."
               }
             }
           }
@@ -1416,7 +1416,7 @@
               "russianTerm": "Путь воздуха",
               "contrast": {
                 "en": "Air and food both pass through the pharynx. Beyond it, the trachea carries air to the lungs, while the oesophagus carries food to the stomach.",
-                "ru": "Воздух и пища проходят вместе через глотку. Дальше трахея ведёт воздух в лёгкие, а пищевод — пищу в желудок."
+                "ru": "Через глотку проходят и воздух, и пища, но при глотании дыхательные пути закрываются. Дальше трахея ведёт воздух в лёгкие, а пищевод — пищу в желудок."
               },
               "sources": [
                 {
@@ -1587,7 +1587,7 @@
             "rule": "Absorption is the transfer of digested nutrients across the intestinal epithelium into the blood or lymph. The small intestine, including its last part, the ileum, is adapted for this. Villi (singular: villus) are finger-like projections of the mucosa, the inner lining of the gut. Microvilli are tiny projections on the surface of each epithelial cell. Each villus contains a lacteal, a lymph capillary that takes up fat.",
             "examples": [
               "Glucose, amino acids and water-soluble vitamins pass into the blood capillaries of the villi, then reach the liver through the hepatic portal vein.",
-              "Fatty acids and glycerol pass into a lacteal, then into the lymph, and only later join the blood close to the heart. Unlike glucose, they do not go straight to the liver.",
+              "Most long-chain dietary fats are rebuilt into triglycerides in intestinal cells and packaged into particles that enter lacteals, then lymph and blood near the heart. Glycerol and shorter-chain fatty acids can enter portal blood and travel directly to the liver.",
               "Iron is absorbed in the upper small intestine. Vitamin B12 is absorbed in the ileum, but only with intrinsic factor, a protein made by the lining of the stomach.",
               "In coeliac disease, the immune system reacts to gluten and damages the villi. Absorption falls, so a person can lack nutrients even though they eat normally."
             ],
@@ -1657,7 +1657,7 @@
         "detailed": {
           "structure": {
             "name": "CNS vs PNS",
-            "rule": "The CNS consists of the brain and spinal cord. The PNS includes the nerves and ganglia outside the CNS. The optic nerve is an exception: it develops from the brain and is part of the CNS. Sensory neurones carry information to the CNS; motor neurones carry commands to effectors (muscles and glands). Motor pathways are somatic (to skeletal muscles, under conscious control) or autonomic (to internal organs, without conscious control).",
+            "rule": "The CNS consists of the brain and spinal cord. The PNS includes the nerves and ganglia outside the CNS. The optic nerve is an exception: it develops from the brain and is part of the CNS. Sensory neurones carry information to the CNS; motor neurones carry commands to effectors (muscles and glands). Motor pathways are somatic (to skeletal muscles, in voluntary movements and reflexes) or autonomic (to internal organs, generally without conscious control).",
             "examples": [
               "A pin prick in the foot sends a signal along sensory nerves (PNS) into the spinal cord (CNS). The response goes along motor nerves (PNS) to the leg muscles.",
               "When you run, autonomic pathways speed up your heartbeat."
@@ -1731,8 +1731,8 @@
               "englishTerm": "Reflex arc",
               "russianTerm": "Рефлекторная дуга",
               "contrast": {
-                "en": "A reflex is not the same as a voluntary movement. Both contract muscles, but a voluntary movement starts with a decision in the cerebral cortex; a reflex does not need one.",
-                "ru": "Рефлекс — не то же, что произвольное движение. И то и другое сокращает мышцы, но произвольное движение начинается с решения в коре головного мозга, а рефлексу это решение не нужно."
+                "en": "A reflex does not require a conscious decision to start it, unlike a voluntary movement. Many reflexes activate muscles, but some act on glands.",
+                "ru": "Для запуска рефлекса не требуется сознательное решение, в отличие от произвольного движения. Эффекторами рефлексов могут быть мышцы или железы."
               },
               "sources": [
                 {
@@ -1827,8 +1827,8 @@
               "englishTerm": "The seven nutrient categories",
               "russianTerm": "Семь категорий питательных веществ",
               "contrast": {
-                "en": "An essential nutrient is one the body cannot make itself, so it must come from food. 'Essential' does not mean 'most important': glucose is vital for cells, but the body makes it, so it is not an essential nutrient.",
-                "ru": "Незаменимое вещество — то, которое организм не может синтезировать сам, поэтому его нужно получать с пищей. «Незаменимое» не значит «самое важное»: глюкоза нужна клеткам, но организм синтезирует её сам, поэтому её не относят к незаменимым веществам."
+                "en": "An essential nutrient is one the body cannot make in sufficient amounts, so it must come from food. 'Essential' does not mean 'most important': glucose is vital for cells, but the body makes it, so it is not an essential nutrient.",
+                "ru": "Незаменимое вещество — то, которое организм не может синтезировать в достаточном количестве, поэтому его нужно получать с пищей. «Незаменимое» не значит «самое важное»: глюкоза нужна клеткам, но организм синтезирует её сам, поэтому её не относят к незаменимым веществам."
               },
               "sources": [
                 {
@@ -2157,8 +2157,8 @@
               "englishTerm": "Nervous vs endocrine control",
               "russianTerm": "Нервная и эндокринная регуляция",
               "contrast": {
-                "en": "Nervous: the signal reaches one specific target. Endocrine: the hormone reaches every tissue, but only target cells react.",
-                "ru": "Нервная: сигнал доходит до одной конкретной мишени. Эндокринная: гормон попадает во все ткани, но реагируют только клетки-мишени."
+                "en": "Nervous signals reach specific cells at synapses; hormones circulate widely, but only cells with matching receptors respond.",
+                "ru": "Нервные сигналы передаются определённым клеткам через синапсы. Гормоны разносятся кровью, но реагируют клетки с подходящими рецепторами."
               },
               "sources": [
                 {
@@ -2208,7 +2208,7 @@
             "name": "Diabetes mellitus: when blood glucose control fails",
             "rule": "Diabetes mellitus is a long-term condition in which blood glucose stays high, because insulin is missing or does not work properly. In type 1, the immune system destroys the beta cells of the pancreas, so little or no insulin is made. In type 2, the cells respond poorly to insulin (insulin resistance), and over time the pancreas cannot make enough insulin to compensate.",
             "examples": [
-              "Sam (14) has type 1 diabetes. Without insulin, the cells cannot take in glucose from the blood, so Sam injects insulin before meals to keep blood glucose from rising too high."
+              "Sam (14) has type 1 diabetes. Without enough insulin, glucose uptake by many muscle and fat cells decreases and blood glucose rises. Sam uses prescribed insulin to manage blood glucose."
             ],
             "watchOut": "Type 1 diabetes is not caused by eating sugary food: its cause is the immune destruction of beta cells. Obesity and inactivity raise the risk of type 2, but they do not show that a particular person has the disease. Type 1 can also start in adults, and type 2 in young people.",
             "tip": "In an answer, state what is missing first, then explain why blood glucose stays high.",
@@ -2434,7 +2434,7 @@
             "examples": [
               "Potato tubers and wheat grains store starch that the plant can later break down into glucose.",
               "Cellulose in plant cell walls gives strength to wood, cotton and paper.",
-              "Soya proteins are built from amino acids: the carbon comes from sugars made by photosynthesis, and the nitrogen comes from nitrate or ammonium ions in the soil.",
+              "Soya proteins are built from amino acids. Their carbon skeletons come from photosynthetic sugars. Soya obtains nitrogen from absorbed mineral ions and from nitrogen-fixing bacteria in root nodules.",
               "Sunflower and rapeseed seeds convert sugars into fats, which store a lot of energy in a small mass."
             ],
             "tip": "Glucose is a convenient product in the simplified overall equation.",
@@ -2587,8 +2587,8 @@
               "englishTerm": "Biotechnology uses: medicine, agriculture and industry",
               "russianTerm": "Применения биотехнологии: медицина, сельское хозяйство и промышленность",
               "contrast": {
-                "en": "A herbicide-tolerant crop is designed to survive a spray; weeds become herbicide-resistant through natural selection. The two terms refer to different organisms and different causes.",
-                "ru": "Культуру, устойчивую к гербициду, создают так, чтобы она выдержала опрыскивание; сорняки становятся устойчивыми благодаря естественному отбору. Эти понятия относятся к разным организмам и имеют разные причины."
+                "en": "An engineered crop may carry a herbicide-resistance trait. Repeated herbicide use can select resistant weeds; resistance genes can also spread through reproduction or gene flow where plants can interbreed.",
+                "ru": "Генетически изменённая культура может нести признак устойчивости к гербициду. Многократное применение гербицида способствует отбору устойчивых сорняков; гены устойчивости также могут распространяться при размножении и скрещивании совместимых растений."
               },
               "sources": [
                 {
@@ -2611,7 +2611,7 @@
             "rule": "Ethical assessment of genetic engineering considers likely benefits, evidence about harms, animal welfare, consent where relevant and fair access. Environmental assessment considers gene flow and effects on ecosystems. Biological risk and value judgements are different questions and both require explicit reasoning.",
             "examples": [
               "Pollen from a GM crop can pollinate a wild relative growing nearby, so the risk depends on distance and whether the two species can interbreed.",
-              "A GM seed that costs more than a small farmer can afford benefits only the farmers who can pay for it."
+              "An unaffordable GM seed price can prevent some farmers from adopting the crop and make access to the technology unequal."
             ],
             "watchOut": "Separate evidence about biological effects from ethical judgements, and give reasons for each one rather than assuming every application has the same outcome.",
             "review": {
@@ -2837,8 +2837,8 @@
           "englishTerm": "DNA",
           "russianTerm": "ДНК",
           "contrast": {
-            "en": "DNA is the molecule, a gene is a section of it, and a chromosome is one long DNA molecule with proteins that carries many genes.",
-            "ru": "ДНК — это молекула, ген — её участок, а хромосома — одна длинная молекула ДНК вместе с белками, на которой расположено много генов."
+            "en": "DNA is the molecule and a gene is a section of DNA. A chromosome contains DNA associated with proteins and carries many genes. Before replication it contains one DNA molecule; after replication it has two sister chromatids, each with one DNA molecule.",
+            "ru": "ДНК — молекула, а ген — участок ДНК. Хромосома содержит ДНК, связанную с белками, и несёт много генов. До репликации в ней одна молекула ДНК; после репликации — две сестринские хроматиды, по молекуле ДНК в каждой."
           },
           "sources": [
             {
@@ -2878,7 +2878,7 @@
       },
       "meiosis": {
         "title": "Meiosis",
-        "body": "Meiosis is cell division that makes gametes (sex cells) in animals and spores in many plants and fungi. It consists of two nuclear divisions that follow one round of DNA replication, so the chromosome set is halved, from diploid (2n) to haploid (n).\n\nHomologous chromosomes are a pair with one chromosome from each parent. Each gamete receives one chromosome from each pair, maternal or paternal, chosen at random. Segments of homologous chromosomes can also be exchanged (crossing over). These steps make each gamete genetically different from the others. Fertilisation then restores the diploid number.",
+        "body": "Meiosis is cell division that makes gametes (sex cells) in animals and spores in many plants and fungi. It consists of two nuclear divisions that follow one round of DNA replication, so the chromosome set is halved, from diploid (2n) to haploid (n).\n\nHomologous chromosomes are a pair with one chromosome from each parent. Each gamete receives one chromosome from each pair, maternal or paternal, chosen at random. Segments of homologous chromosomes can also be exchanged (crossing over). These processes generate genetic variation among gametes, although they do not guarantee that every gamete is unique. Fertilisation then restores the diploid number.",
         "review": {
           "englishTerm": "Meiosis",
           "russianTerm": "Мейоз",
@@ -2939,8 +2939,8 @@
               }
             ],
             "caption": {
-              "en": "n counts chromosome sets, not DNA copies: the same n can apply to cells with different amounts of DNA.",
-              "ru": "n — число наборов хромосом, а не копий ДНК: одно и то же n может относиться к клеткам с разным количеством ДНК."
+              "en": "n denotes the haploid chromosome number. Ploidy describes chromosome sets: DNA replication doubles DNA quantity without changing diploid 2n to tetraploid 4n.",
+              "ru": "n обозначает гаплоидное число хромосом. Плоидность характеризует число наборов хромосом: удвоение ДНК не превращает диплоидный набор 2n в тетраплоидный 4n."
             }
           }
         }
@@ -3102,7 +3102,7 @@
           },
           "speciation": {
             "name": "Speciation — how new species form",
-            "rule": "Speciation is the process in which one population splits into groups that can no longer interbreed, so that they become separate species. A species is a group of organisms that can interbreed and produce fertile offspring. This definition works well for many sexually reproducing organisms, but it is hard to apply to fossils, where interbreeding cannot be tested, and to asexual organisms.",
+            "rule": "Speciation produces populations that become reproductively isolated. Under the biological species concept, members of a species can interbreed naturally and produce viable, fertile offspring. This definition works well for many sexually reproducing organisms, but it is hard to apply to fossils, where interbreeding cannot be tested, and to asexual organisms.",
             "examples": [
               "Darwin's finches on the Galápagos Islands descend from one ancestral population. Groups that were cut off on different islands diverged, and their beaks became suited to different foods.",
               "Birds from two groups whose males sing different songs may not recognise each other as mates, so they rarely interbreed."
@@ -3316,7 +3316,7 @@
             "examples": [
               "Smoking raises the risk of lung cancer and heart disease. Stopping smoking lowers this risk over time."
             ],
-            "tip": "When you write about a habit, state that it increases the risk of a disease rather than that it causes it.",
+            "tip": "A risk factor increases the probability of disease; it does not mean that every exposed person will develop it. Distinguish evidence of causation from a correlation.",
             "review": {
               "englishTerm": "Lifestyle risk factors",
               "russianTerm": "Факторы риска образа жизни",
@@ -3417,7 +3417,7 @@
               "COVID-19 is caused by SARS-CoV-2, a coronavirus identified in early 2020 after an outbreak of pneumonia in late 2019. It spreads in droplets that an infected person releases when breathing, coughing or talking. It led to a worldwide pandemic from 2020.",
               "Tobacco mosaic virus infects plants. Its pale, mottled patches on the leaves reduce photosynthesis."
             ],
-            "watchOut": "Asking for antibiotics for a cold or flu is a common mistake. Unnecessary courses do not help the patient and make bacteria resistant, so the drugs may stop working when they are really needed.",
+            "watchOut": "Asking for antibiotics for a cold or flu is a common mistake. Unnecessary antibiotic use selects for resistant bacteria, so resistant strains can become more common and treatment may become less effective.",
             "review": {
               "englishTerm": "Viral pathogens",
               "russianTerm": "Патогенные вирусы",
@@ -3586,13 +3586,13 @@
       },
       "barriers": {
         "title": "Transmission barriers and body defence",
-        "body": "Transmission barriers keep pathogens from getting inside the body. They are non-specific: they work in the same way against all pathogens.\n\nThe main barriers are:\n\n- skin: unbroken skin is a physical barrier, but a cut is an entry point for bacteria\n- mucus in the airways: sticky mucus traps dust, bacteria and viruses\n- ciliated epithelium: the cells lining the airways have cilia, which beat and move the mucus up to the throat, where it is swallowed\n- stomach acid: hydrochloric acid (pH around 2) kills most microbes swallowed with food\n- tears: they contain lysozyme, an enzyme that breaks down the cell walls of some bacteria\n\nExample: bacteria in the dust you breathe in stick to the mucus in your windpipe, and the mucus is then swallowed and carried to the stomach.\n\nBody defence summary: the body defends itself in two lines. The first line, the barriers above, keeps out most pathogens. The second line is the immune system, which deals with the pathogens that get in.",
+        "body": "Transmission barriers keep pathogens from getting inside the body. They are part of innate immunity. They are non-specific: they are not targeted to one particular antigen, although different barriers act differently on different pathogens.\n\nThe main barriers are:\n\n- skin: unbroken skin is a physical barrier, but a cut is an entry point for bacteria\n- mucus in the airways: sticky mucus traps dust, bacteria and viruses\n- ciliated epithelium: the cells lining the airways have cilia, which beat and move the mucus up to the throat, where it is swallowed\n- stomach acid: hydrochloric acid (pH around 2) kills most microbes swallowed with food\n- tears: they contain lysozyme, an enzyme that breaks down the cell walls of some bacteria\n\nExample: bacteria in the dust you breathe in stick to the mucus in your windpipe, and the mucus is then swallowed and carried to the stomach.\n\nBody defence summary: external barriers help keep pathogens out. Internal innate defences, such as phagocytosis, act on pathogens that get in. Adaptive responses recognise particular antigens and can produce immune memory.",
         "review": {
           "englishTerm": "Transmission barriers",
           "russianTerm": "Барьеры передачи",
           "contrast": {
-            "en": "Transmission barriers are the body's first line of defence. They are present from birth and work all the time. Unlike the immune system, they do not get stronger after an infection.",
-            "ru": "Барьеры передачи — это первая линия защиты. Они есть с рождения и работают постоянно. В отличие от иммунной системы, после болезни они не становятся сильнее."
+            "en": "External barriers are the body's first line of defence and part of innate immunity. Adaptive immunity differs because its response to a particular antigen can become faster after an earlier exposure.",
+            "ru": "Внешние барьеры — первая линия защиты, часть врождённого иммунитета. Приобретённый иммунитет отличается тем, что после встречи с определённым антигеном ответ на него может становиться быстрее."
           },
           "sources": [
             {
@@ -3611,8 +3611,8 @@
         }
       },
       "immuneResponse": {
-        "title": "Immune system (second line of defence)",
-        "body": "The immune system is the second line of defence. It deals with pathogens that get past the barriers, using phagocytes, lymphocytes, antibodies and memory cells.\n\nPhagocytes are white blood cells that engulf pathogens. A phagocyte surrounds a pathogen and takes it inside, where the cell's enzymes digest it.\n\nThis process is called phagocytosis. It works against any pathogen, so it is non-specific.\n\nLymphocytes are white blood cells. Each one recognises one specific antigen, and B-lymphocytes then make antibodies against it. An antibody fits its antigen like a key fits a lock. T-lymphocytes also take part. T-helper cells signal to B-lymphocytes to start their work, and T-killer cells destroy body cells that a pathogen has infected. Other white blood cells also help: neutrophils are the most common phagocytes in the blood, and monocytes become macrophages in the tissues.\n\nMemory cells are lymphocytes that stay in the body after an infection. If the same pathogen returns, they respond faster and make more antibodies, so the illness is usually stopped before it becomes serious.\n\nExample: after chickenpox, memory cells usually stop you catching it again.",
+        "title": "Internal immune defences",
+        "body": "Internal immune defences deal with pathogens that get past the external barriers. They include innate responses such as phagocytosis and adaptive responses involving lymphocytes, antibodies and memory cells.\n\nPhagocytes are white blood cells that engulf pathogens. A phagocyte surrounds a pathogen and takes it inside, where the cell's enzymes digest it.\n\nThis process is called phagocytosis. It is non-specific because it is not targeted to one particular antigen; it is not equally effective against every pathogen.\n\nLymphocytes are white blood cells. Each one recognises one specific antigen, and B-lymphocytes then make antibodies against it. An antibody fits its antigen like a key fits a lock. T-lymphocytes also take part. T-helper cells signal to B-lymphocytes to start their work, and T-killer cells destroy body cells that a pathogen has infected. Other white blood cells also help: neutrophils are the most common phagocytes in the blood, and monocytes become macrophages in the tissues.\n\nMemory cells are lymphocytes that remain after an immune response. On re-exposure, memory B cells can rapidly divide and form plasma cells that secrete antibodies; memory T cells also help provide a faster specific response. This can prevent or reduce illness.\n\nExample: after chickenpox, memory cells usually stop you catching it again.",
         "review": {
           "englishTerm": "Antibody",
           "russianTerm": "Антитело",
@@ -3644,7 +3644,7 @@
       },
       "vaccination": {
         "title": "Vaccination",
-        "body": "Vaccination gives the immune system a safe way to meet a pathogen. A vaccine contains weakened or killed pathogens, or only parts of them, such as an antigen from the pathogen's surface. The immune system then makes antibodies and memory cells, but the person does not get the disease.\n\nExample: the MMR vaccine contains a weakened measles virus. If the person later meets the real virus, the memory cells respond quickly, and the virus is usually destroyed before it causes illness.",
+        "body": "Vaccination is designed to stimulate immunity without causing the disease. A vaccine presents weakened or killed pathogens, parts of them, or genetic instructions for producing an antigen. The immune response can produce antibodies and memory cells.\n\nExample: the MMR vaccine contains a weakened measles virus. If the person later meets the real virus, the memory cells respond quickly, and the virus is usually destroyed before it causes illness.",
         "review": {
           "englishTerm": "Vaccination",
           "russianTerm": "Вакцинация",
@@ -3717,7 +3717,7 @@
         "items": {
           "independent": "Independent variable: the factor you choose to change on purpose. In a pondweed (Elodea) test, the distance from the lamp is the independent variable.",
           "dependent": "Dependent variable: the outcome you measure after each change of the independent variable. In the same test, it is the number of oxygen bubbles released per minute.",
-          "controlled": "Controlled variables: the conditions you hold constant during the test, such as the water temperature, the size of the sprig and the volume of water. A controlled variable is a condition of the test, whereas a control group is a group for comparison that receives no treatment."
+          "controlled": "Controlled variables: the conditions you hold constant during the test, such as the water temperature, the size of the sprig and the volume of water. A controlled variable is a condition of the test, whereas a control group is a comparison group that may receive no treatment, a placebo or an established treatment, depending on the question."
         },
         "review": {
           "englishTerm": "Variables",
@@ -3758,7 +3758,7 @@
       },
       "method": {
         "title": "Method",
-        "body": "A method is a reproducible description of how the data will be collected. It states the samples, apparatus, quantities, timing, measurements, controls and precautions in enough detail for another student to repeat the test. For example, count the bubbles released by a 10 cm pondweed sprig in 3 minutes at each lamp distance. Use a new sprig for each repeat: repeated counts on the same sprig show only the variation in counting, not the variation between plants.",
+        "body": "A method is a reproducible description of how the data will be collected. It states the samples, apparatus, quantities, timing, measurements, controls and precautions in enough detail for another student to repeat the test. For example, count the bubbles released by a 10 cm pondweed sprig in 3 minutes at each lamp distance. Use a new sprig for each repeat: repeated counts on one sprig include counting and within-plant variation, but do not estimate variation between plants.",
         "review": {
           "englishTerm": "Method",
           "russianTerm": "Метод",

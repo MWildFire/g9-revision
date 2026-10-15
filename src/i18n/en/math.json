@@ -450,7 +450,7 @@
         "examples": [
           "540,000 = 5.4 × 100,000 = 5.4 × 10⁵.",
           "0.000072 = 7.2 × 0.00001 = 7.2 × 10⁻⁵.",
-          "The speed of light is about 3.0 × 10⁸ m/s, or 300,000,000 m/s.",
+          "The speed of light in vacuum is about 3.0 × 10⁸ m/s, or 300,000,000 m/s.",
           "(3 × 10⁴) × (2 × 10⁻²) = 6 × 10² = 600, because 3 × 2 = 6 and 10⁴ × 10⁻² = 10²."
         ],
         "review": {
@@ -1154,7 +1154,7 @@
       },
       "solveGraphical": {
         "name": "Solving equations graphically",
-        "rule": "A solution of f(x) = 0 is an x-value where the graph of y = f(x) crosses or touches the x-axis. A solution of f(x) = g(x) is an x-value where the graphs of y = f(x) and y = g(x) meet. If the graph only touches the x-axis, that point is still a solution, called a repeated root.",
+        "rule": "A solution of f(x) = 0 is an x-value where the graph of y = f(x) crosses or touches the x-axis. A solution of f(x) = g(x) is an x-value where the graphs of y = f(x) and y = g(x) meet. Touching the x-axis still gives a solution. For a quadratic function, touching without crossing at the vertex corresponds to a repeated root.",
         "examples": [
           "To solve x² − 4 = 0, plot y = x² − 4. It crosses the x-axis at x = −2 and x = 2.",
           "To solve x² = x + 2, plot y = x² and y = x + 2. The graphs meet at two points, where x = −1 and x = 2, so these are the solutions."
@@ -1246,7 +1246,7 @@
       },
       "algebraicFractions": {
         "name": "Simplifying algebraic fractions; Extended: solving equations with them",
-        "rule": "An algebraic fraction (rational algebraic expression) is one algebraic expression divided by another. It is undefined when its denominator is zero, so state the values that are not allowed, for example x ≠ 0. Add fractions over a common denominator, multiply the numerators and multiply the denominators, and divide by multiplying by the reciprocal. Factorise first, then cancel common factors; cancelling does not remove the restrictions on the variable.\n\nExtended: when you multiply both sides of an equation by an expression that contains the variable, check every solution in the original equation.",
+        "rule": "A rational algebraic expression is a quotient P/Q of two polynomials, where Q is not the zero polynomial. Constants count as polynomials. It is undefined when its denominator is zero, so state the values that are not allowed, for example x ≠ 0. Add fractions over a common denominator, multiply the numerators and multiply the denominators, and divide by multiplying by the reciprocal. Factorise first, then cancel common factors; cancelling does not remove the restrictions on the variable.\n\nExtended: when you multiply both sides of an equation by an expression that contains the variable, check every solution in the original equation.",
         "examples": [
           "1/x + 1/y = (y + x)/(xy), for x ≠ 0 and y ≠ 0. Check with x = 2 and y = 3: 1/2 + 1/3 = 5/6 and (3 + 2)/(2 × 3) = 5/6.",
           "(x² − 4)/(x − 2) = (x − 2)(x + 2)/(x − 2) = x + 2, for x ≠ 2. Check with x = 5: (25 − 4)/(5 − 2) = 21/3 = 7, and 5 + 2 = 7.",
@@ -1301,8 +1301,8 @@
             }
           ],
           "model": {
-            "en": "Real situations need fixed conditions.",
-            "ru": "Реальные ситуации требуют постоянных условий."
+            "en": "The work example assumes a fixed job that can be shared, equal constant work rates, and no extra delays when more people join. The cost example assumes a fixed price per kilogram without a fixed fee or discount.",
+            "ru": "В примере с работой предполагается неизменный объём, который можно разделить, одинаковая постоянная производительность и отсутствие дополнительных задержек при увеличении числа работников. В примере со стоимостью цена за килограмм постоянна, нет фиксированной платы и скидок."
           }
         }
       },
@@ -1318,8 +1318,8 @@
           "englishTerm": "Asymptote",
           "russianTerm": "Асимптота",
           "contrast": {
-            "en": "If a zero of the denominator cancels, the graph has a hole, not an asymptote. For (x² − 4)/(x − 2), the hole is at (2, 4). A graph can cross its horizontal asymptote.",
-            "ru": "Если ноль знаменателя сокращается, на графике будет выколотая точка, а не асимптота. У (x² − 4)/(x − 2) выколота точка (2; 4). График может пересекать горизонтальную асимптоту."
+            "en": "At an excluded input, the graph has a hole if cancellation removes every factor making the denominator zero there and the simplified expression has a finite value. If such a denominator factor remains, a vertical asymptote can remain: x/x² = 1/x for x ≠ 0. For (x² − 4)/(x − 2), the hole is at (2, 4). A graph can cross its horizontal asymptote.",
+            "ru": "В исключённой точке получается выколотая точка, если после сокращения в знаменателе не осталось множителей, обращающихся там в ноль, и упрощённое выражение имеет конечное значение. Если такой множитель остался, может сохраниться вертикальная асимптота: x/x² = 1/x при x ≠ 0. У (x² − 4)/(x − 2) выколота точка (2; 4). График может пересекать горизонтальную асимптоту."
           },
           "sources": [
             {
@@ -1562,7 +1562,7 @@
       },
       "trig": {
         "name": "Sine, cosine and tangent of an acute angle",
-        "rule": "Take an acute angle θ in a right-angled triangle. The hypotenuse does not depend on which angle you choose. The opposite side is across from θ, and the adjacent side is next to θ. Their names depend on θ. The three ratios are:\n\n\nsin θ = opposite / hypotenuse\n\ncos θ = adjacent / hypotenuse\n\ntan θ = opposite / adjacent\n\nTo find an angle from a ratio, use the inverse functions sin⁻¹, cos⁻¹ and tan⁻¹ on your calculator. The memory aid SOH–CAH–TOA lists the three ratios.\n\nOn the exam, check that your calculator is in degree mode, and keep unrounded values until the final answer.",
+        "rule": "Take an acute angle θ in a right-angled triangle. The hypotenuse does not depend on which angle you choose. The opposite side is across from θ, and the adjacent leg is next to θ and is not the hypotenuse. Their names depend on θ. The three ratios are:\n\n\nsin θ = opposite / hypotenuse\n\ncos θ = adjacent / hypotenuse\n\ntan θ = opposite / adjacent\n\nTo find an angle from a ratio, use the inverse functions sin⁻¹, cos⁻¹ and tan⁻¹ on your calculator. The memory aid SOH–CAH–TOA lists the three ratios.\n\nOn the exam, check that your calculator is in degree mode, and keep unrounded values until the final answer.",
         "examples": [
           "Find the angle θ when the hypotenuse is 10 cm and the adjacent side is 6 cm. cos θ = 6 / 10 = 0.6, so θ = cos⁻¹(0.6) ≈ 53.1°.",
           "Find the opposite side when the hypotenuse is 8 cm and θ = 30°. Opposite side = 8 × sin 30° = 8 × 0.5 = 4 cm.",
@@ -1685,7 +1685,7 @@
       },
       "circleTheorems": {
         "name": "Angles and tangents in a circle",
-        "rule": "Circle theorems are rules that link angles and lengths in a circle. They let you find a missing angle without measuring.\n\n\nThe angle at the centre is twice the inscribed angle on the same arc. An inscribed angle has its vertex on the circle.\n\nInscribed angles on the same arc are equal.\n\nAn angle in a semicircle, subtended by a diameter, is 90°.\n\nOpposite angles of a cyclic quadrilateral add up to 180°.\n\nA tangent is perpendicular to the radius at the point of contact.\n\nTwo tangents drawn from the same point outside a circle have equal lengths.\n\nCheck the conditions first. Is the angle at the centre or on the circle? Is a diameter given? Are all four vertices on the circle? Does a line touch the circle at only one point?",
+        "rule": "Circle theorems are rules that link angles and lengths in a circle. They let you find a missing angle without measuring.\n\n\nThe angle at the centre is twice the inscribed angle on the same arc. An inscribed angle has its vertex on the circle, and each arm meets the circle again, forming a chord.\n\nInscribed angles on the same arc are equal.\n\nAn angle in a semicircle, subtended by a diameter, is 90°.\n\nOpposite angles of a cyclic quadrilateral add up to 180°.\n\nA tangent is perpendicular to the radius at the point of contact.\n\nTwo tangents drawn from the same point outside a circle have equal lengths.\n\nCheck the conditions first. Is the angle at the centre or on the circle? Is a diameter given? Are all four vertices on the circle? Does a line touch the circle at only one point?",
         "examples": [
           "The angle at the centre is 80° and subtends arc AB. An inscribed angle on the same arc is half of it: 80° ÷ 2 = 40°.",
           "AB is a diameter of a circle, and C is any other point on the circle. Then angle ACB = 90°, because it is an angle in a semicircle.",
@@ -1743,7 +1743,7 @@
         "rule": "A segment (circular segment) is the region between a chord and one of its arcs. The area of the minor segment is the sector area minus the triangle area, where the triangle is formed by the chord and the two radii.\n\nFor a minor segment with radius r (cm) and central angle θ (up to 180°):\n\n\nSector area: (θ ÷ 360°) × πr²\n\nSegment area = sector area − triangle area\n\nExtended: the triangle area is ½r² sin θ, so the segment area = (θ ÷ 360°) × πr² − ½r² sin θ.\n\nBefore you calculate, check the radius and the central angle. Is the angle up to 180°? If it is, you are finding the minor segment, and the subtraction formula applies.",
         "examples": [
           "Radius 6 cm and central angle 90°. Sector area: (90 ÷ 360) × π × 6² = 9π ≈ 28.27 cm². The triangle has two sides of 6 cm with a right angle between them, so its area is ½ × 6 × 6 = 18 cm². Segment area = 9π − 18 ≈ 10.27 cm².",
-          "Extended: radius 10 cm and central angle 60°. Sector area: (60 ÷ 360) × π × 10² ≈ 52.36 cm². Triangle area: ½ × 10 × 10 × sin 60° ≈ 43.30 cm². Segment area = 52.36 − 43.30 = 9.06 cm²."
+          "Extended: radius 10 cm and central angle 60°. Sector area: (60 ÷ 360) × π × 10² ≈ 52.36 cm². Triangle area: ½ × 10 × 10 × sin 60° ≈ 43.30 cm². Segment area = 100π/6 − 25√3 ≈ 9.06 cm²; round only after subtracting the unrounded values."
         ],
         "review": {
           "englishTerm": "Area of a circular segment",

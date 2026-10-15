@@ -1,0 +1,10 @@
+# P-paper-physics — Physics practice paper A–D
+- готово: 15.10 15:18 GST · лейн P
+- пункты: изменено 10 / оставлено 0 / удалено 0. В papers.ts изменена только physics; id phy-A/B/C/D и четыре вопроса по 25 баллов сохранены.
+- EN источники: Paul Morris, Physics for the IB MYP 4&5, PDF 111, 154–156, 182–184, 238, 242–250, 285–287, 338–350, 403–416, 427–428, 466, 514–515, 522–523 (PDF и печатные номера различаются).
+- RU источники: Открытая физика — https://physics.ru/textbook/chapter1/section/paragraph4/ ; https://physics.ru/textbook/chapter1/section/paragraph12/ ; https://physics.ru/textbook/chapter1/section/paragraph19/ ; https://physics.ru/textbook/chapter2/section/paragraph6/ ; https://physics.ru/textbook1/chapter1/section/paragraph8/ ; https://physics.ru/textbook1/chapter6/section/paragraph7/ . БРЭ «Оптоэлектроника»: https://old.bigenc.ru/technology_and_technique/text/2692575 .
+- ревью: авторская самопроверка; независимое ревью PR R03 ожидается. Визуальная проверка EN/RU desktop/mobile: OK, формула C отделена от определений, списки и абзацы видимы.
+- локальная проверка: npm test 104/104 · build OK · render-audit 4 просмотра, 0 failed · content lint 0 errors · site lint собственного батча 0 errors (3 предупреждения на маркеры списков).
+- школьный объём: A содержит выборку из всех шести групп; B/C — forces; D — energy/electricity/waves. Все 43 подтемы одной работой не проверяются.
+- время: полная работа 100 баллов/100 минут; A+C 50 баллов/50 минут плюс 15 минут разбора. Это учебный ориентир, не утверждение о школьном экзамене.
+- открыто: автоматические карточки вне зоны различаются EN/RU (activity/ohm/line и current); line избыточна, но формулы полностью даны в разборе. Полный официальный IB subject brief ответил 403; использован индексированный официальный фрагмент. Первоначальный EN baseline был loading, итоговая загрузка проверена по заголовкам и 190/168 блокам. Публикация ещё не выполнена.

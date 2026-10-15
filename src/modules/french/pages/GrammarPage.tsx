@@ -19,7 +19,7 @@ export function GrammarPage() {
       {GRAMMAR_RULES.map((rule) => (
         <div key={rule.id}>
           <SectionHeading>{lang === 'ru' ? rule.titleRu : rule.titleEn}</SectionHeading>
-          <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm" style={{ borderLeftColor: 'var(--color-accent-sage)', borderLeftWidth: '3px' }}>
+          <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm whitespace-pre-line" style={{ borderLeftColor: 'var(--color-accent-sage)', borderLeftWidth: '3px' }}>
             {lang === 'ru' ? rule.bodyRu : rule.body}
           </p>
           <DefinitionSupport review={FRENCH_REVIEWS[rule.id]} language={lang} />

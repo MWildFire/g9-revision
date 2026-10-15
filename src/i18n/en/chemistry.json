@@ -155,7 +155,7 @@
       "inputVolume": "Gas volume (dm³)",
       "molarMassInputLabel": "Molar mass M (g/mol)",
       "presetLabel": "Preset molar masses (g/mol)",
-      "stpNote": "Gas volumes here use STP: 0 °C, 273 K, 100 kPa, where Vm = 22.7 dm³/mol. Normal conditions (0 °C, 101.325 kPa) give Vm = 22.4 dm³/mol.",
+      "stpNote": "Gas volumes here use STP: 0 °C, 273.15 K, 100 kPa, where Vm = 22.7 dm³/mol. Normal conditions (0 °C, 101.325 kPa) give Vm = 22.4 dm³/mol.",
       "invalidInput": "Enter a number that is zero or more. Mass conversions also need a molar mass greater than zero.",
       "review": {
         "englishTerm": "Molar volume",
@@ -1170,7 +1170,7 @@
       },
       "trends": {
         "title": "How properties change down a group",
-        "body": "These changes come from nuclear charge, shielding by inner electrons and the number of shells. Alkali metals become more reactive down group 1. The outer electron is further from the nucleus and more shielded, so it is lost more easily. Halogens become less oxidising down group 17, because the larger atom attracts an extra electron less strongly. Noble gases (group 18, the old group 0) hardly react, because their outer shells are full. Their boiling points rise down the group: helium −269 °C, neon −246 °C, argon −186 °C, krypton −153 °C, xenon −108 °C. Larger atoms have more electrons, so the forces between them (London forces) are stronger.",
+        "body": "These changes come from nuclear charge, shielding by inner electrons and the number of shells. Alkali metals become more reactive down group 1. The outer electron is further from the nucleus and more shielded, so it is lost more easily. Halogens become less oxidising down group 17, because the larger atom attracts an extra electron less strongly. Noble gases (group 18, the old group 0) hardly react, because their outer shells are full. Their boiling points (approximate values at atmospheric pressure) rise down the group: helium −269 °C, neon −246 °C, argon −186 °C, krypton −153 °C, xenon −108 °C. Larger atoms have more electrons, so the forces between them (London forces) are stronger.",
         "review": {
           "englishTerm": "How properties change down a group",
           "russianTerm": "Как меняются свойства в группах",
@@ -1300,12 +1300,12 @@
           },
           "simpleCovalent": {
             "name": "Simple molecular structure",
-            "rule": "Melting or boiling only separates the molecules from one another. The intermolecular forces between them are weak, so little energy is needed, and these substances melt and boil at low temperatures. The boiling point also rises with relative molecular mass in a series of similar substances. The halogens F₂ (−188 °C), Cl₂ (−34 °C), Br₂ (59 °C) and I₂ (184 °C) boil at higher temperatures down the group, because bigger molecules have stronger intermolecular forces. The same trend holds for alkanes: methane (−162 °C), ethane (−89 °C) and propane (−42 °C).",
+            "rule": "Melting or boiling only separates the molecules from one another. The intermolecular forces between them are weak, so little energy is needed, and these substances melt and boil at low temperatures. The boiling point also rises with relative molecular mass in a series of similar substances. The halogens F₂ (−188 °C), Cl₂ (−34 °C), Br₂ (59 °C) and I₂ (184 °C) boil at higher temperatures down the group, because bigger molecules have stronger intermolecular forces. The same trend holds for alkanes: methane (−162 °C), ethane (−89 °C) and propane (−42 °C). These boiling points are approximate values at atmospheric pressure.",
             "examples": [
               "At atmospheric pressure, dry ice (solid CO₂) sublimes at about −78 °C. It turns straight into gas and never becomes a liquid.",
               "Iodine (I₂) is a solid at room temperature. Weak forces act between its molecules, so it melts at about 114 °C."
             ],
-            "tip": "Compare the forces between molecules, not only their mass: methane (CH₄, 16 g/mol) boils at −162 °C, while water (H₂O, 18 g/mol) boils at 100 °C.",
+            "tip": "Compare the forces between molecules, not only their mass: methane (CH₄, 16 g/mol) boils at atmospheric pressure at −162 °C, while water (H₂O, 18 g/mol) boils at 100 °C.",
             "review": {
               "englishTerm": "Simple molecular structure",
               "russianTerm": "Молекулярное строение",
@@ -1446,7 +1446,7 @@
               "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g) — magnesium dissolves with fizzing as bubbles form",
               "2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g) — potassium, sodium and calcium react with cold water; potassium reacts most violently, calcium most slowly",
               "Magnesium reacts with hot water: Mg(s) + 2H₂O(l) → Mg(OH)₂(s) + H₂(g). It also reacts with steam: Mg(s) + H₂O(g) → MgO(s) + H₂(g). Zinc and iron react only with steam, for example Zn(s) + H₂O(g) → ZnO(s) + H₂(g). Copper, silver and gold do not react with water or steam",
-              "Metals above hydrogen, such as Zn and Fe, displace hydrogen from dilute HCl and H₂SO₄: Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g); Fe(s) + 2HCl(aq) → FeCl₂(aq) + H₂(g). Copper, silver and gold lie below hydrogen and do not react with dilute acids",
+              "Metals above hydrogen, such as Zn and Fe, displace hydrogen from dilute HCl and H₂SO₄: Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g); Fe(s) + 2HCl(aq) → FeCl₂(aq) + H₂(g). Copper, silver and gold lie below hydrogen and do not react with these dilute non-oxidising acids (HCl and H₂SO₄)",
               "Predict: will an iron nail react with copper(II) sulfate solution? Answer: yes. Iron is above copper in the series, so it displaces copper: Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s). A red-brown layer of copper forms on the nail",
               "Predict: will zinc react with magnesium sulfate solution? Answer: no reaction. Zinc is below magnesium in the series, so it cannot displace magnesium from its salt"
             ],
@@ -1482,7 +1482,7 @@
               "russianTerm": "Реакция обмена (осаждение)",
               "contrast": {
                 "en": "Do not confuse this with a reaction in which one element replaces another. Here no electrons move, and each ion keeps its charge. In that reaction, electrons pass from atoms of one element to ions of another.",
-                "ru": "Не путай с реакцией, в которой один элемент замещает другой. Здесь электроны не переходят, и каждый ион сохраняет свой заряд. В такой реакции электроны переходят от атомов одного элемента к ионам другого."
+                "ru": "Не путай с реакцией, в которой один элемент замещает другой. Здесь электроны не переходят, и каждый ион сохраняет свой заряд. В реакции замещения электроны переходят от атомов одного элемента к ионам другого."
               },
               "sources": [
                 {
@@ -1629,7 +1629,7 @@
       },
       "ionic": {
         "title": "Ionic equations",
-        "body": "A net ionic equation leaves out spectator ions, which are unchanged on both sides. Write strong dissolved electrolytes as ions; solids, gases and weak electrolytes stay as formulae. Check that the total charge is the same on both sides. For example, Ag⁺ (+1) and Cl⁻ (−1) together have a charge of 0, so the product AgCl is also neutral.\n\n**Half-equations at each electrode [H]**\n\nIn electrolysis, the cathode is the negative electrode. Reduction happens there: positive ions gain electrons, for example Cu²⁺(aq) + 2e⁻ → Cu(s).\n\nIn electrolysis, the anode is the positive electrode. Oxidation happens there: negative ions lose electrons, for example 2Cl⁻(aq) → Cl₂(g) + 2e⁻ in a concentrated solution. In a melt, the same equation applies, with Cl⁻(l). In a dilute chloride solution, the anode releases oxygen from the water instead.",
+        "body": "A net ionic equation leaves out spectator ions, which are unchanged on both sides. Write strong dissolved electrolytes as ions; solids, gases and weak electrolytes stay as formulae. Check that the total charge is the same on both sides. For example, Ag⁺ (+1) and Cl⁻ (−1) together have a charge of 0, so the product AgCl is also neutral.\n\n**Half-equations at each electrode [H]**\n\nThe examples below use inert electrodes.\n\nIn electrolysis, the cathode is the negative electrode. Reduction happens there: positive ions gain electrons, for example Cu²⁺(aq) + 2e⁻ → Cu(s).\n\nIn electrolysis, the anode is the positive electrode. Oxidation happens there: negative ions lose electrons, for example 2Cl⁻(aq) → Cl₂(g) + 2e⁻ in a concentrated solution. In a melt, the same equation applies, with Cl⁻(l). In a dilute chloride solution, the anode releases oxygen from the water instead.",
         "review": {
           "englishTerm": "Ionic equations",
           "russianTerm": "Ионные уравнения",
@@ -2229,7 +2229,7 @@
             "tip": "It suits titrations of a strong acid with a weak base. It is generally unsuitable for a weak acid with a strong base, because its colour change happens far below the equivalence pH.",
             "review": {
               "englishTerm": "Methyl orange (Extended)",
-              "russianTerm": "Метилоранж (Extended)",
+              "russianTerm": "Метилоранж [H]",
               "contrast": {
                 "en": "Orange is not a third form of methyl orange. It exists in a red form and a yellow form, and the orange colour is a mix of the two.",
                 "ru": "Оранжевый — не третья форма метилоранжа. Метилоранж существует в красной и жёлтой формах, а оранжевый цвет — это смесь обеих."

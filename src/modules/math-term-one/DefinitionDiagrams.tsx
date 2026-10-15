@@ -58,7 +58,7 @@ export function DefinitionDiagram({ kind, language = 'en' }: { kind: string; lan
         {[0, 2, 4, 6].map(n => <g key={n}><text x={60 + n * 35} y="310" textAnchor="middle">{n}</text><text x="43" y={290 - n * 35} textAnchor="end">{n}</text></g>)}
         <text x="285" y="310">x</text><text x="37" y="37">y</text><circle cx="200" cy="215" r="6" fill="#9e532f"/><text x="208" y="210">(4, 2)</text>
         <text x="340" y="70">{t('Constraints', 'Ограничения')}</text><text x="340" y="100">x ≥ 0, y ≥ 0</text><text x="340" y="125">x ≤ 4, x + y ≤ 6</text>
-        <text x="340" y="173">{t('Objective function: P = 3x + 2y', 'Целевая функция: P = 3x + 2y')}</text><text x="340" y="215">{t('Optimal choice: (4, 2)', 'Оптимальный набор: (4; 2)')}</text><text x="340" y="246">{t('Maximum value: 16', 'Максимум: 16')}</text>
+
         <text x="150" y="335" textAnchor="middle">{t('Dashed: 3x + 2y = 16', 'Пунктир: 3x + 2y = 16')}</text>
       </>}
       {kind === 'function' && <>
@@ -81,6 +81,10 @@ export function DefinitionDiagram({ kind, language = 'en' }: { kind: string; lan
         <text x="300" y="280">(2, −3)</text><text x="110" y="160">0</text><text x="117" y="267">−3</text><text x="278" y="160">2</text><text x="438" y="160">4</text><text x="302" y="47">x = 2</text><text x="495" y="164">x</text><text x="112" y="35">y</text><text x="145" y="130" textAnchor="end">2 − √3</text><text x="435" y="130">2 + √3</text>
       </>}
       </g>
-    </svg></div><figcaption>{captions[kind]}</figcaption>
+    </svg></div>{kind === 'optimisation' && <div className="mt-3 space-y-1 text-sm">
+      <p>{t('Objective function', 'Целевая функция')}: <span className="whitespace-nowrap">P = 3x + 2y</span></p>
+      <p>{t('Optimal choice: (4, 2)', 'Оптимальный набор: (4; 2)')}</p>
+      <p>{t('Maximum value: 16', 'Максимум: 16')}</p>
+    </div>}<figcaption>{captions[kind]}</figcaption>
   </figure>;
 }

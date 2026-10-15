@@ -25,7 +25,7 @@ export function EnergyProfile() {
   const peakX = (reactantsX + productsX) / 2;
 
   return (
-    <SimulationPanel description={t('simulations.energyProfile.description')}>
+    <SimulationPanel description={t('simulations.energyProfile.description').replace('|ΔH|', '|\u2060ΔH\u2060|')}>
       <div className="space-y-4">
         <Tabs
           tabs={[
@@ -64,7 +64,7 @@ export function EnergyProfile() {
 
           {/* ΔH arrow */}
           <line x1={productsX - 25} y1={reactantsY} x2={productsX - 25} y2={productsY} stroke="var(--color-accent-sage)" strokeWidth={1.5} />
-          <text x={productsX - 20} y={(reactantsY + productsY) / 2 + 4} fontSize={10} fill="var(--color-accent-sage)">
+          <text x={productsX - 35} y={(reactantsY + productsY) / 2 + 4} textAnchor="end" fontSize={10} fill="var(--color-accent-sage)">
             ΔH = {mode === 'exo' ? '−' : '+'}{deltaH} {unit}
           </text>
 

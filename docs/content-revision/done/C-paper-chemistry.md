@@ -14,3 +14,6 @@
 ## Source/editorial follow-up — 2026-10-15
 
 Reagent consumption is distinguished from dilution, interval rates from initial instantaneous rates, and the last measured gas volume from a proved final plateau. Catalyst wording avoids equal absolute rate changes. Questions, marks, IDs and training time are retained. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.
+
+
+- Дополнение 16.10.2026: Независимое ревью выявило ошибку соответствия условию: часть (b) спрашивает объёмы к 50 с, а ответ сравнивал значения 40 с. В EN/RU теперь указаны 60 и 50 см³ при 50 с; таблица, баллы и условия об отсутствии плато/конечном объёме сохранены. Повторная независимая проверка ожидается.

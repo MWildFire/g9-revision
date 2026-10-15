@@ -467,7 +467,7 @@
       },
       "analysis": {
         "title": "Data analysis",
-        "body": "Spearman's rank correlation coefficient (ρ) measures the direction and strength of a monotonic association between two variables, using ranks rather than the raw values. A monotonic association means that as one variable increases, the other consistently rises or consistently falls; the relationship does not have to be a straight line. For data with no tied ranks, ρ = 1 − (6Σd²) ÷ [n(n² − 1)], where d is the difference between the two ranks of each pair and n is the number of pairs. The value lies between −1 and +1; zero means no monotonic association, not necessarily no relationship at all. To test a hypothesis about association, compare the result with the null hypothesis of no association (ρ = 0); tied ranks and small samples need caution.",
+        "body": "Spearman’s rank correlation coefficient (ρ) measures the direction and strength of a tendency for larger values of one variable to accompany larger or smaller values of another, using ranks. The relationship need not be a straight line. For at least two pairs with no tied ranks, ρ = 1 − (6Σd²) ÷ [n(n² − 1)], where d is each pair’s rank difference and n is the number of pairs. When defined, the value is between −1 and +1. A sample value of zero does not prove that the population variables are unrelated. To assess evidence against a stated null hypothesis, use an appropriate significance test or critical value for the sample size and alternative; simply comparing the coefficient with zero is insufficient. With ties, calculate correlation between average ranks; if either variable is constant, the coefficient is undefined.",
         "review": {
           "englishTerm": "Spearman's rank correlation coefficient",
           "russianTerm": "Коэффициент ранговой корреляции Спирмена",
@@ -713,11 +713,11 @@
     "sections": {
       "bradshaw": {
         "title": "Bradshaw Model",
-        "description": "The Bradshaw model summarises common downstream trends: discharge, width, depth and mean velocity tend to increase, while gradient and typical sediment size tend to decrease. Downstream, the cross-sectional area (CSA) of the channel grows faster than the wetted perimeter, which is the length of bed and bank in contact with the water. As a result, the hydraulic radius (R = A/P, where A is the CSA in m² and P is the wetted perimeter in m) increases. R is measured in metres: for A = 4 m² and P = 8 m, R = 4 / 8 = 0.5 m. A channel with a larger hydraulic radius has a higher channel efficiency, because friction slows the water less. These are tendencies, not laws; geology, tributaries, dams and water abstraction can interrupt them. Slider values are illustrative, not measurements or predictions."
+        "description": "The Bradshaw model summarises common downstream trends: discharge, width, depth and mean velocity tend to increase, while gradient and typical sediment size tend to decrease. Downstream, the cross-sectional area (CSA) of the channel grows faster than the wetted perimeter, which is the length of bed and bank in contact with the water. As a result, the hydraulic radius (R = A/P, where A is the CSA in m² and P is the wetted perimeter in m) increases. R is measured in metres: for A = 4 m² and P = 8 m, R = 4 / 8 = 0.5 m. At comparable roughness and energy slope, a larger hydraulic radius generally allows faster mean flow. Radius alone does not determine velocity. These are tendencies, not laws; geology, tributaries, dams and water abstraction can interrupt them. Slider values are illustrative, not measurements or predictions."
       },
       "course": {
         "title": "River Course",
-        "description": "The upper, middle and lower course describe where a section lies along the river's long profile, a graph of the bed height from source to mouth. The gradient (the slope of the bed) is steep in the upper course, so the river erodes downwards and cuts a V-shaped valley. In the lower course the gradient is gentle, so the river slows down and deposits sediment. The base level is the lowest level to which a river can erode, usually sea level. If it falls, the river cuts deeper. Erosion, transport and deposition can all occur within each course; their balance varies with local conditions."
+        "description": "The upper, middle and lower course describe positions along a river’s long profile, a graph of bed height from source to mouth. Many rivers have a steeper upper course and gentler lower course. Downcutting can form a V-shaped valley upstream, but a gentler downstream gradient does not by itself mean slower flow: discharge, channel shape and roughness also matter. Deposition occurs where local flow can no longer carry its sediment load. Base level is the limit towards which a river can erode, ultimately sea level or a local lake or receiving river. A fall in base level can promote renewed downcutting. Erosion, transport and deposition can occur in every course."
       },
       "erosion": {
         "title": "Four types of erosion",
@@ -935,7 +935,7 @@
       },
       "drainageBasin": {
         "title": "Drainage basin",
-        "description": "A drainage basin (catchment) is the area that supplies water to a river through a common outlet. A drainage divide separates neighbouring basins. Some precipitation is intercepted by plants; the rest either soaks into the soil or runs over the surface. Water then reaches the river as throughflow, groundwater flow or surface runoff. Evaporation and transpiration return some water to the atmosphere, so less water reaches the river than falls as precipitation."
+        "description": "A drainage basin (catchment) is the area that supplies water to a river through a common outlet. A drainage divide separates neighbouring basins. Some precipitation is intercepted by plants; the rest either soaks into the soil or runs over the surface. Water then reaches the river as throughflow, groundwater flow or surface runoff. Evaporation and transpiration return water to the atmosphere. Over a period with little storage change and no net external water input, runoff is therefore less than precipitation. During an individual dry period, however, river flow can continue from water stored earlier in soil, groundwater, lakes or snow."
       },
       "hydrograph": {
         "title": "Storm hydrograph",
@@ -1058,7 +1058,7 @@
           },
           "deforestation": {
             "name": "Deforestation and runoff",
-            "rule": "Trees catch rain on their leaves and return water to the air through transpiration. When trees are removed, more rain reaches the ground and less water returns to the air. Soil squeezed by heavy machinery absorbs less water, so runoff increases and floods come more often.",
+            "rule": "Leaves intercept some rain, part of which evaporates directly. Trees also take up soil water and release it by transpiration. Removing woodland can reduce these losses; logging machinery may compact soil and restrict infiltration. These changes can increase rapid runoff, but the flood response depends on soils, forest type, catchment scale, season and storm size.",
             "examples": [
               "Ruts from logging machines on a forest track can turn the track into a channel that carries rainwater straight down the slope to a stream."
             ],
@@ -1087,7 +1087,7 @@
           },
           "urbanisation": {
             "name": "Urbanisation and runoff",
-            "rule": "Asphalt and concrete seal the surface of roads, car parks and roofs, so rain cannot soak into the ground. Storm drains then carry this water straight to rivers, so the river rises sooner and higher after each storm. Floods therefore become more frequent in towns than on land that still soaks up rain.",
+            "rule": "Impervious surfaces reduce infiltration. If storm drains carry the extra runoff rapidly into a river, its storm peak can arrive sooner and be higher than under otherwise comparable permeable conditions. The result also depends on rainfall, storage and drainage design, so it is not inevitable after every storm.",
             "examples": [
               "When a meadow beside a town is paved for a car park, rain that once soaked in now runs straight into storm drains, and the nearby river rises much faster."
             ],

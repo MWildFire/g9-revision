@@ -14,3 +14,7 @@
 - R03, правки по проверке (15.10.2026): 14 подтем statsProb получили EN/RU источники; тест требует непустые массивы и оба языка, для печатного учебника проверяет название и страницы. Уточнено вычисление стандартного отклонения. Проверка: 104 теста, build OK, lint 0 ошибок; render 12 просмотров EN/RU desktop/mobile — 0 failed. Открыто: полная сверка недоступных книг и RU-источников не заявлена; независимое ревью PR ожидается.
 
 - R03, источники statsProb:14/14 подтем, поEN/RU в обеих локалях. Oxford MYP Mathematics4&5 Standard(2021),название и страницы,безURL; stdDev/pieCharts — OpenStax Introductory Statistics2e§2.7/§1.2 как вторичный иРЭШRU. Ограничение: книгу не открывали; РЭШ недоступна, а часть общих RUссылок не подтверждает каждый специализированный метод. Записи страниц — указатель, не заявление о полном source-pass.
+
+## Source/editorial follow-up — 2026-10-15
+
+Histograms can represent grouped discrete as well as continuous numerical data. Quartiles/median inferred from grouped cumulative data are explicitly linear-interpolation estimates. Oxford primary-text passages were read in the source pass; full source coverage is still limited. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

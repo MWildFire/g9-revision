@@ -14,3 +14,7 @@
   5. RU-очередь: «Мнение (для письма)», «Рассуждение (для письма)», «Концовка эссе», «Сложное прошедшее время», «нереальное условие».
 
 - R03, правки по проверке (15.10.2026): Удалён повтор francophone в culture; русские термины и формулировки выровнены. Оспорено: нет. Проверка: 104 теста, build OK, lint 0 ошибок, render 20 просмотров EN/RU desktop/mobile — 0 failed. Открыто: прежние ограничения сверки по книгам; независимое ревью PR ожидается.
+
+## Source/editorial follow-up — 2026-10-15
+
+Subjunctive selection is distinguished from factual truth: an emotion can concern a real event. Formation/irregularity details are retained; the repeated trigger list is removed. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

@@ -9,3 +9,7 @@
 - открыто: (1) RU-источники не открыты (Фоксфорд, БРЭ, РЭШ); (2) EUROCONTROL и эвакуация — смягчены, полного подтверждения по PDF нет; (3) PDNA Vol. A — точные суммы не сверены по полному тексту; (4) `GLOSSARY.md` — новые термины батча (декомпрессионное плавление, коллизионная граница, магматическая камера (резервуар), побочное жерло, кальдера и др.) не внесены — отдельным коммитом; (5) Minor-список из review.md — в описании PR; (6) edits-файлы синхронизированы с текущим исходником (повторно `content:apply` не запускать без проверки)
 
 - R03, правки по проверке (15.10.2026): Точный прогноз отделён от вероятностной оценки; убраны метатекст чек-листа и кальки; русские названия разделов PDNA. Оспорено: нет. Проверка: 104 теста, build OK, lint 0 ошибок, render 32 просмотров EN/RU desktop/mobile — 0 failed. Открыто: прежние ограничения сверки по книгам; независимое ревью PR ожидается.
+
+## Source/editorial follow-up — 2026-10-15
+
+The Russian comparison prompt distinguishes immediate/long-term impacts, matching the English temporal distinction rather than substituting primary/secondary causation. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

@@ -9,3 +9,7 @@
 - открыто: ссылки РЭШ (уроки 29, 30, 31, 34) и БРЭ не открыты из среды — номера и названия уроков не сверены, поэтому ссылки нельзя считать проверенными до ручной сверки. Общий UI («Grade 10», обрезка выпадающего списка, склонение баллов) — для лида; перенос строк в ответе практики работает (`pre-line`).
 
 - R03, правки по проверке (15.10.2026): Уточнено атмосферное давление для сравнения температур кипения. Проверка: 104 теста, build OK, lint 0 ошибок; render 12 просмотров EN/RU desktop/mobile — 0 failed. Открыто: полная сверка недоступных книг и RU-источников не заявлена; независимое ревью PR ожидается.
+
+## Source/editorial follow-up — 2026-10-15
+
+The contrast now defines ionic bonding as electrostatic attraction, distinguishing it from ion formation. Methane boiling-point examples use approximately −161.5°C at atmospheric pressure (NIST normal boiling point111.65K). Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

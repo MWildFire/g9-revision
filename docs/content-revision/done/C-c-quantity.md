@@ -10,3 +10,7 @@
 - superseded (14.10): id `moleCalc.description`, `moleCalc.convertPrompt`, `moleCalc.presetLabel`, `moleCalc.stpNote` обновлены батчем C-chemistry-library; текущий текст — там. Старый батч не применять повторно.
 
 - R03, правки по проверке (15.10.2026): STP уточнено до 273,15 К; различие 100 и 101,325 кПа сохранено. Проверка: 104 теста, build OK, lint 0 ошибок; render 12 просмотров EN/RU desktop/mobile — 0 failed. Открыто: полная сверка недоступных книг и RU-источников не заявлена; независимое ревью PR ожидается.
+
+## Source/editorial follow-up — 2026-10-15
+
+Atom economy is the fraction of reactant mass incorporated into the desired product in the balanced equation, not a count of atoms. The percentage-yield distinction is retained. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

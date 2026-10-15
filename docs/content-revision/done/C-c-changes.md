@@ -8,3 +8,7 @@
 - открыто: MINOR-4 (значение 6,1 при 100 °C) оставлено по решению батча; блоки электролиза и ОВР с «(Extended)» оставлены, школьный статус ОВР и электролиза не подтверждён (вопрос Q11.1 в журнале батча); карточка ОВР остаётся в разделе вытеснения (Q6); CRITICAL-2 — см. выше.
 
 - R03, правки по проверке (15.10.2026): Правило активности ограничено разбавленными HCl/H₂SO₄; инертные электроды явно указаны; устранена двусмысленность про перенос электронов; базовый электролиз не помечен Extended, полуреакции остаются [H]; RU метки и баланс зарядов исправлены. Проверка: 104 теста, build OK, lint 0 ошибок; render 16 просмотров EN/RU desktop/mobile — 0 failed. Открыто: полная сверка недоступных книг и RU-источников не заявлена; независимое ревью PR ожидается.
+
+## Source/editorial follow-up — 2026-10-15
+
+The no-gas neutralisation statement is limited to acid/basic-metal-oxide or metal-hydroxide neutralisation. Metal/acid and carbonate/acid examples retain their distinct products and conditions. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

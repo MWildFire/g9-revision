@@ -19,3 +19,7 @@
 
 - R03, правки по проверке (15.10.2026): Удалены повторные contrast в than/then, comma, less/fewer, there/their/they’re; убрана пометка Original practice; исправлены кальки. Оспорено: Grade 9 сохранён по решению Q19.7; рекомендация R01 была условной. Проверка: 104 теста, build OK, lint 0 ошибок, render 32 просмотров EN/RU desktop/mobile — 0 failed. Открыто: прежние ограничения сверки по книгам; независимое ревью PR ожидается.
 - R03, правки по проверке (15.10.2026): Памятка A/B дополнена по IB: контекст, сопоставление, оформление, ссылки; официальное Organizing; ссылка на полные критерии. Проверка: 104 теста, build OK, lint 0 ошибок; render 32 просмотров EN/RU desktop/mobile — 0 failed. Открыто: полная сверка недоступных книг и RU-источников не заявлена; независимое ревью PR ожидается.
+
+## Source/editorial follow-up — 2026-10-15
+
+Academic analytical/argumentative essays are distinguished from personal/literary essays; the thesis/evidence/reasoning expectation is explicit. A five-paragraph scaffold is not the definition of the genre. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

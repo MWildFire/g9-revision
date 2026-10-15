@@ -12,3 +12,7 @@
 - superseded (14.10): id `energyProfile.title`, `energyProfile.exoSummary`, `energyProfile.endoSummary` обновлены батчем C-chemistry-library; текущий текст — там. Старый батч не применять повторно.
 
 - R03, правки по проверке (15.10.2026): Подпись ΔH внутри SVG в обоих режимах и языках; модуль |ΔH| защищён от разрыва строки. Проверка: 104 теста, build OK, lint 0 ошибок; render 12 просмотров EN/RU desktop/mobile — 0 failed. Открыто: полная сверка недоступных книг и RU-источников не заявлена; независимое ревью PR ожидается.
+
+## Source/editorial follow-up — 2026-10-15
+
+Calorimetry now distinguishes heat leaving a mixture warmer than its surroundings from heat entering a colder mixture. The cup/air heat exchange is an explicit limitation in both languages. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

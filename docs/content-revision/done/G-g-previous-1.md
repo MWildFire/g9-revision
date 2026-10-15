@@ -11,3 +11,7 @@
 - R03, правки по проверке (15.10.2026): Удалены повторы эрозии и ENSO; Q=Av и R=A/P дополнены единицами и расчётом; климатический список рендерится через RichText; подписи локализованы. Оспорено: Поле attrition.model сохранено только с уникальным уточнением научного употребления abrasion; школьное повторное определение удалено. В ENSO оставлено конкретное ограничение схемы по локальным осадкам, предусмотренное существующим тестом. Проверка: 104 теста, build OK, lint 0 ошибок, render 16 просмотров EN/RU desktop/mobile — 0 failed. Открыто: прежние ограничения сверки по книгам; независимое ревью PR ожидается.
 
 - R03, правки по проверке (15.10.2026, круг 2): убрана лишняя приставка Apply/Применение у уже помеченных заданий туризма; повторные определения не восстановлены.
+
+## Source/editorial follow-up — 2026-10-15
+
+Russian Boscastle responses now refer to debris brought by the flood and implemented flood-defence projects. The underlying case-specific source limitation remains open. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

@@ -887,8 +887,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Essay",
     "russianTerm": "Эссе",
     "contrast": {
-      "en": "Essay or news report: an essay gives the writer's own view on a topic in free composition; a news report is a factual account of an event.",
-      "ru": "Эссе или новостная заметка: эссе излагает авторское отношение к теме свободной композицией; новостная заметка — фактический отчёт о событии."
+      "en": "An analytical essay develops an interpretation or argument with evidence; a news report foregrounds verified facts about an event. Personal and literary essays may use a more flexible structure.",
+      "ru": "Аналитическое эссе развивает трактовку или позицию с опорой на доказательства; новостная заметка сообщает проверенные факты о событии. Литературное или личное эссе может иметь более свободную композицию."
     },
     "sources": [
       {

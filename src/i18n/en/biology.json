@@ -3821,7 +3821,7 @@
       "immuneSystem": {
         "en": "Immune system",
         "ru": "Иммунная система",
-        "def": "The immune system is the body’s defence against pathogens. It includes barriers such as skin, phagocytes that engulf pathogens, and lymphocytes that make specific antibodies or memory cells. Vaccination prepares immune memory before infection.",
+        "def": "The immune system is the body’s defence against pathogens. It includes barriers such as skin, phagocytes that engulf pathogens, and lymphocytes. Some lymphocytes produce specific antibodies; others become memory cells. Vaccination prepares immune memory before infection.",
         "review": {
           "englishTerm": "Immune system",
           "russianTerm": "Иммунная система",
@@ -4139,7 +4139,7 @@
       "activeTransport": {
         "en": "Active transport",
         "ru": "Активный транспорт",
-        "def": "Active transport moves substances through a membrane against their concentration difference, using energy from respiration. Root hair cells can absorb mineral ions from a dilute soil solution this way."
+        "def": "Active transport moves substances through a membrane against their concentration gradient, from lower to higher concentration, using energy from respiration. Root hair cells can absorb mineral ions from a dilute soil solution this way."
       },
       "enzyme": {
         "en": "Enzyme",

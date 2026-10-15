@@ -130,8 +130,8 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     "englishTerm": "Discharge and velocity",
     "russianTerm": "Расход и скорость течения",
     "contrast": {
-      "en": "Q = A × mean velocity. Discharge is volume per time (m³/s); velocity is distance per time (m/s).",
-      "ru": "Q = A × средняя скорость. Расход — объём воды за единицу времени (м³/с); скорость — путь за единицу времени (м/с)."
+      "en": "Flow velocity describes how quickly water moves; discharge describes how much water passes a cross-section each second.",
+      "ru": "Скорость течения показывает, как быстро движется вода, а расход — какой объём проходит через сечение за секунду."
     },
     "sources": [
       {

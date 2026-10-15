@@ -1,3 +1,4 @@
+import { RichText } from '../../../components/content/RichText';
 import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { geographyReviews } from '../../../definitions/geographyReviews';
 import { useTranslation } from 'react-i18next';
@@ -110,7 +111,7 @@ export function AtmosphericHazardsPage() {
       <DefinitionSupport review={geographyReviews.bigDry} />
       <SectionHeading>{t('atmosphericHazards.sections.climateChange.title')}</SectionHeading>
       <div className="bg-bg-secondary border border-border rounded-md p-4 space-y-2 text-sm">
-        <p><strong>Evidence: </strong>{t('atmosphericHazards.sections.climateChange.evidence')}</p>
+        <div><strong>{l('Evidence', 'Доказательства')}</strong><RichText text={t('atmosphericHazards.sections.climateChange.evidence')} /></div>
         <p>{t('atmosphericHazards.sections.climateChange.mitigation')}</p>
         <p>{t('atmosphericHazards.sections.climateChange.adaptation')}</p>
       </div>

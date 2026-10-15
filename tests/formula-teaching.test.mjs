@@ -29,3 +29,8 @@ test('concentration gradients do not place a line equation, while graph gradient
   assert.ok(findFormulaTeaching(text,'biology').some(f=>f.id==='line'),text);
  assert.ok(findFormulaTeaching('gradient','math').some(f=>f.id==='line'));
 });
+test('physics paper B keeps its English straight-region graph match',()=>{
+ const {papers}=loadTs('src/modules/november/papers.ts');
+ const question=papers.find(p=>p.id==='physics').questions.find(q=>q.id==='phy-B');
+ assert.ok(findFormulaTeaching(question.answer.en,'physics').some(f=>f.id==='line'));
+});

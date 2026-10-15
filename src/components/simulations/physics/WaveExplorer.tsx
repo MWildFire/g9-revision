@@ -58,8 +58,9 @@ export function WaveExplorer() {
               onChange={(id) => setType(id as 'transverse' | 'longitudinal')}
             />
             <Formula caption={t('wavesOptics.sim1.speed')}>
-              <span style={{ whiteSpace: 'nowrap' }}>v = {ru ? 'ν' : 'f'} × λ = {n(frequency, 1)} × {n(wavelength / 100, 2)} =</span>{' '}
-              <span className="text-accent-warm">{n(v, 2)} {ru ? 'м/с' : 'm/s'}</span>
+              <span className="inline-block">v = {ru ? 'ν' : 'f'} × λ</span>{' '}
+              <span className="inline-block">= {n(frequency, 1)} × {n(wavelength / 100, 2)}</span>{' '}
+              <span className="inline-block text-accent-warm">= {n(v, 2)} {ru ? 'м/с' : 'm/s'}</span>
             </Formula>
           </div>
         </div>

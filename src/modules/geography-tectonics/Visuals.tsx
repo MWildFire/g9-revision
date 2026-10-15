@@ -17,10 +17,10 @@ export function TectonicVisual({ kind, fixed = false, showHint = true, variant =
   const selected = isBoundary ? fixed ? kind as Boundary : boundary : kind; if (variant === 'forms' && kind === 'volcano') return <VolcanoForms />;
   const labels: Record<Visual, string> = {
     earth: t('Inside Earth', 'Внутреннее строение Земли'),
-    constructive: t('Divergent / constructive', 'Дивергентная граница (конструктивная)'),
+    constructive: t('Divergent / constructive', 'Дивергентная граница (зона расхождения плит)'),
     subduction: t('Convergent / subduction', 'Конвергентная граница (субдукция)'),
-    collision: t('Continental collision', 'Коллизионная граница (континентов)'),
-    conservative: t('Transform / conservative', 'Трансформная граница (консервативная)'),
+    collision: t('Continental collision', 'Коллизионная граница (столкновение материков)'),
+    conservative: t('Transform / conservative', 'Трансформная граница (плиты скользят вдоль)'),
     earthquake: t('From a fault to surface shaking', 'От разлома к сотрясению поверхности'),
     volcano: t('Volcano anatomy and hazard pathways', 'Строение вулкана и пути распространения опасностей'),
     risk: t('Why the same hazard can have different impacts', 'Почему одна опасность приводит к разным последствиям'),

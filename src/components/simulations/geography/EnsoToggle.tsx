@@ -25,6 +25,6 @@ export function EnsoToggle() {
       <text x="490" y="229" textAnchor="end" fontSize="12" fill="currentColor">{l('East · South America','Восток · Южная Америка')}</text>
     </svg></div>
     <p className="text-sm">{weakened ? l('Warm water extends farther east; eastern upwelling is reduced.', 'Тёплая вода распространяется дальше на восток; апвеллинг на востоке ослабевает.') : l('Trade winds help accumulate warm water in the west; cooler water rises in the eastern Pacific.', 'Пассаты способствуют накоплению тёплой воды на западе; на востоке Тихого океана поднимаются более холодные воды.')}</p>
-    <p className="text-sm text-text-muted">{l('Schematic, not to scale. ENSO changes the probabilities of rainfall and temperature patterns; season and event strength matter. A phase does not guarantee a particular flood or drought.', 'Схема без масштаба. ЭНЮК изменяет вероятности режимов осадков и температуры; важны сезон и сила события. Фаза не гарантирует конкретного наводнения или засухи.')}</p>
+    <p className="text-sm text-text-muted">{l('Schematic, not to scale. ENSO changes the probabilities of rainfall and temperature patterns; season and event strength matter. This schematic does not guarantee rainfall amounts at a particular location.', 'Схема без масштаба. ЭНЮК изменяет вероятности режимов осадков и температуры; важны сезон и сила события. По этой схеме нельзя точно определить количество осадков в конкретном месте.')}</p>
   <DefinitionSupport review={geographyReviews.enso} /></SimulationPanel>;
 }

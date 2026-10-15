@@ -5,8 +5,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Arabic script and joining",
     "russianTerm": "Арабское письмо и соединение букв",
     "contrast": {
-      "en": "Right-to-left describes the direction of the text, not of the digits: in ٢٠٢٦ the highest place value is on the left, so the number reads 2026.",
-      "ru": "Направление справа налево относится к тексту, но не к цифрам: в ٢٠٢٦ старший разряд стоит слева, и число читается как 2026."
+      "en": "Right-to-left describes the direction of the text, not of the digits.",
+      "ru": "Направление справа налево относится к тексту, но не к цифрам."
     },
     "sources": [
       {
@@ -22,7 +22,7 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "russianTerm": "Определённый артикль и ассимиляция",
     "contrast": {
       "en": "Before a sun letter the written ل stays but is not pronounced: الشَّمْس is read ash-shams, with the sun letter doubled. Before a moon letter, ل is pronounced, as in القَمَر (al-qamar).",
-      "ru": "Перед солнечной буквой ل на письме остаётся, но не произносится: الشَّمْس читается ash-shams, а солнечная буква удваивается. Перед лунной буквой ل произносится: القَمَر (al-qamar)."
+      "ru": "Перед солнечной буквой лам артикля (ل в ال) на письме остаётся, но не произносится: الشَّمْس читается ash-shams, а солнечная буква удваивается. Перед лунной буквой лам артикля (ل в ال) произносится: القَمَر (al-qamar)."
     },
     "sources": [
       {
@@ -107,10 +107,6 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
   "pronouns": {
     "englishTerm": "Personal pronouns and finite forms",
     "russianTerm": "Личные местоимения и личные формы",
-    "contrast": {
-      "en": "أَدْرُس means 'I study' and يَدْرُس means 'he studies': these are finite verb forms, not infinitives or commands. The prefix shows the person, so the subject pronoun أَنا can be left out.",
-      "ru": "أَدْرُس — «я учусь», يَدْرُس — «он учится»: это личные формы глагола, а не инфинитив и не приказ. Приставка показывает лицо, поэтому местоимение أَنا можно опустить."
-    },
     "sources": [
       {
         "title": "Madinah Arabic — Lesson 23",
@@ -169,8 +165,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Iḍāfa: noun–noun construction",
     "russianTerm": "Идафа: именная конструкция",
     "contrast": {
-      "en": "The first noun of an iḍāfa takes neither al- nor tanwīn; definiteness comes from the last noun, as in كِتابُ المُعَلِّمِ, 'the teacher's book'.",
-      "ru": "Первое слово идафы не получает ال и танвин, а определённость задаёт последнее: كِتابُ المُعَلِّمِ — «книга учителя», а كِتابُ مُعَلِّمٍ — «книга какого-то учителя»."
+      "en": "Do not put al- or tanwīn on the first noun of an iḍāfa: write كِتابُ المُعَلِّمِ, not الكِتابُ المُعَلِّمِ.",
+      "ru": "Не ставь ал- и танвин на первое слово идафы: пиши كِتابُ المُعَلِّمِ, а не الكِتابُ المُعَلِّمِ."
     },
     "sources": [
       {
@@ -312,7 +308,7 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     ],
     "model": {
       "en": "The I–X templates come from Classical Arabic and are also used in standard descriptions of Modern Standard Arabic; learn each actual verb’s meaning rather than deriving it mechanically from a pattern.",
-      "ru": "Модели I–X пришли из классического арабского и используются и в описаниях современного литературного арабского; значение каждого глагола нужно изучать, а не механически выводить из модели."
+      "ru": "Модели I–X пришли из классического арабского и применяются в описаниях современного литературного арабского; значение каждого глагола нужно изучать, а не механически выводить из модели."
     }
   },
   "numerals": {
@@ -390,7 +386,7 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "russianTerm": "Левантийский арабский",
     "contrast": {
       "en": "Levantine covers urban and rural varieties in Syria, Lebanon, Jordan and Palestine, so it is a group rather than one accent. Historical q is not pronounced the same way in all of them: some varieties make it a glottal stop, while others keep or change it differently.",
-      "ru": "Левантийский объединяет городские и сельские разновидности Сирии, Ливана, Иордании и Палестины, поэтому это группа, а не один говор. Историческое q произносится в них неодинаково: в одних разновидностях оно становится гортанной смычкой, в других сохраняется или меняется иначе."
+      "ru": "Левантийский объединяет городские и сельские разновидности Сирии, Ливана, Иордании и Палестины, поэтому это группа, а не один говор. Историческое ق (q) произносится в них неодинаково: в одних разновидностях оно становится гортанной смычкой, в других сохраняется или меняется иначе."
     },
     "sources": [
       {
@@ -406,7 +402,7 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "russianTerm": "Арабский Персидского залива",
     "contrast": {
       "en": "Gulf Arabic (Khaleeji) is a regional label rather than one uniform variety. It does not mean that all speakers use the same pronunciation, vocabulary or grammar, so learn the variety relevant to your conversations.",
-      "ru": "Арабский Залива (халиджи) — региональное название, а не одна однородная разновидность. Оно не значит, что все говорящие одинаково произносят слова, выбирают лексику и строят фразы: учи ту разновидность, которая нужна для твоих разговоров."
+      "ru": "Арабский Персидского залива (халиджи) — региональное название, а не одна однородная разновидность. Оно не значит, что все говорящие одинаково произносят слова, выбирают лексику и строят фразы: учи ту разновидность, которая нужна для твоих разговоров."
     },
     "sources": [
       {

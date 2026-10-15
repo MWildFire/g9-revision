@@ -90,7 +90,15 @@ export function TourismPage() {
       <div className="space-y-3">
         {OTHER_TYPES.map((id) => {
           const item = t(`tourism.sections.otherTypes.detailed.${id}`, { returnObjects: true }) as DetailedItem;
-          return <DetailedCard key={`o-${id}`} item={item} borderColor="var(--color-accent-sky)" labels={labels} />;
+          const practiceItem: DetailedItem = {
+            ...item,
+            name: `${l('Apply', 'Применение')}: ${item.name}`,
+            body: item.rule,
+            rule: undefined,
+            watchOut: item.review?.contrast?.[lang] ?? item.watchOut,
+            review: undefined,
+          };
+          return <DetailedCard key={`o-${id}`} item={practiceItem} borderColor="var(--color-accent-sky)" labels={labels} />;
         })}
       </div>
 

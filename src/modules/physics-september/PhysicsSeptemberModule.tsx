@@ -142,7 +142,7 @@ function QuestionCard({
           {t("Question", "Задача")} {number} · {q.strand}
         </span>
         <span>
-          {q.marking.length} {t("marks", "балла")}
+          {q.marking.length} {t("marks", "балл.")}
         </span>
       </div>
       <Text value={q.prompt} />
@@ -194,11 +194,11 @@ function Overview({ store }: { store: Store }) {
       <section className="nuclear-hero">
         <div>
           <p className="nuclear-eyebrow">{t("GRADE 10 · IB MYP · CRITERION A", "10 класс · IB MYP · Критерий A")}</p>
-          <h1>{t("Physics. September 2026.", "Физика. Сентябрь 2026.")}</h1>
+          <h1>{t("Atomic and nuclear physics", "Атомная и ядерная физика")}</h1>
           <p>
             {t(
-              "From the atom to nuclear energy. A dedicated preparation pack for the topic list supplied on 29 September.",
-              "От атома до ядерной энергии. Отдельная подготовка по списку тем, переданному 29 сентября.",
+              "From atomic structure to nuclear energy: explanations, models, worked examples and practice.",
+              "От строения атома до ядерной энергии: объяснения, модели, разобранные примеры и задачи.",
             )}
           </p>
           <div className="nuclear-actions">
@@ -219,7 +219,7 @@ function Overview({ store }: { store: Store }) {
       <div className="nuclear-metrics">
         <span>
           <strong>12</strong>
-          {t("topics from the photo", "тем с фотографии")}
+          {t("topics", "тем")}
         </span>
         <span>
           <strong>24</strong>
@@ -246,8 +246,8 @@ function Overview({ store }: { store: Store }) {
         </p>
         <p className="nuclear-caption">
           {t(
-            "Scope: all 12 bullets in the supplied Atomic structure overview. September is the pack label, not an invented exam date. Original practice, not an official IB paper or a guarantee of the school’s questions. HT labels on the slide do not exclude fission or fusion here.",
-            "Охват: все 12 пунктов переданного обзора по теме «Атомная структура» (Atomic structure). Сентябрь — название подготовки, не придуманная дата работы. Задания авторские: это не официальный вариант IB и не обещание школьных вопросов. Пометка HT на слайде не исключает деление и синтез из этого раздела.",
+            "Work through atomic structure and isotopes first, then radiation, decay and nuclear energy. These practice questions help you apply ideas and explain your reasoning.",
+            "Сначала разбери строение атома и изотопы. Затем переходи к излучению, распаду и ядерной энергии. Задачи помогут применить знания и обосновать решение.",
           )}
         </p>
       </section>
@@ -298,7 +298,7 @@ function Overview({ store }: { store: Store }) {
           <li>
             {t(
               "Application: lessons 7 and 10–12. Justify choices using a property, evidence and a limitation.",
-              "Применение: темы 7 и 10–12. Обосновывай выбор свойством, данными и ограничением.",
+              "Применение: темы 7 и 10–12. Обоснуй выбор свойствами источника и данными задачи. Укажи, чего недостаточно для окончательного вывода.",
             )}
           </li>
           <li>
@@ -327,8 +327,8 @@ function Overview({ store }: { store: Store }) {
       </div>
       <p className="nuclear-caption">
         {t(
-          "Answers and completion ticks are saved in this browser only. They do not sync across devices, and a completion tick is not proof of mastery.",
-          "Ответы и отметки сохраняются только в этом браузере. Между устройствами они не синхронизируются; отметка не доказывает освоение темы.",
+          "Your answers and completion ticks are saved in this browser. Use the hub’s progress export and import to transfer them to another device. A tick records your self-check; it does not assess understanding.",
+          "Ответы и отметки сохраняются в этом браузере. Для переноса на другое устройство используй экспорт и импорт прогресса в учебном центре. Отметка фиксирует самопроверку, но не оценивает понимание.",
         )}
       </p>
     </>
@@ -396,7 +396,7 @@ function LessonPage({ store }: { store: Store }) {
         ))}
       </section>
       <section className="nuclear-pitfalls">
-        <h2>{t("Mistakes to catch", "Проверь эти ошибки")}</h2>
+        <h2>{t("Mistakes to catch", "Типичные ошибки")}</h2>
         <ul>
           {lesson.pitfalls.map((p, i) => (
             <li key={i}>{txt(p)}</li>
@@ -455,7 +455,7 @@ function Practice({ store }: { store: Store }) {
   );
   return (
     <>
-      <p className="nuclear-eyebrow">{t("CRITERION A · QUESTION BANK", "Критерий A · Банк вопросов")}</p>
+      <p className="nuclear-eyebrow">{t("CRITERION A · QUESTION BANK", "Критерий A · Банк задач")}</p>
       <h1>
         {t("Practice, one skill at a time", "Практика по отдельным навыкам")}
       </h1>
@@ -488,7 +488,7 @@ function Practice({ store }: { store: Store }) {
             value={strand}
             onChange={(e) => setStrand(e.target.value)}
           >
-            <option value="all">{t("All strands", "Все компоненты")}</option>
+            <option value="all">{t("All skills", "Все навыки")}</option>
             {["A(i)", "A(ii)", "A(iii)"].map((s) => (
               <option key={s}>{s}</option>
             ))}
@@ -555,19 +555,19 @@ function PaperPage({ store, id }: { store: Store; id: string }) {
   }, [deadline]);
   return (
     <div className="nuclear-paper">
-      <p className="nuclear-eyebrow">{t("ORIGINAL PRACTICE · CRITERION A", "Оригинальная практика · Критерий A")}</p>
+      <p className="nuclear-eyebrow">{t("PRACTICE PAPER · CRITERION A", "Тренировочная работа · Критерий A")}</p>
       <h1>{txt(paper.title)}</h1>
       <p className="nuclear-lead">
         {t(
-          "8 questions · 40 marks · 50 minutes suggested. Calculator allowed for this practice. Show working, units and reasoning. The school’s time, tools and mark scheme may differ.",
-          "8 задач · 40 баллов · рекомендуем 50 минут. В этой тренировке можно использовать калькулятор. Показывай действия, единицы и объяснения. Время, инструменты и оценивание школы могут отличаться.",
+          "8 questions · 40 marks · suggested time: 50 minutes. You may use a calculator. Show your working, units and reasoning.",
+          "8 задач · 40 баллов · рекомендуемое время: 50 минут. Можно пользоваться калькулятором. Записывай вычисления, единицы измерения и объяснения.",
         )}
       </p>
       <div className="nuclear-note">
         <p>
           {t(
-            "This is an independent practice paper. Tick the points you earned after checking; there is no automatic conversion to an IB 1–8 level. A teacher judges criterion achievement using the school rubric.",
-            "Это самостоятельная тренировка. После проверки отмечай выполненные пункты; автоматического перевода в уровень IB 1–8 нет. Достижение критерия оценивает учитель по школьным дескрипторам.",
+            "After checking your answers, tick each marking point you earned. Practice marks do not convert directly to an IB level from 1 to 8.",
+            "После проверки ответов отметь каждый выполненный пункт. Тренировочные баллы не переводятся напрямую в уровень IB от 1 до 8.",
           )}
         </p>
       </div>
@@ -654,7 +654,7 @@ function Reference() {
   const { t, txt } = useText();
   return (
     <>
-      <p className="nuclear-eyebrow">QUICK REFERENCE</p>
+      <p className="nuclear-eyebrow">{t("QUICK REFERENCE", "Краткий справочник")}</p>
       <h1>
         {t(
           "Formulas, language and criterion A",
@@ -669,13 +669,13 @@ function Reference() {
           <li>
             {t(
               "A(i) — accurate definitions and linked scientific explanations.",
-              "A(i) — точные определения и связанные физические объяснения.",
+              "A(i) — точные определения и объяснения с указанием причин и следствий.",
             )}
           </li>
           <li>
             {t(
               "A(ii) — choose a suitable relationship, apply it even in a new context, and check units and reasonableness.",
-              "A(ii) — выбери подходящую зависимость, примени её в новом контексте, проверь единицы и смысл.",
+              "A(ii) — выбери подходящую зависимость и примени её в новой задаче. Проверь единицы и правдоподобие результата.",
             )}
           </li>
           <li>
@@ -715,7 +715,7 @@ function Reference() {
               <tr>
                 <th>{t("Type", "Вид")}</th>
                 <th>{t("Nature / charge", "Природа / заряд")}</th>
-                <th>{t("Typical penetration", "Типичное проникновение")}</th>
+                <th>{t("Typical penetration", "Проникающая способность")}</th>
                 <th>{t("Ionisation", "Ионизация")}</th>
               </tr>
             </thead>
@@ -738,8 +738,8 @@ function Reference() {
                 <td>{t("Electron; −1", "Электрон; −1")}</td>
                 <td>
                   {t(
-                    "Typically stopped by mm of aluminium/plastic",
-                    "Обычно задерживается мм алюминия/пластика",
+                    "Typically stopped by a few millimetres of aluminium or plastic",
+                    "Обычно задерживается несколькими миллиметрами алюминия или пластика",
                   )}
                 </td>
                 <td>
@@ -751,8 +751,8 @@ function Reference() {
                 <td>{t("Photon; 0", "Фотон; 0")}</td>
                 <td>
                   {t(
-                    "Attenuated by thick lead/concrete",
-                    "Ослабляется толстым свинцом/бетоном",
+                    "Attenuated by thick lead or concrete",
+                    "Ослабляется толстым слоем свинца или бетона",
                   )}
                 </td>
                 <td>
@@ -767,17 +767,17 @@ function Reference() {
         </div>
         <p className="nuclear-caption">
           {t(
-            "Energy and material affect ranges. Danger depends on dose and exposure route, not one ranking.",
-            "Энергия и материал влияют на пробег. Опасность зависит от дозы и пути воздействия, не от одного рейтинга.",
+            "Penetration depends on radiation energy and the absorbing material. Risk also depends on dose and whether the source is inside or outside the body.",
+            "Проникающая способность зависит от энергии излучения и материала поглотителя. Риск также зависит от дозы и от того, находится ли источник внутри или снаружи тела.",
           )}
         </p>
       </section>
       <section className="nuclear-reference-section">
         <h2>
-          {t("Command terms: how to respond", "Командные слова: как отвечать")}
+          {t("Command terms: how to respond", "Слова в задании: что требуется в ответе")}
         </h2>
         <p>
-          {t("Study paraphrases; read the full task to judge the required detail. ", "Учебные пояснения: нужная подробность зависит от полного задания. ")}
+          {t("Use the command term to decide what your answer needs. Read the whole question before responding.", "Слово в начале задания подсказывает, что требуется в ответе. Перед решением прочитай вопрос целиком.")}
           <a href={commandTermSource.url} target="_blank" rel="noreferrer">
             {t("IB MYP command glossary, Appendix 3, pp.108–110 (2014)", "Словарь команд IB MYP, приложение 3, с.108–110 (2014)")}
           </a>
@@ -804,11 +804,11 @@ function Reference() {
         </div>
       </section>
       <section className="nuclear-reference-section">
-        <h2>{t("Sources and scope", "Источники и границы")}</h2>
+        <h2>{t("Further reading", "Дополнительное чтение")}</h2>
         <p>
           {t(
-            "Topic selection comes from a supplied topic overview (29 September 2026). All explanations, examples, diagrams and questions in this pack were newly authored. The photograph and third-party question papers are not republished. Definitions and source sections were reviewed on 6 October 2026. Russian explanations are authored paraphrases, not quotations or publisher translations.",
-            "Темы взяты из переданного обзора (29 сентября 2026). Объяснения, примеры, схемы и задачи этого раздела написаны заново. Фотография и чужие экзаменационные варианты не переопубликованы. Определения и разделы источников проверены 6 октября 2026. Русские объяснения написаны самостоятельно: это не цитаты и не издательские переводы.",
+            "Use these references to explore atomic structure, radiation and nuclear energy in more detail. The lessons provide explanations and worked examples; the question bank lets you check your understanding.",
+            "По этим источникам можно подробнее изучить строение атома, излучение и ядерную энергию. В уроках есть объяснения и разобранные примеры, а в банке задач — задания для самопроверки.",
           )}
         </p>
         <ul>
@@ -842,8 +842,8 @@ export function PhysicsSeptemberModule() {
   ];
   useEffect(() => {
     document.title = t(
-      "Physics · September 2026 | MYP Revision",
-      "Физика · сентябрь 2026 | MYP Revision",
+      "Atomic and nuclear physics | MYP Revision",
+      "Атомная и ядерная физика | MYP Revision",
     );
     return () => {
       document.title = "MYP Revision Hub";
@@ -852,11 +852,11 @@ export function PhysicsSeptemberModule() {
   return (
     <div className="nuclear-course">
       <div className="nuclear-course-top">
-        <Link to="/">← {t("Study hub", "Учебный хаб")}</Link>
+        <Link to="/">← {t("Study hub", "Учебный центр")}</Link>
         <span>
           {t(
-            "September physics · a separate assessment pack",
-            "Сентябрьская физика · отдельная подготовка",
+            "Atomic and nuclear physics · study and practice",
+            "Атомная и ядерная физика · теория и практика",
           )}
         </span>
       </div>

@@ -57,8 +57,8 @@ export const VOCAB_THEMES: VocabTheme[] = [
       },
       {
         "fr": "excusez-moi",
-        "en": "excuse me (excusez-moi; polite singular or plural address)",
-        "ru": "извините (excusez-moi; вежливое обращение к одному человеку или ко многим)"
+        "en": "excuse me (excusez-moi)",
+        "ru": "извините (excusez-moi)"
       },
       {
         "fr": "pardon",
@@ -596,7 +596,7 @@ export const GRAMMAR_RULES: GrammarRule[] = [
     "titleEn": "Plurals",
     "titleRu": "Множественное число",
     "body": "Most nouns add a written -s: livre → livres. Words already ending in -s, -x or -z normally stay unchanged. Many -eau/-eu nouns add -x and many -al nouns change to -aux, with exceptions: pneus, bals. Final plural letters are usually silent, but liaison can reveal number.",
-    "bodyRu": "Большинство существительных добавляет на письме -s: livre → livres. Слова на -s, -x, -z обычно не меняются. Многие слова на -eau/-eu получают -x, на -al — -aux, но есть исключения: pneus, bals. Конечные буквы, показывающие множественное число, обычно не читаются, но связывание (liaison) может выдать число."
+    "bodyRu": "Большинство существительных добавляет на письме -s: livre → livres. Слова на -s, -x, -z обычно не меняются. Многие слова на -eau/-eu получают -x, на -al — -aux, но есть исключения: pneus, bals. Конечные буквы, показывающие множественное число, обычно не читаются, но связывание (liaison) может подсказать число."
   },
   {
     "id": "adjectives",
@@ -669,13 +669,13 @@ export const USEFUL_PHRASES: UsefulPhrase[] = [
     "context": "Classroom"
   },
   {
-    "fr": "Pouvez-vous répéter?",
+    "fr": "Pouvez-vous répéter ?",
     "en": "Could you repeat that? (polite, or to more than one person)",
     "ru": "Не могли бы вы повторить? (вежливо / к нескольким людям)",
     "context": "Classroom"
   },
   {
-    "fr": "Qu'est-ce que ça veut dire?",
+    "fr": "Qu'est-ce que ça veut dire ?",
     "en": "What does that mean?",
     "ru": "Что это значит?",
     "context": "Classroom"

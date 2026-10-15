@@ -16,7 +16,7 @@ function TenseSection({ title, tables, lang }: { title: string; tables: Conjugat
               {c.verb} {lang === 'ru' ? <span className="text-text-muted text-sm">— {c.ru}</span> : null}
             </h3>
             {c.notes ? <p className="text-xs text-text-secondary mb-2 italic">{lang === 'ru' ? c.notesRu ?? c.notes : c.notes}</p> : null}
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-1 font-mono text-sm">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-4 gap-y-1 font-mono text-sm">
               {c.forms.map((f, i) => (<span key={i}>{f}</span>))}
             </div>
           </article>
@@ -34,7 +34,7 @@ export function TensesPage() {
     <div>
       <TopicHero
         title={t('nav.tenses')}
-        intro={lang === 'ru' ? 'Основные времена: настоящее, сложное прошедшее (passé composé), простое будущее (futur simple), ближайшее будущее, имперфект, условное наклонение и давнопрошедшее.' : 'Main tenses: present, passé composé, futur simple, futur proche, imparfait, conditionnel présent and plus-que-parfait.'}
+        intro={lang === 'ru' ? 'Основные времена: настоящее, сложное прошедшее (passé composé), простое будущее (futur simple), ближайшее будущее (futur proche), имперфект (imparfait), условное наклонение (conditionnel présent) и давнопрошедшее (plus-que-parfait).' : 'Main tenses: present, passé composé, futur simple, futur proche, imparfait, conditionnel présent and plus-que-parfait.'}
         icon={<Clock size={28} />}
       />
       <TenseSection title={lang === 'ru' ? 'Présent (Настоящее)' : 'Présent (Present)'} tables={PRESENT_TENSE} lang={lang} />

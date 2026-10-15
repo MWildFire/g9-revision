@@ -27,7 +27,7 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "russianTerm": "Мантия",
     "contrast": {
       "en": "Imagine modelling clay: if you tap it, it keeps its shape, but if you press it slowly for a long time, it changes shape. Mantle rock behaves in a similar way, but it is much hotter, so over geological time it deforms and flows while remaining solid.",
-      "ru": "Представь пластилин для лепки: если быстро ударить по нему, он сохранит форму, а если долго и медленно давить, постепенно изменит её. Породы мантии ведут себя похоже, но они намного горячее, поэтому в геологическом масштабе времени деформируются и текут, оставаясь твёрдыми."
+      "ru": "Представь пластилин для лепки: если быстро постучать по нему, он сохранит форму, а если долго и медленно давить, постепенно изменит её. Породы мантии ведут себя похоже, но они намного горячее, поэтому в геологическом масштабе времени деформируются и текут, оставаясь твёрдыми."
     },
     "sources": [
       {
@@ -294,7 +294,7 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "visual": {
       "kind": "comparison",
       "title": {
-        "en": "Why one earthquake is felt differently at two sites?",
+        "en": "Why is one earthquake felt differently at two sites?",
         "ru": "Почему одно землетрясение ощущается по-разному в двух местах?"
       },
       "items": [
@@ -330,8 +330,8 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
         }
       ],
       "caption": {
-        "en": "Site A and site B differ because of local ground and distance; the magnitude is the same for both.",
-        "ru": "Точки A и B различаются из-за местного грунта и расстояния, а магнитуда для них одна."
+        "en": "Sites A and B: one magnitude, different shaking.",
+        "ru": "Точки A и B: одна магнитуда, разное сотрясение."
       }
     }
   },
@@ -632,7 +632,7 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "russianTerm": "Природная опасность, подверженность и уязвимость",
     "contrast": {
       "en": "Two cities can be hit by the same earthquake. In one, most buildings follow strict seismic codes and emergency services are well prepared; in the other, many buildings are older and weakly built. The losses differ greatly even though the hazard is identical: the cities differ in how many people and buildings are in harm's way, how weak those buildings are and how fast help arrives.",
-      "ru": "Два города могут пострадать от одного и того же землетрясения. В одном большинство зданий построено по строгим нормам сейсмостойкости, а службы спасения хорошо подготовлены; в другом много старых зданий, построенных непрочно. Потери сильно различаются, хотя природная опасность одна. Города отличаются числом людей и построек в зоне действия природной опасности, прочностью зданий и скоростью прихода помощи."
+      "ru": "Два города могут пострадать от одного и того же землетрясения. В одном большинство зданий построено по строгим нормам сейсмостойкости, а службы спасения хорошо подготовлены; в другом много старых и слабо построенных зданий. Потери сильно различаются, хотя природная опасность одна. Города отличаются числом людей и построек в зоне действия природной опасности, прочностью зданий и скоростью прихода помощи."
     },
     "sources": [
       {

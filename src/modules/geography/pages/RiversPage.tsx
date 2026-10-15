@@ -95,13 +95,13 @@ export function RiversPage() {
       <SectionHeading>{t('rivers.sections.boscastle.title')}</SectionHeading>
       <div className="bg-bg-secondary border border-border rounded-md p-4 mb-4">
         <p className="text-sm text-text-secondary mb-3">{t('rivers.sections.boscastle.summary')}</p>
-        <h4 className="text-sm font-medium uppercase tracking-wider text-text-muted mt-3 mb-2">SEEP impacts</h4>
+        <h4 className="text-sm font-medium uppercase tracking-wider text-text-muted mt-3 mb-2">{l('SEEP impacts', 'Последствия (SEEP)')}</h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
           {['social', 'economic', 'environmental', 'political'].map((k) => (
             <div key={k}>· {t(`rivers.sections.boscastle.seep.${k}`)}</div>
           ))}
         </div>
-        <h4 className="text-sm font-medium uppercase tracking-wider text-text-muted mt-4 mb-2">Responses (LGSL)</h4>
+        <h4 className="text-sm font-medium uppercase tracking-wider text-text-muted mt-4 mb-2">{l('Responses (LGSL)', 'Меры реагирования')}</h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
           {['local', 'government', 'shortTerm', 'longTerm'].map((k) => (
             <div key={k}>· {t(`rivers.sections.boscastle.responses.${k}`)}</div>
@@ -116,7 +116,7 @@ export function RiversPage() {
           topicId={TOPIC}
           blockId="erosion-types"
           prompt={l("Explain what is worn away during abrasion and attrition.", "Объясни, что разрушается при истирании русла (abrasion) и истирании обломков (attrition).")}
-          modelAnswer={l("Abrasion: transported material scrapes or strikes the bed and banks. Attrition: collisions break and round the transported fragments. Hydraulic action removes material with the force of water; solution dissolves soluble minerals.", "Истирание русла: переносимые обломки скребут дно и берега или ударяют по ним. Истирание обломков: столкновения дробят и округляют сами обломки. Гидравлическое действие (hydraulic action) удаляет материал силой воды; растворение (solution) переводит растворимые минералы в раствор.")}
+          modelAnswer={l("Abrasion: transported material scrapes or strikes the bed and banks. Attrition: collisions break and round the transported fragments. Hydraulic action removes material with the force of water; solution dissolves soluble minerals.", "Истирание русла: переносимые обломки скребут дно и берега или ударяют по ним. Истирание обломков: столкновения дробят и округляют сами обломки. Гидравлическое действие (hydraulic action) удаляет материал силой воды; растворение пород (solution) переводит растворимые минералы в раствор.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}

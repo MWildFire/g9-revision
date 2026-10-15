@@ -80,8 +80,8 @@
               "englishTerm": "Aim",
               "russianTerm": "Цель",
               "contrast": {
-                "en": "An aim is the question you want to answer; a hypothesis is a testable prediction that the data can support or reject.",
-                "ru": "Цель — это вопрос, на который нужно ответить; гипотеза (hypothesis) — проверяемое предположение, которое данные могут подтвердить или опровергнуть."
+                "en": "An aim says what to investigate; a hypothesis is a testable prediction that the data can support or reject.",
+                "ru": "Цель показывает, что именно изучать; гипотеза (hypothesis) — проверяемое предположение, которое данные могут подтвердить или опровергнуть."
               },
               "sources": [
                 {
@@ -327,7 +327,7 @@
               "russianTerm": "Простая случайная выборка",
               "contrast": {
                 "en": "Choosing whoever is easiest to reach is convenience sampling, not random sampling, even if the choice looks haphazard.",
-                "ru": "Выбор тех, до кого легче всего добраться, — удобная выборка, а не случайная, даже если выбор кажется бессистемным."
+                "ru": "Выбор тех, до кого легче всего добраться, — удобная выборка (convenience sampling), а не случайная, даже если выбор кажется бессистемным."
               },
               "sources": [
                 {
@@ -581,7 +581,7 @@
     },
     "urbanisation": {
       "title": "Urbanisation",
-      "body": "Urbanisation is an increase in the share of a population that lives in towns and cities. It happens when people move from rural areas for work, schools and services, and, in some regions, when city populations grow through births. Fast growth raises demand for housing, water, energy and transport. If services cannot keep up, poor housing and crowded informal settlements can appear. For example, a village near a growing city may be added to the city’s boundary, so its residents become urban without moving.",
+      "body": "Urbanisation is an increase in the share of a population that lives in towns and cities. It happens when people move from rural areas for work, schools and services, and when the urban population has a higher rate of natural increase than the rural population. Fast growth raises demand for housing, water, energy and transport. If services cannot keep up, poor housing and crowded informal settlements can appear. For example, a village near a growing city may be added to the city’s boundary, so its residents become urban without moving.",
       "review": {
         "englishTerm": "Urbanisation",
         "russianTerm": "Урбанизация",
@@ -713,7 +713,7 @@
     "sections": {
       "bradshaw": {
         "title": "Bradshaw Model",
-        "description": "The Bradshaw model summarises common downstream trends: discharge, width, depth and mean velocity tend to increase, while gradient and typical sediment size tend to decrease. Downstream, the cross-sectional area (CSA) of the channel grows faster than the wetted perimeter, which is the length of bed and bank in contact with the water. As a result, the hydraulic radius (R = A/P, where A is the CSA and P is the wetted perimeter) increases. A channel with a larger hydraulic radius has a higher channel efficiency, because friction slows the water less. These are tendencies, not laws; geology, tributaries, dams and water abstraction can interrupt them. Slider values are illustrative, not measurements or predictions."
+        "description": "The Bradshaw model summarises common downstream trends: discharge, width, depth and mean velocity tend to increase, while gradient and typical sediment size tend to decrease. Downstream, the cross-sectional area (CSA) of the channel grows faster than the wetted perimeter, which is the length of bed and bank in contact with the water. As a result, the hydraulic radius (R = A/P, where A is the CSA in m² and P is the wetted perimeter in m) increases. R is measured in metres: for A = 4 m² and P = 8 m, R = 4 / 8 = 0.5 m. A channel with a larger hydraulic radius has a higher channel efficiency, because friction slows the water less. These are tendencies, not laws; geology, tributaries, dams and water abstraction can interrupt them. Slider values are illustrative, not measurements or predictions."
       },
       "course": {
         "title": "River Course",
@@ -734,7 +734,7 @@
               "russianTerm": "Истирание русла наносами (abrasion)",
               "contrast": {
                 "en": "Abrasion wears down the channel (bed and banks); attrition wears down the transported fragments themselves. Coastal abrasion, where waves wear down cliffs, is a different process with the same name.",
-                "ru": "Истирание русла (abrasion) разрушает дно и берега, а истирание обломков (attrition) стирает сами переносимые камни. Не путай с морской абразией, при которой волны разрушают берега: это другой процесс."
+                "ru": "Истирание русла наносами (abrasion) разрушает дно и берега, а истирание обломков (attrition) стирает сами переносимые камни. Не путай с морской абразией, при которой волны разрушают берега: это другой процесс."
               },
               "sources": [
                 {
@@ -755,10 +755,6 @@
             "review": {
               "englishTerm": "Attrition",
               "russianTerm": "Истирание и дробление обломков (attrition)",
-              "contrast": {
-                "en": "Attrition changes the load. Abrasion is the associated wearing of the bed or banks; both can occur in one collision.",
-                "ru": "Истирание обломков (attrition) меняет сами наносы. Истирание русла (abrasion) — сопутствующий износ дна или берегов; оба процесса могут происходить при одном столкновении."
-              },
               "sources": [
                 {
                   "title": "Steven Earle — Physical Geology, 2nd edition (BCcampus)",
@@ -774,8 +770,8 @@
                 }
               ],
               "model": {
-                "en": "School geography often reserves abrasion for wear of the bed/banks and attrition for wear of the load. Research literature sometimes uses abrasion more broadly; identify the material being worn.",
-                "ru": "В школьной географии истирание русла (abrasion) обычно означает износ дна и берегов, а истирание обломков (attrition) — износ самих наносов. В научной литературе термин «истирание» иногда понимают шире, поэтому уточняй, какой материал стирается."
+                "en": "Research literature sometimes uses abrasion more broadly; identify the material being worn.",
+                "ru": "В научной литературе термин «истирание» иногда понимают шире. Уточняй, какой материал стирается."
               }
             }
           },
@@ -878,7 +874,7 @@
           },
           "suspension": {
             "name": "Suspension",
-            "rule": "Suspension is the carrying of fine solid particles, such as silt and clay, within the water.\n\nTurbulence, the swirling movement of the water, keeps these particles from settling to the bed. Fine particles are light and settle slowly, so turbulence can easily keep them in the water. Faster, more turbulent water can keep even larger particles, such as fine sand, in suspension.",
+            "rule": "Suspension is the carrying of fine solid particles, such as silt and clay, within the water.\n\nTurbulence, the swirling movement of the water, keeps these particles from settling to the bed. Fine particles are small and settle slowly, so turbulence can easily keep them in the water. Faster, more turbulent water can keep even larger particles, such as fine sand, in suspension.",
             "examples": [
               "After heavy rain, a river can look brown or yellow because it carries fine silt in suspension."
             ],
@@ -952,7 +948,7 @@
         "detailed": {
           "prolongedRain": {
             "name": "Intense or prolonged rainfall",
-            "rule": "Intense rain can arrive faster than the soil can soak it up, so the extra water runs off the surface into the river. Prolonged rain fills the soil and raises the groundwater, so the next rain also runs off quickly. Both raise river discharge, and floods happen more often when wet spells and heavy storms follow each other.",
+            "rule": "Intense rain can arrive faster than the soil can soak it up, so the extra water runs off the surface into the river. Prolonged rain fills the soil and raises the groundwater, so the next rain also runs off quickly. Both raise river discharge.",
             "examples": [
               "A short, violent storm over a bare, steep hillside can send a flash flood down a dry valley within hours. A long spell of steady rain over already soaked fields raises a river more slowly, over several days."
             ],
@@ -1018,8 +1014,8 @@
               "englishTerm": "Snowmelt",
               "russianTerm": "Снеготаяние",
               "contrast": {
-                "en": "Snowmelt is the melting of stored snow into water. Snowfall only stores water, so the flood depends on when the snow melts and whether the ground can absorb the meltwater.",
-                "ru": "Снеготаяние — это превращение накопленного снега в воду. Снегопад только копит воду, поэтому паводок зависит от того, когда снег растает и может ли грунт впитать талую воду."
+                "en": "Snowfall only stores water, so the flood depends on when the snow melts and whether the ground can absorb the meltwater.",
+                "ru": "Снегопад только копит воду, поэтому паводок зависит от того, когда снег растает и может ли грунт впитать талую воду."
               },
               "sources": [
                 {
@@ -1041,8 +1037,8 @@
               "englishTerm": "Steep slopes, basin shape and soils",
               "russianTerm": "Крутые склоны, форма бассейна и почвы",
               "contrast": {
-                "en": "Relief is the shape of the land surface, and steep slopes speed up runoff. A steep slope alone does not guarantee a flood, because vegetation, soils, drainage and the place where the storm falls also matter.",
-                "ru": "Рельеф — это форма земной поверхности, а крутые склоны ускоряют сток. Крутой склон сам по себе не гарантирует паводок: важны растительность, почвы, дренаж и место, где прошёл ливень."
+                "en": "Relief is the shape of the land surface. A steep slope alone does not guarantee a flood, because vegetation, soils, drainage and the place where the storm falls also matter.",
+                "ru": "Рельеф — это форма земной поверхности. Крутой склон сам по себе не гарантирует паводок: важны растительность, почвы, дренаж и место, где прошёл ливень."
               },
               "sources": [
                 {
@@ -1070,8 +1066,8 @@
               "englishTerm": "Deforestation and runoff",
               "russianTerm": "Обезлесение и сток",
               "contrast": {
-                "en": "Deforestation means removing trees, which lets more rain reach the ground. Its effect depends on catchment size, soils and storm size, and trees cannot prevent every flood.",
-                "ru": "Обезлесение — это вырубка деревьев, из-за которой до почвы доходит больше дождя. Эффект зависит от масштаба бассейна, почв и силы дождя; лес не предотвращает любой паводок."
+                "en": "Deforestation means removing trees. Its effect depends on catchment size, soils and storm size, and trees cannot prevent every flood.",
+                "ru": "Обезлесение — это вырубка деревьев. Эффект зависит от масштаба бассейна, почв и силы дождя; лес не предотвращает любой паводок."
               },
               "sources": [
                 {
@@ -1260,7 +1256,7 @@
           },
           "floodplainZoning": {
             "name": "Floodplain zoning",
-            "rule": "Land-use planning limits building on areas that often flood. Such land can be kept free for floodwater, or used for activities that suffer less damage, such as parks and sports fields.",
+            "rule": "Floodplain zoning limits building on areas that often flood. Such land can be kept free for floodwater, or used for activities that suffer less damage, such as parks and sports fields.",
             "examples": [
               "A riverside park may tolerate temporary inundation better than a hospital on the same site."
             ],
@@ -1378,7 +1374,7 @@
       },
       "boscastle": {
         "title": "Case study — Boscastle floods 2004",
-        "summary": "On 16 August 2004, intense rain fell on the steep slopes around Boscastle, Cornwall. Water ran off the land quickly, and the rivers overtopped. A flash flood swept through the village. Buildings were damaged and vehicles were carried away. The Met Office records no deaths, but a major helicopter rescue operation was needed.",
+        "summary": "On 16 August 2004, intense rain fell on the steep slopes around Boscastle, Cornwall. Water ran off the land quickly, and the rivers overtopped. A flash flood swept through the village. Buildings were damaged and vehicles were carried away. No one died, but a major helicopter rescue operation was needed.",
         "seep": {
           "social": "Social: people needed urgent rescue and evacuation, and temporary shelter was required.",
           "economic": "Economic: homes, businesses, roads and bridges were damaged, and vehicles were swept away.",
@@ -1388,8 +1384,8 @@
         "responses": {
           "local": "Local: emergency services carried out the rescues; affected people were given emergency shelter.",
           "government": "Government and partners: local councils and other organisations took part in the village’s post-flood regeneration.",
-          "shortTerm": "Short term: flood debris was removed from the village, according to the Environment Agency’s 2014 statement on the 10th anniversary.",
-          "longTerm": "Long term: the Environment Agency’s 2014 statement on the 10th anniversary describes flood defence schemes and reports more than £10 million invested in improvements. Investment is a different measure from total flood damage."
+          "shortTerm": "Short term: flood debris was removed from the village.",
+          "longTerm": "Long term: flood defence schemes were introduced in the village."
         }
       }
     }
@@ -1577,7 +1573,7 @@
         "examples": "The tourism-area life-cycle is a conceptual model of possible destination change. Stages can overlap, be interrupted or follow different paths. The curve is schematic: neither time nor visitor numbers are calibrated."
       },
       "jamaica": {
-        "title": "Case study: mass tourism on a Caribbean island",
+        "title": "Case study: mass tourism on a small island",
         "facts": "On many small island countries, tourism is one of the most important industries. Overnight guests often spend more on accommodation and local services than cruise passengers, who may spend only a day ashore. When you judge the value of tourism, separate the direct effect (what visitors spend) from the total effect (including suppliers and wages that also depend on tourism).",
         "attractions": "A warm tropical island attracts visitors with its beaches. Coastal areas offer water sports, and some resorts sell all-inclusive packages.",
         "positives": "Tourism can create jobs, demand for local goods, tax income and money for infrastructure, such as roads and water supply. Local people gain more when they own businesses, sell goods to hotels and have skilled jobs in the tourism sector.",
@@ -1597,13 +1593,13 @@
         "detailed": {
           "thana": {
             "name": "Dark tourism — applying the definition",
-            "rule": "A trip counts as dark tourism when its main purpose is to visit a place linked to death, suffering or disaster. Visitors may go to learn, to remember or out of curiosity.",
+            "rule": "Use the definition above: is the main purpose of this trip to visit a place linked to death, suffering or disaster?",
             "examples": [
               "For example, an ancient amphitheatre was an arena where gladiators fought and where people and animals were killed for public entertainment. A tour that focuses on these deaths, not only on the building, fits the definition of dark tourism."
             ],
             "review": {
               "englishTerm": "Dark tourism / thanatourism",
-              "russianTerm": "Тёмный туризм / танатуризм",
+              "russianTerm": "Танатуризм",
               "contrast": {
                 "en": "Test the purpose: a visit to learn about a disaster and honour its victims fits the definition; a visit only for a photo at the same site does not.",
                 "ru": "Проверь цель: поездка, чтобы узнать о катастрофе и почтить память жертв, подходит под определение; поездка только ради фото на фоне того же места — нет."
@@ -1620,7 +1616,7 @@
           },
           "medical": {
             "name": "Medical tourism — applying the definition",
-            "rule": "A trip is medical tourism when a traveller leaves their usual area to receive diagnosis, treatment or rehabilitation. The destination can be in the same country or abroad.",
+            "rule": "Compare two trips: one for an operation and one to visit a relative in hospital. Which traveller is receiving medical care?",
             "examples": [
               "A patient from abroad books a planned operation at a specialist clinic in a neighbouring country, after checking the clinic’s accreditation."
             ],
@@ -1643,17 +1639,13 @@
           },
           "eco": {
             "name": "Ecotourism — applying the definition",
-            "rule": "A trip is ecotourism when it is based on nature, includes learning and reduces harm to the environment and local culture. Its benefits for conservation and for local residents must be real, not just claimed.",
+            "rule": "An operator advertises a nature tour. What evidence would you request before accepting its environmental claims?",
             "examples": [
               "In a forest reserve, a local community runs the guided walks and keeps part of the fees, so the income helps to protect the forest."
             ],
             "review": {
               "englishTerm": "Ecotourism",
               "russianTerm": "Экотуризм",
-              "contrast": {
-                "en": "Test the trip: check whether a local operator, a protected area or a conservation programme gets a real share of the income, and whether the visit includes learning.",
-                "ru": "Проверь поездку: получает ли местный оператор, охраняемая территория или программа охраны природы реальную долю дохода и есть ли в поездке элемент обучения."
-              },
               "sources": [
                 {
                   "title": "UN Tourism — Ecotourism and protected areas",
@@ -1666,7 +1658,7 @@
           },
           "volun": {
             "name": "Voluntourism — applying the definition",
-            "rule": "A trip counts as voluntourism when a traveller combines sightseeing with volunteer work on a project in the host community. The work should meet a need that local people have identified, and the volunteer must have the skills for it.",
+            "rule": "A visitor offers to teach for one day. Explain what the host community should check before accepting the offer.",
             "examples": [
               "For example, at the request of a village, volunteers help install a water filter, and local staff learn how to maintain it. The purpose is clear from the start, and the result stays in the village."
             ],
@@ -1689,7 +1681,7 @@
           },
           "extreme": {
             "name": "Extreme tourism — applying the definition",
-            "rule": "A trip is extreme tourism when its activities carry a high risk of injury or death because of cold, altitude, weather or distance from help. It is the most demanding end of adventure tourism.",
+            "rule": "Compare a marked lowland walk with a remote high-altitude climb. Explain how access to rescue changes the risk.",
             "examples": [
               "A solo cave dive far from the entrance carries a high risk of injury or death, because there is no easy exit and no quick help. A supervised dive in shallow open water carries a much lower risk."
             ],
@@ -2089,7 +2081,7 @@
               "russianTerm": "Модель Мальтуса",
               "contrast": {
                 "en": "A model of population pressure does not explain every famine: access, unequal distribution, conflict and technology also matter.",
-                "ru": "Модель демографического давления не объясняет любой голод: важны доступ, неравенство, конфликты и технологии."
+                "ru": "Модель демографического давления не объясняет каждый голод: важны доступ, неравенство, конфликты и технологии."
               },
               "sources": [
                 {
@@ -2239,7 +2231,7 @@
             "name": "Food security",
             "rule": "People have food security when they can consistently obtain enough safe, nutritious food for a healthy active life. Four connected dimensions are availability, access, utilisation and stability over time.",
             "examples": [
-              "A drought that cuts the local harvest reduces availability, because less food reaches the market. A family whose income falls can lose access, even when shops still have food."
+              "A drought that cuts the local harvest reduces availability, because less food reaches the market. A family whose income falls can lose access to food."
             ],
             "review": {
               "englishTerm": "Food security",
@@ -2338,8 +2330,8 @@
               "englishTerm": "UN and international agencies",
               "russianTerm": "ООН и международные организации",
               "contrast": {
-                "en": "An agreed global goal is not the same as action in a country, because governments decide how to carry it out. Do not treat all UN bodies as one government, since they have different powers.",
-                "ru": "Согласованная глобальная цель — ещё не действия в стране: выполнение зависит от правительств. Нельзя считать все органы ООН одним правительством: у них разные полномочия."
+                "en": "An agreed global goal is not the same as action in a country, because governments decide how to carry it out. Do not treat all UN bodies as one government.",
+                "ru": "Согласованная глобальная цель — ещё не действия в стране: выполнение зависит от правительств. Нельзя считать все органы ООН одним правительством."
               },
               "sources": [
                 {
@@ -2541,8 +2533,8 @@
               "englishTerm": "Arid climate",
               "russianTerm": "Аридный (сухой) климат",
               "contrast": {
-                "en": "Arid does not mean hot or completely rainless: it describes a shortage of water, so a cold desert is arid too.",
-                "ru": "Аридный не значит жаркий или совсем без дождей: это нехватка влаги, поэтому холодная пустыня тоже аридная."
+                "en": "Arid does not mean hot or completely rainless: it describes a shortage of water.",
+                "ru": "Аридный не значит жаркий или совсем без дождей: это нехватка влаги."
               },
               "sources": [
                 {
@@ -2564,8 +2556,8 @@
               "englishTerm": "Tropical climates",
               "russianTerm": "Тропические климаты (по Кёппену)",
               "contrast": {
-                "en": "The geographic tropics, the belt between the Tropics of Cancer and Capricorn, also contain deserts and cool high mountains. Tropical climate (A) is a narrower Köppen type: it is warm in every month.",
-                "ru": "Тропический пояс (широтная зона между тропиками) включает и пустыни, и холодные высокогорья. Тропический климат по Кёппену (A) — более узкое понятие: это климат, тёплый в каждом месяце."
+                "en": "The geographic tropics, the belt between the Tropics of Cancer and Capricorn, also contain deserts and cool high mountains. Tropical climate (A) is a narrower Köppen type.",
+                "ru": "Тропический пояс (широтная зона между тропиками) включает и пустыни, и холодные высокогорья. Тропический климат по Кёппену (A) — более узкое понятие."
               },
               "sources": [
                 {
@@ -2986,7 +2978,7 @@
         "location": "Philippines (Leyte, Tacloban)",
         "scale": "A very powerful tropical cyclone with destructive winds and coastal storm-surge flooding. Surge depth varied by location; a single value does not describe the whole coast.",
         "seep": {
-          "social": "Social: a GIZ assessment from May 2014 reports more than 6,000 deaths and about 4 million displaced people. Displaced people had to leave their homes. Affected people, who suffered any kind of harm, are a different measure, so do not confuse the two.",
+          "social": "Social: a GIZ assessment from May 2014 reports more than 6,000 deaths and about 4 million displaced people. Displaced people had to leave their homes. Affected people, who suffered any kind of harm, are a different measure.",
           "economic": "Economic: homes, businesses and transport infrastructure were damaged; losses depend on which assets and reporting period are counted.",
           "environmental": "Environmental: storm surge flooded coastal land, while strong winds damaged vegetation and spread debris.",
           "political": "Political: the response depended on local government capacity."

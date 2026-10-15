@@ -90,7 +90,14 @@ export function TourismPage() {
       <div className="space-y-3">
         {OTHER_TYPES.map((id) => {
           const item = t(`tourism.sections.otherTypes.detailed.${id}`, { returnObjects: true }) as DetailedItem;
-          return <DetailedCard key={`o-${id}`} item={item} borderColor="var(--color-accent-sky)" labels={labels} />;
+          const practiceItem: DetailedItem = {
+            ...item,
+            body: item.rule,
+            rule: undefined,
+            watchOut: item.review?.contrast?.[lang] ?? item.watchOut,
+            review: undefined,
+          };
+          return <DetailedCard key={`o-${id}`} item={practiceItem} borderColor="var(--color-accent-sky)" labels={labels} />;
         })}
       </div>
 
@@ -100,7 +107,7 @@ export function TourismPage() {
           topicId={TOPIC}
           blockId="butler-stages"
           prompt={l("Outline Butler’s model and state one limitation of it.", "Кратко опиши модель Батлера и назови одно её ограничение.")}
-          modelAnswer={l("Butler’s model shows a tourist area’s life cycle in stages: exploration, involvement, development, consolidation and stagnation, then decline or rejuvenation. One limitation is that it is conceptual, with no fixed timescale, so it cannot predict when a stage will begin.", "Модель Батлера описывает жизненный цикл туристического района как последовательность этапов: разведка (exploration), вовлечение, развитие, консолидация и стагнация, затем спад или возрождение. Одно ограничение: модель концептуальная, сроки этапов в ней не заданы, поэтому она не может предсказать, когда начнётся какой-либо этап.")}
+          modelAnswer={l("Butler’s model shows a tourist area’s life cycle in stages: exploration, involvement, development, consolidation and stagnation, then decline or rejuvenation. One limitation is that it sets no fixed timescale, so it cannot predict when a stage will begin.", "Модель Батлера описывает жизненный цикл туристического района как последовательность этапов: разведка (exploration), вовлечение, развитие, консолидация и стагнация, затем спад или возрождение. Одно ограничение: сроки этапов в модели не заданы, поэтому она не может предсказать, когда начнётся какой-либо этап.")}
         />
         <ActiveRecallBlock
           topicId={TOPIC}
@@ -112,7 +119,7 @@ export function TourismPage() {
           topicId={TOPIC}
           blockId="antarctica-management"
           prompt={l("Explain two ways visitor guidance protects Antarctica.", "Объясни два способа защиты Антарктики через правила посещения.")}
-          modelAnswer={l("First, visitors must not disturb wildlife or bring in non-native organisms, which can upset local ecosystems. Second, they must follow protected-area permits and take all waste away, so the environment is not polluted.", "Во-первых, посетители не должны беспокоить животных и привозить чужеродные организмы: это может нарушить местные экосистемы. Во-вторых, нужно получать разрешения там, где они требуются, и увозить с собой весь мусор, чтобы природа не загрязнялась.")}
+          modelAnswer={l("First, visitors must not disturb wildlife or bring in non-native organisms, which can upset local ecosystems. Second, they must follow protected-area permits and take all waste away, so the environment is not polluted.", "Во-первых, посетители не должны беспокоить животных и привозить чужеродные организмы: это может нарушить местные экосистемы. Во-вторых, нужно получать разрешения там, где они требуются, и увозить с собой весь мусор, чтобы не загрязнять природу.")}
         />
       </div>
     </div>

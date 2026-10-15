@@ -21,8 +21,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Number and plural formation",
     "russianTerm": "Число и образование множественного числа",
     "contrast": {
-      "en": "Most plurals add -s, but not all: un cheval becomes des chevaux, and un bateau becomes des bateaux.",
-      "ru": "Большинство существительных получает -s во множественном числе, но не все: например, «un cheval» → «des chevaux», «un bateau» → «des bateaux»."
+      "en": "Un cheval becomes des chevaux, and un bateau becomes des bateaux.",
+      "ru": "Например, «un cheval» → «des chevaux», «un bateau» → «des bateaux»."
     },
     "sources": [
       {
@@ -96,8 +96,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Negation",
     "russianTerm": "Отрицание",
     "contrast": {
-      "en": "The negation ne … pas surrounds the conjugated verb. In a compound tense, it surrounds the auxiliary: je n'ai pas mangé, not je n'ai mangé pas.",
-      "ru": "Конструкция «ne … pas» окружает спрягаемый глагол. В сложном времени она стоит вокруг вспомогательного: «je n'ai pas mangé», а не «je n'ai mangé pas»."
+      "en": "Je n'ai mangé pas is wrong: in a compound tense, pas comes after the auxiliary.",
+      "ru": "«Je n'ai mangé pas» — ошибка: в сложном времени «pas» стоит после вспомогательного глагола."
     },
     "sources": [
       {
@@ -128,8 +128,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Definite, indefinite and partitive articles",
     "russianTerm": "Определённые, неопределённые и частичные артикли",
     "contrast": {
-      "en": "In a negative sentence, du, de la, des, un and une usually become de: Je ne mange pas de pain. The definite article stays: Je n'aime pas le pain.",
-      "ru": "В отрицательном предложении неопределённый и частичный артикли обычно становятся «de»: «Je ne mange pas de pain». Определённый артикль остаётся: «Je n'aime pas le pain»."
+      "en": "The definite article stays: Je n'aime pas le pain.",
+      "ru": "Определённый артикль остаётся: «Je n'aime pas le pain»."
     },
     "sources": [
       {
@@ -212,7 +212,7 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     ]
   },
   "past": {
-    "englishTerm": "Compound past",
+    "englishTerm": "Passé composé",
     "russianTerm": "Сложное прошедшее",
     "contrast": {
       "en": "Passé composé presents a past event as a whole; imparfait commonly presents background, a habit or an action in progress. Duration alone does not decide the choice.",
@@ -319,10 +319,6 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
   "culture": {
     "englishTerm": "Francophone / Francophonie",
     "russianTerm": "Франкоязычный мир / Международная организация франкофонии",
-    "contrast": {
-      "en": "Francophone usually describes a French-speaking community; written with a capital F, Francophonie usually names an international organisation.",
-      "ru": "«Francophone» обычно обозначает франкоязычное сообщество; «Francophonie» с большой буквы обычно обозначает Международную организацию франкофонии."
-    },
     "sources": [
       {
         "title": "OIF — La Francophonie en bref",

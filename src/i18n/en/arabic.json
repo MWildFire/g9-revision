@@ -44,7 +44,7 @@
   "learn": {
     "title": "Learn the words",
     "intro": "Arabic script with English and Russian meanings. Latin and Cyrillic reading aids approximate pronunciation; they are not IPA and cannot represent every Arabic sound. Long vowels are doubled in this lesson deck. ʿ marks ع; ʾ marks hamza ء.",
-    "legend": "EN / RU = meaning · Aa = approximate reading aid (the Russian interface shows it in Cyrillic); confirm pronunciation with audio.",
+    "legend": "EN / RU = meaning · Aa = approximate reading aid; confirm pronunciation with audio.",
     "jumpTo": "Jump to:"
   },
   "flashcards": {
@@ -147,25 +147,25 @@
     "introduce": {
       "title": "1. Introduce yourself (تقديم نفسك)",
       "phrases": [
-        "اسمي… (ismī…) — my name is…",
-        "أنا في الصف التاسع (anā fī aṣ-ṣaff at-tāsiʿ) — I am in grade nine; change the grade to suit your situation.",
-        "أنا من… (anā min…) — I am from…",
-        "أعيش في… (aʿīsh fī…) — I live in…",
-        "عمري… سنة (ʿumrī… sana) — I am … years old; Arabic number agreement needs its own rules.",
-        "لي إخوة وأخوات (lī ikhwa wa akhawāt) — I have brothers and sisters.",
+        "اسمي… (ismii…) — my name is…",
+        "أنا في الصف التاسع (anaa fii aṣ-ṣaff at-taasiʿ) — I am in grade nine; change the grade to suit your situation.",
+        "أنا من… (anaa min…) — I am from…",
+        "أعيش في… (aʿiish fii…) — I live in…",
+        "عمري… سنة (ʿumrii… sana) — I am … years old; Arabic number agreement needs its own rules.",
+        "لي إخوة وأخوات (lii ikhwa wa akhawaat) — I have brothers and sisters.",
         "أحب… (uḥibb…) — I like / love…"
       ]
     },
     "clothes": {
       "title": "2. Clothes (الملابس)",
       "vocab": [
-        "تنورة (tannūra) — skirt",
-        "بلوزة (blūza) — blouse",
-        "حذاء (ḥidhāʾ) — a shoe; context may imply footwear",
-        "فستان (fustān) — dress",
-        "بنطال (binṭāl) — trousers",
+        "تنورة (tannuura) — skirt",
+        "بلوزة (bluuza) — blouse",
+        "حذاء (ḥidhaaʾ) — a shoe; context may imply footwear",
+        "فستان (fustaan) — dress",
+        "بنطال (binṭaal) — trousers",
         "معطف (miʿṭaf) — coat",
-        "قميص (qamīṣ) — shirt",
+        "قميص (qamiiṣ) — shirt",
         "Examples: تنورة صفراء قصيرة — a short yellow skirt; بلوزة بيضاء خفيفة — a light white blouse; حذاء أسود — a black shoe; فستان أحمر — a red dress; معطف بني ثقيل — a heavy brown coat; قميص أزرق جديد — a new blue shirt."
       ]
     },
@@ -178,8 +178,8 @@
         "أصفر (ʾaṣfar) — yellow",
         "أبيض (ʾabyaḍ) — white",
         "أسود (ʾaswad) — black",
-        "بني (bunnī) — brown",
-        "رمادي (ramādī) — grey",
+        "بني (bunnii) — brown",
+        "رمادي (ramaadii) — grey",
         "Adjectives: طويل (long), قصير (short), كبير (big), صغير (small), جديد (new), قديم (old), ثقيل (heavy), خفيف (light), جميل (beautiful).",
         "Gender agreement: جديد / جديدة adds ة, but colours such as أحمر / حمراء use a different pattern. Agreement follows the Arabic noun, not the gender of its translation."
       ]
@@ -190,21 +190,21 @@
         "أستيقظ (ʾastayqiẓ) — I wake up",
         "أستحم (astaḥimm) — I take a shower",
         "ألبس (ʾalbas) — I get dressed",
-        "أتناول (ʾatanāwal) — I eat / consume",
+        "أتناول (ʾatanaawal) — I eat / consume",
         "أركب (ʾarkab) — I ride / get into",
         "أذهب (ʾadhhab) — I go",
         "أتعلم (ʾataʿallam) — I learn",
-        "أمارس (ʾumāris) — I practise",
+        "أمارس (ʾumaaris) — I practise",
         "أرجع (arjiʿ) — I return",
         "أدرس (ʾadrus) — I study",
-        "أشاهد (ʾushāhid) — I watch",
+        "أشاهد (ʾushaahid) — I watch",
         "أقرأ (ʾaqraʾ) — I read",
-        "أنام (ʾanām) — I sleep"
+        "أنام (ʾanaam) — I sleep"
       ],
       "times": [
         "الساعة الخامسة (5 o'clock), السادسة (6), السابعة (7), الثامنة (8)",
-        "صباحًا (ṣabāḥan) — in the morning; a.m. in a clock expression",
-        "مساءً (masāʾan) — in the evening; p.m. in a clock expression",
+        "صباحًا (ṣabaaḥan) — in the morning; a.m. in a clock expression",
+        "مساءً (masaaʾan) — in the evening; p.m. in a clock expression",
         "Connectors: أولاً (first), ثم (then), حتى (until), بعد ذلك (after that), أخيراً (finally)"
       ],
       "verbsHeading": "Verbs",
@@ -213,27 +213,27 @@
     "seasons": {
       "title": "5. Seasons & weather (الفصول والطقس)",
       "vocab": [
-        "الربيع (ar-rabīʿ) — spring",
+        "الربيع (ar-rabiiʿ) — spring",
         "الصيف (aṣ-ṣayf) — summer",
-        "الخريف (al-kharīf) — autumn",
-        "الشتاء (ash-shitāʾ) — winter",
+        "الخريف (al-khariif) — autumn",
+        "الشتاء (ash-shitaaʾ) — winter",
         "الطقس (aṭ-ṭaqs) — weather",
-        "حار (ḥārr) — hot",
-        "بارد (bārid) — cold",
+        "حار (ḥaarr) — hot",
+        "بارد (baarid) — cold",
         "ممطر (mumṭir) — rainy",
         "مشمس (mushmis) — sunny",
-        "عاصف (ʿāṣif) — windy",
-        "غائم (ghāʾim) — cloudy"
+        "عاصف (ʿaaṣif) — windy",
+        "غائم (ghaaʾim) — cloudy"
       ]
     },
     "extra": {
       "title": "Question words & prepositions",
       "items": [
-        "ماذا / ما (mādhā / mā) — what",
-        "متى (matā) — when",
+        "ماذا / ما (maadhaa / maa) — what",
+        "متى (mataa) — when",
         "أين (ʾayna) — where",
         "كيف (kayfa) — how",
-        "لماذا (limādhā) — why",
+        "لماذا (limaadhaa) — why",
         "كم (kam) — how many / how much",
         "إلى — to; في — in/at: prepositions. مع — with/together with: an accompaniment expression traditionally analysed as an adverbial noun, not the same grammatical class as في."
       ]

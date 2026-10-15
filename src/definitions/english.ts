@@ -279,8 +279,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
       }
     ],
     "model": {
-      "en": "The sensory image “A sharp lemon scent filled the room” appeals to smell and may make the room feel fresh and clean. This helps the reader picture the setting at once and can create a fresh, lively mood.",
-      "ru": "Образ «резкий запах лимона наполнил комнату» обращается к обонянию и может сделать комнату свежей и чистой. Это помогает читателю сразу представить обстановку и может создавать свежее, бодрящее настроение."
+      "en": "The sensory image “A sharp lemon scent filled the room” appeals to smell and may make the room feel fresh and clean. This helps the reader picture the setting at once and can create a lively mood.",
+      "ru": "Образ «резкий запах лимона наполнил комнату» обращается к обонянию и может сделать комнату свежей и чистой. Это помогает читателю сразу представить обстановку и может создавать бодрящее настроение."
     }
   },
   "devices.onomatopoeia": {
@@ -339,8 +339,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Symbolism",
     "russianTerm": "Символика",
     "contrast": {
-      "en": "A symbol stands for an idea beyond the object itself. A dove can be a conventional peace symbol, but it does not carry this meaning universally.",
-      "ru": "Символ обозначает идею за пределами самого предмета. Голубь может быть условным символом мира, но не везде несёт этот смысл."
+      "en": "Symbolism (the device) is not the same as Symbolism, the literary movement. A dove can be a conventional peace symbol, but it does not carry this meaning universally.",
+      "ru": "Символика (приём) — не то же, что символизм (литературное направление). Голубь может быть условным символом мира, но не везде несёт этот смысл."
     },
     "sources": [
       {
@@ -550,10 +550,6 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   "grammar.punctuation.comma": {
     "englishTerm": "Comma",
     "russianTerm": "Запятая (,)",
-    "contrast": {
-      "en": "A comma joins two full sentences with a conjunction such as 'but' or 'so': 'I went out, but it was cold.' Without one, use a full stop or a semicolon: 'I went out. It was cold.'",
-      "ru": "Запятая соединяет два полных предложения вместе с союзом: «I went out, but it was cold.» Без союза нужна точка или точка с запятой: «I went out. It was cold.»"
-    },
     "sources": [
       {
         "title": "Purdue OWL — Extended rules for commas",
@@ -662,10 +658,6 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   "grammar.commonErrors.thereTheirTheyre": {
     "englishTerm": "there / their / they're",
     "russianTerm": "there / their / they're",
-    "contrast": {
-      "en": "Ask what the word does. 'There' answers 'where?' or introduces something that exists: 'There is a bus outside.' 'Their' answers 'whose?': 'Their bus is late.' 'They're' means 'they are': 'They're waiting outside.'",
-      "ru": "Спроси себя, что делает слово. «There» отвечает на вопрос «где?» или вводит то, что существует: «There is a bus outside». «Their» отвечает на вопрос «чей?»: «Their bus is late». «They’re» значит «they are»: «They’re waiting outside»."
-    },
     "sources": [
       {
         "title": "Merriam-Webster — Usage guide",
@@ -678,10 +670,6 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   "grammar.commonErrors.lessFewer": {
     "englishTerm": "less vs fewer",
     "russianTerm": "less vs fewer",
-    "contrast": {
-      "en": "Use 'less' with uncountable nouns, the things you measure rather than count: 'less water', 'less time'. Use 'fewer' with countable plural nouns: 'fewer mistakes', 'fewer students'. Informal usage varies.",
-      "ru": "Используй «less» с неисчисляемыми существительными, то есть с тем, что измеряют, а не считают: «less water», «less time». С исчисляемыми существительными во множественном числе используй «fewer»: «fewer mistakes», «fewer students». В разговорной речи употребление варьируется."
-    },
     "sources": [
       {
         "title": "Merriam-Webster — Usage guide",
@@ -710,10 +698,6 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
   "grammar.commonErrors.thanThen": {
     "englishTerm": "than vs then",
     "russianTerm": "than vs then",
-    "contrast": {
-      "en": "Use 'than' to compare: 'taller than Sam'. Use 'then' for time or order: 'We ate, then we left.'",
-      "ru": "Для сравнения используй «than»: «taller than Sam» (выше, чем Сэм). Для времени или порядка используй «then»: «We ate, then we left» (поели, потом ушли)."
-    },
     "sources": [
       {
         "title": "Merriam-Webster — Usage guide",
@@ -903,8 +887,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Essay",
     "russianTerm": "Эссе",
     "contrast": {
-      "en": "Essay or news report: an essay gives the writer's own view on a topic in free composition; a news report states the facts and usually keeps opinion out.",
-      "ru": "Эссе или новостная заметка: эссе излагает авторское отношение к теме свободной композицией; новостная заметка сообщает факты и обычно не выражает мнение."
+      "en": "Essay or news report: an essay gives the writer's own view on a topic in free composition; a news report is a factual account of an event.",
+      "ru": "Эссе или новостная заметка: эссе излагает авторское отношение к теме свободной композицией; новостная заметка — фактический отчёт о событии."
     },
     "sources": [
       {
@@ -920,7 +904,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "russianTerm": "Письмо",
     "contrast": {
       "en": "Letter or email: a formal letter sent by post shows the sender's address and a date at the top; an email has a subject line instead of the address block, and its date and sender are added automatically.",
-      "ru": "Письмо или электронное письмо: официальное письмо, отправляемое по почте, пишет адрес отправителя и дату вверху; в электронном письме вместо адресного блока есть тема, а дата и отправитель проставляются автоматически."
+      "ru": "Письмо или электронное письмо: у официального письма, отправляемого по почте, вверху стоят адрес отправителя и дата; в электронном письме вместо адресного блока есть тема, а дата и отправитель проставляются автоматически."
     },
     "sources": [
       {

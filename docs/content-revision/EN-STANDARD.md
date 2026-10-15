@@ -27,6 +27,8 @@ Use blank lines inside a text to split paragraphs, lines starting with `- ` for 
 
 ## 4. Conventions
 
+- In calculations, use the equals sign `=` in both English and Russian. A dash in place of `=` is an error. Write “equals” in words only in ordinary prose.
+
 - British/IB spelling: colour, behaviour, centre, metre, litre, analyse, sulfur, aluminium.
 - SI units, a space between number and unit (5.0 m/s, 25 °C), decimal point, standard form 3.0 × 10⁸ m/s.
 - IB command terms with their IB meaning: state, define, describe, explain, outline, calculate, compare, evaluate, discuss, justify, suggest, predict.

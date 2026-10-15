@@ -937,7 +937,7 @@
       "newton1": {
         "name": "Первый закон Ньютона",
         "alt": "«Newton's First Law»",
-        "definition": "Тело сохраняет скорость, если равнодействующая (resultant force) всех сил на него равна нулю. Оно покоится или движется прямолинейно с постоянной скоростью. Это свойство тел называют инерцией (inertia).",
+        "definition": "Тело сохраняет скорость, если равнодействующая (resultant force) всех сил на него равна нулю. Оно покоится или движется прямолинейно с постоянной скоростью. Сохранение скорости при отсутствии равнодействующей силы называют явлением инерции (inertia).",
         "example": "Шайба, скользящая по гладкому льду, движется равномерно и прямолинейно. Сила тяжести уравновешена силой реакции опоры, а трение почти не действует.",
         "review": {
           "englishTerm": "Newton's First Law",
@@ -1019,7 +1019,7 @@
           "englishTerm": "Newton's Third Law",
           "russianTerm": "Третий закон Ньютона",
           "contrast": {
-            "en": "Action and reaction act on different bodies, so they never cancel. Two forces on the same body, such as a book's weight and the support force from the table, can balance.",
+            "en": "Action and reaction act on different bodies, so they cannot balance each other on a single body. Two forces on the same body, such as a book's weight and the support force from the table, can balance.",
             "ru": "Силы действия и противодействия (action and reaction) приложены к разным телам, поэтому не могут уравновесить друг друга. Две силы, приложенные к одному телу, например сила тяжести книги и сила реакции опоры стола, могут уравновешивать друг друга."
           },
           "model": {

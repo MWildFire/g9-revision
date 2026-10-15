@@ -398,8 +398,8 @@ export const lessons: Lesson[] = [
       s(
         "What exactly halves?",
         "Что именно уменьшается вдвое?",
-        "The **half-life** T½ is the time taken for half of the parent nuclei in a sample to decay. The activity of the sample halves in the same time, because activity depends on how many undecayed nuclei are left.\n\nDo not confuse the half-life with the mass of the sample: the daughter nuclei stay in the material, so its total mass does not halve in one half-life.",
-        "**Период полураспада** (half-life) T½ — это время, за которое распадается половина материнских ядер (parent nuclei) образца. Активность (activity) образца за то же время уменьшается вдвое, потому что она зависит от числа ещё нераспавшихся ядер.\n\nНе путай период полураспада с массой образца: дочерние ядра (daughter nuclei) остаются в веществе, поэтому за один период полураспада масса образца вдвое не уменьшается.",
+        "The **half-life** T½ is the time taken for half of the parent nuclei in a sample to decay. The activity due to the parent radionuclide halves in the same time, because it depends on how many of its undecayed nuclei are left. Radioactive daughter nuclei may contribute additional activity.\n\nDo not confuse the half-life with the mass of the sample: the daughter nuclei stay in the material, so its total mass does not halve in one half-life.",
+        "**Период полураспада** (half-life) T½ — это время, за которое распадается половина материнских ядер (parent nuclei) образца. Активность (activity) исходного радионуклида за то же время уменьшается вдвое, потому что она зависит от числа его ещё нераспавшихся ядер. Радиоактивные дочерние ядра могут создавать дополнительную активность.\n\nНе путай период полураспада с массой образца: дочерние ядра (daughter nuclei) остаются в веществе, поэтому за один период полураспада масса образца вдвое не уменьшается.",
       ),
       s(
         "Repeated halving and the remaining fraction",
@@ -410,8 +410,8 @@ export const lessons: Lesson[] = [
       s(
         "Read a graph correctly",
         "Как правильно читать график",
-        "First subtract the constant background count rate from the total count rate. Background radiation is always present from natural sources, so a detector records counts even without a source.\n\nWith the same detector and distance, the corrected count rate halves in the same time as the activity.\n\nChoose a corrected count rate R, and find the later time when it has fallen to R/2. The difference between the two times is one half-life. Repeat with a second pair of values to check.\n\nA decay curve falls steeply at first and then more slowly, because fewer nuclei remain to decay. It is not a straight line: each equal time interval removes the same fraction of the nuclei that remain, so the number removed gets smaller.",
-        "Сначала вычти постоянный фон (background) из полной скорости счёта (count rate). Радиационный фон — излучение природных источников, поэтому детектор регистрирует импульсы и без источника.\n\nС тем же детектором и на том же расстоянии скорректированная скорость счёта уменьшается вдвое за то же время, что и активность.\n\nВозьми скорректированную скорость счёта R и найди более позднее время, когда она стала R/2. Разность этих времён — период полураспада. Повтори расчёт для другой пары точек и проверь результат.\n\nКривая сначала спадает круто, а потом всё медленнее, потому что остаётся всё меньше ядер, которые могут распасться. Это не прямая: за равные промежутки времени распадается одинаковая доля от оставшихся ядер, поэтому число распадов за каждый интервал становится меньше.",
+        "First subtract the background count rate measured without the source. Background radiation comes from surrounding sources, which may be natural or human-made. In this calculation it is treated as constant.\n\nWith the same detector and distance, the corrected count rate halves in the same time as the activity.\n\nChoose a corrected count rate R, and find the later time when it has fallen to R/2. The difference between the two times is one half-life. Repeat with a second pair of values to check.\n\nA decay curve falls steeply at first and then more slowly, because fewer nuclei remain to decay. It is not a straight line: each equal time interval removes the same fraction of the nuclei that remain, so the number removed gets smaller.",
+        "Сначала вычти скорость счёта фона (background), измеренную без исследуемого источника, из полной скорости счёта (count rate). Радиационный фон создают окружающие природные и искусственные источники. В этом расчёте его считаем постоянным.\n\nС тем же детектором и на том же расстоянии скорректированная скорость счёта уменьшается вдвое за то же время, что и активность.\n\nВозьми скорректированную скорость счёта R и найди более позднее время, когда она стала R/2. Разность этих времён — период полураспада. Повтори расчёт для другой пары точек и проверь результат.\n\nКривая сначала спадает круто, а потом всё медленнее, потому что остаётся всё меньше ядер, которые могут распасться. Это не прямая: за равные промежутки времени распадается одинаковая доля от оставшихся ядер, поэтому число распадов за каждый интервал становится меньше.",
       ),
       s(
         "Random does not mean patternless",
@@ -820,7 +820,7 @@ export const lessons: Lesson[] = [
         "Energy and power questions",
         "Задачи на энергию и мощность",
         "If the energy per fission is given, multiply it by the number of fissions. For a rate of fissions, multiply energy per fission by fissions per second to obtain power in watts. Electrical power may be smaller than thermal power; apply efficiency only if supplied. The same energy ideas apply to nuclear processes.",
-        "Если дана энергия одного деления, умножь её на число делений. Если дано число делений в секунду, умножь энергию одного деления на него и получи мощность в ваттах. Электрическая мощность может быть меньше тепловой. КПД (efficiency) учитывай, только если он дан. Знакомые тебе идеи об энергии применимы и к ядерным процессам.",
+        "Если дана энергия одного деления, умножь её на число делений. Если дано число делений в секунду, умножь энергию одного деления на него и получи мощность в ваттах. Мощность обозначают N (в английской записи P). Электрическая мощность может быть меньше тепловой. КПД (efficiency) учитывай, только если он дан. Знакомые тебе идеи об энергии применимы и к ядерным процессам.",
       ),
     ],
     formulas: [
@@ -834,7 +834,7 @@ export const lessons: Lesson[] = [
         "Каждое деление даёт 3,2 × 10⁻¹¹ Дж. Происходит 5,0 × 10¹⁸ делений в секунду. Найди тепловую и электрическую мощности при КПД 35 %.",
         b(
           "P = (3.2 × 10⁻¹¹) × (5.0 × 10¹⁸) = 16 × 10⁷ W = 1.6 × 10⁸ W = 160 MW.",
-          "P = (3,2 × 10⁻¹¹) × (5,0 × 10¹⁸) = 16 × 10⁷ Вт = 1,6 × 10⁸ Вт = 160 МВт.",
+          "N = (3,2 × 10⁻¹¹) × (5,0 × 10¹⁸) = 16 × 10⁷ Вт = 1,6 × 10⁸ Вт = 160 МВт.",
         ),
         b(
           "Electrical power = 0.35 × 160 = 56 MW. Do not multiply by 35 instead of 0.35.",

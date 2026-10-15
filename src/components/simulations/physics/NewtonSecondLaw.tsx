@@ -1,3 +1,4 @@
+import { forceDisplay } from './VectorAddition';
 import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -7,7 +8,7 @@ import { Formula } from '../../ui/Formula';
 import { SimulationPanel } from '../../ui/Tabs';
 import { Button } from '../../ui/Button';
 import { useAnimationFrame } from '../../../hooks/useAnimationFrame';
-import { acceleration, format } from '../../../lib/physics';
+import { acceleration } from '../../../lib/physics';
 import { RotateCcw } from 'lucide-react';
 
 const CANVAS_W = 560;
@@ -24,7 +25,8 @@ interface Sample {
 }
 
 export function NewtonSecondLaw() {
-  const { t } = useTranslation('physics');
+  const { t, i18n } = useTranslation('physics');
+  const { ru, u: unit, n } = forceDisplay(i18n.language);
   const [mass, setMass] = useState(2);
   const [force, setForce] = useState(10);
   const [running, setRunning] = useState(true);
@@ -76,7 +78,7 @@ export function NewtonSecondLaw() {
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
-    drawScene(ctx, cartPx, force, mass, s.v);
+    drawScene(ctx, cartPx, force, mass, s.v, i18n.language);
   }, running);
 
   const maxV = a > 0 ? a * MAX_TIME : 10;
@@ -93,8 +95,8 @@ export function NewtonSecondLaw() {
             className="w-full bg-bg-primary rounded-md border border-border"
           />
           <Formula caption={`a = F / m`}>
-            a = {force.toFixed(1)} N / {mass.toFixed(1)} kg ={' '}
-            <span className="text-accent-warm">{format(a, 2)} m/s²</span>
+            a = {n(force, 1)} {unit('N')} / {n(mass, 1)} {unit('kg')} ={' '}
+            <span className="text-accent-warm">{n(a, 2)} {unit('m/s²')}</span>
           </Formula>
           <div className="h-44 bg-bg-primary rounded-md border border-border p-2">
             <p className="text-xs text-text-muted px-2 mb-1">{t('forceMotion.sim1.chartTitle')}</p>
@@ -105,7 +107,7 @@ export function NewtonSecondLaw() {
                   type="number"
                   domain={[0, MAX_TIME]}
                   ticks={[0, 2, 4, 6, 8, 10]}
-                  tickFormatter={(v) => `${v}s`}
+                  tickFormatter={(v) => `${n(v, 0)} ${unit('s')}`}
                   stroke="var(--color-text-muted)"
                   fontSize={10}
                 />
@@ -114,7 +116,7 @@ export function NewtonSecondLaw() {
                   fontSize={10}
                   domain={[0, yMax]}
                   tickFormatter={(v) => `${v}`}
-                  unit=" m/s"
+                  unit={' ' + unit('m/s')}
                   width={55}
                 />
                 <RTooltip
@@ -124,8 +126,8 @@ export function NewtonSecondLaw() {
                     borderRadius: 8,
                     fontSize: 12,
                   }}
-                  formatter={(v: number) => v.toFixed(2)}
-                  labelFormatter={(v: number) => `t = ${v.toFixed(2)} s`}
+                  formatter={(v: number) => n(v, 2)}
+                  labelFormatter={(v: number) => `t = ${n(v, 2)} ${unit('s')}`}
                 />
                 <Line
                   type="monotone"
@@ -141,11 +143,11 @@ export function NewtonSecondLaw() {
           </div>
         </div>
         <div className="space-y-4">
-          <Slider label={t('forceMotion.sim1.mass')} unit="kg" min={0.5} max={10} step={0.1} value={mass} onChange={setMass} />
-          <Slider label={t('forceMotion.sim1.force')} unit="N" min={0} max={50} step={1} value={force} onChange={setForce} />
+          <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim1.mass')} unit={unit('kg')} min={0.5} max={10} step={0.1} value={mass} onChange={setMass} />
+          <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim1.force')} unit={unit('N')} min={0} max={50} step={1} value={force} onChange={setForce} />
           <div className="grid grid-cols-2 gap-2 pt-2 text-xs">
-            <Stat label={t('forceMotion.sim1.acceleration')} value={`${format(a, 2)} m/s²`} />
-            <Stat label={t('forceMotion.sim1.velocity')} value={`${format(currentV, 1)} m/s`} />
+            <Stat label={t('forceMotion.sim1.acceleration')} value={`${n(a, 2)} ${unit('m/s²')}`} />
+            <Stat label={t('forceMotion.sim1.velocity')} value={`${n(currentV, 1)} ${unit('m/s')}`} />
           </div>
           <div className="flex gap-2">
             <Button variant="secondary" size="sm" onClick={reset}>
@@ -176,7 +178,9 @@ function drawScene(
   force: number,
   mass: number,
   velocity: number,
+  language: string,
 ) {
+  const { u: unit, n } = forceDisplay(language);
   ctx.clearRect(0, 0, CANVAS_W, CANVAS_H);
 
   ctx.strokeStyle = '#c9a876';
@@ -212,7 +216,7 @@ function drawScene(
   ctx.fillStyle = '#3d2f1f';
   ctx.font = '12px JetBrains Mono';
   ctx.textAlign = 'center';
-  ctx.fillText(`${mass.toFixed(1)} kg`, cartX + CART_W / 2, cartY + CART_H / 2 + 4);
+  ctx.fillText(`${n(mass, 1)} ${unit('kg')}`, cartX + CART_W / 2, cartY + CART_H / 2 + 4);
 
   if (force > 0) {
     const arrowLen = Math.min(90, force * 1.8);
@@ -235,7 +239,7 @@ function drawScene(
     ctx.font = '11px Inter';
     ctx.textAlign = 'center';
     ctx.fillStyle = '#3d2f1f';
-    ctx.fillText(`F = ${force.toFixed(0)} N`, (ax1 + ax2) / 2, ay - 10);
+    ctx.fillText(`F = ${n(force, 0)} ${unit('N')}`, (ax1 + ax2) / 2, ay - 10);
   }
 
   if (Math.abs(velocity) > 0.05) {
@@ -258,6 +262,6 @@ function drawScene(
     ctx.font = '10px Inter';
     ctx.fillStyle = '#6b5b47';
     ctx.textAlign = 'left';
-    ctx.fillText(`v = ${velocity.toFixed(1)} m/s`, vCenterX + vLen + 4, vy + 3);
+    ctx.fillText(`v = ${n(velocity, 1)} ${unit('m/s')}`, vCenterX + vLen + 4, vy + 3);
   }
 }

@@ -522,38 +522,32 @@
   },
   "forceMotion": {
     "title": "Force and Motion",
-    "intro": "We study how and why objects move, what makes them speed up or stop, and what happens when they collide.",
+    "intro": "Motion is a change of position over time. A force is a push or a pull. Forces can start or stop motion, or change its speed or direction. Displacement, velocity and acceleration tell us how an object moves. Mass, momentum and impulse help us connect force with motion.",
     "concepts": {
       "scalarsVectors": {
         "name": "Scalars vs Vectors",
-        "rule": "A scalar has a value without spatial direction. A vector has magnitude and direction and follows vector addition. Distance travelled is path length; displacement is the vector from start to finish.",
+        "rule": "A scalar has only a magnitude: a number with a unit, such as 4 kg. A vector has a magnitude and a direction, such as 3 m/s east. Forces along one straight line add as vectors. Their vector sum is the resultant force.",
         "examples": [
-          "A 3 m eastward walk followed by 4 m north gives distance 7 m and displacement magnitude 5 m, about 53° north of east.",
+          "A walker moves 3 m east, then 4 m north. The distance travelled is 7 m. The displacement is 5 m, about 53° north of east.",
           "5 N right plus 3 N left gives 2 N right."
         ],
         "review": {
           "englishTerm": "Scalars vs Vectors",
           "russianTerm": "Скаляры и векторы",
           "contrast": {
-            "en": "Distance travelled measures the entire path; displacement depends only on the two positions.",
-            "ru": "Путь — длина всей траектории; перемещение зависит только от начального и конечного положений."
+            "en": "Forces add with their directions taken into account. 4 N and 4 N make 8 N in the same direction, but 0 N in opposite directions.",
+            "ru": "Силы складываются с учётом направления. 4 Н и 4 Н дают 8 Н, если направлены в одну сторону, и 0 Н, если в противоположные стороны."
           },
           "model": {
-            "en": "Choose a reference frame. A round trip has zero displacement even though its distance is nonzero.",
-            "ru": "Укажи систему отсчёта. При возвращении в исходную точку перемещение равно нулю, хотя путь ненулевой."
+            "en": "Draw a vector as an arrow. The length of the arrow shows how large the vector is, and the arrowhead shows its direction.",
+            "ru": "Рисуй вектор в виде стрелки. Длина стрелки показывает модуль, а острие — направление."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "2 1 displacement"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
-              "language": "en",
-              "section": "2 3 time velocity and speed"
+              "section": "PDF 145–147"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -566,28 +560,28 @@
       },
       "newtonLaws": {
         "name": "Newton's Three Laws",
-        "rule": "In an inertial frame: (1) zero resultant force means constant velocity; (2) for constant mass, ΣF = ma; (3) interacting bodies exert simultaneous equal and opposite forces on each other.",
+        "rule": "Newton's three laws:\n\n1. an object keeps its velocity if the resultant force on it is zero.\n\n2. F = ma, where F is the resultant force (N), m is the mass (kg) and a is the acceleration (m/s²).\n\n3. the two forces in an interaction are equal in size, opposite in direction, and act on different bodies.",
         "examples": [
           "A 30 N resultant on 10 kg gives 3 m/s².",
-          "The force of a table on a book and the force of the book on the table form a third-law pair; gravity and the table force on the book do not."
+          "A rocket pushes gas backwards, and the gas pushes the rocket forwards: this is a third-law pair. The rocket's weight and the thrust are not a pair, because both act on the rocket."
         ],
         "review": {
           "englishTerm": "Newton's Three Laws",
           "russianTerm": "Три закона Ньютона",
           "contrast": {
-            "en": "F is the resultant, not necessarily a single applied force.",
-            "ru": "F — равнодействующая, которая может отличаться от отдельной приложенной силы."
+            "en": "A steady velocity needs a zero resultant force, not a constant push. A resultant force is needed only to change velocity.",
+            "ru": "Постоянная скорость требует нулевой равнодействующей силы, а не постоянного толчка. Равнодействующая сила нужна только для изменения скорости."
           },
           "model": {
-            "en": "The school equation assumes constant mass and speeds much smaller than light speed.",
-            "ru": "Школьная формула предполагает постоянную массу и скорости намного меньше скорости света."
+            "en": "Solve in three steps. First, list all the forces on the body. Then add them as vectors to find the resultant force. Finally, use F = ma.",
+            "ru": "Решай в три шага. Сначала перечисли все силы, действующие на тело. Затем сложи их как векторы и найди равнодействующую силу. Потом примени F = ma."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "4 3 newtons second law of motion concept of a system"
+              "section": "PDF 179–184, 203–204"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -602,12 +596,6 @@
               "section": "1.11. Вес и невесомость"
             },
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/4-4-newtons-third-law-of-motion-symmetry-in-forces",
-              "language": "en",
-              "section": "4 4 newtons third law of motion symmetry in forces"
-            },
-            {
               "title": "Физикон · Открытая физика",
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph9/theory.html",
               "language": "ru",
@@ -618,34 +606,28 @@
       },
       "momentumImpulse": {
         "name": "Momentum & Impulse",
-        "rule": "Momentum p = mv is a vector. Net impulse J = FavgΔt equals Δp. A system’s total momentum is conserved over an interval if the net external impulse is zero.",
+        "rule": "Momentum, p = mv, is a vector in the direction of the velocity; its unit is kg·m/s. The impulse of a force, J = FavgΔt, equals the change in momentum, Δp. In a collision, the total momentum before equals the total momentum after if external forces are negligible. Here m is mass (kg), v is velocity (m/s), Favg is average resultant force (N), and Δt is duration (s); J is in N·s.",
         "examples": [
-          "Stopping a 2 kg object moving at 3 m/s east requires impulse 6 N·s west.",
-          "For the same momentum change, a longer stopping time gives a smaller average force."
+          "Stopping a 1.5 kg box sliding east at 4 m/s needs an impulse of 6 N·s to the west.",
+          "A 0.2 kg ball hits a wall at 5 m/s and bounces back at 5 m/s. Its momentum changes by 2 kg·m/s. If it stopped dead, the change would be only 1 kg·m/s."
         ],
         "review": {
           "englishTerm": "Momentum & Impulse",
-          "russianTerm": "Импульс и изменение импульса",
+          "russianTerm": "Импульс тела и импульс силы",
           "contrast": {
-            "en": "Momentum describes a state of motion; impulse describes its change.",
-            "ru": "Импульс тела характеризует движение, а импульс силы — изменение импульса тела."
+            "en": "Momentum is conserved in every collision with negligible external forces. Kinetic energy is conserved only in an elastic collision.",
+            "ru": "Импульс сохраняется при любом столкновении, если внешние силы пренебрежимо малы. Кинетическая энергия (kinetic energy) сохраняется только при упругом столкновении."
           },
           "model": {
-            "en": "If force varies, use the average force or the signed area of a force–time graph.",
-            "ru": "При переменной силе используй среднюю силу или площадь графика силы от времени с учётом знака."
+            "en": "An airbag or the crumple zone of a car lengthens the stopping time. The same change in momentum then needs a smaller average force on the passenger.",
+            "ru": "Подушка безопасности или зона деформации кузова удлиняет время остановки. Поэтому при том же изменении импульса средняя сила, действующая на пассажира, меньше."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "8 1 linear momentum and force"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
-              "language": "en",
-              "section": "8 2 impulse"
+              "section": "PDF 182, 203–204"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -657,69 +639,63 @@
         }
       },
       "motionGraphs": {
-        "name": "Motion graphs (interpretation)",
-        "rule": "The gradient of a distance–time graph gives speed; the gradient of a position–time graph gives velocity. A velocity–time gradient gives acceleration, and its signed area gives displacement. Total distance is the area under speed = |velocity|.",
+        "name": "Reading motion graphs",
+        "rule": "The gradient of a distance–time graph gives speed. On a velocity–time graph, the gradient gives acceleration and the signed area gives displacement. The area under a speed–time graph gives distance travelled.",
         "examples": [
-          "At +3 m/s for 2 s and −3 m/s for 2 s, displacement is 0 m but distance is 12 m.",
-          "A negative gradient with negative velocity means increasing speed, not slowing."
+          "A car speeds up from 0 to 6 m/s in 3 s. The gradient of its speed–time graph is 2 m/s². The area under the graph is ½ × 3 s × 6 m/s = 9 m.",
+          "A horizontal line on a distance–time graph means the object has stopped: its gradient, and so its speed, is zero."
         ],
         "review": {
-          "englishTerm": "Motion graphs (interpretation)",
-          "russianTerm": "Графики движения (расшифровка)",
+          "englishTerm": "Reading motion graphs",
+          "russianTerm": "Как читать графики движения",
           "contrast": {
-            "en": "An object can accelerate by changing direction while its speed stays constant.",
-            "ru": "Ускорение возникает и при изменении направления движения с постоянным модулем скорости."
+            "en": "On a distance–time graph, height shows how far the object has gone, not how fast it moves. Speed is the steepness of the line, not its height.",
+            "ru": "На графике «путь — время» высота точки показывает, как далеко ушло тело, а не его скорость. Скорость — это наклон линии, а не её высота."
           },
           "model": {
-            "en": "Negative acceleration means the negative axis direction; it means slowing only when opposite to velocity.",
-            "ru": "Отрицательная проекция ускорения задаёт направление оси; торможение происходит, когда ускорение направлено против скорости."
+            "en": "Check the units of the gradient: m/s means speed, and m/s² means acceleration. The unit of an area is found by multiplying the axis units: m/s × s = m.",
+            "ru": "Проверь единицы наклона: м/с — это скорость, м/с² — ускорение. Единицу площади находят, перемножив единицы осей: м/с × с = м."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-4-acceleration",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "2 4 acceleration"
+              "section": "PDF 154–156"
             },
             {
               "title": "Физикон · Открытая физика",
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph1/theory.html",
               "language": "ru",
               "section": "1.1. Основные понятия кинематики"
-            },
-            {
-              "title": "AQA · GCSE Physics: motion graphs",
-              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
-              "language": "en",
-              "section": "4.5.6.1 Speed, velocity and acceleration: slopes and area under velocity–time graphs"
             }
           ]
         }
       },
       "terminalVelocity": {
-        "name": "Terminal velocity",
-        "rule": "During falling in a fluid, drag usually grows with speed. A constant terminal velocity is reached when the upward fluid forces balance gravity, giving zero resultant and acceleration.",
+        "name": "Drag and steady falling",
+        "rule": "During a fall in a fluid, drag grows with speed. The object speeds up until drag equals weight. After that its speed stays constant: this is the terminal velocity. In this simple model, upthrust is ignored.",
         "examples": [
           "Opening a parachute increases drag at the existing speed; the falling person slows until forces balance at a lower speed.",
-          "In a vacuum there is no drag-limited terminal velocity; acceleration still depends on the gravitational field."
+          "Near Earth, an object dropped from rest in a vacuum accelerates at g = 9.8 m/s². After 3 s, v = gt = 9.8 m/s² × 3 s = 29.4 m/s, where v is speed and t is time."
         ],
         "review": {
-          "englishTerm": "Terminal velocity",
-          "russianTerm": "Установившаяся скорость",
+          "englishTerm": "Steady fall",
+          "russianTerm": "Равномерное падение",
           "contrast": {
             "en": "Zero acceleration does not mean the object has stopped.",
             "ru": "Нулевое ускорение не означает остановку."
           },
           "model": {
-            "en": "The terminal value depends on the fluid, shape and orientation; there is no drag-limited terminal speed in vacuum.",
-            "ru": "Значение зависит от среды, формы и положения тела; в вакууме предельной скорости из-за сопротивления нет."
+            "en": "Terminal velocity depends on the fluid, the shape and the orientation of the object. A skydiver falling head first has a higher terminal velocity than one falling belly-down.",
+            "ru": "Установившаяся скорость зависит от среды, формы и положения тела. Парашютист, падающий головой вниз, имеет большую установившуюся скорость, чем падающий животом вниз."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/5-2-drag-forces",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "5 2 drag forces"
+              "section": "PDF 191–196"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -732,46 +708,34 @@
       },
       "stoppingDistance": {
         "name": "Stopping distance — thinking + braking",
-        "rule": "Stopping distance = thinking distance + braking distance. At constant speed during reaction, thinking distance = vtreaction. With constant braking deceleration magnitude a, braking distance = v²/(2a).",
+        "rule": "Stopping distance = thinking distance + braking distance. Thinking distance = speed × reaction time. With a constant deceleration a, braking distance = v²/(2a). Here v is the initial speed (m/s) and a is the positive magnitude of constant deceleration (m/s²).",
         "examples": [
-          "At 10 m/s, reaction time 1 s and braking deceleration 5 m/s² give 10 + 10 = 20 m.",
-          "At 20 m/s with the same reaction time and deceleration, the distances become 20 + 40 = 60 m."
+          "At 10 m/s, with a reaction time of 1 s and a deceleration of 5 m/s², the thinking distance is 10 m. The braking distance is 10 m, so the stopping distance is 10 m + 10 m = 20 m.",
+          "At 20 m/s, with the same reaction time (1 s) and deceleration (5 m/s²), the thinking distance is 20 m. The braking distance is 40 m, so the stopping distance is 20 m + 40 m = 60 m."
         ],
         "review": {
-          "englishTerm": "Stopping distance — thinking + braking",
-          "russianTerm": "Тормозной путь — реакция + торможение",
+          "englishTerm": "Stopping distance",
+          "russianTerm": "Остановочный путь",
           "contrast": {
             "en": "Stopping distance also includes the distance travelled during the driver’s reaction.",
             "ru": "Остановочный путь включает также путь за время реакции водителя."
           },
           "model": {
-            "en": "Distance is proportional to speed squared only if the braking deceleration remains the same.",
-            "ru": "Зависимость от квадрата начальной скорости верна при одинаковом постоянном замедлении."
+            "en": "Doubling the speed doubles the thinking distance, but it makes the braking distance four times larger if the deceleration stays the same.",
+            "ru": "Удвоение скорости удваивает путь за время реакции, а тормозной путь при том же замедлении становится в 4 раза больше."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "7 1 work the scientific definition"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
-              "language": "en",
-              "section": "7 7 power"
+              "section": "PDF 154–156 (kinematic basis; reaction time supplied in each example)"
             },
             {
               "title": "Физикон · Открытая физика",
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
               "language": "ru",
               "section": "1.18. Механическая работа и мощность"
-            },
-            {
-              "title": "AQA · GCSE Physics: forces and braking",
-              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
-              "language": "en",
-              "section": "4.5.6.3.1 Stopping distance; 4.5.6.3.2 Reaction time; 4.5.6.3.3–4 Braking distance"
             }
           ]
         }
@@ -787,25 +751,19 @@
           "englishTerm": "Scalar",
           "russianTerm": "Скаляр",
           "contrast": {
-            "en": "A vector also needs direction; a negative scalar need not describe a direction.",
-            "ru": "Для вектора нужно направление; знак минус у скаляра не обязательно задаёт направление."
+            "en": "A minus sign on a scalar does not mean backwards: −5 °C is simply a temperature below zero.",
+            "ru": "Минус у скаляра не значит «назад»: −5 °C — это просто температура ниже нуля."
           },
           "model": {
-            "en": "For example, −5 °C is a temperature, not a vector pointing backwards.",
-            "ru": "Например, −5 °C — температура, а не вектор, направленный назад."
+            "en": "Scalars have no spatial direction. For example, combine masses by ordinary addition: 3 kg + 2 kg = 5 kg.",
+            "ru": "У скаляров нет пространственного направления. Например, массы складывают как обычные числа: 3 кг + 2 кг = 5 кг."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "2 1 displacement"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
-              "language": "en",
-              "section": "2 3 time velocity and speed"
+              "section": "PDF 145–147"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -820,7 +778,7 @@
         "name": "Vector",
         "alt": "Вектор",
         "definition": "A quantity with magnitude and direction that combines by vector addition.",
-        "example": "Forces of 5 N east and 3 N west give 2 N east.",
+        "example": "A 5 N force to the right is a vector: its magnitude is 5 N and its direction is to the right.",
         "review": {
           "englishTerm": "Vector",
           "russianTerm": "Вектор",
@@ -834,16 +792,10 @@
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "2 1 displacement"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
-              "language": "en",
-              "section": "2 3 time velocity and speed"
+              "section": "PDF 145–147"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -857,31 +809,25 @@
       "displacement": {
         "name": "Displacement",
         "alt": "Перемещение",
-        "definition": "The vector from an object’s initial position to its final position: Δr = rfinal − rinitial.",
+        "definition": "Displacement is the vector from an object’s initial position to its final position. In one dimension, s = final position − initial position, measured in metres.",
         "example": "Walk 3 m east and then 1 m west: displacement is 2 m east; distance travelled is 4 m.",
         "review": {
           "englishTerm": "Displacement",
           "russianTerm": "Перемещение",
           "contrast": {
-            "en": "Distance travelled measures the entire path; displacement depends only on the two positions.",
-            "ru": "Путь — длина всей траектории; перемещение зависит только от начального и конечного положений."
+            "en": "Displacement is a change of position, not the position itself.",
+            "ru": "Перемещение — это изменение положения, а не само положение тела."
           },
           "model": {
-            "en": "Choose a reference frame. A round trip has zero displacement even though its distance is nonzero.",
-            "ru": "Укажи систему отсчёта. При возвращении в исходную точку перемещение равно нулю, хотя путь ненулевой."
+            "en": "Draw an arrow from the start point to the end point. Its length and direction give the displacement, whatever route was taken.",
+            "ru": "Проведи стрелку из начальной точки в конечную. Её длина и направление дают перемещение, каким бы ни был путь."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "2 1 displacement"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
-              "language": "en",
-              "section": "2 3 time velocity and speed"
+              "section": "PDF 145–147"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -895,31 +841,25 @@
       "velocity": {
         "name": "Velocity",
         "alt": "Векторная скорость",
-        "definition": "The vector rate of change of position. Average velocity is displacement divided by elapsed time: vavg = Δr/Δt.",
-        "example": "A 2 m eastward displacement in 4 s gives an average velocity of 0.5 m/s east.",
+        "definition": "Velocity is the vector rate of change of position. Average velocity is vavg = s/t, where s is displacement (m) and t is elapsed time (s). Its unit is m/s.",
+        "example": "A 2 m displacement east in 4 s gives vavg = 2 m ÷ 4 s = 0.5 m/s east.",
         "review": {
           "englishTerm": "Velocity",
-          "russianTerm": "Векторная скорость",
+          "russianTerm": "Скорость",
           "contrast": {
             "en": "Average speed uses total distance/time; instantaneous speed is the magnitude of instantaneous velocity.",
             "ru": "Средняя путевая скорость равна пути, делённому на время; мгновенная путевая скорость равна модулю вектора скорости."
           },
           "model": {
-            "en": "Instantaneous velocity describes one moment; Δr/Δt over a finite interval gives an average.",
-            "ru": "Мгновенная скорость относится к одному моменту; отношение Δr/Δt за конечный интервал даёт среднюю скорость."
+            "en": "Instantaneous velocity describes one moment. Over a time interval, average velocity can differ from the instantaneous velocity at some moments.",
+            "ru": "Мгновенная скорость относится к одному моменту. За интервал времени средняя векторная скорость может отличаться от мгновенной скорости в некоторые моменты."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "2 1 displacement"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
-              "language": "en",
-              "section": "2 3 time velocity and speed"
+              "section": "PDF 145–156"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -933,25 +873,25 @@
       "acceleration": {
         "name": "Acceleration",
         "alt": "Ускорение",
-        "definition": "The vector rate of change of velocity; average acceleration is Δv/Δt, in m/s².",
+        "definition": "Acceleration is the vector rate of change of velocity. Average acceleration is a = Δv/Δt, measured in m/s². Δv is the change in velocity (m/s); Δt is elapsed time (s).",
         "example": "Changing from 2 to 8 m/s east in 3 s gives 2 m/s² east.",
         "review": {
           "englishTerm": "Acceleration",
           "russianTerm": "Ускорение",
           "contrast": {
-            "en": "An object can accelerate by changing direction while its speed stays constant.",
-            "ru": "Ускорение возникает и при изменении направления движения с постоянным модулем скорости."
+            "en": "Acceleration is not only speeding up: slowing down is also an acceleration, because the velocity changes.",
+            "ru": "Ускорение — не только разгон: торможение — тоже ускорение, потому что скорость меняется."
           },
           "model": {
-            "en": "Negative acceleration means the negative axis direction; it means slowing only when opposite to velocity.",
-            "ru": "Отрицательная проекция ускорения задаёт направление оси; торможение происходит, когда ускорение направлено против скорости."
+            "en": "Slowing down means the acceleration is opposite to the velocity, not that the acceleration is negative. For example, a velocity of −5 m/s and an acceleration of +2 m/s² mean the object is slowing down.",
+            "ru": "Торможение означает, что ускорение направлено против скорости, а не то, что ускорение отрицательное. Например, скорость −5 м/с и ускорение +2 м/с² означают, что тело замедляется."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/2-4-acceleration",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "2 4 acceleration"
+              "section": "PDF 155–156"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -966,7 +906,7 @@
         "name": "Resultant force",
         "alt": "Равнодействующая сила",
         "definition": "The vector sum of all forces acting on the chosen object.",
-        "example": "10 N right and 4 N left give a resultant of 6 N right.",
+        "example": "5 N right and 9 N left give a resultant of 4 N left.",
         "review": {
           "englishTerm": "Resultant force",
           "russianTerm": "Равнодействующая сила",
@@ -980,10 +920,10 @@
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "4 1 development of force concept"
+              "section": "PDF 128–129, 182"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -997,8 +937,8 @@
       "newton1": {
         "name": "Newton's First Law",
         "alt": "Первый закон Ньютона",
-        "definition": "In an inertial reference frame, an object with zero resultant force remains at rest or moves with constant velocity.",
-        "example": "A puck continues straight at steady speed if horizontal forces are negligible.",
+        "definition": "An object keeps its velocity if the resultant force on it is zero. It stays at rest or moves in a straight line at constant speed. This tendency is called inertia.",
+        "example": "A puck sliding on smooth ice keeps moving in a straight line at steady speed. Its weight is balanced by the upward push of the ice, and friction is almost zero.",
         "review": {
           "englishTerm": "Newton's First Law",
           "russianTerm": "Первый закон Ньютона",
@@ -1007,15 +947,15 @@
             "ru": "Постоянный модуль скорости на повороте не означает постоянного вектора скорости."
           },
           "model": {
-            "en": "An inertial frame does not accelerate or rotate relative to another inertial frame.",
-            "ru": "Инерциальная система не ускоряется и не вращается относительно другой инерциальной системы."
+            "en": "The law holds in an inertial frame, approximated by the road. In a braking car, an unrestrained object can move forwards relative to the car even with no resultant horizontal force on it.",
+            "ru": "Закон выполняется в инерциальной системе отсчёта; приближённый пример — система, связанная с дорогой. В тормозящей машине незакреплённый предмет смещается вперёд относительно салона даже при нулевой горизонтальной равнодействующей."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "4 3 newtons second law of motion concept of a system"
+              "section": "PDF 179–181"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -1035,25 +975,25 @@
       "newton2": {
         "name": "Newton's Second Law",
         "alt": "Второй закон Ньютона",
-        "definition": "For constant mass in an inertial frame, resultant force equals mass times acceleration: ΣF = ma.",
-        "example": "A 6 N resultant on 2 kg gives 3 m/s² in the force direction.",
+        "definition": "The resultant force on an object equals its mass times its acceleration: F = ma. Here F is in newtons (N), m in kilograms (kg) and a in metres per second squared (m/s²).",
+        "example": "A resultant force of 6 N acts on a 2 kg trolley. The acceleration is a = F/m = 6 N / 2 kg = 3 m/s², in the direction of the force.",
         "review": {
           "englishTerm": "Newton's Second Law",
           "russianTerm": "Второй закон Ньютона",
           "contrast": {
-            "en": "F is the resultant, not necessarily a single applied force.",
-            "ru": "F — равнодействующая, которая может отличаться от отдельной приложенной силы."
+            "en": "In F = ma, F is the resultant of all the forces, not a single force. A 10 N push opposed by 4 N of friction gives F = 10 N − 4 N = 6 N, not 10 N.",
+            "ru": "В формуле F = ma сила F — равнодействующая всех сил, а не одна из них. Толчок 10 Н, которому противостоит трение 4 Н, даёт F = 10 Н − 4 Н = 6 Н, а не 10 Н."
           },
           "model": {
-            "en": "The school equation assumes constant mass and speeds much smaller than light speed.",
-            "ru": "Школьная формула предполагает постоянную массу и скорости намного меньше скорости света."
+            "en": "F = ma assumes that the mass stays constant while the force acts. Convert grams to kilograms before you calculate: 500 g = 0.5 kg.",
+            "ru": "Формула F = ma верна, если масса тела постоянна, пока действует сила. Переводи граммы в килограммы до вычислений: 500 г = 0,5 кг."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "4 3 newtons second law of motion concept of a system"
+              "section": "PDF 182–184"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -1073,14 +1013,14 @@
       "newton3": {
         "name": "Newton's Third Law",
         "alt": "Третий закон Ньютона",
-        "definition": "If A exerts a force on B, B simultaneously exerts an equal-magnitude, opposite-direction force on A.",
+        "definition": "If body A exerts a force on body B, body B simultaneously exerts a force on body A. The two forces are equal in size and opposite in direction.",
         "example": "A foot pushes the ground backwards; the ground pushes the foot forwards.",
         "review": {
           "englishTerm": "Newton's Third Law",
           "russianTerm": "Третий закон Ньютона",
           "contrast": {
-            "en": "The two forces act on different bodies, so they do not balance on one body.",
-            "ru": "Эти силы приложены к разным телам и не уравновешивают друг друга на одном теле."
+            "en": "Action and reaction act on different bodies, so they cannot balance each other on a single body. Two forces on the same body, such as a book's weight and the support force from the table, can balance.",
+            "ru": "Силы действия и противодействия (action and reaction) приложены к разным телам, поэтому не могут уравновесить друг друга. Две силы, приложенные к одному телу, например сила тяжести книги и сила реакции опоры стола, могут уравновешивать друг друга."
           },
           "model": {
             "en": "Equal forces can cause unequal accelerations when the masses differ.",
@@ -1088,10 +1028,10 @@
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/4-4-newtons-third-law-of-motion-symmetry-in-forces",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "4 4 newtons third law of motion symmetry in forces"
+              "section": "PDF 203–204"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -1105,8 +1045,8 @@
       "momentum": {
         "name": "Momentum",
         "alt": "Импульс",
-        "definition": "Linear momentum is mass multiplied by velocity, so it is a vector: p = mv, in kg·m/s.",
-        "example": "A 2 kg trolley at 3 m/s east has momentum 6 kg·m/s east.",
+        "definition": "Momentum is mass multiplied by velocity: p = mv. It is a vector, in the same direction as the velocity, with the unit kg·m/s.",
+        "example": "A 2 kg trolley moves east at 3 m/s. Its momentum is p = mv = 2 kg × 3 m/s = 6 kg·m/s to the east.",
         "review": {
           "englishTerm": "Momentum",
           "russianTerm": "Импульс",
@@ -1115,21 +1055,15 @@
             "ru": "Импульс — вектор, а кинетическая энергия ½mv² — скаляр."
           },
           "model": {
-            "en": "Use p = mv for nonrelativistic motion. Total momentum is conserved when external impulse is zero.",
-            "ru": "Формула p = mv применяется при нерелятивистском движении. Суммарный импульс сохраняется при нулевом внешнем импульсе силы."
+            "en": "The total momentum of a system stays the same if the resultant external force on the system is zero.",
+            "ru": "Суммарный импульс системы тел не меняется, если равнодействующая внешних сил равна нулю."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "8 1 linear momentum and force"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
-              "language": "en",
-              "section": "8 2 impulse"
+              "section": "PDF 182, 203–204"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -1143,31 +1077,25 @@
       "impulse": {
         "name": "Impulse",
         "alt": "Импульс силы",
-        "definition": "Impulse is the accumulated action of a force over time; net impulse equals the change in momentum.",
-        "example": "For a constant or average resultant, J = FavgΔt = Δp, in N·s.",
+        "definition": "Impulse is the average resultant force multiplied by the time for which it acts. It equals the change in momentum of the object.",
+        "example": "A 4 N resultant force acts on a ball for 3 s. The impulse is J = FΔt = 4 N × 3 s = 12 N·s, so the momentum of the ball changes by 12 kg·m/s.",
         "review": {
           "englishTerm": "Impulse",
           "russianTerm": "Импульс силы",
           "contrast": {
-            "en": "Momentum describes a state of motion; impulse describes its change.",
-            "ru": "Импульс тела характеризует движение, а импульс силы — изменение импульса тела."
+            "en": "Impulse is not a force: its unit is N·s, while force is measured in N.",
+            "ru": "Импульс силы — не сила: его единица Н·с, а сила измеряется в Н."
           },
           "model": {
-            "en": "If force varies, use the average force or the signed area of a force–time graph.",
-            "ru": "При переменной силе используй среднюю силу или площадь графика силы от времени с учётом знака."
+            "en": "A small force acting for a long time can give the same impulse as a large force acting for a short time. For example, 1 N for 8 s and 4 N for 2 s both give 8 N·s. For a force that changes, use the average force or the area under the force–time graph.",
+            "ru": "Небольшая сила, действующая долго, может дать тот же импульс, что большая сила, действующая недолго. Например, сила 1 Н, действующая 8 с, и сила 4 Н, действующая 2 с, дают одинаковый импульс: 8 Н·с. Если сила меняется, используй среднюю силу или площадь под графиком силы от времени."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "8 1 linear momentum and force"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
-              "language": "en",
-              "section": "8 2 impulse"
+              "section": "PDF 182"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -1181,25 +1109,25 @@
       "terminalVelocity": {
         "name": "Terminal velocity",
         "alt": "Установившаяся скорость",
-        "definition": "The constant falling velocity reached when drag and buoyancy together balance gravitational force.",
-        "example": "For a skydiver, buoyancy is usually neglected, so drag ≈ mg at terminal velocity.",
+        "definition": "The constant falling velocity at which drag balances weight, so the resultant force is zero.",
+        "example": "A 70 kg skydiver at terminal velocity: W = mg = 70 kg × 9.8 N/kg = 686 N, so the drag is also 686 N.",
         "review": {
           "englishTerm": "Terminal velocity",
           "russianTerm": "Установившаяся скорость",
           "contrast": {
-            "en": "Zero acceleration does not mean the object has stopped.",
-            "ru": "Нулевое ускорение не означает остановку."
+            "en": "The object does not reach terminal velocity at once: it speeds up first, and its acceleration falls gradually to zero.",
+            "ru": "Тело не сразу достигает установившейся скорости: сначала оно разгоняется, а ускорение постепенно падает до нуля."
           },
           "model": {
-            "en": "The terminal value depends on the fluid, shape and orientation; there is no drag-limited terminal speed in vacuum.",
-            "ru": "Значение зависит от среды, формы и положения тела; в вакууме предельной скорости из-за сопротивления нет."
+            "en": "For objects of the same size, shape and orientation in the same fluid, greater mass gives a higher terminal velocity. This falling model neglects upthrust.",
+            "ru": "При одинаковых размерах, форме и положении тела в одной среде большая масса даёт большую установившуюся скорость. В этой модели падения выталкивающей силой пренебрегают."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/5-2-drag-forces",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "5 2 drag forces"
+              "section": "PDF 191–196"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -1214,7 +1142,7 @@
         "name": "Reaction time",
         "alt": "Время реакции",
         "definition": "The interval between detecting a stimulus and beginning the response.",
-        "example": "At 15 m/s, a 0.8 s reaction time gives 12 m thinking distance.",
+        "example": "At 15 m/s, a 0.8 s reaction time means the car covers 15 m/s × 0.8 s = 12 m before braking starts.",
         "review": {
           "englishTerm": "Reaction time",
           "russianTerm": "Время реакции",
@@ -1223,8 +1151,8 @@
             "ru": "Время реакции — длительность; путь за время реакции — расстояние."
           },
           "model": {
-            "en": "Thinking distance = speed × reaction time assumes speed stays constant before braking.",
-            "ru": "Формула пути за время реакции предполагает постоянную скорость до начала торможения."
+            "en": "During the reaction time the car keeps its original speed, because the brakes have not been applied yet.",
+            "ru": "За время реакции автомобиль сохраняет прежнюю скорость, потому что тормоза ещё не включены."
           },
           "sources": [
             {
@@ -1263,37 +1191,25 @@
           "englishTerm": "Braking distance",
           "russianTerm": "Тормозной путь",
           "contrast": {
-            "en": "Stopping distance also includes the distance travelled during the driver’s reaction.",
-            "ru": "Остановочный путь включает также путь за время реакции водителя."
+            "en": "Braking distance is a length in metres. The braking time is a different quantity, measured in seconds.",
+            "ru": "Тормозной путь (braking distance) — это длина в метрах. Время торможения — другая величина, её измеряют в секундах."
           },
           "model": {
-            "en": "Distance is proportional to speed squared only if the braking deceleration remains the same.",
-            "ru": "Зависимость от квадрата начальной скорости верна при одинаковом постоянном замедлении."
+            "en": "A smaller deceleration gives a longer braking distance. Braking distance = v²/(2a), so halving the deceleration doubles the braking distance. Here v is the initial speed (m/s) and a is the positive magnitude of constant deceleration (m/s²).",
+            "ru": "Меньшее замедление даёт больший тормозной путь. Тормозной путь = v²/(2a), поэтому при уменьшении замедления вдвое тормозной путь удваивается. Здесь v — начальная скорость (м/с), a — положительный модуль постоянного замедления (м/с²)."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "7 1 work the scientific definition"
-            },
-            {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
-              "language": "en",
-              "section": "7 7 power"
+              "section": "PDF 154–156 (kinematic basis; braking result derived)"
             },
             {
               "title": "Физикон · Открытая физика",
               "url": "https://physics.ru/courses/op25part1/content/chapter1/section/paragraph18/theory.html",
               "language": "ru",
               "section": "1.18. Механическая работа и мощность"
-            },
-            {
-              "title": "AQA · GCSE Physics: forces and braking",
-              "url": "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/forces",
-              "language": "en",
-              "section": "4.5.6.3.1 Stopping distance; 4.5.6.3.2 Reaction time; 4.5.6.3.3–4 Braking distance"
             }
           ]
         }
@@ -1301,25 +1217,25 @@
       "mass": {
         "name": "Mass",
         "alt": "Масса",
-        "definition": "A measure of an object’s inertia: for a given resultant force, greater mass gives less acceleration. SI unit: kilogram.",
-        "example": "A 2 kg object under 6 N has acceleration 3 m/s².",
+        "definition": "Mass (m) is a measure of an object's inertia: for the same resultant force, a greater mass gives a smaller acceleration. The SI unit of mass is the kilogram (kg).",
+        "example": "The same 8 N resultant force gives a 2 kg trolley an acceleration of a = 8 N / 2 kg = 4 m/s². A 4 kg trolley gets only a = 8 N / 4 kg = 2 m/s².",
         "review": {
           "englishTerm": "Mass",
           "russianTerm": "Масса",
           "contrast": {
-            "en": "Mass is not a force; gravitational weight is mg and is measured in newtons.",
-            "ru": "Масса — не сила; сила тяжести mg измеряется в ньютонах."
+            "en": "Mass is not a force: it is measured in kilograms. Weight is a force, W = mg, measured in newtons.",
+            "ru": "Масса — не сила: её измеряют в килограммах. Сила тяжести Fтяж = mg измеряется в ньютонах."
           },
           "model": {
-            "en": "This inertial definition and F = ma use the constant-mass, nonrelativistic model.",
-            "ru": "Это определение и F = ma используются в нерелятивистской модели с постоянной массой."
+            "en": "Mass does not depend on location. On the Moon, the same object keeps its mass, but its weight is smaller.",
+            "ru": "Масса не зависит от места. На Луне то же тело сохраняет массу, но сила тяжести у него меньше."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "4 3 newtons second law of motion concept of a system"
+              "section": "PDF 181–184"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -1339,25 +1255,25 @@
       "weight": {
         "name": "Weight (gravitational force)",
         "alt": "Сила тяжести",
-        "definition": "In this English course, weight is the gravitational force on an object: W = mg near Earth’s surface.",
-        "example": "A freely falling object still has gravitational weight even when a scale carried with it reads zero.",
+        "definition": "Weight is the gravitational force on an object: W = mg near the Earth’s surface.",
+        "example": "A 5 kg bag has weight W = mg = 5 kg × 9.8 N/kg = 49 N.",
         "review": {
           "englishTerm": "Weight (gravitational force)",
           "russianTerm": "Сила тяжести",
           "contrast": {
-            "en": "Russian school «вес» usually means the force a body exerts on a support or suspension; this differs from gravitational force.",
-            "ru": "В русской школьной терминологии «вес» — сила действия тела на опору или подвес; это не то же самое, что сила тяжести."
+            "en": "Mass (kg) stays the same everywhere; weight (N) changes with the gravitational field strength g.",
+            "ru": "Масса (кг) одинакова везде; сила тяжести (Н) зависит от ускорения свободного падения g."
           },
           "model": {
-            "en": "For a stationary supported body their magnitudes may both equal mg, but the forces act on different objects.",
-            "ru": "Для неподвижного тела модули могут быть равны mg, но силы приложены к разным телам."
+            "en": "In everyday use, “weight” means the force an object exerts on a support or a spring balance. At rest on a level scale, this force equals mg, but it acts on the scale, not on the object. In free fall the scale reads zero, while the gravitational force is still mg.",
+            "ru": "В быту и в русской школе «вес» — это сила, с которой тело давит на опору или растягивает подвес. Для неподвижного тела на горизонтальных весах вес равен mg, но приложен к весам. Сила тяжести Fтяж приложена к самому телу. При свободном падении весы показывают ноль, а Fтяж остаётся равной mg."
           },
           "sources": [
             {
-              "title": "OpenStax · College Physics 2e",
-              "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+              "title": "Paul Morris · Physics for the IB MYP 4&5: By Concept (Hodder)",
+              "url": "https://www.hachettelearning.com/physics/physics-for-the-ib-myp-4-5",
               "language": "en",
-              "section": "4 3 newtons second law of motion concept of a system"
+              "section": "PDF 78, 193"
             },
             {
               "title": "Физикон · Открытая физика",
@@ -1377,40 +1293,39 @@
     },
     "formulas": {
       "speed": "v = s / t",
-      "speedCaption": "Average speed: distance over time",
+      "speedCaption": "Average velocity v (m/s) = s / t: s is displacement (m), t is elapsed time (s).",
       "acceleration": "a = (v − u) / t",
-      "accelerationCaption": "Acceleration: change in velocity over time",
+      "accelerationCaption": "Average acceleration a (m/s²): v is final velocity (m/s), u is initial velocity (m/s), t is elapsed time (s).",
       "newton2": "F = m × a",
-      "newton2Caption": "Newton's Second Law",
+      "newton2Caption": "Newton's Second Law: resultant force F (N) equals mass m (kg) times acceleration a (m/s²).",
       "momentum": "p = m × v",
-      "momentumCaption": "Momentum",
+      "momentumCaption": "Momentum p (kg·m/s) = mass m (kg) × velocity v (m/s). Momentum has the direction of velocity.",
       "impulse": "J = F × Δt = Δp",
-      "impulseCaption": "Impulse equals change in momentum"
+      "impulseCaption": "Impulse J (N·s) equals average resultant force F (N) × duration Δt (s), and equals the change in momentum Δp (kg·m/s)."
     },
     "sim1": {
       "title": "Newton's Second Law (F = ma)",
-      "desc": "The horizontal model uses constant mass, a resultant force and no friction unless shown.",
-      "mass": "Mass",
-      "force": "Applied force",
-      "acceleration": "Acceleration",
-      "velocity": "Current velocity",
-      "chartTitle": "Velocity vs Time"
+      "desc": "Drag the mass and force sliders. There is no friction, so the resultant force equals the applied force. The acceleration is a = F / m. The speed–time graph extends as the object moves.",
+      "mass": "Mass m",
+      "force": "Applied force F",
+      "acceleration": "Acceleration a",
+      "velocity": "Current velocity v",
+      "chartTitle": "Speed–time graph"
     },
     "sim2": {
       "title": "Terminal Velocity",
-      "desc": "Drag is modelled as proportional to speed squared; air density, mass and g are fixed. Buoyancy is neglected.",
+      "desc": "In this model, air resistance is proportional to the square of the speed. Air density and g are fixed, and upthrust is ignored. Move the mass and drag coefficient sliders, then watch the speed–time graph. Press Deploy parachute to make the drag much larger. The speed levels off at the dashed line, where air resistance equals weight.",
       "skydiverMass": "Skydiver mass",
       "dragCoefficient": "Drag coefficient",
       "deployParachute": "Deploy parachute",
-      "reset": "Reset",
       "currentSpeed": "Speed",
-      "weight": "Weight",
+      "weight": "Weight W",
       "drag": "Air resistance",
-      "chartTitle": "Speed vs Time"
+      "chartTitle": "Speed–time graph"
     },
     "sim3": {
-      "title": "Momentum Collision",
-      "desc": "One-dimensional collisions with negligible external impulse. Elastic collisions conserve kinetic energy; the inelastic option sticks the objects together.",
+      "title": "Collisions and momentum",
+      "desc": "Use the sliders to set the masses and velocities; a negative velocity means movement to the left. Switch between elastic and inelastic collisions. After a perfectly inelastic collision, the two bodies stick together and move as one. The two-body system has no external forces, so total momentum is conserved. When a body reaches the edge of the view, a new trial begins.",
       "m1": "Mass 1",
       "m2": "Mass 2",
       "v1": "Velocity 1",
@@ -1419,21 +1334,21 @@
       "totalAfter": "Total momentum after"
     },
     "sim4": {
-      "title": "Reaction & Braking Distance",
-      "desc": "Constant speed during reaction; constant deceleration during braking. Distances change if those assumptions change.",
+      "title": "Stopping distance: reaction and braking",
+      "desc": "Move the speed and reaction time sliders, then choose a road. Before braking, the speed stays constant. During braking, the deceleration stays constant. The two coloured sections of the road show the thinking and braking distances. Their sum is the stopping distance.",
       "speed": "Car speed",
       "reactionTime": "Reaction time",
       "road": "Road condition",
       "roadDry": "Dry",
       "roadWet": "Wet",
       "roadIce": "Ice",
-      "reactionDistance": "Reaction distance",
+      "reactionDistance": "Thinking distance",
       "brakingDistance": "Braking distance",
-      "stoppingDistance": "Total stopping distance"
+      "stoppingDistance": "Stopping distance"
     },
     "simVectors": {
       "title": "Vector Addition",
-      "desc": "Combine two forces tip-to-tail and read the resultant — magnitude and direction.",
+      "desc": "Use the sliders to set the size and the angle of each force. The angle is measured anticlockwise from the right. Force 2 starts at the tip of Force 1. The resultant R runs from the start of Force 1 to the tip of Force 2. Read |R| and its angle in the formula box.",
       "f1": "Force 1",
       "f2": "Force 2",
       "magnitude": "Magnitude",
@@ -1441,17 +1356,17 @@
     },
     "simGraphs": {
       "title": "Motion Graphs (s-t, v-t, a-t)",
-      "desc": "One-dimensional nonnegative velocity. Braking ends at rest; acceleration becomes zero after the stop.",
+      "desc": "Choose a scenario and an initial velocity. The three graphs show the same motion. Braking stops at rest, and the acceleration is then zero.",
       "scenario": "Scenario",
       "constantV": "Constant v",
       "constantA": "Uniform accel.",
       "decel": "Uniform decel.",
-      "initialV": "Initial velocity",
+      "initialV": "Initial velocity v₀",
       "acceleration": "Acceleration magnitude",
-      "explainConstantV": "Constant velocity: flat v-t line, zero a-t.",
-      "explainConstantA": "Uniform acceleration: straight line v-t, flat a-t.",
-      "explainDecel": "Uniform deceleration: v-t decreases linearly until rest, then stays zero.",
-      "distanceNote": "Signed area under velocity–time gives displacement. Here velocity never becomes negative, so it also equals distance."
+      "explainConstantV": "Constant velocity: the speed–time graph is flat, so the acceleration is zero.",
+      "explainConstantA": "Uniform acceleration: the speed–time graph is a straight line sloping up. Its gradient is the acceleration, so the acceleration–time graph is flat.",
+      "explainDecel": "Uniform deceleration: the speed–time line falls to zero. While the object moves, its acceleration is negative, because it points against the motion. After the stop, the model sets the acceleration to zero.",
+      "distanceNote": "The signed area under a velocity–time graph gives displacement. In these scenarios velocity is never negative, so the area also equals distance travelled."
     }
   },
   "forcesEnergy": {

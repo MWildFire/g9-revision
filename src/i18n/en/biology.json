@@ -953,7 +953,7 @@
               "23 + 23 = 46: the egg's 23 chromosomes join the sperm's 23 at fertilisation.",
               "ZONA PELLUCIDA: a glycoprotein layer around a mammalian egg that the sperm must pass through."
             ],
-            "tip": "One egg cell is released from the ovary about once a month at ovulation and survives about 24 hours in the fallopian tube (oviduct).",
+            "tip": "At ovulation, an egg cell is released from an ovary and enters the oviduct. If it is not fertilised, it breaks down.",
             "review": {
               "englishTerm": "Egg cell (ovum, female gamete)",
               "russianTerm": "Яйцеклетка (женская гамета)",
@@ -1217,7 +1217,7 @@
             "rule": "Identical potato cylinders are put into sucrose solutions of different concentrations, each for the same time (for example 30 minutes). The sucrose concentration is the independent variable. The change in mass (or length) of each cylinder is the dependent variable.\n\nIn dilute solutions water enters the cells by osmosis, so the cylinder gains mass. In concentrated solutions water leaves the cells, so the cylinder loses mass.",
             "examples": [
               "In pure water the mass of a cylinder rises from 4.00 g to 4.40 g: % change = (4.40 g − 4.00 g) ÷ 4.00 g × 100 = +10 %. In 1.0 mol/dm³ sucrose the mass falls from 4.00 g to 3.60 g: % change = (3.60 g − 4.00 g) ÷ 4.00 g × 100 = −10 %.",
-              "At 0.2 mol/dm³ the change is +4 %, and at 0.4 mol/dm³ it is −4 %. The mass does not change at about 0.3 mol/dm³ (the exact value varies between potatoes). So the water potential of the potato cells is about the same as a 0.3 mol/dm³ sucrose solution."
+              "Plot percentage change in mass against sucrose concentration. Where the curve crosses zero change, there is no net gain or loss of water. Use this point to estimate the solution concentration with the same water potential as the potato tissue; it depends on the tissue and conditions."
             ],
             "tip": "Blot each cylinder dry with a paper towel before you weigh it. Water left on the surface adds mass and hides the real change. Keep the time, the volume of solution and the temperature the same for all cylinders.",
             "review": {
@@ -2971,7 +2971,7 @@
             "name": "Sources of variation",
             "rule": "Mutations create new DNA sequence variants. Recombination and fertilisation combine existing variants in new ways. Environment also affects phenotype, and a genetic effect can depend on the environment.",
             "examples": [
-              "Mutation may create a new allele; meiosis can produce new combinations of existing alleles.",
+              "Pea plants of the same species can have purple or white flowers because they inherit different alleles for flower colour.",
               "Nutrition can affect height, alongside inherited differences."
             ],
             "tip": "Mutation creates new alleles; meiosis and fertilisation create new combinations.",

@@ -240,3 +240,16 @@ test('the published privacy checker rejects a branch that replaces its local che
     }), error => error.status === 7);
   } finally { r.cleanup(); }
 });
+
+
+test('published checker gets a unique temporary directory on BSD and GNU mktemp', () => {
+  const script = fs.readFileSync('scripts/content/integrate.sh', 'utf8');
+  assert.match(script, /PRIVACY_DIR=\$\(mktemp -d "[^"\n]+\.XXXXXX"\)/);
+  assert.ok(script.includes('PRIVACY_CHECK="$PRIVACY_DIR/check.mjs"'));
+  const dirs = [];
+  try {
+    for (let n = 0; n < 2; n++) dirs.push(execFileSync('mktemp', ['-d', path.join(os.tmpdir(), 'g9-checker-test.XXXXXX')], { encoding: 'utf8' }).trim());
+    assert.notEqual(dirs[0], dirs[1]);
+    assert.ok(dirs.every(dir => !dir.endsWith('XXXXXX') && fs.statSync(dir).isDirectory()));
+  } finally { dirs.forEach(dir => fs.rmdirSync(dir)); }
+});

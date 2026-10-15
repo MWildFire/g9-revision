@@ -11,10 +11,12 @@ MSG="${1:?usage: integrate.sh \"commit message\"}"
 LOCK="$HOME/Projects/.g9-revision-main.lock"
 cd "$(git rev-parse --show-toplevel)"
 # Use only the checker already published on main, never a replacement from this branch.
-PRIVACY_CHECK=$(mktemp "${TMPDIR:-/tmp}/g9-published-privacy.XXXXXX.mjs")
+PRIVACY_DIR=$(mktemp -d "${TMPDIR:-/tmp}/g9-published-privacy.XXXXXX")
+PRIVACY_CHECK="$PRIVACY_DIR/check.mjs"
 got=0
 cleanup() {
   rm -f "$PRIVACY_CHECK"
+  rmdir "$PRIVACY_DIR" 2>/dev/null || true
   if [ "$got" = 1 ]; then rmdir "$LOCK" 2>/dev/null || true; fi
 }
 trap cleanup EXIT

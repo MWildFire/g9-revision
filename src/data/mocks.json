@@ -1077,7 +1077,7 @@
       "subject": "biology",
       "title": {
         "en": "Food tests, enzymes and energy in food",
-        "ru": "Пищевые тесты, ферменты и энергия пищи"
+        "ru": "Пробы на питательные вещества, ферменты и энергия пищи"
       },
       "scope": "g9",
       "sources": [
@@ -1085,25 +1085,25 @@
       ],
       "paragraphs": [
         {
-          "en": "Revision of teacher-supervised tests: iodine turns blue-black with starch; Benedict’s test with warming gives a green-to-brick-red precipitate for reducing sugars; Biuret turns lilac/purple with protein; an ethanol-emulsion test gives a cloudy white emulsion with lipids. Use controls and interpret negative results carefully.",
-          "ru": "Повторение лабораторных тестов с учителем: йод с крахмалом даёт сине-чёрный цвет; Benedict’s при нагревании — осадок от зелёного до кирпично-красного для восстанавливающих сахаров; Biuret — фиолетовый цвет с белком; эмульсионный тест с этанолом — белую мутную эмульсию с липидами. Нужны контрольные образцы."
+          "en": "Food tests identify nutrients by a visible change:\n- Iodine solution changes from yellow-brown to blue-black if starch is present.\n- Benedict’s reagent, heated in a water bath, gives a green, yellow, orange or brick-red result with reducing sugars such as glucose.\n- Biuret reagent changes from blue to lilac or purple with protein.\n- Shake a small food sample with ethanol to extract lipids. Let solid particles settle, then transfer the clear ethanol extract into water. A cloudy white emulsion indicates lipids.\n\nCompare with a known positive sample and a water control. A negative result may mean the nutrient is below the test’s detection limit. Carry out practical tests with a teacher; keep flammable ethanol away from flames and wear eye protection.",
+          "ru": "Питательные вещества выявляют по изменению окраски или появлению эмульсии:\n- Раствор йода меняет жёлто-коричневую окраску на сине-чёрную в присутствии крахмала.\n- Реактив Бенедикта (Benedict’s reagent) при нагревании на водяной бане даёт зелёную, жёлтую, оранжевую или кирпично-красную окраску с восстанавливающими сахарами, например глюкозой.\n- Биуретовый реактив меняет синюю окраску на сиреневую или фиолетовую в присутствии белка.\n- Образец пищи встряхивают с этанолом, чтобы извлечь липиды. Дают твёрдым частицам осесть, затем сливают прозрачную спиртовую вытяжку в воду. Белая мутная эмульсия указывает на липиды.\n\nСравни результат с заведомо положительным образцом и пробой с водой. Отрицательный результат возможен, если вещества слишком мало для обнаружения. Практическую работу выполняй с учителем: используй защитные очки и держи горючий этанол вдали от пламени."
         },
         {
-          "en": "An enzyme is a biological catalyst: it accelerates a reaction by lowering its activation barrier and is regenerated. Its active site binds suitable substrates; the substrate is the reacting substance, while the product is formed. Low temperature usually slows the reaction reversibly. Excessive heat or unsuitable pH may change protein structure (denaturation). At fixed enzyme amount, adding substrate eventually gives little further rate increase as active sites become occupied.",
-          "ru": "Фермент — биологический катализатор: он ускоряет реакцию, снижая активационный барьер, и восстанавливается. Его активный центр связывает подходящие субстраты; субстрат — реагирующее вещество, продукт — образующееся. Низкая температура обычно обратимо замедляет реакцию. Перегрев или неподходящий pH могут изменить структуру белка — вызвать денатурацию. При постоянном количестве фермента добавление субстрата со временем почти перестаёт увеличивать скорость из-за занятости активных центров."
+          "en": "An enzyme is a biological catalyst: it speeds up a reaction and is not used up overall. Its active site binds a suitable substrate, the substance on which it acts. For example, amylase breaks starch into smaller sugars. Cold usually slows enzyme action without destroying the enzyme. High temperature or extreme pH can change its shape, including the active site; this is denaturation. At a fixed enzyme concentration, the rate eventually levels off as substrate concentration rises because the active sites are occupied.",
+          "ru": "Фермент (enzyme) — биологический катализатор: он ускоряет реакцию и в целом не расходуется. Его активный центр связывает подходящий субстрат — вещество, на которое действует фермент. Например, амилаза расщепляет крахмал до более простых сахаров. Холод обычно замедляет действие фермента, не разрушая его. Сильный нагрев или крайние значения pH могут изменить форму белка, включая активный центр: это денатурация. При постоянной концентрации фермента скорость перестаёт заметно расти с добавлением субстрата, когда активные центры заняты."
         },
         {
-          "en": "Calorimetry estimates energy transfer from a measured temperature change. For heated water, q = mcΔT, where m is water mass, c its specific heat capacity and ΔT its temperature rise. Divide q by food mass burned to estimate transferred energy per gram. Heat lost to the apparatus and surroundings, and incomplete combustion, normally make this classroom estimate lower than total combustion energy.",
-          "ru": "Калориметрия оценивает передачу энергии по измеренному изменению температуры. Для нагретой воды q = mcΔT: m — её масса, c — удельная теплоёмкость, ΔT — повышение температуры. Разделите q на массу сгоревшей пищи, чтобы оценить переданную энергию на грамм. Нагрев прибора, потери в среду и неполное сгорание обычно занижают учебную оценку по сравнению с полной энергией сгорания."
+          "en": "Calorimetry estimates transferred energy from a temperature change. For water, q = mcΔT:\n- q is the energy gained by the water, in J;\n- m is the water mass, in g;\n- c is its specific heat capacity, 4.2 J/(g·°C);\n- ΔT is final temperature − initial temperature, in °C.\n\nEnergy transferred per gram of food = q / mass of food burned, with food mass in g and the answer in J/g. Heat lost to the surroundings, heating the apparatus and incomplete burning make this estimate lower than the total combustion energy.",
+          "ru": "Калориметрия позволяет оценить переданную энергию по изменению температуры. Для воды Q = cmΔT (в английских задачах q):\n- Q — количество теплоты, полученное водой, Дж;\n- c — удельная теплоёмкость воды, 4,2 Дж/(г·°C);\n- m — масса воды, г;\n- ΔT — конечная температура минус начальная, °C.\n\nЭнергия на грамм пищи = Q / масса сгоревшей пищи. Массу пищи подставляют в граммах, ответ получают в Дж/г. Потери теплоты в окружающую среду, нагрев прибора и неполное сгорание занижают результат по сравнению с полной теплотой сгорания."
         }
       ],
       "question": {
-        "en": "100 g of water warms by 12°C when 0.50 g of food burns. Use c=4.2 J g⁻¹ °C⁻¹. Calculate measured energy per gram and identify one improvement.",
-        "ru": "100 г воды нагрелись на 12°C при сгорании 0,50 г пищи. c=4,2 Дж/(г·°C). Найдите измеренную энергию на грамм и предложите улучшение."
+        "en": "100 g of water warms by 12 °C when 0.50 g of food burns. Use c = 4.2 J/(g·°C). Calculate the energy transferred to the water per gram of food and suggest one improvement.",
+        "ru": "При сгорании 0,50 г пищи 100 г воды нагрелись на 12 °C. Используй c = 4,2 Дж/(г·°C). Вычисли энергию, переданную воде, на грамм пищи и предложи одно улучшение опыта."
       },
       "answer": {
-        "en": "q = 100 × 4.2 × 12 = 5040 J. Per gram: 5040/0.50 = 10080 J/g = 10.08 kJ/g before rounding (about 10 kJ/g to two significant figures). Insulation and a draught shield reduce heat loss; repeats help estimate variation but do not remove systematic heat loss.",
-        "ru": "q = 100 × 4,2 × 12 = 5040 Дж. На грамм: 5040/0,50 = 10080 Дж/г = 10,08 кДж/г до округления (около 10 кДж/г с двумя значащими цифрами). Изоляция и защита от сквозняка уменьшают потери; повторы оценивают разброс, но не устраняют систематические потери теплоты."
+        "en": "Energy gained: q = 100 × 4.2 × 12 = 5040 J.\n\nEnergy per gram: 5040 / 0.50 = 10 080 J/g = 10.08 kJ/g before rounding, or about 10 kJ/g to two significant figures.\n\nInsulate the container or use a draught shield to reduce heat loss. Repeats help assess scatter but do not remove systematic heat loss.",
+        "ru": "Количество теплоты: Q = 4,2 × 100 × 12 = 5040 Дж.\n\nНа грамм пищи: 5040 / 0,50 = 10 080 Дж/г = 10,08 кДж/г до округления, или около 10 кДж/г с двумя значащими цифрами.\n\nТеплоизоляция сосуда или экран от сквозняков уменьшат потери теплоты. Повторы позволяют оценить разброс, но не устраняют систематические потери."
       },
       "checks": [
         {
@@ -1120,8 +1120,8 @@
           "englishTerm": "Enzyme; substrate; active site",
           "russianTerm": "Фермент; субстрат; активный центр",
           "contrast": {
-            "en": "A catalyst is regenerated; it changes rate, not the reaction equilibrium. Cold inhibition does not necessarily mean denaturation.",
-            "ru": "Катализатор восстанавливается; он меняет скорость, а не равновесие. Замедление на холоде не обязательно означает денатурацию."
+            "en": "Low activity in the cold does not prove denaturation. Warm the sample gently and compare its activity again under the same conditions.",
+            "ru": "Низкая активность на холоде не доказывает денатурацию. При осторожном нагревании сравни активность снова в одинаковых условиях."
           },
           "sources": [
             {
@@ -1142,8 +1142,8 @@
           "englishTerm": "Calorimetry",
           "russianTerm": "Калориметрия",
           "contrast": {
-            "en": "Breaking bonds requires energy; making bonds releases it. Overall heat change depends on both contributions.",
-            "ru": "Разрыв связей требует энергии, образование связей выделяет её. Общий тепловой эффект зависит от обоих вкладов."
+            "en": "Energy measured in the water is not necessarily all the energy released by the food: some heats the container and the surroundings.",
+            "ru": "Теплота, полученная водой, не равна всей энергии, выделенной пищей: часть уходит на нагрев сосуда и окружающей среды."
           },
           "sources": [
             {
@@ -1160,8 +1160,8 @@
             }
           ],
           "model": {
-            "en": "Ignoring heat losses and vessel heat capacity: q(solution) = mcΔT and q(reaction) = −q(solution). Russian Q for heat released can have the opposite sign to reaction ΔH.",
-            "ru": "При пренебрежении потерями и теплоёмкостью сосуда: q(раствора) = mcΔT, q(реакции) = −q(раствора). Русское Q выделившейся теплоты может иметь знак, противоположный ΔH реакции."
+            "en": "The calculation assumes a constant specific heat capacity and uses the water’s temperature rise. Including the container’s heat capacity would account for another part of the transferred energy.",
+            "ru": "В расчёте удельную теплоёмкость считают постоянной и используют повышение температуры воды. Учёт теплоёмкости сосуда добавит ещё одну часть переданной энергии."
           }
         }
       ]
@@ -1170,8 +1170,8 @@
       "id": "osmosis-drugs",
       "subject": "biology",
       "title": {
-        "en": "Osmosis data and evaluating treatments",
-        "ru": "Данные осмоса и оценка лечения"
+        "en": "Osmosis and drug development",
+        "ru": "Осмос и разработка лекарств"
       },
       "scope": "g9",
       "sources": [
@@ -1180,25 +1180,25 @@
       ],
       "paragraphs": [
         {
-          "en": "Osmosis is net water transfer across a selectively permeable membrane from higher to lower water potential. At equal pressure, this commonly means transfer towards the side with more dissolved solute that cannot cross the membrane. In a tissue experiment, percentage mass change = (final − initial)/initial × 100%; control dimensions, exposure time and temperature.",
-          "ru": "Осмос — суммарный перенос воды через избирательно проницаемую мембрану от более высокого водного потенциала к более низкому. При равном давлении это обычно перенос к стороне с большей концентрацией вещества, не проходящего через мембрану. Для ткани изменение массы = (конечная − начальная)/начальная × 100%; контролируйте размеры, длительность и температуру."
+          "en": "Osmosis is the net movement of water through a partially permeable membrane from higher to lower water potential. At equal pressure, water usually moves towards the solution with more dissolved solute that cannot cross the membrane.\n\nFor potato tissue, percentage mass change = (final mass − initial mass) / initial mass × 100%. Use the same mass unit for both measurements. Keep cylinder size, immersion time, temperature and blotting method the same.",
+          "ru": "Осмос (osmosis) — суммарный перенос воды через полупроницаемую мембрану из области с более высоким водным потенциалом в область с более низким. При равном давлении вода обычно переходит к более концентрированному раствору вещества, не проходящего через мембрану.\n\nДля ткани картофеля процентное изменение массы = (конечная масса − начальная масса) / начальная масса × 100%. Обе массы измеряй в одинаковых единицах. Сохраняй размеры цилиндров, время выдержки, температуру и способ промокания поверхности."
         },
         {
-          "en": "The zero crossing on a graph of percentage mass change against solution concentration estimates the condition giving no net mass gain in the experiment. Water molecules still move both ways. The estimate depends on measurement uncertainty and whether mass changes mainly reflect water rather than solute exchange or tissue damage.",
-          "ru": "Нулевое пересечение графика изменения массы в процентах от концентрации оценивает условие без суммарного прироста массы в опыте. Молекулы воды продолжают двигаться в обе стороны. Оценка зависит от погрешности и от того, связаны ли изменения массы главным образом с водой, а не с переносом растворённых веществ или повреждением ткани."
+          "en": "Where the graph reaches 0% mass change, the tissue has gained no net mass during the experiment. Water still moves in both directions. This estimates a condition of balance; it does not give an exact cell-sap concentration. Measurement uncertainty, damaged cells and solute movement can affect the estimate.",
+          "ru": "При пересечении графиком уровня 0% масса ткани за время опыта не изменилась. Вода продолжает двигаться в обе стороны. Так можно оценить условие равновесия, но нельзя точно определить концентрацию клеточного сока. На результат влияют погрешности, повреждение клеток и перенос растворённых веществ."
         },
         {
-          "en": "A clinical trial evaluates an intervention in people using defined outcomes, after appropriate preclinical work. Random allocation reduces systematic group differences; blinding reduces influences of expectations; a comparator helps estimate the intervention’s effect. A trial assesses both benefits and harms and does not prove universal safety. Antibiotics act against susceptible bacteria, not viruses.",
-          "ru": "Клиническое исследование оценивает вмешательство у людей по определённым показателям после соответствующей доклинической работы. Случайное распределение уменьшает систематические различия групп, ослепление — влияние ожиданий, группа сравнения помогает оценить эффект. Исследование оценивает пользу и вред, а не доказывает универсальную безопасность. Антибиотики действуют на чувствительные бактерии, а не вирусы."
+          "en": "Drug development checks whether a candidate treatment works and what harm it may cause.\n- Preclinical research uses laboratory tests, cells or tissues and, where required, animal studies to investigate activity and toxicity before human trials.\n- Phase 1 mainly examines safety, dose and how the drug behaves in the body, usually in a small group of volunteers; some drugs are first tested in patients.\n- Phase 2 tests effectiveness and side effects in patients with the condition and helps choose doses.\n- Phase 3 uses larger groups to compare benefits and harms with an appropriate control, often the current standard treatment.\n- Regulators assess the evidence before approval. Monitoring continues after approval to detect rare or delayed adverse effects.\n\nParticipants give informed consent. Random allocation reduces systematic group differences. Blinding keeps participants, assessors or both unaware of group allocation to reduce bias. A placebo has no active test drug; it is used only when ethically appropriate. A trial can support a benefit–risk judgement, not guarantee that a drug is harmless. Antibiotics act against susceptible bacteria, not viruses.",
+          "ru": "Разработка лекарства (drug development) включает проверку эффективности и возможного вреда.\n- Доклинические исследования проводят в лаборатории, на клетках и тканях, а при необходимости — на животных. До испытаний на людях изучают действие и токсичность вещества.\n- Фаза 1: в небольшой группе участников прежде всего оценивают безопасность, дозы и поведение препарата в организме. Обычно участвуют добровольцы; некоторые препараты сначала испытывают у пациентов.\n- Фаза 2: у пациентов с нужным заболеванием изучают эффективность, побочные эффекты и подходящие дозы.\n- Фаза 3: на более крупных группах сравнивают пользу и вред с подходящим контролем, часто с существующим стандартным лечением.\n- Перед регистрацией специалисты оценивают доказательства. После разрешения применения продолжают наблюдение, чтобы выявлять редкие и отдалённые побочные эффекты.\n\nУчастники дают информированное согласие. Случайное распределение уменьшает систематические различия групп. При слепом исследовании участники, оценщики результатов или обе стороны не знают распределения по группам: это уменьшает влияние ожиданий. Плацебо не содержит испытываемого действующего вещества; его используют только там, где это этически допустимо. Исследования позволяют оценить соотношение пользы и риска, но не гарантируют безвредность. Антибиотики действуют на чувствительные бактерии, а не на вирусы."
         }
       ],
       "question": {
-        "en": "A tissue sample increases from 2.00 g to 2.16 g. Calculate the percentage change. Does this alone prove a new drug is effective?",
-        "ru": "Масса ткани выросла с 2,00 до 2,16 г. Рассчитайте процентное изменение. Доказывает ли одно такое измерение эффективность нового лекарства?"
+        "en": "(a) A potato sample increases in mass from 2.00 g to 2.16 g. Calculate the percentage change and explain the sign.\n\n(b) A new treatment is tested on patients who choose it, while a comparison group receives standard treatment. Explain one reason the result may be biased and suggest an improvement. Why must safety monitoring continue after approval?",
+        "ru": "(a) Масса образца картофеля выросла с 2,00 до 2,16 г. Вычисли процентное изменение и объясни знак ответа.\n\n(b) Новый препарат получают пациенты, которые сами его выбрали; группа сравнения получает стандартное лечение. Объясни одну причину возможного искажения результата и предложи улучшение. Почему после регистрации лекарства нужно продолжать наблюдение за безопасностью?"
       },
       "answer": {
-        "en": "Change=(0.16/2.00)×100=+8%. It indicates net mass gain under the experiment conditions. It gives no basis for a drug-effect claim without relevant controls, repeats, an appropriate outcome and a justified causal design.",
-        "ru": "Изменение=(0,16/2,00)×100=+8%. Это прирост массы в условиях опыта. Для вывода о лекарстве нужны релевантные контроли, повторы, подходящий показатель и обоснованный дизайн исследования."
+        "en": "(a) Mass gain = 2.16 − 2.00 = 0.16 g. Percentage change = 0.16 / 2.00 × 100% = +8%. The positive sign shows a mass increase, consistent with net water entry if other mass transfers are negligible.\n\n(b) People who choose the new drug may differ in initial health or other treatments, so group differences may not be caused by the drug. Random allocation reduces this selection bias; both groups should otherwise be treated comparably. Longer monitoring can reveal rare or delayed adverse effects that small, short trials miss.",
+        "ru": "(a) Прирост массы = 2,16 − 2,00 = 0,16 г. Процентное изменение = 0,16 / 2,00 × 100% = +8%. Знак «+» означает увеличение массы. Оно согласуется с поступлением воды, если другими изменениями массы можно пренебречь.\n\n(b) Выбравшие новый препарат пациенты могут отличаться исходным здоровьем или другим лечением. Поэтому различие результатов не обязательно вызвано препаратом. Случайное распределение уменьшает такое искажение; остальные условия лечения должны быть сопоставимыми. Длительное наблюдение помогает выявить редкие и отдалённые побочные эффекты, которые небольшие короткие испытания могут пропустить."
       },
       "checks": [
         {
@@ -1206,8 +1206,8 @@
           "ru": "Я считаю процент от начальной массы."
         },
         {
-          "en": "I explain what the evidence can and cannot support.",
-          "ru": "Я объясняю, какие выводы поддерживаются данными."
+          "en": "I can explain preclinical work, Phases 1–3 and monitoring after approval.",
+          "ru": "Я могу объяснить доклинические исследования, фазы 1–3 и наблюдение после регистрации."
         }
       ],
       "definitionReviews": [
@@ -1249,8 +1249,8 @@
           "englishTerm": "Clinical trial; randomisation; blinding",
           "russianTerm": "Клиническое исследование; рандомизация; ослепление",
           "contrast": {
-            "en": "One measurement without a relevant comparison cannot establish a treatment effect. Randomisation reduces bias; it does not guarantee identical groups.",
-            "ru": "Одно измерение без подходящего сравнения не устанавливает эффект лечения. Рандомизация уменьшает смещение, а не гарантирует одинаковые группы."
+            "en": "A placebo is not always the right control. If effective treatment exists, withholding it may be unethical; a comparison with standard treatment can be appropriate.",
+            "ru": "Плацебо подходит не для любого контроля. Если эффективное лечение уже существует, лишать его пациентов может быть неэтично; подходит сравнение со стандартным лечением."
           },
           "sources": [
             {

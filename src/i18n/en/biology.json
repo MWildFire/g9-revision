@@ -1,10 +1,18 @@
 {
   "subjectName": "Biology",
   "home": {
-    "title": "Biology — Revision",
-    "intro": "Seven core topics for G9 IB MYP Biology, with an RU/EN glossary.",
+    "title": "Biology · revision library",
+    "intro": "Explore the 13 topic groups for your biology revision, then use the practice lessons and glossary to check understanding. Choose the topics you need today.",
     "externalNotice": "External pages will open in a new tab if iframe is blocked.",
-    "topicsHeading": "Topics"
+    "topicsHeading": "Topic groups A–M",
+    "referenceHeading": "Subject reference pages",
+    "practiceHeading": "Practice and earlier topics",
+    "practice": {
+      "earlier": "Earlier-year reproduction, muscles and bones",
+      "food": "Food tests, enzymes and energy in food",
+      "drugs": "Osmosis and drug development",
+      "paper": "Biology · practice paper A–D"
+    }
   },
   "simulations": {
     "punnett": {
@@ -57,7 +65,7 @@
       "parts": {
         "nucleus": {
           "label": "Nucleus",
-          "desc": "Holds the cell's DNA. Pores in the nuclear envelope let molecules, such as mRNA, pass in and out."
+          "desc": "Contains most of the cell’s DNA. Nuclear pores control exchange with the cytoplasm; mRNA leaves the nucleus through them."
         },
         "nucleolus": {
           "label": "Nucleolus",
@@ -69,7 +77,7 @@
         },
         "ribosome": {
           "label": "Ribosomes",
-          "desc": "Makes proteins by joining amino acids in the order set by mRNA. It has no membrane around it."
+          "desc": "Ribosomes join amino acids to make proteins, using instructions carried by mRNA. They have no surrounding membrane."
         },
         "membrane": {
           "label": "Cell membrane",
@@ -77,7 +85,7 @@
         },
         "cytoplasm": {
           "label": "Cytoplasm",
-          "desc": "Water-based fluid between the cell membrane and the nucleus. Organelles are suspended in it, and many chemical reactions happen here."
+          "desc": "The material inside the cell membrane, excluding the nucleus. It includes fluid and organelles; many chemical reactions happen here."
         },
         "wall": {
           "label": "Cell wall",
@@ -197,7 +205,7 @@
     "genetics": "Genetics & Evolution",
     "immune": "Health & Disease",
     "experiment": "Experimental Design",
-    "extras": "Extras (beyond G9)"
+    "extras": "Regulation and further topics"
   },
   "extras": {
     "title": "Biology — revision and extension",
@@ -3808,15 +3816,15 @@
   },
   "glossary": {
     "title": "Glossary",
-    "intro": "Key G9 Biology terms, EN with Russian equivalent.",
+    "intro": "English exam terms, Russian equivalents and short explanations.",
     "terms": {
       "immuneSystem": {
         "en": "Immune system",
         "ru": "Иммунная система",
-        "def": "The immune system is the network of cells, molecules, tissues and organs that detects and responds to infection and other threats. It includes innate and adaptive defences; immune responses can sometimes also damage the body's own tissues.",
+        "def": "The immune system is the body’s defence against pathogens. It includes barriers such as skin, phagocytes that engulf pathogens, and lymphocytes. Some lymphocytes produce specific antibodies; others become memory cells. Vaccination prepares immune memory before infection.",
         "review": {
-          "englishTerm": "immuneSystem",
-          "russianTerm": "immuneSystem",
+          "englishTerm": "Immune system",
+          "russianTerm": "Иммунная система",
           "contrast": {
             "en": "Innate defence acts broadly; adaptive immunity recognises particular antigens and can form memory.",
             "ru": "Врождённая защита действует широко; адаптивный иммунитет распознаёт определённые антигены и может формировать память."
@@ -3846,13 +3854,13 @@
       "cellularRespiration": {
         "en": "Cellular respiration",
         "ru": "Клеточное дыхание",
-        "def": "Cellular respiration transfers energy from nutrient oxidation into ATP. Aerobic respiration uses oxygen; anaerobic respiration in some microorganisms uses other final electron acceptors. Fermentation is a distinct pathway often grouped with anaerobic respiration at school level.",
+        "def": "Cellular respiration releases energy from nutrients such as glucose for cell activities. Aerobic respiration uses oxygen and produces carbon dioxide and water. When muscles cannot obtain enough oxygen, glucose can also be broken down to lactate, releasing much less energy.",
         "review": {
-          "englishTerm": "cellularRespiration",
-          "russianTerm": "cellularRespiration",
+          "englishTerm": "Cellular respiration",
+          "russianTerm": "Клеточное дыхание",
           "contrast": {
-            "en": "Aerobic respiration uses oxygen. Fermentation does not use an electron-transport chain; strict anaerobic respiration uses another final electron acceptor.",
-            "ru": "Аэробное дыхание использует кислород. При брожении нет дыхательной цепи; при анаэробном дыхании в строгом смысле конечный акцептор электронов иной."
+            "en": "Ventilation moves air into and out of the lungs; cellular respiration is a set of chemical reactions inside cells.",
+            "ru": "Вентиляция лёгких — движение воздуха при вдохе и выдохе. Клеточное дыхание — химические реакции внутри клеток."
           },
           "sources": [
             {
@@ -3875,18 +3883,18 @@
             }
           ],
           "model": {
-            "en": "Some school courses group fermentation under “anaerobic respiration”. Here that school usage is identified separately from the stricter biochemical meaning.",
-            "ru": "В ряде школьных курсов брожение называют «анаэробным дыханием». Здесь это школьное употребление отделено от строгого биохимического смысла."
+            "en": "At this level, fermentation is often called anaerobic respiration: muscles produce lactate, while yeast produces ethanol and carbon dioxide.",
+            "ru": "На школьном уровне брожение часто называют анаэробным дыханием: в мышцах образуется лактат, а у дрожжей — этанол и углекислый газ."
           }
         }
       },
       "photosynthesis": {
         "en": "Photosynthesis",
         "ru": "Фотосинтез",
-        "def": "Photosynthesis is the use of light energy to build organic substances from CO₂. Plants, algae and cyanobacteria use water and release O₂. Some other photosynthetic bacteria use different electron donors and do not release oxygen.",
+        "def": "In plants, photosynthesis uses light energy to make glucose from carbon dioxide and water, releasing oxygen. Chlorophyll absorbs light. A plant can use the glucose in respiration or store it as starch.",
         "review": {
-          "englishTerm": "photosynthesis",
-          "russianTerm": "photosynthesis",
+          "englishTerm": "Photosynthesis",
+          "russianTerm": "Фотосинтез",
           "contrast": {
             "en": "Carbon dioxide and water supply matter; light supplies energy. Plants also respire in both light and darkness.",
             "ru": "Углекислый газ и вода поставляют вещество, свет — энергию. Растения дышат и на свету, и в темноте."
@@ -3912,18 +3920,18 @@
             }
           ],
           "model": {
-            "en": "The net equation summarises oxygenic photosynthesis; it is not a one-step mechanism. The Calvin cycle first makes a three-carbon product, not a glucose molecule directly.",
-            "ru": "Суммарное уравнение описывает кислородный фотосинтез, а не одностадийный механизм. Первичный продукт цикла Кальвина трёхуглеродный; глюкоза образуется последующими превращениями."
+            "en": "The word equation summarises many reactions in chloroplasts. Light is an energy source, not a substance added to the plant.",
+            "ru": "Словесное уравнение объединяет множество реакций в хлоропластах. Свет служит источником энергии, а не веществом, поступающим в растение."
           }
         }
       },
       "ecosystem": {
         "en": "Ecosystem",
         "ru": "Экосистема",
-        "def": "An ecosystem is a community of organisms interacting with one another and with the non-living environment in a defined area. Its boundary is chosen for the study; it need not be a closed system.",
+        "def": "An ecosystem includes the organisms in an area and the non-living conditions with which they interact. A pond ecosystem includes plants, animals, microorganisms, water, light and mineral nutrients.",
         "review": {
-          "englishTerm": "ecosystem",
-          "russianTerm": "ecosystem",
+          "englishTerm": "Ecosystem",
+          "russianTerm": "Экосистема",
           "contrast": {
             "en": "Matter is recycled through ecosystems; energy is transferred and eventually dissipated as heat.",
             "ru": "Вещества участвуют в круговоротах; энергия передаётся и в итоге рассеивается в виде теплоты."
@@ -3953,13 +3961,13 @@
       "dna": {
         "en": "DNA",
         "ru": "ДНК",
-        "def": "DNA, deoxyribonucleic acid, is the polymer whose nucleotide sequence stores hereditary information in cells. DNA is organised into chromosomes; a gene is a functional region of DNA, not a whole chromosome.",
+        "def": "DNA is the molecule that stores hereditary information. A gene is a section of DNA; chromosomes contain DNA. For example, an inherited gene can affect which pigment a cell produces.",
         "review": {
-          "englishTerm": "dna",
-          "russianTerm": "dna",
+          "englishTerm": "DNA",
+          "russianTerm": "ДНК",
           "contrast": {
-            "en": "DNA is a molecule; a gene is a functional sequence; a chromosome contains a long DNA molecule with associated proteins.",
-            "ru": "ДНК — молекула; ген — функциональная последовательность; хромосома содержит длинную молекулу ДНК и связанные белки."
+            "en": "A gene is part of a DNA molecule; a chromosome contains many genes. They are not three names for the same structure.",
+            "ru": "Ген — часть молекулы ДНК, а в одной хромосоме содержится много генов. Это разные уровни организации наследственного материала."
           },
           "sources": [
             {
@@ -3974,10 +3982,10 @@
       "evolution": {
         "en": "Evolution",
         "ru": "Эволюция",
-        "def": "Evolution is change in inherited characteristics of populations over generations. Natural selection, mutation, genetic drift and gene flow can contribute. Evolution is not necessarily progress towards greater complexity.",
+        "def": "Evolution is a change in inherited characteristics of a population over generations. Natural selection can increase the frequency of useful inherited variants. For example, resistant bacteria can become more common when an antibiotic kills susceptible bacteria.",
         "review": {
-          "englishTerm": "evolution",
-          "russianTerm": "evolution",
+          "englishTerm": "Evolution",
+          "russianTerm": "Эволюция",
           "contrast": {
             "en": "Individuals develop during life; populations evolve over generations. Natural selection is one mechanism of evolution.",
             "ru": "Особи развиваются в течение жизни; популяции эволюционируют в поколениях. Естественный отбор — один из механизмов эволюции."
@@ -4001,13 +4009,13 @@
       "mitosis": {
         "en": "Mitosis",
         "ru": "Митоз",
-        "def": "Mitosis is nuclear division that distributes duplicated chromosomes into two nuclei while preserving chromosome number. It usually accompanies cell division; mutation aside, the resulting nuclei contain matching genetic information.",
+        "def": "Mitosis divides a nucleus into two nuclei with the same chromosome number. After cell division, the daughter cells are usually genetically identical. Mitosis allows growth and repair, for example replacing damaged skin cells.",
         "review": {
-          "englishTerm": "mitosis",
-          "russianTerm": "mitosis",
+          "englishTerm": "Mitosis",
+          "russianTerm": "Митоз",
           "contrast": {
-            "en": "Mitosis divides the nucleus; cytokinesis divides the cell. Mitosis preserves ploidy, including in haploid cells.",
-            "ru": "Митоз делит ядро, цитокинез — клетку. Митоз сохраняет плоидность, в том числе в гаплоидных клетках."
+            "en": "Before mitosis, DNA is copied. Mitosis separates the copies between two nuclei; division of the cytoplasm then separates the cells.",
+            "ru": "Перед митозом ДНК удваивается. При митозе её копии распределяются между двумя ядрами, а деление цитоплазмы разделяет сами клетки."
           },
           "sources": [
             {
@@ -4028,10 +4036,10 @@
       "meiosis": {
         "en": "Meiosis",
         "ru": "Мейоз",
-        "def": "Meiosis is two successive nuclear divisions following one DNA replication, usually producing four haploid nuclear products from one diploid cell. Recombination and chromosome segregation generate different allele combinations.",
+        "def": "Meiosis involves two nuclear divisions after DNA is copied once. It halves the chromosome number and produces genetically different nuclei. In humans it is part of gamete formation: gametes have 23 chromosomes instead of 46.",
         "review": {
-          "englishTerm": "meiosis",
-          "russianTerm": "meiosis",
+          "englishTerm": "Meiosis",
+          "russianTerm": "Мейоз",
           "contrast": {
             "en": "Meiosis I separates homologous chromosomes; meiosis II separates sister chromatids. DNA is not replicated between the two divisions.",
             "ru": "В мейозе I расходятся гомологичные хромосомы, в мейозе II — сестринские хроматиды. Между делениями ДНК не удваивается."
@@ -4055,13 +4063,13 @@
       "foodWeb": {
         "en": "Food web",
         "ru": "Пищевая сеть",
-        "def": "A food web is a network of feeding relationships connecting organisms in an ecosystem. Its arrows usually run from the organism eaten to the consumer, indicating transfer of matter and energy.",
+        "def": "A food web is a set of connected food chains. Arrows show the transfer of matter and energy from food to its consumer. If grass is eaten by both rabbits and insects, it connects several chains.",
         "review": {
-          "englishTerm": "foodWeb",
-          "russianTerm": "foodWeb",
+          "englishTerm": "Food web",
+          "russianTerm": "Пищевая сеть",
           "contrast": {
-            "en": "Matter is recycled through ecosystems; energy is transferred and eventually dissipated as heat.",
-            "ru": "Вещества участвуют в круговоротах; энергия передаётся и в итоге рассеивается в виде теплоты."
+            "en": "A food chain shows one feeding pathway; a food web shows several connected pathways.",
+            "ru": "Пищевая цепь показывает один путь передачи вещества и энергии, а пищевая сеть — несколько связанных путей."
           },
           "sources": [
             {
@@ -4088,13 +4096,13 @@
       "biodiversity": {
         "en": "Biodiversity",
         "ru": "Биоразнообразие",
-        "def": "Biodiversity is the variety of life, including genetic variation within species, the variety of species and the variety of ecosystems. Species richness counts species; it does not by itself describe all biodiversity.",
+        "def": "Biodiversity is the variety of life: differences within species, the number and variety of species, and the variety of ecosystems. Protecting several habitats can conserve more biodiversity than protecting only one species.",
         "review": {
-          "englishTerm": "biodiversity",
-          "russianTerm": "biodiversity",
+          "englishTerm": "Biodiversity",
+          "russianTerm": "Биоразнообразие",
           "contrast": {
-            "en": "Matter is recycled through ecosystems; energy is transferred and eventually dissipated as heat.",
-            "ru": "Вещества участвуют в круговоротах; энергия передаётся и в итоге рассеивается в виде теплоты."
+            "en": "Species richness counts species. It does not show how many individuals of each species are present or how much genetic variation they have.",
+            "ru": "Видовое богатство — число видов. Оно не показывает численность каждого вида и генетические различия между его особями."
           },
           "sources": [
             {
@@ -4117,6 +4125,56 @@
             }
           ]
         }
+      },
+      "diffusion": {
+        "en": "Diffusion",
+        "ru": "Диффузия",
+        "def": "Diffusion is the net movement of particles from higher to lower concentration due to their random motion. For example, oxygen diffuses from alveoli into the blood."
+      },
+      "osmosis": {
+        "en": "Osmosis",
+        "ru": "Осмос",
+        "def": "Osmosis is net water movement through a partially permeable membrane from higher to lower water potential. A plant cell in dilute solution can gain water and become firm."
+      },
+      "activeTransport": {
+        "en": "Active transport",
+        "ru": "Активный транспорт",
+        "def": "Active transport moves substances through a membrane against their concentration gradient, from lower to higher concentration, using energy from respiration. Root hair cells can absorb mineral ions from a dilute soil solution this way."
+      },
+      "enzyme": {
+        "en": "Enzyme",
+        "ru": "Фермент",
+        "def": "An enzyme is a biological catalyst that speeds up a reaction without being used up overall. Its active site binds a suitable substrate. Amylase, for example, breaks down starch."
+      },
+      "homeostasis": {
+        "en": "Homeostasis",
+        "ru": "Гомеостаз",
+        "def": "Homeostasis maintains internal conditions within a suitable range despite changes outside or inside the body. Negative feedback helps regulate body temperature and blood glucose."
+      },
+      "transpiration": {
+        "en": "Transpiration",
+        "ru": "Транспирация",
+        "def": "Transpiration is the loss of water vapour from a plant, mainly through leaf stomata. Water evaporates from leaf cells, and the vapour diffuses out. This helps draw water up the xylem."
+      },
+      "xylem": {
+        "en": "Xylem",
+        "ru": "Ксилема",
+        "def": "Xylem transports water and dissolved mineral ions from roots towards leaves. Its vessels are formed from dead, hollow cells with lignified walls that also support the plant."
+      },
+      "phloem": {
+        "en": "Phloem",
+        "ru": "Флоэма",
+        "def": "Phloem transports dissolved sugars, mainly sucrose, from where they are produced or released from storage to where they are used or stored. Different tubes can transport sugars in different directions."
+      },
+      "antibiotic": {
+        "en": "Antibiotic",
+        "ru": "Антибиотик",
+        "def": "Antibacterial antibiotics kill susceptible bacteria or inhibit their growth. They target bacterial structures or processes and do not treat viral infections. Resistant bacteria can survive a drug that kills susceptible ones."
+      },
+      "vaccination": {
+        "en": "Vaccination",
+        "ru": "Вакцинация",
+        "def": "Vaccination exposes the immune system to a safe form of a pathogen’s antigens, or instructions to make an antigen. Memory cells allow a faster response if the pathogen is encountered later."
       }
     }
   }

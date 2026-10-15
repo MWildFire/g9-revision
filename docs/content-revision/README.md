@@ -43,10 +43,3 @@ Many old tests pin the wording of the previous text (`assert.match(... /opposite
 3. If the point is wrong or beyond MYP, delete that assertion and write why in the batch notes.
 
 Never weaken a test just to turn it green without doing one of these three.
-
-## Решения R03
-
-- В расчётах EN и RU используем знак `=`. Тире вместо `=` — ошибка; «равно» словами допустимо только в обычном тексте.
-- Заголовки источников на русской странице плана остаются на языке оригинала; формат источников не меняем.
-- Карточка `reaction-curve` остаётся.
-- Карточка `first-law` не выводится: вне уровня MYP 4–5, первичный источник не подтверждён.

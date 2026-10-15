@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Tabs, SimulationPanel } from '../../ui/Tabs';
 import { Slider } from '../../ui/Slider';
 
-type Source = 'bar' | 'wire' | 'solenoid';
+import { computeFieldAngle, compassRotation, solenoidInternalAngle, solenoidExternalAngle, type MagneticSource as Source } from './magneticModels';
 
 const W = 480;
 const H = 300;
@@ -95,6 +95,9 @@ export function MagneticField() {
             />
           )}
 
+          {source !== 'bar' && current === 0 && <p className="text-xs text-text-muted">{i18n.language.startsWith('ru')
+            ? 'Ток равен нулю: поле этого источника отсутствует. Внешние поля здесь не учитываются.'
+            : 'Zero current: this source produces no field. External fields are not modelled here.'}</p>}
           <label className="flex items-center gap-2 text-sm cursor-pointer">
             <input
               type="checkbox"
@@ -139,8 +142,8 @@ export function MagneticField() {
             {source === 'solenoid' && (
               <span>
                 {i18n.language.startsWith('ru')
-                  ? 'Соленоид ведёт себя как полосовой магнит. Внутри катушки поле однородно, снаружи линии выходят из N и возвращаются к S.'
-                  : 'A solenoid behaves like a bar magnet. Inside the coils the field is uniform; outside it loops back from N to S.'}
+                  ? 'Соленоид ведёт себя как полосовой магнит. Внутри длинной катушки вдали от её концов поле примерно однородно, снаружи линии выходят из N и возвращаются к S.'
+                  : 'A solenoid behaves like a bar magnet. Inside a long coil, away from its ends, the field is approximately uniform; outside it loops back from N to S.'}
               </span>
             )}
           </div>
@@ -220,7 +223,7 @@ function BarMagnetFieldLines() {
     );
     // arrowhead at the top of each curve
     const topX = CX;
-    const topY = CY - r * 0.85;
+    const topY = CY - r * 0.5;
     lines.push(<ArrowOnPath key={`au${i}`} x={topX} y={topY} angle={0} />);
 
     // bottom loop
@@ -230,8 +233,8 @@ function BarMagnetFieldLines() {
         d={`M ${CX - BAR_HALF_W} ${CY} Q ${CX} ${CY + r} ${CX + BAR_HALF_W} ${CY}`}
       />,
     );
-    const botY = CY + r * 0.85;
-    lines.push(<ArrowOnPath key={`ad${i}`} x={CX} y={botY} angle={0} flipped />);
+    const botY = CY + r * 0.5;
+    lines.push(<ArrowOnPath key={`ad${i}`} x={CX} y={botY} angle={0} />);
   });
   return <>{lines}</>;
 }
@@ -242,7 +245,7 @@ function CurrentWire({ current }: { current: number }) {
   return (
     <g>
       <circle cx={CX} cy={CY} r={WIRE_R} fill="#faf6ef" stroke="#3d2f1f" strokeWidth="1.6" />
-      {inward ? (
+      {current === 0 ? null : inward ? (
         <g stroke="#3d2f1f" strokeWidth="2.4" strokeLinecap="round">
           <line x1={CX - 5} y1={CY - 5} x2={CX + 5} y2={CY + 5} />
           <line x1={CX + 5} y1={CY - 5} x2={CX - 5} y2={CY + 5} />
@@ -302,8 +305,8 @@ function Solenoid({ current }: { current: number }) {
     // Top of solenoid: current "into" or "out of" page depending on direction
     const topInto = current > 0;
     coils.push(
-      <CoilCrossSection key={`t${i}`} x={x} y={CY - SOL_HALF_H} into={topInto} />,
-      <CoilCrossSection key={`b${i}`} x={x} y={CY + SOL_HALF_H} into={!topInto} />,
+      <CoilCrossSection key={`t${i}`} x={x} y={CY - SOL_HALF_H} into={topInto} active={current !== 0} />,
+      <CoilCrossSection key={`b${i}`} x={x} y={CY + SOL_HALF_H} into={!topInto} active={current !== 0} />,
     );
   }
 
@@ -323,6 +326,7 @@ function Solenoid({ current }: { current: number }) {
       />
 
       {/* pole labels */}
+      {current !== 0 && <>
       <g>
         <rect x={CX - SOL_HALF_W - 28} y={CY - 14} width="22" height="28" rx="3" fill={leftColor} stroke="#3d2f1f" strokeWidth="1" />
         <text
@@ -352,16 +356,17 @@ function Solenoid({ current }: { current: number }) {
         </text>
       </g>
 
+      </>}
       {coils}
     </g>
   );
 }
 
-function CoilCrossSection({ x, y, into }: { x: number; y: number; into: boolean }) {
+function CoilCrossSection({ x, y, into, active }: { x: number; y: number; into: boolean; active: boolean }) {
   return (
     <g>
       <circle cx={x} cy={y} r="7.5" fill="#faf6ef" stroke="#3d2f1f" strokeWidth="1.2" />
-      {into ? (
+      {!active ? null : into ? (
         <g stroke="#3d2f1f" strokeWidth="1.5" strokeLinecap="round">
           <line x1={x - 3.5} y1={y - 3.5} x2={x + 3.5} y2={y + 3.5} />
           <line x1={x + 3.5} y1={y - 3.5} x2={x - 3.5} y2={y + 3.5} />
@@ -374,7 +379,6 @@ function CoilCrossSection({ x, y, into }: { x: number; y: number; into: boolean 
 }
 
 function SolenoidFieldLines({ current }: { current: number }) {
-  const goRight = current > 0; // inside field points from N→ toward S (left to right when positive)
   const lines: JSX.Element[] = [];
 
   // Inside the solenoid: 3 horizontal lines between the coil rows
@@ -395,7 +399,7 @@ function SolenoidFieldLines({ current }: { current: number }) {
         key={`ia${i}`}
         x={CX}
         y={y}
-        angle={goRight ? 0 : Math.PI}
+        angle={solenoidInternalAngle(current)}
         color="#a8b8c8"
       />,
     );
@@ -415,8 +419,8 @@ function SolenoidFieldLines({ current }: { current: number }) {
       <ArrowAt
         key={`oua${i}`}
         x={CX}
-        y={CY - r * 0.86}
-        angle={goRight ? 0 : Math.PI}
+        y={CY - r * 0.5}
+        angle={solenoidExternalAngle(current)}
         color="#a8b8c8"
       />,
     );
@@ -432,8 +436,8 @@ function SolenoidFieldLines({ current }: { current: number }) {
       <ArrowAt
         key={`oda${i}`}
         x={CX}
-        y={CY + r * 0.86}
-        angle={goRight ? Math.PI : 0}
+        y={CY + r * 0.5}
+        angle={solenoidExternalAngle(current)}
         color="#a8b8c8"
       />,
     );
@@ -446,7 +450,7 @@ function SolenoidFieldLines({ current }: { current: number }) {
 
 function Compass({ x, y, angle }: { x: number; y: number; angle: number }) {
   return (
-    <g transform={`translate(${x}, ${y}) rotate(${angle})`}>
+    <g transform={`translate(${x}, ${y}) rotate(${compassRotation(angle)})`}>
       <circle r="7" fill="#faf6ef" stroke="#ddd0bb" strokeWidth="0.6" />
       <polygon points="0,-5.5 1.6,1 0,1.5 -1.6,1" fill="#c99a8e" />
       <polygon points="0,5.5 1.6,-1 0,-1.5 -1.6,-1" fill="#9c8b73" opacity="0.6" />
@@ -497,41 +501,3 @@ function compassFitsOutsideSource(source: Source, x: number, y: number): boolean
   return true;
 }
 
-function computeFieldAngle(source: Source, x: number, y: number, current: number): number {
-  if (source === 'wire') {
-    if (current === 0) return 0;
-    const dx = x - CX;
-    const dy = y - CY;
-    const baseAngle = (Math.atan2(dy, dx) * 180) / Math.PI;
-    // tangent to circle: perpendicular to radial direction
-    const sign = current > 0 ? -1 : 1; // positive current = out of page = CCW (in screen Y-down, that means rotate radial -90°)
-    return baseAngle + 90 * sign;
-  }
-  // Dipole field model for bar magnet AND solenoid
-  let np: { x: number; y: number };
-  let sp: { x: number; y: number };
-  if (source === 'bar') {
-    np = { x: CX - BAR_HALF_W / 2, y: CY };
-    sp = { x: CX + BAR_HALF_W / 2, y: CY };
-  } else {
-    // solenoid: poles at the ends; current sign determines orientation
-    if (current >= 0) {
-      np = { x: CX - SOL_HALF_W, y: CY };
-      sp = { x: CX + SOL_HALF_W, y: CY };
-    } else {
-      np = { x: CX + SOL_HALF_W, y: CY };
-      sp = { x: CX - SOL_HALF_W, y: CY };
-    }
-  }
-
-  const r1x = x - np.x;
-  const r1y = y - np.y;
-  const r1 = Math.sqrt(r1x * r1x + r1y * r1y) || 1;
-  const r2x = x - sp.x;
-  const r2y = y - sp.y;
-  const r2 = Math.sqrt(r2x * r2x + r2y * r2y) || 1;
-  // Field from + monopole at N minus field toward + monopole at S
-  const fx = r1x / (r1 * r1 * r1) - r2x / (r2 * r2 * r2);
-  const fy = r1y / (r1 * r1 * r1) - r2y / (r2 * r2 * r2);
-  return (Math.atan2(fy, fx) * 180) / Math.PI;
-}

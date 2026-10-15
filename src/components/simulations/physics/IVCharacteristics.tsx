@@ -5,6 +5,8 @@ import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip as RTooltip
 import { Slider } from '../../ui/Slider';
 import { Tabs, SimulationPanel } from '../../ui/Tabs';
 
+import { filamentCurrent } from './electricalBuoyancyModels';
+
 type Component = 'ohmic' | 'filament' | 'diode';
 
 const V_MIN = -6;
@@ -23,8 +25,7 @@ export function IVCharacteristics() {
     if (component === 'filament') {
       // Filament lamp: resistance increases with current (T rises)
       // Approximate I(V) such that the curve flattens at high V
-      const sign = v >= 0 ? 1 : -1;
-      return sign * 0.6 * Math.sign(v) * Math.pow(Math.abs(v), 0.6);
+      return filamentCurrent(v);
     }
     // diode: only conducts above ~0.6V
     if (v < 0.6) return v < -6 ? -0.001 : 0.0;
@@ -42,7 +43,7 @@ export function IVCharacteristics() {
   }, [component]);
 
   const currentValue = currentAt(voltage);
-  const apparentResistance = Math.abs(currentValue) > 1e-4 ? voltage / currentValue : Infinity;
+  const apparentResistance = voltage === 0 ? null : currentValue !== 0 ? voltage / currentValue : Infinity;
 
   const description: Record<Component, string> = {
     ohmic: i18n.language.startsWith('ru')
@@ -86,11 +87,14 @@ export function IVCharacteristics() {
             </div>
             <div className="flex justify-between">
               <span className="text-text-muted">{i18n.language.startsWith('ru') ? 'U / I (статическое R)' : 'V / I (effective R)'}</span>
-              <span className="font-mono">{isFinite(apparentResistance) ? apparentResistance.toFixed(1) : '∞'} {i18n.language.startsWith('ru') ? 'Ом' : 'Ω'}</span>
+              <span className="font-mono">{apparentResistance === null ? '—' : isFinite(apparentResistance) ? apparentResistance.toFixed(1) : '∞'} {i18n.language.startsWith('ru') ? 'Ом' : 'Ω'}</span>
             </div>
           </div>
 
           <p className="text-xs text-text-muted leading-relaxed">{description[component]}</p>
+          {apparentResistance === null && <p className="text-xs text-text-muted">{i18n.language.startsWith('ru')
+            ? 'При нулевых напряжении и токе отношение U/I не определено. Это не означает, что у компонента нет сопротивления.'
+            : 'At zero voltage and current, V/I is undefined. This does not mean the component has no resistance.'}</p>}
         </div>
 
         <div className="h-72 bg-bg-primary rounded-md border border-border p-2">

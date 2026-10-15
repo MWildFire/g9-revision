@@ -12,3 +12,9 @@
   - в GLOSSARY нет «фазового перехода» и «закона Бойля — Мариотта» (есть в батче P-p-matter: решается при публикации батча состояний);
   - RU-символ «ν» против «f» в кодовых подписях симуляций: в коде `f` оставлен в двух местах — текст приведён к ν, код не менялся;
   - журнал `changes/P-p-waves.jsonl` содержит записи всех проходов.
+
+## Wave-model source follow-up — 2026-10-15
+
+Local candidate, pending independent review and browser checks. WaveExplorer now uses the displayed frequency and wavelength in both animation phases, with independently selected parameters stated explicitly. Diffraction fronts advance away from the slit with a shared incident/outgoing phase. Sound shows a schematic spatial excess-pressure snapshot in the derivative-consistent phase relative to particle displacement; slow display and arbitrary scales are stated. Electromagnetic regions use seven labelled examples with computed c/f wavelengths instead of incorrect continuous midpoint boundaries. Definitions distinguish mechanical waves from electromagnetic waves and sound in air from transverse elastic waves in solids. Existing formula IDs and audio are retained.
+
+Four mathematical regression checks pass (period/speed, advancing fronts, pressure/displacement relation, seven frequency/wavelength examples); TypeScript/build passes. These checks do not constitute source or visual acceptance. NASA visible-light and ultraviolet pages corroborate the selected visible/UV examples; other source coverage remains in the subject ledger.

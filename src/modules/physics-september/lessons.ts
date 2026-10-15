@@ -13,8 +13,8 @@ export const lessons: Lesson[] = [
       s(
         "Three particles, two regions",
         "Три частицы, две области",
-        "The nucleus contains protons and neutrons. A proton has relative charge +1 and relative mass about 1. A neutron has charge 0 and relative mass about 1.\n\nElectrons occupy energy levels around the nucleus. Each has relative charge −1 and relative mass about 1/1836. These relative values have no units. Almost all the atom’s mass is in the nucleus; most of its volume is outside it.",
-        "Ядро (nucleus) состоит из протонов и нейтронов. Относительный заряд протона равен +1, нейтрона — 0. Относительная масса каждой из этих частиц примерно равна 1.\n\nВокруг ядра находятся электроны, распределённые по энергетическим уровням. У электрона относительный заряд равен −1, а относительная масса — примерно 1/1836. У относительных величин нет единиц измерения. Почти вся масса атома сосредоточена в ядре, хотя оно занимает очень малую часть объёма.",
+        "Most nuclei contain protons and neutrons. Hydrogen-1 has one proton and no neutrons. A proton has relative charge +1 and relative mass about 1. A neutron has charge 0 and relative mass about 1.\n\nElectrons occupy energy levels around the nucleus. Each has relative charge −1 and relative mass about 1/1836. These relative values have no units. Almost all the atom’s mass is in the nucleus; most of its volume is outside it.",
+        "Большинство ядер (nuclei) состоит из протонов и нейтронов. В ядре водорода-1 один протон и нет нейтронов. Относительный заряд протона равен +1, нейтрона — 0. Относительная масса каждой из этих частиц примерно равна 1.\n\nВокруг ядра находятся электроны, распределённые по энергетическим уровням. У электрона относительный заряд равен −1, а относительная масса — примерно 1/1836. У относительных величин нет единиц измерения. Почти вся масса атома сосредоточена в ядре, хотя оно занимает очень малую часть объёма.",
       ),
       s(
         "How small is small?",
@@ -398,8 +398,8 @@ export const lessons: Lesson[] = [
       s(
         "What exactly halves?",
         "Что именно уменьшается вдвое?",
-        "The **half-life** T½ is the time taken for half of the parent nuclei in a sample to decay. The activity of the sample halves in the same time, because activity depends on how many undecayed nuclei are left.\n\nDo not confuse the half-life with the mass of the sample: the daughter nuclei stay in the material, so its total mass does not halve in one half-life.",
-        "**Период полураспада** (half-life) T½ — это время, за которое распадается половина материнских ядер (parent nuclei) образца. Активность (activity) образца за то же время уменьшается вдвое, потому что она зависит от числа ещё нераспавшихся ядер.\n\nНе путай период полураспада с массой образца: дочерние ядра (daughter nuclei) остаются в веществе, поэтому за один период полураспада масса образца вдвое не уменьшается.",
+        "The **half-life** T½ is the time taken for half of the parent nuclei in a sample to decay. The activity due to the parent radionuclide halves in the same time, because it depends on how many of its undecayed nuclei are left. Radioactive daughter nuclei may contribute additional activity.\n\nDo not confuse the half-life with the mass of the sample: the daughter nuclei stay in the material, so its total mass does not halve in one half-life.",
+        "**Период полураспада** (half-life) T½ — это время, за которое распадается половина материнских ядер (parent nuclei) образца. Активность (activity) исходного радионуклида за то же время уменьшается вдвое, потому что она зависит от числа его ещё нераспавшихся ядер. Радиоактивные дочерние ядра могут создавать дополнительную активность.\n\nНе путай период полураспада с массой образца: дочерние ядра (daughter nuclei) остаются в веществе, поэтому за один период полураспада масса образца вдвое не уменьшается.",
       ),
       s(
         "Repeated halving and the remaining fraction",
@@ -410,8 +410,8 @@ export const lessons: Lesson[] = [
       s(
         "Read a graph correctly",
         "Как правильно читать график",
-        "First subtract the constant background count rate from the total count rate. Background radiation is always present from natural sources, so a detector records counts even without a source.\n\nWith the same detector and distance, the corrected count rate halves in the same time as the activity.\n\nChoose a corrected count rate R, and find the later time when it has fallen to R/2. The difference between the two times is one half-life. Repeat with a second pair of values to check.\n\nA decay curve falls steeply at first and then more slowly, because fewer nuclei remain to decay. It is not a straight line: each equal time interval removes the same fraction of the nuclei that remain, so the number removed gets smaller.",
-        "Сначала вычти постоянный фон (background) из полной скорости счёта (count rate). Радиационный фон — излучение природных источников, поэтому детектор регистрирует импульсы и без источника.\n\nС тем же детектором и на том же расстоянии скорректированная скорость счёта уменьшается вдвое за то же время, что и активность.\n\nВозьми скорректированную скорость счёта R и найди более позднее время, когда она стала R/2. Разность этих времён — период полураспада. Повтори расчёт для другой пары точек и проверь результат.\n\nКривая сначала спадает круто, а потом всё медленнее, потому что остаётся всё меньше ядер, которые могут распасться. Это не прямая: за равные промежутки времени распадается одинаковая доля от оставшихся ядер, поэтому число распадов за каждый интервал становится меньше.",
+        "First subtract the background count rate measured without the source. Background radiation comes from surrounding sources, which may be natural or human-made. In this calculation it is treated as constant.\n\nWith the same detector and distance, the corrected count rate halves in the same time as the activity.\n\nChoose a corrected count rate R, and find the later time when it has fallen to R/2. The difference between the two times is one half-life. Repeat with a second pair of values to check.\n\nA decay curve falls steeply at first and then more slowly, because fewer nuclei remain to decay. It is not a straight line: each equal time interval removes the same fraction of the nuclei that remain, so the number removed gets smaller.",
+        "Сначала вычти скорость счёта фона (background), измеренную без исследуемого источника, из полной скорости счёта (count rate). Радиационный фон создают окружающие природные и искусственные источники. В этом расчёте его считаем постоянным.\n\nС тем же детектором и на том же расстоянии скорректированная скорость счёта уменьшается вдвое за то же время, что и активность.\n\nВозьми скорректированную скорость счёта R и найди более позднее время, когда она стала R/2. Разность этих времён — период полураспада. Повтори расчёт для другой пары точек и проверь результат.\n\nКривая сначала спадает круто, а потом всё медленнее, потому что остаётся всё меньше ядер, которые могут распасться. Это не прямая: за равные промежутки времени распадается одинаковая доля от оставшихся ядер, поэтому число распадов за каждый интервал становится меньше.",
       ),
       s(
         "Random does not mean patternless",
@@ -562,8 +562,8 @@ export const lessons: Lesson[] = [
       s(
         "Where natural background comes from",
         "Откуда берётся естественный фон",
-        "Natural sources include cosmic radiation, radioactive rocks and soil, radon gas in the air, and radioisotopes in food and in the human body.\n\nArtificial sources, such as medical X-ray machines, are made by people. They are not part of this natural background. “Natural” describes origin, not harmlessness.\n\nRadioactive contamination is different. It is radioactive material that has got onto a surface, into the air or into a sample, and it is not part of the background.",
-        "Природные источники — космическое излучение (cosmic radiation), радиоактивные породы и почва, радон в воздухе и радиоизотопы (radioisotopes) в пище и теле человека.\n\nИскусственные источники (artificial sources), например медицинские рентгеновские аппараты, создаёт человек. В этот естественный фон они не входят. «Природное» описывает происхождение, а не безвредность.\n\nРадиоактивное загрязнение — другое явление: это радиоактивные вещества, попавшие на поверхность, в воздух или в образец. Они не входят в фон.",
+        "Natural sources include cosmic radiation, radioactive rocks and soil, radon gas in the air, and radioisotopes in food and in the human body.\n\nArtificial sources, such as medical X-ray machines, are made by people. They are not part of this natural background. “Natural” describes origin, not harmlessness.\n\nContamination is unwanted radioactive material on or in an object. It can contribute to a detector’s background. Measure background without the source being investigated, under otherwise unchanged conditions.",
+        "Природные источники — космическое излучение (cosmic radiation), радиоактивные породы и почва, радон в воздухе и радиоизотопы (radioisotopes) в пище и теле человека.\n\nИскусственные источники (artificial sources), например медицинские рентгеновские аппараты, создаёт человек. В этот естественный фон они не входят. «Природное» описывает происхождение, а не безвредность.\n\nРадиоактивное загрязнение — нежелательное присутствие радиоактивного вещества на объекте или внутри него. Оно может давать вклад в фон детектора. Измеряй фон без исследуемого источника, сохраняя остальные условия.",
       ),
       s(
         "Why locations differ",
@@ -820,7 +820,7 @@ export const lessons: Lesson[] = [
         "Energy and power questions",
         "Задачи на энергию и мощность",
         "If the energy per fission is given, multiply it by the number of fissions. For a rate of fissions, multiply energy per fission by fissions per second to obtain power in watts. Electrical power may be smaller than thermal power; apply efficiency only if supplied. The same energy ideas apply to nuclear processes.",
-        "Если дана энергия одного деления, умножь её на число делений. Если дано число делений в секунду, умножь энергию одного деления на него и получи мощность в ваттах. Электрическая мощность может быть меньше тепловой. КПД (efficiency) учитывай, только если он дан. Знакомые тебе идеи об энергии применимы и к ядерным процессам.",
+        "Если дана энергия одного деления, умножь её на число делений. Если дано число делений в секунду, умножь энергию одного деления на него и получи мощность в ваттах. Мощность обозначают N (в английской записи P). Электрическая мощность может быть меньше тепловой. КПД (efficiency) учитывай, только если он дан. Знакомые тебе идеи об энергии применимы и к ядерным процессам.",
       ),
     ],
     formulas: [
@@ -834,7 +834,7 @@ export const lessons: Lesson[] = [
         "Каждое деление даёт 3,2 × 10⁻¹¹ Дж. Происходит 5,0 × 10¹⁸ делений в секунду. Найди тепловую и электрическую мощности при КПД 35 %.",
         b(
           "P = (3.2 × 10⁻¹¹) × (5.0 × 10¹⁸) = 16 × 10⁷ W = 1.6 × 10⁸ W = 160 MW.",
-          "P = (3,2 × 10⁻¹¹) × (5,0 × 10¹⁸) = 16 × 10⁷ Вт = 1,6 × 10⁸ Вт = 160 МВт.",
+          "N = (3,2 × 10⁻¹¹) × (5,0 × 10¹⁸) = 16 × 10⁷ Вт = 1,6 × 10⁸ Вт = 160 МВт.",
         ),
         b(
           "Electrical power = 0.35 × 160 = 56 MW. Do not multiply by 35 instead of 0.35.",

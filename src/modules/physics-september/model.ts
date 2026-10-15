@@ -82,3 +82,14 @@ export function parseStudyState(raw: string | null): StudyState {
     return { completed: [], answers: {} };
   }
 }
+
+export function scatteringSketch(offset: number, nuclear: boolean) {
+  const y = 145 - offset;
+  const close = Math.abs(offset) < 20;
+  const direction = Math.sign(offset);
+  const endY = nuclear
+    ? close ? offset === 0 ? y : 145 - direction * 120
+      : y - direction * 40 * (1 - Math.abs(offset) / 100)
+    : y - direction * 8;
+  return {y, close, endY};
+}

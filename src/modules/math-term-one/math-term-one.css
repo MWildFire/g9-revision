@@ -30,3 +30,12 @@
 
 /* Formulas and worked-example steps: no line break inside an expression (this class only). */
 .mathrev-formula {white-space:normal;overflow-wrap:anywhere}
+
+/* Printed formula cards cannot use the screen-only horizontal scroller. */
+@media print {
+  .mathrev .formula-teaching .formula-teaching-expression {
+    white-space: normal !important;
+    overflow: visible;
+    overflow-wrap: anywhere;
+  }
+}

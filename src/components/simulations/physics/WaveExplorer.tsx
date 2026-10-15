@@ -1,3 +1,4 @@
+import { wavePhase } from './waveModels';
 import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useTranslation } from 'react-i18next';
 import { useState, useRef } from 'react';
@@ -25,8 +26,8 @@ export function WaveExplorer() {
     if (!c) return;
     const ctx = c.getContext('2d');
     if (!ctx) return;
-    if (type === 'transverse') drawTransverse(ctx, amplitude, wavelength, frequency, elapsed);
-    else drawLongitudinal(ctx, amplitude, wavelength, frequency, elapsed);
+    if (type === 'transverse') drawTransverse(ctx, amplitude, wavelength, frequency, elapsed, ru);
+    else drawLongitudinal(ctx, amplitude, wavelength, frequency, elapsed, ru);
   });
 
   const v = waveSpeed(frequency, wavelength / 100);
@@ -72,6 +73,7 @@ function drawTransverse(
   lam: number,
   freq: number,
   time: number,
+  ru: boolean,
 ) {
   ctx.clearRect(0, 0, W, H);
   const baseY = H / 2;
@@ -88,7 +90,7 @@ function drawTransverse(
   ctx.lineWidth = 2.5;
   ctx.beginPath();
   for (let x = 0; x <= W; x += 1) {
-    const y = baseY - amp * Math.sin((2 * Math.PI * (x - freq * time * 60)) / lam);
+    const y = baseY - amp * Math.sin(wavePhase(x, lam, freq, time));
     if (x === 0) ctx.moveTo(x, y);
     else ctx.lineTo(x, y);
   }
@@ -104,7 +106,7 @@ function drawTransverse(
   ctx.fillStyle = '#6b5b47';
   ctx.font = '10px JetBrains Mono';
   ctx.textAlign = 'center';
-  ctx.fillText(`λ = ${(lam / 100).toFixed(2)} m`, 40 + lam / 2, baseY + amp + 24);
+  ctx.fillText(`λ = ${(lam / 100).toLocaleString(ru ? 'ru-RU' : 'en-GB', {minimumFractionDigits:2,maximumFractionDigits:2})} ${ru ? 'м' : 'm'}`, 40 + lam / 2, baseY + amp + 24);
 }
 
 function drawLongitudinal(
@@ -113,6 +115,7 @@ function drawLongitudinal(
   lam: number,
   freq: number,
   time: number,
+  ru: boolean,
 ) {
   ctx.clearRect(0, 0, W, H);
   ctx.fillStyle = '#c9a876';
@@ -123,7 +126,7 @@ function drawLongitudinal(
   for (let r = 0; r < rows; r++) {
     for (let i = 0; i < cols; i++) {
       const baseX = i * spacing + spacing / 2;
-      const offset = (amp / 50) * 8 * Math.sin((2 * Math.PI * (baseX - freq * time * 60)) / lam);
+      const offset = (amp / 50) * 8 * Math.sin(wavePhase(baseX, lam, freq, time));
       const x = baseX + offset;
       const y = H / 2 - 50 + r * 18;
       ctx.beginPath();
@@ -136,5 +139,5 @@ function drawLongitudinal(
   ctx.fillStyle = '#6b5b47';
   ctx.font = '10px JetBrains Mono';
   ctx.textAlign = 'center';
-  ctx.fillText(`λ = ${(lam / 100).toFixed(2)} m`, W / 2, H - 14);
+  ctx.fillText(`λ = ${(lam / 100).toLocaleString(ru ? 'ru-RU' : 'en-GB', {minimumFractionDigits:2,maximumFractionDigits:2})} ${ru ? 'м' : 'm'}`, W / 2, H - 14);
 }

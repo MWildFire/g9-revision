@@ -1,3 +1,4 @@
+import { wavePhase, soundSnapshot } from './waveModels';
 import {FormulaTeaching} from '../../content/FormulaTeaching';
 import { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -83,8 +84,8 @@ export function SoundWave() {
 
         <div className="text-xs text-text-muted leading-relaxed">
           {ru
-            ? 'Звук — продольная волна. Частота определяет высоту тона: чем выше частота, тем выше тон. Амплитуда определяет громкость: чем больше амплитуда, тем громче звук и тем больше энергии. Волна показана двумя способами: график давления во времени (вверху) и сжатие и разрежение частиц воздуха (внизу).'
-            : 'Sound is a longitudinal wave. Frequency determines pitch (higher Hz = higher pitch). Amplitude determines loudness (larger amplitude = louder, more energy). The wave is shown both as a pressure-time graph (top) and as compression / rarefaction of air particles (bottom).'}
+            ? 'Звук в воздухе — продольная волна. Частота связана с высотой тона. При одной частоте большая амплитуда обычно воспринимается как большая громкость; восприятие зависит также от частоты и слуха. Вверху показано избыточное давление вдоль волны, внизу — сжатия и разрежения воздуха в тот же момент. Движение замедлено, а масштабы расстояния и амплитуды условны; это не график давления во времени.'
+            : 'Sound in air is a longitudinal wave. Frequency relates to pitch. At the same frequency, greater amplitude usually sounds louder; perception also depends on frequency and hearing sensitivity. The top shows excess pressure along the wave, and the bottom shows air compressions and rarefactions at the same instant. Motion is slowed and distance/amplitude scales are schematic; this is not a pressure–time graph.'}
         </div>
       </div>
     <FormulaTeaching id="wave"/></SimulationPanel>
@@ -98,7 +99,7 @@ function drawScene(ctx: CanvasRenderingContext2D, frequency: number, amplitude: 
   const sineH = 50;
   const particleY = 165;
 
-  // Sine wave (pressure-time view)
+  // Spatial pressure snapshot, aligned with the displacement field below.
   ctx.strokeStyle = '#9c8b73';
   ctx.setLineDash([3, 3]);
   ctx.lineWidth = 1;
@@ -111,12 +112,11 @@ function drawScene(ctx: CanvasRenderingContext2D, frequency: number, amplitude: 
   ctx.strokeStyle = '#c9a876';
   ctx.lineWidth = 2.5;
   ctx.beginPath();
-  // Convert frequency (Hz) to spatial wavelength on canvas
+  // Deliberately schematic display mappings, not physical metres/seconds.
   const cyclesAcross = 1 + (frequency / 600);
-  const k = (2 * Math.PI * cyclesAcross) / W;
-  const w = 2 * Math.PI * (frequency / 400);
+  const phaseAt = (x: number) => wavePhase(x, W / cyclesAcross, frequency / 400, time);
   for (let x = 0; x <= W; x++) {
-    const y = sineY - (amplitude / 90) * sineH * Math.sin(k * x - w * time);
+    const y = sineY - (amplitude / 90) * sineH * soundSnapshot(phaseAt(x)).pressure;
     if (x === 0) ctx.moveTo(x, y);
     else ctx.lineTo(x, y);
   }
@@ -125,7 +125,7 @@ function drawScene(ctx: CanvasRenderingContext2D, frequency: number, amplitude: 
   // Labels
   ctx.fillStyle = '#6b5b47';
   ctx.font = '10px Inter';
-  ctx.fillText(ru ? 'Давление во времени' : 'Pressure-time view', 10, 18);
+  ctx.fillText(ru ? 'Давление вдоль волны (схема)' : 'Pressure along the wave (schematic)', 10, 18);
   ctx.fillText(ru ? 'Частицы воздуха (сжатие и разрежение)' : 'Air particles (compression / rarefaction)', 10, 140);
 
   // Particles row showing compression
@@ -135,7 +135,7 @@ function drawScene(ctx: CanvasRenderingContext2D, frequency: number, amplitude: 
   const spacing = W / cols;
   for (let i = 0; i < cols; i++) {
     const baseX = i * spacing + spacing / 2;
-    const offset = (amplitude / 90) * 6 * Math.sin(k * baseX - w * time);
+    const offset = (amplitude / 90) * 6 * soundSnapshot(phaseAt(baseX)).displacement;
     const x = baseX + offset;
     ctx.beginPath();
     ctx.arc(x, particleY, dotRadius, 0, Math.PI * 2);

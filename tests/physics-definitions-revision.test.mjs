@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import ts from 'typescript';
+import { loadTs } from '../scripts/audit-formula-teaching.mjs';
 import { motionGraphData } from '../src/definitions/physicsModels.ts';
 const read = path => fs.readFileSync(new URL('../' + path, import.meta.url), 'utf8');
 const en = JSON.parse(read('src/i18n/en/physics.json'));
@@ -68,8 +69,16 @@ test('all September glossary reviews preserve statistical activity and nuclear c
   // λN left the activity scope note: λ (decay constant) is not in the batch sources and is not confirmed for MYP; see docs/content-revision/done/P-p-radiation.md.
   // README rule 1: the one-radionuclide scope point is kept with new wording (cross-check R01: repeated "mixed sources" sentence removed)
   assert.match(g.activity.model.en, /For one radionuclide/);
-  // README rule 1: the background-correction point moved to the lesson section ("First subtract the constant background"); the glossary model now states scope only
-  assert.match(read('src/modules/physics-september/lessons.ts'), /First subtract the constant background/);
+  // Background subtraction belongs to the half-life graph explanation, including
+  // how the background is measured and the constant-background assumption.
+  const { lessons } = loadTs('src/modules/physics-september/lessons.ts');
+  const graph = lessons.find(lesson => lesson.id === 'half-life').sections[2].text;
+  assert.match(graph.en, /subtract the background count rate measured without the source/);
+  assert.match(graph.en, /natural or human-made/);
+  assert.match(graph.en, /In this calculation it is treated as constant/);
+  assert.match(graph.ru, /вычти скорость счёта фона.*без исследуемого источника/);
+  assert.match(graph.ru, /природные и искусственные/);
+  assert.match(graph.ru, /В этом расчёте его считаем постоянным/);
   assert.match(read('src/modules/physics-september/lessons.ts'), /total mass of the products is slightly lower/);
   // The model now states the scope only; energy conservation is stated in the lesson section and the energy-release scope is checked here.
   assert.match(l['nuclear-equations'].model.en, /how much energy is released/);

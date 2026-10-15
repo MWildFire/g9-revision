@@ -1209,8 +1209,8 @@
           "englishTerm": "Ionic bonding",
           "russianTerm": "Ионная связь",
           "contrast": {
-            "en": "In an ionic bond, one atom gives electrons to another, forming ions. In a covalent bond, atoms share electron pairs.",
-            "ru": "При ионной связи один атом отдаёт электроны другому, а при ковалентной атомы делят общую электронную пару."
+            "en": "Ionic bonding is the attraction between oppositely charged ions; electron transfer is one way those ions form. A covalent bond involves a shared electron pair attracted to both nuclei.",
+            "ru": "Ионная связь — притяжение противоположно заряженных ионов; перенос электронов объясняет образование этих ионов. При ковалентной связи общая электронная пара притягивается к ядрам обоих атомов."
           },
           "sources": [
             {
@@ -1300,12 +1300,12 @@
           },
           "simpleCovalent": {
             "name": "Simple molecular structure",
-            "rule": "Melting or boiling only separates the molecules from one another. The intermolecular forces between them are weak, so little energy is needed, and these substances melt and boil at low temperatures. The boiling point also rises with relative molecular mass in a series of similar substances. The halogens F₂ (−188 °C), Cl₂ (−34 °C), Br₂ (59 °C) and I₂ (184 °C) boil at higher temperatures down the group, because bigger molecules have stronger intermolecular forces. The same trend holds for alkanes: methane (−162 °C), ethane (−89 °C) and propane (−42 °C). These boiling points are approximate values at atmospheric pressure.",
+            "rule": "Melting or boiling only separates the molecules from one another. The intermolecular forces between them are weak, so little energy is needed, and these substances melt and boil at low temperatures. The boiling point also rises with relative molecular mass in a series of similar substances. The halogens F₂ (−188 °C), Cl₂ (−34 °C), Br₂ (59 °C) and I₂ (184 °C) boil at higher temperatures down the group, because bigger molecules have stronger intermolecular forces. The same trend holds for alkanes: methane (−161.5 °C), ethane (−89 °C) and propane (−42 °C). These boiling points are approximate values at atmospheric pressure.",
             "examples": [
               "At atmospheric pressure, dry ice (solid CO₂) sublimes at about −78 °C. It turns straight into gas and never becomes a liquid.",
               "Iodine (I₂) is a solid at room temperature. Weak forces act between its molecules, so it melts at about 114 °C."
             ],
-            "tip": "Compare the forces between molecules, not only their mass: methane (CH₄, 16 g/mol) boils at atmospheric pressure at −162 °C, while water (H₂O, 18 g/mol) boils at 100 °C.",
+            "tip": "Compare the forces between molecules, not only their mass: methane (CH₄, 16 g/mol) boils at atmospheric pressure at −161.5 °C, while water (H₂O, 18 g/mol) boils at 100 °C.",
             "review": {
               "englishTerm": "Simple molecular structure",
               "russianTerm": "Молекулярное строение",
@@ -1532,8 +1532,8 @@
               "englishTerm": "Neutralisation",
               "russianTerm": "Нейтрализация",
               "contrast": {
-                "en": "Do not confuse neutralisation with a reaction between an acid and a reactive metal. Neutralisation gives no gas, but zinc or magnesium with an acid gives hydrogen.",
-                "ru": "Не путай нейтрализацию с реакцией кислоты и активного металла. При нейтрализации газ не выделяется, а цинк или магний с кислотой дают водород."
+                "en": "Neutralisation of an acid by a basic metal oxide or metal hydroxide produces salt and water without generating gas. A reactive metal with a dilute non-oxidising acid can form hydrogen. A carbonate with an acid forms carbon dioxide, so gas formation alone does not identify the reaction.",
+                "ru": "При нейтрализации кислоты основным оксидом или гидроксидом металла образуются соль и вода без выделения газа. Активный металл с разбавленной неокисляющей кислотой может выделять водород. Карбонат с кислотой выделяет углекислый газ, поэтому по одному газовыделению тип реакции не определишь."
               },
               "sources": [
                 {
@@ -2597,7 +2597,7 @@
       },
       "calorimetry": {
         "title": "Calorimetry",
-        "body": "Calorimetry finds heat from a temperature change. If a reaction warms the solution around it, the reaction gives off heat and is exothermic. If the solution cools, the reaction takes in heat and is endothermic. The result is an estimate, because some heat is always lost to the air and to the cup.",
+        "body": "Calorimetry finds heat from a temperature change. If a reaction warms the solution around it, the reaction gives off heat and is exothermic. If the solution cools, the reaction takes in heat and is endothermic. The result is an estimate because the cup and the surrounding air also exchange heat with the solution. In an exothermic experiment heat can leave the solution; in an endothermic experiment heat can enter it.",
         "review": {
           "englishTerm": "Calorimetry",
           "russianTerm": "Калориметрия",
@@ -2620,8 +2620,8 @@
             }
           ],
           "model": {
-            "en": "The estimate assumes that all the heat goes into the solution. Heat lost to the air and absorbed by the cup makes the measured temperature change smaller than the real one.",
-            "ru": "Оценка предполагает, что вся теплота идёт в раствор. Теплота, которая уходит в воздух и поглощается стаканом, делает измеренное изменение температуры меньше реального."
+            "en": "The simple calculation neglects heat exchanged with the cup and the surrounding air. These exchanges usually reduce the magnitude of the observed temperature change: a mixture warmer than its surroundings loses heat, while a colder mixture gains it.",
+            "ru": "В простом расчёте не учитывают теплообмен со стаканом и окружающим воздухом. Обычно он уменьшает модуль измеренного изменения температуры: раствор теплее окружающей среды теряет теплоту, а более холодный получает её."
           }
         }
       }

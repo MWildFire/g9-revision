@@ -15,3 +15,7 @@
 
 - R03, правки по проверке (15.10.2026): Редактура объяснений времён и согласование терминов; аудио не менялось. Оспорено: нет. Проверка: 104 теста, build OK, lint 0 ошибок, render 16 просмотров EN/RU desktop/mobile — 0 failed. Открыто: прежние ограничения сверки по книгам; независимое ревью PR ожидается.
 - R03, правки по проверке (15.10.2026): Правила comparison/connectors/conditions разбиты на короткие абзацы. Проверка: 104 теста, build OK, lint 0 ошибок; render 16 просмотров EN/RU desktop/mobile — 0 failed. Открыто: полная сверка недоступных книг и RU-источников не заявлена; независимое ревью PR ожидается.
+
+## Source/editorial follow-up — 2026-10-15
+
+The prohibition on conditional after si is limited to conditional clauses; indirect questions with si meaning whether are distinguished. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

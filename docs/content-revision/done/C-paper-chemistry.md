@@ -10,3 +10,7 @@
 - R03, правки по проверке (15.10.2026): Al₂O₃: около 2050 °C; роль растворения в криолите сохранена. Расчёты 14 000−800=13 200 кВт·ч и 94,29% пересчитаны. Проверка: 104 теста, build OK, lint 0 ошибок; render 4 просмотров EN/RU desktop/mobile — 0 failed. Открыто: полная сверка недоступных книг и RU-источников не заявлена; независимое ревью PR ожидается.
 
 - R03, источники чисел: 2050 °C — OpenStax Chemistry 2e §18.9 (вторичный); около950°C в криолите — найдено в издательском поисковом фрагменте, прямой PDF недоступен, полная сверка остаётся открытой. Допуск0,10см³ относится к конкретной методике; STP:273,15К и100кПа дают22,71095дм³/моль,101,325кПа дают22,41397дм³/моль.
+
+## Source/editorial follow-up — 2026-10-15
+
+Reagent consumption is distinguished from dilution, interval rates from initial instantaneous rates, and the last measured gas volume from a proved final plateau. Catalyst wording avoids equal absolute rate changes. Questions, marks, IDs and training time are retained. Local candidate only; independent review and final rendered verification are pending. These corrections do not certify the whole subject or any live release.

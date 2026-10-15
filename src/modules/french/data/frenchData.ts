@@ -645,7 +645,7 @@ export const GRAMMAR_RULES: GrammarRule[] = [
     "titleEn": "Conditions with si",
     "titleRu": "Условия с si",
     "body": "Real condition: si + présent, then present or futur simple: Si tu travailles, tu réussiras (If you work, you will succeed).\n\nUnreal condition, about a situation that is not true now: si + imparfait, then conditionnel présent: Si j’avais du temps, je lirais (If I had time, I would read).\n\nThe conditional never follows si in the si-clause: say si j’avais, not si j’aurais.",
-    "bodyRu": "Реальное условие: si + présent, в главной части présent или futur simple: Si tu travailles, tu réussiras (Если будешь работать, добьёшься).\n\nНереальное условие — о ситуации, которой сейчас нет. Формула: si + imparfait, в главной части conditionnel présent. Пример: Si j’avais du temps, je lirais (Если бы у меня было время, я бы читал(а)).\n\nПосле si условное наклонение не ставят: говорим si j’avais, а не si j’aurais."
+    "bodyRu": "Реальное условие: si + présent, в главной части présent или futur simple: Si tu travailles, tu réussiras (Если будешь работать, добьёшься).\n\nНереальное условие — о ситуации, которой сейчас нет. Формула: si + imparfait, в главной части conditionnel présent. Пример: Si j’avais du temps, je lirais (Если бы у меня было время, я бы читал(а)).\n\nВ условном придаточном с si условное наклонение не ставят: говорим si j’avais, а не si j’aurais. Это правило не относится к косвенному вопросу с si в значении «ли»."
   }
 ];
 

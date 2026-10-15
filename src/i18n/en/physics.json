@@ -1325,7 +1325,7 @@
     },
     "sim3": {
       "title": "Collisions and momentum",
-      "desc": "Use the sliders to set the masses and velocities; a negative velocity means movement to the left. Switch between elastic and inelastic collisions. After a perfectly inelastic collision, the two bodies stick together and move as one. Compare the total momentum before and after the collision: the values match if neither body hits a wall first.",
+      "desc": "Use the sliders to set the masses and velocities; a negative velocity means movement to the left. Switch between elastic and inelastic collisions. After a perfectly inelastic collision, the two bodies stick together and move as one. The two-body system has no external forces, so total momentum is conserved. When a body reaches the edge of the view, a new trial begins.",
       "m1": "Mass 1",
       "m2": "Mass 2",
       "v1": "Velocity 1",

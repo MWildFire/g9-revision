@@ -28,6 +28,12 @@ export function VectorAddition() {
   const ry = f1y + f2y;
   const rMag = Math.sqrt(rx * rx + ry * ry);
   const rAngle = (Math.atan2(ry, rx) * 180) / Math.PI;
+  const hasDirection = rMag > 1e-9;
+  const scale = Math.min(
+    SCALE,
+    (CX - 45) / Math.max(1, Math.abs(f1x), Math.abs(rx)),
+    (CY - 40) / Math.max(1, Math.abs(f1y), Math.abs(ry)),
+  );
 
   return (
     <SimulationPanel
@@ -64,14 +70,14 @@ export function VectorAddition() {
           <line x1={CX} y1="0" x2={CX} y2={H} stroke="#9c8b73" strokeWidth="1" />
 
           {/* F1 from origin */}
-          <Arrow x1={CX} y1={CY} x2={CX + f1x * SCALE} y2={CY - f1y * SCALE} color="#c9a876" label={`F₁ = ${n(f1, 0)} ${unit('N')}`} />
+          <Arrow x1={CX} y1={CY} x2={CX + f1x * scale} y2={CY - f1y * scale} color="#c9a876" label={`F₁ = ${n(f1, 0)} ${unit('N')}`} />
 
           {/* F2 from tip of F1 (head-to-tail) for visual sum */}
           <Arrow
-            x1={CX + f1x * SCALE}
-            y1={CY - f1y * SCALE}
-            x2={CX + (f1x + f2x) * SCALE}
-            y2={CY - (f1y + f2y) * SCALE}
+            x1={CX + f1x * scale}
+            y1={CY - f1y * scale}
+            x2={CX + (f1x + f2x) * scale}
+            y2={CY - (f1y + f2y) * scale}
             color="#a8b5a0"
             label={`F₂ = ${n(f2, 0)} ${unit('N')}`}
             dashed
@@ -81,8 +87,8 @@ export function VectorAddition() {
           <Arrow
             x1={CX}
             y1={CY}
-            x2={CX + rx * SCALE}
-            y2={CY - ry * SCALE}
+            x2={CX + rx * scale}
+            y2={CY - ry * scale}
             color="#3d2f1f"
             label={`R = ${n(rMag, 1)} ${unit('N')}`}
             thick
@@ -112,7 +118,7 @@ export function VectorAddition() {
           <Formula caption={ru ? 'R = F₁ + F₂ (векторная сумма)' : 'R = F₁ + F₂ (vector sum)'}>
             |R| = {n(rMag, 1)} {unit('N')}
             <br />
-            <span className="text-xs text-text-muted">{ru ? 'угол' : 'angle'} ≈ {n(rAngle, 0)}°</span>
+            <span className="text-xs text-text-muted">{hasDirection ? `${ru ? 'угол' : 'angle'} ≈ ${n(rAngle, 0)}°` : (ru ? 'У нулевой равнодействующей нет направления.' : 'The zero resultant has no direction.')}</span>
           </Formula>
 
           <div className="bg-bg-tertiary border border-border rounded-md px-3 py-2 text-xs font-mono space-y-0.5">
@@ -166,7 +172,7 @@ function Arrow({
       />
       <text
         x={(x1 + x2) / 2}
-        y={(y1 + y2) / 2 - 6}
+        y={(y1 + y2) / 2 + (dashed ? 14 : -6)}
         fontSize="10"
         fontFamily="JetBrains Mono"
         fill={color}

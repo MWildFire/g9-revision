@@ -95,16 +95,10 @@ export function MomentumCollision() {
       }
     }
 
-    // Bounce off walls
-    if (s.x1 < r1) {
-      s.x1 = r1;
-      s.v1 = Math.abs(s.v1);
-    }
-    if (s.x2 > W - r2) {
-      s.x2 = W - r2;
-      s.v2 = -Math.abs(s.v2);
-    }
-    if (s.x1 > W + 40 || s.x2 < -40) {
+    // Start a fresh isolated collision at the edge of the view. A wall bounce
+    // would add an external impulse while the display still compares with the
+    // original two-body momentum.
+    if (s.x1 < r1 || s.x2 > W - r2 || s.x1 > W - r1 || s.x2 < r2) {
       reset();
       return;
     }

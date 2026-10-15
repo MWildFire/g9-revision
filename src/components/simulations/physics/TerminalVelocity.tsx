@@ -90,7 +90,7 @@ export function TerminalVelocity() {
         />
         <div className="space-y-4">
           <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim2.skydiverMass')} unit={unit('kg')} min={50} max={120} step={1} value={mass} onChange={setMass} />
-          <Slider format={(value) => n(value, 1)} label={t('forceMotion.sim2.dragCoefficient')} min={0.1} max={2.0} step={0.05} value={drag} onChange={setDrag} />
+          <Slider format={(value) => n(value, 2)} label={t('forceMotion.sim2.dragCoefficient')} min={0.1} max={2.0} step={0.05} value={drag} onChange={setDrag} />
 
           <div className="flex gap-2">
             <Button

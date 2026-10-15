@@ -143,7 +143,7 @@
           "rule": "Общее утверждение имеет вид «для каждого x из множества верно P(x)». Любое значение x из этого множества, при котором P(x) ложно, опровергает утверждение.\n\nДля утверждения «если P, то Q» контрпример (counterexample) — это случай, в котором P истинно, а Q ложно. Случай, в котором P ложно, утверждение не опровергает, даже если Q в нём тоже ложно.",
           "examples": [
             "Утверждение: все простые числа нечётные. Контрпример: число 2 простое и чётное, значит, утверждение ложно.",
-            "Утверждение: n² > n при любом натуральном n. Контрпример: при n = 1 получаем 1² = 1, а неравенство 1 > 1 неверно. Утверждение верно при n ≥ 2, но при n = 1 оно не выполняется, поэтому оно ложно.",
+            "Утверждение: n² > n при любом целом n ≥ 1. Контрпример: при n = 1 получаем 1² = 1, а неравенство 1 > 1 неверно. Утверждение верно при n ≥ 2, но при n = 1 оно не выполняется, поэтому оно ложно.",
             "Утверждение: каждое квадратное уравнение имеет действительные корни. Контрпример: из x² + 1 = 0 получаем x² = −1. Квадрат действительного числа не бывает отрицательным, значит, у этого уравнения нет действительных корней.",
             "Утверждение: если a² = b², то a = b. Контрпример: возьми a = −3 и b = 3. Здесь a² = b² = 9 — верное равенство, а a = b неверно, так как −3 ≠ 3."
           ],
@@ -152,7 +152,7 @@
             "russianTerm": "Контрпример",
             "contrast": {
               "en": "A value that is not in the stated set is not a counterexample. For 'n² > n for every positive integer n', the value n = 0 makes the inequality 0 > 0 false. Yet 0 is not a positive integer, so it does not count.",
-              "ru": "Значение, которого нет в заданном множестве, контрпримером не является. Для утверждения «n² > n при любом натуральном n» значение n = 0 даёт неверное неравенство 0 > 0. Но 0 — не натуральное число, поэтому он не подходит."
+              "ru": "Значение, которого нет в заданном множестве, контрпримером не является. Для утверждения «n² > n при любом целом n ≥ 1» значение n = 0 даёт неверное неравенство 0 > 0. Но 0 не удовлетворяет условию n ≥ 1, поэтому он не подходит."
             },
             "sources": [
               {
@@ -263,7 +263,7 @@
     "subTopicsDetailed": {
       "structureSets": {
         "name": "Классификация чисел и обозначения множеств",
-        "rule": "Каждое из этих числовых множеств входит в следующее: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.\n\nНатуральные числа (natural numbers) ℕ = {0, 1, 2, 3, …} — это целые неотрицательные числа. В этот набор входит и ноль. Целые числа (integers) ℤ = {…, −2, −1, 0, 1, 2, …} добавляют к ним отрицательные целые числа. Рациональные числа (rational numbers) ℚ записываются в виде дроби p/q, где p и q — целые числа, а q ≠ 0. Действительные числа (real numbers) ℝ — это все рациональные и все иррациональные числа, например √2.\n\nВ обозначениях множеств запись x ∈ A значит, что x — один из элементов A. A ∪ B — объединение (union): элементы из A или из B. A ∩ B — пересечение (intersection): элементы, которые есть в обоих множествах.",
+        "rule": "Каждое из этих числовых множеств входит в следующее: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.\n\nЗдесь натуральные числа (natural numbers) ℕ = {1, 2, 3, …} начинаются с единицы, как и в классификаторе ниже. Целые числа (integers) ℤ = {…, −2, −1, 0, 1, 2, …} включают также ноль и отрицательные целые числа. Рациональные числа (rational numbers) ℚ записываются в виде дроби p/q, где p и q — целые числа, а q ≠ 0. Действительные числа (real numbers) ℝ — это все рациональные и все иррациональные числа, например √2.\n\nВ обозначениях множеств запись x ∈ A значит, что x — один из элементов A. A ∪ B — объединение (union): элементы из A или из B. A ∩ B — пересечение (intersection): элементы, которые есть в обоих множествах.",
         "examples": [
           "√2 ∈ ℝ, но √2 ∉ ℚ, потому что √2 — иррациональное число.",
           "Периодическая дробь (recurring decimal) 0,333… = 1/3 — рациональное число, поэтому 0,333… ∈ ℚ.",
@@ -274,8 +274,8 @@
           "englishTerm": "number sets",
           "russianTerm": "числовые множества",
           "contrast": {
-            "en": "2 ∈ ℕ means 2 is one of the numbers in ℕ, but {2} ⊆ ℕ means all the elements of {2} are in ℕ. Some books start ℕ at 1, so state which convention you use.",
-            "ru": "2 ∈ ℕ означает, что 2 — одно из чисел в ℕ, а {2} ⊆ ℕ означает, что все элементы {2} входят в ℕ. Некоторые книги начинают ℕ с единицы, поэтому укажи, какое соглашение ты используешь."
+            "en": "2 ∈ ℕ means 2 is one of the numbers in ℕ, but {2} ⊆ ℕ means all the elements of {2} are in ℕ. Some books include 0 in ℕ, so state which convention you use.",
+            "ru": "2 ∈ ℕ означает, что 2 — одно из чисел в ℕ, а {2} ⊆ ℕ означает, что все элементы {2} входят в ℕ. Некоторые книги включают в ℕ ноль, поэтому укажи, какое соглашение ты используешь."
           },
           "sources": [
             {
@@ -289,6 +289,12 @@
               "url": "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
               "language": "en",
               "section": "5.1 Sets — Operations on Sets"
+            },
+            {
+              "title": "Фоксфорд · Натуральные числа",
+              "url": "https://foxford.ru/wiki/matematika/naturalnye-chisla",
+              "language": "ru",
+              "section": "Натуральный ряд начинается с единицы"
             }
           ]
         }
@@ -305,8 +311,8 @@
           "englishTerm": "rounding",
           "russianTerm": "округление",
           "contrast": {
-            "en": "Zeros at the end of a whole number are not significant: 1250 has 3 significant figures, not 4. Writing 1.25 × 10³ shows the three significant figures clearly.",
-            "ru": "Нули в конце целого числа не считаются значащими: в числе 1250 три значащие цифры, а не четыре. Запись 1,25 × 10³ наглядно показывает три значащие цифры."
+            "en": "The significance of trailing zeros in a whole-number measurement can be unclear unless its precision is stated. Writing 1.25 × 10³ specifies three significant figures; 1.250 × 10³ specifies four.",
+            "ru": "Значимость конечных нулей в целочисленной записи результата измерения может быть неясна без указания точности. Запись 1,25 × 10³ задаёт три значащие цифры, а 1,250 × 10³ — четыре."
           },
           "sources": [
             {
@@ -320,6 +326,12 @@
               "url": "https://openstax.org/books/chemistry-2e/pages/1-5-measurement-uncertainty-accuracy-and-precision",
               "language": "en",
               "section": "1.5 Measurement Uncertainty — Significant Figures"
+            },
+            {
+              "title": "Cambridge University Press · Analytical Chemistry in Archaeology",
+              "url": "https://www.cambridge.org/core/books/abs/analytical-chemistry-in-archaeology/significant-figures/671AB649503D8CFCC77DF1CB3F36095F",
+              "language": "en",
+              "section": "Significant figures, p. 327: trailing zeros and measurement precision"
             }
           ],
           "model": {
@@ -1823,7 +1835,21 @@
           "contrast": {
             "en": "A bus route number such as 12 is a label, so it is categorical data, not numerical data. Histogram class intervals have a numerical width; bar-chart categories do not.",
             "ru": "Номер маршрута 12 — это метка, поэтому такие данные качественные, а не количественные. Интервалы гистограммы имеют числовую ширину, а категории столбчатой диаграммы — нет."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§6.1 · Univariate statistics, pp. 306–325; §6.3 · Histograms, pp. 348–361"
+            },
+            {
+              "title": "РЭШ · Наглядное представление статистической информации",
+              "url": "https://resh.edu.ru/subject/lesson/1988/main/",
+              "language": "ru",
+              "section": "Наглядное представление статистической информации"
+            }
+          ]
         }
       },
       "stemLeaf": {
@@ -1839,7 +1865,21 @@
           "contrast": {
             "en": "The stem is not always the tens digit. For the values 0.8, 1.2 and 1.5, the stem is the units digit and the leaf is the tenths digit. In a back-to-back diagram, read each side outwards from the shared stems, and state the units in the key.",
             "ru": "Стебель не всегда означает десятки. Для значений 0,8; 1,2 и 1,5 стебель — это цифра целых, а лист — цифра десятых. В двусторонней диаграмме (back-to-back diagram) читай каждую сторону от общих стеблей наружу и укажи единицы измерения в ключе."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§6.1 · Stem-and-leaf diagrams, pp. 306–322"
+            },
+            {
+              "title": "РЭШ · Сбор и группировка статистических данных",
+              "url": "https://resh.edu.ru/subject/lesson/1556/main/",
+              "language": "ru",
+              "section": "Сбор и группировка статистических данных: основа упорядочивания наблюдений"
+            }
+          ]
         }
       },
       "grouped": {
@@ -1856,7 +1896,21 @@
           "contrast": {
             "en": "The mode and the modal class are different. The mode is the value that occurs most often, but grouped data cannot show it; they only show the modal class. With unequal class widths, the modal class is the class with the greatest frequency per unit of class width, not the class with the greatest frequency.",
             "ru": "Мода и модальный интервал — разные понятия. Мода (mode) — значение, которое встречается чаще всего, но по сгруппированным данным её найти нельзя. По ним можно найти только модальный интервал. При разной ширине интервалов модальный интервал — тот, у которого наибольшая частота на единицу ширины, а не наибольшая частота."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§6.2 · Quantifying data, pp. 326–347"
+            },
+            {
+              "title": "РЭШ · Сбор и группировка статистических данных",
+              "url": "https://resh.edu.ru/subject/lesson/1556/main/",
+              "language": "ru",
+              "section": "Сбор и группировка статистических данных"
+            }
+          ]
         }
       },
       "boxPlots": {
@@ -1876,7 +1930,21 @@
           "model": {
             "en": "Method used here: Q1 is the median of the lower half of the data and Q3 is the median of the upper half. If n is odd, leave the overall median out of both halves. Calculators and software can use other methods, so state the method you use in an exam answer.",
             "ru": "Здесь используется такой способ: Q1 — медиана нижней половины данных, Q3 — медиана верхней половины. Если n нечётное, медиана не входит ни в одну из половин. Калькуляторы и программы могут считать квартили иначе, поэтому в ответе на экзамене укажи, каким способом ты считаешь."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§6.1–6.2 · Quartiles and box plots, pp. 306–338"
+            },
+            {
+              "title": "РЭШ · Начала статистики",
+              "url": "https://resh.edu.ru/subject/lesson/3751/conspect/",
+              "language": "ru",
+              "section": "Начала статистики: описательные показатели"
+            }
+          ]
         }
       },
       "histograms": {
@@ -1925,7 +1993,21 @@
               "en": "These bars have different heights but the same frequency; height is frequency density.",
               "ru": "Высоты различаются, но частоты одинаковы; высота задаёт плотность частоты."
             }
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§6.3 · Histograms, pp. 348–361"
+            },
+            {
+              "title": "РЭШ · Наглядное представление статистической информации",
+              "url": "https://resh.edu.ru/subject/lesson/1988/main/",
+              "language": "ru",
+              "section": "Наглядное представление статистической информации: гистограммы"
+            }
+          ]
         }
       },
       "cumulativeFreq": {
@@ -1946,7 +2028,21 @@
           "model": {
             "en": "Straight-line interpolation assumes that values are spread evenly within each class; the exact individual values are not known.",
             "ru": "Линейная интерполяция предполагает, что значения внутри каждого интервала распределены равномерно. Точные значения неизвестны."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§6.2 · Cumulative frequency, pp. 326–341"
+            },
+            {
+              "title": "РЭШ · Сбор и группировка статистических данных",
+              "url": "https://resh.edu.ru/subject/lesson/1556/main/",
+              "language": "ru",
+              "section": "Сбор и группировка статистических данных: частоты"
+            }
+          ]
         }
       },
       "stdDev": {
@@ -1962,7 +2058,21 @@
           "contrast": {
             "en": "Variance is in squared units (for example, cm²), so compare spreads with the standard deviation, which is in the original units (cm). A standard deviation of 0 means that all the values are equal.",
             "ru": "Дисперсия измеряется в квадратных единицах (например, см²), поэтому разброс сравнивают по стандартному отклонению, которое измеряется в исходных единицах (см). Стандартное отклонение, равное 0, означает, что все значения одинаковы."
-          }
+          },
+          "sources": [
+            {
+              "title": "OpenStax · Introductory Statistics 2e (secondary source)",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+              "language": "en",
+              "section": "§2.7 · Population and sample standard deviation"
+            },
+            {
+              "title": "РЭШ · Дисперсия и среднее квадратичное отклонение",
+              "url": "https://resh.edu.ru/subject/lesson/3409/main/",
+              "language": "ru",
+              "section": "Дисперсия и среднее квадратичное отклонение"
+            }
+          ]
         }
       },
       "pieCharts": {
@@ -1978,7 +2088,21 @@
           "contrast": {
             "en": "A sector shows a share of the whole, so you need the total to turn it into a count. A pie chart works only if the categories do not overlap and make up one whole: multiple-choice answers can add up to more than 100%.",
             "ru": "Сектор показывает долю целого, поэтому, чтобы получить количество, нужен общий итог. Круговая диаграмма подходит, только если категории не пересекаются и составляют одно целое: при множественном выборе ответы могут в сумме дать больше 100%."
-          }
+          },
+          "sources": [
+            {
+              "title": "OpenStax · Introductory Statistics 2e (secondary source)",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+              "language": "en",
+              "section": "§1.2 · Pie charts and proportional sector sizes"
+            },
+            {
+              "title": "РЭШ · Круговые диаграммы",
+              "url": "https://resh.edu.ru/subject/lesson/6851/train/",
+              "language": "ru",
+              "section": "Круговые диаграммы"
+            }
+          ]
         }
       },
       "twoWayTables": {
@@ -1993,7 +2117,21 @@
           "contrast": {
             "en": "The denominator is the total of the group named in the question. For a girl, use the 22 girls, not the 40 students.",
             "ru": "Знаменатель — это итог той группы, о которой спрашивают. Для девочки берём 22 девочки, а не 40 учеников."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§4.2 · Two-way tables, pp. 249–252"
+            },
+            {
+              "title": "РЭШ · Сбор и группировка статистических данных",
+              "url": "https://resh.edu.ru/subject/lesson/1556/main/",
+              "language": "ru",
+              "section": "Сбор и группировка статистических данных: таблицы"
+            }
+          ]
         }
       },
       "rangeSpread": {
@@ -2009,7 +2147,21 @@
           "contrast": {
             "en": "The range is a difference, not one of the values: 25 is not the range of the first data set.",
             "ru": "Размах — это разность, а не одно из значений: число 25 в первом наборе — не размах."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§6.1 · Univariate statistics, pp. 306–325"
+            },
+            {
+              "title": "РЭШ · Начала статистики",
+              "url": "https://resh.edu.ru/subject/lesson/3751/conspect/",
+              "language": "ru",
+              "section": "Начала статистики: описательные показатели"
+            }
+          ]
         }
       },
       "mutuallyExclusive": {
@@ -2024,7 +2176,21 @@
           "contrast": {
             "en": "Mutually exclusive does not mean unrelated. If A happens, B cannot happen.",
             "ru": "Несовместные — не значит «никак не связанные»: если наступило A, событие B уже не может наступить."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§4.2 · Mutually exclusive events, pp. 251–259"
+            },
+            {
+              "title": "РЭШ · Сложение вероятностей",
+              "url": "https://resh.edu.ru/subject/lesson/2116/main/",
+              "language": "ru",
+              "section": "Сложение вероятностей: несовместные события"
+            }
+          ]
         }
       },
       "addProbabilities": {
@@ -2039,7 +2205,21 @@
           "contrast": {
             "en": "Only events that cannot happen together can be added. A heart and a king can both happen (the king of hearts), so P(heart or king) is not 13/52 + 4/52.",
             "ru": "Складывать можно только события, которые не могут произойти вместе. Карта может быть одновременно червой и королём (король червей), поэтому P(червы или король) не равно 13/52 + 4/52."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§4.2 · Probability of single and combined events, pp. 234–259"
+            },
+            {
+              "title": "РЭШ · Сложение вероятностей",
+              "url": "https://resh.edu.ru/subject/lesson/2116/main/",
+              "language": "ru",
+              "section": "Сложение вероятностей"
+            }
+          ]
         }
       },
       "sampling": {
@@ -2055,7 +2235,21 @@
           "contrast": {
             "en": "A large sample is not automatically fair. A biased method gives a biased sample, however many people it includes.",
             "ru": "Большая выборка не гарантирует отсутствия смещения. Если способ отбора смещён, выборка будет смещённой, сколько бы людей в неё ни вошло."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§9.1 · Sampling techniques, pp. 458–476"
+            },
+            {
+              "title": "РЭШ · Сбор и группировка статистических данных",
+              "url": "https://resh.edu.ru/subject/lesson/1556/main/",
+              "language": "ru",
+              "section": "Сбор и группировка статистических данных: выборка"
+            }
+          ]
         }
       },
       "correlation": {
@@ -2070,7 +2264,21 @@
           "contrast": {
             "en": "Correlation does not prove causation. Two quantities can be strongly correlated because a third factor affects both.",
             "ru": "Корреляция не доказывает причину. Две величины могут сильно коррелировать, если на обе влияет третий фактор."
-          }
+          },
+          "sources": [
+            {
+              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
+              "url": "",
+              "language": "en",
+              "section": "§9.2 · Bivariate data, pp. 477–489"
+            },
+            {
+              "title": "БРЭ · Диаграмма рассеяния",
+              "url": "https://bigenc.ru/c/diagramma-rasseianiia-7a55c2",
+              "language": "ru",
+              "section": "Корреляционная связь, форма облака точек; отличие от причинной связи"
+            }
+          ]
         }
       }
     }

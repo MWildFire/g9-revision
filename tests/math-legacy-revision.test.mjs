@@ -76,10 +76,20 @@ test('all existing legacy definition cards expose bilingual terminology and sect
       for (const item of Object.values(group)) {
         count++;assert.ok(item.rule.length>70);assert.ok(item.review.englishTerm&&item.review.russianTerm);
         if(item.review.contrast)assert.ok(item.review.contrast.en&&item.review.contrast.ru);
-        // M-m-data (statsProb): OpenStax sources removed (EN-STANDARD §1). The MYP print textbook has no URL; its page references are in content-work/M-m-data/sources.md. Sources are checked for the other legacy cards only.
-        if (group===d.statsProb.subTopicsDetailed) continue;
-        assert.ok(item.review.sources.length>0);
-        for (const source of item.review.sources) { assert.match(source.url,/^https:\/\//); assert.ok(source.section); assert.ok(['en','ru'].includes(source.language)); }
+        assert.ok(item.review.sources?.length>0);
+        for (const source of item.review.sources) {
+          if (group===d.statsProb.subTopicsDetailed && source.url==='') {
+            assert.match(source.title,/Oxford.*MYP Mathematics 4&5 Standard/);
+            assert.match(source.section,/pp\. \d+[–-]\d+/);
+            assert.equal(source.language,'en');
+          } else assert.match(source.url,/^https:\/\//);
+          assert.ok(source.section);
+          assert.ok(['en','ru'].includes(source.language));
+        }
+        if (group===d.statsProb.subTopicsDetailed) {
+          assert.ok(item.review.sources.some(source=>source.language==='en'));
+          assert.ok(item.review.sources.some(source=>source.language==='ru'));
+        }
       }
     }
     assert.equal(count,57);

@@ -3714,6 +3714,56 @@
       "notes": [
         "Арабский текст (Modern Standard Arabic) не трогать без проверки по словарю; правь английские и русские пояснения, транслитерацию сверяй с одной системой."
       ]
+    },
+    {
+      "id": "S-grade9-r06",
+      "lane": "S",
+      "due": "2026-10-17",
+      "title": "Grade9 connected consolidation across all studied subjects",
+      "routes": [
+        "/grade9",
+        "/grade9/g-river-processes",
+        "/grade9/g-channel",
+        "/grade9/g-floods",
+        "/grade9/g-resources",
+        "/grade9/g-resource-decisions",
+        "/grade9/g-atmosphere",
+        "/grade9/g-fieldwork",
+        "/grade9/g-tourism",
+        "/grade9/p-measurement",
+        "/grade9/p-circuits",
+        "/grade9/b-transport-link",
+        "/grade9/b-plants",
+        "/grade9/c-conditions",
+        "/grade9/m-bounds",
+        "/grade9/e-comparison",
+        "/grade9/f-health-community",
+        "/grade9/a-core",
+        "/grade9/pe-evaluate",
+        "/grade9/moral-evidence",
+        "/grade9/art-observe-develop",
+        "/grade9/social-source",
+        "/grade9/project-evidence",
+        "/grade9/a-routine"
+      ],
+      "units": [
+        {
+          "kind": "tsx",
+          "file": "src/modules/grade9/Grade9Module.tsx"
+        },
+        {
+          "kind": "json",
+          "file": "src/modules/grade9/lessons.json"
+        },
+        {
+          "kind": "json",
+          "file": "src/modules/grade9/biology-scope.json"
+        },
+        {
+          "kind": "json",
+          "file": "src/modules/grade9/sources.json"
+        }
+      ]
     }
   ]
 }

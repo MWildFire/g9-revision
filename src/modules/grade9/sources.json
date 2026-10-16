@@ -1,0 +1,266 @@
+{
+  "geo-river-en": {
+    "title": "Earle, Physical Geology 2e · stream erosion, deposition and flooding (EN)",
+    "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-3-stream-erosion-and-deposition/",
+    "note": {
+      "en": "Physical mechanisms; supplements the MYP objectives.",
+      "ru": "Механизмы речных процессов; дополнение к целям MYP."
+    }
+  },
+  "geo-river-ru": {
+    "title": "Фоксфорд · Работа текучих вод (RU)",
+    "url": "https://foxford.ru/wiki/geografiya/rabota-tekuchih-vod-lednikov-i-vetra",
+    "note": {
+      "en": "Independent Russian terminology; the exercises are authored.",
+      "ru": "Независимая русская терминология; задачи авторские."
+    }
+  },
+  "geo-runoff": {
+    "title": "USGS · Surface and overland runoff (EN)",
+    "url": "https://www.usgs.gov/water-science-school/science/runoff-surface-and-overland-water-runoff",
+    "note": {
+      "en": "Land use and runoff; model numbers are invented, not USGS observations.",
+      "ru": "Связь землепользования и стока; числа модели придуманы, не измерены USGS."
+    }
+  },
+  "geo-food-en": {
+    "title": "FAO · Four dimensions of food security (EN)",
+    "url": "https://www.fao.org/4/al936e/al936e00.pdf",
+    "note": {
+      "en": "Availability, access, utilisation and stability.",
+      "ru": "Наличие пищи, доступ, использование и стабильность."
+    }
+  },
+  "geo-food-ru": {
+    "title": "ФАО · Доступ к продовольствию (RU)",
+    "url": "https://www.fao.org/measuring-hunger/access-to-food/frequently-asked-questions/ru",
+    "note": {
+      "en": "Food access and limits of indicators.",
+      "ru": "Доступ к продовольствию и границы показателей."
+    }
+  },
+  "geo-energy": {
+    "title": "EIA · Sources of energy (EN)",
+    "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+    "note": {
+      "en": "Renewable and nonrenewable sources.",
+      "ru": "Возобновляемые и невозобновляемые источники."
+    }
+  },
+  "geo-resources-ru": {
+    "title": "Фоксфорд · Природные ресурсы (RU)",
+    "url": "https://foxford.ru/wiki/geografiya/miroviye-prirodniye-resursi-resursoobespechennost",
+    "note": {
+      "en": "Resource classifications; evaluation scenarios are authored.",
+      "ru": "Виды ресурсов; оценочные сценарии авторские."
+    }
+  },
+  "geo-circulation": {
+    "title": "Met Office · Global circulation (EN)",
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/atmosphere/global-circulation-patterns",
+    "note": {
+      "en": "Idealised circulation; not a local forecast.",
+      "ru": "Идеализированная циркуляция; не прогноз для города."
+    }
+  },
+  "geo-enso": {
+    "title": "NOAA · El Niño and La Niña (EN)",
+    "url": "https://oceanservice.noaa.gov/facts/ninonina.html",
+    "note": {
+      "en": "Pacific mechanisms; local effects are probabilistic.",
+      "ru": "Механизмы в Тихом океане; местные эффекты вероятностные."
+    }
+  },
+  "geo-climate-ru": {
+    "title": "Фоксфорд · Климатообразующие факторы (RU)",
+    "url": "https://foxford.ru/wiki/geografiya/klimat",
+    "note": {
+      "en": "Independent Russian climate terminology.",
+      "ru": "Независимая русская терминология климата."
+    }
+  },
+  "geo-methods": {
+    "title": "Harrison & Torres · Geography for IB MYP 4&5 (EN)",
+    "url": "https://media.hachettelearning.com/media/medialibraries/hodder/samples/geography/14-16/ib-myp-geography/geography-for-the-ib-myp-4and5-by-concept-sample-pages-9781510425804.pdf",
+    "note": {
+      "en": "Previously inspected sample pp.13–17 supports graph interpretation; not a source for every geographical fact.",
+      "ru": "Ранее проверенный образец, с.13–17: чтение графиков. Не источник всех географических фактов."
+    }
+  },
+  "geo-tourism": {
+    "title": "UN Tourism · Glossary (EN)",
+    "url": "https://www.untourism.int/glossary-tourism-terms",
+    "note": {
+      "en": "Tourism classification; ethical scenarios and calculations are authored.",
+      "ru": "Классификация туризма; этические ситуации и расчёты авторские."
+    }
+  },
+  "physics-ib": {
+    "title": "Paul Morris · Physics for the IB MYP 4&5, Hodder 2015 (EN)",
+    "url": "https://www.hachettelearning.com/",
+    "note": {
+      "en": "ISBN 9781471839337. Existing corpus textbook basis; new exercises are authored. See the linked subject library for definition-level references.",
+      "ru": "ISBN 9781471839337. Учебная основа существующего корпуса; новые примеры авторские. Точные ссылки определений — в библиотеке."
+    }
+  },
+  "physics-ru": {
+    "title": "Физикон · Открытая физика (RU)",
+    "url": "https://physics.ru/",
+    "note": {
+      "en": "Independent Russian definitions of physical quantities; numerical examples are authored.",
+      "ru": "Независимые русские определения; численные примеры авторские."
+    }
+  },
+  "biology-ib": {
+    "title": "Allott & Mindorff · MYP Biology Years 4&5, Oxford 2017 (EN)",
+    "url": "https://global.oup.com/education/",
+    "note": {
+      "en": "Existing corpus textbook basis; compare the linked library's individual source records. This is a bibliography, not a claim of fresh full-book verification.",
+      "ru": "Учебная основа существующего корпуса; точные ссылки — в предметной библиотеке. Это библиография, не новая полная проверка книги."
+    }
+  },
+  "biology-ru": {
+    "title": "Фоксфорд · Сердечно-сосудистая система (RU)",
+    "url": "https://foxford.ru/wiki/biologiya/serdechno-sosudistaya-sistema-cheloveka-serdtse",
+    "note": {
+      "en": "Circulation and the heart; other definitions keep their specific references in the subject library.",
+      "ru": "Кровообращение и сердце; точные ссылки остальных определений сохранены в библиотеке."
+    }
+  },
+  "chem-ib": {
+    "title": "Annie Termaat & Christopher Talbot · Chemistry for the IB MYP 4&5, Hodder 2016 (EN)",
+    "url": "https://www.hachettelearning.com/",
+    "note": {
+      "en": "Existing corpus bibliography; conditions and worked cases are authored. Subject definitions retain individual references.",
+      "ru": "Библиография существующего корпуса; условия и примеры авторские. У определений сохранены отдельные ссылки."
+    }
+  },
+  "chem-ru": {
+    "title": "Фоксфорд · Смещение химического равновесия (RU)",
+    "url": "https://foxford.ru/wiki/himiya/smeschenie-himicheskogo-ravnovesiya",
+    "note": {
+      "en": "Equilibrium shifts; inert-gas conditions are explained separately.",
+      "ru": "Смещение равновесия; условия добавления инертного газа разобраны отдельно."
+    }
+  },
+  "math-ib": {
+    "title": "MYP Mathematics 4&5 Standard · Oxford 2nd ed. 2021 (EN)",
+    "url": "https://www.haesemathematics.com/",
+    "note": {
+      "en": "ISBN 9781382011006. School chapter references retained privately; calculations here are authored.",
+      "ru": "ISBN 9781382011006. Школьные ссылки на главы сохранены приватно; новые расчёты авторские."
+    }
+  },
+  "math-ru": {
+    "title": "Фоксфорд · Математика (RU)",
+    "url": "https://foxford.ru/wiki/matematika",
+    "note": {
+      "en": "Russian terminology; detailed references are in the subject library. Original calculations need independent checking.",
+      "ru": "Русские определения; подробные ссылки — в библиотеке. Авторские расчёты требуют самостоятельной проверки."
+    }
+  },
+  "english-ib": {
+    "title": "Allison & Chanen · English A Language and Literature, Oxford 2012 (EN)",
+    "url": "https://global.oup.com/education/",
+    "note": {
+      "en": "Previously inspected pp.14–15,42–43,52–53 support analysis of choices; school MYP booklet establishes G9 tasks. Original examples are not exam extracts.",
+      "ru": "Ранее проверенные с.14–15,42–43,52–53: анализ приёмов. Школьный буклет задаёт задания MYP. Примеры не взяты из экзамена."
+    }
+  },
+  "english-ru": {
+    "title": "Грамота · Словари русского языка (RU)",
+    "url": "https://gramota.ru/poisk?query=олицетворение&mode=slovari",
+    "note": {
+      "en": "Russian literary terminology; the authored analysis is not a translated school answer.",
+      "ru": "Русская литературоведческая терминология; авторский разбор не переводит школьный ответ."
+    }
+  },
+  "french-ib": {
+    "title": "Pearson · Français B workbook sample (FR/EN)",
+    "url": "https://www.pearson.com/content/dam/one-dot-com/one-dot-com/international-schools/pdfs/international-baccalaureate/ib-diploma/IB-French-Workbook-sample/IB-French-B-workbook-sample.pdf",
+    "note": {
+      "en": "Previously inspected pp.7,13 support contextual language skills, not a claim that Diploma level is the student's MYP level.",
+      "ru": "Ранее проверенные с.7,13 поддерживают языковые навыки; уровень Diploma не объявляется школьным уровнем MYP."
+    }
+  },
+  "french-ru": {
+    "title": "Елена Шипилова · Conditionnel présent (RU)",
+    "url": "https://speakasap.com/media/pdf/fr/grammar/conditionnel_present.pdf",
+    "note": {
+      "en": "Page 2: si + imparfait with conditional in the result. New examples are independently authored.",
+      "ru": "С.2: после si используется imparfait, в результате — conditionnel. Новые примеры самостоятельные."
+    }
+  },
+  "arabic-en": {
+    "title": "Madinah Arabic · Reading and grammar (EN/AR)",
+    "url": "https://madinaharabic.com/free-content/grammar/lesson-6/part-1",
+    "note": {
+      "en": "Supplemental MSA reference; no school scope inferred.",
+      "ru": "Литературный арабский: женский род. Это дополнительная практика, не школьный список."
+    }
+  },
+  "arabic-ru": {
+    "title": "Аль-Аммари Мохаммед Салех · Синтаксис арабского языка, Казань 2009 (RU)",
+    "url": "https://kpfu.ru/portal/docs/F_1000036127/2.pdf",
+    "note": {
+      "en": "Gender and adjectives, pp.33 and 69. The dialogue examples are original.",
+      "ru": "Род и прилагательное: с.33,69. Примеры диалога самостоятельные."
+    }
+  },
+  "myp-pe": {
+    "title": "IB · MYP physical and health education (EN)",
+    "url": "https://www.ibo.org/programmes/middle-years-programme/curriculum/physical-and-health-education/",
+    "note": {
+      "en": "General curricular purpose only; exact school unit is unknown.",
+      "ru": "Общая цель предмета; конкретная школьная тема неизвестна."
+    }
+  },
+  "moral-official": {
+    "title": "UAE · Moral Education programme (EN/AR)",
+    "url": "https://moraleducation.ae/",
+    "note": {
+      "en": "General programme reference; the decision scenario is original, not an assigned assessment.",
+      "ru": "Общая программа; ситуация выбора авторская, не школьная проверка."
+    }
+  },
+  "myp-art": {
+    "title": "IB · MYP arts",
+    "url": "https://www.ibo.org/programmes/middle-years-programme/curriculum/arts/",
+    "note": {
+      "en": "General purpose; school assignment and artistic outcomes are not inferred.",
+      "ru": "Общая цель предмета; школьное задание и готовые творческие результаты не подразумеваются."
+    }
+  },
+  "myp-humanities": {
+    "title": "IB · MYP individuals and societies",
+    "url": "https://www.ibo.org/programmes/middle-years-programme/curriculum/individuals-and-societies/",
+    "note": {
+      "en": "General inquiry framework; sources in the exercise are invented.",
+      "ru": "Общая исследовательская рамка; источники упражнения придуманы."
+    }
+  },
+  "social-ru": {
+    "title": "Президентская библиотека · образовательные проекты",
+    "url": "https://www.prlib.ru/",
+    "note": {
+      "en": "Russian source-work bibliography; authored examples need their own reasoning.",
+      "ru": "Русская библиография работы с источниками; примеры требуют собственного рассуждения."
+    }
+  },
+  "myp-project": {
+    "title": "IB · MYP projects",
+    "url": "https://www.ibo.org/programmes/middle-years-programme/curriculum/myp-projects/",
+    "note": {
+      "en": "Learning and process framework; no personal project or service completion is certified.",
+      "ru": "Цели обучения и процесс; завершение проекта или общественной работы не подтверждается."
+    }
+  },
+  "biology-plants-ru": {
+    "title": "Фоксфорд · Фотосинтез и питание растений (RU)",
+    "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
+    "note": {
+      "en": "Plant nutrition; the potometer calculation is an authored model.",
+      "ru": "Питание растений; потометр — отдельный авторский расчёт."
+    }
+  }
+}

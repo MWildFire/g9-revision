@@ -18,6 +18,7 @@ const MathTermOneModule = lazy(() => import('./modules/math-term-one/MathTermOne
 const MocksPage = lazy(() => import('./pages/MocksPage').then(m => ({ default: m.MocksPage })));
 const MockLessonPage = lazy(() => import('./pages/MockLessonPage').then(m => ({ default: m.MockLessonPage })));
 const NovemberModule = lazy(() => import('./modules/november/NovemberModule').then(m => ({ default: m.NovemberModule })));
+const Grade9Module = lazy(() => import('./modules/grade9/Grade9Module').then(m => ({ default: m.Grade9Module })));
 const RevisionPlanPage = lazy(() => import('./modules/revision-plan/RevisionPlanPage').then(m => ({ default: m.RevisionPlanPage })));
 
 const PhysicsModule = lazy(async () => { const [, m] = await Promise.all([loadSubjectTranslations('physics'), import('./modules/physics')]); return { default: m.PhysicsModule }; });
@@ -57,6 +58,8 @@ export default function App() {
           <Routes location={location}>
             <Route path="/" element={<HubPage />} />
             <Route path="/timetable" element={<TimetablePage />} />
+            <Route path="/grade9" element={<Grade9Module />} />
+            <Route path="/grade9/:lessonId" element={<Grade9Module />} />
             <Route path="/revision-plan" element={<RevisionPlanPage />} />
             <Route path="/november/*" element={<NovemberModule />} />
             <Route path="/mocks" element={<MocksPage />} />

@@ -1,0 +1,19 @@
+.g9-course {overflow-wrap:anywhere;line-height:1.7}
+.g9-course section,.g9-course .g9-sources{margin:1.5rem 0;padding:1.4rem;border:1px solid var(--color-border,#a8a8a8);border-radius:.8rem}
+.g9-course h2{font-size:1.4rem;line-height:1.4;margin-bottom:1rem}
+.g9-course h3{font-weight:600}
+.g9-course p{white-space:pre-line}
+.g9-course table{border-collapse:collapse;width:100%;font-size:.95rem}
+.g9-course caption{text-align:left;margin-bottom:1rem;font-size:.9rem}
+.g9-course th,.g9-course td{border:1px solid var(--color-border,#999);padding:.65rem;text-align:left;vertical-align:top}
+.g9-course [lang=ar]{display:inline-block;font-size:1.4rem;line-height:2.2;text-align:right;unicode-bidi:isolate}
+.g9-course .g9-question{border-top:1px solid #999;margin-top:1.2rem;padding-top:1.2rem}
+.g9-course summary{cursor:pointer;font-weight:600}
+.g9-course .g9-card{padding:1.5rem;border:1px solid #999;border-radius:.8rem}
+.g9-course .g9-filters{display:flex;flex-wrap:wrap;gap:.7rem;margin:1.5rem 0}
+.g9-course .g9-filters a{padding:.4rem .7rem;border:1px solid #888;border-radius:.5rem}
+.g9-course [aria-current=page]{font-weight:700;text-decoration:underline}
+.g9-course .g9-scope{border-left:4px solid #36817b;padding:.5rem 1rem}
+.g9-course button{text-decoration:underline}
+.g9-course a:focus-visible,.g9-course button:focus-visible,.g9-course summary:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+@media print{body:has(.g9-course) #root>div>header,body:has(.g9-course) #root>div>footer{display:none}.g9-course{color:#111!important;background:white!important;max-width:none}.g9-course section{padding:.7rem;border-color:#777}.g9-course h2,.g9-course h3{break-after:avoid}.g9-course tr,.g9-course figure{break-inside:avoid}.g9-course details:not([open])>p,.g9-course details:not([open])>ul{display:block}.g9-course textarea{display:none}.g9-course .g9-sources{font-size:9pt}.g9-course nav{display:none!important}}

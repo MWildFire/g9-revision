@@ -48,6 +48,8 @@ export function findFormulaTeaching(text:string,subject?:string|null):FormulaTea
   // A concentration gradient describes diffusion, not a straight-line graph.
   // Keep mathematical uses (including the potometer graph) and explicit equations.
   if(item.id==='line' && match==='gradient' && subject!=='math' &&
+    /(?:concentration|electrochemical|water.potential)\s+gradients?|градиент[а-я]*\s+(?:концентрац|электрохим|водного)/u.test(prose)) return false;
+  if(item.id==='line' && match==='gradient' && subject!=='math' &&
     !/\b(?:graph|plot|slope|line|axis|axes|coordinates?)\b|график|наклон|координат|прямой|прямая/u.test(prose)) return false;
   // Topic names need real word boundaries: removing spaces made «только масс»
   // accidentally contain «Ома» and attached Ohm's law to stoichiometry.

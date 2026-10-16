@@ -29,6 +29,7 @@ export function SubjectSidebar({ subject, topics }: Props) {
           onChange={e => navigate(e.target.value)} className="w-full border border-border rounded-md bg-bg-secondary p-3 text-sm">
           {topics.map(topic => <option key={topic.to} value={topic.to}>{t(`nav.${topic.key}`)}</option>)}
         </select>
+        <NavLink to={`/grade9?subject=${subject}`} className="block px-3 py-2 text-sm underline">{i18n.language.startsWith('ru') ? 'G9 · объяснения и новые задачи' : 'G9 · explanations and new practice'} →</NavLink>
         <NavLink to={`/mocks?subject=${subject}`} className="block mt-2 text-sm underline">{i18n.language.startsWith('ru') ? 'Новые блоки и карта MYP' : 'New lessons and MYP map'} →</NavLink>
       </nav>
       <aside className="hidden lg:block w-60 shrink-0">
@@ -46,6 +47,7 @@ export function SubjectSidebar({ subject, topics }: Props) {
         >
           {t('subjectName', subjectMeta.id)}
         </div>
+        <NavLink to={`/grade9?subject=${subject}`} className="block px-3 py-2 text-sm underline">{i18n.language.startsWith('ru') ? 'G9 · объяснения и новые задачи' : 'G9 · explanations and new practice'} →</NavLink>
         <NavLink to={`/mocks?subject=${subject}`} className="px-3 py-2 text-sm underline">{i18n.language.startsWith('ru') ? 'Новые блоки и карта MYP' : 'New lessons and MYP map'} →</NavLink>
         {topics.map(({ to, key, icon: Icon }) => (
           <NavLink

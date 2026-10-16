@@ -1,0 +1,162 @@
+[
+  {
+    "id": "b-cells-1",
+    "title": {
+      "en": "Cells and microscopy",
+      "ru": "Клетки и микроскопия"
+    },
+    "count": 5,
+    "route": "/november/b-cells",
+    "earlierYear": false
+  },
+  {
+    "id": "b-cells-6",
+    "title": {
+      "en": "Membrane movement",
+      "ru": "Перенос через мембраны"
+    },
+    "count": 4,
+    "route": "/november/b-cells",
+    "earlierYear": false
+  },
+  {
+    "id": "b-nutrition-10",
+    "title": {
+      "en": "Nutrition and enzymes",
+      "ru": "Питание и ферменты"
+    },
+    "count": 8,
+    "route": "/november/b-nutrition",
+    "earlierYear": false
+  },
+  {
+    "id": "b-transport-18",
+    "title": {
+      "en": "Gas exchange and circulation",
+      "ru": "Газообмен и кровообращение"
+    },
+    "count": 6,
+    "route": "/november/b-transport",
+    "earlierYear": false
+  },
+  {
+    "id": "b-respiration-24",
+    "title": {
+      "en": "Cellular respiration",
+      "ru": "Клеточное дыхание"
+    },
+    "count": 3,
+    "route": "/november/b-respiration",
+    "earlierYear": false
+  },
+  {
+    "id": "b-biotech-27",
+    "title": {
+      "en": "Biotechnology",
+      "ru": "Биотехнологии"
+    },
+    "count": 3,
+    "route": "/november/b-biotech",
+    "earlierYear": false
+  },
+  {
+    "id": "b-plants-30",
+    "title": {
+      "en": "Photosynthesis",
+      "ru": "Фотосинтез"
+    },
+    "count": 2,
+    "route": "/november/b-plants",
+    "earlierYear": false
+  },
+  {
+    "id": "b-plants-32",
+    "title": {
+      "en": "Water and solute transport in plants",
+      "ru": "Транспорт воды и веществ у растений"
+    },
+    "count": 5,
+    "route": "/november/b-plants",
+    "earlierYear": false
+  },
+  {
+    "id": "b-disease-37",
+    "title": {
+      "en": "Disease and immunity",
+      "ru": "Болезни и иммунитет"
+    },
+    "count": 8,
+    "route": "/november/b-disease",
+    "earlierYear": false
+  },
+  {
+    "id": "b-evolution-45",
+    "title": {
+      "en": "Variation and evolution",
+      "ru": "Изменчивость и эволюция"
+    },
+    "count": 6,
+    "route": "/november/b-evolution",
+    "earlierYear": false
+  },
+  {
+    "id": "b-nervous-51",
+    "title": {
+      "en": "Nervous coordination",
+      "ru": "Нервная регуляция"
+    },
+    "count": 4,
+    "route": "/november/b-nervous",
+    "earlierYear": false
+  },
+  {
+    "id": "b-hormones-55",
+    "title": {
+      "en": "Hormonal coordination",
+      "ru": "Гормональная регуляция"
+    },
+    "count": 4,
+    "route": "/november/b-hormones",
+    "earlierYear": false
+  },
+  {
+    "id": "b-environment-59",
+    "title": {
+      "en": "Environmental impacts",
+      "ru": "Воздействие на среду"
+    },
+    "count": 5,
+    "route": "/november/b-environment",
+    "earlierYear": false
+  },
+  {
+    "id": "b-earlier-64",
+    "title": {
+      "en": "Human reproduction and development",
+      "ru": "Размножение и развитие человека"
+    },
+    "count": 6,
+    "route": "/november/b-earlier",
+    "earlierYear": true
+  },
+  {
+    "id": "b-earlier-70",
+    "title": {
+      "en": "Plant reproduction and nutrition",
+      "ru": "Размножение и питание растений"
+    },
+    "count": 7,
+    "route": "/november/b-earlier",
+    "earlierYear": true
+  },
+  {
+    "id": "b-earlier-77",
+    "title": {
+      "en": "Movement and support",
+      "ru": "Движение и опора"
+    },
+    "count": 3,
+    "route": "/november/b-earlier",
+    "earlierYear": true
+  }
+]

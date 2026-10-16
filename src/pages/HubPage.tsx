@@ -19,6 +19,7 @@ export function HubPage() {
         </p>
         <div className="flex flex-col items-center gap-4">
           <Link to="/revision-plan" className="rounded-xl bg-[#244f6b] text-white hover:text-white px-7 py-4 text-lg font-medium">{i18n.language.startsWith('ru') ? 'Моки 9–13 ноября · мой план →' : '9–13 November mocks · my plan →'}</Link>
+          <Link to="/grade9" className="rounded-xl border border-border px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Grade 9 · все предметы и полная география →' : 'Grade 9 · all subjects and full geography →'}</Link>
           <Link to="/november" className="underline font-medium">{i18n.language.startsWith('ru') ? 'Теория, практика и разборы внутри сайта →' : 'Theory, practice and worked answers on this site →'}</Link>
           <Link to="/math-term-1-2026" className="rounded-md bg-[#244f6b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'Математика · контрольная (Assessment 1) →' : 'Mathematics · Assessment 1 →'}</Link>
           <Link to="/geography-tectonic-hazards" className="rounded-md bg-[#a74d2b] text-white hover:text-white px-6 py-3 font-medium">{i18n.language.startsWith('ru') ? 'География · тектонические опасности →' : 'Geography · Tectonic hazards →'}</Link>

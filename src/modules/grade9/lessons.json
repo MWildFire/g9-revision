@@ -1,0 +1,2970 @@
+[
+  {
+    "id": "g-river-processes",
+    "subject": "geography",
+    "title": {
+      "en": "How a river builds a landscape",
+      "ru": "Как река создаёт ландшафт"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Explain erosion, transport, weathering and deposition as a sequence.",
+      "ru": "Объясни цепочку выветривания, эрозии, переноса и отложения."
+    },
+    "prerequisites": {
+      "en": "Read a river profile; distinguish sediment from water.",
+      "ru": "Читай профиль реки; различай воду и наносы."
+    },
+    "explanation": {
+      "en": "A landscape is the wider visible area; a landform is one feature, such as a meander. Weathering breaks down rock in place: mechanical weathering fragments it, chemical weathering changes its minerals, and biological activity can do either. Subaerial processes act on exposed surfaces, including weathering and mass movement. Erosion removes material. Hydraulic action dislodges it by water force; abrasion uses sediment to scrape; attrition breaks sediment during collisions; solution removes soluble material. Transport occurs as traction, saltation, suspension or dissolved load. When flow can no longer carry some sediment, that fraction is deposited. A waterfall can retreat as an overhang collapses after undercutting, leaving a gorge. In a meander, outer-bank erosion and inner-bank deposition shift the channel; a flood can cut off a narrow neck, followed by deposition sealing an oxbow lake. Floodplains accumulate sediment over repeated floods; coarser material settling near banks helps build natural levees.",
+      "ru": "Ландшафт — облик целой территории, а форма рельефа — отдельный объект, например меандр. Выветривание разрушает породу на месте: физическое дробит её, химическое меняет минералы, живые организмы могут действовать обоими способами. Субаэральные процессы происходят на открытой поверхности и включают выветривание и склоновые перемещения. Эрозия удаляет материал. Вода отрывает частицы гидравлическим воздействием; обломки истирают русло; при столкновениях обломки дробятся; растворимые вещества переходят в раствор. Река переносит материал волочением, скачками, во взвеси и в растворе. Если поток больше не способен нести часть наносов, она оседает. Подмыв уступа и обрушение нависающей породы заставляют водопад отступать, оставляя ущелье. На внешнем берегу меандра преобладает размыв, на внутреннем — накопление. Прорыв узкой шейки и последующее перекрытие старого русла наносами создают старицу. Повторные разливы формируют пойму; крупные частицы у берегов помогают наращивать прирусловые валы."
+    },
+    "worked": {
+      "en": "A boulder is too large to stay suspended in a slow stream. During a flood, stronger flow may roll it along the bed (traction). On the falling limb, reduced transport capacity can deposit it. This explains a change of process without claiming that every particle stops moving at once.",
+      "ru": "В медленном потоке валун не удерживается во взвеси. Во время паводка поток может катить его по дну — это волочение. При спаде расхода перенос ослабевает, и валун оседает. Мелкие частицы при этом ещё могут двигаться."
+    },
+    "misconception": {
+      "en": "Attrition acts on the transported sediment; abrasion acts on the bed and banks. Weathering alone does not carry material downstream.",
+      "ru": "При attrition дробятся переносимые обломки, при abrasion они истирают дно и берега. Само выветривание не переносит материал вниз по реке."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Material",
+          "ru": "Материал"
+        },
+        {
+          "en": "Process",
+          "ru": "Процесс"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Large stones",
+            "ru": "Крупные камни"
+          },
+          {
+            "en": "Traction",
+            "ru": "Волочение"
+          }
+        ],
+        [
+          {
+            "en": "Small pebbles",
+            "ru": "Галька"
+          },
+          {
+            "en": "Saltation",
+            "ru": "Скачки"
+          }
+        ],
+        [
+          {
+            "en": "Fine particles",
+            "ru": "Мелкие частицы"
+          },
+          {
+            "en": "Suspension",
+            "ru": "Взвесь"
+          }
+        ],
+        [
+          {
+            "en": "Soluble ions",
+            "ru": "Растворённые ионы"
+          },
+          {
+            "en": "Solution",
+            "ru": "Раствор"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Classification model: real transport depends on flow, size and density.",
+        "ru": "Схема классификации: перенос зависит от потока, размера и плотности."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-river-processes-1",
+        "prompt": {
+          "en": "Explain how a waterfall leaves a gorge, using at least four linked stages.",
+          "ru": "Объясни образование ущелья у водопада через четыре связанных этапа."
+        },
+        "answer": {
+          "en": "Softer rock erodes faster → undercutting creates an overhang → the overhang collapses → repeated retreat leaves a steep-sided gorge. Geological arrangement must allow this mechanism.",
+          "ru": "Мягкая порода размывается быстрее → возникает ниша → нависающий уступ обрушивается → повторное отступание оставляет ущелье. Такое объяснение требует подходящего расположения пород."
+        }
+      },
+      {
+        "id": "g-river-processes-2",
+        "prompt": {
+          "en": "Why can fine sediment travel beyond a deposited gravel bar?",
+          "ru": "Почему мелкие наносы уходят дальше осевшей гальки?"
+        },
+        "answer": {
+          "en": "The weakened flow cannot carry the gravel but can still suspend finer particles. Deposition is selective.",
+          "ru": "Ослабевший поток уже не несёт гальку, но ещё удерживает мелкие частицы во взвеси. Осаждение идёт избирательно."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/rivers",
+        "title": {
+          "en": "River library and models",
+          "ru": "Реки: библиотека и модели"
+        }
+      }
+    ],
+    "sources": [
+      "geo-river-en",
+      "geo-river-ru"
+    ]
+  },
+  {
+    "id": "g-channel",
+    "subject": "geography",
+    "title": {
+      "en": "Channel efficiency and the Bradshaw model",
+      "ru": "Эффективность русла и модель Брэдшоу"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Calculate discharge and hydraulic radius; test a downstream tendency.",
+      "ru": "Рассчитай расход и гидравлический радиус; проверь тенденцию вниз по реке."
+    },
+    "prerequisites": {
+      "en": "Area of a rectangle; units of speed.",
+      "ru": "Площадь прямоугольника; единицы скорости."
+    },
+    "explanation": {
+      "en": "Discharge Q is water volume passing a cross-section per second: Q = A × v, where A is cross-sectional area in m² and v is mean velocity in m/s; Q is in m³/s. Hydraulic radius R = A/P, where P is the wetted perimeter in m, so R is in m. A larger R means less boundary contact per unit flow area, usually reducing the relative effect of friction if other factors are comparable. It is not a radius measured from a circle. The Bradshaw model proposes downstream tendencies: increasing discharge, channel size and velocity, with decreasing gradient and typical bedload size. Tributaries add water and abrasion/attrition change sediment, but dams, geology, abstractions and local floods can interrupt these tendencies. The long profile often becomes less steep downstream; it is a model rather than a rule for every reach.",
+      "ru": "Расход Q — объём воды через поперечное сечение за секунду: Q = A × v. Площадь A измеряют в м², среднюю скорость v — в м/с, расход — в м³/с. Гидравлический радиус R = A/P: P — смоченный периметр в метрах, поэтому R тоже выражают в метрах. Чем больше R при прочих сопоставимых условиях, тем меньше контакт с границей русла относительно площади потока и слабее относительное влияние трения. Это не радиус круга. Модель Брэдшоу описывает общие изменения вниз по реке: расход, размеры русла и скорость обычно растут, уклон и характерный размер донных наносов уменьшаются. Притоки добавляют воду, а истирание и столкновения меняют обломки. Плотины, геология и водозабор нарушают простую картину. Продольный профиль часто выполаживается к устью, но отдельный участок может отличаться от модели."
+    },
+    "worked": {
+      "en": "For a rectangular channel 4 m wide and 0.5 m deep, A = 2 m². Only the bed and two sides are wetted: P = 4 + 0.5 + 0.5 = 5 m, excluding the open surface. R = 2/5 = 0.40 m. If mean v = 0.6 m/s, Q = 2 × 0.6 = 1.2 m³/s.",
+      "ru": "Для прямоугольного русла шириной 4 м и глубиной 0,5 м: A = 2 м². Смочены дно и два берега: P = 4 + 0,5 + 0,5 = 5 м; открытую поверхность не включаем. R = 0,40 м. При средней скорости 0,6 м/с расход равен 1,2 м³/с."
+    },
+    "misconception": {
+      "en": "A surface float does not directly measure mean velocity through the whole cross-section. Record a correction method and its uncertainty.",
+      "ru": "Поплавок на поверхности не измеряет среднюю скорость по всему сечению. Укажи способ поправки и её неопределённость."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Reach",
+          "ru": "Участок"
+        },
+        {
+          "en": "A (m²)",
+          "ru": "A (м²)"
+        },
+        {
+          "en": "v (m/s)",
+          "ru": "v (м/с)"
+        },
+        {
+          "en": "Q (m³/s)",
+          "ru": "Q (м³/с)"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "A",
+            "ru": "A"
+          },
+          {
+            "en": "2",
+            "ru": "2"
+          },
+          {
+            "en": "0.6",
+            "ru": "0,6"
+          },
+          {
+            "en": "1.2",
+            "ru": "1,2"
+          }
+        ],
+        [
+          {
+            "en": "B",
+            "ru": "B"
+          },
+          {
+            "en": "3",
+            "ru": "3"
+          },
+          {
+            "en": "0.5",
+            "ru": "0,5"
+          },
+          {
+            "en": "1.5",
+            "ru": "1,5"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Invented comparison: larger discharge need not mean greater velocity.",
+        "ru": "Учебные данные: больший расход не обязательно означает большую скорость."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-channel-1",
+        "prompt": {
+          "en": "A rectangular channel is 6 m wide and 1 m deep; mean speed is 0.8 m/s. Find Q and R.",
+          "ru": "Прямоугольное русло: ширина 6 м, глубина 1 м, средняя скорость 0,8 м/с. Найди Q и R."
+        },
+        "answer": {
+          "en": "A = 6 m²; Q = 4.8 m³/s. P = 8 m, so R = 0.75 m. Units matter.",
+          "ru": "A = 6 м²; Q = 4,8 м³/с. P = 8 м, поэтому R = 0,75 м."
+        }
+      },
+      {
+        "id": "g-channel-2",
+        "prompt": {
+          "en": "Reach B in the table is downstream. Does its lower speed disprove every part of Bradshaw?",
+          "ru": "Участок B ниже по течению. Опровергает ли его меньшая скорость всю модель?"
+        },
+        "answer": {
+          "en": "No. Discharge increased while speed decreased locally. Investigate slope, channel roughness and sampling before judging wider tendencies.",
+          "ru": "Нет. Расход вырос, хотя скорость локально снизилась. Проверь уклон, шероховатость и измерения, прежде чем судить об общей тенденции."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/rivers",
+        "title": {
+          "en": "Bradshaw model",
+          "ru": "Модель Брэдшоу"
+        }
+      },
+      {
+        "route": "/geography/fieldwork",
+        "title": {
+          "en": "Measurement methods",
+          "ru": "Методы измерения"
+        }
+      }
+    ],
+    "sources": [
+      "geo-river-en",
+      "geo-river-ru"
+    ]
+  },
+  {
+    "id": "g-floods",
+    "subject": "geography",
+    "title": {
+      "en": "Read a hydrograph and choose flood management",
+      "ru": "Гидрограф и управление риском наводнений"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Connect catchment properties, lag time and a justified management choice.",
+      "ru": "Свяжи свойства бассейна, время запаздывания и выбор защиты."
+    },
+    "prerequisites": {
+      "en": "Rainfall in mm; discharge in m³/s.",
+      "ru": "Осадки в мм; расход в м³/с."
+    },
+    "explanation": {
+      "en": "A storm hydrograph plots discharge against time. Peak discharge is its highest value. Lag time here means the interval from peak rainfall to peak discharge; state that convention. Impermeable ground, saturated soil, steep slopes and connected drains can shorten travel time to the channel. Vegetation and permeable soil can increase interception, storage and infiltration, although extreme rain may overwhelm them. Hard engineering, such as walls and dams, modifies flow or keeps water away from assets; soft approaches, such as floodplain zoning, warnings and wetland restoration, reduce exposure or slow pathways. Assess social, economic, environmental and political consequences over time and downstream. A wall can protect a neighbourhood yet transfer risk or fail when overtopped. No single hydrograph establishes the probability of a future flood.",
+      "ru": "На гидрографе показано, как меняется расход во времени. Пик расхода — наибольшее значение. Здесь время запаздывания (lag time) — промежуток между пиком осадков и пиком расхода; это определение нужно назвать. Непроницаемая или насыщенная почва, крутые склоны и дренаж ускоряют поступление воды в русло. Растительность и проницаемый грунт могут задерживать воду и усиливать впитывание, но при очень сильном дожде их возможности ограничены. Дамбы и стены относятся к жёстким инженерным мерам (hard engineering): они меняют поток или отделяют его от объектов. Зонирование поймы, предупреждения и восстановление болот уменьшают уязвимость или замедляют сток. Оцени социальные, экономические, экологические и политические последствия, включая другие участки реки. Защитная стена может помочь одному району и перенести риск ниже по течению. Один гидрограф не даёт вероятности будущего наводнения."
+    },
+    "worked": {
+      "en": "In the model below rainfall peaks at hour 1. Urban discharge peaks at hour 2, so lag = 1 h; the wooded catchment peaks at hour 4, so lag = 3 h. The urban peak is 18 rather than 10 m³/s. This is consistent with faster runoff; it does not isolate land cover from every other cause.",
+      "ru": "В учебной модели пик дождя приходится на час 1. Городской бассейн достигает пика расхода в час 2: запаздывание 1 ч. Лесной — в час 4: запаздывание 3 ч. Пики равны 18 и 10 м³/с. Это согласуется с ускоренным стоком, но не доказывает, что единственная причина — покрытие поверхности."
+    },
+    "misconception": {
+      "en": "Flood frequency, peak magnitude and the damage caused are different quantities. A hazard becomes a disaster through exposure and vulnerability.",
+      "ru": "Повторяемость, максимальный расход и ущерб — разные величины. Последствия зависят также от того, кто и что находится в опасной зоне и насколько они уязвимы."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Time (h)",
+          "ru": "Время (ч)"
+        },
+        {
+          "en": "Rain (mm/h)",
+          "ru": "Дождь (мм/ч)"
+        },
+        {
+          "en": "Urban Q",
+          "ru": "Город Q"
+        },
+        {
+          "en": "Wooded Q",
+          "ru": "Лес Q"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "0",
+            "ru": "0"
+          },
+          {
+            "en": "0",
+            "ru": "0"
+          },
+          {
+            "en": "2",
+            "ru": "2"
+          },
+          {
+            "en": "2",
+            "ru": "2"
+          }
+        ],
+        [
+          {
+            "en": "1",
+            "ru": "1"
+          },
+          {
+            "en": "12",
+            "ru": "12"
+          },
+          {
+            "en": "7",
+            "ru": "7"
+          },
+          {
+            "en": "3",
+            "ru": "3"
+          }
+        ],
+        [
+          {
+            "en": "2",
+            "ru": "2"
+          },
+          {
+            "en": "4",
+            "ru": "4"
+          },
+          {
+            "en": "18",
+            "ru": "18"
+          },
+          {
+            "en": "5",
+            "ru": "5"
+          }
+        ],
+        [
+          {
+            "en": "3",
+            "ru": "3"
+          },
+          {
+            "en": "0",
+            "ru": "0"
+          },
+          {
+            "en": "11",
+            "ru": "11"
+          },
+          {
+            "en": "8",
+            "ru": "8"
+          }
+        ],
+        [
+          {
+            "en": "4",
+            "ru": "4"
+          },
+          {
+            "en": "0",
+            "ru": "0"
+          },
+          {
+            "en": "6",
+            "ru": "6"
+          },
+          {
+            "en": "10",
+            "ru": "10"
+          }
+        ],
+        [
+          {
+            "en": "5",
+            "ru": "5"
+          },
+          {
+            "en": "0",
+            "ru": "0"
+          },
+          {
+            "en": "3",
+            "ru": "3"
+          },
+          {
+            "en": "7",
+            "ru": "7"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Invented teaching data; Q in m³/s, not a forecast or measured case study.",
+        "ru": "Учебные, не измеренные данные; Q в м³/с. Это не прогноз."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-floods-1",
+        "prompt": {
+          "en": "Calculate both lags and compare peaks using figures.",
+          "ru": "Рассчитай оба запаздывания и сравни пики с числами."
+        },
+        "answer": {
+          "en": "Urban: 2 − 1 = 1 h; wooded: 4 − 1 = 3 h. Urban peak exceeds wooded by 8 m³/s (80% of 10).",
+          "ru": "Город: 2 − 1 = 1 ч; лес: 4 − 1 = 3 ч. Городской пик больше на 8 м³/с, или на 80% от 10."
+        }
+      },
+      {
+        "id": "g-floods-2",
+        "prompt": {
+          "en": "Choose zoning or a wall for an undeveloped floodplain. Give a trade-off and one missing input.",
+          "ru": "Выбери зонирование или стену для незастроенной поймы. Назови компромисс и недостающие данные."
+        },
+        "answer": {
+          "en": "Zoning avoids new exposure and retains storage; it restricts development income. Compare local flood maps, future land needs and costs. A wall needs maintenance and can shift risk. Other justified choices are possible.",
+          "ru": "Зонирование не допускает новой застройки и сохраняет место для разлива, но ограничивает доход от строительства. Нужны местная карта затопления, планы и стоимость. Стена требует ухода и может переносить риск. Иной выбор допустим при обосновании."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/rivers",
+        "title": {
+          "en": "Hydrograph and river cases",
+          "ru": "Гидрограф и речные примеры"
+        }
+      },
+      {
+        "route": "/geography/atmospheric-hazards",
+        "title": {
+          "en": "Flood impacts and responses",
+          "ru": "Последствия и защита"
+        }
+      }
+    ],
+    "sources": [
+      "geo-runoff",
+      "geo-river-en",
+      "geo-river-ru"
+    ]
+  },
+  {
+    "id": "g-resources",
+    "subject": "geography",
+    "title": {
+      "en": "Resources, demand and food security",
+      "ru": "Ресурсы, спрос и продовольственная безопасность"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Separate resource availability from access, and evaluate one management option.",
+      "ru": "Различай наличие ресурса и доступ к нему; оцени способ управления."
+    },
+    "prerequisites": {
+      "en": "Percentages and cause–effect chains.",
+      "ru": "Проценты и причинные связи."
+    },
+    "explanation": {
+      "en": "A resource is something people use to meet a need. Supply is the quantity available; demand concerns willingness and ability to obtain it; consumption is actual use. Population growth, income, diets and technology can change demand. Carrying capacity depends on technology, consumption and environment, so it is not an unchanging headcount. Malthus argued that unchecked population could outgrow food supply; Boserup emphasised how pressure can stimulate agricultural innovation. Neither guarantees a particular future. Food security includes availability, access, utilisation and stability: enough food nationally does not ensure every family can afford a nutritious diet. GDP measures production, not distribution or nutrition. Interpret hunger indicators and death rates with definitions, year and limitations. Renewable flows are replenished on human timescales, but overuse can still damage systems; fossil fuels form far more slowly than they are used.",
+      "ru": "Ресурсом становится то, что люди используют для удовлетворения потребности. Предложение (supply) — доступное количество, спрос (demand) учитывает возможность получить ресурс, потребление (consumption) — фактическое использование. Спрос меняют население, доходы, питание и технологии. Ёмкость среды зависит от образа жизни и способов производства, поэтому это не вечное предельное число людей. Мальтус опасался, что рост населения опередит продовольствие; Бозеруп подчёркивала, что давление потребностей стимулирует сельскохозяйственные новшества. Обе идеи требуют проверки в конкретных условиях. Продовольственная безопасность включает наличие пищи, доступность, полноценное использование и стабильность. Достаточный урожай в стране не означает, что каждая семья может купить полезную еду. ВВП характеризует производство, но не распределение или питание. Для индексов голода и смертности нужны определение, год и ограничения. Возобновляемость не разрешает неограниченный расход: даже возобновляемый ресурс можно истощать быстрее восстановления."
+    },
+    "worked": {
+      "en": "Invented town: 1000 people need 2 units each; local supply is 2400. Supply exceeds the 2000-unit total need, yet families without income may remain hungry. A food voucher improves access; irrigation may increase availability but does not directly fix unequal incomes.",
+      "ru": "Учебный город: 1000 человек нуждаются в 2 единицах пищи, предложение — 2400. Общая потребность 2000 покрыта, но безденежные семьи всё равно могут голодать. Талон на питание улучшает доступ, орошение увеличивает производство, но само по себе не устраняет неравенство доходов."
+    },
+    "misconception": {
+      "en": "Higher national GDP does not prove food security for every household. Innovation can raise yields while creating environmental costs.",
+      "ru": "Высокий ВВП не доказывает продовольственную безопасность каждой семьи. Рост урожайности тоже может иметь экологическую цену."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Problem",
+          "ru": "Проблема"
+        },
+        {
+          "en": "Mechanism",
+          "ru": "Механизм"
+        },
+        {
+          "en": "Response to test",
+          "ru": "Что проверить"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Drought",
+            "ru": "Засуха"
+          },
+          {
+            "en": "Lower harvest",
+            "ru": "Снижение урожая"
+          },
+          {
+            "en": "Water saving",
+            "ru": "Экономия воды"
+          }
+        ],
+        [
+          {
+            "en": "Low income",
+            "ru": "Низкий доход"
+          },
+          {
+            "en": "Unaffordable food",
+            "ru": "Еда недоступна"
+          },
+          {
+            "en": "Targeted support",
+            "ru": "Адресная помощь"
+          }
+        ],
+        [
+          {
+            "en": "Conflict",
+            "ru": "Конфликт"
+          },
+          {
+            "en": "Broken supply routes",
+            "ru": "Разрыв поставок"
+          },
+          {
+            "en": "Safe access",
+            "ru": "Безопасный доступ"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Analytical categories, not a real-country ranking.",
+        "ru": "Схема анализа, не рейтинг реальных стран."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-resources-1",
+        "prompt": {
+          "en": "Demand rises by 20% from 2000 units. Does the 2400-unit supply leave a reserve?",
+          "ru": "Спрос 2000 вырос на 20%. Есть ли резерв при предложении 2400?"
+        },
+        "answer": {
+          "en": "New demand = 2400: no numerical reserve. Distribution and waste can still create shortages.",
+          "ru": "Новый спрос 2400: числового резерва нет. Потери и распределение могут дополнительно создавать нехватку."
+        }
+      },
+      {
+        "id": "g-resources-2",
+        "prompt": {
+          "en": "Give a Boserup-style response and two conditions for success.",
+          "ru": "Предложи ответ в духе Бозеруп и два условия успеха."
+        },
+        "answer": {
+          "en": "More efficient irrigation or improved crop varieties; farmers need finance and skills, and water/soil use must remain sustainable. Pressure alone does not guarantee innovation.",
+          "ru": "Более эффективное орошение или новые сорта; нужны средства, знания и устойчивое использование воды и почвы. Само давление потребностей не гарантирует новшеств."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/resource-reliance",
+        "title": {
+          "en": "Resource indicators, cases and models",
+          "ru": "Ресурсы: показатели, примеры, модели"
+        }
+      }
+    ],
+    "sources": [
+      "geo-food-en",
+      "geo-food-ru"
+    ]
+  },
+  {
+    "id": "g-resource-decisions",
+    "subject": "geography",
+    "title": {
+      "en": "Who gains from resource extraction?",
+      "ru": "Кому выгодна добыча ресурсов?"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Make a balanced SEEP evaluation across groups and timescales.",
+      "ru": "Оцени добычу по SEEP для разных групп и сроков."
+    },
+    "prerequisites": {
+      "en": "Supply, demand and renewable/non-renewable resources.",
+      "ru": "Предложение, спрос и виды ресурсов."
+    },
+    "explanation": {
+      "en": "Extraction can create jobs, tax revenue and energy security, while using water, fragmenting habitats and generating waste. Social, economic, environmental and political (SEEP) impacts overlap but should have explicit mechanisms. A wage is an economic benefit to a worker; unsafe work is a social cost; rules and who can enforce them introduce political questions. Sustainability asks whether benefits can continue without undermining future needs. Compare options against the same criteria, including reliability, total costs, local rights and restoration. A renewable technology can still require mined materials. Efficiency can reduce resource use per unit output, but total consumption may rise if output expands. Monitor actual outcomes rather than declaring a scheme sustainable because its name includes green.",
+      "ru": "Добыча даёт рабочие места, налоги и энергоснабжение, но требует воды, нарушает местообитания и создаёт отходы. SEEP рассматривает социальные, экономические, экологические и политические последствия. Важно показывать механизм: зарплата помогает работнику экономически, опасные условия вредят здоровью, а распределение полномочий и соблюдение правил относятся к политике. Устойчивость означает возможность удовлетворять нынешние потребности, сохраняя такую возможность для будущего. Сравнивай варианты по одинаковым критериям: надёжность, полные затраты, права жителей, восстановление территории. Возобновляемой энергетике тоже нужны добываемые материалы. Экономия ресурса на единицу продукции не гарантирует снижения общего расхода, если производство растёт."
+    },
+    "worked": {
+      "en": "Invented mine: 100 jobs benefit workers, but water demand threatens downstream farming. A conditional permit could require measured discharge limits, independent monitoring, restoration funds and consultation. The final judgement depends on enforcement and viable alternatives, not simply counting two benefits and two costs.",
+      "ru": "Учебный рудник создаёт 100 рабочих мест, но забор воды угрожает фермам ниже по течению. Условия разрешения могут включать измеряемые ограничения, независимый контроль, фонд восстановления и обсуждение с жителями. Вывод зависит от исполнимости и альтернатив, а не от равного числа плюсов и минусов."
+    },
+    "misconception": {
+      "en": "A list of impacts is not an evaluation. State which matters most, to whom, over what period and why.",
+      "ru": "Перечень последствий ещё не оценка. Объясни, что важнее, для кого, на какой срок и почему."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Group",
+          "ru": "Группа"
+        },
+        {
+          "en": "Potential benefit",
+          "ru": "Возможная выгода"
+        },
+        {
+          "en": "Potential cost",
+          "ru": "Возможный ущерб"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Workers",
+            "ru": "Работники"
+          },
+          {
+            "en": "Income",
+            "ru": "Доход"
+          },
+          {
+            "en": "Safety",
+            "ru": "Безопасность"
+          }
+        ],
+        [
+          {
+            "en": "State",
+            "ru": "Государство"
+          },
+          {
+            "en": "Taxes",
+            "ru": "Налоги"
+          },
+          {
+            "en": "Oversight costs",
+            "ru": "Контроль"
+          }
+        ],
+        [
+          {
+            "en": "Residents",
+            "ru": "Жители"
+          },
+          {
+            "en": "Services",
+            "ru": "Услуги"
+          },
+          {
+            "en": "Water and land",
+            "ru": "Вода и земля"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Stakeholder matrix for an invented proposal.",
+        "ru": "Матрица сторон для учебного проекта."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-resource-decisions-1",
+        "prompt": {
+          "en": "Energy per item falls from 10 to 8 units; output rises from 100 to 150 items. Find total use before and after.",
+          "ru": "Расход на изделие упал с 10 до 8, выпуск вырос со 100 до 150. Найди общий расход."
+        },
+        "answer": {
+          "en": "Before 1000; after 1200 units. Efficiency improved by 20%, total use rose by 20%.",
+          "ru": "Было 1000, стало 1200. Эффективность выросла, но общий расход увеличился на 20%."
+        }
+      },
+      {
+        "id": "g-resource-decisions-2",
+        "prompt": {
+          "en": "Write a conditional judgement on the mine using one social and one environmental factor.",
+          "ru": "Дай условный вывод о руднике с социальным и экологическим фактором."
+        },
+        "answer": {
+          "en": "Support only if worker safety and downstream water protection are enforceable, with evidence and monitoring; otherwise costs may outweigh employment benefits. Explain the priorities.",
+          "ru": "Поддержка допустима при исполнимой защите работников и водоснабжения ниже по течению. Без контроля ущерб может перевесить выгоду занятости. Обоснуй приоритеты."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/resource-reliance",
+        "title": {
+          "en": "Named resource cases",
+          "ru": "Именованные примеры ресурсов"
+        }
+      }
+    ],
+    "sources": [
+      "geo-energy",
+      "geo-resources-ru"
+    ]
+  },
+  {
+    "id": "g-atmosphere",
+    "subject": "geography",
+    "title": {
+      "en": "Circulation, ENSO and hazard chains",
+      "ru": "Циркуляция, ЭНЮК и цепочки опасных явлений"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Explain pressure and distinguish hazard causes from vulnerability.",
+      "ru": "Объясни давление; отдели причины явления от уязвимости."
+    },
+    "prerequisites": {
+      "en": "Latitude, condensation and evaporation.",
+      "ru": "Широта, конденсация и испарение."
+    },
+    "explanation": {
+      "en": "Unequal solar heating helps drive atmospheric circulation. Warm air rises near the equator, cools and can form clouds; sinking air in subtropical high-pressure belts tends to suppress cloud formation. The three-cell model is a simplified average, not a daily weather map. Wind responds to pressure gradients and is deflected by Earth’s rotation. Tropical cyclones need a suitable combination of warm ocean water, moisture, low wind shear and rotation; warm water alone is insufficient. Drought is a prolonged shortage relative to normal conditions and needs local context. In El Niño, weakened Pacific trade winds and changes in warm-water distribution reduce usual eastern upwelling; La Niña tends toward stronger trades and upwelling. Teleconnections alter probabilities, not the weather at every location. For climate, distinguish orbital changes, solar variability and volcanic aerosols from the current enhanced greenhouse effect; proxies such as ice cores provide indirect evidence with limits.",
+      "ru": "Неравномерный нагрев Земли помогает создавать циркуляцию атмосферы. У экватора тёплый воздух поднимается, охлаждается, возможны облака и осадки. В субтропических областях высокого давления воздух опускается, что обычно мешает образованию облаков. Трёхъячеечная схема — усреднённая модель, не прогноз на день. Ветер связан с перепадами давления и отклоняется из-за вращения Земли. Для тропического циклона нужны не только тёплая вода, но и влага, подходящий сдвиг ветра и вращение. Засуха определяется нехваткой влаги относительно нормы данного места. При Эль-Ниньо пассаты над Тихим океаном ослабевают, меняется расположение тёплой воды и уменьшается обычный подъём холодной воды на востоке. Ла-Нинья обычно усиливает пассаты и апвеллинг. Эти связи меняют вероятности, а не гарантируют погоду в каждом городе. Изменения орбиты, солнечной активности и вулканические аэрозоли надо отличать от современного усиления парникового эффекта. Лёд и другие природные архивы дают косвенные сведения с ограничениями."
+    },
+    "worked": {
+      "en": "A cyclone crosses two coasts with similar wind speed. Coast A has warnings, safe shelters and stronger housing; B has fewer of these. Different losses need not mean a different meteorological hazard: exposure, vulnerability and response capacity change the outcome.",
+      "ru": "Циклон достигает двух побережий с похожим ветром. В A есть предупреждения, укрытия и прочные дома, в B их меньше. Разный ущерб не доказывает разную силу явления: важны экспозиция, уязвимость и готовность."
+    },
+    "misconception": {
+      "en": "El Niño does not cause drought everywhere; high pressure is not synonymous with hot weather in every season.",
+      "ru": "Эль-Ниньо не означает засуху повсюду. Высокое давление не всегда означает жару."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Approximate belt",
+          "ru": "Примерный пояс"
+        },
+        {
+          "en": "Vertical motion",
+          "ru": "Движение"
+        },
+        {
+          "en": "Tendency",
+          "ru": "Тенденция"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "0°",
+            "ru": "0°"
+          },
+          {
+            "en": "Rising",
+            "ru": "Восходящее"
+          },
+          {
+            "en": "Wet",
+            "ru": "Влажно"
+          }
+        ],
+        [
+          {
+            "en": "30°",
+            "ru": "30°"
+          },
+          {
+            "en": "Sinking",
+            "ru": "Нисходящее"
+          },
+          {
+            "en": "Dry",
+            "ru": "Сухо"
+          }
+        ],
+        [
+          {
+            "en": "60°",
+            "ru": "60°"
+          },
+          {
+            "en": "Rising",
+            "ru": "Восходящее"
+          },
+          {
+            "en": "Unsettled",
+            "ru": "Неустойчиво"
+          }
+        ],
+        [
+          {
+            "en": "90°",
+            "ru": "90°"
+          },
+          {
+            "en": "Sinking",
+            "ru": "Нисходящее"
+          },
+          {
+            "en": "Dry",
+            "ru": "Сухо"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Idealised circulation in each hemisphere; real belts shift seasonally.",
+        "ru": "Идеализированная схема обоих полушарий; пояса сезонно смещаются."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-atmosphere-1",
+        "prompt": {
+          "en": "Explain why subtropical sinking air often reduces rainfall.",
+          "ru": "Почему опускание воздуха в субтропиках часто уменьшает осадки?"
+        },
+        "answer": {
+          "en": "Descending air warms by compression, so relative humidity tends to fall and condensation is less likely. This is a tendency, not a ban on rain.",
+          "ru": "При сжатии опускающийся воздух нагревается, относительная влажность обычно снижается, конденсация менее вероятна. Это тенденция, не запрет дождей."
+        }
+      },
+      {
+        "id": "g-atmosphere-2",
+        "prompt": {
+          "en": "Give a short-term and long-term drought response, with a limitation each.",
+          "ru": "Предложи краткосрочную и долгосрочную меру против засухи с ограничением каждой."
+        },
+        "answer": {
+          "en": "Emergency water supplies address immediate need but are costly to sustain; water-efficient farming reduces demand but needs investment and local suitability.",
+          "ru": "Подвоз воды закрывает срочную потребность, но дорого обходится долго. Водосберегающее земледелие снижает спрос, но требует вложений и подходящих условий."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/atmospheric-hazards",
+        "title": {
+          "en": "Circulation, hazards and named cases",
+          "ru": "Циркуляция, риски и именованные примеры"
+        }
+      }
+    ],
+    "sources": [
+      "geo-circulation",
+      "geo-enso",
+      "geo-climate-ru"
+    ]
+  },
+  {
+    "id": "g-fieldwork",
+    "subject": "geography",
+    "title": {
+      "en": "From fieldwork question to defensible conclusion",
+      "ru": "От вопроса исследования к обоснованному выводу"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Design sampling, choose a graph and evaluate the evidence.",
+      "ru": "Выбери выборку, график и оцени доказательность."
+    },
+    "prerequisites": {
+      "en": "Mean, rank and scatter plots.",
+      "ru": "Среднее, ранги и диаграмма рассеяния."
+    },
+    "explanation": {
+      "en": "An aim states what you investigate; a hypothesis is a testable prediction. Primary data are collected for your investigation; secondary data already exist. Quantitative data are numbers; qualitative data describe categories or meaning. Random sampling uses a random selection process, systematic sampling uses a regular interval, and stratified sampling represents defined groups. Sample size alone does not remove bias. A methodology must make location, timing, instruments, repeats and safety reproducible. Choose bar charts for categories, line graphs for ordered change, scatter plots for paired numerical variables, pie charts for parts of one whole, and GIS for spatial layers. Spearman’s rank measures monotonic association: rₛ = 1 − 6Σd²/[n(n²−1)] for paired ranks without ties; use a tie-aware method when ranks repeat. A correlation is not a causal experiment. A conclusion answers the aim within the evidence; evaluation explains how a limitation affects that conclusion and how to improve it.",
+      "ru": "Цель говорит, что исследуем, гипотеза — какое проверяемое различие или связь ожидаем. Первичные данные собирают для своей работы, вторичные уже существуют. Количественные данные выражены числами, качественные — категориями или описаниями. Случайная выборка использует случайный отбор; систематическая — регулярный интервал; стратифицированная представляет заранее выделенные группы. Большой объём сам по себе не устраняет смещение. Методика должна позволять повторить выбор места, времени, приборов и измерений. Столбцы подходят для категорий, линии — для упорядоченных изменений, scatter — для пар чисел, круговая диаграмма — для долей одного целого, ГИС — для пространственных слоёв. Коэффициент Спирмена оценивает монотонную связь: rₛ = 1 − 6Σd²/[n(n²−1)] для парных рангов без совпадений. При одинаковых рангах нужен соответствующий метод. Корреляция не доказывает причину. Вывод отвечает цели в пределах данных, а оценка связывает ограничение с его влиянием и конкретным улучшением."
+    },
+    "worked": {
+      "en": "For three sites with ranks (1,1), (2,3), (3,2), differences are 0, −1, 1; Σd² = 2 and n = 3. rₛ = 1 − 12/24 = 0.5. This tiny illustrative sample has positive association but does not establish significance or causation.",
+      "ru": "Для трёх точек ранги (1,1), (2,3), (3,2), разности 0, −1, 1. Σd² = 2, n = 3; rₛ = 1 − 12/24 = 0,5. Маленькая учебная выборка показывает положительную связь, но не доказывает значимость или причину."
+    },
+    "misconception": {
+      "en": "Repeating one biased location many times improves precision there, not representativeness of the whole river.",
+      "ru": "Многократное измерение одного неудачно выбранного участка не делает его представительным для всей реки."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Site",
+          "ru": "Точка"
+        },
+        {
+          "en": "Rank x",
+          "ru": "Ранг x"
+        },
+        {
+          "en": "Rank y",
+          "ru": "Ранг y"
+        },
+        {
+          "en": "d²",
+          "ru": "d²"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "A",
+            "ru": "A"
+          },
+          {
+            "en": "1",
+            "ru": "1"
+          },
+          {
+            "en": "1",
+            "ru": "1"
+          },
+          {
+            "en": "0",
+            "ru": "0"
+          }
+        ],
+        [
+          {
+            "en": "B",
+            "ru": "B"
+          },
+          {
+            "en": "2",
+            "ru": "2"
+          },
+          {
+            "en": "3",
+            "ru": "3"
+          },
+          {
+            "en": "1",
+            "ru": "1"
+          }
+        ],
+        [
+          {
+            "en": "C",
+            "ru": "C"
+          },
+          {
+            "en": "3",
+            "ru": "3"
+          },
+          {
+            "en": "2",
+            "ru": "2"
+          },
+          {
+            "en": "1",
+            "ru": "1"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Invented ranks without ties; rₛ is unitless and lies from −1 to +1.",
+        "ru": "Учебные ранги без совпадений; rₛ безразмерен, от −1 до +1."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-fieldwork-1",
+        "prompt": {
+          "en": "A survey samples only tourists outside a luxury hotel. Identify the bias and improve it.",
+          "ru": "Туристов опрашивают только у дорогого отеля. В чём смещение и как улучшить выборку?"
+        },
+        "answer": {
+          "en": "The sample may overrepresent wealthier hotel guests. Stratify by location/accommodation type and sample at varied times; randomise within strata. Obtain consent and avoid collecting unnecessary personal data.",
+          "ru": "Вероятно преобладание обеспеченных постояльцев. Раздели места или типы размещения на группы, меняй время и случайно отбирай внутри групп. Нужно согласие, лишние личные данные не собирают."
+        }
+      },
+      {
+        "id": "g-fieldwork-2",
+        "prompt": {
+          "en": "Which graph tests whether channel width and depth are associated, and what must its axes show?",
+          "ru": "Как проверить связь ширины и глубины русла графиком и что подписать?"
+        },
+        "answer": {
+          "en": "A scatter plot, with paired measurements, variable names and units (e.g. m). Describe direction and strength, anomalies and uncertainty before interpreting.",
+          "ru": "Диаграмма рассеяния с парными измерениями. Подпиши переменные и единицы, например метры. Сначала опиши направление, тесноту, выбросы и неопределённость, затем объясняй."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/fieldwork",
+        "title": {
+          "en": "Full methods and fieldwork models",
+          "ru": "Методы и модели полевых исследований"
+        }
+      }
+    ],
+    "sources": [
+      "geo-methods",
+      "math-ru"
+    ]
+  },
+  {
+    "id": "g-tourism",
+    "subject": "geography",
+    "title": {
+      "en": "Tourism types, ethics and a reasoned judgement",
+      "ru": "Виды туризма, этика и аргументированный вывод"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Compare tourism strategies for residents, visitors and ecosystems.",
+      "ru": "Сравни стратегии для жителей, туристов и экосистем."
+    },
+    "prerequisites": {
+      "en": "SEEP and stakeholder comparisons.",
+      "ru": "SEEP и сравнение интересов сторон."
+    },
+    "explanation": {
+      "en": "Tourism has changed with income, paid leave, transport and online booking, but demand can fall through shocks. Mass tourism describes large-scale standardised travel; medical tourism involves treatment; adventure tourism involves challenging activities; dark tourism concerns places associated with death or suffering. Ecotourism requires more than visiting nature: conservation, interpretation and local benefits matter. Voluntourism combines travel and volunteering, but an unskilled short visit may displace local work or make vulnerable people into attractions. Compare impacts at a stated place and scale: jobs may be seasonal, spending may leak to foreign firms, and infrastructure can benefit residents or divert scarce water. Ethical evaluation asks who consents, who controls representation and who receives income. Management can include visitor limits, zoning, trained local guides, fair employment and monitoring. A cap may protect habitat while reducing short-term income; judge the trade-off with evidence.",
+      "ru": "Рост доходов, оплачиваемый отпуск, транспорт и онлайн-бронирование меняли туризм, но кризисы могут сокращать поток. Массовый туризм связан с большим масштабом и стандартизированными поездками, медицинский — с лечением, приключенческий — со сложными активностями. Thanatourism связан с местами смерти и страдания. Для экотуризма недостаточно просто приехать на природу: нужны охрана, просвещение и польза местным жителям. Волонтёрский туризм сочетает поездку и помощь, но короткий визит без навыков может вытеснять местную работу или превращать уязвимых людей в достопримечательность. Указывай место и масштаб последствий: работа бывает сезонной, прибыль уходит внешним компаниям, инфраструктура может помогать жителям или отбирать воду. Этика требует согласия, уважительного представления и справедливого распределения доходов. Ограничения числа посетителей, зонирование, местные гиды и контроль труда помогают управлению, но имеют цену."
+    },
+    "worked": {
+      "en": "Invented island: a cap cuts visits from 1000 to 800 per day; local spending rises from 40 to 55 units per visitor. Daily local spending changes from 40,000 to 44,000 units. Fewer visitors need not reduce that measure, but it says nothing alone about profit, job distribution or habitat recovery.",
+      "ru": "Учебный остров ограничил поток с 1000 до 800 человек в день, местные расходы одного гостя выросли с 40 до 55 единиц. Итого было 40 000, стало 44 000. Меньший поток не обязательно уменьшает этот показатель, но он ещё не говорит о прибыли, распределении работы и восстановлении природы."
+    },
+    "misconception": {
+      "en": "A tour advertised as eco is not automatically sustainable; visiting a memorial requires respect, not simply counting visitor revenue.",
+      "ru": "Название «эко» не гарантирует устойчивости. Мемориал требует уважения, а не только подсчёта выручки."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Tourism",
+          "ru": "Туризм"
+        },
+        {
+          "en": "Question to evaluate",
+          "ru": "Вопрос оценки"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Medical",
+            "ru": "Медицинский"
+          },
+          {
+            "en": "Patient care and local capacity",
+            "ru": "Пациенты и местная медицина"
+          }
+        ],
+        [
+          {
+            "en": "Dark",
+            "ru": "Мемориальный"
+          },
+          {
+            "en": "Respect and interpretation",
+            "ru": "Уважение и осмысление"
+          }
+        ],
+        [
+          {
+            "en": "Eco",
+            "ru": "Экологический"
+          },
+          {
+            "en": "Conservation and local benefit",
+            "ru": "Охрана и местная польза"
+          }
+        ],
+        [
+          {
+            "en": "Volunteer",
+            "ru": "Волонтёрский"
+          },
+          {
+            "en": "Local control and useful skills",
+            "ru": "Местный контроль и навыки"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Use the named cases in the linked library; this comparison is an authored framework.",
+        "ru": "Именованные кейсы находятся в библиотеке; здесь авторская схема сравнения."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-tourism-1",
+        "prompt": {
+          "en": "Calculate the percentage change in daily local spending in the island example.",
+          "ru": "На сколько процентов изменились местные расходы туристов на острове?"
+        },
+        "answer": {
+          "en": "(44,000 − 40,000)/40,000 × 100% = +10%. The denominator is the original total.",
+          "ru": "(44 000 − 40 000)/40 000 × 100% = +10%. В знаменателе исходная сумма."
+        }
+      },
+      {
+        "id": "g-tourism-2",
+        "prompt": {
+          "en": "Evaluate a visitor cap: give a benefit, cost, affected groups and evidence needed.",
+          "ru": "Оцени лимит посетителей: выгода, цена, стороны и нужные доказательства."
+        },
+        "answer": {
+          "en": "It may reduce habitat pressure and crowding, but some operators lose customers. Residents, guides and visitors differ. Compare habitat monitoring, local income distribution and seasonal demand before a conditional judgement.",
+          "ru": "Лимит может уменьшить нагрузку и толпы, но часть компаний потеряет клиентов. Интересы жителей, гидов и гостей различаются. Нужны данные о природе, распределении дохода и сезонности; вывод условный."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/tourism",
+        "title": {
+          "en": "Named tourism cases and Butler model",
+          "ru": "Именованные кейсы и модель Батлера"
+        }
+      }
+    ],
+    "sources": [
+      "geo-tourism",
+      "geo-resources-ru"
+    ]
+  },
+  {
+    "id": "p-measurement",
+    "subject": "physics",
+    "title": {
+      "en": "Measurement: spread is evidence, not total uncertainty",
+      "ru": "Измерения: разброс и неопределённость"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Report a mean, a spread estimate and a systematic limitation separately.",
+      "ru": "Отдельно укажи среднее, оценку разброса и систематическое ограничение."
+    },
+    "prerequisites": {
+      "en": "Mean, range and instrument resolution.",
+      "ru": "Среднее, размах и разрешение прибора."
+    },
+    "explanation": {
+      "en": "Repeated measurements reveal variation under stated conditions. Range is maximum minus minimum; half-range is one simple school estimate of repeat spread, not a universal definition of measurement uncertainty. Instrument resolution, calibration, reaction time and method can contribute too. A systematic offset can shift all readings without increasing their spread. The uncertainty of a result therefore needs a stated estimation method; do not add unrelated components automatically or label precision as accuracy. In a graph, gradient is change in the vertical quantity divided by change in the horizontal quantity, with corresponding units. A diffusion concentration gradient instead describes how concentration changes with position; the straight-line formula should not be attached merely because the word gradient appears.",
+      "ru": "Повторы показывают изменчивость результата в заданных условиях. Размах — максимум минус минимум; половина размаха бывает простой школьной оценкой разброса повторов, но не универсальным определением неопределённости. Влияют также разрешение, калибровка, реакция наблюдателя и метод. Систематическое смещение может одинаково сдвинуть все показания, не увеличив разброс. Поэтому нужно назвать способ оценки, а не автоматически складывать несопоставимые составляющие. Тесный разброс означает хорошую повторяемость, но не гарантирует близости к истинному значению. Наклон графика рассчитывают как изменение вертикальной величины на изменение горизонтальной и указывают единицы. Градиент концентрации при диффузии описывает изменение концентрации в пространстве: само слово gradient не повод добавлять формулу прямой."
+    },
+    "worked": {
+      "en": "Timings 9.8, 10.0 and 10.2 s have mean 10.0 s, range 0.4 s and half-range 0.2 s. Report 10.0 ± 0.2 s only if explicitly describing this repeat-spread estimate. If the timer systematically starts 0.5 s late, every duration is shortened; repeats do not remove that bias.",
+      "ru": "Времена 9,8; 10,0; 10,2 с дают среднее 10,0 с, размах 0,4 с и половину размаха 0,2 с. Запись 10,0 ± 0,2 с допустима с пояснением, что это оценка разброса повторов. Если секундомер каждый раз запускают на 0,5 с позже, все интервалы занижены; повторы это не устраняют."
+    },
+    "misconception": {
+      "en": "A digital display with more decimal places does not prove the result is more accurate.",
+      "ru": "Лишние знаки на цифровом экране не доказывают лучшей точности результата."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Statistic",
+          "ru": "Показатель"
+        },
+        {
+          "en": "Value",
+          "ru": "Значение"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Mean",
+            "ru": "Среднее"
+          },
+          {
+            "en": "10.0 s",
+            "ru": "10,0 s"
+          }
+        ],
+        [
+          {
+            "en": "Range",
+            "ru": "Размах"
+          },
+          {
+            "en": "0.4 s",
+            "ru": "0,4 s"
+          }
+        ],
+        [
+          {
+            "en": "Half-range",
+            "ru": "Половина размаха"
+          },
+          {
+            "en": "0.2 s",
+            "ru": "0,2 s"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Authored timings; distinguish these statistics from calibration uncertainty.",
+        "ru": "Учебные измерения; эти показатели не заменяют неопределённость калибровки."
+      }
+    },
+    "practice": [
+      {
+        "id": "p-measurement-1",
+        "prompt": {
+          "en": "Readings are 20, 22 and 24 mm. Calculate mean and half-range, then name an unmeasured uncertainty.",
+          "ru": "Показания 20, 22 и 24 мм. Найди среднее и половину размаха, назови неучтённую неопределённость."
+        },
+        "answer": {
+          "en": "Mean 22 mm; half-range 2 mm. Scale calibration or zero error remains unmeasured; a precise total uncertainty cannot be inferred from repeats alone.",
+          "ru": "Среднее 22 мм; половина размаха 2 мм. Не проверены калибровка или нулевая ошибка; полную неопределённость по одним повторам не найти."
+        }
+      },
+      {
+        "id": "p-measurement-2",
+        "prompt": {
+          "en": "A distance–time graph rises from (2 s, 5 m) to (6 s, 13 m). Find the gradient and meaning.",
+          "ru": "График пути проходит через (2 с; 5 м) и (6 с; 13 м). Найди наклон и смысл."
+        },
+        "answer": {
+          "en": "(13 − 5)/(6 − 2) = 2 m/s. It is average speed over that interval, not acceleration.",
+          "ru": "(13 − 5)/(6 − 2) = 2 м/с. Это средняя скорость на интервале, не ускорение."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/november/s-b",
+        "title": {
+          "en": "Design an investigation",
+          "ru": "План исследования"
+        }
+      },
+      {
+        "route": "/november/s-c",
+        "title": {
+          "en": "Process and evaluate data",
+          "ru": "Обработка и оценка данных"
+        }
+      },
+      {
+        "route": "/physics/force-motion",
+        "title": {
+          "en": "Motion models",
+          "ru": "Модели движения"
+        }
+      }
+    ],
+    "sources": [
+      "physics-ib",
+      "physics-ru"
+    ]
+  },
+  {
+    "id": "p-circuits",
+    "subject": "physics",
+    "title": {
+      "en": "Circuit reasoning before substitution",
+      "ru": "Сначала схема цепи, затем расчёт"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Calculate power and explain why ammeter and voltmeter connections differ.",
+      "ru": "Рассчитай мощность и объясни включение приборов."
+    },
+    "prerequisites": {
+      "en": "Charge, current and potential difference.",
+      "ru": "Заряд, ток и напряжение."
+    },
+    "explanation": {
+      "en": "Current I is charge flow per time: I = q/t, in amperes (C/s). Potential difference V is energy transferred per coulomb, in volts (J/C). In a series circuit the same current passes through every component; parallel branches share the potential difference between their common endpoints. An ammeter has low resistance and goes in series; a voltmeter has high resistance and goes in parallel. For an ohmic resistor at constant temperature, V = IR, with resistance R in ohms. Electrical power P = VI is in watts; energy E = Pt is in joules for time in seconds. Real lamps heat up, so their resistance need not remain constant. A circuit model does not describe all material behaviour.",
+      "ru": "Сила тока I — заряд за время: I = q/t, амперы равны Кл/с. Напряжение — энергия на единицу заряда, В = Дж/Кл; в русских обозначениях обычно U. При последовательном соединении ток одинаков, при параллельном ветви имеют общее напряжение между одинаковыми узлами. Амперметр с малым сопротивлением включают последовательно, вольтметр с большим — параллельно. Для омического резистора при постоянной температуре U = IR, R в омах. Мощность P = UI измеряют в ваттах, энергию E = Pt — в джоулях, если время в секундах. У нагревающейся лампы сопротивление меняется, поэтому нельзя считать любой элемент идеальным резистором."
+    },
+    "worked": {
+      "en": "A 6 V supply across a 12 Ω resistor gives I = 6/12 = 0.5 A. P = 6 × 0.5 = 3 W; over 120 s, E = 3 × 120 = 360 J. Check: W × s = J.",
+      "ru": "Источник 6 В и резистор 12 Ом: I = 6/12 = 0,5 А; P = 6 × 0,5 = 3 Вт. За 120 с энергия 360 Дж. Проверка единиц: Вт × с = Дж."
+    },
+    "misconception": {
+      "en": "Current is not used up by a resistor; energy is transferred. Never put an ideal ammeter directly across a supply.",
+      "ru": "Резистор не «расходует ток»: в нём передаётся энергия. Амперметр нельзя подключать напрямую к источнику."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Quantity",
+          "ru": "Величина"
+        },
+        {
+          "en": "Relationship",
+          "ru": "Связь"
+        },
+        {
+          "en": "Unit",
+          "ru": "Единица"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Current",
+            "ru": "Ток"
+          },
+          {
+            "en": "q/t",
+            "ru": "q/t"
+          },
+          {
+            "en": "A = C/s",
+            "ru": "A = C/s"
+          }
+        ],
+        [
+          {
+            "en": "Power",
+            "ru": "Мощность"
+          },
+          {
+            "en": "VI (UI)",
+            "ru": "VI (UI)"
+          },
+          {
+            "en": "W = J/s",
+            "ru": "W = J/s"
+          }
+        ],
+        [
+          {
+            "en": "Energy",
+            "ru": "Энергия"
+          },
+          {
+            "en": "Pt",
+            "ru": "Pt"
+          },
+          {
+            "en": "J",
+            "ru": "J"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Ideal DC circuit relationships; component behaviour still matters.",
+        "ru": "Связи для простой цепи постоянного тока; свойства элементов важны."
+      }
+    },
+    "practice": [
+      {
+        "id": "p-circuits-1",
+        "prompt": {
+          "en": "Two 6 Ω resistors are in series across 12 V. Find total current and power.",
+          "ru": "Два резистора по 6 Ом последовательно при 12 В. Найди ток и общую мощность."
+        },
+        "answer": {
+          "en": "R = 12 Ω; I = 1 A; P = 12 W. Each resistor transfers 6 W.",
+          "ru": "R = 12 Ом; I = 1 А; P = 12 Вт. На каждом выделяется 6 Вт."
+        }
+      },
+      {
+        "id": "p-circuits-2",
+        "prompt": {
+          "en": "Explain why a voltmeter needs high resistance.",
+          "ru": "Зачем вольтметру большое сопротивление?"
+        },
+        "answer": {
+          "en": "To draw little current and disturb the measured circuit as little as possible. Infinite resistance is an idealisation.",
+          "ru": "Чтобы через прибор шёл малый ток и он меньше менял измеряемую цепь. Бесконечное сопротивление — идеализация."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/physics/electricity",
+        "title": {
+          "en": "Circuit models and practice",
+          "ru": "Модели цепей и практика"
+        }
+      }
+    ],
+    "sources": [
+      "physics-ib",
+      "physics-ru"
+    ]
+  },
+  {
+    "id": "b-transport-link",
+    "subject": "biology",
+    "title": {
+      "en": "From digestion to cells: one connected explanation",
+      "ru": "От пищеварения к клеткам: связное объяснение"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Link digestion, absorption, gas exchange, circulation and respiration.",
+      "ru": "Свяжи пищеварение, всасывание, газообмен, кровообращение и дыхание клеток."
+    },
+    "prerequisites": {
+      "en": "Cells, diffusion, active transport and enzyme specificity.",
+      "ru": "Клетки, диффузия, активный транспорт, специфичность ферментов."
+    },
+    "explanation": {
+      "en": "Digestion breaks large food molecules into absorbable products: carbohydrates to simple sugars, proteins to amino acids, and lipids to fatty acids and glycerol. Enzymes catalyse particular reactions; temperature and pH affect activity, and extremes may alter the active site. The ileum has villi and microvilli for surface area, a thin epithelium and a blood supply that carries absorbed products away. Some uptake uses active transport, so not all absorption is simple diffusion. Breathing ventilates lungs; gas exchange moves oxygen into blood and carbon dioxide out across alveolar walls. Haemoglobin in red blood cells transports most oxygen; plasma carries many dissolved substances. Arteries carry blood away from the heart, veins toward it, and capillaries allow exchange. Cellular aerobic respiration releases usable energy from glucose with oxygen. Ventilation and respiration are connected but are not the same process.",
+      "ru": "Пищеварение превращает крупные молекулы пищи во всасываемые продукты: углеводы — в простые сахара, белки — в аминокислоты, жиры — в жирные кислоты и глицерин. Ферменты ускоряют определённые реакции; температура и pH влияют на активность, а крайние значения могут менять активный центр. Ворсинки и микроворсинки подвздошной кишки увеличивают площадь, тонкий эпителий сокращает путь, кровь уносит всосавшиеся вещества. Часть переноса требует энергии, поэтому всё всасывание нельзя назвать простой диффузией. Вентиляция обновляет воздух лёгких, газообмен переносит кислород в кровь и углекислый газ наружу. Большую часть кислорода переносит гемоглобин эритроцитов, плазма — многие растворённые вещества. Артерии идут от сердца, вены к нему, капилляры обеспечивают обмен. Аэробное дыхание клеток высвобождает доступную энергию при расщеплении глюкозы с кислородом. Вентиляция и клеточное дыхание связаны, но различаются."
+    },
+    "worked": {
+      "en": "After exercise begins, muscle demand for ATP increases. Breathing and heart rates rise, supporting oxygen delivery and carbon dioxide removal. This is a mechanism, not evidence that oxygen itself is energy or that all extra energy comes instantly from aerobic respiration.",
+      "ru": "После начала нагрузки мышцам нужно больше АТФ. Частота дыхания и сердцебиения растёт, помогая доставке кислорода и удалению CO₂. Кислород сам не является энергией, и дополнительная работа не обеспечивается мгновенно только аэробным дыханием."
+    },
+    "misconception": {
+      "en": "Not every artery carries oxygen-rich blood: pulmonary arteries go to the lungs. Define vessels by direction relative to the heart.",
+      "ru": "Не каждая артерия несёт богатую кислородом кровь: лёгочная идёт к лёгким. Сосуд определяют по направлению относительно сердца."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Stage",
+          "ru": "Этап"
+        },
+        {
+          "en": "Structure–function link",
+          "ru": "Связь строения и функции"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Ileum",
+            "ru": "Подвздошная кишка"
+          },
+          {
+            "en": "Villi → large area",
+            "ru": "Ворсинки → площадь"
+          }
+        ],
+        [
+          {
+            "en": "Alveolus",
+            "ru": "Альвеола"
+          },
+          {
+            "en": "Thin wall → short diffusion path",
+            "ru": "Тонкая стенка → короткий путь"
+          }
+        ],
+        [
+          {
+            "en": "Capillary",
+            "ru": "Капилляр"
+          },
+          {
+            "en": "Thin wall → exchange",
+            "ru": "Тонкая стенка → обмен"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "A causal pathway; mechanisms differ between substances and organs.",
+        "ru": "Причинная цепочка; механизмы различаются для органов и веществ."
+      }
+    },
+    "practice": [
+      {
+        "id": "b-transport-link-1",
+        "prompt": {
+          "en": "Explain two adaptations of an alveolus, with their mechanisms.",
+          "ru": "Объясни два приспособления альвеолы с механизмами."
+        },
+        "answer": {
+          "en": "Large total area allows more diffusion simultaneously; thin walls shorten the diffusion path. Ventilation and blood flow help maintain concentration gradients.",
+          "ru": "Большая суммарная площадь даёт больше места для диффузии, тонкая стенка сокращает путь. Вентиляция и кровоток поддерживают градиенты."
+        }
+      },
+      {
+        "id": "b-transport-link-2",
+        "prompt": {
+          "en": "Why can boiling an enzyme reduce its activity after cooling?",
+          "ru": "Почему после кипячения и охлаждения активность фермента может не восстановиться?"
+        },
+        "answer": {
+          "en": "Heat may denature it, changing the active site so substrate binding no longer works effectively. Cooling does not necessarily restore the original structure.",
+          "ru": "Нагрев может денатурировать белок и изменить активный центр. Субстрат больше не связывается эффективно; охлаждение не обязательно восстанавливает структуру."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/biology/body-systems",
+        "title": {
+          "en": "Digestion and circulation",
+          "ru": "Пищеварение и кровообращение"
+        }
+      },
+      {
+        "route": "/november/b-cells",
+        "title": {
+          "en": "Cells and membranes",
+          "ru": "Клетки и мембраны"
+        }
+      },
+      {
+        "route": "/november/b-transport",
+        "title": {
+          "en": "Gas exchange and transport",
+          "ru": "Газообмен и транспорт"
+        }
+      }
+    ],
+    "sources": [
+      "biology-ib",
+      "biology-ru"
+    ]
+  },
+  {
+    "id": "b-plants",
+    "subject": "biology",
+    "title": {
+      "en": "Plant transport and evidence from a potometer",
+      "ru": "Транспорт растений и опыт с потометром"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Explain water movement and what a potometer can measure.",
+      "ru": "Объясни движение воды и пределы измерений потометра."
+    },
+    "prerequisites": {
+      "en": "Osmosis, diffusion and surface area.",
+      "ru": "Осмос, диффузия, площадь поверхности."
+    },
+    "explanation": {
+      "en": "Root hair cells provide a large contact area with soil. Water can enter by osmosis down a water-potential gradient; mineral uptake can involve active transport. Xylem transports water and mineral ions, with transpiration from leaves helping drive the flow. Phloem translocates organic solutes between sources and sinks; it is not simply an upward-only sugar pipe. Stomata regulate gas exchange and water loss. Increasing temperature, airflow or light can change transpiration, but effects depend on stomatal responses and water supply. A potometer measures water uptake indirectly, not the water actually lost from leaves. Leaks, uptake for growth and changing conditions limit its interpretation. Photosynthesis uses light energy to form organic compounds; its rate can be limited by light, carbon dioxide or temperature, so changing one factor may stop increasing the rate when another becomes limiting.",
+      "ru": "Корневые волоски увеличивают контакт с почвой. Вода поступает осмосом по градиенту водного потенциала, а поглощение минеральных ионов может требовать активного транспорта. Ксилема проводит воду и минеральные вещества; испарение с листьев помогает поддерживать поток. Флоэма переносит органические вещества между источниками и потребителями, а не только вверх. Устьица регулируют газообмен и потерю воды. Температура, ветер и свет могут менять транспирацию, но результат зависит от реакции устьиц и наличия воды. Потометром косвенно измеряют поглощение воды, а не непосредственную потерю листьями. Утечки, рост и нестабильные условия ограничивают выводы. Фотосинтез использует энергию света для образования органических веществ. Его ограничивают свет, CO₂ или температура: усиление одного фактора перестаёт помогать, когда ограничивает другой."
+    },
+    "worked": {
+      "en": "A bubble moves 30 mm in 5 min: linear rate = 6 mm/min. With capillary cross-section 0.50 mm², volume uptake rate = 6 × 0.50 = 3 mm³/min. Without the cross-section, a distance rate cannot be reported as volume per minute.",
+      "ru": "Пузырёк прошёл 30 мм за 5 мин: линейная скорость 6 мм/мин. При сечении капилляра 0,50 мм² объёмная скорость поглощения 3 мм³/мин. Без площади сечения нельзя превратить мм/мин в объём за минуту."
+    },
+    "misconception": {
+      "en": "Water uptake is a proxy for transpiration; it is not an exact direct measurement of it.",
+      "ru": "Поглощение воды служит косвенным показателем транспирации, а не её точным прямым измерением."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Condition",
+          "ru": "Условие"
+        },
+        {
+          "en": "Bubble distance in 5 min",
+          "ru": "Путь пузырька за 5 мин"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Still air",
+            "ru": "Без ветра"
+          },
+          {
+            "en": "30 mm",
+            "ru": "30 mm"
+          }
+        ],
+        [
+          {
+            "en": "Fan",
+            "ru": "Вентилятор"
+          },
+          {
+            "en": "45 mm",
+            "ru": "45 mm"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Invented repeated-condition comparison; leaks and stomata must be considered.",
+        "ru": "Учебное сравнение; надо учитывать утечки и устьица."
+      }
+    },
+    "practice": [
+      {
+        "id": "b-plants-1",
+        "prompt": {
+          "en": "Find the percentage increase in linear uptake rate under the fan.",
+          "ru": "Найди процентное увеличение линейной скорости с вентилятором."
+        },
+        "answer": {
+          "en": "Rates are 6 and 9 mm/min; increase = (9 − 6)/6 × 100% = 50%. Repeats are needed to evaluate variation.",
+          "ru": "Скорости 6 и 9 мм/мин; рост (9 − 6)/6 × 100% = 50%. Для оценки разброса нужны повторы."
+        }
+      },
+      {
+        "id": "b-plants-2",
+        "prompt": {
+          "en": "Why can more light stop increasing photosynthesis?",
+          "ru": "Почему увеличение света перестаёт ускорять фотосинтез?"
+        },
+        "answer": {
+          "en": "Another factor, such as CO₂ supply or temperature-dependent enzyme activity, becomes limiting. A plateau is not proof that light is never relevant.",
+          "ru": "Ограничивать начинает другой фактор: CO₂ или зависящая от температуры работа ферментов. Плато не означает, что свет вообще не важен."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/november/b-plants",
+        "title": {
+          "en": "Photosynthesis and plant transport",
+          "ru": "Фотосинтез и транспорт растений"
+        }
+      }
+    ],
+    "sources": [
+      "biology-ib",
+      "biology-plants-ru"
+    ]
+  },
+  {
+    "id": "c-conditions",
+    "subject": "chemistry",
+    "title": {
+      "en": "Pressure, equilibrium and neutralisation: state conditions",
+      "ru": "Давление, равновесие и нейтрализация: условия"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Predict changes using partial pressure and distinguish weak acids.",
+      "ru": "Делай прогноз по парциальным давлениям; различай слабые кислоты."
+    },
+    "prerequisites": {
+      "en": "Moles, reversible reactions and ionic equations.",
+      "ru": "Моли, обратимые реакции и ионные уравнения."
+    },
+    "explanation": {
+      "en": "For a gas mixture, equilibrium responds to the partial pressures of reacting gases, not total pressure alone. Compressing a fixed mixture at constant temperature raises their partial pressures and can favour the side with fewer gas molecules. Adding an inert gas at fixed volume and temperature raises total pressure but leaves reacting partial pressures unchanged in the ideal-gas model. At constant total pressure, adding inert gas instead increases volume and lowers reacting partial pressures. A catalyst speeds approach to equilibrium without changing its composition at a fixed temperature. Exothermic reactions transfer energy to surroundings; endothermic reactions absorb it, increasing the reaction system’s enthalpy. For strong-acid/strong-base aqueous neutralisation, H⁺ + OH⁻ → H₂O is a useful net ionic equation. A weak acid remains largely molecular and must appear in its own equation: CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O. Neutralisation does not guarantee pH 7 at every equivalence point.",
+      "ru": "В газовой смеси равновесие связано с парциальными давлениями реагирующих газов, а не только с общим давлением. Сжатие неизменной смеси при постоянной температуре повышает их и может смещать равновесие в сторону меньшего числа газовых частиц. Добавление инертного газа при постоянных объёме и температуре повышает общее давление, но в модели идеального газа не меняет парциальные давления реагентов. При постоянном общем давлении объём, напротив, увеличивается, а парциальные давления падают. Катализатор ускоряет установление равновесия, не меняя его состав при этой температуре. Экзотермическая реакция отдаёт энергию окружению; эндотермическая поглощает её, повышая энтальпию реагирующей системы. Для сильной кислоты и сильного основания полезно H⁺ + OH⁻ → H₂O. Слабую уксусную кислоту в сокращённом ионном уравнении сохраняют молекулой: CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O. Точка эквивалентности не всегда имеет pH 7."
+    },
+    "worked": {
+      "en": "For N₂ + 3H₂ ⇌ 2NH₃, compression at constant T favours ammonia: four gas moles become two. Inert gas at constant V and T gives no ideal equilibrium shift. Heating favours the reverse direction because forward ammonia formation is exothermic.",
+      "ru": "Для N₂ + 3H₂ ⇌ 2NH₃ сжатие при постоянной T благоприятствует аммиаку: из четырёх молей газа образуются два. Инертный газ при постоянных V и T в идеальной модели не смещает равновесие. Нагрев благоприятствует обратной реакции, поскольку образование аммиака экзотермично."
+    },
+    "misconception": {
+      "en": "Endothermic does not mean that bonds release energy when broken: breaking bonds requires energy; making bonds releases it.",
+      "ru": "Эндотермичность не означает выделения энергии при разрыве связей: разрыв требует энергии, образование связей её выделяет."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Change at fixed T",
+          "ru": "Изменение при постоянной T"
+        },
+        {
+          "en": "Reacting partial pressures",
+          "ru": "Парциальные давления"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Compression",
+            "ru": "Сжатие"
+          },
+          {
+            "en": "Increase",
+            "ru": "Растут"
+          }
+        ],
+        [
+          {
+            "en": "Inert gas, fixed V",
+            "ru": "Инертный газ, V const"
+          },
+          {
+            "en": "Unchanged",
+            "ru": "Не меняются"
+          }
+        ],
+        [
+          {
+            "en": "Inert gas, fixed total p",
+            "ru": "Инертный газ, p const"
+          },
+          {
+            "en": "Decrease",
+            "ru": "Снижаются"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Ideal-gas comparison; a shift also depends on gas stoichiometry.",
+        "ru": "Сравнение идеальных газов; смещение зависит и от коэффициентов реакции."
+      }
+    },
+    "practice": [
+      {
+        "id": "c-conditions-1",
+        "prompt": {
+          "en": "For H₂ + I₂ ⇌ 2HI (all gases), does compression at fixed T favour either side?",
+          "ru": "Для H₂ + I₂ ⇌ 2HI (все газы) сжатие при постоянной T благоприятствует одной стороне?"
+        },
+        "answer": {
+          "en": "No ideal equilibrium shift from pressure alone: both sides contain two gas moles. Rate can still change.",
+          "ru": "В идеальной модели смещения только из-за давления нет: по два моля газа с обеих сторон. Скорость при этом может меняться."
+        }
+      },
+      {
+        "id": "c-conditions-2",
+        "prompt": {
+          "en": "Write the net equation for ethanoic acid with hydroxide and explain why the acid is not split into ions.",
+          "ru": "Запиши сокращённое уравнение уксусной кислоты с гидроксид-ионом и объясни запись кислоты."
+        },
+        "answer": {
+          "en": "CH₃COOH(aq) + OH⁻(aq) → CH₃COO⁻(aq) + H₂O(l). The weak acid is incompletely dissociated, so treating it as fully ionic hides the acid ionisation step.",
+          "ru": "CH₃COOH(р-р) + OH⁻(р-р) → CH₃COO⁻(р-р) + H₂O(ж). Слабая кислота диссоциирует не полностью; полная ионная запись скрыла бы стадию её ионизации."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/november/c-rates",
+        "title": {
+          "en": "Rates and equilibrium",
+          "ru": "Скорость и равновесие"
+        }
+      },
+      {
+        "route": "/chemistry/energy",
+        "title": {
+          "en": "Energy changes",
+          "ru": "Энергетические изменения"
+        }
+      },
+      {
+        "route": "/chemistry/reactions",
+        "title": {
+          "en": "Chemical changes",
+          "ru": "Химические превращения"
+        }
+      }
+    ],
+    "sources": [
+      "chem-ib",
+      "chem-ru"
+    ]
+  },
+  {
+    "id": "m-bounds",
+    "subject": "math",
+    "title": {
+      "en": "Bounds and proportional reasoning",
+      "ru": "Границы округления и пропорции"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Choose correct extremal values and state endpoint conditions.",
+      "ru": "Выбери значения для границ результата и укажи включение концов."
+    },
+    "prerequisites": {
+      "en": "Rounding, positive division and units.",
+      "ru": "Округление, деление положительных чисел, единицы."
+    },
+    "explanation": {
+      "en": "Rounding to the nearest unit creates an interval of possible original values. With the usual half-up convention, 12 cm to the nearest cm means 11.5 ≤ L < 12.5 cm. The upper endpoint is excluded because it rounds to 13. For a positive quotient v = d/t, the lowest possible value uses the smallest distance and largest time; the upper bound uses the largest distance and smallest time. Endpoint inclusion follows the original intervals. Direct proportion y = kx has a constant ratio y/x and passes through the origin. Inverse proportion y = k/x has a constant product xy for nonzero x; it is not just any decreasing straight line. Check the physical meaning and domain before applying a rule.",
+      "ru": "Округлённое число задаёт промежуток исходных значений. При обычном школьном округлении 12 см до сантиметра означает 11,5 ≤ L < 12,5 см: верхняя граница уже округлилась бы до 13. Для положительного частного v = d/t нижнюю границу получают из меньшего расстояния и большего времени, верхнюю — наоборот. Включение границ зависит от исходных промежутков. При прямой пропорциональности y = kx отношение y/x постоянно, график проходит через начало координат. При обратной y = k/x постоянно произведение xy и x ≠ 0. Просто убывающая прямая не является обратной пропорциональностью. Перед расчётом проверь смысл величин и допустимые значения."
+    },
+    "worked": {
+      "en": "Distance is 100 m to nearest metre, time 20 s to nearest second. Thus 99.5 ≤ d < 100.5 and 19.5 ≤ t < 20.5. Speed lies strictly above 99.5/20.5 ≈ 4.854 and strictly below 100.5/19.5 ≈ 5.154 m/s; neither extreme is attained.",
+      "ru": "Расстояние 100 м округлено до метра, время 20 с — до секунды. Тогда 99,5 ≤ d < 100,5 и 19,5 ≤ t < 20,5. Скорость строго больше 99,5/20,5 ≈ 4,854 и строго меньше 100,5/19,5 ≈ 5,154 м/с; крайние значения не достигаются."
+    },
+    "misconception": {
+      "en": "Dividing both lower bounds does not give the lower bound of a quotient. This rule also needs positive denominators.",
+      "ru": "Частное двух нижних границ не является нижней границей отношения. Правило требует положительного знаменателя."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Model",
+          "ru": "Модель"
+        },
+        {
+          "en": "x",
+          "ru": "x"
+        },
+        {
+          "en": "y",
+          "ru": "y"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Direct: y = 3x",
+            "ru": "Прямая: y = 3x"
+          },
+          {
+            "en": "2",
+            "ru": "2"
+          },
+          {
+            "en": "6",
+            "ru": "6"
+          }
+        ],
+        [
+          {
+            "en": "Direct: y = 3x",
+            "ru": "Прямая: y = 3x"
+          },
+          {
+            "en": "4",
+            "ru": "4"
+          },
+          {
+            "en": "12",
+            "ru": "12"
+          }
+        ],
+        [
+          {
+            "en": "Inverse: y = 12/x",
+            "ru": "Обратная: y = 12/x"
+          },
+          {
+            "en": "2",
+            "ru": "2"
+          },
+          {
+            "en": "6",
+            "ru": "6"
+          }
+        ],
+        [
+          {
+            "en": "Inverse: y = 12/x",
+            "ru": "Обратная: y = 12/x"
+          },
+          {
+            "en": "4",
+            "ru": "4"
+          },
+          {
+            "en": "3",
+            "ru": "3"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Compare invariant ratio and product; x and y are dimensionless in this illustration.",
+        "ru": "Сравни постоянное отношение и произведение; в примере величины безразмерны."
+      }
+    },
+    "practice": [
+      {
+        "id": "m-bounds-1",
+        "prompt": {
+          "en": "A length is 8.0 cm to nearest 0.1 cm. State its interval.",
+          "ru": "Длина 8,0 см округлена до 0,1 см. Укажи промежуток."
+        },
+        "answer": {
+          "en": "7.95 ≤ L < 8.05 cm, under the stated half-up rounding convention.",
+          "ru": "7,95 ≤ L < 8,05 см при указанном правиле округления."
+        }
+      },
+      {
+        "id": "m-bounds-2",
+        "prompt": {
+          "en": "y is inversely proportional to x; y = 8 when x = 3. Find y at x = 12.",
+          "ru": "y обратно пропорционален x; при x = 3 значение y = 8. Найди y при x = 12."
+        },
+        "answer": {
+          "en": "k = xy = 24; y = 24/12 = 2. Fourfold x gives one-quarter y.",
+          "ru": "k = xy = 24; y = 24/12 = 2. Увеличение x вчетверо уменьшает y вчетверо."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/math",
+        "title": {
+          "en": "Full Grade9 mathematics library",
+          "ru": "Полная библиотека математики G9"
+        }
+      },
+      {
+        "route": "/november/m-core",
+        "title": {
+          "en": "Algebra and number practice",
+          "ru": "Числа и алгебра"
+        }
+      }
+    ],
+    "sources": [
+      "math-ib",
+      "math-ru"
+    ]
+  },
+  {
+    "id": "e-comparison",
+    "subject": "english",
+    "title": {
+      "en": "Compare choices, then effects",
+      "ru": "Сравни приёмы и их действие"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Build a comparative paragraph from short original text and film evidence.",
+      "ru": "Построй сравнительный абзац по короткому тексту и описанию кадра."
+    },
+    "prerequisites": {
+      "en": "Connotation, narrative perspective and film framing.",
+      "ru": "Коннотация, повествовательная перспектива, композиция кадра."
+    },
+    "explanation": {
+      "en": "Comparison needs a shared focus, not one disconnected paragraph per work. Name a precise choice, select brief evidence, explain a plausible effect and link it to the question. A film frame may use distance, angle, lighting, performance or sound; written prose may use syntax, imagery, viewpoint or rhythm. Avoid claiming that a device forces every reader to feel the same thing. In the authored text “The crown waited on the empty chair”, personification makes power seem inviting yet detached from a human ruler. In an imagined film shot, a distant camera and long silence can instead stress isolation. Both may present power as troubling, but through different means. Use context to support interpretation rather than replacing evidence with biography. For creative writing, make viewpoint and structural choices serve an intended effect; for non-literary writing, adapt register, organisation and address to audience and purpose.",
+      "ru": "Сравнение строится вокруг общего вопроса, а не двух независимых пересказов. Назови конкретный приём, приведи короткое доказательство, объясни возможное действие и вернись к вопросу. В кино работают крупность, угол, свет, игра и звук; в тексте — синтаксис, образы, точка зрения и ритм. Приём не заставляет всех читателей чувствовать одно и то же. В авторской фразе «The crown waited on the empty chair» короне приписано ожидание: власть выглядит манящей и отделённой от человека. В воображаемом кадре дальний план и долгая тишина могут подчеркнуть одиночество. Общая идея тревожной власти раскрывается разными средствами. Контекст помогает толкованию, но не заменяет анализа. В творческом тексте точка зрения и структура должны работать на выбранное впечатление, а в нехудожественном регистр и композиция зависят от адресата и цели."
+    },
+    "worked": {
+      "en": "Both examples separate power from belonging. The personified crown “waited”, suggesting an invitation, whereas the distant film framing makes the ruler appear small. The contrast makes ambition look tempting in the text but isolating in the shot. This is one defensible reading, not the only answer.",
+      "ru": "Оба примера отделяют власть от близости с людьми. Ожидающая корона словно приглашает, а дальний план уменьшает фигуру правителя. Поэтому в тексте амбиция может выглядеть соблазнительной, в кадре — изолирующей. Это обоснованная трактовка, а не единственный ответ."
+    },
+    "misconception": {
+      "en": "Naming “metaphor” or “close-up” without explaining its local effect is feature spotting.",
+      "ru": "Название «метафора» или «крупный план» без объяснения действия здесь — только поиск приёмов."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Evidence",
+          "ru": "Доказательство"
+        },
+        {
+          "en": "Choice",
+          "ru": "Приём"
+        },
+        {
+          "en": "Possible effect",
+          "ru": "Возможное действие"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "The crown waited",
+            "ru": "The crown waited"
+          },
+          {
+            "en": "Personification",
+            "ru": "Олицетворение"
+          },
+          {
+            "en": "Power seems inviting",
+            "ru": "Власть манит"
+          }
+        ],
+        [
+          {
+            "en": "Distant silent shot",
+            "ru": "Distant silent shot"
+          },
+          {
+            "en": "Framing + sound",
+            "ru": "План + звук"
+          },
+          {
+            "en": "Isolation",
+            "ru": "Одиночество"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Original teaching examples, not extracts from the school examination.",
+        "ru": "Авторские примеры, не материалы школьного экзамена."
+      }
+    },
+    "practice": [
+      {
+        "id": "e-comparison-1",
+        "prompt": {
+          "en": "Write 100–140 words comparing the examples, including one similarity, one difference and both forms.",
+          "ru": "Напиши 100–140 английских слов: сходство, различие, доказательства из обеих форм."
+        },
+        "answer": {
+          "en": "Check: shared focus; precise text evidence; a film choice; explanation of both; explicit comparative link. Alternative interpretations earn credit if supported. A full exam response needs the school task length, not this short exercise.",
+          "ru": "Проверь общую мысль, точное текстовое доказательство, приём кино, объяснение обоих и прямую связь сравнения. Иная трактовка допустима с обоснованием. Это короткая тренировка, не полный экзаменационный ответ."
+        }
+      },
+      {
+        "id": "e-comparison-2",
+        "prompt": {
+          "en": "Rewrite “The close-up makes everyone scared” as a qualified analytical claim.",
+          "ru": "Перепиши «The close-up makes everyone scared» как обоснованное суждение."
+        },
+        "answer": {
+          "en": "For example: The close-up draws attention to the shaking hands, which may suggest anxiety and make the character appear less in control.",
+          "ru": "Например: крупный план выделяет дрожащие руки; это может указывать на тревогу и ослабление самоконтроля персонажа."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/english/reading",
+        "title": {
+          "en": "Unseen reading and comparison",
+          "ru": "Незнакомый текст и сравнение"
+        }
+      },
+      {
+        "route": "/english/macbeth",
+        "title": {
+          "en": "Macbeth library",
+          "ru": "Библиотека Macbeth"
+        }
+      },
+      {
+        "route": "/november/e-creative",
+        "title": {
+          "en": "Creative writing",
+          "ru": "Творческое письмо"
+        }
+      }
+    ],
+    "sources": [
+      "english-ib",
+      "english-ru"
+    ]
+  },
+  {
+    "id": "f-health-community",
+    "subject": "french",
+    "title": {
+      "en": "Health and community: tense makes meaning",
+      "ru": "Здоровье и сообщество: смысл времён"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Connect a present habit, past event and justified future proposal.",
+      "ru": "Свяжи привычку, прошлое событие и обоснованный план."
+    },
+    "prerequisites": {
+      "en": "Present, passé composé, imparfait and conditional.",
+      "ru": "Настоящее, passé composé, imparfait, conditionnel."
+    },
+    "explanation": {
+      "en": "The Grade9 Capable themes include health, community service, travel and education. Use vocabulary to express a connected idea: une alimentation équilibrée, aider les autres, les transports en commun, le droit à l’éducation. The present describes habits; passé composé presents a completed event; imparfait gives past background or repeated habits. Compare “Quand j’étais plus jeune, je mangeais mal” with “Hier, j’ai préparé un repas équilibré”. A future proposal can use je vais + infinitive or the future simple. For an unreal present condition, use si + imparfait then conditional: “Si nous avions plus de temps, nous aiderions davantage l’association”. Do not put the conditional directly after si in this construction. A speech addresses listeners and closes appropriately; an article needs a title and an organised discussion. Meeting a word count does not compensate for missing the task.",
+      "ru": "Темы G9 Capable включают здоровье, помощь сообществу, путешествия и образование. Лексика должна выражать мысль: une alimentation équilibrée — сбалансированное питание; aider les autres — помогать другим; les transports en commun — общественный транспорт; le droit à l’éducation — право на образование. Présent описывает привычку, passé composé — завершённое событие, imparfait — прошлый фон или повторение. Сравни «Quand j’étais plus jeune, je mangeais mal» — раньше я питался плохо, и «Hier, j’ai préparé un repas équilibré» — вчера я приготовил сбалансированный обед. Для плана подходят je vais + инфинитив или futur simple. В нереальном условии настоящего после si ставят imparfait, в результате conditionnel: «Si nous avions plus de temps, nous aiderions davantage l’association». У речи есть слушатели и завершение, у статьи — заголовок и связное обсуждение. Нужное число слов не заменяет выполнения задания."
+    },
+    "worked": {
+      "en": "“Avant, je prenais la voiture. Samedi dernier, j’ai pris le bus pour rejoindre une association. À l’avenir, je voyagerai plus souvent en transports en commun parce que cela réduit mes trajets en voiture.” Background habit, one event and a future intention are distinguished.",
+      "ru": "В примере «Avant, je prenais la voiture. Samedi dernier, j’ai pris le bus pour rejoindre une association. À l’avenir, je voyagerai plus souvent en transports en commun parce que cela réduit mes trajets en voiture» различаются прежняя привычка, отдельная поездка и намерение на будущее."
+    },
+    "misconception": {
+      "en": "“Si j’aurais…” is wrong for this unreal-condition pattern; use “Si j’avais…, je…rais”.",
+      "ru": "В этой условной конструкции «Si j’aurais…» неверно: нужно «Si j’avais…, je…rais»."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Meaning",
+          "ru": "Смысл"
+        },
+        {
+          "en": "French",
+          "ru": "Французский"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Past habit",
+            "ru": "Прежняя привычка"
+          },
+          {
+            "en": "Je faisais du sport.",
+            "ru": "Je faisais du sport."
+          }
+        ],
+        [
+          {
+            "en": "Completed event",
+            "ru": "Событие"
+          },
+          {
+            "en": "J’ai fait du sport.",
+            "ru": "J’ai fait du sport."
+          }
+        ],
+        [
+          {
+            "en": "Future",
+            "ru": "Будущее"
+          },
+          {
+            "en": "Je ferai du sport.",
+            "ru": "Je ferai du sport."
+          }
+        ],
+        [
+          {
+            "en": "Conditional",
+            "ru": "Условное"
+          },
+          {
+            "en": "Je ferais du sport.",
+            "ru": "Je ferais du sport."
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Same action, different time or condition; choose by meaning.",
+        "ru": "Одно действие в разных временных и условных рамках."
+      }
+    },
+    "practice": [
+      {
+        "id": "f-health-community-1",
+        "prompt": {
+          "en": "Complete: Si nous ___ (avoir) un jardin, nous ___ (cultiver) des légumes.",
+          "ru": "Заполни: Si nous ___ (avoir) un jardin, nous ___ (cultiver) des légumes."
+        },
+        "answer": {
+          "en": "avions; cultiverions. Si + imparfait, then conditional. Translation: If we had a garden, we would grow vegetables.",
+          "ru": "avions; cultiverions. После si — imparfait, далее conditionnel: если бы у нас был сад, мы выращивали бы овощи."
+        }
+      },
+      {
+        "id": "f-health-community-2",
+        "prompt": {
+          "en": "Write a 90-word practice speech proposing a community activity; include one past event and one justified future plan.",
+          "ru": "Напиши тренировочную речь на 90 французских слов о помощи сообществу: прошлое событие и обоснованный план."
+        },
+        "answer": {
+          "en": "Use an opening address, connected proposal, accurate time references and thanks. Self-check agreements and auxiliaries. This short task is preparation; the preserved school G9 written task asks 175–225 words.",
+          "ru": "Нужны обращение, связное предложение, правильные времена и благодарность. Проверь согласование и вспомогательные глаголы. Это короткая тренировка; в сохранённом школьном G9 задании 175–225 слов."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/french/tenses",
+        "title": {
+          "en": "Tense explanations",
+          "ru": "Объяснения времён"
+        }
+      },
+      {
+        "route": "/french/units",
+        "title": {
+          "en": "Four school themes",
+          "ru": "Четыре школьные темы"
+        }
+      },
+      {
+        "route": "/november/f-listen",
+        "title": {
+          "en": "Recordings and transcripts",
+          "ru": "Записи и тексты"
+        }
+      }
+    ],
+    "sources": [
+      "french-ib",
+      "french-ru"
+    ]
+  },
+  {
+    "id": "a-core",
+    "subject": "arabic",
+    "title": {
+      "en": "Arabic foundations: a meaningful exchange",
+      "ru": "Арабский: осмысленный обмен репликами"
+    },
+    "scope": "supplemental",
+    "objective": {
+      "en": "Read and adapt a short fully vocalised exchange.",
+      "ru": "Прочитай и измени короткий диалог с огласовками."
+    },
+    "prerequisites": {
+      "en": "Arabic letter joining and right-to-left reading.",
+      "ru": "Соединение букв и чтение справа налево."
+    },
+    "explanation": {
+      "en": "This is supplemental Modern Standard Arabic practice; a school checklist and current examination registration have not been verified. “أَيْنَ الْمَكْتَبَةُ؟” asks “Where is the library?” and “الْمَكْتَبَةُ قَرِيبَةٌ مِنَ الْمَدْرَسَةِ.” means “The library is near the school.” The question word أَيْنَ asks location. The definite noun الْمَكْتَبَةُ is feminine, so its adjective is قَرِيبَةٌ. Compare masculine الْبَيْتُ قَرِيبٌ: the house is near. مِنْ means from, and in the expression قَرِيبٌ مِنْ it forms “near to”; the connected form before the definite article is shown as مِنَ. Read the whole phrase, keeping the definite article and endings, rather than inferring meaning from English word order. Dialect pronunciations differ; these examples use MSA.",
+      "ru": "Это дополнительная практика литературного арабского, не подтверждённый школьный checklist; запись на текущий экзамен тоже не проверена. «أَيْنَ الْمَكْتَبَةُ؟» — «Где библиотека?», «الْمَكْتَبَةُ قَرِيبَةٌ مِنَ الْمَدْرَسَةِ.» — «Библиотека недалеко от школы». أَيْنَ спрашивает о месте. Слово «библиотека» женского рода, поэтому прилагательное قَرِيبَةٌ тоже женского рода. Сравни мужской род: الْبَيْتُ قَرِيبٌ — «Дом рядом». Предлог مِنْ означает «из/от», а в сочетании قَرِيبٌ مِنْ передаёт «близко к»; перед определённым артиклем в связной речи показано مِنَ. Читай фразу целиком с артиклем и окончаниями, не переставляй слова по английскому образцу. Диалектные варианты отличаются; здесь литературный язык."
+    },
+    "worked": {
+      "en": "Replace library with house: أَيْنَ الْبَيْتُ؟ الْبَيْتُ قَرِيبٌ مِنَ الْمَدْرَسَةِ. The adjective changes from feminine قَرِيبَةٌ to masculine قَرِيبٌ.",
+      "ru": "Замена библиотеки на дом: أَيْنَ الْبَيْتُ؟ الْبَيْتُ قَرِيبٌ مِنَ الْمَدْرَسَةِ. Прилагательное меняется с женского قَرِيبَةٌ на мужское قَرِيبٌ."
+    },
+    "misconception": {
+      "en": "Do not use a dialect form as proof that a vocalised MSA example is wrong. Label the variety you practise.",
+      "ru": "Не опровергай огласованный литературный пример диалектной формой: сначала укажи вариант языка."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Arabic",
+          "ru": "Арабский"
+        },
+        {
+          "en": "Meaning",
+          "ru": "Значение"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "أَيْنَ",
+            "ru": "أَيْنَ"
+          },
+          {
+            "en": "Where?",
+            "ru": "Где?"
+          }
+        ],
+        [
+          {
+            "en": "مَكْتَبَةٌ",
+            "ru": "مَكْتَبَةٌ"
+          },
+          {
+            "en": "Library",
+            "ru": "Библиотека"
+          }
+        ],
+        [
+          {
+            "en": "بَيْتٌ",
+            "ru": "بَيْتٌ"
+          },
+          {
+            "en": "House",
+            "ru": "Дом"
+          }
+        ],
+        [
+          {
+            "en": "قَرِيبٌ / قَرِيبَةٌ",
+            "ru": "قَرِيبٌ / قَرِيبَةٌ"
+          },
+          {
+            "en": "Near (m/f)",
+            "ru": "Близкий, близкая"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Read Arabic cells right to left; meanings are contextual.",
+        "ru": "Арабские ячейки читаются справа налево; значения даны в контексте."
+      }
+    },
+    "practice": [
+      {
+        "id": "a-core-1",
+        "prompt": {
+          "en": "Complete: الْمَدْرَسَةُ ___ (near: masculine or feminine?).",
+          "ru": "Заполни: الْمَدْرَسَةُ ___ («рядом»: мужской или женский род?)."
+        },
+        "answer": {
+          "en": "قَرِيبَةٌ — feminine, agreeing with الْمَدْرَسَةُ.",
+          "ru": "قَرِيبَةٌ — женский род по слову الْمَدْرَسَةُ."
+        }
+      },
+      {
+        "id": "a-core-2",
+        "prompt": {
+          "en": "Ask “Where is the house?” and answer “The house is near the school.”",
+          "ru": "Спроси «Где дом?» и ответь «Дом недалеко от школы»."
+        },
+        "answer": {
+          "en": "أَيْنَ الْبَيْتُ؟ الْبَيْتُ قَرِيبٌ مِنَ الْمَدْرَسَةِ. Check أَيْنَ, the definite article and masculine قَرِيبٌ.",
+          "ru": "أَيْنَ الْبَيْتُ؟ الْبَيْتُ قَرِيبٌ مِنَ الْمَدْرَسَةِ. Проверь вопросительное слово, артикль и мужское قَرِيبٌ."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/arabic/grammar",
+        "title": {
+          "en": "Grammar and RTL practice",
+          "ru": "Грамматика и RTL"
+        }
+      },
+      {
+        "route": "/arabic/learn",
+        "title": {
+          "en": "Existing listening controls",
+          "ru": "Имеющееся озвучивание"
+        }
+      }
+    ],
+    "sources": [
+      "arabic-en",
+      "arabic-ru"
+    ]
+  },
+  {
+    "id": "pe-evaluate",
+    "subject": "pe",
+    "title": {
+      "en": "PE: evaluate a skill with evidence",
+      "ru": "Физкультура: оценка навыка по данным"
+    },
+    "scope": "supplemental",
+    "objective": {
+      "en": "Plan a safe observation and distinguish performance from explanation.",
+      "ru": "Спланируй безопасное наблюдение; различай результат и объяснение."
+    },
+    "prerequisites": {
+      "en": "An activity already approved by the teacher.",
+      "ru": "Упражнение, уже разрешённое учителем."
+    },
+    "explanation": {
+      "en": "This general reflection task supports a currently visible PE class; the exact assessed unit is unknown. Choose a teacher-approved skill and define one observable success criterion before collecting evidence. For example, count accurate passes to a marked target under the same distance and conditions. Record attempts, success count and a brief observation of technique. A higher score after practice may reflect learning, chance, fatigue or easier conditions. Compare like with like and use feedback to choose one change. Do not invent completed activity or health data. Physical trials require the normal lesson supervision and safety arrangements; the written task here can be completed from an existing authorised observation.",
+      "ru": "Этот общий разбор поддерживает видимый класс PE, но конкретный оцениваемый раздел неизвестен. Выбери уже разрешённый учителем навык и заранее определи наблюдаемый критерий успеха: например, точные передачи в цель с одинаковой дистанции. Запиши число попыток, успешных действий и короткое наблюдение техники. Лучший результат может быть связан с обучением, случайностью, усталостью или облегчением условий. Сравнивай сопоставимые попытки и по обратной связи выбирай одно изменение. Не выдумывай выполненную нагрузку или сведения о здоровье. Физическая проба требует обычного контроля урока; письменный разбор можно сделать по уже имеющемуся разрешённому наблюдению."
+    },
+    "worked": {
+      "en": "Invented observations: 6/10 and 8/10 accurate passes correspond to 60% and 80%, a 20 percentage-point rise. It is a two-trial comparison, not proof of a stable improvement.",
+      "ru": "Учебные наблюдения 6/10 и 8/10 означают 60% и 80%: рост на 20 процентных пунктов. Две серии не доказывают устойчивого улучшения."
+    },
+    "misconception": {
+      "en": "20 percentage points is not a 20% relative increase; from 60% to 80% the relative rise is about 33%.",
+      "ru": "20 процентных пунктов — не относительный рост 20%; от 60% к 80% относительный рост около 33%."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Trial",
+          "ru": "Серия"
+        },
+        {
+          "en": "Successes / 10",
+          "ru": "Успехи / 10"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "1",
+            "ru": "1"
+          },
+          {
+            "en": "6",
+            "ru": "6"
+          }
+        ],
+        [
+          {
+            "en": "2",
+            "ru": "2"
+          },
+          {
+            "en": "8",
+            "ru": "8"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Invented data, no physical completion claimed.",
+        "ru": "Учебные данные, выполнение упражнения не заявлено."
+      }
+    },
+    "practice": [
+      {
+        "id": "pe-evaluate-1",
+        "prompt": {
+          "en": "Give one variable to hold constant and one reason.",
+          "ru": "Назови контролируемую переменную и объясни её выбор."
+        },
+        "answer": {
+          "en": "Keep distance constant so a higher score is not merely due to an easier target. Also consider fatigue and number of attempts.",
+          "ru": "Сохрани дистанцию, иначе рост результата может объясняться облегчением задачи. Также учитывай усталость и число попыток."
+        }
+      },
+      {
+        "id": "pe-evaluate-2",
+        "prompt": {
+          "en": "Write a specific next-step reflection without inventing an observed flaw.",
+          "ru": "Напиши конкретный следующий шаг, не придумывая замеченную ошибку."
+        },
+        "answer": {
+          "en": "Example: Review the existing observation with the teacher, choose one technique cue supported by it, then compare another same-condition trial. Do not assert a technical fault without evidence.",
+          "ru": "Например: обсудить имеющееся наблюдение с учителем, выбрать подтверждённую им подсказку по технике и сравнить следующую серию в тех же условиях. Без данных не утверждай конкретную ошибку."
+        }
+      }
+    ],
+    "links": [],
+    "sources": [
+      "myp-pe"
+    ]
+  },
+  {
+    "id": "moral-evidence",
+    "subject": "moral",
+    "title": {
+      "en": "Moral education: make a fair decision",
+      "ru": "Моральное образование: справедливое решение"
+    },
+    "scope": "supplemental",
+    "objective": {
+      "en": "Separate a fact, a value and a justified decision.",
+      "ru": "Различай факт, ценность и обоснованное решение."
+    },
+    "prerequisites": {
+      "en": "Respectful discussion and evidence.",
+      "ru": "Уважительное обсуждение и работа с доказательствами."
+    },
+    "explanation": {
+      "en": "This supplemental reasoning task supports a currently visible Moral Education class; no school assessment topic is asserted. A fact is a claim that can be checked; a value concerns what should matter; a decision chooses an action under constraints. In allocating a limited community budget, equal shares, greatest need and greatest expected benefit can point to different choices. Identify affected groups, ask whose voice is missing and compare options using the same criteria. Explain what evidence would change your decision. Respect disagreement by addressing reasons rather than labelling people. A reasoned answer can acknowledge uncertainty and still recommend an action.",
+      "ru": "Это дополнительная тренировка рассуждения для видимого класса Moral Education, не заявленная тема школьной проверки. Факт можно проверить, ценность говорит о важном, решение выбирает действие в условиях ограничений. При распределении общественного бюджета равные доли, наибольшая нуждаемость и максимальная ожидаемая польза могут вести к разным выборам. Назови затронутые группы, найди отсутствующие голоса и сравни варианты по одинаковым критериям. Объясни, какие сведения изменили бы вывод. Уважение к несогласию означает обсуждение доводов, а не ярлыки для людей. Признание неопределённости не мешает предложить обоснованное действие."
+    },
+    "worked": {
+      "en": "Invented proposal: 100 units can fund either an accessible entrance or new decoration. If the entrance excludes some residents, equal access is a strong reason to prioritise it. Check actual access needs, costs and alternatives before claiming that the comparison is complete.",
+      "ru": "Учебный выбор: 100 единиц хватит на доступный вход или новое оформление. Если существующий вход исключает часть жителей, равный доступ — сильный довод в пользу его изменения. Но сначала нужны реальные потребности, стоимость и альтернативы."
+    },
+    "misconception": {
+      "en": "A preference is not a verified fact; a majority vote does not automatically protect every minority interest.",
+      "ru": "Предпочтение не является проверенным фактом; большинство не всегда защищает интересы меньшинства."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Claim",
+          "ru": "Суждение"
+        },
+        {
+          "en": "Type",
+          "ru": "Тип"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Budget is 100",
+            "ru": "Бюджет 100"
+          },
+          {
+            "en": "Checkable fact",
+            "ru": "Проверяемый факт"
+          }
+        ],
+        [
+          {
+            "en": "Access matters",
+            "ru": "Доступ важен"
+          },
+          {
+            "en": "Value",
+            "ru": "Ценность"
+          }
+        ],
+        [
+          {
+            "en": "Prioritise entrance",
+            "ru": "Выбрать вход"
+          },
+          {
+            "en": "Decision",
+            "ru": "Решение"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Invented decision, not a school assignment or completed community action.",
+        "ru": "Учебный выбор, не школьное задание и не выполненная акция."
+      }
+    },
+    "practice": [
+      {
+        "id": "moral-evidence-1",
+        "prompt": {
+          "en": "Give one missing stakeholder and one question to ask.",
+          "ru": "Назови неучтённую сторону и вопрос для неё."
+        },
+        "answer": {
+          "en": "For example, residents with mobility needs: which entrances and routes are actually inaccessible? Their evidence can change the design.",
+          "ru": "Например, жители с ограниченной мобильностью: какие входы и маршруты недоступны? Ответ может изменить проект."
+        }
+      },
+      {
+        "id": "moral-evidence-2",
+        "prompt": {
+          "en": "Write a conditional conclusion in two sentences.",
+          "ru": "Напиши условный вывод в двух предложениях."
+        },
+        "answer": {
+          "en": "Prioritise access if the barrier and feasible remedy are confirmed. Reconsider the design if evidence shows another solution provides access at lower cost without excluding users.",
+          "ru": "При подтверждённом барьере и выполнимом решении приоритет — доступность. Пересмотреть проект, если есть более экономный способ обеспечить доступ без исключения людей."
+        }
+      }
+    ],
+    "links": [],
+    "sources": [
+      "moral-official"
+    ]
+  },
+  {
+    "id": "art-observe-develop",
+    "subject": "art",
+    "title": {
+      "en": "Visual Art: observation, experiment, intention",
+      "ru": "Изобразительное искусство: наблюдение, проба, замысел"
+    },
+    "scope": "supplemental",
+    "objective": {
+      "en": "Connect a visual observation to an original experiment and reflection.",
+      "ru": "Свяжи наблюдение с собственной пробой и выводом."
+    },
+    "prerequisites": {
+      "en": "Your own sketchbook or an image you may legally study.",
+      "ru": "Свой альбом или изображение, которое можно законно изучать."
+    },
+    "explanation": {
+      "en": "Visual Art appears in the archived school inventory, including G10-labelled classes; the current unit and assessment brief remain unconfirmed. Begin by separating observation from interpretation. “The figure occupies the lower-left corner” is observable; “the figure seems isolated” is an interpretation that needs evidence. Analyse line, colour, tone, shape, texture, space and composition only where they help explain an effect. Develop your own work through controlled experiments: change one compositional choice, keep a record and compare the results with your intention. Research can inform a decision without copying another artist’s finished image. Credit sources and keep your process visible. A reflection should explain what changed, why and what evidence supports the next choice; it should not invent a completed artwork.",
+      "ru": "Visual Art виден в архиве школы, в том числе в классах с обозначением G10; текущая тема и задание не подтверждены. Сначала отдели наблюдение от трактовки. «Фигура в нижнем левом углу» можно увидеть, «она выглядит одинокой» нужно обосновать. Линия, цвет, тон, форма, фактура, пространство и композиция важны, когда объясняют действие изображения. Развивай собственную работу через пробы: меняй одно решение, сохраняй ход работы и сопоставляй результат с замыслом. Исследование художника может подсказать выбор, но не заменяет собственного изображения. Указывай источники. В рефлексии объясни изменение, причину и основание следующего шага, не выдумывая готовую работу."
+    },
+    "worked": {
+      "en": "For an original sketch of one figure, compare two thumbnails: one centred with little empty space, another small and off-centre with more surrounding space. If isolation is the intention, the second may help, but explain how scale and placement contribute rather than declaring a universal rule.",
+      "ru": "Для собственного рисунка фигуры сравни два эскиза: крупная фигура в центре и маленькая сбоку с большим пустым пространством. Второй может поддержать тему одиночества. Объясни действие масштаба и положения, не превращая выбор в универсальное правило."
+    },
+    "misconception": {
+      "en": "An interpretation is not established by naming an art element. A reference image is not evidence that you made a finished artwork.",
+      "ru": "Название художественного элемента не доказывает трактовку. Референс не подтверждает создание готовой работы."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Choice",
+          "ru": "Решение"
+        },
+        {
+          "en": "Observe",
+          "ru": "Наблюдение"
+        },
+        {
+          "en": "Test",
+          "ru": "Проба"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Scale",
+            "ru": "Масштаб"
+          },
+          {
+            "en": "Large or small",
+            "ru": "Крупно или мелко"
+          },
+          {
+            "en": "Two thumbnails",
+            "ru": "Два эскиза"
+          }
+        ],
+        [
+          {
+            "en": "Placement",
+            "ru": "Положение"
+          },
+          {
+            "en": "Centre or edge",
+            "ru": "Центр или край"
+          },
+          {
+            "en": "Same figure",
+            "ru": "Та же фигура"
+          }
+        ],
+        [
+          {
+            "en": "Tone",
+            "ru": "Тон"
+          },
+          {
+            "en": "Contrast",
+            "ru": "Контраст"
+          },
+          {
+            "en": "One changed value",
+            "ru": "Одно изменение"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "A planning matrix for the student’s own work, not a completed portfolio.",
+        "ru": "Схема планирования собственной работы, не готовое портфолио."
+      }
+    },
+    "practice": [
+      {
+        "id": "art-observe-develop-1",
+        "prompt": {
+          "en": "Write one observation and two possible interpretations of empty space around a figure.",
+          "ru": "Назови наблюдение и две возможные трактовки пустого пространства вокруг фигуры."
+        },
+        "answer": {
+          "en": "Observation: much of the image contains no figures. It might suggest isolation or freedom, depending on pose, colour and context. Support the chosen reading with visible evidence.",
+          "ru": "Наблюдение: большая часть изображения без фигур. Возможны одиночество или свобода — в зависимости от позы, цвета и контекста. Нужны видимые основания."
+        }
+      },
+      {
+        "id": "art-observe-develop-2",
+        "prompt": {
+          "en": "Plan two original thumbnails varying only scale. State what you will compare.",
+          "ru": "Спланируй два собственных эскиза с изменением только масштаба. Что сравнишь?"
+        },
+        "answer": {
+          "en": "Keep subject, palette and position constant; compare perceived dominance or vulnerability, and record feedback. The plan is not a claim that the sketches have been made.",
+          "ru": "Сохрани объект, палитру и положение; сравни ощущение силы или уязвимости и запиши обратную связь. План не означает, что эскизы уже выполнены."
+        }
+      }
+    ],
+    "links": [],
+    "sources": [
+      "myp-art"
+    ]
+  },
+  {
+    "id": "social-source",
+    "subject": "social",
+    "title": {
+      "en": "Social Studies: evaluate a source before a claim",
+      "ru": "Обществознание: оцени источник до вывода"
+    },
+    "scope": "supplemental",
+    "objective": {
+      "en": "Use origin, purpose, context and corroboration to limit a conclusion.",
+      "ru": "Используй происхождение, цель, контекст и сверку, чтобы ограничить вывод."
+    },
+    "prerequisites": {
+      "en": "Distinguish observation, interpretation and opinion.",
+      "ru": "Различай наблюдение, трактовку и мнение."
+    },
+    "explanation": {
+      "en": "Social Studies is confirmed in the archived Grade9 inventory; its precise exam content is unknown. A source can be useful for one question and limited for another. Establish who created it, when, for whom and for what purpose. A promotional brochure may reveal how an institution wished to be seen but cannot alone establish how all residents experienced it. A later account may use hindsight and additional evidence, while losing direct access to some experiences. Primary does not automatically mean reliable, and secondary does not mean worthless. Corroborate specific claims with independent evidence, check whether the sources share an origin and explain contradictions. Distinguish a chronological sequence from a causal argument: an event happening first does not prove it caused the next one.",
+      "ru": "Social Studies подтверждён в архиве G9, но точный экзаменационный состав неизвестен. Источник полезен для одного вопроса и ограничен для другого. Установи автора, время, адресата и цель. Рекламная брошюра показывает желаемый образ организации, но не доказывает опыт всех жителей. Поздний рассказ может учитывать дополнительные данные и последствия, но хуже передавать некоторые непосредственные впечатления. Первичный источник не обязательно достоверен, вторичный не обязательно бесполезен. Сверяй конкретные утверждения по независимым данным и проверяй, не восходят ли источники к одной публикации. Последовательность событий ещё не доказывает причинную связь."
+    },
+    "worked": {
+      "en": "Invented source A is a council poster calling a new park “for everyone”; source B is a resident interview about an inaccessible path. A supports the council’s public intention; B gives one experience of access. Neither proves every resident’s experience. Site inspection and a broader sample would test the access claim.",
+      "ru": "Учебный источник A — плакат совета «парк для всех», B — интервью жителя о недоступной дорожке. A показывает публичное намерение, B — один опыт доступа. Ни один не представляет всех жителей. Нужны обследование и более широкая выборка."
+    },
+    "misconception": {
+      "en": "Two websites repeating the same press release are not two independent confirmations.",
+      "ru": "Два сайта с одним пресс-релизом не являются двумя независимыми подтверждениями."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Source",
+          "ru": "Источник"
+        },
+        {
+          "en": "Useful for",
+          "ru": "Для чего полезен"
+        },
+        {
+          "en": "Limit",
+          "ru": "Ограничение"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Poster",
+            "ru": "Плакат"
+          },
+          {
+            "en": "Public message",
+            "ru": "Публичный образ"
+          },
+          {
+            "en": "Not every experience",
+            "ru": "Не все мнения"
+          }
+        ],
+        [
+          {
+            "en": "Interview",
+            "ru": "Интервью"
+          },
+          {
+            "en": "One experience",
+            "ru": "Один опыт"
+          },
+          {
+            "en": "Sample and recall",
+            "ru": "Выборка и память"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Invented sources for method practice; no historical event is asserted.",
+        "ru": "Учебные источники для метода; историческое событие не заявлено."
+      }
+    },
+    "practice": [
+      {
+        "id": "social-source-1",
+        "prompt": {
+          "en": "Give one question for testing the park’s “for everyone” claim and one independent source.",
+          "ru": "Задай вопрос для проверки «парка для всех» и назови независимый источник."
+        },
+        "answer": {
+          "en": "Ask whether different users can reach key facilities. Compare an accessibility inspection with interviews sampled across user groups. Explain scope and limitations.",
+          "ru": "Доступны ли основные объекты разным пользователям? Сопоставь обследование доступности и интервью разных групп, указав границы каждого."
+        }
+      },
+      {
+        "id": "social-source-2",
+        "prompt": {
+          "en": "Explain a useful feature and a limitation of a promotional source without dismissing it.",
+          "ru": "Объясни пользу и ограничение рекламы, не отбрасывая её полностью."
+        },
+        "answer": {
+          "en": "It reveals the intended message and audience, but incentives to persuade may omit inconvenient effects. Its usefulness depends on the research question.",
+          "ru": "Она раскрывает желаемый образ и адресата, но стремление убедить может скрывать неудобные последствия. Польза зависит от вопроса исследования."
+        }
+      }
+    ],
+    "links": [],
+    "sources": [
+      "myp-humanities",
+      "social-ru"
+    ]
+  },
+  {
+    "id": "project-evidence",
+    "subject": "projects",
+    "title": {
+      "en": "Projects, service and careers: keep honest evidence",
+      "ru": "Проекты, помощь и выбор пути: честные свидетельства"
+    },
+    "scope": "supplemental",
+    "objective": {
+      "en": "Distinguish a plan, an action and an evaluated outcome.",
+      "ru": "Различай план, действие и оценённый результат."
+    },
+    "prerequisites": {
+      "en": "A real question or an authorised project idea.",
+      "ru": "Реальный вопрос или разрешённая идея проекта."
+    },
+    "explanation": {
+      "en": "The school inventory contains Personal Project, Service as Action and University/Careers classes. These are included as supporting skills, with no invented examination or completed service hours. Define a learning goal separately from a product goal. A success criterion must be observable: “three users can complete the task” is testable, whereas “excellent app” is not. Plan research, choose sources, record decisions and preserve dated evidence. A prototype is evidence of a prototype, not proof that a product is published or used. For service, ask the community what is needed and work through the school’s permission and supervision process. Reflection connects evidence to learning, acknowledges limits and sets a specific next step. Career exploration compares requirements, interests and reliable information without treating a tentative preference as a final commitment.",
+      "ru": "В школьном списке есть Personal Project, Service as Action и University/Careers. Здесь это навыковая поддержка без придуманного экзамена и выполненных часов помощи. Отдели цель обучения от цели продукта. Критерий успеха должен наблюдаться: «трое пользователей выполняют задачу» проверяемо, «отличное приложение» — нет. Планируй исследование, выбирай источники, записывай решения и сохраняй датированные свидетельства. Прототип доказывает существование прототипа, но не публикацию или использование. Для помощи сообществу сначала узнай потребности и соблюди школьные согласования и контроль. Рефлексия связывает данные с обучением, признаёт ограничения и задаёт конкретный шаг. Изучение профессий сопоставляет требования и интересы без превращения временного предпочтения в обязательство."
+    },
+    "worked": {
+      "en": "A student plans a study tool. Goal: learn to design accessible navigation. Product criterion: three invited testers find a specified topic without help. Until testing occurs, the result is “prototype ready, user evidence pending”, not “everyone finds it easy”.",
+      "ru": "Ученик планирует учебный инструмент. Цель — научиться доступной навигации. Критерий продукта — трое приглашённых участников находят указанную тему без помощи. Пока теста нет, результат «прототип готов, пользовательская проверка ожидается», а не «всем удобно»."
+    },
+    "misconception": {
+      "en": "A scheduled activity is not a completed activity. Never reconstruct service hours or feedback from what you hoped would happen.",
+      "ru": "Запланированное действие не равно выполненному. Нельзя восстанавливать часы и отзывы по ожиданиям."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "State",
+          "ru": "Состояние"
+        },
+        {
+          "en": "Evidence",
+          "ru": "Свидетельство"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Planned",
+            "ru": "Запланировано"
+          },
+          {
+            "en": "Goal and method",
+            "ru": "Цель и метод"
+          }
+        ],
+        [
+          {
+            "en": "Built",
+            "ru": "Сделано"
+          },
+          {
+            "en": "Dated artifact",
+            "ru": "Артефакт с датой"
+          }
+        ],
+        [
+          {
+            "en": "Tested",
+            "ru": "Проверено"
+          },
+          {
+            "en": "Actual results",
+            "ru": "Реальные результаты"
+          }
+        ],
+        [
+          {
+            "en": "Evaluated",
+            "ru": "Оценено"
+          },
+          {
+            "en": "Reasoned reflection",
+            "ru": "Обоснованный вывод"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "A truthful process record; no real-world action is certified by this table.",
+        "ru": "Схема честного процесса; таблица не подтверждает реальное действие."
+      }
+    },
+    "practice": [
+      {
+        "id": "project-evidence-1",
+        "prompt": {
+          "en": "Rewrite “My project was successful” as a claim tied to an observable criterion.",
+          "ru": "Перепиши «мой проект успешен» через наблюдаемый критерий."
+        },
+        "answer": {
+          "en": "If actual evidence exists: three of four testers completed the specified task unaided; one needed a navigation hint. If not, say testing remains planned.",
+          "ru": "Если есть данные: трое из четырёх выполнили задачу без помощи, одному потребовалась подсказка навигации. Если данных нет, проверка только запланирована."
+        }
+      },
+      {
+        "id": "project-evidence-2",
+        "prompt": {
+          "en": "Give one learning goal, one product criterion and one next step for your own idea.",
+          "ru": "Назови цель обучения, критерий продукта и следующий шаг своей идеи."
+        },
+        "answer": {
+          "en": "The learning goal names a skill; the product criterion is observable; the next step produces evidence. Do not substitute an imagined finished project for the plan.",
+          "ru": "Цель называет навык, критерий продукта проверяем, следующий шаг создаёт свидетельство. Воображаемый готовый проект не заменяет план."
+        }
+      }
+    ],
+    "links": [],
+    "sources": [
+      "myp-project"
+    ]
+  },
+  {
+    "id": "a-routine",
+    "subject": "arabic",
+    "title": {
+      "en": "Arabic: daily routine from listening to meaning",
+      "ru": "Арабский: распорядок дня — от записи к смыслу"
+    },
+    "scope": "supplemental",
+    "objective": {
+      "en": "Identify a time, sequence and first-person verb in a short passage.",
+      "ru": "Найди время, последовательность и глагол первого лица."
+    },
+    "prerequisites": {
+      "en": "Existing Arabic alphabet and daily-routine vocabulary.",
+      "ru": "Алфавит и знакомые слова о распорядке дня."
+    },
+    "explanation": {
+      "en": "Daily Routine is a visible topic in the archived Grade9 Arabic Ministry class. This original passage practises that topic; it is not a confirmed Grade10 mock text. Listen before reading the transcript. أَسْتَيْقِظُ means “I wake up”; أَذْهَبُ means “I go”; أَقْرَأُ means “I read”. The subject “I” is carried in the verb form, so a separate أَنَا is not always needed. فِي السَّاعَةِ السَّابِعَةِ gives the time “at seven o’clock”; إِلَى الْمَدْرَسَةِ gives a destination, “to school”. بَعْدَ الْمَدْرَسَةِ orders the final action after school. The definite article may assimilate in pronunciation before a sun letter, as in السَّاعَةِ; spelling and sound are related but not identical. TTS is a practice model, not a human pronunciation assessment.",
+      "ru": "Daily Routine виден в архивном классе Arabic Ministry G9. Этот авторский текст тренирует тему, но не является подтверждённым текстом mock G10. Сначала послушай без расшифровки. أَسْتَيْقِظُ — «я просыпаюсь», أَذْهَبُ — «я иду», أَقْرَأُ — «я читаю». Первое лицо выражено формой глагола, поэтому отдельное أَنَا требуется не всегда. فِي السَّاعَةِ السَّابِعَةِ указывает время «в семь часов», إِلَى الْمَدْرَسَةِ — направление «в школу». بَعْدَ الْمَدْرَسَةِ помещает последнее действие после школы. Перед солнечной буквой артикль меняется в произношении, как в السَّاعَةِ; написание и звучание не совпадают буквально. Синтезированная запись помогает практике, но не заменяет проверки произношения человеком."
+    },
+    "worked": {
+      "en": "To answer “When does the speaker wake up?”, select فِي السَّاعَةِ السَّابِعَةِ, not the later phrase بَعْدَ الْمَدْرَسَةِ. Match each detail to the correct verb rather than collecting every time expression.",
+      "ru": "На вопрос «Когда говорящий просыпается?» нужно فِي السَّاعَةِ السَّابِعَةِ, а не более позднее بَعْدَ الْمَدْرَسَةِ. Связывай каждое обстоятельство с нужным глаголом."
+    },
+    "misconception": {
+      "en": "Do not infer “seven in the morning” from this passage alone: morning is plausible, but the recorded words do not explicitly say صَبَاحًا.",
+      "ru": "Сам текст не уточняет «семь утра»: это правдоподобно, но слово صَبَاحًا в записи не произносится."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Arabic verb",
+          "ru": "Арабский глагол"
+        },
+        {
+          "en": "Meaning",
+          "ru": "Значение"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "أَسْتَيْقِظُ",
+            "ru": "أَسْتَيْقِظُ"
+          },
+          {
+            "en": "I wake up",
+            "ru": "Я просыпаюсь"
+          }
+        ],
+        [
+          {
+            "en": "أَذْهَبُ",
+            "ru": "أَذْهَبُ"
+          },
+          {
+            "en": "I go",
+            "ru": "Я иду"
+          }
+        ],
+        [
+          {
+            "en": "أَقْرَأُ",
+            "ru": "أَقْرَأُ"
+          },
+          {
+            "en": "I read",
+            "ru": "Я читаю"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Original listening vocabulary; read right to left.",
+        "ru": "Лексика авторской записи; читай справа налево."
+      }
+    },
+    "practice": [
+      {
+        "id": "a-routine-1",
+        "prompt": {
+          "en": "Listen without the transcript: when does the speaker wake up, and what happens after school?",
+          "ru": "Послушай без текста: когда говорящий просыпается и что делает после школы?"
+        },
+        "answer": {
+          "en": "At seven; reads a book after school. Evidence: فِي السَّاعَةِ السَّابِعَةِ and بَعْدَ الْمَدْرَسَةِ أَقْرَأُ كِتَابًا.",
+          "ru": "В семь; после школы читает книгу. Основания: فِي السَّاعَةِ السَّابِعَةِ и بَعْدَ الْمَدْرَسَةِ أَقْرَأُ كِتَابًا."
+        }
+      },
+      {
+        "id": "a-routine-2",
+        "prompt": {
+          "en": "Change only the waking time to eight o’clock; write the whole first sentence.",
+          "ru": "Измени только время подъёма на восемь часов; запиши первое предложение целиком."
+        },
+        "answer": {
+          "en": "أَسْتَيْقِظُ فِي السَّاعَةِ الثَّامِنَةِ. The time changes; the first-person verb stays the same.",
+          "ru": "أَسْتَيْقِظُ فِي السَّاعَةِ الثَّامِنَةِ. Меняется время, глагол первого лица остаётся прежним."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/arabic/learn",
+        "title": {
+          "en": "Existing daily-routine vocabulary",
+          "ru": "Имеющаяся лексика распорядка дня"
+        }
+      }
+    ],
+    "sources": [
+      "arabic-en",
+      "arabic-ru"
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 import { b, type Exercise, type Text } from './content';
 export type Paper = {id:string;title:Text;minutes:number;intro:Text;questions:Exercise[]};
-const PAPER_FORMULAS:Record<string,string[]> = {'bio-C':['rate']};
+const PAPER_FORMULAS:Record<string,string[]> = {'bio-C':['rate'],'chem-C':['rate']};
 const item=(id:string,criterion:string,en:string,ru:string,ae:string,ar:string):Exercise=>({id,criterion,marks:25,prompt:b(en,ru),answer:b(ae,ar),formulaIds:PAPER_FORMULAS[id]});
 export const papers:Paper[]=[{
  id:'biology',title:b('Biology · practice paper A–D','Биология · тренировочная работа A–D'),minutes:120,

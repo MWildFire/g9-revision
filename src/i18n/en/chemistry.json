@@ -1629,7 +1629,7 @@
       },
       "ionic": {
         "title": "Ionic equations",
-        "body": "A net ionic equation leaves out spectator ions, which are unchanged on both sides. Write strong dissolved electrolytes as ions; solids, gases and weak electrolytes stay as formulae. Check that the total charge is the same on both sides. For example, Ag⁺ (+1) and Cl⁻ (−1) together have a charge of 0, so the product AgCl is also neutral.\n\n**Half-equations at each electrode [H]**\n\nThe examples below use inert electrodes.\n\nIn electrolysis, the cathode is the negative electrode. Reduction is the gain of electrons, for example Cu²⁺(aq) + 2e⁻ → Cu(s).\n\nIn electrolysis, the anode is the positive electrode. Oxidation is the loss of electrons, for example 2Cl⁻(aq) → Cl₂(g) + 2e⁻ in a concentrated solution. In a melt, the same equation applies, with Cl⁻(l). For aqueous sodium chloride with carbon electrodes, a concentrated solution gives mainly chlorine at the anode; a very dilute solution gives mainly oxygen from water. Intermediate concentrations can give a mixture. The concentration and electrode material matter; this is not an absolute rule for every chloride solution.",
+        "body": "A net ionic equation leaves out spectator ions, which are unchanged on both sides. Write strong dissolved electrolytes as ions; solids, gases and weak electrolytes stay as formulae. Check that the total charge is the same on both sides. For example, Ag⁺ (+1) and Cl⁻ (−1) together have a charge of 0, so the product AgCl is also neutral.\n\n**Half-equations at each electrode [H]**\n\nThe examples below use inert electrodes.\n\nIn electrolysis, the cathode is the negative electrode. Reduction is the gain of electrons, for example Cu²⁺(aq) + 2e⁻ → Cu(s).\n\nIn electrolysis, the anode is the positive electrode. Oxidation is the loss of electrons, for example 2Cl⁻(aq) → Cl₂(g) + 2e⁻ in a concentrated solution. In a melt, the same equation applies, with Cl⁻(l). For aqueous sodium chloride with carbon electrodes, a concentrated solution gives mainly chlorine at the anode; a very dilute solution gives mainly oxygen from water. Intermediate concentrations can give a mixture. This is a qualitative school comparison, not a universal concentration threshold. Actual products also depend on current density, electrode material and electrode polarisation; concentration alone is insufficient to predict every chloride electrolysis.",
         "review": {
           "englishTerm": "Ionic equations",
           "russianTerm": "Ионные уравнения",
@@ -1643,6 +1643,12 @@
               "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
               "language": "en",
               "section": "4.2 Classifying Chemical Reactions: precipitation, acid–base and redox"
+            },
+            {
+              "title": "Кутырева и др. · Химия. Часть 2 · КФУ, 2022",
+              "url": "https://kpfu.ru/staff_files/F1820223825/Posobie_Khimiya_chast_2.pdf#page=92",
+              "language": "ru",
+              "section": "§2.3.3, с.92 и95: конкуренция выделения кислорода/хлора и влияние плотности тока. Фрагмент поддерживает оговорку об условиях, а не точную границу концентраций."
             }
           ]
         }

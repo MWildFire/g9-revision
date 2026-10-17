@@ -113,11 +113,12 @@ try{
    results.push({scenario:'print_answers_sources_and_restore',route:id,lang,passed:true});
   }
   // Exact shared follow-ups on the original lesson surface.
-  for(const route of ['/mocks/science-investigation','/november/b-transport','/november/c-rates','/chemistry/energy','/chemistry/acids-bases','/geography/resource-reliance','/geography/tourism','/french/units','/november/b-disease','/biology/immune']){
-   await page.goto(base+route);const expectedHeading=legacyHeading(route,lang);await page.getByRole('heading',{level:1,name:expectedHeading,exact:true}).waitFor();
+  for(const route of ['/mocks/science-investigation','/november/b-transport','/november/c-rates','/chemistry/energy','/chemistry/acids-bases','/geography/resource-reliance','/geography/rivers','/geography/tourism','/french/units','/november/b-disease','/biology/immune']){
+   await page.goto(base+route);const expectedHeading=legacyHeading(route,lang);await page.getByRole('heading',{level:1,name:expectedHeading,exact:true}).waitFor();assert.equal(await page.locator('style[data-g9-print-layout]').count(),0,'Grade9-only print settings must unmount before subject library');
    await page.locator('main details').evaluateAll(nodes=>nodes.forEach(n=>n.open=true));
    await settle(page);
    const text=await page.locator('#root').innerText();assert.ok(text.length>300);
+   if(route==='/geography/rivers'){assert.ok(text.includes('P = Q + ET'));assert.ok(await page.locator('a[href$="/grade9/g-river-cases"]').count()>0);}
    if(route==='/geography/resource-reliance')for(const id of ['g-indicators','g-aral-case'])assert.ok(await page.locator(`a[href$="/grade9/${id}"]`).count()>0);
    await page.screenshot({path:path.join(out,`legacy-${route.split('/').at(-1)}-${lang}.png`),fullPage:true});
    results.push({scenario:'legacy_followup_render',route,lang,expectedHeading,characters:text.length});

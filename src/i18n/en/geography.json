@@ -935,7 +935,7 @@
       },
       "drainageBasin": {
         "title": "Drainage basin",
-        "description": "A drainage basin (catchment) is the area that supplies water to a river through a common outlet. A drainage divide separates neighbouring basins. Some precipitation is intercepted by plants; the rest either soaks into the soil or runs over the surface. Water then reaches the river as throughflow, groundwater flow or surface runoff. Evaporation and transpiration return water to the atmosphere. Over a period with little storage change and no net external water input, runoff is therefore less than precipitation. During an individual dry period, however, river flow can continue from water stored earlier in soil, groundwater, lakes or snow."
+        "description": "A drainage basin (catchment) is the area that supplies water to a river through a common outlet. A drainage divide separates neighbouring basins. Some precipitation is intercepted by plants; the rest either soaks into the soil or runs over the surface. Water then reaches the river as throughflow, groundwater flow or surface runoff. Evaporation and transpiration return water to the atmosphere. For a basin with unchanged water storage and no net water transfer across its boundary except precipitation, runoff and evapotranspiration, the budget is P = Q + ET. Thus Q cannot exceed P; it is smaller when ET is positive. These totals must refer to the same area and time interval. During an individual dry period, however, river flow can continue from water stored earlier in soil, groundwater, lakes or snow."
       },
       "hydrograph": {
         "title": "Storm hydrograph",

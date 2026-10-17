@@ -20,6 +20,7 @@ export function Grade9Module(){
  const lesson=lessons.find(l=>l.id===lessonId); const selected=lessons.filter(l=>subject==='all'||l.subject===subject);
  const scope=(l:Lesson)=>l.scope==='school-g9'?(ru?'Темы школьного списка за 9 класс · авторские задания':'School G9 checklist topics · authored practice'):l.scope==='school-g10'?(ru?'Тема школьного списка за 10 класс · повторение основ и авторские задания':'School G10 checklist topic · G9 foundations and authored practice'):(ru?'Дополнительная практика · точный школьный перечень тем не подтверждён':'Supplemental practice · exact school scope unconfirmed');
  return <main className="g9-course max-w-6xl mx-auto px-4 md:px-6 py-9" lang={lang}>
+  <style media="print" data-g9-print-layout>{'@page { size: A4; margin: 12mm; }'}</style>
   <nav className="flex flex-wrap gap-4 mb-6 print:hidden"><Link to="/">← {ru?'Главная':'Hub'}</Link><Link to="/grade9">{ru?'Все предметы 9 класса':'All G9 subjects'}</Link><Link to="/revision-plan">{ru?'План без субботней нагрузки':'Plan with Saturdays protected'}</Link><button onClick={()=>window.print()}>{ru?'Печать':'Print'}</button></nav>
   <h1 className="text-3xl md:text-4xl mb-4">{lesson?lesson.title[lang]:ru?'9 класс · объясни, примени, проверь':'Grade 9 · explain, apply, check'}</h1>
   {storageError&&<p role="status">{ru?'Браузер не сохранил отметки. Не закрывай страницу до переноса нужных записей.':'The browser could not save your checks. Keep this page open until you have copied anything needed.'}</p>}

@@ -21,7 +21,7 @@
 /* Keep short explanations together and suppress a tail made only of spacing. */
 @media print{.g9-course{padding-bottom:0!important}.g9-course>article{padding-bottom:0;margin-bottom:0}.g9-course>article>:last-child{margin-bottom:0}.g9-course .g9-compact-block{break-inside:avoid}.g9-course .g9-practice-intro{break-after:avoid}.g9-course .g9-practice-intro+.g9-question{break-before:avoid}}
 
-@media print{@page g9-study{size:A4;margin:12mm}.g9-course{page:g9-study;padding:0!important}}
+@media print{.g9-course{page:auto;padding:0!important}}
 
 /* Print uses document flow; screen flex/scroll containers must not fragment panels. */
 @media print{

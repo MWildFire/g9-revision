@@ -73,6 +73,8 @@ export function RiversPage() {
         {t('rivers.sections.drainageBasin.description')}
       </p>
 
+      <DefinitionSupport review={geographyReviews.waterBudget} />
+
       <SectionHeading>{t('rivers.sections.hydrograph.title')}</SectionHeading>
       <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm mb-4">
         {t('rivers.sections.hydrograph.description')}

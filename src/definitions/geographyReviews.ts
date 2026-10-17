@@ -282,4 +282,27 @@ export const geographyReviews: Record<string, DefinitionReview> = {
       }
     ]
   }
+,
+  "waterBudget": {
+  "englishTerm": "Catchment water budget",
+  "russianTerm": "Водный баланс бассейна",
+  "contrast": {
+    "en": "Use one boundary, time interval and unit. With no net other transfers, P = Q + ET + ΔS: precipitation, runoff, evapotranspiration and storage increase. All may be volumes (m³) or equivalent depths over the same area (mm). For invented totals P = 10 mm, ET = 1 mm and ΔS = −2 mm, Q = 11 mm: water stored earlier supplies the extra runoff. If ΔS = 0, Q ≤ P, with Q < P only when ET > 0.",
+    "ru": "Сначала задай границы, время и общие единицы. Если прочих суммарных переносов нет, P = Q + ET + ΔS: осадки равны стоку, испарению с транспирацией и увеличению запаса. Можно считать объёмы в м³ или эквивалентный слой в мм над одной площадью. В придуманном примере P = 10 мм, ET = 1 мм, ΔS = −2 мм; тогда Q = 11 мм. Дополнительный сток поступил из прежнего запаса. При неизменном запасе Q ≤ P; строгое Q < P требует ET > 0."
+  },
+  "sources": [
+    {
+      "title": "Virginia Carter · USGS Water Supply Paper 2425",
+      "url": "https://water.usgs.gov/nwsum/WSP2425/hydrology.html",
+      "language": "en",
+      "section": "Hydrologic processes: Figure18 water-budget equation; Evapotranspiration section. The example is an authored reduction of the full budget."
+    },
+    {
+      "title": "В. А. Всеволожский · Основы гидрогеологии, 2-е изд., МГУ, 2007",
+      "url": "https://geol.msu.ru/sites/default/files/vsevolozhskiy_v_a_osnovy_gidrogeologii_compressed.pdf#page=24",
+      "language": "ru",
+      "section": "ISBN978-5-211-05403-5. Печатные с.23 и33 (PDF24 и34), уравнения1.1 и1.10: запас, дополнительные переносы и согласованные единицы. Учебное сокращение условий и числа — авторские."
+    }
+  ]
+}
 };

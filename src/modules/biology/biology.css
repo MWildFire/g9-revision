@@ -10,4 +10,10 @@
   .biology-library { page: biology-library; display: block; max-width: none; padding: 0; }
   .biology-library h2, .biology-library h3, .biology-library h4 { break-after: avoid; break-after: avoid-page; }
   .biology-library p { orphans: 3; widows: 3; }
+  /* Fit the circuit into its paper column instead of its screen minimum width. */
+  .biology-library section:has(.heart-diagram-layout) { break-inside: avoid-page; overflow: visible; }
+  .heart-diagram-layout { grid-template-columns: minmax(0, 1fr) 220px; break-inside: avoid; }
+  .heart-diagram-viewport { overflow: visible; }
+  .heart-diagram-viewport svg { min-width: 0 !important; max-width: 100% !important; width: 100%; height: auto; }
+  .heart-diagram-legend { min-width: 0; }
 }

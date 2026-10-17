@@ -50,8 +50,8 @@ export function HeartDiagram() {
   };
   return <SimulationPanel title={t('simulations.heartDiagram.title')} description={t('simulations.heartDiagram.description')}>
     <p className="text-sm text-text-secondary mb-3">{ru?'Схема движения крови: расположение сосудов, размеры камер и толщина их стенок условны. Левая сторона сердца показана справа.':'Blood-flow schematic: vessel positions, chamber sizes and wall thicknesses are not anatomical. The left side of the heart is shown on the right.'}</p>
-    <div className="grid grid-cols-1 md:grid-cols-[1fr_280px] gap-4 items-start">
-      <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.heartDiagram.title')}>
+    <div className="heart-diagram-layout grid grid-cols-1 md:grid-cols-[1fr_280px] gap-4 items-start">
+      <div className="heart-diagram-viewport definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.heartDiagram.title')}>
         <svg style={{minWidth:440,maxWidth:'none'}} role="group" aria-label={t('simulations.heartDiagram.title')} viewBox="0 0 440 480" className="w-full bg-bg-tertiary/30 rounded-md border border-border">
           <title>{t('simulations.heartDiagram.title')}</title><desc>{t('simulations.heartDiagram.description')}</desc>
           <defs>{[false,true].map(oxygenated=><marker key={String(oxygenated)} id={`${marker}-${oxygenated?'red':'blue'}`} viewBox="0 0 10 10" refX={9} refY={5} markerWidth={7} markerHeight={7} orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill={oxygenated?'#ad3838':'#537d9e'}/></marker>)}</defs>
@@ -63,8 +63,8 @@ export function HeartDiagram() {
           <text x={106} y={150} fontSize={12} fill="var(--color-text-secondary)">SL</text><text x={356} y={342} fontSize={12} fill="var(--color-text-secondary)">SL</text>
         </svg>
       </div>
-      <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm min-h-[200px]">
-        <div aria-live="polite">{active?<><p className="font-medium text-base mb-1">{label(active)}</p><p className="text-text-secondary">{t(`simulations.heartDiagram.${group(active)}.${active}.desc`)}</p></>:<p className="text-text-muted italic">{t('simulations.heartDiagram.hoverHint')}</p>}</div>
+      <div className="heart-diagram-legend bg-bg-tertiary/40 border border-border rounded-md p-4 text-sm min-h-[200px]">
+        <div aria-live="polite">{active?<><p className="font-medium text-base mb-1">{label(active)}</p><p className="text-text-secondary">{t(`simulations.heartDiagram.${group(active)}.${active}.desc`)}</p></>:<p className="text-text-muted italic print:hidden">{t('simulations.heartDiagram.hoverHint')}</p>}</div>
         <div className="mt-4 pt-3 border-t border-border space-y-2 text-xs text-text-muted">
           <p><strong>RA</strong> {label('ra')}, <strong>RV</strong> {label('rv')}</p>
           <p><strong>LA</strong> {label('la')}, <strong>LV</strong> {label('lv')}</p>

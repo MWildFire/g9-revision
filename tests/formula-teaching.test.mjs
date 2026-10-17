@@ -34,3 +34,20 @@ test('physics paper B keeps its English straight-region graph match',()=>{
  const question=papers.find(p=>p.id==='physics').questions.find(q=>q.id==='phy-B');
  assert.ok(findFormulaTeaching(question.answer.en,'physics').some(f=>f.id==='line'));
 });
+
+test('work units and detector count rates do not attach unrelated length or motion cards',()=>{
+ for(const text of ['1 J = 1 N·m','1 J = 1 N m','1 Дж = 1 Н·м','1 Дж = 1 Н м'])
+  assert.ok(!findFormulaTeaching(text,'physics').some(f=>f.id==='nanometre'),text);
+ for(const text of ['1 nm = 10⁻⁹ m','1\u00a0нм = 10⁻⁹ м','Radius: 0.10 nm','Размер: 11 нм'])
+  assert.ok(findFormulaTeaching(text,'physics').some(f=>f.id==='nanometre'),text);
+ const rate='Через 24 мин: скорость без фона = 960 / 16 = 60 имп/мин; полная скорость = 60 + 24 = 84 имп/мин.';
+ assert.ok(!findFormulaTeaching(rate,'physics').some(f=>f.id==='speed'));
+ assert.ok(findFormulaTeaching('speed = distance / time','physics').some(f=>f.id==='speed'));
+});
+
+test('Russian motion graph slopes and momentum retain their contextual guides',()=>{
+ assert.ok(findFormulaTeaching('Наклон графика пути от времени даёт скорость.','physics').some(f=>f.id==='line'));
+ assert.ok(!findFormulaTeaching('Угол наклона плоскости равен30°.','physics').some(f=>f.id==='line'));
+ assert.ok(!findFormulaTeaching('Градиент концентрации вызывает диффузию; наклон графика измерен.','biology').some(f=>f.id==='line'));
+ assert.ok(findFormulaTeaching('Импульс силы равен изменению импульса тела.','physics').some(f=>f.id==='momentum'));
+});

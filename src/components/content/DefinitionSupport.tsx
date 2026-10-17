@@ -63,7 +63,7 @@ function Labelled({ className, label, text }: { className: string; label: string
   return <div className={className}><strong>{label}</strong><RichText text={text} /></div>;
 }
 
-export function DefinitionSupport({ review, language }: { review?: DefinitionReview | null; language?: 'en' | 'ru' }) {
+export function DefinitionSupport({ review, language, formulaContext }: { review?: DefinitionReview | null; language?: 'en' | 'ru'; formulaContext?: string }) {
   const { i18n } = useTranslation();
   const lang = language ?? (i18n.language.startsWith('ru') ? 'ru' : 'en');
   const text = (value: DefinitionText | undefined) => value?.[lang] ?? '';
@@ -75,7 +75,7 @@ export function DefinitionSupport({ review, language }: { review?: DefinitionRev
     {review.explanation && <Block text={text(review.explanation)} />}
     {review.contrast && showContrast && <Labelled className="definition-contrast" label={ru ? 'Не путать:' : 'Distinguish:'} text={text(review.contrast)} />}
     {review.model && showModel && <Labelled className="definition-model" label={ru ? 'Область применения:' : 'Scope of the model:'} text={text(review.model)} />}
-    <FormulaTeaching text={[text(review.explanation),text(review.contrast),text(review.model)].join(' ')}/>
+    <FormulaTeaching text={formulaContext ?? [text(review.explanation),text(review.contrast),text(review.model)].join(' ')}/>
     {review.visual && <DefinitionDiagram visual={review.visual} language={lang}/>}
   </div>;
 }

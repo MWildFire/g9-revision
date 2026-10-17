@@ -40,6 +40,7 @@ export function MacbethPage() {
         <button className="border border-border rounded px-4 py-2" onClick={() => window.print()}>{ru ? 'Печать выбранного акта' : 'Print selected act'}</button>
       </nav>
       <h2 className="text-2xl my-5">{ru ? 'Акт' : 'Act'} {act}</h2>
+      <p className="text-sm text-text-secondary print:hidden">{ru ? 'Сначала напиши ответ на бумаге. Затем открой пример и проверь связь тезиса с доказательством; формулировку не нужно воспроизводить дословно.' : 'Write your response on paper first. Then check how the example connects its claim to evidence; you do not need to reproduce its wording.'}</p>
       {scenes.filter(scene => scene.act === act).map(scene => <section className="macbeth-scene border border-border rounded-lg p-4 md:p-6 my-6" key={scene.id} id={scene.id}>
         <h3 className="text-xl mb-3">{act}.{scene.scene} · {scene.title[lang]}</h3>
         <p className="mb-4">{scene.context[lang]}</p>
@@ -51,7 +52,6 @@ export function MacbethPage() {
         <div className="macbeth-task border-t border-border pt-4 mt-5">
           <h4 className="font-semibold">{ru ? 'Попробуй самостоятельно' : 'Try independently'}</h4>
           <p className="my-2">{scene.practice.prompt[lang]}</p>
-          <p className="text-sm text-text-secondary print:hidden">{ru ? 'Сначала напиши ответ на бумаге. Затем открой пример и проверь связь тезиса с доказательством; формулировку не нужно воспроизводить дословно.' : 'Write your response on paper first. Then check how the example connects its claim to evidence; you do not need to reproduce its wording.'}</p>
           <details className="mt-3"><summary>{ru ? 'Возможный ответ и объяснение' : 'Possible response and explanation'}</summary><p className="mt-3">{scene.practice.answer[lang]}</p></details>
           <div className="macbeth-print-answer hidden"><h4>{ru ? 'Возможный ответ' : 'Possible response'}</h4><p>{scene.practice.answer[lang]}</p></div>
         </div>

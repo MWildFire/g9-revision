@@ -43,3 +43,12 @@
  .g9-course .g9-model{break-inside:avoid}
  .g9-course [lang=ar]{font-size:14pt;line-height:1.9}
 }
+
+/* Long models may span pages; keep each caption and table row readable. */
+@media print{
+ .g9-course .g9-model,.g9-course .g9-table-scroll,.g9-course table{break-inside:auto}
+ .g9-course .g9-model-caption{break-inside:avoid;break-after:avoid;orphans:3;widows:3}
+ .g9-course thead{display:table-header-group}
+ .g9-course tr{break-inside:avoid}
+ .g9-course p{orphans:3;widows:3}
+}

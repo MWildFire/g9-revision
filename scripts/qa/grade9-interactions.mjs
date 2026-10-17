@@ -8,6 +8,15 @@ const [sha,outArg,portArg]=process.argv.slice(2);
 if(!sha||!outArg||!portArg)throw Error('Usage: grade9-interactions.mjs SHA OUT PORT');
 const out=path.resolve(outArg);fs.mkdirSync(out,{recursive:true});
 const lessons=JSON.parse(fs.readFileSync('src/modules/grade9/lessons.json','utf8'));
+const topics=JSON.parse(fs.readFileSync('src/data/revision-plan.json','utf8')).topics;
+const mocks=JSON.parse(fs.readFileSync('src/data/mocks.json','utf8')).lessons;
+function legacyHeading(route,lang){
+ if(route.startsWith('/november/'))return topics.find(t=>t.id===route.split('/').at(-1)).title[lang];
+ if(route.startsWith('/mocks/'))return mocks.find(t=>t.id===route.split('/').at(-1)).title[lang];
+ const [subject,key]=route.slice(1).split('/');
+ const keys={'acids-bases':'acidsBases','resource-reliance':'resourceReliance'};
+ return JSON.parse(fs.readFileSync(`src/i18n/${lang}/${subject}.json`,'utf8'))[keys[key]||key].title;
+}
 const {server,base,identity}=await startAuditServer({dist:path.resolve('dist'),sha,port:Number(portArg)});
 const browser=await chromium.launch();const results=[];const errors=[];let fatal;
 const save=()=>fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({identity,results,errors,fatal,pronunciation_listening:'not_claimed; independent listening remains required',at:new Date().toISOString()},null,2));
@@ -44,7 +53,7 @@ try{
   assert.ok(media.ended&&media.duration>2);results.push({scenario:'arabic_media_playback',lang,...media});
   // Print events open answers and source metadata and then restore collapsed state.
   for(const id of ['g-floods','g-indicators','g-aral-case','c-carbon','a-routine','c-conditions']){
-   await page.goto(base+'/grade9/'+id);await page.getByRole('heading',{level:1}).waitFor();await page.emulateMedia({media:'print'});
+   await page.goto(base+'/grade9/'+id);await page.getByRole('heading',{level:1,name:lessons.find(l=>l.id===id).title[lang],exact:true}).waitFor();await page.emulateMedia({media:'print'});
    await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));
    assert.equal(await page.locator('main details:not([open])').count(),0);
    await page.pdf({path:path.join(out,`${id}-${lang}.pdf`),format:'A4',printBackground:true});
@@ -54,12 +63,12 @@ try{
   }
   // Exact shared follow-ups on the original lesson surface.
   for(const route of ['/mocks/science-investigation','/november/b-transport','/november/c-rates','/chemistry/energy','/chemistry/acids-bases','/geography/resource-reliance']){
-   await page.goto(base+route);await page.locator('main').first().waitFor();await page.getByRole('heading',{level:1}).first().waitFor();
+   await page.goto(base+route);const expectedHeading=legacyHeading(route,lang);await page.getByRole('heading',{level:1,name:expectedHeading,exact:true}).waitFor();
    await page.locator('main details').evaluateAll(nodes=>nodes.forEach(n=>n.open=true));
    const text=await page.locator('main').first().innerText();assert.ok(text.length>300);
    if(route==='/geography/resource-reliance')for(const id of ['g-indicators','g-aral-case'])assert.ok(await page.locator(`a[href$="/grade9/${id}"]`).count()>0);
    await page.screenshot({path:path.join(out,`legacy-${route.split('/').at(-1)}-${lang}.png`),fullPage:true});
-   results.push({scenario:'legacy_followup_render',route,lang,characters:text.length});
+   results.push({scenario:'legacy_followup_render',route,lang,expectedHeading,characters:text.length});
   }
   await context.close();
  }

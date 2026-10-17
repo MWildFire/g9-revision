@@ -653,16 +653,28 @@
               },
               "sources": [
                 {
-                  "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
+                  "title": "OpenStax Biology 2e · 4.3 The Cytoplasm",
                   "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
                   "language": "en",
-                  "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+                  "section": "The Cytoplasm, opening two paragraphs: cytosol, organelles and reactions; excludes the nucleus. Supplemental textbook, not school-scope evidence."
                 },
                 {
-                  "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
+                  "title": "Biology for the IB Diploma 3e · Publisher answers (2023)",
+                  "url": "https://media.hachettelearning.com/media/medialibraries/hodder/answers-and-extras/biology/9781398364240/364240-ib-biology-3ed-saq-answers.pdf#page=40",
+                  "language": "en",
+                  "section": "C1.1 Q4: catalysis; Q18, final two sentences: intracellular enzymes and cytoplasmic glycolysis. The adjacent erroneous secretion-by-endocytosis wording is excluded."
+                },
+                {
+                  "title": "Фоксфорд · Цитоплазма",
                   "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
                   "language": "ru",
-                  "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+                  "section": "«Цитоплазма»: определение, цитозоль, абзацы о расположении реакций у про- и эукариот. Не используется обобщение, будто все реакции с нуклеиновыми кислотами происходят только в ядре."
+                },
+                {
+                  "title": "Фоксфорд · Ферменты",
+                  "url": "https://foxford.ru/wiki/himiya/fermenty",
+                  "language": "ru",
+                  "section": "Определение и первые поясняющие абзацы: катализ химических реакций, белковые ферменты и рибозимы. Устаревшая классификация только на шесть классов не используется."
                 }
               ]
             }
@@ -740,16 +752,28 @@
               },
               "sources": [
                 {
-                  "title": "OpenStax Biology 2e — 4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm",
-                  "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+                  "title": "Biology for the IB Diploma · Study and Revision Guide (2017), ISBN 9781471899706",
+                  "url": "https://media.hachettelearning.com/media/medialibraries/hodder/samples/biology/16-19/biology-for-the-ib-diploma/biology-for-the-ib-diploma-study-and-revision-guide-sample-pages-9781471899706.pdf#page=13",
                   "language": "en",
-                  "section": "4.3 Eukaryotic Cells: nucleus, organelles, cytoplasm"
+                  "section": "PDF p. 13, Table 1.3 Ribosomes: RNA/protein, no membrane and translation; PDF p. 15 comparison: ribosomes in both groups. No universal mitochondrial 70S claim."
                 },
                 {
-                  "title": "Фоксфорд Учебник — Строение клеток эукариот: цитоплазма, органеллы и ядро",
-                  "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
+                  "title": "Biology for the IB Diploma 3e · Publisher answers (2023)",
+                  "url": "https://media.hachettelearning.com/media/medialibraries/hodder/answers-and-extras/biology/9781398364240/364240-ib-biology-3ed-saq-answers.pdf#page=25",
+                  "language": "en",
+                  "section": "B2.2 Q5: mRNA, codon–anticodon matching and peptide-bond formation. The surrounding example concerns a membrane protein, not the destination of every protein."
+                },
+                {
+                  "title": "Фоксфорд · Трансляция: биосинтез белка",
+                  "url": "https://foxford.ru/wiki/biologiya/translyatsiya-biosintez-belka",
                   "language": "ru",
-                  "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+                  "section": "Вводное определение, первый абзац «Рибосомы» и шаги элонгации 1–2: рРНК и белок, отсутствие мембраны, мРНК и соединение аминокислот. Не используется утверждение, что каждая зрелая клетка обязательно продолжает трансляцию."
+                },
+                {
+                  "title": "Фоксфорд · Про- и эукариоты",
+                  "url": "https://foxford.ru/wiki/biologiya/obschie-printsipy-stroeniya-kletok-kletochnaya-teoriya-pro-i-eukarioty",
+                  "language": "ru",
+                  "section": "Абзац о рибосомах прокариот, сравнительная таблица и ответ о признаках обеих групп. Упрощения о всеобщей кольцевой ДНК, отсутствии цитоскелета и митохондриях каждой клетки не используются."
                 }
               ]
             }
@@ -802,16 +826,16 @@
                   "section": "Фотосинтез — питание растений: условия, вещества и энергия"
                 },
                 {
-                  "title": "Biology for the IB Diploma3e · Publisher answers (2023),C1.3",
+                  "title": "Biology for the IB Diploma 3e · Publisher answers (2023), C1.3",
                   "url": "https://media.hachettelearning.com/media/medialibraries/hodder/answers-and-extras/biology/9781398364240/364240-ib-biology-3ed-saq-answers.pdf",
                   "language": "en",
-                  "section": "C1.3,Q16,Q18 products,Q23: stroma enzymes,ATP/NADPH and carbohydrate synthesis. Incorrect stoma/absence-of-light wording inQ21a is excluded."
+                  "section": "C1.3, Q16, Q18 products,Q23: stroma enzymes, ATP/NADPH and carbohydrate synthesis. Incorrect stoma/absence-of-light wording in Q21a is excluded."
                 },
                 {
                   "title": "Фоксфорд · Фазы фотосинтеза",
                   "url": "https://externat.foxford.ru/polezno-znat/wiki-biologiya-fotosintez",
                   "language": "ru",
-                  "section": "«Что происходит в процессе фотосинтеза» и «Темновая фаза»: тилакоиды,АТФ/НАДФН,строма,синтез сахаров. Не утверждение, что светонезависимые реакции идут только ночью."
+                  "section": "«Что происходит в процессе фотосинтеза» и «Темновая фаза»: тилакоиды, АТФ/НАДФН, строма, синтез сахаров. Не утверждение, что светонезависимые реакции идут только ночью."
                 }
               ]
             }
@@ -1105,22 +1129,22 @@
               },
               "sources": [
                 {
-                  "title": "OpenStax Biology 2e — 5.2 Passive Transport: diffusion, facilitated transport, osmosis",
-                  "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+                  "title": "Biology for the IB Diploma · Study and Revision Guide (2017), ISBN 9781471899706",
+                  "url": "https://media.hachettelearning.com/media/medialibraries/hodder/samples/biology/16-19/biology-for-the-ib-diploma/biology-for-the-ib-diploma-study-and-revision-guide-sample-pages-9781471899706.pdf#page=21",
                   "language": "en",
-                  "section": "5.2 Passive Transport: diffusion, facilitated transport, osmosis"
+                  "section": "PDF pp. 21–22: passive transport definitions, thermal motion without ATP, and osmosis. Concentration shortcuts require the stated conditions; water potential is the general comparison. The table’s no-protein osmosis simplification is not used."
                 },
                 {
-                  "title": "OpenStax Biology 2e — 5.3 Active Transport: electrochemical gradients; primary and secondary transport",
-                  "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
-                  "language": "en",
-                  "section": "5.3 Active Transport: electrochemical gradients; primary and secondary transport"
-                },
-                {
-                  "title": "Фоксфорд Учебник — Осмос и осморегуляция: перенос воды через мембрану",
-                  "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
+                  "title": "Фоксфорд · Мембранный транспорт",
+                  "url": "https://foxford.ru/wiki/biologiya/transport-veschestv-cherez-membranu-endotsitoz-i-ekzotsitoz",
                   "language": "ru",
-                  "section": "Осмос и осморегуляция: перенос воды через мембрану"
+                  "section": "«Пассивный транспорт» и первое определение «Простая диффузия»: градиент и отсутствие прямых метаболических затрат. Это не отсутствие тепловой энергии; обобщение о неограниченной скорости не используется."
+                },
+                {
+                  "title": "Фоксфорд · Диффузия и броуновское движение",
+                  "url": "https://foxford.ru/wiki/fizika/diffuziya-i-brounovskoe-dvizhenie",
+                  "language": "ru",
+                  "section": "Вводные абзацы о непрерывном хаотическом тепловом движении частиц и диффузии."
                 }
               ]
             }
@@ -1142,28 +1166,28 @@
               },
               "sources": [
                 {
-                  "title": "OpenStax Biology 2e — 5.2 Passive Transport: diffusion, facilitated transport, osmosis",
-                  "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+                  "title": "Biology for the IB Diploma · Study and Revision Guide (2017), ISBN 9781471899706",
+                  "url": "https://media.hachettelearning.com/media/medialibraries/hodder/samples/biology/16-19/biology-for-the-ib-diploma/biology-for-the-ib-diploma-study-and-revision-guide-sample-pages-9781471899706.pdf#page=21",
                   "language": "en",
-                  "section": "5.2 Passive Transport: diffusion, facilitated transport, osmosis"
+                  "section": "PDF pp. 21–22: passive transport definitions, thermal motion without ATP, and osmosis. Concentration shortcuts require the stated conditions; water potential is the general comparison. The table’s no-protein osmosis simplification is not used."
                 },
                 {
-                  "title": "OpenStax Biology 2e — 5.3 Active Transport: electrochemical gradients; primary and secondary transport",
-                  "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
-                  "language": "en",
-                  "section": "5.3 Active Transport: electrochemical gradients; primary and secondary transport"
-                },
-                {
-                  "title": "Фоксфорд Учебник — Осмос и осморегуляция: перенос воды через мембрану",
-                  "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
-                  "language": "ru",
-                  "section": "Осмос и осморегуляция: перенос воды через мембрану"
-                },
-                {
-                  "title": "OpenStax Biology 2e — 30.5 Transport of Water and Solutes in Plants: water potential",
+                  "title": "OpenStax Biology 2e · 30.5 Water potential",
                   "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
                   "language": "en",
-                  "section": "30.5 Transport of Water and Solutes in Plants: water potential"
+                  "section": "Water Potential: reference zero and components; Solute Potential: solute lowers the contribution; Pressure Potential: compression raises it, tension lowers it. Pressure units mean energy per volume. Supplemental textbook, not a school checklist."
+                },
+                {
+                  "title": "Эржапова Р. С., Эржапова Р. С. · Водный режим растений (ЧГУ, 2015)",
+                  "url": "https://ucomplex.org/files/books/2568/publication.pdf#page=43",
+                  "language": "ru",
+                  "section": "С. 38 и 43: разность химических потенциалов на мольный объём, единицы давления и вклад растворённого вещества; с. 44: повышение потенциала при сжатии и сумма двух вкладов. Обобщение «потенциал давления всегда положителен» не используется. Это самостоятельное русское пособие; школьный перечень оно не устанавливает."
+                },
+                {
+                  "title": "Фоксфорд · Осмос и осморегуляция",
+                  "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
+                  "language": "ru",
+                  "section": "«Механизм осмоса»: заданная искусственная мембрана и неодинаковые встречные потоки; «Изо-, гипо- и гипертонические растворы»: поступление воды, набухание и возможный разрыв клетки без стенки. Не используются формулировки об одностороннем движении молекул, полном прекращении движения при изотонии и поглощении растворённых веществ осмосом."
                 }
               ]
             }
@@ -1238,7 +1262,7 @@
           },
           "osmosisPractical": {
             "name": "Practical: osmosis",
-            "rule": "Identical potato cylinders are put into sucrose solutions of different concentrations, each for the same time (for example 30 minutes). The sucrose concentration is the independent variable. The change in mass (or length) of each cylinder is the dependent variable.\n\nIn dilute solutions water enters the cells by osmosis, so the cylinder gains mass. In concentrated solutions water leaves the cells, so the cylinder loses mass.",
+            "rule": "Identical potato cylinders are put into sucrose solutions of different concentrations, each for the same time (for example 30 minutes). The sucrose concentration is the independent variable. The change in mass (or length) of each cylinder is the dependent variable.\n\nWhen the external solution has higher water potential than the tissue, water enters by osmosis and the cylinder can gain mass. A lower external water potential causes net water loss and can reduce its mass. “Dilute” or “concentrated” must be relative to the tissue under the same temperature and pressure; the concentration label alone does not establish the direction.",
             "examples": [
               "In pure water the mass of a cylinder rises from 4.00 g to 4.40 g: % change = (4.40 g − 4.00 g) ÷ 4.00 g × 100 = +10 %. In 1.0 mol/dm³ sucrose the mass falls from 4.00 g to 3.60 g: % change = (3.60 g − 4.00 g) ÷ 4.00 g × 100 = −10 %.",
               "Plot percentage change in mass against sucrose concentration. Where the curve crosses zero change, there is no net gain or loss of water. Use this point to estimate the solution concentration with the same water potential as the potato tissue; it depends on the tissue and conditions."
@@ -1250,7 +1274,27 @@
               "contrast": {
                 "en": "Water potential describes the tendency of water to move. Pure water at the reference pressure has water potential zero. At the same pressure and temperature, dissolved solutes lower it; pressure also affects water potential.",
                 "ru": "Водный потенциал характеризует способность воды перемещаться. У чистой воды при принятом за отсчёт давлении водный потенциал равен нулю. При одинаковых давлении и температуре растворённые вещества его снижают; давление тоже влияет на водный потенциал."
-              }
+              },
+              "sources": [
+                {
+                  "title": "OpenStax Biology 2e · 30.5 Water potential",
+                  "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+                  "language": "en",
+                  "section": "Water Potential: reference zero and components; Solute Potential: solute lowers the contribution; Pressure Potential: compression raises it, tension lowers it. Pressure units mean energy per volume. Supplemental textbook, not a school checklist."
+                },
+                {
+                  "title": "Эржапова Р. С., Эржапова Р. С. · Водный режим растений (ЧГУ, 2015)",
+                  "url": "https://ucomplex.org/files/books/2568/publication.pdf#page=43",
+                  "language": "ru",
+                  "section": "С. 38 и 43: разность химических потенциалов на мольный объём, единицы давления и вклад растворённого вещества; с. 44: повышение потенциала при сжатии и сумма двух вкладов. Обобщение «потенциал давления всегда положителен» не используется. Это самостоятельное русское пособие; школьный перечень оно не устанавливает."
+                },
+                {
+                  "title": "КФУ · Практикум по физиологии растений (2025)",
+                  "url": "https://kpfu.ru/portal/docs/F329038057/Metodichka._novaya_.pdf#page=16",
+                  "language": "ru",
+                  "section": "С. 16–18: направление по водному потенциалу и подбор внешнего раствора без изменения концентрации. Это контекст метода равновесия; числа картофельного примера и перевод в процентное изменение авторские. Ошибочное сочетание единиц в формуле RTci не используется."
+                }
+              ]
             }
           }
         }

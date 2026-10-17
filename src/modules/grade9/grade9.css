@@ -23,7 +23,7 @@
 @media print{body:has(.g9-course){background:white!important;color:#111!important}body:has(.g9-course) #root>div>header,body:has(.g9-course) #root>div>footer{display:none}.g9-course{color:#111!important;background:white!important;max-width:none}.g9-course section{padding:.7rem;border-color:#777}.g9-course h2,.g9-course h3{break-after:avoid}.g9-course tr,.g9-course figure,.g9-course table,.g9-course .g9-question,.g9-course .g9-sources{break-inside:avoid}.g9-course details:not([open])>p,.g9-course details:not([open])>ul{display:block}.g9-course textarea{display:none}.g9-course .g9-sources{font-size:9pt}.g9-course nav{display:none!important}}
 
 /* Keep short explanations together and suppress a tail made only of spacing. */
-@media print{.g9-course{padding-bottom:0!important}.g9-course>article{padding-bottom:0;margin-bottom:0}.g9-course>article>:last-child{margin-bottom:0}.g9-course .g9-compact-block{break-inside:avoid}.g9-course .g9-practice-intro{break-after:avoid}.g9-course .g9-practice-intro+.g9-question{break-before:avoid}}
+@media print{.g9-course{padding-bottom:0!important}.g9-course>article{padding-bottom:0;margin-bottom:0}.g9-course>article>:last-child{margin-bottom:0}.g9-course .g9-compact-block{break-inside:avoid}.g9-course .g9-practice-intro{break-inside:avoid;break-after:avoid}.g9-course .g9-practice-intro+.g9-question{break-before:avoid}}
 
 @media print{.g9-course{page:auto;padding:0!important}}
 

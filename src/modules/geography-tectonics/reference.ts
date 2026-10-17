@@ -60,6 +60,10 @@ export const glossary = [
 
 const source = (id:string,title:string,url:string,en:string,ru:string):Source => ({id,title,url,purpose:b(en,ru)});
 export const sources:Source[] = [
+  source('gsl-crust','Geological Society · Chemical composition: crust and mantle','https://www.geolsoc.org.uk/Plate-Tectonics/Chap2-What-is-a-Plate/Chemical-composition-crust-and-mantle.html','Teaching reference: oceanic crust about 7 km; continental crust about 35 km. Regional thickness varies.','Учебные ориентиры: около 7 км для океанической коры, около 35 км для континентальной; реальная толщина меняется по районам.'),
+  source('kfu-ocean','КФУ · Геотектоника · 2.1.2 Океанская кора','https://edu.kpfu.ru/kek/geotektonika/2_1_2.php','Original Russian university explanation: typical thickness 6–7 km, basaltic ridge formation and recycling.','Самостоятельное университетское объяснение: типичная толщина 6–7 км, образование базальтовой коры у хребтов и её переработка.'),
+  source('kfu-crust','КФУ · Геотектоника · 2.1.1–2.1.2','https://edu.kpfu.ru/kek/geotektonika/2_1_1.php','Independent Russian geology explanation; section 2.1.1 regional continental thickness and 2.1.2 oceanic crust.','Самостоятельное русское объяснение: раздел 2.1.1 о неодинаковой толщине континентальной коры; 2.1.2 об океанической коре.'),
+
   source('earth-usgs','USGS Inside the Earth','https://pubs.usgs.gov/gip/dynamic/inside.html','Earth layers and physical properties.','Слои Земли и физические свойства.'),
   source('plates-usgs','USGS Understanding plate motions','https://pubs.usgs.gov/gip/dynamic/understanding.html','Boundary types and global examples.','Границы плит и примеры.'),
   source('earthquakes-usgs','USGS The science of earthquakes','https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes','Rupture, focus, epicentre and seismic waves.','Разрыв, очаг, эпицентр и сейсмические волны.'),

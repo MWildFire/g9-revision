@@ -280,7 +280,7 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     ],
     "model": {
       "en": "The sensory image “A sharp lemon scent filled the room” appeals to smell and may make the room feel fresh and clean. This helps the reader picture the setting at once and can create a lively mood.",
-      "ru": "Образ «резкий запах лимона наполнил комнату» обращается к обонянию и может сделать комнату свежей и чистой. Это помогает читателю сразу представить обстановку и может создавать бодрящее настроение."
+      "ru": "Образ «резкий запах лимона наполнил комнату» обращается к обонянию и может создавать у читателя впечатление свежести и чистоты. Он помогает представить обстановку и в данном контексте может задавать бодрящее настроение."
     }
   },
   "devices.onomatopoeia": {

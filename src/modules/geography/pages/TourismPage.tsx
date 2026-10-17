@@ -33,6 +33,7 @@ export function TourismPage() {
       </div>
 
       <Link className="block p-4 border border-border rounded-md text-accent" to="/grade9/g-baikal-tourism">{l('Lake Baikal: dated evidence, tourism and wastewater evaluation →', 'Байкал: датированные данные, туризм и оценка стоков →')}</Link>
+      <Link className="block p-4 border border-border rounded-md text-accent my-3" to="/grade9/g-jamaica-tourism">{l('Jamaica 2024–2025: mass tourism, Negril water and explained practice →', 'Ямайка 2024–2025: массовый туризм, вода в Негриле и задания с разбором →')}</Link>
 
       <SectionHeading>{t('tourism.sections.butler.title')}</SectionHeading>
       <ButlerModel />

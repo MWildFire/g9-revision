@@ -1840,6 +1840,14 @@
         {
           "kind": "tsx",
           "file": "src/modules/biology/pages/ImmunePage.tsx"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/sourcePassages.ts",
+          "export": "sourcePassages",
+          "keys": [
+            "b-disease"
+          ]
         }
       ]
     },
@@ -3568,6 +3576,10 @@
         {
           "kind": "tsx",
           "file": "src/modules/french/pages/PhrasesPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/french/pages/UnitsPage.tsx"
         }
       ]
     },
@@ -3749,7 +3761,11 @@
         "/grade9/g-aral-case",
         "/grade9/c-carbon",
         "/grade9/g-climate-evidence",
-        "/grade9/g-baikal-tourism"
+        "/grade9/g-baikal-tourism",
+        "/grade9/f-solidarity-profile",
+        "/grade9/f-france-education",
+        "/grade9/f-school-journeys",
+        "/grade9/g-jamaica-tourism"
       ],
       "units": [
         {

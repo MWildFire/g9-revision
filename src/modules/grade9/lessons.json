@@ -1199,6 +1199,13 @@
           "en": "Lake Baikal: a dated, sourced case",
           "ru": "Байкал: датированный кейс с источниками"
         }
+      },
+      {
+        "route": "/grade9/g-jamaica-tourism",
+        "title": {
+          "en": "Named mass-tourism case: Jamaica2024–2025",
+          "ru": "Именованный кейс массового туризма: Ямайка2024–2025"
+        }
       }
     ],
     "sources": [
@@ -3738,6 +3745,685 @@
       "baikal-unesco-2025",
       "baikal-study-2024",
       "baikal-expedition-ru-2024"
+    ]
+  },
+  {
+    "id": "f-solidarity-profile",
+    "subject": "french",
+    "scope": "school-g9",
+    "title": {
+      "en": "Solidarity, communities and the ten learner qualities",
+      "ru": "Солидарность, сообщества и десять качеств ученика"
+    },
+    "objective": {
+      "en": "Explain the ten IB attributes through actions; distinguish communities and justify a service proposal.",
+      "ru": "Объясни десять качеств IB через поступки; различай сообщества и обоснуй проект помощи."
+    },
+    "prerequisites": {
+      "en": "Present tense; parce que, mais and donc; expressing an opinion.",
+      "ru": "Présent; parce que, mais и donc; выражение мнения."
+    },
+    "explanation": {
+      "en": "Solidarity (la solidarité) means recognising a connection with others and supporting them through action. Saying “Je suis solidaire” needs an example: who needs what, how you know and what you propose. A community (une communauté) can be linked by place, shared interests, an institution or shared commitments. These categories can overlap: a school gardening group belongs to a school and shares an interest. This is a useful descriptive framework, not the school’s unspecified “four types of solidarity”. The archived Grade 9 Capable checklist names four types without giving their names or teaching notes; obtain that exact classroom classification before memorising a four-item answer.\n\nThe ten learner qualities below are the official IB framework, with French labels from its 2022 poster. The action sentences are original language practice, not official definitions to recite. A quality is better demonstrated by a justified action than by a flattering self-label. For a service project, ask participants about their needs, agree a feasible activity and check its outcome. An NGO (une organisation non gouvernementale) works outside government; an international name alone does not establish what a local branch needs. Check a specific organisation’s current mission and consent before proposing support. A useful proposal identifies beneficiaries, partners, roles, resources, safety and an observable outcome. Counting collected items measures activity; asking whether the agreed need was met measures usefulness.",
+      "ru": "Солидарность (la solidarité) проявляется в осознанной поддержке других людей. После «Je suis solidaire» объясни: кому нужна помощь, откуда ты это знаешь и что предлагаешь сделать. Сообщество (une communauté) может объединять людей по месту жизни, интересу, принадлежности к организации или общим убеждениям. Эти основания пересекаются: школьный садовый кружок связан и со школой, и с интересом. Это рабочий способ описания сообществ, а не неизвестные «четыре типа солидарности» из школьного списка. В архивном G9 Capable названы четыре типа, но нет их названий и объяснений. Для точного ответа из четырёх пунктов нужны именно материалы урока.\n\nВ таблице — десять качеств официального профиля IB с французскими названиями плаката 2022 года. Французские предложения придуманы для тренировки; заучивать их как официальные определения не нужно. Качество убедительнее видно в обоснованном поступке, чем в комплименте самому себе. Начни проект помощи с разговора с участниками: что им нужно, какая помощь осуществима и как проверить пользу. ONG — неправительственная организация. Известное международное название не сообщает автоматически о потребностях местного отделения: проверь его задачи и согласуй помощь. В плане укажи получателей, партнёров, роли, ресурсы, безопасность и проверяемый результат. Число собранных вещей показывает объём работы; ответ на вопрос, решена ли согласованная проблема, — её пользу."
+    },
+    "worked": {
+      "en": "Original proposal: “Notre communauté scolaire veut aider une bibliothèque de quartier. D’abord, nous demanderons quels livres sont utiles. Ensuite, nous organiserons une collecte avec son accord. Je serai responsable du tri. Après la livraison, nous vérifierons si les livres répondent aux besoins.” Research appears in asking; caring in respecting needs; integrity in reporting the actual delivery; reflection in checking the result. The future forms demand-erons, organiser-ons and vérifier-ons mark plans, not completed actions.",
+      "ru": "Авторский образец предлагает школьному сообществу помочь районной библиотеке: сначала узнать, какие книги нужны, затем согласовать сбор, распределить сортировку и после передачи проверить результат. Исследовательский подход — выяснить потребность; забота — уважить её; честность — сообщить, что действительно передано; рефлексия — оценить пользу. Формы demanderons, organiserons, vérifierons обозначают будущий план, а не выполненную помощь."
+    },
+    "misconception": {
+      "en": "An international NGO and a local community are not opposites. A local group may work with an international organisation. Ten IB attributes are not ten personality rankings.",
+      "ru": "Местное сообщество может сотрудничать с международной ONG. Десять качеств IB — ориентиры для действий, а не рейтинг личностей."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "French / English quality",
+          "ru": "Качество по-французски / по-английски"
+        },
+        {
+          "en": "Meaning",
+          "ru": "Смысл"
+        },
+        {
+          "en": "Original French action",
+          "ru": "Авторский пример действия"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Esprit de recherche / Inquirers",
+            "ru": "Esprit de recherche / Inquirers"
+          },
+          {
+            "en": "Investigate: ask a question, then seek evidence.",
+            "ru": "Исследуй: за вопросом должен следовать поиск свидетельств."
+          },
+          {
+            "en": "Je vérifie la source avant de partager cette information.",
+            "ru": "Je vérifie la source avant de partager cette information."
+          }
+        ],
+        [
+          {
+            "en": "Connaissance / Knowledgeable",
+            "ru": "Connaissance / Knowledgeable"
+          },
+          {
+            "en": "Connect understanding across topics.",
+            "ru": "Соединяй знания разных тем, а не только запоминай слова."
+          },
+          {
+            "en": "Je relie la pollution de la rivière à notre projet de quartier.",
+            "ru": "Je relie la pollution de la rivière à notre projet de quartier."
+          }
+        ],
+        [
+          {
+            "en": "Raisonnement / Thinkers",
+            "ru": "Raisonnement / Thinkers"
+          },
+          {
+            "en": "Weigh reasons and consequences.",
+            "ru": "Сопоставляй доводы и последствия решений."
+          },
+          {
+            "en": "Je compare deux solutions avant de choisir.",
+            "ru": "Je compare deux solutions avant de choisir."
+          }
+        ],
+        [
+          {
+            "en": "Communication / Communicators",
+            "ru": "Communication / Communicators"
+          },
+          {
+            "en": "Express ideas and listen to other perspectives.",
+            "ru": "Объясняй свою мысль и выслушивай собеседника."
+          },
+          {
+            "en": "Je reformule son avis pour vérifier que je l’ai compris.",
+            "ru": "Je reformule son avis pour vérifier que je l’ai compris."
+          }
+        ],
+        [
+          {
+            "en": "Intégrité / Principled",
+            "ru": "Intégrité / Principled"
+          },
+          {
+            "en": "Act honestly and accept responsibility.",
+            "ru": "Действуй честно и отвечай за свои поступки."
+          },
+          {
+            "en": "Je cite mon partenaire au lieu de présenter son idée comme la mienne.",
+            "ru": "Je cite mon partenaire au lieu de présenter son idée comme la mienne."
+          }
+        ],
+        [
+          {
+            "en": "Ouverture d’esprit / Open-minded",
+            "ru": "Ouverture d’esprit / Open-minded"
+          },
+          {
+            "en": "Consider perspectives beyond your own.",
+            "ru": "Рассматривай чужой опыт и готовность пересмотреть своё мнение."
+          },
+          {
+            "en": "J’écoute une proposition différente de la mienne.",
+            "ru": "J’écoute une proposition différente de la mienne."
+          }
+        ],
+        [
+          {
+            "en": "Altruisme / Caring",
+            "ru": "Altruisme / Caring"
+          },
+          {
+            "en": "Care about others and act respectfully.",
+            "ru": "Замечай нужды других и помогай с уважением к человеку."
+          },
+          {
+            "en": "Je demande quelle aide serait vraiment utile.",
+            "ru": "Je demande quelle aide serait vraiment utile."
+          }
+        ],
+        [
+          {
+            "en": "Audace / Risk-takers",
+            "ru": "Audace / Risk-takers"
+          },
+          {
+            "en": "Meet uncertainty thoughtfully, not recklessly.",
+            "ru": "Пробуй незнакомое обдуманно: смелость не равна безрассудству."
+          },
+          {
+            "en": "Je prends la parole en français après avoir préparé mes arguments.",
+            "ru": "Je prends la parole en français après avoir préparé mes arguments."
+          }
+        ],
+        [
+          {
+            "en": "Équilibre / Balanced",
+            "ru": "Équilibre / Balanced"
+          },
+          {
+            "en": "Attend to intellectual, physical and emotional life.",
+            "ru": "Учитывай учёбу, физическое состояние и эмоции."
+          },
+          {
+            "en": "Je prévois du repos après notre activité.",
+            "ru": "Je prévois du repos après notre activité."
+          }
+        ],
+        [
+          {
+            "en": "Réflexion / Reflective",
+            "ru": "Réflexion / Reflective"
+          },
+          {
+            "en": "Review strengths, difficulties and next steps.",
+            "ru": "Разбирай, что получилось, что мешало и что изменить дальше."
+          },
+          {
+            "en": "Je note ce qui a fonctionné et ce que je changerai.",
+            "ru": "Je note ce qui a fonctionné et ce que je changerai."
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Ten attributes; examples show observable actions. Descriptive community categories may overlap.",
+        "ru": "Десять качеств с примерами наблюдаемых действий. Основания объединения в сообщество могут пересекаться."
+      }
+    },
+    "practice": [
+      {
+        "id": "f-solidarity-profile-1",
+        "prompt": {
+          "en": "A pupil says: “Je suis altruiste, donc je décide seul de ce dont les autres ont besoin.” Explain the problem and improve the sentence.",
+          "ru": "Ученик говорит: «Je suis altruiste, donc je décide seul de ce dont les autres ont besoin». Объясни ошибку и исправь фразу."
+        },
+        "answer": {
+          "en": "Caring requires respecting others rather than deciding their needs for them. “Je demande aux participants quelle aide leur serait utile, puis nous décidons ensemble.” Asking and joint decisions make the claim observable.",
+          "ru": "Забота не даёт права решать за других. «Je demande aux participants quelle aide leur serait utile, puis nous décidons ensemble». Вопрос и совместное решение показывают уважение к участникам."
+        }
+      },
+      {
+        "id": "f-solidarity-profile-2",
+        "prompt": {
+          "en": "A school chess club meets in a neighbourhood library. Give two community links and say why there is no contradiction.",
+          "ru": "Школьный шахматный клуб встречается в районной библиотеке. Назови две связи сообщества и объясни, почему они совместимы."
+        },
+        "answer": {
+          "en": "“C’est une communauté scolaire qui partage un intérêt pour les échecs; elle participe aussi à la vie du quartier.” Institutional, interest and place links can coexist; the categories are not mutually exclusive.",
+          "ru": "«C’est une communauté scolaire qui partage un intérêt pour les échecs; elle participe aussi à la vie du quartier». Школа, общий интерес и район — совместимые основания объединения."
+        }
+      },
+      {
+        "id": "f-solidarity-profile-3",
+        "prompt": {
+          "en": "Write three French sentences: one proposed action, its reason and a way to check its usefulness. Identify two learner qualities.",
+          "ru": "Напиши три предложения по-французски: действие, его основание и проверка пользы. Назови два качества ученика."
+        },
+        "answer": {
+          "en": "One possible answer: “Nous demanderons quels livres manquent. Nous le ferons parce qu’une collecte inutile gaspillerait des ressources. Après la livraison, nous demanderons si les lecteurs utilisent ces livres.” Esprit de recherche gathers evidence; réflexion checks the result. Other justified proposals are possible.",
+          "ru": "Возможный ответ: «Nous demanderons quels livres manquent. Nous le ferons parce qu’une collecte inutile gaspillerait des ressources. Après la livraison, nous demanderons si les lecteurs utilisent ces livres». Esprit de recherche проявляется в сборе сведений, réflexion — в оценке результата. Допустимы другие обоснованные варианты."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/french/units",
+        "title": {
+          "en": "Archived school themes",
+          "ru": "Архивные школьные темы"
+        }
+      },
+      {
+        "route": "/french/grammar",
+        "title": {
+          "en": "Conditional forms",
+          "ru": "Условные формы"
+        }
+      }
+    ],
+    "sources": [
+      "f-profile-fr",
+      "f-profile-en",
+      "f-profile-ru"
+    ]
+  },
+  {
+    "id": "f-france-education",
+    "subject": "french",
+    "scope": "school-g9",
+    "title": {
+      "en": "French schools and a school of the future",
+      "ru": "Школа во Франции и школа будущего"
+    },
+    "objective": {
+      "en": "Explain the main school stages; compare a school day and justify a future-school proposal in French.",
+      "ru": "Объясни основные школьные ступени; сравни учебный день и обоснуй по-французски идею школы будущего."
+    },
+    "prerequisites": {
+      "en": "School vocabulary; present and future forms; si + imparfait, conditional.",
+      "ru": "Школьная лексика; présent и будущее; si + imparfait, conditionnel."
+    },
+    "explanation": {
+      "en": "The French Ministry’s December 2025 structure distinguishes école maternelle (typically ages 3–6), école élémentaire (6–11), collège (11–15) and lycée (usually 15–18). These are reference ages, not a rule that every pupil follows an identical timetable. Collège is lower secondary school, not an English-language college. Its class names count down: sixième, cinquième, quatrième, troisième. The general/technological lycée sequence is seconde, première, terminale. Baccalauréat (le bac) is a secondary-school qualification, not a university bachelor’s degree. General, technological and vocational routes differ; a CAP vocational route can last two years, so the three-year lycée model is not universal.\n\nDescribe a typical day using time expressions and reflexive verbs: “Je me lève à sept heures; les cours commencent à huit heures; après les cours, je fais mes devoirs.” This is a model personal routine, not an official timetable for all French or francophone schools. Compare with plus…que, moins…que or aussi…que and name what is being compared. For a future school, connect an improvement to a need and a constraint: “Il y aura une salle calme pour travailler, mais il faudra limiter le bruit.” Future simple expresses a projected situation; si + imparfait then conditional expresses an imagined condition: “Si nous avions plus d’espace, nous créerions un jardin.” Neither sentence proves that a project will be built.",
+      "ru": "Схема французского министерства за декабрь 2025 года различает école maternelle — обычно 3–6 лет, école élémentaire — 6–11, collège — 11–15 и lycée — обычно 15–18. Это ориентиры, а не одинаковый жизненный маршрут каждого ребёнка. Collège здесь — средняя школа первой ступени, а не российский колледж профессионального образования. Классы идут в обратном порядке: sixième, cinquième, quatrième, troisième. В общем и технологическом лицее далее seconde, première, terminale. Baccalauréat, или bac, — школьная квалификация, не университетский бакалавриат. Общий, технологический и профессиональный пути различаются; например, подготовка CAP может занимать два года. Поэтому нельзя всем приписывать один трёхлетний маршрут.\n\nДля личного распорядка нужны время и действия: «Je me lève à sept heures; les cours commencent à huit heures; après les cours, je fais mes devoirs». Это образец рассказа, а не официальное расписание всех школ Франции или франкоязычного мира. В сравнении plus…que, moins…que, aussi…que уточняй признак. Для школы будущего связывай улучшение с потребностью и ограничением: «Il y aura une salle calme pour travailler, mais il faudra limiter le bruit». Futur simple описывает предполагаемое будущее. Условие si + imparfait с результатом в conditionnel задаёт воображаемую ситуацию: «Si nous avions plus d’espace, nous créerions un jardin». Фраза о будущем или условии ещё не подтверждает строительство."
+    },
+    "worked": {
+      "en": "Original comparison: “Dans mon exemple, les cours commencent à huit heures, comme dans l’emploi du temps de Léa. Cependant, sa pause est plus longue que la mienne. Si notre pause était plus longue, je lirais à la bibliothèque. Il faudrait pourtant garder assez de temps pour les cours.” The first comparison names a feature and two routines; the conditional proposal recognises a trade-off. Léa and her timetable are invented for practice.",
+      "ru": "Авторский пример сравнивает два расписания: начало в восемь одинаково, но перемена Леи длиннее. Затем «Si notre pause était plus longue, je lirais à la bibliothèque» предлагает условное изменение, а «Il faudrait pourtant garder assez de temps pour les cours» учитывает ограничение. Лея и её расписание придуманы для упражнения."
+    },
+    "misconception": {
+      "en": "French-speaking does not mean located in France. A school in another francophone setting may use different class names, qualifications and routines.",
+      "ru": "Франкоязычная школа не обязательно находится во Франции: названия классов, квалификации и распорядок могут отличаться."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Stage / reference ages",
+          "ru": "Ступень / типичные возрасты"
+        },
+        {
+          "en": "Names and distinction",
+          "ru": "Названия и различие"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Primary:3–11",
+            "ru": "Начальная ступень:3–11"
+          },
+          {
+            "en": "Maternelle, then élémentaire",
+            "ru": "Maternelle, затем élémentaire"
+          }
+        ],
+        [
+          {
+            "en": "Collège:11–15",
+            "ru": "Collège:11–15"
+          },
+          {
+            "en": "Sixième → cinquième → quatrième → troisième",
+            "ru": "Sixième → cinquième → quatrième → troisième"
+          }
+        ],
+        [
+          {
+            "en": "Lycée:usually 15–18",
+            "ru": "Lycée:обычно 15–18"
+          },
+          {
+            "en": "Seconde → première → terminale in general/technological routes; vocational pathways vary.",
+            "ru": "Seconde → première → terminale в общем/технологическом маршруте; профессиональные пути различаются."
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Reference structure from the Ministry, December 2025; not a current school timetable or an admission guarantee.",
+        "ru": "Ориентировочная структура министерства, декабрь 2025; не сегодняшнее расписание и не гарантия поступления."
+      }
+    },
+    "practice": [
+      {
+        "id": "f-france-education-1",
+        "prompt": {
+          "en": "Put in sequence after école élémentaire: première, troisième, sixième, terminale, cinquième, seconde, quatrième. Which comes immediately before lycée?",
+          "ru": "Расположи после école élémentaire: première, troisième, sixième, terminale, cinquième, seconde, quatrième. Что непосредственно перед lycée?"
+        },
+        "answer": {
+          "en": "Sixième, cinquième, quatrième, troisième; then seconde, première, terminale in the stated lycée route. Troisième is the last collège class. The decreasing numbers refer to class names, not pupils getting younger.",
+          "ru": "Sixième, cinquième, quatrième, troisième; затем seconde, première, terminale в указанном маршруте лицея. Перед lycée — troisième. Убывают номера классов, а не возраст учеников."
+        }
+      },
+      {
+        "id": "f-france-education-2",
+        "prompt": {
+          "en": "Complete and explain: Si notre école ___ (avoir) un jardin, nous y ___ (étudier) les plantes.",
+          "ru": "Заполни и объясни: Si notre école ___ (avoir) un jardin, nous y ___ (étudier) les plantes."
+        },
+        "answer": {
+          "en": "avait; étudierions. Si takes imparfait here and the imagined result takes conditional. “If our school had a garden, we would study plants there.” Do not use aurait immediately after si in this pattern.",
+          "ru": "avait; étudierions. После si здесь imparfait, результат — conditionnel: если бы в школе был сад, мы изучали бы там растения. В этой конструкции сразу после si не ставят aurait."
+        }
+      },
+      {
+        "id": "f-france-education-3",
+        "prompt": {
+          "en": "Respond in French to “All French-speaking pupils follow the same school day.” Give a reason and a better comparison question.",
+          "ru": "Ответь по-французски на «У всех франкоязычных учеников одинаковый учебный день». Дай основание и более точный вопрос для сравнения."
+        },
+        "answer": {
+          "en": "“On ne peut pas généraliser: les établissements et les pays sont différents. À quelle heure commencent les cours dans les deux emplois du temps étudiés?” Compare actual provided timetables rather than infer a routine from language.",
+          "ru": "«On ne peut pas généraliser: les établissements et les pays sont différents. À quelle heure commencent les cours dans les deux emplois du temps étudiés?» Сравнивай данные конкретных расписаний, а не выводи распорядок из языка."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/french/tenses",
+        "title": {
+          "en": "Present and future forms",
+          "ru": "Настоящее и будущее время"
+        }
+      },
+      {
+        "route": "/grade9/f-school-journeys",
+        "title": {
+          "en": "Access to education",
+          "ru": "Доступ к образованию"
+        }
+      }
+    ],
+    "sources": [
+      "f-france-system",
+      "f-france-system-ru",
+      "french-ru"
+    ]
+  },
+  {
+    "id": "f-school-journeys",
+    "subject": "french",
+    "scope": "school-g9",
+    "title": {
+      "en": "School journeys, Malala and the right to learn",
+      "ru": "Дорога в школу, Малала и право учиться"
+    },
+    "objective": {
+      "en": "Use named examples to discuss educational barriers; read French evidence without turning one experience into a national stereotype.",
+      "ru": "Обсуди препятствия к образованию на конкретных примерах; читай французский текст, не превращая один опыт в стереотип о стране."
+    },
+    "prerequisites": {
+      "en": "Parce que, pourtant, tandis que; distinguishing evidence, interpretation and proposal.",
+      "ru": "Parce que, pourtant, tandis que; различие свидетельства, интерпретации и предложения."
+    },
+    "explanation": {
+      "en": "The archived school topic names Sur le chemin de l’école, Pascal Plisson’s 2013 documentary. The producer-linked foundation names Jackson in Kenya, Zahira in Morocco, Carlos in Argentina and Samuel in India; the English distributor calls Carlos “Carlito”. Its synopsis follows four difficult journeys to lessons. These are selected individual experiences, not a representative sample of every child in those countries. This reading lesson uses the credited synopsis; it does not claim a full viewing, invent dialogue or merge the film with the later television series. To analyse an actual scene, identify a visible obstacle, the person’s response and evidence from that scene; distinguish what you see from your explanation. Do not infer that all four countries are francophone because the documentary has a French title.\n\nMalala Yousafzai, from Pakistan, advocated for girls’ education and continued after the 2012 attack against her. Her fund records her 2013 UN address and 2014 Nobel Peace Prize. Her example connects education to rights and public advocacy, rather than only distance to a classroom. Discuss barriers separately: terrain, transport, disability access, poverty or exclusion can require different responses. A film journey and an activist’s biography do not establish how common each barrier is. A proposal needs evidence that it fits the named situation. “Il faudrait améliorer l’accès” gives advice; “L’accès s’est amélioré” asserts a change and needs evidence.\n\nFor francophone pupils, compare supplied accounts, not a single supposedly universal routine. Original fictional reading: “Aïcha et Louis apprennent en français. Aïcha vient à l’école en bus; Louis y va à pied. Tous les deux aiment les sciences. Aïcha voudrait une bibliothèque plus calme, tandis que Louis souhaiterait un terrain de sport accessible.” This text specifies no country, official timetable or real survey. Shared language does not erase different needs.",
+      "ru": "В школьном архиве назван документальный фильм Паскаля Плиссона «Sur le chemin de l’école» 2013 года. Связанный с историей Захиры фонд перечисляет героев: Джексон в Кении, Захира в Марокко, Карлос в Аргентине и Самюэль в Индии. Английский дистрибьютор называет Карлоса Carlito. Синопсис объединяет четыре трудные дороги на уроки. Это отдельные выбранные истории, а не репрезентативная картина жизни всех детей этих стран. Здесь разбирается проверенный синопсис: просмотр всего фильма не заявлен, реплики не выдуманы, фильм не смешан с позднейшим телесериалом. При разборе просмотренной сцены назови видимое препятствие, действие героя и подтверждающую деталь. Различай наблюдение и своё объяснение. Французское название не делает все четыре страны франкоязычными.\n\nПакистанская активистка Малала Юсуфзай защищала право девочек учиться и продолжила эту работу после нападения 2012 года. Её фонд указывает выступление в ООН в 2013 и Нобелевскую премию мира в 2014. В русском репортаже Натальи Райбман от 10 октября 2014 описаны присуждение премии и борьба за образование. Этот пример позволяет обсуждать не только расстояние до школы, но и право на учёбу. Рельеф, транспорт, доступность для человека с инвалидностью, бедность и исключение из образования — разные препятствия; решения тоже могут различаться. По фильму и одной биографии нельзя определить распространённость каждой проблемы. «Il faudrait améliorer l’accès» — рекомендация; «L’accès s’est amélioré» — утверждение об изменении, которому нужны свидетельства.\n\nДля сравнения франкоязычных учеников используй конкретные рассказы, а не единый «национальный распорядок». В авторском вымышленном тексте «Aïcha et Louis apprennent en français. Aïcha vient à l’école en bus; Louis y va à pied. Tous les deux aiment les sciences. Aïcha voudrait une bibliothèque plus calme, tandis que Louis souhaiterait un terrain de sport accessible» оба учатся по-французски и любят науки; Айша ездит на автобусе и хочет тихую библиотеку, Луи ходит пешком и хочет доступную спортивную площадку. Страна, официальное расписание и реальный опрос в тексте не заданы. Общий язык не означает одинаковые потребности."
+    },
+    "worked": {
+      "en": "Original analytical paragraph: “Le documentaire montre des trajets difficiles, tandis que l’exemple de Malala met en évidence une lutte pour le droit des filles à l’éducation. Ces exemples suggèrent des obstacles différents. Il faudrait donc d’abord identifier le problème local avant de proposer une solution.” The contrast connects examples to a reasoned recommendation. It does not claim that every film obstacle or every education barrier has the same cause.",
+      "ru": "Авторский абзац сопоставляет трудную дорогу из фильма с защитой права девочек учиться у Малалы. «Tandis que» вводит различие, «donc» связывает его с выводом: сначала определить местную проблему, затем предложить решение. Это аргумент, а не заявление об одной причине всех препятствий."
+    },
+    "misconception": {
+      "en": "A named example supports a specific discussion; it does not prove that every pupil in a country has the same life, or that a proposed intervention has already succeeded.",
+      "ru": "Конкретный пример помогает обсуждению, но не доказывает одинаковую жизнь всех детей страны или успех ещё только предложенной меры."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Example",
+          "ru": "Пример"
+        },
+        {
+          "en": "What can be supported",
+          "ru": "Что обосновано"
+        },
+        {
+          "en": "What needs more evidence",
+          "ru": "Для чего нужны дополнительные данные"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "2013 documentary",
+            "ru": "Фильм 2013 года"
+          },
+          {
+            "en": "Four credited school journeys in the named places.",
+            "ru": "Четыре названные истории дороги в школу."
+          },
+          {
+            "en": "National prevalence, current conditions and detailed unviewed scenes.",
+            "ru": "Распространённость проблемы, сегодняшние условия и детали непросмотренных сцен."
+          }
+        ],
+        [
+          {
+            "en": "Malala,2012–2014",
+            "ru": "Малала,2012–2014"
+          },
+          {
+            "en": "Education advocacy and a 2014 Nobel Peace Prize.",
+            "ru": "Защита образования и Нобелевская премия мира 2014."
+          },
+          {
+            "en": "That every policy she supported has already succeeded.",
+            "ru": "Что любая поддержанная ею мера уже достигла цели."
+          }
+        ],
+        [
+          {
+            "en": "Aïcha and Louis",
+            "ru": "Айша и Луи"
+          },
+          {
+            "en": "Only the information in the original fictional reading.",
+            "ru": "Только сведения авторского вымышленного текста."
+          },
+          {
+            "en": "Their countries, school schedules or population statistics.",
+            "ru": "Их страны, школьное расписание или статистика населения."
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Evidence, interpretation and proposal have different jobs; keep them distinct.",
+        "ru": "Свидетельство, интерпретация и предложение выполняют разные задачи."
+      }
+    },
+    "practice": [
+      {
+        "id": "f-school-journeys-1",
+        "prompt": {
+          "en": "In the fictional French reading, give one similarity and two differences with textual evidence. Can you name the pupils’ countries?",
+          "ru": "В вымышленном французском тексте найди сходство и два различия с опорой на текст. Можно ли назвать страны учеников?"
+        },
+        "answer": {
+          "en": "Both learn in French and like science. “Aïcha…en bus” versus “Louis…à pied” gives different journeys; bibliothèque versus terrain de sport gives different wishes. No country is specified, so naming countries would invent evidence.",
+          "ru": "Оба учатся по-французски и любят науки. «Aïcha…en bus» и «Louis…à pied» различают транспорт; bibliothèque и terrain de sport — пожелания. Страны не указаны: назвать их означало бы придумать сведения."
+        }
+      },
+      {
+        "id": "f-school-journeys-2",
+        "prompt": {
+          "en": "Improve: “Le film prouve que tous les enfants du Maroc font le même trajet que Zahira.”",
+          "ru": "Исправь: «Le film prouve que tous les enfants du Maroc font le même trajet que Zahira»."
+        },
+        "answer": {
+          "en": "“Le film présente le trajet de Zahira au Maroc; il ne permet pas de généraliser à tous les enfants du pays.” A selected example is not a representative national sample.",
+          "ru": "«Le film présente le trajet de Zahira au Maroc; il ne permet pas de généraliser à tous les enfants du pays». Одна выбранная история не заменяет репрезентативную выборку."
+        }
+      },
+      {
+        "id": "f-school-journeys-3",
+        "prompt": {
+          "en": "Compare the documentary’s school-journey focus and Malala’s advocacy in three connected French sentences. Include a justified proposal, not an invented success.",
+          "ru": "Сравни дорогу в школу из фильма с деятельностью Малалы в трёх связных французских предложениях. Добавь обоснованное предложение, не выдуманный успех."
+        },
+        "answer": {
+          "en": "Possible answer: “Le film présente des difficultés pour rejoindre une école. Malala défend le droit des filles à étudier. Comme les obstacles peuvent être différents, il faudrait écouter les élèves avant de choisir une aide.” The modal il faudrait marks a proposal; the comparison does not claim a universal cause.",
+          "ru": "Возможный ответ: «Le film présente des difficultés pour rejoindre une école. Malala défend le droit des filles à étudier. Comme les obstacles peuvent être différents, il faudrait écouter les élèves avant de choisir une aide». Il faudrait обозначает предложение; сравнение не приписывает всем препятствиям одну причину."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/grade9/f-france-education",
+        "title": {
+          "en": "French school structure and comparison",
+          "ru": "Ступени французской школы и сравнение"
+        }
+      },
+      {
+        "route": "/grade9/f-solidarity-profile",
+        "title": {
+          "en": "A justified service proposal",
+          "ru": "Обоснованный проект помощи"
+        }
+      }
+    ],
+    "sources": [
+      "f-school-film",
+      "f-school-film-fr",
+      "f-malala-en",
+      "f-malala-ru"
+    ]
+  },
+  {
+    "id": "g-jamaica-tourism",
+    "subject": "geography",
+    "scope": "school-g9",
+    "title": {
+      "en": "Jamaica: mass tourism, water and local benefits",
+      "ru": "Ямайка: массовый туризм, вода и местные выгоды"
+    },
+    "objective": {
+      "en": "Use a dated named mass-tourism case to assess benefits, pressure and a management proposal; contrast it with Antarctic tourism.",
+      "ru": "Оцени выгоды, нагрузку и меру управления в датированном кейсе массового туризма; сравни Ямайку с Антарктикой."
+    },
+    "prerequisites": {
+      "en": "Mass versus niche tourism; SEEP; distinguish reported data, inference and proposal.",
+      "ru": "Массовый и нишевый туризм; SEEP; различай сведения источника, вывод и предложение."
+    },
+    "explanation": {
+      "en": "Jamaica is a named example in the archived Grade 9 tourism checklist. Its coastal resorts, beach holidays and cruise visits provide a mass-tourism case; “mass” describes visitor flows and large-scale services, not the motives of every individual. The Russian geographical encyclopaedia’s 2017 country entry independently identifies beach and cruise tourism, with activity concentrated on the northern and western coasts. Its 2015 figures are historical and are not used as current totals.\n\nIn its 10 January 2025 release, Jamaica’s Ministry of Tourism reported approximately 4.27 million visitors and US$4.35 billion earnings for 2024. Treat these as figures reported on that date, not a final revised statistical series or net profit retained by residents. A gross earnings total does not reveal imported inputs, profit transfers, wages or how income is distributed. Hotels, food suppliers, guides and transport can benefit through visitor demand; whether a particular household benefits requires more local evidence.\n\nA separate 21 January 2025 Ministry release identified long-standing water shortages in Negril and surrounding areas and announced a US$221 million water-supply project. It reported procurement had begun and a future construction timetable. This establishes a named infrastructure problem and a proposed response; it does not prove that pipes were completed, shortages ended or tourism was the sole cause. The same supply serves different users, so assess residents’ access as well as accommodation demand. Larger capacity could improve reliability, but cost, leakage, ecological limits and allocation still need evidence.\n\nFor SEEP, connect a mechanism to an affected group: Social—reliable household water; Economic—business continuity and local procurement; Environmental—water abstraction and wastewater pressures to investigate; Political—who allocates water and checks delivery. These are evaluation questions, not measured claims that this project has produced each effect. Compare with the full library’s Antarctica case: access is remote and seasonal, wildlife sensitivity and landing management matter, while Jamaica has permanent resident communities and resort infrastructure. Neither destination is impact-free, and one successful management rule cannot simply be transferred to every place.",
+      "ru": "Ямайка прямо названа среди примеров в архивном школьном списке G9. Прибрежные курорты, пляжный отдых и круизные посещения позволяют разобрать массовый туризм. Слово «массовый» характеризует потоки и масштаб услуг, а не одинаковые мотивы всех гостей. Статья БРЭ 2017 года самостоятельно описывает пляжный и круизный туризм и его концентрацию на севере и западе острова. Её данные 2015 года исторические, не сегодняшние итоги.\n\nВ сообщении 10 января 2025 Министерство туризма Ямайки указало около 4,27 млн посетителей и 4,35 млрд долларов США поступлений за 2024 год. Это сведения, опубликованные на конкретную дату, а не окончательный пересмотренный ряд или чистая прибыль местных жителей. Валовая сумма не показывает стоимость импорта, переведённую за рубеж прибыль, зарплаты и распределение доходов. Спрос гостей может поддерживать гостиницы, поставщиков еды, гидов и транспорт. Пользу для конкретного домохозяйства нужно проверять отдельно.\n\nДругое сообщение министерства, от 21 января 2025, описывает длительный дефицит воды в Негриле и окрестностях и объявляет проект водоснабжения на 221 млн долларов США. Начались закупочные процедуры, строительство было обозначено как будущее действие. Это конкретная инфраструктурная проблема и заявленное решение, но не подтверждение готовых труб, прекращения перебоев или единоличной вины туризма. Вода нужна разным пользователям: оценивай доступ жителей наряду со спросом гостиниц. Расширение системы может повысить надёжность, но нужны данные о стоимости, потерях, природных ограничениях и распределении воды.\n\nСвязывай SEEP с механизмом и затронутой группой: социальное — надёжная вода дома; экономическое — работа предприятий и местные закупки; экологическое — исследование водозабора и сточных вод; политическое — распределение воды и проверка выполненного. Это вопросы оценки, а не измеренные результаты проекта. Сравни с полной библиотекой по Антарктике: там важны удалённость, сезонность, чувствительность животных и организация высадок; на Ямайке есть постоянные сообщества жителей и курортная инфраструктура. Воздействие есть у обоих направлений, а удачную меру одного места нельзя автоматически перенести на другое."
+    },
+    "worked": {
+      "en": "Invented procurement model, not Jamaican observations: visitors spend 100 units. Imported supplies cost 25 and transferred profit 20, leaving 55 before other costs. Increasing local purchases might retain more spending locally, but 55 is not automatically household income or net benefit. Ask who owns suppliers, whether prices and quality are feasible and whether extra demand competes with residents. Apply the same caution to the actual Ministry earnings figure: gross receipts and local gain answer different questions.",
+      "ru": "Учебная модель, не наблюдения Ямайки: гости тратят 100 условных единиц, импорт обходится в 25, переведённая прибыль составляет 20. Остаётся 55 до остальных расходов. Местные закупки могут удержать больше денег в экономике, но 55 ещё не доход домохозяйств и не чистая польза. Кто владеет поставщиками, доступны ли нужные объёмы и качество, нет ли конкуренции с потребностями жителей? Так же различай валовые поступления министерского отчёта и местную выгоду."
+    },
+    "misconception": {
+      "en": "A funding announcement is not a completion report. A gross tourism total is not a net-profit total. A named place still needs a date, source and scale.",
+      "ru": "Объявленные средства не равны завершённому проекту. Валовые туристические поступления не равны чистой прибыли. У именованного кейса всё равно нужны дата, источник и масштаб."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Evidence or model",
+          "ru": "Источник или модель"
+        },
+        {
+          "en": "Supported use",
+          "ru": "Обоснованное использование"
+        },
+        {
+          "en": "Limit",
+          "ru": "Ограничение"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Ministry release 10 Jan 2025",
+            "ru": "Сообщение министерства 10 янв 2025"
+          },
+          {
+            "en": "Reported 2024 scale of visitors and gross earnings.",
+            "ru": "Опубликованная оценка потока и валовых поступлений 2024."
+          },
+          {
+            "en": "Not proof of residents’ net income; later statistics may differ.",
+            "ru": "Не чистый доход жителей; позднейшие данные могут отличаться."
+          }
+        ],
+        [
+          {
+            "en": "Negril release 21 Jan 2025",
+            "ru": "Сообщение о Негриле 21 янв 2025"
+          },
+          {
+            "en": "Water shortage; announced supply investment.",
+            "ru": "Дефицит воды; объявленный проект водоснабжения."
+          },
+          {
+            "en": "Announcement does not establish completion or sole cause.",
+            "ru": "Не доказаны завершение и единственная причина проблемы."
+          }
+        ],
+        [
+          {
+            "en": "100−25−20=55",
+            "ru": "100−25−20=55"
+          },
+          {
+            "en": "Original model of spending retained before other costs.",
+            "ru": "Авторская модель остатка до остальных расходов."
+          },
+          {
+            "en": "Invented units, not observed Jamaican finance.",
+            "ru": "Условные единицы, не финансовые наблюдения Ямайки."
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Keep source observations and analytical questions separate; compare effects at local and national scales.",
+        "ru": "Различай сведения источника и вопросы анализа; сравнивай местный и национальный масштабы."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-jamaica-tourism-1",
+        "prompt": {
+          "en": "A student writes: “TheJanuary 2025 announcement proves Negril’s water shortage has ended.” Correct the inference and name two pieces of follow-up evidence.",
+          "ru": "Ученик пишет: «Объявление января 2025 доказывает, что нехватка воды в Негриле закончилась». Исправь вывод и назови два свидетельства для проверки."
+        },
+        "answer": {
+          "en": "It proves an announced response to an identified problem. Check a dated completion/commissioning report and before/after household service data, including interruptions and which neighbourhoods benefit. Funding and a future timetable do not establish delivered reliable water.",
+          "ru": "Сообщение подтверждает заявленную меру в ответ на проблему. Нужны датированный акт ввода и данные о снабжении домохозяйств до и после, включая перебои и охват районов. Средства и будущий срок ещё не подтверждают надёжную воду у жителей."
+        }
+      },
+      {
+        "id": "g-jamaica-tourism-2",
+        "prompt": {
+          "en": "In the invented 100 unit model, imported supplies fall from 25 to 15 with transferred profit still 20. Calculate the retained amount and its change. Why is this not proof of an equal increase in residents’ welfare?",
+          "ru": "В условной модели из 100 единиц импорт снижается с 25 до 15, переведённая прибыль остаётся 20. Найди остаток и его изменение. Почему благосостояние жителей не обязательно вырастет на столько же?"
+        },
+        "answer": {
+          "en": "100−15−20=65 units,10 more than 55 (about 18.2% of 55). Other costs, supplier ownership, prices, distribution and environmental effects remain unknown. This is an authored arithmetic scenario, not a prediction for Jamaica.",
+          "ru": "100−15−20=65 единиц, на 10 больше 55 (около 18,2% от 55). Неизвестны прочие расходы, владельцы поставщиков, цены, распределение и природные последствия. Это авторская арифметическая модель, не прогноз для Ямайки."
+        }
+      },
+      {
+        "id": "g-jamaica-tourism-3",
+        "prompt": {
+          "en": "Compare one management priority in Negril with one in Antarctica. Link each to a named group or ecosystem, then explain a limitation of judging sustainability by visitor numbers alone.",
+          "ru": "Сравни приоритет управления в Негриле с приоритетом в Антарктике. Свяжи каждый с группой людей или экосистемой и объясни ограничение оценки устойчивости только по числу гостей."
+        },
+        "answer": {
+          "en": "Negril: assess reliable water access for residents and accommodation, using service data to evaluate the announced supply project. Antarctica: manage landing behaviour and wildlife disturbance using site rules and monitoring. Numbers alone omit where/when visitors concentrate, conduct, resource use and who benefits; fewer visitors are not automatically harmless. Use the library’s dated Antarctica sources for specific rules.",
+          "ru": "Негрил: оцени надёжность водоснабжения жителей и гостиниц по данным обслуживания, проверяя заявленный проект. Антарктика: регулируй поведение при высадках и беспокойство животных с помощью правил места и мониторинга. Число гостей не показывает концентрацию по времени и месту, поведение, ресурсы и распределение выгод. Малый поток не обязательно безвреден. Конкретные антарктические правила проверяй по датированным источникам полной библиотеки."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/tourism",
+        "title": {
+          "en": "Antarctica and other tourism forms",
+          "ru": "Антарктика и другие формы туризма"
+        }
+      },
+      {
+        "route": "/grade9/g-baikal-tourism",
+        "title": {
+          "en": "Baikal: a contrasting management-evidence exercise",
+          "ru": "Байкал: другой пример проверки управления"
+        }
+      }
+    ],
+    "sources": [
+      "jamaica-scale-2025",
+      "jamaica-water-2025",
+      "jamaica-bre-ru"
     ]
   }
 ]

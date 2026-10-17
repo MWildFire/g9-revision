@@ -715,8 +715,8 @@
     "title": "Богатов, Федоровский · Основы речной гидрологии и гидробиологии (2017)",
     "url": "https://sihote-alin.ru/dataset/e59f4ecd-2a9e-4e10-b667-e0f5cf98a6da/resource/9b3d06d7-8b6f-4b1b-a404-bb05940cbdd5/download/hydrology.pdf",
     "note": {
-      "en": "Printed83, table1.8 meandering channels: outer erosion, inner bars and cutoffs. Mechanism support, not a specific Mississippi field survey.",
-      "ru": "Печатная с.83, табл.1.8: размыв внешнего берега, внутренние отмели и прорыв излучины. Механизм, не съёмка Миссисипи."
+      "en": "Printed83 / PDF84, table1.9, meandering-channel row: outer erosion, inner bars and cutoffs. The Russian textbook adapts Gordon etal2004 here; this is mechanism support, not a Mississippi field survey.",
+      "ru": "Печатная с.83 / страница PDF84, табл.1.9, строка меандрирующих русел: размыв внешнего берега, внутренние отмели, прорыв излучины. Здесь русский учебник адаптирует Gordon и др.2004; это источник механизма, не съёмка Миссисипи."
     }
   },
   "geo-stream-types": {
@@ -760,11 +760,11 @@
     }
   },
   "tourism-stone": {
-    "title": "Philip Stone (2006) · A dark tourism spectrum, 146–148",
-    "url": "https://clok.uclan.ac.uk/27720/1/27720%20fulltext_stamped.pdf",
+    "title": "Philip Stone (2006) · A dark tourism spectrum · printed149–150 / PDF6–7",
+    "url": "https://clok.uclan.ac.uk/27720/1/27720%20fulltext_stamped.pdf#page=6",
     "note": {
-      "en": "Supply-based dark tourism and motivation-based thanatourism differ; the report’s attendance cannot establish everyone’s motive.",
-      "ru": "Широкую категорию мест и определение через мотив различают; посещаемость не раскрывает мотив каждого человека. Это английское исследование, не независимый русский источник."
+      "en": "Printed149 / PDF6 discusses Seaton’s motivation-based convention, allowing a partial motive, against place/supply approaches; printed150 continues the debate. This supports the stated convention, not universal agreement.",
+      "ru": "На печатной с.149 / странице PDF6 обсуждается определение Ситона через мотив, в том числе частичный, в отличие от подходов по месту и предложению; с.150 продолжает дискуссию. Источник обосновывает выбранную схему, а не всеобщее согласие."
     }
   },
   "tourism-gbt": {
@@ -1141,6 +1141,54 @@
     "note": {
       "en": "Pages144–147: direct and inverse proportion, including an invariant product for the inverse relation. These are model relationships, not an unconditional law about prices or workers.",
       "ru": "С.144–147: прямая и обратная пропорциональность, в том числе постоянное произведение для обратной зависимости. Это модельные связи, а не безусловный закон о ценах или производительности работников."
+    }
+  },
+  "tourism-taxonomy-ru": {
+    "title": "И. Сульжицкий · «Тёмный туризм» и «танатотуризм» · с.84",
+    "url": "https://journals.ehu.lt/index.php/ctrls/article/download/1277/1066/#page=5",
+    "note": {
+      "en": "Printed84 / PDF5: discussion of Seaton’s motivation category and the contrasting place-focused approach. Independent original Russian scholarly exposition; terminology remains debated.",
+      "ru": "Печатная с.84 / страница PDF5: мотивационная категория Ситона и противопоставленный подход по характеристикам места. Самостоятельное русскоязычное научное изложение; терминология остаётся дискуссионной."
+    }
+  },
+  "resource-uk-coal-history": {
+    "title": "UK Government · UK Energy in Brief 2024 · Coal consumption,1990–2023",
+    "url": "https://assets.publishing.service.gov.uk/media/687e0bf1a18d3a8ca86e5f50/UK_Energy_in_Brief_2024.pdf",
+    "note": {
+      "en": "Coal consumption,1990 to2023: Total consumption and Power stations rows; units million tonnes. The lesson attributes the selected reported values to this series. Fuel mass is not electricity output, a demand curve or embodied imports.",
+      "ru": "Таблица Coal consumption,1990 to2023: строки Total consumption и Power stations, млн тонн. Урок ссылается на выбранные опубликованные значения этого ряда. Масса топлива — не выработка электричества, кривая спроса или уголь в импортированных товарах."
+    }
+  },
+  "tourism-medical-ethics": {
+    "title": "World Medical Association · Statement on Medical Tourism (2018)",
+    "url": "https://www.wma.net/policies-post/wma-statement-on-medical-tourism/",
+    "note": {
+      "en": "Preamble3–5 and Recommendations9–10,21,23–25: income potential, scarce resident-care resources, language and continuity of care. Ethical criteria and conditional mechanisms; no measured Turkish staffing outcome is claimed.",
+      "ru": "Преамбула3–5, рекомендации9–10,21,23–25: возможные поступления, дефицитные ресурсы помощи жителям, язык и непрерывность наблюдения. Критерии этики и условные механизмы; измеренные кадровые последствия в Турции здесь не заявлены."
+    }
+  },
+  "tourism-unicef-nepal": {
+    "title": "UNICEF Nepal · Volunteering in Nepal? (4Oct2018)",
+    "url": "https://www.unicef.org/nepal/stories/volunteering-nepal",
+    "note": {
+      "en": "How can orphanage volunteering be harmful? Short unqualified visits can harm children; goodwill alone does not establish benefit. This specific child-protection case must not be generalised to every conservation project.",
+      "ru": "Раздел How can orphanage volunteering be harmful?: короткие визиты без подготовки могут вредить детям; доброго намерения недостаточно. Этот конкретный случай защиты детей нельзя переносить на любой природоохранный проект."
+    }
+  },
+  "tourism-volunteer-critical-en": {
+    "title": "Daniel A. Guttentag (2009) · The Possible Negative Impacts of Volunteer Tourism",
+    "url": "https://www.researchgate.net/publication/227907035_The_Possible_Negative_Impacts_of_Volunteer_Tourism",
+    "note": {
+      "en": "Author-uploaded original article, International Journal of Tourism Research11:537–551, DOI10.1002/jtr.727; introduction, printed537: local involvement, unsuitable work and possible displacement of local employment. These are possible mechanisms, not measured Baikal outcomes.",
+      "ru": "Оригинальная статья, загруженная автором: International Journal of Tourism Research11:537–551, DOI10.1002/jtr.727; введение, печатная с.537: участие местных жителей, неподходящая работа и возможное вытеснение оплачиваемого труда. Это возможные механизмы, не измеренные результаты на Байкале."
+    }
+  },
+  "tourism-medical-capacity-ru": {
+    "title": "Ж.Е.Бакирова (2021) · SWOT-анализ медицинского туризма в Нур-Султане",
+    "url": "https://amu.edu.kz/upload/iblock/5e9/5e94bd3f69bb41b09cfb3656bf7904be.pdf#page=18",
+    "note": {
+      "en": "Original Russian master’s dissertation, Astana Medical University,2021; section1.1, PDF18: literature discussion of staff movement and resident access. Independent Russian exposition, not a separate empirical test in Türkiye or corroboration of USHAŞ totals.",
+      "ru": "Самостоятельная русскоязычная магистерская диссертация, Медицинский университет Астана,2021; §1.1, страница PDF18: обсуждение перехода кадров и доступа жителей по литературе. Это отдельное русское изложение, не самостоятельный полевой тест в Турции и не подтверждение итогов USHAŞ."
     }
   }
 }

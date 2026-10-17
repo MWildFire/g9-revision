@@ -1451,24 +1451,30 @@
             }
           },
           "thanatourism": {
-            "name": "Dark tourism / thanatourism",
-            "rule": "Dark tourism, or thanatourism, is travel to places linked with death, suffering or disaster, such as memorials and former sites of violence. Remembrance and learning are common motives, but not every visitor has them.",
+            "name": "Dark tourism and thanatourism",
+            "rule": "In these lessons, dark tourism is the broad site-based category, while thanatourism follows the motivation-based convention discussed by Seaton and Stone: an encounter with death is at least part of the reason for travel. Writers also use these terms differently; this distinction is an adopted analytical convention, not a universal consensus.",
             "examples": [
               "For example, guided visits to a memorial on the site of a former camp need careful explanation and respect for the victims."
             ],
             "review": {
-              "englishTerm": "Dark tourism / thanatourism",
-              "russianTerm": "Танатуризм",
+              "englishTerm": "Dark tourism and thanatourism",
+              "russianTerm": "Мрачный туризм и танатотуризм",
               "contrast": {
-                "en": "Dark tourism and thanatourism are often used as synonyms, but some researchers limit thanatourism to trips motivated by encounters with death.",
-                "ru": "Тёмный туризм и танатуризм часто используют как синонимы, но некоторые исследователи сужают танатуризм до поездок, мотивированных встречей со смертью."
+                "en": "A memorial stop made only for architecture can fit a broad site-based dark-tourism discussion, but its location alone does not establish a death-related motive. A mixed itinerary can still be thanatourism if that motive is genuinely one part of the trip.",
+                "ru": "Остановка у мемориала только ради архитектуры может входить в широкое обсуждение мрачного туризма по месту, но само место не устанавливает мотив встречи с темой смерти. Смешанный маршрут всё же может относиться к танатотуризму, если такой мотив составляет часть поездки."
               },
               "sources": [
                 {
-                  "title": "Philip R. Stone — A Dark Tourism Spectrum (2006)",
-                  "url": "https://knowledge.lancashire.ac.uk/id/eprint/27720/1/27720%20fulltext_stamped.pdf#page=3",
+                  "title": "Philip Stone (2006) · A dark tourism spectrum · printed149–150 / PDF6–7",
+                  "url": "https://clok.uclan.ac.uk/27720/1/27720%20fulltext_stamped.pdf#page=6",
                   "language": "en",
-                  "section": "Introduction and dark tourism supply/demand, pp. 146–147"
+                  "section": "Printed149 / PDF6: Seaton’s wholly or partly motivated definition; discussion continues150"
+                },
+                {
+                  "title": "И. Сульжицкий · «Тёмный туризм» и «танатотуризм» · с.84",
+                  "url": "https://journals.ehu.lt/index.php/ctrls/article/download/1277/1066/#page=5",
+                  "language": "ru",
+                  "section": "Печатная с.84 / PDF5: мотив и характеристика места; разные исследовательские трактовки"
                 }
               ]
             }
@@ -1628,18 +1634,24 @@
               "For example, an ancient amphitheatre was an arena where gladiators fought and where people and animals were killed for public entertainment. A tour that focuses on these deaths, not only on the building, fits the definition of dark tourism."
             ],
             "review": {
-              "englishTerm": "Dark tourism / thanatourism",
-              "russianTerm": "Танатуризм",
+              "englishTerm": "Dark tourism and thanatourism",
+              "russianTerm": "Мрачный туризм и танатотуризм",
               "contrast": {
                 "en": "A visit to learn about a disaster and honour its victims is a clear example. A visitor taking photographs at the same site may have different motives. That alone does not exclude the visit from the broader dark-tourism category; a motive-based definition of thanatourism asks specifically about an interest in death.",
                 "ru": "Поездка ради изучения катастрофы и памяти её жертв — ясный пример. У посетителя, который фотографирует то же место, могут быть другие мотивы. Само по себе это не исключает поездку из широкой категории тёмного туризма; определение танатуризма через мотив специально учитывает интерес к смерти."
               },
               "sources": [
                 {
-                  "title": "Philip R. Stone — A Dark Tourism Spectrum (2006)",
-                  "url": "https://knowledge.lancashire.ac.uk/id/eprint/27720/1/27720%20fulltext_stamped.pdf#page=3",
+                  "title": "Philip Stone (2006) · A dark tourism spectrum · printed149–150 / PDF6–7",
+                  "url": "https://clok.uclan.ac.uk/27720/1/27720%20fulltext_stamped.pdf#page=6",
                   "language": "en",
-                  "section": "Introduction and dark tourism supply/demand, pp. 146–147"
+                  "section": "Printed149 / PDF6: Seaton’s wholly or partly motivated definition; discussion continues150"
+                },
+                {
+                  "title": "И. Сульжицкий · «Тёмный туризм» и «танатотуризм» · с.84",
+                  "url": "https://journals.ehu.lt/index.php/ctrls/article/download/1277/1066/#page=5",
+                  "language": "ru",
+                  "section": "Печатная с.84 / PDF5: мотив и характеристика места; разные исследовательские трактовки"
                 }
               ]
             }

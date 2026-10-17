@@ -422,5 +422,37 @@
       "en": "Concentration/pressure paragraphs use reacting partial pressures. Inert-gas cases follow the stated ideal-gas assumptions, not total pressure alone.",
       "ru": "В абзацах о концентрации и давлении используются парциальные давления реагирующих газов. Случаи инертного газа выводятся при указанных допущениях идеального газа."
     }
+  },
+  "carbon-nobel": {
+    "title": "Royal Swedish Academy of Sciences2010 · Graphene",
+    "url": "https://www.kva.se/app/uploads/2010/10/globalassets-priser-nobel-2010-popfyen10.pdf",
+    "note": {
+      "en": "Popular scientific background pp.1–3: single carbon sheet, graphite and electrical properties.",
+      "ru": "Научное пояснение, с.1–3: отдельный слой углерода, графит и электрические свойства."
+    }
+  },
+  "carbon-msu-lecture": {
+    "title": "Химфак МГУ · Лекция2, весна2021, слайды13–15",
+    "url": "https://www.chem.msu.ru/rus/teaching/fizfak/3year/E-lecture-02.pdf#page=13",
+    "note": {
+      "en": "Independent Russian lecture: four neighbours in diamond, three in graphite; graphene is one graphite layer.",
+      "ru": "Самостоятельная русская лекция: четыре соседа у атома алмаза, три в графите; графен — один слой графита."
+    }
+  },
+  "carbon-zhukov": {
+    "title": "С.Т.Жуков · Химия8–9, §16.4 Углерод",
+    "url": "https://www.chem.msu.ru/rus/school/zhukov1/16.html",
+    "note": {
+      "en": "Independent Russian-authored school explanation: allotropic structures, diamond framework and graphite sheets.",
+      "ru": "Самостоятельное школьное объяснение: аллотропия, пространственный каркас алмаза и слои графита."
+    }
+  },
+  "carbon-openstax": {
+    "title": "OpenStax Chemistry2e · §10.5, covalent network solids",
+    "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+    "note": {
+      "en": "Covalent Network Solid, Table10.4 and Graphene: Material of the Future; distinguishes the carbon structures and properties.",
+      "ru": "Раздел Covalent Network Solid, таблица10.4 и Graphene: Material of the Future: строение и свойства форм углерода."
+    }
   }
 }

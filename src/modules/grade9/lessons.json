@@ -3248,5 +3248,144 @@
       "aral-wb2008",
       "aral-kaz2022"
     ]
+  },
+  {
+    "id": "c-carbon",
+    "subject": "chemistry",
+    "scope": "school-g10",
+    "title": {
+      "en": "Diamond, graphite and graphene: explain the difference",
+      "ru": "Алмаз, графит и графен: объясни различия"
+    },
+    "objective": {
+      "en": "Link carbon bonding and geometry to hardness, sliding and electrical conduction; test an identification against evidence.",
+      "ru": "Свяжи связи и расположение атомов с твёрдостью, скольжением и электропроводностью; проверь определение вещества по данным."
+    },
+    "prerequisites": {
+      "en": "Covalent bonding and mobile charge carriers; distinguish an atom, a layer and a bulk sample.",
+      "ru": "Ковалентная связь и подвижные носители заряда; различай атом, слой и образец вещества."
+    },
+    "explanation": {
+      "en": "These are allotropes: different structures of the same element. In diamond each carbon is bonded to four neighbours in a three-dimensional network. Strong bonds throughout the network resist deformation; pure diamond has no freely moving electrons in the simple school model and is an electrical insulator. Graphite has sheets of carbon rings: each carbon has three bonded neighbours. Delocalised electrons move along the sheets, allowing electrical conduction; weaker forces between sheets allow them to slide. Graphene is one such sheet, one atom thick. Strong bonds within the sheet and mobile electrons explain why it can be mechanically strong while conducting electricity. A single graphene sheet has no stack of internal layers to slide over one another.\n\nUse the distinction precisely: electrical conductivity is not thermal conductivity. Do not infer a commercial sample’s performance from an ideal structure alone: defects, contacts and orientation can matter. The sources establish structures and physical ideas; the identification exercise below is invented.",
+      "ru": "Это аллотропные формы: один химический элемент образует разные структуры. В алмазе каждый атом углерода связан с четырьмя соседями в пространственной сетке. Прочные связи во всех направлениях препятствуют деформации. В простой школьной модели у чистого алмаза нет свободно движущихся электронов, поэтому он не проводит электрический ток. В графите атомы образуют слои из колец; у каждого атома три связанных соседа. Делокализованные электроны перемещаются вдоль слоёв и переносят заряд. Между слоями взаимодействие слабее, поэтому они сдвигаются. Графен — один такой слой толщиной в один атом. Прочность связей внутри него сочетается с подвижностью электронов. У отдельного листа графена нет внутренних слоёв, скользящих друг по другу.\n\nЭлектропроводность и теплопроводность — разные свойства. Устройство реального образца, дефекты и контакты могут менять результат измерения, поэтому идеальная схема не гарантирует характеристики изделия. Задача распознавания ниже придумана для обучения."
+    },
+    "worked": {
+      "en": "Invented sample A is very hard and electrically insulating; B conducts along sheets and leaves flakes when rubbed; C is an isolated conducting carbon sheet. Within this limited choice, A fits diamond, B graphite and C graphene. For A, explain the extended four-neighbour network; for B, distinguish strong intralayer bonds from weaker interlayer interactions; for C, identify the single sheet. These observations support an identification within the stated set, not proof that every unknown hard material is diamond.",
+      "ru": "Учебный образец A очень твёрдый и не проводит ток; B проводит вдоль слоёв и оставляет чешуйки при трении; C — отдельный проводящий лист углерода. Из трёх предложенных форм A соответствует алмазу, B — графиту, C — графену. Для A укажи пространственную сеть с четырьмя соседями; для B различай связи внутри слоя и взаимодействие между слоями; для C назови одиночный слой. Выбор обоснован в рамках задачи, но твёрдость сама по себе не доказывает, что неизвестный материал — алмаз."
+    },
+    "misconception": {
+      "en": "Graphite is not soft because all its carbon bonds are weak. Graphene is not a small diamond molecule. Conducting heat does not mean conducting electrical charge.",
+      "ru": "Мягкость графита не означает слабость всех связей углерода. Графен не является маленькой молекулой алмаза. Перенос тепла не равен переносу электрического заряда."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Form",
+          "ru": "Форма"
+        },
+        {
+          "en": "Bonded neighbours / geometry",
+          "ru": "Связанные соседи / строение"
+        },
+        {
+          "en": "Reasoned distinction",
+          "ru": "Объяснение различия"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Diamond",
+            "ru": "Алмаз"
+          },
+          {
+            "en": "4; three-dimensional network",
+            "ru": "4; пространственная сеть"
+          },
+          {
+            "en": "Resists deformation; electrically insulating in the stated model",
+            "ru": "Сопротивляется деформации; не проводит ток в указанной модели"
+          }
+        ],
+        [
+          {
+            "en": "Graphite",
+            "ru": "Графит"
+          },
+          {
+            "en": "3; many sheets",
+            "ru": "3; много слоёв"
+          },
+          {
+            "en": "Sheets slide; mobile electrons conduct along them",
+            "ru": "Слои сдвигаются; электроны переносят заряд вдоль них"
+          }
+        ],
+        [
+          {
+            "en": "Graphene",
+            "ru": "Графен"
+          },
+          {
+            "en": "3; one sheet",
+            "ru": "3; один слой"
+          },
+          {
+            "en": "Strong sheet, electrically conducting; no internal stack",
+            "ru": "Прочный проводящий лист; внутренней стопки слоёв нет"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Idealised structural model, not measured performance of a named product.",
+        "ru": "Идеализированная схема, не измеренные свойства конкретного изделия."
+      }
+    },
+    "practice": [
+      {
+        "id": "c-carbon-1",
+        "prompt": {
+          "en": "A student says graphite is soft because covalent bonds are weak. Correct the mechanism and compare it with graphene.",
+          "ru": "Ученик объясняет мягкость графита слабостью ковалентных связей. Исправь механизм и сравни с графеном."
+        },
+        "answer": {
+          "en": "Strong covalent bonds hold each sheet together; weaker interactions between sheets permit sliding. Graphene is one sheet, so internal layer sliding is not the explanation for its properties. Distinguish breaking a sheet from moving sheets past one another.",
+          "ru": "Внутри слоя действуют прочные ковалентные связи; более слабое взаимодействие между слоями допускает сдвиг. Графен — отдельный слой, поэтому скольжение внутренних слоёв не объясняет его свойства. Разрушение листа и сдвиг листов — разные процессы."
+        }
+      },
+      {
+        "id": "c-carbon-2",
+        "prompt": {
+          "en": "Why is “it contains carbon and conducts electricity” insufficient to distinguish graphite from graphene? Give the extra structural evidence needed.",
+          "ru": "Почему признаков «содержит углерод и проводит ток» недостаточно, чтобы различить графит и графен? Какие данные о строении нужны?"
+        },
+        "answer": {
+          "en": "Both contain carbon and have mobile electrons. Determine whether the specimen is one atomic sheet or a multilayer stack, using suitable structural evidence. Electrical conduction alone does not establish sheet count or purity.",
+          "ru": "Оба состоят из углерода и имеют подвижные электроны. Нужно установить, представляет ли образец один атомный слой или многослойную стопку, подходящим исследованием структуры. Одна электропроводность не устанавливает число слоёв и чистоту."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/chemistry/bonding",
+        "title": {
+          "en": "Bonding and structures library",
+          "ru": "Связи и строение веществ"
+        }
+      },
+      {
+        "route": "/mocks/nanoparticles",
+        "title": {
+          "en": "Nanoparticles: size, surface and risk",
+          "ru": "Наночастицы: размер, поверхность и риск"
+        }
+      }
+    ],
+    "sources": [
+      "carbon-openstax",
+      "carbon-nobel",
+      "carbon-msu-lecture",
+      "carbon-zhukov"
+    ]
   }
 ]

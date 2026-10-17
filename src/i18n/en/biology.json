@@ -779,8 +779,8 @@
           },
           "chloroplast": {
             "name": "Chloroplast",
-            "rule": "A chloroplast is an organelle in plant and algal cells where photosynthesis takes place. Chlorophyll in the membranes of thylakoids — flattened sacs, often arranged in stacks called grana — absorbs light energy. This energy drives the reactions in the stroma, the fluid inside the chloroplast, that build glucose from carbon dioxide and water.",
-            "tip": "Chloroplasts are found mainly in green parts such as leaves. Root cells usually have none, because they get no light.",
+            "rule": "A chloroplast is an organelle of photosynthetic plant and algal cells. Chlorophyll in thylakoid membranes absorbs light. Thylakoids are flattened sacs, often stacked into grana. Light-dependent reactions use water, release oxygen and produce ATP and reduced NADP (NADPH). ATP transfers energy and NADPH supplies electrons for enzyme-controlled reactions in the stroma, the fluid inside the chloroplast. Those reactions use carbon dioxide to make carbohydrates; sugars such as glucose are assembled from their products. The overall photosynthesis equation summarises many reactions, not a single step in the stroma.",
+            "tip": "Chloroplasts are common in green parts such as leaves. Ordinary underground root cells generally lack them.",
             "review": {
               "englishTerm": "Chloroplast",
               "russianTerm": "Хлоропласт",
@@ -800,6 +800,18 @@
                   "url": "https://foxford.ru/wiki/biologiya/fotosintez-pitanie-rasteniy-5-8-klass",
                   "language": "ru",
                   "section": "Фотосинтез — питание растений: условия, вещества и энергия"
+                },
+                {
+                  "title": "Biology for the IB Diploma3e · Publisher answers (2023),C1.3",
+                  "url": "https://media.hachettelearning.com/media/medialibraries/hodder/answers-and-extras/biology/9781398364240/364240-ib-biology-3ed-saq-answers.pdf",
+                  "language": "en",
+                  "section": "C1.3,Q16,Q18 products,Q23: stroma enzymes,ATP/NADPH and carbohydrate synthesis. Incorrect stoma/absence-of-light wording inQ21a is excluded."
+                },
+                {
+                  "title": "Фоксфорд · Фазы фотосинтеза",
+                  "url": "https://externat.foxford.ru/polezno-znat/wiki-biologiya-fotosintez",
+                  "language": "ru",
+                  "section": "«Что происходит в процессе фотосинтеза» и «Темновая фаза»: тилакоиды,АТФ/НАДФН,строма,синтез сахаров. Не утверждение, что светонезависимые реакции идут только ночью."
                 }
               ]
             }

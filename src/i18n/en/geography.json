@@ -1745,7 +1745,7 @@
         "detailed": {
           "resource": {
             "name": "Resource",
-            "rule": "A resource is anything from the natural environment that people use to meet a need or achieve a goal, such as water, soil, minerals or sunlight. Something becomes a resource only when people have the technology and access to use it, so what counts as a resource can change over time. Supply is the amount of a resource that is available to use. Demand is the wish to buy a resource, backed by the ability to pay for it.",
+            "rule": "A resource is anything from the natural environment that people use to meet a need or achieve a goal, such as water, soil, minerals or sunlight. Something becomes a resource only when people have the technology and access to use it, so what counts as a resource can change over time. In resource management, supply may refer to the physically available amount. In market analysis, supply describes the quantities sellers are willing and able to offer at different prices during a stated period; demand describes the quantities buyers are willing and able to purchase at those prices. A quantity at one price is one point in that relationship, not the whole supply or demand schedule.",
             "examples": [
               "A forest can provide a continuing supply of timber if harvesting does not exceed regrowth and ecosystem functions are maintained. Overuse can deplete this renewable resource. Uranium, used as nuclear fuel, is a finite mineral resource."
             ],
@@ -1768,6 +1768,18 @@
                   "url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
                   "language": "en",
                   "section": "Nonrenewable energy; renewable energy"
+                },
+                {
+                  "title": "OpenStax · Principles of Economics3e,§3.1",
+                  "url": "https://openstax.org/books/principles-economics-3e/pages/3-1-demand-supply-and-equilibrium-in-markets-for-goods-and-services",
+                  "language": "en",
+                  "section": "Demand;Supply;quantity at one price versus relationship"
+                },
+                {
+                  "title": "МГУ · Введение в экономику,§2.1",
+                  "url": "https://books.econ.msu.ru/Introduction-to-Economics/chap02/2.1/",
+                  "language": "ru",
+                  "section": "«Спрос» и «Предложение»: готовность и возможность, количество при цене и вся зависимость"
                 }
               ]
             }
@@ -2273,7 +2285,7 @@
             "name": "Food security",
             "rule": "People have food security when they can consistently obtain enough safe, nutritious food for a healthy active life. Four connected dimensions are availability, access, utilisation and stability over time.",
             "examples": [
-              "A drought that cuts the local harvest reduces availability, because less food reaches the market. A family whose income falls can lose access to food."
+              "A drought can reduce local harvests. If stocks or imports do not compensate, less food is physically available. A household may also lose access when its income falls, even if food remains in the market."
             ],
             "review": {
               "englishTerm": "Food security",
@@ -2294,6 +2306,12 @@
                   "url": "https://www.fao.org/measuring-hunger/access-to-food/frequently-asked-questions/ru",
                   "section": "Что оценивается / не оценивается с помощью ШВОПБ?; отличие отсутствия продовольственной безопасности от неполноценного питания",
                   "language": "ru"
+                },
+                {
+                  "title": "Богданова, Беликова · Продовольственная безопасность (2020)",
+                  "url": "https://bookonlime.ru/system/files/node/product_pdf/download_file/bogdanova_belikova_buk_prodovolstvennaya_bezopasnost_rf.pdf",
+                  "language": "ru",
+                  "section": "Печатные с.6–8,§1.1: наличие,доступ,использование,стабильность. Самостоятельное русское изложение; примеры с урожаем и доходом авторские."
                 }
               ]
             }
@@ -2329,7 +2347,7 @@
           },
           "solutions": {
             "name": "Improving food security",
-            "rule": "Match action to the failing dimension: resilient farming and storage support availability; income or food assistance support access; safe water and good nutrition support utilisation; planning helps stability.",
+            "rule": "Match action to the failing dimension: resilient farming and suitable storage target availability; income or food assistance target access; safe water and nutrition support utilisation. For stability, plan how supplies and access will continue through a stated shock, then check delivery and outcomes. A plan by itself does not establish improved food security.",
             "examples": [
               "A school meal programme gives children a reliable meal every school day. This supports their access to food and their nutrition."
             ],

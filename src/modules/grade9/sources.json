@@ -790,5 +790,45 @@
       "en": "Introduction and operational-definition/principles paragraphs: volunteer/educational purposes and reducing impact. The proposed evaluation exercise is authored, not an observed field result.",
       "ru": "Введение, определение и принципы: добровольная и познавательная цели, снижение вреда. Проект проверки в задании авторский; полевые результаты не заявлены."
     }
+  },
+  "resource-markets-en": {
+    "title": "OpenStax · Principles of Economics3e,§3.1",
+    "url": "https://openstax.org/books/principles-economics-3e/pages/3-1-demand-supply-and-equilibrium-in-markets-for-goods-and-services",
+    "note": {
+      "en": "Demand34/38/60;Supply62/68: price/quantity relationship versus a point. Invented arithmetic examples are authored.",
+      "ru": "Разделы о спросе и предложении: зависимость от цены и количество при одной цене. Числа задач авторские."
+    }
+  },
+  "resource-markets-ru": {
+    "title": "МГУ · Введение в экономику,§2.1",
+    "url": "https://books.econ.msu.ru/Introduction-to-Economics/chap02/2.1/",
+    "note": {
+      "en": "Independent Russian exposition under Demand and Supply,125–128/143–145. Model assumptions are not observations of a named country.",
+      "ru": "Самостоятельное русское изложение в разделах «Спрос» и «Предложение». Допущения модели не являются наблюдениями по стране."
+    }
+  },
+  "food-security-original-ru": {
+    "title": "Богданова, Беликова (2020) · Продовольственная безопасность,с.6–8",
+    "url": "https://bookonlime.ru/system/files/node/product_pdf/download_file/bogdanova_belikova_buk_prodovolstvennaya_bezopasnost_rf.pdf",
+    "note": {
+      "en": "§1.1 four dimensions and access distinction; independent Russian authored exposition. Not current national food statistics.",
+      "ru": "§1.1: четыре измерения и различение наличия и доступа, самостоятельное русское изложение. Не актуальная статистика стран."
+    }
+  },
+  "photosynthesis-ib-stages": {
+    "title": "Biology for the IB Diploma3e · C1.3 publisher answers (2023)",
+    "url": "https://media.hachettelearning.com/media/medialibraries/hodder/answers-and-extras/biology/9781398364240/364240-ib-biology-3ed-saq-answers.pdf",
+    "note": {
+      "en": "Q16,Q18 products,Q23: stroma enzymes and dependence on ATP/NADPH. Published DP answers, not school MYP scope evidence. Q21a stoma/absence-of-light error excluded.",
+      "ru": "Q16, продукты Q18,Q23: ферменты стромы и зависимость от АТФ/НАДФН. Ответы DP, не доказательство школьного MYP scope. Ошибка stoma/absence of light в Q21a не используется."
+    }
+  },
+  "photosynthesis-ru-stages": {
+    "title": "Фоксфорд · Фазы фотосинтеза",
+    "url": "https://externat.foxford.ru/polezno-znat/wiki-biologiya-fotosintez",
+    "note": {
+      "en": "Independently authored Russian school exposition, What happens during photosynthesis and Dark phase: products from the light stage support sugar synthesis in the stroma.",
+      "ru": "Самостоятельное русское изложение: «Что происходит в процессе фотосинтеза» и «Темновая фаза»: продукты световой стадии нужны для синтеза сахаров в строме."
+    }
   }
 }

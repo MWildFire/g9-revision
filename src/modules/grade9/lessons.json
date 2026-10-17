@@ -632,12 +632,12 @@
       "ru": "Проценты и причинные связи."
     },
     "explanation": {
-      "en": "A resource is something people use to meet a need. Supply is the quantity available; demand concerns willingness and ability to obtain it; consumption is actual use. Population growth, income, diets and technology can change demand. Carrying capacity depends on technology, consumption and environment, so it is not an unchanging headcount. Malthus argued that unchecked population could outgrow food supply; Boserup emphasised how pressure can stimulate agricultural innovation. Neither guarantees a particular future. Food security includes availability, access, utilisation and stability: enough food nationally does not ensure every family can afford a nutritious diet. GDP measures production, not distribution or nutrition. Interpret hunger indicators and death rates with definitions, year and limitations. Renewable flows are replenished on human timescales, but overuse can still damage systems; fossil fuels form far more slowly than they are used.",
-      "ru": "Ресурсом становится то, что люди используют для удовлетворения потребности. Предложение (supply) — доступное количество, спрос (demand) учитывает возможность получить ресурс, потребление (consumption) — фактическое использование. Спрос меняют население, доходы, питание и технологии. Ёмкость среды зависит от образа жизни и способов производства, поэтому это не вечное предельное число людей. Мальтус опасался, что рост населения опередит продовольствие; Бозеруп подчёркивала, что давление потребностей стимулирует сельскохозяйственные новшества. Обе идеи требуют проверки в конкретных условиях. Продовольственная безопасность включает наличие пищи, доступность, полноценное использование и стабильность. Достаточный урожай в стране не означает, что каждая семья может купить полезную еду. ВВП характеризует производство, но не распределение или питание. Для индексов голода и смертности нужны определение, год и ограничения. Возобновляемость не разрешает неограниченный расход: даже возобновляемый ресурс можно истощать быстрее восстановления."
+      "en": "A resource is something people use to meet a need. Physical supply is the amount available. Market supply relates quantities sellers are willing and able to offer to different prices in a stated period; market demand relates quantities buyers are willing and able to purchase to those prices. Consumption is actual use. Population growth, income, diets and technology can change demand. Carrying capacity depends on technology, consumption and environment, so it is not an unchanging headcount. Malthus argued that unchecked population could outgrow food supply; Boserup emphasised how pressure can stimulate agricultural innovation. Neither guarantees a particular future. Food security includes availability, access, utilisation and stability: enough food nationally does not ensure every family can afford a nutritious diet. GDP measures production, not distribution or nutrition. Interpret hunger indicators and death rates with definitions, year and limitations. Renewable flows are replenished on human timescales, but overuse can still damage systems; fossil fuels form far more slowly than they are used.",
+      "ru": "Ресурсом становится то, что люди используют для удовлетворения потребности. Физическая доступность показывает имеющееся количество ресурса, а потребление (consumption) — фактическое использование. Рыночные спрос и предложение зависят также от цены, периода и готовности участников купить или продать, как разобрано ниже. Спрос меняют население, доходы, питание и технологии. Ёмкость среды зависит от образа жизни и способов производства, поэтому это не вечное предельное число людей. Мальтус опасался, что рост населения опередит продовольствие; Бозеруп подчёркивала, что давление потребностей стимулирует сельскохозяйственные новшества. Обе идеи требуют проверки в конкретных условиях. Продовольственная безопасность включает наличие пищи, доступность, полноценное использование и стабильность. Достаточный урожай в стране не означает, что каждая семья может купить полезную еду. ВВП характеризует производство, но не распределение или питание. Для индексов голода и смертности нужны определение, год и ограничения. Возобновляемость не разрешает неограниченный расход: даже возобновляемый ресурс можно истощать быстрее восстановления.\n\nВ рынке предложение — количества, которые продавцы готовы и способны предложить при разных ценах за заданный период; спрос — количества, которые покупатели хотят и могут приобрести при этих ценах. Одна цена задаёт конкретную величину спроса или предложения. Физический запас ресурса — другой показатель: сам запас ещё не сообщает, сколько владельцы предложат к продаже."
     },
     "worked": {
-      "en": "Invented town: 1000 people need 2 units each; local supply is 2400. Supply exceeds the 2000-unit total need, yet families without income may remain hungry. A food voucher improves access; irrigation may increase availability but does not directly fix unequal incomes.",
-      "ru": "Учебный город: 1000 человек нуждаются в 2 единицах пищи, предложение — 2400. Общая потребность 2000 покрыта, но безденежные семьи всё равно могут голодать. Талон на питание улучшает доступ, орошение увеличивает производство, но само по себе не устраняет неравенство доходов."
+      "en": "Invented town: 1000 people need 2 units each; local supply is 2400. Supply exceeds the 2000-unit total need, yet families without income may remain hungry. A food voucher improves access; irrigation may increase availability but does not directly fix unequal incomes.\n\nInvented one-day market at a stated price: buyers want and can pay for 80 units; sellers offer 60. The shortage at this price is 80−60=20 units per day. A physical stock of 500 units does not establish how much is offered today. This model states planned quantities, not a measured national resource shortage.",
+      "ru": "Учебный город: 1000 человек нуждаются в 2 единицах пищи, предложение — 2400. Общая потребность 2000 покрыта, но безденежные семьи всё равно могут голодать. Талон на питание улучшает доступ, орошение увеличивает производство, но само по себе не устраняет неравенство доходов.\n\nУчебный рынок за один день при указанной цене: покупатели хотят и могут оплатить 80 единиц, продавцы предлагают 60. Дефицит при этой цене — 80−60=20 единиц в день. Физический запас в 500 единиц не сообщает, сколько предложено сегодня. Это модель заявленных количеств, а не измеренный дефицит ресурсов страны."
     },
     "misconception": {
       "en": "Higher national GDP does not prove food security for every household. Innovation can raise yields while creating environmental costs.",
@@ -729,6 +729,17 @@
           "en": "More efficient irrigation or improved crop varieties; farmers need finance and skills, and water/soil use must remain sustainable. Pressure alone does not guarantee innovation.",
           "ru": "Более эффективное орошение или новые сорта; нужны средства, знания и устойчивое использование воды и почвы. Само давление потребностей не гарантирует новшеств."
         }
+      },
+      {
+        "id": "g-resources-market",
+        "prompt": {
+          "en": "At the same stated price and one-day period, buyers are willing and able to buy 45 units while sellers offer 70. Find the surplus. Why can neither a stock of 500 units nor a wish without purchasing power replace these market quantities?",
+          "ru": "При той же указанной цене и периоде в один день покупатели хотят и могут приобрести 45 единиц, продавцы предлагают 70. Найди избыток. Почему запас 500 единиц и желание без покупательной возможности не заменяют эти величины?"
+        },
+        "answer": {
+          "en": "Surplus = 70−45=25 units per day. Stock describes what exists, not willingness to sell it at this price today. A desire without ability to pay is not effective market demand. Neither measure alone establishes everyone’s needs or equitable access; market demand and human need are distinct.",
+          "ru": "Избыток = 70−45=25 единиц в день. Запас показывает наличие, а не готовность продать по этой цене сегодня. Желание без возможности заплатить не образует платёжеспособный рыночный спрос. Ни один показатель сам по себе не устанавливает потребности всех людей и справедливость доступа; рыночный спрос и человеческая потребность различаются."
+        }
       }
     ],
     "links": [
@@ -749,7 +760,10 @@
     ],
     "sources": [
       "geo-food-en",
-      "geo-food-ru"
+      "geo-food-ru",
+      "resource-markets-en",
+      "resource-markets-ru",
+      "food-security-original-ru"
     ]
   },
   {
@@ -1855,6 +1869,17 @@
           "en": "Another factor, such as CO₂ supply or temperature-dependent enzyme activity, becomes limiting. A plateau is not proof that light is never relevant.",
           "ru": "Ограничивать начинает другой фактор: CO₂ или зависящая от температуры работа ферментов. Плато не означает, что свет вообще не важен."
         }
+      },
+      {
+        "id": "b-plants-photosynthesis-stages",
+        "prompt": {
+          "en": "A classmate says: “Chloroplasts use light to turn carbon dioxide and water directly into glucose in the stroma, and the dark reactions operate only at night.” Correct the explanation using the thylakoids and stroma. Why is the net photosynthesis equation not a map of every reaction?",
+          "ru": "Одноклассник говорит: «В строме хлоропласта свет прямо превращает углекислый газ и воду в глюкозу, а темновые реакции идут только ночью». Исправь объяснение через тилакоиды и строму. Почему суммарное уравнение фотосинтеза не показывает каждую реакцию?"
+        },
+        "answer": {
+          "en": "Light-dependent reactions in thylakoid membranes absorb light, split water and release oxygen. They produce ATP (an energy-transfer molecule) and reduced NADP/NADPH (an electron carrier). Enzyme-controlled reactions in the stroma use carbon dioxide and these products to make carbohydrates; sugars such as glucose are assembled from the products. Light-independent does not mean night-only: these reactions depend on products of the light-dependent stage. The net equation adds many steps and cancels intermediates; it does not place all reactants in one compartment or show an immediate one-step synthesis.",
+          "ru": "Световые реакции в мембранах тилакоидов используют свет, расщепляют воду и выделяют кислород. Они дают АТФ — молекулу переноса энергии — и восстановленный НАДФ/НАДФН — переносчик электронов. Ферментативные реакции в строме используют углекислый газ и эти продукты для образования углеводов; из полученных веществ собираются сахара, в том числе глюкоза. «Светонезависимые» не значит «только ночные»: нужны продукты световой стадии. Суммарное уравнение складывает многие этапы и сокращает промежуточные вещества; оно не помещает все реагенты в один отдел и не изображает одностадийный синтез."
+        }
       }
     ],
     "links": [
@@ -1868,7 +1893,9 @@
     ],
     "sources": [
       "biology-ib",
-      "biology-plants-ru"
+      "biology-plants-ru",
+      "photosynthesis-ib-stages",
+      "photosynthesis-ru-stages"
     ]
   },
   {

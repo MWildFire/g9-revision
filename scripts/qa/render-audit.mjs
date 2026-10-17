@@ -6,7 +6,7 @@
 //   options: --langs en,ru  --width 1280  --mobile (adds a 390 px overflow pass)  --shots (full-page PNGs)
 // Required: --port <owned-loopback-port> --build-sha <40-char-sha> --out <evidence-dir> --contract <json>
 // --root selects an isolated built checkout. --discover writes an unaccepted heading inventory.
-// --print additionally audits print media for paper/reference routes, including repeat failures.
+// --print additionally audits paper/reference routes; --print-all audits every selected route in print media.
 // Fails (exit 1) on: JS errors, repeated visible text blocks (≥40 chars) on one page,
 // the same formula card twice on one page, horizontal overflow at widths below 480 px,
 // or a clipped formula in print media.
@@ -44,7 +44,8 @@ const { server, base, identity } = await startAuditServer({ dist:path.join(ROOT,
 let browser;
 try { browser = await chromium.launch(process.env.QA_BROWSER_EXECUTABLE ? { executablePath:process.env.QA_BROWSER_EXECUTABLE } : {}); } catch(error) { server.close(); throw error; }
 const results = [];
-const expectedDenominator = langs.length * (routes.length * (1 + (opt('mobile') ? 1 : 0)) + (opt('print') ? routes.filter(route => /paper|reference|\/print/.test(route)).length : 0));
+const printRoutes = new Set(opt('print-all') ? routes : opt('print') ? routes.filter(route => /paper|reference|\/print/.test(route)) : []);
+const expectedDenominator = langs.length * (routes.length * (1 + (opt('mobile') ? 1 : 0)) + printRoutes.size);
 const cleanupErrors = [];
 let loopCompleted = false, fatalError = null;
 const save = (final = false) => persistAuditReport(path.join(outDir, final ? 'report.json' : 'partial-report.json'), {
@@ -53,12 +54,12 @@ const save = (final = false) => persistAuditReport(path.join(outDir, final ? 're
 });
 try {
   for (const lang of langs) {
-    for (const [label, viewport] of [['desktop', { width, height: 900 }], ...(opt('mobile') ? [['mobile', { width: 390, height: 844 }]] : []), ...(opt('print') ? [['print', { width:1280, height:900 }]] : [])]) {
+    for (const [label, viewport] of [['desktop', { width, height: 900 }], ...(opt('mobile') ? [['mobile', { width: 390, height: 844 }]] : []), ...(printRoutes.size ? [['print', { width:1280, height:900 }]] : [])]) {
       const context = await browser.newContext({ viewport });
       await context.addInitScript(l => { try { localStorage.setItem('g9-lang', l); } catch {} }, lang);
 
       for (const route of routes) {
-        if (label === 'print' && !/paper|reference|\/print/.test(route)) continue;
+        if (label === 'print' && !printRoutes.has(route)) continue;
         const page = await context.newPage(); // no DOM from a previous route can satisfy readiness
         const errors = [];
         page.on('pageerror', e => errors.push(String(e.message).slice(0,300)));

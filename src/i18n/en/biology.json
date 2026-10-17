@@ -3364,11 +3364,11 @@
     "intro": "How the body stays healthy and defends itself. This page covers infectious and non-communicable diseases, pathogens, the body's defences, vaccination and antibiotics.",
     "sections": {
       "diseaseTypes": {
-        "title": "Communicable and non-communicable diseases",
+        "title": "Infectious disease, transmission and non-communicable conditions",
         "detailed": {
           "communicable": {
-            "name": "Communicable (infectious) diseases",
-            "rule": "A communicable disease is caused by a pathogen and can pass from one person to another, directly or indirectly.\n\nThe pathogen can travel through direct contact, including contact with bodily fluids, in droplets from coughs and sneezes, through contaminated food or water, or through a vector. A vector is an organism that carries a pathogen from one host to another, such as a mosquito.",
+            "name": "Infectious diseases and transmission",
+            "rule": "Infectious diseases are caused by pathogens. Many infections can spread between people, directly or indirectly, but infection does not always mean person-to-person transmission. Tetanus is an infectious disease acquired when bacterial spores enter a wound; it is not passed from person to person.\n\nDepending on the pathogen, transmission can involve direct contact, respiratory particles, contaminated food or water, or a vector. A vector is an organism that carries a pathogen between hosts, such as a mosquito. Identify the route for the particular infection rather than assuming that every route applies to every pathogen.",
             "examples": [
               "Tuberculosis (TB) is caused by the bacterium Mycobacterium tuberculosis and spreads through the air when an infected person coughs.",
               "Influenza (flu) is caused by a virus and spreads in tiny droplets from the coughs and sneezes of infected people.",
@@ -3379,8 +3379,8 @@
             ],
             "tip": "When you write about an infection, state the type of pathogen and the transmission route.",
             "review": {
-              "englishTerm": "Communicable (infectious) diseases",
-              "russianTerm": "Инфекционные болезни",
+              "englishTerm": "Infectious disease and transmission",
+              "russianTerm": "Инфекционная болезнь и передача возбудителя",
               "contrast": {
                 "en": "Infection means a pathogen has entered the body and is multiplying there. Disease means the infection is causing harm to the body, usually with symptoms. A person can be infected with no symptoms and still pass the pathogen on.",
                 "ru": "Инфекция — это попадание патогена в организм и его размножение в нём. Болезнь — это вред, который инфекция наносит организму, обычно с симптомами. Человек может быть инфицирован без симптомов и всё же передать патоген другим людям."
@@ -3409,6 +3409,18 @@
                   "url": "https://foxford.ru/wiki/biologiya/immunnaya-sistema",
                   "language": "ru",
                   "section": "Иммунная система: барьеры и органы иммунной системы"
+                },
+                {
+                  "title": "WHO · Tetanus",
+                  "url": "https://www.who.int/news-room/fact-sheets/detail/tetanus",
+                  "language": "en",
+                  "section": "Key facts and overview: infectious disease acquired through contaminated wounds; no person-to-person transmission."
+                },
+                {
+                  "title": "Роспотребнадзор · Профилактика столбняка · 16 июня 2023",
+                  "url": "https://zpp.rospotrebnadzor.ru/news/federal/453924",
+                  "language": "ru",
+                  "section": "Начало статьи: возбудитель и почва; абзац «Возбудитель столбняка не передается от человека к человеку»: споры попадают через повреждённые ткани."
                 }
               ]
             }
@@ -3425,8 +3437,8 @@
               "englishTerm": "Non-communicable diseases",
               "russianTerm": "Неинфекционные болезни",
               "contrast": {
-                "en": "A disease can be inherited and still not be communicable. Inheritance means passing genes from parents to children. Communicability means that a pathogen can pass from one person to another.",
-                "ru": "Болезнь может наследоваться и при этом не быть инфекционной. Наследование — это передача генов от родителей к детям. Инфекционность — это способность патогена переходить от одного человека к другому."
+                "en": "Inheritance means passing genetic material from parents to offspring. Transmission of an infection means transfer of its pathogen. These are different processes. Also, not every infectious disease spreads between people: tetanus is an important counterexample.",
+                "ru": "Наследование — передача генетического материала от родителей потомкам. При передаче инфекции переносится её возбудитель. Это разные процессы. Кроме того, не каждая инфекционная болезнь передаётся между людьми: столбняк служит важным контрпримером."
               },
               "sources": [
                 {

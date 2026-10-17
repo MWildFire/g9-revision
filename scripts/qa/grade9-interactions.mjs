@@ -26,6 +26,7 @@ const [sha,outArg,portArg]=process.argv.slice(2);
 if(!sha||!outArg||!portArg)throw Error('Usage: grade9-interactions.mjs SHA OUT PORT');
 const out=path.resolve(outArg);fs.mkdirSync(out,{recursive:true});
 const lessons=JSON.parse(fs.readFileSync('src/modules/grade9/lessons.json','utf8'));
+const macbeth=JSON.parse(fs.readFileSync('src/modules/english/data/macbeth-scenes.json','utf8'));
 const topics=JSON.parse(fs.readFileSync('src/data/revision-plan.json','utf8')).topics;
 const mocks=JSON.parse(fs.readFileSync('src/data/mocks.json','utf8')).lessons;
 function legacyHeading(route,lang){
@@ -58,6 +59,34 @@ try{
     await page.screenshot({path:path.join(out,`${l.id}-${lang}-${width===1280?'desktop':'mobile'}.png`),fullPage:true});
     results.push({route:'/grade9/'+l.id,lang,width,explanation:true,answers:l.practice.length,overflow});save();
    }
+   for(let act=1;act<=5;act++){
+    await page.goto(base+`/english/macbeth?act=${act}`);
+    await page.getByRole('button',{name:`${lang==='ru'?'Акт':'Act'} ${act}`,exact:true}).waitFor();
+    assert.equal(await page.getByRole('button',{name:`${lang==='ru'?'Акт':'Act'} ${act}`,exact:true}).getAttribute('aria-pressed'),'true');
+    const expected=macbeth.filter(s=>s.act===act);
+    assert.equal(await page.locator('.macbeth-scene').count(),expected.length);
+    for(const scene of expected){
+     await page.getByText(scene.context[lang],{exact:true}).waitFor();
+     for(const focus of scene.analysis)await page.getByText(focus.text[lang],{exact:true}).waitFor();
+     await page.locator(`#${scene.id} details`).locator('summary').click();
+     await page.locator(`#${scene.id} details`).getByText(scene.practice.answer[lang],{exact:true}).waitFor();
+    }
+    await settle(page);
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,`Macbeth${act}/${lang}/${width} overflow`);
+    await page.screenshot({path:path.join(out,`macbeth-act${act}-${lang}-${width===1280?'desktop':'mobile'}.png`),fullPage:true});
+    results.push({scenario:'macbeth_explanations_and_answers',act,lang,width,scenes:expected.length,focuses:expected.length*4,overflow:false});save();
+   }
+  }
+  for(let act=1;act<=5;act++){
+   await page.goto(base+`/english/macbeth?act=${act}`);
+   await page.getByRole('heading',{level:2,name:`${lang==='ru'?'Акт':'Act'} ${act}`,exact:true}).waitFor();
+   await page.emulateMedia({media:'print'});await settle(page);
+   for(const scene of macbeth.filter(s=>s.act===act)){
+    await page.locator(`#${scene.id} .macbeth-print-answer`).getByText(scene.practice.answer[lang],{exact:true}).waitFor({state:'visible'});
+   }
+   await page.pdf({path:path.join(out,`macbeth-act${act}-${lang}.pdf`),format:'A4',printBackground:true});
+   await page.emulateMedia({media:'screen'});
+   results.push({scenario:'macbeth_print_explanations_and_answers',act,lang,passed:true});save();
   }
   // New checks persist across route navigation and reload without losing old plan data.
   await page.goto(base+'/grade9/g-floods');await page.getByRole('heading',{level:1,name:lessons.find(l=>l.id==='g-floods').title[lang]}).waitFor();

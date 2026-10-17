@@ -1,0 +1,14 @@
+.macbeth-study summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.macbeth-study p{line-height:1.75;overflow-wrap:anywhere}
+.macbeth-study a{overflow-wrap:anywhere}
+.macbeth-study button[aria-pressed="true"]{background:var(--color-bg-secondary);font-weight:700;outline:2px solid currentColor;outline-offset:2px}
+@media print{
+ @page macbeth-study{size:A4;margin:12mm}
+ .macbeth-study{page:macbeth-study}
+ .macbeth-study .macbeth-scene{padding:0;border:0;break-before:page}
+ .macbeth-study .macbeth-focus,.macbeth-study .macbeth-task{break-inside:avoid}
+ .macbeth-study h3,.macbeth-study h4{break-after:avoid}
+ .macbeth-study .macbeth-task details{display:none!important}
+ .macbeth-study .macbeth-print-answer{display:block!important}
+ .macbeth-study .macbeth-print-answer h4{font-weight:600;margin-top:3mm}
+}

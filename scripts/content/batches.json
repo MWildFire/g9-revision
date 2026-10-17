@@ -3407,7 +3407,11 @@
         "/english/exam-format",
         "/english/progress-test",
         "/english/extras",
-        "/mocks/english-unseen"
+        "/mocks/english-unseen",
+        "/english/macbeth?act=2",
+        "/english/macbeth?act=3",
+        "/english/macbeth?act=4",
+        "/english/macbeth?act=5"
       ],
       "units": [
         {
@@ -3510,6 +3514,14 @@
         {
           "kind": "tsx",
           "file": "src/modules/english/pages/ExamFormatPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/pages/MacbethPage.tsx"
+        },
+        {
+          "kind": "json",
+          "file": "src/modules/english/data/macbeth-scenes.json"
         }
       ]
     },
@@ -3765,7 +3777,8 @@
         "/grade9/f-solidarity-profile",
         "/grade9/f-france-education",
         "/grade9/f-school-journeys",
-        "/grade9/g-jamaica-tourism"
+        "/grade9/g-jamaica-tourism",
+        "/grade9/e-macbeth-3-2"
       ],
       "units": [
         {

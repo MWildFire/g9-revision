@@ -30,6 +30,8 @@ test('automatically found cards stay on pages of their own subject', () => {
   assert.ok(ids('Aerobic respiration uses glucose and oxygen.', 'biology').includes('respiration-equation'));
   assert.ok(!ids('Анаэробное дыхание высвобождает энергию из глюкозы без кислорода.', 'biology').includes('respiration-equation'));
   assert.ok(ids('Аэробное дыхание расходует кислород.', 'biology').includes('respiration-equation'));
+  assert.ok(ids('При аэробном дыхании высвобождается энергия.', 'biology').includes('respiration-equation'));
+  assert.ok(!ids('При анаэробном дыхании кислород не расходуется.', 'biology').includes('respiration-equation'));
   assert.equal(formulaAllowedOn('quadratic-formula', null), true, 'no page subject = no restriction');
 });
 

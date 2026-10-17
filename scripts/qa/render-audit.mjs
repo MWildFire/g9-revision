@@ -129,8 +129,26 @@ try {
               }
             } finally { await withDeadline(() => cdp.detach(),'tile_session_detach'); }
             fs.writeFileSync(path.join(outDir,`${stem}-tiles.json`),JSON.stringify({build:identity,lang,view:label,route,dimensions,tiles},null,2)+'\n');
-          } else await page.screenshot({ path:path.join(outDir, `${stem}.png`), fullPage:true });
-          await page.screenshot({ path:path.join(outDir, `${stem}-viewport.png`) });
+          } else {
+            // Capture the already checked layout directly. Playwright's screenshot
+            // preparation can wait forever on fonts introduced by print layout.
+            // CDP avoids that second layout cycle; it does not waive readiness.
+            const cdp = await context.newCDPSession(page);
+            try {
+              const shot = await withDeadline(() => cdp.send('Page.captureScreenshot', {
+                format:'png', captureBeyondViewport:true,
+                clip:{x:0,y:0,width:dimensions.width,height:dimensions.height,scale:1},
+              }), 'page_capture', 30000);
+              fs.writeFileSync(path.join(outDir, `${stem}.png`), Buffer.from(shot.data,'base64'));
+            } finally { await withDeadline(() => cdp.detach(),'page_session_detach'); }
+          }
+          const viewportSession = await context.newCDPSession(page);
+          try {
+            const shot = await withDeadline(() => viewportSession.send('Page.captureScreenshot', {format:'png'}), 'viewport_capture', 30000);
+            fs.writeFileSync(path.join(outDir, `${stem}-viewport.png`), Buffer.from(shot.data,'base64'));
+          } finally { await withDeadline(() => viewportSession.detach(),'viewport_session_detach'); }
+          // A capture must still satisfy the complete font/image contract.
+          await waitForCaptureReady(page, { ...contract[`${lang}:${route}`], ...(contract[`${lang}:${route}`].views?.[label] ?? {}), route, lang }, { timeout:Number(opt('timeout')??20000) });
           if (label === 'print') await page.pdf({ path:path.join(outDir, `${stem}.pdf`), format:'A4', printBackground:true });
           result.artifact_status='complete';
           } catch(error) {
@@ -138,7 +156,8 @@ try {
             result.status='capture_incomplete';
             result.fail=true;
             result.error=String(error);
-            throw error;
+            // Preserve this failed artifact and continue the remaining finite
+            // matrix. The failed row still makes the final command exit 1.
           }
         }
         save();

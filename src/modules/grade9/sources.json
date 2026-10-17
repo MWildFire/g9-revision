@@ -99,8 +99,8 @@
     "title": "Paul Morris · Physics for the IB MYP 4&5, Hodder 2015 (EN)",
     "url": "https://www.hachettelearning.com/",
     "note": {
-      "en": "ISBN 9781471839337. Existing corpus textbook basis; new exercises are authored. See the linked subject library for definition-level references.",
-      "ru": "ISBN 9781471839337. Учебная основа существующего корпуса; новые примеры авторские. Точные ссылки определений — в библиотеке."
+      "en": "ISBN 9781471839337. Bibliographic background for the existing physics course; this publisher page is not a passage citation. Numerical exercises in this lesson are authored.",
+      "ru": "ISBN 9781471839337. Библиографическая основа существующего курса физики; страница издателя не указывает конкретный фрагмент. Численные задания урока — учебные примеры."
     }
   },
   "physics-ru": {
@@ -112,27 +112,27 @@
     }
   },
   "biology-ib": {
-    "title": "Allott & Mindorff · MYP Biology Years 4&5, Oxford 2017 (EN)",
-    "url": "https://global.oup.com/education/",
+    "title": "Hodder · Biology for the IB Diploma Study and Revision Guide (2017), selected sample",
+    "url": "https://media.hachettelearning.com/media/medialibraries/hodder/samples/biology/16-19/biology-for-the-ib-diploma/biology-for-the-ib-diploma-study-and-revision-guide-sample-pages-9781471899706.pdf",
     "note": {
-      "en": "Existing corpus textbook basis; compare the linked library's individual source records. This is a bibliography, not a claim of fresh full-book verification.",
-      "ru": "Учебная основа существующего корпуса; точные ссылки — в предметной библиотеке. Это библиография, не новая полная проверка книги."
+      "en": "ISBN 9781471899706. PDF p.13, Table 1.3: ribosomes and chloroplast compartments; PDF pp.21–22: diffusion, osmosis and the water-potential direction. Diploma-level support for these named concepts; this sample does not define the school mock scope. The potato example and potometer calculations are authored.",
+      "ru": "ISBN 9781471899706. Страница 13 PDF, таблица 1.3: рибосомы и отделы хлоропласта; с.21–22 PDF: диффузия, осмос и направление по водному потенциалу. Это пояснение названных понятий на уровне Diploma, а не перечень тем школьного пробника. Опыт с картофелем и расчёты для потометра — учебные примеры."
     }
   },
   "biology-ru": {
     "title": "Фоксфорд · Сердечно-сосудистая система (RU)",
     "url": "https://foxford.ru/wiki/biologiya/serdechno-sosudistaya-sistema-cheloveka-serdtse",
     "note": {
-      "en": "Circulation and the heart; other definitions keep their specific references in the subject library.",
-      "ru": "Кровообращение и сердце; точные ссылки остальных определений сохранены в библиотеке."
+      "en": "The sections on the heart and blood circulation support the circulation lesson; this page does not cover all cell and plant biology.",
+      "ru": "Разделы о сердце и кругах кровообращения относятся к уроку о кровообращении. Эта страница не охватывает всю биологию клетки и растений."
     }
   },
   "chem-ib": {
     "title": "Annie Termaat & Christopher Talbot · Chemistry for the IB MYP 4&5, Hodder 2016 (EN)",
     "url": "https://www.hachettelearning.com/",
     "note": {
-      "en": "Existing corpus bibliography; conditions and worked cases are authored. Subject definitions retain individual references.",
-      "ru": "Библиография существующего корпуса; условия и примеры авторские. У определений сохранены отдельные ссылки."
+      "en": "Bibliographic background for the existing chemistry course; this publisher page is not a passage citation. Worked cases and their stated conditions are authored.",
+      "ru": "Библиографическая основа существующего курса химии; страница издателя не указывает конкретный фрагмент. Примеры и оговорённые условия составлены для урока."
     }
   },
   "chem-ru": {
@@ -155,8 +155,8 @@
     "title": "Фоксфорд · Математика (RU)",
     "url": "https://foxford.ru/wiki/matematika",
     "note": {
-      "en": "Russian terminology; detailed references are in the subject library. Original calculations need independent checking.",
-      "ru": "Русские определения; подробные ссылки — в библиотеке. Авторские расчёты требуют самостоятельной проверки."
+      "en": "A terminology index, not a passage citation for every mathematical statement. Worked calculations follow the explicitly stated assumptions.",
+      "ru": "Указатель терминов, а не подтверждение каждого математического утверждения. Расчёты выполняются при явно указанных условиях."
     }
   },
   "english-ib": {

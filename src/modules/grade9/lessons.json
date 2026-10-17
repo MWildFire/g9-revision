@@ -1413,8 +1413,8 @@
       "ru": "Повторы показывают изменчивость результата в заданных условиях. Размах — максимум минус минимум; половина размаха бывает простой школьной оценкой разброса повторов, но не универсальным определением неопределённости. Влияют также разрешение, калибровка, реакция наблюдателя и метод. Систематическое смещение может одинаково сдвинуть все показания, не увеличив разброс. Поэтому нужно назвать способ оценки, а не автоматически складывать несопоставимые составляющие. Тесный разброс означает хорошую повторяемость, но не гарантирует близости к истинному значению. Наклон графика рассчитывают как изменение вертикальной величины на изменение горизонтальной и указывают единицы. Градиент концентрации при диффузии описывает изменение концентрации в пространстве: само слово gradient не повод добавлять формулу прямой."
     },
     "worked": {
-      "en": "Timings 9.8, 10.0 and 10.2 s have mean 10.0 s, range 0.4 s and half-range 0.2 s. Report 10.0 ± 0.2 s only if explicitly describing this repeat-spread estimate. If the timer systematically starts 0.5 s late, every duration is shortened; repeats do not remove that bias.",
-      "ru": "Времена 9,8; 10,0; 10,2 с дают среднее 10,0 с, размах 0,4 с и половину размаха 0,2 с. Запись 10,0 ± 0,2 с допустима с пояснением, что это оценка разброса повторов. Если секундомер каждый раз запускают на 0,5 с позже, все интервалы занижены; повторы это не устраняют."
+      "en": "Timings 9.8, 10.0 and 10.2 s have mean 10.0 s, range 0.4 s and half-range 0.2 s. Report 10.0 ± 0.2 s only if explicitly describing this repeat-spread estimate. If the timer systematically starts 0.5 s late, every duration is shortened; repeats do not remove that bias. In this model the stop is at the correct finishing event: starting 0.5 s late gives measured time = true duration − 0.5 s. This is a specified offset, not a claim that all human reaction errors have the same sign.",
+      "ru": "Времена 9,8; 10,0; 10,2 с дают среднее 10,0 с, размах 0,4 с и половину размаха 0,2 с. Запись 10,0 ± 0,2 с допустима с пояснением, что это оценка разброса повторов. Если секундомер каждый раз запускают на 0,5 с позже, все интервалы занижены; повторы это не устраняют. В этой модели секундомер останавливают точно в момент окончания события: пуск с опозданием на 0,5 с даёт измеренное время = истинная длительность − 0,5 с. Это заданное смещение, а не утверждение, что любая ошибка реакции человека имеет один знак."
     },
     "misconception": {
       "en": "A digital display with more decimal places does not prove the result is more accurate.",
@@ -1439,7 +1439,7 @@
           },
           {
             "en": "10.0 s",
-            "ru": "10,0 s"
+            "ru": "10,0 с"
           }
         ],
         [
@@ -1449,7 +1449,7 @@
           },
           {
             "en": "0.4 s",
-            "ru": "0,4 s"
+            "ru": "0,4 с"
           }
         ],
         [
@@ -1459,7 +1459,7 @@
           },
           {
             "en": "0.2 s",
-            "ru": "0,2 s"
+            "ru": "0,2 с"
           }
         ]
       ],
@@ -1517,7 +1517,9 @@
     ],
     "sources": [
       "physics-ib",
-      "physics-ru"
+      "physics-ru",
+      "physics-uncertainty-en",
+      "physics-offset-ru"
     ]
   },
   {
@@ -1575,7 +1577,7 @@
           },
           {
             "en": "A = C/s",
-            "ru": "A = C/s"
+            "ru": "А = Кл/с"
           }
         ],
         [
@@ -1585,11 +1587,11 @@
           },
           {
             "en": "VI (UI)",
-            "ru": "VI (UI)"
+            "ru": "UI"
           },
           {
             "en": "W = J/s",
-            "ru": "W = J/s"
+            "ru": "Вт = Дж/с"
           }
         ],
         [
@@ -1603,7 +1605,7 @@
           },
           {
             "en": "J",
-            "ru": "J"
+            "ru": "Дж"
           }
         ]
       ],
@@ -1650,7 +1652,9 @@
       "physics-ru",
       "current-openstax",
       "ohm-openstax",
-      "circuits-ru"
+      "circuits-ru",
+      "physics-current-ru",
+      "physics-circuits-ru"
     ]
   },
   {
@@ -2689,7 +2693,9 @@
     ],
     "links": [],
     "sources": [
-      "myp-pe"
+      "myp-pe",
+      "comparison-method-en",
+      "comparison-method-ru"
     ]
   },
   {
@@ -2794,7 +2800,10 @@
     ],
     "links": [],
     "sources": [
-      "moral-official"
+      "moral-official",
+      "fact-value-en",
+      "fact-value-ru",
+      "fact-verification-ru"
     ]
   },
   {
@@ -2915,7 +2924,15 @@
     ],
     "links": [],
     "sources": [
-      "myp-art"
+      "myp-art",
+      "art-observe-en",
+      "art-means-en",
+      "art-observe-ru",
+      "art-means-ru",
+      "comparison-method-en",
+      "comparison-method-ru",
+      "source-credit-en",
+      "source-credit-ru"
     ]
   },
   {
@@ -2935,8 +2952,8 @@
       "ru": "Различай наблюдение, трактовку и мнение."
     },
     "explanation": {
-      "en": "Social Studies is confirmed in the archived Grade9 inventory; its precise exam content is unknown. A source can be useful for one question and limited for another. Establish who created it, when, for whom and for what purpose. A promotional brochure may reveal how an institution wished to be seen but cannot alone establish how all residents experienced it. A later account may use hindsight and additional evidence, while losing direct access to some experiences. Primary does not automatically mean reliable, and secondary does not mean worthless. Corroborate specific claims with independent evidence, check whether the sources share an origin and explain contradictions. Distinguish a chronological sequence from a causal argument: an event happening first does not prove it caused the next one.",
-      "ru": "Social Studies подтверждён в архиве G9, но точный экзаменационный состав неизвестен. Источник полезен для одного вопроса и ограничен для другого. Установи автора, время, адресата и цель. Рекламная брошюра показывает желаемый образ организации, но не доказывает опыт всех жителей. Поздний рассказ может учитывать дополнительные данные и последствия, но хуже передавать некоторые непосредственные впечатления. Первичный источник не обязательно достоверен, вторичный не обязательно бесполезен. Сверяй конкретные утверждения по независимым данным и проверяй, не восходят ли источники к одной публикации. Последовательность событий ещё не доказывает причинную связь."
+      "en": "Social Studies is confirmed in the archived Grade9 inventory; its precise exam content is unknown. A source can be useful for one question and limited for another. Establish who created it, when, for whom and for what purpose. A promotional brochure may reveal how an institution wished to be seen but cannot alone establish how all residents experienced it. A later analysis can draw on additional evidence. A later recollection can also be shaped by subsequent knowledge and changed personal or social context; compare specific claims with contemporary records. Primary does not automatically mean reliable, and secondary does not mean worthless. Corroborate specific claims with independent evidence, check whether the sources share an origin and explain contradictions. Distinguish a chronological sequence from a causal argument: an event happening first does not prove it caused the next one.",
+      "ru": "Social Studies подтверждён в архиве G9, но точный экзаменационный состав неизвестен. Источник полезен для одного вопроса и ограничен для другого. Установи автора, время, адресата и цель. Рекламная брошюра показывает желаемый образ организации, но не доказывает опыт всех жителей. Поздний анализ может опираться на дополнительные данные. Позднее воспоминание также может меняться под влиянием последующих знаний, личных обстоятельств и общественного контекста; сверяй конкретные утверждения с записями того времени. Первичный источник не обязательно достоверен, вторичный не обязательно бесполезен. Сверяй конкретные утверждения по независимым данным и проверяй, не восходят ли источники к одной публикации. Последовательность событий ещё не доказывает причинную связь."
     },
     "worked": {
       "en": "Invented source A is a council poster calling a new park “for everyone”; source B is a resident interview about an inaccessible path. A supports the council’s stated public intention; B gives one experience of access. Neither proves every resident’s experience. Site inspection and a broader sample would test the access claim.",
@@ -3023,7 +3040,17 @@
     "links": [],
     "sources": [
       "myp-humanities",
-      "social-ru"
+      "social-ru",
+      "source-method-en",
+      "source-method-ru",
+      "source-comparison-ru",
+      "source-audience-ru",
+      "source-memory-en",
+      "source-memory-ru",
+      "source-secondary-en",
+      "source-secondary-ru",
+      "source-credit-en",
+      "source-credit-ru"
     ]
   },
   {
@@ -3138,7 +3165,16 @@
     ],
     "links": [],
     "sources": [
-      "myp-project"
+      "myp-project",
+      "project-goals-en",
+      "project-process-ru",
+      "project-learning-ru",
+      "career-method-en",
+      "career-method-ru",
+      "service-needs-en",
+      "service-needs-ru",
+      "source-credit-en",
+      "source-credit-ru"
     ]
   },
   {

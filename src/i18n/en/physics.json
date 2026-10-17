@@ -560,7 +560,7 @@
       },
       "newtonLaws": {
         "name": "Newton's Three Laws",
-        "rule": "Newton's three laws:\n\n1. an object keeps its velocity if the resultant force on it is zero.\n\n2. F = ma, where F is the resultant force (N), m is the mass (kg) and a is the acceleration (m/s²).\n\n3. the two forces in an interaction are equal in size, opposite in direction, and act on different bodies.",
+        "rule": "Newton's three laws in an inertial reference frame, using the constant-mass model:\n\n1. An object keeps its velocity if the resultant force on it is zero.\n\n2. F = ma: F is the resultant force (N), m the constant mass (kg), and a the acceleration (m/s²). Force and acceleration are vectors.\n\n3. The two forces in an interaction have equal magnitudes, opposite directions, and act on different bodies.",
         "examples": [
           "A 30 N resultant on 10 kg gives 3 m/s².",
           "A rocket pushes gas backwards, and the gas pushes the rocket forwards: this is a third-law pair. The rocket's weight and the thrust are not a pair, because both act on the rocket."
@@ -609,7 +609,7 @@
         "rule": "Momentum, p = mv, is a vector in the direction of the velocity; its unit is kg·m/s. The impulse of a force, J = FavgΔt, equals the change in momentum, Δp. In a collision, the total momentum before equals the total momentum after if external forces are negligible. Here m is mass (kg), v is velocity (m/s), Favg is average resultant force (N), and Δt is duration (s); J is in N·s.",
         "examples": [
           "Stopping a 1.5 kg box sliding east at 4 m/s needs an impulse of 6 N·s to the west.",
-          "A 0.2 kg ball hits a wall at 5 m/s and bounces back at 5 m/s. Its momentum changes by 2 kg·m/s. If it stopped dead, the change would be only 1 kg·m/s."
+          "Take motion towards the wall as positive. A 0.2 kg ball arrives at +5 m/s and rebounds at −5 m/s. Δp = 0.2(−5 − 5) = −2 kg·m/s: magnitude 2 kg·m/s, away from the wall. If it stopped, Δp = 0.2(0 − 5) = −1 kg·m/s."
         ],
         "review": {
           "englishTerm": "Momentum & Impulse",

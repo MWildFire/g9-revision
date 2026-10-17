@@ -12,11 +12,14 @@ async function settle(page){
  const deadline=Date.now()+15000;
  while(Date.now()<deadline){
   const state=await page.evaluate(()=>{
-   const root=document.querySelector('.g9-course')||document.querySelector('main');
+   // Some preserved subject libraries render a div rather than a main element.
+   // The app root is explicit in index.html and remains available during transitions.
+   const root=document.querySelector('.g9-course')||document.querySelector('.macbeth-study')||document.querySelector('main')||document.getElementById('root');
+   if(!root)return {fonts:document.fonts.status,signature:'route-root-not-ready'};
    const nodes=[root,...root.querySelectorAll('h1,h2,p,table,span[lang="ar"]')];
    return {fonts:document.fonts.status,signature:JSON.stringify(nodes.map(n=>{const r=n.getBoundingClientRect(),s=getComputedStyle(n);return [Math.round(r.x),Math.round(r.y),Math.round(r.width),Math.round(r.height),s.opacity,s.fontFamily];}))};
   });
-  if(state.fonts==='loaded'&&state.signature===previous){if(Date.now()-since>=500)return;}
+  if(state.fonts==='loaded'&&state.signature!=='route-root-not-ready'&&state.signature===previous){if(Date.now()-since>=500)return;}
   else{previous=state.signature;since=Date.now();}
   await new Promise(r=>setTimeout(r,100));
  }
@@ -114,7 +117,7 @@ try{
    await page.goto(base+route);const expectedHeading=legacyHeading(route,lang);await page.getByRole('heading',{level:1,name:expectedHeading,exact:true}).waitFor();
    await page.locator('main details').evaluateAll(nodes=>nodes.forEach(n=>n.open=true));
    await settle(page);
-   const text=await page.locator('main').first().innerText();assert.ok(text.length>300);
+   const text=await page.locator('#root').innerText();assert.ok(text.length>300);
    if(route==='/geography/resource-reliance')for(const id of ['g-indicators','g-aral-case'])assert.ok(await page.locator(`a[href$="/grade9/${id}"]`).count()>0);
    await page.screenshot({path:path.join(out,`legacy-${route.split('/').at(-1)}-${lang}.png`),fullPage:true});
    results.push({scenario:'legacy_followup_render',route,lang,expectedHeading,characters:text.length});

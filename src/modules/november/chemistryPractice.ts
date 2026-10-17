@@ -10,8 +10,8 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
         "ru": "Укажи относительный заряд и приближённую относительную массу протона, нейтрона и электрона. Где они находятся в школьной модели атома?"
       },
       "answer": {
-        "en": "Proton: +1 and about 1; neutron:0 and about 1; electron:−1 and about 1/1836. Protons and neutrons are in the nucleus; electrons occupy the region around it. Relative charge and relative mass are ratios, not charges in coulombs or masses in kilograms.",
-        "ru": "Протон: +1 и примерно 1; нейтрон:0 и примерно 1; электрон:−1 и примерно 1/1836. Протоны и нейтроны находятся в ядре, электроны — в области вокруг него. Относительные заряд и масса являются отношениями, а не зарядом в кулонах или массой в килограммах."
+        "en": "Proton: +1 and about 1; neutron: 0 and about 1; electron: −1 and about 1/1836. Protons and neutrons are in the nucleus; electrons occupy the region around it. Relative charge and relative mass are ratios, not charges in coulombs or masses in kilograms.",
+        "ru": "Протон: +1 и примерно 1; нейтрон: 0 и примерно 1; электрон: −1 и примерно 1/1836. Протоны и нейтроны находятся в ядре, электроны — в области вокруг него. Относительные заряд и масса являются отношениями, а не зарядом в кулонах или массой в килограммах."
       },
       "marks": 5,
       "criterion": "A"
@@ -32,12 +32,12 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
     {
       "id": "chem-scope-03",
       "prompt": {
-        "en": "Invented sample:75% chlorine-35 and 25% chlorine-37. Calculate its relative atomic mass and explain why these are isotopes.",
-        "ru": "Условный образец:75% хлора-35 и 25% хлора-37. Рассчитай относительную атомную массу и объясни, почему это изотопы."
+        "en": "Invented sample: 75% chlorine-35 atoms and 25% chlorine-37 atoms by number. Calculate its relative atomic mass and explain why these are isotopes.",
+        "ru": "Условный образец: 75% атомов хлора-35 и 25% атомов хлора-37 по числу атомов. Рассчитай относительную атомную массу и объясни, почему это изотопы."
       },
       "answer": {
-        "en": "Ar=(75×35+25×37)/100=35.5. The atoms have the same proton number but different neutron numbers. Ar is a dimensionless weighted mean;35.5 is not a mass number of an individual atom. These abundances are rounded exercise givens.",
-        "ru": "Ar=(75×35+25×37)/100=35,5. Число протонов одинаково, число нейтронов различается. Ar — безразмерное взвешенное среднее;35,5 не является массовым числом отдельного атома. Доли заданы и округлены для задачи."
+        "en": "Ar=(75×35+25×37)/100=35.5. The atoms have the same proton number but different neutron numbers. Ar is a dimensionless weighted mean; 35.5 is not a mass number of an individual atom. These abundances are rounded exercise givens.",
+        "ru": "Ar=(75×35+25×37)/100=35,5. Число протонов одинаково, число нейтронов различается. Ar — безразмерное взвешенное среднее; 35,5 не является массовым числом отдельного атома. Доли заданы и округлены для задачи."
       },
       "marks": 4,
       "criterion": "A"
@@ -248,8 +248,8 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
         "ru": "В реакции Mg+2HCl→MgCl₂+H₂ взяты 6,0 г Mg и избыток кислоты. При M(Mg)=24 г/моль и M(H₂)=2 г/моль найди максимальную массу H₂."
       },
       "answer": {
-        "en": "n(Mg)=6.0/24=0.25 mol. The balanced ratio Mg:H₂ is 1:1, so n(H₂)=0.25 mol and m(H₂)=0.25×2=0.50 g. This theoretical maximum assumes complete conversion of Mg by the specified reaction; collection losses can lower the measured amount.",
-        "ru": "n(Mg)=6,0/24=0,25 моль. По уравнению Mg:H₂=1:1; значит n(H₂)=0,25 моль и m(H₂)=0,25×2=0,50 г. Теоретический максимум предполагает полное превращение магния по этой реакции; потери при сборе уменьшают измеренный результат."
+        "en": "n(Mg)=6.0/24=0.25 mol. The balanced ratio Mg: H₂ is 1: 1, so n(H₂)=0.25 mol and m(H₂)=0.25×2=0.50 g. This theoretical maximum assumes complete conversion of Mg by the specified reaction; collection losses can lower the measured amount.",
+        "ru": "n(Mg)=6,0/24=0,25 моль. По уравнению Mg: H₂=1: 1; значит n(H₂)=0,25 моль и m(H₂)=0,25×2=0,50 г. Теоретический максимум предполагает полное превращение магния по этой реакции; потери при сборе уменьшают измеренный результат."
       },
       "marks": 4,
       "criterion": "A"
@@ -443,12 +443,12 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
     {
       "id": "chem-scope-34",
       "prompt": {
-        "en": "For H₂+Cl₂→2 HCl use mean gas-phase bond energies H–H 436,Cl–Cl 243,H–Cl 431 kJ/mol. Estimate ΔH per mole of reaction as written.",
+        "en": "For H₂+Cl₂→2 HCl use mean gas-phase bond energies H–H 436,Cl–Cl 243, H–Cl 431 kJ/mol. Estimate ΔH per mole of reaction as written.",
         "ru": "Для H₂+Cl₂→2HCl используй средние газофазные энергии связей H–H436,Cl–Cl243,H–Cl431 кДж/моль. Оцени ΔHна моль реакции в записанном виде."
       },
       "answer": {
-        "en": "Broken:436+243=679 kJ/mol. Formed:2×431=862 kJ/mol. ΔH≈679−862=−183 kJ/mol. The negative sign indicates an exothermic estimate. Mean gas-phase bond energies are approximate; phase changes or a different reaction basis require additional accounting.",
-        "ru": "Разрываемые связи:436+243=679 кДж/моль. Образуемые:2×431=862 кДж/моль. ΔH≈679−862=−183 кДж/моль. Отрицательный знак соответствует экзотермической оценке. Средние газофазные энергии приближённы; другие фазы или иной стехиометрический базис требуют поправок."
+        "en": "Broken: 436+243=679 kJ/mol. Formed: 2×431=862 kJ/mol. ΔH≈679−862=−183 kJ/mol. The negative sign indicates an exothermic estimate. Mean gas-phase bond energies are approximate; phase changes or a different reaction basis require additional accounting.",
+        "ru": "Разрываемые связи: 436+243=679 кДж/моль. Образуемые: 2×431=862 кДж/моль. ΔH≈679−862=−183 кДж/моль. Отрицательный знак соответствует экзотермической оценке. Средние газофазные энергии приближённы; другие фазы или иной стехиометрический базис требуют поправок."
       },
       "marks": 4,
       "criterion": "A"
@@ -484,7 +484,7 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
     {
       "id": "chem-scope-37",
       "prompt": {
-        "en": "Gas volume rises from 12 to 32 cm³between 5 and 15 s. Find mean rate over that interval and explain what it does not establish.",
+        "en": "Gas volume rises from 12 to 32 cm³ between 5 and 15 s. Find mean rate over that interval and explain what it does not establish.",
         "ru": "Между 5 и 15 с объём газа вырос с 12 до 32 см³. Найди среднюю скорость за этот интервал и объясни, чего она не устанавливает."
       },
       "answer": {
@@ -497,8 +497,8 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
     {
       "id": "chem-scope-38",
       "prompt": {
-        "en": "A tangent at t=10 s passes through chosen tangent points(4 s,8 cm³)and(16 s,32 cm³). Calculate the estimated instantaneous rate. What makes these different from any two data points?",
-        "ru": "Касательная при t=10 с проходит через выбранные на ней точки(4 с;8 см³)и(16 с;32 см³). Оцени мгновенную скорость. Чем они отличаются от любых двух экспериментальных точек?"
+        "en": "A tangent at t=10 s passes through chosen tangent points(4 s,8 cm³) and(16 s,32 cm³). Calculate the estimated instantaneous rate. What makes these different from any two data points?",
+        "ru": "Касательная при t=10 с проходит через выбранные на ней точки(4 с; 8 см³)и(16 с; 32 см³). Оцени мгновенную скорость. Чем они отличаются от любых двух экспериментальных точек?"
       },
       "answer": {
         "en": "Tangent gradient=(32−8)/(16−4)=2.0 cm³/s. Use well-separated points on the tangent line with axis units, not arbitrary points on the curved data trace. A measured curve and hand-drawn tangent give an estimate; state uncertainty rather than claiming an exact kinetic law.",
@@ -540,8 +540,8 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
         "ru": "Для N₂(г)+3H₂(г)⇌2NH₃(г), прямая реакция экзотермична, предскажи влияние нагревания, сжатия при постоянной Tи добавления H₂. Сравни сжатие для H₂+I₂⇌2HI."
       },
       "answer": {
-        "en": "Heating favours the endothermic reverse direction. Compression favours the ammonia side with fewer gas moles(2 versus 4). Adding H₂can favour its consumption. In H₂+I₂⇌2 HI gas amounts are equal(2 versus 2), so ideal-gas compression at fixedTdoes not favour either side. Pressure changes must specify the operation: adding inert gas at fixedVdoes not reproduce compression of the reacting gases.",
-        "ru": "Нагревание благоприятствует обратному эндотермическому направлению. Сжатие благоприятствует стороне аммиака с меньшим числом молей газа(2 против 4). Добавление H₂ может способствовать его расходованию. В H₂+I₂⇌2HI число молей газа одинаково(2 против 2); в идеальногазовой модели сжатие при постоянной Tне даёт преимущества стороне. Нужно указать способ изменения давления: добавление инертного газа при постоянном Vне повторяет сжатие реагирующих газов."
+        "en": "Heating favours the endothermic reverse direction. Compression favours the ammonia side with fewer gas moles(2 versus 4). Adding H₂ can favour its consumption. In H₂+I₂⇌2 HI gas amounts are equal(2 versus 2), so ideal-gas compression at fixed T does not favour either side. Pressure changes must specify the operation: adding inert gas at fixed V does not reproduce compression of the reacting gases.",
+        "ru": "Нагревание благоприятствует обратному эндотермическому направлению. Сжатие благоприятствует стороне аммиака с меньшим числом молей газа(2 против 4). Добавление H₂ может способствовать его расходованию. В H₂+I₂⇌2HI число молей газа одинаково(2 против 2); в идеальногазовой модели сжатие при постоянной T не даёт преимущества стороне. Нужно указать способ изменения давления: добавление инертного газа при постоянном V не повторяет сжатие реагирующих газов."
       },
       "marks": 6,
       "criterion": "A"
@@ -555,8 +555,8 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
         "ru": "Назови приближённые доли азота, кислорода и аргона в современном сухом воздухе. Почему для водяного пара и CO₂ нужны оговорки?"
       },
       "answer": {
-        "en": "Dry air is about 78%N₂,21%O₂and 0.93%Ar by volume, with trace gases. Water vapour is excluded by “dry” and varies strongly in ordinary air. Atmospheric CO₂also changes over time and place; an exact value needs a date, location and measurement definition rather than a timeless school decimal. Rounded main percentages need not sum to 100 before trace gases/rounding are considered.",
-        "ru": "По объёму сухой воздух содержит примерно 78%N₂,21%O₂ и 0,93%Ar, а также примеси. Слово «сухой» исключает водяной пар; в обычном воздухе его доля сильно меняется. CO₂ тоже меняется во времени и пространстве: точное значение требует даты, места и определения измерения. Округлённые основные доли без примесей и учёта округления не обязаны давать ровно 100%."
+        "en": "Dry air is about 78% N₂, 21% O₂ and 0.93% Ar by volume, with trace gases. Water vapour is excluded by “dry” and varies strongly in ordinary air. Atmospheric CO₂ also changes over time and place; an exact value needs a date, location and measurement definition rather than a timeless school decimal. Rounded main percentages need not sum to 100 before trace gases/rounding are considered.",
+        "ru": "По объёму сухой воздух содержит примерно 78% N₂, 21% O₂ и 0,93% Ar, а также примеси. Слово «сухой» исключает водяной пар; в обычном воздухе его доля сильно меняется. CO₂ тоже меняется во времени и пространстве: точное значение требует даты, места и определения измерения. Округлённые основные доли без примесей и учёта округления не обязаны давать ровно 100%."
       },
       "marks": 4,
       "criterion": "A"

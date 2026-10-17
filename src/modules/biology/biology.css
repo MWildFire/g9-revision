@@ -1,4 +1,4 @@
-/* Ordinary Biology pages and embedded reference sections share the same print rules. */
+/* Print layout for the ordinary Biology library. */
 @media print {
   @page biology-library { margin: 16mm 15mm 18mm; }
   body:has(.biology-library) { background: #fff; }
@@ -8,5 +8,6 @@
   .biology-library > nav,
   .biology-library > aside { display: none !important; }
   .biology-library { page: biology-library; display: block; max-width: none; padding: 0; }
-  .biology-library h2, .biology-library h3 { break-after: avoid; }
+  .biology-library h2, .biology-library h3, .biology-library h4 { break-after: avoid; break-after: avoid-page; }
+  .biology-library p { orphans: 3; widows: 3; }
 }

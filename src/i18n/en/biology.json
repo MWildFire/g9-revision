@@ -322,7 +322,7 @@
         "Selective breeding means choosing parents with desired heritable traits, so that those traits become more common in later generations.",
         "In genetic engineering, DNA is changed directly, either within one species or by moving a gene between species.",
         "Cloning produces genetically identical copies, but mutations and the environment can still cause differences between them.",
-        "CRISPR-based editing changes selected DNA sequences precisely, but scientists must check for unwanted changes at other sites.",
+        "CRISPR-based editing can target selected DNA sequences. Scientists must confirm the intended edit and check for unwanted changes at other sites.",
         "Ethical assessment checks evidence of safety, consent, the welfare of organisms, effects on the environment and access to the technology."
       ],
       "review": {
@@ -344,6 +344,18 @@
             "url": "https://foxford.ru/wiki/biologiya/metody-molekulyarnoy-biologii-i-molekulyarnaya-biotehnologiya",
             "language": "ru",
             "section": "Методы молекулярной биологии и молекулярная биотехнология"
+          },
+          {
+            "title": "NIST — Genome Editing Lexicon",
+            "url": "https://www.nist.gov/programs-projects/nist-genome-editing-lexicon",
+            "language": "en",
+            "section": "1.4 off-target;1.5 specificity and reporting limits;3.4 intended edit;3.7 unintended edit."
+          },
+          {
+            "title": "Р.Р.Минтаев и др. — Повышение эффективности и безопасности редактирования гена CCR5 человека, 2025",
+            "url": "https://journals.rcsi.science/0026-8984/article/view/295053",
+            "language": "ru",
+            "section": "Введение, абзацы о целевой и нецелевой активности. DOI10.31857/S0026898425020055. Только принцип отдельной проверки результатов; клиническая эффективность не утверждается."
           }
         ]
       }
@@ -3140,18 +3152,18 @@
           },
           "continuous": {
             "name": "Continuous and discontinuous variation",
-            "rule": "Continuous variation can take any value within a range, so the measurements form a continuous spread. Discontinuous variation falls into separate categories, with no values in between.",
+            "rule": "Continuous variation is modelled on a numerical scale that allows intermediate values within a range. A finite sample, especially after rounding, does not contain every possible value. Discontinuous variation is recorded in separate categories.",
             "examples": [
-              "Continuous variation: height in centimetres. A person's height can be 162.5 cm or 162.6 cm, so the values fill a range with no gaps.",
-              "Discontinuous variation: blood group (ABO) is A, B, AB or O. A person cannot be halfway between group A and group B, so each person falls into exactly one category."
+              "Continuous variation: height in centimetres. Both 162.5 cm and values between 162.5 cm and 162.6 cm are possible in the measurement model. A class sample need not include those intermediate values.",
+              "Discontinuous variation: the usual ABO blood-group classification records A, B, AB or O, rather than numerical values between A and B."
             ],
-            "tip": "Draw a histogram for continuous data, with the bars touching, because the values have no gaps. Draw a bar chart for categories, with gaps between the bars.",
+            "tip": "For a histogram, group numerical observations into adjacent intervals. With equal interval widths, bar height can show frequency; an empty interval has frequency zero. Bars for adjacent non-empty intervals touch because their interval boundaries meet. A bar chart displays separate categories with gaps between bars.",
             "review": {
               "englishTerm": "Continuous and discontinuous variation",
               "russianTerm": "Непрерывная и прерывистая изменчивость",
               "contrast": {
-                "en": "Continuous variation is usually caused by many genes working together, plus the environment. Discontinuous variation is usually caused by one or two genes, with little effect from the environment.",
-                "ru": "Непрерывную изменчивость обычно вызывают многие гены, действующие вместе, и среда. Прерывистую обычно вызывают один или два гена, а среда почти не влияет."
+                "en": "Many genes and environmental conditions can contribute to a continuous trait such as height. The appearance of a graph alone does not establish how many genes affect a trait or how strongly the environment affects it.",
+                "ru": "На непрерывный признак, например рост, могут влиять многие гены и условия среды. По одному виду графика нельзя установить число влияющих генов или силу влияния среды."
               },
               "sources": [
                 {
@@ -3165,6 +3177,18 @@
                   "url": "https://foxford.ru/wiki/biologiya/pervyy-zakon-mendelya-tipy-vzaimodeystviya-allelnyh-genov",
                   "language": "ru",
                   "section": "Первый закон Менделя: генотип, фенотип и взаимодействие аллелей"
+                },
+                {
+                  "title": "NIST/SEMATECH e-Handbook — Histogram",
+                  "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda33e.htm",
+                  "language": "en",
+                  "section": "1.3.3.14, Definition: equal-width classes, counts and normalisation; direct support for histogram construction, not genetic causation"
+                },
+                {
+                  "title": "О.С. Сажина — Математическая обработка наблюдений для астрономов (2019)",
+                  "url": "https://www.sai.msu.ru/ao/speccourses/posobiya/SazhinaOS_24-08-2019.pdf#page=28",
+                  "language": "ru",
+                  "section": "§3.2.4–3.2.5, печатные с. 29–30 / страницы PDF 28–29: интервалы, конечная выборка и гистограмма; источник по статистике, не по генетике"
                 }
               ]
             }
@@ -3938,7 +3962,7 @@
       },
       "evaluation": {
         "title": "Evaluation (Criterion C)",
-        "body": "Evaluation judges how strongly the evidence supports the conclusion and identifies limitations. Random error changes unpredictably from one reading to the next, whereas systematic error shifts every reading in the same direction. For example, a balance that always reads 0.5 g too high has a systematic error, while readings that vary by 0.1 g between repeats show random error. Reliability means that results are repeatable, and validity means that the test measures what it is meant to measure. Suggest improvements tied to specific limitations.",
+        "body": "Evaluation judges how strongly the evidence supports the conclusion and identifies limitations. Random measurement error varies unpredictably between readings, whereas systematic measurement error stays constant or varies predictably under replicate conditions. A balance with a fixed +0.5 g zero offset illustrates a systematic component. A spread of 0.1 g between readings alone does not identify its cause: measurement variation and actual sample differences must be investigated separately. Reliability concerns repeatability or reproducibility under stated conditions; validity asks whether the design measures what it is intended to measure. Suggest improvements tied to specific limitations.",
         "review": {
           "englishTerm": "Evaluation",
           "russianTerm": "Оценка качества исследования",
@@ -3952,6 +3976,18 @@
               "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
               "language": "en",
               "section": "1.1 The Science of Biology: the scientific method"
+            },
+            {
+              "title": "JCGM 200:2012 — International vocabulary of metrology",
+              "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf#page=38",
+              "language": "en",
+              "section": "2.17 systematic error;2.19 random error;2.20 repeatability conditions. Printed22–23/PDF38–39."
+            },
+            {
+              "title": "М.Е.Жилкин (сост.) — Метрология, КФУ, 2020",
+              "url": "https://kpfu.ru/staff_files/F_2119189308/Metrologiya_pdf.pdf#page=93",
+              "language": "ru",
+              "section": "Лекция6,с.93–94: постоянная систематическая составляющая сохраняется при усреднении; один разброс её не определяет."
             }
           ]
         }

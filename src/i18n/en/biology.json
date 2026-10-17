@@ -1603,12 +1603,12 @@
           },
           "enzymes": {
             "name": "Digestive enzymes",
-            "rule": "Digestive enzymes are biological catalysts. They speed up hydrolysis, the breakdown of large food molecules into smaller products that can be absorbed.\n\nEach enzyme has an active site that fits only one kind of substrate, like a key in a lock. Activity depends on temperature and pH, and the optimum differs from enzyme to enzyme.",
+            "rule": "Digestive enzymes are biological catalysts. They speed up hydrolysis: water is used to split large food molecules into smaller products that can be absorbed.\n\nAn active site selectively binds suitable substrates. Some enzymes act on a family of related substrates, rather than exactly one molecule. The lock-and-key model illustrates selectivity; induced fit also allows the enzyme to change shape during binding. Activity depends on temperature and pH, and different enzymes have different optima.",
             "examples": [
               "Amylase breaks starch down into smaller sugars; pepsin breaks proteins down into peptides. Pepsin works best at a pH of about 2 (in the stomach), while amylase works best at a pH of about 7 (in the mouth and small intestine).",
-              "Lipase breaks triglycerides (fats) down into fatty acids and glycerol. Bile is not an enzyme."
+              "In human fat digestion, pancreatic lipase mainly removes two fatty acids from a triglyceride, leaving a monoglyceride (glycerol still joined to one fatty acid). Fatty acids and monoglycerides can enter intestinal cells. The school summary “fatty acids and glycerol” describes more complete hydrolysis, rather than all the immediate products of pancreatic lipase. Bile aids emulsification and absorption; it is not an enzyme."
             ],
-            "watchOut": "Low temperature slows an enzyme down but does not normally denature it. Excessive heat or an unsuitable pH changes the shape of the active site, so the enzyme is denatured and can no longer fit its substrate.",
+            "watchOut": "Low temperature usually slows enzyme activity without denaturing the enzyme. A change in pH can change charges on the substrate or active site and reduce binding or catalysis; reduced activity alone does not prove denaturation. Excessive heat or extreme pH can disrupt the enzyme’s structure and active site. Recovery depends on the enzyme and the treatment: do not assume every loss of activity is permanent.",
             "review": {
               "englishTerm": "Digestive enzymes",
               "russianTerm": "Пищеварительные ферменты",
@@ -1634,6 +1634,36 @@
                   "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
                   "language": "en",
                   "section": "6.5 Enzymes: active site, specificity, temperature and pH"
+                },
+                {
+                  "title": "OpenStax Biology 2e — 6.5 Enzymes",
+                  "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+                  "language": "en",
+                  "section": "The Enzyme Active Site and Substrate Specificity; Induced Fit and Enzyme Function: binding, environmental conditions and activity"
+                },
+                {
+                  "title": "Кузьменко Д. И., Климентьева Т. К. — Интегративная биохимия. Регуляция метаболизма (СибГМУ, 2017)",
+                  "url": "https://elar.ssmu.ru/bitstream/20.500.12701/3261/1/tut_ssmu-2017-43.pdf#page=74",
+                  "language": "ru",
+                  "section": "С. 74: влияние pH, групповая специфичность и схема действия панкреатической липазы; с. 20–21: продукты переваривания жиров и всасывание"
+                },
+                {
+                  "title": "OpenStax Anatomy and Physiology 2e — 23.7 Chemical Digestion and Absorption",
+                  "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+                  "language": "en",
+                  "section": "Lipid Digestion and Lipid Absorption: fatty acids, monoglycerides and intestinal uptake"
+                },
+                {
+                  "title": "Hodder — Biology for the IB Diploma, 3rd edition (2023), answers",
+                  "url": "https://media.hachettelearning.com/media/medialibraries/hodder/answers-and-extras/biology/9781398364240/364240-ib-biology-3ed-saq-answers.pdf#page=38",
+                  "language": "en",
+                  "section": "C1.1 Q4–5, printed answers38; Q14, printed answers39: specificity, induced fit and reversible pH effects"
+                },
+                {
+                  "title": "Кузьменко Д. И., Климентьева Т. К. — Интегративная биохимия (2017)",
+                  "url": "https://elar.ssmu.ru/bitstream/20.500.12701/3261/1/tut_ssmu-2017-43.pdf#page=86",
+                  "language": "ru",
+                  "section": "С. 86: изменение конформации активного центра при связывании субстрата; модель индуцированного соответствия"
                 }
               ]
             }
@@ -1682,8 +1712,8 @@
           "englishTerm": "Digestive system",
           "russianTerm": "Пищеварительная система",
           "contrast": {
-            "en": "egestion from excretion. Egestion removes undigested food. That food never passed through the gut wall, so it was never inside the body. Excretion removes metabolic waste made by cells, such as urea (removed by the kidneys) and carbon dioxide (removed by the lungs).",
-            "ru": "выведение (egestion) и выделение (excretion). При выведении удаляются непереваренные остатки пищи: они не прошли через стенку кишки и поэтому не были внутри тела. При выделении удаляются продукты обмена веществ, которые образовались в клетках, например мочевина (её выделяют почки) и углекислый газ (его выделяют лёгкие)."
+            "en": "egestion from excretion. Egestion removes undigested or unabsorbed material from the gut lumen. This material has not crossed the intestinal wall into the internal tissues or transport fluids; calling it “never inside the body” is anatomically misleading. Excretion removes metabolic waste, including urea in urine and carbon dioxide through the lungs.",
+            "ru": "выведение непереваренных остатков (egestion) и выделение продуктов обмена (excretion). При egestion из просвета кишечника удаляется материал, который не был переварен или всосан через его стенку во внутренние ткани и транспортные жидкости организма. Слова «никогда не был внутри тела» анатомически неточны. При excretion удаляются продукты обмена: например, мочевина с мочой и углекислый газ через лёгкие."
           },
           "sources": [
             {
@@ -1703,6 +1733,18 @@
               "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
               "language": "en",
               "section": "6.5 Enzymes: active site, specificity, temperature and pH"
+            },
+            {
+              "title": "Фоксфорд — Этапы пищеварения",
+              "url": "https://foxford.ru/wiki/biologiya/etapy-pischevareniya",
+              "language": "ru",
+              "section": "Всасывание через стенку кишечника; формирование и выведение кала"
+            },
+            {
+              "title": "Фоксфорд — Мочевыделительная система человека",
+              "url": "https://foxford.ru/wiki/biologiya/mochevydelitelnaya-sistema-cheloveka",
+              "language": "ru",
+              "section": "Определение выделения; лёгкие; образование мочевины в печени и выведение с мочой"
             }
           ]
         }
@@ -1744,14 +1786,14 @@
           },
           "neurone": {
             "name": "Neurone structure",
-            "rule": "A neurone is a nerve cell that carries signals. Its main parts are the dendrites, which receive signals and carry them towards the cell body; the cell body, which contains the nucleus; and the axon, which carries nerve impulses away from the cell body.\n\nSome axons are wrapped in myelin, a fatty sheath formed by supporting cells. The gaps between sections of myelin are the nodes of Ranvier. A signal passes from one neurone to the next across a synapse; most synapses use neurotransmitters, which are chemical messengers.",
+            "rule": "A neurone is a nerve cell involved in receiving and transmitting signals. In a typical multipolar-neurone diagram, dendrites receive input, the cell body contains the nucleus, and the axon carries action potentials towards its terminals. This is a model, not the shape of every neurone: some types have a different arrangement of processes.\n\nGlial supporting cells form the myelin sheath around some axons. Gaps in this sheath are nodes of Ranvier. Myelin reduces current leakage and can increase conduction speed. At a chemical synapse, neurotransmitter release helps transmit a signal to another cell; electrical synapses are a different type of connection.",
             "examples": [
-              "The longest neurone in the human body has an axon that runs from the base of the spinal cord to the big toe: about 1 m.",
+              "Some human motor axons run a long distance from the spinal cord towards the foot. Their length illustrates why local signalling must propagate along the axon; it is not a claim that every neurone has this shape or length.",
               "White matter contains many myelinated axons; grey matter contains many neuronal cell bodies, dendrites and synapses.",
               "In multiple sclerosis, the immune system attacks the myelin, so nerve impulses slow down or are blocked.",
-              "The fastest myelinated axons conduct nerve impulses at up to 120 m/s; unmyelinated axons conduct them at only about 1 m/s."
+              "Conduction speed depends on features including axon diameter and myelination. Do not assign one universal speed to all unmyelinated axons or compare myelin effects while ignoring diameter."
             ],
-            "tip": "Along a myelinated axon the impulse does not travel continuously. It jumps from one node of Ranvier to the next, which makes conduction faster.",
+            "tip": "In saltatory conduction, action potentials are regenerated at successive nodes of Ranvier, while local current spreads between nodes. “Jumping from node to node” is a simplified description of this pattern, not a physical gap that an impulse flies across.",
             "review": {
               "englishTerm": "Neurone structure",
               "russianTerm": "Строение нейрона",
@@ -1771,6 +1813,18 @@
                   "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
                   "language": "en",
                   "section": "35.3 Spinal Cord: reflexes, white and grey matter"
+                },
+                {
+                  "title": "Hodder — Biology for the IB Diploma, 3rd edition (2023), answers",
+                  "url": "https://media.hachettelearning.com/media/medialibraries/hodder/answers-and-extras/biology/9781398364240/364240-ib-biology-3ed-saq-answers.pdf#page=49",
+                  "language": "en",
+                  "section": "C2.2 Q12, printed answers49: myelin, nodes and saltatory conduction; school model"
+                },
+                {
+                  "title": "Фоксфорд — Нервная система. Общие сведения",
+                  "url": "https://foxford.ru/wiki/biologiya/nervnaya-sistema-obschie-svedeniya",
+                  "language": "ru",
+                  "section": "Миелиновая оболочка и перехваты Ранвье; аксонные терминали; классификация нейронов по числу и расположению отростков."
                 }
               ]
             }
@@ -1901,9 +1955,9 @@
             "rule": "Energy requirement is the energy from food that a person needs each day for metabolism, physical activity and growth. It is commonly expressed in kilojoules (kJ) or kilocalories (kcal), where 1 kcal = 4.184 kJ.",
             "examples": [
               "Two people of the same age may have different needs because body size and activity differ.",
-              "Calorimetry measures the energy stored in food. A food sample is burned under a tube of water. The energy released heats the water, so the temperature rise shows how much energy was transferred:\n\nE = m × c × ΔT\n\nwhere E is the energy transferred (J), m is the mass of water (kg), c is the specific heat capacity of water, 4200 J/(kg °C), and ΔT is the temperature rise (°C).\n\nIn one test, a 1.0 g sample of peanut heats 0.050 kg of water from 20 °C to 40 °C. E = 0.050 kg × 4200 J/(kg °C) × 20 °C = 4200 J = 4.2 kJ. The same mass of food and the same mass of water must be used in every test, so that foods can be compared."
+              "A simple food-burning experiment estimates the energy transferred to water. Use the model Qwater = mwater × cwater × ΔT, where Qwater is in joules (J), water mass is in kilograms (kg), cwater ≈ 4200 J/(kg °C), and ΔT is the water temperature rise in °C. This approximation treats c as constant and assumes no change of state.\n\nInvented worked example: 1.0 g of peanut actually burns and 0.050 kg of water warms from 20 °C to 40 °C. ΔT = 20 °C, so Qwater = 0.050 × 4200 × 20 = 4200 J = 4.2 kJ. The measured transfer per gram burned is 4.2 kJ ÷ 1.0 g = 4.2 kJ/g. This is energy gained by the water, not the total energy released by the food or its metabolisable energy.\n\nSome energy heats the apparatus or escapes to the surroundings; incomplete combustion can also affect the result. Keeping water mass, burner distance and other conditions fixed supports a fair comparison. Identical sample masses are not a universal requirement: measure the mass actually burned, compare energy per gram, and account for the apparatus and heat losses when the method allows."
             ],
-            "tip": "Metabolisable energy is about 17 kJ/g for carbohydrate and protein, and about 38 kJ/g for fat; values depend on composition. A school calorimetry experiment gives a lower value, because heat escapes to the air and the tube.",
+            "tip": "Metabolisable energy is approximately 17 kJ/g for carbohydrate and protein and 38 kJ/g for fat; composition and availability affect the values. In a simple uncorrected school experiment, heat loss and heating the apparatus tend to reduce the energy recorded in the water. That result cannot be equated directly with the metabolisable energy on a food label.",
             "review": {
               "englishTerm": "Energy requirements",
               "russianTerm": "Потребность в энергии",
@@ -1917,6 +1971,18 @@
                   "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
                   "language": "en",
                   "section": "34.2 Nutrition and Energy Production: food requirements and essential nutrients"
+                },
+                {
+                  "title": "OpenStax Chemistry 2e — 5.2 Calorimetry",
+                  "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+                  "language": "en",
+                  "section": "Calorimetry and nutrition: water/apparatus heat balance and energy per gram; worked numbers here are invented"
+                },
+                {
+                  "title": "МГУ — Практикум по общей химии, часть 2",
+                  "url": "https://www.chem.msu.ru/rus/teaching/general/praktika/part2.html",
+                  "language": "ru",
+                  "section": "2.1 Термохимия: теплоёмкость калориметра и теплообмен; применение к школьному опыту и числа примера — авторский расчёт"
                 }
               ]
             }
@@ -3743,8 +3809,8 @@
           "englishTerm": "Antibiotics",
           "russianTerm": "Антибиотики",
           "contrast": {
-            "en": "Antibiotics act on bacteria only; they do not work against viruses.",
-            "ru": "Антибиотики действуют только на бактерии, против вирусов они не работают."
+            "en": "Antibacterial antibiotics act on susceptible bacteria; they have no direct action against viruses. A bacterial infection accompanying a viral illness is a separate clinical question.",
+            "ru": "Антибактериальные антибиотики действуют на чувствительные к ним бактерии и не действуют непосредственно на вирусы. Бактериальная инфекция на фоне вирусной болезни — отдельный клинический вопрос."
           },
           "sources": [
             {

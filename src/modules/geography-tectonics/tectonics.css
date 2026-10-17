@@ -264,8 +264,10 @@
 @media (prefers-reduced-motion: reduce) { .tectonic-lesson-card { transition: none; } }
 @media print {
   @page { margin: 16mm 15mm 18mm; }
-  body:has(.tectonic-print-view) { background: #fff; color: #111; }
-  body:has(.tectonic-print-view) #root > div > header, body:has(.tectonic-print-view) #root > div > footer, .tectonic-no-print { display: none !important; }
+  body:has(.tectonic-course) { background: #fff; color: #111; }
+  body:has(.tectonic-course) #root > div > header,
+  body:has(.tectonic-course) #root > div > footer,
+  .tectonic-no-print, .tectonic-lesson-end, .tectonic-pagination { display: none !important; }
   .tectonic-course { max-width: none; padding: 0; margin: 0; --tectonic-ink: #174f4b; --tectonic-rust: #7e351d; }
   .tectonic-layout { display: block; }
   .tectonic-full-width { max-width: none; }
@@ -298,6 +300,8 @@
   .tectonic-main .tectonic-sources a { font-size: 9pt; }
   .tectonic-sources li, .tectonic-glossary dl > div { break-inside: avoid; }
   .tectonic-lesson-sources { margin: 20pt 0; }
+  .tectonic-question { break-inside: avoid; }
+  .tectonic-question-meta { break-after: avoid; }
   .tectonic-print-question { break-inside: avoid; }
   .tectonic-print-question h3 { font-size: 10pt; }
   .tectonic-writing-lines { height: 22mm; }

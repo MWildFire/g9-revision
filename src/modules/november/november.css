@@ -9,3 +9,7 @@
 @media print{.november .formula-teaching .formula-teaching-expression{white-space:normal!important;overflow:visible;overflow-wrap:anywhere}}
 
 .nov-session-title { white-space: normal; overflow-wrap: anywhere; line-height: 1.5; }
+
+@media print {
+  .november h2, .november h3, .november summary { break-after: avoid; }
+}

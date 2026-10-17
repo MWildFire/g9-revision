@@ -144,9 +144,16 @@ try {
           }
           const viewportSession = await context.newCDPSession(page);
           try {
-            const shot = await withDeadline(() => viewportSession.send('Page.captureScreenshot', {format:'png'}), 'viewport_capture', 30000);
+            const shot = await withDeadline(() => viewportSession.send('Page.captureScreenshot', {
+              format:'png', captureBeyondViewport:true,
+              clip:{x:0,y:0,width:dimensions.width,height:Math.min(viewport.height,dimensions.height),scale:1},
+            }), 'viewport_capture', 30000);
             fs.writeFileSync(path.join(outDir, `${stem}-viewport.png`), Buffer.from(shot.data,'base64'));
           } finally { await withDeadline(() => viewportSession.detach(),'viewport_session_detach'); }
+          // An unclipped CDP viewport capture resets Chromium media to screen.
+          // Keep an explicit clip above and restore the requested media before
+          // the final readiness check and PDF; never lower the block contract.
+          await page.emulateMedia({media:label === 'print' ? 'print' : 'screen'});
           // A capture must still satisfy the complete font/image contract.
           await waitForCaptureReady(page, { ...contract[`${lang}:${route}`], ...(contract[`${lang}:${route}`].views?.[label] ?? {}), route, lang }, { timeout:Number(opt('timeout')??20000) });
           if (label === 'print') await page.pdf({ path:path.join(outDir, `${stem}.pdf`), format:'A4', printBackground:true });

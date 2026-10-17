@@ -1674,8 +1674,8 @@
       "ru": "Клетки, диффузия, активный транспорт, специфичность ферментов."
     },
     "explanation": {
-      "en": "Digestion breaks large food molecules into absorbable products: carbohydrates to simple sugars, proteins to amino acids, and lipids to fatty acids and glycerol. Enzymes catalyse particular reactions; temperature and pH affect activity, and extremes may alter the active site. The ileum has villi and microvilli for surface area, a thin epithelium and a blood supply that carries absorbed products away. Some uptake uses active transport, so not all absorption is simple diffusion. Breathing ventilates lungs; gas exchange moves oxygen into blood and carbon dioxide out across alveolar walls. Haemoglobin in red blood cells transports most oxygen; plasma carries many dissolved substances. Arteries carry blood away from the heart, veins toward it, and capillaries allow exchange. Cellular aerobic respiration releases usable energy from glucose with oxygen. Ventilation and respiration are connected but are not the same process.",
-      "ru": "Пищеварение превращает крупные молекулы пищи во всасываемые продукты: углеводы — в простые сахара, белки — в аминокислоты, жиры — в жирные кислоты и глицерин. Ферменты ускоряют определённые реакции; температура и pH влияют на активность, а крайние значения могут менять активный центр. Ворсинки и микроворсинки подвздошной кишки увеличивают площадь, тонкий эпителий сокращает путь, кровь уносит всосавшиеся вещества. Часть переноса требует энергии, поэтому всё всасывание нельзя назвать простой диффузией. Вентиляция обновляет воздух лёгких, газообмен переносит кислород в кровь и углекислый газ наружу. Большую часть кислорода переносит гемоглобин эритроцитов, плазма — многие растворённые вещества. Артерии несут кровь от сердца, вены — к нему, капилляры обеспечивают обмен. Аэробное дыхание клеток высвобождает доступную энергию при расщеплении глюкозы с кислородом. Вентиляция и клеточное дыхание связаны, но различаются."
+      "en": "Digestion breaks digestible carbohydrates into simple sugars and proteins into amino acids. Triglyceride digestion yields fatty acids and monoacylglycerols as well as some glycerol; not all dietary lipid is turned directly into glycerol. The products and absorption routes differ. Enzymes catalyse particular reactions; temperature and pH affect activity, and extremes may alter the active site. The ileum has villi and microvilli for surface area, a thin epithelium and a blood supply that carries absorbed products away. Some uptake uses active transport, so not all absorption is simple diffusion. Breathing ventilates lungs; gas exchange moves oxygen into blood and carbon dioxide out across alveolar walls. Haemoglobin in red blood cells transports most oxygen; plasma carries many dissolved substances. Arteries carry blood away from the heart, veins toward it, and capillaries allow exchange. Cellular aerobic respiration releases usable energy from glucose with oxygen. Ventilation and respiration are connected but are not the same process.",
+      "ru": "Перевариваемые углеводы расщепляются до простых сахаров, а белки — до аминокислот. При переваривании триацилглицеролов образуются жирные кислоты и моноацилглицеролы, а также часть глицерина: не все пищевые липиды сразу превращаются в глицерин. Продукты и пути всасывания различаются. Ферменты ускоряют определённые реакции; температура и pH влияют на активность, а крайние значения могут менять активный центр. Ворсинки и микроворсинки подвздошной кишки увеличивают площадь, тонкий эпителий сокращает путь, кровь уносит всосавшиеся вещества. Часть переноса требует энергии, поэтому всё всасывание нельзя назвать простой диффузией. Вентиляция обновляет воздух лёгких, газообмен переносит кислород в кровь и углекислый газ наружу. Большую часть кислорода переносит гемоглобин эритроцитов, плазма — многие растворённые вещества. Артерии несут кровь от сердца, вены — к нему, капилляры обеспечивают обмен. Аэробное дыхание клеток высвобождает доступную энергию при расщеплении глюкозы с кислородом. Вентиляция и клеточное дыхание связаны, но различаются."
     },
     "worked": {
       "en": "After exercise begins, muscle demand for ATP increases. Breathing and heart rates rise, supporting oxygen delivery and carbon dioxide removal. This is a mechanism, not evidence that oxygen itself is energy or that all extra energy comes instantly from aerobic respiration.",
@@ -1795,7 +1795,9 @@
       "biology-ib",
       "biology-ru",
       "biology-practical-mass-en",
-      "biology-water-potential-ru"
+      "biology-water-potential-ru",
+      "bio-digestion-products-en",
+      "bio-digestion-products-ru"
     ]
   },
   {
@@ -2329,7 +2331,9 @@
     ],
     "sources": [
       "english-ib",
-      "english-ru"
+      "english-ru",
+      "english-close-reading-en",
+      "english-detail-context-ru"
     ]
   },
   {

@@ -160,11 +160,11 @@
     }
   },
   "english-ib": {
-    "title": "Allison & Chanen · English A Language and Literature, Oxford 2012 (EN)",
-    "url": "https://global.oup.com/education/",
+    "title": "Hodder · Language and Literature for the IB MYP 4 & 5 · ISBN9781471841668 (EN sample)",
+    "url": "https://media.hachettelearning.com/media/medialibraries/hodder/samples/english/14-16/ib-myp-english/language-and-literature-for-the-ib-myp-4-and-5-sample-pages-9781471841668.pdf#page=8",
     "note": {
-      "en": "Previously inspected pp.14–15,42–43,52–53 support analysis of choices; school MYP booklet establishes G9 tasks. Original examples are not exam extracts.",
-      "ru": "Ранее проверенные с.14–15,42–43,52–53: анализ приёмов. Школьный буклет задаёт задания MYP. Примеры не взяты из экзамена."
+      "en": "Printed pp.35–36 (PDF8–9), Audience and Conventions of genres: recipients, communication choices and dramatic conventions. This selected passage does not establish every literary term or the school assessment format.",
+      "ru": "С.35–36 (PDF8–9), Audience и Conventions of genres: адресат, выбор способов общения и условности драмы. Эти фрагменты не определяют все литературные термины и формат школьной работы."
     }
   },
   "english-ru": {
@@ -1085,6 +1085,38 @@
     "note": {
       "en": "Series and parallel steady DC circuits, shared currents or potentials and equivalent resistance. The question uses an idealised circuit.",
       "ru": "Последовательные и параллельные цепи постоянного тока: общие токи или напряжения, эквивалентное сопротивление. В задаче цепь идеализирована."
+    }
+  },
+  "english-close-reading-en": {
+    "title": "Purdue OWL · Close Reading a Text and Avoiding Pitfalls (EN)",
+    "url": "https://owl.purdue.edu/owl/subject_specific_writing/writing_in_literature/writing_about_fiction/index.html",
+    "note": {
+      "en": "Close Reading steps2–4; Avoiding Pitfalls points1,3–4: annotations, interpretation tested against the text, evidence with discussion. The model paragraph here is independently authored.",
+      "ru": "Close Reading, шаги2–4; Avoiding Pitfalls, пункты1,3–4: пометки, проверка интерпретации по тексту, свидетельства с объяснением. Учебный абзац на сайте написан отдельно."
+    }
+  },
+  "english-detail-context-ru": {
+    "title": "А. И. Трубкина · Художественная деталь · 2021 (RU)",
+    "url": "https://philology-journal.ru/article/phil20210449/pdf#page=3",
+    "note": {
+      "en": "Printed pp.2850–2851 (PDF2–3): interpret a detail in relation to the whole work. A Russian research foundation for the method, not a source for our invented quotation or all text types.",
+      "ru": "С.2850–2851 (PDF2–3): деталь рассматривают во взаимодействии с целым произведением. Русская исследовательская основа метода; она не подтверждает придуманную учебную цитату или все типы текста."
+    }
+  },
+  "bio-digestion-products-en": {
+    "title": "OpenStax Anatomy and Physiology2e · §23.7, digestion products (EN)",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+    "note": {
+      "en": "Carbohydrate Digestion; Lipid Digestion; Table23.9: digestible carbohydrates and different triglyceride products. The lesson uses a summary, not a reproduced table.",
+      "ru": "Carbohydrate Digestion, Lipid Digestion и таблица23.9: перевариваемые углеводы и разные продукты гидролиза триацилглицеролов. В уроке дано краткое объяснение, таблица не воспроизводится."
+    }
+  },
+  "bio-digestion-products-ru": {
+    "title": "Д. И. Кузьменко, Т. К. Климентьева · Интегративная биохимия · СибГМУ2017 (RU)",
+    "url": "https://elar.ssmu.ru/bitstream/20.500.12701/3261/1/tut_ssmu-2017-43.pdf#page=20",
+    "note": {
+      "en": "Printed/PDF20 final paragraph and p.21 selected absorption sentences: fatty acids, monoacylglycerols and differential intestinal routes. Other numerical or clinical claims in the chapter are not adopted.",
+      "ru": "С.20, последний абзац, и выбранные предложения о всасывании на с.21: жирные кислоты, моноацилглицеролы и разные пути переноса. Другие численные и клинические утверждения главы в урок не перенесены."
     }
   }
 }

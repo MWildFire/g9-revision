@@ -3673,8 +3673,8 @@
           "englishTerm": "Antibody",
           "russianTerm": "Антитело",
           "contrast": {
-            "en": "An antibody is a protein that the body makes in response to an antigen. Do not confuse the two: the antigen is the marker on the pathogen; the antibody is the body's reaction to it.",
-            "ru": "Антитело — белок, который организм вырабатывает в ответ на антиген. Не путай их: антиген — метка на поверхности патогена, а антитело — ответ организма на неё."
+            "en": "An antigen is a molecular structure recognised by an antibody or an antigen receptor; it need not belong to a pathogen. An antibody is a protein that can bind a matching antigenic structure. These are different partners in the interaction.",
+            "ru": "Антиген — молекулярная структура, распознаваемая антителом или антигенным рецептором; она не обязательно принадлежит возбудителю. Антитело — белок, способный связываться с подходящей антигенной структурой. Это разные участники взаимодействия."
           },
           "sources": [
             {
@@ -3705,8 +3705,8 @@
           "englishTerm": "Vaccination",
           "russianTerm": "Вакцинация",
           "contrast": {
-            "en": "Vaccination is the act of giving a vaccine; immunity is the state of being protected from a disease. Do not confuse them: a vaccine helps prevent illness, but it does not cure one that has already started.",
-            "ru": "Вакцинация — это введение вакцины, а иммунитет — состояние защищённости от болезни. Не путай их: вакцина помогает не заболеть, но не лечит уже начавшуюся болезнь."
+            "en": "Vaccination means giving a vaccine; immunity refers to protection. This lesson concerns preventive vaccination: its aim is to reduce future target disease. Giving a vaccine does not by itself prove that protection has developed.",
+            "ru": "Вакцинация означает введение вакцины, а иммунитет — защищённость. Здесь рассматривается профилактическая вакцинация: её цель — снизить риск соответствующей болезни в будущем. Сам факт введения вакцины ещё не доказывает, что защита уже сформировалась."
           },
           "sources": [
             {
@@ -4156,7 +4156,7 @@
       "biodiversity": {
         "en": "Biodiversity",
         "ru": "Биоразнообразие",
-        "def": "Биоразнообразие — разнообразие жизни: различия внутри видов, разнообразие самих видов и экосистем. Охрана разных местообитаний позволяет сохранить больше биоразнообразия, чем защита только одного вида.",
+        "def": "Биоразнообразие — разнообразие жизни: различия внутри видов, разнообразие самих видов и экосистем. Охрана разных местообитаний может сохранить больше биоразнообразия, чем защита только одного вида.",
         "review": {
           "englishTerm": "Biodiversity",
           "russianTerm": "Биоразнообразие",
@@ -4234,7 +4234,7 @@
       "vaccination": {
         "en": "Vaccination",
         "ru": "Вакцинация",
-        "def": "При вакцинации иммунная система знакомится с безопасной формой антигенов возбудителя или с инструкцией для образования антигена. Клетки памяти обеспечивают более быстрый ответ при последующей встрече с возбудителем."
+        "def": "При вакцинации иммунной системе предъявляют целевые антигены или инструкции для их образования. Цель — сформировать защиту; иммунологическая память может ускорить ответ при последующем контакте. Это профилактическая модель, а не гарантия полной защиты или отсутствия нежелательных реакций."
       }
     }
   }

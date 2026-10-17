@@ -1,11 +1,12 @@
 /* Ordinary Biology pages and embedded reference sections share the same print rules. */
 @media print {
+  @page biology-library { margin: 16mm 15mm 18mm; }
   body:has(.biology-library) { background: #fff; }
   body:has(.biology-library) #root > div > header,
   body:has(.biology-library) #root > div > footer,
   body:has(.biology-library) .subject-library-note,
   .biology-library > nav,
   .biology-library > aside { display: none !important; }
-  .biology-library { display: block; max-width: none; padding: 0; }
+  .biology-library { page: biology-library; display: block; max-width: none; padding: 0; }
   .biology-library h2, .biology-library h3 { break-after: avoid; }
 }

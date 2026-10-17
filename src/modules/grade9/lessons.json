@@ -124,6 +124,153 @@
     ]
   },
   {
+    "id": "g-river-cases",
+    "subject": "geography",
+    "title": {
+      "en": "Real river landforms: Niagara and the lower Mississippi",
+      "ru": "Речные формы в природе: Ниагара и нижняя Миссисипи"
+    },
+    "scope": "school-g9",
+    "objective": {
+      "en": "Apply erosion, transport and deposition to named waterfall/gorge and meander/oxbow/floodplain/levee examples.",
+      "ru": "Объясни на конкретных примерах образование водопада и ущелья, меандра, старицы, поймы и прируслового вала."
+    },
+    "prerequisites": {
+      "en": "Distinguish erosion from deposition; learn the general sequence in How a river builds a landscape.",
+      "ru": "Различай размыв и накопление; сначала разбери общую схему работы реки."
+    },
+    "explanation": {
+      "en": "The archived G9 checklist requires named applications of river landforms. The two examples here are selected for this revision lesson; the school did not prescribe these place names.\n\nNiagara Falls, on the Niagara River between Canada and the USA, illustrates differential erosion. The New York State Museum describes resistant Lockport dolostone/limestone above weaker Rochester shale. Removal of support allows blocks of the cap rock to fall; repeated upstream retreat leaves the Niagara Gorge downstream. Fallen blocks can abrade softer rock. This is an explanation tied to the actual rock sequence, rather than a claim that every waterfall has the same geology. Niagara Parks warns that the present retreat rate is unclear and rock falls are episodic: an old average cannot predict the date of the next collapse.\n\nThe lower Mississippi in the USA provides a connected example of meanders, oxbow lakes, a floodplain and natural levees. The USGS describes outer-bank erosion, sediment transport and inner-bank point-bar deposition. Migration narrows a meander neck; a cutoff can shorten the active channel and leave the old loop as an oxbow. Floodwater spreads over the banks and deposits sediment beside the channel, building natural levees over repeated events. Finer deposits occupy lower floodplain/backswamp areas. Natural levees are depositional landforms; an engineered embankment is a human flood-defence structure. They can occur together. The Russian hydrologist M. V. Mikhailova describes the lower river’s winding channel, oxbows and natural bank ridges reinforced with artificial defences (2023).\n\nBuild a case-study answer as place → observed feature → linked mechanism → limit. The USGS account is evidence about the Mississippi system; the small table below is our qualitative comparison, not a measured cross-section or a claim that every bend is eroding today. A map showing a detached crescent is evidence for a possible former channel; dated imagery or field evidence is needed to establish exactly when and how that particular lake formed.",
+      "ru": "В архивном перечне G9 нужны примеры конкретных речных форм. Для этого урока выбраны два места; именно эти названия школа не предписывала.\n\nНиагара на границе Канады и США показывает, почему разные породы размываются неодинаково. Прочный верхний пласт доломита и известняка лежит над менее устойчивым сланцем. Когда нижняя порода разрушается, верхние блоки теряют опору и обрушиваются. Уступ постепенно смещается вверх по реке, а ниже остаётся Ниагарское ущелье. Обломки дополнительно истирают породу. Такое объяснение опирается на строение именно этого места; переносить его на любой водопад без проверки пород нельзя. БРЭ (2013) связывает отступание Ниагары с размывом сланцев. Современная страница Niagara Parks подчёркивает неопределённость нынешней скорости и неравномерность обвалов: среднее за прошлое не даёт дату следующего обрушения.\n\nНа нижней Миссисипи в США можно связать несколько форм одним объяснением. Размыв внешнего берега и накопление наносов на внутреннем меняют положение излучины. Если река прорывает её шейку, основной поток получает более короткий путь, а отсечённая петля может стать старицей. Во время разлива вода выходит на пойму; часть наносов оседает рядом с руслом, постепенно наращивая естественный прирусловой вал. Более тонкий материал накапливается дальше, в том числе в понижениях. В русскоязычном исследовательском описании М. В. Михайловой (БРЭ, 2023) у нижней Миссисипи названы извилистое русло, старицы и естественные береговые валы, дополненные искусственными дамбами. Природный вал сложен наносами реки, дамбу строят люди; смешивать их происхождение нельзя.\n\nВ ответе связывай место, форму и процесс, затем указывай предел вывода. Таблица ниже обобщает механизмы, а не изображает наше полевое измерение на Миссисипи. Серповидное озеро на карте позволяет предположить бывшую излучину. Чтобы установить историю конкретного озера, нужны снимки разных дат или другие местные данные."
+    },
+    "worked": {
+      "en": "Example answer: “At Niagara, erosion of weaker shale undermines more resistant cap rock. Its collapse moves the lip upstream; repetition leaves a gorge along the river’s former course.” Each stage causes the next. “Niagara is a famous waterfall” names the place but does not explain a process. For the Mississippi, link an eroding outer bank to channel migration, then a neck cutoff to an abandoned loop; add deposition if explaining its separation from the active river. Do not insert the Boscastle 2004 flood as evidence for the geology of Niagara. These are distinct cases.",
+      "ru": "Образец рассуждения: «У Ниагары менее устойчивая нижняя порода размывается, верхняя теряет опору и обрушивается. При повторении уступ отступает вверх по реке, оставляя ущелье». Здесь есть причинная цепочка; слово «знаменитый» её не заменяет. Для Миссисипи объясни, как размыв меняет излучину, прорыв сокращает путь потока, а наносы помогают отделить старую петлю. Событие в Боскасле 2004 года служит примером паводка, но не доказательством состава пород Ниагары."
+    },
+    "misconception": {
+      "en": "A natural levee does not prove that the floodplain is safe to build on. An oxbow is an abandoned river bend, not any curved lake. A waterfall retreat rate is a distance divided by time, not the speed of water passing over the falls.",
+      "ru": "Прирусловой вал не гарантирует безопасность застройки поймы. Старица — отделившийся участок прежнего русла, а не любое изогнутое озеро. Скорость отступания уступа — изменение его положения за время; это не скорость текущей воды."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Named setting",
+          "ru": "Место"
+        },
+        {
+          "en": "Feature and process",
+          "ru": "Форма и процесс"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Niagara Falls and Gorge",
+            "ru": "Ниагарский водопад и ущелье"
+          },
+          {
+            "en": "Weaker shale removed; cap collapse and upstream retreat",
+            "ru": "Размыв сланца → обрушение верхних блоков → отступание уступа"
+          }
+        ],
+        [
+          {
+            "en": "Lower Mississippi bends",
+            "ru": "Излучины нижней Миссисипи"
+          },
+          {
+            "en": "Outer-bank erosion and inner-bank deposition migrate the channel",
+            "ru": "Внешний берег размывается, на внутреннем накапливаются наносы"
+          }
+        ],
+        [
+          {
+            "en": "Lower Mississippi abandoned loops",
+            "ru": "Отсечённые петли нижней Миссисипи"
+          },
+          {
+            "en": "Cutoff leaves an oxbow; subsequent deposition can isolate it",
+            "ru": "Прорыв шейки оставляет старицу; отложения могут отделить её от русла"
+          }
+        ],
+        [
+          {
+            "en": "Lower Mississippi floodplain and natural levees",
+            "ru": "Пойма и природные валы нижней Миссисипи"
+          },
+          {
+            "en": "Repeated overbank deposition builds an alluvial surface and bank ridges",
+            "ru": "Повторные разливы накапливают пойменный аллювий и береговые валы"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Qualitative comparison derived from the named geological accounts. No survey dimensions, erosion rates or lake-formation dates are invented.",
+        "ru": "Качественное сопоставление по описаниям местности. Размеры полевого профиля, скорости размыва и даты появления озёр не выдуманы."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-river-cases-1",
+        "prompt": {
+          "en": "Explain why the Niagara Gorge lies downstream of the retreating waterfall. Give four linked stages.",
+          "ru": "Почему Ниагарское ущелье лежит ниже отступающего водопада? Дай четыре связанных этапа."
+        },
+        "answer": {
+          "en": "Weaker shale is removed → the resistant cap loses support → blocks collapse and the lip retreats upstream → repetition leaves a steep-sided former channel downstream. Name the contrasting rocks; do not assume every waterfall has them.",
+          "ru": "Размывается менее стойкий сланец → верхние блоки теряют опору → обрушаются, и уступ сдвигается вверх по реке → повторение оставляет ущелье ниже. Объяснение связано с местными породами."
+        }
+      },
+      {
+        "id": "g-river-cases-2",
+        "prompt": {
+          "en": "Use the lower Mississippi to explain both a meander’s movement and an oxbow’s origin. Which bank erodes?",
+          "ru": "На примере нижней Миссисипи объясни смещение меандра и появление старицы. Какой берег размывается?"
+        },
+        "answer": {
+          "en": "Outer-bank erosion removes material while inner-bank point-bar deposition adds it. The bend migrates; a neck cutoff gives the main flow a shorter route. The abandoned loop can become an oxbow, increasingly separated by sediment. This is a mechanism, not a dated claim about every particular lake.",
+          "ru": "На внешнем берегу материал удаляется, на внутреннем накапливается. Излучина меняет положение; прорыв шейки даёт потоку короткий путь. Прежняя петля может стать старицей, которую наносы всё сильнее отделяют от русла. Дату появления конкретного озера эта схема не устанавливает."
+        }
+      },
+      {
+        "id": "g-river-cases-3",
+        "prompt": {
+          "en": "Why can natural levees and an artificial embankment both appear beside the lower Mississippi? Explain the difference, then give one limit to flood safety.",
+          "ru": "Почему у нижней Миссисипи могут соседствовать природный вал и искусственная дамба? Различи их и укажи предел защиты."
+        },
+        "answer": {
+          "en": "Overbank deposition builds a natural ridge; people construct or reinforce a defence. Both can stand beside the river but have different origins. Neither label proves protection against every possible flood: assess overtopping/breach and exposure for the actual location and design.",
+          "ru": "Природный вал создают наносы при разливах; искусственное сооружение строят или укрепляют люди. Происхождение различается, хотя объекты соседствуют. Название «дамба» не доказывает защиту от любого паводка: нужны местные данные об уровне воды, переливе, прочности и застройке."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/grade9/g-river-processes",
+        "title": {
+          "en": "General river mechanisms",
+          "ru": "Общие механизмы речных процессов"
+        }
+      },
+      {
+        "route": "/geography/rivers",
+        "title": {
+          "en": "River library, flood management and models",
+          "ru": "Реки: библиотека, защита от паводков и модели"
+        }
+      }
+    ],
+    "sources": [
+      "geo-niagara-en",
+      "geo-niagara-ru",
+      "geo-mississippi-en",
+      "geo-mississippi-ru",
+      "geo-hydrology-ru",
+      "geo-stream-types",
+      "geo-niagara-rate"
+    ]
+  },
+  {
     "id": "g-channel",
     "subject": "geography",
     "title": {
@@ -1204,7 +1351,7 @@
         "route": "/grade9/g-jamaica-tourism",
         "title": {
           "en": "Named mass-tourism case: Jamaica2024–2025",
-          "ru": "Именованный кейс массового туризма: Ямайка2024–2025"
+          "ru": "Именованный кейс массового туризма: Ямайка 2024–2025"
         }
       }
     ],
@@ -3065,15 +3212,15 @@
     },
     "prerequisites": {
       "en": "Divide totals by population; distinguish a percentage from a rate per1000.",
-      "ru": "Дели абсолютную величину на численность населения; различай процент и коэффициент на1000."
+      "ru": "Дели абсолютную величину на численность населения; различай процент и коэффициент на 1000."
     },
     "explanation": {
-      "en": "Population size counts people at a stated date; it is a total, not a rate. GDP is the value of final goods and services produced within an economy over a period, commonly a year. GDP per capita divides GDP by population. State currency, year and whether prices or purchasing-power adjustments are comparable; it is not each person’s income.\n\nCrude death rate is annual deaths divided by the mid-year population, multiplied by 1000: deaths per 1000 people per year. All ages are combined. Age structure can make an older population’s crude rate higher without proving worse healthcare; an age-standardised rate answers a different comparison.\n\nThe Global Hunger Index combines undernourishment, under-five stunting (low height for age), wasting (low weight for height) and under-five mortality. Standardised components produce a 0–100 score: higher indicates more severe hunger. It is not the percentage of people hungry; mortality has causes beyond nutrition. Compare scores recalculated within the same report, not ranks or historical scores copied from different editions.",
-      "ru": "Численность населения — количество людей на указанную дату, а не коэффициент. ВВП оценивает конечные товары и услуги, произведённые в экономике за период, обычно год. ВВП на душу населения получают делением на численность. Для сравнения нужны валюта, год и сопоставимые цены либо ППС. Эта средняя величина не равна доходу каждого.\n\nОбщий коэффициент смертности — умершие за календарный год, делённые на среднегодовую численность, с умножением на 1000. Единица — умершие на 1000 человек за год. Он объединяет все возрасты: более старое население может иметь больший коэффициент без доказанного ухудшения медицины. Для исключения влияния возраста используют стандартизацию.\n\nГлобальный индекс голода (GHI) объединяет недоедание населения, задержку роста детей до пяти лет, истощение детей этого возраста и смертность до пятилетия. После стандартизации получается балл 0–100: больше — хуже. Это не процент голодающих; детская смертность зависит не только от питания. Сравнивай пересчитанные значения одного выпуска, а не места и старые баллы из разных изданий."
+      "en": "Population size counts people at a stated date; it is a total, not a rate. GDP is the value of final goods and services produced within an economy over a period, commonly a year. GDP per capita divides GDP by population. State currency, year and whether prices or purchasing-power adjustments are comparable; it is not each person’s income.\n\nFor crude death rate in this lesson, use annual deaths divided by the mid-year population, multiplied by 1000: deaths per 1000 people per year, following the World Bank convention. Some national methods, including Rosstat’s, use mean annual population instead. The denominators need not be identical: mid-year population approximates the annual mean when change through the year is approximately linear. Match the methodology when comparing series. All ages are combined. Age structure can make an older population’s crude rate higher without proving worse healthcare; an age-standardised rate answers a different comparison.\n\nThe Global Hunger Index combines undernourishment, under-five stunting (low height for age), wasting (low weight for height) and under-five mortality. Standardised components produce a 0–100 score: higher indicates more severe hunger. It is not the percentage of people hungry; mortality has causes beyond nutrition. Compare scores recalculated within the same report, not ranks or historical scores copied from different editions.",
+      "ru": "Численность населения — количество людей на указанную дату, а не коэффициент. ВВП оценивает конечные товары и услуги, произведённые в экономике за период, обычно год. ВВП на душу населения получают делением на численность. Для сравнения нужны валюта, год и сопоставимые цены либо ППС. Эта средняя величина не равна доходу каждого.\n\nВ этом уроке общий коэффициент смертности рассчитываем по методике Всемирного банка: число умерших за год делим на численность в середине года и умножаем на 1000. Единица — умершие на 1000 человек за год. В методике Росстата знаменателем служит среднегодовая численность. Эти величины не всегда совпадают: при примерно линейном изменении населения середина года даёт приближение к среднегодовой величине. Поэтому для сравнения рядов нужно проверить методику. Он объединяет все возрасты: более старое население может иметь больший коэффициент без доказанного ухудшения медицины. Для исключения влияния возраста используют стандартизацию.\n\nГлобальный индекс голода (GHI) объединяет недоедание населения, задержку роста детей до пяти лет, истощение детей этого возраста и смертность до пятилетия. После стандартизации получается балл 0–100: больше — хуже. Это не процент голодающих; детская смертность зависит не только от питания. Сравнивай пересчитанные значения одного выпуска, а не места и старые баллы из разных изданий."
     },
     "worked": {
-      "en": "Invented district: 900 deaths in one year and a mid-year population of 100000 give 900/100000 × 1000 = 9 deaths per 1000, equivalent to 0.9%, not 9%. An invented annual GDP of US$2 billion for those 100000 people gives US$20000 per person per year; it says nothing about equal distribution.\n\nA historical Rosstat table reports 2005 crude death rates of 16.1 for Russia and 6.5 for Australia per 1000. The difference is 9.6 per 1000, not 9.6 percentage points. These dated observations do not by themselves explain the cause.",
-      "ru": "В учебном районе 900 умерших за год при среднегодовой численности 100 000: 900/100 000 × 1000 = 9 на 1000, то есть 0,9%, не 9%. Учебный годовой ВВП 2 млрд долларов при той же численности даёт 20 000 долларов на человека в год; равенства доходов из этого не следует.\n\nВ исторической таблице Росстата за 2005 год указаны 16,1 умершего на 1000 для России и 6,5 для Австралии. Разность 9,6 на 1000 — не 9,6 процентного пункта. Причину различия эти датированные наблюдения сами по себе не устанавливают."
+      "en": "Invented district: 900 deaths in one year and a mid-year population of 100000 give 900/100000 × 1000 = 9 deaths per 1000, equivalent to 0.9%, not 9%. An invented annual GDP of US$2 billion for those 100000 people gives US$20000 per person per year; it says nothing about equal distribution.\n\nA historical Rosstat table reports 2005 crude death rates of 16.1 for Russia and 6.5 for Australia per 1000. The difference is 9.6 per 1000, not 9.6 percentage points. These dated observations do not by themselves explain the cause.\n\nWhy the denominator matters: in an invented year, a population stays at 90000 for ten months and 150000 for the final two. Its time-weighted mean is (90000 × 10 + 150000 × 2)/12 = 100000, but the mid-year value is 90000. For 900 annual deaths the mean-annual convention gives 9 per1000 and the mid-year convention 10 per1000. These are different denominator choices, not different death counts. Under linear growth from 90000 to110000, both population summaries equal100000.",
+      "ru": "В учебном районе 900 умерших за год при численности в середине года 100 000: 900/100 000 × 1000 = 9 на 1000, то есть 0,9%, не 9%. Учебный годовой ВВП 2 млрд долларов при той же численности даёт 20 000 долларов на человека в год; равенства доходов из этого не следует.\n\nВ исторической таблице Росстата за 2005 год указаны 16,1 умершего на 1000 для России и 6,5 для Австралии. Разность 9,6 на 1000 — не 9,6 процентного пункта. Причину различия эти датированные наблюдения сами по себе не устанавливают.\n\nПроверим различие знаменателей на придуманном годе: десять месяцев живут 90000 человек, последние два —150000. Среднее с учётом времени: (90000 × 10 + 150000 × 2)/12 =100000; в середине года было 90000. При 900 умерших получатся 9 на 1000 по среднегодовой численности и 10 на 1000 по численности в середине года. Число умерших не менялось; изменился способ расчёта знаменателя. Если население равномерно растёт от 90000 до 110000, оба средних равны 100000."
     },
     "misconception": {
       "en": "A GHI score of 25 does not mean 25% of people are hungry; GDP per capita is not a household pay packet. A crude mortality comparison needs age context.",
@@ -3129,8 +3276,8 @@
             "ru": "Общий коэффициент смертности"
           },
           {
-            "en": "Deaths / population × 1000 per year",
-            "ru": "Умершие / население × 1000 за год"
+            "en": "Annual deaths / mid-year population × 1000",
+            "ru": "Умершие за год / численность в середине года × 1000"
           },
           {
             "en": "Age composition matters",
@@ -3162,7 +3309,7 @@
         "id": "g-indicators-1",
         "prompt": {
           "en": "A district has 1200 deaths and a mid-year population of 200000. Calculate its crude death rate and percentage. Then explain why a higher rate than another district does not alone prove worse healthcare.",
-          "ru": "За год умерли 1200 человек, среднегодовая численность 200 000. Найди коэффициент и процент. Почему больший коэффициент сам по себе не доказывает худшую медицину?"
+          "ru": "За год умерли 1200 человек, численность в середине года 200 000. Найди коэффициент и процент. Почему больший коэффициент сам по себе не доказывает худшую медицину?"
         },
         "answer": {
           "en": "1200/200000 × 1000 = 6 per 1000 per year = 0.6%. Population age structure and other causes differ; compare suitable age-specific or standardised rates and further evidence before a causal conclusion.",
@@ -4443,15 +4590,15 @@
     },
     "objective": {
       "en": "Build precise explained responses to the archived studied passage; distinguish language evidence, dramatic situation and interpretation.",
-      "ru": "Разбери изученный в9классе отрывок: свяжи точную деталь речи с выводом, различай ситуацию на сцене и её трактовку."
+      "ru": "Разбери изученный в 9 классе отрывок: свяжи точную деталь речи с выводом, различай ситуацию на сцене и её трактовку."
     },
     "prerequisites": {
       "en": "Duncan has been killed; Macbeth is king. Read3.1–3.2, including who is present. This is archivedG9 study, not a confirmed currentG10 extract.",
-      "ru": "Дункан убит, Макбет стал королём. Прочитай3.1–3.2 и проверь состав участников. Это материал прошлого9класса, не подтверждённый отрывок нынешнего экзамена10класса."
+      "ru": "Дункан убит, Макбет стал королём. Прочитай 3.1–3.2 и проверь состав участников. Это материал прошлого 9 класса, не подтверждённый отрывок нынешнего экзамена 10 класса."
     },
     "explanation": {
       "en": "Macbeth speaks to Lady Macbeth in3.2: she is present and answers him. This speech is therefore part of a dialogue, not a soliloquy simply because it reveals private thought. Lady Macbeth’s own brief speech occurs before he enters. His snake metaphor imagines danger as wounded but capable of recovery. Later he explicitly names Banquo and Fleance: kingship has not ended his fear of rivals and succession. The image is his way of framing the threat, not neutral proof that Banquo deserves to die.\n\nThe repeated “peace” connects the security he sought with the death he inflicted on Duncan. He envies the victim’s imagined rest while describing his own dreams and mental torture. That contrast exposes the cost of obtaining power through murder; it does not show that he has repented or stopped planning violence. “Ecstasy” here has a historical sense of mental disturbance, not delighted excitement. Do not manufacture an oxymoron by imposing only its modern meaning. “Restless” intensifies the loss of repose, alongside “terrible dreams” and “torture of the mind”.\n\nThe relationship also changes. In1.7 Lady Macbeth directs the plan; in3.2 he withholds the intended violence from her. His affectionate address and instruction to remain ignorant can be read as a mixture of intimacy and control. To argue that ambition isolates him, connect the command and concealment to this change, rather than diagnosing a modern medical condition. These are supported readings, open to challenge with contrary evidence.",
-      "ru": "Макбет произносит эти слова жене: она находится рядом и отвечает. Откровенность речи ещё не делает её монологом наедине со зрителем. Короткая речь самой леди Макбет звучит раньше, до его появления. Образ змеи передаёт угрозу, которую повредили, но не уничтожили. Позже Макбет прямо упоминает Банко и Флинса: захваченная корона не избавила его от страха за престол и наследование. Это взгляд убийцы на соперников, а не доказательство виновности Банко.\n\nВ повторе peace соединяются желанный покой и смерть Дункана. Макбет завидует воображаемому спокойствию жертвы, а собственную жизнь описывает через кошмары и душевную пытку. Так можно показать цену преступления. Но признание страдания не равнозначно раскаянию: герой готовит новое насилие. Историческое значение ecstasy в этом месте — болезненное исступление, не восторг. Поэтому нельзя строить разбор оксюморона только на современном переводе этого слова. Restless усиливает беспокойство; рядом стоят образы страшных снов и мучающегося сознания.\n\nИзменяются и отношения супругов. В1.7 жена ведёт подготовку убийства, теперь муж скрывает замысел от неё. Ласковое обращение соседствует с распоряжением ничего не знать: это позволяет обсуждать близость, контроль и отчуждение. Обосновывай такую трактовку конкретной репликой и сопоставлением сцен, не подменяй анализ медицинским диагнозом."
+      "ru": "Макбет произносит эти слова жене: она находится рядом и отвечает. Откровенность речи ещё не делает её монологом наедине со зрителем. Короткая речь самой леди Макбет звучит раньше, до его появления. Образ змеи передаёт угрозу, которую повредили, но не уничтожили. Позже Макбет прямо упоминает Банко и Флинса: захваченная корона не избавила его от страха за престол и наследование. Это взгляд убийцы на соперников, а не доказательство виновности Банко.\n\nВ повторе peace соединяются желанный покой и смерть Дункана. Макбет завидует воображаемому спокойствию жертвы, а собственную жизнь описывает через кошмары и душевную пытку. Так можно показать цену преступления. Но признание страдания не равнозначно раскаянию: герой готовит новое насилие. Историческое значение ecstasy в этом месте — болезненное исступление, не восторг. Поэтому нельзя строить разбор оксюморона только на современном переводе этого слова. Restless усиливает беспокойство; рядом стоят образы страшных снов и мучающегося сознания.\n\nИзменяются и отношения супругов. В 1.7 жена ведёт подготовку убийства, теперь муж скрывает замысел от неё. Ласковое обращение соседствует с распоряжением ничего не знать: это позволяет обсуждать близость, контроль и отчуждение. Обосновывай такую трактовку конкретной репликой и сопоставлением сцен, не подменяй анализ медицинским диагнозом."
     },
     "model": {
       "caption": {
@@ -4568,11 +4715,11 @@
         "id": "relationship",
         "prompt": {
           "en": "Use one earlier scene and one detail from3.2 to argue that the couple’s roles have changed.",
-          "ru": "По одной детали из ранней сцены и3.2 обоснуй изменение ролей супругов."
+          "ru": "По одной детали из ранней сцены и 3.2 обоснуй изменение ролей супругов."
         },
         "answer": {
           "en": "In1.7 Lady Macbeth supplies the practical plan and challenges his courage. In3.2 Macbeth tells her to remain ignorant until the deed is done. The contrast supports his growing independence and her exclusion; affectionate language complicates the reading, so do not claim that all intimacy has simply vanished.",
-          "ru": "В1.7 леди Макбет предлагает план и давит на самолюбие мужа. В3.2 он велит ей не знать о предстоящем деле. Сопоставление показывает его самостоятельность и её отстранение. При этом сохраняется ласковое обращение, поэтому утверждение о полном исчезновении близости было бы слишком прямолинейным."
+          "ru": "В 1.7 леди Макбет предлагает план и давит на самолюбие мужа. В 3.2 он велит ей не знать о предстоящем деле. Сопоставление показывает его самостоятельность и её отстранение. При этом сохраняется ласковое обращение, поэтому утверждение о полном исчезновении близости было бы слишком прямолинейным."
         }
       },
       {

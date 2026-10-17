@@ -2,6 +2,7 @@ import { DefinitionSupport } from '../../../components/content/DefinitionSupport
 import { geographyReviews } from '../../../definitions/geographyReviews';
 import { RiverProcesses } from '../../../components/simulations/geography/RiverProcesses';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { Waves } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 import { BradshawModel } from '../../../components/simulations/geography/BradshawModel';
@@ -49,6 +50,8 @@ export function RiversPage() {
           return <DetailedCard key={`t-${id}`} item={item} borderColor="var(--color-accent-sky)" labels={labels} />;
         })}
       </div>
+
+      <p className="bg-bg-secondary border border-border rounded-md p-4 my-4 text-sm"><Link className="underline" to="/grade9/g-river-cases">{l('Named applications: Niagara Falls and Gorge; lower Mississippi meanders, oxbows, floodplain and natural levees →', 'Примеры в природе: Ниагара и ущелье; меандры, старицы, пойма и природные валы нижней Миссисипи →')}</Link></p>
 
       <SectionHeading>{t('rivers.sections.waterfall.title')}</SectionHeading>
       <ol className="space-y-2">

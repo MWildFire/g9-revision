@@ -281,10 +281,10 @@
   },
   "cdr-wb": {
     "title": "World Bank WDI · crude death rate",
-    "url": "https://data.worldbank.org/indicator/SP.DYN.CDRT.IN",
+    "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.DYN.CDRT.IN",
     "note": {
-      "en": "Indicator definition: deaths per 1000; follow the indicator metadata for denominator.",
-      "ru": "Определение показателя: умершие на 1000 человек."
+      "en": "SP.DYN.CDRT.IN: Short/Long definition and Statistical concept/methodology specify mid-year population; annual deaths per1000.",
+      "ru": "Метаданные SP.DYN.CDRT.IN: знаменатель — население в середине года; умершие за год на1000 человек."
     }
   },
   "cdr-rosstat": {
@@ -677,6 +677,62 @@
     "note": {
       "en": "Original Russian critical research, pp.2107–2109: ambition, conscience and self-deception. Its religious-historical reading is an argued interpretation, not a required single answer or proof of every scene detail.",
       "ru": "Самостоятельное русское литературоведческое исследование, с.2107–2109: честолюбие, совесть, самообман. Религиозно-историческое прочтение авторов — интерпретация, не единственный обязательный ответ и не источник каждой детали сцены."
+    }
+  },
+  "geo-niagara-en": {
+    "title": "New York State Museum · Niagara Falls, geological story",
+    "url": "https://www.nysm.nysed.gov/research-collections/geology/resources/niagara-falls",
+    "note": {
+      "en": "Basics paragraphs2,5; Greater Depth paragraph1: actual resistant cap/weak shale and gorge. Numerical future projections are not adopted.",
+      "ru": "Разделы Basics и Greater Depth: породы, отступание и ущелье. Прогнозные сроки не перенесены."
+    }
+  },
+  "geo-niagara-ru": {
+    "title": "БРЭ · Ниагарский водопад (2013), том22, с.567",
+    "url": "https://old.bigenc.ru/geography/text/2264790",
+    "note": {
+      "en": "Original Russian geological description: dolomitic limestone/shale, retreat and canyon. Old numerical retreat rates are not treated as current.",
+      "ru": "Русское описание пород и ущелья. Численные скорости из старой статьи не выдаются за современные."
+    }
+  },
+  "geo-mississippi-en": {
+    "title": "USGS · Ground Water Atlas HA730-F, Surficial aquifer system",
+    "url": "https://pubs.usgs.gov/ha/ha730/ch_f/F-text2.html",
+    "note": {
+      "en": "Paragraph beginning The modern-day meandering Mississippi River system: point bars, cutoff oxbows, natural levees and floodplain deposits. Primary indexed passage read; direct download returned403.",
+      "ru": "Абзац о современной меандрирующей Миссисипи: излучины, старицы, пойма и валы. Прочитан индексированный первичный текст; прямое скачивание вернуло403."
+    }
+  },
+  "geo-mississippi-ru": {
+    "title": "М. В. Михайлова · Миссисипи, БРЭ, обновление03.07.2023",
+    "url": "https://bigenc.ru/c/missisipi-9dd9e1",
+    "note": {
+      "en": "Morphology of the valley: lower river winding channel, oxbows and natural bank ridges with artificial defences. No current sediment/discharge estimate is adopted.",
+      "ru": "«Морфология долины»: нижнее течение, старицы, естественные валы и искусственные дамбы. Численные оценки стока не перенесены."
+    }
+  },
+  "geo-hydrology-ru": {
+    "title": "Богатов, Федоровский · Основы речной гидрологии и гидробиологии (2017)",
+    "url": "https://sihote-alin.ru/dataset/e59f4ecd-2a9e-4e10-b667-e0f5cf98a6da/resource/9b3d06d7-8b6f-4b1b-a404-bb05940cbdd5/download/hydrology.pdf",
+    "note": {
+      "en": "Printed83, table1.8 meandering channels: outer erosion, inner bars and cutoffs. Mechanism support, not a specific Mississippi field survey.",
+      "ru": "Печатная с.83, табл.1.8: размыв внешнего берега, внутренние отмели и прорыв излучины. Механизм, не съёмка Миссисипи."
+    }
+  },
+  "geo-stream-types": {
+    "title": "Steven Earle · Physical Geology 2e (2019), §13.4",
+    "url": "https://opentextbc.ca/physicalgeology2ed/chapter/13-4-stream-types/",
+    "note": {
+      "en": "Figures13.4.4–13.4.5 and adjacent paragraphs: migration and cutoff. Illustrations refer to Bonnell Creek/Nowitna, not the Mississippi.",
+      "ru": "Рис.13.4.4–13.4.5: смещение и прорыв излучины. Изображены другие реки, не Миссисипи."
+    }
+  },
+  "geo-niagara-rate": {
+    "title": "Niagara Parks · Facts & Figures, future of the Falls",
+    "url": "https://www.niagaraparks.com/visit-niagara-parks/plan-your-visit/niagara-falls-geology-facts-figures/",
+    "note": {
+      "en": "Future section explicitly states current recession rate unclear and next rockfall unknown; no forecast from a fixed universal rate.",
+      "ru": "Раздел о будущем: нынешняя скорость неопределённа, время следующего обвала неизвестно."
     }
   }
 }

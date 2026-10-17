@@ -22,3 +22,16 @@
 @media print{.g9-course{padding-bottom:0!important}.g9-course>article{padding-bottom:0;margin-bottom:0}.g9-course>article>:last-child{margin-bottom:0}.g9-course .g9-compact-block{break-inside:avoid}.g9-course .g9-practice-intro{break-after:avoid}.g9-course .g9-practice-intro+.g9-question{break-before:avoid}}
 
 @media print{@page g9-study{size:A4;margin:12mm}.g9-course{page:g9-study;padding:0!important}}
+
+/* Print uses document flow; screen flex/scroll containers must not fragment panels. */
+@media print{
+ body:has(.g9-course) #root>div{display:block;min-height:0}
+ body:has(.g9-course) #root>div>.flex-1{display:block;min-height:0;transform:none!important}
+ .g9-course{font-size:10.5pt;line-height:1.5}
+ .g9-course h1{font-size:24pt;line-height:1.2}
+ .g9-course h2{font-size:15pt;margin-bottom:8pt}
+ .g9-course section{margin:12pt 0;padding:9pt}
+ .g9-course .overflow-x-auto{overflow:visible!important}
+ .g9-course .g9-model{break-inside:avoid}
+ .g9-course [lang=ar]{font-size:14pt;line-height:1.9}
+}

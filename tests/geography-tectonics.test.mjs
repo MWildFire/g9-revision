@@ -129,11 +129,11 @@ test("each lesson contains developed explanations and a usable worked reasoning 
   }
 });
 
-test("the practice bank has 39 unique answer keys, correct topic links and substantive guidance", () => {
-  assert.equal(questions.length, 39);
+test("the practice bank has 40 unique answer keys, correct topic links and substantive guidance", () => {
+  assert.equal(questions.length, 40);
   assert.equal(new Set(questions.map((question) => question.id)).size, questions.length);
   for (const lesson of lessons) {
-    assert.equal(lesson.questions.length, 3, `${lesson.id}: practice coverage`);
+    assert.equal(lesson.questions.length, lesson.id === "earth-structure" ? 4 : 3, `${lesson.id}: practice coverage`);
     for (const question of lesson.questions) {
       assert.equal(question.topic, lesson.id, `${question.id}: wrong lesson association`);
       assert.ok(words(question.prompt.en) >= 8, `${question.id}: incomplete prompt`);

@@ -46,5 +46,5 @@ test('three original rehearsals each total 100 with all four criteria; listening
 });
 test('worked quantitative answers retain important unit and model checks',()=>{
  // README rule 1: the ice question now asks for the expression, so the model check (warming plus melting) replaces the old numeric total (cross-check batch P-p-matter)
- assert.ok(practice['p-matter'][0].answer.en.includes('m(cΔT + L)'));assert.ok(practice['c-quantity'][0].answer.en.includes('80%'));assert.ok(practice['c-quantity'][0].answer.en.includes('56%'));assert.ok(practice['b-plants'][0].answer.en.includes('4.71'));assert.ok(practice['b-cells'].at(-1).answer.en.includes('m⁻¹'));assert.ok(practice['b-nervous'].at(-1).answer.en.includes('0.179'));
+ assert.ok(practice['p-matter'][0].answer.en.includes('m(cΔT + L)'));assert.ok(practice['c-quantity'][0].answer.en.includes('80%'));assert.ok(practice['c-quantity'][0].answer.en.includes('56%'));assert.ok(practice['b-plants'][0].answer.en.includes('4.71'));assert.ok(practice['b-cells'].find(x=>x.id==='surface-volume').answer.en.includes('m⁻¹'));assert.ok(practice['b-nervous'].find(x=>x.id==='reaction-time').answer.en.includes('0.179'));
 });

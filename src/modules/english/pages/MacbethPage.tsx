@@ -17,6 +17,7 @@ export function MacbethPage() {
 
   return (
     <div className="macbeth-study" lang={lang}>
+      <style media="print" data-macbeth-print-layout>{'@page { size: A4; margin: 12mm; }'}</style>
       <TopicHero title={t('macbethPage.title')} intro={t('macbethPage.intro')} icon={<ScrollText size={28} />} />
 
       <div className="mt-6 flex items-start gap-3 bg-bg-secondary border border-border rounded-md p-4" style={{ borderLeftColor: 'var(--color-accent-clay)', borderLeftWidth: '4px' }}>

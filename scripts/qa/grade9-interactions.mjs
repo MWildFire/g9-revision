@@ -84,6 +84,9 @@ try{
    await page.goto(base+`/english/macbeth?act=${act}`);
    await page.getByRole('heading',{level:2,name:`${lang==='ru'?'Акт':'Act'} ${act}`,exact:true}).waitFor();
    await page.emulateMedia({media:'print'});await settle(page);
+   assert.equal(await page.locator('#root>div>header').isVisible(),false,'Macbeth print must hide sticky site header');
+   assert.equal(await page.locator('div:has(>main>.macbeth-study)').evaluate(n=>getComputedStyle(n).display),'block','Macbeth print must leave screen flex layout');
+   assert.equal(await page.locator('.macbeth-study').evaluate(n=>getComputedStyle(n).page),'auto','Macbeth print must use normal page flow');
    for(const scene of macbeth.filter(s=>s.act===act)){
     await page.locator(`#${scene.id} .macbeth-print-answer`).getByText(scene.practice.answer[lang],{exact:true}).waitFor({state:'visible'});
    }

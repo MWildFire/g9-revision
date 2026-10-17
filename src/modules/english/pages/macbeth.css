@@ -3,8 +3,22 @@
 .macbeth-study a{overflow-wrap:anywhere}
 .macbeth-study button[aria-pressed="true"]{background:var(--color-bg-secondary);font-weight:700;outline:2px solid currentColor;outline-offset:2px}
 @media print{
- @page macbeth-study{size:A4;margin:12mm}
- .macbeth-study{page:macbeth-study}
+ body:has(.macbeth-study){background:white!important;color:#111!important}
+ body:has(.macbeth-study) #root>div{display:block;min-height:0}
+ body:has(.macbeth-study) #root>div>header,
+ body:has(.macbeth-study) #root>div>footer,
+ body:has(.macbeth-study) #root>div>.flex-1>div:not(:has(.macbeth-study)),
+ body:has(.macbeth-study) main:has(>.macbeth-study)~*,
+ body:has(.macbeth-study) div:has(>main>.macbeth-study)>aside,
+ body:has(.macbeth-study) div:has(>main>.macbeth-study)>nav{display:none!important}
+ body:has(.macbeth-study) #root>div>.flex-1,
+ body:has(.macbeth-study) div:has(>main>.macbeth-study){display:block;min-height:0;max-width:none;width:auto;padding:0;transform:none!important}
+ body:has(.macbeth-study) main:has(>.macbeth-study){display:block;min-width:0;width:auto;max-width:100%;padding:0}
+ .macbeth-study{page:auto;color:#111!important;background:white!important;font-size:10.5pt;max-width:100%}
+ .macbeth-study p{line-height:1.5}
+ .macbeth-study h1{font-size:24pt;line-height:1.2}
+ .macbeth-study h2{font-size:16pt}
+ .macbeth-study :is(h3,h4,li,aside){max-width:100%;overflow-wrap:anywhere}
  .macbeth-study .macbeth-scene{padding:0;border:0;break-before:page}
  .macbeth-study .macbeth-focus,.macbeth-study .macbeth-task{break-inside:avoid}
  .macbeth-study h3,.macbeth-study h4{break-after:avoid}

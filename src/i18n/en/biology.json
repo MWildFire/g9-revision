@@ -65,7 +65,7 @@
       "parts": {
         "nucleus": {
           "label": "Nucleus",
-          "desc": "Contains most of the cell’s DNA. Nuclear pores control exchange with the cytoplasm; mRNA leaves the nucleus through them."
+          "desc": "Contains nuclear chromosomes. Nuclear pores regulate exchange with the cytoplasm; mRNA produced here can pass through them into the cytoplasm."
         },
         "nucleolus": {
           "label": "Nucleolus",

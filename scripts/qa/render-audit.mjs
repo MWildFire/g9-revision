@@ -121,12 +121,32 @@ try {
             const cdp = await context.newCDPSession(page);
             const tiles = [];
             try {
-              for (let y=0;y<dimensions.height;y+=1200) {
-                const height=Math.min(1400,dimensions.height-y),file=`${stem}-y${y}.png`;
-                const shot=await withDeadline(() => cdp.send('Page.captureScreenshot',{format:'png',captureBeyondViewport:true,clip:{x:0,y,width:dimensions.width,height,scale:1}}),'tile_capture',30000);
+              // On long Cyrillic pages, captureBeyondViewport can hang before
+              // the first tile despite a ready DOM. Capture actual viewport
+              // surfaces while scrolling, with enough overlap for sticky chrome.
+              const overlap=300,step=Math.max(100,viewport.height-overlap);
+              let covered=0,lastY=-1;
+              for (let requested=0;requested<dimensions.height;requested+=step) {
+                await page.evaluate(y => window.scrollTo({top:y,behavior:'instant'}),requested);
+                await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+                const at=await page.evaluate(() => ({y:window.scrollY,height:window.innerHeight,print:matchMedia('print').matches,documentHeight:Math.max(document.documentElement.scrollHeight,document.body.scrollHeight),stickyHeaderHeight:document.querySelector('header')?.getBoundingClientRect().height??0}));
+                if (at.print !== (label==='print')) throw new Error('capture_media_changed');
+                if (at.documentHeight!==dimensions.height) throw new Error('layout_moved_during_tiling');
+                if (at.stickyHeaderHeight>overlap) throw new Error('sticky_header_exceeds_tile_overlap');
+                const y=Math.round(at.y),height=Math.min(at.height,dimensions.height-y);
+                if (y===lastY) break;
+                if (tiles.length && y>covered-overlap) throw new Error('tile_coverage_gap');
+                const file=`${stem}-y${y}.png`;
+                const shot=await withDeadline(() => cdp.send('Page.captureScreenshot',{format:'png',captureBeyondViewport:false,clip:{x:0,y,width:dimensions.width,height,scale:1}}),'tile_capture',30000);
+                if (await page.evaluate(() => matchMedia('print').matches) !== (label==='print')) throw new Error('capture_media_changed');
                 fs.writeFileSync(path.join(outDir,file),Buffer.from(shot.data,'base64'));
-                tiles.push({file,x:0,y,width:dimensions.width,height});
+                tiles.push({file,x:0,y,width:dimensions.width,height,method:'scrolled_visible_viewport',stickyHeaderHeight:at.stickyHeaderHeight});
+                covered=Math.max(covered,y+height);lastY=y;
+                if (covered>=dimensions.height) break;
               }
+              if (covered<dimensions.height) throw new Error('tile_document_end_missing');
+              await page.evaluate(() => window.scrollTo({top:0,behavior:'instant'}));
+              await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
             } finally { await withDeadline(() => cdp.detach(),'tile_session_detach'); }
             fs.writeFileSync(path.join(outDir,`${stem}-tiles.json`),JSON.stringify({build:identity,lang,view:label,route,dimensions,tiles},null,2)+'\n');
           } else {
@@ -145,7 +165,7 @@ try {
           const viewportSession = await context.newCDPSession(page);
           try {
             const shot = await withDeadline(() => viewportSession.send('Page.captureScreenshot', {
-              format:'png', captureBeyondViewport:true,
+              format:'png', captureBeyondViewport:false,
               clip:{x:0,y:0,width:dimensions.width,height:Math.min(viewport.height,dimensions.height),scale:1},
             }), 'viewport_capture', 30000);
             fs.writeFileSync(path.join(outDir, `${stem}-viewport.png`), Buffer.from(shot.data,'base64'));

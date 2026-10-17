@@ -4,6 +4,24 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { chromium } from 'playwright';
 import { startAuditServer } from './local-audit-server.mjs';
+// A heading alone can precede webfont loading and route entrance animations.
+// Never open disclosures here: print restoration must preserve the real baseline.
+async function settle(page){
+ await page.evaluate(()=>document.fonts.ready);
+ let previous='',since=0;
+ const deadline=Date.now()+15000;
+ while(Date.now()<deadline){
+  const state=await page.evaluate(()=>{
+   const root=document.querySelector('.g9-course')||document.querySelector('main');
+   const nodes=[root,...root.querySelectorAll('h1,h2,p,table,span[lang="ar"]')];
+   return {fonts:document.fonts.status,signature:JSON.stringify(nodes.map(n=>{const r=n.getBoundingClientRect(),s=getComputedStyle(n);return [Math.round(r.x),Math.round(r.y),Math.round(r.width),Math.round(r.height),s.opacity,s.fontFamily];}))};
+  });
+  if(state.fonts==='loaded'&&state.signature===previous){if(Date.now()-since>=500)return;}
+  else{previous=state.signature;since=Date.now();}
+  await new Promise(r=>setTimeout(r,100));
+ }
+ throw Error('capture_layout_or_fonts_unstable');
+}
 const [sha,outArg,portArg]=process.argv.slice(2);
 if(!sha||!outArg||!portArg)throw Error('Usage: grade9-interactions.mjs SHA OUT PORT');
 const out=path.resolve(outArg);fs.mkdirSync(out,{recursive:true});
@@ -32,6 +50,7 @@ try{
     await page.getByText(l.explanation[lang],{exact:true}).waitFor();
     await page.locator('.g9-question details').evaluateAll(nodes=>nodes.forEach(n=>n.open=true));
     for(const q of l.practice)await page.getByText(q.answer[lang],{exact:true}).waitFor();
+    await settle(page);
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+1);
     assert.equal(overflow,false,`${l.id} ${lang} ${width} overflow`);
     assert.equal(await page.locator('.g9-question').count(),2);
@@ -56,6 +75,7 @@ try{
    await page.goto(base+'/grade9/'+id);await page.getByRole('heading',{level:1,name:lessons.find(l=>l.id===id).title[lang],exact:true}).waitFor();await page.emulateMedia({media:'print'});
    await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));
    assert.equal(await page.locator('main details:not([open])').count(),0);
+   await settle(page);
    await page.pdf({path:path.join(out,`${id}-${lang}.pdf`),format:'A4',printBackground:true});
    await page.evaluate(()=>window.dispatchEvent(new Event('afterprint')));await page.emulateMedia({media:'screen'});
    assert.equal(await page.locator('.g9-question details[open]').count(),0);
@@ -65,6 +85,7 @@ try{
   for(const route of ['/mocks/science-investigation','/november/b-transport','/november/c-rates','/chemistry/energy','/chemistry/acids-bases','/geography/resource-reliance']){
    await page.goto(base+route);const expectedHeading=legacyHeading(route,lang);await page.getByRole('heading',{level:1,name:expectedHeading,exact:true}).waitFor();
    await page.locator('main details').evaluateAll(nodes=>nodes.forEach(n=>n.open=true));
+   await settle(page);
    const text=await page.locator('main').first().innerText();assert.ok(text.length>300);
    if(route==='/geography/resource-reliance')for(const id of ['g-indicators','g-aral-case'])assert.ok(await page.locator(`a[href$="/grade9/${id}"]`).count()>0);
    await page.screenshot({path:path.join(out,`legacy-${route.split('/').at(-1)}-${lang}.png`),fullPage:true});

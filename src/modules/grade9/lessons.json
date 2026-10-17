@@ -2064,12 +2064,12 @@
       "ru": "Округление, деление положительных чисел, единицы."
     },
     "explanation": {
-      "en": "Rounding to the nearest unit creates an interval of possible original values. With the usual half-up convention, 12 cm to the nearest cm means 11.5 ≤ L < 12.5 cm. The upper endpoint is excluded because it rounds to 13. For a positive quotient v = d/t, the lowest possible value uses the smallest distance and largest time; the upper bound uses the largest distance and smallest time. Endpoint inclusion follows the original intervals. Direct proportion y = kx has a constant ratio y/x and passes through the origin. Inverse proportion y = k/x has a constant product xy for nonzero x; it is not just any decreasing straight line. Check the physical meaning and domain before applying a rule.",
-      "ru": "Округлённое число задаёт промежуток исходных значений. При обычном школьном округлении 12 см до сантиметра означает 11,5 ≤ L < 12,5 см: верхняя граница уже округлилась бы до 13. Для положительного частного v = d/t нижнюю границу получают из меньшего расстояния и большего времени, верхнюю — наоборот. Включение границ зависит от исходных промежутков. При прямой пропорциональности y = kx отношение y/x постоянно, график проходит через начало координат. При обратной y = k/x постоянно произведение xy и x ≠ 0. Просто убывающая прямая не является обратной пропорциональностью. Перед расчётом проверь смысл величин и допустимые значения."
+      "en": "Rounding a positive value to the nearest unit creates an interval of possible original values. Under the stated half-up convention, an exact halfway value rounds upwards: 12 cm to the nearest cm means 11.5 ≤ L < 12.5 cm. The lower endpoint rounds to 12; the upper one rounds to 13 and is excluded. A bound need not be an attainable minimum or maximum.\n\nFor d > 0 and t > 0, v = d/t increases when d increases and decreases when t increases. Use the smallest allowed distance and the upper time bound for the lower speed bound; reverse those choices for the upper bound. Check whether each required endpoint is included. Keep exact fractions when stating the final interval: rounded decimal approximations are not exact endpoints.\n\nDirect proportion has the form y = kx with fixed nonzero k. The ratio y/x is constant wherever x ≠ 0; the full line passes through (0,0), although a restricted physical domain may exclude that point. Inverse proportion has the form y = k/x for fixed nonzero k and x ≠ 0 and has constant product xy. A decreasing straight line is not, simply because it decreases, an inverse-proportion model. Check the quantities and domain before applying either rule.",
+      "ru": "Округление положительного числа задаёт промежуток возможных исходных значений. При указанном школьном правиле значение ровно посередине округляют вверх: запись 12 см до сантиметра означает 11,5 ≤ L < 12,5 см. Нижний конец округляется до 12, а верхний — до 13, поэтому не входит в промежуток. Граница не обязательно является достижимым минимумом или максимумом.\n\nПри d > 0 и t > 0 частное v = d/t растёт с увеличением d и уменьшается с увеличением t. Для нижней границы скорости бери меньшее расстояние и верхнюю границу времени; для верхней — наоборот. Проверь, входят ли нужные концы в исходные промежутки. Строгий итоговый промежуток записывай точными дробями: округлённые десятичные приближения не являются точными концами.\n\nПрямая пропорциональность имеет вид y = kx с постоянным k ≠ 0. Отношение y/x постоянно при x ≠ 0; вся прямая проходит через (0;0), хотя физические ограничения могут исключать эту точку. При обратной пропорциональности y = k/x, k ≠ 0, x ≠ 0, постоянно произведение xy. Убывающая прямая не становится обратной пропорциональностью только потому, что она убывает. Перед применением правила проверь смысл величин и допустимые значения."
     },
     "worked": {
-      "en": "Distance is 100 m to nearest metre, time 20 s to nearest second. Thus 99.5 ≤ d < 100.5 and 19.5 ≤ t < 20.5. Speed lies strictly above 99.5/20.5 ≈ 4.854 and strictly below 100.5/19.5 ≈ 5.154 m/s; neither extreme is attained.",
-      "ru": "Расстояние 100 м округлено до метра, время 20 с — до секунды. Тогда 99,5 ≤ d < 100,5 и 19,5 ≤ t < 20,5. Скорость строго больше 99,5/20,5 ≈ 4,854 и строго меньше 100,5/19,5 ≈ 5,154 м/с; крайние значения не достигаются."
+      "en": "Invented readings: distance is 100 m to the nearest metre and time is 20 s to the nearest second, using half-up rounding. Thus 99.5 ≤ d < 100.5 m and 19.5 ≤ t < 20.5 s. In this model, any combination of values from the two intervals is allowed. The exact speed interval is 199/41 < v < 67/13 m/s, since 99.5/20.5 = 199/41 and 100.5/19.5 = 67/13. Neither extreme is attained: the lower one would need t = 20.5 s and the upper one d = 100.5 m, both excluded. The endpoints are approximately 4.853659 and 5.153846 m/s. These decimals describe the exact fractions; they do not replace them in the strict inequality.",
+      "ru": "Вымышленные отсчёты: расстояние 100 м округлено до метра, время 20 с — до секунды по указанному правилу. Тогда 99,5 ≤ d < 100,5 м и 19,5 ≤ t < 20,5 с. В модели допускается любое сочетание значений из этих двух промежутков. Точный промежуток скорости: 199/41 < v < 67/13 м/с, так как 99,5/20,5 = 199/41, а 100,5/19,5 = 67/13. Ни один край не достигается: для нижнего потребовалось бы t = 20,5 с, для верхнего — d = 100,5 м; оба значения исключены. Приближения границ — 4,853659 и 5,153846 м/с. Эти числа описывают точные дроби, но не заменяют их в строгом неравенстве."
     },
     "misconception": {
       "en": "Dividing both lower bounds does not give the lower bound of a quotient. This rule also needs positive denominators.",
@@ -2175,6 +2175,17 @@
           "en": "k = xy = 24; y = 24/12 = 2. Fourfold x gives one-quarter y.",
           "ru": "k = xy = 24; y = 24/12 = 2. Увеличение x вчетверо уменьшает y вчетверо."
         }
+      },
+      {
+        "id": "m-bounds-3",
+        "prompt": {
+          "en": "In an idealised example the distance is exactly 12 m. Time is recorded as 3.0 s to the nearest 0.1 s using half-up rounding. Give the exact interval for v = d/t and explain which, if either, speed bound is attained.",
+          "ru": "В условной модели расстояние равно точно 12 м. Время записано как 3,0 с после округления до 0,1 с по указанному правилу. Найди точный промежуток v = d/t и объясни, какая граница скорости достигается."
+        },
+        "answer": {
+          "en": "2.95 ≤ t < 3.05 s. Since distance is exactly 12 m and time is positive, 12/3.05 < v ≤ 12/2.95, or 240/61 < v ≤ 240/59 m/s. The lower bound is not attained because t = 3.05 s is excluded. The upper bound is attained at the allowed time 2.95 s. Unlike the worked example, only the denominator is uncertain; both speed endpoints are not automatically open.",
+          "ru": "2,95 ≤ t < 3,05 с. Расстояние точно равно 12 м, время положительно, поэтому 12/3,05 < v ≤ 12/2,95, то есть 240/61 < v ≤ 240/59 м/с. Нижняя граница не достигается: t = 3,05 с исключено. Верхняя достигается при допустимом времени 2,95 с. В отличие от разобранного примера, неопределённость есть только у знаменателя; оба конца скорости не обязаны быть открытыми."
+        }
       }
     ],
     "links": [
@@ -2195,7 +2206,9 @@
     ],
     "sources": [
       "math-ib",
-      "math-ru"
+      "math-ru",
+      "math-inequalities-ru",
+      "math-proportion-ru"
     ]
   },
   {

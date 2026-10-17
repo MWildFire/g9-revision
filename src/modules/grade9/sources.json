@@ -147,16 +147,16 @@
     "title": "Harrison, Huizink, Sproat-Clements & Torres-Skoumal · MYP Mathematics4&5 Standard, Oxford2021",
     "url": "https://www.oup.com.au/books/secondary-education/mathematics/9781382010986",
     "note": {
-      "en": "Local volume: Oxford2021, ISBN9781382011006, copyright page verified. Publisher link is the print+online pack ISBN9781382010986, with sample link. Exact inspected passages: printed p.436 direct proportion, p.440 inverse proportion (§8.2); §1.4 is units, not evidence for the bounds rule. Bounds are derived from the stated rounding convention.",
-      "ru": "Том Oxford2021, ISBN9781382011006: проверена страница copyright. Ссылка издателя относится к комплекту книга+онлайн ISBN9781382010986 и содержит ссылку на образец. Проверены точные фрагменты: печатная с.436 — прямая, с.440 — обратная пропорциональность (§8.2). §1.4 посвящён единицам и не подтверждает правило границ. Границы выведены из указанного правила округления."
+      "en": "Local Oxford2021 volume ISBN9781382011006, copyright page verified. The publisher link is the print+online pack ISBN9781382010986. Actual passages: printed31/PDF38 halfway-up rounding (raster reread); printed436/PDF443 direct proportion and440/PDF447 inverse proportion (§8.2), both reread. Endpoint inclusion and positive quotient bounds are our explicit derivations, not an inferred claim from §1.4 (units).",
+      "ru": "Том Oxford2021, ISBN9781382011006: проверена страница copyright. Ссылка издателя — комплект книга+онлайн ISBN9781382010986. Фактически прочитаны: печатная с.31/PDF38, округление половин вверх; с.436/PDF443, прямая пропорциональность; с.440/PDF447, обратная (§8.2). Включение концов и границы положительного частного выведены явно, а не приписаны §1.4, посвящённому единицам."
     }
   },
   "math-ru": {
-    "title": "Фоксфорд · Математика (RU)",
-    "url": "https://foxford.ru/wiki/matematika",
+    "title": "Фоксфорд · Округление десятичных дробей",
+    "url": "https://foxford.ru/wiki/matematika/okruglenie-desyatichnyh-drobej",
     "note": {
-      "en": "A terminology index, not a passage citation for every mathematical statement. Worked calculations follow the explicitly stated assumptions.",
-      "ru": "Указатель терминов, а не подтверждение каждого математического утверждения. Расчёты выполняются при явно указанных условиях."
+      "en": "The halfway convention and decimal-place rounding rule. Our intervals are derived from this rule; the source does not supply these invented distance/time values. Only positive values are used here.",
+      "ru": "Договорённость для значений ровно посередине и правило округления до разряда. Наши промежутки выведены из этого правила; вымышленные значения расстояния и времени не взяты из статьи. Здесь рассматриваются только положительные числа."
     }
   },
   "english-ib": {
@@ -1125,6 +1125,22 @@
     "note": {
       "en": "Table29 and the reference-temperature paragraph: sensor calibration uncertainty can contribute to a measurement budget. This independently authored Russian engineering example supplies no numerical uncertainty for our invented school readings.",
       "ru": "Таблица29 и абзац об эталонной температуре: неопределённость калибровки датчика может входить в бюджет измерения. Этот самостоятельный русский инженерный пример не задаёт числовую неопределённость для наших вымышленных школьных отсчётов."
+    }
+  },
+  "math-inequalities-ru": {
+    "title": "Фоксфорд · Числовые неравенства и их свойства",
+    "url": "https://foxford.ru/wiki/matematika/chislovyye-neravenstva-ikh-svoystva",
+    "note": {
+      "en": "Property2 and its proof: multiplying or dividing an inequality by a positive number preserves its order. Reciprocal order and quotient bounds below are explicitly derived from this foundation, with positive quantities.",
+      "ru": "Свойство2 и доказательство: умножение или деление неравенства на положительное число сохраняет знак. Порядок обратных величин и границы частного ниже выведены из этого основания для положительных величин."
+    }
+  },
+  "math-proportion-ru": {
+    "title": "Петерсон · Математика, 6 класс, методическое пособие, с.144–147",
+    "url": "https://files.sch2000.ru/pdf/lessons/math/metod_6kl.pdf",
+    "note": {
+      "en": "Pages144–147: direct and inverse proportion, including an invariant product for the inverse relation. These are model relationships, not an unconditional law about prices or workers.",
+      "ru": "С.144–147: прямая и обратная пропорциональность, в том числе постоянное произведение для обратной зависимости. Это модельные связи, а не безусловный закон о ценах или производительности работников."
     }
   }
 }

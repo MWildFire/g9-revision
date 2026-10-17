@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Battery } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
@@ -33,6 +34,11 @@ export function ResourceReliancePage() {
       <SectionHeading>{t('resourceReliance.sections.definitions.title')}</SectionHeading>
       {renderDetailed('resourceReliance.sections.definitions.detailed', DEFS, 'var(--color-accent-sage)')}
 
+      <section className="my-7 border border-border rounded-lg p-5">
+        <h2 className="text-xl mb-3">{l('Indicators and a dated resource case', 'Показатели и датированный ресурсный кейс')}</h2>
+        <p>{l('Extend these concepts with GDP, population, crude death rate and GHI: definitions, denominators and worked practice. Then evaluate the North Aral Sea water-management intervention, distinguishing its 2005 dike, historical outcomes and later proposals.', 'Продолжи разбор ВВП, численности, общего коэффициента смертности и GHI: определения, знаменатели и задачи с объяснениями. Затем оцени управление водой Северного Арала, различая плотину 2005 года, исторические результаты и поздние предложения.')}</p>
+        <ul className="mt-3 space-y-2"><li><Link className="underline" to="/grade9/g-indicators">{l('Development indicators and practice →', 'Показатели развития и практика →')}</Link></li><li><Link className="underline" to="/grade9/g-aral-case">{l('North Aral Sea: dated evidence and SEEP evaluation →', 'Северный Арал: датированные данные и оценка SEEP →')}</Link></li></ul>
+      </section>
       <SectionHeading>{t('resourceReliance.sections.sustainability.title')}</SectionHeading>
       {renderDetailed('resourceReliance.sections.sustainability.detailed', ['brundtland', 'sdgs'], 'var(--color-accent-sky-deep)')}
 

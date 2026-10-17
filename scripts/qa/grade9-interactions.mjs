@@ -27,8 +27,8 @@ try{
     assert.equal(overflow,false,`${l.id} ${lang} ${width} overflow`);
     assert.equal(await page.locator('.g9-question').count(),2);
     if(l.id==='a-core'||l.id==='a-routine')assert.ok(await page.locator('[lang="ar"][dir="rtl"]').count()>0);
-    if(width===1280&&['g-floods','g-channel','a-routine','e-comparison'].includes(l.id))await page.screenshot({path:path.join(out,`${l.id}-${lang}-desktop.png`),fullPage:true});
-    if(width===390&&['g-floods','a-routine','f-health-community'].includes(l.id))await page.screenshot({path:path.join(out,`${l.id}-${lang}-mobile.png`),fullPage:true});
+    if(width===1280&&['g-floods','g-channel','g-indicators','g-aral-case','a-routine','e-comparison'].includes(l.id))await page.screenshot({path:path.join(out,`${l.id}-${lang}-desktop.png`),fullPage:true});
+    if(width===390&&['g-floods','g-indicators','g-aral-case','a-routine','f-health-community'].includes(l.id))await page.screenshot({path:path.join(out,`${l.id}-${lang}-mobile.png`),fullPage:true});
     results.push({route:'/grade9/'+l.id,lang,width,explanation:true,answers:2,overflow});save();
    }
   }
@@ -43,7 +43,7 @@ try{
   const media=await page.locator('audio').evaluate(async audio=>{await audio.play();await new Promise((resolve,reject)=>{audio.addEventListener('ended',resolve,{once:true});audio.addEventListener('error',()=>reject(Error('media_error')),{once:true});setTimeout(()=>reject(Error('media_timeout')),20000);});return {duration:audio.duration,ended:audio.ended,currentTime:audio.currentTime};});
   assert.ok(media.ended&&media.duration>2);results.push({scenario:'arabic_media_playback',lang,...media});
   // Print events open answers and source metadata and then restore collapsed state.
-  for(const id of ['g-floods','a-routine','c-conditions']){
+  for(const id of ['g-floods','g-indicators','g-aral-case','a-routine','c-conditions']){
    await page.goto(base+'/grade9/'+id);await page.getByRole('heading',{level:1}).waitFor();await page.emulateMedia({media:'print'});
    await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));
    assert.equal(await page.locator('main details:not([open])').count(),0);
@@ -53,10 +53,11 @@ try{
    results.push({scenario:'print_answers_sources_and_restore',route:id,lang,passed:true});
   }
   // Exact shared follow-ups on the original lesson surface.
-  for(const route of ['/mocks/science-investigation','/november/b-transport','/november/c-rates','/chemistry/energy','/chemistry/acids-bases']){
+  for(const route of ['/mocks/science-investigation','/november/b-transport','/november/c-rates','/chemistry/energy','/chemistry/acids-bases','/geography/resource-reliance']){
    await page.goto(base+route);await page.locator('main').first().waitFor();await page.getByRole('heading',{level:1}).first().waitFor();
    await page.locator('main details').evaluateAll(nodes=>nodes.forEach(n=>n.open=true));
    const text=await page.locator('main').first().innerText();assert.ok(text.length>300);
+   if(route==='/geography/resource-reliance')for(const id of ['g-indicators','g-aral-case'])assert.ok(await page.locator(`a[href$="/grade9/${id}"]`).count()>0);
    await page.screenshot({path:path.join(out,`legacy-${route.split('/').at(-1)}-${lang}.png`),fullPage:true});
    results.push({scenario:'legacy_followup_render',route,lang,characters:text.length});
   }

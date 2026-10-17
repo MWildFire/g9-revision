@@ -144,11 +144,11 @@
     }
   },
   "math-ib": {
-    "title": "MYP Mathematics 4&5 Standard · Oxford 2nd ed. 2021 (EN)",
-    "url": "https://www.haesemathematics.com/",
+    "title": "Harrison, Huizink, Sproat-Clements & Torres-Skoumal · MYP Mathematics4&5 Standard, Oxford2021",
+    "url": "https://www.oup.com.au/books/secondary-education/mathematics/9781382010986",
     "note": {
-      "en": "ISBN 9781382011006. School chapter references retained privately; calculations here are authored.",
-      "ru": "ISBN 9781382011006. Школьные ссылки на главы сохранены приватно; новые расчёты авторские."
+      "en": "Local volume: Oxford2021, ISBN9781382011006, copyright page verified. Publisher link is the print+online pack ISBN9781382010986, with sample link. Exact inspected passages: printed p.436 direct proportion, p.440 inverse proportion (§8.2); §1.4 is units, not evidence for the bounds rule. Bounds are derived from the stated rounding convention.",
+      "ru": "Том Oxford2021, ISBN9781382011006: проверена страница copyright. Ссылка издателя относится к комплекту книга+онлайн ISBN9781382010986 и содержит ссылку на образец. Проверены точные фрагменты: печатная с.436 — прямая, с.440 — обратная пропорциональность (§8.2). §1.4 посвящён единицам и не подтверждает правило границ. Границы выведены из указанного правила округления."
     }
   },
   "math-ru": {
@@ -261,6 +261,166 @@
     "note": {
       "en": "Plant nutrition; the potometer calculation is an authored model.",
       "ru": "Питание растений; потометр — отдельный авторский расчёт."
+    }
+  },
+  "ghi-method": {
+    "title": "Global Hunger Index · methodology, 2026",
+    "url": "https://www.globalhungerindex.org/methodology.html",
+    "note": {
+      "en": "How the GHI is calculated; four indicators, weighting and within-edition comparability.",
+      "ru": "Методология GHI: четыре компонента, стандартизация и сравнение внутри выпуска."
+    }
+  },
+  "ghi-ru": {
+    "title": "Богданова, Беликова, Бук · Продовольственная безопасность РФ",
+    "url": "https://bookonlime.ru/system/files/node/product_pdf/download_file/bogdanova_belikova_buk_prodovolstvennaya_bezopasnost_rf.pdf#page=127",
+    "note": {
+      "en": "Independent Russian-authored text, printed p.127: GHI components and interpretation. Historical publisher/date claims are not adopted.",
+      "ru": "Самостоятельный русскоязычный учебный текст, печатная с.127: состав и смысл GHI. Исторические сведения об издателях индекса не перенесены."
+    }
+  },
+  "cdr-wb": {
+    "title": "World Bank WDI · crude death rate",
+    "url": "https://data.worldbank.org/indicator/SP.DYN.CDRT.IN",
+    "note": {
+      "en": "Indicator definition: deaths per 1000; follow the indicator metadata for denominator.",
+      "ru": "Определение показателя: умершие на 1000 человек."
+    }
+  },
+  "cdr-rosstat": {
+    "title": "Росстат · Основные демографические показатели, §2.1",
+    "url": "https://rosstat.gov.ru/bgd/free/B99_10/IssWWW.exe/Stg/d000/i000030r.htm",
+    "note": {
+      "en": "Independent Russian statistics methodology, paragraph on general death rates.",
+      "ru": "Независимая российская методология: абзац об общих коэффициентах смертности."
+    }
+  },
+  "cdr-table": {
+    "title": "Росстат · Международные сравнения, таблица 26.5",
+    "url": "https://rosstat.gov.ru/bgd/regl/b09_13/IssWWW.exe/Stg/html6/26-05.htm",
+    "note": {
+      "en": "Historical 2005 deaths per 1000: Russia16.1, Australia6.5. These are not current values.",
+      "ru": "Исторические данные за 2005 год: Россия16,1, Австралия6,5 на1000. Не современные значения."
+    }
+  },
+  "gdp-wb": {
+    "title": "World Bank WDI · GDP per capita, current US$",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+    "note": {
+      "en": "Indicator NY.GDP.PCAP.CD; period and price basis must be stated.",
+      "ru": "Индикатор NY.GDP.PCAP.CD; требуется указать период и ценовую основу."
+    }
+  },
+  "gdp-rosstat": {
+    "title": "Росстат · Методологические положения о ВВП",
+    "url": "https://rosstat.gov.ru/free_doc/new_site/vvp/met-vvp.htm",
+    "note": {
+      "en": "Independent national-accounts definition of final production and GDP.",
+      "ru": "Самостоятельное определение конечной продукции и ВВП в национальных счетах."
+    }
+  },
+  "aral-wb2008": {
+    "title": "World Bank · North Aral restoration, October2008, pp.1–2",
+    "url": "https://documents1.worldbank.org/curated/en/888771468089960580/pdf/462360BRI0Box31e0no0FS231Kazakhstan.pdf",
+    "note": {
+      "en": "Project report: August2005 completion, 2004–2007 harvest. Sponsor perspective and early date are explicit.",
+      "ru": "Отчёт участника проекта: завершение в августе2005, уловы2004–2007. Учтены интерес источника и ранняя дата."
+    }
+  },
+  "aral-kaz2022": {
+    "title": "Казгипроводхоз · Северный Арал, 16.08.2022",
+    "url": "https://cawater-info.net/expert-platform/pdf/16-08-2022/ryabrsev.pdf",
+    "note": {
+      "en": "Russian-authored engineering presentation: PDFpp.4–5 observed structures/flows; pp.6,14,16 alternative designs and limits. Not a translation of the World Bank brief.",
+      "ru": "Самостоятельная инженерная презентация: PDFс.4–5 существующие сооружения и расходы воды; с.6,14,16 варианты и ограничения. Не перевод отчёта ВБ."
+    }
+  },
+  "hydraulic-ru": {
+    "title": "Султанов и др., КФУ2024 · гидравлический радиус",
+    "url": "https://kpfu.ru/staff_files/F_1198663999/Osnovy_mekhaniki_zhidkosti_i_gaza___blok_i_oblozhka___ispr.variant.pdf#page=49",
+    "note": {
+      "en": "Printed p.48, equation33; pp.47–49 define wetted perimeter, area and discharge. Independent Russian authors, not a translation of RGS.",
+      "ru": "Печатная с.48, формула33; с.47–49: смоченный периметр, площадь и расход. Самостоятельные русские авторы, не перевод RGS."
+    }
+  },
+  "river-rgs": {
+    "title": "RGS · river characteristics, Bradshaw and measurement",
+    "url": "https://www.rgs.org/schools/fieldwork-in-schools/fieldwork-planning/key-fieldwork-experiences-and-techniques/how-do-the-characteristics-of-a-river-change-from-source-to-mouth",
+    "note": {
+      "en": "Bradshaw list; calculations paragraph: Q=A×v and R=A/P. The isolated earlier sentence about velocity contradicts the list and is not adopted.",
+      "ru": "Список модели Брэдшоу; абзац расчётов: Q=A×v и R=A/P. Противоречивая отдельная фраза о скорости выше списка не использована."
+    }
+  },
+  "sampling-rgs": {
+    "title": "RGS · Sampling techniques",
+    "url": "https://www.rgs.org/schools/resources-for-schools/sampling-techniques",
+    "note": {
+      "en": "Sections Random, Systematic and Stratified sampling; proportional and random variants distinguished.",
+      "ru": "Разделы о случайном, систематическом и стратифицированном отборе; различаются пропорциональный и случайный варианты."
+    }
+  },
+  "sampling-epa": {
+    "title": "US EPA · Selecting a Sampling Design",
+    "url": "https://www.epa.gov/quality/selecting-sampling-design",
+    "note": {
+      "en": "Simple Random Sampling, Stratified Random Sampling and Systematic/Grid Sampling sections.",
+      "ru": "Разделы Simple Random, Stratified Random и Systematic/Grid Sampling."
+    }
+  },
+  "spearman-scipy": {
+    "title": "SciPy · Spearman correlation",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html",
+    "note": {
+      "en": "Definition and small-sample significance limits. It is not the source of an invented teaching dataset.",
+      "ru": "Определение и ограничения значимости малых выборок. Учебные данные авторские, не взяты из SciPy."
+    }
+  },
+  "sampling-ru": {
+    "title": "Кельмансон · Методология исследований, с.49–50",
+    "url": "https://kpfu.ru/portal/docs/F1408338510/Metodologiya.issledovanij.v.klinicheskoj.psikhologii..17.2_801_803.pdf#page=50",
+    "note": {
+      "en": "Independent Russian-authored methodology: simple random sampling, inclusion probability and sampling frame. This passage does not ground every fieldwork term.",
+      "ru": "Самостоятельная русская методология: простой случайный отбор, вероятность включения и основа выборки. Этот фрагмент не подтверждает все термины fieldwork."
+    }
+  },
+  "spearman-ru": {
+    "title": "Половкина и Григорьева · Статистика, КФУ2016, с.123–124",
+    "url": "https://dspace.kpfu.ru/xmlui/bitstream/net/109537/1/UP_TS_2017.pdf#page=123",
+    "note": {
+      "en": "§8.3: ranks and the no-ties formula. The book’s significance approximation and blanket strength threshold are not adopted.",
+      "ru": "§8.3: ранги и формула без совпадающих рангов. Приближение для значимости и универсальный порог тесноты связи из книги не используются."
+    }
+  },
+  "current-openstax": {
+    "title": "OpenStax University Physics2 · §9.1, electrical current",
+    "url": "https://openstax.org/books/university-physics-volume-2/pages/9-1-electrical-current",
+    "note": {
+      "en": "Equations9.1–9.2 distinguish interval-average and instantaneous current; ampere is coulomb per second.",
+      "ru": "Формулы9.1–9.2 различают средний и мгновенный ток; ампер — кулон в секунду."
+    }
+  },
+  "ohm-openstax": {
+    "title": "OpenStax University Physics2 · §9.4, Ohm’s law",
+    "url": "https://openstax.org/books/university-physics-volume-2/pages/9-4-ohms-law",
+    "note": {
+      "en": "Ohmic behaviour and temperature dependence; not a rule for every device.",
+      "ru": "Омическое поведение и зависимость от температуры; закон не описывает любой прибор."
+    }
+  },
+  "circuits-ru": {
+    "title": "Трофимова · Физика, 2-е изд.2013, §79–82",
+    "url": "https://tsput.ru/res/fizika/KNIGI/Trofimova-2013.pdf#page=142",
+    "note": {
+      "en": "Independent Russian-authored definitions: §79 current, §81 Ohm, §82 work/power and units. Historical SI definitions in the book’s introduction are not adopted.",
+      "ru": "Самостоятельные русские определения: §79 ток, §81 закон Ома, §82 работа, мощность и единицы. Устаревшие определения СИ из введения не используются."
+    }
+  },
+  "equilibrium-openstax": {
+    "title": "OpenStax Chemistry2e · §13.3, equilibrium changes",
+    "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+    "note": {
+      "en": "Concentration/pressure paragraphs use reacting partial pressures. Inert-gas cases follow the stated ideal-gas assumptions, not total pressure alone.",
+      "ru": "В абзацах о концентрации и давлении используются парциальные давления реагирующих газов. Случаи инертного газа выводятся при указанных допущениях идеального газа."
     }
   }
 }

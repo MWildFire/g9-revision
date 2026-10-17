@@ -255,7 +255,9 @@
     ],
     "sources": [
       "geo-river-en",
-      "geo-river-ru"
+      "geo-river-ru",
+      "river-rgs",
+      "hydraulic-ru"
     ]
   },
   {
@@ -584,6 +586,13 @@
     ],
     "links": [
       {
+        "route": "/grade9/g-indicators",
+        "title": {
+          "en": "GDP, population, death rate and GHI: definitions and practice",
+          "ru": "ВВП, численность, смертность и GHI: определения и задачи"
+        }
+      },
+      {
         "route": "/geography/resource-reliance",
         "title": {
           "en": "Resource indicators, cases and models",
@@ -696,8 +705,8 @@
           "ru": "Расход на изделие упал с 10 до 8, выпуск вырос со 100 до 150. Найди общий расход."
         },
         "answer": {
-          "en": "Before 1000; after 1200 units. Efficiency improved by 20%, total use rose by 20%.",
-          "ru": "Было 1000, стало 1200. Эффективность выросла, но общий расход увеличился на 20%."
+          "en": "Before: 1000 units; after: 1200. Energy per item (energy intensity) fell by 20%, while total energy use rose by 20%. For equal items, output per unit energy rose from 0.1 to 0.125 items/unit, a 25% rise. Useful-energy conversion efficiency is not specified.",
+          "ru": "Было 1000 единиц, стало 1200. Расход энергии на изделие (энергоёмкость) снизился на 20%, общий расход вырос на 20%. При одинаковых изделиях выпуск на единицу энергии вырос с 0,1 до 0,125 изделия на единицу, то есть на 25%. КПД преобразования энергии здесь не задан."
         }
       },
       {
@@ -714,10 +723,17 @@
     ],
     "links": [
       {
+        "route": "/grade9/g-aral-case",
+        "title": {
+          "en": "North Aral Sea: 2005 dike, dated evidence and SEEP practice",
+          "ru": "Северный Арал: плотина 2005 года, данные и практика SEEP"
+        }
+      },
+      {
         "route": "/geography/resource-reliance",
         "title": {
-          "en": "Named resource cases",
-          "ru": "Именованные примеры ресурсов"
+          "en": "Resource concepts and management library",
+          "ru": "Ресурсы и управление: библиотека понятий"
         }
       }
     ],
@@ -1014,7 +1030,12 @@
     ],
     "sources": [
       "geo-methods",
-      "math-ru"
+      "math-ru",
+      "sampling-rgs",
+      "sampling-epa",
+      "spearman-scipy",
+      "sampling-ru",
+      "spearman-ru"
     ]
   },
   {
@@ -1286,8 +1307,8 @@
       "ru": "Заряд, ток и напряжение."
     },
     "explanation": {
-      "en": "Current I is charge flow per time: I = q/t, in amperes (C/s). Potential difference V is energy transferred per coulomb, in volts (J/C). In a series circuit the same current passes through every component; parallel branches share the potential difference between their common endpoints. An ammeter has low resistance and goes in series; a voltmeter has high resistance and goes in parallel. For an ohmic resistor at constant temperature, V = IR, with resistance R in ohms. Electrical power P = VI is in watts; energy E = Pt is in joules for time in seconds. Real lamps heat up, so their resistance need not remain constant. A circuit model does not describe all material behaviour.",
-      "ru": "Сила тока I — заряд за время: I = q/t, амперы равны Кл/с. Напряжение — энергия на единицу заряда, В = Дж/Кл; в русских обозначениях обычно U. При последовательном соединении ток одинаков, при параллельном ветви имеют общее напряжение между одинаковыми узлами. Амперметр с малым сопротивлением включают последовательно, вольтметр с большим — параллельно. Для омического резистора при постоянной температуре U = IR, R в омах. Мощность P = UI измеряют в ваттах, энергию E = Pt — в джоулях, если время в секундах. У нагревающейся лампы сопротивление меняется, поэтому нельзя считать любой элемент идеальным резистором."
+      "en": "Interval-average current I is charge transferred per time: I = q/t; for steady DC it equals the constant current, in amperes (C/s). Potential difference V is energy transferred per coulomb, in volts (J/C). In a series circuit the same current passes through every component; parallel branches share the potential difference between their common endpoints. An ammeter has low resistance and goes in series; a voltmeter has high resistance and goes in parallel. For an ohmic resistor at constant temperature, V = IR, with resistance R in ohms. Electrical power P = VI is in watts; energy E = Pt is in joules for time in seconds. Real lamps heat up, so their resistance need not remain constant. A circuit model does not describe all material behaviour.",
+      "ru": "Средняя сила тока I за интервал — перенесённый заряд за время: I = q/t; при постоянном токе это его неизменное значение, амперы равны Кл/с. Напряжение — энергия на единицу заряда, В = Дж/Кл; в русских обозначениях обычно U. При последовательном соединении ток одинаков, при параллельном ветви имеют общее напряжение между одинаковыми узлами. Амперметр с малым сопротивлением включают последовательно, вольтметр с большим — параллельно. Для омического резистора при постоянной температуре U = IR, R в омах. Мощность P = UI измеряют в ваттах, энергию E = Pt — в джоулях, если время в секундах. У нагревающейся лампы сопротивление меняется, поэтому нельзя считать любой элемент идеальным резистором."
     },
     "worked": {
       "en": "A 6 V supply across a 12 Ω resistor gives I = 6/12 = 0.5 A. P = 6 × 0.5 = 3 W; over 120 s, E = 3 × 120 = 360 J. Check: W × s = J.",
@@ -1396,7 +1417,10 @@
     ],
     "sources": [
       "physics-ib",
-      "physics-ru"
+      "physics-ru",
+      "current-openstax",
+      "ohm-openstax",
+      "circuits-ru"
     ]
   },
   {
@@ -1756,7 +1780,8 @@
     ],
     "sources": [
       "chem-ib",
-      "chem-ru"
+      "chem-ru",
+      "equilibrium-openstax"
     ]
   },
   {
@@ -2421,8 +2446,8 @@
       "ru": "Уважительное обсуждение и работа с доказательствами."
     },
     "explanation": {
-      "en": "This supplemental reasoning task supports a currently visible Moral Education class; no school assessment topic is asserted. A fact is a claim that can be checked; a value concerns what should matter; a decision chooses an action under constraints. In allocating a limited community budget, equal shares, greatest need and greatest expected benefit can point to different choices. Identify affected groups, ask whose voice is missing and compare options using the same criteria. Explain what evidence would change your decision. Respect disagreement by addressing reasons rather than labelling people. A reasoned answer can acknowledge uncertainty and still recommend an action.",
-      "ru": "Это дополнительная тренировка рассуждения для видимого класса Moral Education, не заявленная тема школьной проверки. Факт можно проверить, ценность говорит о важном, решение выбирает действие в условиях ограничений. При распределении общественного бюджета равные доли, наибольшая нуждаемость и максимальная ожидаемая польза могут вести к разным выборам. Назови затронутые группы, найди отсутствующие голоса и сравни варианты по одинаковым критериям. Объясни, какие сведения изменили бы вывод. Уважение к несогласию означает обсуждение доводов, а не ярлыки для людей. Признание неопределённости не мешает предложить обоснованное действие."
+      "en": "This supplemental reasoning task supports a currently visible Moral Education class; no school assessment topic is asserted. A factual claim says something about the world that can be checked, but it can be false. Treat it as an established fact only when adequate evidence supports it. A value concerns what should matter; a decision chooses an action under constraints. In allocating a limited community budget, equal shares, greatest need and greatest expected benefit can point to different choices. Identify affected groups, ask whose voice is missing and compare options using the same criteria. Explain what evidence would change your decision. Respect disagreement by addressing reasons rather than labelling people. A reasoned answer can acknowledge uncertainty and still recommend an action.",
+      "ru": "Это дополнительная тренировка рассуждения для видимого класса Moral Education, не заявленная тема школьной проверки. Фактическое утверждение можно проверить, но оно может оказаться ложным. Установленным фактом его считают при достаточном подтверждении. Ценность говорит о важном, решение выбирает действие в условиях ограничений. При распределении общественного бюджета равные доли, наибольшая нуждаемость и максимальная ожидаемая польза могут вести к разным выборам. Назови затронутые группы, найди отсутствующие голоса и сравни варианты по одинаковым критериям. Объясни, какие сведения изменили бы вывод. Уважение к несогласию означает обсуждение доводов, а не ярлыки для людей. Признание неопределённости не мешает предложить обоснованное действие."
     },
     "worked": {
       "en": "Invented proposal: 100 units can fund either an accessible entrance or new decoration. If the entrance excludes some residents, equal access is a strong reason to prioritise it. Check actual access needs, costs and alternatives before claiming that the comparison is complete.",
@@ -2450,8 +2475,8 @@
             "ru": "Бюджет 100"
           },
           {
-            "en": "Checkable fact",
-            "ru": "Проверяемый факт"
+            "en": "Factual claim; a given within this invented scenario",
+            "ru": "Фактическое утверждение; дано как условие учебной ситуации"
           }
         ],
         [
@@ -2651,8 +2676,8 @@
       "ru": "Social Studies подтверждён в архиве G9, но точный экзаменационный состав неизвестен. Источник полезен для одного вопроса и ограничен для другого. Установи автора, время, адресата и цель. Рекламная брошюра показывает желаемый образ организации, но не доказывает опыт всех жителей. Поздний рассказ может учитывать дополнительные данные и последствия, но хуже передавать некоторые непосредственные впечатления. Первичный источник не обязательно достоверен, вторичный не обязательно бесполезен. Сверяй конкретные утверждения по независимым данным и проверяй, не восходят ли источники к одной публикации. Последовательность событий ещё не доказывает причинную связь."
     },
     "worked": {
-      "en": "Invented source A is a council poster calling a new park “for everyone”; source B is a resident interview about an inaccessible path. A supports the council’s public intention; B gives one experience of access. Neither proves every resident’s experience. Site inspection and a broader sample would test the access claim.",
-      "ru": "Учебный источник A — плакат совета «парк для всех», B — интервью жителя о недоступной дорожке. A показывает публичное намерение, B — один опыт доступа. Ни один не представляет всех жителей. Нужны обследование и более широкая выборка."
+      "en": "Invented source A is a council poster calling a new park “for everyone”; source B is a resident interview about an inaccessible path. A supports the council’s stated public intention; B gives one experience of access. Neither proves every resident’s experience. Site inspection and a broader sample would test the access claim.",
+      "ru": "Учебный источник A — плакат совета «парк для всех», B — интервью жителя о недоступной дорожке. A показывает заявленное публичное намерение, B — один опыт доступа. Ни один не представляет всех жителей. Нужны обследование и более широкая выборка."
     },
     "misconception": {
       "en": "Two websites repeating the same press release are not two independent confirmations.",
@@ -2965,6 +2990,263 @@
     "sources": [
       "arabic-en",
       "arabic-ru"
+    ]
+  },
+  {
+    "id": "g-indicators",
+    "subject": "geography",
+    "scope": "school-g9",
+    "title": {
+      "en": "Development indicators: what is the denominator?",
+      "ru": "Показатели развития: что в знаменателе?"
+    },
+    "objective": {
+      "en": "Define GDP, population, crude death rate and GHI; interpret each without confusing their units.",
+      "ru": "Определи ВВП, численность, общий коэффициент смертности и GHI; истолкуй их с правильными единицами."
+    },
+    "prerequisites": {
+      "en": "Divide totals by population; distinguish a percentage from a rate per1000.",
+      "ru": "Дели абсолютную величину на численность населения; различай процент и коэффициент на1000."
+    },
+    "explanation": {
+      "en": "Population size counts people at a stated date; it is a total, not a rate. GDP is the value of final goods and services produced within an economy over a period, commonly a year. GDP per capita divides GDP by population. State currency, year and whether prices or purchasing-power adjustments are comparable; it is not each person’s income.\n\nCrude death rate is annual deaths divided by the mid-year population, multiplied by 1000: deaths per 1000 people per year. All ages are combined. Age structure can make an older population’s crude rate higher without proving worse healthcare; an age-standardised rate answers a different comparison.\n\nThe Global Hunger Index combines undernourishment, under-five stunting (low height for age), wasting (low weight for height) and under-five mortality. Standardised components produce a 0–100 score: higher indicates more severe hunger. It is not the percentage of people hungry; mortality has causes beyond nutrition. Compare scores recalculated within the same report, not ranks or historical scores copied from different editions.",
+      "ru": "Численность населения — количество людей на указанную дату, а не коэффициент. ВВП оценивает конечные товары и услуги, произведённые в экономике за период, обычно год. ВВП на душу населения получают делением на численность. Для сравнения нужны валюта, год и сопоставимые цены либо ППС. Эта средняя величина не равна доходу каждого.\n\nОбщий коэффициент смертности — умершие за календарный год, делённые на среднегодовую численность, с умножением на 1000. Единица — умершие на 1000 человек за год. Он объединяет все возрасты: более старое население может иметь больший коэффициент без доказанного ухудшения медицины. Для исключения влияния возраста используют стандартизацию.\n\nГлобальный индекс голода (GHI) объединяет недоедание населения, задержку роста детей до пяти лет, истощение детей этого возраста и смертность до пятилетия. После стандартизации получается балл 0–100: больше — хуже. Это не процент голодающих; детская смертность зависит не только от питания. Сравнивай пересчитанные значения одного выпуска, а не места и старые баллы из разных изданий."
+    },
+    "worked": {
+      "en": "Invented district: 900 deaths in one year and a mid-year population of 100000 give 900/100000 × 1000 = 9 deaths per 1000, equivalent to 0.9%, not 9%. An invented annual GDP of US$2 billion for those 100000 people gives US$20000 per person per year; it says nothing about equal distribution.\n\nA historical Rosstat table reports 2005 crude death rates of 16.1 for Russia and 6.5 for Australia per 1000. The difference is 9.6 per 1000, not 9.6 percentage points. These dated observations do not by themselves explain the cause.",
+      "ru": "В учебном районе 900 умерших за год при среднегодовой численности 100 000: 900/100 000 × 1000 = 9 на 1000, то есть 0,9%, не 9%. Учебный годовой ВВП 2 млрд долларов при той же численности даёт 20 000 долларов на человека в год; равенства доходов из этого не следует.\n\nВ исторической таблице Росстата за 2005 год указаны 16,1 умершего на 1000 для России и 6,5 для Австралии. Разность 9,6 на 1000 — не 9,6 процентного пункта. Причину различия эти датированные наблюдения сами по себе не устанавливают."
+    },
+    "misconception": {
+      "en": "A GHI score of 25 does not mean 25% of people are hungry; GDP per capita is not a household pay packet. A crude mortality comparison needs age context.",
+      "ru": "25 баллов GHI не означают 25% голодающих. ВВП на душу не равен заработку семьи. Для сравнения общей смертности нужен возрастной контекст."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Indicator",
+          "ru": "Показатель"
+        },
+        {
+          "en": "Unit and denominator",
+          "ru": "Единица и знаменатель"
+        },
+        {
+          "en": "Main limitation",
+          "ru": "Главное ограничение"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Population",
+            "ru": "Численность"
+          },
+          {
+            "en": "People at a date",
+            "ru": "Люди на дату"
+          },
+          {
+            "en": "No distribution or well-being measure",
+            "ru": "Не мера распределения и благополучия"
+          }
+        ],
+        [
+          {
+            "en": "GDP per capita",
+            "ru": "ВВП на душу"
+          },
+          {
+            "en": "Currency per person per period",
+            "ru": "Валюта на человека за период"
+          },
+          {
+            "en": "Average, not equality",
+            "ru": "Среднее, не равенство"
+          }
+        ],
+        [
+          {
+            "en": "Crude death rate",
+            "ru": "Общий коэффициент смертности"
+          },
+          {
+            "en": "Deaths / population × 1000 per year",
+            "ru": "Умершие / население × 1000 за год"
+          },
+          {
+            "en": "Age composition matters",
+            "ru": "Зависит от возраста населения"
+          }
+        ],
+        [
+          {
+            "en": "GHI",
+            "ru": "GHI"
+          },
+          {
+            "en": "Index points, 0–100",
+            "ru": "Баллы индекса, 0–100"
+          },
+          {
+            "en": "Composite, not a population percentage",
+            "ru": "Сводный балл, не процент населения"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Definitions follow the source methodologies. The district/GDP figures are invented; the two country rates are a dated 2005 Rosstat observation.",
+        "ru": "Определения опираются на методологии. Район и ВВП придуманы; коэффициенты двух стран — наблюдения Росстата за 2005 год."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-indicators-1",
+        "prompt": {
+          "en": "A district has 1200 deaths and a mid-year population of 200000. Calculate its crude death rate and percentage. Then explain why a higher rate than another district does not alone prove worse healthcare.",
+          "ru": "За год умерли 1200 человек, среднегодовая численность 200 000. Найди коэффициент и процент. Почему больший коэффициент сам по себе не доказывает худшую медицину?"
+        },
+        "answer": {
+          "en": "1200/200000 × 1000 = 6 per 1000 per year = 0.6%. Population age structure and other causes differ; compare suitable age-specific or standardised rates and further evidence before a causal conclusion.",
+          "ru": "1200/200 000 × 1000 = 6 на 1000 за год = 0,6%. Различаются возрастной состав и другие причины; для вывода нужны повозрастные или стандартизованные показатели и дополнительные данные."
+        }
+      },
+      {
+        "id": "g-indicators-2",
+        "prompt": {
+          "en": "Invented countries A and B have GHI scores 18 and 25 calculated in one report. Which has greater measured hunger severity? Can the 7-point difference be called seven percentage points of hungry people? If GDP is US$3 billion and population 150000, calculate GDP per capita and one limitation.",
+          "ru": "Учебные страны A и B имеют GHI 18 и 25 в одном выпуске. Где измеренная тяжесть голода выше? Равны ли 7 баллов семи процентным пунктам голодающих? При ВВП 3 млрд долларов и 150 000 жителей найди ВВП на душу и ограничение."
+        },
+        "answer": {
+          "en": "B has the higher composite severity. The difference is 7 index points, not a population percentage. 3000000000/150000 = US$20000 per person for the stated period; the average can hide inequality and does not measure every aspect of well-being.",
+          "ru": "У B выше сводная оценка тяжести. Разница 7 баллов индекса, не доля населения. 3 000 000 000/150 000 = 20 000 долларов на человека за период; среднее скрывает неравенство и не охватывает всё благополучие."
+        }
+      }
+    ],
+    "links": [],
+    "sources": [
+      "ghi-method",
+      "ghi-ru",
+      "cdr-wb",
+      "cdr-rosstat",
+      "cdr-table",
+      "gdp-wb",
+      "gdp-rosstat"
+    ]
+  },
+  {
+    "id": "g-aral-case",
+    "subject": "geography",
+    "scope": "school-g9",
+    "title": {
+      "en": "North Aral Sea: a dated water-management case",
+      "ru": "Северный Арал: датированный пример управления водой"
+    },
+    "objective": {
+      "en": "Evaluate a real water-management intervention across SEEP impacts and scales.",
+      "ru": "Оцени реальное управление водой по SEEP, срокам и территориям."
+    },
+    "prerequisites": {
+      "en": "Follow water flows through a drainage basin; calculate percentage change and identify source purpose.",
+      "ru": "Прослеживай движение воды по речному бассейну; рассчитывай изменение в процентах и определяй цель источника."
+    },
+    "explanation": {
+      "en": "Place and dates matter: the North Aral Sea is in Kazakhstan, fed by the Syr Darya. Large irrigation diversions contributed to the wider sea’s shrinkage. The Kok-Aral dike, completed in August 2005, retains water in the northern basin; it did not restore the entire Aral Sea. A World Bank October 2008 project account reports fish harvest rising from 50 tonnes in 2004 to about 2000 in 2007. This is an early, project-reported outcome, not a present-day total.\n\nEvaluate mechanisms: retaining fresh water can lower salinity and support fish, helping fishing livelihoods. Irrigated agriculture also needs water, so allocation choices involve competing users and countries. The Russian-language Kazgiprovodkhoz project presentation (August 2022) distinguishes observed 2006–2019 flows from proposed future engineering. Its alternatives include different evaporation losses, filling times and operating complexity. A proposal’s predicted benefits are not measured achievements. Compare ecological outcomes, access to livelihoods, public expenditure, maintenance and participation before judging sustainability.",
+      "ru": "Северное Аральское море находится в Казахстане и питается Сырдарьёй. Отвод воды на орошение способствовал усыханию всего Арала. Кокаральская плотина, завершённая в августе 2005 года, удерживает воду на севере, но не восстановила весь водоём. В отчёте Всемирного банка за октябрь 2008 года приведён рост улова с 50 тонн в 2004 году примерно до 2000 в 2007-м. Это ранние результаты по данным участника проекта, не современный улов.\n\nУдержание пресной воды может снижать солёность и помогать рыбе и рыбакам. Но вода нужна и земледелию: распределение затрагивает разные группы и страны. Русскоязычная презентация института Казгипроводхоз за август 2022 года отдельно показывает наблюдавшиеся расходы воды 2006–2019 годов и будущие инженерные варианты. У вариантов различаются испарение, срок наполнения и сложность эксплуатации. Прогнозируемая польза проекта ещё не достигнутый результат. Для оценки устойчивости сопоставь экологию, заработок, общественные затраты, обслуживание и участие жителей."
+    },
+    "worked": {
+      "en": "The historical harvest ratio is 2000/50 ≈ 40: about forty times the original amount, or approximately a 3900% increase. It is not a 40% increase. This comparison supports a recovery claim for that place and period but cannot establish the dike as the sole cause. The 2022 presentation’s 2007 row gives 6619 million m³ inflow to the North Aral and 3016 million m³ releases toward the Large Aral. Do not subtract different years or call this a complete water balance: evaporation and storage change also matter.",
+      "ru": "Отношение исторических уловов: 2000/50 ≈ 40, то есть примерно сорок исходных величин, или рост примерно на 3900%, не на 40%. Это свидетельство восстановления в конкретные годы и месте, но не доказательство единственной причины. В строке за 2007 год презентации 2022 года указаны 6619 млн м³ притока в Северный Арал и 3016 млн м³ попусков в Большой Арал. Нельзя смешивать годы или называть разность полным водным балансом: важны ещё испарение и изменение запасов."
+    },
+    "misconception": {
+      "en": "Northern recovery is not whole-sea recovery. Later engineering proposals are not already built outcomes, and a project sponsor’s account should be corroborated.",
+      "ru": "Восстановление северной части не равно восстановлению всего моря. Поздние проектные варианты не означают выполненных работ; отчёт участника нужно сверять с другими данными."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "SEEP lens",
+          "ru": "Аспект SEEP"
+        },
+        {
+          "en": "Mechanism to evaluate",
+          "ru": "Что оценивать"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Social",
+            "ru": "Социальный"
+          },
+          {
+            "en": "Livelihood access and who participates",
+            "ru": "Доступ к заработку и участие жителей"
+          }
+        ],
+        [
+          {
+            "en": "Economic",
+            "ru": "Экономический"
+          },
+          {
+            "en": "Fishing income versus construction and maintenance",
+            "ru": "Доход рыболовства и затраты на строительство и уход"
+          }
+        ],
+        [
+          {
+            "en": "Environmental",
+            "ru": "Экологический"
+          },
+          {
+            "en": "Salinity, ecosystems, evaporation and water allocation",
+            "ru": "Солёность, экосистемы, испарение, распределение воды"
+          }
+        ],
+        [
+          {
+            "en": "Political",
+            "ru": "Политический"
+          },
+          {
+            "en": "Cross-border allocation and accountable decisions",
+            "ru": "Межгосударственное распределение и ответственность"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Author’s evaluation framework applied to the dated sources, not four measured causal effect sizes. The World Bank PDFp.1 map locates Kazakhstan; its text identifies the Syr Darya basin.",
+        "ru": "Авторская схема оценки по датированным источникам, не четыре измеренных эффекта. На карте PDF Всемирного банка, с.1, показан Казахстан; бассейн Сырдарьи назван в тексте."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-aral-case-1",
+        "prompt": {
+          "en": "Use the 2004 and 2007 harvest figures to find the ratio and percentage increase. State a time and source limitation.",
+          "ru": "По уловам 2004 и 2007 годов найди отношение и процентный рост. Укажи временное и источниковое ограничение."
+        },
+        "answer": {
+          "en": "About 40 times and (2000−50)/50 × 100% ≈ 3900%. The later value is approximate; this is a 2008 project account of early recovery, not independent proof of today’s outcome or the dike’s sole effect.",
+          "ru": "Примерно в 40 раз; (2000−50)/50 × 100% ≈ 3900%. Поздняя величина приближённая; отчёт 2008 года показывает ранние результаты, не доказывает современное состояние или единственную роль плотины."
+        }
+      },
+      {
+        "id": "g-aral-case-2",
+        "prompt": {
+          "en": "Write a conditional SEEP judgement using one observed result, one trade-off and one extra observation needed. Distinguish an operating option from a completed achievement.",
+          "ru": "Дай условный вывод по SEEP: наблюдение, компромисс и нужные дополнительные данные. Отличи вариант эксплуатации от достигнутого результата."
+        },
+        "answer": {
+          "en": "The dated fishing recovery supports local benefits, but allocation and ongoing costs affect other users and places. Support continued management if independent recent ecological and livelihood monitoring confirms benefits without unacceptable transferred harms. A design comparison of future filling times is a prediction, not a completed restoration. Other conclusions need equally explicit evidence and priorities.",
+          "ru": "Датированное восстановление рыболовства поддерживает вывод о местной пользе, но распределение воды и затраты затрагивают других. Поддержка оправдана, если новые независимые наблюдения экологии и заработка подтверждают пользу без неприемлемого переноса ущерба. Расчёт срока наполнения будущего варианта — прогноз, не завершённое восстановление. Иной вывод требует столь же явных оснований."
+        }
+      }
+    ],
+    "links": [],
+    "sources": [
+      "aral-wb2008",
+      "aral-kaz2022"
     ]
   }
 ]

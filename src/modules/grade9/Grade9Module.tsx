@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import rawLessons from './lessons.json';
@@ -11,6 +11,24 @@ const subjects: Record<string,[string,string]> = {geography:['Geography','Гео
 const KEY='g9-grade9-recall-v1';
 function load():Record<string,boolean> {try {const x=JSON.parse(localStorage.getItem(KEY)||'{}'); return x && typeof x==='object' && !Array.isArray(x) ? Object.fromEntries(Object.entries(x).filter((entry): entry is [string,boolean]=>typeof entry[1]==='boolean')) : {};} catch{return {};}}
 function Cell({text}:{text:string}) {return <span dir={/[\u0600-\u06ff]/u.test(text)?'rtl':undefined} lang={/[\u0600-\u06ff]/u.test(text)?'ar':undefined}>{text}</span>;}
+function ModelTable({lesson,lang}:{lesson:Lesson;lang:'en'|'ru'}) {
+ const captionId=useId(); const hintId=useId(); const region=useRef<HTMLDivElement>(null);
+ const [overflow,setOverflow]=useState(false);
+ useEffect(()=>{
+  const node=region.current;if(!node)return;
+  const measure=()=>setOverflow(node.scrollWidth>node.clientWidth+1);
+  measure();const observer=new ResizeObserver(measure);observer.observe(node);
+  if(node.firstElementChild)observer.observe(node.firstElementChild);
+  return()=>observer.disconnect();
+ },[lesson.id,lang]);
+ return <>
+  <p id={captionId} className="g9-model-caption">{lesson.model.caption[lang]}</p>
+  {overflow&&<p id={hintId} className="g9-table-hint">{lang==='ru'?'Таблицу можно прокручивать вбок. С клавиатуры: выбери таблицу клавишей Tab, затем используй стрелки ← и →.':'Scroll sideways to see every column. With a keyboard, use Tab to focus the table, then the ← and → arrow keys.'}</p>}
+  <div ref={region} className="g9-table-scroll" tabIndex={overflow?0:undefined} role={overflow?'region':undefined} aria-labelledby={overflow?captionId:undefined} aria-describedby={overflow?hintId:undefined}>
+   <table aria-labelledby={captionId}><thead><tr>{lesson.model.headers.map((h,i)=><th key={i} scope="col">{h[lang]}</th>)}</tr></thead><tbody>{lesson.model.rows.map((row,i)=><tr key={i}>{row.map((cell,j)=><td key={j}><Cell text={cell[lang]}/></td>)}</tr>)}</tbody></table>
+  </div>
+ </>;
+}
 export function Grade9Module(){
  const {i18n}=useTranslation(); const lang=i18n.language.startsWith('ru')?'ru':'en'; const ru=lang==='ru';
  const {lessonId}=useParams();const [params]=useSearchParams();const subject=params.get('subject')||'all';
@@ -29,7 +47,7 @@ export function Grade9Module(){
    <section><h2>{ru?'Цель и подготовка':'Goal and prerequisites'}</h2><p>{lesson.objective[lang]}</p><p className="text-text-secondary mt-3">{lesson.prerequisites[lang]}</p></section>
    {lesson.id==='a-routine'&&<section><h2>{ru?'Сначала послушай':'Listen first'}</h2><audio controls preload="metadata" src={`${import.meta.env.BASE_URL}audio/arabic-daily-routine.mp3`} aria-label={ru?'Распорядок дня на арабском':'Arabic daily routine'} /><p className="text-sm">{ru?'Синтез речи Majed · литературный арабский. Вопросы ниже. Сначала попробуй без расшифровки.':'Majed speech synthesis · Modern Standard Arabic. Questions are below. Try before opening the transcript.'}</p><details><summary>{ru?'Текст записи':'Transcript'}</summary><p lang="ar" dir="rtl">أَسْتَيْقِظُ فِي السَّاعَةِ السَّابِعَةِ. أَذْهَبُ إِلَى الْمَدْرَسَةِ. بَعْدَ الْمَدْرَسَةِ أَقْرَأُ كِتَابًا.</p></details></section>}
    <section><h2>{ru?'Разберись в механизме':'Understand the mechanism'}</h2><p>{lesson.explanation[lang]}</p></section>
-   <section className="g9-model"><h2>{ru?'Модель и её границы':'Model and its limits'}</h2><div className="overflow-x-auto"><table><caption>{lesson.model.caption[lang]}</caption><thead><tr>{lesson.model.headers.map((h,i)=><th key={i} scope="col">{h[lang]}</th>)}</tr></thead><tbody>{lesson.model.rows.map((row,i)=><tr key={i}>{row.map((cell,j)=><td key={j}><Cell text={cell[lang]}/></td>)}</tr>)}</tbody></table></div>
+   <section className="g9-model"><h2>{ru?'Модель и её границы':'Model and its limits'}</h2><ModelTable lesson={lesson} lang={lang}/>
    {lesson.id==='g-floods'&&<Hydrograph ru={ru}/>}</section>
    <section className="g9-compact-block"><h2>{ru?'Пример с объяснением':'Worked example'}</h2><p>{lesson.worked[lang]}</p></section>
    <section className="g9-compact-block"><h2>{ru?'Проверь типичную ошибку':'Check a common misconception'}</h2><p>{lesson.misconception[lang]}</p></section>

@@ -107,6 +107,28 @@
           "en": "The weakened flow cannot carry the gravel but can still suspend finer particles. Deposition is selective.",
           "ru": "Ослабевший поток уже не несёт гальку, но ещё удерживает мелкие частицы во взвеси. Осаждение идёт избирательно."
         }
+      },
+      {
+        "id": "g-processes-weathering-scale",
+        "prompt": {
+          "en": "Distinguish landscape from landform and weathering from erosion. Give mechanical, chemical and biological weathering examples and explain “subaerial”.",
+          "ru": "Отличи ландшафт от формы рельефа, выветривание от эрозии. Приведи физический, химический и биологический примеры выветривания и объясни «субаэральный»."
+        },
+        "answer": {
+          "en": "A landscape is the wider visible area; a landform is a feature such as a gorge. Weathering alters or breaks rock in place, while erosion removes material. Freeze–thaw can mechanically fragment suitable wet rock; chemical reactions can dissolve or change minerals; roots can widen cracks, while organisms can also produce chemically active substances. Biological agents and physical/chemical mechanisms can overlap. Subaerial processes act on exposed surfaces and include weathering and mass movement; it does not mean every process is wind erosion.",
+          "ru": "Ландшафт — вид целой территории, форма рельефа — отдельный объект, например ущелье. Выветривание меняет или разрушает породу на месте, эрозия удаляет материал. Замерзание и оттаивание могут дробить подходящую увлажнённую породу; химические реакции растворяют или изменяют минералы. Корни расширяют трещины, а организмы могут выделять химически активные вещества. Биологические агенты сочетаются с физическими и химическими механизмами. Субаэральные процессы действуют на открытой поверхности и включают выветривание и склоновые перемещения; это не синоним только ветровой эрозии."
+        }
+      },
+      {
+        "id": "g-erosion-transport-classification",
+        "prompt": {
+          "en": "Classify water dislodging bed material, sediment scraping the bed, fragments colliding, and soluble material being removed. Then distinguish traction, saltation, suspension and dissolved load from deposition.",
+          "ru": "Классифицируй отрыв материала водой, истирание дна наносами, столкновения обломков и удаление растворимого вещества. Затем отличи волочение, сальтацию, взвесь и растворённый сток от отложения."
+        },
+        "answer": {
+          "en": "The erosion mechanisms are hydraulic action, abrasion, attrition and solution respectively. Traction rolls/slides larger material along the bed; saltation moves particles in hops; suspension carries fine particles within the water; dissolved load carries dissolved substances. Deposition is settling/accumulation when transport capacity for that material is insufficient. Different fractions can behave differently at the same time; not all particles stop together.",
+          "ru": "Это соответственно гидравлическое воздействие, абразия, истирание обломков при столкновениях и растворение. Волочение катит или сдвигает материал по дну; сальтация переносит его скачками; взвесь удерживает мелкие частицы в толще воды; растворённый сток переносит растворённые вещества. Отложение — накопление материала при недостаточной для него переносной способности. Одновременно разные фракции могут вести себя неодинаково; все частицы не обязаны останавливаться вместе."
+        }
       }
     ],
     "links": [
@@ -382,6 +404,17 @@
           "en": "No. Discharge increased while speed decreased locally. Investigate slope, channel roughness and sampling before judging wider tendencies.",
           "ru": "Нет. Расход вырос, хотя скорость локально снизилась. Проверь уклон, шероховатость и измерения, прежде чем судить об общей тенденции."
         }
+      },
+      {
+        "id": "g-long-profile-model",
+        "prompt": {
+          "en": "Compare a typical river’s upper and lower long-profile gradient and channel characteristics. How should you use Bradshaw when an observed lower reach is slower?",
+          "ru": "Сравни типичный уклон продольного профиля и русло в верхнем и нижнем течении. Как использовать Брэдшоу, если наблюдаемый нижний участок медленнее?"
+        },
+        "answer": {
+          "en": "A typical long profile becomes gentler downstream; channel width, depth and discharge often increase as tributaries add water. Bradshaw gives general downstream tendencies, not a guaranteed value at every reach. Velocity also depends on slope, roughness, channel geometry and flow conditions; dams, obstructions or recent rain can alter observations. A slower lower reach tests particular model expectations and conditions, not every relationship at once. Use measured cross-sectional area and wetted perimeter for hydraulic radius rather than assuming a rectangular natural river.",
+          "ru": "Типичный продольный профиль становится положе вниз по течению; ширина, глубина и расход часто увеличиваются с поступлением притоков. Брэдшоу описывает общие тенденции, а не гарантирует значения на каждом участке. Скорость зависит также от уклона, шероховатости, геометрии и состояния потока; плотины, препятствия или недавний дождь меняют наблюдения. Медленный нижний участок проверяет конкретные ожидания модели и условия, а не все связи сразу. Для гидравлического радиуса измеряют площадь сечения и смоченный периметр, не объявляя природную реку прямоугольной."
+        }
       }
     ],
     "links": [
@@ -591,6 +624,17 @@
           "en": "Zoning avoids new exposure and retains storage; it restricts development income. Compare local flood maps, future land needs and costs. A wall needs maintenance and can shift risk. Other justified choices are possible.",
           "ru": "Зонирование не допускает новой застройки и сохраняет место для разлива, но ограничивает доход от строительства. Нужны местная карта затопления, планы и стоимость. Стена требует ухода и может переносить риск. Иной выбор допустим при обосновании."
         }
+      },
+      {
+        "id": "g-floods-land-use",
+        "prompt": {
+          "en": "Two similar storms reach a basin before and after urban development. The later hydrograph has a higher peak and shorter lag. Give a plausible mechanism, an alternative explanation, and one hard-/soft-engineering trade-off.",
+          "ru": "Похожие ливни наблюдали на водосборе до и после застройки. Во втором гидрографе пик выше, запаздывание короче. Предложи механизм, альтернативное объяснение и компромисс жёсткой/мягкой защиты."
+        },
+        "answer": {
+          "en": "Impermeable cover and drains can reduce infiltration and move runoff to the river faster. Initial soil wetness, storm timing/distribution or other changes could also explain differences, so two curves do not alone prove urbanisation caused all change. A flood wall can protect a site but transfer risk or need maintenance; floodplain zoning reduces future exposure but constrains development. Examine upstream/downstream effects, cost and the relevant flood frequency.",
+          "ru": "Непроницаемые покрытия и водоотвод могут уменьшить инфильтрацию и ускорить поступление стока в реку. Влажность почвы до дождя, распределение осадков и другие изменения тоже влияют на кривые: два графика не доказывают единственную причину. Стена защищает участок, но требует содержания или переносит риск. Зонирование поймы снижает будущую подверженность, но ограничивает застройку. Проверяют последствия выше/ниже по течению, стоимость и частоту соответствующих наводнений."
+        }
       }
     ],
     "links": [
@@ -739,6 +783,28 @@
         "answer": {
           "en": "Surplus = 70−45=25 units per day. Stock describes what exists, not willingness to sell it at this price today. A desire without ability to pay is not effective market demand. Neither measure alone establishes everyone’s needs or equitable access; market demand and human need are distinct.",
           "ru": "Избыток = 70−45=25 единиц в день. Запас показывает наличие, а не готовность продать по этой цене сегодня. Желание без возможности заплатить не образует платёжеспособный рыночный спрос. Ни один показатель сам по себе не устанавливает потребности всех людей и справедливость доступа; рыночный спрос и человеческая потребность различаются."
+        }
+      },
+      {
+        "id": "g-resources-theories",
+        "prompt": {
+          "en": "Compare a Malthus-style warning and a Boserup-style response to rising food demand. Explain why neither population alone nor an innovation announcement determines food security.",
+          "ru": "Сравни предупреждение в духе Мальтуса и ответ в духе Бозеруп на рост спроса на пищу. Почему ни численность населения, ни объявление об инновации сами по себе не определяют продовольственную безопасность?"
+        },
+        "answer": {
+          "en": "Malthus emphasises the possibility that unchecked population growth outstrips food supply; Boserup emphasises pressure stimulating agricultural intensification or innovation. Outcomes depend on access to land, water, finance and knowledge, distribution and environmental limits. An invention must be usable and adopted; national supply must be accessible and nutritious, with stability over time. Neither theory guarantees an inevitable outcome for every society.",
+          "ru": "Мальтус подчёркивал риск того, что неограниченный рост населения опередит продовольственное обеспечение. Бозеруп — возможность того, что давление стимулирует интенсификацию и новые методы. Результат зависит от земли, воды, денег, знаний, распределения и экологических ограничений. Разработку ещё нужно внедрить; продовольствие должно быть доступным, полноценным и надёжно обеспечиваться во времени. Ни одна теория не гарантирует одинакового будущего для всех обществ."
+        }
+      },
+      {
+        "id": "g-resources-energy-tradeoff",
+        "prompt": {
+          "en": "Compare wind energy and coal using renewability, reliability and two SEEP impacts. Why is “renewable” insufficient as a complete judgement?",
+          "ru": "Сравни ветер и уголь по возобновляемости, надёжности и двум последствиям SEEP. Почему одного слова «возобновляемый» недостаточно для оценки?"
+        },
+        "answer": {
+          "en": "Wind is replenished on human timescales; coal forms far more slowly than current use. Wind output varies with conditions and requires a suitable power-system response; coal generation can be dispatchable but needs fuel. Compare land and habitat effects, emissions, jobs, cost and decisions over access or ownership. The relevant mix depends on place, demand and timescale. Renewability is a replenishment criterion, not proof of zero environmental impact or guaranteed supply at every moment.",
+          "ru": "Ветер восполняется на человеческом временном масштабе; уголь образуется гораздо медленнее, чем расходуется. Выработка ветроэнергетики меняется по условиям и требует подходящего устройства энергосистемы; угольную генерацию можно регулировать, но ей нужно топливо. Сравнивают землю и местообитания, выбросы, рабочие места, стоимость, доступ и собственность. Выбор зависит от места, нагрузки и срока. Возобновляемость не означает нулевого воздействия или гарантированной мощности в каждый момент."
         }
       }
     ],
@@ -1031,6 +1097,50 @@
           "en": "Emergency water supplies address immediate need but are costly to sustain; water-efficient farming reduces demand but needs investment and local suitability.",
           "ru": "Подвоз воды закрывает срочную потребность, но дорого обходится долго. Водосберегающее земледелие снижает спрос, но требует вложений и подходящих условий."
         }
+      },
+      {
+        "id": "g-circulation-model",
+        "prompt": {
+          "en": "Use the three-cell model to name Hadley, Ferrel and Polar circulation and explain equatorial rising air, subtropical sinking air and pressure differences. What does this model not predict?",
+          "ru": "Назови ячейки Хэдли, Феррела и полярную в трёхъячеечной модели. Объясни подъём воздуха у экватора, опускание в субтропиках и разность давлений. Чего эта модель не предсказывает?"
+        },
+        "answer": {
+          "en": "Unequal heating helps create circulation. Equatorial ascent is associated with surface low pressure and cooling/condensation as moist air rises; subtropical descent is associated with higher surface pressure and warming that tends to suppress clouds. Hadley, Ferrel and Polar cells describe broad average circulation zones; rotation and pressure gradients help explain wind directions. Real circulation shifts with seasons, land and ocean, so the diagram is not a deterministic local weather forecast or three identical heat-driven loops.",
+          "ru": "Неравномерный нагрев помогает создавать циркуляцию. Подъём у экватора связан с пониженным приземным давлением, охлаждением и возможной конденсацией влажного воздуха. В субтропиках опускание связано с повышенным давлением и нагреванием, обычно мешающим облакообразованию. Ячейки Хэдли, Феррела и полярная описывают средние зоны циркуляции; перепады давления и вращение помогают объяснить ветер. Сезоны, суша и океан меняют картину. Схема не даёт точного местного прогноза и не состоит из трёх одинаковых тепловых контуров."
+        }
+      },
+      {
+        "id": "g-enso-comparison",
+        "prompt": {
+          "en": "Compare Pacific trade winds, warm-water distribution and eastern upwelling in El Niño and La Niña. Why can neither label alone prove a particular town will flood?",
+          "ru": "Сравни пассаты Тихого океана, расположение тёплой воды и восточный апвеллинг при Эль-Ниньо и Ла-Нинья. Почему ни одно название не доказывает, что конкретный город затопит?"
+        },
+        "answer": {
+          "en": "El Niño typically involves weaker trades and warmer-than-usual central/eastern equatorial surface water with reduced usual eastern upwelling. La Niña tends toward stronger trades, cooler central/eastern conditions and enhanced usual upwelling. Atmospheric connections change regional probabilities; effects depend on season, place and other conditions. Flooding additionally needs a rainfall/runoff or coastal-water mechanism and local exposure. ENSO is not a universal reversal of weather everywhere.",
+          "ru": "Для Эль-Ниньо типичны ослабленные пассаты, более тёплая центральная/восточная экваториальная поверхность океана и ослабление обычного восточного апвеллинга. При Ла-Нинья пассаты обычно сильнее, центральная/восточная часть холоднее и обычный апвеллинг усиливается. Атмосферные связи меняют региональные вероятности, но результат зависит от сезона, места и других условий. Для наводнения дополнительно нужен механизм поступления воды и местная подверженность. ЭНЮК не обращает всю погоду повсюду в противоположную."
+        }
+      },
+      {
+        "id": "g-hazards-mechanisms",
+        "prompt": {
+          "en": "Distinguish a flood, a tropical cyclone and a drought by their physical causes. Explain why heavy rain alone or warm ocean water alone is not a complete explanation.",
+          "ru": "Отличи наводнение, тропический циклон и засуху по физическим причинам. Почему сильный дождь или тёплый океан сами по себе не дают полного объяснения?"
+        },
+        "answer": {
+          "en": "Flooding occurs when water exceeds local channel/drainage or coastal capacity; rainfall duration/intensity, saturated ground, impermeable surfaces and catchment form can matter. A tropical cyclone needs a suitable combination of warm ocean water, moisture, low vertical wind shear and rotation. Drought is a sustained deficit relative to local normal conditions, with impacts affected by demand and stored water. Link each driver to the hazard mechanism, then distinguish hazard from the resulting losses.",
+          "ru": "Наводнение возникает при превышении местной пропускной способности русла, водоотвода или при поступлении морской воды. Важны длительность и интенсивность дождя, насыщение грунта, непроницаемые поверхности и форма водосбора. Для тропического циклона нужно сочетание тёплой воды, влаги, небольшого вертикального сдвига ветра и вращения. Засуха — длительный дефицит относительно местной нормы; последствия зависят и от спроса с запасами воды. Факторы связывают с механизмом явления, а само явление отличают от ущерба."
+        }
+      },
+      {
+        "id": "g-hazard-case-management",
+        "prompt": {
+          "en": "Use the named Haiyan and Australian Big Dry reference accounts to compare one impact chain and short-/long-term management. Include social, economic, environmental and political dimensions without inventing casualty totals.",
+          "ru": "По справочным кейсам Хайяна и австралийской Большой засухи сравни цепочку последствий и кратко-/долгосрочные меры. Учти социальную, экономическую, экологическую и политическую стороны, не выдумывая число погибших."
+        },
+        "answer": {
+          "en": "For Haiyan, cyclone winds/surge/rain can damage housing and services, disrupt livelihoods and contaminate or damage environments. Warnings, evacuation and safe shelters address immediate exposure; resilient rebuilding, land-use decisions and preparedness address future risk. In a prolonged Australian drought, low water availability can harm households, farms and ecosystems; emergency provision or restrictions differ from long-term demand management, catchment planning and supply investment. Costs and allocation decisions affect different groups. A measure’s announcement does not prove implementation, and one country’s strategy cannot be copied without local conditions.",
+          "ru": "Для Хайяна ветер, нагон и осадки циклона связывают с повреждением жилья и служб, потерей заработка и воздействием на окружающую среду. Предупреждение, эвакуация и укрытия уменьшают немедленную подверженность; устойчивое восстановление, планировка и подготовка относятся к будущему риску. При длительной австралийской засухе нехватка воды влияет на домохозяйства, фермеров и экосистемы. Экстренное снабжение или ограничения отличаются от долгосрочного управления спросом, водосбором и вложений в снабжение. Расходы и решения о распределении затрагивают разные группы. Объявленная мера ещё не доказательство исполнения; перенос стратегии требует местного контекста."
+        }
       }
     ],
     "links": [
@@ -1222,6 +1332,39 @@
           "en": "The x ranks are 1, 2, 3, 4, 5; y ranks are 4.5, 2.5, 1, 2.5, 4.5. Both rank means are 3. The paired products of deviations from 3 sum to 0, while both rank variances are positive, giving rank correlation 0. Yet y=x² exactly: the relationship is U-shaped, not monotonic. The shortcut 1−6Σd²/[n(n²−1)] needs no tied ranks and must not be substituted here. This five-pair example is not evidence of population independence or a significance test.",
           "ru": "Ранги x: 1; 2; 3; 4; 5. Ранги y: 4,5; 2,5; 1; 2,5; 4,5. В обоих рядах средний ранг равен 3. Сумма попарных произведений отклонений рангов от 3 равна 0, а разброс каждого ряда ненулевой: ранговая корреляция равна 0. При этом y в точности равно x²: связь U-образная, а не монотонная. Короткая формула 1−6Σd²/[n(n²−1)] требует отсутствия совпадающих рангов, поэтому здесь её нельзя подставлять. Пять учебных пар не доказывают независимость генеральных величин и не заменяют проверку значимости."
         }
+      },
+      {
+        "id": "g-fieldwork-aim-origin-type",
+        "prompt": {
+          "en": "For a channel-width investigation, write an aim and a testable hypothesis. Classify your measured widths, your recorded descriptions, and an existing agency map by origin and data type. What is sample size?",
+          "ru": "Для исследования ширины русла сформулируй цель и проверяемую гипотезу. Классифицируй свои измерения, записанные описания и готовую карту ведомства по происхождению и типу данных. Что такое объём выборки?"
+        },
+        "answer": {
+          "en": "Aim: investigate how channel width varies along the selected river reach. Hypothesis: width increases downstream over those sites. Width measurements collected for this study are primary quantitative data; recorded descriptive observations are primary qualitative data. The pre-existing map is secondary; its contents can include numerical and categorical layers. Sample size is the number of sampled units/observations as defined by the design, not river length. Specify whether repeated readings at one site are replicates or independent sites.",
+          "ru": "Цель — исследовать изменение ширины русла на выбранном участке реки. Гипотеза — на этих точках ширина увеличивается вниз по течению. Собственные измерения для этой работы — первичные количественные данные, записанные описания — первичные качественные. Готовая карта вторична; её слои бывают числовыми и категориальными. Объём выборки — число единиц или наблюдений по плану, а не длина реки. Нужно определить, являются повторы на точке повторными измерениями или независимыми участками."
+        }
+      },
+      {
+        "id": "g-fieldwork-sampling-evaluation",
+        "prompt": {
+          "en": "Compare random, systematic and stratified sampling for a tourism survey. Explain why methodology, conclusion and evaluation are different stages.",
+          "ru": "Сравни случайный, систематический и стратифицированный отбор для опроса туристов. Чем отличаются методика, вывод и оценка исследования?"
+        },
+        "answer": {
+          "en": "Random selection uses a random process within a defined sampling frame; systematic selection uses an interval, with a suitable start; stratification first defines relevant groups and samples within them. Each can be biased by a poor frame or implementation; a large sample does not automatically fix this. Methodology specifies reproducible locations, timing, instruments, selection and repeats. A conclusion answers the aim from the results. Evaluation explains how limitations affect that answer and proposes a targeted improvement, rather than simply declaring the work inaccurate.",
+          "ru": "Случайный отбор использует случайную процедуру в заданной совокупности; систематический — интервал и подходящее начало. При стратификации заранее выделяют значимые группы и отбирают внутри них. Плохая основа отбора или исполнение дают смещение при любом способе; большой объём сам его не устраняет. Методика задаёт воспроизводимые места, время, инструменты, отбор и повторы. Вывод отвечает на цель по результатам. Оценка показывает влияние ограничений на этот ответ и предлагает конкретное улучшение, а не просто объявляет работу неточной."
+        }
+      },
+      {
+        "id": "g-fieldwork-graph-choice",
+        "prompt": {
+          "en": "Choose a presentation for category counts, observations through time, paired width/depth measurements, mutually exclusive shares of one total, and mapped locations. Give a condition or limitation for each.",
+          "ru": "Выбери представление для чисел по категориям, наблюдений во времени, пар ширина/глубина, непересекающихся долей одного итога и географических точек. Назови условие или ограничение каждого способа."
+        },
+        "answer": {
+          "en": "Bar chart: separate categories with labelled count units and a defensible baseline. Time graph: actual time spacing and units; a joined line does not create new measurements. Scatter plot: one point per paired numerical observation; association is not causation. Pie chart: nonnegative, non-overlapping parts of one defined whole totalling100%; unsuitable for incompatible denominators. GIS: located layers with checked coordinates, dates, resolution and coverage; spatial proximity alone does not establish responsibility. Choose the display for the investigation question, not decoration.",
+          "ru": "Столбчатая диаграмма: отдельные категории, подписанный счёт и обоснованная базовая линия. Временной график: реальные интервалы и единицы времени; соединение точек не создаёт новых измерений. Диаграмма рассеяния: точка для каждой числовой пары; связь не доказывает причину. Круговая диаграмма: неотрицательные непересекающиеся части одного определённого целого, всего100%; несовместимые знаменатели не подходят. ГИС: пространственные слои с проверенными координатами, датами, разрешением и охватом; близость объектов сама не устанавливает ответственность. Представление выбирают под вопрос исследования, а не ради украшения."
+        }
       }
     ],
     "links": [
@@ -1353,6 +1496,28 @@
         "answer": {
           "en": "It may reduce habitat pressure and crowding, but some operators lose customers. Residents, guides and visitors differ. Compare habitat monitoring, local income distribution and seasonal demand before a conditional judgement.",
           "ru": "Лимит может уменьшить нагрузку и толпы, но часть компаний потеряет клиентов. Интересы жителей, гидов и гостей различаются. Нужны данные о природе, распределении дохода и сезонности; вывод условный."
+        }
+      },
+      {
+        "id": "g-tourism-change-causes",
+        "prompt": {
+          "en": "Invented destination visits rise from 60000 to 120000 from 2011 to 2016 in this invented series. Calculate percentage growth. Explain two possible demand changes and why this does not prove tourism will keep doubling.",
+          "ru": "В условном месте число посещений выросло с 60000 до 120000 с 2011 по 2016 год в этом условном ряду. Найди рост в процентах. Объясни два возможных изменения спроса и почему поток не обязан удваиваться дальше."
+        },
+        "answer": {
+          "en": "Growth=(120000−60000)/60000×100=100%. Income, paid leave, transport accessibility or booking technology could change demand; these are hypotheses to test for the place and dates. Capacity, policy, prices or shocks can change the future path. Two totals establish the stated change, not its sole cause or an indefinitely exponential trend.",
+          "ru": "Рост=(120000−60000)/60000×100=100%. Доходы, оплачиваемый отпуск, транспортная доступность или бронирование могут менять спрос; для данных места и лет это проверяемые объяснения. Вместимость, решения властей, цены и кризисы меняют дальнейший путь. Два итога показывают заданное изменение, но не единственную причину и не бесконечный экспоненциальный рост."
+        }
+      },
+      {
+        "id": "g-tourism-purpose-ethics",
+        "prompt": {
+          "en": "Classify mass, medical, eco-, volunteer and thanatourism by purpose or organisation. Why is neither a nature visit nor a memorial visit enough to establish an ethical label?",
+          "ru": "Отличи массовый, медицинский, экологический, волонтёрский туризм и танатотуризм по цели или организации. Почему посещение природы или мемориала само по себе не даёт этической оценки?"
+        },
+        "answer": {
+          "en": "Mass tourism concerns scale/standardisation; medical tourism treatment; ecotourism requires conservation, interpretation and local benefit; voluntourism combines travel with volunteering; thanatourism concerns motivation involving an encounter with death. A nature visit can lack conservation benefits, and a memorial itinerary does not establish each visitor’s motivation. Assess consent, representation, skills, local control, income distribution and environmental outcomes at a named place/time. The category alone does not prove benefit or harm.",
+          "ru": "Массовый туризм связан с масштабом и стандартизацией; медицинский — с лечением. Для экотуризма важны охрана природы, просвещение и местная польза; волонтуризм сочетает поездку с добровольческой работой; танатотуризм связан с мотивацией встречи с темой смерти. Поездка на природу не обязательно помогает её охране, а маршрут через мемориал не устанавливает мотив каждого посетителя. В конкретном месте и времени оценивают согласие, представление людей, навыки, местное управление, распределение дохода и экологический результат. Категория сама не доказывает пользу или вред."
         }
       }
     ],
@@ -3437,6 +3602,17 @@
           "en": "B has the higher composite severity. The difference is 7 index points, not a population percentage. 3000000000/150000 = US$20000 per person for the stated period; the average can hide inequality and does not measure every aspect of well-being.",
           "ru": "У B выше сводная оценка тяжести. Разница 7 баллов индекса, не доля населения. 3 000 000 000/150 000 = 20 000 долларов на человека за период; среднее скрывает неравенство и не охватывает всё благополучие."
         }
+      },
+      {
+        "id": "g-indicators-gdp-denominator",
+        "prompt": {
+          "en": "Invented economy: annual GDP US$900 million and population 30000. Find GDP per capita. A second economy has higher total GDP but many more people: can you rank living conditions from totals alone?",
+          "ru": "Условная экономика: годовой ВВП 900 млн долларов США и население 30000 человек. Найди ВВП на душу. У другой экономики общий ВВП больше, но людей намного больше: можно ли по итогам ранжировать условия жизни?"
+        },
+        "answer": {
+          "en": "GDP per capita=900000000/30000=US$30000 per person for that year. Total GDP and population are different denominators and scales; the second economy needs its own ratio before this comparison. Even per-capita GDP is not every person’s income or a distribution measure. Compare years, currency/price or purchasing-power bases, and add health, education, hunger and inequality evidence rather than treating one ratio as all development.",
+          "ru": "ВВП на душу=900000000/30000=30000 долларов США на человека за этот год. Общий ВВП и численность имеют разный смысл; для второй экономики сначала нужно своё отношение. Даже ВВП на душу не является доходом каждого жителя и не показывает распределение. Для сопоставления проверяют годы, цены, валюту или базу покупательной способности и дополняют картину данными о здоровье, образовании, голоде и неравенстве."
+        }
       }
     ],
     "links": [],
@@ -3843,6 +4019,17 @@
         "answer": {
           "en": "Check what each measures, its dating uncertainty, seasonal sensitivity and geographical meaning. Gas concentration and local growing-season temperature need not have identical curves. Use independent calibration and additional archives before attribution.",
           "ru": "Проверь измеряемую величину, неопределённость датировки, сезонную чувствительность и территорию. Концентрация газа и температура местного сезона роста не обязаны иметь одинаковые кривые. Для объяснения причины нужны независимая калибровка и другие архивы."
+        }
+      },
+      {
+        "id": "g-climate-drivers-timescale",
+        "prompt": {
+          "en": "Distinguish orbital changes, solar variability, volcanic aerosols and increased greenhouse gases as climate drivers. What must an explanation compare before assigning a recent trend to one of them?",
+          "ru": "Отличи орбитальные изменения, изменчивость Солнца, вулканические аэрозоли и рост парниковых газов как факторы климата. Что нужно сопоставить перед объяснением недавнего тренда одним из них?"
+        },
+        "answer": {
+          "en": "Orbital geometry changes the distribution of received sunlight over long timescales; solar variability changes solar output. Some large eruptions inject reflective aerosols that can cause temporary cooling, while increased greenhouse gases alter infrared energy transfer. Compare timing, duration, spatial pattern and physical mechanism with independent records and models. A proxy is an indirect record, not its own causal explanation; a temporary volcanic cooling does not by itself refute sustained greenhouse warming.",
+          "ru": "Орбитальная геометрия меняет распределение солнечной энергии на длинных временных масштабах; солнечная изменчивость — поток от Солнца. Некоторые крупные извержения вводят отражающие аэрозоли и временно охлаждают климат; рост парниковых газов меняет перенос инфракрасной энергии. Сопоставляют время, длительность, пространственную картину и механизм с независимыми рядами и моделями. Косвенный показатель записывает изменение, но сам не устанавливает причину. Временное вулканическое похолодание не опровергает само по себе длительное парниковое потепление."
         }
       }
     ],

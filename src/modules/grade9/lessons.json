@@ -1751,6 +1751,17 @@
           "en": "Heat may denature it, changing the active site so substrate binding no longer works effectively. Cooling does not necessarily restore the original structure.",
           "ru": "Нагрев может денатурировать белок и изменить активный центр. Субстрат больше не связывается эффективно; охлаждение не обязательно восстанавливает структуру."
         }
+      },
+      {
+        "id": "b-transport-link-osmosis-estimate",
+        "prompt": {
+          "en": "Invented potato results after the same immersion time: +2.0% mass change at 0.20 mol/dm³ sucrose and −3.0% at 0.40 mol/dm³. Estimate the zero-change concentration by a straight line between these two points. State two reasons this estimate is not an exact measurement of the original tissue water potential.",
+          "ru": "Учебные результаты для картофеля после одинакового времени выдерживания: изменение массы +2,0% при 0,20 моль/дм³ сахарозы и −3,0% при 0,40 моль/дм³. Оцени концентрацию нулевого изменения по прямой между точками. Назови две причины, по которым это не точное измерение исходного водного потенциала ткани."
+        },
+        "answer": {
+          "en": "The five-percentage-point fall occurs across 0.20 mol/dm³. Zero lies 2/5 of the way from 0.20 to 0.40: c ≈ 0.20 + (2/5) × 0.20 = 0.28 mol/dm³. This is local linear interpolation, not proof the whole curve is straight. Repeat near the crossing and report variation. The mass proxy assumes consistent removal of surface solution and no significant loss of solute or tissue; finite immersion time and changing cell pressure/composition also limit an estimate of the original tissue state. A zero mass change alone does not prove full equilibrium.",
+          "ru": "Падение на пять процентных пунктов приходится на интервал 0,20 моль/дм³. Ноль находится на 2/5 пути от 0,20 до 0,40: c ≈ 0,20 + (2/5) × 0,20 = 0,28 моль/дм³. Это линейная интерполяция между соседними точками, а не доказательство прямолинейности всего графика. Нужны повторы около пересечения и оценка разброса. Масса служит показателем воды при одинаковом удалении раствора с поверхности и отсутствии существенной потери растворённых веществ или самой ткани. Конечное время опыта и изменение давления и состава клеток ограничивают вывод об исходном состоянии ткани. Нулевое изменение массы само по себе ещё не доказывает полного равновесия."
+        }
       }
     ],
     "links": [
@@ -1778,7 +1789,9 @@
     ],
     "sources": [
       "biology-ib",
-      "biology-ru"
+      "biology-ru",
+      "biology-practical-mass-en",
+      "biology-water-potential-ru"
     ]
   },
   {
@@ -2960,7 +2973,7 @@
           },
           {
             "en": "Not every experience",
-            "ru": "Не все мнения"
+            "ru": "Не опыт всех жителей"
           }
         ],
         [
@@ -3034,8 +3047,8 @@
       "ru": "В школьном списке есть Personal Project, Service as Action и University/Careers. Здесь это навыковая поддержка без придуманного экзамена и выполненных часов помощи. Отдели цель обучения от цели продукта. Критерий успеха должен наблюдаться: «трое пользователей выполняют задачу» проверяемо, «отличное приложение» — нет. Планируй исследование, выбирай источники, записывай решения и сохраняй датированные свидетельства. Прототип доказывает существование прототипа, но не публикацию или использование. Для помощи сообществу сначала узнай потребности и соблюди школьные согласования и контроль. Рефлексия связывает данные с обучением, признаёт ограничения и задаёт конкретный шаг. Изучение профессий сопоставляет требования и интересы без превращения временного предпочтения в обязательство."
     },
     "worked": {
-      "en": "A student plans a study tool. Goal: learn to design accessible navigation. Product criterion: three invited testers find a specified topic without help. Until testing occurs, the result is “prototype ready, user evidence pending”, not “everyone finds it easy”.",
-      "ru": "Ученик планирует учебный инструмент. Цель — научиться доступной навигации. Критерий продукта — трое приглашённых участников находят указанную тему без помощи. Пока теста нет, результат «прототип готов, пользовательская проверка ожидается», а не «всем удобно»."
+      "en": "A student plans a study tool. Goal: learn to design accessible navigation. Product criterion: three invited testers find a specified topic without help. If a prototype has actually been built but not tested, record “prototype ready, user evidence pending”. If only the plan exists, record “plan prepared”. Neither establishes that every user finds the tool easy.",
+      "ru": "Ученик планирует учебный инструмент. Цель — научиться проектировать доступную навигацию. Критерий продукта: трое приглашённых участников находят указанную тему без помощи. Если прототип уже создан, но не испытан, запись — «прототип готов, пользовательская проверка ожидается». Если есть только план, запиши «план подготовлен». Ни одна из этих записей не доказывает, что инструмент удобен всем."
     },
     "misconception": {
       "en": "A scheduled activity is not a completed activity. Never reconstruct service hours or feedback from what you hoped would happen.",

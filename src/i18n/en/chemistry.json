@@ -666,7 +666,7 @@
           },
           "concentration": {
             "name": "Concentration (and pressure for gases)",
-            "rule": "A higher reactant concentration means more particles in the same volume, so collisions happen more often and the rate increases. Compressing a gas mixture at fixed temperature raises the concentrations of its reacting gases. Increasing total pressure by adding an inert gas at fixed volume does not do this (ideal-gas model). The quantitative relationship is found by experiment: doubling a concentration does not always double the rate.",
+            "rule": "A higher reactant concentration means more reacting particles in the same volume. In the simple collision model this usually increases effective collisions and the reaction rate; the actual dependence must be measured. Compressing a gas mixture at fixed temperature raises the concentrations of its reacting gases. Increasing total pressure by adding an inert gas at fixed volume does not do this (ideal-gas model). The quantitative relationship is found by experiment: doubling a concentration does not always double the rate.",
             "examples": [
               "The same mass of magnesium reacts much faster with concentrated hydrochloric acid than with dilute acid.",
               "A glowing splint bursts into flame in pure oxygen but only stays glowing in air, where oxygen is less concentrated."

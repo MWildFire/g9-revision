@@ -3640,7 +3640,7 @@
               "Toxoplasmosis is caused by the protist Toxoplasma gondii. It spreads through undercooked meat or contact with cat faeces.",
               "Amoebic dysentery is caused by the protist Entamoeba histolytica. It spreads in food or water contaminated with faeces and causes bloody diarrhoea."
             ],
-            "watchOut": "Antibiotics act on bacterial structures, such as the cell wall. The malaria parasite has no such wall, so malaria is usually treated with antimalarial medicines instead.",
+            "watchOut": "Do not infer a drug’s action from the pathogen group alone. Different antibacterial antibiotics target different structures or processes: some inhibit bacterial cell-wall synthesis, others bacterial protein synthesis. A statement about one target does not establish that every antibiotic has the same action, or tell you which treatment is suitable for a particular infection.",
             "review": {
               "englishTerm": "Protist pathogens",
               "russianTerm": "Патогенные простейшие",

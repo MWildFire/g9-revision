@@ -48,7 +48,7 @@ export default function App() {
           transition={{ duration: 0.18, ease: 'easeOut' }}
           className="flex-1"
         >
-          {['math','physics','chemistry','biology','geography','english','french','arabic'].includes(subject) && <div className="max-w-7xl w-full mx-auto px-4 md:px-6 pt-5 text-sm text-text-secondary">
+          {['math','physics','chemistry','biology','geography','english','french','arabic'].includes(subject) && <div className="subject-library-note max-w-7xl w-full mx-auto px-4 md:px-6 pt-5 text-sm text-text-secondary">
             {i18n.language.startsWith('ru') ? 'Предметная библиотека. Текущий план моков 9–13 ноября: ' : 'Subject library. Current plan for the 9–13 November mocks: '}
             <Link to="/revision-plan" className="underline">{i18n.language.startsWith('ru') ? 'Подготовка по дням' : 'Daily preparation'} →</Link>
           </div>}

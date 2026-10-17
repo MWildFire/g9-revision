@@ -32,6 +32,8 @@ else if (opt('all')) { routes = [...new Set(['/', '/revision-plan', '/november',
 else { console.error('usage: render-audit.mjs --batch <id> | --routes a,b | --all'); process.exit(2); }
 const langs = String(opt('langs') ?? 'en,ru').split(',');
 const width = Number(opt('width') ?? 1280);
+const selectedViews = opt('views') ? new Set(String(opt('views')).split(',')) : null;
+if (selectedViews && [...selectedViews].some(v => !['desktop','mobile','print'].includes(v))) throw new Error('invalid_views');
 if (!opt('out')) throw new Error('Explicit --out evidence directory required');
 const outDir = path.resolve(String(opt('out')));
 const contract = opt('contract') ? JSON.parse(fs.readFileSync(String(opt('contract')), 'utf8')) : {};
@@ -45,7 +47,9 @@ let browser;
 try { browser = await chromium.launch(process.env.QA_BROWSER_EXECUTABLE ? { executablePath:process.env.QA_BROWSER_EXECUTABLE } : {}); } catch(error) { server.close(); throw error; }
 const results = [];
 const printRoutes = new Set(opt('print-all') ? routes : opt('print') ? routes.filter(route => /paper|reference|\/print/.test(route)) : []);
-const expectedDenominator = langs.length * (routes.length * (1 + (opt('mobile') ? 1 : 0)) + printRoutes.size);
+const views = [['desktop', { width, height:900 }], ...(opt('mobile') ? [['mobile', { width:390, height:844 }]] : []), ...(printRoutes.size ? [['print', { width:1280, height:900 }]] : [])].filter(([v]) => !selectedViews || selectedViews.has(v));
+if (!views.length) throw new Error('no_selected_views');
+const expectedDenominator = langs.length * views.reduce((n,[view]) => n + (view === 'print' ? printRoutes.size : routes.length),0);
 const cleanupErrors = [];
 let loopCompleted = false, fatalError = null;
 const save = (final = false) => persistAuditReport(path.join(outDir, final ? 'report.json' : 'partial-report.json'), {
@@ -54,7 +58,7 @@ const save = (final = false) => persistAuditReport(path.join(outDir, final ? 're
 });
 try {
   for (const lang of langs) {
-    for (const [label, viewport] of [['desktop', { width, height: 900 }], ...(opt('mobile') ? [['mobile', { width: 390, height: 844 }]] : []), ...(printRoutes.size ? [['print', { width:1280, height:900 }]] : [])]) {
+    for (const [label, viewport] of views) {
       const context = await browser.newContext({ viewport });
       await context.addInitScript(l => { try { localStorage.setItem('g9-lang', l); } catch {} }, lang);
 
@@ -75,7 +79,7 @@ try {
             contract[key] = { h1:initial.h1, minBlocks:1, origin:'isolated route discovery; not manual acceptance' };
           }
           if (!contract[key]) throw new Error('missing_route_contract');
-          readiness = await waitForCaptureReady(page, { ...contract[key], route, lang }, { timeout:Number(opt('timeout')??20000) });
+          readiness = await waitForCaptureReady(page, { ...contract[key], ...(contract[key].views?.[label] ?? {}), route, lang }, { timeout:Number(opt('timeout')??20000) });
           if (opt('discover')) {
             contract[key].minBlocks = Math.max(1, Math.floor(readiness.blocks * 0.75));
             contract[key].formulas = [...new Set(readiness.formulas)];
@@ -106,10 +110,36 @@ try {
         const fail = errors.length > 0 || repeated.length > 0 || formulaRepeats.length > 0 || data.clippedFormulas.length > 0 || (viewport.width < 480 && data.overflow > 2);
         results.push({ status:opt('discover')?'inventory_only':'captured', readiness, build:identity, lang, view: label, viewport, route, title: data.title, blocks: data.blocks.length, formulaCards: Object.keys(data.formulas), repeated, formulaRepeats, clippedFormulas:data.clippedFormulas, leaks: leaks.slice(0, 30), leakCount: leaks.length, overflow: data.overflow, errors: [...errors], fail });
         if (opt('shots') && !opt('discover')) {
+          const result=results.at(-1);
+          result.artifact_status='pending';
+          try {
           const stem = `${lang}-${label}-${route.replace(/[^a-z0-9]+/gi, '_').replace(/^_|_$/g, '') || 'home'}`;
-          await page.screenshot({ path:path.join(outDir, `${stem}.png`), fullPage:true });
+          // Very long library pages exceed Chromium's practical full-image limits.
+          // Preserve the full document as overlapping coordinate-bound tiles.
+          const dimensions = await page.evaluate(() => ({width:document.documentElement.clientWidth,height:Math.max(document.documentElement.scrollHeight,document.body.scrollHeight)}));
+          if (dimensions.height > 16000) {
+            const cdp = await context.newCDPSession(page);
+            const tiles = [];
+            try {
+              for (let y=0;y<dimensions.height;y+=1200) {
+                const height=Math.min(1400,dimensions.height-y),file=`${stem}-y${y}.png`;
+                const shot=await cdp.send('Page.captureScreenshot',{format:'png',captureBeyondViewport:true,clip:{x:0,y,width:dimensions.width,height,scale:1}});
+                fs.writeFileSync(path.join(outDir,file),Buffer.from(shot.data,'base64'));
+                tiles.push({file,x:0,y,width:dimensions.width,height});
+              }
+            } finally { await cdp.detach(); }
+            fs.writeFileSync(path.join(outDir,`${stem}-tiles.json`),JSON.stringify({build:identity,lang,view:label,route,dimensions,tiles},null,2)+'\n');
+          } else await page.screenshot({ path:path.join(outDir, `${stem}.png`), fullPage:true });
           await page.screenshot({ path:path.join(outDir, `${stem}-viewport.png`) });
           if (label === 'print') await page.pdf({ path:path.join(outDir, `${stem}.pdf`), format:'A4', printBackground:true });
+          result.artifact_status='complete';
+          } catch(error) {
+            result.artifact_status='incomplete';
+            result.status='capture_incomplete';
+            result.fail=true;
+            result.error=String(error);
+            throw error;
+          }
         }
         save();
         await withDeadline(() => page.close(), 'page_close');

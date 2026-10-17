@@ -217,6 +217,14 @@ input[type='range']::-moz-range-thumb {
   outline: 2px solid var(--color-text-primary);
   outline-offset: 2px;
 }
+/* Printed equations cannot rely on the screen's horizontal scrollbar. */
+@media print {
+  .formula-teaching .formula-teaching-expression {
+    white-space: normal !important;
+    overflow: visible;
+    overflow-wrap: anywhere;
+  }
+}
 .katex-display {
   max-width: 100%;
   overflow-x: auto;

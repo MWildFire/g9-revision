@@ -371,8 +371,8 @@
     "title": "SciPy · Spearman correlation",
     "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html",
     "note": {
-      "en": "Definition and small-sample significance limits. It is not the source of an invented teaching dataset.",
-      "ru": "Определение и ограничения значимости малых выборок. Учебные данные авторские, не взяты из SciPy."
+      "en": "Definition, constant-input warning and hypothesis-testing notes; arithmetic counterexample is author-derived from average-rank Pearson correlation.",
+      "ru": "Определение, предупреждение о постоянных величинах и проверка гипотез. Контрпример вычислен автором по корреляции средних рангов."
     }
   },
   "sampling-ru": {
@@ -387,8 +387,8 @@
     "title": "Половкина и Григорьева · Статистика, КФУ2016, с.123–124",
     "url": "https://dspace.kpfu.ru/xmlui/bitstream/net/109537/1/UP_TS_2017.pdf#page=123",
     "note": {
-      "en": "§8.3: ranks and the no-ties formula. The book’s significance approximation and blanket strength threshold are not adopted.",
-      "ru": "§8.3: ранги и формула без совпадающих рангов. Приближение для значимости и универсальный порог тесноты связи из книги не используются."
+      "en": "Printed123 and first paragraph124: rank definition and averaging ties; printed139 Pearson formula. Erroneous tied shortcut and universal0.5 threshold excluded.",
+      "ru": "С.123 и первый абзац с.124: ранги и усреднение совпадений; с.139: формула Пирсона. Ошибочная формула для совпадений и универсальный порог 0,5 не используются."
     }
   },
   "current-openstax": {
@@ -733,6 +733,62 @@
     "note": {
       "en": "Future section explicitly states current recession rate unclear and next rockfall unknown; no forecast from a fixed universal rate.",
       "ru": "Раздел о будущем: нынешняя скорость неопределённа, время следующего обвала неизвестно."
+    }
+  },
+  "tourism-usha": {
+    "title": "USHAŞ · Health Tourism Data,2024–2025",
+    "url": "https://www.ushas.gov.tr/en/saglik-turizmi-verileri/",
+    "note": {
+      "en": "Annual2024/2025 paragraphs; visitors and revenue in thousandUS dollars, attributed to TurkStat. Whole healthcare-travel series, not one procedure or profit.",
+      "ru": "Годовые абзацы 2024/2025: поток и поступления в тысячах долларов США, источник TurkStat. Не одна процедура и не прибыль."
+    }
+  },
+  "tourism-medical-ru": {
+    "title": "Шахматов, Уажанов · Медицинский маркетинг (2024),543–546",
+    "url": "https://new.vestnik-surgery.com/index.php/2415-7805/article/view/9502",
+    "note": {
+      "en": "Russian FullText, Materials/methods and transport-accessibility paragraph. Context for destination choice; not verification of USHA2025 totals or clinical outcomes.",
+      "ru": "Самостоятельное русское изложение: «Материалы и методы», абзац о транспортной доступности. Контекст выбора направления, не подтверждение чисел USHA2025 и результатов лечения."
+    }
+  },
+  "tourism-auschwitz": {
+    "title": "Auschwitz-Birkenau Memorial and Museum · Report2019,printed24",
+    "url": "https://www.auschwitz.org/gfx/auschwitz/userfiles/auschwitz/raport_pdf/auschwitz_raport_2019.pdf",
+    "note": {
+      "en": "Auschwitz in the World’s Hearts, first two paragraphs: rounded attendance and approximate educator participation; not a measure of individual motives or learning.",
+      "ru": "Печатная с.24, первые два абзаца: округлённая посещаемость и приблизительная доля с педагогами. Не измерение личных мотивов и понимания."
+    }
+  },
+  "tourism-stone": {
+    "title": "Philip Stone (2006) · A dark tourism spectrum,146–148",
+    "url": "https://clok.uclan.ac.uk/27720/1/27720%20fulltext_stamped.pdf",
+    "note": {
+      "en": "Supply-based dark tourism and motivation-based thanatourism differ; the report’s attendance cannot establish everyone’s motive.",
+      "ru": "Широкую категорию мест и определение через мотив различают; посещаемость не раскрывает мотив каждого человека. Это английское исследование, не независимый русский источник."
+    }
+  },
+  "tourism-gbt": {
+    "title": "Great Baikal Trail · Season2022,July11–18 programme",
+    "url": "https://en.greatbaikaltrail.org/volunteer-projects",
+    "note": {
+      "en": "Dated advertised work and location; not a completion or impact report. Historical programme, not current availability.",
+      "ru": "Датированная объявленная работа и место. Не отчёт о выполнении или природном эффекте; не актуальное предложение поездки."
+    }
+  },
+  "tourism-volunteer-ru": {
+    "title": "С.Н.Кобзова (2015) · Волонтёрский туризм, DOI10.12737/14389",
+    "url": "https://naukaru.ru/ru/nauka/article/7956/view",
+    "note": {
+      "en": "Independent Russian abstract names Great Baikal Trail among environmental projects. Historical context, not confirmation of the2022 programme.",
+      "ru": "Самостоятельная русская аннотация называет ББТ среди экологических проектов. Исторический контекст, не подтверждение выполнения программы 2022 года."
+    }
+  },
+  "tourism-volunteer-model-ru": {
+    "title": "Суржиков, Кравченко (2022) · Эковолонтёрский туризм",
+    "url": "https://1economic.ru/lib/114305",
+    "note": {
+      "en": "Introduction and operational-definition/principles paragraphs: volunteer/educational purposes and reducing impact. The proposed evaluation exercise is authored, not an observed field result.",
+      "ru": "Введение, определение и принципы: добровольная и познавательная цели, снижение вреда. Проект проверки в задании авторский; полевые результаты не заявлены."
     }
   }
 }

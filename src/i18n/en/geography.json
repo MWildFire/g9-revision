@@ -1956,7 +1956,7 @@
           },
           "hydro": {
             "name": "Hydropower",
-            "rule": "Hydropower generates electricity when flowing water turns turbines. Dams often hold back water, so it falls through the turbines from a higher level. The water cycle, driven by the Sun, keeps refilling rivers and reservoirs.",
+            "rule": "Hydropower converts the mechanical energy of moving water into electricity: water turns a turbine connected to a generator. In a storage scheme, a dam holds water at a higher level before release through turbines. The natural water cycle, driven by solar energy and gravity, can replenish the water supply, but local inflow varies with rainfall, season and drought. Renewable does not mean constant output.",
             "examples": [
               "A reservoir can store water and release it when more electricity is needed, but in a dry year less water flows in and less electricity is made."
             ],
@@ -1979,6 +1979,18 @@
                   "url": "https://www.eia.gov/energyexplained/hydropower/",
                   "section": "Hydropower relies on the water cycle; Hydroelectric power is produced with moving water",
                   "language": "en"
+                },
+                {
+                  "title": "РусГидро · Годовой отчёт2021, глоссарий, печатная с.154",
+                  "url": "https://ar2021.rushydro.ru/local/templates/rushydro2021/include/rusgidro-158-159.pdf",
+                  "language": "ru",
+                  "section": "Гидроэлектростанция: преобразование механической энергии воды в электрическую; не схема лопастей турбины"
+                },
+                {
+                  "title": "Уразметов, Губеева, Уленгов · Гидрология рек (2024)",
+                  "url": "https://kpfu.ru/staff_files/F_1826211027/Gidrologiya_rek__uchebnoe_posobie.pdf",
+                  "language": "ru",
+                  "section": "Печатные с.106–107, «Круговорот воды»: солнечная радиация и сила тяжести; не гарантия постоянного местного притока"
                 }
               ]
             }

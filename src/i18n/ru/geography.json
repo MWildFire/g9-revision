@@ -1458,7 +1458,7 @@
             ],
             "review": {
               "englishTerm": "Dark tourism / thanatourism",
-              "russianTerm": "Танатуризм",
+              "russianTerm": "Мрачный туризм / танатотуризм",
               "contrast": {
                 "en": "Dark tourism and thanatourism are often used as synonyms, but some researchers limit thanatourism to trips motivated by encounters with death.",
                 "ru": "Тёмный туризм и танатуризм часто используют как синонимы, но некоторые исследователи сужают танатуризм до поездок, мотивированных встречей со смертью."
@@ -1629,7 +1629,7 @@
             ],
             "review": {
               "englishTerm": "Dark tourism / thanatourism",
-              "russianTerm": "Танатуризм",
+              "russianTerm": "Мрачный туризм / танатотуризм",
               "contrast": {
                 "en": "A visit to learn about a disaster and honour its victims is a clear example. A visitor taking photographs at the same site may have different motives. That alone does not exclude the visit from the broader dark-tourism category; a motive-based definition of thanatourism asks specifically about an interest in death.",
                 "ru": "Поездка ради изучения катастрофы и памяти её жертв — ясный пример. У посетителя, который фотографирует то же место, могут быть другие мотивы. Само по себе это не исключает поездку из широкой категории тёмного туризма; определение танатуризма через мотив специально учитывает интерес к смерти."
@@ -1956,7 +1956,7 @@
           },
           "hydro": {
             "name": "Гидроэнергетика",
-            "rule": "Гидроэнергетика вырабатывает электричество, когда текущая вода вращает турбины. Плотины часто задерживают воду, и она падает на турбины с более высокого уровня. Солнце запускает круговорот воды, и он постоянно пополняет реки и водохранилища.",
+            "rule": "Гидроэнергетика преобразует механическую энергию движущейся воды в электрическую: вода вращает турбину, соединённую с генератором. В схеме с водохранилищем плотина удерживает воду выше по уровню, затем её пропускают через турбины. Круговорот воды под действием солнечной энергии и силы тяжести возобновляет воду в природе, но приток к конкретной станции зависит от осадков, сезона и засух. Возобновляемость не означает постоянной выработки.",
             "examples": [
               "Водохранилище может накапливать воду и выпускать её, когда нужно больше электричества, но в засушливый год воды поступает меньше, и выработка падает."
             ],
@@ -1979,6 +1979,18 @@
                   "url": "https://www.eia.gov/energyexplained/hydropower/",
                   "section": "Hydropower relies on the water cycle; Hydroelectric power is produced with moving water",
                   "language": "en"
+                },
+                {
+                  "title": "РусГидро · Годовой отчёт2021, глоссарий, печатная с.154",
+                  "url": "https://ar2021.rushydro.ru/local/templates/rushydro2021/include/rusgidro-158-159.pdf",
+                  "language": "ru",
+                  "section": "Гидроэлектростанция: преобразование механической энергии воды в электрическую; не схема лопастей турбины"
+                },
+                {
+                  "title": "Уразметов, Губеева, Уленгов · Гидрология рек (2024)",
+                  "url": "https://kpfu.ru/staff_files/F_1826211027/Gidrologiya_rek__uchebnoe_posobie.pdf",
+                  "language": "ru",
+                  "section": "Печатные с.106–107, «Круговорот воды»: солнечная радиация и сила тяжести; не гарантия постоянного местного притока"
                 }
               ]
             }

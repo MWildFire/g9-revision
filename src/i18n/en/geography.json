@@ -1014,8 +1014,8 @@
               "englishTerm": "Snowmelt",
               "russianTerm": "Снеготаяние",
               "contrast": {
-                "en": "Snowfall only stores water, so the flood depends on when the snow melts and whether the ground can absorb the meltwater.",
-                "ru": "Снегопад только копит воду, поэтому паводок зависит от того, когда снег растает и может ли грунт впитать талую воду."
+                "en": "Snow can store precipitation before it melts. Flood response depends on melt timing, remaining snow storage, ground conditions and the routes meltwater takes.",
+                "ru": "Снег может сохранять осадки до таяния. Для паводка важны время таяния, оставшийся снежный запас, состояние грунта и пути движения талой воды."
               },
               "sources": [
                 {
@@ -1066,8 +1066,8 @@
               "englishTerm": "Deforestation and runoff",
               "russianTerm": "Обезлесение и сток",
               "contrast": {
-                "en": "Deforestation means removing trees. Its effect depends on catchment size, soils and storm size, and trees cannot prevent every flood.",
-                "ru": "Обезлесение — это вырубка деревьев. Эффект зависит от масштаба бассейна, почв и силы дождя; лес не предотвращает любой паводок."
+                "en": "Deforestation is long-term loss of forest cover or conversion to another land use. Temporary harvesting followed by forest regeneration is different. Removing trees can still change runoff during recovery; no forest prevents every flood.",
+                "ru": "Обезлесение — длительная утрата лесного покрова или перевод земли под другое использование. Временная рубка с последующим возобновлением леса — другая ситуация. Пока лес восстанавливается, удаление деревьев тоже может менять сток; ни один лес не предотвращает любой паводок."
               },
               "sources": [
                 {
@@ -1081,6 +1081,24 @@
                   "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
                   "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
                   "language": "en"
+                },
+                {
+                  "title": "Environment Agency — Woodland management (12 February 2025)",
+                  "url": "https://www.gov.uk/government/publications/natural-flood-management-evidence/woodland-management",
+                  "language": "en",
+                  "section": "1.1 and 1.4: catchment/event limits; 2.1: Pont Bren plot observations versus catchment modelling"
+                },
+                {
+                  "title": "И.А. Уразметов, С.К. Губеева, Р.А. Уленгов — Гидрология рек (КФУ, 2024)",
+                  "url": "https://kpfu.ru/staff_files/F_1826211027/Gidrologiya_rek__uchebnoe_posobie.pdf#page=41",
+                  "language": "ru",
+                  "section": "С.40–42: проницаемость и перехват осадков; общий механизм, не независимое наблюдение Pont Bren"
+                },
+                {
+                  "title": "FAO — FRA 2010 Terms and definitions",
+                  "url": "https://www.fao.org/4/am665e/am665e00.pdf#page=24",
+                  "language": "en",
+                  "section": "Printed p.24, Deforestation, explanatory notes1–3: long-term loss versus temporary harvesting; historical terminology reference"
                 }
               ]
             }
@@ -1285,9 +1303,9 @@
           },
           "afforestation": {
             "name": "Afforestation and catchment woodland",
-            "rule": "Tree canopies catch some rain, and roots open up the soil, so more water soaks in and less runs off quickly. The effect is largest for small floods in small catchments and weakens as floods get bigger.",
+            "rule": "Canopy interception and changes in soil flow paths can reduce rapid runoff. Results vary with woodland, location, soils and storm size; plot measurements cannot directly establish the flood reduction across a whole catchment.",
             "examples": [
-              "In a small catchment planted with trees, the soil under the woodland soaks up more rain than the grazed fields around it, so less water runs off in small storms."
+              "At Pont Bren in Wales, planted woodland plots had greater infiltration and less measured runoff than grazed pasture controls. The Environment Agency’s 2025 review separates those observations from modelled catchment flood reductions; the results are not a guarantee for another basin."
             ],
             "review": {
               "englishTerm": "Afforestation and catchment woodland",
@@ -1308,6 +1326,18 @@
                   "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
                   "section": "Surface runoff; meteorological and physical factors; Human activities can affect runoff; Urban development and flooding",
                   "language": "en"
+                },
+                {
+                  "title": "Environment Agency — Woodland management (12 February 2025)",
+                  "url": "https://www.gov.uk/government/publications/natural-flood-management-evidence/woodland-management",
+                  "language": "en",
+                  "section": "1.1 and 1.4: catchment/event limits; 2.1: Pont Bren plot observations versus catchment modelling"
+                },
+                {
+                  "title": "И.А. Уразметов, С.К. Губеева, Р.А. Уленгов — Гидрология рек (КФУ, 2024)",
+                  "url": "https://kpfu.ru/staff_files/F_1826211027/Gidrologiya_rek__uchebnoe_posobie.pdf#page=41",
+                  "language": "ru",
+                  "section": "С.40–42: проницаемость и перехват осадков; общий механизм, не независимое наблюдение Pont Bren"
                 }
               ]
             }

@@ -53,11 +53,11 @@ try{
     await settle(page);
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+1);
     assert.equal(overflow,false,`${l.id} ${lang} ${width} overflow`);
-    assert.equal(await page.locator('.g9-question').count(),2);
+    assert.equal(await page.locator('.g9-question').count(),l.practice.length);
     if(l.id==='a-core'||l.id==='a-routine')assert.ok(await page.locator('[lang="ar"][dir="rtl"]').count()>0);
-    if(width===1280&&['g-floods','g-channel','g-indicators','g-aral-case','c-carbon','a-routine','e-comparison'].includes(l.id))await page.screenshot({path:path.join(out,`${l.id}-${lang}-desktop.png`),fullPage:true});
-    if(width===390&&['g-floods','g-indicators','g-aral-case','c-carbon','a-routine','f-health-community'].includes(l.id))await page.screenshot({path:path.join(out,`${l.id}-${lang}-mobile.png`),fullPage:true});
-    results.push({route:'/grade9/'+l.id,lang,width,explanation:true,answers:2,overflow});save();
+    if(width===1280&&['g-floods','g-channel','g-indicators','g-aral-case','g-climate-evidence','g-baikal-tourism','g-fieldwork','c-carbon','a-routine','e-comparison'].includes(l.id))await page.screenshot({path:path.join(out,`${l.id}-${lang}-desktop.png`),fullPage:true});
+    if(width===390&&['g-floods','g-indicators','g-aral-case','g-climate-evidence','g-baikal-tourism','g-fieldwork','c-carbon','a-routine','f-health-community'].includes(l.id))await page.screenshot({path:path.join(out,`${l.id}-${lang}-mobile.png`),fullPage:true});
+    results.push({route:'/grade9/'+l.id,lang,width,explanation:true,answers:l.practice.length,overflow});save();
    }
   }
   // New checks persist across route navigation and reload without losing old plan data.
@@ -71,7 +71,7 @@ try{
   const media=await page.locator('audio').evaluate(async audio=>{await audio.play();await new Promise((resolve,reject)=>{audio.addEventListener('ended',resolve,{once:true});audio.addEventListener('error',()=>reject(Error('media_error')),{once:true});setTimeout(()=>reject(Error('media_timeout')),20000);});return {duration:audio.duration,ended:audio.ended,currentTime:audio.currentTime};});
   assert.ok(media.ended&&media.duration>2);results.push({scenario:'arabic_media_playback',lang,...media});
   // Print events open answers and source metadata and then restore collapsed state.
-  for(const id of ['g-floods','g-indicators','g-aral-case','c-carbon','a-routine','c-conditions']){
+  for(const id of ['g-floods','g-indicators','g-aral-case','g-climate-evidence','g-baikal-tourism','g-fieldwork','c-carbon','a-routine','c-conditions']){
    await page.goto(base+'/grade9/'+id);await page.getByRole('heading',{level:1,name:lessons.find(l=>l.id===id).title[lang],exact:true}).waitFor();await page.emulateMedia({media:'print'});
    await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));
    assert.equal(await page.locator('main details:not([open])').count(),0);

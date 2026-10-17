@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { geographyReviews } from '../../../definitions/geographyReviews';
 import { useTranslation } from 'react-i18next';
@@ -30,6 +31,8 @@ export function TourismPage() {
           return <DetailedCard key={id} item={item} borderColor="var(--color-accent-warm)" labels={labels} />;
         })}
       </div>
+
+      <Link className="block p-4 border border-border rounded-md text-accent" to="/grade9/g-baikal-tourism">{l('Lake Baikal: dated evidence, tourism and wastewater evaluation →', 'Байкал: датированные данные, туризм и оценка стоков →')}</Link>
 
       <SectionHeading>{t('tourism.sections.butler.title')}</SectionHeading>
       <ButlerModel />

@@ -278,7 +278,7 @@
     },
     "explanation": {
       "en": "A storm hydrograph plots discharge against time. Peak discharge is its highest value. Lag time here means the interval from peak rainfall to peak discharge; state that convention. Impermeable ground, saturated soil, steep slopes and connected drains can shorten travel time to the channel. Vegetation and permeable soil can increase interception, storage and infiltration, although extreme rain may overwhelm them. Hard engineering, such as walls and dams, modifies flow or keeps water away from assets; soft approaches, such as floodplain zoning, warnings and wetland restoration, reduce exposure or slow pathways. Assess social, economic, environmental and political consequences over time and downstream. A wall can protect a neighbourhood yet transfer risk or fail when overtopped. No single hydrograph establishes the probability of a future flood.",
-      "ru": "На гидрографе показано, как меняется расход во времени. Пик расхода — наибольшее значение. Здесь время запаздывания (lag time) — промежуток между пиком осадков и пиком расхода; это определение нужно назвать. Непроницаемая или насыщенная почва, крутые склоны и дренаж ускоряют поступление воды в русло. Растительность и проницаемый грунт могут задерживать воду и усиливать впитывание, но при очень сильном дожде их возможности ограничены. Дамбы и стены относятся к жёстким инженерным мерам (hard engineering): они меняют поток или отделяют его от объектов. Зонирование поймы, предупреждения и восстановление болот уменьшают уязвимость или замедляют сток. Оцени социальные, экономические, экологические и политические последствия, включая другие участки реки. Защитная стена может помочь одному району и перенести риск ниже по течению. Один гидрограф не даёт вероятности будущего наводнения."
+      "ru": "На гидрографе показано, как меняется расход во времени. Пик расхода — наибольшее значение. Здесь время запаздывания (lag time) — промежуток между пиком осадков и пиком расхода; это определение нужно назвать. Непроницаемая или насыщенная почва, крутые склоны и связанный с руслом дренаж могут ускорять поступление воды в реку; результат зависит от дождя, свойств почвы и запасов воды в бассейне. Растительность и проницаемый грунт могут задерживать воду и усиливать впитывание, но при очень сильном дожде их возможности ограничены. Дамбы и стены относятся к жёстким инженерным мерам (hard engineering): они меняют поток или отделяют его от объектов. Зонирование поймы, предупреждения и восстановление болот уменьшают уязвимость или замедляют сток. Оцени социальные, экономические, экологические и политические последствия, включая другие участки реки. Защитная стена может помочь одному району и перенести риск ниже по течению. Один гидрограф не даёт вероятности будущего наводнения."
     },
     "worked": {
       "en": "In this model rainfall peaks at hour 1. Urban discharge peaks at hour 2, so lag = 1 h; the wooded catchment peaks at hour 4, so lag = 3 h. The urban peak is 18 rather than 10 m³/s. This is consistent with faster runoff; it does not isolate land cover from every other cause.",
@@ -904,12 +904,12 @@
       "ru": "Среднее, ранги и диаграмма рассеяния."
     },
     "explanation": {
-      "en": "An aim states what you investigate; a hypothesis is a testable prediction. Primary data are collected for your investigation; secondary data already exist. Quantitative data are numbers; qualitative data describe categories or meaning. Random sampling uses a random selection process, systematic sampling uses a regular interval, and stratified sampling represents defined groups. Sample size alone does not remove bias. A methodology must make location, timing, instruments, repeats and safety reproducible. Choose bar charts for categories, line graphs for ordered change, scatter plots for paired numerical variables, pie charts for parts of one whole, and GIS for spatial layers. Spearman’s rank measures monotonic association: rₛ = 1 − 6Σd²/[n(n²−1)] for paired ranks without ties; use a tie-aware method when ranks repeat. A correlation is not a causal experiment. A conclusion answers the aim within the evidence; evaluation explains how a limitation affects that conclusion and how to improve it.",
-      "ru": "Цель говорит, что исследуем, гипотеза — какое проверяемое различие или связь ожидаем. Первичные данные собирают для своей работы, вторичные уже существуют. Количественные данные выражены числами, качественные — категориями или описаниями. Случайная выборка использует случайный отбор; систематическая — регулярный интервал; стратифицированная представляет заранее выделенные группы. Большой объём сам по себе не устраняет смещение. Методика должна позволять повторить выбор места, времени, приборов и измерений. Столбцы подходят для категорий, линии — для упорядоченных изменений, scatter — для пар чисел, круговая диаграмма — для долей одного целого, ГИС — для пространственных слоёв. Коэффициент Спирмена оценивает монотонную связь: rₛ = 1 − 6Σd²/[n(n²−1)] для парных рангов без совпадений. При одинаковых рангах нужен соответствующий метод. Корреляция не доказывает причину. Вывод отвечает цели в пределах данных, а оценка связывает ограничение с его влиянием и конкретным улучшением."
+      "en": "An aim states what you investigate; a hypothesis is a testable prediction. Primary data are collected for your investigation; secondary data already exist. Quantitative data are numbers; qualitative data describe categories or meaning. Random sampling uses a random selection process, systematic sampling uses a regular interval, and stratified sampling represents defined groups. Sample size alone does not remove bias. A methodology must make location, timing, instruments, repeats and safety reproducible. Choose bar charts for categories, line graphs for ordered change, scatter plots for paired numerical variables, pie charts for parts of one whole, and GIS for spatial layers. Spearman’s rank measures monotonic association: rₛ = 1 − 6Σd²/[n(n²−1)] for paired ranks without ties; use a tie-aware method when ranks repeat. A correlation is not a causal experiment. A conclusion answers the aim within the evidence; evaluation explains how a limitation affects that conclusion and how to improve it.\n\nA graph must answer the investigation question. For category counts, use separate bars and label the count axis; a zero baseline makes lengths comparable. For observations through time, plot time with its unit and retain actual spacing between dates. A line joining observations guides the eye; it does not create measurements between them. A scatter plot uses one point for each paired measurement and shows association, not a causal result. A pie chart requires nonnegative, non-overlapping categories making one stated whole: sector angle = category count/total × 360°. Overlapping survey responses cannot be made into parts of a single whole without redefining the categories. GIS associates information with locations and can compare spatial layers. Before overlaying discharge, settlement and habitat data, check compatible coordinates, dates, scale and missing coverage. Nearness on a map alone does not prove a source caused an observed change.",
+      "ru": "Цель говорит, что исследуем, гипотеза — какое проверяемое различие или связь ожидаем. Первичные данные собирают для своей работы, вторичные уже существуют. Количественные данные выражены числами, качественные — категориями или описаниями. Случайная выборка использует случайный отбор; систематическая — регулярный интервал; стратифицированная представляет заранее выделенные группы. Большой объём сам по себе не устраняет смещение. Методика должна позволять повторить выбор места, времени, приборов и измерений. Столбцы подходят для категорий, линии — для упорядоченных изменений, scatter — для пар чисел, круговая диаграмма — для долей одного целого, ГИС — для пространственных слоёв. Коэффициент Спирмена оценивает монотонную связь: rₛ = 1 − 6Σd²/[n(n²−1)] для парных рангов без совпадений. При одинаковых рангах нужен соответствующий метод. Корреляция не доказывает причину. Вывод отвечает цели в пределах данных, а оценка связывает ограничение с его влиянием и конкретным улучшением.\n\nГрафик выбирают под вопрос исследования. Для числа объектов по категориям подходят отдельные столбцы с подписанной осью количества; начало от нуля позволяет сравнивать их длины. Во временном ряду указывай единицу времени и сохраняй реальные интервалы между датами. Линия между точками помогает чтению, но не создаёт измерений между ними. В диаграмме рассеяния одна точка соответствует одной паре измерений; связь ещё не означает причинного вывода. Для круговой диаграммы нужны неотрицательные непересекающиеся категории, вместе составляющие указанное целое: угол сектора = число в категории/общее число × 360°. Если человек мог выбрать несколько ответов, эти ответы нельзя без переработки считать долями одного целого. ГИС связывает сведения с местоположением и помогает сопоставлять пространственные слои. Перед совмещением сбросов, поселений и местообитаний проверь координаты, даты, масштаб и пробелы покрытия. Близость на карте сама не доказывает причинную связь."
     },
     "worked": {
-      "en": "For three sites with ranks (1,1), (2,3), (3,2), differences are 0, −1, 1; Σd² = 2 and n = 3. rₛ = 1 − 12/24 = 0.5. This tiny illustrative sample has positive association but does not establish significance or causation.",
-      "ru": "Для трёх точек ранги (1,1), (2,3), (3,2), разности 0, −1, 1. Σd² = 2, n = 3; rₛ = 1 − 12/24 = 0,5. Маленькая учебная выборка показывает положительную связь, но не доказывает значимость или причину."
+      "en": "For three sites with ranks (1,1), (2,3), (3,2), differences are 0, −1, 1; Σd² = 2 and n = 3. rₛ = 1 − 12/24 = 0.5. This tiny illustrative sample has positive association but does not establish significance or causation.\n\nIn a separate invented survey, 12 visitors arrive by bus, 6 by car and 2 on foot, with exactly one mode recorded per visitor. Total = 20. Bus share = 12/20 = 0.60 = 60%; its pie sector is 0.60 × 360° = 216°. The other sectors are 108° and 36°, totalling 360°. A bar chart also compares the three counts without requiring angle estimates. These numbers describe only this survey, not all visitors.",
+      "ru": "Для трёх точек ранги (1,1), (2,3), (3,2), разности 0, −1, 1. Σd² = 2, n = 3; rₛ = 1 − 12/24 = 0,5. Маленькая учебная выборка показывает положительную связь, но не доказывает значимость или причину.\n\nВ другом учебном опросе 12 гостей приехали автобусом, 6 машиной, 2 пришли пешком; для каждого записан ровно один способ. Всего 20 человек. Доля автобуса = 12/20 = 0,60 = 60%; угол сектора = 0,60 × 360° = 216°. Остальные углы — 108° и 36°, сумма 360°. Те же количества можно сравнить столбцами, не оценивая углы. Результат описывает только эту выборку."
     },
     "misconception": {
       "en": "Repeating one biased location many times improves precision there, not representativeness of the whole river.",
@@ -1017,6 +1017,39 @@
           "en": "A scatter plot, with paired measurements, variable names and units (e.g. m). Describe direction and strength, anomalies and uncertainty before interpreting.",
           "ru": "Диаграмма рассеяния с парными измерениями. Подпиши переменные и единицы, например метры. Сначала опиши направление, тесноту, выбросы и неопределённость, затем объясняй."
         }
+      },
+      {
+        "id": "g-fieldwork-3",
+        "prompt": {
+          "en": "In the invented transport survey, calculate the walking share and pie-sector angle. Explain the condition that makes a pie chart valid.",
+          "ru": "Найди долю пеших гостей и угол сектора в учебном опросе. При каком условии круговая диаграмма допустима?"
+        },
+        "answer": {
+          "en": "2/20 = 10%; 0.10 × 360° = 36°. Each visitor has exactly one recorded category, and the three categories cover all 20. If a visitor were counted in both bus and walking, these counts would overlap and would need a different coding rule.",
+          "ru": "2/20 = 10%; 0,10 × 360° = 36°. Каждый человек учтён ровно в одной категории, все 20 распределены. При одновременном учёте человека в автобусной и пешей категориях возникнет пересечение; понадобится другое правило кодирования."
+        }
+      },
+      {
+        "id": "g-fieldwork-4",
+        "prompt": {
+          "en": "Discharge is measured on days 1, 2 and 8. How should the time axis differ from three equally spaced category labels?",
+          "ru": "Расход измерен в дни 1, 2 и 8. Чем временная ось отличается от трёх равномерно расположенных категорий?"
+        },
+        "answer": {
+          "en": "Use a numerical time axis: the gap from day 2 to day 8 is six times the gap from day 1 to day 2. Label days and discharge units. Connecting segments do not establish the unmeasured daily values or the true maximum between observations.",
+          "ru": "На числовой оси интервал от 2-го до 8-го дня в шесть раз больше интервала от 1-го до 2-го. Подпиши дни и единицу расхода. Отрезки между точками не устанавливают значения в неизмеренные дни и настоящий максимум между наблюдениями."
+        }
+      },
+      {
+        "id": "g-fieldwork-5",
+        "prompt": {
+          "en": "A GIS layer shows a polluted sample near a hotel. Give two checks before blaming that hotel and one extra data layer you would seek.",
+          "ru": "В ГИС загрязнённая проба оказалась рядом с отелем. Назови две проверки до обвинения отеля и дополнительный слой данных."
+        },
+        "answer": {
+          "en": "Check matching sample dates and accurate coordinates; consider flow direction, other sources and sampling coverage. Seek mapped discharge locations or drainage pathways, with dates and source metadata. Spatial association alone cannot identify a causal contribution.",
+          "ru": "Проверь даты и точность координат, направление потока, другие источники и охват пробами. Полезен слой сбросов или путей стока с датами и происхождением данных. Одной пространственной близости недостаточно для вывода о причинном вкладе."
+        }
       }
     ],
     "links": [
@@ -1035,7 +1068,11 @@
       "sampling-epa",
       "spearman-scipy",
       "sampling-ru",
-      "spearman-ru"
+      "spearman-ru",
+      "graphs-openstax",
+      "graphs-kfu-ru",
+      "gis-usgs",
+      "gis-foxford-ru"
     ]
   },
   {
@@ -1055,8 +1092,8 @@
       "ru": "SEEP и сравнение интересов сторон."
     },
     "explanation": {
-      "en": "Tourism has changed with income, paid leave, transport and online booking, but demand can fall through shocks. Mass tourism describes large-scale standardised travel; medical tourism involves treatment; adventure tourism involves challenging activities; dark tourism concerns places associated with death or suffering. Ecotourism requires more than visiting nature: conservation, interpretation and local benefits matter. Voluntourism combines travel and volunteering, but an unskilled short visit may displace local work or make vulnerable people into attractions. Compare impacts at a stated place and scale: jobs may be seasonal, spending may leak to foreign firms, and infrastructure can benefit residents or divert scarce water. Ethical evaluation asks who consents, who controls representation and who receives income. Management can include visitor limits, zoning, trained local guides, fair employment and monitoring. A cap may protect habitat while reducing short-term income; judge the trade-off with evidence.",
-      "ru": "Рост доходов, оплачиваемый отпуск, транспорт и онлайн-бронирование меняли туризм, но кризисы могут сокращать поток. Массовый туризм связан с большим масштабом и стандартизированными поездками, медицинский — с лечением, приключенческий — со сложными активностями. Thanatourism связан с местами смерти и страдания. Для экотуризма недостаточно просто приехать на природу: нужны охрана, просвещение и польза местным жителям. Волонтёрский туризм сочетает поездку и помощь, но короткий визит без навыков может вытеснять местную работу или превращать уязвимых людей в достопримечательность. Указывай место и масштаб последствий: работа бывает сезонной, прибыль уходит внешним компаниям, инфраструктура может помогать жителям или отбирать воду. Этика требует согласия, уважительного представления и справедливого распределения доходов. Ограничения числа посетителей, зонирование, местные гиды и контроль труда помогают управлению, но имеют цену."
+      "en": "Tourism has changed with income, paid leave, transport and online booking, but demand can fall through shocks. Mass tourism describes large-scale standardised travel; medical tourism involves treatment; adventure tourism involves challenging activities; dark tourism concerns visits to places associated with death or suffering. Thanatourism is a narrower, motivation-based concept: the encounter with death is a reason for travel, rather than simply one stop on a mixed itinerary. Ecotourism requires more than visiting nature: conservation, interpretation and local benefits matter. Voluntourism combines travel and volunteering, but an unskilled short visit may displace local work or make vulnerable people into attractions. Compare impacts at a stated place and scale: jobs may be seasonal, spending may leak to foreign firms, and infrastructure can benefit residents or divert scarce water. Ethical evaluation asks who consents, who controls representation and who receives income. Management can include visitor limits, zoning, trained local guides, fair employment and monitoring. A cap may protect habitat while reducing short-term income; judge the trade-off with evidence.",
+      "ru": "Рост доходов, оплачиваемый отпуск, транспорт и онлайн-бронирование меняли туризм, но кризисы могут сокращать поток. Массовый туризм связан с большим масштабом и стандартизированными поездками, медицинский — с лечением, приключенческий — со сложными активностями. Мрачный туризм (dark tourism) связан с посещением мест смерти или страдания. Танатотуризм (thanatourism) — более узкое понятие, в котором встреча с темой смерти служит мотивом поездки: это не то же самое, что один мемориал среди разных остановок маршрута. Для экотуризма недостаточно просто приехать на природу: нужны охрана, просвещение и польза местным жителям. Волонтёрский туризм сочетает поездку и помощь, но короткий визит без навыков может вытеснять местную работу или превращать уязвимых людей в достопримечательность. Указывай место и масштаб последствий: работа бывает сезонной, прибыль уходит внешним компаниям, инфраструктура может помогать жителям или отбирать воду. Этика требует согласия, уважительного представления и справедливого распределения доходов. Ограничения числа посетителей, зонирование, местные гиды и контроль труда помогают управлению, но имеют цену."
     },
     "worked": {
       "en": "Invented island: a cap cuts visits from 1000 to 800 per day; local spending rises from 40 to 55 units per visitor. Daily local spending changes from 40,000 to 44,000 units. Fewer visitors need not reduce that measure, but it says nothing alone about profit, job distribution or habitat recovery.",
@@ -1091,7 +1128,7 @@
         [
           {
             "en": "Dark",
-            "ru": "Мемориальный"
+            "ru": "Мрачный (dark tourism)"
           },
           {
             "en": "Respect and interpretation",
@@ -1120,8 +1157,8 @@
         ]
       ],
       "caption": {
-        "en": "Use the named cases in the linked library; this comparison is an authored framework.",
-        "ru": "Именованные кейсы находятся в библиотеке; здесь авторская схема сравнения."
+        "en": "The linked Baikal lesson supplies a named, dated supplemental case; this table is an authored comparison framework.",
+        "ru": "В уроке о Байкале — именованный датированный дополнительный кейс. Эта таблица — авторская схема сравнения."
       }
     },
     "practice": [
@@ -1154,6 +1191,13 @@
         "title": {
           "en": "Named tourism cases and Butler model",
           "ru": "Именованные кейсы и модель Батлера"
+        }
+      },
+      {
+        "route": "/grade9/g-baikal-tourism",
+        "title": {
+          "en": "Lake Baikal: a dated, sourced case",
+          "ru": "Байкал: датированный кейс с источниками"
         }
       }
     ],
@@ -2989,7 +3033,8 @@
     ],
     "sources": [
       "arabic-en",
-      "arabic-ru"
+      "arabic-ru",
+      "arabic-pronouns-ru"
     ]
   },
   {
@@ -3386,6 +3431,313 @@
       "carbon-nobel",
       "carbon-msu-lecture",
       "carbon-zhukov"
+    ]
+  },
+  {
+    "id": "g-climate-evidence",
+    "subject": "geography",
+    "scope": "school-g 9",
+    "title": {
+      "en": "Climate evidence: distinguish a record from a cause",
+      "ru": "Доказательства изменений климата: запись и причина"
+    },
+    "objective": {
+      "en": "Interpret a natural climate archive, compare forcing timescales and test an attribution claim.",
+      "ru": "Истолкуй природный архив, сопоставь масштабы времени и проверь объяснение причины."
+    },
+    "prerequisites": {
+      "en": "Weather versus climate; greenhouse effect; percentage change and axes with units.",
+      "ru": "Погода и климат, парниковый эффект, изменение в процентах и подписи осей."
+    },
+    "explanation": {
+      "en": "A proxy is an indirect indicator: a measured property related to a past climate variable. The width of a tree ring can respond to growing-season temperature, but moisture and local conditions also matter. Ice contains several different records. Isotope ratios in the ice help reconstruct past temperature; trapped air bubbles preserve samples of past atmospheric gases. These are different measurements, so a gas-concentration curve is not itself a thermometer. Dating, calibration, seasonal bias and uneven geographical coverage limit the interpretation. Compare independently dated records rather than trusting one curve.\n\nA proposed cause must also match the timescale and mechanism. Milankovitch cycles change orbital shape, axial tilt and precession, redistributing sunlight over seasons and latitudes on very long timescales. Solar activity varies on an approximately 11-year cycle. Large explosive eruptions can put sulfur dioxide into the stratosphere, where sulfate aerosols form and reflect sunlight; the 1991 Pinatubo eruption produced temporary global surface cooling. Those short cooling episodes and slow orbital changes do not explain recent sustained global warming. Human greenhouse gas emissions alter the atmosphere’s handling of outgoing infrared radiation. Natural variability still changes individual years and regions: a cold year alone does not refute a long-term trend.",
+      "ru": "Прокси — косвенный показатель: мы измеряем свойство природного объекта и связываем его с климатическим параметром прошлого. Ширина годичного кольца может отражать температуру сезона роста, но зависит и от влаги. Во льду хранятся разные записи: изотопный состав помогает восстановить температуру, а пузырьки воздуха — состав прежней атмосферы. Концентрация газа сама по себе не является показанием термометра. Проверяй датировку, способ калибровки, сезонность и распределение точек по территории. Сопоставление разных архивов надёжнее вывода по одной кривой.\n\nОбъяснение причины должно подходить по механизму и времени. Циклы Миланковича меняют форму орбиты, наклон и направление оси; перераспределение солнечной энергии действует на длительных масштабах. У солнечной активности есть примерно 11-летний цикл. Крупное извержение может забросить SO₂ в стратосферу: образующиеся сульфатные аэрозоли отражают свет. Пинатубо в 1991 году вызвал временное глобальное охлаждение поверхности. Краткий холодный эпизод и медленное изменение орбиты не объясняют устойчивого потепления последних десятилетий. Выбросы парниковых газов человеком меняют перенос уходящего инфракрасного излучения. При этом природная изменчивость продолжает влиять на отдельные годы и регионы: один холодный год не опровергает долговременный тренд."
+    },
+    "worked": {
+      "en": "Invented ring widths are 0.8 mm and 1.2 mm. The change is(1.2−0.8)/0.8×100%=50%. This is a 50% change in ring width, not a 50% rise in temperature. A temperature estimate needs a calibrated relation, comparable sites and an account of moisture. If a second archive suggests cooling at the same nominal date, first test age uncertainty, season and location before claiming one record is false.",
+      "ru": "Учебные значения ширины кольца:0,8 и 1,2 мм. Изменение равно(1,2−0,8)/0,8×100%=50%. Это рост ширины кольца на 50%, а не температуры на 50%. Для температуры нужна калибровочная зависимость и проверка влаги и местных условий. Если другой архив для той же примерной даты показывает похолодание, сначала сопоставь погрешность датировки, сезон и место; расхождение ещё не делает один источник ложным."
+    },
+    "misconception": {
+      "en": "Evidence that climate changed naturally in the past does not establish the cause of a present change. A temperature reconstruction and an explanation of its cause answer different questions.",
+      "ru": "Из того, что климат когда-то менялся естественно, не следует естественная причина любого нынешнего изменения. Восстановить температуру и установить причину её изменения — разные задачи."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Record",
+          "ru": "Архив"
+        },
+        {
+          "en": "Measured property",
+          "ru": "Что измеряют"
+        },
+        {
+          "en": "Interpretation check",
+          "ru": "Что проверить"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Tree ring",
+            "ru": "Годичное кольцо"
+          },
+          {
+            "en": "Width or density",
+            "ru": "Ширина или плотность"
+          },
+          {
+            "en": "Season, moisture and calibration",
+            "ru": "Сезон, влагу и калибровку"
+          }
+        ],
+        [
+          {
+            "en": "Ice",
+            "ru": "Лёд"
+          },
+          {
+            "en": "Stable-isotope ratio",
+            "ru": "Отношение стабильных изотопов"
+          },
+          {
+            "en": "Dating and temperature relation",
+            "ru": "Датировку и связь с температурой"
+          }
+        ],
+        [
+          {
+            "en": "Air bubbles in ice",
+            "ru": "Пузырьки во льду"
+          },
+          {
+            "en": "Gas concentrations",
+            "ru": "Концентрации газов"
+          },
+          {
+            "en": "Atmospheric composition, not direct temperature",
+            "ru": "Состав атмосферы, а не прямую температуру"
+          }
+        ],
+        [
+          {
+            "en": "Volcanic layers",
+            "ru": "Вулканические слои"
+          },
+          {
+            "en": "Sulfate evidence",
+            "ru": "Следы сульфатов"
+          },
+          {
+            "en": "Event timing and a separate temperature record",
+            "ru": "Время события и отдельный температурный ряд"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "An authored interpretation guide; it contains no new measured climate series.",
+        "ru": "Авторская схема чтения архивов; измеренного климатического ряда здесь нет."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-climate-evidence-1",
+        "prompt": {
+          "en": "Invented ring widths fall from 1.5 mm to 1.2 mm. Calculate the change and explain why it cannot directly give a temperature change in°C.",
+          "ru": "Ширина учебных колец уменьшилась с 1,5 до 1,2 мм. Найди изменение и объясни, почему из него нельзя сразу получить изменение температуры в°C."
+        },
+        "answer": {
+          "en": "(1.2−1.5)/1.5×100%=−20%. Width is measured inmm. Converting it to°C requires a calibrated relation and controls for moisture and site; a percentage change in width is not a temperature percentage.",
+          "ru": "(1,2−1,5)/1,5×100%=−20%. Единица ширины — миллиметр. Для перехода к°C нужна калибровка с учётом влаги и места. Процент изменения ширины не равен проценту изменения температуры."
+        }
+      },
+      {
+        "id": "g-climate-evidence-2",
+        "prompt": {
+          "en": "A student uses a temporary cooling after a volcanic eruption to deny a multi-decade warming trend. Identify the comparison error and name the mechanism.",
+          "ru": "Ученик отрицает потепление за несколько десятилетий, ссылаясь на краткое похолодание после извержения. В чём ошибка сравнения и каков механизм?"
+        },
+        "answer": {
+          "en": "A short perturbation can lie within a longer warming trend. Stratospheric sulfate aerosols reflect incoming sunlight and can temporarily cool the surface. Compare equal periods and suitable spatial averages; the existence of this mechanism does not remove greenhouse forcing.",
+          "ru": "Краткое возмущение может происходить внутри длительного тренда потепления. Сульфатные аэрозоли в стратосфере отражают приходящий свет и могут временно охлаждать поверхность. Сопоставляй одинаковые периоды и подходящее пространственное усреднение; этот механизм не устраняет парникового воздействия."
+        }
+      },
+      {
+        "id": "g-climate-evidence-3",
+        "prompt": {
+          "en": "A gas curve from ice and a local tree-ring curve differ. Give two checks before judging whether they contradict each other.",
+          "ru": "Кривая концентрации газа во льду отличается от местного ряда древесных колец. Назови две проверки перед выводом о противоречии."
+        },
+        "answer": {
+          "en": "Check what each measures, its dating uncertainty, seasonal sensitivity and geographical meaning. Gas concentration and local growing-season temperature need not have identical curves. Use independent calibration and additional archives before attribution.",
+          "ru": "Проверь измеряемую величину, неопределённость датировки, сезонную чувствительность и территорию. Концентрация газа и температура местного сезона роста не обязаны иметь одинаковые кривые. Для объяснения причины нужны независимая калибровка и другие архивы."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/geography/atmospheric-hazards",
+        "title": {
+          "en": "Circulation, ENSO and climate library",
+          "ru": "Библиотека: циркуляция, ЭНЮК и климат"
+        }
+      }
+    ],
+    "sources": [
+      "climate-nasa-evidence",
+      "climate-nasa-orbital",
+      "climate-nasa-volcano",
+      "climate-ekaykin-ru",
+      "climate-nasa-solar"
+    ]
+  },
+  {
+    "id": "g-baikal-tourism",
+    "subject": "geography",
+    "scope": "school-g9",
+    "title": {
+      "en": "Lake Baikal: evaluate tourism with dated evidence",
+      "ru": "Байкал: оценка туризма по датированным данным"
+    },
+    "objective": {
+      "en": "Use a named place to weigh environmental, economic, social and political trade-offs, separating observations from a management proposal.",
+      "ru": "На примере конкретного места сопоставь экологические, экономические, социальные и политические последствия; отличай наблюдение от предложения."
+    },
+    "prerequisites": {
+      "en": "Tourism types, SEEP, sampling and correlation versus cause.",
+      "ru": "Виды туризма, SEEP, выборка и различие связи и причины."
+    },
+    "explanation": {
+      "en": "This is an authored supplemental case for the school’s named-tourism-case objective; the school’s choice of case is unconfirmed. Lake Baikal is in Russia. UNESCO decision 47 COM 7B.26 (2025), paragraphs 3–4, identified pollution and tourism infrastructure among pressures and requested wastewater action. This is a dated assessment and request, not proof that the requested work was completed. A study published on 30 August 2024, based on September 2022 sampling, reported local water-quality problems but no exceedance of the tested safety indicators at its remote pelagic controls. Keep publication date, sampling date, location and tested indicators together. Do not turn a local result into a claim about every part of the lake.\n\nFor an independent Russian research perspective, the Limnological Institute’s 1–10 August 2024 expedition report describes upstream, discharge, downstream and distant control stations. These comparisons help investigate wastewater pathways; they do not isolate the share caused by visitors rather than residents or other activities. A tourism evaluation therefore needs several kinds of evidence. Consider local employment and retained income (economic), residents’ access and fair treatment (social), habitat and wastewater indicators (environmental), and responsibility, enforcement and funding (political). These are evaluation questions, not measured outcomes supplied by this lesson. A visitor cap alone does not repair a treatment plant. A new plant alone does not establish fair access or enforceable visitor behaviour. Judge a combined proposal against a stated baseline and follow-up period.",
+      "ru": "Это дополнительный авторский кейс к школьной цели «именованный пример туризма». Какой именно пример выбрала школа, неизвестно. Байкал находится в России. В решении ЮНЕСКО 47 COM 7B.26 за 2025 год, пункты 3–4, загрязнение и туристическая инфраструктура названы среди нагрузок; запрошены меры против сточных вод. Запрос ещё не означает выполнения работ. В исследовании, опубликованном 30 августа 2024 года по пробам сентября 2022 года, описаны локальные проблемы качества воды; на удалённых пелагических контрольных станциях превышений проверенных показателей безопасности не обнаружили. Сохраняй дату проб, место и перечень измерений. Локальный результат нельзя переносить на всё озеро.\n\nСамостоятельный русский источник — отчёт Лимнологического института об экспедиции 1–10 августа 2024 года. Пробы брали выше сброса, в трубе, ниже сброса и на удалённых контрольных станциях. Такая схема помогает изучать распространение стоков, но сама не отделяет вклад туристов от вклада жителей и других источников. Поэтому оценка туризма требует разных данных. Экономическая сторона — местная занятость и остающийся в районе доход; социальная — доступ жителей и справедливые условия; экологическая — местообитания и качество стоков; политическая — ответственные, контроль и финансирование. Это вопросы исследования, а не установленные здесь результаты. Один лимит туристов не чинит очистные сооружения. Одни новые сооружения не обеспечивают справедливый доступ и соблюдение правил. Оценивай сочетание мер относительно исходного состояния и за указанный срок."
+    },
+    "worked": {
+      "en": "An invented monitoring exercise compares a visitor cap plus wastewater upgrade with the previous year. Local survey income rises from 200 to 220 units: (220 − 200)/200 × 100% = 10%. This is neither actual Baikal data nor proof of the policy’s effect. Check inflation, survey coverage, season, visitor mix and other changes. Water samples should use comparable sites, methods and dates. Report income and environmental results separately before a combined judgement.",
+      "ru": "В учебном, вымышленном наблюдении после лимита и модернизации местный доход в опросе вырос с 200 до 220 единиц: (220 − 200)/200 × 100% = 10%. Это не реальные данные Байкала и не доказательство эффекта мер. Проверь инфляцию, состав опрошенных, сезон, тип посетителей и другие изменения. Пробы воды должны быть сопоставимы по местам, методам и датам. Сначала отдельно сообщи об экономике и природе, затем сделай общий вывод."
+    },
+    "misconception": {
+      "en": "A UNESCO request is not a completed intervention. Remote clean controls do not cancel local pollution; local pollution does not establish that the whole lake failed every standard.",
+      "ru": "Требование ЮНЕСКО не равно завершённому проекту. Чистые удалённые контрольные точки не отменяют местного загрязнения; местное загрязнение не доказывает превышений повсюду."
+    },
+    "model": {
+      "headers": [
+        {
+          "en": "Evidence",
+          "ru": "Данные"
+        },
+        {
+          "en": "What it can establish",
+          "ru": "Что можно установить"
+        },
+        {
+          "en": "Limit",
+          "ru": "Ограничение"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "2025 UNESCO decision",
+            "ru": "Решение ЮНЕСКО 2025 года"
+          },
+          {
+            "en": "Dated assessment and requested actions",
+            "ru": "Оценка и запрошенные меры"
+          },
+          {
+            "en": "Not a completion report",
+            "ru": "Не отчёт о завершении"
+          }
+        ],
+        [
+          {
+            "en": "2022 samples, 2024 paper",
+            "ru": "Пробы 2022 года, статья 2024 года"
+          },
+          {
+            "en": "Results for sampled places and indicators",
+            "ru": "Результаты в изученных местах"
+          },
+          {
+            "en": "Not a current whole-lake survey",
+            "ru": "Не сегодняшняя оценка всего озера"
+          }
+        ],
+        [
+          {
+            "en": "August 2024 expedition design",
+            "ru": "Схема экспедиции августа 2024 года"
+          },
+          {
+            "en": "Spatial comparison around discharges",
+            "ru": "Сопоставление точек вокруг сбросов"
+          },
+          {
+            "en": "Not a tourism-only causal estimate",
+            "ru": "Не оценка только вклада туризма"
+          }
+        ]
+      ],
+      "caption": {
+        "en": "Dated primary records and their limits; proposed evaluation criteria are authored.",
+        "ru": "Датированные первичные материалы и их ограничения; критерии оценки предложены автором."
+      }
+    },
+    "practice": [
+      {
+        "id": "g-baikal-tourism-1",
+        "prompt": {
+          "en": "A student writes: “UNESCO requested wastewater measures in 2025, so Baikal’s sewage problem is solved.” Explain the missing evidence.",
+          "ru": "Ученик пишет: «ЮНЕСКО запросила меры в 2025 году, значит проблема стоков решена». Каких данных не хватает?"
+        },
+        "answer": {
+          "en": "A request establishes what was asked. Completion needs dated operational evidence, coverage and independently comparable monitoring; even construction completion alone does not prove effective treatment.",
+          "ru": "Запрос показывает, что потребовали. Нужны датированные данные о работающих сооружениях, охвате и сопоставимых независимых измерениях. Завершение строительства само по себе ещё не доказывает качественной очистки."
+        }
+      },
+      {
+        "id": "g-baikal-tourism-2",
+        "prompt": {
+          "en": "For the invented income figures, calculate the change. Then propose one environmental measure and one fairness check before recommending the policy.",
+          "ru": "Вычисли изменение учебного дохода. Предложи экологический показатель и проверку справедливости перед рекомендацией мер."
+        },
+        "answer": {
+          "en": "The rise is 10% relative to 200. Compare an explicitly chosen wastewater or habitat indicator at matched sites and seasons. Check who gains or loses income and residents’ access, not only the average. State uncertainty and a review date.",
+          "ru": "Рост — 10% от исходных 200. Сопоставь выбранный показатель стоков или местообитаний в одинаковых точках и сезонах. Проверь, кому достались доходы и потери и сохранился ли доступ жителей, а не только среднее. Укажи неопределённость и дату пересмотра."
+        }
+      },
+      {
+        "id": "g-baikal-tourism-3",
+        "prompt": {
+          "en": "Why do upstream, downstream and remote stations improve an investigation, and why do they still not identify all tourism effects?",
+          "ru": "Зачем нужны точки выше и ниже сброса и удалённые станции? Почему они всё равно не выявляют все последствия туризма?"
+        },
+        "answer": {
+          "en": "They provide spatial contrasts around a possible pollution pathway. Differences may still reflect other discharges, tributaries, flows, season and site selection. Isolating a visitor contribution needs additional source and activity data; social and economic effects require other methods.",
+          "ru": "Они дают пространственное сравнение вокруг возможного пути загрязнения. Различия могут зависеть от других сбросов, притоков, расхода, сезона и выбора мест. Чтобы выделить вклад посетителей, нужны данные об источниках и деятельности; социальные и экономические последствия изучают другими методами."
+        }
+      }
+    ],
+    "links": [
+      {
+        "route": "/grade9/g-tourism",
+        "title": {
+          "en": "Tourism concepts and ethical trade-offs",
+          "ru": "Понятия туризма и этические компромиссы"
+        }
+      },
+      {
+        "route": "/geography/fieldwork",
+        "title": {
+          "en": "Sampling and evaluation library",
+          "ru": "Библиотека: выборка и оценка"
+        }
+      }
+    ],
+    "sources": [
+      "baikal-unesco-2025",
+      "baikal-study-2024",
+      "baikal-expedition-ru-2024"
     ]
   }
 ]

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { RichText } from '../../../components/content/RichText';
 import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { geographyReviews } from '../../../definitions/geographyReviews';
@@ -116,6 +117,7 @@ export function AtmosphericHazardsPage() {
         <p>{t('atmosphericHazards.sections.climateChange.adaptation')}</p>
       </div>
 
+      <p className="my-4"><Link className="underline" to="/grade9/g-climate-evidence">{l('Interpret climate archives and test a causal claim →', 'Разбери климатические архивы и проверь объяснение причины →')}</Link></p>
       <SectionHeading>{l('Active recall', 'Активное повторение')}</SectionHeading>
       <div className="space-y-3">
         <ActiveRecallBlock

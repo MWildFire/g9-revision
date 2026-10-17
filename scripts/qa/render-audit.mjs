@@ -123,11 +123,11 @@ try {
             try {
               for (let y=0;y<dimensions.height;y+=1200) {
                 const height=Math.min(1400,dimensions.height-y),file=`${stem}-y${y}.png`;
-                const shot=await cdp.send('Page.captureScreenshot',{format:'png',captureBeyondViewport:true,clip:{x:0,y,width:dimensions.width,height,scale:1}});
+                const shot=await withDeadline(() => cdp.send('Page.captureScreenshot',{format:'png',captureBeyondViewport:true,clip:{x:0,y,width:dimensions.width,height,scale:1}}),'tile_capture',30000);
                 fs.writeFileSync(path.join(outDir,file),Buffer.from(shot.data,'base64'));
                 tiles.push({file,x:0,y,width:dimensions.width,height});
               }
-            } finally { await cdp.detach(); }
+            } finally { await withDeadline(() => cdp.detach(),'tile_session_detach'); }
             fs.writeFileSync(path.join(outDir,`${stem}-tiles.json`),JSON.stringify({build:identity,lang,view:label,route,dimensions,tiles},null,2)+'\n');
           } else await page.screenshot({ path:path.join(outDir, `${stem}.png`), fullPage:true });
           await page.screenshot({ path:path.join(outDir, `${stem}-viewport.png`) });

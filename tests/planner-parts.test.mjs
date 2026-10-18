@@ -5,7 +5,7 @@ import {blockIsComplete,completedSessionDates,dayMinutes,dueReviews,loadStudySta
 const read=p=>JSON.parse(fs.readFileSync(p));
 const plan=read('src/data/revision-plan.json'),old=read('tests/fixtures/plan-skeleton.json');
 const portions=[...read('src/data/additional-practice-portions.json'),...read('src/data/english-school-practice-portions.json')];
-const blocks=plan.days.flatMap(d=>d.blocks).filter(b=>b.parts?.length),parts=blocks.flatMap(b=>b.parts);
+const blocks=plan.days.flatMap(d=>d.blocks).filter(b=>b.parts?.some(p=>portions.some(s=>s.id===p.sessionId))),parts=blocks.flatMap(b=>b.parts);
 const sessionParts=id=>parts.filter(p=>p.sessionId===id);
 const toggleAll=(state,rows,date)=>rows.reduce((s,p)=>togglePlanPart(plan.days,s,p.id,date),state);
 
@@ -83,4 +83,32 @@ test('reading and a final check out of order do not invent study, mastery or ret
  state.completed['study:school-script-transfer-practice']='2026-11-06';
  state=togglePlanPart(plan.days,state,rows[0].id,'2026-11-06');assert.equal(state.completed['study:school-script-transfer-practice'],'2026-11-06');
  assert.deepEqual(state.diagnostics,undefined);assert.deepEqual(state.confidence,{});
+});
+
+test('two known ability checks occupy existing subject budgets without silently completing displaced cores',()=>{
+ const geo=plan.days.find(d=>d.date==='2026-10-19').blocks.find(b=>b.id==='study:g-tectonics-core');
+ const science=plan.days.find(d=>d.date==='2026-10-25').blocks.find(b=>b.id==='study:s-c-core');
+ assert.equal(geo.parts.reduce((n,p)=>n+partMinutes(p),0),35);assert.equal(science.parts.reduce((n,p)=>n+partMinutes(p),0),30);
+ const divergent=geo.parts.filter(p=>p.sessionId==='geo-geo-tect-02-practice'),spring=science.parts.filter(p=>p.sessionId==='diagnostic-spring-energy-diagnostic');
+ assert.equal(divergent.reduce((n,p)=>n+partMinutes(p),0),25);assert.equal(spring.reduce((n,p)=>n+partMinutes(p),0),25);
+ assert.deepEqual(divergent.find(p=>p.phaseMinutes.attempt).practiceIds,['constructive-q2']);assert.deepEqual(spring.find(p=>p.phaseMinutes.attempt).practiceIds,['spring-energy-diagnostic']);
+ let state=toggleAll(loadStudyState(null),[...geo.parts,...science.parts],'2026-10-25');
+ assert.equal(state.completed['study:geo-geo-tect-02-practice'],'2026-10-25');assert.equal(state.completed['study:diagnostic-spring-energy-diagnostic'],'2026-10-25');
+ assert.equal(state.completed['study:g-tectonics-core'],undefined);assert.equal(state.completed['study:s-c-core'],undefined);
+ assert.equal(state.completed['study:s-c/analyse'],undefined);assert.equal(state.diagnostics,undefined);
+});
+
+test('case attempt9/check5 reuses existing recall, stays in backlog and cannot offer a second generic recall',()=>{
+ const days=plan.days.filter(d=>d.recallParts?.length),rows=days.flatMap(d=>d.recallParts);
+ assert.deepEqual(days.map(d=>[d.date,d.recall]),[['2026-11-02',5],['2026-11-03',5],['2026-11-04',5]]);
+ assert.equal(rows.reduce((n,p)=>n+(p.phaseMinutes.attempt??0),0),9);assert.equal(rows.reduce((n,p)=>n+(p.phaseMinutes.check??0),0),5);
+ assert.ok(rows.every(p=>p.recordStudy===false&&p.practiceIds[0]==='vulnerability'));
+ let state=loadStudyState(null);state.completed['study:g-tectonics-core']='2026-10-19';state.completed['study:c-atoms-core']='2026-10-19';
+ const topic={...plan.topics.find(t=>t.id==='c-atoms'),id:'c-atoms-core'};
+ for(const day of days)assert.ok(dueReviews(plan.days,[topic],state,day.date).every(r=>!r.due));
+ assert.equal(remainingPastBlocks(plan.days,state,'2026-11-05').flatMap(r=>r.block.parts??[]).filter(p=>rows.some(x=>x.id===p.id)).length,3);
+ state=toggleAll(state,rows,'2026-11-05');assert.equal(state.completed['study:g-tectonics-core'],'2026-10-19');
+ state=togglePlanPart(plan.days,state,rows[0].id,'2026-11-05');
+ assert.equal(remainingPastBlocks(plan.days,state,'2026-11-06').flatMap(r=>r.block.parts??[]).filter(p=>rows.some(x=>x.id===p.id)).length,1);
+ assert.equal(state.diagnostics,undefined);
 });

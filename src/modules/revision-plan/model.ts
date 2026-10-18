@@ -1,8 +1,8 @@
 export type Text = { en: string; ru: string };
-export type PlanPart = { id:string; sessionId:string; title:Text; phaseMinutes:Partial<Record<'read'|'example'|'attempt'|'check',number>>; practiceIds:string[]; route:string; instruction:Text };
+export type PlanPart = { id:string; sessionId:string; title:Text; phaseMinutes:Partial<Record<'read'|'example'|'attempt'|'check',number>>; practiceIds:string[]; route:string; instruction:Text; recordStudy?:boolean };
 export type Topic = { id: string; subject: string; title: Text; route: string; source: string; optional?: boolean; parentTopic?:string };
 export type Block = { id: string; minutes: number; topics: string[]; task: Text; lesson?: boolean; paper?: string; optional?: boolean; sessions?: string[]; paperQuestions?:string[]; reported?:boolean; flexible?:boolean; replacementSession?:string; recallPurpose?:boolean; parts?:PlanPart[]; capacityMinutes?:number };
-export type Day = { date: string; phase: string; title: Text; blocks: Block[]; recall: number; note?: Text; rest?: boolean };
+export type Day = { date: string; phase: string; title: Text; blocks: Block[]; recall: number; note?: Text; rest?: boolean; recallParts?:PlanPart[] };
 export type Confidence = 'red' | 'amber' | 'green';
 export type Diagnostic = { date:string; questionId:string; topicId:string; sessionId?:string; outcome:'retry'|'secure'; evidence:string };
 export type PlanState = { completed: Record<string, string>; confidence: Record<string, Confidence>; arabic: boolean; notes: string; reportedSeeded?:boolean; diagnostics?:Record<string,Diagnostic>; replacements?:Record<string,string>; scienceContext?:'biology'|'chemistry'|'physics' };
@@ -72,11 +72,13 @@ export const blockIsComplete=(block:Block,state:PlanState)=>block.parts?.length?
 // Parts are explicit work records. A historic whole-block tick never seeds them.
 // Keep provenance for the one derived study date so undo restores independent history.
 export function togglePlanPart(days:Day[],state:PlanState,partId:string,today:string):PlanState{
- const parts=days.flatMap(d=>d.blocks.flatMap(b=>b.parts??[])),part=parts.find(p=>p.id===partId);
+ const parts=days.flatMap(d=>[...d.blocks.flatMap(b=>b.parts??[]),...d.recallParts??[]]),part=parts.find(p=>p.id===partId);
  if(!part||!validDate(today))return state;
  const completed={...state.completed},key=partCompletionKey(part),study=`study:${part.sessionId}`,owned=`plan-derived-study:${part.sessionId}`,prior=`plan-prior-study:${part.sessionId}`;
  if(completed[key])delete completed[key];else completed[key]=today;
- const dates=parts.filter(p=>p.sessionId===part.sessionId).map(p=>completed[partCompletionKey(p)]);
+ // A reference-only slice or reused diagnostic never completes its old full core.
+ if(part.recordStudy===false)return {...state,completed};
+ const dates=parts.filter(p=>p.sessionId===part.sessionId&&p.recordStudy!==false).map(p=>completed[partCompletionKey(p)]);
  const complete=dates.every(date=>!!date&&date<=today);
  if(complete){
   const latest=dates.sort().at(-1)!;
@@ -130,7 +132,8 @@ export function dueReviews(days: Day[], topics: Topic[], state: PlanState, today
   const subject=topic.subject==='skills'?state.scienceContext:topic.subject,exam=subject?SUBJECT_EXAMS[subject]:undefined;
   const dates=[...new Set(proposed)].filter(date=>(!exam||date<exam)&&!(state.completed[`review:${reviewId}:${date}`]&&state.completed[`review:${reviewId}:${date}`]<=today));
   const subjectRecap=!!day&&activeBlocks(day,state.arabic).some(b=>b.minutes>0&&(today>=FIRST_EXAM||b.recallPurpose)&&b.topics.some(id=>topics.find(t=>t.id===id)?.subject===subject));
-  const allocated=!!day&&!day.rest&&!saturday&&(day.recall>0||subjectRecap),overdue=dates.some(date=>date<=today);
+  // Named recall stages consume that existing slot, including its small buffer.
+  const allocated=!!day&&!day.rest&&!saturday&&((day.recall>0&&!day.recallParts?.length)||subjectRecap),overdue=dates.some(date=>date<=today);
   const due=overdue&&allocated&&!!exam&&today<exam&&!state.completed[`retrieval:${reviewId}:${today}`];
   return dates.length?[{topic,reviewId,dates,due,overdue,deferred:overdue&&!due,examDate:exam,rating:diagnostic?'red' as const:recallPriority(topic,state),lastStudied:latest[topic.id],diagnostic}]:[];
  };
@@ -152,7 +155,7 @@ export function recordRetrieval(state:PlanState,id:string,dates:string[],today:s
 }
 export function remainingPastBlocks(days:Day[],state:PlanState,today:string){
  const done=completedSessionDates(days,state,today);
- return days.filter(d=>d.date<today).flatMap(day=>activeBlocks(day,state.arabic).flatMap(block=>{
+ return days.filter(d=>d.date<today).flatMap(day=>[...activeBlocks(day,state.arabic),...(day.recallParts?.length?[{id:`recall-parts:${day.date}`,minutes:day.recall,topics:[],task:day.title,parts:day.recallParts}]:[])].flatMap(block=>{
   if(block.parts?.length){const remaining=block.parts.filter(p=>!state.completed[partCompletionKey(p)]||state.completed[partCompletionKey(p)]>today);return remaining.length?[{date:day.date,block:{...block,parts:remaining,sessions:undefined}}]:[];}
   if(state.completed[block.id]&&state.completed[block.id]<=today)return [];
   if(block.sessions?.length){const remaining=block.sessions.filter(id=>!done[id]);return remaining.length?[{date:day.date,block:{...block,sessions:remaining}}]:[];}

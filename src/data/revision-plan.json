@@ -1172,9 +1172,127 @@
             "g-tectonics-core"
           ],
           "task": {
-            "en": "Tectonics and case-study arguments (Geography)",
-            "ru": "Тектоника и аргументация на конкретных примерах (география)"
-          }
+            "en": "Divergent boundary: read/model/independent question 2/check (25 min); Chile/Nepal case introduction and model (10 min). The existing 35 min budget is unchanged.",
+            "ru": "Дивергентная граница: объяснение, образец, самостоятельное задание 2 и сверка (25 мин); введение в случаи Чили/Непала и образец сравнения (10 мин). Прежнее окно 35 мин сохранено."
+          },
+          "parts": [
+            {
+              "id": "study:g-tectonics-core:geo-geo-tect-02-practice:read",
+              "sessionId": "geo-geo-tect-02-practice",
+              "title": {
+                "en": "Divergent boundary: movement, crust and hazards",
+                "ru": "Дивергентная граница: движение, кора и опасности"
+              },
+              "phaseMinutes": {
+                "read": 8
+              },
+              "practiceIds": [
+                "constructive-q1"
+              ],
+              "route": "/geography-tectonic-hazards/constructive",
+              "instruction": {
+                "en": "Read the constructive-boundary lesson; then use question 1 as the model.",
+                "ru": "Прочитай урок о дивергентных границах; затем используй задание 1 как образец."
+              }
+            },
+            {
+              "id": "study:g-tectonics-core:geo-geo-tect-02-practice:example",
+              "sessionId": "geo-geo-tect-02-practice",
+              "title": {
+                "en": "Divergent boundary: movement, crust and hazards",
+                "ru": "Дивергентная граница: движение, кора и опасности"
+              },
+              "phaseMinutes": {
+                "example": 5
+              },
+              "practiceIds": [
+                "constructive-q1"
+              ],
+              "route": "/geography-tectonic-hazards/constructive",
+              "instruction": {
+                "en": "Study question 1 and its marking points as the worked model.",
+                "ru": "Разбери задание 1 и его критерии ответа как образец."
+              }
+            },
+            {
+              "id": "study:g-tectonics-core:geo-geo-tect-02-practice:attempt",
+              "sessionId": "geo-geo-tect-02-practice",
+              "title": {
+                "en": "Divergent boundary: movement, crust and hazards",
+                "ru": "Дивергентная граница: движение, кора и опасности"
+              },
+              "phaseMinutes": {
+                "attempt": 8
+              },
+              "practiceIds": [
+                "constructive-q2"
+              ],
+              "route": "/geography-tectonic-hazards/constructive",
+              "instruction": {
+                "en": "Draw and explain question 2 independently. Question 3 is an alternative, not another assigned attempt.",
+                "ru": "Самостоятельно нарисуй и объясни схему в задании 2. Задание 3 — альтернатива, а не ещё одна обязательная попытка."
+              }
+            },
+            {
+              "id": "study:g-tectonics-core:geo-geo-tect-02-practice:check",
+              "sessionId": "geo-geo-tect-02-practice",
+              "title": {
+                "en": "Divergent boundary: movement, crust and hazards",
+                "ru": "Дивергентная граница: движение, кора и опасности"
+              },
+              "phaseMinutes": {
+                "check": 4
+              },
+              "practiceIds": [
+                "constructive-q2"
+              ],
+              "route": "/geography-tectonic-hazards/constructive",
+              "instruction": {
+                "en": "Check question 2 against its marking points; correct the process links and labels. Checking this stage does not mark all three questions secure.",
+                "ru": "Сверь задание 2 с критериями ответа; исправь подписи и причинные связи. Отметка этапа не означает успешное решение всех трёх заданий."
+              }
+            },
+            {
+              "id": "study:g-tectonics-core:existing-Chile-Nepal-case-context:read",
+              "sessionId": "g-tectonics-core",
+              "title": {
+                "en": "Chile and Nepal: case facts and comparison model",
+                "ru": "Чили и Непал: факты и образец сравнения"
+              },
+              "phaseMinutes": {
+                "read": 6
+              },
+              "practiceIds": [
+                "vulnerability"
+              ],
+              "route": "/november/g-tectonics?part=g-tectonics-core",
+              "instruction": {
+                "en": "Read the named Chile/Nepal case facts.",
+                "ru": "Прочитай факты о названных землетрясениях в Чили и Непале."
+              },
+              "recordStudy": false
+            },
+            {
+              "id": "study:g-tectonics-core:existing-Chile-Nepal-case-context:example",
+              "sessionId": "g-tectonics-core",
+              "title": {
+                "en": "Chile and Nepal: case facts and comparison model",
+                "ru": "Чили и Непал: факты и образец сравнения"
+              },
+              "phaseMinutes": {
+                "example": 4
+              },
+              "practiceIds": [
+                "vulnerability"
+              ],
+              "route": "/november/g-tectonics?part=g-tectonics-core",
+              "instruction": {
+                "en": "Study the vulnerability comparison model. Your independent comparison is assigned to the existing recall slots on 2–4 November. This is a focused case introduction, not completion of the whole tectonics lesson.",
+                "ru": "Разбери образец сравнения уязвимости. Самостоятельное сравнение выделено в существующих окнах повторения 2–4 ноября. Это введение в конкретные случаи, а не весь урок тектоники."
+              },
+              "recordStudy": false
+            }
+          ]
         }
       ],
       "recall": 5
@@ -1683,9 +1801,105 @@
             "s-c-core"
           ],
           "task": {
-            "en": "Criterion C: graph, analyse and evaluate (Scientific skills)",
-            "ru": "Критерий C (Criterion C): график, анализ и оценка (научные навыки)"
-          }
+            "en": "Spring-energy diagnostic (25 min) and selected Criterion C reference primer (5 min), within the original 30 min. The spring calculation is Criterion A; it does not replace experimental analysis.",
+            "ru": "Проверка энергии пружины (25 мин) и выбранный краткий материал критерия C (5 мин) в прежнем окне 30 мин. Расчёт пружины относится к критерию A; он не заменяет анализ эксперимента."
+          },
+          "parts": [
+            {
+              "id": "study:s-c-core:diagnostic-spring-energy-diagnostic:read",
+              "sessionId": "diagnostic-spring-energy-diagnostic",
+              "title": {
+                "en": "Spring graph: force, energy and model limit",
+                "ru": "График пружины: сила, энергия и границы модели"
+              },
+              "phaseMinutes": {
+                "read": 5
+              },
+              "practiceIds": [
+                "spring-energy-diagnostic"
+              ],
+              "route": "/november/p-energy?part=diagnostic-spring-energy-diagnostic",
+              "instruction": {
+                "en": "Read the selected explanation.",
+                "ru": "Прочитай указанное объяснение."
+              }
+            },
+            {
+              "id": "study:s-c-core:diagnostic-spring-energy-diagnostic:example",
+              "sessionId": "diagnostic-spring-energy-diagnostic",
+              "title": {
+                "en": "Spring graph: force, energy and model limit",
+                "ru": "График пружины: сила, энергия и границы модели"
+              },
+              "phaseMinutes": {
+                "example": 4
+              },
+              "practiceIds": [
+                "spring-energy-diagnostic"
+              ],
+              "route": "/november/p-energy?part=diagnostic-spring-energy-diagnostic",
+              "instruction": {
+                "en": "Study the indicated worked model.",
+                "ru": "Разбери указанный образец."
+              }
+            },
+            {
+              "id": "study:s-c-core:diagnostic-spring-energy-diagnostic:attempt",
+              "sessionId": "diagnostic-spring-energy-diagnostic",
+              "title": {
+                "en": "Spring graph: force, energy and model limit",
+                "ru": "График пружины: сила, энергия и границы модели"
+              },
+              "phaseMinutes": {
+                "attempt": 11
+              },
+              "practiceIds": [
+                "spring-energy-diagnostic"
+              ],
+              "route": "/november/p-energy?part=diagnostic-spring-energy-diagnostic",
+              "instruction": {
+                "en": "Attempt the selected question without help.",
+                "ru": "Выполни указанное задание без подсказок."
+              }
+            },
+            {
+              "id": "study:s-c-core:diagnostic-spring-energy-diagnostic:check",
+              "sessionId": "diagnostic-spring-energy-diagnostic",
+              "title": {
+                "en": "Spring graph: force, energy and model limit",
+                "ru": "График пружины: сила, энергия и границы модели"
+              },
+              "phaseMinutes": {
+                "check": 5
+              },
+              "practiceIds": [
+                "spring-energy-diagnostic"
+              ],
+              "route": "/november/p-energy?part=diagnostic-spring-energy-diagnostic",
+              "instruction": {
+                "en": "Compare with the checked answer and correct your reasoning.",
+                "ru": "Сверься с разбором и исправь рассуждение."
+              }
+            },
+            {
+              "id": "study:s-c-core:existing-C-evidence-primer:read",
+              "sessionId": "s-c-core",
+              "title": {
+                "en": "Evidence primer: measurements, spread and limitations",
+                "ru": "Краткий разбор: измерения, разброс и ограничения"
+              },
+              "phaseMinutes": {
+                "read": 5
+              },
+              "practiceIds": [],
+              "route": "/november/s-c?part=s-c-core",
+              "instruction": {
+                "en": "Read “From measurements to an argument” and “Limitation and improvement”: units, means/spread, graphs, claims, bias and causal limits. This five-minute reference slice does not complete the old enzyme-data question or the full Criterion C portion.",
+                "ru": "Прочитай разделы «От измерений к обоснованному выводу» и «Ограничение и улучшение»: единицы, среднее и разброс, графики, выводы, систематическое смещение и ограничения причинного вывода. Эти пять минут чтения не завершают старое задание с данными о ферменте или весь раздел критерия C."
+              },
+              "recordStudy": false
+            }
+          ]
         },
         {
           "id": "study:p-waves-core",
@@ -1702,7 +1916,11 @@
           }
         }
       ],
-      "recall": 5
+      "recall": 5,
+      "note": {
+        "en": "The original enzyme-data question remains unassessed unless actually attempted. Enzyme reasoning is retained in 19 October nutrition. Means/units/scatter/range bars and model limits are practised in 5 November Biology C; proportionality/uncertainty and targeted improvements in 6 November Physics C/Chemistry C; causal limits in 5 November Biology D. These existing paper attempts and checking budgets are unchanged; reading this primer or doing the spring calculation does not tick those tasks.",
+        "ru": "Старое задание с данными о ферменте остаётся непроверенным, пока ты действительно его не выполнишь. Объяснение работы фермента сохранено в теме питания 19 октября. Среднее, единицы, диаграмма рассеяния, интервалы разброса и границы модели проверяются в разделеC биологии 5 ноября; пропорциональность, неопределённость и улучшения метода — в разделахC физики и химии 6 ноября; ограничения причинного вывода — в разделеD биологии 5 ноября. Время этих работ и сверки не изменено; чтение краткого материала и расчёт пружины их не отмечают."
+      }
     },
     {
       "date": "2026-10-26",
@@ -2330,7 +2548,29 @@
           }
         }
       ],
-      "recall": 5
+      "recall": 5,
+      "recallParts": [
+        {
+          "id": "recall-parts:2026-11-02:vulnerability-case-comparison:attempt",
+          "sessionId": "g-tectonics-core",
+          "title": {
+            "en": "Chile and Nepal: independent case comparison",
+            "ru": "Чили и Непал: самостоятельное сравнение случаев"
+          },
+          "phaseMinutes": {
+            "attempt": 5
+          },
+          "practiceIds": [
+            "vulnerability"
+          ],
+          "route": "/november/g-tectonics?part=g-tectonics-core",
+          "instruction": {
+            "en": "Start a closed-book comparison of the two named cases (5 min). Save your draft in the existing vulnerability question.",
+            "ru": "Начни сравнение двух названных случаев без подсказок (5 мин). Сохрани черновик в существующем задании об уязвимости."
+          },
+          "recordStudy": false
+        }
+      ]
     },
     {
       "date": "2026-11-03",
@@ -2525,7 +2765,29 @@
       "note": {
         "en": "The former 25-minute reserve is now assigned to the named English stages (23 min work, 2 min buffer). It is not a second free catch-up window. Stop and reassess if the estimates do not fit; do not double tomorrow or use Saturday.",
         "ru": "Прежний резерв 25 мин распределён на указанные этапы английского (23 мин работы и 2 мин запаса). Это не ещё одно свободное окно для наверстывания. Если оценки времени не подходят, остановись и пересмотри приоритеты; не удваивай завтра и не занимай субботу."
-      }
+      },
+      "recallParts": [
+        {
+          "id": "recall-parts:2026-11-03:vulnerability-case-comparison:attempt",
+          "sessionId": "g-tectonics-core",
+          "title": {
+            "en": "Chile and Nepal: independent case comparison",
+            "ru": "Чили и Непал: самостоятельное сравнение случаев"
+          },
+          "phaseMinutes": {
+            "attempt": 4
+          },
+          "practiceIds": [
+            "vulnerability"
+          ],
+          "route": "/november/g-tectonics?part=g-tectonics-core",
+          "instruction": {
+            "en": "Continue the same draft for 4 min (9 min total independent work);1 min of this recall slot remains buffer.",
+            "ru": "Продолжи тот же черновик ещё4 мин (всего 9 мин самостоятельной работы);1 мин окна остаётся запасом."
+          },
+          "recordStudy": false
+        }
+      ]
     },
     {
       "date": "2026-11-04",
@@ -2700,7 +2962,29 @@
       "note": {
         "en": "The former 45-minute reserve is now assigned to the named English stages (40 min work, 5 min buffer). It is not a second free catch-up window. Stop and reassess if the estimates do not fit; do not double tomorrow or use Saturday.",
         "ru": "Прежний резерв 45 мин распределён на указанные этапы английского (40 мин работы и 5 мин запаса). Это не ещё одно свободное окно для наверстывания. Если оценки времени не подходят, остановись и пересмотри приоритеты; не удваивай завтра и не занимай субботу."
-      }
+      },
+      "recallParts": [
+        {
+          "id": "recall-parts:2026-11-04:vulnerability-case-comparison:check",
+          "sessionId": "g-tectonics-core",
+          "title": {
+            "en": "Chile and Nepal: independent case comparison",
+            "ru": "Чили и Непал: самостоятельное сравнение случаев"
+          },
+          "phaseMinutes": {
+            "check": 5
+          },
+          "practiceIds": [
+            "vulnerability"
+          ],
+          "route": "/november/g-tectonics?part=g-tectonics-core",
+          "instruction": {
+            "en": "Spend 5 min comparing the same response with the answer. Correct unsupported magnitude-only claims and use both case facts. Any unresolved error stays unassessed or needs a retry. This focused question does not complete the entire tectonics portion.",
+            "ru": "За 5 мин сверь тот же ответ с разбором. Исправь выводы, опирающиеся только на магнитуду, и используй факты обоих случаев. Неразобранные ошибки остаются непроверенными или требуют новой попытки. Это задание не завершает весь раздел тектоники."
+          },
+          "recordStudy": false
+        }
+      ]
     },
     {
       "date": "2026-11-05",
@@ -2742,8 +3026,8 @@
           "minutes": 20,
           "topics": [],
           "task": {
-            "en": "Self-mark; choose two errors to correct.",
-            "ru": "Проверь себя. Выбери две ошибки и исправь их."
+            "en": "Self-mark Biology:4 min each for B, C, A, D, then 4 min to begin correcting two specific errors. Longer unresolved corrections remain in the error log; this budget does not guarantee every error is fixed.",
+            "ru": "Проверь биологию: по 4 мин на B, C, A, D, затем 4 мин, чтобы начать исправление двух конкретных ошибок. Если нужно больше времени, ошибки остаются в журнале; это окно не гарантирует исправление всех ошибок."
           },
           "flexible": true
         }

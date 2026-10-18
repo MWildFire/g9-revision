@@ -1608,8 +1608,8 @@
           "englishTerm": "State symbols",
           "russianTerm": "Обозначения агрегатного состояния",
           "contrast": {
-            "en": "Do not confuse (l) with (aq). Water made in a reaction is written H₂O(l), even when the reaction takes place in solution.",
-            "ru": "Не путай (l) и (aq): вода, которая получается в реакции, записывается как H₂O(l), даже если реакция идёт в растворе."
+            "en": "Do not confuse (l) with (aq). When the product is liquid water, including water formed in an ordinary aqueous reaction, write H₂O(l), not H₂O(aq). If the stated conditions give water vapour, write H₂O(g).",
+            "ru": "Не путай (l) и (aq). Если продукт — жидкая вода, в том числе в обычной реакции в водном растворе, пиши H₂O(l), а не H₂O(aq). Если по условиям образуется водяной пар, пиши H₂O(g)."
           },
           "sources": [
             {
@@ -2318,7 +2318,7 @@
             }
           },
           "base": {
-            "name": "Acid + base → salt + water (no gas)",
+            "name": "Acid + basic metal oxide → salt + water (no gas)",
             "rule": "For a basic solid oxide such as copper(II) oxide, the acid reacts at the solid surface: CuO(s) + 2H⁺(aq) → Cu²⁺(aq) + H₂O(l). Oxide in the solid accepts protons; do not write it as free O²⁻(aq). In hydrochloric acid, chloride ions remain in solution with Cu²⁺; copper(II) chloride is dissolved, so these ions do not form a precipitate.",
             "examples": [
               "2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l)",
@@ -2417,7 +2417,7 @@
             }
           },
           "alkali": {
-            "name": "Acid + alkali → salt + water (neutralisation)",
+            "name": "Strong acid + strong hydroxide alkali → salt + water (neutralisation)",
             "rule": "For a strong acid and a strong alkali, only the H⁺ ions from the acid and the OH⁻ ions from the alkali change. The net ionic equation is therefore H⁺(aq) + OH⁻(aq) → H₂O(l). Ions such as Na⁺ and Cl⁻ stay unchanged and are left out.",
             "examples": [
               "HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)",

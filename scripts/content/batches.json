@@ -2794,6 +2794,10 @@
         {
           "kind": "tsx",
           "file": "src/modules/november/englishSchoolRehearsal.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/components/EnglishReadingPrerequisites.tsx"
         }
       ]
     },

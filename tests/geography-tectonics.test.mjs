@@ -286,3 +286,20 @@ test('compiled guide retains each distinct diagram while referring repeated case
   for(const item of plan) for(const id of item.references) assert.ok(lessons.some(x=>x.id===id));
   assert.equal(plan.filter(x=>x.showVisual).length,9);
 });
+
+test('the labelled secondary vent reaches the volcano flank rather than ending inside the cone', () => {
+  const svg = readFileSync('src/modules/geography-tectonics/Visuals.tsx', 'utf8');
+  const points = d => [...d.matchAll(/[-+]?(?:\d*\.)?\d+/g)].map(m => Number(m[0])).reduce((a, n, i, ns) => i % 2 ? a : [...a, [n, ns[i + 1]]], []);
+  const cone = points(svg.match(/d="([^"]+)" fill="#ab8e70"/)[1]);
+  const branch = points(svg.match(/d="([^"]+)" fill="none" stroke="#ca632f" strokeWidth=(?:"11"|\{11\})/)[1]);
+  const tip = branch.at(-1);
+  const segmentDistance = (p, a, b) => {
+    const dx = b[0] - a[0], dy = b[1] - a[1];
+    const t = Math.max(0, Math.min(1, ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / (dx * dx + dy * dy)));
+    return Math.hypot(p[0] - a[0] - t * dx, p[1] - a[1] - t * dy);
+  };
+  assert.ok(Math.min(...cone.map((a, i) => segmentDistance(tip, a, cone[(i + 1) % cone.length]))) < 0.1, 'A vent is an opening at the surface, not a blind intrusion');
+  const leaders = svg.match(/d="([^"]+)" stroke="#174f4b" strokeWidth=(?:"2"|\{2\})/)[1].match(/M[^M]+/g);
+  const leaderTip = points(leaders[6]).at(-1);
+  assert.ok(Math.hypot(tip[0] - leaderTip[0], tip[1] - leaderTip[1]) < 0.1, 'Leader 7 identifies the actual flank opening');
+});

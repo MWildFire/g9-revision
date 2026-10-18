@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ClipboardCheck } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
-import { MathPracticeList } from '../../../components/content/MathPracticeList';
+import { MathPracticeList } from '../components/MathPracticeList';
 import { ALL_MATH_PROBLEMS } from '../data/practiceProblems';
 import type { Criterion } from '../data/practiceProblems';
 

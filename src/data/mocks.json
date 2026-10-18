@@ -523,8 +523,8 @@
       },
       "checks": [
         {
-          "en": "I give every parameter a transformation needs: the vector, the mirror line, or the centre, angle and direction of rotation.",
-          "ru": "Я указываю все параметры преобразования: вектор, ось отражения или центр, угол и направление поворота."
+          "en": "I state the needed parameters: a translation vector; a reflection line; a rotation centre, angle and direction; or a dilation centre and signed nonzero scale factor.",
+          "ru": "Я указываю нужные параметры: вектор переноса; прямую отражения; центр, угол и направление поворота; либо центр и ненулевой коэффициент гомотетии со знаком."
         },
         {
           "en": "I use corresponding sides and an appropriate triangle test.",

@@ -1,3 +1,4 @@
+import {EnglishReadingPrerequisites} from '../components/EnglishReadingPrerequisites';
 import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { ENGLISH_REVIEWS } from '../../../definitions/english';
 import { Search } from 'lucide-react';
@@ -38,7 +39,7 @@ export function ReadingPage() {
         })}
       </div>
 
-      <SectionHeading>{t('reading.PEEL.title')}</SectionHeading>
+      <EnglishReadingPrerequisites language={lang}/><SectionHeading>{t('reading.PEEL.title')}</SectionHeading>
       <p className="bg-bg-secondary border border-border rounded-md p-4 text-sm mb-3" style={{ borderLeftColor: 'var(--color-accent-sky-deep)', borderLeftWidth: '3px' }}>
         {t('reading.PEEL.body')}
       </p>

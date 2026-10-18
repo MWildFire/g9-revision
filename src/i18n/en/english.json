@@ -277,7 +277,7 @@
       "rule": "An essay is a prose text that explores a topic or develops an interpretation or argument. A personal or literary essay may use a flexible structure. An analytical or argumentative essay develops a central claim with evidence and reasoning in connected paragraphs, then draws the discussion together in a conclusion. The task sets the purpose, register and length; a five-paragraph plan is one school scaffold, not a definition of the genre.",
       "examples": [
         "Thesis: 'Libraries should stay open late, because not every student has a quiet place to study at home.'",
-        "Supporting evidence: 'Mara finishes her history essays in the library because it is quieter than home. A library open late would help every student in the same position.'",
+        "Illustrative example: ‘Mara finishes her history essays in the library because it is quieter than home.’ This suggests one way late opening could help students in similar circumstances; it does not prove how many students need it or that it would help every student. A real argument needs relevant evidence about local need and access.",
         "Formal: 'This essay argues that libraries should stay open late.' Personal: 'I used to think libraries were only for exams.' Use the first person only when the task allows it."
       ],
       "tip": "In an argumentative essay, answer the question and state your thesis in the introduction, then prove it: argue, don't list."
@@ -307,7 +307,7 @@
       "name": "Speech",
       "rule": "A speech is prepared for listeners. State your purpose, organise ideas in a sequence listeners can follow by ear, and close clearly. Direct address, repetition or a call to action suit a persuasive speech but are not required in every speech.",
       "examples": [
-        "Hook: 'Imagine waking up tomorrow with no internet. How long before you'd cope?'",
+        "Hook: ‘Imagine waking up tomorrow with no internet. How long could you manage without it?’",
         "Tricolon (three parallel items): 'We need education, opportunity, and hope.'",
         "Direct address: 'Friends, fellow students, you have the power to change this.'",
         "Anaphora: 'We want a library that opens late. We want a garden that everyone can use. We want a school that listens.'",
@@ -353,7 +353,7 @@
       "examples": [
         "Heading: 'Command terms'",
         "Definition box: 'Describe means give a clear account of what something is or looks like; explain means give a detailed account including reasons or causes.'",
-        "Worked example: 'Question: Explain how the writer creates tension. Answer: the short sentences force a pause, so the reader feels the same hesitation as the character.'",
+        "Worked example: ‘Question: Explain how the writer creates tension. Answer: In “She reached. Stopped. Listened.”, the separated actions and the fragment “Stopped” can slow this moment and suggest hesitation. In a scene where the danger is still unseen, that delay may build tension.’",
         "Tip box: 'Always check that your answer responds to the command term in the question.'",
         "Checklist: can you define each term without notes, and write one short example of your own?"
       ],
@@ -384,7 +384,7 @@
     },
     "diary": {
       "name": "Diary",
-      "rule": "A diary is a set of dated entries in which the writer records personal experience, thoughts and feelings. Entries are written in the first person, in an informal register, mainly for the writer alone. Each entry usually covers one day or a short period.",
+      "rule": "A personal diary records dated experiences, thoughts and feelings. Entries are often written in the first person and an informal register, mainly for the writer; diaries written for publication can also have an audience. An entry usually covers one day or a short period.",
       "examples": [
         "Monday 12 October. I passed the maths test, and I still can't quite believe it.",
         "I shouldn't have shouted at Alex this morning. I was tired, but that's no excuse, so I'll apologise tomorrow.",
@@ -826,18 +826,18 @@
     },
     "soliloquy": {
       "title": "Soliloquy and aside",
-      "body": "A soliloquy is a speech in which a character, alone on stage, talks to themselves or to the audience. It shows thoughts and feelings the other characters do not know. An aside is a short remark to the audience; by convention, the other characters on stage do not hear it. In both cases the audience knows something that the other characters in the play do not.",
+      "body": "A soliloquy presents a character’s thoughts aloud, usually while alone or speaking as if unheard by other characters. An aside is a remark that, by theatrical convention, at least one other character on stage does not hear. These devices can let the audience know more than another character; check who is present, who is meant to hear, and what the speech actually reveals.",
       "tip": "When you analyse a soliloquy, ask what the character reveals that they would hide from others, and which words show that their thinking is changing."
     },
     "camera": {
       "title": "Camera terms in a storyboard",
       "intro": "A storyboard shows each shot. Name the type of shot, then say what it makes the audience notice.",
       "items": [
-        "Wide shot — the whole setting is visible; a character can look small or isolated.",
+        "Wide shot — a broad view of the setting; a character can look small or isolated.",
         "Medium shot — the character is shown from the waist up; the focus is on action and speech.",
         "Close-up — a face or an object fills the frame; small reactions and details become important.",
-        "Cut — an instant switch from one shot to the next; it can create speed, shock or a link between ideas.",
-        "Off-screen sound — sound from outside the frame, such as a voice or a noise; the audience hears something that the character may not see yet."
+        "Cut — an immediate transition from one shot to the next; its pace and meaning depend on the shots and their context.",
+        "Off-screen sound — sound whose source is outside the visible frame. The viewer hears the source without seeing it in that shot; the character may already know or see where it comes from."
       ]
     }
   },

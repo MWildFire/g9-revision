@@ -55,12 +55,12 @@ export function TectonicVisual({ kind, fixed = false, showHint = true, variant =
             <path d="M138 268 L332 122 L355 139 L381 122 L578 268 M96 282 L335 158 L359 173 L385 158 L653 282 M212 250 L339 194 L361 207 L388 194 L500 250" fill="none" stroke="#795e48" strokeWidth="5" />
             <path d="M344 121 L346 340 L368 340 L369 121Z" fill="#ca632f" />
             <ellipse cx="357" cy="356" rx="55" ry="33" fill="#ca632f" /><ellipse cx="357" cy="354" rx="39" ry="21" fill="#df8a44" />
-            <path d="M359 237 L414 204 L481 224" fill="none" stroke="#ca632f" strokeWidth="11" />
+            <path d="M359 237 L414 204 L500 211.4" fill="none" stroke="#ca632f" strokeWidth="11" />
             <path d="M350 315 L295 276 L260 225" fill="none" stroke="#ca632f" strokeWidth="9" />
             <path d="M368 320 L477 320" fill="none" stroke="#ca632f" strokeWidth="9" />
             <path d="M330 99 Q301 140 279 169 Q251 199 242 223" fill="none" stroke="#b54121" strokeWidth="10" />
             <path d="M351 90 L350 71 Q330 36 365 29 Q393 12 410 41 Q448 23 453 55 Q476 32 507 62 L547 62" fill="none" stroke="#a4ada6" strokeWidth="18" strokeLinecap="round" />
-            <path d="M188 65 L326 95 M91 167 L261 183 M91 245 L238 255 M205 344 L288 284 M235 382 L306 366 M520 345 L464 322 M610 220 L480 224 M570 156 L369 161 M514 98 L372 115 M590 39 L489 57" stroke="#174f4b" strokeWidth="2" fill="none" />
+            <path d="M188 65 L326 95 M91 167 L261 183 M91 245 L238 255 M205 344 L288 284 M235 382 L306 366 M520 345 L464 322 M610 220 L500 211.4 M570 156 L369 161 M514 98 L372 115 M590 39 L489 57" stroke="#174f4b" strokeWidth="2" fill="none" />
             {[[1,170,65],[2,75,167],[3,75,245],[4,187,344],[5,216,382],[6,538,345],[7,628,220],[8,588,156],[9,532,98],[10,608,39]].map(([n,x,y]) => <g key={n}><circle cx={x} cy={y} r="15" fill="#174f4b" /><text x={x} y={y + 5} textAnchor="middle" style={{ fill: '#fff', fontSize: 14, fontWeight: 700 }}>{n}</text></g>)}
           </svg>
         </div>

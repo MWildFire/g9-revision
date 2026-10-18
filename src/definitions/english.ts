@@ -1005,8 +1005,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Revision Guide",
     "russianTerm": "Учебное руководство",
     "contrast": {
-      "en": "A revision guide is not a textbook or a set of lesson notes. It keeps only what is needed to recall and apply the topic, so it selects content rather than copying all of it.",
-      "ru": "Учебное руководство — не учебник и не конспект урока. В нём есть только то, что нужно, чтобы вспомнить и применить тему: материал отобран, а не переписан целиком."
+      "en": "A revision guide selects and organises material for recall and application. It can overlap with a textbook or lesson notes; the purpose is focused revision rather than copying everything.",
+      "ru": "Руководство для повторения отбирает и упорядочивает материал, чтобы его можно было вспомнить и применить. Оно может пересекаться с учебником или конспектом; его цель — целенаправленное повторение, а не переписывание всего материала."
     },
     "sources": [
       {
@@ -1021,8 +1021,8 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Script",
     "russianTerm": "Сценарий",
     "contrast": {
-      "en": "A line of dialogue is what a character says aloud. A stage direction describes action, movement or sound and is never spoken. Do not write a description of action as dialogue.",
-      "ru": "Реплика — то, что персонаж произносит вслух. Ремарка описывает действие, движение или звук и не произносится. Не записывай описание действия как реплику: актёр произнесёт его вслух."
+      "en": "A line of dialogue is what a character says aloud. A stage direction describes action, movement or sound and is normally not spoken as the character’s dialogue. Do not write a description of action as dialogue.",
+      "ru": "Реплика — то, что персонаж произносит вслух. Ремарка описывает действие, движение или звук и обычно не произносится как реплика персонажа. Не записывай описание действия как реплику: актёр произнесёт его вслух."
     },
     "sources": [
       {

@@ -480,7 +480,7 @@ export const tectonicDefinitionReviews: Record<string, DefinitionReview> = {
     "russianTerm": "Трещина",
     "contrast": {
       "en": "Picture a crack opening across a plain: lava pours out along its length rather than from one point. A shield or composite volcano is defined by the mountain it builds, which is broad and gently sloping or steep and layered. So ask two questions: where does the magma come out, and what shape does the material pile into?",
-      "ru": "Представь трещину, которая открывается на равнине: лава выливается вдоль всей её длины, а не из одной точки. Щитовой вулкан и стратовулкан (слоистый вулкан) различаются формой горы, которую они строят: широкой и пологой или крутой и слоистой. Поэтому задай себе два вопроса: где выходит магма и какую форму принимает накопленный материал?"
+      "ru": "Представь трещину, которая открывается на равнине: лава выливается вдоль части трещины, а не из одной точки. Щитовой вулкан и стратовулкан (слоистый вулкан) различаются формой горы, которую они строят: широкой и пологой или крутой и слоистой. Поэтому задай себе два вопроса: где выходит магма и какую форму принимает накопленный материал?"
     },
     "sources": [
       {

@@ -275,6 +275,12 @@ export const geographyReviews: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
+        "title": "Australian Bureau of Meteorology · Southern Australian rainfall decline (April 2015)",
+        "url": "https://www.bom.gov.au/climate/updates/articles/a010-southern-rainfall-decline.shtml",
+        "language": "en",
+        "section": "Millennium Drought section and Figure2: broad late1996–mid2010 episode, map period1997–2009, peak2001–2009. Supports the approximate1997–2009 case interval; not every other case claim."
+      },
+      {
         "title": "Government of South Australia — Millennium Drought",
         "url": "https://www.environment.sa.gov.au/topics/water-and-river-murray/basin-river-murray-lakes-and-the-coorong/river-murray-droughts/millennium-drought",
         "language": "en",

@@ -1544,8 +1544,8 @@
             "ru": "Разрешающая способность (resolution) — наименьшее изменение, которое прибор способен различить. Неопределённость (uncertainty) — диапазон значений, которые можно разумно приписать измеряемой величине. Линейка с миллиметровыми делениями имеет разрешающую способность 1 мм."
           },
           "contrast": {
-            "en": "More displayed digits do not make a reading more accurate. They only show a finer resolution.",
-            "ru": "Дополнительные цифры на дисплее не делают показание точнее: они говорят лишь о более высокой разрешающей способности."
+            "en": "Extra displayed digits do not by themselves improve accuracy or demonstrate better resolving ability. They can make the display step smaller; the instrument’s actual response, noise and calibration still matter.",
+            "ru": "Дополнительные цифры на дисплее сами по себе не повышают точность и не доказывают, что прибор различает меньшие изменения величины. Шаг отображения может стать меньше, но важны также реальная реакция прибора, шум и калибровка."
           },
           "sources": [
             {

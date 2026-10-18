@@ -637,8 +637,8 @@ export const GRAMMAR_RULES: GrammarRule[] = [
     "id": "connectors",
     "titleEn": "Contrast and concession: cependant, même si",
     "titleRu": "Противопоставление и уступка: cependant, même si",
-    "body": "Cependant (however) starts a contrast as a separate idea and takes a comma after it: Il pleut ; cependant, nous sortons (It is raining; however, we go out).\n\nMais (but) joins two parts of one sentence: Il pleut, mais nous sortons.\n\nMême si (even if) introduces a condition that does not change the result. It takes the indicative, not the subjunctive: Même s’il pleut, nous sortons (Even if it rains, we go out).",
-    "bodyRu": "Cependant («однако») начинает противопоставление как отдельную мысль. После него ставится запятая: Il pleut ; cependant, nous sortons (Идёт дождь, однако мы выходим).\n\nMais («но») соединяет две части одной фразы: Il pleut, mais nous sortons.\n\nMême si («даже если») вводит условие, которое не меняет результата. После même si ставится изъявительное наклонение (indicatif), а не сослагательное: Même s’il pleut, nous sortons (Даже если идёт дождь, мы выходим)."
+    "body": "Cependant (however) introduces a contrast. At the beginning of a sentence, it is generally followed by a comma: Il pleut. Cependant, nous sortons (It is raining. However, we go out).\n\nMais (but) joins two parts of one sentence: Il pleut, mais nous sortons.\n\nMême si (even if) introduces a condition that does not change the result. It takes the indicative, not the subjunctive: Même s’il pleut, nous sortons (Even if it rains, we go out).",
+    "bodyRu": "Cependant («однако») вводит противопоставление. В начале предложения после него обычно ставится запятая: Il pleut. Cependant, nous sortons (Идёт дождь. Однако мы выходим).\n\nMais («но») соединяет две части одной фразы: Il pleut, mais nous sortons.\n\nMême si («даже если») вводит условие, которое не меняет результата. После même si ставится изъявительное наклонение (indicatif), а не сослагательное: Même s’il pleut, nous sortons (Даже если идёт дождь, мы выходим)."
   },
   {
     "id": "conditions",

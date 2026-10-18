@@ -3895,6 +3895,16 @@
         {
           "kind": "json",
           "file": "src/modules/english/data/genre-composition.json"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicTeaching"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicSources"
         }
       ]
     }

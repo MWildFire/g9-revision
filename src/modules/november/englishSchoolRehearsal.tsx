@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import type { Text } from './content';
 
 const tx = (en: string, ru: string): Text => ({ en, ru });
@@ -111,5 +112,5 @@ export function EnglishSchoolRehearsal({ topicId, language = 'en' }: { topicId: 
       <p>{t('Article: independent reader, headline and developed paragraphs. Script: speaker labels, dialogue and performable directions. Letter: a named recipient, appropriate salutation, purpose and closing. Narrative: viewpoint, selected events and a shaped change. Diary: a situated personal voice reflecting on experience. Blog: a dated or titled post with an identifiable readership and voice. These are useful conventions, not a rule that every text must follow one identical template.', 'Статья: самостоятельный читатель, заголовок и развёрнутые абзацы. Пьеса: имена, диалог и исполнимые ремарки. Письмо: определённый получатель, подходящие приветствие, цель и завершение. Повествование: точка зрения, отобранные события и выстроенное изменение. Дневник: личный голос, осмысляющий опыт в конкретный момент. Блог: датированная или озаглавленная запись с понятным читателем и голосом. Это полезные признаки, а не требование единого шаблона для любых текстов.')}</p>
     </>}
     <p className="nov-small">{t('Use the checked practice questions below after studying one section. The guidance is authored for learning; alternative supported answers are welcome. The existing complete models and eighteen editing items remain separate practice.', 'После одного раздела переходи к заданиям с разбором ниже. Рекомендации составлены для обучения; другие обоснованные ответы допустимы. Готовые полные образцы и восемнадцать редакторских заданий остаются отдельной практикой.')}</p>
-  </section>;
+  {(topic==='e-analysis'||topic==='e-purpose')&&<p><Link className="underline" to="/november/e-analysis?part=school-frankenstein-gothic-practice">{t('Prepare with Shelley’s 1831 Chapter V and a Gothic application →','Разобрать главу V Шелли (1831) и применить признаки готики →')}</Link></p>}</section>;
 }

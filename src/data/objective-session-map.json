@@ -18717,7 +18717,7 @@
       "subject": "geography",
       "title": {
         "en": "Distinguish removal from sediment accumulation",
-        "ru": "Различать разрушение и накопление наносов"
+        "ru": "Различать удаление материала эрозией и накопление наносов"
       },
       "sourceId": "geography-archived",
       "sourceLocator": "Archived G9 geography checklist, learning row 24; current mock inclusion is unconfirmed.",
@@ -20525,8 +20525,8 @@
       "objectiveId": "GEO-43",
       "subject": "geography",
       "title": {
-        "en": "Apply fixed-interval selection and recognise bias",
-        "ru": "Применять систематический отбор и распознавать смещение"
+        "en": "Explain systematic sampling and compare sources of bias",
+        "ru": "Объяснять систематический отбор и сравнивать причины смещения"
       },
       "sourceId": "geography-archived",
       "sourceLocator": "Archived G9 geography checklist, learning row 43; current mock inclusion is unconfirmed.",
@@ -20613,8 +20613,8 @@
       "objectiveId": "GEO-44",
       "subject": "geography",
       "title": {
-        "en": "Allocate observations across defined strata",
-        "ru": "Распределять наблюдения между заданными слоями"
+        "en": "Explain stratified sampling and compare it with other methods",
+        "ru": "Объяснять стратифицированный отбор и сравнивать его с другими способами"
       },
       "sourceId": "geography-archived",
       "sourceLocator": "Archived G9 geography checklist, learning row 44; current mock inclusion is unconfirmed.",
@@ -20701,8 +20701,8 @@
       "objectiveId": "GEO-45",
       "subject": "geography",
       "title": {
-        "en": "Describe a genuinely random selection procedure",
-        "ru": "Описывать процедуру случайного отбора"
+        "en": "Explain random sampling within a defined sampling frame",
+        "ru": "Объяснять случайный отбор в заданной совокупности"
       },
       "sourceId": "geography-archived",
       "sourceLocator": "Archived G9 geography checklist, learning row 45; current mock inclusion is unconfirmed.",
@@ -20789,8 +20789,8 @@
       "objectiveId": "GEO-46",
       "subject": "geography",
       "title": {
-        "en": "Make a fieldwork method reproducible",
-        "ru": "Делать метод полевого исследования воспроизводимым"
+        "en": "Explain what a reproducible fieldwork methodology specifies",
+        "ru": "Объяснять, что задаёт воспроизводимая методика полевого исследования"
       },
       "sourceId": "geography-archived",
       "sourceLocator": "Archived G9 geography checklist, learning row 46; current mock inclusion is unconfirmed.",
@@ -21121,8 +21121,8 @@
       "objectiveId": "GEO-49",
       "subject": "geography",
       "title": {
-        "en": "Answer a fieldwork question from collected evidence",
-        "ru": "Делать вывод по полевому вопросу на основе данных"
+        "en": "Explain how a conclusion answers the aim from the results",
+        "ru": "Объяснять, как вывод отвечает на цель по результатам"
       },
       "sourceId": "geography-archived",
       "sourceLocator": "Archived G9 geography checklist, learning row 49; current mock inclusion is unconfirmed.",
@@ -21234,23 +21234,23 @@
         "availability": "current"
       },
       "practiceIds": [
-        "g-fieldwork-sampling-evaluation"
+        "g-fieldwork-1"
       ],
       "checkedAnswerPointers": [
         {
           "file": "src/modules/grade9/lessons.json",
-          "jsonPointer": "/7/practice/7/answer/en",
+          "jsonPointer": "/7/practice/0/answer/en",
           "availability": "current",
-          "questionId": "g-fieldwork-sampling-evaluation",
-          "rubricClause": "Random selection uses a random process within a defined sampling frame; systematic selection uses an interval, with a suitable start; stratification first defines relevant groups and samples within them.",
+          "questionId": "g-fieldwork-1",
+          "rubricClause": "The sample may overrepresent wealthier hotel guests. Stratify by location/accommodation type and sample at varied times; randomise within strata. Obtain consent and avoid collecting unnecessary personal data.",
           "reviewStatus": "pending-exact-final-subject-review"
         },
         {
           "file": "src/modules/grade9/lessons.json",
-          "jsonPointer": "/7/practice/7/answer/ru",
+          "jsonPointer": "/7/practice/0/answer/ru",
           "availability": "current",
-          "questionId": "g-fieldwork-sampling-evaluation",
-          "rubricClause": "Случайный отбор использует случайную процедуру в заданной совокупности; систематический — интервал и подходящее начало.",
+          "questionId": "g-fieldwork-1",
+          "rubricClause": "Вероятно преобладание обеспеченных постояльцев. Раздели места или типы размещения на группы, меняй время и случайно отбирай внутри групп. Нужно согласие, лишние личные данные не собирают.",
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
@@ -21291,7 +21291,10 @@
       "previousPlacementReason": {
         "en": "This row has a specific g-fieldwork explanation and selected answer rubric, but no objective-specific session ID. The existing 35-minute g-previous-core links five strands and does not allocate this portion; choose a replacement or keep it visibly unplaced.",
         "ru": "Для цели выбраны объяснение g-fieldwork и пункты разбора, но отдельная конечная порция не назначена. Общий g-previous-core на 35 минут связывает пять разделов и не выделяет время этой цели; выбери замену либо оставь её неразмещённой."
-      }
+      },
+      "availablePracticeIds": [
+        "g-fieldwork-1"
+      ]
     },
     {
       "objectiveId": "GEO-51",
@@ -49774,6 +49777,222 @@
         "genre-blog"
       ],
       "timingBasis": "author-estimate-3read-6model-20attempt-6check; not-school-limit",
+      "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+    },
+    {
+      "objectiveId": "ENG-SHELLEY-1831-PRACTICE",
+      "subject": "english",
+      "title": {
+        "en": "Analyse reaction and Gothic choices in the adopted Chapter V passages",
+        "ru": "Разобрать реакцию и готические приёмы в выбранных фрагментах главы V"
+      },
+      "sourceId": "english",
+      "sourceLocator": "Preparation for the prescribed Frankenstein/Gothic task family using selected public Shelley1831ChapterV passages. Actual school edition/extract boundaries remain unverified; this adopted primary text is not a confirmed unseen exam extract.",
+      "scopeStatus": "supplemental",
+      "lessonPath": "/november/e-analysis?part=school-frankenstein-gothic-practice",
+      "canonicalTeachingPointers": [
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicTeaching",
+          "path": [
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicTeaching",
+          "path": [
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicTeaching",
+          "path": [
+            1,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicTeaching",
+          "path": [
+            1,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicTeaching",
+          "path": [
+            2,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicTeaching",
+          "path": [
+            2,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
+        }
+      ],
+      "workedExamplePointer": {
+        "file": "src/modules/november/englishGothicBridge.ts",
+        "export": "englishGothicTeaching",
+        "path": [
+          2,
+          "body",
+          "en"
+        ],
+        "availability": "current"
+      },
+      "practiceIds": [
+        "shelley-1831-mood-change",
+        "shelley-1831-language-structure",
+        "shelley-1831-gothic-application"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicPractice",
+          "path": [
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "shelley-1831-mood-change",
+          "rubricClause": "Victor moves from anxious anticipation to horror and disgust, rather than from uncomplicated happiness to fear. At the start, “anxiety” almost becomes “agony”, so achievement is already painful. The later “but now” overturns the hope attached to his long effort: the imagined beauty disappears on completion. His rushing from the room turns that emotional reversal into action. Check that your answer explains the relationship between these details, rather than listing emotions. Other supported emphases, such as disappointment, can work. His disgust is evidence of his response, not proof of wrongdoing by the being.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicPractice",
+          "path": [
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "shelley-1831-mood-change",
+          "rubricClause": "Виктор переходит от тревожного ожидания к ужасу и отвращению, а не от безмятежной радости к страху. В начале «anxiety» почти становится «agony»: достижение уже связано с мучением. Позднее «but now» переворачивает надежду, вложенную в долгий труд: после завершения исчезает воображаемая красота. Бегство превращает эмоциональный поворот в поступок. Проверь, объяснил ли ты связь деталей, вместо перечисления чувств. Можно обоснованно выделить и разочарование. Отвращение Виктора свидетельствует о его реакции, но не о проступке существа.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicPractice",
+          "path": [
+            1,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "shelley-1831-language-structure",
+          "rubricClause": "“Beautiful!” abruptly repeats and challenges Victor’s earlier selection of beautiful features. Lustrous hair and white teeth are set against the eyes and skin he finds repellent, so attractive individual details fail to produce the whole he imagined. Structurally, the recollection of almost two years of effort is reversed by “but now”; completion destroys rather than fulfils his dream of beauty. His immediate departure gives the reversal a consequence. Check that each technique supports this interpretation. The account invites examination of Victor’s judgement; it does not require us to adopt his labels as neutral descriptions of moral worth.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicPractice",
+          "path": [
+            1,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "shelley-1831-language-structure",
+          "rubricClause": "«Beautiful!» резко повторяет и ставит под вопрос прежний выбор красивых черт. Блестящие волосы и белые зубы противопоставлены глазам и коже, которые отталкивают Виктора: привлекательные части не складываются в задуманный им облик. В композиции воспоминание о почти двух годах труда обрывается поворотом «but now»: завершение разрушает мечту о красоте. Немедленный уход показывает последствие. Проверь, работает ли каждый названный приём на этот вывод. Рассказ позволяет исследовать оценку Виктора, но не обязывает принимать его ярлыки за беспристрастную оценку нравственных качеств.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicPractice",
+          "path": [
+            2,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "shelley-1831-gothic-application",
+          "rubricClause": "The nearly extinguished candle and dismal rain give the animation an unsettling setting rather than a clear scene of triumph. Uncertainty continues in the bedroom: Victor says he did not hear possible speech and qualifies the reaching hand with “seemingly”. We therefore receive fear without secure knowledge of the being’s intention. These choices support a Gothic reading through disturbing atmosphere and limited knowledge; they do not prove a hostile attack or the presence of a ghost. A setting-focused or uncertainty-focused answer is acceptable if it explains the chosen evidence. Avoid treating recurring Gothic features as universal requirements or predicting an identical response from every reader.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishGothicBridge.ts",
+          "export": "englishGothicPractice",
+          "path": [
+            2,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "shelley-1831-gothic-application",
+          "rubricClause": "Почти погасшая свеча и унылый дождь создают тревожную обстановку оживления вместо ясной картины торжества. В спальне неопределённость сохраняется: Виктор не слышит возможных слов и оговаривает намерение протянутой руки словом «seemingly». Нам передан страх без достоверного знания о намерениях существа. Такая атмосфера и ограниченность знания поддерживают готическое прочтение, но не доказывают нападения или появления призрака. Подойдёт ответ с акцентом на обстановке либо неопределённости, если детали объяснены. Не превращай повторяющиеся черты готики в обязательные условия и не обещай одинаковой реакции всех читателей.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        }
+      ],
+      "sessionIds": [
+        "school-frankenstein-gothic-practice"
+      ],
+      "prerequisites": [],
+      "timingRange": [
+        35,
+        45
+      ],
+      "replaceableBlockIds": [
+        "biology-full",
+        "physics-partial",
+        "chemistry-partial"
+      ],
+      "unplacedReason": {
+        "en": "An optional source-specific preparation choice within one existing replacement. It does not add study time or certify the exact school extract. If no window fits, keep the remainder visible.",
+        "ru": "Дополнительный вариант подготовки по конкретному первичному тексту в одном существующем окне замены. Он не добавляет минуты и не подтверждает школьный отрывок. Если окно не подходит, остаток остаётся видимым."
+      },
+      "diagnosticStatus": "unassessed",
+      "bindingStatus": "proposed-not-independent-acceptance",
+      "diagnosticEvidenceRequired": {
+        "en": "Attempt the selected question without its answer, then compare the stated rubric clause and record the correction. Reading a model is not a diagnostic pass.",
+        "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
+      },
+      "topicId": "e-analysis",
+      "existingSessionRange": [
+        35,
+        45
+      ],
+      "placementNote": {
+        "en": "One 35-minute authored portion shares the existing flexible capacity with all other choices. Its minutes are not added to any day; displaced work stays unfinished.",
+        "ru": "Авторская порция на 35 минут использует общее существующее время вместе с другими вариантами. Минуты не добавляются к дням; вытесненная работа остаётся невыполненной."
+      },
+      "portionGroupId": "school-frankenstein-gothic-practice",
+      "coverageStatus": "adopted-public-primary-text-practice-school-edition-and-extract-unknown",
+      "currentSourceVerification": "three-page-prescribed-practice-observed-by-coordinator; final-source-alignment-review-pending",
+      "modelAttachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "portionMinutes": 35,
+      "placementStatus": "selectable-replacement-not-scheduled",
+      "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "availablePracticeIds": [
+        "shelley-1831-mood-change",
+        "shelley-1831-language-structure",
+        "shelley-1831-gothic-application"
+      ],
+      "timingBasis": "authored35minute-estimate-8read-5example-16attempt-6check; notschoollimit",
       "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     }

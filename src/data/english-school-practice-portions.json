@@ -297,5 +297,30 @@
       "genre-blog"
     ],
     "teachingTitles": []
+  },
+  {
+    "id": "school-frankenstein-gothic-practice",
+    "topic": "e-analysis",
+    "title": {
+      "en": "Shelley 1831 Chapter V: reaction, language and Gothic",
+      "ru": "Шелли, глава V (1831): реакция, язык и готика"
+    },
+    "minutes": 35,
+    "range": [
+      35,
+      45
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 16,
+      "check": 6
+    },
+    "practiceIds": [
+      "shelley-1831-mood-change",
+      "shelley-1831-language-structure",
+      "shelley-1831-gothic-application"
+    ],
+    "teachingTitles": []
   }
 ]

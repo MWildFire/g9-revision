@@ -544,7 +544,7 @@
     "topic": "g-previous",
     "title": {
       "en": "Distinguish removal from sediment accumulation",
-      "ru": "Различать разрушение и накопление наносов"
+      "ru": "Различать удаление материала эрозией и накопление наносов"
     },
     "minutes": 25,
     "range": [
@@ -943,8 +943,8 @@
     "id": "geo-geo-43-practice",
     "topic": "g-previous",
     "title": {
-      "en": "Apply fixed-interval selection and recognise bias",
-      "ru": "Применять систематический отбор и распознавать смещение"
+      "en": "Explain systematic sampling and compare sources of bias",
+      "ru": "Объяснять систематический отбор и сравнивать причины смещения"
     },
     "minutes": 25,
     "range": [
@@ -966,8 +966,8 @@
     "id": "geo-geo-44-practice",
     "topic": "g-previous",
     "title": {
-      "en": "Allocate observations across defined strata",
-      "ru": "Распределять наблюдения между заданными слоями"
+      "en": "Explain stratified sampling and compare it with other methods",
+      "ru": "Объяснять стратифицированный отбор и сравнивать его с другими способами"
     },
     "minutes": 25,
     "range": [
@@ -989,8 +989,8 @@
     "id": "geo-geo-45-practice",
     "topic": "g-previous",
     "title": {
-      "en": "Describe a genuinely random selection procedure",
-      "ru": "Описывать процедуру случайного отбора"
+      "en": "Explain random sampling within a defined sampling frame",
+      "ru": "Объяснять случайный отбор в заданной совокупности"
     },
     "minutes": 25,
     "range": [
@@ -1012,8 +1012,8 @@
     "id": "geo-geo-46-practice",
     "topic": "g-previous",
     "title": {
-      "en": "Make a fieldwork method reproducible",
-      "ru": "Делать метод полевого исследования воспроизводимым"
+      "en": "Explain what a reproducible fieldwork methodology specifies",
+      "ru": "Объяснять, что задаёт воспроизводимая методика полевого исследования"
     },
     "minutes": 25,
     "range": [
@@ -1062,8 +1062,8 @@
     "id": "geo-geo-49-practice",
     "topic": "g-previous",
     "title": {
-      "en": "Answer a fieldwork question from collected evidence",
-      "ru": "Делать вывод по полевому вопросу на основе данных"
+      "en": "Explain how a conclusion answers the aim from the results",
+      "ru": "Объяснять, как вывод отвечает на цель по результатам"
     },
     "minutes": 25,
     "range": [
@@ -1100,7 +1100,7 @@
       "check": 4
     },
     "practiceIds": [
-      "g-fieldwork-sampling-evaluation"
+      "g-fieldwork-1"
     ],
     "studyPath": "/grade9/g-fieldwork"
   },

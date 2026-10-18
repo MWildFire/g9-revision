@@ -23,6 +23,7 @@ export const biologyG9PracticalTeaching: Section[] = [
 ];
 
 export const biologyG9PracticalReview: DefinitionReview = {
+  explanation: b('Archived Grade 9 practice: DNA extraction. This block supports revision; its inclusion does not establish a new objective on the current mock list.', 'Практика из архивной программы 9 класса: выделение ДНК. Этот блок помогает повторению; его наличие не означает, что в текущий список тем МОКа добавлена новая цель.'),
   englishTerm: 'DNA extraction',
   russianTerm: 'Выделение ДНК',
   visual: {

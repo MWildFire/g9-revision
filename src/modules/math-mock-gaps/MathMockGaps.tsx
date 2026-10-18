@@ -27,13 +27,13 @@ export function MathGapFigure({kind,language}:{kind:Figure;language:'en'|'ru'}) 
  const id=useId().replace(/:/g,'');const ru=language==='ru';const unit=ru?'см':'cm';const red=ru?'К':'R',blue=ru?'С':'B';
  const label=(x:number,y:number,t:string)=><text x={x} y={y} fill="#233d50" fontSize="17">{t}</text>;
  return <figure className="my-4 border border-border rounded-lg p-3 print:break-inside-avoid">
- <svg viewBox="0 0 520 320" className="w-full h-auto max-w-xl mx-auto" role="img" aria-labelledby={`${id}-title ${id}-desc`}>
+ <svg viewBox={kind==='composite'?'0 0 520 360':'0 0 520 320'} className="w-full h-auto max-w-xl mx-auto" role="img" aria-labelledby={`${id}-title ${id}-desc`}>
  <title id={`${id}-title`}>{kind}</title><desc id={`${id}-desc`}>{captions[kind][language]}</desc>
  <g stroke="#385f78" strokeWidth="2" fill="none">
  {kind==='pyramid'&&<><path d="M100 240L230 285L420 215L290 180ZM100 240L255 35L230 285M255 35L420 215M255 35L290 180"/><path d="M255 35V232M255 35L325 250M255 232L325 250" strokeDasharray="6 5"/><path d="M255 220l12 4v12"/>{label(265,140,`h = 4 ${unit}`)}{label(330,155,`s = 5 ${unit}`)}{label(280,300,`a = 6 ${unit}`)}{label(270,255,`3 ${unit}`)}</>}
  {kind==='cone'&&<><ellipse cx="260" cy="260" rx="150" ry="35"/><path d="M110 260L260 35L410 260M260 35V260M260 260H410"/><path d="M260 247h13v13"/>{label(270,150,`h = 4 ${unit}`)}{label(356,145,`s = 5 ${unit}`)}{label(300,283,`r = 3 ${unit}`)}</>}
  {kind==='sphere'&&<><circle cx="260" cy="160" r="120"/><ellipse cx="260" cy="160" rx="120" ry="35" strokeDasharray="6 5"/><path d="M260 160H380"/>{label(240,150,'O')}{label(285,150,`r = 3 ${unit}`)}</>}
- {kind==='composite'&&<><path d="M130 140A130 110 0 0 1 390 140V270M130 140V270"/><ellipse cx="260" cy="270" rx="130" ry="30"/><ellipse cx="260" cy="140" rx="130" ry="30" strokeDasharray="6 5"/><path d="M260 140H390"/>{label(280,130,`r = 3 ${unit}`)}{label(400,225,`h = 4 ${unit}`)}{label(160,310,ru?'Дно включено':'Bottom included')}</>}
+ {kind==='composite'&&<><path d="M130 140A130 110 0 0 1 390 140V270M130 140V270"/><ellipse cx="260" cy="270" rx="130" ry="30"/><ellipse cx="260" cy="140" rx="130" ry="30" strokeDasharray="6 5"/><path d="M260 140H390"/>{label(280,130,`r = 3 ${unit}`)}{label(400,225,`h = 4 ${unit}`)}{label(160,335,ru?'Дно включено':'Bottom included')}</>}
  {kind==='sss'&&<><path d="M80 160L250 35L420 160L250 285ZM80 160H420"/>{label(55,165,'A')}{label(245,25,'B')}{label(430,165,'C')}{label(245,310,'D')}{label(90,80,'AB = AD')}{label(310,80,'CB = CD')}{label(190,150,ru?'AC общая':'AC shared')}</>}
  {kind==='similarity'&&<><path d="M110 35L55 275H470ZM73 195H350"/>{label(95,25,'A')}{label(30,295,'B')}{label(475,295,'C')}{label(48,195,'D')}{label(355,193,'E')}{label(5,105,'AD = 8')}{label(185,215,'DE ∥ BC')}{label(280,125,'AC = 9')}{label(90,302,'AB = 12')}</>}
  {kind==='dilation'&&<><path d="M60 225H475M90 285V20M140 265L340 25" stroke="#87969b"/>{[[140,265],[240,145],[340,25]].map(([x,y],i)=><circle cx={x} cy={y} r="5" fill="#385f78" key={i}/>)}{label(155,280,'C(1,−1)')}{label(250,155,'P(3,2)')}{label(345,45,'P′(5,5)')}{label(420,288,'x')}{label(55,30,'y')}</>}
@@ -45,7 +45,7 @@ export function MathGapFigure({kind,language}:{kind:Figure;language:'en'|'ru'}) 
 export function MathMockGaps({lessonId,language}:{lessonId:string;language:'en'|'ru'}) {
  const blocks=(language==='ru'?mathMockGapsRu:mathMockGapsEn)[lessonId];const ru=language==='ru';
  if(!blocks)return null;
- return <section className="my-8 space-y-6" lang={language} aria-label={ru?'Разобранные примеры и самостоятельная практика':'Worked examples and independent practice'}>
+ return <section className="my-8 space-y-6 print:[&_h3]:break-after-avoid print:[&_h4]:break-after-avoid" lang={language} aria-label={ru?'Разобранные примеры и самостоятельная практика':'Worked examples and independent practice'}>
  {blocks.map(block=>{
   const sources=<ul className="list-disc pl-5 space-y-2">{block.sourceKeys.map(key=>{const source=mathGapSources[key];return <li key={key}><a className="underline" href={source.url} lang={source.language} target="_blank" rel="noreferrer">{source.title}</a> ({source.language.toUpperCase()})<p data-qa-allow-repeat="shared-bibliographic-locator">{source.section}</p></li>;})}</ul>;
   return <article className="border border-border rounded-xl p-4 md:p-6" key={block.id} id={`math-gap-${block.id}`}>

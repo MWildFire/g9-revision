@@ -18,11 +18,17 @@ export function hasRichMarks(text?: string | null): boolean {
   return /\n\s*\n/.test(value) || /(^|\n)[^\S\n]*-[^\S\n]/.test(value) || /\*\*[^*\n]+\*\*/.test(value);
 }
 
-export function RichText({ text, className, paragraphClassName, style }: { text?: string | null; className?: string; paragraphClassName?: string; style?: CSSProperties }) {
+export function RichText({ text, className, paragraphClassName, style, tables = false }: { text?: string | null; className?: string; paragraphClassName?: string; style?: CSSProperties; tables?:boolean }) {
   if (!text) return null;
   const blocks = text.trim().split(/\n\s*\n/);
   return <div className={['rich-text', className].filter(Boolean).join(' ')} style={style}>
     {blocks.map((block, index) => {
+      // Opt-in only for the two new language tables; other teaching keeps its prior structure.
+      const lines=block.split('\n'),cells=(line:string)=>line.trim().replace(/^\||\|$/g,'').split('|').map(s=>s.trim());
+      if(tables&&lines.length>=3&&/^\s*\|/.test(lines[0])&&/^\s*\|(?:\s*:?-{3,}:?\s*\|)+\s*$/.test(lines[1])){
+        const headings=cells(lines[0]),rows=lines.slice(2).map(cells);
+        if(rows.every(row=>row.length===headings.length))return <div key={index} role="region" tabIndex={0} aria-label={headings.join(' / ')} className="overflow-x-auto my-4 focus-visible:outline focus-visible:outline-2 print:overflow-visible"><table className="w-full min-w-[400px] print:min-w-0 border-collapse text-sm"><thead><tr>{headings.map((h,i)=><th key={i} scope="col" className="border border-border p-2 text-left"><bdi dir="auto">{inline(h)}</bdi></th>)}</tr></thead><tbody>{rows.map((row,r)=><tr key={r}>{row.map((cell,c)=>c===0?<th key={c} scope="row" className="border border-border p-2 text-left font-normal"><bdi dir="auto">{inline(cell)}</bdi></th>:<td key={c} className="border border-border p-2"><bdi dir="auto">{inline(cell)}</bdi></td>)}</tr>)}</tbody></table></div>;
+      }
       // consecutive "- " lines form one list; the other lines stay in a paragraph
       const groups: { list: boolean; lines: string[] }[] = [];
       for (const line of block.split('\n')) {

@@ -43,7 +43,7 @@ export function WritingWorkshops({ topicId, language = 'en' }: Props) {
           <h4 className="font-semibold">{t('Authored self-review prompts', 'Авторские вопросы для самопроверки')}</h4>
           <p className="text-sm">{workshops.rubricNote[lang]}</p>
           <ul className="space-y-2">
-            {model.selfReview.map((check, index) => <li key={`${model.id}-${index}`}><label className="flex gap-2 items-start"><input type="checkbox" className="mt-1" /><span><strong>{check.criterion}:</strong> {check.question[lang]}</span></label></li>)}
+            {model.selfReview.map((check, index) => <li key={`${model.id}-${index}`}><label className="flex gap-2 items-start" style={{display:'flex',alignItems:'flex-start',gap:8,breakInside:'avoid'}}><input type="checkbox" className="mt-1" style={{width:16,flexShrink:0,display:'inline-block'}} /><span><strong>{check.criterion}:</strong> {check.question[lang]}</span></label></li>)}
           </ul>
         </article>
       ))}

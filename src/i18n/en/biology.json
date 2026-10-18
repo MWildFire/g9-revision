@@ -2144,10 +2144,10 @@
             "name": "The body's response to exercise",
             "rule": "During exercise, working muscles need ATP faster than at rest. The heart pumps more blood each minute, breathing becomes faster and deeper, and blood is redirected to the muscles. Together these changes deliver more oxygen and remove more carbon dioxide. Aerobic and anaerobic pathways both supply ATP at the same time; their shares depend on how hard and how long the exercise lasts.",
             "examples": [
-              "A teenager's pulse is about 70–80 beats per minute at rest and can reach 160–180 during fast running.",
+              "Pulse rises during exercise to help supply working muscles. The increase depends on the effort, fitness and the individual; one numerical example is not a normal range for all teenagers.",
               "A 100 m sprint is powered mainly by anaerobic pathways, while a steady 30-minute run is powered mainly by aerobic respiration."
             ],
-            "tip": "Heart rate and breathing take a few minutes to reach a steady level. At the start of exercise, muscles use energy already stored in them until oxygen delivery catches up.",
+            "tip": "During constant moderate exercise, oxygen uptake can approach a steady level over a few minutes. At the start, stored ATP, phosphocreatine and anaerobic glycolysis supplement the increasing aerobic ATP supply. During very intense exercise, a steady level may not be reached before exercise stops.",
             "review": {
               "englishTerm": "The body's response to exercise",
               "russianTerm": "Реакция организма на нагрузку",
@@ -2172,8 +2172,8 @@
                 }
               ],
               "model": {
-                "en": "The numbers are typical for healthy teenagers. Trained athletes usually have a lower resting pulse and recover faster.",
-                "ru": "Числа — типичные значения для здоровых подростков. У тренированных людей пульс в покое обычно ниже, а восстановление быстрее."
+                "en": "Heart-rate responses vary between people and exercise conditions. Trained athletes often have a lower resting pulse and faster recovery, but one reading alone does not establish fitness.",
+                "ru": "Реакция пульса различается у разных людей и при разных условиях нагрузки. У тренированных спортсменов пульс в покое нередко ниже, а восстановление быстрее, но одно измерение само по себе не определяет тренированность."
               }
             }
           },
@@ -2182,7 +2182,7 @@
             "rule": "When exercise is hard, oxygen supply cannot keep up with demand, so anaerobic pathways cover the gap. After exercise, oxygen use stays above the resting level until energy stores are restored and the body returns to normal. This extra oxygen use is often called oxygen debt, or excess post-exercise oxygen consumption. Lactate is oxidised in the heart and muscles, or converted into glucose in the liver.",
             "examples": [
               "After hard exercise, the extra oxygen restores the phosphocreatine stores in the muscles and refills the oxygen held by myoglobin.",
-              "After a hard 400 m race, blood lactate can take about an hour to fall back to resting levels. A gentle jog speeds this up."
+              "After intense exercise, blood lactate falls during recovery. The time course varies with the effort and recovery conditions; suitable low-intensity active recovery can speed its removal from the blood."
             ],
             "tip": "Muscle soreness that starts a day or two after exercise is usually linked to tiny injuries in muscle fibres, not to lactate.",
             "review": {

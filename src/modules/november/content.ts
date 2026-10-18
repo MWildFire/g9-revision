@@ -1,3 +1,4 @@
+import {archivedBiologyTeaching,archivedBiologyPractice} from './biologyArchivedG9Review';
 import {englishGothicPractice} from './englishGothicBridge';
 import {englishSchoolPractice} from './englishSchoolPractice';
 import {preparationPractice,preparationTeaching} from './preparationDiagnostics';
@@ -179,3 +180,7 @@ for(const[topic,exercises]of Object.entries(englishSchoolPractice)){(practice[to
 
 // Three source-specific checks use the adopted public edition, not invented school extract boundaries.
 practice['e-analysis'].push(...englishGothicPractice);
+
+// Bounded archived G9 application practice; daily allocations remain unchanged.
+for (const [topic, sections] of Object.entries(archivedBiologyTeaching)) (supplements[topic] ??= []).push(...sections);
+for (const [topic, exercises] of Object.entries(archivedBiologyPractice)) practice[topic].push(...exercises);

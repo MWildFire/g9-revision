@@ -234,5 +234,55 @@
       "e-purpose-full-rehearsal"
     ],
     "teachingTitles": []
+  },
+  {
+    "id": "archived-g9-heart-evidence",
+    "topic": "b-transport",
+    "title": {
+      "en": "Archived G9: identify a heart from evidence",
+      "ru": "Архивная программа G9: распознай сердце по признакам"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 7,
+      "example": 5,
+      "attempt": 8,
+      "check": 5
+    },
+    "practiceIds": [
+      "g9-heart-specimen-evidence"
+    ],
+    "teachingTitles": [
+      "Archived G9: identify a heart from evidence"
+    ]
+  },
+  {
+    "id": "archived-g9-cf-inheritance",
+    "topic": "b-evolution",
+    "title": {
+      "en": "Archived G9: a named inherited disease",
+      "ru": "Архивная программа G9: наследование конкретной болезни"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 7,
+      "example": 5,
+      "attempt": 8,
+      "check": 5
+    },
+    "practiceIds": [
+      "g9-cystic-fibrosis-carrier-cross"
+    ],
+    "teachingTitles": [
+      "Archived G9: a named inherited disease"
+    ]
   }
 ]

@@ -205,5 +205,97 @@
       "school-surveillance-article"
     ],
     "teachingTitles": []
+  },
+  {
+    "id": "genre-letter-practice",
+    "topic": "e-purpose",
+    "title": {
+      "en": "Letter: ask Dr Sen to review the pause",
+      "ru": "Письмо: попросить доктора Сен обсудить остановку опыта"
+    },
+    "minutes": 35,
+    "range": [
+      35,
+      45
+    ],
+    "timing": {
+      "read": 3,
+      "example": 6,
+      "attempt": 20,
+      "check": 6
+    },
+    "practiceIds": [
+      "genre-letter"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "genre-narrative-practice",
+    "topic": "e-creative",
+    "title": {
+      "en": "Narrative: the sound that interrupts the plan",
+      "ru": "Рассказ: звук, который меняет ход решения"
+    },
+    "minutes": 35,
+    "range": [
+      35,
+      45
+    ],
+    "timing": {
+      "read": 3,
+      "example": 6,
+      "attempt": 20,
+      "check": 6
+    },
+    "practiceIds": [
+      "genre-narrative"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "genre-diary-practice",
+    "topic": "e-creative",
+    "title": {
+      "en": "Diary: was the pause enough?",
+      "ru": "Дневник: достаточно ли было остановиться?"
+    },
+    "minutes": 35,
+    "range": [
+      35,
+      45
+    ],
+    "timing": {
+      "read": 3,
+      "example": 6,
+      "attempt": 20,
+      "check": 6
+    },
+    "practiceIds": [
+      "genre-diary"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "genre-blog-practice",
+    "topic": "e-purpose",
+    "title": {
+      "en": "Blog: adapt a private doubt for the science club",
+      "ru": "Блог: превратить личное сомнение в пост для научного клуба"
+    },
+    "minutes": 35,
+    "range": [
+      35,
+      45
+    ],
+    "timing": {
+      "read": 3,
+      "example": 6,
+      "attempt": 20,
+      "check": 6
+    },
+    "practiceIds": [
+      "genre-blog"
+    ],
+    "teachingTitles": []
   }
 ]

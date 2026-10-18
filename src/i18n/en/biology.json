@@ -1148,8 +1148,8 @@
               "englishTerm": "Diffusion",
               "russianTerm": "Диффузия",
               "contrast": {
-                "en": "Diffusion moves any particles, such as gases or dissolved sugar, from high to low concentration, with or without a membrane.",
-                "ru": "Диффузия переносит любые частицы, например газы или растворённый сахар, из области высокой концентрации в низкую, с мембраной или без неё."
+                "en": "In the simple uncharged-particle model, diffusion is net movement down a concentration gradient and can occur with or without a membrane. For an ion across a membrane, charge and the electrical potential difference also affect passive movement; compare its electrochemical gradient.",
+                "ru": "В простой модели незаряженных частиц диффузия — суммарное движение по градиенту концентрации; оно может происходить с мембраной или без неё. Для иона при переносе через мембрану на пассивное движение влияют также заряд и разность электрических потенциалов: сравнивают электрохимический градиент."
               },
               "sources": [
                 {
@@ -1254,7 +1254,7 @@
               "The wall of an alveolus is only one cell thick, so oxygen diffuses quickly from the air into the blood.",
               "Insect tracheae carry air close to tissues; many insects also ventilate their tracheal systems."
             ],
-            "tip": "A good gas exchange surface has a large surface area, thin walls, a steep concentration difference, a moist surface and good ventilation or circulation. Name these features in any gas-exchange answer.",
+            "tip": "Common adaptations for gas exchange include a large area, a thin barrier and conditions that maintain a diffusion gradient. Gases dissolve in a moist surface layer before crossing cell membranes. In lungs, ventilation and blood circulation help maintain the gradients. In an answer, explain the features that apply to the named organism and surface.",
             "review": {
               "englishTerm": "Gas exchange surface",
               "russianTerm": "Поверхность газообмена",
@@ -1342,7 +1342,7 @@
               "The left ventricle has the thickest wall, because it pumps blood around the whole body and needs to generate higher pressure. The right ventricle's wall is thinner, because it pumps blood only to the nearby lungs.",
               "A heart attack happens when a coronary artery is blocked, so part of the heart muscle gets no blood and no oxygen."
             ],
-            "tip": "Remember the roles: atria receive blood from veins, and ventricles pump it out into arteries. In an exam question, 'receives' points to an atrium, and 'pumps out' points to a ventricle.",
+            "tip": "Atria receive blood returning in veins and pass it to ventricles; ventricles pump blood into arteries. In an exam, identify the named source and destination. Every chamber receives blood, and atria also contract to push blood into ventricles.",
             "review": {
               "englishTerm": "heart",
               "russianTerm": "сердце",
@@ -2368,8 +2368,8 @@
               "englishTerm": "Diabetes mellitus",
               "russianTerm": "Сахарный диабет",
               "contrast": {
-                "en": "Type 1 always needs insulin injections. Type 2 is often controlled with diet, exercise and medicines.",
-                "ru": "Диабет 1-го типа всегда требует уколов инсулина. Диабет 2-го типа часто контролируют питанием, физической активностью и лекарствами."
+                "en": "Type 1 diabetes requires insulin replacement, delivered by injections or an insulin pump as prescribed. Type 2 is often managed with diet, physical activity and medicines; some people also need insulin.",
+                "ru": "При диабете 1-го типа требуется инсулинотерапия: инсулин вводят инъекциями или с помощью помпы по назначению врача. Диабет 2-го типа часто контролируют питанием, физической активностью и лекарствами; некоторым людям также нужен инсулин."
               },
               "sources": [
                 {

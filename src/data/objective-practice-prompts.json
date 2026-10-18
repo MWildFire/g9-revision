@@ -2672,5 +2672,33 @@
       "en": "Article transfer · For a fictional student magazine, write a 350–450-word article arguing AGAINST making corridor cameras a permanent default. Engage fairly with the model article’s case for a limited trial and propose a workable alternative. Include a headline, fictional byline, a readable opening, developed paragraphs and a considered ending. Use hypothetical examples honestly; do not invent a survey or incident as evidence. This is an original practice target.",
       "ru": "Перенос в статью · Для вымышленного ученического журнала напиши статью на английском, 350–450 слов, ПРОТИВ того, чтобы постоянные камеры в коридорах стали правилом по умолчанию. Честно ответь на довод образца в пользу ограниченного испытания и предложи выполнимую альтернативу. Нужны заголовок, вымышленное имя автора, понятное начало, развёрнутые абзацы и обдуманный финал. Помечай воображаемые ситуации; не выдавай придуманный опрос или случай за доказательство. Это авторское тренировочное задание."
     }
+  },
+  {
+    "id": "genre-letter",
+    "prompt": {
+      "en": "Write a complete connected letter from Mara to her younger brother Ben about the same pause. He is your named reader, not a laboratory supervisor. Explain what you had failed to ask him, acknowledge how your instructions affected his ability to speak, and make a specific request that gives him room to disagree. Choose a greeting and closing that fit this sibling relationship. Develop your own wording through to an ending rather than copying the model with a new name.",
+      "ru": "Напиши целое связное письмо Мары младшему брату Бену об этой же остановке опыта. Теперь конкретный читатель — брат, а не руководитель лаборатории. Объясни, о чём Мара не спросила его раньше, признай, как её указания мешали ему высказаться, и сформулируй конкретную просьбу, допускающую несогласие. Выбери подходящие для брата приветствие и завершение. Доведи собственный текст до конца: одной замены имени в образце недостаточно."
+    }
+  },
+  {
+    "id": "genre-narrative",
+    "prompt": {
+      "en": "Write a complete connected scene in the past tense from Ben's viewpoint outside the laboratory. Keep the humming, Mara's pause and her decision to seek his questions. You may use first person or close third person. Let Ben hear Mara say, 'I am leaving the switch alone.' Make that observation change what he expects or chooses to say. He cannot see her notebook or know her private thoughts through the wall: distinguish his guesses from what he hears, and carry the change into an ending.",
+      "ru": "Напиши целую связную сцену в прошедшем времени с точки зрения Бена за дверью лаборатории. Сохрани мелодию, паузу Мары и её решение выслушать его вопросы. Можно выбрать первое лицо или третье лицо с ограничением восприятием Бена. Пусть он услышит: «I am leaving the switch alone.» Эта реплика должна изменить его ожидание или выбор следующей реплики. Сквозь стену ему не видны записи Мары и недоступны её мысли: отделяй догадки от услышанного и доведи поворот до финала."
+    }
+  },
+  {
+    "id": "genre-diary",
+    "prompt": {
+      "en": "Write a complete connected private diary entry by Mara after a conversation with Ben. For this fictional continuation, use his new reply: 'I asked about me, not the wires.' Explain which earlier belief this challenges, weigh another possible interpretation, and show a reasoned change of mind followed by a specific intention. Situate the entry after that conversation. You may keep some uncertainty; develop reflection rather than only retelling the pause or copying the evening entry.",
+      "ru": "Напиши целую связную личную запись Мары после разговора с Беном. В этом вымышленном продолжении используй новый для её размышления ответ: «I asked about me, not the wires.» Объясни, какое прежнее убеждение он ставит под сомнение, рассмотри и другое возможное толкование, затем покажи обоснованное изменение мысли и конкретное намерение. Обозначь, что запись появилась после разговора. Неопределённость может остаться; развивай размышление, а не только пересказывай остановку или копируй вечерний образец."
+    }
+  },
+  {
+    "id": "genre-blog",
+    "prompt": {
+      "en": "Adapt Mara's private diary reflection into a complete connected fictional blog post for families reading a school newsletter, including readers with no laboratory experience. Give the post a suitable title and opening, explain the pause in accessible terms, and develop why asking another person can change a plan. Decide which private detail to omit and keep that omission consistent throughout. End with a thought or invitation suited to families. After the post, briefly explain one disclosure choice; do not include real private experiences or identities.",
+      "ru": "Переработай личное дневниковое размышление Мары в целый связный вымышленный пост для семей, читающих школьный информационный бюллетень, в том числе людей без лабораторного опыта. Подбери заголовок и начало, понятно объясни остановку и развей мысль о том, как вопрос другому человеку может изменить план. Реши, какую личную подробность опустить, и не раскрывай её дальше случайно. Заверши мыслью или приглашением, подходящим семьям. После поста кратко объясни одно решение о раскрытии информации; не используй реальные личные истории и имена."
+    }
   }
 ]

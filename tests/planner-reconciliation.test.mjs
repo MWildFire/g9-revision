@@ -53,3 +53,20 @@ test('8November designated recap is eligible before the first exam without using
  state.arabic=true;q=dueReviews(days,plan.topics,state,'2026-11-08');assert.equal(q.find(r=>r.topic.id==='a-language').due,true);assert.equal(dayMinutes(days.find(d=>d.date==='2026-11-08'),true),60);
  const ordinary=days.map(d=>({...d,recall:0,blocks:d.blocks.map(b=>({...b,recallPurpose:false}))}));assert.ok(dueReviews(ordinary,plan.topics,state,'2026-11-08').every(r=>!r.due));
 });
+
+test('genre compositions are optional one-for-one replacements and never increase a day or complete displaced work',()=>{
+ const genres=JSON.parse(fs.readFileSync('src/modules/english/data/genre-composition.json'));
+ const portions=JSON.parse(fs.readFileSync('src/data/english-school-practice-portions.json')).filter(p=>genres.some(g=>p.id===g.id+'-practice'));
+ for(const portion of portions){
+  const original=plan.days.find(d=>d.date==='2026-11-06'),state=freshPlan();
+  state.replacements={'chemistry-partial':portion.id};
+  const changed=applyReplacements(original,state,[...sessions,...portions]);
+  assert.equal(changed.blocks.find(b=>b.id==='chemistry-partial').sessions[0],portion.id);
+  assert.ok(dayMinutes(changed,false)<=dayMinutes(original,false));
+  const replacement=changed.blocks.find(b=>b.id==='chemistry-partial');state.completed[blockCompletionKey(replacement)]='2026-11-06';
+  assert.equal(state.completed['chemistry-partial'],undefined);
+  assert.ok(remainingPastBlocks([original],state,'2026-11-08').some(row=>row.block.id==='chemistry-partial'));
+  for(const saturday of plan.days.filter(d=>d.rest))assert.deepEqual(applyReplacements(saturday,state,portions),saturday);
+ }
+ assert.equal(portions.length,4);
+});

@@ -13,3 +13,6 @@
 @media print {
   .november h2, .november h3, .november summary { break-after: avoid; }
 }
+
+/* Short Arabic paradigm forms stay whole; their labelled table region scrolls on narrow screens. */
+.november td[lang="ar"]{white-space:nowrap;word-break:normal;overflow-wrap:normal}

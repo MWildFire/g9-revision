@@ -3887,6 +3887,14 @@
         {
           "kind": "json",
           "file": "src/data/objective-practice-prompts.json"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/components/GenreComposition.tsx"
+        },
+        {
+          "kind": "json",
+          "file": "src/modules/english/data/genre-composition.json"
         }
       ]
     }

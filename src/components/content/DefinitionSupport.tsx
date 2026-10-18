@@ -72,7 +72,7 @@ export function DefinitionSupport({ review, language, formulaContext }: { review
   const ru = lang === 'ru';
   const sourceHeading = ru ? 'Источники к этому объяснению' : 'Sources for this explanation';
   const sourceList = <ul>{review.sources?.map((source, index) => <li key={`${source.url}:${source.section}:${index}`}>
-    <a href={source.url} lang={source.language} target="_blank" rel="noreferrer">{source.title}</a>{' '}
+    <a href={source.url} lang={source.language} target="_blank" rel="noreferrer">{source.title || source.section || source.url}</a>{' '}
     <span className="definition-source-language" aria-label={`${ru ? 'Язык источника' : 'Source language'}: ${source.language.toUpperCase()}`}>{source.language.toUpperCase()}</span>
     <span className="definition-source-section">{source.section}</span>
   </li>)}</ul>;

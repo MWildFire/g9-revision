@@ -22347,7 +22347,7 @@
       "sourceId": "physics",
       "sourceLocator": "Current six-group physics checklist, ability 4; topic presence does not establish examination mastery.",
       "scopeStatus": "confirmed-current",
-      "lessonPath": "/november/p-energy",
+      "lessonPath": "/november/p-energy?part=diagnostic-spring-energy-diagnostic",
       "canonicalTeachingPointers": [
         {
           "file": "src/i18n/en/physics.json",
@@ -23395,7 +23395,7 @@
       "sourceId": "physics",
       "sourceLocator": "Current six-group physics checklist, ability 13; topic presence does not establish examination mastery.",
       "scopeStatus": "confirmed-current",
-      "lessonPath": "/november/p-matter",
+      "lessonPath": "/november/p-matter?part=diagnostic-gas-controls-diagnostic",
       "canonicalTeachingPointers": [
         {
           "file": "src/modules/november/content.ts",
@@ -23576,7 +23576,7 @@
       "sourceId": "physics",
       "sourceLocator": "Current six-group physics checklist, ability 14; topic presence does not establish examination mastery.",
       "scopeStatus": "confirmed-current",
-      "lessonPath": "/november/p-matter",
+      "lessonPath": "/november/p-matter?part=diagnostic-gas-controls-diagnostic",
       "canonicalTeachingPointers": [
         {
           "file": "src/modules/november/content.ts",
@@ -24854,7 +24854,7 @@
       "sourceId": "physics",
       "sourceLocator": "Current six-group physics checklist, ability 23; topic presence does not establish examination mastery.",
       "scopeStatus": "confirmed-current",
-      "lessonPath": "/november/p-electric",
+      "lessonPath": "/november/p-electric?part=diagnostic-electron-transfer-diagnostic",
       "canonicalTeachingPointers": [
         {
           "file": "src/modules/november/content.ts",
@@ -49336,6 +49336,446 @@
         "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
         "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
       }
+    },
+    {
+      "objectiveId": "ENG-GENRE-LETTER",
+      "subject": "english",
+      "title": {
+        "en": "Letter: ask Dr Sen to review the pause",
+        "ru": "Письмо: попросить доктора Сен обсудить остановку опыта"
+      },
+      "sourceId": "english",
+      "sourceLocator": "Archived prescribed revision sheet posted 5 October (year not displayed), page 3 text-type list: Letter, Narrative, Diary, Blog. Original equivalent composition practice, not a guaranteed unseen examination prompt.",
+      "scopeStatus": "confirmed-archived",
+      "lessonPath": "/november/e-purpose?part=genre-letter-practice",
+      "canonicalTeachingPointers": [
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/0/teaching/en",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/0/teaching/ru",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/0/model",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/0/workedMove/en",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/0/workedMove/ru",
+          "availability": "current"
+        }
+      ],
+      "workedExamplePointer": {
+        "file": "src/modules/english/data/genre-composition.json",
+        "jsonPointer": "/0/model",
+        "availability": "current"
+      },
+      "practiceIds": [
+        "genre-letter"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/0/answer/en",
+          "availability": "current",
+          "questionId": "genre-letter",
+          "rubricClause": "Check whether Ben can tell why Mara is writing, what she takes responsibility for and what she is actually asking him to do. Does the request allow refusal, rather than quietly demand reassurance? Do the greeting, vocabulary and closing sound like one sister speaking to her brother? A possible transfer opening is: 'Dear Ben, I told you to wait outside, but I never asked what you needed to know before agreeing to wait.' This identifies her part in the problem without treating him as a supervisor. A developed request could be: 'Would you tell me which questions I left unanswered? You do not have to tell me that everything is fine.' Explain how your chosen request changes the balance between them. A warmer or more reserved sibling voice can also work if the relationship and purpose remain clear.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/0/answer/ru",
+          "availability": "current",
+          "questionId": "genre-letter",
+          "rubricClause": "Проверь, поймёт ли Бен цель письма, за что Мара отвечает и чего именно просит. Может ли он отказаться, или за просьбой скрыто требование успокоить сестру? Согласуются ли приветствие, словарь и завершение с отношениями брата и сестры? Возможное начало: «Dear Ben, I told you to wait outside, but I never asked what you needed to know before agreeing to wait.» Здесь Мара признаёт собственное упущение и не обращается с братом как с начальником. Просьбу можно развить так: «Would you tell me which questions I left unanswered? You do not have to tell me that everything is fine.» Объясни, как твоя просьба даёт Бену больше права голоса. Допустимы и более тёплый, и более сдержанный тон, если адресат и цель остаются понятными.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        }
+      ],
+      "sessionIds": [
+        "genre-letter-practice"
+      ],
+      "prerequisites": [],
+      "timingRange": [
+        35,
+        45
+      ],
+      "replaceableBlockIds": [
+        "biology-full",
+        "physics-partial",
+        "chemistry-partial"
+      ],
+      "unplacedReason": {
+        "en": "Optional composition choice for one existing replacement window. Choose a weak genre after a diagnostic; the four variants are not four new scheduled obligations. If no window fits, leave the work visible rather than doubling the next day.",
+        "ru": "Вариант письменной практики для одного существующего окна замены. Выбирай слабый жанр по результату попытки; четыре варианта не добавляют четыре обязательных занятия. Если окна нет, оставь работу видимой, не удваивая следующий день."
+      },
+      "diagnosticStatus": "unassessed",
+      "bindingStatus": "proposed-not-independent-acceptance",
+      "diagnosticEvidenceRequired": {
+        "en": "Attempt the selected question without its answer, then compare the stated rubric clause and record the correction. Reading a model is not a diagnostic pass.",
+        "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
+      },
+      "topicId": "e-purpose",
+      "existingSessionRange": [
+        35,
+        45
+      ],
+      "placementNote": {
+        "en": "One 35-minute authored portion shares the existing flexible capacity with all other choices. Its minutes are not added to any day; displaced work stays unfinished.",
+        "ru": "Авторская порция на 35 минут использует общее существующее время вместе с другими вариантами. Минуты не добавляются к дням; вытесненная работа остаётся невыполненной."
+      },
+      "portionGroupId": "genre-letter-practice",
+      "coverageStatus": "equivalent-genre-composition-practice-not-confirmed-exam-texts",
+      "currentSourceVerification": "three-page-prescribed-practice-observed-by-coordinator; final-source-alignment-review-pending",
+      "modelAttachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "portionMinutes": 35,
+      "placementStatus": "selectable-replacement-not-scheduled",
+      "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "availablePracticeIds": [
+        "genre-letter"
+      ],
+      "timingBasis": "author-estimate-3read-6model-20attempt-6check; not-school-limit",
+      "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+    },
+    {
+      "objectiveId": "ENG-GENRE-NARRATIVE",
+      "subject": "english",
+      "title": {
+        "en": "Narrative: the sound that interrupts the plan",
+        "ru": "Рассказ: звук, который меняет ход решения"
+      },
+      "sourceId": "english",
+      "sourceLocator": "Archived prescribed revision sheet posted 5 October (year not displayed), page 3 text-type list: Letter, Narrative, Diary, Blog. Original equivalent composition practice, not a guaranteed unseen examination prompt.",
+      "scopeStatus": "confirmed-archived",
+      "lessonPath": "/november/e-creative?part=genre-narrative-practice",
+      "canonicalTeachingPointers": [
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/1/teaching/en",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/1/teaching/ru",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/1/model",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/1/workedMove/en",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/1/workedMove/ru",
+          "availability": "current"
+        }
+      ],
+      "workedExamplePointer": {
+        "file": "src/modules/english/data/genre-composition.json",
+        "jsonPointer": "/1/model",
+        "availability": "current"
+      },
+      "practiceIds": [
+        "genre-narrative"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/1/answer/en",
+          "availability": "current",
+          "questionId": "genre-narrative",
+          "rubricClause": "Trace the scene through what Ben hears, thinks and then does. Is his changed response caused by a particular observation? Check past-tense control and mark any guess about Mara as a guess. For example: 'Ben stopped humming when he heard, “I am leaving the switch alone.” He had been waiting for another instruction. Perhaps this time there would be room for a question.' The quotation gives him audible evidence; 'perhaps' keeps his expectation uncertain. The scene could then end with him asking what she has not tested, instead of simply obeying another instruction. He need not become reassured: a cautious question or a refusal to accept a vague promise could produce a different meaningful ending. Remove any sentence that reports her unseen writing or states her private motive as something he knows.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/1/answer/ru",
+          "availability": "current",
+          "questionId": "genre-narrative",
+          "rubricClause": "Проследи цепочку: что Бен услышал, как это понял и что сделал после. Вызвано ли изменение конкретной деталью? Проверь прошедшее время и обозначь догадки о Маре именно как догадки. Например: «Ben stopped humming when he heard, “I am leaving the switch alone.” He had been waiting for another instruction. Perhaps this time there would be room for a question.» Реплика даёт слышимое основание, а «perhaps» сохраняет неопределённость ожидания. В конце Бен может спросить о непроверенном вместо очередного послушного ожидания. Он не обязан успокоиться: осторожный вопрос или отказ принять расплывчатое обещание тоже могут завершить содержательный поворот. Убери фразы, где ему известны невидимая запись или скрытый мотив Мары.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        }
+      ],
+      "sessionIds": [
+        "genre-narrative-practice"
+      ],
+      "prerequisites": [],
+      "timingRange": [
+        35,
+        45
+      ],
+      "replaceableBlockIds": [
+        "biology-full",
+        "physics-partial",
+        "chemistry-partial"
+      ],
+      "unplacedReason": {
+        "en": "Optional composition choice for one existing replacement window. Choose a weak genre after a diagnostic; the four variants are not four new scheduled obligations. If no window fits, leave the work visible rather than doubling the next day.",
+        "ru": "Вариант письменной практики для одного существующего окна замены. Выбирай слабый жанр по результату попытки; четыре варианта не добавляют четыре обязательных занятия. Если окна нет, оставь работу видимой, не удваивая следующий день."
+      },
+      "diagnosticStatus": "unassessed",
+      "bindingStatus": "proposed-not-independent-acceptance",
+      "diagnosticEvidenceRequired": {
+        "en": "Attempt the selected question without its answer, then compare the stated rubric clause and record the correction. Reading a model is not a diagnostic pass.",
+        "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
+      },
+      "topicId": "e-creative",
+      "existingSessionRange": [
+        35,
+        45
+      ],
+      "placementNote": {
+        "en": "One 35-minute authored portion shares the existing flexible capacity with all other choices. Its minutes are not added to any day; displaced work stays unfinished.",
+        "ru": "Авторская порция на 35 минут использует общее существующее время вместе с другими вариантами. Минуты не добавляются к дням; вытесненная работа остаётся невыполненной."
+      },
+      "portionGroupId": "genre-narrative-practice",
+      "coverageStatus": "equivalent-genre-composition-practice-not-confirmed-exam-texts",
+      "currentSourceVerification": "three-page-prescribed-practice-observed-by-coordinator; final-source-alignment-review-pending",
+      "modelAttachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "portionMinutes": 35,
+      "placementStatus": "selectable-replacement-not-scheduled",
+      "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "availablePracticeIds": [
+        "genre-narrative"
+      ],
+      "timingBasis": "author-estimate-3read-6model-20attempt-6check; not-school-limit",
+      "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+    },
+    {
+      "objectiveId": "ENG-GENRE-DIARY",
+      "subject": "english",
+      "title": {
+        "en": "Diary: was the pause enough?",
+        "ru": "Дневник: достаточно ли было остановиться?"
+      },
+      "sourceId": "english",
+      "sourceLocator": "Archived prescribed revision sheet posted 5 October (year not displayed), page 3 text-type list: Letter, Narrative, Diary, Blog. Original equivalent composition practice, not a guaranteed unseen examination prompt.",
+      "scopeStatus": "confirmed-archived",
+      "lessonPath": "/november/e-creative?part=genre-diary-practice",
+      "canonicalTeachingPointers": [
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/2/teaching/en",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/2/teaching/ru",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/2/model",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/2/workedMove/en",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/2/workedMove/ru",
+          "availability": "current"
+        }
+      ],
+      "workedExamplePointer": {
+        "file": "src/modules/english/data/genre-composition.json",
+        "jsonPointer": "/2/model",
+        "availability": "current"
+      },
+      "practiceIds": [
+        "genre-diary"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/2/answer/en",
+          "availability": "current",
+          "questionId": "genre-diary",
+          "rubricClause": "Locate the earlier belief, the new evidence and the revised belief in your entry. Does Ben's actual sentence justify that change, or have you claimed to know everything he feels? A possible move is: 'After our conversation, I cannot call my explanation complete. “I asked about me, not the wires,” Ben said. I thought a technical answer would reassure him; now I think I answered the question I preferred.' This explains a revision rather than merely announcing guilt. Mara might then intend to ask what waiting outside meant to him and listen before defending herself. Alternatively, she could recognise that technical answers still matter but are insufficient on their own. Check that the intention follows the interpretation and that the language sounds like private thought, with room for doubt, rather than a public lesson addressed to readers.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/2/answer/ru",
+          "availability": "current",
+          "questionId": "genre-diary",
+          "rubricClause": "Найди в записи прежнее убеждение, новое основание и пересмотренную мысль. Действительно ли слова Бена обосновывают этот сдвиг, или Мара приписывает себе полное знание его чувств? Возможный ход: «After our conversation, I cannot call my explanation complete. “I asked about me, not the wires,” Ben said. I thought a technical answer would reassure him; now I think I answered the question I preferred.» Здесь объяснено изменение взгляда, а не просто заявлено чувство вины. Далее Мара может решить спросить, что для него значило ждать за дверью, и выслушать без самооправдания. Другой убедительный вывод: технические ответы нужны, но одних их недостаточно. Проверь связь намерения с выводом и личный, допускающий сомнение голос; запись не должна превращаться в публичное наставление читателям.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        }
+      ],
+      "sessionIds": [
+        "genre-diary-practice"
+      ],
+      "prerequisites": [],
+      "timingRange": [
+        35,
+        45
+      ],
+      "replaceableBlockIds": [
+        "biology-full",
+        "physics-partial",
+        "chemistry-partial"
+      ],
+      "unplacedReason": {
+        "en": "Optional composition choice for one existing replacement window. Choose a weak genre after a diagnostic; the four variants are not four new scheduled obligations. If no window fits, leave the work visible rather than doubling the next day.",
+        "ru": "Вариант письменной практики для одного существующего окна замены. Выбирай слабый жанр по результату попытки; четыре варианта не добавляют четыре обязательных занятия. Если окна нет, оставь работу видимой, не удваивая следующий день."
+      },
+      "diagnosticStatus": "unassessed",
+      "bindingStatus": "proposed-not-independent-acceptance",
+      "diagnosticEvidenceRequired": {
+        "en": "Attempt the selected question without its answer, then compare the stated rubric clause and record the correction. Reading a model is not a diagnostic pass.",
+        "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
+      },
+      "topicId": "e-creative",
+      "existingSessionRange": [
+        35,
+        45
+      ],
+      "placementNote": {
+        "en": "One 35-minute authored portion shares the existing flexible capacity with all other choices. Its minutes are not added to any day; displaced work stays unfinished.",
+        "ru": "Авторская порция на 35 минут использует общее существующее время вместе с другими вариантами. Минуты не добавляются к дням; вытесненная работа остаётся невыполненной."
+      },
+      "portionGroupId": "genre-diary-practice",
+      "coverageStatus": "equivalent-genre-composition-practice-not-confirmed-exam-texts",
+      "currentSourceVerification": "three-page-prescribed-practice-observed-by-coordinator; final-source-alignment-review-pending",
+      "modelAttachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "portionMinutes": 35,
+      "placementStatus": "selectable-replacement-not-scheduled",
+      "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "availablePracticeIds": [
+        "genre-diary"
+      ],
+      "timingBasis": "author-estimate-3read-6model-20attempt-6check; not-school-limit",
+      "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+    },
+    {
+      "objectiveId": "ENG-GENRE-BLOG",
+      "subject": "english",
+      "title": {
+        "en": "Blog: adapt a private doubt for the science club",
+        "ru": "Блог: превратить личное сомнение в пост для научного клуба"
+      },
+      "sourceId": "english",
+      "sourceLocator": "Archived prescribed revision sheet posted 5 October (year not displayed), page 3 text-type list: Letter, Narrative, Diary, Blog. Original equivalent composition practice, not a guaranteed unseen examination prompt.",
+      "scopeStatus": "confirmed-archived",
+      "lessonPath": "/november/e-purpose?part=genre-blog-practice",
+      "canonicalTeachingPointers": [
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/3/teaching/en",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/3/teaching/ru",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/3/model",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/3/workedMove/en",
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/3/workedMove/ru",
+          "availability": "current"
+        }
+      ],
+      "workedExamplePointer": {
+        "file": "src/modules/english/data/genre-composition.json",
+        "jsonPointer": "/3/model",
+        "availability": "current"
+      },
+      "practiceIds": [
+        "genre-blog"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/3/answer/en",
+          "availability": "current",
+          "questionId": "genre-blog",
+          "rubricClause": "Check that families can understand the situation without already knowing the diary or laboratory vocabulary. Does each paragraph develop the public purpose? Has a private detail actually been removed, including from the ending? A possible new opening is: 'A Plan Needs More Than One Voice. While preparing an experiment, I realised I had told someone where to wait without asking what they needed to know.' It provides context for non-specialists and makes the decision, rather than machinery, the focus. A later move could invite families to consider who has had a chance to question a shared plan; it should not claim every disagreement has an easy solution. In your explanation, you might say you omitted the admission about enjoying unquestioning trust because it exposes a private relationship without helping this readership follow the central idea. A less personal public voice can also work. Evaluate your actual choices rather than requiring a question or first-person opening.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/english/data/genre-composition.json",
+          "jsonPointer": "/3/answer/ru",
+          "availability": "current",
+          "questionId": "genre-blog",
+          "rubricClause": "Проверь, понятна ли ситуация семье, которая не читала дневник и не знает лабораторной терминологии. Развивает ли каждый абзац цель публикации? Действительно ли личная подробность убрана, в том числе из финала? Возможное новое начало: «A Plan Needs More Than One Voice. While preparing an experiment, I realised I had told someone where to wait without asking what they needed to know.» Оно даёт неспециалистам контекст и сосредоточивает внимание на решении. Далее можно предложить семьям подумать, кто получил возможность задать вопросы об общем плане, не обещая лёгкого разрешения любого разногласия. В пояснении можно указать: признание об удовольствии от безоговорочного доверия опущено, потому что раскрывает личные отношения, но не помогает этой аудитории понять основную мысль. Подойдёт и менее личный публичный голос. Оцени собственный выбор материала и языка, а не совпадение местоимений или формы начала с образцом.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        }
+      ],
+      "sessionIds": [
+        "genre-blog-practice"
+      ],
+      "prerequisites": [],
+      "timingRange": [
+        35,
+        45
+      ],
+      "replaceableBlockIds": [
+        "biology-full",
+        "physics-partial",
+        "chemistry-partial"
+      ],
+      "unplacedReason": {
+        "en": "Optional composition choice for one existing replacement window. Choose a weak genre after a diagnostic; the four variants are not four new scheduled obligations. If no window fits, leave the work visible rather than doubling the next day.",
+        "ru": "Вариант письменной практики для одного существующего окна замены. Выбирай слабый жанр по результату попытки; четыре варианта не добавляют четыре обязательных занятия. Если окна нет, оставь работу видимой, не удваивая следующий день."
+      },
+      "diagnosticStatus": "unassessed",
+      "bindingStatus": "proposed-not-independent-acceptance",
+      "diagnosticEvidenceRequired": {
+        "en": "Attempt the selected question without its answer, then compare the stated rubric clause and record the correction. Reading a model is not a diagnostic pass.",
+        "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
+      },
+      "topicId": "e-purpose",
+      "existingSessionRange": [
+        35,
+        45
+      ],
+      "placementNote": {
+        "en": "One 35-minute authored portion shares the existing flexible capacity with all other choices. Its minutes are not added to any day; displaced work stays unfinished.",
+        "ru": "Авторская порция на 35 минут использует общее существующее время вместе с другими вариантами. Минуты не добавляются к дням; вытесненная работа остаётся невыполненной."
+      },
+      "portionGroupId": "genre-blog-practice",
+      "coverageStatus": "equivalent-genre-composition-practice-not-confirmed-exam-texts",
+      "currentSourceVerification": "three-page-prescribed-practice-observed-by-coordinator; final-source-alignment-review-pending",
+      "modelAttachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "portionMinutes": 35,
+      "placementStatus": "selectable-replacement-not-scheduled",
+      "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
+      "availablePracticeIds": [
+        "genre-blog"
+      ],
+      "timingBasis": "author-estimate-3read-6model-20attempt-6check; not-school-limit",
+      "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     }
   ]
 }

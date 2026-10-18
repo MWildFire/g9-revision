@@ -247,3 +247,5 @@ input[type='range']::-moz-range-thumb {
 
 /* Printing an energy profile after a tab scroll must not overlay its fixed navigation on teaching. */
 @media print{body:has(.energy-profile-diagram) .app-header{display:none!important}}
+/* The long daily plan must not print its sticky navigation over study rows. */
+@media print{body:has(.revision-plan-page) .app-header{display:none!important}}

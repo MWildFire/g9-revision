@@ -42,7 +42,7 @@ export function RevisionPlanPage() {
   function toggle(id: string) { setState(current => { const completed = { ...current.completed }; if (completed[id]) delete completed[id]; else completed[id] = today; return { ...current, completed }; }); }
   function togglePart(id:string){setState(current=>togglePlanPart(days,current,id,today));}
   function markReview(id:string,dates:string[]){setState(current=>recordRetrieval(current,id,dates,today));}
-  return <main className="max-w-6xl mx-auto px-4 md:px-6 py-9 [overflow-wrap:anywhere]" lang={lang}>
+  return <main className="revision-plan-page max-w-6xl mx-auto px-4 md:px-6 py-9 [overflow-wrap:anywhere]" lang={lang}>
     <p className="uppercase tracking-widest text-xs text-text-secondary mb-3">MYP · Grade 10 · 2026</p>
     <h1 className="text-3xl md:text-5xl mb-4">{ru ? 'Готовься спокойно. Заходи на экзамен уверенно.' : 'Prepare calmly. Walk in with confidence.'}</h1>
     <p className="text-lg max-w-3xl text-text-secondary mb-7">{ru ? 'План с 11 октября до пробных экзаменов (mocks) 9–13 ноября. Основные темы пройди до 4 ноября, затем закрепи. Открой день, занимайся здесь и проверь, что можешь сделать без подсказок.' : 'Your plan runs from 11 October to the 9–13 November mocks. Cover the core topics by 4 November, then consolidate. Open a day, study here and check what you can do without help.'}</p>

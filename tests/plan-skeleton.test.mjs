@@ -12,7 +12,9 @@ const skeleton = JSON.parse(read('tests/fixtures/plan-skeleton.json'));
 
 test('plan dates, block ids, minutes, topics and study portions are unchanged', () => {
   const now = {
-    days: plan.days.map(d => ({ date: d.date, recall: d.recall, blocks: d.blocks.map(b => ({ id: b.id, minutes: b.minutes, topics: b.topics, sessions: b.sessions })) })),
+    // CS-SCHED06 explicitly adds only these two bounded reserve blocks. Every
+    // original identity remains locked to its original fixture and history.
+    days: plan.days.map(d => ({ date: d.date, recall: d.recall, blocks: d.blocks.filter(b=>!['reserve-2026-11-03','reserve-2026-11-04'].includes(b.id)).map(b => ({ id: b.id, minutes: b.minutes, topics: b.topics, sessions: b.sessions })) })),
     topics: plan.topics.map(t => t.id),
     sessions: sessions.map(s => ({ id: s.id, topic: s.topic, minutes: s.minutes })),
   };

@@ -393,6 +393,10 @@
         },
         {
           "kind": "tsx",
+          "file": "src/modules/revision-plan/PlanParts.tsx"
+        },
+        {
+          "kind": "tsx",
           "file": "src/modules/november/NovemberModule.tsx"
         },
         {

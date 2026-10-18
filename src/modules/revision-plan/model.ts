@@ -1,6 +1,7 @@
 export type Text = { en: string; ru: string };
+export type PlanPart = { id:string; sessionId:string; title:Text; phaseMinutes:Partial<Record<'read'|'example'|'attempt'|'check',number>>; practiceIds:string[]; route:string; instruction:Text };
 export type Topic = { id: string; subject: string; title: Text; route: string; source: string; optional?: boolean; parentTopic?:string };
-export type Block = { id: string; minutes: number; topics: string[]; task: Text; lesson?: boolean; paper?: string; optional?: boolean; sessions?: string[]; paperQuestions?:string[]; reported?:boolean; flexible?:boolean; replacementSession?:string; recallPurpose?:boolean };
+export type Block = { id: string; minutes: number; topics: string[]; task: Text; lesson?: boolean; paper?: string; optional?: boolean; sessions?: string[]; paperQuestions?:string[]; reported?:boolean; flexible?:boolean; replacementSession?:string; recallPurpose?:boolean; parts?:PlanPart[]; capacityMinutes?:number };
 export type Day = { date: string; phase: string; title: Text; blocks: Block[]; recall: number; note?: Text; rest?: boolean };
 export type Confidence = 'red' | 'amber' | 'green';
 export type Diagnostic = { date:string; questionId:string; topicId:string; sessionId?:string; outcome:'retry'|'secure'; evidence:string };
@@ -65,11 +66,36 @@ export function dayMinutes(day: Day, arabic: boolean): number {
 }
 export type SessionChoice={id:string;topic:string;title:Text;minutes:number};
 export const blockCompletionKey=(block:Block)=>block.replacementSession?`replacement:${block.id}:${block.replacementSession}`:block.id;
+export const partCompletionKey=(part:PlanPart)=>`plan-part:${part.id}`;
+export const partMinutes=(part:PlanPart)=>Object.values(part.phaseMinutes).reduce((sum,n)=>sum+(n??0),0);
+export const blockIsComplete=(block:Block,state:PlanState)=>block.parts?.length?block.parts.every(p=>!!state.completed[partCompletionKey(p)]):!!state.completed[blockCompletionKey(block)];
+// Parts are explicit work records. A historic whole-block tick never seeds them.
+// Keep provenance for the one derived study date so undo restores independent history.
+export function togglePlanPart(days:Day[],state:PlanState,partId:string,today:string):PlanState{
+ const parts=days.flatMap(d=>d.blocks.flatMap(b=>b.parts??[])),part=parts.find(p=>p.id===partId);
+ if(!part||!validDate(today))return state;
+ const completed={...state.completed},key=partCompletionKey(part),study=`study:${part.sessionId}`,owned=`plan-derived-study:${part.sessionId}`,prior=`plan-prior-study:${part.sessionId}`;
+ if(completed[key])delete completed[key];else completed[key]=today;
+ const dates=parts.filter(p=>p.sessionId===part.sessionId).map(p=>completed[partCompletionKey(p)]);
+ const complete=dates.every(date=>!!date&&date<=today);
+ if(complete){
+  const latest=dates.sort().at(-1)!;
+  if(completed[owned]&&completed[study]!==completed[owned]){delete completed[owned];delete completed[prior];}
+  if(!completed[study]||completed[study]<latest||completed[owned]){
+   if(!completed[owned]&&completed[study])completed[prior]=completed[study];
+   completed[study]=latest;completed[owned]=latest;
+  }
+ }else if(completed[owned]){
+  if(completed[study]===completed[owned]){if(completed[prior])completed[study]=completed[prior];else delete completed[study];}
+  delete completed[owned];delete completed[prior];
+ }
+ return {...state,completed};
+}
 export function applyReplacements(day:Day,state:PlanState,choices:SessionChoice[]):Day{
   return {...day,blocks:day.blocks.map(block=>{
     const choice=choices.find(s=>s.id===state.replacements?.[block.id]);
     const subject=choice?({p:'physics',c:'chemistry',b:'biology',m:'math',g:'geography',e:'english',f:'french',a:'arabic',s:state.scienceContext} as Record<string,string|undefined>)[choice.topic[0]]:undefined;
-    if(!block.flexible||block.lesson||state.completed[block.id]||!choice||choice.minutes<=0||choice.minutes>block.minutes||day.rest||new Date(`${day.date}T12:00:00Z`).getUTCDay()===6||!subject||(subject==='arabic'&&!state.arabic)||!SUBJECT_EXAMS[subject]||day.date>=SUBJECT_EXAMS[subject])return block;
+    if(block.parts?.length||!block.flexible||block.lesson||state.completed[block.id]||!choice||choice.minutes<=0||choice.minutes>block.minutes||day.rest||new Date(`${day.date}T12:00:00Z`).getUTCDay()===6||!subject||(subject==='arabic'&&!state.arabic)||!SUBJECT_EXAMS[subject]||day.date>=SUBJECT_EXAMS[subject])return block;
     return {...block,minutes:choice.minutes,topics:[choice.topic],sessions:[choice.id],task:choice.title,paper:undefined,paperQuestions:undefined,replacementSession:choice.id};
   })};
 }
@@ -82,6 +108,8 @@ export function recallPriority(topic:Topic,state:PlanState):Confidence|'unassess
 export function completedSessionDates(days:Day[],state:PlanState,today:string){
  const done:Record<string,string>={};
  const record=(id:string,date:string|undefined)=>{if(date&&validDate(date)&&date<=today&&(!done[id]||done[id]<date))done[id]=date;};
+ // Retain the historic core-session meaning of the original parent tick.
+ // New named portions have their own IDs and are never inferred from this tick.
  for(const day of days)for(const block of activeBlocks(day,state.arabic))for(const id of block.sessions??[])record(id,state.completed[blockCompletionKey(block)]);
  const replaceable=new Set(days.flatMap(day=>day.blocks.filter(b=>b.flexible&&!b.lesson).map(b=>b.id)));
  for(const[key,date]of Object.entries(state.completed)){
@@ -95,7 +123,7 @@ export function dueReviews(days: Day[], topics: Topic[], state: PlanState, today
  const eligible=topics.filter(t=>!t.optional||state.arabic),latest=completedSessionDates(days,state,today);
  for(const day of days)for(const block of activeBlocks(day,state.arabic)){
   const date=state.completed[blockCompletionKey(block)];
-  if(date&&date<=today&&!block.sessions?.length)for(const id of block.topics)if(!latest[id]||latest[id]<date)latest[id]=date;
+  if(date&&date<=today&&!block.parts?.length&&!block.sessions?.length)for(const id of block.topics)if(!latest[id]||latest[id]<date)latest[id]=date;
  }
  const day=days.find(d=>d.date===today),saturday=new Date(`${today}T12:00:00Z`).getUTCDay()===6;
  const make=(topic:Topic,proposed:string[],reviewId:string,diagnostic?:{objectiveId:string;questionId:string;date:string})=>{
@@ -125,6 +153,7 @@ export function recordRetrieval(state:PlanState,id:string,dates:string[],today:s
 export function remainingPastBlocks(days:Day[],state:PlanState,today:string){
  const done=completedSessionDates(days,state,today);
  return days.filter(d=>d.date<today).flatMap(day=>activeBlocks(day,state.arabic).flatMap(block=>{
+  if(block.parts?.length){const remaining=block.parts.filter(p=>!state.completed[partCompletionKey(p)]||state.completed[partCompletionKey(p)]>today);return remaining.length?[{date:day.date,block:{...block,parts:remaining,sessions:undefined}}]:[];}
   if(state.completed[block.id]&&state.completed[block.id]<=today)return [];
   if(block.sessions?.length){const remaining=block.sessions.filter(id=>!done[id]);return remaining.length?[{date:day.date,block:{...block,sessions:remaining}}]:[];}
   // A performed replacement does not complete the distinct displaced paper.

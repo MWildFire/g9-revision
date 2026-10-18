@@ -1193,13 +1193,129 @@
             "e-purpose"
           ],
           "task": {
-            "en": "Task 3: speech, article and other text types. The first of this day’s two lessons: model answer first, then your own response, with feedback in the lesson.",
-            "ru": "Task 3: речь, статья и другие типы текстов. Первый из двух уроков этого дня: сначала разбери образец, потом напиши свой ответ. Обратная связь — на уроке."
+            "en": "English: complete only the named stages below. 54 min work; 6 min buffer within the 60-minute budget.",
+            "ru": "Английский: выполни только перечисленные ниже этапы. 54 мин работы и 6 мин запаса в пределах 60-минутного окна."
           },
           "lesson": true,
           "id": "v2:2026-10-20-1",
           "sessions": [
             "e-purpose-core"
+          ],
+          "parts": [
+            {
+              "id": "v2:2026-10-20-1:e-analysis-full-practice:read",
+              "sessionId": "e-analysis-full-practice",
+              "title": {
+                "en": "Full comparative response: evidence and structure",
+                "ru": "Полное сопоставление: доказательства и структура"
+              },
+              "phaseMinutes": {
+                "read": 6
+              },
+              "practiceIds": [
+                "e-analysis-full-rehearsal"
+              ],
+              "route": "/november/e-analysis?part=e-analysis-full-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            },
+            {
+              "id": "v2:2026-10-20-1:e-analysis-full-practice:example",
+              "sessionId": "e-analysis-full-practice",
+              "title": {
+                "en": "Full comparative response: evidence and structure",
+                "ru": "Полное сопоставление: доказательства и структура"
+              },
+              "phaseMinutes": {
+                "example": 7
+              },
+              "practiceIds": [
+                "e-analysis-full-rehearsal"
+              ],
+              "route": "/november/e-analysis?part=e-analysis-full-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            },
+            {
+              "id": "v2:2026-10-20-1:e-analysis-full-practice:attempt",
+              "sessionId": "e-analysis-full-practice",
+              "title": {
+                "en": "Full comparative response: evidence and structure",
+                "ru": "Полное сопоставление: доказательства и структура"
+              },
+              "phaseMinutes": {
+                "attempt": 25
+              },
+              "practiceIds": [
+                "e-analysis-full-rehearsal"
+              ],
+              "route": "/november/e-analysis?part=e-analysis-full-practice",
+              "instruction": {
+                "en": "Write independently.",
+                "ru": "Напиши самостоятельно."
+              }
+            },
+            {
+              "id": "v2:2026-10-20-1:e-analysis-full-practice:check",
+              "sessionId": "e-analysis-full-practice",
+              "title": {
+                "en": "Full comparative response: evidence and structure",
+                "ru": "Полное сопоставление: доказательства и структура"
+              },
+              "phaseMinutes": {
+                "check": 7
+              },
+              "practiceIds": [
+                "e-analysis-full-rehearsal"
+              ],
+              "route": "/november/e-analysis?part=e-analysis-full-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            },
+            {
+              "id": "v2:2026-10-20-1:genre-letter-practice:read",
+              "sessionId": "genre-letter-practice",
+              "title": {
+                "en": "Letter: ask Dr Sen to review the pause",
+                "ru": "Письмо: попросить доктора Сен обсудить остановку опыта"
+              },
+              "phaseMinutes": {
+                "read": 3
+              },
+              "practiceIds": [
+                "genre-letter"
+              ],
+              "route": "/november/e-purpose?part=genre-letter-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            },
+            {
+              "id": "v2:2026-10-20-1:genre-letter-practice:example",
+              "sessionId": "genre-letter-practice",
+              "title": {
+                "en": "Letter: ask Dr Sen to review the pause",
+                "ru": "Письмо: попросить доктора Сен обсудить остановку опыта"
+              },
+              "phaseMinutes": {
+                "example": 6
+              },
+              "practiceIds": [
+                "genre-letter"
+              ],
+              "route": "/november/e-purpose?part=genre-letter-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            }
           ]
         },
         {
@@ -1263,13 +1379,129 @@
             "e-analysis"
           ],
           "task": {
-            "en": "Task 1: text and film analysis; comparison — first a model, then your own answer, with feedback in the lesson.",
-            "ru": "Task 1: анализ текста и фильма; сравнение — разбери образец, потом напиши свой ответ, а обратную связь получишь на уроке."
+            "en": "English: complete only the named stages below. 59 min work; 1 min buffer within the 60-minute budget.",
+            "ru": "Английский: выполни только перечисленные ниже этапы. 59 мин работы и 1 мин запаса в пределах 60-минутного окна."
           },
           "lesson": true,
           "id": "v2:2026-10-21-2",
           "sessions": [
             "e-analysis-core"
+          ],
+          "parts": [
+            {
+              "id": "v2:2026-10-21-2:school-surveillance-article-practice:read",
+              "sessionId": "school-surveillance-article-practice",
+              "title": {
+                "en": "Surveillance article and counterargument",
+                "ru": "Статья о наблюдении и контраргумент"
+              },
+              "phaseMinutes": {
+                "read": 3
+              },
+              "practiceIds": [
+                "school-surveillance-article"
+              ],
+              "route": "/november/e-purpose?part=school-surveillance-article-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            },
+            {
+              "id": "v2:2026-10-21-2:school-surveillance-article-practice:example",
+              "sessionId": "school-surveillance-article-practice",
+              "title": {
+                "en": "Surveillance article and counterargument",
+                "ru": "Статья о наблюдении и контраргумент"
+              },
+              "phaseMinutes": {
+                "example": 4
+              },
+              "practiceIds": [
+                "school-surveillance-article"
+              ],
+              "route": "/november/e-purpose?part=school-surveillance-article-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            },
+            {
+              "id": "v2:2026-10-21-2:school-surveillance-article-practice:attempt",
+              "sessionId": "school-surveillance-article-practice",
+              "title": {
+                "en": "Surveillance article and counterargument",
+                "ru": "Статья о наблюдении и контраргумент"
+              },
+              "phaseMinutes": {
+                "attempt": 38
+              },
+              "practiceIds": [
+                "school-surveillance-article"
+              ],
+              "route": "/november/e-purpose?part=school-surveillance-article-practice",
+              "instruction": {
+                "en": "Write independently: two 19-minute stretches with a short break between them. Breaks are outside work minutes.",
+                "ru": "Напиши самостоятельно: два отрезка по 19 минут с коротким перерывом между ними. Перерыв не входит в рабочие минуты."
+              }
+            },
+            {
+              "id": "v2:2026-10-21-2:school-surveillance-article-practice:check",
+              "sessionId": "school-surveillance-article-practice",
+              "title": {
+                "en": "Surveillance article and counterargument",
+                "ru": "Статья о наблюдении и контраргумент"
+              },
+              "phaseMinutes": {
+                "check": 5
+              },
+              "practiceIds": [
+                "school-surveillance-article"
+              ],
+              "route": "/november/e-purpose?part=school-surveillance-article-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            },
+            {
+              "id": "v2:2026-10-21-2:genre-narrative-practice:read",
+              "sessionId": "genre-narrative-practice",
+              "title": {
+                "en": "Narrative: the sound that interrupts the plan",
+                "ru": "Рассказ: звук, который меняет ход решения"
+              },
+              "phaseMinutes": {
+                "read": 3
+              },
+              "practiceIds": [
+                "genre-narrative"
+              ],
+              "route": "/november/e-creative?part=genre-narrative-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            },
+            {
+              "id": "v2:2026-10-21-2:genre-narrative-practice:example",
+              "sessionId": "genre-narrative-practice",
+              "title": {
+                "en": "Narrative: the sound that interrupts the plan",
+                "ru": "Рассказ: звук, который меняет ход решения"
+              },
+              "phaseMinutes": {
+                "example": 6
+              },
+              "practiceIds": [
+                "genre-narrative"
+              ],
+              "route": "/november/e-creative?part=genre-narrative-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            }
           ]
         },
         {
@@ -1540,13 +1772,148 @@
             "e-analysis"
           ],
           "task": {
-            "en": "Task 1: text and film analysis; comparison; Task 2: monologue and play script — a model first, then your own response, with feedback in the lesson.",
-            "ru": "Task 1: анализ текста и фильма; сравнение; Task 2: монолог и сценарий пьесы — сначала разбери образец, затем напиши свой ответ. Обратная связь — на уроке."
+            "en": "English: complete only the named stages below. 57 min work; 3 min buffer within the 60-minute budget.",
+            "ru": "Английский: выполни только перечисленные ниже этапы. 57 мин работы и 3 мин запаса в пределах 60-минутного окна."
           },
           "lesson": true,
           "id": "v2:2026-10-27-1",
           "sessions": [
             "e-analysis-core"
+          ],
+          "parts": [
+            {
+              "id": "v2:2026-10-27-1:school-picture-monologue-practice:read",
+              "sessionId": "school-picture-monologue-practice",
+              "title": {
+                "en": "Picture-inspired monologue",
+                "ru": "Монолог по изображению"
+              },
+              "phaseMinutes": {
+                "read": 3
+              },
+              "practiceIds": [
+                "school-picture-monologue"
+              ],
+              "route": "/november/e-creative?part=school-picture-monologue-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            },
+            {
+              "id": "v2:2026-10-27-1:school-picture-monologue-practice:example",
+              "sessionId": "school-picture-monologue-practice",
+              "title": {
+                "en": "Picture-inspired monologue",
+                "ru": "Монолог по изображению"
+              },
+              "phaseMinutes": {
+                "example": 4
+              },
+              "practiceIds": [
+                "school-picture-monologue"
+              ],
+              "route": "/november/e-creative?part=school-picture-monologue-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            },
+            {
+              "id": "v2:2026-10-27-1:school-picture-monologue-practice:attempt",
+              "sessionId": "school-picture-monologue-practice",
+              "title": {
+                "en": "Picture-inspired monologue",
+                "ru": "Монолог по изображению"
+              },
+              "phaseMinutes": {
+                "attempt": 33
+              },
+              "practiceIds": [
+                "school-picture-monologue"
+              ],
+              "route": "/november/e-creative?part=school-picture-monologue-practice",
+              "instruction": {
+                "en": "Write independently.",
+                "ru": "Напиши самостоятельно."
+              }
+            },
+            {
+              "id": "v2:2026-10-27-1:school-picture-monologue-practice:check",
+              "sessionId": "school-picture-monologue-practice",
+              "title": {
+                "en": "Picture-inspired monologue",
+                "ru": "Монолог по изображению"
+              },
+              "phaseMinutes": {
+                "check": 5
+              },
+              "practiceIds": [
+                "school-picture-monologue"
+              ],
+              "route": "/november/e-creative?part=school-picture-monologue-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            },
+            {
+              "id": "v2:2026-10-27-1:genre-diary-practice:read",
+              "sessionId": "genre-diary-practice",
+              "title": {
+                "en": "Diary: was the pause enough?",
+                "ru": "Дневник: достаточно ли было остановиться?"
+              },
+              "phaseMinutes": {
+                "read": 3
+              },
+              "practiceIds": [
+                "genre-diary"
+              ],
+              "route": "/november/e-creative?part=genre-diary-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            },
+            {
+              "id": "v2:2026-10-27-1:genre-diary-practice:example",
+              "sessionId": "genre-diary-practice",
+              "title": {
+                "en": "Diary: was the pause enough?",
+                "ru": "Дневник: достаточно ли было остановиться?"
+              },
+              "phaseMinutes": {
+                "example": 6
+              },
+              "practiceIds": [
+                "genre-diary"
+              ],
+              "route": "/november/e-creative?part=genre-diary-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            },
+            {
+              "id": "v2:2026-10-27-1:genre-blog-practice:read",
+              "sessionId": "genre-blog-practice",
+              "title": {
+                "en": "Blog: adapt a private doubt for the science club",
+                "ru": "Блог: превратить личное сомнение в пост для научного клуба"
+              },
+              "phaseMinutes": {
+                "read": 3
+              },
+              "practiceIds": [
+                "genre-blog"
+              ],
+              "route": "/november/e-purpose?part=genre-blog-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            }
           ]
         },
         {
@@ -1610,13 +1977,110 @@
             "e-purpose"
           ],
           "task": {
-            "en": "Task 3: speech, article and other text types. The second of this day’s two lessons: a model, then your own answer, with feedback in the lesson.",
-            "ru": "Task 3: речь, статья и другие типы текстов. Второй из двух уроков этого дня: сначала разбери образец, потом напиши самостоятельный ответ. Обратная связь — на уроке."
+            "en": "English: complete only the named stages below. 58 min work; 2 min buffer within the 60-minute budget.",
+            "ru": "Английский: выполни только перечисленные ниже этапы. 58 мин работы и 2 мин запаса в пределах 60-минутного окна."
           },
           "lesson": true,
           "id": "v2:2026-10-28-2",
           "sessions": [
             "e-purpose-core"
+          ],
+          "parts": [
+            {
+              "id": "v2:2026-10-28-2:genre-letter-practice:attempt",
+              "sessionId": "genre-letter-practice",
+              "title": {
+                "en": "Letter: ask Dr Sen to review the pause",
+                "ru": "Письмо: попросить доктора Сен обсудить остановку опыта"
+              },
+              "phaseMinutes": {
+                "attempt": 20
+              },
+              "practiceIds": [
+                "genre-letter"
+              ],
+              "route": "/november/e-purpose?part=genre-letter-practice",
+              "instruction": {
+                "en": "Write independently.",
+                "ru": "Напиши самостоятельно."
+              }
+            },
+            {
+              "id": "v2:2026-10-28-2:genre-letter-practice:check",
+              "sessionId": "genre-letter-practice",
+              "title": {
+                "en": "Letter: ask Dr Sen to review the pause",
+                "ru": "Письмо: попросить доктора Сен обсудить остановку опыта"
+              },
+              "phaseMinutes": {
+                "check": 6
+              },
+              "practiceIds": [
+                "genre-letter"
+              ],
+              "route": "/november/e-purpose?part=genre-letter-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            },
+            {
+              "id": "v2:2026-10-28-2:genre-narrative-practice:attempt",
+              "sessionId": "genre-narrative-practice",
+              "title": {
+                "en": "Narrative: the sound that interrupts the plan",
+                "ru": "Рассказ: звук, который меняет ход решения"
+              },
+              "phaseMinutes": {
+                "attempt": 20
+              },
+              "practiceIds": [
+                "genre-narrative"
+              ],
+              "route": "/november/e-creative?part=genre-narrative-practice",
+              "instruction": {
+                "en": "Write independently.",
+                "ru": "Напиши самостоятельно."
+              }
+            },
+            {
+              "id": "v2:2026-10-28-2:genre-narrative-practice:check",
+              "sessionId": "genre-narrative-practice",
+              "title": {
+                "en": "Narrative: the sound that interrupts the plan",
+                "ru": "Рассказ: звук, который меняет ход решения"
+              },
+              "phaseMinutes": {
+                "check": 6
+              },
+              "practiceIds": [
+                "genre-narrative"
+              ],
+              "route": "/november/e-creative?part=genre-narrative-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            },
+            {
+              "id": "v2:2026-10-28-2:genre-blog-practice:example",
+              "sessionId": "genre-blog-practice",
+              "title": {
+                "en": "Blog: adapt a private doubt for the science club",
+                "ru": "Блог: превратить личное сомнение в пост для научного клуба"
+              },
+              "phaseMinutes": {
+                "example": 6
+              },
+              "practiceIds": [
+                "genre-blog"
+              ],
+              "route": "/november/e-purpose?part=genre-blog-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            }
           ]
         },
         {
@@ -1882,13 +2346,129 @@
             "e-analysis"
           ],
           "task": {
-            "en": "Task 1: text and film analysis; comparison; Task 2: monologue and play script; Task 3: speech, article and other text types — one worked model, independent response, feedback within the lesson.",
-            "ru": "Task 1: анализ текста и фильма; сравнение; Task 2: монолог и сценарий пьесы; Task 3: речь, статья и другие типы текстов — один образец, самостоятельный ответ и обратная связь внутри урока."
+            "en": "English: complete only the named stages below. 59 min work; 1 min buffer within the 60-minute budget.",
+            "ru": "Английский: выполни только перечисленные ниже этапы. 59 мин работы и 1 мин запаса в пределах 60-минутного окна."
           },
           "lesson": true,
           "id": "v2:2026-11-03-1",
           "sessions": [
             "e-analysis-core"
+          ],
+          "parts": [
+            {
+              "id": "v2:2026-11-03-1:genre-diary-practice:attempt",
+              "sessionId": "genre-diary-practice",
+              "title": {
+                "en": "Diary: was the pause enough?",
+                "ru": "Дневник: достаточно ли было остановиться?"
+              },
+              "phaseMinutes": {
+                "attempt": 20
+              },
+              "practiceIds": [
+                "genre-diary"
+              ],
+              "route": "/november/e-creative?part=genre-diary-practice",
+              "instruction": {
+                "en": "Write independently.",
+                "ru": "Напиши самостоятельно."
+              }
+            },
+            {
+              "id": "v2:2026-11-03-1:genre-diary-practice:check",
+              "sessionId": "genre-diary-practice",
+              "title": {
+                "en": "Diary: was the pause enough?",
+                "ru": "Дневник: достаточно ли было остановиться?"
+              },
+              "phaseMinutes": {
+                "check": 6
+              },
+              "practiceIds": [
+                "genre-diary"
+              ],
+              "route": "/november/e-creative?part=genre-diary-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            },
+            {
+              "id": "v2:2026-11-03-1:genre-blog-practice:attempt",
+              "sessionId": "genre-blog-practice",
+              "title": {
+                "en": "Blog: adapt a private doubt for the science club",
+                "ru": "Блог: превратить личное сомнение в пост для научного клуба"
+              },
+              "phaseMinutes": {
+                "attempt": 20
+              },
+              "practiceIds": [
+                "genre-blog"
+              ],
+              "route": "/november/e-purpose?part=genre-blog-practice",
+              "instruction": {
+                "en": "Write independently.",
+                "ru": "Напиши самостоятельно."
+              }
+            },
+            {
+              "id": "v2:2026-11-03-1:genre-blog-practice:check",
+              "sessionId": "genre-blog-practice",
+              "title": {
+                "en": "Blog: adapt a private doubt for the science club",
+                "ru": "Блог: превратить личное сомнение в пост для научного клуба"
+              },
+              "phaseMinutes": {
+                "check": 6
+              },
+              "practiceIds": [
+                "genre-blog"
+              ],
+              "route": "/november/e-purpose?part=genre-blog-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            },
+            {
+              "id": "v2:2026-11-03-1:school-script-transfer-practice:read",
+              "sessionId": "school-script-transfer-practice",
+              "title": {
+                "en": "Opening a play script",
+                "ru": "Начало пьесы"
+              },
+              "phaseMinutes": {
+                "read": 3
+              },
+              "practiceIds": [
+                "school-script-transfer"
+              ],
+              "route": "/november/e-creative?part=school-script-transfer-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            },
+            {
+              "id": "v2:2026-11-03-1:school-script-transfer-practice:example",
+              "sessionId": "school-script-transfer-practice",
+              "title": {
+                "en": "Opening a play script",
+                "ru": "Начало пьесы"
+              },
+              "phaseMinutes": {
+                "example": 4
+              },
+              "practiceIds": [
+                "school-script-transfer"
+              ],
+              "route": "/november/e-creative?part=school-script-transfer-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            }
           ]
         },
         {
@@ -1905,12 +2485,46 @@
           "sessions": [
             "f-listen-core"
           ]
+        },
+        {
+          "id": "reserve-2026-11-03",
+          "minutes": 23,
+          "capacityMinutes": 25,
+          "topics": [
+            "e-creative",
+            "e-analysis"
+          ],
+          "task": {
+            "en": "English: complete only the named stages below. 23 min work; 2 min buffer within the 25-minute budget.",
+            "ru": "Английский: выполни только перечисленные ниже этапы. 23 мин работы и 2 мин запаса в пределах 25-минутного окна."
+          },
+          "parts": [
+            {
+              "id": "reserve-2026-11-03:school-script-transfer-practice:attempt",
+              "sessionId": "school-script-transfer-practice",
+              "title": {
+                "en": "Opening a play script",
+                "ru": "Начало пьесы"
+              },
+              "phaseMinutes": {
+                "attempt": 23
+              },
+              "practiceIds": [
+                "school-script-transfer"
+              ],
+              "route": "/november/e-creative?part=school-script-transfer-practice",
+              "instruction": {
+                "en": "Write independently.",
+                "ru": "Напиши самостоятельно."
+              }
+            }
+          ]
         }
       ],
       "recall": 5,
       "note": {
-        "en": "Reserve: 25 minutes remain under the daily limit. Use them only for unfinished portions; stop early if you are on track.",
-        "ru": "Резерв: до дневного лимита остаётся 25 минут. Используй их только для незаконченных порций; если идёшь по плану, заканчивай раньше."
+        "en": "The former 25-minute reserve is now assigned to the named English stages (23 min work, 2 min buffer). It is not a second free catch-up window. Stop and reassess if the estimates do not fit; do not double tomorrow or use Saturday.",
+        "ru": "Прежний резерв 25 мин распределён на указанные этапы английского (23 мин работы и 2 мин запаса). Это не ещё одно свободное окно для наверстывания. Если оценки времени не подходят, остановись и пересмотри приоритеты; не удваивай завтра и не занимай субботу."
       }
     },
     {
@@ -1962,12 +2576,130 @@
             "en": "Criterion D: evidence and implications (across all three sciences)",
             "ru": "Критерий D (Criterion D): доказательства и последствия (во всех трёх науках)"
           }
+        },
+        {
+          "id": "reserve-2026-11-04",
+          "minutes": 40,
+          "capacityMinutes": 45,
+          "topics": [
+            "e-creative",
+            "e-analysis"
+          ],
+          "task": {
+            "en": "English: complete only the named stages below. 40 min work; 5 min buffer within the 45-minute budget.",
+            "ru": "Английский: выполни только перечисленные ниже этапы. 40 мин работы и 5 мин запаса в пределах 45-минутного окна."
+          },
+          "parts": [
+            {
+              "id": "reserve-2026-11-04:school-script-transfer-practice:check",
+              "sessionId": "school-script-transfer-practice",
+              "title": {
+                "en": "Opening a play script",
+                "ru": "Начало пьесы"
+              },
+              "phaseMinutes": {
+                "check": 5
+              },
+              "practiceIds": [
+                "school-script-transfer"
+              ],
+              "route": "/november/e-creative?part=school-script-transfer-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            },
+            {
+              "id": "reserve-2026-11-04:school-frankenstein-gothic-practice:read",
+              "sessionId": "school-frankenstein-gothic-practice",
+              "title": {
+                "en": "Shelley 1831 Chapter V: reaction, language and Gothic",
+                "ru": "Шелли, глава V (1831): реакция, язык и готика"
+              },
+              "phaseMinutes": {
+                "read": 8
+              },
+              "practiceIds": [
+                "shelley-1831-mood-change",
+                "shelley-1831-language-structure",
+                "shelley-1831-gothic-application"
+              ],
+              "route": "/november/e-analysis?part=school-frankenstein-gothic-practice",
+              "instruction": {
+                "en": "Read the teaching.",
+                "ru": "Прочитай объяснение."
+              }
+            },
+            {
+              "id": "reserve-2026-11-04:school-frankenstein-gothic-practice:example",
+              "sessionId": "school-frankenstein-gothic-practice",
+              "title": {
+                "en": "Shelley 1831 Chapter V: reaction, language and Gothic",
+                "ru": "Шелли, глава V (1831): реакция, язык и готика"
+              },
+              "phaseMinutes": {
+                "example": 5
+              },
+              "practiceIds": [
+                "shelley-1831-mood-change",
+                "shelley-1831-language-structure",
+                "shelley-1831-gothic-application"
+              ],
+              "route": "/november/e-analysis?part=school-frankenstein-gothic-practice",
+              "instruction": {
+                "en": "Study the model.",
+                "ru": "Разбери образец."
+              }
+            },
+            {
+              "id": "reserve-2026-11-04:school-frankenstein-gothic-practice:attempt",
+              "sessionId": "school-frankenstein-gothic-practice",
+              "title": {
+                "en": "Shelley 1831 Chapter V: reaction, language and Gothic",
+                "ru": "Шелли, глава V (1831): реакция, язык и готика"
+              },
+              "phaseMinutes": {
+                "attempt": 16
+              },
+              "practiceIds": [
+                "shelley-1831-mood-change",
+                "shelley-1831-language-structure",
+                "shelley-1831-gothic-application"
+              ],
+              "route": "/november/e-analysis?part=school-frankenstein-gothic-practice",
+              "instruction": {
+                "en": "Write independently.",
+                "ru": "Напиши самостоятельно."
+              }
+            },
+            {
+              "id": "reserve-2026-11-04:school-frankenstein-gothic-practice:check",
+              "sessionId": "school-frankenstein-gothic-practice",
+              "title": {
+                "en": "Shelley 1831 Chapter V: reaction, language and Gothic",
+                "ru": "Шелли, глава V (1831): реакция, язык и готика"
+              },
+              "phaseMinutes": {
+                "check": 6
+              },
+              "practiceIds": [
+                "shelley-1831-mood-change",
+                "shelley-1831-language-structure",
+                "shelley-1831-gothic-application"
+              ],
+              "route": "/november/e-analysis?part=school-frankenstein-gothic-practice",
+              "instruction": {
+                "en": "Check and correct.",
+                "ru": "Сверь и исправь."
+              }
+            }
+          ]
         }
       ],
       "recall": 5,
       "note": {
-        "en": "Reserve: 45 minutes remain under the daily limit. Use them only for unfinished portions; stop early if you are on track.",
-        "ru": "Резерв: до дневного лимита остаётся 45 минут. Используй их только для незаконченных порций; если идёшь по плану, заканчивай раньше."
+        "en": "The former 45-minute reserve is now assigned to the named English stages (40 min work, 5 min buffer). It is not a second free catch-up window. Stop and reassess if the estimates do not fit; do not double tomorrow or use Saturday.",
+        "ru": "Прежний резерв 45 мин распределён на указанные этапы английского (40 мин работы и 5 мин запаса). Это не ещё одно свободное окно для наверстывания. Если оценки времени не подходят, остановись и пересмотри приоритеты; не удваивай завтра и не занимай субботу."
       }
     },
     {

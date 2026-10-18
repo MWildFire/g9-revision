@@ -17,14 +17,14 @@
     "tenses": "Tenses",
     "grammar": "Grammar",
     "phrases": "Useful Phrases",
-    "units": "Exam Units (Capable/Proficient)",
+    "units": "Archived G9 units",
     "textTypes": "Text Types (writing)",
     "extras": "Extras (beyond G9)"
   },
   "unitsPage": {
-    "title": "Exam Units — Capable & Proficient",
-    "intro": "The four units examined for the Capable and Proficient levels. Each unit has its own vocabulary themes. Master the vocabulary for the unit you are tested on and for your speaking topic.",
-    "notice": "These units follow your G9 French revision list."
+    "title": "Archived G9 Capable units and labelled extensions",
+    "intro": "These four units come from the archived G9 Capable revision list. They remain useful practice; confirm your current mock level and topics with the teacher. Proficient extensions are labelled separately.",
+    "notice": "Archived G9 Capable practice; current assessment registration and scope are unconfirmed."
   },
   "unitsContent": {
     "unite1": {
@@ -76,7 +76,7 @@
       ]
     },
     "grammar": {
-      "title": "Grammar checklist (both levels: Emergent and Proficient)",
+      "title": "Grammar checklist — archived G9 Capable core (Proficient extras labelled separately)",
       "items": [
         "Logical connectors (connecteurs logiques) link ideas: donc (so, therefore), parce que (because), cependant (however), en effet (indeed), ainsi (thus). Example: Il pleut, donc je reste à la maison (It is raining, so I am staying at home).",
         "Comparatives and superlatives (comparatif, superlatif): plus … que (more … than), moins … que (less … than), le plus / le moins (the most / the least). Example: Ce film est plus intéressant que le livre (This film is more interesting than the book). Irregular forms: bon (good) gives meilleur (better), bien (well) gives mieux (better).",
@@ -89,7 +89,7 @@
       ]
     },
     "emergent": {
-      "title": "Emergent level — your 4 units",
+      "title": "Additional Emergent overview — current assessment scope unconfirmed",
       "items": [
         "Unité 1 — Mon identité, mes préférences, ma culture (my identity, preferences and culture: family, hobbies, food, celebrations)",
         "Unité 2 — Suis-je responsable de mon environnement ? (Am I responsible for my environment? — types of pollution, causes, consequences, actions)",
@@ -182,12 +182,12 @@
         "Poser un lapin — to stand someone up (lit. 'place a rabbit')",
         "Avoir un chat dans la gorge — to have a frog in your throat (lit. 'have a cat in your throat')",
         "Ce n'est pas la mer à boire — it's not that hard (lit. 'it's not the sea to drink')",
-        "Mettre son grain de sel — to add one's two cents (lit. 'add one's grain of salt')"
+        "Mettre son grain de sel — to put in one’s two cents, often without being asked."
       ]
     },
     "culture": {
       "title": "Francophone culture",
-      "body": "Francophone means French-speaking. Lower-case francophonie refers to French speakers and to their cultural and linguistic communities. The Organisation internationale de la Francophonie (OIF) is an international organisation of French-speaking countries. French is an official language in many countries and regions, for example Belgium, Switzerland, Canada (Québec) and Senegal. Each of these places has its own accents and vocabulary."
+      "body": "Francophone means French-speaking. Lower-case francophonie refers to French speakers and to their cultural and linguistic communities. The Organisation internationale de la Francophonie (OIF) brings together states and governments to promote French and cooperation in areas such as education and culture. French is an official language in many countries and regions, for example Belgium, Switzerland, Canada (Québec) and Senegal. Each of these places has its own accents and vocabulary."
     },
     "literature": {
       "title": "Classic French literature",

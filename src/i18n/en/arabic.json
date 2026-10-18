@@ -82,11 +82,12 @@
       "instruction": "Tap the words in the correct order. Tap a chosen word to put it back.",
       "build": "Your sentence",
       "bank": "Words",
-      "clear": "Clear"
+      "clear": "Clear",
+      "modelOrder": "This differs from the model order; other grammatical orders may be possible."
     },
     "match": {
       "title": "B · Match the meaning",
-      "instruction": "Choose the Arabic verb for each English meaning.",
+      "instruction": "Match each English meaning to its Arabic verb.",
       "pick": "— pick —",
       "result": "{{correct}} / {{total}} correct"
     },
@@ -242,7 +243,7 @@
       "title": "Exercise types in the booklet",
       "items": [
         "Rearrange sentences in correct order",
-        "Match meanings to words (e.g., match Arabic word to English/Russian)",
+        "Match each English meaning to its Arabic verb",
         "Create sentences from given keywords",
         "Fill-in-the-blank self-introduction",
         "Translate Arabic → English (or Russian)",

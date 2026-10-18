@@ -129,7 +129,7 @@
     "selfCheck": {
       "title": "Self-check prompts",
       "items": [
-        "Did you quote from BOTH texts?",
+        "Did you use precise evidence from BOTH texts: short quotations where wording matters, and specific shot, sound or performance details for a film?",
         "Did you name the techniques (metaphor, lighting, sound, structure) accurately?",
         "Did you explain the EFFECT of each technique, not just spot it?",
         "Did you compare in every paragraph (not text-by-text)?",
@@ -214,7 +214,7 @@
         "Personification — giving human qualities or actions to things or ideas: 'The wind whispered through the trees.' Here the wind is given the human action of whispering.",
         "Zoomorphism — describing humans as animals: 'He snarled at the referee.'",
         "Repetition — emphasises emotion: 'I will not, I will not, I will not give up.'",
-        "Metaphor — saying that one thing is another, without like or as: 'Time is a thief.' The phrase treats time as a thief that steals our moments.",
+        "Metaphor — describing one thing in terms of another in a nonliteral way; it can work through a noun, verb or extended image. “Time is a thief” treats time as a thief that steals our moments.",
         "Alliteration — repetition of the same consonant sound at the start of nearby words: 'wild and windy weather.'",
         "Hyperbole — deliberate exaggeration: 'I've told you a million times.'",
         "Sensory imagery — descriptive language that appeals to the senses: sight, sound, smell, taste or touch. 'The air smelled of pine, and the snow crunched underfoot.'",
@@ -373,7 +373,7 @@
     },
     "narrative": {
       "name": "Narrative",
-      "rule": "A narrative tells a connected story: characters, a setting and a conflict that changes the situation, with events in a clear time order, usually in the past tense. A narrator tells it from one point of view: 'I' (inside the story) or 'he', 'she' or 'they' (outside it).",
+      "rule": "A narrative tells a connected story through a narrator. Characters, setting and a developing situation or conflict help shape it. Events may be chronological or include purposeful flashbacks; tense and viewpoint should remain controlled, and any shifts should be clear to the reader.",
       "examples": [
         "I didn't want to go to the party, but Mum had already told everyone I would be there.",
         "Mara wanted the lead role in the summer play more than anything, but the director had already given it to her best friend.",
@@ -523,7 +523,7 @@
         "present": {
           "name": "Present simple",
           "use": "Present simple describes habits (I walk to school), general facts (the sun rises in the east) and states (I live in a small town). The form does not always mean 'now': it can also refer to a timetabled future event (The train leaves at seven tomorrow). Tense is a grammatical form; time is when an event happens.",
-          "form": "Most verbs: I/you/we/they + base form; he/she/it + -s/-es. Questions and negatives use do/does + base form. Be is different: am/is/are; is she…?; she is not….",
+          "form": "Most verbs: I/you/we/they + base form; he/she/it + -s/-es. Negatives use do/does + not + base form. Most present-simple questions use do/does + base form, but a subject question such as “Who lives here?” keeps the ordinary verb form and needs no do/does. Be is different: am/is/are; inversion for questions, “Is she ready?”; “She is not ready” for a negative.",
           "examples": [
             "She writes every weekend.",
             "Water boils at 100 °C at standard atmospheric pressure.",
@@ -546,7 +546,7 @@
         "past": {
           "name": "Past simple",
           "use": "Past simple describes a finished action or a state in the past: We went to Paris last summer. The time is either stated (yesterday, last week, two days ago, in 2020) or clear from the context.",
-          "form": "Regular verbs take -ed (worked, visited). Irregular verbs have special past forms that must be learned, such as went. Questions and negatives use did + base form: Did she go? She did not go. The verb be uses was/were: Was she ready? She was not ready.",
+          "form": "Regular verbs take -ed (worked, visited). Irregular verbs have special past forms that must be learned, such as went. Negatives use did + not + base form: She did not go. Most questions use did + base form: Did she go? Subject questions such as “Who wrote this?” keep the past form without did. Be uses was/were, with inversion for questions: Was she ready? She was not ready.",
           "examples": [
             "She wrote three essays yesterday.",
             "We went to Paris last summer.",
@@ -672,7 +672,7 @@
             "Is this your book? (possessive)",
             "You're late again. (you are)"
           ],
-          "tip": "Put 'you are' in place of the word and read the sentence again. If it still makes sense, write you’re. If a noun should follow, write your."
+          "tip": "Try “you are”. If that gives the intended grammatical meaning, use you’re, including before a noun phrase: “You’re a doctor.” Use your when it determines a noun phrase and means belonging to you: “your doctor”, “your new book”."
         },
         "itsIts": {
           "name": "its vs it's",

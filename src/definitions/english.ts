@@ -379,14 +379,14 @@ export const ENGLISH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Present simple",
     "russianTerm": "Present simple",
     "contrast": {
-      "en": "After do or does, the main verb takes its base form: 'She doesn't like coffee', not 'She doesn't likes coffee'. In questions and negatives, the -s moves to does.",
-      "ru": "После «do» и «does» смысловой глагол стоит в основной форме, без -s: «She doesn’t like coffee», а не «She doesn’t likes coffee». В обычном вопросе или отрицании третьего лица единственного числа используется «does», а не «do»."
+      "en": "After do or does, the main verb takes its base form: “She doesn’t like coffee”, not “She doesn’t likes coffee”. In ordinary do/does questions and negatives, does carries the third-person singular form. Subject questions such as “Who lives here?” keep the ordinary verb form without do/does. Be uses inversion: “Is she ready?”",
+      "ru": "После do и does смысловой глагол стоит в основной форме, без -s: «She doesn’t like coffee», а не «She doesn’t likes coffee». В обычных вопросах и отрицаниях с do/does форму третьего лица единственного числа несёт does. Вопрос к подлежащему «Who lives here?» сохраняет обычную форму глагола без do/does. У be в вопросе — перестановка: «Is she ready?»"
     },
     "sources": [
       {
-        "title": "British Council — Present tense",
-        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-tense",
-        "section": "Present forms; present and future reference",
+        "title": "British Council — Present simple",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+        "section": "Present simple questions and negatives; subject questions",
         "language": "en"
       }
     ]

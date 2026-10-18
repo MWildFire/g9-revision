@@ -8,7 +8,7 @@ export const definitionSources: Record<string, DefinitionSource> = {
   language: os('elementary-algebra-2e', '1-2-use-the-language-of-algebra', '1.2 · Variables, expressions, equations; identify and combine like terms'),
   distributive: os('elementary-algebra-2e', '1-9-properties-of-real-numbers', '1.9 · Simplify expressions using the distributive property'),
   fractions: os('prealgebra-2e', '4-1-visualize-fractions', '4.1 · Model fractions; numerator and denominator'),
-  integers: os('prealgebra-2e', '3-1-introduction-to-integers', '3.1 · Integers and the number line'),
+  integers: os('prealgebra-2e', '3-1-introduction-to-integers', '3.1 · Integers definition: counting numbers, their opposites, and zero (Integers box; displayed set)'),
   proof: { title: 'Oscar Levin · Discrete Mathematics: An Open Introduction', url: 'https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html', language: 'en', section: '3.2 · Direct proof; proof by (counter) example' },
   statements: { title: 'Oscar Levin · Mathematical Statements', url: 'https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html', language: 'en', section: '0.2 · Predicates and quantifiers' },
   coordinates: ca('2-1-the-rectangular-coordinate-systems-and-graphs', '2.1 · Coordinates, intercepts, distance and midpoint'),

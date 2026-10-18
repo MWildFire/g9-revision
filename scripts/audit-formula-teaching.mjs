@@ -1,6 +1,13 @@
 import fs from 'node:fs';import path from 'node:path';import ts from 'typescript';import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const cache=new Map();
-export function loadTs(file){file=path.resolve(file);if(cache.has(file))return cache.get(file);const mod={exports:{}};const compiled=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;new Function('require','module','exports',compiled)(dep=>loadTs(path.resolve(path.dirname(file),dep+'.ts')),mod,mod.exports);cache.set(file,mod.exports);return mod.exports;}
+export function loadTs(file){
+ file=path.resolve(file);if(cache.has(file))return cache.get(file);
+ if(file.endsWith('.json')){const value=JSON.parse(fs.readFileSync(file,'utf8'));cache.set(file,value);return value;}
+ const mod={exports:{}};cache.set(file,mod.exports);
+ const compiled=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
+ new Function('require','module','exports',compiled)(dep=>loadTs(path.resolve(path.dirname(file),dep.endsWith('.json')?dep:dep+'.ts')),mod,mod.exports);
+ cache.set(file,mod.exports);return mod.exports;
+}
 export function formulaInventory(){const rows=[];for(const name of ['content','core','recap','extended','russian-core','russian-recap','russian-extended']){const file=path.join(root,'src/modules/math-term-one',name+'.ts');if(!fs.existsSync(file))continue;const sf=ts.createSourceFile(file,fs.readFileSync(file,'utf8'),ts.ScriptTarget.Latest,true);function visit(node){if(ts.isPropertyAssignment(node)&&node.name.getText(sf)==='formula'&&ts.isStringLiteral(node.initializer))rows.push({source:path.relative(root,file),formula:node.initializer.text});ts.forEachChild(node,visit);}visit(sf);}for(const lang of ['en','ru']){const file=path.join(root,'src/i18n',lang,'physics.json');const data=JSON.parse(fs.readFileSync(file));for(const [topic,v] of Object.entries(data))for(const [id,value] of Object.entries(v.formulas&&typeof v.formulas==='object'?v.formulas:{}))if(!id.endsWith('Caption'))rows.push({source:`${lang}/physics/${topic}/${id}`,formula:value});}return rows;}
 const {findFormulaTeaching,formulaTeaching}=loadTs(path.join(root,'src/content/formulaTeaching.ts'));
 const inventory=formulaInventory().map(row=>({...row,ids:findFormulaTeaching(row.formula).map(x=>x.id)}));

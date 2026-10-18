@@ -697,7 +697,7 @@
             "examples": [
               "O₂ and CO₂ pass freely (small, non-polar).",
               "Glucose needs a transporter protein.",
-              "Ions (Na⁺, K⁺) need protein channels."
+              "Ions such as Na⁺ and K⁺ cross through membrane transport proteins, including channels and pumps."
             ],
             "review": {
               "englishTerm": "Cell membrane (plasma membrane)",
@@ -714,6 +714,12 @@
                   "url": "https://foxford.ru/wiki/biologiya/stroenie-kletok-eukariot-odnomembrannye-organelly-yadro",
                   "language": "ru",
                   "section": "Строение клеток эукариот: цитоплазма, органеллы и ядро"
+                },
+                {
+                  "title": "МГУ · Синаптическая передача данных: активный транспорт ионов",
+                  "url": "https://polly.phys.msu.ru/~gusarov/Синаптическая%20передача%20данных%20.pdf",
+                  "language": "ru",
+                  "section": "§5 «Активный транспорт ионов», печатные с. 7–8: перенос против электрохимического градиента, первичный и вторичный механизмы; предшествующий абзац о сочетании электрического и концентрационного градиентов. Соседние частные нейронные примеры здесь не обобщаются на все клетки."
                 }
               ]
             }
@@ -1045,7 +1051,7 @@
           },
           "root": {
             "name": "Root hair cell (plant)",
-            "rule": "A root hair cell is a cell on the root's outer surface, with a long projection that grows into the soil. Water enters by osmosis, because the cell's contents have a lower water potential than the soil water. Mineral ions usually enter by active transport, moving from a lower to a higher concentration and using energy from respiration.",
+            "rule": "A root hair cell is a cell on the root's outer surface, with a long projection that grows into the soil. Water can enter by osmosis when soil water has higher water potential than the cell. Mineral uptake uses membrane transport proteins; active uptake depends on metabolic energy and the ion's electrochemical gradient. Concentrations alone do not determine the passive movement of a charged ion.",
             "examples": [
               "The projection increases surface area in contact with soil water.",
               "A typical root hair cell grows underground, where there is no light for photosynthesis, so it has no chloroplasts."
@@ -1072,6 +1078,12 @@
                   "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
                   "language": "en",
                   "section": "30.5 Transport of Water and Solutes in Plants: water potential"
+                },
+                {
+                  "title": "МГУ · Синаптическая передача данных: активный транспорт ионов",
+                  "url": "https://polly.phys.msu.ru/~gusarov/Синаптическая%20передача%20данных%20.pdf",
+                  "language": "ru",
+                  "section": "§5 «Активный транспорт ионов», печатные с. 7–8: перенос против электрохимического градиента, первичный и вторичный механизмы; предшествующий абзац о сочетании электрического и концентрационного градиентов. Соседние частные нейронные примеры здесь не обобщаются на все клетки."
                 }
               ]
             }
@@ -1120,7 +1132,7 @@
         "title": "Movement across membranes",
         "diffusion": "Diffusion is the net movement of particles from higher to lower concentration due to random motion. It is passive and does not require ATP.",
         "osmosis": "Osmosis — diffusion of water across a partially permeable membrane.",
-        "activeTransport": "Active transport — moving a substance from lower to higher concentration. It is powered by ATP from respiration.",
+        "activeTransport": "Active transport uses metabolic energy and membrane transport proteins to move a substance against its electrochemical gradient. For an uncharged solute, this can mean movement from lower to higher concentration.",
         "detailed": {
           "diffusion": {
             "name": "Diffusion",
@@ -1131,7 +1143,7 @@
               "Perfume spreads through a room by diffusion, but air currents also carry it, so the spreading is not diffusion alone.",
               "Carbon dioxide enters a leaf through the stomata by diffusion, because photosynthesis uses it up inside the leaf."
             ],
-            "tip": "Surface area to volume ratio (SA:V) falls as a cell or organism gets bigger. Volume grows faster than surface area, so large organisms need exchange surfaces such as villi and alveoli.",
+            "tip": "For geometrically similar cells or model organisms, increasing linear size makes volume grow faster than surface area, so surface area per unit volume falls. Real exchange also depends on shape, folding, transport distance and membrane properties. Large organisms use specialised exchange surfaces such as villi and alveoli.",
             "review": {
               "englishTerm": "Diffusion",
               "russianTerm": "Диффузия",
@@ -1206,18 +1218,18 @@
           },
           "activeTransport": {
             "name": "Active transport",
-            "rule": "Active transport moves a substance across a membrane against the concentration difference, from low to high concentration. The cell uses ATP from respiration for this, and carrier proteins in the membrane move the substance.",
+            "rule": "Active transport uses metabolic energy and membrane transport proteins to move a substance against its electrochemical gradient. For an uncharged solute, this can mean movement from lower to higher concentration. Primary active transport uses ATP directly; secondary active transport uses a gradient maintained by energy-dependent transport.",
             "examples": [
               "Root hair cells take up mineral ions from the soil, even when the ions are more concentrated inside the cell.",
               "Glucose is absorbed from the small intestine into the blood, even when the blood already has a higher glucose concentration."
             ],
-            "watchOut": "Without oxygen, cells make less ATP, so active transport slows down or stops. Diffusion needs no ATP, so it carries on.",
+            "watchOut": "In cells relying on aerobic respiration, oxygen shortage can reduce ATP supply and limit energy-dependent transport. Diffusion does not directly require ATP.",
             "review": {
               "englishTerm": "Active transport",
               "russianTerm": "Активный транспорт",
               "contrast": {
-                "en": "Active transport works against diffusion, using ATP to move substances into a region of higher concentration.",
-                "ru": "Активный транспорт идёт против диффузии: он тратит АТФ и переносит вещества в область более высокой концентрации."
+                "en": "Active transport uses metabolic energy and membrane transport proteins to move a substance against its electrochemical gradient. For an uncharged solute, this can mean movement from lower to higher concentration.",
+                "ru": "Активный транспорт использует энергию обмена веществ и мембранные транспортные белки для переноса вещества против его электрохимического градиента. Для незаряженного вещества это может означать перенос из области меньшей концентрации в область большей."
               },
               "sources": [
                 {
@@ -1227,10 +1239,10 @@
                   "section": "5.3 Active Transport: electrochemical gradients; primary and secondary transport"
                 },
                 {
-                  "title": "Фоксфорд Учебник — Осмос и осморегуляция: перенос воды через мембрану",
-                  "url": "https://foxford.ru/wiki/biologiya/osmos-i-osmoregulyatsiya",
+                  "title": "МГУ · Синаптическая передача данных: активный транспорт ионов",
+                  "url": "https://polly.phys.msu.ru/~gusarov/Синаптическая%20передача%20данных%20.pdf",
                   "language": "ru",
-                  "section": "Осмос и осморегуляция: перенос воды через мембрану"
+                  "section": "§5 «Активный транспорт ионов», печатные с. 7–8: перенос против электрохимического градиента, первичный и вторичный механизмы; предшествующий абзац о сочетании электрического и концентрационного градиентов. Соседние частные нейронные примеры здесь не обобщаются на все клетки."
                 }
               ]
             }
@@ -1686,7 +1698,7 @@
             "examples": [
               "Glucose, amino acids and water-soluble vitamins pass into the blood capillaries of the villi, then reach the liver through the hepatic portal vein.",
               "Most long-chain dietary fats are rebuilt into triglycerides in intestinal cells and packaged into particles that enter lacteals, then lymph and blood near the heart. Glycerol and shorter-chain fatty acids can enter portal blood and travel directly to the liver.",
-              "Iron is absorbed in the upper small intestine. Vitamin B12 is absorbed in the ileum, but only with intrinsic factor, a protein made by the lining of the stomach.",
+              "Iron is absorbed mainly in the upper small intestine. Normal receptor-mediated absorption of vitamin B12 takes place in the ileum and requires intrinsic factor, a protein secreted by stomach cells.",
               "In coeliac disease, the immune system reacts to gluten and damages the villi. Absorption falls, so a person can lack nutrients even though they eat normally."
             ],
             "tip": "Why is the surface so large? Over a bigger area, more substance crosses in the same time. The wall of each villus is a thin, single-layer epithelium, so in a villus a substance crosses only one cell layer (the epithelium). The capillary wall it reaches next is also one cell thick. A dense network of capillaries carries absorbed nutrients away, which keeps the concentration gradient steep and diffusion fast. Villi, microvilli and a length of about 6–7 m together give a very large absorption area.",

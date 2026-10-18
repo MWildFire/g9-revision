@@ -5,7 +5,16 @@ import ts from 'typescript';
 import {activeBlocks,dayMinutes,dubaiToday,dueReviews,freshPlan,normalizePlan,shiftedDate,validDate,FIRST_EXAM,READY_BY} from '../src/modules/revision-plan/model.ts';
 const plan=JSON.parse(readFileSync(new URL('../src/data/revision-plan.json',import.meta.url)));
 const cache=new Map();
-function load(name){if(cache.has(name))return cache.get(name);const source=readFileSync(new URL(`../src/modules/november/${name}.ts`,import.meta.url),'utf8');const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const module={exports:{}};new Function('require','module','exports',compiled)(dep=>load(dep.replace('./','')),module,module.exports);cache.set(name,module.exports);return module.exports;}
+function load(name,parent=new URL('../src/modules/november/',import.meta.url)){
+ const url=new URL(name.endsWith('.json')?name:name+'.ts',parent);const key=url.href;
+ if(cache.has(key))return cache.get(key);
+ const source=readFileSync(url,'utf8');
+ if(url.pathname.endsWith('.json')){const value=JSON.parse(source);cache.set(key,value);return value;}
+ const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
+ const module={exports:{}};cache.set(key,module.exports);
+ new Function('require','module','exports',compiled)(dep=>load(dep,url),module,module.exports);
+ cache.set(key,module.exports);return module.exports;
+}
 const {practice,supplements}=load('content');const {papers}=load('papers');const {listening}=load('listening');
 test('daily sequence reaches the confirmed exam week without adding Saturday workload',()=>{
  assert.equal(FIRST_EXAM,'2026-11-09');assert.equal(READY_BY,'2026-11-04');assert.equal(plan.days.length,34);
@@ -29,7 +38,7 @@ test('Arabic is opt-in and existing tutor blocks count in daily workload',()=>{
  for(const date of ['2026-10-13','2026-10-14','2026-10-16'])assert.ok(plan.days.find(d=>d.date===date).blocks.filter(b=>b.lesson).reduce((n,b)=>n+b.minutes,0)>=120);
 });
 test('recall follows actual completion, merges Saturday dates and records recalled items',()=>{
- const days=[{date:'2026-10-11',phase:'x',title:{en:'x',ru:'x'},recall:5,blocks:[{id:'one',topics:['p-atom'],minutes:25,task:{en:'x',ru:'x'}}]}];const state=freshPlan();state.completed.one='2026-10-16';
+ const days=[{date:'2026-10-11',phase:'x',title:{en:'x',ru:'x'},recall:5,blocks:[{id:'one',topics:['p-atom'],minutes:25,task:{en:'x',ru:'x'}}]},{date:'2026-10-18',phase:'x',title:{en:'x',ru:'x'},recall:5,blocks:[]}];const state=freshPlan();state.completed.one='2026-10-16';
  let queue=dueReviews(days,plan.topics,state,'2026-10-18');assert.equal(queue.length,1);assert.equal(queue[0].lastStudied,'2026-10-16');assert.deepEqual(queue[0].dates,['2026-10-18','2026-10-20','2026-10-27']);assert.equal(queue[0].due,true);
  state.completed['review:p-atom:2026-10-18']='2026-10-18';queue=dueReviews(days,plan.topics,state,'2026-10-18');assert.equal(queue[0].due,false);assert.deepEqual(queue[0].dates,['2026-10-20','2026-10-27']);
  delete state.completed.one;assert.deepEqual(dueReviews(days,plan.topics,state,'2026-10-18'),[]);

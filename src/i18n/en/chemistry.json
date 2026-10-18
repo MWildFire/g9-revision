@@ -424,8 +424,8 @@
               "englishTerm": "Adaptation",
               "russianTerm": "Адаптация",
               "contrast": {
-                "en": "Mitigation and adaptation are different responses to warming. Mitigation acts on the cause by cutting emissions, while adaptation acts on the harm and leaves emissions unchanged.",
-                "ru": "Смягчение изменения климата и адаптация — разные ответы на потепление. Смягчение изменения климата действует на причину: сокращает выбросы. Адаптация снижает вред, но выбросы не сокращает."
+                "en": "Mitigation addresses the causes by reducing greenhouse-gas emissions or increasing removals. Adaptation reduces harm or makes use of opportunities from actual or expected climate effects. Some measures, such as restoring vegetation, can do both; adaptation does not by definition leave emissions unchanged.",
+                "ru": "Смягчение изменения климата действует на причины: сокращает выбросы парниковых газов или усиливает их поглощение. Адаптация уменьшает вред или использует возможности, связанные с реальными или ожидаемыми последствиями изменения климата. Некоторые меры, например восстановление растительности, могут решать обе задачи; адаптация по определению не обязана оставлять выбросы неизменными."
               },
               "sources": [
                 {
@@ -908,7 +908,7 @@
     "rates": {
       "title": "Rates of reaction",
       "items": [
-        "Concentration: a reactant usually changes the rate only if it takes part in the slowest step, the rate-determining step.",
+        "Concentration effects depend on the reaction mechanism and must be determined experimentally. A slow step can control the rate, while a preceding fast equilibrium can also make the rate depend on reactants that do not appear directly in that slow step.",
         "Temperature: the Maxwell–Boltzmann curve shifts to the right and widens, while its area stays the same. If the vertical axis shows the number of particles, the area equals the total number of particles.",
         "Surface area: a solid catalyst works on its surface. A car's catalytic converter coats a porous support with platinum, palladium and rhodium, so the catalyst has a large surface area.",
         "Catalyst poisoning: impurities bind strongly to the catalyst's surface, so less of the surface is left for the reactants.",
@@ -1521,7 +1521,7 @@
           },
           "neutralisation": {
             "name": "Neutralisation",
-            "rule": "Neutralisation is a reaction between an acid and a base that forms a salt. The reaction releases heat, so the mixture warms up. The salt depends on which acid and base react. Water forms with metal oxides and hydroxides, the usual bases.",
+            "rule": "Neutralisation is an acid–base reaction. In the school examples, an acid reacting with a basic metal oxide or hydroxide forms a salt and water. Neutralising a dilute strong acid with a strong alkali is exothermic; in an approximately insulated mixture this usually causes a temperature rise. The overall heat change for other acid–base systems depends on the substances and conditions.",
             "examples": [
               "2HCl(aq) + Ba(OH)₂(aq) → BaCl₂(aq) + 2H₂O(l) — hydrochloric acid and barium hydroxide",
               "HI(aq) + KOH(aq) → KI(aq) + H₂O(l) — hydroiodic acid and potassium hydroxide",
@@ -1918,7 +1918,7 @@
           },
           "base": {
             "name": "Base",
-            "rule": "A base is a substance that reacts with an acid to form a salt. Metal oxides and metal hydroxides both act as bases.",
+            "rule": "A base accepts H⁺ from an acid. Basic metal oxides such as CuO and basic metal hydroxides such as NaOH neutralise acids; not every metal oxide or hydroxide is basic. With these basic oxides and hydroxides, the products are a salt and water.",
             "examples": [
               "CuO (copper(II) oxide) — black solid; dilute sulfuric acid dissolves it to give a blue solution: CuO(s) + H₂SO₄(aq) → CuSO₄(aq) + H₂O(l).",
               "MgO (magnesium oxide) — white solid; it reacts with hydrochloric acid: MgO(s) + 2HCl(aq) → MgCl₂(aq) + H₂O(l).",
@@ -2171,8 +2171,8 @@
               "englishTerm": "Phenolphthalein",
               "russianTerm": "Фенолфталеин",
               "contrast": {
-                "en": "The endpoint is the visible colour change, not the equivalence point. For a strong acid titrated with alkali, the pink appears at about pH 8.2 or higher, which is after the equivalence point at pH 7.",
-                "ru": "Конечная точка (endpoint) — видимая смена цвета, а точка эквивалентности — момент, когда кислота и щёлочь полностью прореагировали. При титровании сильной кислоты щёлочью розовый цвет появляется при pH около 8,2 и выше, то есть уже после точки эквивалентности (pH 7)."
+                "en": "The endpoint is the visible colour change, not the equivalence point. For a strong acid titrated with a strong alkali at about 25 °C, the equivalence point is near pH 7. Phenolphthalein first becomes persistently pale pink at about pH 8.3, just after equivalence when alkali is added. This indicator is suitable only when its transition range lies within the steep pH change.",
+                "ru": "Конечная точка — наблюдаемая смена цвета, а точка эквивалентности определяется стехиометрией реакции. При титровании сильной кислоты сильной щёлочью примерно при 25 °C pH в точке эквивалентности близок к 7. При добавлении щёлочи устойчивая бледно-розовая окраска фенолфталеина появляется примерно при pH 8,3, немного после эквивалентности. Индикатор подходит, только если его интервал перехода попадает в резкий скачок pH."
               },
               "sources": [
                 {
@@ -2319,7 +2319,7 @@
           },
           "base": {
             "name": "Acid + base → salt + water (no gas)",
-            "rule": "Oxide ions (O²⁻) take two H⁺ ions from the acid and form water: O²⁻ + 2H⁺ → H₂O. The metal ions then combine with the acid's anions to form the salt.",
+            "rule": "For a basic solid oxide such as copper(II) oxide, the acid reacts at the solid surface: CuO(s) + 2H⁺(aq) → Cu²⁺(aq) + H₂O(l). Oxide in the solid accepts protons; do not write it as free O²⁻(aq). In hydrochloric acid, chloride ions remain in solution with Cu²⁺; copper(II) chloride is dissolved, so these ions do not form a precipitate.",
             "examples": [
               "2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l)",
               "H₂SO₄(aq) + ZnO(s) → ZnSO₄(aq) + H₂O(l)",

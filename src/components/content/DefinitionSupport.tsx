@@ -70,6 +70,12 @@ export function DefinitionSupport({ review, language, formulaContext }: { review
   const [showContrast, showModel] = useOnce([review?.contrast ? `contrast:${text(review.contrast)}` : '', review?.model ? `model:${text(review.model)}` : '']);
   if (!review || typeof review !== 'object') return null;
   const ru = lang === 'ru';
+  const sourceHeading = ru ? 'Источники к этому объяснению' : 'Sources for this explanation';
+  const sourceList = <ul>{review.sources?.map((source, index) => <li key={`${source.url}:${source.section}:${index}`}>
+    <a href={source.url} lang={source.language} target="_blank" rel="noreferrer">{source.title}</a>{' '}
+    <span className="definition-source-language" aria-label={`${ru ? 'Язык источника' : 'Source language'}: ${source.language.toUpperCase()}`}>{source.language.toUpperCase()}</span>
+    <span className="definition-source-section">{source.section}</span>
+  </li>)}</ul>;
   return <div className="definition-support" lang={lang}>
     <p className="definition-equivalents">{ru ? <><span lang="ru">{review.russianTerm}</span> <span lang="en">({review.englishTerm})</span></> : <><span lang="en">{review.englishTerm}</span>{review.russianTerm && <><span aria-hidden="true"> · </span><span lang="ru">{review.russianTerm}</span></>}</>}</p>
     {review.explanation && <Block text={text(review.explanation)} />}
@@ -77,5 +83,9 @@ export function DefinitionSupport({ review, language, formulaContext }: { review
     {review.model && showModel && <Labelled className="definition-model" label={ru ? 'Область применения:' : 'Scope of the model:'} text={text(review.model)} />}
     <FormulaTeaching text={formulaContext ?? [text(review.explanation),text(review.contrast),text(review.model)].join(' ')}/>
     {review.visual && <DefinitionDiagram visual={review.visual} language={lang}/>}
+    {!!review.sources?.length && <>
+      <details className="definition-sources print:hidden"><summary>{sourceHeading}</summary>{sourceList}</details>
+      <div className="definition-sources hidden print:block"><strong>{sourceHeading}</strong>{sourceList}</div>
+    </>}
   </div>;
 }

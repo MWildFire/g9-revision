@@ -498,7 +498,7 @@
       },
       "surdsSimplify": {
         "name": "Запись корня в простейшем виде",
-        "rule": "Иррациональный корень (surd) — это квадратный корень с иррациональным значением, например √2 или √12. Корень из натурального числа, которое не является полным квадратом, всегда иррационален. Чтобы упростить корень, выносят из-под знака корня квадратный множитель: √(a²b) = |a|√b при действительном a и b ≥ 0.",
+        "rule": "Иррациональный корень (surd) — иррациональное значение корня n-й степени из рационального числа. В этой теме в основном рассматриваются квадратные иррациональные корни, например √2 или √12. Корень из натурального числа, которое не является полным квадратом, всегда иррационален. Чтобы упростить корень, выносят из-под знака корня квадратный множитель: √(a²b) = |a|√b при действительном a и b ≥ 0.",
         "examples": [
           "√50 = √(25 × 2) = 5√2",
           "√72 = √(36 × 2) = 6√2",
@@ -1308,7 +1308,7 @@
       },
       "asymptotes": {
         "name": "Extended: асимптоты рациональных функций",
-        "rule": "Асимптота (asymptote) — это прямая, к которой график неограниченно приближается. Вертикальная асимптота x = c находится там, где знаменатель равен нулю и множитель не сокращается. Горизонтальная асимптота y = L показывает значение, к которому приближается функция при неограниченном росте |x|. Для f(x) = a/(x − h) + k при a ≠ 0 асимптоты — прямые x = h и y = k.",
+        "rule": "Вертикальная асимптота x = c возникает, если f(x) стремится к +∞ или −∞ при приближении x к c хотя бы с одной стороны. Для рациональной функции сначала сократи общие множители; нули оставшегося знаменателя дают вертикальные асимптоты. Горизонтальная асимптота y = L означает, что f(x) → L при x → +∞ или x → −∞; поведение на двух концах может различаться. Для f(x) = a/(x − h) + k при a ≠ 0 асимптоты — прямые x = h и y = k.",
         "examples": [
           "y = 1/(x − 3): вертикальная асимптота x = 3, потому что знаменатель там равен нулю. Горизонтальная асимптота y = 0. Например, при x = 4 получаем y = 1.",
           "y = (x + 1)/(x − 2) = 1 + 3/(x − 2). Вертикальная асимптота x = 2, горизонтальная асимптота y = 1. Проверка при x = 5: (5 + 1)/(5 − 2) = 2 и 1 + 3/3 = 2.",
@@ -1333,7 +1333,7 @@
       },
       "exponential": {
         "name": "Extended: показательные функции — рост и убывание",
-        "rule": "Показательная функция (exponential function) имеет вид y = A·bˣ, где A — начальное значение, b — постоянный множитель роста (A > 0, b > 0, b ≠ 1). Когда x увеличивается на 1, y умножается на b. График проходит через точку (0; A). При b > 1 происходит рост, при 0 < b < 1 — убывание.",
+        "rule": "Показательная функция может быть записана как y=A·bˣ, где A≠0, b>0 и b≠1. В рассматриваемых моделях роста и убывания положительной величины считаем A>0: при b>1 величина растёт, а при 0<b<1 убывает. Когда x увеличивается на 1, y умножается на b. График проходит через точку (0; A).",
         "examples": [
           "y = 2ˣ: когда x увеличивается на 1, y удваивается. Проверка: y(0) = 1, y(1) = 2, y(3) = 8.",
           "Ноутбук стоит 100 фунтов и каждый год теряет 10 % стоимости, поэтому V = 100 × 0,9ᵗ, где t — число лет. Через 1 год V = 90 фунтов, через 2 года V = 81 фунт.",
@@ -1838,10 +1838,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
               "language": "en",
-              "section": "§6.1 · Univariate statistics, pp. 306–325; §6.3 · Histograms, pp. 348–361"
+              "section": "Qualitative versus quantitative data; labels and numerical measurements. Exact Oxford passage remains unverified."
             },
             {
               "title": "РЭШ · Наглядное представление статистической информации",
@@ -1868,10 +1868,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
               "language": "en",
-              "section": "§6.1 · Stem-and-leaf diagrams, pp. 306–322"
+              "section": "Opening definition and Example 2.2: decimal stems/leaves; Example 2.3: side-by-side plots. This is method support, not a matched textbook exercise."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -1884,7 +1884,7 @@
       },
       "grouped": {
         "name": "Оценка среднего арифметического, медианы и модального интервала по сгруппированным данным",
-        "rule": "Сгруппированные данные (grouped data) показывают, сколько значений попало в каждый интервал, например от 0 до 10. Точные значения при этом теряются.\n\nСреднее арифметическое (mean) оценивают по серединам интервалов: среднее ≈ Σ(частота × середина интервала) ÷ Σ частот. Медиана (median) лежит в том интервале, который содержит средний по порядку элемент, но её точное значение неизвестно. Оценку медианы дают график накопленных частот или интерполяция. При равной ширине интервалов модальный интервал (modal class) — это интервал с наибольшей частотой.",
+        "rule": "Сгруппированные данные (grouped data) показывают, сколько значений попало в каждый интервал, например от 0 до 10. Точные значения при этом теряются.\n\nСреднее арифметическое (mean) оценивают по серединам интервалов: среднее ≈ Σ(частота × середина интервала) ÷ Σ частот. По сгруппированным данным медиану оценивают с помощью интервала, содержащего медианную позицию. При чётном числе наблюдений точная медиана равна среднему двух центральных значений; если они находятся в разных интервалах, их среднее может не попасть ни в один из этих интервалов. По одним частотам точную медиану обычно не восстановить. Оценку медианы дают график накопленных частот или интерполяция. При равной ширине интервалов модальный интервал (modal class) — это интервал с наибольшей частотой.",
         "examples": [
           "Интервалы 0 < x ≤ 10, 10 < x ≤ 20 и 20 < x ≤ 30 имеют частоты 4, 10 и 6, а их середины — 5, 15 и 25. Оценка среднего арифметического = (5 × 4 + 15 × 10 + 25 × 6) ÷ 20 = 320 ÷ 20 = 16.",
           "Модальный интервал — 10 < x ≤ 20, так как у него самая большая частота: 10. Два средних по порядку значения (10-е и 11-е из 20) лежат в этом интервале, значит, медиана тоже в 10 < x ≤ 20.",
@@ -1899,10 +1899,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data",
               "language": "en",
-              "section": "§6.2 · Quantifying data, pp. 326–347"
+              "section": "Mode definition and grouped-data mean using class midpoints. Unequal-width modal-density interpretation requires separate exact passage binding."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -1933,10 +1933,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
               "language": "en",
-              "section": "§6.1–6.2 · Quartiles and box plots, pp. 306–338"
+              "section": "Five-number summary, Q1/Q3, IQR and box plots; quartile/whisker conventions must be stated. This source does not close every software convention."
             },
             {
               "title": "РЭШ · Начала статистики",
@@ -1996,10 +1996,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
               "language": "en",
-              "section": "§6.3 · Histograms, pp. 348–361"
+              "section": "Histogram construction; Example 2.8 explicitly uses discrete counts. Frequency-density scaling for unequal widths still requires exact source binding."
             },
             {
               "title": "РЭШ · Наглядное представление статистической информации",
@@ -2031,10 +2031,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
               "language": "en",
-              "section": "§6.2 · Cumulative frequency, pp. 326–341"
+              "section": "Percentiles and quartiles as positions in ordered data; a cumulative-curve interpolation is a model-based estimate."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -2115,15 +2115,15 @@
           "englishTerm": "Two-way table",
           "russianTerm": "Таблица сопряжённости",
           "contrast": {
-            "en": "The denominator is the total of the group named in the question. For a girl, use the 22 girls, not the 40 students.",
-            "ru": "Знаменатель — это итог той группы, о которой спрашивают. Для девочки берём 22 девочки, а не 40 учеников."
+            "en": "For an unconditional or joint probability, use the grand total. For P(A | B), use the nonzero total of the given group B. Merely mentioning a row or column does not make a probability conditional.",
+            "ru": "Для обычной или совместной вероятности используй общий итог. Для P(A | B) знаменатель — ненулевой итог заданной группы B. Одно упоминание строки или столбца ещё не делает вероятность условной."
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e §3.4",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-4-contingency-tables",
               "language": "en",
-              "section": "§4.2 · Two-way tables, pp. 249–252"
+              "section": "Example 3.20: unconditional/joint probabilities use the grand total; the conditional sample space is the given group."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -2150,10 +2150,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
               "language": "en",
-              "section": "§6.1 · Univariate statistics, pp. 306–325"
+              "section": "Range/IQR summary for minimum 59 and maximum 77: range = maximum − minimum; IQR = Q3 − Q1."
             },
             {
               "title": "РЭШ · Начала статистики",
@@ -2179,10 +2179,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events",
               "language": "en",
-              "section": "§4.2 · Mutually exclusive events, pp. 251–259"
+              "section": "Independent and mutually exclusive events: the overlap condition differs from independence."
             },
             {
               "title": "РЭШ · Сложение вероятностей",
@@ -2203,15 +2203,15 @@
           "englishTerm": "Addition rule",
           "russianTerm": "Сложение вероятностей",
           "contrast": {
-            "en": "Only events that cannot happen together can be added. A heart and a king can both happen (the king of hearts), so P(heart or king) is not 13/52 + 4/52.",
-            "ru": "Складывать можно только события, которые не могут произойти вместе. Карта может быть одновременно червой и королём (король червей), поэтому P(червы или король) не равно 13/52 + 4/52."
+            "en": "The simple sum P(A) + P(B) gives P(A or B) only for mutually exclusive events. Otherwise subtract P(A and B). A heart and a king overlap at the king of hearts, so 13/52 + 4/52 counts that card twice.",
+            "ru": "Простая сумма P(A) + P(B) равна P(A или B) только для несовместных событий. Иначе вычти P(A ∩ B). Червовая карта и король пересекаются на короле червей, поэтому 13/52 + 4/52 считает его дважды."
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-3-two-basic-rules-of-probability",
               "language": "en",
-              "section": "§4.2 · Probability of single and combined events, pp. 234–259"
+              "section": "Addition Rule: subtract the overlap; the simple sum applies to disjoint events."
             },
             {
               "title": "РЭШ · Сложение вероятностей",
@@ -2224,7 +2224,7 @@
       },
       "sampling": {
         "name": "Выборка: простая, систематическая и стратифицированная",
-        "rule": "Выборка — это часть совокупности (population). Каждому из способов ниже нужна основа выборки (sampling frame): список всех членов совокупности. Простая случайная выборка даёт каждому члену одинаковый шанс попасть в неё. Систематическая выборка берёт каждого n-го члена упорядоченного списка после случайного старта. Стратифицированная выборка делит совокупность на группы и берёт из каждой группы долю, пропорциональную её размеру. Большая выборка обычно даёт более надёжные результаты.",
+        "rule": "Выборка — часть генеральной совокупности. При простой случайной выборке фиксированного объёма n любая группа из n членов совокупности имеет одинаковый шанс быть выбранной. Для пропорциональной стратифицированной случайной выборки раздели совокупность на непересекающиеся группы, распредели объём выборки пропорционально размерам групп и случайно выбери членов внутри каждой группы. При систематической выборке после случайного старта берут каждый k-й элемент упорядоченного списка. Большая правильно организованная случайная выборка уменьшает выборочную изменчивость, но не устраняет смещение отбора.",
         "examples": [
           "В школе 300 учеников: 180 в 10 классе и 120 в 11 классе. Стратифицированная выборка из 30 человек сохраняет пропорции: в 10 классе 30 × 180/300 = 18 учеников, в 11 классе 30 × 120/300 = 12 учеников.",
           "Из списка 300 учеников начни со случайного ученика из первых десяти и бери каждого 10-го: получится систематическая выборка из 300 ÷ 10 = 30 учеников."
@@ -2238,10 +2238,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
               "language": "en",
-              "section": "§9.1 · Sampling techniques, pp. 458–476"
+              "section": "Sampling: each size-n group equally likely for simple random sampling; random selection within strata."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -2267,10 +2267,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
               "language": "en",
-              "section": "§9.2 · Bivariate data, pp. 477–489"
+              "section": "Least-squares residual criterion, mean point and Pearson linear-correlation formula; correlation itself is not a causal experiment."
             },
             {
               "title": "БРЭ · Диаграмма рассеяния",

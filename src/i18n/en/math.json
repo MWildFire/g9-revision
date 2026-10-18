@@ -498,7 +498,7 @@
       },
       "surdsSimplify": {
         "name": "Writing a surd in simplest form",
-        "rule": "A surd is a square root with an irrational value, such as √2 or √12. The square root of a positive whole number that is not a perfect square is always a surd. To simplify a surd, take out a square factor: √(a²b) = |a|√b for real a and b ≥ 0.",
+        "rule": "A surd is an irrational nth root of a rational number. In this topic we work mainly with quadratic surds, such as √2 or √12. The square root of a positive whole number that is not a perfect square is always a surd. To simplify a surd, take out a square factor: √(a²b) = |a|√b for real a and b ≥ 0.",
         "examples": [
           "√50 = √(25 × 2) = 5√2",
           "√72 = √(36 × 2) = 6√2",
@@ -1308,7 +1308,7 @@
       },
       "asymptotes": {
         "name": "Extended: asymptotes of rational functions",
-        "rule": "An asymptote is a line that a graph gets closer and closer to. A vertical asymptote is at x = c, where the denominator is zero and the factor does not cancel. A horizontal asymptote y = L shows the value the function approaches as |x| becomes very large. For f(x) = a/(x − h) + k, with a ≠ 0, the asymptotes are x = h and y = k.",
+        "rule": "A vertical asymptote x = c occurs when f(x) tends to +∞ or −∞ as x approaches c from at least one side. For a rational function, simplify common factors first; zeros of the remaining denominator give its vertical asymptotes. A horizontal asymptote y = L means f(x) → L as x → +∞ or x → −∞; the two ends can behave differently. For f(x) = a/(x − h) + k, with a ≠ 0, the asymptotes are x = h and y = k.",
         "examples": [
           "y = 1/(x − 3): the vertical asymptote is x = 3, because the denominator is zero there. The horizontal asymptote is y = 0. For example, y = 1 when x = 4.",
           "y = (x + 1)/(x − 2) = 1 + 3/(x − 2). The vertical asymptote is x = 2, and the horizontal asymptote is y = 1. Check with x = 5: (5 + 1)/(5 − 2) = 2 and 1 + 3/3 = 2.",
@@ -1333,7 +1333,7 @@
       },
       "exponential": {
         "name": "Extended: exponential functions — growth and decay",
-        "rule": "An exponential function has the form y = A·bˣ, where A is the starting value and b is the constant growth factor (A > 0, b > 0, b ≠ 1). Each time x increases by 1, y is multiplied by b. The graph passes through (0, A). If b > 1, the function shows growth. If 0 < b < 1, it shows decay.",
+        "rule": "An exponential function can be written y=A·bˣ with A≠0, b>0 and b≠1. For the positive-quantity growth and decay models here, assume A>0: b>1 gives growth and 0<b<1 gives decay. Each time x increases by 1, y is multiplied by b. The graph passes through (0, A).",
         "examples": [
           "y = 2ˣ: each time x increases by 1, y doubles. Check: y(0) = 1, y(1) = 2 and y(3) = 8.",
           "A laptop is worth £100 and loses 10% of its value each year, so V = 100 × 0.9ᵗ, where t is the number of years. After 1 year V = £90, and after 2 years V = £81.",
@@ -1838,10 +1838,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
               "language": "en",
-              "section": "§6.1 · Univariate statistics, pp. 306–325; §6.3 · Histograms, pp. 348–361"
+              "section": "Qualitative versus quantitative data; labels and numerical measurements. Exact Oxford passage remains unverified."
             },
             {
               "title": "РЭШ · Наглядное представление статистической информации",
@@ -1868,10 +1868,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs",
               "language": "en",
-              "section": "§6.1 · Stem-and-leaf diagrams, pp. 306–322"
+              "section": "Opening definition and Example 2.2: decimal stems/leaves; Example 2.3: side-by-side plots. This is method support, not a matched textbook exercise."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -1884,7 +1884,7 @@
       },
       "grouped": {
         "name": "Estimating the mean, median and modal class from grouped data",
-        "rule": "Grouped data show how many values fall into each class, such as 0 to 10. The exact values are lost.\n\nEstimate the mean with the class centres: mean ≈ Σ(frequency × centre) ÷ Σ frequency. The median lies in the class that contains the middle value, but its exact value is not known. A cumulative frequency curve or interpolation gives an estimate. For classes of equal width, the modal class is the class with the highest frequency.",
+        "rule": "Grouped data show how many values fall into each class, such as 0 to 10. The exact values are lost.\n\nEstimate the mean with the class centres: mean ≈ Σ(frequency × centre) ÷ Σ frequency. For grouped data, use the class containing the median position to estimate the median. For an even dataset, the exact median is the mean of the two middle observations; if those observations lie in different classes, their mean need not lie in either class. Class frequencies alone generally do not determine its exact value. A cumulative frequency curve or interpolation gives an estimate. For classes of equal width, the modal class is the class with the highest frequency.",
         "examples": [
           "The classes 0 < x ≤ 10, 10 < x ≤ 20 and 20 < x ≤ 30 have frequencies 4, 10 and 6, with midpoints 5, 15 and 25. The estimated mean is (5 × 4 + 15 × 10 + 25 × 6) ÷ 20 = 320 ÷ 20 = 16.",
           "The modal class is 10 < x ≤ 20 because it has the highest frequency, 10. The 10th and 11th values out of 20 both lie in this class, so the median is also in 10 < x ≤ 20.",
@@ -1899,10 +1899,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data",
               "language": "en",
-              "section": "§6.2 · Quantifying data, pp. 326–347"
+              "section": "Mode definition and grouped-data mean using class midpoints. Unequal-width modal-density interpretation requires separate exact passage binding."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -1933,10 +1933,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
               "language": "en",
-              "section": "§6.1–6.2 · Quartiles and box plots, pp. 306–338"
+              "section": "Five-number summary, Q1/Q3, IQR and box plots; quartile/whisker conventions must be stated. This source does not close every software convention."
             },
             {
               "title": "РЭШ · Начала статистики",
@@ -1996,10 +1996,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
               "language": "en",
-              "section": "§6.3 · Histograms, pp. 348–361"
+              "section": "Histogram construction; Example 2.8 explicitly uses discrete counts. Frequency-density scaling for unequal widths still requires exact source binding."
             },
             {
               "title": "РЭШ · Наглядное представление статистической информации",
@@ -2031,10 +2031,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-3-measures-of-the-location-of-the-data",
               "language": "en",
-              "section": "§6.2 · Cumulative frequency, pp. 326–341"
+              "section": "Percentiles and quartiles as positions in ordered data; a cumulative-curve interpolation is a model-based estimate."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -2115,15 +2115,15 @@
           "englishTerm": "Two-way table",
           "russianTerm": "Таблица сопряжённости",
           "contrast": {
-            "en": "The denominator is the total of the group named in the question. For a girl, use the 22 girls, not the 40 students.",
-            "ru": "Знаменатель — это итог той группы, о которой спрашивают. Для девочки берём 22 девочки, а не 40 учеников."
+            "en": "For an unconditional or joint probability, use the grand total. For P(A | B), use the nonzero total of the given group B. Merely mentioning a row or column does not make a probability conditional.",
+            "ru": "Для обычной или совместной вероятности используй общий итог. Для P(A | B) знаменатель — ненулевой итог заданной группы B. Одно упоминание строки или столбца ещё не делает вероятность условной."
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e §3.4",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-4-contingency-tables",
               "language": "en",
-              "section": "§4.2 · Two-way tables, pp. 249–252"
+              "section": "Example 3.20: unconditional/joint probabilities use the grand total; the conditional sample space is the given group."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -2150,10 +2150,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
               "language": "en",
-              "section": "§6.1 · Univariate statistics, pp. 306–325"
+              "section": "Range/IQR summary for minimum 59 and maximum 77: range = maximum − minimum; IQR = Q3 − Q1."
             },
             {
               "title": "РЭШ · Начала статистики",
@@ -2179,10 +2179,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events",
               "language": "en",
-              "section": "§4.2 · Mutually exclusive events, pp. 251–259"
+              "section": "Independent and mutually exclusive events: the overlap condition differs from independence."
             },
             {
               "title": "РЭШ · Сложение вероятностей",
@@ -2203,15 +2203,15 @@
           "englishTerm": "Addition rule",
           "russianTerm": "Сложение вероятностей",
           "contrast": {
-            "en": "Only events that cannot happen together can be added. A heart and a king can both happen (the king of hearts), so P(heart or king) is not 13/52 + 4/52.",
-            "ru": "Складывать можно только события, которые не могут произойти вместе. Карта может быть одновременно червой и королём (король червей), поэтому P(червы или король) не равно 13/52 + 4/52."
+            "en": "The simple sum P(A) + P(B) gives P(A or B) only for mutually exclusive events. Otherwise subtract P(A and B). A heart and a king overlap at the king of hearts, so 13/52 + 4/52 counts that card twice.",
+            "ru": "Простая сумма P(A) + P(B) равна P(A или B) только для несовместных событий. Иначе вычти P(A ∩ B). Червовая карта и король пересекаются на короле червей, поэтому 13/52 + 4/52 считает его дважды."
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-3-two-basic-rules-of-probability",
               "language": "en",
-              "section": "§4.2 · Probability of single and combined events, pp. 234–259"
+              "section": "Addition Rule: subtract the overlap; the simple sum applies to disjoint events."
             },
             {
               "title": "РЭШ · Сложение вероятностей",
@@ -2224,7 +2224,7 @@
       },
       "sampling": {
         "name": "Sampling: simple random, systematic and stratified samples",
-        "rule": "A sample is part of a population. Each method below needs a sampling frame: a list of every member of the population. Simple random sampling gives every member an equal chance. Systematic sampling takes every nth member of an ordered list after a random start. Stratified sampling splits the population into groups and samples each group in proportion to its size. A larger sample usually gives more reliable results.",
+        "rule": "A sample is part of a population. For a simple random sample of fixed size n, every possible group of n members has the same chance of selection. For a proportionate stratified random sample, divide the population into non-overlapping strata, allocate numbers in proportion to stratum sizes, and select members randomly within each stratum. Systematic sampling takes every kth member of an ordered list after a random start. A larger well-designed random sample reduces sampling variation, but does not remove selection bias.",
         "examples": [
           "A school has 300 students: 180 in Year 10 and 120 in Year 11. A stratified sample of 30 keeps the proportions: Year 10 gets 30 × 180/300 = 18 students and Year 11 gets 30 × 120/300 = 12 students.",
           "From a list of 300 students, start at a random student among the first 10 and take every 10th student: this gives a systematic sample of 300 ÷ 10 = 30 students."
@@ -2238,10 +2238,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
               "language": "en",
-              "section": "§9.1 · Sampling techniques, pp. 458–476"
+              "section": "Sampling: each size-n group equally likely for simple random sampling; random selection within strata."
             },
             {
               "title": "РЭШ · Сбор и группировка статистических данных",
@@ -2267,10 +2267,10 @@
           },
           "sources": [
             {
-              "title": "Oxford · MYP Mathematics 4&5 Standard (2021)",
-              "url": "",
+              "title": "OpenStax · Introductory Statistics 2e",
+              "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
               "language": "en",
-              "section": "§9.2 · Bivariate data, pp. 477–489"
+              "section": "Least-squares residual criterion, mean point and Pearson linear-correlation formula; correlation itself is not a causal experiment."
             },
             {
               "title": "БРЭ · Диаграмма рассеяния",

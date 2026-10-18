@@ -457,8 +457,8 @@ export const questions: Question[] = [
     "A(i)",
     "application",
     b(
-      "Total count rates at 0, 5, 10 and 15 min are 210, 110, 60 and 35 counts/min. Background is 10 counts/min. Determine T½ and predict the total count rate at 20 min. Explain why the total count rate never reaches zero.",
-      "Полная скорость счёта (count rate) в моменты 0, 5, 10 и 15 мин: 210, 110, 60 и 35 имп/мин. Фон (background) — 10 имп/мин. Определи T½ и предскажи полную скорость счёта через 20 мин. Объясни, почему полная скорость счёта не падает до нуля.",
+      "In an ideal model, the expected total count rates at 0, 5, 10 and 15 min are 210, 110, 60 and 35 counts/min. The expected background rate is constant at 10 counts/min. Determine T½ and predict the expected total count rate at 20 min. Explain why the expected total approaches 10 counts/min rather than zero.",
+      "В идеальной модели ожидаемые суммарные скорости счёта в моменты 0, 5, 10 и 15 мин равны 210, 110, 60 и 35 имп/мин. Ожидаемый фон постоянен и равен 10 имп/мин. Найди T½ и ожидаемую суммарную скорость счёта через 20 мин. Объясни, почему ожидаемая суммарная скорость счёта стремится к 10 имп/мин, а не к нулю.",
     ),
     b(
       "Which part of the total count rate stays the same at every time?",
@@ -473,8 +473,8 @@ export const questions: Question[] = [
       "Чистая скорость счёта уменьшается вдвое каждые 5 мин: 200 → 100 → 50 → 25 имп/мин. Значит, T½ = 5 мин.",
     ),
     b(
-      "At 20 min the net count rate is 25 ÷ 2 = 12.5 counts/min. The total is 12.5 + 10 = 22.5 counts/min. The background stays at 10 counts/min, so the total never falls to 0.",
-      "Через 20 мин чистая скорость счёта: 25 ÷ 2 = 12,5 имп/мин. Полная скорость счёта: 12,5 + 10 = 22,5 имп/мин. Фон не уменьшается, поэтому полная скорость счёта не падает до нуля.",
+      "At 20 min the net count rate is 25 ÷ 2 = 12.5 counts/min. The total is 12.5 + 10 = 22.5 counts/min. In this ideal model the expected total rate approaches the constant background of 10 counts/min. Actual counts in a finite observation fluctuate and can be zero.",
+      "Через 20 мин чистая скорость счёта: 25 ÷ 2 = 12,5 имп/мин. Полная скорость счёта: 12,5 + 10 = 22,5 имп/мин. В этой идеальной модели ожидаемая суммарная скорость счёта стремится к постоянному фону 10 имп/мин. Реальное число импульсов за конечный интервал случайно колеблется и может равняться нулю.",
     ),
   ),
   q(

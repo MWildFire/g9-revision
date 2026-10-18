@@ -97,7 +97,14 @@ function RearrangeView({ item, t }: { item: RearrangeItem; t: TFn }) {
     setChecked(null);
     setShowAnswer(false);
   };
-  const check = () => setChecked(built.map((b) => b.w).join(' ') === item.answer);
+  const check = () => {
+    const answer = built.map((b) => b.w).join(' ');
+    const alternatives: Record<string, string[]> = {
+      r1: ['في المدرسة أتعلمُ الرياضيات والعلوم'],
+      r3: ['في البيت أدرس اللغات والرياضيات'],
+    };
+    setChecked(answer === item.answer || (alternatives[item.id] ?? []).includes(answer));
+  };
 
   return (
     <div className="border border-border rounded-md p-4">
@@ -165,7 +172,9 @@ function RearrangeView({ item, t }: { item: RearrangeItem; t: TFn }) {
           {showAnswer ? <EyeOff size={15} /> : <Eye size={15} />}
           {showAnswer ? t('exercises.hideAnswer') : t('exercises.showAnswer')}
         </button>
-        {checked !== null ? <Feedback ok={checked} t={t} /> : null}
+        {checked !== null ? (checked ? <Feedback ok t={t} /> : (
+          <span className="text-sm text-text-secondary">{t('exercises.rearrange.modelOrder')}</span>
+        )) : null}
       </div>
 
       {showAnswer ? (

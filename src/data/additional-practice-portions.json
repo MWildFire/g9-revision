@@ -1,0 +1,238 @@
+[
+  {
+    "id": "b-cells-dna-practice",
+    "topic": "b-cells",
+    "title": {
+      "en": "DNA extraction: mechanisms and evidence",
+      "ru": "Выделение ДНК: механизмы и доказательства"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 7,
+      "example": 5,
+      "attempt": 8,
+      "check": 5
+    },
+    "practiceIds": [
+      "dna-extraction-detergent",
+      "dna-extraction-separation",
+      "dna-extraction-evidence"
+    ],
+    "teachingTitles": [
+      "DNA extraction: explain each separation",
+      "Worked interpretation: extraction, sequencing or engineering?"
+    ]
+  },
+  {
+    "id": "p-electric-domestic-practice",
+    "topic": "p-electric",
+    "title": {
+      "en": "Live, neutral and earth: circuit and fault",
+      "ru": "Фаза, нейтраль и PE: рабочая цепь и повреждение"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 7,
+      "check": 5
+    },
+    "practiceIds": [
+      "domestic-conductors-1",
+      "domestic-fault-2",
+      "domestic-neutral-3"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "f-write-g9-oral-practice",
+    "topic": "f-write",
+    "title": {
+      "en": "Archived G9 picture oral: timed rehearsal",
+      "ru": "Архив G9: устная репетиция по изображению"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 4,
+      "example": 4,
+      "attempt": 15,
+      "check": 2
+    },
+    "practiceIds": [
+      "f-g9-oral-attempt"
+    ],
+    "teachingTitles": [
+      "Archived G9: picture oral and full writing rehearsal",
+      "Prepare for 10 minutes; then speak for 2",
+      "Original French oral model — time your own delivery",
+      "Conversation: six follow-ups for a 3-minute rehearsal"
+    ]
+  },
+  {
+    "id": "f-write-g9-writing-practice",
+    "topic": "f-write",
+    "title": {
+      "en": "Archived G9: one full writing choice",
+      "ru": "Архив G9: одна полная письменная работа"
+    },
+    "minutes": 40,
+    "range": [
+      40,
+      55
+    ],
+    "timing": {
+      "read": 7,
+      "example": 6,
+      "attempt": 22,
+      "check": 5
+    },
+    "practiceIds": [
+      "f-g9-writing-choice"
+    ],
+    "teachingTitles": [
+      "Writing checklist: choose ONE option, 175–225 words"
+    ]
+  },
+  {
+    "id": "f-language-g9-transfer-practice",
+    "topic": "f-language",
+    "title": {
+      "en": "Archived G9 travel and grammar transfer",
+      "ru": "Архив G9: путешествия и грамматика в новых примерах"
+    },
+    "minutes": 30,
+    "range": [
+      30,
+      45
+    ],
+    "timing": {
+      "read": 7,
+      "example": 4,
+      "attempt": 14,
+      "check": 5
+    },
+    "practiceIds": [
+      "f-g9-travel-1",
+      "f-g9-travel-3",
+      "f-g9-travel-5",
+      "f-g9-present-1",
+      "f-g9-past-1",
+      "f-g9-future-1",
+      "f-g9-hypothesis-1",
+      "f-g9-superlative-1"
+    ],
+    "teachingTitles": [
+      "Holiday comparison — original fictional plans"
+    ]
+  },
+  {
+    "id": "a-language-g9-person-practice",
+    "topic": "a-language",
+    "title": {
+      "en": "Optional archived Arabic: I, he, she and daily routine",
+      "ru": "Арабский по выбору: я, он, она и распорядок дня"
+    },
+    "minutes": 30,
+    "range": [
+      30,
+      45
+    ],
+    "timing": {
+      "read": 8,
+      "example": 6,
+      "attempt": 10,
+      "check": 6
+    },
+    "practiceIds": [
+      "a-g9-transfer-he",
+      "a-g9-transfer-she",
+      "a-g9-transfer-i"
+    ],
+    "teachingTitles": [
+      "Archived G9 routine: seven I / he / she contrasts",
+      "Original morning-to-evening model, with explicit times",
+      "Author’s six-part writing self-check"
+    ]
+  },
+  {
+    "id": "e-analysis-full-practice",
+    "topic": "e-analysis",
+    "title": {
+      "en": "Full comparative response: evidence and structure",
+      "ru": "Полное сопоставление: доказательства и структура"
+    },
+    "minutes": 45,
+    "range": [
+      45,
+      60
+    ],
+    "timing": {
+      "read": 6,
+      "example": 7,
+      "attempt": 25,
+      "check": 7
+    },
+    "practiceIds": [
+      "e-analysis-full-rehearsal"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "e-creative-full-practice",
+    "topic": "e-creative",
+    "title": {
+      "en": "Full inventor monologue: development and control",
+      "ru": "Полный монолог изобретателя: развитие и язык"
+    },
+    "minutes": 45,
+    "range": [
+      45,
+      60
+    ],
+    "timing": {
+      "read": 6,
+      "example": 7,
+      "attempt": 25,
+      "check": 7
+    },
+    "practiceIds": [
+      "e-creative-full-rehearsal"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "e-purpose-full-practice",
+    "topic": "e-purpose",
+    "title": {
+      "en": "Full speech: audience, reasons and register",
+      "ru": "Полная речь: аудитория, доводы и регистр"
+    },
+    "minutes": 45,
+    "range": [
+      45,
+      60
+    ],
+    "timing": {
+      "read": 6,
+      "example": 7,
+      "attempt": 25,
+      "check": 7
+    },
+    "practiceIds": [
+      "e-purpose-full-rehearsal"
+    ],
+    "teachingTitles": []
+  }
+]

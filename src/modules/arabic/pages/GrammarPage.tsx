@@ -26,7 +26,10 @@ export function GrammarPage() {
           <div key={rule.id}>
             <SectionHeading>{lang === 'ru' ? rule.titleRu : rule.titleEn}</SectionHeading>
             <div className="bg-bg-secondary border border-border rounded-md p-4 space-y-3" style={{ borderLeftColor: 'var(--color-accent-olive)', borderLeftWidth: '3px' }}>
-              <p className="text-sm text-text-secondary leading-relaxed">{detail?.body ?? summary}</p>
+              <p className="text-sm text-text-secondary leading-relaxed">{summary}</p>
+              {detail?.body && detail.body !== summary ? (
+                <p className="text-sm text-text-secondary leading-relaxed">{detail.body}</p>
+              ) : null}
               <DefinitionSupport review={ARABIC_REVIEWS[rule.id]} language={lang} />
               {detail?.examples && detail.examples.length > 0 ? (
                 <div>

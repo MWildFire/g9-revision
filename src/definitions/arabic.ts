@@ -358,9 +358,9 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "Georgetown University Press — Al-Kitaab",
-        "url": "https://alkitaabtextbook.com/",
-        "section": "Integrated teaching of formal and spoken Arabic varieties",
+        "title": "Qasid Institute — Arabic dialects and formal registers",
+        "url": "https://www.qasidonline.com/blog/the-ultimate-guide-to-arabic-dialects",
+        "section": "Fusha and ʿammiyya, paragraphs before Types of Arabic Dialects by Region; Context-dependent register switching",
         "language": "en"
       }
     ]
@@ -374,9 +374,9 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "Georgetown University Press — Al-Kitaab",
-        "url": "https://alkitaabtextbook.com/",
-        "section": "Integrated teaching of formal and spoken Arabic varieties",
+        "title": "Qasid Institute — Egyptian Arabic and regional groups",
+        "url": "https://www.qasidonline.com/blog/the-ultimate-guide-to-arabic-dialects",
+        "section": "Types of Arabic Dialects by Region: local varieties; Egyptian Arabic: media and Cairo",
         "language": "en"
       }
     ]
@@ -390,9 +390,15 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     },
     "sources": [
       {
-        "title": "Georgetown University Press — Al-Kitaab",
-        "url": "https://alkitaabtextbook.com/",
-        "section": "Integrated teaching of formal and spoken Arabic varieties",
+        "title": "Qasid Institute — Levantine regional varieties",
+        "url": "https://www.qasidonline.com/blog/the-ultimate-guide-to-arabic-dialects",
+        "section": "Types of Arabic Dialects by Region; Levantine Arabic; qāf comparison in Gulf Arabic",
+        "language": "en"
+      },
+      {
+        "title": "A. M. Sallam — phonological variation in educated spoken Arabic (1980)",
+        "url": "https://doi.org/10.1017/S0041977X00110559",
+        "section": "Public Extract: Egypt/Levant q, g and glottal variants and speech-function adjustment; article pp77–100, extract only read",
         "language": "en"
       }
     ]

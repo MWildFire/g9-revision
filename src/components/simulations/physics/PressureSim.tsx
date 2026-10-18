@@ -124,13 +124,13 @@ export function PressureSim() {
         </div>
 
         <div className="space-y-4">
-          <Slider label={t('forcesEnergy.sim2.force')} unit={i18n.language.startsWith('ru') ? 'Н' : 'N'} min={1} max={1000} step={5} value={force} onChange={setForce} />
+          <Slider label={t('forcesEnergy.sim2.force')} unit={i18n.language.startsWith('ru') ? 'Н' : 'N'} min={0} max={30000} step={1} value={force} onChange={setForce} />
           <Slider
             label={t('forcesEnergy.sim2.area')}
             unit={i18n.language.startsWith('ru') ? 'м²' : 'm²'}
             min={0.0001}
             max={1}
-            step={0.001}
+            step={0.0001}
             value={area}
             onChange={setArea}
             format={(v) => v.toFixed(4)}

@@ -439,7 +439,7 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
       "answer": "6 × 10² = 600",
       "workingSteps": [
         "Перемножь коэффициенты: 3 × 2 = 6",
-        "Сложи степени: 4 + (−2) = 2"
+        "Сложи показатели степеней: 4 + (−2) = 2"
       ]
     }
   },
@@ -1595,20 +1595,22 @@ export const ALL_MATH_PROBLEMS: MathProblem[] = [
     "criterion": "A",
     "en": {
       "question": "A researcher wants to estimate the average length of the fish in a lake. About 40% of the fish in the lake are salmon and 60% are trout. The fish will be caught with a large net, measured on the shore and then released. The researcher plans a sample of 50 fish. (a) Suggest a suitable sampling method. (b) Explain how the 50 fish should be chosen, including how many of each type are in the sample.",
-      "answer": "(a) Stratified sampling; (b) 20 salmon and 30 trout, chosen at random within each group.",
+      "answer": "The ideal proportionate allocation is 20 salmon and 30 trout. Select randomly within each species using a sampling frame or a capture design that gives each fish within that species the same selection chance. A single large-net catch alone does not guarantee this; discuss location and net-size bias.",
       "workingSteps": [
-        "Stratified sampling: split the fish into the salmon and trout groups and sample from each group in proportion to its share.",
-        "Salmon: 40% × 50 = 20 fish; trout: 60% × 50 = 30 fish (20 + 30 = 50).",
-        "Within each group, choose the fish at random, for example by numbering them and using random numbers."
+        "Separate the intended population into non-overlapping salmon and trout strata; proportional quotas alone do not specify random selection.",
+        "Salmon: 0.4 × 50 = 20; trout: 0.6 × 50 = 30. Total = 50.",
+        "A valid frame or capture design is needed for equal selection chances within each species. Numbering only caught fish samples that catch, not automatically the entire lake.",
+        "Assess location, fish size and net-mesh effects; the given information does not establish an unbiased estimate of all lake fish lengths."
       ]
     },
     "ru": {
       "question": "Исследователь хочет оценить среднюю длину рыб в озере. Примерно 40% рыб в озере — лососи, а 60% — форели. Рыбу поймают большим сачком, измерят на берегу и отпустят обратно в воду. Исследователь планирует выборку из 50 рыб. а) Предложи подходящий способ выборки. б) Объясни, как выбрать эти 50 рыб, в том числе сколько рыб каждого вида войдёт в выборку.",
-      "answer": "а) Стратифицированная выборка; б) 20 лососей и 30 форелей, выбранных случайно внутри каждой группы.",
+      "answer": "Идеальное пропорциональное распределение — 20 лососей и 30 форелей. Внутри каждого вида нужен случайный отбор по основе выборки или по схеме отлова с одинаковым шансом отбора каждой рыбы этого вида. Один улов большим сачком этого не гарантирует: нужно обсудить смещение из-за места отлова и размера ячеек.",
       "workingSteps": [
-        "Стратифицированная выборка: рыбы делятся на группы «лосось» и «форель», и из каждой группы берётся выборка пропорционально её доле.",
-        "Лососи: 40% × 50 = 20 рыб; форели: 60% × 50 = 30 рыб (20 + 30 = 50).",
-        "Внутри каждой группы выбирай рыб случайно, например, пронумеровав их и используя таблицу случайных чисел."
+        "Выдели непересекающиеся группы лососей и форелей; пропорциональные квоты ещё не задают случайный отбор.",
+        "Лососи: 0,4 × 50 = 20; форели: 0,6 × 50 = 30. Всего 50.",
+        "Нужна подходящая основа выборки или схема отлова с одинаковыми шансами внутри вида. Нумерация пойманных рыб задаёт выборку из улова, но не автоматически из всего озера.",
+        "Оцени влияние места отлова, размера рыб и ячеек сети; данных недостаточно, чтобы установить отсутствие смещения в оценке длины всех рыб озера."
       ]
     }
   }

@@ -2,21 +2,22 @@
   "subject": "Mathematics Term 1",
   "counts": {
     "definitionOccurrences": 107,
-    "uniqueConcepts": 106,
+    "uniqueConcepts": 107,
     "conceptsWithAttachedDiagram": 42,
-    "conceptsWithoutAttachedDiagram": 64,
+    "conceptsWithoutAttachedDiagram": 65,
     "distinctDiagramKinds": 10,
-    "diagramBearingDefinitionOccurrences": 43,
+    "diagramBearingDefinitionOccurrences": 42,
     "renderedLessonFigureInstances": 12,
     "independentlyCheckedRussianConcepts": 16,
-    "russianAuthoredAdaptationsFromEnglishSources": 90,
+    "russianAuthoredAdaptationsFromEnglishSources": 91,
     "sourceSections": 48,
     "russianSourceSections": 8
   },
   "countingNotes": [
-    "All English and Russian definitions, examples and distinctions are authored. Independent Russian checking means the exact listed Russian educational source was checked for that concept; it does not turn our wording into a quotation. The90 adaptation entries have only English source support and are labelled accordingly.",
-    "42 is a count of unique concepts with a diagram link, not42 unique SVG designs. Ten shared semantic figures serve those concepts. The64 exclusion reasons describe current implementation and do not assert that another diagram could never help. Textual sign examples are not counted as rendered figures.",
-    "The sole repeated concept is Intersection; 107 occurrences represent 106 distinct concepts."
+    "The runtime glossary contains107 occurrences and107 unique canonical terms. These are object counts, not an atomic proposition denominator or mathematical/source acceptance.",
+    "16 concepts retain their existing independently-checked Russian terminology flag;91 retain authored-adaptation. No author change upgrades these flags or establishes full bilingual source pairs.",
+    "42 distinct concepts have a diagram link and65 do not. Ten shared diagram kinds serve the42 concepts. These source-data counts do not establish browser rendering or visual QA.",
+    "Old display-name aliases are aligned with canonical names; Intersection point is separate from set Intersection. Exact textbook passage matching and final independent canonical rebind remain separate gates."
   ],
   "records": [
     {
@@ -794,10 +795,10 @@
       "countingUnit": "distinct concept",
       "sources": [
         {
-          "title": "OpenStax · 3.1 · Integers and the number line",
+          "title": "OpenStax · 3.1 · Integers definition: counting numbers, their opposites, and zero (Integers box; displayed set)",
           "url": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
           "language": "en",
-          "section": "3.1 · Integers and the number line"
+          "section": "3.1 · Integers definition: counting numbers, their opposites, and zero (Integers box; displayed set)"
         },
         {
           "title": "OpenStax · 9.1 · Explicit and recursive sequence definitions",
@@ -1080,9 +1081,9 @@
       "noVisualReason": "The example requires one ordered pair to satisfy both equations; no separate intersection graph is attached."
     },
     {
-      "id": "Elimination",
-      "englishTerm": "Elimination",
-      "russianTerm": "Метод сложения; исключение переменной",
+      "id": "Elimination method",
+      "englishTerm": "Elimination method",
+      "russianTerm": "Метод сложения",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1258,8 +1259,8 @@
       "noVisualReason": "Membership is specified by an explicit collection and well-defined rule; no separate enclosing-set illustration is attached."
     },
     {
-      "id": "Element / member",
-      "englishTerm": "Element / member",
+      "id": "Element (member)",
+      "englishTerm": "Element (member)",
       "russianTerm": "Элемент множества",
       "countingUnit": "distinct concept",
       "sources": [
@@ -1441,9 +1442,9 @@
       "noVisualReason": "The test and a counterexample are explained verbally/algebraically; the function mapping diagram is present for other concepts but no vertical-line plot is attached here."
     },
     {
-      "id": "One-to-one / many-to-one",
-      "englishTerm": "One-to-one / many-to-one",
-      "russianTerm": "Инъективная функция / функция с совпадающими значениями",
+      "id": "One-to-one and many-to-one",
+      "englishTerm": "One-to-one and many-to-one",
+      "russianTerm": "Отображения «один к одному» и «много к одному»",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1519,9 +1520,9 @@
       "noVisualReason": null
     },
     {
-      "id": "Quadratic",
-      "englishTerm": "Quadratic",
-      "russianTerm": "Квадратичный; квадратный трёхчлен",
+      "id": "Quadratic function",
+      "englishTerm": "Quadratic function",
+      "russianTerm": "Квадратичная функция",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1578,9 +1579,9 @@
       "noVisualReason": null
     },
     {
-      "id": "Vertex / turning point",
-      "englishTerm": "Vertex / turning point",
-      "russianTerm": "Вершина параболы",
+      "id": "Vertex (turning point)",
+      "englishTerm": "Vertex (turning point)",
+      "russianTerm": "Вершина параболы (точка поворота)",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1642,9 +1643,9 @@
       "noVisualReason": null
     },
     {
-      "id": "Root / zero",
-      "englishTerm": "Root / zero",
-      "russianTerm": "Корень уравнения / нуль функции",
+      "id": "Zero (root)",
+      "englishTerm": "Zero (root)",
+      "russianTerm": "Нуль функции (корень)",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1710,8 +1711,8 @@
       "noVisualReason": "The worked equality explicitly changes a sum to a product; the displayed factors are the instructional evidence."
     },
     {
-      "id": "Zero-product property",
-      "englishTerm": "Zero-product property",
+      "id": "Null factor law",
+      "englishTerm": "Null factor law",
       "russianTerm": "Свойство нулевого произведения",
       "countingUnit": "distinct concept",
       "sources": [
@@ -1731,9 +1732,9 @@
       "noVisualReason": "The example sets each factor to zero and states the real-number zero-product implication; no additional picture is attached."
     },
     {
-      "id": "Complete the square",
-      "englishTerm": "Complete the square",
-      "russianTerm": "Выделить полный квадрат",
+      "id": "Completing the square",
+      "englishTerm": "Completing the square",
+      "russianTerm": "Выделение полного квадрата",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1773,9 +1774,9 @@
       "noVisualReason": "The calculation of b squared minus 4ac and the real-root cases are stated directly; no three-parabola comparison is attached."
     },
     {
-      "id": "Term / nth term",
-      "englishTerm": "Term / nth term",
-      "russianTerm": "Член последовательности / n-й член",
+      "id": "Term (nth term)",
+      "englishTerm": "Term (nth term)",
+      "russianTerm": "Член последовательности, или n-й член",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1794,8 +1795,8 @@
       "noVisualReason": "The indexed entries and distinction between index and value are shown using sequence notation."
     },
     {
-      "id": "Explicit formula",
-      "englishTerm": "Explicit formula",
+      "id": "Explicit formula (position-to-term rule)",
+      "englishTerm": "Explicit formula (position-to-term rule)",
       "russianTerm": "Явная формула",
       "countingUnit": "distinct concept",
       "sources": [
@@ -1815,8 +1816,8 @@
       "noVisualReason": "The example calculates an entry directly from its index; no separate dependency diagram is attached."
     },
     {
-      "id": "Recursive formula",
-      "englishTerm": "Recursive formula",
+      "id": "Recursive formula (term-to-term rule)",
+      "englishTerm": "Recursive formula (term-to-term rule)",
       "russianTerm": "Рекуррентная формула",
       "countingUnit": "distinct concept",
       "sources": [
@@ -1836,9 +1837,9 @@
       "noVisualReason": "Initial value and the next-term rule are stated together; no extra recurrence flow diagram is attached."
     },
     {
-      "id": "Arithmetic / linear sequence",
-      "englishTerm": "Arithmetic / linear sequence",
-      "russianTerm": "Арифметическая прогрессия",
+      "id": "Arithmetic sequence (linear sequence)",
+      "englishTerm": "Arithmetic sequence (linear sequence)",
+      "russianTerm": "Арифметическая прогрессия, или линейная последовательность",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1857,8 +1858,8 @@
       "noVisualReason": "The constant successive difference and nth-term rule are shown numerically and algebraically."
     },
     {
-      "id": "Geometric sequence",
-      "englishTerm": "Geometric sequence",
+      "id": "Geometric sequence (geometric progression)",
+      "englishTerm": "Geometric sequence (geometric progression)",
       "russianTerm": "Геометрическая прогрессия",
       "countingUnit": "distinct concept",
       "sources": [
@@ -1878,9 +1879,9 @@
       "noVisualReason": "The constant multiplier and nth-term formula are shown directly; no separate growth chart is attached."
     },
     {
-      "id": "Convergence",
-      "englishTerm": "Convergence",
-      "russianTerm": "Сходимость",
+      "id": "Convergence (sum to infinity)",
+      "englishTerm": "Convergence (sum to infinity)",
+      "russianTerm": "Сходимость бесконечной суммы",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -1984,9 +1985,9 @@
       "noVisualReason": "The north/clockwise/three-digit convention and flat-map limit are written explicitly; no compass-bearing figure is attached."
     },
     {
-      "id": "Cosine rule",
-      "englishTerm": "Cosine rule",
-      "russianTerm": "Теорема косинусов",
+      "id": "Cosine rule (Extended)",
+      "englishTerm": "Cosine rule (Extended)",
+      "russianTerm": "Теорема косинусов (Extended)",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -2032,9 +2033,9 @@
       "noVisualReason": "The principal-value and inverse-versus-reciprocal distinctions are symbolic; no restricted-domain graph is attached."
     },
     {
-      "id": "Sine rule",
-      "englishTerm": "Sine rule",
-      "russianTerm": "Теорема синусов",
+      "id": "Sine rule (Extended)",
+      "englishTerm": "Sine rule (Extended)",
+      "russianTerm": "Теорема синусов (Extended)",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -2053,9 +2054,9 @@
       "noVisualReason": "Opposite side-angle pairings and possible ambiguous case are explained in notation; no separate non-right triangle diagram is attached."
     },
     {
-      "id": "Included angle",
-      "englishTerm": "Included angle",
-      "russianTerm": "Угол между заданными сторонами",
+      "id": "Included angle (Extended)",
+      "englishTerm": "Included angle (Extended)",
+      "russianTerm": "Угол между сторонами (Extended)",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -2074,9 +2075,9 @@
       "noVisualReason": "The selected two sides and their intervening angle are named in the area example; no standalone included-angle figure is attached."
     },
     {
-      "id": "Amplitude",
-      "englishTerm": "Amplitude",
-      "russianTerm": "Амплитуда",
+      "id": "Amplitude (Extended)",
+      "englishTerm": "Amplitude (Extended)",
+      "russianTerm": "Амплитуда (Extended)",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -2095,9 +2096,9 @@
       "noVisualReason": "Half the maximum-minus-minimum range and the sinusoid coefficient are calculated; no wave graph is attached."
     },
     {
-      "id": "Period",
-      "englishTerm": "Period",
-      "russianTerm": "Период",
+      "id": "Period (Extended)",
+      "englishTerm": "Period (Extended)",
+      "russianTerm": "Период функции (Extended)",
       "countingUnit": "distinct concept",
       "sources": [
         {
@@ -2666,6 +2667,27 @@
       },
       "relevantVisuals": [],
       "noVisualReason": "The example separately checks the zero numerator and forbidden denominator endpoint; no extra endpoint-number-line figure is attached."
+    },
+    {
+      "id": "Intersection point",
+      "englishTerm": "Intersection point",
+      "russianTerm": "Точка пересечения (графиков)",
+      "countingUnit": "distinct concept",
+      "sources": [
+        {
+          "title": "OpenStax · 7.1 · Substitution and addition methods; solution of a system",
+          "url": "https://openstax.org/books/college-algebra-2e/pages/7-1-systems-of-linear-equations-two-variables",
+          "language": "en",
+          "section": "7.1 · Substitution and addition methods; solution of a system"
+        }
+      ],
+      "russianProvenance": {
+        "classification": "authored-adaptation",
+        "independentRussianSourceUrls": [],
+        "scope": "Recorded terminology evidence; final independently accepted bilingual source-pair status remains separate."
+      },
+      "relevantVisuals": [],
+      "noVisualReason": "No separate diagram is attached in current lesson data."
     }
   ],
   "unverifiedDefinitions": [],
@@ -2718,5 +2740,11 @@
       "resolution": "Retains geometric example source and adds Calculus2 §5.2 partial-sum convergence and harmonic-series counterexample; actual sections read.",
       "status": "resolved"
     }
-  ]
+  ],
+  "verificationStatus": {
+    "status": "changed-objects-await-independent-exact-canonical-rebind",
+    "sourcePairAcceptance": false,
+    "atomicClaimCountClaimed": false,
+    "renderedBrowserQA": false
+  }
 }

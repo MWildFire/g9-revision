@@ -3800,6 +3800,87 @@
           "file": "src/modules/grade9/sources.json"
         }
       ]
+    },
+    {
+      "id": "S-current-review-corrections-r06",
+      "lane": "S",
+      "due": "2026-10-18",
+      "title": "Current independent-review corrections and finite practice",
+      "routes": [
+        "/english/grammar",
+        "/november/f-write",
+        "/physics/electricity",
+        "/revision-plan"
+      ],
+      "units": [
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/components/EnglishEditingPractice.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/english/components/WritingWorkshops.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/french/pages/FrenchG9PhotoStimulus.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/physics/components/DomesticSafety.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/revision-plan/ObjectivePreparation.tsx"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/additional-practice-portions.json"
+        },
+        {
+          "kind": "json",
+          "file": "src/modules/english/data/writing-workshops.json"
+        },
+        {
+          "kind": "json",
+          "file": "src/modules/english/data/english-editing-practice.json"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math-mock-gaps/MathMockGaps.tsx"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/math-mock-gaps/content.ts",
+          "export": "mathMockGapsEn"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/math-mock-gaps/russian.ts",
+          "export": "mathMockGapsRu"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/math/components/MathPracticeList.tsx"
+        },
+        {
+          "kind": "ts",
+          "file": "src/modules/math-mock-gaps/sources.ts",
+          "export": "mathGapSources"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/objective-session-map.json"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/geography-practice-portions.json"
+        },
+        {
+          "kind": "json",
+          "file": "src/data/objective-practice-prompts.json"
+        }
+      ]
     }
   ]
 }

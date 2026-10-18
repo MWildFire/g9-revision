@@ -48,7 +48,7 @@ export function loadTs(file) {
   if (moduleCache.has(file)) return moduleCache.get(file).exports;
   const mod = { exports: {} };
   moduleCache.set(file, mod);
-  const out = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.React } }).outputText;
+  const out = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.React, esModuleInterop: true } }).outputText;
   const req = dep => {
     if (!dep.startsWith('.')) return new Proxy(function () {}, { get: () => () => null, apply: () => null });
     const base = path.resolve(path.dirname(file), dep);

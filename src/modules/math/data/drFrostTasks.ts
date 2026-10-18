@@ -13,10 +13,10 @@ export interface DrFrostGroup {
 
 export const DR_FROST_TASKS: DrFrostGroup[] = [
   // Topic 1 — Number Systems
-  { topicId: 'number-systems', subTopicKey: 'structureSets', tasks: [306, 307, 333] },
+  { topicId: 'number-systems', subTopicKey: 'structureSets', tasks: [333] },
   { topicId: 'number-systems', subTopicKey: 'rounding', tasks: [75, 187] },
   { topicId: 'number-systems', subTopicKey: 'bounds', tasks: [310, 384] },
-  { topicId: 'number-systems', subTopicKey: 'exponents', tasks: [158, 194, 298, 258] },
+  { topicId: 'number-systems', subTopicKey: 'exponents', tasks: [158, 194, 298] },
   { topicId: 'number-systems', subTopicKey: 'fractionalIndices', tasks: [394, 395] },
   { topicId: 'number-systems', subTopicKey: 'standardForm', tasks: [301, 302, 303, 304] },
   { topicId: 'number-systems', subTopicKey: 'unitConversion', tasks: [323, 331] },

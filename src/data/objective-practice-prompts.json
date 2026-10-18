@@ -1,0 +1,2564 @@
+[
+  {
+    "id": "a-g9-transfer-he",
+    "prompt": {
+      "en": "Change I to HE in both verbs: أنا أستيقظ في الساعة السادسة وأذهب إلى المدرسة.",
+      "ru": "Замени «я» на «он» в обоих глаголах: أنا أستيقظ في الساعة السادسة وأذهب إلى المدرسة."
+    }
+  },
+  {
+    "id": "a-g9-transfer-i",
+    "prompt": {
+      "en": "Change SHE to I in both verbs: هي تتعلم اللغات وتمارس الرياضة.",
+      "ru": "Замени «она» на «я» в обоих глаголах: هي تتعلم اللغات وتمارس الرياضة."
+    }
+  },
+  {
+    "id": "a-g9-transfer-she",
+    "prompt": {
+      "en": "Change I to SHE in all three verbs: أنا أستحم وألبس ملابس المدرسة وأركب الحافلة.",
+      "ru": "Замени «я» на «она» во всех трёх глаголах: أنا أستحم وألبس ملابس المدرسة وأركب الحافلة."
+    }
+  },
+  {
+    "id": "a-routine-1",
+    "prompt": {
+      "en": "Listen without the transcript: when does the speaker wake up, and what happens after school?",
+      "ru": "Послушай без текста: когда говорящий просыпается и что делает после школы?"
+    }
+  },
+  {
+    "id": "a-routine-2",
+    "prompt": {
+      "en": "Change only the waking time to eight o’clock; write the whole first sentence.",
+      "ru": "Измени только время подъёма на восемь часов; запиши первое предложение целиком."
+    }
+  },
+  {
+    "id": "arabic",
+    "prompt": {
+      "en": "If Arabic is on your registered timetable, write a short message introducing yourself, describing your school routine and asking a question. Use the vocabulary and grammar below.",
+      "ru": "Если арабский есть в личном расписании, напиши короткое сообщение: представься, опиши школьный день, задай вопрос. Используй словарь и грамматику ниже."
+    }
+  },
+  {
+    "id": "atom-1",
+    "prompt": {
+      "en": "State the relative charge, relative mass and location of an electron.",
+      "ru": "Укажи относительные заряд, массу и положение электрона."
+    }
+  },
+  {
+    "id": "atom-2",
+    "prompt": {
+      "en": "An atom has 13 protons and 14 neutrons. It loses three electrons. Find its mass number, electron count and charge.",
+      "ru": "У атома 13 протонов и 14 нейтронов. Он теряет три электрона. Найди массовое число, число электронов и заряд."
+    }
+  },
+  {
+    "id": "bio-B",
+    "prompt": {
+      "en": "Design an investigation into how sucrose concentration affects the percentage mass change of potato cylinders after 30 minutes.\n\n(a) State a precise research question, including units [3].\n\n(b) Predict the pattern and explain it using osmosis [5].\n\n(c) Identify the independent and dependent variables and three controlled variables [5].\n\n(d) Describe a reproducible method, including a concentration range and repeats [8].\n\n(e) Explain two safety precautions or practical improvements, linking each to the risk or limitation it addresses [4].",
+      "ru": "Спланируй опыт: как концентрация сахарозы влияет на процентное изменение массы цилиндров картофеля за 30 минут.\n\n(a) Сформулируй точный исследовательский вопрос с единицами измерения [3].\n\n(b) Предскажи результат и объясни его осмосом (osmosis) [5].\n\n(c) Назови независимую, зависимую и три контролируемые переменные [5].\n\n(d) Опиши воспроизводимую методику: укажи ряд концентраций и число повторов [8].\n\n(e) Объясни две меры безопасности или два улучшения методики. Свяжи каждую меру с конкретным риском или ограничением [4]."
+    }
+  },
+  {
+    "id": "bio-C",
+    "prompt": {
+      "en": "A pondweed investigation measures gas collected in 5 minutes at each illuminance. Temperature, plant size and carbon dioxide supply are controlled. Three repeats give:\n- 1000 lux: 1.0, 1.2, 1.4 cm³\n- 2000 lux: 2.2, 2.4, 2.6 cm³\n- 3000 lux: 3.4, 3.6, 3.8 cm³\n- 4000 lux: 3.5, 3.7, 3.9 cm³\n\n(a) Calculate the mean gas volume for each illuminance and the mean rate at 3000 lux [5].\n\n(b) Draw a graph of mean gas volume against illuminance, with labels and units. Add min–max bars using the repeats [6].\n\n(c) Describe and explain the pattern, using two numerical comparisons. Explain why collected gas does not measure all the oxygen produced by photosynthesis [6].\n\n(d) Evaluate the claim: “Doubling illuminance always doubles photosynthesis.” Use the data, discuss uncertainty and suggest two specific improvements with reasons [8].",
+      "ru": "В опыте с водным растением измеряют объём газа, собранного за 5 минут при разной освещённости. Температуру, размер растения и поступление углекислого газа поддерживают постоянными. Три повтора дали:\n- 1000 лк: 1,0; 1,2; 1,4 см³\n- 2000 лк: 2,2; 2,4; 2,6 см³\n- 3000 лк: 3,4; 3,6; 3,8 см³\n- 4000 лк: 3,5; 3,7; 3,9 см³\n\n(a) Вычисли средний объём газа при каждой освещённости и среднюю скорость выделения газа при 3000 лк [5].\n\n(b) Построй график среднего объёма газа от освещённости. Подпиши оси и единицы. Покажи отрезками минимальное и максимальное значения каждой серии [6].\n\n(c) Опиши и объясни зависимость, приведя два числовых сравнения. Объясни, почему собранный газ не показывает весь кислород, образовавшийся при фотосинтезе [6].\n\n(d) Оцени утверждение: «Удвоение освещённости всегда удваивает скорость фотосинтеза». Используй данные, учти разброс и предложи два конкретных улучшения с объяснениями [8]."
+    }
+  },
+  {
+    "id": "bio-D",
+    "prompt": {
+      "en": "A company proposes producing a new antibiotic using genetically modified microorganisms in closed fermenters. In an early comparison, 80 of 100 patients receiving it recovered, compared with 65 of 100 receiving the standard antibiotic. Allocation to groups was not random. Long-term safety and environmental discharge have not been studied.\n\n(a) Outline how genetic engineering could help production and explain why this antibiotic would not treat a viral infection [5].\n\n(b) Calculate the recovery percentages and their difference in percentage points. Evaluate whether these results justify replacing the standard antibiotic [7].\n\n(c) Explain how widespread use could select resistant bacteria. Evaluate one environmental concern and one economic or social implication [7].\n\n(d) Give a justified recommendation. Identify further trial evidence and environmental safeguards needed before widespread use [6].",
+      "ru": "Компания предлагает получать новый антибиотик с помощью генетически изменённых микроорганизмов в закрытых ферментёрах. В предварительном сравнении выздоровели 80 из 100 пациентов с новым препаратом и 65 из 100 со стандартным. Распределение по группам не было случайным. Отдалённые побочные эффекты и влияние сбросов в окружающую среду не изучены.\n\n(a) Опиши, как генная инженерия может помочь производству. Объясни, почему этот антибиотик не лечит вирусную инфекцию [5].\n\n(b) Вычисли долю выздоровевших в процентах и разницу в процентных пунктах. Оцени, достаточно ли этих данных для замены стандартного антибиотика [7].\n\n(c) Объясни, как широкое применение может привести к отбору устойчивых бактерий. Оцени одно последствие для среды и одно экономическое или социальное последствие [7].\n\n(d) Сформулируй обоснованную рекомендацию. Укажи, какие дополнительные испытания и меры защиты среды нужны до широкого применения [6]."
+    }
+  },
+  {
+    "id": "bioprinting-evidence-limit",
+    "prompt": {
+      "en": "In an invented bioprinting comparison, 78 of 100 assessed cells are alive after 24 h in construct A and 90 of 100 in construct B. Calculate viability percentages and the difference in percentage points. Why does this not prove that B is a safe working organ for transplantation? Propose a fair follow-up comparison and one possible research use of a tissue model.",
+      "ru": "В условном сравнении биопечати через 24 ч живы 78 из 100 проверенных клеток конструкции A и 90 из 100 конструкции B. Найди доли живых клеток в процентах и разницу в процентных пунктах. Почему это не доказывает, что B — безопасный работающий орган для пересадки? Предложи сопоставимое продолжение исследования и одно исследовательское применение модели ткани."
+    }
+  },
+  {
+    "id": "blog",
+    "prompt": {
+      "en": "Écrivez un billet de blog de 120–150 mots : comment utilisez-vous la technologie ? Incluez un avantage, un risque, une expérience passée et un conseil.",
+      "ru": "Напиши пост для блога на французском, 120–150 слов: как ты используешь технологии? Включи преимущество, риск, прошлый опыт и совет."
+    }
+  },
+  {
+    "id": "blood-components-and-co",
+    "prompt": {
+      "en": "Match red blood cells, white blood cells, platelets and plasma to their functions. Explain why a normal number of red blood cells would not by itself prove normal oxygen carriage if carbon monoxide were present.",
+      "ru": "Свяжи эритроциты, лейкоциты, тромбоциты и плазму с их функциями. Почему нормальное число эритроцитов само по себе не доказывает нормальный перенос кислорода при наличии угарного газа?"
+    }
+  },
+  {
+    "id": "building-1",
+    "prompt": {
+      "en": "Explain three ways to reduce earthquake losses through building design or improvement.",
+      "ru": "Объясни три способа снизить потери от землетрясения за счёт конструкции или усиления здания."
+    }
+  },
+  {
+    "id": "building-2",
+    "prompt": {
+      "en": "A hospital survives shaking but closes for a month. Explain why this is possible and suggest a response.",
+      "ru": "Больница выдержала толчки, но закрылась на месяц. Объясни, как это возможно, и предложи меру."
+    }
+  },
+  {
+    "id": "building-3",
+    "prompt": {
+      "en": "Evaluate whether long-term building design is more important than prediction in reducing earthquake deaths.",
+      "ru": "Оцени, важнее ли долгосрочное проектирование зданий, чем прогнозирование землетрясений, для уменьшения числа погибших."
+    }
+  },
+  {
+    "id": "cell-comparison-functions",
+    "prompt": {
+      "en": "Compare a typical leaf mesophyll cell with a bacterium. Name two shared structures and two differences. Then explain one adaptation of a root hair cell and one of a typical mature human red blood cell.",
+      "ru": "Сравни обычную клетку мезофилла листа с бактерией. Назови две общие структуры и два различия. Затем объясни по одному приспособлению клетки корневого волоска и типичного зрелого эритроцита человека."
+    }
+  },
+  {
+    "id": "chem-B",
+    "prompt": {
+      "en": "Design an investigation into how the surface area of marble chips affects the initial rate of reaction with dilute hydrochloric acid.\n\n(a) State a research question that names the variables [3].\n\n(b) Write a hypothesis and explain it using collision theory [5].\n\n(c) Describe the independent, dependent and controlled variables [5].\n\n(d) Describe the method, including how you will collect and process the data [8].\n\n(e) Explain two safety precautions and two steps that keep the results valid [4].",
+      "ru": "Спроектируй опыт, чтобы выяснить, как площадь поверхности (surface area) мраморной крошки влияет на начальную скорость химической реакции (rate of reaction) с разбавленной соляной кислотой (HCl).\n\n(a) Назови исследовательский вопрос, в котором указаны переменные [3].\n\n(b) Сформулируй гипотезу и объясни её, опираясь на теорию столкновений (collision theory) [5].\n\n(c) Опиши независимую, зависимую и контролируемые переменные [5].\n\n(d) Опиши метод, включая сбор и обработку данных [8].\n\n(e) Объясни две меры безопасности и два шага, которые делают результаты достоверными [4]."
+    }
+  },
+  {
+    "id": "chem-C",
+    "prompt": {
+      "en": "The invented results below model a reaction with two sizes of marble chips. Times: 0, 10, 20, 30, 40 and 50 s. Small chips give 0, 24, 40, 50, 56 and 60 cm³ of CO₂. Large chips give 0, 12, 23, 33, 42 and 50 cm³. Both sets use the same mass of marble with excess acid. By 50 s, the small chips have produced 60 cm³ of CO₂, but the large chips only 50 cm³.\n\n(a) Plot both curves on the same axes, and calculate the mean rate of reaction for 0–20 s [7].\n\n(b) Compare the early rates and the volumes of CO₂ produced by 50 s. Explain the differences using collision theory [6].\n\n(c) (Extended) Explain why the mean rates in part (a) are not exact initial rates [4].\n\n(d) Evaluate the limitations of this method. Suggest two improvements and explain how each one reduces a limitation [8].",
+      "ru": "Ниже приведены вымышленные данные модели реакции для двух размеров мраморной крошки. Моменты времени: 0, 10, 20, 30, 40 и 50 с. Мелкие кусочки выделили 0, 24, 40, 50, 56 и 60 см³ CO₂. Крупные — 0, 12, 23, 33, 42 и 50 см³. Обе серии взяты с одинаковой массой мрамора и избытком кислоты. К 50 с мелкие кусочки выделили 60 см³ CO₂, а крупные — только 50 см³.\n\n(a) Построй графики обеих кривых на одних осях и вычисли среднюю скорость химической реакции (rate of reaction) за 0–20 с [7].\n\n(b) Сравни скорости в начале реакции и объёмы CO₂, выделившиеся к 50 с. Объясни различия с помощью теории столкновений (collision theory) [6].\n\n(c) (Extended) Объясни, почему средние скорости из части (a) не равны точным начальным скоростям [4].\n\n(d) Оцени ограничения этого метода. Предложи два улучшения и объясни, как каждое из них уменьшает одно ограничение [8]."
+    }
+  },
+  {
+    "id": "chem-D",
+    "prompt": {
+      "en": "An aluminium plant compares two ways of producing 1000 kg of aluminium: primary extraction from ore, which needs 14 kWh per kg, and recycling scrap, which needs 0.8 kWh per kg.\n\n(a) Explain how Al³⁺ ions are reduced, the role of cryolite, and why carbon anodes are used [8].\n\n(b) Calculate the energy saved by recycling 1000 kg. Explain two environmental or economic factors that affect the choice [7].\n\n(c) Suggest a strategy for aluminium supply. Evaluate the effects of contamination, the collection of scrap and the limits of the data [10].",
+      "ru": "Завод сравнивает два способа получить 1000 кг алюминия. Первичное получение из руды требует 14 кВт·ч на килограмм, переплавка лома — 0,8 кВт·ч на килограмм.\n\n(a) Объясни, как происходит восстановление (reduction) ионов Al³⁺, какую роль играет криолит (cryolite) и зачем нужны угольные аноды (anodes) [8].\n\n(b) Вычисли энергию, которую экономит переплавка 1000 кг. Объясни два экологических или экономических фактора, которые влияют на выбор [7].\n\n(c) Предложи стратегию снабжения алюминием. Оцени влияние загрязнения, сбора лома и ограничений данных [10]."
+    }
+  },
+  {
+    "id": "chem-scope-01",
+    "prompt": {
+      "en": "Give the relative charge and approximate relative mass of a proton, neutron and electron. Where are they in the school atom model?",
+      "ru": "Укажи относительный заряд и приближённую относительную массу протона, нейтрона и электрона. Где они находятся в школьной модели атома?"
+    }
+  },
+  {
+    "id": "chem-scope-02",
+    "prompt": {
+      "en": "An aluminium ion has mass number 27, atomic number 13 and charge 3+. Find its protons, neutrons and electrons.",
+      "ru": "У иона алюминия массовое число 27, атомный номер 13 и заряд 3+. Найди числа протонов, нейтронов и электронов."
+    }
+  },
+  {
+    "id": "chem-scope-03",
+    "prompt": {
+      "en": "Invented sample: 75% chlorine-35 atoms and 25% chlorine-37 atoms by number. Calculate its relative atomic mass and explain why these are isotopes.",
+      "ru": "Условный образец: 75% атомов хлора-35 и 25% атомов хлора-37 по числу атомов. Рассчитай относительную атомную массу и объясни, почему это изотопы."
+    }
+  },
+  {
+    "id": "chem-scope-04",
+    "prompt": {
+      "en": "Most alpha particles passed through a thin foil, while a small fraction deflected through large angles. What changed in the atomic model, and why is revising a model scientific?",
+      "ru": "Большинство альфа-частиц прошло через тонкую фольгу, малая доля отклонилась на большие углы. Как изменилось представление об атоме и почему пересмотр модели — часть науки?"
+    }
+  },
+  {
+    "id": "chem-scope-05",
+    "prompt": {
+      "en": "A neutral atom has electron arrangement 2,8,7. Find its proton number, school Group 7 and period. Why is its outer shell important?",
+      "ru": "У нейтрального атома электронная схема 2,8,7. Найди число протонов, школьную группу и период. Почему важна внешняя оболочка?"
+    }
+  },
+  {
+    "id": "chem-scope-06",
+    "prompt": {
+      "en": "Compare the ordering of the modern periodic table with Mendeleev’s use of gaps. Why were accurate predictions useful evidence?",
+      "ru": "Сопоставь порядок элементов в современной таблице с оставленными Менделеевым пропусками. Почему точные предсказания были полезной проверкой?"
+    }
+  },
+  {
+    "id": "chem-scope-07",
+    "prompt": {
+      "en": "State the school trends down Group 1, Group 7 and Group 0: metal reaction with water, halogen oxidising strength, and noble-gas boiling point. Explain the different mechanisms.",
+      "ru": "Назови школьные тенденции вниз по группам 1,7 и 0: реакция металлов с водой, окислительная способность галогенов и температура кипения благородных газов. Объясни разные механизмы."
+    }
+  },
+  {
+    "id": "chem-scope-08",
+    "prompt": {
+      "en": "Choose methods to separate sand from salt water, recover dissolved salt, collect water, and compare soluble dyes. Explain the separating property each time.",
+      "ru": "Как отделить песок от солёной воды, выделить растворённую соль, собрать воду и сравнить растворимые красители? Для каждого способа укажи используемое различие свойств."
+    }
+  },
+  {
+    "id": "chem-scope-09",
+    "prompt": {
+      "en": "Magnesium forms Mg²⁺ and nitrogen forms N³⁻. Find the neutral formula and explain ionic bonding.",
+      "ru": "Магний образует Mg²⁺, азот — N³⁻. Найди нейтральную формулу и объясни ионную связь."
+    }
+  },
+  {
+    "id": "chem-scope-10",
+    "prompt": {
+      "en": "One model shows shared electron pairs between nonmetal atoms; another has positive metal ions and delocalised electrons. Identify the bonding and explain the attraction.",
+      "ru": "В одной модели у неметаллических атомов общие электронные пары; в другой — положительные ионы металла и обобществлённые электроны. Определи связи и объясни притяжение."
+    }
+  },
+  {
+    "id": "chem-scope-11",
+    "prompt": {
+      "en": "Compare melting and conduction in a giant ionic solid, a simple molecular substance, a typical metal and diamond. State the mobile charge carriers where relevant.",
+      "ru": "Сравни плавление и проводимость ионного кристалла, молекулярного вещества, обычного металла и алмаза. Где есть подвижные носители заряда?"
+    }
+  },
+  {
+    "id": "chem-scope-12",
+    "prompt": {
+      "en": "Invented substance X has a high melting point, does not conduct as a solid, but conducts when molten. Propose a structure and name one limitation of this deduction.",
+      "ru": "Условное вещество X тугоплавко, в твёрдом состоянии не проводит ток, а в расплаве проводит. Предложи структуру и ограничение такого вывода."
+    }
+  },
+  {
+    "id": "chem-scope-13",
+    "prompt": {
+      "en": "Explain why diamond is hard, graphite can act as a solid lubricant, and graphene can conduct. Compare structure, not just the element name.",
+      "ru": "Почему алмаз твёрдый, графит подходит как твёрдая смазка, а графен проводит ток? Сравни строение, а не только название элемента."
+    }
+  },
+  {
+    "id": "chem-scope-14",
+    "prompt": {
+      "en": "Equal masses of a substance are supplied as large particles or nanoparticles. Explain a possible advantage and why safety cannot be inferred from the bulk substance alone.",
+      "ru": "Одинаковые массы вещества представлены крупными частицами или наночастицами. Объясни возможное преимущество и почему свойств крупного образца недостаточно для вывода о безопасности."
+    }
+  },
+  {
+    "id": "chem-scope-15",
+    "prompt": {
+      "en": "Why do boiling points often rise along a series of similar nonpolar molecules as relative molecular mass rises? Why is this not an absolute rule for all molecules?",
+      "ru": "Почему в ряду сходных неполярных молекул температура кипения часто растёт с относительной молекулярной массой? Почему это не универсальное правило?"
+    }
+  },
+  {
+    "id": "chem-scope-16",
+    "prompt": {
+      "en": "Using Ar(Ca)=40,C=12,O=16, calculate Mr of CaCO₃ and state whether Mr has units.",
+      "ru": "При Ar(Ca)=40,C=12,O=16 вычисли Mr(CaCO₃). Есть ли у Mr единица измерения?"
+    }
+  },
+  {
+    "id": "chem-scope-17",
+    "prompt": {
+      "en": "With M(Mg)=24 g/mol, find the amount in 6.0 g Mg and the mass of 0.40 mol Mg. Show units.",
+      "ru": "При M(Mg)=24 г/моль найди количество вещества в 6,0 г Mg и массу 0,40 моль Mg. Покажи единицы."
+    }
+  },
+  {
+    "id": "chem-scope-18",
+    "prompt": {
+      "en": "Balance magnesium reacting with hydrochloric acid, adding state symbols. Why can you not change MgCl₂ to MgCl to balance it?",
+      "ru": "Уравняй реакцию магния с соляной кислотой и добавь агрегатные обозначения. Почему нельзя заменить MgCl₂ на MgCl ради уравнивания?"
+    }
+  },
+  {
+    "id": "chem-scope-19",
+    "prompt": {
+      "en": "For Mg+2 HCl→MgCl₂+H₂,6.0 g Mg reacts with excess acid. With M(Mg)=24 g/mol and M(H₂)=2 g/mol, calculate the maximum H₂ mass.",
+      "ru": "В реакции Mg+2HCl→MgCl₂+H₂ взяты 6,0 г Mg и избыток кислоты. При M(Mg)=24 г/моль и M(H₂)=2 г/моль найди максимальную массу H₂."
+    }
+  },
+  {
+    "id": "chem-scope-20",
+    "prompt": {
+      "en": "The theoretical product mass is 8.0 g but 6.0 g is isolated. Calculate percentage yield and give two explanations for a lower yield.",
+      "ru": "Теоретически можно получить 8,0 г продукта, выделено 6,0 г. Найди выход в процентах и объясни два возможных уменьшения."
+    }
+  },
+  {
+    "id": "chem-scope-21",
+    "prompt": {
+      "en": "CaCO₃→CaO+CO₂. Using formula masses 100,56 and 44, find atom economy when CaO is the desired product. Distinguish it from yield.",
+      "ru": "CaCO₃→CaO+CO₂. Формульные массы 100,56 и 44. Найди атомную экономичность по целевому CaO и отличи её от выхода."
+    }
+  },
+  {
+    "id": "chem-scope-22",
+    "prompt": {
+      "en": "5.0 g NaCl is dissolved to make 250 cm³ of solution. With M=58.5 g/mol, find concentration in g/dm³ and mol/dm³.",
+      "ru": "5,0 г NaCl растворили до объёма раствора 250 см³. При M=58,5 г/моль найди концентрации в г/дм³ и моль/дм³."
+    }
+  },
+  {
+    "id": "chem-scope-23",
+    "prompt": {
+      "en": "Predict what happens when Zn is placed in CuSO₄solution and when Cu is placed in ZnSO₄solution under ordinary school conditions. Explain the reactivity comparison.",
+      "ru": "Что произойдёт с Zn в растворе CuSO₄ и с Cu в растворе ZnSO₄ в обычных школьных условиях? Объясни сравнение активности."
+    }
+  },
+  {
+    "id": "chem-scope-24",
+    "prompt": {
+      "en": "In CuO+H₂→Cu+H₂O, identify oxidation and reduction using oxygen transfer. Then state electron definitions using Zn→Zn²⁺+2 e⁻.",
+      "ru": "В CuO+H₂→Cu+H₂O назови окисление и восстановление по переносу кислорода. Затем дай электронные определения на примере Zn→Zn²⁺+2e⁻."
+    }
+  },
+  {
+    "id": "chem-scope-25",
+    "prompt": {
+      "en": "Write the hydrochloric-acid reactions of Mg,CuO,NaOH andCaCO₃, including the characteristic products.",
+      "ru": "Запиши реакции соляной кислоты с Mg,CuO,NaOH и CaCO₃, указав характерные продукты."
+    }
+  },
+  {
+    "id": "chem-scope-26",
+    "prompt": {
+      "en": "Outline how to prepare pure dry copper sulfate crystals from dilute sulfuric acid and excess insoluble copper oxide. Explain filtration and crystallisation.",
+      "ru": "Как получить чистые сухие кристаллы сульфата меди из разбавленной серной кислоты и избытка нерастворимого CuO? Объясни фильтрование и кристаллизацию."
+    }
+  },
+  {
+    "id": "chem-scope-27",
+    "prompt": {
+      "en": "Compare pH 3 andpH 5 aqueous solutions at the same temperature. Write the dilute strong-acid/strong-base net neutralisation equation. Why must ethanoic acid be treated separately?",
+      "ru": "Сравни водные растворы pH3 и pH5 при одной температуре. Запиши сокращённое уравнение нейтрализации разбавленной сильной кислоты сильным основанием. Почему уксусную кислоту рассматривают отдельно?"
+    }
+  },
+  {
+    "id": "chem-scope-28",
+    "prompt": {
+      "en": "Compare electrolysis of molten NaCl with the named aqueous NaCl/carbon-electrode school model. Explain why water and conditions matter.",
+      "ru": "Сравни электролиз расплава NaCl с указанной школьной моделью водного раствора NaClи угольных электродов. Почему важны вода и условия?"
+    }
+  },
+  {
+    "id": "chem-scope-29",
+    "prompt": {
+      "en": "Write reduction of Cu²⁺toCu and oxidation of chloride toCl₂. Check charge and atom balance; identify cathode and anode in electrolysis.",
+      "ru": "Запиши восстановление Cu²⁺ до Cu и окисление хлорида до Cl₂. Проверь атомы и заряд; укажи катод и анод при электролизе."
+    }
+  },
+  {
+    "id": "chem-scope-30",
+    "prompt": {
+      "en": "Why is alumina dissolved in a molten cryolite-based electrolyte for aluminium extraction? Explain the roles of electricity and carbon anodes.",
+      "ru": "Зачем при получении алюминия растворять глинозём в расплавленном электролите на основе криолита? Каковы роли тока и угольных анодов?"
+    }
+  },
+  {
+    "id": "chem-scope-31",
+    "prompt": {
+      "en": "An insulated-style cup reaction raises the surrounding solution temperature. Another lowers it. Classify heat transfer and explain a limitation of using temperature alone.",
+      "ru": "Одна реакция в стаканчике повышает температуру окружающего раствора, другая понижает. Определи направление теплопередачи и ограничение вывода только по температуре."
+    }
+  },
+  {
+    "id": "chem-scope-32",
+    "prompt": {
+      "en": "In an invented reaction profile the reactant level is 100 kJ/mol, peak 160 kJ/mol and product level 70 kJ/mol on a common reference. Find forward activation energy and ΔH; sketch the relative levels.",
+      "ru": "В условном профиле относительно общего нуля реагенты имеют 100 кДж/моль, максимум 160 кДж/моль, продукты 70 кДж/моль. Найди прямую энергию активации и ΔH; расположи уровни на схеме."
+    }
+  },
+  {
+    "id": "chem-scope-33",
+    "prompt": {
+      "en": "Correct: “Breaking bonds releases energy, so an exothermic reaction must break especially many bonds.”",
+      "ru": "Исправь: «Разрыв связей выделяет энергию, поэтому экзотермическая реакция должна разрывать особенно много связей»."
+    }
+  },
+  {
+    "id": "chem-scope-34",
+    "prompt": {
+      "en": "For H₂+Cl₂→2 HCl use mean gas-phase bond energies H–H 436,Cl–Cl 243, H–Cl 431 kJ/mol. Estimate ΔH per mole of reaction as written.",
+      "ru": "Для H₂+Cl₂→2HCl используй средние газофазные энергии связей H–H436,Cl–Cl243,H–Cl431 кДж/моль. Оцени ΔHна моль реакции в записанном виде."
+    }
+  },
+  {
+    "id": "chem-scope-35",
+    "prompt": {
+      "en": "Explain how a zinc/copper chemical cell can provide current. Distinguish terminal voltage from the reaction rate and name controlled variables for a comparison.",
+      "ru": "Как цинк-медный гальванический элемент создаёт ток? Отличи напряжение от скорости реакции и назови контролируемые условия сравнения."
+    }
+  },
+  {
+    "id": "chem-scope-36",
+    "prompt": {
+      "en": "Use collision theory to explain concentration, temperature and solid surface-area effects. Why does simply having more collisions not guarantee every collision reacts?",
+      "ru": "Через теорию столкновений объясни влияние концентрации, температуры и площади поверхности твёрдого вещества. Почему реагирует не каждое столкновение?"
+    }
+  },
+  {
+    "id": "chem-scope-37",
+    "prompt": {
+      "en": "Gas volume rises from 12 to 32 cm³ between 5 and 15 s. Find mean rate over that interval and explain what it does not establish.",
+      "ru": "Между 5 и 15 с объём газа вырос с 12 до 32 см³. Найди среднюю скорость за этот интервал и объясни, чего она не устанавливает."
+    }
+  },
+  {
+    "id": "chem-scope-38",
+    "prompt": {
+      "en": "A tangent at t=10 s passes through chosen tangent points(4 s,8 cm³) and(16 s,32 cm³). Calculate the estimated instantaneous rate. What makes these different from any two data points?",
+      "ru": "Касательная при t=10 с проходит через выбранные на ней точки(4 с; 8 см³)и(16 с; 32 см³). Оцени мгновенную скорость. Чем они отличаются от любых двух экспериментальных точек?"
+    }
+  },
+  {
+    "id": "chem-scope-39",
+    "prompt": {
+      "en": "Explain how a catalyst changes a reaction profile. Does it change ΔH, guarantee no poisoning, or move an equilibrium position?",
+      "ru": "Как катализатор меняет профиль реакции? Меняет ли он ΔH, исключает ли отравление катализатора и сдвигает ли равновесие?"
+    }
+  },
+  {
+    "id": "chem-scope-40",
+    "prompt": {
+      "en": "In a closed reversible system, concentrations become constant but molecules continue reacting. Explain dynamic equilibrium and correct “equal concentrations”.",
+      "ru": "В закрытой обратимой системе концентрации стали постоянными, но молекулы продолжают реагировать. Объясни динамическое равновесие и исправь выражение «равные концентрации»."
+    }
+  },
+  {
+    "id": "chem-scope-41",
+    "prompt": {
+      "en": "For N₂(g)+3 H₂(g)⇌2 NH₃(g), forward reaction exothermic, predict effects of heating, compression at fixed T, and adding H₂. Compare H₂+I₂⇌2 HI for compression.",
+      "ru": "Для N₂(г)+3H₂(г)⇌2NH₃(г), прямая реакция экзотермична, предскажи влияние нагревания, сжатия при постоянной Tи добавления H₂. Сравни сжатие для H₂+I₂⇌2HI."
+    }
+  },
+  {
+    "id": "chem-scope-42",
+    "prompt": {
+      "en": "Give approximate present dry-air nitrogen, oxygen and argon percentages. Why must water vapour and a carbon-dioxide figure be qualified?",
+      "ru": "Назови приближённые доли азота, кислорода и аргона в современном сухом воздухе. Почему для водяного пара и CO₂ нужны оговорки?"
+    }
+  },
+  {
+    "id": "chem-scope-43",
+    "prompt": {
+      "en": "Why is an early-atmosphere reconstruction a model supported by evidence rather than a direct modern measurement? Give two useful evidence types and a limitation.",
+      "ru": "Почему реконструкция ранней атмосферы — модель по данным, а не непосредственное современное измерение? Назови два типа свидетельств и ограничение."
+    }
+  },
+  {
+    "id": "chem-scope-44",
+    "prompt": {
+      "en": "Explain three routes by which carbon can leave atmospheric CO₂: oceans, photosynthesis and rock formation. Why does photosynthesis alone not imply permanent storage?",
+      "ru": "Объясни три пути удаления углерода из атмосферного CO₂: океан, фотосинтез и образование пород. Почему фотосинтез ещё не означает вечного хранения?"
+    }
+  },
+  {
+    "id": "chem-scope-45",
+    "prompt": {
+      "en": "Explain the greenhouse effect using incoming sunlight and outgoing infrared radiation. Why is “the gas reflects all heat back” misleading?",
+      "ru": "Объясни парниковый эффект через приходящее солнечное и уходящее инфракрасное излучение. Почему фраза «газ отражает всю теплоту обратно» неточна?"
+    }
+  },
+  {
+    "id": "chem-scope-46",
+    "prompt": {
+      "en": "How would you evaluate the claim that recent warming has a human contribution? Distinguish observations, attribution and projections, and explain why uncertainty is not no evidence.",
+      "ru": "Как оценить утверждение о вкладе человека в недавнее потепление? Отличи наблюдения, установление причин и прогнозы. Почему неопределённость не равна отсутствию данных?"
+    }
+  },
+  {
+    "id": "chem-scope-47",
+    "prompt": {
+      "en": "Compare climate change with combustion air pollution. Give mechanisms for CO,SO₂and nitrogen oxides and explain why the categories can overlap.",
+      "ru": "Отличи изменение климата от загрязнения воздуха продуктами горения. Объясни происхождение CO,SO₂ и оксидов азота и возможность пересечения категорий."
+    }
+  },
+  {
+    "id": "chile-causes",
+    "prompt": {
+      "en": "Explain the tectonic cause of the 2010 Chile earthquake.",
+      "ru": "Объясни тектоническую причину землетрясения в Чили 2010 года."
+    }
+  },
+  {
+    "id": "chile-effects",
+    "prompt": {
+      "en": "Explain one primary and one secondary effect, linking each to people or the economy.",
+      "ru": "Объясни одно первичное и одно вторичное последствие, связав каждое с людьми или экономикой."
+    }
+  },
+  {
+    "id": "chile-evaluate",
+    "prompt": {
+      "en": "Evaluate the statement: “Chile shows that wealth prevents earthquake disasters.”",
+      "ru": "Оцени утверждение: «Чили показывает, что богатство предотвращает катастрофы при землетрясениях»."
+    }
+  },
+  {
+    "id": "clones",
+    "prompt": {
+      "en": "Results of two cloning experiments: species X produces 200 embryos and 4 live offspring; species Y 300 embryos and 3 live offspring, in different laboratories. Compare success rates and evaluate “X clones more successfully”.",
+      "ru": "Результаты двух опытов по клонированию: X — 200 эмбрионов, 4 живых потомка; Y — 300 эмбрионов, 3 живых потомка, в разных лабораториях. Сравни доли успеха и оцени вывод «X клонирует успешнее»."
+    }
+  },
+  {
+    "id": "collision-q1",
+    "prompt": {
+      "en": "Explain the formation of the Himalayas using named plates and two deformation processes.",
+      "ru": "Объясни формирование Гималаев, назвав плиты и два процесса деформации."
+    }
+  },
+  {
+    "id": "collision-q2",
+    "prompt": {
+      "en": "Compare the expected landforms and hazards of continental collision with ocean–continent subduction.",
+      "ru": "Сравни ожидаемые формы рельефа и опасности при столкновении материков и при субдукции океанической плиты под материк."
+    }
+  },
+  {
+    "id": "collision-q3",
+    "prompt": {
+      "en": "Outline a hazard chain that links continental collision to delayed rescue after an earthquake.",
+      "ru": "Кратко опиши цепочку опасностей: от столкновения материков до задержки помощи спасателей после землетрясения."
+    }
+  },
+  {
+    "id": "composite",
+    "prompt": {
+      "en": "Use radius 2 cm and cylinder height 5 cm for the same construction. Find exact volume and exposed surface area, including the bottom.",
+      "ru": "У такой же конструкции радиус 2 см, а высота цилиндра 5 см. Найди точный объём и площадь внешней поверхности, включая дно."
+    }
+  },
+  {
+    "id": "cone",
+    "prompt": {
+      "en": "A right cone has radius 5 cm and perpendicular height 12 cm. Find s, total surface area and volume in exact form.",
+      "ru": "У прямого конуса радиус 5 см, высота 12 см. Найди образующую, полную площадь поверхности и объём. Ответы оставь в точном виде."
+    }
+  },
+  {
+    "id": "consequence",
+    "prompt": {
+      "en": "What happened last week, and how did she feel the next day?",
+      "ru": "Что произошло на прошлой неделе и как она чувствовала себя на следующий день?"
+    }
+  },
+  {
+    "id": "conservative-q1",
+    "prompt": {
+      "en": "Explain how a conservative boundary can produce a destructive earthquake without creating or destroying crust.",
+      "ru": "Объясни, как трансформная граница может вызвать разрушительное землетрясение без образования или разрушения коры."
+    }
+  },
+  {
+    "id": "conservative-q2",
+    "prompt": {
+      "en": "Use a plan-view sketch and the San Andreas example to explain transform movement.",
+      "ru": "Объясни движение на трансформной границе с помощью схемы в плане и примера Сан-Андреас."
+    }
+  },
+  {
+    "id": "conservative-q3",
+    "prompt": {
+      "en": "Why are volcanoes generally absent at a simple transform boundary, even though earthquakes occur?",
+      "ru": "Почему на простой трансформной границе вулканы обычно отсутствуют, хотя землетрясения происходят?"
+    }
+  },
+  {
+    "id": "construction",
+    "prompt": {
+      "en": "Translate A(1,1), B(3,1), C(1,2) by (−2,3), then reflect in the y-axis. List and plot the final vertices. Can six equilateral triangles fit around a vertex?",
+      "ru": "Перенеси A(1;1), B(3;1), C(1;2) на вектор (−2;3), затем отрази относительно оси y. Перечисли и построй конечные вершины. Могут ли шесть равносторонних треугольников сойтись в одной вершине?"
+    }
+  },
+  {
+    "id": "constructive-q1",
+    "prompt": {
+      "en": "Explain how a constructive boundary produces new oceanic crust.",
+      "ru": "Объясни, как на дивергентной границе образуется новая океаническая кора."
+    }
+  },
+  {
+    "id": "constructive-q2",
+    "prompt": {
+      "en": "Draw an annotated diagram of a divergent boundary and explain two hazards it may create.",
+      "ru": "Нарисуй схему дивергентной границы с пояснениями и объясни две опасности, которые она может создавать."
+    }
+  },
+  {
+    "id": "constructive-q3",
+    "prompt": {
+      "en": "“Constructive boundaries are safe because they create land.” Evaluate this claim using Iceland.",
+      "ru": "«Дивергентные границы безопасны, потому что создают сушу». Оцени это утверждение на примере Исландии."
+    }
+  },
+  {
+    "id": "digestion-to-ileum",
+    "prompt": {
+      "en": "A meal contains starch, protein and fat. Explain why digestion is needed before these large molecules can be absorbed. Give the main absorbable products, explain two ileum adaptations, and distinguish a balanced diet from simply eating enough energy.",
+      "ru": "В пище есть крахмал, белки и жиры. Почему перед всасыванием эти крупные молекулы нужно переварить? Назови основные всасываемые продукты, объясни два приспособления подвздошной кишки и отличи сбалансированный рацион от одного лишь достаточного количества энергии."
+    }
+  },
+  {
+    "id": "dilation",
+    "prompt": {
+      "en": "Use centre C = (−1, 2), scale factor k = −2 and P = (2, 0). Construct the image point and state on which ray it lies.",
+      "ru": "Центр C = (−1; 2), коэффициент k = −2, P = (2; 0). Построй образ точки и укажи, на каком луче он лежит."
+    }
+  },
+  {
+    "id": "disease-defence-classification",
+    "prompt": {
+      "en": "Contrast an infectious respiratory disease with a non-communicable disease. Give two barriers to pathogen entry and distinguish phagocytosis from antibody-mediated defence. Explain why “all white blood cells make antibodies” is wrong.",
+      "ru": "Сравни инфекционную болезнь дыхательных путей с неинфекционной болезнью. Назови два барьера на пути возбудителя и отличи фагоцитоз от защиты с участием антител. Почему неверно, что все лейкоциты вырабатывают антитела?"
+    }
+  },
+  {
+    "id": "dna-extraction-detergent",
+    "prompt": {
+      "en": "Why is detergent used after crushing fruit in a DNA-extraction model?",
+      "ru": "Зачем в модели выделения ДНК после разминания фрукта используют детергент?"
+    }
+  },
+  {
+    "id": "dna-extraction-evidence",
+    "prompt": {
+      "en": "A student calls the white precipitate “one pure double helix whose gene sequence we can now see”. Give three corrections.",
+      "ru": "Ученик называет белый осадок «одной чистой двойной спиралью, последовательность гена которой теперь видна». Внеси три исправления."
+    }
+  },
+  {
+    "id": "dna-extraction-separation",
+    "prompt": {
+      "en": "Compare the purpose of the coarse filter with adding alcohol to the salt-containing filtrate. Why does filtration alone not give pure DNA?",
+      "ru": "Сравни назначение грубого фильтра и добавления спирта к фильтрату, содержащему соль. Почему одной фильтрации недостаточно для получения чистой ДНК?"
+    }
+  },
+  {
+    "id": "domestic-conductors-1",
+    "prompt": {
+      "en": "In the labelled UK convention, identify L, N and PE by colour and distinguish their normal roles.",
+      "ru": "Назови цвета L, N и PE в указанной британской схеме и различи их роли в обычном режиме."
+    }
+  },
+  {
+    "id": "domestic-fault-2",
+    "prompt": {
+      "en": "Insulation fails and live touches the metal case. Explain how PE and the fuse work together in this model. Does PE alone switch the supply off?",
+      "ru": "Изоляция повреждена, и фаза касается корпуса. Как в этой модели совместно действуют PE и предохранитель? Отключает ли PE питание сам?"
+    }
+  },
+  {
+    "id": "domestic-neutral-3",
+    "prompt": {
+      "en": "Compare neutral and protective earth during normal operation. Then explain why opening only a neutral-side fuse can leave a danger even when the appliance stops.",
+      "ru": "Сравни нейтраль и PE при нормальной работе. Почему опасность может остаться после разрыва предохранителя только в нейтрали, хотя прибор остановился?"
+    }
+  },
+  {
+    "id": "drug-development-evidence-stages",
+    "prompt": {
+      "en": "A classmate says a successful cell-culture test proves that a new drug is safe and effective in people, and approval means no further safety checks are needed. Correct both claims. Distinguish nonclinical work and the usual purposes of clinical Phases 1, 2 and 3. Explain why an established treatment may be the comparator instead of a placebo.",
+      "ru": "Одноклассник считает, что удачный опыт на клеточной культуре уже доказывает безопасность и эффективность нового лекарства для людей, а после одобрения проверять безопасность больше не нужно. Исправь оба утверждения. Отличи доклинические исследования от обычных задач фаз 1, 2 и 3 клинических исследований. Почему сравнением может служить стандартное лечение, а не плацебо?"
+    }
+  },
+  {
+    "id": "e-analysis-full-rehearsal",
+    "prompt": {
+      "en": "Compare how Text A and the four-shot storyboard present Mara’s responsibility for the experiment. Write a complete developed response. This 45-minute practice allocation is an estimate, not a verified school limit. Plan, draft and check; take a break between parts if needed.",
+      "ru": "Сравни, как текст A и раскадровка из четырёх кадров показывают ответственность Мары за опыт. Напиши полный развёрнутый ответ. Учебные 45 минут — оценка, а не подтверждённый школьный лимит. Составь план, напиши текст и проверь его; при необходимости раздели работу перерывом."
+    }
+  },
+  {
+    "id": "e-creative-full-rehearsal",
+    "prompt": {
+      "en": "Write 350–450 English words: a young inventor decides whether to switch on a machine while a younger sibling waits outside. Show a change in thinking and use purposeful stage directions. Write a complete 350–450-word monologue. This 45-minute practice allocation is an estimate, not a verified school limit. Plan, draft and check; take a break between parts if needed.",
+      "ru": "Напиши 350–450 английских слов: юный изобретатель решает, включать ли машину, пока младший брат или сестра ждёт за дверью. Покажи изменение мысли и используй осмысленные ремарки. Напиши полный монолог на 350–450 слов. Учебные 45 минут — оценка, а не подтверждённый школьный лимит. Составь план, напиши текст и проверь его; при необходимости раздели работу перерывом."
+    }
+  },
+  {
+    "id": "e-purpose-full-rehearsal",
+    "prompt": {
+      "en": "Write a 300–400-word speech to students arguing whether surveillance cameras should be used in school corridors. Acknowledge a counterargument and propose conditions. Write a complete developed response. This 45-minute practice allocation is an estimate, not a verified school limit. Plan, draft and check; take a break between parts if needed.",
+      "ru": "Напиши речь для учеников объёмом 300–400 английских слов: нужны ли камеры в школьных коридорах? Учти возражение и предложи условия использования. Напиши полный развёрнутый ответ. Учебные 45 минут — оценка, а не подтверждённый школьный лимит. Составь план, напиши текст и проверь его; при необходимости раздели работу перерывом."
+    }
+  },
+  {
+    "id": "earth-density-q4",
+    "prompt": {
+      "en": "In an invented slab model, A and B each have horizontal area 2 m². A is 0.10 m thick and has mass 600 kg; B is 0.20 m thick and has mass 1,000 kg. Calculate each average density. Does the thicker slab have to be denser?",
+      "ru": "В условной модели площадь горизонтального сечения каждого из двух слоёв A и B равна 2 м². Толщина A — 0,10 м, масса — 600 кг; толщина B — 0,20 м, масса — 1 000 кг. Найди среднюю плотность каждого слоя. Обязательно ли более толстый слой плотнее?"
+    }
+  },
+  {
+    "id": "earth-q1",
+    "prompt": {
+      "en": "Explain why a tectonic plate is not the same thing as a continent.",
+      "ru": "Объясни, почему литосферная плита — не то же самое, что материк."
+    }
+  },
+  {
+    "id": "earth-q2",
+    "prompt": {
+      "en": "Explain how heat and gravity help drive plate movement.",
+      "ru": "Объясни, как тепло и сила тяжести помогают двигать плиты."
+    }
+  },
+  {
+    "id": "earth-q3",
+    "prompt": {
+      "en": "Draw and annotate Earth’s main layers, then explain how seismic waves show that the outer core is liquid.",
+      "ru": "Нарисуй и подпиши главные слои Земли, затем объясни, как сейсмические волны показывают, что внешнее ядро жидкое."
+    }
+  },
+  {
+    "id": "earthquakes-q1",
+    "prompt": {
+      "en": "Explain how an earthquake forms, and draw the focus, epicentre, fault and seismic waves.",
+      "ru": "Объясни, как возникает землетрясение, и нарисуй очаг, эпицентр, разлом и сейсмические волны."
+    }
+  },
+  {
+    "id": "earthquakes-q2",
+    "prompt": {
+      "en": "Compare P and S waves and explain how their arrival times help locate an earthquake.",
+      "ru": "Сравни P- и S-волны и объясни, как время их прихода помогает определить положение землетрясения."
+    }
+  },
+  {
+    "id": "earthquakes-q3",
+    "prompt": {
+      "en": "Explain why two towns experience different damage during the same earthquake even though its magnitude is the same.",
+      "ru": "Объясни, почему два города получают разные разрушения при одном землетрясении с одной и той же магнитудой."
+    }
+  },
+  {
+    "id": "el-1",
+    "prompt": {
+      "en": "State the unit of (a) electric current and (b) electrical resistance.",
+      "ru": "Назови единицы (а) силы тока и (б) электрического сопротивления."
+    }
+  },
+  {
+    "id": "el-10",
+    "prompt": {
+      "en": "Three 6 Ω resistors are connected in parallel. Calculate the total (equivalent) resistance.",
+      "ru": "Три резистора по 6 Ом соединены параллельно. Вычисли полное (эквивалентное) сопротивление."
+    }
+  },
+  {
+    "id": "el-11",
+    "prompt": {
+      "en": "A 12 V battery is connected in series to a 4 Ω resistor and an 8 Ω resistor. Calculate (a) the total resistance, (b) the current in the circuit, (c) the voltage across each resistor.",
+      "ru": "К батарее 12 В последовательно подключены резистор 4 Ом и резистор 8 Ом. Вычисли (а) полное сопротивление, (б) ток в цепи, (в) напряжение на каждом резисторе."
+    }
+  },
+  {
+    "id": "el-12",
+    "prompt": {
+      "en": "An electric iron is rated at 1500 W. It is used for 1 hour per day for 30 days. The electricity tariff is 0.40 AED per kWh. Calculate the monthly cost of running the iron.",
+      "ru": "Электроутюг мощностью 1500 Вт используется 1 час в день в течение 30 дней. Тариф 0,40 AED за кВт·ч. Вычисли месячную стоимость работы утюга."
+    }
+  },
+  {
+    "id": "el-14",
+    "prompt": {
+      "en": "Describe an experiment to determine the I-V (current-voltage) characteristics of a resistor at constant temperature.",
+      "ru": "Опиши эксперимент по определению I-V характеристики резистора при постоянной температуре."
+    }
+  },
+  {
+    "id": "el-2",
+    "prompt": {
+      "en": "Describe how to use an ammeter and a voltmeter to measure the current through and voltage across a single bulb in a circuit.",
+      "ru": "Опиши, как использовать амперметр и вольтметр, чтобы измерить ток через одну лампу и напряжение на ней в цепи."
+    }
+  },
+  {
+    "id": "el-5",
+    "prompt": {
+      "en": "A 12 V battery is connected to a 48 Ω resistor. Calculate the current flowing in the circuit.",
+      "ru": "К батарее 12 В подключён резистор 48 Ом. Вычисли ток в цепи."
+    }
+  },
+  {
+    "id": "el-6",
+    "prompt": {
+      "en": "A 2000 W kettle runs for 5 minutes. Calculate (a) the energy used in joules and (b) the energy used in kilowatt-hours.",
+      "ru": "Чайник мощностью 2000 Вт работает 5 минут. Вычисли (а) энергию в джоулях и (б) энергию в киловатт-часах."
+    }
+  },
+  {
+    "id": "el-7",
+    "prompt": {
+      "en": "Explain how an LDR (light-dependent resistor) is used to switch a street light on automatically at night.",
+      "ru": "Объясни, как фоторезистор (LDR) автоматически включает уличный фонарь ночью."
+    }
+  },
+  {
+    "id": "elastic-vessels",
+    "prompt": {
+      "en": "Design an investigation that uses elastic tubes as a model and compares how far two tubes stretch under equal loads. Explain what the model can and cannot show about arteries and veins.",
+      "ru": "Спланируй опыт, в котором эластичные трубки служат моделью, и сравни, насколько растягиваются две трубки при одинаковых нагрузках. Объясни, что такая модель показывает об артериях и венах, а чего не показывает."
+    }
+  },
+  {
+    "id": "enzyme",
+    "prompt": {
+      "en": "Explain why amylase activity rises with temperature to an optimum and then falls sharply. State what bile does.",
+      "ru": "Объясни, почему активность амилазы (amylase) сначала растёт с температурой до оптимума, а затем резко падает. Назови роль желчи."
+    }
+  },
+  {
+    "id": "eutrophication",
+    "prompt": {
+      "en": "Explain the chain from fertiliser runoff to fish deaths. Suggest an intervention and one limitation of it.",
+      "ru": "Объясни цепочку событий от стока удобрений до гибели рыб. Предложи меру и одно её ограничение."
+    }
+  },
+  {
+    "id": "exercise",
+    "prompt": {
+      "en": "Distinguish between breathing and cellular respiration. Explain why breathing stays faster after intense exercise.",
+      "ru": "Различи дыхательные движения и клеточное дыхание. Объясни, почему после интенсивной нагрузки дыхание остаётся учащённым."
+    }
+  },
+  {
+    "id": "f-france-education-1",
+    "prompt": {
+      "en": "Put in sequence after école élémentaire: première, troisième, sixième, terminale, cinquième, seconde, quatrième. Which comes immediately before lycée?",
+      "ru": "Расположи после école élémentaire: première, troisième, sixième, terminale, cinquième, seconde, quatrième. Что непосредственно перед lycée?"
+    }
+  },
+  {
+    "id": "f-france-education-2",
+    "prompt": {
+      "en": "Complete and explain: Si notre école ___ (avoir) un jardin, nous y ___ (étudier) les plantes.",
+      "ru": "Заполни и объясни: Si notre école ___ (avoir) un jardin, nous y ___ (étudier) les plantes."
+    }
+  },
+  {
+    "id": "f-france-education-3",
+    "prompt": {
+      "en": "Respond in French to “All French-speaking pupils follow the same school day.” Give a reason and a better comparison question.",
+      "ru": "Ответь по-французски на «У всех франкоязычных учеников одинаковый учебный день». Дай основание и более точный вопрос для сравнения."
+    }
+  },
+  {
+    "id": "f-g9-future-1",
+    "prompt": {
+      "en": "Use futur proche: Demain, nous ___ (visiter) un musée.",
+      "ru": "Используй futur proche: Demain, nous ___ (visiter) un musée."
+    }
+  },
+  {
+    "id": "f-g9-hypothesis-1",
+    "prompt": {
+      "en": "Unreal present condition: Si j’___ (avoir) un vélo, je ___ (aller) au parc.",
+      "ru": "Нереальное условие настоящего: Si j’___ (avoir) un vélo, je ___ (aller) au parc."
+    }
+  },
+  {
+    "id": "f-g9-oral-attempt",
+    "prompt": {
+      "en": "Use the original picture above. Spend10minutes preparing notes, speak for2minutes, then rehearse the six follow-up questions for3minutes. Attempt first without reading the model; time your real delivery.",
+      "ru": "Используй оригинальное изображение выше. Подготовь заметки за10минут, выступи2минуты, затем отрепетируй шесть дополнительных вопросов за3минуты. Сначала отвечай без образца; измерь реальную длительность речи."
+    }
+  },
+  {
+    "id": "f-g9-past-1",
+    "prompt": {
+      "en": "Use background then completed event: Il ___ (pleuvoir) quand nous ___ (arriver).",
+      "ru": "Используй фон, затем завершённое событие: Il ___ (pleuvoir) quand nous ___ (arriver)."
+    }
+  },
+  {
+    "id": "f-g9-present-1",
+    "prompt": {
+      "en": "Habit, présent: Chaque jour, nous ___ (finir) les cours à quatre heures.",
+      "ru": "Привычка, présent: Chaque jour, nous ___ (finir) les cours à quatre heures."
+    }
+  },
+  {
+    "id": "f-g9-superlative-1",
+    "prompt": {
+      "en": "Of three destinations, A is MOST interesting: La destination A est ___ intéressante des trois.",
+      "ru": "Из трёх мест A — САМОЕ интересное: La destination A est ___ intéressante des trois."
+    }
+  },
+  {
+    "id": "f-g9-travel-1",
+    "prompt": {
+      "en": "From the table: Nous allons à la montagne ___ train.",
+      "ru": "По таблице: Nous allons à la montagne ___ train."
+    }
+  },
+  {
+    "id": "f-g9-travel-3",
+    "prompt": {
+      "en": "From the table: En ville, nous allons ___ vélo pour visiter un musée.",
+      "ru": "По таблице: En ville, nous allons ___ vélo pour visiter un musée."
+    }
+  },
+  {
+    "id": "f-g9-travel-5",
+    "prompt": {
+      "en": "Use LESS: Dans cet exemple, le bus est ___ cher ___ le train.",
+      "ru": "Используй «МЕНЕЕ»: Dans cet exemple, le bus est ___ cher ___ le train."
+    }
+  },
+  {
+    "id": "f-g9-writing-choice",
+    "prompt": {
+      "en": "Archived G9 rehearsal: choose ONE option and write 175–225 French words. A — Speech to classmates: propose a book-sharing project; (1) explain its purpose and audience, (2) describe a past discussion/event, (3) give two practical steps and a justified future plan, (4) invite participation and address one possible difficulty. B — Article for a school magazine: compare two holidays; (1) describe destinations and transport, (2) recount a completed event and its background, (3) compare activities with reasons, (4) propose a future trip and explain one change. Invented experiences are allowed for this practice if clearly presented as fictional; no invented real statistics.",
+      "ru": "Репетиция по архиву G9: выбери ОДИН вариант и напиши 175–225 французских слов. A — Речь одноклассникам: предложи обмен книгами; (1) объясни цель и аудиторию, (2) опиши прошлый разговор/событие, (3) предложи два практических шага и обоснованный план, (4) пригласи участников и учти одну трудность. B — Статья в школьный журнал: сравни два отдыха; (1) назови места и транспорт, (2) расскажи о завершённом событии и его фоне, (3) сравни занятия с обоснованием, (4) предложи будущую поездку и объясни одно изменение. Для тренировки допустимы явно вымышленные события; не выдумывай реальные статистические данные."
+    }
+  },
+  {
+    "id": "f-health-community-1",
+    "prompt": {
+      "en": "Complete: Si nous ___ (avoir) un jardin, nous ___ (cultiver) des légumes.",
+      "ru": "Заполни: Si nous ___ (avoir) un jardin, nous ___ (cultiver) des légumes."
+    }
+  },
+  {
+    "id": "f-health-community-2",
+    "prompt": {
+      "en": "Write a 90-word practice speech proposing a community activity; include one past event and one justified future plan.",
+      "ru": "Напиши тренировочную речь на 90 французских слов о помощи сообществу: прошлое событие и обоснованный план."
+    }
+  },
+  {
+    "id": "f-health-reading-1",
+    "prompt": {
+      "en": "What does Lina often do, and with whom?",
+      "ru": "Что Лина часто делает и с кем?"
+    }
+  },
+  {
+    "id": "f-health-reading-2",
+    "prompt": {
+      "en": "What did she bring yesterday? Quote the detail.",
+      "ru": "Что она принесла вчера? Приведи слова текста."
+    }
+  },
+  {
+    "id": "f-health-reading-3",
+    "prompt": {
+      "en": "Which past habit is expressed in the imparfait?",
+      "ru": "Какая прошлая привычка выражена в imparfait?"
+    }
+  },
+  {
+    "id": "f-health-reading-4",
+    "prompt": {
+      "en": "What condition limits the proposed workshop? Has it already happened?",
+      "ru": "Какое условие ограничивает предложенный мастер-класс? Он уже состоялся?"
+    }
+  },
+  {
+    "id": "f-listen-cependant",
+    "prompt": {
+      "en": "Complete each sentence with mais or cependant: use cependant in sentences 1 and 3, mais in sentence 2. Add a comma where it is needed.\n\n1. Le film était long. ___ il était très drôle.\n2. Léa voulait sortir, ___ il pleuvait.\n3. Le restaurant est petit ; ___ la cuisine est excellente.",
+      "ru": "Заполни пропуски словами mais или cependant: в пунктах 1 и 3 — cependant, в пункте 2 — mais. Поставь запятую там, где она нужна.\n\n1. Le film était long. ___ il était très drôle.\n2. Léa voulait sortir, ___ il pleuvait.\n3. Le restaurant est petit ; ___ la cuisine est excellente."
+    }
+  },
+  {
+    "id": "f-listen-education",
+    "prompt": {
+      "en": "Read the text and answer the questions in English.\n\nLéa présente son école. Les cours commencent à huit heures. Le matin, les élèves ont souvent des maths et du français. Sam pense que l’école du futur utilisera plus d’ordinateurs. Selon lui, chaque enfant a le droit à l’éducation. Alex est d’accord avec Sam, mais il pense que les cours seront plus pratiques.\n\n1. When do lessons start at Léa’s school?\n2. What does Alex think about the school of the future?",
+      "ru": "Прочитай текст и ответь на вопросы по-английски.\n\nLéa présente son école. Les cours commencent à huit heures. Le matin, les élèves ont souvent des maths et du français. Sam pense que l’école du futur utilisera plus d’ordinateurs. Selon lui, chaque enfant a le droit à l’éducation. Alex est d’accord avec Sam, mais il pense que les cours seront plus pratiques.\n\n1. Во сколько начинаются уроки в школе Леа?\n2. Что Алекс думает о школе будущего?"
+    }
+  },
+  {
+    "id": "f-listen-meme-si",
+    "prompt": {
+      "en": "Complete each sentence with même si. Before il or ils, write même s’. Then state the tense of the verb after même si: présent, passé composé or imparfait.\n\n1. Nous sortons ___ il pleut. Tense: ___\n2. Léa a continué à courir ___ elle était fatiguée. Tense: ___\n3. Sam a fait ses devoirs ___ il a eu une longue journée. Tense: ___",
+      "ru": "Заполни пропуски словами même si. Перед il или ils пиши même s’. Затем укажи время глагола после même si: présent, passé composé или imparfait.\n\n1. Nous sortons ___ il pleut. Время: ___\n2. Léa a continué à courir ___ elle était fatiguée. Время: ___\n3. Sam a fait ses devoirs ___ il a eu une longue journée. Время: ___"
+    }
+  },
+  {
+    "id": "f-school-journeys-1",
+    "prompt": {
+      "en": "In the fictional French reading, give one similarity and two differences with textual evidence. Can you name the pupils’ countries?",
+      "ru": "В вымышленном французском тексте найди сходство и два различия с опорой на текст. Можно ли назвать страны учеников?"
+    }
+  },
+  {
+    "id": "f-school-journeys-2",
+    "prompt": {
+      "en": "Improve: “Le film prouve que tous les enfants du Maroc font le même trajet que Zahira.”",
+      "ru": "Исправь: «Le film prouve que tous les enfants du Maroc font le même trajet que Zahira»."
+    }
+  },
+  {
+    "id": "f-school-journeys-3",
+    "prompt": {
+      "en": "Compare the documentary’s school-journey focus and Malala’s advocacy in three connected French sentences. Include a justified proposal, not an invented success.",
+      "ru": "Сравни дорогу в школу из фильма с деятельностью Малалы в трёх связных французских предложениях. Добавь обоснованное предложение, не выдуманный успех."
+    }
+  },
+  {
+    "id": "f-solidarity-four-relations",
+    "prompt": {
+      "en": "Use the four relations observed in the teacher-linked source (family, town, country, planet). Give one French action for each and explain why these are relations rather than four universal types.",
+      "ru": "Используй четыре связи из наблюдения школьного источника: семья, город, страна, планета. Для каждой дай французское предложение с действием и объясни, почему это связи, а не четыре универсальных типа."
+    }
+  },
+  {
+    "id": "f-solidarity-profile-1",
+    "prompt": {
+      "en": "A pupil says: “Je suis altruiste, donc je décide seul de ce dont les autres ont besoin.” Explain the problem and improve the sentence.",
+      "ru": "Ученик говорит: «Je suis altruiste, donc je décide seul de ce dont les autres ont besoin». Объясни ошибку и исправь фразу."
+    }
+  },
+  {
+    "id": "f-solidarity-profile-2",
+    "prompt": {
+      "en": "A school chess club meets in a neighbourhood library. Give two community links and say why there is no contradiction.",
+      "ru": "Школьный шахматный клуб встречается в районной библиотеке. Назови две связи сообщества и объясни, почему они совместимы."
+    }
+  },
+  {
+    "id": "f-solidarity-profile-3",
+    "prompt": {
+      "en": "Write three French sentences: one proposed action, its reason and a way to check its usefulness. Identify two learner qualities.",
+      "ru": "Напиши три предложения по-французски: действие, его основание и проверка пользы. Назови два качества ученика."
+    }
+  },
+  {
+    "id": "fe-1",
+    "prompt": {
+      "en": "State Hooke's Law.",
+      "ru": "Сформулируй закон Гука."
+    }
+  },
+  {
+    "id": "fe-10",
+    "prompt": {
+      "en": "Atmospheric pressure is 101 kPa. Calculate the force exerted by the atmosphere on a window of area 1.5 m² and explain why the window does not break inwards.",
+      "ru": "Атмосферное давление 101 кПа. Вычисли силу, действующую на окно площадью 1,5 м², и объясни, почему окно не вдавливается внутрь."
+    }
+  },
+  {
+    "id": "fe-11",
+    "prompt": {
+      "en": "A pump lifts 2.0 kg of water by 3.0 m in 4.0 s. Calculate the work done and the power developed by the pump. Take g = 9.81 m/s².",
+      "ru": "Насос поднимает 2,0 кг воды на 3,0 м за 4,0 с. Вычисли работу и мощность насоса. Возьми g = 9,81 м/с²."
+    }
+  },
+  {
+    "id": "fe-12",
+    "prompt": {
+      "en": "Calculate the gauge pressure due to water at the bottom of a 25 m deep swimming pool. Water density = 1000 kg/m³, g = 9.81 m/s². Express the answer in kPa.",
+      "ru": "Вычисли избыточное давление воды относительно поверхности на дне бассейна глубиной 25 м. Плотность воды 1000 кг/м³, g = 9,81 м/с². Ответ в кПа."
+    }
+  },
+  {
+    "id": "fe-2",
+    "prompt": {
+      "en": "Describe what happens to a spring when it is loaded with masses up to and beyond its elastic limit.",
+      "ru": "Опиши, что происходит с пружиной при нагрузке до предела упругости и за ним."
+    }
+  },
+  {
+    "id": "fe-3",
+    "prompt": {
+      "en": "Explain why a sharp knife cuts through food more easily than a blunt knife.",
+      "ru": "Объясни, почему острый нож режет продукты легче, чем тупой."
+    }
+  },
+  {
+    "id": "fe-4",
+    "prompt": {
+      "en": "Compare and contrast contact forces and non-contact forces. Give two examples of each.",
+      "ru": "Укажи сходства и различия: контактные и бесконтактные силы. Приведи по два примера каждой."
+    }
+  },
+  {
+    "id": "fe-5",
+    "prompt": {
+      "en": "A stationary person with gravitational weight 700 N stands on one foot with a contact area of 0.020 m². Calculate the pressure exerted on the floor.",
+      "ru": "На неподвижно стоящего человека действует сила тяжести 700 Н. Он стоит на одной ноге с площадью контакта 0,020 м². Вычисли давление на пол."
+    }
+  },
+  {
+    "id": "fe-6",
+    "prompt": {
+      "en": "A block has a mass of 240 g and a volume of 80 cm³. Calculate its density in g/cm³ and state whether it will float in water.",
+      "ru": "Брусок имеет массу 240 г и объём 80 см³. Вычисли его плотность в г/см³ и укажи, будет ли он плавать в воде."
+    }
+  },
+  {
+    "id": "fe-7",
+    "prompt": {
+      "en": "Calculate the work done when a force of 25 N pushes a box 4 m across a floor in the direction of the force.",
+      "ru": "Вычисли работу, совершаемую при толкании ящика силой 25 Н на 4 м по полу в направлении силы."
+    }
+  },
+  {
+    "id": "fe-9",
+    "prompt": {
+      "en": "A spring extends 5 cm under a 20 N load. Find (a) its spring constant and (b) its extension when the total load is changed to 32 N. Assume both loads are within the proportional range.",
+      "ru": "Пружина удлиняется на 5 см под нагрузкой 20 Н. Найди (а) её жёсткость и (б) удлинение, если полную нагрузку заменить на 32 Н. Обе нагрузки находятся в пределах пропорциональности."
+    }
+  },
+  {
+    "id": "feedback",
+    "prompt": {
+      "en": "Explain the response to a rise in blood glucose after a meal. Then state the roles of FSH, LH and progesterone.",
+      "ru": "Объясни ответ на повышение глюкозы после еды. Затем назови роли ФСГ, ЛГ и прогестерона."
+    }
+  },
+  {
+    "id": "fermentation",
+    "prompt": {
+      "en": "Explain alcoholic fermentation in yeast and evaluate one industrial benefit against two limitations.",
+      "ru": "Объясни спиртовое брожение дрожжей и оцени одну промышленную пользу, сопоставив её с двумя ограничениями."
+    }
+  },
+  {
+    "id": "fieldwork-zero-rank",
+    "prompt": {
+      "en": "Use these invented pairs: x = −2, −1, 0, 1, 2 and y = 4, 1, 0, 1, 4. Assign average ranks to ties. Explain why zero Spearman correlation would not mean there is no relationship.",
+      "ru": "Даны придуманные пары: x = −2, −1, 0, 1, 2; y = 4, 1, 0, 1, 4. Одинаковым значениям присвой средние ранги. Почему нулевая корреляция Спирмена здесь не означает отсутствия связи?"
+    }
+  },
+  {
+    "id": "fis-1",
+    "prompt": {
+      "en": "Describe neutron-induced fission and how it can start a chain reaction.",
+      "ru": "Опиши деление ядра под действием нейтрона и то, как оно запускает цепную реакцию."
+    }
+  },
+  {
+    "id": "flower-seed-and-starch-evidence",
+    "prompt": {
+      "en": "Label the pollen-producing part, pollen-receiving part and ovule-containing part of a flower, then explain fertilisation and formation of a seed. A teacher-prepared, previously darkened leaf is partly covered and exposed to light; after suitable preparation, iodine turns the exposed region blue-black but the covered region stays brown. Interpret this result and give one limitation. Explain why a germinating seed can grow before it has photosynthesising leaves.",
+      "ru": "Назови часть цветка, образующую пыльцу, принимающую пыльцу и содержащую семязачатки. Объясни оплодотворение и образование семени. Учитель частично закрыл предварительно выдержанный в темноте лист и осветил его. После подготовки листа йод окрасил открытую область в сине-чёрный цвет, а закрытая осталась коричневой. Объясни результат и одно его ограничение. Почему проросток может расти до появления фотосинтезирующих листьев?"
+    }
+  },
+  {
+    "id": "fm-12",
+    "prompt": {
+      "en": "Two trolleys, mass 2 kg and 6 kg, are held together by a compressed spring. When released, the 2 kg trolley moves left at 6 m/s. Using conservation of momentum, calculate the velocity of the 6 kg trolley. Neglect external horizontal impulse.",
+      "ru": "Две тележки массой 2 кг и 6 кг удерживаются вместе сжатой пружиной. После отпускания 2 кг тележка летит влево со скоростью 6 м/с. Используя закон сохранения импульса, вычисли скорость тележки массой 6 кг и укажи её направление. Внешним горизонтальным импульсом силы пренебреги."
+    }
+  },
+  {
+    "id": "fm-13",
+    "prompt": {
+      "en": "A 75 kg skydiver falls at terminal velocity. Neglect buoyancy and use g = 9.81 m/s² to find the drag force.",
+      "ru": "Парашютист массой 75 кг падает с установившейся скоростью. Пренебреги выталкивающей силой и при g = 9,81 м/с² найди силу сопротивления воздуха."
+    }
+  },
+  {
+    "id": "fm-14",
+    "prompt": {
+      "en": "A velocity-time graph for a car shows a horizontal line at 12 m/s from t = 0 to t = 6 s, then a straight line down to 0 m/s at t = 10 s. Describe the motion and find the total distance.",
+      "ru": "График v-t для машины: горизонтальная линия на 12 м/с от t = 0 до t = 6 с, затем прямая вниз до 0 м/с в t = 10 с. Опиши движение и найди полный путь."
+    }
+  },
+  {
+    "id": "fm-2",
+    "prompt": {
+      "en": "Describe the motion of a skydiver from the moment they leave the plane until they land safely with a parachute.",
+      "ru": "Опиши движение парашютиста от момента выхода из самолёта до безопасного приземления с раскрытым парашютом."
+    }
+  },
+  {
+    "id": "fm-3",
+    "prompt": {
+      "en": "Explain, using Newton's Second Law, why a tennis ball accelerates faster than a bowling ball when the same resultant force acts.",
+      "ru": "Объясни, используя второй закон Ньютона, почему теннисный мяч ускоряется быстрее, чем шар для боулинга, при одинаковой равнодействующей силе."
+    }
+  },
+  {
+    "id": "fm-4",
+    "prompt": {
+      "en": "Compare and contrast Newton's First Law and Newton's Third Law, giving an example of each.",
+      "ru": "Укажи сходства и различия: первый и третий законы Ньютона, приведя пример к каждому."
+    }
+  },
+  {
+    "id": "fm-5",
+    "prompt": {
+      "en": "A car of mass 1200 kg accelerates from rest to 18 m/s in 6 s. Calculate (a) its acceleration and (b) the resultant force on the car.",
+      "ru": "Автомобиль массой 1200 кг разгоняется с места до 18 м/с за 6 с. Вычисли (а) его ускорение и (б) равнодействующую силу."
+    }
+  },
+  {
+    "id": "fm-6",
+    "prompt": {
+      "en": "Calculate the momentum of a 0.5 kg football kicked at 12 m/s.",
+      "ru": "Вычисли импульс футбольного мяча массой 0,5 кг, летящего со скоростью 12 м/с."
+    }
+  },
+  {
+    "id": "fm-7",
+    "prompt": {
+      "en": "Explain how airbags reduce the risk of injury during a car crash, using the concept of impulse.",
+      "ru": "Объясни, как подушки безопасности снижают риск травм при ДТП, используя понятие импульса силы."
+    }
+  },
+  {
+    "id": "fm-8",
+    "prompt": {
+      "en": "A driver argues that braking distance only depends on the brakes, not on the road. Evaluate this claim.",
+      "ru": "Водитель утверждает, что тормозной путь зависит только от тормозов, а не от дороги. Оцени это утверждение."
+    }
+  },
+  {
+    "id": "fus-1",
+    "prompt": {
+      "en": "Define fusion and contrast it with fission.",
+      "ru": "Дай определение синтеза и укажи его отличия от деления."
+    }
+  },
+  {
+    "id": "g-aral-case-1",
+    "prompt": {
+      "en": "Use the 2004 and 2007 harvest figures to find the ratio and percentage increase. State a time and source limitation.",
+      "ru": "По уловам 2004 и 2007 годов найди отношение и процентный рост. Укажи временное и источниковое ограничение."
+    }
+  },
+  {
+    "id": "g-aral-case-2",
+    "prompt": {
+      "en": "Write a conditional SEEP judgement using one observed result, one trade-off and one extra observation needed. Distinguish an operating option from a completed achievement.",
+      "ru": "Дай условный вывод по SEEP: наблюдение, компромисс и нужные дополнительные данные. Отличи вариант эксплуатации от достигнутого результата."
+    }
+  },
+  {
+    "id": "g-atmosphere-1",
+    "prompt": {
+      "en": "Explain why subtropical sinking air often reduces rainfall.",
+      "ru": "Почему опускание воздуха в субтропиках часто уменьшает осадки?"
+    }
+  },
+  {
+    "id": "g-atmosphere-2",
+    "prompt": {
+      "en": "Give a short-term and long-term drought response, with a limitation each.",
+      "ru": "Предложи краткосрочную и долгосрочную меру против засухи с ограничением каждой."
+    }
+  },
+  {
+    "id": "g-baikal-tourism-1",
+    "prompt": {
+      "en": "A student writes: “UNESCO requested wastewater measures in 2025, so Baikal’s sewage problem is solved.” Explain the missing evidence.",
+      "ru": "Ученик пишет: «ЮНЕСКО запросила меры в 2025 году, значит проблема стоков решена». Каких данных не хватает?"
+    }
+  },
+  {
+    "id": "g-baikal-tourism-2",
+    "prompt": {
+      "en": "For the invented income figures, calculate the change. Then propose one environmental measure and one fairness check before recommending the policy.",
+      "ru": "Вычисли изменение учебного дохода. Предложи экологический показатель и проверку справедливости перед рекомендацией мер."
+    }
+  },
+  {
+    "id": "g-baikal-tourism-3",
+    "prompt": {
+      "en": "Why do upstream, downstream and remote stations improve an investigation, and why do they still not identify all tourism effects?",
+      "ru": "Зачем нужны точки выше и ниже сброса и удалённые станции? Почему они всё равно не выявляют все последствия туризма?"
+    }
+  },
+  {
+    "id": "g-channel-1",
+    "prompt": {
+      "en": "A rectangular channel is 6 m wide and 1 m deep; mean speed is 0.8 m/s. Find Q and R.",
+      "ru": "Прямоугольное русло: ширина 6 м, глубина 1 м, средняя скорость 0,8 м/с. Найди Q и R."
+    }
+  },
+  {
+    "id": "g-channel-2",
+    "prompt": {
+      "en": "Reach B in the table is downstream. Does its lower speed disprove every part of Bradshaw?",
+      "ru": "Участок B ниже по течению. Опровергает ли его меньшая скорость всю модель?"
+    }
+  },
+  {
+    "id": "g-circulation-model",
+    "prompt": {
+      "en": "Use the three-cell model to name Hadley, Ferrel and Polar circulation and explain equatorial rising air, subtropical sinking air and pressure differences. What does this model not predict?",
+      "ru": "Назови ячейки Хэдли, Феррела и полярную в трёхъячеечной модели. Объясни подъём воздуха у экватора, опускание в субтропиках и разность давлений. Чего эта модель не предсказывает?"
+    }
+  },
+  {
+    "id": "g-climate-drivers-timescale",
+    "prompt": {
+      "en": "Distinguish orbital changes, solar variability, volcanic aerosols and increased greenhouse gases as climate drivers. What must an explanation compare before assigning a recent trend to one of them?",
+      "ru": "Отличи орбитальные изменения, изменчивость Солнца, вулканические аэрозоли и рост парниковых газов как факторы климата. Что нужно сопоставить перед объяснением недавнего тренда одним из них?"
+    }
+  },
+  {
+    "id": "g-climate-evidence-1",
+    "prompt": {
+      "en": "Invented ring widths fall from 1.5 mm to 1.2 mm. Calculate the change and explain why it cannot directly give a temperature change in°C.",
+      "ru": "Ширина учебных колец уменьшилась с 1,5 до 1,2 мм. Найди изменение и объясни, почему из него нельзя сразу получить изменение температуры в°C."
+    }
+  },
+  {
+    "id": "g-climate-evidence-2",
+    "prompt": {
+      "en": "A student uses a temporary cooling after a volcanic eruption to deny a multi-decade warming trend. Identify the comparison error and name the mechanism.",
+      "ru": "Ученик отрицает потепление за несколько десятилетий, ссылаясь на краткое похолодание после извержения. В чём ошибка сравнения и каков механизм?"
+    }
+  },
+  {
+    "id": "g-climate-evidence-3",
+    "prompt": {
+      "en": "A gas curve from ice and a local tree-ring curve differ. Give two checks before judging whether they contradict each other.",
+      "ru": "Кривая концентрации газа во льду отличается от местного ряда древесных колец. Назови две проверки перед выводом о противоречии."
+    }
+  },
+  {
+    "id": "g-enso-comparison",
+    "prompt": {
+      "en": "Compare Pacific trade winds, warm-water distribution and eastern upwelling in El Niño and La Niña. Why can neither label alone prove a particular town will flood?",
+      "ru": "Сравни пассаты Тихого океана, расположение тёплой воды и восточный апвеллинг при Эль-Ниньо и Ла-Нинья. Почему ни одно название не доказывает, что конкретный город затопит?"
+    }
+  },
+  {
+    "id": "g-erosion-transport-classification",
+    "prompt": {
+      "en": "Classify water dislodging bed material, sediment scraping the bed, fragments colliding, and soluble material being removed. Then distinguish traction, saltation, suspension and dissolved load from deposition.",
+      "ru": "Классифицируй отрыв материала водой, истирание дна наносами, столкновения обломков и удаление растворимого вещества. Затем отличи волочение, сальтацию, взвесь и растворённый сток от отложения."
+    }
+  },
+  {
+    "id": "g-fieldwork-2",
+    "prompt": {
+      "en": "Which graph tests whether channel width and depth are associated, and what must its axes show?",
+      "ru": "Как проверить связь ширины и глубины русла графиком и что подписать?"
+    }
+  },
+  {
+    "id": "g-fieldwork-3",
+    "prompt": {
+      "en": "In the invented transport survey, calculate the walking share and pie-sector angle. Explain the condition that makes a pie chart valid.",
+      "ru": "Найди долю пеших гостей и угол сектора в учебном опросе. При каком условии круговая диаграмма допустима?"
+    }
+  },
+  {
+    "id": "g-fieldwork-4",
+    "prompt": {
+      "en": "Discharge is measured on days 1, 2 and 8. How should the time axis differ from three equally spaced category labels?",
+      "ru": "Расход измерен в дни 1, 2 и 8. Чем временная ось отличается от трёх равномерно расположенных категорий?"
+    }
+  },
+  {
+    "id": "g-fieldwork-5",
+    "prompt": {
+      "en": "A GIS layer shows a polluted sample near a hotel. Give two checks before blaming that hotel and one extra data layer you would seek.",
+      "ru": "В ГИС загрязнённая проба оказалась рядом с отелем. Назови две проверки до обвинения отеля и дополнительный слой данных."
+    }
+  },
+  {
+    "id": "g-fieldwork-aim-origin-type",
+    "prompt": {
+      "en": "For a channel-width investigation, write an aim and a testable hypothesis. Classify your measured widths, your recorded descriptions, and an existing agency map by origin and data type. What is sample size?",
+      "ru": "Для исследования ширины русла сформулируй цель и проверяемую гипотезу. Классифицируй свои измерения, записанные описания и готовую карту ведомства по происхождению и типу данных. Что такое объём выборки?"
+    }
+  },
+  {
+    "id": "g-fieldwork-graph-choice",
+    "prompt": {
+      "en": "Choose a presentation for category counts, observations through time, paired width/depth measurements, mutually exclusive shares of one total, and mapped locations. Give a condition or limitation for each.",
+      "ru": "Выбери представление для чисел по категориям, наблюдений во времени, пар ширина/глубина, непересекающихся долей одного итога и географических точек. Назови условие или ограничение каждого способа."
+    }
+  },
+  {
+    "id": "g-fieldwork-sampling-evaluation",
+    "prompt": {
+      "en": "Compare random, systematic and stratified sampling for a tourism survey. Explain why methodology, conclusion and evaluation are different stages.",
+      "ru": "Сравни случайный, систематический и стратифицированный отбор для опроса туристов. Чем отличаются методика, вывод и оценка исследования?"
+    }
+  },
+  {
+    "id": "g-floods-1",
+    "prompt": {
+      "en": "Calculate both lags and compare peaks using figures.",
+      "ru": "Рассчитай оба запаздывания и сравни пики с числами."
+    }
+  },
+  {
+    "id": "g-floods-2",
+    "prompt": {
+      "en": "Choose zoning or a wall for an undeveloped floodplain. Give a trade-off and one missing input.",
+      "ru": "Выбери зонирование или стену для незастроенной поймы. Назови компромисс и недостающие данные."
+    }
+  },
+  {
+    "id": "g-floods-land-use",
+    "prompt": {
+      "en": "Two similar storms reach a basin before and after urban development. The later hydrograph has a higher peak and shorter lag. Give a plausible mechanism, an alternative explanation, and one hard-/soft-engineering trade-off.",
+      "ru": "Похожие ливни наблюдали на водосборе до и после застройки. Во втором гидрографе пик выше, запаздывание короче. Предложи механизм, альтернативное объяснение и компромисс жёсткой/мягкой защиты."
+    }
+  },
+  {
+    "id": "g-hazard-case-management",
+    "prompt": {
+      "en": "Use the named Haiyan and Australian Big Dry reference accounts to compare one impact chain and short-/long-term management. Include social, economic, environmental and political dimensions without inventing casualty totals.",
+      "ru": "По справочным кейсам Хайяна и австралийской Большой засухи сравни цепочку последствий и кратко-/долгосрочные меры. Учти социальную, экономическую, экологическую и политическую стороны, не выдумывая число погибших."
+    }
+  },
+  {
+    "id": "g-hazards-mechanisms",
+    "prompt": {
+      "en": "Distinguish a flood, a tropical cyclone and a drought by their physical causes. Explain why heavy rain alone or warm ocean water alone is not a complete explanation.",
+      "ru": "Отличи наводнение, тропический циклон и засуху по физическим причинам. Почему сильный дождь или тёплый океан сами по себе не дают полного объяснения?"
+    }
+  },
+  {
+    "id": "g-indicators-1",
+    "prompt": {
+      "en": "A district has 1200 deaths and a mid-year population of 200000. Calculate its crude death rate and percentage. Then explain why a higher rate than another district does not alone prove worse healthcare.",
+      "ru": "За год умерли 1200 человек, численность в середине года 200 000. Найди коэффициент и процент. Почему больший коэффициент сам по себе не доказывает худшую медицину?"
+    }
+  },
+  {
+    "id": "g-indicators-2",
+    "prompt": {
+      "en": "Invented countries A and B have GHI scores 18 and 25 calculated in one report. Which has greater measured hunger severity? Can the 7-point difference be called seven percentage points of hungry people? If GDP is US$3 billion and population 150000, calculate GDP per capita and one limitation.",
+      "ru": "Учебные страны A и B имеют GHI 18 и 25 в одном выпуске. Где измеренная тяжесть голода выше? Равны ли 7 баллов семи процентным пунктам голодающих? При ВВП 3 млрд долларов и 150 000 жителей найди ВВП на душу и ограничение."
+    }
+  },
+  {
+    "id": "g-indicators-gdp-denominator",
+    "prompt": {
+      "en": "Invented economy: annual GDP US$900 million and population 30000. Find GDP per capita. A second economy has higher total GDP but many more people: can you rank living conditions from totals alone?",
+      "ru": "Условная экономика: годовой ВВП 900 млн долларов США и население 30000 человек. Найди ВВП на душу. У другой экономики общий ВВП больше, но людей намного больше: можно ли по итогам ранжировать условия жизни?"
+    }
+  },
+  {
+    "id": "g-jamaica-tourism-3",
+    "prompt": {
+      "en": "Compare one management priority in Negril with one in Antarctica. Link each to a named group or ecosystem, then explain a limitation of judging sustainability by visitor numbers alone.",
+      "ru": "Сравни приоритет управления в Негриле с приоритетом в Антарктике. Свяжи каждый с группой людей или экосистемой и объясни ограничение оценки устойчивости только по числу гостей."
+    }
+  },
+  {
+    "id": "g-long-profile-model",
+    "prompt": {
+      "en": "Compare a typical river’s upper and lower long-profile gradient and channel characteristics. How should you use Bradshaw when an observed lower reach is slower?",
+      "ru": "Сравни типичный уклон продольного профиля и русло в верхнем и нижнем течении. Как использовать Брэдшоу, если наблюдаемый нижний участок медленнее?"
+    }
+  },
+  {
+    "id": "g-processes-weathering-scale",
+    "prompt": {
+      "en": "Distinguish landscape from landform and weathering from erosion. Give mechanical, chemical and biological weathering examples and explain “subaerial”.",
+      "ru": "Отличи ландшафт от формы рельефа, выветривание от эрозии. Приведи физический, химический и биологический примеры выветривания и объясни «субаэральный»."
+    }
+  },
+  {
+    "id": "g-resource-decisions-2",
+    "prompt": {
+      "en": "Write a conditional judgement on the mine using one social and one environmental factor.",
+      "ru": "Дай условный вывод о руднике с социальным и экологическим фактором."
+    }
+  },
+  {
+    "id": "g-resources-1",
+    "prompt": {
+      "en": "First solve the invented town case: demand rises by 20% from 2000 units; does a 2400-unit supply leave a reserve? Then use the reported UK series (1990:108.3; 2010:51.4; 2023:4.4 million tonnes per year): describe the change with dates and units, calculate the overall percentage fall, and explain why the series does not prove that energy needs fell or establish one cause.",
+      "ru": "Сначала реши учебный пример: спрос 2000 единиц вырос на 20%; есть ли резерв при предложении 2400? Затем используй опубликованный ряд Великобритании (1990:108,3; 2010:51,4; 2023:4,4 млн тонн в год): опиши изменение с датами и единицами, найди общее снижение в процентах и объясни, почему ряд не доказывает уменьшения потребности в энергии или единственной причины."
+    }
+  },
+  {
+    "id": "g-resources-2",
+    "prompt": {
+      "en": "Give a Boserup-style response and two conditions for success.",
+      "ru": "Предложи ответ в духе Бозеруп и два условия успеха."
+    }
+  },
+  {
+    "id": "g-resources-energy-tradeoff",
+    "prompt": {
+      "en": "Compare wind energy and coal using renewability, reliability and two SEEP impacts. Why is “renewable” insufficient as a complete judgement?",
+      "ru": "Сравни ветер и уголь по возобновляемости, надёжности и двум последствиям SEEP. Почему одного слова «возобновляемый» недостаточно для оценки?"
+    }
+  },
+  {
+    "id": "g-resources-market",
+    "prompt": {
+      "en": "At the same stated price and one-day period, buyers are willing and able to buy 45 units while sellers offer 70. Find the surplus. Why can neither a stock of 500 units nor a wish without purchasing power replace these market quantities?",
+      "ru": "При той же указанной цене и периоде в один день покупатели хотят и могут приобрести 45 единиц, продавцы предлагают 70. Найди избыток. Почему запас 500 единиц и желание без покупательной возможности не заменяют эти величины?"
+    }
+  },
+  {
+    "id": "g-resources-theories",
+    "prompt": {
+      "en": "Compare a Malthus-style warning and a Boserup-style response to rising food demand. Explain why neither population alone nor an innovation announcement determines food security.",
+      "ru": "Сравни предупреждение в духе Мальтуса и ответ в духе Бозеруп на рост спроса на пищу. Почему ни численность населения, ни объявление об инновации сами по себе не определяют продовольственную безопасность?"
+    }
+  },
+  {
+    "id": "g-river-cases-1",
+    "prompt": {
+      "en": "Explain why the Niagara Gorge lies downstream of the retreating waterfall. Give four linked stages.",
+      "ru": "Почему Ниагарское ущелье лежит ниже отступающего водопада? Дай четыре связанных этапа."
+    }
+  },
+  {
+    "id": "g-river-cases-2",
+    "prompt": {
+      "en": "Use the lower Mississippi to explain both a meander’s movement and an oxbow’s origin. Which bank erodes?",
+      "ru": "На примере нижней Миссисипи объясни смещение меандра и появление старицы. Какой берег размывается?"
+    }
+  },
+  {
+    "id": "g-river-cases-3",
+    "prompt": {
+      "en": "Why can natural levees and an artificial embankment both appear beside the lower Mississippi? Explain the difference, then give one limit to flood safety.",
+      "ru": "Почему у нижней Миссисипи могут соседствовать природный вал и искусственная дамба? Различи их и укажи предел защиты."
+    }
+  },
+  {
+    "id": "g-river-processes-2",
+    "prompt": {
+      "en": "Why can fine sediment travel beyond a deposited gravel bar?",
+      "ru": "Почему мелкие наносы уходят дальше осевшей гальки?"
+    }
+  },
+  {
+    "id": "g-tourism-2",
+    "prompt": {
+      "en": "Evaluate a visitor cap: give a benefit, cost, affected groups and evidence needed.",
+      "ru": "Оцени лимит посетителей: выгода, цена, стороны и нужные доказательства."
+    }
+  },
+  {
+    "id": "g-tourism-change-causes",
+    "prompt": {
+      "en": "Invented destination visits rise from 60000 to 120000 from 2011 to 2016 in this invented series. Calculate percentage growth. Explain two possible demand changes and why this does not prove tourism will keep doubling.",
+      "ru": "В условном месте число посещений выросло с 60000 до 120000 с 2011 по 2016 год в этом условном ряду. Найди рост в процентах. Объясни два возможных изменения спроса и почему поток не обязан удваиваться дальше."
+    }
+  },
+  {
+    "id": "g-tourism-evidence-1",
+    "prompt": {
+      "en": "Classify the three cases by purpose. Explain why a place name alone cannot prove that every visit is thanatourism.",
+      "ru": "Классифицируй три кейса по цели. Почему название места не доказывает, что любая поездка туда — танатотуризм?"
+    }
+  },
+  {
+    "id": "g-tourism-evidence-2",
+    "prompt": {
+      "en": "Convert the 2025 Türkiye revenue to US dollars, then estimate revenue per reported visitor. State two limits of that quotient.",
+      "ru": "Переведи поступления Турции за 2025 год в доллары США и оцени сумму на одного учтённого посетителя. Назови два ограничения отношения."
+    }
+  },
+  {
+    "id": "g-tourism-evidence-3",
+    "prompt": {
+      "en": "Using the rounded Auschwitz figures, estimate visits involving educators. Why is the result approximate, and why does it not prove learning for every participant?",
+      "ru": "По округлённым данным Аушвиц оцени число посещений с педагогами. Почему результат приблизительный и почему он не доказывает обучение каждого участника?"
+    }
+  },
+  {
+    "id": "g-tourism-evidence-4",
+    "prompt": {
+      "en": "A student says: “The Great Baikal Trail July-2022 notice proves erosion decreased.” Correct the inference and design a check that distinguishes work completion from environmental effectiveness. Also compare one local benefit/cost of this volunteer model with medical tourism, explaining mechanisms and a condition for your judgement.",
+      "ru": "Ученик утверждает: «Объявление ББТ на июль 2022 доказывает уменьшение эрозии». Исправь вывод и предложи проверку, различающую выполнение работ и природную результативность. Сравни также одну местную выгоду и издержку такой волонтёрской модели с медицинским туризмом: объясни механизмы и условие своего вывода."
+    }
+  },
+  {
+    "id": "g-tourism-purpose-ethics",
+    "prompt": {
+      "en": "Classify mass, medical, eco-, adventure, volunteer and thanatourism using this lesson’s convention. Then explain one benefit and one cost mechanism for medical tourism and volunteer tourism, naming affected groups. Compare with one mass, eco/adventure or memorial case. Make a conditional judgement using consent, local control, time and scale; labels alone do not earn an impact explanation.",
+      "ru": "Классифицируй массовый, медицинский, экологический, приключенческий, волонтёрский туризм и танатотуризм по принятой в уроке схеме. Затем объясни по одному механизму выгоды и издержек медицинского и волонтёрского туризма, назвав затронутые группы. Сравни с массовым, экологическим/приключенческим или мемориальным примером. Сделай условный вывод с учётом согласия, местного контроля, времени и масштаба; одних названий видов недостаточно."
+    }
+  },
+  {
+    "id": "half-1",
+    "prompt": {
+      "en": "The half-life (T½) is 4 days and the initial activity is 640 Bq. Calculate the activity and the percentage of the original nuclei that remain after 12 days.",
+      "ru": "Период полураспада (half-life) T½ — 4 дня. Начальная активность — 640 Бк. Рассчитай активность и процент исходных ядер, которые останутся через 12 дней."
+    }
+  },
+  {
+    "id": "half-2",
+    "prompt": {
+      "en": "In an ideal model, the expected total count rates at 0, 5, 10 and 15 min are 210, 110, 60 and 35 counts/min. The expected background rate is constant at 10 counts/min. Determine T½ and predict the expected total count rate at 20 min. Explain why the expected total approaches 10 counts/min rather than zero.",
+      "ru": "В идеальной модели ожидаемые суммарные скорости счёта в моменты 0, 5, 10 и 15 мин равны 210, 110, 60 и 35 имп/мин. Ожидаемый фон постоянен и равен 10 имп/мин. Найди T½ и ожидаемую суммарную скорость счёта через 20 мин. Объясни, почему ожидаемая суммарная скорость счёта стремится к 10 имп/мин, а не к нулю."
+    }
+  },
+  {
+    "id": "heart",
+    "prompt": {
+      "en": "Outline the route of a red blood cell from the vena cava to the aorta. Name the heart chambers, the major blood vessels and the site of gas exchange.",
+      "ru": "Кратко опиши путь эритроцита (red blood cell) от полой вены (vena cava) до аорты. Назови камеры сердца, крупные сосуды и место газообмена (gas exchange)."
+    }
+  },
+  {
+    "id": "herd-conditions",
+    "prompt": {
+      "en": "Why can high measles immunity reduce exposure for an unvaccinated person, while neighbours’ tetanus vaccination does not give the same indirect protection? State one condition or limitation.",
+      "ru": "Почему высокий иммунитет к кори может снизить риск встречи непривитого человека с возбудителем, а прививки соседей от столбняка не дают такую же косвенную защиту? Назови условие или ограничение."
+    }
+  },
+  {
+    "id": "human-reproduction-sequence",
+    "prompt": {
+      "en": "Put gamete production, fertilisation, early cell division, implantation and fetal growth in order and locate the main events. Distinguish IVF from implantation. Give one hormone-related puberty change and explain why puberty is not a single event at an identical age for everyone.",
+      "ru": "Расположи по порядку образование гамет, оплодотворение, ранние деления, имплантацию и рост плода; укажи места основных событий. Отличи ЭКО от имплантации. Назови одно гормонально обусловленное изменение при половом созревании и объясни, почему это не одно событие в одинаковом возрасте у всех."
+    }
+  },
+  {
+    "id": "hypothesis",
+    "prompt": {
+      "en": "What would she do with more free time? Identify the two tenses in the si sentence.",
+      "ru": "Чем бы она занималась, будь у неё больше свободного времени? Назови два глагольных времени в предложении с si."
+    }
+  },
+  {
+    "id": "ice",
+    "prompt": {
+      "en": "A mass m of ice is at a temperature below 0 °C. Write an expression for the total energy needed to warm the ice to 0 °C and then melt it completely. Use c for the specific heat capacity of ice, L for the specific latent heat of fusion and ΔT for the temperature rise. Ignore losses.",
+      "ru": "Пусть масса льда равна m, а его температура ниже 0 °C. Запиши выражение для полной энергии, которая нужна, чтобы нагреть лёд до 0 °C и полностью его расплавить. Используй c — удельную теплоёмкость (specific heat capacity) льда и Δt — изменение температуры. Для плавления используй λ — удельную теплоту плавления (specific latent heat of fusion). Потерями пренебреги."
+    }
+  },
+  {
+    "id": "iceland-effects",
+    "prompt": {
+      "en": "Explain one local and one international impact of the eruption, identifying the causal chain.",
+      "ru": "Объясни одно местное и одно международное последствие извержения, показав причинную цепочку."
+    }
+  },
+  {
+    "id": "iceland-explosive",
+    "prompt": {
+      "en": "Why did this eruption produce an explosive ash hazard despite Iceland’s divergent setting?",
+      "ru": "Почему это извержение, несмотря на дивергентное положение Исландии, создало взрывную природную опасность, связанную с пеплом?"
+    }
+  },
+  {
+    "id": "iceland-management",
+    "prompt": {
+      "en": "Evaluate how monitoring helped manage the eruption and why it could not remove all impacts.",
+      "ru": "Оцени, как мониторинг помог справиться с извержением и почему он не смог устранить все последствия."
+    }
+  },
+  {
+    "id": "insulin",
+    "prompt": {
+      "en": "Outline how bacteria can be engineered to produce human insulin. Compare genome mapping with sequencing.",
+      "ru": "Кратко опиши, как бактерии можно генетически изменить, чтобы они вырабатывали человеческий инсулин. Сравни картирование генома и секвенирование."
+    }
+  },
+  {
+    "id": "iso-1",
+    "prompt": {
+      "en": "Define isotope and explain why carbon-12 and carbon-14 are the same element.",
+      "ru": "Дай определение изотопов и объясни, почему углерод-12 и углерод-14 — один элемент."
+    }
+  },
+  {
+    "id": "iso-2",
+    "prompt": {
+      "en": "Find the numbers of protons, neutrons and electrons in ²⁴₁₂Mg²⁺ and ²⁶₁₂Mg²⁺.",
+      "ru": "Найди число протонов, нейтронов и электронов в ²⁴₁₂Mg²⁺ и ²⁶₁₂Mg²⁺."
+    }
+  },
+  {
+    "id": "lift",
+    "prompt": {
+      "en": "A motor lifts a 15 kg load by 2.0 m in 4.0 s. The motor receives 500 J of energy. Take g ≈ 10 N/kg (rounded). Calculate the useful energy, the useful power and the efficiency of the motor.",
+      "ru": "Двигатель поднимает груз массой 15 кг на 2,0 м за 4,0 с и получает 500 Дж энергии. Прими g ≈ 10 Н/кг (округлённо). Вычисли полезную энергию, полезную мощность и КПД двигателя."
+    }
+  },
+  {
+    "id": "light-design",
+    "prompt": {
+      "en": "Design an Elodea (pondweed) investigation of photosynthesis using five measured light intensities. Explain why counting bubbles and changing lamp distance are imperfect proxies.",
+      "ru": "Спроектируй опыт по фотосинтезу с элодеей (водным растением) и пятью измеренными уровнями света. Объясни, почему подсчёт пузырьков и изменение расстояния до лампы — лишь приближённые показатели."
+    }
+  },
+  {
+    "id": "m-fa-10",
+    "prompt": {
+      "en": "Make x the subject: y = 3x + 5",
+      "ru": "Вырази x: y = 3x + 5"
+    }
+  },
+  {
+    "id": "m-fa-11",
+    "prompt": {
+      "en": "y is directly proportional to x. When x = 4, y = 20. Find y when x = 7.",
+      "ru": "Величина y прямо пропорциональна x. Когда x = 4, y = 20. Найди y при x = 7."
+    }
+  },
+  {
+    "id": "m-fa-12",
+    "prompt": {
+      "en": "y is inversely proportional to x. When x = 6, y = 4. Find y when x = 3.",
+      "ru": "Величина y обратно пропорциональна x. Когда x = 6, y = 4. Найди y при x = 3."
+    }
+  },
+  {
+    "id": "m-fa-13",
+    "prompt": {
+      "en": "Find the y-intercept of y = 2x² − 3x − 5.",
+      "ru": "Найди точку пересечения графика y = 2x² − 3x − 5 с осью y."
+    }
+  },
+  {
+    "id": "m-fa-4",
+    "prompt": {
+      "en": "Solve by factorisation: x² + 2x − 15 = 0",
+      "ru": "Реши разложением на множители: x² + 2x − 15 = 0"
+    }
+  },
+  {
+    "id": "m-fa-5",
+    "prompt": {
+      "en": "Solve using the quadratic formula: 2x² + 3x − 2 = 0",
+      "ru": "Реши по формуле корней квадратного уравнения: 2x² + 3x − 2 = 0"
+    }
+  },
+  {
+    "id": "m-fa-6",
+    "prompt": {
+      "en": "Complete the square: x² + 6x + 5",
+      "ru": "Выдели полный квадрат: x² + 6x + 5"
+    }
+  },
+  {
+    "id": "m-fa-7",
+    "prompt": {
+      "en": "For y = x² − 4x + 3, find the vertex and axis of symmetry.",
+      "ru": "Для y = x² − 4x + 3 найди вершину параболы и ось симметрии."
+    }
+  },
+  {
+    "id": "m-fa-8",
+    "prompt": {
+      "en": "Find the domain of f(x) = √(x − 2).",
+      "ru": "Найди область определения функции f(x) = √(x − 2)."
+    }
+  },
+  {
+    "id": "m-fa-ext-1",
+    "prompt": {
+      "en": "Simplify: (x² − 9) / (x² + 5x + 6)",
+      "ru": "Упрости: (x² − 9) / (x² + 5x + 6)"
+    }
+  },
+  {
+    "id": "m-fa-ext-3",
+    "prompt": {
+      "en": "Solve: 1/x + 1/(x + 1) = 1/2",
+      "ru": "Реши: 1/x + 1/(x + 1) = 1/2"
+    }
+  },
+  {
+    "id": "m-fa-ric-1",
+    "prompt": {
+      "en": "A water jet from a fountain follows the path y = −0.4x² + 2.4x where x and y are in metres. Find the maximum height and the horizontal distance at which it lands.",
+      "ru": "Струя воды из фонтана описывается уравнением y = −0,4x² + 2,4x, где x и y измеряются в метрах. Найди максимальную высоту струи и горизонтальное расстояние до места, где она падает на землю."
+    }
+  },
+  {
+    "id": "m-gt-1",
+    "prompt": {
+      "en": "A right triangle has legs 6 cm and 8 cm. Find the hypotenuse.",
+      "ru": "У прямоугольного треугольника катеты 6 см и 8 см. Найди гипотенузу."
+    }
+  },
+  {
+    "id": "m-gt-2",
+    "prompt": {
+      "en": "In a right triangle, the hypotenuse is 13 and one leg is 5. Find the other leg.",
+      "ru": "У прямоугольного треугольника гипотенуза 13, один катет 5. Найди другой катет."
+    }
+  },
+  {
+    "id": "m-gt-3",
+    "prompt": {
+      "en": "In a right triangle, the opposite side is 4 and the hypotenuse is 8. Find the angle θ.",
+      "ru": "В прямоугольном треугольнике противолежащий катет 4, гипотенуза 8. Найди угол θ."
+    }
+  },
+  {
+    "id": "m-gt-4",
+    "prompt": {
+      "en": "Find x: tan(40°) = x / 12. Give x correct to 1 decimal place.",
+      "ru": "Найди x: tg 40° = x / 12. Ответ дай с точностью до одного знака после запятой."
+    }
+  },
+  {
+    "id": "m-gt-5",
+    "prompt": {
+      "en": "Find the area of a sector with radius 6 cm and angle 60°. Give your answer in terms of π.",
+      "ru": "Найди площадь сектора с радиусом 6 см и углом 60°. Ответ дай через π."
+    }
+  },
+  {
+    "id": "m-gt-6",
+    "prompt": {
+      "en": "Find the arc length of a sector with radius 5 cm and angle 72°. Give your answer correct to 3 significant figures.",
+      "ru": "Найди длину дуги сектора с радиусом 5 см и углом 72°. Ответ дай с точностью до трёх значащих цифр."
+    }
+  },
+  {
+    "id": "m-gt-7",
+    "prompt": {
+      "en": "AB is a diameter of a circle; C lies on the circle and is distinct from A and B. Find ∠ACB.",
+      "ru": "AB — диаметр окружности; C лежит на окружности и не совпадает с A и B. Найди ∠ACB."
+    }
+  },
+  {
+    "id": "m-gt-8",
+    "prompt": {
+      "en": "Two chords AB and CD intersect at P inside a circle. AP = 6, PB = 4, CP = 8. Find PD.",
+      "ru": "Две хорды AB и CD пересекаются в P внутри окружности. AP = 6, PB = 4, CP = 8. Найди PD."
+    }
+  },
+  {
+    "id": "m-gt-9",
+    "prompt": {
+      "en": "A quadrilateral is inscribed in a circle. Opposite angles are 70° and x. Find x.",
+      "ru": "Четырёхугольник вписан в окружность. Противоположные углы 70° и x. Найди x."
+    }
+  },
+  {
+    "id": "m-gt-ext-1",
+    "prompt": {
+      "en": "Triangle ABC: a = 8, b = 6, angle C = 60°. Use cosine rule to find c.",
+      "ru": "Треугольник ABC: a = 8, b = 6, угол C = 60°. По теореме косинусов найди c."
+    }
+  },
+  {
+    "id": "m-gt-ext-2",
+    "prompt": {
+      "en": "Find the area of a triangle with sides 7 cm and 9 cm and included angle 50°. Give 3 significant figures.",
+      "ru": "Найди площадь треугольника со сторонами 7 см и 9 см и углом 50° между ними. Ответ дай до 3 значащих цифр."
+    }
+  },
+  {
+    "id": "m-ns-11",
+    "prompt": {
+      "en": "Simplify: (a²b³)⁴",
+      "ru": "Упрости: (a²b³)⁴"
+    }
+  },
+  {
+    "id": "m-ns-12",
+    "prompt": {
+      "en": "Solve: |2x − 3| = 7",
+      "ru": "Реши: |2x − 3| = 7"
+    }
+  },
+  {
+    "id": "m-ns-13",
+    "prompt": {
+      "en": "List which of these number sets √2 belongs to: ℕ, ℤ, ℚ, ℝ.",
+      "ru": "Перечисли, каким множествам принадлежит √2: ℕ, ℤ, ℚ, ℝ."
+    }
+  },
+  {
+    "id": "m-ns-14",
+    "prompt": {
+      "en": "Calculate: (3 × 10⁴) × (2 × 10⁻²)",
+      "ru": "Вычисли: (3 × 10⁴) × (2 × 10⁻²)"
+    }
+  },
+  {
+    "id": "m-ns-2",
+    "prompt": {
+      "en": "Simplify: √48",
+      "ru": "Упрости: √48"
+    }
+  },
+  {
+    "id": "m-ns-3",
+    "prompt": {
+      "en": "Evaluate: 32^(-1/5)",
+      "ru": "Вычисли: 32^(-1/5)"
+    }
+  },
+  {
+    "id": "m-ns-4",
+    "prompt": {
+      "en": "Express in standard form: 384 000",
+      "ru": "Запиши в стандартном виде: 384 000"
+    }
+  },
+  {
+    "id": "m-ns-6",
+    "prompt": {
+      "en": "Round 4.7639 to 2 significant figures.",
+      "ru": "Округли 4,7639 до 2 значащих цифр."
+    }
+  },
+  {
+    "id": "m-ns-7",
+    "prompt": {
+      "en": "A length is given as 42.5 cm correct to 1 decimal place. Write down the upper and lower bounds.",
+      "ru": "Длина указана как 42,5 см с точностью до одного знака после запятой. Запиши верхнюю и нижнюю границы."
+    }
+  },
+  {
+    "id": "m-ns-9",
+    "prompt": {
+      "en": "Simplify: √20 + √45",
+      "ru": "Упрости: √20 + √45"
+    }
+  },
+  {
+    "id": "m-ns-ext-1",
+    "prompt": {
+      "en": "Evaluate: 27^(2/3)",
+      "ru": "Вычисли: 27^(2/3)"
+    }
+  },
+  {
+    "id": "m-ns-ext-3",
+    "prompt": {
+      "en": "Expand and simplify: (√2 + 1)(√2 − 1)",
+      "ru": "Раскрой и упрости: (√2 + 1)(√2 − 1)"
+    }
+  },
+  {
+    "id": "m-ns-ric-2",
+    "prompt": {
+      "en": "A hypothetical population is reported as 1 400 000 000, rounded to the nearest 100 000 000 (halfway values round up). Find its bounds and the maximum rounding error as a percentage of the stated value.",
+      "ru": "Условная численность населения указана как 1 400 000 000, округлённая до ближайшей сотни миллионов (если число ровно посередине, округляй вверх). Найди границы и наибольшую погрешность округления в процентах от указанного значения."
+    }
+  },
+  {
+    "id": "m-seq-1",
+    "prompt": {
+      "en": "Find the n-th term of the arithmetic sequence: 3, 7, 11, 15, ...",
+      "ru": "Найди формулу n-го члена арифметической прогрессии: 3, 7, 11, 15, ..."
+    }
+  },
+  {
+    "id": "m-seq-2",
+    "prompt": {
+      "en": "Find the n-th term of the arithmetic sequence: 100, 95, 90, 85, ...",
+      "ru": "Найди формулу n-го члена арифметической прогрессии: 100, 95, 90, 85, ..."
+    }
+  },
+  {
+    "id": "m-seq-3",
+    "prompt": {
+      "en": "Find the n-th term of the geometric sequence: 2, 6, 18, 54, ...",
+      "ru": "Найди формулу n-го члена геометрической прогрессии: 2, 6, 18, 54, …"
+    }
+  },
+  {
+    "id": "m-seq-4",
+    "prompt": {
+      "en": "For uₙ = 2·3^(n−1), n ≥ 1, find u₈.",
+      "ru": "Дано: uₙ = 2·3^(n−1), n ≥ 1. Найди u₈."
+    }
+  },
+  {
+    "id": "m-seq-5",
+    "prompt": {
+      "en": "Pattern: each shape adds two more dots than the last. Shape 1 has 1 dot, shape 2 has 3, shape 3 has 5. Find a formula for shape n.",
+      "ru": "Закономерность: каждая следующая фигура содержит на 2 точки больше предыдущей. Фигура 1 — 1 точка, фигура 2 — 3 точки, фигура 3 — 5 точек. Найди формулу для n-й фигуры."
+    }
+  },
+  {
+    "id": "m-seq-7",
+    "prompt": {
+      "en": "The 3rd term of a geometric sequence is 12, the 5th is 48. Find u_1 and r (positive).",
+      "ru": "Третий член геометрической прогрессии — 12, пятый — 48. Найди u_1 и знаменатель r, если он положительный."
+    }
+  },
+  {
+    "id": "m-sp-2",
+    "prompt": {
+      "en": "Find the IQR of 2, 5, 7, 8, 10, 11, 14, 17, 20 using medians of the two halves and excluding the overall median.",
+      "ru": "Найди межквартильный размах (IQR) для 2, 5, 7, 8, 10, 11, 14, 17, 20: возьми медианы двух половин и исключи общую медиану."
+    }
+  },
+  {
+    "id": "m-sp-3",
+    "prompt": {
+      "en": "A dataset has quartiles Q1 = 12 and Q3 = 19. Determine which of the candidate values 5 and 35 lies beyond its 1.5·IQR fences.",
+      "ru": "Для набора данных известно: Q1 = 12, Q3 = 19. Определи, какое из значений 5 и 35 лежит за границами 1,5·IQR."
+    }
+  },
+  {
+    "id": "m-sp-4",
+    "prompt": {
+      "en": "A cumulative frequency curve shows that the 50th percentile is 24 and the 25th percentile is 18. Find the median and the lower quartile (Q1).",
+      "ru": "По графику накопленных частот 50-й перцентиль равен 24, а 25-й перцентиль — 18. Найди медиану и нижний квартиль (Q1)."
+    }
+  },
+  {
+    "id": "m-sp-7",
+    "prompt": {
+      "en": "A histogram shows class widths of 5 and frequency densities 2, 3, 1.4, 0.6. Find the total frequency.",
+      "ru": "У гистограммы ширина каждого класса равна 5, а плотности частоты — 2; 3; 1,4 и 0,6. Найди общую частоту."
+    }
+  },
+  {
+    "id": "m-sp-ext-1",
+    "prompt": {
+      "en": "Treat 4,6,8,10,12 as a complete population. Find its population standard deviation to 2 decimal places.",
+      "ru": "Считай данные 4; 6; 8; 10; 12 полной совокупностью. Найди её стандартное отклонение с делением на N, до 2 знаков после запятой."
+    }
+  },
+  {
+    "id": "m-sp-ric-1",
+    "prompt": {
+      "en": "Battery life for 50 phones has cumulative frequencies: at 10 h: 5; 15 h: 20; 20 h: 40; 25 h: 48; 30 h: 50. Use straight-line interpolation to estimate median and IQR.",
+      "ru": "Для 50 телефонов известны накопленные частоты времени работы от батареи. При 10 ч накопленная частота равна 5, при 15 ч — 20, при 20 ч — 40, при 25 ч — 48, при 30 ч — 50. Линейной интерполяцией оцени медиану и межквартильный размах (IQR)."
+    }
+  },
+  {
+    "id": "magnification",
+    "prompt": {
+      "en": "A microscope image shows a cell 36 mm long. The cell’s actual length is 60 μm. Calculate the magnification and explain why a higher magnification does not always reveal more detail.",
+      "ru": "На снимке с микроскопа клетка имеет длину 36 мм, а её реальная длина — 60 мкм. Найди увеличение и объясни, почему большее увеличение не всегда показывает больше деталей."
+    }
+  },
+  {
+    "id": "membrane-mechanism-comparison",
+    "prompt": {
+      "en": "Compare three observations: oxygen enters a cell down its concentration gradient; water enters a plant cell across its selectively permeable membrane; a transport protein moves an uncharged solute against its concentration gradient using metabolic energy. Name and explain the three mechanisms. What happens to a plant cell losing enough water?",
+      "ru": "Сравни три случая: кислород поступает в клетку по градиенту концентрации; вода входит в растительную клетку через избирательно проницаемую мембрану; транспортный белок переносит незаряженное вещество против градиента концентрации с затратой энергии обмена. Назови и объясни механизмы. Что произойдёт при достаточно большой потере воды растительной клеткой?"
+    }
+  },
+  {
+    "id": "moment",
+    "prompt": {
+      "en": "A 30 N force acts at right angles to a lever, 0.20 m from the pivot. Calculate its moment. Calculate the force, at right angles 0.15 m from the pivot on the other side, that balances this moment.",
+      "ru": "Сила 30 Н действует перпендикулярно рычагу на расстоянии 0,20 м от оси вращения. Вычисли момент этой силы. Затем вычисли силу, которая действует перпендикулярно рычагу на расстоянии 0,15 м от оси с другой стороны и уравновешивает этот момент."
+    }
+  },
+  {
+    "id": "momentum",
+    "prompt": {
+      "en": "A 0.40 kg trolley moves at 3.0 m/s and hits a stationary 0.80 kg trolley. The trolleys stick together. Assume external forces are negligible. Calculate their common velocity. State which quantity is not conserved and explain why.",
+      "ru": "Тележка массой 0,40 кг движется со скоростью 3,0 м/с и сталкивается с неподвижной тележкой массой 0,80 кг. После удара тележки сцепляются. Внешние силы пренебрежимо малы. Вычисли общую скорость тележек после удара. Укажи, какая величина не сохраняется, и объясни почему."
+    }
+  },
+  {
+    "id": "near",
+    "prompt": {
+      "en": "A student shifts focus from a distant wall to a nearby book. Describe accommodation and distinguish it from pupil constriction.",
+      "ru": "Ученик переводит взгляд со стены на близкую книгу. Опиши аккомодацию и отличи её от сужения зрачка."
+    }
+  },
+  {
+    "id": "nepal-causes",
+    "prompt": {
+      "en": "Explain how continental collision caused the 2015 Nepal earthquake.",
+      "ru": "Объясни, как континентальная коллизия (continental collision) вызвала землетрясение в Непале 2015 года."
+    }
+  },
+  {
+    "id": "nepal-chile",
+    "prompt": {
+      "en": "Explain why earthquake magnitude alone cannot account for the different death tolls in Nepal and Chile.",
+      "ru": "Объясни, почему одна только магнитуда землетрясения не объясняет различий в числе погибших в Непале и Чили."
+    }
+  },
+  {
+    "id": "nepal-secondary",
+    "prompt": {
+      "en": "Explain two ways secondary hazards made relief harder in Nepal.",
+      "ru": "Объясни два способа, которыми вторичные природные опасности осложняли помощь в Непале."
+    }
+  },
+  {
+    "id": "neuron-structure-and-reflex-model",
+    "prompt": {
+      "en": "Draw a schematic multipolar neurone and label dendrites, cell body, nucleus, axon, myelin and nodes of Ranvier. Explain the difference between conduction along the axon and transmission at a chemical synapse. Then outline a simple spinal withdrawal-reflex pathway and one limitation of your diagram.",
+      "ru": "Нарисуй схему мультиполярного нейрона и подпиши дендриты, тело клетки, ядро, аксон, миелин и перехваты Ранвье. Чем проведение вдоль аксона отличается от передачи в химическом синапсе? Затем опиши простую модель спинального рефлекса отдёргивания и одно ограничение своей схемы."
+    }
+  },
+  {
+    "id": "next",
+    "prompt": {
+      "en": "What will they do tomorrow?",
+      "ru": "Что они сделают завтра?"
+    }
+  },
+  {
+    "id": "numbers",
+    "prompt": {
+      "en": "How many came by car, bus and on foot? What percentage walked?",
+      "ru": "Сколько приезжали на машине, автобусе и приходили пешком? Какой процент шёл пешком?"
+    }
+  },
+  {
+    "id": "osmosis",
+    "prompt": {
+      "en": "Potato cylinders gain 8% of their mass after immersion in a sucrose solution. Assume consistent blotting and negligible loss of solute or tissue. Explain the result using osmosis. Suggest one variable to keep the same.",
+      "ru": "После выдерживания в растворе сахарозы масса картофельных цилиндров выросла на 8 %. Считай, что поверхность одинаково обсушена, а потеря растворённых веществ и ткани пренебрежимо мала. Объясни результат через осмос и назови контролируемую переменную."
+    }
+  },
+  {
+    "id": "parallel",
+    "prompt": {
+      "en": "Two resistors, 6 Ω and 3 Ω, are in parallel across 12 V. Find each current, total current and equivalent resistance.",
+      "ru": "Резисторы 6 Ом и 3 Ом соединены параллельно и подключены к источнику напряжением 12 В. Найди ток в каждой ветви, общий ток и эквивалентное сопротивление."
+    }
+  },
+  {
+    "id": "phy-A",
+    "prompt": {
+      "en": "(a) A 2.0 kg trolley accelerates uniformly from rest to 6.0 m/s in 3.0 s. Calculate its acceleration, resultant force and final kinetic energy [6].\n\n(b) A heater has a potential difference of 12 V and a current of 2.0 A for 60 s. Calculate its resistance, power and transferred energy [6].\n\n(c) A 0.10 kg sample of liquid water absorbs 8400 J without changing state. Its specific heat capacity is 4200 J/(kg·K). Calculate the temperature rise [3]. Explain this rise using the particle model [2].\n\n(d) A wave has frequency 50 Hz and wavelength 0.80 m. Calculate its speed [2]. Describe the direction of oscillation in transverse and longitudinal waves relative to propagation [2].\n\n(e) The background-corrected count rate of one radioactive isotope falls from 640 counts/min to 80 counts/min in 15 min. Calculate its half-life [3]. State what makes two atoms isotopes of the same element [1].",
+      "ru": "(a) Тележка массой 2,0 кг равноускоренно разгоняется из состояния покоя до 6,0 м/с за 3,0 с. Вычисли ускорение (acceleration), равнодействующую силу (resultant force) и конечную кинетическую энергию (kinetic energy) [6].\n\n(b) При напряжении (potential difference) 12 В через нагреватель 60 с идёт ток 2,0 А. Вычисли сопротивление (resistance), мощность (power) и переданную энергию [6].\n\n(c) Вода массой 0,10 кг получает 8400 Дж без изменения агрегатного состояния. Её удельная теплоёмкость (specific heat capacity) равна 4200 Дж/(кг·К). Вычисли повышение температуры [3]. Объясни это повышение с помощью модели частиц (particle model) [2].\n\n(d) Частота (frequency) волны равна 50 Гц, длина волны (wavelength) — 0,80 м. Вычисли скорость распространения [2]. Опиши направление колебаний относительно распространения у поперечной (transverse) и продольной (longitudinal) волны [2].\n\n(e) Скорость счёта одного радиоактивного изотопа после вычитания фона падает с 640 имп/мин до 80 имп/мин за 15 мин. Вычисли период полураспада (half-life) [3]. Укажи, чем отличаются изотопы (isotopes) одного элемента [1]."
+    }
+  },
+  {
+    "id": "phy-B",
+    "prompt": {
+      "en": "Design an investigation into how the extension of a spring depends on the applied force. The spring is rated for loads up to 2.0 N; do not exceed this limit.\n\n(a) Formulate a precise research question [3].\n\n(b) Predict the relationship, explain it with a formula and state its limit [5].\n\n(c) Identify the independent and dependent variables and three controls [5].\n\n(d) Describe a reproducible method using at least five loads, repeats and a graph to determine spring constant [8].\n\n(e) Identify two specific risks or measurement problems and explain how to reduce each [4].",
+      "ru": "Спланируй опыт: как удлинение (extension) пружины зависит от приложенной силы. Допустимая нагрузка пружины — до 2,0 Н; не превышай её.\n\n(a) Сформулируй точный исследовательский вопрос [3].\n\n(b) Предскажи зависимость, объясни её формулой и укажи границу применимости [5].\n\n(c) Назови независимую (independent) и зависимую (dependent) переменные и три контролируемые величины или условия [5].\n\n(d) Опиши воспроизводимый опыт как минимум с пятью нагрузками, повторами и графиком для определения жёсткости пружины (spring constant) [8].\n\n(e) Назови две конкретные опасности или причины ошибок измерения и объясни, как уменьшить каждую [4]."
+    }
+  },
+  {
+    "id": "phy-C",
+    "prompt": {
+      "en": "A different spring is tested. Applied forces F (N): 0, 1, 2, 3, 4. Corresponding extensions x (m): 0.000, 0.020, 0.040, 0.061, 0.100. The uncertainty in each extension is ±0.002 m. Treat force uncertainty as negligible.\n\n(a) Plot F against x on paper and calculate the spring constant from the first three points [6].\n\n(b) Analyse where the proportional model fits. Compare the 3 N and 4 N results with predictions, using the stated uncertainty [6].\n\n(c) Evaluate the claim: “The 4 N result proves the spring is permanently deformed” [5].\n\n(d) Suggest two improvements and explain their effects. State a conclusion with a supported range and limitations [8].",
+      "ru": "Испытывают другую пружину. Силы F (Н): 0; 1; 2; 3; 4. Соответствующие удлинения x (м): 0,000; 0,020; 0,040; 0,061; 0,100. Погрешность (uncertainty) каждого удлинения ±0,002 м. Погрешностью силы пренебреги.\n\n(a) На бумаге построй график F от x и вычисли жёсткость пружины (spring constant) по первым трём точкам [6].\n\n(b) Проанализируй, где данные согласуются с пропорциональной зависимостью. Сравни результаты при 3 Н и 4 Н с прогнозом, учитывая указанную погрешность [6].\n\n(c) Оцени утверждение: «Результат при 4 Н доказывает, что пружина получила остаточную деформацию (permanent deformation)» [5].\n\n(d) Предложи два улучшения опыта и объясни их действие. Сделай вывод с обоснованным диапазоном применимости и ограничениями [8]."
+    }
+  },
+  {
+    "id": "phy-D",
+    "prompt": {
+      "en": "A community centre compares rooftop photovoltaic panels with a solar thermal water heater. Photovoltaic installation costs £18 000. Expected annual electricity generation is 10 000 kWh; each kWh used on site saves £0.20.\n\n(a) Explain how photovoltaic panels supply electricity and how a solar thermal heater differs. Explain why sunlight is a renewable energy resource [7].\n\n(b) Calculate the annual saving and simple payback time, assuming all generated electricity is used on site. Evaluate three assumptions behind using this payback estimate [8].\n\n(c) Discuss two environmental benefits and two limitations of the photovoltaic option, explaining each. Justify a recommendation with a condition that should be checked [10].",
+      "ru": "Общественный центр сравнивает фотоэлектрические панели (photovoltaic panels) на крыше с солнечным водонагревателем (solar thermal water heater). Установка панелей стоит 18 000 фунтов. Ожидаемая выработка — 10 000 кВт·ч в год; каждый кВт·ч, использованный в здании, экономит 0,20 фунта.\n\n(a) Объясни, как фотоэлектрические панели дают электричество и чем отличается солнечный водонагреватель. Объясни, почему солнечный свет относят к возобновляемым ресурсам (renewable resources) [7].\n\n(b) Вычисли годовую экономию и простой срок окупаемости (simple payback time), считая, что вся выработанная энергия используется в здании. Оцени три допущения, от которых зависит эта оценка окупаемости [8].\n\n(c) Рассмотри два экологических преимущества и два ограничения панелей, объясняя каждое. Обоснуй рекомендацию и укажи условие, которое нужно проверить [10]."
+    }
+  },
+  {
+    "id": "placenta",
+    "prompt": {
+      "en": "Explain placenta function and distinguish a ligament from a tendon.",
+      "ru": "Объясни функцию плаценты и отличи связку от сухожилия."
+    }
+  },
+  {
+    "id": "plant-nutrition-comparison",
+    "prompt": {
+      "en": "A student says fertiliser is a plant’s food and supplies all the carbon needed for new leaves. Explain the error. State a role of nitrogen and of magnesium. Design a controlled mineral-deficiency comparison and explain why a yellow leaf alone cannot identify its cause.",
+      "ru": "Ученик утверждает, что удобрение — пища растения и даёт весь углерод для новых листьев. Объясни ошибку. Назови роль азота и магния. Предложи контролируемое сравнение при недостатке минерального элемента и объясни, почему одного пожелтевшего листа мало для определения причины."
+    }
+  },
+  {
+    "id": "population-conservation-evidence",
+    "prompt": {
+      "en": "An invented population rises from 80 million to 100 million in 10 years. Calculate the total percentage increase and mean annual numerical increase. Explain why these do not establish a constant annual percentage rate. Give one mechanism linking land conversion to biodiversity loss and an evidence-based conservation response.",
+      "ru": "Условная популяция выросла с 80 до 100 млн за 10 лет. Найди общий прирост в процентах и средний годовой прирост числа особей. Почему эти ответы ещё не устанавливают постоянный годовой процент роста? Объясни один механизм потери биоразнообразия при изменении землепользования и предложи меру охраны с проверкой результата."
+    }
+  },
+  {
+    "id": "potometer",
+    "prompt": {
+      "en": "A bubble moves 24 mm in 4 min through a tube of radius 0.5 mm. Calculate the volume rate of water uptake. Give one reason why this is not an exact transpiration rate.",
+      "ru": "Пузырёк прошёл 24 мм за 4 мин в трубке радиусом 0,5 мм. Вычисли объёмную скорость поглощения воды. Назови одну причину, по которой это не точная скорость транспирации."
+    }
+  },
+  {
+    "id": "ppp-1",
+    "prompt": {
+      "en": "Explain why an earthquake early warning is different from earthquake prediction.",
+      "ru": "Объясни, чем раннее предупреждение о землетрясении отличается от прогноза."
+    }
+  },
+  {
+    "id": "ppp-2",
+    "prompt": {
+      "en": "Suggest one measure for each P in a volcanic region and explain a limitation of the combined plan.",
+      "ru": "Предложи по одной мере для каждого из трёх P в вулканическом районе и объясни ограничение плана в целом."
+    }
+  },
+  {
+    "id": "ppp-3",
+    "prompt": {
+      "en": "Evaluate the claim that wealth alone determines the impact of a tectonic hazard. Use Chile and Nepal.",
+      "ru": "Оцени утверждение, что только богатство определяет последствия тектонической опасности. Используй примеры Чили и Непала."
+    }
+  },
+  {
+    "id": "proposal",
+    "prompt": {
+      "en": "What is proposed, what objection is raised and what change is suggested?",
+      "ru": "Что предложили, какое возражение возникло и что предлагают изменить в маршруте?"
+    }
+  },
+  {
+    "id": "pyramid",
+    "prompt": {
+      "en": "A regular square pyramid has base side 10 cm and perpendicular height 12 cm. Find its face slant height, total surface area and volume.",
+      "ru": "У правильной четырёхугольной пирамиды сторона основания 10 см, высота 12 см. Найди апофему, полную площадь поверхности и объём."
+    }
+  },
+  {
+    "id": "rad-1",
+    "prompt": {
+      "en": "For alpha, beta-minus and gamma radiation, state the charge and the physical nature (particle or wave).",
+      "ru": "Для альфа-, бета-минус- и гамма-излучения укажи заряд и физическую природу (частица или волна)."
+    }
+  },
+  {
+    "id": "rad-2",
+    "prompt": {
+      "en": "With the source in place, the detector records 780 counts in 60 s. With the source removed, the background gives 90 counts in 30 s. Calculate the net count rate of the source.",
+      "ru": "С источником детектор регистрирует 780 импульсов за 60 с. Без источника фон даёт 90 импульсов за 30 с. Рассчитай скорость счёта источника без фона."
+    }
+  },
+  {
+    "id": "rad-3",
+    "prompt": {
+      "en": "Each absorber is tested on its own. The background-corrected count rate is 400 counts/min with no absorber, 390 counts/min with paper, 380 counts/min with thin aluminium and 95 counts/min with thick lead. Identify the radiation that fits these results best. Explain your answer.",
+      "ru": "Каждый поглотитель проверяют отдельно. Скорость счёта без фона: 400 имп/мин без поглотителя, 390 имп/мин с бумагой, 380 имп/мин с тонким алюминием и 95 имп/мин с толстым свинцом. Определи излучение, которое лучше всего соответствует результатам. Объясни ответ."
+    }
+  },
+  {
+    "id": "rad-4",
+    "prompt": {
+      "en": "A source is labelled 2000 Bq. The detector gives a net count rate of 100 counts/s for this source. A student claims that this disproves the label. Evaluate the claim.",
+      "ru": "Источник помечен как 2000 Бк. Детектор даёт скорость счёта без фона 100 имп/с для этого источника. Ученик считает, что это опровергает маркировку. Оцени это утверждение."
+    }
+  },
+  {
+    "id": "reproduction",
+    "prompt": {
+      "en": "Distinguish pollination, fertilisation and seed dispersal. Why does a germinating seed need oxygen before leaves are active?",
+      "ru": "Объясни, чем отличаются опыление, оплодотворение и распространение семян. Зачем прорастающему семени нужен кислород, пока листья ещё не работают?"
+    }
+  },
+  {
+    "id": "resistance",
+    "prompt": {
+      "en": "Explain how using an antibiotic can increase the proportion of resistant bacteria. Explain how vaccination protects against disease differently from antibiotic treatment.",
+      "ru": "Объясни, как применение антибиотика может увеличить долю устойчивых бактерий. Объясни, чем вакцинация защищает от болезни иначе, чем лечение антибиотиками."
+    }
+  },
+  {
+    "id": "root-to-leaf-tradeoff",
+    "prompt": {
+      "en": "Trace water, mineral ions and sucrose through a flowering plant. Explain why closing stomata during water shortage can reduce water loss but also constrain photosynthesis. Do not describe xylem and phloem as identical pipes.",
+      "ru": "Проследи пути воды, минеральных ионов и сахарозы в цветковом растении. Почему закрывание устьиц при недостатке воды уменьшает её потерю, но может ограничивать фотосинтез? Объясни различие ксилемы и флоэмы."
+    }
+  },
+  {
+    "id": "rule",
+    "prompt": {
+      "en": "Where and when does she now leave her phone?",
+      "ru": "Где и когда она теперь оставляет телефон?"
+    }
+  },
+  {
+    "id": "scatter",
+    "prompt": {
+      "en": "Plot (1,2), (2,3), (3,5), (4,4). Describe the direction and whether the relation is perfect. Calculate the mean point. For the fitted line y = 0.8x + 1.5, predict y at x = 2.5 and at x = 10. Explain why the latter and a causal conclusion need caution.",
+      "ru": "Построй точки (1;2), (2;3), (3;5), (4;4). Опиши направление связи и скажи, является ли она точной. Найди среднюю точку. По прямой y = 0,8x + 1,5 вычисли прогнозы при x = 2,5 и x = 10. Почему второй прогноз и вывод о причинности требуют осторожности?"
+    }
+  },
+  {
+    "id": "selection",
+    "prompt": {
+      "en": "Compare natural selection with selective breeding. Why might breeding for one feature increase a disadvantage?",
+      "ru": "Сравни естественный отбор с искусственным. Почему отбор по одному признаку может усилить недостаток?"
+    }
+  },
+  {
+    "id": "sequence",
+    "prompt": {
+      "en": "What had the class done before beginning the project?",
+      "ru": "Что класс сделал до начала проекта?"
+    }
+  },
+  {
+    "id": "shoot-auxin-model",
+    "prompt": {
+      "en": "A young shoot is lit from the left. Use the simplified auxin model to predict the side that elongates more and the direction of bending. Distinguish this growth response from a nerve–muscle reflex, and explain why the same auxin rule cannot simply be copied to a root.",
+      "ru": "Молодой побег освещён слева. По упрощённой ауксиновой модели определи, какая сторона сильнее удлиняется и куда изгибается побег. Отличи этот ростовой ответ от нервно-мышечного рефлекса. Почему правило нельзя без изменений перенести на корень?"
+    }
+  },
+  {
+    "id": "similarity",
+    "prompt": {
+      "en": "In the same configuration, AB = 15 cm, AD = 9 cm and AC = 20 cm. Give two angle reasons and the ordered similarity, then calculate AE and EC.",
+      "ru": "В той же конфигурации AB = 15 см, AD = 9 см, AC = 20 см. Обоснуй равенство двух пар углов, запиши подобие в нужном порядке, затем найди AE и EC."
+    }
+  },
+  {
+    "id": "skeleton-joint-muscle-model",
+    "prompt": {
+      "en": "Explain support and protection by the skeleton, movement at a synovial joint, and the different roles of ligaments and tendons. In a simple elbow-flexion model, explain how an antagonistic muscle pair changes the angle without muscles pushing bones.",
+      "ru": "Объясни опорную и защитную функции скелета, движение в синовиальном суставе и различие связок и сухожилий. Как в простой модели сгибания локтя пара мышц-антагонистов меняет угол, если мышцы не толкают кости?"
+    }
+  },
+  {
+    "id": "sphere",
+    "prompt": {
+      "en": "A sphere has radius 6 cm. Find its surface area and the volume of the ball inside it.",
+      "ru": "Радиус сферы 6 см. Найди её площадь и объём шара, который она ограничивает."
+    }
+  },
+  {
+    "id": "sss",
+    "prompt": {
+      "en": "For distinct triangles PQR and PSR, PQ = PS = 7 cm, QR = SR = 5 cm, and PR is shared. Give the ordered congruence and prove ∠QPR = ∠SPR.",
+      "ru": "Даны два различных треугольника PQR и PSR: PQ = PS = 7 см, QR = SR = 5 см, PR — общая сторона. Запиши равенство с правильным порядком вершин и докажи ∠QPR = ∠SPR."
+    }
+  },
+  {
+    "id": "states-thermal",
+    "prompt": {
+      "en": "Why can ice keep melting while a thermometer stays near 0 °C at normal pressure?",
+      "ru": "Почему лёд продолжает таять, хотя термометр остаётся около 0 °C при нормальном давлении?"
+    }
+  },
+  {
+    "id": "subduction-q1",
+    "prompt": {
+      "en": "Explain why a trench and volcanoes can occur at the same plate boundary but in different places.",
+      "ru": "Объясни, почему желоб и вулканы связаны с одной границей плит, но расположены в разных местах."
+    }
+  },
+  {
+    "id": "subduction-q2",
+    "prompt": {
+      "en": "Compare ocean–continent and ocean–ocean convergence using named examples.",
+      "ru": "Сравни сближение океанической и континентальной плит со сближением двух океанических плит, используя примеры."
+    }
+  },
+  {
+    "id": "subduction-q3",
+    "prompt": {
+      "en": "Explain how a subduction earthquake may cause coastal flooding, and why this does not happen after every earthquake.",
+      "ru": "Объясни, как землетрясение в зоне субдукции может вызвать затопление побережья и почему это происходит не после каждого землетрясения."
+    }
+  },
+  {
+    "id": "sugar-test",
+    "prompt": {
+      "en": "Suggest how you could compare the reducing-sugar content of five drinks using a calibrated method. Explain why an ordinary Benedict’s colour test does not measure all dietary sugar.",
+      "ru": "Предложи, как сравнить содержание восстанавливающих сахаров в пяти напитках с помощью калиброванного метода. Объясни, почему обычная цветная проба Бенедикта не измеряет весь пищевой сахар."
+    }
+  },
+  {
+    "id": "tree",
+    "prompt": {
+      "en": "Construct a fresh tree for 2 red and 3 blue counters, drawing twice without replacement. List all four ordered colour outcomes and their probabilities, then find P(one of each).",
+      "ru": "Построй новое дерево для 2 красных и 3 синих фишек: две фишки выбирают без возвращения. Перечисли четыре упорядоченных цветовых исхода, найди их вероятности и вероятность получить по одной каждого цвета."
+    }
+  },
+  {
+    "id": "trial-evidence",
+    "prompt": {
+      "en": "An invented trial records the same predefined recovery outcome in 60 of 100 participants receiving a candidate and 45 of 100 receiving a comparator. Calculate both recovery percentages and their difference in percentage points. Explain why these figures alone do not prove that the candidate caused the difference or is harmless. Name two design details you would need.",
+      "ru": "В учебном испытании одинаково определённый исход «выздоровление» зарегистрирован у 60 из 100 участников с новым препаратом и у 45 из 100 с препаратом сравнения. Найди обе доли в процентах и разность в процентных пунктах. Почему одних этих чисел недостаточно для вывода, что различие вызвал новый препарат и что он безвреден? Назови две необходимые детали плана исследования."
+    }
+  },
+  {
+    "id": "two-way",
+    "prompt": {
+      "en": "For the new table, find P(bus), P(girl and bus) and P(girl | bus). Name each denominator before calculating.",
+      "ru": "По новой таблице найди P(автобус), P(девочка и автобус) и P(девочка | автобус). Перед каждым расчётом назови знаменатель."
+    }
+  },
+  {
+    "id": "units",
+    "prompt": {
+      "en": "Convert 3.2 m² to cm², 0.006 m³ to cm³ and 90 km/h to m/s. A sample has mass 156 g and volume 60 cm³: calculate its density in g/cm³ and kg/m³.",
+      "ru": "Переведи 3,2 м² в см², 0,006 м³ в см³, 90 км/ч в м/с. Масса образца — 156 г, объём — 60 см³. Найди плотность в г/см³ и кг/м³."
+    }
+  },
+  {
+    "id": "use",
+    "prompt": {
+      "en": "Name two uses of Léa’s phone.",
+      "ru": "Назови два способа использования телефона."
+    }
+  },
+  {
+    "id": "use-1",
+    "prompt": {
+      "en": "Explain why gamma emission can be suitable for a tracer detected outside the body.",
+      "ru": "Объясни, почему гамма-излучение может подходить индикатору, обнаруживаемому снаружи тела."
+    }
+  },
+  {
+    "id": "use-2",
+    "prompt": {
+      "en": "A paper gauge uses beta radiation. The corrected count (after background subtraction) rises above the target value. Explain the likely thickness change and why alpha is a poor replacement.",
+      "ru": "Датчик толщины бумаги использует бета-излучение. Скорректированный счёт (за вычетом фона) стал выше заданного значения. Объясни вероятное изменение толщины и почему альфа — плохая замена."
+    }
+  },
+  {
+    "id": "variation-fossils-extinction",
+    "prompt": {
+      "en": "In an invented island population, beak size varies and some of that variation is heritable. A drought changes the available seeds. Explain possible natural selection without saying birds change because they need to. What could a sequence of differently aged fossils show, and why does finding no recent local fossil not prove global extinction?",
+      "ru": "В условной островной популяции различается размер клюва, и часть различий наследуется. Засуха меняет доступные семена. Объясни возможный естественный отбор без фразы «птицы изменились, потому что им стало нужно». Что может показать ряд ископаемых разного возраста и почему отсутствие недавней местной находки ещё не доказывает глобальное вымирание?"
+    }
+  },
+  {
+    "id": "ventilation-and-exchange",
+    "prompt": {
+      "en": "Explain normal quiet inhalation from muscle contraction to air entering the lungs. Then explain why oxygen moves from an alveolus into the blood. How can damage to alveolar walls or airway cilia impair the system?",
+      "ru": "Объясни спокойный вдох: от сокращения мышц до поступления воздуха в лёгкие. Почему затем кислород переходит из альвеолы в кровь? Как повреждение альвеолярных стенок или ресничек дыхательных путей мешает работе системы?"
+    }
+  },
+  {
+    "id": "volcano-structure-q1",
+    "prompt": {
+      "en": "Draw an annotated composite-volcano cross-section with at least eight features and explain the path from storage to eruption.",
+      "ru": "Нарисуй подписанный разрез стратовулкана, на котором отмечено не меньше восьми элементов. Объясни путь магмы от хранения до извержения."
+    }
+  },
+  {
+    "id": "volcano-structure-q2",
+    "prompt": {
+      "en": "Explain the difference between a dyke, a sill and a fissure, including how they may be connected.",
+      "ru": "Объясни различия между дайкой, силлом и эруптивной трещиной, включая возможные связи между ними."
+    }
+  },
+  {
+    "id": "volcano-structure-q3",
+    "prompt": {
+      "en": "Correct this statement: “A volcano is a hollow cone above one liquid chamber, and its crater always becomes a caldera after an eruption.”",
+      "ru": "Исправь утверждение: «Вулкан — полый конус над одной жидкой камерой, и после извержения его кратер всегда становится кальдерой»."
+    }
+  },
+  {
+    "id": "volcano-types-q1",
+    "prompt": {
+      "en": "Compare shield and composite volcanoes, explaining how lava properties influence their shapes.",
+      "ru": "Сравни щитовые вулканы и стратовулканы, объясняя влияние свойств лавы на форму."
+    }
+  },
+  {
+    "id": "volcano-types-q2",
+    "prompt": {
+      "en": "Explain why a fissure eruption and a caldera can both belong to a shield-volcano system.",
+      "ru": "Объясни, почему трещинное извержение и кальдера могут одновременно относиться к системе щитового вулкана."
+    }
+  },
+  {
+    "id": "volcano-types-q3",
+    "prompt": {
+      "en": "Assess the claim: “Knowing a volcano’s shape is enough to predict how dangerous its next eruption will be.”",
+      "ru": "Оцени утверждение: «Достаточно знать форму вулкана, чтобы предсказать опасность следующего извержения»."
+    }
+  },
+  {
+    "id": "warming-pollution-distinction",
+    "prompt": {
+      "en": "Distinguish nutrient pollution causing eutrophication from greenhouse-gas emissions contributing to warming. Explain one route by which warming could change a food web, and name evidence needed before attributing a local species decline to warming.",
+      "ru": "Отличи загрязнение питательными веществами, вызывающее эвтрофикацию, от выбросов парниковых газов, способствующих потеплению. Как потепление может изменить пищевую сеть и какие данные нужны, прежде чем объяснять им местное сокращение вида?"
+    }
+  },
+  {
+    "id": "wave",
+    "prompt": {
+      "en": "A wave has a frequency of 40 Hz and a wavelength of 3.5 m. Calculate the wave speed. Explain what changes when light enters glass from air.",
+      "ru": "Частота волны — 40 Гц, длина волны — 3,5 м. Вычисли скорость волны. Объясни, что меняется, когда свет переходит из воздуха в стекло."
+    }
+  },
+  {
+    "id": "wo-1",
+    "prompt": {
+      "en": "State the wave equation linking speed, frequency and wavelength.",
+      "ru": "Запиши уравнение волны, связывающее скорость, частоту и длину волны."
+    }
+  },
+  {
+    "id": "wo-10",
+    "prompt": {
+      "en": "Light travels from air (n₁ = 1.00) into glass (n₂ = 1.52). The angle of incidence is 40°. Calculate the angle of refraction using Snell's law.",
+      "ru": "Свет идёт из воздуха (n₁ = 1,00) в стекло (n₂ = 1,52). Угол падения α = 40°. Вычисли угол преломления β по закону Снеллиуса."
+    }
+  },
+  {
+    "id": "wo-11",
+    "prompt": {
+      "en": "A radio station broadcasts at a frequency of 100 MHz. Calculate the wavelength of its signal. (Take c = 3 × 10⁸ m/s.)",
+      "ru": "Радиостанция вещает на частоте 100 МГц. Вычисли длину волны её сигнала. (c = 3 × 10⁸ м/с.)"
+    }
+  },
+  {
+    "id": "wo-12",
+    "prompt": {
+      "en": "Apply your knowledge of colour and filters to explain what is seen when red light shines on a blue object.",
+      "ru": "Применяя знания о цвете и фильтрах, объясни, что мы увидим, если на синий объект посветить красным светом."
+    }
+  },
+  {
+    "id": "wo-13",
+    "prompt": {
+      "en": "Describe how an image is formed by a plane mirror, including the properties of the image.",
+      "ru": "Опиши, как формируется изображение в плоском зеркале, включая свойства изображения."
+    }
+  },
+  {
+    "id": "wo-14",
+    "prompt": {
+      "en": "Bats use ultrasound for echolocation. Evaluate the advantages and disadvantages of using ultrasound over visible light for this purpose.",
+      "ru": "Летучие мыши используют ультразвук для эхолокации. Оцени плюсы и минусы использования ультразвука вместо видимого света для этой цели."
+    }
+  },
+  {
+    "id": "wo-2",
+    "prompt": {
+      "en": "Describe the difference between a transverse wave and a longitudinal wave, giving an example of each.",
+      "ru": "Опиши различие между поперечной и продольной волной и приведи пример каждой."
+    }
+  },
+  {
+    "id": "wo-3",
+    "prompt": {
+      "en": "Explain why a straw appears bent when it is placed in a glass of water.",
+      "ru": "Объясни, почему соломинка кажется сломанной, когда её поставить в стакан с водой."
+    }
+  },
+  {
+    "id": "wo-4",
+    "prompt": {
+      "en": "Compare and contrast sound waves and light waves.",
+      "ru": "Укажи сходства и различия: звуковые и световые волны."
+    }
+  },
+  {
+    "id": "wo-5",
+    "prompt": {
+      "en": "A wave has a frequency of 50 Hz and a wavelength of 2 m. Calculate its speed.",
+      "ru": "Волна имеет частоту 50 Гц и длину 2 м. Вычисли её скорость."
+    }
+  },
+  {
+    "id": "wo-6",
+    "prompt": {
+      "en": "A wave has a period of 0.02 s. Calculate its frequency.",
+      "ru": "Период волны — 0,02 с. Вычисли её частоту."
+    }
+  },
+  {
+    "id": "wo-7",
+    "prompt": {
+      "en": "Explain why you can hear someone talking around a corner even though you cannot see them.",
+      "ru": "Объясни, почему слышно человека за углом, хотя его не видно."
+    }
+  },
+  {
+    "id": "wo-8",
+    "prompt": {
+      "en": "Evaluate the use of X-rays in medical imaging.",
+      "ru": "Оцени использование рентгеновских лучей в медицинской визуализации."
+    }
+  },
+  {
+    "id": "wo-9",
+    "prompt": {
+      "en": "State the order of the main regions of the electromagnetic spectrum, starting from longest wavelength.",
+      "ru": "Назови основные области электромагнитного спектра по порядку, начиная с самой длинной длины волны."
+    }
+  }
+]

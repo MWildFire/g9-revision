@@ -44,12 +44,11 @@ export function simplifySurd(n: number): { coef: number; radicand: number } {
  * Convert a number to standard form a × 10^n where 1 ≤ |a| < 10.
  */
 export function toStandardForm(n: number): { a: number; exponent: number } {
-  if (n === 0) return { a: 0, exponent: 0 };
-  const sign = n < 0 ? -1 : 1;
-  const abs = Math.abs(n);
-  const exponent = Math.floor(Math.log10(abs));
-  const a = (abs / Math.pow(10, exponent)) * sign;
-  return { a: Number(a.toPrecision(10)), exponent };
+  if (!Number.isFinite(n) || n === 0) return { a: 0, exponent: 0 };
+  // Exponential formatting normalises after rounding and supports subnormals,
+  // without dividing by 10^-324 (which underflows to zero).
+  const [coefficient, exponent] = n.toExponential(9).split('e');
+  return { a: Number(coefficient), exponent: Number(exponent) };
 }
 
 /**
@@ -120,12 +119,42 @@ function percentile(sorted: number[], p: number): number {
   return sorted[lo] + (sorted[hi] - sorted[lo]) * (rank - lo);
 }
 
+/** Complete decimal/scientific token; commas, semicolons and whitespace separate observations. */
+const DECIMAL_TOKEN = /^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?$/i;
+
+/** Reject the entire dataset if any observation is invalid; never calculate a partial dataset. */
+export function parseDatasetInput(input: string): { values: number[]; invalidTokens: string[] } {
+  const tokens = input.trim().split(/[\s,;]+/).filter(Boolean);
+  const invalidTokens = tokens.filter(token => {
+    const value = Number(token);
+    // A nonzero decimal below the floating-point range must not silently become zero.
+    const nonzeroMantissa = /[1-9]/.test(token.split(/[eE]/)[0]);
+    return !DECIMAL_TOKEN.test(token) || !Number.isFinite(value) || (value === 0 && nonzeroMantissa);
+  });
+  if (invalidTokens.length) return { values: [], invalidTokens };
+  return { values: tokens.map(Number).sort((a, b) => a - b), invalidTokens: [] };
+}
+
 export function parseDataset(input: string): number[] {
-  return input
-    .split(/[\s,;]+/)
-    .map((s) => parseFloat(s.trim()))
-    .filter((n) => Number.isFinite(n))
-    .sort((a, b) => a - b);
+  return parseDatasetInput(input).values;
+}
+
+/** A whole decimal/scientific literal in the stated inclusive safe-integer range, or null. */
+export function parseIntegerInput(input: string, min: number, max = Number.MAX_SAFE_INTEGER): number | null {
+  const token = input.trim();
+  if (!DECIMAL_TOKEN.test(token)) return null;
+  const value = Number(token);
+  if (!Number.isSafeInteger(value) || value < min || value > max) return null;
+  // Check the decimal's exact fractional digits before accepting a rounded Number.
+  // For example, 1.00000000000000000001 must not be accepted as the integer 1.
+  const [mantissa, exponent = '0'] = token.toLowerCase().split('e');
+  const digits = mantissa.replace(/[+.\-]/g, '');
+  const fractionalPlaces = (mantissa.split('.')[1]?.length ?? 0) - Number(exponent);
+  if (fractionalPlaces > 0) {
+    const tail = fractionalPlaces >= digits.length ? digits : digits.slice(-fractionalPlaces);
+    if (/[1-9]/.test(tail)) return null;
+  }
+  return value;
 }
 
 export function fmt(n: number, digits = 3, lang?: string): string {

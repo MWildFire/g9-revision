@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
 import { DrFrostLink } from '../../../components/content/DrFrostLink';
-import { MathPracticeList } from '../../../components/content/MathPracticeList';
+import { MathPracticeList } from './MathPracticeList';
 import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
 import type { MathTopicId } from '../data/drFrostTasks';
 import { getDrFrostTasksForTopic } from '../data/drFrostTasks';

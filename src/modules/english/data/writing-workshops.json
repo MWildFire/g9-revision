@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "title": {
+    "en": "Complete writing workshops",
+    "ru": "Разбор полных письменных работ"
+  },
+  "notice": {
+    "en": "Original practice responses to the supplied invented stimuli. These are examples to examine and question, not school submissions or texts to memorise. The review prompts are authored teaching aids, not an official mark scheme or awarded marks.",
+    "ru": "Авторские учебные ответы на предложенные вымышленные стимулы. Их нужно разбирать и обсуждать, а не сдавать как свою работу или заучивать. Вопросы для самопроверки составлены для обучения: это не официальная схема оценивания и не выставленные баллы."
+  },
+  "models": [
+    {
+      "id": "mara-comparison",
+      "topicId": "e-analysis",
+      "title": {
+        "en": "A complete comparison: responsibility",
+        "ru": "Полный сравнительный ответ: ответственность"
+      },
+      "kind": "comparison",
+      "prompt": {
+        "en": "Compare how Text A and the four-shot storyboard present Mara’s responsibility for the experiment.",
+        "ru": "Сравни, как текст A и раскадровка из четырёх кадров показывают ответственность Мары за опыт."
+      },
+      "audience": {
+        "en": "A reader who has both supplied stimuli in front of them.",
+        "ru": "Читатель, перед которым оба учебных материала."
+      },
+      "purpose": {
+        "en": "Develop an interpretation by comparing language, framing, sound and action.",
+        "ru": "Обосновать сопоставление через язык, кадр, звук и действие."
+      },
+      "register": {
+        "en": "Analytical and precise; present tense for textual choices; cautious claims about effects.",
+        "ru": "Точный аналитический стиль; настоящее время при обсуждении приёмов; обоснованные, а не категоричные выводы об эффекте."
+      },
+      "paragraphs": [
+        {
+          "text": "Both Text A and the storyboard present Mara as an inventor whose excitement is interrupted by responsibility to someone else. Each brings her brother into the moment before action, making the experiment a human decision rather than simply a technical achievement. However, the prose gives access to the history of her expectations, whereas the storyboard makes hesitation visible and audible through the arrangement of shots and sounds. The two versions therefore share an ethical question while allowing different degrees of access to Mara’s thinking.",
+          "annotation": {
+            "en": "Thesis: an arguable shared idea, followed by a difference in how the media present it. No invented film scene.",
+            "ru": "Тезис сразу связывает оба материала: техническое достижение становится нравственным выбором. Различие касается способа подачи, а не выдуманного события фильма."
+          }
+        },
+        {
+          "text": "First, both texts reduce Mara’s apparent control, but they begin from different positions. In Text A, she had imagined the moment as “a door opening”. This image associates invention with opportunity; the reference to “All winter” makes that hope feel sustained rather than sudden. Her withdrawal from the brass handle then interrupts the anticipated movement forward. By contrast, the storyboard initially places Mara small within a wide shot of the laboratory. The framing can make the machinery and space seem more powerful than the inventor, before the close-up of a finger above the switch concentrates attention on a single possible action. The prose moves from remembered confidence to a hesitant gesture, while the film plan establishes vulnerability through scale and then narrows the viewer’s attention. Neither choice proves that Mara knows the machine is dangerous; both make uncomplicated confidence harder to maintain.",
+          "annotation": {
+            "en": "Comparative paragraph 1: precise prose image and action meet two exact shots. “Can” and “seem” mark interpretation; danger is not asserted as a stimulus fact.",
+            "ru": "В одном абзаце разобраны оба материала: образ открывающейся двери и отдёрнутая рука сопоставлены с общим и крупным планами. Автор различает наблюдаемую деталь и её возможный эффект; опасность машины не объявляется доказанным фактом."
+          }
+        },
+        {
+          "text": "Second, the brother’s presence makes responsibility personal in both versions. The prose identifies his humming as a tune Mara taught him, connecting the sound to their shared relationship. It then ends with her written question, “Who gets to decide what happens next?”, so the reader encounters her doubt in words. In shot 2, the electrical hum stops and the brother’s humming is heard off-screen. Replacing the machine’s sound with a human one can redirect attention from invention to its consequences for another person. Shot 3 holds Mara’s face for four seconds without speech as her eyes move towards the door: the pause invites the audience to consider her response without a spoken explanation. Shot 4 also shows her writing the question, but adds her closing the notebook and stepping away. Unlike the prose’s ending, this visible withdrawal supplies a further action, although the click after the cut to black leaves its cause unseen.",
+          "annotation": {
+            "en": "Comparative paragraph 2: similarity through the brother; difference through the final action. The click is not presented as proof that she switches on the machine.",
+            "ru": "Второй сравнительный абзац развивает роль брата. Из текста взята конкретная связь — мелодия, которой Мара его научила; из раскадровки — смена звука, четырёхсекундная пауза и уход. Щелчок после чёрного кадра не доказывает включение машины."
+          }
+        },
+        {
+          "text": "Ultimately, both creators make hesitation a sign of moral attention rather than simple technical failure. Text A lets the reader compare Mara’s earlier hope with her present question; the storyboard uses scale, interrupted sound and sustained silence to make the viewer examine the decision as it unfolds. Its added withdrawal is more explicit as an action, but neither ending fully explains what the machine will do. Responsibility remains the central uncertainty.",
+          "annotation": {
+            "en": "Conclusion answers the comparison, weighing a genuine difference without merely listing techniques.",
+            "ru": "Вывод отвечает на вопрос об ответственности и взвешивает различие. Он не повторяет перечень приёмов и не дописывает неизвестный результат опыта."
+          }
+        }
+      ],
+      "alternatives": [
+        {
+          "en": "An equally defensible thesis could focus on control rather than responsibility, provided every claim remains grounded in both stimuli.",
+          "ru": "Можно построить тезис вокруг контроля, а не ответственности, если каждое утверждение опирается на оба материала."
+        },
+        {
+          "en": "Reverse the order within a paragraph: begin with a shot, then compare the prose. Do not split the whole response into an isolated prose half and film half.",
+          "ru": "Внутри абзаца можно сначала разобрать кадр, затем прозу. Не обязательно делить весь ответ на отдельные половины «текст» и «кино»."
+        }
+      ],
+      "selfReview": [
+        {
+          "criterion": "A",
+          "question": {
+            "en": "Can I trace each interpretation to an exact word, action, shot or sound?",
+            "ru": "Могу ли я связать каждый вывод с точным словом, действием, кадром или звуком?"
+          }
+        },
+        {
+          "criterion": "B",
+          "question": {
+            "en": "Does each main paragraph develop a shared comparative claim and a meaningful difference?",
+            "ru": "Развивает ли каждый основной абзац общий тезис и содержательное различие?"
+          }
+        },
+        {
+          "criterion": "C",
+          "question": {
+            "en": "As a model writer, have I selected details that develop the idea rather than retell everything?",
+            "ru": "Как автор образца, выбрал ли я детали, которые развивают мысль, вместо полного пересказа?"
+          }
+        },
+        {
+          "criterion": "D",
+          "question": {
+            "en": "Do precise verbs and qualified interpretations make the comparison clear?",
+            "ru": "Делают ли точные глаголы и обоснованные оговорки сравнение понятным?"
+          }
+        }
+      ],
+      "wordCount": {
+        "includingDirections": 450,
+        "excludingDirections": 450,
+        "convention": {
+          "en": "Hyphenated words and contractions count as one; stage directions are counted separately. Titles and annotations are excluded.",
+          "ru": "Слова с дефисом и сокращения считаются одним словом; ремарки посчитаны отдельно. Заголовки и пояснения не учитываются."
+        }
+      },
+      "timing": {
+        "en": "Use the model to study development, then attempt the task without copying. Any rehearsal timing is a practice choice; follow the actual task instructions.",
+        "ru": "Изучи развитие текста, затем выполни задание без копирования. Время репетиции — учебный выбор; следуй условиям своего задания."
+      }
+    },
+    {
+      "id": "inventor-monologue",
+      "topicId": "e-creative",
+      "title": {
+        "en": "A complete monologue: Before the switch",
+        "ru": "Полный монолог: перед выключателем"
+      },
+      "kind": "monologue",
+      "prompt": {
+        "en": "Write 350–450 English words: a young inventor decides whether to switch on a machine while a younger sibling waits outside. Show a change in thinking and use purposeful stage directions.",
+        "ru": "Напиши 350–450 английских слов: юный изобретатель решает, включать ли машину, пока младший брат или сестра ждёт за дверью. Покажи изменение мысли и используй осмысленные ремарки."
+      },
+      "audience": {
+        "en": "Ben, the younger brother outside the door; a theatre audience overhears the speech.",
+        "ru": "Бен, младший брат за дверью; зрители слышат обращение к нему."
+      },
+      "purpose": {
+        "en": "Dramatise ambition changing into a decision to share responsibility.",
+        "ru": "Показать в действии переход от амбиции к разделённой ответственности."
+      },
+      "register": {
+        "en": "A young speaker’s conversational voice, shifting from defensive humour to direct commitments.",
+        "ru": "Разговорный голос юного героя: от защитной иронии к прямым обещаниям."
+      },
+      "paragraphs": [
+        {
+          "text": "[Her hand rests beside the switch.] You can stop humming now, Ben. I know you are still there. I said this would take one minute. That was twelve minutes ago. Or twenty. The clock has become an extremely unhelpful witness.",
+          "annotation": {
+            "en": "Beat 1: the inventor addresses the younger sibling outside. A joke covers hesitation; the action is visible to an actor.",
+            "ru": "Первый такт: понятно, к кому обращается героиня. Шутка о часах маскирует нерешительность, а ремарку можно выполнить на сцене."
+          }
+        },
+        {
+          "text": "Look, I have checked the connections. I have checked them twice. The blue wire goes where the drawing says it should go, and the red one has stopped getting warm. That counts as progress. You would call it progress. You believed in this machine when it was a biscuit tin with a torch inside.",
+          "annotation": {
+            "en": "Beat 2: repeated “checked” builds a defensive voice. Details establish invented circumstances rather than serving as evidence that the machine is safe.",
+            "ru": "Повтор checked звучит как попытка убедить себя. Провода и жестяная коробка — авторские детали этой новой сцены; они не доказывают безопасность машины."
+          }
+        },
+        {
+          "text": "Tomorrow they will ask who made it work. I can already see my name beneath the photograph. Not “the girl who borrows the science room”, not “Ben’s sister”, but my name, properly printed. I wanted one thing that belonged to me before everyone else decided what I could become.",
+          "annotation": {
+            "en": "Beat 3: a concrete imagined reward explains ambition. Sentence fragments are deliberate features of speech, not accidental broken prose.",
+            "ru": "Теперь у желания есть понятная причина: ей нужно признание. Воображаемая подпись под фотографией конкретнее общего «хочу славы»; обрывки фраз передают живую речь."
+          }
+        },
+        {
+          "text": "And now you are on the other side of that door, humming because I told you the noise would frighten away the nerves. Yours, I said. I meant mine. You do not even know what I have promised this machine can do. You think it makes light. I let you think that because light sounds harmless.",
+          "annotation": {
+            "en": "Beat 4: self-correction changes the relationship between confidence and fear. The younger sibling is implicated by what the inventor has withheld.",
+            "ru": "Самопоправка «Yours… I meant mine» раскрывает страх без прямого объяснения «она испугалась». Герой замечает, что умолчание уже влияет на брата."
+          }
+        },
+        {
+          "text": "[She moves her hand away from the switch.] If it works, I will be able to say that I was right. If it fails, what will you be able to say? That you trusted me? That I told you to wait? I keep arranging those words into a question I can answer, and they will not stay arranged.",
+          "annotation": {
+            "en": "Beat 5: the physical withdrawal marks the turning point. Parallel questions move attention from personal success to the sibling’s position.",
+            "ru": "Убрала руку — видимый поворот. Параллельные вопросы меняют центр сцены: важен уже не только её успех, но и положение человека, который ей доверился."
+          }
+        },
+        {
+          "text": "No, do not come in yet. I am not switching it on. Listen to that sentence. Nothing exploded when I said it. The ceiling is still here. My brilliant future has not fallen through the floor. Perhaps waiting is not the same as giving up. Perhaps making something work includes knowing when to leave it alone.",
+          "annotation": {
+            "en": "Beat 6: refusal becomes a decision rather than indefinite panic. Short sentences slow the performance after the questions.",
+            "ru": "Отказ включать машину становится решением, а не вечной паникой. Короткие фразы дают актёру другой темп после серии вопросов."
+          }
+        },
+        {
+          "text": "I will write down what I have not tested. Tomorrow I will ask someone to read it, including the parts I hoped nobody would notice. They may tell me to start again. You may laugh at the biscuit tin. I can survive both of those things.",
+          "annotation": {
+            "en": "Beat 7: a specific next step makes the change credible. Future forms express the decision; no miraculous repair resolves the conflict.",
+            "ru": "Решение подкреплено действием: записать непроверенное и показать другому человеку. Никакого чудесного ремонта нет; героиня принимает возможность начать заново."
+          }
+        },
+        {
+          "text": "Ben? When I open the door, you can ask your questions first. I have done quite enough explaining away.",
+          "annotation": {
+            "en": "Ending: she offers the sibling a voice, reversing her earlier control of information.",
+            "ru": "В финале меняется распределение власти: сначала говорить и спрашивать будет брат. Это завершает внутренний поворот."
+          }
+        }
+      ],
+      "alternatives": [
+        {
+          "en": "The inventor could choose to proceed after a clearly justified safeguard; the task does not require the same decision as this model. The change still needs preparation.",
+          "ru": "Герой может решить продолжить после обоснованной меры предосторожности: повторять именно этот финал не нужно. Но поворот должен быть подготовлен."
+        },
+        {
+          "en": "Address the audience rather than Ben, but make the listener clear and keep the sibling outside within the situation.",
+          "ru": "Можно обратиться к зрителям, а не к Бену; адресат должен быть понятен, а ожидающий за дверью брат — оставаться частью ситуации."
+        }
+      ],
+      "selfReview": [
+        {
+          "criterion": "C",
+          "question": {
+            "en": "Does every beat deepen the conflict or move the decision, with concrete and purposeful detail?",
+            "ru": "Углубляет ли каждый такт конфликт или меняет решение с помощью конкретной детали?"
+          }
+        },
+        {
+          "criterion": "D",
+          "question": {
+            "en": "Can an actor speak the syntax naturally, and do tense shifts have a clear purpose?",
+            "ru": "Можно ли естественно произнести эти фразы и понятны ли причины смены времени?"
+          }
+        },
+        {
+          "criterion": "B",
+          "question": {
+            "en": "Is the turning point prepared, followed by a specific action and a changed final relationship?",
+            "ru": "Подготовлен ли поворот, за которым следуют конкретный шаг и изменившиеся отношения?"
+          }
+        }
+      ],
+      "wordCount": {
+        "includingDirections": 378,
+        "excludingDirections": 364,
+        "convention": {
+          "en": "Hyphenated words and contractions count as one; stage directions are counted separately. Titles and annotations are excluded.",
+          "ru": "Слова с дефисом и сокращения считаются одним словом; ремарки посчитаны отдельно. Заголовки и пояснения не учитываются."
+        }
+      },
+      "timing": {
+        "en": "Plan, draft the complete response, then review. The nine-minute session attempt can be used for planning and an opening only. Agree the time for the full response with your teacher; this model does not establish an official exam time.",
+        "ru": "Сначала спланируй ответ, затем напиши его целиком и проверь. Девятиминутную попытку в учебной сессии используй для плана и начала. Время на полный ответ согласуй с учителем: этот образец не устанавливает официальный лимит."
+      }
+    },
+    {
+      "id": "surveillance-speech",
+      "topicId": "e-purpose",
+      "title": {
+        "en": "A complete speech: a trial with limits",
+        "ru": "Полная речь: проба с ограничениями"
+      },
+      "kind": "speech",
+      "prompt": {
+        "en": "Write a 300–400-word speech to students arguing whether surveillance cameras should be used in school corridors. Acknowledge a counterargument and propose conditions.",
+        "ru": "Напиши речь для учеников объёмом 300–400 английских слов: нужны ли камеры в школьных коридорах? Учти возражение и предложи условия использования."
+      },
+      "audience": {
+        "en": "Fellow students who may disagree about safety and privacy.",
+        "ru": "Ученики, чьи взгляды на безопасность и частную жизнь могут расходиться."
+      },
+      "purpose": {
+        "en": "Persuade classmates to support a limited, reviewable trial subject to safeguards.",
+        "ru": "Убедить сверстников поддержать ограниченный пробный период с мерами защиты и последующей оценкой."
+      },
+      "register": {
+        "en": "Respectful public speech: direct address, accessible vocabulary, balanced claims and a clear closing appeal.",
+        "ru": "Уважительное публичное выступление: прямое обращение, понятные слова, взвешенные доводы и ясный призыв в конце."
+      },
+      "paragraphs": [
+        {
+          "text": "Friends, imagine walking into school and finding a camera above every corridor door. Would you feel protected, or watched? Some of us might feel both. I support a limited trial of corridor cameras, but only if students help set the rules before the first camera is switched on. Safety should be a shared responsibility, not a reason to stop asking questions.",
+          "annotation": {
+            "en": "Opening: a clearly hypothetical scenario, direct address and a qualified position suit a student audience.",
+            "ru": "Начало предлагает воображаемую ситуацию, а не сообщает выдуманную школьную новость. Обращение к сверстникам и позиция с условиями задают подходящий регистр."
+          }
+        },
+        {
+          "text": "First, a recording could help staff reconstruct a serious corridor incident when accounts conflict. It might show where people were standing or whether someone arrived later. That does not mean a camera explains motives, records every detail or prevents every confrontation. Its value would be as one source of evidence, considered alongside students’ accounts. If we promise more than that, we turn a useful tool into an excuse to ignore the people it is supposed to protect.",
+          "annotation": {
+            "en": "Reason 1: explains a possible mechanism and its limits. No invented statistics or claim that cameras guarantee safety.",
+            "ru": "Первый довод объясняет, чем запись может помочь, и сразу ограничивает вывод: она не раскрывает мотивы и не заменяет рассказов учеников. Числа об эффективности не придуманы."
+          }
+        },
+        {
+          "text": "Second, visible rules for using footage could make decisions more accountable. If a student believes a serious incident has been misunderstood, there should be a clear way to request a review with an appropriate adult. That process must also protect other students shown in the recording. Accountability cannot mean giving everyone a copy to share. It means knowing who can examine the evidence, for what purpose, and how a decision can be questioned.",
+          "annotation": {
+            "en": "Reason 2: develops a distinct argument about accountable decisions rather than repeating deterrence.",
+            "ru": "Второй довод самостоятельный: прозрачная проверка спорного случая. Развитие мысли показывает, что доступ к записи не означает право пересылать её всем."
+          }
+        },
+        {
+          "text": "The strongest objection is privacy. We should not dismiss classmates who dislike being recorded throughout an ordinary school day. A system introduced for safety could drift towards monitoring harmless conversations or judging every small mistake. A camera cannot build trust between a student and a teacher. If it replaces that relationship, we have made school less welcoming without solving the underlying problem.",
+          "annotation": {
+            "en": "Counterargument: fairly develops the opposing concern before proposing safeguards.",
+            "ru": "Возражение не высмеивается: речь признаёт риск расширения контроля и важность доверия. Поэтому последующие ограничения отвечают на реальную проблему."
+          }
+        },
+        {
+          "text": "So here are my conditions: cameras only in clearly identified corridor areas; no audio recording; access restricted to named staff investigating serious incidents; a short published retention period, with any necessary exceptions explained; and regular student input into an independent review. The school would need to check the applicable rules before proceeding. After a defined trial, we should examine whether the benefits justify continuing. Support a trial with limits, a review and a real option to stop. Do not give any camera the responsibility that belongs to us.",
+          "annotation": {
+            "en": "Ending: concrete proposed conditions and a decision-focused appeal. These are policy proposals, not a statement of current law.",
+            "ru": "Финал предлагает конкретные правила и призывает к решению. Это условия вымышленного выступления, а не юридическая консультация или описание действующей политики школы."
+          }
+        }
+      ],
+      "alternatives": [
+        {
+          "en": "Argue against cameras and propose staffed supervision or a reporting system. Develop the privacy concern fairly and answer the safety argument.",
+          "ru": "Можно выступить против камер и предложить дежурство взрослых или понятную систему обращений. Тогда развей довод о частной жизни и ответь на аргумент о безопасности."
+        },
+        {
+          "en": "Begin with a genuine question to the audience instead of an imagined scene. Do not turn a hypothetical incident into a claimed fact.",
+          "ru": "Можно начать с настоящего вопроса аудитории. Не выдавай воображаемый случай за произошедшее событие."
+        }
+      ],
+      "selfReview": [
+        {
+          "criterion": "B",
+          "question": {
+            "en": "Do the position, two reasons, counterargument, conditions and appeal form a connected argument?",
+            "ru": "Связаны ли позиция, два довода, возражение, условия и призыв?"
+          }
+        },
+        {
+          "criterion": "C",
+          "question": {
+            "en": "Are examples and safeguards developed for this audience without fabricated evidence?",
+            "ru": "Развиты ли примеры и условия для этой аудитории без вымышленных доказательств?"
+          }
+        },
+        {
+          "criterion": "D",
+          "question": {
+            "en": "Does the register remain respectful and persuasive, with controlled punctuation and varied sentences?",
+            "ru": "Остаётся ли речь уважительной и убедительной, с точной пунктуацией и разнообразными фразами?"
+          }
+        }
+      ],
+      "wordCount": {
+        "includingDirections": 361,
+        "excludingDirections": 361,
+        "convention": {
+          "en": "Hyphenated words and contractions count as one; stage directions are counted separately. Titles and annotations are excluded.",
+          "ru": "Слова с дефисом и сокращения считаются одним словом; ремарки посчитаны отдельно. Заголовки и пояснения не учитываются."
+        }
+      },
+      "timing": {
+        "en": "Use the model to study development, then attempt the task without copying. Any rehearsal timing is a practice choice; follow the actual task instructions.",
+        "ru": "Изучи развитие текста, затем выполни задание без копирования. Время репетиции — учебный выбор; следуй условиям своего задания."
+      }
+    }
+  ],
+  "script": {
+    "id": "inventor-script",
+    "topicId": "e-creative",
+    "title": {
+      "en": "From monologue to two-person scene",
+      "ru": "От монолога к диалогу"
+    },
+    "setup": {
+      "en": "Original adaptation exercise: Ben remains outside. Two speakers negotiate who gets a say in the experiment.",
+      "ru": "Авторское упражнение на переработку: Бен остаётся за дверью. Два персонажа договариваются, кто участвует в решении об опыте."
+    },
+    "turns": [
+      {
+        "speaker": "Mara",
+        "direction": "[Mara holds the door handle without opening it.]",
+        "line": "One more minute. I have almost finished."
+      },
+      {
+        "speaker": "Ben",
+        "line": "You said that before. Is it safe to wait here?"
+      },
+      {
+        "speaker": "Mara",
+        "line": "Of course it is. I checked the wires."
+      },
+      {
+        "speaker": "Ben",
+        "line": "I asked about me, not the wires."
+      },
+      {
+        "speaker": "Mara",
+        "direction": "[Mara lets go of the handle and steps back.]",
+        "line": "You are right. I have not told you enough. I am leaving the switch alone."
+      },
+      {
+        "speaker": "Ben",
+        "line": "Then tell me what you have not tested. Through the door is fine."
+      },
+      {
+        "speaker": "Mara",
+        "line": "All right. You can ask first, and we will decide what to do after that."
+      }
+    ],
+    "commentary": {
+      "en": "Seven turns change the interaction: Mara first controls the timetable, Ben challenges what she means by safety, and she gives him a voice. Both directions are visible actions. Ben stays outside; opening the door is not needed for the change.",
+      "ru": "За семь реплик меняется взаимодействие: сначала Мара распоряжается временем, затем Бен уточняет смысл безопасности, а она признаёт его право спрашивать. Обе ремарки обозначают видимое действие. Бен остаётся за дверью; для поворота не нужно открывать её."
+    },
+    "transfer": {
+      "en": "Rewrite turns 5–7 so Ben refuses to accept another promise. Keep the actions performable and show the effect on Mara’s next line.",
+      "ru": "Перепиши реплики 5–7 так, чтобы Бен не принял очередное обещание. Оставь ремарки выполнимыми и покажи, как его ответ меняет следующую реплику Мары."
+    }
+  },
+  "rubricNote": {
+    "en": "C: development and purposeful detail; D: language, register and accuracy; B: organisation. Comparison also needs A-style analysis of evidence. These lenses guide this workshop and do not certify current school assessment criteria.",
+    "ru": "C: развитие мысли и осмысленные детали; D: язык, регистр и точность; B: организация. В сравнении также нужен анализ доказательств, относящийся к A. Эти ориентиры помогают разбирать образец, но не подтверждают действующие критерии школы."
+  }
+}

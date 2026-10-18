@@ -105,7 +105,7 @@ export const recapLessons: Lesson[] = [
     ],
     sections: [
       { title: 'Choose from the labels', text: 'Pythagoras works only in right triangles: a² + b² = c². Here a and b are the legs, c is the hypotenuse, and all lengths use the same unit.\n\nFor a trigonometric ratio, first label the sides relative to the chosen acute angle θ: opposite side, adjacent side and hypotenuse. Then choose the ratio that contains the known and unknown sides:\n\n\nsin θ = opposite / hypotenuse\n\ncos θ = adjacent / hypotenuse\n\ntan θ = opposite / adjacent\n\nSet your calculator to degree mode for angles in degrees. Keep unrounded values until the final answer.', formula: 'a² + b² = c².  sin θ = opposite/hypotenuse; cos θ = adjacent/hypotenuse; tan θ = opposite/adjacent.' },
-      { title: 'Bearings need a north line', text: 'Imagine you stand at the starting point and face north. The bearing is the angle you turn clockwise, to your right, until you face the other point. On a flat map with parallel north lines, the reverse bearing differs by 180°, written between 000° and 359°. The internal angle of the triangle may be different from the bearing itself.' },
+      { title: 'Bearings need a north line', text: 'Imagine you stand at the starting point and face north. The bearing is the angle you turn clockwise, to your right, until you face the other point. On a flat map with parallel north lines, the reverse bearing differs by 180° modulo 360°. A bearing is in the interval 0° ≤ β < 360°; whole-degree bearings are written with three digits, such as 037°. Retain decimal degrees if the question requires them. The internal angle of the triangle may be different from the bearing itself.' },
     ],
     example: { prompt: 'A point lies 6 km east and 8 km north of the start. Find its distance and bearing from the start.', steps: ['Distance = √(6² + 8²) = 10 km.', 'The angle clockwise from north satisfies tan θ = east/north = 6/8.', 'θ = tan⁻¹(0.75) ≈ 36.87°. To the nearest degree the bearing is 037°.'] },
     pitfalls: ['Use the longest side as c in Pythagoras.', 'sin⁻¹ means the inverse sine, not 1/sin.', 'A bearing is measured from north, not automatically from the horizontal.'],
@@ -116,7 +116,7 @@ export const recapLessons: Lesson[] = [
   },
   {
     id: 'trigonometry', title: 'Trig graphs and non-right triangles (Extended)', tier: 'recap',
-    intro: 'Extended: this topic is not in the Standard course.\n\nUse the sine and cosine rules when a triangle is not right-angled. Recognise the repeating shapes of trigonometric graphs, and use degrees for every angle.',
+    intro: 'The G9 revision list includes trigonometric graphs and non-right-triangle methods. The G9+10 list labels sine and cosine rules Extended but advises them for all. Their inclusion in the current November mock remains unconfirmed.\n\nUse the sine and cosine rules when a triangle is not right-angled. Recognise the repeating shapes of trigonometric graphs, and use degrees for every angle.',
     goals: ['Apply the sine rule, cosine rule and area formula for triangles.', 'Read the amplitude, period and key points of sine and cosine graphs.'],
     terms: [
       defineTerm('Sine rule (Extended)'),
@@ -171,7 +171,7 @@ export const recapLessons: Lesson[] = [
       defineTerm('Excluded value'),
     ],
     sections: [
-      { title: 'Reversing operations, collecting terms and factoring', text: 'Undo the operations in reverse order. If the variable appears in several terms, collect those terms on one side and factor the variable out. Before you divide by an expression that contains the variable, state that it is not zero. When you square both sides, check the sign: if r² = 9, then r = 3 or r = −3, but for a length you take only r = 3.' },
+      { title: 'Reversing operations, collecting terms and factoring', text: 'Undo the operations in reverse order. If the variable appears in several terms, collect those terms on one side and factor the variable out. Before you divide by an expression that contains the variable, state that it is not zero. When taking square roots, include both signs: r² = 9 gives r = ±3; for a length r = 3. Squaring both sides can introduce extraneous candidates, so check them in the original equation.' },
       { title: 'What you can cancel', text: 'Factorise the numerator and the denominator first, then cancel common factors, provided they are not zero. To add or subtract fractions, use a common denominator, for example 1/x + 1/2 = (2 + x)/(2x), where x ≠ 0.', formula: '(x² − 4)/(x − 2) = x + 2 for x ≠ 2.' },
     ],
     example: { prompt: 'Make x the subject of y = (3x + 2)/(x − 1).', steps: ['The denominator x − 1 cannot be zero, so the original formula requires x ≠ 1.', 'Multiply both sides by x − 1: y(x − 1) = 3x + 2, so yx − y = 3x + 2.', 'Collect the terms with x on the left: yx − 3x = y + 2. Factor out x: x(y − 3) = y + 2.', 'Divide both sides by y − 3: x = (y + 2)/(y − 3), where y ≠ 3. This is because the original function never takes the value 3.'] },

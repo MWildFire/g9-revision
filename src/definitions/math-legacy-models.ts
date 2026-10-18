@@ -42,7 +42,11 @@ export function groupedPercentile(points: { x: number; y: number }[], percent: n
   return null;
 }
 export function schoolQuartiles(sorted: number[]) {
-  const median = (xs: number[]) => xs.length % 2 ? xs[(xs.length - 1) / 2] : (xs[xs.length / 2 - 1] + xs[xs.length / 2]) / 2;
+  const midpoint = (a: number, b: number) => {
+    const sum = a + b;
+    return Number.isFinite(sum) ? sum / 2 : a / 2 + b / 2;
+  };
+  const median = (xs: number[]) => xs.length % 2 ? xs[(xs.length - 1) / 2] : midpoint(xs[xs.length / 2 - 1], xs[xs.length / 2]);
   if (!sorted.length) return { q1: 0, median: 0, q3: 0, iqr: 0, min: 0, max: 0, outliers: [] as number[] };
   const mid = Math.floor(sorted.length / 2);
   const q1 = sorted.length === 1 ? sorted[0] : median(sorted.slice(0, mid));

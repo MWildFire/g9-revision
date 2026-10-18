@@ -20,7 +20,8 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export function FlashcardsPage() {
-  const { t } = useTranslation('arabic');
+  const { t, i18n } = useTranslation('arabic');
+  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en';
 
   const [deckId, setDeckId] = useState<string>('all');
   const [order, setOrder] = useState<Word[] | null>(null); // shuffled override
@@ -84,7 +85,7 @@ export function FlashcardsPage() {
 
   const deckTabs = [
     { id: 'all', label: t('flashcards.allWords') },
-    ...LEARN_BLOCKS.map((b) => ({ id: b.id, label: b.titleEn })),
+    ...LEARN_BLOCKS.map((b) => ({ id: b.id, label: lang === 'ru' ? b.titleRu : b.titleEn })),
   ];
 
   return (

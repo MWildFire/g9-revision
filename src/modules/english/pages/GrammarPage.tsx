@@ -1,3 +1,4 @@
+import { EnglishEditingPractice } from '../components/EnglishEditingPractice';
 import { DefinitionSupport } from '../../../components/content/DefinitionSupport';
 import { ENGLISH_REVIEWS } from '../../../definitions/english';
 import { PenTool } from 'lucide-react';
@@ -59,6 +60,7 @@ export function GrammarPage() {
           return <DetailedCard key={id} item={item} borderColor="var(--color-accent-clay)" labels={labels} />;
         })}
       </div>
+      <EnglishEditingPractice language={lang} />
     </div>
   );
 }

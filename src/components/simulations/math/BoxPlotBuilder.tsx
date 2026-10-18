@@ -4,13 +4,15 @@ import type { DefinitionReview } from '../../content/definitionReview';
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SimulationPanel } from '../../ui/Tabs';
-import { parseDataset, fmt } from '../../../lib/math';
+import { parseDatasetInput, fmt } from '../../../lib/math';
 import { schoolQuartiles } from '../../../definitions/math-legacy-models';
 
 export function BoxPlotBuilder() {
-  const { t } = useTranslation('math');
+  const { t, i18n } = useTranslation('math');
+  const ru = i18n.language.startsWith('ru');
   const [input, setInput] = useState('4, 7, 8, 10, 11, 13, 15, 18, 22, 35');
-  const sorted = useMemo(() => parseDataset(input), [input]);
+  const parsed = useMemo(() => parseDatasetInput(input), [input]);
+  const sorted = parsed.values;
   const q = schoolQuartiles(sorted);
   const total = sorted.length;
 
@@ -20,8 +22,12 @@ export function BoxPlotBuilder() {
 
   const dataMin = sorted.length > 0 ? sorted[0] : 0;
   const dataMax = sorted.length > 0 ? sorted[sorted.length - 1] : 1;
-  const span = dataMax - dataMin || 1;
-  const scale = (v: number) => padX + ((v - dataMin) / span) * innerWidth;
+  // Normalise before subtraction so opposite large finite endpoints do not overflow.
+  const magnitude = Math.max(Math.abs(dataMin), Math.abs(dataMax), 1);
+  const scaledMin = dataMin / magnitude;
+  const span = dataMax / magnitude - scaledMin || 1;
+  const scale = (v: number) => padX + ((v / magnitude - scaledMin) / span) * innerWidth;
+  const spreadOverflow = !Number.isFinite(q.iqr);
 
   return (
     <SimulationPanel
@@ -34,6 +40,8 @@ export function BoxPlotBuilder() {
             {t('simulations.boxPlot.input')}
           </span>
           <textarea
+            aria-invalid={parsed.invalidTokens.length > 0 || spreadOverflow}
+            aria-describedby="box-plot-input-help"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             rows={3}
@@ -44,7 +52,17 @@ export function BoxPlotBuilder() {
           </p>
         </label>
 
-        {total > 0 ? (
+        <p id="box-plot-input-help" className="text-xs text-text-muted">
+          {ru ? 'Вводи целые или десятичные числа через пробел, запятую или точку с запятой. Десятичный разделитель — точка; запись 1e3 означает 1000. Вместо дроби 3/4 введи 0.75.' : 'Separate whole or decimal numbers with spaces, commas or semicolons. Use a decimal point; 1e3 means 1000. Enter 0.75 instead of the fraction 3/4.'}
+        </p>
+        {parsed.invalidTokens.length > 0 && <p role="alert" className="text-sm text-text-secondary">
+          {ru ? 'Исправь недопустимые значения: ' : 'Correct these invalid values: '}{parsed.invalidTokens.join(', ')}.
+          {' '}{ru ? 'До исправления весь набор не рассчитывается.' : 'The whole dataset is withheld until these are corrected.'}
+        </p>}
+        {spreadOverflow && <p role="alert" className="text-sm text-text-secondary">
+          {ru ? 'Разброс превышает числовой диапазон расчёта. Уменьши масштаб всех значений перед построением диаграммы.' : 'The spread exceeds the calculation range. Rescale all values before plotting.'}
+        </p>}
+        {total > 0 && !spreadOverflow ? (
           <>
             <div className="bg-bg-tertiary/40 border border-border rounded-md p-4 grid grid-cols-2 md:grid-cols-3 gap-3 text-sm">
               <Stat label={t('simulations.boxPlot.lowerWhisker')} value={fmt(q.min)} />

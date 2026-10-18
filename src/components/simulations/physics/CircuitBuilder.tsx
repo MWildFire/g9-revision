@@ -416,8 +416,8 @@ function SeriesDiagram({
       {/* Left wire */}
       <line x1="40" y1="50" x2="40" y2="200" stroke="#6b5b47" strokeWidth="2" />
       {/* Bottom wire, split for the battery */}
-      <line x1="40" y1="200" x2="195" y2="200" stroke="#6b5b47" strokeWidth="2" />
-      <line x1="225" y1="200" x2="380" y2="200" stroke="#6b5b47" strokeWidth="2" />
+      <line x1="40" y1="200" x2="205" y2="200" stroke="#6b5b47" strokeWidth="2" />
+      <line x1="215" y1="200" x2="380" y2="200" stroke="#6b5b47" strokeWidth="2" />
 
       <BatteryHorizontal cx={210} cy={200} voltage={voltage} />
 

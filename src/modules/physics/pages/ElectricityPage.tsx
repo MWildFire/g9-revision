@@ -13,6 +13,7 @@ import { PowerConsumption } from '../../../components/simulations/physics/PowerC
 import { IVCharacteristics } from '../../../components/simulations/physics/IVCharacteristics';
 import { MagneticField } from '../../../components/simulations/physics/MagneticField';
 import { DetailedCard, DetailedItem } from '../../../components/content/DetailedCard';
+import { DomesticSafety } from '../components/DomesticSafety';
 
 const TERMS = [
   'current',
@@ -66,6 +67,7 @@ export function ElectricityPage() {
         })}
       </div>
 
+      <DomesticSafety />
       <SectionHeading>{t('common.simulations')}</SectionHeading>
       {/* Energy table: scroll inside the block; wrap only between words, never inside a word. */}
       <div className="space-y-6 [&_table]:min-w-[20rem] [&_th]:break-normal [&_td]:break-normal">

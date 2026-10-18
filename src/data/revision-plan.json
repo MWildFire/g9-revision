@@ -1121,8 +1121,8 @@
       ],
       "recall": 5,
       "note": {
-        "en": "Review the week with a 10-minute closed-book check. Next week, swap a green topic for a red topic of the same length.",
-        "ru": "Проверь неделю за 10 минут без конспекта. На следующей неделе замени одну зелёную тему на красную такой же длины."
+        "en": "Use ten minutes within one of today’s existing blocks for a closed-book check and feedback. Next week, choose a specific same-length or shorter replacement for a weak topic; do not add another block.",
+        "ru": "Выдели десять минут внутри одного из сегодняшних блоков на проверку без конспекта и разбор. На следующей неделе выбери конкретную замену той же или меньшей длительности для слабой темы; не добавляй ещё один блок."
       }
     },
     {
@@ -2002,7 +2002,8 @@
           "task": {
             "en": "Full Biology rehearsal A–D. Take a short break after 60 minutes if needed.",
             "ru": "Полная репетиция по биологии: разделы A–D. Если нужно, сделай короткий перерыв после 60 минут."
-          }
+          },
+          "flexible": true
         },
         {
           "id": "biology-correct",
@@ -2011,7 +2012,8 @@
           "task": {
             "en": "Self-mark; choose two errors to correct.",
             "ru": "Проверь себя. Выбери две ошибки и исправь их."
-          }
+          },
+          "flexible": true
         }
       ],
       "recall": 5
@@ -2036,7 +2038,8 @@
           "task": {
             "en": "Selected physics rehearsal: sections A and C only (50 min), then check (15 min).",
             "ru": "Репетиция по физике: только разделы A и C (50 мин), потом проверка (15 мин)."
-          }
+          },
+          "flexible": true
         },
         {
           "id": "chemistry-partial",
@@ -2050,7 +2053,8 @@
           "task": {
             "en": "Selected chemistry rehearsal: sections A and C only (50 min), then check (15 min).",
             "ru": "Репетиция по химии: только разделы A и C (50 мин), потом проверка (15 мин)."
-          }
+          },
+          "flexible": true
         }
       ],
       "recall": 5,

@@ -2217,8 +2217,8 @@
             "ru": "Температура не равна полной внутренней энергии: большая прохладная ванна может иметь больше внутренней энергии, чем маленькая горячая чашка."
           },
           "model": {
-            "en": "Temperature is a measure of the average kinetic energy of the particles: in a hotter substance, the particles move faster on average.",
-            "ru": "Температура — мера средней кинетической энергии частиц вещества: в более горячем веществе частицы в среднем движутся быстрее."
+            "en": "In the classical ideal-gas model, the mean translational kinetic energy of molecules is proportional to absolute temperature. This model relationship is not a universal definition of temperature for every material.",
+            "ru": "В классической модели идеального газа средняя кинетическая энергия поступательного движения молекул пропорциональна абсолютной температуре. Это связь в рамках модели, а не универсальное определение температуры для любого вещества."
           },
           "sources": [
             {
@@ -3755,7 +3755,7 @@
       "subtitle": "Recall and apply scientific knowledge (the written exam)",
       "items": [
         "Recall scientific facts, terms and definitions accurately — vocabulary like 'momentum', 'resultant force', 'refraction' must be used precisely.",
-        "Apply scientific knowledge to solve problems in familiar situations (e.g. calculate F = ma when force and mass are given).",
+        "Apply scientific knowledge to familiar problems, for example calculate a = F/m when the resultant force and mass are given.",
         "Apply scientific knowledge to solve problems in unfamiliar situations (transfer the same idea to a new context, e.g. why an airbag works).",
         "Analyse and evaluate scientific information to make scientifically supported judgements.",
         "Show your working in calculations: formula → substitution → answer → units.",
@@ -3771,7 +3771,7 @@
         "Materials and apparatus list with sizes / quantities.",
         "Numbered method that another student could repeat exactly.",
         "Safety considerations identified.",
-        "Plan for collecting enough data (≥ 5 values, ≥ 3 repeats)."
+        "Justify the range, number of values and repeats needed for this investigation. Five values and three repeats can be a planning starting point, not a universal MYP minimum."
       ]
     },
     "C": {
@@ -3793,7 +3793,7 @@
         "Clear scientific explanation of the issue.",
         "Discussion of social, economic and environmental impacts.",
         "Multiple perspectives considered (for / against / neutral).",
-        "Evidence from at least two reliable sources.",
+        "Use enough relevant, reliable evidence to support the argument and attribute it clearly. Choose sources for their quality and coverage; a fixed source count alone does not establish adequacy.",
         "Personal opinion with justification.",
         "References listed in a consistent format."
       ]

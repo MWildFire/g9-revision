@@ -73,7 +73,7 @@ export const coreLessons: Lesson[] = [
     ],
     sections: [
       { title: 'Gradient from two points', text: 'For A(x₁, y₁) and B(x₂, y₂), the gradient is m = (y₂ − y₁)/(x₂ − x₁), where y₂ − y₁ is the change in y and x₂ − x₁ is the change in x. A positive gradient means y increases as x increases. A negative gradient means y decreases as x increases. A horizontal line has gradient 0.' },
-      { title: 'Midpoint and distance', text: 'To find the midpoint, average the x-coordinates and the y-coordinates separately. To find the distance, treat the segment as the hypotenuse of a right-angled triangle whose legs are the differences in the x-coordinates and in the y-coordinates. The Pythagorean theorem then gives the square of the distance: the sum of the squares of the two differences. Take the positive square root, because a distance cannot be negative.' },
+      { title: 'Midpoint and distance', text: 'To find the midpoint, average the x-coordinates and the y-coordinates separately. To find the distance, treat the segment as the hypotenuse of a right-angled triangle whose legs have lengths |x₂−x₁| and |y₂−y₁|. The Pythagorean theorem then gives the square of the distance: the sum of the squares of the two differences. Take the non-negative square root, because a distance cannot be negative; coincident points have distance zero.' },
       { title: 'Equation of a straight line', text: 'In y = mx + c, m is the gradient and c is the y-intercept: the value of y where the line crosses the y-axis, at x = 0. Find the gradient m first. Then substitute one known point to find c. Check the equation by substituting the second point. Alternatively, use the point–gradient form y − y₁ = m(x − x₁), where (x₁, y₁) is a point on the line.' },
     ],
     example: { prompt: 'For A(−2, 1) and B(4, 9), find the gradient of line AB, the midpoint of AB, the distance between A and B and the equation of line AB.', steps: ['Change in x: 4 − (−2) = 6. Change in y: 9 − 1 = 8. So m = 8/6 = 4/3.', 'M = ((−2 + 4)/2, (1 + 9)/2) = (1, 5).', 'Distance AB = √(6² + 8²) = √100 = 10 units.', 'Substitute A(−2, 1): 1 = (4/3)(−2) + c, so c = 11/3. The equation of the line is y = (4/3)x + 11/3.', 'Check with B(4, 9): (4/3)(4) + 11/3 = 27/3 = 9, which matches the y-coordinate of B.'] },
@@ -130,7 +130,7 @@ export const coreLessons: Lesson[] = [
   },
   {
     id: 'linear-inequalities', title: 'Linear inequalities and number lines', tier: 'core', drFrost: '309 · 339 · 340 · 341 · 342', visual: 'inequality',
-    intro: 'An inequality describes an interval of values, not a single answer. Solve it by doing the same operation to both sides, and state exactly which boundary values are included.',
+    intro: 'An inequality describes a set of permitted values. Its solution may be an interval, several intervals, a single value or the empty set; show which endpoints are included.',
     goals: ['Solve linear inequalities, including compound ones.', 'Reverse the inequality sign when multiplying or dividing by a negative number.', 'Represent the solution set on a number line.'],
     terms: [
       defineTerm('Linear inequality'),

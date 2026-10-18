@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Layers } from 'lucide-react';
 import { TopicHero, SectionHeading } from '../../../components/content/TopicHero';
-import { MathPracticeList } from '../../../components/content/MathPracticeList';
+import { MathPracticeList } from '../components/MathPracticeList';
 import { getRICProblems } from '../data/practiceProblems';
 
 export function EOYPracticePage() {

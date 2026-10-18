@@ -37,8 +37,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Adjective agreement",
     "russianTerm": "Согласование прилагательных",
     "contrast": {
-      "en": "Some agreements are heard only in writing: joli (masculine) and jolie (feminine) sound the same, so the spelling must match the noun.",
-      "ru": "Иногда согласование слышно только на письме: joli (муж. род) и jolie (жен. род) звучат одинаково, поэтому написание должно соответствовать существительному."
+      "en": "Some agreement differences are visible only in writing: joli (masculine) and jolie (feminine) sound the same, so the spelling must match the noun.",
+      "ru": "Некоторые различия согласования видны только на письме: joli (мужской род) и jolie (женский род) звучат одинаково, поэтому написание должно соответствовать существительному."
     },
     "sources": [
       {
@@ -118,8 +118,8 @@ export const FRENCH_REVIEWS: Record<string, DefinitionReview> = {
     "sources": [
       {
         "title": "University of Texas — Tex’s French Grammar",
-        "url": "https://laits.utexas.edu/tex/gr/int2.html",
-        "section": "Questions with inversion",
+        "url": "https://laits.utexas.edu/tex/gr/int3.html",
+        "section": "Questions with subject/verb inversion: inversion; addition of -t-; compound tenses (sections 1, 2 and 4)",
         "language": "en"
       }
     ]

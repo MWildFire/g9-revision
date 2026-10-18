@@ -192,9 +192,11 @@ export function LensSim() {
                 <span>
                   {mag === null
                     ? '—'
-                    : Math.abs(mag) >= 1
-                      ? t('wavesOptics.sim5.magnified')
-                      : t('wavesOptics.sim5.diminished')}
+                    : Math.abs(Math.abs(mag) - 1) < 1e-9
+                      ? (ru ? 'такого же размера' : 'same size')
+                      : Math.abs(mag) > 1
+                        ? t('wavesOptics.sim5.magnified')
+                        : t('wavesOptics.sim5.diminished')}
                 </span>
               </div>
             </div>

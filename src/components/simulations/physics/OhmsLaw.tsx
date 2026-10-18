@@ -98,7 +98,8 @@ export function OhmsLaw() {
     <SimulationPanel title={t('electricity.sim1.title')} description={t('electricity.sim1.desc')}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
         <svg role="img" aria-label={t('electricity.sim1.desc')} viewBox="0 0 360 220" className="w-full bg-bg-primary rounded-md border border-border">
-          <rect x="20" y="20" width="320" height="180" rx="8" fill="none" stroke="#6b5b47" strokeWidth="2" />
+          {/* Series leads stop at the cell, resistor and ammeter terminals. */}
+          <path data-circuit-leads="ohm-series" d="M40 78 V50 H150 M210 50 H300 V80 M300 120 V170 H40 V122" fill="none" stroke="#6b5b47" strokeWidth="2" />
 
           <g transform="translate(40, 100)">
             <line x1="0" y1="-22" x2="0" y2="-8" stroke="#3d2f1f" strokeWidth="3" />

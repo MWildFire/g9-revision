@@ -323,8 +323,8 @@
           "ru": "Объединение A ∪ B (union) означает «A или B, или оба». Пересечение A ∩ B (intersection) означает «и A, и B». Для любых двух событий P(A ∪ B) = P(A) + P(B) − P(A ∩ B). У несовместных (mutually exclusive) событий A ∩ B = ∅, поэтому их вероятности просто складывают. Это правило сложения вероятностей (addition rule). События называют независимыми (independent), если P(A ∩ B) = P(A) × P(B)."
         },
         {
-          "en": "Conditional probability P(B | A) = P(A ∩ B) ÷ P(A) is the probability of B given that A has happened, where P(A) ≠ 0. On a probability tree, multiply the probabilities along a branch, and add the branches that give the outcome you want. Without replacement, the number of items left changes after each draw. In a two-way table, use the total of the row or column named in the question as the denominator.",
-          "ru": "Условная вероятность (conditional probability) P(B | A) = P(A ∩ B) ÷ P(A) — это вероятность события B при условии, что A уже произошло. При этом P(A) ≠ 0. На дереве вероятностей (probability tree) перемножай вероятности вдоль ветви, а затем сложи пути, которые ведут к нужному исходу. Без возвращения число оставшихся фишек меняется после каждого вынимания. В таблице сопряжённости (two-way table) за знаменатель берут итог строки или столбца, о котором говорится в условии."
+          "en": "Conditional probability P(B | A) = P(A ∩ B) ÷ P(A) is the probability of B given that A has happened, where P(A) ≠ 0. On a probability tree, multiply the probabilities along a branch, and add the branches that give the outcome you want. Without replacement, the number of items left changes after each draw. For a probability from a two-way table, first identify the conditioning group. For P(A), divide the number in A by the grand total. For P(A and B), divide the shared cell by the grand total. For P(A | B), divide the shared cell by the total in group B, which must be nonzero.",
+          "ru": "Условная вероятность (conditional probability) P(B | A) = P(A ∩ B) ÷ P(A) — это вероятность события B при условии, что A уже произошло. При этом P(A) ≠ 0. На дереве вероятностей (probability tree) перемножай вероятности вдоль ветви, а затем сложи пути, которые ведут к нужному исходу. Без возвращения число оставшихся фишек меняется после каждого вынимания. Сначала установи, есть ли условие. Для P(A) дели число элементов A на общий итог таблицы. Для P(A ∩ B) дели число в общей ячейке на общий итог. Для P(A | B) дели число в общей ячейке на итог группы B; он должен быть ненулевым."
         }
       ],
       "question": {
@@ -413,8 +413,8 @@
           "ru": "Пирамида (pyramid) имеет многоугольное основание и одну вершину (apex). Её объём V = (1/3)Bh, где h — перпендикулярная высота от вершины до основания. Прямой круговой конус (right circular cone) имеет круговое основание радиуса r и образующую s (slant height). Его объём V = (1/3)πr²h, где h — перпендикулярная высота. Полная площадь поверхности равна πr² + πrs, а s = √(r² + h²). У сферы (sphere) все точки поверхности находятся на одинаковом расстоянии r от центра. Её площадь равна 4πr², а объём шара внутри неё — (4/3)πr³."
         },
         {
-          "en": "When solids are joined without overlapping, add their volumes, and do not count the faces where they touch in the surface area. For similar solids with scale factor k, lengths are multiplied by k, areas by k², and volumes by k³. Convert units carefully: 1 cm³ = 1000 mm³, because 1 cm = 10 mm. A net shows the faces laid flat, so it helps you find the surface area, but it does not give the volume.",
-          "ru": "Если тела соединены без перекрытия, их объёмы складывают, а грани, по которым тела соприкасаются, в площадь поверхности не включают. Для подобных тел с коэффициентом подобия (scale factor) k длины умножаются на k, площади на k², а объёмы на k³. Единицы переводи аккуратно: 1 см³ = 1000 мм³, потому что 1 см = 10 мм. Развёртка (net) показывает грани на плоскости, поэтому по ней находят площадь поверхности, но не объём."
+          "en": "When solids are joined without overlapping, add their volumes, and do not count the faces where they touch in the surface area. For similar solids with scale factor k, lengths are multiplied by k, areas by k², and volumes by k³. Convert units carefully: 1 cm³ = 1000 mm³, because 1 cm = 10 mm. A net displays the boundary faces and helps calculate surface area. To calculate volume, identify the base area and perpendicular height or other required dimensions, which may be obtained from a labelled net.",
+          "ru": "Если тела соединены без перекрытия, их объёмы складывают, а грани, по которым тела соприкасаются, в площадь поверхности не включают. Для подобных тел с коэффициентом подобия (scale factor) k длины умножаются на k, площади на k², а объёмы на k³. Единицы переводи аккуратно: 1 см³ = 1000 мм³, потому что 1 см = 10 мм. Развёртка показывает грани и помогает найти площадь поверхности. Для объёма нужны площадь основания и перпендикулярная высота либо другие размеры; их иногда можно определить по подписанной развёртке."
         }
       ],
       "question": {
@@ -509,8 +509,8 @@
           "ru": "Фигуры равны (congruent), если они одинаковы по форме и размеру. Фигуры подобны (similar), если они одинаковы по форме, но размер может отличаться. Два треугольника равны, если равны их три стороны (SSS), две стороны и угол между ними (SAS) или сторона и два прилежащих к ней угла (ASA). Есть и другие признаки: AAS — два угла и сторона, не заключённая между ними; RHS — гипотенуза и катет прямоугольного треугольника. Признак подобия по трём углам (AAA) доказывает подобие, но не определяет размер."
         },
         {
-          "en": "A dilation changes the size of a shape but keeps its shape. Its scale factor is the ratio of corresponding sides: a side of 6 cm enlarged to 9 cm gives a scale factor of 9 ÷ 6 = 1.5, so the image is an enlargement. A tessellation covers a plane with copies of one or more shapes, with no gaps or overlaps: in a square grid, four squares meet at each vertex because 4 × 90° = 360°.",
-          "ru": "Гомотетия (dilation) меняет размер фигуры, но не её форму. Коэффициент гомотетии (scale factor) — это отношение стороны образа к соответствующей стороне фигуры. Сторона 6 см стала 9 см. Коэффициент равен 9 ÷ 6 = 1,5, значит, образ — увеличение (enlargement). Паркетаж (tessellation) покрывает плоскость копиями фигур без зазоров и наложений. В квадратной сетке в каждой вершине сходятся четыре квадрата, так как 4 × 90° = 360°."
+          "en": "A dilation is specified by a centre C and a nonzero scale factor k: P′ = C + k(P − C). For k > 0 the image lies on the same ray from C; for k < 0 it lies on the opposite ray. Lengths scale by |k|; k = 1 leaves the figure unchanged. A side of 6 cm mapped to 9 cm gives |k| = 1.5, but lengths alone do not determine the centre or sign. A complete transformation description gives the translation vector, reflection line, rotation centre/angle/direction, or dilation centre/scale factor. A tessellation covers the plane with no gaps or overlaps; four squares meet at a vertex because 4 × 90° = 360°.",
+          "ru": "Гомотетию (dilation) задают центром C и ненулевым коэффициентом k: P′ = C + k(P − C). При k > 0 образ лежит на том же луче из C, при k < 0 — на противоположном. Длины умножаются на |k|; при k = 1 фигура остаётся на месте. Если сторона 6 см переходит в 9 см, то |k| = 1,5, но по длинам нельзя определить центр и знак. Полное описание преобразования содержит вектор переноса, прямую отражения, центр/угол/направление поворота либо центр и коэффициент гомотетии. Паркетаж покрывает плоскость без зазоров и наложений; четыре квадрата сходятся в вершине, так как 4 × 90° = 360°."
         }
       ],
       "question": {
@@ -547,10 +547,10 @@
               "section": "Перенос, поворот, отражение"
             },
             {
-              "title": "3.5 Transformation of Functions",
-              "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+              "title": "AMSI · Congruence",
+              "url": "https://amsi.org.au/teacher_modules/Congruence.html",
               "language": "en",
-              "section": "3.5 Transformation of Functions"
+              "section": "Geometric translations, rotations, reflections and congruence; state the relevant transformation parameters."
             }
           ]
         },
@@ -558,8 +558,8 @@
           "englishTerm": "Congruence; similarity; dilation; enlargement",
           "russianTerm": "Равенство; подобие; гомотетия (dilation); увеличение",
           "contrast": {
-            "en": "The scale factor is a ratio, not a difference. A side that grows from 4 cm to 10 cm has a scale factor of 10 ÷ 4 = 2.5, not 10 − 4 = 6.",
-            "ru": "Коэффициент гомотетии (scale factor) — это отношение, а не разность. Если сторона выросла с 4 см до 10 см, коэффициент равен 10 ÷ 4 = 2,5, а не 10 − 4 = 6."
+            "en": "For a positive enlargement, the scale factor is a ratio, not a difference. A side that grows from 4 cm to 10 cm gives k = 10 ÷ 4 = 2.5, not 6. If negative dilations are allowed, the side-length ratio gives |k| and does not determine the sign.",
+            "ru": "При увеличении с положительным коэффициентом берут отношение, а не разность. Если сторона выросла с 4 см до 10 см, то k = 10 ÷ 4 = 2,5, а не 6. Если допускается отрицательная гомотетия, отношение длин даёт |k| и не определяет знак."
           },
           "sources": [
             {
@@ -573,6 +573,18 @@
               "url": "https://foxford.ru/wiki/matematika/pervy-priznak-podobiya-treugolnikov",
               "language": "ru",
               "section": "Первый признак подобия треугольников"
+            },
+            {
+              "title": "AMSI · Scale Drawings and Similarity",
+              "url": "https://amsi.org.au/teacher_modules/Scale_drawings_and_similarity.html",
+              "language": "en",
+              "section": "Enlargement Transformations: centre, positive factor and construction on rays; similarity and corresponding side ratios."
+            },
+            {
+              "title": "Фоксфорд · Гомотетия",
+              "url": "https://foxford.ru/wiki/matematika/gomotetiya",
+              "language": "ru",
+              "section": "Центр, коэффициент и знак; векторное определение и случаи k=1, k=−1."
             }
           ]
         }
@@ -591,16 +603,16 @@
       ],
       "paragraphs": [
         {
-          "en": "A population is the whole group you want to know about; a sample is the part you actually survey or measure. In simple random sampling, every possible group of the chosen size is equally likely. In systematic sampling, you choose a random start and then take every kth member of an ordered list. In stratified sampling, you split the population into groups (strata) and take from each group a share proportional to its size.",
-          "ru": "Генеральная совокупность (population) — вся группа, которую нужно изучить; выборка (sample) — её часть, которую реально опрашивают или измеряют. При простой случайной выборке (simple random sampling) все возможные группы заданного объёма равновероятны. При систематической выборке (systematic sampling) выбирают случайное начало и затем берут каждый k-й элемент упорядоченного списка. При стратифицированной выборке (stratified sampling) совокупность делят на группы, или слои (strata), и из каждой группы берут долю, пропорциональную её размеру."
+          "en": "A population is the whole group you want to know about; a sample is the part you actually survey or measure. In simple random sampling, every possible group of the chosen size is equally likely. In systematic sampling, you choose a random start and then take every kth member of an ordered list. In stratified sampling, you split the population into groups (strata) allocate a share proportional to each stratum’s size, and select members randomly within each stratum.",
+          "ru": "Генеральная совокупность (population) — вся группа, которую нужно изучить; выборка (sample) — её часть, которую реально опрашивают или измеряют. При простой случайной выборке (simple random sampling) все возможные группы заданного объёма равновероятны. При систематической выборке (systematic sampling) выбирают случайное начало и затем берут каждый k-й элемент упорядоченного списка. При стратифицированной выборке (stratified sampling) совокупность делят на группы, или слои (strata), распределяют объём выборки пропорционально размерам слоёв и случайно отбирают членов внутри каждого слоя."
         },
         {
           "en": "Sampling variation is the random difference between samples taken from the same population. Bias is a systematic error, for example from an incomplete sampling frame, self-selection or people who do not respond. A larger, well-designed random sample reduces sampling variation, but it does not remove bias. A periodic list can also bias a systematic sample.",
           "ru": "Выборочная изменчивость (sampling variation) — случайные различия между выборками из одной совокупности. Смещение (bias) — систематическая ошибка, например из-за неполной основы выборки (sampling frame), самоотбора или тех, кто не ответил. Большая, правильно организованная случайная выборка уменьшает выборочную изменчивость, но не устраняет смещение. Периодичность в списке тоже может привести к смещению систематической выборки."
         },
         {
-          "en": "A scatter diagram plots pairs of values (x, y) as points. Pearson's r shows the direction and strength of a linear link: a value close to +1 or −1 means a strong link, and a value close to 0 means a weak one. The line of best fit minimises the sum of squared vertical distances from the points and passes through the mean point (x̄, ȳ). Predicting inside the data range is interpolation; predicting outside it is extrapolation, and such predictions can be wrong.",
-          "ru": "Диаграмма рассеяния (scatter diagram) показывает пары значений (x; y) точками. Коэффициент корреляции Пирсона (Pearson's r) показывает направление и силу линейной связи. Если r близко к +1 или −1, связь сильная; если близко к 0, слабая. Линия наилучшего соответствия (line of best fit) — прямая, для которой сумма квадратов вертикальных отклонений точек от неё наименьшая. Она проходит через точку средних значений (x̄; ȳ). Прогноз внутри диапазона данных называют интерполяцией (interpolation), а за его пределами — экстраполяцией (extrapolation), и такой прогноз может оказаться неверным."
+          "en": "A scatter diagram plots paired values (x, y). For least-squares regression of y on x with a fitted intercept and non-constant x-values, the line minimises squared vertical residuals and passes through (x̄,ȳ). Pearson’s r measures linear association and is defined only if both variables have nonzero spread. Values near +1 or −1 indicate strong linear association; a value near 0 does not rule out a nonlinear relationship. Predicting inside the observed x-range is interpolation; predicting outside is extrapolation, whose validity needs separate evidence. Correlation alone does not establish causation.",
+          "ru": "Диаграмма рассеяния (scatter diagram) изображает пары (x; y). При регрессии y по x методом наименьших квадратов со свободным членом и неодинаковыми x прямая минимизирует сумму квадратов вертикальных отклонений и проходит через точку (x̄;ȳ). Коэффициент Пирсона r характеризует линейную связь и определён, только если обе переменные имеют ненулевой разброс. Значения около +1 или −1 указывают на сильную линейную связь; значение около 0 не исключает нелинейной зависимости. Прогноз внутри наблюдаемого диапазона x — интерполяция, за его пределами — экстраполяция, обоснованность которой требует отдельных данных. Корреляция сама по себе не устанавливает причину."
         }
       ],
       "question": {
@@ -1631,8 +1643,8 @@
           "englishTerm": "Metaphor",
           "russianTerm": "Метафора",
           "contrast": {
-            "en": "A metaphor says one thing is another, without 'like' or 'as'.",
-            "ru": "Метафора называет одно другим, без «like» и «as»."
+            "en": "A metaphor describes one thing in terms of another without a literal identity; it can work through a noun, verb or extended image. “The corridor swallowed her footsteps” transfers an action of a living body to a space.",
+            "ru": "Метафора описывает одно через другое в переносном смысле. Она может выражаться существительным, глаголом или развёрнутым образом: в «The corridor swallowed her footsteps» действие живого тела перенесено на пространство."
           },
           "sources": [
             {

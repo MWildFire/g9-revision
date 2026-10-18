@@ -457,7 +457,7 @@ export const chemistryScopePractice: Record<string, Exercise[]> = {
       "id": "chem-scope-35",
       "prompt": {
         "en": "Explain how a zinc/copper chemical cell can provide current. Distinguish terminal voltage from the reaction rate and name controlled variables for a comparison.",
-        "ru": "Как цинк-медный химический элемент создаёт ток? Отличи напряжение от скорости реакции и назови контролируемые условия сравнения."
+        "ru": "Как цинк-медный гальванический элемент создаёт ток? Отличи напряжение от скорости реакции и назови контролируемые условия сравнения."
       },
       "answer": {
         "en": "Oxidation at the zinc side supplies electrons that travel through the external circuit; reduction occurs at the other electrode. Ionic movement in the electrolyte/connection maintains charge balance. Electrode materials and electrolyte composition/concentration affect cell potential; current under load also depends on resistance and kinetics. Compare at matched temperature and measuring conditions. Faster bubbling alone is not a measurement of voltage.",

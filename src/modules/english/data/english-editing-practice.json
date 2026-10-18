@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "title": {
+    "en": "Edit, then explain your choice",
+    "ru": "Исправь и объясни выбор"
+  },
+  "intro": {
+    "en": "Eighteen original short tasks. Write the complete corrected sentence before opening the answer. Compare the meaning and the stated context; acceptable variants are shown where relevant. This is self-review, not an official test score.",
+    "ru": "18 авторских коротких заданий. До открытия ответа напиши полное исправленное предложение. Сопоставь смысл и условия; допустимые варианты указаны там, где они есть. Это самопроверка, а не официальный результат теста."
+  },
+  "tasks": [
+    {
+      "id": "tense-subject-question",
+      "group": "tense",
+      "focus": "present-simple",
+      "prompt": "Ask about the subject of “Mara lives next door”. Begin with Who.",
+      "answer": "Who lives next door?",
+      "reason": {
+        "en": "Who replaces the subject, so ordinary positive subject questions do not need do/does. Lives keeps its third-person singular form. This differs from “Where does Mara live?”",
+        "ru": "Who заменяет подлежащее, поэтому обычный утвердительный вопрос к подлежащему не требует do/does. У lives сохраняется форма третьего лица. В вопросе к месту было бы «Where does Mara live?»"
+      },
+      "variants": []
+    },
+    {
+      "id": "tense-present-continuous",
+      "group": "tense",
+      "focus": "present-continuous",
+      "prompt": "Use the present continuous of write: “Please wait. Mara ___ the final sentence right now.”",
+      "answer": "Please wait. Mara is writing the final sentence right now.",
+      "reason": {
+        "en": "Is + writing presents the activity as in progress now. The instruction requests the continuous form; “Mara writes” would describe a different perspective.",
+        "ru": "Is + writing показывает действие в процессе сейчас. Условие требует Present continuous; Mara writes передавало бы другой взгляд на ситуацию."
+      },
+      "variants": []
+    },
+    {
+      "id": "tense-past-simple",
+      "group": "tense",
+      "focus": "past-simple",
+      "prompt": "Use the past simple of finish: “We ___ the first draft yesterday.”",
+      "answer": "We finished the first draft yesterday.",
+      "reason": {
+        "en": "Yesterday places the completed event in a finished past period. In this context the requested form is finished, not have finished.",
+        "ru": "Yesterday относит завершённое событие к закончившемуся прошлому периоду. Здесь нужна запрошенная форма finished, а не have finished."
+      },
+      "variants": []
+    },
+    {
+      "id": "tense-past-continuous",
+      "group": "tense",
+      "focus": "past-continuous",
+      "prompt": "Use the past continuous of read for the background action: “Mara ___ her notes when the bell rang.”",
+      "answer": "Mara was reading her notes when the bell rang.",
+      "reason": {
+        "en": "Was reading gives the ongoing background; rang is the shorter event that occurs during it. Past simple read is possible in another narrative, but would not express the requested ongoing background.",
+        "ru": "Was reading задаёт процесс, на фоне которого прозвенел звонок — rang. В другом рассказе возможен Past simple read, но он не передаст требуемый продолжающийся фон."
+      },
+      "variants": []
+    },
+    {
+      "id": "tense-present-perfect",
+      "group": "tense",
+      "focus": "present-perfect",
+      "prompt": "Use the present perfect of know for a continuing state: “I ___ Ben since primary school, and we are still friends.”",
+      "answer": "I have known Ben since primary school, and we are still friends.",
+      "reason": {
+        "en": "Have known links a state beginning in the past with the present. Know is normally stative here, so have been knowing is not the ordinary choice.",
+        "ru": "Have known связывает начавшееся в прошлом состояние с настоящим. Know здесь обычно обозначает состояние, поэтому have been knowing не является обычным вариантом."
+      },
+      "variants": [
+        {
+          "en": "I’ve known Ben since primary school, and we are still friends.",
+          "ru": "Сокращение I’ve допустимо и сохраняет тот же смысл."
+        }
+      ]
+    },
+    {
+      "id": "tense-future-plan",
+      "group": "tense",
+      "focus": "future",
+      "prompt": "Express an intention already decided, using going to: “I ___ rewrite the ending tonight.”",
+      "answer": "I am going to rewrite the ending tonight.",
+      "reason": {
+        "en": "Am going to + infinitive expresses the requested prior intention. Will and a present continuous arrangement can be grammatical in suitable contexts, but the task explicitly requests going to.",
+        "ru": "Am going to + инфинитив передаёт заранее принятое намерение. Will и Present continuous возможны в подходящем контексте, но здесь прямо требуется going to."
+      },
+      "variants": [
+        {
+          "en": "I’m going to rewrite the ending tonight.",
+          "ru": "Сокращённая форма I’m также подходит."
+        }
+      ]
+    },
+    {
+      "id": "punct-comma-splice",
+      "group": "punctuation",
+      "focus": "comma",
+      "prompt": "Repair the comma splice without changing the words: “The corridor was empty, Mara waited by the door.”",
+      "answer": "The corridor was empty. Mara waited by the door.",
+      "reason": {
+        "en": "Both clauses can stand alone. A comma alone does not normally join them in formal prose; a full stop or semicolon repairs the boundary.",
+        "ru": "Обе части самостоятельны. В обычной формальной прозе одной запятой между ними недостаточно; границу исправляет точка или точка с запятой."
+      },
+      "variants": [
+        {
+          "en": "The corridor was empty; Mara waited by the door.",
+          "ru": "Точка с запятой связывает близкие по смыслу самостоятельные части."
+        }
+      ]
+    },
+    {
+      "id": "punct-semicolon",
+      "group": "punctuation",
+      "focus": "semicolon",
+      "prompt": "Link the two related independent clauses with a semicolon: “Mara checked the switch Ben checked the door.”",
+      "answer": "Mara checked the switch; Ben checked the door.",
+      "reason": {
+        "en": "Each side has a subject and finite verb and can be a complete sentence. The semicolon links the two checks without adding a conjunction.",
+        "ru": "В каждой части есть подлежащее и личная форма глагола; обе могут быть предложениями. Точка с запятой связывает две проверки без союза."
+      },
+      "variants": []
+    },
+    {
+      "id": "punct-colon",
+      "group": "punctuation",
+      "focus": "colon",
+      "prompt": "Insert a colon to introduce the list: “We need three things time patience and a plan.” Add the list punctuation.",
+      "answer": "We need three things: time, patience and a plan.",
+      "reason": {
+        "en": "The complete clause “We need three things” introduces the list. The colon does not split a verb directly from its object. A serial comma is optional here.",
+        "ru": "Полная часть We need three things вводит перечень. Двоеточие не разрывает глагол и его дополнение. Запятая перед последним and здесь необязательна."
+      },
+      "variants": [
+        {
+          "en": "We need three things: time, patience, and a plan.",
+          "ru": "Вариант с серийной запятой также верен."
+        }
+      ]
+    },
+    {
+      "id": "punct-apostrophe",
+      "group": "punctuation",
+      "focus": "apostrophe",
+      "prompt": "Three students share one notebook. Add the missing possessive apostrophe: “The students notebook lay on the desk.”",
+      "answer": "The students’ notebook lay on the desk.",
+      "reason": {
+        "en": "The plural noun students already ends in s, so its possessive adds an apostrophe after s. Student’s would mean one student in this context.",
+        "ru": "Множественное students уже оканчивается на s; апостроф принадлежности ставится после s. Student’s здесь означало бы одного ученика."
+      },
+      "variants": [
+        {
+          "en": "The students' notebook lay on the desk.",
+          "ru": "Прямой и типографский апострофы допустимы."
+        }
+      ]
+    },
+    {
+      "id": "punct-dashes",
+      "group": "punctuation",
+      "focus": "dash",
+      "prompt": "Mark the parenthetical phrase “not the audience” with a pair of dashes: “Mara not the audience knows what the machine can do.”",
+      "answer": "Mara—not the audience—knows what the machine can do.",
+      "reason": {
+        "en": "The paired dashes set off the interruption. Removing it leaves the complete sentence “Mara knows what the machine can do.” Consistent spaced en dashes are another style.",
+        "ru": "Парные тире выделяют вставку. Без неё остаётся полное предложение Mara knows what the machine can do. Другой допустимый стиль — одинаковые короткие тире с пробелами."
+      },
+      "variants": [
+        {
+          "en": "Mara – not the audience – knows what the machine can do.",
+          "ru": "Допустимы парные en dash с пробелами при последовательном оформлении."
+        }
+      ]
+    },
+    {
+      "id": "confusable-your",
+      "group": "confusable",
+      "focus": "your-youre",
+      "prompt": "Choose your or you’re in both gaps: “___ a careful reader; check ___ evidence.”",
+      "answer": "You’re a careful reader; check your evidence.",
+      "reason": {
+        "en": "You’re expands to you are, even before the noun phrase “a careful reader”. Your determines evidence and expresses belonging or association.",
+        "ru": "You’re раскрывается как you are, даже перед именной группой a careful reader. Your относится к evidence и выражает принадлежность или связь."
+      },
+      "variants": [
+        {
+          "en": "You're a careful reader; check your evidence.",
+          "ru": "Прямой апостроф также допустим."
+        }
+      ]
+    },
+    {
+      "id": "confusable-its",
+      "group": "confusable",
+      "focus": "its-its",
+      "prompt": "Choose its or it’s in both gaps: “___ a new machine, but ___ switch is old.”",
+      "answer": "It’s a new machine, but its switch is old.",
+      "reason": {
+        "en": "It’s means it is here. Its is the possessive determiner before switch. Elsewhere it’s can also mean it has, as in “It’s been tested”.",
+        "ru": "Здесь it’s означает it is. Its — форма принадлежности перед switch. В другом контексте it’s может означать it has: It’s been tested."
+      },
+      "variants": [
+        {
+          "en": "It's a new machine, but its switch is old.",
+          "ru": "Прямой апостроф также допустим."
+        }
+      ]
+    },
+    {
+      "id": "confusable-there",
+      "group": "confusable",
+      "focus": "there-their-theyre",
+      "prompt": "Choose there, their or they’re: “___ waiting over ___ with ___ notebooks.”",
+      "answer": "They’re waiting over there with their notebooks.",
+      "reason": {
+        "en": "They’re = they are; there points to a place; their determines notebooks. Each form has a different grammatical job.",
+        "ru": "They’re = they are; there указывает место; their относится к notebooks. Каждая форма выполняет свою грамматическую работу."
+      },
+      "variants": [
+        {
+          "en": "They're waiting over there with their notebooks.",
+          "ru": "Прямой апостроф также допустим."
+        }
+      ]
+    },
+    {
+      "id": "confusable-fewer",
+      "group": "confusable",
+      "focus": "less-fewer",
+      "prompt": "Use formal written English: “There were ___ errors, so I spent ___ time editing.” Choose less or fewer.",
+      "answer": "There were fewer errors, so I spent less time editing.",
+      "reason": {
+        "en": "Errors is a plural countable noun, so fewer fits. Time here is an uncountable duration, so less fits. Measured quantities such as “less than ten minutes” can also take less.",
+        "ru": "Errors — исчисляемое существительное во множественном числе: fewer. Time здесь — неисчисляемая длительность: less. Для единой измеряемой величины также возможно less than ten minutes."
+      },
+      "variants": []
+    },
+    {
+      "id": "confusable-affect",
+      "group": "confusable",
+      "focus": "affect-effect",
+      "prompt": "Choose affect or effect in the common meanings influence/result: “The noise may ___ the audience; its ___ could be unsettling.”",
+      "answer": "The noise may affect the audience; its effect could be unsettling.",
+      "reason": {
+        "en": "Affect is the verb influence here, and effect is the noun result. This is a meaning test, not a claim that effect can never be a verb: “effect change” means bring change about.",
+        "ru": "Здесь affect — глагол «влиять», а effect — существительное «результат, воздействие». Проверяем смысл, а не утверждаем, что effect никогда не бывает глаголом: effect change означает «осуществить перемены»."
+      },
+      "variants": []
+    },
+    {
+      "id": "confusable-than",
+      "group": "confusable",
+      "focus": "than-then",
+      "prompt": "Choose than or then: “Read the scene first, ___ explain why the ending is quieter ___ the opening.”",
+      "answer": "Read the scene first, then explain why the ending is quieter than the opening.",
+      "reason": {
+        "en": "Then introduces the next step; than follows the comparative quieter. The comma is followed by a coordinated instruction, not two unrelated finite statements.",
+        "ru": "Then вводит следующий шаг; than следует за сравнительной формой quieter. Запятая связывает последовательные указания с общим подразумеваемым подлежащим you."
+      },
+      "variants": []
+    },
+    {
+      "id": "agreement-head-noun",
+      "group": "agreement",
+      "focus": "subject-verb-agreement",
+      "prompt": "Choose is or are: “The list of camera locations ___ on the noticeboard.”",
+      "answer": "The list of camera locations is on the noticeboard.",
+      "reason": {
+        "en": "The subject’s head noun is singular list. The plural noun locations belongs to the of-phrase and does not control this verb.",
+        "ru": "Главное слово подлежащего — единственное list. Множественное locations входит в оборот с of и здесь не определяет форму сказуемого."
+      },
+      "variants": []
+    }
+  ]
+}

@@ -1,0 +1,1601 @@
+[
+  {
+    "id": "geo-geo-01-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Use resource-market quantities without confusing stock and need",
+      "ru": "Различать ресурс, запас, спрос, предложение и потребность"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-resources-market"
+    ],
+    "studyPath": "/grade9/g-resources"
+  },
+  {
+    "id": "geo-geo-02-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Interpret a dated pattern in resource consumption",
+      "ru": "Интерпретировать датированное изменение потребления ресурса"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-resources-1",
+      "g-resources-theories"
+    ],
+    "studyPath": "/grade9/g-resources"
+  },
+  {
+    "id": "geo-geo-03-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain drivers of changing resource demand",
+      "ru": "Объяснять причины изменения спроса на ресурсы"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-resources-theories"
+    ],
+    "studyPath": "/grade9/g-resources"
+  },
+  {
+    "id": "geo-geo-04-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Compare population-pressure and innovation explanations",
+      "ru": "Сравнивать объяснения через рост населения и инновации"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-resources-theories",
+      "g-resources-2"
+    ],
+    "studyPath": "/grade9/g-resources"
+  },
+  {
+    "id": "geo-geo-05-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Interpret development indicators with definitions and limits",
+      "ru": "Интерпретировать показатели развития с определениями и ограничениями"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-indicators-1",
+      "g-indicators-2",
+      "g-indicators-gdp-denominator"
+    ],
+    "studyPath": "/grade9/g-indicators"
+  },
+  {
+    "id": "geo-geo-06-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain unequal access despite available resources",
+      "ru": "Объяснять неравный доступ при наличии ресурсов"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-resources-2",
+      "g-resources-theories"
+    ],
+    "studyPath": "/grade9/g-resources"
+  },
+  {
+    "id": "geo-geo-07-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Distinguish replenishment from sustainable energy use",
+      "ru": "Различать возобновляемость и устойчивое использование энергии"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-resources-energy-tradeoff"
+    ],
+    "studyPath": "/grade9/g-resources"
+  },
+  {
+    "id": "geo-geo-08-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Evaluate extraction across social, economic, environmental and political effects",
+      "ru": "Оценивать социальные, экономические, экологические и политические последствия добычи"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-resource-decisions-2"
+    ],
+    "studyPath": "/grade9/g-resource-decisions"
+  },
+  {
+    "id": "geo-geo-09-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Evaluate a resource-management response using a case",
+      "ru": "Оценивать управление ресурсом на конкретном примере"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-aral-case-2"
+    ],
+    "studyPath": "/grade9/g-aral-case"
+  },
+  {
+    "id": "geo-geo-10-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Use a named resource case with evidence and scale",
+      "ru": "Использовать ресурсный кейс с данными и масштабом"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-aral-case-1",
+      "g-aral-case-2"
+    ],
+    "studyPath": "/grade9/g-aral-case"
+  },
+  {
+    "id": "geo-geo-11-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain the circulation model and rising or sinking air",
+      "ru": "Объяснять модель циркуляции и подъём или опускание воздуха"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-circulation-model",
+      "g-atmosphere-1"
+    ],
+    "studyPath": "/grade9/g-atmosphere"
+  },
+  {
+    "id": "geo-geo-12-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Connect pressure patterns with atmospheric motion",
+      "ru": "Связывать поля давления с движением воздуха"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-circulation-model"
+    ],
+    "studyPath": "/grade9/g-atmosphere"
+  },
+  {
+    "id": "geo-geo-13-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Compare flood, cyclone and drought mechanisms",
+      "ru": "Сравнивать механизмы наводнения, циклона и засухи"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-hazards-mechanisms"
+    ],
+    "studyPath": "/grade9/g-atmosphere"
+  },
+  {
+    "id": "geo-geo-14-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Compare multiple kinds of atmospheric-hazard impact",
+      "ru": "Сравнивать разные виды последствий атмосферных опасностей"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-hazard-case-management"
+    ],
+    "studyPath": "/grade9/g-atmosphere"
+  },
+  {
+    "id": "geo-geo-15-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Justify immediate and longer-term hazard responses",
+      "ru": "Обосновывать срочные и долгосрочные меры против опасностей"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-atmosphere-2",
+      "g-hazard-case-management"
+    ],
+    "studyPath": "/grade9/g-atmosphere"
+  },
+  {
+    "id": "geo-geo-16-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Compare the two ENSO phases using ocean–air links",
+      "ru": "Сравнивать фазы ЭНЮК по связи океана и атмосферы"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-enso-comparison"
+    ],
+    "studyPath": "/grade9/g-atmosphere"
+  },
+  {
+    "id": "geo-geo-17-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Support hazard management with a dated example",
+      "ru": "Обосновывать управление опасностями датированным примером"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-hazard-case-management"
+    ],
+    "studyPath": "/grade9/g-atmosphere"
+  },
+  {
+    "id": "geo-geo-18-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Assess climate evidence across different timescales",
+      "ru": "Оценивать климатические свидетельства на разных масштабах времени"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-climate-drivers-timescale",
+      "g-climate-evidence-1",
+      "g-climate-evidence-3"
+    ],
+    "studyPath": "/grade9/g-climate-evidence"
+  },
+  {
+    "id": "geo-geo-19-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Distinguish human forcing from natural climate drivers",
+      "ru": "Отличать антропогенное воздействие от естественных причин климата"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-climate-drivers-timescale",
+      "g-climate-evidence-2"
+    ],
+    "studyPath": "/grade9/g-climate-evidence"
+  },
+  {
+    "id": "geo-geo-20-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Distinguish landscape scale from individual landforms",
+      "ru": "Различать масштаб ландшафта и отдельные формы рельефа"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-processes-weathering-scale"
+    ],
+    "studyPath": "/grade9/g-river-processes"
+  },
+  {
+    "id": "geo-geo-21-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain river erosion through four mechanisms",
+      "ru": "Объяснять речную эрозию через четыре механизма"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-erosion-transport-classification"
+    ],
+    "studyPath": "/grade9/g-river-processes"
+  },
+  {
+    "id": "geo-geo-22-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Compare mechanical, chemical and biological weathering",
+      "ru": "Сравнивать механическое, химическое и биологическое выветривание"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-processes-weathering-scale"
+    ],
+    "studyPath": "/grade9/g-river-processes"
+  },
+  {
+    "id": "geo-geo-23-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain surface processes acting above the water",
+      "ru": "Объяснять процессы на склонах и поверхности вне русла"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-processes-weathering-scale"
+    ],
+    "studyPath": "/grade9/g-river-processes"
+  },
+  {
+    "id": "geo-geo-24-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Distinguish removal from sediment accumulation",
+      "ru": "Различать разрушение и накопление наносов"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-erosion-transport-classification"
+    ],
+    "studyPath": "/grade9/g-river-processes"
+  },
+  {
+    "id": "geo-geo-25-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Classify four modes of river sediment transport",
+      "ru": "Классифицировать четыре способа речного переноса"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-erosion-transport-classification",
+      "g-river-processes-2"
+    ],
+    "studyPath": "/grade9/g-river-processes"
+  },
+  {
+    "id": "geo-geo-26-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Interpret changing conditions along a river profile",
+      "ru": "Интерпретировать изменения вдоль продольного профиля реки"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-long-profile-model"
+    ],
+    "studyPath": "/grade9/g-channel"
+  },
+  {
+    "id": "geo-geo-27-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Use a downstream model with channel measures and limits",
+      "ru": "Использовать модель вниз по течению с измерениями русла и оговорками"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-channel-1",
+      "g-channel-2",
+      "g-long-profile-model"
+    ],
+    "studyPath": "/grade9/g-channel"
+  },
+  {
+    "id": "geo-geo-28-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Compare storm hydrograph peaks and lag times",
+      "ru": "Сравнивать пики и запаздывания паводковых гидрографов"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-floods-1"
+    ],
+    "studyPath": "/grade9/g-floods"
+  },
+  {
+    "id": "geo-geo-29-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain how land cover alters runoff and flood risk",
+      "ru": "Объяснять влияние покрова поверхности на сток и риск наводнения"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-floods-land-use"
+    ],
+    "studyPath": "/grade9/g-floods"
+  },
+  {
+    "id": "geo-geo-30-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain linked stages of river-landform development",
+      "ru": "Объяснять последовательность образования речных форм"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-river-cases-1",
+      "g-river-cases-2",
+      "g-river-cases-3"
+    ],
+    "studyPath": "/grade9/g-river-cases"
+  },
+  {
+    "id": "geo-geo-31-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Compare engineered structures and management approaches",
+      "ru": "Сравнивать сооружения и природосообразное управление рекой"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-floods-2",
+      "g-floods-land-use"
+    ],
+    "studyPath": "/grade9/g-floods"
+  },
+  {
+    "id": "geo-geo-32-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Trace consequences of interventions through a river system",
+      "ru": "Прослеживать последствия вмешательства в речную систему"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-floods-land-use"
+    ],
+    "studyPath": "/grade9/g-floods"
+  },
+  {
+    "id": "geo-geo-35-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Use named river cases while stating evidence limits",
+      "ru": "Использовать названные речные кейсы с оговорками о данных"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-river-cases-1",
+      "g-river-cases-2",
+      "g-river-cases-3"
+    ],
+    "studyPath": "/grade9/g-river-cases"
+  },
+  {
+    "id": "geo-geo-36-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "State a focused fieldwork purpose",
+      "ru": "Формулировать конкретную цель полевого исследования"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-aim-origin-type"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-37-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Write a testable fieldwork prediction",
+      "ru": "Формулировать проверяемую гипотезу полевого исследования"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-aim-origin-type"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-38-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Identify data collected directly for an investigation",
+      "ru": "Определять первичные данные полевого исследования"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-aim-origin-type"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-39-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Identify reused data and assess their origin",
+      "ru": "Определять вторичные данные и оценивать происхождение"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-aim-origin-type"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-40-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Recognise numerical measurements as quantitative data",
+      "ru": "Распознавать количественные данные измерений"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-aim-origin-type"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-41-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Recognise descriptive evidence as qualitative data",
+      "ru": "Распознавать качественные описательные данные"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-aim-origin-type"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-42-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain sample size without equating it to representativeness",
+      "ru": "Объяснять объём выборки, не приравнивая его к репрезентативности"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-aim-origin-type",
+      "g-fieldwork-sampling-evaluation"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-43-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Apply fixed-interval selection and recognise bias",
+      "ru": "Применять систематический отбор и распознавать смещение"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-sampling-evaluation"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-44-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Allocate observations across defined strata",
+      "ru": "Распределять наблюдения между заданными слоями"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-sampling-evaluation"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-45-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Describe a genuinely random selection procedure",
+      "ru": "Описывать процедуру случайного отбора"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-sampling-evaluation"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-46-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Make a fieldwork method reproducible",
+      "ru": "Делать метод полевого исследования воспроизводимым"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-sampling-evaluation"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-47-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Choose a justified data display including spatial evidence",
+      "ru": "Обоснованно выбирать график и пространственное представление"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-graph-choice",
+      "g-fieldwork-2",
+      "g-fieldwork-3",
+      "g-fieldwork-4",
+      "g-fieldwork-5"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-49-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Answer a fieldwork question from collected evidence",
+      "ru": "Делать вывод по полевому вопросу на основе данных"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-sampling-evaluation"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-50-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Link a limitation to a specific methodological improvement",
+      "ru": "Связывать ограничение с конкретным улучшением метода"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-fieldwork-sampling-evaluation"
+    ],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "geo-geo-51-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Explain changes in tourism with a dated context",
+      "ru": "Объяснять изменения туризма с временным контекстом"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-tourism-change-causes"
+    ],
+    "studyPath": "/grade9/g-tourism"
+  },
+  {
+    "id": "geo-geo-52-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Classify visitor purposes without assuming their effects",
+      "ru": "Классифицировать цели туриста без автоматических выводов об эффектах"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-tourism-purpose-ethics"
+    ],
+    "studyPath": "/grade9/g-tourism"
+  },
+  {
+    "id": "geo-geo-53-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Evaluate tourism benefits, costs and unequal distribution",
+      "ru": "Оценивать пользу, издержки и распределение эффектов туризма"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-tourism-purpose-ethics",
+      "g-tourism-2"
+    ],
+    "studyPath": "/grade9/g-tourism"
+  },
+  {
+    "id": "geo-geo-54-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Compare local tourism outcomes in a named destination",
+      "ru": "Сопоставлять результаты туризма в конкретном месте"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-jamaica-tourism-3"
+    ],
+    "studyPath": "/grade9/g-jamaica-tourism"
+  },
+  {
+    "id": "geo-geo-55-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Evaluate a tourism-management strategy using evidence",
+      "ru": "Оценивать управление туризмом по конкретным данным"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-baikal-tourism-1",
+      "g-baikal-tourism-2",
+      "g-baikal-tourism-3"
+    ],
+    "studyPath": "/grade9/g-baikal-tourism"
+  },
+  {
+    "id": "geo-geo-56-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Use dated tourism cases with traceable evidence",
+      "ru": "Использовать датированные туристические кейсы с проверяемыми данными"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-tourism-evidence-1",
+      "g-tourism-evidence-2",
+      "g-tourism-evidence-3",
+      "g-tourism-evidence-4"
+    ],
+    "studyPath": "/grade9/g-tourism-evidence"
+  },
+  {
+    "id": "geo-geo-57-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Combine ethics, scale and sustainability in a tourism judgement",
+      "ru": "Соединять этику, масштаб и устойчивость в оценке туризма"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "g-tourism-purpose-ethics",
+      "g-tourism-2"
+    ],
+    "studyPath": "/grade9/g-tourism"
+  },
+  {
+    "id": "geo-geo-tect-01-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Earth structure and moving plates",
+      "ru": "Объяснять и применять: Строение Земли и движение плит"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "earth-q1",
+      "earth-q2",
+      "earth-q3",
+      "earth-density-q4"
+    ],
+    "studyPath": "/geography-tectonic-hazards/earth-structure"
+  },
+  {
+    "id": "geo-geo-tect-02-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Constructive (divergent) boundaries",
+      "ru": "Объяснять и применять: Дивергентные (конструктивные) границы"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "constructive-q1",
+      "constructive-q2",
+      "constructive-q3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/constructive"
+  },
+  {
+    "id": "geo-geo-tect-03-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Destructive boundaries and subduction",
+      "ru": "Объяснять и применять: Конвергентные (деструктивные) границы и субдукция"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "subduction-q1",
+      "subduction-q2",
+      "subduction-q3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/subduction"
+  },
+  {
+    "id": "geo-geo-tect-04-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Collision boundaries and fold mountains",
+      "ru": "Объяснять и применять: Коллизионные границы и складчатые горы"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "collision-q1",
+      "collision-q2",
+      "collision-q3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/collision"
+  },
+  {
+    "id": "geo-geo-tect-05-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Conservative / transform boundaries",
+      "ru": "Объяснять и применять: Трансформные (консервативные) границы"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "conservative-q1",
+      "conservative-q2",
+      "conservative-q3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/conservative"
+  },
+  {
+    "id": "geo-geo-tect-06-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: How earthquakes happen and are measured",
+      "ru": "Объяснять и применять: Как происходят и измеряются землетрясения"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "earthquakes-q1",
+      "earthquakes-q2",
+      "earthquakes-q3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/earthquakes"
+  },
+  {
+    "id": "geo-geo-tect-07-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Volcano types and eruption behaviour",
+      "ru": "Объяснять и применять: Типы вулканов и характер извержений"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "volcano-types-q1",
+      "volcano-types-q2",
+      "volcano-types-q3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/volcano-types"
+  },
+  {
+    "id": "geo-geo-tect-08-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Inside a volcano: structures and eruption pathways",
+      "ru": "Объяснять и применять: Внутри вулкана: строение и пути извержения"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "volcano-structure-q1",
+      "volcano-structure-q2",
+      "volcano-structure-q3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/volcano-structure"
+  },
+  {
+    "id": "geo-geo-tect-09-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Chile: the Maule earthquake, 2010",
+      "ru": "Объяснять и применять: Чили: землетрясение Мауле, 2010"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "chile-causes",
+      "chile-effects",
+      "chile-evaluate"
+    ],
+    "studyPath": "/geography-tectonic-hazards/chile"
+  },
+  {
+    "id": "geo-geo-tect-10-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Nepal: the Gorkha earthquake, 2015",
+      "ru": "Объяснять и применять: Непал: землетрясение Горкха, 2015"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "nepal-causes",
+      "nepal-secondary",
+      "nepal-chile"
+    ],
+    "studyPath": "/geography-tectonic-hazards/nepal"
+  },
+  {
+    "id": "geo-geo-tect-11-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Eyjafjallajökull: Iceland, 2010",
+      "ru": "Объяснять и применять: Эйяфьядлайёкюдль: Исландия, 2010"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "iceland-explosive",
+      "iceland-effects",
+      "iceland-management"
+    ],
+    "studyPath": "/geography-tectonic-hazards/eyjafjallajokull"
+  },
+  {
+    "id": "geo-geo-tect-12-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Prediction, protection and preparation",
+      "ru": "Объяснять и применять: Прогнозирование, защита и подготовка"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "ppp-1",
+      "ppp-2",
+      "ppp-3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/three-ps"
+  },
+  {
+    "id": "geo-geo-tect-13-practice",
+    "topic": "g-tectonics",
+    "title": {
+      "en": "Explain and apply: Building design and long-term risk management",
+      "ru": "Объяснять и применять: Проектирование зданий и долгосрочное управление риском"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      40
+    ],
+    "timing": {
+      "read": 8,
+      "example": 5,
+      "attempt": 8,
+      "check": 4
+    },
+    "practiceIds": [
+      "building-1",
+      "building-2",
+      "building-3"
+    ],
+    "studyPath": "/geography-tectonic-hazards/building-design"
+  }
+]

@@ -9,7 +9,7 @@ export function Header() {
   const pathname = useLocation().pathname;
   const isSeparatePack = pathname.startsWith('/physics-september-2026') || pathname.startsWith('/geography-tectonic-hazards') || pathname.startsWith('/math-term-1-2026');
   return (
-    <header className="sticky top-0 z-40 bg-bg-primary/85 backdrop-blur border-b border-border">
+    <header className="app-header sticky top-0 z-40 bg-bg-primary/85 backdrop-blur border-b border-border">
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 flex flex-wrap items-center justify-between gap-2">
         <Link to={ROUTES.HUB} className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
           <svg width="28" height="28" viewBox="0 0 64 64" fill="none" aria-hidden>

@@ -244,3 +244,6 @@ input[type='range']::-moz-range-thumb {
 /* Keep energy-profile teaching labels readable; its focusable region scrolls on narrow screens. */
 .energy-profile-diagram{min-width:420px}
 @media print{.energy-profile-diagram{min-width:0}}
+
+/* Printing an energy profile after a tab scroll must not overlay its fixed navigation on teaching. */
+@media print{body:has(.energy-profile-diagram) .app-header{display:none!important}}

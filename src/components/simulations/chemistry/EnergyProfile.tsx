@@ -41,14 +41,14 @@ export function EnergyProfile() {
           <Slider label={(mode === 'exo' ? t('simulations.energyProfile.deltaHExoLabel') : t('simulations.energyProfile.deltaHEndoLabel')).replace('|ΔH| ', '|ΔH|\u00A0')} min={20} max={120} step={5} value={deltaH} onChange={setDeltaH} unit={unit} />
         </div>
 
-        <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.energyProfile.title')}><svg style={{ width: '100%', maxWidth: 'none', height: 'auto' }} role="img" aria-label={`${t('simulations.energyProfile.title')}; Ea = ${geometry.activation} ${unit}; ΔH = ${geometry.deltaH} ${unit}`} viewBox={`0 0 ${W} 280`} className="w-full bg-bg-tertiary/20 rounded-md border border-border">
+        <div className="definition-diagram-viewport min-w-0" role="region" tabIndex={0} aria-label={t('simulations.energyProfile.title')}><svg style={{ width: '100%', maxWidth: 'none', height: 'auto' }} role="img" aria-label={`${t('simulations.energyProfile.title')}; Ea = ${geometry.activation} ${unit}; ΔH = ${geometry.deltaH} ${unit}`} viewBox={`0 0 ${W} 280`} className="energy-profile-diagram w-full bg-bg-tertiary/20 rounded-md border border-border">
           <title>{t('simulations.energyProfile.title')}</title>
           <desc>{t('simulations.energyProfile.description')}</desc>
           {/* Axes */}
           <line x1={30} y1={20} x2={30} y2={250} stroke="var(--color-border)" strokeWidth={1} />
           <line x1={30} y1={250} x2={W - 10} y2={250} stroke="var(--color-border)" strokeWidth={1} />
-          <text x={20} y={150} textAnchor="end" fontSize={10} fill="var(--color-text-muted)" transform="rotate(-90 10 150)">{t('simulations.energyProfile.yAxis')}</text>
-          <text x={(W - 30) / 2 + 30} y={270} textAnchor="middle" fontSize={10} fill="var(--color-text-muted)">{t('simulations.energyProfile.xAxis')}</text>
+          <text x={20} y={150} textAnchor="end" fontSize={16} fill="var(--color-text-primary)" transform="rotate(-90 10 150)">{t('simulations.energyProfile.yAxis')}</text>
+          <text x={(W - 30) / 2 + 30} y={270} textAnchor="middle" fontSize={16} fill="var(--color-text-primary)">{t('simulations.energyProfile.xAxis')}</text>
 
           {/* Curve */}
           <path
@@ -60,17 +60,17 @@ export function EnergyProfile() {
 
           {/* Activation energy arrow */}
           <line x1={peakX - 5} y1={reactantsY} x2={peakX - 5} y2={peakY} stroke="var(--color-accent-warm)" strokeWidth={1.5} markerStart={`url(#${markerId}-arrow)`} markerEnd={`url(#${markerId}-arrow)`} />
-          <text x={peakX - 10} y={(reactantsY + peakY) / 2} textAnchor="end" fontSize={10} fill="var(--color-accent-warm)">Eₐ = {geometry.activation} {unit}</text>
+          <text x={peakX - 10} y={(reactantsY + peakY) / 2} textAnchor="end" fontSize={16} fill="var(--color-text-primary)">Eₐ = {geometry.activation} {unit}</text>
 
           {/* ΔH arrow */}
           <line x1={productsX - 25} y1={reactantsY} x2={productsX - 25} y2={productsY} stroke="var(--color-accent-sage)" strokeWidth={1.5} />
-          <text x={productsX - 35} y={(reactantsY + productsY) / 2 + 4} textAnchor="end" fontSize={10} fill="var(--color-accent-sage)">
+          <text x={productsX - 35} y={(reactantsY + productsY) / 2 + 4} textAnchor="end" fontSize={16} fill="var(--color-text-primary)">
             ΔH = {mode === 'exo' ? '−' : '+'}{deltaH} {unit}
           </text>
 
           {/* Labels */}
-          <text x={reactantsX + 5} y={reactantsY - 8} fontSize={11} fill="var(--color-text-secondary)" fontWeight={600}>{t('simulations.energyProfile.reactants')}</text>
-          <text x={productsX - 5} y={mode === 'exo' ? productsY + 14 : productsY - 8} textAnchor="end" fontSize={11} fill="var(--color-text-secondary)" fontWeight={600}>{t('simulations.energyProfile.products')}</text>
+          <text x={reactantsX + 5} y={reactantsY - 8} fontSize={16} fill="var(--color-text-secondary)" fontWeight={600}>{t('simulations.energyProfile.reactants')}</text>
+          <text x={productsX - 5} y={mode === 'exo' ? productsY + 14 : productsY - 8} textAnchor="end" fontSize={16} fill="var(--color-text-secondary)" fontWeight={600}>{t('simulations.energyProfile.products')}</text>
 
           <defs>
             <marker id={`${markerId}-arrow`} viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--color-accent-warm)" /></marker>

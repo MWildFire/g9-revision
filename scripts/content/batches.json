@@ -2790,6 +2790,10 @@
         {
           "kind": "tsx",
           "file": "src/modules/english/pages/DevicesPage.tsx"
+        },
+        {
+          "kind": "tsx",
+          "file": "src/modules/november/englishSchoolRehearsal.tsx"
         }
       ]
     },

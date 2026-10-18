@@ -34,7 +34,7 @@ export function TransferPage() {
   const upload = async (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (!file) return;
-    try { setFilePack(parsePack(JSON.parse(await file.text()))); } catch { setFilePack(null); setMessage(t('This file is not a progress file.', 'Это не файл прогресса.')); }
+    try { const parsed = parsePack(JSON.parse(await file.text())); setFilePack(parsed); setMessage(parsed ? '' : t('This file is not a supported progress file. Existing progress was not changed.', 'Этот формат файла прогресса не поддерживается. Сохранённый прогресс не изменён.')); } catch { setFilePack(null); setMessage(t('This file is not a progress file.', 'Это не файл прогресса.')); }
   };
   const restore = () => {
     if (!pack) return;

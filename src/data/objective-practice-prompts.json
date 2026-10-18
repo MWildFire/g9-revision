@@ -2560,5 +2560,117 @@
       "en": "State the order of the main regions of the electromagnetic spectrum, starting from longest wavelength.",
       "ru": "Назови основные области электромагнитного спектра по порядку, начиная с самой длинной длины волны."
     }
+  },
+  {
+    "id": "spring-energy-diagnostic",
+    "prompt": {
+      "en": "An ideal spring obeys F = kx with k = 200 N/m. Its extension is 3.0 cm. Calculate the applied force and stored energy using the force–extension graph. Predict the energy at 6.0 cm if both extensions remain proportional. State the model limit.",
+      "ru": "Идеальная пружина подчиняется F = kx, k = 200 Н/м. Удлинение 3,0 см. Найди силу и запасённую энергию по графику силы от удлинения. Найди энергию при 6,0 см, если оба состояния в пределах пропорциональности. Укажи границы модели."
+    }
+  },
+  {
+    "id": "gas-controls-diagnostic",
+    "prompt": {
+      "en": "A fixed amount of approximately ideal gas has absolute pressure 100 kPa and volume 0.50 L. At constant temperature it is compressed to 0.25 L. Find the final pressure and explain wall collisions. Separately, the original gas in a rigid sealed container is heated from 300 K to 450 K. Find pressure. Explain why temperature alone cannot determine pressure if the piston can move.",
+      "ru": "Неизменное количество приближённо идеального газа имеет абсолютное давление 100 кПа и объём 0,50 л. При постоянной температуре объём уменьшают до 0,25 л. Найди давление и объясни столкновения со стенками. В отдельном опыте исходный газ в жёстком закрытом сосуде нагревают с 300 К до 450 К. Найди давление. Почему при подвижном поршне одной температуры недостаточно?"
+    }
+  },
+  {
+    "id": "electron-transfer-diagnostic",
+    "prompt": {
+      "en": "An initially neutral isolated metal sphere loses 5.0 × 10^12 electrons. Use e = 1.6 × 10^-19 C to calculate its final charge and explain which particles moved. An initially neutral receiver gains those electrons; find its charge and the combined change.",
+      "ru": "Изначально нейтральный изолированный металлический шар теряет 5,0 × 10^12 электронов. При e = 1,6 × 10^-19 Кл найди заряд шара и объясни, какие частицы переместились. Изначально нейтральный приёмник получает эти электроны. Найди его заряд и изменение общего заряда."
+    }
+  },
+  {
+    "id": "microscope-method-diagnostic",
+    "prompt": {
+      "en": "Explain a wet mount sequence and how to avoid bubbles. State three requirements for a biological drawing, including size information. Choose light microscopy for living-cell movement, TEM for internal fine structure and SEM for surface detail, explaining each choice.",
+      "ru": "Объясни последовательность приготовления временного препарата и как уменьшить число пузырьков. Назови три требования к биологическому рисунку, включая сведения о размере. Выбери световой микроскоп для движения живых клеток, TEM для тонкого внутреннего строения и SEM для поверхности и объясни выбор."
+    }
+  },
+  {
+    "id": "digestive-route-diagnostic",
+    "prompt": {
+      "en": "Trace food from mouth to anus in the correct order and give a role of each organ. Explain why food does not pass through the liver or pancreas, and distinguish digestion from absorption.",
+      "ru": "Проследи путь пищи от рта до ануса в правильном порядке и укажи роль каждого органа. Почему пища не проходит через печень и поджелудочную железу? Отличи переваривание от всасывания."
+    }
+  },
+  {
+    "id": "vessel-comparison-diagnostic",
+    "prompt": {
+      "en": "Compare artery, vein and capillary: direction, wall structure, valves and function. Explain why oxygen content alone cannot identify an artery.",
+      "ru": "Сравни артерию, вену и капилляр: направление движения крови, стенки, клапаны и функция. Почему одного содержания кислорода недостаточно, чтобы узнать артерию?"
+    }
+  },
+  {
+    "id": "seed-dispersal-diagnostic",
+    "prompt": {
+      "en": "Explain how dandelion/maple, burdock, fleshy fruit and coconut are adapted for seed dispersal. Distinguish this process from pollination and explain one benefit of dispersal.",
+      "ru": "Объясни приспособления одуванчика/клёна, репейника, мясистого плода и кокоса к распространению семян. Отличи этот процесс от опыления и назови одну пользу распространения."
+    }
+  },
+  {
+    "id": "school-1a-mood",
+    "prompt": {
+      "en": "Short practice 1a · Read the original Mara Text A on this page. Identify her mood near the end and support it with one precise detail. Write two sentences; distinguish her mood from the mood of the setting.",
+      "ru": "Короткая практика 1a · Прочитай авторский текст A о Маре на этой странице. Назови её настроение ближе к концу и подтверди точной деталью. Напиши два предложения; не подменяй состояние героини атмосферой места."
+    }
+  },
+  {
+    "id": "school-1b-language-structure",
+    "prompt": {
+      "en": "Short practice 1b · How does language OR structure in Mara Text A show her changing reaction to the experiment? Choose one exact detail and develop its effect in three or four sentences. Avoid repeating the mood answer without analysing a choice.",
+      "ru": "Короткая практика 1b · Как язык ИЛИ композиция текста A показывает изменение реакции Мары на опыт? Выбери одну точную деталь и объясни её эффект в трёх-четырёх предложениях. Недостаточно повторить ответ о настроении: разбери авторский приём."
+    }
+  },
+  {
+    "id": "school-1c-film-suspense",
+    "prompt": {
+      "en": "Short practice 1c · Using only the original four-shot storyboard on this page, explain how ONE film choice creates suspense. Identify the shot or sound, what is revealed or withheld, and the likely audience effect. This is storyboard analysis, not a claim to have watched Replicas.",
+      "ru": "Короткая практика 1c · Только по авторской раскадровке из четырёх кадров объясни, как ОДИН киноприём создаёт напряжённое ожидание. Укажи кадр или звук, что он показывает или скрывает и как может повлиять на зрителя. Это анализ раскадровки, а не просмотр «Replicas»."
+    }
+  },
+  {
+    "id": "school-1d-characterisation",
+    "prompt": {
+      "en": "Short practice 1d · What does the storyboard suggest about Mara as a scientist? Develop one inference from TWO related actions or visual/sound details. Explain why an inference is stronger than simply calling her “good” or “bad”.",
+      "ru": "Короткая практика 1d · Что раскадровка позволяет предположить о Маре как об учёном? Обоснуй один вывод ДВУМЯ связанными действиями, зрительными или звуковыми деталями. Покажи, почему такой вывод точнее, чем «хорошая» или «плохая»."
+    }
+  },
+  {
+    "id": "school-homework-plan",
+    "prompt": {
+      "en": "Separate homework preparation · Choose an authorised literary or non-literary extract of no more than one page to compare with Alma. Formulate your own Task 1e question about a shared big idea, then type a FULL response in 35 minutes. Keep the chosen extract and response together as instructed by your teacher. First practise a question and a two-claim plan here. Use only Alma details you have actually checked.",
+      "ru": "Подготовка к отдельной домашней работе · Выбери доступный тебе литературный или нехудожественный отрывок не длиннее одной страницы для сравнения с Alma. Сформулируй свой вопрос Task 1e об общей большой идее, затем напечатай ПОЛНЫЙ ответ за 35 минут. Держи отрывок и ответ вместе, как требует учитель. Здесь сначала потренируй вопрос и план из двух тезисов. Используй только те детали Alma, которые сам проверил."
+    }
+  },
+  {
+    "id": "school-picture-monologue",
+    "prompt": {
+      "en": "Picture-inspired monologue · Use the original mountain/mist/path illustration in this section. A walker has stopped at a bend and must explain to an absent companion why they cannot keep pretending to know the way. Plan speaker, listener, pressure, three visible image details and a change of mind. Then write a complete 350–450-word English monologue, using the existing inventor monologue as a transfer model. This length is our practice target, not a verified requirement of the school picture task.",
+      "ru": "Монолог по изображению · Используй авторскую иллюстрацию гор, тумана и тропы в этом разделе. Путник остановился на повороте и объясняет отсутствующему спутнику, почему больше не может притворяться, что знает дорогу. Наметь героя, адресата, причину заговорить, три видимые детали и изменение мысли. Затем напиши полный монолог на английском объёмом 350–450 слов, перенося приёмы из готового монолога изобретательницы. Такой объём — наша учебная цель, а не подтверждённое требование школьного задания по картинке."
+    }
+  },
+  {
+    "id": "school-script-transfer",
+    "prompt": {
+      "en": "Script opening transfer · Read the existing seven-turn Mara/Ben scene. Adapt its opening to two walkers at the bend in our picture: one wants to continue, the other asks what can actually be seen. Write six to eight turns and two performable directions; end on a decision that opens a further conflict.",
+      "ru": "Перенос в начало пьесы · Прочитай готовую сцену Мары и Бена из семи реплик. Перенеси её устройство на двух путников у поворота на нашей картинке: один хочет идти дальше, другой спрашивает, что действительно видно. Напиши шесть-восемь реплик и две исполнимые ремарки; закончи решением, из которого может вырасти следующий конфликт."
+    }
+  },
+  {
+    "id": "school-gothic-speech-transfer",
+    "prompt": {
+      "en": "Gothic curriculum speech · Use the complete corridor-camera speech on this page as a STRUCTURE model. Write a 300–400-word English speech to students arguing for or against including Gothic literature in the school curriculum. Address one fair objection, answer it with a condition, and end with a specific appeal. Use a Gothic text you have actually read if you name an example. This length is an authored practice target.",
+      "ru": "Речь о готической литературе · Используй готовую речь о камерах на этой странице как образец СТРУКТУРЫ. Напиши речь для учеников на английском, 300–400 слов, за или против включения готической литературы в школьную программу. Честно изложи одно возражение, ответь на него с условием и закончи конкретным призывом. Если называешь произведение, используй только то, что действительно читал. Объём задан для нашей тренировки."
+    }
+  },
+  {
+    "id": "school-surveillance-article",
+    "prompt": {
+      "en": "Article transfer · For a fictional student magazine, write a 350–450-word article arguing AGAINST making corridor cameras a permanent default. Engage fairly with the model article’s case for a limited trial and propose a workable alternative. Include a headline, fictional byline, a readable opening, developed paragraphs and a considered ending. Use hypothetical examples honestly; do not invent a survey or incident as evidence. This is an original practice target.",
+      "ru": "Перенос в статью · Для вымышленного ученического журнала напиши статью на английском, 350–450 слов, ПРОТИВ того, чтобы постоянные камеры в коридорах стали правилом по умолчанию. Честно ответь на довод образца в пользу ограниченного испытания и предложи выполнимую альтернативу. Нужны заголовок, вымышленное имя автора, понятное начало, развёрнутые абзацы и обдуманный финал. Помечай воображаемые ситуации; не выдавай придуманный опрос или случай за доказательство. Это авторское тренировочное задание."
+    }
   }
 ]

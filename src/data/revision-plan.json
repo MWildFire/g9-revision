@@ -77,8 +77,8 @@
       "id": "english",
       "title": "Grade 10 Half term mock exam revision · 5 October",
       "note": {
-        "en": "Three pages: Frankenstein/Replicas analysis and comparison; monologue/script; purposeful writing and text types. Practice texts do not guarantee the texts on the exam.",
-        "ru": "Три страницы: анализ и сравнение Frankenstein/Replicas; монолог/сценарий; письмо с заданной целью и типы текстов. Эти тренировочные тексты не гарантированы на экзамене."
+        "en": "All three pages observed: Frankenstein chapter 5/Replicas preparation for analysis/comparison; monologue from a picture; script opening; text types and purposeful speech/article. Posted 5 October, year not displayed. Equivalent authored practice is provided; original film and alternate linked comparison were not analysed here, and actual unseen mock texts are not guaranteed.",
+        "ru": "Просмотрены все три страницы: тренировка анализа/сравнения Frankenstein, глава 5, и Replicas; монолог по изображению; начало пьесы; типы текстов, речь и статья с заданной целью. Дата публикации — 5 октября, год не показан. На сайте — аналогичная авторская практика; исходный ролик и дополнительное сравнение по ссылке здесь не разбирались, тексты реального пробного экзамена не гарантированы."
       }
     },
     {
@@ -109,8 +109,8 @@
       "id": "english-task-1e",
       "title": "English · Half-Term Homework: Task 1e Practice · 9 October 2026",
       "note": {
-        "en": "Archived BRQ class document: choose an extract, formulate a concept-led prose/film comparison, write a full response in 35 minutes; due 19 October. The site provides equivalent practice stimuli.",
-        "ru": "Документ в архивном классе BRQ: выбрать отрывок, сформулировать сопоставление прозы и кино через общую идею, написать полный ответ за 35 минут; срок 19 октября. На сайте есть аналогичные отрывки для тренировки."
+        "en": "Observed archived-class homework: choose a literary or non-literary extract of no more than one page to compare with Alma; form your own concept-led question and type the complete comparison in 35 minutes. The printed deadline is Monday 19 October; 2026 is inferred from class/calendar context. This is the homework task, not a universal mock-paper time limit.",
+        "ru": "Просмотренное задание архивного класса: выбрать литературный или нелитературный отрывок не длиннее одной страницы для сравнения с Alma, сформулировать свой вопрос вокруг общей идеи и напечатать полный сравнительный ответ за 35 минут. Срок в тексте — понедельник 19 октября; 2026 год следует из контекста класса и календаря. Это отдельное домашнее задание, не общий лимит времени пробного экзамена."
       }
     }
   ],
@@ -155,8 +155,8 @@
       "id": "english",
       "status": "confirmed",
       "note": {
-        "en": "Current mock revision exercises: analysis, comparison, creative and purposeful writing.",
-        "ru": "Актуальные упражнения к пробным экзаменам: анализ, сравнение, творческое письмо и письмо с определённой целью."
+        "en": "Prescribed school practice: analysis and comparison, picture-inspired monologue, script opening and purposeful writing. The observed archived-class revision sheet does not guarantee the texts in the unseen mock.",
+        "ru": "Школьная тренировка: анализ и сравнение, монолог по изображению, начало пьесы и письмо с заданной целью. Просмотренный лист повторения из архивного класса не гарантирует тексты на пробном экзамене."
       },
       "title": {
         "en": "English",
@@ -2093,7 +2093,8 @@
             "en": "Recall task structures, a few precise analysis points and an editing checklist. No full paper.",
             "ru": "Вспомни структуру заданий, несколько точных приёмов анализа и чек-лист для проверки текста. Полный вариант не нужен."
           },
-          "id": "2026-11-08-1"
+          "id": "2026-11-08-1",
+          "recallPurpose": true
         },
         {
           "minutes": 20,
@@ -2105,7 +2106,8 @@
             "ru": "Если ты записан на экзамен по арабскому: коротко повтори чтение, лексику и грамматику по материалам сайта."
           },
           "optional": true,
-          "id": "2026-11-08-2"
+          "id": "2026-11-08-2",
+          "recallPurpose": true
         },
         {
           "minutes": 15,

@@ -909,7 +909,7 @@
       "title": "Rates of reaction",
       "items": [
         "Concentration effects depend on the reaction mechanism and must be determined experimentally. A slow step can control the rate, while a preceding fast equilibrium can also make the rate depend on reactants that do not appear directly in that slow step.",
-        "Temperature: the Maxwell–Boltzmann curve shifts to the right and widens, while its area stays the same. If the vertical axis shows the number of particles, the area equals the total number of particles.",
+        "Temperature: for a fixed number of particles, the Maxwell–Boltzmann energy distribution becomes broader and shifts towards higher energies. On a continuous graph the vertical axis is number of particles per unit energy, dN/dE, so the area under the curve is the total number of particles. If the vertical axis is a probability density, the total area is 1. Heating increases the fraction of particles above a fixed activation-energy threshold.",
         "Surface area: a solid catalyst works on its surface. A car's catalytic converter coats a porous support with platinum, palladium and rhodium, so the catalyst has a large surface area.",
         "Catalyst poisoning: impurities bind strongly to the catalyst's surface, so less of the surface is left for the reactants.",
         "Light starts photochemical reactions. A mixture of H₂ and Cl₂ hardly reacts in the dark, but it can explode in bright light."
@@ -1142,7 +1142,7 @@
       },
       "periodicTable": {
         "title": "Reading the periodic table",
-        "body": "An element is a substance made of one kind of atom. The periodic table lists elements in order of increasing atomic number, not relative atomic mass. Each row is a period and each column is a group. IUPAC numbers the groups from 1 to 18. Group 1 holds the alkali metals, apart from hydrogen. Group 17 holds the halogens, and group 18 holds the noble gases. The old school labels VIIA and 0 (VIIIA) mean groups 17 and 18. Most elements are metals. Metals lie to the left of a stepped line that runs from boron to astatine; non-metals lie to its right.",
+        "body": "An element is a substance made of one kind of atom. The periodic table lists elements in order of increasing atomic number, not relative atomic mass. Each row is a period and each column is a group. IUPAC numbers the groups from 1 to 18. Group 1 holds the alkali metals, apart from hydrogen. Group 17 holds the halogens, and group 18 holds the noble gases. The old school labels VIIA and 0 (VIIIA) mean groups 17 and 18. Most elements are metals. Most metals lie to the left of the stepped boundary and most non-metals to the right. Hydrogen is an important exception: it is a non-metal in group 1 on the left. The stepped boundary is a guide; elements near it can have intermediate properties.",
         "review": {
           "englishTerm": "Reading the periodic table",
           "russianTerm": "Как читать периодическую систему",
@@ -1467,7 +1467,7 @@
                 }
               ]
             },
-            "tip": "Reactivity series, from most to least reactive: K, Na, Ca, Mg, Al, Zn, Fe, Sn, Pb, H (hydrogen, not a metal), Cu, Ag, Au. A more reactive metal displaces a less reactive metal from its salt solution."
+            "tip": "Reactivity series, from most to least reactive: K, Na, Ca, Mg, Al, Zn, Fe, Sn, Pb, H (hydrogen, not a metal), Cu, Ag, Au. For metals such as zinc and iron in ordinary aqueous salt-solution experiments, a metal higher in the series can displace a lower metal. First check competing reactions: potassium, sodium and calcium react with the water, so do not use this simple rule to predict a clean metal deposit from their salt-solution reactions. Surface oxide films can also prevent the predicted change being observed."
           },
           "doubleDisplacement": {
             "name": "Double displacement (precipitation)",
@@ -1499,7 +1499,7 @@
             "rule": "Combustion is an exothermic reaction in which a fuel reacts with oxygen and releases heat. Complete combustion of a hydrocarbon forms only carbon dioxide and water. If there is too little oxygen, combustion is incomplete, and carbon monoxide (CO) and soot (carbon) form.",
             "examples": [
               "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g) — methane, the main component of natural gas",
-              "2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(g) — petrol (octane)"
+              "2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(g) — octane, used here as a model hydrocarbon component of petrol. Petrol itself is a mixture."
             ],
             "watchOut": "Carbon monoxide is toxic, and you cannot see or smell it. Gas appliances in closed rooms need fresh air, or carbon monoxide can build up.",
             "review": {
@@ -2484,7 +2484,7 @@
         "detailed": {
           "exothermic": {
             "name": "Exothermic reactions",
-            "rule": "An exothermic reaction transfers heat from the reacting system to its surroundings. Enthalpy (H) is the heat content of a system at constant pressure. The products have less enthalpy than the reactants, so ΔH = H(products) − H(reactants) < 0.",
+            "rule": "An exothermic reaction transfers heat from the reacting system to its surroundings. Enthalpy is the state property H = U + pV, where U is internal energy, p is pressure and V is volume. At constant pressure, with only expansion or compression work, the heat absorbed by the system equals ΔH. For this exothermic change, H(products) is lower than H(reactants), so ΔH = H(products) − H(reactants) < 0.",
             "examples": [
               "Burning methane: methane reacts with oxygen to give carbon dioxide and liquid water. At 298 K and 100 kPa, ΔH ≈ −890 kJ/mol of methane.",
               "Neutralisation of a dilute strong acid by a strong alkali: H⁺(aq) + OH⁻(aq) → H₂O(l). ΔH ≈ −57 kJ/mol of water formed.",

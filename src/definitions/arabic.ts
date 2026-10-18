@@ -385,8 +385,8 @@ export const ARABIC_REVIEWS: Record<string, DefinitionReview> = {
     "englishTerm": "Levantine Arabic",
     "russianTerm": "Левантийский арабский",
     "contrast": {
-      "en": "Levantine covers urban and rural varieties in Syria, Lebanon, Jordan and Palestine, so it is a group rather than one accent. Historical q is not pronounced the same way in all of them: some varieties make it a glottal stop, while others keep or change it differently.",
-      "ru": "Левантийский объединяет городские и сельские разновидности Сирии, Ливана, Иордании и Палестины, поэтому это группа, а не один говор. Историческое ق (q) произносится в них неодинаково: в одних разновидностях оно становится гортанной смычкой, в других сохраняется или меняется иначе."
+      "en": "Levantine covers regional varieties in Syria, Lebanon, Jordan and Palestine, so it is a group rather than one accent. Historical q is not pronounced the same way in all of them: some varieties make it a glottal stop, while others keep or change it differently.",
+      "ru": "Левантийский объединяет региональные разновидности Сирии, Ливана, Иордании и Палестины, поэтому это группа, а не один говор. Историческое ق (q) произносится в них неодинаково: в одних разновидностях оно становится гортанной смычкой, в других сохраняется или меняется иначе."
     },
     "sources": [
       {

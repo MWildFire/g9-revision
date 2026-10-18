@@ -1,3 +1,5 @@
+import residualPractice from '../../data/residual-practice-portions.json';
+import englishSchoolPortions from '../../data/english-school-practice-portions.json';
 import geographyPractice from '../../data/geography-practice-portions.json';
 import additionalPractice from '../../data/additional-practice-portions.json';
 import practiceData from '../../data/chemistry-practice-portions.json';
@@ -8,4 +10,4 @@ export const sessions=data as StudySession[];
 export const sessionRoute=(s:StudySession)=>s.studyPath??`/november/${s.topic}?part=${s.id}`;
 
 // Optional practice choices stay outside the daily-plan session inventory.
-export const practiceSessions=[...practiceData,...additionalPractice,...geographyPractice] as StudySession[];
+export const practiceSessions=[...practiceData,...additionalPractice,...geographyPractice,...residualPractice,...englishSchoolPortions] as StudySession[];

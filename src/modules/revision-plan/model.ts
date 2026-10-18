@@ -1,6 +1,6 @@
 export type Text = { en: string; ru: string };
 export type Topic = { id: string; subject: string; title: Text; route: string; source: string; optional?: boolean; parentTopic?:string };
-export type Block = { id: string; minutes: number; topics: string[]; task: Text; lesson?: boolean; paper?: string; optional?: boolean; sessions?: string[]; paperQuestions?:string[]; reported?:boolean; flexible?:boolean; replacementSession?:string };
+export type Block = { id: string; minutes: number; topics: string[]; task: Text; lesson?: boolean; paper?: string; optional?: boolean; sessions?: string[]; paperQuestions?:string[]; reported?:boolean; flexible?:boolean; replacementSession?:string; recallPurpose?:boolean };
 export type Day = { date: string; phase: string; title: Text; blocks: Block[]; recall: number; note?: Text; rest?: boolean };
 export type Confidence = 'red' | 'amber' | 'green';
 export type Diagnostic = { date:string; questionId:string; topicId:string; sessionId?:string; outcome:'retry'|'secure'; evidence:string };
@@ -78,26 +78,42 @@ export function recallPriority(topic:Topic,state:PlanState):Confidence|'unassess
   const failed=Object.values(state.diagnostics??{}).some(d=>d.outcome==='retry'&&(d.sessionId===topic.id||(!topic.parentTopic&&d.topicId===topic.id)||(!!topic.parentTopic&&!d.sessionId&&d.topicId===topic.parentTopic)));
   return failed?'red':state.confidence[topic.id]??(topic.parentTopic?state.confidence[topic.parentTopic]:undefined)??'unassessed';
 }
+// Completion history survives changing/undoing a replacement selection.
+export function completedSessionDates(days:Day[],state:PlanState,today:string){
+ const done:Record<string,string>={};
+ const record=(id:string,date:string|undefined)=>{if(date&&validDate(date)&&date<=today&&(!done[id]||done[id]<date))done[id]=date;};
+ for(const day of days)for(const block of activeBlocks(day,state.arabic))for(const id of block.sessions??[])record(id,state.completed[blockCompletionKey(block)]);
+ const replaceable=new Set(days.flatMap(day=>day.blocks.filter(b=>b.flexible&&!b.lesson).map(b=>b.id)));
+ for(const[key,date]of Object.entries(state.completed)){
+  if(key.startsWith('study:'))record(key.slice(6),date);
+  const match=/^replacement:([^:]+):(.+)$/.exec(key);
+  if(match&&replaceable.has(match[1]))record(match[2],date);
+ }
+ return done;
+}
 export function dueReviews(days: Day[], topics: Topic[], state: PlanState, today: string) {
-  const latest: Record<string, string> = {};
-  for (const day of days) for (const block of activeBlocks(day, state.arabic)) {
-    const completed = state.completed[blockCompletionKey(block)];
-    if (completed && completed <= today) for (const id of (block.sessions?.length?block.sessions:block.topics)) {
-      if (!latest[id] || latest[id] < completed) latest[id] = completed;
-    }
-  }
-  return topics.filter(topic => !topic.optional || state.arabic).flatMap(topic => {
-    if (!latest[topic.id]) return [];
-    const subject=topic.subject==='skills'?state.scienceContext:topic.subject;
-    const exam=subject?SUBJECT_EXAMS[subject]:undefined;
-    const dates = [...new Set([1, 4, 11].map(offset => shiftedDate(latest[topic.id], offset)))].filter(date => (!exam||date < exam) && !state.completed[`review:${topic.id}:${date}`]);
-    const day=days.find(d=>d.date===today),saturday=new Date(`${today}T12:00:00Z`).getUTCDay()===6;
-    const matchingExamBlock=!!day&&today>=FIRST_EXAM&&day.blocks.some(b=>b.minutes>0&&b.topics.some(id=>topics.find(t=>t.id===id)?.subject===subject));
-    const allocated=!!day&&!day.rest&&!saturday&&(day.recall>0||matchingExamBlock);
-    const overdue=dates.some(date=>date<=today);
-    const due=overdue&&allocated&&!!exam&&today<exam&&!state.completed[`retrieval:${topic.id}:${today}`];
-    return dates.length ? [{ topic, dates, due, overdue, deferred:overdue&&!due, examDate:exam, rating:recallPriority(topic,state),lastStudied:latest[topic.id] }] : [];
-  }).sort((a,b)=>Number(b.due)-Number(a.due)||({red:0,amber:1,unassessed:2,green:3}[a.rating]-{red:0,amber:1,unassessed:2,green:3}[b.rating])||(a.examDate??'9999').localeCompare(b.examDate??'9999')||a.dates[0].localeCompare(b.dates[0]));
+ const eligible=topics.filter(t=>!t.optional||state.arabic),latest=completedSessionDates(days,state,today);
+ for(const day of days)for(const block of activeBlocks(day,state.arabic)){
+  const date=state.completed[blockCompletionKey(block)];
+  if(date&&date<=today&&!block.sessions?.length)for(const id of block.topics)if(!latest[id]||latest[id]<date)latest[id]=date;
+ }
+ const day=days.find(d=>d.date===today),saturday=new Date(`${today}T12:00:00Z`).getUTCDay()===6;
+ const make=(topic:Topic,proposed:string[],reviewId:string,diagnostic?:{objectiveId:string;questionId:string;date:string})=>{
+  const subject=topic.subject==='skills'?state.scienceContext:topic.subject,exam=subject?SUBJECT_EXAMS[subject]:undefined;
+  const dates=[...new Set(proposed)].filter(date=>(!exam||date<exam)&&!(state.completed[`review:${reviewId}:${date}`]&&state.completed[`review:${reviewId}:${date}`]<=today));
+  const subjectRecap=!!day&&activeBlocks(day,state.arabic).some(b=>b.minutes>0&&(today>=FIRST_EXAM||b.recallPurpose)&&b.topics.some(id=>topics.find(t=>t.id===id)?.subject===subject));
+  const allocated=!!day&&!day.rest&&!saturday&&(day.recall>0||subjectRecap),overdue=dates.some(date=>date<=today);
+  const due=overdue&&allocated&&!!exam&&today<exam&&!state.completed[`retrieval:${reviewId}:${today}`];
+  return dates.length?[{topic,reviewId,dates,due,overdue,deferred:overdue&&!due,examDate:exam,rating:diagnostic?'red' as const:recallPriority(topic,state),lastStudied:latest[topic.id],diagnostic}]:[];
+ };
+ const rows=eligible.flatMap(topic=>latest[topic.id]?make(topic,[1,4,11].map(n=>shiftedDate(latest[topic.id],n)),topic.id):[]);
+ // A failed attempt is evidence for a retry, never a completed lesson or mastery.
+ for(const[objectiveId,d]of Object.entries(state.diagnostics??{})){
+  if(d.outcome!=='retry'||d.date>today)continue;
+  const topic=eligible.find(t=>t.id===d.sessionId)??eligible.find(t=>t.id===d.topicId);
+  if(topic)rows.push(...make(topic,[shiftedDate(d.date,0)],`diagnostic:${objectiveId}:${d.questionId}`,{objectiveId,questionId:d.questionId,date:d.date}));
+ }
+ return rows.sort((a,b)=>Number(b.due)-Number(a.due)||({red:0,amber:1,unassessed:2,green:3}[a.rating]-{red:0,amber:1,unassessed:2,green:3}[b.rating])||Number(!!b.diagnostic)-Number(!!a.diagnostic)||(a.examDate??'9999').localeCompare(b.examDate??'9999')||a.dates[0].localeCompare(b.dates[0]));
 }
 
 // One click records one actual retrieval, never several missed spacing events.
@@ -107,7 +123,14 @@ export function recordRetrieval(state:PlanState,id:string,dates:string[],today:s
   return {...state,completed:{...state.completed,[`review:${id}:${date}`]:today,[`retrieval:${id}:${today}`]:today}};
 }
 export function remainingPastBlocks(days:Day[],state:PlanState,today:string){
-  return days.filter(d=>d.date<today).flatMap(day=>activeBlocks(day,state.arabic).filter(b=>b.sessions?.length&&!state.completed[b.id]&&!b.sessions.every(id=>state.completed[`study:${id}`])).map(block=>({date:day.date,block})));
+ const done=completedSessionDates(days,state,today);
+ return days.filter(d=>d.date<today).flatMap(day=>activeBlocks(day,state.arabic).flatMap(block=>{
+  if(state.completed[block.id]&&state.completed[block.id]<=today)return [];
+  if(block.sessions?.length){const remaining=block.sessions.filter(id=>!done[id]);return remaining.length?[{date:day.date,block:{...block,sessions:remaining}}]:[];}
+  // A performed replacement does not complete the distinct displaced paper.
+  const displaced=!!state.replacements?.[block.id]||Object.keys(state.completed).some(k=>k.startsWith(`replacement:${block.id}:`));
+  return block.paper&&displaced?[{date:day.date,block}]:[];
+ }));
 }
 
 export function loadStudyState(raw:unknown):PlanState {

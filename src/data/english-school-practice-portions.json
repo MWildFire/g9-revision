@@ -1,0 +1,209 @@
+[
+  {
+    "id": "school-1a-mood-practice",
+    "topic": "e-analysis",
+    "title": {
+      "en": "Mood and evidence",
+      "ru": "Настроение и доказательство"
+    },
+    "minutes": 15,
+    "range": [
+      15,
+      25
+    ],
+    "timing": {
+      "read": 3,
+      "example": 4,
+      "attempt": 3,
+      "check": 5
+    },
+    "practiceIds": [
+      "school-1a-mood"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "school-1b-language-structure-practice",
+    "topic": "e-analysis",
+    "title": {
+      "en": "Language or structure and effect",
+      "ru": "Язык или композиция и эффект"
+    },
+    "minutes": 20,
+    "range": [
+      20,
+      30
+    ],
+    "timing": {
+      "read": 3,
+      "example": 4,
+      "attempt": 8,
+      "check": 5
+    },
+    "practiceIds": [
+      "school-1b-language-structure"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "school-1c-film-suspense-practice",
+    "topic": "e-analysis",
+    "title": {
+      "en": "Storyboard suspense",
+      "ru": "Напряжение в раскадровке"
+    },
+    "minutes": 15,
+    "range": [
+      15,
+      25
+    ],
+    "timing": {
+      "read": 3,
+      "example": 4,
+      "attempt": 3,
+      "check": 5
+    },
+    "practiceIds": [
+      "school-1c-film-suspense"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "school-1d-characterisation-practice",
+    "topic": "e-analysis",
+    "title": {
+      "en": "Characterisation from two details",
+      "ru": "Характер по двум деталям"
+    },
+    "minutes": 20,
+    "range": [
+      20,
+      30
+    ],
+    "timing": {
+      "read": 3,
+      "example": 4,
+      "attempt": 8,
+      "check": 5
+    },
+    "practiceIds": [
+      "school-1d-characterisation"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "school-homework-plan-practice",
+    "topic": "e-analysis",
+    "title": {
+      "en": "Separate Task 1e homework preparation",
+      "ru": "Подготовка к отдельному домашнему Task 1e"
+    },
+    "minutes": 50,
+    "range": [
+      50,
+      60
+    ],
+    "timing": {
+      "read": 4,
+      "example": 4,
+      "attempt": 35,
+      "check": 7
+    },
+    "practiceIds": [
+      "school-homework-plan"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "school-picture-monologue-practice",
+    "topic": "e-creative",
+    "title": {
+      "en": "Picture-inspired monologue",
+      "ru": "Монолог по изображению"
+    },
+    "minutes": 45,
+    "range": [
+      45,
+      55
+    ],
+    "timing": {
+      "read": 3,
+      "example": 4,
+      "attempt": 33,
+      "check": 5
+    },
+    "practiceIds": [
+      "school-picture-monologue"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "school-script-transfer-practice",
+    "topic": "e-creative",
+    "title": {
+      "en": "Opening a play script",
+      "ru": "Начало пьесы"
+    },
+    "minutes": 35,
+    "range": [
+      35,
+      45
+    ],
+    "timing": {
+      "read": 3,
+      "example": 4,
+      "attempt": 23,
+      "check": 5
+    },
+    "practiceIds": [
+      "school-script-transfer"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "school-gothic-speech-transfer-practice",
+    "topic": "e-purpose",
+    "title": {
+      "en": "Gothic curriculum speech",
+      "ru": "Речь о готической литературе"
+    },
+    "minutes": 45,
+    "range": [
+      45,
+      55
+    ],
+    "timing": {
+      "read": 3,
+      "example": 4,
+      "attempt": 33,
+      "check": 5
+    },
+    "practiceIds": [
+      "school-gothic-speech-transfer"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "school-surveillance-article-practice",
+    "topic": "e-purpose",
+    "title": {
+      "en": "Surveillance article and counterargument",
+      "ru": "Статья о наблюдении и контраргумент"
+    },
+    "minutes": 50,
+    "range": [
+      50,
+      60
+    ],
+    "timing": {
+      "read": 3,
+      "example": 4,
+      "attempt": 38,
+      "check": 5
+    },
+    "practiceIds": [
+      "school-surveillance-article"
+    ],
+    "teachingTitles": []
+  }
+]

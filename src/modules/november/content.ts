@@ -1,3 +1,5 @@
+import {englishSchoolPractice} from './englishSchoolPractice';
+import {preparationPractice,preparationTeaching} from './preparationDiagnostics';
 import {DOMESTIC_SAFETY_QUESTIONS} from '../physics/data/domesticSafety';
 import {fullWritingPractice} from './fullWritingPractice';
 import {languageG9Sections,languageG9Practice} from './languageG9Rehearsals';
@@ -169,3 +171,7 @@ for(const[topic,exercises]of Object.entries(languageG9Practice)){(practice[topic
 practice['p-electric'].push(...DOMESTIC_SAFETY_QUESTIONS.map(q=>({id:q.id,prompt:{en:q.en.question,ru:q.ru.question},answer:{en:q.en.answer,ru:q.ru.answer},marks:q.marks,criterion:q.criterion})));
 practice['f-write'].push({id:'f-g9-oral-attempt',prompt:{en:'Use the original picture above. Spend 10 minutes preparing notes, speak for 2 minutes, then rehearse the six follow-up questions for 3 minutes. Attempt first without reading the model; time your real delivery.',ru:'Используй оригинальное изображение выше. Подготовь заметки за 10 минут, выступи 2 минуты, затем отрепетируй шесть дополнительных вопросов за 3 минуты. Сначала отвечай без образца; измерь реальную длительность речи.'},answer:{en:'Check that the response describes visible details, develops a supported interpretation, connects to the archived unit, and answers follow-ups rather than repeating the introduction. Compare with the six French question/answer models above. Their 232-word model is a practice example, not proof that your pace fits 2 minutes. Record one concrete correction to vocabulary, agreement or development.',ru:'Проверь, описаны ли видимые детали, обосновано ли толкование, есть ли связь с архивной темой и ответы на дополнительные вопросы вместо повторения вступления. Сверься с шестью французскими вопросами и ответами выше. Образец на 232 слова — пример, а не доказательство, что твой темп укладывается в 2 минуты. Запиши одно конкретное исправление лексики, согласования или развития мысли.'}});
 for(const {topic,exercise} of fullWritingPractice)(practice[topic]??=[]).push(exercise);
+
+for(const[topic,exercises]of Object.entries(preparationPractice)){(practice[topic]??=[]).push(...exercises);}
+for(const[topic,sections]of Object.entries(preparationTeaching)){(supplements[topic]??=[]).push(...sections);}
+for(const[topic,exercises]of Object.entries(englishSchoolPractice)){(practice[topic]??=[]).push(...exercises);}

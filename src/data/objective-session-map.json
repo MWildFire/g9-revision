@@ -141,14 +141,14 @@
     {
       "sourceId": "english",
       "title": {
-        "en": "Declared current English task outline",
-        "ru": "Заявленный текущий перечень заданий английского"
+        "en": "Archived prescribed Grade 10 English revision sheet: three pages",
+        "ru": "Архивный школьный лист подготовки по английскому: три страницы"
       },
-      "scopeStatus": "unknown",
+      "scopeStatus": "confirmed-archived",
       "declaredTaskFamilies": 3,
       "provenanceLimit": {
-        "en": "Independent reviewer still requires the exact current original. Equivalent practice is bound here; actual exam texts are not established.",
-        "ru": "Независимому проверяющему ещё нужен точный актуальный оригинал. Здесь привязаны аналогичные тренировки, а не доказанные экзаменационные тексты."
+        "en": "All three pages were observed on 18 October 2026. Posted 5 October, year not displayed. Prescribed task families are confirmed; this does not guarantee unseen exam texts. Linked film and additional comparison content remain unverified. Separate 9 October homework specifies full typed Task 1e in 35 minutes.",
+        "ru": "Все три страницы прочитаны 18 октября 2026. Публикация 5 октября, год не показан. Подтверждены предписанные типы заданий; состав неизвестных экзаменационных текстов не гарантируется. Содержание связанного фильма и дополнительного сопоставления ещё не проверено. В отдельной домашней инструкции от 9 октября полный печатный Task 1e выполняется за 35 минут."
       }
     },
     {
@@ -257,6 +257,28 @@
           "file": "src/i18n/ru/biology.json",
           "jsonPointer": "/cells/sections/microscopes/detailed/drawing/rule",
           "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "b-cells",
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "b-cells",
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
         }
       ],
       "workedExamplePointer": {
@@ -265,7 +287,8 @@
         "availability": "current"
       },
       "practiceIds": [
-        "magnification"
+        "magnification",
+        "microscope-method-diagnostic"
       ],
       "checkedAnswerPointers": [
         {
@@ -295,25 +318,51 @@
           "questionId": "magnification",
           "rubricClause": "36 мм = 36 000 мкм.",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "b-cells",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "microscope-method-diagnostic",
+          "rubricClause": "Place a thin specimen in liquid on a slide; lower the coverslip at an angle to reduce trapped air. Locate and focus using the lowest-magnification objective first. A suitable stain increases contrast but can kill or alter cells. Draw observed structures only with clean outlines, labels and a title, plus a scale bar or calculated drawing magnification. Resizing changes drawing magnification. Light microscopy can show living movement; conventional electron preparation/vacuum prevents living-cell observation. TEM transmits electrons through a thin section for internal detail; SEM shows surface detail.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "b-cells",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "microscope-method-diagnostic",
+          "rubricClause": "Помести тонкий образец в жидкость на предметном стекле; опускай покровное стекло под углом, уменьшая захват воздуха. Начни поиск и фокусировку с объектива наименьшего увеличения. Подходящий краситель повышает контраст, но может убить клетки или изменить структуры. Рисуй лишь наблюдаемое, чёткими контурами, с подписями и заголовком; добавь масштабную линейку или вычисленное увеличение рисунка. При изменении размера рисунка его увеличение меняется. Световой микроскоп позволяет наблюдать движение живых клеток; обычная подготовка электронного препарата и вакуум исключают такое наблюдение. TEM показывает внутренние детали тонкого среза, SEM — поверхность.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
         }
       ],
       "sessionIds": [
-        "b-cells-core"
+        "b-cells-core",
+        "diagnostic-microscope-method-diagnostic"
       ],
       "prerequisites": [],
       "timingRange": [
-        35,
-        50
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "The magnification question does not diagnose wet-mount preparation, biological drawing or electron-microscope selection. Those microscope components need separate attempts.",
-        "ru": "Задание на увеличение не проверяет приготовление препарата, биологический рисунок или выбор электронного микроскопа. Для них нужны отдельные попытки."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -321,7 +370,7 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "b-cells",
-      "portionGroupId": "b-cells-core",
+      "portionGroupId": "diagnostic-microscope-method-diagnostic",
       "existingSessionRange": [
         35,
         50
@@ -330,9 +379,9 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "partial-diagnostic",
-      "portionMinutes": 35,
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "specific-component-diagnostics-selected-not-independent-acceptance",
+      "portionMinutes": 25,
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     },
@@ -2010,6 +2059,28 @@
             "ru"
           ],
           "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "b-nutrition",
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "b-nutrition",
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
         }
       ],
       "workedExamplePointer": {
@@ -2018,7 +2089,8 @@
         "availability": "current"
       },
       "practiceIds": [
-        "digestion-to-ileum"
+        "digestion-to-ileum",
+        "digestive-route-diagnostic"
       ],
       "checkedAnswerPointers": [
         {
@@ -2048,25 +2120,51 @@
           "questionId": "digestion-to-ileum",
           "rubricClause": "Ферменты гидролизуют крупные молекулы до более мелких.",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "b-nutrition",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "digestive-route-diagnostic",
+          "rubricClause": "Mouth: ingestion, chewing and saliva begin digestion → oesophagus: peristalsis moves food → stomach: mixing, acid and pepsin begin protein digestion → small intestine: further digestion and nutrient absorption → large intestine: absorbs remaining water and ions → rectum: stores faeces → anus: egestion. Liver makes bile and pancreas supplies digestive secretions through ducts to the small intestine; food does not enter them. Digestion breaks large molecules into smaller products; absorption transfers products across the gut epithelium.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "b-nutrition",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "digestive-route-diagnostic",
+          "rubricClause": "Рот: приём, пережёвывание пищи и начало переваривания со слюной → пищевод: перемещение перистальтикой → желудок: перемешивание, кислота и начало переваривания белков пепсином → тонкая кишка: дальнейшее переваривание и всасывание питательных веществ → толстая кишка: всасывание оставшейся воды и ионов → прямая кишка: накопление кала → анус: выведение непереваренных остатков. Печень образует желчь, поджелудочная железа подаёт пищеварительные соки по протокам в тонкую кишку; пища внутрь этих органов не проходит. Переваривание расщепляет крупные молекулы, всасывание переносит продукты через эпителий кишечника.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
         }
       ],
       "sessionIds": [
-        "b-nutrition-core"
+        "b-nutrition-core",
+        "diagnostic-digestive-route-diagnostic"
       ],
       "prerequisites": [],
       "timingRange": [
-        35,
-        50
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "The digestion question checks products and uptake; it does not ask for the complete organ sequence and each organ’s role.",
-        "ru": "Задание проверяет продукты и всасывание, но не всю последовательность органов и роль каждого из них."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -2074,7 +2172,7 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "b-nutrition",
-      "portionGroupId": "b-nutrition-core",
+      "portionGroupId": "diagnostic-digestive-route-diagnostic",
       "existingSessionRange": [
         35,
         50
@@ -2083,9 +2181,9 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "partial-diagnostic",
-      "portionMinutes": 35,
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "specific-component-diagnostics-selected-not-independent-acceptance",
+      "portionMinutes": 25,
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     },
@@ -3006,6 +3104,28 @@
             "ru"
           ],
           "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "b-transport",
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "b-transport",
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
         }
       ],
       "workedExamplePointer": {
@@ -3015,7 +3135,8 @@
       },
       "practiceIds": [
         "elastic-vessels",
-        "heart"
+        "heart",
+        "vessel-comparison-diagnostic"
       ],
       "checkedAnswerPointers": [
         {
@@ -3073,25 +3194,51 @@
           "questionId": "heart",
           "rubricClause": "Правая половина сердца и лёгкие образуют малый круг кровообращения (pulmonary circulation), а левая половина отправляет кровь ко всему телу по большому кругу (systemic circulation).",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "b-transport",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "vessel-comparison-diagnostic",
+          "rubricClause": "Arteries carry blood away from the heart; thick muscular elastic walls withstand and smooth high pressure. Veins return blood toward the heart under lower pressure, with thinner walls and less muscle/elastic tissue; many have valves preventing backflow. Capillaries exchange substances with tissues through walls one cell thick, shortening the diffusion path; they have no valves. Artery/vein names describe direction, not oxygenation: the pulmonary artery carries oxygen-poor blood to the lungs.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "b-transport",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "vessel-comparison-diagnostic",
+          "rubricClause": "Артерии несут кровь от сердца; толстые мышечные и эластичные стенки выдерживают высокое давление и сглаживают его пульсации. Вены возвращают кровь к сердцу при меньшем давлении; их стенки тоньше, мышц и эластичных волокон меньше; во многих венах клапаны препятствуют обратному току. Капилляры обмениваются веществами с тканями через стенку в один слой клеток, сокращающую путь диффузии; клапанов в них нет. Название сосуда определяется направлением, а не насыщением кислородом: лёгочная артерия несёт к лёгким бедную кислородом кровь.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
         }
       ],
       "sessionIds": [
-        "b-transport-core"
+        "b-transport-core",
+        "diagnostic-vessel-comparison-diagnostic"
       ],
       "prerequisites": [],
       "timingRange": [
-        35,
-        50
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "Elastic-vessel and heart tasks provide a partial vessel check; a full artery–vein–capillary comparison still needs a separately selected criterion.",
-        "ru": "Задания о сосудах и сердце дают частичную проверку; полное сравнение артерий, вен и капилляров требует отдельного пункта."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -3099,7 +3246,7 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "b-transport",
-      "portionGroupId": "b-transport-core",
+      "portionGroupId": "diagnostic-vessel-comparison-diagnostic",
       "existingSessionRange": [
         35,
         50
@@ -3108,9 +3255,9 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "partial-diagnostic",
-      "portionMinutes": 35,
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "specific-component-diagnostics-selected-not-independent-acceptance",
+      "portionMinutes": 25,
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     },
@@ -9777,6 +9924,28 @@
             "ru"
           ],
           "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "b-earlier",
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "b-earlier",
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
         }
       ],
       "workedExamplePointer": {
@@ -9792,7 +9961,8 @@
         "questionId": "reproduction"
       },
       "practiceIds": [
-        "reproduction"
+        "reproduction",
+        "seed-dispersal-diagnostic"
       ],
       "checkedAnswerPointers": [
         {
@@ -9822,25 +9992,51 @@
           "questionId": "reproduction",
           "rubricClause": "Эти процессы различаются местом и временем.",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "b-earlier",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "seed-dispersal-diagnostic",
+          "rubricClause": "Light fruits with hairs or wings are carried by wind; hooked burdock fruits attach to animal fur. Fleshy fruits attract animals that eat them, and surviving seeds may pass in faeces. Coconuts float and can travel by water. These structures move seeds/fruits away from the parent, reducing competition for light, water and minerals. Pollination instead transfers pollen from anther to stigma before fertilisation; seed dispersal moves the resulting seeds later.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "b-earlier",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "seed-dispersal-diagnostic",
+          "rubricClause": "Лёгкие плоды с волосками или крыльями переносятся ветром; крючки плодов репейника цепляются за шерсть. Мясистые плоды привлекают животных, которые их съедают, а выжившие семена могут выйти с калом. Кокосы плавают и переносятся водой. Эти приспособления уносят семена/плоды от родителя, уменьшая конкуренцию за свет, воду и минеральные вещества. При опылении пыльца перемещается с пыльника на рыльце до оплодотворения; семена распространяются уже после своего образования.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
         }
       ],
       "sessionIds": [
-        "b-earlier-core"
+        "b-earlier-core",
+        "diagnostic-seed-dispersal-diagnostic"
       ],
       "prerequisites": [],
       "timingRange": [
-        35,
-        50
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "The current answer distinguishes dispersal from pollination; it does not test named dispersal adaptations independently.",
-        "ru": "Ответ различает распространение семян и опыление, но отдельно не проверяет приспособления к распространению."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -9849,7 +10045,7 @@
       },
       "topicId": "b-earlier",
       "workedExampleRole": "solution-after-independent-attempt",
-      "portionGroupId": "b-earlier-core",
+      "portionGroupId": "diagnostic-seed-dispersal-diagnostic",
       "existingSessionRange": [
         35,
         50
@@ -9858,9 +10054,9 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "partial-diagnostic",
-      "portionMinutes": 35,
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "specific-component-diagnostics-selected-not-independent-acceptance",
+      "portionMinutes": 25,
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     },
@@ -20843,7 +21039,7 @@
       "sourceId": "geography-archived",
       "sourceLocator": "Archived G9 geography checklist, learning row 48; current mock inclusion is unconfirmed.",
       "scopeStatus": "confirmed-archived",
-      "lessonPath": "/november/g-previous",
+      "lessonPath": "/grade9/g-fieldwork",
       "canonicalTeachingPointers": [
         {
           "file": "src/modules/grade9/lessons.json",
@@ -20882,21 +21078,20 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "geo-geo-48-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        15,
-        25
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "The exact rank-correlation question is on the November g-previous page, while its finite teaching is in the linked g-fieldwork lesson. No separate session selects this question; the broad 35-minute parent is not proof of placement.",
-        "ru": "Точное задание на ранговую корреляцию находится на странице November g-previous, а конкретное объяснение — в связанном уроке g-fieldwork. Отдельная порция не выбирает этот вопрос; общий 35-минутный блок не доказывает размещение."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -20904,18 +21099,23 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "g-previous",
-      "portionGroupId": "geo:g-fieldwork:fieldwork-zero-rank",
+      "portionGroupId": "geo-geo-48-practice",
       "candidateSessionIds": [
         "g-previous-core"
       ],
-      "coverageStatus": "bounded-teaching-and-practice-selected",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "placementStatus": "no-finite-session-assigned",
       "additionalLessonPaths": [
         "/grade9/g-fieldwork"
       ],
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "GEO-49",
@@ -21992,11 +22192,13 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "physics-paper-a-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        30,
+        40
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -22004,8 +22206,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The exact rubric subpart is on the linked authored physics paper, not selected by the parent topic session. A bounded paper-subpart replacement must be chosen; the full question covers other abilities too.",
-        "ru": "Точный подпункт разбора находится в связанной авторской работе по физике, а не выбран родительской тематической порцией. Нужно выбрать ограниченную замену на этот подпункт; полный вопрос включает и другие умения."
+        "en": "The selected route filters the complete phy-A question, which includes other abilities. This is a whole-question replacement, not a subpart-only route or proof of mastery of every clause.",
+        "ru": "Маршрут выбирает весь вопрос phy-A, включающий и другие умения. Это замена на полный вопрос, а не отдельный подпункт и не доказательство освоения каждого пункта."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -22020,12 +22222,12 @@
         50
       ],
       "placementNote": {
-        "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
-        "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
       },
-      "coverageStatus": "bounded-question-selected",
-      "portionGroupId": "paper:phy-A",
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
+      "portionGroupId": "physics-paper-a-practice",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "additionalLessonPaths": [
         "/november/paper/physics?sections=phy-A"
       ],
@@ -22034,7 +22236,8 @@
       ],
       "placementStatus": "paper-subpart-not-selected-by-parent-session",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 30
     },
     {
       "objectiveId": "G10-P-03",
@@ -22195,6 +22398,28 @@
             "ru"
           ],
           "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "p-energy",
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "p-energy",
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
         }
       ],
       "workedExamplePointer": {
@@ -22207,25 +22432,54 @@
         ],
         "availability": "current"
       },
-      "practiceIds": [],
-      "checkedAnswerPointers": [],
+      "practiceIds": [
+        "spring-energy-diagnostic"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "p-energy",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "spring-energy-diagnostic",
+          "rubricClause": "x = 0.030 m; F = 6.0 N; E = area = ½Fx = 0.090 J. At 0.060 m, E = 0.360 J, fourfold. F = kx and the triangular-area expression require the proportional spring model; permanent deformation concerns a distinct elastic-limit question.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "p-energy",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "spring-energy-diagnostic",
+          "rubricClause": "x = 0,030 м; F = 6,0 Н; E = ½Fx = 0,090 Дж. При 0,060 м E = 0,360 Дж, в 4 раза больше. Линейная модель и треугольная площадь требуют пропорциональности; предел упругости — отдельное условие обратимости.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        }
+      ],
       "sessionIds": [
-        "p-energy-core"
+        "p-energy-core",
+        "diagnostic-spring-energy-diagnostic"
       ],
       "prerequisites": [],
       "timingRange": [
-        35,
-        50
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "Teaching for “Explain stored elastic energy within a valid spring model” is located, but no matching independent checked question was selected from the current finite practice inventory. The parent session alone does not diagnose this ability.",
-        "ru": "Объяснение цели «Объяснять запасённую энергию деформированной пружины» найдено, но соответствующее самостоятельное задание с разбором в конечной подборке не выбрано. Одна родительская порция не проверяет это умение."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -22242,10 +22496,10 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "teaching-only-no-selected-diagnostic",
-      "portionGroupId": "p-energy-core",
-      "portionMinutes": 35,
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "specific-component-diagnostics-selected-not-independent-acceptance",
+      "portionGroupId": "diagnostic-spring-energy-diagnostic",
+      "portionMinutes": 25,
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "formulaIds": [
         "hooke"
       ],
@@ -22653,11 +22907,13 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "physics-paper-a-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        30,
+        40
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -22665,8 +22921,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The exact rubric subpart is on the linked authored physics paper, not selected by the parent topic session. A bounded paper-subpart replacement must be chosen; the full question covers other abilities too.",
-        "ru": "Точный подпункт разбора находится в связанной авторской работе по физике, а не выбран родительской тематической порцией. Нужно выбрать ограниченную замену на этот подпункт; полный вопрос включает и другие умения."
+        "en": "The selected route filters the complete phy-A question, which includes other abilities. This is a whole-question replacement, not a subpart-only route or proof of mastery of every clause.",
+        "ru": "Маршрут выбирает весь вопрос phy-A, включающий и другие умения. Это замена на полный вопрос, а не отдельный подпункт и не доказательство освоения каждого пункта."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -22681,13 +22937,13 @@
         50
       ],
       "placementNote": {
-        "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
-        "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
       },
       "workedExampleRole": "solution-after-independent-attempt",
-      "coverageStatus": "bounded-question-selected",
-      "portionGroupId": "paper:phy-A",
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
+      "portionGroupId": "physics-paper-a-practice",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "additionalLessonPaths": [
         "/november/paper/physics?sections=phy-A"
       ],
@@ -22696,7 +22952,8 @@
       ],
       "placementStatus": "paper-subpart-not-selected-by-parent-session",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 30
     },
     {
       "objectiveId": "G10-P-09",
@@ -22761,11 +23018,13 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "physics-paper-d-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        30,
+        40
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -22773,8 +23032,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The exact rubric subpart is on the linked authored physics paper, not selected by the parent topic session. A bounded paper-subpart replacement must be chosen; the full question covers other abilities too.",
-        "ru": "Точный подпункт разбора находится в связанной авторской работе по физике, а не выбран родительской тематической порцией. Нужно выбрать ограниченную замену на этот подпункт; полный вопрос включает и другие умения."
+        "en": "The selected route filters the complete phy-D question, which includes other abilities. This is a whole-question replacement, not a subpart-only route or proof of mastery of every clause.",
+        "ru": "Маршрут выбирает весь вопрос phy-D, включающий и другие умения. Это замена на полный вопрос, а не отдельный подпункт и не доказательство освоения каждого пункта."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -22789,12 +23048,12 @@
         50
       ],
       "placementNote": {
-        "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
-        "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
       },
-      "coverageStatus": "bounded-question-selected",
-      "portionGroupId": "paper:phy-D",
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
+      "portionGroupId": "physics-paper-d-practice",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "additionalLessonPaths": [
         "/november/paper/physics?sections=phy-D"
       ],
@@ -22803,7 +23062,8 @@
       ],
       "placementStatus": "paper-subpart-not-selected-by-parent-session",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 30
     },
     {
       "objectiveId": "G10-P-10",
@@ -23198,6 +23458,28 @@
             "ru"
           ],
           "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "p-matter",
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "p-matter",
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
         }
       ],
       "workedExamplePointer": {
@@ -23210,25 +23492,54 @@
         ],
         "availability": "current"
       },
-      "practiceIds": [],
-      "checkedAnswerPointers": [],
+      "practiceIds": [
+        "gas-controls-diagnostic"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "p-matter",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "gas-controls-diagnostic",
+          "rubricClause": "Isothermal: p2 = 100 × 0.50 / 0.25 = 200 kPa. Molecular speed statistics at fixed temperature do not increase; more frequent wall impacts per area produce greater pressure. Rigid fixed amount: p2 = 100 × 450 / 300 = 150 kPa; mean kinetic energy rises. A movable piston changes volume, so temperature alone is insufficient. Use absolute pressure and Kelvin.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "p-matter",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "gas-controls-diagnostic",
+          "rubricClause": "Изотермически: p2 = 200 кПа; при неизменной температуре статистика скоростей не возрастает, удары о стенки учащаются. В жёстком сосуде: p2 = 150 кПа; растёт средняя кинетическая энергия. При подвижном поршне меняется объём, поэтому одной температуры недостаточно. Давление абсолютное, температура в К.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        }
+      ],
       "sessionIds": [
-        "p-matter-core"
+        "p-matter-core",
+        "diagnostic-gas-controls-diagnostic"
       ],
       "prerequisites": [],
       "timingRange": [
-        35,
-        50
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "Teaching for “Explain gas pressure using a stated kinetic model” is located, but no matching independent checked question was selected from the current finite practice inventory. The parent session alone does not diagnose this ability.",
-        "ru": "Объяснение цели «Объяснять давление газа в заданной кинетической модели» найдено, но соответствующее самостоятельное задание с разбором в конечной подборке не выбрано. Одна родительская порция не проверяет это умение."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -23245,10 +23556,10 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "teaching-only-no-selected-diagnostic",
-      "portionGroupId": "p-matter-core",
-      "portionMinutes": 35,
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "specific-component-diagnostics-selected-not-independent-acceptance",
+      "portionGroupId": "diagnostic-gas-controls-diagnostic",
+      "portionMinutes": 25,
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "formulaIds": [
         "gas"
       ],
@@ -23328,6 +23639,28 @@
             "ru"
           ],
           "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "p-matter",
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "p-matter",
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
         }
       ],
       "workedExamplePointer": {
@@ -23340,25 +23673,54 @@
         ],
         "availability": "current"
       },
-      "practiceIds": [],
-      "checkedAnswerPointers": [],
+      "practiceIds": [
+        "gas-controls-diagnostic"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "p-matter",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "gas-controls-diagnostic",
+          "rubricClause": "Isothermal: p2 = 100 × 0.50 / 0.25 = 200 kPa. Molecular speed statistics at fixed temperature do not increase; more frequent wall impacts per area produce greater pressure. Rigid fixed amount: p2 = 100 × 450 / 300 = 150 kPa; mean kinetic energy rises. A movable piston changes volume, so temperature alone is insufficient. Use absolute pressure and Kelvin.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "p-matter",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "gas-controls-diagnostic",
+          "rubricClause": "Изотермически: p2 = 200 кПа; при неизменной температуре статистика скоростей не возрастает, удары о стенки учащаются. В жёстком сосуде: p2 = 150 кПа; растёт средняя кинетическая энергия. При подвижном поршне меняется объём, поэтому одной температуры недостаточно. Давление абсолютное, температура в К.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        }
+      ],
       "sessionIds": [
-        "p-matter-core"
+        "p-matter-core",
+        "diagnostic-gas-controls-diagnostic"
       ],
       "prerequisites": [],
       "timingRange": [
-        35,
-        50
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "Teaching for “Explain pressure and state which variables are controlled” is located, but no matching independent checked question was selected from the current finite practice inventory. The parent session alone does not diagnose this ability.",
-        "ru": "Объяснение цели «Объяснять давление с указанием неизменных величин» найдено, но соответствующее самостоятельное задание с разбором в конечной подборке не выбрано. Одна родительская порция не проверяет это умение."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -23375,10 +23737,10 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "teaching-only-no-selected-diagnostic",
-      "portionGroupId": "p-matter-core",
-      "portionMinutes": 35,
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "specific-component-diagnostics-selected-not-independent-acceptance",
+      "portionGroupId": "diagnostic-gas-controls-diagnostic",
+      "portionMinutes": 25,
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "formulaIds": [
         "gas"
       ],
@@ -24515,28 +24877,89 @@
             "ru"
           ],
           "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "p-electric",
+            0,
+            "body",
+            "en"
+          ],
+          "availability": "current"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "export": "preparationTeaching",
+          "path": [
+            "p-electric",
+            0,
+            "body",
+            "ru"
+          ],
+          "availability": "current"
         }
       ],
-      "workedExamplePointer": null,
-      "practiceIds": [],
-      "checkedAnswerPointers": [],
+      "workedExamplePointer": {
+        "file": "src/modules/november/preparationDiagnostics.ts",
+        "export": "preparationPractice",
+        "path": [
+          "p-electric",
+          0,
+          "answer",
+          "en"
+        ],
+        "availability": "current"
+      },
+      "practiceIds": [
+        "electron-transfer-diagnostic"
+      ],
+      "checkedAnswerPointers": [
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "p-electric",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "electron-transfer-diagnostic",
+          "rubricClause": "Sphere: +8.0 × 10^-7 C; receiver: −8.0 × 10^-7 C; combined net change 0. Electron transfer leaves an electron deficit; protons need not move and charge is not created.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        },
+        {
+          "file": "src/modules/november/preparationDiagnostics.ts",
+          "path": [
+            "p-electric",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "electron-transfer-diagnostic",
+          "rubricClause": "Шар: +8,0 × 10^-7 Кл; приёмник: −8,0 × 10^-7 Кл; суммарное изменение 0. Перенос электронов оставляет их недостаток; протоны для этого не перемещаются, заряд не создаётся.",
+          "reviewStatus": "authored-correction-independent-final-review-pending",
+          "export": "preparationPractice"
+        }
+      ],
       "sessionIds": [
-        "p-electric-core"
+        "p-electric-core",
+        "diagnostic-electron-transfer-diagnostic"
       ],
       "prerequisites": [],
       "timingRange": [
-        35,
-        50
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "Teaching for “Explain static charge in an electron-transfer model” is located, but no matching independent checked question was selected from the current finite practice inventory. The parent session alone does not diagnose this ability. No separate worked example has been selected for this exact ability.",
-        "ru": "Для этого конкретного умения не выбран отдельный разобранный пример. Объяснение цели «Объяснять статический заряд переносом электронов» найдено, но соответствующее самостоятельное задание с разбором в конечной подборке не выбрано. Одна родительская порция не проверяет это умение."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -24553,10 +24976,10 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "teaching-only-no-selected-diagnostic",
-      "portionGroupId": "p-electric-core",
-      "portionMinutes": 35,
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "coverageStatus": "specific-component-diagnostics-selected-not-independent-acceptance",
+      "portionGroupId": "diagnostic-electron-transfer-diagnostic",
+      "portionMinutes": 25,
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     },
@@ -25667,7 +26090,8 @@
       },
       "practiceIds": [
         "rad-3",
-        "rad-4"
+        "rad-4",
+        "rad-1"
       ],
       "checkedAnswerPointers": [
         {
@@ -25837,6 +26261,90 @@
           "questionId": "rad-4",
           "rubricClause": "Пример простой модели: каждый распад даёт одно испускание. В этой модели детектор регистрирует 100 / 2000 = 5 % испусканий. С учётом регистрации показания не противоречат активности.",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "path": [
+            12,
+            "marking",
+            0,
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "rad-1",
+          "rubricClause": "Alpha: a particle (a helium-4 nucleus, two protons and two neutrons); charge +2.",
+          "reviewStatus": "existing-answer-selected-final-review-pending"
+        },
+        {
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "path": [
+            12,
+            "marking",
+            0,
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "rad-1",
+          "rubricClause": "Альфа: частица — ядро гелия-4 (два протона и два нейтрона); заряд +2.",
+          "reviewStatus": "existing-answer-selected-final-review-pending"
+        },
+        {
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "path": [
+            12,
+            "marking",
+            1,
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "rad-1",
+          "rubricClause": "Beta-minus: a fast electron emitted from the nucleus when a neutron changes into a proton; charge −1.",
+          "reviewStatus": "existing-answer-selected-final-review-pending"
+        },
+        {
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "path": [
+            12,
+            "marking",
+            1,
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "rad-1",
+          "rubricClause": "Бета-минус: быстрый электрон, который вылетает из ядра, когда нейтрон превращается в протон; заряд −1.",
+          "reviewStatus": "existing-answer-selected-final-review-pending"
+        },
+        {
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "path": [
+            12,
+            "marking",
+            2,
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "rad-1",
+          "rubricClause": "Gamma: an electromagnetic wave (photons), not a stream of charged particles; charge 0.",
+          "reviewStatus": "existing-answer-selected-final-review-pending"
+        },
+        {
+          "file": "src/modules/physics-september/questions.ts",
+          "export": "questions",
+          "path": [
+            12,
+            "marking",
+            2,
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "rad-1",
+          "rubricClause": "Гамма: электромагнитная волна (поток фотонов), не поток заряженных частиц; заряд 0.",
+          "reviewStatus": "existing-answer-selected-final-review-pending"
         }
       ],
       "sessionIds": [
@@ -25853,8 +26361,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The selected questions provide a partial diagnostic; still unplaced: all three radiation types if the two selected questions do not elicit each property.",
-        "ru": "Выбранные задания дают частичную диагностику. Остаток: отдельная проверка каждого свойства всех трёх видов излучения."
+        "en": "Existing rad-1 checks the physical nature and charge of alpha, beta-minus and gamma. An independent comparison of their ionising power and attenuation under stated conditions remains unselected; gamma identification alone does not diagnose every property.",
+        "ru": "Существующее rad-1 проверяет природу и заряд альфа-, бета-минус- и гамма-излучения. Самостоятельное сравнение их ионизирующей способности и поглощения при заданных условиях ещё не выбрано; одного распознавания гамма-излучения недостаточно для всех свойств."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -26939,7 +27447,8 @@
       },
       "practiceIds": [
         "fe-4",
-        "fm-2"
+        "fm-2",
+        "fm-5"
       ],
       "checkedAnswerPointers": [
         {
@@ -26993,10 +27502,37 @@
           "questionId": "fm-2",
           "rubricClause": "Вначале сила тяжести больше сопротивления воздуха, поэтому скорость падения растёт. С ростом скорости увеличивается сопротивление. Если пренебречь выталкивающей силой, при установившейся скорости сопротивление равно mg. После раскрытия парашюта сопротивление при прежней скорости возрастает; падение замедляется до меньшей установившейся скорости. Модель описывает вертикальное движение, а не гарантирует безопасное приземление.",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/physics/data/practiceQuestions.ts",
+          "export": "FORCE_MOTION_QUESTIONS",
+          "path": [
+            4,
+            "en",
+            "answer"
+          ],
+          "availability": "current",
+          "questionId": "fm-5",
+          "rubricClause": "(a) a = (v − u) / t = (18 − 0) / 6 = 3 m/s². (b) F = m × a = 1200 × 3 = 3600 N. Resultant force = 3600 N (in the direction of motion). These are interval averages unless acceleration is uniform.",
+          "reviewStatus": "existing-answer-selected-final-review-pending"
+        },
+        {
+          "file": "src/modules/physics/data/practiceQuestions.ts",
+          "export": "FORCE_MOTION_QUESTIONS",
+          "path": [
+            4,
+            "ru",
+            "answer"
+          ],
+          "availability": "current",
+          "questionId": "fm-5",
+          "rubricClause": "(а) a = (v − u) / t = (18 − 0) / 6 = 3 м/с². (б) F = m × a = 1200 × 3 = 3600 Н. Равнодействующая сила = 3600 Н (в направлении движения). Если ускорение непостоянно, это средние значения за интервал.",
+          "reviewStatus": "existing-answer-selected-final-review-pending"
         }
       ],
       "sessionIds": [
-        "p-forces-core"
+        "p-forces-core",
+        "physics-numerical-resultant-practice"
       ],
       "prerequisites": [],
       "timingRange": [
@@ -27008,10 +27544,7 @@
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "The selected questions provide a partial diagnostic; still unplaced: a numerical resultant beyond the qualitative force examples.",
-        "ru": "Выбранные задания дают частичную диагностику. Остаток: численный расчёт равнодействующей сверх качественных примеров сил."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -27028,7 +27561,7 @@
         "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
         "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
       },
-      "coverageStatus": "partial-diagnostic",
+      "coverageStatus": "existing-specific-diagnostic-bound-not-independent-acceptance",
       "portionGroupId": "p-forces-core",
       "portionMinutes": 35,
       "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
@@ -37684,10 +38217,12 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g9-02"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
+        25,
         35
       ],
       "replaceableBlockIds": [
@@ -37695,10 +38230,7 @@
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "These exact legacy questions have no matching finite study-session ID in the 17-session current inventory; a bounded replacement is still to be selected.",
-        "ru": "Для этих конкретных прежних вопросов нет конечного ID порции среди 17 существующих математических порций; замена ещё не выбрана."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -37706,7 +38238,7 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-core",
-      "portionGroupId": "math:m-ns-6,m-ns-7,m-ns-ric-2",
+      "portionGroupId": "residual-math-g9-02",
       "components": [
         {
           "ability": "rounding convention",
@@ -37728,14 +38260,19 @@
         }
       ],
       "currentMockStatus": "unknown",
-      "coverageStatus": "bounded-selected-items-subject-review-pending",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "pendingNewContentNote": {
         "en": "Attached companion blocks for other archived G9+10 objectives are listed separately; no invented session ID or current-mock inclusion is inferred.",
         "ru": "Подключённые дополнительные блоки по другим архивным целям G9+10 указаны отдельно; придуманные ID порций и включение в нынешний mock не подразумеваются."
       },
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G9-03",
@@ -38025,10 +38562,12 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g9-03"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
+        25,
         35
       ],
       "replaceableBlockIds": [
@@ -38036,10 +38575,7 @@
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "These exact legacy questions have no matching finite study-session ID in the 17-session current inventory; a bounded replacement is still to be selected.",
-        "ru": "Для этих конкретных прежних вопросов нет конечного ID порции среди 17 существующих математических порций; замена ещё не выбрана."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -38047,7 +38583,7 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-core",
-      "portionGroupId": "math:m-ns-2,m-ns-3,m-ns-4,m-ns-9,m-ns-ext-1,m-ns-ext-3,m-ns-11,m-ns-14",
+      "portionGroupId": "residual-math-g9-03",
       "components": [
         {
           "ability": "integer/fractional indices",
@@ -38107,14 +38643,19 @@
         }
       ],
       "currentMockStatus": "unknown",
-      "coverageStatus": "bounded-selected-items-subject-review-pending",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "pendingNewContentNote": {
         "en": "Attached companion blocks for other archived G9+10 objectives are listed separately; no invented session ID or current-mock inclusion is inferred.",
         "ru": "Подключённые дополнительные блоки по другим архивным целям G9+10 указаны отдельно; придуманные ID порций и включение в нынешний mock не подразумеваются."
       },
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G9-04",
@@ -38175,10 +38716,12 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g9-04"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
+        25,
         35
       ],
       "replaceableBlockIds": [
@@ -38186,10 +38729,7 @@
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "These exact legacy questions have no matching finite study-session ID in the 17-session current inventory; a bounded replacement is still to be selected.",
-        "ru": "Для этих конкретных прежних вопросов нет конечного ID порции среди 17 существующих математических порций; замена ещё не выбрана."
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -38197,7 +38737,7 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-core",
-      "portionGroupId": "math:m-ns-12",
+      "portionGroupId": "residual-math-g9-04",
       "components": [
         {
           "ability": "distance interpretation",
@@ -38215,14 +38755,19 @@
         }
       ],
       "currentMockStatus": "unknown",
-      "coverageStatus": "bounded-selected-items-subject-review-pending",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "pendingNewContentNote": {
         "en": "Attached companion blocks for other archived G9+10 objectives are listed separately; no invented session ID or current-mock inclusion is inferred.",
         "ru": "Подключённые дополнительные блоки по другим архивным целям G9+10 указаны отдельно; придуманные ID порций и включение в нынешний mock не подразумеваются."
       },
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G9-05",
@@ -40583,8 +41128,8 @@
         "ru": "Развивать сопоставление прозы и визуального материала через общую идею"
       },
       "sourceId": "english",
-      "sourceLocator": "Declared current mock outline: task family 1; independent access to the exact current outline is unresolved.",
-      "scopeStatus": "unknown",
+      "sourceLocator": "Archived Grade 10 prescribed revision sheet posted 5 October (year not displayed), all three pages observed 18 October 2026; task family 1. Prescribed practice, not guaranteed unseen examination texts.",
+      "scopeStatus": "confirmed-archived",
       "lessonPath": "/november/e-analysis?part=e-analysis-full-practice",
       "canonicalTeachingPointers": [
         {
@@ -40648,7 +41193,12 @@
         "availability": "current"
       },
       "practiceIds": [
-        "e-analysis-full-rehearsal"
+        "e-analysis-full-rehearsal",
+        "school-1a-mood",
+        "school-1b-language-structure",
+        "school-1c-film-suspense",
+        "school-1d-characterisation",
+        "school-homework-plan"
       ],
       "checkedAnswerPointers": [
         {
@@ -40678,10 +41228,155 @@
           "questionId": "e-analysis-full-rehearsal",
           "rubricClause": "Сверься с полным авторским образцом и комментариями на этой странице; другие обоснованные решения тоже допустимы.",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-1a-mood",
+          "rubricClause": "One defensible answer: Mara seems hesitant and increasingly concerned about responsibility. She withdraws her hand from the handle, interrupting the action she had anticipated all winter. Check: an accurate mood + relevant evidence; “the laboratory is frightening” alone does not identify her mood. Other interpretations need equally precise support. This is an authored practice check, not awarded school marks.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-1a-mood",
+          "rubricClause": "Возможный ответ: Мара колеблется и всё сильнее думает об ответственности. Она отдёргивает руку от ручки и прерывает действие, которого ждала всю зиму. Проверь: названо состояние героини и приведена подходящая деталь. «Лаборатория пугающая» само по себе не описывает её настроение. Другой вывод тоже допустим, если он обоснован текстом. Это учебная проверка, а не школьная оценка.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            1,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-1b-language-structure",
+          "rubricClause": "Worked route: the final question replaces the expected result in her notebook. Ending on a question, rather than a completed observation, changes the experiment from a technical achievement into an unresolved ethical decision. It invites readers to consider who has the right to act. Check detail → choice → meaning/effect. Naming “a rhetorical question” without explaining this reversal is incomplete; do not claim it proves what the machine will do.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            1,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-1b-language-structure",
+          "rubricClause": "Вариант разбора: в конце вопрос занимает в тетради место ожидаемого результата. Завершая текст вопросом вместо законченного наблюдения, автор превращает техническое достижение в нерешённый нравственный выбор. Читатель задумывается, кто вправе действовать. Проверь цепочку: деталь → авторский выбор → смысл и воздействие. Термина «риторический вопрос» без объяснения этого поворота недостаточно. Текст не доказывает, что именно сделает машина.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            2,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-1c-film-suspense",
+          "rubricClause": "Example: in shot 4, a click follows the cut to black. We hear an event but cannot see its cause, so viewers may wonder whether the machine has acted after Mara steps away. The withheld image sustains uncertainty. Check exact cue + explained suspense; do not say the click proves an explosion or activation. An alternative answer can explain the held silent face in shot 3 or the interrupted hum in shot 2.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            2,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-1c-film-suspense",
+          "rubricClause": "Пример: в кадре 4 после склейки на чёрный экран слышен щелчок. Звук события есть, но его причина не видна; зритель может задуматься, не сработала ли машина после ухода Мары. Скрытое изображение сохраняет неопределённость. Проверь: точная деталь и объяснение ожидания. Щелчок не доказывает взрыв или запуск. Другой ответ может разобрать задержку на молчащем лице в кадре 3 или обрыв гудения в кадре 2.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            3,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-1d-characterisation",
+          "rubricClause": "Possible interpretation: Mara becomes willing to question her authority. Her eyes turn towards the door after the brother’s off-screen humming, connecting her decision to someone outside the experiment. Writing a question and stepping away then make reconsideration visible. Check inference + two accurate details + explanation. This suggests ethical hesitation, not proof that she has abandoned science or knows the machine is dangerous.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            3,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-1d-characterisation",
+          "rubricClause": "Возможный вывод: Мара готова усомниться в своём единоличном праве решать. После пения брата за кадром её взгляд направляется к двери: решение связано с человеком вне опыта. Записанный вопрос и шаг в сторону показывают пересмотр решения через действие. Проверь: вывод, две точные детали и объяснение связи. Это признаки нравственного колебания, а не доказательство, что она бросила науку или знает об опасности машины.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            4,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-homework-plan",
+          "rubricClause": "A usable question is “How do the two creators present curiosity as a source of opportunity or risk?” only if BOTH chosen materials support it. Plan two comparative claims; under each, record a precise detail and method from each material and explain the similarity/difference. Then complete the full timed response separately. Check: chosen extract ≤ one page; own concept question; balanced, evidence-led comparison; full typed 35-minute attempt. The Mara comparison is a method model, not a substitute for this extract choice or for checking Alma. No answer about Alma is supplied here.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-analysis",
+            4,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-homework-plan",
+          "rubricClause": "Вопрос «Как два автора представляют любопытство как возможность или риск?» подходит, только если ОБА материала дают для него основания. Наметь два сопоставительных тезиса; под каждым запиши точную деталь и приём из каждого материала, затем объясни сходство или различие. После этого отдельно напиши полный ответ на время. Проверь: отрывок не длиннее страницы, свой концептуальный вопрос, равное внимание двум материалам, полный напечатанный ответ за 35 минут. Сравнение о Маре служит образцом метода; оно не заменяет выбор отрывка и проверку Alma. Готового ответа об Alma здесь нет.",
+          "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
       "sessionIds": [
-        "e-analysis-full-practice"
+        "e-analysis-full-practice",
+        "school-1a-mood-practice",
+        "school-1b-language-structure-practice",
+        "school-1c-film-suspense-practice",
+        "school-1d-characterisation-practice",
+        "school-homework-plan-practice"
       ],
       "prerequisites": [],
       "timingRange": [
@@ -40694,8 +41389,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "A complete 45-minute practice portion with an annotated model is attached, but is not scheduled. Choose one replacement if needed. The exact current school outline/text scope still needs independent source verification.",
-        "ru": "Подключена полная учебная порция на 45 минут с размеченным образцом, но она не назначена в календарь. При необходимости выбери одну замену. Оригинал текущего школьного перечня и состав текстов ещё требуют независимой проверки."
+        "en": "A complete practice portion is selectable within one existing replacement. The archived prescribed sheet is observed; original linked film/alternate comparison content remains unverified and actual unseen exam texts are not guaranteed.",
+        "ru": "Полная тренировочная порция доступна как одна замена в существующем времени. Архивный школьный лист прочитан; содержание связанного фильма и дополнительного сопоставления ещё не проверено, состав неизвестных экзаменационных текстов не гарантируется."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -40714,7 +41409,7 @@
       },
       "portionGroupId": "e-analysis-full-practice",
       "coverageStatus": "equivalent-skill-practice-not-confirmed-exam-texts",
-      "currentSourceVerification": "required",
+      "currentSourceVerification": "three-page-prescribed-practice-observed-by-coordinator; final-source-alignment-review-pending",
       "modelAttachmentStatus": "attached-current-integration-candidate-independent-review-pending",
       "portionMinutes": 45,
       "placementStatus": "selectable-replacement-not-scheduled",
@@ -40722,10 +41417,15 @@
       "availablePracticeIds": [
         "comparison",
         "task-1e-timed",
-        "e-analysis-full-rehearsal"
+        "e-analysis-full-rehearsal",
+        "school-1a-mood",
+        "school-1b-language-structure",
+        "school-1c-film-suspense",
+        "school-1d-characterisation",
+        "school-homework-plan"
       ],
       "timingBasis": "existing-session-range",
-      "sourceAcceptance": "not-established-by-this-author-map",
+      "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     },
     {
@@ -40736,8 +41436,8 @@
         "ru": "Развивать изменяющийся голос в монологе или сценическом диалоге"
       },
       "sourceId": "english",
-      "sourceLocator": "Declared current mock outline: task family 2; independent access to the exact current outline is unresolved.",
-      "scopeStatus": "unknown",
+      "sourceLocator": "Archived Grade 10 prescribed revision sheet posted 5 October (year not displayed), all three pages observed 18 October 2026; task family 2. Prescribed practice, not guaranteed unseen examination texts.",
+      "scopeStatus": "confirmed-archived",
       "lessonPath": "/november/e-creative?part=e-creative-full-practice",
       "canonicalTeachingPointers": [
         {
@@ -40806,7 +41506,9 @@
         "availability": "current"
       },
       "practiceIds": [
-        "e-creative-full-rehearsal"
+        "e-creative-full-rehearsal",
+        "school-picture-monologue",
+        "school-script-transfer"
       ],
       "checkedAnswerPointers": [
         {
@@ -40836,10 +41538,68 @@
           "questionId": "e-creative-full-rehearsal",
           "rubricClause": "Сверься с полным авторским образцом и комментариями на этой странице; другие обоснованные решения тоже допустимы.",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-creative",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-picture-monologue",
+          "rubricClause": "Authored self-review: (1) the path, obscured mountain and grass become meaningful choices, not a list of scenery; (2) an identifiable speaker addresses someone for a reason; (3) the wish to appear certain conflicts with responsibility; (4) a prepared turning point changes a final action; (5) stage directions are performable and speech sounds natural; (6) check 350–450 words under a stated direction-count convention. Example arc: defend the route → admit the bend hides the destination → decide to wait and ask together. A different supported interpretation is welcome; do not describe the supplied school image as though this illustration reproduces it.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-creative",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-picture-monologue",
+          "rubricClause": "Авторская самопроверка: (1) тропа, скрытая туманом гора и трава работают на смысл, а не перечисляют пейзаж; (2) у героя есть узнаваемый голос, адресат и причина говорить; (3) желание казаться уверенным сталкивается с ответственностью; (4) подготовленный поворот приводит к новому действию; (5) ремарки исполнимы, речь естественна; (6) проверь 350–450 слов и укажи, считаешь ли ремарки. Возможная дуга: защита маршрута → признание, что поворот скрывает цель → решение ждать и спросить вместе. Другое обоснованное прочтение допустимо. Наша иллюстрация не воспроизводит школьную картинку.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-creative",
+            1,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-script-transfer",
+          "rubricClause": "Check: speaker labels and directions distinguish script from continuous monologue; the second speaker changes the first speaker’s response; two voices have different aims; visible actions carry the shift; the opening leaves something unresolved. Worked move: A says “I know the way”; B asks “Then why can’t you name what is past that bend?”; [A folds the map.] replaces an abstract direction such as [A loses certainty]. Do not merely divide the monologue into alternating lines.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-creative",
+            1,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-script-transfer",
+          "rubricClause": "Проверь: имена перед репликами и ремарки отличают пьесу от сплошного монолога; ответ второго героя меняет следующую реплику первого; цели и голоса различимы; поворот передан видимым действием; начало оставляет нерешённый вопрос. Пример: А говорит «Я знаю дорогу», Б спрашивает «Тогда что за тем поворотом?», а ремарка [А складывает карту.] заменяет отвлечённое [А теряет уверенность.]. Недостаточно просто распределить монолог между двумя именами.",
+          "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
       "sessionIds": [
-        "e-creative-full-practice"
+        "e-creative-full-practice",
+        "school-picture-monologue-practice",
+        "school-script-transfer-practice"
       ],
       "prerequisites": [],
       "timingRange": [
@@ -40852,8 +41612,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "A complete 45-minute practice portion with an annotated model is attached, but is not scheduled. Choose one replacement if needed. The exact current school outline/text scope still needs independent source verification.",
-        "ru": "Подключена полная учебная порция на 45 минут с размеченным образцом, но она не назначена в календарь. При необходимости выбери одну замену. Оригинал текущего школьного перечня и состав текстов ещё требуют независимой проверки."
+        "en": "A complete practice portion is selectable within one existing replacement. The archived prescribed sheet is observed; original linked film/alternate comparison content remains unverified and actual unseen exam texts are not guaranteed.",
+        "ru": "Полная тренировочная порция доступна как одна замена в существующем времени. Архивный школьный лист прочитан; содержание связанного фильма и дополнительного сопоставления ещё не проверено, состав неизвестных экзаменационных текстов не гарантируется."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -40872,17 +41632,19 @@
       },
       "portionGroupId": "e-creative-full-practice",
       "coverageStatus": "equivalent-skill-practice-not-confirmed-exam-texts",
-      "currentSourceVerification": "required",
+      "currentSourceVerification": "three-page-prescribed-practice-observed-by-coordinator; final-source-alignment-review-pending",
       "modelAttachmentStatus": "attached-current-integration-candidate-independent-review-pending",
       "portionMinutes": 45,
       "placementStatus": "selectable-replacement-not-scheduled",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
       "availablePracticeIds": [
         "monologue",
-        "e-creative-full-rehearsal"
+        "e-creative-full-rehearsal",
+        "school-picture-monologue",
+        "school-script-transfer"
       ],
       "timingBasis": "existing-session-range",
-      "sourceAcceptance": "not-established-by-this-author-map",
+      "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     },
     {
@@ -40893,8 +41655,8 @@
         "ru": "Строить развёрнутый аргумент для аудитории и цели"
       },
       "sourceId": "english",
-      "sourceLocator": "Declared current mock outline: task family 3; independent access to the exact current outline is unresolved.",
-      "scopeStatus": "unknown",
+      "sourceLocator": "Archived Grade 10 prescribed revision sheet posted 5 October (year not displayed), all three pages observed 18 October 2026; task family 3. Prescribed practice, not guaranteed unseen examination texts.",
+      "scopeStatus": "confirmed-archived",
       "lessonPath": "/november/e-purpose?part=e-purpose-full-practice",
       "canonicalTeachingPointers": [
         {
@@ -40958,7 +41720,9 @@
         "availability": "current"
       },
       "practiceIds": [
-        "e-purpose-full-rehearsal"
+        "e-purpose-full-rehearsal",
+        "school-gothic-speech-transfer",
+        "school-surveillance-article"
       ],
       "checkedAnswerPointers": [
         {
@@ -40988,10 +41752,68 @@
           "questionId": "e-purpose-full-rehearsal",
           "rubricClause": "Сверься с полным авторским образцом и комментариями на этой странице; другие обоснованные решения тоже допустимы.",
           "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-purpose",
+            0,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-gothic-speech-transfer",
+          "rubricClause": "Check the actual new argument, not just copied camera vocabulary: clear curriculum position; two reasons developed through explanation or verified textual detail; a fair concern about distress, relevance or limited lesson time; a proportionate response; direct audience address and speakable sentences; a feasible final request. “All pupils will improve” is unsupported. The worked paragraph in this section shows a bounded claim and response without invented data. A reasoned opposing position is equally valid. This checklist is authored guidance, not an official rubric.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-purpose",
+            0,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-gothic-speech-transfer",
+          "rubricClause": "Проверяй новое рассуждение, а не замену слова «камеры»: ясная позиция о программе; два довода с объяснением или проверенной деталью произведения; честное возражение о тревожном содержании, актуальности или времени урока; соразмерный ответ; обращение к слушателям и удобные для произнесения фразы; выполнимый призыв. «Все ученики станут учиться лучше» — ничем не подтверждённое обещание. Разобранный абзац в этом разделе показывает осторожный тезис и ответ без выдуманных данных. Аргументированная противоположная позиция тоже допустима. Это учебные ориентиры, а не официальная шкала.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-purpose",
+            1,
+            "answer",
+            "en"
+          ],
+          "availability": "current",
+          "questionId": "school-surveillance-article",
+          "rubricClause": "Authored rubric: Genre — headline/byline and paragraphs work for independent readers, with no leftover “Friends” or stage cues. Argument — oppose permanence, answer the trial argument fairly, develop an alternative and its limits. Evidence — distinguish possible benefits/harms from observed facts; no fabricated statistics. Organisation — each paragraph advances one connected step; ending gives a condition or recommendation. Language — measured student-magazine register, precise verbs, controlled punctuation; 350–450 body words. Revise any criterion you cannot support with a sentence from your own draft. Different defensible conclusions are allowed if you answer the prompt.",
+          "reviewStatus": "pending-exact-final-subject-review"
+        },
+        {
+          "file": "src/modules/november/englishSchoolPractice.ts",
+          "export": "englishSchoolPractice",
+          "path": [
+            "e-purpose",
+            1,
+            "answer",
+            "ru"
+          ],
+          "availability": "current",
+          "questionId": "school-surveillance-article",
+          "rubricClause": "Авторские критерии: Жанр — заголовок, подпись и абзацы рассчитаны на самостоятельное чтение; не осталось «Друзья!» или сценических указаний. Рассуждение — ты возражаешь против постоянного режима, честно отвечаешь на довод об испытании, развиваешь альтернативу и её ограничения. Доказательства — возможные последствия отделены от наблюдённых фактов, статистика не придумана. Композиция — каждый абзац продвигает связную мысль, финал даёт условие или рекомендацию. Язык — сдержанный стиль ученического журнала, точные глаголы, грамотная пунктуация; 350–450 слов в основном тексте. Исправь каждый пункт, которому не можешь предъявить фразу из своей работы. Допустимы разные обоснованные выводы, отвечающие заданию.",
+          "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
       "sessionIds": [
-        "e-purpose-full-practice"
+        "e-purpose-full-practice",
+        "school-gothic-speech-transfer-practice",
+        "school-surveillance-article-practice"
       ],
       "prerequisites": [],
       "timingRange": [
@@ -41004,8 +41826,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "A complete 45-minute practice portion with an annotated model is attached, but is not scheduled. Choose one replacement if needed. The exact current school outline/text scope still needs independent source verification.",
-        "ru": "Подключена полная учебная порция на 45 минут с размеченным образцом, но она не назначена в календарь. При необходимости выбери одну замену. Оригинал текущего школьного перечня и состав текстов ещё требуют независимой проверки."
+        "en": "A complete practice portion is selectable within one existing replacement. The archived prescribed sheet is observed; original linked film/alternate comparison content remains unverified and actual unseen exam texts are not guaranteed.",
+        "ru": "Полная тренировочная порция доступна как одна замена в существующем времени. Архивный школьный лист прочитан; содержание связанного фильма и дополнительного сопоставления ещё не проверено, состав неизвестных экзаменационных текстов не гарантируется."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -41024,17 +41846,19 @@
       },
       "portionGroupId": "e-purpose-full-practice",
       "coverageStatus": "equivalent-skill-practice-not-confirmed-exam-texts",
-      "currentSourceVerification": "required",
+      "currentSourceVerification": "three-page-prescribed-practice-observed-by-coordinator; final-source-alignment-review-pending",
       "modelAttachmentStatus": "attached-current-integration-candidate-independent-review-pending",
       "portionMinutes": 45,
       "placementStatus": "selectable-replacement-not-scheduled",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
       "availablePracticeIds": [
         "speech",
-        "e-purpose-full-rehearsal"
+        "e-purpose-full-rehearsal",
+        "school-gothic-speech-transfer",
+        "school-surveillance-article"
       ],
       "timingBasis": "existing-session-range",
-      "sourceAcceptance": "not-established-by-this-author-map",
+      "sourceAcceptance": "not-established-by-this-author-map; prescribed-sheet-observed; skill-practice-and-unseen-source-boundaries-require-independent-final-review",
       "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
     },
     {
@@ -41171,21 +41995,20 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-fr-g9-unit-1"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "The exact archived G9 lesson and its questions are available at the direct lesson link, but no current session explicitly selects this lesson. ",
-        "ru": "Конкретный архивный урок G9 с вопросами доступен по прямой ссылке, но ни одна текущая порция явно не выбирает этот урок. "
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -41198,22 +42021,23 @@
         50
       ],
       "placementNote": {
-        "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
-        "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
       },
-      "portionGroupId": "f-language-core",
-      "coverageStatus": "bounded-original-rehearsal",
+      "portionGroupId": "residual-fr-g9-unit-1",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "scopeNote": {
         "en": "Archived language objectives only; geography tourism material is not substituted for French practice.",
         "ru": "Только архивные языковые цели; география туризма не подменяет французскую практику."
       },
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "candidateSessionIds": [
         "f-language-core"
       ],
       "placementStatus": "direct-g9-lesson-no-exact-session",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25
     },
     {
       "objectiveId": "FR-G9-UNIT-2",
@@ -41315,11 +42139,13 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-fr-g9-unit-2"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -41327,8 +42153,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The exact archived G9 lesson and its questions are available at the direct lesson link, but no current session explicitly selects this lesson. The teacher-linked material supports four relationships; its exact equivalence with the older checklist’s four-type wording remains unknown.",
-        "ru": "Конкретный архивный урок G9 с вопросами доступен по прямой ссылке, но ни одна текущая порция явно не выбирает этот урок. Школьный связанный материал подтверждает четыре связи; их точное тождество формулировке старого списка о четырёх типах остаётся неизвестным."
+        "en": "A finite choice selects the available lesson. The teacher-linked four relationships remain unconfirmed as an exact match to the older checklist’s four-type wording.",
+        "ru": "Порция выбирает доступный урок. Точное соответствие четырёх отношений из материала учителя старой формулировке о четырёх типах остаётся неподтверждённым."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -41342,22 +42168,23 @@
         50
       ],
       "placementNote": {
-        "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
-        "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
       },
-      "portionGroupId": "f-write-core",
-      "coverageStatus": "bounded-original-rehearsal",
+      "portionGroupId": "residual-fr-g9-unit-2",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "scopeNote": {
         "en": "Archived language objectives only; geography tourism material is not substituted for French practice.",
         "ru": "Только архивные языковые цели; география туризма не подменяет французскую практику."
       },
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "candidateSessionIds": [
         "f-write-core"
       ],
       "placementStatus": "direct-g9-lesson-no-exact-session",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25
     },
     {
       "objectiveId": "FR-G9-UNIT-3",
@@ -41727,21 +42554,22 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "f-education-reading-practice",
+        "f-school-journeys-reading-practice",
+        "f-education-listening-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
         "physics-partial",
         "chemistry-partial"
       ],
-      "unplacedReason": {
-        "en": "The exact archived G9 lesson and its questions are available at the direct lesson link, but no current session explicitly selects this lesson. ",
-        "ru": "Конкретный архивный урок G9 с вопросами доступен по прямой ссылке, но ни одна текущая порция явно не выбирает этот урок. "
-      },
+      "unplacedReason": null,
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
       "diagnosticEvidenceRequired": {
@@ -41754,22 +42582,23 @@
         65
       ],
       "placementNote": {
-        "en": "The listed session is the existing parent container; the objective shares the indicated question portion with other rows. Its time is not additional or additive.",
-        "ru": "Указана существующая родительская порция. Цель делит выбранное задание с другими строками; время не добавляется и не суммируется отдельно."
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
       },
-      "portionGroupId": "f-listen-core",
-      "coverageStatus": "bounded-original-rehearsal",
+      "portionGroupId": "f-education-reading-practice",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "scopeNote": {
         "en": "Archived language objectives only; geography tourism material is not substituted for French practice.",
         "ru": "Только архивные языковые цели; география туризма не подменяет французскую практику."
       },
-      "timingBasis": "existing-shared-parent-session; selected-rubric-does-not-prove-entire-parent-mastery",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "candidateSessionIds": [
         "f-listen-core"
       ],
       "placementStatus": "direct-g9-lesson-no-exact-session",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25
     },
     {
       "objectiveId": "FR-G9-GRAM-1",
@@ -43551,11 +44380,13 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "arabic-routine-reading-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        15,
-        25
+        20,
+        30
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -43563,8 +44394,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The two exact reading questions are on the direct a-routine lesson. The generic optional a-language blocks do not select these G9 question IDs, and no finite reading-session ID is defined for them. Morning/evening contrast additionally uses the new written model, not inferred audio words.",
-        "ru": "Два конкретных вопроса чтения находятся в прямом уроке a-routine. Общие необязательные блоки a-language не выбирают эти G9 ID вопросов, а отдельная конечная порция чтения не определена. Различие утра/вечера дополнительно тренируется по новому письменному образцу, не по додуманным словам записи."
+        "en": "Finite reading/listening choices use the existing routine lesson. Competent human listening remains pending; morning/evening wording is supported by the written model, not inferred from the recording.",
+        "ru": "Конечные порции чтения и аудирования используют существующий урок о распорядке дня. Проверка аудирования компетентным человеком остаётся открытой; слова об утре и вечере опираются на письменный образец, а не домысливаются по записи."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -43577,15 +44408,20 @@
         "requiresArabicOptIn": true,
         "currentRegistration": "unknown"
       },
-      "portionGroupId": "arabic-routine-reading-writing",
-      "coverageStatus": "conditional-authored-practice",
+      "portionGroupId": "arabic-routine-reading-practice",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "placementStatus": "direct-lesson-no-exact-session",
       "candidateSessionIds": [
         "a-language-core"
       ],
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 20,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "AR-G9-03",
@@ -44197,11 +45033,13 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "arabic-routine-reading-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        15,
-        25
+        20,
+        30
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -44209,8 +45047,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The two exact reading questions are on the direct a-routine lesson. The generic optional a-language blocks do not select these G9 question IDs, and no finite reading-session ID is defined for them. Morning/evening contrast additionally uses the new written model, not inferred audio words.",
-        "ru": "Два конкретных вопроса чтения находятся в прямом уроке a-routine. Общие необязательные блоки a-language не выбирают эти G9 ID вопросов, а отдельная конечная порция чтения не определена. Различие утра/вечера дополнительно тренируется по новому письменному образцу, не по додуманным словам записи."
+        "en": "Finite reading/listening choices use the existing routine lesson. Competent human listening remains pending; morning/evening wording is supported by the written model, not inferred from the recording.",
+        "ru": "Конечные порции чтения и аудирования используют существующий урок о распорядке дня. Проверка аудирования компетентным человеком остаётся открытой; слова об утре и вечере опираются на письменный образец, а не домысливаются по записи."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -44223,8 +45061,8 @@
         "requiresArabicOptIn": true,
         "currentRegistration": "unknown"
       },
-      "portionGroupId": "arabic-routine-reading-writing",
-      "coverageStatus": "conditional-authored-practice",
+      "portionGroupId": "arabic-routine-reading-practice",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "placementStatus": "direct-lesson-no-exact-session",
       "assessmentLimit": {
         "en": "The existing audio transcript does not explicitly state morning; use the new written model for morning/evening distinctions. Do not invent words in a listening answer.",
@@ -44233,9 +45071,14 @@
       "candidateSessionIds": [
         "a-language-core"
       ],
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 20,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "AR-G9-08",
@@ -44348,11 +45191,13 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "arabic-routine-reading-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        15,
-        25
+        20,
+        30
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -44360,8 +45205,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The two exact reading questions are on the direct a-routine lesson. The generic optional a-language blocks do not select these G9 question IDs, and no finite reading-session ID is defined for them. Morning/evening contrast additionally uses the new written model, not inferred audio words.",
-        "ru": "Два конкретных вопроса чтения находятся в прямом уроке a-routine. Общие необязательные блоки a-language не выбирают эти G9 ID вопросов, а отдельная конечная порция чтения не определена. Различие утра/вечера дополнительно тренируется по новому письменному образцу, не по додуманным словам записи."
+        "en": "Finite reading/listening choices use the existing routine lesson. Competent human listening remains pending; morning/evening wording is supported by the written model, not inferred from the recording.",
+        "ru": "Конечные порции чтения и аудирования используют существующий урок о распорядке дня. Проверка аудирования компетентным человеком остаётся открытой; слова об утре и вечере опираются на письменный образец, а не домысливаются по записи."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -44374,8 +45219,8 @@
         "requiresArabicOptIn": true,
         "currentRegistration": "unknown"
       },
-      "portionGroupId": "arabic-routine-reading-writing",
-      "coverageStatus": "conditional-authored-practice",
+      "portionGroupId": "arabic-routine-reading-practice",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "placementStatus": "direct-lesson-no-exact-session",
       "assessmentLimit": {
         "en": "The existing audio transcript does not explicitly state morning; use the new written model for morning/evening distinctions. Do not invent words in a listening answer.",
@@ -44384,9 +45229,14 @@
       "candidateSessionIds": [
         "a-language-core"
       ],
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 20,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "AR-G9-09",
@@ -46441,11 +47291,13 @@
           "reviewStatus": "pending-exact-final-subject-review"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "arabic-routine-listening-practice"
+      ],
       "prerequisites": [],
       "timingRange": [
-        10,
-        20
+        20,
+        30
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -46453,8 +47305,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "No exact listening-session ID is defined and competent human listening is pending. A time that sounds plausible is not evidence for an unspoken morning/evening word.",
-        "ru": "Отдельный ID порции аудирования не задан, компетентное прослушивание ещё впереди. Правдоподобное время не доказывает непроизнесённого слова «утром» или «вечером»."
+        "en": "Finite reading/listening choices use the existing routine lesson. Competent human listening remains pending; morning/evening wording is supported by the written model, not inferred from the recording.",
+        "ru": "Конечные порции чтения и аудирования используют существующий урок о распорядке дня. Проверка аудирования компетентным человеком остаётся открытой; слова об утре и вечере опираются на письменный образец, а не домысливаются по записи."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -46466,7 +47318,7 @@
       "candidateSessionIds": [
         "a-language-core"
       ],
-      "portionGroupId": "arabic-routine-listening",
+      "portionGroupId": "arabic-routine-listening-practice",
       "conditional": {
         "requiresArabicOptIn": true,
         "currentRegistration": "unknown"
@@ -46477,9 +47329,15 @@
         "status": "pending",
         "heard": false
       },
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 20,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      },
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance"
     },
     {
       "objectiveId": "MATH-G910-GAP-01",
@@ -46619,11 +47477,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-01"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -46631,8 +47491,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -46641,12 +47501,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-data",
-      "portionGroupId": "math-gap:probability:two-way",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-01",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-02",
@@ -46786,11 +47651,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-02"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -46798,8 +47665,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -46808,12 +47675,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-data",
-      "portionGroupId": "math-gap:probability:tree",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-02",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-03",
@@ -46953,11 +47825,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-03"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -46965,8 +47839,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -46975,12 +47849,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:solids:pyramid",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-03",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-04",
@@ -47120,11 +47999,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-04"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -47132,8 +48013,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -47142,12 +48023,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:solids:cone",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-04",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-05",
@@ -47257,11 +48143,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-05"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -47269,8 +48157,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -47279,12 +48167,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:solids:sphere",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-05",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-06",
@@ -47394,11 +48287,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-06"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -47406,8 +48301,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -47416,12 +48311,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:solids:composite",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-06",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-07",
@@ -47561,11 +48461,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-07"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -47573,8 +48475,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -47583,12 +48485,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:solids:units",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-07",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-08",
@@ -47728,11 +48635,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-08"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -47740,8 +48649,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -47750,12 +48659,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:transformations:sss",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-08",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-09",
@@ -47895,11 +48809,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-09"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -47907,8 +48823,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -47917,12 +48833,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:transformations:similarity",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-09",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-10",
@@ -48032,11 +48953,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-10"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -48044,8 +48967,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -48054,12 +48977,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:transformations:dilation",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-10",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-11",
@@ -48169,11 +49097,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-11"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -48181,8 +49111,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -48191,12 +49121,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-geometry",
-      "portionGroupId": "math-gap:transformations:construction",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-11",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     },
     {
       "objectiveId": "MATH-G910-GAP-12",
@@ -48366,11 +49301,13 @@
           "entityKind": "authored-gap-block"
         }
       ],
-      "sessionIds": [],
+      "sessionIds": [
+        "residual-math-g910-gap-12"
+      ],
       "prerequisites": [],
       "timingRange": [
-        20,
-        30
+        25,
+        35
       ],
       "replaceableBlockIds": [
         "biology-full",
@@ -48378,8 +49315,8 @@
         "chemistry-partial"
       ],
       "unplacedReason": {
-        "en": "The precise worked/independent companion block is attached to this existing mock lesson, but no study-session ID selects this block. Choose a bounded replacement; its timing is an author estimate and current mock eligibility is unconfirmed.",
-        "ru": "Точный блок с разбором и самостоятельным заданием подключён к существующему уроку mock, но ID учебной порции для него не задан. Выбери конечную замену; время является авторской оценкой, а включение в нынешний mock не подтверждено."
+        "en": "The archived companion block is available as a finite optional replacement. Current registered mock eligibility remains unconfirmed; timings are author estimates.",
+        "ru": "Архивный блок с разбором доступен как конечная замена по выбору. Включение в зарегистрированный текущий mock не подтверждено; время оценено автором."
       },
       "diagnosticStatus": "unassessed",
       "bindingStatus": "proposed-not-independent-acceptance",
@@ -48388,12 +49325,17 @@
         "ru": "Реши выбранное задание без ответа, затем сравни указанный пункт разбора и запиши исправление. Чтение образца не является успешной диагностикой."
       },
       "topicId": "m-data",
-      "portionGroupId": "math-gap:sampling-correlation:scatter",
-      "coverageStatus": "new-authored-practice-attached",
+      "portionGroupId": "residual-math-g910-gap-12",
+      "coverageStatus": "finite-diagnostic-choice-selected-not-independent-acceptance",
       "attachmentStatus": "attached-current-integration-candidate-independent-review-pending",
-      "timingBasis": "authored-estimate-for-selected-ability-not-additive-across-shared-portion",
+      "timingBasis": "author-estimate-one-optional-replacement-no-added-load",
       "sourceAcceptance": "not-established-by-this-author-map",
-      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted"
+      "replacementPolicy": "one-for-one-within-existing-capacity; retain-displaced-objectives-uncompleted",
+      "portionMinutes": 25,
+      "placementNote": {
+        "en": "Optional finite choice in an existing replacement window. The route may show other reference material; attempt only the listed practice IDs. Time is shared, never additional; unfinished work remains visible.",
+        "ru": "Конечная порция по выбору в существующем окне замены. На странице может быть и другой справочный материал; выполняй указанные ID заданий. Время общее и не добавляется; незавершённое остаётся в остатке."
+      }
     }
   ]
 }

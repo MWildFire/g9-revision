@@ -240,3 +240,7 @@ input[type='range']::-moz-range-thumb {
   .nuclear-visual > svg { min-width: 540px; }
   .definition-diagram .definition-diagram-viewport svg { min-width: 420px; }
 }
+
+/* Keep energy-profile teaching labels readable; its focusable region scrolls on narrow screens. */
+.energy-profile-diagram{min-width:420px}
+@media print{.energy-profile-diagram{min-width:0}}

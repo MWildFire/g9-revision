@@ -1,3 +1,4 @@
+import {preparationSourcePassages} from './preparationDiagnostics';
 import { b, type Text } from './content';
 
 type Passage = { title: string; url: string; locator: Text };
@@ -100,3 +101,5 @@ sourcePassages['b-cells'].push(
 );
 
 sourcePassages['b-cells'].push({ title: 'А.И. Евстифеев, Н.В. Котов · Транспорт кислорода через мембрану эритроцитов · КФУ, 2014', url: 'https://kpfu.ru/portal/docs/F163594149/Kotov_Kislorod.pdf#page=7', locator: b('Section1.1, printed7–8/PDF7–8: biconcave geometry increases the surface compared with an equal-volume sphere and shortens diffusion distances. Selected qualitative explanation; no numerical shape factors are required here.', '§1.1, печатные с.7–8/PDF7–8: двояковогнутая форма увеличивает поверхность по сравнению с равновеликой сферой и сокращает путь диффузии. Здесь используется качественное объяснение, без численных коэффициентов формы.') });
+
+for(const[topic,passages]of Object.entries(preparationSourcePassages)){(sourcePassages[topic]??=[]).push(...passages);}

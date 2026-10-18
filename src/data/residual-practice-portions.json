@@ -1,0 +1,823 @@
+[
+  {
+    "id": "diagnostic-spring-energy-diagnostic",
+    "topic": "p-energy",
+    "title": {
+      "en": "Spring graph: force, energy and model limit",
+      "ru": "График пружины: сила, энергия и границы модели"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "spring-energy-diagnostic"
+    ],
+    "teachingTitles": [
+      "Spring graph: force, energy and model limit"
+    ]
+  },
+  {
+    "id": "diagnostic-gas-controls-diagnostic",
+    "topic": "p-matter",
+    "title": {
+      "en": "Two controlled gas changes",
+      "ru": "Два опыта с неизменным количеством газа"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "gas-controls-diagnostic"
+    ],
+    "teachingTitles": [
+      "Two controlled gas changes"
+    ]
+  },
+  {
+    "id": "diagnostic-electron-transfer-diagnostic",
+    "topic": "p-electric",
+    "title": {
+      "en": "Electron transfer and charge accounting",
+      "ru": "Перенос электронов и баланс заряда"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "electron-transfer-diagnostic"
+    ],
+    "teachingTitles": [
+      "Electron transfer and charge accounting"
+    ]
+  },
+  {
+    "id": "diagnostic-microscope-method-diagnostic",
+    "topic": "b-cells",
+    "title": {
+      "en": "Microscope method: prepare, draw and choose",
+      "ru": "Микроскопия: препарат, рисунок и выбор прибора"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "microscope-method-diagnostic"
+    ],
+    "teachingTitles": [
+      "Microscope method: prepare, draw and choose"
+    ]
+  },
+  {
+    "id": "diagnostic-digestive-route-diagnostic",
+    "topic": "b-nutrition",
+    "title": {
+      "en": "Route and role of each digestive organ",
+      "ru": "Путь пищи и роль каждого органа"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "digestive-route-diagnostic"
+    ],
+    "teachingTitles": [
+      "Route and role of each digestive organ"
+    ]
+  },
+  {
+    "id": "diagnostic-vessel-comparison-diagnostic",
+    "topic": "b-transport",
+    "title": {
+      "en": "Compare three vessel types",
+      "ru": "Сравни три типа сосудов"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "vessel-comparison-diagnostic"
+    ],
+    "teachingTitles": [
+      "Compare three vessel types"
+    ]
+  },
+  {
+    "id": "diagnostic-seed-dispersal-diagnostic",
+    "topic": "b-earlier",
+    "title": {
+      "en": "Match dispersal adaptations to mechanisms",
+      "ru": "Свяжи приспособления семян со способом переноса"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "seed-dispersal-diagnostic"
+    ],
+    "teachingTitles": [
+      "Match dispersal adaptations to mechanisms"
+    ]
+  },
+  {
+    "id": "geo-geo-48-practice",
+    "topic": "g-previous",
+    "title": {
+      "en": "Use ranks correctly and qualify a correlation result",
+      "ru": "Использовать ранги и правильно ограничивать вывод о корреляции"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "fieldwork-zero-rank"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/grade9/g-fieldwork"
+  },
+  {
+    "id": "physics-paper-a-practice",
+    "topic": "p-energy",
+    "title": {
+      "en": "Physics A: complete energy and heating question",
+      "ru": "Физика A: весь вопрос об энергии и нагревании"
+    },
+    "minutes": 30,
+    "range": [
+      30,
+      40
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 16,
+      "check": 5
+    },
+    "practiceIds": [
+      "phy-A"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/november/paper/physics?sections=phy-A"
+  },
+  {
+    "id": "physics-paper-d-practice",
+    "topic": "p-energy",
+    "title": {
+      "en": "Physics D: complete energy-resource evaluation",
+      "ru": "Физика D: весь вопрос об оценке источников энергии"
+    },
+    "minutes": 30,
+    "range": [
+      30,
+      40
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 16,
+      "check": 5
+    },
+    "practiceIds": [
+      "phy-D"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/november/paper/physics?sections=phy-D"
+  },
+  {
+    "id": "residual-math-g9-02",
+    "topic": "m-core",
+    "title": {
+      "en": "Round with a stated accuracy and bound an interval",
+      "ru": "Округлять с заданной точностью и находить границы интервала"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "m-ns-6",
+      "m-ns-7",
+      "m-ns-ric-2"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/math/number-systems"
+  },
+  {
+    "id": "residual-math-g9-03",
+    "topic": "m-core",
+    "title": {
+      "en": "Use powers, standard form and radical operations",
+      "ru": "Применять степени, стандартную форму и действия с корнями"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "m-ns-2",
+      "m-ns-3",
+      "m-ns-4",
+      "m-ns-9",
+      "m-ns-ext-1",
+      "m-ns-ext-3",
+      "m-ns-11",
+      "m-ns-14"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/math/number-systems"
+  },
+  {
+    "id": "residual-math-g9-04",
+    "topic": "m-core",
+    "title": {
+      "en": "Solve a simple absolute-value equation",
+      "ru": "Решать простое уравнение с модулем"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "m-ns-12"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/math/number-systems"
+  },
+  {
+    "id": "residual-fr-g9-unit-1",
+    "topic": "f-language",
+    "title": {
+      "en": "Discuss eating and health respectfully using evidence",
+      "ru": "Обсуждать питание и здоровье уважительно и с опорой на текст"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "f-health-community-1",
+      "f-health-community-2",
+      "f-health-reading-1",
+      "f-health-reading-2",
+      "f-health-reading-3",
+      "f-health-reading-4"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/grade9/f-health-community"
+  },
+  {
+    "id": "residual-fr-g9-unit-2",
+    "topic": "f-write",
+    "title": {
+      "en": "Justify community support using relations and learner actions",
+      "ru": "Обосновывать помощь сообществу через связи и действия ученика"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "f-solidarity-profile-1",
+      "f-solidarity-profile-2",
+      "f-solidarity-profile-3",
+      "f-solidarity-four-relations"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/grade9/f-solidarity-profile"
+  },
+  {
+    "id": "f-education-reading-practice",
+    "topic": "f-language",
+    "title": {
+      "en": "Compare access to education using supplied French examples",
+      "ru": "Сравнивать доступ к образованию по данным французским примерам"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "f-france-education-1",
+      "f-france-education-2",
+      "f-france-education-3"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/grade9/f-france-education"
+  },
+  {
+    "id": "f-school-journeys-reading-practice",
+    "topic": "f-language",
+    "title": {
+      "en": "Compare access to education using supplied French examples",
+      "ru": "Сравнивать доступ к образованию по данным французским примерам"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "f-school-journeys-1",
+      "f-school-journeys-2",
+      "f-school-journeys-3"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/grade9/f-school-journeys"
+  },
+  {
+    "id": "f-education-listening-practice",
+    "topic": "f-listen",
+    "title": {
+      "en": "Compare access to education using supplied French examples",
+      "ru": "Сравнивать доступ к образованию по данным французским примерам"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "f-listen-education"
+    ],
+    "teachingTitles": []
+  },
+  {
+    "id": "arabic-routine-reading-practice",
+    "topic": "a-language",
+    "title": {
+      "en": "Read a routine and bind each time to its action",
+      "ru": "Читать распорядок, связывая время с действием"
+    },
+    "minutes": 20,
+    "range": [
+      20,
+      30
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 6,
+      "check": 5
+    },
+    "practiceIds": [
+      "a-routine-1",
+      "a-routine-2"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/grade9/a-routine"
+  },
+  {
+    "id": "arabic-routine-listening-practice",
+    "topic": "a-language",
+    "title": {
+      "en": "Retrieve a stated time and sequence from synthetic Arabic speech",
+      "ru": "Находить произнесённое время и последовательность в синтезированной арабской речи"
+    },
+    "minutes": 20,
+    "range": [
+      20,
+      30
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 6,
+      "check": 5
+    },
+    "practiceIds": [
+      "a-routine-1",
+      "a-routine-2"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/grade9/a-routine"
+  },
+  {
+    "id": "residual-math-g910-gap-01",
+    "topic": "m-data",
+    "title": {
+      "en": "Solve and justify: Two-way tables: decide the denominator first",
+      "ru": "Решать и обосновывать: Таблица сопряжённости: сначала выбери знаменатель"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "two-way"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/probability"
+  },
+  {
+    "id": "residual-math-g910-gap-02",
+    "topic": "m-data",
+    "title": {
+      "en": "Solve and justify: Build the tree and enumerate the ordered outcomes",
+      "ru": "Решать и обосновывать: Построй дерево и перечисли упорядоченные исходы"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "tree"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/probability"
+  },
+  {
+    "id": "residual-math-g910-gap-03",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: Regular square pyramid: face height and perpendicular height",
+      "ru": "Решать и обосновывать: Правильная четырёхугольная пирамида: высота и апофема"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "pyramid"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/solids"
+  },
+  {
+    "id": "residual-math-g910-gap-04",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: Right cone: include the base",
+      "ru": "Решать и обосновывать: Прямой круговой конус: не забудь основание"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "cone"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/solids"
+  },
+  {
+    "id": "residual-math-g910-gap-05",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: Sphere surface and the volume inside it",
+      "ru": "Решать и обосновывать: Площадь сферы и объём шара"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "sphere"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/solids"
+  },
+  {
+    "id": "residual-math-g910-gap-06",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: Cylinder joined to a hemisphere: count only exposed surfaces",
+      "ru": "Решать и обосновывать: Цилиндр с полушарием: считай только внешнюю поверхность"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "composite"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/solids"
+  },
+  {
+    "id": "residual-math-g910-gap-07",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: Compound units: square, cube and cancel the conversion factor",
+      "ru": "Решать и обосновывать: Составные единицы: возведи множитель в степень и сократи единицы"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "units"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/solids"
+  },
+  {
+    "id": "residual-math-g910-gap-08",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: Write an ordered congruence proof",
+      "ru": "Решать и обосновывать: Запиши доказательство равенства с соответствием вершин"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "sss"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/transformations"
+  },
+  {
+    "id": "residual-math-g910-gap-09",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: AA similarity: match angles before lengths",
+      "ru": "Решать и обосновывать: Подобие по двум углам: сначала углы, потом стороны"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "similarity"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/transformations"
+  },
+  {
+    "id": "residual-math-g910-gap-10",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: A dilation needs a centre and a signed scale factor",
+      "ru": "Решать и обосновывать: Гомотетия: нужны центр и коэффициент со знаком"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "dilation"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/transformations"
+  },
+  {
+    "id": "residual-math-g910-gap-11",
+    "topic": "m-geometry",
+    "title": {
+      "en": "Solve and justify: Construct images and check a tessellation",
+      "ru": "Решать и обосновывать: Построй образы и проверь паркетаж"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "construction"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/transformations"
+  },
+  {
+    "id": "residual-math-g910-gap-12",
+    "topic": "m-data",
+    "title": {
+      "en": "Solve and justify: Fit and prediction need an actual dataset",
+      "ru": "Решать и обосновывать: Прогноз по прямой: нужны реальные пары значений"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "scatter"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/mocks/sampling-correlation"
+  },
+  {
+    "id": "physics-numerical-resultant-practice",
+    "topic": "p-forces",
+    "title": {
+      "en": "Numerical resultant: one existing calculation",
+      "ru": "Численный расчёт равнодействующей"
+    },
+    "minutes": 25,
+    "range": [
+      25,
+      35
+    ],
+    "timing": {
+      "read": 5,
+      "example": 4,
+      "attempt": 11,
+      "check": 5
+    },
+    "practiceIds": [
+      "fm-5"
+    ],
+    "teachingTitles": [],
+    "studyPath": "/physics/force-motion"
+  }
+]

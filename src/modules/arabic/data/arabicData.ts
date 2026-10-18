@@ -720,7 +720,7 @@ export const GRAMMAR_RULES: ArabicGrammarRule[] = [
         "كِتاب → كُتُب (books); مَدينة → مُدُن (cities).",
         "كِتابانِ kitābāni — two books, nominative; كِتابَيْنِ kitābayni — accusative/genitive."
       ],
-      "watchOut": "In ordinary MSA agreement, non-human plurals normally take feminine singular modifiers: كُتُب جَديدة — new books. Human plural agreement differs; stylistic and classical exceptions exist."
+      "watchOut": "In ordinary MSA agreement, non-human plurals normally take feminine singular modifiers: كُتُب جَديدة — new books. Human plural agreement differs."
     },
     "detailsRu": {
       "body": "Правильное мужское множественное обычно имеет -ūn в именительном и -īn в винительном/родительном падеже. Правильное женское использует -āt, часто вместо ة; не все слова женского рода образуют множественное так. Ломаные формы имеют модели, но нужную модель отдельного слова необходимо знать.",
@@ -730,7 +730,7 @@ export const GRAMMAR_RULES: ArabicGrammarRule[] = [
         "كِتاب → كُتُب — книги; مَدينة → مُدُن — города.",
         "كِتابانِ kitābāni — две книги, именительный; كِتابَيْنِ kitābayni — винительный/родительный."
       ],
-      "watchOut": "В обычном современном литературном арабском множественное число неодушевлённых предметов и животных обычно требует женского единственного в согласуемом слове: كُتُب جَديدة — новые книги. Для людей правило другое; есть стилистические и классические исключения."
+      "watchOut": "В обычном современном литературном арабском множественное число неодушевлённых предметов и животных обычно требует женского единственного в согласуемом слове: كُتُب جَديدة — новые книги. Для людей правило другое."
     }
   },
   {
